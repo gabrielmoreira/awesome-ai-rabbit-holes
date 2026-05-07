@@ -1,13 +1,13 @@
 id: github__pacificstudio__openase
 kind: github-repo
-name: OpenASE
+name: openase
 canonical_url: https://github.com/pacificstudio/openase
 identity:
   github_repo: pacificstudio/openase
 provenance:
   discoveries:
     - id: discovery__github__pacificstudio__openase__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -28,56 +28,56 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2026-03-19T15:53:38Z"
-    pushed_at: "2026-05-05T03:13:24Z"
+    pushed_at: "2026-05-06T03:29:37Z"
     description: Ticket-Driven Automated Software Engineering. OpenASE is an all-in-one platform that turns tickets into working code — AI agents automatically pick up tickets, execute workflows on your machines, and deliver results with full traceability.
     homepage: https://pacificstudio.ai
     topics:
       - agent
       - ai
       - software-engineering
-    last_checked_at: "2026-05-05T21:04:10.505Z"
+    last_checked_at: "2026-05-06T22:45:46.458Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.505Z"
+      fetched_at: "2026-05-06T22:45:46.458Z"
       bytes: 16167
 insights:
-  summary: OpenASE is a ticket-driven automated software engineering platform that uses AI agents to pick up tickets, execute workflows on local machines, and deliver working code with full traceability.
-  why_it_matters: It lets teams define work as tickets and have local AI agents autonomously plan and execute changes against their actual codebase, bridging task management and code generation.
-  mental_damage: Finally, a system that turns Jira tickets directly into committed code, so you can skip the middleman and go straight to reviewing pull requests written by agents you didn't hire.
+  summary: OpenASE is a self-hosted, ticket-driven platform that uses AI agents to automatically pick up development tickets, execute workflows on local machines, and deliver code changes with full traceability.
+  why_it_matters: It lets teams define work as tickets and hand off execution to local AI agents, effectively automating the flow from backlog to implemented code within their own infrastructure.
+  mental_damage: We have finally closed the loop between Jira ticket apathy and AI hallucination by letting the tickets execute themselves on your own hardware.
   tags:
-    - ai-agents
-    - go
     - ticket-driven
+    - agent-orchestration
+    - self-hosted
     - workflow-automation
   confidence: high
 curation:
   status: included
-  reason: The tool is an autonomous coding agent platform that executes tickets against a real codebase via local agents, fitting the coding-agents category rather than app-builders or orchestration.
+  reason: The product is a control plane and runtime platform (shipped as a single Go binary with an embedded UI) that coordinates ticket workflows and agent execution rather than being a single coding assistant.
   evidence:
-    - Repo description states it 'turns tickets into working code' via AI agents executing workflows on your machines.
-    - README describes a ticket-driven model where agents claim tickets and execute workflows on a Machine with an activity stream.
-    - Listed under 'Coding Agents' in the awesome-ai-coding-tools awesome list.
+    - Repo description states it is an 'all-in-one platform' that turns tickets into code via AI agents executing workflows.
+    - README describes a 'single Go binary' shipping an API server, workflow orchestrator, and embedded web UI for managing tickets and agents.
+    - The workflow model explicitly coordinates multiple tickets and agents with status triggers, fitting a control plane pattern.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (231) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:32.993Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.505Z"
+    updated_at: "2026-05-06T22:45:46.458Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:31.917Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

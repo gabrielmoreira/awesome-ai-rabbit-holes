@@ -1,12 +1,12 @@
 id: skillsmp__com
 kind: website
-name: Skillsmp
+name: skillsmp.com
 canonical_url: https://skillsmp.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__skillsmp__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,41 +34,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A searchable marketplace and directory for discovering over 1.2 million open-source agent skills compatible with Claude Code, OpenAI Codex CLI, and ChatGPT using the SKILL.md standard.
-  why_it_matters: It provides a centralized registry and API to find, filter, and install modular AI capabilities, saving developers from digging through scattered GitHub repositories to extend their coding assistants.
-  mental_damage: Just when you thought your AI assistant was smart enough, you now have 1.2 million additional 'skills' to browse, evaluate, and inevitably second-guess your choices over.
+  summary: A discovery marketplace and registry indexing over 1.2 million open-source agent skills compatible with Claude Code, OpenAI Codex CLI, and ChatGPT using the SKILL.md standard.
+  why_it_matters: It provides a centralized search and filtering interface for developers looking to extend their coding assistants with reusable, community-built capabilities.
+  mental_damage: We have successfully abstracted the abstraction by creating a search engine for the modular instruction files that tell our AI assistants how to pretend to be competent at specific occupations.
   tags:
+    - skills
+    - marketplace
     - claude-code
     - codex
-    - directory
-    - marketplace
-    - skills
+    - registry
   confidence: high
 curation:
   status: included
-  reason: It is a dedicated directory and registry for reusable AI developer skills (SKILL.md format) for tools like Claude Code and Codex CLI, which fits the skills category perfectly.
+  reason: The primary artifact is a registry and directory of reusable skill packs (SKILL.md) for coding tools, which aligns perfectly with the Agent Skills category.
   evidence:
-    - Scraped site title and description explicitly call it an 'Agent Skills Marketplace' for Claude, Codex, and ChatGPT.
-    - FAQ states 'Skills are modular capabilities that extend AI coding assistants' using the open SKILL.md standard.
-    - Listed in awesome-LLM-resources under the '技能 Skills' section referencing the same ecosystem.
+    - Title and description explicitly state 'Agent Skills Marketplace' with 1.2M+ skills for Claude Code and Codex CLI.
+    - FAQ defines 'Agent Skills' as modular capabilities extending AI coding assistants via a SKILL.md file.
+    - Source list context places it in a 'Skills' section specifically for the open SKILL.md ecosystem.
 placement:
   primary_category: skills
-  section: null
+  section: Skill Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:13.194Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:40.889Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

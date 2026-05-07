@@ -1,0 +1,80 @@
+id: github__netease-youdao__qanything
+kind: github-repo
+name: qanything
+canonical_url: https://github.com/netease-youdao/qanything
+identity:
+  github_repo: netease-youdao/qanything
+provenance:
+  discoveries:
+    - id: discovery__github__netease-youdao__qanything__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: QAnything
+        extracted_url: https://github.com/netease-youdao/qanything
+        surrounding_text: "7. [QAnything](https://github.com/netease-youdao/QAnything): Question and Answer based on Anything."
+        confidence: high
+metadata:
+  github:
+    stars: 13964
+    forks: 1345
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-01-03T03:24:18Z"
+    pushed_at: "2025-03-24T13:24:36Z"
+    description: Question and Answer based on Anything.
+    homepage: https://qanything.ai
+    topics: []
+    last_checked_at: "2026-05-06T22:45:31.012Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:31.012Z"
+      bytes: 42028
+insights:
+  summary: QAnything is a local, self-hosted knowledge base question-answering system that ingests files and web links to provide offline document retrieval and Q&A.
+  why_it_matters: Developers can deploy it locally to index technical documentation, codebases, and internal knowledge without sending data to external LLM APIs.
+  mental_damage: Finally, a way to ask your 400-page PDF specifications questions, while quietly wondering if the real RAG was the context tokens we burned along the way.
+  tags:
+    - rag
+    - local-ai
+    - knowledge-base
+    - document-qa
+  confidence: high
+curation:
+  status: included
+  reason: The core value is a retrieval and document indexing system for feeding the right context into a model, fitting Prompt & Context Engineering.
+  evidence:
+    - "Repo description states: 'Question and Answer based on Anything.'"
+    - README describes it as a 'local knowledge base question-answering system' supporting PDF, Word, PPT, and web links.
+    - Source list categorized it under '知识库 RAG' (Knowledge Base RAG).
+placement:
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (13964) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.632Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:31.012Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:16:58.652Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

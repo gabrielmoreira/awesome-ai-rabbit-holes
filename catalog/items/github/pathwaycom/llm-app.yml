@@ -1,13 +1,13 @@
 id: github__pathwaycom__llm-app
 kind: github-repo
-name: LLMApp
+name: llm-app
 canonical_url: https://github.com/pathwaycom/llm-app
 identity:
   github_repo: pathwaycom/llm-app
 provenance:
   discoveries:
     - id: discovery__github__pathwaycom__llm-app__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 59842
+    stars: 59826
     forks: 1436
     license: MIT
     archived: false
@@ -47,50 +47,50 @@ metadata:
       - retrieval-augmented-generation
       - vector-database
       - vector-index
-    last_checked_at: "2026-05-05T21:04:13.163Z"
+    last_checked_at: "2026-05-06T22:45:49.031Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.163Z"
+      fetched_at: "2026-05-06T22:45:49.031Z"
       bytes: 9190
 insights:
-  summary: A repository of ready-to-run templates for building RAG pipelines, enterprise search, and AI apps that sync live with data sources like SharePoint, Google Drive, S3, and Kafka.
-  why_it_matters: It provides developers with production-ready, Docker-friendly scaffolding to deploy scalable RAG systems without managing separate infrastructure for live data indexing.
-  mental_damage: Another opportunity to spend three days configuring a pipeline to answer questions against a PDF that hasn't been updated since 2019.
+  summary: A repository of ready-to-deploy Docker templates for building RAG pipelines, enterprise search, and AI applications that sync live with data sources like SharePoint, Google Drive, S3, and Kafka.
+  why_it_matters: It gives developers pre-built, scalable pipelines for real-time data ingestion and retrieval, reducing the boilerplate needed to stand up production RAG systems.
+  mental_damage: Another glorious shortcut to building a RAG pipeline you will inevitably spend three weeks tuning only to realize the hard part was never the indexing speed.
   tags:
-    - enterprise-search
-    - llmops
-    - pathway
     - rag
-    - vector-store
+    - pipelines
+    - enterprise-search
+    - vector-index
+    - llmops
   confidence: high
 curation:
   status: included
-  reason: This is a code-first collection of templates and a framework (Pathway) for building RAG and AI pipelines, fitting the AI Frameworks and SDKs category rather than a hosted builder or coding agent.
+  reason: The project provides code-first templates and building blocks (Docker containers, indexing logic, data connectors) for developers to script and deploy RAG and retrieval infrastructure, fitting the Frameworks & SDKs category.
   evidence:
-    - Repo description states it provides 'Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search'.
-    - README describes 'ready-to-deploy LLM App Templates' that developers can test locally and deploy to cloud/on-prem.
-    - Listed in Awesome-LLMOps under the 'LLMOps' section, confirming its fit as a developer infrastructure tool.
+    - Repo description explicitly calls it 'Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search'.
+    - README describes developers picking templates to deploy or changing pipeline steps (e.g., 'one-line change' to swap indexes), indicating a code-first building block usage.
+    - Listed in Awesome-LLMOps under the 'LLMOps' section, confirming its identity as infrastructure tooling.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (59842) exceeded threshold (150)
+  reason: Stars (59826) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:58.458Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.163Z"
+    updated_at: "2026-05-06T22:45:49.031Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:21:01.744Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

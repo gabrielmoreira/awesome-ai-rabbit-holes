@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lwtlong__ai-dev-analytics__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:26.249Z"
+    last_checked_at: "2026-05-06T22:45:05.375Z"
     readme:
-      fetched_at: "2026-05-05T21:03:26.249Z"
+      fetched_at: "2026-05-06T22:45:05.375Z"
       bytes: 16556
 insights:
-  summary: An open-source MCP server that silently tracks vibe coding sessions locally and visualizes deviations in a dashboard to codify patterns into project rules.
-  why_it_matters: It gives developers structured visibility into AI coding behaviors and automatically converts recurring deviations into reusable project rules to improve future outputs.
-  mental_damage: Your AI assistant is now so unpredictable that you need a local observability stack just to figure out why it keeps writing the layout upside down.
+  summary: An open-source, local-first MCP server that silently observes AI coding sessions, visualizes deviations and task metrics via a dashboard, and auto-generates project rules to improve future AI output.
+  why_it_matters: It gives developers structured observability into vibe coding sessions and turns repeated AI deviations into actionable project rules without leaving the local machine.
+  mental_damage: Finally, quantitative proof that your AI writes 23 deviations per session, so you can add rules, watch the chart go down, and pretend you are doing engineering.
   tags:
     - mcp
     - observability
     - local-first
     - rules
-    - vibe-coding
+    - analytics
   confidence: medium
 curation:
   status: included
-  reason: The product is itself an MCP server that provides observability and rule-generation tooling, fitting cleanly into MCP infrastructure rather than being a generic coding agent.
+  reason: The product identity is an MCP server that integrates with editors and agents to observe coding sessions and manage project rules, fitting MCP infrastructure over a generic extension or framework label.
   evidence:
-    - Repo description explicitly states it 'tracks vibe coding sessions via MCP' and is '100% local'.
-    - README shows it is configured as an MCP server in .mcp.json and integrates with Cursor, VS Code, Windsurf, and Lingma.
-    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers, confirming its MCP server identity.
+    - "Repo description: 'An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.'"
+    - README shows MCP configuration examples for Cursor, VS Code Copilot, Windsurf, and Lingma, confirming MCP server identity.
+    - Source list placement in awesome-mcp-servers under 'Server Implementations > Developer Tools' aligns with its MCP infrastructure role.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:26.249Z"
+    updated_at: "2026-05-06T22:45:05.375Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:03.949Z"
+    updated_at: "2026-05-06T23:11:00.334Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

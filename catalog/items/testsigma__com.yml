@@ -1,12 +1,12 @@
 id: testsigma__com
 kind: website
-name: Testsigma
+name: testsigma.com
 canonical_url: https://testsigma.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__testsigma__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Testsigma is a no-code, AI-powered test automation platform for web, mobile, API, and enterprise applications that uses AI agents to generate, execute, and self-heal tests.
-  why_it_matters: It allows developers and QA teams to shift test creation and maintenance to AI agents, integrating directly into CI/CD pipelines to reduce manual scripting time.
-  mental_damage: Now your AI agents can argue with the UI agents about why the regression suite is failing, while you wonder if writing the test yourself would have been faster.
+  summary: Testsigma is an AI-native, no-code test automation platform that uses AI agents to generate, execute, self-heal, and analyze tests across web, mobile, API, and enterprise applications.
+  why_it_matters: It allows developers and QA teams to automate the entire testing lifecycle using natural language and Jira/Figma inputs, significantly reducing the manual effort of test creation and maintenance.
+  mental_damage: Now you can watch an AI agent autonomously generate and fix the tests that your other AI agent broke while writing the code, completing the circle of automated regret.
   tags:
-    - ai-agents
-    - ci-cd
-    - no-code
-    - qa
     - testing
+    - qa
+    - no-code
+    - ai-agents
+    - enterprise
   confidence: high
 curation:
   status: included
   reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
   evidence:
     - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
-    - Description explicitly mentions 'AI Agents' that generate, run, and manage tests across multiple platforms.
-    - Claims integration with GitHub, Jira, and CI/CD tools like Jenkins and CircleCI for developer workflows.
+    - Product description explicitly states 'AI agents generate tests → turn them into automation instantly → run in CI/CD → self-heal broken tests'.
+    - Platform claims to generate tests from Jira tickets or Figma files using 'Atto' AI agents.
 placement:
   primary_category: app-builders
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:40.444Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:30.692Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openpulsechain__public__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Open-source PulseChain analytics platform — token prices, safety scoring, smart money tracking, holder leagues, bridge stats. REST API + MCP server for AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:06.900Z"
+    last_checked_at: "2026-05-06T22:45:43.685Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.900Z"
+      fetched_at: "2026-05-06T22:45:43.685Z"
       bytes: 5943
 insights:
-  summary: An open-source PulseChain analytics platform that provides a REST API and MCP server with 20 tools for AI agents to query token prices, safety scores, and on-chain data.
-  why_it_matters: Developers building AI agents targeting crypto/DeFi workflows can plug into a ready-made MCP interface for PulseChain data instead of indexing the chain themselves.
-  mental_damage: We have successfully built an MCP server so that your coding agent can lose money on a scandal-plagued fork of Ethereum with the efficiency of a REST API.
+  summary: An open-source analytics platform for PulseChain that provides on-chain data via a REST API and an MCP server for AI agents.
+  why_it_matters: It packages 2,500+ tokens, safety scores, and bridge stats into an MCP server, giving AI assistants structured access to niche crypto data without scraping.
+  mental_damage: Finally, your AI agent can lose money on a lesser-known fork with the confidence of a composite safety score derived from a Python cron job.
   tags:
     - mcp
     - crypto
-    - defi
     - analytics
+    - api
     - pulsechain
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project's primary developer-facing artifact is a Model Context Protocol server (20 tools) for AI assistants, bundled with a broader analytics platform.
+  reason: The primary product identity is a domain-specific MCP server exposing blockchain analytics to AI agents, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'REST API + MCP server for AI agents'
-    - "README confirms 'MCP Server: Model Context Protocol server with 20 tools for AI assistants'"
-    - Included in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - Repo description explicitly states 'REST API + MCP server for AI agents.'
+    - README details a dedicated 'mcp-server/' module with 20 tools for AI assistants.
+    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.900Z"
+    updated_at: "2026-05-06T22:45:43.685Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:55.519Z"
+    updated_at: "2026-05-06T23:19:52.200Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

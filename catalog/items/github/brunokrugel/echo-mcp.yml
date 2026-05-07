@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brunokrugel__echo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,49 +39,50 @@ metadata:
       - golang
       - mcp
       - vscode
-    last_checked_at: "2026-05-05T21:01:25.987Z"
+    last_checked_at: "2026-05-06T22:43:14.185Z"
     readme:
-      fetched_at: "2026-05-05T21:01:25.987Z"
+      fetched_at: "2026-05-06T22:43:14.185Z"
       bytes: 6749
 insights:
-  summary: A Go library that wraps existing Echo framework APIs with Model Context Protocol support, turning REST endpoints into tools that AI agents can call.
-  why_it_matters: It lets developers expose their existing Echo APIs to MCP-compatible agents with zero configuration, bridging standard web services and the growing agent ecosystem.
-  mental_damage: Another day, another framework adapter, because apparently your CRUD API wasn't complete until an AI agent could hallucinate requests against it.
+  summary: A Go library that wraps existing Echo framework APIs into MCP-compatible tools so AI agents can interact with your backend.
+  why_it_matters: Developers using the Echo framework can expose their API routes to MCP-supporting agents with zero configuration and flexible schema options.
+  mental_damage: One more layer of indirection so your REST API can participate in the great MCP namespace land rush before anyone has figured out why they wanted it there.
   tags:
     - mcp
     - go
-    - echo-framework
-    - api-integration
-  confidence: high
+    - echo
+    - api
+    - backend
+  confidence: medium
 curation:
   status: included
-  reason: It is a server-side MCP integration library that specifically enables MCP tooling on top of the Echo framework, fitting cleanly as MCP infrastructure.
+  reason: The product itself is an MCP server middleware specifically designed to bridge Echo APIs into the Model Context Protocol, making MCP its clear product identity.
   evidence:
     - "Repo description: 'Enable AI assistants to interact with your Echo API'"
     - "README: 'Wrap any existing Echo API into MCP tools and enable AI agents to interact with your API through Model Context Protocol'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - "Source list: included in awesome-mcp-servers under 'Server Implementations > Developer Tools'"
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:25.987Z"
+    updated_at: "2026-05-06T22:43:14.185Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:45.019Z"
+    updated_at: "2026-05-06T22:47:15.184Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

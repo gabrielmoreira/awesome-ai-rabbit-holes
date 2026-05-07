@@ -1,13 +1,13 @@
 id: github__oraios__serena
 kind: github-repo
-name: Serena
+name: serena
 canonical_url: https://github.com/oraios/serena
 identity:
   github_repo: oraios/serena
 provenance:
   discoveries:
     - id: discovery__github__oraios__serena__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [oraios/serena](https://github.com/oraios/serena) 🐍 🏠 - A fully-featured coding agent that relies on symbolic code operations by using language servers."
         confidence: high
     - id: discovery__github__oraios__serena__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 23860
-    forks: 1600
+    stars: 23896
+    forks: 1605
     license: MIT
     archived: false
     created_at: "2025-03-23T22:35:24Z"
-    pushed_at: "2026-05-05T15:59:57Z"
+    pushed_at: "2026-05-06T17:52:56Z"
     description: A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent
     homepage: https://oraios.github.io/serena
     topics:
@@ -60,50 +60,50 @@ metadata:
       - mcp-server
       - programming
       - vibe-coding
-    last_checked_at: "2026-05-05T21:04:08.544Z"
+    last_checked_at: "2026-05-06T22:45:44.936Z"
     readme:
-      fetched_at: "2026-05-05T21:04:08.544Z"
+      fetched_at: "2026-05-06T22:45:44.936Z"
       bytes: 14354
 insights:
-  summary: Serena is an MCP toolkit that provides IDE-like semantic code retrieval, editing, and refactoring tools to coding agents across various IDEs and CLI environments.
-  why_it_matters: It gives AI agents symbol-level awareness and refactoring capabilities, allowing them to perform complex cross-file operations reliably rather than relying on fragile text-based edits.
-  mental_damage: We have finally built the IDE for the agent, so the only thing left for the human to do is debug the MCP configuration and explain to the agent why it renamed the wrong method.
+  summary: Serena is an MCP server that provides semantic code retrieval, editing, and refactoring tools to coding agents by integrating symbol-level IDE capabilities via the Model Context Protocol.
+  why_it_matters: It gives AI agents the missing IDE-level understanding of symbols, references, and refactorings, turning fragile text surgery into reliable, cross-file code changes.
+  mental_damage: You now have an IDE for your agent, so the only thing left to debug is why your agent still chooses to rewrite your entire codebase using regex.
   tags:
-    - coding-agent
-    - ide-tools
     - mcp
-    - refactoring
     - semantic-analysis
+    - code-editing
+    - ide-tools
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server toolkit designed to extend the capabilities of other coding agents, fitting squarely into MCP infrastructure rather than being a standalone coding assistant.
+  reason: Serena's primary identity is an MCP server that provides semantic IDE tools to agents, making it a core MCP infrastructure product rather than a standalone coding agent or simple extension.
   evidence:
-    - Repo description explicitly calls it 'A powerful MCP toolkit for coding'.
-    - README states it 'integrates with any client/LLM via the model context protocol (MCP)' and provides tools to existing agents.
-    - Source list context places it under 'Server Implementations > Coding Agents' in awesome-mcp-servers.
+    - Repo description explicitly calls it 'A powerful MCP toolkit for coding' and 'the IDE for your agent'.
+    - README states it 'integrates with any client/LLM via the model context protocol (MCP)' and provides tools for agents to use.
+    - Source list awesome-mcp-servers catalogs it under 'Server Implementations > Coding Agents', confirming its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (23860) exceeded threshold (150)
+  reason: Stars (23896) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:10.773Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:08.544Z"
+    updated_at: "2026-05-06T22:45:44.936Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:09.270Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

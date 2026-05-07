@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hifriendbot__cogmemai-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -51,49 +51,50 @@ metadata:
       - persistent-memory
       - semantic-search
       - windsurf
-    last_checked_at: "2026-05-05T21:02:33.793Z"
+    last_checked_at: "2026-05-06T22:44:14.587Z"
     readme:
-      fetched_at: "2026-05-05T21:02:33.793Z"
+      fetched_at: "2026-05-06T22:44:14.587Z"
       bytes: 26143
 insights:
-  summary: An MCP server that provides persistent, autonomous memory storage for AI coding assistants and other agents, capturing context across sessions and devices.
-  why_it_matters: It automates the capture of coding decisions and context so developers don't lose architectural rationale when switching editors or starting new sessions.
-  mental_damage: We've reached the point where our AI assistants need their own autonomous infrastructure to remember what we did two hours ago, because apparently the assistant is too busy coding to remember it did the coding.
+  summary: CogmemAi is an MCP-compatible memory layer that gives coding assistants persistent, cross-session recall with autonomous capture and benchmark-topping long-term memory scores.
+  why_it_matters: It offloads memory management to the infrastructure layer so your AI assistant remembers architectural decisions and prior attempts without being explicitly told to save.
+  mental_damage: We've successfully automated the one thing developers are supposed to be good at—remembering why we made terrible decisions six hours ago.
   tags:
     - mcp
     - memory
-    - knowledge-graph
-    - context-engineering
+    - context
+    - persistent-recall
+    - benchmark
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing memory infrastructure for AI systems, fitting the MCP Servers and Tooling category.
+  reason: The core novelty is the memory and context system itself—autonomous capture, semantic retrieval, principle extraction, and compression—making it a fit for Prompt & Context Engineering rather than a host integration or general MCP server.
   evidence:
-    - Repo topics include 'mcp-server' and 'model-context-protocol', with the name 'cogmemai-mcp'.
-    - README details the 'Remote MCP — Zero Install' feature using Streamable HTTP transport at hifriendbot.com/mcp/.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - README states CogmemAi is 'a portable memory layer that gives any Ai system persistent recall across sessions' with autonomous capture at the infrastructure level (v3.15).
+    - Topics include ai-memory, knowledge-graph, semantic-search, and mcp-server, with benchmark claims of 95.10% on LongMemEval and 91% on LoCoMo.
+    - Active as of 2026-04-28 with recent version updates focused on memory intelligence rather than MCP protocol tooling alone.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.691Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:33.793Z"
+    updated_at: "2026-05-06T22:44:14.587Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:56.124Z"
+    updated_at: "2026-05-06T23:00:07.207Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

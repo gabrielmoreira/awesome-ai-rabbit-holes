@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carsol__monarch-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:30.380Z"
+    last_checked_at: "2026-05-06T22:43:17.700Z"
     readme:
-      fetched_at: "2026-05-05T21:01:30.380Z"
+      fetched_at: "2026-05-06T22:43:17.700Z"
       bytes: 5072
 insights:
-  summary: A Model Context Protocol server that provides read-only access to Monarch Money financial data for analysis by AI assistants like Claude Desktop.
-  why_it_matters: It allows developers to pipe personal financial data into local AI workflows for budgeting and cashflow analysis without building custom API integrations.
-  mental_damage: We have finally reached the singularity where your AI assistant can judge your grocery spending habits, provided you are comfortable pasting your banking password into a .env file.
+  summary: A read-only MCP server that exposes Monarch Money financial data—accounts, transactions, budgets, and cashflow—to AI assistants like Claude Desktop.
+  why_it_matters: It lets developers analyze personal finances, project spending, and inspect transaction patterns directly through a local MCP-compatible assistant instead of a web dashboard.
+  mental_damage: We have finally reached the point where your AI assistant needs secure MFA and a dedicated server just to tell you how much you overspent on groceries this year.
   tags:
     - mcp
     - finance
-    - local-ai
-    - claude
+    - local-server
+    - claude-desktop
+    - personal-tooling
   confidence: medium
 curation:
   status: included
-  reason: The project is a distinct MCP server implementation for a specific data source, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product’s identity is a purpose-built MCP server providing domain-specific access to Monarch Money data, matching the MCP Servers & Tooling category.
   evidence:
-    - "README explicitly states: 'A Model Context Protocol (MCP) server that provides read-only access to Monarch Money financial data.'"
-    - Included in the 'awesome-mcp-servers' list under 'Server Implementations > Finance & Fintech'.
-    - Created recently (2025-06-08) and appears actively maintained (pushed same day).
+    - README explicitly states it is 'A Model Context Protocol (MCP) server' for Monarch Money financial data.
+    - Includes Claude Desktop integration instructions and defines MCP resources and tools (get_transactions, get_cashflow_analysis, etc.).
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:30.380Z"
+    updated_at: "2026-05-06T22:43:17.700Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:29.055Z"
+    updated_at: "2026-05-06T22:48:12.922Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__knowledgecanvas__knowledge
 kind: github-repo
-name: Knowledge
+name: knowledge
 canonical_url: https://github.com/knowledgecanvas/knowledge
 identity:
   github_repo: knowledgecanvas/knowledge
 provenance:
   discoveries:
     - id: discovery__github__knowledgecanvas__knowledge__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -40,28 +40,27 @@ metadata:
       - learning
       - llm
       - research
-    last_checked_at: "2026-05-05T21:03:07.336Z"
+    last_checked_at: "2026-05-06T22:44:44.372Z"
     readme:
-      fetched_at: "2026-05-05T21:03:07.336Z"
+      fetched_at: "2026-05-06T22:44:44.372Z"
       bytes: 3543
 insights:
-  summary: Knowledge is a desktop application for saving, searching, and chatting with documents, websites, and files via a built-in Chromium browser and LLM-powered knowledge graph.
-  why_it_matters: It offers developers a local-first way to ingest technical documentation and web content into a searchable, chat-accessible knowledge base.
-  mental_damage: Another brave attempt to solve the problem of 'I have 400 browser tabs open' by creating a second, slightly more organized place for them to live until the project is inevitably archived.
+  summary: Knowledge is a desktop knowledge management tool that lets users save, search, and chat with websites, documents, and files using LLMs, built on Chromium with a graph-based organization system.
+  why_it_matters: It offers developers a way to build a local, queryable knowledge graph of technical docs and resources with integrated LLM chat, sitting somewhere between a research tool and a personal context engine.
+  mental_damage: Another valiant attempt to solve the 'read later' pile by adding a graph view and a chat box, proving that even with LLMs, we still can't quite deal with our own bookmarks.
   tags:
+    - knowledge-graph
+    - llm-chat
     - desktop-app
-    - knowledge-management
-    - langchain
-    - llm
-    - local-ai
+    - rag
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and the maintainers state development has ceased, making it a poor fit for an active catalog of developer tooling.
+  reason: The repository is explicitly archived with a banner stating development has ceased, and its primary identity is a personal knowledge management desktop app rather than a developer-facing coding tool, agent, or infrastructure component.
   evidence:
-    - The repo description states it is a tool for saving, searching, and chatting with files and websites, which is general knowledge management rather than a core developer coding workflow.
-    - "The README includes a note: 'Knowledge is no longer being developed.' and the repo status is archived."
-    - Listed in awesome-langchain under 'Knowledge Management', indicating it is a LangChain demo/app rather than a primary developer infrastructure tool.
+    - "Repo archived: yes, with a README banner stating 'Knowledge is no longer being developed.'"
+    - "Primary description focuses on personal knowledge management: 'saving, searching, accessing, exploring and chatting with all of your favorite websites, documents and files.'"
+    - Listed in awesome-langchain under 'Knowledge Management', indicating it is a LangChain demo/app rather than core dev tooling.
 placement:
   primary_category: null
   section: null
@@ -69,21 +68,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:08.245Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:07.336Z"
+    updated_at: "2026-05-06T22:44:44.372Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:27.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

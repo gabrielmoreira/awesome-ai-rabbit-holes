@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__n8daniels__rulesetmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: "Weight-On-Wheels for AI: MCP server that keeps every agent grounded in your project's rules"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:50.917Z"
+    last_checked_at: "2026-05-06T22:45:28.867Z"
     readme:
-      fetched_at: "2026-05-05T21:03:50.917Z"
+      fetched_at: "2026-05-06T22:45:28.867Z"
       bytes: 6892
 insights:
-  summary: RulesetMCP is a Model Context Protocol server that exposes project-specific coding standards, SQL conventions, and architectural rules to AI agents via queryable tools.
-  why_it_matters: It eliminates the need to repeatedly explain project conventions to AI assistants by making rules version-controlled, machine-readable, and automatically available during coding sessions.
-  mental_damage: We have now successfully built infrastructure to ensure the AI forgets our standards slightly more efficiently than we forget why we created them in the first place.
+  summary: An MCP server that exposes version-controlled project rules, coding standards, and guidelines to AI agents via tools for listing, querying, and validating code against defined conventions.
+  why_it_matters: It lets teams define coding standards and architectural rules once in code, then makes them queryable and enforceable across any MCP-compatible AI session instead of re-explaining them every time.
+  mental_damage: We have successfully abstracted away the need to manually paste our own rules into the chat, freeing up valuable tokens to argue with the AI about why it is still ignoring them.
   tags:
     - mcp
     - rules
-    - context-engineering
-    - developer-tools
+    - context
+    - standards
   confidence: medium
 curation:
   status: included
-  reason: The project is itself an MCP server that distributes project rules to AI clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP server whose core identity is exposing project rules and validation over the Model Context Protocol, making it a clean fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states it is an 'MCP server that keeps every agent grounded in your project's rules'.
-    - README details MCP tools like list_projects, get_rules, and validate_snippet for MCP-compatible clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description calls it an 'MCP server that keeps every agent grounded in your project's rules'
+    - README states it 'gives AI agents a project-aware rulebook' via MCP tools like get_rules and validate_snippet
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:50.917Z"
+    updated_at: "2026-05-06T22:45:28.867Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:49.186Z"
+    updated_at: "2026-05-06T23:16:30.014Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

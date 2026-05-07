@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__phpcodearcheology__phpcodearcheology__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -49,50 +49,50 @@ metadata:
       - sarif
       - static-analysis
       - technical-debt
-    last_checked_at: "2026-05-05T21:04:16.702Z"
+    last_checked_at: "2026-05-06T22:45:52.188Z"
     readme:
-      fetched_at: "2026-05-05T21:04:16.702Z"
+      fetched_at: "2026-05-06T22:45:52.188Z"
       bytes: 25852
 insights:
-  summary: A PHP static analysis tool that measures code quality and architecture via 60+ metrics, git churn analysis, and includes an AI-ready MCP server for integration with coding assistants.
-  why_it_matters: It gives developers deep architectural insights and technical debt tracking for PHP codebases, while the MCP server allows AI assistants to directly query code health and structure.
-  mental_damage: We have reached the point where we need an AI archaeology tool just to help the AI understand the sprawling PHP legacy we built before the AI arrived.
+  summary: A PHP static analysis tool that measures architecture and maintainability through 60+ metrics, git churn analysis, and provides an AI-ready MCP server for coding assistants.
+  why_it_matters: It gives developers deep architectural insights and generates structured context like CLAUDE.md files and MCP outputs to help AI assistants understand large PHP codebases.
+  mental_damage: We have finally managed to automate the existential dread of maintaining legacy PHP by teaching AI to be equally confused by the dependency graph.
   tags:
     - php
     - static-analysis
     - mcp
     - architecture
-    - technical-debt
+    - maintainability
   confidence: high
 curation:
   status: included
-  reason: The project is primarily a static analysis tool, but its specific inclusion in this catalog is justified by its native MCP server implementation designed for AI assistant integration.
+  reason: The tool is primarily a PHP static analysis utility, but its explicit inclusion in awesome-mcp-servers and features like the native MCP server and CLAUDE.md generation make the MCP domain server identity the strongest fit for this catalog.
   evidence:
-    - Repo description explicitly lists 'AI-ready MCP server' as a core feature.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - README details a native MCP server for AI assistants like Claude Code.
+    - Repo description explicitly mentions 'AI-ready MCP server' and topics include 'mcp'.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - README highlights 'native MCP server for AI assistants' and 'CLAUDE.md generation' as key AI integration features.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:16.702Z"
+    updated_at: "2026-05-06T22:45:52.188Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:34.673Z"
+    updated_at: "2026-05-06T23:21:45.448Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

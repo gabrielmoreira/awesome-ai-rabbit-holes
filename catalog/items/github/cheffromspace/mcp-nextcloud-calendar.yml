@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cheffromspace__mcp-nextcloud-calendar__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:32.674Z"
+    last_checked_at: "2026-05-06T22:43:20.093Z"
     readme:
-      fetched_at: "2026-05-05T21:01:32.674Z"
+      fetched_at: "2026-05-06T22:43:20.093Z"
       bytes: 5286
 insights:
-  summary: An MCP server that connects AI assistants to Nextcloud Calendar, enabling them to list, create, update, and delete calendars and events via the Model Context Protocol.
-  why_it_matters: It allows developers to integrate personal or self-hosted calendar management directly into their AI workflows and agent toolchains without writing custom API glue code.
-  mental_damage: We have finally reached the point where an AI agent can inadvertently double-book your dentist appointment because it wanted to be helpful, and the error logs are in a protocol you just learned existed yesterday.
+  summary: An MCP server that exposes Nextcloud Calendar operations—listing, creating, updating, and deleting calendars and events—as tools for AI assistants.
+  why_it_matters: Developers using MCP-compatible assistants can delegate calendar management to their coding agent instead of context-switching into a separate calendar UI.
+  mental_damage: We have successfully reached the point where an AI agent needs a standardized protocol just to figure out if you’re double-booked on Thursday.
   tags:
     - mcp
     - nextcloud
     - calendar
     - integration
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for Nextcloud Calendar, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is a Model Context Protocol server for Nextcloud Calendar, making MCP the clear primary identity rather than a generic integration or framework.
   evidence:
-    - "README title and description state: 'A Model Context Protocol (MCP) server for Nextcloud Calendar integration.'"
-    - Lists MCP tools like listCalendars, createEvent, and updateEvent for client integration.
-    - Included in the 'awesome-mcp-servers' list under the 'Community Servers' section.
+    - "README states: 'A Model Context Protocol (MCP) server for Nextcloud Calendar integration.'"
+    - Listed in awesome-mcp-servers under 'Community Servers'.
+    - Provides MCP tools like listCalendars, createEvent, and deleteEvent over Streamable HTTP and HTTP+SSE transports.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:32.674Z"
+    updated_at: "2026-05-06T22:43:20.093Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:53.639Z"
+    updated_at: "2026-05-06T22:48:49.264Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

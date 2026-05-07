@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-dns__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - network
       - typescript
       - whois
-    last_checked_at: "2026-05-05T21:03:59.346Z"
+    last_checked_at: "2026-05-06T22:45:37.230Z"
     readme:
-      fetched_at: "2026-05-05T21:03:59.346Z"
+      fetched_at: "2026-05-06T22:45:37.230Z"
       bytes: 3736
 insights:
-  summary: An MCP server that lets AI assistants perform DNS lookups, reverse DNS, and WHOIS queries using Node.js built-in modules with no API keys required.
-  why_it_matters: It allows developers to debug DNS, MX, and domain issues directly through their AI assistant without leaving the IDE or signing up for external APIs.
-  mental_damage: We have officially reached the point where resolving an A record requires a protocol server, a Node runtime, and an LLM to ask it politely.
+  summary: An MCP server that lets AI assistants perform DNS lookups, reverse DNS, and WHOIS queries using Node.js built-in DNS without API keys or configuration.
+  why_it_matters: Developers debugging email delivery, setting up domains, or investigating suspicious URLs can now delegate DNS and WHOIS lookups directly to their AI assistant instead of switching to the terminal or a browser.
+  mental_damage: We have successfully abstracted away the one networking command that every developer actually knows how to type, so your $20/month assistant can now forget DNS records for you instead.
   tags:
     - mcp
     - dns
     - networking
-    - typescript
     - whois
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that extends AI assistants with DNS capabilities, fitting cleanly into the MCP infrastructure category.
+  reason: This is a domain-specific MCP server that gives AI assistants DNS and WHOIS capabilities, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for DNS'.
-    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot as an MCP server.
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'MCP server for DNS — lookups, reverse DNS, WHOIS, zero auth'
+    - README positions it as a tool that 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:59.346Z"
+    updated_at: "2026-05-06T22:45:37.230Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:37.599Z"
+    updated_at: "2026-05-06T23:18:24.443Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

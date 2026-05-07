@@ -1,12 +1,12 @@
 id: www__raycast__com__core__features__ai
 kind: website
-name: Raycast AI
+name: ai
 canonical_url: https://www.raycast.com/core-features/ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__raycast__com__core__features__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Raycast AI integrates over 30 LLMs, including GPT-5 and Claude Sonnet 4.6, directly into the macOS productivity launcher, allowing developers to run code explanations, IDE commands, and workflow automations via a single hotkey.
-  why_it_matters: It eliminates context switching by letting developers explain code, summarize docs, and trigger Jira or Linear actions from their OS without leaving the keyboard.
-  mental_damage: Because nothing says 'deep work' like explaining your TypeScript types to a floating chatbot while your desk autonomously rises to standing height.
+  summary: Raycast AI is a macOS productivity launcher that integrates access to 32+ LLMs, chat presets, AI extensions for OS and app control, and AI commands into a single keyboard-driven interface.
+  why_it_matters: It bundles model switching, codebase-aware chat, and third-party app automation into a single hotkey, reducing context switching during development workflows.
+  mental_damage: Because what every debug session clearly needs is a floating window that can rename files, summarize webpages, and ask o3-mini whether ice baths are good for recovery, all without leaving your macOS desktop.
   tags:
-    - hotkey
-    - llm-integration
     - macos
+    - launcher
+    - ai-chat
     - productivity
-    - workflow-automation
+    - extensions
   confidence: high
 curation:
   status: included
-  reason: It is a desktop assistant that directly helps developers write, explain, and debug code via hotkey-driven AI chat and extensions, fitting the coding-agents profile.
+  reason: The product is a macOS launcher that augments a developer’s OS and app environment with AI chat, presets, and extensions, making it an OS-level workflow integration rather than a primary coding agent.
   evidence:
-    - Scraped site shows 'Explain Code' and 'Debug' commands tailored for developers.
-    - Includes direct integrations with developer tools like Linear, Jira, and Finder for code files.
-    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools'.
+    - Scraped site describes Raycast AI as combining leading models with powerful extensions right on your OS, not as a repo-editing assistant.
+    - Features include Quick AI, AI Extensions for Linear/Jira/Slack, and AI Commands, all centered on OS and app workflow automation.
+    - Listed in awesome-ai-coding-tools under Developer Productivity Tools, reinforcing its role as a productivity enhancement layer.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:55.455Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:17.432Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

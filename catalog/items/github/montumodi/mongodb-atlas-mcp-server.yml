@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__montumodi__mongodb-atlas-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - mongodb-atlas-api
       - node
       - nodejs
-    last_checked_at: "2026-05-05T21:03:46.714Z"
+    last_checked_at: "2026-05-06T22:45:24.906Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.714Z"
+      fetched_at: "2026-05-06T22:45:24.906Z"
       bytes: 8190
 insights:
-  summary: An MCP server that wraps the MongoDB Atlas API to expose database clusters, users, backups, and project settings as tools for AI assistants.
-  why_it_matters: It allows LLM-powered coding agents to manage Atlas infrastructure, query backups, and configure access controls through natural language instead of manual API calls.
-  mental_damage: Because what the modern developer truly craves is a fourteen-layer stack just to ask a chatbot if their database cluster is still online.
+  summary: An MCP server that wraps the MongoDB Atlas API client to expose Atlas operations—including cluster, user, project, backup, and search management—as tools for AI assistants.
+  why_it_matters: Developers can let coding agents manage Atlas resources directly via MCP-compatible clients instead of manually juggling API keys and curl commands.
+  mental_damage: Yet another MCP server appears in the night, promising that your AI agent can now provision production clusters at 2 a.m. without you having to open a browser.
   tags:
     - mcp
     - mongodb
     - atlas
-    - infrastructure
-    - nodejs
-  confidence: high
+    - devops
+    - node
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for MongoDB Atlas, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server exposing MongoDB Atlas API functionality as tools, which aligns directly with the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for mongodb atlas api.'"
-    - README confirms it 'wraps the mongodb-atlas-api-client package to expose MongoDB Atlas functionality through MCP tools.'
-    - Listed in awesome-mcp-servers under Server Implementations > Databases.
+    - "Repo description states: 'MCP server for mongodb atlas api. Internally uses mongodb-atlas-api-client.'"
+    - README confirms the server 'wraps the mongodb-atlas-api-client package to expose MongoDB Atlas functionality through MCP tools.'
+    - Listed in awesome-mcp-servers under Server Implementations > Databases, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.715Z"
+    updated_at: "2026-05-06T22:45:24.906Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:01.815Z"
+    updated_at: "2026-05-06T23:15:31.157Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

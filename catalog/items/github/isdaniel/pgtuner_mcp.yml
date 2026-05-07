@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isdaniel__pgtuner_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,50 +37,50 @@ metadata:
       - mcp-server
       - python
       - python3
-    last_checked_at: "2026-05-05T21:02:47.158Z"
+    last_checked_at: "2026-05-06T22:44:27.102Z"
     readme:
-      fetched_at: "2026-05-05T21:02:47.158Z"
+      fetched_at: "2026-05-06T22:44:27.102Z"
       bytes: 24298
 insights:
-  summary: An MCP server that provides AI-powered PostgreSQL performance tuning, including slow query analysis, index recommendations via HypoPG, and database health checks.
-  why_it_matters: It allows AI agents and MCP clients to autonomously detect bottlenecks and recommend optimizations directly against a live Postgres instance.
-  mental_damage: We have successfully abstracted database administration so far away that we now need a protocol server just to ask an LLM why our RDS bill is $400.
+  summary: An MCP server that connects AI assistants to PostgreSQL instances to analyze slow queries, recommend indexes using HypoPG, and surface database health metrics.
+  why_it_matters: It lets coding agents and MCP clients directly diagnose and tune production database performance without the developer manually exporting query plans or guessing at index strategies.
+  mental_damage: We have successfully automated the ritual of staring at pg_stat_statements and praying that adding an index won't explode the disk.
   tags:
-    - mcp
     - postgresql
+    - mcp
     - performance
     - database
     - tuning
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated Model Context Protocol server for database tuning, fitting cleanly into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server for PostgreSQL performance tuning, fitting cleanly into MCP Servers & Tooling as a domain-specific server rather than a generic framework or extension.
   evidence:
-    - Repo description explicitly states it is an MCP server for PostgreSQL tuning.
-    - README details MCP-specific features like 'MCP Prompts & Resources' and targets MCP clients like Claude Desktop.
-    - Listed in the awesome-mcp-servers directory under 'Databases'.
+    - Repo description states it is 'A Model Context Protocol (MCP) server that provides AI-powered PostgreSQL performance tuning capabilities.'
+    - README confirms it exposes MCP prompts and resources for query analysis, index tuning, and health checks.
+    - Listed in awesome-mcp-servers under Databases, aligning with its MCP-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:47.158Z"
+    updated_at: "2026-05-06T22:44:27.102Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:42.277Z"
+    updated_at: "2026-05-06T23:02:47.061Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

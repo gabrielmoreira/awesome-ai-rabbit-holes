@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__l33tdawg__sage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,49 +39,50 @@ metadata:
       - bft-network
       - distributed-systems
       - governance
-    last_checked_at: "2026-05-05T21:03:14.918Z"
+    last_checked_at: "2026-05-06T22:44:53.577Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.918Z"
+      fetched_at: "2026-05-06T22:44:53.577Z"
       bytes: 52612
 insights:
-  summary: SAGE is a persistent, consensus-validated memory infrastructure for AI agents that uses Byzantine Fault Tolerant (BFT) consensus to store, validate, and manage institutional memory across conversations.
-  why_it_matters: It provides developers building multi-agent systems with a durable memory layer that prevents hallucinations and conflicting states through distributed consensus rather than simple vector storage.
-  mental_damage: Finally, your AI agents can suffer from the same bureaucratic memory failures as human institutions, now with cryptographic signatures and quorum votes to validate every fleeting thought.
+  summary: SAGE is a persistent, BFT consensus-validated memory infrastructure for AI agents, exposing memory via MCP and REST for use across sessions and multi-agent networks.
+  why_it_matters: It gives coding agents durable, scored, and consensus-validated memory that persists across conversations and agents instead of relying on ephemeral context or bolted-on vector DBs.
+  mental_damage: Finally, your agent can forget things with cryptographic confidence and Byzantine fault tolerance, ensuring even its memory decay is distributed, validated, and impossible to blame on you.
   tags:
     - agent-memory
     - mcp
     - distributed-systems
-    - bft-consensus
+    - context-engineering
+    - bft
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly listed in awesome-mcp-servers under Knowledge & Memory and provides an MCP interface for agent memory infrastructure.
+  reason: The core novelty is a memory, retrieval, and consensus infrastructure for agents rather than a primary coding assistant, IDE, orchestration platform, or MCP-only tool.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'
-    - README includes Glama MCP server badge linking to glama.ai/mcp/servers/l33tdawg/s-age
-    - Architecture diagram shows 'Agent (Claude, ChatGPT, etc.) │ MCP / REST ▼ sage-gui' as the primary interface
+    - "Repo description: '(S)AGE - (Sovereign) Agent Governed Experience' with topics including agentic-ai, distributed-systems, governance."
+    - "README states: 'Persistent, consensus-validated memory infrastructure for AI agents' and exposes memory via MCP/REST to Claude, ChatGPT, Gemini, etc."
+    - Active repo (pushed 2026-05-05), not archived, and listed in awesome-mcp-servers under Knowledge & Memory.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (217) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.918Z"
+    updated_at: "2026-05-06T22:44:53.577Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:50.795Z"
+    updated_at: "2026-05-06T23:08:15.508Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

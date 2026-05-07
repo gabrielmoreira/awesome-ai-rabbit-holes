@@ -1,13 +1,13 @@
 id: github__mahseema__awesome-ai-tools
 kind: github-repo
-name: Awesome AI Tools
+name: awesome-ai-tools
 canonical_url: https://github.com/mahseema/awesome-ai-tools
 identity:
   github_repo: mahseema/awesome-ai-tools
 provenance:
   discoveries:
     - id: discovery__github__mahseema__awesome-ai-tools__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5103
-    forks: 1475
+    stars: 5113
+    forks: 1478
     license: MIT
     archived: false
     created_at: "2023-08-25T21:51:55Z"
@@ -52,49 +52,48 @@ metadata:
       - top-ai-tools
       - vibe-coding
       - workflow
-    last_checked_at: "2026-05-05T21:03:27.364Z"
+    last_checked_at: "2026-05-06T22:45:06.447Z"
     readme:
-      fetched_at: "2026-05-05T21:03:27.364Z"
+      fetched_at: "2026-05-06T22:45:06.447Z"
       bytes: 60960
 insights:
-  summary: A curated awesome list aggregating various AI tools across text, code, image, video, and audio generation.
-  why_it_matters: It provides a broad map of the AI ecosystem, including a dedicated section for code-generation tools relevant to developers.
-  mental_damage: "Just what the world needed: another list of lists to browse instead of actually writing the code you're procrastinating on."
+  summary: A broad, community-curated awesome list covering generative AI tools across text, code, image, video, audio, and marketing categories.
+  why_it_matters: It serves as a high-level map of the commercial AI tooling landscape, useful for developers trying to orient themselves among the thousands of shipped products.
+  mental_damage: Another curated list promising to save you hours, provided you first spend several hours scrolling through it to confirm none of the links have silently turned into affiliate traps.
   tags:
-    - ai-tools
     - awesome-list
     - directory
-    - meta-list
+    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list of AI tools rather than a standalone developer tool or agent.
+  reason: The repository is a classic awesome list and navigation aid for AI tools, which fits the Lists & Directories category rather than a standalone developer product.
   evidence:
-    - Repo description states it is 'A curated list of Artificial Intelligence Top Tools'.
-    - README excerpt confirms it is a list with sections for Text, Code, Image, Video, and Audio tools.
-    - Listed in source list 'awesome-ai-coding-tools' under the section 'Related Lists'.
+    - "Repo description states: 'A curated list of Artificial Intelligence Top Tools'."
+    - README outlines broad categories including text, code, image, video, and audio tools for general users.
+    - Seen in source lists under 'awesome-ai-coding-tools' in the 'Related Lists' section.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5103) exceeded threshold (150)
+  reason: Stars (5113) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:15.515Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:27.364Z"
+    updated_at: "2026-05-06T22:45:06.447Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:11:15.781Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

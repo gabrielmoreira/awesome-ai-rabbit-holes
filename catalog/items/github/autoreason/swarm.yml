@@ -1,13 +1,13 @@
 id: github__autoreason__swarm
 kind: github-repo
-name: Swarm
+name: swarm
 canonical_url: https://github.com/autoreason/swarm
 identity:
   github_repo: autoreason/swarm
 provenance:
   discoveries:
     - id: discovery__github__autoreason__swarm__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -52,22 +52,22 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T23:07:42.902Z"
+    updated_at: "2026-05-06T22:43:13.482Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: autoreason/swarm"
+    next_retry_at: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null

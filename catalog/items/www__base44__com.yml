@@ -1,12 +1,12 @@
 id: www__base44__com
 kind: website
-name: base44
+name: www.base44.com
 canonical_url: https://www.base44.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__base44__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Base44 is a browser-first AI app builder that generates and deploys entire applications, sites, and internal tools from text prompts.
-  why_it_matters: It allows developers to rapidly prototype and ship functional web applications without manually scaffolding boilerplate code or configuring deployment pipelines.
-  mental_damage: Yet another chance to realize that while the AI can ship the MVP in minutes, you'll still be the one explaining to stakeholders why the tech debt is insurmountable six weeks later.
+  summary: Base44 is a prompt-to-app builder that generates full-stack internal tools and web applications from natural language descriptions.
+  why_it_matters: It allows developers to skip boilerplate and scaffolding by describing an application in prompts and getting a deployable product back.
+  mental_damage: Yet another reason to question whether you actually enjoy writing CRUD apps or if you just like configuring the CI pipeline that deploys them.
   tags:
     - app-builder
-    - deployment
     - prompt-to-app
-    - prototyping
+    - internal-tools
+    - scaffolding
   confidence: high
 curation:
   status: included
-  reason: The product is a hosted, browser-first platform for turning prompts into full deployed applications, which matches the app-builders category criteria and its listing in awesome-ai-coding-tools under App Builders.
+  reason: The product's core identity is turning prompts into deployed applications and internal tools, which aligns perfectly with the App Builders category.
   evidence:
-    - URL is https://www.base44.com, indicating a hosted SaaS product rather than a local IDE tool.
-    - Listed in awesome-ai-coding-tools under the 'App Builders' section.
-    - The catalog instruction for app-builders explicitly covers browser-first products that turn prompts into full apps and deployed tools.
+    - Base44 is explicitly listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - The URL (www.base44.com) and product name align with the canonical positive example 'base44' listed for Prompt-to-App Builders.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:49.116Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:58.983Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

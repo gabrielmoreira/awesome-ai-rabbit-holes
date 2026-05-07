@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mintmcp__servers__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: MintMCP Servers
     homepage: https://mintmcp.com
     topics: []
-    last_checked_at: "2026-05-05T21:03:42.619Z"
+    last_checked_at: "2026-05-06T22:45:20.716Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.619Z"
+      fetched_at: "2026-05-06T22:45:20.716Z"
       bytes: 2541
 insights:
-  summary: A collection of hosted MCP servers from Lutra that connect AI agents to Google and Microsoft email and calendar accounts, accompanied by a gateway product for enterprise governance.
-  why_it_matters: Developers can immediately extend AI agents like Claude and Cursor with calendar and email capabilities without building custom OAuth and API integrations.
-  mental_damage: We have successfully abstracted the pain of reading our own emails into a protocol that requires an additional gateway to manage the agents that do it for us.
+  summary: A suite of hosted MCP servers from MintMCP that connect AI agents to Google and Microsoft email and calendar services.
+  why_it_matters: It gives developers a quick, hosted way to grant Claude, Cursor, Windsurf, or ChatGPT access to Gmail, Google Calendar, Outlook, and Outlook Calendar via a standard protocol.
+  mental_damage: We have successfully abstracted calendar anxiety into npx commands and remote MCP URLs, yet the meetings remain.
   tags:
     - mcp
     - integrations
     - calendar
     - email
-    - gateway
+    - hosted
   confidence: high
 curation:
   status: included
-  reason: The project is a suite of hosted MCP servers and a gateway control plane, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is a set of MCP servers exposing calendar and email tools, which fits MCP Servers & Tooling as domain-specific servers rather than a framework, extension, or general platform.
   evidence:
-    - Repo description is 'MintMCP Servers' and README lists specific MCP server URLs for Gmail, Google Calendar, Outlook, etc.
-    - Includes an 'MCP Gateway' product for enterprise telemetry and governance of these servers.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - Repo description is 'MintMCP Servers' and the README lists Google Calendar, Gmail, Outlook Calendar, and Outlook MCP servers with URLs and tool definitions.
+    - The README explicitly positions these as MCP servers for connecting agents like Claude, Cursor, Windsurf, and ChatGPT to email and calendar apps.
+    - Listed in awesome-mcp-servers under Community Servers, reinforcing the MCP domain-server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.619Z"
+    updated_at: "2026-05-06T22:45:20.716Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:16.881Z"
+    updated_at: "2026-05-06T23:14:33.497Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

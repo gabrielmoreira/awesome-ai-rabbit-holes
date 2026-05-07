@@ -1,12 +1,12 @@
 id: checkmarx__com
 kind: website
-name: Checkmarx
+name: checkmarx.com
 canonical_url: https://checkmarx.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__checkmarx__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Checkmarx One is an enterprise application security platform that uses agentic AI to scan code, dependencies, and cloud infrastructure while providing in-IDE remediation guidance.
-  why_it_matters: It integrates SAST, SCA, and ASPM directly into the developer workflow with AI agents that prioritize exploitable risks and suggest fixes inside the IDE.
-  mental_damage: You can now watch an AI agent argue with your security team about whether that vulnerability you introduced at 2am actually matters.
+  summary: Checkmarx One is an enterprise application security platform that uses agentic AI to scan, prioritize, and remediate vulnerabilities across SAST, SCA, IaC, and cloud environments directly within the developer's IDE.
+  why_it_matters: It attempts to reduce security alert fatigue by using AI to correlate findings and provide in-context remediation guidance so developers can fix exploitable risks without leaving their workflow.
+  mental_damage: Just when you thought the AI agent was finally writing clean code, another agent arrives specifically to scold it for the vulnerabilities the first agent introduced.
   tags:
-    - agents
-    - ide-integration
-    - sast
     - security
+    - sast
+    - agentic-ai
+    - ide-integration
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: The 'Developer Assist' product is an AI agent that directly triages, explains, and remediates code vulnerabilities inside the developer's IDE workflow, fitting the coding-agents definition.
+  reason: The product is primarily an enterprise security platform that integrates into the developer workflow as an add-on layer (IDE integration) rather than a standalone coding agent that plans and writes code.
   evidence:
-    - "Scraped site states: 'Developer-first AI agent preventing and remediating vulnerabilities instantly in IDE.'"
-    - Listed in awesome-ai-coding-tools under the 'Security' section as an 'Agentic AppSec platform'.
-    - Platform description highlights 'AI-powered Agentic AppSec agents' that provide 'in-IDE fixes and surfacing priority issues'.
+    - Description identifies it as an 'Agentic AppSec platform' focused on SAST, SCA, and ASPM rather than code generation.
+    - Site excerpt highlights 'Developer Assist' as an in-IDE agent for 'vulnerability prevention and fix', acting as an augmentation to the dev workflow.
+    - Included in 'awesome-ai-coding-tools' under the 'Security' section, confirming its role as a security extension rather than a primary coding assistant.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:48.522Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:03.258Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

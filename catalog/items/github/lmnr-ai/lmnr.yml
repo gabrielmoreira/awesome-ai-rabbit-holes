@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lmnr-ai__lmnr__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2838
+    stars: 2847
     forks: 194
     license: Apache-2.0
     archived: false
     created_at: "2024-08-29T03:45:28Z"
-    pushed_at: "2026-05-05T18:25:51Z"
+    pushed_at: "2026-05-06T21:12:12Z"
     description: Laminar - open-source observability platform purpose-built for AI agents. YC S24.
     homepage: https://laminar.sh
     topics:
@@ -52,50 +52,50 @@ metadata:
       - self-hosted
       - ts
       - typescript
-    last_checked_at: "2026-05-05T21:03:22.708Z"
+    last_checked_at: "2026-05-06T22:45:02.148Z"
     readme:
-      fetched_at: "2026-05-05T21:03:22.708Z"
+      fetched_at: "2026-05-06T22:45:02.148Z"
       bytes: 6000
 insights:
-  summary: Laminar is an open-source, Rust-based observability platform for AI agents, providing tracing, evaluations, and monitoring via OpenTelemetry-native SDKs and a self-hosted or managed UI.
-  why_it_matters: It gives developers a unified way to trace complex agentic workflows, run evaluations in CI/CD, and query execution data via SQL to debug why their agent decided to buy 2,000 units of glitter.
-  mental_damage: We have successfully built an observability stack to watch our observability stack watch the AI agents that are watching us.
+  summary: Laminar is an open-source, Rust-based observability platform for AI agents that provides tracing, evaluations, monitoring, and SQL-queryable dashboards, available as a managed service or self-hosted via Docker.
+  why_it_matters: It gives developers a single plane to trace agent execution, run CI/CD evaluations, and query operational data with SQL, bridging the gap between LLM experimentation and production-grade LLMOps.
+  mental_damage: You can now formally prove that your agent has been confidently failing in production for three weeks, which is significantly more insightful than simply wondering why the dashboard is quiet.
   tags:
     - observability
     - evals
     - llmops
-    - rust
+    - tracing
     - self-hosted
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing observability and evaluation platform for AI agents, fitting the evals category better than agent orchestration because it is a tool for measuring and debugging, not coordinating runtimes.
+  reason: The core product identity is measuring, tracing, and evaluating agent behavior (including a dedicated evals SDK/CLI and UI), which aligns perfectly with the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly states 'open-source observability platform purpose-built for AI agents'.
-    - README highlights tracing, evals CLI/SDK, and SQL access for trace data analysis.
-    - Listed in Awesome-LLMOps under the LLMOps section, confirming its fit in the ops/metrics tooling space.
+    - "Repo description explicitly states: 'open-source observability platform purpose-built for AI agents' with 'evals' as a topic."
+    - README highlights 'Evals' as a core feature with SDK, CLI, and UI for visualization, alongside tracing and SQL access for traces/metrics.
+    - Listed in Awesome-LLMOps under the LLMOps section, confirming its ops/observability niche rather than a coding assistant role.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2838) exceeded threshold (150)
+  reason: Stars (2847) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:22.708Z"
+    updated_at: "2026-05-06T22:45:02.148Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:25.785Z"
+    updated_at: "2026-05-06T23:10:15.092Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

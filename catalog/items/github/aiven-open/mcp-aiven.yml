@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aiven-open__mcp-aiven__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Aiven-Open/mcp-aiven](https://github.com/Aiven-Open/mcp-aiven) - 🐍 ☁️ 🎖️ -  Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
         confidence: high
     - id: discovery__github__aiven-open__mcp-aiven__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -44,53 +44,54 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2025-03-13T07:34:49Z"
-    pushed_at: "2026-05-05T13:06:39Z"
+    pushed_at: "2026-05-06T16:24:26Z"
     description: Model Context Protocol server for Aiven
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:56.122Z"
+    last_checked_at: "2026-05-06T22:12:31.633Z"
     readme:
-      fetched_at: "2026-05-05T21:00:56.122Z"
+      fetched_at: "2026-05-06T22:12:31.633Z"
       bytes: 7667
 insights:
-  summary: An official Model Context Protocol server that lets AI assistants manage Aiven cloud services like PostgreSQL and Kafka directly from the development environment.
-  why_it_matters: It allows developers to provision, modify, and inspect cloud infrastructure through natural language prompts in tools like Claude, Cursor, and VS Code Copilot.
-  mental_damage: We have finally automated the part of the job where you accidentally drop a production database by typing the wrong command, and replaced it with an AI agent that will do it with confident enthusiasm.
+  summary: An official MCP server that lets AI assistants like Claude, Cursor, and VS Code Copilot directly manage Aiven cloud services such as PostgreSQL and Kafka.
+  why_it_matters: It allows developers to provision, modify, and query cloud data infrastructure through natural language prompts inside their existing coding environments.
+  mental_damage: We have successfully abstracted away the cloud console so your AI agent can drop your production Kafka cluster while you are busy debugging a CSS margin.
   tags:
     - mcp
-    - aiven
-    - cloud-infrastructure
+    - cloud
     - devops
+    - aiven
+    - infrastructure
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation for a major cloud provider, fitting squarely into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server for a specific cloud domain (Aiven), making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol server for Aiven'."
-    - README confirms it manages Aiven services directly from AI assistants like Claude and Cursor.
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Databases' sections.
+    - "Repo description states: 'Model Context Protocol server for Aiven'."
+    - README identifies it as 'A Model Context Protocol (MCP) server for the Aiven cloud data platform'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:56.122Z"
+    updated_at: "2026-05-06T22:12:31.633Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:02.729Z"
+    updated_at: "2026-05-06T22:19:56.543Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

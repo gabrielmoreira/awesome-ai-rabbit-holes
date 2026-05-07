@@ -1,12 +1,12 @@
 id: www__audiense__com__products__audiense__insights
 kind: website
-name: Audiense
+name: audiense-insights
 canonical_url: https://www.audiense.com/products/audiense-insights
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__audiense__com__products__audiense__insights__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Audiense Insights is a social media audience intelligence platform that uses machine learning and IBM Watson psychographics to segment, analyze, and profile online audiences for marketing and PR campaigns.
-  why_it_matters: While it contains an MCP server entry, the core product is a SaaS dashboard for marketers to build personas and analyze social data, not a tool for editing code or building software.
-  mental_damage: We have officially reached the stage where 'audience segmentation for Twitter' is listed alongside compilers and IDE extensions as an essential developer tool.
+  summary: Audiense Insights is a marketing-focused audience intelligence platform for analyzing social media behavior, building personas, and identifying influencers rather than a developer tool.
+  why_it_matters: It does not matter to developers building AI tooling, as it targets marketers and agencies with social consumer insights.
+  mental_damage: We have officially reached the point where a SaaS platform for Twitter persona building is listed in a curated directory of MCP servers.
   tags:
     - marketing
+    - audience-intelligence
     - mcp
-    - saas
-    - social-intelligence
+    - off-topic
   confidence: high
 curation:
   status: excluded
-  reason: The product is a marketing intelligence SaaS for audience segmentation and influencer identification, lacking a developer-facing workflow for coding, infrastructure, or app building.
+  reason: This is a marketing and social media intelligence SaaS product with no meaningful developer-tooling angle, despite appearing in an MCP servers list.
   evidence:
-    - Scraped site context describes the tool as 'the leading audience intelligence platform' for marketing, PR, and influencer identification, not software development.
-    - Source-list context shows it appearing in awesome-mcp-servers only to note that it is an 'Official Server' for understanding audience motivation, not code assistance.
-    - The page excerpt focuses entirely on social listening, demographics, and campaign tool-kits (e.g., 'Build better personas', 'Supercharge your Twitter Marketing').
+    - Scraped site context describes a marketing platform for audience segmentation, influencer identification, and social intelligence
+    - Source list inclusion in awesome-mcp-servers appears to be a misclassification or niche adapter for a non-developer product
+    - No repo description, code artifacts, or developer-facing workflow evidence provided
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:44.126Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:52.393Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

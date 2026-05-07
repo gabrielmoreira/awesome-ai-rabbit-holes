@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marceausolutions__md-to-pdf-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Convert Markdown to professional PDFs with customizable themes - MCP server for Claude Desktop
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:28.729Z"
+    last_checked_at: "2026-05-06T22:45:07.722Z"
     readme:
-      fetched_at: "2026-05-05T21:03:28.729Z"
+      fetched_at: "2026-05-06T22:45:07.722Z"
       bytes: 2894
 insights:
-  summary: An MCP server that converts Markdown files into styled, interactive PDFs with table of contents, code highlighting, and batch processing capabilities.
-  why_it_matters: It allows AI assistants integrated via MCP to handle documentation generation and report creation workflows directly from the chat interface.
-  mental_damage: We have successfully abstracted away the incredibly difficult task of piping markdown through a renderer, proving once again that no workflow is too trivial to escape the MCP ecosystem.
+  summary: md-to-pdf-mcp is a Python-based MCP server that converts Markdown files into styled, interactive PDFs with support for syntax highlighting and table of contents generation.
+  why_it_matters: It allows AI assistants like Claude Desktop to programmatically generate professional PDF documentation, reports, and manuals directly from markdown sources.
+  mental_damage: Another vital piece of infrastructure so your agent can finally export that README you just wrote into a PDF that no one asked for.
   tags:
     - mcp
     - markdown
     - pdf
     - documentation
-  confidence: high
+    - server
+  confidence: medium
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation designed to extend AI assistants with PDF conversion tools.
+  reason: The product's primary identity is an MCP server implementation designed to give AI assistants the capability to convert Markdown to PDF.
   evidence:
-    - "Repo description states: 'Convert Markdown to professional PDFs with customizable themes - MCP server for Claude Desktop'."
-    - README details MCP Tools like 'convert_markdown_to_pdf' and 'extract_toc' for AI assistants.
-    - Listed in 'awesome-mcp-servers' under Server Implementations > File Systems.
+    - "Repo description explicitly states: 'MCP server for Claude Desktop'."
+    - README lists 'MCP Integration' as a feature and provides an 'mcp-server/md_to_pdf_mcp.py' implementation.
+    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:28.729Z"
+    updated_at: "2026-05-06T22:45:07.722Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:34.031Z"
+    updated_at: "2026-05-06T23:11:35.388Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

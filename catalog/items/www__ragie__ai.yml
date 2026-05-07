@@ -1,12 +1,12 @@
 id: www__ragie__ai
 kind: website
-name: Ragie
+name: www.ragie.ai
 canonical_url: https://www.ragie.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__ragie__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,44 +35,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A fully managed RAG-as-a-Service platform that handles document parsing, multimodal indexing, and retrieval via API, including an MCP server for agent context.
-  why_it_matters: It allows developers to outsource the entire RAG pipeline—ingestion, chunking, and hybrid search—so they can focus on application logic rather than vector database infrastructure.
-  mental_damage: Yet another magical 'context engine' promising to solve hallucination, conveniently ignoring that piping your proprietary docs into a third-party SaaS is just a new way to scatter your proprietary data across the internet.
+  summary: Ragie is a fully managed RAG-as-a-Service platform providing APIs and SDKs for multimodal ingestion, indexing, and retrieval, with an MCP server for agent integration.
+  why_it_matters: It lets developers ship context-rich AI features without building and maintaining their own chunking, embedding, and retrieval pipelines.
+  mental_damage: Yet another excuse to pretend your chatbot is enterprise-ready because it can finally hallucinate with citations from a Notion doc.
   tags:
-    - api
-    - backend
-    - mcp
     - rag
+    - mcp
+    - context
     - retrieval
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly listed in 'awesome-mcp-servers' under Knowledge & Memory and features a dedicated MCP Server that gives agents permissioned access to knowledge bases.
+  reason: The core product is a context and retrieval system for agents and apps, with MCP offered as an integration layer rather than the primary identity.
   evidence:
-    - Listed in awesome-mcp-servers as a Server Implementation in the Knowledge & Memory section.
-    - Scraped site context confirms a dedicated 'MCP Server' feature for giving agents context via AI tools.
-    - Described as a fully managed RAG-as-a-Service platform with APIs and SDKs for developers.
+    - Scraped site describes Ragie as 'The Context Engine for Agents, Assistants, and Apps' with indexing, retrieval, and entity extraction.
+    - MCP Server is listed as one feature among many, not the defining product identity.
+    - Source list places it under Knowledge & Memory in awesome-mcp-servers, aligning with retrieval infrastructure.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:55.763Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:15.969Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

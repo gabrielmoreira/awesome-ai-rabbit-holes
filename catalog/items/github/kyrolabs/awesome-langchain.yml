@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyrolabs__awesome-langchain__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9326
-    forks: 834
+    stars: 9328
+    forks: 833
     license: CC0-1.0
     archived: false
     created_at: "2023-02-28T20:25:33Z"
@@ -37,50 +37,49 @@ metadata:
       - awesome-list
       - langchain
       - llm
-    last_checked_at: "2026-05-05T21:03:14.323Z"
+    last_checked_at: "2026-05-06T22:44:53.070Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.323Z"
+      fetched_at: "2026-05-06T22:44:53.070Z"
       bytes: 53256
 insights:
-  summary: A curated awesome list cataloging tools, projects, ports, and learning resources built around the LangChain framework ecosystem.
-  why_it_matters: It serves as a centralized map for developers navigating the rapidly expanding LangChain ecosystem, covering everything from framework ports to deployment services and agent templates.
-  mental_damage: Because nothing says 'stable ecosystem' like needing a dedicated meta-list just to figure out which abstraction layer you're actually supposed to be mad at today.
+  summary: A curated, community-maintained awesome list of tools, projects, ports, templates, and learning resources built around the LangChain framework.
+  why_it_matters: It serves as a centralized ecosystem map for developers looking to discover LangChain-compatible libraries, agents, and deployment tools across multiple languages.
+  mental_damage: An impressive catalog of every possible way to wrap a prompt in a chain, ensuring you can spend three hours browsing libraries instead of actually shipping your chatbot.
   tags:
     - langchain
     - awesome-list
-    - directory
-    - llm
     - ecosystem
+    - directory
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list and directory of tools rather than a standalone developer tool or product itself, fitting the awesome-awesomes category.
+  reason: The repository is a curated index of ecosystem tools rather than a standalone developer product, fitting the navigation-aid role of Lists & Directories.
   evidence:
-    - Repo description explicitly states it is an 'Awesome list of tools and projects with the awesome LangChain framework'.
-    - README confirms it is a 'Curated list of tools and projects using LangChain' with sections for frameworks, ports, and tools.
-    - Direct awesome list source is marked as true, indicating it is a directory/index type resource.
+    - Repo description explicitly states 'Awesome list of tools and projects with the awesome LangChain framework'
+    - README confirms it is a 'Curated list of tools and projects using LangChain' with sections for frameworks, ports, and tools
+    - Direct awesome list source flag is true, confirming its identity as a directory
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (9326) exceeded threshold (150)
+  reason: Stars (9328) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.323Z"
+    updated_at: "2026-05-06T22:44:53.070Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:46.133Z"
+    updated_at: "2026-05-06T23:08:09.693Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

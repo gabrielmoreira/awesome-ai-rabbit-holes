@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mobilereality__mdma__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-04T15:18:17Z"
-    pushed_at: "2026-05-05T16:13:12Z"
+    pushed_at: "2026-05-06T13:01:25Z"
     description: Interactive documents from Markdown. Extends MD with forms, approvals, webhooks, and more — built for next gen apps
     homepage: ""
     topics:
@@ -46,50 +46,50 @@ metadata:
       - react
       - remark-plugin
       - typescript
-    last_checked_at: "2026-05-05T21:03:44.887Z"
+    last_checked_at: "2026-05-06T22:45:23.047Z"
     readme:
-      fetched_at: "2026-05-05T21:03:44.887Z"
+      fetched_at: "2026-05-06T22:45:23.047Z"
       bytes: 25540
 insights:
-  summary: MDMA (Markdown Document with Mounted Applications) extends Markdown with interactive components like forms, approval gates, and webhooks, allowing LLMs to generate structured, actionable documents rendered via a React SDK.
-  why_it_matters: It replaces fragile free-form text parsing with a predictable schema for LLM outputs, enabling developers to build interactive AI workflows and structured UIs without writing custom rendering logic for every use case.
-  mental_damage: We've successfully evolved AI interactions from 'vibes-based text' to 'vibes-based forms', ensuring the model now hallucinates the exact structure of your intake questionnaire instead of just the answers.
+  summary: MDMA extends Markdown with interactive components like forms, approval gates, and webhooks so LLMs can generate actionable, schema-driven documents instead of plain text.
+  why_it_matters: Developers can define structured MDMA specs that let AI assistants return validated, interactive UI components directly in Markdown, eliminating fragile text parsing and custom UI per use case.
+  mental_damage: We have successfully evolved AI conversations from plain text to interactive Markdown forms, which is definitely not just rebuilding HTML forms with extra steps and a tokenizer.
   tags:
     - markdown
-    - llm
-    - interactive
-    - mcp
+    - interactive-documents
+    - llm-integration
     - react
+    - mcp
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first SDK and library (parser, runtime, renderer, CLI) for embedding interactive AI-driven document behavior into applications, which fits the AI Frameworks category.
+  reason: MDMA is a code-first SDK and spec system (parser, runtime, renderer, prompt pack) that developers import and script against to structure LLM output as interactive documents.
   evidence:
-    - "README lists installation of npm packages: @mobile-reality/mdma-parser, @mobile-reality/mdma-runtime, and @mobile-reality/mdma-renderer-react."
-    - Described as extending Markdown with components (forms, webhooks) specifically so an LLM can generate structured, renderable outputs.
-    - Included in awesome-mcp-servers under 'Developer Tools', confirming its relevance to the MCP/developer tooling ecosystem.
+    - "README shows multiple npm packages: @mobile-reality/mdma-parser, mdma-runtime, mdma-renderer-react, mdma-prompt-pack, and mdma-cli."
+    - Core concept is a spec-driven Markdown extension with typed components (form, button, approval-gate, webhook) rendered via a React library.
+    - Topics include llm, agent-skills, claude-skill, mcp, and generative-ui, and it is listed in awesome-mcp-servers under Developer Tools.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:44.887Z"
+    updated_at: "2026-05-06T22:45:23.047Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:42.112Z"
+    updated_at: "2026-05-06T23:15:10.495Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

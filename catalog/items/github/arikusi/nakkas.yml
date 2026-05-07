@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arikusi__nakkas__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 7
-    forks: 1
+    forks: 2
     license: MIT
     archived: false
     created_at: "2026-03-21T15:56:29Z"
@@ -43,50 +43,50 @@ metadata:
       - svg
       - typescript
       - vector
-    last_checked_at: "2026-05-05T21:01:09.328Z"
+    last_checked_at: "2026-05-06T22:12:42.814Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.328Z"
+      fetched_at: "2026-05-06T22:12:42.814Z"
       bytes: 13728
 insights:
-  summary: An MCP server that exposes tools for AI assistants to generate and preview animated SVG graphics from JSON configurations.
-  why_it_matters: It allows developers to delegate design-heavy SVG generation and animation tasks directly to their AI workflow without leaving the coding environment.
-  mental_damage: We have finally reached the point where our AI agents need a dedicated middleware layer just to argue with them about neon gradients and SMIL animations.
+  summary: An MCP server that renders AI-generated JSON configurations into animated SVG graphics, supporting CSS and SMIL animations for local use.
+  why_it_matters: It lets developers instruct their coding assistants to generate and preview visual assets like logos, spinners, and charts directly within their existing MCP-compatible workflow.
+  mental_damage: We have successfully abstracted away the need to open a vector graphics editor by adding yet another server to the config file we never quite finished debugging.
   tags:
     - mcp
     - svg
     - generative-art
-    - typescript
     - animation
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling for AI assistants, fitting cleanly into the MCP infrastructure category.
+  reason: The product's identity is an MCP server that provides rendering tools (render_svg, preview, save) to AI clients, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server that turns AI into an SVG artist'."
-    - README confirms it provides `render_svg`, `preview`, and `save` tools for MCP clients like Claude Desktop and Cursor.
-    - Listed in awesome-mcp-servers under 'Art & Culture' and official MCP Registry.
+    - "Repo description explicitly states: 'MCP server that turns AI into an SVG artist.'"
+    - README confirms it provides tools like `render_svg` and `preview` via `npx` for clients like Claude Desktop and Cursor.
+    - Listed in awesome-mcp-servers under 'Art & Culture', reinforcing its identity as a domain-specific MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.328Z"
+    updated_at: "2026-05-06T22:12:42.814Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:00.206Z"
+    updated_at: "2026-05-06T22:22:15.951Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

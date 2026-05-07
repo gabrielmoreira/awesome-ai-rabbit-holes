@@ -1,0 +1,78 @@
+id: huggingface__co__zai__org__glm__ocr
+kind: website
+name: GLM-OCR
+canonical_url: https://huggingface.co/zai-org/GLM-OCR
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__zai__org__glm__ocr__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: GLM-OCR
+        extracted_url: https://huggingface.co/zai-org/GLM-OCR
+        surrounding_text: "48. [GLM-OCR](https://huggingface.co/zai-org/GLM-OCR): a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: GLM-OCR is a Vision-Language Model hosted on Hugging Face that converts document images into structured text using an image-to-text pipeline.
+  why_it_matters: It provides a high-performing open-weight OCR model with strong multilingual and layout benchmarks that developers can integrate via standard Transformers libraries.
+  mental_damage: Yet another reminder that the hardest part of your AI stack isn't the model, but figuring out which 2GB checkpoint claiming 'State of the Art' actually parses your receipts correctly.
+  tags:
+    - ocr
+    - vision-language-model
+    - huggingface
+    - document-parsing
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a raw model checkpoint and data resource, not a developer tool, agent, framework, or infrastructure product within the catalog's scope.
+  evidence:
+    - "Hosted as a model repo on Hugging Face (pipeline_tag: image-to-text) rather than an installable tool or SDK."
+    - Appears in awesome-LLM-resources under a 'Data' section, serving as a resource rather than tooling.
+    - No repo description, README, or code interface provided; the excerpt is purely model configuration and evaluation metadata.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:25.110Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

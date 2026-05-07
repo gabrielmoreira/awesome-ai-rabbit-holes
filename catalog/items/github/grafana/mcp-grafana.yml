@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__grafana__mcp-grafana__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Grafana](https://github.com/grafana/mcp-grafana)** - Search dashboards, investigate incidents and query datasources in your Grafana instance"
         confidence: high
     - id: discovery__github__grafana__mcp-grafana__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -38,58 +38,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2958
+    stars: 2967
     forks: 353
     license: Apache-2.0
     archived: false
     created_at: "2024-12-24T15:44:23Z"
-    pushed_at: "2026-05-05T20:24:02Z"
+    pushed_at: "2026-05-06T20:20:33Z"
     description: MCP server for Grafana
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:26.734Z"
+    last_checked_at: "2026-05-06T22:44:07.608Z"
     readme:
-      fetched_at: "2026-05-05T21:02:26.734Z"
+      fetched_at: "2026-05-06T22:44:07.608Z"
       bytes: 57947
 insights:
-  summary: An official MCP server from Grafana that exposes dashboards, datasources, and query engines (Prometheus, Loki, ClickHouse, etc.) to AI models and MCP-compatible clients.
-  why_it_matters: It lets developers and AI assistants directly search dashboards, run queries, and modify panels through natural language instead of clicking through Grafana UI or hand-writing API calls.
-  mental_damage: You now have the privilege of debugging a PromQL query that was hallucinated by a model and proxied through three layers of MCP middleware.
+  summary: An official MCP server from Grafana that exposes dashboards, datasources, and query engines (Prometheus, Loki, ClickHouse, and others) to MCP-compatible AI clients like Claude Desktop and Cursor.
+  why_it_matters: It lets coding agents directly inspect dashboards, run observability queries, and modify Grafana resources without the developer leaving their AI-assisted workflow.
+  mental_damage: We have successfully taught our LLMs to read the graphs we were previously staring at to figure out why the LLM's generated code broke production.
   tags:
     - mcp
     - grafana
     - observability
-    - llm-integration
+    - monitoring
+    - promql
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation for Grafana, clearly fitting the MCP Servers and Tooling category.
+  reason: This is an official MCP server from Grafana, making MCP infrastructure its primary product identity, which fits squarely into the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Grafana'
-    - README confirms it is a Model Context Protocol server with tools for dashboards, Prometheus, Loki, ClickHouse, and other Grafana ecosystem features
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory
+    - Repo description explicitly states 'MCP server for Grafana'.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections.
+    - Active development with recent pushes and official Grafana authorship.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2958) exceeded threshold (150)
+  reason: Stars (2967) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:26.734Z"
+    updated_at: "2026-05-06T22:44:07.608Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:42.432Z"
+    updated_at: "2026-05-06T22:58:42.537Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

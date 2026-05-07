@@ -1,13 +1,13 @@
 id: github__openbiolink__thoughtsource
 kind: github-repo
-name: ThoughtSource⚡
+name: thoughtsource
 canonical_url: https://github.com/openbiolink/thoughtsource
 identity:
   github_repo: openbiolink/thoughtsource
 provenance:
   discoveries:
     - id: discovery__github__openbiolink__thoughtsource__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -38,28 +38,28 @@ metadata:
       - natural-language-processing
       - question-answering
       - reasoning
-    last_checked_at: "2026-05-05T21:04:03.901Z"
+    last_checked_at: "2026-05-06T22:45:40.984Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.901Z"
+      fetched_at: "2026-05-06T22:45:40.984Z"
       bytes: 13675
 insights:
-  summary: ThoughtSource is an open-source framework and dataset hub providing standardized chain-of-thought reasoning data for large language models, including tools to load and process reasoning chains in Hugging Face format.
-  why_it_matters: It provides developers and researchers with a centralized, standardized resource to train, evaluate, and analyze the reasoning capabilities of LLMs across various general question-answering datasets.
-  mental_damage: We now have a centralized hub to study how models reason, which is perfect for those who enjoy reading machine-generated thoughts that are about as linear as a plate of spaghetti.
+  summary: ThoughtSource is an open research framework providing standardized chain-of-thought reasoning datasets and dataloaders for Hugging Face datasets.
+  why_it_matters: It offers developers a centralized hub to access and benchmark how models reason through problems, rather than just what answers they produce.
+  mental_damage: Studying the anatomy of a thought process in such granular detail that you start to wonder if your own code reviews are just poorly-formed reasoning chains.
   tags:
     - chain-of-thought
-    - dataset
-    - llm
-    - nlp
     - reasoning
+    - dataset
+    - nlp
+    - research
   confidence: high
 curation:
   status: excluded
-  reason: While it is a useful resource for ML research, it is a data/research framework for NLP reasoning, not a practical AI tool, agent, or infrastructure for software developers building applications.
+  reason: The project is a research dataset and scientific toolkit for NLP/ML reasoning, lacking the developer-facing tooling angle required for this catalog.
   evidence:
-    - Repo description and README focus on 'chain-of-thought reasoning in large language models' and 'science of machine thinking', targeting researchers over developers.
-    - Topics include dataset, machine-learning, and natural-language-processing, aligning with ML research rather than developer tooling.
-    - Source list context places it in awesome-langchain under 'Other / Chatbots', indicating a research/experimental use case rather than a dev workflow tool.
+    - Repo description identifies it as a 'central, open resource for data and tools related to chain-of-thought reasoning', not a coding tool.
+    - Topics include 'machine-learning' and 'natural-language-processing', anchoring it in ML research rather than software engineering infrastructure.
+    - README emphasizes 'science of machine thinking' and 'dataloaders' for Hugging Face, targeting researchers rather than developers building apps.
 placement:
   primary_category: null
   section: null
@@ -67,21 +67,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1014) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:27.510Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.901Z"
+    updated_at: "2026-05-06T22:45:40.984Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:16.564Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

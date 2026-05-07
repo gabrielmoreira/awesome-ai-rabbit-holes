@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tactual-dev__tactual__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,69 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-05T07:51:17Z"
+    pushed_at: "2026-05-03T17:54:05Z"
+    description: Screen-reader navigation cost analyzer — models the real effort to discover, reach, and operate interactive web content
+    homepage: https://tactual.sh
+    topics:
+      - a11y
+      - accessibility
+      - aria
+      - assistive-technology
+      - mcp
+      - navigation
+      - playwright
+      - sarif
+      - screen-reader
+      - wcag
+    last_checked_at: "2026-05-06T22:46:39.910Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:39.910Z"
+      bytes: 49594
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A screen-reader navigation cost analyzer that models the real effort required to discover, reach, and operate interactive web content via Playwright and optional MCP server integration.
+  why_it_matters: It shifts accessibility testing from static conformance checks to measuring actual user effort, outputting actionable findings with selectors and remediation candidates for CI and local workflows.
+  mental_damage: We have finally built an AI tool to measure how many keystrokes it takes a blind user to reach the checkout button, which is a very specific kind of progress to celebrate while your own CLIs remain undocumented.
+  tags:
+    - accessibility
+    - mcp
+    - cli
+    - testing
+    - playwright
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: MCP is a core product identity shipped as a runtime dependency for editor workflows, while the underlying tool is a developer-facing accessibility analyzer that fits the MCP Servers & Tooling scope.
+  evidence:
+    - Repo description explicitly calls it a 'screen-reader navigation cost analyzer' with MCP listed as a topic.
+    - README states it can be run 'via the MCP server in your editor' and ships the MCP SDK as a runtime dependency.
+    - Included in awesome-mcp-servers under Developer Tools, reinforcing its MCP server identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:39.911Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:23.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shipstatic__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,78 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T17:39:28Z"
+    pushed_at: "2026-05-04T22:47:37Z"
+    description: MCP server for instant static site deploys from AI agents — free, no account needed
+    homepage: https://www.shipstatic.com/mcp
+    topics:
+      - agent-skills
+      - ai
+      - ai-agents
+      - antigravity
+      - claude
+      - claude-code
+      - cursor
+      - deploy
+      - hosting
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - ship
+      - static-hosting
+      - static-site
+      - typescript
+      - vibe-coding
+      - web-hosting
+      - website
+    last_checked_at: "2026-05-06T22:46:23.458Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.458Z"
+      bytes: 3487
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets AI agents instantly deploy static sites and prototypes to *.shipstatic.com without accounts or API keys.
+  why_it_matters: It gives coding agents a zero-config deployment target, letting them ship landing pages and demos without leaving the chat or wiring up cloud credentials.
+  mental_damage: We have successfully rebuilt FTP as a model context protocol tool so your agent can deploy a three-file landing page while you architect the next microservice migration.
+  tags:
+    - mcp
+    - static-hosting
+    - deploy
+    - agent-tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server that exposes deployment, domain, and account tools to MCP-compatible clients like Claude Code, Cursor, and Windsurf.
+  evidence:
+    - "Repo description states: 'MCP server for instant static site deploys from AI agents — free, no account needed'"
+    - README provides setup instructions for Claude Code, Cursor, Antigravity, Windsurf, and Zed as MCP clients
+    - Listed in awesome-mcp-servers under 'Cloud Platforms' as a server implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.458Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:25.257Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -6,8 +6,8 @@ identity:
   github_repo: brandcode-studio/brandsystem-mcp
 provenance:
   discoveries:
-    - id: discovery__github__brand-system__brandsystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__brandcode-studio__brandsystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,56 +29,53 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-22T08:01:37Z"
-    pushed_at: "2026-04-21T07:23:50Z"
+    pushed_at: "2026-05-06T19:27:02Z"
     description: MCP server for progressive brand governance — extract, compile, and audit brand identity systems
     homepage: https://brandsystem-mcp.vercel.app
     topics: []
-    last_checked_at: "2026-05-05T21:01:25.008Z"
+    last_checked_at: "2026-05-06T22:12:56.414Z"
     readme:
-      fetched_at: "2026-05-05T21:01:25.008Z"
+      fetched_at: "2026-05-06T22:12:56.414Z"
       bytes: 33173
 insights:
-  summary: An MCP server that extracts brand identity from websites, Figma, and PDFs, then compiles it into a portable .brand/ directory for consumption by AI coding and design tools.
-  why_it_matters: It allows developers to stop pasting 400 tokens of brand guidelines into every prompt by packaging governance, tokens, and voice rules into a single runtime file that Claude Code, Cursor, and ChatGPT can load natively.
-  mental_damage: We have successfully reached the point where we need a dedicated server to remind the AI that your logo is blue and your brand voice isn't 'competent generalist'.
+  summary: An MCP server that extracts brand identity from websites, Figma, and PDFs to compile a portable `.brand/` runtime for use across coding assistants and AI design tools.
+  why_it_matters: It collapses hundreds of tokens of inline brand context into a reusable runtime artifact, letting developers and designers enforce consistent voice, tokens, and anti-patterns inside Claude Code, Cursor, and ChatGPT without repetitive prompt boilerplate.
+  mental_damage: "We have finally solved the hardest problem in AI-assisted development: making sure the landing page still looks like it was designed by a competent generalist with a brand guidelines PDF no one ever reads."
   tags:
+    - mcp
     - brand-governance
     - context-engineering
     - design-tokens
-    - mcp
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide brand context to developer tools, fitting cleanly into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server that packages brand identity into a portable runtime for AI tools, making MCP its core identity rather than a compatibility footnote.
   evidence:
-    - Repo description identifies it as an 'MCP server for progressive brand governance'.
-    - README details a tool that compiles a .brand/ directory and brand-runtime.json for clients like Claude Code, Cursor, and ChatGPT.
-    - Listed in awesome-mcp-servers under the 'Marketing' section, confirming its identity as an MCP implementation.
-    - Repo description states it is an 'MCP server for progressive brand governance'.
-    - README instructs adding it to .mcp.json for Claude Code, Cursor, and Windsurf.
-    - It compiles a portable brand-runtime.json artifact designed to be loaded by MCP clients.
+    - "Repo description: 'MCP server for progressive brand governance — extract, compile, and audit brand identity systems'"
+    - "README: 'This MCP server is the authoring half of the Two MCPs, One Brand model... compiles governance, tokens, and voice rules into a .brand/ directory'"
+    - "Source list: listed in awesome-mcp-servers under Server Implementations > Marketing"
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:33.765Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:25.008Z"
+    updated_at: "2026-05-06T22:12:56.414Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:03.166Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

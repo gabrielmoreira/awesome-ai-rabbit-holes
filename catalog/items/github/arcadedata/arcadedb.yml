@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arcadedata__arcadedb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 844
+    stars: 845
     forks: 102
     license: Apache-2.0
     archived: false
     created_at: "2021-08-16T16:01:29Z"
-    pushed_at: "2026-05-05T18:44:15Z"
+    pushed_at: "2026-05-06T20:46:12Z"
     description: ArcadeDB Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB is a conceptual fork of OrientDB, the first Multi-Model DBMS. ArcadeDB supports Vector Embeddings.
     homepage: https://arcadedb.com
     topics:
@@ -51,14 +51,14 @@ metadata:
       - time-series
       - vector-database
       - vector-search
-    last_checked_at: "2026-05-05T21:01:07.975Z"
+    last_checked_at: "2026-05-06T22:12:41.884Z"
     readme:
-      fetched_at: "2026-05-05T21:01:07.975Z"
+      fetched_at: "2026-05-06T22:12:41.884Z"
       bytes: 14871
 insights:
-  summary: ArcadeDB is a multi-model database written in Java that supports SQL, Cypher, Gremlin, and vector embeddings for similarity search.
-  why_it_matters: Developers building AI applications can use it as a single backend for graph relationships, document storage, and vector search without wiring multiple specialized databases together.
-  mental_damage: "Just what we needed: another database that does everything, ensuring you can now debate multi-model trade-offs while your vector embeddings quietly drift."
+  summary: ArcadeDB is a multi-model Java database supporting SQL, Cypher, Gremlin, and vector embeddings, designed as a high-performance conceptual fork of OrientDB.
+  why_it_matters: It provides developers with a single ACID-compliant system that handles graph, document, and vector workloads, simplifying the stack for AI applications needing similarity search.
+  mental_damage: Yet another database promising to be the single source of truth for your graph, documents, and vectors, ensuring you only have one complex system to debug at 2 AM instead of three.
   tags:
     - database
     - vector-search
@@ -67,33 +67,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: While it supports vector embeddings and appears in MCP server lists, ArcadeDB is a general-purpose database, not a developer-facing AI tool, agent, or workflow product.
+  reason: ArcadeDB is a general-purpose database management system; it lacks a primary AI developer-tooling identity such as a coding agent, framework, or MCP server, despite supporting vector embeddings.
   evidence:
-    - Repo description defines it as a multi-model DBMS supporting SQL, Cypher, Gremlin, MongoDB, and Redis protocols.
-    - README positions it as a high-performance Java database with ACID transactions, graph engine, and vector support, not an AI assistant or workflow tool.
-    - Appears in awesome-mcp-servers under Databases, but the product itself is a database, not MCP infrastructure or an AI developer tool.
+    - Repo description identifies it as a 'Multi-Model Database' and 'DBMS', not an AI tool.
+    - README focuses on performance, ACID transactions, and SQL/Gremlin/Cypher support, with vector support as just one of many features.
+    - Listed in awesome-mcp-servers only as a database implementation, but no MCP server implementation is present in the provided repo details.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (844) exceeded threshold (150)
+  reason: Stars (845) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:07.975Z"
+    updated_at: "2026-05-06T22:12:41.884Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:50.006Z"
+    updated_at: "2026-05-06T22:22:02.108Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

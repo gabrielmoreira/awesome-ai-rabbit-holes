@@ -1,12 +1,12 @@
 id: stack__convex__dev__convex__mcp__server
 kind: website
-name: Convex
+name: convex-mcp-server
 canonical_url: https://stack.convex.dev/convex-mcp-server
 identity: {}
 provenance:
   discoveries:
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration to introspect tables, functions, and run oneoff queries ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))"
         confidence: high
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,7 +37,7 @@ provenance:
         surrounding_text: "- **[Convex](https://stack.convex.dev/convex-mcp-server)** - Introspect and query your apps deployed to Convex."
         confidence: high
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -65,44 +65,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Model Context Protocol server from Convex that allows AI agents and coding assistants to introspect deployments, run functions, and read or write data via tools like Cursor.
-  why_it_matters: It lets agents directly interact with your backend state and functions, turning your live Convex deployment into a tool-calling surface for coding assistants.
-  mental_damage: You can now watch an agent confidently write a one-off query to count word frequencies, be amazed by the automation, and then spend twenty minutes explaining to your team why production data is now also a debugging playground.
+  summary: An official MCP server from Convex that lets AI agents introspect deployments, run functions, and read and write data via standardized tool calls.
+  why_it_matters: Developers can wire Convex backends directly into MCP-compatible coding agents, letting models safely query tables, run functions, and manipulate environment variables without leaving the agent loop.
+  mental_damage: Yet another perfectly valid reason to let your agent silently rearrange your production database while you wonder when exactly you stopped reviewing PRs.
   tags:
-    - agent-tools
-    - backend
-    - convex
-    - cursor
     - mcp
+    - convex
+    - backend
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a canonical MCP server implementation for Convex, fitting cleanly into the MCP Servers and Tooling category rather than a coding agent or extension.
+  reason: This is an official MCP server implementation from Convex, making MCP its primary product identity rather than a secondary compatibility feature.
   evidence:
-    - Scraped site title and description explicitly state 'Convex MCP Server' with stdio transport and tool-based interaction.
-    - Installation instructions show configuration for Cursor via 'npx convex@latest mcp start' as a custom MCP server.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases / Official Servers sections.
+    - Official Convex article announces 'Convex now supports a powerful MCP server' as a beta feature in Convex 1.19.5.
+    - Listed in multiple awesome-mcp directories under Databases and Official Servers sections.
+    - Exposes tools for introspecting tables, running functions, reading/writing data, and managing environment variables via the MCP stdio transport.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:20.554Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:04.679Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

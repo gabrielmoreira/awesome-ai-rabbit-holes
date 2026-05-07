@@ -1,13 +1,13 @@
 id: github__modelscope__twinkle
 kind: github-repo
-name: Twinkle
+name: twinkle
 canonical_url: https://github.com/modelscope/twinkle
 identity:
   github_repo: modelscope/twinkle
 provenance:
   discoveries:
     - id: discovery__github__modelscope__twinkle__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -28,32 +28,24 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2025-12-16T06:20:55Z"
-    pushed_at: "2026-04-27T06:54:39Z"
+    pushed_at: "2026-05-06T00:43:45Z"
     description: "Twinkle✨: Training workbench to make your model glow."
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:46.027Z"
+    last_checked_at: "2026-05-06T22:45:24.276Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.027Z"
+      fetched_at: "2026-05-06T22:45:24.276Z"
       bytes: 28220
 insights:
-  summary: Twinkle is a lightweight, client-server training framework for fine-tuning and serving AI models locally or across Ray clusters, with support for multiple backends and multi-tenant LoRA training.
-  why_it_matters: It abstracts away infrastructure friction for developers building custom training pipelines, enabling serverless Training-as-a-Service (TaaS) workflows without deep DevOps overhead.
-  mental_damage: "Just what the ecosystem needed: another highly modular, superset-API training workbench ensuring you can now argue about torchrun versus Ray cluster configurations in three different client languages."
-  tags:
-    - fine-tuning
-    - model-serving
-    - pytorch
-    - ray
-    - training
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: This is a model-training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or coding workflow product.
-  evidence:
-    - Repo description explicitly states it is a 'Training workbench to make your model glow', focused on model training rather than coding assistance.
-    - README describes a 'client-server training framework' with torchrun/Ray runtimes and Transformers/Megatron backends for fine-tuning LoRAs.
-    - Listed under '微调 Fine-Tuning' in awesome-LLM-resources, confirming its ML training niche rather than developer tooling.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -61,21 +53,23 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (219) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:55.728Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.027Z"
+    updated_at: "2026-05-06T22:45:24.276Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:15:23.120Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__modelscope__twinkle: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,28 +1,13 @@
 id: github__salesforce__codegen
 kind: github-repo
-name: CodeGen
+name: codegen
 canonical_url: https://github.com/salesforce/codegen
 identity:
   github_repo: salesforce/codegen
 provenance:
   discoveries:
-    - id: discovery__codegen__com__home__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Codegen
-        anchor_text: Codegen
-        extracted_url: https://www.codegen.com
-        surrounding_text: "## [Codegen](https://www.codegen.com/)"
-        confidence: high
     - id: discovery__github__salesforce__codegen__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -36,81 +21,67 @@ provenance:
         extracted_url: https://github.com/salesforce/codegen
         surrounding_text: "| [CodeGen](https://github.com/salesforce/CodeGen)    | CodeGen is an open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. | ![GitHub Badge](https://img.shields.io/github/stars/salesforce/CodeGen.svg?style=flat-square)   |"
         confidence: high
-    - id: discovery__www__codegen__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Codegen
-        anchor_text: Codegen
-        extracted_url: https://www.codegen.com
-        surrounding_text: "## [Codegen](https://www.codegen.com/)"
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5175
+    forks: 421
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-03-28T20:48:29Z"
+    pushed_at: "2025-10-27T18:57:36Z"
+    description: CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex.
+    homepage: ""
+    topics:
+      - codex
+      - generativemodel
+      - languagemodel
+      - llm
+      - programsynthesis
+      - tpu-acceleration
+    last_checked_at: "2026-05-06T22:46:15.796Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:15.796Z"
+      bytes: 5097
 insights:
-  summary: Codegen is an AI coding agent designed to autonomously plan, write, and review code changes within a developer's repository workflow.
-  why_it_matters: It aims to automate the implementation of entire tasks or features, allowing developers to shift focus from boilerplate generation to higher-level architecture and review.
-  mental_damage: "Just what the modern developer needs: another autonomous agent ready to refactor your perfectly working legacy code while you sip coffee and pray the test suite still passes."
+  summary: CodeGen is a family of open-source large language models from Salesforce AI Research trained specifically for program synthesis and code generation.
+  why_it_matters: It provides developers with a competitive, open-weight alternative to OpenAI Codex for building code-aware applications or running local synthesis workflows.
+  mental_damage: Yet another 'open competitor to Codex' that will inevitably be benchmarked to death while we all wait for the next slightly larger version to change nothing about our actual shipping velocity.
   tags:
-    - automation
-    - autonomous
-    - code-review
-    - codemods
-    - coding-agent
-    - coding-agents
-    - enterprise
-    - repo-workflow
+    - llm
+    - code-generation
+    - open-source
+    - salesforce
+    - program-synthesis
   confidence: high
 curation:
-  status: included
-  reason: The product is explicitly described as an 'operating system for AI coding agents' that integrates with tickets and PRs to automate code workflows, fitting the coding-agents category.
+  status: excluded
+  reason: This is a raw model release and research artifact rather than a practical developer tool, IDE, agent, or framework; it is ML research infrastructure best consumed via Hugging Face, not a product for day-to-day coding workflows.
   evidence:
-    - Blog headline describes it as 'The operating system for AI coding agents' that automates from ticket to pull request.
-    - Source list context places it under 'awesome-ai-agents' in a 'Codegen' section for autonomous agents.
-    - Product features include Codegen + Linear integration, AI code review tools, and on-prem deployment for engineering teams.
-    - Blog titles include 'Best AI Coding Agents in 2026' and 'How to Build Agentic Coding Workflows That Actually Ship'.
-    - Product description calls it 'The operating system for AI coding agents' and highlights 'Ticket to pull request' automation.
-    - Featured in awesome-ai-agents list under the 'Codegen' section.
-    - Listed in the 'awesome-ai-agents' directory under the specific section 'Codegen'.
-    - The URL (www.codegen.com) and name imply a direct focus on code generation and autonomous coding capabilities.
+    - Repo description explicitly describes it as 'a family of open-source model for program synthesis', not a tool or agent.
+    - README focuses on model checkpoints, Hugging Face usage snippets, and publications, with no developer-facing product surface.
+    - Ethics disclaimer confirms the release is 'for research purposes only in support of an academic paper'.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (5175) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T22:47:24.084Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:15.796Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:52.368Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

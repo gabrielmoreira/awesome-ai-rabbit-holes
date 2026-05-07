@@ -1,12 +1,12 @@
 id: www__imean__ai
 kind: website
-name: iMean.AI
+name: www.imean.ai
 canonical_url: https://www.imean.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__imean__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based AI trip planner that generates personalized travel itineraries, flight deals, and hotel recommendations via chat.
-  why_it_matters: It does not; this is a consumer travel concierge with no developer workflow, API, or code-generation utility.
-  mental_damage: We have reached the point where autonomous agent directories are confidently indexing SaaS products that help you book a honeymoon in Bali.
+  summary: iMean AI is an AI-powered consumer travel planner that helps users find cheap flights, book hotels, and generate personalized trip itineraries via chat.
+  why_it_matters: It does not matter to software developers as a tool, serving only the consumer travel market rather than any engineering workflow.
+  mental_damage: We have successfully reached the point where even a generic trip planner for finding cheap hotels is accidentally indexed as an 'autonomous AI agent' by maintainers who forgot to check the URL.
   tags:
-    - ai-planner
-    - consumer-saas
     - travel
+    - consumer-saas
+    - off-topic
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing travel booking assistant, not a developer tool, agent framework, or AI infrastructure project.
+  reason: The product is a consumer-facing AI travel planner for flights and hotels, lacking any developer-tooling, coding, infrastructure, or workflow angle required for this catalog.
   evidence:
-    - Scraped site title and description explicitly define it as 'AI Trip Planner for cheap flights, hotels, and personalized itineraries'.
-    - "Primary page excerpt focuses entirely on travel use cases: family trips, business travel, flight scanning, and hotel booking."
-    - Listed in awesome-ai-agents under a travel-specific section, indicating a mismatch with software development scope.
+    - Scraped site title and description explicitly define it as 'AI Trip Planner | Flights, Hotels & Travel Ideas'.
+    - "Primary page excerpt focuses entirely on travel features: 'Find cheap flights', 'Book quality hotels', 'Generate itinerary'."
+    - Source list context (awesome-ai-agents) describes it as 'your AI Trip Planner for cheap flights, hotels, and personalized itineraries', confirming consumer travel scope.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:27.612Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:48.506Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

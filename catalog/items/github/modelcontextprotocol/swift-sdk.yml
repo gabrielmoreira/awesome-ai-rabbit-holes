@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modelcontextprotocol__swift-sdk__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -36,49 +36,49 @@ metadata:
     topics:
       - mcp
       - swift
-    last_checked_at: "2026-05-05T21:03:45.245Z"
+    last_checked_at: "2026-05-06T22:45:23.610Z"
     readme:
-      fetched_at: "2026-05-05T21:03:45.245Z"
+      fetched_at: "2026-05-06T22:45:23.610Z"
       bytes: 52292
 insights:
-  summary: The official Swift SDK for implementing Model Context Protocol (MCP) clients and servers in Swift applications.
-  why_it_matters: It allows Swift developers to build native MCP-compatible tooling and integrate Apple-platform apps into the growing standardized AI agent ecosystem.
-  mental_damage: Another day, another official SDK for a protocol that will inevitably spawn twelve competing versions before the year ends.
+  summary: The official Swift SDK for building Model Context Protocol (MCP) clients and servers in Swift environments.
+  why_it_matters: Swift developers can now integrate MCP-native tooling into Apple-platform apps without bridging through other languages.
+  mental_damage: We have reached the point where even the SDKs need their own SDKs, and soon the Swift SDK will need a package manager written in Swift to manage the Swift SDK that talks to the MCP server you spun up to list tools.
   tags:
     - swift
     - mcp
     - sdk
-    - protocol
+    - apple
   confidence: high
 curation:
   status: included
-  reason: This is official MCP infrastructure (a client/server SDK) and clearly belongs in the MCP category rather than a generic framework bucket.
+  reason: This is a code-first SDK that developers import and program against to build MCP clients and servers, fitting cleanly as a provider/model abstraction framework.
   evidence:
-    - "Repo description: 'The official Swift SDK for Model Context Protocol servers and clients.'"
-    - README states it 'implements both client and server components according to the 2025-11-25 version of the MCP specification.'
-    - Included in awesome-agent-orchestration under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official Resources'.
+    - Repo description states it is 'The official Swift SDK for Model Context Protocol servers and clients.'
+    - README shows import MCP and Package.swift installation, confirming a code-first library used via Swift Package Manager.
+    - Source list places it under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official Resources', reinforcing its protocol-infrastructure identity.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (1371) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:45.245Z"
+    updated_at: "2026-05-06T22:45:23.610Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:47.658Z"
+    updated_at: "2026-05-06T23:15:15.266Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

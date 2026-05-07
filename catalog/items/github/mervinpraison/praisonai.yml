@@ -1,13 +1,13 @@
 id: github__mervinpraison__praisonai
 kind: github-repo
-name: PraisonAI
+name: praisonai
 canonical_url: https://github.com/mervinpraison/praisonai
 identity:
   github_repo: mervinpraison/praisonai
 provenance:
   discoveries:
     - id: discovery__github__mervinpraison__praisonai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [PraisonAI](https://github.com/MervinPraison/PraisonAI)            | Production-ready Multi-AI Agents framework with self-reflection. Fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, MCP integration, agentic workflows (route/parallel/loop/repeat), built-in memory, Python & JS SDKs.                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/MervinPraison/PraisonAI.svg?style=flat-square)        |"
         confidence: high
     - id: discovery__github__mervinpraison__praisonai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,7 +37,7 @@ provenance:
         surrounding_text: "- **[PraisonAI](https://github.com/MervinPraison/PraisonAI)** – Multi-agent framework with 100+ LLM support and MCP integration."
         confidence: high
     - id: discovery__github__mervinpraison__praisonai__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -52,7 +52,7 @@ provenance:
         surrounding_text: "- [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production-ready Multi-AI"
         confidence: high
     - id: discovery__github__mervinpraison__praisonai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -68,12 +68,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7056
+    stars: 7072
     forks: 1081
     license: MIT
     archived: false
     created_at: "2024-03-19T16:45:25Z"
-    pushed_at: "2026-05-05T19:07:02Z"
+    pushed_at: "2026-05-06T08:35:33Z"
     description: PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.
     homepage: https://docs.praison.ai
     topics:
@@ -97,50 +97,50 @@ metadata:
       - multi-agents
       - multi-ai-agents
       - openclaw
-    last_checked_at: "2026-05-05T21:03:36.086Z"
+    last_checked_at: "2026-05-06T22:45:14.306Z"
     readme:
-      fetched_at: "2026-05-05T21:03:36.086Z"
+      fetched_at: "2026-05-06T22:45:14.306Z"
       bytes: 45486
 insights:
-  summary: A Python and JavaScript framework and SDK for building multi-agent systems that research, plan, code, and execute tasks with built-in memory and RAG support.
-  why_it_matters: It lets developers assemble autonomous agent teams that handle research, coding, and workflow automation across 100+ LLMs with minimal boilerplate.
-  mental_damage: Another day, another framework promising a 24/7 AI workforce that will definitely not require you to debug its autonomous decisions at 2 AM.
+  summary: PraisonAI is a Python-first framework and CLI for building and deploying autonomous multi-agent systems that can research, code, and execute tasks using 100+ LLMs with built-in memory and RAG.
+  why_it_matters: It lets developers rapidly scaffold multi-agent workflows with minimal boilerplate, offering a visual flow builder and integrations for common chat platforms.
+  mental_damage: Yet another ambitious '5 lines of code' framework promising a 24/7 AI workforce that will definitely ship the product while you finally get around to that inbox zero goal.
   tags:
-    - agents
-    - automation
-    - framework
     - multi-agent
+    - framework
     - sdk
+    - automation
+    - cli
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and framework for building multi-agent systems, which fits squarely into AI Frameworks and SDKs rather than a developer-facing coding agent or control-plane orchestration platform.
+  reason: The primary product identity is a code-first SDK and CLI for building agent systems, fitting the Frameworks & SDKs category over orchestration platforms or coding agents.
   evidence:
-    - Repo description and README position it as a framework/SDK deployable in 5 lines of code with `pip install praisonaiagents`.
-    - Provides both Python and JavaScript SDKs and multiple installable ecosystem components (CLI, UI, Flow builder) rather than a hosted IDE or app builder surface.
-    - Listed in awesome-llm-agents under Frameworks and awesome-ai-coding-tools under Coding Agents, confirming ecosystem relevance for agent development.
+    - Repo description and README emphasize 'deployed in 5 lines of code' and provide Python import examples (from praisonaiagents import Agent).
+    - Ecosystem includes a core SDK (praisonaiagents), a CLI (praisonai), and a JavaScript SDK (npm install praisonai).
+    - Listed in awesome-llm-agents and Awesome-LLMOps under Frameworks sections, aligning with its toolkit identity.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (7056) exceeded threshold (150)
+  reason: Stars (7072) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:03.746Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.658Z"
+    updated_at: "2026-05-06T22:12:15.575Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:36.086Z"
+    updated_at: "2026-05-06T22:45:14.306Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:11.328Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

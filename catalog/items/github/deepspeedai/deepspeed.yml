@@ -1,13 +1,13 @@
 id: github__deepspeedai__deepspeed
 kind: github-repo
-name: DeepSpeed
+name: deepspeed
 canonical_url: https://github.com/deepspeedai/deepspeed
 identity:
   github_repo: deepspeedai/deepspeed
 provenance:
   discoveries:
-    - id: discovery__github__microsoft__deepspeed__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__deepspeedai__deepspeed__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,8 +21,8 @@ provenance:
         extracted_url: https://github.com/microsoft/deepspeed
         surrounding_text: "- [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         confidence: high
-    - id: discovery__github__microsoft__deepspeed__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__deepspeedai__deepspeed__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 42260
-    forks: 4817
+    stars: 42266
+    forks: 4819
     license: Apache-2.0
     archived: false
     created_at: "2020-01-23T18:35:18Z"
-    pushed_at: "2026-05-05T03:01:33Z"
+    pushed_at: "2026-05-06T21:48:29Z"
     description: DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
     homepage: https://www.deepspeed.ai/
     topics:
@@ -61,53 +61,50 @@ metadata:
       - pytorch
       - trillion-parameters
       - zero
-    last_checked_at: "2026-05-05T21:03:38.504Z"
+    last_checked_at: "2026-05-06T22:43:36.787Z"
     readme:
-      fetched_at: "2026-05-05T21:03:38.504Z"
+      fetched_at: "2026-05-06T22:43:36.787Z"
       bytes: 31729
 insights:
-  summary: DeepSpeed is a deep learning optimization library for PyTorch that provides distributed training and inference capabilities via ZeRO, 3D parallelism, and memory offloading techniques.
-  why_it_matters: It allows developers to train and infer with trillion-parameter models on commodity hardware by aggressively optimizing memory usage and communication overhead.
-  mental_damage: You now have the power to train a trillion-parameter model, provided you can solve the far more complex puzzle of configuring ZeRO stages without accidentally OOM-ing a supercomputer.
+  summary: DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+  why_it_matters: It enables developers to train and serve massive billion- and trillion-parameter models by handling the complex system engineering of data, tensor, and pipeline parallelism.
+  mental_damage: It remains the industry standard for making your GPU cluster scream, provided you enjoy debugging ZeRO-stage memory errors at 3 AM instead of actually writing model code.
   tags:
-    - deep-learning
-    - distributed
-    - distributed-training
-    - gpu
-    - inference
-    - optimization
-    - pytorch
     - training
+    - distributed
+    - inference
+    - pytorch
+    - optimization
   confidence: high
 curation:
-  status: included
-  reason: It is a highly popular, code-first SDK and library used by developers to build and scale deep learning infrastructure, fitting the AI Frameworks category.
+  status: excluded
+  reason: DeepSpeed is a foundational ML training and inference framework, not a developer-facing AI tool for coding, agents, or app-building workflows.
   evidence:
-    - Repo description identifies it as a 'deep learning optimization library' for distributed training and inference.
-    - README highlights system innovations like ZeRO and 3D-Parallelism for building large-scale model systems.
-    - Topics include pytorch, gpu, and machine-learning, confirming it is a developer-importable framework.
+    - Repo description explicitly states it is a 'deep learning optimization library' for training and inference.
+    - Topics and README focus on billion-parameter models, ZeRO, mixture-of-experts, and PyTorch parallelism.
+    - Source lists categorize it under 'Training' and 'LLMOps', not developer productivity or coding assistants.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (42260) exceeded threshold (150)
+  reason: Stars (42266) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:25.299Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:38.504Z"
+    updated_at: "2026-05-06T22:43:36.787Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:23.075Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

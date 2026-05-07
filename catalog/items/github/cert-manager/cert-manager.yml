@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cert-manager__cert-manager__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13790
-    forks: 2369
+    stars: 13793
+    forks: 2370
     license: Apache-2.0
     archived: false
     created_at: "2017-05-24T16:25:59Z"
-    pushed_at: "2026-05-04T03:40:02Z"
+    pushed_at: "2026-05-06T12:09:54Z"
     description: Automatically provision and manage TLS certificates in Kubernetes
     homepage: https://cert-manager.io
     topics:
@@ -39,49 +39,50 @@ metadata:
       - kubernetes
       - letsencrypt
       - tls
-    last_checked_at: "2026-05-05T21:01:31.500Z"
+    last_checked_at: "2026-05-06T22:43:18.748Z"
     readme:
-      fetched_at: "2026-05-05T21:01:31.500Z"
+      fetched_at: "2026-05-06T22:43:18.748Z"
       bytes: 7020
 insights:
-  summary: cert-manager is a Kubernetes add-on that automates the provisioning, renewal, and management of TLS certificates using custom resources and integrations with issuers like Let's Encrypt and HashiCorp Vault.
-  why_it_matters: It removes the operational toil of manual certificate rotation and expiry monitoring for developers running services on Kubernetes.
-  mental_damage: Because nothing says 'cutting-edge cloud-native AI infrastructure' like debugging why your TLS certs are still valid even after you've decided to rewrite your entire stack with autonomous agents.
+  summary: cert-manager is a Kubernetes add-on that automates the provisioning, renewal, and management of TLS certificates from sources like Let's Encrypt and HashiCorp Vault using custom resource definitions.
+  why_it_matters: It removes the operational toil of manual certificate rotation in Kubernetes, allowing developers to secure ingress resources and services without worrying about expiry outages.
+  mental_damage: You have mastered the bleeding edge of LLM-assisted coding, yet your production outage is still caused by a Let's Encrypt cert you forgot to renew three months ago.
   tags:
     - kubernetes
     - tls
     - certificates
-    - cloud-native
+    - infrastructure
+    - devops
   confidence: high
 curation:
   status: excluded
-  reason: cert-manager is a general Kubernetes infrastructure tool for TLS automation and contains no AI-specific functionality, developer-assistant behavior, or AI workflow integration.
+  reason: This is a general Kubernetes infrastructure tool for TLS management; it has no AI capabilities, coding-agent features, or developer-facing AI workflow integration.
   evidence:
-    - Repo description and README describe it strictly as a Kubernetes certificate automation tool with no mention of AI, agents, or LLMs.
-    - It is listed in awesome-mcp-servers under 'Cloud Platforms', but the project itself is not an MCP server or AI tool.
-    - No signals in the scraped context or topics indicate any AI developer-tooling purpose.
+    - Repo description states it 'Automatically provision and manage TLS certificates in Kubernetes' with no mention of AI.
+    - README describes issuing certificates from Let's Encrypt, Vault, and CyberArk, functioning as standard infrastructure automation.
+    - Listed in awesome-mcp-servers source list, but the project itself is a core Kubernetes operator with no MCP server implementation in its description or README.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (13790) exceeded threshold (150)
+  reason: Stars (13793) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:31.500Z"
+    updated_at: "2026-05-06T22:43:18.748Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:41.092Z"
+    updated_at: "2026-05-06T22:48:28.462Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

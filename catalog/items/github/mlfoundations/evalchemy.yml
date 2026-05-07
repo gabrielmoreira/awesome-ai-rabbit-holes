@@ -1,13 +1,13 @@
 id: github__mlfoundations__evalchemy
 kind: github-repo
-name: Evalchemy
+name: evalchemy
 canonical_url: https://github.com/mlfoundations/evalchemy
 identity:
   github_repo: mlfoundations/evalchemy
 provenance:
   discoveries:
     - id: discovery__github__mlfoundations__evalchemy__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 594
-    forks: 81
+    forks: 82
     license: null
     archived: false
     created_at: "2024-11-15T22:43:55Z"
@@ -32,49 +32,50 @@ metadata:
     description: Automatic evals for LLMs
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:43.707Z"
+    last_checked_at: "2026-05-06T22:45:22.111Z"
     readme:
-      fetched_at: "2026-05-05T21:03:43.707Z"
+      fetched_at: "2026-05-06T22:45:22.111Z"
       bytes: 20347
 insights:
-  summary: A unified toolkit for evaluating post-trained language models across multiple benchmarks with support for local and API-based models.
-  why_it_matters: It gives developers a single CLI and standardized output to measure model quality across reasoning, coding, and chat benchmarks without wrestling with conflicting dependencies.
-  mental_damage: Yet another chance to discover that your carefully tuned model still can't solve a math problem that a diligent middle schooler would finish before lunch.
+  summary: A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models.
+  why_it_matters: It gives developers a single command-line interface to run standardized reasoning, coding, and chat benchmarks across different model backends without dependency conflicts.
+  mental_damage: Yet another evaluation harness enters the arena, giving model trainers a fresh way to discover that their clever fine-tune still fails AIME24.
   tags:
-    - benchmarks
     - evals
     - llm
+    - benchmarking
+    - cli
     - reasoning
   confidence: high
 curation:
   status: included
-  reason: This is an evaluation harness and benchmark toolkit for LLMs, which clearly fits the evals category rather than a coding agent or developer extension.
+  reason: The core job is benchmarking and measuring model behavior across standardized tasks, which maps directly to the Evals & Benchmarks category.
   evidence:
-    - "Repo description states: 'Automatic evals for LLMs'"
-    - README describes it as 'a unified and easy-to-use toolkit for evaluating post-trained language models' with multiple built-in benchmarks
-    - Listed under '评估 Evaluation' in awesome-LLM-resources, confirming its evaluation focus
+    - Repo description states 'Automatic evals for LLMs' as the primary purpose.
+    - README positions it as 'a unified and easy-to-use toolkit for evaluating post-trained language models' with reasoning benchmarks like AIME24 and LiveCodeBench.
+    - Included in awesome-LLM-resources under the 评估 Evaluation section, aligning with its benchmarking identity.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (594) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:29.260Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:43.707Z"
+    updated_at: "2026-05-06T22:45:22.111Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:53.627Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

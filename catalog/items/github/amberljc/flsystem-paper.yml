@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amberljc__flsystem-paper__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,50 +38,50 @@ metadata:
       - mlsys
       - papers
       - systems
-    last_checked_at: "2026-05-05T21:01:02.304Z"
+    last_checked_at: "2026-05-06T22:12:36.927Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.304Z"
+      fetched_at: "2026-05-06T22:12:36.927Z"
       bytes: 13068
 insights:
-  summary: A curated index of academic papers, frameworks, and systems focused on federated learning from big tech companies and open-source projects.
-  why_it_matters: It serves as a structured research map for developers building distributed, privacy-preserving ML infrastructure rather than standard centralized models.
-  mental_damage: Nothing cements your status as a cutting-edge engineer quite like bookmarking a list of 500 papers you swear you will read right after you finish tuning your 12th optimizer.
+  summary: A curated list of academic papers, tutorials, and projects focused on federated learning systems from big tech companies and open-source frameworks.
+  why_it_matters: It provides a structured map for developers building MLOps infrastructure who need to understand the system design trade-offs of distributed, privacy-preserving training.
+  mental_damage: Yet another 'awesome' list ensuring you can add 'federated learning' to your resume while quietly wondering if you'll ever actually deploy a cluster to a million phones.
   tags:
     - federated-learning
-    - ml-systems
-    - research
+    - mlops
     - papers
+    - systems
     - awesome-list
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list of federated learning research and systems, fitting the catalog's navigation aids for developers exploring specific ML infrastructure domains.
+  reason: The repository is a curated index of academic papers and resources (an 'awesome list'), serving as a navigation aid for developers researching FL systems, which fits the Lists & Directories category.
   evidence:
-    - Repo description explicitly states 'Federated Learning Systems Paper List' and topics include 'awesome-list'.
+    - Repo description explicitly states 'Federated Learning Systems Paper List'.
     - README confirms it is 'A curated list of FL system-related academic papers, articles, tutorials, slides and projects'.
-    - Seen in Awesome-LLMOps source list under the 'Awesome Lists' section.
+    - Seen in Awesome-LLMOps under the 'Awesome Lists' section, confirming its identity as a directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.304Z"
+    updated_at: "2026-05-06T22:12:36.927Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:58.933Z"
+    updated_at: "2026-05-06T22:21:00.380Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

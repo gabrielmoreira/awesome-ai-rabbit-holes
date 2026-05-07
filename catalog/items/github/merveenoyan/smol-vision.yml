@@ -1,0 +1,81 @@
+id: github__merveenoyan__smol-vision
+kind: github-repo
+name: smol-vision
+canonical_url: https://github.com/merveenoyan/smol-vision
+identity:
+  github_repo: merveenoyan/smol-vision
+provenance:
+  discoveries:
+    - id: discovery__github__merveenoyan__smol-vision__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: Smol Vision
+        extracted_url: https://github.com/merveenoyan/smol-vision
+        surrounding_text: "40. [Smol Vision](https://github.com/merveenoyan/smol-vision): Recipes for shrinking, optimizing, customizing cutting edge vision models."
+        confidence: high
+metadata:
+  github:
+    stars: 1914
+    forks: 146
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-03-13T11:38:29Z"
+    pushed_at: "2026-01-09T11:58:38Z"
+    description: "Recipes for shrinking, optimizing, customizing cutting edge vision models. 💜 "
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:45:14.277Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:14.277Z"
+      bytes: 7099
+insights:
+  summary: A collection of notebooks and recipes for fine-tuning, quantizing, optimizing, and deploying vision and multimodal AI models using tools like Hugging Face Transformers and Optimum.
+  why_it_matters: It provides developers with concrete, runnable workflows to shrink and adapt state-of-the-art vision models for production rather than treating them as opaque black boxes.
+  mental_damage: You now have 12 distinct ways to quantize a model that fits nowhere near your GPU, each requiring a different hallucination-prone notebook environment.
+  tags:
+    - vision-models
+    - fine-tuning
+    - quantization
+    - optimization
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource and recipe collection for ML research and model optimization, not a developer-facing tool, agent, or infrastructure product.
+  evidence:
+    - Repo description explicitly calls it 'Recipes for shrinking, optimizing, customizing cutting edge vision models.'
+    - README is structured as a list of Jupyter notebooks (e.g., 'Fine-tune PaliGemma', 'Faster foundation models with torch.compile').
+    - Seen in awesome-LLM-resources under a 'Course' section, reinforcing its identity as a learning resource rather than a software tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1914) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.629Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:14.277Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:10.915Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

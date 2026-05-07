@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ckreiling__mcp-server-docker__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for Docker
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:34.846Z"
+    last_checked_at: "2026-05-06T22:43:22.277Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.846Z"
+      fetched_at: "2026-05-06T22:43:22.277Z"
       bytes: 5475
 insights:
-  summary: An MCP server that allows developers to manage Docker containers, images, networks, and volumes using natural language through AI assistants like Claude Desktop.
-  why_it_matters: It bridges the gap between local container infrastructure and AI workflows, letting developers spin up and debug complex multi-container environments like WordPress without leaving their chat interface.
-  mental_damage: "We have finally achieved the platonic ideal of modern DevOps: an LLM hallucinating docker-compose flags while mounting the host socket with privileges we explicitly told it not to use."
+  summary: An MCP server that exposes Docker container, image, network, and volume management as tools for LLM clients like Claude Desktop.
+  why_it_matters: It lets developers manage local or remote Docker engines through natural language prompts, turning an MCP-compatible assistant into a container operations interface.
+  mental_damage: Now your LLM can silently docker rm -f half your dev environment while you’re busy debating whether MCP is the new REST or just a very polite telnet.
   tags:
     - mcp
     - docker
     - devops
-    - infrastructure
+    - llm-tools
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for Docker, fitting perfectly into the MCP infrastructure category.
+  reason: The product identity is an MCP server that exposes Docker capabilities to LLM clients, fitting cleanly as domain-specific MCP infrastructure.
   evidence:
-    - Repo description is 'MCP server for Docker'.
-    - Featured in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
-    - README details specific MCP tools for containers, images, networks, and volumes.
+    - "Repo description: 'MCP server for Docker'"
+    - "README states: 'An MCP server for managing Docker with natural language!' and documents container, image, network, and volume tools"
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (711) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.846Z"
+    updated_at: "2026-05-06T22:43:22.277Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:18.645Z"
+    updated_at: "2026-05-06T22:49:23.379Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

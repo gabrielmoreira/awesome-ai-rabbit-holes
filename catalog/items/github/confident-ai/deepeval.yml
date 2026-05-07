@@ -1,13 +1,13 @@
 id: github__confident-ai__deepeval
 kind: github-repo
-name: DeepEval
+name: deepeval
 canonical_url: https://github.com/confident-ai/deepeval
 identity:
   github_repo: confident-ai/deepeval
 provenance:
   discoveries:
     - id: discovery__github__confident-ai__deepeval__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15156
+    stars: 15196
     forks: 1409
     license: Apache-2.0
     archived: false
     created_at: "2023-08-10T05:35:04Z"
-    pushed_at: "2026-05-05T18:30:14Z"
+    pushed_at: "2026-05-06T10:37:46Z"
     description: The LLM Evaluation Framework
     homepage: https://deepeval.com
     topics:
@@ -38,50 +38,50 @@ metadata:
       - llm-evaluation-framework
       - llm-evaluation-metrics
       - python
-    last_checked_at: "2026-05-05T21:01:40.229Z"
+    last_checked_at: "2026-05-06T22:43:27.354Z"
     readme:
-      fetched_at: "2026-05-05T21:01:40.229Z"
+      fetched_at: "2026-05-06T22:43:27.354Z"
       bytes: 21986
 insights:
-  summary: An open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion.
-  why_it_matters: It lets developers scientifically compare prompts, models, and architectures with Pytest-style rigor before shipping brittle AI features to production.
-  mental_damage: Because nothing says 'confident in my AI' like needing a dedicated framework to statistically prove it isn't hallucinating while it writes your unit tests.
+  summary: DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion.
+  why_it_matters: It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
+  mental_damage: Yet another chance to discover that your agent scores 95% on every metric right before it deletes the production database.
   tags:
-    - evals
-    - llm-evaluation
-    - metrics
-    - python
+    - llm-eval
     - testing
+    - python
+    - metrics
+    - agents
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing evaluation framework designed to measure and regress prompt, agent, and RAG quality, fitting the evals category perfectly.
+  reason: The core job is measuring, scoring, and regression-testing LLM and agent behavior, which aligns perfectly with the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly states 'The LLM Evaluation Framework'.
-    - README describes it as 'similar to Pytest but specialized for unit testing LLM apps' with metrics like G-Eval and hallucination detection.
-    - Included in the '评估 Evaluation' section of the awesome-LLM-resources list.
+    - "Repo description states: 'The LLM Evaluation Framework'."
+    - README claims it is 'similar to Pytest but specialized for unit testing LLM apps' with metrics like G-Eval and hallucination detection.
+    - Listed as a canonical positive in the evals category definition.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (15156) exceeded threshold (150)
+  reason: Stars (15196) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:14.023Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:40.229Z"
+    updated_at: "2026-05-06T22:43:27.354Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:27.892Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

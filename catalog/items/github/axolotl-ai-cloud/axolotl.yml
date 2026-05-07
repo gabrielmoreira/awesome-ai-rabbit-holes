@@ -1,28 +1,13 @@
 id: github__axolotl-ai-cloud__axolotl
 kind: github-repo
-name: Axolotl
+name: axolotl
 canonical_url: https://github.com/axolotl-ai-cloud/axolotl
 identity:
   github_repo: axolotl-ai-cloud/axolotl
 provenance:
   discoveries:
-    - id: discovery__docs__axolotl__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: WangRongsheng/awesome-LLM-resources
-        url: https://github.com/wangrongsheng/awesome-llm-resources
-        repository: WangRongsheng/awesome-LLM-resources
-      extraction:
-        mode: parsed
-        section_path:
-          - 微调 Fine-Tuning
-        anchor_text: Axolotl
-        extracted_url: https://axolotl-ai-cloud.github.io/axolotl
-        surrounding_text: "38. [Axolotl](https://axolotl-ai-cloud.github.io/axolotl/): Axolotl is designed to work with YAML config files that contain everything you need to preprocess a dataset, train or fine-tune a model, run model inference or evaluation, and much more."
-        confidence: high
-    - id: discovery__github__openaccess-ai-collective__axolotl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__axolotl-ai-cloud__axolotl__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 11846
+    stars: 11851
     forks: 1335
     license: Apache-2.0
     archived: false
@@ -50,59 +35,49 @@ metadata:
     topics:
       - fine-tuning
       - llm
-    last_checked_at: "2026-05-05T21:04:03.381Z"
+    last_checked_at: "2026-05-06T22:12:47.891Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.381Z"
+      fetched_at: "2026-05-06T22:12:47.891Z"
       bytes: 16931
 insights:
-  summary: Axolotl is an open-source framework for fine-tuning large language models with support for LoRA, DPO, and a wide range of model architectures.
-  why_it_matters: It standardizes the fragmented LLM training ecosystem into a single config-driven workflow, letting developers fine-tune cutting-edge models without writing bespoke training loops.
-  mental_damage: Because nothing says 'I understand transformers' like debugging a YAML file for three hours only to realize you forgot to set the correct MoE expert quantization flag.
+  summary: Axolotl is an open-source framework for fine-tuning large language models across a wide range of model architectures.
+  why_it_matters: It provides developers with a unified, configuration-driven interface to train and adapt LLMs without writing custom training loops for every new model release.
+  mental_damage: Yet another tool promising you can solve your model's personality flaws if you just grind through one more 40-billion-parameter LoRA.
   tags:
-    - cli
-    - distributed-training
     - fine-tuning
-    - frameworks
     - llm
-    - llm-training
-    - ml-ops
-    - multimodal
     - training
+    - frameworks
   confidence: high
 curation:
-  status: included
-  reason: Axolotl is a code-first framework and CLI tool for building fine-tuning pipelines, fitting squarely into AI Frameworks and SDKs rather than a hosted app builder or coding agent.
+  status: excluded
+  reason: The project is a general ML training framework for fine-tuning LLMs, which falls outside the catalog's scope of practical AI tools, agents, and developer-facing infrastructure.
   evidence:
-    - README describes Axolotl as a 'free and open-source tool designed to streamline post-training and fine-tuning' using YAML configs and a CLI (axolotl train).
-    - Supported workflows include LoRA, QLoRA, GRPO, and multi-GPU training via FSDP/DeepSpeed, targeting developers building training pipelines in code.
-    - Listed under '微调 Fine-Tuning' in awesome-LLM-resources, confirming its niche as a developer tool for model post-training.
-    - Repo description explicitly calls it an 'LLM Fine-tuning Framework'.
-    - README highlights support for LoRA, DPO, and specific model architectures (Mistral, Qwen, Gemma) via configuration.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training'.
+    - Repo description is 'Go ahead and axolotl questions' and topics include 'fine-tuning' and 'llm'.
+    - README explicitly defines it as 'A Free and Open Source LLM Fine-tuning Framework'.
+    - Seen in Awesome-LLMOps under 'Training > Frameworks for Training', indicating a pure ML training focus.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (11846) exceeded threshold (150)
+  reason: Stars (11851) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:20.147Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
-    cause:
-      type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    updated_at: "2026-05-06T22:12:15.604Z"
+    cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.381Z"
+    updated_at: "2026-05-06T22:12:47.891Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:15.629Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

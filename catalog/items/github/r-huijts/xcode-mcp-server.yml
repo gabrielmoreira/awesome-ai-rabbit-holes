@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__r-huijts__xcode-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [r-huijts/xcode-mcp-server](https://github.com/r-huijts/xcode-mcp-server) 📇 🏠 🍎 - Xcode integration for project management, file operations, and build automation"
         confidence: high
     - id: discovery__github__r-huijts__xcode-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,49 +39,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 373
+    forks: 25
+    license: MIT
+    archived: false
+    created_at: "2025-01-16T12:15:47Z"
+    pushed_at: "2026-02-02T11:23:41Z"
+    description: MCP Server implementation for Xcode integration
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:04.729Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:04.729Z"
+      bytes: 15769
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets AI assistants read, build, test, and manage Xcode projects, simulators, and Apple platform dependencies.
+  why_it_matters: It gives coding agents and IDE integrations a structured way to drive the full iOS/macOS development loop without leaving the assistant context.
+  mental_damage: You can now entrust your provisioning profiles, CocoaPods, and simulator state to the same model that just hallucinated a SwiftUI view.
+  tags:
+    - mcp
+    - xcode
+    - ios
+    - developer-tools
+    - apple
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server purpose-built to expose Xcode and Apple-platform tooling to MCP-compatible assistants, fitting the MCP Servers & Tooling category cleanly.
+  evidence:
+    - "Repo description states: 'MCP Server implementation for Xcode integration'"
+    - README describes comprehensive Xcode, simulator, CocoaPods, and SPM capabilities exposed via MCP
+    - Included in awesome-mcp-list and awesome-mcp-servers under Developer Tools sections
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (373) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:16.929Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for r-huijts/xcode-mcp-server
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:04.729Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:23.201Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

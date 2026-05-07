@@ -1,13 +1,13 @@
 id: github__the-swarm-corporation__enterprise-grade-agents-course
 kind: github-repo
-name: Enterprise-Grade-Agents-Course
+name: enterprise-grade-agents-course
 canonical_url: https://github.com/the-swarm-corporation/enterprise-grade-agents-course
 identity:
   github_repo: the-swarm-corporation/enterprise-grade-agents-course
 provenance:
   discoveries:
     - id: discovery__github__the-swarm-corporation__enterprise-grade-agents-course__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,27 +24,43 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 19
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2024-10-28T15:17:27Z"
+    pushed_at: "2025-12-22T22:12:19Z"
+    description: This comprehensive course teaches students how to build, deploy, and manage autonomous agents for enterprise workflows using the Swarms library. Students will learn to create robust, scalable agent systems that can handle complex business processes, integrate with existing tools, and maintain long-term memory.
+    homepage: https://discord.com/servers/agora-999382051935506503
+    topics:
+      - agentic-workflows
+      - agents
+      - autogen
+      - langchain
+      - llms
+      - swarms
+    last_checked_at: "2026-05-06T22:46:46.002Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:46.002Z"
+      bytes: 5926
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An 8-week course teaching developers how to build, deploy, and manage autonomous agents for enterprise workflows using the Swarms library.
+  why_it_matters: It provides a structured curriculum for developers who need to move from basic LLM scripting to production-grade, scalable multi-agent systems with memory and enterprise integrations.
+  mental_damage: Because nothing says 'enterprise-grade' quite like paying for an 8-week course to learn a library that currently has 19 GitHub stars.
+  tags:
+    - agents
+    - swarms
+    - enterprise
+    - course
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is an educational course and curriculum resource, not a standalone developer tool, framework, or product, and thus falls outside the catalog's scope of practical tooling.
+  evidence:
+    - Repo description explicitly defines it as a 'comprehensive course' with '24 hours of instruction'.
+    - The README is structured as an 8-week syllabus with modules, exercises, and assessment criteria, not a software package.
+    - Appears in source lists under 'Learning Resources > Tutorials & Guides', which confirms its identity as media/education rather than tooling.
 placement:
   primary_category: null
   section: null
@@ -52,19 +68,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:46.002Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:34.912Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

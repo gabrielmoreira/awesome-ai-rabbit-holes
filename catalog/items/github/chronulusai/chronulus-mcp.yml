@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chronulusai__chronulus-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [ChronulusAI/chronulus-mcp](https://github.com/ChronulusAI/chronulus-mcp) 🐍 ☁️ - Predict anything with Chronulus AI forecasting and prediction agents."
         confidence: high
     - id: discovery__github__chronulusai__chronulus-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Chronulus AI](https://github.com/ChronulusAI/chronulus-mcp)** - Predict anything with Chronulus AI forecasting and prediction agents."
         confidence: high
     - id: discovery__github__chronulusai__chronulus-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -63,50 +63,50 @@ metadata:
     description: MCP Server for Chronulus AI Forecasting and Prediction Agents
     homepage: https://www.chronulus.com
     topics: []
-    last_checked_at: "2026-05-05T21:01:33.865Z"
+    last_checked_at: "2026-05-06T22:43:21.097Z"
     readme:
-      fetched_at: "2026-05-05T21:01:33.865Z"
+      fetched_at: "2026-05-06T22:43:21.097Z"
       bytes: 5291
 insights:
-  summary: An MCP server that connects Chronulus AI forecasting and prediction agents to Claude Desktop for time-series and predictive analysis workflows.
-  why_it_matters: Developers building data-driven or decision-support features can now invoke specialized forecasting agents directly from their IDE without wiring up separate API clients.
-  mental_damage: We have successfully extended our ecosystem so that your chat client can now hallucinate about the future with the confidence of a parameterized model.
+  summary: An MCP server that exposes Chronulus AI forecasting and prediction agents to tools like Claude Desktop.
+  why_it_matters: Developers can delegate time-series forecasting, prediction tasks, and quantitative analysis to Chronulus agents directly from their MCP-compatible assistant.
+  mental_damage: We have successfully abstracted predictive modeling into an MCP server, so now your chat client can hallucinate the future with API-backed confidence.
   tags:
     - mcp
     - forecasting
     - prediction
     - data-science
-    - claude
+    - chronulus
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for a third-party forecasting API, fitting cleanly into MCP infrastructure tooling.
+  reason: The product is an MCP server that gives Claude Desktop access to a specialized forecasting and prediction API, making MCP the primary product identity.
   evidence:
-    - "Repo description states: 'MCP Server for Chronulus AI Forecasting and Prediction Agents'"
-    - README demonstrates Claude Desktop MCP configuration and usage with Chronulus agents
-    - Listed in awesome-mcp-servers under 'Data Science Tools' and 'Server Implementations'
+    - Repo description explicitly states 'MCP Server for Chronulus AI Forecasting and Prediction Agents'.
+    - README focuses entirely on configuring the MCP server for Claude Desktop via pip, docker, or uvx.
+    - Listed in awesome-mcp-servers under 'Data Science Tools' and 'Official Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:33.865Z"
+    updated_at: "2026-05-06T22:43:21.097Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:06.365Z"
+    updated_at: "2026-05-06T22:49:07.343Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

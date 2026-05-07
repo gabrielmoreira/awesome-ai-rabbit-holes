@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hidai25__eval-view__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 98
+    stars: 100
     forks: 20
     license: Apache-2.0
     archived: false
@@ -51,50 +51,49 @@ metadata:
       - python
       - regression-testing
       - testing
-    last_checked_at: "2026-05-05T21:02:33.522Z"
+    last_checked_at: "2026-05-06T22:44:14.527Z"
     readme:
-      fetched_at: "2026-05-05T21:02:33.522Z"
+      fetched_at: "2026-05-06T22:44:14.527Z"
       bytes: 46842
 insights:
-  summary: An open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches silent regressions in CI for frameworks like LangGraph, CrewAI, and OpenAI.
-  why_it_matters: It gives developers a Playwright-style safety net for agent behavior, letting teams detect when a model update silently degrades tool choice or output quality before shipping to users.
-  mental_damage: We have finally built CI pipelines to catch when our autonomous agents quietly forget how to do the jobs we already forgot how to do ourselves.
+  summary: A Python CLI and testing framework that snapshots AI agent tool calls and outputs to catch behavior regressions across model or provider updates in CI.
+  why_it_matters: It gives developers a regression gate for agent behavior, distinguishing provider drift from real system regressions when normal tests still pass.
+  mental_damage: We have finally built Playwright for hallucinations, so you can watch your agent quietly change its mind in CI while your status badge stays green.
   tags:
     - agent-testing
-    - regression
-    - eval
+    - regression-gate
     - ci
-    - langgraph
+    - eval
   confidence: high
 curation:
   status: included
-  reason: This is an evaluation and regression framework purpose-built for measuring and guarding agent behavior across model or provider changes, which fits squarely in Evaluations and Benchmarks.
+  reason: The core job is measuring, scoring, and regression-testing agent behavior across model and provider changes, which aligns directly with the evals category.
   evidence:
-    - Repo description explicitly states 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch regressions in CI.'
-    - README positions it as 'the open-source behavior regression gate for AI agents' with CI verdicts like BLOCK_RELEASE.
-    - Topics include agent-evaluation, regression-testing, and eval, and it integrates with LangGraph, CrewAI, OpenAI, and Anthropic.
+    - "Repo description states: 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch regressions in CI.'"
+    - README pitches 'The open-source behavior regression gate for AI agents' and compares it to Playwright for tool-calling and multi-turn agents.
+    - Output examples show behavior diffs, confidence grading, and ship/don't-ship verdicts rather than acting as a coding assistant.
 placement:
   primary_category: evals
-  section: null
+  section: Prompt Regression & Experimentation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.691Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:33.522Z"
+    updated_at: "2026-05-06T22:44:14.527Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:53.985Z"
+    updated_at: "2026-05-06T23:00:04.876Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

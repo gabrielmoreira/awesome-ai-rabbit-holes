@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tinybirdco__mcp-tinybird__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [tinybirdco/mcp-tinybird](https://github.com/tinybirdco/mcp-tinybird) 🐍 ☁️ - An MCP server to interact with a Tinybird Workspace from any MCP client."
         confidence: high
     - id: discovery__github__tinybirdco__mcp-tinybird__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Tinybird](https://github.com/tinybirdco/mcp-tinybird)** - Interact with Tinybird serverless ClickHouse platform"
         confidence: high
     - id: discovery__github__tinybirdco__mcp-tinybird__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,47 +54,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 79
+    forks: 17
+    license: Apache-2.0
+    archived: true
+    created_at: "2024-11-27T10:07:15Z"
+    pushed_at: "2025-09-01T09:00:40Z"
     description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    homepage: https://bluesky-demo.vercel.app
+    topics: []
+    last_checked_at: "2026-05-06T22:46:50.799Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:50.799Z"
+      bytes: 237
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An archived, deprecated MCP server that gave AI agents query access to Tinybird analytics data, now replaced by an official Tinybird implementation.
+  why_it_matters: It demonstrated the early pattern of exposing real-time analytics infrastructure to coding agents via MCP, a workflow now handled by the official Tinybird MCP server.
+  mental_damage: We have reached the point where the bridge between your analytics stack and your AI agent is already on its second lifecycle, and the first one is already a ghost town.
+  tags:
+    - mcp
+    - deprecated
+    - analytics
+    - server
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is explicitly archived and deprecated, with a README that directs users to an official implementation, meaning it is no longer a usable or maintained tool.
+  evidence:
+    - "README banner states: 'This repository is deprecated and no longer maintained.'"
+    - Archive status is true, indicating the project is intentionally sunset.
+    - README redirects users to the official Tinybird MCP Server documentation.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:50.799Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:24.498Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

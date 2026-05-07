@@ -1,13 +1,13 @@
 id: github__dottxt-ai__outlines
 kind: github-repo
-name: Outlines
+name: outlines
 canonical_url: https://github.com/dottxt-ai/outlines
 identity:
   github_repo: dottxt-ai/outlines
 provenance:
   discoveries:
-    - id: discovery__github__normal-computing__outlines__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__dottxt-ai__outlines__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13785
+    stars: 13796
     forks: 694
     license: Apache-2.0
     archived: false
@@ -40,53 +40,50 @@ metadata:
       - regex
       - structured-generation
       - symbolic-ai
-    last_checked_at: "2026-05-05T21:03:56.208Z"
+    last_checked_at: "2026-05-06T22:43:41.134Z"
     readme:
-      fetched_at: "2026-05-05T21:03:56.208Z"
+      fetched_at: "2026-05-06T22:43:41.134Z"
       bytes: 24573
 insights:
-  summary: A Python library that guarantees structured outputs from LLMs by enforcing schemas, types, and grammars during generation rather than relying on post-hoc parsing.
-  why_it_matters: It lets developers treat LLM outputs as reliable, typed data across any model provider without writing fragile parsing code or regex band-aids.
-  mental_damage: We have successfully abstracted away the chaos of LLM outputs into a Pydantic model, which means your next existential crisis will be about schema versioning instead of bad JSON.
+  summary: Outlines is a Python library that guarantees structured outputs from LLMs by enforcing types, regex, and grammars during generation rather than post-hoc parsing.
+  why_it_matters: Developers can write `model(prompt, output_type)` and get guaranteed valid JSON, Pydantic models, or constrained text across OpenAI, vLLM, Ollama, and other providers without fragile parsing code.
+  mental_damage: We’ve built an entire ecosystem of libraries to solve the problem that our most powerful models cannot reliably output a well-formed JSON object.
   tags:
+    - structured-outputs
     - llm
     - pydantic
-    - python
-    - sdk
-    - structured-output
+    - regex
+    - grammar
   confidence: high
 curation:
   status: included
-  reason: Outlines is a developer-facing SDK and framework for embedding structured generation into applications, fitting cleanly into ai-frameworks rather than agent orchestration or coding assistants.
+  reason: Outlines is a code-first Python library that developers import and script against to control LLM output structure, fitting as a provider/model abstraction within Frameworks & SDKs.
   evidence:
-    - Repo description states 'Structured Outputs' and README positions it as a Python library for guaranteed structure during generation.
-    - Integrates with developers' own code via `pip install outlines` and supports custom Pydantic models and type hints.
-    - Supports multiple model backends (OpenAI, Ollama, vLLM, Transformers) as an importable SDK, not a hosted control plane.
-    - Repo description is 'Structured Outputs' and README confirms it is a Python library imported as 'import outlines'.
-    - Integrates with model backends like Transformers, OpenAI, and vLLM via a code-first SDK pattern.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a developer framework.
+    - "Repo description is 'Structured Outputs' and README positions it as a library: 'import outlines' and 'model(prompt, output_type)'."
+    - 13,796 stars with active development (pushed 2026-05-04) and Apache-2.0 license, showing strong ecosystem adoption.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a developer framework rather than a hosted product.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
-  reason: Stars (13785) exceeded threshold (150)
+  reason: Stars (13796) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:55.442Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:56.208Z"
+    updated_at: "2026-05-06T22:43:41.134Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:53:22.891Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

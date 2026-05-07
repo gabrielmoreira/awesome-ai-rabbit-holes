@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__screenshotone__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,72 +21,62 @@ provenance:
         extracted_url: https://github.com/screenshotone/mcp
         surrounding_text: "- **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with [ScreenshotOne](https://screenshotone.com/)"
         confidence: high
-    - id: discovery__screenshotone__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: ScreenshotOne
-        extracted_url: https://screenshotone.com
-        surrounding_text: "- **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with [ScreenshotOne](https://screenshotone.com/)"
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 36
+    forks: 13
+    license: MIT
+    archived: false
+    created_at: "2025-02-17T09:18:20Z"
+    pushed_at: "2025-06-10T17:23:16Z"
+    description: A simple implementation of an MCP server for the ScreenshotOne API
+    homepage: https://screenshotone.com/blog/mcp-server/
+    topics:
+      - mcp-server
+      - screenshots
+    last_checked_at: "2026-05-06T22:46:19.422Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:19.422Z"
+      bytes: 1415
 insights:
-  summary: A screenshot rendering API for developers that provides a simple HTTP endpoint to generate pixel-perfect website screenshots without managing browser clusters.
-  why_it_matters: It offloads the brittle work of headless browser orchestration, cookie-banner blocking, and responsive rendering to a managed service with SDKs for all major languages.
-  mental_damage: We have successfully abstracted away the last remaining excuse for not automating the visual regression of our 400-page marketing site.
+  summary: An official MCP server implementation that exposes the ScreenshotOne API to AI assistants, allowing them to render website screenshots via the `render-website-screenshot` tool.
+  why_it_matters: It gives coding agents and MCP-compatible clients a standardized way to capture visual state of web pages without leaving the chat interface.
+  mental_damage: We have successfully abstracted the act of taking a screenshot into a protocol handshake, ensuring your agent can now see the web exactly as poorly as you do.
   tags:
-    - browser-automation
-    - developer-tools
-    - http-api
-    - screenshot-api
+    - mcp
+    - screenshot
+    - api
+    - tooling
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general-purpose web screenshot API, not a developer-facing AI tool, agent, or AI infrastructure component.
+  status: included
+  reason: This is a purpose-built MCP server that exposes a specific API (ScreenshotOne) as a tool for MCP-compatible clients.
   evidence:
-    - The product is described as 'The Screenshot API for developers' with no mention of AI features.
-    - It focuses on rendering website screenshots via browser automation, not AI-driven coding or agent workflows.
-    - Listed in awesome-mcp-servers only as a hosted service endpoint, not as AI tooling.
+    - "Repo description explicitly states: 'A simple implementation of an MCP server for the ScreenshotOne API'."
+    - README details the `render-website-screenshot` tool and configuration for Claude for Desktop.
+    - Listed in the 'awesome-mcp-servers' directory under the 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:59.955Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:19.422Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:31.307Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__uniswap-trader-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/uniswap-trader-mcp](https://github.com/kukapay/uniswap-trader-mcp) 🐍 ☁️ -  An MCP server that delivers real-time token prices from Uniswap V3 across multiple chains."
         confidence: high
     - id: discovery__github__kukapay__uniswap-trader-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,50 +48,50 @@ metadata:
     description: An MCP server for AI agents to automate token swaps on Uniswap DEX across multiple blockchains.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:13.121Z"
+    last_checked_at: "2026-05-06T22:44:51.485Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.121Z"
+      fetched_at: "2026-05-06T22:44:51.485Z"
       bytes: 4649
 insights:
-  summary: An MCP server that lets AI agents fetch price quotes, generate swap suggestions, and execute token swaps on Uniswap V3 across multiple blockchains.
-  why_it_matters: Developers building DeFi agents can integrate Uniswap trading capabilities through a standardized MCP interface instead of wiring raw blockchain calls themselves.
-  mental_damage: Your AI agent can now rug your portfolio across eight chains with nothing more than a poorly phrased prompt and a leaked private key.
+  summary: An MCP server that gives AI agents the ability to fetch quotes and execute token swaps on Uniswap V3 across multiple EVM-compatible blockchains.
+  why_it_matters: It connects trading agents directly to DeFi liquidity, letting developers automate on-chain swaps through standard MCP tooling instead of custom RPC glue code.
+  mental_damage: Your AI agent can now panic-sell into a liquidity pool at 3 AM with nothing but a hallucinated slippage tolerance and your private key.
   tags:
     - mcp
     - defi
     - uniswap
-    - agent-tooling
+    - trading
     - blockchain
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server that exposes Uniswap trading tools for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server for Uniswap trading, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly states it is 'An MCP server for AI agents to automate token swaps on Uniswap DEX'.
-    - README documents MCP tools like getPrice and executeSwap configured via standard mcpServers JSON.
+    - Repo description states it is 'An MCP server for AI agents to automate token swaps on Uniswap DEX'.
+    - README provides MCP configuration examples and tool schemas like `getPrice` and `executeSwap`.
     - Listed in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.121Z"
+    updated_at: "2026-05-06T22:44:51.485Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:30.855Z"
+    updated_at: "2026-05-06T23:07:52.827Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__eugeneyan__open-llms
 kind: github-repo
-name: Open LLMs
+name: open-llms
 canonical_url: https://github.com/eugeneyan/open-llms
 identity:
   github_repo: eugeneyan/open-llms
 provenance:
   discoveries:
     - id: discovery__github__eugeneyan__open-llms__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12750
+    stars: 12751
     forks: 971
     license: Apache-2.0
     archived: false
@@ -36,50 +36,49 @@ metadata:
       - large-language-models
       - llm
       - llms
-    last_checked_at: "2026-05-05T21:02:05.421Z"
+    last_checked_at: "2026-05-06T22:43:48.599Z"
     readme:
-      fetched_at: "2026-05-05T21:02:05.421Z"
+      fetched_at: "2026-05-06T22:43:48.599Z"
       bytes: 42697
 insights:
-  summary: A curated table of large language models that are licensed for commercial use, tracking parameters, context length, and checkpoints.
-  why_it_matters: It provides a quick reference for developers needing to choose an open-weight model without accidentally violating a restrictive license.
-  mental_damage: Yet another list to consult while agonizing over whether a 7B model with an Apache 2.0 license is truly 'safe' for the startup's proprietary vibe coding agent.
+  summary: A curated list of open-source large language models licensed for commercial use, tracking model details like parameters, context length, and checkpoints.
+  why_it_matters: Developers evaluating self-hosted or commercial LLM options can quickly find models that won't trigger legal or licensing nightmares.
+  mental_damage: Yet another reminder that keeping up with the open model ecosystem requires the same time commitment as a part-time job you didn't apply for.
   tags:
-    - commercial
-    - licensing
     - llm
-    - models
-    - reference
+    - open-source
+    - licensing
+    - model-directory
   confidence: high
 curation:
   status: included
-  reason: This is a curated index mapping models to their commercial licenses, fitting the awesome-awesomes category as a navigation aid for developers.
+  reason: This is a curated list and directory for navigating the open LLM ecosystem, which fits the navigation-aid role of awesome-awesomes rather than a standalone developer tool.
   evidence:
-    - Repo description states it is 'A list of open LLMs available for commercial use.'
-    - README is a large table of models (T5, Bloom, Pythia, etc.) with license and checkpoint details.
-    - Listed in 'awesome-langchain' as a 'Complement to this list', confirming its status as a meta-list.
+    - Repo description explicitly states it is 'A list of open LLMs available for commercial use.'
+    - README is structured as a comparison table of models (T5, RWKV, Bloom, etc.) rather than a tool or framework.
+    - Found in awesome-langchain under a 'Complement to this list' section, reinforcing its identity as a directory/list.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (12750) exceeded threshold (150)
+  reason: Stars (12751) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:32.913Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:05.421Z"
+    updated_at: "2026-05-06T22:43:48.599Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:56.152Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: autify__com
 kind: website
-name: Autify
+name: autify.com
 canonical_url: https://autify.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__autify__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Autify is a SaaS platform that provides AI-powered end-to-end testing agents (Aximo), test automation built on Playwright (Nexus), and GenAI test case generation (Genesis) for web, mobile, and desktop applications.
-  why_it_matters: It allows engineering teams to describe test scenarios in natural language and have AI agents autonomously generate, execute, and maintain E2E test coverage, reducing the burden of manual scripting.
-  mental_damage: "Just what the modern developer needs: another autonomous agent designed to find out exactly how broken the app is while you are already pretending the sprint is on track."
+  summary: Autify is a commercial quality engineering platform featuring AI testing agents like Aximo that generate and execute end-to-end tests for web, mobile, and desktop applications using natural language and visual recognition.
+  why_it_matters: It allows engineering teams to delegate test creation and maintenance to AI agents that interact with UIs like real users, reducing the manual scripting overhead usually associated with tools like Playwright.
+  mental_damage: "Finally, an AI agent that writes the tests you'll ignore when they fail, preserving the timeless tradition of 'regression suite: ignored' with autonomous flair."
   tags:
-    - ai-agent
-    - e2e
-    - playwright
-    - qa
     - testing
+    - qa
+    - e2e
+    - ai-agent
+    - playwright
   confidence: high
 curation:
   status: included
-  reason: The product includes 'Aximo,' an AI testing agent that autonomously generates and executes tests and interacts with code/UI, fitting the coding-agents definition of an agent helping with testing workflows.
+  reason: The product identity is centered on 'Aximo', an AI testing agent that autonomously plans, executes, and repairs end-to-end tests using natural language and visual recognition.
   evidence:
-    - Scraped site context describes 'Aximo' as 'an AI testing agent that uses natural language and visual recognition to autonomously generate and execute end-to-end tests'.
-    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
-    - Product suite includes 'Genesis' for GenAI-powered test case and test code generation.
+    - Scraped site identifies 'Aximo' as 'an AI testing agent that uses natural language and visual recognition to autonomously generate and execute end-to-end tests'.
+    - Source list 'awesome-ai-coding-tools' categorizes it under 'Testing and QA'.
+    - Product features include 'Test Strategy', 'Test Creation', 'Execution', and 'Report/Maintenance' driven by AI.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:07.733Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:18.763Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

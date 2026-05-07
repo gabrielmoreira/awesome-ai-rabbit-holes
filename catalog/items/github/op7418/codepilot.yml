@@ -1,13 +1,13 @@
 id: github__op7418__codepilot
 kind: github-repo
-name: CodePilot
+name: codepilot
 canonical_url: https://github.com/op7418/codepilot
 identity:
   github_repo: op7418/codepilot
 provenance:
   discoveries:
     - id: discovery__github__op7418__codepilot__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5624
-    forks: 603
+    stars: 5631
+    forks: 606
     license: NOASSERTION
     archived: false
     created_at: "2026-02-06T12:38:55Z"
@@ -40,50 +40,50 @@ metadata:
       - electron
       - gui
       - nextjs
-    last_checked_at: "2026-05-05T21:04:02.393Z"
+    last_checked_at: "2026-05-06T22:45:39.519Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.393Z"
+      fetched_at: "2026-05-06T22:45:39.519Z"
       bytes: 13212
 insights:
-  summary: A desktop AI agent client built with Electron and Next.js that connects to 17+ AI providers, supports MCP servers and reusable skills, and can be controlled remotely via mobile chat apps.
-  why_it_matters: Developers can centralize multi-provider AI workflows, persist memory and skills, and review code or task output in a desktop environment that integrates with Claude Code CLI for direct repo editing.
-  mental_damage: Another desktop wrapper promising to unify the entire AI ecosystem, giving you one more place to wonder why your assistant remembers your birthday but not the variable you renamed three prompts ago.
+  summary: A multi-model AI agent desktop client built with Electron and Next.js that connects to 17+ AI providers, supports MCP servers and skills, and can be controlled remotely via phone.
+  why_it_matters: It offers developers a single desktop interface to switch between AI models mid-conversation, manage persistent memory, and extend capabilities via MCP without being locked into a single provider.
+  mental_damage: Another desktop wrapper that promises to unify every AI provider into one existential dashboard, just in case the 12 assistants you already installed weren't enough to avoid actually writing code.
   tags:
     - desktop-app
-    - electron
-    - mcp
     - multi-model
-    - skills
+    - mcp
+    - electron
+    - agent-client
   confidence: high
 curation:
   status: included
-  reason: The primary surface is a desktop AI agent that can directly edit files, run terminal commands, and operate on repos via Claude Code CLI integration, fitting the coding-agents category.
+  reason: CodePilot is a standalone desktop coding agent and general-purpose AI assistant that developers use as their primary interface for coding and agent tasks, not merely an extension of another tool.
   evidence:
-    - Repo description states it is a 'multi-model AI agent desktop client' with MCP and skills support.
-    - README explicitly notes that installing Claude Code CLI unlocks 'direct file editing, terminal commands, and git operations'.
-    - README positions it as a coding tool evolved into a general-purpose agent with assistant workspace, memory, and split-screen sessions.
+    - Repo description explicitly calls it 'A multi-model AI agent desktop client' with coding origins.
+    - README states it 'started as a coding tool' and supports file editing, terminal commands, and git operations via Claude Code CLI integration.
+    - 5,631 stars and active development (pushed 2026-04-24) with cross-platform desktop releases.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5624) exceeded threshold (150)
+  reason: Stars (5631) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:11.942Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.393Z"
+    updated_at: "2026-05-06T22:45:39.519Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:57.476Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

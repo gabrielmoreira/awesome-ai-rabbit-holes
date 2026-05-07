@@ -1,13 +1,13 @@
 id: github__significant-gravitas__autogpt
 kind: github-repo
-name: Auto-GPT
+name: autogpt
 canonical_url: https://github.com/significant-gravitas/autogpt
 identity:
   github_repo: significant-gravitas/autogpt
 provenance:
   discoveries:
-    - id: discovery__github__significant-gravitas__auto-gpt__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__significant-gravitas__autogpt__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/significant-gravitas/auto-gpt
         surrounding_text: "| [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) | Pioneering autonomous agent with self-prompting | ![Stars](https://img.shields.io/github/stars/Significant-Gravitas/Auto-GPT) |"
         confidence: high
-    - id: discovery__github__significant-gravitas__auto-gpt__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__significant-gravitas__autogpt__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -37,8 +37,8 @@ provenance:
         extracted_url: https://github.com/significant-gravitas/auto-gpt
         surrounding_text: "- [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous."
         confidence: high
-    - id: discovery__github__significant-gravitas__auto-gpt__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__significant-gravitas__autogpt__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -54,47 +54,69 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 184037
+    forks: 46247
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-03-16T09:21:07Z"
+    pushed_at: "2026-05-06T21:04:14Z"
+    description: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+    homepage: https://agpt.co
+    topics:
+      - agentic-ai
+      - agents
+      - ai
+      - artificial-intelligence
+      - autonomous-agents
+      - claude
+      - gpt
+      - llama-api
+      - llm
+      - openai
+      - python
+    last_checked_at: "2026-05-06T22:46:24.927Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:24.927Z"
+      bytes: 11844
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AutoGPT is a platform for creating, deploying, and managing continuous AI agents that automate complex workflows via a low-code builder and self-hosted server.
+  why_it_matters: It provides a low-code workbench and marketplace for developers to build, deploy, and monitor autonomous agents without starting from scratch.
+  mental_damage: Another platform promising to automate your job so thoroughly that you can finally spend 40 hours a week debugging why the agent misunderstood 'trending topic' as 'generate cat videos'.
+  tags:
+    - agents
+    - automation
+    - self-hosted
+    - workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a workbench and runtime platform for building, deploying, and coordinating agents via a low-code UI and marketplace, fitting the agent orchestration profile over a single coding assistant.
+  evidence:
+    - README describes 'Agent Builder' and 'Workflow Management' via a low-code interface for designing and configuring AI agents.
+    - AutoGPT Server is described as a 'powerhouse' and 'marketplace' for running agents continuously with lifecycle management.
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Lightweight & Specialized Agents' with 184k stars and recent activity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (184037) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:24.927Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:42.372Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

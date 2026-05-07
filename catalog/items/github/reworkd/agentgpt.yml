@@ -1,13 +1,13 @@
 id: github__reworkd__agentgpt
 kind: github-repo
-name: AgentGPT
+name: agentgpt
 canonical_url: https://github.com/reworkd/agentgpt
 identity:
   github_repo: reworkd/agentgpt
 provenance:
   discoveries:
     - id: discovery__github__reworkd__agentgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -22,49 +22,91 @@ provenance:
         extracted_url: https://github.com/reworkd/agentgpt
         surrounding_text: "- [AgentGPT](https://github.com/reworkd/AgentGPT): AI Agents with Langchain & OpenAI (Vercel / Nextjs) ![GitHub Repo stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social)"
         confidence: high
+    - id: discovery__github__reworkd__agentgpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: AgentGPT
+        extracted_url: https://github.com/reworkd/agentgpt
+        surrounding_text: "4. [AgentGPT](https://github.com/reworkd/AgentGPT): Assemble, configure, and deploy autonomous AI Agents in your browser."
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 36054
+    forks: 9362
+    license: GPL-3.0
+    archived: true
+    created_at: "2023-04-07T02:29:19Z"
+    pushed_at: "2025-04-29T01:19:32Z"
+    description: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
+    homepage: https://agentgpt.reworkd.ai
+    topics:
+      - agent
+      - agentgpt
+      - agents
+      - agi
+      - ai
+      - ai-agents
+      - autogpt
+      - baby-agi
+      - gpt
+      - langchain
+      - llm
+      - next
+      - openai
+      - t3
+      - t3-stack
+    last_checked_at: "2026-05-06T22:46:09.897Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:09.897Z"
+      bytes: 12501
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AgentGPT is a browser-based platform for assembling, configuring, and deploying autonomous AI agents that independently plan and execute chained tasks to reach user-defined goals.
+  why_it_matters: It provides a visual, self-hostable interface for experimenting with autonomous agent loops, making it a recognizable reference point for developers exploring agent orchestration patterns.
+  mental_damage: The project helped cement the 'autonomous agent' hype cycle where developers cheerfully watched language models loop themselves into a wall for 36,000 GitHub stars before the repo was gently archived.
+  tags:
+    - agents
+    - autonomous
+    - self-hosted
+    - browser
+    - langchain
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is archived and represents a historical, generalized autonomous-agent demo rather than an active, practical developer tool for coding workflows.
+  evidence:
+    - "Repo description: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
+    - "Archived: yes (immediate negative signal for active developer tooling)."
+    - "Source lists: featured in awesome-langchain and awesome-LLM-resources under general 'Agents' sections, not developer coding-tooling lists."
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:09.897Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:38.101Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gptutor__gptutor-extension__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -32,50 +32,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:26.334Z"
+    last_checked_at: "2026-05-06T22:44:06.757Z"
     readme:
-      fetched_at: "2026-05-05T21:02:26.334Z"
+      fetched_at: "2026-05-06T22:44:06.757Z"
       bytes: 5330
 insights:
-  summary: A Visual Studio Code extension that uses OpenAI's GPT models to explain, comment, and review selected code blocks, currently focused on the Move programming language.
-  why_it_matters: It provides inline, context-aware code explanations and reviews within VS Code, helping developers understand and document unfamiliar codebases using their own OpenAI API key.
-  mental_damage: Yet another chance to outsource understanding your code to a model that wasn't there when it was written, while you paste API keys into a sidebar that hasn't been updated in over a year.
+  summary: GPTutor is a VS Code extension that uses OpenAI's GPT models to explain, review, and comment on selected code blocks, with a focus on the Move programming language.
+  why_it_matters: It provides inline code explanations and reviews directly within the editor, helping developers understand unfamiliar codebases and improve their coding skills without leaving their workflow.
+  mental_damage: Another week, another wrapper that turns a raw API key into a hover tooltip and calls it an 'AI pair programming tool' in a paper.
   tags:
-    - vscode-extension
-    - code-review
+    - vscode
     - code-explanation
+    - code-review
     - move-language
     - openai
   confidence: medium
 curation:
   status: included
-  reason: It is a developer-facing coding assistant that directly reviews, explains, and comments on code inside the VS Code IDE workflow, fitting the coding-agents definition.
+  reason: The primary product identity is a VS Code extension that augments the editor with GPT-powered code explanations and reviews, fitting the Extensions & Integrations category.
   evidence:
-    - README states it is a 'Visual Studio Code extension that uses OpenAI's GPT models to provide users with code explanations and Reviews'.
-    - Features include 'Code Review (review)' and 'Code Explain' triggered by hovering over code blocks in the editor.
-    - Featured in awesome-ai-coding-tools under the 'Documentation' section as a VS Code AI Coding Extension.
+    - README states it is 'a Visual Studio Code extension that uses OpenAI's GPT models to provide users with code explanations and Reviews'.
+    - Features are triggered by hovering over code blocks within the VS Code editor UI.
+    - Listed under 'Documentation' in the awesome-ai-coding-tools directory as a VS Code AI Coding Extension.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:26.334Z"
+    updated_at: "2026-05-06T22:44:06.757Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:39.075Z"
+    updated_at: "2026-05-06T22:58:37.371Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

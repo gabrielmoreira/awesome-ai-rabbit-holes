@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__yoheinakajima__babycatagi__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A lightweight, 300-line iteration of the BabyAGI autonomous agent designed to run on Replit, performing objective-based tasks using search and text completion tools.
-  why_it_matters: It offers developers a minimal, readable codebase to understand and experiment with autonomous agent loops, task dependencies, and tool usage without heavy framework overhead.
-  mental_damage: Yet another 300-line spin on the BabyAGI lineage that proves if you fork it enough times, the recursion eventually becomes the product.
+  summary: A lightweight, 300-line Replit fork of BabyAGI that iterates on autonomous task execution with a single-task creation agent, looping execution agent, and integrated search and text completion tools.
+  why_it_matters: It offers developers a minimal, readable codebase to understand and modify how autonomous agents handle task dependencies, tool use, and result summarization.
+  mental_damage: Another spiritual successor in the great BabyAGI bloodline, proving that no matter how many layers of 'mod' we add, we still can't stop forking autonomous agents instead of actually shipping features.
   tags:
     - autonomous-agents
-    - babyagi
     - replit
-    - experimental
-  confidence: medium
+    - babyagi
+    - task-execution
+    - agent-mod
+  confidence: high
 curation:
   status: excluded
-  reason: This is a demo/mod hosted on Replit with no standalone source code repo, insufficient metadata, and falls into the bucket of AI research tinkering rather than a practical developer tool or infrastructure.
+  reason: Excluded because it is primarily an educational demo and a Replit fork of a research toy, lacking the product identity of a practical developer tool or framework.
   evidence:
-    - Hosted only as a Replit fork with no GitHub repo, description, or star history provided.
-    - Presented as a 'mod' and educational iteration of BabyAGI rather than a production developer tool or framework.
-    - Appears in awesome-ai-agents as an experimental agent variant, not a tool for developer workflows.
+    - Described as a 'mod of BabyBeeAGI' and 'continued iteration' with only 300 lines of code, indicating a research/demo rather than a product.
+    - Hosted on Replit as a fork-and-run script rather than a maintained library, CLI, or platform.
+    - Listed in awesome-ai-agents as an autonomous agent example, but does not fit practical developer tooling categories like coding-agents or frameworks.
 placement:
   primary_category: null
   section: null
@@ -59,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:47:32.157Z"
+    updated_at: "2026-05-06T22:29:00.456Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

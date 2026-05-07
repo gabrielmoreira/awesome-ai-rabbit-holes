@@ -1,13 +1,13 @@
 id: github__memfreeme__memfree
 kind: github-repo
-name: MemFree
+name: memfree
 canonical_url: https://github.com/memfreeme/memfree
 identity:
   github_repo: memfreeme/memfree
 provenance:
   discoveries:
     - id: discovery__github__memfreeme__memfree__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [MemFree](https://github.com/memfreeme/memfree)"
         confidence: high
     - id: discovery__github__memfreeme__memfree__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -62,50 +62,50 @@ metadata:
       - serverless-vector
       - shadcn-ui
       - vector-search
-    last_checked_at: "2026-05-05T21:03:35.104Z"
+    last_checked_at: "2026-05-06T22:45:13.346Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.104Z"
+      fetched_at: "2026-05-06T22:45:13.346Z"
       bytes: 9915
 insights:
-  summary: MemFree is an open-source hybrid AI search engine and browser-based AI page generator that creates React + Tailwind + Shadcn UI pages from text, images, or files.
-  why_it_matters: It lets developers prototype and publish production-ready UI pages in seconds while simultaneously offering AI search across their knowledge base and the web.
-  mental_damage: Another brave attempt to bundle every AI capability into one tab so you can feel productive while forgetting how to write a div from memory.
+  summary: MemFree is a hybrid AI search engine and AI page generator that creates React + Tailwind + Shadcn UI pages from prompts, text, or images and searches across bookmarks, local files, and the web.
+  why_it_matters: It combines instant AI search across your personal knowledge base and the internet with one-click generation of production-ready UI pages, reducing the need to switch between multiple AI subscriptions and front-end scaffolding tools.
+  mental_damage: Yet another product promising to replace your ChatGPT Plus, Claude Pro, and Gemini Advanced subscriptions while quietly adding another tab you’ll forget to open between your five other AI assistants.
   tags:
     - ai-search
     - page-generator
     - react
     - shadcn-ui
-    - ui-generation
-  confidence: high
+    - vector-search
+  confidence: medium
 curation:
   status: included
-  reason: The primary surface is a browser-first prompt-to-site builder that generates and publishes full UI pages, which clearly fits the app-builders category.
+  reason: The primary product surfaces are prompt-to-site/page generation with React + Tailwind + Shadcn UI and hybrid AI search over personal and web content, which fits prompt-to-site and knowledge-retrieval tooling for developers building UIs.
   evidence:
-    - Repo description states 'Hybrid AI Search Engine & AI Page Generator' and README positions it as a tool to 'generate production-ready UI pages for you in seconds.'
-    - Features include one-click UI publishing, image-driven UI generation, and React + Tailwind + Shadcn UI integration for complete page creation.
-    - Active repo with 1497 stars, last pushed 2025-08-08, not archived, and listed in awesome-ai-agents and awesome-langchain directories.
+    - "Repo description: 'MemFree - Hybrid AI Search Engine & AI Page Generator' (prompt-to-page + search identity)."
+    - "README: 'generate production-ready UI pages for you in seconds' using React + Tailwind + Shadcn UI, with one-click publishing."
+    - "Active repo: created 2024-06-15, pushed 2025-08-08, 1497 stars, not archived."
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-Site Builders
 lifecycle:
   status: promotion_candidate
   reason: Stars (1497) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:48.160Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.104Z"
+    updated_at: "2026-05-06T22:45:13.346Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:12:58.035Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__reading-plus-ai__mcp-server-data-exploration__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration) 🐍 ☁️ - Enables autonomous data exploration on .csv-based datasets, providing intelligent insights with minimal effort."
         confidence: high
     - id: discovery__github__reading-plus-ai__mcp-server-data-exploration__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Data Exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)** - MCP server for autonomous data exploration on .csv-based datasets, providing intelligent insights with minimal effort."
         confidence: high
     - id: discovery__github__reading-plus-ai__mcp-server-data-exploration__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,47 +54,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 536
+    forks: 63
+    license: MIT
+    archived: false
+    created_at: "2024-12-06T18:26:04Z"
+    pushed_at: "2025-03-22T17:26:01Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:07.380Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:07.380Z"
+      bytes: 4836
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects Claude Desktop to local CSV files, providing tools and prompt templates to load datasets and run Python scripts for automated data exploration.
+  why_it_matters: It allows developers to turn Claude into a local data analysis assistant, accelerating the loop from raw CSV data to visualized insights without writing boilerplate Pandas scripts.
+  mental_damage: We have finally reached the point where we need a protocol server just to ask an AI to summarize a spreadsheet, ensuring our stack is sufficiently enterprise-grade for a simple histogram.
+  tags:
+    - mcp
+    - data-science
+    - claude
+    - csv
+    - local-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server designed to give Claude Desktop specific capabilities (loading CSVs, running scripts) for data exploration, fitting the Domain Servers section.
+  evidence:
+    - Repository name is 'mcp-server-data-exploration' and README confirms it is 'MCP Server for Data Exploration'.
+    - Provides specific MCP components including 'explore-data' prompt and tools like 'load-csv' and 'run-script'.
+    - Actively maintained (pushed 2025-03-22) and listed in multiple 'awesome-mcp-servers' directories under Data Science Tools.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (536) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:07.380Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:04.667Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

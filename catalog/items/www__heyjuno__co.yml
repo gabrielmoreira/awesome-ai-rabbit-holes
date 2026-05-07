@@ -1,12 +1,12 @@
 id: www__heyjuno__co
 kind: website
-name: Juno
+name: www.heyjuno.co
 canonical_url: https://www.heyjuno.co
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__heyjuno__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Juno is a hosted AI service that recruits participants and conducts unscripted qualitative interviews to extract market insights for product and research teams.
-  why_it_matters: It automates the traditionally manual workflow of user research, allowing product and engineering teams to validate features and uncover friction points without weeks of manual interviewing.
-  mental_damage: We have successfully automated the human element of user interviews, ensuring that no actual user will ever speak to a developer again.
+  summary: Juno is an AI agent that recruits and interviews real people to automate qualitative market research and user research interviews.
+  why_it_matters: It allows product and research teams to outsource expert-level interviewing and analysis to an AI, compressing weeks of qualitative research into hours.
+  mental_damage: We've successfully automated the human connection required to understand human connection, proving once again that the best way to understand users is to remove them from the process entirely.
   tags:
     - ai-interviewer
-    - market-insights
+    - market-research
+    - qualitative
     - user-research
   confidence: high
 curation:
   status: excluded
-  reason: Juno is a market research and user interview SaaS for product teams, not a developer-facing tool for coding, app building, or infrastructure.
+  reason: Excluded because the product is a SaaS platform for market research and user interviews, not a developer-facing coding tool, agent, framework, or infrastructure component.
   evidence:
-    - Scraped site describes Juno as an AI interviewer that 'recruits and interviews real people' for market research, not code generation.
-    - Source-list context places it in 'awesome-ai-agents' under a section for interviewing people, distinct from developer tooling.
-    - No inputs indicate the tool assists with source code, IDE workflows, local AI, or app deployment.
+    - Scraped site description states 'Juno interviews real people... to find what you didn't know to ask', targeting market research.
+    - Primary page excerpt focuses on 'recruits and interviews real people', 'global panel of over 3 million people', and 'qualitative depth' for companies like DBS and Coles.
+    - Seen in awesome-ai-agents list under a section describing it as an AI interviewer for human research, not code.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:18.670Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:37.980Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

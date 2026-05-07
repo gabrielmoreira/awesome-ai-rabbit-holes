@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rad-security__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,49 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 6
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-03-07T15:26:55Z"
+    pushed_at: "2026-04-21T09:15:10Z"
+    description: Rad Security MCP Server
+    homepage: https://rad.security
+    topics: []
+    last_checked_at: "2026-05-06T22:46:05.222Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:05.222Z"
+      bytes: 6552
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes RAD Security's Kubernetes and cloud security insights, container inventory, CVE data, and audit logs to AI assistants like Claude Desktop and Cursor.
+  why_it_matters: It lets developers query runtime misconfigurations, CVEs, and cluster findings directly from their AI coding assistant instead of switching to a separate security dashboard.
+  mental_damage: You can now ask your coding assistant why your cluster is on fire, and it will politely quote RAD Security findings back to you in the same window where you just introduced the bug.
+  tags:
+    - mcp
+    - security
+    - kubernetes
+    - cloud
+    - devops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a domain-specific MCP server that exposes RAD Security capabilities to MCP-compatible assistants, making MCP its core product identity rather than a compatibility footnote.
+  evidence:
+    - Repo description explicitly states 'Rad Security MCP Server' as the product identity.
+    - README demonstrates MCP-first usage with Claude Desktop and Cursor IDE configuration examples.
+    - Source-list context confirms inclusion in awesome-mcp-servers under 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:17.363Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for rad-security/mcp-server
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:05.222Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:29.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

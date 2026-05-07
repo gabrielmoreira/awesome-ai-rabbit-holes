@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__peek-travel__mcp-intro__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:14.684Z"
+    last_checked_at: "2026-05-06T22:45:50.454Z"
     readme:
-      fetched_at: "2026-05-05T21:04:14.684Z"
+      fetched_at: "2026-05-06T22:45:50.454Z"
       bytes: 4464
 insights:
-  summary: A remote MCP server that exposes Peek.com's travel inventory, availability, and pricing data to AI assistants for real-time trip planning.
-  why_it_matters: Developers building AI travel workflows can connect to a live, structured data source instead of hallucinating activity descriptions from training data.
-  mental_damage: We have officially reached the point where booking a whale-watching tour requires reading a server schema and debugging an MCP handshake.
+  summary: A remote MCP server that gives AI assistants real-time access to Peek.com's database of 300,000+ travel experiences, availability, and pricing.
+  why_it_matters: Developers building travel-related AI features or automating itinerary planning can connect to this endpoint to ground model outputs in live booking data.
+  mental_damage: We now have a standardized protocol for asking an LLM to find grandma-friendly activities in Rome, because apparently the travel industry's API strategy is to wait for Anthropic to invent one.
   tags:
     - mcp
-    - travel-api
+    - travel
     - remote-server
-    - ai-tooling
+    - booking
   confidence: high
 curation:
   status: included
-  reason: The repo exists to publish the server configuration and documentation for a proprietary remote MCP server, making it a clear fit for the MCP Servers and Tooling category.
+  reason: The repository exists primarily to distribute and document a remote MCP server for travel data, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - README explicitly describes 'Peek.com Remote MCP Server' and provides the server.json configuration file.
-    - Source is listed under awesome-mcp-servers in the 'Art & Culture' section, confirming ecosystem classification.
-    - The repo states the code is proprietary and the repo's purpose is to document and distribute the MCP server endpoint.
+    - README explicitly describes 'Peek.com Remote MCP Server' and provides the server URL https://mcp.peek.com.
+    - Repository contains a server.json file defining the MCP server schema and remoteness settings.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture', confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:14.684Z"
+    updated_at: "2026-05-06T22:45:50.454Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:15.573Z"
+    updated_at: "2026-05-06T23:21:25.473Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

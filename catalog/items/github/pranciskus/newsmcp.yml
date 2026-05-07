@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pranciskus__newsmcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -45,44 +45,49 @@ metadata:
       - openclaw
       - real-time-news
       - world-news
-    last_checked_at: "2026-05-05T23:08:09.030Z"
+    last_checked_at: "2026-05-06T22:45:56.769Z"
     readme:
-      fetched_at: "2026-05-05T23:08:09.030Z"
+      fetched_at: "2026-05-06T22:45:56.769Z"
       bytes: 10265
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes real-time AI-clustered world news events as tools for AI coding assistants and agents, with no API key required.
+  why_it_matters: It lets coding agents and workflows pull fresh, categorized news directly into their context without leaving the IDE or wiring external APIs.
+  mental_damage: We have successfully reached the point where even our news consumption is being outsourced to an LLM, so your agent can panic about global events on your behalf while you debug a CSS margin.
+  tags:
+    - mcp
+    - news
+    - context-tools
+    - agent-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server providing news as a tool for AI agents, which fits cleanly as a domain-specific MCP server.
+  evidence:
+    - Repo description explicitly states 'MCP server for real-time world news'.
+    - README documents MCP integration instructions for Claude, Cursor, Windsurf, Codex, Gemini CLI, and others.
+    - The core interface is four MCP tools (get_news, get_news_detail, get_topics, get_regions) delivered via @newsmcp/server.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:09.030Z"
+    updated_at: "2026-05-06T22:45:56.769Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:42.126Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

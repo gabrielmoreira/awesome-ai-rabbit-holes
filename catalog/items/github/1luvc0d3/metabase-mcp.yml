@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1luvc0d3__metabase-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - model-context-protocol
       - natural-language
       - sql
-    last_checked_at: "2026-05-05T21:00:43.969Z"
+    last_checked_at: "2026-05-06T22:12:20.159Z"
     readme:
-      fetched_at: "2026-05-05T21:00:43.969Z"
+      fetched_at: "2026-05-06T22:12:20.159Z"
       bytes: 16208
 insights:
-  summary: An MCP server that connects Claude to Metabase instances to enable natural language querying, SQL generation, and dashboard management, including write operations and batch execution.
-  why_it_matters: It allows developers to manage and query Metabase data via Claude using natural language, bridging the gap left by the official read-only MCP server for older versions or write-heavy workflows.
-  mental_damage: We have successfully reached the point where we need a third-party MCP server to convince our AI to create dashboards that it also generated the SQL for.
+  summary: An MCP server for Metabase that enables Claude to perform read/write operations, natural language queries, and AI-generated insights on Metabase instances older than v0.60.
+  why_it_matters: Developers can let Claude create dashboards, run SQL, and analyze data trends directly in Metabase without waiting for or upgrading to the official v0.60+ release.
+  mental_damage: The ecosystem now requires a third-party MCP server to replicate features the official maintainer deliberately left out of their own protocol integration.
   tags:
     - mcp
     - metabase
     - claude
-    - sql
     - data-analysis
+    - sql
   confidence: high
 curation:
   status: included
-  reason: This is a specialized MCP server implementation that extends Claude's capabilities with Metabase, fitting the MCP infrastructure category.
+  reason: This is an MCP server that extends Claude's capabilities specifically for Metabase, fitting the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly states 'MCP server connecting Claude to Metabase'.
-    - README confirms purpose as a 'write-enabled, AI-augmented MCP server for Metabase'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+    - Repo description explicitly states 'MCP server connecting Claude to Metabase'
+    - Seen in awesome-mcp-servers list under 'Data Platforms' section
+    - Provides 30 MCP tools for Metabase read/write operations, NLQ, and insights
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:43.969Z"
+    updated_at: "2026-05-06T22:12:20.159Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:55.504Z"
+    updated_at: "2026-05-06T22:17:32.555Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

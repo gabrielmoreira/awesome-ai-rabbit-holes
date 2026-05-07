@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashirpersonal__semantic-coverage__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,49 +33,49 @@ metadata:
     description: Automated detection of knowledge gaps and blind spots in RAG vector stores.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:46.559Z"
+    last_checked_at: "2026-05-06T22:12:22.875Z"
     readme:
-      fetched_at: "2026-05-05T21:00:46.559Z"
+      fetched_at: "2026-05-06T22:12:22.875Z"
       bytes: 3052
 insights:
-  summary: A tool that visualizes user queries and document embeddings to identify knowledge gaps, blind spots, and hallucination triggers in RAG vector stores.
-  why_it_matters: It applies a code-coverage-style mindset to RAG pipelines, helping developers find missing documentation and data drift before users hit empty retrieval results.
-  mental_damage: We’ve successfully invented test coverage for vector databases, so you can now feel guilty about unseen semantic blind spots instead of just wondering why the bot is hallucinating.
+  summary: A developer tool that visualizes and detects knowledge gaps, hallucination triggers, and data drift in RAG vector stores by clustering user queries and documents in a shared latent space.
+  why_it_matters: It gives RAG engineers a 'code coverage' style dashboard to find blind spots where their vector database fails to support user intent.
+  mental_damage: Yet another dashboard to remind you that your vector store is mostly hallucinating in clusters you didn't even know existed.
   tags:
     - rag
-    - eval
     - observability
+    - eval
     - vector-db
   confidence: medium
 curation:
   status: included
-  reason: This fits evals as an observability and gap-analysis tool for measuring and improving RAG retrieval quality, not as a coding agent or framework.
+  reason: The core job is measuring and visualizing gaps in RAG knowledge bases, which aligns with observability and eval tooling for developers rather than being a coding agent or generic framework.
   evidence:
-    - "Repo description: 'Automated detection of knowledge gaps and blind spots in RAG vector stores.'"
-    - "README: 'The Solution: semantic-coverage... provides semantic observability... identifying missing topics.'"
-    - Listed in Awesome-LLMOps under Security > Observability.
+    - Repo description states 'Automated detection of knowledge gaps and blind spots in RAG vector stores.'
+    - README pitches 'The Code Coverage tool for RAG Knowledge Bases' focusing on gap analysis and hallucination detection.
+    - Listed in Awesome-LLMOps under Security > Observability, reinforcing its eval/observability identity.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:46.559Z"
+    updated_at: "2026-05-06T22:12:22.875Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:24.925Z"
+    updated_at: "2026-05-06T22:18:14.730Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

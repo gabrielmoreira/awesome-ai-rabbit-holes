@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gannonh__firebase-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp) 🔥 ⛅️ - Firebase services including Auth, Firestore and Storage."
         confidence: high
     - id: discovery__github__gannonh__firebase-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 244
+    stars: 243
     forks: 42
     license: MIT
     archived: false
@@ -50,49 +50,49 @@ metadata:
     topics:
       - firebase
       - modelcontextprotocol
-    last_checked_at: "2026-05-05T21:02:17.001Z"
+    last_checked_at: "2026-05-06T22:43:58.805Z"
     readme:
-      fetched_at: "2026-05-05T21:02:17.001Z"
+      fetched_at: "2026-05-06T22:43:58.805Z"
       bytes: 11193
 insights:
-  summary: An MCP server that exposes Firebase services including Firestore, Storage, and Authentication to AI assistants like Claude Desktop, Cursor, and VS Code.
-  why_it_matters: It lets AI coding agents directly read and write Firebase data without developers manually bridging the gap between chat windows and cloud infrastructure.
-  mental_damage: You've successfully automated the part of your job where you stare at the Firebase console, but you still have to debug why the MCP SDK is throwing validation errors about booleans that don't exist.
+  summary: An MCP server that gives AI assistants like Claude and Cursor direct access to Firebase services including Firestore, Storage, and Authentication.
+  why_it_matters: Developers can delegate Firebase CRUD operations and user management to their coding agents without switching context or writing boilerplate admin scripts.
+  mental_damage: We have successfully abstracted away the last remaining excuse for not finishing that side project, leaving only your own procrastination as the blocker.
   tags:
     - mcp
     - firebase
-    - ai-integration
     - backend
+    - integration
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation that connects Firebase services to MCP-compatible clients, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is a purpose-built MCP server for Firebase, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server implementation.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server for Firebase'
-    - README details specific MCP tools for Firestore, Storage, and Authentication integrated with Claude Desktop, Cursor, and VS Code
-    - Actively maintained and listed in both awesome-mcp-list and awesome-mcp-servers directories under Databases
+    - Repo description explicitly states 'Model Context Protocol (MCP) server for Firebase.'
+    - README lists Firestore, Storage, and Auth tools designed for MCP clients like Claude Desktop, Augment, VS Code, and Cursor.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Database servers, confirming its identity in the MCP ecosystem.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (244) exceeded threshold (150)
+  reason: Stars (243) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:17.001Z"
+    updated_at: "2026-05-06T22:43:58.805Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:34.286Z"
+    updated_at: "2026-05-06T22:57:02.022Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

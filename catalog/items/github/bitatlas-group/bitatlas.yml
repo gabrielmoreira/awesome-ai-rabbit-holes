@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitatlas-group__bitatlas__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,54 +29,53 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-17T13:22:21Z"
-    pushed_at: "2026-05-05T07:13:03Z"
+    pushed_at: "2026-05-06T07:06:39Z"
     description: Zero Knowledge Cloud Drive for Humans and Agents
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:21.289Z"
+    last_checked_at: "2026-05-06T22:12:53.208Z"
     readme:
-      fetched_at: "2026-05-05T21:01:21.289Z"
+      fetched_at: "2026-05-06T22:12:53.208Z"
       bytes: 2458
 insights:
-  summary: A zero-knowledge cloud storage platform with client-side AES-256-GCM encryption and a built-in MCP server for AI agents to securely access and manage encrypted files.
-  why_it_matters: Developers building AI agents can integrate a privacy-first storage layer that handles encrypted document access, E2E encryption, and autonomous file management via the Model Context Protocol.
-  mental_damage: Now your AI agent can independently lose your encrypted identity papers and property deeds, but at least it will do so in GDPR-compliant European data centers.
+  summary: BitAtlas is a zero-knowledge cloud storage platform that provides an MCP server interface for AI agents to securely access and manage encrypted files.
+  why_it_matters: It allows developers to give AI agents secure, granular access to sensitive documents without exposing encryption keys to the server or the model provider.
+  mental_damage: Finally, a cloud drive so private that even your AI agent needs a cryptocurrency wallet and a master key just to read your grocery list.
   tags:
     - mcp
     - cloud-storage
     - zero-knowledge
-    - encryption
-    - agent-storage
+    - privacy
   confidence: medium
 curation:
   status: included
-  reason: The project is primarily an MCP server implementation for secure agent-side file storage, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary developer-facing identity is the MCP server ('bitatlas/mcp-server') that allows agents like Claude Desktop to interact with the storage vault.
   evidence:
-    - Repo description explicitly states 'Zero Knowledge Cloud Drive for Humans and Agents' with an MCP server component.
-    - README highlights the MCP server as a first-class feature with configuration examples for Claude Desktop and OpenClaw.
-    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'Zero Knowledge Cloud Drive for Humans and Agents' with a dedicated '🤖 Agent-Native (MCP Server)' feature.
+    - The README provides specific MCP configuration JSON for integration with agents like Claude Desktop and OpenClaw.
+    - Listed in 'awesome-mcp-servers' under the Knowledge & Memory section, confirming its role as a protocol server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:21.289Z"
+    updated_at: "2026-05-06T22:12:53.208Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:53.678Z"
+    updated_at: "2026-05-06T22:24:20.066Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

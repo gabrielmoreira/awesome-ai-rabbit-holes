@@ -1,13 +1,29 @@
 id: github__jetbrains__mcp-jetbrains
 kind: github-repo
-name: JetBrains AI
+name: mcp-jetbrains
 canonical_url: https://github.com/jetbrains/mcp-jetbrains
 identity:
   github_repo: jetbrains/mcp-jetbrains
 provenance:
   discoveries:
+    - id: discovery__github__jetbrains__mcp-jetbrains__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jetbrains/mcpProxy
+        extracted_url: https://github.com/jetbrains/mcpproxy
+        surrounding_text: "- [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) 🎖️ 📇 🏠 - Connect to JetBrains IDE"
+        confidence: high
     - id: discovery__github__jetbrains__mcp-jetbrains__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,24 +37,8 @@ provenance:
         extracted_url: https://github.com/jetbrains/mcp-jetbrains
         surrounding_text: "- **[JetBrains](https://github.com/JetBrains/mcp-jetbrains)** – Work on your code with JetBrains IDEs"
         confidence: high
-    - id: discovery__github__jetbrains__mcpproxy__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💻 <a name="developer-tools"></a>Developer Tools
-        anchor_text: jetbrains/mcpProxy
-        extracted_url: https://github.com/jetbrains/mcpproxy
-        surrounding_text: "- [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) 🎖️ 📇 🏠 - Connect to JetBrains IDE"
-        confidence: high
-    - id: discovery__github__jetbrains__mcpproxy__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__jetbrains__mcp-jetbrains__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -52,41 +52,10 @@ provenance:
         extracted_url: https://github.com/jetbrains/mcpproxy
         surrounding_text: "-   **[JetBrains/mcpProxy](https://github.com/JetBrains/mcpProxy)** [![GitHub stars](https://img.shields.io/github/stars/JetBrains/mcpProxy?style=social)](https://github.com/JetBrains/mcpProxy): Connects to JetBrains IDEs for development tasks."
         confidence: high
-    - id: discovery__www__jetbrains__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Code Completion
-        anchor_text: JetBrains AI
-        extracted_url: https://www.jetbrains.com/ai
-        surrounding_text: "- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs."
-        confidence: high
-    - id: discovery__github__jetbrains__mcp-jetbrains__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💻 <a name="developer-tools"></a>Developer Tools
-        anchor_text: jetbrains/mcpProxy
-        extracted_url: https://github.com/jetbrains/mcpproxy
-        surrounding_text: "- [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) 🎖️ 📇 🏠 - Connect to JetBrains IDE"
-        confidence: high
 metadata:
   github:
-    stars: 951
-    forks: 75
+    stars: 950
+    forks: 76
     license: Apache-2.0
     archived: false
     created_at: "2024-12-09T11:50:21Z"
@@ -100,53 +69,49 @@ metadata:
       - mcp
       - mcp-server
       - pycharm
-    last_checked_at: "2026-05-05T21:02:54.628Z"
+    last_checked_at: "2026-05-06T22:44:33.282Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.628Z"
+      fetched_at: "2026-05-06T22:44:33.282Z"
       bytes: 5468
 insights:
-  summary: A Model Context Protocol server and proxy that allows external AI tools and agents to connect to and interact with JetBrains IDEs, now integrated natively into IntelliJ-based IDEs since version 2025.2.
-  why_it_matters: It allows developers to hook AI coding agents and MCP clients directly into their JetBrains workflow, bridging the gap between modern AI tooling and the IntelliJ ecosystem.
-  mental_damage: We have successfully abstracted the IDE into a context server so that an AI can finally refactor the code you were about to write before the plugin was deprecated.
+  summary: An official JetBrains MCP server that allows external AI clients like Claude Desktop and VS Code to connect to and interact with IntelliJ-based IDEs.
+  why_it_matters: It bridges the gap between JetBrains IDEs and the growing ecosystem of MCP-compatible coding agents, allowing developers to keep their preferred editor while using external AI tools.
+  mental_damage: We have reached the point where your IDE needs a protocol wrapper just to let your AI assistant say hello to your debugger.
   tags:
-    - ai-assistant
-    - code-completion
+    - mcp
+    - jetbrains
     - ide
     - integration
-    - jetbrains
-    - mcp
   confidence: high
 curation:
   status: included
-  reason: This is a canonical MCP server implementation for JetBrains IDEs, fitting the MCP Servers and Tooling category, even though the standalone repo is deprecated in favor of native IDE support.
+  reason: The repository is the official JetBrains implementation of an MCP server, making MCP the core product identity, even though the repo is now deprecated in favor of built-in IDE functionality.
   evidence:
-    - Repo description explicitly states it is 'A model context protocol server to work with JetBrains IDEs'.
-    - README is marked deprecated as functionality moved to IntelliJ 2025.2, but remains the reference implementation for the MCP integration.
-    - Listed in awesome-mcp-servers under 'Official Servers'.
-    - Scraped site context describes 'Intelligent Coding Assistance' and 'integrated AI tools'.
-    - Listed in awesome-ai-coding-tools under the 'Code Completion' section.
+    - "Repo description explicitly states: 'A model context protocol server to work with JetBrains IDEs'."
+    - Source lists place it in 'awesome-mcp-servers' under 'Server Implementations' and 'Official Servers'.
+    - README confirms it is a proxy server for the Model Context Protocol, not a standalone coding agent.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (951) exceeded threshold (150)
+  reason: Stars (950) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:12.253Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.578Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.628Z"
+    updated_at: "2026-05-06T22:44:33.282Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:04.151Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__composiohq__awesome-claude-skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 58118
-    forks: 6292
+    stars: 58336
+    forks: 6308
     license: null
     archived: false
     created_at: "2025-10-17T07:15:01Z"
@@ -49,50 +49,50 @@ metadata:
       - saas
       - skill
       - workflow-automation
-    last_checked_at: "2026-05-05T21:01:39.828Z"
+    last_checked_at: "2026-05-06T22:43:26.788Z"
     readme:
-      fetched_at: "2026-05-05T21:01:39.828Z"
+      fetched_at: "2026-05-06T22:43:26.788Z"
       bytes: 39146
 insights:
-  summary: A curated directory of 1000+ reusable Claude Skills and plugins for extending the behavior of AI coding agents like Claude Code, Cursor, and Gemini CLI.
-  why_it_matters: It provides a standardized, progressive-loading skill format that lets developers teach agents complex workflows without bloating the context window.
-  mental_damage: We have now successfully abstracted the act of working into a directory of markdown files that teach the robot how to pretend it is a project manager.
+  summary: A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents.
+  why_it_matters: It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
+  mental_damage: We have now reached the point where we need a directory of directories to manage the skills required to instruct the agents that are supposed to be doing the work for us.
   tags:
     - skills
     - claude
+    - agent-workflows
+    - directory
     - cursor
-    - agent-extensions
-    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: The repo is a directory/registry of reusable skill packs and rules designed to extend AI developer tools, which fits the dedicated skills category.
+  reason: The primary artifact is a registry of reusable skill packs and rules for coding agents, fitting the Agent Skills category better than a generic awesome list.
   evidence:
-    - Repo description explicitly calls it a 'curated list of awesome Claude Skills, resources, and tools'.
-    - README states the primary artifact is 'reusable instruction packages' (SKILL.md) for hosts like Claude Code, Cursor, and Gemini CLI.
-    - Source list context confirms inclusion under a 'Skills' section in an LLM resources list.
+    - Repo description explicitly calls it 'A curated list of awesome Claude Skills, resources, and tools'.
+    - README states it is 'a comprehensive and curated list of 1000+ production ready and practical Claude Skills and Plugins'.
+    - Contains sections defining 'What Are Claude Skills?' and lists skills for Development & Code Tools, proving it is a skill registry.
 placement:
   primary_category: skills
-  section: null
+  section: Skill Registries & Directories
 lifecycle:
   status: promotion_candidate
-  reason: Stars (58118) exceeded threshold (150)
+  reason: Stars (58336) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:39.828Z"
+    updated_at: "2026-05-06T22:43:26.788Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:08.224Z"
+    updated_at: "2026-05-06T22:50:21.189Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

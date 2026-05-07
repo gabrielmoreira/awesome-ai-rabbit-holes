@@ -1,12 +1,12 @@
 id: metercall__ai
 kind: website
-name: MeterCall
+name: metercall.ai
 canonical_url: https://metercall.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__metercall__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MeterCall is a browser-first SaaS platform that generates and deploys full business systems, such as CRMs and invoicing tools, from natural language prompts without requiring API keys or manual configuration.
-  why_it_matters: It allows developers and non-technical users to prototype and deploy integrated business applications by handling API connections and infrastructure automatically.
-  mental_damage: Another day, another platform promising to replace the 'complexity' of pasting an API key with a subscription to a proprietary 'Meter Credit' economy.
+  summary: MeterCall is a prompt-to-system builder that generates full working applications, such as CRMs with invoicing and scheduling, by connecting to external APIs without requiring developer setup or API keys.
+  why_it_matters: It targets non-technical business users and developers who want to spin up functional internal systems from a single prompt without managing integration overhead or infrastructure.
+  mental_damage: Yet another platform promising to replace an entire engineering team with a text box, while quietly hoping you don't look too closely at the fine print of 'compound builds.'
   tags:
-    - app-builder
-    - no-code
     - prompt-to-app
-    - saas
+    - no-code
+    - business-systems
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: It is a hosted, browser-first product that turns prompts into full deployed systems and internal tools, which aligns perfectly with the app-builders category.
+  reason: The product's core identity is turning a text description into a working system ('Build me a CRM'), fitting the prompt-to-app builder profile rather than a repo-editing coding agent.
   evidence:
-    - "Scraped site context states: 'This isn't a chatbot — it's a builder' and 'Tell it what you want. We just build it.'"
-    - The site highlights building specific systems like 'a CRM with invoicing and scheduling' using keyless API integrations.
-    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - Site claims 'Tell it what you want. We just build it.' and 'This isn't a chatbot — it's a builder.'
+    - "Explicit example use case: 'Build me a CRM with invoicing and scheduling.'"
+    - Already curated in awesome-ai-coding-tools under the 'App Builders' section.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:34.661Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:49.366Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__anomalyco__opencode
 kind: github-repo
-name: OpenCode
+name: opencode
 canonical_url: https://github.com/anomalyco/opencode
 identity:
   github_repo: anomalyco/opencode
 provenance:
   discoveries:
     - id: discovery__github__anomalyco__opencode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 154k` — Terminal-native coding agent with 75+ provider support, LSP integration, and privacy-first design (formerly opencode-ai; now at opencode.ai)."
         confidence: high
     - id: discovery__github__anomalyco__opencode__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,59 +39,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 155194
-    forks: 17980
+    stars: 155841
+    forks: 18070
     license: MIT
     archived: false
     created_at: "2025-04-30T20:08:00Z"
-    pushed_at: "2026-05-05T20:53:03Z"
+    pushed_at: "2026-05-06T21:47:13Z"
     description: The open source coding agent.
     homepage: https://opencode.ai
     topics: []
-    last_checked_at: "2026-05-05T21:01:04.006Z"
+    last_checked_at: "2026-05-06T22:12:38.707Z"
     readme:
-      fetched_at: "2026-05-05T21:01:04.006Z"
-      bytes: 6312
+      fetched_at: "2026-05-06T22:12:38.707Z"
+      bytes: 6294
 insights:
-  summary: An open-source AI coding agent available via CLI and desktop app that assists with code development, analysis, and planning inside a repository.
-  why_it_matters: It offers a capable, locally-runnable alternative to proprietary coding agents like Claude Code, with built-in specialized agents for building and planning.
-  mental_damage: Yet another open-source CLI agent enters the terminal to gently remind you that your job is now 50% prompt engineering and 50% managing agents that edit files faster than you can `git diff`.
+  summary: An open-source AI coding agent that runs in the terminal and as a desktop app, designed to read, plan, edit, and execute code across a repository.
+  why_it_matters: It offers a capable, Claude Code-like workflow in an open-source package with multi-agent modes (build, plan, general) and broad installation options.
+  mental_damage: Another day, another terminal agent promising to finally be the one that doesn't need you to babysit it through a 400-line refactor.
   tags:
-    - cli
     - coding-agent
-    - desktop
-    - opensource
     - terminal
+    - cli
+    - desktop
+    - open-source
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an open-source coding agent that operates directly on source code via CLI and desktop interfaces, fitting the coding-agents category perfectly.
+  reason: The product is a standalone, primary coding assistant for developers, explicitly positioning itself as an open-source alternative to Claude Code with build, plan, and general agents.
   evidence:
     - "Repo description states: 'The open source coding agent.'"
-    - README describes built-in 'build' and 'plan' agents for development work and code exploration directly in the repo.
-    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents > Open Source' section.
+    - README confirms it is 'The open source AI coding agent' and compares itself directly to Claude Code.
+    - Includes built-in agents (build, plan, general) for development work, analysis, and complex tasks.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (155194) exceeded threshold (150)
+  reason: Stars (155841) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:16.658Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:04.006Z"
+    updated_at: "2026-05-06T22:12:38.707Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:26.292Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

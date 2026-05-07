@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tensorchord__pgvecto.rs__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,69 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2172
+    forks: 84
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-04-15T09:56:24Z"
+    pushed_at: "2025-02-26T14:11:43Z"
+    description: Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.
+    homepage: https://docs.vectorchord.ai/getting-started/overview.html
+    topics:
+      - chatgpt
+      - faiss
+      - gpt
+      - hacktoberfest
+      - llm
+      - nearest-neighbor-search
+      - postgres
+      - rust
+      - vector
+      - vector-database
+    last_checked_at: "2026-05-06T22:46:44.020Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:44.020Z"
+      bytes: 14155
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Postgres extension written in Rust that adds high-dimensional vector similarity search with hybrid filtering, SIMD acceleration, and support for up to 65535 dimensions.
+  why_it_matters: It gives developers a drop-in way to scale vector search directly inside Postgres with better filtering behavior than pgvector, which matters for RAG pipelines and LLM backends.
+  mental_damage: Another reminder that your 'simple' Postgres database is now a 65535-dimensional vector warehouse, whether your ORM likes it or not.
+  tags:
+    - postgres
+    - vector-search
+    - rust
+    - vector-database
+    - rag
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is database infrastructure for vector search, not a developer-facing AI tool, agent, workflow, or coding assistant, and it does not fit any product category in the catalog.
+  evidence:
+    - Repo description explicitly says 'Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.'
+    - README positions it as a Postgres extension for vector similarity search, indexing, and filtering, not an AI coding or dev tool.
+    - Listed in Awesome-LLMOps under 'Search > Vector search', which is an ops/infra category rather than developer AI tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2172) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:44.020Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:11.281Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

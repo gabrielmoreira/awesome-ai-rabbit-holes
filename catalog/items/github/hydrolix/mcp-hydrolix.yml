@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hydrolix__mcp-hydrolix__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hydrolix/mcp-hydrolix](https://github.com/hydrolix/mcp-hydrolix) 🎖️ 🐍 ☁️ - Hydrolix time-series datalake integration providing schema exploration and query capabilities to LLM-based workflows."
         confidence: high
     - id: discovery__github__hydrolix__mcp-hydrolix__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -44,53 +44,53 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2025-04-08T00:12:00Z"
-    pushed_at: "2026-05-04T23:47:33Z"
+    pushed_at: "2026-05-06T21:42:59Z"
     description: An MCP server for Hydrolix
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:39.499Z"
+    last_checked_at: "2026-05-06T22:44:20.323Z"
     readme:
-      fetched_at: "2026-05-05T21:02:39.499Z"
+      fetched_at: "2026-05-06T22:44:20.323Z"
       bytes: 15188
 insights:
-  summary: An MCP server that exposes Hydrolix database operations—such as running SQL queries, listing databases, and inspecting table schemas—to AI assistants like Claude Desktop and Claude Code.
-  why_it_matters: It lets developers query and inspect their Hydrolix clusters through natural language prompts inside their existing AI coding environments instead of switching to a separate database client.
-  mental_damage: Another specialized MCP server enters the ecosystem, proving that the future of software engineering is less about writing SQL and more about maintaining a growing fleet of protocol adapters.
+  summary: An MCP server that exposes Hydrolix database operations—such as running SQL queries, listing databases, and inspecting table schemas—to MCP-compatible AI assistants like Claude Desktop and Claude Code.
+  why_it_matters: It lets developers query and inspect their Hydrolix data warehouses directly from their AI coding assistant instead of switching to a separate database client.
+  mental_damage: Another critical piece of infrastructure that will sit quietly in your MCP config until you forget it exists, only to rediscover it three months later when Claude confidently hallucinates your schema anyway.
   tags:
     - mcp
     - database
     - hydrolix
-    - claude
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server for Hydrolix, which is a textbook fit for the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server specifically built to give AI assistants access to Hydrolix databases, which fits squarely into MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'An MCP server for Hydrolix'.
-    - README details MCP tools like run_select_query, list_databases, and get_table_info for Claude Desktop and Claude Code.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Databases'.
+    - README documents tools like run_select_query, list_databases, and list_tables exposed via MCP to Claude Desktop and Claude Code.
+    - Included in the awesome-mcp-servers list under Server Implementations > Databases.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:39.499Z"
+    updated_at: "2026-05-06T22:44:20.323Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:02.666Z"
+    updated_at: "2026-05-06T23:01:22.657Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

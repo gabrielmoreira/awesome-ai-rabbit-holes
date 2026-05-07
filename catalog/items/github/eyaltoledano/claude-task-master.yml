@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eyaltoledano__claude-task-master__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) 📇 ☁️ 🏠 - AI-powered task management system for AI-driven development. Features PRD parsing, task expansion, multi-provider support (Claude, OpenAI, Gemini, Perplexity, xAI), and selective tool loading for optimized context usage."
         confidence: high
     - id: discovery__github__eyaltoledano__claude-task-master__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 27000
-    forks: 2519
+    stars: 27019
+    forks: 2520
     license: NOASSERTION
     archived: false
     created_at: "2025-03-04T18:54:54Z"
@@ -60,50 +60,50 @@ metadata:
       - tasks-list
       - windsurf
       - windsurf-ai
-    last_checked_at: "2026-05-05T21:02:06.727Z"
+    last_checked_at: "2026-05-06T22:43:49.860Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.727Z"
+      fetched_at: "2026-05-06T22:43:49.860Z"
       bytes: 17421
 insights:
-  summary: An AI-powered task management system that integrates as an MCP server or CLI to break down requirements, manage dependencies, and orchestrate development tasks within AI coding environments like Cursor, Claude Code, and Windsurf.
-  why_it_matters: It gives AI coding assistants structured memory and project-level context, helping them handle multi-step features without losing track of the plan.
-  mental_damage: You now have a dedicated task manager to organize the hallucinations of the AI assistant that is supposedly organizing your own work.
+  summary: An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies.
+  why_it_matters: It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
+  mental_damage: We have finally solved the problem of AI agents writing 4,000 lines of code that almost work by introducing a task manager that requires its own API keys and another layer of prompt-driven ceremony.
   tags:
     - task-management
     - mcp
     - cursor
-    - cli
-    - context-engineering
+    - claude-code
+    - ai-workflow
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a task-management and context layer that extends the capabilities of host AI coding assistants (like Cursor and Claude Code) rather than being a primary coding agent itself.
+  reason: The product is explicitly designed to augment other AI chat and coding assistants with task management capabilities, making it an extension/integration rather than a primary coding agent.
   evidence:
-    - Repo description explicitly states it is 'An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.'
-    - README confirms it is an MCP server and CLI designed to work 'seamlessly with any AI chat' and specific editors like Cursor.
-    - Included in awesome-mcp-servers under 'Developer Tools' and awesome-ai-coding-tools under 'Developer Productivity Tools'.
+    - Repo description states it is 'An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.'
+    - README describes it as 'A task management system for AI-driven development, designed to work seamlessly with any AI chat.'
+    - Provides a one-click MCP install link for Cursor and CLI install for Claude Code, confirming its integration-layer identity.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
-  reason: Stars (27000) exceeded threshold (150)
+  reason: Stars (27019) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.727Z"
+    updated_at: "2026-05-06T22:43:49.860Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:51.179Z"
+    updated_at: "2026-05-06T22:55:11.375Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

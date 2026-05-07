@@ -1,0 +1,79 @@
+id: sentry__io__welcome
+kind: website
+name: welcome
+canonical_url: https://sentry.io/welcome
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sentry__io__welcome__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Sentry
+        extracted_url: https://sentry.io
+        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Sentry is an application performance monitoring and error tracking platform that now includes AI debugging agents, automated code fixes, and an MCP server for integrating with coding assistants.
+  why_it_matters: It connects error monitoring, tracing, and session replay with AI tools like Seer and Autofix to automatically root-cause issues and generate merge-ready patches from production context.
+  mental_damage: You can now watch an AI agent confidently explain why your code broke while you frantically check if the 500 errors are still climbing.
+  tags:
+    - monitoring
+    - debugging
+    - mcp
+    - ai-agent
+    - observability
+  confidence: medium
+curation:
+  status: included
+  reason: Sentry's core value for developers is observability, tracing, and AI-assisted debugging, which aligns with the evals category's focus on measuring and understanding system behavior, even though it also ships an MCP server.
+  evidence:
+    - Primary page excerpt describes Sentry as 'Application performance monitoring for developers' with products like Error Monitoring, Tracing, and AI Debugging via Seer.
+    - Marketing copy highlights 'from GitHub, Slack, Jira, and Linear to coding agents with Sentry's MCP server' as an integration layer, not the core product.
+    - Listed in awesome-mcp-servers under 'Official Servers', but the main product identity is a broad observability platform, not an MCP-first toolkit.
+placement:
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.665Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:31.100Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

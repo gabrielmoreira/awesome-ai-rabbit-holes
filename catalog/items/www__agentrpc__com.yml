@@ -1,0 +1,75 @@
+id: www__agentrpc__com
+kind: website
+name: www.agentrpc.com
+canonical_url: https://www.agentrpc.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__agentrpc__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: AgentRPC
+        extracted_url: https://www.agentrpc.com
+        surrounding_text: "- **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network boundaries using [AgentRPC](https://www.agentrpc.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AgentRPC is a Model Context Protocol (MCP) server that exposes internal microservices and APIs as callable tools for AI agents.
+  why_it_matters: It allows developers to bridge existing backend infrastructure with AI agents without writing custom adapters for every service.
+  mental_damage: Another layer of indirection so your agents can confidently miscall your own APIs while sounding very sure of themselves.
+  tags:
+    - mcp
+    - agent-integration
+    - rpc
+    - tooling
+  confidence: medium
+curation:
+  status: included
+  reason: The product is listed in awesome-mcp-servers as an official server and its core identity is exposing services via the Model Context Protocol.
+  evidence:
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - Domain agentrpc.com implies a focus on RPC-style communication for agents.
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:28.337Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

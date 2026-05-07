@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nonatofabio__local_faiss_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,50 @@ metadata:
       - rag
       - semantic-search
       - vector-database
-    last_checked_at: "2026-05-05T21:03:55.742Z"
+    last_checked_at: "2026-05-06T22:45:33.982Z"
     readme:
-      fetched_at: "2026-05-05T21:03:55.742Z"
+      fetched_at: "2026-05-06T22:45:33.982Z"
       bytes: 13314
 insights:
-  summary: A local MCP server that uses FAISS to provide vector storage, document ingestion, and semantic search capabilities for AI agents and coding assistants.
-  why_it_matters: It gives developers a zero-dependency, on-device memory layer that lets coding agents semantically search private documents without sending data to external vector databases.
-  mental_damage: You now have the infrastructure to give your agent a photographic memory, yet it will still confidently hallucinate that your PDF says something it definitely does not.
+  summary: A local MCP server that wraps FAISS to provide private, on-device vector storage and semantic search for RAG workflows in Claude, Copilot, and other MCP-compatible agents.
+  why_it_matters: It lets developers give coding agents persistent, local memory without shipping docs to a third-party vector DB.
+  mental_damage: You can now index every half-written README on your laptop and politely ask your agent to hallucinate from a curated, offline pile of your own making.
   tags:
     - mcp
     - faiss
     - rag
     - local-ai
-    - semantic-search
+    - vector-search
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation for local vector search, fitting cleanly into the MCP infrastructure category rather than a generic AI tool.
+  reason: The product is explicitly an MCP server for local FAISS vector search, making MCP its primary identity rather than a compatibility footnote.
   evidence:
-    - Repo description explicitly states 'Local FAISS vector store as an MCP server'.
-    - README confirms it is a Model Context Protocol (MCP) server providing tools like ingest_document and query_rag_store.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - "Repo description: 'Local FAISS vector store as an MCP server – Agent Memory, drop-in local semantic search for Claude / Copilot / Agents.'"
+    - "README states: 'A Model Context Protocol (MCP) server that provides local vector database functionality using FAISS for Retrieval-Augmented Generation (RAG) applications.'"
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:55.742Z"
+    updated_at: "2026-05-06T22:45:33.982Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:52.126Z"
+    updated_at: "2026-05-06T23:17:38.976Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

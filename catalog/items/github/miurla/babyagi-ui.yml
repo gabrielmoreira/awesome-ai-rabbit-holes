@@ -1,13 +1,13 @@
 id: github__miurla__babyagi-ui
 kind: github-repo
-name: BabyAGI UI
+name: babyagi-ui
 canonical_url: https://github.com/miurla/babyagi-ui
 identity:
   github_repo: miurla/babyagi-ui
 provenance:
   discoveries:
     - id: discovery__github__miurla__babyagi-ui__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -41,27 +41,27 @@ metadata:
       - pinecone
       - radix-ui
       - tailwindcss
-    last_checked_at: "2026-05-05T21:03:43.312Z"
+    last_checked_at: "2026-05-06T22:45:21.699Z"
     readme:
-      fetched_at: "2026-05-05T21:03:43.312Z"
+      fetched_at: "2026-05-06T22:45:21.699Z"
       bytes: 3740
 insights:
-  summary: A web UI for running and developing with the BabyAGI autonomous agent, built with Next.js, LangChain.js, and Pinecone.
-  why_it_matters: It provided an early, accessible interface for developers to experiment with autonomous agent loops and task management without wrestling with raw scripts.
-  mental_damage: We built a web interface to watch an AI create tasks for itself, effectively turning a todo list into a serverless burnout simulator.
+  summary: A Next.js web UI for running and developing with the BabyAGI agent using LangChain.js, Pinecone, and OpenAI.
+  why_it_matters: It packaged the early autonomous agent loop into a ChatGPT-like interface, letting developers experiment with task-driven agents without wiring the plumbing themselves.
+  mental_damage: You can now watch an agent fail to manage its todo list with the polished aesthetic of a modern React app, which somehow makes the inevitable recursion feel more professional.
   tags:
-    - agent
-    - autonomous
+    - agents
     - langchain
     - nextjs
+    - babyagi
+    - ui
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and the maintainer explicitly states that the project's role has ended, signaling it is no longer a living tool for developers.
+  reason: The repository is explicitly archived and the maintainers state that its role has ended, making it a historical artifact rather than an active developer tool.
   evidence:
-    - "Archived: yes (explicit GitHub archived status)"
-    - "README contains a CAUTION banner stating: 'Its role of allowing users to easily try out BabyAGI... has ended.'"
-    - Last push was 2024-10-24, but the project is effectively sunsetted by the author.
+    - Repo is archived and the README includes a CAUTION banner stating the project's role 'has ended.'
+    - Created in April 2023 and primarily relevant to the early BabyAGI/LangChain agent era rather than current workflows.
 placement:
   primary_category: null
   section: null
@@ -69,21 +69,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:23.356Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:43.312Z"
+    updated_at: "2026-05-06T22:45:21.699Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:46.672Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

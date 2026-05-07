@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__back1ply__agent-skill-loader__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,49 +41,50 @@ metadata:
       - model-context-protocol
       - skills
       - typescript
-    last_checked_at: "2026-05-05T21:01:16.716Z"
+    last_checked_at: "2026-05-06T22:12:48.881Z"
     readme:
-      fetched_at: "2026-05-05T21:01:16.716Z"
+      fetched_at: "2026-05-06T22:12:48.881Z"
       bytes: 5742
 insights:
-  summary: An MCP server that exposes a local Claude Code Skills library to MCP-compatible AI agents as slash commands and tools with live file watching.
-  why_it_matters: Developers can maintain a single static skill library and make it dynamically available across Claude Desktop, Cursor, and other MCP clients without manual syncing.
-  mental_damage: We have officially reached the point where we need a bridge to help our bridges talk to our skills about other bridges.
+  summary: An MCP server that exposes a static library of Claude Code Skills to MCP-compatible AI agents as prompts and tools with live file-watching updates.
+  why_it_matters: It lets developers reuse portable skill packs across different AI agents without manually re-injecting context or rebuilding prompt libraries for every new client.
+  mental_damage: We have now built an adapter so that your reusable prompt packs can be dynamically discovered by the very agents that were supposed to make manually managing prompt packs obsolete.
   tags:
     - mcp
     - skills
-    - claude-code
-    - context-engineering
+    - context
+    - typescript
+    - claude
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that exposes local skills to MCP clients, which fits cleanly into the MCP Servers and Tooling category rather than a coding agent or skills pack.
+  reason: The product identity is an MCP server that bridges static skill files to MCP clients, fitting cleanly as MCP infrastructure rather than a generic extension or framework.
   evidence:
-    - "Repo description states: 'MCP server to expose Claude Code Skills to AI agents'."
-    - README describes it as 'a Model Context Protocol (MCP) server that acts as a bridge between your static Claude Code Skills library and dynamic AI agents'.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states 'MCP server to expose Claude Code Skills to AI agents'.
+    - README positions it as a Model Context Protocol server with MCP Prompts and MCP Tools for skill discovery.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:16.716Z"
+    updated_at: "2026-05-06T22:12:48.881Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:09.742Z"
+    updated_at: "2026-05-06T22:23:29.125Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

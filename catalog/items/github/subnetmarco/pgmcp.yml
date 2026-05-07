@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__subnetmarco__pgmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 529
+    forks: 61
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-16T19:45:03Z"
+    pushed_at: "2025-09-25T18:19:25Z"
+    description: An MCP server to query any Postgres database in natural language.
+    homepage: ""
+    topics:
+      - agent
+      - agentic-ai
+      - ai
+      - analytics
+      - artificial-intelligence
+      - data-analysis
+      - database
+      - kong
+      - mcp
+      - mcp-server
+      - postgres
+      - postgresql
+    last_checked_at: "2026-05-06T22:46:36.389Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:36.389Z"
+      bytes: 10307
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects AI assistants to any PostgreSQL database, translating natural language questions into read-only SQL queries.
+  why_it_matters: It allows developers to query live production schemas through Cursor, Claude Desktop, and other MCP clients without writing SQL or modifying the database.
+  mental_damage: Soon your AI will know more about your neglected migration scripts and orphaned tables than you do, and it will happily tell you about them in plain English.
+  tags:
+    - mcp
+    - postgres
+    - database
+    - natural-language
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is an MCP server implementation for PostgreSQL, explicitly designed to be plugged into MCP-compatible clients.
+  evidence:
+    - "Repo description states: 'An MCP server to query any Postgres database in natural language.'"
+    - README lists compatibility with 'Any MCP Client' including Cursor, Claude Desktop, and VS Code extensions.
+    - Listed in awesome-mcp-servers under 'Databases' with 529 stars and active development (pushed 2025-09-25).
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (529) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:36.389Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:39.984Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

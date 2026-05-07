@@ -1,0 +1,88 @@
+id: github__bigai-nlco__tokenswift
+kind: github-repo
+name: tokenswift
+canonical_url: https://github.com/bigai-nlco/tokenswift
+identity:
+  github_repo: bigai-nlco/tokenswift
+provenance:
+  discoveries:
+    - id: discovery__github__bigai-nlco__tokenswift__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: TokenSwift
+        extracted_url: https://github.com/bigai-nlco/tokenswift
+        surrounding_text: "48. [TokenSwift](https://github.com/bigai-nlco/TokenSwift): From Hours to Minutes: Lossless Acceleration of Ultra Long Sequence Generation."
+        confidence: high
+metadata:
+  github:
+    stars: 124
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-02-06T06:23:24Z"
+    pushed_at: "2025-05-19T13:51:35Z"
+    description: "[ICML 2025] |TokenSwift: Lossless Acceleration of Ultra Long Sequence Generation"
+    homepage: ""
+    topics:
+      - deepseek
+      - inference
+      - llm-inference
+      - llm-serving
+      - llms
+      - qwen
+      - speculative-decoding
+      - transformer
+    last_checked_at: "2026-05-06T22:12:52.454Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:52.454Z"
+      bytes: 7928
+insights:
+  summary: TokenSwift is a plug-and-play inference framework that uses speculative decoding and n-gram retrieval to generate ultra-long sequences (up to 100K tokens) 3x faster with no loss in output quality.
+  why_it_matters: Developers running local or self-hosted LLMs can drastically reduce the time and compute required to generate long-form outputs like novels, documentation, or complex reasoning chains.
+  mental_damage: We have successfully accelerated the generation of text so long that no human will ever realistically read it in one sitting.
+  tags:
+    - inference
+    - speculative-decoding
+    - llm-serving
+    - long-context
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a model inference optimization and research framework (ICML 2025 paper implementation) rather than a developer-facing tool for coding, orchestration, or workflow automation.
+  evidence:
+    - Repo description explicitly states 'Lossless Acceleration of Ultra Long Sequence Generation', focusing on inference mechanics.
+    - README focuses on speculative decoding, KV cache management, and benchmarks for 100K token generation, not developer workflows.
+    - Source list context places it in '推理 Inference' (Inference) under a general LLM resources list, not a developer tooling list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.605Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:52.454Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:08.987Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

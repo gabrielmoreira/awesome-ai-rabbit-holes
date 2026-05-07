@@ -1,12 +1,12 @@
 id: marketplace__visualstudio__com__items
 kind: website
-name: GistPad VS Code extension
+name: items
 canonical_url: https://marketplace.visualstudio.com/items
 identity: {}
 provenance:
   discoveries:
     - id: discovery__marketplace__visualstudio__com__items__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev and the [GistPad VS Code extension](https://aka.ms/gistpad)."
         confidence: high
     - id: discovery__marketplace__visualstudio__com__items__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -51,44 +51,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Visual Studio Code extension for managing GitHub Gists and repositories as a virtual filesystem, with an integrated MCP server for interacting with snippets via Copilot chat.
-  why_it_matters: It lets developers treat GitHub as a lightweight knowledge base and code snippet library without cloning repos, while enabling AI assistants to directly read and manipulate that knowledge.
-  mental_damage: Finally, an extension to manage the gists you hoard but never look at, now accessible via an AI agent that will happily summarize code you forgot you wrote.
+  summary: GistPad is a Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor, with integrated support for wikis, daily notes, and a built-in MCP server for Copilot Chat.
+  why_it_matters: It lets developers treat GitHub as a lightweight knowledge base and snippet library without leaving their editor, and exposes that knowledge to Copilot via MCP so the assistant can search and create gists through natural language.
+  mental_damage: You now have a new way to procrastinate on real work by organizing code snippets and daily notes that you will lovingly curate but never actually reuse.
   tags:
-    - copilot
-    - github-gists
-    - knowledge-management
-    - mcp-server
     - vscode-extension
+    - mcp
+    - knowledge-management
+    - copilot
   confidence: high
 curation:
   status: included
-  reason: The project is included under MCP because it explicitly ships a built-in MCP server to allow Copilot (and other agents) to interact with Gists via natural language.
+  reason: GistPad is primarily a VS Code extension that augments the editor and Copilot with gist/repo management and an MCP server, making it a host integration and workflow add-on rather than a standalone coding agent or MCP-first product.
   evidence:
-    - "The README states: 'This experience works because the GistPad extension ships with the GistPad MCP server out of the box.'"
-    - It is listed in the 'awesome-mcp-servers' directory under the 'Knowledge & Memory' section.
-    - The tool provides a browser/IDE surface for managing GitHub Gists, but the MCP integration is the distinct developer-tooling feature for this catalog.
+    - Marketplace description states it is a VS Code extension to manage code snippets and notes using GitHub Gists and repositories.
+    - README notes it includes a built-in MCP server to let Copilot Chat discuss and edit gists and daily notes.
+    - Listed in awesome-cursorrules and awesome-mcp-servers as an extension and MCP server implementation, not as a primary coding assistant.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:12.183Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:27.539Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

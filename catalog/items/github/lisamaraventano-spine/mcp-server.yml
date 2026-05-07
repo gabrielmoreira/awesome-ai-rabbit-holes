@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lisamaraventano-spine__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: "MCP server for Underground Cultural District — 23 tools, 218+ digital goods for AI agents. Free dev tools + paid catalog + Stripe checkout. npm: @underground-cultural-district/mcp-server"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:21.482Z"
+    last_checked_at: "2026-05-06T22:45:00.764Z"
     readme:
-      fetched_at: "2026-05-05T21:03:21.482Z"
+      fetched_at: "2026-05-06T22:45:00.764Z"
       bytes: 948
 insights:
-  summary: An MCP server providing access to the Underground Cultural District's catalog of digital goods, including free developer tools like hash generators, JWT utilities, and regex helpers, alongside paid products.
-  why_it_matters: It offers a programmable interface for AI agents to browse, retrieve free developer utilities, and handle transactions for digital goods within the Underground Cultural District ecosystem.
-  mental_damage: We have successfully reached the point where you can buy a 'pet-rock-lobster' through a Model Context Protocol tool, proving that no niche is too small for its own agent-accessible checkout cart.
+  summary: An MCP server that exposes 23 tools for interacting with The Underground Cultural District, including free developer utilities like hash generation, JWT handling, and regex helpers, plus a paid catalog of digital goods accessible via Stripe checkout.
+  why_it_matters: It bundles a set of developer utilities into an MCP-compatible surface so agents can generate hashes, inspect JWTs, and browse a proprietary digital marketplace without leaving the assistant context.
+  mental_damage: We have successfully reached the point where buying a pet rock lobster and verifying the receipt is a natively exposed tool in your coding agent's context window.
   tags:
     - mcp
     - developer-tools
     - npm
     - digital-goods
-  confidence: medium
+    - utilities
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation offering developer tools and digital goods access, which fits the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that exposes developer tools and a digital marketplace as MCP-compatible endpoints for AI agents.
   evidence:
-    - Repo description identifies it as an 'MCP server for Underground Cultural District' with 23 tools.
-    - README confirms it provides MCP tools like hash gen, JWT, regex, and agent-mesh/identity libraries.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'MCP server for Underground Cultural District — 23 tools, 218+ digital goods for AI agents.'
+    - README confirms 19 tools including hash gen, JWT, regex, and marketplace tools like buy-from-underground and verify-receipt.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with its MCP-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:21.482Z"
+    updated_at: "2026-05-06T22:45:00.764Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:09.134Z"
+    updated_at: "2026-05-06T23:09:53.832Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

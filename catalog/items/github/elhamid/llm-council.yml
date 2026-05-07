@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elhamid__llm-council__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: LLM Council works together to answer your hardest questions
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:01.213Z"
+    last_checked_at: "2026-05-06T22:43:45.417Z"
     readme:
-      fetched_at: "2026-05-05T21:02:01.213Z"
+      fetched_at: "2026-05-06T22:43:45.417Z"
       bytes: 6025
 insights:
-  summary: A local web app that sends queries to multiple LLMs via OpenRouter, has them review and rank each other's responses anonymously, and synthesizes a final answer via a designated Chairman model.
-  why_it_matters: Developers can compare model reasoning, reduce provider bias, and audit decision traces when evaluating LLM outputs for complex technical questions.
-  mental_damage: Because nothing says 'confident engineering decision' like outsourcing your judgment to a committee of language models that rank each other in a blind peer review.
+  summary: A local web app that sends queries to multiple LLMs via OpenRouter, has them review and rank each other's responses anonymously, then synthesizes a final answer via a designated Chairman model.
+  why_it_matters: It lets developers compare model quality and reasoning side-by-side with structured peer review rather than guessing which provider is best for a given problem.
+  mental_damage: Because the logical next step after delegating all your coding to an LLM is evidently forming a committee of them and hoping they don't unionize before the deadline.
   tags:
-    - llm-eval
     - multi-model
-    - local-tool
+    - evaluation
+    - local-app
     - openrouter
   confidence: medium
 curation:
   status: included
-  reason: The project is an eval-oriented tool for comparing and judging multiple LLM responses with decision traces and repeatable scoring, not a coding agent or app builder.
+  reason: Its core job is comparing, ranking, and tracing model responses with decision audits, which maps directly to evals and benchmarks rather than coding assistance or orchestration.
   evidence:
-    - README describes Stage 1–3 pipeline focused on anonymized ranking, aggregate rankings, and decision-auditable runs rather than code editing.
-    - Fork notes emphasize evaluation artifacts, Stage 2 smoke/quality scripts, and persisted aggregate ranks for comparing council behavior across runs.
-    - Repo description and README position it as a 'LLM Council' for answering hard questions, not assisting with repo/IDE coding workflows.
+    - README states it ranks anonymized responses and saves a 'compact decision trace' for post-hoc review
+    - Includes 'Stage 2 smoke/quality scripts' and 'aggregated ranks' persisted for cross-run comparison
+    - Author describes it as a tool to 'explore and evaluate a number of LLMs side by side', not to edit code
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:01.213Z"
+    updated_at: "2026-05-06T22:43:45.417Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:50.031Z"
+    updated_at: "2026-05-06T22:54:07.916Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

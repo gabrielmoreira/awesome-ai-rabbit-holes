@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adhikasp__mcp-twikit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit) 🐍 ☁️ - Interact with Twitter search and timeline"
         confidence: high
     - id: discovery__github__adhikasp__mcp-twikit__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -51,49 +51,49 @@ metadata:
       - llm
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:00:49.624Z"
+    last_checked_at: "2026-05-06T22:12:25.394Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.624Z"
+      fetched_at: "2026-05-06T22:12:25.394Z"
       bytes: 4978
 insights:
-  summary: An MCP server that lets LLM clients interact with Twitter via the Twikit library, enabling timeline retrieval and tweet search directly from coding assistants.
-  why_it_matters: Developers can wire Twitter data into their local AI workflows without building custom API integrations, making social sentiment and real-time updates first-class context for coding agents.
-  mental_damage: "We have finally solved the hardest problem in computer science: letting a Claude instance automatically discover just how much everyone hates their ISP while you pretend to review a pull request."
+  summary: An MCP server that lets coding assistants search Twitter, read timelines, and analyze tweet sentiment via the Twikit library.
+  why_it_matters: It gives LLM-powered dev tools live access to Twitter data without custom glue code, enabling quick social sentiment or brand-monitoring workflows.
+  mental_damage: "We have finally closed the loop: an AI agent can now read your timeline and tell you exactly why your internet provider is terrible, in case the outage wasn't obvious enough."
   tags:
     - mcp
     - twitter
-    - llm-integration
-    - social-media
+    - integration
+    - llm-tooling
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server implementation that integrates Twitter access into the Model Context Protocol ecosystem for developer tools.
+  reason: The product is explicitly an MCP server for Twitter, and it is listed in multiple MCP server directories, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for interacting with Twitter.'"
-    - README demonstrates MCP server installation for Claude Desktop and shows tool calls like search_twitter and get_timeline.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its role as MCP infrastructure.
+    - "Repo description states: 'A Model Context Protocol (MCP) server for interacting with Twitter.'"
+    - Included in awesome-mcp-list and awesome-mcp-servers under Communication sections.
+    - Installation instructions and examples use Smithery and MCP server config blocks.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (231) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:49.624Z"
+    updated_at: "2026-05-06T22:12:25.394Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:54.326Z"
+    updated_at: "2026-05-06T22:18:41.813Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

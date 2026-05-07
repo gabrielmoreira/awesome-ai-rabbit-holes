@@ -1,12 +1,12 @@
 id: skills__sh
 kind: website
-name: Skills.Sh
+name: skills.sh
 canonical_url: https://skills.sh
 identity: {}
 provenance:
   discoveries:
     - id: discovery__skills__sh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A centralized directory and CLI installer for reusable AI agent skills, allowing developers to add procedural knowledge packs to their agents with a single command.
-  why_it_matters: It provides a package-manager-style workflow for discovering and distributing the specific behaviors and rules that shape how coding agents operate.
-  mental_damage: We have finally achieved the dream of npm install for 'agent capabilities', meaning your AI's personality is now just a dependency tree waiting to conflict.
+  summary: A CLI-driven directory and registry for discovering, installing, and managing reusable skill packs that extend AI coding agents with procedural knowledge.
+  why_it_matters: It gives developers a centralized way to equip agents like Claude Code or GitHub Copilot with curated, domain-specific capabilities using a single command.
+  mental_damage: We have now successfully abstracted software development into installing enough 'skills' that the agent can theoretically rebuild the LinkedIn infrastructure before lunch.
   tags:
-    - agents
-    - cli
+    - agent-skills
     - registry
-    - skills
+    - cli
+    - reusable-capabilities
+    - skills-management
   confidence: high
 curation:
   status: included
-  reason: The project is a directory and installer specifically for reusable AI agent skill packs, which fits the dedicated skills category perfectly.
+  reason: The product's primary identity is a registry and CLI for discovering and installing reusable agent skill packs, matching the skills category definition precisely.
   evidence:
-    - Title and description explicitly call it 'The Agent Skills Directory' for discovering and installing skills.
-    - "Usage is via a CLI command: 'npx skills add <owner/repo>' to enhance agents with procedural knowledge."
-    - Listed in awesome-LLM-resources under the section '技能 Skills' (Skills) linked as a skills directory.
+    - Scraped site title and description identify it as 'The Agent Skills Directory' for discovering and installing skills.
+    - Leaderboard lists specific skills from owners like vercel-labs, anthropics, and microsoft with install counts (e.g., 'npx skills add <owner/repo>').
+    - Source list context confirms it is linked as a skills directory for AI agents.
 placement:
   primary_category: skills
-  section: null
+  section: Skill Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:13.151Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:39.162Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

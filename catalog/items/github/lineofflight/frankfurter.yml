@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lineofflight__frankfurter__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,64 +23,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1450
+    stars: 1456
     forks: 151
     license: MIT
     archived: false
     created_at: "2018-03-08T14:40:57Z"
-    pushed_at: "2026-05-02T08:31:09Z"
+    pushed_at: "2026-05-06T22:11:31Z"
     description: 💱 Currency data API
     homepage: https://frankfurter.dev
     topics:
       - api
       - currency
       - currency-api
+      - currency-converter
+      - currency-exchange
+      - currency-exchange-rates
+      - forex
       - money
       - ruby
-    last_checked_at: "2026-05-05T21:03:20.499Z"
+    last_checked_at: "2026-05-06T22:44:59.894Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.499Z"
+      fetched_at: "2026-05-06T22:44:59.894Z"
       bytes: 2081
 insights:
-  summary: Frankfurter is an open-source currency data API that provides current and historical exchange rates sourced from central banks, which can be self-hosted via Docker.
-  why_it_matters: It offers developers a free, self-hostable alternative to commercial currency APIs with no API key required for the public instance.
-  mental_damage: We now have open-source infrastructure to query the exchange rate of the Euro against the Dollar, yet we still can't agree on a standard way to format a JSON response without invoking an AI agent.
+  summary: Frankfurter is an open-source currency data API that provides current and historical exchange rates sourced from central banks for 200+ currencies.
+  why_it_matters: Developers can self-host a free, zero-API-key exchange rate service or use the public instance to power financial features without vendor lock-in.
+  mental_damage: We now have MCP adapters for currency APIs, meaning your coding agent can panic about the euro-to-dollar rate while it hallucinates your LINQ queries.
   tags:
-    - api
-    - currency
+    - currency-api
     - self-hosted
-    - ruby
-    - docker
-  confidence: high
+    - mcp
+    - financial-data
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a general-purpose currency data API with no AI functionality, developer-agent integration, or AI infrastructure angle required for this catalog.
+  status: included
+  reason: It is listed in awesome-mcp-servers as a community server exposing currency data via MCP, fitting the Domain Servers section.
   evidence:
-    - Repo description identifies it strictly as a 'Currency data API' with no mention of AI.
-    - README focuses on Docker deployment, SQLite backends, and central bank API keys, lacking any AI, LLM, or agent context.
-    - Appears in awesome-mcp-servers lists, but the repository itself is the API source code, not an MCP server implementation.
+    - Listed in awesome-mcp-servers under 'Community Servers' for currency exchange data.
+    - Repo description identifies it as a 'Currency data API' with 1456 stars.
+    - Active repository with latest push in 2026 and a public hosted API at frankfurter.dev.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1450) exceeded threshold (150)
+  reason: Stars (1456) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.499Z"
+    updated_at: "2026-05-06T22:44:59.894Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:00.698Z"
+    updated_at: "2026-05-06T23:09:41.275Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

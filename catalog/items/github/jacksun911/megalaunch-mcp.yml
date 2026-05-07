@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jacksun911__megalaunch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,50 @@ metadata:
       - pump-fun
       - solana
       - token-launch
-    last_checked_at: "2026-05-05T21:02:49.153Z"
+    last_checked_at: "2026-05-06T22:44:28.986Z"
     readme:
-      fetched_at: "2026-05-05T21:02:49.153Z"
+      fetched_at: "2026-05-06T22:44:28.986Z"
       bytes: 2627
 insights:
-  summary: An MCP server that exposes MegaLaunch's AI-powered meme token launch API for Solana and pump.fun to AI tools like Claude Desktop, Cursor, and Windsurf.
-  why_it_matters: Developers building AI-assisted workflows can let their coding agents query launch pricing, create token orders, and check statuses directly from the IDE.
-  mental_damage: "We have finally achieved the singularity: your coding agent can now rug-pull an entire chain without you ever leaving the editor."
+  summary: An MCP server that exposes MegaLaunch's AI-powered meme token launch service on Solana and pump.fun to AI tools like Claude Desktop and Cursor.
+  why_it_matters: It lets developers invoke token launches, check pricing, and manage orders through their existing AI coding assistants instead of switching to a separate web dashboard.
+  mental_damage: We have successfully abstracted cryptocurrency speculation into the same context window where you are trying to fix a failing unit test.
   tags:
     - mcp
     - solana
     - meme-coin
-    - pump-fun
     - token-launch
+    - fintech
   confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation, which fits cleanly into the MCP Servers and Tooling category.
+  reason: MCP is the product identity, acting as a domain-specific server to connect AI assistants to a token launch service on Solana.
   evidence:
     - Repo description explicitly states 'MCP server for MegaLaunch'.
-    - README documents tools like megalaunch_create_order and shows config for Claude Desktop, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming MCP ecosystem relevance.
+    - README details integration with Claude Desktop, Cursor, Windsurf, and Claude Code via MCP configuration.
+    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:49.153Z"
+    updated_at: "2026-05-06T22:44:28.986Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:12.674Z"
+    updated_at: "2026-05-06T23:03:08.980Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

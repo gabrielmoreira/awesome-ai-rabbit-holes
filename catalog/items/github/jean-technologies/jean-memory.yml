@@ -1,13 +1,13 @@
 id: github__jean-technologies__jean-memory
 kind: github-repo
-name: Jean Memory
+name: jean-memory
 canonical_url: https://github.com/jean-technologies/jean-memory
 identity:
   github_repo: jean-technologies/jean-memory
 provenance:
   discoveries:
-    - id: discovery__github__jonathan-politzki__your-memory__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__jean-technologies__jean-memory__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,53 +32,50 @@ metadata:
     description: next-generation AI memory infrastructure (powered by mem0 and graphiti)
     homepage: https://jeanmemory.com
     topics: []
-    last_checked_at: "2026-05-05T21:02:58.402Z"
+    last_checked_at: "2026-05-06T22:44:33.243Z"
     readme:
-      fetched_at: "2026-05-05T21:02:58.402Z"
+      fetched_at: "2026-05-06T22:44:33.243Z"
       bytes: 6644
 insights:
-  summary: Next-generation AI memory infrastructure providing persistent, context-aware memory layers and SDKs for integrating user-specific knowledge graphs into applications and agents.
-  why_it_matters: It allows developers to move beyond stateless LLM calls by adding a sophisticated memory layer that understands user context across different applications with minimal integration effort.
-  mental_damage: We’ve successfully abstracted away the burden of remembering conversations into a dedicated infrastructure layer, ensuring your AI can now misinterpret your past self with persistent, graph-powered confidence.
+  summary: Jean Memory is a developer-facing memory infrastructure product that provides SDKs and an orchestration layer for adding persistent, context-aware memory to AI applications and agents.
+  why_it_matters: It offers drop-in React, Python, and Node.js SDKs that handle context retrieval and memory storage, removing the need to build custom RAG or memory pipelines from scratch.
+  mental_damage: Another layer of abstraction promising that your agent will finally remember who you are, provided you’re comfortable wiring yet another memory service into your already unstable stack.
   tags:
-    - context-engineering
     - memory
-    - python
-    - react
+    - context
     - sdk
+    - self-hosted
+    - rag
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a set of importable SDKs and APIs for developers to embed memory behavior into their own code, fitting the AI Frameworks and SDKs category.
+  reason: The core product identity is a memory and context orchestration system designed to feed the right information to LLMs, which aligns directly with Prompt & Context Engineering.
   evidence:
-    - README provides explicit SDK installation and code snippets for Python, Node.js, and React (e.g., `pip install jeanmemory`, `npm install @jeanmemory/react`).
-    - Project pitches itself as a 'persistent and intelligent memory layer' and 'headless SDKs' for backend agents and frontends.
-    - Repo description confirms it is 'AI memory infrastructure' with recent activity (pushed 2026-01-06).
-    - README explicitly provides SDK integration examples for React, Python, and Node.js to add memory to apps.
-    - Description labels it as 'AI memory infrastructure' powered by mem0 and graphiti.
-    - Architecture described as a two-layer system with an orchestration engine and core API tools for developers.
+    - Repo description explicitly calls it 'next-generation AI memory infrastructure'.
+    - README states it 'moves beyond simple information retrieval to sophisticated context engineering'.
+    - Provides headless SDKs for Python and Node.js specifically for context retrieval before LLM calls.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (169) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:04.877Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:58.402Z"
+    updated_at: "2026-05-06T22:44:33.243Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:02.070Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

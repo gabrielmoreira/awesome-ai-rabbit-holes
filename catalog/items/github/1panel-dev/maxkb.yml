@@ -1,13 +1,13 @@
 id: github__1panel-dev__maxkb
 kind: github-repo
-name: MaxKB
+name: maxkb
 canonical_url: https://github.com/1panel-dev/maxkb
 identity:
   github_repo: 1panel-dev/maxkb
 provenance:
   discoveries:
     - id: discovery__github__1panel-dev__maxkb__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20876
-    forks: 2814
+    stars: 20884
+    forks: 2818
     license: GPL-3.0
     archived: false
     created_at: "2023-09-14T02:05:12Z"
-    pushed_at: "2026-04-30T06:39:05Z"
+    pushed_at: "2026-05-06T08:36:42Z"
     description: 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
     homepage: https://maxkb.cn
     topics:
@@ -46,50 +46,50 @@ metadata:
       - pgvector
       - qwen3
       - rag
-    last_checked_at: "2026-05-05T21:00:44.186Z"
+    last_checked_at: "2026-05-06T22:12:20.352Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.186Z"
+      fetched_at: "2026-05-06T22:12:20.352Z"
       bytes: 4896
 insights:
-  summary: MaxKB is an open-source platform for building enterprise-grade AI agents with integrated RAG pipelines, workflow orchestration, and MCP tool-use capabilities.
-  why_it_matters: It provides developers with a ready-to-deploy stack to build and integrate knowledge-backed AI agents into business systems without writing custom glue code.
-  mental_damage: Yet another open-source agent platform promising to turn your static documentation into a hallucination-prone chatbot before leadership realizes the RAG pipeline needs constant feeding.
+  summary: MaxKB is an open-source, self-hosted platform for building enterprise-grade AI agents with integrated RAG pipelines, workflow orchestration, and MCP tool-use capabilities.
+  why_it_matters: It provides developers with a ready-to-deploy, model-agnostic control plane to spin up internal knowledge bases and agentic workflows without building the plumbing from scratch.
+  mental_damage: At 20k stars, it tempts you to self-host yet another 'enterprise-grade' Django app just to answer questions your team could have found in a Notion doc.
   tags:
     - agents
-    - enterprise
-    - mcp
-    - open-source
     - rag
+    - self-hosted
+    - mcp
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: MaxKB is a user-facing platform for orchestrating RAG pipelines, workflows, and MCP tool-use to build enterprise agents, fitting the agent orchestration category rather than a coding assistant.
+  reason: The product is a self-hosted control plane and workbench for orchestrating agents, RAG pipelines, and MCP tools, aligning with the Agent Orchestration category's definition of a runtime platform over a code-first library.
   evidence:
-    - "Repo description: 'open-source platform for building enterprise-grade agents' with RAG and MCP tool-use capabilities."
-    - "README: 'Equipped with a powerful workflow engine, function library and MCP tool-use, enabling the orchestration of AI processes.'"
-    - Scenarios are intelligent customer service and internal knowledge bases, not direct repo or IDE coding assistance.
+    - Repo description explicitly calls it an 'open-source platform for building enterprise-grade agents'.
+    - README highlights a 'powerful workflow engine' and 'MCP tool-use' for orchestrating AI processes.
+    - Stack includes a Django backend and Vue.js frontend, confirming it is an operated platform rather than a code-first SDK.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (20876) exceeded threshold (150)
+  reason: Stars (20884) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:57.180Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.186Z"
+    updated_at: "2026-05-06T22:12:20.352Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:38.612Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

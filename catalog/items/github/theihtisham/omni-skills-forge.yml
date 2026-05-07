@@ -1,13 +1,13 @@
 id: github__theihtisham__omni-skills-forge
 kind: github-repo
-name: Omni Skills Forge
+name: omni-skills-forge
 canonical_url: https://github.com/theihtisham/omni-skills-forge
 identity:
   github_repo: theihtisham/omni-skills-forge
 provenance:
   discoveries:
     - id: discovery__github__theihtisham__omni-skills-forge__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,49 +23,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 13
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-04-14T09:06:29Z"
+    pushed_at: "2026-04-27T05:09:15Z"
+    description: ⚡ Universal skill & slash-command manager for AI coding assistants — build, share, install community skills. Works with Claude Code. npm install omni-skills-forge
+    homepage: https://www.npmjs.com/package/omni-skills-forge
+    topics:
+      - agent-skills
+      - ai-agents
+      - ai-coding
+      - ai-pair-programming
+      - ai-skills
+      - aider
+      - anthropic
+      - claude
+      - claude-code
+      - claude-skills
+      - cline
+      - cursor
+      - developer-tools
+      - github-copilot
+      - npm
+      - openai-codex
+      - prompt-engineering
+      - prompt-library
+      - slash-commands
+      - windsurf
+    last_checked_at: "2026-05-06T22:46:46.830Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:46.830Z"
+      bytes: 19508
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline.
+  why_it_matters: It lets developers inject expert-level domain knowledge and patterns into their AI assistants instantly, moving them beyond generic coding advice without manual prompt engineering.
+  mental_damage: We have now reached the point where we need a package manager for the personalities we inject into our package managers for the AI that writes our code.
+  tags:
+    - skills
+    - cli
+    - prompt-engineering
+    - ai-assistants
+    - slash-commands
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The primary artifact is a large, reusable skill pack and the CLI to manage it, fitting the Agent Skills category perfectly.
+  evidence:
+    - Repo description explicitly states it is a 'Universal skill & slash-command manager for AI coding assistants'.
+    - README claims '50,000+ Expert Skills' and focuses on installing/managing these skill files across tools.
+    - Topics include 'agent-skills', 'prompt-library', and 'claude-skills', aligning with the skills category.
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T20:15:09.318Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for theihtisham/omni-skills-forge
+    status: done
+    updated_at: "2026-05-06T22:46:46.831Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:42.436Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

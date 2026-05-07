@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__8b-is__smart-tree__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-06-19T05:50:03Z"
-    pushed_at: "2026-04-30T20:08:34Z"
+    pushed_at: "2026-05-06T14:55:18Z"
     description: "Smart Tree: not just a tree, a philosophy. A context-aware, AI-crafted replacement for 20+ tools with MEM8 quantum compression, semantic search, AST-smart editing, and partnership memory. Crafted with care by human + AI—accept no knock-offs."
     homepage: https://s.8b.is/q/3PNnlY6jT
     topics:
@@ -51,50 +51,50 @@ metadata:
       - quantum-algorithms
       - rust
       - tree
-    last_checked_at: "2026-05-05T21:00:44.960Z"
+    last_checked_at: "2026-05-06T22:12:21.235Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.960Z"
-      bytes: 31123
+      fetched_at: "2026-05-06T22:12:21.235Z"
+      bytes: 31080
 insights:
-  summary: A blazingly fast, Rust-based directory visualization tool that provides 30+ MCP tools for AI assistants to understand, search, and compress codebase context.
-  why_it_matters: It gives coding agents a high-speed way to map project structure and persist memory, aiming to slash token usage while making AI assistants appear more competent at codebase navigation.
-  mental_damage: Now your AI assistant can have an existential crisis about your directory structure 24 times faster than before, while scanning for imaginary supply chain attacks.
+  summary: A blazingly fast, Rust-based directory visualization and MCP server providing AI-friendly context compression, semantic search, and persistent memory tools for coding assistants.
+  why_it_matters: It drastically reduces token usage for AI assistants by compressing codebase context and offering 30+ MCP tools for filesystem understanding and memory anchoring.
+  mental_damage: Now your file tree isn't just a list of directories, it's a 'cyber-botanical dashboard' with 'MEM8 quantum compression' and a philosophical stance on your filesystem.
   tags:
     - mcp
-    - context-engineering
+    - context-compression
     - cli
     - rust
-    - developer-tooling
+    - memory
   confidence: high
 curation:
   status: included
-  reason: The project is primarily an MCP server implementation with 30+ tools designed to give AI assistants structured access to filesystem context, making it a clear fit for the MCP Servers and Tooling category.
+  reason: The core novelty is context-shaping infrastructure—specifically AI-friendly directory visualization, token reduction via compression, and persistent memory—rather than acting as a primary coding agent or a simple host integration.
   evidence:
-    - README explicitly states '30+ MCP tools' and 'MCP Server - Model Context Protocol (stdio)' as core features
-    - Listed in awesome-mcp-servers under 'File Systems' section
-    - Topics include 'mcp' and the tool provides MCP endpoints for AI assistants to navigate codebases
+    - README claims '80% Token Reduction' and 'Persistent Memory' as core features for AI assistants.
+    - Topics include context, compression, mcp, and claude-code, aligning with context engineering tooling.
+    - Description explicitly mentions 'context-aware' and 'quantum compression' as primary features over standard tree utilities.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (242) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.960Z"
+    updated_at: "2026-05-06T22:12:21.235Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:06.431Z"
+    updated_at: "2026-05-06T22:17:50.299Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

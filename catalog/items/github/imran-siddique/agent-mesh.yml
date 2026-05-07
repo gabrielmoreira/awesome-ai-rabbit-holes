@@ -1,13 +1,13 @@
 id: github__imran-siddique__agent-mesh
 kind: github-repo
-name: AgentMesh
+name: agent-mesh
 canonical_url: https://github.com/imran-siddique/agent-mesh
 identity:
   github_repo: imran-siddique/agent-mesh
 provenance:
   discoveries:
     - id: discovery__github__imran-siddique__agent-mesh__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -51,27 +51,28 @@ metadata:
       - trust-framework
       - verifiable-credentials
       - zero-trust
-    last_checked_at: "2026-05-05T21:02:42.427Z"
+    last_checked_at: "2026-05-06T22:44:22.819Z"
     readme:
-      fetched_at: "2026-05-05T21:02:42.427Z"
+      fetched_at: "2026-05-06T22:44:22.819Z"
       bytes: 29596
 insights:
-  summary: A trust, identity, and governance layer for AI agent systems that provides decentralized identity, zero-trust networking, and MCP security features.
-  why_it_matters: It gives developers a standardized way to handle identity, trust, and compliance for multi-agent systems without building custom security infrastructure.
-  mental_damage: We have finally built SSL for AI agents, which means we can now spend our afternoons debugging mutual TLS handshakes instead of the agents themselves.
+  summary: AgentMesh is a deprecated, archived Python and SDK-based trust, identity, and governance layer for multi-agent systems that has moved to microsoft/agent-governance-toolkit.
+  why_it_matters: It provided infrastructure for agent identity, trust, and governance (including MCP security and OWASP compliance) that integrated with frameworks like LlamaIndex, LangGraph, and Dify.
+  mental_damage: We have successfully built the SSL for AI agents and then archived it, proving that even decentralized trust frameworks need a maintenance budget.
   tags:
     - agent-governance
-    - mcp-security
     - multi-agent
-    - zero-trust
+    - security
+    - mcp
+    - deprecated
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and deprecated, with development moved to microsoft/agent-governance-toolkit, making it unsuitable for inclusion as an active catalog entry.
+  reason: The repository is explicitly archived and deprecated with a redirect to microsoft/agent-governance-toolkit, making it inactive and unsuitable for inclusion in a curated catalog.
   evidence:
     - Repo description states '[DEPRECATED] Moved to microsoft/agent-governance-toolkit'
-    - Archived flag is true
-    - Only 18 stars with development redirected to the Microsoft fork
+    - "Archived: yes"
+    - Created at 2026-02-01 but archived shortly after, indicating a very short lifespan
 placement:
   primary_category: null
   section: null
@@ -79,21 +80,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:43.613Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:42.427Z"
+    updated_at: "2026-05-06T22:44:22.819Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:54.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

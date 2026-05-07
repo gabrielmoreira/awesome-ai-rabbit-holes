@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mbrummerstedt__powerbi-analyst-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: This repo is a local mcp server made for connecting Power BI to your llm for analysis purposes
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:33.014Z"
+    last_checked_at: "2026-05-06T22:45:11.639Z"
     readme:
-      fetched_at: "2026-05-05T21:03:33.014Z"
+      fetched_at: "2026-05-06T22:45:11.639Z"
       bytes: 16663
 insights:
-  summary: A local MCP server that connects LLMs like Claude to Power BI semantic models, allowing AI agents to run DAX queries and analyze data directly.
-  why_it_matters: It allows developers and analysts to delegate complex, multi-step data exploration to an agent that can query large datasets and synthesize findings without manual DAX translation.
-  mental_damage: Finally, a way to let an LLM hallucinate insights about your margin decline after crashing its context window with 73,000 rows of CSV data.
+  summary: A local MCP server that connects LLM clients like Claude to Power BI semantic models, enabling natural language data analysis via DAX queries with automatic handling of large result sets.
+  why_it_matters: It lets developers and analysts delegate multi-step Power BI data exploration to an LLM agent, removing the manual translation layer between data questions and DAX execution.
+  mental_damage: We have successfully reached the point where your chatbot now needs a dedicated server just to politely interrogate your business dashboards without crashing its own context window.
   tags:
     - mcp
     - power-bi
     - data-analysis
     - local-first
-  confidence: medium
+    - dax
+  confidence: high
 curation:
   status: included
-  reason: The project is a distinct MCP server implementation designed to give AI clients query access to Power BI data.
+  reason: The product's primary identity is an MCP server that gives LLM clients read-only access to Power BI, fitting cleanly into the MCP Domain Servers section.
   evidence:
-    - Repo description states it is 'a local mcp server made for connecting Power BI to your llm'.
-    - README confirms it is a Python package (powerbi-analyst-mcp) acting as an MCP server with tools like execute_dax.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+    - Repo description explicitly states it is 'a local mcp server made for connecting Power BI to your llm'.
+    - README positions it as an MCP server alternative to Microsoft's official servers, with direct Power BI API integration.
+    - Listed in awesome-mcp-servers under 'Data Platforms', confirming its ecosystem identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:33.014Z"
+    updated_at: "2026-05-06T22:45:11.639Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:24.125Z"
+    updated_at: "2026-05-06T23:12:36.594Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lutzroeder__netron__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 32839
-    forks: 3111
+    stars: 32844
+    forks: 3112
     license: MIT
     archived: false
     created_at: "2010-12-26T12:53:43Z"
-    pushed_at: "2026-05-05T18:54:03Z"
+    pushed_at: "2026-05-06T16:17:20Z"
     description: Visualizer for neural network, deep learning and machine learning models
     homepage: https://netron.app
     topics:
@@ -49,14 +49,14 @@ metadata:
       - tensorflow
       - tensorflow-lite
       - visualizer
-    last_checked_at: "2026-05-05T21:03:26.077Z"
+    last_checked_at: "2026-05-06T22:45:05.252Z"
     readme:
-      fetched_at: "2026-05-05T21:03:26.077Z"
+      fetched_at: "2026-05-06T22:45:05.252Z"
       bytes: 3348
 insights:
-  summary: Netron is a visualizer for neural network, deep learning, and machine learning models supporting formats like ONNX, PyTorch, TensorFlow Lite, and Core ML.
-  why_it_matters: It allows developers to inspect, debug, and understand complex model architectures and weights without needing to write custom scripts or load models into memory.
-  mental_damage: You now have a beautiful GUI to confirm that your 4GB model file is mostly just layer names you forgot you renamed three experiments ago.
+  summary: Netron is a cross-platform visualizer for neural network, deep learning, and machine learning models supporting formats like ONNX, PyTorch, TensorFlow Lite, Core ML, and Keras.
+  why_it_matters: It lets developers inspect and understand model architectures visually without needing to write framework-specific code, streamlining debugging and model validation workflows.
+  mental_damage: You now have 32,000 stars worth of justification to spend three hours inspecting a 400-layer neural architecture instead of actually shipping code.
   tags:
     - model-visualizer
     - onnx
@@ -66,33 +66,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: While a high-quality tool, Netron is a model visualization utility for ML engineers rather than a developer-facing AI tool, agent, or infrastructure component for building software.
+  reason: Netron is a model architecture visualization utility for data scientists and ML engineers, with no AI coding assistance, agent orchestration, or developer workflow integration.
   evidence:
-    - Repo description defines it strictly as a 'Visualizer for neural network, deep learning and machine learning models'.
-    - README focuses entirely on viewing model file formats (ONNX, TF, PyTorch) rather than code generation, agent workflows, or developer infrastructure.
-    - Appears in Awesome-LLMOps under 'Training > Visualization', which is outside the scope of developer tooling and coding workflows.
+    - Repo description explicitly defines it as a 'Visualizer for neural network, deep learning and machine learning models'.
+    - README focuses entirely on opening and viewing model files from ONNX, PyTorch, TensorFlow, etc., with no coding agent or developer tooling features.
+    - Appears in Awesome-LLMOps under 'Training > Visualization', which is ML ops infrastructure, not developer-facing AI coding tools.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (32839) exceeded threshold (150)
+  reason: Stars (32844) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:26.077Z"
+    updated_at: "2026-05-06T22:45:05.252Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:00.331Z"
+    updated_at: "2026-05-06T23:10:56.174Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

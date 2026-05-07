@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lincolnburrows2017__filesystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,50 +38,49 @@ metadata:
       - filesystem
       - mcp
       - python
-    last_checked_at: "2026-05-05T21:03:20.498Z"
+    last_checked_at: "2026-05-06T22:44:59.658Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.498Z"
+      fetched_at: "2026-05-06T22:44:59.658Z"
       bytes: 3143
 insights:
-  summary: A Python-based Model Context Protocol server that exposes local file system operations (read, write, delete, search) to AI assistants like Claude and Cursor.
-  why_it_matters: It gives coding agents safe, scoped access to your project's files so they can read context and make edits without leaving the chat interface.
-  mental_damage: Another day, another MCP server, because apparently we needed a standardized protocol just to let the robot open a folder.
+  summary: A Python-based Model Context Protocol (MCP) server that provides local file system operations like read, write, and search for AI assistants such as Claude and Cursor.
+  why_it_matters: It allows developers to grant AI coding assistants direct, controlled access to their project's file system for automated editing and management.
+  mental_damage: We have successfully abstracted file I/O into a protocol server so our AI can recursively delete the very directory it is running in with machine-readable precision.
   tags:
     - mcp
     - filesystem
     - python
-    - claude
-    - cursor
-  confidence: medium
+    - local-tooling
+  confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server implementation for file system operations, fitting the 'MCP Servers & Tooling' category.
   evidence:
     - "Repo description explicitly states: 'Model Context Protocol server for file system operations'."
-    - README confirms it enables 'AI assistants like Claude, Cursor, and others to read, write, and manage files'.
-    - Listed in the awesome-mcp-servers list under 'Server Implementations > File Systems'.
+    - README details specific MCP tools like read_file, write_file, and list_directory for Claude and Cursor.
+    - Found in awesome-mcp-servers under the 'File Systems' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.498Z"
+    updated_at: "2026-05-06T22:44:59.658Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:57.472Z"
+    updated_at: "2026-05-06T23:09:37.997Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

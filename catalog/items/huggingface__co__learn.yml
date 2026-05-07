@@ -1,0 +1,76 @@
+id: huggingface__co__learn
+kind: website
+name: learn
+canonical_url: https://huggingface.co/learn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__learn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: HuggingFace Learn
+        extracted_url: https://huggingface.co/learn
+        surrounding_text: 48. [HuggingFace Learn](https://huggingface.co/learn)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Hugging Face's official learning hub offering free, structured courses on LLMs, context engineering for code agents, agent building, and core ML topics using the HF ecosystem.
+  why_it_matters: It provides developers with the canonical, hands-on curriculum needed to understand and implement everything from context engineering to agent deployment using industry-standard tools.
+  mental_damage: Another opportunity to add 'Completed Hugging Face Course' to your LinkedIn while your production code still relies on a 4,000-line prompt and a prayer.
+  tags:
+    - education
+    - agents
+    - context-engineering
+    - llm-course
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource hub and course platform, not a standalone developer tool, agent, framework, or infrastructure product.
+  evidence:
+    - Scraped site context identifies the page as 'Hugging Face - Learn' featuring multiple 'Courses' (LLM, Context, Agents, etc.).
+    - Source-list context places it in a '课程 Course' (Course) section of an awesome list, not a tooling section.
+    - The primary page excerpt lists educational content like 'Learn context engineering for code agents' rather than distributable software.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:09.266Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

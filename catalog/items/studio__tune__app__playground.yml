@@ -1,12 +1,12 @@
 id: studio__tune__app__playground
 kind: website
-name: Tune Studio
+name: playground
 canonical_url: https://studio.tune.app/playground
 identity: {}
 provenance:
   discoveries:
     - id: discovery__studio__tune__app__playground__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,20 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based playground for testing and tuning AI models, linked from a collection of local AI tools.
-  why_it_matters: Developers evaluating local or open-source models need a quick, hosted surface to test prompts and parameters without setting up a full local stack.
-  mental_damage: Yet another place to tweak temperature sliders while telling yourself you are doing architecture work instead of shipping code.
+  summary: A web-based playground for testing and tuning AI models through the Tune Studio interface.
+  why_it_matters: It provides developers with a hosted environment to experiment with model behavior and prompt configurations without local setup.
+  mental_damage: Yet another browser tab where you'll endlessly tweak temperature sliders while convincing yourself this is 'critical R&D work'.
   tags:
-    - local-ai
-    - model-tracking
     - playground
-  confidence: medium
+    - model-tuning
+    - web-interface
+  confidence: high
 curation:
   status: excluded
-  reason: The project is a generic model testing playground with no evidence of a developer-tooling workflow, IDE integration, or local-AI runtime; it surfaces only as a link in a broader awesome list.
+  reason: This is a hosted SaaS playground for model tuning and experimentation, not a developer-facing tool for coding, agents, or local AI workflows.
   evidence:
-    - No repo description, README, or scraped content provided to confirm developer-facing features beyond a generic playground.
-    - Seen only as a link in awesome-local-ai, which curates a broad set of local AI tools and solutions, not exclusively developer workflow tooling.
+    - URL points to studio.tune.app/playground, indicating a hosted web playground, not a developer tool or local runtime.
+    - Listed in awesome-local-ai under 'Developer tools', but the product itself is a cloud playground, not local AI infrastructure.
+    - No repo description, README, or other signals indicating it serves as a coding agent, framework, extension, or local execution environment.
 placement:
   primary_category: null
   section: null
@@ -55,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:22.258Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:08.671Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

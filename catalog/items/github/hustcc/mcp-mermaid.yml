@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hustcc__mcp-mermaid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hustcc/mcp-mermaid](https://github.com/hustcc/mcp-mermaid) 📇 🏠 - Generate [mermaid](https://mermaid.js.org/) diagram and chart with AI MCP dynamically."
         confidence: high
     - id: discovery__github__hustcc__mcp-mermaid__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -52,49 +52,49 @@ metadata:
       - mcp-server
       - mermaid
       - mermaidjs
-    last_checked_at: "2026-05-05T21:02:38.421Z"
+    last_checked_at: "2026-05-06T22:44:19.731Z"
     readme:
-      fetched_at: "2026-05-05T21:02:38.421Z"
+      fetched_at: "2026-05-06T22:44:19.731Z"
       bytes: 5649
 insights:
-  summary: An MCP server that lets AI models generate, validate, and export Mermaid diagrams and charts in formats like SVG, PNG, and base64.
-  why_it_matters: It allows AI coding assistants and agents to dynamically create architecture diagrams, flowcharts, and data visualizations directly within IDEs and chat workflows.
-  mental_damage: We have successfully automated the production of diagrams that will be inevitably ignored by every stakeholder in the code review.
+  summary: An MCP server that lets AI assistants generate Mermaid diagrams and charts, supporting multiple output formats and transport protocols.
+  why_it_matters: It gives coding agents a standardized way to visualize architecture, flows, and data by dynamically creating diagrams instead of guessing ASCII art.
+  mental_damage: Another indispensable MCP server to add to your config, because apparently your agent can't be trusted to sketch a flowchart without a dedicated protocol server and a 540-star ecosystem.
   tags:
     - mcp
     - mermaid
     - diagrams
-    - ai-tooling
+    - visualization
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server designed to extend AI tools with diagram-generation capabilities, fitting the MCP category precisely.
+  reason: This is a canonical MCP server that adds diagram-generation capabilities to MCP-compatible clients, fitting cleanly as a domain-specific server.
   evidence:
-    - Repo description explicitly states 'Generate mermaid diagram and chart with AI MCP dynamically.'
-    - README details integration with Claude, VSCode, Cline, and Cherry Studio as an MCP server.
-    - Listed in awesome-mcp-servers under 'Server Implementations' and 'Community Servers'.
+    - Repo description states it is for generating Mermaid diagrams with AI MCP.
+    - README shows it is an MCP server with stdio, SSE, and Streamable transport options for Claude, VSCode, Cline, etc.
+    - Listed in awesome-mcp-servers under Community Servers and Server Implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (540) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:38.421Z"
+    updated_at: "2026-05-06T22:44:19.731Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:54.099Z"
+    updated_at: "2026-05-06T23:01:17.072Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

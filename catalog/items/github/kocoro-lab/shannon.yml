@@ -1,13 +1,13 @@
 id: github__kocoro-lab__shannon
 kind: github-repo
-name: Shannon
+name: shannon
 canonical_url: https://github.com/kocoro-lab/shannon
 identity:
   github_repo: kocoro-lab/shannon
 provenance:
   discoveries:
     - id: discovery__github__kocoro-lab__shannon__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1813
-    forks: 287
+    stars: 1823
+    forks: 288
     license: MIT
     archived: false
     created_at: "2025-08-29T10:53:48Z"
@@ -36,50 +36,50 @@ metadata:
       - agent
       - ai
       - multi-agent-systems
-    last_checked_at: "2026-05-05T21:03:07.407Z"
+    last_checked_at: "2026-05-06T22:44:44.526Z"
     readme:
-      fetched_at: "2026-05-05T21:03:07.407Z"
+      fetched_at: "2026-05-06T22:44:44.526Z"
       bytes: 14773
 insights:
-  summary: Shannon is a Go- and Rust-based multi-agent orchestration framework with Temporal workflows, WASI sandboxing, token budgeting, and an included desktop app for building and observing production AI agents.
-  why_it_matters: It gives developers a self-hosted, observable runtime for running multi-agent systems with cost controls, human approval gates, and execution replay instead of crossing fingers and hoping the swarm converges.
-  mental_damage: You now have a full Temporal + Rust + Go + Python + Tauri stack to debug so your agents can autonomously spend your API budget with enterprise-grade confidence.
+  summary: Shannon is a production-oriented multi-agent orchestration framework with a Temporal-backed runtime, WASI sandboxing, token budget controls, and a desktop app for visualizing agent execution.
+  why_it_matters: It gives developers a self-hosted, multi-strategy orchestration platform with built-in cost controls, time-travel debugging, and observability instead of gluing together fragile single-agent scripts.
+  mental_damage: Yet another opportunity to spend three days architecting a multi-agent swarm so you can automate a task that a single grep would have finished by lunch.
   tags:
-    - go
     - multi-agent
-    - observability
     - orchestration
     - self-hosted
+    - temporal
+    - go
   confidence: high
 curation:
   status: included
-  reason: This is primarily a code-first framework and SDK that developers import and deploy to build multi-agent systems, not a hosted control plane or end-user orchestration UI.
+  reason: The product is an operated runtime platform and control plane for coordinating multiple agents with workflows, budgets, and observability, not a code-first SDK or a primary coding assistant.
   evidence:
     - "Repo description: 'A production-oriented multi-agent orchestration framework.'"
-    - Architecture is importable services (Gateway, Orchestrator, Agent Core, LLM Service) with a Python SDK and OpenAI-compatible API.
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
+    - README positions it as a runtime with Temporal workflows, orchestrator service, agent core, and desktop execution viewer.
+    - Included in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1813) exceeded threshold (150)
+  reason: Stars (1823) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:10.174Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:07.407Z"
+    updated_at: "2026-05-06T22:44:44.526Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:30.735Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

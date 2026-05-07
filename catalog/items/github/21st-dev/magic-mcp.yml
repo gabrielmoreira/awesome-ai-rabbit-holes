@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__21st-dev__magic-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp) - Create crafted UI components inspired by the best 21st.dev design engineers."
         confidence: high
     - id: discovery__github__21st-dev__magic-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[21st.dev Magic](https://github.com/21st-dev/magic-mcp)** - Create crafted UI components inspired by the best 21st.dev design engineers."
         confidence: high
     - id: discovery__github__21st-dev__magic-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,7 +54,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4837
+    stars: 4838
     forks: 336
     license: null
     archived: false
@@ -63,49 +63,50 @@ metadata:
     description: It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
     homepage: https://21st.dev/magic
     topics: []
-    last_checked_at: "2026-05-05T21:00:44.286Z"
+    last_checked_at: "2026-05-06T22:12:20.570Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.286Z"
+      fetched_at: "2026-05-06T22:12:20.570Z"
       bytes: 7999
 insights:
-  summary: An MCP server that integrates with Cursor, Windsurf, and VS Code/Cline to generate modern UI components from natural language descriptions inside the IDE.
-  why_it_matters: It lets frontend developers prototype and insert polished UI components directly into their codebase without leaving the editor or manually browsing component libraries.
-  mental_damage: We have now successfully abstracted away the one part of frontend development that still felt like tangible craftsmanship, replacing it with a slash command that turns English into TypeScript at 3 AM.
+  summary: An MCP server that integrates 21st.dev's AI-driven UI component generation directly into Cursor, Windsurf, VSCode, and Cline via natural language commands like `/ui`.
+  why_it_matters: Developers can describe and scaffold modern UI components using 21st.dev's component library directly inside their existing AI-assisted editor workflows without switching contexts.
+  mental_damage: Another layer in the stacking doll of AI tools where you now need an MCP server to let your IDE's AI agent talk to a UI library's AI so you can describe a navbar instead of writing it.
   tags:
     - mcp
     - ui-generation
     - ide-integration
     - frontend
+    - component-library
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation that integrates with IDEs to provide UI generation capabilities, fitting the MCP Servers and Tooling category perfectly.
+  reason: The product's core identity is an MCP server that gives editors access to 21st.dev's UI generation capabilities, fitting cleanly into MCP infrastructure rather than being a standalone coding agent or generic extension.
   evidence:
-    - Repo description states it is a 'Magic MCP server for working with your frontend'.
-    - README details installation via `npx @21st-dev/magic` configured as an `mcpServer` in IDE config files.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states '21st dev Magic MCP server for working with your frontend'.
+    - README shows installation via MCP configs for Cursor, Windsurf, Cline, and Claude, and usage via `/ui` commands in the agent chat.
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under developer tools and server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4837) exceeded threshold (150)
+  reason: Stars (4838) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.658Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.286Z"
+    updated_at: "2026-05-06T22:12:20.570Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:00.384Z"
+    updated_at: "2026-05-06T22:17:39.917Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

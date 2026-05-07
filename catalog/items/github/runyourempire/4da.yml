@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__runyourempire__4da__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,72 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-19T15:40:48Z"
+    pushed_at: "2026-05-06T14:51:54Z"
+    description: Privacy-first developer intelligence — surfaces what matters from the noise
+    homepage: https://4da.ai
+    topics:
+      - ai
+      - desktop-app
+      - developer-intelligence
+      - developer-tools
+      - local-first
+      - mcp
+      - ollama
+      - privacy
+      - react
+      - rust
+      - sqlite
+      - tauri
+      - typescript
+    last_checked_at: "2026-05-06T22:46:13.812Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:13.812Z"
+      bytes: 15457
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local-first desktop app and MCP server that scans a developer's codebase and dependency tree to filter developer news, advisories, and releases using on-device LLM verification.
+  why_it_matters: It aims to solve the problem of information overload by scoring ecosystem content against your actual stack and filtering out noise before it reaches your AI assistant.
+  mental_damage: We now need a local AI agent to filter the firehose of AI-generated content so our AI coding agents don't hallucinate based on the latest AI blog posts.
+  tags:
+    - local-ai
+    - mcp
+    - developer-intelligence
+    - privacy
+    - context-filtering
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: While it provides an MCP server for integration with assistants like Cursor and Claude Code, the primary product identity is a Rust/React/Tauri desktop application focused on local-first, private content filtering.
+  evidence:
+    - Repo description defines it as 'Privacy-first developer intelligence' built as a local desktop app (Tauri, Rust, SQLite).
+    - README emphasizes 'local-first and direct-to-provider' execution with Ollama support and zero remote telemetry.
+    - The MCP server is presented as a secondary integration ('Works standalone — no desktop app required') rather than the core product.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:13.812Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:30.966Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

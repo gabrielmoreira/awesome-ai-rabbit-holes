@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__pancakeswap-poolspy-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/pancakeswap-poolspy-mcp](https://github.com/kukapay/pancakeswap-poolspy-mcp) 🐍 ☁️ -  An MCP server that tracks newly created pools on Pancake Swap."
         confidence: high
     - id: discovery__github__kukapay__pancakeswap-poolspy-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,50 +48,50 @@ metadata:
     description: An MCP server that tracks newly created liquidity pools on Pancake Swap
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:12.071Z"
+    last_checked_at: "2026-05-06T22:44:49.965Z"
     readme:
-      fetched_at: "2026-05-05T21:03:12.071Z"
+      fetched_at: "2026-05-06T22:44:49.965Z"
       bytes: 3750
 insights:
-  summary: An MCP server that provides real-time tracking of newly created liquidity pools on PancakeSwap via The Graph API.
-  why_it_matters: It allows DeFi developers and analysts to query on-chain pool data directly through MCP-compatible clients like Claude Desktop instead of writing custom API integrations.
-  mental_damage: We have officially reached the point where we are building middleware to ask chatbots about liquidity pools that were created five minutes ago.
+  summary: An MCP server that tracks newly created liquidity pools on PancakeSwap and exposes real-time DeFi pool data to MCP-compatible clients like Claude Desktop.
+  why_it_matters: Developers building DeFi tools or trading bots can plug live PancakeSwap pool discovery directly into AI workflows without writing custom subgraph glue code.
+  mental_damage: Another niche MCP server appears, proving that no corner of Web3 is safe from being wrapped in a protocol that mostly benefits traders who talk to chatbots.
   tags:
     - mcp
     - defi
     - pancakeswap
     - finance
-    - the-graph
-  confidence: high
+    - backend
+  confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to extend client capabilities with DeFi data, fitting the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server for a specific domain (DeFi/PancakeSwap), fitting cleanly into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that tracks newly created liquidity pools on Pancake Swap'."
-    - README confirms it is a server tool (`get_new_pools_bsc`) configured for Claude Desktop via the standard `mcpServers` JSON block.
-    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section, confirming its identity as an MCP implementation.
+    - "Repo description: 'An MCP server that tracks newly created liquidity pools on Pancake Swap'"
+    - "README: exposes get_new_pools_bsc tool with The Graph API integration for MCP clients like Claude Desktop"
+    - Included in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:12.071Z"
+    updated_at: "2026-05-06T22:44:49.965Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:18.209Z"
+    updated_at: "2026-05-06T23:07:37.756Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__warhammer-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,33 +29,34 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-14T22:19:50Z"
-    pushed_at: "2026-05-05T06:42:26Z"
+    pushed_at: "2026-05-06T06:51:59Z"
     description: Warhammer 40K and Kill Team rules, stats, and game flow MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:28.174Z"
+    last_checked_at: "2026-05-06T22:44:08.876Z"
     readme:
-      fetched_at: "2026-05-05T21:02:28.174Z"
+      fetched_at: "2026-05-06T22:44:08.876Z"
       bytes: 7242
 insights:
-  summary: An MCP server that provides Warhammer 40K, Combat Patrol, and Kill Team rules, unit stats, stratagems, and math calculations to AI assistants.
-  why_it_matters: It demonstrates how to build a niche MCP tool that structures complex domain knowledge for LLM consumption, serving as a reference implementation for game-related context engineering.
-  mental_damage: We have finally reached the singularity where large language models need dedicated middleware just to remember the precise interaction between Devastating Wounds and a Leman Russ Battle Tank.
+  summary: An MCP server that exposes Warhammer 40K, Combat Patrol, and Kill Team rules, unit stats, stratagems, and wound math to AI assistants like Claude Desktop and Claude Code.
+  why_it_matters: It lets developers who play tabletop wargames query complex rules, calculate damage, and compare units directly through their coding assistant instead of context-switching to wikis or PDFs.
+  mental_damage: We have successfully turned a coding assistant into a rules lawyer, proving that no niche is too specific to avoid becoming an MCP server.
   tags:
     - mcp
-    - warhammer
     - gaming
-    - context-engineering
+    - warhammer
+    - claude
+    - rules
   confidence: high
 curation:
-  status: included
-  reason: The project is an MCP server implementation that exposes game logic and data tools to AI assistants, fitting the MCP Servers and Tooling category.
+  status: excluded
+  reason: Excluded because the tool is a domain-specific gaming server with no meaningful developer-tooling utility beyond being an MCP implementation.
   evidence:
-    - Repo description explicitly states 'Warhammer 40K and Kill Team rules, stats, and game flow MCP server'.
-    - README configures the tool for Claude Desktop and Claude Code via standard MCP server setup.
-    - Listed in awesome-mcp-servers under the 'Gaming' section.
+    - Repo description explicitly states it is a Warhammer 40K and Kill Team rules, stats, and game flow MCP server.
+    - All documented tools (lookup_unit, wound_calculator, game_flow) are designed for tabletop wargaming queries, not software development workflows.
+    - Appears in awesome-mcp-servers under Gaming, confirming its identity as a hobby/entertainment tool rather than a developer productivity tool.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +64,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:28.174Z"
+    updated_at: "2026-05-06T22:44:08.876Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:01.097Z"
+    updated_at: "2026-05-06T22:59:01.631Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

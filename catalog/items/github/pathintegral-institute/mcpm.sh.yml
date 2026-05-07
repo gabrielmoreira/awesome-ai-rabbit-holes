@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pathintegral-institute__mcpm.sh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 939
+    stars: 940
     forks: 99
     license: MIT
     archived: false
@@ -50,50 +50,50 @@ metadata:
       - stdio
       - tools
       - windsurf
-    last_checked_at: "2026-05-05T21:04:13.064Z"
+    last_checked_at: "2026-05-06T22:45:49.025Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.064Z"
+      fetched_at: "2026-05-06T22:45:49.025Z"
       bytes: 14676
 insights:
-  summary: A CLI tool and registry for discovering, installing, and managing MCP servers across multiple AI clients like Claude Desktop, Cursor, and Windsurf.
-  why_it_matters: It centralizes the fragmented setup of Model Context Protocol servers into a single global configuration, allowing developers to manage tools once and share them across different AI coding environments.
-  mental_damage: We have successfully invented package managers for the plugins that help our AI assistants talk to the tools that help us code, because apparently installing things once is the new frontier.
+  summary: A CLI package manager and registry for discovering, configuring, and routing MCP servers across multiple AI coding clients like Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: It centralizes the fragmented MCP ecosystem into a single global configuration, letting developers manage server profiles and client integrations without editing JSON files by hand.
+  mental_damage: Finally, a package manager for the protocol that manages the tools that manage the AI that manages to break your build—progress is a stack of indirection.
   tags:
     - mcp
     - cli
     - package-manager
     - registry
-    - devops
+    - router
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated CLI and registry for MCP infrastructure, fitting the mcp category's definition of servers, clients, registries, and tooling.
+  reason: "The product's identity is MCP infrastructure itself: a registry, CLI manager, and router for MCP servers, fitting squarely into MCP Servers & Tooling."
   evidence:
     - "Repo description explicitly states: 'CLI MCP package manager & registry for all platforms and all clients.'"
-    - README confirms it provides 'Server Discovery through a central registry' and 'Client Integration' for multiple MCP hosts.
-    - Topics include 'mcp', 'package-manager', and lists specific clients like 'cursor', 'windsurf', and 'cline'.
+    - README describes the tool as 'an open source CLI tool for managing MCP servers' with a 'central registry' and 'router' features.
+    - Topics include 'mcp', 'package-manager', and covers integrations for Claude, Cursor, Windsurf, and Cline.
 placement:
   primary_category: mcp
-  section: null
+  section: Registries & Discovery
 lifecycle:
   status: promotion_candidate
-  reason: Stars (939) exceeded threshold (150)
+  reason: Stars (940) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.064Z"
+    updated_at: "2026-05-06T22:45:49.025Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:58.151Z"
+    updated_at: "2026-05-06T23:21:00.808Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

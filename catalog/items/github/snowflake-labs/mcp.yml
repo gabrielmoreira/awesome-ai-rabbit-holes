@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__snowflake-labs__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 282
+    forks: 89
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-22T20:58:02Z"
+    pushed_at: "2026-04-13T17:11:57Z"
+    description: MCP Server for Snowflake including Cortex AI, object management, SQL orchestration, semantic view consumption, and more
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:28.526Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:28.526Z"
+      bytes: 29860
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Snowflake capabilities—including Cortex AI, object management, SQL orchestration, and semantic view querying—to MCP-compatible clients like Claude for Desktop or fast-agent.
+  why_it_matters: It lets developers query structured and unstructured Snowflake data, run LLM-generated SQL with permission guards, and manage objects directly from their MCP-enabled AI assistants.
+  mental_damage: Your database now has a dedicated AI protocol server, which means the next bottleneck in your stack is definitely going to be 'explaining semantic views to an agent that really wants to DROP TABLES.'
+  tags:
+    - mcp
+    - snowflake
+    - cortex-ai
+    - sql
+    - database-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server that gives MCP clients access to Snowflake and Cortex AI services, making MCP its primary identity and a clear fit for Domain Servers.
+  evidence:
+    - "Repo description explicitly states: 'MCP Server for Snowflake including Cortex AI, object management, SQL orchestration, semantic view consumption, and more'."
+    - "README states: 'This Snowflake MCP server provides tooling for Snowflake Cortex AI, object management, and SQL orchestration, bringing these capabilities to the MCP ecosystem.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Databases, confirming its role as an MCP ecosystem component.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (282) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:28.526Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:21.497Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

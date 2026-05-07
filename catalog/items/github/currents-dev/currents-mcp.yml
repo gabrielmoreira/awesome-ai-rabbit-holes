@@ -6,39 +6,8 @@ identity:
   github_repo: currents-dev/currents-mcp
 provenance:
   discoveries:
-    - id: discovery__currents__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💻 <a name="developer-tools"></a>Developer Tools
-        anchor_text: Currents
-        extracted_url: https://currents.dev
-        surrounding_text: "- [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) 🎖️ 📇 ☁️ Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
-        confidence: high
-    - id: discovery__currents__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Currents
-        extracted_url: https://currents.dev
-        surrounding_text: "- **[Currents](https://github.com/currents-dev/currents-mcp)** - Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
-        confidence: high
     - id: discovery__github__currents-dev__currents-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -54,7 +23,7 @@ provenance:
         surrounding_text: "- [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) 🎖️ 📇 ☁️ Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
         confidence: high
     - id: discovery__github__currents-dev__currents-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -83,54 +52,50 @@ metadata:
       - currents
       - mcp
       - playwright
-    last_checked_at: "2026-05-05T21:01:44.012Z"
+    last_checked_at: "2026-05-06T22:43:30.375Z"
     readme:
-      fetched_at: "2026-05-05T21:01:44.012Z"
+      fetched_at: "2026-05-06T22:43:30.375Z"
       bytes: 7516
 insights:
-  summary: An MCP server that connects AI agents to Currents test analytics to provide context on CI failures, run metrics, and project data.
-  why_it_matters: It allows developers to ask AI agents to diagnose and fix failing tests by giving them direct access to structured CI data and error history.
-  mental_damage: Now your AI can stare at your failing test matrix with the same confusion you feel, but with the added ability to cancel the run before you even wake up.
+  summary: An MCP server that connects AI agents to the Currents test orchestration platform to retrieve test results, metrics, and run data for debugging CI failures.
+  why_it_matters: It lets coding agents query live test failure data and performance metrics directly from CI, bridging the gap between AI suggestions and real-world test results.
+  mental_damage: Your agent can now explain exactly why your tests are flaking in CI, which merely accelerates the existential dread of watching your test suite slowly rot.
   tags:
-    - ci
-    - dashboard
-    - debugging
     - mcp
-    - playwright
     - testing
+    - ci
+    - debugging
+    - currents
   confidence: high
 curation:
   status: included
-  reason: The core product is a Playwright test dashboard, but it qualifies for inclusion because it explicitly ships an MCP Server to empower AI agents with test data, fitting the MCP category.
+  reason: This is an MCP server providing domain-specific access to Currents test data, fitting cleanly as a domain server rather than a generic framework or extension.
   evidence:
-    - "Product page explicitly features 'MCP Server 2.0: Better context for AI agents' as a headline feature."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Official Servers'.
-    - Description confirms it is a Playwright reporter and orchestrator that now exposes data via MCP for AI-driven automations.
     - Repo description explicitly states 'Currents MCP Server'.
-    - README lists 25+ MCP tools like currents-get-run-details and currents-get-errors-explorer for AI agent integration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - README lists numerous MCP tools like currents-get-run-details and currents-get-test-results for AI agent integration.
+    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:54.377Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.910Z"
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:44.012Z"
+    updated_at: "2026-05-06T22:43:30.375Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:05.927Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: wopee__io
 kind: website
-name: Wopee.io
+name: wopee.io
 canonical_url: https://wopee.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__wopee__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wopee.io is a SaaS platform that uses AI agents to explore web applications, automatically generate Playwright-based tests, and self-heal test scripts when the UI changes.
-  why_it_matters: It targets the high-maintenance burden of end-to-end testing by automating test creation and adaptation directly from a live URL, integrating with CI/CD pipelines and frameworks like Cypress and Robot Framework.
-  mental_damage: We’ve successfully automated ourselves out of writing tests, leaving us with the new full-time job of reviewing whether the AI successfully tested the thing we forgot to specify.
+  summary: Wopee.io is an AI-powered web testing platform that autonomously explores applications, generates Playwright test scripts, and self-heals tests when UI changes occur.
+  why_it_matters: It shifts web testing from manual script maintenance to autonomous agent-driven coverage, integrating directly into CI/CD pipelines with support for Playwright, Cypress, and Robot Framework.
+  mental_damage: You can finally stop pretending you enjoy fixing broken CSS selectors, right before the AI agent decides to refactor the entire test suite while you're on call.
   tags:
-    - ai-agents
-    - e2e
-    - playwright
-    - qa
     - testing
+    - qa
+    - ai-agents
+    - playwright
+    - ci-cd
   confidence: high
 curation:
   status: included
-  reason: This is an AI agent that specifically plans, generates, and validates code (tests) within the developer's workflow and CI/CD pipeline, fitting the coding-agents definition.
+  reason: It is a standalone AI agent product that autonomously plans, writes, and repairs web tests, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
   evidence:
-    - Source list context places it under 'Testing and QA' in awesome-ai-coding-tools.
-    - "Scraped site states: 'AI agents explore your app, generate Playwright tests, and self-heal when your UI changes.'"
-    - Supports CI/CD integrations (GitHub Actions, Jenkins) and outputs standard test code for frameworks like Playwright and Cypress.
+    - "Site claims: 'AI agents explore your app, generate Playwright tests, and self-heal when your UI changes.'"
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
+    - Offers an MCP Server and CI/CD integrations (GitHub Actions, Jenkins, GitLab), acting as a primary testing agent.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:22.564Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:27.988Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

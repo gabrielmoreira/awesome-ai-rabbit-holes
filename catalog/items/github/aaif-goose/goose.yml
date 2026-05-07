@@ -1,13 +1,13 @@
 id: github__aaif-goose__goose
 kind: github-repo
-name: Goose
+name: goose
 canonical_url: https://github.com/aaif-goose/goose
 identity:
   github_repo: aaif-goose/goose
 provenance:
   discoveries:
     - id: discovery__github__aaif-goose__goose__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/block/goose
         surrounding_text: "- **[Goose](https://github.com/block/goose)** `⭐ 43.7k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP."
         confidence: high
-    - id: discovery__github__block__goose__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__aaif-goose__goose__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,30 +37,14 @@ provenance:
         extracted_url: https://github.com/block/goose
         surrounding_text: "- **[Codename Goose](https://github.com/block/goose)** – Desktop and CLI agent by Block for automating tasks using LLMs and extensions."
         confidence: high
-    - id: discovery__github__block__goose__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradagi/awesome-cli-coding-agents
-        repository: bradAGI/awesome-cli-coding-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Terminal-native coding agents
-          - Open Source
-        anchor_text: Goose
-        extracted_url: https://github.com/block/goose
-        surrounding_text: "- **[Goose](https://github.com/block/goose)** `⭐ 43.7k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP."
-        confidence: high
 metadata:
   github:
-    stars: 43836
-    forks: 4487
+    stars: 44002
+    forks: 4512
     license: Apache-2.0
     archived: false
     created_at: "2024-08-23T19:03:36Z"
-    pushed_at: "2026-05-05T20:59:33Z"
+    pushed_at: "2026-05-06T22:00:20Z"
     description: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
     homepage: https://goose-docs.ai/
     topics:
@@ -68,55 +52,50 @@ metadata:
       - ai
       - ai-agents
       - mcp
-    last_checked_at: "2026-05-05T21:01:23.001Z"
+    last_checked_at: "2026-05-06T22:12:21.793Z"
     readme:
-      fetched_at: "2026-05-05T21:01:23.001Z"
+      fetched_at: "2026-05-06T22:12:21.793Z"
       bytes: 3230
 insights:
-  summary: An open-source, extensible AI agent that runs on your machine as a desktop app, CLI, or API to plan, execute, edit, and test code across repositories using various LLM providers.
-  why_it_matters: It gives developers a local, provider-agnostic agent that can directly manipulate their codebase, run tests, and automate workflows without being locked into a specific IDE or hosted SaaS.
-  mental_damage: Yet another local agent promising to edit your code, ensuring you can now ruin your repository in Rust-speed native performance with whichever LLM subscription you forgot to cancel.
+  summary: An open-source, extensible AI agent available as a desktop app, CLI, and API that installs, executes, edits, and tests code using any LLM.
+  why_it_matters: Developers can run a general-purpose coding agent locally that integrates with 15+ LLM providers and 70+ MCP extensions directly from the terminal or desktop.
+  mental_damage: Finally, an agent extensible enough to handle everything from code refactoring to writing this pull request description, ensuring you can ignore your repository with unprecedented efficiency.
   tags:
-    - ai-agent
     - cli
-    - coding-agent
     - desktop
-    - local-ai
     - mcp
+    - local-agent
     - rust
   confidence: high
 curation:
   status: included
-  reason: It is a general-purpose coding agent that operates directly on source code via a CLI and desktop app, fitting the coding-agents criteria for repo-level editing and automation.
+  reason: Goose acts as a primary coding assistant that developers delegate repo work to via a CLI and desktop interface, fitting the core definition of a coding agent.
   evidence:
-    - Repo description explicitly defines it as an 'extensible AI agent that goes beyond code suggestions - install, execute, edit, and test'.
-    - README states it is a 'native open source AI agent' available as a 'full CLI for terminal workflows' and a 'native desktop app'.
-    - High traction with 43,836 stars and active maintenance (pushed 2026-05-05) under the Linux Foundation's AAIF.
-    - Repo description defines it as an 'open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test'.
-    - README states it is a 'native open source AI agent' with a 'full CLI for terminal workflows' and a desktop app for macOS, Linux, and Windows.
-    - Included in 'awesome-cli-coding-agents' under the section 'Terminal-native coding agents > Open Source'.
+    - Repo description explicitly states it is an 'extensible AI agent that goes beyond code suggestions - install, execute, edit, and test'.
+    - README confirms it is a 'native open source AI agent' with a full CLI for terminal workflows and desktop app for macOS, Linux, and Windows.
+    - Included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents' and 'awesome-ai-coding-tools' under 'Coding Agents'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (43836) exceeded threshold (150)
+  reason: Stars (44002) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:11.224Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:23.001Z"
+    updated_at: "2026-05-06T22:12:21.793Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:58.279Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

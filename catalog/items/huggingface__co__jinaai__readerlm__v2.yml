@@ -1,0 +1,77 @@
+id: huggingface__co__jinaai__readerlm__v2
+kind: website
+name: ReaderLM-v2
+canonical_url: https://huggingface.co/jinaai/ReaderLM-v2
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__jinaai__readerlm__v2__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: ReaderLM-v2
+        extracted_url: https://huggingface.co/jinaai/ReaderLM-v2
+        surrounding_text: "28. [ReaderLM-v2](https://huggingface.co/jinaai/ReaderLM-v2): a 1.5B parameter language model that converts raw HTML into beautifully formatted markdown or JSON."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ReaderLM-v2 is a 1.5B parameter language model specialized for converting raw HTML into formatted Markdown or structured JSON with support for 29 languages and up to 512K tokens of context.
+  why_it_matters: It gives developers a local, high-accuracy way to extract clean content from messy HTML for use in LLM pipelines, RAG systems, and web scraping workflows without relying on heuristic parsers.
+  mental_damage: We have successfully trained a 1.5 billion parameter model to do what BeautifulSoup has been doing for free since 2004, but now it consumes GPU memory and comes with a paper.
+  tags:
+    - html-to-markdown
+    - html-to-json
+    - local-model
+    - parsing
+    - jina-ai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a raw model checkpoint and research artifact rather than a standalone developer tool, local runtime, or reusable framework, which places it outside the catalog's tooling scope.
+  evidence:
+    - The page is a Hugging Face model card for a 1.5B parameter checkpoint, not a packaged tool or CLI.
+    - Its primary identity is a trained model for HTML-to-Markdown/JSON conversion, with code examples showing raw transformer usage.
+    - It appears in awesome-LLM-resources under a general data section, not as a curated developer tool or local runtime.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:09.778Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

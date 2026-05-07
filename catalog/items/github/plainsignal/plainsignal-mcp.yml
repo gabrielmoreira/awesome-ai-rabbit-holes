@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__plainsignal__plainsignal-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,44 +35,49 @@ metadata:
       - mcp
       - mcp-server
       - plainsignal
-    last_checked_at: "2026-05-05T23:08:06.555Z"
+    last_checked_at: "2026-05-06T22:45:54.568Z"
     readme:
-      fetched_at: "2026-05-05T23:08:06.555Z"
+      fetched_at: "2026-05-06T22:45:54.568Z"
       bytes: 4741
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An official MCP server that exposes PlainSignal analytics reports and metrics to AI assistants via the Model Context Protocol.
+  why_it_matters: It lets developers query website analytics directly from their AI coding assistant instead of switching to a dashboard.
+  mental_damage: We have successfully reached the point where asking Claude about your page views feels like a necessary part of the development workflow.
+  tags:
+    - mcp
+    - analytics
+    - server
+    - plainsignal
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an official MCP server implementation for a specific analytics domain, fitting cleanly into the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'PlainSignal Official MCP Server'.
+    - README confirms it is a 'Model Context Protocol (MCP) server implementation for PlainSignal analytics data'.
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:06.555Z"
+    updated_at: "2026-05-06T22:45:54.568Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:13.178Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

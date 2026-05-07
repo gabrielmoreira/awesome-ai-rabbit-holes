@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danielpeter-99__calcom-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp) 🐍 🏠 - MCP server for Calcom. Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
         confidence: high
     - id: discovery__github__danielpeter-99__calcom-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,50 +48,50 @@ metadata:
     description: A FastMCP server for interacting with the Cal.com API. This enables LLMs to manage event types, create bookings, and access Cal.com scheduling data programmatically.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:46.189Z"
+    last_checked_at: "2026-05-06T22:43:32.225Z"
     readme:
-      fetched_at: "2026-05-05T21:01:46.189Z"
+      fetched_at: "2026-05-06T22:43:32.225Z"
       bytes: 5255
 insights:
-  summary: A FastMCP server that exposes the Cal.com API as tools so LLMs can programmatically manage event types, bookings, and scheduling data.
-  why_it_matters: It lets developers wire Cal.com scheduling capabilities into AI workflows and agents without writing custom API integration code.
-  mental_damage: Because nothing says developer productivity like spinning up a local server just so your chatbot can decide whether you're free on Thursday.
+  summary: A FastMCP server that exposes the Cal.com API (v2) as tools, allowing LLMs to programmatically manage event types, bookings, schedules, and webhooks.
+  why_it_matters: It lets coding agents and MCP-compatible clients automate scheduling workflows directly against a Cal.com account without custom API glue code.
+  mental_damage: Another community-built MCP server so your AI can argue over meeting slots while you still manually reschedule them in three apps.
   tags:
     - mcp
-    - cal.com
+    - calcom
     - fastmcp
-    - api-integration
     - scheduling
+    - api
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is exposing Cal.com scheduling capabilities via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is a FastMCP server for the Cal.com API.
-    - README confirms it provides MCP tools (list_event_types, create_booking, etc.) for LLM interaction.
-    - Listed in awesome-mcp-servers under Server Implementations > Communication.
+    - "Repo description explicitly states: 'A FastMCP server for interacting with the Cal.com API.'"
+    - README specifies tools like list_event_types, create_booking, and list_schedules served via fastmcp run.
+    - Included in awesome-mcp-servers under 'Server Implementations > Communication' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:46.189Z"
+    updated_at: "2026-05-06T22:43:32.225Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:17.435Z"
+    updated_at: "2026-05-06T22:51:28.694Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

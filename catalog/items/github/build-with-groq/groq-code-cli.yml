@@ -1,13 +1,13 @@
 id: github__build-with-groq__groq-code-cli
 kind: github-repo
-name: Groq Code CLI
+name: groq-code-cli
 canonical_url: https://github.com/build-with-groq/groq-code-cli
 identity:
   github_repo: build-with-groq/groq-code-cli
 provenance:
   discoveries:
     - id: discovery__github__build-with-groq__groq-code-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -34,27 +34,27 @@ metadata:
     homepage: ""
     topics:
       - managed-by-terraform
-    last_checked_at: "2026-05-05T21:01:26.877Z"
+    last_checked_at: "2026-05-06T22:43:14.641Z"
     readme:
-      fetched_at: "2026-05-05T21:01:26.876Z"
+      fetched_at: "2026-05-06T22:43:14.641Z"
       bytes: 9224
 insights:
-  summary: A lightweight, open-source CLI coding assistant powered by Groq models, designed as a minimal, customizable alternative to feature-heavy coding agents.
-  why_it_matters: It offers developers a fast, extensible blueprint for a coding CLI that can be modified directly in the terminal without navigating a massive, interwoven codebase.
-  mental_damage: "Just what the ecosystem needed: another CLI agent, but this one helpfully suggests you rewrite the CLI agent itself as a productivity exercise."
+  summary: A lightweight, open-source terminal coding CLI powered by Groq models that is designed as a minimal, hackable alternative to feature-heavy coding agents.
+  why_it_matters: It gives developers a small, readable codebase to customize with their own slash commands, tools, and UI tweaks while still getting fast model iteration via Groq.
+  mental_damage: Yet another coding CLI promising that this time, you will finally fork it, customize it, and definitely not just go back to Claude Code ten minutes later.
   tags:
     - cli
-    - coding-agent
     - groq
+    - coding-agent
+    - customizable
     - open-source
-    - terminal
   confidence: high
 curation:
   status: included
-  reason: The project is a terminal-native coding assistant that writes, edits, and iterates on code using Groq models, fitting the coding-agents category and its CLI section.
+  reason: It is a standalone terminal coding assistant that reads code, plans changes, and edits files using Groq models, fitting the primary coding-agent definition rather than an extension or framework.
   evidence:
-    - Repo description states it is a 'lightweight, open-source coding CLI powered by Groq'
-    - README specifies it is a CLI for developers to 'leverage, customize, and extend' with commands like /model and /clear
+    - Repo description states it is a 'lightweight, and open-source coding CLI powered by Groq'
+    - README positions it directly alongside terminal coding agents, highlighting repo editing and CLI chat workflows
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
@@ -63,21 +63,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (726) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:52.854Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:26.877Z"
+    updated_at: "2026-05-06T22:43:14.641Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:47:22.447Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

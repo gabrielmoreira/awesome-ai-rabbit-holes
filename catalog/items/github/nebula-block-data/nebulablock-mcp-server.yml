@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nebula-block-data__nebulablock-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Nebula-Block-Data/nebulablock-mcp-server](https://github.com/Nebula-Block-Data/nebulablock-mcp-server) 📇 🏠 - integrates with the fastmcp library to expose the full range of NebulaBlock API functionalities as accessible tools"
         confidence: high
     - id: discovery__github__nebula-block-data__nebulablock-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:52.219Z"
+    last_checked_at: "2026-05-06T22:45:30.147Z"
     readme:
-      fetched_at: "2026-05-05T21:03:52.219Z"
+      fetched_at: "2026-05-06T22:45:30.147Z"
       bytes: 4132
 insights:
-  summary: An official MCP server implementation that exposes NebulaBlock API functionalities as tools within MCP-compatible environments using the fastmcp library.
-  why_it_matters: It allows developers to integrate NebulaBlock's cloud platform capabilities directly into their existing MCP workflows and AI coding assistants.
-  mental_damage: We now have a dedicated protocol server for a cloud platform you've likely never heard of, just in case your AI assistant suddenly needs to query it between generating boilerplate code.
+  summary: An official MCP server that exposes the full NebulaBlock API as tools using the fastmcp library for use in MCP-compatible clients.
+  why_it_matters: Developers using MCP clients like VS Code can integrate NebulaBlock's cloud platform capabilities directly into their AI-assisted workflows without custom glue code.
+  mental_damage: We now have a protocol to talk to a server that talks to an API, proving that no layer of indirection is too absurd when MCP is involved.
   tags:
     - mcp
     - api
-    - cloud
+    - cloud-platform
     - fastmcp
   confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server implementation for the NebulaBlock API, fitting cleanly into the MCP infrastructure category.
+  reason: This is an MCP server implementation that exposes a specific cloud platform's API as tools, fitting the Domain Servers section of MCP Servers & Tooling.
   evidence:
-    - README states it hosts the 'official NebulaBlock API Model Context Protocol (MCP) server' using fastmcp.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
-    - Provides configuration examples for connecting the server to MCP clients like VS Code.
+    - Repository name is nebulablock-mcp-server with README stating it is 'the official NebulaBlock API Model Context Protocol (MCP) server'.
+    - Uses fastmcp library to expose NebulaBlock API functionalities as MCP tools for any MCP-compatible environment.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms' and 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:52.219Z"
+    updated_at: "2026-05-06T22:45:30.147Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:08.719Z"
+    updated_at: "2026-05-06T23:16:47.567Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

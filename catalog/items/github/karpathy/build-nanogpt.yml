@@ -1,0 +1,80 @@
+id: github__karpathy__build-nanogpt
+kind: github-repo
+name: build-nanogpt
+canonical_url: https://github.com/karpathy/build-nanogpt
+identity:
+  github_repo: karpathy/build-nanogpt
+provenance:
+  discoveries:
+    - id: discovery__github__karpathy__build-nanogpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: build nanoGPT
+        extracted_url: https://github.com/karpathy/build-nanogpt
+        surrounding_text: "24. [build nanoGPT](https://github.com/karpathy/build-nanogpt): Video+code lecture on building nanoGPT from scratch."
+        confidence: high
+metadata:
+  github:
+    stars: 4978
+    forks: 795
+    license: null
+    archived: false
+    created_at: "2024-06-09T05:16:13Z"
+    pushed_at: "2024-08-13T12:28:52Z"
+    description: Video+code lecture on building nanoGPT from scratch
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:44:40.379Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:40.379Z"
+      bytes: 4488
+insights:
+  summary: A step-by-step video lecture and accompanying Git commit history for building the nanoGPT language model from scratch.
+  why_it_matters: It provides a transparent, commit-by-commit walkthrough for developers who want to understand the internals of training a GPT-2 scale model rather than just calling an API.
+  mental_damage: You will spend hours meticulously reproducing a 124M parameter model from 2019 just to confirm that it mostly dreams about being a language model.
+  tags:
+    - llm-training
+    - tutorial
+    - nanogpt
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource and video lecture series, not a developer tool, agent, framework, or infrastructure product.
+  evidence:
+    - Repo description explicitly calls it a 'Video+code lecture'.
+    - README states the value is a walkthrough of git history and an accompanying YouTube lecture.
+    - Found in awesome-LLM-resources under the '课程 Course' (Course) section, confirming its identity as learning material.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4978) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.623Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:40.379Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:33.151Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

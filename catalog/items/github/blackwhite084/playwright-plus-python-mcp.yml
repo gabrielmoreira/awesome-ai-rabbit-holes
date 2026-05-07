@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blackwhite084__playwright-plus-python-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 - An MCP python server using Playwright for browser automation,more suitable for llm"
         confidence: high
     - id: discovery__github__blackwhite084__playwright-plus-python-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:22.337Z"
+    last_checked_at: "2026-05-06T22:12:54.180Z"
     readme:
-      fetched_at: "2026-05-05T21:01:22.336Z"
+      fetched_at: "2026-05-06T22:12:54.180Z"
       bytes: 4198
 insights:
-  summary: A Model Context Protocol server that exposes Playwright browser automation tools—navigation, screenshots, clicks, form fills, and evaluation—to AI assistants like Claude Desktop.
-  why_it_matters: It lets AI agents control a real browser via MCP, enabling automated testing, scraping, and UI interaction workflows without custom glue code.
-  mental_damage: We have successfully abstracted the browser so that the AI can now click buttons on our behalf while we debug why the AI clicked the wrong button.
+  summary: A Python-based MCP server that exposes Playwright browser automation tools (navigation, screenshots, clicks, scripting) for integration with MCP-compatible coding assistants.
+  why_it_matters: Developers can give assistants like Claude Desktop direct browser control to automate UI testing, scraping, and interaction without leaving their AI workflow.
+  mental_damage: We have successfully abstracted the browser into a tool that an AI can use to break the very web pages we are trying to automate.
   tags:
     - mcp
     - playwright
     - browser-automation
     - python
+    - tools
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server implementation that exposes browser automation tools, which aligns directly with the MCP Servers and Tooling category.
+  reason: The project is an MCP server implementation providing browser automation tools, fitting the 'MCP Servers & Tooling' category as a domain-specific server.
   evidence:
-    - Repo name is playwright-plus-python-mcp and README states 'A MCP server with playwright tools'.
-    - Listed in awesome-mcp-list under Browser Control and awesome-mcp-servers under Browser Automation.
-    - Provides MCP tools like playwright_navigate, playwright_screenshot, and playwright_evaluate for browser control.
+    - README explicitly states 'A MCP server with playwright tools' and lists navigation, screenshot, and click tools.
+    - Included in 'awesome-mcp-servers' under 'Browser Automation' and 'awesome-mcp-list' under 'Browser Control'.
+    - Repository created in January 2025 and is active (pushed 3 days after creation), not archived.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:22.337Z"
+    updated_at: "2026-05-06T22:12:54.180Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:03.156Z"
+    updated_at: "2026-05-06T22:24:30.735Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

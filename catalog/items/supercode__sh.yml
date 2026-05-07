@@ -1,12 +1,12 @@
 id: supercode__sh
 kind: website
-name: Supercode.sh
+name: supercode.sh
 canonical_url: https://supercode.sh
 identity: {}
 provenance:
   discoveries:
     - id: discovery__supercode__sh__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser extension designed to enhance the capabilities of the Cursor IDE with full-cycle AI coding features.
-  why_it_matters: It promises to layer additional automation and workflow enhancements onto an existing AI coding environment.
-  mental_damage: We have reached the point where we need extensions to turbocharge the tool that was already turbocharging our coding workflow.
+  summary: A Cursor extension designed to provide full-cycle AI coding capabilities within the editor.
+  why_it_matters: Developers using Cursor can extend the editor's native capabilities to handle more complete coding workflows without switching contexts.
+  mental_damage: Just when you thought Cursor was the final form, we've entered the 'extension for the extension' era of dependency nesting.
   tags:
-    - ai-coding
     - cursor
     - extension
     - ide
+    - ai-coding
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly described as a Cursor extension that augments an existing AI coding assistant, fitting the AI Developer Extensions category.
+  reason: The product explicitly identifies as a Cursor extension to supercharge the editor, making it an add-on rather than a primary coding assistant.
   evidence:
-    - Scraped site title identifies it as a 'Cursor extension for full-cycle AI-coding'.
-    - Description and source list context state it is meant to 'Supercharge your Cursor'.
-    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' as an enhancer for Cursor.
+    - "Scraped site title: 'Supercode.sh | Cursor extension for full-cycle AI-coding'"
+    - "Scraped site description: 'Supercharge your Cursor'"
+    - Featured in awesome-ai-coding-tools under 'Developer Productivity Tools'
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:26.253Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:14.401Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

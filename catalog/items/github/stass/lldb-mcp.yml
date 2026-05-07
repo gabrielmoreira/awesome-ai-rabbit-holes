@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stass__lldb-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 96
+    forks: 14
+    license: BSD-2-Clause
+    archived: false
+    created_at: "2025-03-26T04:53:32Z"
+    pushed_at: "2025-03-26T21:41:30Z"
+    description: LLDB MCP server
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:34.071Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:34.071Z"
+      bytes: 4951
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the LLDB debugger as a tool so Claude can start, control, and inspect debugging sessions via natural language.
+  why_it_matters: It lets developers delegate interactive debugging workflows to Claude by giving the model real control over breakpoints, execution, memory inspection, and crash analysis.
+  mental_damage: "We have finally achieved the platonic ideal of 2025: an AI agent that can step through a buffer overflow while you pretend you still know what a stack frame is."
+  tags:
+    - mcp
+    - debugging
+    - lldb
+    - claude
+    - developer-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server that gives Claude structured access to LLDB debugging capabilities, which fits cleanly as a domain-specific MCP server rather than a standalone coding agent or generic extension.
+  evidence:
+    - Repo description is 'LLDB MCP server', making MCP the explicit product identity.
+    - README states it 'integrates the LLDB debugger with Claude’s Model Context Protocol (MCP)' and is configured as an MCP server in Claude Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server role.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:34.071Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:16.729Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

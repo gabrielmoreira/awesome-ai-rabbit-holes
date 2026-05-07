@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smart-ai-memory__empathy-framework__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-11-08T15:11:44Z"
+    pushed_at: "2026-04-13T14:02:03Z"
+    description: "Combining a five-level AI framework with git-native memory overcomes session amnesia, enabling anticipation of problems weeks early. Production results: 2000x cost reduction, 10x+ productivity, shifting AI from reactive to predictive partnership through emotional intelligence, tactical empathy, and systems thinking."
+    homepage: https://smartaimemory.com
+    topics:
+      - ai
+      - ai-collaboration
+      - anthropic
+      - anticipatory-ai
+      - artificial-intelligence
+      - claude-code
+      - code-analysis
+      - debugging
+      - developer-productivity
+      - developer-tools
+      - developer-tools-monorepo
+      - fair-source
+      - framework
+      - healthcare-ai
+      - large-language-models
+      - llm
+      - memdocs
+      - open-source
+      - python
+      - testing
+    last_checked_at: "2026-05-06T22:46:27.768Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:27.768Z"
+      bytes: 19674
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python framework that provides git-native memory and cost-optimized workflows for running code review, debugging, and testing tasks via the terminal or Claude Code.
+  why_it_matters: It focuses on making Claude the primary coding partner by adding session-persistent memory and smart tier routing to reduce LLM costs by up to 90%.
+  mental_damage: Because nothing says 'emotional intelligence' like a Python pip install that promises to predict your bugs weeks in advance while shaming you for not routing your large modules to the expensive API tier.
+  tags:
+    - claude-code
+    - memory
+    - cost-optimization
+    - cli
+    - python
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: While it provides memory and workflow extensions for Claude Code, its primary identity is a CLI framework that developers use as the direct orchestrator for code review, debugging, and testing tasks.
+  evidence:
+    - Repo description defines it as a 'five-level AI framework' for running developer workflows.
+    - README shows v5.1.0 includes 'Multi-Agent Orchestration' and a dashboard for running workflows like code-review and bug-predict directly.
+    - Instructions explicitly state it runs 'from your terminal or Claude Code' as the primary interface.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:27.768Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:14.088Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

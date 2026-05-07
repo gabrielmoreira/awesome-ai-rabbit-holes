@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pantheon-security__notebooklm-mcp-secure__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - open-source
       - research
       - typescript
-    last_checked_at: "2026-05-05T21:04:11.688Z"
+    last_checked_at: "2026-05-06T22:45:47.730Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.688Z"
+      fetched_at: "2026-05-06T22:45:47.730Z"
       bytes: 51562
 insights:
-  summary: A security-hardened MCP server that lets AI agents like Claude query and manage Google NotebookLM notebooks with browser-based auth and enterprise compliance features.
-  why_it_matters: Developers can integrate grounded, zero-hallucination NotebookLM research directly into agent workflows without managing API keys or sacrificing enterprise security requirements.
-  mental_damage: We now have post-quantum encrypted bridges to query a product that Google might rename, deprecate, or absorb into Bard by next Tuesday.
+  summary: A security-hardened MCP server that lets Claude and other AI agents query Google NotebookLM notebooks with enterprise compliance features and zero-hallucination grounding.
+  why_it_matters: Developers can wire NotebookLM's source-grounded research directly into their AI coding workflows without manual copy-paste or browser context switching.
+  mental_damage: We have now built a cryptographically secure bridge so your AI agent can hallucinate via your other AI agent's perfectly grounded research output.
   tags:
     - mcp
     - notebooklm
     - security
     - typescript
-    - agent-tooling
+    - knowledge
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation with strong security hardening, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is itself an MCP server for NotebookLM, and MCP is the core identity rather than a compatibility footnote.
   evidence:
-    - Repo description explicitly states 'Secure NotebookLM MCP Server' with MCP topics and model-context-protocol tagging.
-    - README positions it as 'The World's Most Advanced NotebookLM MCP Server' with full MCP protocol compliance.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory' section.
+    - Repo description explicitly states 'Secure NotebookLM MCP Server' as the primary identity.
+    - README positions it as 'The World's Most Advanced NotebookLM MCP Server' with MCP protocol compliance highlighted.
+    - Seen in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.688Z"
+    updated_at: "2026-05-06T22:45:47.730Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:46.324Z"
+    updated_at: "2026-05-06T23:20:44.191Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

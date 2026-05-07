@@ -1,13 +1,13 @@
 id: github__bitbonsai__mcpvault
 kind: github-repo
-name: bitbonsai/mcp-obsidian
+name: mcpvault
 canonical_url: https://github.com/bitbonsai/mcpvault
 identity:
   github_repo: bitbonsai/mcpvault
 provenance:
   discoveries:
-    - id: discovery__github__bitbonsai__mcp-obsidian__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__bitbonsai__mcpvault__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1200
+    stars: 1205
     forks: 93
     license: null
     archived: false
@@ -33,53 +33,49 @@ metadata:
     description: A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:21.608Z"
+    last_checked_at: "2026-05-06T22:12:53.257Z"
     readme:
-      fetched_at: "2026-05-05T21:01:21.608Z"
+      fetched_at: "2026-05-06T22:12:53.257Z"
       bytes: 25309
 insights:
-  summary: A lightweight Model Context Protocol (MCP) server that gives AI assistants safe read, write, and search access to Obsidian vaults.
-  why_it_matters: It lets developers connect their note-taking knowledge base directly to coding agents and IDEs like Claude Code, Cursor, and Windsurf without installing Obsidian plugins.
-  mental_damage: We have successfully solved the critical engineering challenge of making sure your AI can reorganize your meeting notes while you are supposed to be shipping code.
+  summary: A lightweight MCP server that provides safe read/write access to Obsidian vaults for any MCP-compatible AI assistant.
+  why_it_matters: It lets developers connect AI coding assistants like Claude Code and Cursor directly to their Obsidian knowledge base, enabling note search, editing, and vault operations without leaving the coding workflow.
+  mental_damage: Because apparently the natural endpoint of AI tooling is granting your coding agent full write access to the markdown files where you store your deepest, most unfulfilled side-project ideas.
   tags:
-    - ide-integration
-    - knowledge-base
     - mcp
     - obsidian
-    - typescript
+    - knowledge-base
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation, which fits squarely into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server providing Obsidian vault access, making it a textbook fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server for safe Obsidian vault access'.
-    - README lists compatibility with multiple MCP-compatible clients including Claude Desktop, Claude Code, Cursor IDE, and Windsurf IDE.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Knowledge & Memory'.
-    - Repo description explicitly states it is 'A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access'
-    - README details 14 MCP methods covering file operations, search, metadata, and tag management for vaults
-    - Recent activity with created_at 2025-09-21 and pushed_at 2026-05-04 showing active maintenance
+    - "Repo description explicitly states: 'A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access'"
+    - README lists 14 MCP methods for vault operations and highlights 'Universal AI Compatibility' with Claude, Cursor, Windsurf, and other MCP-compatible assistants
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming its identity as an MCP server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1200) exceeded threshold (150)
+  reason: Stars (1205) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:56.069Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:21.608Z"
+    updated_at: "2026-05-06T22:12:53.257Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:21.056Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

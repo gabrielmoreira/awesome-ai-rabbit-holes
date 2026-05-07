@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mattjoyce__mcp-persona-sessions__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: "MCP server for persona-driven AI sessions: practice interviews, conduct guided reflection, and role-play conversations with realistic personas"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:31.945Z"
+    last_checked_at: "2026-05-06T22:45:10.915Z"
     readme:
-      fetched_at: "2026-05-05T21:03:31.945Z"
+      fetched_at: "2026-05-06T22:45:10.915Z"
       bytes: 6389
 insights:
-  summary: An MCP server that enables AI assistants to conduct structured, persona-driven sessions such as interview preparation, meeting rehearsals, and guided reflection using configurable persona profiles and session frameworks.
-  why_it_matters: It lets developers practice high-stakes conversations and self-reflection directly inside their MCP-compatible assistant instead of cobbling together ad-hoc prompts.
-  mental_damage: We have finally built the infrastructure to rehearse a meeting with a simulated boss because the real boss is an LLM anyway.
+  summary: An MCP server that loads detailed persona profiles to let AI assistants run structured, role-play sessions like mock interviews, coaching conversations, and guided reflection.
+  why_it_matters: Developers can rehearse difficult meetings, presentations, and interviews inside their existing MCP-compatible assistant instead of booking a human coach.
+  mental_damage: You now have the infrastructure to practice arguing with a simulated boss, while your actual codebase remains untouched and quietly judging you.
   tags:
     - mcp
     - persona
-    - role-play
+    - roleplay
     - interview-prep
+    - coaching
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server providing persona-driven session tooling, which fits cleanly into the MCP servers and tooling category.
+  reason: This is an MCP server that provides persona-driven session tooling, fitting cleanly as a domain-specific MCP server rather than a coding agent or generic extension.
   evidence:
-    - Repo description explicitly states 'MCP server for persona-driven AI sessions'.
-    - README details an MCP server implementation with tools like initialize_session, start_timer, and get_session_feedback.
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+    - "Repo description: 'MCP server for persona-driven AI sessions: practice interviews, conduct guided reflection, and role-play conversations with realistic personas'."
+    - README states it is 'A Model Context Protocol (MCP) server that enables AI assistants to conduct structured, persona-driven sessions'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:31.945Z"
+    updated_at: "2026-05-06T22:45:10.915Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:14.258Z"
+    updated_at: "2026-05-06T23:12:25.181Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

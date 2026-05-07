@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pv-bhat__vibe-check-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -44,44 +44,50 @@ metadata:
       - rli
       - vibe-coding
       - workflow-automation
-    last_checked_at: "2026-05-05T23:08:12.401Z"
+    last_checked_at: "2026-05-06T22:45:59.914Z"
     readme:
-      fetched_at: "2026-05-05T23:08:12.401Z"
+      fetched_at: "2026-05-06T22:45:59.914Z"
       bytes: 18190
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that acts as a mentor layer for AI agents, interrupting long-horizon workflows to prevent over-engineering and reasoning lock-in.
+  why_it_matters: It provides a research-backed method to keep autonomous coding agents aligned with the minimal viable path, improving success rates by 27% in their study.
+  mental_damage: We have now reached the point where we need to install specialized middleware to stop our AI agents from hallucinating architectural masterpieces when we only asked for a hello world.
+  tags:
+    - mcp
+    - agent-oversight
+    - workflow
+    - cpi
+    - research-backed
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is explicitly an MCP server designed to be plugged into MCP-aware clients like Claude Desktop and Cursor to provide agent oversight.
+  evidence:
+    - Repo description identifies it as a tool providing mentor-like feedback to AI Agents via MCP.
+    - README details npx commands for STDIO and HTTP transport specifically for MCP clients (Claude Desktop, Cursor, Windsurf).
+    - Listed in the awesome-mcp-servers list under 'Community Servers' and featured on PulseMCP and Smithery.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (485) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:12.401Z"
+    updated_at: "2026-05-06T22:45:59.914Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:13.879Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

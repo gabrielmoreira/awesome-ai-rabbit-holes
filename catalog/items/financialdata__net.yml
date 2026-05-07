@@ -1,12 +1,12 @@
 id: financialdata__net
 kind: website
-name: FinancialData.Net
+name: financialdata.net
 canonical_url: https://financialdata.net
 identity: {}
 provenance:
   discoveries:
     - id: discovery__financialdata__net__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,44 +35,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A financial data API providing real-time and historical stock market data, company fundamentals, and alternative data via REST endpoints, including an MCP server implementation.
-  why_it_matters: Standardizes access to global equity and crypto data for developers building trading algorithms, financial dashboards, or AI agents that need market context.
-  mental_damage: Yet another data vendor promising 'institutional-grade' insights, ensuring your AI agent will confidently hallucinate trades based on slightly delayed JSON.
+  summary: A financial data API providing real-time and historical stock market data, company fundamentals, and alternative data via REST endpoints, with an MCP server for AI tool integration.
+  why_it_matters: Developers building AI agents or financial tools can use the MCP server to give their models direct access to institutional-grade market data for analysis and trading workflows.
+  mental_damage: Yet another data vendor pivoting to MCP so your agent can panic-sell NVDA based on a hallucinated earnings report.
   tags:
-    - api
     - financial-data
-    - fintech
     - mcp
-    - trading
-  confidence: high
+    - api
+    - stocks
+  confidence: medium
 curation:
   status: included
-  reason: The project explicitly offers an MCP server implementation for financial data access, fitting the MCP Servers and Tooling category, and is listed in the awesome-mcp-servers directory.
+  reason: The product markets itself as a financial data API but explicitly lists MCP as a core feature on its homepage, making it a domain-specific MCP server for finance rather than just a generic data provider.
   evidence:
-    - Scraped site context confirms an 'MCP' section and describes the tool as 'Access real-time and historical stock data...'
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Finance & Fintech'
-    - The product is a REST API with JSON/CSV output covering equities, ETFs, derivatives, and crypto.
+    - Homepage navigation includes a dedicated 'MCP' link alongside Documentation and API access.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - Provides market data (stocks, ETFs, crypto) specifically structured for agent consumption via MCP.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:28.158Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:05.324Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

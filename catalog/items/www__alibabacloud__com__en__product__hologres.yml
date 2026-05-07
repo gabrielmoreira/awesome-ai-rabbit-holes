@@ -1,12 +1,12 @@
 id: www__alibabacloud__com__en__product__hologres
 kind: website
-name: Hologres
+name: hologres
 canonical_url: https://www.alibabacloud.com/en/product/hologres
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__alibabacloud__com__en__product__hologres__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hologres is a cloud-native, PostgreSQL-compatible real-time data warehouse engine from Alibaba Cloud for OLAP, interactive analysis, and high-concurrency data serving.
-  why_it_matters: It provides developers building AI/ML pipelines with a unified SQL interface for real-time feature storage, vector search, and low-latency analytics at petabyte scale.
-  mental_damage: "Just what the modern stack needed: another proprietary, Postgres-flavored data lakehouse to prematurely migrate to before the next managed warehouse trend arrives."
+  summary: Hologres is a real-time data warehouse engine from Alibaba Cloud that is compatible with PostgreSQL and supports OLAP, ad hoc analysis, and high-concurrency data serving.
+  why_it_matters: It provides a unified HSAP platform for developers building real-time analytics pipelines, integrating deeply with Flink, MaxCompute, and BI tools without requiring data movement.
+  mental_damage: Yet another hyperscale cloud warehouse promising sub-second queries, ensuring you can now watch your dashboard refresh in real-time while the real bottleneck remains your own schema design.
   tags:
-    - alibaba-cloud
     - data-warehouse
     - postgresql
-    - real-time
-    - vector-search
+    - real-time-analytics
+    - alibaba-cloud
+    - olap
   confidence: high
 curation:
   status: excluded
-  reason: Hologres is a general-purpose cloud data warehouse and analytics engine, not a developer-facing AI coding tool, agent, or workflow automation product.
+  reason: Hologres is a general-purpose cloud data warehouse and analytics platform, not a developer-facing AI tool, agent, or AI infrastructure component.
   evidence:
-    - Scraped site describes it as 'an all-in-one real-time data warehouse engine' for OLAP and data analysis, not AI-assisted development.
-    - Primary use cases are e-commerce recommendations, logistics monitoring, and BI dashboards, with no coding agent or developer workflow augmentation.
-    - Appears in awesome-mcp-servers only as a potential MCP integration target, not as MCP infrastructure or a developer tool itself.
+    - Described as an 'all-in-one real-time data warehouse engine' focused on OLAP and data serving, not AI development.
+    - Primary page excerpt emphasizes data silos, migration, and BI acceleration rather than coding assistance or model infrastructure.
+    - Listed in awesome-mcp-servers only as a 'Official Server' reference, but the product itself is a cloud data platform, not an MCP-native tool.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:32.160Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:36.866Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

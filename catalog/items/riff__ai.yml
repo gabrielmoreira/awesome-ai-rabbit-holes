@@ -1,12 +1,12 @@
 id: riff__ai
 kind: website
-name: Databutton
+name: riff.ai
 canonical_url: https://riff.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__riff__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Riff is an enterprise SaaS platform that builds and runs AI agents on top of ERPs like SAP, Oracle, and Microsoft Dynamics to automate procurement and operations workflows.
-  why_it_matters: It allows developers to extend ERP automation with custom TypeScript tools and APIs, bridging the gap between pre-built agent suites and specific business logic.
-  mental_damage: We’ve successfully automated the procurement department, meaning the only thing left for the human developer to debug is why the AI teammate is ignoring the supplier's second email.
+  summary: Riff is an enterprise agent-building platform that connects to ERPs like SAP, Oracle, and Infor to automate business operations such as procurement and invoicing via pre-built or custom AI agents.
+  why_it_matters: It offers a visual canvas and TypeScript SDK for developers to build domain-specific agents that read and write to live ERP systems with audit logs and permissioning.
+  mental_damage: "Just what the modern developer needs: another platform to debug TypeScript agents that send emails to suppliers while promising to be 'enterprise ready' in eleven days."
   tags:
     - agents
-    - automation
     - enterprise
     - erp
-    - typescript
-  confidence: high
+    - automation
+    - platform
+  confidence: medium
 curation:
-  status: excluded
-  reason: While technically impressive, this is an enterprise operations platform for ERP automation, not a developer tool for writing code, building apps, or managing dev infrastructure.
+  status: included
+  reason: The primary product identity is a multi-agent platform for coordinating workflows across ERP systems, fitting the vertical orchestration definition for enterprise operations.
   evidence:
-    - The primary pitch is 'Agents that run on your ERP' targeting procurement, planning, and finance teams rather than software developers.
-    - Developers are mentioned only as extending the platform with TypeScript tools, acting as a secondary integration point rather than the primary user.
-    - The awesome-ai-coding-tools list categorized it under 'App Builders,' but its focus on ERP workflows (Infor, SAP) doesn't fit the catalog's scope of coding agents or dev tooling.
+    - Described as 'The enterprise agent-building platform for teams running Infor, SAP, Oracle and Microsoft ERPs'.
+    - Developers extend agents using TypeScript with custom tools, while domain experts compose them in a visual canvas.
+    - Listed in awesome-ai-coding-tools under 'App Builders', but the core product is an agent platform, not a prompt-to-app builder.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:39.462Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:06.410Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

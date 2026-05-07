@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__metoro-io__metoro-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Metoro](https://github.com/metoro-io/metoro-mcp-server)** - Query and interact with kubernetes environments monitored by Metoro"
         confidence: high
     - id: discovery__github__metoro-io__metoro-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -47,50 +47,49 @@ metadata:
     description: Metoro MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:37.099Z"
+    last_checked_at: "2026-05-06T22:45:15.252Z"
     readme:
-      fetched_at: "2026-05-05T21:03:37.099Z"
+      fetched_at: "2026-05-06T22:45:15.252Z"
       bytes: 4664
 insights:
-  summary: An MCP server that exposes Metoro's Kubernetes observability data to LLMs like Claude Desktop, allowing developers to query cluster telemetry using natural language.
-  why_it_matters: It lets developers bypass dashboard fatigue by querying eBPF-generated Kubernetes traces, metrics, and logs directly through their AI assistant.
-  mental_damage: Instead of learning kubectl or reading docs, you can now debug a complex microservices outage by politely asking a chat window that might hallucinate the status of your pods.
+  summary: An MCP server that exposes Metoro's Kubernetes observability data to LLMs like Claude Desktop, allowing developers to query cluster telemetry via natural language.
+  why_it_matters: Developers can debug microservices and inspect cluster health by chatting with their AI assistant instead of crafting manual kubectl commands or digging through dashboards.
+  mental_damage: We have successfully abstracted away the last remaining excuse for understanding what our eBPF probes are actually telling us.
   tags:
     - mcp
     - kubernetes
     - observability
-    - monitoring
-    - llm-integration
+    - devops
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to bridge LLM applications with Kubernetes observability data.
+  reason: The product's identity is an MCP server that bridges LLM applications with Metoro's Kubernetes monitoring APIs.
   evidence:
-    - Repo description and README define this as 'Metoro MCP Server' that connects LLMs to Kubernetes cluster data.
-    - Included in 'awesome-mcp-servers' under 'Official Servers' and 'awesome-mcp-list' under 'Monitoring'.
-    - Actively maintained with a recent push date of 2026-03-16 and an MIT license.
+    - Repo description explicitly states 'Metoro MCP Server'.
+    - README confirms it 'exposes those APIs to an LLM so you can ask your AI questions about your Kubernetes cluster'.
+    - Featured in awesome-mcp-servers under the 'Monitoring' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:37.099Z"
+    updated_at: "2026-05-06T22:45:15.252Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:10.572Z"
+    updated_at: "2026-05-06T23:13:18.823Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

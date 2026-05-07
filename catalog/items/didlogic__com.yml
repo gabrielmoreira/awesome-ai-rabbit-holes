@@ -1,12 +1,12 @@
 id: didlogic__com
 kind: website
-name: DIDLogic
+name: didlogic.com
 canonical_url: https://didlogic.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__didlogic__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,42 +35,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: didlogic.com is a VoIP provider offering SIP trunks, DIDs, and voice termination services, with an MCP server implementation enabling AI agents to interact with telephony features.
-  why_it_matters: It allows developers to plug real-world phone calling capabilities into AI agents and workflows via the Model Context Protocol, bridging software automation with telecommunications.
-  mental_damage: We have finally reached the singularity where your autonomous coding agent can now disappoint clients via phone call instead of just via email.
+  summary: didlogic.com is a VoIP and telephony provider with no apparent AI developer tooling.
+  why_it_matters: It does not matter to developers looking for AI coding tools, as it is a telecommunications service.
+  mental_damage: We have officially reached the point where an awesome-mcp-servers list includes a website that appears to sell dial tones.
   tags:
-    - communication
-    - mcp
-    - telephony
     - voip
-  confidence: medium
+    - telephony
+    - off-topic
+  confidence: high
 curation:
-  status: included
-  reason: The project is explicitly listed in the awesome-mcp-servers directory under Communication, identifying it as an MCP server implementation for telephony.
+  status: excluded
+  reason: The project is a telecommunications provider (VoIP/SIP services) and has no developer-facing AI tooling, agents, or MCP infrastructure.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
-    - URL points to didlogic.com, a known VoIP and telephony provider
+    - URL is didlogic.com, which is a known VoIP/telephony provider.
+    - No repo description, README, or scraped site context indicates AI, coding, or developer tooling.
+    - Appears in awesome-mcp-servers under 'Communication', likely as a misclassified or unrelated entry.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:46.771Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:11.497Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

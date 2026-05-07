@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__just-every__mcp-screenshot-website-fast__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,50 +38,50 @@ metadata:
       - mcp
       - mcp-server
       - screenshot
-    last_checked_at: "2026-05-05T21:03:01.302Z"
+    last_checked_at: "2026-05-06T22:44:38.865Z"
     readme:
-      fetched_at: "2026-05-05T21:03:01.302Z"
+      fetched_at: "2026-05-06T22:44:38.865Z"
       bytes: 10219
 insights:
-  summary: An MCP server that captures fast, tiled 1072x1072 screenshots of web pages for optimized processing by vision-capable AI models like Claude.
-  why_it_matters: It integrates directly into coding agents and IDEs to provide visual context of live web pages, bridging the gap between code generation and UI verification.
-  mental_damage: We have successfully abstracted the act of looking at a website into a 1072x1072 tile passed to a model that hallucinates what it saw.
+  summary: An MCP server that captures web page screenshots using Puppeteer and tiles them into 1072x1072 chunks optimized for AI vision processing.
+  why_it_matters: It gives coding agents and AI tools direct visual access to live web content with resolution-optimized tiling for Claude Vision and similar models.
+  mental_damage: We have successfully abstracted the act of looking at a website into yet another protocol server that chops the internet into 1072x1072 squares so our agents can pretend to have eyes.
   tags:
     - mcp
     - screenshot
     - vision
     - puppeteer
-    - cli-tool
+    - web-scraping
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server designed to extend AI coding workflows with screenshot capabilities, fitting cleanly into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server purpose-built to give coding assistants vision capabilities via screenshot capture and tiling.
   evidence:
-    - "Repo description explicitly states: 'Quickly screenshots webpages and converts to an LLM friendly size'."
-    - README confirms it is an MCP server with installation instructions for Claude Code, VS Code, Cursor, and JetBrains.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - "Repo description: 'Quickly screenshots webpages and converts to an LLM friendly size'"
+    - README states it is 'Built specifically for AI vision workflows' with 'MCP integration for seamless AI workflows'
+    - Listed in awesome-mcp-servers under 'Community Servers' and provides MCP configs for Claude Code, Cursor, VS Code, and JetBrains
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:01.303Z"
+    updated_at: "2026-05-06T22:44:38.865Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:46.054Z"
+    updated_at: "2026-05-06T23:05:16.919Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

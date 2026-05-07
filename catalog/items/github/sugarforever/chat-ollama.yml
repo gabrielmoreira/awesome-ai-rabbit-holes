@@ -1,0 +1,81 @@
+id: github__sugarforever__chat-ollama
+kind: github-repo
+name: chat-ollama
+canonical_url: https://github.com/sugarforever/chat-ollama
+identity:
+  github_repo: sugarforever/chat-ollama
+provenance:
+  discoveries:
+    - id: discovery__github__sugarforever__chat-ollama__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Chat-ollama
+        extracted_url: https://github.com/sugarforever/chat-ollama
+        surrounding_text: "16. [Chat-ollama](https://github.com/sugarforever/chat-ollama): An open source chatbot based on LLMs. It supports a wide range of language models, and knowledge base management."
+        confidence: high
+metadata:
+  github:
+    stars: 3487
+    forks: 561
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-02-17T16:14:29Z"
+    pushed_at: "2026-01-20T21:33:49Z"
+    description: ChatOllama is an open-source AI chatbot that brings cutting-edge language models to your fingertips while keeping your data private and secure.
+    homepage: https://chatollama.cloud
+    topics: []
+    last_checked_at: "2026-05-06T22:46:36.760Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:36.760Z"
+      bytes: 15010
+insights:
+  summary: ChatOllama is a self-hosted, Nuxt 3-based AI chatbot platform that supports local models via Ollama as well as major providers, featuring RAG knowledge bases, realtime voice chat, and MCP integration for agent tooling.
+  why_it_matters: It gives developers a private, Docker-deployable chat surface to run local and cloud models with RAG, voice, and agent workflows without sending data to hosted SaaS.
+  mental_damage: Yet another local chat UI so you can run a private LLM stack that you will mostly use to ask why your private LLM stack is so complicated.
+  tags:
+    - local-ai
+    - chatbot
+    - self-hosted
+    - mcp
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: The product is a local-first, self-hosted chat interface and platform for running models on your own hardware, which aligns with the Local AI category.
+  evidence:
+    - Repo description explicitly positions it as an open-source AI chatbot that 'keeps your data private and secure' with local model support.
+    - README emphasizes Docker-based deployment, Ollama support, PostgreSQL, and vector databases as core infrastructure, not just a thin client.
+    - Includes realtime voice chat, knowledge bases with RAG, and MCP server management, all delivered through a self-hosted Nuxt 3 app.
+placement:
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3487) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.650Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:36.760Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:40.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

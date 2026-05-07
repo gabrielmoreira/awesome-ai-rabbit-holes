@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mihaelamj__cupertino__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-11-14T10:33:40Z"
-    pushed_at: "2026-05-05T11:04:21Z"
+    pushed_at: "2026-05-06T22:28:54Z"
     description: A local Apple Documentation crawler and MCP server. Written in Swift.
     homepage: ""
     topics:
@@ -45,50 +45,50 @@ metadata:
       - offline-docs
       - swift
       - swiftpm
-    last_checked_at: "2026-05-05T21:03:40.042Z"
+    last_checked_at: "2026-05-06T22:45:18.273Z"
     readme:
-      fetched_at: "2026-05-05T21:03:40.042Z"
-      bytes: 26242
+      fetched_at: "2026-05-06T22:45:18.273Z"
+      bytes: 25964
 insights:
-  summary: A local Swift-based tool that crawls and indexes Apple Developer documentation into a searchable database and serves it to AI agents via the Model Context Protocol.
-  why_it_matters: It provides offline, hallucination-free access to over 405,000 pages of Apple documentation, allowing AI coding assistants to answer framework questions with accurate, up-to-date context.
-  mental_damage: We have built a system to feed the AI the manual so it stops guessing SwiftUI modifiers, effectively admitting that the model's training data is already obsolete the moment Xcode updates.
+  summary: A Swift-based tool that crawls Apple's developer documentation and serves it locally to AI agents via the Model Context Protocol (MCP).
+  why_it_matters: It gives coding agents deterministic, offline access to over 405,000 pages of Apple API docs, reducing hallucinations during Swift and platform development.
+  mental_damage: We have successfully solved the problem of AI confidently inventing UIKit APIs by building a 3.4 GB local database, because apparently the modern developer workflow requires a local search index just to keep the ghost in the machine honest.
   tags:
     - mcp
     - apple-docs
     - swift
-    - local-first
-    - context-engineering
+    - offline
+    - local-ai
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to serve documentation to AI agents, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server that provides a specific domain context (Apple documentation) to agents, fitting the MCP Servers category perfectly.
   evidence:
-    - Repo description identifies it as 'A local Apple Documentation crawler and MCP server.'
-    - README states it 'serves documentation to AI agents like Claude via the Model Context Protocol.'
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Developer Tools'.
+    - "Repo description explicitly states: 'A local Apple Documentation crawler and MCP server.'"
+    - README states the tool 'Serves documentation to AI agents like Claude via the Model Context Protocol.'
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (670) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:40.042Z"
+    updated_at: "2026-05-06T22:45:18.273Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:44.943Z"
+    updated_at: "2026-05-06T23:13:58.065Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

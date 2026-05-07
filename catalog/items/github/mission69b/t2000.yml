@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mission69b__t2000__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-02-18T19:51:08Z"
-    pushed_at: "2026-05-05T11:43:42Z"
+    pushed_at: "2026-05-06T08:18:08Z"
     description: Agentic Finance Infrastructure.
     homepage: https://t2000.ai
     topics:
@@ -43,51 +43,50 @@ metadata:
       - mcp-server
       - sui
       - typescript
-    last_checked_at: "2026-05-05T21:03:43.302Z"
+    last_checked_at: "2026-05-06T22:45:21.250Z"
     readme:
-      fetched_at: "2026-05-05T21:03:43.302Z"
+      fetched_at: "2026-05-06T22:45:21.250Z"
       bytes: 19315
 insights:
-  summary: t2000 is an open-source TypeScript infrastructure for building conversational finance applications on the Sui blockchain, providing an SDK, CLI, and MCP server for agentic money management.
-  why_it_matters: It gives developers a ready-made stack—including an MCP server for AI tool integration—to build agents that can programmatically manage DeFi assets like lending, swapping, and payments on Sui.
-  mental_damage: We have officially reached the point where your AI agent needs its own non-custodial wallet, a 'trust layer', and 14 guards just to decide whether to move five bucks of USDC.
+  summary: t2000 is a TypeScript SDK, CLI, and MCP server providing agentic infrastructure for building conversational finance applications on the Sui blockchain.
+  why_it_matters: It gives developers a programmable way to embed DeFi operations—like lending, swapping, and payments—directly into AI agents or LLM workflows via a standardized SDK and MCP interface.
+  mental_damage: Finally, your AI agent can independently manage a high-yield savings portfolio on a blockchain you don't understand, just in case you were running low on sources of existential financial anxiety.
   tags:
-    - mcp-server
     - defi
     - sui
+    - mcp-server
     - typescript
-    - finance
-  confidence: high
+    - agent-infrastructure
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server and toolkit for financial agents, fitting the MCP category definition over a generic framework or coding agent.
+  reason: The primary artifact is a code-first SDK, CLI, and engine that developers import and script against to build financial agents, fitting the Frameworks & SDKs definition.
   evidence:
-    - Repo description identifies as 'Agentic Finance Infrastructure' with 'mcp-server' as a topic.
-    - README confirms distribution via `@t2000/mcp` package and lists compatibility with Claude Desktop, Cursor, and Windsurf.
-    - Listed in the awesome-mcp-servers directory under the Finance & Fintech section.
-    - Active development (pushed 2026-05-05) with a clear product split between infrastructure (t2000) and consumer app (Audric).
+    - "README explicitly lists packages: @t2000/sdk (core library), @t2000/engine, and @t2000/cli for developers to build upon."
+    - Provides code examples showing developers scripting agent actions like agent.send() and agent.swap() programmatically.
+    - Brand architecture identifies t2000.ai specifically as 'Infrastructure (CLI, SDK, MCP, engine, gateway)' for the Audric consumer product.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:43.302Z"
+    updated_at: "2026-05-06T22:45:21.250Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:23.668Z"
+    updated_at: "2026-05-06T23:14:41.114Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

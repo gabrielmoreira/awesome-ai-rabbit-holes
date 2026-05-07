@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__muxinc__mux-node-sdk__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -28,7 +28,7 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2018-03-26T21:09:50Z"
-    pushed_at: "2026-05-05T18:51:23Z"
+    pushed_at: "2026-05-06T21:02:35Z"
     description: Official Mux API wrapper for Node projects, supporting both Mux Data and Mux Video.
     homepage: https://mux.com/for/node
     topics:
@@ -38,50 +38,50 @@ metadata:
       - video-analytics
       - video-processing
       - video-streaming
-    last_checked_at: "2026-05-05T21:03:49.619Z"
+    last_checked_at: "2026-05-06T22:45:27.963Z"
     readme:
-      fetched_at: "2026-05-05T21:03:49.619Z"
+      fetched_at: "2026-05-06T22:45:27.963Z"
       bytes: 22846
 insights:
-  summary: Official Mux API wrapper for Node.js and TypeScript, now shipping an MCP server that lets AI assistants explore endpoints, make test requests, and use documentation to integrate video streaming and analytics capabilities.
-  why_it_matters: Developers can wire Mux video, analytics, and webhook flows directly into AI-assisted workflows without hand-cranking API boilerplate or hunting through docs.
-  mental_damage: We have successfully abstracted the abstraction, so your coding agent can now debug your video streaming integration by talking to an API wrapper that talks to an API.
+  summary: Official Node.js/TypeScript SDK and bundled MCP server for the Mux video platform, providing REST API access and AI assistant integrations for video streaming and analytics.
+  why_it_matters: It lets developers automate video asset management and live streaming workflows directly from code or through AI assistants via the included MCP server.
+  mental_damage: Now your AI agent can debug your video transcoding pipeline and ask for more quota in the same breath.
   tags:
     - mux
-    - mcp
-    - node
     - video
     - sdk
+    - node
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The project bundles a first-party MCP server that exposes Mux endpoints to AI assistants, making it MCP infrastructure rather than just a generic SDK.
+  reason: The primary artifact is a code-first SDK and API wrapper for the Mux platform, with an MCP server bundled as a secondary integration feature.
   evidence:
-    - README explicitly documents a 'Mux MCP Server' with install deep-links for Cursor and VS Code.
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
-    - Repo is active and officially maintained by Mux (pushed 2026-05-05, not archived).
+    - "Repo description: 'Official Mux API wrapper for Node projects, supporting both Mux Data and Mux Video.'"
+    - README shows primary usage as `import Mux from '@mux/mux-node'` with TypeScript types and REST API access.
+    - "MCP server is presented as an add-on: 'Use the Mux MCP Server to enable AI assistants to interact with this API.'"
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (179) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:49.619Z"
+    updated_at: "2026-05-06T22:45:27.963Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:35.101Z"
+    updated_at: "2026-05-06T23:16:15.631Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

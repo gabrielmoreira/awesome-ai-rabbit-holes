@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__blocknative-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: An MCP server that provides real-time gas price predictions across multiple blockchains.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:09.374Z"
+    last_checked_at: "2026-05-06T22:44:46.478Z"
     readme:
-      fetched_at: "2026-05-05T21:03:09.374Z"
+      fetched_at: "2026-05-06T22:44:46.478Z"
       bytes: 4917
 insights:
-  summary: An MCP server that provides real-time gas price predictions and transaction cost estimations across multiple blockchains via the Blocknative API.
-  why_it_matters: It allows AI agents and developer tools to query live blockchain gas data and estimate transaction costs directly within their workflow.
-  mental_damage: We have successfully abstracted checking gas prices into a protocol that requires a server, an agent, and a neural network, just in case we forget how to read a number from a block explorer.
+  summary: An MCP server that provides real-time gas price predictions and transaction cost estimates across multiple blockchains using Blocknative's API.
+  why_it_matters: It allows coding agents and developer tools to query live blockchain gas data via the Model Context Protocol rather than requiring custom API integrations.
+  mental_damage: We have successfully built infrastructure to ask an AI assistant how much it will cost to bribe the Ethereum network, without ever leaving the chat window.
   tags:
     - mcp
     - blockchain
-    - web3
     - gas-prices
-    - api
+    - fastmcp
+    - web3
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for blockchain data, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server for a specific domain (finance/fintech), providing tools and prompts for gas price prediction via the Model Context Protocol.
   evidence:
-    - "Repo description states: 'An MCP server that provides real-time gas price predictions across multiple blockchains.'"
-    - README confirms it uses the FastMCP framework to expose tools like `predict_gas_price` and `estimate_gas_cost`.
-    - Listed in the awesome-mcp-servers directory under 'Finance & Fintech'.
+    - "Repo description explicitly states: 'An MCP server that provides real-time gas price predictions'."
+    - README details tools like `predict_gas_price` and `estimate_gas_cost` built on the FastMCP framework.
+    - Found in awesome-mcp-servers under 'Finance & Fintech', confirming its role as a domain-specific protocol server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:09.374Z"
+    updated_at: "2026-05-06T22:44:46.478Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:37.901Z"
+    updated_at: "2026-05-06T23:06:56.077Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

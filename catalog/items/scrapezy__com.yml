@@ -1,0 +1,77 @@
+id: scrapezy__com
+kind: website
+name: scrapezy.com
+canonical_url: https://scrapezy.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__scrapezy__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Scrapezy
+        extracted_url: https://scrapezy.com
+        surrounding_text: "- **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with [Scrapezy](https://scrapezy.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Scrapezy is a web scraping API and MCP server that extracts structured data from websites using natural language prompts instead of CSS selectors or XPath.
+  why_it_matters: It offers developers a way to feed clean, markdown-formatted web data directly into AI pipelines, RAG systems, and coding agents like Claude and Cursor via API or MCP integration.
+  mental_damage: Another token-based SaaS layer to ponder while you explain to a bot that you want the third table row, not the entire economic history of the NCAA.
+  tags:
+    - web-scraping
+    - mcp
+    - data-extraction
+    - api
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary developer-facing identity is an MCP server for web data extraction, explicitly listed under 'Official Servers' in the awesome-mcp-servers directory.
+  evidence:
+    - "Listed as an official server in the awesome-mcp-servers list with the purpose: 'Transform any website into structured data'."
+    - Scraped site context highlights 'MCP integration for Claude, direct API access for custom AI workflows' as a core feature.
+    - The product is an API-first tool for extracting structured data via natural language, explicitly targeting AI pipelines and developers.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:29.060Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

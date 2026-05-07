@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janreges__ai-distiller__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: AI Distiller is ultra‑fast, open‑source tool for intelligently extracting only the essential public APIs, types, and structure from large codebases. Compresses 90–98% of code into AI‑friendly context, integrates via CLI or MCP, supports 12+ languages, and AI prompt workflows for cleaner, cost‑effective AI development.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:51.536Z"
+    last_checked_at: "2026-05-06T22:44:31.038Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.536Z"
+      fetched_at: "2026-05-06T22:44:31.037Z"
       bytes: 51740
 insights:
-  summary: AI Distiller is an open-source CLI and MCP server that extracts public APIs, types, and structure from large codebases, compressing code by 90–98% to fit into AI context windows.
-  why_it_matters: It enables AI coding agents to understand entire project architectures without hitting context limits, reducing hallucinations and iterative debugging cycles.
-  mental_damage: We have finally engineered a tool to solve the context window problem by throwing away the implementations, leaving the AI to confidently invent them with even greater efficiency.
+  summary: AI Distiller is an open-source CLI tool that compresses large codebases by extracting only public APIs and structure, reducing code volume by 90–98% to fit into AI context windows.
+  why_it_matters: It allows developers to feed essential project structure to AI coding assistants without hitting context limits or wasting tokens on implementation details.
+  mental_damage: We have finally invented a tool to solve the problem of AI tools being too confused by the code we wrote with other AI tools.
   tags:
-    - context-engineering
-    - mcp
+    - context-compression
     - cli
-    - code-analysis
-    - compression
+    - mcp
+    - codebase-analysis
+    - token-optimization
   confidence: high
 curation:
   status: included
-  reason: This fits squarely into context-engineering as a distillation and compression tool designed to shape what the AI sees, and it also provides an MCP server for integration.
+  reason: The core novelty is context distillation and compression to improve what goes into the model, which aligns perfectly with Prompt & Context Engineering.
   evidence:
-    - Repo description explicitly states it 'Compresses 90–98% of code into AI‑friendly context' and integrates via MCP.
-    - README claims the tool solves the problem of limited context windows by extracting only essential interfaces and types.
-    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role in the MCP/context ecosystem.
+    - Repo description explicitly states it 'intelligently extracting only the essential public APIs... compresses 90–98% of code into AI-friendly context'.
+    - README states the main function is 'code distillation' to leave only public interfaces so 'AI uses the existing code exactly as it was designed'.
+    - The canonical_positives for context-engineering explicitly lists 'ai-distiller' as a positive example.
 placement:
   primary_category: context-engineering
-  section: null
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.536Z"
+    updated_at: "2026-05-06T22:44:31.038Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:41.791Z"
+    updated_at: "2026-05-06T23:03:36.041Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

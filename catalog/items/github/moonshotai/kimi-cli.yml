@@ -1,13 +1,13 @@
 id: github__moonshotai__kimi-cli
 kind: github-repo
-name: Kimi CLI
+name: kimi-cli
 canonical_url: https://github.com/moonshotai/kimi-cli
 identity:
   github_repo: moonshotai/kimi-cli
 provenance:
   discoveries:
     - id: discovery__github__moonshotai__kimi-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Kimi CLI](https://github.com/MoonshotAI/kimi-cli)** `⭐ 8.4k` `[Moonshot AI]` — Moonshot AI's CLI coding agent with skills, MCP support, and ACP IDE integration. Apache-2.0."
         confidence: high
     - id: discovery__github__moonshotai__kimi-cli__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8428
-    forks: 977
+    stars: 8437
+    forks: 980
     license: Apache-2.0
     archived: false
     created_at: "2025-10-15T12:58:03Z"
@@ -48,50 +48,50 @@ metadata:
     description: Kimi Code CLI is your next CLI agent.
     homepage: https://moonshotai.github.io/kimi-cli/
     topics: []
-    last_checked_at: "2026-05-05T21:03:46.806Z"
+    last_checked_at: "2026-05-06T22:45:24.873Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.806Z"
+      fetched_at: "2026-05-06T22:45:24.873Z"
       bytes: 5730
 insights:
-  summary: Kimi Code CLI is a terminal-native AI coding agent that reads and edits code, executes shell commands, and plans tasks autonomously, with support for MCP and IDE integrations.
-  why_it_matters: It offers developers a local, terminal-first agent workflow that integrates directly with VS Code, Zed, and JetBrains via the Agent Client Protocol.
-  mental_damage: Yet another CLI agent enters the ring, promising salvation while you wonder if switching shells for the fifth time this year is the real terminal enlightenment.
+  summary: Kimi Code CLI is a terminal-native AI agent that reads and edits code, executes shell commands, and autonomously plans development tasks.
+  why_it_matters: It gives developers a standalone, open-source coding assistant in the terminal that integrates with IDEs via ACP and supports MCP tooling for extended workflows.
+  mental_damage: Yet another CLI agent promising autonomy, ensuring you can now nervously watch a terminal tab plan your repo's destruction instead of just typing git commands yourself.
   tags:
     - cli
     - coding-agent
-    - ide-integration
-    - mcp
     - terminal
+    - mcp
+    - acp
   confidence: high
 curation:
   status: included
-  reason: The project is a terminal-native AI coding agent that directly plans, writes, edits, and debugs code inside a developer's workflow, fitting the coding-agents category perfectly.
+  reason: The product is a standalone terminal-native coding assistant that autonomously plans, edits, and executes tasks, matching the canonical shape of tools like Claude Code and Gemini CLI.
   evidence:
     - "Repo description states: 'Kimi Code CLI is your next CLI agent.'"
-    - README defines it as 'an AI agent that runs in the terminal, helping you complete software development tasks and terminal operations.'
+    - README lists core features as reading/editing code, executing shell commands, and autonomous planning.
     - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8428) exceeded threshold (150)
+  reason: Stars (8437) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:02.901Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.806Z"
+    updated_at: "2026-05-06T22:45:24.873Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:32.460Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

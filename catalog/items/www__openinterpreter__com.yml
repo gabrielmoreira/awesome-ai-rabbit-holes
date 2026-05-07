@@ -1,12 +1,12 @@
 id: www__openinterpreter__com
 kind: website
-name: Open Interpreter
+name: www.openinterpreter.com
 canonical_url: https://www.openinterpreter.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__openinterpreter__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,38 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Interpreter is a desktop-based AI agent that operates locally to edit documents, fill PDF forms, and automate file-based workflows.
+  why_it_matters: It offers developers a local, desktop-native agent that can directly manipulate files and documents without requiring cloud dependencies or deep IDE integration.
+  mental_damage: Another excuse to stop learning PDF APIs because an agent can theoretically click-and-type its way through your paperwork while you how-to the desktop automation.
+  tags:
+    - desktop-agent
+    - local-ai
+    - automation
+    - document-editing
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a standalone desktop agent focused on operating directly on local files and documents, matching the 'primary coding assistant or desktop agent' profile rather than an extension or framework.
+  evidence:
+    - Title identifies it as 'The Desktop Agent', establishing a standalone agent identity.
+    - Description states it lets users 'work alongside agents that can edit your documents, fill PDF forms, and more', emphasizing direct file manipulation.
+    - Listed in awesome-ai-agents under a section for autonomous agents with desktop/file capabilities.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T22:33:51.095Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-05T23:33:51.093Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.153Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:38.124Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

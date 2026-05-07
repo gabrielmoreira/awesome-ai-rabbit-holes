@@ -1,13 +1,13 @@
 id: github__kreneskyp__ix
 kind: github-repo
-name: IX
+name: ix
 canonical_url: https://github.com/kreneskyp/ix
 identity:
   github_repo: kreneskyp/ix
 provenance:
   discoveries:
     - id: discovery__github__kreneskyp__ix__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [IX](https://github.com/kreneskyp/ix)"
         confidence: high
     - id: discovery__github__kreneskyp__ix__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- [ix](https://github.com/kreneskyp/ix): Autonomous GPT-4 agent platform ![GitHub Repo stars](https://img.shields.io/github/stars/kreneskyp/ix?style=social)"
         confidence: high
     - id: discovery__github__kreneskyp__ix__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -67,50 +67,50 @@ metadata:
       - gpt-4
       - openai
       - python
-    last_checked_at: "2026-05-05T21:03:07.714Z"
+    last_checked_at: "2026-05-06T22:44:45.047Z"
     readme:
-      fetched_at: "2026-05-05T21:03:07.714Z"
+      fetched_at: "2026-05-06T22:44:45.047Z"
       bytes: 9549
 insights:
-  summary: A platform for designing, deploying, and scaling autonomous and semi-autonomous LLM-powered agents and workflows, featuring a no-code graph editor and multi-agent chat interface.
-  why_it_matters: It gives developers a visual control plane to build and horizontally scale teams of specialized agents that can delegate tasks, write code, and communicate with each other.
-  mental_damage: Just when you thought your sprint planning was safe, now you can delegate the tickets to a fleet of autonomous agents running on Celery workers that you also have to maintain.
+  summary: IX is a self-hosted platform for designing, deploying, and coordinating autonomous and semi-autonomous LLM-powered agents and workflows using a no-code graph editor and multi-agent chat interface.
+  why_it_matters: It provides developers with a visual workbench and scalable backend to build, test, and run teams of specialized agents that communicate and delegate tasks in parallel.
+  mental_damage: Just when you thought your standalone coding agent was complex enough, now you can architect an entire hierarchy of agents to delegate the delegation of your tasks.
   tags:
     - agents
+    - multi-agent
     - langchain
     - no-code
-    - orchestration
-    - python
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: This is an end-user platform for coordinating multiple agents and workflows with a UI and scaling backend, fitting agent-orchestration rather than a code-first SDK or a direct coding assistant.
+  reason: The platform's core identity is a no-code workbench and control plane for coordinating multiple agents, tasks, and workflows, rather than acting as a single coding assistant.
   evidence:
-    - Repo description explicitly calls it an 'Autonomous GPT-4 agent platform' with a no-code editor for cognitive logic.
-    - Features a multi-agent chat interface, moderator agent for delegation, and Celery/Docker-based horizontal scaling for agent workers.
-    - Listed in awesome-ai-agents and awesome-llm-agents directories under agent-focused sections.
+    - Repo description explicitly calls it an 'Autonomous GPT-4 agent platform'.
+    - README highlights a 'no-code Agent Editor' to build cognitive graphs and a 'Multi-Agent Chat interface' with a moderator agent.
+    - Architecture relies on a dockerized Celery message queue to scale a 'fleet of agents running in parallel'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (1041) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:16.705Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.660Z"
+    updated_at: "2026-05-06T22:12:15.578Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:07.714Z"
+    updated_at: "2026-05-06T22:44:45.047Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:35.878Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

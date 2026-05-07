@@ -1,13 +1,13 @@
 id: github__tencent__ncnn
 kind: github-repo
-name: NCNN
+name: ncnn
 canonical_url: https://github.com/tencent/ncnn
 identity:
   github_repo: tencent/ncnn
 provenance:
   discoveries:
     - id: discovery__github__tencent__ncnn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,17 +23,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 23184
+    forks: 4418
+    license: NOASSERTION
+    archived: false
+    created_at: "2017-06-30T10:55:37Z"
+    pushed_at: "2026-05-06T12:52:04Z"
+    description: ncnn is a high-performance neural network inference framework optimized for the mobile platform
+    homepage: ""
+    topics:
+      - android
+      - arm-neon
+      - artificial-intelligence
+      - caffe
+      - darknet
+      - deep-learning
+      - high-preformance
+      - inference
+      - ios
+      - keras
+      - mlir
+      - mxnet
+      - ncnn
+      - neural-network
+      - onnx
+      - pytorch
+      - riscv
+      - simd
+      - tensorflow
+      - vulkan
+    last_checked_at: "2026-05-06T22:46:42.614Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:42.614Z"
+      bytes: 26319
 insights:
   summary: null
   why_it_matters: null
@@ -48,22 +70,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (23184) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:42.614Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:31:56.939Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__tencent__ncnn: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

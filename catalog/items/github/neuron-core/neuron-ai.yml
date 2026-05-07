@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neuron-core__neuron-ai__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1900
+    stars: 1901
     forks: 209
     license: MIT
     archived: false
@@ -43,49 +43,50 @@ metadata:
       - llms
       - php
       - vector-database
-    last_checked_at: "2026-05-05T21:03:53.561Z"
+    last_checked_at: "2026-05-06T22:45:31.625Z"
     readme:
-      fetched_at: "2026-05-05T21:03:53.561Z"
+      fetched_at: "2026-05-06T22:45:31.625Z"
       bytes: 15038
 insights:
-  summary: Neuron AI is a PHP framework for building and orchestrating AI agents, supporting integration with LLMs, vector databases, memory, tools, and RAG workflows within existing PHP applications.
-  why_it_matters: It gives PHP developers a code-first, framework-native way to embed agentic behavior into Laravel or Symfony projects without switching ecosystems.
-  mental_damage: Another perfectly good backend language gets agentified, because apparently your CRUD app was lonely and wanted its own autonomous coworkers.
+  summary: Neuron AI is a PHP framework for building and orchestrating AI agents with support for LLMs, vector databases, memory, RAG, and MCP connectors, designed to integrate into existing PHP applications like Laravel and Symfony.
+  why_it_matters: It gives PHP developers a native, structured way to build agentic features into their ecosystem without switching stacks or wrestling with Python-first frameworks.
+  mental_damage: Finally, the PHP community can experience the same over-engineered multi-agent pipeline fatigue that the Python crowd has been enjoying for the last eighteen months.
   tags:
     - php
     - agent-framework
     - llm
-    - orchestration
+    - rag
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK/framework that developers import and use in their own PHP applications, which fits ai-frameworks rather than an end-user agent orchestration platform.
+  reason: This is a code-first library and framework that developers import and script against to build agentic applications, fitting squarely into Frameworks & SDKs.
   evidence:
-    - Repo description explicitly calls it 'The PHP Agentic Framework to build production-ready AI driven applications'
-    - README shows developers extending an Agent class, configuring providers, and calling $agent->chat() in PHP code
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > PHP & Java Frameworks'
+    - Repo description explicitly states it is 'The PHP Agentic Framework to build production-ready AI driven applications.'
+    - README shows usage via composer require and PHP class extension (extends Agent), confirming the code-first SDK pattern.
+    - Source list awesome-agent-orchestration categorizes it under 'Core Frameworks > PHP & Java Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1900) exceeded threshold (150)
+  reason: Stars (1901) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:53.561Z"
+    updated_at: "2026-05-06T22:45:31.625Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:23.694Z"
+    updated_at: "2026-05-06T23:17:05.732Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

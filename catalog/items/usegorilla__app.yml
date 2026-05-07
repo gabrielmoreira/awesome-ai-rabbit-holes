@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usegorilla__app__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,32 +35,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A multi-platform lead discovery SaaS that surfaces high-intent posts across Reddit, X, YouTube, TikTok, and LinkedIn, with an MCP server for running queries from inside AI coding agents.
-  why_it_matters: Developers building SaaS products can trigger lead-hunting workflows directly from their editor instead of context-switching to a marketing dashboard.
-  mental_damage: We have finally achieved the singularity where your IDE can now draft outreach messages to strangers on TikTok while you are trying to fix a CSS bug.
+  summary: Gorilla is a commercial SaaS lead-generation tool that searches social platforms for buying intent and offers an open-source MCP server to run lead hunts inside Claude Code, Cursor, and other MCP-compatible editors.
+  why_it_matters: It lets developers research and find early adopters for their side projects or SaaS products directly from their coding environment instead of switching to marketing dashboards.
+  mental_damage: We have finally reached the point where developers can hunt for their first paying customers from inside their IDE, because apparently shipping code was never the hard part anyway.
   tags:
     - mcp
     - lead-generation
     - marketing
-    - saas
-  confidence: high
+    - opensource
+  confidence: medium
 curation:
   status: included
-  reason: The product ships an MCP server that integrates with Claude Code, Cursor, and other agents, making it a developer-facing MCP tooling addition despite its marketing SaaS core.
+  reason: The product identity is primarily a lead-generation SaaS, but it ships an open-source MCP server as a first-class integration, making it a legitimate domain-specific MCP tool for developer workflows.
   evidence:
-    - "Scraped site clearly states: 'Gorilla ships as an open-source MCP server. Drop it into Claude Code, Cursor, Codex, or any MCP-compatible agent.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing, confirming MCP ecosystem inclusion.
-    - Primary product is lead discovery for founders, but the MCP integration is a first-class, documented interface for developers.
+    - Scraped site shows an explicit 'MCP server' section with config for ~/.claude.json and npx github:opusforge/gorilla-mcp.
+    - Pricing page lists 'API + MCP server access' as a built-in feature across paid tiers.
+    - Listed in awesome-mcp-servers under Marketing, confirming ecosystem recognition as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:48:57.414Z"
+    updated_at: "2026-05-06T22:30:52.917Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

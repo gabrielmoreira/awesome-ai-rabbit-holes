@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitsandbytes-foundation__bitsandbytes__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,28 +38,28 @@ metadata:
       - pytorch
       - qlora
       - quantization
-    last_checked_at: "2026-05-05T21:01:21.697Z"
+    last_checked_at: "2026-05-06T22:12:53.568Z"
     readme:
-      fetched_at: "2026-05-05T21:01:21.697Z"
+      fetched_at: "2026-05-06T22:12:53.568Z"
       bytes: 8091
 insights:
-  summary: bitsandbytes is a Python library that reduces memory usage for PyTorch-based LLM inference and training through 8-bit optimizers and 4-bit/8-bit quantization techniques like QLoRA and LLM.int8().
-  why_it_matters: It allows developers to run and fine-tune large language models on consumer-grade hardware by drastically cutting the VRAM and RAM required for the workload.
-  mental_damage: We have reached a point where the most exciting breakthrough in AI tooling is a library dedicated to helping our GPUs pretend they have more memory than they actually do.
+  summary: bitsandbytes is a PyTorch library that reduces memory consumption for LLM inference and training via 8-bit optimizers, 8-bit quantization (LLM.int8()), and 4-bit quantization (QLoRA).
+  why_it_matters: It enables developers to run and fine-tune large language models on consumer-grade hardware by dramatically lowering the memory footprint of standard PyTorch workflows.
+  mental_damage: Another existential reminder that the only thing standing between you and a locally hosted LLM is a clever quantization trick and 16GB of VRAM you don't have.
   tags:
     - quantization
     - pytorch
-    - llm-optimization
+    - llm-training
+    - memory-optimization
     - qlora
-    - local-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a general machine learning optimization library for PyTorch, not a developer-facing tool, agent, or infrastructure component for building software.
+  reason: Excluded because it is a low-level ML research library for model quantization and optimization, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - Repo description defines it as 'Accessible large language models via k-bit quantization for PyTorch', targeting ML training/inference.
-    - README focuses on ML compiler features like 8-bit optimizers, LLM.int8(), and QLoRA for model quantization.
-    - Listed in Awesome-LLMOps under 'Performance > ML Compiler', which is outside the scope of developer tooling/agents.
+    - Repo description explicitly states 'Accessible large language models via k-bit quantization for PyTorch'.
+    - README details 8-bit optimizers, LLM.int8(), and QLoRA as core features for inference and training memory reduction.
+    - Topics include llm, machine-learning, pytorch, qlora, and quantization, signaling an ML library rather than a dev-tooling product.
 placement:
   primary_category: null
   section: null
@@ -69,19 +69,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:21.697Z"
+    updated_at: "2026-05-06T22:12:53.568Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:57.106Z"
+    updated_at: "2026-05-06T22:24:25.159Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

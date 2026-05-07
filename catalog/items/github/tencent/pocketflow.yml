@@ -1,13 +1,13 @@
 id: github__tencent__pocketflow
 kind: github-repo
-name: PocketFlow
+name: pocketflow
 canonical_url: https://github.com/tencent/pocketflow
 identity:
   github_repo: tencent/pocketflow
 provenance:
   discoveries:
     - id: discovery__github__tencent__pocketflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,47 +23,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2911
+    forks: 492
+    license: NOASSERTION
+    archived: false
+    created_at: "2018-10-31T07:45:21Z"
+    pushed_at: "2023-03-31T22:23:33Z"
+    description: An Automatic Model Compression (AutoMC) framework for developing smaller and faster AI applications.
+    homepage: https://pocketflow.github.io
+    topics:
+      - automl
+      - computer-vision
+      - deep-learning
+      - mobile-app
+      - model-compression
+    last_checked_at: "2026-05-06T22:46:42.788Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:42.788Z"
+      bytes: 11451
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source model compression framework that automatically prunes, sparsifies, and quantizes deep learning models for efficient mobile and edge deployment.
+  why_it_matters: It lets developers automate the tedious hyper-parameter tuning of model compression to ship smaller, faster AI models without manually trading off accuracy.
+  mental_damage: Because nothing says 'modern developer experience' like spending three years tuning a framework just to make your neural network fit on a 2018 smartphone.
+  tags:
+    - model-compression
+    - auto-ml
+    - deep-learning
+    - model-optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is a general deep learning and AutoML infrastructure project for model compression, not a developer-facing AI coding tool, agent, or workflow product.
+  evidence:
+    - Repo description explicitly defines it as 'An Automatic Model Compression (AutoMC) framework for developing smaller and faster AI applications.'
+    - README focuses on pruning, quantization, and distillation of deep neural networks for mobile deployment, not coding assistance or developer workflows.
+    - Topics include automl, computer-vision, and deep-learning, with no coding-agent, IDE, or developer-tooling signals.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2911) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:42.788Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:57.333Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__michaelfeil__infinity
 kind: github-repo
-name: Infinity
+name: infinity
 canonical_url: https://github.com/michaelfeil/infinity
 identity:
   github_repo: michaelfeil/infinity
 provenance:
   discoveries:
     - id: discovery__github__michaelfeil__infinity__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -36,50 +36,50 @@ metadata:
       - bert-embeddings
       - llm
       - text-embeddings
-    last_checked_at: "2026-05-05T21:03:37.433Z"
+    last_checked_at: "2026-05-06T22:45:15.637Z"
     readme:
-      fetched_at: "2026-05-05T21:03:37.433Z"
+      fetched_at: "2026-05-06T22:45:15.637Z"
       bytes: 27885
 insights:
-  summary: Infinity is a high-throughput, low-latency REST API server for serving text embeddings, reranking models, and multimodal models like CLIP and ColPali.
-  why_it_matters: It allows developers to self-host a wide range of HuggingFace models with OpenAI-compatible APIs, optimizing inference via PyTorch, ONNX, or CTranslate2 across various hardware accelerators.
-  mental_damage: Yet another infrastructure piece promising to solve the 'I need embeddings now' problem, assuming you enjoy debugging Docker pulls and CUDA versions just to turn a sentence into a vector.
+  summary: Infinity is a high-throughput, low-latency REST API server for running text-embedding, reranking, CLIP, CLAP, and ColPali models locally or in self-hosted environments.
+  why_it_matters: Developers building RAG pipelines or semantic search can deploy any HuggingFace embedding model with OpenAI-compatible APIs and hardware acceleration without managing raw inference code.
+  mental_damage: Yet another opportunity to spend three days tuning a self-hosted embedding stack just to discover that your 'high-throughput' setup is still slower than the vendor API you were trying to replace.
   tags:
     - embeddings
+    - self-hosted
     - inference
-    - multimodal
     - rest-api
-    - serving
+    - local-ai
   confidence: high
 curation:
   status: included
-  reason: It is a self-hosted model serving stack for running AI models on your own hardware, which fits the local-ai category.
+  reason: Infinity is a self-hosted serving runtime for embeddings and reranking models with OpenAI-compatible APIs, fitting cleanly as local AI infrastructure rather than a coding assistant or framework.
   evidence:
-    - Repo description explicitly calls it a 'high-throughput, low-latency serving engine'.
-    - README highlights deployment on NVIDIA CUDA, AMD ROCM, CPU, and Apple MPS.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving'.
+    - Repo description explicitly defines it as a 'high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali'.
+    - README highlights self-hosted deployment with Docker, FastAPI, and support for NVIDIA CUDA, AMD ROCM, CPU, and Apple MPS accelerators.
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', reinforcing its identity as model-serving infrastructure.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (2787) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:18.002Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:37.433Z"
+    updated_at: "2026-05-06T22:45:15.637Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:27.279Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

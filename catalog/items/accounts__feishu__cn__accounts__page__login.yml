@@ -1,0 +1,74 @@
+id: accounts__feishu__cn__accounts__page__login
+kind: website
+name: login
+canonical_url: https://accounts.feishu.cn/accounts/page/login
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__accounts__feishu__cn__accounts__page__login__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: 通往AGI之路
+        extracted_url: https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e
+        surrounding_text: 29. [通往AGI之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Feishu/Lark accounts login page hosted on accounts.feishu.cn.
+  why_it_matters: It doesn't — this is an authentication endpoint, not a developer tool.
+  mental_damage: We have officially reached the point where someone's login page is being treated as a valuable LLM resource.
+  tags:
+    - not-a-tool
+    - off-topic
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL points to a Feishu accounts login page, which is an authentication endpoint and not a developer-facing AI tool, agent, framework, or resource.
+  evidence:
+    - URL is https://accounts.feishu.cn/accounts/page/login, a login page
+    - No repo description, README, homepage, or code artifacts provided
+    - Listed in awesome-LLM-resources under '课程 Course', suggesting it is a course link or misclassified resource, not a tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:08.993Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

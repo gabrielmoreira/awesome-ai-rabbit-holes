@@ -1,0 +1,78 @@
+id: genai__handbook__github__io
+kind: website
+name: genai-handbook.github.io
+canonical_url: https://genai-handbook.github.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__genai__handbook__github__io__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: "《Generative AI Handbook: A Roadmap for Learning Resources》"
+        extracted_url: https://genai-handbook.github.io
+        surrounding_text: "7. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A living, textbook-style roadmap organizing scattered blog posts, videos, and papers into a structured learning path for understanding modern generative AI fundamentals.
+  why_it_matters: Provides developers with a curated, sequential guide to fill gaps in LLM, diffusion, and agent fundamentals without sifting through fragmented internet resources.
+  mental_damage: Yet another beautifully organized reminder that while you are debugging a CSS flexbox issue, the rest of the world is busy mastering state-space models and stochastic differential equations.
+  tags:
+    - learning-resource
+    - llm-fundamentals
+    - roadmap
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational guide and reference document, not a developer tool, agent, framework, or product, and therefore falls outside the catalog's scope of practical AI tooling.
+  evidence:
+    - Scraped site excerpt describes it as a 'handbook for learning' and a 'roadmap for filling in prerequisites', not a tool.
+    - Appears in awesome-LLM-resources under the '书籍 Book' (Books) section, indicating it is curated as a learning resource.
+    - No code, CLI, IDE integration, or operational tooling is described; it primarily links to external blogs, videos, and papers.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.661Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:19.956Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

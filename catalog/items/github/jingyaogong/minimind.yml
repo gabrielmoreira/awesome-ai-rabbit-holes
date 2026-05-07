@@ -1,0 +1,83 @@
+id: github__jingyaogong__minimind
+kind: github-repo
+name: minimind
+canonical_url: https://github.com/jingyaogong/minimind
+identity:
+  github_repo: jingyaogong/minimind
+provenance:
+  discoveries:
+    - id: discovery__github__jingyaogong__minimind__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: MiniMind
+        extracted_url: https://github.com/jingyaogong/minimind
+        surrounding_text: "17. [MiniMind](https://github.com/jingyaogong/minimind): 3小时完全从0训练一个仅有26M的小参数GPT，最低仅需2G显卡即可推理训练."
+        confidence: high
+metadata:
+  github:
+    stars: 49022
+    forks: 6213
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-07-27T04:34:12Z"
+    pushed_at: "2026-05-06T07:07:35Z"
+    description: 🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!
+    homepage: https://jingyaogong.github.io/minimind
+    topics:
+      - artificial-intelligence
+      - large-language-model
+    last_checked_at: "2026-05-06T22:44:34.964Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:34.964Z"
+      bytes: 136350
+insights:
+  summary: A from-scratch tutorial and minimalist PyTorch implementation for training a 64M parameter language model in roughly two hours on a single consumer GPU.
+  why_it_matters: It strips away high-level abstractions to give developers a fully transparent, low-cost pathway into LLM pretraining, SFT, RLHF, and agentic RL internals.
+  mental_damage: You will now spend a weekend training a 64M model just to prove you understand transformers, only to immediately return to prompting a 200B model to fix your CSS.
+  tags:
+    - llm-training
+    - pytorch
+    - tutorial
+    - local-ai
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: While very popular, this is an educational tutorial and model-training repo for understanding LLM internals, not a developer-facing AI tool, agent, or infrastructure product.
+  evidence:
+    - "Repo description explicitly frames it as a tutorial: 'Train a 64M-parameter LLM from scratch in just 2h!'"
+    - "README states: 'This is not only a large language model full-stage open-source reproduction project, but also a set of tutorials for LLM introduction and practice.'"
+    - Seen in awesome-LLM-resources under 'Tips', which is a general ML/LLM learning list, not a developer-tooling directory.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (49022) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.622Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:34.964Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:22.016Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

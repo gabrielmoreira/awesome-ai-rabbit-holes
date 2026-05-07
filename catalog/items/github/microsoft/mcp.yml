@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__mcp__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -25,59 +25,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3096
-    forks: 479
+    stars: 3100
+    forks: 480
     license: MIT
     archived: false
     created_at: "2025-04-09T04:12:30Z"
-    pushed_at: "2026-05-05T20:55:02Z"
+    pushed_at: "2026-05-06T21:59:33Z"
     description: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:38.856Z"
+    last_checked_at: "2026-05-06T22:45:16.859Z"
     readme:
-      fetched_at: "2026-05-05T21:03:38.856Z"
+      fetched_at: "2026-05-06T22:45:16.859Z"
       bytes: 40788
 insights:
-  summary: A Microsoft-maintained catalog and engineering system for official MCP server implementations, including Azure MCP and Microsoft Fabric MCP servers.
-  why_it_matters: It provides a unified, supported foundation for developers to connect AI applications to Microsoft ecosystems like Azure and Fabric using the standardized Model Context Protocol.
-  mental_damage: "Just what we needed: another layer of standardised context protocols to help us feel productive while debugging why the AI can't find our storage account."
+  summary: A Microsoft-maintained catalog and engineering system for building official MCP (Model Context Protocol) servers, including Azure and Fabric integrations.
+  why_it_matters: It provides the scaffolding, shared libraries, and release pipelines needed to build consistent MCP servers that connect AI tools to Microsoft data platforms.
+  mental_damage: Just when you thought the protocol wars were over, Microsoft gives you an official starter pack so you can spend your weekend debating whether an Azure resource group should be exposed as a tool or a resource.
   tags:
     - mcp
     - microsoft
-    - azure
     - protocol
-    - server
+    - servers
+    - azure
   confidence: high
 curation:
   status: included
-  reason: The repository is a collection of official Microsoft MCP server implementations and the tooling to build them, making it a canonical fit for the MCP infrastructure category.
+  reason: The repository is a core engineering system and catalog for building Microsoft MCP servers, making MCP infrastructure its primary product identity.
   evidence:
     - Repo description explicitly states it is a 'Catalog of official Microsoft MCP (Model Context Protocol) server implementations'.
-    - README details the engineering systems, pipelines, and tooling for Microsoft MCP Server contributors.
-    - Included in awesome-agent-orchestration under 'Agent Communication Protocols > MCP > Official Resources'.
+    - README positions the repo as containing 'core libraries, test frameworks, engineering systems, pipelines, and tooling for Microsoft MCP Server contributors'.
+    - Seen in source lists under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official Resources'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3096) exceeded threshold (150)
+  reason: Stars (3100) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:38.856Z"
+    updated_at: "2026-05-06T22:45:16.859Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:31.182Z"
+    updated_at: "2026-05-06T23:13:43.024Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

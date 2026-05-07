@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brightdata__brightdata-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2342
-    forks: 301
+    stars: 2346
+    forks: 302
     license: MIT
     archived: false
     created_at: "2025-04-15T10:55:56Z"
@@ -48,50 +48,50 @@ metadata:
       - web-crawling
       - web-data
       - web-scraping
-    last_checked_at: "2026-05-05T21:01:25.309Z"
+    last_checked_at: "2026-05-06T22:12:57.187Z"
     readme:
-      fetched_at: "2026-05-05T21:01:25.309Z"
+      fetched_at: "2026-05-06T22:12:57.187Z"
       bytes: 19475
 insights:
-  summary: A Model Context Protocol server that provides AI agents with real-time web access for scraping, package metadata lookups, and LLM brand visibility queries.
-  why_it_matters: It allows coding agents like Claude Code and Cursor to fetch live npm/PyPI data and web content without getting blocked by anti-bot measures.
-  mental_damage: We have now successfully abstracted the act of reading the documentation into a paid API call that requires an MCP server to avoid a CAPTCHA.
+  summary: A Model Context Protocol server providing AI assistants with real-time web access, including scraping, browser automation, and package metadata lookups for npm and PyPI.
+  why_it_matters: It allows coding agents like Claude Code and Cursor to fetch live web data and dependency info without getting blocked by anti-bot measures.
+  mental_damage: Your agent can now hallucinate about the current state of npm packages with the confidence of a human who only reads marketing blogs.
   tags:
-    - mcp
+    - mcp-server
     - web-scraping
-    - coding-agent-tools
-    - npm
-    - pypi
+    - ai-agent
+    - brightdata
+    - real-time-data
   confidence: high
 curation:
   status: included
-  reason: The project is specifically an MCP server designed to integrate web data capabilities into AI agents and coding workflows.
+  reason: The product's primary identity is an MCP server designed to give LLMs web access and package data, fitting squarely into the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly defines it as 'A powerful Model Context Protocol (MCP) server'.
-    - README highlights specific integration with coding agents for npm/PyPI lookups (GROUPS='code').
-    - Listed in awesome-mcp-servers under 'Official Servers'.
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server'.
+    - README pitches 'The Web MCP' as a gateway to give AI assistants web capabilities via MCP.
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2342) exceeded threshold (150)
+  reason: Stars (2346) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:25.309Z"
+    updated_at: "2026-05-06T22:12:57.187Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:38.954Z"
+    updated_at: "2026-05-06T22:25:09.214Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shinpr__mcp-local-rag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 250
+    forks: 47
+    license: MIT
+    archived: false
+    created_at: "2025-10-31T11:44:14Z"
+    pushed_at: "2026-04-23T09:49:30Z"
+    description: Local-first RAG server for developers. Semantic + keyword search for code and technical docs. Works with MCP or CLI. Fully private, zero setup.
+    homepage: ""
+    topics:
+      - agent-skills
+      - developer-tools
+      - hybrid-search
+      - local-first
+      - local-rag
+      - mcp
+      - mcp-server
+      - privacy-first
+      - rag
+      - semantic-search
+      - skills
+      - vector-search
+    last_checked_at: "2026-05-06T22:46:23.003Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.003Z"
+      bytes: 18751
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local-first RAG server that lets developers semantically and keyword search code and technical docs via MCP or CLI, running fully offline with zero setup.
+  why_it_matters: It gives AI coding assistants private, zero-cost access to internal specs and docs without leaking sensitive data to external APIs.
+  mental_damage: Yet another clever way to feed your local LLM more context, because apparently the real bottleneck was never the model—it was our ability to hoard PDFs.
+  tags:
+    - rag
+    - local-first
+    - mcp
+    - semantic-search
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a purpose-built MCP server for local document retrieval and search, directly fitting the MCP Servers & Tooling category with domain-specific (RAG) utility.
+  evidence:
+    - "Repo description explicitly states: 'Local-first RAG server for developers... Works with MCP or CLI.'"
+    - README highlights MCP integration examples for Cursor, Codex, and Claude Code as primary usage paths.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory', aligning with its MCP server identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (250) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.003Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:19.584Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

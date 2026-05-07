@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1broseidon__promptext__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 21
+    stars: 22
     forks: 1
     license: MIT
     archived: false
@@ -51,50 +51,50 @@ metadata:
       - prompt-engineering
       - prompt-generator
       - tokenizer
-    last_checked_at: "2026-05-05T21:00:43.890Z"
+    last_checked_at: "2026-05-06T22:12:20.143Z"
     readme:
-      fetched_at: "2026-05-05T21:00:43.890Z"
+      fetched_at: "2026-05-06T22:12:20.143Z"
       bytes: 16110
 insights:
-  summary: A Go-based CLI tool that analyzes a codebase, ranks files by relevance, and packages them into token-efficient formats for pasting into LLM chats.
-  why_it_matters: It automates the tedious and error-prone work of selecting and formatting code context, helping developers stay within token limits and reduce API costs.
-  mental_damage: We have finally built a tool to manage the tragic reality that our context windows are too small for the sprawling monoliths we blindly feed to ChatGPT.
+  summary: A Go-based CLI tool that analyzes a codebase, ranks files by relevance, and packages them into token-efficient formats for pasting into LLM chat interfaces.
+  why_it_matters: It automates the tedious manual selection of files and handles token budgeting, allowing developers to feed optimized project context into AI assistants without hitting context limits.
+  mental_damage: Because clearly the missing piece in our workflow wasn't better code, but a specialized compiler that translates your entire repo into a dialect of markdown only a transformer can love.
   tags:
     - cli
-    - context-engineering
-    - prompt-tooling
+    - context-compression
     - go
-    - token-management
-  confidence: medium
+    - token-budget
+    - prompt-engineering
+  confidence: high
 curation:
   status: included
-  reason: It is a context-shaping system designed to pack, compress, and manage code context for LLMs, which fits the Prompting and Context Engineering category.
+  reason: The core novelty is context packing, relevance scoring, and token compression to optimize what gets sent to the model, which aligns perfectly with Prompt & Context Engineering.
   evidence:
-    - Repo description explicitly calls it a 'Smart code context extractor for AI assistants'.
-    - README claims 25-60% token reduction and uses 'cl100k_base' tokenizer for accurate counting.
-    - Listed in Awesome-LLMOps under 'Code AI', aligning with developer tooling.
+    - Repo description explicitly states 'Smart code context extractor for AI assistants'.
+    - README claims 'token-efficient tool that transforms your code into optimized context' with '25-60% token reduction'.
+    - Features include automatic relevance scoring, enforced token budgets via tiktoken, and specialized output formats (PTX, TOON).
 placement:
   primary_category: context-engineering
-  section: null
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:43.890Z"
+    updated_at: "2026-05-06T22:12:20.143Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:55.024Z"
+    updated_at: "2026-05-06T22:17:31.478Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

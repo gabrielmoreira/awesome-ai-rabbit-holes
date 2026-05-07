@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fund-z__fundzwatch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,49 +47,50 @@ metadata:
       - model-context-protocol
       - sales-intelligence
       - windsurf
-    last_checked_at: "2026-05-05T21:02:15.620Z"
+    last_checked_at: "2026-05-06T22:43:57.476Z"
     readme:
-      fetched_at: "2026-05-05T21:02:15.620Z"
+      fetched_at: "2026-05-06T22:43:57.476Z"
       bytes: 4265
 insights:
-  summary: An MCP server that exposes real-time business events, AI-scored sales leads, and market intelligence from FundzWatch.ai to Claude, Cursor, and Windsurf.
-  why_it_matters: Developers building sales or market-intelligence agents can wire live funding, acquisition, and lead-scoring data directly into their AI-assisted workflows without building custom scrapers.
-  mental_damage: Another MCP server so your AI can pitch you Series B rounds while you are just trying to close a div tag.
+  summary: An MCP server that exposes FundzWatch.ai's real-time business events, AI-scored leads, and market intelligence data to Claude, Cursor, and Windsurf.
+  why_it_matters: It lets developers query funding rounds, acquisitions, and sales leads directly from their coding agent instead of switching to a separate sales-intelligence dashboard.
+  mental_damage: Your coding assistant can now tell you which startups just raised Series B while you are debugging a 500 error, ensuring maximum context-switching under the guise of productivity.
   tags:
     - mcp
     - sales-intelligence
-    - market-data
-    - funding-tracker
+    - funding-data
+    - cursor
+    - claude
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server that integrates FundzWatch data into MCP-compatible developer tools, which fits the MCP category cleanly.
+  reason: The product's primary identity is an MCP server that gives agents access to a specific domain data source, which fits cleanly as a domain server in MCP Servers & Tooling.
   evidence:
-    - Repo description states it is an 'MCP server for FundzWatch.ai' for Claude, Cursor, and Windsurf.
-    - README documents MCP configuration for Claude Desktop, Cursor, and Windsurf with npm-based server setup.
-    - Listed under 'Server Implementations > Finance & Fintech' in awesome-mcp-servers.
+    - Repo description explicitly states 'MCP server for FundzWatch.ai' with Claude, Cursor, and Windsurf integrations.
+    - README positions it as 'Real-time business event intelligence for AI agents via Model Context Protocol' with MCP configuration examples.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:15.620Z"
+    updated_at: "2026-05-06T22:43:57.476Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:19.209Z"
+    updated_at: "2026-05-06T22:56:45.761Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

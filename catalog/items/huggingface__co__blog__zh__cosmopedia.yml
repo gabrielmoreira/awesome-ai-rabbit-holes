@@ -1,0 +1,78 @@
+id: huggingface__co__blog__zh__cosmopedia
+kind: website
+name: cosmopedia
+canonical_url: https://huggingface.co/blog/zh/cosmopedia
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__blog__zh__cosmopedia__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 小语言模型 Small Language Model
+        anchor_text: 使用Cosmopedia训练cosmo-1b
+        extracted_url: https://huggingface.co/blog/zh/cosmopedia
+        surrounding_text: 9. https://github.com/loubnabnl/nanotron-smol-cluster ([使用Cosmopedia训练cosmo-1b](https://huggingface.co/blog/zh/cosmopedia))
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cosmopedia is a large-scale synthetic dataset and open pipeline for pretraining small language models using Mixtral-generated textbooks, stories, and instructional content.
+  why_it_matters: It gives developers an open, reproducible way to pretrain capable small models without relying on closed Phi-style data or expensive human-labeled corpora.
+  mental_damage: We have collectively decided that the best way to teach models to reason is to have slightly larger models hallucinate textbooks at industrial scale.
+  tags:
+    - synthetic-data
+    - slm
+    - pretraining
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a research dataset and blog post about model pretraining rather than a developer-facing AI tool, agent, workflow, or infrastructure product.
+  evidence:
+    - The link resolves to a Hugging Face blog post explaining the Cosmopedia dataset, not a usable developer tool.
+    - Its primary outputs are a dataset (31M samples) and a 1B pretrained model, not tooling for coding workflows.
+    - Appears in awesome-LLM-resources under 'Small Language Model' as an educational/research resource, not a developer product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:56.518Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

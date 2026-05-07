@@ -1,13 +1,13 @@
 id: github__ten-framework__ten-framework
 kind: github-repo
-name: ten_framework
+name: ten-framework
 canonical_url: https://github.com/ten-framework/ten-framework
 identity:
   github_repo: ten-framework/ten-framework
 provenance:
   discoveries:
-    - id: discovery__github__ten-framework__ten_framework__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__ten-framework__ten-framework__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,47 +23,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 10493
+    forks: 1268
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-06-19T14:26:15Z"
+    pushed_at: "2026-05-06T07:40:15Z"
+    description: " Open-source framework for conversational voice AI agents"
+    homepage: https://agent.theten.ai/
+    topics:
+      - ai
+      - multi-modal
+      - real-time
+      - video
+      - voice
+    last_checked_at: "2026-05-06T22:46:42.228Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:42.228Z"
+      bytes: 23934
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source framework for building real-time, multimodal conversational AI agents with support for voice, video, and extensions like memory and turn detection.
+  why_it_matters: It gives developers a structured way to build low-latency voice and video AI agents with pluggable extensions instead of wiring raw model APIs by hand.
+  mental_damage: Yet another framework promising that this time, stitching LLMs into real-time voice apps will definitely not turn into a multithreaded nightmare of VAD configs and WebSocket edge cases.
+  tags:
+    - voice-ai
+    - multimodal
+    - real-time
+    - agent-framework
+    - conversational-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a code-first framework developers use to build conversational voice and multimodal agents, not a hosted platform or IDE.
+  evidence:
+    - Repo description states it is an 'Open-source framework for conversational voice AI agents'.
+    - README describes TEN as an 'open-source framework for real-time multimodal conversational AI' with examples and extensions.
+    - Developers build with it via examples, Docker, and integrations like ESP32, showing a framework/SDK usage model.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (10493) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:42.228Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:52.370Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

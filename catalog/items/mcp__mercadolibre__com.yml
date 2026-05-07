@@ -1,12 +1,12 @@
 id: mcp__mercadolibre__com
 kind: website
-name: Mercado Libre
+name: mcp.mercadolibre.com
 canonical_url: https://mcp.mercadolibre.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__mercadolibre__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An official Model Context Protocol server for MercadoLibre that exposes e-commerce data and actions to MCP-compatible AI clients.
-  why_it_matters: It lets AI coding assistants and agents query live MercadoLibre marketplace data and automate commerce workflows without bespoke API glue code.
-  mental_damage: Another official MCP server drops, inching us closer to an ecosystem where your agent has ten tabs open, a dozen tokens burning, and still can't decide whether to buy a USB cable.
+  summary: An official MCP server that exposes MercadoLibre e-commerce data and APIs to AI models and agents via the Model Context Protocol.
+  why_it_matters: It allows AI coding agents and assistants to directly query product listings, orders, and seller data in the MercadoLibre ecosystem without custom API glue code.
+  mental_damage: Because nothing says 'streamlined developer experience' like adding a protocol translation layer just to let your AI ask a regional e-commerce platform how many used iPhones are in stock.
   tags:
-    - agent-integration
-    - ecommerce
     - mcp
+    - e-commerce
     - mercadolibre
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The project is an official MCP server listed in the awesome-mcp-servers directory, making it a clear fit for the MCP Servers and Tooling category.
+  reason: The product is an official MCP server for a specific domain (MercadoLibre), which fits exactly into the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - URL is https://mcp.mercadolibre.com, indicating an official MCP server from MercadoLibre.
+    - URL is mcp.mercadolibre.com, indicating an MCP-first product identity.
     - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - No conflicting signals found; no repo description or README scraped, but the domain and list placement are conclusive.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:19.654Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:33.608Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__whylabs__langkit
 kind: github-repo
-name: LangKit
+name: langkit
 canonical_url: https://github.com/whylabs/langkit
 identity:
   github_repo: whylabs/langkit
 provenance:
   discoveries:
     - id: discovery__github__whylabs__langkit__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,6 +20,21 @@ provenance:
         anchor_text: LangKit
         extracted_url: https://github.com/whylabs/langkit
         surrounding_text: "| [LangKit](https://github.com/whylabs/langkit)                      | Out-of-the-box LLM telemetry collection library that extracts features and profiles prompts, responses and metadata about how your LLM is performing over time to find problems at scale.                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/whylabs/langkit.svg?style=flat-square)                |"
+        confidence: high
+    - id: discovery__github__whylabs__langkit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: LangKit
+        extracted_url: https://github.com/whylabs/langkit
+        surrounding_text: "30. [LangKit](https://github.com/whylabs/langkit): An open-source toolkit for monitoring Large Language Models (LLMs). Extracts signals from prompts & responses, ensuring safety & security."
         confidence: high
 metadata:
   github:
@@ -51,19 +66,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.724Z"
+    updated_at: "2026-05-06T22:12:15.595Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

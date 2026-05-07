@@ -1,12 +1,12 @@
 id: www__capably__ai
 kind: website
-name: AgentRunner.ai
+name: www.capably.ai
 canonical_url: https://www.capably.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__capably__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Capably is an enterprise SaaS platform that provides a unified hub for natural language-driven business process automation, task delegation, and industry-specific AI capabilities.
-  why_it_matters: It represents a class of no-code operational automation tools that developers may be asked to integrate with or evaluate when enterprises want to deploy 'agentic AI' without writing code.
-  mental_damage: Another platform promising that 'anyone' can automate work with AI, ensuring developers will still be the ones debugging the 'deterministic outcomes' when the NLMP interface inevitably misinterprets the CFO's intent.
+  summary: Capably is an enterprise-focused AI automation platform that uses agentic workflows and natural language interfaces to automate repetitive business tasks across departments like marketing, retail, and finance.
+  why_it_matters: It offers a pre-built AI capability library and APA engine designed to turn complex operational workflows into delegated tasks without requiring deep coding expertise.
+  mental_damage: Yet another 'enterprise AI' platform promising to save 60 hours a week, presumably by automating the very task of figuring out why the last AI automation failed.
   tags:
-    - agents
     - enterprise-ai
-    - nlp
-    - process-automation
+    - automation
+    - agents
+    - workflow
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose enterprise business operations platform targeting non-technical employees, not a developer tool for writing code, building apps, or managing infrastructure.
+  reason: This is a general enterprise SaaS automation platform for business users (media planning, inventory, claims), not a developer-facing tool, coding agent, or infrastructure component.
   evidence:
-    - Site description focuses on 'employee efficiency' and 'company intelligence' across industries like Retail, Healthcare, and Finance, not developer workflows.
-    - The 'NLMP Interface' is described as a 'simple interface for letting everyone in the company automate work,' targeting business users rather than coders.
-    - No GitHub repo, code-first SDK, or developer-facing API/CLI surface is evident in the scraped context; it is a 'Book a demo' SaaS product.
+    - The site describes itself as 'Enterprise AI technology' focusing on 'media planning, campaign reporting, and audience segmentation' rather than code.
+    - The 'NLMP Interface' is described as a 'simple interface for letting everyone in the company automate work', targeting business users, not developers.
+    - Source list context ('awesome-local-ai') places it in 'Agents', but the product itself is a hosted enterprise service, not a local developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:02.636Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:20.305Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

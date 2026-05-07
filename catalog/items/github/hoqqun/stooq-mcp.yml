@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hoqqun__stooq-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: 🦀 Rust MCP server for stock prices from stooq.com | 株価取得MCPサーバー
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:35.870Z"
+    last_checked_at: "2026-05-06T22:44:16.616Z"
     readme:
-      fetched_at: "2026-05-05T21:02:35.870Z"
+      fetched_at: "2026-05-06T22:44:16.616Z"
       bytes: 3724
 insights:
-  summary: A Rust-based Model Context Protocol server that fetches real-time and historical stock price data from stooq.com for integration with AI assistants like Claude.
-  why_it_matters: It allows developers to query financial data directly within their AI coding workflows, enabling the rapid prototyping of trading tools without building custom scrapers.
-  mental_damage: We have successfully built a bridge between trillion-parameter reasoning engines and a website scraping CSV files, because apparently, this is the future of financial infrastructure.
+  summary: A Rust-based MCP server that fetches real-time and historical stock price data from stooq.com for integration with coding assistants like Claude Code and Claude Desktop.
+  why_it_matters: It lets developers query multi-market stock data directly from their AI assistant instead of leaving the IDE to check financial terminals.
+  mental_damage: We have successfully abstracted away the effort of opening a browser, so that your coding agent can now confidently misquote the Tokyo Stock Exchange while you debug a React component.
   tags:
     - mcp
     - rust
     - finance
     - stocks
-    - data
+    - claude
   confidence: high
 curation:
   status: included
-  reason: The project is a distinct MCP server implementation designed to provide financial data tools to AI hosts, fitting the MCP Servers and Tooling category.
+  reason: The project's identity is an MCP server for a specific domain (finance), fitting cleanly into MCP Servers & Tooling as a domain-specific implementation.
   evidence:
-    - Repo description explicitly states 'Rust MCP server for stock prices'.
-    - README details integration with Claude Code and Claude Desktop via MCP configuration.
-    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech'.
+    - "Repo description explicitly states: 'Rust MCP server for stock prices from stooq.com'."
+    - README demonstrates MCP identity by showing registration with Claude Code and Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:35.870Z"
+    updated_at: "2026-05-06T22:44:16.616Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:19.006Z"
+    updated_at: "2026-05-06T23:00:34.647Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

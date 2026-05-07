@@ -6,8 +6,8 @@ identity:
   github_repo: robocular/frostbyte-mcp
 provenance:
   discoveries:
-    - id: discovery__github__ozorown__frostbyte-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__robocular__frostbyte-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -46,50 +46,49 @@ metadata:
       - screenshot
       - web-scraping
       - windsurf
-    last_checked_at: "2026-05-05T21:04:10.274Z"
+    last_checked_at: "2026-05-06T22:46:11.036Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.274Z"
+      fetched_at: "2026-05-06T22:46:11.036Z"
       bytes: 4802
 insights:
-  summary: An MCP server that exposes 40+ developer APIs—including geolocation, code execution, web scraping, and DNS lookups—to AI agents via SSE, Streamable HTTP, or stdio transports.
-  why_it_matters: It turns any MCP-compatible client into a gateway for instant API access without writing integration code or managing multiple service keys.
-  mental_damage: We have successfully abstracted away the 'burden' of reading API documentation by making our AI agents the ones that now need to figure out which of these 40 tools actually does the thing.
+  summary: An MCP server that exposes 40+ developer APIs, including geolocation, crypto prices, DNS, web scraping, and code execution, to MCP-compatible AI agents and editors.
+  why_it_matters: It lets developers instantly give their AI agents capabilities like live crypto prices, DNS lookups, and remote code execution without writing custom integrations.
+  mental_damage: Another MCP server joins the ecosystem, promising to shave seconds off your workflow while adding yet another moving part to debug when the agent inevitably calls `run_code` on a Saturday.
   tags:
-    - agent-infrastructure
-    - api-gateway
-    - cursor
-    - developer-tools
     - mcp
-  confidence: medium
+    - api-gateway
+    - agent-tools
+    - developer-apis
+  confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that provides tooling infrastructure for AI agents, fitting cleanly into the MCP category.
+  reason: The product is an MCP server that proxies a broad API gateway to give agents access to developer tools, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server giving AI agents access to 40+ developer APIs'."
-    - README details SSE, Streamable HTTP, and stdio transports for Claude, Cursor, Windsurf, and VS Code.
-    - Listed in awesome-mcp-list under the 'Developer Tools' section, confirming MCP ecosystem relevance.
+    - Repo description explicitly states 'MCP server giving AI agents access to 40+ developer APIs'.
+    - README details integration with Claude Desktop, Cursor, Windsurf, and VS Code via SSE and HTTP MCP endpoints.
+    - Topics include 'mcp' and 'model-context-protocol', confirming MCP as the primary product identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:28.326Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.274Z"
+    updated_at: "2026-05-06T22:46:11.036Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:54.124Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

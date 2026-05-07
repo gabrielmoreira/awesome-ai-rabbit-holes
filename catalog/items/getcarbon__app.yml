@@ -1,12 +1,12 @@
 id: getcarbon__app
 kind: website
-name: Carbon Voice
+name: getcarbon.app
 canonical_url: https://getcarbon.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__getcarbon__app__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [PhononX/cv-mcp-server](https://github.com/PhononX/cv-mcp-server) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCP Server that connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app)."
         confidence: high
     - id: discovery__getcarbon__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,42 +50,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Getcarbon.app is a Model Context Protocol (MCP) server implementation focused on communication tools.
-  why_it_matters: It provides developers with a plug-and-play MCP server to extend AI assistants with communication capabilities.
-  mental_damage: Another entry in the MCP ecosystem that solves the critical problem of explaining to your agent how to send a message, assuming you can first solve the problem of getting the agent to run reliably.
-  tags:
-    - communication
-    - mcp
-    - server
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly listed as an MCP server implementation in the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
-  evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
-    - URL points to getcarbon.app, identifying it as an MCP server tool.
-    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:38.969Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:34:07.955Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for getcarbon__app: 你好，我无法给到相关内容。"
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

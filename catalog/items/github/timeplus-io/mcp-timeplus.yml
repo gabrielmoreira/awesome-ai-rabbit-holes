@@ -6,8 +6,8 @@ identity:
   github_repo: timeplus-io/mcp-timeplus
 provenance:
   discoveries:
-    - id: discovery__github__jovezhong__mcp-timeplus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__timeplus-io__mcp-timeplus__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/jovezhong/mcp-timeplus
         surrounding_text: "- [jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus) 🐍 ☁️ - MCP server for Apache Kafka and Timeplus. Able to list Kafka topics, poll Kafka messages, save Kafka data locally and query streaming data with SQL via Timeplus"
         confidence: high
-    - id: discovery__github__jovezhong__mcp-timeplus__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__timeplus-io__mcp-timeplus__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,22 +36,6 @@ provenance:
         anchor_text: jovezhong/mcp-timeplus
         extracted_url: https://github.com/jovezhong/mcp-timeplus
         surrounding_text: "-   **[jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus)** [![GitHub stars](https://img.shields.io/github/stars/jovezhong/mcp-timeplus?style=social)](https://github.com/jovezhong/mcp-timeplus): Manages Apache Kafka topics and queries streaming data via Timeplus SQL."
-        confidence: high
-    - id: discovery__github__timeplus-io__mcp-timeplus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🗄️ <a name="databases"></a>Databases
-        anchor_text: jovezhong/mcp-timeplus
-        extracted_url: https://github.com/jovezhong/mcp-timeplus
-        surrounding_text: "- [jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus) 🐍 ☁️ - MCP server for Apache Kafka and Timeplus. Able to list Kafka topics, poll Kafka messages, save Kafka data locally and query streaming data with SQL via Timeplus"
         confidence: high
 metadata:
   github:
@@ -70,50 +54,50 @@ metadata:
       - kafka
       - mcp-server
       - spark
-    last_checked_at: "2026-05-05T21:03:00.094Z"
+    last_checked_at: "2026-05-06T22:46:50.199Z"
     readme:
-      fetched_at: "2026-05-05T21:03:00.094Z"
+      fetched_at: "2026-05-06T22:46:50.199Z"
       bytes: 5998
 insights:
-  summary: An MCP server that lets LLMs execute SQL queries, manage databases, and interact with Kafka and Iceberg tables inside a Timeplus cluster.
-  why_it_matters: Developers can wire Timeplus into MCP clients like Claude Desktop so their assistants can directly query streaming data, Kafka topics, and lakehouse tables without manual SQL translation.
-  mental_damage: We have successfully abstracted away the last remaining joy of crafting a perfectly tuned SQL query by letting an LLM run it as a tool call you can’t quite see.
+  summary: An MCP server that lets AI assistants execute SQL queries, list databases and tables, and interact with Kafka topics and Apache Iceberg tables through a Timeplus connection.
+  why_it_matters: Developers can grant coding agents or Claude Desktop direct read-only (or read-write) access to streaming data infrastructure without writing custom glue code.
+  mental_damage: We have successfully abstracted SQL queries behind an MCP server so your LLM can panic about Kafka lag on your behalf.
   tags:
-    - iceberg
-    - kafka
     - mcp
     - sql
-    - timeplus
+    - kafka
+    - streaming
+    - data
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation for Timeplus, clearly fitting the MCP Servers and Tooling category rather than a coding agent or generic data tool.
+  reason: This is an MCP server for Timeplus that exposes database, Kafka, and Iceberg tooling to MCP-compatible clients, making MCP its core product identity.
   evidence:
-    - Repo description explicitly states this is an MCP server for executing SQL and managing databases with Timeplus.
-    - README documents MCP tools (run_sql, list_databases, list_kafka_topics, connect_to_apache_iceberg) and configuration for Claude Desktop.
-    - Included in awesome-mcp-list and awesome-mcp-servers under Databases sections, confirming MCP ecosystem positioning.
+    - Repo name is mcp-timeplus and topics include mcp-server.
+    - README explicitly describes it as 'An MCP server for Timeplus' with tools like run_sql and list_kafka_topics.
+    - Featured in awesome-mcp-list and awesome-mcp-servers under Databases sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:23.783Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.152Z"
+    updated_at: "2026-05-06T22:12:15.594Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:00.094Z"
+    updated_at: "2026-05-06T22:46:50.199Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:19.456Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

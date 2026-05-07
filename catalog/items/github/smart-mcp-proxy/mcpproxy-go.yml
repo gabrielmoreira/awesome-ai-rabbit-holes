@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smart-mcp-proxy__mcpproxy-go__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 208
+    forks: 24
+    license: MIT
+    archived: false
+    created_at: "2025-06-18T03:59:17Z"
+    pushed_at: "2026-05-05T12:56:30Z"
+    description: Supercharge AI Agents, Safely
+    homepage: https://mcpproxy.app
+    topics:
+      - ai
+      - ai-agents
+      - audit-logging
+      - bm25
+      - cli
+      - context-window
+      - developer-tools
+      - docker
+      - golang
+      - llm
+      - llm-tools
+      - local-first
+      - mcp
+      - mcp-proxy
+      - mcp-server
+      - model-context-protocol
+      - proxy-server
+      - security
+      - tool-routing
+      - web-ui
+    last_checked_at: "2026-05-06T22:46:27.876Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:27.876Z"
+      bytes: 29966
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source, local-first proxy server and desktop app that federates hundreds of MCP servers behind a single endpoint with tool retrieval, token compression, and security quarantine.
+  why_it_matters: It lets developers bypass strict tool-count limits in Cursor and OpenAI by dynamically discovering and loading only the relevant MCP tools, dramatically cutting token usage.
+  mental_damage: We have successfully abstracted the problem of too many tools into a tool that manages your tools, because obviously the next logical step was a proxy for the proxies.
+  tags:
+    - mcp
+    - proxy
+    - context-window
+    - security
+    - local-first
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: "The product's core identity is MCP infrastructure: it is a proxy, router, and middleware layer designed specifically to manage MCP servers, not just a generic framework or extension."
+  evidence:
+    - Repo description and README explicitly define it as a proxy for MCP servers with tool routing and quarantine.
+    - Topics include mcp, mcp-proxy, mcp-server, and model-context-protocol as primary identifiers.
+    - Listed in awesome-mcp-servers under 'Aggregators', reinforcing its identity as MCP infrastructure.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (208) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:27.876Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:14.720Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

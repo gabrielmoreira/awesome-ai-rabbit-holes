@@ -1,12 +1,12 @@
 id: docs__liquidmetal__ai__tutorials__claude__code__mcp__setup
 kind: website
-name: liquidmetal-ai/raindrop-mcp
+name: claude-code-mcp-setup
 canonical_url: https://docs.liquidmetal.ai/tutorials/claude-code-mcp-setup
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__liquidmetal__ai__tutorials__claude__code__mcp__setup__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tutorial for configuring MCP (Model Context Protocol) servers within the Claude Code environment.
-  why_it_matters: It provides the procedural glue needed to extend Claude Code's capabilities by connecting it to external MCP-compatible tools and data sources.
-  mental_damage: Another essential piece of documentation proving that getting your AI stack to talk to itself now requires more ritual than the actual coding.
+  summary: A tutorial page explaining how to configure Claude Code to work with MCP servers on the LiquidMetal AI platform.
+  why_it_matters: It documents the setup steps needed to extend Claude Code with MCP capabilities within a specific cloud platform ecosystem.
+  mental_damage: Another helpful tutorial in the ever-expanding genre of 'how to make your AI tools talk to other AI tools,' ensuring you spend more time wiring integrations than writing code.
   tags:
-    - claude-code
-    - mcp
-    - setup
     - tutorial
+    - mcp
+    - claude-code
+    - setup
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page/tutorial for setting up MCP, not a standalone developer tool, server, or product itself.
+  reason: This is documentation/tutorial content rather than a standalone product, server, or tool, and the catalog excludes auxiliary resource pages.
   evidence:
-    - URL points to a docs tutorial page (liquidmetal.ai) rather than a tool repository
-    - Seen in awesome-mcp-servers as a 'Cloud Platform' implementation, but the link leads to a setup guide, not a server repo
-    - No repo description, stars, or code artifacts provided; purely instructional content
+    - URL points to a docs tutorial page (https://docs.liquidmetal.ai/tutorials/claude-code-mcp-setup), not a product or repo
+    - No repo description, stars, or code artifacts provided — it is a documentation page
+    - Appears in awesome-mcp-servers as a tutorial reference, not as a server implementation itself
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:07.079Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:38.644Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

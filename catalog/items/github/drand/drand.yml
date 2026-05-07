@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drand__drand__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,27 +37,27 @@ metadata:
       - hacktoberfest
       - randomness
       - randomness-beacon
-    last_checked_at: "2026-05-05T21:01:57.141Z"
+    last_checked_at: "2026-05-06T22:43:41.886Z"
     readme:
-      fetched_at: "2026-05-05T21:01:57.141Z"
+      fetched_at: "2026-05-06T22:43:41.886Z"
       bytes: 15545
 insights:
-  summary: Drand is a distributed randomness beacon daemon written in Go that allows a network of nodes to collectively generate publicly verifiable, unbiased, and unpredictable random values using threshold cryptography.
-  why_it_matters: Developers building blockchain systems, lotteries, or cryptographic protocols can integrate a decentralized Randomness-as-a-Service instead of attempting to implement secure randomness generation from scratch.
-  mental_damage: "Just what the world needed: a decentralized way to prove that the universe is still chaotic, cryptographically verified by a committee of Cloudflare and academia."
+  summary: Drand is a distributed randomness beacon daemon written in Go that enables a network of nodes to collectively generate publicly verifiable, unbiased, and unpredictable random values at fixed intervals using threshold cryptography.
+  why_it_matters: It provides a decentralized Randomness-as-a-Service that developers can rely on for critical applications like cryptographic parameters, lottery systems, and blockchain sharding where biased or predictable randomness is a catastrophic vulnerability.
+  mental_damage: Yet another foundational piece of infrastructure that will inevitably be pitched as a 'Web3 AI Agent randomness coordination layer' by someone trying to justify adding a blockchain dependency to their CLI tool.
   tags:
     - cryptography
     - randomness
     - golang
-    - blockchain
     - distributed-systems
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because drand is a core cryptographic infrastructure library for randomness generation, not a developer-facing AI tool, agent, or workflow enhancer.
+  reason: Excluded because despite appearing in an awesome-mcp-servers list, the core product is a cryptographic randomness beacon with no AI-native workflow, coding assistance, or developer-facing AI tooling identity.
   evidence:
-    - Repo description and README define it as a 'Distributed Randomness Beacon Daemon' using threshold cryptography, with no mention of AI functionality.
-    - Source-list context shows it in 'awesome-mcp-servers' as a reference server, but the tool itself is a Go implementation of a cryptographic protocol, not an MCP tool or developer AI utility.
+    - Repo description and README identify it strictly as a 'Distributed Randomness Beacon Daemon' for cryptography, not AI tooling.
+    - No evidence in the README of coding assistance, prompt engineering, agent orchestration, or MCP server implementation as a primary feature.
+    - Appears in 'awesome-mcp-servers' source list, but the linked page is the generic drand documentation homepage, suggesting MCP is merely a compatibility footnote rather than product identity.
 placement:
   primary_category: null
   section: null
@@ -67,19 +67,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:57.141Z"
+    updated_at: "2026-05-06T22:43:41.886Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:09.488Z"
+    updated_at: "2026-05-06T22:53:27.128Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

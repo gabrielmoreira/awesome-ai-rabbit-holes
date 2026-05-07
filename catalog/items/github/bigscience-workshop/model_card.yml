@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigscience-workshop__model_card__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,27 +33,28 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:20.487Z"
+    last_checked_at: "2026-05-06T22:12:52.551Z"
     readme:
-      fetched_at: "2026-05-05T21:01:20.487Z"
+      fetched_at: "2026-05-06T22:12:52.551Z"
       bytes: 20550
 insights:
-  summary: This repository hosts the deprecated model card and documentation for the BLOOM (BigScience Large Open-science Open-access Multilingual) 176-billion-parameter language model.
-  why_it_matters: Developers evaluating or fine-tuning open-source multilingual models can reference this document for technical specs, training data details, and known limitations.
-  mental_damage: We have reached a point where the documentation for a dead model is still more organized than most living startup codebases.
+  summary: A deprecated model card repository documenting the BLOOM large language model, now superseded by the live Hugging Face model page.
+  why_it_matters: It serves as a static reference for the architecture, training data, and carbon impact of one of the first large open-access multilingual models.
+  mental_damage: We have reached peak AI ecosystem maturity when the documentation for a 176-billion-parameter model is itself deprecated and redirected within months of creation.
   tags:
     - llm
-    - model-card
     - documentation
     - bloom
+    - model-card
+    - deprecated
   confidence: high
 curation:
   status: excluded
-  reason: This is a static model card and research artifact for the BLOOM LLM, not a developer tool, agent, framework, or infrastructure component.
+  reason: This is a static documentation artifact and model card for a research model, not a developer tool, agent, framework, or infrastructure component.
   evidence:
-    - README explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'.
-    - Content is a model specification document, not a tool for coding, building apps, or orchestration.
-    - Repo has seen no activity since July 2022 and is a research artifact rather than developer tooling.
+    - Repo explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'.
+    - Content is a model card (architecture, training data, risks) rather than a usable tool or library.
+    - Last push was 2022-07-11, and it lives under the Awesome-LLMOps 'Model > Large Language Model' section, indicating a resource/documentation fit rather than tooling.
 placement:
   primary_category: null
   section: null
@@ -63,19 +64,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:20.487Z"
+    updated_at: "2026-05-06T22:12:52.551Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:45.596Z"
+    updated_at: "2026-05-06T22:24:12.500Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

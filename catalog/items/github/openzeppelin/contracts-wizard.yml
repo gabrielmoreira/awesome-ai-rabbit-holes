@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openzeppelin__contracts-wizard__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,54 +29,54 @@ metadata:
     license: AGPL-3.0
     archived: false
     created_at: "2021-02-09T23:46:23Z"
-    pushed_at: "2026-05-05T17:48:23Z"
+    pushed_at: "2026-05-06T18:27:28Z"
     description: Interactive smart contract generator based on OpenZeppelin Contracts.
     homepage: https://wizard.openzeppelin.com
     topics: []
-    last_checked_at: "2026-05-05T21:04:07.521Z"
+    last_checked_at: "2026-05-06T22:45:44.177Z"
     readme:
-      fetched_at: "2026-05-05T21:04:07.521Z"
+      fetched_at: "2026-05-06T22:45:44.177Z"
       bytes: 4018
 insights:
-  summary: An interactive web application and CLI that generates smart contract code for Solidity, Cairo, Stellar, and Stylus based on OpenZeppelin components and user-selected features.
-  why_it_matters: It allows smart contract developers to quickly scaffold secure, standards-compliant code with desired features without manually wiring OpenZeppelin modules.
-  mental_damage: We've reached the point where we need a specialized wizard to navigate the wizardry of our own security standards, ensuring we don't accidentally deploy a vulnerable token while vibing with the generator.
+  summary: An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents.
+  why_it_matters: It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
+  mental_damage: AI agents can now hallucinate your ERC-20 compliance via MCP, while you still carry the existential weight of mainnet deployment.
   tags:
     - smart-contracts
     - code-generation
     - solidity
+    - mcp
     - cli
-    - web-tool
   confidence: high
 curation:
   status: included
-  reason: This is a browser-first and CLI tool that generates whole smart contract files from a selection of features, fitting the prompt-to-project scaffold definition of app-builders.
+  reason: It is a prompt- and form-driven code generator that produces new smart contract scaffolds rather than editing an existing repo as a primary coding assistant.
   evidence:
-    - "Repo description: 'Interactive smart contract generator based on OpenZeppelin Contracts.'"
-    - "README: 'Generate contracts from the command line' and hosted wizard at wizard.openzeppelin.com."
-    - "README: 'Web application to interactively build a contract out of components... generates all of the code necessary.'"
+    - Repo description states it is an 'Interactive smart contract generator based on OpenZeppelin Contracts.'
+    - README says it generates all necessary code from selected parameters and features, ready to compile or customize.
+    - Includes a CLI and MCP server, but these are secondary interfaces to the core scaffolding product.
 placement:
   primary_category: app-builders
-  section: null
+  section: Local / Code-Scaffolding Builders
 lifecycle:
   status: promotion_candidate
   reason: Stars (292) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:07.521Z"
+    updated_at: "2026-05-06T22:45:44.177Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:00.411Z"
+    updated_at: "2026-05-06T23:19:58.774Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

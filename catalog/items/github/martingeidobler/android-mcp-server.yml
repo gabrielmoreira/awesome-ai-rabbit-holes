@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__martingeidobler__android-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for controlling Android emulators via ADB — screenshots, UI interaction, logcat, and bug documentation for Claude Code
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:30.878Z"
+    last_checked_at: "2026-05-06T22:45:09.898Z"
     readme:
-      fetched_at: "2026-05-05T21:03:30.878Z"
+      fetched_at: "2026-05-06T22:45:09.898Z"
       bytes: 9607
 insights:
   summary: An MCP server that lets AI assistants control Android emulators and devices via ADB to take screenshots, interact with UI elements, read logs, and document bugs.
-  why_it_matters: It gives coding agents in VS Code, Cursor, and Claude Code the ability to visually inspect and automate Android apps without modifying the app itself.
-  mental_damage: We have finally automated the part of mobile development where you tap the same button twenty times while explaining to a chatbot what the screen looks like.
+  why_it_matters: It closes the loop between coding an Android app and visually debugging it by giving agents direct, tool-based access to emulator state and UI interaction.
+  mental_damage: We have successfully taught a neural network to tap 'Accept Cookies' on a mobile emulator so you don't have to Alt-Tab away from your prompt debug session.
   tags:
     - mcp
     - android
     - adb
-    - testing
+    - debugging
     - automation
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that exposes 25 ADB-backed tools to AI assistants, fitting cleanly into MCP infrastructure.
+  reason: The product's core identity is an MCP server that exposes Android device capabilities to AI assistants, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description explicitly states 'MCP server for controlling Android emulators via ADB'
-    - README lists integrations with Claude Code, Claude Desktop, VS Code, Cursor, and Windsurf as MCP servers
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory
+    - "Repo description explicitly states: 'MCP server for controlling Android emulators via ADB'"
+    - "README states: 'MCP server for controlling Android emulators and devices via ADB. Gives AI assistants the ability to see, interact with, and debug Android apps'"
+    - Listed in awesome-mcp-servers under 'Developer Tools' section as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:30.878Z"
+    updated_at: "2026-05-06T22:45:09.898Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:58.552Z"
+    updated_at: "2026-05-06T23:12:08.351Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

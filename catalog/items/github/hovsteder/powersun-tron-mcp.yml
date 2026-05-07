@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hovsteder__powersun-tron-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -49,50 +49,50 @@ metadata:
       - trx
       - usdt
       - x402
-    last_checked_at: "2026-05-05T21:02:36.358Z"
+    last_checked_at: "2026-05-06T22:44:17.041Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.358Z"
+      fetched_at: "2026-05-06T22:44:17.041Z"
       bytes: 17431
 insights:
-  summary: An MCP server that exposes 27 tools for autonomous TRON energy/bandwidth rental, DEX token swaps on SunSwap, and resource selling via MCP, REST API, or HTTP 402 pay-per-use.
-  why_it_matters: Developers building AI agents that need to handle TRON transactions can delegate energy management and token swaps to an agent-accessible endpoint without wiring custom blockchain logic.
-  mental_damage: We have truly arrived at the point where autonomous agents need a dedicated pay-per-use API to haggle over blockchain gas fees while your CI pipeline still can't decide if it wants to pass.
+  summary: An MCP server that lets AI agents autonomously buy and sell TRON Energy and swap TRC-20 tokens on SunSwap DEX via HTTP 402 and REST APIs.
+  why_it_matters: It gives coding agents a financial primitive to manage blockchain transaction costs and execute token swaps without leaving their tool-calling loop.
+  mental_damage: Your agent can now bankrupt your TRX wallet at machine speed while you debug why it spent 10% commission to delegate energy for a failed test.
   tags:
     - mcp
     - tron
     - defi
-    - dex-swap
     - blockchain
-  confidence: medium
+    - agent-tooling
+  confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation offering agent-facing tools for TRON resource management and DEX swaps, which fits squarely into MCP infrastructure.
+  reason: "MCP is the product identity: a hosted MCP server exposing 27 tools for TRON resource management and DEX swaps specifically for AI agents."
   evidence:
-    - Repo description explicitly states 'TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents'
-    - README positions it as a hosted MCP endpoint with 27 tools and Streamable HTTP transport
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming ecosystem fit
+    - Repo description explicitly states 'TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents' and topics include mcp and mcp-server.
+    - README presents the MCP Endpoint (https://powersun.vip/mcp) as the primary integration path for Claude Desktop, Cursor, and any MCP client.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as a domain-specific MCP server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.358Z"
+    updated_at: "2026-05-06T22:44:17.041Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:24.281Z"
+    updated_at: "2026-05-06T23:00:42.226Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

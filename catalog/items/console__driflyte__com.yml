@@ -1,0 +1,74 @@
+id: console__driflyte__com
+kind: website
+name: console.driflyte.com
+canonical_url: https://console.driflyte.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__console__driflyte__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Driflyte
+        extracted_url: https://console.driflyte.com
+        surrounding_text: "- **[Driflyte](https://github.com/serkan-ozal/driflyte-mcp-server)** - MCP Server for [Driflyte](https://console.driflyte.com). The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A web-based console related to the Driflyte platform, with no clear public description or repository details available.
+  why_it_matters: It is unclear what problem this solves for developers without a functional README or description to explain its utility.
+  mental_damage: We have reached the point where a URL and a placeholder in an awesome list are enough to trigger a full architectural review of nothing.
+  tags:
+    - mcp
+    - unknown
+  confidence: low
+curation:
+  status: excluded
+  reason: Excluded because there is no repository description, README content, or scraped site context to verify that this is a standalone developer tool rather than just a generic console or listing.
+  evidence:
+    - No repo description, README excerpt, or scraped site context was provided for console.driflyte.com.
+    - No stars, creation date, or activity data is available to assess traction or viability.
+    - Only signal is inclusion in awesome-mcp-servers, which is evidence but not destiny without a product definition.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:30.537Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

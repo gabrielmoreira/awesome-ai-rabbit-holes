@@ -1,12 +1,12 @@
 id: www__builder__io
 kind: website
-name: Builder.io Fusion
+name: www.builder.io
 canonical_url: https://www.builder.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__builder__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,42 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Builder.io is a hosted, browser-first platform that turns prompts into full apps, sites, dashboards, and internal tools.
-  why_it_matters: It lets developers and product teams prototype, generate, and deploy front-end applications directly from a visual builder without touching a local repo.
-  mental_damage: Another reminder that your carefully hand-crafted component library is slowly being replaced by a prompt box and a deploy button.
+  summary: Builder.io is a visual development platform that converts designs into high-quality code, recently adding AI capabilities to generate and edit applications from prompts.
+  why_it_matters: It bridges the gap between design and development by allowing developers to generate production-ready front-end code directly from Figma designs or text prompts.
+  mental_damage: Another heroic attempt to finally fire the translators between design and code, ensuring your perfectly translated components will still be rejected in code review for using the wrong spacing utility.
   tags:
-    - app-builder
-    - low-code
-    - prompt-to-app
     - visual-development
-  confidence: high
+    - design-to-code
+    - ai-generation
+    - frontend
+  confidence: medium
 curation:
   status: included
-  reason: The product is a browser-first SaaS that generates and deploys whole apps and sites from prompts, which matches the app-builders category definition.
+  reason: The tool's core identity is turning prompts and designs into deployed applications and sites, aligning with the prompt-to-site/app builder profile rather than a repo-editing coding agent.
   evidence:
-    - Listed under 'App Builders' in the awesome-ai-coding-tools awesome list.
-    - URL points to www.builder.io, a hosted web product rather than a code-first SDK or IDE assistant.
+    - Seen in awesome-ai-coding-tools under the 'App Builders' section.
+    - Homepage URL (builder.io) implies a platform for building web experiences visually and via AI.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-Site Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:58.570Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:16.008Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

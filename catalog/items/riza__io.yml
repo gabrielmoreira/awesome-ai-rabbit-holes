@@ -1,0 +1,76 @@
+id: riza__io
+kind: website
+name: riza.io
+canonical_url: https://riza.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__riza__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Riza
+        extracted_url: https://riza.io
+        surrounding_text: "- **[Riza](https://github.com/riza-io/riza-mcp)** - Arbitrary code execution and tool-use platform for LLMs by [Riza](https://riza.io)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A production-ready, isolated runtime API and SDKs for safely executing untrusted LLM-generated code in Python, TypeScript, and Go.
+  why_it_matters: It lets developers safely delegate code execution to AI agents without risking their production environment, handling billions of executions monthly for AI-native companies.
+  mental_damage: We have finally reached the point where we need a specialized firewall just to let the AI run the Python it insisted on writing.
+  tags:
+    - code-execution
+    - sandbox
+    - llm-infrastructure
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The product is a code-first SDK and API (Python, TypeScript, Go) that developers import or call to execute code, fitting the framework/SDK building block pattern rather than an orchestration platform or extension.
+  evidence:
+    - "Primary page excerpt explicitly shows Python SDK usage: `import rizaio` and `riza.command.exec()`."
+    - Positioned as 'AI-first infrastructure' providing secure code execution capabilities to other AI applications and agents.
+    - Listed in awesome-mcp-servers, but Riza's core identity is the isolated runtime, with MCP being just one integration surface.
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:08.420Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

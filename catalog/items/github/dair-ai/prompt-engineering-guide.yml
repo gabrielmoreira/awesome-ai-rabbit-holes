@@ -1,13 +1,13 @@
 id: github__dair-ai__prompt-engineering-guide
 kind: github-repo
-name: Prompt Engineering Guide
+name: prompt-engineering-guide
 canonical_url: https://github.com/dair-ai/prompt-engineering-guide
 identity:
   github_repo: dair-ai/prompt-engineering-guide
 provenance:
   discoveries:
     - id: discovery__github__dair-ai__prompt-engineering-guide__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Prompt Engineering Guide: LLM Agents](https://github.com/dair-ai/Prompt-Engineering-Guide#llm-agents) - Comprehensive agent building guide"
         confidence: high
     - id: discovery__github__dair-ai__prompt-engineering-guide__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 74218
-    forks: 8022
+    stars: 74268
+    forks: 8029
     license: MIT
     archived: false
     created_at: "2022-12-16T16:04:50Z"
@@ -59,50 +59,50 @@ metadata:
       - openai
       - prompt-engineering
       - rag
-    last_checked_at: "2026-05-05T21:01:45.572Z"
+    last_checked_at: "2026-05-06T22:43:31.629Z"
     readme:
-      fetched_at: "2026-05-05T21:01:45.572Z"
+      fetched_at: "2026-05-06T22:43:31.629Z"
       bytes: 10961
 insights:
-  summary: A comprehensive guide and web resource containing papers, tutorials, techniques, and prompt examples for prompt engineering, context engineering, RAG, and AI agents.
-  why_it_matters: It provides developers with the foundational knowledge and reference patterns needed to design effective prompts and reliably interface with LLMs for coding, RAG, and agent workflows.
-  mental_damage: You now have 74,000 stars worth of prompting techniques to choose from, ensuring you can over-engineer a simple instruction for an entire afternoon.
+  summary: A comprehensive, open-source guide and resource hub covering prompt engineering techniques, RAG, context engineering, and AI agent fundamentals, maintained by DAIR.AI.
+  why_it_matters: It provides developers with curated papers, tutorials, and structured techniques needed to effectively design prompts and understand LLM capabilities for building AI applications.
+  mental_damage: Another 74,000-star reassurance that reading about prompt engineering is definitely the same thing as getting your code to work reliably.
   tags:
-    - ai-agents
-    - learning-resource
-    - llm-guides
     - prompt-engineering
+    - llm
+    - resources
     - rag
+    - ai-agents
   confidence: high
 curation:
-  status: included
-  reason: This is a core educational resource focused on prompt design, context shaping, and LLM interaction patterns, fitting squarely into context engineering for developers.
+  status: excluded
+  reason: Excluded because this is primarily an educational resource, documentation hub, and curated list of papers rather than a standalone developer tool, product, or operational directory.
   evidence:
-    - Repo description explicitly covers 'prompt engineering, context engineering, RAG, and AI Agents'.
-    - README positions the guide as a resource for developers to 'design robust and effective prompting techniques that interface with LLMs'.
-    - Included in 'awesome-LLM-resources' and 'awesome-agent-orchestration' under learning/tutorial sections.
+    - Repo description explicitly lists 'Guides, papers, lessons, notebooks and resources' rather than a tool or product.
+    - README states the project is a 'guide that contains all the latest papers, learning guides, lectures, references, and tools' and links to a web version at promptingguide.ai.
+    - Listed in source lists under 'Learning Resources > Tutorials & Guides' and '教程 Tutorial', confirming its identity as a learning resource.
 placement:
-  primary_category: context-engineering
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (74218) exceeded threshold (150)
+  reason: Stars (74268) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:10.906Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:45.572Z"
+    updated_at: "2026-05-06T22:43:31.629Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:22.410Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

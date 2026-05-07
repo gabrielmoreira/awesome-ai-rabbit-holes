@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__raydium-launchlab-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,14 +33,14 @@ metadata:
     description: An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad(aka LaunchLab).
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:12.526Z"
+    last_checked_at: "2026-05-06T22:44:50.241Z"
     readme:
-      fetched_at: "2026-05-05T21:03:12.526Z"
+      fetched_at: "2026-05-06T22:44:50.241Z"
       bytes: 4490
 insights:
-  summary: An MCP server that allows AI agents to programmatically create, buy, and sell tokens on the Raydium Launchpad using Solana wallets and IPFS metadata storage.
-  why_it_matters: It bridges Solana DeFi and agent workflows by giving AI tools direct access to token launchpad operations without manual UI interaction.
-  mental_damage: Finally, an MCP server that lets your AI agent rug-pull a token with the same ease it accidentally deletes your production database.
+  summary: An MCP server that enables AI agents to create, buy, and sell tokens on the Raydium Launchpad using Solana and IPFS for metadata storage.
+  why_it_matters: It exposes Raydium's token launchpad functionality as tools for AI agents, allowing automated DeFi workflows without leaving the agent context.
+  mental_damage: Because the natural next step after automating code generation is, apparently, automating the creation of memecoins with zero human friction.
   tags:
     - mcp
     - solana
@@ -50,33 +50,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for the Raydium Launchpad, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server providing domain-specific tools for Raydium Launchpad, fitting cleanly as a domain server in the MCP category.
   evidence:
-    - Repo description states it is 'An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad'.
-    - "README details three MCP tools: mint_token, buy_token, and sell_token."
-    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+    - "Repo description explicitly states: 'An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad.'"
+    - README defines three MCP tools (mint_token, buy_token, sell_token) and configuration for MCP clients.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:12.526Z"
+    updated_at: "2026-05-06T22:44:50.241Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:21.530Z"
+    updated_at: "2026-05-06T23:07:42.010Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

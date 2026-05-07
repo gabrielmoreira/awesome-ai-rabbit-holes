@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__atomno-labs__mcp-cbr-rates__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - mcp
       - model-context-protocol
       - python
-    last_checked_at: "2026-05-05T21:01:11.209Z"
+    last_checked_at: "2026-05-06T22:12:44.868Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.209Z"
+      fetched_at: "2026-05-06T22:12:44.868Z"
       bytes: 6409
 insights:
-  summary: A Model Context Protocol server that exposes public Central Bank of Russia data—including currency rates, key rate, inflation, and macro stats—to AI agents.
-  why_it_matters: Developers building AI financial workflows can give their agents real-time Russian macroeconomic data without managing API keys or custom scraping logic.
-  mental_damage: We have finally reached the point where an AI agent needs its own dedicated MCP server just to remember what the ruble is doing today.
+  summary: An MCP server that exposes Central Bank of Russia data—currency rates, key rate, inflation, and macro stats—to AI agents via stdio with no API keys required.
+  why_it_matters: Developers wiring AI agents into Russian fintech workflows can give models structured, real-time access to CBR macro data without scraping or secret management.
+  mental_damage: We now have a dedicated stdio server, a test suite, and a PyPI package so your agent can hallucinate less about the ruble while adding yet another MCP dependency to your stack.
   tags:
     - mcp
     - fintech
     - russia
     - macro
-    - python
-  confidence: high
+    - rates
+  confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server designed to integrate CBR financial data into AI agent workflows, fitting cleanly into the MCP infrastructure category.
+  reason: This is an MCP server whose core identity is exposing a specific domain data source to MCP-compatible clients, exactly the kind of Domain Server this catalog lists.
   evidence:
-    - Repo description explicitly states 'MCP server for Central Bank of Russia rates'
-    - README confirms it is a 'Model Context Protocol (MCP) server' with tools for rates, inflation, and macro data
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory
+    - "Repo description explicitly says: 'MCP server for Central Bank of Russia rates, key rate, inflation and macro stats'."
+    - README states 'A Model Context Protocol (MCP) server that exposes public Bank of Russia data… to AI agents' and documents stdio usage with Cursor, Claude Desktop, and Claude Code.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, confirming its MCP-domain-server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.209Z"
+    updated_at: "2026-05-06T22:12:44.868Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:21.805Z"
+    updated_at: "2026-05-06T22:22:37.639Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

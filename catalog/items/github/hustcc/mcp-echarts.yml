@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hustcc__mcp-echarts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hustcc/mcp-echarts](https://github.com/hustcc/mcp-echarts) 📇 🏠 - Generate visual charts using [Apache ECharts](https://echarts.apache.org) with AI MCP dynamically."
         confidence: high
     - id: discovery__github__hustcc__mcp-echarts__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -52,49 +52,50 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:38.369Z"
+    last_checked_at: "2026-05-06T22:44:19.646Z"
     readme:
-      fetched_at: "2026-05-05T21:02:38.369Z"
+      fetched_at: "2026-05-06T22:44:19.646Z"
       bytes: 6986
 insights:
-  summary: An MCP server that allows AI models and clients to generate Apache ECharts visualizations locally and export them to PNG, SVG, or JSON formats.
-  why_it_matters: It gives coding agents and MCP-compatible IDEs the ability to render data visualizations on the fly without relying on external SaaS charting APIs.
-  mental_damage: We have successfully modularized the stack so that an AI can now hallucinate a pie chart with the same confidence it hallucinates your backend logic.
+  summary: An MCP server that lets AI assistants generate Apache ECharts visualizations locally by exposing chart-creation tools over the Model Context Protocol.
+  why_it_matters: Developers can give coding agents the ability to produce rich, exportable charts and data visualizations without wiring up chart libraries or relying on remote rendering services.
+  mental_damage: We have finally reached the point where our agents need dedicated servers just to draw pretty pictures of the data we are no longer reading ourselves.
   tags:
     - mcp
+    - charts
     - echarts
     - data-visualization
-    - nodejs
+    - local-first
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server providing chart generation capabilities, fitting cleanly into the MCP infrastructure category.
+  reason: This is an MCP server that extends AI assistants with ECharts generation capabilities, making MCP its core product identity rather than a secondary integration.
   evidence:
-    - Repo description explicitly states 'Generate visual charts using ECharts with AI MCP dynamically'.
-    - README documents integration with Claude, VSCode, Cline, and Cherry Studio via MCP server configs.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations'.
+    - Repo description explicitly states 'Generate visual charts using ECharts with AI MCP dynamically' and topics include mcp-server.
+    - README shows this is an MCP server with stdio, SSE, and streamable transport options, installable via npx for Claude, VSCode, Cline, and other MCP-compatible clients.
+    - Featured in awesome-mcp-servers under Server Implementations, reinforcing its identity as protocol-native infrastructure.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (227) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:38.369Z"
+    updated_at: "2026-05-06T22:44:19.646Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:50.121Z"
+    updated_at: "2026-05-06T23:01:15.591Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

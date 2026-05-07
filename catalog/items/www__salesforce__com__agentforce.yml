@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__salesforce__com__agentforce__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agentforce is Salesforce's platform for building and customizing autonomous AI agents that integrate with the Salesforce ecosystem to support employees and customers.
-  why_it_matters: It provides developers with a specialized environment (Agentforce Builder and Dev Tools) to construct enterprise-grade service and sales agents deeply embedded in CRM data.
-  mental_damage: Just when you thought the stack was complete, your CRM now demands you staff it with autonomous agents that also need performance reviews.
+  summary: Agentforce is Salesforce's platform for building and deploying autonomous AI agents integrated with the Salesforce ecosystem to support employees and customers.
+  why_it_matters: It provides a specialized environment and dev tools for developers building CRM-integrated AI agents within the Salesforce platform.
+  mental_damage: Just when you thought your CRM was feature-complete, it now wants to hire autonomous agents to manage the customers you've already lost.
   tags:
     - agents
     - salesforce
-    - enterprise
     - crm
+    - enterprise
   confidence: high
 curation:
   status: excluded
-  reason: This is an enterprise CRM product suite, not a developer-facing tool for coding, IDEs, or local infrastructure.
+  reason: Although Agentforce involves agent technology, it is primarily a customer-facing enterprise SaaS platform for CRM and support, lacking a primary identity as a developer-facing coding tool, framework, or infrastructure component.
   evidence:
-    - Primary page excerpt describes 'Humans with Agents drive customer success' within the Salesforce Sales, Service, and Marketing clouds.
-    - Positioned as a platform for building customer service/sales agents, not for assisting developers with source code or app generation.
-    - Source list context (awesome-ai-agents) categorized it under Airkit.ai/Salesforce ecosystem, indicating an enterprise agent product rather than a dev tool.
+    - Product description focuses on 'support your employees and customers 24/7' within the 'Salesforce ecosystem'.
+    - The site context positions it as a business platform alongside Sales Cloud, Service Cloud, and Marketing Cloud, not as a dev tool.
+    - Listed in awesome-ai-agents under a section for Airkit.ai, but the product itself is a vertical business platform rather than a general coding agent.
 placement:
   primary_category: null
   section: null
@@ -59,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:53:17.071Z"
+    updated_at: "2026-05-06T22:35:32.846Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

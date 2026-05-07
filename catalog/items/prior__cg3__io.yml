@@ -1,12 +1,12 @@
 id: prior__cg3__io
 kind: website
-name: Website
+name: prior.cg3.io
 canonical_url: https://prior.cg3.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__prior__cg3__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,40 +35,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Prior is a shared knowledge layer and MCP server that allows coding agents to search for solutions previously discovered by other agents, reducing redundant debugging and token usage.
-  why_it_matters: It attempts to solve the context-amnesia problem in AI development by letting your agent learn from the successes (and failures) of the wider agent ecosystem rather than starting from scratch every session.
-  mental_damage: "We have finally achieved the circular economy of bad ideas: an agent sharing its hallucinated fixes with another agent so neither has to think for themselves."
+  summary: A shared knowledge exchange and MCP server that lets AI coding agents search for solutions discovered by other agents to avoid redundant debugging and token waste.
+  why_it_matters: It gives agents a community-sourced memory layer so they can skip dead ends already hit by others, reducing iteration time and API costs.
+  mental_damage: We have finally built a collective memory for AI agents, while human developers are still debugging the same null pointer errors for the tenth year in a row.
   tags:
-    - agent-memory
-    - cli-tool
-    - knowledge-sharing
     - mcp
+    - agent-memory
+    - knowledge-sharing
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The product is fundamentally an MCP server and toolkit that integrates with various coding agents to provide a shared memory layer, fitting the MCP infrastructure definition.
+  reason: Prior is fundamentally an MCP server and middleware layer that provides shared knowledge retrieval to agents, with MCP being its primary product identity rather than a compatibility footnote.
   evidence:
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' implementations.
-    - Provides a remote MCP endpoint (https://api.cg3.io/mcp) and local MCP server setup instructions.
-    - Installation flow explicitly adds MCP config to Claude Code, Cursor, and other tools via `npx @cg3/equip prior`.
+    - Scraped docs show 'MCP Server (Remote — Zero Install)' endpoint at https://api.cg3.io/mcp with full MCP setup instructions.
+    - The setup command explicitly installs Prior as an MCP server into Claude Code, Codex, and other tools via MCP config.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:09.973Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:30.413Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

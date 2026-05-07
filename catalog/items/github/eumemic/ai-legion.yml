@@ -1,13 +1,13 @@
 id: github__eumemic__ai-legion
 kind: github-repo
-name: AI Legion
+name: ai-legion
 canonical_url: https://github.com/eumemic/ai-legion
 identity:
   github_repo: eumemic/ai-legion
 provenance:
   discoveries:
     - id: discovery__github__eumemic__ai-legion__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [AI Legion](https://github.com/eumemic/ai-legion)"
         confidence: high
     - id: discovery__github__eumemic__ai-legion__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -47,50 +47,49 @@ metadata:
     description: An LLM-powered autonomous agent platform
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:05.255Z"
+    last_checked_at: "2026-05-06T22:43:48.859Z"
     readme:
-      fetched_at: "2026-05-05T21:02:05.255Z"
+      fetched_at: "2026-05-06T22:43:48.859Z"
       bytes: 2977
 insights:
-  summary: AI Legion is a Node.js framework for spawning multiple LLM-powered autonomous agents that collaborate, maintain state, and execute tasks via the command line.
-  why_it_matters: It provides a local, code-first environment for developers to experiment with multi-agent collaboration and persistent agent memory without relying on hosted SaaS platforms.
-  mental_damage: It offers the unique thrill of watching autonomous agents eat through your GPT-4 token budget while struggling to remember how to format a simple multiline parameter.
+  summary: An early LLM-powered autonomous agent platform that spins up multiple agents to collaborate on tasks via a local console interface.
+  why_it_matters: It offers a historical reference point and a tangible example of multi-agent coordination patterns before the ecosystem standardized on frameworks like CrewAI or AutoGen.
+  mental_damage: Watching gpt-3.5-turbo agents devolve into endless error loops is a humbling reminder that autonomous collaboration often just means paying to watch several bots argue with a missing multiline delimiter.
   tags:
     - agents
-    - autonomous
-    - framework
     - multi-agent
+    - autonomous
     - nodejs
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is a code-first SDK/framework for building multi-agent systems, fitting the AI Frameworks category rather than a developer-facing coding assistant.
+  reason: The project's core identity is a runtime platform for coordinating multiple autonomous agents to work together, fitting the agent orchestration profile better than a single coding assistant.
   evidence:
-    - Repo description defines it as 'An LLM-powered autonomous agent platform'.
-    - README explains setup via npm install and running agents via CLI (npm run start) with configurable parameters.
-    - Listed in awesome-llm-agents under the 'Frameworks' section.
+    - Repo description explicitly calls it 'An LLM-powered autonomous agent platform'.
+    - README details spinning up multiple agents that 'work together to accomplish tasks' via a console interface.
+    - Included in awesome-ai-agents under 'AI Legion' and awesome-llm-agents under 'Frameworks'.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (1427) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:33.116Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:05.255Z"
+    updated_at: "2026-05-06T22:43:48.859Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:55.561Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

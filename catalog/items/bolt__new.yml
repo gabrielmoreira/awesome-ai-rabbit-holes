@@ -1,12 +1,12 @@
 id: bolt__new
 kind: website
-name: Bolt.new
+name: bolt.new
 canonical_url: https://bolt.new
 identity: {}
 provenance:
   discoveries:
     - id: discovery__bolt__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "- **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural language with one-click deployment."
         confidence: high
     - id: discovery__bolt__new__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,43 +49,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bolt.new is a browser-based AI builder that generates, edits, and deploys full-stack applications and websites from natural language prompts.
-  why_it_matters: It allows developers and product teams to rapidly prototype and ship production-ready apps with integrated design systems, hosting, and backend infrastructure without leaving the browser.
-  mental_damage: Another day, another 'vibe coding' tool promising that this time, really, you can fire the frontend team and just chat your way to a scalable enterprise app.
+  summary: A browser-based prompt-to-app builder that generates full-stack websites and applications from natural language, integrating design systems, hosting, and databases into a single visual interface.
+  why_it_matters: It collapses the path from product idea to deployed application by handling frontend code, backend infrastructure, and design system integration within one chat-driven loop.
+  mental_damage: Yet another platform promising you can finally fire your engineering team, provided you are okay with debugging React errors by politely arguing with a chatbot.
   tags:
-    - ai-generated
-    - app-builder
-    - prototyping
-    - web-development
+    - vibe-coding
+    - prompt-to-app
+    - full-stack
+    - hosting
+    - design-systems
   confidence: high
 curation:
   status: included
-  reason: The product is a browser-first SaaS that turns prompts into deployed apps and sites, which aligns perfectly with the app-builders category rather than a coding agent that works inside a repo or IDE.
+  reason: The core product identity is turning prompts into deployed apps and sites with integrated infrastructure, which aligns precisely with the App Builders category rather than a repo-editing coding agent.
   evidence:
-    - Scraped site context describes it as 'Create stunning apps & websites by chatting with AI' and 'Browser-first prompt-to-app'.
-    - Source list 'awesome-ai-coding-tools' categorizes it explicitly under 'App Builders'.
-    - Marketing explicitly mentions hosting, databases, and custom domains, indicating a full deployment platform rather than just a code editor assistant.
+    - "Scraped site title and description: 'Bolt AI builder: Websites, apps & prototypes' and 'Build and scale high-performing websites & apps using your words.'"
+    - Primary page excerpt emphasizes 'Create stunning apps & websites by chatting with AI' and integrates hosting, databases, and design systems.
+    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:36.375Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:47.573Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

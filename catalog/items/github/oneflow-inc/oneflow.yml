@@ -1,13 +1,13 @@
 id: github__oneflow-inc__oneflow
 kind: github-repo
-name: Oneflow
+name: oneflow
 canonical_url: https://github.com/oneflow-inc/oneflow
 identity:
   github_repo: oneflow-inc/oneflow
 provenance:
   discoveries:
     - id: discovery__github__oneflow-inc__oneflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 9391
-    forks: 1015
+    forks: 1016
     license: Apache-2.0
     archived: false
     created_at: "2017-02-11T06:09:53Z"
@@ -40,28 +40,28 @@ metadata:
       - machine-learning
       - ml
       - neural-network
-    last_checked_at: "2026-05-05T21:04:01.636Z"
+    last_checked_at: "2026-05-06T22:45:39.092Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.636Z"
+      fetched_at: "2026-05-06T22:45:39.092Z"
       bytes: 7392
 insights:
-  summary: OneFlow is a deep learning framework offering a PyTorch-like API for building, scaling with Global Tensors, and deploying models via a graph compiler.
-  why_it_matters: It provides a mature, CUDA-optimized alternative for ML engineers needing fine-grained control over distributed training infrastructure.
-  mental_damage: "Just what the ecosystem needed: a ninth deep learning framework to evaluate while your current stack somehow still can't distribute a batch size larger than one."
+  summary: OneFlow is a deep learning framework designed for user-friendly, scalable, and efficient model training with a PyTorch-like API.
+  why_it_matters: It provides developers with n-dimensional parallel execution and graph compilation capabilities for building and deploying distributed deep learning models.
+  mental_damage: Yet another deep learning framework enters the ring to save you from PyTorch, promising scalability until you realize you still have to debug CUDA drivers at 2 a.m.
   tags:
     - deep-learning
-    - distributed-training
     - framework
-    - mlops
-    - pytorch-alternative
+    - training
+    - distributed
+    - pytorch-like
   confidence: high
 curation:
   status: excluded
-  reason: This is a general machine learning framework for data scientists and ML engineers, not a developer tool focused on coding workflows, agents, or AI app building.
+  reason: Excluded because it is a general deep learning and ML training framework, not a practical AI tool, agent, or developer-facing infrastructure for coding workflows.
   evidence:
-    - Repo description explicitly defines it as a 'deep learning framework' for model training, not a dev tool.
-    - Topics include 'deep-learning', 'machine-learning', and 'neural-network', indicating a general ML research/engineering focus.
-    - Source list context places it under 'Training > Frameworks for Training', which is outside the catalog's scope of developer-facing AI tooling.
+    - Repo description states it is a 'deep learning framework' for model training, not a coding assistant or developer tool.
+    - Topics include 'machine-learning', 'neural-network', and 'cuda', indicating a general ML research/engineering focus rather than AI-assisted development.
+    - Source list context places it under 'Training > Frameworks for Training' in an LLMOps list, which is adjacent but not within the catalog's scope of developer tooling.
 placement:
   primary_category: null
   section: null
@@ -69,21 +69,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (9391) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:05.741Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.639Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.636Z"
+    updated_at: "2026-05-06T22:45:39.092Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:48.994Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

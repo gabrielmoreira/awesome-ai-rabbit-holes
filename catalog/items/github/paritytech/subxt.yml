@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paritytech__subxt__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,28 +33,28 @@ metadata:
     description: Interact with Substrate based nodes in Rust or WebAssembly
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:04:12.301Z"
+    last_checked_at: "2026-05-06T22:45:48.343Z"
     readme:
-      fetched_at: "2026-05-05T21:04:12.301Z"
+      fetched_at: "2026-05-06T22:45:48.343Z"
       bytes: 5211
 insights:
-  summary: A Rust library and WebAssembly client for interacting with Substrate-based blockchain nodes, such as Polkadot, to submit transactions and query on-chain data.
-  why_it_matters: It provides developers building in the Polkadot ecosystem with a statically typed, offline-capable interface to handle extrinsics, storage, and runtime APIs without writing boilerplate RPC code.
-  mental_damage: You’ve mastered the Rust type system, only to realize the real boss fight is understanding why your transaction failed because you forgot the specific metadata version of a parachain.
+  summary: Subxt is a Rust library and CLI toolkit for interacting with Substrate-based blockchains, such as Polkadot, to submit transactions, query storage, and run light clients.
+  why_it_matters: It provides a typed, offline-capable interface for developers building against the Polkadot ecosystem without needing to run a full node.
+  mental_damage: Yet another blockchain SDK proving that while we dream of AI agents writing our code, we still need hand-crafted Rust libraries just to say 'hello world' to a ledger.
   tags:
     - rust
-    - blockchain
     - substrate
     - polkadot
-    - wasm
+    - blockchain
+    - sdk
   confidence: high
 curation:
   status: excluded
-  reason: While listed in awesome-mcp-servers, the project itself is a general-purpose blockchain SDK/CLI library for Substrate, lacking a direct AI developer tooling angle required for this catalog.
+  reason: Excluded because it is a blockchain-specific SDK with no AI, agent, or model-driven workflow relevance.
   evidence:
-    - Repo description and README define it as a Rust library for Substrate/Polkadot nodes, not an AI tool.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech', but the repo content shows no MCP implementation or AI features.
-    - Appears to be a standard blockchain infrastructure SDK rather than a coding assistant, agent, or prompt-driven builder.
+    - Repo description and README describe a Rust library for Substrate nodes, with no mention of AI or LLMs.
+    - No topics, tags, or README claims related to agents, prompts, models, or context engineering.
+    - Source-list context (awesome-mcp-servers) appears to be a false positive or misapplied tag, as the project identity is purely a blockchain SDK.
 placement:
   primary_category: null
   section: null
@@ -64,19 +64,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:12.301Z"
+    updated_at: "2026-05-06T22:45:48.343Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:52.917Z"
+    updated_at: "2026-05-06T23:20:52.022Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

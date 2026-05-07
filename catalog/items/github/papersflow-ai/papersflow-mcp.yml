@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__papersflow-ai__papersflow-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,50 @@ metadata:
       - gemini-cli-extension
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:04:11.819Z"
+    last_checked_at: "2026-05-06T22:45:47.884Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.819Z"
+      fetched_at: "2026-05-06T22:45:47.884Z"
       bytes: 3449
 insights:
-  summary: A production hosted MCP server that provides literature search, citation verification, and related-paper discovery tools for AI coding assistants like Claude Code, Codex, and Gemini CLI.
-  why_it_matters: It lets developers query academic papers and verify citations directly from their AI assistant or CLI without breaking flow to search the web.
-  mental_damage: Now your coding agent can procrastinate on Stack Overflow and arXiv simultaneously, doubling the number of open tabs it claims to replace.
+  summary: A hosted MCP server that provides literature search, citation verification, and related-paper discovery tools for AI coding assistants like Claude Code, Codex, and Gemini CLI.
+  why_it_matters: Developers conducting research or implementing academic papers can let their coding agents fetch and verify citations directly within their workflow without leaving the terminal.
+  mental_damage: Your agent can now spend tokens debating the bibliography of a 2018 paper while your actual feature branch rots for another three days.
   tags:
     - mcp
-    - literature-search
     - research
-    - cli
-    - academic
-  confidence: high
+    - literature-search
+    - citation
+    - gemini-cli
+  confidence: medium
 curation:
   status: included
-  reason: The repository is a hosted MCP server exposing research tools, which fits squarely into the MCP category rather than a coding agent or extension.
+  reason: The product identity is a hosted MCP server providing domain-specific research tools to MCP-compatible clients, which fits the MCP Servers & Tooling category cleanly.
   evidence:
-    - Repo description explicitly states it is 'PapersFlow’s production MCP server' for literature search and citation verification.
-    - README confirms it is a hosted MCP endpoint with OAuth, supporting Claude Code, Codex, Gemini CLI, and Cline.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description explicitly states it is 'PapersFlow’s production MCP server for literature search, citation verification...'
+    - README confirms the repository is the 'public documentation and submission surface for the hosted MCP service' with a production endpoint at doxa.papersflow.ai/mcp.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.819Z"
+    updated_at: "2026-05-06T22:45:47.884Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:47.277Z"
+    updated_at: "2026-05-06T23:20:46.669Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

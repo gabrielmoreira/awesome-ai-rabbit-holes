@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lostruins__koboldcpp__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,14 +21,29 @@ provenance:
         extracted_url: https://github.com/lostruins/koboldcpp
         surrounding_text: "| [koboldcpp](https://github.com/LostRuins/koboldcpp)             | - A simple one-file way to run various GGML models with KoboldAI's UI                | GGML                    | Both            | ✅  | C/C++       | Text-Gen      |"
         confidence: high
+    - id: discovery__github__lostruins__koboldcpp__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: koboldcpp
+        extracted_url: https://github.com/lostruins/koboldcpp
+        surrounding_text: "19. [koboldcpp](https://github.com/LostRuins/koboldcpp): A simple one-file way to run various GGML and GGUF models with KoboldAI's UI."
+        confidence: high
 metadata:
   github:
-    stars: 10422
-    forks: 696
+    stars: 10435
+    forks: 697
     license: AGPL-3.0
     archived: false
     created_at: "2023-03-16T02:07:02Z"
-    pushed_at: "2026-05-04T07:36:17Z"
+    pushed_at: "2026-05-06T13:21:01Z"
     description: Run GGUF models easily with a KoboldAI UI. One File. Zero Install.
     homepage: https://github.com/LostRuins/koboldcpp/releases/latest
     topics:
@@ -42,50 +57,50 @@ metadata:
       - llamacpp
       - llm
       - mistral
-    last_checked_at: "2026-05-05T21:03:24.687Z"
+    last_checked_at: "2026-05-06T22:45:03.893Z"
     readme:
-      fetched_at: "2026-05-05T21:03:24.687Z"
+      fetched_at: "2026-05-06T22:45:03.893Z"
       bytes: 22250
 insights:
-  summary: A self-contained, easy-to-run local server for executing GGUF and GGML models with an integrated web UI and compatibility layers for OpenAI, Ollama, and MCP APIs.
-  why_it_matters: It provides developers with a zero-install, cross-platform way to run local LLMs and multimodal models while exposing standard API endpoints for integration with other tooling.
-  mental_damage: Because nothing says 'streamlined developer workflow' like downloading a 4GB binary to run a chatbot that requires its own GPU just to tell you that your local model is hallucinating the correct API format.
+  summary: A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers.
+  why_it_matters: It provides a zero-install, cross-platform way for developers to run local LLMs and multimodal models with OpenAI-compatible APIs for testing and integration.
+  mental_damage: Yet another reason to believe your coding assistant's soul lives in a single file on your desktop, provided you can navigate the 10,000 configuration flags first.
   tags:
     - local-ai
     - llm
-    - inference
     - gguf
-    - mcp
+    - inference
+    - openai-api
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing local runtime for serving AI models on owned hardware, fitting the Local AI category's focus on private execution and model serving stacks.
+  reason: The core product identity is a local runtime and serving stack for running AI models on your own hardware, aligning perfectly with the Local AI category.
   evidence:
-    - "Repo description: 'Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'"
-    - README claims MCP Server support and compatibility with OpenAI/Ollama APIs for developer integration.
-    - Listed in 'awesome-local-ai' under the 'Inference Engine' section.
+    - "Repo description states: 'Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'"
+    - README lists features as a self-contained distributable building off llama.cpp for local text, image, and audio generation.
+    - Found in 'awesome-local-ai' under the 'Inference Engine' section.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
-  reason: Stars (10422) exceeded threshold (150)
+  reason: Stars (10435) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:24.687Z"
+    updated_at: "2026-05-06T22:45:03.893Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:45.437Z"
+    updated_at: "2026-05-06T23:10:37.787Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

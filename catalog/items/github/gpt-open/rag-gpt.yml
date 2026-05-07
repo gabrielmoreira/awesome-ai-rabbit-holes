@@ -1,0 +1,97 @@
+id: github__gpt-open__rag-gpt
+kind: github-repo
+name: rag-gpt
+canonical_url: https://github.com/gpt-open/rag-gpt
+identity:
+  github_repo: gpt-open/rag-gpt
+provenance:
+  discoveries:
+    - id: discovery__github__gpt-open__rag-gpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: RAG-GPT
+        extracted_url: https://github.com/open-kf/rag-gpt
+        surrounding_text: "9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval."
+        confidence: high
+metadata:
+  github:
+    stars: 494
+    forks: 81
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-04-09T03:19:04Z"
+    pushed_at: "2024-07-19T02:00:39Z"
+    description: RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval.
+    homepage: ""
+    topics:
+      - claude
+      - deepseek
+      - gpt
+      - gpt-4o
+      - gpt-4o-mini
+      - liama
+      - llamaparse
+      - llm
+      - moonshot
+      - nextjs
+      - ollama
+      - openai
+      - python
+      - qwen
+      - rag
+      - zhipuai
+    last_checked_at: "2026-05-06T22:44:06.622Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:06.622Z"
+      bytes: 18834
+insights:
+  summary: A Flask-based, self-hosted chatbot platform that uses RAG to turn custom knowledge bases into a deployable customer service interface with an admin console and frontend.
+  why_it_matters: It provides a full-stack, five-minute path to deploying a production-grade conversational assistant without building retrieval infrastructure from scratch.
+  mental_damage: Yet another RAG boilerplate promising 'five-minute deployment' that will inevitably consume three days of your life debugging why the LLM still can't find the PDF you just uploaded.
+  tags:
+    - rag
+    - self-hosted
+    - chatbot
+    - flask
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a customer service chatbot product, not a developer tool for writing, debugging, or managing code workflows.
+  evidence:
+    - Repo description explicitly targets 'intelligent customer service system' with frontend, backend, and admin console.
+    - README focuses on embedding chatbots on websites and importing user data for Q&A, not repo editing or dev workflows.
+    - Listed in awesome-LLM-resources under '知识库 RAG' (Knowledge Base RAG), which is a general ML resource category rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (494) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.617Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:06.622Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:34.095Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

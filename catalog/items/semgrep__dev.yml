@@ -1,12 +1,12 @@
 id: semgrep__dev
 kind: website
-name: Semgrep
+name: semgrep.dev
 canonical_url: https://semgrep.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__semgrep__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "- **[Semgrep](https://github.com/semgrep/mcp)** - Enable AI agents to secure code with [Semgrep](https://semgrep.dev/)."
         confidence: high
     - id: discovery__semgrep__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,44 +49,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An application security platform that scans source code using a combination of static analysis and AI reasoning to detect vulnerabilities, supply chain risks, and hardcoded secrets.
-  why_it_matters: It integrates security scans and AI-assisted remediation directly into developer workflows like PRs, IDEs, and CLIs, aiming to reduce false positives and fix issues at the source.
-  mental_damage: Just when you thought 'vibe coding' was safe, the security team deployed an AI that remembers every false positive you've ever dismissed to make sure you never ship a feature again.
+  summary: Semgrep is an application security platform that combines static analysis with AI reasoning to scan code for security issues, manage supply chain risks, and detect hardcoded secrets.
+  why_it_matters: It integrates directly into developer workflows—including PRs, IDEs, and AI coding tools via MCP—to automate security triage and provide remediation guidance without breaking build velocity.
+  mental_damage: You can now offload the existential dread of 'is this AI-generated code secure' to an AI that was trained to tell you exactly where the AI you just used introduced a vulnerability.
   tags:
-    - ai-assisted
-    - code-scanning
-    - devsecops
-    - sast
     - security
+    - sast
+    - ai-assisted
+    - mcp
+    - code-scanning
   confidence: high
 curation:
   status: included
-  reason: Semgrep acts as an AI-assisted coding agent that reviews code, detects vulnerabilities, and provides remediation guidance directly within the developer's IDE, CLI, and PR workflows.
+  reason: Semgrep is a broad AppSec platform that integrates with AI coding tools via MCP and provides security feedback in IDEs and PRs, making it an integration that augments the development workflow rather than a primary coding agent.
   evidence:
-    - Scraped site context describes 'Multimodal AI detection' and 'Remediation' generating fixes directly in PRs and IDEs.
-    - Product integrates into 'PR checks in GitHub, GitLab' and 'IDEs (VS Code, JetBrains)' as a security agent.
-    - Listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
+    - Platform description emphasizes 'Secure Vibe Coding' and 'MCP Server' integration for AI tools like Cursor and Replit.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' and in awesome-mcp-servers as an official server.
+    - Features include IDE integrations, PR checks, and AI-assisted remediation guidance rather than autonomous code writing.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:02.126Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:29.546Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

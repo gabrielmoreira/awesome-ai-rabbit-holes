@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pmptwiki__pmpt-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,44 +41,49 @@ metadata:
       - side-project
       - version-control
       - vibe-coding
-    last_checked_at: "2026-05-05T23:08:07.273Z"
+    last_checked_at: "2026-05-06T22:45:55.297Z"
     readme:
-      fetched_at: "2026-05-05T23:08:07.273Z"
+      fetched_at: "2026-05-06T22:45:55.297Z"
       bytes: 10672
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey.
+  why_it_matters: It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
+  mental_damage: We have now achieved version control for the hallucinations that build our apps, ensuring we can forever reproduce exactly how we lost three days to a misunderstood requirements prompt.
+  tags:
+    - cli
+    - prompt-engineering
+    - version-control
+    - mcp
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product centers on a structured spec-first loop (5 guided questions → structured prompt → tracked iterations) rather than acting as a coding agent or thin extension.
+  evidence:
+    - "README: 'Answer 5 questions → AI prompt auto-generated' and commands like pmpt plan, pmpt save, pmpt history show a spec-first workflow."
+    - "Repo description: 'Record and share your AI-driven product development journey' positions it around process and specification, not direct coding."
+    - "Active project: created 2026-02-17 and pushed 2026-03-08, with an MIT license and not archived."
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:07.273Z"
+    updated_at: "2026-05-06T22:45:55.297Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:23.041Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

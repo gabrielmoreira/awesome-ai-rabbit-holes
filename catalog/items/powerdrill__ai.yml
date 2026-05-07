@@ -1,12 +1,12 @@
 id: powerdrill__ai
 kind: website
-name: Powerdrill AI
+name: powerdrill.ai
 canonical_url: https://powerdrill.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__powerdrill__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Powerdrill.ai is a hosted platform that provides a team of AI agents designed to accelerate data analysis and decision-making.
-  why_it_matters: It offers developers a browser-based interface to delegate data processing and insight generation to specialized agents without building custom orchestration logic.
-  mental_damage: Because nothing says 'faster insights' like spinning up a whole team of agents just to ask a CSV file why your deploy failed.
+  summary: Powerdrill AI is a multi-agent platform that coordinates a team of AI agents to deliver faster business insights and smarter decision-making.
+  why_it_matters: It offers a conversational interface for non-technical and technical users to query data and generate insights using coordinated agent workflows.
+  mental_damage: "Just what every engineering org needs: another autonomous agent team promising to make decisions smarter while the actual codebase remains untouched."
   tags:
-    - ai-agents
-    - browser-saas
-    - data-analysis
-  confidence: high
+    - agents
+    - multi-agent
+    - insights
+    - decision-support
+  confidence: medium
 curation:
   status: excluded
-  reason: The product is a general-purpose data analysis and decision-making SaaS, lacking a specific developer-tooling or code-workflow angle.
+  reason: The platform is positioned as a business intelligence and decision-support tool for insights rather than a developer-facing coding assistant, framework, or infrastructure component.
   evidence:
-    - Scraped site title and description emphasize 'Faster Insights, Smarter Decisions' rather than developer workflows.
-    - Listed in awesome-ai-agents for general autonomous agent capabilities, not specifically coding or dev infrastructure.
-    - No GitHub repo, README, or code-level context provided to suggest it integrates into a developer's IDE, CLI, or codebase.
+    - Scraped site title and description emphasize 'Faster Insights, Smarter Decisions' rather than code editing or developer workflows.
+    - Seen in awesome-ai-agents under a section describing it as an AI agent team for insights, not software development.
+    - No repo description, README, or site context indicates coding, IDE integration, or developer tooling as the primary use case.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:04.828Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:29.247Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

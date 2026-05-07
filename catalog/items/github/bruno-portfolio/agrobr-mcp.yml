@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bruno-portfolio__agrobr-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,14 +33,14 @@ metadata:
     description: MCP server for Brazilian agricultural data — connect LLMs to 10 public data sources via agrobr
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:25.952Z"
+    last_checked_at: "2026-05-06T22:43:14.121Z"
     readme:
-      fetched_at: "2026-05-05T21:01:25.952Z"
+      fetched_at: "2026-05-06T22:43:14.121Z"
       bytes: 5133
 insights:
-  summary: An MCP server that connects LLMs to ten Brazilian public agricultural data sources, exposing crop estimates, pricing, climate, and deforestation data as tools for Claude Desktop, Cursor, and Claude Code.
-  why_it_matters: Developers building LLM-powered agtech workflows can give models live access to CONAB, IBGE, and B3 data without writing custom scraping or API integration code.
-  mental_damage: We have successfully reached the point where an AI agent can tell you the daily soy price in Mato Grosso but still can't figure out why your CI pipeline is failing.
+  summary: An MCP server that exposes 10 Brazilian agricultural data sources—covering prices, crops, climate, and deforestation—to LLMs via the Model Context Protocol.
+  why_it_matters: Developers building Latin America–focused AI workflows can plug real-time commodity, climate, and deforestation data into Claude, Cursor, or other MCP clients without writing custom API integrations.
+  mental_damage: We now have a protocol for asking an LLM the spot price of soybeans in Portuguese, which feels like either the future of ag-tech or the moment we fully automated Brazilian crop arbitrage via Claude Desktop.
   tags:
     - mcp
     - agriculture
@@ -50,33 +50,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a focused MCP server that integrates multiple Brazilian agricultural data APIs as tools for LLM clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The primary product identity is an MCP server that gives LLMs access to Brazilian agricultural data sources, which fits cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description explicitly states 'MCP server for Brazilian agricultural data'.
-    - README documents 10 discrete tools (preco_diario, estimativa_safra, desmatamento, etc.) for Claude Desktop, Cursor, and Claude Code.
-    - Listed under 'Server Implementations > Data Platforms' in the awesome-mcp-servers directory.
+    - "Repo description states: 'MCP server for Brazilian agricultural data — connect LLMs to 10 public data sources via agrobr'"
+    - README explicitly lists 10 MCP tools (e.g., preco_diario, desmatamento) and shows setup for Claude Desktop, Cursor, and Claude Code
+    - Listed in awesome-mcp-servers under 'Data Platforms', confirming its identity as an MCP server
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:25.952Z"
+    updated_at: "2026-05-06T22:43:14.121Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:44.421Z"
+    updated_at: "2026-05-06T22:47:15.075Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

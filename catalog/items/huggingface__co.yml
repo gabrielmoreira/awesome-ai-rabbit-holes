@@ -1,0 +1,76 @@
+id: huggingface__co
+kind: website
+name: huggingface.co
+canonical_url: https://huggingface.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 社区 Community
+        anchor_text: HuggingFace
+        extracted_url: https://huggingface.co
+        surrounding_text: 2. [HuggingFace](https://huggingface.co/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Hugging Face is a large ML community platform providing hosting, discovery, and collaboration surfaces for models, datasets, and AI applications.
+  why_it_matters: Developers rely on it to discover models, grab datasets, and ship Spaces or inference endpoints without standing up their own ML infrastructure.
+  mental_damage: You will spend three hours browsing trending models you will never deploy, only to leave with a tab collection and a vague sense that you should be fine-tuning something.
+  tags:
+    - models
+    - datasets
+    - inference
+    - ml-platform
+  confidence: high
+curation:
+  status: excluded
+  reason: Hugging Face is a broad ML community hub and model marketplace rather than a developer-facing AI tool, agent, framework, or workflow product for coding workflows.
+  evidence:
+    - Site describes itself as 'The platform where the machine learning community collaborates on models, datasets, and applications.'
+    - Primary surfaces are model browsing, dataset hosting, Spaces apps, and enterprise inference rather than coding agents or dev tooling.
+    - Appears in awesome-LLM-resources as a general community link, not as a developer tool, agent, or coding workflow product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:29.184Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

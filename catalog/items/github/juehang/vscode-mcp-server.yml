@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__juehang__vscode-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP server to expose VS Code editing features to an LLM for AI coding
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:00.323Z"
+    last_checked_at: "2026-05-06T22:44:37.860Z"
     readme:
-      fetched_at: "2026-05-05T21:03:00.323Z"
+      fetched_at: "2026-05-06T22:44:37.860Z"
       bytes: 12453
 insights:
-  summary: A VS Code extension that runs an MCP server to expose the editor's file system, symbol search, and editing capabilities to AI coding assistants like Claude.
-  why_it_matters: It allows external coding agents to directly manipulate code within a live VS Code workspace using native editor features rather than just raw file system access.
-  mental_damage: We have finally achieved the milestone where your IDE needs a plugin so that your AI can talk to the IDE you are already using to watch the AI edit the code.
+  summary: A VS Code extension that runs an MCP server to expose the editor's built-in file management, symbol search, and diagnostic tools to MCP-compatible AI coding agents.
+  why_it_matters: It allows coding agents like Claude to interact directly with your live VS Code workspace, using native editor APIs instead of duplicating standard file system tools.
+  mental_damage: We have finally achieved the breakthrough of making your code editor compatible with the AI that is already reading your code, provided you configure the correct npx command and hope the unauthenticated local port doesn't overthrow your filesystem.
   tags:
     - mcp
-    - vscode
-    - coding-agent
+    - vs-code
     - extension
+    - coding-agent
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that exposes VS Code's internal API as tools for MCP clients.
+  reason: The product's core identity is an MCP server that exposes VS Code capabilities; it exists specifically to be spoken to via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is an 'MCP server to expose VS Code editing features to an LLM'.
-    - README confirms it implements an MCP-compliant server handling requests via HTTP to expose VS Code functionality.
-    - Listed under 'Server Implementations > Coding Agents' in the awesome-mcp-servers directory.
+    - "Repo description explicitly states: 'MCP server to expose VS Code editing features to an LLM for AI coding'."
+    - README confirms 'This extension serves as a Model Context Protocol (MCP) server' and exposes tools via HTTP.
+    - Seen in awesome-mcp-servers under 'Server Implementations > Coding Agents'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (356) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:00.323Z"
+    updated_at: "2026-05-06T22:44:37.860Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:30.873Z"
+    updated_at: "2026-05-06T23:05:03.540Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

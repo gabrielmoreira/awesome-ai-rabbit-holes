@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meacheal-ai__mrc-data__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,49 @@ metadata:
       - model-context-protocol
       - sourcing
       - supply-chain
-    last_checked_at: "2026-05-05T21:03:34.050Z"
+    last_checked_at: "2026-05-06T22:45:12.546Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.050Z"
+      fetched_at: "2026-05-06T22:45:12.546Z"
       bytes: 13715
 insights:
-  summary: MRC Data is an MCP server and data infrastructure providing independently verified Chinese apparel supply chain records, including suppliers, fabrics, and industrial clusters, to AI agents.
-  why_it_matters: It allows developers building sourcing or B2B agents to access verified manufacturing data with a declared vs. verified model, rather than relying on unverified supplier self-declarations.
-  mental_damage: Finally, an MCP server that lets your agent confidently hallucinate that a factory's 80,000-piece capacity is actually 35,000, but with a trustworthy score attached.
+  summary: An MCP server and data platform providing independently verified Chinese apparel supply chain intelligence, including 3,000+ manufacturers and 350+ lab-tested fabrics, to AI agents.
+  why_it_matters: It allows agents to distinguish between supplier self-declarations and verified metrics, addressing the data integrity gap in AI-driven sourcing workflows.
+  mental_damage: We have successfully built an MCP server so your agent can argue with a factory owner in Mandarin about whether their monthly capacity is 80,000 or 35,000 pieces.
   tags:
     - mcp
     - supply-chain
-    - data-infrastructure
-    - agents
-    - china
+    - data
+    - domain-server
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing data tooling for AI agents, which is a direct match for the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server providing domain-specific data access, fitting the MCP Servers & Tooling category as a domain-specific data source.
   evidence:
-    - "Repo description states: 'China's apparel supply chain data infrastructure for AI agents — MCP + REST + OpenAPI.'"
-    - README identifies it as 'the first MCP (Model Context Protocol) server providing independently verified Chinese apparel supply chain intelligence for AI agents.'
+    - Repo description identifies it as 'China's apparel supply chain data infrastructure for AI agents' with 'MCP + REST + OpenAPI'.
+    - README states 'MRC Data is the first MCP (Model Context Protocol) server providing independently verified Chinese apparel supply chain intelligence'.
     - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.050Z"
+    updated_at: "2026-05-06T22:45:12.546Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:36.280Z"
+    updated_at: "2026-05-06T23:12:45.654Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

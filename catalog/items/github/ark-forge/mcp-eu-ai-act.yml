@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ark-forge__mcp-eu-ai-act__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,50 +47,50 @@ metadata:
       - model-context-protocol
       - python
       - regulation
-    last_checked_at: "2026-05-05T21:01:09.633Z"
+    last_checked_at: "2026-05-06T22:12:43.179Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.633Z"
+      fetched_at: "2026-05-06T22:12:43.179Z"
       bytes: 17027
 insights:
-  summary: An MCP server and CLI tool that scans codebases to detect EU AI Act and GDPR compliance violations, mapping findings to specific legal articles.
-  why_it_matters: It automates the tedious legal review of AI frameworks in code, generating risk reports and auditor-ready documentation packages ahead of the August 2026 enforcement deadline.
-  mental_damage: We now have CI/CD pipelines that fail because your random Forest import didn't come with a 40-page technical documentation markdown file.
+  summary: An open-source CLI and MCP server that scans codebases to detect EU AI Act and GDPR compliance violations, mapping detected AI frameworks to specific legal articles.
+  why_it_matters: It automates the tedious legal mapping for teams building AI products, providing pass/fail reports and fix instructions ahead of the August 2026 enforcement deadline.
+  mental_damage: We have successfully abstracted away the burden of understanding the law by turning regulatory compliance into yet another JSON report for an AI agent to ignore.
   tags:
-    - mcp
     - compliance
     - legal
+    - mcp
     - cli
     - eu-ai-act
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly built as a Model Context Protocol server for Claude, Cursor, and other tools, fitting the MCP infrastructure category perfectly.
+  reason: The product is primarily an MCP server implementation designed to give coding assistants access to EU AI Act compliance scanning capabilities.
   evidence:
-    - Repo description identifies it as an 'MCP EU AI Act Compliance Scanner' and it is listed under 'Server Implementations' in awesome-mcp-servers.
-    - README provides explicit integration instructions for Claude Code, Claude Desktop, and Cursor using the MCP protocol.
-    - The tool is installable via 'pip install eu-ai-act-scanner' and runs as a command 'eu-ai-act-mcp', serving as a backend tool.
+    - GitHub description explicitly identifies it as an 'MCP EU AI Act Compliance Scanner'.
+    - README details MCP integration setup for Claude Code, Claude Desktop, and Cursor.
+    - Listed in awesome-mcp-servers under the 'Legal' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.633Z"
+    updated_at: "2026-05-06T22:12:43.179Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:02.532Z"
+    updated_at: "2026-05-06T22:22:21.937Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

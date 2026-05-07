@@ -1,12 +1,12 @@
 id: developers__hostinger__com
 kind: website
-name: Hostinger API
+name: developers.hostinger.com
 canonical_url: https://developers.hostinger.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__developers__hostinger__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Hostinger API Reference is a documentation portal for Hostinger's web services API.
-  why_it_matters: It provides the necessary endpoints for developers to programmatically manage hosting infrastructure, domains, and services.
-  mental_damage: Another API reference joins the ecosystem, allowing AI agents to spin up failing side projects on hosting infrastructure you forgot you were paying for.
+  summary: The Hostinger API Reference is a documentation page for Hostinger's web services API, not a standalone developer tool or MCP server.
+  why_it_matters: It provides the technical surface for interacting with Hostinger's hosting infrastructure programmatically, which could inform MCP server implementations.
+  mental_damage: We have reached the point where an API documentation page is being cataloged as an 'Official Server' in a curated list of protocol tooling.
   tags:
-    - api
+    - api-reference
+    - hostinger
     - documentation
-    - hosting
   confidence: high
 curation:
   status: excluded
-  reason: This is a standard API documentation site for a hosting provider, not an AI tool, agent, or developer-facing AI infrastructure.
+  reason: This is a documentation page for the Hostinger API, not a standalone product, MCP server, or developer tool; it is an auxiliary resource rather than usable software.
   evidence:
-    - Scraped site context identifies the title as 'Hostinger API Reference', indicating a documentation portal.
-    - Source-list context mentions it only as a link within an 'Official Servers' section of an MCP list, but the URL itself is a standard API docs page.
-    - No inputs indicate the presence of AI features, agents, or AI-specific developer tooling.
+    - Scraped site context identifies the title as 'Hostinger API Reference', indicating a docs page.
+    - Seen in awesome-mcp-servers as a linked reference page, not as a hosted server or tool repository.
+    - No repo description, README, stars, or code artifacts provided to suggest a shippable tool.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:42.097Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:04.362Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

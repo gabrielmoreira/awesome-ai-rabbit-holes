@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skullzarmy__vibealive__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-07-01T17:15:21Z"
+    pushed_at: "2025-10-16T18:44:35Z"
+    description: "Full-featured utility to test Next.js projects for unused files and APIs + MCP server "
+    homepage: https://www.npmjs.com/package/vibealive
+    topics:
+      - developer-tools
+      - hacktoberfest
+      - mcp
+      - nextjs
+      - npm-package
+      - tools
+    last_checked_at: "2026-05-06T22:46:26.922Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:26.922Z"
+      bytes: 2330
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A framework-aware code analysis CLI and MCP server for Next.js projects that detects unused files, dead code, and redundant API endpoints.
+  why_it_matters: It helps Next.js developers keep their codebases clean and maintainable by automatically identifying dead code and unused APIs, with optional IDE integration via MCP.
+  mental_damage: Another indispensable utility proving that modern Next.js apps are so convoluted we now need AI-assisted tools just to figure out what’s actually being used.
+  tags:
+    - nextjs
+    - code-analysis
+    - mcp
+    - dead-code
+    - developer-tools
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is a Next.js code analysis utility that explicitly ships a built-in MCP server for IDE/LLM integration, making it a domain-specific MCP tool.
+  evidence:
+    - "Repo description states: 'Full-featured utility to test Next.js projects for unused files and APIs + MCP server'"
+    - "README features 'MCP Integration: Built-in Model Context Protocol server for IDE/LLM integration' as a headline feature"
+    - Included in awesome-mcp-servers under 'Developer Tools', aligning with its MCP-first utility identity
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:26.922Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:02.713Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

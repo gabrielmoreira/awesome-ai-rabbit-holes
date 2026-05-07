@@ -1,13 +1,13 @@
 id: github__jjsantos01__qgis_mcp
 kind: github-repo
-name: QGIS MCP
+name: qgis_mcp
 canonical_url: https://github.com/jjsantos01/qgis_mcp
 identity:
   github_repo: jjsantos01/qgis_mcp
 provenance:
   discoveries:
     - id: discovery__github__jjsantos01__qgis_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [QGIS MCP](https://github.com/jjsantos01/qgis_mcp) - connects QGIS Desktop to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more."
         confidence: high
     - id: discovery__github__jjsantos01__qgis_mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[QGIS](https://github.com/jjsantos01/qgis_mcp)** - connects QGIS Desktop to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more."
         confidence: high
     - id: discovery__github__jjsantos01__qgis_mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,8 +54,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 935
-    forks: 150
+    stars: 937
+    forks: 151
     license: null
     archived: false
     created_at: "2025-03-12T21:09:53Z"
@@ -63,50 +63,50 @@ metadata:
     description: Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:56.330Z"
+    last_checked_at: "2026-05-06T22:44:35.439Z"
     readme:
-      fetched_at: "2026-05-05T21:02:56.330Z"
+      fetched_at: "2026-05-06T22:44:35.439Z"
       bytes: 5878
 insights:
-  summary: A Model Context Protocol (MCP) server and QGIS plugin that allows LLMs like Claude to directly control QGIS for project management, layer manipulation, and code execution.
-  why_it_matters: It turns QGIS into a programmable environment where geospatial workflows can be prototyped and executed through natural language prompts rather than manual GUI interaction.
-  mental_damage: Finally, you can ask an LLM to execute arbitrary Python code in your GIS software, because the 'select by expression' dialog simply wasn't enough of a footgun.
+  summary: An MCP server and QGIS plugin that connects Claude Desktop to QGIS, allowing LLMs to create projects, manage layers, execute processing algorithms, and run arbitrary PyQGIS code.
+  why_it_matters: It brings prompt-driven automation to GIS workflows, letting developers and analysts control QGIS project lifecycle and geospatial processing through Claude instead of manual UI or scripts.
+  mental_damage: We have finally achieved the singularity where your GIS analyst is a large language model executing arbitrary Python code inside your cartography desktop app via a socket server.
   tags:
-    - geospatial
-    - gis
     - mcp
-    - plugin
     - qgis
+    - geospatial
+    - claude
+    - plugin
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to integrate an external tool (QGIS) with LLM clients, fitting the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server and plugin that gives Claude access to QGIS capabilities, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop'.
-    - "README details a two-component system: a QGIS plugin and a Python MCP server implementing the Model Context Protocol."
-    - Listed in 'awesome-mcp-servers' under 'Location Services', confirming its identity as an MCP implementation.
+    - "Repo description explicitly states: 'Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop'"
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Location Services / Community Servers sections
+    - Architecture is split into an MCP Server (qgis_mcp_server.py) and a QGIS plugin that creates a socket server to receive commands
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (935) exceeded threshold (150)
+  reason: Stars (937) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:39.815Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.660Z"
+    updated_at: "2026-05-06T22:12:15.578Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:56.330Z"
+    updated_at: "2026-05-06T22:44:35.439Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:30.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

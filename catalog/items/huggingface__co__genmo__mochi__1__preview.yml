@@ -1,0 +1,80 @@
+id: huggingface__co__genmo__mochi__1__preview
+kind: website
+name: mochi-1-preview
+canonical_url: https://huggingface.co/genmo/mochi-1-preview
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__genmo__mochi__1__preview__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: mochi-1-preview
+        extracted_url: https://huggingface.co/genmo/mochi-1-preview
+        surrounding_text: 11. [mochi-1-preview](https://huggingface.co/genmo/mochi-1-preview)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An open-source, 10-billion-parameter text-to-video diffusion model by Genmo, released under Apache 2.0 for local or cloud image-to-video generation.
+  why_it_matters: Developers building video generation features can run or fine-tune a state-of-the-art model locally using Diffusers, a Gradio UI, or a composable Python API.
+  mental_damage: Now your GPU can hallucinate cinematic footage while your production codebase remains entirely unwritten.
+  tags:
+    - text-to-video
+    - diffusion
+    - genmo
+    - local-ai
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a generative media model and checkpoint rather than a developer-facing AI tool, agent, workflow, or infrastructure component within the catalog's scope.
+  evidence:
+    - Hugging Face page describes Mochi 1 as a text-to-video diffusion model, not a coding or developer tool.
+    - No repo description, stars, topics, license, or dates are available, and the page is a model card, not an application or framework.
+    - Listed in awesome-LLM-resources under video generation, not under coding agents, developer tooling, or infrastructure sections.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:08.165Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

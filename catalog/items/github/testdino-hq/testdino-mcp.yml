@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__testdino-hq__testdino-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-12-01T05:25:58Z"
+    pushed_at: "2026-04-23T07:19:37Z"
+    description: A MCP server that bridges TestDino with AI agents such as Cursor and Claude. Navigate test results, analyze failures, and manage test cases through conversational commands.
+    homepage: https://www.testdino.com
+    topics: []
+    last_checked_at: "2026-05-06T22:46:45.161Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:45.161Z"
+      bytes: 11743
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes TestDino's test management platform to AI agents like Cursor and Claude, allowing conversational navigation of test results, failure analysis, and manual test case management.
+  why_it_matters: It lets developers debug flaky tests and audit test quality by talking to their AI assistant instead of clicking through the TestDino dashboard.
+  mental_damage: We've successfully abstracted away the one part of QA that required actually looking at the failing test, replacing it with a conversational layer that will politely explain why your suite is broken.
+  tags:
+    - mcp
+    - testing
+    - debugging
+    - testdino
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is a Model Context Protocol server that bridges a specific domain platform (TestDino) to MCP-compatible agents, fitting the MCP Servers category.
+  evidence:
+    - "Repo description explicitly states: 'A MCP server that bridges TestDino with AI agents'"
+    - README confirms 'Built on the Model Context Protocol standard' with 13 domain-specific tools for test management
+    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP infrastructure identity
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:45.161Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:24.175Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

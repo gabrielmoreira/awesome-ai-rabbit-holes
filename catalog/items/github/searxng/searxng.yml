@@ -1,13 +1,13 @@
 id: github__searxng__searxng
 kind: github-repo
-name: SearXNG
+name: searxng
 canonical_url: https://github.com/searxng/searxng
 identity:
   github_repo: searxng/searxng
 provenance:
   discoveries:
     - id: discovery__github__searxng__searxng__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,17 +23,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 29503
+    forks: 2834
+    license: AGPL-3.0
+    archived: false
+    created_at: "2021-04-12T15:18:15Z"
+    pushed_at: "2026-05-06T20:24:45Z"
+    description: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.
+    homepage: https://docs.searxng.org
+    topics:
+      - bing
+      - brave
+      - degoogle
+      - duckduckgo
+      - google
+      - metasearch
+      - privacy
+      - python
+      - qwant
+      - search
+      - search-engine
+      - searx
+      - searxng
+      - startpage
+      - yahoo
+    last_checked_at: "2026-05-06T22:46:19.253Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:19.253Z"
+      bytes: 2296
 insights:
   summary: null
   why_it_matters: null
@@ -48,22 +65,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (29503) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:19.253Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:27:38.109Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__searxng__searxng: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

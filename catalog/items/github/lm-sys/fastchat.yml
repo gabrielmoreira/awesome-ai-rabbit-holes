@@ -1,13 +1,13 @@
 id: github__lm-sys__fastchat
 kind: github-repo
-name: FastChat
+name: fastchat
 canonical_url: https://github.com/lm-sys/fastchat
 identity:
   github_repo: lm-sys/fastchat
 provenance:
   discoveries:
     - id: discovery__github__lm-sys__fastchat__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models."
         confidence: high
     - id: discovery__github__lm-sys__fastchat__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 39464
+    stars: 39466
     forks: 4795
     license: Apache-2.0
     archived: false
@@ -48,50 +48,49 @@ metadata:
     description: An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:22.300Z"
+    last_checked_at: "2026-05-06T22:45:01.784Z"
     readme:
-      fetched_at: "2026-05-05T21:03:22.300Z"
+      fetched_at: "2026-05-06T22:45:01.784Z"
       bytes: 20103
 insights:
-  summary: An open platform for training, serving, and evaluating large language models, including the release repo for Vicuna and the infrastructure behind Chatbot Arena.
-  why_it_matters: Developers can use it to serve local LLMs with OpenAI-compatible APIs, fine-tune their own chatbots, and evaluate model performance using MT-Bench and Arena-style battles.
-  mental_damage: Because what every busy developer clearly needs is to self-host a distributed multi-model serving system just to argue with themselves about which 7B model writes the better Python function.
+  summary: An open-source platform for training, serving, and evaluating large language models, including the infrastructure behind the Vicuna model and Chatbot Arena.
+  why_it_matters: It provides the core serving infrastructure and evaluation harnesses (like MT-Bench) needed to self-host LLMs or benchmark model performance locally.
+  mental_damage: Finally, a robust platform to train your own open-source chatbot that will definitely outperform GPT-4, assuming you enjoy debugging distributed serving systems more than writing actual application code.
   tags:
-    - eval
     - llm-serving
-    - local-ai
-    - openai-compatible
+    - eval-harness
+    - local-models
     - training
   confidence: high
 curation:
   status: included
-  reason: It is a local model serving stack and training/eval platform that lets developers run and benchmark LLMs on their own hardware, fitting the Local AI scope.
+  reason: The project is a self-hosted serving stack and training platform for LLMs, fitting the 'Local AI' category because it enables developers to run and evaluate models on their own infrastructure.
   evidence:
     - "Repo description: 'An open platform for training, serving, and evaluating large language models.'"
     - "README: 'A distributed multi-model serving system with web UI and OpenAI-compatible RESTful APIs.'"
-    - Included in awesome-local-ai under the Training section.
+    - "Source lists: 'awesome-local-ai' (section: Training) and 'Awesome-LLMOps' (section: Model > Large Language Model)."
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (39464) exceeded threshold (150)
+  reason: Stars (39466) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:22.626Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:22.300Z"
+    updated_at: "2026-05-06T22:45:01.784Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:10:10.801Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

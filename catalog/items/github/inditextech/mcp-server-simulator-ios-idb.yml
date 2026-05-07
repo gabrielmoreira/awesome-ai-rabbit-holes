@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inditextech__mcp-server-simulator-ios-idb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,50 +39,50 @@ metadata:
       - macos
       - mcp
       - typescript
-    last_checked_at: "2026-05-05T21:02:42.791Z"
+    last_checked_at: "2026-05-06T22:44:23.167Z"
     readme:
-      fetched_at: "2026-05-05T21:02:42.791Z"
+      fetched_at: "2026-05-06T22:44:23.167Z"
       bytes: 12188
 insights:
-  summary: An MCP server that lets LLMs control iOS simulators through natural language commands, handling app installs, UI interactions, and debugging tasks on macOS.
-  why_it_matters: It bridges LLM assistants and Apple's mobile development toolchain, enabling automated UI testing and simulator control without leaving the AI workflow.
-  mental_damage: You can now ask a language model to tap a button on an iPhone simulator, which is either the future of testing or the moment we stop learning how to use Xcode correctly.
+  summary: An MCP server that exposes iOS simulator controls (boot, install, tap, screenshot, logs) so LLMs can drive and inspect simulators through natural language commands.
+  why_it_matters: It lets coding agents and LLMs automate iOS UI testing and debugging directly against simulators without custom scripting or manual device control.
+  mental_damage: We have finally reached the point where your AI needs its own simulated iPhone to feel productive, while you still can’t get the provisioning profile to behave.
   tags:
     - mcp
     - ios
-    - simulator
     - testing
-    - llm-integration
+    - simulator
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that integrates LLMs with iOS simulator tooling, fitting cleanly into the MCP infrastructure category.
+  reason: The product is an MCP server that gives LLMs structured access to iOS simulators, making MCP its primary identity rather than a compatibility footnote.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server' for iOS simulators.
-    - README details MCP integration with Claude and Cline for natural language simulator control.
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators'.
+    - README demonstrates MCP integration with Claude and Cline as the primary usage mode, plus a standalone library mode.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (302) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:42.791Z"
+    updated_at: "2026-05-06T22:44:23.167Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:50.717Z"
+    updated_at: "2026-05-06T23:01:58.250Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

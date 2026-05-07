@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__colign__colign__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -51,49 +51,50 @@ metadata:
       - spec-writing
       - team-collaboration
       - workflow
-    last_checked_at: "2026-05-05T21:01:38.777Z"
+    last_checked_at: "2026-05-06T22:43:26.067Z"
     readme:
-      fetched_at: "2026-05-05T21:01:38.777Z"
+      fetched_at: "2026-05-06T22:43:26.067Z"
       bytes: 7228
 insights:
-  summary: An open-source spec-driven development platform that enables teams to collaboratively write and review software specifications, featuring real-time co-editing and an MCP server for integration with AI coding tools like Claude Code and Cursor.
-  why_it_matters: It shifts the bottleneck of AI-assisted development from code generation to team alignment by providing structured specs that downstream AI agents can reliably implement.
-  mental_damage: We have successfully automated the code writing, so naturally we need a specialized platform to ensure the ten humans involved can agree on what the code is supposed to do.
+  summary: An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor.
+  why_it_matters: It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
+  mental_damage: Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway.
   tags:
-    - spec-driven-development
-    - mcp
+    - spec-driven
     - team-collaboration
-    - ai-workflow
+    - mcp
+    - sdd
+    - planning
   confidence: high
 curation:
   status: included
-  reason: The project's center of gravity is a spec-first workflow, providing the structured environment and MCP tooling specifically designed to drive AI implementation via specifications.
+  reason: The product's primary identity is a spec-first environment for planning and team alignment, explicitly designed to drive downstream AI implementation via structured contracts.
   evidence:
-    - Repo description explicitly defines it as an 'AI-powered spec writing & team alignment platform — Spec-Driven Development'.
-    - README details a 'Two-layer spec architecture' (Project Memory and Structured Proposals) and MCP integration for Claude Code/Cursor.
-    - Listed in the 'awesome-spec-driven-development' directory under 'Development Frameworks'.
+    - Repo description states it is an 'AI-powered spec writing & team alignment platform — Spec-Driven Development for teams'
+    - "README positions specs as the primary artifact: 'Colign makes sure your team is looking at the same thing before the code gets written'"
+    - Includes a two-layer spec architecture (Project Memory and Structured Proposals) and an MCP server to feed these specs to external agents
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:38.777Z"
+    updated_at: "2026-05-06T22:43:26.067Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:58.996Z"
+    updated_at: "2026-05-06T22:50:09.405Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

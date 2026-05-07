@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cocoindex-io__cocoindex-code__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1548
-    forks: 115
+    stars: 1562
+    forks: 117
     license: Apache-2.0
     archived: false
     created_at: "2026-02-01T02:16:56Z"
@@ -42,50 +42,50 @@ metadata:
       - mcp
       - python
       - tree-sitter
-    last_checked_at: "2026-05-05T21:01:36.981Z"
+    last_checked_at: "2026-05-06T22:43:24.263Z"
     readme:
-      fetched_at: "2026-05-05T21:01:36.981Z"
+      fetched_at: "2026-05-06T22:43:24.263Z"
       bytes: 28708
 insights:
-  summary: A lightweight, AST-based semantic code search CLI that integrates with coding agents via CLI, Skill, or MCP to reduce context tokens by roughly 70%.
-  why_it_matters: It gives coding agents a fast, local way to retrieve relevant code snippets without stuffing entire repositories into context windows.
-  mental_damage: We have officially reached the point where our AI assistants need their own indexing pipeline just to cope with the context we keep feeding them.
+  summary: A lightweight, AST-based semantic code search CLI that indexes local codebases to reduce token usage by approximately 70% when used with coding agents.
+  why_it_matters: It integrates with Claude, Codex, and Cursor via CLI, Skill, or MCP to deliver relevant code context without blowing through context windows or API budgets.
+  mental_damage: Yet another clever tool to solve the fundamental problem of feeding an entire codebase to a model that still can't remember what it did three prompts ago.
   tags:
-    - code-search
     - ast
+    - code-search
+    - token-optimization
     - mcp
     - context-engineering
-    - coding-agent
   confidence: high
 curation:
   status: included
-  reason: The project is a retrieval and context-optimization tool designed to feed relevant code to coding agents more efficiently, which aligns with context engineering rather than being a primary coding agent itself.
+  reason: The core novelty is AST-based semantic indexing and retrieval to optimize what context is fed into coding agents, fitting Prompt & Context Engineering over broader agent or extension categories.
   evidence:
-    - Repo description and README state it is an AST-based semantic code search tool that saves 70% tokens for coding agents.
-    - Integrates with agents via CLI, Skill, and MCP (README explicitly lists Claude, Codex, Cursor integration).
-    - Topics include ast, code-search, context-engineering, and mcp, reinforcing its role as a context-shaping layer.
+    - Repo description explicitly states it is an 'AST based' code search engine that 'saves 70% token and improves speed for coding agent'.
+    - README emphasizes integration with agents via Skill or MCP, and is listed as a canonical positive in the context-engineering category definition.
+    - Built on the CocoIndex data transformation engine to provide retrieval infrastructure rather than acting as a standalone agent.
 placement:
   primary_category: context-engineering
-  section: null
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1548) exceeded threshold (150)
+  reason: Stars (1562) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:36.981Z"
+    updated_at: "2026-05-06T22:43:24.263Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:38.177Z"
+    updated_at: "2026-05-06T22:49:46.798Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

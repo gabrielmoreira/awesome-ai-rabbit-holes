@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__albertnahas__icogenie-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,49 +42,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - svg
-    last_checked_at: "2026-05-05T21:00:57.453Z"
+    last_checked_at: "2026-05-06T22:12:32.445Z"
     readme:
-      fetched_at: "2026-05-05T21:00:57.453Z"
+      fetched_at: "2026-05-06T22:12:32.445Z"
       bytes: 7679
 insights:
-  summary: An MCP server that allows AI agents like Claude to generate and manage production-ready SVG icons programmatically via the IcoGenie API.
-  why_it_matters: It lets developers automate icon generation and refinement directly inside their AI-assisted coding workflows, removing the context switch to manual design tools.
-  mental_damage: We have successfully abstracted away the tedious work of drawing a 24x24 pixel house icon, ensuring your agent can now burn credits and API calls to avoid opening Figma for an additional six seconds.
+  summary: An MCP server that lets AI agents like Claude generate, regenerate, and download production-ready SVG icons via the IcoGenie API.
+  why_it_matters: It gives coding agents a structured tool to create and refine UI icons programmatically without leaving the chat or switching to a design tool.
+  mental_damage: We have successfully abstracted icon design into a credit-metered MCP tool, so your agent can now burn tokens debating the perfect outline weight instead of you.
   tags:
     - mcp
-    - icons
     - svg
-    - npx
-  confidence: high
+    - icon-generation
+    - claude
+    - agent-tools
+  confidence: medium
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation designed to extend AI agents with icon generation capabilities, fitting the MCP infrastructure category.
+  reason: The product is an MCP server that exposes icon generation tools to AI agents, making MCP its core identity and a clear fit for the Domain Servers section.
   evidence:
-    - "Repo description states: 'MCP server for IcoGenie - Enable AI agents to generate SVG icons programmatically.'"
-    - README confirms it is an 'MCP (Model Context Protocol) server' with tools like generate_icon and download_icon.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+    - Repo description explicitly states 'MCP server for IcoGenie - Enable AI agents to generate SVG icons programmatically'.
+    - README documents MCP tools (generate_icon, download_icon, check_credits) and configuration for Claude Desktop and Claude Code.
+    - Listed in awesome-mcp-servers under 'Art & Culture' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:57.453Z"
+    updated_at: "2026-05-06T22:12:32.445Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:15.013Z"
+    updated_at: "2026-05-06T22:20:09.247Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

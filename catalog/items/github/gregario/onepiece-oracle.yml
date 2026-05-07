@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__onepiece-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: One Piece TCG MCP server — card search, deck analysis, and set browsing for the One Piece Card Game
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:28.046Z"
+    last_checked_at: "2026-05-06T22:44:08.530Z"
     readme:
-      fetched_at: "2026-05-05T21:02:28.046Z"
+      fetched_at: "2026-05-06T22:44:08.530Z"
       bytes: 2744
 insights:
-  summary: An MCP server that provides One Piece TCG card search, deck analysis, and set browsing for assistant integrations like Claude Desktop and Claude Code.
-  why_it_matters: It's a clean example of how to build a domain-specific MCP server that wires a community dataset into an AI assistant's context window.
-  mental_damage: "We have finally achieved the singularity: an AI assistant that can optimize your Don!! curve while your actual production code rots in main."
+  summary: An MCP server that provides tools for searching cards, browsing sets, and analyzing decks for the One Piece Card Game.
+  why_it_matters: It allows developers building TCG tooling or agents to retrieve structured One Piece card data programmatically via the Model Context Protocol.
+  mental_damage: We have officially reached the point where the Model Context Protocol is being used to optimize deck-building for a manga-based trading card game, in case you were wondering how far the abstraction layers would go.
   tags:
     - mcp
     - tcg
-    - node
-    - npx
+    - one-piece
+    - game-dev
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server that exposes One Piece TCG data as tools for AI assistants, which fits the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server providing domain-specific tools for the One Piece TCG, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'One Piece TCG MCP server'
-    - README confirms MCP-compatible tools for Claude Desktop and Claude Code
-    - Listed in awesome-mcp-servers under Server Implementations > Gaming
+    - Repo description explicitly states 'One Piece TCG MCP server'.
+    - README lists MCP tools like `search_cards` and `analyze_cost_curve`.
+    - Listed in awesome-mcp-servers under 'Gaming'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:28.046Z"
+    updated_at: "2026-05-06T22:44:08.530Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T22:29:43.099Z"
+    updated_at: "2026-05-06T22:58:58.809Z"
     cause: null
     next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

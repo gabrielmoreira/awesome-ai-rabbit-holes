@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fastxyz__skill-optimizer__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 49
+    stars: 51
     forks: 7
     license: MIT
     archived: false
     created_at: "2026-03-06T10:34:42Z"
-    pushed_at: "2026-05-02T06:19:11Z"
+    pushed_at: "2026-05-06T11:39:09Z"
     description: Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs
     homepage: ""
     topics:
@@ -51,50 +51,50 @@ metadata:
       - optimizer
       - sdk
       - tool-calling
-    last_checked_at: "2026-05-05T21:02:08.405Z"
+    last_checked_at: "2026-05-06T22:43:51.376Z"
     readme:
-      fetched_at: "2026-05-05T21:02:08.405Z"
+      fetched_at: "2026-05-06T22:43:51.376Z"
       bytes: 4738
 insights:
-  summary: A Docker-based workbench and CLI for benchmarking, evaluating, and optimizing AI agent skills across multiple LLMs via OpenRouter.
-  why_it_matters: It lets developers author deterministic eval suites and measure skill reliability across models before shipping agent behaviors to production.
-  mental_damage: You now have the infrastructure to scientifically prove that your agent’s PDF-splitting skill fails 40% of the time, and yet you’ll still ship it on Friday.
+  summary: A CLI and Docker workbench for benchmarking, evaluating, and optimizing agent skills against multiple LLMs via OpenRouter.
+  why_it_matters: It gives developers a deterministic way to measure whether their agent skills actually perform reliably across different models before shipping them.
+  mental_damage: Now you can scientifically prove that your agent’s PDF extraction skill is only slightly more reliable than a coin flip, and you have the Docker logs to prove it.
   tags:
     - evals
-    - skills
     - cli
-    - llm-eval
-    - openrouter
+    - agents
+    - llm-benchmark
+    - skills
   confidence: high
 curation:
   status: included
-  reason: This is an eval harness and benchmark workbench for agent skills, fitting cleanly into evals rather than being a coding agent, extension, or framework.
+  reason: The core job is measuring, scoring, and regression-testing agent skill behavior across models, which aligns exactly with the Evals & Benchmarks category.
   evidence:
-    - "Repo description: 'Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs'"
-    - "README: 'Docker workbench and Agent Skill for running deterministic evals against agent skills' with CLI commands like run-suite and run-case"
-    - Seen in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'
+    - "Repo description states: 'Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs'."
+    - README centers on deterministic eval suites, cases, graders, and running suites against OpenRouter models via CLI and Docker.
+    - Topics include benchmark, eval, evals, evaluation, evaluation-framework, llm-eval, and llm-evaluation-framework.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:08.405Z"
+    updated_at: "2026-05-06T22:43:51.376Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:04.093Z"
+    updated_at: "2026-05-06T22:55:30.753Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

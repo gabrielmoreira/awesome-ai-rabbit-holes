@@ -1,13 +1,13 @@
 id: github__mdbabumiamssm__llms-universal-life-science-and-clinical-skills-
 kind: github-repo
-name: LLMs-Universal-Life-Science-and-Clinical-Skills-
+name: llms-universal-life-science-and-clinical-skills-
 canonical_url: https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-
 identity:
   github_repo: mdbabumiamssm/llms-universal-life-science-and-clinical-skills-
 provenance:
   discoveries:
     - id: discovery__github__mdbabumiamssm__llms-universal-life-science-and-clinical-skills-__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,50 +32,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:34.234Z"
+    last_checked_at: "2026-05-06T22:45:12.446Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.234Z"
+      fetched_at: "2026-05-06T22:45:12.446Z"
       bytes: 121256
 insights:
-  summary: A repository of reusable AI skill definitions, agentic workflows, and operational guides for life sciences, genomics, and clinical research, covering platforms like Claude Code, OpenAI Codex, and various MCP servers.
-  why_it_matters: It provides a structured library of SKILL.md definitions and operational guides that developers can reuse to bootstrap biomedical agent workflows or extend their own coding agents with domain-specific context.
-  mental_damage: You now have a 26-star repo promising a full Biomedical OS with 150+ tools, which is either the future of precision oncology or the most elaborate prompt folder ever committed to main.
+  summary: A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery.
+  why_it_matters: It provides reusable, domain-specific agent skills and operational patterns that developers can adapt to build life-science AI applications rather than starting from scratch.
+  mental_damage: You now have a 'Biomedical OS' with 150+ tools, which is fantastic, provided you were initially worried that your Stack Overflow addiction wasn't domain-specific enough for a hematology lab.
   tags:
-    - agents
     - biomedical
-    - life-sciences
+    - agent-skills
     - mcp
-    - skills
+    - life-sciences
+    - workflows
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a directory of reusable skill packs, operational guides, and agent definitions (SKILL.md standard) designed to be used with coding agents and AI tools, fitting the skills category cleanly.
+  reason: The repository is primarily a collection of reusable skill packs, agentic workflows, and MCP server configurations tailored for the biomedical domain, fitting the Agent Skills category.
   evidence:
-    - README states the repo acts as a library of 'skills, agents, and mathematical foundations' and introduces the SKILL.md metadata standard.
-    - Includes specific skill packs for Claude Code, OpenAI Codex, Google ADK, PydanticAI, and MCP operations.
-    - Listed under '技能 Skills' in the awesome-LLM-resources awesome list, reinforcing its role as a skills directory.
+    - README describes a library of 'skills, agents, and mathematical foundations' including specific directories like `Skills/Genomics` and `Skills/Clinical`.
+    - Includes specific MCP infrastructure like `BioMCP` server and provider operations skills for Claude Code, OpenAI, and Google ADK.
+    - Seen in awesome-LLM-resources under the '技能 Skills' section, aligning with its identity as a skills repository.
 placement:
   primary_category: skills
-  section: null
+  section: Domain & Workflow Skill Packs
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:34.665Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.234Z"
+    updated_at: "2026-05-06T22:45:12.446Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:12:45.862Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

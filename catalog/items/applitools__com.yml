@@ -1,12 +1,12 @@
 id: applitools__com
 kind: website
-name: Applitools
+name: applitools.com
 canonical_url: https://applitools.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__applitools__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Applitools is an AI-powered end-to-end testing platform that uses visual AI to automate functional, visual, accessibility, and cross-browser testing for web, mobile, and PDF interfaces.
-  why_it_matters: It allows developers and QA teams to validate UI changes and catch visual regressions across complex applications without writing or maintaining brittle pixel-based assertions.
-  mental_damage: Because nothing says 'confident deployment' like praying a proprietary AI model trained on four billion screens agrees with your designer's latest 2px margin tweak.
+  summary: Applitools is an AI-powered end-to-end testing platform that uses visual AI to automate functional, visual, and accessibility testing across web, mobile, and PDF interfaces.
+  why_it_matters: It integrates with existing developer workflows and test frameworks to reduce manual test maintenance and catch UI regressions across browsers and devices automatically.
+  mental_damage: Now you can watch an AI trained on four billion screens fail your deterministic tests in ways that are mathematically impossible to hallucinate.
   tags:
-    - e2e
-    - enterprise
-    - qa
     - testing
     - visual-ai
+    - qa
+    - e2e
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: It serves as a testing and validation layer that integrates into existing developer workflows and CI/CD pipelines, acting as an AI extension to standard test automation rather than a primary coding agent or app builder.
+  reason: This is a testing and QA platform that augments developer workflows with AI validation, fitting the Extensions & Integrations category under the Testing & QA Add-ons section rather than acting as a primary coding agent.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section as an AI end-to-end testing solution.
-    - Product description highlights 'Autonomous' test creation, 'Visual AI' validation, and integrations with existing test frameworks and CI/CD tools.
-    - Platform capabilities focus on validating interfaces, self-healing tests, and root cause analysis rather than writing application source code.
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
+    - Claims to use 'proprietary testing AI' for visual, functional, and accessibility validation rather than writing application code.
+    - Primary products (Eyes and Autonomous) focus on test creation, execution, and analysis rather than repo editing.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:58.741Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:07.326Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

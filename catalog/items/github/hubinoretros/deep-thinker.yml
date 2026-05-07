@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hubinoretros__deep-thinker__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,50 +47,50 @@ metadata:
       - reasoning
       - thinking
       - typescript
-    last_checked_at: "2026-05-05T21:02:36.661Z"
+    last_checked_at: "2026-05-06T22:44:17.591Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.661Z"
+      fetched_at: "2026-05-06T22:44:17.591Z"
       bytes: 30379
 insights:
-  summary: An MCP server that provides advanced cognitive reasoning capabilities using DAG-based thought graphs, 10 reasoning strategies, and metacognitive features to enhance LLM problem-solving for developers.
-  why_it_matters: It gives developers using MCP-compatible clients a structured way to apply complex reasoning patterns—like dialectic, first principles, and systems thinking—directly within their AI-assisted workflows.
-  mental_damage: Now you can offload the existential dread of making architectural decisions to a directed acyclic graph that critiques itself, while you wonder if the graph is judging your confidence scores.
+  summary: An MCP server that provides graph-based, metacognitive reasoning strategies—including dialectic, abductive, and first-principles—to augment AI assistants with structured thought management.
+  why_it_matters: Developers can plug advanced reasoning workflows into MCP-compatible assistants, enabling more transparent, auditable, and strategic problem-solving beyond linear chat threads.
+  mental_damage: Your AI now has a directed acyclic graph of thoughts, metacognitive self-critique, and five layers of meta-reasoning—yet somehow still can't figure out why your CI pipeline is failing.
   tags:
     - mcp
     - reasoning
     - cognitive
-    - typescript
+    - metacognition
     - dag
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is a standalone MCP server providing reasoning infrastructure, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that extends assistants with structured reasoning capabilities, making MCP the core product identity.
   evidence:
-    - Repo description explicitly states 'Advanced cognitive reasoning MCP server'.
-    - README details 17 tools and configuration for Claude Desktop as an MCP server.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' implementations.
+    - Repo description explicitly identifies it as an 'Advanced cognitive reasoning MCP server' with MCP listed as a topic.
+    - README shows this is configured as an MCP server in Claude Desktop and other MCP clients via stdio.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.661Z"
+    updated_at: "2026-05-06T22:44:17.591Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:26.663Z"
+    updated_at: "2026-05-06T23:00:47.428Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

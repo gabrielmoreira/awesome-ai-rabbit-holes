@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bv-venky__excalidraw-architect-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,14 +44,14 @@ metadata:
       - productivity
       - skills
       - windsurf
-    last_checked_at: "2026-05-05T21:01:27.443Z"
+    last_checked_at: "2026-05-06T22:43:15.065Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.443Z"
+      fetched_at: "2026-05-06T22:43:15.065Z"
       bytes: 8861
 insights:
-  summary: An MCP server that generates Excalidraw architecture diagrams with automatic layout, allowing LLMs to describe system structure while the engine handles positioning and styling.
-  why_it_matters: It lets developers generate and iteratively edit accurate architecture diagrams through natural language in their AI editor, eliminating the manual cleanup usually required when LLMs hallucinate diagram coordinates.
-  mental_damage: We have finally solved the critical developer bottleneck of not being able to confidently explain a system we just spent six sprints building, provided we install a specialized MCP server to draw the boxes for us.
+  summary: An MCP server that generates Excalidraw architecture diagrams with automatic graph-layout algorithms, allowing coding assistants to create and iteratively edit visual system designs.
+  why_it_matters: It removes the manual cleanup usually required when LLMs generate diagrams by separating structural description from pixel-perfect layout math.
+  mental_damage: You can now hallucinate an entire microservice architecture in perfect Sugiyama alignment without ever understanding how the code actually works.
   tags:
     - mcp
     - excalidraw
@@ -61,33 +61,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server that integrates with editors like Cursor and Windsurf to generate diagrams, fitting cleanly into the MCP infrastructure category.
+  reason: The product identity is an MCP server that gives coding assistants access to architecture diagram generation, fitting cleanly into MCP Domain Servers.
   evidence:
-    - Repo description explicitly states it is 'An MCP server that generates beautiful Excalidraw architecture diagrams'.
-    - README details integration with Cursor/Windsurf and lists the MCP server ensuring 'perfect layouts every time' via graph algorithms.
-    - Included in the awesome-mcp-servers list under 'Architecture & Design' server implementations.
+    - Repo description states it is 'An MCP server that generates beautiful Excalidraw architecture diagrams'.
+    - README emphasizes MCP integration with Cursor/Windsurf and describes an MCP tool for layout and editing.
+    - Listed in awesome-mcp-servers under 'Architecture & Design' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.443Z"
+    updated_at: "2026-05-06T22:43:15.065Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:02.349Z"
+    updated_at: "2026-05-06T22:47:28.936Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

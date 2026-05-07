@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__romthpt__mcp-xrpl__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 11
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-04-05T11:10:41Z"
+    pushed_at: "2026-02-28T16:03:34Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:11.888Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.888Z"
+      bytes: 11778
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeScript MCP server that exposes XRP Ledger operations—including account management, token transfers, NFTs, AMMs, and DEX interactions—to AI agents via the Model Context Protocol.
+  why_it_matters: It lets MCP-compatible coding agents and workbenches natively read ledger state and execute on-chain operations without custom glue code for XRPL.
+  mental_damage: You can now ask your agent to clawback tokens, resolve DIDs, and manage AMMs, because nothing says 'safe development workflow' like giving an LLM direct access to MainNet finance operations.
+  tags:
+    - mcp
+    - xrpl
+    - blockchain
+    - finance
+    - typescript
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's identity is an MCP server purpose-built to expose XRP Ledger services to AI agents, matching the MCP Servers & Tooling category.
+  evidence:
+    - README title and overview explicitly define it as 'A comprehensive Model Context Protocol (MCP) server' for XRPL.
+    - Source-list context places it in awesome-mcp-servers under Finance & Fintech.
+    - Actively pushed as of 2026-02-28 with recent creation in 2025-04-05 and not archived.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.888Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:05.501Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

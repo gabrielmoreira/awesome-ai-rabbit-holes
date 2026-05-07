@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coze-dev__coze-studio__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20686
-    forks: 2996
+    stars: 20700
+    forks: 2999
     license: Apache-2.0
     archived: false
     created_at: "2025-06-26T02:19:21Z"
@@ -49,49 +49,50 @@ metadata:
       - studio
       - typescript
       - workflow
-    last_checked_at: "2026-05-05T21:01:42.034Z"
+    last_checked_at: "2026-05-06T22:43:29.000Z"
     readme:
-      fetched_at: "2026-05-05T21:01:42.034Z"
+      fetched_at: "2026-05-06T22:43:29.000Z"
       bytes: 11720
 insights:
-  summary: Coze Studio is an open-source, visual AI agent development platform offering low-code tools for creating, debugging, and deploying agents, workflows, and plugins.
-  why_it_matters: It provides developers with a self-hostable, visual environment to rapidly prototype and ship AI agents with integrated RAG, workflow, and plugin support without starting from scratch.
-  mental_damage: Another open-source contender enters the arena to ensure you spend your weekend docker-composing a UI that promises to abstract away the complexity of the very agents that were supposed to abstract away your work.
+  summary: Coze Studio is an open-source, self-hostable AI agent development platform offering visual, low-code tools for building, debugging, and deploying agents, apps, and workflows with integrated model management, RAG, and plugins.
+  why_it_matters: Developers can self-host a full agent workbench with visual workflow builders, model management, and deployment tooling instead of relying on hosted SaaS platforms.
+  mental_damage: Yet another all-in-one agent platform promising to democratize AI development while mostly ensuring you spend your weekend docker-compose-ing a UI you’ll abandon by Tuesday.
   tags:
     - agents
     - low-code
     - self-hosted
-    - workflow
+    - visual-workflow
+    - agent-platform
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing platform and workbench for visually coordinating agents, workflows, and resources, fitting the Agent Orchestration category rather than a coding agent or app builder.
+  reason: Coze Studio is a self-hosted, visual workbench and control plane for building, debugging, and deploying agents and workflows, which aligns with Agent Orchestration’s workbench/platform criteria rather than a coding agent or extension.
   evidence:
-    - Repo description defines it as 'an AI agent development platform with all-in-one visual tools'.
-    - README describes a visual development tool for building, debugging, and deploying agents, apps, and workflows via no-code/low-code approaches.
-    - Features include building agents, apps, workflows, and managing plugins/knowledge bases via a visual UI, not editing an existing codebase.
+    - "Repo description: 'all-in-one visual tools, simplifying agent creation, debugging, and deployment'"
+    - "README: 'one-stop visual development tool for AI Agents… create and debug agents, apps, and workflows using no-code or low-code approaches'"
+    - Active repo with 20,700 stars, created 2025-06-26 and pushed 2026-04-20, not archived
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (20686) exceeded threshold (150)
+  reason: Stars (20700) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:42.034Z"
+    updated_at: "2026-05-06T22:43:29.001Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:33.735Z"
+    updated_at: "2026-05-06T22:50:49.027Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

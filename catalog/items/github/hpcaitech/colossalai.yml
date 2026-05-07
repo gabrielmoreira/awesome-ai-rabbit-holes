@@ -1,13 +1,13 @@
 id: github__hpcaitech__colossalai
 kind: github-repo
-name: ColossalAI
+name: colossalai
 canonical_url: https://github.com/hpcaitech/colossalai
 identity:
   github_repo: hpcaitech/colossalai
 provenance:
   discoveries:
     - id: discovery__github__hpcaitech__colossalai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                | An integrated large-scale model training system with efficient parallelization techniques.                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg?style=flat-square)              |"
         confidence: high
     - id: discovery__github__hpcaitech__colossalai__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -40,7 +40,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 41376
+    stars: 41374
     forks: 4515
     license: Apache-2.0
     archived: false
@@ -61,50 +61,50 @@ metadata:
       - large-scale
       - model-parallelism
       - pipeline-parallelism
-    last_checked_at: "2026-05-05T21:02:36.351Z"
+    last_checked_at: "2026-05-06T22:44:17.114Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.351Z"
+      fetched_at: "2026-05-06T22:44:17.114Z"
       bytes: 35355
 insights:
-  summary: Colossal-AI is an open-source framework for training and deploying large AI models using advanced parallelism strategies like data, tensor, and pipeline parallelism on distributed hardware.
-  why_it_matters: It allows developers to train massive foundation models and run large-scale inference on heterogeneous hardware clusters without needing custom distributed systems expertise.
-  mental_damage: Because clearly what every software engineer needed this year was another reason to pretend they understand HPC topology and NVIDIA multi-GPU interconnects.
+  summary: A deep learning framework for distributed training and inference of large AI models across heterogeneous GPU clusters.
+  why_it_matters: It provides the parallelism and scaling primitives needed to train and serve foundation models without requiring enterprise-scale budgets or proprietary infrastructure.
+  mental_damage: Yet another heroic infrastructure project promising to make multi-billion-parameter models accessible, right up until you realize your team's entire GPU budget would still only cover the README benchmarks.
   tags:
-    - deep-learning
     - distributed-training
+    - deep-learning
     - hpc
-    - llm-infrastructure
-    - model-parallelism
+    - inference
+    - foundation-models
   confidence: high
 curation:
-  status: included
-  reason: It is a code-first SDK and framework for building/running AI models, fitting the AI Frameworks category rather than end-user agent tools or app builders.
+  status: excluded
+  reason: Excluded because it is a general deep learning and model-training framework for ML infrastructure, not a developer-facing AI tool, agent, IDE, or workflow product.
   evidence:
-    - "Repo description: 'Making large AI models cheaper, faster and more accessible'."
-    - Topics include deep-learning, distributed-computing, and model-parallelism.
-    - "Source list context: Awesome-LLMOps lists it under 'Training > Frameworks for Training'."
+    - "Repo description: 'Making large AI models cheaper, faster and more accessible'"
+    - Topics include deep-learning, distributed-computing, data-parallelism, foundation-models, and inference
+    - README focuses on large-scale model training benchmarks and GPU cloud promotion, not developer tooling workflows
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (41376) exceeded threshold (150)
+  reason: Stars (41374) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:25.639Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.351Z"
+    updated_at: "2026-05-06T22:44:17.114Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:42.106Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: www__aomni__com
 kind: website
-name: Aomni
+name: www.aomni.com
 canonical_url: https://www.aomni.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__aomni__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Aomni is a hosted SaaS platform that provides AI agents to automate account-based sales research, outreach personalization, and GTM strategy.
-  why_it_matters: It is relevant to developers building sales tooling or integrating AI agents into revenue workflows, but offers no direct utility for coding or IDE workflows.
-  mental_damage: We have reached the point where 'agentic' has been applied to cold emailing so thoroughly that the term now covers both autonomous codebases and whoever is drafting LinkedIn DMs at 2 AM.
+  summary: Aomni is a SaaS platform that provides autonomous AI agents designed for sales and go-to-market teams to automate account research, prospect engagement, and sales strategy.
+  why_it_matters: It reduces the manual overhead of sales research by aggregating account data and generating personalized outreach, though it targets sales ops rather than codebases.
+  mental_damage: "Just what the world needed: another 'AI agent army' ensuring that even our cold emails will be written by a bot that knows exactly how much we hate reading them."
   tags:
+    - sales
     - agents
+    - abm
     - b2b-saas
-    - sales-ai
+    - automation
   confidence: high
 curation:
   status: excluded
-  reason: This is a vertical SaaS product for revenue and sales teams, not a developer tool for coding, infrastructure, or app-building.
+  reason: Aomni is a vertical SaaS product for sales and GTM teams, lacking any developer-tooling, coding, or infrastructure angle required for this catalog.
   evidence:
-    - Scraped site context describes the product as 'Autonomous Agents for Revenue Teams' focused on sales research and ABM.
-    - Source list context (awesome-ai-agents) lists it specifically under a sales/ABM automation use case rather than developer tooling.
-    - No GitHub repo, code interface, IDE integration, or developer workflow automation is present in the provided inputs.
+    - Scraped site description explicitly targets 'revenue teams' and 'sales teams' with ABM automation.
+    - Source list context places it in 'awesome-ai-agents' under a sales/ABM context, not developer workflows.
+    - No mention of IDEs, code editing, repositories, SDKs, or developer infrastructure in the landing page excerpt.
 placement:
   primary_category: null
   section: null
@@ -56,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:38.254Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:45.066Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

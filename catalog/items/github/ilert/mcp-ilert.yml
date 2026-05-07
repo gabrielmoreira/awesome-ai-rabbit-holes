@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ilert__mcp-ilert__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,21 +21,6 @@ provenance:
         extracted_url: https://github.com/ilert/mcp-ilert
         surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
         confidence: high
-    - id: discovery__www__ilert__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: ilert
-        extracted_url: https://ilert.com
-        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
-        confidence: high
 metadata:
   github:
     stars: 14
@@ -47,56 +32,49 @@ metadata:
     description: "MCP server for ilert "
     homepage: https://ilert.com
     topics: []
-    last_checked_at: "2026-05-05T21:02:41.647Z"
+    last_checked_at: "2026-05-06T22:44:22.355Z"
     readme:
-      fetched_at: "2026-05-05T21:02:41.647Z"
+      fetched_at: "2026-05-06T22:44:22.355Z"
       bytes: 2230
 insights:
-  summary: An official remote MCP server that allows AI assistants to manage alerts and incidents within the ilert platform.
-  why_it_matters: It connects incident management workflows directly into AI coding assistants like Cursor and Claude, letting developers query and resolve alerts without leaving their editor.
-  mental_damage: "The dream of 'vibe coding' is now complete: you can debug your broken production deploy via an AI agent that is also configured via a JSON blob in the same IDE."
+  summary: An official MCP server that lets AI assistants query and manage alerts and incidents within the ilert platform.
+  why_it_matters: It allows developers to incorporate incident response and alerting workflows directly into AI coding assistants without leaving the chat interface.
+  mental_damage: Your AI assistant can now page the on-call engineer while you're still trying to figure out why the build broke, completing the cycle of automated chaos.
   tags:
-    - ai-agent
-    - automation
-    - devops
-    - ilert
-    - incident-management
     - mcp
-    - remote-server
-    - sre
+    - incident-management
+    - ilert
+    - devops
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation designed to integrate a specific developer tool (ilert) with AI assistants via the Model Context Protocol.
+  reason: This is a dedicated MCP server for a specific domain (incident management), fitting perfectly into the MCP Servers & Tooling category as a 'Domain Server'.
   evidence:
     - Repo description explicitly states 'MCP server for ilert'.
-    - README confirms it is the 'official Model Context Protocol (MCP) server for ilert' using Streamable HTTP transport.
-    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
-    - Scraped site describes 'ilert AI SRE' as an intelligent agent that investigates, explains, and resolves incidents autonomously.
-    - Platform features multiple specialized agents including a Voice Agent, On-Call Scheduler, and postmortem generators working across the lifecycle.
-    - Listed in awesome-mcp-servers under 'Official Servers' for an AI-first alerting and on-call management platform.
+    - README confirms it is 'The official Model Context Protocol (MCP) server for ilert'.
+    - Listed in awesome-mcp-servers under 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:36.405Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:41.647Z"
+    updated_at: "2026-05-06T22:44:22.355Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:50.402Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

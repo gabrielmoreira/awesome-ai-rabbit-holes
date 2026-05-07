@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__atlassian-browser-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: GPL-3.0
     archived: false
     created_at: "2026-04-06T12:02:55Z"
-    pushed_at: "2026-05-02T10:32:53Z"
+    pushed_at: "2026-05-06T10:29:51Z"
     description: Browser-backed MCP server wrapping mcp-atlassian with Playwright SSO auth for Atlassian Server/Data Center
     homepage: null
     topics:
@@ -53,50 +53,50 @@ metadata:
       - self-hosted
       - server
       - sso
-    last_checked_at: "2026-05-05T21:02:18.153Z"
+    last_checked_at: "2026-05-06T22:43:59.403Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.153Z"
-      bytes: 3545
+      fetched_at: "2026-05-06T22:43:59.403Z"
+      bytes: 3542
 insights:
-  summary: A Model Context Protocol server that wraps mcp-atlassian to enable Jira and Confluence access via Playwright browser-cookie authentication for SSO-protected Server and Data Center instances.
-  why_it_matters: It allows developers to integrate AI coding assistants with on-premise Atlassian instances that sit behind corporate SSO walls where standard API tokens are unavailable.
-  mental_damage: Solving the classic 'my AI can't read my Jira because Legal mandated Okta and SAML' problem by automating a browser session that you still have to manually log into.
+  summary: A browser-backed MCP server that wraps mcp-atlassian to enable SSO and cookie-based authentication for Atlassian Server/Data Center instances.
+  why_it_matters: It allows AI coding assistants to natively access Jira and Confluence in enterprise environments where API tokens are unavailable due to corporate SSO restrictions.
+  mental_damage: We have successfully automated the one part of the job that required opening a browser and clicking 'Approve' with a mouse.
   tags:
     - mcp
     - atlassian
     - sso
     - playwright
-    - developer-tools
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to bridge AI tools with Atlassian infrastructure, fitting the MCP category perfectly.
+  reason: The product is an MCP server specifically designed to bridge Atlassian instances with AI tools via browser-cookie auth, fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'Browser-backed MCP server wrapping mcp-atlassian'.
-    - README confirms it registers as an MCP server for editors like Cursor and Claude Code.
+    - README confirms it registers 73 MCP tools and is configured as an MCP server in editors like Cursor and Claude Code.
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.153Z"
+    updated_at: "2026-05-06T22:43:59.403Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:44.616Z"
+    updated_at: "2026-05-06T22:57:08.039Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

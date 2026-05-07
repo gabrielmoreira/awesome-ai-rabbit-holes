@@ -1,13 +1,13 @@
 id: github__anthropics__claude-code
 kind: github-repo
-name: Claude Code
+name: claude-code
 canonical_url: https://github.com/anthropics/claude-code
 identity:
   github_repo: anthropics/claude-code
 provenance:
   discoveries:
     - id: discovery__github__anthropics__claude-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 120k` `[Anthropic]` — Anthropic's repo-aware terminal agent for code edits, refactors, and git workflows. Source-available, no OSS license."
         confidence: high
     - id: discovery__github__anthropics__claude-code__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,59 +39,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 120619
-    forks: 19981
+    stars: 120980
+    forks: 20027
     license: null
     archived: false
     created_at: "2025-02-22T17:41:21Z"
-    pushed_at: "2026-05-04T23:01:47Z"
+    pushed_at: "2026-05-06T22:08:13Z"
     description: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
     homepage: https://code.claude.com/docs/en/overview
     topics: []
-    last_checked_at: "2026-05-05T21:01:04.367Z"
+    last_checked_at: "2026-05-06T22:12:38.891Z"
     readme:
-      fetched_at: "2026-05-05T21:01:04.367Z"
+      fetched_at: "2026-05-06T22:12:38.891Z"
       bytes: 2873
 insights:
-  summary: Claude Code is a terminal-native AI coding agent that understands your codebase and executes routine tasks, explains complex code, and handles git workflows through natural language commands.
-  why_it_matters: It integrates directly into the developer's existing terminal and IDE workflows, offering a way to delegate routine coding and git tasks without switching context to a separate tool.
-  mental_damage: Yet another reason to wonder if 'git add -p' and actually reading the diff will soon be considered a lost art.
+  summary: Claude Code is a terminal-native AI coding agent that reads your codebase, executes routine tasks, explains complex code, and handles git workflows via natural language commands.
+  why_it_matters: It lets developers offload boilerplate, code navigation, and git rituals to an agent that already lives in the shell they never leave.
+  mental_damage: You now have a senior engineer in your terminal who never sleeps, never complains, and still manages to invent reasons to rebase your branches at 2am.
   tags:
-    - anthropic
     - cli
     - coding-agent
-    - git-workflow
     - terminal
+    - git-workflow
+    - anthropic
   confidence: high
 curation:
   status: included
-  reason: The primary product is a developer-facing coding agent that directly plans, writes, edits, and debugs code inside a terminal, IDE, and PR workflow, fitting the coding-agents category perfectly.
+  reason: Claude Code is the canonical example of a primary coding assistant that operates directly in the terminal and across repos, fitting the coding-agents identity rather than an extension or integration layer.
   evidence:
-    - Repo description explicitly states it is 'an agentic coding tool that lives in your terminal' and handles git workflows.
-    - README confirms usage in terminal, IDE, and GitHub PRs via '@claude' tagging for direct code collaboration.
-    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents' section.
+    - Repo description explicitly calls it an 'agentic coding tool that lives in your terminal' and handles git workflows.
+    - README positions it as the primary assistant developers run via `claude` in their terminal or tag on GitHub.
+    - Listed as a closed-source terminal-native coding agent in awesome-cli-coding-agents, matching the catalog's canonical positives.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (120619) exceeded threshold (150)
+  reason: Stars (120980) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:16.575Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:04.367Z"
+    updated_at: "2026-05-06T22:12:38.891Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:27.186Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

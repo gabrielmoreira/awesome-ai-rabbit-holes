@@ -1,13 +1,13 @@
 id: github__minmaxflow__mini-kode
 kind: github-repo
-name: Mini-Kode
+name: mini-kode
 canonical_url: https://github.com/minmaxflow/mini-kode
 identity:
   github_repo: minmaxflow/mini-kode
 provenance:
   discoveries:
     - id: discovery__github__minmaxflow__mini-kode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -40,28 +40,28 @@ metadata:
       - human-in-the-loop-ai
       - llm
       - tool-system
-    last_checked_at: "2026-05-05T21:03:42.584Z"
+    last_checked_at: "2026-05-06T22:45:20.916Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.584Z"
+      fetched_at: "2026-05-06T22:45:20.916Z"
       bytes: 4998
 insights:
-  summary: An educational, terminal-native AI coding agent CLI built with TypeScript and React/Ink that demonstrates modern coding agent architecture.
-  why_it_matters: Developers can use it as a working reference implementation to understand agent loops, tool systems, and human-in-the-loop permission flows without wading through 100K-line production codebases.
-  mental_damage: Yet another excuse to procrastinate on your actual feature work by 'studying' a 14K-line AI agent that mostly ends up writing its own README.
+  summary: An educational, terminal-based AI coding agent CLI built with TypeScript and the OpenAI SDK to demonstrate modern coding agent architecture.
+  why_it_matters: It offers developers a clean, 14K-line reference implementation for understanding and hacking on agent loops, tool systems, and human-in-the-loop approvals.
+  mental_damage: Yet another fully functional coding agent you will clone for the architecture, then silently abandon when you remember you have a real job to do.
   tags:
     - cli
     - coding-agent
     - educational
+    - typescript
     - mcp
-    - openai-sdk
   confidence: high
 curation:
   status: included
-  reason: It is a terminal-native coding agent that directly plans, edits, and executes code via a CLI workflow, matching the coding-agents category and its terminal section.
+  reason: It is a standalone terminal-native coding assistant that reads code, plans changes, and executes tools, fitting the coding-agents category over an extension or framework.
   evidence:
-    - Repo description explicitly calls it an 'educational AI coding agent CLI' with topics including coding-agent and cli.
-    - README states it provides a 'complete LLM workflow with streaming responses and human-in-the-loop permission approval' inside a terminal UI.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - Repo description explicitly calls it an 'educational AI coding agent CLI'.
+    - README details a complete agent loop with file operations, command execution, and human-in-the-loop permission approvals.
+    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -69,21 +69,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (301) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:15.951Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.584Z"
+    updated_at: "2026-05-06T22:45:20.916Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:33.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

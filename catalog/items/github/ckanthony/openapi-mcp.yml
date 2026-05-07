@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ckanthony__openapi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Dockerized MCP Server to allow your AI agent to access any API with existing api docs
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:34.835Z"
+    last_checked_at: "2026-05-06T22:43:22.279Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.835Z"
+      fetched_at: "2026-05-06T22:43:22.279Z"
       bytes: 13923
 insights:
-  summary: A Dockerized MCP server that reads OpenAPI/Swagger specifications and automatically generates MCP tool definitions, allowing AI agents like Cursor to interact with any documented API.
-  why_it_matters: Developers can instantly give their AI coding agents the ability to call proprietary or third-party APIs by simply pointing this server at an existing spec file, without writing custom integration code.
-  mental_damage: We have reached the point where we are building middleware to translate the middleware that translates our APIs, so the AI can pretend it knows how to use the middleware.
+  summary: A Dockerized MCP server that reads OpenAPI/Swagger specifications and automatically generates corresponding MCP tool definitions so AI agents can interact with any documented API.
+  why_it_matters: It lets developers give coding agents instant, zero-code access to any API with existing docs, bridging the gap between static specs and live agent tooling.
+  mental_damage: We have reached the point where we are writing protocol adapters so our protocol-adapter-compatible assistants can finally understand the REST APIs we wrote ten years ago.
   tags:
     - mcp
     - openapi
     - docker
-    - integration
-    - api
+    - api-integration
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that converts OpenAPI specs into MCP tools, fitting squarely into the MCP infrastructure category.
+  reason: The product’s core identity is an MCP server that converts OpenAPI specs into MCP tools, making it a canonical fit for MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'Dockerized MCP Server to allow your AI agent to access any API with existing api docs'.
-    - README confirms it 'Generate[s] MCP tool definitions directly from a Swagger/OpenAPI specification file' for MCP-compatible clients like Cursor.
-    - Listed in awesome-mcp-servers under 'Server Implementations'.
+    - README confirms it 'reads a swagger.json or openapi.yaml file and generates a corresponding MCP toolset'.
+    - Listed in awesome-mcp-servers under Server Implementations, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.835Z"
+    updated_at: "2026-05-06T22:43:22.279Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:18.732Z"
+    updated_at: "2026-05-06T22:49:24.732Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

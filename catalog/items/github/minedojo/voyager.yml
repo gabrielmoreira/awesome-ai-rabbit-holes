@@ -1,13 +1,13 @@
 id: github__minedojo__voyager
 kind: github-repo
-name: Voyager
+name: voyager
 canonical_url: https://github.com/minedojo/voyager
 identity:
   github_repo: minedojo/voyager
 provenance:
   discoveries:
     - id: discovery__github__minedojo__voyager__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6874
-    forks: 669
+    stars: 6878
+    forks: 670
     license: MIT
     archived: false
     created_at: "2023-05-25T18:20:15Z"
@@ -37,50 +37,50 @@ metadata:
       - large-language-models
       - minecraft
       - open-ended-learning
-    last_checked_at: "2026-05-05T21:03:41.687Z"
+    last_checked_at: "2026-05-06T22:45:19.722Z"
     readme:
-      fetched_at: "2026-05-05T21:03:41.687Z"
+      fetched_at: "2026-05-06T22:45:19.722Z"
       bytes: 6737
 insights:
-  summary: Voyager is a research-oriented, LLM-powered embodied agent that uses GPT-4 to continuously learn, write code, and play Minecraft without human intervention.
-  why_it_matters: It demonstrates a practical implementation of an automatic curriculum and growing skill library using code generation as an action space for lifelong learning agents.
-  mental_damage: Finally, a framework that writes its own code to play a block game, proving that even our agents are now contributing to the 'unfinished side-project' ecosystem.
+  summary: Voyager is an LLM-powered embodied lifelong learning agent that uses GPT-4 to autonomously explore Minecraft, complete tasks, and build a reusable skill library of executable code.
+  why_it_matters: It demonstrates a practical architecture for iterative prompting, automatic curriculum generation, and skill library management that can inform how developers build more capable autonomous agents.
+  mental_damage: We have discovered the profound existential milestone of teaching a language model to play Minecraft by itself, yet it still refuses to fix the failing CI pipeline we assigned it three days ago.
   tags:
-    - embodied-ai
+    - embodied-agents
     - lifelong-learning
-    - llm-agent
     - minecraft
-    - research
+    - langchain
+    - autonomous-agents
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the project is a research experiment for embodied AI in Minecraft, not a practical developer tool for coding, IDEs, or infrastructure workflows.
+  reason: Exclude because Voyager is a research project for embodied AI in Minecraft, not a practical developer tool, agent framework, or coding assistant relevant to software development workflows.
   evidence:
-    - Repo description defines it as 'An Open-Ended Embodied Agent with Large Language Models' focused on Minecraft.
-    - README emphasizes playing Minecraft, unlocking tech tree milestones, and research benchmarks rather than developer workflows.
-    - Source list context places it in 'awesome-langchain/Tools/Agents' purely as a research demo using the framework, not a dev tool.
+    - Repo description explicitly defines it as 'An Open-Ended Embodied Agent with Large Language Models' focused on Minecraft.
+    - README details an agent that 'continuously explores the world' and 'plays Minecraft', using GPT-4 via blackbox queries for gaming, not coding repos.
+    - Topics include 'minecraft', 'embodied-learning', and 'open-ended-learning', signaling a research/gaming domain rather than developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6874) exceeded threshold (150)
+  reason: Stars (6878) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:05.454Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:41.687Z"
+    updated_at: "2026-05-06T22:45:19.722Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:21.999Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

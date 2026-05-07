@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jasonjmcghee__claude-debugs-for-you__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you) 📇 🏠 - An MCP Server and VS Code Extension which enables (language agnostic) automatic debugging via breakpoints and expression evaluation."
         confidence: high
     - id: discovery__github__jasonjmcghee__claude-debugs-for-you__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -40,7 +40,7 @@ provenance:
 metadata:
   github:
     stars: 508
-    forks: 45
+    forks: 46
     license: MIT
     archived: false
     created_at: "2025-01-17T05:54:24Z"
@@ -66,50 +66,50 @@ metadata:
       - vibe-debugging
       - vscode
       - vscode-extension
-    last_checked_at: "2026-05-05T21:02:51.824Z"
+    last_checked_at: "2026-05-06T22:44:31.247Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.824Z"
+      fetched_at: "2026-05-06T22:44:31.247Z"
       bytes: 6424
 insights:
-  summary: A VS Code extension and MCP server that allows LLMs like Claude to interactively debug code by setting breakpoints, evaluating expressions, and stepping through execution inside the editor.
-  why_it_matters: It closes the loop between AI suggestions and runtime reality by giving the model actual control over the debugger, moving beyond static code review to live, step-by-step fault isolation.
-  mental_damage: We have officially entered the era of 'vibe debugging,' where you prompt an LLM to find a race condition while you stare at the breakpoint hit count and wonder when you became the supervisor of a very polite, context-hungry intern.
+  summary: A VS Code extension and MCP server that lets LLMs like Claude interactively debug code by controlling breakpoints, stepping through execution, and evaluating expressions.
+  why_it_matters: It bridges the gap between coding assistants and real debugging workflows, allowing models to inspect runtime state instead of guessing from static context.
+  mental_damage: We have officially entered the era where your AI assistant now has the power to set breakpoints and stare at variables you could have inspected yourself in half the time.
   tags:
-    - mcp
     - vscode-extension
+    - mcp
     - debugging
     - llm-tooling
     - vibe-debugging
   confidence: high
 curation:
   status: included
-  reason: The tool acts as an interactive coding agent that collaborates directly on source code within the IDE/debugger workflow, fitting the Coding Agents category.
+  reason: The project is a VS Code extension and MCP server that augments other coding assistants with interactive debugging capabilities, fitting cleanly as an IDE integration rather than a primary agent.
   evidence:
-    - Repo description explicitly states it enables LLMs to 'interactively debug any language for you via MCP and a VS Code Extension'.
-    - README demo shows the LLM figuring out a problem and suggesting a fix within the VS Code Continue workflow.
-    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as MCP-based dev infrastructure.
+    - Repo description explicitly states it 'Enable[s] any LLM (e.g. Claude) to interactively debug any language for you via MCP and a VS Code Extension'.
+    - README confirms it is an 'MCP Server and VS Code extension which enables claude to interactively debug' rather than acting as the primary assistant.
+    - Listed as a canonical positive example for the ai-dev-extensions category.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (508) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.824Z"
+    updated_at: "2026-05-06T22:44:31.247Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:46.243Z"
+    updated_at: "2026-05-06T23:03:42.635Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

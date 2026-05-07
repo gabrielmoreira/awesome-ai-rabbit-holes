@@ -1,29 +1,13 @@
 id: github__pixsway__mermaid-grammer-inspector-mcp
 kind: github-repo
-name: mermaid_grammer_inspector_mcp
+name: mermaid-grammer-inspector-mcp
 canonical_url: https://github.com/pixsway/mermaid-grammer-inspector-mcp
 identity:
   github_repo: pixsway/mermaid-grammer-inspector-mcp
 provenance:
   discoveries:
-    - id: discovery__github__betterhyq__mermaid_grammer_inspector_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📐 <a name="architecture-and-design"></a>Architecture & Design
-        anchor_text: betterhyq/mermaid-grammer-inspector-mcp
-        extracted_url: https://github.com/betterhyq/mermaid_grammer_inspector_mcp
-        surrounding_text: "- [betterhyq/mermaid-grammer-inspector-mcp](https://github.com/betterhyq/mermaid_grammer_inspector_mcp) 📇 🏠 🍎 🪟 🐧 - A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities"
-        confidence: high
     - id: discovery__github__pixsway__mermaid-grammer-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -52,27 +36,27 @@ metadata:
       - agent
       - ai
       - mcp
-    last_checked_at: "2026-05-05T21:01:19.841Z"
+    last_checked_at: "2026-05-06T22:45:54.063Z"
     readme:
-      fetched_at: "2026-05-05T21:01:19.841Z"
+      fetched_at: "2026-05-06T22:45:54.063Z"
       bytes: 2665
 insights:
-  summary: An MCP server that validates Mermaid diagram syntax and provides grammar checking capabilities for AI agents and developer tools.
-  why_it_matters: It allows coding agents and IDEs to catch invalid diagram syntax before rendering, reducing friction when generating architecture diagrams from prompts.
-  mental_damage: We now have dedicated infrastructure to validate the diagrams that AI generates to document the code that AI also wrote and probably broke.
+  summary: An archived MCP server that validates Mermaid diagram syntax and provides grammar checking capabilities for AI coding assistants.
+  why_it_matters: It allows AI agents to verify diagram syntax before generating broken flowcharts, preventing the classic loop of Mermaid errors in generated documentation.
+  mental_damage: We now have dedicated MCP servers with three GitHub stars to validate the diagram syntax that your coding agent hallucinated in the first place.
   tags:
-    - diagram-validation
-    - grammar-checking
     - mcp
     - mermaid
+    - validation
+    - diagrams
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived despite being created only days ago, indicating it was abandoned almost immediately.
+  reason: The repository is archived just days after creation, has minimal traction (3 stars), and represents a niche MCP adapter rather than a sustainable developer tool worth curating.
   evidence:
-    - "Archived: yes (immediate negative signal for a project created 2025-12-09)"
-    - Only 3 stars with minimal ecosystem traction
-    - Listed in awesome-mcp-servers under Architecture & Design, but archival status outweighs directory inclusion
+    - "Archived: yes (repository was archived shortly after its creation on 2025-12-09)"
+    - "Stars: 3 (minimal ecosystem traction)"
+    - Repo description explicitly states this is 'A Model Context Protocol (MCP) server for validating Mermaid diagram syntax'
 placement:
   primary_category: null
   section: null
@@ -80,21 +64,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:37.272Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.152Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:19.841Z"
+    updated_at: "2026-05-06T22:45:54.063Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:05.669Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

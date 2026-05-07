@@ -1,12 +1,12 @@
 id: second__canny__io
 kind: website
-name: Roadmap
+name: second.canny.io
 canonical_url: https://second.canny.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__second__canny__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,21 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A private Canny-powered feedback board for the Second team to collect user input on product decisions.
-  why_it_matters: It provides a channel for users to influence the roadmap of the Second product, though it is not a developer tool itself.
-  mental_damage: We have successfully reached the point where an AI agent's feedback board is being cataloged as if it were the agent itself.
+  summary: A private Canny board used by the Second team to collect user feedback on their product.
+  why_it_matters: It provides a channel for users to influence the roadmap of the Second product, though the board itself is currently private and inaccessible.
+  mental_damage: We have successfully reached the point where the feedback board for an AI agent is being cataloged as an AI agent.
   tags:
     - feedback
     - meta
-    - not-a-tool
+    - canny
   confidence: high
 curation:
   status: excluded
-  reason: This is a customer feedback portal for a product team, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: This is a generic feedback portal powered by Canny, not an AI developer tool, agent, or workflow product.
   evidence:
-    - Scraped site title and description identify this as 'Second Feedback', a Canny board for product decisions.
-    - The page excerpt confirms it is a private feedback board requiring login, not a software tool.
-    - Listed in awesome-ai-agents only as a link to the feedback page, not as an agent implementation.
+    - Scraped site title is 'Second Feedback' with description 'Give feedback to the Second team'.
+    - Primary page excerpt shows a private Canny board login page with no AI tooling functionality.
+    - Source list context confirms this is merely a link to a feedback page, not the tool itself.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:59.864Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:25.857Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

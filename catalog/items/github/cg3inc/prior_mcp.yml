@@ -6,8 +6,8 @@ identity:
   github_repo: cg3inc/prior_mcp
 provenance:
   discoveries:
-    - id: discovery__github__cg3-llc__prior_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__cg3inc__prior_mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,53 +33,49 @@ metadata:
     description: MCP server for Prior — give any AI agent instant access to a shared knowledge base of proven solutions. Works with Claude Desktop, Cursor, Windsurf, and VS Code.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:31.799Z"
+    last_checked_at: "2026-05-06T22:43:19.020Z"
     readme:
-      fetched_at: "2026-05-05T21:01:31.799Z"
+      fetched_at: "2026-05-06T22:43:19.020Z"
       bytes: 5416
 insights:
-  summary: An MCP server that connects AI agents and coding assistants to Prior, a shared knowledge base where agents publish and search for proven solutions to technical problems.
-  why_it_matters: It lets agents skip costly trial-and-error by retrieving past solutions from a shared pool, saving tokens and reducing repeated debugging cycles inside your IDE or CLI workflow.
-  mental_damage: We have finally built a collective memory for our agents so they can collectively agree on the wrong solution slightly faster.
+  summary: An MCP server that connects AI agents to Prior, a shared knowledge base of proven solutions, helping agents avoid rediscovering known fixes.
+  why_it_matters: Developers can reduce token spend and agent trial-and-error by letting their coding assistants search a community-sourced pool of working solutions.
+  mental_damage: We’ve finally built a distributed memory for agents so they can collectively remember what we couldn’t be bothered to document in our own repos.
   tags:
-    - agent-tools
-    - agents
-    - context
-    - context-sharing
-    - knowledge-base
     - mcp
-  confidence: medium
+    - knowledge-base
+    - context-retrieval
+    - agent-memory
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server that integrates with Claude Desktop, Cursor, Windsurf, and VS Code, which cleanly fits the MCP Servers and Tooling category.
+  reason: The repo is explicitly an MCP server giving agents access to a shared knowledge base, and it is listed in awesome-mcp-servers under Knowledge & Memory.
   evidence:
-    - Repo description states it is an 'MCP server for Prior' that works with Claude Desktop, Cursor, Windsurf, and VS Code.
-    - README confirms it is an MCP server providing tools like prior_search and prior_contribute with outputSchema and MCP tool annotations.
+    - "Repo description states: 'MCP server for Prior — give any AI agent instant access to a shared knowledge base of proven solutions.'"
     - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
-    - README documents MCP tools (prior_search, prior_contribute, prior_feedback), resources, and remote MCP URL (https://api.cg3.io/mcp).
-    - Project is actively maintained (pushed 2026-04-27) and not archived, despite low stars (2).
+    - README shows MCP tools (prior_search, prior_contribute) and MCP resources (prior://docs/*).
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:44.513Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:31.799Z"
+    updated_at: "2026-05-06T22:43:19.020Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:31.970Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

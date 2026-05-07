@@ -1,0 +1,77 @@
+id: docs__crewai__com
+kind: website
+name: docs.crewai.com
+canonical_url: https://docs.crewai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__crewai__com__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Learning Resources
+          - Documentation
+        anchor_text: CrewAI Documentation
+        extracted_url: https://docs.crewai.com
+        surrounding_text: "- [CrewAI Documentation](https://docs.crewai.com/) - CrewAI official docs"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The official documentation site for CrewAI, a framework for building and orchestrating multi-agent AI systems.
+  why_it_matters: It serves as the primary reference for developers implementing role-based agent teams and workflows using the CrewAI framework.
+  mental_damage: Yet another pristine documentation site for a framework you'll refactor out of your stack in three months when the next orchestration paradigm drops.
+  tags:
+    - multi-agent
+    - documentation
+    - framework
+    - learning
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL points to a documentation site rather than a standalone developer tool, framework, or product, making it an auxiliary resource rather than a catalog entry.
+  evidence:
+    - URL is https://docs.crewai.com, which is a documentation site, not a product repository or tool.
+    - Source-list context identifies it as a 'Documentation' entry under Learning Resources, not as a framework or tool itself.
+    - No repo description, README, or product code is provided—only the documentation link exists.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:24.491Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

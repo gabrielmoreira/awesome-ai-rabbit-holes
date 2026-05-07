@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opentabs-dev__opentabs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 463
+    stars: 470
     forks: 51
     license: MIT
     archived: false
     created_at: "2026-02-09T06:17:27Z"
-    pushed_at: "2026-05-03T17:55:26Z"
+    pushed_at: "2026-05-06T16:32:41Z"
     description: Browser automation clicks buttons. OpenTabs calls APIs.
     homepage: https://opentabs.dev
     topics:
@@ -44,50 +44,50 @@ metadata:
       - opencode
       - plugins
       - typescript
-    last_checked_at: "2026-05-05T21:04:07.211Z"
+    last_checked_at: "2026-05-06T22:45:43.981Z"
     readme:
-      fetched_at: "2026-05-05T21:04:07.211Z"
+      fetched_at: "2026-05-06T22:45:43.981Z"
       bytes: 4771
 insights:
-  summary: OpenTabs is a local MCP server and Chrome extension that lets AI agents call real web APIs through your authenticated browser session, eliminating the need for API keys or OAuth setup.
-  why_it_matters: It allows developers to wire AI assistants into authenticated web services like Slack, GitHub, and Jira using existing browser sessions, bypassing the friction of manual API integration.
-  mental_damage: We have officially reached the point where the browser's 'logged in' cookie jar is now the most critical middleware in the modern developer stack.
+  summary: OpenTabs is a local CLI and Chrome extension that bridges authenticated browser sessions to MCP clients, allowing AI agents to call real web APIs without browser automation or OAuth setup.
+  why_it_matters: It lets developers give their coding agents real, authenticated access to services like Slack, GitHub, and Jira via your existing browser session instead of brittle DOM scraping or API key management.
+  mental_damage: Finally, a way for your AI to passively inherit your browser cookie jar so it can post to Discord and Star a repo while you sip coffee and wonder when you agreed to be the human middleware.
   tags:
     - mcp
     - browser-automation
-    - api-integration
+    - cli
     - chrome-extension
-    - typescript
+    - api-bridge
   confidence: high
 curation:
   status: included
-  reason: The project is fundamentally an MCP server implementation that bridges browser sessions to AI clients, fitting the MCP infrastructure category better than a generic coding agent.
+  reason: The core product identity is an MCP server and middleware layer that exposes browser-session APIs to any MCP client, making it MCP infrastructure rather than a standalone coding agent or generic extension.
   evidence:
     - Repo description explicitly states 'OpenTabs calls APIs' and topics include 'mcp-server'.
-    - README confirms it 'works with any MCP client' and acts as a local server bridging the browser to the AI.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Aggregators'.
+    - README states 'Works with any MCP client' and is listed in awesome-mcp-servers under 'Server Implementations'.
+    - Active development with recent push date (2026-05-06) and MIT license.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (463) exceeded threshold (150)
+  reason: Stars (470) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:07.211Z"
+    updated_at: "2026-05-06T22:45:43.982Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:59.494Z"
+    updated_at: "2026-05-06T23:19:57.166Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

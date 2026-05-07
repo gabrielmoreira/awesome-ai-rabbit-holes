@@ -1,12 +1,12 @@
 id: www__dartai__com
 kind: website
-name: Dart
+name: www.dartai.com
 canonical_url: https://www.dartai.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__dartai__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dart is an AI-native project management platform that integrates with GitHub and LLMs to automate task creation, subtask generation, sprint planning, and progress reporting for engineering and product teams.
-  why_it_matters: It offers engineering teams a way to reduce PM overhead by automatically generating tickets from PRDs, syncing with GitHub, and producing standup reports via integrated AI models like ChatGPT and Claude.
-  mental_damage: Because what modern engineering culture clearly lacked was another Kanban board that hallucinates your sprint plan and writes your standup for you.
+  summary: Dart is an AI-native project management platform that uses generative AI for task planning, property filling, subtask generation, and reporting, with integrations for GitHub, Slack, and ChatGPT.
+  why_it_matters: It offers engineering teams a way to automate sprint planning, PRD drafting, and standup reports while syncing task status directly with GitHub.
+  mental_damage: Yet another tool promising to fix project management with AI, ensuring developers can now procrastinate on an even more beautifully designed kanban board.
   tags:
-    - ai-native
-    - engineering-workflow
-    - github-integration
     - project-management
-  confidence: medium
+    - ai-planning
+    - github-integration
+    - pm-tool
+  confidence: high
 curation:
-  status: included
-  reason: It fits coding-agents because it acts as an AI assistant that collaborates directly on the engineering workflow by generating tickets from PRDs, syncing with GitHub, and automating sprint tasks within the developer's ecosystem.
+  status: excluded
+  reason: While it bills itself as 'AI-native' and integrates with GitHub, Dart is fundamentally a general-purpose project management SaaS for sales, HR, and marketing teams, not a developer-facing coding tool, agent, or extension.
   evidence:
-    - Site states it 'helps engineering teams make more PRs quicker' and integrates with GitHub to 'seamlessly update tickets as work is accomplished'.
-    - Features include 'Draft PRDs quicker with AI, then automatically create and assign tasks' and 'Present daily standup updates with Dart AI's automatic report generator'.
-    - Listed in awesome-mcp-servers under 'Official Servers', indicating it functions as an MCP-compatible tool for developer workflows.
+    - The scraped site context describes it as 'AI Project Management Software' targeting sales, IT, marketing, and HR teams, not developers specifically.
+    - Its 'Engineering' feature set is limited to GitHub integration and sprint planning, lacking code editing, review, or agentic development capabilities.
+    - It appears in awesome-mcp-servers only as a generic 'Official Server' for integration, not as a developer tooling core.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:25.510Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:45.082Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

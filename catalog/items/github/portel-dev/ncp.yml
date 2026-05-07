@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__portel-dev__ncp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,44 +43,49 @@ metadata:
       - openai
       - orchestrator
       - vector-search
-    last_checked_at: "2026-05-05T23:08:08.334Z"
+    last_checked_at: "2026-05-06T22:45:55.981Z"
     readme:
-      fetched_at: "2026-05-05T23:08:08.334Z"
+      fetched_at: "2026-05-06T22:45:55.980Z"
       bytes: 27261
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: NCP (Natural Context Provider) is an MCP aggregator and middleware layer that unifies multiple MCP servers behind a minimal interface of smart search and code-mode execution to reduce tool-choice overhead and token waste.
+  why_it_matters: It lets developers wire dozens of MCP tools into Claude, Cursor, and other clients without drowning the model in schema bloat or forcing constant tool-selection reasoning.
+  mental_damage: We have successfully abstracted the problem of too many tools into needing a tool to manage the tools that manage the tools.
+  tags:
+    - mcp
+    - context-management
+    - middleware
+    - tokens
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: MCP aggregation and middleware is the core product identity, explicitly described as '1 MCP to rule them all' with smart loading, tool discovery, and client readiness.
+  evidence:
+    - "Repo description: 'Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on demand, run on schedule, ready for any client.'"
+    - "README: 'Instead of your AI juggling 50+ tools scattered across different MCPs, NCP gives it a single, unified interface... routing requests, discovering the right capability, executing code, scheduling tasks, managing health, and caching responses.'"
+    - "Topics and identity: tagged as mcp, mcp-client, mcp-server, orchestrator; appears in awesome-mcp-servers under Aggregators."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:08.334Z"
+    updated_at: "2026-05-06T22:45:55.981Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:31.381Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

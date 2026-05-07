@@ -1,12 +1,12 @@
 id: www__nomic__ai__gpt4all
 kind: website
-name: GPT4All
+name: gpt4all
 canonical_url: https://www.nomic.ai/gpt4all
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__nomic__ai__gpt4all__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot."
         confidence: high
     - id: discovery__www__nomic__ai__gpt4all__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,43 +49,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GPT4All is a cross-platform desktop application that allows developers and power users to run open-source large language models locally on their own hardware without requiring cloud connectivity.
-  why_it_matters: It provides a private, high-performance environment for running local models, enabling developers to build custom assistants and workflows while keeping sensitive data on their own machines.
-  mental_damage: Now you can have the full anxiety of managing a hallucinating AI assistant, but with the added satisfaction of your laptop fans spinning at maximum velocity to keep your secrets local.
+  summary: A desktop application and runtime for running open-source large language models locally on Windows, macOS, and Linux with support for local document chat.
+  why_it_matters: Developers can run, test, and build against LLMs entirely on their own hardware without cloud dependencies or data privacy trade-offs.
+  mental_damage: You can now host a full AI stack on your laptop, provided you enjoy the familiar ritual of waiting for open-source models to tokenize at the speed of a caffeinated snail.
   tags:
-    - llm
     - local-ai
+    - llm
     - offline
+    - desktop
     - privacy
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly a desktop/local runtime for running open-source AI models on the user's device, fitting the local-ai category perfectly.
+  reason: The product’s primary identity is a local desktop app and runtime for running LLMs on your own device, which is a canonical fit for the Local AI category.
   evidence:
-    - "Scraped site title and description: 'Private & Local AI Chatbot' that runs models 'locally on your device' with 'no cloud required'."
-    - Site excerpt confirms it runs on Windows, macOS, and Linux with 'full customization' and 'LocalDocs' support.
-    - Included in 'awesome-local-ai' under Inference UI and 'awesome-ai-coding-tools' under Local LLM Tools.
+    - "Scraped site title and description: 'GPT4All - Private & Local AI Chatbot' that runs open-source AI models locally on your device."
+    - About text states it 'runs open-source language models on Windows, macOS, and Linux' with local document chat and model customization.
+    - Included in awesome-local-ai under 'Inference UI' and awesome-ai-coding-tools under 'Local LLM Tools' as a local execution tool.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:15.078Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:30.043Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kushneryk__join.cloud__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:03:13.657Z"
+    last_checked_at: "2026-05-06T22:44:52.237Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.657Z"
+      fetched_at: "2026-05-06T22:44:52.237Z"
       bytes: 9953
 insights:
-  summary: Join.cloud provides real-time collaboration rooms where AI agents exchange messages, share files via git, and review each other's work using standard protocols like MCP and A2A.
-  why_it_matters: It gives developers a structured workspace to coordinate multi-agent workflows, validation loops, and remote agent collaboration without building custom orchestration glue code.
-  mental_damage: We’ve finally built Slack for robots that don’t have jobs, so they can ping each other endlessly while we debug why the validation agent is ghosting the worker agent.
+  summary: Join.cloud is a platform and SDK that provides real-time collaboration rooms where AI agents exchange messages, share files via git, and review each other's work using standard protocols like MCP and A2A.
+  why_it_matters: It gives developers a structured runtime to coordinate multi-agent workflows, validation loops, and remote agent collaboration without building custom message-passing infrastructure.
+  mental_damage: We have finally built virtual watercooler spaces for agents to chat, which means your CI pipeline can now theoretically hold a grudge against your linter.
   tags:
     - agent-collaboration
     - mcp
     - a2a
     - multi-agent
     - orchestration
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The primary artifact is a developer-importable SDK and protocol layer for building multi-agent collaboration into their own applications, not a user-facing orchestration control plane.
+  reason: The core product is a runtime platform and workbench for coordinating multiple agents in shared rooms with messaging, file sharing, and review loops, which aligns with Agent Orchestration over a code-first framework or single assistant.
   evidence:
-    - README shows a TypeScript SDK usage example with import { JoinCloud } from 'joincloud' and event-driven room messaging.
-    - Repo description explicitly states agents connect via MCP and A2A to exchange messages and commit files.
-    - Listed in awesome-mcp-servers under Communication, reinforcing its role as a building block rather than a hosted product.
+    - Repo description states it lets AI agents work together in real-time rooms via MCP and A2A.
+    - README pitches a shared workspace for agents to message, collaborate on tasks, and share files via git.
+    - Source list places it in awesome-mcp-servers under Communication, but the product itself is a multi-agent coordination platform.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.657Z"
+    updated_at: "2026-05-06T22:44:52.237Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:37.963Z"
+    updated_at: "2026-05-06T23:08:00.352Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__regenerating-world__pix-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 2
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-07-20T12:52:25Z"
+    pushed_at: "2025-08-27T23:17:14Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:08.636Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:08.636Z"
+      bytes: 6288
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A lightweight MCP server that exposes a tool for generating static Pix QR codes compliant with BACEN EMV 4.0 standards.
+  why_it_matters: It lets AI agents like Claude, Cursor, and Windsurf create Brazilian payment QR codes via natural-language prompts without requiring external APIs or credentials.
+  mental_damage: We have reached the stage of the AI revolution where the MCP ecosystem is so granular that there is a dedicated server for a specific country's static QR payment standard.
+  tags:
+    - mcp
+    - pix
+    - payments
+    - brazil
+    - fintech
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is a specialized MCP server for Pix payment generation, matching the MCP Servers & Tooling category and fitting the Domain Servers section.
+  evidence:
+    - README explicitly defines it as 'A lightweight Model Context Protocol (MCP) server' with a `generateStaticPix` tool.
+    - Included in the 'awesome-mcp-servers' list under the Finance & Fintech section.
+    - Provides configuration examples for Claude Desktop, Cursor, and Windsurf MCP integrations.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:08.636Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:21.590Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

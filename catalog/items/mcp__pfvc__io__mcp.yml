@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__pfvc__io__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,30 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory website for discovering and submitting Model Context Protocol (MCP) servers.
-  why_it_matters: It aggregates community-contributed MCP servers in one place, making it easier for developers to find integrations for their AI tools.
-  mental_damage: Finally, a dedicated website to solve the critical problem of having too many websites listing the same MCP servers.
+  summary: A community-maintained directory listing Model Context Protocol (MCP) servers for extending AI coding assistants with external tooling.
+  why_it_matters: It serves as a navigation aid for developers looking to discover and integrate MCP-compatible servers into their AI-assisted workflows.
+  mental_damage: Another layer of navigational abstraction has arrived, ensuring we can now browse the tools that browse the tools that write the code.
   tags:
     - mcp
     - directory
     - servers
-  confidence: medium
+    - discovery
+  confidence: high
 curation:
   status: included
-  reason: It is a directory and submission portal for MCP servers, fitting the 'awesome-awesomes' category as a navigation aid for developers.
+  reason: The item is an auxiliary directory page (mcp.pfvc.io/mcp) that lists MCP servers, fitting the 'Lists & Directories' category for ecosystem navigation rather than being a standalone product or protocol tool itself.
   evidence:
-    - URL is https://mcp.pfvc.io/mcp, indicating a web-based directory/listing site.
-    - Referenced in awesome-mcp-servers as a submission target for community servers.
+    - URL is a web directory (mcp.pfvc.io/mcp) rather than a GitHub repository or product.
+    - Source-list context confirms it is a 'curated list of Model Context Protocol (MCP) servers' in the 'Community Servers' section.
+    - No repo description, stars, or code artifacts provided; the primary artifact is the list itself.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:46:22.402Z"
+    updated_at: "2026-05-06T22:27:36.827Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

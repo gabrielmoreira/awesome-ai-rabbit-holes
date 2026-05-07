@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hansur94__matlab-mcp-server-python__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,50 +39,50 @@ metadata:
       - mcp
       - model-context-protocol
       - python
-    last_checked_at: "2026-05-05T21:02:30.712Z"
+    last_checked_at: "2026-05-06T22:44:11.301Z"
     readme:
-      fetched_at: "2026-05-05T21:02:30.712Z"
+      fetched_at: "2026-05-06T22:44:11.301Z"
       bytes: 29893
 insights:
-  summary: A Python MCP server that connects AI agents to a MATLAB installation for code execution, async job handling, toolbox discovery, and automatic conversion of MATLAB figures to interactive Plotly charts.
-  why_it_matters: It lets developers integrate MATLAB's numerical and plotting capabilities directly into AI-driven workflows without leaving the agent context.
-  mental_damage: Now your AI agent can proudly generate legacy-licensed proprietary plots while you still have to debug the MATLAB engine pool yourself.
+  summary: A Python MCP server that connects AI agents to a MATLAB installation, enabling code execution, async job handling, and automatic conversion of MATLAB figures to interactive Plotly charts.
+  why_it_matters: It lets developers and agents script, run, and visualize MATLAB workloads through any MCP-compatible assistant instead of manual MATLAB IDE workflows.
+  mental_damage: You can now ask an LLM to debug a Simulink model at 3 AM while the MATLAB engine silently queues hours of async jobs and promises interactive Plotly charts you’ll still have to manually render.
   tags:
-    - mcp
     - matlab
-    - python
+    - mcp
     - plotly
     - code-execution
+    - python
   confidence: medium
 curation:
   status: included
-  reason: This is a Model Context Protocol server that exposes MATLAB to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that gives agents access to MATLAB execution, toolbox discovery, and plot conversion, which fits MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description explicitly states 'MCP server that connects any AI agent to MATLAB'
-    - README positions it as a Python MCP server for MATLAB with code execution and Plotly plot conversion
-    - Included in awesome-mcp-servers under Server Implementations > Code Execution
+    - "Repo description states: 'MCP server that connects any AI agent to MATLAB — execute code, async jobs, interactive Plotly plots, custom tools, and monitoring dashboard'."
+    - "README pitches: 'A Python MCP server that connects any AI agent (Claude, Cursor, Copilot, custom agents) to a shared MATLAB installation'."
+    - Listed in awesome-mcp-servers under Server Implementations > Code Execution.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:30.712Z"
+    updated_at: "2026-05-06T22:44:11.301Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:29.833Z"
+    updated_at: "2026-05-06T22:59:32.188Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

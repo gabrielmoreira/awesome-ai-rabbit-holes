@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sengac__fspec__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,47 +23,76 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 64
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-10-06T03:29:38Z"
+    pushed_at: "2026-04-23T22:28:09Z"
+    description: "FSPEC: The Spec-Driven, Multi-Agent Coding Factory. It is infrastructure for the \"Dark Factory\"—the emerging model of fully autonomous software development where AI agents handle all implementation while humans focus on defining what to build and why."
+    homepage: https://fspec.dev
+    topics:
+      - agentic-ai
+      - ai-guardrails
+      - bdd
+      - cucumber
+      - dark-factory
+      - ddd
+      - domain-driven-design
+      - example-mapping
+      - feature
+      - kanban
+      - prd
+      - spec-driven
+      - spec-driven-development
+      - spec-driven-testing
+      - tdd
+      - test-driven-development
+      - vibe-coding
+    last_checked_at: "2026-05-06T22:46:20.588Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:20.588Z"
+      bytes: 6606
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents.
+  why_it_matters: It shifts AI coding from reactive babysitting to a structured loop where specifications, tests, and checkpoints control the implementation lifecycle.
+  mental_damage: We have successfully built the middle management layer for AI agents, complete with Kanban boards and checkpoints, so the robots can now experience the soul-crushing weight of process compliance before they inevitably replace us.
+  tags:
+    - spec-driven
+    - tdd
+    - gherkin
+    - cli
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is a spec-first environment that uses Gherkin, TDD, and Kanban to govern how AI agents implement code, fitting the spec-driven-development category perfectly.
+  evidence:
+    - Repo description explicitly calls it 'The Spec-Driven, Multi-Agent Coding Factory' with tags like spec-driven-development and bdd.
+    - README details a workflow centered on Gherkin scenarios, auto-generated tests, and a TUI Kanban board to enforce development discipline.
+    - Already listed in the 'awesome-spec-driven-development' list under the 'Development Frameworks' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:20.588Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:53.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

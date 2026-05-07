@@ -1,12 +1,12 @@
 id: altern__ai
 kind: website
-name: Altern
+name: altern.ai
 canonical_url: https://altern.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__altern__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory and discovery platform listing AI development tools, including coding agents, IDE assistants, and app builders.
-  why_it_matters: It aggregates scattered AI dev tools into categorized lists, helping developers quickly compare options like Cursor, Copilot, and Bolt.new without hunting through individual sites.
-  mental_damage: "Just what we needed: another layer of navigation for the 400th 'best AI tool' list, ensuring we can procrastinate on actual coding by endlessly comparing the tools that are supposed to help us code."
+  summary: A curated directory and discovery platform listing AI tools across categories like coding agents, IDE assistants, and app builders.
+  why_it_matters: It provides a centralized map for developers to navigate the exploding ecosystem of AI coding assistants and related infrastructure.
+  mental_damage: "Just what the overwhelmed developer needs: another layer of navigation on top of the 50 tools they already bookmarked but never configured."
   tags:
-    - ai-tools
     - directory
     - discovery
-    - meta-list
+    - ai-tools
+    - navigation
   confidence: high
 curation:
   status: included
-  reason: This is a directory/meta-list organizing other AI tools rather than a standalone developer tool itself, fitting the awesome-awesomes category.
+  reason: The product's primary identity is a curated index and discovery layer for AI tools, fitting the 'Lists & Directories' category rather than a standalone developer tool.
   evidence:
-    - Primary page excerpt describes 'a curated list of the best AI tools' with categories like IDE Assistants and App Builders.
-    - Included in awesome-ai-coding-tools under 'Related Lists' section.
-    - The site structure is a filterable directory ('List of ALL AI') rather than a functional coding product.
+    - Scraped site title and description explicitly state 'Top AI Tools' and 'curated list of the best AI tools'.
+    - The interface is organized as a filterable directory with categories like 'IDE Assistants', 'App Builders', and 'Coding Agents'.
+    - Source-list context confirms inclusion in 'awesome-ai-coding-tools' specifically under the 'Related Lists' section.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:47.933Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:54.772Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

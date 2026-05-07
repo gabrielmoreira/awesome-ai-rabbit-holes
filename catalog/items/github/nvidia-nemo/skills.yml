@@ -1,13 +1,13 @@
 id: github__nvidia-nemo__skills
 kind: github-repo
-name: Skills
+name: skills
 canonical_url: https://github.com/nvidia-nemo/skills
 identity:
   github_repo: nvidia-nemo/skills
 provenance:
   discoveries:
     - id: discovery__github__nvidia-nemo__skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -24,58 +24,58 @@ provenance:
 metadata:
   github:
     stars: 946
-    forks: 180
+    forks: 181
     license: Apache-2.0
     archived: false
     created_at: "2024-02-11T23:29:26Z"
-    pushed_at: "2026-05-04T22:16:30Z"
+    pushed_at: "2026-05-06T20:39:40Z"
     description: A project to improve skills of large language models
     homepage: https://nvidia-nemo.github.io/Skills/
     topics: []
-    last_checked_at: "2026-05-05T21:03:57.764Z"
+    last_checked_at: "2026-05-06T22:45:35.638Z"
     readme:
-      fetched_at: "2026-05-05T21:03:57.764Z"
+      fetched_at: "2026-05-06T22:45:35.638Z"
       bytes: 8368
 insights:
-  summary: Nemo Skills is a pipeline collection for training, evaluating, and running inference on LLMs, supporting benchmarks from math and code to tool-calling and long-context tasks.
-  why_it_matters: It gives developers a unified, scalable way to measure and improve model capabilities across the exact benchmarks—like SWE-bench and LiveCodeBench—that define modern coding-agent performance.
-  mental_damage: "Just what we needed: another thousand-GPU harness to prove that scaling up the thing we just vibe-coded still loses to a tired human on a Friday afternoon."
+  summary: Nemo Skills is a pipeline toolkit for improving LLM capabilities via synthetic data generation, model training, and large-scale benchmark evaluation.
+  why_it_matters: It gives developers a unified, scalable path from local workstation experiments to Slurm clusters for fine-tuning and evaluating models on benchmarks like SWE-bench and AIME.
+  mental_damage: Nothing says 'improving LLM skills' quite like needing a ten-thousand-GPU cluster to prove your model can still fail at high-school math.
   tags:
-    - benchmarks
-    - evals
-    - inference
     - llm-training
+    - evaluation
+    - synthetic-data
     - nvidia
+    - benchmarks
   confidence: high
 curation:
   status: included
-  reason: This is an evaluation and benchmarking framework for LLMs, including code-specific benchmarks like swe-bench, fitting the evals category rather than a developer-facing coding assistant.
+  reason: The core job is measuring and improving model behavior via evaluation pipelines and synthetic data generation, fitting the evals category even though it includes training utilities.
   evidence:
-    - Repo description states it is 'A project to improve skills of large language models' via pipelines.
-    - README explicitly lists model evaluation across code, math, and tool-calling benchmarks including swe-bench and livecodebench.
-    - Documentation emphasizes scaling SDG, training, and eval jobs from local workstations to large Slurm clusters.
+    - "Repo description: 'A project to improve skills of large language models' via synthetic data, training, and evaluation."
+    - README states it supports evaluation on code (swe-bench, livecodebench), math, and instruction following benchmarks.
+    - Includes model training via NeMo-RL or verl, but evaluation and benchmarking are central, supported surface areas.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (946) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:14.528Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:57.764Z"
+    updated_at: "2026-05-06T22:45:35.638Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:03.043Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

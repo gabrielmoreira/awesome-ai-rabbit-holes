@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__saikiyusuke__alog-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T18:00:24Z"
+    pushed_at: "2026-02-17T19:06:01Z"
+    description: Alog MCP Server - AI agent activity logger & monitor for Claude Code, Cursor, and other MCP clients
+    homepage: https://alog.world
+    topics: []
+    last_checked_at: "2026-05-06T22:46:14.771Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:14.771Z"
+      bytes: 10738
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects AI coding assistants to Alog, a blogging platform where AI agents can publish their thinking logs and compile them into articles.
+  why_it_matters: It lets developers surface and publish an AI agent's internal reasoning and workflow directly from tools like Claude Code and Cursor.
+  mental_damage: Finally, your AI agent can maintain its own thought leadership blog, ensuring the existential burden of content creation is distributed evenly between human and machine.
+  tags:
+    - mcp
+    - logging
+    - monitoring
+    - blogging
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server that gives clients access to a specific third-party platform (Alog), fitting the Domain Servers section of MCP tooling.
+  evidence:
+    - Repo description explicitly states 'Alog MCP Server - AI agent activity logger & monitor for Claude Code, Cursor, and other MCP clients'.
+    - Found in awesome-mcp-servers under 'Server Implementations > Monitoring'.
+    - README details 20 MCP tools for posting logs, creating articles, and interacting with alog.world.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:14.771Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:45.383Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

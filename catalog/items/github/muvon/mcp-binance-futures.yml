@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__muvon__mcp-binance-futures__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
+    stars: 3
     forks: 0
     license: Apache-2.0
     archived: false
@@ -33,14 +33,14 @@ metadata:
     description: MCP server to trade futures on Binance
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:49.265Z"
+    last_checked_at: "2026-05-06T22:45:27.553Z"
     readme:
-      fetched_at: "2026-05-05T21:03:49.265Z"
+      fetched_at: "2026-05-06T22:45:27.553Z"
       bytes: 5673
 insights:
-  summary: An MCP server that exposes Binance USDT-M Futures trading capabilities—market data, account state, and order/position management—to LLMs via the Model Context Protocol.
-  why_it_matters: It lets developers wire an LLM into a live futures trading account, turning a code assistant into a semi-autonomous crypto trading operator.
-  mental_damage: Because nothing says responsible software engineering like giving a hallucination-prone language model the ability to set 125× leverage and cancel all your orders.
+  summary: A Model Context Protocol server that exposes Binance USDT-M Futures trading tools for market data, account state, order management, and position control to LLMs.
+  why_it_matters: It lets developers wire Binance futures trading directly into MCP-compatible assistants like Claude Desktop, turning natural language into live order and position management.
+  mental_damage: We have finally reached the point where you can blow up your futures account using a hand-crafted prompt and a HMAC-signed MCP tool.
   tags:
     - mcp
     - binance
@@ -50,33 +50,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation for Binance Futures, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server for Binance futures trading, and MCP is its primary identity, fitting cleanly into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'MCP server to trade futures on Binance'."
-    - README confirms it is built with FastMCP and exposes trading tools for LLM integration via MCP.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its role as MCP infrastructure.
+    - "Repo description states: 'MCP server to trade futures on Binance'"
+    - Built with FastMCP and exposes trading tools explicitly for MCP clients like Claude Desktop
+    - Listed in awesome-mcp-servers under Finance & Fintech as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:49.265Z"
+    updated_at: "2026-05-06T22:45:27.554Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:34.618Z"
+    updated_at: "2026-05-06T23:16:12.042Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

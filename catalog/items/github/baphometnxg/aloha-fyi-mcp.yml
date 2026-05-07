@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__baphometnxg__aloha-fyi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:17.303Z"
+    last_checked_at: "2026-05-06T22:12:49.565Z"
     readme:
-      fetched_at: "2026-05-05T21:01:17.303Z"
+      fetched_at: "2026-05-06T22:12:49.565Z"
       bytes: 7684
 insights:
-  summary: An MCP server that exposes Hawaii tourism data, including bookable tours, events, restaurants, and weather, to AI assistants via a structured response protocol.
-  why_it_matters: It provides a concrete reference implementation of the MCP spec with a typed structured-content layer (AAAK) for developers building or consuming location-based agent tools.
-  mental_damage: We have successfully fragmented the tourism industry into JSON schemas so that an AI can book a snorkeling trip in Oahu while the developer debugging it has never left their desk.
+  summary: An MCP server that exposes Hawaii tourism data—including bookable tours, events, restaurants, and weather—to AI assistants via a structured-response protocol.
+  why_it_matters: It provides a concrete, production-hosted example of how to build a domain-specific MCP server with a typed structured-content envelope for reliable agent consumption.
+  mental_damage: "We have finally achieved the singularity: an AI-compatible API for planning a luau, because apparently your coding agent needed a side hustle in Oahu affiliate links."
   tags:
     - mcp
     - tourism
+    - structured-response
     - server
-    - structured-data
+    - aaak
   confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation with a hosted endpoint, fitting squarely into the MCP infrastructure category.
+  reason: The project's primary identity is a Model Context Protocol server for Hawaii tourism data, fitting cleanly as a domain-specific MCP server rather than a general developer tool.
   evidence:
-    - README identifies this as 'The first dedicated Hawaii tourism MCP server' with Streamable HTTP transport.
-    - Listed under 'Server Implementations > Location Services' in the awesome-mcp-servers directory.
-    - Provides a hosted production endpoint and documentation for the AAAK structured-response spec.
+    - README explicitly describes it as 'the first dedicated Hawaii tourism MCP server' implementing streamable HTTP MCP.
+    - Listed in awesome-mcp-servers under Server Implementations > Location Services.
+    - Core novelty is the AAAK structured-response envelope for MCP tool results, not a broader coding or framework product.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:17.303Z"
+    updated_at: "2026-05-06T22:12:49.565Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:15.099Z"
+    updated_at: "2026-05-06T22:23:36.963Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

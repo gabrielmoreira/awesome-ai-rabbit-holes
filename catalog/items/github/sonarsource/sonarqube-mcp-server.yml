@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sonarsource__sonarqube-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 546
+    forks: 82
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-30T09:09:08Z"
+    pushed_at: "2026-05-06T14:51:19Z"
+    description: SonarQube MCP Server
+    homepage: https://www.sonarsource.com/products/sonarqube/mcp-server/
+    topics:
+      - agent
+      - ai
+      - mcp
+      - mcp-server
+      - sonarqube
+    last_checked_at: "2026-05-06T22:46:29.505Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:29.505Z"
+      bytes: 68062
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An official MCP server from SonarSource that exposes SonarQube code quality and security analysis capabilities to AI agents and coding assistants.
+  why_it_matters: It allows coding agents to natively trigger static analysis and surface SonarQube issues directly within the agent workflow, bridging quality gates with AI-generated code.
+  mental_damage: We have successfully packaged the decades-old ritual of shouting at developers for unused imports into a protocol that lets an AI shout at itself instead.
+  tags:
+    - mcp
+    - sonarqube
+    - static-analysis
+    - code-quality
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is explicitly an MCP server built to integrate SonarQube's analysis capabilities into MCP-compatible AI agents and clients.
+  evidence:
+    - Repo description is 'SonarQube MCP Server' and topics include 'mcp-server'.
+    - README confirms it is a Model Context Protocol server for SonarQube Server or Cloud integration.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (546) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:29.505Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:22.702Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

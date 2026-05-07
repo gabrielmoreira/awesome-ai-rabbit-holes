@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__surescaleai__openai-gpt-image-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 102
+    forks: 36
+    license: MIT
+    archived: false
+    created_at: "2025-04-27T07:54:28Z"
+    pushed_at: "2025-05-31T21:07:31Z"
+    description: A Model Context Protocol (MCP) tool server for OpenAI's GPT-4o/gpt-image-1 image generation and editing APIs.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:38.206Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:38.206Z"
+      bytes: 5242
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes OpenAI's GPT Image and GPT-4o image generation and editing APIs to compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It allows coding assistants to generate, edit, and composite images directly within the development workflow without switching to external web UIs.
+  mental_damage: We have successfully abstracted the act of asking a robot to draw a picture into a JSON configuration block that lives inside our IDE.
+  tags:
+    - mcp
+    - openai
+    - image-generation
+    - tool-server
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server specifically built to bridge OpenAI's image APIs with MCP-compatible clients.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) tool server for OpenAI's GPT-4o/gpt-image-1 image generation and editing APIs.'"
+    - README lists configuration examples for Claude Desktop, Cursor, VSCode, and Windsurf under the MCP server schema.
+    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Aggregators'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:38.206Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:02.497Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

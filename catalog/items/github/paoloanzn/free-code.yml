@@ -1,13 +1,13 @@
 id: github__paoloanzn__free-code
 kind: github-repo
-name: Free Code
+name: free-code
 canonical_url: https://github.com/paoloanzn/free-code
 identity:
   github_repo: paoloanzn/free-code
 provenance:
   discoveries:
     - id: discovery__github__paoloanzn__free-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8256
-    forks: 1943
+    stars: 8262
+    forks: 1949
     license: null
     archived: true
     created_at: "2026-03-31T11:11:49Z"
@@ -33,28 +33,20 @@ metadata:
     description: The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.
     homepage: https://x.com/paoloanzn/status/2039022418698907949?s=20
     topics: []
-    last_checked_at: "2026-05-05T21:04:11.858Z"
+    last_checked_at: "2026-05-06T22:45:47.889Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.858Z"
+      fetched_at: "2026-05-06T22:45:47.889Z"
       bytes: 12090
 insights:
-  summary: A community fork of Anthropic's Claude Code CLI that removes all telemetry, strips out security-prompt guardrails, and unlocks 54 experimental feature flags.
-  why_it_matters: Developers who want to run the Claude Code agent locally with multiple model providers and without upstream analytics or restrictions can build and use this drop-in alternative.
-  mental_damage: We have reached the point where the most popular 'new' coding agent is literally defined by the guardrails it deleted from a leaked build.
-  tags:
-    - claude-code
-    - cli
-    - fork
-    - privacy
-    - terminal
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The repository is archived, indicating it is no longer maintained or recommended for use, which overrides the strong fit with the coding-agents category.
-  evidence:
-    - Repo is marked as archived on GitHub.
-    - Created at 2026-03-31 and pushed at 2026-04-01, suggesting a very short lifespan.
-    - README confirms it is a fork based on a 'source map exposure' rather than official distribution.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -62,21 +54,23 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:46.785Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.858Z"
+    updated_at: "2026-05-06T22:45:47.889Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:20:44.688Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__paoloanzn__free-code: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

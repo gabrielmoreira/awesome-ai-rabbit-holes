@@ -1,0 +1,77 @@
+id: thirdweb__com
+kind: website
+name: thirdweb.com
+canonical_url: https://thirdweb.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__thirdweb__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Thirdweb
+        extracted_url: https://thirdweb.com
+        surrounding_text: "- **[Thirdweb](https://github.com/thirdweb-dev/ai/tree/main/python/thirdweb-mcp)** - Read/write to over 2k blockchains, enabling data querying, contract analysis/deployment, and transaction execution, powered by [Thirdweb](https://thirdweb.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: thirdweb provides SDKs, APIs, and a hosted MCP server for building blockchain-integrated apps and enabling AI agents to transact, manage wallets, and interact with onchain services.
+  why_it_matters: It gives developers a unified stack to add agentic payments, wallets, and blockchain data access to AI apps without assembling low-level web3 plumbing.
+  mental_damage: Now your coding agent can not only write buggy code, but also autonomously spend your tokens across thousands of chains while you watch the gas fees spike.
+  tags:
+    - web3
+    - mcp
+    - agents
+    - payments
+    - sdk
+  confidence: medium
+curation:
+  status: included
+  reason: thirdweb offers a dedicated MCP server as part of a broader developer platform, making MCP infrastructure a core part of its developer-facing identity rather than a footnote.
+  evidence:
+    - Listed in awesome-mcp-servers under Official Servers as an MCP server for agent payments and API access.
+    - Products page explicitly lists 'MCP Server' alongside SDKs, CLI, and developer tooling.
+    - Site positions itself as 'Infrastructure for AI Agents' with agentic payments, wallets, and blockchain data access.
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:36.940Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

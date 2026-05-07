@@ -1,12 +1,12 @@
 id: www__chargebee__com
 kind: website
-name: Chargebee platform
+name: www.chargebee.com
 canonical_url: https://www.chargebee.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__chargebee__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com/)."
         confidence: high
     - id: discovery__www__chargebee__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,23 +50,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Chargebee is a SaaS revenue growth management platform providing subscription billing, invoicing, payments, and revenue recognition for businesses.
-  why_it_matters: It offers developer-friendly APIs and SDKs (TypeScript, Python, Go, etc.) to integrate complex billing models, including usage-based pricing for AI apps, directly into software products.
-  mental_damage: Yet another 'AI-ready' billing platform reminds us that while we can generate entire applications in seconds, we still need enterprise-grade dashboards to figure out how to charge for them.
+  summary: Chargebee is a SaaS revenue growth management platform for subscription billing, invoicing, payments, and revenue recognition.
+  why_it_matters: It provides developer-friendly APIs, SDKs, and integration tooling in languages like TypeScript, Python, and Go to embed complex billing workflows directly into applications.
+  mental_damage: Yet another enterprise billing platform that wants you to believe wiring up their 480+ API endpoints is the same thing as shipping real product features.
   tags:
-    - api
     - billing
-    - finops
-    - payments
     - saas
+    - api
+    - fintech
   confidence: high
 curation:
   status: excluded
-  reason: Chargebee is a general-purpose subscription billing and finance SaaS platform, not a developer tool for coding, AI workflows, or agent orchestration, despite having standard APIs.
+  reason: Chargebee is a general-purpose subscription billing SaaS platform, not a developer-facing AI tool, coding agent, or AI infrastructure product.
   evidence:
-    - Scraped site context describes it as 'SaaS for Effective Revenue Growth Management' focused on billing, invoicing, and tax, not AI dev tooling.
-    - Listed in awesome-mcp-servers only as a server implementation for finance, indicating it is a target for integration rather than a developer productivity tool itself.
-    - The 'Billing for AI' section refers to monetization features, not tools that assist in the development of AI software.
+    - Homepage describes a 'Revenue Growth Management' platform for billing, invoicing, and tax, not AI tooling.
+    - Appears in awesome-mcp-servers only as a host service, not as an actual MCP server implementation.
+    - Scraped context shows standard SaaS enterprise features with no AI agent, model, or prompt-engineering identity.
 placement:
   primary_category: null
   section: null
@@ -74,20 +73,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:03.349Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:20.913Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

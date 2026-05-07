@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__merabylabs__promptarchitect-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,38 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5
-    forks: 1
-    license: NOASSERTION
-    archived: false
-    created_at: "2025-12-19T02:56:09Z"
-    pushed_at: "2025-12-19T03:10:52Z"
-    description: " MCP server for AI-powered prompt engineering. Refines, analyzes & generates prompts with workspace awareness - understands your tech stack, dependencies & project context. Works with Claude Desktop, Cursor, VS Code, Windsurf, Zed & more. Free, no API key needed."
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
     homepage: null
-    topics: []
-    last_checked_at: "2026-05-05T21:03:35.664Z"
-    readme:
-      fetched_at: "2026-05-05T21:03:35.664Z"
-      bytes: 9592
+    topics: null
+    last_checked_at: null
+    readme: null
 insights:
-  summary: An MCP server that refines, analyzes, and generates prompts using workspace context like tech stack, dependencies, and project structure, integrating with Claude Desktop, Cursor, VS Code, and other MCP-compatible IDEs.
-  why_it_matters: It brings project-aware prompt engineering directly into the developer's IDE workflow, helping craft context-rich prompts without leaving the editor.
-  mental_damage: We have successfully reached the point where we need AI assistance to rewrite the instructions we are about to give to other AI tools.
-  tags:
-    - mcp
-    - prompt-engineering
-    - context-aware
-    - ide-integration
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is explicitly an MCP server providing prompt engineering tools, which fits cleanly into the MCP Servers and Tooling category.
-  evidence:
-    - Repo description identifies it as an 'MCP server for AI-powered prompt engineering' with workspace awareness.
-    - README confirms it is a Model Context Protocol server with tools like refine_prompt, analyze_prompt, and generate_prompt.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP infrastructure role.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +54,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-05T21:03:35.664Z"
-    cause: null
+    status: failed
+    updated_at: "2026-05-06T22:45:13.980Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: merabylabs/promptarchitect-mcp"
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:56.739Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc

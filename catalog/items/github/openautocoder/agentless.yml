@@ -1,13 +1,13 @@
 id: github__openautocoder__agentless
 kind: github-repo
-name: Agentless
+name: agentless
 canonical_url: https://github.com/openautocoder/agentless
 identity:
   github_repo: openautocoder/agentless
 provenance:
   discoveries:
     - id: discovery__github__openautocoder__agentless__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -37,27 +37,26 @@ metadata:
       - artificial-intelligence
       - llm
       - software-development
-    last_checked_at: "2026-05-05T21:04:03.838Z"
+    last_checked_at: "2026-05-06T22:45:40.905Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.838Z"
+      fetched_at: "2026-05-06T22:45:40.905Z"
       bytes: 4234
 insights:
-  summary: Agentless is an open-source pipeline that automatically localizes, repairs, and validates patches for software issues using a hierarchical, non-agentic LLM workflow.
-  why_it_matters: It offers a minimal-overhead alternative to complex coding agents for automating bug fixes, achieving strong SWE-bench results with an average cost of $0.34 per issue.
-  mental_damage: We have reached the point where the cutting edge of 'AI software engineering' is a system that is explicitly proud of doing less than the agents it replaces.
+  summary: Agentless is a CLI-based system that automatically resolves software issues by localizing faults, generating candidate patches, and validating them against tests without using an agent loop.
+  why_it_matters: It demonstrates that a structured, agentless pipeline can solve SWE-bench issues at a lower cost than complex agent frameworks, challenging the assumption that multi-step agency is required for automated repair.
+  mental_damage: Just when you finished architecting your multi-agent swarm with three memory layers and a RAG pipeline, a simple three-step script shows up and fixes bugs for thirty-four cents a pop.
   tags:
-    - automated-patching
-    - llm
-    - repair
+    - cli
+    - automated-repair
     - swe-bench
-    - terminal
+    - patches
   confidence: high
 curation:
   status: included
-  reason: It is a CLI-native tool that automatically edits and validates code in repositories to solve development issues, fitting the terminal coding agent profile.
+  reason: It is a standalone CLI tool that autonomously plans, edits, tests, and repairs code across a repository, fitting the primary coding assistant definition for terminal agents.
   evidence:
     - Repo description states it is 'an agentless approach to automatically solve software development problems'.
-    - README details a workflow of localization, repair, and patch validation using LLMs on SWE-bench problems.
+    - README details a three-phase process (localization, repair, patch validation) that edits files and runs tests.
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
@@ -66,21 +65,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2042) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:26.228Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.838Z"
+    updated_at: "2026-05-06T22:45:40.905Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:17.148Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

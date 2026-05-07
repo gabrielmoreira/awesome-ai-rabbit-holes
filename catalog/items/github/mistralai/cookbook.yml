@@ -1,0 +1,81 @@
+id: github__mistralai__cookbook
+kind: github-repo
+name: cookbook
+canonical_url: https://github.com/mistralai/cookbook
+identity:
+  github_repo: mistralai/cookbook
+provenance:
+  discoveries:
+    - id: discovery__github__mistralai__cookbook__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: mistralai-cookbook
+        extracted_url: https://github.com/mistralai/cookbook
+        surrounding_text: 22. [mistralai-cookbook](https://github.com/mistralai/cookbook)
+        confidence: high
+metadata:
+  github:
+    stars: 2234
+    forks: 500
+    license: MIT
+    archived: false
+    created_at: "2024-01-05T10:37:21Z"
+    pushed_at: "2026-04-17T13:20:25Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:45:21.427Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:21.427Z"
+      bytes: 15831
+insights:
+  summary: A collection of notebooks and code examples demonstrating how to use Mistral AI models for tasks like RAG, function calling, fine-tuning, and evaluation.
+  why_it_matters: Developers looking to integrate Mistral models can find runnable reference implementations for common patterns like RAG and text-to-SQL without starting from scratch.
+  mental_damage: Yet another official cookbook proving that the hardest part of modern AI development is deciding which 2,000-line notebook constitutes the 'canonical' way to call an API.
+  tags:
+    - mistral
+    - notebooks
+    - examples
+    - llm
+    - tutorial
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource and collection of example notebooks rather than a standalone developer tool, framework, or product.
+  evidence:
+    - README describes the project as 'examples contributed by Mistralers and our community' in .md or .ipynb format.
+    - Content is categorized as tutorials covering prompting, RAG, and fine-tuning rather than shipping a reusable tool or infrastructure.
+    - Seen in source lists under '课程 Course' (Courses), confirming its identity as a learning resource.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2234) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.630Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:21.427Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:46.538Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

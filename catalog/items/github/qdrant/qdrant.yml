@@ -1,13 +1,13 @@
 id: github__qdrant__qdrant
 kind: github-repo
-name: Qdrant
+name: qdrant
 canonical_url: https://github.com/qdrant/qdrant
 identity:
   github_repo: qdrant/qdrant
 provenance:
   discoveries:
     - id: discovery__github__qdrant__qdrant__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31047
-    forks: 2238
+    stars: 31087
+    forks: 2242
     license: Apache-2.0
     archived: false
     created_at: "2020-05-30T21:37:01Z"
-    pushed_at: "2026-05-05T23:05:34Z"
+    pushed_at: "2026-05-06T22:19:42Z"
     description: Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
     homepage: https://qdrant.tech
     topics:
@@ -53,44 +53,50 @@ metadata:
       - vector-database
       - vector-search
       - vector-search-engine
-    last_checked_at: "2026-05-05T23:08:14.228Z"
+    last_checked_at: "2026-05-06T22:46:01.627Z"
     readme:
-      fetched_at: "2026-05-05T23:08:14.228Z"
+      fetched_at: "2026-05-06T22:46:01.627Z"
       bytes: 11822
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Qdrant is a high-performance vector database and similarity search engine built in Rust, designed for storing, searching, and managing vector embeddings with payload filtering.
+  why_it_matters: It provides the retrieval infrastructure that powers RAG pipelines, semantic search, and recommendation systems, serving as the memory backbone for many AI applications.
+  mental_damage: Yet another reminder that your 'intelligent' agent is mostly just calling a vector search and hoping the cosine similarity aligns with your users' intent.
+  tags:
+    - vector-database
+    - embeddings
+    - retrieval
+    - rust
+    - mlops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Qdrant is a developer-facing database and SDK used as code-first infrastructure for embedding storage and retrieval, fitting the Memory / Retrieval Infrastructure section.
+  evidence:
+    - Repo description identifies it as a 'Vector Database and Vector Search Engine' with client libraries for Python, Go, Rust, JS, Java, and .NET.
+    - README positions it as infrastructure for 'neural-network or semantic-based matching' and 'turning embeddings into full-fledged applications'.
+    - Appears in Awesome-LLMOps under 'Search > Vector search', confirming its developer-tooling infrastructure role.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (31047) exceeded threshold (150)
+  reason: Stars (31087) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:14.228Z"
+    updated_at: "2026-05-06T22:46:01.627Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:23:42.108Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

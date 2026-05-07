@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leesgit__claude-session-continuity-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:18.366Z"
+    last_checked_at: "2026-05-06T22:44:57.474Z"
     readme:
-      fetched_at: "2026-05-05T21:03:18.366Z"
+      fetched_at: "2026-05-06T22:44:57.474Z"
       bytes: 18772
 insights:
-  summary: An MCP server and hook system that automatically captures context, commits, and error-fix pairs across Claude Code sessions to eliminate manual re-explanation.
-  why_it_matters: It replaces the repetitive context-setting ritual at the start of every AI coding session with automatic memory injection and structured handovers.
-  mental_damage: We have officially reached the point where our AI assistants need their own therapy to remember what we built together yesterday.
+  summary: An MCP server and hook system for Claude Code that automatically captures session context, decisions, and error-fix pairs to eliminate re-explanation on new sessions.
+  why_it_matters: It removes the recurring overhead of re-explaining project state, conventions, and past decisions every time a Claude Code session starts.
+  mental_damage: We have now built persistent memory so you can feel productive across sessions, right before the model forgets what a Next.js App Router is two prompts later.
   tags:
     - mcp
-    - session-memory
     - claude-code
-    - context-engineering
-  confidence: high
+    - session-memory
+    - context-continuity
+  confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server with associated hooks that extends Claude Code's capabilities via the Model Context Protocol, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The core novelty is a context and memory system that captures, stores, and injects project state and error solutions into Claude Code sessions.
   evidence:
-    - README explicitly describes an MCP server registered in ~/.claude.json with npm package claude-session-continuity-mcp.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
-    - Hooks into Claude Code lifecycle events (SessionStart, Stop, PreCompact) to provide context continuity.
+    - README explicitly positions it as automatic context capture, semantic search, and an error→solution pipeline for Claude Code.
+    - Architecture is an MCP server paired with Claude Hooks that track active files, decisions, commits, and error-fix pairs across the session lifecycle.
+    - Listed in awesome-mcp-servers under Knowledge & Memory, aligning with memory and context management rather than primary assistant or generic extension.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:18.366Z"
+    updated_at: "2026-05-06T22:44:57.474Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:33.129Z"
+    updated_at: "2026-05-06T23:09:08.321Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

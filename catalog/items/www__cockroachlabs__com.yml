@@ -1,12 +1,12 @@
 id: www__cockroachlabs__com
 kind: website
-name: CockroachDB
+name: www.cockroachlabs.com
 canonical_url: https://www.cockroachlabs.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__cockroachlabs__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
         confidence: high
     - id: discovery__www__cockroachlabs__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,23 +50,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CockroachDB is a distributed, PostgreSQL-compatible SQL database designed for high availability, global scale, and cloud-native applications.
-  why_it_matters: It provides a resilient, scalable operational data layer that modern AI-driven and cloud applications can rely on without manual sharding or regional failover runbooks.
-  mental_damage: You will carefully evaluate distributed SQL databases and compliance features, then panic-deploy Postgres anyway because your AI agent hasn't heard of anything else.
+  summary: CockroachDB is a distributed SQL database designed for cloud applications requiring high availability, global scale, and PostgreSQL compatibility.
+  why_it_matters: Developers building AI-driven applications can use it as a resilient, strongly consistent backing store that scales to petabytes without manual sharding.
+  mental_damage: Now your agentic workflows can achieve 'unmatched uptime' while they hallucinate their way through your distributed transactions.
   tags:
-    - cloud-native
     - database
     - distributed-sql
-    - infrastructure
     - postgresql
+    - cloud
   confidence: high
 curation:
   status: excluded
-  reason: CockroachDB is a general-purpose distributed database with no primary AI developer-tooling surface, and is only tangentially relevant as infrastructure rather than an AI coding tool, agent, or workflow product.
+  reason: CockroachDB is a general-purpose distributed database with no core AI-tooling identity; it is infrastructure, not a developer-facing AI agent, framework, or extension.
   evidence:
-    - Scraped site positions it as a cloud-agnostic, PostgreSQL-compatible distributed database for cloud applications, not an AI developer tool.
-    - Appears in awesome-mcp-servers only as a database backend with an MCP server wrapper, not as a core AI tooling product.
-    - No repo description, README, stars, or source code is provided; the site promotes database modernization and scalability, not AI coding workflows.
+    - Scraped site context describes it as a 'distributed database with standard SQL for cloud applications', not an AI tool.
+    - The product page focuses on resilience, scale, and compliance for fintech and cloud apps, with AI mentioned only as a use case.
+    - Appears in awesome-mcp-servers only as a database server implementation, not as a primary AI developer product.
 placement:
   primary_category: null
   section: null
@@ -74,20 +73,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:10.077Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:28.453Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

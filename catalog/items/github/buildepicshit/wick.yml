@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__buildepicshit__wick__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,50 +47,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - roslyn
-    last_checked_at: "2026-05-05T21:01:27.093Z"
+    last_checked_at: "2026-05-06T22:43:14.676Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.093Z"
+      fetched_at: "2026-05-06T22:43:14.676Z"
       bytes: 5924
 insights:
-  summary: An MCP server that captures C# exceptions and build errors in Godot Engine, enriches them with Roslyn-powered source context, and exposes the telemetry to AI assistants.
-  why_it_matters: It collapses eight turns of AI debugging into one by giving the assistant the actual method body, caller chain, and scene state instead of a naked stack trace.
-  mental_damage: We have successfully built a tool to make the AI stop asking us to open the files we were already looking at.
+  summary: An MCP server that captures C# exceptions and build errors in Godot Engine, enriches them with Roslyn-powered source context, and feeds the full diagnostic picture to AI assistants.
+  why_it_matters: It compresses the tedious back-and-forth of AI debugging into a single turn by giving the model enriched telemetry instead of raw stack traces.
+  mental_damage: Now your AI can hallucinate the root cause of your Godot crash with the confidence of having eight pages of Roslyn context at its disposal.
   tags:
-    - mcp
     - godot
+    - mcp
     - csharp
-    - roslyn
     - debugging
+    - roslyn
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing Godot C# telemetry to AI clients, which fits the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server that exposes Godot diagnostics and C# analysis tools to AI clients, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP'."
-    - README details architecture as an external process communicating via stdio (MCP protocol) to the AI client.
-    - Listed in awesome-mcp-servers under 'Gaming' as a server implementation.
+    - "Repo description states: 'Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP'"
+    - README details five MCP tool groups (core, runtime, csharp, build, scene) and MCP configuration instructions
+    - Listed in awesome-mcp-servers under Gaming > Server Implementations
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.093Z"
+    updated_at: "2026-05-06T22:43:14.676Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:53.552Z"
+    updated_at: "2026-05-06T22:47:22.924Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

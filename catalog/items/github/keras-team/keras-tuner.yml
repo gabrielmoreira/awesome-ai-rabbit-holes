@@ -1,13 +1,13 @@
 id: github__keras-team__keras-tuner
 kind: github-repo
-name: Keras Tuner
+name: keras-tuner
 canonical_url: https://github.com/keras-team/keras-tuner
 identity:
   github_repo: keras-team/keras-tuner
 provenance:
   discoveries:
     - id: discovery__github__keras-team__keras-tuner__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,28 +38,28 @@ metadata:
       - keras
       - machine-learning
       - tensorflow
-    last_checked_at: "2026-05-05T21:03:04.083Z"
+    last_checked_at: "2026-05-06T22:44:41.855Z"
     readme:
-      fetched_at: "2026-05-05T21:03:04.083Z"
+      fetched_at: "2026-05-06T22:44:41.855Z"
       bytes: 3500
 insights:
-  summary: A hyperparameter optimization library for Keras that provides Bayesian Optimization, Hyperband, and Random Search to tune model hyperparameters.
-  why_it_matters: It lets deep learning developers define a search space with a simple API and automate the trial-and-error process of finding optimal model configurations.
-  mental_damage: Because clearly what the modern ML engineer needed was another layer of abstraction to endlessly tweak while their models trained for three days on a hunch.
+  summary: KerasTuner is a hyperparameter optimization library for Keras that provides built-in search algorithms like Bayesian Optimization and Hyperband to automate model tuning.
+  why_it_matters: It allows developers to define a search space with a define-by-run syntax and leverage scalable algorithms to find optimal hyperparameter values for deep learning models.
+  mental_damage: The perfect tool for when you want to automate the one part of deep learning where you used to rely on intuition, only to replace your gut feeling with a 5,000-trial RandomSearch that finds a 0.001% improvement at 3 AM.
   tags:
-    - automl
     - deep-learning
-    - hyperparameter-tuning
     - keras
+    - hyperparameter-tuning
+    - automl
     - tensorflow
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional deep learning library for Keras/TensorFlow hyperparameter tuning, lacking the AI-assisted developer workflow or LLM-centric focus required for this catalog.
+  reason: This is a traditional deep learning/ML infrastructure library for hyperparameter tuning, which falls outside the catalog's scope of practical AI tools, agents, and developer-facing infrastructure.
   evidence:
-    - Repo description explicitly defines it as 'A Hyperparameter Tuning Library for Keras', targeting deep learning model training rather than code generation.
-    - Topics and README focus on TensorFlow, model building, and search algorithms (Bayesian, Hyperband) with no mention of LLMs, coding agents, or developer assistance.
-    - Seen in Awesome-LLMOps under 'AutoML', but the tool itself is a conventional ML framework without an AI developer tooling angle.
+    - Repo description explicitly identifies it as 'A Hyperparameter Tuning Library for Keras' focused on deep learning.
+    - Topics include automl, deep-learning, hyperparameter-optimization, keras, machine-learning, tensorflow, with no LLM or developer-tooling signals.
+    - Source list context places it under 'AutoML' in an LLMOps list, but the tool itself is a standard ML library without an AI-assisted coding or developer workflow angle.
 placement:
   primary_category: null
   section: null
@@ -67,21 +67,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2923) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:25.162Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:04.083Z"
+    updated_at: "2026-05-06T22:44:41.855Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:53.450Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

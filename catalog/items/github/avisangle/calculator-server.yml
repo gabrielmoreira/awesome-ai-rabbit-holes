@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avisangle__calculator-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - mcp-server
       - mcp-servers
       - portfolio-project
-    last_checked_at: "2026-05-05T21:01:13.785Z"
+    last_checked_at: "2026-05-06T22:12:46.527Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.785Z"
+      fetched_at: "2026-05-06T22:12:46.527Z"
       bytes: 24169
 insights:
-  summary: A Go-based MCP server that exposes 13 mathematical tools for calculations, statistics, unit conversion, and financial modeling to MCP-compatible AI clients.
-  why_it_matters: It allows coding agents and LLM workflows to offload precise math, statistical analysis, and financial calculations to a dedicated, high-precision local server rather than relying on the model's own arithmetic.
-  mental_damage: We have reached the point where we need to install a dedicated server so the AI can calculate a tip without hallucinating the result.
+  summary: A Go-based MCP server that exposes 13 mathematical tools, including basic arithmetic, scientific functions, statistics, unit conversion, and financial calculations, over the Model Context Protocol.
+  why_it_matters: It provides a reusable, high-precision math backend that any MCP-compatible coding agent can call instead of struggling to hallucinate compound interest or IRR in its system prompt.
+  mental_damage: We have successfully abstracted basic arithmetic into a networked microservice so your $200/month assistant doesn't need to remember what 15% of 80 is.
   tags:
     - mcp
-    - go
     - math
-    - local-ai
+    - go
     - server
+    - finance
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to be plugged into AI workflows, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is a standalone MCP server providing mathematical computation tools, fitting squarely into the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states it is a 'Go-based MCP server for mathematical computations'.
-    - README confirms full compliance with the MCP specification and lists Streamable HTTP Transport support.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - Repo description explicitly calls it 'A comprehensive Go-based MCP server for mathematical computations with 13+ tools'.
+    - README states it is 'A comprehensive Go-based MCP (Model Context Protocol) server' with full MCP compliance.
+    - Included in the 'awesome-mcp-servers' list under 'Data Science Tools', confirming its role as an MCP server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.785Z"
+    updated_at: "2026-05-06T22:12:46.527Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:43.509Z"
+    updated_at: "2026-05-06T23:34:16.585Z"
     cause: null
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliyun__alibabacloud-hologres-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,14 +32,14 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:00.283Z"
+    last_checked_at: "2026-05-06T22:12:35.360Z"
     readme:
-      fetched_at: "2026-05-05T21:01:00.283Z"
+      fetched_at: "2026-05-06T22:12:35.360Z"
       bytes: 15813
 insights:
-  summary: An MCP server that provides AI agents with a standardized interface to connect to, inspect metadata from, and execute SQL against Alibaba Cloud Hologres databases.
-  why_it_matters: It allows developers to hook their AI coding agents directly into Hologres, enabling natural language querying and database management without leaving the agent workflow.
-  mental_damage: We have successfully abstracted the database so far away that we now need a protocol server just to let the AI ask the database what it looks like.
+  summary: An MCP server that lets AI agents connect to and run SQL operations against Alibaba Cloud Hologres databases.
+  why_it_matters: Developers using Claude Code or other MCP clients can give their agents live read and write access to Hologres metadata and queries without building custom glue code.
+  mental_damage: We have officially reached the point where connecting a database to an AI agent requires its own dedicated protocol server, just in case your hologres needs to hallucinate in SQL.
   tags:
     - mcp
     - database
@@ -49,33 +49,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Hologres, fitting precisely into the MCP Servers and Tooling category.
+  reason: The product is an MCP server providing database connectivity for AI agents, which fits cleanly as a domain-specific MCP server.
   evidence:
-    - "README states: 'Hologres MCP Server serves as a universal interface between AI Agents and Hologres databases.'"
-    - Includes configuration examples for MCP clients and specifically mentions integration with 'Claude Code'.
-    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+    - README states it is 'a universal interface between AI Agents and Hologres databases' via MCP.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - Includes configuration examples for Claude Code and standard MCP client JSON.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:00.283Z"
+    updated_at: "2026-05-06T22:12:35.360Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:41.683Z"
+    updated_at: "2026-05-06T22:20:42.215Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

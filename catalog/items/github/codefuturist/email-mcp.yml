@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codefuturist__email-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 40
-    forks: 20
+    stars: 41
+    forks: 22
     license: LGPL-3.0
     archived: false
     created_at: "2026-02-18T09:07:06Z"
@@ -48,14 +48,14 @@ metadata:
       - protonmail-bridge
       - smtp
       - typescript
-    last_checked_at: "2026-05-05T21:01:37.377Z"
+    last_checked_at: "2026-05-06T22:43:24.621Z"
     readme:
-      fetched_at: "2026-05-05T21:01:37.377Z"
+      fetched_at: "2026-05-06T22:43:24.621Z"
       bytes: 28094
 insights:
-  summary: A Model Context Protocol server that exposes full IMAP and SMTP email capabilities, allowing AI assistants to read, search, send, schedule, and triage messages across multiple accounts.
-  why_it_matters: It turns a generic coding agent into an email client, letting you automate entire communication workflows like triage, follow-ups, and calendar extraction directly from your assistant.
-  mental_damage: "We have finally achieved the future: your AI can now silently read your inbox, judge your pending replies, and schedule emails while you wonder if you are the one working for the agent."
+  summary: A TypeScript MCP server that exposes comprehensive email capabilities via IMAP and SMTP, enabling AI assistants to read, search, send, schedule, and triage emails across multiple accounts.
+  why_it_matters: It allows developers to equip their coding agents with a full-featured email client, offloading communication workflows like triage and scheduling directly to the assistant.
+  mental_damage: We have finally bridged the gap between 'vibe coding' and 'vibe emailing,' ensuring your agent can now miss important deadlines in your inbox with the same confidence it commits bugs to your repo.
   tags:
     - mcp
     - email
@@ -65,33 +65,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server providing email tooling for AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is a full-featured MCP server for email, fitting perfectly into the Domain Servers section of MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'Email MCP server with full IMAP + SMTP support'."
-    - README confirms it is an MCP server exposing 47 tools, 7 prompts, and 6 resources over the MCP protocol.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - Repo description explicitly states 'Email MCP server with full IMAP + SMTP support'.
+    - README highlights 47 tools and 6 resources exposed over the MCP protocol with AI triage features.
+    - Listed in awesome-mcp-servers under 'Communication' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:37.377Z"
+    updated_at: "2026-05-06T22:43:24.621Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:44.384Z"
+    updated_at: "2026-05-06T22:49:53.134Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

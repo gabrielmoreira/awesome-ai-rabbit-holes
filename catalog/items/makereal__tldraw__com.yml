@@ -1,12 +1,12 @@
 id: makereal__tldraw__com
 kind: website
-name: tldraw Make Real
+name: makereal.tldraw.com
 canonical_url: https://makereal.tldraw.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__makereal__tldraw__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based tool that lets developers draw UI wireframes on a tldraw canvas and uses AI to generate real, functional code from those sketches.
-  why_it_matters: It allows developers to rapidly prototype user interfaces by bridging the gap between visual brainstorming and working code without switching contexts.
-  mental_damage: You can now spend three hours perfecting a hand-drawn wireframe in a browser canvas, only to have an AI turn it into code that you will rewrite for the next four hours.
+  summary: A tldraw-based canvas that turns rough UI sketches into functional, real code implementations.
+  why_it_matters: It allows developers and designers to bypass the initial boilerplate of UI construction by drawing the interface directly.
+  mental_damage: Another excuse to spend three hours perfecting a napkin sketch in a browser canvas while telling your PM you are 'prototyping in a generative workflow.'
   tags:
-    - prototyping
-    - tldraw
     - ui-generation
-    - visual-coding
+    - sketch-to-code
+    - tldraw
+    - prototyping
   confidence: high
 curation:
   status: included
-  reason: This is a browser-first tool that transforms visual prompts (drawings) into functional UI code, fitting the app-builders category for site and UI generation.
+  reason: The tool's core identity is converting visual prompts (drawings) into functional application UIs, aligning perfectly with prompt-to-app builders rather than generic coding agents.
   evidence:
-    - "Scraped site description: 'Draw a ui and make it real with tldraw.'"
+    - "Scraped site description states: 'Draw a ui and make it real with tldraw.'"
     - Listed in awesome-ai-coding-tools under the 'UI Generators' section.
-    - The product surface is a hosted web tool (makereal.tldraw.com), not an IDE plugin or CLI agent.
+    - The workflow is prompt-to-app (drawing to code) rather than repo editing.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:09.697Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:23.621Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

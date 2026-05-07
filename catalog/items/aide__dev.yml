@@ -1,12 +1,12 @@
 id: aide__dev
 kind: website
-name: Aide
+name: aide.dev
 canonical_url: https://aide.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aide__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A developer tools lab that builds AI agents for software engineering, focused on scaling test-time inference to resolve GitHub issues.
-  why_it_matters: It pushes the boundary of autonomous coding agents by demonstrating that scaling inference compute at test-time can significantly improve resolution rates on real-world benchmarks like SWE-bench.
-  mental_damage: We have reached the point where the agents are not just writing the code, but the agents are also running their own bitter therapy sessions on why brute-forcing tokens is the only path to 60% accuracy.
+  summary: A developer tools lab building AI agents for software engineering that scale performance at inference time, achieving SOTA results on SWE-bench benchmarks.
+  why_it_matters: It demonstrates how test-time compute scaling can push automated issue resolution rates above 60%, offering a research-backed path toward more capable coding agents.
+  mental_damage: Yet another lab proving that throwing massive inference compute at your bugs is the new 'paying down technical debt'.
   tags:
     - coding-agents
     - inference-scaling
     - swe-bench
+    - research
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly described as building AI agents for software engineering that debug, write, and maintain code, fitting the coding-agents category.
+  reason: The site presents itself as building AI agents for software engineering that resolve real repo issues, fitting the core coding agent identity.
   evidence:
-    - "Scraped site description states: 'AI agents for software engineering, scaled at inference time.'"
-    - Homepage excerpt describes Aide as a 'developer tools lab exploring how inference-time scaling and agentic systems can reshape the way software is written, debugged, and maintained.'
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' with the specific purpose of being an AI agent for software engineering.
+    - "Scraped site title and description: 'Aide — AI-Native Developer Tools' and 'AI agents for software engineering, scaled at inference time.'"
+    - "Homepage excerpt states: 'Aide is a developer tools lab exploring how inference-time scaling and agentic systems can reshape the way software is written, debugged, and maintained.'"
+    - Source list placement in awesome-ai-coding-tools under 'Code Editors and Assistants' supports coding agent classification.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:35.175Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:40.541Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

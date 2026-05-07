@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__korotovsky__slack-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [korotovsky/slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) 📇 ☁️ - The most powerful MCP server for Slack Workspaces."
         confidence: high
     - id: discovery__github__korotovsky__slack-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1577
-    forks: 306
+    stars: 1580
+    forks: 308
     license: MIT
     archived: false
     created_at: "2025-04-12T11:31:34Z"
@@ -55,49 +55,50 @@ metadata:
       - mcp-server
       - slack
       - slack-api
-    last_checked_at: "2026-05-05T21:03:07.739Z"
+    last_checked_at: "2026-05-06T22:44:44.792Z"
     readme:
-      fetched_at: "2026-05-05T21:03:07.739Z"
+      fetched_at: "2026-05-06T22:44:44.792Z"
       bytes: 29263
 insights:
-  summary: A feature-rich Model Context Protocol server that enables AI agents and MCP clients to interact with Slack workspaces, supporting stealth/OAuth modes, DMs, and smart history fetching.
-  why_it_matters: It allows developers to wire Slack directly into their AI workflows, letting coding agents read threads, fetch unread messages, and optionally post replies without complex permission setups.
-  mental_damage: Now your AI agent can passively monitor every channel you forgot to mute and remind you that your architectural decisions are being judged in real time.
+  summary: A feature-rich Model Context Protocol server that lets MCP-compatible coding assistants and agents read, search, and optionally post Slack messages across workspaces, DMs, and threads.
+  why_it_matters: Developers can wire their coding agents into Slack to query threads, fetch unread messages, and search history without leaving the agent loop or building custom API glue.
+  mental_damage: Now your agent can join the Slack channel, catch up on threads, and generate a PR summary before you’ve finished pretending to read the conversation yourself.
   tags:
     - mcp
     - slack
-    - agent-tooling
-    - integration
+    - agent-integration
+    - communication
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation, fitting cleanly into the MCP Servers and Tooling category as a developer-facing integration for agent workflows.
+  reason: The product’s core identity is an MCP server for Slack, making it a textbook fit for MCP Servers & Tooling under Domain Servers, not a generic extension or framework.
   evidence:
-    - Repo description explicitly calls it 'The most powerful MCP Slack Server'
-    - README details MCP tools like conversations_history, conversations_replies, and conversations_add_message
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - Repo description explicitly calls it 'The most powerful MCP Slack Server' with MCP topics and multiple transports.
+    - README emphasizes MCP server tools (conversations_history, conversations_replies, conversations_add_message) for Slack workspaces.
+    - Listed in awesome-mcp-servers under Communication / Server Implementations, reinforcing its MCP domain identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1577) exceeded threshold (150)
+  reason: Stars (1580) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:07.739Z"
+    updated_at: "2026-05-06T22:44:44.792Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:15.933Z"
+    updated_at: "2026-05-06T23:06:36.806Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

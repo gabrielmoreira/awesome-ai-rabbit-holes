@@ -1,13 +1,13 @@
 id: github__modelfoxdotdev__modelfox
 kind: github-repo
-name: ModelFox
+name: modelfox
 canonical_url: https://github.com/modelfoxdotdev/modelfox
 identity:
   github_repo: modelfoxdotdev/modelfox
 provenance:
   discoveries:
     - id: discovery__github__modelfoxdotdev__modelfox__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -52,28 +52,28 @@ metadata:
       - rust-lang
       - rust-library
       - rustlang
-    last_checked_at: "2026-05-05T21:03:45.450Z"
+    last_checked_at: "2026-05-06T22:45:23.732Z"
     readme:
-      fetched_at: "2026-05-05T21:03:45.450Z"
+      fetched_at: "2026-05-06T22:45:23.732Z"
       bytes: 5254
 insights:
-  summary: ModelFox is a CLI and multi-language library toolkit for training, deploying, and monitoring traditional machine learning models from CSV files using linear and gradient boosted decision tree approaches.
-  why_it_matters: It offers developers a batteries-included, language-agnostic path to ship and monitor ML models without requiring deep data science expertise or heavy cloud infrastructure.
-  mental_damage: Yet another reminder that while we're all debating GPT-5 agents, the actual model quietly deciding whether your chest pain is real is still a gradient boosted tree you trained from a CSV in 2021.
+  summary: ModelFox is a CLI and cross-language library toolkit for training, deploying, and monitoring traditional machine learning models from CSV files.
+  why_it_matters: It offers a batteries-included, low-friction path for developers to ship and monitor tabular ML models without building custom Python MLOps pipelines.
+  mental_damage: Just when you thought the 2025 stack couldn't get wider, here is another CLI reminding you that you still need to properly monitor that heart-disease predictor you shipped in 2022.
   tags:
-    - automl
-    - cli
     - mlops
+    - cli
+    - automl
     - monitoring
-    - multi-language
+    - rust
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a traditional ML/AutoML platform for training decision trees and linear models, lacking any generative AI, LLM, or AI developer-tooling angle.
+  reason: This is a traditional ML training and monitoring toolkit, not a developer-facing AI tool, agent, or coding workflow product.
   evidence:
-    - Repo description and README focus entirely on training models from CSVs, not AI coding assistance or LLM workflows.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', but the tool itself has no LLM or AI assistant functionality.
-    - Supports predictions via Elixir, Go, JavaScript, PHP, Python, Ruby, and Rust libraries, targeting general ML deployment rather than AI developer tooling.
+    - "Repo description states: 'ModelFox makes it easy to train, deploy, and monitor machine learning models.'"
+    - README demonstrates a workflow based on `modelfox train` from CSV files and traditional prediction logging, with no coding-agent or LLM-centric workflow.
+    - Source list places it under 'Large Scale Deployment > ML Platforms' in an LLMOps list, but the product itself is generic ML, not LLM/AI developer tooling.
 placement:
   primary_category: null
   section: null
@@ -81,21 +81,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1468) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:49.072Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:45.450Z"
+    updated_at: "2026-05-06T22:45:23.732Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:17.611Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

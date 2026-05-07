@@ -1,13 +1,13 @@
 id: github__lingcoder__crab-code
 kind: github-repo
-name: Crab Code
+name: crab-code
 canonical_url: https://github.com/lingcoder/crab-code
 identity:
   github_repo: lingcoder/crab-code
 provenance:
   discoveries:
     - id: discovery__github__lingcoder__crab-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,7 +29,7 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2026-04-02T02:13:05Z"
-    pushed_at: "2026-05-04T23:27:32Z"
+    pushed_at: "2026-05-06T02:19:49Z"
     description: 🦀 Open-source alternative to Claude Code, built from scratch in Rust. Agentic coding CLI — thinks, plans, and executes with any LLM. Compatible with Claude Code workflows.
     homepage: https://github.com/lingcoder/crab-code
     topics:
@@ -53,28 +53,28 @@ metadata:
       - openai
       - rust
       - rust-lang
-    last_checked_at: "2026-05-05T21:03:20.943Z"
+    last_checked_at: "2026-05-06T22:44:59.951Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.943Z"
+      fetched_at: "2026-05-06T22:44:59.951Z"
       bytes: 5931
 insights:
-  summary: A Rust-native, open-source CLI coding agent that replicates Claude Code's workflow while supporting multiple LLM providers including OpenAI, DeepSeek, and Bedrock.
-  why_it_matters: It gives developers a self-hosted, provider-agnostic alternative to Claude Code with extensible configuration, MCP support, and multi-model flexibility.
-  mental_damage: Yet another CLI agent enters the ring, this time written in Rust so you can feel morally superior while wondering which of these tools will actually survive the month.
+  summary: An open-source, Rust-native CLI coding agent that replicates Claude Code's workflows and toolset while supporting any LLM provider.
+  why_it_matters: Developers can self-host an agentic coding loop with multi-provider flexibility while avoiding vendor lock-in to proprietary assistants.
+  mental_damage: We have reached the point where building a 149k-line Rust clone of a proprietary CLI is considered the efficient path to coding autonomy.
   tags:
     - cli
-    - coding-agent
-    - llm
-    - mcp
     - rust
-  confidence: medium
+    - coding-agent
+    - open-source
+    - llm-agnostic
+  confidence: high
 curation:
   status: included
-  reason: This is a terminal-native coding agent that directly plans, writes, and executes code across repos with any LLM, fitting the coding-agents category cleanly.
+  reason: This is a standalone, terminal-native coding assistant that plans, edits, and executes across a repo, fitting the primary identity of a coding agent rather than an extension or framework.
   evidence:
-    - Repo description explicitly calls it an 'Agentic coding CLI' and 'Open-source alternative to Claude Code'
-    - README states it is a 'Rust-native agentic coding CLI' with tools, permissions, and repo-level workflows
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+    - "Repo description explicitly states: 'Open-source alternative to Claude Code, built from scratch in Rust. Agentic coding CLI'."
+    - Architecture includes 27 crates across engine, tools, session, and TUI layers for autonomous repo work.
+    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -82,21 +82,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:02.596Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.943Z"
+    updated_at: "2026-05-06T22:44:59.951Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:41.744Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

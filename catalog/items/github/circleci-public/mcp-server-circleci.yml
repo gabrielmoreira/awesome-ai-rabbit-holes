@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__circleci-public__mcp-server-circleci__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [CircleCI/mcp-server-circleci](https://github.com/CircleCI-Public/mcp-server-circleci) 📇 ☁️ Enable AI Agents to fix build failures from CircleCI."
         confidence: high
     - id: discovery__github__circleci-public__mcp-server-circleci__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 84
+    stars: 83
     forks: 57
     license: NOASSERTION
     archived: false
@@ -50,50 +50,49 @@ metadata:
     topics:
       - mcp-server
       - modelcontextprotocol
-    last_checked_at: "2026-05-05T21:01:34.298Z"
+    last_checked_at: "2026-05-06T22:43:21.675Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.298Z"
+      fetched_at: "2026-05-06T22:43:21.675Z"
       bytes: 32841
 insights:
-  summary: An official MCP server from CircleCI that lets developers manage pipelines, inspect build failures, and optimize CI config using natural language inside MCP-compatible IDEs like Cursor and VS Code.
-  why_it_matters: It brings CI/CD diagnostics and pipeline control directly into the editor, so developers can debug flaky tests and rerun workflows without context-switching to the CircleCI dashboard.
-  mental_damage: Now your CI pipeline can fail in natural language, and you can argue with your IDE about why the config validation is judging your YAML.
+  summary: An official MCP server from CircleCI that exposes pipeline status, build logs, flaky test detection, and config validation tools to AI coding assistants like Cursor, Windsurf, and Copilot.
+  why_it_matters: It lets developers diagnose CI failures, rerun workflows, and validate configs using natural language directly inside their AI-assisted IDE instead of context-switching to the CircleCI dashboard.
+  mental_damage: You can now debug why your CI pipeline exploded without leaving the IDE, which is great until your AI assistant starts arguing with you about why the YAML is technically valid but spiritually broken.
   tags:
     - mcp
     - circleci
     - ci-cd
-    - devops
     - ide-integration
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server implementation that integrates CircleCI with MCP-compatible clients, clearly fitting the MCP infrastructure category.
+  reason: The product's primary identity is a Model Context Protocol server providing CircleCI-specific tools to MCP-compatible clients, fitting cleanly into the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'A specialized server implementation for the Model Context Protocol (MCP)'
-    - README confirms it is an MCP Server for CircleCI to be used with Cursor, Windsurf, Copilot, Claude, or any MCP-compatible client
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Developer Tools' sections
+    - Repo description explicitly states it is 'A specialized server implementation for the Model Context Protocol (MCP)' designed to bridge CircleCI and MCP.
+    - README positions it as a tool to 'Use Cursor, Windsurf, Copilot, Claude, or any MCP-compatible client to interact with CircleCI'.
+    - Featured in awesome-mcp-servers under both 'Server Implementations > Developer Tools' and 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.298Z"
+    updated_at: "2026-05-06T22:43:21.675Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:12.665Z"
+    updated_at: "2026-05-06T22:49:14.537Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,81 @@
+id: github__mistralai__mistral-finetune
+kind: github-repo
+name: mistral-finetune
+canonical_url: https://github.com/mistralai/mistral-finetune
+identity:
+  github_repo: mistralai/mistral-finetune
+provenance:
+  discoveries:
+    - id: discovery__github__mistralai__mistral-finetune__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: mistral-finetune
+        extracted_url: https://github.com/mistralai/mistral-finetune
+        surrounding_text: "13. [mistral-finetune](https://github.com/mistralai/mistral-finetune): A light-weight codebase that enables memory-efficient and performant finetuning of Mistral's models."
+        confidence: high
+metadata:
+  github:
+    stars: 3090
+    forks: 314
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-05-24T18:19:28Z"
+    pushed_at: "2025-11-21T10:27:03Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:45:21.523Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:21.523Z"
+      bytes: 25498
+insights:
+  summary: A lightweight, memory-efficient codebase from Mistral AI for LoRA-based fine-tuning of Mistral models on multi-GPU setups.
+  why_it_matters: It provides a streamlined, opinionated path for developers to customize Mistral's 7B to 123B models without the overhead of generic training frameworks.
+  mental_damage: Because obviously the next logical step after struggling to integrate a black-box coding agent is spinning up an H100 cluster to train your own 123B model in an afternoon.
+  tags:
+    - fine-tuning
+    - lora
+    - mistral
+    - training
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a model training SDK and infrastructure tool for fine-tuning base LLMs, which falls outside the catalog's scope of developer-facing AI tooling, agents, and workflows.
+  evidence:
+    - README explicitly states the goal is 'a simple, guided entrypoint to finetune Mistral models' using LoRA.
+    - It is categorized under '微调 Fine-Tuning' in awesome-LLM-resources, signaling a generic ML resource rather than a dev tool.
+    - The workflow requires A100/H100 GPUs and focuses on model weights, not developer codebases or IDE integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3090) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.630Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:21.523Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:46.010Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

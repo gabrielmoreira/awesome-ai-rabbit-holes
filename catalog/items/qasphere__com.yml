@@ -1,0 +1,92 @@
+id: qasphere__com
+kind: website
+name: qasphere.com
+canonical_url: https://qasphere.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__qasphere__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: QA Sphere
+        extracted_url: https://qasphere.com
+        surrounding_text: "- [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) 🎖️ 📇 ☁️ - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        confidence: high
+    - id: discovery__qasphere__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: QA Sphere
+        extracted_url: https://qasphere.com
+        surrounding_text: "- **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: QA Sphere is an AI-powered test management platform for creating, organizing, and tracking manual and automated test cases, featuring AI-driven test generation and integrations with Jira, GitHub, and other project tools.
+  why_it_matters: It offers AI-assisted test case generation and bulk creation from specs, helping dev and QA teams reduce the manual overhead of building and maintaining test libraries.
+  mental_damage: Another SaaS promises to automate the one task—writing tests—that developers already aggressively automate away by not writing them.
+  tags:
+    - test-management
+    - qa
+    - ai-testing
+    - mcp
+  confidence: high
+curation:
+  status: excluded
+  reason: QA Sphere is a general QA/test management SaaS platform for non-developer QA teams, not a developer-facing coding tool, agent, or extension.
+  evidence:
+    - Site describes it as 'a lean, efficient test management system designed for speed and simplicity in software testing' for QA teams.
+    - Primary features are test case libraries, test runs, and reporting, not code editing, agent orchestration, or developer workflows.
+    - Appears in awesome-mcp-servers only as an MCP integration point, but the core product is a broad QA platform, not MCP infrastructure.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.597Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:43.216Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

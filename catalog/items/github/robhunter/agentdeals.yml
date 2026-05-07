@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__robhunter__agentdeals__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-18T18:38:02Z"
+    pushed_at: "2026-05-06T06:59:11Z"
+    description: MCP server aggregating free tiers, startup credits & developer tool deals. 4 tools, 54 categories, 1,525+ offers.
+    homepage: ""
+    topics:
+      - developer-tools
+      - free-tier
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-06T22:46:10.927Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:10.927Z"
+      bytes: 12309
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that aggregates free tiers, startup credits, and developer tool deals from 1,500+ vendors across 54 categories for use with AI agents and IDEs.
+  why_it_matters: It lets developers and their AI agents find relevant infrastructure credits and pricing changes directly inside their workflow instead of manually hunting across vendor sites.
+  mental_damage: Your AI agent can now optimize your cloud bill while you spiral over whether accepting a free tier is just deferred vendor lock-in anxiety.
+  tags:
+    - mcp
+    - free-tier
+    - developer-tools
+    - pricing
+    - aggregator
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server that provides deal aggregation as its core product identity, making it a clear fit for MCP Servers & Tooling.
+  evidence:
+    - Repo description explicitly states 'MCP server aggregating free tiers, startup credits & developer tool deals'
+    - README positions it as a server with 4 tools and 6 prompt templates for any MCP-compatible client
+    - Topics include mcp and mcp-server, and it is listed in awesome-mcp-servers under 'Aggregators'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:10.927Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:53.699Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

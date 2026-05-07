@@ -1,0 +1,86 @@
+id: github__liguodongiot__llm-action
+kind: github-repo
+name: llm-action
+canonical_url: https://github.com/liguodongiot/llm-action
+identity:
+  github_repo: liguodongiot/llm-action
+provenance:
+  discoveries:
+    - id: discovery__github__liguodongiot__llm-action__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: LLM-Action
+        extracted_url: https://github.com/liguodongiot/llm-action
+        surrounding_text: 31. [LLM-Action](https://github.com/liguodongiot/llm-action)
+        confidence: high
+metadata:
+  github:
+    stars: 24210
+    forks: 2787
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-23T05:29:16Z"
+    pushed_at: "2026-03-12T12:18:06Z"
+    description: 本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）
+    homepage: https://www.zhihu.com/column/c_1456193767213043713
+    topics:
+      - llm
+      - llm-inference
+      - llm-serving
+      - llm-training
+      - llmops
+    last_checked_at: "2026-05-06T22:44:59.424Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:59.424Z"
+      bytes: 45743
+insights:
+  summary: A Chinese-language curated knowledge base and tutorial hub covering LLM training, inference, compression, application development, and MLOps fundamentals.
+  why_it_matters: It consolidates scattered engineering tutorials and practical guides for developers who need to understand how to train, deploy, and productionize large language models.
+  mental_damage: Yet another reminder that while we are shipping AI agents at record speed, most of us are still frantically reading tutorials to understand what a quantization config actually does.
+  tags:
+    - llm-training
+    - llm-inference
+    - llmops
+    - tutorials
+    - chinese
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource hub and tutorial collection rather than a standalone developer tool, framework, or product, and thus falls outside the catalog's tooling-first scope.
+  evidence:
+    - Repo description explicitly states it is a project for sharing LLM technical principles and practical experience (tutorials), not a tool.
+    - README is structured as a content directory covering training, inference, compression, and MLOps topics with links to blogs and courses.
+    - Seen in awesome-LLM-resources under a 'Tutorial' section, reinforcing its identity as a learning resource rather than a developer product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (24210) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.627Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:59.424Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:34.729Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

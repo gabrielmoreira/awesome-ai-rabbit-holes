@@ -1,12 +1,12 @@
 id: www__nurgo__software__com__products__brainsoup
 kind: website
-name: BrainSoup
+name: brainsoup
 canonical_url: https://www.nurgo-software.com/products/brainsoup
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__nurgo__software__com__products__brainsoup__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A native Windows desktop platform for building and coordinating teams of custom AI agents that can interact with local files, run scripts, and use tools via natural language commands.
-  why_it_matters: It allows developers to construct local-first, multi-agent workflows that integrate with their existing desktop environment and data without mandating a cloud dependency.
-  mental_damage: Another day, another 'AI team' that runs exclusively on the operating system that still thinks 1995 was peak UI design.
+  summary: BrainSoup is a native Windows desktop platform for building and coordinating multi-agent teams that can interact with local files, run scripts, browse the web, and use custom tools via low-code text files.
+  why_it_matters: It lets developers spin up specialized local agents that chain tasks, remember context, and act on the desktop without wiring together frameworks by hand.
+  mental_damage: Now you can spend your afternoon architecting a hierarchy of local LLM agents to automate the five-minute task you probably should have just done yourself.
   tags:
-    - agents
-    - automation
+    - multi-agent
     - local-ai
-    - orchestration
+    - desktop
+    - automation
     - windows
   confidence: medium
 curation:
   status: included
-  reason: The product is a user-facing desktop control plane for coordinating multiple specialized AI agents, defining their tools, and managing workflows, which fits agent-orchestration.
+  reason: This is a desktop control plane for coordinating multiple specialized agents with tools, memory, and local LLMs, fitting agent orchestration more than a single coding assistant.
   evidence:
-    - The site describes 'multi-agent workflows' where users 'craft specialized AI teams and let them coordinate in goal-oriented chat rooms'.
-    - It is listed under 'awesome-ai-agents' with the purpose 'Create custom AI agents to handle tasks and automate processes'.
-    - Agents can 'run scripts' and interface with the OS via 'simple text files and scripts in any language', acting as a local orchestration layer.
+    - "Scraped site states: 'agents seamlessly work together, enabling multi-agent collaborations to conquer complex projects.'"
+    - Described as a 'Personal AI Platform' where users 'craft custom agents, each built to serve a specific need.'
+    - Included in awesome-ai-agents list under a multi-agent orchestration framing.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:21.948Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:37.669Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

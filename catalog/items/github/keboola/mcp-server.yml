@@ -1,13 +1,13 @@
 id: github__keboola__mcp-server
 kind: github-repo
-name: Keboola
+name: mcp-server
 canonical_url: https://github.com/keboola/mcp-server
 identity:
   github_repo: keboola/mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__keboola__keboola-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__keboola__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/keboola/keboola-mcp-server
         surrounding_text: "- [keboola/keboola-mcp-server](https://github.com/keboola/keboola-mcp-server) 🐍 - interact with Keboola Connection Data Platform. This server provides tools for listing and accessing data from Keboola Storage API."
         confidence: high
-    - id: discovery__github__keboola__keboola-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__keboola__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,22 +36,6 @@ provenance:
         anchor_text: Keboola
         extracted_url: https://github.com/keboola/keboola-mcp-server
         surrounding_text: "- **[Keboola](https://github.com/keboola/keboola-mcp-server)** - Build robust data workflows, integrations, and analytics on a single intuitive platform."
-        confidence: high
-    - id: discovery__github__keboola__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📊 <a name="data-platforms"></a>Data Platforms
-        anchor_text: keboola/keboola-mcp-server
-        extracted_url: https://github.com/keboola/keboola-mcp-server
-        surrounding_text: "- [keboola/keboola-mcp-server](https://github.com/keboola/keboola-mcp-server) 🐍 - interact with Keboola Connection Data Platform. This server provides tools for listing and accessing data from Keboola Storage API."
         confidence: high
 metadata:
   github:
@@ -70,53 +54,49 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:03:03.544Z"
+    last_checked_at: "2026-05-06T22:44:41.147Z"
     readme:
-      fetched_at: "2026-05-05T21:03:03.544Z"
+      fetched_at: "2026-05-06T22:44:41.147Z"
       bytes: 21487
 insights:
-  summary: An open-source MCP server that exposes Keboola data platform features—such as storage, SQL transformations, jobs, and flows—as callable tools for AI agents and MCP clients like Cursor, Claude, and VS Code.
-  why_it_matters: It lets developers query tables, trigger jobs, and manage data pipelines conversationally inside their existing AI coding tools instead of switching to the Keboola UI.
-  mental_damage: We have successfully abstracted the data platform so far away that your AI agent now needs its own data platform integration to ask another AI to run your SQL.
+  summary: An open-source MCP server that exposes Keboola data platform features—including storage, SQL transformations, and job triggers—as callable tools for AI assistants like Claude and Cursor.
+  why_it_matters: It allows developers to query tables, run transformations, and manage data pipelines directly from their AI coding environment without writing glue code.
+  mental_damage: Another day, another layer of abstraction where your data platform now needs an OAuth handshake just so your chatbot can trigger a SQL job that used to take one CLI command.
   tags:
-    - ai-integration
-    - data-platform
-    - etl
-    - keboola
     - mcp
+    - data-platform
+    - keboola
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that integrates a data platform with MCP clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server implementation for a specific domain (Keboola), fitting cleanly under MCP Servers & Tooling.
   evidence:
-    - "Repo description states: 'Model Context Protocol (MCP) Server for the Keboola Platform'"
-    - README excerpt confirms it 'turns Keboola features into callable tools for Claude, Cursor, CrewAI, LangChain, Amazon Q, and more'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
-    - Repo description explicitly states this is a 'Model Context Protocol (MCP) Server for the Keboola Platform'.
-    - README confirms it turns Keboola features into 'callable tools for Claude, Cursor, CrewAI, LangChain, Amazon Q, and more' via MCP.
-    - Created in January 2025 and actively pushed as of May 2026, with 84 stars and an MIT license.
+    - Repo description explicitly states 'Model Context Protocol (MCP) Server for the Keboola Platform'.
+    - README introduces it as a bridge that 'turns Keboola features into callable tools for Claude, Cursor, CrewAI, LangChain...'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:15.570Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:03.544Z"
+    updated_at: "2026-05-06T22:44:41.147Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:46.707Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

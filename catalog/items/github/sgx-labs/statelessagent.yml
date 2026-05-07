@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sgx-labs__statelessagent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,77 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 16
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-02-06T20:53:41Z"
+    pushed_at: "2026-04-08T19:46:28Z"
+    description: Your AI forgets everything between sessions. SAME fixes that. Local-first, no API keys, single binary.
+    homepage: https://statelessagent.com
+    topics:
+      - ai-agent
+      - ai-memory
+      - claude-code
+      - context-surfacing
+      - cursor
+      - golang
+      - llm-memory
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - obsidian
+      - rag
+      - semantic-search
+      - sqlite
+      - sqlite-vec
+      - vector-search
+      - windsurf
+    last_checked_at: "2026-05-06T22:46:21.887Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:21.887Z"
+      bytes: 15281
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local-first MCP server that gives AI coding agents persistent memory by indexing markdown notes and surfacing relevant context across sessions.
+  why_it_matters: Developers can stop re-explaining project decisions to Claude Code, Cursor, and Windsurf every time a session restarts.
+  mental_damage: We have finally solved the AI memory problem by building yet another local binary that indexes our markdown notes so the robot can remember why we chose JWT three weeks ago.
+  tags:
+    - mcp
+    - memory
+    - local-first
+    - context
+    - cli
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core novelty is a memory and context-surfacing system that boosts other coding agents via MCP, which aligns with Prompt & Context Engineering rather than being a primary assistant or thin host integration.
+  evidence:
+    - "Repo description: 'Your AI forgets everything between sessions. SAME fixes that. Local-first, no API keys, single binary.'"
+    - "README: 'SAME gives every AI coding tool persistent memory. Claude Code, Cursor, Windsurf, Codex CLI, Gemini CLI — one memory layer that works everywhere.'"
+    - Topics include llm-memory, context-surfacing, rag, semantic-search, and mcp-server, confirming the memory/retrieval identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:21.887Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:04.371Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

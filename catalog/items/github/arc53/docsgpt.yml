@@ -1,13 +1,13 @@
 id: github__arc53__docsgpt
 kind: github-repo
-name: DocsGPT
+name: docsgpt
 canonical_url: https://github.com/arc53/docsgpt
 identity:
   github_repo: arc53/docsgpt
 provenance:
   discoveries:
     - id: discovery__github__arc53__docsgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 17871
+    stars: 17870
     forks: 2033
     license: MIT
     archived: false
@@ -52,49 +52,50 @@ metadata:
       - search
       - semantic-search
       - transformers
-    last_checked_at: "2026-05-05T21:01:08.035Z"
+    last_checked_at: "2026-05-06T22:12:41.807Z"
     readme:
-      fetched_at: "2026-05-05T21:01:08.035Z"
+      fetched_at: "2026-05-06T22:12:41.807Z"
       bytes: 8028
 insights:
-  summary: DocsGPT is an open-source platform for building private AI agents and assistants with document analysis, an agent builder, deep research tools, and multi-model support.
-  why_it_matters: It gives developers a self-hostable stack to ingest diverse knowledge sources and wire up agentic workflows with API actions without handing enterprise data to third-party SaaS.
-  mental_damage: Another day, another opportunity to spend three hours wiring a PDF-ingesting agent that will eventually answer questions about last year’s roadmap with confident, cited precision.
+  summary: An open-source AI platform for building private agents and assistants with an Agent Builder, document analysis across multiple formats, and API connectivity for enterprise search and orchestration workflows.
+  why_it_matters: Developers can self-host a complete agent and knowledge-base stack with multi-model support, deep research tools, and extensible integrations instead of patching together RAG pipelines and chat widgets.
+  mental_damage: Another open-source platform promises to be your private AI brain, but you will still spend three sprints wiring SharePoint connectors before anyone asks it a useful question.
   tags:
     - agents
-    - enterprise-search
     - rag
+    - enterprise-search
     - self-hosted
+    - agent-builder
   confidence: high
 curation:
   status: included
-  reason: DocsGPT is a user-facing platform for building, orchestrating, and operating agents and assistants with document ingestion, API connectivity, and agent workflows, fitting agent orchestration rather than coding agents or app builders.
+  reason: The product is a self-hosted platform and workbench for building, running, and coordinating multiple agents and assistants with document ingestion, APIs, and enterprise integrations, which fits agent orchestration as a control plane.
   evidence:
     - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis...'"
-    - README lists 'Agent Builder' and 'Agent Workflow Builder with conditional nodes' as core capabilities and roadmap items.
-    - Seen in awesome-langchain under 'Knowledge Management', confirming its RAG/agent orchestration positioning.
+    - "README: 'open-source AI platform for building intelligent agents and assistants' with Agent Workflow Builder and multi-agent tooling on the roadmap."
+    - "Active project: created 2023-02-02, last pushed 2026-05-05, 17,870 stars, not archived."
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (17871) exceeded threshold (150)
+  reason: Stars (17870) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:49.951Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:08.035Z"
+    updated_at: "2026-05-06T22:12:41.807Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:01.592Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

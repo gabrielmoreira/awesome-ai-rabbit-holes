@@ -1,12 +1,12 @@
 id: www__veracode__com
 kind: website
-name: Veracode
+name: www.veracode.com
 canonical_url: https://www.veracode.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__veracode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,23 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Veracode is an enterprise application security platform that scans code using SAST, DAST, and SCA, and offers an AI-powered feature called Veracode Fix to automate vulnerability remediation.
-  why_it_matters: It integrates security scanning and AI-driven fixes directly into the developer workflow, aiming to reduce the burden of manual remediation for both human and AI-generated code.
-  mental_damage: Now that your AI agent is writing the code and another AI is fixing the security holes, you can spend your entire day in compliance meetings debating the false-positive rate of the tools replacing you.
+  summary: Veracode is an enterprise application security platform that scans code for vulnerabilities and uses AI to automate remediation across the software development lifecycle.
+  why_it_matters: It offers AI-driven code fixes and SAST/DAST scanning that integrate directly into developer workflows to catch security flaws in both human and AI-generated code earlier.
+  mental_damage: Now you can add 'waiting for the AI to fix the AI's security holes' to your list of existential workflow ironies.
   tags:
-    - ai-remediation
-    - appsec
-    - devsecops
-    - sast
     - security
+    - sast
+    - enterprise
+    - remediation
   confidence: high
 curation:
   status: excluded
-  reason: The product is primarily an enterprise Application Security (AppSec) platform for scanning and compliance, not a developer-facing coding assistant, agent, or app builder that helps write or structure code.
+  reason: Excluded because Veracode is a broad enterprise application security platform (SaaS) rather than a developer-facing AI coding tool, agent, or infrastructure component.
   evidence:
-    - Product description centers on 'Application Security', 'SAST', 'DAST', and 'Risk Manager (ASPM)', not code generation.
-    - The 'Fix (AI code remediation)' feature automates security patches, but this is a security governance tool rather than a coding workflow assistant.
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', but the core offering is broad enterprise SDLC security rather than a developer tool for building.
+    - Scraped site context describes it as an 'Application Risk Management Platform' with SAST, DAST, and SCA, not a coding assistant.
+    - Core features include 'Risk Manager (ASPM)' and 'Security Training', which are enterprise compliance functions rather than developer tooling.
+    - Although listed under 'Code Review and Refactoring' in an awesome list, the primary product identity is SDLC security compliance, not AI coding assistance.
 placement:
   primary_category: null
   section: null
@@ -58,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:01.418Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:14.322Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: huggingface__co__tiiuae__falcon__40b__instruct
 kind: website
-name: Falcon 40B
+name: falcon-40b-instruct
 canonical_url: https://huggingface.co/tiiuae/falcon-40b-instruct
 identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__tiiuae__falcon__40b__instruct__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,23 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Falcon-40B-Instruct is a 40-billion parameter causal decoder-only language model from the Technology Innovation Institute, fine-tuned for chat and instruction-following tasks.
-  why_it_matters: Developers can use this Apache 2.0-licensed model as a high-performing, open-weight foundation for self-hosted inference, fine-tuning, or as an alternative to closed-source LLMs in their pipelines.
-  mental_damage: Another open-weight titan enters the arena, kindly reminding you that your local GPU budget is now measured in 'how many kidneys do I actually need'.
+  summary: Falcon-40B-Instruct is a 40-billion-parameter causal decoder-only chat model from the Technology Innovation Institute, fine-tuned for instruction following and available under the Apache 2.0 license.
+  why_it_matters: Developers can use it as a self-hosted, open-weight alternative to proprietary LLMs for building local coding assistants, chat interfaces, or fine-tuned internal tools.
+  mental_damage: Yet another open-weight colossus that promises freedom from vendor lock-in, provided you happen to have 100GB of VRAM lying around and a weekend to spare on quantization experiments.
   tags:
-    - huggingface
-    - inference
     - llm
-    - open-source
+    - open-weight
     - text-generation
+    - self-hosted
   confidence: high
 curation:
   status: excluded
-  reason: This is a foundational large language model, not a developer-facing tool, agent, IDE, or infrastructure product; it is a model weight hosted on Hugging Face, which falls outside the scope of developer tooling catalogs.
+  reason: This is a raw model checkpoint and weights repository rather than a developer-facing tool, IDE, agent, framework, or infrastructure product, which places it outside the catalog's scope.
   evidence:
-    - Hugging Face page identifies this as a 'Text Generation' model (tiiuae/falcon-40b-instruct), not a software tool or agent.
-    - Listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is a model asset rather than operational tooling.
-    - The README provides Python inference snippets but describes a model architecture, not a developer workflow automation product.
+    - The page is a Hugging Face model card for Falcon-40B-Instruct, not a standalone product or tool.
+    - The README provides only inference snippets using transformers/vLLM/SGLang rather than offering its own developer tooling.
+    - It appears in Awesome-LLMOps under 'Model > Large Language Model', which is a research/model bucket rather than a developer-tooling category.
 placement:
   primary_category: null
   section: null
@@ -59,17 +58,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:32.932Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -78,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:25.325Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arthurpanhku__dragonmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - greatchina
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:10.199Z"
+    last_checked_at: "2026-05-06T22:12:43.829Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.199Z"
+      fetched_at: "2026-05-06T22:12:43.829Z"
       bytes: 10156
 insights:
-  summary: An MCP server that exposes local life service APIs in Greater China and Asia—such as MTR schedules, Amap directions, and weather—to AI agents, with additional services like Didi and Meituan planned as mocks.
-  why_it_matters: Developers building region-specific AI agents can plug into a single MCP endpoint to access local transport, mapping, and lifestyle APIs without wiring each service individually.
-  mental_damage: We’ve successfully built the infrastructure for an AI to order takeout in Hong Kong before most of us figured out how to make Claude reliably edit a PR.
+  summary: DragonMCP is a Model Context Protocol (MCP) server that exposes local life service APIs in Greater China and Asia—such as MTR schedules, Amap, and mocked payment platforms—to AI agents.
+  why_it_matters: It allows developers building agents for Chinese and Asian markets to connect existing assistants like Claude or Qwen to real-world logistics like transit, ride-hailing, and food delivery without writing custom API wrappers.
+  mental_damage: We have finally bridged the gap between state-of-the-art reasoning models and the ability to order takeout in Hong Kong, proving that no API is safe from being wrapped in an MCP server.
   tags:
     - mcp
     - local-services
     - asia
-    - agent-tooling
-  confidence: medium
+    - typescript
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server providing tool integrations for AI agents targeting Greater China and Asian local life services, which aligns directly with the MCP Servers and Tooling category.
+  reason: The product's identity is a specialized MCP server providing domain-specific tools for local life services, fitting squarely into MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly defines DragonMCP as a Model Context Protocol (MCP) server for AI agents.
-    - README details MCP tool implementations for MTR, Amap, and HK weather, with mocked endpoints for Didi, Meituan, and payments.
-    - Listed under awesome-mcp-servers in the Server Implementations > Delivery section.
+    - Repo description explicitly states it is 'a Model Context Protocol (MCP) server designed for AI Agents to interact with local life services'.
+    - README highlights tools like `search_mtr_schedule` and `amap_search_poi`, confirming it is a tool-provider for the protocol.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Delivery', aligning with the Domain Servers section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.199Z"
+    updated_at: "2026-05-06T22:12:43.829Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:10.550Z"
+    updated_at: "2026-05-06T22:22:29.784Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

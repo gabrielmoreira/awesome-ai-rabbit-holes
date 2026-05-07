@@ -1,12 +1,12 @@
 id: reporoster__com__forks__wangrongsheng__awesome__llm__resourses
 kind: website
-name: "![Forkers repo roster for @WangRongsheng/awesome-LLM-resourses"
+name: awesome-LLM-resourses
 canonical_url: https://reporoster.com/forks/WangRongsheng/awesome-LLM-resourses
 identity: {}
 provenance:
   discoveries:
     - id: discovery__reporoster__com__forks__wangrongsheng__awesome__llm__resourses__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list collecting resources, tips, and links related to Large Language Models.
-  why_it_matters: It serves as a navigation aid for developers looking to survey the landscape of LLM tools and techniques.
-  mental_damage: Yet another structured attempt to organize the chaos, proving that the only thing we generate faster than code is lists of things that generate code.
+  summary: A curated collection of LLM resources covering multimodal generation, agents, assisted programming, model training, inference, and MCP.
+  why_it_matters: It acts as a broad entry point for developers trying to navigate the sprawling landscape of LLM tools, libraries, and techniques.
+  mental_damage: Yet another meta-list that will sit open in a tab until you inevitably give up and ask an agent to summarize it for you.
   tags:
-    - awesome-list
     - llm
-    - meta
     - resources
-  confidence: medium
+    - awesome-list
+    - directory
+  confidence: high
 curation:
   status: included
-  reason: This is a curated index of resources rather than a standalone developer tool, which fits the awesome-awesomes category.
+  reason: This is a curated directory of resources rather than a standalone developer tool, making it a fit for the Lists & Directories category.
   evidence:
-    - The name 'awesome-LLM-resourses' matches the pattern of a curated meta-list.
-    - Source-list context identifies it as an awesome list entry in a 'Tips' section.
+    - Described in source list as a 'Summary of the world's best LLM resources' covering multiple domains.
+    - Name follows the 'awesome-*' convention typical of curated ecosystem maps.
+    - No repo description, README, or code-first toolkit identity provided; the value is in curation, not execution.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:34.703Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:59.540Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

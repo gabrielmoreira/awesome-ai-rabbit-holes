@@ -1,13 +1,13 @@
 id: github__open-compass__opencompass
 kind: github-repo
-name: opencompass (`🔥`)
+name: opencompass
 canonical_url: https://github.com/open-compass/opencompass
 identity:
   github_repo: open-compass/opencompass
 provenance:
   discoveries:
     - id: discovery__github__open-compass__opencompass__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6962
-    forks: 774
+    stars: 6967
+    forks: 773
     license: Apache-2.0
     archived: false
     created_at: "2023-06-15T12:42:58Z"
@@ -40,49 +40,50 @@ metadata:
       - llama3
       - llm
       - openai
-    last_checked_at: "2026-05-05T21:04:02.539Z"
+    last_checked_at: "2026-05-06T22:45:39.968Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.539Z"
+      fetched_at: "2026-05-06T22:45:39.968Z"
       bytes: 24963
 insights:
-  summary: OpenCompass is an LLM evaluation platform that benchmarks a wide range of models against over 100 datasets using a Python-based evaluation harness.
-  why_it_matters: It provides developers and researchers with the infrastructure to objectively measure and compare model performance across standardized tasks.
-  mental_damage: Just when you thought the model was smart enough to ship, you now have an entire platform dedicated to proving exactly how mediocre it remains on obscure reasoning benchmarks.
+  summary: OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance.
+  why_it_matters: It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
+  mental_damage: Because nothing says 'I am shipping features' quite like spending three days configuring a YAML file to confirm that GPT-4 is, in fact, better at math than a random open-source checkpoint.
   tags:
-    - benchmark
-    - evaluation
+    - evals
+    - benchmarking
     - llm
     - testing
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated evaluation framework and benchmark platform for LLMs, which fits the Evaluations and Benchmarks category perfectly.
+  reason: The core job of the project is measuring, scoring, and comparing model behavior across standard and custom benchmarks, fitting the Evals category perfectly.
   evidence:
-    - Repo description explicitly states it is an 'LLM evaluation platform' supporting 100+ datasets.
-    - README details support for various evaluation benchmarks like MuSR, BABILong, and MATHVerifyEvaluator.
-    - Listed in the 'awesome-LLM-resources' directory under the '评估 Evaluation' section.
+    - Repo description explicitly identifies it as an 'LLM evaluation platform' over 100+ datasets.
+    - README highlights evaluation of specific models (DeepSeek-R1, Intern-S1) and features like 'CascadeEvaluator' and 'MATHVerifyEvaluator'.
+    - Listed in awesome-LLM-resources under the '评估 Evaluation' section.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6962) exceeded threshold (150)
+  reason: Stars (6967) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:14.257Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.540Z"
+    updated_at: "2026-05-06T22:45:39.968Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:59.337Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

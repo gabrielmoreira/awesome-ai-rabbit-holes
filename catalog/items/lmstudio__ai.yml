@@ -1,12 +1,12 @@
 id: lmstudio__ai
 kind: website
-name: LM Studio
+name: lmstudio.ai
 canonical_url: https://lmstudio.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__lmstudio__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "- [LM Studio](https://lmstudio.ai/) - Discover, download, and run local LLMs."
         confidence: high
     - id: discovery__lmstudio__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -36,7 +36,7 @@ provenance:
         surrounding_text: "- **[LM Studio](https://lmstudio.ai/)** – Desktop app for discovering, downloading, and running local LLMs with a built-in chat UI and API server."
         confidence: high
     - id: discovery__lmstudio__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -64,44 +64,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LM Studio is a desktop application and headless runtime for running large language models locally on your own hardware, providing an OpenAI-compatible API and SDKs for integration.
-  why_it_matters: It allows developers to experiment with and integrate local LLMs like Llama and Gemma into their workflows without sending data to external servers, including support for headless server and CI deployments.
-  mental_damage: Finally, a tool that lets you hoard open-weight models on your laptop with the same fervor as a sysadmin backing up the internet to a hard drive in 2005.
+  summary: A desktop application and local runtime for running open-weight LLMs such as Llama, Gemma, and DeepSeek privately on your own hardware.
+  why_it_matters: Developers can test, iterate on, and serve models locally with an OpenAI-compatible API and SDKs without sending code or data to external providers.
+  mental_damage: You now have a compelling reason to hoard GPUs, run 70B parameter models on a laptop that sounds like a jet engine, and explain to your team why local inference is more reliable than the cloud—until you run out of VRAM.
   tags:
-    - desktop
-    - inference
-    - llm
     - local-ai
-    - offline
+    - llm
+    - inference
+    - desktop
+    - openai-compatible
   confidence: high
 curation:
   status: included
-  reason: This is a desktop and headless runtime specifically designed for running AI models privately on local hardware, which fits the local-ai category perfectly.
+  reason: LM Studio is a local-first desktop app and runtime for running LLMs privately on your own hardware, which aligns directly with the Local AI category.
   evidence:
-    - "Scraped site context explicitly states: 'Run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.'"
-    - Includes 'no-gui deployment' and 'llmster' core for deploying on Linux boxes, cloud servers, or CI.
-    - Listed in 'awesome-local-ai' under the 'Inference UI' section and 'awesome-ai-coding-tools' under 'Local LLM Tools'.
+    - "Scraped site title and description state: 'Run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.'"
+    - Product provides a desktop app, headless deployment (llmster), SDKs (Python, JS), CLI (lms), and an OpenAI-compatible API for local inference.
+    - Included in awesome-ai-coding-tools (Local LLM Tools) and awesome-local-ai (Inference UI), reinforcing its identity as a local AI tool.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:02.025Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:15.579Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__ai4finance-foundation__finrobot
 kind: github-repo
-name: FinRobot
+name: finrobot
 canonical_url: https://github.com/ai4finance-foundation/finrobot
 identity:
   github_repo: ai4finance-foundation/finrobot
 provenance:
   discoveries:
     - id: discovery__github__ai4finance-foundation__finrobot__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6871
-    forks: 1154
+    stars: 6877
+    forks: 1161
     license: Apache-2.0
     archived: false
     created_at: "2024-02-27T02:30:30Z"
@@ -40,50 +40,50 @@ metadata:
       - multimodal-deep-learning
       - prompt-engineering
       - robo-advisor
-    last_checked_at: "2026-05-05T21:00:54.877Z"
+    last_checked_at: "2026-05-06T22:12:30.478Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.877Z"
+      fetched_at: "2026-05-06T22:12:30.478Z"
       bytes: 18204
 insights:
-  summary: An open-source AI agent platform that unifies LLMs, reinforcement learning, and quantitative analytics to automate financial analysis, algorithmic trading, and equity research report generation.
-  why_it_matters: It provides developers with a full-stack framework to build and deploy specialized financial AI agents that fetch data, run multi-agent analysis, and produce professional reports locally.
-  mental_damage: Yet another reminder that while we're debugging middleware configurations, the robots are busy writing equity research reports that might actually be more bullish than our own portfolios.
+  summary: An open-source AI agent platform for financial analysis that uses multiple LLMs and specialized agents to automate equity research, algorithmic trading, and risk assessment.
+  why_it_matters: Developers building fintech or quant tools can leverage a pre-built multi-agent stack with financial data integrations instead of wiring together their own analysis pipelines.
+  mental_damage: Yet another reminder that while you are debugging a CSS grid, there is an open-source agent somewhere writing an 18-page equity research report on NVIDIA entirely without you.
   tags:
-    - agents
-    - analysis
     - finance
+    - multi-agent
     - langchain
-    - local-ai
+    - research
+    - trading
   confidence: high
 curation:
   status: included
-  reason: It is a code-first framework and SDK for building financial AI agents using LLMs and quantitative tools, fitting the AI Frameworks category rather than a developer coding assistant.
+  reason: The project is primarily a code-first Python framework and SDK that developers import and script against to build financial agent workflows, fitting the Frameworks & SDKs identity.
   evidence:
-    - "Repo description: 'FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs'."
-    - README describes a 'full-stack intelligent solution' with a pipeline for fetching data, running agents, and generating reports via CLI and Python scripts.
-    - Listed in awesome-langchain as a project using the LangChain framework for LLM applications.
+    - Repo description explicitly calls it an 'Open-Source AI Agent Platform' using LLMs.
+    - It is listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a developer toolkit.
+    - The README shows a strong code-first workflow with pip install, config files, and Python scripts for running analysis.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6871) exceeded threshold (150)
+  reason: Stars (6877) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:48.094Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.877Z"
+    updated_at: "2026-05-06T22:12:30.478Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:43.191Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

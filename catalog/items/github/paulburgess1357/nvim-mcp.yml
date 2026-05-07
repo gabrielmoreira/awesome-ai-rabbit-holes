@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paulburgess1357__nvim-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 52
+    stars: 53
     forks: 3
     license: MIT
     archived: false
     created_at: "2026-04-05T01:56:42Z"
-    pushed_at: "2026-05-05T14:52:36Z"
+    pushed_at: "2026-05-06T14:58:20Z"
     description: MCP server that connects AI agents to your running Neovim instance via msgpack-RPC — no plugins required.
     homepage: ""
     topics:
@@ -51,50 +51,49 @@ metadata:
       - openai
       - text-editor
       - vim
-    last_checked_at: "2026-05-05T21:04:13.717Z"
+    last_checked_at: "2026-05-06T22:45:49.405Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.717Z"
-      bytes: 5137
+      fetched_at: "2026-05-06T22:45:49.405Z"
+      bytes: 5501
 insights:
-  summary: An MCP server that connects AI agents to a running Neovim instance via its native msgpack-RPC socket, enabling agents to read, edit, and command the editor without requiring plugins.
-  why_it_matters: It allows coding agents like Claude Code and Cursor to directly see your editor state and manipulate buffers in memory, bridging the gap between autonomous AI workflows and the terminal editor.
-  mental_damage: "We have finally achieved the platonic ideal of a 2026 workflow: an AI agent accidentally running macros in a 40-split Neovim instance that you connected to it via a Python script."
+  summary: An MCP server that lets AI agents like Claude Code and Cursor control and observe a running Neovim instance via its native msgpack-RPC socket.
+  why_it_matters: It bridges the gap between terminal-based coding agents and the editor context, allowing agents to see diagnostics, edit buffers in memory, and navigate the UI without file-system intermediaries.
+  mental_damage: "We have finally achieved the platonic ideal of the modern developer workflow: an AI agent inside your editor, editing the editor, while you watch two terminals argue about a docstring."
   tags:
-    - neovim
     - mcp
-    - coding-agent
+    - neovim
     - editor-integration
-    - msgpack
+    - coding-agent
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a specialized MCP server designed to expose Neovim's API to MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  reason: MCP is the primary product identity—it is explicitly an MCP server designed to give agents access to Neovim, fitting the Domain Servers section.
   evidence:
-    - Repo description explicitly defines it as an 'MCP server that connects AI agents to your running Neovim instance'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - README confirms it connects via Neovim's native msgpack-RPC and works with Claude Code, Cursor, and other MCP clients.
+    - "Repo description states: 'MCP server that connects AI agents to your running Neovim instance via msgpack-RPC'."
+    - README confirms it 'gives AI agents first-class access to your running Neovim session' and works with Cursor, Claude Code, and other MCP-compatible clients.
+    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.717Z"
+    updated_at: "2026-05-06T22:45:49.405Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:04.204Z"
+    updated_at: "2026-05-06T23:21:09.132Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

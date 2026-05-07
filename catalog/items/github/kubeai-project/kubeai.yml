@@ -1,13 +1,13 @@
 id: github__kubeai-project__kubeai
 kind: github-repo
-name: KubeAI
+name: kubeai
 canonical_url: https://github.com/kubeai-project/kubeai
 identity:
   github_repo: kubeai-project/kubeai
 provenance:
   discoveries:
-    - id: discovery__github__substratusai__kubeai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__kubeai-project__kubeai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1192
-    forks: 126
+    stars: 1194
+    forks: 127
     license: Apache-2.0
     archived: false
     created_at: "2023-10-21T00:59:51Z"
@@ -46,50 +46,50 @@ metadata:
       - vllm
       - vllm-operator
       - whisper
-    last_checked_at: "2026-05-05T21:03:08.688Z"
+    last_checked_at: "2026-05-06T22:44:45.747Z"
     readme:
-      fetched_at: "2026-05-05T21:03:08.688Z"
+      fetched_at: "2026-05-06T22:44:45.747Z"
       bytes: 8877
 insights:
-  summary: A Kubernetes operator that deploys and scales ML models like LLMs, embeddings, and speech-to-text servers using vLLM, Ollama, and FasterWhisper with OpenAI-compatible APIs.
-  why_it_matters: It gives developers a zero-dependency, autoscaling control plane to run local or edge LLM inference on their own infrastructure without wiring together Istio, Knative, and custom autoscalers.
-  mental_damage: Yet another heroic attempt to tame the Kubernetes complexity dragon by adding an operator that promises it just works, right up until you need to debug a custom resource definition at 2 a.m.
+  summary: KubeAI is a Kubernetes operator that deploys, scales, and manages ML model inference servers like vLLM and Ollama with OpenAI-compatible APIs and intelligent load balancing.
+  why_it_matters: It lets developers run production-grade LLM, embedding, and speech-to-text inference on their own clusters with zero-to-N scaling and prefix-aware routing without needing Istio or Knative.
+  mental_damage: Yet another reason to feel like you haven't truly 'shipped AI' until you've debugged a custom resource definition at 2am while your KV cache silently weeps.
   tags:
-    - autoscaling
     - kubernetes
-    - llm-inference
-    - ollama
-    - vllm
+    - inference
+    - llm-serving
+    - self-hosted
+    - openai-api
   confidence: high
 curation:
   status: included
-  reason: KubeAI is developer infrastructure for running and scaling AI models on your own hardware inside Kubernetes, which fits the local AI and self-hosted inference scope.
+  reason: It is a self-hosted serving stack that lets developers run and scale their own inference infrastructure on Kubernetes, fitting the Local AI scope.
   evidence:
-    - "Repo description: 'AI Inference Operator for Kubernetes. The easiest way to serve ML models in production.'"
-    - README states it supports LLMs via vLLM and Ollama with OpenAI-compatible APIs and zero external dependencies like Istio.
-    - Over 1,100 stars, active development (pushed 2026-03-31), and adopted by multiple cloud and edge providers.
+    - Repo description explicitly calls it 'AI Inference Operator for Kubernetes' and 'easiest way to serve ML models in production.'
+    - "README emphasizes self-hosted execution: 'Deploy and scale machine learning models on Kubernetes' with 'Zero Dependencies' and hardware flexibility."
+    - OpenAI-compatible API and support for vLLM, Ollama, and FasterWhisper align with local/self-hosted serving infrastructure.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1192) exceeded threshold (150)
+  reason: Stars (1194) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:26.669Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:08.688Z"
+    updated_at: "2026-05-06T22:44:45.747Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:45.982Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

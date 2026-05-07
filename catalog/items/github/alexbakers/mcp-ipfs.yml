@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexbakers__mcp-ipfs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - model-context-protocol-servers
       - storage
       - storage-service
-    last_checked_at: "2026-05-05T21:00:58.120Z"
+    last_checked_at: "2026-05-06T22:12:33.169Z"
     readme:
-      fetched_at: "2026-05-05T21:00:58.120Z"
+      fetched_at: "2026-05-06T22:12:33.169Z"
       bytes: 5381
 insights:
-  summary: A Node.js server implementing the Model Context Protocol (MCP) that wraps the `w3` CLI to allow AI models and MCP clients to manage Storacha.network spaces and storage operations.
-  why_it_matters: It allows AI coding agents to autonomously handle decentralized storage tasks, such as uploading data to IPFS via Storacha, without the developer manually running CLI commands.
-  mental_damage: We have successfully abstracted the CLI away so your AI can now independently incur your cloud storage bills and manage delegated keys while you debug why it uploaded node_modules to IPFS.
+  summary: A Node.js MCP server that wraps the Storacha (web3.storage) `w3` CLI to let AI models and MCP clients upload, download, and manage data on IPFS.
+  why_it_matters: It allows developers to give coding agents decentralized storage capabilities, enabling workflows where AI-generated assets or data are persisted to IPFS via the Model Context Protocol.
+  mental_damage: Your AI agent can now independently upload its own hallucinations to a permanent, decentralized ledger, ensuring your technical debt is distributed globally and immutable.
   tags:
     - mcp
     - ipfs
     - storage
     - decentralized
-    - cli-wrapper
+    - nodejs
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that provides storage capabilities to MCP clients, clearly fitting the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server implementation designed to give MCP clients access to the Storacha/IPFS ecosystem, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP IPFS Server'.
-    - README confirms it is a 'Node.js server implementing the Model Context Protocol (MCP)' for Storacha.network.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations'.
+    - Repo description identifies it explicitly as 'MCP IPFS Server'.
+    - README states it implements the Model Context Protocol to interact with storacha.network via MCP tools.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations', confirming its identity as a protocol server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:58.120Z"
+    updated_at: "2026-05-06T22:12:33.169Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:22.051Z"
+    updated_at: "2026-05-06T22:20:19.760Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

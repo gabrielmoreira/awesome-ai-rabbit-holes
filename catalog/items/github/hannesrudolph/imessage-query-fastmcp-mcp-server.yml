@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hannesrudolph__imessage-query-fastmcp-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server) 🐍 🏠 🍎 - An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP), enabling LLMs to query and analyze iMessage conversations with proper phone number validation and attachment handling"
         confidence: high
     - id: discovery__github__hannesrudolph__imessage-query-fastmcp-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -51,50 +51,50 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:30.256Z"
+    last_checked_at: "2026-05-06T22:44:10.877Z"
     readme:
-      fetched_at: "2026-05-05T21:02:30.256Z"
+      fetched_at: "2026-05-06T22:44:10.877Z"
       bytes: 3648
 insights:
-  summary: A macOS-only MCP server built with FastMCP that provides read-only access to the iMessage database for LLMs to query and analyze conversations.
-  why_it_matters: It allows developers to wire iMessage data into AI workflows within Claude Desktop or Cline without writing custom database connectors or risking writes to the chat DB.
-  mental_damage: You now have the infrastructure to ask an LLM to summarize three years of unread group chats, ensuring your productivity stack is fully optimized for avoiding actual human replies.
+  summary: An MCP server built with FastMCP that provides read-only access to the macOS iMessage database for LLMs to query message history and attachments.
+  why_it_matters: It allows coding assistants like Claude Desktop and Cline to safely inspect local chat data for debugging integrations or analyzing conversation patterns without risking database corruption.
+  mental_damage: "We have finally achieved the singularity: your coding agent can now read your iMessage drama to help you debug a 500 error."
   tags:
     - mcp
-    - imessage
     - macos
+    - imessage
     - fastmcp
-    - llm-integration
+    - local-ai
   confidence: high
 curation:
   status: included
-  reason: The project is a distinct MCP server implementation designed to expose iMessage data to LLMs, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is an MCP server specifically built to expose iMessage data to LLMs, fitting the 'Domain Servers' section of the MCP category.
   evidence:
-    - Repo description explicitly states it is 'An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP)'.
-    - README details installation for Claude Desktop and Cline VSCode Plugin, confirming its role as an MCP tool provider.
-    - Listed in 'awesome-mcp-servers' and 'awesome-mcp-list' under Communication sections, reinforcing its identity as an MCP implementation.
+    - "Repo description explicitly states: 'An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP)'."
+    - README lists installation options specifically for Claude Desktop and Cline VSCode Plugin as the primary consumers.
+    - Source lists confirm placement in 'awesome-mcp-list' and 'awesome-mcp-servers' under Communication sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:30.256Z"
+    updated_at: "2026-05-06T22:44:10.877Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:24.762Z"
+    updated_at: "2026-05-06T22:59:27.938Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

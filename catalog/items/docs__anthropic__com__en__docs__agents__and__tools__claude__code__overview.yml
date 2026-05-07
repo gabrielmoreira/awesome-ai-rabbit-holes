@@ -1,12 +1,12 @@
 id: docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview
 kind: website
-name: Claude Code
+name: overview
 canonical_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Official documentation for Claude Code, Anthropic's terminal-based coding agent that operates directly within a developer's repository.
-  why_it_matters: It provides the canonical reference for a first-party agent that lets developers delegate coding tasks, debugging, and testing to Claude directly from the CLI.
-  mental_damage: Now you can feel productive while watching a model silently refactor your repo in a terminal window you barely understand.
+  summary: The official Anthropic documentation page for Claude Code, describing the terminal-based coding agent.
+  why_it_matters: It outlines the capabilities and usage of Claude Code, a primary terminal-native coding assistant developers can delegate repo work to.
+  mental_damage: Another official docs page to bookmark, promising that reading it will finally teach you how to delegate your job to a terminal window without feeling guilty.
   tags:
-    - anthropic
+    - claude-code
     - cli
     - coding-agent
-    - documentation
+    - anthropic
   confidence: high
 curation:
-  status: included
-  reason: This is the official documentation for Claude Code, a first-party terminal coding agent that directly edits, plans, and tests code within a repo workflow.
+  status: excluded
+  reason: This is a documentation page for Claude Code, not a standalone tool, product, or directory, and therefore does not belong in a catalog of tools.
   evidence:
-    - URL is the official Anthropic documentation for Claude Code (docs.anthropic.com).
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
-    - Tool is described as a coding agent operating in the terminal/repo context, fitting the coding-agents category instruction.
+    - The URL points to an Anthropic documentation page (docs.anthropic.com), not a tool repo or product.
+    - There is no repo description, stars, or code artifacts provided; it is purely reference material.
+    - Source-list context shows it was listed to represent Claude Code, but the link itself is just docs.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:53.784Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:18.119Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

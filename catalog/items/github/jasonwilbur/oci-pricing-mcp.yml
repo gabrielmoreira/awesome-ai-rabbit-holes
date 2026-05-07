@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jasonwilbur__oci-pricing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - oracle
       - pricing
       - typescript
-    last_checked_at: "2026-05-05T21:02:52.256Z"
+    last_checked_at: "2026-05-06T22:44:31.360Z"
     readme:
-      fetched_at: "2026-05-05T21:02:52.256Z"
+      fetched_at: "2026-05-06T22:44:31.360Z"
       bytes: 10310
 insights:
-  summary: An MCP server that exposes Oracle Cloud Infrastructure pricing data to AI assistants for real-time cost estimation and cloud provider comparisons.
-  why_it_matters: Developers can ask Claude or other MCP-compatible assistants to instantly compare OCI compute, storage, and egress costs against AWS and Azure without leaving their chat window.
-  mental_damage: We have officially reached the point where we need a dedicated protocol server just to ask an AI how much a VM costs, because reading the actual price list has become an endangered skill.
+  summary: A Model Context Protocol server that exposes Oracle Cloud Infrastructure pricing data and cost-estimation tools to MCP-compatible AI assistants like Claude.
+  why_it_matters: It lets developers ask natural-language cost questions and compare OCI, AWS, Azure, and GCP pricing directly inside their AI coding assistant instead of hunting through cloud price lists.
+  mental_damage: We have reached the point where we need a dedicated protocol server just to ask a chatbot whether Oracle’s Arm instances are cheaper than AWS, as if cloud billing weren’t already abstract enough.
   tags:
     - mcp
     - oci
     - cloud-pricing
-    - typescript
     - cost-estimation
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation that provides OCI pricing data to AI assistants, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product’s core identity is an MCP server that provides OCI pricing data to MCP-compatible assistants, fitting cleanly into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol server for Oracle Cloud Infrastructure pricing information'"
-    - Included in the awesome-mcp-servers list under 'Server Implementations > Cloud Platforms'
-    - Provides 20+ MCP tools like get_pricing, compare_compute_shapes, and fetch_realtime_pricing for AI assistant integration
+    - "Repo description explicitly states: 'OCI Pricing MCP Server - Model Context Protocol server for Oracle Cloud Infrastructure pricing information'"
+    - README positions it as an MCP server providing tools like get_pricing, compare_regions, and calculate_monthly_cost to Claude
+    - Included in awesome-mcp-servers under Server Implementations > Cloud Platforms
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:52.256Z"
+    updated_at: "2026-05-06T22:44:31.360Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:49.651Z"
+    updated_at: "2026-05-06T23:03:43.082Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

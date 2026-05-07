@@ -1,0 +1,81 @@
+id: github__severian42__graphrag-local-ui
+kind: github-repo
+name: graphrag-local-ui
+canonical_url: https://github.com/severian42/graphrag-local-ui
+identity:
+  github_repo: severian42/graphrag-local-ui
+provenance:
+  discoveries:
+    - id: discovery__github__severian42__graphrag-local-ui__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: GraphRAG-Ollama-UI
+        extracted_url: https://github.com/severian42/graphrag-ollama-ui
+        surrounding_text: "14. [GraphRAG-Ollama-UI](https://github.com/severian42/GraphRAG-Ollama-UI): GraphRAG using Ollama with Gradio UI and Extra Features."
+        confidence: high
+metadata:
+  github:
+    stars: 2325
+    forks: 294
+    license: MIT
+    archived: false
+    created_at: "2024-07-14T06:05:48Z"
+    pushed_at: "2024-11-09T02:04:26Z"
+    description: "GraphRAG using Local LLMs - Features robust API and multiple apps for Indexing/Prompt Tuning/Query/Chat/Visualizing/Etc. This is meant to be the ultimate GraphRAG/KG local LLM app. "
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:21.598Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:21.598Z"
+      bytes: 10846
+insights:
+  summary: A local-first GraphRAG suite combining a FastAPI backend with Gradio UIs for indexing, prompt tuning, querying, and visualizing knowledge graphs using local LLMs like Ollama.
+  why_it_matters: Enables developers to experiment with Microsoft's GraphRAG patterns on self-hosted hardware without incurring cloud API costs or compromising data privacy.
+  mental_damage: You can now visualize your local knowledge graph in 3D while spending forty-five minutes configuring an embedding proxy that you definitely won't remember how to restart next week.
+  tags:
+    - graphrag
+    - local-llm
+    - rag
+    - knowledge-graph
+    - ollama
+  confidence: high
+curation:
+  status: included
+  reason: The project's core identity is a self-contained local interface and serving stack for GraphRAG using local models, fitting the local AI desktop/interface profile better than a framework or generic extension.
+  evidence:
+    - Repo description explicitly states 'GraphRAG using Local LLMs' and calls it the 'ultimate GraphRAG/KG local LLM app'.
+    - README highlights a 'Dedicated Indexing and Prompt Tuning UI' and 'main interactive UI' built with Gradio, running on local hardware.
+    - Features 'Local Model Support' including Ollama and OpenAI-compatible APIs, emphasizing cost-effectiveness by eliminating cloud dependency.
+placement:
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2325) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.647Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:21.598Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:01.872Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

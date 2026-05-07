@@ -1,13 +1,13 @@
 id: github__mmorris35__claudecode-devplanbuilder
 kind: github-repo
-name: ClaudeCode-DevPlanBuilder
+name: claudecode-devplanbuilder
 canonical_url: https://github.com/mmorris35/claudecode-devplanbuilder
 identity:
   github_repo: mmorris35/claudecode-devplanbuilder
 provenance:
   discoveries:
     - id: discovery__github__mmorris35__claudecode-devplanbuilder__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:44.046Z"
+    last_checked_at: "2026-05-06T22:45:22.542Z"
     readme:
-      fetched_at: "2026-05-05T21:03:44.046Z"
+      fetched_at: "2026-05-06T22:45:22.542Z"
       bytes: 29323
 insights:
-  summary: A reusable methodology and template repository that instructs Claude Code to interview a user, then generate a full project brief, development plan with atomic subtasks, and specialized executor and verifier agent definitions.
-  why_it_matters: It provides a structured spec-driven workflow for developers who want Claude Code to plan and autonomously execute an entire project with baked-in git discipline and testing requirements.
-  mental_damage: We have officially reached the point where we are writing instruction manuals for the AI on how to write instruction manuals for itself.
+  summary: A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions.
+  why_it_matters: It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
+  mental_damage: We have officially reached the point where your coding agent needs its own project manager, onboarding questionnaire, and middleware to avoid recursively inventing agile ceremonies.
   tags:
-    - agents
     - claude-code
-    - planning
     - spec-driven
+    - planning
+    - agent-skills
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a reusable skill/methodology pack designed to be consumed by Claude Code to automate project planning and task execution.
+  reason: The core artifact is a structured spec-and-plan loop (PROJECT_BRIEF → DEVELOPMENT_PLAN → executor/verifier agents) that drives implementation, fitting spec-driven development better than a generic coding-agent label.
   evidence:
-    - README explicitly instructs the user to 'Tell Claude Code to read this repo' to generate plans and agent definitions.
-    - Creates reusable files like PROJECT_BRIEF.md, DEVELOPMENT_PLAN.md, and .claude/agents/{project}-executor.md.
-    - Appears in awesome-mcp-servers under 'Developer Tools', confirming it is recognized as a developer-tooling asset.
+    - "README centers on a spec-first loop: interview → PROJECT_BRIEF.md → DEVELOPMENT_PLAN.md with phases/tasks/subtasks."
+    - Generates executor and verifier agents in .claude/agents/ to execute and validate the plan.
+    - Repository is very new (2025-10-09) and low traction (3 stars), but the product identity is clear.
 placement:
-  primary_category: skills
-  section: null
+  primary_category: spec-driven-development
+  section: Planning / Task Decomposition
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:34.883Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:44.046Z"
+    updated_at: "2026-05-06T22:45:22.542Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:59.668Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

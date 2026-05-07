@@ -1,0 +1,76 @@
+id: docs__wandb__ai__guides__prompts
+kind: website
+name: prompts
+canonical_url: https://docs.wandb.ai/guides/prompts
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__wandb__ai__guides__prompts__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Weights & Biases (Prompts)
+        extracted_url: https://docs.wandb.ai/guides/prompts
+        surrounding_text: "| [Weights & Biases (Prompts)](https://docs.wandb.ai/guides/prompts) | A suite of LLMOps tools within the developer-first W&B MLOps platform. Utilize W&B Prompts for visualizing and inspecting LLM execution flow, tracking inputs and outputs, viewing intermediate results, securely managing prompts and LLM chain configurations.                                                                                                                                        |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Documentation page for Weights & Biases' prompt management and versioning features within their LLMops platform.
+  why_it_matters: It provides developers with tooling to track, version, and evaluate prompts as part of a broader MLOps workflow.
+  mental_damage: Yet another reminder that while your code is version-controlled, your prompt graveyard remains a chaotic collection of half-forgotten strings in your IDE.
+  tags:
+    - prompts
+    - llmops
+    - wandb
+    - documentation
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation page for an existing platform feature, not a standalone developer tool, extension, or directory that fits the catalog's scope.
+  evidence:
+    - URL points to docs.wandb.ai/guides/prompts, indicating a documentation page rather than a product or repo.
+    - Seen in Awesome-LLMOps under 'LLMOps', which curates platforms and tools, but the item itself is a docs link.
+    - No repo description, README, or code artifacts provided; it is an auxiliary resource page.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.661Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:43.070Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

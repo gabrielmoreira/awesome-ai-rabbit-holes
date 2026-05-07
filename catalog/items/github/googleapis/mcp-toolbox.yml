@@ -1,13 +1,13 @@
 id: github__googleapis__mcp-toolbox
 kind: github-repo
-name: MCP Toolbox for Databases
+name: mcp-toolbox
 canonical_url: https://github.com/googleapis/mcp-toolbox
 identity:
   github_repo: googleapis/mcp-toolbox
 provenance:
   discoveries:
-    - id: discovery__github__googleapis__genai-toolbox__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__googleapis__mcp-toolbox__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/googleapis/genai-toolbox
         surrounding_text: "- [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) 🏎️ ☁️ - Open source MCP server specializing in easy, fast, and secure tools for Databases."
         confidence: high
-    - id: discovery__github__googleapis__genai-toolbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__googleapis__mcp-toolbox__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,30 +37,14 @@ provenance:
         extracted_url: https://github.com/googleapis/genai-toolbox
         surrounding_text: "- **[MCP Toolbox for Databases](https://github.com/googleapis/genai-toolbox)** - Open source MCP server specializing in easy, fast, and secure tools for Databases."
         confidence: high
-    - id: discovery__github__googleapis__mcp-toolbox__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🗄️ <a name="databases"></a>Databases
-        anchor_text: googleapis/genai-toolbox
-        extracted_url: https://github.com/googleapis/genai-toolbox
-        surrounding_text: "- [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) 🏎️ ☁️ - Open source MCP server specializing in easy, fast, and secure tools for Databases."
-        confidence: high
 metadata:
   github:
-    stars: 14963
-    forks: 1506
+    stars: 14981
+    forks: 1509
     license: Apache-2.0
     archived: false
     created_at: "2024-06-07T20:52:54Z"
-    pushed_at: "2026-05-05T12:32:16Z"
+    pushed_at: "2026-05-06T22:07:03Z"
     description: MCP Toolbox for Databases is an open source MCP server for databases.
     homepage: https://mcp-toolbox.dev/documentation/introduction/
     topics:
@@ -84,55 +68,50 @@ metadata:
       - server
       - spanner
       - tidb
-    last_checked_at: "2026-05-05T21:02:25.132Z"
+    last_checked_at: "2026-05-06T22:44:05.400Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.132Z"
+      fetched_at: "2026-05-06T22:44:05.400Z"
       bytes: 31848
 insights:
-  summary: An open source MCP server from Google that provides prebuilt and custom tooling to connect AI agents, IDEs, and applications directly to enterprise databases like PostgreSQL, MySQL, and BigQuery.
-  why_it_matters: It eliminates the boilerplate of wiring database connections, authentication, and query execution for AI agents, allowing developers to give their tools live data access in minutes rather than days.
-  mental_damage: We have successfully abstracted the job of writing SQL queries into the job of debugging why our MCP server won't authenticate with the production Cloud SQL instance.
+  summary: An open source MCP server and framework from Google that connects AI agents and IDEs directly to enterprise databases like PostgreSQL, MySQL, and BigQuery with prebuilt tools and custom tooling support.
+  why_it_matters: Developers can give coding agents secure, production-ready database access with connection pooling and auth without writing boilerplate integrations for every data source.
+  mental_damage: We have reached the point where our agents need their own dedicated database proxy just to argue with PostgreSQL, and somehow this feels like genuine progress.
   tags:
-    - agent-tooling
-    - agents
-    - database
-    - enterprise
-    - google
     - mcp
-    - sdk
+    - database
+    - google
+    - enterprise
+    - toolbox
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for databases, fitting perfectly into the MCP infrastructure category.
+  reason: This is a canonical MCP server product whose primary identity is exposing database access via the Model Context Protocol, including prebuilt and custom tool frameworks.
   evidence:
-    - "Repo description states: 'MCP Toolbox for Databases is an open source MCP server for databases.'"
-    - "README confirms: 'MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
-    - Repo description states it is 'an open source MCP server for databases.'
-    - README describes it as 'an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.'
-    - Topics include mcp, agents, llm, and database, reinforcing the MCP infrastructure focus.
+    - "Repo description explicitly states: 'MCP Toolbox for Databases is an open source MCP server for databases.'"
+    - README defines it as 'an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.'
+    - Listed in awesome-mcp-servers under both 'Server Implementations > Databases' and 'Official Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14963) exceeded threshold (150)
+  reason: Stars (14981) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:18.566Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.150Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.132Z"
+    updated_at: "2026-05-06T22:44:05.400Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:19.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

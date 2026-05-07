@@ -1,13 +1,13 @@
 id: github__multica-ai__multica
 kind: github-repo
-name: Multica
+name: multica
 canonical_url: https://github.com/multica-ai/multica
 identity:
   github_repo: multica-ai/multica
 provenance:
   discoveries:
     - id: discovery__github__multica-ai__multica__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,58 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 24772
-    forks: 3016
+    stars: 25331
+    forks: 3080
     license: NOASSERTION
     archived: false
     created_at: "2026-01-13T17:59:46Z"
-    pushed_at: "2026-05-04T14:11:45Z"
+    pushed_at: "2026-05-06T22:41:58Z"
     description: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
     homepage: https://multica.ai
     topics: []
-    last_checked_at: "2026-05-05T21:03:48.801Z"
+    last_checked_at: "2026-05-06T22:45:27.170Z"
     readme:
-      fetched_at: "2026-05-05T21:03:48.801Z"
+      fetched_at: "2026-05-06T22:45:27.170Z"
       bytes: 10019
 insights:
-  summary: An open-source platform that integrates coding agents into team workflows by allowing them to be assigned issues, track progress, and reuse skills across local and cloud runtimes.
-  why_it_matters: It provides the infrastructure to treat AI agents as first-class teammates within existing project management flows, automating task execution and skill compounding.
-  mental_damage: Finally, a tool to help you manage the psychological burden of pretending your repository contributors are human.
+  summary: Multica is an open-source managed agents platform that connects multiple coding assistants to a shared task board, allowing developers to assign issues and track autonomous execution.
+  why_it_matters: It provides a vendor-neutral control plane to coordinate agents from Claude Code, Copilot, Gemini, and others as first-class teammates within a unified workspace.
+  mental_damage: We have finally built the scrum board where your AI agents can raise blockers and complain about your architecture just like your human juniors.
   tags:
     - agents
-    - coding-assistants
     - orchestration
+    - control-plane
+    - multi-agent
     - self-hosted
   confidence: high
 curation:
   status: included
-  reason: Multica is a control plane for coordinating multiple coding agents as team members, fitting the user-facing platform criteria for agent orchestration rather than being a bot that edits code inside an IDE.
+  reason: The product is a control plane and workforce platform for coordinating multiple coding agents across a unified task board and runtime, matching the agent-orchestration category definition exactly.
   evidence:
-    - README describes it as 'open-source infrastructure for managed agents' with features like assigning issues to agents and tracking progress.
-    - Explicitly supports multiple backends including Claude Code, Codex, and GitHub Copilot CLI within a unified dashboard.
-    - Workspaces, agent lifecycles, and skill compounding are presented as operational/workforce features rather than IDE features.
+    - Repo description and README state it is 'The open-source managed agents platform' for turning coding agents into teammates with task assignment and progress tracking.
+    - Canonical positives for agent-orchestration explicitly list Multica as a reference example.
+    - Works with Claude Code, Codex, Copilot CLI, Cursor Agent, and others, functioning as a coordination layer rather than a single assistant.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (24772) exceeded threshold (150)
+  reason: Stars (25331) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:28.541Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:48.801Z"
+    updated_at: "2026-05-06T22:45:27.170Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:16:06.939Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

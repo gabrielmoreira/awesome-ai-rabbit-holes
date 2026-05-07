@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chigwell__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1060
-    forks: 276
+    stars: 1064
+    forks: 277
     license: Apache-2.0
     archived: false
     created_at: "2025-03-20T14:06:35Z"
@@ -46,50 +46,49 @@ metadata:
       - telegram-api
       - telegram-client
       - telethon
-    last_checked_at: "2026-05-05T21:01:33.088Z"
+    last_checked_at: "2026-05-06T22:43:20.344Z"
     readme:
-      fetched_at: "2026-05-05T21:01:33.088Z"
+      fetched_at: "2026-05-06T22:43:20.344Z"
       bytes: 14316
 insights:
-  summary: An MCP server that connects Telegram accounts to MCP-compatible clients like Claude and Cursor, exposing 80+ tools for reading chats, managing groups, sending messages, and handling media.
-  why_it_matters: It lets developers automate Telegram workflows and interact with chat history directly from their AI coding environment instead of switching contexts to a separate messaging app.
-  mental_damage: "We have finally achieved the platonic ideal of modern development: an AI agent that can now argue with strangers in your Telegram groups while you wonder why you ever learned to context-switch manually."
+  summary: A Telegram MCP server powered by Telethon that exposes 80+ Telegram account, chat, message, contact, and media operations to MCP-compatible clients like Claude and Cursor.
+  why_it_matters: It lets developers automate Telegram account management, chat analysis, and messaging workflows directly from their AI coding assistants instead of writing custom API scripts.
+  mental_damage: We have finally achieved the singularity where your coding agent can now argue with your group chat and manage your Telegram channels without you ever touching the actual app.
   tags:
     - mcp
     - telegram
-    - telethon
     - integration
     - automation
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation that exposes Telegram operations to MCP clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is a purpose-built MCP server that exposes Telegram operations as tools, making MCP the core product identity rather than a compatibility footnote.
   evidence:
-    - Repo description explicitly states it is a 'Telegram MCP server powered by Telethon' for MCP clients.
-    - README confirms it 'exposes Telegram account, chat, message, contact, media, folder, and admin operations through the Model Context Protocol'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - Repo description explicitly states 'Telegram MCP server powered by Telethon'
+    - README lists 80+ MCP tools for Telegram operations and shows configuration for Claude Desktop and Cursor
+    - Included in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1060) exceeded threshold (150)
+  reason: Stars (1064) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:33.088Z"
+    updated_at: "2026-05-06T22:43:20.344Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:59.907Z"
+    updated_at: "2026-05-06T22:48:55.263Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

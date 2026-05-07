@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openlinksoftware__mcp-odbc-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Typescript based Model Context Procotol (MCP) Server for Open Database Connectivity (ODBC)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:06.219Z"
+    last_checked_at: "2026-05-06T22:45:43.232Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.219Z"
+      fetched_at: "2026-05-06T22:45:43.232Z"
       bytes: 17398
 insights:
-  summary: A TypeScript-based Model Context Protocol server that exposes ODBC-accessible databases to LLMs via tools for schema inspection, table discovery, and SQL/SPARQL query execution.
-  why_it_matters: It lets AI coding assistants and MCP clients directly query and understand live database schemas without the developer manually pasting table definitions into context.
-  mental_damage: We have successfully abstracted the job of writing SQL into the job of debugging why your AI agent can't find the correct ODBC driver manager.
+  summary: A TypeScript-based MCP server that exposes ODBC-accessible databases to LLMs via the Model Context Protocol, enabling SQL and SPARQL queries through MCP client tools.
+  why_it_matters: It lets AI coding assistants directly inspect schemas, run queries, and interact with any ODBC-compatible database without custom glue code.
+  mental_damage: Your agent can now introspect, query, and accidentally drop tables in twenty different databases, all from the comfort of a chat window that confidently hallucinates your schema.
   tags:
     - mcp
     - database
     - odbc
     - typescript
-    - llm-integration
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for ODBC, fitting cleanly into the MCP infrastructure category.
+  reason: The product is an MCP server whose entire identity is exposing ODBC data sources to MCP clients, making it a textbook fit for MCP Servers & Tooling.
   evidence:
-    - Repo description states it is a 'Typescript based Model Context Protocol (MCP) Server for Open Database Connectivity (ODBC)'.
-    - README details MCP tools like get_schemas, get_tables, and query_database for LLM integration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+    - Repo description explicitly states it is a 'Typescript based Model Context Protocol (MCP) Server for Open Database Connectivity (ODBC)'.
+    - README describes a small TypeScript layer built on node-odbc that routes calls to ODBC drivers for MCP client applications.
+    - Listed in awesome-mcp-servers under 'Databases', confirming its role as a domain-specific MCP server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.219Z"
+    updated_at: "2026-05-06T22:45:43.232Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:46.865Z"
+    updated_at: "2026-05-06T23:19:44.482Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

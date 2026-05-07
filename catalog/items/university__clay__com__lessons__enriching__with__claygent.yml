@@ -1,12 +1,12 @@
 id: university__clay__com__lessons__enriching__with__claygent
 kind: website
-name: Claygent
+name: enriching-with-claygent
 canonical_url: https://university.clay.com/lessons/enriching-with-claygent
 identity: {}
 provenance:
   discoveries:
     - id: discovery__university__clay__com__lessons__enriching__with__claygent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claygent is an AI web-scraping and enrichment feature inside the Clay GTM automation platform that visits websites to answer custom prompts and return structured data.
-  why_it_matters: It lets developers and operators automate the 'last mile' of data enrichment by scripting AI-driven web research instead of maintaining fragile scrapers or manual research workflows.
-  mental_damage: We have successfully abstracted away manual research by adding a prompt-driven web scraper to a GTM tool, yet the average developer is still waiting for an AI agent to explain why we need GTM data in the first place.
+  summary: An educational lesson from Clay University explaining how to use Claygent, Clay's AI web scraper, to enrich company and people data for GTM automation workflows.
+  why_it_matters: It documents how developers and GTM engineers can automate 'last mile' data research by prompting an AI agent to scrape and interpret live web pages at scale.
+  mental_damage: Yet another reminder that while we're building AGI, the most immediate ROI for AI is still writing regex-free LinkedIn scrapers for sales teams.
   tags:
-    - agents
-    - ai-enrichment
-    - clay
     - gtm
     - web-scraping
+    - enrichment
+    - clay
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational lesson for a GTM/sales automation SaaS product, not a developer-facing tool for coding, infrastructure, or app development workflows.
+  reason: This is a documentation page and course lesson for Clay University, not a standalone developer tool, framework, or product.
   evidence:
-    - The URL is a Clay University lesson titled 'Enriching with Claygent' and describes a GTM automation feature, not a developer tool.
-    - The excerpt focuses on SDR workflows, company/person enrichment, and sales data problems rather than software development.
-    - It appears in awesome-ai-agents under a sales/GTM use case, but source-list presence is not enough to override a non-developer-tooling fit.
+    - The URL points to a Clay University lesson page, not a product repo or tool.
+    - The excerpt is instructional content teaching how to use Claygent, not a tool definition.
+    - The source list entry is 'awesome-ai-agents', but the linked content is educational material rather than the agent itself.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:55.186Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:45.811Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

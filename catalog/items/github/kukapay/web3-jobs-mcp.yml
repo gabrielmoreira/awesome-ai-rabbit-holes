@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__web3-jobs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: An MCP server that provides AI agents with real-time access to curated Web3 jobs.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:13.336Z"
+    last_checked_at: "2026-05-06T22:44:51.806Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.336Z"
+      fetched_at: "2026-05-06T22:44:51.806Z"
       bytes: 4082
 insights:
-  summary: An MCP server that provides AI agents with real-time access to curated Web3 job listings from web3.career for intelligent job discovery.
-  why_it_matters: It allows developers to query and filter Web3 job opportunities directly through AI agent interfaces like Claude Desktop instead of manually browsing job boards.
-  mental_damage: Your AI agent can now help you find your next blockchain job while you're supposed to be shipping code, completing the unification of distraction and productivity in a single chat window.
+  summary: An MCP server that provides AI agents with real-time access to curated Web3 job listings sourced from web3.career.
+  why_it_matters: It enables agentic workflows to programmatically query and filter blockchain jobs by role, location, and remote status without leaving the chat or CLI.
+  mental_damage: We now have MCP servers for job boards, proving that no niche is too small to warrant its own protocol adapter in the great AI integration gold rush.
   tags:
     - mcp
     - web3
     - jobs
-    - agent-tooling
+    - integration
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that integrates web3.career job listings as a tool for AI agents, fitting cleanly into the MCP infrastructure category.
+  reason: This is a purpose-built MCP server for a specific domain (Web3 jobs), making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'An MCP server that provides AI agents with real-time access to curated Web3 jobs'
-    - README shows installation into Claude Desktop as an MCP server with query_jobs tool and search_jobs_prompt
-    - Listed in awesome-mcp-servers under Finance & Fintech section as a server implementation
+    - "Repo description explicitly states: 'An MCP server that provides AI agents with real-time access to curated Web3 jobs.'"
+    - README demonstrates MCP-specific installation for Claude Desktop and usage of MCP tools like `query_jobs`.
+    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.336Z"
+    updated_at: "2026-05-06T22:44:51.806Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:33.129Z"
+    updated_at: "2026-05-06T23:07:55.594Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

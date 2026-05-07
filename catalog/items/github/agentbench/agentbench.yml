@@ -1,13 +1,13 @@
 id: github__agentbench__agentbench
 kind: github-repo
-name: AgentBench
+name: agentbench
 canonical_url: https://github.com/agentbench/agentbench
 identity:
   github_repo: agentbench/agentbench
 provenance:
   discoveries:
     - id: discovery__github__agentbench__agentbench__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:50.840Z"
+    last_checked_at: "2026-05-06T22:12:26.714Z"
     readme:
-      fetched_at: "2026-05-05T21:00:50.840Z"
+      fetched_at: "2026-05-06T22:12:26.714Z"
       bytes: 4678
 insights:
-  summary: A benchmark tool that scores AI agent setups across 40 real-world tasks in 7 domains using pure rule-based checks and per-tool-call tracing.
-  why_it_matters: It lets developers measure how much their specific agent configuration, prompts, and tooling choices actually matter compared to just swapping models.
-  mental_damage: Finally, a scientific way to prove that your colleague's 'optimized' agent config is just 30 points of prompt snake oil.
+  summary: A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence.
+  why_it_matters: Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
+  mental_damage: Finally, quantitative proof that your overengineered agent stack scores 30 points lower than the same model with a cleaner config.
   tags:
-    - agent
     - benchmark
-    - eval
-    - tooling
+    - agent-eval
+    - rule-based-scoring
+    - tracing
   confidence: high
 curation:
   status: included
-  reason: The project is a benchmark and evaluation harness designed to measure agent behavior and configuration effectiveness, which fits squarely into the Evaluations and Benchmarks category.
+  reason: The core job is measuring, scoring, and tracing agent behavior across structured tasks using pure rule-based checks, which aligns directly with the Evals & Benchmarks category.
   evidence:
-    - README explicitly states 'Benchmark your AI agent setup' with 40 tasks and 3-layer rule-based scoring.
-    - Includes per-tool-call tracing and outputs machine-readable results.json and trace.jsonl for measurement.
-    - Listed in awesome-agent-orchestration under 'Evaluation & Benchmarking' section.
+    - "README states: 'Benchmark your AI agent setup — not the model' with '100% rule-based — no LLM judges'."
+    - Source list places it under 'Tools & Infrastructure > Evaluation & Benchmarking'.
+    - Includes trace.jsonl and scored reports designed for regression-testing agent configurations.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:07.589Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:50.840Z"
+    updated_at: "2026-05-06T22:12:26.714Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:00.856Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__numtide__claudebox__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -34,50 +34,50 @@ metadata:
     homepage: ""
     topics:
       - buildbot-numtide
-    last_checked_at: "2026-05-05T21:03:57.108Z"
+    last_checked_at: "2026-05-06T22:45:35.026Z"
     readme:
-      fetched_at: "2026-05-05T21:03:57.108Z"
+      fetched_at: "2026-05-06T22:45:35.026Z"
       bytes: 2924
 insights:
-  summary: A lightweight sandbox wrapper for Claude Code that uses bubblewrap or sandbox-exec to isolate the agent and allow running with --dangerously-skip-permissions without exposing the host system.
-  why_it_matters: It lets developers safely grant Claude Code broad filesystem and command permissions inside a throwaway sandbox, reducing the risk of unexpected changes to the host while preserving a near-native workflow.
-  mental_damage: We have reached the point where we need to sandbox the thing that is already supposed to be helping us write the code we are too tired to review.
+  summary: A lightweight sandbox wrapper for Claude Code that uses bubblewrap or sandbox-exec to isolate the agent from the host system while allowing selective access to credentials.
+  why_it_matters: It lets developers run Claude Code with --dangerously-skip-permissions inside a controlled sandbox, reducing the risk of unwanted file system or environment surprises.
+  mental_damage: We have reached the point where the safest way to use an AI coding agent is to nuke its home directory permissions and pray the sandbox holds.
   tags:
-    - claude-code
     - sandbox
     - cli
+    - claude-code
     - security
     - nix
   confidence: medium
 curation:
   status: included
-  reason: This is a developer-facing CLI tool that directly wraps and secures a coding agent (Claude Code) inside a repo/terminal workflow, which matches the coding-agents category and its Terminal & CLI Agents section.
+  reason: The tool is not a primary coding assistant itself; it is a host integration layer that sandboxes and constrains Claude Code's access to the system.
   evidence:
-    - Repo description states 'responsible Claude Code YOLO', and README explains it 'opens your Claude Code project in a lightweight sandbox'.
-    - Uses --dangerously-skip-permissions safely inside a sandbox and mounts the project parent folder read-only.
-    - Listed under 'Harnesses & orchestration > Agent infrastructure' in the awesome-cli-coding-agents directory.
+    - "Repo description: 'responsible Claude Code YOLO'"
+    - "README: 'Open your Claude Code project in a lightweight sandbox, and avoid unwanted surprises.'"
+    - "README: 'Uses --dangerously-skip-permissions (safe in sandbox)'"
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:57.108Z"
+    updated_at: "2026-05-06T22:45:35.026Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:07.413Z"
+    updated_at: "2026-05-06T23:17:52.413Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: heymoon__ai
 kind: website
-name: Heymoon.ai
+name: heymoon.ai
 canonical_url: https://heymoon.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__heymoon__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,19 +34,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Heymoon.ai is an AI autonomous agent platform listed among tools for building and running agentic workflows.
-  why_it_matters: It represents the growing ecosystem of browser-based agent builders that developers are evaluating to automate multi-step tasks.
-  mental_damage: Yet another entry in the rapidly expanding ecosystem where the primary autonomous behavior is discovering which autonomous agent to actually use.
+  summary: Heymoon.ai is an AI autonomous agent included in the awesome-ai-agents directory.
+  why_it_matters: It represents another entry in the growing ecosystem of autonomous agents that developers are evaluating for delegation of coding and task workflows.
+  mental_damage: Yet another autonomous agent joins the pile, ensuring you can spend your afternoon comparing it to the other forty-seven agents that all promise to revolutionize your repo.
   tags:
-    - agent-platform
-    - ai-agents
+    - autonomous-agents
+    - agent
   confidence: low
 curation:
   status: excluded
-  reason: The project lacks a GitHub repo, description, README, or site excerpt, so it cannot be verified as a developer-facing tool rather than a generic AI product.
+  reason: The project lacks a usable description, README excerpt, scraped site context, or verifiable metadata, making it impossible to confirm it is a developer-facing tool rather than a generic AI product.
   evidence:
-    - No repository description, README excerpt, or scraped site context is available to explain what the product actually does.
-    - Only signal is a listing in awesome-ai-agents, which is evidence but not enough to override the complete lack of grounded project details.
+    - No repo description, README excerpt, or scraped site context was provided.
+    - All metadata fields (stars, created_at, pushed_at, license, archived) are unknown.
+    - Only signal is a listing in awesome-ai-agents, which is evidence but not destiny without further substance.
 placement:
   primary_category: null
   section: null
@@ -54,20 +55,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:18.310Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:48.365Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

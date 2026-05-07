@@ -1,13 +1,13 @@
 id: github__dominik1001__imap-mcp
 kind: github-repo
-name: IMAP MCP
+name: imap-mcp
 canonical_url: https://github.com/dominik1001/imap-mcp
 identity:
   github_repo: dominik1001/imap-mcp
 provenance:
   discoveries:
     - id: discovery__github__dominik1001__imap-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,49 +36,50 @@ metadata:
       - mcp
       - mcp-server
       - typescript
-    last_checked_at: "2026-05-05T21:01:55.767Z"
+    last_checked_at: "2026-05-06T22:43:40.446Z"
     readme:
-      fetched_at: "2026-05-05T21:01:55.767Z"
+      fetched_at: "2026-05-06T22:43:40.446Z"
       bytes: 2368
 insights:
-  summary: A TypeScript MCP server that exposes IMAP email operations as tools for AI assistants, allowing them to create draft emails on IMAP-compatible servers.
-  why_it_matters: It lets developers wire email drafting capabilities directly into their MCP-compatible AI workflows without building custom IMAP integrations.
-  mental_damage: "We have finally achieved the future: an autonomous agent that can draft your passive-aggressive meeting reminders and save them safely to Drafts, unread and unacted upon."
+  summary: An MCP server that exposes IMAP operations, allowing AI assistants to create draft emails via connections to IMAP-compatible servers like Gmail and Outlook.
+  why_it_matters: It gives coding agents and AI assistants the ability to interact with email servers directly, enabling automated draft creation and email workflow integration.
+  mental_damage: "We have finally solved the hardest problem in computer science: letting a Claude instance save a draft to your Gmail account so you don't have to."
   tags:
-    - email
-    - imap
     - mcp
+    - imap
+    - email
     - typescript
-  confidence: medium
+    - integration
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementing the Model Context Protocol to expose IMAP operations as tools, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server implementation for email, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly states it is 'An IMAP Model Context Protocol (MCP) server to expose IMAP operations as tools for AI assistants.'
-    - README confirms MCP compatibility and provides MCP server configuration examples for Claude and other assistants.
-    - Listed in the awesome-mcp-servers directory under 'Community Servers', reinforcing its role as MCP infrastructure.
+    - Repo description explicitly states it is 'An IMAP Model Context Protocol (MCP) server'.
+    - README lists 'MCP Compatible' as a core feature and provides the mcpServers JSON configuration block for setup.
+    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:52.364Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:55.767Z"
+    updated_at: "2026-05-06T22:43:40.446Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:53:13.511Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

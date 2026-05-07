@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__traderouter__trade-router-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,75 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-21T03:57:34Z"
+    pushed_at: "2026-04-28T10:20:35Z"
+    description: Non-custodial Solana swap & limit-order MCP server for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected. Ed25519 server-message verification. `npx -y @traderouter/trade-router-mcp`
+    homepage: https://traderouter.ai
+    topics:
+      - ai-agents
+      - claude-desktop
+      - cursor
+      - defi
+      - elizaos
+      - jito
+      - langchain
+      - limit-orders
+      - mcp
+      - model-context-protocol
+      - non-custodial
+      - solana
+      - swap
+      - trading
+      - trailing-stop
+      - twap
+    last_checked_at: "2026-05-06T22:46:54.497Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:54.497Z"
+      bytes: 8142
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A non-custodial MCP server that exposes 21 Solana trading tools—including swaps, limit orders, TWAP, and DCA—to AI agents via Raydium, Orca, Meteora, and PumpSwap with Jito MEV protection.
+  why_it_matters: It lets developers wire sophisticated, locally-signed Solana trading workflows directly into MCP-compatible assistants like Claude Desktop and Cursor without custodial risk.
+  mental_damage: Your AI agent can now execute a trailing-stop TWAP combo order on a Sunday morning while you are trying to convince yourself you are still in control of the wallet.
+  tags:
+    - mcp
+    - solana
+    - defi
+    - trading
+    - non-custodial
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server for Solana trading, and MCP is its core identity, not a compatibility footnote.
+  evidence:
+    - Repo description explicitly states it is a 'non-custodial Solana swap & limit-order MCP server for AI agents'
+    - README states it is 'A Model Context Protocol server for TradeRouter.ai' with 21 trading tools
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming MCP server identity
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:54.497Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:06.264Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

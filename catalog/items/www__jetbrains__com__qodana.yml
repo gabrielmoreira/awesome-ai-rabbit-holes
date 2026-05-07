@@ -1,12 +1,12 @@
 id: www__jetbrains__com__qodana
 kind: website
-name: JetBrains Qodana
+name: qodana
 canonical_url: https://www.jetbrains.com/qodana
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__jetbrains__com__qodana__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Qodana is a static code analysis engine by JetBrains that integrates IDE inspections into CI pipelines to enforce code quality.
-  why_it_matters: It allows teams to automate the enforcement of JetBrains' coding standards and inspections directly within their continuous integration workflow.
-  mental_damage: Just when you thought the AI agent was going to write all the code, JetBrains reminds you that you still need a non-AI agent to tell you that the code is messy.
+  summary: Qodana is a static code analysis engine by JetBrains that brings IDE inspections into CI pipelines to improve code quality.
+  why_it_matters: It automates code quality checks and enforces coding standards within CI workflows, bridging JetBrains IDE inspections with automated pipelines.
+  mental_damage: Yet another tool to remind you that your codebase is a mess, just this time it’s wearing a JetBrains badge and runs before you’ve even had coffee.
   tags:
+    - static-analysis
     - ci-cd
     - code-quality
     - jetbrains
-    - static-analysis
   confidence: high
 curation:
   status: excluded
-  reason: The tool is traditional static analysis and linting; it lacks the generative AI or agentic workflow required for this specific catalog.
+  reason: Qodana is a traditional static analysis and code quality tool without an AI-powered coding or developer-assistant identity, making it a poor fit for this AI-tooling catalog.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', but the description focuses on 'inspections' and 'static analysis'.
-    - Scraped site context describes it as a 'static code analysis engine' bringing IDE inspections to CI, with no mention of generative AI features.
+    - The scraped site and awesome-list context describe it strictly as a static code analysis engine, not an AI coding assistant or agent.
+    - No signals in the provided inputs indicate AI code generation, agentic workflows, prompt engineering, or AI-native developer tooling.
+    - Its job is code quality and inspections in CI, which falls outside the catalog’s focus on AI coding agents, extensions, and related AI infrastructure.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:34.241Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:49.018Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

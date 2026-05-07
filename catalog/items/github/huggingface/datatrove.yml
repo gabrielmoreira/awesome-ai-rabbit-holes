@@ -1,0 +1,81 @@
+id: github__huggingface__datatrove
+kind: github-repo
+name: datatrove
+canonical_url: https://github.com/huggingface/datatrove
+identity:
+  github_repo: huggingface/datatrove
+provenance:
+  discoveries:
+    - id: discovery__github__huggingface__datatrove__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: DataTrove
+        extracted_url: https://github.com/huggingface/datatrove
+        surrounding_text: "12. [DataTrove](https://github.com/huggingface/datatrove): DataTrove is a library to process, filter and deduplicate text data at a very large scale."
+        confidence: high
+metadata:
+  github:
+    stars: 3032
+    forks: 260
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-06-14T12:05:28Z"
+    pushed_at: "2026-05-06T13:06:47Z"
+    description: Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:44:18.216Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:18.216Z"
+      bytes: 39190
+insights:
+  summary: DataTrove is a library and pipeline framework from Hugging Face for processing, filtering, and deduplicating large-scale text datasets used in LLM training.
+  why_it_matters: It provides developers with prebuilt, customizable pipeline blocks and scalable executors (local, Slurm, Ray) to handle massive data preparation workloads without writing ad-hoc scripts.
+  mental_damage: Yet another reminder that while we have infinite ways to generate synthetic text, we still need an entire framework just to figure out what to do with the terabytes of garbage we already scraped.
+  tags:
+    - data-processing
+    - llm-training
+    - pipelines
+    - huggingface
+    - dataset
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a data engineering library for LLM pre-training datasets, which falls under general ML infrastructure and data processing rather than a developer-facing AI tool, agent, or coding workflow product.
+  evidence:
+    - Repo description explicitly states it is for 'processing, filtering and deduplicating text data at a very large scale' for 'LLM's training data'.
+    - README focuses on pipeline blocks, executors (Slurm/Ray), and data formats (warc, parquet) rather than coding assistance or developer tooling.
+    - Source list context places it under '数据 Data' (Data) in an LLM resources list, confirming its identity as a data tool rather than a coding tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3032) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.619Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:18.216Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:57.340Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

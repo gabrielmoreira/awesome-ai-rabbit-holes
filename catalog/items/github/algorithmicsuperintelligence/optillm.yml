@@ -1,0 +1,101 @@
+id: github__algorithmicsuperintelligence__optillm
+kind: github-repo
+name: optillm
+canonical_url: https://github.com/algorithmicsuperintelligence/optillm
+identity:
+  github_repo: algorithmicsuperintelligence/optillm
+provenance:
+  discoveries:
+    - id: discovery__github__algorithmicsuperintelligence__optillm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: optillm
+        extracted_url: https://github.com/codelion/optillm
+        surrounding_text: "40. [optillm](https://github.com/codelion/optillm): an OpenAI API compatible optimizing inference proxy which implements several state-of-the-art techniques that can improve the accuracy and performance of LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: 3524
+    forks: 268
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-22T19:46:07Z"
+    pushed_at: "2026-03-19T02:43:59Z"
+    description: Optimizing inference proxy for LLMs
+    homepage: ""
+    topics:
+      - agent
+      - agentic-ai
+      - agentic-framework
+      - agentic-workflow
+      - agents
+      - api-gateway
+      - chain-of-thought
+      - genai
+      - large-language-models
+      - llm
+      - llm-inference
+      - llmapi
+      - mixture-of-experts
+      - moa
+      - monte-carlo-tree-search
+      - openai
+      - openai-api
+      - optimization
+      - prompt-engineering
+      - proxy-server
+    last_checked_at: "2026-05-06T22:12:34.140Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:34.140Z"
+      bytes: 50942
+insights:
+  summary: An OpenAI API-compatible inference proxy that applies 20+ optimization techniques—such as Mixture of Agents, MCTS, and planning—to improve LLM reasoning accuracy without model training.
+  why_it_matters: Developers can drop it in front of existing LLM API calls to extract 2–10x reasoning gains on math, coding, and logic tasks by trading additional inference compute for accuracy.
+  mental_damage: Another reassuring layer of complexity that lets you feel productive while a proxy agonizes over your prompts so you don't have to.
+  tags:
+    - llm-proxy
+    - inference-optimization
+    - reasoning
+    - openai-compatible
+    - api-gateway
+  confidence: high
+curation:
+  status: included
+  reason: The product is a code-first, developer-operated proxy server and library that developers script against or deploy to optimize model calls, fitting cleanly as a provider/model abstraction rather than an agent, orchestration platform, or IDE extension.
+  evidence:
+    - "Repo description: 'Optimizing inference proxy for LLMs' with pip installable package and local server startup."
+    - README states it is an 'OpenAI API-compatible optimizing inference proxy' implementing 20+ techniques, used by changing the base URL and model name.
+    - Topics and features emphasize API gateway, LLM inference optimization, and multi-provider support via LiteLLM rather than coding agent or orchestration workflows.
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3524) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.601Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:34.140Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:28.432Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

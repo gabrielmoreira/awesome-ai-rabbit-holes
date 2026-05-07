@@ -1,29 +1,13 @@
 id: github__ruvnet__ruflo
 kind: github-repo
-name: Ruflo
+name: ruflo
 canonical_url: https://github.com/ruvnet/ruflo
 identity:
   github_repo: ruvnet/ruflo
 provenance:
   discoveries:
-    - id: discovery__github__ruvnet__claude-flow__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradagi/awesome-cli-coding-agents
-        repository: bradAGI/awesome-cli-coding-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Harnesses & orchestration
-          - Orchestrators & autonomous loops
-        anchor_text: claude-flow
-        extracted_url: https://github.com/ruvnet/claude-flow
-        surrounding_text: "- **[claude-flow](https://github.com/ruvnet/claude-flow)** `⭐ 39.9k` — Deploy multi-agent swarms with coordinated workflows."
-        confidence: high
     - id: discovery__github__ruvnet__ruflo__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -39,7 +23,7 @@ provenance:
         surrounding_text: "- **[claude-flow](https://github.com/ruvnet/claude-flow)** `⭐ 39.9k` — Deploy multi-agent swarms with coordinated workflows."
         confidence: high
     - id: discovery__github__ruvnet__ruflo__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -56,47 +40,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 45178
+    forks: 5002
+    license: MIT
+    archived: false
+    created_at: "2025-06-02T21:24:20Z"
+    pushed_at: "2026-05-06T22:28:40Z"
+    description: 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+    homepage: https://Cognitum.One
+    topics:
+      - agentic-ai
+      - agentic-engineering
+      - agentic-framework
+      - agentic-rag
+      - agentic-workflow
+      - agents
+      - ai-assistant
+      - ai-tools
+      - anthropic-claude
+      - autonomous-agents
+      - claude-code
+      - claude-code-skills
+      - codex
+      - huggingface
+      - mcp-server
+      - model-context-protocol
+      - multi-agent
+      - multi-agent-systems
+      - swarm
+      - swarm-intelligence
+    last_checked_at: "2026-05-06T22:46:14.323Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:14.323Z"
+      bytes: 24485
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Ruflo is an agent orchestration platform that adds multi-agent swarm coordination, self-learning memory, and enterprise workflow management on top of Claude Code.
+  why_it_matters: It lets teams run 100+ specialized agents across machines and trust boundaries while keeping Claude Code as the primary coding surface.
+  mental_damage: Now your coding assistant is supervised by a swarm, so when the code breaks, you can argue it was the collective’s fault rather than yours.
+  tags:
+    - agent-orchestration
+    - claude-code
+    - multi-agent
+    - swarm
+    - mcp
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Ruflo is a runtime platform and control plane for coordinating multiple agents and swarms, not a standalone coding assistant or simple extension.
+  evidence:
+    - Repo description explicitly calls it 'the leading agent orchestration platform for Claude' with multi-agent swarms.
+    - README states it 'adds coordinated swarms, self-learning memory, federated comms, and enterprise security to Claude Code'.
+    - Included in awesome-agent-orchestration under 'Core Frameworks > Swarm Intelligence Frameworks'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (45178) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:14.323Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:36.758Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

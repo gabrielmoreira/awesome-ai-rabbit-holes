@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__mtg-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: "Magic: The Gathering MCP server with card search, rules lookup, deck analysis, and Commander intelligence"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:27.885Z"
+    last_checked_at: "2026-05-06T22:44:08.469Z"
     readme:
-      fetched_at: "2026-05-05T21:02:27.885Z"
+      fetched_at: "2026-05-06T22:44:08.469Z"
       bytes: 5109
 insights:
-  summary: "An MCP server that provides Magic: The Gathering card search, rules lookup, deck analysis, and Commander-specific intelligence by exposing local SQLite data to AI assistants."
-  why_it_matters: It allows developers building AI workflows to enrich their assistants with domain-specific MTG knowledge without relying on slow, generic external API calls.
-  mental_damage: We have finally reached the point where we are building local infrastructure to explain the rules of cardboard dragons to a large language model.
+  summary: "An MCP server that provides Magic: The Gathering card search, rules lookup, deck analysis, and Commander intelligence by serving local Scryfall and rules data to AI assistants."
+  why_it_matters: It lets developers integrate structured MTG domain knowledge into MCP-compatible workflows without relying on brittle web scraping or generic LLM hallucinations.
+  mental_damage: "We have finally solved the most pressing infrastructure crisis of our time: giving Claude instant, offline access to Commander staples and combo databases."
   tags:
     - mcp
-    - nodejs
     - gaming
-    - sqlite
-    - cli
+    - domain-server
+    - local-data
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to expose MTG data tools to AI assistants, fitting the MCP category perfectly.
+  reason: "The product is an MCP server focused on a specific domain (Magic: The Gathering), which fits cleanly into MCP Servers & Tooling as a domain-specific server."
   evidence:
-    - "Repo description identifies it as a 'Magic: The Gathering MCP server'."
-    - README lists 14 tools provided via the Model Context Protocol for AI assistants.
-    - Found in awesome-mcp-servers under 'Server Implementations > Gaming'.
+    - "Repo description explicitly states 'Magic: The Gathering MCP server' as its identity."
+    - README positions the tool as providing 14 tools to AI assistants via the Model Context Protocol.
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming, reinforcing its MCP domain-server role.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:27.885Z"
+    updated_at: "2026-05-06T22:44:08.469Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:57.850Z"
+    updated_at: "2026-05-06T22:58:57.360Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

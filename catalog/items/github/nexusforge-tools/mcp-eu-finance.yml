@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nexusforge-tools__mcp-eu-finance__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - model-context-protocol
       - typescript
       - windsurf
-    last_checked_at: "2026-05-05T21:03:54.183Z"
+    last_checked_at: "2026-05-06T22:45:31.945Z"
     readme:
-      fetched_at: "2026-05-05T21:03:54.183Z"
+      fetched_at: "2026-05-06T22:45:31.945Z"
       bytes: 3148
 insights:
-  summary: An MCP server providing European financial data from ECB and Eurostat, designed to integrate with AI coding assistants like Claude, Cursor, and Windsurf.
-  why_it_matters: It allows developers to query live Eurozone economic indicators directly within their AI coding environment without needing to manage API keys or custom scripts.
-  mental_damage: Now your AI agent can explain the nuances of negative interest rates while you both pretend it's going to help you make better investment decisions than a toaster.
+  summary: An MCP server that exposes European financial datasets from the ECB and Eurostat—including interest rates, inflation, GDP, and unemployment—to AI agents in Claude, Cursor, and Windsurf.
+  why_it_matters: It lets coding agents query live Eurozone economic data without API keys, enabling financial analysis and reporting directly inside your existing AI workflow.
+  mental_damage: Because what every over-leveraged codebase really needed was a one-command way to ask an LLM why the ECB hiked rates while your tests are failing.
   tags:
     - mcp
     - finance
-    - europe
+    - european-data
     - typescript
-    - data
+    - server
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server for financial data, fitting cleanly into the MCP tooling category.
+  reason: The product's identity is an MCP server delivering European financial data to AI agents, which fits cleanly into the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states 'MCP server for European financial data'.
-    - README demonstrates integration via MCP config for Claude, Cursor, and Windsurf.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - "Repo description explicitly states: 'MCP server for European financial data — ECB rates, Eurostat inflation, GDP, unemployment.'"
+    - README provides MCP config examples for Claude, Cursor, and Windsurf and lists tools like get_ecb_rates and get_eu_inflation.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:54.183Z"
+    updated_at: "2026-05-06T22:45:31.945Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:29.746Z"
+    updated_at: "2026-05-06T23:17:11.722Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

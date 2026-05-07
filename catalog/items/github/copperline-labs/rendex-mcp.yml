@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__copperline-labs__rendex-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,49 @@ metadata:
       - screenshot
       - screenshot-api
       - web-capture
-    last_checked_at: "2026-05-05T21:01:41.372Z"
+    last_checked_at: "2026-05-06T22:43:28.353Z"
     readme:
-      fetched_at: "2026-05-05T21:01:41.372Z"
+      fetched_at: "2026-05-06T22:43:28.353Z"
       bytes: 4989
 insights:
-  summary: An MCP server that lets AI agents capture screenshots and generate PDFs of webpages via the Rendex API, compatible with Claude, Cursor, and Windsurf.
-  why_it_matters: Developers can equip their AI coding assistants with visual verification and automated documentation capture without wiring up browser automation themselves.
-  mental_damage: We have successfully reached the point where our AI agents need their own screenshot API so they can show us what they broke without actually loading a browser.
+  summary: An MCP server that exposes Rendex's screenshot and PDF rendering API to AI agents in Claude, Cursor, and Windsurf.
+  why_it_matters: Developers can let coding agents visually capture pages, invoices, or UI states directly from the agent workflow instead of manually stitching together headless browsers.
+  mental_damage: We have successfully abstracted away the last remnants of actually looking at a webpage ourselves.
   tags:
     - mcp
     - screenshot
+    - pdf
     - browser-automation
-    - rendex
-    - claude
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that adds webpage screenshot and PDF rendering capabilities to MCP-compatible AI clients.
+  reason: The product is explicitly an MCP server that gives agents access to a specialized web-capture API, fitting cleanly as domain-specific MCP infrastructure.
   evidence:
-    - Repo description explicitly states 'MCP server for Rendex' with Claude, Cursor, Windsurf compatibility.
-    - README details MCP tool configuration (rendex_screenshot) and API integration, not a broader product or framework.
-    - Listed under 'Server Implementations > Browser Automation' in the awesome-mcp-servers directory.
+    - "Repo description: 'MCP server for Rendex — capture screenshots and render PDFs of any webpage via AI agents.'"
+    - "README: implements `rendex_screenshot` tool designed for Claude, Cursor, and Windsurf MCP clients."
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:41.372Z"
+    updated_at: "2026-05-06T22:43:28.353Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:25.506Z"
+    updated_at: "2026-05-06T22:50:40.287Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

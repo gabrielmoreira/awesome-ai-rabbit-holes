@@ -1,0 +1,77 @@
+id: adfin__com
+kind: website
+name: adfin.com
+canonical_url: https://adfin.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__adfin__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Adfin
+        extracted_url: https://www.adfin.com
+        surrounding_text: "- **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Adfin is a payments and credit-control platform that uses agentic AI to automate invoicing, chase late payments, and reconcile transactions for businesses and accountants.
+  why_it_matters: It offers an API-driven finance automation layer that developers can integrate into platforms to handle the tedious parts of getting paid.
+  mental_damage: We now have autonomous agents chasing invoices, so the only thing left for developers to debug is why the AI is better at collecting money than we are at writing error-free code.
+  tags:
+    - payments
+    - finance
+    - agentic-ai
+    - automation
+    - integrations
+  confidence: high
+curation:
+  status: excluded
+  reason: Adfin is a vertical SaaS product for business payments and credit control rather than a developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Site description focuses on getting paid, credit control, and payment reconciliation for businesses and accountants.
+    - No repo description, stars, or developer-tooling artifacts provided; it is a commercial finance platform.
+    - Only listed in awesome-mcp-servers as a server type, not as MCP infrastructure or a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:16.548Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

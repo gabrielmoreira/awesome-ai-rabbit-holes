@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__stargate-bridge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: An MCP server that enables cross-chain token transfers via the Stargate protocol.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:12.458Z"
+    last_checked_at: "2026-05-06T22:44:50.517Z"
     readme:
-      fetched_at: "2026-05-05T21:03:12.458Z"
+      fetched_at: "2026-05-06T22:44:50.517Z"
       bytes: 5377
 insights:
-  summary: An MCP server that enables AI assistants to discover supported chains, fetch bridge quotes, and execute cross-chain token transfers via the Stargate protocol.
-  why_it_matters: It lets developers wire autonomous bridging operations directly into MCP clients like Claude or Cursor, turning natural language prompts into real on-chain transactions across EVM-compatible networks.
-  mental_damage: "We have finally achieved the singularity: your AI assistant can now drain your wallet across eight chains while you argue about the best way to structure a .env file."
+  summary: An MCP server that enables AI assistants to discover supported blockchains, find bridgeable tokens, fetch cross-chain quotes, and execute token transfers via the Stargate protocol on EVM-compatible chains.
+  why_it_matters: It allows developers to bridge assets across chains directly from their MCP-compatible coding assistant instead of manually interacting with web interfaces or writing custom scripts.
+  mental_damage: We have successfully reached the point where you can drain your production wallet on Arbitrum with a casual natural language prompt to your IDE.
   tags:
     - mcp
-    - web3
-    - stargate
-    - cross-chain
     - defi
-  confidence: high
+    - cross-chain
+    - blockchain
+    - stargate
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for blockchain bridging, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server for the Stargate bridging protocol, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description states it is 'An MCP server that enables cross-chain token transfers via the Stargate protocol.'
-    - "README confirms 'MCP Integration: Fully compliant with MCP spec for easy use in Claude, Cursor, or other MCP clients.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - "Repo description states: 'An MCP server that enables cross-chain token transfers via the Stargate protocol.'"
+    - "README lists tools like `bridge_transfer` and explicitly mentions 'MCP Integration: Fully compliant with MCP spec for easy use in Claude, Cursor, or other MCP clients.'"
+    - Listed in the 'awesome-mcp-servers' directory under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:12.458Z"
+    updated_at: "2026-05-06T22:44:50.517Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:22.687Z"
+    updated_at: "2026-05-06T23:07:45.355Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__reddit__com__r__chatgptcoding__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit community focused on using ChatGPT and AI tools for programming tasks and software development.
-  why_it_matters: It serves as a peer-to-peer discovery layer where developers share workflows, prompts, and lessons learned from integrating AI into their coding practices.
-  mental_damage: Yet another place to argue about whether AI actually improves velocity or just generates more code for you to refactoring-review.
+  summary: A Reddit community subreddit focused on using ChatGPT for coding tasks and programming assistance.
+  why_it_matters: It serves as a informal hub for developers to share workflows, prompts, and experiences using ChatGPT as a coding assistant.
+  mental_damage: Yet another place to spend three hours reading about why someone's 4-month-old prompt template is definitively better than the one you just wrote.
   tags:
     - community
     - reddit
     - discussion
-    - ai-coding
+    - chatgpt
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media subreddit, not a developer tool, agent, or infrastructure component, and therefore falls outside the catalog's scope of practical AI tooling.
+  reason: This is a Reddit community subreddit, which is a social link and discussion forum rather than a developer tool, infrastructure, or product.
   evidence:
-    - URL points to reddit.com/r/ChatGPTCoding, identifying it as a community forum rather than a tool.
-    - No repository description, README, or tooling context provided—only a link to a Reddit community.
-    - Source-list context lists it under 'Community' in an awesome-local-ai list, confirming its nature as a discussion hub rather than software.
+    - URL points to reddit.com/r/ChatGPTCoding, indicating a community forum rather than a tool or repo.
+    - Seen in awesome-local-ai under 'Community' section, confirming its identity as a social/discussion link.
+    - No repository description, README, or product code is present to suggest a developer tool.
 placement:
   primary_category: null
   section: null
@@ -59,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:53:01.740Z"
+    updated_at: "2026-05-06T22:35:16.963Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

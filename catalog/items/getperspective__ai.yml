@@ -1,12 +1,12 @@
 id: getperspective__ai
 kind: website
-name: Perspective AI
+name: getperspective.ai
 canonical_url: https://getperspective.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__getperspective__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,44 +35,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Perspective AI is a SaaS platform that replaces static web forms with adaptive AI-powered conversations to capture structured data and trigger downstream automation.
-  why_it_matters: It offers an MCP server implementation for developers looking to integrate conversational data capture into their tech stack without building custom LLM logic.
-  mental_damage: We have successfully abstracted the form away so thoroughly that the user now has to negotiate their intent with a bot before we can ignore their input in a CRM.
+  summary: Perspective AI is a hosted SaaS platform that replaces static web forms with adaptive AI conversations to capture structured data and trigger automations.
+  why_it_matters: It provides an MCP server for developers who want to integrate conversational, schema-aligned data capture into their own applications or agent workflows.
+  mental_damage: We have successfully abstracted away the burden of filling out forms, only to requisition an entire LLM to ask us the same questions in a slightly more polite tone.
   tags:
-    - automation
-    - conversational-ai
-    - forms
     - mcp
+    - forms
+    - conversational-ai
     - saas
-  confidence: high
+    - structured-data
+  confidence: medium
 curation:
-  status: excluded
-  reason: While it provides an MCP server, the core product is a business-facing lead generation and intake SaaS for marketing and sales ops, not a tool for software development workflows.
+  status: included
+  reason: The product is primarily a business-facing SaaS for replacing forms, but it explicitly offers an MCP Server, which is the relevant developer-tooling artifact for this catalog.
   evidence:
-    - Scraped site context describes a 'Concierge' that replaces forms for 'Sales', 'Marketing', 'SaaS / Tech', and 'Financial Services' intake.
-    - Primary page excerpt focuses on 'CRM Enrichment', 'Eligibility & Pre-Qualification', and 'Enterprise Demo Qualification'.
-    - Listed in awesome-mcp-servers under 'Conversational AI', but the tool itself is a generic business automation platform rather than developer infrastructure.
+    - Scraped site context confirms the product is an 'AI concierge' that replaces static forms with conversational data capture.
+    - Source-list context shows inclusion in awesome-mcp-servers under 'Conversational AI' due to its MCP Server offering.
+    - The site footer lists 'MCP Server' as a distinct product feature alongside SDK and Documentation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:41.103Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:23.026Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,0 +1,81 @@
+id: github__alisawuffles__proxy-tuning
+kind: github-repo
+name: proxy-tuning
+canonical_url: https://github.com/alisawuffles/proxy-tuning
+identity:
+  github_repo: alisawuffles/proxy-tuning
+provenance:
+  discoveries:
+    - id: discovery__github__alisawuffles__proxy-tuning__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Proxy Tuning
+        extracted_url: https://github.com/alisawuffles/proxy-tuning
+        surrounding_text: "29. [Proxy Tuning](https://github.com/alisawuffles/proxy-tuning): Tuning Language Models by Proxy."
+        confidence: high
+metadata:
+  github:
+    stars: 129
+    forks: 18
+    license: null
+    archived: false
+    created_at: "2024-01-25T07:52:35Z"
+    pushed_at: "2024-03-30T02:28:07Z"
+    description: Code associated with Tuning Language Models by Proxy (Liu et al., 2024)
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:12:34.984Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:34.984Z"
+      bytes: 998
+insights:
+  summary: Code and evaluation scripts for the 2024 research paper "Tuning Language Models by Proxy," an academic technique for steering model behavior without direct fine-tuning.
+  why_it_matters: It provides a reference implementation for researchers looking to reproduce or build upon proxy tuning methods for LLMs.
+  mental_damage: Yet another fascinating academic repo that will inspire a thousand Medium posts promising to revolutionize your production stack, while you just wanted autocomplete to stop writing SQL.
+  tags:
+    - llm
+    - fine-tuning
+    - research
+    - evaluation
+    - academic
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an auxiliary code repository for an academic paper on model training techniques, lacking the developer-facing tooling identity required for the catalog.
+  evidence:
+    - Repo description explicitly states it is 'Code associated with Tuning Language Models by Proxy (Liu et al., 2024)'
+    - README is exclusively focused on paper evaluation data and citation, not a usable developer product
+    - Listed in awesome-LLM-resources under a 'Fine-Tuning' research section rather than a developer tool section
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.601Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:34.984Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:39.635Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

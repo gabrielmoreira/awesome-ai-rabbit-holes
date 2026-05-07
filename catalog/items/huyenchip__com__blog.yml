@@ -1,0 +1,76 @@
+id: huyenchip__com__blog
+kind: website
+name: blog
+canonical_url: https://huyenchip.com/blog
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huyenchip__com__blog__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: Chip Huyen
+        extracted_url: https://huyenchip.com/blog
+        surrounding_text: 20. [Chip Huyen](https://huyenchip.com/blog/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A personal blog by Chip Huyen focused on AI system design, production MLOps, and the practical realities of building generative AI applications.
+  why_it_matters: It provides deep, practitioner-focused synthesis on LLM application architecture, model routing, and production pitfalls that directly inform how developers build AI tooling.
+  mental_damage: Yet another high-signal reading list to rotate into your 'later' tab, ensuring you feel perpetually behind on the latest production-grade architectural trend while chasing the current agent hype cycle.
+  tags:
+    - ai-system-design
+    - mlops
+    - llm-guides
+    - production-ai
+  confidence: high
+curation:
+  status: included
+  reason: The primary value is ongoing educational publishing and commentary on AI system design rather than a standalone developer tool or product.
+  evidence:
+    - "Scraped site description states: 'I work to bring AI into production. I write about AI system design.'"
+    - The site is a blog with posts on topics like 'Building LLM applications for production' and 'Common pitfalls when building generative AI applications'.
+    - Listed in awesome-LLM-resources under the '教程 Tutorial' (Tutorial) section as a learning resource.
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:31.771Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

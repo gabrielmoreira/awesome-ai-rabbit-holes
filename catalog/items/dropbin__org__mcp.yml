@@ -1,12 +1,12 @@
 id: dropbin__org__mcp
 kind: website
-name: DropBin
+name: mcp
 canonical_url: https://dropbin.org/mcp
 identity: {}
 provenance:
   discoveries:
     - id: discovery__dropbin__org__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,42 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website directory that aggregates and lists Model Context Protocol (MCP) servers for submission and discovery.
-  why_it_matters: It serves as a centralized navigation aid for developers looking to find or submit MCP servers to extend AI tooling ecosystems.
-  mental_damage: "Another layer of indirection has been added to the stack: a directory, specifically for directories of servers, because apparently we needed a Yelp for protocol adapters."
+  summary: A directory-style page listing community Model Context Protocol (MCP) servers for discovery and reference.
+  why_it_matters: It provides a jumping-off point for developers looking to find available MCP servers to extend their AI coding assistants.
+  mental_damage: Because nothing says 'streamlined developer workflow' like needing a dedicated directory just to navigate the ever-expanding universe of protocol adapters.
   tags:
-    - directory
-    - ecosystem
     - mcp
+    - directory
+    - servers
+    - discovery
   confidence: medium
 curation:
   status: included
-  reason: The project is a website directory/meta-list for discovering MCP servers, fitting the awesome-awesomes category as a navigation aid rather than a tool itself.
+  reason: This is a navigational directory (dropbin.org/mcp) listing community MCP servers, fitting the 'Lists & Directories' category for ecosystem discovery.
   evidence:
-    - The URL (https://dropbin.org/mcp) presents a directory site for MCP.
-    - "Referenced in awesome-mcp-servers as the submission website: https://mcpservers.org/submit."
-    - It acts as an index/map for MCP servers rather than being a server or toolkit itself.
+    - URL is dropbin.org/mcp, a directory-style page for MCP servers.
+    - Seen in awesome-mcp-servers source list under the section 'Community Servers'.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:15.620Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:45.342Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

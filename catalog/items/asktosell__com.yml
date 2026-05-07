@@ -1,12 +1,12 @@
 id: asktosell__com
 kind: website
-name: AskToSell
+name: asktosell.com
 canonical_url: https://asktosell.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__asktosell__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,20 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AskToSell is a sales-focused AI agent listed in directories of autonomous agents.
-  why_it_matters: It represents the growing trend of verticalized AI agents, though it targets sales workflows rather than developer environments.
-  mental_damage: We have officially run out of developer problems to solve and have moved on to automating the people who buy the things we build.
+  summary: AskToSell is a sales-focused AI agent platform for automating sales conversations and deal execution.
+  why_it_matters: It represents the growing trend of vertical, autonomous agents, though it targets sales teams rather than software developers.
+  mental_damage: Yet another autonomous agent enters the arena, proving that while we can automate selling, we still haven't automated the decision of what to build.
   tags:
+    - sales-ai
     - autonomous-agent
-    - sales-agent
+    - vertical-agent
   confidence: high
 curation:
   status: excluded
-  reason: The product is a sales agent for B2B outreach, which falls outside the catalog's scope of developer-facing tooling, infrastructure, and workflow automation.
+  reason: The product is a sales automation platform with no developer-facing tooling, IDE integration, or coding workflow relevance.
   evidence:
-    - The URL is asktosell.com, indicating a sales-focused product rather than a developer tool.
-    - Listed in awesome-ai-agents under a sales context, not a developer tooling section.
-    - No inputs describe coding assistance, IDE integration, or developer infrastructure.
+    - Name and URL (asktosell.com) indicate a sales-focused commercial product
+    - Listed in awesome-ai-agents under a sales-specific context, not developer tooling
+    - No repo description, README, or site context suggesting coding, IDE, or developer infrastructure utility
 placement:
   primary_category: null
   section: null
@@ -55,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:04.155Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:13.611Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

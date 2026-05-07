@@ -1,13 +1,13 @@
 id: github__evidentlyai__evidently
 kind: github-repo
-name: Evidently
+name: evidently
 canonical_url: https://github.com/evidentlyai/evidently
 identity:
   github_repo: evidentlyai/evidently
 provenance:
   discoveries:
     - id: discovery__github__evidentlyai__evidently__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7449
-    forks: 836
+    stars: 7456
+    forks: 837
     license: Apache-2.0
     archived: false
     created_at: "2020-11-25T15:20:08Z"
@@ -47,50 +47,50 @@ metadata:
       - mlops
       - model-monitoring
       - pandas-dataframe
-    last_checked_at: "2026-05-05T21:02:06.009Z"
+    last_checked_at: "2026-05-06T22:43:49.326Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.009Z"
+      fetched_at: "2026-05-06T22:43:49.326Z"
       bytes: 8484
 insights:
-  summary: Evidently is an open-source Python framework for evaluating, testing, and monitoring ML and LLM-powered systems across both experimentation and production environments.
-  why_it_matters: It provides over 100 built-in metrics and test suites that let developers programmatically validate data quality, detect drift, and evaluate generative AI outputs within their existing pipelines.
-  mental_damage: You can now mathematically prove that your RAG pipeline is hallucinating with 100+ metrics, which only adds to the pile of dashboards you'll ignore when the pager actually goes off.
+  summary: Evidently is an open-source Python framework for evaluating, testing, and monitoring ML and LLM-powered systems, offering over 100 built-in metrics for data quality, drift detection, and generative AI evaluations.
+  why_it_matters: It provides developers with both offline evaluation reports and live monitoring dashboards to validate AI system behavior from experimentation through production.
+  mental_damage: Another reassuring dashboard to convince ourselves that the stochastic parrot we shipped to production is merely having a deterministic crisis.
   tags:
-    - evals
-    - llm-observability
+    - llm-evals
     - mlops
-    - monitoring
+    - observability
     - python
+    - monitoring
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing library and operational tool for measuring and monitoring AI system behavior, fitting the Evaluations and Benchmarks category.
+  reason: The core job is measuring, scoring, and monitoring model and LLM behavior across experiments and production, which aligns precisely with the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly defines it as an 'open-source ML and LLM observability framework' with 100+ metrics.
-    - README details Python library usage for offline evals, CI/CD test suites, and live monitoring of predictive and generative tasks.
-    - Listed in Awesome-LLMOps under the 'Security > Observability' section, confirming its place in the LLM tooling ecosystem.
+    - "Repo description: 'open-source ML and LLM observability framework' with evaluate, test, and monitor capabilities"
+    - "README: '100+ built-in metrics from data drift detection to LLM judges' and support for both offline evals and live monitoring"
+    - Source list placement in Awesome-LLMOps Observability section confirms developer-tooling fit
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (7449) exceeded threshold (150)
+  reason: Stars (7456) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:39.028Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.009Z"
+    updated_at: "2026-05-06T22:43:49.326Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:55:01.559Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

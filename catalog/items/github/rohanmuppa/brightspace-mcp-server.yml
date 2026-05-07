@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rohanmuppa__brightspace-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 19
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-02-06T17:12:11Z"
+    pushed_at: "2026-05-01T15:23:34Z"
+    description: "MCP server for Brightspace (D2L). Check grades, due dates, assignments, announcements, rosters, syllabus & course content via Claude, ChatGPT, Cursor, Windsurf, or any MCP client. Works with any school. npm: npx brightspace-mcp-server@latest"
+    homepage: https://www.npmjs.com/package/brightspace-mcp-server
+    topics:
+      - ai
+      - assignments
+      - brightspace
+      - brightspace-api
+      - chatgpt
+      - claude
+      - claude-desktop
+      - cursor
+      - d2l
+      - d2l-brightspace
+      - education
+      - grades
+      - lms
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - purdue
+      - student
+      - university
+      - windsurf
+    last_checked_at: "2026-05-06T22:46:11.319Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.319Z"
+      bytes: 4703
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects AI clients like Claude and Cursor to D2L Brightspace, enabling students to query grades, assignments, announcements, and course content via natural language.
+  why_it_matters: Developers who are also students can automate academic admin by letting their coding assistants fetch grades, download lecture slides, and build study schedules directly from their LMS.
+  mental_damage: We have successfully reached the point where we need a protocol server to ask an AI agent to check if we are passing the classes we forgot we enrolled in.
+  tags:
+    - mcp
+    - education
+    - lms
+    - brightspace
+    - student-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server providing domain-specific access to the Brightspace LMS, fitting cleanly into the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Brightspace (D2L)' and lists compatibility with Claude, ChatGPT, Cursor, and Windsurf.
+    - Found in awesome-mcp-servers under the 'Education' section, confirming its identity as a community-recognized MCP implementation.
+    - README instructions center on running the server via 'npx brightspace-mcp-server' to expose Brightspace tools to MCP clients.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.319Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:00.293Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

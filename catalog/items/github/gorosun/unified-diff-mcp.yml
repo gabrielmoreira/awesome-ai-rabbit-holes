@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gorosun__unified-diff-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [gorosun/unified-diff-mcp](https://github.com/gorosun/unified-diff-mcp) 📇 🏠 - Generate and visualize unified diff comparisons with beautiful HTML/PNG output, supporting side-by-side and line-by-line views for filesystem dry-run integration"
         confidence: high
     - id: discovery__github__gorosun__unified-diff-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:25.393Z"
+    last_checked_at: "2026-05-06T22:44:05.601Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.393Z"
+      fetched_at: "2026-05-06T22:44:05.601Z"
       bytes: 8658
 insights:
-  summary: An MCP server that renders unified code diffs into visual HTML or PNG outputs and optionally shares them via temporary GitHub Gists.
-  why_it_matters: It gives coding agents a way to surface diffs as readable, shareable visuals inside Claude Desktop instead of raw text.
-  mental_damage: We have officially reached the point where the agent needs its own diff viewer because reading unified diffs is apparently too retro for 2025.
+  summary: An MCP server that transforms code diffs into visual HTML or PNG comparisons and optionally shares them via GitHub Gists.
+  why_it_matters: It gives Claude Desktop and other MCP clients a way to render diffs as readable, shareable visuals instead of raw text, streamlining code review and documentation workflows.
+  mental_damage: We have achieved the future where the assistant can write the code, review the diff, and now spin up a beautifully styled HTML page just to show you the diff it already wrote.
   tags:
     - mcp
-    - diff
+    - diff-visualization
     - claude-desktop
-    - visualization
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that extends Claude Desktop with diff visualization capabilities, which fits squarely into MCP infrastructure.
+  reason: This is an MCP server that augments MCP-compatible assistants with diff visualization capabilities, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - README states it is a 'Unified Diff MCP Server' with tools for visualizing diffs via HTML/PNG and GitHub Gist.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Built to integrate with Claude Desktop via the Model Context Protocol using Bun.
+    - GitHub repo name is 'unified-diff-mcp' and README explicitly describes it as a 'Unified Diff MCP Server'.
+    - README details MCP tool definitions like `visualize_diff_html_content` and `visualize_diff_output_file` for Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.393Z"
+    updated_at: "2026-05-06T22:44:05.601Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:23.175Z"
+    updated_at: "2026-05-06T22:58:22.400Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qwenlm__qwq__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,49 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 513
+    forks: 25
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-11T06:07:08Z"
+    pushed_at: "2025-03-27T15:48:52Z"
+    description: "QwQ is the reasoning model series developed by Qwen team, Alibaba Cloud. "
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:04.281Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:04.281Z"
+      bytes: 9912
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: QwQ is a reasoning-specialized LLM series from Alibaba Cloud's Qwen team, including the open-weight QwQ-32B model designed for complex problem-solving tasks.
+  why_it_matters: It provides developers with a competitive open-weight reasoning model that can be run locally or via API, offering an alternative to DeepSeek-R1 and o1-mini for math, code, and logic-heavy workflows.
+  mental_damage: "Just what we needed: another 'reasoning' model release to briefly inflate our benchmarks before we realize none of them can actually count the r's in strawberry reliably."
+  tags:
+    - reasoning-model
+    - llm
+    - qwen
+    - open-weight
+    - alibaba
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a foundational LLM model repository and checkpoint, not a developer-facing tool, agent, IDE, framework, or infrastructure product.
+  evidence:
+    - Repo description states it is a 'reasoning model series' from the Qwen team, not a tool or application.
+    - README excerpt focuses on model weights, HuggingFace transformers usage, and sampling parameters, not developer tooling.
+    - Appears in awesome-LLM-resources under Evaluation, a general ML research list, not a developer-tooling catalog.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (513) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:16.684Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for qwenlm/qwq
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:04.281Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:17.779Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

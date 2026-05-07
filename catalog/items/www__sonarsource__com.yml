@@ -1,12 +1,12 @@
 id: www__sonarsource__com
 kind: website
-name: SonarQube
+name: www.sonarsource.com
 canonical_url: https://www.sonarsource.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__sonarsource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SonarSource provides static analysis and security tooling (SonarQube) to detect bugs, vulnerabilities, and code smells in codebases, with specific features for validating AI-generated code and an MCP server for AI workflow integration.
-  why_it_matters: It integrates into CI/CD pipelines and IDEs to automatically enforce quality gates on AI-generated code, helping teams manage technical debt and security risks as they adopt coding agents.
-  mental_damage: We have entered the era where we need enterprise-grade static analysis specifically to clean up the mess made by the 'ship fast' AI assistants we just bought.
+  summary: SonarSource provides SonarQube Cloud, Server, and IDE extensions for static code analysis, security scanning, and AI-generated code validation, including an MCP Server to integrate quality checks into AI coding workflows.
+  why_it_matters: It gives developers and AI agents a deterministic quality gate to catch bugs, secrets, and vulnerabilities in both human and AI-written code before they reach production.
+  mental_damage: You can now add a 'vibe, then verify' step to your workflow, ensuring the AI slop is at least securely written slop.
   tags:
-    - ai-code-review
-    - code-quality
-    - mcp
-    - security
     - static-analysis
-  confidence: high
+    - code-quality
+    - security
+    - mcp
+    - ai-validation
+  confidence: medium
 curation:
   status: included
-  reason: The project is included under MCP because, while SonarQube is a broad static analysis suite, the specific submission context highlights the 'SonarQube MCP Server' as a tool to bring code quality into AI workflows.
+  reason: While Sonar is a broad SaaS platform, its explicit MCP Server offering and presence in the awesome-mcp-servers list under 'Official Servers' justifies inclusion as a domain-specific MCP tool for code quality.
   evidence:
-    - Seen in 'awesome-mcp-servers' under 'Official Servers' with description noting the MCP server brings code quality into AI workflows.
-    - Scraped site context explicitly lists 'MCP Server' as a product feature to 'Bring code quality and security into your AI workflow'.
-    - Site excerpt notes integrations with 'Claude Code', 'Cursor', and 'Devin & Windsurf' via the MCP server.
+    - Featured in awesome-mcp-servers under 'Official Servers' as a tool to bring code quality into AI workflows.
+    - Scraped site context explicitly details 'SonarQube MCP Server' as a bridge between AI agents and organizational standards.
+    - Primary site excerpt lists 'MCP Server' as a distinct product alongside SonarQube Cloud, Server, and IDE tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:27.772Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:44.517Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__rommapp__romm
 kind: github-repo
-name: RomM
+name: romm
 canonical_url: https://github.com/rommapp/romm
 identity:
   github_repo: rommapp/romm
 provenance:
   discoveries:
     - id: discovery__github__rommapp__romm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8766
+    forks: 413
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-03-08T16:11:01Z"
+    pushed_at: "2026-05-06T16:15:13Z"
+    description: A beautiful, powerful, self-hosted rom manager and player.
+    homepage: https://romm.app
+    topics:
+      - emulation
+      - open-source
+      - retrogaming
+      - rommapp
+      - self-hosted
+    last_checked_at: "2026-05-06T22:46:11.638Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.638Z"
+      bytes: 9058
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted ROM manager and player for organizing, enriching, and browsing video game collections with metadata, artwork, and browser-based emulation.
+  why_it_matters: It provides a clean, self-hosted platform for managing large retro game libraries with rich metadata and multi-platform support.
+  mental_damage: Yet another reminder that our most sophisticated self-hosted infrastructure projects are almost always built to better organize Pokémon ROMs.
+  tags:
+    - self-hosted
+    - emulation
+    - retrogaming
+    - rom-manager
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a retro gaming ROM manager with no AI developer tooling, coding agent, or model infrastructure angle, despite a peripheral mention in an awesome-mcp-servers list.
+  evidence:
+    - Repo description and README describe a ROM manager and emulator frontend, not an AI tool.
+    - Source-list context shows it only appears in awesome-mcp-servers under Gaming, not as core MCP infrastructure.
+    - Topics, features, and community apps are all gaming-focused with no developer AI workflow relevance.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (8766) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.638Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:04.252Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

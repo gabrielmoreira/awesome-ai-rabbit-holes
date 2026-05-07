@@ -1,13 +1,13 @@
 id: github__acnlabs__metaspec
 kind: github-repo
-name: MetaSpec
+name: metaspec
 canonical_url: https://github.com/acnlabs/metaspec
 identity:
   github_repo: acnlabs/metaspec
 provenance:
   discoveries:
-    - id: discovery__github__acnet-ai__metaspec__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__acnlabs__metaspec__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -36,53 +36,50 @@ metadata:
       - intent
       - spec
       - spec-driven
-    last_checked_at: "2026-05-05T21:00:48.566Z"
+    last_checked_at: "2026-05-06T22:12:24.945Z"
     readme:
-      fetched_at: "2026-05-05T21:00:48.566Z"
+      fetched_at: "2026-05-06T22:12:24.945Z"
       bytes: 19969
 insights:
-  summary: MetaSpec is a Python meta-specification framework that generates domain-specific 'speckits'—complete with CLI, parsers, validators, and templates—to drive spec-first development workflows for AI agents.
-  why_it_matters: It lets developers define a domain specification once and automatically generate the surrounding tooling and validation environment, reducing the token overhead required for agents to navigate large spec files by up to 99%.
-  mental_damage: We have officially entered the era of building frameworks to build the frameworks that tell the agents how to read the frameworks.
+  summary: MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support.
+  why_it_matters: It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
+  mental_damage: "Just what we needed: another meta-layer to manage the meta-layers, ensuring our agents can now efficiently parse the very specs we wrote to stop them from rewriting our codebase."
   tags:
-    - ai-agents
-    - cli
-    - meta-specification
-    - python
     - spec-driven
+    - meta-specification
+    - cli
     - token-optimization
-  confidence: medium
+    - ai-agents
+  confidence: high
 curation:
   status: included
-  reason: The project is a dedicated tool for spec-driven development, allowing the generation of complete toolkits based on domain specifications, fitting the spec-first loop criteria perfectly.
+  reason: The project's core identity is a framework for creating spec-driven toolkits, aligning perfectly with the 'specs as primary artifact' definition of the Spec-Driven Development category.
   evidence:
-    - Repo description defines it as a 'Meta-specification framework for AI Agents to generate Spec-driven X toolkits'.
-    - README details 'precision-guided navigation' to reduce AI token usage by 84-99% when reading spec files.
-    - Included in the 'awesome-spec-driven-development' list under 'Specification Tools'.
-    - README emphasizes 'Spec-Driven' workflows where structured specs drive requirements to implementation.
-    - Features 'Precision-Guided Navigation' allowing AI agents to read specific line ranges to cut token usage by 84-99%.
+    - Repo description identifies it as a 'Meta-specification framework for AI Agents to generate Spec-driven X toolkits'.
+    - README highlights 'precision-guided navigation' that reduces token usage by 84-99% for AI agents.
+    - Explicitly listed in the 'awesome-spec-driven-development' list under the 'Specification Tools' section.
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:42.554Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:48.566Z"
+    updated_at: "2026-05-06T22:12:24.945Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:18:35.177Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

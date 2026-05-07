@@ -1,13 +1,13 @@
 id: github__pythagora-io__gpt-pilot
 kind: github-repo
-name: GPT Pilot
+name: gpt-pilot
 canonical_url: https://github.com/pythagora-io/gpt-pilot
 identity:
   github_repo: pythagora-io/gpt-pilot
 provenance:
   discoveries:
     - id: discovery__github__pythagora-io__gpt-pilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)"
         confidence: high
     - id: discovery__github__pythagora-io__gpt-pilot__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -38,7 +38,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 33772
+    stars: 33769
     forks: 3498
     license: NOASSERTION
     archived: false
@@ -53,44 +53,50 @@ metadata:
       - developer-tools
       - gpt-4
       - research-project
-    last_checked_at: "2026-05-05T23:08:13.157Z"
+    last_checked_at: "2026-05-06T22:46:00.501Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.157Z"
+      fetched_at: "2026-05-06T22:46:00.501Z"
       bytes: 10418
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GPT Pilot is a CLI and VS Code extension that acts as an AI developer to plan, write, debug, and review full application features from scratch.
+  why_it_matters: It shifts the developer role from writing code to overseeing implementation by automating 95% of app generation while handling debugging and review loops.
+  mental_damage: Finally, an AI that can build the entire app so you can spend your day arguing with it about why the login page renders in Comic Sans.
+  tags:
+    - cli
+    - vscode
+    - codegen
+    - pair-programmer
+    - langchain
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project presents itself as a primary coding assistant that plans, writes, and debugs code via CLI and VS Code, fitting the core coding-agents definition.
+  evidence:
+    - Repo description calls it 'The first real AI developer' with topics including coding-assistant.
+    - README states it 'aims to provide the first real AI developer companion' that writes full features, debugs them, and asks for review.
+    - Offers both a CLI tool (python main.py) and a VS Code extension as the primary interaction surfaces.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (33772) exceeded threshold (150)
+  reason: Stars (33769) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.157Z"
+    updated_at: "2026-05-06T22:46:00.501Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:23:27.875Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

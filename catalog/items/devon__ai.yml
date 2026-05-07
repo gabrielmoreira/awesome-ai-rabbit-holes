@@ -1,0 +1,74 @@
+id: devon__ai
+kind: website
+name: devon.ai
+canonical_url: https://devon.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__devon__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Devon
+        extracted_url: https://devon.ai
+        surrounding_text: "- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Devon.ai is an AI-powered coding agent designed to assist developers by planning and executing code changes across repositories.
+  why_it_matters: It positions itself as a primary coding assistant capable of handling repo-level tasks, fitting directly into the delegation workflow many developers are adopting.
+  mental_damage: "Just what we needed: another autonomous agent ready to refactor your entire codebase while you wonder if 'review the PR' now means arguing with a bot about architectural philosophy."
+  tags:
+    - coding-agent
+    - cli
+    - automation
+  confidence: medium
+curation:
+  status: included
+  reason: The product is listed in awesome-ai-coding-tools specifically as a 'Coding Agent' and its identity is a standalone assistant for repo work rather than an extension or framework.
+  evidence:
+    - Listed in awesome-ai-coding-tools under the section 'Coding Agents'
+    - URL implies a standalone product identity (devon.ai) rather than a plugin or extension
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:06.862Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

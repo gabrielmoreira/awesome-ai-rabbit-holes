@@ -7,22 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ennucore__clippinator__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Clippy
-        anchor_text: Clippy
-        extracted_url: https://github.com/ennucore/clippy
-        surrounding_text: "## [Clippy](https://github.com/ennucore/clippy/)"
-        confidence: high
-    - id: discovery__github__ennucore__clippy__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -47,31 +32,27 @@ metadata:
     description: AI programming assistant
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:02.761Z"
+    last_checked_at: "2026-05-06T22:43:46.287Z"
     readme:
-      fetched_at: "2026-05-05T21:02:02.761Z"
+      fetched_at: "2026-05-06T22:43:46.287Z"
       bytes: 5842
 insights:
-  summary: A multi-agent CLI tool that uses GPT-4 to autonomously plan, write, debug, and test software projects by delegating tasks to specialized sub-agents like Architect, Writer, and QA.
-  why_it_matters: It lets developers offload entire project lifecycles to a hierarchy of AI agents that can read architecture, run terminals, and even use Selenium for browser testing.
-  mental_damage: It promises to work faster than a human while openly admitting it makes frequent mistakes, which is the exact job description of the average junior developer we were trying to replace.
+  summary: Clippinator is a GPT-4-powered CLI coding assistant that uses a multi-agent architecture to autonomously plan, write, debug, and test software projects.
+  why_it_matters: It lets developers delegate entire project lifecycles to a local agent swarm that can read files, run bash commands, use a browser for testing, and self-correct via linting.
+  mental_damage: You can now watch a swarm of AI minions burn through your OpenAI credits to implement architecture you didn't quite agree to, while you wait with a Ctrl+C prompt to intervene like a nervous middle manager.
   tags:
-    - autonomous
     - cli
-    - gpt-4
     - multi-agent
-    - python
-  confidence: high
+    - gpt-4
+    - autonomous
+  confidence: medium
 curation:
   status: included
-  reason: The tool is a CLI-based coding agent designed to operate directly on project files, delegate tasks, and manage development workflows via a terminal interface.
+  reason: The primary product identity is a standalone CLI coding assistant that developers delegate repo work to, fitting the core definition of a coding agent.
   evidence:
-    - Repo description identifies it as an 'AI programming assistant'.
-    - README states the tool 'develops code for or with the user' and can 'plan, write, debug, and test some projects autonomously' via a CLI run command.
-    - Active development history (created 2023-04, pushed 2024-05) with 408 stars.
-    - Repo description explicitly states 'AI programming assistant'.
-    - README details a main agent (Taskmaster) and subagents (Architect, Writer, QA) that write, debug, and test projects via CLI on a local path.
-    - Listed in the 'awesome-ai-agents' directory under a relevant section.
+    - Repo description defines it explicitly as an 'AI programming assistant'.
+    - README states it 'develop[s] code for or with the user' and can 'plan, write, debug, and test some projects autonomously' via a CLI interface.
+    - Architecture is based on a main 'Taskmaster' CLI agent delegating to specialized subagents (Architect, Writer, QA) using terminal tools.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -79,21 +60,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (408) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:07.057Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:02.761Z"
+    updated_at: "2026-05-06T22:43:46.287Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:21.255Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

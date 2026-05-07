@@ -1,0 +1,86 @@
+id: github__datawhalechina__llms-from-scratch-cn
+kind: github-repo
+name: llms-from-scratch-cn
+canonical_url: https://github.com/datawhalechina/llms-from-scratch-cn
+identity:
+  github_repo: datawhalechina/llms-from-scratch-cn
+provenance:
+  discoveries:
+    - id: discovery__github__datawhalechina__llms-from-scratch-cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: LLMs From Scratch (Datawhale Version)
+        extracted_url: https://github.com/datawhalechina/llms-from-scratch-cn
+        surrounding_text: 27. [LLMs From Scratch (Datawhale Version)](https://github.com/datawhalechina/llms-from-scratch-cn)
+        confidence: high
+metadata:
+  github:
+    stars: 4130
+    forks: 571
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-02-28T07:50:52Z"
+    pushed_at: "2026-03-26T04:32:32Z"
+    description: 仅需Python基础，从0构建大语言模型；从0逐步构建GLM4\Llama3\RWKV6， 深入理解大模型原理
+    homepage: ""
+    topics:
+      - glm
+      - llama
+      - llm
+      - llms-from-scratch
+      - rwkv
+    last_checked_at: "2026-05-06T22:43:33.817Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:33.817Z"
+      bytes: 13169
+insights:
+  summary: A hands-on educational tutorial and codebase for building large language models like GPT, GLM4, Llama3, and RWKV6 from scratch using PyTorch.
+  why_it_matters: It provides a structured, code-first learning path for developers who want to deeply understand LLM architecture and training mechanics beyond just calling APIs.
+  mental_damage: Yet another heroic attempt to convince yourself that spending three weeks debugging a custom attention mask will somehow make you a better API caller.
+  tags:
+    - llm
+    - education
+    - pytorch
+    - training
+    - tutorial
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational course and accompanying notebooks for learning LLM internals, not a developer-facing tool, agent, or infrastructure product.
+  evidence:
+    - "Repo description explicitly states it is for learning: '从0构建大语言模型' (building LLMs from scratch) and '深入理解大模型原理' (deep understanding of model principles)."
+    - README clarifies the 'Education purpose' and 'practice-oriented' nature, focusing on tutorials and notebooks rather than shipping tooling.
+    - Source list context places it in a '课程 Course' (Course) section, confirming its identity as a learning resource.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4130) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:33.817Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:49.161Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: docs__julep__ai__open__responses
 kind: website
-name: Open Responses
+name: open-responses
 canonical_url: https://docs.julep.ai/open-responses
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__julep__ai__open__responses__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,21 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Open Responses is a framework or server implementation for serving LLM responses, listed as a serving infrastructure component.
-  why_it_matters: It provides developers with tooling to standardize and manage how LLM responses are served within their stacks.
-  mental_damage: Yet another layer of infrastructure to argue about while we all pretend that serving a 400-token completion is the hard part of the job.
+  summary: Open Responses is a documentation page for the Julep platform's OpenAI-compatible responses API endpoint.
+  why_it_matters: It details how developers can integrate with Julep's LLM serving layer using familiar OpenAI SDK patterns for chat completions and streaming.
+  mental_damage: Just when you thought the OpenAI SDK was the only API surface you had to memorize, another platform wraps itself in the same familiar warmth to ensure your vendor lock-in feels like home.
   tags:
-    - framework
-    - infrastructure
-    - llm-serving
-  confidence: low
+    - llmops
+    - api-docs
+    - serving
+    - julep
+  confidence: high
 curation:
   status: excluded
-  reason: The project is a serving framework/server for LLMs, which fits the AI Frameworks and SDKs category, but the inputs are too sparse and unverified to confirm it is a distinct, high-quality developer tool rather than a generic backend component.
+  reason: This is a documentation page for an API endpoint, not a standalone developer tool, framework, or product, and therefore does not belong in the catalog.
   evidence:
-    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving', suggesting a backend infrastructure role.
-    - No repository description, README excerpt, or scraped site context was provided to verify specific developer-facing features.
-    - Metadata such as stars, creation date, and license status are unknown, making it impossible to verify traction or activity.
+    - URL points to docs.julep.ai/open-responses, indicating an API documentation page rather than a tool repo.
+    - Seen in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving', suggesting it is an API layer rather than a distinct product.
+    - No repo description, README excerpt, or standalone product identity provided beyond the URL context.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:05.726Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:34.128Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

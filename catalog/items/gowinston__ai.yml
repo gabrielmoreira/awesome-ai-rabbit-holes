@@ -1,12 +1,12 @@
 id: gowinston__ai
 kind: website
-name: Winston AI
+name: gowinston.ai
 canonical_url: https://gowinston.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__gowinston__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Winston AI is a SaaS platform and API for detecting AI-generated text, images, and plagiarism, primarily targeting education, SEO, and publishing workflows.
-  why_it_matters: It offers an API and integrations for developers building integrity checks into content platforms, though it targets end-users more than codebases.
-  mental_damage: We have entered an era where developers must now engineer systems to detect the output of the very models they are racing to integrate.
+  summary: Winston AI is a commercial SaaS platform offering AI content detection, plagiarism checking, deepfake image detection, and related integrity APIs.
+  why_it_matters: It provides an API for developers building SEO tools, educational platforms, or publishing workflows that need to verify content originality and detect synthetic text or images.
+  mental_damage: We have reached the point where we are building dedicated tooling to police the output of the very models we just finished integrating into every step of the development lifecycle.
   tags:
     - ai-detection
+    - plagiarism
     - api
     - content-integrity
-    - seo
   confidence: high
 curation:
   status: excluded
-  reason: While it offers an API, the core product is a consumer-facing content detection and plagiarism service for educators and SEO writers, not a tool that assists developers in writing code, orchestrating agents, or building software.
+  reason: This is a general-purpose content integrity SaaS for SEO, education, and publishing, not a developer-facing coding tool, agent, framework, or infrastructure component.
   evidence:
-    - Scraped site context describes solutions 'For Education', 'For SEO', and 'For Writers', not software development.
-    - Product features focus on essay grading, plagiarism checking, and 'human scores' for text, lacking a developer workflow angle.
-    - Listed in awesome-mcp-servers only as a detection tool, but the primary surface is a browser-first SaaS dashboard, not a developer tool.
+    - Primary page excerpt describes it as 'the industry leading AI content detector and plagiarism checker' for SEO, education, and writers.
+    - Solutions are segmented for 'Education', 'SEO', and 'Writers', with no developer workflow, repo editing, or coding agent features mentioned.
+    - API offerings are for 'AI content detection', 'Plagiarism Checker', and 'AI Image Detection', not for coding assistance or developer infrastructure.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:10.699Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:36.822Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

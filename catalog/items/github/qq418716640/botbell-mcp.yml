@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qq418716640__botbell-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,44 +33,49 @@ metadata:
     description: BotBell MCP Server — Give Your AI a Voice
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T23:08:14.747Z"
+    last_checked_at: "2026-05-06T22:46:02.208Z"
     readme:
-      fetched_at: "2026-05-05T23:08:14.747Z"
+      fetched_at: "2026-05-06T22:46:02.208Z"
       bytes: 6445
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets Claude, Cursor, and other AI assistants send push notifications and receive replies from the BotBell iOS/Mac app.
+  why_it_matters: It closes the async loop by letting long-running AI tasks ping you on your phone and wait for your reply to continue.
+  mental_damage: We have successfully built a Rube Goldberg machine where your AI assistant needs a dedicated app on your phone just to tell you that the build finished.
+  tags:
+    - mcp
+    - notifications
+    - botbell
+    - push
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server that gives AI assistants push-notification capabilities via BotBell, fitting cleanly as a domain-specific MCP server implementation.
+  evidence:
+    - Repo description explicitly states 'BotBell MCP Server', confirming MCP as the core product identity.
+    - README shows tools like botbell_send and botbell_get_replies designed for Claude, Cursor, and other MCP clients.
+    - Listed in awesome-mcp-servers under 'Communication', aligning with its domain-specific MCP server purpose.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:14.747Z"
+    updated_at: "2026-05-06T22:46:02.208Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:49.247Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

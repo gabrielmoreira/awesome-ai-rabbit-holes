@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__punkpeye__awesome-mcp-clients__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6411
-    forks: 556
+    stars: 6413
+    forks: 557
     license: MIT
     archived: false
     created_at: "2025-01-11T10:11:05Z"
@@ -34,44 +34,50 @@ metadata:
     topics:
       - clients
       - mcp
-    last_checked_at: "2026-05-05T23:08:11.758Z"
+    last_checked_at: "2026-05-06T22:45:59.330Z"
     readme:
-      fetched_at: "2026-05-05T23:08:11.758Z"
+      fetched_at: "2026-05-06T22:45:59.330Z"
       bytes: 90124
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources.
+  why_it_matters: It serves as a central navigation map for developers looking to equip their AI workflows with compatible client interfaces beyond the standard defaults.
+  mental_damage: Another essential map for an ecosystem growing so fast that keeping track of the clients is now a full-time job distinct from actually using them.
+  tags:
+    - mcp
+    - directory
+    - ecosystem
+    - clients
+    - navigation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a curated list and index of MCP clients, serving as a discovery and navigation aid for the developer ecosystem rather than a standalone tool.
+  evidence:
+    - "Repo description explicitly states: 'A collection of MCP clients.'"
+    - README identifies this as 'A curated list of awesome Model Context Protocol (MCP) clients.'
+    - The artifact is a list of tools (e.g., Cline, Cursor, LibreChat) rather than a functional codebase or extension.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6411) exceeded threshold (150)
+  reason: Stars (6413) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:11.758Z"
+    updated_at: "2026-05-06T22:45:59.330Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:11.315Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

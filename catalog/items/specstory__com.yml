@@ -1,12 +1,12 @@
 id: specstory__com
 kind: website
-name: SpecStory
+name: specstory.com
 canonical_url: https://specstory.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__specstory__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tool that automatically captures, stores, and searches AI coding conversations from IDEs and CLIs like Cursor, Copilot, Claude Code, and Codex.
-  why_it_matters: It preserves the decision-making context and rationale behind code changes, allowing developers to search their history and onboard teammates faster.
-  mental_damage: We have successfully solved the problem of losing context with our AI assistants by creating yet another subscription to manage the context of our context-generating assistants.
+  summary: A cross-tool chat capture and search platform that automatically saves AI coding conversations from editors and CLIs like Cursor, Copilot, Claude Code, and Codex into a local or cloud-accessible history.
+  why_it_matters: Developers can search and resume previous AI sessions across tools, preserving the decision context and reasoning behind code changes instead of starting from scratch each session.
+  mental_damage: We have successfully solved the problem of remembering what the AI told us yesterday, which means we can now waste even more time revisiting bad ideas we previously forgot.
   tags:
-    - ai-history
-    - context-management
-    - cursor
-    - developer-productivity
+    - context
     - memory
+    - history
+    - ide-extension
+    - chat-search
   confidence: high
 curation:
   status: included
-  reason: The product acts as a memory and history layer that extends the workflows of host tools like Cursor and Claude Code, fitting the AI Developer Extensions category.
+  reason: The product's core identity is capturing and resurfacing context from other coding assistants rather than acting as a primary coding agent itself, making it a memory/context add-on for existing tools.
   evidence:
-    - Scraped site description states it 'capture[s] every chat from Cursor, Copilot, Claude Code & Codex' and provides 'AI rules that learn your style'.
-    - Source list awesome-ai-coding-tools categorizes it under 'Developer Productivity Tools' specifically for capturing AI conversations.
-    - The tool integrates with external agents/editors (Cursor, Copilot, Claude Code) rather than acting as the primary coding agent itself.
+    - "Scraped site states: 'Automatically capture every chat from Cursor, Copilot, Claude Code & Codex. Save locally, access everywhere.'"
+    - Primary value is 'Never lose context' and 'Search your entire development history instantly' across multiple AI coding tools.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' as a conversation capture utility.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: Memory & Context Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:17.301Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:01.096Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

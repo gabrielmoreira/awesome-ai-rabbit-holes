@@ -1,13 +1,13 @@
 id: github__dcspark__shinkai-local-ai-agents
 kind: github-repo
-name: Shinkai
+name: shinkai-local-ai-agents
 canonical_url: https://github.com/dcspark/shinkai-local-ai-agents
 identity:
   github_repo: dcspark/shinkai-local-ai-agents
 provenance:
   discoveries:
-    - id: discovery__github__dcspark__shinkai-apps__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__dcspark__shinkai-local-ai-agents__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,53 +38,50 @@ metadata:
       - local-ai
       - local-ai-agents
       - mcp-agents
-    last_checked_at: "2026-05-05T21:01:49.386Z"
+    last_checked_at: "2026-05-06T22:43:34.940Z"
     readme:
-      fetched_at: "2026-05-05T21:01:49.386Z"
+      fetched_at: "2026-05-06T22:43:34.940Z"
       bytes: 11423
 insights:
-  summary: Shinkai is a desktop application that provides a no-code visual interface for creating and orchestrating local or remote AI agents with built-in support for MCP and crypto payments.
-  why_it_matters: It allows developers to spin up local, privacy-focused multi-agent workflows that integrate with existing tooling like Claude and Cursor without writing orchestration boilerplate.
-  mental_damage: Because what your development environment was truly missing was a drag-and-drop UI to orchestrate crypto-native autonomous agents that can execute trades while you debug CSS.
+  summary: Shinkai is a desktop application that provides a no-code visual interface for creating and orchestrating local or remote AI agents with built-in support for MCP, crypto payments, and multi-agent workflows.
+  why_it_matters: It allows developers to spin up local, privacy-first agent workflows with MCP compatibility without writing scaffolding code or managing containerized runtimes.
+  mental_damage: Yet another desktop 'platform' promising to orchestrate your AI life, now with crypto wallets attached, just in case your autonomous agents need to settle a bar tab on-chain while they refactor your repo.
   tags:
-    - agents
-    - crypto
     - local-ai
+    - agents
     - mcp
     - no-code
+    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: The project is a user-facing desktop platform (control plane) specifically designed for orchestrating multiple AI agents, handling workflows, and integrating with MCP, fitting the agent-orchestration category definition.
+  reason: The product is a multi-agent workbench and control plane for orchestrating teams of agents with a visual UI, fitting the agent orchestration category better than a coding agent or local runtime.
   evidence:
-    - Repo description states it is a 'two click install App' to 'create Local AI agents' with a 'simple UI'.
-    - README highlights 'Multi-Agent Orchestration' and a 'No-Code Agent Builder' with a 'visual interface'.
-    - Source list context shows it is listed under 'Clients' in awesome-mcp-servers, confirming its role as an operational tool rather than just a library.
-    - Repo description states it creates 'Local AI agents in 5 minutes or less using a simple UI' with MCP support.
-    - README describes 'Multi-Agent Orchestration' and a 'No-Code Agent Builder' for deploying collaborative agent teams.
-    - Active development with a recent push date (2026-05-02) and 429 stars.
+    - README positions it as a 'No-Code Agent Builder' and 'Multi-Agent Orchestration' platform with a visual interface.
+    - Features explicitly list 'Deploy teams of agents that collaborate, share context, and coordinate complex multi-step workflows'.
+    - Supports MCP and local/remote AI models, but the primary identity is agent coordination, not coding assistance.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (429) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:46.385Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:49.387Z"
+    updated_at: "2026-05-06T22:43:34.940Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:03.583Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

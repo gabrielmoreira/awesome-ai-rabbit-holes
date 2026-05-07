@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gustavo-meilus__mcp-web-snapshot__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: Take snapshot of websites and deliver it to LLM tools.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:29.234Z"
+    last_checked_at: "2026-05-06T22:44:09.799Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.234Z"
+      fetched_at: "2026-05-06T22:44:09.799Z"
       bytes: 8596
 insights:
-  summary: An MCP server that uses Playwright to capture structured website snapshots, network activity, and console logs for consumption by LLM tools.
-  why_it_matters: It allows coding agents in editors like VS Code and Cursor to see and analyze live web pages, including network traffic and console output, without leaving the development environment.
-  mental_damage: We have successfully abstracted the browser into a JSON tree so your agent can hallucinate about the DOM instead of you having to open the dev tools yourself.
+  summary: An MCP server that uses Playwright to capture structured accessibility snapshots, network activity, and console logs from web pages for LLM consumption.
+  why_it_matters: It gives coding agents and MCP clients the ability to visually and technically inspect live web pages without leaving the assistant context.
+  mental_damage: We have successfully abstracted the browser so your agent can hallucinate about a DOM it never actually saw.
   tags:
     - mcp
     - playwright
-    - web-scraping
-    - context-engineering
-  confidence: high
+    - web-snapshot
+    - accessibility-tree
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide web snapshot capabilities to LLM clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The project is an MCP server providing web snapshot capabilities, and MCP is its core product identity rather than a compatibility footnote.
   evidence:
     - "Repo description states: 'Take snapshot of websites and deliver it to LLM tools.'"
-    - "README confirms: 'A Model Context Protocol (MCP) server that provides comprehensive website snapshot capabilities using Playwright.'"
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - README explicitly defines it as 'A Model Context Protocol (MCP) server that provides comprehensive website snapshot capabilities.'
+    - Seen in awesome-mcp-servers under 'Community Servers', reinforcing its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.234Z"
+    updated_at: "2026-05-06T22:44:09.799Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:16.841Z"
+    updated_at: "2026-05-06T22:59:13.255Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

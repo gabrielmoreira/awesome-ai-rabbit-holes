@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bakyang2__kr-crypto-intelligence__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Korean crypto market data API for AI agents. Kimchi premium, exchange prices, FX rates. x402 pay-per-use on Base.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:17.015Z"
+    last_checked_at: "2026-05-06T22:12:49.224Z"
     readme:
-      fetched_at: "2026-05-05T21:01:17.015Z"
+      fetched_at: "2026-05-06T22:12:49.224Z"
       bytes: 6652
 insights:
-  summary: A Korean crypto market data API and MCP server providing real-time exchange prices, arbitrage signals, sentiment analysis, and AI-powered market reads to AI agents via x402 pay-per-use micropayments.
-  why_it_matters: Developers building trading agents can plug into a single endpoint for Korean market intelligence and structured AI analysis without managing exchange integrations or subscription billing.
-  mental_damage: Finally, an API that lets your AI agent autonomously discover it's paying 3% extra for Bitcoin because of regional arbitrage, then charge your wallet for the privilege of knowing.
+  summary: A Korean crypto market data API and MCP server that provides AI-analyzed sentiment, Kimchi premium metrics, and exchange data to agents via the x402 micropayment protocol.
+  why_it_matters: Developers building crypto trading agents can plug into specialized Korean market intelligence and AI-generated sentiment without managing API keys, using pay-per-request USDC payments on Base, Polygon, or Solana.
+  mental_damage: We have successfully tokenized Claude's opinion on the Kimchi Premium, because apparently your arbitrage bot's hot take deserves its own verified invoice on the blockchain.
   tags:
-    - mcp
     - crypto
-    - api
-    - agents
+    - mcp
     - x402
-  confidence: high
+    - trading
+    - api
+  confidence: medium
 curation:
   status: included
-  reason: The project is fundamentally an MCP server implementation, offering both a REST API and a dedicated MCP endpoint for AI agents to consume Korean crypto market data.
+  reason: The MCP server is a first-class artifact (mcp.printmoneylab.com/mcp) and the product is distinctly a data server for agents, not a general framework or extension.
   evidence:
-    - "README explicitly lists 'MCP Server: https://mcp.printmoneylab.com/mcp' as a primary access point."
-    - Included in the awesome-mcp-servers list under 'Server Implementations > Finance & Fintech'.
-    - Repo description defines it as a 'Korean crypto market data API for AI agents' with x402 pay-per-use.
+    - "README explicitly lists 'MCP Server: https://mcp.printmoneylab.com/mcp' as a core endpoint."
+    - Seen in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server.
+    - Repo description defines it as 'Korean crypto market data API for AI agents' with x402 pay-per-use.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:17.015Z"
+    updated_at: "2026-05-06T22:12:49.224Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:11.143Z"
+    updated_at: "2026-05-06T22:23:30.992Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

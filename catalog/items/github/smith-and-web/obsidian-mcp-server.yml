@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smith-and-web__obsidian-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,68 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 14
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-01-09T20:00:39Z"
+    pushed_at: "2026-05-06T17:21:10Z"
+    description: MCP server for Obsidian vault management - enables Claude and other AI assistants to read, write, search, and organize your notes
+    homepage: https://github.com/smith-and-web/obsidian-mcp-server#readme
+    topics:
+      - ai
+      - claude
+      - markdown
+      - mcp
+      - model-context-protocol
+      - notes
+      - obsidian
+      - sse
+      - vault
+    last_checked_at: "2026-05-06T22:46:27.873Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:27.873Z"
+      bytes: 15122
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Obsidian vaults to AI assistants like Claude and Cursor for reading, writing, searching, and managing notes via SSE and npx.
+  why_it_matters: It lets developers treat their personal knowledge base as live context for coding assistants, bridging long-form notes and repo work without leaving the chat.
+  mental_damage: You can now ask your AI to refactor a function and reorganize your second brain at the same time, ensuring your notes are just as token-optimized as your codebase.
+  tags:
+    - mcp
+    - obsidian
+    - context
+    - notes
+    - sse
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server specifically built to give AI assistants access to Obsidian vaults, making MCP its core identity.
+  evidence:
+    - Repo description explicitly states 'MCP server for Obsidian vault management'
+    - README describes full MCP server implementation with SSE transport and npx/Docker usage
+    - Found in awesome-mcp-servers under Knowledge & Memory with MCP as the primary framing
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:27.873Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:14.620Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

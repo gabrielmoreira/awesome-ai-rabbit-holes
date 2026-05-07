@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carrierone__verilexdata-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -48,50 +48,50 @@ metadata:
       - sec-edgar
       - usdc
       - x402
-    last_checked_at: "2026-05-05T21:01:30.183Z"
+    last_checked_at: "2026-05-06T22:43:17.589Z"
     readme:
-      fetched_at: "2026-05-05T21:01:30.183Z"
+      fetched_at: "2026-05-06T22:43:17.589Z"
       bytes: 3174
 insights:
-  summary: An MCP server that exposes 20 structured datasets—including NPI, SEC, PACER, weather, and crypto intelligence—to AI agents via the Model Context Protocol with x402-powered USDC payments.
-  why_it_matters: It lets agents natively query fresh government, financial, and crypto data behind a pay-per-query wall without the developer wiring custom API integrations.
-  mental_damage: Your AI agent can now independently monitor whale wallets and federal court filings, then send USDC to settle the invoice before you even knew it was curious.
+  summary: An MCP server that exposes 20 structured datasets—including NPI, SEC, PACER, weather, and crypto intelligence—to AI agents via the Model Context Protocol.
+  why_it_matters: It lets coding agents natively query real-time government, financial, and crypto datasets without custom API glue code or manual data plumbing.
+  mental_damage: Yet another MCP server so your agent can hallucinate SEC filings and DeFi liquidations with official-looking confidence.
   tags:
     - mcp
-    - data-api
-    - x402
+    - data-access
     - ai-agents
+    - crypto
     - government-data
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation that exposes multiple data platforms to agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server exposing domain-specific datasets to agents, which is a direct fit for the MCP Domain Servers section.
   evidence:
-    - "Repo description explicitly states: 'MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents'."
-    - README confirms it is an MCP server installable into Claude Desktop, VS Code, and Cursor with 20 structured datasets.
-    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms, reinforcing its MCP-native identity.
+    - "Repo description explicitly states: 'MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents'"
+    - "README confirms: 'MCP server for Verilex Data — 20 structured datasets accessible from AI agents via the Model Context Protocol'"
+    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:30.183Z"
+    updated_at: "2026-05-06T22:43:17.590Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:28.106Z"
+    updated_at: "2026-05-06T22:48:08.243Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

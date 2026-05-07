@@ -1,13 +1,13 @@
 id: github__rubriclab__maige
 kind: github-repo
-name: Maige
+name: maige
 canonical_url: https://github.com/rubriclab/maige
 identity:
   github_repo: rubriclab/maige
 provenance:
   discoveries:
     - id: discovery__github__rubriclab__maige__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,47 +23,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 101
+    forks: 11
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-03-10T19:01:53Z"
+    pushed_at: "2026-04-13T21:44:34Z"
+    description: Open-source infrastructure for running natural language workflows on your codebase.
+    homepage: https://maige.app
+    topics:
+      - ai
+      - github
+      - issues
+    last_checked_at: "2026-05-06T22:46:12.925Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:12.925Z"
+      bytes: 2265
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests.
+  why_it_matters: It allows maintainers to offload routine repo management and triage directly to an AI agent that listens to GitHub events via webhooks.
+  mental_damage: Another opportunity to discover that your open-source workflow is now sufficiently complex to require an autonomous agent just to manage the issues you were pretending to fix.
+  tags:
+    - github
+    - automation
+    - issues
+    - natural-language
+    - repo-maintenance
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a GitHub App integration that adds automation capabilities to the repo/host layer rather than acting as a primary coding assistant that edits code.
+  evidence:
+    - Repo description states it is 'Open-source infrastructure for running natural language workflows on your codebase.'
+    - README demonstrates commands like 'maige assign me to this issue' and 'maige add the label...', focusing on issue/PR management rather than code editing.
+    - "GitHub App integration requires permissions only for 'Issue: Read & Write' and 'Pull Request: Read & Write'."
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:12.925Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:22.214Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

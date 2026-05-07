@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jau123__meigen-ai-design-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 947
-    forks: 130
+    stars: 956
+    forks: 131
     license: MIT
     archived: false
     created_at: "2026-02-07T12:39:26Z"
@@ -43,50 +43,50 @@ metadata:
       - model-context-protocol
       - openclaw
       - prompt-engineering
-    last_checked_at: "2026-05-05T21:02:52.776Z"
+    last_checked_at: "2026-05-06T22:44:31.972Z"
     readme:
-      fetched_at: "2026-05-05T21:02:52.776Z"
+      fetched_at: "2026-05-06T22:44:31.972Z"
       bytes: 13357
 insights:
-  summary: An MCP server that extends Claude Code and OpenClaw with image generation capabilities via GPT Image 2, Nanobanana, and local ComfyUI, featuring a library of over 1,400 curated prompts and multi-task orchestration.
-  why_it_matters: Developers can delegate complex design and image-generation tasks directly from their coding agent, enabling parallel batch generation and multi-direction workflows without leaving the terminal.
-  mental_damage: Your coding agent can now generate 1,500 variations of a perfume ad while you're still trying to decide if 'luxury minimalist' is a valid CSS framework name.
+  summary: An MCP server that gives coding assistants like Claude Code and OpenClaw visual design capabilities by orchestrating image generation models (GPT Image 2, Nanobanana, ComfyUI) alongside a library of 1,400+ curated prompts.
+  why_it_matters: It lets developers delegate multi-direction product photography and asset generation directly from their coding environment without leaving the terminal.
+  mental_damage: We have successfully abstracted graphic design into a 1,500-prompt JSON file so you can avoid learning Photoshop while your AI hallucinates brand guidelines in four parallel directions.
   tags:
     - mcp
     - image-generation
     - claude-code
-    - comfyui
     - prompt-engineering
+    - design-automation
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that integrates image generation models and a prompt library into AI coding assistants, fitting squarely into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server that extends assistants with design capabilities, fitting the MCP Servers & Tooling category over a generic extension label.
   evidence:
-    - Repo description explicitly states it is an MCP server for GPT Image 2, Nanobanana, and ComfyUI with a 1,400+ prompt library.
-    - README identifies it as 'An open-source MCP Server... that gives LLMs creative and aesthetic capabilities through 7 tools and carefully designed skills'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+    - Repo description explicitly identifies it as an MCP server with multi-task orchestration for image generation models.
+    - "README states: 'An open-source MCP Server (installed via plugin marketplace) that gives LLMs creative and aesthetic capabilities through 7 tools and carefully designed skills'."
+    - Listed in awesome-mcp-servers under 'Art & Culture' server implementations, confirming its identity as a domain-specific MCP tool.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (947) exceeded threshold (150)
+  reason: Stars (956) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:52.776Z"
+    updated_at: "2026-05-06T22:44:31.972Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:57.368Z"
+    updated_at: "2026-05-06T23:03:49.861Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

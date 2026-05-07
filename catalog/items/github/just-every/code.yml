@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__just-every__code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3731
-    forks: 228
+    stars: 3733
+    forks: 229
     license: Apache-2.0
     archived: false
     created_at: "2025-08-10T05:04:55Z"
@@ -46,50 +46,50 @@ metadata:
       - grok
       - opanai
       - qwen
-    last_checked_at: "2026-05-05T21:03:01.122Z"
+    last_checked_at: "2026-05-06T22:44:38.876Z"
     readme:
-      fetched_at: "2026-05-05T21:03:01.122Z"
+      fetched_at: "2026-05-06T22:44:38.876Z"
       bytes: 13696
 insights:
-  summary: A community fork of the OpenAI Codex CLI that adds browser integration, multi-agent orchestration, theming, and background code review for terminal-based AI coding workflows.
-  why_it_matters: It lets developers run multi-model coding agents locally in the terminal with background reviews and browser automation, without waiting for upstream CLI polish.
-  mental_damage: We are now forking the CLI that forks the model that finishes the sentence you started three prompts ago, and somehow this still feels like progress.
+  summary: Every Code is a community-driven fork of the OpenAI Codex CLI that adds multi-agent orchestration, browser integration, background Auto Review, and theming while supporting models from OpenAI, Claude, Gemini, and other providers.
+  why_it_matters: It turns a single-model CLI assistant into a multi-agent terminal environment with background code review and browser control, letting developers delegate longer-running repo tasks without blocking their shell.
+  mental_damage: Just when you thought one terminal-bound AI assistant was enough, a fork arrives to remind you that the real frontier isn't the model—it's how many agents you can orchestrate before you stop reviewing the code entirely.
   tags:
     - cli
     - multi-agent
+    - coding-agent
     - terminal
     - codex
-    - local-ai
   confidence: high
 curation:
   status: included
-  reason: This is a terminal-native coding agent that directly edits, reviews, and orchestrates code in a local repo workflow, which matches the coding-agents category.
+  reason: The product is a standalone terminal coding assistant that plans, edits, and reviews code across a repo, and is already recognized in the awesome-cli-coding-agents list as a terminal-native agent.
   evidence:
-    - Repo description calls it a 'fork of the Codex CLI' with 'multi-agents' and 'browser integration'.
-    - README says 'Every Code is a fast, local coding agent for your terminal'.
+    - "Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more. Orchestrate agents from OpenAI, Claude, Gemini or any provider.'"
+    - "README: 'Every Code (Code for short) is a fast, local coding agent for your terminal... focused on real developer ergonomics.'"
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3731) exceeded threshold (150)
+  reason: Stars (3733) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:01.122Z"
+    updated_at: "2026-05-06T22:44:38.876Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:44.630Z"
+    updated_at: "2026-05-06T23:05:12.650Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

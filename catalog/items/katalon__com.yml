@@ -1,12 +1,12 @@
 id: katalon__com
 kind: website
-name: Katalon Studio
+name: katalon.com
 canonical_url: https://katalon.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__katalon__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Katalon True Platform is an AI-augmented testing platform that uses a suite of agents to analyze requirements, generate and execute test cases, and report on software quality across web, mobile, API, and desktop applications.
-  why_it_matters: It offers developers and QA teams an agentic workflow to automate the full testing lifecycle—from requirement analysis to production monitoring—without requiring deep automation scripting.
-  mental_damage: Yet another 'agentic' platform promising to automate the boring testing work, ensuring you can spend 100% of your time arguing with the AI about why the test it just wrote doesn't actually cover the edge case you whispered about three days ago.
+  summary: Katalon True Platform is an AI-augmented software quality suite that uses specialized agents to analyze requirements, generate and execute test cases, report bugs, and monitor production quality across web, mobile, API, and desktop applications.
+  why_it_matters: It allows developers and QA teams to delegate tedious test creation and execution workflows to AI agents, aiming to close coverage gaps without writing traditional automation scripts.
+  mental_damage: Another platform promising that AI agents will finally handle the testing burden, leaving you free to spend your afternoon tweaking the natural-language prompts that replaced your old Selenium boilerplate.
   tags:
+    - testing
+    - qa
     - agents
     - automation
-    - ci-cd
-    - qa
-    - testing
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: While it includes agents, the platform primarily extends the developer/QA workflow with testing-specific AI skills (generation, execution, analysis) rather than acting as a primary coding assistant that edits source code in an IDE or repo.
+  reason: The platform's core identity is a suite of specialized AI agents (Requirement Analyzer, Test Generation Agent, Bug Reporter, Root Cause Analyzer) that autonomously handle the coding-adjacent workflow of testing and repair.
   evidence:
-    - Described as an 'AI platform that plans, authors, executes, and analyzes quality' specifically for testing workflows.
-    - Features specific testing agents like 'Test Generation Agent', 'Autonomous Test Runner', and 'Root Cause Analyzer' rather than general code editing.
-    - Listed under 'Testing and QA' in the awesome-ai-coding-tools directory, indicating a QA-specific tooling fit.
+    - Site describes 'a team of AI agents ready to work for you' including Test Generation and Root Cause Analyzer.
+    - Listed in awesome-ai-coding-tools under 'Testing and QA' section.
+    - Features an 'Autonomous Test Runner' that executes natural-language test cases without automation scripts.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:48.356Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:49.042Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

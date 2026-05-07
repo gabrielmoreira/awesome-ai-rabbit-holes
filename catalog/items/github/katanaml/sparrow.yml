@@ -1,0 +1,89 @@
+id: github__katanaml__sparrow
+kind: github-repo
+name: sparrow
+canonical_url: https://github.com/katanaml/sparrow
+identity:
+  github_repo: katanaml/sparrow
+provenance:
+  discoveries:
+    - id: discovery__github__katanaml__sparrow__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: Sparrow
+        extracted_url: https://github.com/katanaml/sparrow
+        surrounding_text: "8. [Sparrow](https://github.com/katanaml/sparrow): Sparrow is an innovative open-source solution for efficient data extraction and processing from various documents and images."
+        confidence: high
+metadata:
+  github:
+    stars: 5156
+    forks: 515
+    license: GPL-3.0
+    archived: false
+    created_at: "2022-01-08T08:45:44Z"
+    pushed_at: "2026-05-03T15:46:40Z"
+    description: Structured data extraction and instruction calling with ML, LLM and Vision LLM
+    homepage: https://sparrow.katanaml.io
+    topics:
+      - computer-vision
+      - gpt
+      - huggingface-transformers
+      - llm
+      - machinelearning
+      - nlp-machine-learning
+      - rag
+      - vllm
+    last_checked_at: "2026-05-06T22:44:40.740Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:40.740Z"
+      bytes: 26482
+insights:
+  summary: Sparrow is a production-oriented platform for extracting structured data from documents and images using ML, LLMs, and Vision LLMs, featuring a pluggable architecture and API-first design.
+  why_it_matters: It provides developers with a ready-to-integrate stack to turn messy invoices, forms, and tables into validated JSON without building custom extraction pipelines from scratch.
+  mental_damage: Yet another reminder that while we’re busy arguing about which AI writes the best React component, the actual enterprise money is in teaching models to read PDFs without hallucinating the invoice total.
+  tags:
+    - structured-extraction
+    - document-ai
+    - vision-llm
+    - local-ai
+    - api-first
+  confidence: high
+curation:
+  status: excluded
+  reason: While technically impressive, Sparrow is a document-processing and data-extraction product, not a tool that assists developers in writing, reviewing, or managing code.
+  evidence:
+    - Repo description explicitly focuses on 'Structured data extraction and instruction calling' rather than coding assistance.
+    - README highlights use cases around invoices, receipts, and forms, with features like OCR and bounding box annotation.
+    - Listed in awesome-LLM-resources under a 'Data' section, signaling a data/ML resource rather than a developer productivity tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5156) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.624Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:40.740Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:39.702Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__thegraph-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp) 🐍 ☁️ -  An MCP server that powers AI agents with indexed blockchain data from The Graph."
         confidence: high
     - id: discovery__github__kukapay__thegraph-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: An MCP server that powers AI agents with indexed blockchain data from The Graph.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:12.738Z"
+    last_checked_at: "2026-05-06T22:44:50.864Z"
     readme:
-      fetched_at: "2026-05-05T21:03:12.738Z"
+      fetched_at: "2026-05-06T22:44:50.864Z"
       bytes: 2966
 insights:
-  summary: A Model Context Protocol server that provides AI agents with tools to fetch schemas and execute GraphQL queries against The Graph's indexed blockchain data.
-  why_it_matters: It allows developers to build AI agents that can query on-chain data via natural language without manually writing or maintaining GraphQL queries.
-  mental_damage: Another MCP server appears in the registry, ensuring your blockchain agent can now hallucinate token prices with the full authority of a verified subgraph schema.
+  summary: An MCP server that exposes The Graph's indexed blockchain data to AI agents via tools for fetching subgraph schemas and executing GraphQL queries.
+  why_it_matters: It allows developers to build or extend AI agents that can directly reason over and query on-chain data using natural language.
+  mental_damage: We now have a protocol translating blockchain data into context windows, just in case your AI agent develops a sudden, burning need to analyze Uniswap liquidity at 3 AM.
   tags:
     - mcp
     - blockchain
-    - the-graph
-    - ai-agents
+    - graphql
+    - ai-agent
+    - data-access
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to give AI agents access to blockchain data from The Graph.
+  reason: The product is explicitly an MCP server designed to give AI agents access to a specific domain (blockchain data), fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that powers AI agents with indexed blockchain data from The Graph.'"
-    - README details specific MCP tools (getSubgraphSchema, querySubgraph) for GraphQL interaction.
-    - Listed in both awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
+    - "Repo description states: 'An MCP server that powers AI agents with indexed blockchain data from The Graph.'"
+    - README lists available tools like 'getSubgraphSchema' and 'querySubgraph' specifically for MCP integration.
+    - Included in 'awesome-mcp-servers' under the Finance & Fintech section, confirming its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:12.738Z"
+    updated_at: "2026-05-06T22:44:50.864Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:24.822Z"
+    updated_at: "2026-05-06T23:07:45.553Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

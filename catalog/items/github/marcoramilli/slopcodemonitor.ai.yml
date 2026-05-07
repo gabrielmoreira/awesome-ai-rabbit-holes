@@ -1,13 +1,13 @@
 id: github__marcoramilli__slopcodemonitor.ai
 kind: github-repo
-name: AICodeSlopMonitor
+name: slopcodemonitor.ai
 canonical_url: https://github.com/marcoramilli/slopcodemonitor.ai
 identity:
   github_repo: marcoramilli/slopcodemonitor.ai
 provenance:
   discoveries:
     - id: discovery__github__marcoramilli__slopcodemonitor.ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,49 +39,49 @@ metadata:
       - code-analysis-tool
       - code-analyzer
       - code-review
-    last_checked_at: "2026-05-05T21:03:29.069Z"
+    last_checked_at: "2026-05-06T22:45:07.990Z"
     readme:
-      fetched_at: "2026-05-05T21:03:29.069Z"
+      fetched_at: "2026-05-06T22:45:07.990Z"
       bytes: 6052
 insights:
-  summary: A daily automated scanner that analyzes trending GitHub repositories to detect and score AI-generated code patterns using the SynthScan fingerprint engine.
-  why_it_matters: It provides developers and maintainers with visibility into the prevalence of low-quality AI-generated 'slop' within popular open-source projects.
-  mental_damage: We've reached the point where we need automated tools to tell us how much of the code was written by the very tools we bought to save us time.
+  summary: A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns.
+  why_it_matters: It gives maintainers and code reviewers a quantitative signal to distinguish human-authored logic from repetitive, AI-generated boilerplate in popular open-source projects.
+  mental_damage: We now need automated tools to tell us which code was written by the same hallucinating autocomplete we just finished installing.
   tags:
+    - code-review
     - ai-detection
-    - code-analysis
-    - code-quality
-    - github-scanner
+    - quality-analysis
+    - dashboard
   confidence: medium
 curation:
   status: included
-  reason: The project functions as an evaluation and observability layer for AI-generated code quality across the open-source ecosystem, fitting the evals category.
+  reason: The core job is measuring and scoring codebases for AI-generation patterns via a Synth Score, fitting the evals category's focus on measuring and scoring model/prompt/agent output behavior.
   evidence:
-    - README describes it as a system that computes a 'Synth Score' (0-10) for repositories based on synthetic patterns.
-    - It is listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
-    - The tool generates daily reports and dashboards analyzing the behavior and output quality of AI coding assistance.
+    - README states it 'automatically scans... looking for telltale signs of AI-generated code' and computes a 'Synth Score (0–10)'.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as 'AI Code Slop Monitor'.
+    - It is a daily-updated dashboard and report generator rather than an interactive coding assistant.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:34.760Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:29.069Z"
+    updated_at: "2026-05-06T22:45:07.990Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:11:39.588Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

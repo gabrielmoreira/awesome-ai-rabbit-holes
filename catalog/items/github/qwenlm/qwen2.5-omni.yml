@@ -1,0 +1,81 @@
+id: github__qwenlm__qwen2.5-omni
+kind: github-repo
+name: qwen2.5-omni
+canonical_url: https://github.com/qwenlm/qwen2.5-omni
+identity:
+  github_repo: qwenlm/qwen2.5-omni
+provenance:
+  discoveries:
+    - id: discovery__github__qwenlm__qwen2.5-omni__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: Qwen2.5-Omni technical report
+        extracted_url: https://github.com/qwenlm/qwen2.5-omni
+        surrounding_text: 41. [Qwen2.5-Omni technical report](https://github.com/QwenLM/Qwen2.5-Omni/blob/main/assets/Qwen2.5_Omni.pdf)
+        confidence: high
+metadata:
+  github:
+    stars: 3986
+    forks: 323
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-22T01:43:13Z"
+    pushed_at: "2025-06-12T11:03:07Z"
+    description: Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:04.344Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:04.344Z"
+      bytes: 59911
+insights:
+  summary: Qwen2.5-Omni is an end-to-end multimodal model from Alibaba Cloud that processes text, images, audio, and video inputs while generating real-time streaming text and speech responses.
+  why_it_matters: Developers building multimodal applications can self-host or API-call a single model that handles vision, audio, and text understanding with real-time voice synthesis capabilities.
+  mental_damage: "Just what every backend engineer wanted: a 7B parameter model that can see your screenshots, hear your voice, and still somehow misunderstand the requirements as effectively as a text-only LLM."
+  tags:
+    - multimodal
+    - local-ai
+    - alibaba
+    - speech-synthesis
+    - vision
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a base multimodal model release (weights, inference code, and API) rather than a developer-facing tool, agent, framework, or infrastructure product that fits the catalog's scope of practical AI tooling.
+  evidence:
+    - Repo description explicitly states this is 'an end-to-end multimodal model' for understanding text, audio, vision, video, and performing speech generation.
+    - README is centered on model weights, HuggingFace/ModelScope downloads, transformers usage, vLLM deployment, and benchmark leaderboards.
+    - Listed in awesome-LLM-resources under '论文 Paper' (academic papers) section, signaling research/model resource rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3986) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.644Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:04.344Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:13.259Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

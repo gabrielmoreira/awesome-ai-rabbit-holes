@@ -1,12 +1,12 @@
 id: mcp__so
 kind: website
-name: MCP.so
+name: mcp.so
 canonical_url: https://mcp.so
 identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__so__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "- **[MCP.so](https://mcp.so/)** – Platform for MCP server resources and community."
         confidence: high
     - id: discovery__mcp__so__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,43 +49,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-driven directory and marketplace that indexes over 20,000 MCP servers, clients, and tools for AI applications.
-  why_it_matters: It serves as a central navigation hub for developers looking to discover and integrate specific Model Context Protocol capabilities into their AI workflows.
-  mental_damage: Just when you thought the npm ecosystem was the peak of dependency hell, we now have a registry for the registries that teach your LLM how to use the registry.
+  summary: A community-driven directory that collects, organizes, and indexes over 20,000 third-party MCP servers and clients for discovery and integration.
+  why_it_matters: Developers can quickly search and evaluate MCP servers to extend AI assistants with new tools, data sources, and capabilities without hunting across scattered repositories.
+  mental_damage: You now have 20,728 servers to browse before you can feel properly insecure about which one might automate the one task you actually do at work.
   tags:
-    - ai-tooling
-    - directory
-    - marketplace
     - mcp
+    - directory
+    - discovery
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a directory and discovery platform for MCP servers and clients, fitting the 'Awesome Awesomes' category for navigation aids rather than being a tool itself.
+  reason: The product is a discovery and navigation directory for MCP servers and clients, which fits squarely as a developer-facing map of the ecosystem rather than a standalone tool, framework, or agent.
   evidence:
-    - Scraped site context describes it as a 'community-driven platform that collects and organizes third-party MCP Servers' and a 'central directory'.
-    - The site lists 20,700+ MCP servers across categories like Official, Hosted, and Clients.
-    - Listed in 'awesome-ai-coding-tools' under the section 'MCP Servers and Directories'.
+    - "Homepage states: 'mcp.so is a community-driven platform that collects and organizes third-party MCP Servers. It serves as a central directory...'"
+    - Lists 20,728 MCP Servers and catalogs them by categories, clients, hosted servers, and official servers.
+    - Featured in awesome-ai-coding-tools under 'MCP Servers and Directories' as a discovery hub.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:26.117Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:39.052Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

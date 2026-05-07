@@ -1,13 +1,13 @@
 id: github__akuity__awesome-argo
 kind: github-repo
-name: Awesome Argo
+name: awesome-argo
 canonical_url: https://github.com/akuity/awesome-argo
 identity:
   github_repo: akuity/awesome-argo
 provenance:
   discoveries:
-    - id: discovery__github__terrytangyuan__awesome-argo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__akuity__awesome-argo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2424
+    stars: 2425
     forks: 193
     license: Apache-2.0
     archived: false
@@ -52,50 +52,50 @@ metadata:
       - workflow-engine
       - workflow-management
       - workflow-orchestration
-    last_checked_at: "2026-05-05T21:00:57.186Z"
+    last_checked_at: "2026-05-06T22:12:32.463Z"
     readme:
-      fetched_at: "2026-05-05T21:00:57.186Z"
+      fetched_at: "2026-05-06T22:12:32.463Z"
       bytes: 56458
 insights:
-  summary: A curated list of projects, resources, and learning materials related to the Argo ecosystem for Kubernetes, including Workflows, CD, Rollouts, and Events.
-  why_it_matters: It serves as a centralized navigation aid for developers looking to integrate Kubernetes-native CI/CD, MLOps, and workflow orchestration tools into their infrastructure.
-  mental_damage: "Just what the over-engineered modern stack needed: a dedicated map to ensure you can spend three weeks evaluating which Argo flavor best orchestrates your YAML."
+  summary: A curated awesome list of projects and resources related to the Argo ecosystem, including Workflows, CD, Rollouts, and Events.
+  why_it_matters: It serves as a centralized map for developers navigating Kubernetes-native CI/CD and MLOps tooling within the CNCF landscape.
+  mental_damage: Because simply installing Argo wasn't complex enough, you now need a curated list of 2,400 stars just to figure out which flavor of YAML hell you're walking into.
   tags:
-    - argoproj
-    - ci-cd
-    - gitops
+    - argo
     - kubernetes
+    - devops
     - mlops
+    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list of resources for the Argo ecosystem, fitting the awesome-awesomes category as a navigation aid for developers, despite not being AI-specific.
+  reason: This is a curated index of ecosystem tools rather than a standalone developer product, making it a navigation aid for the catalog.
   evidence:
-    - "Repo description: 'A curated list of awesome projects and resources related to Argo'"
-    - README defines Argo as 'open source tools for deploying and running applications and workloads on Kubernetes'
-    - Topics include 'awesome-list' and 'machine-learning', indicating a broad DevOps/MLOps directory
+    - Repo description explicitly states it is 'A curated list of awesome projects and resources related to Argo'.
+    - The README organizes ecosystem projects, books, blogs, and videos rather than providing a runnable tool.
+    - It is listed in 'Awesome-LLMOps' as an 'Awesome List', confirming its identity as a directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2424) exceeded threshold (150)
+  reason: Stars (2425) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:09.998Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:57.186Z"
+    updated_at: "2026-05-06T22:12:32.463Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:07.675Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__madebyaris__spec-kit-command-cursor__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -45,49 +45,50 @@ metadata:
       - specifications
       - tasks
       - templates
-    last_checked_at: "2026-05-05T21:03:27.060Z"
+    last_checked_at: "2026-05-06T22:45:06.197Z"
     readme:
-      fetched_at: "2026-05-05T21:03:27.060Z"
+      fetched_at: "2026-05-06T22:45:06.197Z"
       bytes: 12423
 insights:
-  summary: A Cursor IDE command pack that adds spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, task breakdowns, and implemented code.
-  why_it_matters: It lets developers enforce a spec-first discipline inside Cursor, replacing ad-hoc prompting with structured briefs, dependency-aware task graphs, and checkpointed execution.
-  mental_damage: Now you can over-engineer a five-file specification for a login form before you’ve written a single line of code, which is definitely not just procrastination if you call it SDD.
+  summary: A command pack for Cursor IDE that provides spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, tasks, and code.
+  why_it_matters: It forces a spec-first discipline directly inside Cursor, giving developers a structured planning and execution loop instead of relying on improvisational prompting.
+  mental_damage: Now you can feel properly guilty about skipping the /specify phase while your subagents politely spawn child subagents to document exactly how little architecture you actually did.
   tags:
     - cursor
-    - spec-driven-development
+    - sdd
+    - spec-driven
     - slash-commands
-    - rules-pack
+    - task-orchestration
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable command and rules pack distributed for Cursor IDE, which maps directly to the skills category rather than a standalone coding agent.
+  reason: This is a spec-first environment that makes structured specifications, plans, and task execution the primary artifact inside Cursor IDE.
   evidence:
-    - Repo description explicitly calls it an 'SDD toolkit for Cursor IDE' with slash commands like /specify, /plan, and /tasks.
-    - README shows distributable plugin packaging via .cursor-plugin/ and commands that extend Cursor's agent runtime.
-    - Listed in awesome-spec-driven-development under IDE & Editor Integrations, confirming its role as a host extension layer.
+    - Repo description explicitly calls it an 'SDD toolkit for Cursor IDE' with /specify, /plan, /tasks commands.
+    - README details v5.1 features like roadmaps, DAG execution, checkpoints, and evolve workflows centered on specs as the controlling artifact.
+    - Listed in awesome-spec-driven-development under 'IDE & Editor Integrations', reinforcing its SDD identity.
 placement:
-  primary_category: skills
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
   reason: Stars (177) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:27.060Z"
+    updated_at: "2026-05-06T22:45:06.197Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:13.557Z"
+    updated_at: "2026-05-06T23:11:12.070Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

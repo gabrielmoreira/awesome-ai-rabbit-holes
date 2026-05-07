@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laundromatic__shopgraph__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,22 +20,6 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: laundromatic/shopgraph
         extracted_url: https://github.com/laundromatic/shopgraph
-        surrounding_text: "- [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph) 📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay per call via Stripe. [shopgraph.dev](https://shopgraph.dev)"
-        confidence: high
-    - id: discovery__shopgraph__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🛒 <a name="e-commerce"></a>E-Commerce
-        anchor_text: shopgraph.dev
-        extracted_url: https://shopgraph.dev
         surrounding_text: "- [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph) 📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay per call via Stripe. [shopgraph.dev](https://shopgraph.dev)"
         confidence: high
 metadata:
@@ -61,53 +45,49 @@ metadata:
       - stripe-mpp
       - structured-data
       - ucp
-    last_checked_at: "2026-05-05T21:03:17.546Z"
+    last_checked_at: "2026-05-06T22:44:56.631Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.546Z"
+      fetched_at: "2026-05-06T22:44:56.631Z"
       bytes: 6469
 insights:
-  summary: A product data extraction API and MCP server that structures e-commerce page content into JSON with per-field confidence scoring and extraction provenance.
-  why_it_matters: Developers building shopping or commerce agents can integrate structured product data with confidence thresholds to filter unreliable extractions before they reach their application logic.
-  mental_damage: We now have an API that grades its own homework per field, so you can confidently ship a product price to production while knowing the confidence score itself might be questionable.
+  summary: A structured extraction API and MCP server that turns product URLs or HTML into JSON with per-field confidence scoring and extraction provenance.
+  why_it_matters: Developers building commerce agents can stop guessing whether extracted product data is real or hallucinated by filtering low-confidence fields server-side before they reach the agent.
+  mental_damage: We have finally built an API that confesses exactly how uncertain it is, so your agent can now hallucinate with complete transparency.
   tags:
-    - agent-tooling
-    - confidence-scoring
-    - e-commerce
+    - mcp
     - ecommerce
     - extraction
-    - mcp
+    - structured-data
   confidence: high
 curation:
   status: included
-  reason: This is a hosted extraction service that explicitly provides an MCP server endpoint, fitting cleanly into MCP infrastructure tooling for developers.
+  reason: The product's primary identity is a domain-specific MCP server and REST API for product data extraction, not a coding assistant, framework, or extension.
   evidence:
-    - "Repo description: 'REST API + MCP server' with MCP configuration shown in README."
-    - Listed under 'Server Implementations > E-Commerce' in awesome-mcp-servers.
-    - README includes MCP client compatibility with Claude, Cursor, Windsurf, CrewAI, LangGraph, and AutoGen.
-    - Listed in awesome-mcp-servers under 'Server Implementations > E-Commerce' as a product data extraction tool for agents.
-    - Site describes itself as an extraction API with per-field provenance and confidence scoring specifically for agent consumption.
+    - Repo description explicitly calls it an 'extraction API' and 'REST API + MCP server'.
+    - README highlights MCP configuration for Claude, Cursor, Windsurf, and other MCP clients.
+    - Source list awesome-mcp-servers includes it under E-Commerce domain servers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:24.759Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.546Z"
+    updated_at: "2026-05-06T22:44:56.631Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:54.837Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

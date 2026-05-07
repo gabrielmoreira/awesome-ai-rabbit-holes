@@ -1,12 +1,12 @@
 id: contextqa__com
 kind: website
-name: ContextQA
+name: contextqa.com
 canonical_url: https://contextqa.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__contextqa__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ContextQA is an enterprise-focused AI testing platform that auto-generates UI, API, and backend tests, heals broken selectors, and validates AI agent behavior including hallucination detection.
-  why_it_matters: It integrates directly with developer workflows via MCP in Cursor and Claude Code, allowing teams to generate and run test suites in plain English without leaving their IDE.
-  mental_damage: We have finally automated the automation, meaning the only thing left for developers to do is argue with an AI about whether the AI testing the other AI is hallucinating.
+  summary: ContextQA is an enterprise QA automation platform that auto-generates and heals UI, API, and backend tests, with specialized tooling for validating AI agent behavior and MCP integrations for Cursor and Claude Code.
+  why_it_matters: It lets teams generate end-to-end test suites from flows, auto-heal broken selectors, and run adversarial scenarios against AI agents without manual scripting or code instrumentation.
+  mental_damage: You can now outsource your regression anxiety to an agent that patches its own broken selectors, while you debug why your Cursor MCP integration still thinks a button is where it was three deploys ago.
   tags:
-    - ai-agents
-    - enterprise
-    - mcp
     - qa
     - testing
+    - ai-agents
+    - mcp
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: While it is a testing platform, its inclusion in the catalog is driven by its MCP integration that extends host coding agents like Cursor and Claude Code with test generation and execution capabilities.
+  reason: Its core job is measuring, scoring, and regression-testing AI agent behavior with adversarial scenarios and AI judgment, which maps directly to the evals category rather than being a general coding assistant or platform.
   evidence:
-    - Source-list context confirms inclusion in awesome-ai-agents for 'MCP integration with Cursor & Claude Code'
-    - "Site excerpt states: 'Developers inspect failures and fix bugs, all through the MCP, no context switching.'"
-    - Site excerpt describes the product as 'AI-powered QA automation platform that generates tests, auto-heals broken selectors, and provides root cause analysis.'
+    - "Site states it 'generates hundreds of adversarial and functional scenarios: hallucination traps, edge cases, multi-turn conversations, and policy violations' for AI agents."
+    - Scoring is done via 'configurable criteria using AI judgment and deterministic checks' with confidence scores, not just functional test execution.
+    - Includes continuous regression testing that 're-runs your full scenario suite against each new version and surfaces behavioral drift', a classic eval workflow.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:18.492Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:35.750Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

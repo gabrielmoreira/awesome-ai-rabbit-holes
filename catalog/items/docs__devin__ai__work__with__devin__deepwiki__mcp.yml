@@ -1,12 +1,12 @@
 id: docs__devin__ai__work__with__devin__deepwiki__mcp
 kind: website
-name: DeepWiki by Devin
+name: deepwiki-mcp
 canonical_url: https://docs.devin.ai/work-with-devin/deepwiki-mcp
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__devin__ai__work__with__devin__deepwiki__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Model Context Protocol server that exposes Devin's DeepWiki knowledge base to MCP-compatible clients.
-  why_it_matters: Developers can connect Devin's indexed documentation and wikis directly into their MCP-aware workflows without building custom integrations.
-  mental_damage: We have now achieved the architectural milestone of wrapping a documentation index inside a protocol wrapper so your AI can browse its own encyclopedia.
+  summary: An MCP server that exposes Devin's DeepWiki documentation and technical knowledge to MCP-compatible coding assistants.
+  why_it_matters: It lets developers query Devin's internal wiki and documentation context directly from their AI coding tools instead of switching contexts to a browser.
+  mental_damage: We have now achieved the milestone of building protocol adapters so our AI assistants can read the documentation of other AI assistants.
   tags:
-    - devin
-    - knowledge-base
     - mcp
-    - protocol
-  confidence: high
+    - devin
+    - documentation
+    - context
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server listed under official MCP servers, making it a clean fit for the MCP Servers and Tooling category.
+  reason: DeepWiki-MCP is an MCP server that provides access to Devin's DeepWiki, making MCP infrastructure its primary product identity rather than a compatibility footnote.
   evidence:
-    - URL is under docs.devin.ai/work-with-devin/deepwiki-mcp, indicating an official Devin MCP integration
-    - Seen in awesome-mcp-servers under the 'Official Servers' section
+    - Listed in awesome-mcp-servers under the 'Official Servers' section
+    - URL is under docs.devin.ai/work-with-devin/deepwiki-mcp, indicating it is an MCP server product
+    - No repo description or README provided, but the URL path and source-list placement confirm MCP server identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:59.092Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:29.430Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

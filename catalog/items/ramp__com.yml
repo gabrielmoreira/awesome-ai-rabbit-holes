@@ -1,12 +1,12 @@
 id: ramp__com
 kind: website
-name: Ramp
+name: ramp.com
 canonical_url: https://ramp.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__ramp__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ramp is a corporate charge card and expense management platform for businesses.
-  why_it_matters: It automates expense reporting and accounting integrations, allowing developers working on internal tooling to offload financial workflow management.
-  mental_damage: We are now officially at the stage where a startup that sells you better Visa cards is considered a vital piece of AI infrastructure.
+  summary: Ramp.com is a corporate expense management and financial operations platform for businesses, not a developer-facing AI tool.
+  why_it_matters: It does not meaningfully impact developer workflows in the context of AI tooling, coding agents, or infrastructure.
+  mental_damage: Watching a corporate spend-management SaaS somehow get cross-listed as an MCP server is the kind of ecosystem drift that makes you question whether anyone is actually reviewing these lists.
   tags:
-    - b2b-saas
-    - expense-management
-    - fintech
+    - not-a-dev-tool
+    - off-topic
+    - mislisted
   confidence: high
 curation:
   status: excluded
-  reason: Ramp is a financial services product for expense management, not a developer-facing AI tool, agent, or infrastructure component, despite its appearance in a generic MCP server list.
+  reason: Ramp is a business finance platform with no visible AI developer-tooling identity, and its presence in awesome-mcp-servers appears to be a mislisting or conceptual stretch that does not meet catalog scope.
   evidence:
-    - The URL https://ramp.com resolves to a corporate charge card and expense management platform, not an AI tool.
-    - The project has no repository description, stars, or code-related topics to suggest it is a developer tool.
-    - Mere inclusion in an awesome-mcp-servers list does not override the fact that the core product is a B2B fintech service.
+    - URL points to ramp.com, a known corporate expense management platform, not an AI tool.
+    - No repo description, README, or scraped context provided to indicate AI, MCP, or developer-tooling substance.
+    - Listed in awesome-mcp-servers under 'Official Servers', but the product itself is not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:24.369Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:47.956Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

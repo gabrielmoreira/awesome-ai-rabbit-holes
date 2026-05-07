@@ -1,12 +1,12 @@
 id: www__claros__so
 kind: website
-name: Claros AI Shopper
+name: www.claros.so
 canonical_url: https://www.claros.so
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__claros__so__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claros is an AI-powered shopping assistant designed to help consumers research and compare products through conversational search.
-  why_it_matters: It represents the application of agentic workflows to vertical consumer use cases, though it targets shoppers rather than software developers.
-  mental_damage: We have successfully reached the point where the 'AI agent' directory is so broad it includes tools for buying a new toaster.
+  summary: Claros is an AI shopping agent designed to help consumers research and purchase products online.
+  why_it_matters: It represents the growing trend of autonomous agents targeting end-user consumer workflows rather than developer tooling.
+  mental_damage: We have reached the point where 'AI agents' can be found in both your IDE and your shopping cart, yet neither can successfully configure your CI pipeline.
   tags:
-    - agent
-    - consumer-ai
-    - shopping
+    - ai-agents
+    - e-commerce
+    - consumer
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing shopping assistant with no discernible developer-tooling, coding, or infrastructure utility.
+  reason: Excluded because the product is a consumer-facing shopping assistant with no developer-tooling angle, despite appearing in a general AI agents list.
   evidence:
-    - Listed in awesome-ai-agents under the section 'Claros AI Shopper', indicating a consumer retail focus.
-    - The URL resolves to a 'www.claros.so' domain, typical of a SaaS product rather than a developer library or tool.
-    - No repository description, README, or code context provided that suggests utility for software development workflows.
+    - Seen in awesome-ai-agents under section 'Claros AI Shopper', indicating a consumer e-commerce focus.
+    - URL resolves to www.claros.so with no evidence of code, SDK, or developer workflow integration.
+    - No repository description, README, or scraped context suggesting developer utility or IDE/code integration.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:04.092Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:22.577Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

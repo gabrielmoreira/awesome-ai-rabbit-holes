@@ -1,13 +1,13 @@
 id: github__askbudi__roundtable
 kind: github-repo
-name: Roundtable
+name: roundtable
 canonical_url: https://github.com/askbudi/roundtable
 identity:
   github_repo: askbudi/roundtable
 provenance:
   discoveries:
     - id: discovery__github__askbudi__roundtable__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [askbudi/roundtable](https://github.com/askbudi/roundtable) 📇 ☁️ 🏠 🍎 🪟 🐧 - Meta-MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized MCP interface, providing zero-configuration access to the entire AI coding ecosystem."
         confidence: high
     - id: discovery__github__askbudi__roundtable__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 103
+    stars: 104
     forks: 15
     license: null
     archived: false
@@ -54,50 +54,49 @@ metadata:
       - mcp-server
       - openai-codex
       - vibe-coding
-    last_checked_at: "2026-05-05T21:01:10.673Z"
+    last_checked_at: "2026-05-06T22:12:44.265Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.673Z"
+      fetched_at: "2026-05-06T22:12:44.265Z"
       bytes: 24625
 insights:
-  summary: A zero-configuration MCP server that allows developers to delegate tasks from a primary IDE AI assistant to multiple specialized sub-agents like Codex, Claude, Cursor, and Gemini in parallel.
-  why_it_matters: It enables a multi-model workflow directly inside the IDE, allowing developers to leverage the specific strengths of different AI models (e.g., Gemini's context window, Claude's reasoning) without manual context switching or copy-pasting.
-  mental_damage: We have successfully built infrastructure to manage the cognitive load of managing the infrastructure that manages the AI assistants that are managing our code.
+  summary: A zero-configuration MCP server that coordinates multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) to execute tasks in parallel from a single IDE prompt.
+  why_it_matters: It allows developers to delegate sub-tasks to specialized models with shared context without manually switching between different AI tool CLIs.
+  mental_damage: Finally, a unified protocol to manage the crippling anxiety of choosing which AI assistant is currently least likely to hallucinate your production credentials.
   tags:
-    - ide-integration
-    - local-server
     - mcp
     - multi-agent
-    - python
+    - ide-integration
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly a Model Context Protocol server designed to unify other AI tools, which fits the dedicated MCP infrastructure category.
+  reason: The product is explicitly an MCP server designed to unify and orchestrate other AI assistants via the Model Context Protocol, fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description identifies it as a 'Zero-configuration MCP server'.
-    - README details architecture where the local server dispatches tasks to sub-agent CLIs like Codex and Claude via the MCP protocol.
-    - Listed in awesome-mcp-servers under the 'Aggregators' section.
+    - README architecture diagram shows it acting as a local MCP server dispatching tasks to sub-agent CLIs.
+    - Listed in awesome-mcp-servers under 'Aggregators', confirming its identity as protocol infrastructure.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:17.132Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.673Z"
+    updated_at: "2026-05-06T22:12:44.265Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:31.341Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

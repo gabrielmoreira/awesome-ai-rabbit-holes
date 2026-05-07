@@ -1,12 +1,12 @@
 id: snyk__io
 kind: website
-name: Snyk (DeepCode)
+name: snyk.io
 canonical_url: https://snyk.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__snyk__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Snyk is a commercial security platform that scans code, dependencies, containers, and infrastructure for vulnerabilities, with newer AI-focused features for securing AI-generated code and AI agents.
-  why_it_matters: It integrates directly into the developer workflow to catch insecure AI-generated code and supply chain risks before they reach production.
-  mental_damage: Now you can ship AI-generated vulnerabilities at record speed, safe in the knowledge that a separate AI is being paid to judge the output of the first one.
+  summary: Snyk is a commercial security platform that scans code, dependencies, containers, and infrastructure for vulnerabilities, now expanded with AI-native workflows and governance for AI-generated code and agents.
+  why_it_matters: It integrates security scanning directly into the development lifecycle, helping teams catch vulnerable dependencies and insecure AI-generated code before it ships.
+  mental_damage: The promise of autonomous, AI-driven security defense is comforting until you realize the AI writing the insecure code and the AI scanning it are now locked in a high-speed race to see who breaks production first.
   tags:
-    - ai-generated-code
-    - devsecops
     - security
-    - vulnerability-scanning
+    - ai-generated-code
+    - sast
+    - devsecops
+    - governance
   confidence: high
 curation:
   status: excluded
-  reason: Snyk is a general application security and DevSecOps platform, not a primary AI coding assistant, agent, or app builder, and lacks the direct AI-assisted code generation or editing focus required for this catalog.
+  reason: Snyk is a broad commercial application security SaaS platform focused on vulnerability scanning and governance, not a developer-facing AI coding tool, agent, or workflow enhancer that fits the catalog's scope.
   evidence:
-    - Scraped site context describes it as 'AI Security Fabric' focused on scanning code, dependencies, containers, and IaC, not writing or editing code.
-    - Source list context places it in 'Code Review and Refactoring' in an awesome list, but the product itself is a security scanner, not a coding agent.
-    - The platform emphasizes vulnerability detection, compliance, and governance rather than AI-driven code creation or autonomous coding workflows.
+    - Scraped site describes a 'AI Security Fabric' and 'platform' covering Snyk Code, Open Source, Container, IaC, and DAST, not AI coding assistance.
+    - Source list placed it in 'Code Review and Refactoring', but the product itself is a traditional security scanner with added AI governance features.
+    - No evidence of AI coding agents, prompt-to-app builders, extensions, or developer-facing AI workflows that define this catalog's scope.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:13.657Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:43.175Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

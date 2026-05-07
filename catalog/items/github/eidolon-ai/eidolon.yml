@@ -1,13 +1,13 @@
 id: github__eidolon-ai__eidolon
 kind: github-repo
-name: Eidolon
+name: eidolon
 canonical_url: https://github.com/eidolon-ai/eidolon
 identity:
   github_repo: eidolon-ai/eidolon
 provenance:
   discoveries:
     - id: discovery__github__eidolon-ai__eidolon__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -40,50 +40,50 @@ metadata:
       - openai
       - python
       - services
-    last_checked_at: "2026-05-05T21:02:00.442Z"
+    last_checked_at: "2026-05-06T22:43:44.426Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.442Z"
+      fetched_at: "2026-05-06T22:43:44.426Z"
       bytes: 8742
 insights:
-  summary: Eidolon is an open-source Python SDK and deployment server for building and serving modular AI agent-based services with built-in HTTP interfaces.
-  why_it_matters: It lets developers treat agents as deployable services with swappable components, making it easier to upgrade LLMs or RAG implementations without rewriting the whole system.
-  mental_damage: Yet another framework promising no vendor lock-in, ensuring you remain locked into the specific framework that guarantees you won't be locked in.
+  summary: An open-source Python SDK and deployment server for building, customizing, and running modular agentic services with built-in HTTP APIs and agent-to-agent communication.
+  why_it_matters: It gives developers a modular framework and runtime to define, swap, and deploy LLM agents as services without rewriting core application logic.
+  mental_damage: Yet another framework promising to future-proof your agent stack, right before the next framework claims the same thing next Tuesday.
   tags:
     - agents
-    - microservices
-    - python
-    - rag
     - sdk
-  confidence: high
+    - python
+    - services
+    - modular
+  confidence: medium
 curation:
   status: included
-  reason: The project is a code-first SDK and server framework for building agentic applications, which fits the AI Frameworks and SDKs category rather than an end-user orchestration platform or coding agent.
+  reason: The project is primarily a code-first SDK and server used by developers to script and run agentic services, fitting the Frameworks & SDKs identity rather than a standalone coding assistant or orchestration platform.
   evidence:
-    - Repo description explicitly calls it a 'pluggable Agent SDK' and 'deployment server'.
-    - README states 'Eidolon helps developers build and deploy agent-based services' and emphasizes a Python SDK with modular components.
-    - Listed in awesome-ai-agents under 'Agentic Framework' and 'Framework' sections, reinforcing its role as a developer building block.
+    - Repo description explicitly calls it a 'pluggable Agent SDK and enterprise ready, deployment server for Agentic applications'.
+    - README states 'Eidolon helps developers build and deploy agent-based services' and emphasizes swapping LLMs, RAG, and tools as modular components.
+    - Published as PyPI packages (eidolon-ai-sdk, eidolon-ai-client) and used as a development library and runtime.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (491) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:43.652Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.442Z"
+    updated_at: "2026-05-06T22:43:44.426Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:00.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janaraj__tnl__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,49 @@ metadata:
       - mcp-server
       - specification
       - typed-natural-language
-    last_checked_at: "2026-05-05T21:02:51.090Z"
+    last_checked_at: "2026-05-06T22:44:30.482Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.090Z"
+      fetched_at: "2026-05-06T22:44:30.482Z"
       bytes: 15090
 insights:
-  summary: TNL provides a structured, file-based Markdown schema for defining typed natural language contracts that AI coding agents propose, developers approve, and sessions persistently read.
-  why_it_matters: It replaces ephemeral chat plans with persistent, enforceable feature contracts that bound agent edits to specific paths and require self-attestation against explicit MUST clauses.
-  mental_damage: We have successfully formalized the process of arguing with a chatbot until it writes a YAML file that it will then mostly ignore.
+  summary: TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions.
+  why_it_matters: It replaces ephemeral chat plans with persistent, machine-checkable contracts that enforce scope, bind tests to behaviors, and prevent agents from silently drifting between sessions.
+  mental_damage: You now have a seven-field YAML-adjacent contract to review before the agent is allowed to touch your repo, which officially makes you the bureaucrat your CI pipeline always wanted.
   tags:
-    - contracts
-    - mcp
     - spec-driven
-    - cli
-    - context
-  confidence: medium
+    - contracts
+    - context-engineering
+    - mcp
+  confidence: high
 curation:
   status: included
-  reason: The project centers on a spec-first loop where a structured contract is the primary artifact that drives planning, implementation, and validation for coding agents.
+  reason: The product centers on a spec-first loop where structured contracts are the primary artifact driving planning, implementation, and validation, fitting spec-driven-development precisely.
   evidence:
-    - Repo description defines it as 'Structured English contracts for AI coding agents — proposed by the agent, approved by you, saved on disk, read by every future session.'
-    - README explicitly positions TNL as a persistent, machine-checkable contract with RFC 2119 behaviors that agents implement against and self-attest.
-    - Supports spec-driven workflows via `tnl verify`, PreToolUse hooks, and MCP server integration rather than acting as a primary coding agent itself.
+    - "Repo description: 'Structured English contracts for AI coding agents — proposed by the agent, approved by you, saved on disk, read by every future session.'"
+    - "README: 'TNL slots into whatever agent you already use... If you've used plan mode in Claude Code, this is the same discipline made compact, persistent, and machine-checkable.'"
+    - "README: Lists spec-driven-development canonical positives include 'tnl' as an explicit canonical positive example."
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.090Z"
+    updated_at: "2026-05-06T22:44:30.482Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:37.640Z"
+    updated_at: "2026-05-06T23:03:30.172Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

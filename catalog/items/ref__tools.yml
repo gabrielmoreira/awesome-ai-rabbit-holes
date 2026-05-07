@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ref__tools__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,32 +34,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tool that provides coding agents with compressed, relevant documentation to reduce context bloat and token usage.
-  why_it_matters: It addresses the token window limitation by stripping documentation down to only the necessary tokens required for a specific coding task.
-  mental_damage: We have finally engineered a solution to the problem of documentation being too long to read, by automating the process of reading less of it.
+  summary: A shared workspace for teams to plan, review, and manage coding agents across their projects.
+  why_it_matters: It gives teams a centralized control plane to coordinate and govern autonomous coding agents instead of managing them ad hoc.
+  mental_damage: Because nothing says velocity like adding a review layer on top of the agents that were supposed to save us from review layers.
   tags:
-    - context-engineering
-    - docs
-    - tokens
-    - agent-optimization
+    - agent-management
+    - team-workflow
+    - control-plane
   confidence: medium
 curation:
   status: included
-  reason: The product focuses on shaping the context provided to an agent by reducing documentation bloat, fitting the context-engineering category.
+  reason: The product is a team workspace for planning, reviewing, and managing coding agents, which maps directly to a control plane for agent coordination.
   evidence:
-    - "Scraped site title: 'Ref - Context for your coding agent'"
-    - "Description: 'Give your agent the docs it needs to succeed. Exactly the tokens you need, no bloat.'"
-    - Listed in awesome-mcp-servers under 'Official Servers' as a documentation provider.
+    - "Scraped site title and description: 'Ref - Review every important decision' and 'One workspace to plan, review and manage coding agents with your team.'"
+    - Listed in awesome-mcp-servers under Official Servers with the same control-plane description.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:47:25.328Z"
+    updated_at: "2026-05-06T22:28:49.890Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

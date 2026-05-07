@@ -1,13 +1,13 @@
 id: github__moltis-org__moltis
 kind: github-repo
-name: Moltis
+name: moltis
 canonical_url: https://github.com/moltis-org/moltis
 identity:
   github_repo: moltis-org/moltis
 provenance:
   discoveries:
     - id: discovery__github__moltis-org__moltis__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2651
+    stars: 2657
     forks: 312
     license: MIT
     archived: false
     created_at: "2026-01-29T19:36:31Z"
-    pushed_at: "2026-05-05T21:00:28Z"
+    pushed_at: "2026-05-06T22:44:10Z"
     description: A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.
     homepage: https://moltis.org
     topics:
@@ -45,50 +45,50 @@ metadata:
       - single-binary
       - telegram-bot
       - voice-assistant
-    last_checked_at: "2026-05-05T21:03:46.379Z"
+    last_checked_at: "2026-05-06T22:45:24.513Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.379Z"
+      fetched_at: "2026-05-06T22:45:24.513Z"
       bytes: 14099
 insights:
-  summary: A self-hosted, single-binary personal agent server written in Rust that supports sandboxed execution, multi-provider LLMs, voice, memory, and messaging platform integrations.
-  why_it_matters: It offers developers a secure, auditable, and local-first alternative to cloud agents, bundling MCP tooling, persistent memory, and cross-platform messaging into one deployable artifact.
-  mental_damage: Finally, a way to run a paranoid, sandboxed AI agent on your own hardware that integrates with Discord, Telegram, and WhatsApp, because apparently your Raspberry Pi needed more agency than your CI pipeline.
+  summary: A secure, persistent personal agent server written in Rust that runs as a single binary with sandboxed execution, multi-provider LLM support, voice capabilities, memory, messaging integrations, and MCP tooling.
+  why_it_matters: Developers can run a self-contained, auditable AI agent on their own hardware with built-in memory, sandboxing, and messaging integrations without relying on Node.js or complex plugin ecosystems.
+  mental_damage: Yet another personal agent runtime promising you'll finally self-host your way out of context-window anxiety, this time in Rust, because apparently the 47th agent server was missing memory and a Telegram bridge.
   tags:
-    - agent-server
-    - local-ai
-    - mcp
     - rust
     - self-hosted
+    - personal-agent
+    - mcp
+    - sandbox
   confidence: high
 curation:
   status: included
-  reason: Listed in the awesome-cli-coding-agents directory under 'Terminal-native coding agents' and fits the criteria as a persistent, terminal-accessible agent that operates on projects with features like Cursor-compatible context and automatic edit checkpoints.
+  reason: Moltis is a standalone, developer-facing coding and personal agent that runs locally, edits files, and executes tasks, fitting the primary coding assistant profile rather than being an extension or integration layer.
   evidence:
-    - Repo description identifies it as a 'secure persistent personal agent server' with MCP tools and sandboxing.
-    - Included in awesome-cli-coding-agents under the section 'Terminal-native coding agents > OpenClaw ecosystem'.
-    - README highlights 'Cursor-compatible project context' and 'automatic edit checkpoints', indicating direct code workflow integration.
+    - Repo description explicitly calls it a 'secure persistent personal agent server' with multi-provider LLMs, memory, and MCP tools.
+    - README highlights sandbox execution, automatic edit checkpoints, project context, and multi-provider LLM support as core capabilities.
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem', reinforcing its identity as a CLI agent.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2651) exceeded threshold (150)
+  reason: Stars (2657) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:00.089Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.379Z"
+    updated_at: "2026-05-06T22:45:24.514Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:28.394Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

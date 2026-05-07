@@ -1,13 +1,13 @@
 id: github__alteryx__featuretools
 kind: github-repo
-name: FeatureTools
+name: featuretools
 canonical_url: https://github.com/alteryx/featuretools
 identity:
   github_repo: alteryx/featuretools
 provenance:
   discoveries:
-    - id: discovery__github__featuretools__featuretools__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__alteryx__featuretools__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7634
-    forks: 906
+    stars: 7635
+    forks: 907
     license: BSD-3-Clause
     archived: false
     created_at: "2017-09-08T22:15:17Z"
@@ -41,53 +41,50 @@ metadata:
       - machine-learning
       - python
       - scikit-learn
-    last_checked_at: "2026-05-05T21:02:09.314Z"
+    last_checked_at: "2026-05-06T22:12:36.398Z"
     readme:
-      fetched_at: "2026-05-05T21:02:09.313Z"
+      fetched_at: "2026-05-06T22:12:36.398Z"
       bytes: 11163
 insights:
-  summary: Featuretools is an open-source Python library that automates feature engineering for machine learning by applying deep feature synthesis across multi-table datasets.
-  why_it_matters: It allows developers building ML pipelines to automatically generate complex feature sets from relational data without hand-crafting transformations.
-  mental_damage: Yet another library promising to automate the data scientist out of a job, right up until the model fails and you have to reverse-engineer exactly what Deep Feature Synthesis did to your schema.
+  summary: An open source Python library for automated feature engineering that applies deep feature synthesis to multi-table datasets.
+  why_it_matters: It automates the tedious, domain-specific grunt work of creating feature columns for machine learning models, letting developers focus on architecture and business logic.
+  mental_damage: Because nothing says 'modern AI workflow' like spending three days automating a task that takes two hours, just to feed a model that will still overfit your customer data.
   tags:
-    - automl
-    - data-science
     - feature-engineering
-    - machine-learning
+    - automl
     - python
+    - machine-learning
+    - data-science
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional data science and machine learning library for feature engineering, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: While listed in Awesome-LLMOps under feature engineering, the library is a traditional data science/ML tool for table transformation, not a developer-facing AI tool, agent, or infrastructure component.
   evidence:
-    - Repo description states it is 'An open source python library for automated feature engineering'
-    - Topics and README focus on ML workflows (AutoML, scikit-learn, DFS) rather than coding agents or developer tooling
-    - No source-list context indicates it appears in developer-tooling or coding-agent awesome lists
-    - Repo description and README define it as a Python library for automated feature engineering and ML, not AI-assisted development.
-    - Topics and source-list context (Awesome-LLMOps | Data > Feature Engineering) place it firmly in data science, not developer tooling.
-    - No mention of coding agents, IDE integration, app building, or developer workflow automation in the provided inputs.
+    - Repo description and README define it as a 'python library for automated feature engineering' and 'automated machine learning', not an AI developer tool.
+    - Topics and code examples focus on scikit-learn, dataframes, and ML pipelines rather than coding agents, LLMs, or AI infrastructure.
+    - Appears in Awesome-LLMOps under 'Data > Feature Engineering', which is a data-science context rather than a software development tooling context.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (7634) exceeded threshold (150)
+  reason: Stars (7635) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:10.457Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:09.314Z"
+    updated_at: "2026-05-06T22:12:36.398Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:53.527Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

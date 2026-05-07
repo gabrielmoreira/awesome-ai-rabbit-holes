@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentmodule__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:52.302Z"
+    last_checked_at: "2026-05-06T22:12:27.546Z"
     readme:
-      fetched_at: "2026-05-05T21:00:52.302Z"
+      fetched_at: "2026-05-06T22:12:27.546Z"
       bytes: 12640
 insights:
-  summary: An MCP server that provides deterministic EU AI Act compliance logic, benchmark directives, and audit telemetry for autonomous agents via Streamable HTTP.
-  why_it_matters: Developers building agents can integrate live regulatory compliance checks and audit trails without manually mapping statutory requirements into application logic.
-  mental_damage: Your agent is now legally self-aware, yet you are still personally liable when it inevitably hallucinates its way through a compliance gate.
+  summary: An MCP server providing deterministic EU AI Act compliance logic, runtime benchmarks, and semantic telemetry for autonomous agents.
+  why_it_matters: It lets agents fetch structured, citation-backed compliance rules and build auditable chains of provenance without probabilistic guesswork.
+  mental_damage: Your agent can now fail gracefully with a binary logic gate and a timestamped audit trail, right before the regulator asks why your model thought GDPR was optional.
   tags:
     - mcp
     - compliance
     - eu-ai-act
+    - knowledge-retrieval
     - agent-infrastructure
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server exposing structured compliance logic and telemetry endpoints, fitting cleanly into MCP infrastructure.
+  reason: The product is an MCP server that exposes EU AI Act compliance logic as a Streamable HTTP endpoint, making MCP infrastructure its primary identity.
   evidence:
     - "Repo description: 'Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents'"
-    - README states transport is Streamable HTTP and endpoint is https://api.agent-module.dev/mcp with MCP protocol version 2025-06-18
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+    - README shows MCP endpoint https://api.agent-module.dev/mcp with Streamable HTTP transport and protocol version 2025-06-18
+    - Included in awesome-mcp-servers under 'Knowledge & Memory' server implementations
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:52.302Z"
+    updated_at: "2026-05-06T22:12:27.546Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:20.725Z"
+    updated_at: "2026-05-06T22:19:10.174Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

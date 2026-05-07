@@ -1,0 +1,77 @@
+id: www__cnblogs__com__nickchen121__p__15499576__html
+kind: website
+name: 15499576.html
+canonical_url: https://www.cnblogs.com/nickchen121/p/15499576.html
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__cnblogs__com__nickchen121__p__15499576__html__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: Beam Search快速理解及代码解析
+        extracted_url: https://www.cnblogs.com/nickchen121/p/15499576.html
+        surrounding_text: 36. [Beam Search快速理解及代码解析](https://www.cnblogs.com/nickchen121/p/15499576.html)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language blog post explaining beam search, top-k/top-p sampling, and repetition penalties with code snippets from the HuggingFace Transformers library.
+  why_it_matters: It breaks down decoding strategies and their implementations for developers working directly with text generation models and custom inference pipelines.
+  mental_damage: Yet another reminder that your model’s output quality depends less on your prompt engineering and more on whether you remembered to tune the temperature before hitting enter.
+  tags:
+    - nlp
+    - text-generation
+    - beam-search
+    - huggingface
+    - tutorial
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational blog post and auxiliary resource, not a standalone developer tool, product, or reusable toolkit.
+  evidence:
+    - The source is a cnblogs blog post explaining beam search and sampling strategies with code examples.
+    - It appears in awesome-LLM-resources under a Tips/educational section, not as a tool or product.
+    - No repo, package, CLI, IDE integration, or reusable artifact is presented—only explanatory text and code snippets.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:27.760Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

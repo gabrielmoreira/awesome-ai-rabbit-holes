@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__berlinbra__alpha-vantage-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [berlinbra/alpha-vantage-mcp](https://github.com/berlinbra/alpha-vantage-mcp) 🐍 ☁️ - Alpha Vantage API integration to fetch both stock and crypto information"
         confidence: high
     - id: discovery__github__berlinbra__alpha-vantage-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,49 @@ metadata:
     description: MCP Server for Alpha Advantage API
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:19.134Z"
+    last_checked_at: "2026-05-06T22:12:51.459Z"
     readme:
-      fetched_at: "2026-05-05T21:01:19.134Z"
+      fetched_at: "2026-05-06T22:12:51.459Z"
       bytes: 19989
 insights:
-  summary: An MCP server that exposes Alpha Vantage financial market data, including stocks, crypto, ETFs, and earnings, to LLM clients like Claude Desktop.
-  why_it_matters: It allows developers to plug live market data directly into local AI workflows without writing custom API integration layers.
-  mental_damage: Nothing says ‘agentic future’ quite like running a Docker container just to ask a chatbot for the current price of Dogecoin.
+  summary: An MCP server that exposes Alpha Vantage financial market data—including stock quotes, crypto rates, options chains, and earnings calendars—to compatible AI assistants like Claude Desktop.
+  why_it_matters: It gives local or desktop coding agents direct, structured access to real-time financial data without requiring developers to hand-craft API wrappers or manage rate limiting themselves.
+  mental_damage: Your agent can now explain why your portfolio is down while it silently burns your API quota and your Alpha Vantage free-tier limit in the same breath.
   tags:
     - mcp
     - finance
+    - data-access
     - alpha-vantage
-    - data-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server implementation for financial data, which fits directly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server providing domain-specific financial data access, which aligns directly with the MCP Servers & Tooling category’s domain servers section.
   evidence:
-    - "Repo description explicitly states: 'MCP Server for Alpha Advantage API'."
-    - README details implementation of an MCP server with tools for stocks, crypto, ETFs, and earnings data.
-    - Featured in both 'awesome-mcp-list' (Finance & Fintech) and 'awesome-mcp-servers' (Finance & Fintech).
+    - Repo description explicitly states 'MCP Server for Alpha Advantage API'.
+    - README details a server implementing the Model Context Protocol to surface stock, crypto, ETF, and earnings data.
+    - Included in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:19.134Z"
+    updated_at: "2026-05-06T22:12:51.459Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:33.664Z"
+    updated_at: "2026-05-06T22:23:58.540Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

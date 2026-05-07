@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nazar256__combine-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:51.567Z"
+    last_checked_at: "2026-05-06T22:45:29.699Z"
     readme:
-      fetched_at: "2026-05-05T21:03:51.567Z"
+      fetched_at: "2026-05-06T22:45:29.699Z"
       bytes: 7525
 insights:
-  summary: An MCP aggregator that combines multiple Model Context Protocol servers into a single interface with tool prefixing, filtering, and compatibility adjustments for clients like Cursor.
-  why_it_matters: It lets developers maintain one MCP configuration and set of secrets across multiple AI coding agents while working around client limitations on server and tool counts.
-  mental_damage: We have officially reached the point where we need middleware to manage the middleware that manages the AI tools that manage our code.
+  summary: An MCP aggregator that combines multiple MCP servers into a single interface with tool prefixing, filtering, and client compatibility layers for Cursor and other MCP clients.
+  why_it_matters: It lets developers work around MCP client limitations by centralizing server configs, secrets, and tool exposure through one unified adapter instead of duplicating setup per IDE or agent.
+  mental_damage: We have reached the point where the protocol meant to standardize tool access now requires its own middleware to hide the fact that our clients can barely handle two servers at once.
   tags:
     - mcp
     - cursor
-    - tool-aggregation
-    - middleware
+    - aggregator
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP middleware tool that aggregates, prefixes, filters, and normalizes multiple MCP servers for compatibility with various AI coding clients.
+  reason: "MCP is the product identity: this is an MCP aggregator server and client middleware built specifically to unify and manage MCP server connections for MCP clients."
   evidence:
-    - README states it 'acts as a bridge between Cursor (or any other MCP client) and multiple MCP servers' with tool prefixing and filtering.
-    - Created 2025-03-28 and actively pushed as of 2025-11-24, showing recent maintenance.
-    - Listed in awesome-mcp-servers under 'Community Servers', confirming MCP ecosystem relevance.
+    - README states it 'acts as a bridge between Cursor (or any other MCP client) and multiple MCP servers' and functions as both MCP server and MCP client.
+    - Source-list context shows inclusion in awesome-mcp-servers under 'Community Servers', aligning with its MCP infrastructure role.
+    - Recent activity (pushed 2025-11-24) and no archive flag confirm it is an active, usable MCP tool.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:51.567Z"
+    updated_at: "2026-05-06T22:45:29.699Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:02.324Z"
+    updated_at: "2026-05-06T23:16:40.847Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

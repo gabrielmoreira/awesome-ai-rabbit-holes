@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pv-bhat__gemsuite-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 29
-    forks: 7
+    forks: 8
     license: MIT
     archived: false
     created_at: "2025-03-15T10:54:21Z"
@@ -45,44 +45,49 @@ metadata:
       - model-context-protocol
       - model-context-protocol-servers
       - smithery-ai
-    last_checked_at: "2026-05-05T23:08:12.215Z"
+    last_checked_at: "2026-05-06T22:45:59.527Z"
     readme:
-      fetched_at: "2026-05-05T23:08:12.215Z"
+      fetched_at: "2026-05-06T22:45:59.527Z"
       bytes: 14000
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that integrates the Gemini API into Claude and other MCP-compatible hosts with intelligent model selection and file handling.
+  why_it_matters: Developers can offload specific tasks to Gemini models directly from their existing assistant workflows without switching contexts or managing separate API calls.
+  mental_damage: We have now reached the point where our AI assistants need their own AI assistants from different vendors to feel complete.
+  tags:
+    - mcp
+    - gemini
+    - claude-integration
+    - model-selection
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server that integrates Gemini API capabilities into MCP-compatible hosts, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'Professional Gemini API integration for Claude and all MCP-compatible hosts'
+    - README identifies it as 'GemSuite (Model Context Protocol) MCP' and an 'MCP server'
+    - Listed in awesome-mcp-servers under 'Community Servers' for MCP integration
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:12.215Z"
+    updated_at: "2026-05-06T22:45:59.527Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:12.740Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

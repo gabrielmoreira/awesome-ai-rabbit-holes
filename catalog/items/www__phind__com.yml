@@ -1,12 +1,12 @@
 id: www__phind__com
 kind: website
-name: Phind
+name: www.phind.com
 canonical_url: https://www.phind.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__phind__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "## [Phind](https://www.phind.com/)"
         confidence: high
     - id: discovery__www__phind__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,43 +49,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Phind is a search engine and conversational assistant designed specifically for developers to answer technical questions and resolve coding issues.
-  why_it_matters: It provides context-aware, technical answers and code snippets directly in a search interface, aiming to replace general-purpose search for programming workflows.
-  mental_damage: Another specialized layer promising to shield you from the horror of reading documentation, as long as you're comfortable debugging answers authored by a stochastic parrot.
+  summary: Phind is an AI-powered search engine and coding assistant designed to answer technical questions and help developers write and debug code.
+  why_it_matters: It provides developer-focused instant answers and code generation, aiming to shortcut the cycle of stack-overflow digging and documentation grazing.
+  mental_damage: Yet another reason to perfect the art of copy-pasting code you barely understand while convincing yourself it was 'AI-assisted engineering'.
   tags:
     - coding-assistant
-    - developer-tools
-    - qa
     - search
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing coding assistant designed to answer technical questions and help with code, fitting the definition of a coding agent/search assistant rather than an app builder.
+  reason: Phind acts as a primary coding assistant that developers delegate questions and code tasks to via a web interface, fitting the coding-agents profile over an extension or framework.
   evidence:
-    - Listed under 'Code Editors and Assistants' in awesome-ai-coding-tools.
+    - Listed as a 'Code Editor and Assistant' in awesome-ai-coding-tools.
     - Listed under 'Phind' in awesome-ai-agents as an autonomous agent.
-    - Described as a search engine and assistant for developers.
+    - The product is a standalone web-based assistant, not a plugin or library.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:34.964Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:54.470Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

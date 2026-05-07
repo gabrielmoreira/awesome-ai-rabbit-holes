@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tensorflow__model-optimization__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,47 +23,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1569
+    forks: 347
+    license: Apache-2.0
+    archived: false
+    created_at: "2018-10-31T20:34:28Z"
+    pushed_at: "2026-05-02T13:07:57Z"
+    description: A toolkit to optimize ML models for deployment for Keras and TensorFlow, including quantization and pruning.
+    homepage: https://www.tensorflow.org/model_optimization
+    topics:
+      - compression
+      - deep-learning
+      - keras
+      - machine-learning
+      - ml
+      - model-compression
+      - optimization
+      - pruning
+      - quantization
+      - quantized-networks
+      - quantized-neural-networks
+      - quantized-training
+      - sparsity
+      - tensorflow
+    last_checked_at: "2026-05-06T22:46:44.237Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:44.237Z"
+      bytes: 1848
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TensorFlow toolkit that provides APIs for optimizing Keras and TensorFlow models via quantization, pruning, and sparsity techniques.
+  why_it_matters: It allows developers to reduce model size and improve inference performance for deployment without leaving the TensorFlow/Keras ecosystem.
+  mental_damage: Yet another reminder that your 4GB model is only impressive until you realize it needs to run on a toaster with 512MB of RAM.
+  tags:
+    - tensorflow
+    - model-optimization
+    - quantization
+    - pruning
+    - keras
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is a traditional ML infrastructure library for model quantization and pruning, targeting model deployment rather than AI-assisted developer tooling, coding agents, or prompt engineering workflows.
+  evidence:
+    - Repo description explicitly states it is 'A toolkit to optimize ML models for deployment for Keras and TensorFlow'.
+    - README describes it as a 'suite of tools... to optimize machine learning models for deployment and execution' with APIs for Keras.
+    - Topics and content focus on deep-learning, model-compression, and quantization rather than developer productivity or coding assistants.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1569) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:44.237Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:13.223Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

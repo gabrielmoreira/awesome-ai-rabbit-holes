@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__expertvagabond__solmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,50 +47,50 @@ metadata:
       - physical-mail
       - solana
       - tools
-    last_checked_at: "2026-05-05T21:02:06.679Z"
+    last_checked_at: "2026-05-06T22:43:49.959Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.679Z"
+      fetched_at: "2026-05-06T22:43:49.959Z"
       bytes: 4057
 insights:
-  summary: An MCP server that allows AI agents to send physical mail and postcards worldwide, with payments processed via the Solana blockchain.
-  why_it_matters: It extends the tool-calling surface of coding agents to physical logistics, enabling developers to build agents that bridge digital workflows with real-world postal delivery.
-  mental_damage: Finally, an agent can drain your Solana wallet just to tell grandma thanks for the socks, provided the LLM doesn't hallucinate the zip code.
+  summary: An MCP server that lets AI agents send physical mail and postcards worldwide using Solana cryptocurrency for payment.
+  why_it_matters: It gives coding agents a non-custodial bridge to real-world postal services with on-chain payments, expanding agent capabilities beyond the screen.
+  mental_damage: Your AI agent can now independently blow your devnet SOL on passive-aggressive thank-you notes to stakeholders without you ever touching an envelope.
   tags:
-    - mcp-server
+    - mcp
     - solana
     - physical-mail
-    - agent-tooling
+    - agent-tool
     - blockchain
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that integrates with agent runtimes to provide a specific tool (physical mailing via crypto), fitting the MCP infrastructure scope.
+  reason: The product is an MCP server that adds postal and Solana payment capabilities for agents, which fits squarely into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description explicitly states 'MCP server for sending physical mail with Solana cryptocurrency.'
-    - README details tools like `send_mail` and `get_mail_quote` designed for 'AI agent' integration via standard MCP config.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Communication'.
+    - Repo description explicitly states 'MCP server for sending physical mail with Solana cryptocurrency'.
+    - README confirms it is a Model Context Protocol server with tools like send_mail and get_mail_quote for agent integration.
+    - Listed in awesome-mcp-servers under Communication, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.679Z"
+    updated_at: "2026-05-06T22:43:49.959Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:49.704Z"
+    updated_at: "2026-05-06T22:55:10.666Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

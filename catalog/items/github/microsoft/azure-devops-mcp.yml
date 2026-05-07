@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__azure-devops-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,58 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1650
-    forks: 541
+    stars: 1657
+    forks: 544
     license: MIT
     archived: false
     created_at: "2025-05-15T13:12:42Z"
-    pushed_at: "2026-05-05T16:49:26Z"
+    pushed_at: "2026-05-06T10:55:23Z"
     description: The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:38.106Z"
+    last_checked_at: "2026-05-06T22:45:16.130Z"
     readme:
-      fetched_at: "2026-05-05T21:03:38.105Z"
+      fetched_at: "2026-05-06T22:45:16.130Z"
       bytes: 10256
 insights:
-  summary: A Model Context Protocol server from Microsoft that exposes Azure DevOps resources and actions to AI agents and editors.
-  why_it_matters: It allows developers to query work items, builds, repos, and wikis from their editor or agent using natural language instead of clicking through Azure DevOps web UI.
-  mental_damage: We have successfully abstracted away the UI so your agent can now complain about your Jira work items in natural language instead of you having to read them yourself.
+  summary: A Model Context Protocol server from Microsoft that exposes Azure DevOps REST APIs as tools for AI agents and editors.
+  why_it_matters: It lets coding agents query work items, builds, repos, and wikis directly within an editor or agent loop instead of forcing context-switching to the Azure DevOps portal.
+  mental_damage: Your agent can now argue about sprint velocity and create wiki pages while you still cannot get the pipeline to pass.
   tags:
     - mcp
     - azure-devops
+    - editor-integration
     - microsoft
-    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation, making it a direct fit for the MCP Servers and Tooling category.
+  reason: The product is a first-party MCP server that brings Azure DevOps capabilities into agent workflows, which fits the MCP Servers & Tooling category cleanly.
   evidence:
-    - Repo description states it is 'The MCP server for Azure DevOps'.
-    - README confirms it provides an MCP server to bring Azure DevOps context to agents.
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
+    - "Repo description: 'The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.'"
+    - Listed in awesome-mcp-servers under 'Official Servers'.
+    - README states it provides a local MCP server for Azure DevOps with a specific toolset for agents and editors.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1650) exceeded threshold (150)
+  reason: Stars (1657) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:38.106Z"
+    updated_at: "2026-05-06T22:45:16.130Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:23.991Z"
+    updated_at: "2026-05-06T23:13:35.098Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

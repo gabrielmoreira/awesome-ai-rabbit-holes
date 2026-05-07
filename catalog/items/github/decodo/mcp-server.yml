@@ -1,13 +1,13 @@
 id: github__decodo__mcp-server
 kind: github-repo
-name: Decodo
+name: mcp-server
 canonical_url: https://github.com/decodo/mcp-server
 identity:
   github_repo: decodo/mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__decodo__decodo-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__decodo__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -28,7 +28,7 @@ metadata:
     license: null
     archived: false
     created_at: "2025-06-12T11:48:18Z"
-    pushed_at: "2026-05-04T12:42:59Z"
+    pushed_at: "2026-05-06T13:59:01Z"
     description: The Decodo MCP server which enables MCP clients to interface with services.
     homepage: https://decodo.com
     topics:
@@ -43,55 +43,49 @@ metadata:
       - residential-proxies
       - scraping-infrastructure
       - smithery
-    last_checked_at: "2026-05-05T21:01:50.620Z"
+    last_checked_at: "2026-05-06T22:43:35.804Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.620Z"
-      bytes: 15317
+      fetched_at: "2026-05-06T22:43:35.804Z"
+      bytes: 18187
 insights:
-  summary: An official MCP server that exposes Decodo's web scraping, search, ecommerce, social media, and AI proxy services as tools for MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It lets developers wire production-grade scraping and data-collection capabilities directly into their AI coding workflows without building custom API integrations.
-  mental_damage: We have finally reached the point where your AI agent needs its own VPN, proxy rotation, and scraping stack just to fetch a Google search result.
+  summary: An MCP server that connects AI agents and MCP-compatible clients to Decodo's web scraping API for structured data extraction, SERP queries, and e-commerce or social media scraping.
+  why_it_matters: Developers can give agents live web access with built-in proxy rotation, JS rendering, and anti-bot handling without maintaining scraping infrastructure themselves.
+  mental_damage: Another reassuring abstraction layer so your agent can confidently hallucinate prices it just scraped from a site that was definitely not rate-limiting you.
   tags:
-    - claude
-    - context-engineering
-    - cursor
     - mcp
-    - proxy
-    - scraping
     - web-scraping
+    - agent-tooling
+    - data-extraction
   confidence: high
 curation:
   status: included
-  reason: The project is an official MCP server implementation that exposes proxy and scraping services as MCP tools, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that exposes web scraping capabilities to MCP clients, making MCP the core product identity rather than a secondary compatibility feature.
   evidence:
-    - "Repo description explicitly states: 'The Decodo MCP server which enables MCP clients to interface with services.'"
-    - README details MCP server setup for Claude Desktop and Cursor with toolset configuration (web, search, ecommerce, social_media, ai).
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
-    - Repo description explicitly states it is 'The Decodo MCP server which enables MCP clients to interface with services.'
-    - README details integration with Claude Desktop and Cursor via standard MCP configuration schemas.
-    - Features include specific MCP toolsets for web scraping, search, and e-commerce data retrieval.
+    - Repo description explicitly states 'The Decodo MCP server which enables MCP clients to interface with services.'
+    - README positions this as 'The Decodo MCP Server is a web scraping layer for AI agents' with MCP configuration examples for Claude, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Official Servers' section, confirming MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:55.179Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.620Z"
+    updated_at: "2026-05-06T22:43:35.804Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:16.128Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

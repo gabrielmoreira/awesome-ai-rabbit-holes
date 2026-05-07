@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quantgeekdev__mongo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [QuantGeekDev/mongo-mcp](https://github.com/QuantGeekDev/mongo-mcp) 📇 🏠 - MongoDB integration that enables LLMs to interact directly with databases."
         confidence: high
     - id: discovery__github__quantgeekdev__mongo-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Mongo](https://github.com/QuantGeekDev/mongo-mcp)** - A Model Context Protocol (MCP) server that enables LLMs to interact directly with MongoDB databases"
         confidence: high
     - id: discovery__github__quantgeekdev__mongo-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -63,44 +63,50 @@ metadata:
     description: A mongo db server for the model context protocol (MCP)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T23:08:15.434Z"
+    last_checked_at: "2026-05-06T22:46:02.806Z"
     readme:
-      fetched_at: "2026-05-05T23:08:15.434Z"
+      fetched_at: "2026-05-06T22:46:02.806Z"
       bytes: 4282
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Model Context Protocol (MCP) server that allows LLMs to inspect schemas, query collections, and manage data in MongoDB databases via natural language.
+  why_it_matters: It gives coding assistants like Claude Desktop direct, structured access to MongoDB, removing the need to context-switch to a database shell or write ad-hoc queries during development.
+  mental_damage: We have successfully abstracted away the last remaining reason to understand MongoDB query syntax, ensuring future generations will debug aggregation pipelines exclusively through trial and error with an LLM.
+  tags:
+    - mcp
+    - database
+    - mongodb
+    - server
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is an MCP server implementation for a specific database domain, fitting the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A mongo db server for the model context protocol (MCP)'.
+    - README confirms it is an MCP server providing tools like find, insertOne, and createIndex for LLMs.
+    - Listed in awesome-mcp-servers under 'Databases' and 'Community Servers' sections.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (172) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:15.434Z"
+    updated_at: "2026-05-06T22:46:02.806Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:57.198Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -6,8 +6,8 @@ identity:
   github_repo: gabrielchasukjin/cloi
 provenance:
   discoveries:
-    - id: discovery__github__cloi-ai__cloi__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__gabrielchasukjin__cloi__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,31 +32,28 @@ metadata:
     description: Local debugging agent that runs in your terminal
     homepage: http://www.cloi-ai.com
     topics: []
-    last_checked_at: "2026-05-05T21:02:16.993Z"
+    last_checked_at: "2026-05-06T22:43:58.546Z"
     readme:
-      fetched_at: "2026-05-05T21:02:16.993Z"
+      fetched_at: "2026-05-06T22:43:58.546Z"
       bytes: 6801
 insights:
-  summary: A terminal-based debugging agent that runs locally on your machine, using Ollama or Claude models to analyze errors and suggest fixes with RAG-powered context retrieval.
-  why_it_matters: It lets developers debug directly in the terminal with local or API models, keeping code private while automating error analysis and fix suggestions.
-  mental_damage: Another brave terminal agent promising to fix your bugs, provided you are comfortable with an experimental beta patching your codebase and a 500 MB CodeBERT model running quietly in the background.
+  summary: A terminal-based local debugging agent that uses RAG to find relevant code and can apply fixes directly to your codebase using local Ollama models or Anthropic APIs.
+  why_it_matters: It lets developers debug inside the terminal with private, local models while automatically indexing and retrieving context from their codebase.
+  mental_damage: Yet another CLI agent promising to fix your errors, provided you sit through a 500 MB CodeBERT download and trust a beta that admits it may break your code.
   tags:
-    - cli
+    - terminal
     - debugging
     - local-ai
     - rag
-    - terminal
+    - cli-agent
   confidence: high
 curation:
   status: included
-  reason: The tool is a developer-facing coding agent that directly debugs code inside the terminal, edits files with reviewable diffs, and fits cleanly as a CLI coding assistant.
+  reason: Cloi is a standalone terminal debugging agent that reads code, plans fixes, and edits files, making it a primary coding assistant rather than an extension or integration layer.
   evidence:
-    - "Repo description states: 'Local debugging agent that runs in your terminal.'"
-    - README says Cloi 'analyze[s] errors and apply fixes directly to your codebase' with reviewable diffs.
-    - "Active development: created 2025-05-01, last pushed 2025-06-06, and not archived."
-    - "Repo description explicitly states: 'Local debugging agent that runs in your terminal'."
-    - README claims it 'analyzes errors and applies fixes directly to your codebase' with a review step.
-    - Operates locally with Ollama or optionally via Claude API, using RAG for code context retrieval.
+    - "Repo description states: 'Local debugging agent that runs in your terminal'"
+    - README says Cloi 'analyze[s] errors and apply[s] fixes directly to your codebase' and 'Auto-fix errors using AI models'
+    - Primary CLI commands include /debug, /index, and /model, acting as a standalone assistant rather than augmenting another tool
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -64,21 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (395) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:32.903Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:16.993Z"
+    updated_at: "2026-05-06T22:43:58.546Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:58.836Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

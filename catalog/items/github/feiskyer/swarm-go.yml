@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__feiskyer__swarm-go__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -37,50 +37,50 @@ metadata:
       - agentic-framework
       - copilot
       - openai
-    last_checked_at: "2026-05-05T21:02:09.615Z"
+    last_checked_at: "2026-05-06T22:43:52.261Z"
     readme:
-      fetched_at: "2026-05-05T21:02:09.615Z"
+      fetched_at: "2026-05-06T22:43:52.261Z"
       bytes: 5729
 insights:
-  summary: A lightweight, ergonomic Go framework for building multi-agent systems with event-driven workflows, native function calls, and agent handoff patterns inspired by OpenAI's Swarm.
-  why_it_matters: It gives Go developers a minimal, composable way to embed multi-agent orchestration directly into their applications without heavy dependencies or complex abstractions.
-  mental_damage: Another day, another framework promising to orchestrate your agents while you quietly wonder if coordinating them is just the new way to avoid writing the actual business logic.
+  summary: An ergonomic, lightweight multi-agent orchestration framework for Go, inspired by OpenAI's Swarm, that enables developers to build event-driven, composable systems with native function calls.
+  why_it_matters: It provides Go developers with a minimalistic, native way to orchestrate multiple LLM-powered agents without the overhead of larger Python-centric frameworks.
+  mental_damage: Another day, another framework proving that the hottest new programming language is definitely Go, as long as you wrap it around a GPT-4o call.
   tags:
     - go
     - multi-agent
     - orchestration
     - framework
-    - events
+    - event-driven
   confidence: medium
 curation:
   status: included
-  reason: This is a code-first SDK/framework that developers import into their own Go applications to build multi-agent systems, which fits ai-frameworks rather than a control-plane orchestration platform.
+  reason: The project is a code-first library and SDK for building agent systems in Go, fitting the definition of Frameworks & SDKs where developers import and script against the toolkit.
   evidence:
-    - "Repo description states: 'An ergonomic, lightweight multi-agent orchestration in Go'"
-    - README positions it as a framework with Go import paths (github.com/feiskyer/swarm-go) and code-first examples
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > Go Frameworks'
+    - Repo description explicitly states 'ergonomic, lightweight multi-agent orchestration in Go'.
+    - README demonstrates code-first usage via 'go get' and direct agent instantiation in Go code (e.g., swarm.NewAgent).
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Go Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:09.615Z"
+    updated_at: "2026-05-06T22:43:52.261Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:16.259Z"
+    updated_at: "2026-05-06T22:55:41.004Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

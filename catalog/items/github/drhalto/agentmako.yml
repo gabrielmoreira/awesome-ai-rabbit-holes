@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drhalto__agentmako__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 37
+    stars: 38
     forks: 5
     license: Apache-2.0
     archived: false
@@ -49,49 +49,49 @@ metadata:
       - sqlite
       - typescript
       - vibecoding
-    last_checked_at: "2026-05-05T21:01:57.295Z"
+    last_checked_at: "2026-05-06T22:43:41.820Z"
     readme:
-      fetched_at: "2026-05-05T21:01:57.295Z"
+      fetched_at: "2026-05-06T22:43:41.820Z"
       bytes: 9938
 insights:
-  summary: A local-first MCP server that indexes codebases into a SQLite store to provide coding agents with structured context packets, code facts, and diagnostics.
-  why_it_matters: It stops agents from brute-forcing their way through a repo with raw grep by feeding them pre-indexed symbols, routes, and schema facts before they touch a single file.
-  mental_damage: We have officially reached the point where our AI assistants need their own dedicated knowledge graph just to remember which files they were supposed to be editing.
+  summary: A local-first MCP server that indexes codebases into a SQLite store to provide structured context packets, diagnostics, and code facts to coding agents like Claude Code, Cursor, and Codex.
+  why_it_matters: It reduces the 'blind grep' phase of agentic coding by giving assistants pre-indexed project structure, conventions, and diagnostics before they attempt edits.
+  mental_damage: We have successfully built a local intelligence layer so your agent can pretend to understand your codebase without the existential dread of actually reading it.
   tags:
     - mcp
-    - context-engineering
+    - context
     - local-first
     - code-intelligence
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing context tooling for other agents, fitting cleanly into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server that provides codebase intelligence, fitting squarely into MCP Servers & Tooling as a domain-specific server for developer tools.
   evidence:
-    - Repo description defines it as a 'Local-first MCP server' for coding agents.
-    - README states it gives agents a 'typed MCP toolset' via `agentmako mcp`.
+    - "Repo description explicitly states: 'Local-first MCP server that gives coding agents structured context packets'."
+    - "README confirms: 'agentmako is a local-first codebase intelligence engine for AI coding tools' and 'MCP server for coding agents: agentmako mcp'."
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:57.295Z"
+    updated_at: "2026-05-06T22:43:41.820Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:10.833Z"
+    updated_at: "2026-05-06T22:53:31.636Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

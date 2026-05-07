@@ -1,0 +1,81 @@
+id: github__intro-llm__intro-llm.github.io
+kind: github-repo
+name: intro-llm.github.io
+canonical_url: https://github.com/intro-llm/intro-llm.github.io
+identity:
+  github_repo: intro-llm/intro-llm.github.io
+provenance:
+  discoveries:
+    - id: discovery__github__intro-llm__intro-llm.github.io__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: scraped
+        section_path:
+          - 书籍 Book
+        anchor_text: 《大规模语言模型：从理论到实践》
+        extracted_url: https://intro-llm.github.io
+        surrounding_text: 1. [《大规模语言模型：从理论到实践》](https://intro-llm.github.io/)
+        confidence: high
+metadata:
+  github:
+    stars: 471
+    forks: 61
+    license: null
+    archived: false
+    created_at: "2023-06-16T07:53:56Z"
+    pushed_at: "2025-03-05T03:57:16Z"
+    description: website
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:44:25.637Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:25.637Z"
+      bytes: 972
+insights:
+  summary: A Chinese-language open-source book and website covering LLM theory, distributed training, reinforcement learning, and practical implementation using frameworks like DeepSpeed-Chat.
+  why_it_matters: It provides a structured, code-grounded curriculum for developers who want to understand and build large language models from scratch rather than just calling APIs.
+  mental_damage: Yet another heroic attempt to capture the lightning-fast moving target of LLM internals, destined to be half-obsolete by the time you finish the preface on distributed training.
+  tags:
+    - llm
+    - book
+    - distributed-training
+    - deep-learning
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is an educational book and website covering LLM theory and implementation, which is documentation rather than a developer-facing AI tool, agent, or infrastructure product.
+  evidence:
+    - Repo description is simply 'website', and the README excerpt describes a book covering LLM theory, training, and DeepSpeed-Chat practice.
+    - Seen in awesome-LLM-resources under the '书籍 Book' (Books) section, confirming its identity as a learning resource.
+    - No code-first SDK, agent, editor, or operational tooling is described; it is a static educational resource.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (471) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.621Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:25.637Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:27.873Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,77 @@
+id: apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp
+kind: website
+name: mcp
+canonical_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Career Site Jobs
+        extracted_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp
+        surrounding_text: "- **[Career Site Jobs](https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp)** - A MCP server to retrieve up-to-date jobs from company career sites."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An Apify-hosted MCP server that exposes the Career Site Job Listing API, allowing AI agents and MCP clients to search and retrieve job postings from over 175,000 company career sites.
+  why_it_matters: Developers building AI recruiting tools, job market agents, or career platforms can wire live job data directly into their MCP-compatible workflows without writing custom scrapers.
+  mental_damage: We have officially reached the point where scraping job boards is considered a core primitive of the AI agent stack.
+  tags:
+    - mcp
+    - jobs
+    - apify
+    - scraping
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: This is an MCP server exposing a specific domain API (job listings), fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  evidence:
+    - Scraped site context shows the product is explicitly an MCP server configuration for the Career Site Job Listing API.
+    - Included in the awesome-mcp-servers list under the 'Community Servers' section.
+    - The primary artifact is an MCP endpoint at mcp.apify.com configured with a specific Actor for job listings.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:03.312Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

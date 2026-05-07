@@ -1,0 +1,100 @@
+id: github__jf-tech__omniparser
+kind: github-repo
+name: omniparser
+canonical_url: https://github.com/jf-tech/omniparser
+identity:
+  github_repo: jf-tech/omniparser
+provenance:
+  discoveries:
+    - id: discovery__github__jf-tech__omniparser__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: OmniParser
+        extracted_url: https://github.com/jf-tech/omniparser
+        surrounding_text: "4. [OmniParser](https://github.com/jf-tech/omniparser): a native Golang ETL streaming parser and transform library for CSV, JSON, XML, EDI, text, etc."
+        confidence: high
+metadata:
+  github:
+    stars: 1081
+    forks: 81
+    license: MIT
+    archived: false
+    created_at: "2020-08-16T22:22:21Z"
+    pushed_at: "2025-02-21T17:27:14Z"
+    description: "omniparser: a native Golang ETL streaming parser and transform library for CSV, JSON, XML, EDI, text, etc."
+    homepage: ""
+    topics:
+      - codeless
+      - csv
+      - delimited
+      - edi
+      - edifact
+      - etl
+      - fixed-length
+      - fixed-width
+      - golang
+      - javascript
+      - json
+      - parser
+      - schema
+      - schemas
+      - streaming
+      - transform
+      - txt
+      - x12
+      - xml
+    last_checked_at: "2026-05-06T22:44:33.524Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:33.524Z"
+      bytes: 7123
+insights:
+  summary: Omniparser is a native Go streaming ETL library for parsing and transforming CSV, JSON, XML, EDI, and fixed-length data formats into JSON using declarative schemas.
+  why_it_matters: It gives developers a lightweight, streaming-first alternative to heavy Java ETL tooling for building data pipelines entirely in Go.
+  mental_damage: Because what the world definitely needed in 2025 was yet another reminder that even our ETL pipelines are now being repackaged as fresh LLM-adjacent resources.
+  tags:
+    - etl
+    - golang
+    - parser
+    - streaming
+    - data-transform
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose data parsing and ETL library with no AI, LLM, coding-agent, or developer-AI-tooling angle beyond appearing in a broad LLM resources list.
+  evidence:
+    - Repo description and README describe a native Golang ETL streaming parser with no mention of AI, LLMs, or coding assistants.
+    - Topics and docs focus on CSV, EDI, XML, JSON transforms and Go SDK usage, not AI workflows.
+    - Listed in awesome-LLM-resources under a generic data section, but the tool itself has no AI-facing functionality.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1081) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.622Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:33.524Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:08.201Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

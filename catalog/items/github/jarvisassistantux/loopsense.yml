@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jarvisassistantux__loopsense__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,49 +40,49 @@ metadata:
       - github-actions
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:51.744Z"
+    last_checked_at: "2026-05-06T22:44:31.084Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.744Z"
+      fetched_at: "2026-05-06T22:44:31.084Z"
       bytes: 4065
 insights:
-  summary: LoopSense is an open-source MCP server that gives AI coding agents real-time visibility into CI results, deployments, test outcomes, and file system changes.
-  why_it_matters: It closes the blind-loop where agents push code and wait blindly, letting them react immediately to failing tests or broken deployments.
-  mental_damage: We have finally built the middleware required to let an AI agent nervously refresh its own CI results every thirty seconds so you don't have to.
+  summary: LoopSense is an open-source MCP server that provides AI coding agents with real-time feedback on CI results, deployments, test outcomes, and file system changes.
+  why_it_matters: It closes the blind-action loop for agents by surfacing downstream effects like failing GitHub Actions or local test exits directly back into the coding workflow.
+  mental_damage: We have finally built the middleware required to ensure your AI agent can panic about a broken build exactly as quickly as you can.
   tags:
     - mcp
     - ci-cd
-    - coding-agents
     - feedback-loop
-  confidence: high
+    - agent-tooling
+  confidence: medium
 curation:
   status: included
-  reason: The product is itself an MCP server that integrates with Claude Code and other MCP hosts to provide CI and filesystem watching capabilities, fitting cleanly into MCP infrastructure.
+  reason: The product's identity is explicitly an MCP server that watches CI, processes, and file systems to provide feedback tools to MCP-compatible hosts.
   evidence:
-    - Repo description explicitly states it is an open-source MCP server for AI coding agents.
-    - README details MCP configuration for Claude Code and exposes MCP resources like loopsense://timeline/recent.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - "Repo description states: 'LoopSense is an open-source MCP server that closes the feedback loop for AI coding agents.'"
+    - README details MCP tools like `watch_ci`, `watch_process`, and `watch_file` exposed via the Model Context Protocol.
+    - Listed in awesome-mcp-servers under 'Developer Tools', aligning with its identity as a protocol server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.744Z"
+    updated_at: "2026-05-06T22:44:31.084Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:44.748Z"
+    updated_at: "2026-05-06T23:03:36.901Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

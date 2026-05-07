@@ -1,13 +1,13 @@
 id: github__amirrezasalimi__friday
 kind: github-repo
-name: Friday
+name: friday
 canonical_url: https://github.com/amirrezasalimi/friday
 identity:
   github_repo: amirrezasalimi/friday
 provenance:
   discoveries:
     - id: discovery__github__amirrezasalimi__friday__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -32,50 +32,50 @@ metadata:
     description: Friday is a developer assistant can make whole nodejs project for you with unlimited prompts
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:02.498Z"
+    last_checked_at: "2026-05-06T22:12:37.094Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.498Z"
+      fetched_at: "2026-05-06T22:12:37.094Z"
       bytes: 3220
 insights:
-  summary: Friday is a local web interface that uses GPT-4 to generate entire Node.js applications from a base prompt and additional section prompts, outputting the project to a local directory.
-  why_it_matters: It offers developers a way to scaffold entire Node.js projects locally through a prompt-driven interface rather than manually setting up boilerplate.
-  mental_damage: Another brave soul attempting to convince GPT-4 to reliably update package.json, a battle that historically ends with developers manually installing missing dependencies anyway.
+  summary: Friday is a local web interface that uses GPT-4 to generate Node.js application scaffolds from sequential prompts, each defining a specific section of the app.
+  why_it_matters: It allows developers to bootstrap a Node.js project structure and logic through a browser-based chat interface rather than starting from scratch.
+  mental_damage: Just when you thought the 'unlimited prompts' era was over, here is a tool to generate an entire index.js file and then manually debug the missing packages in the generated package.json.
   tags:
-    - app-generator
-    - gpt-4
-    - local-tool
     - nodejs
+    - app-generator
+    - prompt-to-app
+    - gpt-4
     - scaffolding
   confidence: medium
 curation:
   status: included
-  reason: The tool is a prompt-to-project generator that creates whole new Node.js applications locally, which fits the app-builders category rather than a coding agent that edits existing repos.
+  reason: The tool's core identity is turning prompts into a new Node.js application scaffold rather than editing an existing repository, which aligns with the App Builders category.
   evidence:
-    - Repo description states it 'can make whole nodejs project for you with unlimited prompts'
-    - README confirms it generates an application foundation and sections, outputting to a 'projects/last' directory
-    - Future goals mention enhancing scalability for multi-file apps and generating index.js and .env files
+    - Repo description states it 'can make whole nodejs project for you with unlimited prompts.'
+    - README describes it as an 'AI-Powered App Generation Tool' that builds the foundation of an application via prompts.
+    - Future goals mention generating multi-file apps with a well-defined structure, currently creating an index.js for the entire application.
 placement:
   primary_category: app-builders
-  section: null
+  section: Local / Code-Scaffolding Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:59.392Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.498Z"
+    updated_at: "2026-05-06T22:12:37.094Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:04.810Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tatsu-lab__stanford_alpaca__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 30253
+    forks: 3991
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-10T23:33:09Z"
+    pushed_at: "2024-07-17T09:43:05Z"
+    description: Code and documentation to train Stanford's Alpaca models, and generate the data.
+    homepage: https://crfm.stanford.edu/2023/03/13/alpaca.html
+    topics:
+      - deep-learning
+      - instruction-following
+      - language-model
+    last_checked_at: "2026-05-06T22:46:40.850Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:40.850Z"
+      bytes: 14463
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Code and dataset for fine-tuning the Stanford Alpaca 7B instruction-following model on 52K self-generated examples.
+  why_it_matters: It provides the original recipe and data for turning a base LLaMA model into a capable instruction-following assistant, kickstarting the modern open-source fine-tuning wave.
+  mental_damage: The dataset is licensed CC BY NC 4.0, so you can build a brilliant assistant that legally cannot earn you a dime.
+  tags:
+    - fine-tuning
+    - llama
+    - instruction-following
+    - dataset
+    - research
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a research project and dataset for training base LLMs, not a developer-facing tool, agent, framework, or infrastructure product.
+  evidence:
+    - Repo description states it is 'Code and documentation to train Stanford's Alpaca models, and generate the data.'
+    - README explicitly states 'Alpaca is intended and licensed for research use only' with non-commercial licenses.
+    - Appears in Awesome-LLMOps under 'Model > Large Language Model', which is model research rather than developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (30253) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:40.850Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:35.797Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

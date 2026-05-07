@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mamertofabian__mcp-everything-search__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [mamertofabian/mcp-everything-search](https://github.com/mamertofabian/mcp-everything-search) 🐍 🏠 🪟 - Fast Windows file search using Everything SDK"
         confidence: high
     - id: discovery__github__mamertofabian__mcp-everything-search__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Everything Search](https://github.com/mamertofabian/mcp-everything-search)** - Fast Windows file search using Everything SDK"
         confidence: high
     - id: discovery__github__mamertofabian__mcp-everything-search__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -63,49 +63,49 @@ metadata:
     description: null
     homepage: https://usemcp.com
     topics: []
-    last_checked_at: "2026-05-05T21:03:28.045Z"
+    last_checked_at: "2026-05-06T22:45:07.236Z"
     readme:
-      fetched_at: "2026-05-05T21:03:28.045Z"
+      fetched_at: "2026-05-06T22:45:07.236Z"
       bytes: 6731
 insights:
-  summary: An MCP server that provides fast file searching capabilities across Windows, macOS, and Linux by integrating with platform-native search utilities like Everything, Spotlight, and locate.
-  why_it_matters: It gives coding agents instant filesystem awareness by letting them search files and folders across the entire system without manual traversal or indexing.
-  mental_damage: We have finally invented a protocol so an AI can ask Windows where a file is, instead of nervously grepping its way through a repo like a lost intern.
+  summary: An MCP server that provides fast file searching capabilities across Windows, macOS, and Linux by integrating with Everything SDK, Spotlight, or locate databases.
+  why_it_matters: It gives coding assistants and MCP-compatible clients instant filesystem search, letting them locate files and folders without slow recursive scans or manual exploration.
+  mental_damage: We have successfully abstracted searching for a file into a protocol, so your AI can now spend tokens finding what you already knew was in your Downloads folder.
   tags:
     - mcp
-    - filesystem
-    - search
-    - tooling
+    - file-search
+    - everything-sdk
+    - spotlight
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server providing filesystem search capabilities, which aligns directly with the MCP Servers and Tooling category.
+  reason: The product is an MCP server whose entire identity is exposing filesystem search capabilities to MCP-compatible assistants.
   evidence:
     - "README states: 'An MCP server that provides fast file searching capabilities across Windows, macOS, and Linux.'"
-    - Seen in awesome-mcp-list and awesome-mcp-servers under 'File Systems' sections.
-    - Actively maintained with last push on 2025-10-20 and 325 stars.
+    - GitHub repo name is 'mcp-everything-search' and configuration examples show integration with Claude Desktop as an MCP server.
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under File Systems and Community Servers sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (325) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.578Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:28.045Z"
+    updated_at: "2026-05-06T22:45:07.236Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:26.794Z"
+    updated_at: "2026-05-06T23:11:27.288Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__bigsy__clj-kondo-mcp
 kind: github-repo
-name: clj-kondo-MCP
+name: clj-kondo-mcp
 canonical_url: https://github.com/bigsy/clj-kondo-mcp
 identity:
   github_repo: bigsy/clj-kondo-mcp
 provenance:
   discoveries:
     - id: discovery__github__bigsy__clj-kondo-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:20.957Z"
+    last_checked_at: "2026-05-06T22:12:52.801Z"
     readme:
-      fetched_at: "2026-05-05T21:01:20.957Z"
+      fetched_at: "2026-05-06T22:12:52.801Z"
       bytes: 3223
 insights:
-  summary: An MCP server that wraps clj-kondo to provide linting capabilities for Clojure, ClojureScript, and EDN files within MCP-compatible AI coding assistants.
-  why_it_matters: It allows AI agents to catch static analysis errors in Clojure projects during generation, preventing the common issue of an assistant writing syntactically convincing but lint-failing code.
-  mental_damage: We have successfully abstracted the act of asking a robot to check if the robot's code will make the other robot grumpy.
+  summary: An MCP server that exposes clj-kondo linting capabilities for Clojure, ClojureScript, and EDN files to AI coding assistants like Claude Code.
+  why_it_matters: It lets AI agents apply Clojure linting rules directly within their workflow, preventing the generation of technically valid but idiomatically poor code.
+  mental_damage: Now your AI can detect that your parentheses are imperfectly nested while it simultaneously hallucinates an entire namespace.
   tags:
+    - mcp
     - clojure
     - linting
-    - mcp
-    - static-analysis
+    - extensions
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server designed to integrate clj-kondo linting into AI coding workflows, fitting the MCP infrastructure category.
+  reason: The product is specifically an MCP server implementation designed to integrate clj-kondo linting into MCP-compatible assistants.
   evidence:
-    - README identifies it as 'A Model Context Protocol (MCP) server that provides clj-kondo linting capabilities'.
-    - Included in the 'awesome-mcp-servers' list under 'Community Servers'.
-    - Provides explicit configuration for MCP clients like Cline and Claude Desktop.
+    - The README explicitly states 'A Model Context Protocol (MCP) server that provides clj-kondo linting capabilities'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - Installation instructions are centered on adding it to the mcpServers config block for tools like Cline.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:49.131Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:20.957Z"
+    updated_at: "2026-05-06T22:12:52.801Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:14.967Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

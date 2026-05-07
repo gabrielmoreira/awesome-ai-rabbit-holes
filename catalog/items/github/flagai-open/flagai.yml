@@ -1,13 +1,13 @@
 id: github__flagai-open__flagai
 kind: github-repo
-name: FlagAI
+name: flagai
 canonical_url: https://github.com/flagai-open/flagai
 identity:
   github_repo: flagai-open/flagai
 provenance:
   discoveries:
     - id: discovery__github__flagai-open__flagai__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -32,50 +32,44 @@ metadata:
     description: FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:11.935Z"
+    last_checked_at: "2026-05-06T22:43:54.483Z"
     readme:
-      fetched_at: "2026-05-05T21:02:11.935Z"
+      fetched_at: "2026-05-06T22:43:54.483Z"
       bytes: 20098
 insights:
-  summary: FlagAI is an extensible, fast toolkit for training, fine-tuning, and deploying large-scale multi-modal models, with particular optimizations for Chinese language tasks.
-  why_it_matters: It provides developers with a unified API to download and adapt over 30 pre-trained models while abstracting complex parallelism libraries like DeepSpeed and Megatron-LM into fewer than ten lines of code.
-  mental_damage: Another framework promising that 'parallel training is just ten lines of code' right before you spend three days debugging CUDA versions and distributed timeout errors.
-  tags:
-    - chinese-nlp
-    - fine-tuning
-    - llm
-    - multi-modal
-    - training
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a code-first SDK and toolkit for building with large-scale models, fitting the AI Frameworks category rather than a direct developer coding assistant.
-  evidence:
-    - Repo description defines it as a 'fast, easy-to-use and extensible toolkit for large-scale model' training and deployment.
-    - README emphasizes it is backed by PyTorch, DeepSpeed, and Megatron-LM for developers to build/parallelize models in code.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a foundational ML framework.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (3875) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:41.083Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:11.935Z"
+    updated_at: "2026-05-06T22:43:54.483Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T22:56:08.312Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__flagai-open__flagai: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

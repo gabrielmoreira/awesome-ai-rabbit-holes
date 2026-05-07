@@ -1,13 +1,13 @@
 id: github__opendatalab__doclayout-yolo
 kind: github-repo
-name: DocLayout-YOLO
+name: doclayout-yolo
 canonical_url: https://github.com/opendatalab/doclayout-yolo
 identity:
   github_repo: opendatalab/doclayout-yolo
 provenance:
   discoveries:
     - id: discovery__github__opendatalab__doclayout-yolo__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2138
+    stars: 2140
     forks: 157
     license: AGPL-3.0
     archived: false
@@ -32,50 +32,50 @@ metadata:
     description: "DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception"
     homepage: https://huggingface.co/spaces/opendatalab/DocLayout-YOLO
     topics: []
-    last_checked_at: "2026-05-05T21:04:05.390Z"
+    last_checked_at: "2026-05-06T22:45:42.214Z"
     readme:
-      fetched_at: "2026-05-05T21:04:05.390Z"
+      fetched_at: "2026-05-06T22:45:42.214Z"
       bytes: 10678
 insights:
-  summary: DocLayout-YOLO is a YOLOv10-based computer vision model and Python library for detecting and analyzing the layout of diverse document types using a large synthetic training dataset.
-  why_it_matters: It provides developers with a ready-to-use, fine-tunable model and SDK for extracting structured layout data from documents, which is a critical preprocessing step for RAG pipelines and PDF parsing tools.
-  mental_damage: "Just what we needed: another highly specialized YOLO variant that looks incredible on a benchmark radar chart but will likely require three days of hyperparameter tweaking before it recognizes a simple table in a scanned PDF."
+  summary: DocLayout-YOLO is a PyTorch-based document layout analysis model built on YOLO-v10 that detects and classifies elements in diverse document images using a large-scale synthetic pre-training dataset.
+  why_it_matters: It provides a fast, fine-tunable detection pipeline for developers building document-parsing pipelines, PDF extractors, or RAG systems that need structured document understanding.
+  mental_damage: Because clearly the logical next step after hallucination-prone LLMs is a vision model that can finally tell a footnote from a captions, assuming your training data didn't hallucinate the layout first.
   tags:
-    - computer-vision
-    - document-analysis
-    - layout-detection
-    - pytorch
+    - document-layout
     - yolo
+    - computer-vision
+    - pdf-extraction
+    - pytorch
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because this is a specialized computer vision/ML research model for document layout analysis, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: The project is a computer vision model and research artifact for document layout analysis, not a developer-facing AI tool, agent, workflow, or infrastructure component for building software.
   evidence:
-    - Repo description explicitly identifies this as a YOLO-based layout detection model and PyTorch implementation of a research paper.
-    - README focuses on CV/ML workflows (imgsz, conf thresholds, dataset synthesis) rather than developer tooling, IDEs, or coding agents.
-    - Listed in awesome-LLM-resources under a 'Data' section, indicating it is a data/ML resource rather than a developer productivity tool.
+    - Repo description and README describe a YOLO-v10-based layout detection model, not a coding or developer productivity tool.
+    - Included in awesome-LLM-resources under a data section, not in a developer-tooling or coding-agent context.
+    - No ties to coding agents, IDEs, extensions, app builders, MCP, or developer-facing AI infrastructure in any provided input.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2138) exceeded threshold (150)
+  reason: Stars (2140) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:40.096Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:05.390Z"
+    updated_at: "2026-05-06T22:45:42.214Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:31.925Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: h2o__ai
 kind: website
-name: H2OAI
+name: h2o.ai
 canonical_url: https://h2o.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__h2o__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: H2O.ai is an enterprise AI platform providing end-to-end predictive and generative AI infrastructure, including fine-tuning studios, LLMs, and agentic workflows for on-premises or air-gapped deployments.
-  why_it_matters: It offers developers a complete stack to build, deploy, and monitor AI agents and models within secure, private infrastructure without sending data to external SaaS providers.
-  mental_damage: "Just what every developer wanted: a 'complete end-to-end platform' that promises to solve fraud, HR, and KYC simultaneously, ensuring your YAML files will now require enterprise-grade compliance reviews."
+  summary: H2O.ai is an enterprise AI platform providing end-to-end predictive and generative AI infrastructure, including fine-tuning tools, no-code model studios, and pre-built vertical agents for on-premises or air-gapped deployments.
+  why_it_matters: It offers developers a full-stack alternative to SaaS AI, allowing them to build, fine-tune, and deploy LLMs and predictive models entirely within their own secure infrastructure.
+  mental_damage: You can finally stop worrying about leaking proprietary code to the cloud, provided you enjoy the distinct thrill of managing an enterprise-grade Kubernetes platform just to run a chatbot.
   tags:
-    - agents
     - enterprise-ai
+    - on-prem
+    - mlops
     - generative-ai
     - local-ai
-    - mlops
-  confidence: medium
+  confidence: high
 curation:
   status: excluded
-  reason: While it includes developer tools like H2O Wave and LLM Studio, the primary surface is a broad enterprise AI platform for data scientists and business use cases, not a focused developer-tooling product for coding workflows.
+  reason: Excluded because, despite having developer components like H2O Wave and LLM Studio, the primary identity is a broad enterprise ML/AI platform and SaaS ecosystem rather than a specific developer tooling, coding agent, or local runtime.
   evidence:
-    - Site context emphasizes 'Enterprise AI Agent', 'Predictive AI', and business use cases (banking, telco) over developer IDE/CLI tooling.
-    - Included in 'awesome-local-ai' under 'Platforms / full solutions', suggesting it is infrastructure rather than a coding-specific utility.
-    - No repository description, stars, or code-level inputs provided to confirm it functions as a developer-facing coding agent or SDK.
+    - Site excerpt describes the product as an 'end-to-end GenAI platform' focused on enterprise, banking, and telco use cases rather than developer workflow.
+    - Developer tools mentioned (H2O Wave, LLM Studio) are presented as sub-products of a larger ML platform, not the primary developer-facing tool.
+    - Seen in awesome-local-ai lists, but the linked description emphasizes 'airgapped, on-premises' enterprise solutions over local developer CLI/IDE utility.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:12.677Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:44.234Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

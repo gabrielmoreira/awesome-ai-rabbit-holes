@@ -1,12 +1,12 @@
 id: www__gumloop__com
 kind: website
-name: Gumloop
+name: www.gumloop.com
 canonical_url: https://www.gumloop.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__gumloop__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Gumloop is a no-code platform for building and hosting AI-powered business automations and specialized agents using a visual canvas.
-  why_it_matters: It provides developers and enterprise teams a way to orchestrate multi-agent workflows, connect internal data, and deploy recurring AI tasks without writing custom orchestration code.
-  mental_damage: Another 'no-code' layer promising to unleash engineering capacity, ensuring developers can now spend their afternoons debugging why the visual agent skipped the Slack trigger instead of writing the script themselves.
+  summary: Gumloop is a no-code platform for building and hosting AI-powered business automation workflows using a visual canvas and multi-agent orchestration.
+  why_it_matters: It provides developers with a visual control plane to build, deploy, and monitor specialized agents that integrate internal data, SaaS tools, and recurring tasks without writing orchestration code.
+  mental_damage: Because nothing says 'engineering capacity' quite like replacing your backlog with a no-code canvas that turns every meeting prep and CRM update into a black-box agent you can't debug in vim.
   tags:
-    - agent-orchestration
-    - automation
-    - enterprise
     - no-code
-    - workflow
+    - multi-agent
+    - workflow-automation
+    - enterprise-ai
+    - visual-orchestration
   confidence: high
 curation:
   status: included
-  reason: Gumloop is a user-facing platform for coordinating multiple AI agents and business automations on a visual canvas, fitting the agent-orchestration category rather than coding-agents or app-builders.
+  reason: It is a multi-agent orchestration platform with a visual canvas, SaaS integrations, and enterprise-grade control plane features, fitting the operated workbench profile.
   evidence:
-    - Scraped site describes it as 'The no-code platform to build and host AI-powered business automations' with 'a canvas to orchestrate multi-agent workflows'.
-    - Features include rolling out specialized agents (Data Analysis, Support, CRM) and interacting with them via Slack/Teams rather than writing code in an IDE.
-    - Listed in the 'awesome-ai-agents' directory under business automation use cases.
+    - Scraped site identifies it as 'AI Automation Framework' and 'a canvas to orchestrate multi-agent workflows'.
+    - Includes enterprise features like role-based access, VPC deployments, audit logging, and recurring task scheduling.
+    - Listed under 'awesome-ai-agents' as a no-code platform for building and hosting AI-powered business automations.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:09.916Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:32.899Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

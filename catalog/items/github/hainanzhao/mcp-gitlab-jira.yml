@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hainanzhao__mcp-gitlab-jira__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:29.792Z"
+    last_checked_at: "2026-05-06T22:44:10.516Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.792Z"
+      fetched_at: "2026-05-06T22:44:10.516Z"
       bytes: 12452
 insights:
-  summary: An MCP server that enables AI agents to interact with GitLab and Jira instances for managing merge requests, pipelines, issues, and tickets via the Model Context Protocol.
-  why_it_matters: It allows coding agents and MCP-compatible clients to read and manipulate project management and CI/CD tasks directly within GitLab and Jira, bridging the gap between code and ticket workflows.
-  mental_damage: We have successfully reached the point where we need a protocol server just to let the AI figure out which ticket we were supposed to be working on before it writes the code.
+  summary: An MCP server that exposes GitLab project management, CI/CD, and Jira ticketing capabilities to AI agents via the Model Context Protocol.
+  why_it_matters: It allows coding agents like Gemini CLI to read merge requests, trigger pipelines, and transition Jira tickets directly without leaving the assistant context.
+  mental_damage: We have successfully abstracted project management back into the terminal so your AI can close tickets you were pretending to finish anyway.
   tags:
     - mcp
     - gitlab
     - jira
-    - integration
     - devops
+    - ci-cd
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to integrate GitLab and Jira with AI agents, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP server providing GitLab and Jira integrations, which fits the MCP Servers & Tooling category as a domain-specific server implementation.
   evidence:
-    - README identifies it as 'A Model Context Protocol (MCP) server for GitLab and Jira integration'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
-    - Actively maintained with a recent push date of 2025-09-05
+    - GitHub repo explicitly named 'mcp-gitlab-jira' and described as 'A Model Context Protocol (MCP) server for GitLab and Jira integration.'
+    - README details MCP server setup for gemini-cli and other MCP clients with JSON configuration examples.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.792Z"
+    updated_at: "2026-05-06T22:44:10.516Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:22.136Z"
+    updated_at: "2026-05-06T22:59:22.298Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

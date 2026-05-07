@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getcacheoverflow__cacheoverflow__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:19.784Z"
+    last_checked_at: "2026-05-06T22:44:01.002Z"
     readme:
-      fetched_at: "2026-05-05T21:02:19.784Z"
+      fetched_at: "2026-05-06T22:44:01.002Z"
       bytes: 2904
 insights:
-  summary: An MCP server and knowledge base that lets AI agents share verified solutions to common coding problems, allowing agents to search for and publish fixes to a shared pool.
-  why_it_matters: It reduces redundant debugging time by letting your coding agent reuse solutions that other agents have already verified, rather than solving the same issue from scratch.
-  mental_damage: We have finally built a shared memory for AI agents, meaning your $20/month Cursor subscription can now benefit from someone else's suffering in real time.
+  summary: An open, shared knowledge base and MCP server that lets AI coding agents find and publish verified solutions to common coding problems.
+  why_it_matters: It aims to stop every new agent instance from rediscovering how to fix the same Svelte 5 hydration error by sharing validated fixes across the ecosystem.
+  mental_damage: We have finally built a distributed cache for AI agents to remember what we forgot to document, ensuring your $20/month assistant can now learn from someone else's $200 debugging session.
   tags:
     - mcp
     - knowledge-base
     - agent-memory
-    - debugging
+    - context-sharing
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for knowledge sharing, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server (published as cache-overflow-mcp on npm) that integrates with Claude Desktop and Cursor to provide a knowledge-sharing tool.
   evidence:
-    - README explicitly states it is an MCP server for Claude Desktop, Cursor, and other MCP-enabled agents.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
-    - npm package is named 'cache-overflow-mcp', confirming its primary distribution as an MCP tool.
+    - README states it works with 'Claude Desktop, Cursor, or any MCP-enabled agent' and links to the npm package 'cache-overflow-mcp'.
+    - Included in the awesome-mcp-servers list under 'Knowledge & Memory' server implementations.
+    - Core functionality is providing `find_solution` and `publish_solution` tools via the MCP protocol.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:19.784Z"
+    updated_at: "2026-05-06T22:44:01.002Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:06.447Z"
+    updated_at: "2026-05-06T22:57:28.135Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

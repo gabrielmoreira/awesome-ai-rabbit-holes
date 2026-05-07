@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pytorch__serve__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -44,20 +44,28 @@ metadata:
       - optimization
       - pytorch
       - serving
-    last_checked_at: "2026-05-05T23:08:13.498Z"
+    last_checked_at: "2026-05-06T22:46:01.204Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.498Z"
+      fetched_at: "2026-05-06T22:46:01.204Z"
       bytes: 15310
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TorchServe is a serving framework for deploying and scaling PyTorch models in production environments, including support for LLM inference via vLLM and TRT-LLM engines.
+  why_it_matters: It provides the infrastructure to expose trained PyTorch models—including LLMs—as scalable HTTP endpoints for integration into applications.
+  mental_damage: The bridge between 'I trained a model' and 'it's serving traffic in prod' remains a special kind of ops theater that makes you question why you didn't just use a managed API.
+  tags:
+    - pytorch
+    - model-serving
+    - mlops
+    - llm-deployment
+    - inference
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a general ML model-serving framework for PyTorch, not a developer-facing AI coding tool, agent, or assistant.
+  evidence:
+    - "Repo description states: 'Serve, optimize and scale PyTorch models in production', targeting ML ops rather than developer workflows."
+    - Topics include cpu, deep-learning, docker, gpu, kubernetes, machine-learning, metrics, mlops, optimization, pytorch, serving—none aligning with coding agents or developer tooling.
+    - Archived status with a notice that the project is 'no longer actively maintained' further weakens the case for inclusion in a curated developer tooling catalog.
 placement:
   primary_category: null
   section: null
@@ -67,21 +75,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.498Z"
+    updated_at: "2026-05-06T22:46:01.204Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:31.902Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

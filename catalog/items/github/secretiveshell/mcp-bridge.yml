@@ -1,13 +1,13 @@
 id: github__secretiveshell__mcp-bridge
 kind: github-repo
-name: MCP-Bridge
+name: mcp-bridge
 canonical_url: https://github.com/secretiveshell/mcp-bridge
 identity:
   github_repo: secretiveshell/mcp-bridge
 provenance:
   discoveries:
     - id: discovery__github__secretiveshell__mcp-bridge__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 925
+    forks: 114
+    license: MIT
+    archived: false
+    created_at: "2024-11-30T19:29:35Z"
+    pushed_at: "2025-12-08T15:22:32Z"
+    description: A middleware to provide an openAI compatible endpoint that can call MCP tools
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - model-context-protocol
+      - openai
+      - openai-api
+    last_checked_at: "2026-05-06T22:46:19.254Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:19.254Z"
+      bytes: 9087
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A middleware server that exposes Model Context Protocol (MCP) tools through an OpenAI-compatible API endpoint, allowing standard OpenAI clients to call MCP servers.
+  why_it_matters: It lets developers use any MCP tool with existing OpenAI-API-compatible clients and local inference engines like vLLM or Ollama without waiting for native MCP support.
+  mental_damage: We have collectively built a bridge to help new protocols talk to old protocols so we don't have to admit that our clients are still hard-coded to 2023 APIs.
+  tags:
+    - mcp
+    - openai-api
+    - middleware
+    - self-hosted
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: "The product's core identity is MCP infrastructure: it is a middleware layer whose entire purpose is translating between MCP tools and the OpenAI API."
+  evidence:
+    - Repo description states it is 'A middleware to provide an openAI compatible endpoint that can call MCP tools'.
+    - README confirms the project 'acts as a bridge between the OpenAI API and MCP (MCP) tools'.
+    - Listed in awesome-mcp-servers under the 'Clients' section, aligning with its MCP identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (925) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:19.254Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:38.688Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

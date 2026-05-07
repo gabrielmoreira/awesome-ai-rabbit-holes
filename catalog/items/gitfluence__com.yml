@@ -1,12 +1,12 @@
 id: gitfluence__com
 kind: website
-name: GitFluence
+name: gitfluence.com
 canonical_url: https://gitfluence.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__gitfluence__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based AI tool that suggests the correct Git command based on a plain-language description of the desired action.
-  why_it_matters: It reduces workflow friction for developers who know what they want to do in Git but cannot recall the specific syntax or flags.
-  mental_damage: We have reached the point where the developer tooling stack requires an AI wrapper to translate human intent into a three-word command that hasn't changed in a decade.
+  summary: GitFluence is a web-based AI tool that translates natural language descriptions of git tasks into the corresponding command-line instructions.
+  why_it_matters: It reduces the friction of remembering obscure git syntax, allowing developers to describe what they want to accomplish and immediately receive the executable command.
+  mental_damage: We have reached the point where developers need a generative model to translate human intent into a 1980s version control system, because reading the man page became too immersive.
   tags:
-    - cli
     - git
+    - cli
     - utility
-    - workflow
+    - web-tool
   confidence: high
 curation:
   status: excluded
-  reason: This is a narrow utility for a single CLI command rather than a developer tool, agent, or infrastructure component that fits the catalog's scope.
+  reason: This is a consumer-facing web utility for translating text to git commands, not a developer tool, agent, framework, or infrastructure component that fits the catalog's scope.
   evidence:
-    - Scraped site context describes the tool solely as 'Git Command Generator' and 'helps you quickly find the right command'.
-    - The workflow is limited to describing a command, receiving a suggestion, and copying it to the terminal.
+    - "The scraped site describes a web app flow: 'Describe the command', 'Receive suggestions', 'Copy the command' into a terminal."
+    - The product is a 'Git Command Generator' rather than an IDE integration, CLI agent, or programmable library.
+    - It lacks a repo, code artifacts, or extension identity; it is a standalone SaaS helper.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:44.310Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:24.883Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

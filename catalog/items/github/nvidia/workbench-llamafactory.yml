@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nvidia__workbench-llamafactory__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,30 +32,30 @@ metadata:
     description: "This is an NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory. "
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:57.569Z"
+    last_checked_at: "2026-05-06T22:45:35.383Z"
     readme:
-      fetched_at: "2026-05-05T21:03:57.569Z"
+      fetched_at: "2026-05-06T22:45:35.383Z"
       bytes: 720
 insights:
-  summary: An NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using LLaMA-Factory for fine-tuning LLMs.
-  why_it_matters: It provides a structured, containerized starting point for developers looking to fine-tune, quantize, and export LLMs using NVIDIA hardware and the LLaMA-Factory stack.
-  mental_damage: Another abstraction layer wrapped around an abstraction layer, ensuring you can fine-tune a model in Docker without ever having to understand the underlying math, or your own hardware.
+  summary: An NVIDIA AI Workbench example project that demonstrates an end-to-end LLM fine-tuning workflow using LLaMA-Factory, including LoRA adapter fusion and export to TensorRT-LLM.
+  why_it_matters: It provides a packaged, reproducible environment for developers to fine-tune and optimize local LLMs using NVIDIA's containerized Workbench tooling.
+  mental_damage: Yet another 'end-to-end' tutorial project proving that while we can fine-tune a model in a docker container, we still haven't solved the part where we figure out what to fine-tune it on.
   tags:
     - fine-tuning
-    - llama-factory
     - nvidia
-    - workbench
+    - llama-factory
     - local-ai
-  confidence: medium
+    - tensorrt
+  confidence: high
 curation:
-  status: included
-  reason: This is a developer-facing example for running local LLM fine-tuning workflows on NVIDIA hardware using LLaMA-Factory within the AI Workbench environment.
+  status: excluded
+  reason: This is an example project and tutorial wrapper for LLaMA-Factory rather than a standalone developer tool, IDE, agent, or reusable framework.
   evidence:
-    - Repo description states it is an 'NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory'.
-    - README features include fine-tuning LLMs, applying Post Training Quantization, and exporting models to TensorRT-LLM.
-    - Listed in awesome-LLM-resources under the '微调 Fine-Tuning' (Fine-Tuning) section.
+    - Repo description explicitly states it is an 'NVIDIA AI Workbench example project' and a demo.
+    - README instructs users to follow a separate fine-tuning tutorial and deploy the existing LLaMA-Factory tool.
+    - Low traction (72 stars) and classified under 'Fine-Tuning' resources in awesome-LLM-resources, indicating it is a resource/demo, not a product.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -63,19 +63,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:57.569Z"
+    updated_at: "2026-05-06T22:45:35.383Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:12.769Z"
+    updated_at: "2026-05-06T23:17:56.306Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

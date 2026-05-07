@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__muvon__octocode__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 345
-    forks: 34
+    stars: 344
+    forks: 35
     license: Apache-2.0
     archived: false
     created_at: "2025-06-01T11:05:16Z"
@@ -53,50 +53,50 @@ metadata:
       - semantic-search
       - semantic-search-ai
       - tree-sitter
-    last_checked_at: "2026-05-05T21:03:49.455Z"
+    last_checked_at: "2026-05-06T22:45:27.652Z"
     readme:
-      fetched_at: "2026-05-05T21:03:49.455Z"
+      fetched_at: "2026-05-06T22:45:27.652Z"
       bytes: 16834
 insights:
-  summary: A Rust-based MCP server that builds a knowledge graph from a codebase using tree-sitter AST parsing to provide semantic search and structural context to AI agents.
-  why_it_matters: It allows AI assistants like Claude and Cursor to navigate actual code dependencies and relationships rather than treating the repository as flat text chunks.
-  mental_damage: We have successfully built a graph of why our code is broken, now we just need an agent smart enough to ignore the graph and commit the bug anyway.
+  summary: A Rust-based MCP server that builds a knowledge graph and semantic search index of a codebase using tree-sitter AST parsing to give AI assistants structural context.
+  why_it_matters: It replaces flat text chunking with navigable code relationships so agents can answer dependency and architecture questions instead of guessing by keyword similarity.
+  mental_damage: We have successfully built a tool that lets your AI assistant pretend it understands your monorepo, which means you can now argue with it about import graphs instead of just arguing about syntax.
   tags:
     - mcp
     - semantic-search
     - knowledge-graph
-    - cli
-    - rust
+    - rag
+    - code-navigation
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to expose codebase knowledge graphs to AI tools, fitting the MCP infrastructure category perfectly.
+  reason: The product identity is an MCP server that exposes code intelligence tools to AI assistants, placing it firmly in MCP Servers & Tooling rather than as a standalone coding agent or generic framework.
   evidence:
-    - Repo description identifies it as a 'Semantic code searcher and codebase utility' with 'mcp-server' and 'graphrag' topics.
-    - README states it is an 'MCP Server + Knowledge Graph + Semantic Search' that exposes tools via MCP to clients like Claude Desktop and Cursor.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly calls it a 'Semantic code searcher and codebase utility' with topics including mcp-server and mcp-servers.
+    - README states 'Octocode's MCP server gives AI agents' capabilities and shows the MCP JSON config block as the integration path.
+    - Source list context places it in awesome-mcp-servers under 'Developer Tools', aligning with its MCP-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (345) exceeded threshold (150)
+  reason: Stars (344) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:49.455Z"
+    updated_at: "2026-05-06T22:45:27.652Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:34.889Z"
+    updated_at: "2026-05-06T23:16:12.456Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

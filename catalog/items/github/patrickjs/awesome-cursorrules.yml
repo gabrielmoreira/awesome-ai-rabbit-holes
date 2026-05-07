@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__patrickjs__awesome-cursorrules__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 39383
-    forks: 3357
+    stars: 39397
+    forks: 3360
     license: CC0-1.0
     archived: false
     created_at: "2024-09-16T15:38:38Z"
@@ -37,50 +37,50 @@ metadata:
       - cursor
       - cursor-ai-editor
       - cursorrules
-    last_checked_at: "2026-05-05T21:04:13.093Z"
+    last_checked_at: "2026-05-06T22:45:49.119Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.093Z"
+      fetched_at: "2026-05-06T22:45:49.119Z"
       bytes: 39570
 insights:
-  summary: A curated directory of reusable .cursorrules configuration files to customize AI behavior across various frontend, backend, and mobile development stacks in the Cursor editor.
-  why_it_matters: It solves the 'blank canvas' problem for Cursor users by providing community-vetted rule sets that enforce project-specific coding standards and context awareness out of the box.
-  mental_damage: We have now reached the point where we are compiling awesome lists of configuration files for the configuration files that tell the AI how to pretend it's senior engineers.
+  summary: A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors.
+  why_it_matters: Developers can quickly adopt community-vetted rule sets to align Cursor's AI code generation with specific frameworks, languages, and team standards.
+  mental_damage: We have now successfully abstracted software engineering into the curation of text files that tell our AI assistants how to pretend to be senior developers.
   tags:
     - cursor
-    - rules
+    - cursorrules
     - config
     - awesome-list
-    - context
+    - ide
   confidence: high
 curation:
   status: included
-  reason: This is a meta-list (awesome list) containing a directory of rules/skills for Cursor, making it a navigation aid for developers rather than a standalone tool or skill pack itself.
+  reason: This is a classic awesome list containing configuration files and directories for Cursor, fitting the navigation/discovery identity of the Lists & Directories category.
   evidence:
-    - Repo description identifies it explicitly as 'Configuration files' and the README structure is a categorized directory of links.
-    - Direct awesome list source is confirmed as 'yes' in the inputs.
-    - The project acts as an index for .cursorrules files across different frameworks rather than being a single tool or extension.
+    - Repo description explicitly states it is a collection of 'Configuration files' for Cursor.
+    - README structure follows the standard 'Awesome' list format with categorized links to rules for frontend, backend, and mobile.
+    - Direct awesome list source is confirmed as 'yes' in the metadata.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (39383) exceeded threshold (150)
+  reason: Stars (39397) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.572Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.093Z"
+    updated_at: "2026-05-06T22:45:49.119Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:58.317Z"
+    updated_at: "2026-05-06T23:21:01.896Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

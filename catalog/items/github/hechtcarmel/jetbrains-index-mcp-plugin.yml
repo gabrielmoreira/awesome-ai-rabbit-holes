@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hechtcarmel__jetbrains-index-mcp-plugin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,58 +25,58 @@ provenance:
 metadata:
   github:
     stars: 192
-    forks: 42
+    forks: 43
     license: MIT
     archived: false
     created_at: "2025-11-25T07:43:21Z"
-    pushed_at: "2026-05-03T07:54:44Z"
+    pushed_at: "2026-05-06T07:16:06Z"
     description: A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing of the codebase
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:32.104Z"
+    last_checked_at: "2026-05-06T22:44:12.934Z"
     readme:
-      fetched_at: "2026-05-05T21:02:32.104Z"
+      fetched_at: "2026-05-06T22:44:12.934Z"
       bytes: 21259
 insights:
-  summary: A JetBrains IDE plugin that runs an MCP server inside the IDE, exposing IntelliJ's code indexing, reference resolution, and refactoring capabilities to external AI coding assistants.
-  why_it_matters: It gives AI agents semantic understanding of large codebases through the IDE's native AST and index, enabling safer refactors and more accurate cross-file navigation than text-based analysis alone.
-  mental_damage: We've reached the point where the IDE needs a plugin so the AI can understand the code that the IDE already understands, effectively turning your development environment into a middleman API for your chatbot.
+  summary: A JetBrains IDE plugin that exposes an MCP server to give AI coding assistants semantic access to IntelliJ's code indexing, refactoring, and diagnostics.
+  why_it_matters: It allows AI agents to navigate complex codebases using actual IDE intelligence—references, type hierarchies, and safe renaming—rather than guessing via text search.
+  mental_damage: We have successfully abstracted the IDE into a context window, so your $200/month agent can now perform a 'Find Usages' that you could have done with a single shortcut, but with more latency and existential dread.
   tags:
     - jetbrains
     - mcp
-    - indexing
-    - refactoring
     - ide-integration
+    - code-intelligence
+    - plugin
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation designed to bridge AI assistants and JetBrains IDE intelligence, making it a clear fit for the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server that exposes JetBrains IDE capabilities to external AI tools, making it a domain-specific MCP server rather than a generic extension or agent.
   evidence:
     - Repo description explicitly states it is 'A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing' via MCP.
-    - README confirms the plugin 'exposes an MCP (Model Context Protocol) server' with tools like Find References, Go to Definition, and Rename Refactoring.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with the MCP infrastructure scope.
+    - README describes the tool as 'A JetBrains IDE plugin that exposes an MCP (Model Context Protocol) server' with tools like Find References and Semantic Search.
+    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (192) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:32.104Z"
+    updated_at: "2026-05-06T22:44:12.934Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:41.838Z"
+    updated_at: "2026-05-06T22:59:47.291Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

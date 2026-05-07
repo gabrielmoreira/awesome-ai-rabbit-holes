@@ -1,12 +1,12 @@
 id: bitrise__io
 kind: website
-name: Bitrise
+name: bitrise.io
 canonical_url: https://bitrise.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__bitrise__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,23 +35,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bitrise is a mobile-focused CI/CD and DevOps platform for automating builds, tests, and deployments across iOS, Android, and cross-platform mobile stacks, with a recent 'Bitrise AI' feature for intelligent fixes.
-  why_it_matters: It provides a specialized, managed pipeline for mobile teams to ship faster with features like remote build caching, automated code signing, and AI-assisted debugging.
-  mental_damage: We have successfully automated the entire mobile release pipeline so thoroughly that 'Bitrise AI' can now theoretically fix the build failures caused by the very complexity of the CI system we just bought.
+  summary: Bitrise is a mobile DevOps platform providing CI/CD, build caching, release management, and AI-assisted build fixes for iOS and Android development teams.
+  why_it_matters: It centralizes mobile build pipelines on dedicated Apple silicon infrastructure while offering context-aware AI tools that can fix failed builds and review PRs directly from an IDE via MCP.
+  mental_damage: Now your CI pipeline can apologize for failing and attempt a fix before you even finish writing the commit message that broke it.
   tags:
-    - ai-fixes
-    - bitrise
-    - build-automation
     - ci-cd
     - mobile-devops
+    - mcp
+    - ai-fixes
+    - bitrise
   confidence: high
 curation:
   status: excluded
-  reason: While Bitrise is a mature developer tool, its core CI/CD platform is traditional infrastructure; the 'Bitrise AI' feature is a minor add-on rather than a primary AI-native tool for coding, and it lacks the agentic or generative focus required for this catalog.
+  reason: Bitrise is a mature Mobile DevOps CI/CD platform for iOS and Android; it is infrastructure automation rather than the coding agents, agent orchestration, or developer-facing AI tooling that this catalog curates.
   evidence:
-    - Primary description identifies it as a 'Mobile DevOps platform' for CI/CD, not an AI coding tool.
-    - The 'Bitrise AI' feature is mentioned as 'intelligent fixes' but is one product among many traditional DevOps features like caching and code signing.
-    - Seen in awesome-mcp-servers lists, but the tool itself is a general CI/CD platform, not an MCP-specific server or AI agent.
+    - Described as 'The Mobile DevOps platform that helps you build, test, and deploy your apps quickly and reliably.'
+    - Primary surface is a CI/CD SaaS with build caching, release management, and insights, not a coding assistant or agent framework.
+    - MCP is mentioned only as an IDE connectivity feature for Bitrise AI, not as the product identity.
 placement:
   primary_category: null
   section: null
@@ -59,20 +59,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:34.148Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:41.238Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

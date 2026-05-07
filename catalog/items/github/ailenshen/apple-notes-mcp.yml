@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ailenshen__apple-notes-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - markdown
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:00:55.618Z"
+    last_checked_at: "2026-05-06T22:12:31.094Z"
     readme:
-      fetched_at: "2026-05-05T21:00:55.618Z"
+      fetched_at: "2026-05-06T22:12:31.094Z"
       bytes: 5735
 insights:
-  summary: An MCP server that lets AI clients read, search, write, and update Apple Notes on macOS with native formatting support via Markdown import.
-  why_it_matters: It turns Apple Notes into a structured, programmable knowledge base that AI assistants can directly query and update from the IDE or terminal.
-  mental_damage: We have finally bridged the gap between large language models and Apple Notes, meaning your AI can now argue with your grocery list in real time.
+  summary: An MCP server that reads and writes Apple Notes with native formatting by leveraging Notes.app's Markdown import capability on macOS.
+  why_it_matters: It lets developers wire their personal Apple Notes directly into AI assistants like Claude Desktop and Claude Code as a first-class, formatted knowledge source.
+  mental_damage: "We have finally achieved the singularity: a protocol bridge that makes your grocery list and meeting agenda equally accessible to your coding agent, provided you grant node full disk access and accessibility permissions."
   tags:
     - mcp
     - apple-notes
     - macos
-    - knowledge-management
-    - developer-tools
+    - knowledge-base
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The project is a focused MCP server that integrates Apple Notes with AI clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that gives AI clients native-formatted access to Apple Notes, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Read and write Apple Notes, with Apple Notes native formatting support'"
-    - README states it is an MCP server configured for Claude Desktop and Claude Code
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+    - Repo description and README explicitly define it as an MCP server for reading/writing Apple Notes with native formatting.
+    - Setup instructions target Claude Desktop and Claude Code as MCP clients, reinforcing MCP as the core product identity.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory', aligning with its domain-specific MCP server role.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:55.618Z"
+    updated_at: "2026-05-06T22:12:31.094Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:56.272Z"
+    updated_at: "2026-05-06T22:19:55.221Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

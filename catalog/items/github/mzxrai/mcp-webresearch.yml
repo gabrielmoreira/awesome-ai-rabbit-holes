@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mzxrai__mcp-webresearch__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -37,27 +37,27 @@ metadata:
       - mcp
       - model-context-protocol
       - web-research
-    last_checked_at: "2026-05-05T21:03:50.502Z"
+    last_checked_at: "2026-05-06T22:45:28.468Z"
     readme:
-      fetched_at: "2026-05-05T21:03:50.502Z"
+      fetched_at: "2026-05-06T22:45:28.468Z"
       bytes: 3618
 insights:
-  summary: An archived Model Context Protocol server that enables Claude Desktop to perform Google searches, visit web pages, and manage research sessions with screenshots.
-  why_it_matters: It allows developers using Claude Desktop to ground conversations in real-time web data without leaving the chat interface.
-  mental_damage: We have successfully invented a way for an AI to hallucinate with the confidence of a human by letting it read the internet in real-time, and then immediately archived the tool.
+  summary: An archived MCP server that gives Claude Desktop real-time web research capabilities via Google search, webpage extraction, and screenshot capture.
+  why_it_matters: It allows local Claude Desktop users to ground responses in live web data without copy-pasting, bridging a key capability gap in offline-first assistants.
+  mental_damage: We have reached the point where the tool that lets your AI search the web is already abandonware, perfectly capturing the half-life of our MCP enthusiasm.
   tags:
     - mcp
     - web-research
     - claude
-    - context-engineering
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived, signaling that it is no longer maintained or recommended for use, which overrides its clear fit as an MCP server.
+  reason: The repository is archived and was explicitly described as pre-alpha AIGC code, meaning it is no longer maintained and does not meet the bar for inclusion as stable developer tooling.
   evidence:
-    - "Archived: yes (explicit archived flag in inputs)"
-    - Repo description confirms it is an MCP server for web research
-    - Appears in awesome-mcp-list under Search, confirming MCP relevance
+    - Repo is marked as archived with no pushes since December 2024.
+    - "README states: 'This is very much pre-alpha code. And it is also AIGC, so expect bugs.'"
+    - Primary identity is an MCP server, but its inactive status outweighs the fit.
 placement:
   primary_category: null
   section: null
@@ -67,19 +67,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:50.502Z"
+    updated_at: "2026-05-06T22:45:28.468Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:46.755Z"
+    updated_at: "2026-05-06T23:16:23.724Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

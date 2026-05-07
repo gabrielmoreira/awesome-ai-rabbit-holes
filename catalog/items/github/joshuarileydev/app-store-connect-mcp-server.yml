@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joshuarileydev__app-store-connect-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [joshuarileydev/app-store-connect-mcp-server](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) 📇 🏠 - An MCP server to communicate with the App Store Connect API for iOS Developers"
         confidence: high
     - id: discovery__github__joshuarileydev__app-store-connect-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,28 +48,20 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:59.036Z"
+    last_checked_at: "2026-05-06T22:44:37.124Z"
     readme:
-      fetched_at: "2026-05-05T21:02:59.036Z"
+      fetched_at: "2026-05-06T22:44:37.124Z"
       bytes: 19155
 insights:
-  summary: An archived MCP server that allows developers to manage App Store Connect resources, including apps, beta testers, and metadata, through conversational AI interfaces like Claude Desktop.
-  why_it_matters: It allows iOS and macOS developers to automate App Store operations and manage app metadata using natural language instead of the often-cumbersome web dashboard or API scripts.
-  mental_damage: You can now overcomplicate your release pipeline by asking a chatbot to update your 'What's New' text, provided you don't mind relying on an archived bridge to Apple's walled garden.
-  tags:
-    - mcp
-    - app-store
-    - ios
-    - developer-tools
-    - automation
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The repository is marked as archived, indicating it is no longer maintained or supported, which is a strong negative signal for inclusion in a curated active catalog.
-  evidence:
-    - "The repo metadata explicitly shows 'Archived: yes'."
-    - Although it appears in the 'awesome-mcp-servers' list under Developer Tools, its archived status means it is no longer a viable active tool.
-    - Created in December 2024 but already archived, suggesting a short lifespan or abandonment.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -79,19 +71,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:59.036Z"
+    updated_at: "2026-05-06T22:44:37.124Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:12.430Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-06T23:04:49.703Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__joshuarileydev__app-store-connect-mcp-server: Excluded responses must use an empty category_candidates list"
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

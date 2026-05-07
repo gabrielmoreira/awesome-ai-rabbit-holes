@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the-swarm-corporation__swarms-evals__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2024-06-13T01:15:12Z"
+    pushed_at: "2025-10-13T19:16:13Z"
+    description: Implementation of all the evals of the swarm evals for the swarm paper.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:46.531Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:46.531Z"
+      bytes: 2832
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python package providing evaluation harnesses for comparing multi-agent collaboration performance against individual agents across benchmarks like HumanEval, MMLU, and SWE-BENCH.
+  why_it_matters: Developers building or tuning multi-agent systems can use this to benchmark whether adding swarm coordination actually improves code generation and reasoning results.
+  mental_damage: Now you can scientifically prove that your over-engineered multi-agent swarm performs exactly as well as a single prompt, but with 400% more latency and cost metrics to ignore.
+  tags:
+    - evals
+    - benchmarks
+    - multi-agent
+    - swarms
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core job of this package is measuring and benchmarking agent behavior across standard ML and code-generation datasets, which aligns precisely with the Evals & Benchmarks category.
+  evidence:
+    - Repo description states it is 'Implementation of all the evals of the swarm evals for the swarm paper.'
+    - README explicitly lists evaluation datasets including HumanEval, SWE-BENCH, MMLU, and ARC.
+    - Source list places it under 'Tools & Infrastructure > Evaluation & Benchmarking' in an agent-orchestration directory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:46.531Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:37.279Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

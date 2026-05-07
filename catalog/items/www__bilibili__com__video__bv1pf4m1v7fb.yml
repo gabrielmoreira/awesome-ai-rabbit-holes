@@ -1,0 +1,76 @@
+id: www__bilibili__com__video__bv1pf4m1v7fb
+kind: website
+name: BV1pF4m1V7FB
+canonical_url: https://www.bilibili.com/video/BV1pF4m1V7FB
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__bilibili__com__video__bv1pf4m1v7fb__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: 轻松入门大语言模型（LLM）
+        extracted_url: https://www.bilibili.com/video/BV1pF4m1V7FB
+        surrounding_text: 4. [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language video tutorial and slide deck introducing the foundations of large language models, covering pre-training, adaptation, usage, and evaluation.
+  why_it_matters: It provides a structured entry point for developers who need to understand LLM internals before building on top of them.
+  mental_damage: Another reminder that while we're deploying autonomous agents, most of us are still following 101 tutorials to understand what's actually running under the hood.
+  tags:
+    - llm
+    - tutorial
+    - education
+    - nlp
+  confidence: high
+curation:
+  status: excluded
+  reason: The item is an educational video and slide deck rather than a developer tool, framework, or product, which falls outside the catalog's scope of practical AI tooling.
+  evidence:
+    - The URL points to a Bilibili video, not a tool repository or product page.
+    - The description explicitly states it is a tutorial for LLM technology entry, not a software tool.
+    - Listed in awesome-LLM-resources under a 'Tips' section as a learning resource, not as a tool or SDK.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:05.881Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

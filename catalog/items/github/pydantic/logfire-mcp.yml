@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pydantic__logfire-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Logfire](https://github.com/pydantic/logfire-mcp)** - Provides access to OpenTelemetry traces and metrics through Logfire."
         confidence: high
     - id: discovery__github__pydantic__logfire-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -47,9 +47,9 @@ metadata:
     description: "The Logfire MCP Server is here! :tada:"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T23:08:12.765Z"
+    last_checked_at: "2026-05-06T22:46:00.102Z"
     readme:
-      fetched_at: "2026-05-05T23:08:12.765Z"
+      fetched_at: "2026-05-06T22:46:00.102Z"
       bytes: 531
 insights:
   summary: null
@@ -70,21 +70,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:12.765Z"
+    updated_at: "2026-05-06T22:46:00.102Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
+    updated_at: "2026-05-06T23:23:19.044Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__pydantic__logfire-mcp: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

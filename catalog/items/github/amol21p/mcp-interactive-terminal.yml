@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amol21p__mcp-interactive-terminal__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -52,50 +52,50 @@ metadata:
       - terminal
       - windsurf
       - xterm
-    last_checked_at: "2026-05-05T21:01:02.597Z"
+    last_checked_at: "2026-05-06T22:12:37.472Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.597Z"
+      fetched_at: "2026-05-06T22:12:37.472Z"
       bytes: 13926
 insights:
-  summary: An MCP server that provides AI coding agents with real interactive terminal sessions using PTY emulation to support REPLs, SSH, databases, and other interactive CLI tools.
-  why_it_matters: It bridges a critical gap where AI agents fail to handle interactive commands, allowing them to run stateful sessions like Rails consoles, database clients, and SSH connections directly within the development workflow.
-  mental_damage: We have finally engineered a way for an AI to get stuck in an interactive Python REPL, just like the rest of us.
+  summary: An MCP server that gives AI agents real interactive terminal sessions via PTY, enabling REPLs, SSH, databases, Docker, and other interactive CLIs with clean output and completion detection.
+  why_it_matters: It unblocks AI coding agents from running interactive commands like rails console, python, psql, and ssh, which standard MCP command execution cannot handle.
+  mental_damage: We have finally built a bridge so your AI agent can pretend to be you typing into a REPL, just in case the real terminal experience wasn't alienating enough.
   tags:
     - mcp
     - terminal
     - pty
-    - cli
-    - agent-infrastructure
+    - interactive-cli
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is fundamentally an MCP server designed to extend the capabilities of MCP-compatible AI agents, fitting squarely into the MCP infrastructure category.
+  reason: The product identity is an MCP server that extends agents with interactive terminal capabilities, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'MCP server that gives AI agents... real interactive terminal sessions'."
-    - README confirms it communicates over stdio using the Model Context Protocol and provides setup for Claude Code, Cursor, and Windsurf.
-    - Listed in the awesome-mcp-list under the 'Command Line' section, reinforcing its identity as MCP tooling.
+    - Repo description explicitly states 'MCP server that gives AI agents (Claude Code, Cursor, Windsurf) real interactive terminal sessions'
+    - README demonstrates setup instructions for Claude Code, Cursor, Windsurf, and VS Code Copilot as MCP servers
+    - Topics include mcp, mcp-server, and model-context-protocol, confirming MCP is the core identity
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.597Z"
+    updated_at: "2026-05-06T22:12:37.472Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:01.096Z"
+    updated_at: "2026-05-06T22:21:07.157Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

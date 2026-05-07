@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avivsinai__langfuse-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-03-21T06:44:44Z"
-    pushed_at: "2026-05-05T17:55:36Z"
+    pushed_at: "2026-05-06T10:16:32Z"
     description: A Model Context Protocol (MCP) server for Langfuse, enabling AI agents to query Langfuse trace data for enhanced debugging and observability
     homepage: https://github.com/avivsinai/langfuse-mcp
     topics:
@@ -45,49 +45,50 @@ metadata:
       - mcp-server
       - observability
       - tracing
-    last_checked_at: "2026-05-05T21:01:13.959Z"
+    last_checked_at: "2026-05-06T22:12:46.788Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.959Z"
-      bytes: 6577
+      fetched_at: "2026-05-06T22:12:46.788Z"
+      bytes: 6681
 insights:
-  summary: A Model Context Protocol server that connects AI agents to Langfuse, allowing them to query traces, sessions, prompts, and datasets for debugging and observability.
-  why_it_matters: It allows coding agents to directly inspect their own execution history and prompt configurations inside Langfuse without the developer needing to leave the terminal.
-  mental_damage: We have now successfully built an agent that can debug the agents we built to debug the agents, ensuring the stack is deep enough to hide the original bug completely.
+  summary: A Model Context Protocol server that exposes Langfuse observability data—including traces, sessions, exceptions, and prompts—to AI agents and coding assistants like Claude Code and Codex.
+  why_it_matters: It lets coding agents directly query their own observability data to debug errors and analyze sessions without leaving the terminal.
+  mental_damage: We have finally built the tool that lets your AI agent inspect its own crash logs, presumably so it can hallucinate an apology faster.
   tags:
     - mcp
     - observability
     - langfuse
     - debugging
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation with 37 tools for a specific observability platform, fitting cleanly into the MCP infrastructure category.
+  reason: The product's identity is an MCP server for the Langfuse observability platform, exposing 37 tools to MCP-compatible clients.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for Langfuse'.
-    - README details 37 specific MCP tools for traces, observations, sessions, prompts, and datasets.
-    - Listed under 'Server Implementations > Monitoring' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'A Model Context Protocol (MCP) server for Langfuse'.
+    - README highlights integration with Claude Code and Codex CLI via `claude mcp add` and `codex mcp add`.
+    - Listed in awesome-mcp-servers under 'Monitoring', confirming its identity as a domain-specific MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.959Z"
+    updated_at: "2026-05-06T22:12:46.788Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:46.448Z"
+    updated_at: "2026-05-06T22:23:03.311Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

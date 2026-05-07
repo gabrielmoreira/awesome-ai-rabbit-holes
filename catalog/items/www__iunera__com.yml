@@ -1,12 +1,12 @@
 id: www__iunera__com
 kind: website
-name: iunera
+name: www.iunera.com
 canonical_url: https://www.iunera.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__iunera__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,20 +34,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: iunera.com is a website with no public repository, description, or README excerpt provided, and only appears as a reference link in an MCP servers community list.
-  why_it_matters: Without a clear product description or accessible tooling details, it is impossible to determine what workflow it changes for developers.
-  mental_damage: We have reached the point in the AI gold rush where a URL in a spreadsheet is enough to trigger a full architectural review.
+  summary: A corporate website for iunera.com with no discernible public product, repo, or developer tooling surface described.
+  why_it_matters: It provides no documented functionality, MCP server, or developer workflow that can be evaluated or adopted.
+  mental_damage: We are now reviewing empty domains because a list somewhere once whispered the letters M-C-P.
   tags:
-    - mcp
     - unknown
+    - no-tooling
   confidence: low
 curation:
   status: excluded
-  reason: The project lacks a description, README, homepage, and any verifiable evidence of a developer tool; it is merely a URL referenced in a community list.
+  reason: No public repo, description, README, or scraped content describes a usable developer tool; it is only a domain name appearing in a list.
   evidence:
-    - No repo description, README excerpt, or scraped site context is provided.
-    - Homepage is listed as (none) and direct source list context is 'no'.
-    - Only signal is a mention in awesome-mcp-servers without a description of what the server actually does.
+    - No repo description, README, or scraped site context provided beyond the domain name.
+    - No stars, license, created/pushed dates, or archived status available to assess traction or activity.
+    - Only signal is appearance in awesome-mcp-servers, which is evidence but not destiny without a real product.
 placement:
   primary_category: null
   section: null
@@ -55,20 +55,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:27.804Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:47.953Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

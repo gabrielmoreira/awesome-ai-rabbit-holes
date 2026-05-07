@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codeurali__mcp-dataverse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,50 @@ metadata:
       - microsoft-dataverse
       - model-context-protocol
       - power-platform
-    last_checked_at: "2026-05-05T21:01:38.329Z"
+    last_checked_at: "2026-05-06T22:43:25.471Z"
     readme:
-      fetched_at: "2026-05-05T21:01:38.329Z"
+      fetched_at: "2026-05-06T22:43:25.471Z"
       bytes: 8146
 insights:
-  summary: An MCP server that exposes Microsoft Dataverse Web API capabilities as 79 tools and 4 resources for AI agents to query and manipulate Dataverse environments.
-  why_it_matters: It lets AI coding agents and IDEs interact directly with Dataverse schema, records, and metadata instead of hallucinating OData queries or column names.
-  mental_damage: We have officially reached the point where we need a specialized proxy server just so our AI agents can stop lying to Microsoft about what a table column is called.
+  summary: An MCP server that gives AI coding assistants real-time access to Microsoft Dataverse environments, exposing 79 tools for schema inspection, querying, and CRUD operations.
+  why_it_matters: It eliminates the schema-hallucination problem for developers building agents that need to interact with Dataverse tables, metadata, and records.
+  mental_damage: Another weekend project proving that, given enough MCP servers, your AI assistant will eventually need a CRM just to remember which CRM it is connected to.
   tags:
     - mcp
     - dataverse
-    - power-platform
     - microsoft
+    - crm
+    - server
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server for Microsoft Dataverse, fitting cleanly into the MCP servers and tooling category.
+  reason: The product's identity is an MCP server implementation for Microsoft Dataverse, fitting squarely into the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states 'MCP server for Microsoft Dataverse Web API'.
-    - README lists 79 tools and 4 resources designed for MCP clients like VS Code, Claude, and Cursor.
+    - Repo description explicitly states 'MCP server for Microsoft Dataverse Web API for devs !'
+    - README pitches it as 'The most complete MCP server for Microsoft Dataverse' with 79 tools and 4 resources.
     - Listed in awesome-mcp-servers under Server Implementations > Databases.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:38.329Z"
+    updated_at: "2026-05-06T22:43:25.471Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:53.174Z"
+    updated_at: "2026-05-06T22:50:02.440Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

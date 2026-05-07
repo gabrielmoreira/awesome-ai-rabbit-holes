@@ -6,8 +6,8 @@ identity:
   github_repo: genkit-ai/genkit
 provenance:
   discoveries:
-    - id: discovery__github__firebase__genkit__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__genkit-ai__genkit__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5873
-    forks: 727
+    stars: 5877
+    forks: 729
     license: Apache-2.0
     archived: false
     created_at: "2024-04-29T22:04:42Z"
-    pushed_at: "2026-05-05T20:25:52Z"
+    pushed_at: "2026-05-06T22:10:50Z"
     description: Open-source framework for building AI-powered apps in JavaScript, Go, and Python, built and used in production by Google
     homepage: https://genkit.dev
     topics:
@@ -40,55 +40,50 @@ metadata:
       - multimodal
       - rag
       - vector-database
-    last_checked_at: "2026-05-05T21:02:18.868Z"
+    last_checked_at: "2026-05-06T22:44:00.124Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.868Z"
+      fetched_at: "2026-05-06T22:44:00.124Z"
       bytes: 9040
 insights:
-  summary: An open-source framework for building AI-powered applications in JavaScript/TypeScript, Go, and Python, providing unified APIs for model integration, tool calling, and RAG workflows.
-  why_it_matters: It provides a production-ready, multi-language SDK to integrate various AI models and agentic workflows into full-stack apps without writing provider-specific boilerplate.
-  mental_damage: Another heroic abstraction layer promising to unify the AI ecosystem, just in time for the ecosystem to fragment into five new incompatible standards next week.
+  summary: Genkit is an open-source SDK by Google for building full-stack AI applications in JavaScript/TypeScript, Go, and Python, supporting multiple model providers and agentic workflows.
+  why_it_matters: It provides a unified, production-ready interface for integrating models, tool calling, RAG, and flows across languages, with local dev tools and Firebase deployment paths.
+  mental_damage: Yet another framework promising to abstract away the complexity of AI development, ensuring you can now debug your prompt logic inside a specialized Firebase-branded CLI instead of just reading the API docs.
   tags:
-    - agents
-    - ai-framework
-    - firebase
-    - framework
-    - multi-model
-    - rag
+    - genkit
     - sdk
+    - firebase
+    - agents
+    - llm-framework
   confidence: high
 curation:
   status: included
-  reason: Genkit is a developer-facing SDK and framework for embedding AI capabilities into applications via code, fitting the ai-frameworks definition rather than an agent orchestration platform or coding agent.
+  reason: Genkit is a code-first SDK and framework for building AI features, not a standalone coding assistant or control plane.
   evidence:
-    - Repo description explicitly calls it an 'Open-source framework for building AI-powered apps' with SDKs for JS, Go, and Python.
-    - "README emphasizes code-first features: 'streamlined APIs for multimodal content, structured outputs, tool calling, and agentic workflows.'"
-    - Active development indicated by high star count (5873) and recent push date (2026-05-05).
-    - Repo description explicitly defines it as an 'open-source framework for building AI-powered apps' with SDKs for JS, Go, and Python.
-    - README details code-first features like structured output, tool calling, and RAG via importable libraries rather than a hosted control plane.
-    - Active development with recent push date (2026-05-05) and production usage by Google's Firebase.
+    - Repo description states it is an 'open-source framework for building AI-powered apps' with SDKs in JS, Go, and Python.
+    - README emphasizes importing the library (import { genkit } from 'genkit') to build flows, tool calling, and RAG in code.
+    - Developer tools are presented as a local CLI and UI to support the SDK, not as the primary hosted product surface.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5873) exceeded threshold (150)
+  reason: Stars (5877) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:54.758Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.868Z"
+    updated_at: "2026-05-06T22:44:00.124Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:16.412Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

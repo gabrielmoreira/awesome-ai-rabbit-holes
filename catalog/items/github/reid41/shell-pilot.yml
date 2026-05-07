@@ -1,13 +1,13 @@
 id: github__reid41__shell-pilot
 kind: github-repo
-name: Shell-Pilot
+name: shell-pilot
 canonical_url: https://github.com/reid41/shell-pilot
 identity:
   github_repo: reid41/shell-pilot
 provenance:
   discoveries:
     - id: discovery__github__reid41__shell-pilot__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,47 +23,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 118
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2024-04-14T08:01:42Z"
+    pushed_at: "2025-01-28T01:52:46Z"
+    description: A simple, lightweight shell script to interact with OpenAI or Ollama or Mistral AI or LocalAI or ZhipuAI from the terminal, and enhancing intelligent system management without any dependencies(pure shell).
+    homepage: ""
+    topics:
+      - deepseek
+      - interact-with-system
+      - linux
+      - llm
+      - localai
+      - macos
+      - mistral
+      - mistralai
+      - no-dependencies
+      - ollama
+      - openai
+      - pure-shell
+      - smart-cli-assistant
+      - zhipu-api
+    last_checked_at: "2026-05-06T22:46:08.938Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:08.937Z"
+      bytes: 19813
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A pure shell script that lets developers interact with OpenAI, Ollama, Mistral, Anthropic, and other LLMs directly from the terminal to generate and run commands, manage system tasks, and maintain chat context without external dependencies.
+  why_it_matters: It gives developers a zero-dependency, local-first CLI bridge to multiple LLM providers for on-terminal command generation, system management, and interactive coding chat.
+  mental_damage: "Another proud monument to the modern developer condition: writing a 200-line shell script with jq just to avoid leaving the terminal to ask an AI what the grep flags do."
+  tags:
+    - cli
+    - local-ai
+    - shell
+    - llm
+    - terminal
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a standalone terminal-based coding and system assistant that directly generates commands, interacts with code in chat mode, and supports multiple LLM backends, fitting the Terminal & CLI Agents section of coding-agents.
+  evidence:
+    - Repo description states it is a lightweight shell script to interact with OpenAI, Ollama, Mistral, Anthropic, and others from the terminal for intelligent system management.
+    - README highlights 'Generate a command and run it in terminal' and 'code chat mode' as core features.
+    - Listed in awesome-local-ai under Developer tools, and remains active with a pushed_at date of 2025-01-28.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:08.938Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:22.810Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: www__athenaintel__com
 kind: website
-name: Athena Intelligence
+name: www.athenaintel.com
 canonical_url: https://www.athenaintel.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__athenaintel__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Athena Intelligence is an enterprise AI analytics platform that operates as a 'digital coworker' to automate data analysis, document processing, and operational workflows for regulated industries.
-  why_it_matters: It provides a platform (Olympus) for deploying AI agents that integrate with existing enterprise knowledge bases and applications to automate labor-intensive research and analysis tasks.
-  mental_damage: We've successfully reached the stage where we are hiring an AI to take over the laborious tasks of the analysts so they can focus on even more laborious strategic meetings about the AI's output.
+  summary: Athena is an enterprise-focused AI platform that automates domain-specific knowledge work and operational workflows in regulated industries like finance, law, and defense.
+  why_it_matters: It provides a turnkey 'digital coworker' platform for enterprises looking to deploy AI agents against internal data sources without rebuilding their existing workflows.
+  mental_damage: Finally, an AI colleague that handles the diligence so you can focus on the really hard work of updating your LinkedIn headline.
   tags:
-    - ai-agent
-    - analytics
-    - enterprise
+    - enterprise-ai
     - workflow-automation
+    - knowledge-work
+    - vertical-agents
   confidence: high
 curation:
   status: excluded
-  reason: The product is an enterprise-facing analytics copilot for business analysts and finance teams, not a developer tool for writing code, building apps, or managing infrastructure.
+  reason: Excluded because the product is a vertical SaaS platform for business analysts and legal teams, not a tool for software developers to build, code, or engineer AI systems.
   evidence:
-    - Scraped site context describes 'Athena, the first artificial data analyst' focused on finance, law, and market research use cases.
-    - Use cases listed include 'Contract Analysis', 'Ledger Itemization', and 'Research Synthesis', targeting business operations rather than software development.
-    - Source list context (awesome-ai-agents) lists it as a 'data analyst, copilot' rather than a coding assistant.
+    - Product description targets analysts and 'strategic work' in finance, law, and consulting, not developers.
+    - Use cases listed are financial research, contract analysis, and litigation analysis rather than code editing or repo work.
+    - Described as an 'AI-native analytics platform' and 'digital coworker', which falls outside the catalog's developer-tooling scope.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:40.300Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:50.747Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

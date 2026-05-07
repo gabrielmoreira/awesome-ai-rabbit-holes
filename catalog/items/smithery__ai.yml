@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__smithery__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,31 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Smithery is a directory and registry for Model Context Protocol (MCP) servers and tooling.
-  why_it_matters: It serves as a centralized hub for developers to discover and integrate MCP-compatible tools into their AI agent workflows.
-  mental_damage: Another meta-layer directory has arrived to help us organize the tools we use to organize the agents that are organizing our code.
+  summary: Smithery.ai is a directory and discovery hub for Model Context Protocol (MCP) servers.
+  why_it_matters: It centralizes the rapidly fragmenting ecosystem of MCP servers, making it easier for developers to find the right tool integrations for their AI coding assistants.
+  mental_damage: Just when you thought you had your tooling stack figured out, you now need a dedicated directory just to navigate the directories that connect your AI to its tools.
   tags:
     - mcp
     - directory
-    - registry
-    - ai-tooling
-  confidence: medium
+    - discovery
+    - integrations
+  confidence: high
 curation:
   status: included
-  reason: The project is a registry and toolkit for the Model Context Protocol, fitting the MCP infrastructure category.
+  reason: It functions as a discovery and navigation layer for the MCP ecosystem, fitting the 'Lists & Directories' category better than a product tooling category.
   evidence:
-    - URL is smithery.ai, indicating a web-based registry or tooling site.
-    - Listed in the awesome-LLM-resources directory under the '模型上下文协议 MCP' (Model Context Protocol) section.
+    - URL is https://smithery.ai, indicating a web-based directory rather than a code repository.
+    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol MCP) section.
+    - No repo description, stars, or code-level signals provided; the identity is a curated registry.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:48:11.284Z"
+    updated_at: "2026-05-06T22:29:40.793Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

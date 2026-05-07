@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nikitadmitrieff__auto-co-meta__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -50,28 +50,28 @@ metadata:
       - saas
       - startup
       - startup-tools
-    last_checked_at: "2026-05-05T21:03:54.847Z"
+    last_checked_at: "2026-05-06T22:45:32.847Z"
     readme:
-      fetched_at: "2026-05-05T21:03:54.847Z"
+      fetched_at: "2026-05-06T22:45:32.847Z"
       bytes: 8013
 insights:
-  summary: A minimal bash loop that runs 14 Claude Code-based AI agents (CEO, CTO, Engineer, etc.) in cycles to autonomously build and deploy software projects from the terminal.
-  why_it_matters: It swaps interactive prompt-chat for a long-running, file-based agent loop that can draft, ship, and iterate on a product with minimal human input.
-  mental_damage: "We’ve finally automated the part of startups that was still human: waiting for a bash script to discover product-market fit while you watch Makefile targets."
+  summary: A bash loop that invokes Claude Code every two minutes to coordinate 14 persona-based AI agents that autonomously plan, build, and deploy software projects.
+  why_it_matters: It packages a multi-agent company-in-a-terminal pattern so developers can run self-managing project loops instead of manually driving coding assistants.
+  mental_damage: You can now outsource your impostor syndrome to a bash script starring Jeff Bezos and DHH cosplay agents that never sleep and bill you $1.80 every 120 seconds.
   tags:
     - multi-agent
     - claude-code
-    - autonomous
-    - terminal
     - bash
+    - autonomous
+    - saas
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a terminal-based coding agent loop that plans, writes, deploys, and iterates on code inside a project repo using Claude Code, fitting coding-agents with a CLI surface.
+  reason: The product is a developer-facing coding agent loop that delegates repo work to Claude Code with minimal human input, fitting the Terminal & CLI Agents section.
   evidence:
-    - "Repo description: 'Autonomous AI Company OS — 14 AI agents loop 24/7, ship real software'"
-    - "README: 'A bash loop that calls Claude Code every 2 minutes... build, and deploy software — 24/7' with Makefile commands like make start and make monitor"
-    - Listed in awesome-llm-agents under Frameworks as a multi-agent system
+    - "Repo description states: 'Autonomous AI Company OS — 14 AI agents loop 24/7, ship real software'."
+    - "README clarifies: 'A bash loop that calls Claude Code every 2 minutes... turn Claude Code into a self-running company'."
+    - Created 2026-03-06 and pushed 2026-03-09, confirming an active, very recent project.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -81,19 +81,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:54.847Z"
+    updated_at: "2026-05-06T22:45:32.847Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:39.066Z"
+    updated_at: "2026-05-06T23:17:22.339Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__open-agreements__open-agreements__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-02-09T09:26:34Z"
-    pushed_at: "2026-05-04T21:59:52Z"
+    pushed_at: "2026-05-06T22:44:33Z"
     description: Fill standard legal agreement templates and produce signable DOCX files.
     homepage: https://openagreements.org
     topics:
@@ -52,50 +52,50 @@ metadata:
       - nda-template
       - open-source-legal
       - safe-template
-    last_checked_at: "2026-05-05T21:04:02.471Z"
+    last_checked_at: "2026-05-06T22:45:39.665Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.471Z"
-      bytes: 36437
+      fetched_at: "2026-05-06T22:45:39.665Z"
+      bytes: 36887
 insights:
-  summary: A CLI tool and MCP server that fills 40+ standard legal agreement templates and outputs signable DOCX files for use with Claude Code, Gemini CLI, Cursor, and other agents.
-  why_it_matters: It lets developers hand off boilerplate legal paperwork to their coding agents instead of manually hunting down NDA templates or fumbling with formatting in Word.
-  mental_damage: We have finally reached the point where your coding agent can negotiate and execute an NDA for the side project it is helping you build.
+  summary: A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor.
+  why_it_matters: Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
+  mental_damage: We have finally reached the point where the most automated part of your startup is the paperwork you used to delay by 'focusing on shipping features'.
   tags:
     - legal-tech
-    - mcp
-    - cli
     - agent-skills
-    - templates
+    - mcp-server
+    - cli-tool
+    - docx
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill pack and MCP server purpose-built as an agent skill for Claude Code and similar developer tools.
+  reason: The primary artifact is a reusable skill pack and MCP server for legal workflows, fitting cleanly as a domain-specific skill pack rather than a standalone coding agent or generic extension.
   evidence:
-    - "Repo description states: 'Fill standard legal agreement templates and produce signable DOCX files.'"
-    - README explicitly lists 'Agent Skill (recommended)' install via `npx skills add` and supports Claude Code, Gemini CLI, and Cursor.
-    - Topics include agent-skills, claude-code-skills, and gemini-cli-extension, confirming its role as reusable skill content.
+    - "Repo description: 'Fill standard legal agreement templates and produce signable DOCX files.'"
+    - "README: 'The agent runs list --json to discover templates... Works with Claude Code, Gemini CLI, Cursor, and local MCP or CLI workflows.'"
+    - Topics include agent-skills, claude-code-skills, gemini-cli-extension, and legal-templates, confirming skill-pack identity.
 placement:
   primary_category: skills
-  section: null
+  section: Domain & Workflow Skill Packs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.471Z"
+    updated_at: "2026-05-06T22:45:39.665Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:11.864Z"
+    updated_at: "2026-05-06T23:19:00.105Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

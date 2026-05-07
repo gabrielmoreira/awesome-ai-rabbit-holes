@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lpigeon__unitree-go2-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - unitree
       - unitree-go2
       - unitree-go2-mcp-server
-    last_checked_at: "2026-05-05T21:03:25.103Z"
+    last_checked_at: "2026-05-06T22:45:04.178Z"
     readme:
-      fetched_at: "2026-05-05T21:03:25.103Z"
+      fetched_at: "2026-05-06T22:45:04.178Z"
       bytes: 4728
 insights:
-  summary: An MCP server that translates natural language commands into ROS2 instructions to control a Unitree Go2 robot via an LLM.
-  why_it_matters: It lets robotics developers bridge high-level LLM reasoning directly to physical robot actions without writing custom ROS2 wrappers for every command.
-  mental_damage: We have officially reached the point where your robot dog needs an MCP server, a ROS2 environment, and a Claude Desktop config just to interpret a simple instruction to take a nap.
+  summary: An MCP server that translates natural language commands into ROS2 instructions to control the Unitree Go2 robot via large language models.
+  why_it_matters: It bridges the Model Context Protocol with physical robotics hardware, letting developers manipulate a quadruped robot through standard AI assistant interfaces.
+  mental_damage: You can now ask Claude to make your robot look tired, proving that no matter how advanced the AI gets, we still find new ways to over-engineer simple hardware control.
   tags:
-    - mcp
+    - mcp-server
     - robotics
     - ros2
-    - unitree
-    - llm-control
+    - unitree-go2
+    - hardware
   confidence: high
 curation:
   status: included
-  reason: The project's primary artifact is a functional MCP server implementation designed to extend LLM capabilities to robotics hardware.
+  reason: The product's core identity is an MCP server that exposes robotics control as a tool for LLMs, which fits squarely into MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly defines it as 'a server built on the MCP' for robot control.
-    - README details MCP configuration for Claude Desktop and lists specific MCP functions.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - Repo description confirms it is 'a server built on the MCP' for controlling a robot.
+    - README details translating natural language into ROS2 instructions via MCP functions.
+    - Listed in awesome-mcp-servers under 'Server Implementations'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:25.103Z"
+    updated_at: "2026-05-06T22:45:04.178Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:50.606Z"
+    updated_at: "2026-05-06T23:10:41.911Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

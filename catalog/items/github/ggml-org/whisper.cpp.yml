@@ -6,8 +6,8 @@ identity:
   github_repo: ggml-org/whisper.cpp
 provenance:
   discoveries:
-    - id: discovery__github__ggerganov__whisper.cpp__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__ggml-org__whisper.cpp__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 49403
-    forks: 5494
+    stars: 49440
+    forks: 5504
     license: MIT
     archived: false
     created_at: "2022-09-25T18:26:37Z"
@@ -39,56 +39,50 @@ metadata:
       - speech-to-text
       - transformer
       - whisper
-    last_checked_at: "2026-05-05T21:02:20.922Z"
+    last_checked_at: "2026-05-06T22:44:01.898Z"
     readme:
-      fetched_at: "2026-05-05T21:02:20.922Z"
+      fetched_at: "2026-05-06T22:44:01.898Z"
       bytes: 36005
 insights:
-  summary: A plain C/C++ port of OpenAI's Whisper speech recognition model, optimized for high-performance inference across CPUs, GPUs, and mobile devices with zero runtime memory allocations.
-  why_it_matters: It gives developers a lightweight, dependency-free way to embed offline speech-to-text capabilities directly into cross-platform applications, from servers to iOS and Raspberry Pi.
-  mental_damage: In an ecosystem obsessed with chaining twelve hosted LLMs to summarize a sentence, watching a model run entirely offline on a toaster remains both a relief and a quiet indictment of modern cloud complexity.
+  summary: A plain C/C++ port of OpenAI's Whisper speech recognition model optimized for high-performance, cross-platform, and on-device inference.
+  why_it_matters: It provides developers with a lightweight, dependency-free runtime to integrate offline speech-to-text capabilities into applications across platforms like iOS, Android, and WebAssembly.
+  mental_damage: Yet another reminder that while your coding agent struggles to center a div, a 75 MiB model on a Raspberry Pi can transcribe human speech faster than you can dictate a Jira ticket.
   tags:
-    - c++
-    - cpp
-    - inference
-    - local-ai
-    - local-inference
-    - offline
     - speech-to-text
+    - local-inference
+    - cpp
+    - offline
     - whisper
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing toolkit for running AI models locally on diverse hardware, fitting squarely into the Local AI category.
+  reason: The project is a high-performance, local runtime for running the Whisper model entirely on-device, fitting the Local AI category's focus on local execution runtimes.
   evidence:
-    - Repo description explicitly states 'Port of OpenAI's Whisper model in C/C++'.
-    - README emphasizes 'Plain C/C++ implementation without dependencies' and support for iOS, Android, and WebAssembly.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', confirming its utility as a local model runtime.
-    - Repo description explicitly defines it as a 'Port of OpenAI's Whisper model in C/C++'.
-    - README highlights 'Plain C/C++ implementation without dependencies' and support for Apple Silicon, Vulkan, and WebAssembly for offline use.
-    - High traction with 49,403 stars and active maintenance (pushed May 2026).
+    - Repo description identifies it as a 'Port of OpenAI's Whisper model in C/C++'.
+    - README highlights 'Zero memory allocations at runtime' and 'fully offline, on-device' execution on platforms like iOS and Raspberry Pi.
+    - Source list context places it under 'Serving > Large Model Serving' in Awesome-LLMOps.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
-  reason: Stars (49403) exceeded threshold (150)
+  reason: Stars (49440) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:16.132Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:20.922Z"
+    updated_at: "2026-05-06T22:44:01.898Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:36.905Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

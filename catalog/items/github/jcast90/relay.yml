@@ -1,13 +1,13 @@
 id: github__jcast90__relay
 kind: github-repo
-name: Relay
+name: relay
 canonical_url: https://github.com/jcast90/relay
 identity:
   github_repo: jcast90/relay
 provenance:
   discoveries:
     - id: discovery__github__jcast90__relay__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -53,50 +53,50 @@ metadata:
       - rust
       - tauri
       - typescript
-    last_checked_at: "2026-05-05T21:02:53.454Z"
+    last_checked_at: "2026-05-06T22:44:32.605Z"
     readme:
-      fetched_at: "2026-05-05T21:02:53.454Z"
+      fetched_at: "2026-05-06T22:44:32.605Z"
       bytes: 46994
 insights:
-  summary: A local-first, self-hosted orchestration tool that coordinates Claude and Codex CLI coding agents across multiple repositories with an audit trail and dashboard interfaces.
-  why_it_matters: It lets developers decompose tickets into cross-repo agent task graphs and preserve decision rationale, bridging the gap between single-repo assistants and multi-service backends.
-  mental_damage: We have finally built Slack for the bots, which means the agents can now argue with each other about your architecture while you are stuck debugging the orchestrator.
+  summary: A local-first, self-hosted orchestration tool that coordinates coding agents like Claude and Codex across multiple repositories via MCP, featuring CLI, TUI, and GUI dashboards with an audit trail.
+  why_it_matters: It allows developers to manage cross-repo dependencies and agent communication in one place, turning high-level tickets into multi-repo execution plans with full state persistence.
+  mental_damage: You now have a Slack channel for your bots to argue with each other across repos, ensuring that even your automation requires an organizational chart.
   tags:
     - agent-orchestration
-    - cli
-    - cross-repo
-    - local-first
+    - multi-repo
     - mcp
+    - local-first
+    - cross-repo
   confidence: high
 curation:
   status: included
-  reason: Relay is a user-facing control plane for coordinating multiple coding agents across repos with dashboards and task dispatching, fitting agent orchestration rather than being a primary coding assistant itself.
+  reason: The primary product identity is a workbench and control plane for coordinating multiple agents across repos with ticket DAGs and audit trails, fitting the orchestration profile better than a single coding agent.
   evidence:
-    - "Repo description states: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing Claude / Codex CLI.'"
-    - README describes dispatching to Claude or Codex agents, cross-repo MCP coordination, and three local dashboards (CLI, TUI, GUI).
+    - "Repo description explicitly states: 'Orchestrate coding agents across repos.'"
+    - README describes it as a 'Slack for your coding agents' with ticket DAGs, cross-repo agent communication, and three dashboards (CLI, TUI, GUI) reading from ~/.relay/.
     - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:04.401Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:53.454Z"
+    updated_at: "2026-05-06T22:44:32.605Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:55.773Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

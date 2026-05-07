@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codeintegrity-ai__mutahunter__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -39,50 +39,50 @@ metadata:
       - static-code-analysis
       - test-automation
       - unit-testing
-    last_checked_at: "2026-05-05T21:01:37.747Z"
+    last_checked_at: "2026-05-06T22:43:24.812Z"
     readme:
-      fetched_at: "2026-05-05T21:01:37.747Z"
+      fetched_at: "2026-05-06T22:43:24.812Z"
       bytes: 2533
 insights:
-  summary: An open-source, language-agnostic mutation testing tool that uses LLMs to automatically generate and evaluate code mutants against existing test suites.
-  why_it_matters: It leverages AI to find gaps in unit test coverage by injecting intelligent bugs, helping developers harden their test suites without manually dreaming up edge cases.
-  mental_damage: "Just what the CI pipeline needed: an AI that deliberately breaks your code to see if your tests are paying attention, charging you fractions of a cent to remind you that your mocks are inadequate."
+  summary: Mutahunter is an open-source, language-agnostic CLI tool that uses LLMs to perform mutation testing by generating code mutants and verifying test suite strength.
+  why_it_matters: It automates the tedious task of measuring test coverage quality by having an AI introduce bugs and checking if your unit tests actually catch them.
+  mental_damage: "Just what the workflow needed: another layer where an AI intentionally breaks your code to see if your already-flaky tests were merely hallucinating their coverage numbers."
   tags:
     - mutation-testing
     - llm-testing
-    - eval
-    - quality-assurance
     - cli
+    - code-quality
+    - evals
   confidence: high
 curation:
   status: included
-  reason: This is an evaluation and benchmarking tool that measures the effectiveness of existing test suites by artificially introducing mutations, fitting the Evaluations and Benchmarks category.
+  reason: The core job is measuring and scoring the effectiveness of a test suite using AI to generate mutants, fitting the evaluation and benchmarking scope.
   evidence:
-    - Repo description identifies it as 'Open Source, Language Agnostic Mutation Testing'.
-    - README demonstrates it outputs 'Mutation Coverage' metrics and costs, functioning as a test-quality eval harness.
-    - It is actively maintained with a recent push date of 2025-04-17.
+    - Repo description explicitly states 'Open Source, Language Agnostic Mutation Testing'.
+    - README demonstrates the tool outputs 'Mutation Coverage' scores and costs, measuring test behavior rather than just editing code.
+    - It appears in 'awesome-ai-agents' but its primary function is QA measurement, not autonomous repo planning or editing.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (296) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:37.747Z"
+    updated_at: "2026-05-06T22:43:24.812Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:44.684Z"
+    updated_at: "2026-05-06T22:49:56.536Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

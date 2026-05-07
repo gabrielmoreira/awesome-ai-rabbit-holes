@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferrants__memvid-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: A Streamable HTTP MCP Server for Memvid
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:10.386Z"
+    last_checked_at: "2026-05-06T22:43:53.009Z"
     readme:
-      fetched_at: "2026-05-05T21:02:10.386Z"
+      fetched_at: "2026-05-06T22:43:53.009Z"
       bytes: 1385
 insights:
-  summary: A Streamable HTTP MCP server that encodes text data into video files using Memvid for semantic search and retrieval via the Model Context Protocol.
-  why_it_matters: It allows developers to integrate video-encoded memory storage into MCP-compatible clients, enabling novel semantic search workflows outside traditional vector databases.
-  mental_damage: We have successfully reached the point where your context window is so small that we are now compressing it into MP4 files just to get a few chunks of text back.
+  summary: A Streamable HTTP MCP server that exposes memvid's video-encoded semantic memory system as a tool for AI assistants.
+  why_it_matters: It lets coding agents ingest and semantically search large text datasets via memvid without building custom retrieval infrastructure.
+  mental_damage: We have successfully abstracted the abstraction by turning video-encoded text lookup into a protocol-adapter for a protocol-adapter.
   tags:
     - mcp
     - memory
+    - retrieval
     - semantic-search
-    - video-storage
-    - python
   confidence: medium
 curation:
   status: included
-  reason: The project is a standalone implementation of a Model Context Protocol server, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server implementation, exposing memvid capabilities over the Model Context Protocol.
   evidence:
-    - "Repo description explicitly states: 'A Streamable HTTP MCP Server for Memvid'."
-    - README confirms it is a server implementing the MCP specification for client connectivity.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations'.
+    - Repo description explicitly states 'A Streamable HTTP MCP Server for Memvid'.
+    - README describes supported MCP actions (add_chunks, search) and provides mcp-config.json examples.
+    - Listed in awesome-mcp-servers under Server Implementations > Databases.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:10.386Z"
+    updated_at: "2026-05-06T22:43:53.009Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:22.901Z"
+    updated_at: "2026-05-06T22:55:50.222Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

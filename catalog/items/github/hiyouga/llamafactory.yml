@@ -1,0 +1,101 @@
+id: github__hiyouga__llamafactory
+kind: github-repo
+name: llamafactory
+canonical_url: https://github.com/hiyouga/llamafactory
+identity:
+  github_repo: hiyouga/llamafactory
+provenance:
+  discoveries:
+    - id: discovery__github__hiyouga__llamafactory__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: LLaMA-Factory (`🔥`)
+        extracted_url: https://github.com/hiyouga/llama-factory
+        surrounding_text: "1. [LLaMA-Factory (`🔥`)](https://github.com/hiyouga/LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: 70976
+    forks: 8671
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-28T10:09:12Z"
+    pushed_at: "2026-05-06T16:42:02Z"
+    description: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+    homepage: https://llamafactory.readthedocs.io
+    topics:
+      - agent
+      - ai
+      - deepseek
+      - fine-tuning
+      - gemma
+      - gpt
+      - instruction-tuning
+      - large-language-models
+      - llama
+      - llama3
+      - llm
+      - lora
+      - moe
+      - nlp
+      - peft
+      - qlora
+      - quantization
+      - qwen
+      - rlhf
+      - transformers
+    last_checked_at: "2026-05-06T22:44:15.488Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:15.488Z"
+      bytes: 69465
+insights:
+  summary: LLaMA Factory is a unified framework and web UI for efficiently fine-tuning 100+ large language and vision models using techniques like LoRA, QLoRA, and RLHF.
+  why_it_matters: It abstracts away the boilerplate of PEFT and quantization, letting developers adapt state-of-the-art models to custom tasks with zero-code CLI or GUI workflows.
+  mental_damage: You now have 70,000 stars worth of incentive to spend three days fine-tuning a 7B model only to discover it still can't reliably increment a loop variable.
+  tags:
+    - fine-tuning
+    - llm
+    - lora
+    - peft
+    - training-framework
+  confidence: high
+curation:
+  status: excluded
+  reason: While it has massive traction, it is a model training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or coding workflow product.
+  evidence:
+    - Repo description explicitly states 'Unified Efficient Fine-Tuning of 100+ LLMs & VLMs'.
+    - README highlights zero-code CLI and Web UI for fine-tuning, LoRA, QLoRA, and RLHF, targeting model training.
+    - GitHub topics include fine-tuning, lora, peft, quantization, and nlp, with no coding-agent or developer-tooling anchors.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (70976) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.618Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:15.488Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:18.401Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

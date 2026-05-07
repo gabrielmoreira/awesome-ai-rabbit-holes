@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paladini__mcp-me__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -48,50 +48,50 @@ metadata:
       - typescript
       - windsurf
       - yaml
-    last_checked_at: "2026-05-05T21:04:11.264Z"
+    last_checked_at: "2026-05-06T22:45:47.138Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.264Z"
+      fetched_at: "2026-05-06T22:45:47.138Z"
       bytes: 16780
 insights:
-  summary: A local MCP server that serves a structured personal profile (career, skills, projects, interests) from YAML files to AI assistants like Claude, Cursor, and Copilot.
-  why_it_matters: It allows developers to stop re-explaining their background, stack, and preferences in every new AI session by providing a persistent, local identity layer via the Model Context Protocol.
-  mental_damage: "We have finally solved the hardest problem in computer science: ensuring your AI assistant knows you are an Aquarius before it writes that cover letter."
+  summary: A local MCP server and CLI tool that builds a structured personal profile from various data sources and exposes it to AI assistants via the Model Context Protocol.
+  why_it_matters: It allows developers to provide consistent, cross-tool context about their skills, career, and projects to any MCP-compatible assistant without manual repetition.
+  mental_damage: Because nothing says 'streamlined workflow' like maintaining a local YAML-based digital identity just so your AI can pretend it remembers your TypeScript expertise from last Tuesday.
   tags:
     - mcp
     - context
+    - cli
     - local-first
-    - identity
-    - yaml
-  confidence: medium
+    - profile
+  confidence: high
 curation:
   status: included
-  reason: The product is a Model Context Protocol server that provides personal context to AI tools, fitting cleanly into the MCP infrastructure category.
+  reason: The product identity is an MCP server that provides a personal profile as a tool, fitting the MCP Servers & Tooling category more precisely than a generic extension.
   evidence:
-    - Repo description explicitly defines it as 'a local MCP server that gives any AI a full picture of who you are'.
-    - README details serving YAML-based profile data (identity, skills, career) via the MCP protocol to Claude, Cursor, and Copilot.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - Repo description explicitly states it is 'a local MCP server'.
+    - Source list appearance in awesome-mcp-servers under 'Knowledge & Memory'.
+    - README details a 'mcp-me serve' command that starts an MCP server for assistants like Claude and Cursor.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.264Z"
+    updated_at: "2026-05-06T22:45:47.138Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:41.208Z"
+    updated_at: "2026-05-06T23:20:38.023Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__tencent__tnn
 kind: github-repo
-name: TNN
+name: tnn
 canonical_url: https://github.com/tencent/tnn
 identity:
   github_repo: tencent/tnn
 provenance:
   discoveries:
     - id: discovery__github__tencent__tnn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,47 +23,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4631
+    forks: 771
+    license: NOASSERTION
+    archived: false
+    created_at: "2020-05-29T07:20:28Z"
+    pushed_at: "2025-05-09T07:33:14Z"
+    description: "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile、desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    homepage: ""
+    topics:
+      - coreml
+      - deep-learning
+      - face-detection
+      - hairsegmentaion
+      - inference
+      - mnn
+      - ncnn
+      - ocr
+      - openvino
+      - pytorch
+      - tengine
+      - tensorflow
+      - tensorrt
+    last_checked_at: "2026-05-06T22:46:42.847Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:42.847Z"
+      bytes: 18326
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TNN is a cross-platform deep learning inference framework developed by Tencent for deploying neural network models on mobile, desktop, and server environments with a focus on performance optimization and model compression.
+  why_it_matters: It provides developers with a lightweight, high-performance runtime to accelerate AI model inference across diverse hardware targets, including mobile GPUs and X86 architectures.
+  mental_damage: Another framework promising mobile optimization greatness, ensuring you can spend a productive afternoon converting your PyTorch model into yet another proprietary format before discovering it only accelerates face detection in Weishi.
+  tags:
+    - inference
+    - deep-learning
+    - mobile
+    - optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because TNN is a general deep learning inference framework for mobile and server deployment, not a developer-facing AI tool, agent, or infrastructure product as defined by the catalog scope.
+  evidence:
+    - Repo description explicitly defines it as a 'uniform deep learning inference framework for mobile、desktop and server', not a coding or AI developer tool.
+    - README demonstrates use cases centered on face detection, pose estimation, and OCR, typical of CV/ML inference rather than developer workflow tooling.
+    - Topics and examples (coreml, ncnn, tensorflow, tensorrt) confirm it is a model runtime, not a coding agent, IDE, extension, or prompt engineering tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4631) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:42.847Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:57.816Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__tensorflow__tensorflow
 kind: github-repo
-name: TensorFlow
+name: tensorflow
 canonical_url: https://github.com/tensorflow/tensorflow
 identity:
   github_repo: tensorflow/tensorflow
 provenance:
   discoveries:
     - id: discovery__github__tensorflow__tensorflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 195024
+    forks: 75278
+    license: Apache-2.0
+    archived: false
+    created_at: "2015-11-07T01:19:20Z"
+    pushed_at: "2026-05-06T22:43:15Z"
+    description: An Open Source Machine Learning Framework for Everyone
+    homepage: https://tensorflow.org
+    topics:
+      - deep-learning
+      - deep-neural-networks
+      - distributed
+      - machine-learning
+      - ml
+      - neural-network
+      - python
+      - tensorflow
+    last_checked_at: "2026-05-06T22:46:44.552Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:44.552Z"
+      bytes: 11914
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TensorFlow is an open-source end-to-end platform for machine learning that provides comprehensive tools, libraries, and community resources for building and deploying ML-powered applications.
+  why_it_matters: It remains a foundational framework for developers building production ML systems, offering stable Python and C++ APIs backed by Google Brain's research heritage.
+  mental_damage: The framework that taught an entire generation that debugging dependency conflicts in `bazel` was a valid career path, now quietly watching its Ops tools get repurposed for the LLM era.
+  tags:
+    - machine-learning
+    - deep-learning
+    - python
+    - google
+    - ml-framework
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: While it appears in an LLMOps list, TensorFlow is a general-purpose machine learning framework and training infrastructure, not a developer-facing AI coding tool, agent, or assistant.
+  evidence:
+    - Repo description explicitly defines it as 'An Open Source Machine Learning Framework for Everyone', not a coding assistant.
+    - README states the goal is helping researchers push ML state-of-the-art and developers build 'ML-powered applications', not edit repos or assist in coding workflows.
+    - Source list context places it under 'Training > Frameworks for Training', which is infrastructure rather than the AI developer tooling scope of this catalog.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (195024) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:44.552Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:18.130Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

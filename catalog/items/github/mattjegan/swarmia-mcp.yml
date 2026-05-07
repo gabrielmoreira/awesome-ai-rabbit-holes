@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mattjegan__swarmia-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: A read-only local MCP server for to interact with swarmia.com
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:31.998Z"
+    last_checked_at: "2026-05-06T22:45:10.906Z"
     readme:
-      fetched_at: "2026-05-05T21:03:31.998Z"
+      fetched_at: "2026-05-06T22:45:10.906Z"
       bytes: 9119
 insights:
-  summary: A read-only local MCP server that exposes Swarmia's Export API endpoints for pull requests, DORA metrics, investment balance, and effort reporting to MCP-compatible clients like Claude and Cursor.
-  why_it_matters: It lets developers query team-level engineering metrics and capitalization reports conversationally inside their AI coding assistant instead of jumping into the Swarmia dashboard.
-  mental_damage: We’ve reached the point where we need an AI agent just to help us emotionally process how long our pull requests have been sitting in review.
+  summary: A read-only local MCP server that exposes Swarmia's Export API to MCP clients for querying pull request metrics, DORA metrics, investment balance, and effort reporting.
+  why_it_matters: It lets developers and AI assistants query team engineering metrics like DORA and cycle time directly from tools such as Claude or Cursor instead of switching to the Swarmia dashboard.
+  mental_damage: Another MCP server so your AI can explain why your team's cycle time sucks while you're busy debugging the MCP config.
   tags:
     - mcp
     - metrics
-    - developer-tools
-    - swarmia
     - dora
-  confidence: high
+    - swarmia
+    - engineering-analytics
+  confidence: medium
 curation:
   status: included
-  reason: The project is itself an MCP server implementation designed to be plugged into MCP clients, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that provides Swarmia API access to MCP clients, cleanly fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'A read-only local MCP server to interact with swarmia.com'.
-    - README details integration with MCP clients like Claude and Cursor and exposes Swarmia API data as MCP tools.
-    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description states it is 'A read-only local MCP server to interact with swarmia.com'.
+    - README shows it implements MCP tools like get_dora_metrics and get_pull_request_metrics for Claude, Cursor, and other MCP clients.
+    - Listed in awesome-mcp-servers under 'Developer Tools' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:31.998Z"
+    updated_at: "2026-05-06T22:45:10.906Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:14.342Z"
+    updated_at: "2026-05-06T23:12:25.071Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

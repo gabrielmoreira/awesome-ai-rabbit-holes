@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mastadoonprime__sylex-search__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Universal search engine for AI agents. Discover products, services, and businesses across every category via MCP.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:31.308Z"
+    last_checked_at: "2026-05-06T22:45:10.321Z"
     readme:
-      fetched_at: "2026-05-05T21:03:31.308Z"
+      fetched_at: "2026-05-06T22:45:10.321Z"
       bytes: 5485
 insights:
-  summary: An MCP server that provides structured search and comparison of products, services, and businesses for AI agents, returning ranked results as JSON.
-  why_it_matters: It gives agentic workflows a dedicated discovery layer so they can evaluate external tools and services without scraping the web or burning tokens on search.
-  mental_damage: We have successfully built a search engine specifically for bots to window-shop, ensuring that in the agent economy, even your npm package needs an SEO strategy.
+  summary: An MCP server that provides AI agents with a zero-cost, structured product and service search index across software packages, SaaS tools, and general businesses.
+  why_it_matters: It gives coding agents and frameworks a direct, deterministic way to discover and compare dependencies or services without burning tokens on web scraping or search APIs.
+  mental_damage: We have successfully built a search engine for agents that still requires a human to register their business so the robots don't accidentally buy a toaster from a company that doesn't exist.
   tags:
     - mcp
     - search
     - agent-tooling
-    - context-engineering
-  confidence: high
+    - discovery
+  confidence: medium
 curation:
   status: included
-  reason: The project is itself an MCP server designed to be consumed by agents, fitting cleanly into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server providing a search index for agents, fitting the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'Universal search engine for AI agents... via MCP.'"
-    - README confirms it is an 'MCP server' with tools like search.discover and search.compare.
+    - Repo description states it is a 'Universal search engine for AI agents... via MCP.'
+    - README confirms it is an 'MCP server' with tools like `search.discover` and `search.compare`.
     - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:31.308Z"
+    updated_at: "2026-05-06T22:45:10.321Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:07.741Z"
+    updated_at: "2026-05-06T23:12:14.793Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

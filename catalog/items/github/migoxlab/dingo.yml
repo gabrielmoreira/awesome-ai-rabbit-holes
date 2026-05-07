@@ -6,24 +6,8 @@ identity:
   github_repo: migoxlab/dingo
 provenance:
   discoveries:
-    - id: discovery__github__dataeval__dingo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🧮 <a name="data-science-tools"></a>Data Science Tools
-        anchor_text: DataEval/dingo
-        extracted_url: https://github.com/dataeval/dingo
-        surrounding_text: "- [DataEval/dingo](https://github.com/DataEval/dingo) 🎖️ 🐍 🏠 🍎 🪟 🐧 - MCP server for the Dingo: a comprehensive data quality evaluation tool. Server Enables interaction with Dingo's rule-based and LLM-based evaluation capabilities and rules&prompts listing."
-        confidence: high
     - id: discovery__github__migoxlab__dingo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 693
-    forks: 71
+    forks: 72
     license: Apache-2.0
     archived: false
     created_at: "2024-12-24T05:59:24Z"
@@ -69,53 +53,49 @@ metadata:
       - qwen
       - spark
       - vlm
-    last_checked_at: "2026-05-05T21:03:40.409Z"
+    last_checked_at: "2026-05-06T22:45:18.100Z"
     readme:
-      fetched_at: "2026-05-05T21:03:40.409Z"
+      fetched_at: "2026-05-06T22:45:18.100Z"
       bytes: 24882
 insights:
-  summary: Dingo is a Python toolkit and SaaS platform for evaluating the quality of AI training data, models, and RAG applications using a mix of rule-based checks, LLM-as-a-judge, and agent-based assessments.
-  why_it_matters: It gives developers a structured way to catch hallucinations, data corruption, and quality regressions in datasets and RAG pipelines before they silently degrade production AI systems.
-  mental_damage: Finally, a tool to evaluate the evaluators, because apparently we needed a dedicated platform to confirm that our hallucination-detection prompts are also hallucinating.
+  summary: Dingo is a Python-based platform for evaluating AI data quality, model performance, and application behavior, offering built-in rules, LLM-as-a-judge metrics, and hallucination detection.
+  why_it_matters: It provides developers with a structured way to audit training data, RAG outputs, and fine-tuning sets before they become expensive production failures.
+  mental_damage: Just when you thought the stack was complete, you now need a dedicated evaluator to confirm that your evaluator isn't hallucinating the evaluation metrics.
   tags:
-    - data-quality
     - evals
-    - llm-judge
-    - mcp
-    - rag
+    - data-quality
+    - llm-eval
+    - rag-eval
   confidence: high
 curation:
   status: included
-  reason: The project is an evaluation platform focused on measuring dataset, model, and RAG quality rather than acting as a coding assistant or generic framework.
+  reason: The core job is measuring, scoring, and reporting on the quality of data and model outputs, which aligns perfectly with the Evals & Benchmarks category.
   evidence:
-    - Repo description and README explicitly define it as 'A Comprehensive AI Data, Model and Application Quality Evaluation Tool'.
-    - Features include LLM-as-a-judge, hallucination detection, and RAG system assessment with academic metrics.
-    - Listed in awesome-mcp-servers under Data Science Tools, reinforcing its utility as a measurement and eval tool.
     - Repo description explicitly calls it a 'Comprehensive AI Data, Model and Application Quality Evaluation Tool'.
-    - README highlights 'Production-Grade Quality Checks' and 'LLM & Rule & Agent Hybrid' evaluation strategies.
-    - Topics include 'evals', 'hallucination-detection', and 'llm-as-a-judge', confirming the eval focus.
+    - README highlights 'Production-Grade Quality Checks', 'RAG System Assessment', and 'LLM & Rule & Agent Hybrid' evaluation metrics.
+    - Topics include 'data-quality', 'hallucination-detection', 'llm-as-a-judge', and 'evals', confirming the tool's primary identity.
 placement:
   primary_category: evals
-  section: null
+  section: Safety / Fairness / Data Quality
 lifecycle:
   status: promotion_candidate
   reason: Stars (693) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:43.425Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:40.409Z"
+    updated_at: "2026-05-06T22:45:18.100Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:57.962Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

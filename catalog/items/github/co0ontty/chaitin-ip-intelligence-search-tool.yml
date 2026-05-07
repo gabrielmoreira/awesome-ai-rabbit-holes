@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__co0ontty__chaitin-ip-intelligence-search-tool__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: "chaitin ip intelligence search tool for mcp "
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:36.635Z"
+    last_checked_at: "2026-05-06T22:43:23.765Z"
     readme:
-      fetched_at: "2026-05-05T21:01:36.635Z"
+      fetched_at: "2026-05-06T22:43:23.765Z"
       bytes: 2311
 insights:
-  summary: An MCP server that provides IP reputation lookups and threat intelligence by querying Chaitin's global honeypot network and malicious IP databases.
-  why_it_matters: It allows coding agents and IDEs to perform real-time security assessments of IP addresses directly within the developer workflow via the Model Context Protocol.
-  mental_damage: Finally, a way to integrate a million-node honeypot network into your chat completions so your LLM can worry about IP reputation while you worry about why the MCP setup JSON is still invalid.
+  summary: An MCP server that lets AI assistants query Chaitin's global honeypot network to check IP reputations and subscribe to malicious IP databases.
+  why_it_matters: Developers building security workflows can delegate IP threat checks to their coding agents instead of manually cross-referencing intelligence feeds.
+  mental_damage: We have finally reached the point where our AI assistants need their own threat intelligence feeds so they can refuse to debug that suspicious IP you swear is fine.
   tags:
     - mcp
     - security
-    - threat-intelligence
-    - ip-lookup
-  confidence: medium
+    - ip-intelligence
+    - threat-detection
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for IP intelligence, which fits the MCP infrastructure category.
+  reason: The product is explicitly an MCP server for IP intelligence lookups, making MCP infrastructure its primary identity rather than a security tool with MCP as an afterthought.
   evidence:
-    - "Repo description: 'chaitin ip intelligence search tool for mcp'"
-    - README configuration shows standard MCP server JSON setup for npx.
-    - Listed in 'awesome-mcp-servers' under Community Servers.
+    - Repo description explicitly states 'chaitin ip intelligence search tool for mcp'
+    - README configuration shows MCP server setup with npx command and mcpServers JSON structure
+    - Listed in awesome-mcp-servers under Community Servers section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:36.635Z"
+    updated_at: "2026-05-06T22:43:23.765Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:35.798Z"
+    updated_at: "2026-05-06T22:49:41.353Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mymedi-ai__mymedi-ai-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Healthcare billing MCP server — 20 AI tools for ICD-10, CPT, HCPCS lookup (81,769 codes with RVU + OPPS pricing), prior auth prediction, claims validation, denial-risk scoring, and NPI/drug enrichment. 10 free credits, then x402 USDC or Stripe.
     homepage: https://mymedi-ai.com/bot-marketplace/
     topics: []
-    last_checked_at: "2026-05-05T21:03:50.270Z"
+    last_checked_at: "2026-05-06T22:45:28.281Z"
     readme:
-      fetched_at: "2026-05-05T21:03:50.270Z"
+      fetched_at: "2026-05-06T22:45:28.281Z"
       bytes: 5558
 insights:
-  summary: An MCP server providing 20 healthcare billing and clinical intelligence tools for ICD-10/CPT lookup, prior auth prediction, claims validation, and NPI/drug enrichment, backed by 81K+ codes and government data sources.
-  why_it_matters: It lets developers connect AI coding assistants and agents directly to HIPAA-compliant medical billing logic and clinical data without building those integrations from scratch.
-  mental_damage: "We have finally achieved the singularity: autonomous agents can now deny your insurance claims at machine speed using micropayments on Base."
+  summary: An MCP server providing 20 healthcare billing and clinical AI tools for ICD-10/CPT/HCPCS lookup, prior auth prediction, claims validation, and provider intelligence, backed by 81K+ codes and government datasets.
+  why_it_matters: Developers building healthcare agents can give Claude Desktop, Cursor, or VS Code instant access to compliant medical coding, reimbursement rates, and NPI enrichment without building their own data pipelines.
+  mental_damage: We have successfully reached the point where your AI agent can autonomously submit USDC on Base to validate a CPT code before the payer even knows what hit them.
   tags:
     - mcp
     - healthcare
-    - billing
-    - clinical-data
+    - medical-coding
+    - x402
+    - domain-server
   confidence: high
 curation:
   status: included
-  reason: This is a Model Context Protocol server that exposes healthcare billing and clinical tools to MCP clients like Claude Desktop, Cursor, and VS Code.
+  reason: The product's primary identity is an MCP server delivering healthcare-domain tools to MCP clients like Claude Desktop and Cursor, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description explicitly states 'Healthcare billing MCP server' with 20 AI tools.
-    - README configures the server for Claude Desktop, Cursor, VS Code, and Claude Code via standard MCP config.
+    - Repo description explicitly states 'Healthcare billing MCP server' with 20 AI tools for medical coding and claims.
+    - README shows MCP client setup for Claude Desktop, Cursor, VS Code, and Claude Code as the integration model.
     - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:50.270Z"
+    updated_at: "2026-05-06T22:45:28.281Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:42.121Z"
+    updated_at: "2026-05-06T23:16:22.849Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

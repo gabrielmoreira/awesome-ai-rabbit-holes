@@ -1,13 +1,13 @@
 id: github__onelevenvy__flock
 kind: github-repo
-name: Flock
+name: flock
 canonical_url: https://github.com/onelevenvy/flock
 identity:
   github_repo: onelevenvy/flock
 provenance:
   discoveries:
     - id: discovery__github__onelevenvy__flock__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1089
+    stars: 1070
     forks: 135
     license: Apache-2.0
     archived: false
@@ -53,50 +53,50 @@ metadata:
       - rag
       - react-flow
       - workflow
-    last_checked_at: "2026-05-05T21:04:01.722Z"
+    last_checked_at: "2026-05-06T22:45:39.186Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.722Z"
+      fetched_at: "2026-05-06T22:45:39.186Z"
       bytes: 12805
 insights:
-  summary: Flock is a low-code, workflow-based platform for building chatbots, RAG applications, and multi-agent teams using LangGraph and LangChain, featuring a visual editor with support for MCP tools and custom code execution.
-  why_it_matters: It provides developers with a visual interface to orchestrate complex LangChain/LangGraph logic, including human-in-the-loop nodes and MCP integrations, without manually wiring every agent interaction in code.
-  mental_damage: Just when you thought the LangChain stack couldn't get another layer of abstraction, we now have a low-code GUI to manage the cognitive overhead of the agents managing the cognitive overhead.
+  summary: Flock is a low-code, workflow-based platform for building chatbots, RAG pipelines, and multi-agent systems using LangGraph, LangChain, FastAPI, and NextJS.
+  why_it_matters: It provides a visual workbench for developers to orchestrate complex LangChain and LangGraph agents without writing extensive boilerplate code.
+  mental_damage: Another day, another low-code 'agent orchestration' platform promising to abstract away the complexity of the very frameworks it depends on.
   tags:
-    - langchain
     - low-code
-    - mcp
+    - langgraph
     - multi-agent
+    - workflow
     - rag
   confidence: high
 curation:
   status: included
-  reason: Flock is a user-facing workbench and control plane for visually coordinating multiple agents and workflows, fitting the agent orchestration category rather than a code-first SDK or a coding assistant.
+  reason: The product is a visual workbench and control plane for coordinating multi-agent workflows and RAG applications, fitting the 'Workbenches & Collaboration Surfaces' section of Agent Orchestration.
   evidence:
-    - Repo description identifies it as a 'workflow-based low-code platform' for coordinating multi-agent teams.
-    - README details visual nodes including Agent, MCP, Human-in-the-loop, and Code Execution within a GUI workflow.
-    - Listed in awesome-langchain under 'Tools > Low-code' as a visual orchestration layer.
+    - Repo description identifies it as a 'workflow-based low-code platform for rapidly building chatbots, RAG, and coordinating multi-agent teams'.
+    - README highlights 'Agent Node' and 'Subgraph Node' support for orchestrating complex collaborative tasks and workflows.
+    - Listed in awesome-langchain under 'Tools > Low-code', confirming its place in the LangChain ecosystem as a visual tool.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1089) exceeded threshold (150)
+  reason: Stars (1070) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:05.663Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.722Z"
+    updated_at: "2026-05-06T22:45:39.186Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:52.340Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

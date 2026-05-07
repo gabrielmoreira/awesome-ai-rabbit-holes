@@ -1,13 +1,13 @@
 id: github__shotgun-sh__shotgun
 kind: github-repo
-name: Shotgun
+name: shotgun
 canonical_url: https://github.com/shotgun-sh/shotgun
 identity:
   github_repo: shotgun-sh/shotgun
 provenance:
   discoveries:
     - id: discovery__github__shotgun-sh__shotgun__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,47 +23,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 664
+    forks: 35
+    license: MIT
+    archived: false
+    created_at: "2025-08-05T08:53:12Z"
+    pushed_at: "2026-04-23T08:19:42Z"
+    description: Spec Driven Development 🤠 Write codebase-aware specs for AI coding agents so they don't derail.
+    homepage: https://shotgun.sh/
+    topics:
+      - cli
+      - codebase-indexing
+      - developer-tools
+      - prd
+      - spec-driven-development
+      - specification-generation
+      - technical-documentation
+    last_checked_at: "2026-05-06T22:46:23.886Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.886Z"
+      bytes: 15824
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context.
+  why_it_matters: It breaks down complex features into manageable, staged PRs with precise instructions, preventing AI agents from derailing or generating unmanageable monolithic changes.
+  mental_damage: We have successfully abstracted the art of programming into writing specifications for the thing that writes the code, ensuring we can now micromanage the AI with the same rigor we once applied to interns.
+  tags:
+    - spec-driven
+    - cli
+    - codebase-indexing
+    - prd
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is a spec-first loop that reads a codebase, plans features, and outputs structured instructions and staged PRs for other agents to follow.
+  evidence:
+    - "Repo description explicitly states: 'Spec Driven Development... Write codebase-aware specs for AI coding agents'."
+    - "README describes the workflow: 'reads your entire codebase, plans the full feature upfront, then splits it into staged PRs'."
+    - Listed in 'awesome-spec-driven-development' under the 'Specification Tools' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Planning / Task Decomposition
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (664) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.886Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:30.106Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

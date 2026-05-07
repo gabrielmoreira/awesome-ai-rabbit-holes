@@ -1,12 +1,12 @@
 id: glama__ai__blog__2025__12__07__the__state__of__mcp__in__2025
 kind: website
-name: The State of MCP in 2025
+name: 2025-12-07-the-state-of-mcp-in-2025
 canonical_url: https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025
 identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__blog__2025__12__07__the__state__of__mcp__in__2025__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -34,40 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An opinionated blog post analyzing the state, trends, and quantitative metrics of the Model Context Protocol (MCP) ecosystem as of 2025.
-  why_it_matters: Developers building AI agents can use this landscape overview to understand which MCP infrastructure categories are consolidating and where the ecosystem is shifting toward remote servers and background agents.
-  mental_damage: Another essential map for an ecosystem that somehow requires a map just to figure out which map-builder is currently pivoting away from the category you just invested in.
+  summary: A landscape and opinion piece analyzing the MCP ecosystem in 2025, covering trends, community metrics, and the evolving infrastructure of Model Context Protocol tooling.
+  why_it_matters: Developers building MCP servers or integrating them into agents can use this to understand which categories are consolidating, which monetization models are emerging, and where the protocol is heading next.
+  mental_damage: Another year, another ecosystem map telling us that while 11,000 MCP servers exist, half the companies building them have already pivoted to something that might actually make money.
   tags:
-    - analysis
-    - ecosystem
-    - landscape
     - mcp
+    - landscape
+    - opinion
+    - ecosystem
   confidence: high
 curation:
-  status: included
-  reason: The submission is a blog post and industry analysis rather than a developer tool, fitting the newsletters-and-feeds category as a publication for staying current with AI infrastructure trends.
+  status: excluded
+  reason: This is a blog post and opinion piece, not a standalone product, tool, or operational directory, and therefore falls outside the catalog's developer-tooling scope.
   evidence:
-    - The URL points to a blog post titled 'The State of MCP in 2025' on glama.ai.
-    - The excerpt describes it as an 'opinion piece about the MCP ecosystem' covering trends, problems, and VC funding.
-    - It provides quantitative insights into the MCP community (GitHub commits, NPM downloads, Reddit/Discord numbers).
+    - The linked URL is a Glama blog post titled 'The State of MCP in 2025', not a product or repo.
+    - The content is described as 'an opinion piece about the MCP ecosystem' with landscape trends and community stats.
+    - Appears in awesome-mcp-servers as a linked page, but source-list context is evidence, not destiny for non-tools.
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:58.729Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -76,3 +68,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:29.366Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -6,23 +6,8 @@ identity:
   github_repo: serkan-ozal/driflyte-mcp-server
 provenance:
   discoveries:
-    - id: discovery__console__driflyte__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Driflyte
-        extracted_url: https://console.driflyte.com
-        surrounding_text: "- **[Driflyte](https://github.com/serkan-ozal/driflyte-mcp-server)** - MCP Server for [Driflyte](https://console.driflyte.com). The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages."
-        confidence: high
     - id: discovery__github__serkan-ozal__driflyte-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,56 +23,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 10
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-08-09T21:32:56Z"
+    pushed_at: "2025-10-02T05:26:35Z"
+    description: The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages.
+    homepage: https://console.driflyte.com
+    topics:
+      - ai
+      - crawler
+      - mcp
+      - model-context-protocol
+      - opentelemetry
+      - rag
+    last_checked_at: "2026-05-06T22:46:21.220Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:21.220Z"
+      bytes: 12332
 insights:
-  summary: A web-based console with no public description, README, or repository details available for review.
-  why_it_matters: Without documentation or a clear interface description, it is impossible to determine what workflow it changes for a developer.
-  mental_damage: We have reached a point where an AI tool's primary feature appears to be its own absence from the public internet.
+  summary: An MCP server that exposes tools for AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages and GitHub repositories.
+  why_it_matters: It acts as a bridge that lets coding agents and IDEs retrieve grounded, topic-tagged context from live web and repo sources instead of relying on stale training data.
+  mental_damage: Because what your agent really needed to solve that P0 was not better reasoning, but the ability to recursively crawl a niche documentation site and index it as a topic-aware RAG source.
   tags:
-    - directory
     - mcp
-    - protocol
-    - tooling
-    - unknown
-  confidence: medium
+    - rag
+    - context-retrieval
+    - crawler
+    - knowledge-grounding
+  confidence: high
 curation:
-  status: excluded
-  reason: The project lacks a repository, description, README, or scrapable context to verify it is a developer tool, despite appearing in an MCP servers list.
+  status: included
+  reason: The product is explicitly an MCP server designed to give AI assistants retrieval access to crawled web and GitHub content, making MCP its primary identity.
   evidence:
-    - No repo description, README, or scraped site context provided.
-    - Archived status, stars, and creation date are all unknown.
-    - Only signal is appearance in awesome-mcp-servers, which is evidence but not destiny without substance.
+    - Repo description states it is 'The Driflyte MCP Server' exposing tools for AI assistants to query indexed web pages.
+    - README explicitly lists configuration steps for Claude, Cursor, Copilot, and others as an MCP server integration.
+    - Listed in the awesome-mcp-servers directory under the 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T22:47:23.772Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:21.220Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:58.654Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

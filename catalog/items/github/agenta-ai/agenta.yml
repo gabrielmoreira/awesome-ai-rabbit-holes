@@ -1,13 +1,13 @@
 id: github__agenta-ai__agenta
 kind: github-repo
-name: Agenta
+name: agenta
 canonical_url: https://github.com/agenta-ai/agenta
 identity:
   github_repo: agenta-ai/agenta
 provenance:
   discoveries:
     - id: discovery__github__agenta-ai__agenta__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [Agenta](https://github.com/agenta-ai/agenta) | LLMOps platform for prototyping |"
         confidence: high
     - id: discovery__github__agenta-ai__agenta__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4096
-    forks: 517
+    stars: 4101
+    forks: 518
     license: NOASSERTION
     archived: false
     created_at: "2023-04-26T09:54:28Z"
-    pushed_at: "2026-05-05T20:58:22Z"
+    pushed_at: "2026-05-06T21:44:47Z"
     description: "The open-source LLMOps platform: prompt playground, prompt management, LLM evaluation, and LLM observability all in one place."
     homepage: http://www.agenta.ai
     topics:
@@ -63,50 +63,49 @@ metadata:
       - prompt-engineering
       - prompt-management
       - rag-evaluation
-    last_checked_at: "2026-05-05T21:00:50.578Z"
+    last_checked_at: "2026-05-06T22:12:26.417Z"
     readme:
-      fetched_at: "2026-05-05T21:00:50.578Z"
+      fetched_at: "2026-05-06T22:12:26.417Z"
       bytes: 34838
 insights:
-  summary: Agenta is an open-source LLMOps platform providing a prompt playground, prompt management, LLM evaluation, and observability for engineering and product teams building LLM applications.
-  why_it_matters: It integrates the fragmented lifecycle of prompt iteration, automated evaluation, and production observability into a single environment for teams shipping LLM-powered features.
-  mental_damage: Another platform promising to solve the 'prompt drift' anxiety that somehow requires adding yet another dashboard to the stack you're already struggling to monitor.
+  summary: An open-source LLMOps platform providing a prompt playground, prompt management, LLM evaluation, and observability tooling for engineering and product teams building LLM applications.
+  why_it_matters: It gives developers a single control plane to version prompts, run evaluations, and trace LLM behavior instead of stitching together ad-hoc scripts and manual tests.
+  mental_damage: Yet another dashboard promising to wrangle your prompts, because apparently the hardest part of shipping AI features is admitting you have no idea why your temperature 0.7 completion went rogue.
   tags:
-    - evals
     - llmops
-    - observability
-    - open-source
     - prompt-management
+    - evals
+    - observability
   confidence: high
 curation:
   status: included
-  reason: Agenta is a developer-facing operational platform focused on evaluation and observability of LLM applications, which aligns directly with the Evaluations and Benchmarks category.
+  reason: Agenta is primarily an evaluation, observability, and prompt management platform for LLM apps, which fits the Evals & Benchmarks category better than Agent Orchestration or Frameworks.
   evidence:
-    - "Repo description explicitly calls it 'The open-source LLMOps platform: prompt playground, prompt management, LLM evaluation, and LLM observability'."
-    - README states it helps 'engineering and product teams create reliable LLM apps faster through integrated prompt management, evaluation, and observability'.
-    - Listed in Awesome-LLMOps under the 'LLMOps' section and in awesome-agent-orchestration under 'Tools & Infrastructure > Observability & Tracing'.
+    - Repo description explicitly lists 'LLM evaluation' and 'LLM observability' as core features alongside prompt management.
+    - README states it helps teams 'build reliable LLM applications faster with integrated prompt management, evaluation, and observability.'
+    - GitHub topics include llm-evaluation, llm-observability, prompt-management, and llmoreps, reinforcing the eval/ops identity.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4096) exceeded threshold (150)
+  reason: Stars (4101) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:07.529Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:50.578Z"
+    updated_at: "2026-05-06T22:12:26.417Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:18:56.484Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

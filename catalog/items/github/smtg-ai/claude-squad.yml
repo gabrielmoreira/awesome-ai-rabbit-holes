@@ -1,13 +1,13 @@
 id: github__smtg-ai__claude-squad
 kind: github-repo
-name: Claude Squad
+name: claude-squad
 canonical_url: https://github.com/smtg-ai/claude-squad
 identity:
   github_repo: smtg-ai/claude-squad
 provenance:
   discoveries:
     - id: discovery__github__smtg-ai__claude-squad__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,47 +24,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7341
+    forks: 519
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-03-09T20:00:41Z"
+    pushed_at: "2026-03-28T23:34:19Z"
+    description: Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.
+    homepage: https://smtg-ai.github.io/claude-squad/
+    topics:
+      - claude-code
+      - cli
+      - codex
+      - opencode
+      - vibe-coding
+    last_checked_at: "2026-05-06T22:46:28.323Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:28.323Z"
+      bytes: 5539
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A terminal TUI that manages multiple AI coding agents (Claude Code, Codex, Gemini CLI, Aider) in isolated tmux sessions and git worktrees so developers can run several background tasks in parallel.
+  why_it_matters: It lets you scale beyond one assistant at a time by coordinating parallel agent sessions with isolated branches, review workflows, and a single navigation surface.
+  mental_damage: You now have the infrastructure to confidently run six conflicting AI agents simultaneously and call it a productivity system.
+  tags:
+    - terminal
+    - multi-agent
+    - tui
+    - parallel
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a terminal workbench and control surface for coordinating multiple coding agents across isolated sessions and branches, which matches agent orchestration rather than being a coding assistant itself.
+  evidence:
+    - "Repo description: 'Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.'"
+    - "README: 'terminal app that manages multiple Claude Code, Codex, Gemini, and other local agents in separate workspaces' using tmux and git worktrees."
+    - "Source list placement: awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'."
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (7341) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:28.323Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:19.319Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

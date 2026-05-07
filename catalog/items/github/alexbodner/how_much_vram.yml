@@ -1,0 +1,80 @@
+id: github__alexbodner__how_much_vram
+kind: github-repo
+name: how_much_vram
+canonical_url: https://github.com/alexbodner/how_much_vram
+identity:
+  github_repo: alexbodner/how_much_vram
+provenance:
+  discoveries:
+    - id: discovery__github__alexbodner__how_much_vram__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: How Much VRAM
+        extracted_url: https://github.com/alexbodner/how_much_vram
+        surrounding_text: 21. [How Much VRAM](https://github.com/AlexBodner/How_Much_VRAM)
+        confidence: high
+metadata:
+  github:
+    stars: 101
+    forks: 5
+    license: MPL-2.0
+    archived: false
+    created_at: "2024-07-09T17:34:35Z"
+    pushed_at: "2024-08-30T19:41:32Z"
+    description: null
+    homepage: https://how-much-vram.vercel.app
+    topics: []
+    last_checked_at: "2026-05-06T22:12:33.500Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:33.500Z"
+      bytes: 1934
+insights:
+  summary: An open-source web tool for estimating the VRAM required to train or run inference for machine learning models.
+  why_it_matters: It helps developers and researchers select appropriate hardware and avoid out-of-memory errors without the trial-and-error of testing multiple GPU configurations.
+  mental_damage: Yet another reminder that we are all just squeezing massive models into insufficient hardware and hoping the memory math works out.
+  tags:
+    - vram
+    - hardware
+    - estimation
+    - ml-infrastructure
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general ML infrastructure utility for hardware estimation, not a developer-facing AI coding tool, agent, or workflow product.
+  evidence:
+    - The README describes it as 'an open source project for estimating the memory that your model will need for training or inference' rather than a coding assistant.
+    - It is listed in awesome-LLM-resources under a general tutorial/resources section, not a developer tooling section.
+    - The project is a standalone web calculator (hosted on Vercel) with no integration into coding workflows, IDEs, or agent orchestration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.601Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:33.500Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:20.831Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

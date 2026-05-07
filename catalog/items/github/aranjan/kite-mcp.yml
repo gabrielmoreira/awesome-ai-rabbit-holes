@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aranjan__kite-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,50 +39,50 @@ metadata:
       - stocks
       - trading
       - zerodha
-    last_checked_at: "2026-05-05T21:01:07.703Z"
+    last_checked_at: "2026-05-06T22:12:41.734Z"
     readme:
-      fetched_at: "2026-05-05T21:01:07.703Z"
+      fetched_at: "2026-05-06T22:12:41.734Z"
       bytes: 7925
 insights:
-  summary: An MCP server that connects AI assistants to Zerodha Kite, enabling natural language trading of Indian stocks through 14 tools for portfolio management, order execution, and market data.
-  why_it_matters: Developers trading Indian equities can now integrate conversational AI workflows into their MCP-compatible tools instead of writing custom Python wrappers for the Kite API.
-  mental_damage: We have successfully reached the point where your AI assistant now needs two-factor authentication and a stop-loss on its own HAL position, just in case the model decides to YOLO your portfolio.
+  summary: An MCP server that exposes Zerodha Kite trading APIs as tools so developers can buy, sell, and monitor Indian stocks through natural language in any MCP-compatible assistant.
+  why_it_matters: Developers already living inside Claude Desktop or Cursor can now manage portfolios and execute trades without switching to a broker terminal or writing custom scripts.
+  mental_damage: We have successfully reached the point where your IDE can nuke your portfolio while you are busy debugging a React component.
   tags:
     - mcp
     - trading
     - zerodha
     - finance
     - python
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server for financial trading, making it a clean fit for the MCP Servers and Tooling category rather than a coding agent or app builder.
+  reason: The product’s identity is an MCP server for a specific domain (finance/trading), which cleanly fits the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'MCP server for Zerodha Kite -- trade Indian stocks via any MCP-compatible AI assistant'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
-    - README details 14 MCP tools and compatibility with Claude Desktop, Cursor, Windsurf, and other MCP clients
+    - Repo description explicitly states 'MCP server for Zerodha Kite'.
+    - "README emphasizes MCP as the core architecture: 'MCP server for Zerodha Kite -- trade via any MCP-compatible AI assistant'."
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:07.703Z"
+    updated_at: "2026-05-06T22:12:41.734Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:48.927Z"
+    updated_at: "2026-05-06T22:22:00.702Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

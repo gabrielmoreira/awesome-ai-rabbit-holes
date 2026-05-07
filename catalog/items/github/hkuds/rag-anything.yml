@@ -1,0 +1,83 @@
+id: github__hkuds__rag-anything
+kind: github-repo
+name: rag-anything
+canonical_url: https://github.com/hkuds/rag-anything
+identity:
+  github_repo: hkuds/rag-anything
+provenance:
+  discoveries:
+    - id: discovery__github__hkuds__rag-anything__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: RAG-Anything
+        extracted_url: https://github.com/hkuds/rag-anything
+        surrounding_text: "35. [RAG-Anything](https://github.com/HKUDS/RAG-Anything): All-in-One RAG System."
+        confidence: high
+metadata:
+  github:
+    stars: 19769
+    forks: 2267
+    license: MIT
+    archived: false
+    created_at: "2025-06-06T06:47:29Z"
+    pushed_at: "2026-05-06T07:38:11Z"
+    description: "\"RAG-Anything: All-in-One RAG Framework\""
+    homepage: http://arxiv.org/abs/2510.12323
+    topics:
+      - multi-modal-rag
+      - retrieval-augmented-generation
+    last_checked_at: "2026-05-06T22:44:15.897Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:15.897Z"
+      bytes: 54537
+insights:
+  summary: RAG-Anything is a Python framework for building multimodal retrieval-augmented generation pipelines that process text, images, tables, and equations.
+  why_it_matters: It provides developers with a unified, code-first toolkit to ingest and query complex multimodal documents within their own AI applications.
+  mental_damage: Now you can over-engineer your context pipeline to hallucinate just as confidently about diagrams and LaTeX equations as it does about your codebase.
+  tags:
+    - rag
+    - multimodal
+    - python
+    - framework
+    - retrieval
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first Python library for building RAG pipelines, fitting squarely into Frameworks & SDKs as a retrieval infrastructure tool rather than a coding assistant or orchestration platform.
+  evidence:
+    - Repo description explicitly calls it an 'All-in-One RAG Framework'.
+    - README highlights Python 3.10 support, PyPI package (raganything), and building on LightRAG.
+    - GitHub topics include 'multi-modal-rag' and 'retrieval-augmented-generation', with 19k+ stars showing strong ecosystem traction.
+placement:
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (19769) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.619Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:15.897Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:26.924Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

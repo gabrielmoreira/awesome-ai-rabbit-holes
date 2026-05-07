@@ -1,0 +1,76 @@
+id: wandb__ai__fully__connected
+kind: website
+name: fully-connected
+canonical_url: https://wandb.ai/fully-connected
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__wandb__ai__fully__connected__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: W&B articles
+        extracted_url: https://wandb.ai/fully-connected
+        surrounding_text: 27. [W&B articles](https://wandb.ai/fully-connected)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fully Connected is a community-run publication and article hub from Weights & Biases for sharing ML news, papers, findings, and reports.
+  why_it_matters: It aggregates tutorial and research content across LLMs, agents, and辅助编程, helping developers discover practical resources without scraping Twitter.
+  mental_damage: Yet another beautifully curated corner of the internet that will make you feel behind on three new model architectures before you have even finished your morning standup.
+  tags:
+    - ml-community
+    - tutorials
+    - research
+    - news
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a publication and tutorial hub rather than developer-facing tooling, so it belongs in media feeds instead of a curated catalog of AI tools and infrastructure.
+  evidence:
+    - Scraped site describes it as a community for sharing news, papers, findings and reports.
+    - Source-list context places it under 教程 Tutorial in an LLM resources list.
+    - No evidence of a product, SDK, extension, or developer tool—only articles and tutorials.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:09.155Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

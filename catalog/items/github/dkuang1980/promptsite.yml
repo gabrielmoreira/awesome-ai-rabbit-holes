@@ -1,13 +1,13 @@
 id: github__dkuang1980__promptsite
 kind: github-repo
-name: PromptSite
+name: promptsite
 canonical_url: https://github.com/dkuang1980/promptsite
 identity:
   github_repo: dkuang1980/promptsite
 provenance:
   discoveries:
     - id: discovery__github__dkuang1980__promptsite__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -32,50 +32,50 @@ metadata:
     description: PromptSite is a lightweight prompt version management package that helps you version control, track, experiment and debug with your LLM prompts with ease.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:54.352Z"
+    last_checked_at: "2026-05-06T22:43:38.917Z"
     readme:
-      fetched_at: "2026-05-05T21:01:54.352Z"
+      fetched_at: "2026-05-06T22:43:38.917Z"
       bytes: 8224
 insights:
-  summary: PromptSite is a lightweight Python package for version controlling, tracking, and experimenting with LLM prompts using local files, Git, and simple decorators.
-  why_it_matters: It gives developers a low-overhead way to iteratively debug prompts, track LLM runs, and manage variables without standing up a separate server or database.
-  mental_damage: "Just what your workflow needed: another layer of versioning, this time for the sentences you feed to the model until it stops lying to you."
+  summary: PromptSite is a lightweight Python package for version controlling, tracking, and experimenting with LLM prompts using local files, Git backends, and a decorator-based integration pattern.
+  why_it_matters: It gives developers a low-overhead way to version prompts, track LLM runs, and generate synthetic test data without spinning up servers, databases, or external platforms.
+  mental_damage: You now have dedicated version control for your prompts, which means the commit history of your hallucination-NOT-to-hallucination pipeline is finally as rigorous as your actual codebase.
   tags:
-    - experimentation
-    - llmops
     - prompt-management
+    - llmops
     - python
-    - version-control
+    - experimentation
+    - versioning
   confidence: medium
 curation:
   status: included
-  reason: It is a focused prompt management and experimentation library that fits cleanly into context engineering and LLMOps workflows for developers.
+  reason: Its core job is prompt versioning, run tracking, and prompt experimentation rather than acting as a coding assistant, framework, or orchestration platform.
   evidence:
-    - "Repo description: 'lightweight prompt version management package that helps you version control, track, experiment and debug with your LLM prompts'"
-    - README features local/Git storage, run tracking, variable management, and Python @tracker decorator for LLM calls
-    - Listed in Awesome-LLMOps under the LLMOps section
+    - Repo description states it is a prompt version management package for version control, tracking, and debugging LLM prompts.
+    - README highlights prompt versioning, run tracking, synthetic data generation, and Python decorator integration as key features.
+    - Included in Awesome-LLMOps under the LLMOps section, reinforcing its prompt-management identity.
 placement:
   primary_category: context-engineering
-  section: null
+  section: PromptOps / Prompt Management
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:32.930Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:54.352Z"
+    updated_at: "2026-05-06T22:43:38.917Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:53.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

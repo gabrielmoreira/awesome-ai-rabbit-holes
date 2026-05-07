@@ -1,13 +1,13 @@
 id: github__ai-for-developers__awesome-vibe-coding
 kind: github-repo
-name: Awesome Vibe Coding
+name: awesome-vibe-coding
 canonical_url: https://github.com/ai-for-developers/awesome-vibe-coding
 identity:
   github_repo: ai-for-developers/awesome-vibe-coding
 provenance:
   discoveries:
     - id: discovery__github__ai-for-developers__awesome-vibe-coding__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 692
-    forks: 125
+    forks: 127
     license: null
     archived: false
     created_at: "2023-08-28T16:37:06Z"
@@ -46,49 +46,50 @@ metadata:
       - vibecode
       - vibecoding
       - vibecoding-tool
-    last_checked_at: "2026-05-05T21:00:54.969Z"
+    last_checked_at: "2026-05-06T22:12:30.230Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.969Z"
+      fetched_at: "2026-05-06T22:12:30.230Z"
       bytes: 12435
 insights:
-  summary: A curated awesome list aggregating AI-powered tools, editors, builders, and resources specifically for the 'vibe coding' development workflow.
-  why_it_matters: It serves as a centralized map for developers looking to navigate the exploding ecosystem of prompt-driven app builders, AI IDEs, and coding agents.
-  mental_damage: "Another layer of abstraction has been added to the stack: we now need a directory just to remember which AI tools we are using to avoid remembering how to code."
+  summary: A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows.
+  why_it_matters: It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
+  mental_damage: Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'
   tags:
-    - ai-tools
     - awesome-list
-    - directory
     - vibe-coding
+    - directory
+    - ai-tools
+    - discovery
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list and directory of AI tools rather than a standalone developer tool itself, fitting the awesome-awesomes category.
+  reason: This is a curated index of AI developer tools organized around the 'vibe coding' concept, fitting the catalog's scope for ecosystem navigation aids rather than a standalone product.
   evidence:
-    - Repo description explicitly states it is a 'hand-picked collection of tools and resources'.
-    - README confirms it is a list organizing 'Web-Based Builders', 'Editors and IDEs', and 'CLI Tools'.
-    - Source-list context shows inclusion in 'awesome-ai-coding-tools' under 'Related Lists'.
+    - Repo description states it is 'A hand-picked collection of tools and resources for Vibe Coding'.
+    - README organizes links into sections like 'Web-Based Builders', 'Editors and IDEs', and 'CLI Tools'.
+    - Recognized in source lists under 'awesome-ai-coding-tools' specifically as a 'Related List'.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
   reason: Stars (692) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:46.889Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.969Z"
+    updated_at: "2026-05-06T22:12:30.230Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:42.850Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

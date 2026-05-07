@@ -1,0 +1,80 @@
+id: github__deepseek-ai__deepseek-ocr-2
+kind: github-repo
+name: deepseek-ocr-2
+canonical_url: https://github.com/deepseek-ai/deepseek-ocr-2
+identity:
+  github_repo: deepseek-ai/deepseek-ocr-2
+provenance:
+  discoveries:
+    - id: discovery__github__deepseek-ai__deepseek-ocr-2__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: scraped
+        section_path:
+          - 数据 Data
+        anchor_text: DeepSeek-OCR-2
+        extracted_url: https://huggingface.co/deepseek-ai/DeepSeek-OCR-2
+        surrounding_text: "46. [DeepSeek-OCR-2](https://huggingface.co/deepseek-ai/DeepSeek-OCR-2): Visual Causal Flow."
+        confidence: high
+metadata:
+  github:
+    stars: 2806
+    forks: 240
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-01-27T03:05:42Z"
+    pushed_at: "2026-02-03T00:34:18Z"
+    description: Visual Causal Flow
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:43:36.136Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:36.136Z"
+      bytes: 5060
+insights:
+  summary: DeepSeek-OCR 2 is a visual-language model and inference toolkit for high-fidelity document OCR, converting images and PDFs into structured markdown.
+  why_it_matters: Developers building document ingest pipelines can use this model to extract structured text from complex layouts without relying on closed-source OCR APIs.
+  mental_damage: We have reached the point where we train multi-billion parameter causal flows just to stop fighting with Tesseract and PDF parsers that choke on two-column layouts.
+  tags:
+    - ocr
+    - vlm
+    - document-extraction
+    - inference
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a visual-language model release and inference toolkit for document OCR, which falls under general ML research and model infrastructure rather than a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description is 'Visual Causal Flow', and README centers on model download, vLLM/Transformers inference, and benchmark evaluation for OCR.
+    - No evidence of IDE integration, coding assistance, agent orchestration, app building, or developer workflow tooling.
+    - Appears in awesome-LLM-resources under a data section, reinforcing its identity as an ML model resource rather than a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2806) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:36.136Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:16.922Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

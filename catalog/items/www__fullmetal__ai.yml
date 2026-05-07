@@ -1,12 +1,12 @@
 id: www__fullmetal__ai
 kind: website
-name: FuLLMetalAi
+name: www.fullmetal.ai
 canonical_url: https://www.fullmetal.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__fullmetal__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,41 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fullmetal AI is a local AI inference UI for running open source models on your own hardware.
-  why_it_matters: It provides developers with a desktop interface to run and interact with local models without relying on hosted APIs.
-  mental_damage: Yet another desktop wrapper promising to keep your data local, just in case the cloud decides to hallucinate your API keys too.
+  summary: FullMetal AI is a local AI inference UI for running models on your own hardware.
+  why_it_matters: It provides developers with a graphical interface to manage and interact with local models without relying on hosted APIs.
+  mental_damage: Another desktop wrapper to manage the growing pile of local models that we swear we will get around to benchmarking properly.
   tags:
-    - desktop
-    - inference-ui
     - local-ai
+    - inference
+    - desktop
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly listed as a local inference UI in the awesome-local-ai directory, fitting the local-ai category for tools that run models on your own hardware.
+  reason: The tool is listed in awesome-local-ai under Inference UI, aligning with the catalog's local AI desktop interface scope.
   evidence:
-    - Seen in awesome-local-ai under the section 'Inference UI'
-    - Source list purpose describes it as an 'awesome collection of open source and/or local AI tools and solutions'
+    - "Seen in awesome-local-ai with purpose: An awesome repository of local AI tools"
+    - "Listed under section: Inference UI"
+    - Domain www.fullmetal.ai implies a hosted or product site centered on local AI tooling
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:48.202Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:14.430Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

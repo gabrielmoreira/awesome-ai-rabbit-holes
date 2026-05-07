@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tgeselle__bugsnag-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 22
+    forks: 8
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-04-02T01:16:05Z"
+    pushed_at: "2026-03-22T07:20:15Z"
+    description: A Model Context Protocol (MCP) server for interacting with Bugsnag. This server allows LLM tools like Cursor and Claude to investigate and resolve issues in Bugsnag.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:45.131Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:45.131Z"
+      bytes: 7043
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Model Context Protocol server that exposes Bugsnag error monitoring data, stacktraces, and project metadata to LLM tools like Cursor and Claude.
+  why_it_matters: It lets coding agents directly investigate, triage, and debug production errors inside Bugsnag without leaving the IDE or switching context to a browser.
+  mental_damage: We have successfully abstracted away the act of reading stack traces ourselves, ensuring we can now hallucinate bug fixes without ever looking at the actual error.
+  tags:
+    - mcp
+    - bugsnag
+    - debugging
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a purpose-built MCP server that gives LLM tools structured access to Bugsnag, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for interacting with Bugsnag'.
+    - README confirms it exposes Bugsnag tools (list_errors, view_stacktrace, search_issues) to Cursor and Claude via MCP.
+    - Listed in awesome-mcp-servers under 'Developer Tools', aligning with its MCP-first identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:45.131Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:24.802Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

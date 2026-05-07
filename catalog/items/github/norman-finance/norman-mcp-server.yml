@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__norman-finance__norman-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - norman
       - openai
       - vat-filing
-    last_checked_at: "2026-05-05T21:03:56.103Z"
+    last_checked_at: "2026-05-06T22:45:34.131Z"
     readme:
-      fetched_at: "2026-05-05T21:03:56.103Z"
+      fetched_at: "2026-05-06T22:45:34.131Z"
       bytes: 8531
 insights:
-  summary: An MCP server that connects Norman's bookkeeping, invoicing, and VAT filing platform to Claude, Cursor, and other MCP-compatible AI clients so entrepreneurs can manage finances via chat.
-  why_it_matters: Developers running solo businesses can automate German tax prep, invoice tracking, and transaction categorization directly inside their existing AI coding and chat workflows instead of switching to a separate finance dashboard.
-  mental_damage: We have successfully reached the point where filing VAT returns is just another context window away, right between debugging a React hook and arguing with an AI about semicolons.
+  summary: An MCP server that connects accounting, invoicing, and VAT filing systems to AI assistants like Claude and Cursor for entrepreneurs in the European market.
+  why_it_matters: It lets developers automate financial workflows like invoice creation, transaction categorization, and tax filing directly from their AI coding environment instead of switching to separate bookkeeping tools.
+  mental_damage: Your AI assistant can now legally file your VAT return while you debug the code that broke the very Stripe integration it is reconciling.
   tags:
     - mcp
     - bookkeeping
-    - finance
-    - german-tax
-    - cursor
+    - tax-filing
+    - european-market
+    - finance-automation
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes bookkeeping and tax-filing capabilities to MCP-compatible AI clients, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that gives AI assistants access to a specific domain (European bookkeeping and tax filing), making it a clear fit for the MCP Domain Servers section.
   evidence:
     - Repo description explicitly states 'AI-powered bookkeeping and tax filing automation via MCP'
-    - README positions it as connecting accounting, invoicing, and VAT filing directly to Claude, Cursor, and any MCP-compatible AI
-    - Listed in the awesome-mcp-servers directory under 'Official Servers', confirming its role as an MCP server
+    - README positions it as 'Norman MCP Server' connecting finances to 'Claude, Cursor, and any MCP-compatible AI'
+    - Listed in awesome-mcp-servers under 'Official Servers' section with MCP-related topics
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:56.103Z"
+    updated_at: "2026-05-06T22:45:34.131Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:57.383Z"
+    updated_at: "2026-05-06T23:17:38.749Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kdqed__zaturn__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,50 +37,50 @@ metadata:
       - data-analysis
       - data-science
       - vibe-coding
-    last_checked_at: "2026-05-05T21:03:02.965Z"
+    last_checked_at: "2026-05-06T22:44:41.012Z"
     readme:
-      fetched_at: "2026-05-05T21:03:02.965Z"
+      fetched_at: "2026-05-06T22:44:41.012Z"
       bytes: 2448
 insights:
-  summary: Zaturn is an MCP server and web interface that allows AI models to query SQL databases and generate visualizations so developers and analysts can interact with data using natural language instead of SQL or Python.
-  why_it_matters: It enables developers to integrate data analysis capabilities into AI workflows via MCP, allowing models to directly query multiple databases and generate charts without manual query writing.
-  mental_damage: We have successfully eliminated the need to write SQL by adding a layer of prompt engineering, configuration, and an MCP server that will occasionally hallucinate your JOINs anyway.
+  summary: Zaturn is a data analytics tool that lets developers query databases and files using natural language, generating SQL and visualizations without manual coding.
+  why_it_matters: It replaces the need to write SQL or Python scripts for exploratory data analysis by letting you chat directly with your data sources.
+  mental_damage: Yet another 'vibe' tool promising to eliminate a foundational skill, ensuring you'll need to debug the AI's hallucinated SQL queries when the stakes are actually high.
   tags:
-    - mcp
     - data-analysis
     - sql
+    - mcp
     - visualization
     - vibe-coding
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly built as an MCP server for data querying and visualization, aligning directly with the MCP Servers and Tooling category.
+  reason: The product is primarily an MCP server for data science tools, evidenced by its strong placement in awesome-mcp-servers and its own description of being usable 'as an MCP'.
   evidence:
-    - Repo description is 'Data Analysis With Vibes' and README states it 'can be used as an MCP'.
-    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming community recognition as an MCP implementation.
-    - Supports connections to PostgreSQL, SQLite, DuckDB, MySQL, ClickHouse, SQL Server, BigQuery, CSV, and Parquet via MCP tooling.
+    - Explicitly listed in awesome-mcp-servers under 'Data Science Tools'.
+    - README states it 'can be used as an MCP' and is featured on glama.ai as an MCP server.
+    - Repo description is 'Data Analysis With Vibes', positioning it as a developer tool for querying data.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:02.965Z"
+    updated_at: "2026-05-06T22:44:41.012Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:30:14.998Z"
+    updated_at: "2026-05-06T23:05:43.730Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

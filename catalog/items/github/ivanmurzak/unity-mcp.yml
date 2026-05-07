@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ivanmurzak__unity-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2568
-    forks: 233
+    stars: 2593
+    forks: 235
     license: Apache-2.0
     archived: false
     created_at: "2025-04-02T09:57:01Z"
-    pushed_at: "2026-05-03T18:07:04Z"
+    pushed_at: "2026-05-06T21:59:21Z"
     description: AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.
     homepage: https://ai-game.dev
     topics:
@@ -52,50 +52,44 @@ metadata:
       - openai
       - unity
       - windsurf
-    last_checked_at: "2026-05-05T21:02:48.282Z"
+    last_checked_at: "2026-05-06T22:44:28.161Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.282Z"
+      fetched_at: "2026-05-06T22:44:28.161Z"
       bytes: 44581
 insights:
-  summary: An MCP server and CLI toolkit that connects AI coding assistants like Claude and Cursor directly to the Unity Editor and runtime for automated game development workflows.
-  why_it_matters: It allows developers to turn any C# method into an AI-accessible tool with a single line of code, enabling AI agents to build, test, and debug Unity projects in real-time.
-  mental_damage: Now your AI can theoretically refactor your game architecture while simultaneously introducing a runtime hallucination that makes the player character float into the sky.
-  tags:
-    - unity
-    - mcp
-    - game-dev
-    - cli
-    - ai-integration
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a dedicated MCP server implementation designed to bridge AI tools with the Unity engine, fitting the MCP infrastructure category perfectly.
-  evidence:
-    - Repo description explicitly states 'AI Skills, MCP Tools, and CLI for Unity Engine' and mentions MCP integration.
-    - Seen in 'awesome-mcp-servers' under the Gaming section, confirming its identity as an MCP implementation.
-    - README confirms it works by connecting clients like Claude and Cursor to Unity via the Model Context Protocol (MCP).
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2568) exceeded threshold (150)
+  reason: Stars (2593) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.282Z"
+    updated_at: "2026-05-06T22:44:28.161Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:57.681Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-06T23:02:54.682Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__ivanmurzak__unity-mcp: 你好，我无法给到相关内容。"
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isiahw1__mcp-server-bing-webmaster__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: MCP server providing access to Bing Webmaster Tools API endpoints for SEO management and analytics
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:47.480Z"
+    last_checked_at: "2026-05-06T22:44:27.465Z"
     readme:
-      fetched_at: "2026-05-05T21:02:47.480Z"
+      fetched_at: "2026-05-06T22:44:27.465Z"
       bytes: 12620
 insights:
-  summary: An MCP server that exposes Bing Webmaster Tools API endpoints so that Claude, Cursor, and other MCP-compatible assistants can manage SEO tasks, traffic analytics, and sitemaps directly from the development environment.
-  why_it_matters: It lets developers query search performance, submit URLs, and manage sitemaps through their AI assistant instead of switching to the Bing web console.
-  mental_damage: We have officially reached the point where an AI agent now needs its own API key just to argue with Bing about your sitemap.
+  summary: An MCP server that exposes Bing Webmaster Tools API endpoints—such as site management, traffic analytics, and sitemap control—to Claude and other MCP-compatible AI assistants.
+  why_it_matters: It lets developers delegate SEO audits, keyword analysis, and crawl diagnostics to their coding assistant instead of switching contexts to the Bing Webmaster dashboard.
+  mental_damage: We have successfully reached the point where even Bing Webmaster Tools requires an MCP server and a conversational agent to feel manageable.
   tags:
     - mcp
+    - bing-webmaster
     - seo
-    - bing
-    - integrations
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a standalone MCP server designed to integrate Bing Webmaster Tools into MCP-compatible clients, which clearly fits the MCP category.
+  reason: The product identity is explicitly an MCP server for a specific domain (Bing Webmaster Tools), making it a textbook fit for the MCP Domain Servers section.
   evidence:
-    - "Repo description explicitly states: 'MCP server providing access to Bing Webmaster Tools API endpoints'"
-    - README confirms full MCP compliance and provides setup examples for Claude, Cursor, and Windsurf
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - "Repo description states: 'MCP server providing access to Bing Webmaster Tools API endpoints for SEO management and analytics'."
+    - "README says: 'An MCP (Model Context Protocol) server that provides access to Bing Webmaster Tools functionality through Claude and other MCP-compatible AI assistants.'"
+    - Found in awesome-mcp-servers under the 'Community Servers' section, aligning with its MCP-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:47.480Z"
+    updated_at: "2026-05-06T22:44:27.465Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:50.240Z"
+    updated_at: "2026-05-06T23:02:48.643Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

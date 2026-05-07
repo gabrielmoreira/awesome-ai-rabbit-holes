@@ -1,0 +1,75 @@
+id: urldna__io
+kind: website
+name: urldna.io
+canonical_url: https://urldna.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__urldna__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: urlDNA
+        extracted_url: https://urldna.io
+        surrounding_text: "- **[urlDNA](https://github.com/urldna/mcp)** - Dynamically scan and analyze potentially malicious URLs using the [urlDNA](https://urlDNA.io)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: urlDNA is a website analysis service that scans URLs to expose security risks, monitor brands, and surface site insights.
+  why_it_matters: It offers developers a quick way to audit external links and third-party assets for security and brand risks without building custom scrapers.
+  mental_damage: Because what the modern stack really needed was a SaaS that treats every suspicious npm redirect like a genetic test result.
+  tags:
+    - security
+    - site-analysis
+    - url-scanning
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general website security and brand-monitoring SaaS with no meaningful developer-tooling workflow, IDE integration, or coding-agent angle.
+  evidence:
+    - Scraped site describes it as 'The DNA test for websites' focused on brand monitoring and security risks.
+    - Source-list context places it in awesome-mcp-servers, but only as a linked page, not as an MCP server implementation.
+    - No repo description, README, or code artifacts provided to demonstrate developer-facing tooling, SDK, or extension behavior.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:48.791Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

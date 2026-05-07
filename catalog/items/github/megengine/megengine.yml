@@ -1,13 +1,13 @@
 id: github__megengine__megengine
 kind: github-repo
-name: MegEngine
+name: megengine
 canonical_url: https://github.com/megengine/megengine
 identity:
   github_repo: megengine/megengine
 provenance:
   discoveries:
     - id: discovery__github__megengine__megengine__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -41,28 +41,28 @@ metadata:
       - numpy
       - python
       - tensor
-    last_checked_at: "2026-05-05T21:03:34.561Z"
+    last_checked_at: "2026-05-06T22:45:12.772Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.561Z"
+      fetched_at: "2026-05-06T22:45:12.772Z"
       bytes: 5068
 insights:
-  summary: MegEngine is a fast, scalable, and user-friendly deep learning framework supporting automatic differentiation, training, and inference across platforms like Linux, Windows, iOS, and Android.
-  why_it_matters: It provides developers with a unified framework for both training and inference while optimizing memory usage and performance across diverse hardware environments.
-  mental_damage: "Just what the world needed: another deep learning framework promising to be the one framework to rule them all, because clearly PyTorch and TensorFlow didn't cover enough surface area."
+  summary: MegEngine is a fast, scalable, and user-friendly deep learning framework supporting automatic differentiation, unified training and inference, and efficient deployment across platforms like x86, ARM, and CUDA.
+  why_it_matters: It provides developers with a unified framework to train models and deploy them efficiently on diverse hardware with optimized memory usage, reducing infrastructure overhead.
+  mental_damage: "Just what the ecosystem needed: another CUDA-capable deep learning framework to evaluate while your training budget quietly weeps in the corner."
   tags:
     - deep-learning
-    - gpu
-    - inference
-    - python
     - training-framework
+    - inference
+    - gpu
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: This is a general deep learning framework for model training and inference, not a developer-facing AI tool, agent, or infrastructure component within the catalog's scope.
+  reason: Excluded because it is a general-purpose deep learning framework for model training and inference, lacking the developer-facing AI tooling, coding agent, or AI-infrastructure angle required for this catalog.
   evidence:
-    - Repo description describes it as a deep learning framework with autograd, not a developer tool or coding assistant.
-    - README focuses on model training, inference optimization, and cross-platform deployment, with no AI-assisted coding or developer workflow features.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML ops category rather than developer-tooling.
+    - Repo description and README explicitly position it as a deep learning framework with autograd, training, and inference capabilities.
+    - Topics include deep-learning, machine-learning, gpu, python, and autograd, with no coding-agent, IDE, extension, or AI-dev-tooling signals.
+    - Listed only in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML ops context rather than developer AI tooling.
 placement:
   primary_category: null
   section: null
@@ -70,21 +70,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4806) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:40.927Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.561Z"
+    updated_at: "2026-05-06T22:45:12.772Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:12:50.367Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

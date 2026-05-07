@@ -1,13 +1,13 @@
 id: github__dstackai__dstack
 kind: github-repo
-name: Dstack
+name: dstack
 canonical_url: https://github.com/dstackai/dstack
 identity:
   github_repo: dstackai/dstack
 provenance:
   discoveries:
     - id: discovery__github__dstackai__dstack__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2129
-    forks: 225
+    stars: 2130
+    forks: 226
     license: MPL-2.0
     archived: false
     created_at: "2022-01-04T10:29:46Z"
-    pushed_at: "2026-05-05T10:36:20Z"
+    pushed_at: "2026-05-06T20:42:21Z"
     description: Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.
     homepage: https://dstack.ai/docs
     topics:
@@ -50,50 +50,50 @@ metadata:
       - python
       - slurm
       - training
-    last_checked_at: "2026-05-05T21:01:57.677Z"
+    last_checked_at: "2026-05-06T22:43:42.150Z"
     readme:
-      fetched_at: "2026-05-05T21:01:57.677Z"
+      fetched_at: "2026-05-06T22:43:42.150Z"
       bytes: 5560
 insights:
-  summary: A vendor-agnostic control plane for provisioning and orchestrating GPU workloads across cloud providers, Kubernetes, and on-prem clusters.
-  why_it_matters: It abstracts away the painful multi-cloud GPU shuffling required to train, fine-tune, and serve models on NVIDIA, AMD, TPU, and Tenstorrent hardware.
-  mental_damage: Yet another layer of infrastructure abstraction promising to solve the GPU shortage, assuming you weren't already enjoying the thrill of debugging Kubernetes YAML at 2 AM.
+  summary: dstack is a vendor-agnostic control plane and CLI for provisioning GPUs and orchestrating training, inference, and agentic workloads across cloud providers, Kubernetes, and on-prem clusters.
+  why_it_matters: It lets developers define infrastructure, dev environments, and services in version-controlled YAML and apply them across NVIDIA, AMD, TPU, and Tenstorrent backends without being locked into one GPU cloud.
+  mental_damage: Another beautiful abstraction that promises to unify your GPU sprawl, right up until you realize your real bottleneck is still writing YAML while your agent cheerfully burns credits across three clouds at once.
   tags:
-    - gpu
+    - gpu-orchestration
+    - llmops
     - infrastructure
-    - kubernetes
-    - orchestration
-    - training
+    - agentic-workloads
+    - cli
   confidence: high
 curation:
   status: included
-  reason: This is a user-facing control plane and operational platform for coordinating AI workloads and agents across heterogeneous compute backends, fitting the orchestration category.
+  reason: dstack is primarily a CLI, server, and configuration-driven framework that developers script and operate as infrastructure code, which maps cleanly to Frameworks & SDKs rather than a multi-agent workbench or control plane product.
   evidence:
-    - Repo description defines it as 'Vendor-agnostic orchestration for training, inference and agentic workloads'.
-    - README describes it as a 'unified control plane for GPU provisioning and orchestration' that manages fleets and workloads.
-    - Includes specific support for 'agent skills' allowing AI agents like Claude and Cursor to manage infrastructure.
+    - "Repo description: 'Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.'"
+    - "README: 'dstack is a unified control plane for GPU provisioning and orchestration... Configuration can be defined as YAML files within your repo.'"
+    - Seen in Awesome-LLMOps under LLMOps; active repo with latest push in 2026 and 2,130 stars.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2129) exceeded threshold (150)
+  reason: Stars (2130) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:15.967Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:57.677Z"
+    updated_at: "2026-05-06T22:43:42.150Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:53:34.773Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

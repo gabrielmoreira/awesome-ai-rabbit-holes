@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adancurusul__embedded-debugger-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 77
-    forks: 10
+    forks: 9
     license: MIT
     archived: false
     created_at: "2025-08-05T11:44:40Z"
@@ -33,50 +33,50 @@ metadata:
     description: A Model Context Protocol server for embedded debugging with probe-rs - supports ARM Cortex-M, RISC-V debugging via J-Link, ST-Link, and more
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:00:48.912Z"
+    last_checked_at: "2026-05-06T22:12:25.093Z"
     readme:
-      fetched_at: "2026-05-05T21:00:48.912Z"
+      fetched_at: "2026-05-06T22:12:25.092Z"
       bytes: 9019
 insights:
-  summary: An MCP server that connects AI assistants like Claude to embedded hardware via probe-rs, enabling debugging, flashing, and RTT communication with ARM Cortex-M and RISC-V microcontrollers.
-  why_it_matters: It lets developers use natural language to halt, step, and inspect memory on physical hardware, bridging the gap between AI coding agents and the embedded debugger toolchain.
-  mental_damage: We have finally achieved the singularity where your AI assistant can single-step through a firmware loop, but only if you enjoy configuring JSON paths for a Rust binary that was pushed yesterday.
+  summary: An MCP server that integrates probe-rs with AI assistants to enable real hardware debugging of ARM Cortex-M and RISC-V microcontrollers via J-Link, ST-Link, and other debug probes.
+  why_it_matters: It gives AI coding agents direct access to hardware breakpoints, flash programming, and RTT communication, so you can debug embedded firmware without manually running GDB commands.
+  mental_damage: We have finally automated the part of embedded development where you stare at a blinking LED and wonder if the bug is in your code or the witchcraft required to configure OpenOCD.
   tags:
     - mcp
     - embedded
     - debugging
-    - rust
     - hardware
+    - probe-rs
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to give AI clients direct access to embedded hardware debugging tools.
+  reason: The product is an MCP server providing embedded hardware debugging capabilities, which fits perfectly as a domain-specific MCP server rather than a general extension or framework.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol server for embedded debugging with probe-rs'.
-    - "README architecture diagram shows the flow: MCP Client (Claude/AI) <-> Embedded Debugger MCP <-> Debug Probe."
-    - Listed in awesome-mcp-servers under the 'Embedded System' section, confirming its role as MCP infrastructure.
+    - Repo description explicitly states 'A Model Context Protocol server for embedded debugging with probe-rs'
+    - README shows 22 MCP tools for debug control, memory operations, breakpoints, flash, and RTT communication
+    - Listed in awesome-mcp-servers under 'Embedded System' section, confirming MCP server identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:48.912Z"
+    updated_at: "2026-05-06T22:12:25.093Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:46.579Z"
+    updated_at: "2026-05-06T22:18:38.127Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

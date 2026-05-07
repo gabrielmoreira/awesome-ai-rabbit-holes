@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__8randonpickart5__alderpost-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:45.062Z"
+    last_checked_at: "2026-05-06T22:12:21.470Z"
     readme:
-      fetched_at: "2026-05-05T21:00:45.062Z"
+      fetched_at: "2026-05-06T22:12:21.470Z"
       bytes: 2124
 insights:
-  summary: An MCP server that exposes Alderpost Intelligence API endpoints for domain security, company analysis, and threat detection, paid per call via the x402 USDC protocol on Base.
-  why_it_matters: It lets developers integrate enterprise-grade OSINT and security checks into Claude Desktop or Cursor workflows without juggling multiple API keys or manual lookups.
-  mental_damage: We’ve solved the problem of context engineering by replacing it with wallet engineering, carefully managing USDC balances so your AI agent can tell you your SPF record is misconfigured.
+  summary: An MCP server that exposes eight Alderpost Intelligence API endpoints for domain security, company profiling, threat analysis, compliance checks, sales intelligence, sports data, property intel, and health signals.
+  why_it_matters: It lets developers plug premium data lookups like VirusTotal and People Data Labs directly into Claude Desktop or Cursor via a single MCP config, replacing several manual API integrations.
+  mental_damage: Another Tuesday, another npm package that promises to turn your AI assistant into a one-stop shop for domain shielding, sports betting odds, and drug interaction checks—all paid in USDC on Base, naturally.
   tags:
     - mcp
+    - intelligence-api
     - security
-    - osint
     - x402
-    - pay-per-call
+    - npx
   confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server that bundles external intelligence APIs for use in AI developer tools like Claude Desktop and Cursor.
+  reason: This is a purpose-built MCP server exposing external API endpoints to AI assistants, making MCP its core product identity rather than an adapter or side feature.
   evidence:
-    - "README states: 'MCP server for Alderpost Intelligence API — 8 bundled intelligence endpoints'"
-    - Includes MCP config instructions for Claude Desktop / Cursor integration
-    - Listed under 'Server Implementations > Aggregators' in awesome-mcp-servers
+    - GitHub repo name is 'alderpost-mcp' and README explicitly describes it as 'MCP server for Alderpost Intelligence API'
+    - Includes MCP config instructions for Claude Desktop / Cursor with command 'npx -y alderpost-mcp'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators', confirming its MCP-server identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:45.062Z"
+    updated_at: "2026-05-06T22:12:21.470Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:08.205Z"
+    updated_at: "2026-05-06T22:17:57.114Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

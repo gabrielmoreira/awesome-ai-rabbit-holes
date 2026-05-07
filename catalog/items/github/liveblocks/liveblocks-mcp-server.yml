@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__liveblocks__liveblocks-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,49 +47,50 @@ metadata:
       - toolkit
       - websockets
       - yjs
-    last_checked_at: "2026-05-05T21:03:21.996Z"
+    last_checked_at: "2026-05-06T22:45:01.451Z"
     readme:
-      fetched_at: "2026-05-05T21:03:21.996Z"
+      fetched_at: "2026-05-06T22:45:01.451Z"
       bytes: 2956
 insights:
-  summary: An MCP server that exposes Liveblocks REST API functions—such as managing rooms, threads, comments, notifications, and reading Storage and Yjs data—to AI tools and agents.
-  why_it_matters: It lets AI assistants inside Cursor, Claude Desktop, and VS Code directly manage Liveblocks real-time collaboration resources instead of forcing developers to manually juggle API calls.
-  mental_damage: Now your AI can create, modify, and delete your real-time collaboration rooms and comments, because apparently the one thing missing from your stack was an LLM with write access to your production notifications.
+  summary: An MCP server that exposes Liveblocks REST API functions—rooms, threads, comments, notifications, Storage, and Yjs—to AI coding assistants.
+  why_it_matters: It lets agents directly manage real-time collaboration state and comments inside Liveblocks projects without leaving the IDE or agent shell.
+  mental_damage: Your AI agent can now create rooms and delete comments with the same confident recklessness it applies to your production codebase.
   tags:
     - mcp
     - liveblocks
-    - real-time
+    - realtime
     - collaboration
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation for Liveblocks, which directly matches the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server for Liveblocks, fitting cleanly as domain-specific MCP infrastructure rather than a generic extension or framework.
   evidence:
-    - "Repo description states: 'MCP server for Liveblocks.'"
-    - README confirms it exposes Liveblocks REST API functions to AI via MCP, with setup instructions for Cursor, Claude Desktop, and VS Code.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
+    - "Repo description: 'MCP server for Liveblocks.'"
+    - "README: 'This MCP server allows AI to use a number of functions from our REST API... create, modify, and delete... rooms, threads, comments, notifications, and more.'"
+    - "Source list: awesome-mcp-servers under 'Cloud Platforms'."
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:21.996Z"
+    updated_at: "2026-05-06T22:45:01.451Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:15.507Z"
+    updated_at: "2026-05-06T23:10:06.187Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

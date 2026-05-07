@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isgudtek__mycrab-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -42,50 +42,50 @@ metadata:
       - solana
       - tunnel
       - x402
-    last_checked_at: "2026-05-05T21:02:47.394Z"
+    last_checked_at: "2026-05-06T22:44:27.269Z"
     readme:
-      fetched_at: "2026-05-05T21:02:47.394Z"
+      fetched_at: "2026-05-06T22:44:27.269Z"
       bytes: 1409
 insights:
-  summary: An MCP server that allows AI agents to create instant public HTTPS tunnels using Cloudflare via mycrab.space, with support for both free ephemeral and paid permanent subdomains.
-  why_it_matters: It gives coding agents a native tool to instantly expose local services to the internet for webhook testing, demos, or remote access without leaving the chat interface.
-  mental_damage: We have officially reached the point where agents need their own micropayment infrastructure just to expose a localhost port to the internet.
+  summary: An MCP server that gives AI agents the ability to create instant public HTTPS tunnels via Cloudflare using mycrab.space, with optional permanent subdomains paid for in Solana.
+  why_it_matters: It allows coding agents to expose local services to the internet for testing, webhooks, or sharing without leaving the chat interface.
+  mental_damage: We have successfully abstracted away the 'open terminal, type cloudflared tunnel' workflow into a token-consuming agent tool that accepts Solana as payment.
   tags:
     - mcp
     - cloudflare
     - tunnel
+    - networking
     - agent-tooling
-    - solana
   confidence: medium
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation that integrates Cloudflare tunneling capabilities directly into agent workflows, fitting perfectly into the MCP infrastructure category.
+  reason: The product's identity is explicitly an MCP server providing tunnel capabilities to agents, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for mycrab.space — instant Cloudflare tunnels for AI agents'
-    - README documents MCP tools (check_domain, setup_free_tunnel, buy_domain_sol) consumable by agents like Claude
-    - Listed in awesome-mcp-list under 'Cloud Platforms' section, confirming MCP ecosystem relevance
+    - "Repo description states: 'MCP server for mycrab.space — instant Cloudflare tunnels for AI agents'."
+    - README lists tools like `setup_free_tunnel` and `buy_domain_sol` exposed via the MCP protocol.
+    - Listed in awesome-mcp-list under '☁️ Cloud Platforms' as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:47.394Z"
+    updated_at: "2026-05-06T22:44:27.269Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:50.169Z"
+    updated_at: "2026-05-06T23:02:47.820Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

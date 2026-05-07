@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-s3__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
@@ -45,50 +45,50 @@ metadata:
       - s3
       - storage
       - typescript
-    last_checked_at: "2026-05-05T21:03:59.848Z"
+    last_checked_at: "2026-05-06T22:45:37.764Z"
     readme:
-      fetched_at: "2026-05-05T21:03:59.848Z"
+      fetched_at: "2026-05-06T22:45:37.764Z"
       bytes: 4701
 insights:
-  summary: An MCP server implementation that enables AI assistants to manage AWS S3 buckets and objects through natural language commands.
-  why_it_matters: Developers can list buckets, upload/download files, and generate presigned URLs via Claude, Cursor, or VS Code Copilot without memorizing AWS CLI syntax.
-  mental_damage: We now have a dedicated Model Context Protocol server so your AI can manage S3 buckets while you manage the existential dread of explaining to your security team why your LLM needs IAM permissions.
+  summary: An MCP server that lets AI assistants manage AWS S3 buckets and objects, supporting listing, upload/download, and presigned URL generation.
+  why_it_matters: It gives Claude, Cursor, and other MCP clients direct access to cloud storage, removing the friction of manually running AWS CLI commands during AI-assisted workflows.
+  mental_damage: We have successfully abstracted cloud storage access so deeply that your AI assistant now needs its own IAM permissions and a presigned URL to help you forget how `aws s3 cp` works.
   tags:
     - mcp
     - aws
     - s3
+    - storage
     - typescript
-    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server for AWS S3, which clearly fits the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server for AWS S3, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'MCP server for AWS S3 — list buckets, browse objects, upload/download, presigned URLs'"
-    - README confirms it 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client' and provides MCP server configuration examples
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+    - Repo description explicitly states 'MCP server for AWS S3' with bucket and object management features.
+    - README confirms it is 'an MCP server' that works with Claude Desktop, Cursor, and VS Code Copilot using the standard MCP protocol.
+    - Listed in awesome-mcp-servers under 'Cloud Platforms', aligning with the Domain Servers section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:59.848Z"
+    updated_at: "2026-05-06T22:45:37.764Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:44.064Z"
+    updated_at: "2026-05-06T23:18:31.344Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

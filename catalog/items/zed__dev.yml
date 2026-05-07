@@ -1,0 +1,77 @@
+id: zed__dev
+kind: website
+name: zed.dev
+canonical_url: https://zed.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__zed__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Zed
+        extracted_url: https://zed.dev
+        surrounding_text: "- **[Zed](https://zed.dev/)** – High-performance multiplayer code editor built in Rust with integrated AI assistance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Zed is a high-performance, multiplayer code editor built in Rust that integrates AI-assisted coding features directly into the development environment.
+  why_it_matters: It offers developers a modern, open-source IDE alternative with native AI capabilities designed to assist with coding tasks without leaving the editor.
+  mental_damage: "Just what the ecosystem needed: another lightning-fast editor to distract you from actually shipping code while you spend three days configuring the AI assistant."
+  tags:
+    - ide
+    - editor
+    - ai-assisted
+    - rust
+    - multiplayer
+  confidence: high
+curation:
+  status: included
+  reason: The primary product surface is a standalone AI-native editor/IDE rather than a plugin, terminal agent, or backend framework.
+  evidence:
+    - URL points to zed.dev, the official site for the Zed editor.
+    - Seen in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+    - Canonical positive example 'Zed' is explicitly listed in the ai-ides-editors category.
+placement:
+  primary_category: ai-ides-editors
+  section: Full IDEs & Editors
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.671Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:52.769Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

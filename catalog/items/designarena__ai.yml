@@ -1,12 +1,12 @@
 id: designarena__ai
 kind: website
-name: Design Arena
+name: designarena.ai
 canonical_url: https://designarena.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__designarena__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Design Arena is a crowdsourced benchmark platform that pits top AI models against the same creative design prompts and lets users vote on the best outputs to power public leaderboards.
-  why_it_matters: Developers evaluating which AI models to integrate for generating UI components, sites, or visual assets can use the leaderboards to make data-backed decisions rather than guessing based on marketing.
-  mental_damage: We now have a leaderboard for algorithmic taste, because apparently the only thing worse than arguing about design with a human is arguing about it with a leaderboard.
+  summary: Design Arena is a crowdsourced benchmark that sends the same creative prompts to top AI models and lets users vote on which design outputs are best.
+  why_it_matters: It provides developers and designers with a community-driven leaderboard to understand which models actually perform well at UI, 3D, and visual design tasks.
+  mental_damage: Yet another leaderboard to consult before arguing with your team about which model truly has 'taste' this week.
   tags:
     - benchmark
     - design
-    - eval
-    - model-comparison
-  confidence: high
+    - evals
+    - leaderboard
+  confidence: medium
 curation:
   status: included
-  reason: It is a benchmark and evaluation platform measuring model quality across design and creative generation tasks, which fits squarely into the Evaluations and Benchmarks category.
+  reason: The core job is measuring and comparing model behavior on design tasks via crowdsourced voting, making it an evaluation and benchmarking tool.
   evidence:
-    - "Scraped site states: 'Design Arena is the world's first crowdsourced benchmark for AI-generated design.'"
-    - Site methodology focuses on voting and leaderboards to 'tell the industry which models actually have taste.'
-    - Listed in awesome-LLM-resources under a 'Usage' section focused on体验 (experience/benchmarking).
+    - "Scraped site says: 'world's first crowdsourced benchmark for AI-generated design' with voting and leaderboards."
+    - Source list places it under '体验 Usage' as a benchmark for design model comparison.
+    - Primary page shows leaderboards for Sonnet 4, GLM 4.5, GPT-5 and others based on user votes.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:36.660Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:59.946Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

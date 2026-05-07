@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quarkiverse__quarkus-mcp-servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [quarkiverse/mcp-server-jdbc](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbc) ☕ 🏠 - Connect to any JDBC-compatible database and query, insert, update, delete, and more."
         confidence: high
     - id: discovery__github__quarkiverse__quarkus-mcp-servers__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,44 +50,50 @@ metadata:
     topics:
       - mcp
       - quarkus-app
-    last_checked_at: "2026-05-05T23:08:15.874Z"
+    last_checked_at: "2026-05-06T22:46:03.199Z"
     readme:
-      fetched_at: "2026-05-05T23:08:15.873Z"
+      fetched_at: "2026-05-06T22:46:03.199Z"
       bytes: 4119
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A collection of Model Context Protocol servers implemented in Java using the Quarkus framework, providing capabilities like JDBC database access, filesystem operations, Kubernetes interaction, and container management.
+  why_it_matters: It allows developers in the Java/Quarkus ecosystem to extend MCP-enabled AI applications with standard enterprise capabilities without switching language stacks.
+  mental_damage: Yet another reminder that while your AI agent can now talk to your Kubernetes cluster via JDBC, you still have to explain to it why dropping the production database is a bad idea.
+  tags:
+    - mcp
+    - java
+    - quarkus
+    - servers
+    - integrations
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is providing specific MCP server implementations (JDBC, Kubernetes, Filesystem, etc.) for the Java/Quarkus ecosystem, fitting perfectly under domain-specific MCP tooling.
+  evidence:
+    - Repo description explicitly states 'Model Context Protocol Servers in Quarkus'.
+    - README details specific servers like jdbc, jvminsight, filesystem, kubernetes, and containers.
+    - Included in 'awesome-mcp-servers' and 'awesome-mcp-list' under database and server implementation sections.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (188) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:15.874Z"
+    updated_at: "2026-05-06T22:46:03.199Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:24:04.024Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

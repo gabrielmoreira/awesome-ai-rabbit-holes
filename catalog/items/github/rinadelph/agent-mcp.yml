@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rinadelph__agent-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1233
+    forks: 161
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-13T15:40:10Z"
+    pushed_at: "2026-03-28T13:25:52Z"
+    description: Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration through the Model Context Protocol (MCP). The system is designed for developers building AI applications that benefit from multiple specialized agents working in parallel on different aspects of a project.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:10.246Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:10.246Z"
+      bytes: 29294
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Agent-MCP is a developer framework for building multi-agent systems that coordinate specialized AI agents through a shared memory graph and task management dashboard using the Model Context Protocol.
+  why_it_matters: It lets developers overcome single-agent context limits by running parallel, specialized agents that share persistent memory and task state across a project.
+  mental_damage: Finally, your AI agents can form a committee to over-engineer your codebase in parallel while you watch the dashboard instead of the code.
+  tags:
+    - multi-agent
+    - mcp
+    - orchestration
+    - framework
+    - memory-graph
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a workbench and control plane for coordinating multiple specialized agents with a dashboard, task management, and shared memory, which aligns with agent orchestration over a single coding agent or framework SDK.
+  evidence:
+    - Repo description states it is a 'framework for creating multi-agent systems' with 'coordinated, efficient AI collaboration'.
+    - README describes a 'mission control center' with real-time visualization, task management, and a persistent knowledge graph for parallel agents.
+    - Source list places it in 'Server Implementations > Coding Agents', but its primary identity is multi-agent coordination, not single-repo editing.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1233) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:10.246Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:44.984Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

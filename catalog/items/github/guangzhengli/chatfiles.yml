@@ -1,13 +1,13 @@
 id: github__guangzhengli__chatfiles
 kind: github-repo
-name: ChatFiles
+name: chatfiles
 canonical_url: https://github.com/guangzhengli/chatfiles
 identity:
   github_repo: guangzhengli/chatfiles
 provenance:
   discoveries:
     - id: discovery__github__guangzhengli__chatfiles__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3348
+    stars: 3349
     forks: 471
     license: MIT
     archived: false
@@ -38,50 +38,50 @@ metadata:
       - chatgpt
       - chatgpt-api
       - chatpdf
-    last_checked_at: "2026-05-05T21:02:28.789Z"
+    last_checked_at: "2026-05-06T22:44:09.469Z"
     readme:
-      fetched_at: "2026-05-05T21:02:28.789Z"
+      fetched_at: "2026-05-06T22:44:09.469Z"
       bytes: 3183
 insights:
-  summary: A Next.js-based chatbot application that enables users to upload files and have conversations with them using LangChainJS and Supabase vector database storage.
-  why_it_matters: Provides a reference implementation for developers looking to build document-querying applications using the LangChainJS stack with vector embeddings.
-  mental_damage: Yet another 'Chat with your PDF' starter kit proving that in 2024, the killer app for AGI is still summarizing expense reports.
+  summary: A Next.js application that allows users to upload files and have conversations with their content using LangChainJS and a Supabase vector database for embeddings.
+  why_it_matters: It provides a reference implementation for developers looking to build document-based RAG (Retrieval-Augmented Generation) applications using the JavaScript/TypeScript stack.
+  mental_damage: Yet another 'Chat with your PDF' boilerplate proving that in 2024, gluing a vector store to a chat UI is considered a full-stack revolution.
   tags:
-    - chatbot
+    - rag
     - langchain
     - nextjs
-    - rag
-    - vector-db
+    - supabase
+    - document-chat
   confidence: high
 curation:
   status: excluded
-  reason: While the implementation is clean, this is a consumer-facing document chatbot application, not a developer tool, agent, or infrastructure component for building software.
+  reason: Excluded because it is a general-purpose document chatbot for end-users rather than a tool that assists developers in writing, debugging, or managing code.
   evidence:
-    - "Repo description and README describe an end-user product: 'Upload your file and have a conversation with it.'"
-    - Listed in awesome-langchain under 'Knowledge Management', not developer tooling or coding workflows.
-    - Architecture is a standard Next.js/Supabase app, not a CLI, IDE extension, or coding agent.
+    - Repo description explicitly states 'Document Chatbot' and the README focuses on uploading files to 'have a conversation with it'.
+    - Listed in awesome-langchain under 'Knowledge Management', which targets general RAG use cases rather than developer workflow automation.
+    - The tech stack (Next.js, Tailwind, Vercel) and features describe a consumer-facing chat app, not a coding agent or dev infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3348) exceeded threshold (150)
+  reason: Stars (3349) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:10.473Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:28.789Z"
+    updated_at: "2026-05-06T22:44:09.469Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:59:08.745Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sxhxliang__mcp-access-point__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 170
+    forks: 31
+    license: MIT
+    archived: false
+    created_at: "2025-04-06T15:35:00Z"
+    pushed_at: "2026-03-11T03:03:01Z"
+    description: Turn a web server into an MCP server in one click without making any code changes.
+    homepage: https://deepwiki.com/sxhxliang/mcp-access-point
+    topics:
+      - gateway
+      - mcp
+      - mcp-servers
+      - proxy
+    last_checked_at: "2026-05-06T22:46:38.808Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:38.808Z"
+      bytes: 14994
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A lightweight gateway that converts existing HTTP services into MCP-compatible servers without requiring any server-side code changes.
+  why_it_matters: It allows MCP clients like Cursor and VS Code to directly interact with legacy HTTP APIs by acting as a protocol translation layer.
+  mental_damage: Because rewriting your actual API to support a new protocol was never the problem; the problem was needing three more layers of indirection to talk to it.
+  tags:
+    - mcp
+    - gateway
+    - protocol-conversion
+    - proxy
+    - pingora
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is a protocol conversion gateway specifically designed to turn HTTP services into MCP servers, fitting the MCP infrastructure definition.
+  evidence:
+    - "Repo description states: 'Turn a web server into an MCP server in one click without making any code changes.'"
+    - README identifies it as a 'protocol conversion gateway tool' bridging HTTP services and MCP clients.
+    - Found in awesome-mcp-servers under 'Server Implementations > Aggregators'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (170) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:38.808Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:09.050Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

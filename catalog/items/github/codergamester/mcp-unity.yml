@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codergamester__mcp-unity__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [CoderGamester/mcp-unity](https://github.com/CoderGamester/mcp-unity) #️⃣ 🏠 - MCP Server for Unity3d Game Engine integration for game development"
         confidence: high
     - id: discovery__github__codergamester__mcp-unity__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Unity3d Game Engine](https://github.com/CoderGamester/mcp-unity)** - MCP Server to control and interact with Unity3d Game Engine for game development"
         confidence: high
     - id: discovery__github__codergamester__mcp-unity__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,7 +54,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1642
+    stars: 1643
     forks: 205
     license: MIT
     archived: false
@@ -77,49 +77,49 @@ metadata:
       - unity-package
       - unity3d
       - windsurf
-    last_checked_at: "2026-05-05T21:01:38.013Z"
+    last_checked_at: "2026-05-06T22:43:25.408Z"
     readme:
-      fetched_at: "2026-05-05T21:01:38.013Z"
+      fetched_at: "2026-05-06T22:43:25.408Z"
       bytes: 31082
 insights:
-  summary: An MCP server plugin that connects AI coding assistants like Cursor, Claude Code, and Windsurf directly to the Unity Editor to execute operations within a Unity project.
-  why_it_matters: It allows game developers to control and interact with the Unity Editor through natural language prompts inside their preferred AI-assisted IDEs.
-  mental_damage: Finally, the ability to hallucinate C# scripts and immediately break your scene hierarchy without ever alt-tabbing out of your chat window.
+  summary: An MCP server plugin that connects AI coding assistants like Cursor and Claude Code directly to the Unity Editor to execute operations within game projects.
+  why_it_matters: It allows AI agents to manipulate Unity scenes and assets directly, bridging the gap between code-generation assistants and the game development environment.
+  mental_damage: Now your AI can hallucinate C# scripts and break your rendering pipeline without you even having the Editor open.
   tags:
     - unity
     - mcp
-    - ide-integration
     - game-dev
+    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The project is specifically an MCP server implementation designed to bridge Unity with AI IDEs, fitting squarely into the MCP infrastructure category.
+  reason: The product is an MCP server implementation specifically for Unity, fitting the MCP Servers & Tooling category as a domain-specific server rather than a generic extension.
   evidence:
     - Repo description explicitly states it is a 'Model Context Protocol (MCP) plugin to connect with Unity Editor'.
-    - README confirms it 'provides a bridge between Unity and a Node.js server that implements the MCP protocol'.
-    - Featured in 'awesome-mcp-servers' under the Gaming section, confirming its role as a specific MCP tool.
+    - README excerpt confirms it is 'an implementation of the Model Context Protocol for Unity Editor'.
+    - Listed in awesome-mcp-servers under 'Gaming' and 'Community Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1642) exceeded threshold (150)
+  reason: Stars (1643) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:38.013Z"
+    updated_at: "2026-05-06T22:43:25.409Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:49.998Z"
+    updated_at: "2026-05-06T22:49:59.311Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

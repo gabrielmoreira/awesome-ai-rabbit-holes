@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__efremidze__swift-patterns-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - patreon
       - swift
       - swiftui
-    last_checked_at: "2026-05-05T21:02:00.388Z"
+    last_checked_at: "2026-05-06T22:43:44.318Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.388Z"
+      fetched_at: "2026-05-06T22:43:44.318Z"
       bytes: 15884
 insights:
-  summary: An MCP server that provides AI assistants with searchable, curated Swift and SwiftUI best practices aggregated from leading iOS developers and publications.
-  why_it_matters: It allows iOS developers to query architectural patterns and implementation details directly from their IDE or AI assistant without disrupting their workflow to browse documentation.
-  mental_damage: Finally, a way to ask an AI agent about SwiftUI patterns without realizing you've just outsourced your architectural judgment to a server indexing Antoine van der Lee's blog.
+  summary: An MCP server that provides searchable, auto-updating Swift and SwiftUI best practices and code patterns sourced from leading iOS educators.
+  why_it_matters: It lets iOS developers keep their AI coding assistant current with trusted community patterns without leaving the IDE or manually hunting through blogs.
+  mental_damage: We have now successfully abstracted the experience of reading a high-quality Swift blog into a tool that queries a cache of that same blog via an AI assistant that is also reading your code.
   tags:
     - mcp
     - swift
     - swiftui
     - ios
-    - developer-tools
-  confidence: high
+    - context
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide context and tools to MCP-compatible clients, fitting squarely into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server whose identity and distribution are centered on the Model Context Protocol, delivering domain-specific context to MCP-compatible assistants.
   evidence:
     - Repo description states it is 'An MCP server providing curated Swift and SwiftUI best practices'.
-    - README confirms it delivers 'runtime tools' for MCP-Compatible AI Assistants like Claude Desktop and Cursor.
-    - Listed in the 'awesome-mcp-servers' directory under 'Developer Tools'.
+    - README confirms 'This repo is an MCP server only' and lists compatibility with Claude Desktop, Cursor, Windsurf, and VS Code.
+    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.388Z"
+    updated_at: "2026-05-06T22:43:44.318Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:38.229Z"
+    updated_at: "2026-05-06T22:54:00.292Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

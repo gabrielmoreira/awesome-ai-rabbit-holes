@@ -1,12 +1,12 @@
 id: lutra__ai
 kind: website
-name: Lutra AI
+name: lutra.ai
 canonical_url: https://lutra.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__lutra__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,23 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Lutra AI is a SaaS productivity agent that connects to enterprise apps and writes executable code to automate workflows like email management, data enrichment, and reporting.
-  why_it_matters: It offers developers a way to automate business processes across tools like GitHub, CRMs, and spreadsheets using an agent that executes code rather than just generating text.
-  mental_damage: Just when you thought you were safe from 'AI assistants' that promise to automate your job, here comes a tool that writes code to automate the 'work' of refreshing spreadsheets and enriching CRM data.
+  summary: Lutra AI is an enterprise-focused productivity agent that connects to work apps like Gmail, Slack, and CRMs to automate data enrichment, reporting, and email tasks by writing and executing code.
+  why_it_matters: It offers developers a way to automate cross-platform workflows and build custom API integrations using natural language, reducing the need for manual glue code.
+  mental_damage: Yet another 'productivity agent' promising to liberate you from spreadsheets, provided you're comfortable giving an otter-themed AI the keys to your entire enterprise stack.
   tags:
-    - agent
     - automation
     - enterprise
+    - integrations
     - mcp
-    - workflow
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose business productivity agent for end-users (Sales, Finance, Marketing), not a developer-facing tool for writing, reviewing, or shipping code.
+  reason: The product is primarily targeted at sales, marketing, and operations end-users for business automation (CRM enrichment, email campaigns), lacking a primary identity as a developer tool, coding agent, or SDK.
   evidence:
-    - Scraped site context highlights use cases like 'Email Campaign Assistant', 'Sell faster', and 'Expense reports', targeting business users rather than developers.
-    - Solutions are showcased for 'Sales, Finance, Marketing, Operations' with testimonials focused on business efficiency rather than software development.
-    - Although it mentions GitHub integration and writing code, its primary surface is a hosted SaaS chat interface for business task automation, not a coding workflow.
+    - Testimonials and use cases focus on Sales, Finance, and Marketing (e.g., 'enrich data and go to market faster', 'populate expense reports').
+    - The core feature set is business workflow automation (email campaigns, PDF extraction, CRM updates) rather than repo editing or code development.
+    - While it mentions GitHub integration and MCP compatibility, these are connectors for business data, not the primary developer-facing interface.
 placement:
   primary_category: null
   section: null
@@ -58,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:04.641Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:17.551Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__datacanvasio__hypernets
 kind: github-repo
-name: Hypernets
+name: hypernets
 canonical_url: https://github.com/datacanvasio/hypernets
 identity:
   github_repo: datacanvasio/hypernets
 provenance:
   discoveries:
     - id: discovery__github__datacanvasio__hypernets__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -45,27 +45,27 @@ metadata:
       - nasnet
       - neural-architecture-search
       - reinforcement-learning
-    last_checked_at: "2026-05-05T21:01:47.517Z"
+    last_checked_at: "2026-05-06T22:43:33.174Z"
     readme:
-      fetched_at: "2026-05-05T21:01:47.517Z"
+      fetched_at: "2026-05-06T22:43:33.174Z"
       bytes: 6086
 insights:
-  summary: Hypernets is a general automated machine learning framework for building end-to-end AutoML toolkits that handle hyperparameter optimization and neural architecture search across various ML libraries.
-  why_it_matters: It provides developers with reusable abstractions and state-of-the-art search algorithms to build custom AutoML solutions for tabular data, time series, and deep learning without implementing optimization from scratch.
-  mental_damage: "Just what the modern developer needs: another abstract abstraction layer to manage while trying to remember if they signed up to write code or just architect the robots that architect the models."
+  summary: Hypernets is a general automated machine learning framework for building end-to-end AutoML toolkits using hyperparameter optimization and neural architecture search across deep learning and traditional ML libraries.
+  why_it_matters: It provides developers with a reusable abstraction layer and search-space representation to automate model and architecture search across TensorFlow, Keras, PyTorch, sklearn, LightGBM, and XGBoost.
+  mental_damage: Yet another reminder that while we automate neural architecture search, the hardest architecture decision most of us will make today is how many layers to stack in our prompt wrapper.
   tags:
     - automl
-    - hyperparameter-tuning
-    - machine-learning-framework
+    - hyperparameter-optimization
     - neural-architecture-search
+    - ml-frameworks
   confidence: high
 curation:
   status: excluded
-  reason: The project is a general machine learning research and AutoML framework focused on model training optimization, which falls outside the catalog's scope of developer-facing AI tooling, coding agents, and infrastructure.
+  reason: Excluded because it is a general automated machine learning framework for model and architecture search, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - Repo description explicitly defines it as 'A General Automated Machine Learning framework' for building AutoML toolkits, not developer tools.
-    - Topics and README focus on NAS, hyperparameter optimization, evolutionary algorithms, and ML libraries (sklearn, pytorch, tensorflow), not code editing or developer workflows.
-    - Listed in Awesome-LLMOps under 'AutoML', which is a ML research/engineering category rather than the developer-tooling focus of this catalog.
+    - Repo description explicitly states it is 'A General Automated Machine Learning framework to simplify the development of End-to-end AutoML toolkits'.
+    - README focuses on hyperparameter optimization, neural architecture search, and multi-objective optimization for ML libraries like sklearn, tensorflow, and pytorch.
+    - Topics include autodl, automl, hyperparameter-optimization, nas, and reinforcement-learning, with no coding-agent or developer-tooling angle.
 placement:
   primary_category: null
   section: null
@@ -73,21 +73,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (264) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:28.450Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:47.517Z"
+    updated_at: "2026-05-06T22:43:33.174Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:39.766Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

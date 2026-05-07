@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alex-gon__thegamecrafter-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - mcp-server
       - tabletop
       - thegamecrafter
-    last_checked_at: "2026-05-05T21:00:57.749Z"
+    last_checked_at: "2026-05-06T22:12:32.809Z"
     readme:
-      fetched_at: "2026-05-05T21:00:57.749Z"
+      fetched_at: "2026-05-06T22:12:32.809Z"
       bytes: 6919
 insights:
-  summary: An MCP server that connects AI assistants to The Game Crafter API, allowing users to design, manage, and price tabletop game projects via natural language.
-  why_it_matters: It lets developers who build board games integrate AI-assisted workflows into their design process, handling API calls for catalog browsing, component creation, and pricing without manual web navigation.
-  mental_damage: "We have finally achieved the singularity: an MCP server that lets you argue with Claude about cardboard pricing instead of just opening a spreadsheet."
+  summary: An MCP server that connects AI assistants like Claude to The Game Crafter API, enabling users to design, manage, and price tabletop game projects through natural language.
+  why_it_matters: It allows board game designers to automate API-driven tasks like component selection, artwork uploads, and pricing estimates directly within their AI assistant workflow.
+  mental_damage: "We have finally achieved the singularity: an MCP server for tabletop game manufacturing so you can argue with Claude about cardboard prices instead of using a website."
   tags:
     - mcp
+    - tabletop
     - board-games
     - api-integration
-    - claude
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for a third-party API, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server implementation for a specific domain (The Game Crafter), fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for The Game Crafter API'."
-    - README identifies it as 'An MCP server that connects AI assistants to The Game Crafter API'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'.
+    - Repo description explicitly states 'MCP server for The Game Crafter API'.
+    - README claims the tool 'connects AI assistants to The Game Crafter API' via MCP.
+    - Listed in 'awesome-mcp-servers' under the Gaming section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:57.749Z"
+    updated_at: "2026-05-06T22:12:32.809Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:19.104Z"
+    updated_at: "2026-05-06T22:20:14.877Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nrrso__swarm_ex__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -33,50 +33,50 @@ metadata:
     description: Elixir library for lightweight AI agent orchestration inspired by openai/swarm
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:56.447Z"
+    last_checked_at: "2026-05-06T22:45:34.476Z"
     readme:
-      fetched_at: "2026-05-05T21:03:56.447Z"
+      fetched_at: "2026-05-06T22:45:34.476Z"
       bytes: 1388
 insights:
-  summary: An Elixir library for lightweight AI agent orchestration, providing primitives for creating and coordinating agent networks using the language's concurrency and fault tolerance features.
-  why_it_matters: It gives Elixir developers a native, code-first framework to build and test multi-agent systems without switching stacks or wrestling with heavier Python-centric alternatives.
-  mental_damage: Another day, another orchestration framework, because what the BEAM community really needed was to reproduce the exact same agent topology debates the Python crowd had three months ago.
+  summary: An Elixir library for lightweight AI agent orchestration and coordination, inspired by OpenAI's Swarm.
+  why_it_matters: It gives Elixir developers a native, concurrent-first way to build and test networks of AI agents using familiar tooling like Telemetry and Mix.
+  mental_damage: At least you can orchestrate a swarm of agents while the BEAM quietly proves it could have handled the concurrency without them.
   tags:
     - elixir
     - agent-orchestration
-    - multi-agent
     - library
-    - sdk
+    - multi-agent
+    - concurrency
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first library (SDK) for embedding AI agent behavior into Elixir applications, which aligns with the AI Frameworks category rather than a user-facing orchestration control plane.
+  reason: This is a code-first library that developers import and script against to build agent workflows, fitting the Frameworks & SDKs definition over a runtime platform.
   evidence:
-    - Repo description explicitly calls it an 'Elixir library for lightweight AI agent orchestration'.
-    - README states it 'provides primitives for creating and coordinating networks of AI agents' as a dependency in mix.exs.
+    - Repo description states it is an 'Elixir library for lightweight AI agent orchestration'.
+    - README installation instructions show adding {:swarm_ex, '~> 0.2.0'} to mix.exs as a dependency.
     - Listed in awesome-agent-orchestration under 'Core Frameworks > Swift, Ruby & Elixir Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:56.447Z"
+    updated_at: "2026-05-06T22:45:34.476Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:59.932Z"
+    updated_at: "2026-05-06T23:17:45.338Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

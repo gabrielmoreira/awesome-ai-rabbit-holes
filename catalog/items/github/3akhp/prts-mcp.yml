@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__3akhp__prts-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,49 @@ metadata:
       - model-context-protocol
       - prts
       - prts-wiki
-    last_checked_at: "2026-05-05T21:00:44.474Z"
+    last_checked_at: "2026-05-06T22:12:20.682Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.474Z"
+      fetched_at: "2026-05-06T22:12:20.682Z"
       bytes: 7769
 insights:
-  summary: An MCP server that gives AI agents live access to Arknights game lore, operator data, and story transcripts via the PRTS Wiki and local game data files.
-  why_it_matters: It lets developers building Arknights fan-creation agents enrich prompts with structured game data without wiring up MediaWiki APIs or parsing game assets themselves.
-  mental_damage: We now have production-grade MCP infrastructure so a Claude instance can debate operator lore while your actual backlog gathers dust.
+  summary: An MCP server that gives MCP-compatible clients like Claude Desktop and Claude Code live access to Arknights PRTS Wiki articles, operator archives, voicelines, and story data.
+  why_it_matters: It lets developers building Arknights fan creation agents skip scraping and wiring game data sources by exposing lore and operator data as ready-to-use MCP tools.
+  mental_damage: The MCP ecosystem is now so mature that you can install a server to argue with an LLM about gacha game lore instead of fixing your CI pipeline.
   tags:
-    - mcp-server
+    - mcp
     - game-data
     - arknights
     - fan-creation
-    - typescript
   confidence: high
 curation:
   status: included
-  reason: This is a focused MCP server implementation with both Python and TypeScript flavors, fitting cleanly under MCP infrastructure.
+  reason: The product is an MCP server exposing Arknights game and wiki data, which fits cleanly as a domain-specific MCP server rather than a general framework or extension.
   evidence:
-    - Repo description explicitly states 'MCP Server for Arknights PRTS Wiki and local game data'
-    - README details two implementations (Python stdio and TypeScript HTTP) exposing PRTS Wiki and game data tools
-    - Listed in awesome-mcp-servers under Gaming, confirming MCP ecosystem placement
+    - "Repo description states: 'MCP Server for Arknights PRTS Wiki and local game data'"
+    - README says it 'gives any MCP-compatible client — Claude Desktop, Claude Code, Chatbox, and more — live access to lore, operator archives, and voice lines'
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.474Z"
+    updated_at: "2026-05-06T22:12:20.682Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:00.511Z"
+    updated_at: "2026-05-06T22:17:40.737Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

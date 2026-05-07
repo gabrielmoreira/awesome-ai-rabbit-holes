@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__comet-ml__opik-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Comet-ML/Opik-MCP](https://github.com/comet-ml/opik-mcp) 🎖️ 📇 ☁️ 🏠 - Use natural language to explore LLM observability, traces, and monitoring data captured by Opik."
         confidence: high
     - id: discovery__github__comet-ml__opik-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Comet Opik](https://github.com/comet-ml/opik-mcp)** - Query and analyze your [Opik](https://github.com/comet-ml/opik) logs, traces, prompts and all other telemtry data from your LLMs in natural language."
         confidence: high
     - id: discovery__github__comet-ml__opik-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -67,50 +67,49 @@ metadata:
       - mcp-server
       - modelcontextprotocol
       - typescript
-    last_checked_at: "2026-05-05T21:01:39.074Z"
+    last_checked_at: "2026-05-06T22:43:26.180Z"
     readme:
-      fetched_at: "2026-05-05T21:01:39.074Z"
+      fetched_at: "2026-05-06T22:43:26.180Z"
       bytes: 6447
 insights:
-  summary: An MCP server that exposes Opik's prompt management, trace exploration, and metrics tooling directly to IDEs and AI coding agents via stdio and streamable-http transports.
-  why_it_matters: It lets developers inspect, manage, and analyze LLM traces and prompts without leaving their IDE or agent workflow, tightening the debug loop for AI-powered features.
-  mental_damage: Another essential integration that ensures your AI assistant can now help you debug the AI assistant you built to help you debug your code.
+  summary: An MCP server that exposes Opik's prompt management, trace exploration, metrics, and dataset operations to MCP-compatible clients like Cursor, VS Code, and Windsurf.
+  why_it_matters: It lets developers query and manage LLM observability data directly from their coding assistant instead of context-switching to the Opik dashboard.
+  mental_damage: You can now debug your prompt regression issues without leaving the IDE, which mostly means you'll ruin your flow state faster than before.
   tags:
     - mcp
+    - opik
     - observability
     - ide-integration
-    - opik
-    - typescript
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation that connects the Opik observability platform to MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  reason: The product is an MCP server implementation that gives MCP clients access to Opik's observability and prompt features, fitting cleanly as MCP infrastructure.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) implementation for Opik' with IDE integration.
-    - README confirms it is an MCP server with stdio and streamable-http transports for Cursor, VS Code, and Windsurf.
-    - Listed in awesome-mcp-servers and awesome-mcp-list under Developer Tools and Server Implementations.
+    - Repo description explicitly states 'Model Context Protocol (MCP) implementation for Opik'.
+    - README shows configuration examples for Cursor, VS Code, and Windsurf as MCP clients.
+    - Active development with last push in 2026-03-17 and 202 stars confirms it is a live MCP tool.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (202) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.577Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:39.074Z"
+    updated_at: "2026-05-06T22:43:26.180Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:02.544Z"
+    updated_at: "2026-05-06T22:50:12.794Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

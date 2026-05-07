@@ -1,12 +1,12 @@
 id: tradeit__app
 kind: website
-name: Trade Agent
+name: tradeit.app
 canonical_url: https://tradeit.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__tradeit__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Trade It is a non-custodial embedded trading platform that provides APIs, a React SDK, and an MCP server to let developers integrate stock, crypto, and options trading into apps, newsletters, and AI agents.
-  why_it_matters: It gives developers a way to wire real brokerage execution into AI agents and chat-based workflows without handling funds or building broker integrations from scratch.
-  mental_damage: Because nothing says responsible AI progress like giving your chatbot the ability to YOLO your Robinhood account into a meme-coin put spread at 3 AM.
+  summary: An embedded trading infrastructure platform that provides APIs, SDKs, and an MCP server for linking brokerages and executing trades across stock, crypto, and options markets.
+  why_it_matters: Developers building AI agents or investing products can give their users the ability to place real trades directly from chat interfaces or apps without building brokerage integrations from scratch.
+  mental_damage: Your AI agent can now YOLO your entire portfolio across eight brokerages before you've finished reading its rationale.
   tags:
-    - agent-tooling
-    - embedded-trading
-    - fintech
     - mcp
-    - sdk
+    - fintech
+    - trading
+    - embedded
+    - agent-infrastructure
   confidence: high
 curation:
   status: included
-  reason: The product explicitly ships an MCP Server for agentic workflows and is listed in awesome-mcp-servers, making MCP infrastructure the clearest fit even though it also provides broader SDKs.
+  reason: It is an MCP server that gives AI agents access to real brokerage trading capabilities, making it a domain-specific MCP tool rather than a generic agent or framework.
   evidence:
-    - "Explicitly offers an 'Agentic: MCP Server' with 'Dev Time: 5 min' to connect to Claude, ChatGPT, or any MCP client."
-    - Listed in the awesome-mcp-servers directory under 'Official Servers' for embedded trading.
-    - Provides React SDK and APIs, but the MCP surface is a first-class integration path targeting AI agents.
+    - Listed in awesome-mcp-servers under 'Official Servers' with the purpose of launching embedded trading.
+    - "Site explicitly advertises 'Agentic: MCP Server' as a first-class integration path for Claude, ChatGPT, and other MCP clients."
+    - Core product is a non-custodial trading infrastructure with MCP as a primary developer integration surface.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:48.137Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:37.699Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

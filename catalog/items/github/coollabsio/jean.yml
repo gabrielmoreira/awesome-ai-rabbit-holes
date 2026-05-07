@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coollabsio__jean__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 895
-    forks: 92
+    stars: 897
+    forks: 93
     license: Apache-2.0
     archived: false
     created_at: "2026-01-23T07:59:41Z"
-    pushed_at: "2026-05-05T14:29:50Z"
+    pushed_at: "2026-05-06T12:06:34Z"
     description: A dev environment for AI agents.
     homepage: https://jean.build
     topics:
@@ -39,50 +39,50 @@ metadata:
       - git
       - parallel
       - worktree
-    last_checked_at: "2026-05-05T21:01:41.464Z"
+    last_checked_at: "2026-05-06T22:43:28.458Z"
     readme:
-      fetched_at: "2026-05-05T21:01:41.464Z"
+      fetched_at: "2026-05-06T22:43:28.458Z"
       bytes: 6602
 insights:
-  summary: A native desktop app that provides a unified interface for managing multiple AI coding agents, git worktrees, and chat sessions across projects using Claude CLI, Codex CLI, Cursor CLI, and OpenCode.
-  why_it_matters: It centralizes multi-agent workflows, git worktree automation, and IDE integrations into a single desktop environment, reducing context-switching for developers running several AI assistants in parallel.
-  mental_damage: We have finally reached the point where we need a desktop app just to manage the overlapping identities of our AI coworkers.
+  summary: A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode.
+  why_it_matters: It centralizes multi-project AI workflows by handling worktree automation, session management, and integrations with GitHub and Linear in a single native interface.
+  mental_damage: We have successfully built a desktop wrapper to manage the growing pile of CLI agents we installed to avoid managing our actual codebase directly.
   tags:
     - desktop-app
-    - multi-agent
     - worktree
-    - cli
+    - session-manager
+    - multi-agent
     - tauri
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing desktop assistant that directly manages, orchestrates, and interacts with multiple coding agents and source code workflows inside a repo, fitting the coding-agents category over a generic orchestration platform.
+  reason: Jean is a UI shell and workflow manager that augments existing CLI coding agents with worktree automation, session management, and project integrations rather than acting as a primary coding assistant itself.
   evidence:
-    - Repo description states it is 'A dev environment for AI agents' with topics including agent, git, and worktree.
-    - README confirms it manages Claude CLI, Codex CLI, Cursor CLI, and OpenCode sessions directly on local projects with git operations.
-    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners', confirming its place in the CLI coding agent ecosystem.
+    - Repo description identifies it as 'A dev environment for AI agents', specifically a desktop UI for Claude CLI, Codex CLI, Cursor CLI, and OpenCode.
+    - README confirms it is an opinionated Tauri wrapper that adds worktree automation, session recap/digest, and GitHub/Linear integrations on top of installed CLI agents.
+    - Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Session managers & parallel runners', reinforcing its identity as an orchestration UI rather than a standalone agent.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
-  reason: Stars (895) exceeded threshold (150)
+  reason: Stars (897) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:41.464Z"
+    updated_at: "2026-05-06T22:43:28.458Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:26.440Z"
+    updated_at: "2026-05-06T22:50:38.058Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

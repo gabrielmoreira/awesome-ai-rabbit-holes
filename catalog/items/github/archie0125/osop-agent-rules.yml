@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__archie0125__osop-agent-rules__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -33,50 +33,50 @@ metadata:
     description: Drop-in OSOP session logging for every AI coding agent — Cursor, Codex, Windsurf, Aider, Cline, Roo Code, Devin, Continue.dev, Copilot
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:08.476Z"
+    last_checked_at: "2026-05-06T22:12:42.118Z"
     readme:
-      fetched_at: "2026-05-05T21:01:08.476Z"
+      fetched_at: "2026-05-06T22:12:42.118Z"
       bytes: 6096
 insights:
-  summary: A collection of drop-in rule files and scripts that configure 18 AI coding agents to produce structured OSOP session logs after completing tasks.
-  why_it_matters: It enables developers to standardize execution logging and visualization across nearly every major AI coding assistant without writing custom telemetry glue code.
-  mental_damage: We have finally reached the point where we are installing rules so our agents can file paperwork about the work they barely did.
+  summary: A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code.
+  why_it_matters: It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
+  mental_damage: You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants.
   tags:
-    - logging
+    - session-logging
     - rules
     - multi-agent
     - osop
-    - skills
-  confidence: high
+    - integrations
+  confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a reusable rules and skill pack distribution for multiple AI coding agents, which fits the dedicated skills category.
+  reason: The repository is primarily a distributed pack of reusable rules and configuration files designed to be dropped into various coding agents to enable a specific logging workflow.
   evidence:
-    - Repo description explicitly calls it 'Drop-in OSOP session logging' for every major AI coding agent.
-    - README shows rule files for Cursor, Codex, Windsurf, Cline, Roo Code, Devin, and 11 other platforms.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+    - Repo description explicitly calls it 'Drop-in OSOP session logging' for AI coding agents.
+    - README lists specific rule files for 18 platforms (e.g., .cursor/rules, AGENTS.md, .clinerules).
+    - The 'Structure' section shows the repo is organized entirely around distributing these configuration artifacts.
 placement:
   primary_category: skills
-  section: null
+  section: Rules, Commands & Prompts
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:08.476Z"
+    updated_at: "2026-05-06T22:12:42.118Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:52.556Z"
+    updated_at: "2026-05-06T22:22:07.103Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agi-merge__waggle-dance__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -44,28 +44,28 @@ metadata:
       - openai
       - weaviate
       - workflow-automation
-    last_checked_at: "2026-05-05T21:00:53.493Z"
+    last_checked_at: "2026-05-06T22:12:28.621Z"
     readme:
-      fetched_at: "2026-05-05T21:00:53.493Z"
+      fetched_at: "2026-05-06T22:12:28.621Z"
       bytes: 9484
 insights:
-  summary: An archived, pre-alpha Next.js application that builds concurrent multi-agent execution graphs to achieve user-defined goals with adversarial review agents.
-  why_it_matters: It offers JavaScript developers an early look at orchestrating concurrent agent workflows with a UI, long-term memory, and observability features.
-  mental_damage: Another pre-alpha autonomous agent framework that promises the moon, yet the repo has been archived—exactly the kind of digital archaeology we now specialize in.
+  summary: An experimental, now-archived Next.js application that automates knowledge work by using a planner agent to generate concurrent execution graphs, which are then executed and reviewed by specialized sub-agents.
+  why_it_matters: It offers a JavaScript-native, UI-driven look at multi-agent orchestration with adversarial review and concurrent execution, serving as a reference implementation for LangChain.js workflows.
+  mental_damage: It represents the quintessential 2023-era 'let's build a UI for autonomous agents' experiment that burned bright and fast, leaving behind a pre-alpha ghost town on Vercel.
   tags:
-    - agents
+    - multi-agent
     - langchain
     - nextjs
-    - multi-agent
+    - archived
     - experimental
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and was in a pre-alpha state when development stopped, making it a historical artifact rather than a usable developer tool.
+  reason: The repository is archived and has not been updated since late 2023, indicating it is an abandoned experiment rather than an active developer tool.
   evidence:
-    - "Repository is marked as archived (archived: yes)."
-    - README explicitly states the project is 'Currently in pre-alpha' and prefers 'experimentation over stability'.
-    - Last push was in December 2023, with no ongoing development since.
+    - Repo 'archived' flag is true.
+    - Last push was 2023-12-17, with no activity in over a year.
+    - README describes it as 'experimental' and 'pre-alpha'.
 placement:
   primary_category: null
   section: null
@@ -75,19 +75,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:53.493Z"
+    updated_at: "2026-05-06T22:12:28.621Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:31.119Z"
+    updated_at: "2026-05-06T22:19:22.183Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

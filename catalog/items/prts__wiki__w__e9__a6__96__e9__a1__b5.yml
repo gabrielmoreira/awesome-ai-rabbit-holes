@@ -1,12 +1,12 @@
 id: prts__wiki__w__e9__a6__96__e9__a1__b5
 kind: website
-name: PRTS Wiki
+name: "%E9%A6%96%E9%A1%B5"
 canonical_url: https://prts.wiki/w/%E9%A6%96%E9%A1%B5
 identity: {}
 provenance:
   discoveries:
     - id: discovery__prts__wiki__w__e9__a6__96__e9__a1__b5__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,21 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PRTS is a non-profit community-maintained Chinese wiki for the mobile game Arknights, containing game data, operator profiles, and strategy information.
-  why_it_matters: It provides a structured data source that could theoretically be queried by game-related tooling, though it has no direct developer workflow integration.
-  mental_damage: We have officially reached the point where a game wiki is being listed alongside MCP infrastructure as if 'adding PRTS' is a serious developer workflow decision.
+  summary: PRTS is a non-profit Chinese-language wiki site documenting the game Arknights, containing operator data, enemy info, level lists, and item databases.
+  why_it_matters: It serves as a comprehensive data source for the gaming community but has no relevance to developer tooling, AI workflows, or coding infrastructure.
+  mental_damage: We have officially reached the point where a game wiki for a tower defense mobile game is being sorted into an AI developer tools directory via a hallucinated MCP server listing.
   tags:
-    - arbitrary-listing
-    - gaming
     - wiki
+    - gaming
+    - non-developer-tool
   confidence: high
 curation:
   status: excluded
-  reason: This is a game wiki with no AI tooling, developer workflow integration, or MCP server implementation; it is included in awesome-mcp-servers only as a wiki link under gaming, not as a server or tool.
+  reason: This is a game fan wiki for Arknights and contains no AI tooling, developer infrastructure, or coding utility; its appearance in an MCP list appears to be a categorization error or a non-technical server entry.
   evidence:
-    - The scraped site context explicitly states 'PRTS是一个非营利性质的明日方舟资料Wiki网站' (a non-profit Arknights wiki).
-    - The awesome-mcp-servers listing places it under 'Gaming' with the linked page description being the wiki itself, not an MCP server.
-    - No repo description, README, or code signals exist to suggest this is a developer tool, MCP server, or AI product.
+    - Scraped site context identifies it explicitly as a '明日方舟资料Wiki网站' (Arknights wiki site) with no mention of AI or developer tools.
+    - "The site content consists entirely of game assets: operators, enemies, levels, furniture, and in-game events."
+    - The source-list context notes it is listed under 'Gaming' in awesome-mcp-servers, but the site itself has no MCP or developer-facing product identity.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:17.197Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:39.149Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

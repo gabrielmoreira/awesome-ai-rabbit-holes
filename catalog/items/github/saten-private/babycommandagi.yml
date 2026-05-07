@@ -1,13 +1,13 @@
 id: github__saten-private__babycommandagi
 kind: github-repo
-name: BabyCommandAGI
+name: babycommandagi
 canonical_url: https://github.com/saten-private/babycommandagi
 identity:
   github_repo: saten-private/babycommandagi
 provenance:
   discoveries:
     - id: discovery__github__saten-private__babycommandagi__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,47 +23,69 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 59
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2023-05-16T20:15:32Z"
+    pushed_at: "2025-06-11T15:37:12Z"
+    description: BabyCommandAGI is designed to test what happens when you combine CLI and LLM, which are older computer interfaces than GUI. Based on BabyAGI, and using Latest LLM API. Imagine LLM and CLI having a conversation. It's exciting to think about what could happen. I hope you will all try it out.
+    homepage: https://x.com/saten_work/status/1791550524988490053
+    topics:
+      - ai
+      - anthropic
+      - anthropic-api
+      - artificial-intelligence
+      - autonomous-agents
+      - claude-3-5
+      - gpt-4o
+      - openai
+      - openai-api
+      - python
+    last_checked_at: "2026-05-06T22:46:17.161Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:17.161Z"
+      bytes: 7291
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: BabyCommandAGI is a Python-based autonomous agent that executes a continuous loop of planning and CLI command execution to complete objectives using LLM APIs like Claude and GPT.
+  why_it_matters: It serves as a minimal, experimental reference for developers exploring how LLMs can directly drive shell environments to automate programming and system setup tasks.
+  mental_damage: Yet another BabyAGI variant proving that given enough API credits and a shell, an LLM will happily loop forever trying to build Snake while you watch your token budget evaporate.
+  tags:
+    - cli-agent
+    - autonomous-agents
+    - python
+    - experimental
+    - terminal
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a standalone CLI-based autonomous agent that plans and executes coding tasks directly via the terminal, fitting the primary coding assistant definition for that section.
+  evidence:
+    - Repo description explicitly states it combines CLI and LLM to test automatic programming and environment setup.
+    - README demonstrates use cases for creating apps (Reversi, Snake) and installing environments (Flutter) via autonomous command execution.
+    - Listed in awesome-ai-agents under the autonomous agents section, confirming its identity as a coding agent.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:17.161Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:15.007Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

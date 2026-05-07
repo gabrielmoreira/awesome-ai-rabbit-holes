@@ -1,0 +1,76 @@
+id: docs__openclaw__ai__zh__cn
+kind: website
+name: zh-CN
+canonical_url: https://docs.openclaw.ai/zh-CN
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__openclaw__ai__zh__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技能 Skills
+        anchor_text: OpenClaw
+        extracted_url: https://docs.openclaw.ai/zh-CN
+        surrounding_text: 2. [OpenClaw](https://docs.openclaw.ai/zh-CN)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: This is the Simplified Chinese translation of the OpenClaw documentation.
+  why_it_matters: It lowers the barrier to entry for Chinese-speaking developers who want to use the OpenClaw AI assistant.
+  mental_damage: We now have a sprawling ecosystem of AI tools so vast that keeping the documentation mirrored in every human language has become a necessary infrastructure overhead.
+  tags:
+    - documentation
+    - localization
+    - openclaw
+    - chinese
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because this is a documentation translation page, not a standalone developer tool, agent, or infrastructure product.
+  evidence:
+    - URL points to a language-specific documentation path (docs.openclaw.ai/zh-CN), not a product repo or tool.
+    - No repo description, README, or code artifacts provided; only a localized docs page exists.
+    - Source list context classifies it under 'Skills' in a general LLM resource list, which is a navigation signal, not a product fit.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.661Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:37.671Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ramarlina__agx__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[agx](https://github.com/ramarlina/agx)** `⭐ 20` — Checkpoint-based execution engine for AI coding agents; durable Wake→Work→Sleep loops that resume instantly across sessions. Supports Claude Code, Codex CLI, Gemini CLI, and Ollama. CLI + web dashboard + macOS app."
         confidence: high
     - id: discovery__github__ramarlina__agx__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,47 +39,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 20
+    forks: 4
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-02-02T19:46:31Z"
+    pushed_at: "2026-05-06T05:35:18Z"
+    description: "agx: Run AI coding agents as a persistent team with objectives, memory, and coordinated work. The same agents built this tool — 167+ merged PRs, 93% clean."
+    homepage: https://www.runagx.com
+    topics:
+      - ai-agents
+      - coding-assistants
+      - developer-tools
+    last_checked_at: "2026-05-06T22:46:05.948Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:05.948Z"
+      bytes: 10450
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AGX is a local CLI and desktop workspace that runs multiple AI coding agents (Claude, Codex, Gemini, Ollama) across tickets and repos with checkpointed state, human approval gates, and a ticket-to-PR workflow.
+  why_it_matters: It gives developers a control plane to run parallel agent sessions against real tickets and repos while keeping approve/reject gates and state that survives laptop closures.
+  mental_damage: We have successfully reinvented Jira as an agent scheduler so we can worry about whether the agent team or the human is the bottleneck.
+  tags:
+    - ai-agents
+    - cli
+    - multi-agent
+    - local
+    - ticket-workflow
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: AGX is a developer-facing coding assistant surface that runs agents across repos and tickets with its own CLI, dashboard, and desktop app, not merely an extension or orchestration framework.
+  evidence:
+    - "Repo description: 'Run AI coding agents as a persistent team with objectives, memory, and coordinated work.'"
+    - "README: 'AGX is a local workspace for running coding agents across your tickets, repos, and PRs — you stay the author.'"
+    - Source lists place it in CLI Tools and Harnesses & orchestration > Orchestrators & autonomous loops, showing ecosystem recognition.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:05.948Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:39.891Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

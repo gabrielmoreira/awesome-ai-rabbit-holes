@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longevity-genie__synergy-age-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:24.323Z"
+    last_checked_at: "2026-05-06T22:45:03.394Z"
     readme:
-      fetched_at: "2026-05-05T21:03:24.323Z"
+      fetched_at: "2026-05-06T22:45:03.394Z"
       bytes: 22129
 insights:
-  summary: An MCP server that provides AI assistants with structured, read-only access to the SynergyAge database of genetic interventions and lifespan effects across model organisms.
-  why_it_matters: Developers building longevity or bioinformatics agents can wire this server into their editor or assistant to query validated genetic interaction data without manually managing database updates or writing custom SQL wrappers.
-  mental_damage: Now your AI assistant can confidently hallucinate synergistic genetic interventions for your C. elegans longevity startup while you wonder if 'MCP server for aging research' is the most 2025 sentence you've ever deployed.
+  summary: An MCP server that provides AI assistants with structured access to the SynergyAge database of genetic interventions and lifespan effects across model organisms.
+  why_it_matters: Developers working on longevity or bioinformatics tools can query validated genetic interaction data directly from their coding assistant instead of manually wrangling SQL or CSV files.
+  mental_damage: You now have the infrastructure to ask Claude about nematode lifespan synergies while you're supposed to be fixing a production outage.
   tags:
     - mcp
     - bioinformatics
-    - lifespan
-    - genetics
-    - data-access
+    - longevity
+    - domain-server
   confidence: high
 curation:
   status: included
-  reason: This is a clear MCP server implementation providing structured tool access to a specialized dataset, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is a domain-specific MCP server for the SynergyAge longevity database, fitting cleanly into the MCP Servers & Tooling category as a domain server.
   evidence:
-    - "README states: 'This server implements the Model Context Protocol (MCP) for SynergyAge, providing a standardized interface for accessing synergistic genetic intervention and aging research data.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
-    - Actively maintained with recent push at 2025-08-25T22:34:34Z and MIT license.
+    - "README states: 'MCP (Model Context Protocol) server for SynergyAge database' and 'providing a standardized interface for accessing synergistic genetic intervention and aging research data.'"
+    - Source list context confirms placement in 'awesome-mcp-servers' under 'Server Implementations > Biology, Medicine and Bioinformatics'.
+    - Created 2025-06-06 and actively pushed to as of 2025-08-25, showing recent development activity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:24.323Z"
+    updated_at: "2026-05-06T22:45:03.394Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:41.434Z"
+    updated_at: "2026-05-06T23:10:31.718Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

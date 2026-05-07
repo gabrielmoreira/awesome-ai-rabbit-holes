@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jordandalton__doordash-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:58.522Z"
+    last_checked_at: "2026-05-06T22:44:36.696Z"
     readme:
-      fetched_at: "2026-05-05T21:02:58.522Z"
+      fetched_at: "2026-05-06T22:44:36.696Z"
       bytes: 933
 insights:
-  summary: A Model Context Protocol server that integrates DoorDash functionality into AI clients like Claude Desktop and Cursor via a local Node.js build.
-  why_it_matters: It allows developers to prototype agent workflows that interact with real-world delivery APIs directly from their IDE or local MCP client.
-  mental_damage: "We have finally achieved the singularity: middleware that lets your coding agent order you dinner while you struggle to configure the build path."
+  summary: A Model Context Protocol server that exposes DoorDash API capabilities to MCP-compatible clients like Claude Desktop, Windsurf, and Cursor.
+  why_it_matters: Developers can integrate food delivery ordering and logistics directly into their AI-assisted workflows without leaving their coding environment.
+  mental_damage: "We have finally achieved the singularity: your coding agent can now order you dinner while you debug that memory leak at 3 AM."
   tags:
     - mcp
     - doordash
-    - node
-    - integration
+    - api-integration
+    - delivery
   confidence: medium
 curation:
   status: included
-  reason: This is a standalone MCP server implementation designed to be plugged into MCP clients, fitting the MCP infrastructure scope.
+  reason: This is a clear MCP server implementation for the DoorDash API, fitting the Domain Servers section of MCP Servers & Tooling.
   evidence:
-    - README provides build instructions for a Node.js MCP server ('npm run build', 'node .../build/index.js').
+    - Build instructions produce an MCP server config for Claude Desktop, Windsurf, Cursor, etc.
     - Listed in awesome-mcp-servers under 'Server Implementations > Delivery'.
-    - Configuration example shows integration with Claude Desktop, Windsurf, and Cursor.
+    - "Recent activity: created 2025-04-11, last pushed 2025-04-16, not archived."
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:58.522Z"
+    updated_at: "2026-05-06T22:44:36.696Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:04.958Z"
+    updated_at: "2026-05-06T23:04:43.573Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

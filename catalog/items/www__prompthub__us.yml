@@ -1,12 +1,12 @@
 id: www__prompthub__us
 kind: website
-name: PromptHub
+name: www.prompthub.us
 canonical_url: https://www.prompthub.us
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__prompthub__us__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PromptHub is a hosted platform for teams to version, test, evaluate, and deploy prompts across multiple LLM providers via a web UI and API.
-  why_it_matters: It replaces spreadsheet-based prompt tracking with Git-style versioning, batch eval runs, and API endpoints so teams can ship prompt changes to production without manual redeploys.
-  mental_damage: We have successfully abstracted the abstraction, meaning you now need version control, CI pipelines, and eval suites for the sentences you type into a chat box.
+  summary: PromptHub is a team-focused platform for versioning, testing, evaluating, and deploying prompts across multiple LLM providers via API, forms, and Zapier integrations.
+  why_it_matters: Centralizing prompt versioning, batch testing, and deployment pipelines helps engineering teams stop treating prompts like forgotten spreadsheet cells and start managing them like production code.
+  mental_damage: Because nothing says 'modern LLM engineering' quite like needing a dedicated SaaS platform, Git-based versioning, and Zapier zaps just to safely tweak the sentence you send to GPT-3.5.
   tags:
-    - evaluations
-    - llmops
     - prompt-management
+    - promptops
+    - llmops
+    - evaluations
     - team-collaboration
   confidence: high
 curation:
   status: included
-  reason: This is a prompt-management and testing platform that helps developers organize, version, and evaluate prompts, which fits the context-engineering category.
+  reason: PromptHub’s core job is prompt versioning, testing, chaining, and deployment pipelines, which aligns directly with Prompt & Context Engineering’s PromptOps mandate rather than coding agents or extensions.
   evidence:
-    - Site title and description define it as a prompt management tool to 'test, deploy, and manage your prompts'.
-    - Features include Git-based versioning, batch testing across models, eval pipelines, and API-based prompt retrieval/deployment.
-    - Listed in Awesome-LLMOps under the LLMOps section as a prompt management tool for teams.
+    - Scraped site title and description explicitly call it 'AI Prompt Management for Teams' focused on testing, deploying, and managing prompts.
+    - Feature set includes prompt versioning with Git-based branches, batch testing across models, evaluators, and API/forms/Zapier deployment.
+    - Listed in Awesome-LLMOps under LLMOps as a prompt management tool for teams, reinforcing its developer-infrastructure role.
 placement:
   primary_category: context-engineering
-  section: null
+  section: PromptOps / Prompt Management
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:45.782Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:03.925Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

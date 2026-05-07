@@ -1,12 +1,12 @@
 id: spix__sh
 kind: website
-name: Free tier available
+name: spix.sh
 canonical_url: https://spix.sh
 identity: {}
 provenance:
   discoveries:
     - id: discovery__spix__sh__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,42 +35,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Spix.sh is a server implementation for the Model Context Protocol (MCP) designed to facilitate communication workflows.
-  why_it_matters: It provides developers with a standardized MCP server to integrate communication capabilities into their AI agent toolchains.
-  mental_damage: Another essential tile in the ever-expanding mosaic of MCP servers, ensuring your agent can theoretically talk to everything except the human who actually understands the requirements.
+  summary: A shell (spix.sh) that appears to implement an MCP server for communication-style workflows.
+  why_it_matters: It provides developers with a shell-based interface for exposing communication capabilities through the Model Context Protocol.
+  mental_damage: Another day, another .sh script claiming to solve the 'I need to pipe my chat messages through a protocol that already has fifty implementations' problem.
   tags:
-    - communication
     - mcp
+    - shell
+    - communication
     - server
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly listed as an MCP Server Implementation in the 'Communication' section of the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
+  reason: The project is explicitly listed under Server Implementations > Communication in awesome-mcp-servers, indicating it is an MCP server for communication use cases, which fits the MCP servers category.
   evidence:
     - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
-    - Source URL is https://spix.sh, indicating a dedicated tool/site for this protocol
-    - Classified as a server implementation rather than a client or general framework
+    - The URL spix.sh and shell-like naming suggest a shell-based MCP server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:20.239Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:02.647Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

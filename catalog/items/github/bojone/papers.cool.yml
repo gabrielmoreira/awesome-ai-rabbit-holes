@@ -1,0 +1,81 @@
+id: github__bojone__papers.cool
+kind: github-repo
+name: papers.cool
+canonical_url: https://github.com/bojone/papers.cool
+identity:
+  github_repo: bojone/papers.cool
+provenance:
+  discoveries:
+    - id: discovery__github__bojone__papers.cool__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: scraped
+        section_path:
+          - 论文 Paper
+        anchor_text: Cool Papers
+        extracted_url: https://papers.cool
+        surrounding_text: "> 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)"
+        confidence: high
+metadata:
+  github:
+    stars: 755
+    forks: 18
+    license: null
+    archived: false
+    created_at: "2024-01-02T08:05:32Z"
+    pushed_at: "2026-03-27T07:18:23Z"
+    description: Cool Papers - Immersive Paper Discovery
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:12:55.478Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:55.478Z"
+      bytes: 16694
+insights:
+  summary: A web platform and Chrome extension for immersive arXiv and conference paper discovery that integrates Kimi Chat to generate instant FAQ summaries for research papers.
+  why_it_matters: It lets developers working on AI/LLM features quickly parse dense academic research with AI-generated summaries rather than manually digesting full papers.
+  mental_damage: Because clearly the missing piece in your 200-tab 'vibe coding' workflow wasn't another IDE extension, but a specialized tool to help you procrastinate inside arXiv papers with AI summaries.
+  tags:
+    - research
+    - papers
+    - llm
+    - kimi
+    - chrome-extension
+  confidence: high
+curation:
+  status: excluded
+  reason: It is a general academic paper discovery tool with an AI summary feature, not a developer-facing coding tool, agent, framework, or infrastructure component.
+  evidence:
+    - "Repo description: 'Immersive Paper Discovery' with focus on arXiv and top conference papers."
+    - README details a workflow for browsing, starring, and summarizing academic papers via Kimi Chat, not coding tasks.
+    - Source list places it in a '论文 Paper' (Papers) section, not a developer-tooling or coding-assistant section.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (755) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.605Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:55.478Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:47.388Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__text-embeddings-inference__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4767
-    forks: 385
+    stars: 4774
+    forks: 386
     license: Apache-2.0
     archived: false
     created_at: "2023-10-13T13:36:51Z"
@@ -38,50 +38,50 @@ metadata:
       - huggingface
       - llm
       - ml
-    last_checked_at: "2026-05-05T21:02:37.710Z"
+    last_checked_at: "2026-05-06T22:44:19.102Z"
     readme:
-      fetched_at: "2026-05-05T21:02:37.710Z"
+      fetched_at: "2026-05-06T22:44:19.102Z"
       bytes: 28440
 insights:
-  summary: A high-performance Rust-based toolkit from Hugging Face for deploying and serving open-source text embedding, re-ranker, and sequence classification models via Docker or local install.
-  why_it_matters: It allows developers to self-host optimized embedding inference with Flash Attention and dynamic batching, avoiding the latency and cost of third-party API calls for RAG and search workflows.
-  mental_damage: Finally, a way to deploy your own embeddings server so you can spend three days tuning Docker flags instead of just paying OpenAI $0.0001 per token.
+  summary: A high-performance toolkit from Hugging Face for deploying and serving open-source text embeddings and sequence classification models via Docker or local install.
+  why_it_matters: It gives developers a production-ready serving layer with Flash Attention, dynamic batching, and Prometheus metrics to power RAG pipelines and semantic search without writing custom inference code.
+  mental_damage: Another essential piece of infrastructure ensuring you can spend four hours tuning embedding dimensions while your actual feature remains a TODO.
   tags:
     - embeddings
     - inference
+    - serving
     - huggingface
-    - rust
-    - self-hosted
+    - mlops
   confidence: high
 curation:
-  status: included
-  reason: This is a local model serving stack for running AI models on your own hardware, fitting the local-ai category perfectly as a developer infrastructure tool.
+  status: excluded
+  reason: This is a general ML model serving tool for embeddings, lacking a specific developer-tooling or coding-agent workflow angle required for the catalog.
   evidence:
-    - Repo description explicitly calls it a 'blazing fast inference solution for text embeddings models'.
-    - README details deployment via Docker, local install on Apple Silicon, and support for self-hosted GPU/ROCm inference.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', confirming its role as developer infrastructure.
+    - Repo description and README focus on 'text embeddings models' and 'sequence classification models', not developer coding workflows.
+    - Listed in Awesome-LLMOps under 'Large Model Serving', which is broad ML infrastructure rather than developer-facing AI tooling.
+    - No mentions of IDE integration, coding agents, prompt engineering, or developer productivity workflows in the provided context.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4767) exceeded threshold (150)
+  reason: Stars (4774) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:37.710Z"
+    updated_at: "2026-05-06T22:44:19.102Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:39.353Z"
+    updated_at: "2026-05-06T23:01:06.459Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

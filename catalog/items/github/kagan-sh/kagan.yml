@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kagan-sh__kagan__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-01-25T22:09:11Z"
-    pushed_at: "2026-05-05T20:37:03Z"
+    pushed_at: "2026-05-06T22:22:18Z"
     description: The Orchestration Layer for AI Coding Agents
     homepage: http://kagan.sh/
     topics:
@@ -50,50 +50,50 @@ metadata:
       - textual
       - tui
       - uv
-    last_checked_at: "2026-05-05T21:03:02.114Z"
+    last_checked_at: "2026-05-06T22:44:39.530Z"
     readme:
-      fetched_at: "2026-05-05T21:03:02.114Z"
+      fetched_at: "2026-05-06T22:44:39.530Z"
       bytes: 5020
 insights:
-  summary: A terminal-based Kanban board and orchestration layer that manages AI coding agents in isolated git worktrees and enforces a human review gate before merging code.
-  why_it_matters: It adds a structured workflow and safety rails for teams running autonomous coding agents, ensuring no AI-generated patch reaches main without explicit human approval.
-  mental_damage: We have successfully built a bureaucracy around the hallucination machine so that it can spawn branches in isolation while we wait to approve its work in a TUI.
+  summary: A terminal-based Kanban board that orchestrates AI coding agents in isolated git worktrees with a mandatory human review gate before merging.
+  why_it_matters: It adds a structured workflow and safety rails for teams delegating tasks to multiple coding agents by enforcing human approval and isolating agent work.
+  mental_damage: We have successfully built a project-management tool to manage the ghosts in the machine, because apparently watching one AI edit your code wasn't anxious enough—now you need a board for five of them.
   tags:
     - kanban
+    - agent-orchestration
     - tui
     - git-worktree
     - human-review
-    - mcp
   confidence: high
 curation:
   status: included
-  reason: Kagan is a user-facing control plane for coordinating and gating multiple AI coding agents rather than a primary coding assistant itself, which aligns with the agent-orchestration category.
+  reason: The product is a control-plane workbench that coordinates multiple coding agents (Claude Code, Codex, Gemini CLI, etc.) through a state-machine Kanban board rather than acting as a coding assistant itself.
   evidence:
-    - Repo description explicitly calls it 'The Orchestration Layer for AI Coding Agents'.
-    - README states it is a 'Kanban TUI for AI coding agents with a structural human review gate' and supports Claude Code, Codex, and others.
-    - Includes an MCP server so external agents can drive the board, reinforcing its role as orchestration infrastructure.
+    - "Repo description explicitly states: 'The Orchestration Layer for AI Coding Agents'."
+    - README describes a Kanban TUI that manages runs for Claude Code, Codex, Gemini CLI, and 11+ other agents in isolated git worktrees.
+    - Includes an MCP server to let external agents drive the board, plus a VS Code extension and web dashboard as companion surfaces.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:02.114Z"
+    updated_at: "2026-05-06T22:44:39.530Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:59.198Z"
+    updated_at: "2026-05-06T23:05:23.906Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

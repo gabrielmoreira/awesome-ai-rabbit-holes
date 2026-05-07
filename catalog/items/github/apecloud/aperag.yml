@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apecloud__aperag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1155
+    stars: 1157
     forks: 129
     license: Apache-2.0
     archived: false
@@ -38,50 +38,50 @@ metadata:
       - graphrag
       - knowledge-graph
       - mcp
-    last_checked_at: "2026-05-05T21:01:06.494Z"
+    last_checked_at: "2026-05-06T22:12:40.696Z"
     readme:
-      fetched_at: "2026-05-05T21:01:06.494Z"
+      fetched_at: "2026-05-06T22:12:40.696Z"
       bytes: 10528
 insights:
-  summary: ApeRAG is a production-ready RAG platform combining Graph RAG, vector search, and full-text search with AI agents, offering multimodal indexing and scalable Kubernetes deployment.
-  why_it_matters: It gives developers a self-hosted way to build knowledge graphs and context-engineered agent backends that integrate directly with MCP clients.
-  mental_damage: You can now deploy a Kubernetes cluster just to give your AI agent the existential dread of traversing a knowledge graph instead of a flat vector store.
+  summary: ApeRAG is a self-hosted RAG platform combining graph, vector, and full-text search with AI agents and MCP server support for knowledge-base applications.
+  why_it_matters: It gives developers a production-grade, Kubernetes-ready way to build knowledge graphs and retrieval systems that can be plugged directly into MCP-compatible assistants.
+  mental_damage: Yet another reason to spend a weekend wiring a graph database to your IDE instead of actually shipping code.
   tags:
     - rag
     - graphrag
     - mcp
     - knowledge-graph
-    - context-engineering
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: It is a developer-installable retrieval and context-shaping system for RAG and agents, fitting context-engineering rather than a coding agent or generic app builder.
+  reason: ApeRAG is primarily a knowledge-base platform that exposes itself as an MCP server, making MCP the core product identity rather than a side feature.
   evidence:
-    - Repo description explicitly mentions 'GraphRAG', 'context-engineering', and 'MCP support'.
-    - README positions it as a RAG platform for building knowledge graphs and context engineering for AI agents.
-    - Listed in awesome-mcp-servers under Knowledge & Memory, reinforcing its role as a retrieval/context backend.
+    - Repo description explicitly calls it out as having 'MCP support' alongside GraphRAG and agents.
+    - README documents an MCP server endpoint at /mcp/ with collection browsing, hybrid search, and natural language querying.
+    - Listed in awesome-mcp-servers under Knowledge & Memory, aligning with its MCP server identity.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1155) exceeded threshold (150)
+  reason: Stars (1157) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:06.494Z"
+    updated_at: "2026-05-06T22:12:40.696Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:37.850Z"
+    updated_at: "2026-05-06T22:21:47.663Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

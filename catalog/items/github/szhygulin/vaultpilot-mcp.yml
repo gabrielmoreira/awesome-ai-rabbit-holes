@@ -1,13 +1,13 @@
 id: github__szhygulin__vaultpilot-mcp
 kind: github-repo
-name: szhygulin/recon-crypto-mcp
+name: vaultpilot-mcp
 canonical_url: https://github.com/szhygulin/vaultpilot-mcp
 identity:
   github_repo: szhygulin/vaultpilot-mcp
 provenance:
   discoveries:
-    - id: discovery__github__szhygulin__recon-crypto-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__szhygulin__vaultpilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,65 +22,80 @@ provenance:
         extracted_url: https://github.com/szhygulin/recon-crypto-mcp
         surrounding_text: "- [szhygulin/recon-crypto-mcp](https://github.com/szhygulin/recon-crypto-mcp) [![recon-crypto-mcp MCP server](https://glama.ai/mcp/servers/szhygulin/recon-crypto-mcp/badges/score.svg)](https://glama.ai/mcp/servers/szhygulin/recon-crypto-mcp) 📇 🏠 - Self-custodial crypto portfolio for AI agents. Reads EVM wallet balances, ENS, token prices, and DeFi positions across Ethereum/Arbitrum/Polygon/Base (Aave V3, Compound V3, Morpho Blue, Uniswap V3 LP, Lido, EigenLayer), surfaces health-factor alerts and protocol risk scores, then prepares unsigned transactions (supply, borrow, repay, withdraw, stake, send, LiFi swap/bridge) signed on Ledger via WalletConnect — private keys never leave the hardware wallet."
         confidence: high
-    - id: discovery__github__szhygulin__vaultpilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💰 <a name="finance--fintech"></a>Finance & Fintech
-        anchor_text: szhygulin/vaultpilot-mcp
-        extracted_url: https://github.com/szhygulin/vaultpilot-mcp
-        surrounding_text: "- [szhygulin/vaultpilot-mcp](https://github.com/szhygulin/vaultpilot-mcp) [![vaultpilot-mcp MCP server](https://glama.ai/mcp/servers/szhygulin/vaultpilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/szhygulin/vaultpilot-mcp) 📇 🏠 🍎 🪟 🐧 - Safety first. Hardware-verified DeFi for AI agents — designed for when the AI can be compromised. The agent proposes, you approve on your Ledger. Read balances + DeFi positions (Aave V3, Compound V3, Morpho Blue, Uniswap V3 LP, Lido, EigenLayer, MarginFi, Kamino) and prepare transactions across Ethereum / Arbitrum / Polygon / Base / TRON / Solana / Bitcoin; private keys never leave the hardware wallet."
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 1
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-04-12T12:20:18Z"
+    pushed_at: "2026-05-05T20:37:15Z"
+    description: Safety first. Hardware-verified DeFi for AI agents — designed for when the AI can be compromised.
+    homepage: https://vaultpilot-mcp.ai
+    topics:
+      - aave
+      - ai-agent
+      - arbitrum
+      - claude
+      - claude-code
+      - compound
+      - crypto
+      - cursor
+      - defi
+      - ethereum
+      - ledger
+      - lifi
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - polygon
+      - solana
+      - uniswap
+      - walletconnect
+    last_checked_at: "2026-05-06T22:46:39.601Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:39.601Z"
+      bytes: 15834
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets AI agents manage cross-chain DeFi positions and execute transactions securely by routing all signing through a Ledger device.
+  why_it_matters: It allows developers to integrate self-custodial DeFi operations into Claude Code, Cursor, and other MCP clients without ever exposing private keys to the agent or host.
+  mental_damage: "We have finally achieved the epitome of AI progress: building specialized infrastructure so that the LLM can move your stablecoins around while a hardware wallet sits there praying the agent wasn't compromised five hops ago."
+  tags:
+    - mcp
+    - defi
+    - ledger
+    - security
+    - hardware-wallet
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is a specialized MCP server for DeFi interactions, explicitly designed to work with Claude, Cursor, and MCP-compatible clients.
+  evidence:
+    - Repo name is 'vaultpilot-mcp' and description labels it as 'Hardware-verified DeFi for AI agents'.
+    - README states it 'Works with Claude Desktop, Claude Code, Cursor, and any MCP-compatible client'.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:39.601Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:17.246Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

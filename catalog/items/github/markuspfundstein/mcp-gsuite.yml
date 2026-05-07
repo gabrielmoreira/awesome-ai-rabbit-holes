@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__markuspfundstein__mcp-gsuite__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 487
+    stars: 488
     forks: 98
     license: MIT
     archived: false
@@ -32,49 +32,50 @@ metadata:
     description: MCP Server to interact with Google Gsuite prodcuts
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:30.546Z"
+    last_checked_at: "2026-05-06T22:45:09.555Z"
     readme:
-      fetched_at: "2026-05-05T21:03:30.546Z"
+      fetched_at: "2026-05-06T22:45:09.555Z"
       bytes: 7753
 insights:
-  summary: An MCP server that connects AI assistants to Google Workspace, enabling programmatic access to Gmail and Calendar data via OAuth.
-  why_it_matters: It allows developers to hook Claude and other MCP clients directly into their workspace workflows, letting the assistant draft replies, summarize threads, and manage calendars without leaving the chat interface.
-  mental_damage: Now your AI can politely decline meetings on your behalf while you wonder if the OAuth scope includes the existential dread of your unread inbox.
+  summary: An MCP server that lets AI assistants like Claude Desktop read, search, and draft emails in Gmail and manage events across multiple Google Calendars via OAuth2.
+  why_it_matters: It bridges the gap between local coding agents and daily productivity surfaces, allowing developers to query their inbox or update their agenda without leaving the chat interface.
+  mental_damage: "We have finally solved the hardest problem in computer science: asking a large language model to politely draft a reply to an email you have been avoiding for three days."
   tags:
     - mcp
     - google-workspace
+    - gmail
+    - calendar
     - integration
-    - oauth
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation for Google Workspace, fitting squarely into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server providing Google Workspace integration, which fits perfectly as a Domain Server within the MCP category.
   evidence:
-    - Repo description explicitly states 'MCP Server to interact with Google Gsuite products'.
-    - README details integration with Claude Desktop and Smithery as the consumption surface.
-    - Listed in the 'awesome-mcp-list' under the Communication section.
+    - "Repo description states: 'MCP Server to interact with Google Gsuite products'."
+    - README details capabilities for Gmail (query, draft, reply) and Calendar (create, delete events) via MCP.
+    - Seen in the 'awesome-mcp-list' under the MCP servers section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (487) exceeded threshold (150)
+  reason: Stars (488) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:30.546Z"
+    updated_at: "2026-05-06T22:45:09.555Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:52.746Z"
+    updated_at: "2026-05-06T23:12:03.174Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

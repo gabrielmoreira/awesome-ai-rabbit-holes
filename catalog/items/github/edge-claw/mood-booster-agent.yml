@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__edge-claw__mood-booster-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:59.798Z"
+    last_checked_at: "2026-05-06T22:43:43.758Z"
     readme:
-      fetched_at: "2026-05-05T21:01:59.798Z"
+      fetched_at: "2026-05-06T22:43:43.758Z"
       bytes: 7454
 insights:
-  summary: A reference implementation of an ERC-8004 AI agent that exposes mood-boosting messages via an MCP server and integrates on-chain USDC tipping and reputation feedback.
-  why_it_matters: It demonstrates a full end-to-end loop for developers building token-incentivized, on-chain discoverable MCP services using the ERC-8004 standard.
-  mental_damage: We have successfully reached the point where your AI agent needs an on-chain reputation registry and a six-chain USDC tipping stack just to tell you a joke.
+  summary: A reference MCP server implementation that delivers uplifting messages via SSE and demonstrates the ERC-8004 agent discovery and USDC tipping loop.
+  why_it_matters: Developers exploring MCP infrastructure or ERC-8004 agent economies can use this as a working example of on-chain discovery, tooling, and micropayment integration.
+  mental_damage: We have successfully tokenized emotional validation, meaning your coding agent can now guilt-trip you into sending 0.001 USDC for a joke that ChatGPT gave away for free in 2023.
   tags:
     - mcp
     - erc-8004
-    - on-chain
-    - agent
+    - usdc
     - reference-implementation
   confidence: medium
 curation:
   status: included
-  reason: The project is a functional MCP server implementation designed to be consumed by MCP clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The project is primarily an MCP server exposing tools like cheer_me_up via SSE, with ERC-8004 discovery as a secondary protocol feature, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - README explicitly defines it as 'An ERC-8004 registered AI Agent that delivers uplifting messages via MCP protocol'.
-    - Provides integration examples for Claude Code and generic MCP clients using SSE transport.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - README explicitly describes it as 'An ERC-8004 registered AI Agent that delivers uplifting messages via MCP protocol'
+    - Provides MCP tools (cheer_me_up, confirm_tip, report_feedback) and SSE endpoint configuration for Claude Code and other MCP clients
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' as an MCP server example
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:59.798Z"
+    updated_at: "2026-05-06T22:43:43.758Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:33.767Z"
+    updated_at: "2026-05-06T22:53:52.594Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

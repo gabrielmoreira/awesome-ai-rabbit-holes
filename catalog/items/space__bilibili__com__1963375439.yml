@@ -1,0 +1,76 @@
+id: space__bilibili__com__1963375439
+kind: website
+name: "1963375439"
+canonical_url: https://space.bilibili.com/1963375439
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__space__bilibili__com__1963375439__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: B站：小黑黑讲AI
+        extracted_url: https://space.bilibili.com/1963375439
+        surrounding_text: 14. [B站：小黑黑讲AI](https://space.bilibili.com/1963375439/?spm_id_from=333.999.0.0)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Bilibili personal channel hosting AI tutorial videos, articles, and course promotion for the creator '小黑黑讲AI'.
+  why_it_matters: It aggregates educational content on LLMs, agents, and auxiliary programming for developers looking to upskill via video tutorials.
+  mental_damage: Yet another signal that the most valuable real estate in AI isn't the tooling itself, but the endless stream of people explaining how to use it.
+  tags:
+    - tutorials
+    - video-content
+    - llm-resources
+    - chinese-ai-content
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a personal video channel and educational media page, not a developer tool, framework, or infrastructure product.
+  evidence:
+    - The URL points to a Bilibili personal space (space.bilibili.com) containing videos and articles.
+    - Source-list context identifies it as a tutorial resource (教程 Tutorial) within a list of LLM resources.
+    - No code, CLI, SDK, or deployable product is described; the main value is content consumption.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:49.468Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

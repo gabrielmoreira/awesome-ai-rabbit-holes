@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stack-chan__stack-chan__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,72 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1413
+    forks: 167
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-06-06T14:31:19Z"
+    pushed_at: "2026-05-02T16:14:46Z"
+    description: A JavaScript-driven M5Stack-embedded super-kawaii robot.
+    homepage: ""
+    topics:
+      - chatgpt
+      - esp32
+      - fusion360
+      - hardware
+      - javascript
+      - kawaii
+      - kicad
+      - m5stack
+      - moddable
+      - robots
+      - schematics
+      - stackchan
+      - typescript
+    last_checked_at: "2026-05-06T22:46:32.403Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:32.403Z"
+      bytes: 2374
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A JavaScript-driven, M5Stack-embedded robot project that uses ChatGPT to enable a small physical device to display expressions and speak.
+  why_it_matters: It provides a concrete, open-source blueprint for embedding LLM capabilities into physical hardware using JavaScript and accessible microcontrollers.
+  mental_damage: We have successfully abstracted large language models to the point where they are now inhabiting cute, Wide-Eyed robots that judge our code from the desk.
+  tags:
+    - hardware
+    - embedded
+    - robotics
+    - chatgpt
+    - m5stack
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because the project is a physical hardware robot and embedded firmware rather than a developer-facing software tool, agent, or infrastructure component.
+  evidence:
+    - Repo description explicitly states it is a 'JavaScript-driven M5Stack-embedded super-kawaii robot.'
+    - README features include hardware controls like driving servos, showing faces on a screen, and STL case files, not code editing.
+    - While listed in awesome-mcp-servers (Embedded System), the primary identity is the physical robot, not an MCP server implementation.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1413) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:32.403Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:57.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

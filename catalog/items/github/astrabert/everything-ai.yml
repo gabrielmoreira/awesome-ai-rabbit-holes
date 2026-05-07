@@ -1,13 +1,13 @@
 id: github__astrabert__everything-ai
 kind: github-repo
-name: everything-rag
+name: everything-ai
 canonical_url: https://github.com/astrabert/everything-ai
 identity:
   github_repo: astrabert/everything-ai
 provenance:
   discoveries:
-    - id: discovery__github__astrabert__everything-rag__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__astrabert__everything-ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -48,32 +48,28 @@ metadata:
       - qdrant
       - stable-diffusion
       - text-summarization
-    last_checked_at: "2026-05-05T21:01:11.309Z"
+    last_checked_at: "2026-05-06T22:12:44.500Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.309Z"
+      fetched_at: "2026-05-06T22:12:44.500Z"
       bytes: 6585
 insights:
-  summary: A Dockerized, local-first AI assistant that exposes multiple generative AI tasks—including RAG-enabled chat, image generation, summarization, and audio processing—via a web interface and Hugging Face models.
-  why_it_matters: It offers developers a self-contained, local environment to experiment with dozens of open-source models and RAG pipelines without relying on external APIs.
-  mental_damage: Nothing says 'focused developer tooling' quite like packaging protein folding, Stable Diffusion, and PDF chat into a single Docker Compose stack and calling it a day.
+  summary: A now-archived, Docker-based local chatbot assistant that ran multiple generative AI tasks including text generation, RAG pipelines, image generation, and audio processing using local models.
+  why_it_matters: It offered developers a single self-hosted container stack to experiment with local LLMs, RAG, and multimodal models without relying on external APIs.
+  mental_damage: A valiant attempt to be the Swiss Army knife of local AI that was mothballed before it could finish enumerating its own feature list.
   tags:
+    - local-ai
     - chatbot
     - docker
-    - llama-cpp
-    - local-ai
-    - multimodal
     - rag
+    - multimodal
   confidence: high
 curation:
   status: excluded
-  reason: The repo is archived and primarily functions as a general-purpose local chatbot rather than a developer-facing tool for coding, infrastructure, or workflow automation.
+  reason: The repository is archived and primarily functioned as a general-purpose local chatbot interface rather than a tool focused on developer workflows or coding assistance.
   evidence:
-    - Repo is marked as archived, indicating it is no longer maintained.
-    - The README describes a general-purpose assistant for tasks like image generation, protein folding, and PDF chat, not developer tooling.
-    - No clear fit within the catalog's developer-focused categories like coding-agents, local-ai (as a dev tool), or frameworks.
-    - Repository is marked as archived, indicating it is no longer actively maintained.
-    - The README describes a 'local chatbot assistant' with tasks like image generation and protein folding, lacking a developer-tooling workflow angle.
-    - Listed in awesome-local-ai under 'Inference UI', confirming its place as a consumer-facing local UI rather than a coding utility.
+    - Repo is marked as archived with no pushes since June 2024.
+    - Description and README position it as a 'local chatbot assistant' for tasks like image generation and summarization, not coding.
+    - Listed in awesome-local-ai under 'Inference UI', confirming its identity as a general local AI UI rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -81,21 +77,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:18.453Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.309Z"
+    updated_at: "2026-05-06T22:12:44.500Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:35.839Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

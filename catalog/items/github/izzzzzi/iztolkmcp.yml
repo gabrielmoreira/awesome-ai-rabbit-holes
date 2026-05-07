@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__izzzzzi__iztolkmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for Tolk smart contract compiler — compile, check, and deploy TON blockchain smart contracts from any MCP-compatible AI assistant
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:48.599Z"
+    last_checked_at: "2026-05-06T22:44:28.466Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.599Z"
+      fetched_at: "2026-05-06T22:44:28.466Z"
       bytes: 11084
 insights:
-  summary: An MCP server that integrates the Tolk smart contract compiler into AI assistants, enabling writing, compiling, checking, and deploying TON blockchain contracts via tools like Claude Desktop and Cursor.
-  why_it_matters: It allows TON blockchain developers to stay inside their AI-assisted editor while compiling and deploying smart contracts, removing the context switch to the command line or external tooling.
-  mental_damage: We have successfully abstracted the blockchain so far away that you can now deploy a smart contract to the TON mainnet without ever seeing a terminal, which is either the future of productivity or a catastrophic compliance audit waiting to happen.
+  summary: An MCP server that integrates the Tolk smart contract compiler into AI assistants, enabling compilation, syntax checking, and deployment of TON blockchain contracts via chat.
+  why_it_matters: It lets developers write and ship TON smart contracts without leaving their MCP-compatible assistant, bundling compiler tooling, stdlib docs, and deployment links into the conversation.
+  mental_damage: Another MCP server so niche it could make you forget that 99% of the world is still trying to get npm install to work on a Monday morning.
   tags:
     - mcp
     - ton
     - smart-contracts
-    - blockchain
     - tolk
-  confidence: high
+    - blockchain
+  confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a Model Context Protocol server designed to give AI assistants direct access to the Tolk compiler toolchain.
+  reason: This is a domain-specific MCP server that exposes Tolk compiler tooling and resources to MCP-compatible assistants, making it a textbook fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'MCP server for Tolk smart contract compiler'.
-    - "README details specific MCP primitives: 4 Tools, 6 Resources, and 3 Prompts for compilation and deployment."
-    - Configured for standard MCP clients including Claude Desktop, Cursor, Windsurf, and VS Code Copilot.
+    - "Repo description explicitly states: 'MCP server for Tolk smart contract compiler'"
+    - README positions it as an MCP server with 4 tools, 6 resources, and 3 prompts for TON contract workflows
+    - Listed in awesome-mcp-servers under Server Implementations, reinforcing its MCP identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.599Z"
+    updated_at: "2026-05-06T22:44:28.467Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:04.382Z"
+    updated_at: "2026-05-06T23:03:01.675Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__minimaxir__simpleaichat
 kind: github-repo
-name: SimpleAIChat
+name: simpleaichat
 canonical_url: https://github.com/minimaxir/simpleaichat
 identity:
   github_repo: minimaxir/simpleaichat
 provenance:
   discoveries:
     - id: discovery__github__minimaxir__simpleaichat__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -34,50 +34,50 @@ metadata:
     topics:
       - ai
       - chatgpt
-    last_checked_at: "2026-05-05T21:03:42.666Z"
+    last_checked_at: "2026-05-06T22:45:20.476Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.666Z"
+      fetched_at: "2026-05-06T22:45:20.476Z"
       bytes: 17319
 insights:
-  summary: A Python package for interfacing with chat apps like ChatGPT and GPT-4, optimized for minimal code complexity, token usage, and latency.
-  why_it_matters: It provides developers with a lightweight, async-friendly SDK to rapidly build custom AI chat workflows and agents without importing heavy, opaque frameworks.
-  mental_damage: Yet another minimal Python wrapper promising to save you from boilerplate, right until you realize you've spent three hours tuning prompts to save five cents on tokens.
+  summary: A minimal Python package for interfacing with chat apps like ChatGPT and GPT-4, optimized for low-code complexity and token efficiency.
+  why_it_matters: It provides a lightweight, async-ready SDK for developers to build custom chat workflows and agents without the overhead of larger frameworks.
+  mental_damage: "Just what the ecosystem needed: another distinct abstraction layer promising 'minimal complexity' while we're all still debugging why our agents spent $5 in tokens to say hello."
   tags:
-    - chatgpt
-    - framework
-    - llm
     - python
     - sdk
+    - chatgpt
+    - llm
+    - framework
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first Python library/SDK for embedding LLM chat behavior into applications, which fits the AI Frameworks category rather than a user-facing agent or builder.
+  reason: The project is a code-first Python library used to script against LLM APIs, fitting the Frameworks & SDKs definition over an orchestration platform.
   evidence:
-    - Repo description identifies it as a 'Python package for easily interfacing with chat apps'.
-    - README demonstrates importable code (`from simpleaichat import AIChat`) and framework features like async support and agent workflows.
-    - Listed in awesome-langchain under the 'Other LLM Frameworks' section.
+    - Repo description states it is a 'Python package for easily interfacing with chat apps'.
+    - README emphasizes creating chats with 'only a few lines of code' and highlights async support and tool usage as library features.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a building block.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (3505) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:15.458Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.666Z"
+    updated_at: "2026-05-06T22:45:20.476Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:31.203Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

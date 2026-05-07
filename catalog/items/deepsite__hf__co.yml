@@ -1,12 +1,12 @@
 id: deepsite__hf__co
 kind: website
-name: Deepsite
+name: deepsite.hf.co
 canonical_url: https://deepsite.hf.co
 identity: {}
 provenance:
   discoveries:
     - id: discovery__deepsite__hf__co__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DeepSite is a browser-first AI web development tool that generates and deploys multi-page websites and web applications from prompts with free hosting.
-  why_it_matters: It offers developers a rapid path to prototype and ship full websites or internal tools without setting up a local stack or CI/CD pipeline.
-  mental_damage: We have officially reached the point where 'no code required' is the selling point for a tool proudly listed in a curated catalog of coding tools.
+  summary: DeepSite is a web development tool that uses AI to generate, deploy, and host multi-page websites from prompts, featuring free hosting and open-source models.
+  why_it_matters: It allows developers and non-developers to scaffold and ship websites instantly without configuring CI/CD or managing hosting infrastructure.
+  mental_damage: Yet another 'no code required' AI builder, ensuring you can ship a landing page in minutes but will eventually spend hours debugging why the AI thought a carousel was a valid substitute for a database.
   tags:
-    - ai-generated
-    - hosting
-    - prototyping
     - web-dev
-  confidence: high
+    - ai-builder
+    - site-generator
+    - hosting
+    - prompt-to-site
+  confidence: medium
 curation:
   status: included
-  reason: The product is a hosted, browser-first builder that turns prompts into deployed websites and apps, which aligns precisely with the app-builders category and not a coding agent.
+  reason: The product's core promise is turning prompts into deployed websites with integrated hosting, which aligns perfectly with the Prompt-to-Site Builders definition.
   evidence:
-    - Scraped site describes it as a browser tool to 'Build, design, and deploy stunning websites in minutes with AI-powered development.'
-    - Features include 'Auto Deploy' and 'Free Hosting', indicating a hosted SaaS builder rather than a repo/IDE assistant.
-    - Listed in awesome-ai-coding-tools under the 'UI Generators' section, confirming its app/site generation focus.
+    - "Scraped site title and description state: 'Build, design, and deploy stunning websites in minutes with AI-powered development.'"
+    - Feature list highlights 'Auto Deploy' and 'Free Hosting' as core value propositions, not repo editing.
+    - Included in the awesome-ai-coding-tools list under the 'UI Generators' section.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-Site Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:36.415Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:58.536Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

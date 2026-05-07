@@ -1,13 +1,13 @@
 id: github__autocoderoversg__auto-code-rover
 kind: github-repo
-name: AutoCodeRover
+name: auto-code-rover
 canonical_url: https://github.com/autocoderoversg/auto-code-rover
 identity:
   github_repo: autocoderoversg/auto-code-rover
 provenance:
   discoveries:
     - id: discovery__github__autocoderoversg__auto-code-rover__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -33,28 +33,27 @@ metadata:
     description: A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:12.266Z"
+    last_checked_at: "2026-05-06T22:12:45.615Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.266Z"
+      fetched_at: "2026-05-06T22:12:45.615Z"
       bytes: 17836
 insights:
-  summary: An autonomous coding agent that navigates project structure and uses LLM-powered context retrieval to resolve GitHub issues like bug fixes and feature additions.
-  why_it_matters: It demonstrates a structured, cost-efficient approach to automated program repair that developers can run against real repositories to handle routine issue triage.
-  mental_damage: Our new autonomous colleague confidently fixes 30% of bugs while we scramble to review the remaining 70% that it left in a semantically valid but logically disastrous state.
+  summary: AutoCodeRover is an autonomous software engineering tool that combines LLMs with program-structure-aware code search and statistical fault localization to automatically resolve GitHub issues and generate patches.
+  why_it_matters: It demonstrates a reproducible, economical pipeline for autonomous program repair that developers can run against real SWE-bench issues at roughly $0.70 per task.
+  mental_damage: Now that an autonomous rover can fix 46% of verified issues for pocket change, your PR reviews are officially the most expensive part of the deployment pipeline.
   tags:
-    - autonomous-agents
-    - cli
-    - github-issues
-    - program-repair
+    - autonomous-repair
     - swe-bench
+    - cli-agent
+    - patch-generation
   confidence: high
 curation:
   status: included
-  reason: The project is a terminal-based, autonomous coding agent designed to analyze and modify source code in repositories to fix issues, fitting the coding-agents category.
+  reason: It is a standalone, repo-aware coding agent that plans, searches, and patches code autonomously, fitting the primary coding assistant definition rather than an extension or framework.
   evidence:
-    - Repo description explicitly states it is an 'autonomous software engineer aiming for autonomous program improvement'.
-    - README confirms it works by resolving GitHub issues via context retrieval and patch generation on local repositories.
-    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents' section.
+    - Repo description explicitly calls it 'a project structure aware autonomous software engineer' with SWE-bench verified results.
+    - "README details a two-stage workflow: context retrieval via AST-aware search and patch generation on GitHub issues."
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source' and pushed as recently as 2025-04-24.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -62,21 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3071) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:29.487Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.266Z"
+    updated_at: "2026-05-06T22:12:45.615Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:47.911Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

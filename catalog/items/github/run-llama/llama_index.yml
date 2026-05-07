@@ -1,13 +1,13 @@
 id: github__run-llama__llama_index
 kind: github-repo
-name: LlamaIndex
+name: llama_index
 canonical_url: https://github.com/run-llama/llama_index
 identity:
   github_repo: run-llama/llama_index
 provenance:
   discoveries:
-    - id: discovery__github__jerryjliu__llama_index__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__run-llama__llama_index__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/jerryjliu/llama_index
         surrounding_text: "| [LlamaIndex](https://github.com/jerryjliu/llama_index) | Data-centric agent framework for RAG | ![Stars](https://img.shields.io/github/stars/jerryjliu/llama_index) |"
         confidence: high
-    - id: discovery__github__jerryjliu__llama_index__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__run-llama__llama_index__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,8 +37,8 @@ provenance:
         extracted_url: https://github.com/jerryjliu/llama_index
         surrounding_text: "| [LlamaIndex](https://github.com/jerryjliu/llama_index)             | Provides a central interface to connect your LLMs with external data.                                                                                                                                                                                                                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/jerryjliu/llama_index.svg?style=flat-square)          |"
         confidence: high
-    - id: discovery__github__jerryjliu__llama_index__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__run-llama__llama_index__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "- [LlamaIndex](https://github.com/jerryjliu/llama_index): provides a central interface to connect your LLM's with external data. ![GitHub Repo stars](https://img.shields.io/github/stars/jerryjliu/llama_index?style=social)"
         confidence: high
     - id: discovery__github__run-llama__llama_index__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -68,7 +68,7 @@ provenance:
         surrounding_text: "- [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM"
         confidence: high
     - id: discovery__github__run-llama__llama_index__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -82,44 +82,14 @@ provenance:
         extracted_url: https://github.com/run-llama/llama_index
         surrounding_text: "6. [LlamaIndex](https://github.com/run-llama/llama_index): A data framework for your LLM applications."
         confidence: high
-    - id: discovery__www__llamaindex__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: janhq/awesome-local-ai
-        url: https://github.com/janhq/awesome-local-ai
-        repository: janhq/awesome-local-ai
-      extraction:
-        mode: parsed
-        section_path:
-          - Developer tools
-        anchor_text: LlamaIndex
-        extracted_url: https://www.llamaindex.ai
-        surrounding_text: "- [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external data."
-        confidence: high
-    - id: discovery__www__llamaindex__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - AI Frameworks and SDKs
-        anchor_text: LlamaIndex
-        extracted_url: https://www.llamaindex.ai
-        surrounding_text: "- **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources with indexing and retrieval."
-        confidence: high
 metadata:
   github:
-    stars: 49142
-    forks: 7360
+    stars: 49173
+    forks: 7365
     license: MIT
     archived: false
     created_at: "2022-11-02T04:24:54Z"
-    pushed_at: "2026-05-04T22:31:14Z"
+    pushed_at: "2026-05-06T21:27:54Z"
     description: LlamaIndex is the leading document agent and OCR platform
     homepage: https://developers.llamaindex.ai
     topics:
@@ -133,60 +103,50 @@ metadata:
       - multi-agents
       - rag
       - vector-database
-    last_checked_at: "2026-05-05T21:02:54.164Z"
+    last_checked_at: "2026-05-06T22:46:13.262Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.164Z"
+      fetched_at: "2026-05-06T22:46:13.261Z"
       bytes: 13365
 insights:
-  summary: LlamaIndex is an open-source Python framework for building agentic applications with LLMs, providing tools for data ingestion, indexing, retrieval-augmented generation (RAG), and agent orchestration.
-  why_it_matters: It gives developers a modular, integration-rich SDK to connect LLMs with external data sources and build complex agent workflows without writing the plumbing from scratch.
-  mental_damage: Now you can spend three days evaluating whether your RAG pipeline needs a graph index or just a well-placed vector store, while your manager asks why the 'AI feature' isn't in production yet.
+  summary: LlamaIndex is an open-source Python framework for building agentic applications with data connectors, retrieval pipelines, and integrations for LLMs, embeddings, and vector stores.
+  why_it_matters: It gives developers reusable building blocks for RAG, document parsing, and agent workflows without forcing a specific control plane or SaaS runtime.
+  mental_damage: Another week, another foundational framework that promises to be the only abstraction layer you will ever need, right up until the next one replaces it.
   tags:
-    - agentic
-    - agents
-    - document-processing
-    - framework
-    - llm
-    - llm-ready
-    - ocr
-    - python
     - rag
+    - agent-framework
+    - llm
+    - python
+    - retrieval
   confidence: high
 curation:
   status: included
-  reason: LlamaIndex is a foundational, code-first SDK and framework that developers import to build AI applications, fitting the ai-frameworks category rather than an end-user agent orchestration platform.
+  reason: The project is primarily a code-first library and SDK used by developers to build agentic and RAG applications, fitting the Frameworks & SDKs identity rather than an operated platform or a coding assistant.
   evidence:
-    - Repo description and README define it as an open-source framework to build agentic applications with over 300 integration packages.
-    - Source lists (awesome-langchain, Awesome-LLMOps) categorize it under 'Other LLM Frameworks' and 'LLMOps', reinforcing its身份 as a developer building block.
-    - High traction with 49,142 stars and active development (pushed at 2026-05-04), confirming it is a core ecosystem tool.
-    - Listed in awesome-ai-coding-tools under 'AI Frameworks and SDKs'.
-    - Scraped site describes 'OSS repos trusted by millions of developers' and provides 'npm install @llamaindex/liteparse'.
-    - Product pitch focuses on parsing, extracting, and indexing as building blocks for 'end-to-end document agents'.
-    - "Site describes LlamaParse as an API/SDK stack: 'Parse, Extract, Index' with npm package @llamaindex/liteparse and OSS repos."
-    - Included in awesome-ai-coding-tools under 'AI Frameworks and SDKs' and awesome-local-ai under 'Developer tools'.
-    - Primary use case is enabling LLMs and agents to read complex documents via structured extraction and indexing for RAG and workflows.
+    - Repo description states it is a document agent and OCR platform delivered as an open-source framework.
+    - README positions LlamaIndex as an open-source framework to build agentic applications with core and integration packages.
+    - Multiple awesome lists include it under frameworks, LLMOps, and agent orchestration lists as a developer library.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (49142) exceeded threshold (150)
+  reason: Stars (49173) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:12.694Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.574Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.164Z"
+    updated_at: "2026-05-06T22:46:13.262Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:25.335Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

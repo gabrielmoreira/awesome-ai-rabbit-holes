@@ -1,12 +1,12 @@
 id: glama__ai__blog__2024__11__25__model__context__protocol__quickstart
 kind: website
-name: Model Context Protocol (MCP) Quickstart
+name: 2024-11-25-model-context-protocol-quickstart
 canonical_url: https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart
 identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__blog__2024__11__25__model__context__protocol__quickstart__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -34,22 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post quickstart guide explaining Model Context Protocol (MCP), Anthropic's open standard for connecting AI models to external data sources and tools via a unified interface.
-  why_it_matters: It helps developers understand how to implement or integrate with MCP to extend AI assistants like Claude Desktop and editors like Zed with custom context and tooling.
-  mental_damage: Yet another 'universal standard' arrives to solve integration fatigue, ensuring we can now spend our afternoons configuring JSON-RPC transports instead of copy-pasting code.
+  summary: A blog post introducing the Model Context Protocol (MCP), explaining its architecture of hosts, clients, and servers, and providing a quickstart guide for building and testing MCP integrations.
+  why_it_matters: It provides developers with a foundational understanding of the emerging MCP standard that enables AI models to interact with external data sources through a unified interface.
+  mental_damage: Another day, another universal protocol promising to solve tool integration once and for all, just waiting for the 'HTTP transport support' that will supposedly trigger widespread adoption.
   tags:
-    - anthropic
     - mcp
     - protocol
     - tutorial
+    - anthropic
+    - context
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog post and tutorial, not a standalone tool, server, or software product; our catalog focuses on software and infrastructure, not editorial content.
+  reason: This is a documentation article and auxiliary resource page explaining MCP, not a standalone product, server, or developer tool, so it is excluded under the rule that auxiliary resources should not be forced into a product category.
   evidence:
-    - The URL points to a Glama blog post titled 'Model Context Protocol (MCP) Quickstart', not a software repository.
-    - The content is educational documentation explaining how to use MCP, rather than a developer tool to be installed or integrated.
-    - It appears in awesome-mcp-servers under a 'Tutorials' section, confirming its nature as a learning resource rather than a server or toolkit.
+    - URL is a blog post at glama.ai/blog/2024-11-25-model-context-protocol-quickstart, not a tool or repo.
+    - "Content is educational: 'Introducing Model Context Protocol (MCP) Quickstart' with architecture explanations and code snippets."
+    - Source list places it in 'awesome-mcp-servers' under the 'Tutorials' section, confirming its identity as a learning resource.
 placement:
   primary_category: null
   section: null
@@ -57,17 +58,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:57.489Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -76,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:24.024Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

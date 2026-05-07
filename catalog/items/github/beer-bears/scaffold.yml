@@ -1,13 +1,13 @@
 id: github__beer-bears__scaffold
 kind: github-repo
-name: Scaffold
+name: scaffold
 canonical_url: https://github.com/beer-bears/scaffold
 identity:
   github_repo: beer-bears/scaffold
 provenance:
   discoveries:
     - id: discovery__github__beer-bears__scaffold__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,50 +39,50 @@ metadata:
       - mcp
       - promting
       - rag
-    last_checked_at: "2026-05-05T21:01:18.523Z"
+    last_checked_at: "2026-05-06T22:12:50.850Z"
     readme:
-      fetched_at: "2026-05-05T21:01:18.523Z"
+      fetched_at: "2026-05-06T22:12:50.850Z"
       bytes: 11078
 insights:
-  summary: A structural RAG system that builds a knowledge graph from a codebase to provide precise context injection for LLMs and AI agents via MCP.
-  why_it_matters: It attempts to solve AI context blindness by capturing structural code relationships in a graph database, enabling more accurate code construction and maintenance workflows.
-  mental_damage: "Just what every developer needs: another layer of infrastructure to deploy so their AI agent can finally understand why that ten-year-old module is the way it is."
+  summary: A structural RAG system that analyzes large codebases to build a living knowledge graph in Neo4j and ChromaDB, exposing this context via an MCP server for AI agents.
+  why_it_matters: It solves AI context blindness by automating the extraction of architectural relationships, allowing agents to navigate complex codebases without manual prompt stuffing.
+  mental_damage: We have successfully built a graph database whose only job is to remind the AI that the codebase it is looking at is, in fact, the same codebase it keeps forgetting.
   tags:
-    - codebase-analysis
-    - context-engineering
-    - knowledge-graph
-    - mcp
     - rag
-  confidence: medium
+    - mcp
+    - knowledge-graph
+    - context-engineering
+    - codebase-analysis
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server (hosted on mcp.so and listed in awesome-mcp-servers) that provides codebase context via a graph database.
+  reason: The product identity is a specialized MCP server that provides codebase context to LLMs via a graph RAG architecture.
   evidence:
-    - Repo description identifies it as a 'Structural RAG system' and topics include 'mcp'.
-    - README details an MCP server setup using Docker and Neo4j to feed context to agents.
-    - Homepage is mcp.so/server/scaffold and it is listed in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'Structural RAG system for large codebases' and topics include 'mcp'.
+    - Homepage is listed as 'mcp.so/server/scaffold/Beer-Bears', confirming its primary identity as an MCP server.
+    - README details a Docker setup for 'scaffold-mcp' that ingests code into Neo4j and ChromaDB to inject context into agents.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:28.372Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:18.523Z"
+    updated_at: "2026-05-06T22:12:50.850Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:51.740Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

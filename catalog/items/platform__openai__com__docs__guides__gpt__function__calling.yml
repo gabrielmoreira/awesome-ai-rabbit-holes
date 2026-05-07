@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__platform__openai__com__docs__guides__gpt__function__calling__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,22 +35,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI’s function calling documentation explains how to connect GPT models to external tools by describing functions the model can request to invoke.
-  why_it_matters: It defines the standard pattern developers use to let models trigger real API calls, database queries, and actions instead of just generating text.
-  mental_damage: We have built an entire industry around teaching a probabilistic text generator how to pretend it knows how to use a calculator.
+  summary: OpenAI's official documentation guide for function calling, which explains how to connect GPT models to external tools via JSON schema definitions.
+  why_it_matters: It is the foundational reference for developers implementing structured tool use and agentic workflows using the OpenAI API.
+  mental_damage: We have built an entire multi-billion dollar agent ecosystem on top of a JSON schema feature buried in a docs page that everyone links to but no one actually finishes reading.
   tags:
     - openai
     - function-calling
-    - llm-integration
+    - docs
+    - tool-use
     - api
   confidence: high
 curation:
   status: excluded
-  reason: This is vendor documentation for a hosted API feature, not a standalone developer tool, agent, framework, or product.
+  reason: This is a documentation page for an API feature, not a standalone developer tool, agent, framework, or product.
   evidence:
-    - URL points to platform.openai.com/docs, which is documentation rather than a tool or repo.
-    - No repo description, stars, or code artifacts are present to indicate a shippable developer tool.
-    - Listed in awesome-ai-agents only as a capability description, not as an agent product itself.
+    - The URL points to platform.openai.com/docs/guides, indicating this is a documentation guide rather than a tool or repo.
+    - Seen in awesome-ai-agents lists, but source-list context is evidence, not destiny for non-product entries.
+    - No repo description, stars, or code artifacts provided; it is an auxiliary resource page.
 placement:
   primary_category: null
   section: null
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,9 +70,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:47:01.154Z"
+    updated_at: "2026-05-06T22:28:21.413Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

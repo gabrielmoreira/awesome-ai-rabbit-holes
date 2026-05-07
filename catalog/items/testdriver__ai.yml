@@ -1,12 +1,12 @@
 id: testdriver__ai
 kind: website
-name: Test Driver
+name: testdriver.ai
 canonical_url: https://testdriver.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__testdriver__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered end-to-end testing platform that uses computer vision and natural language to automate UI tests across web, desktop, and VS Code environments.
-  why_it_matters: It allows developers to generate and maintain durable test suites via MCP without relying on brittle selectors, integrating directly into CI/CD pipelines with video logs and JUnit reports.
-  mental_damage: Just when you thought you were safe from maintaining a brittle Selenium grid, the AI now needs 'computer vision' to click the login button, and you're back to debugging why the robot saw a ghost element.
+  summary: TestDriver is an AI-powered end-to-end testing platform that uses computer vision and natural language (via MCP) to generate and run UI tests across web, desktop, and VS Code extensions.
+  why_it_matters: It replaces brittle selector-based testing with visual AI that adapts to UI changes automatically, allowing developers to describe tests in plain English and run them against any interface.
+  mental_damage: Finally, a tool that lets you fire your QA team and replace them with an AI that clicks buttons slightly faster than a caffeinated intern, while you still have to watch the replay video to figure out why it failed.
   tags:
-    - ci-cd
-    - computer-vision
     - e2e-testing
+    - computer-vision
     - mcp
     - qa-automation
+    - ui-testing
   confidence: high
 curation:
   status: included
-  reason: TestDriver acts as an autonomous agent that writes, adapts, and runs tests against a developer's application within their workflow (VS Code, CLI, PRs), fitting the coding agent definition for test automation.
+  reason: The product is a developer-facing agent that plans, generates, and executes test code against a live UI to validate software, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
   evidence:
-    - Scraped site states it 'generates tests with MCP' and 'Test every pull request' with results posted to GitHub.
-    - Listed in awesome-ai-agents under the section 'Test Driver' for AI autonomous agents.
-    - Focuses on interacting with software visually to replace manual testing tasks historically done by developers/QA.
+    - "Scraped site states: 'Automate your tests with natural language using computer vision' and 'generates tests with MCP'."
+    - The workflow explicitly includes 'Test every pull request' and 'Find bugs and reveal trends', targeting the developer QA loop.
+    - Listed in awesome-ai-agents under the section 'Test Driver' as an AI autonomous agent for testing.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:40.370Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:30.115Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

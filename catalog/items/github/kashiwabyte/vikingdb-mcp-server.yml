@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kashiwabyte__vikingdb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [KashiwaByte/vikingdb-mcp-server](https://github.com/KashiwaByte/vikingdb-mcp-server) 🐍 ☁️ - VikingDB integration with collection and index introduction, vector store and search capabilities."
         confidence: high
     - id: discovery__github__kashiwabyte__vikingdb-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: a mcp server for vikingdb store and search
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:02.689Z"
+    last_checked_at: "2026-05-06T22:44:40.610Z"
     readme:
-      fetched_at: "2026-05-05T21:03:02.689Z"
+      fetched_at: "2026-05-06T22:44:40.610Z"
       bytes: 4266
 insights:
-  summary: An MCP server that connects AI models and tools to ByteDance's VikingDB high-performance vector database for storing and searching information.
-  why_it_matters: It allows developers to plug ByteDance's managed vector store into MCP-compatible clients like Claude Desktop for retrieval-augmented workflows.
-  mental_damage: Another niche MCP server enters the ecosystem, raising the odds that your agent spends more time configuring database bridges than writing the code you actually asked for.
+  summary: An MCP server that exposes ByteDance's VikingDB vector database for upserting and searching information within MCP-compatible coding assistants like Claude Desktop.
+  why_it_matters: It lets developers connect LLM workflows directly to a high-performance vector store without writing custom integration glue code.
+  mental_damage: Because what the modern developer truly needs is another three-letter vector database adapter in a protocol ecosystem that now requires its own package manager.
   tags:
     - mcp
     - vector-database
-    - bytedance
     - vikingdb
-  confidence: high
+    - bytedance
+    - integration
+  confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server for a specific vector database, which clearly fits the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server for a specific vector database, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description states it is 'a mcp server for vikingdb store and search'.
-    - README confirms it implements MCP tools (vikingdb-upsert-information, vikingdb-search-information) for VikingDB, a ByteDance vector database.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under the Databases section.
+    - Repo description explicitly states 'a mcp server for vikingdb store and search'.
+    - README lists tools like 'vikingdb-upsert-information' and 'vikingdb-search-information' for MCP hosts.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:02.689Z"
+    updated_at: "2026-05-06T22:44:40.610Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:30:07.860Z"
+    updated_at: "2026-05-06T23:05:39.563Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

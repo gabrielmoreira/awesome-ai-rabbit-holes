@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sim-xia__skill-cortex-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,49 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 22
+    forks: 7
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-01-06T06:15:19Z"
+    pushed_at: "2026-02-08T06:03:15Z"
+    description: A third-party MCP server that enable all IDEs to access Claude Code Skills capabilities
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:25.353Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:25.353Z"
+      bytes: 22242
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A third-party MCP server that scans, indexes, and serves Claude Code-style SKILL.md files to MCP-compatible IDEs with token-friendly context compression.
+  why_it_matters: It lets any MCP-aware editor discover, search, and import reusable coding skills without requiring Claude Code itself, turning SKILL.md packs into portable context for the wider IDE ecosystem.
+  mental_damage: We have now built infrastructure to index the metadata of the skills that teach assistants how to pretend they remember what you asked five minutes ago.
+  tags:
+    - mcp
+    - skills
+    - context
+    - ide
+    - python
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product’s identity is an MCP server that exposes skill discovery, indexing, search, and context compression as an MCP-compatible service for IDEs.
+  evidence:
+    - "Repo description explicitly states: 'A third-party MCP server that enable all IDEs to access Claude Code Skills capabilities'."
+    - README lists MCP as a key technology and details MCP server implementation, skill indexing, search, and section-based context compression.
+    - "Active development: created 2026-01-06, pushed 2026-02-08, not archived, and included in awesome-mcp-servers under MCP server implementations."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T20:15:09.268Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for sim-xia/skill-cortex-server
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:25.353Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:43.376Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

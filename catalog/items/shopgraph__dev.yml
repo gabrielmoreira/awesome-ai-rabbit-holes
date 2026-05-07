@@ -1,0 +1,78 @@
+id: shopgraph__dev
+kind: website
+name: shopgraph.dev
+canonical_url: https://shopgraph.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__shopgraph__dev__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: shopgraph.dev
+        extracted_url: https://shopgraph.dev
+        surrounding_text: "- [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph) 📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay per call via Stripe. [shopgraph.dev](https://shopgraph.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: ShopGraph is an API that extracts product data from URLs, attaching per-field confidence scores and provenance so developers and agents can decide what data to trust.
+  why_it_matters: It gives commerce automation pipelines structured, normalized product data with visible extraction provenance, removing the guesswork from scraping at scale.
+  mental_damage: We have finally built an API that admits when it is guessing, which is more honesty than most of our own standups.
+  tags:
+    - data-extraction
+    - e-commerce
+    - confidence-scoring
+    - api
+    - agent-ready
+  confidence: medium
+curation:
+  status: included
+  reason: ShopGraph is a developer-facing API and data extraction service with SDK-style utility, fitting cleanly as a code-first building block for commerce automation.
+  evidence:
+    - Primary page describes an extraction API with per-field confidence scores and UCP JSON output.
+    - Listed in awesome-mcp-servers under E-Commerce, but its core identity is a standalone extraction service, not MCP infrastructure.
+    - Designed for automation pipelines and agents to consume structured data with threshold enforcement.
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:33.591Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

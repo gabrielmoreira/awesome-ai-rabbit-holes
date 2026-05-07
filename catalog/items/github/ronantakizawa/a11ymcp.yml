@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ronantakizawa__a11ymcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 85
+    forks: 15
+    license: MIT
+    archived: false
+    created_at: "2025-04-25T17:31:57Z"
+    pushed_at: "2026-03-10T11:49:46Z"
+    description: "MCP Server for Web Accessibility Testing (6k+ Downloads, #20 on ProductHunt)"
+    homepage: https://mseep.ai/app/ronantakizawa-a11ymcp
+    topics:
+      - a11y
+      - a11y-testing
+      - accessibility-testing
+      - mcp
+    last_checked_at: "2026-05-06T22:46:11.992Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.992Z"
+      bytes: 8805
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects LLMs to web accessibility testing APIs via axe-core and Puppeteer to analyze URLs and HTML snippets for WCAG compliance.
+  why_it_matters: It lets coding agents automatically detect and fix accessibility regressions directly within the editor or CLI workflow instead of treating a11y as a manual gate.
+  mental_damage: Your AI agent can now lecture you about missing ARIA labels while still struggling to center a div.
+  tags:
+    - mcp
+    - accessibility
+    - a11y
+    - testing
+    - wcag
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose primary identity is exposing axe-core accessibility testing APIs to MCP-compatible clients.
+  evidence:
+    - Repo description explicitly states 'MCP Server for Web Accessibility Testing'
+    - README describes it as 'an MCP server that gives LLMs access to web accessibility testing APIs' using axe-core and Puppeteer
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.992Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:06.667Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

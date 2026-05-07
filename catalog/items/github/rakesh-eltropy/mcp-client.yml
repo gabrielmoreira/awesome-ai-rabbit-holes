@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rakesh-eltropy__mcp-client__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,49 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 51
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2024-12-04T15:32:29Z"
+    pushed_at: "2025-03-11T11:18:15Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:05.958Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:05.958Z"
+      bytes: 3099
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A simple REST API and CLI client for interacting with MCP-compatible servers, integrated with LangChain to route LLM prompts across multiple tools.
+  why_it_matters: It gives developers a lightweight programmatic surface to wire MCP servers into LangChain workflows without adopting a heavier agent platform.
+  mental_damage: Because nothing says 'streamlined developer experience' like spinning up a custom REST API just to ask a local SQLite database what the capital of India is.
+  tags:
+    - mcp
+    - cli
+    - rest-api
+    - langchain
+    - client
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP client with REST and CLI surfaces, making it a clear fit for MCP infrastructure tooling rather than a generic coding agent or framework.
+  evidence:
+    - README states it is 'A simple REST API and CLI client to interact with Model Context Protocol (MCP) servers.'
+    - Supports any MCP-compatible servers and is listed in awesome-mcp-servers under Clients.
+    - Uses LangChain to execute LLM prompts across multiple MCP servers simultaneously.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Clients / Inspectors / Dev Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:18.155Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for rakesh-eltropy/mcp-client
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:05.958Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:37.802Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

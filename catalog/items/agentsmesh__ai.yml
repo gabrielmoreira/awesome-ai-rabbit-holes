@@ -1,0 +1,75 @@
+id: agentsmesh__ai
+kind: website
+name: agentsmesh.ai
+canonical_url: https://agentsmesh.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentsmesh__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: AgentsMesh
+        extracted_url: https://agentsmesh.ai
+        surrounding_text: "- **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server. Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A workforce platform that lets teams assign tasks to autonomous AI agent squads that collaborate to complete development work.
+  why_it_matters: Developers can delegate parallel streams of coding tasks to coordinated agents and track progress from a single control surface.
+  mental_damage: "Now you can manage an invisible team of fifty AI agents the same way you managed your last sprint: lots of tracking, very little clarity on who actually wrote the code."
+  tags:
+    - multi-agent
+    - workforce
+    - task-management
+  confidence: high
+curation:
+  status: included
+  reason: The product is explicitly a workforce platform for coordinating multiple autonomous AI agents to collaborate on tasks, matching the control plane definition for agent orchestration.
+  evidence:
+    - Site title is 'AgentsMesh - The AI Agent Workforce Platform'
+    - "Pitch: 'Give every team member an AI agent squad — assign tasks, track progress, and let them collaborate autonomously'"
+    - Listed in awesome-ai-coding-tools under 'Coding Agents', but the core identity is multi-agent coordination, not a single coding assistant
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:25.225Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

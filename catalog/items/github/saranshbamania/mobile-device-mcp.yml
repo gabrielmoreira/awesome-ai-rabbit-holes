@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__saranshbamania__mobile-device-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-15T16:50:59Z"
+    pushed_at: "2026-03-23T17:11:16Z"
+    description: MCP server for AI-powered mobile device control — 26 tools for screenshots, UI inspection, touch interaction, and AI visual analysis. Supports Anthropic Claude & Google Gemini.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:16.861Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:16.861Z"
+      bytes: 15654
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that gives AI coding assistants like Claude Code and Cursor the ability to see and interact with mobile devices via 49 tools for screenshots, UI inspection, touch input, and visual analysis.
+  why_it_matters: It eliminates the manual screenshot-and-paste workflow for mobile developers by letting coding agents directly observe and automate physical devices or emulators.
+  mental_damage: We have successfully built the infrastructure to let a language model tap 'Login' on an emulator, ensuring that no part of the mobile development lifecycle remains safe from automated hallucination.
+  tags:
+    - mcp
+    - mobile
+    - testing
+    - device-automation
+    - cursor
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server that provides mobile device interaction capabilities to other assistants, fitting the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for AI-powered mobile device control'.
+    - README pitches it as a server that gives Claude Code, Cursor, and Windsurf access to mobile devices via the MCP protocol.
+    - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:16.861Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:08.887Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

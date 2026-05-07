@@ -1,13 +1,13 @@
 id: github__ai-christianson__ra.aid
 kind: github-repo
-name: RA.Aid
+name: ra.aid
 canonical_url: https://github.com/ai-christianson/ra.aid
 identity:
   github_repo: ai-christianson/ra.aid
 provenance:
   discoveries:
     - id: discovery__github__ai-christianson__ra.aid__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2220
+    stars: 2223
     forks: 210
     license: Apache-2.0
     archived: false
@@ -36,49 +36,50 @@ metadata:
       - agents
       - ai
       - software-engineering
-    last_checked_at: "2026-05-05T21:00:54.604Z"
+    last_checked_at: "2026-05-06T22:12:29.736Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.604Z"
+      fetched_at: "2026-05-06T22:12:29.736Z"
       bytes: 26955
 insights:
-  summary: A terminal-native coding agent built on LangGraph that autonomously researches, plans, and implements multi-step software development tasks within a repository.
-  why_it_matters: It attempts to close the loop on complex coding work by chaining research, planning, and implementation steps directly in the CLI rather than requiring manual iteration on single edits.
-  mental_damage: Another day, another autonomous agent promising to rewrite your codebase while you sip coffee, provided you're comfortable with the 'cowboy mode' disclaimer and a very understanding git diff.
+  summary: RA.Aid is a terminal-native, autonomous coding agent built on LangGraph that plans, researches, and implements multi-step software development tasks via a CLI.
+  why_it_matters: It offers a three-stage 'research, plan, implement' loop that attempts to break down and execute complex refactoring or feature work with minimal human guidance.
+  mental_damage: We have now reached the point where the agent demonstrates its value by adding features to itself, effectively rendering your future code reviews a conversation between two bots.
   tags:
-    - autonomous
+    - autonomous-agents
     - cli
     - langgraph
-    - python
+    - multi-step-planning
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone CLI coding agent designed to plan, research, and implement code changes across a repository, fitting the Terminal & CLI Agents section of the coding-agents category.
+  reason: The primary product identity is a standalone CLI coding assistant that developers delegate repo work to, fitting the 'Terminal & CLI Agents' section of the coding-agents category.
   evidence:
-    - Repo description explicitly states 'Develop software autonomously.'
-    - README describes a three-stage architecture (Research, Planning, Implementation) executing multi-step tasks via the CLI.
-    - Listed in the 'awesome-cli-coding-agents' directory under 'Terminal-native coding agents > Open Source'.
+    - Repo description states 'Develop software autonomously', aligning with the coding agent identity.
+    - README describes a 'Three-Stage Architecture' (Research, Planning, Implementation) executed by a standalone CLI agent.
+    - Included in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents > Open Source'.
+    - Active development visible with a pushed_at date of 2026-01-30.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2220) exceeded threshold (150)
+  reason: Stars (2223) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:44.524Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.604Z"
+    updated_at: "2026-05-06T22:12:29.736Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:36.517Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

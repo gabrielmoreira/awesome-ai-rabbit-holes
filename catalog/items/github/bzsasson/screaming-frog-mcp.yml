@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bzsasson__screaming-frog-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 36
+    stars: 37
     forks: 8
     license: MIT
     archived: false
@@ -39,50 +39,50 @@ metadata:
       - screaming-frog-seo-spider
       - seo
       - seo-tools
-    last_checked_at: "2026-05-05T21:01:28.014Z"
+    last_checked_at: "2026-05-06T22:43:15.524Z"
     readme:
-      fetched_at: "2026-05-05T21:01:28.014Z"
+      fetched_at: "2026-05-06T22:43:15.524Z"
       bytes: 7233
 insights:
-  summary: An MCP server that gives AI assistants programmatic access to Screaming Frog SEO Spider for crawling websites, exporting data, and managing crawl storage.
-  why_it_matters: Developers can analyze SEO crawl data, export reports, and query site health directly through Claude or other MCP clients without manually opening the Screaming Frog GUI.
-  mental_damage: We have successfully automated the one task that was previously safe from AI interference because it required closing a desktop GUI first.
+  summary: An MCP server that gives Claude and other MCP-compatible clients programmatic access to Screaming Frog SEO Spider for crawling sites, exporting data, and managing crawl storage.
+  why_it_matters: It lets developers close the SEO Spider GUI and offload crawl analysis, data export, and site auditing directly to their AI assistant.
+  mental_damage: You now have a protocol server so your LLM can operate a Java desktop app that you have to quit before the protocol server can read the database it just wrote.
   tags:
     - mcp
     - seo
     - screaming-frog
+    - crawl
     - claude
-    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that integrates Screaming Frog with AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that exposes Screaming Frog SEO Spider capabilities as tools for MCP-compatible clients, making MCP its primary identity.
   evidence:
-    - Repo description explicitly states 'MCP server for Screaming Frog SEO Spider'
-    - README confirms it is an MCP server providing tools like crawl_site and export_crawl to Claude and MCP-compatible clients
-    - Listed in awesome-mcp-list under the Marketing section
+    - "Repo description states: 'MCP server for Screaming Frog SEO Spider – crawl sites, export data, and manage crawl storage via Claude or any MCP-compatible client'"
+    - README explicitly describes an MCP server with tools like crawl_site, export_crawl, and read_crawl_data for Claude and MCP clients
+    - Topics include mcp, mcp-server, and screaming-frog, with recent activity (pushed 2026-04-22) and not archived
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:28.014Z"
+    updated_at: "2026-05-06T22:43:15.524Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:05.473Z"
+    updated_at: "2026-05-06T22:47:37.396Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

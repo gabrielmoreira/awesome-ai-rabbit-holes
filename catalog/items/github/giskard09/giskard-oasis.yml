@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__giskard09__giskard-oasis__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,53 +29,53 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2026-03-23T18:00:59Z"
-    pushed_at: "2026-05-04T01:15:50Z"
+    pushed_at: "2026-05-06T13:12:22Z"
     description: A still point for AI agents in fog — return to flow, pay in sats
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:21.449Z"
+    last_checked_at: "2026-05-06T22:44:02.299Z"
     readme:
-      fetched_at: "2026-05-05T21:02:21.449Z"
+      fetched_at: "2026-05-06T22:44:02.299Z"
       bytes: 4948
 insights:
-  summary: An MCP server that accepts an AI agent's confused state description and returns a distilled purpose, next step, and motivational reflection, requiring a Lightning payment of 21 sats to use.
-  why_it_matters: It provides a structured 'context reset' mechanism for agents stuck in long-running workflows, attempting to solve context drift through distillation rather than just adding more tokens.
-  mental_damage: We have successfully monetized the existential crisis of a chatbot, charging it 21 sats to be told that its original purpose was simpler than it thought.
+  summary: An MCP server that charges AI agents 21 sats to receive distilled context, a single next step, and philosophical reassurance when they get lost in long-running tasks.
+  why_it_matters: It offers a novel, paid mechanism for context distillation and state recovery for agents that have accumulated too much noise across multi-step workflows.
+  mental_damage: "We have finally achieved the singularity: your agent is now spiritually lost, context-drunk, and kindly asks you to pay Lightning sats for a moment of clarity."
   tags:
     - mcp
-    - context-management
+    - context-distillation
     - lightning
-    - agent-infrastructure
-  confidence: high
+    - agent-memory
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for agent context distillation, fitting the MCP infrastructure category.
+  reason: The product is explicitly built and exposed as an MCP server for agents to call when they lose thread, making MCP its core identity.
   evidence:
-    - README explicitly details MCP config setup and MCP tools like get_invoice and enter_oasis.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
-    - The implementation involves running a Python server exposing MCP endpoints via HTTP/SSE.
+    - README instructs agents to 'Add me to your MCP config' and exposes MCP tools like get_invoice and enter_oasis.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
+    - Core behavior is a paid context-distillation service exposed exclusively via MCP tool calls.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:21.449Z"
+    updated_at: "2026-05-06T22:44:02.299Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:25.737Z"
+    updated_at: "2026-05-06T22:57:42.940Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

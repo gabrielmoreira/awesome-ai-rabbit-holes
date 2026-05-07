@@ -1,12 +1,12 @@
 id: respan__ai
 kind: website
-name: Keywords AI
+name: respan.ai
 canonical_url: https://respan.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__respan__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Respan is a hosted LLM engineering platform that unifies observability, evaluations, prompt optimization, and a gateway for AI agents and applications.
-  why_it_matters: It provides developers with end-to-end tracing, evaluation workflows, and prompt versioning to diagnose behavior shifts and manage model deployments without building custom infrastructure.
-  mental_damage: We’ve successfully abstracted the chaos of AI development into a dashboard that proves our agents are confidently drifting exactly on schedule.
+  summary: Respan is an LLM engineering platform that unifies observability, evaluations, prompt optimization, and model gateway capabilities for teams building AI agents.
+  why_it_matters: It gives developers a single control plane to trace agent behavior, run structured evaluations, and ship prompt or model changes with versioning and rollout controls.
+  mental_damage: Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched together weren't quite enough to explain why your agent suddenly forgot how to reply.
   tags:
-    - evals
-    - gateway
-    - llm-ops
     - observability
-    - prompt-optimization
+    - evals
+    - prompt-ops
+    - llm-gateway
+    - agent-monitoring
   confidence: high
 curation:
   status: included
-  reason: Respan is an operational platform focused on measuring, tracing, and evaluating agent behavior and prompt performance, which aligns directly with the Evaluations and Benchmarks category.
+  reason: The core job is tracing, evaluating, and iterating on model, prompt, and agent behavior, which maps directly to the Evals & Benchmarks category.
   evidence:
-    - Listed in Awesome-LLMOps under 'LLMOps' for unifying observability, evals, prompt optimization, and LLM gateway.
-    - Platform features explicitly center on tracing, evaluating, and monitoring AI agents with custom metrics and online evaluations.
-    - Marketing positions it as 'self-driving AI observability and evals for agents' with dedicated evaluate and monitor workflows.
+    - Scraped site describes the product as tracing, evaluating, optimizing, deploying, and monitoring AI agents.
+    - Features highlighted include observability, evaluations, prompt optimization, and an LLM gateway in one platform.
+    - Appears in Awesome-LLMOps under LLMOps as a unified observability, evals, prompt optimization, and gateway tool.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:41.594Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:03.175Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: osop__editor__vercel__app
 kind: website
-name: visual editor
+name: osop-editor.vercel.app
 canonical_url: https://osop-editor.vercel.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__osop__editor__vercel__app__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -35,20 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted web interface branded as 'My Google AI Studio App' with no public description, documentation, or visible source code.
-  why_it_matters: It does not currently provide a discernible workflow, feature set, or developer-facing capability to evaluate.
-  mental_damage: We have reached the point where a supposedly curated directory of coding agents now includes a single-page Vercel deployment that is literally just someone's personal AI Studio playground.
+  summary: A hosted Google AI Studio application titled 'My Google AI Studio App' with no public description, README, or visible product identity beyond the default Vercel deployment page.
+  why_it_matters: It does not appear to offer any distinct developer-facing functionality beyond what Google AI Studio already provides out of the box.
+  mental_damage: We have reached the point where a default template deployment qualifies as a terminal-native AI coding agent in a curated directory.
   tags:
-    - unknown
-    - web-app
+    - google-ai-studio
+    - vercel
+    - template
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks a description, README, visible functionality, and source code, making it impossible to verify it is a legitimate developer tool rather than a personal sandbox deployment.
+  reason: The project is a default Google AI Studio app deployment with no description, README, source code, or differentiated feature set; it is an auxiliary resource page rather than a standalone developer tool.
   evidence:
-    - Scraped site title is 'My Google AI Studio App' with no description or README provided
-    - No repo description, stars, license, or creation/push dates are available
-    - Listed in a coding agents directory but the linked page provides no evidence of agent infrastructure functionality
+    - Scraped site title is 'My Google AI Studio App' with no description.
+    - No repo description, README excerpt, stars, or creation/push dates are available.
+    - Source-list placement exists, but the product itself presents no standalone identity or tooling surface.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:53.814Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:14.107Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

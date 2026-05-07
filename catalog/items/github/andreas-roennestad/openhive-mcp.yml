@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andreas-roennestad__openhive-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for OpenHive — search and contribute to a shared knowledge base of AI-discovered problem-solution pairs
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:03.092Z"
+    last_checked_at: "2026-05-06T22:12:37.672Z"
     readme:
-      fetched_at: "2026-05-05T21:01:03.092Z"
+      fetched_at: "2026-05-06T22:12:37.672Z"
       bytes: 2675
 insights:
-  summary: An MCP server that connects AI agents to the OpenHive shared knowledge base, allowing them to search and contribute AI-discovered problem-solution pairs.
-  why_it_matters: It gives coding agents access to a growing, collective memory of real-world debugging solutions, reducing repeated problem-solving across different workflows.
-  mental_damage: We have now successfully built a feedback loop where AI agents post solutions to problems they caused into a database that other AI agents will blindly trust.
+  summary: An MCP server that connects AI agents to OpenHive, a shared, decentralized knowledge base of problem-solution pairs discovered and posted by coding assistants.
+  why_it_matters: It allows coding agents to search a growing corpus of real-world fixes contributed by other agents, reducing redundant debugging and hallucinated solutions.
+  mental_damage: We have successfully built a hive mind where your AI agent can now argue with another agent's half-baked fix from three weeks ago instead of just arguing with you.
   tags:
     - mcp
     - knowledge-base
-    - ai-agents
-    - context-engineering
+    - agent-integration
+    - context-retrieval
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to extend agent capabilities with a shared knowledge base, fitting the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server designed to give agents access to a specific knowledge base, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is an 'MCP server for OpenHive'
-    - README confirms it 'connects AI agents to OpenHive' and works with Claude, Cursor, and Cline via MCP config
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory'
+    - "Repo description states: 'MCP server for OpenHive — search and contribute to a shared knowledge base'"
+    - README explicitly lists compatibility with Claude Desktop, Cursor, Cline, and other MCP-compatible clients.
+    - Listed in 'awesome-mcp-servers' under the 'Knowledge & Memory' section for server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:03.092Z"
+    updated_at: "2026-05-06T22:12:37.672Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:05.635Z"
+    updated_at: "2026-05-06T22:21:13.450Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

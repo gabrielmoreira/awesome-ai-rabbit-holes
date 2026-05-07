@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__evalstate__mcp-hfspace__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode. "
     homepage: https://llmindset.co.uk/resources/mcp-hfspace/
     topics: []
-    last_checked_at: "2026-05-05T21:02:05.559Z"
+    last_checked_at: "2026-05-06T22:43:48.932Z"
     readme:
-      fetched_at: "2026-05-05T21:02:05.559Z"
+      fetched_at: "2026-05-06T22:43:48.932Z"
       bytes: 10752
 insights:
-  summary: An MCP server that connects Claude Desktop and other MCP clients to Hugging Face Spaces, automatically configuring endpoints for image generation, vision models, and other hosted tools.
-  why_it_matters: It lets developers pipe hosted Hugging Face models and Gradio spaces directly into their local AI workflows without writing custom integration code.
-  mental_damage: We have officially reached the point where we need a protocol server to talk to a server that hosts servers, just to get our desktop assistant to draw a flower.
+  summary: An MCP server that connects Claude Desktop and other MCP clients to Hugging Face Spaces, allowing AI assistants to invoke hosted models like FLUX.1 and Qwen for image generation, vision, and text-to-speech tasks.
+  why_it_matters: It bridges the gap between local coding assistants and the vast ecosystem of hosted Hugging Face models without requiring developers to build custom API integration layers.
+  mental_damage: We have successfully abstracted the act of prompting an image generator into a protocol that wraps a wrapper, ensuring we can generate cat pictures from Claude without ever leaving our IDE.
   tags:
     - mcp
     - huggingface
+    - integrations
     - claude-desktop
-    - gradio
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for connecting to Hugging Face Spaces, which fits squarely into the MCP Servers and Tooling category.
+  reason: The project is explicitly an MCP server designed to give clients access to Hugging Face Spaces, fitting the MCP Servers & Tooling category's focus on protocol infrastructure.
   evidence:
-    - Repo description states it is an 'MCP Server to Use HuggingFace spaces' with Claude Desktop support.
-    - README details installation via npx @llmindset/mcp-hfspace and configuration in claude_desktop_config.json.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
+    - "Repo description explicitly states: 'MCP Server to Use HuggingFace spaces'."
+    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - README demonstrates configuration via 'mcpServers' in 'claude_desktop_config.json'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (388) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:05.559Z"
+    updated_at: "2026-05-06T22:43:48.932Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:38.021Z"
+    updated_at: "2026-05-06T22:54:56.985Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

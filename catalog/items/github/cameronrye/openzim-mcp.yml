@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cameronrye__openzim-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-09-14T18:34:44Z"
-    pushed_at: "2026-05-05T20:36:39Z"
+    pushed_at: "2026-05-06T03:35:24Z"
     description: OpenZIM MCP is a modern, secure, and high-performance MCP (Model Context Protocol) server that enables AI models to access and search ZIM format knowledge bases offline.
     homepage: https://cameronrye.github.io/openzim-mcp/
     topics:
@@ -38,50 +38,50 @@ metadata:
       - mcp-server
       - openzim
       - zim
-    last_checked_at: "2026-05-05T21:01:29.486Z"
+    last_checked_at: "2026-05-06T22:43:17.017Z"
     readme:
-      fetched_at: "2026-05-05T21:01:29.486Z"
-      bytes: 60154
+      fetched_at: "2026-05-06T22:43:17.017Z"
+      bytes: 62563
 insights:
-  summary: A Model Context Protocol server that provides AI models with structured, offline access to search and navigate ZIM-format knowledge archives like Wikipedia.
-  why_it_matters: It allows developers building RAG or agent workflows to offload massive knowledge bases to a local, high-performance server instead of stuffing context windows with raw text dumps.
-  mental_damage: Because the only thing better than an AI confidently hallucinating is an AI confidently hallucinating from a 40GB offline copy of Wikipedia it found via a specialized MCP server.
+  summary: An MCP server that gives AI models structured, offline access to search and navigate ZIM-format knowledge archives such as Wikipedia.
+  why_it_matters: Developers can plug offline, high-compression knowledge bases into any MCP-compatible assistant without relying on live web search or APIs.
+  mental_damage: Because nothing says modern AI workflow like meticulously installing a high-performance bridge to 2012 Wikipedia so your model can argue with confidently outdated citations.
   tags:
     - mcp
     - offline
     - knowledge-base
     - zim
-    - python
+    - retrieval
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to expose ZIM archives to AI models, fitting the MCP infrastructure category perfectly.
+  reason: The product identity is a standalone MCP server for ZIM archives, exactly matching the MCP Servers & Tooling category definition.
   evidence:
-    - Repo description explicitly defines it as 'a modern, secure, and high-performance MCP (Model Context Protocol) server'.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Knowledge & Memory'.
-    - README confirms it provides 21 specialized tools and resources specifically for LLM interaction via the MCP standard.
+    - "Repo description: 'high-performance MCP server that enables AI models to access and search ZIM format knowledge bases offline.'"
+    - "README: 'OpenZIM MCP is a modern, secure, and high-performance MCP server...' with dual mode tooling (Simple and Advanced)."
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:29.486Z"
+    updated_at: "2026-05-06T22:43:17.017Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:22.178Z"
+    updated_at: "2026-05-06T22:48:00.750Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

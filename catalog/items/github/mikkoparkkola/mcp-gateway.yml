@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikkoparkkola__mcp-gateway__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 21
+    stars: 20
     forks: 7
     license: MIT
     archived: false
     created_at: "2026-01-25T00:55:03Z"
-    pushed_at: "2026-05-05T20:53:55Z"
+    pushed_at: "2026-05-06T11:40:55Z"
     description: Universal MCP Gateway - Single-port multiplexing with Meta-MCP for ~95% context token savings
     homepage: https://crates.io/crates/mcp-gateway
     topics:
@@ -43,50 +43,50 @@ metadata:
       - multiplexer
       - proxy
       - rust
-    last_checked_at: "2026-05-05T21:03:40.649Z"
+    last_checked_at: "2026-05-06T22:45:18.619Z"
     readme:
-      fetched_at: "2026-05-05T21:03:40.649Z"
-      bytes: 33022
+      fetched_at: "2026-05-06T22:45:18.619Z"
+      bytes: 32980
 insights:
   summary: A Rust-based gateway that multiplexes multiple MCP servers and REST APIs behind a single Meta-MCP interface to drastically reduce context window token usage.
-  why_it_matters: Developers can expose 110+ REST capabilities and backend tools to AI clients without bloating prompts, since the gateway routes requests through a compact 14-tool discovery surface.
-  mental_damage: We have successfully engineered a proxy to solve the exact context-bloat problem that arose because we insisted on giving the AI access to every tool ever written.
+  why_it_matters: Developers can expose 110+ REST capabilities and backend tools to AI clients through a minimal tool surface, avoiding context bloat that slows down responses.
+  mental_damage: We have invented a protocol to manage the protocols that manage the tools that manage the AI that manages to use 95% of your context window on tool definitions.
   tags:
     - mcp
-    - rust
     - gateway
+    - rust
     - context-compression
-    - devops
+    - multiplexer
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP middleware layer (gateway/multiplexer) that routes tool and capability traffic, fitting squarely into MCP infrastructure.
+  reason: The product's core identity is MCP infrastructure—a gateway and middleware layer for routing MCP traffic and compressing tool definitions—making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly calls it a 'Universal MCP Gateway' with single-port multiplexing.
-    - README defines it as a 'tool and capability gateway' routing MCP traffic to backends and REST APIs.
-    - Listed under 'Aggregators' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'Universal MCP Gateway - Single-port multiplexing with Meta-MCP'.
+    - README defines it as a 'tool and capability gateway' routing MCP traffic to backend servers and REST APIs.
+    - Listed in awesome-mcp-servers under 'Aggregators' and supports MCP Protocol 2025-11-25.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:40.649Z"
+    updated_at: "2026-05-06T22:45:18.619Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:51.318Z"
+    updated_at: "2026-05-06T23:14:04.766Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

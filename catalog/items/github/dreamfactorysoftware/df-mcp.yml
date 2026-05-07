@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dreamfactorysoftware__df-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: DreamFactory is a self-hosted platform providing governed API access to any data source for enterprise apps and local LLMs.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:57.286Z"
+    last_checked_at: "2026-05-06T22:43:41.796Z"
     readme:
-      fetched_at: "2026-05-05T21:01:57.286Z"
+      fetched_at: "2026-05-06T22:43:41.796Z"
       bytes: 5925
 insights:
-  summary: An MCP server that exposes DreamFactory-managed enterprise data sources to Claude Desktop so LLMs can query governed APIs via standardized context protocol tooling.
-  why_it_matters: It lets developers connect local or on-prem LLMs to existing enterprise data sources with role-based access and identity passthrough without building custom API integrations.
-  mental_damage: Another day, another glorified adapter that turns a perfectly good enterprise data platform into a tool-calling roulette wheel for your desktop chatbot.
+  summary: A Model Context Protocol (MCP) server that integrates DreamFactory's self-hosted, governed API access layer with Claude Desktop.
+  why_it_matters: It allows developers to securely expose enterprise data sources to Claude with role-based access and identity passthrough via the MCP standard.
+  mental_damage: Because nothing says 'modern developer experience' like configuring Node paths in three shells just to let an LLM run a governed SQL query.
   tags:
     - mcp
-    - dreamfactory
-    - claude-desktop
     - data-access
+    - claude
     - enterprise
+    - dreamfactory
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for DreamFactory, matching the MCP Servers and Tooling category, and it is already listed in awesome-mcp-servers.
+  reason: The product's primary identity is an MCP server specifically built to connect DreamFactory data sources to Claude Desktop.
   evidence:
-    - Repo description states it is a Model Context Protocol (MCP) server for DreamFactory integration with Claude.
-    - README confirms it is an MCP server with Desktop Extension and Docker setup instructions for Claude Desktop.
-    - Listed in awesome-mcp-servers under Official Servers, aligning with MCP infrastructure scope.
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for DreamFactory integration with Claude.'"
+    - Listed in 'awesome-mcp-servers' under the section 'Official Servers'.
+    - README details installation via Claude Desktop Extensions (DXT) and manual MCP server configuration.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:57.286Z"
+    updated_at: "2026-05-06T22:43:41.796Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:10.954Z"
+    updated_at: "2026-05-06T22:53:28.791Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

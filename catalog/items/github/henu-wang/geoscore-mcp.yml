@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__henu-wang__geoscore-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -42,50 +42,50 @@ metadata:
       - mcp-server
       - schema-org
       - seo
-    last_checked_at: "2026-05-05T21:02:32.873Z"
+    last_checked_at: "2026-05-06T22:44:13.618Z"
     readme:
-      fetched_at: "2026-05-05T21:02:32.873Z"
+      fetched_at: "2026-05-06T22:44:13.618Z"
       bytes: 3563
 insights:
-  summary: An MCP server that connects AI coding assistants to the GEOScore platform for scanning websites, generating llms.txt files, and fixing Schema.org markup to improve visibility in AI search engines.
-  why_it_matters: It lets developers automate generative engine optimization tasks—like generating llms.txt and schema fixes—directly from their AI assistant within the IDE.
-  mental_damage: We have officially reached the point where we need specialized agents to convince other agents that our websites are worth citing.
+  summary: An MCP server that connects AI coding assistants to the GEOScore API for scanning websites, generating GEO fixes like llms.txt and Schema.org markup, and comparing domain visibility in AI search engines.
+  why_it_matters: It lets developers automate generative engine optimization tasks—like generating llms.txt files and fixing schema markup—directly from their existing AI assistant workflows.
+  mental_damage: We have officially reached the point where we need middleware to optimize our websites for the bots that are simultaneously writing the websites we are optimizing.
   tags:
     - mcp
     - geo
     - seo
     - llms-txt
-    - cursor
+    - schema-org
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server that integrates AI search optimization tooling into IDEs like Cursor and Windsurf via the Model Context Protocol.
+  reason: The product's core identity is an MCP server that exposes website scanning and GEO optimization tools to compatible assistants like Claude and Cursor.
   evidence:
-    - Repo description explicitly states 'MCP server for AI search optimization'.
-    - README details 8 MCP tools including geo_scan, geo_generate_fix, and integrations for Claude Code, Cursor, and Windsurf.
-    - Listed in awesome-mcp-list under the Marketing section, confirming its MCP-native nature.
+    - Repo description explicitly states 'MCP server for AI search optimization (GEO)' with compatibility for Claude, Cursor, and Windsurf.
+    - README details 8 MCP tools (geo_scan, geo_generate_fix, etc.) and resources exposed via the Model Context Protocol.
+    - Listed in awesome-mcp-list under the '🎯 Marketing' section, confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.691Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:32.873Z"
+    updated_at: "2026-05-06T22:44:13.618Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:46.968Z"
+    updated_at: "2026-05-06T22:59:56.509Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

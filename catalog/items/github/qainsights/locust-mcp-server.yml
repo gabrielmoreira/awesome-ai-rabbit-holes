@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qainsights__locust-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,44 +38,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - performance-testing
-    last_checked_at: "2026-05-05T23:08:14.072Z"
+    last_checked_at: "2026-05-06T22:46:01.475Z"
     readme:
-      fetched_at: "2026-05-05T23:08:14.072Z"
+      fetched_at: "2026-05-06T22:46:01.475Z"
       bytes: 3387
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables AI coding assistants to run Locust load tests by exposing test execution capabilities via the Model Context Protocol.
+  why_it_matters: It lets LLMs trigger and analyze performance tests directly from your editor, bridging load testing and AI-assisted development workflows.
+  mental_damage: We have finally reached the point where the AI can both write the slow code and then run the load test to discover exactly how slow it wrote it.
+  tags:
+    - mcp
+    - load-testing
+    - locust
+    - performance
+    - developer-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server for load testing, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server implementation.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server implementation for running Locust load tests.'"
+    - README shows it exposes a `run_locust` tool for MCP clients like Claude Desktop, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:14.072Z"
+    updated_at: "2026-05-06T22:46:01.475Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:39.535Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

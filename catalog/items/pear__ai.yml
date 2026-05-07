@@ -1,12 +1,12 @@
 id: pear__ai
 kind: website
-name: PearAI
+name: pear.ai
 canonical_url: https://pear.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__pear__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,41 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pearl.ai is an AI coding assistant and code editor positioned as an alternative development environment with integrated AI assistance.
-  why_it_matters: It offers developers an AI-native editor experience that combines code writing, editing, and assistance in a single dedicated IDE surface.
-  mental_damage: Yet another AI editor enters the arena, giving developers one more tab to manage while trying to remember which assistant they promised to actually use this week.
+  summary: PearAI is an AI-native code editor and development environment designed to assist developers with coding tasks.
+  why_it_matters: It provides a dedicated IDE surface for developers looking to integrate AI assistance directly into their coding workflow without relying on plugins for existing editors.
+  mental_damage: Yet another fork in the road where you have to decide if this specific AI editor is the one that will finally justify the muscle memory you'll lose switching away from your current setup.
   tags:
     - ai-editor
-    - coding-assistant
     - ide
+    - coding-assistant
   confidence: medium
 curation:
   status: included
-  reason: Pearl.ai is primarily an AI-native editor/IDE surface, which aligns with the ai-ides-editors category; it is listed in awesome-ai-coding-tools under 'Code Editors and Assistants', reinforcing this fit over coding-agents or app-builders.
+  reason: The product is identified as a code editor and assistant in the source list 'awesome-ai-coding-tools' under the section 'Code Editors and Assistants', aligning with the 'Full IDEs & Editors' section.
   evidence:
-    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'
-    - Positioned as an AI coding assistant and editor rather than a repo-editing agent or prompt-to-app builder
+    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+    - Product URL is pear.ai, indicating a standalone product surface rather than a plugin.
 placement:
   primary_category: ai-ides-editors
-  section: null
+  section: Full IDEs & Editors
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:57.392Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:20.583Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

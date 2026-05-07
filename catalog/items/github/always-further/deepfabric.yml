@@ -1,13 +1,13 @@
 id: github__always-further__deepfabric
 kind: github-repo
-name: Promptwright
+name: deepfabric
 canonical_url: https://github.com/always-further/deepfabric
 identity:
   github_repo: always-further/deepfabric
 provenance:
   discoveries:
-    - id: discovery__github__stackloklabs__promptwright__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__always-further__deepfabric__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,50 +49,50 @@ metadata:
       - synthetic
       - synthetic-data
       - unsloth
-    last_checked_at: "2026-05-05T21:01:02.024Z"
+    last_checked_at: "2026-05-06T22:12:36.741Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.024Z"
+      fetched_at: "2026-05-06T22:12:36.741Z"
       bytes: 18780
 insights:
-  summary: DeepFabric is a Python framework for generating high-quality synthetic training data, evaluating model performance, and fine-tuning language models via topic graphs and MCP-integrated tool execution.
-  why_it_matters: It lets developers create domain-specific datasets with structured tool-calling traces and built-in evals, streamlining the pipeline from synthetic data generation to model training.
-  mental_damage: "Just what we needed: another way to hallucinate an entire training corpus so your model can learn to be confidently incorrect with perfect schema adherence."
+  summary: DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems.
+  why_it_matters: It lets developers move beyond prompt-tweaking by programmatically generating diverse, schema-validated datasets to train and evaluate agents with tool-calling and reasoning capabilities.
+  mental_damage: Because the only thing more comforting than hallucinating code is training a model to hallucinate code with scientific precision.
   tags:
-    - evals
-    - fine-tuning
-    - llm-training
-    - mcp
     - synthetic-data
+    - fine-tuning
+    - evals
+    - agents
+    - cli
   confidence: high
 curation:
   status: included
-  reason: This is a code-first Python SDK and CLI for building synthetic data pipelines and evaluations, which fits cleanly as an AI framework for developers rather than a user-facing agent or app builder.
+  reason: DeepFabric's core job is generating data to measure and improve agent behavior via training and evaluation loops, fitting the evals category better than a generic framework label.
   evidence:
-    - "Repo description: 'Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline'"
-    - README states it is used as a 'library, CLI tool, or via YAML configuration' and integrates with training frameworks like TRL, Unsloth, and Axolotl.
-    - Supports MCP server schemas for tool definitions and outputs datasets to Hugging Face, reinforcing its role as infrastructure for model training.
+    - README states it 'generates synthetic training data' and includes a 'built-in evaluation engine assesses model performance'.
+    - "Repo description explicitly lists: 'Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline'."
+    - Topics include 'evaluation', 'dataset', 'synthetic-data', and 'fine-tuning', with active pushes as of 2026-05-05.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (865) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:54.648Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.024Z"
+    updated_at: "2026-05-06T22:12:36.741Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:58.025Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

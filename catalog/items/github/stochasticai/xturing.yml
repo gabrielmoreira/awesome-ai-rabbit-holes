@@ -1,13 +1,13 @@
 id: github__stochasticai__xturing
 kind: github-repo
-name: xTuring
+name: xturing
 canonical_url: https://github.com/stochasticai/xturing
 identity:
   github_repo: stochasticai/xturing
 provenance:
   discoveries:
     - id: discovery__github__stochasticai__xturing__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,47 +23,75 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2665
+    forks: 212
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-19T15:59:38Z"
+    pushed_at: "2026-03-04T23:07:06Z"
+    description: "Build, personalize and control your own LLMs. From data pre-processing to fine-tuning, xTuring provides an easy way to personalize open-source LLMs. Join our discord community: https://discord.gg/TgHXuSJEk6"
+    homepage: https://xturing.stochastic.ai
+    topics:
+      - adapter
+      - deep-learning
+      - fine-tuning
+      - finetuning
+      - gen-ai
+      - generative-ai
+      - gpt-2
+      - gpt-j
+      - language-model
+      - llama
+      - llm
+      - lora
+      - mistral
+      - mixed-precision
+      - peft
+      - quantization
+    last_checked_at: "2026-05-06T22:46:35.620Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:35.620Z"
+      bytes: 10989
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python library and CLI for fine-tuning, evaluating, and running open-source LLMs locally or in a private cloud using techniques like LoRA and INT4/INT8 quantization.
+  why_it_matters: It provides a simplified API to personalize models like LLaMA and GPT-OSS on private infrastructure, abstracting away the boilerplate of PEFT and mixed-precision training.
+  mental_damage: Just when you thought you escaped cloud API costs, you now have a 120B model running locally that demands a mortgage-level investment in GPUs to fine-tune.
+  tags:
+    - llm
+    - fine-tuning
+    - local-ai
+    - lora
+    - quantization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a code-first library and CLI that developers import and script against to customize models, fitting the Frameworks & SDKs identity rather than an agent or local runtime.
+  evidence:
+    - Repo description states it provides 'an easy way to personalize open-source LLMs' from data prep to fine-tuning.
+    - "README examples show a Python SDK workflow: `from xturing.models import BaseModel` and `model.finetune(dataset)`."
+    - Topics include library-focused tags like `peft`, `lora`, `deep-learning`, and `finetuning`.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2665) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:35.620Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:30.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

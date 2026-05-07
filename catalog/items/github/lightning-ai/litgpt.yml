@@ -1,0 +1,88 @@
+id: github__lightning-ai__litgpt
+kind: github-repo
+name: litgpt
+canonical_url: https://github.com/lightning-ai/litgpt
+identity:
+  github_repo: lightning-ai/litgpt
+provenance:
+  discoveries:
+    - id: discovery__github__lightning-ai__litgpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: LitGPT
+        extracted_url: https://github.com/lightning-ai/litgpt
+        surrounding_text: "16. [LitGPT](https://github.com/Lightning-AI/litgpt): Pretrain, finetune, deploy 20+ LLMs on your own data. Uses state-of-the-art techniques: flash attention, FSDP, 4-bit, LoRA, and more."
+        confidence: high
+metadata:
+  github:
+    stars: 13343
+    forks: 1427
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-04T17:46:11Z"
+    pushed_at: "2026-05-01T12:01:13Z"
+    description: 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.
+    homepage: https://lightning.ai
+    topics:
+      - ai
+      - artificial-intelligence
+      - deep-learning
+      - large-language-models
+      - llm
+      - llm-inference
+      - llms
+    last_checked_at: "2026-05-06T22:44:58.779Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:58.779Z"
+      bytes: 31224
+insights:
+  summary: A from-scratch PyTorch LLM implementation toolkit with recipes for pretraining, finetuning, deploying, and running inference on 20+ high-performance models across 1 to 1000+ GPUs/TPUs.
+  why_it_matters: Developers can train, finetune, and serve LLMs with full control and no abstraction layers, optimized for enterprise-scale performance and reduced GPU memory usage.
+  mental_damage: Because what every over-leveraged engineering team really needed was another repo to convince themselves they are one YAML recipe away from running their own frontier model on a cluster they don't have.
+  tags:
+    - llm-training
+    - finetuning
+    - inference
+    - pytorch
+    - lightning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a model-training and inference framework for building/running LLMs, not a developer-facing AI coding tool, agent, IDE, extension, or app-builder.
+  evidence:
+    - "Repo description: '20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.'"
+    - "README: 'Every LLM is implemented from scratch with no abstractions and full control, making them blazing fast, minimal, and performant at enterprise scale.'"
+    - Topics and scope focus on LLM training/inference (deep-learning, large-language-models, llm-inference), not developer tooling or coding assistance.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (13343) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.626Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:58.779Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:27.788Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

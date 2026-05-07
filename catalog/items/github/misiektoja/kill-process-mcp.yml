@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__misiektoja__kill-process-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,50 +37,50 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:42.968Z"
+    last_checked_at: "2026-05-06T22:45:21.067Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.967Z"
+      fetched_at: "2026-05-06T22:45:21.067Z"
       bytes: 7416
 insights:
-  summary: A cross-platform MCP server that exposes tools for listing and terminating OS processes via natural language queries in MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It lets developers manage rogue processes using conversational prompts inside their AI coding environment instead of dropping to a terminal.
-  mental_damage: We have finally achieved the future where an LLM will politely ask before nuking the process that is actually your database.
+  summary: An MCP server that exposes OS process listing and termination tools to LLM clients like Claude Desktop and Cursor for natural language system management.
+  why_it_matters: It lets developers delegate the tedious hunting and killing of rogue processes to their AI assistant instead of manually running ps or taskkill.
+  mental_damage: You now have an AI agent that can confidently nuke your system processes, which is exactly the kind of capability we swore we would never give it.
   tags:
     - mcp
-    - process-management
     - system-tools
+    - process-management
     - cursor
     - claude
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server that adds system process management capabilities to MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  reason: The product is an MCP server that exposes OS process tools, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is an 'AI-powered cross-platform MCP server exposing LLM-accessible tools'.
-    - README documents integration with Claude Desktop and Cursor as MCP servers using uvx.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - Repo description states it is a 'cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes'.
+    - README shows configuration examples for Claude Desktop and Cursor as MCP clients.
+    - Source list context places it in 'awesome-mcp-servers' under Server Implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.968Z"
+    updated_at: "2026-05-06T22:45:21.067Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:17.542Z"
+    updated_at: "2026-05-06T23:14:39.539Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

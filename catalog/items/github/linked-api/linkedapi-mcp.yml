@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__linked-api__linkedapi-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,24 +21,9 @@ provenance:
         extracted_url: https://github.com/linked-api/linkedapi-mcp
         surrounding_text: "- **[Linked API](https://github.com/Linked-API/linkedapi-mcp.git)** - MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data with [Linked API](https://linkedapi.io)."
         confidence: high
-    - id: discovery__linkedapi__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Linked API
-        extracted_url: https://linkedapi.io
-        surrounding_text: "- **[Linked API](https://github.com/Linked-API/linkedapi-mcp.git)** - MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data with [Linked API](https://linkedapi.io)."
-        confidence: high
 metadata:
   github:
-    stars: 50
+    stars: 52
     forks: 4
     license: MIT
     archived: false
@@ -56,55 +41,50 @@ metadata:
       - mcp-server
       - sales-automation
       - social-selling
-    last_checked_at: "2026-05-05T21:03:20.826Z"
+    last_checked_at: "2026-05-06T22:45:00.108Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.826Z"
+      fetched_at: "2026-05-06T22:45:00.108Z"
       bytes: 1837
 insights:
-  summary: An MCP server that connects AI assistants like Claude and Cursor to LinkedIn accounts for searching leads, analyzing profiles, and automating messages via a cloud browser.
-  why_it_matters: It allows developers to automate sales, recruitment, and market research workflows on LinkedIn directly from their existing AI coding environments.
-  mental_damage: We have finally bridged the gap between sophisticated IDE integrations and the desperate urge to automate sending cold DMs at 3 AM.
+  summary: An MCP server that connects LinkedIn accounts to AI assistants like Claude and Cursor, enabling them to search leads, analyze profiles, and send messages via a cloud browser.
+  why_it_matters: It lets developers automate sales, recruitment, and market research workflows by giving coding assistants direct, structured access to LinkedIn data.
+  mental_damage: We have finally reached the point where your AI assistant can handle the soul-crushing part of sending LinkedIn cold outreach, leaving you free to ignore the responses manually.
   tags:
-    - agents
-    - api
-    - automation
-    - browser-automation
-    - linkedin
     - mcp
+    - linkedin
     - sales-automation
+    - mcp-server
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server that integrates LinkedIn data and actions into AI assistants, fitting the MCP infrastructure category.
+  reason: The product's identity is an MCP server designed to give AI assistants access to LinkedIn-specific capabilities, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server that lets AI assistants control LinkedIn accounts.'"
-    - README confirms integration with Claude, Cursor, and VS Code to handle LinkedIn tasks via cloud browser.
-    - Listed in 'awesome-mcp-servers' directory under the Official Servers section.
-    - Scraped site context explicitly lists 'MCP' as a core access method alongside API, SDK, and CLI.
-    - Source-list context places it in 'awesome-mcp-servers' under Official Servers for agent use.
-    - Primary excerpt highlights 'Built for AI agents' with specific tool calls for search and enrichment via MCP.
+    - "Repo description explicitly states: 'MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data.'"
+    - Found in awesome-mcp-servers under the 'Official Servers' section.
+    - README confirms integration with Claude, Cursor, and VS Code via the MCP protocol.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:03.170Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.826Z"
+    updated_at: "2026-05-06T22:45:00.108Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:43.556Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

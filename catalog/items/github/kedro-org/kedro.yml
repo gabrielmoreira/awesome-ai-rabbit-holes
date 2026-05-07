@@ -1,13 +1,13 @@
 id: github__kedro-org__kedro
 kind: github-repo
-name: Kedro
+name: kedro
 canonical_url: https://github.com/kedro-org/kedro
 identity:
   github_repo: kedro-org/kedro
 provenance:
   discoveries:
     - id: discovery__github__kedro-org__kedro__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10862
-    forks: 1031
+    stars: 10863
+    forks: 1033
     license: Apache-2.0
     archived: false
     created_at: "2019-04-18T10:29:56Z"
-    pushed_at: "2026-05-05T20:00:43Z"
+    pushed_at: "2026-05-06T20:25:56Z"
     description: Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.
     homepage: https://kedro.org
     topics:
@@ -41,50 +41,49 @@ metadata:
       - mlops
       - pipeline
       - python
-    last_checked_at: "2026-05-05T21:03:03.439Z"
+    last_checked_at: "2026-05-06T22:44:41.318Z"
     readme:
-      fetched_at: "2026-05-05T21:03:03.439Z"
+      fetched_at: "2026-05-06T22:44:41.318Z"
       bytes: 10819
 insights:
-  summary: Kedro is an open-source Python framework for building modular, maintainable, and reproducible data engineering and data science pipelines.
-  why_it_matters: It enforces software engineering best practices—like modular pipelines, versioned data catalogs, and standard testing—into data workflows that usually devolve into unmaintainable spaghetti.
-  mental_damage: Now you can spend three days wrapping a two-hour pandas script in abstract base classes and configuration YAML, proudly calling it 'production-ready' while the business moves on without you.
+  summary: Kedro is an open-source Python framework for building modular, reproducible data engineering and data science pipelines with software engineering best practices.
+  why_it_matters: It gives data teams a standardised project structure, data catalog, and pipeline abstraction so ML prototypes survive contact with production.
+  mental_damage: Yet another excuse to spend three sprints refactoring a Jupyter notebook into an enterprise-grade pipeline architecture before anyone asks what the model actually predicts.
   tags:
-    - data-engineering
-    - framework
+    - python
     - mlops
     - pipelines
-    - python
+    - data-engineering
   confidence: high
 curation:
   status: excluded
-  reason: While a mature and well-supported project, Kedro is a traditional data science pipeline framework for ML engineering, lacking a specific AI-driven developer tooling angle required for this catalog.
+  reason: The project is a general data science and MLOps framework with no direct AI-assisted coding, agent, or developer-tooling angle beyond standard Python engineering practices.
   evidence:
-    - Repo description defines it as a 'toolbox for production-ready data science' and 'data engineering and data science pipelines', not an AI coding tool.
-    - Features focus on pipeline abstraction, data catalogs, and deployment to Argo/Databricks, typical of MLOps rather than AI-assisted coding.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which confirms its role in model training infrastructure rather than developer agentic workflows.
+    - Repo description explicitly frames it as a toolbox for data science and data engineering pipelines, not AI coding assistance.
+    - README features focus on project templates, data catalogs, pipeline abstractions, and deployment to ML infra, not code generation or agent workflows.
+    - Appears in Awesome-LLMOps under 'Frameworks for Training', which is MLOps infrastructure rather than developer-facing AI tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (10862) exceeded threshold (150)
+  reason: Stars (10863) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:17.399Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:03.439Z"
+    updated_at: "2026-05-06T22:44:41.318Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:46.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

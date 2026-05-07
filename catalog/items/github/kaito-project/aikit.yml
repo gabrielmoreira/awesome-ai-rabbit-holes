@@ -1,0 +1,101 @@
+id: github__kaito-project__aikit
+kind: github-repo
+name: aikit
+canonical_url: https://github.com/kaito-project/aikit
+identity:
+  github_repo: kaito-project/aikit
+provenance:
+  discoveries:
+    - id: discovery__github__kaito-project__aikit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: aikit
+        extracted_url: https://github.com/sozercan/aikit
+        surrounding_text: "14. [aikit](https://github.com/sozercan/aikit): Fine-tune, build, and deploy open-source LLMs easily!"
+        confidence: high
+metadata:
+  github:
+    stars: 520
+    forks: 58
+    license: MIT
+    archived: false
+    created_at: "2023-09-20T02:31:11Z"
+    pushed_at: "2026-05-04T04:16:47Z"
+    description: 🏗️ Fine-tune, build, and deploy open-source LLMs easily!
+    homepage: https://kaito-project.github.io/aikit/
+    topics:
+      - ai
+      - buildkit
+      - chatgpt
+      - docker
+      - fine-tuning
+      - finetuning
+      - gemma
+      - gpt
+      - inference
+      - kubernetes
+      - large-language-models
+      - llama
+      - llm
+      - localllama
+      - mistral
+      - mixtral
+      - nvidia
+      - open-llm
+      - open-source-llm
+      - openai
+    last_checked_at: "2026-05-06T22:44:39.846Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:39.846Z"
+      bytes: 15763
+insights:
+  summary: AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API.
+  why_it_matters: It lets developers self-host and ship local LLM inference and fine-tuning workloads using familiar container workflows and Kubernetes, without relying on external API providers.
+  mental_damage: Now you can add 'OCI-compliant LLM packaging' to the list of things you’ll automate at 2 a.m. while telling yourself it’s definitely cheaper than an OpenAI bill.
+  tags:
+    - local-llm
+    - fine-tuning
+    - docker
+    - kubernetes
+    - openai-api
+  confidence: high
+curation:
+  status: included
+  reason: The product’s core identity is local/self-hosted LLM serving, fine-tuning, and packaging with an OpenAI-compatible API, making it a strong fit for Local AI.
+  evidence:
+    - "Repo description states: 'Fine-tune, build, and deploy open-source LLMs easily!'"
+    - README emphasizes Docker/Podman local execution and OpenAI API-compatible inference endpoints.
+    - Supports GPU/CPU inference, fine-tuning via Unsloth, and OCI packaging for model distribution.
+placement:
+  primary_category: local-ai
+  section: Local Serving / APIs
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (520) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.623Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:39.846Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:25.205Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

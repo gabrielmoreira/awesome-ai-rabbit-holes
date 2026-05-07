@@ -1,13 +1,13 @@
 id: github__jetxu-llm__llama-github
 kind: github-repo
-name: Llama-github
+name: llama-github
 canonical_url: https://github.com/jetxu-llm/llama-github
 identity:
   github_repo: jetxu-llm/llama-github
 provenance:
   discoveries:
     - id: discovery__github__jetxu-llm__llama-github__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 324
-    forks: 22
+    stars: 304
+    forks: 21
     license: Apache-2.0
     archived: false
     created_at: "2024-05-16T08:47:28Z"
@@ -45,50 +45,50 @@ metadata:
       - llm
       - python-library
       - retrieval-augmented-generation
-    last_checked_at: "2026-05-05T21:02:54.678Z"
+    last_checked_at: "2026-05-06T22:44:33.624Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.678Z"
+      fetched_at: "2026-05-06T22:44:33.624Z"
       bytes: 7499
 insights:
-  summary: A Python library that performs agent-driven retrieval-augmented generation over GitHub repositories to provide code snippets, issues, and context for LLM-powered coding assistants.
-  why_it_matters: It allows developers and AI agents to ground their responses in real-world GitHub code examples rather than relying solely on parametric model knowledge.
-  mental_damage: Another layer of abstraction promising that if we just index enough other people's code, our AI will eventually figure out how to write ours.
+  summary: A Python library that performs Agentic RAG to retrieve and synthesize relevant code snippets, issues, and repository context from GitHub for use by LLM chatbots and AI agents.
+  why_it_matters: It provides the retrieval infrastructure needed to ground coding agents in real-world GitHub examples, reducing hallucinations and improving code generation quality.
+  mental_damage: Yet another layer of abstraction promising that if we just index enough other people's code, our agent will finally stop inventing its own deprecated APIs.
   tags:
-    - github
-    - langchain
-    - llm
     - python
     - rag
+    - github
+    - retrieval
+    - langchain
   confidence: high
 curation:
   status: included
-  reason: This is a developer-importable Python library and SDK for embedding GitHub-aware RAG capabilities into AI applications, fitting the code-first building block definition of ai-frameworks.
+  reason: The project is a code-first Python library (SDK) used to build retrieval and context-augmentation into other AI systems, fitting the Frameworks & SDKs category.
   evidence:
-    - Repo description explicitly calls it an 'open-source Python library' for LLMs and AI Agents.
-    - "Usage example shows direct code import: 'from llama_github import GithubRAG'."
-    - Listed in awesome-langchain under 'Tools > Services' as a project using the LangChain framework.
+    - Repo description explicitly calls it an 'open-source Python library' and a tool to 'empower LLM Chatbots, AI Agents'.
+    - Installation is via `pip install llama-github` and usage involves importing `GithubRAG` as a class in Python code.
+    - Source list context places it in awesome-langchain under 'Tools > Services', reinforcing its identity as a developer library/SDK.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (324) exceeded threshold (150)
+  reason: Stars (304) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:14.458Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.678Z"
+    updated_at: "2026-05-06T22:44:33.624Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:06.492Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,83 @@
+id: github__modelscope__easydistill
+kind: github-repo
+name: easydistill
+canonical_url: https://github.com/modelscope/easydistill
+identity:
+  github_repo: modelscope/easydistill
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__easydistill__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: EasyDistill
+        extracted_url: https://github.com/modelscope/easydistill
+        surrounding_text: "36. [EasyDistill](https://github.com/modelscope/easydistill): Easy Knowledge Distillation for Large Language Models."
+        confidence: high
+metadata:
+  github:
+    stars: 334
+    forks: 35
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-27T07:17:45Z"
+    pushed_at: "2026-03-10T06:23:52Z"
+    description: a toolkit on knowledge distillation for large language models
+    homepage: ""
+    topics:
+      - knowledge-distillation
+      - large-language-models
+    last_checked_at: "2026-05-06T22:45:23.941Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:23.940Z"
+      bytes: 23371
+insights:
+  summary: EasyDistill is a toolkit for knowledge distillation of large language models, supporting data synthesis, supervised fine-tuning, and reinforcement learning for both black-box and white-box scenarios.
+  why_it_matters: It helps developers and researchers train smaller, cheaper models that retain the reasoning and tool-use capabilities of larger teacher models like DeepSeek-R1 and Qwen.
+  mental_damage: Because clearly the next logical step in fixing our context-window anxiety is distilling a 70B model’s mid-life crisis into a 3B parameter replica.
+  tags:
+    - knowledge-distillation
+    - llm-training
+    - model-compression
+    - reinforcement-learning
+    - fine-tuning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a model-training and distillation framework for ML researchers, not a developer-facing coding tool, agent, IDE, or AI infrastructure product.
+  evidence:
+    - Repo description explicitly defines it as 'a toolkit on knowledge distillation for large language models'.
+    - README focuses on data synthesis, supervised fine-tuning, and reinforcement learning for model training, not developer workflows or coding assistance.
+    - Found in awesome-LLM-resources under a data/training section, not a developer tooling or coding agent list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (334) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.631Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:23.941Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:20.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laurynas-biveinis__elisp-dev-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -28,54 +28,53 @@ metadata:
     license: GPL-3.0
     archived: false
     created_at: "2025-04-30T12:35:55Z"
-    pushed_at: "2026-04-27T11:18:45Z"
+    pushed_at: "2026-05-06T14:02:58Z"
     description: Dev tools in Emacs MCP for agentic Elisp development with LLMs
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:17.626Z"
+    last_checked_at: "2026-05-06T22:44:56.666Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.626Z"
+      fetched_at: "2026-05-06T22:44:56.666Z"
       bytes: 7561
 insights:
-  summary: An Emacs package that runs an MCP server inside the editor, giving AI agents structured access to Elisp function definitions, documentation, and Info lookups.
-  why_it_matters: It lets coding agents work directly inside Emacs to read, navigate, and manipulate Elisp code using the same APIs a human developer would use.
-  mental_damage: You can now ask an AI agent to refactor your .emacs config, which is the exact moment your hobby stops being a text editor and starts being a runaway lisp encounter.
+  summary: An Emacs package that runs an MCP server to let AI agents retrieve Elisp function definitions, variable metadata, and Info documentation for agentic Emacs Lisp development.
+  why_it_matters: It gives coding agents structured, programmatic access to Emacs internals so they can reason about and edit Elisp code without guessing at docs or source locations.
+  mental_damage: You can now ask a model to refactor your .emacs.d while Emacs itself patiently serves up its own documentation like a helpful hostage.
   tags:
     - emacs
-    - mcp
     - elisp
-    - agent-tooling
-    - llm-integration
+    - mcp
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server that exposes Emacs internals to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product’s core identity is an MCP server that exposes Emacs/Elisp capabilities to agents, which fits MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description states it is 'Dev tools in Emacs MCP for agentic Elisp development with LLMs'.
-    - README confirms it provides an MCP server for agents to interact with Elisp functions, variables, and Info documentation.
-    - Listed in awesome-mcp-servers under Community Servers, supporting the MCP infrastructure fit.
+    - "Repo description: 'Dev tools in Emacs MCP for agentic Elisp development with LLMs'."
+    - "README: 'elisp-dev-mcp is an Emacs package that provides an MCP server for agentic Elisp development'."
+    - Listed in awesome-mcp-servers under Community Servers, reinforcing the MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.626Z"
+    updated_at: "2026-05-06T22:44:56.666Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:26.198Z"
+    updated_at: "2026-05-06T23:08:57.457Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

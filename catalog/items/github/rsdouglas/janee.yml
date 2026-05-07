@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rsdouglas__janee__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,69 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 27
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-02-02T15:04:09Z"
+    pushed_at: "2026-03-17T13:00:52Z"
+    description: Secrets management for AI agents via MCP • @janeesecure
+    homepage: https://janee.io
+    topics:
+      - ai-agents
+      - api-keys
+      - claude
+      - cursor
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - secrets-management
+      - security
+    last_checked_at: "2026-05-06T22:46:12.843Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:12.843Z"
+      bytes: 21668
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Janee is a local-first MCP server that lets AI agents call external APIs using injected credentials, without ever exposing raw API keys to the agent itself.
+  why_it_matters: It gives developers a way to grant agents API access with request-level policies, session TTLs, and audit logs instead of copying long-lived keys into agent configs.
+  mental_damage: Another layer of infrastructure so your autonomous agent can invoice Stripe on your behalf while you console yourself that at least the key stayed in ~/.janee/.
+  tags:
+    - mcp
+    - secrets
+    - agent-security
+    - local-first
+    - audit-logs
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP-first server whose core identity is secure API access for agents via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  evidence:
+    - "Repo description explicitly states: 'Secrets management for AI agents via MCP'."
+    - README defines Janee as 'an MCP server that manages API secrets for AI agents' with `janee serve` as the primary workflow.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', reinforcing its MCP server identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:12.843Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:19.545Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

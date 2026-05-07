@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pzalutski-pixel__sharplens-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,44 +41,50 @@ metadata:
       - mcp
       - roslyn
       - semantic-analysis
-    last_checked_at: "2026-05-05T23:08:13.769Z"
+    last_checked_at: "2026-05-06T22:46:01.274Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.769Z"
+      fetched_at: "2026-05-06T22:46:01.274Z"
       bytes: 11376
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Roslyn-powered MCP server that exposes 62 semantic analysis, refactoring, and code generation tools for C# and .NET to AI coding agents like Claude Code.
+  why_it_matters: It gives AI agents compiler-accurate C# understanding—impact analysis, dead code detection, and safe refactoring—that text-based search and basic LSP cannot provide.
+  mental_damage: You now have to convince your AI agent to stop grepping source files and actually use the 62-tool Roslyn buffet you just installed, while also manually syncing documents like it's 2015.
+  tags:
+    - mcp
+    - csharp
+    - roslyn
+    - semantic-analysis
+    - dotnet
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server providing Roslyn-powered semantic tools for .NET, making it a clear fit for the MCP Domain Servers section.
+  evidence:
+    - "Repo description: 'Roslyn-powered MCP server for AI-driven C# semantic analysis, refactoring, and code generation'"
+    - "README states: 'A Model Context Protocol (MCP) server providing 62 AI-optimized tools for .NET/C# semantic code analysis'"
+    - Curated in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.769Z"
+    updated_at: "2026-05-06T22:46:01.274Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:35.593Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

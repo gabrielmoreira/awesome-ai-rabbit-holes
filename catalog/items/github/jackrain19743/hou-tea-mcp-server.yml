@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jackrain19743__hou-tea-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,49 +44,50 @@ metadata:
       - tea
       - usdc
       - x402
-    last_checked_at: "2026-05-05T21:02:48.978Z"
+    last_checked_at: "2026-05-06T22:44:28.794Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.978Z"
+      fetched_at: "2026-05-06T22:44:28.794Z"
       bytes: 13465
 insights:
-  summary: An MCP server that exposes the hou-tea.com tea catalog and x402 payment endpoints to AI agents like Claude Desktop, Cursor, and Cline.
-  why_it_matters: It demonstrates how to wire a commerce backend into the Model Context Protocol so developer tools can browse, recommend, and initiate crypto payments on a user's behalf.
-  mental_damage: We have successfully reached the point where your AI agent needs its own dedicated MCP server, wallet pairing, and buyer token just to order oolong with USDC.
+  summary: An MCP server that exposes the hou-tea.com tea catalog and x402 USDC payment intents to AI agents in Claude Desktop, Cursor, Cline, and other MCP-compatible clients.
+  why_it_matters: It demonstrates how agent-native commerce works by letting developers wire a wallet MCP to a product MCP so an assistant can browse, recommend, and initiate crypto payments for real goods.
+  mental_damage: Your coding agent can now draft a PR, debug your tests, and order oolong with Base USDC, completing the vision of a workflow where even your tea runs through a JSON Schema.
   tags:
     - mcp
     - x402
     - agent-commerce
     - usdc
+    - tea
   confidence: medium
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that integrates a commerce API and x402 payments into AI developer tools.
+  reason: The product identity is an MCP server that gives agents access to a specific domain (tea commerce) via the Model Context Protocol, fitting MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'MCP server for hou-tea.com — buy authentic Chinese tea via x402 USDC. Works with Claude Desktop, Cursor, Cline.'"
-    - README details MCP tool endpoints (hou_tea_browse, hou_tea_recommend, hou_tea_get_payment_requirements) and wallet MCP pairing.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - Repo description explicitly states 'MCP server for hou-tea.com' and lists MCP-compatible clients.
+    - README centers on exposing hou-tea API as MCP tools with payment intents via x402 protocol.
+    - Listed in awesome-mcp-servers under Finance & Fintech, aligning with domain server role.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.978Z"
+    updated_at: "2026-05-06T22:44:28.794Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:11.708Z"
+    updated_at: "2026-05-06T23:03:07.416Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

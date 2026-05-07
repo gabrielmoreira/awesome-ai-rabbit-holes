@@ -1,12 +1,12 @@
 id: www__getmaxim__ai
 kind: website
-name: Maxim AI
+name: www.getmaxim.ai
 canonical_url: https://www.getmaxim.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__getmaxim__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,43 +35,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Maxim AI is an end-to-end evaluation and observability platform for AI agents, providing infrastructure for prompt experimentation, agent simulation, and production monitoring.
-  why_it_matters: It allows engineering and product teams to systematically test, evaluate, and monitor AI agent quality across frameworks like LangChain and CrewAI without building custom scripts.
-  mental_damage: Because nothing says 'accelerating development' like spending three days configuring the dashboard that measures how fast you're building the thing.
+  summary: Maxim AI is an end-to-end evaluation, observability, and prompt experimentation platform designed to help teams test, monitor, and deploy AI agents and LLM-powered applications.
+  why_it_matters: It provides the infrastructure developers need to run automated simulations, measure agent quality with custom metrics, and trace production behavior without building custom eval scripts.
+  mental_damage: You can now spend your afternoons fine-tuning eval suites for agents that are still hallucinating their way through basic git operations.
   tags:
-    - agents
     - evals
-    - llm-gateway
     - observability
+    - llmops
+    - testing
+    - agent-monitoring
   confidence: high
 curation:
   status: included
-  reason: The platform is squarely focused on the evaluation, observability, and testing loop of AI agents rather than acting as a coding assistant or app builder.
+  reason: The core product identity is centered on evaluating, simulating, and observing AI agents and LLM behavior, which aligns directly with the Evals & Benchmarks category.
   evidence:
-    - Site describes itself as 'The GenAI evaluation and observability platform' with products for experimentation, simulation, and observability.
-    - Includes specific features like prompt versioning, agent simulation, traces, and CI/CD integration for quality monitoring.
-    - Listed in Awesome-LLMOps under the 'Security > Observability' section, aligning with the catalog's scope for developer infrastructure.
+    - Scraped site title describes it as 'The GenAI evaluation and observability platform'.
+    - Product features include agent simulation, evaluations, prompt regression in a Playground++, and real-time observability traces.
+    - Included in Awesome-LLMOps under 'Security > Observability', reinforcing its LLMOps and eval-first positioning.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:59.527Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:21.971Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

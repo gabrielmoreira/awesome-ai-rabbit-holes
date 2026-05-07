@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__riza-io__riza-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,72 +21,60 @@ provenance:
         extracted_url: https://github.com/riza-io/riza-mcp
         surrounding_text: "- **[Riza](https://github.com/riza-io/riza-mcp)** - Arbitrary code execution and tool-use platform for LLMs by [Riza](https://riza.io)"
         confidence: high
-    - id: discovery__riza__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Riza
-        extracted_url: https://riza.io
-        surrounding_text: "- **[Riza](https://github.com/riza-io/riza-mcp)** - Arbitrary code execution and tool-use platform for LLMs by [Riza](https://riza.io)"
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 14
+    forks: 8
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    archived: false
+    created_at: "2024-12-11T22:27:28Z"
+    pushed_at: "2024-12-17T20:22:09Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:10.590Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:10.590Z"
+      bytes: 1238
 insights:
-  summary: Riza is a production-ready isolated runtime API that safely executes untrusted LLM-generated code in sandboxed environments.
-  why_it_matters: It provides the secure execution layer that allows AI agents and applications to run generated code without risking the host system or production environment.
-  mental_damage: We have finally solved the AI code generation problem by building a high-speed sandbox for the AI to execute the code we still have to debug anyway.
+  summary: An MCP server that wraps the Riza API to let LLMs securely execute generated code and manage saved tools via isolated code interpreter endpoints.
+  why_it_matters: It gives MCP-compatible clients a safe, sandboxed runtime for running AI-generated code without polluting the local environment or managing execution infrastructure.
+  mental_damage: Another layer in the stack where your LLM writes code, wraps it in a tool, uploads it to a sandbox, and executes it—just to avoid admitting that maybe the developer should have written it themselves.
   tags:
-    - agent-runtime
-    - ai-infrastructure
-    - code-execution
+    - mcp
+    - code-interpreter
     - sandbox
-  confidence: high
+    - llm-tooling
+  confidence: medium
 curation:
   status: included
-  reason: As a RESTful API and SDK (Python, TypeScript, Go) for executing code in a secure sandbox, it is a code-first building block for embedding AI capabilities into software.
+  reason: The product is explicitly an MCP server implementation that wraps the Riza API, making MCP its primary identity and fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Primary page excerpt describes 'API-first design' with REST endpoints and SDKs for Python, TypeScript, and Go.
-    - "Scraped site context explicitly states: 'Riza is the production-ready isolated runtime for untrusted code.'"
-    - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers' section.
+    - Repo name is riza-mcp and README标题 is 'Riza MCP Server'.
+    - "README states: 'Our MCP server implementation wraps the Riza API and presents endpoints as individual tools.'"
+    - Listed in awesome-mcp-servers under section 'Official Servers'.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:41.493Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:10.590Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:46.644Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

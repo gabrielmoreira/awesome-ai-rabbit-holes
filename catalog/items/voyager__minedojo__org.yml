@@ -1,12 +1,12 @@
 id: voyager__minedojo__org
 kind: website
-name: Voyager
+name: voyager.minedojo.org
 canonical_url: https://voyager.minedojo.org
 identity: {}
 provenance:
   discoveries:
     - id: discovery__voyager__minedojo__org__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Voyager is a research project and LLM-powered embodied agent that uses GPT-4 to play Minecraft autonomously, generating code to explore, build skills, and unlock tech tree milestones without human intervention.
-  why_it_matters: It demonstrates a practical architecture for using LLMs to generate and store executable code as reusable skills, offering a reference pattern for developers building autonomous agents.
-  mental_damage: Your CI pipeline still needs a human to approve a PR, while a research bot in a block game has already mastered lifelong learning and self-improvement without asking for a single code review.
+  summary: Voyager is a research project and embodied lifelong learning agent that uses GPT-4 to autonomously play Minecraft, build a growing skill library of executable code, and explore open-ended worlds without human intervention.
+  why_it_matters: It demonstrates a practical architecture for iterative prompting, self-verification, and skill retrieval that developers can study when building autonomous agents that must master long-horizon tasks.
+  mental_damage: We have agents that can unlock the entire Minecraft diamond tech tree in minutes, yet we still cannot ship a working CSV import without three rounds of human intervention.
   tags:
-    - agents
-    - lifelong-learning
-    - llm
-    - minecraft
+    - agent
     - research
+    - autonomous
+    - lifelong-learning
+    - minecraft
   confidence: high
 curation:
   status: excluded
-  reason: While it is listed in awesome-ai-agents, this is a research project focused on embodied AI in Minecraft rather than a practical tool for improving software development workflows.
+  reason: This is a research prototype and academic paper focused on embodied AI in Minecraft, not a practical developer tool, framework, or product for building software.
   evidence:
-    - Scraped site context describes it as an 'embodied lifelong learning agent in Minecraft' developed by NVIDIA, Caltech, and UT Austin.
-    - The abstract and README focus on game-playing benchmarks and tech tree mastery, not developer tooling or code editing.
-    - Appears in source lists under 'awesome-ai-agents' for research purposes, but lacks a developer-facing product or IDE integration.
+    - Described as 'an LLM-powered embodied lifelong learning agent in Minecraft' rather than a coding or developer tool.
+    - Primary artifacts are an arXiv paper, abstracts, and research team affiliations rather than importable libraries or operated platforms.
+    - Appears in awesome-ai-agents as a research example, not as a developer-facing product or SDK.
 placement:
   primary_category: null
   section: null
@@ -58,17 +58,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:08.424Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:01.980Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

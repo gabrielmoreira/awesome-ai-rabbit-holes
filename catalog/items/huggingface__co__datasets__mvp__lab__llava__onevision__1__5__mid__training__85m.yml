@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__mid__training__85m__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,23 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A large, 91.5M-row image-text dataset on Hugging Face used for mid-training vision-language models like LLaVA-OneVision.
-  why_it_matters: Developers fine-tuning multimodal models can use this dataset to improve image-caption alignment and visual reasoning capabilities.
-  mental_damage: Another 85 million rows of carefully captioned pomegranate juice and monster trucks, because apparently the path to AGI requires teaching a model what a DSAAC sculpture looks like.
+  summary: A 91.5M-row image-text dataset on Hugging Face used for mid-training a vision-language model (LLaVA-OneVision-1.5), containing images paired with descriptive captions.
+  why_it_matters: It provides a large-scale multimodal dataset for developers training or fine-tuning vision-language models who need diverse image-caption pairs.
+  mental_damage: Another 90-million-row reminder that before you can automate coding, the industry must first teach a model what a Ferrari looks like and how to describe pomegranate juice.
   tags:
     - dataset
-    - multimodal
-    - llava
     - vision-language
-    - training-data
+    - multimodal
+    - training
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw training dataset and research resource, not a developer-facing tool, agent, IDE, or infrastructure product.
+  reason: This is a raw training dataset, not a developer-facing AI tool, agent, workflow, or infrastructure product, and it lacks any tooling identity for the catalog's scope.
   evidence:
-    - Hosted on Hugging Face Datasets with 91.5M rows of image-caption pairs for model training.
-    - Appears in awesome-LLM-resources under a 'Paper' section, signaling a research/data resource.
-    - No description of a tool, CLI, IDE plugin, or developer workflow product in any provided input.
+    - Hugging Face dataset page shows modalities Image+Text with 91.5M rows of image-caption pairs, not a tool or product.
+    - Source list 'awesome-LLM-resources' includes it under '论文 Paper', indicating it is a research/dataset resource rather than developer tooling.
+    - No repo description, homepage, stars, or product surface exists; it is purely a data artifact.
 placement:
   primary_category: null
   section: null
@@ -60,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:45:24.366Z"
+    updated_at: "2026-05-06T22:26:03.266Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

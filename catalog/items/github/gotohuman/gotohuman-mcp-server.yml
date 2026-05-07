@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gotohuman__gotohuman-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,39 +21,9 @@ provenance:
         extracted_url: https://github.com/gotohuman/gotohuman-mcp-server
         surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
         confidence: high
-    - id: discovery__www__gotohuman__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: gotoHuman
-        extracted_url: https://www.gotohuman.com
-        surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
-        confidence: high
-    - id: discovery__www__gotohuman__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: tensorchord/Awesome-LLMOps
-        url: https://github.com/tensorchord/awesome-llmops
-        repository: tensorchord/Awesome-LLMOps
-      extraction:
-        mode: parsed
-        section_path:
-          - LLMOps
-        anchor_text: gotoHuman
-        extracted_url: https://www.gotohuman.com
-        surrounding_text: "| [gotoHuman](https://www.gotohuman.com)                             | Bring a **human into the loop** in your LLM-based and agentic workflows. Prompt users to approve actions, select next steps, or review and validate generated results.                                                                                                                                                                                                                                  |"
-        confidence: high
 metadata:
   github:
-    stars: 54
+    stars: 53
     forks: 11
     license: MIT
     archived: false
@@ -62,53 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:25.390Z"
+    last_checked_at: "2026-05-06T22:44:05.900Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.390Z"
+      fetched_at: "2026-05-06T22:44:05.900Z"
       bytes: 2774
 insights:
-  summary: An MCP server that lets AI agents and workflows request human approvals via gotoHuman's managed human-in-the-loop platform with a customizable UI, webhooks, and team features.
-  why_it_matters: It gives developers a drop-in way to add human oversight to autonomous agent workflows, helping prevent agents from silently making bad decisions without building a custom review system.
-  mental_damage: We have finally built the corporate approval layer for the thing that was supposed to eliminate the corporate approval layer.
+  summary: An MCP server that lets AI agents and IDEs request human approvals via the gotoHuman platform, pausing workflows until a person reviews and signs off.
+  why_it_matters: It gives agents a clean way to escalate ambiguous or risky outputs to a human inbox instead of blindly pushing changes.
+  mental_damage: We have finally built the bureaucratic layer our agents always deserved, complete with forms, webhooks, and a training dataset of our own hesitation.
   tags:
-    - agent-orchestration
-    - approval-workflow
-    - human-in-the-loop
     - mcp
-    - workflow-automation
+    - human-in-the-loop
+    - agent-workflows
+    - approvals
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server that adds human approval capabilities to MCP-compatible clients and agent workflows, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that adds human-approval capabilities to AI agents and IDEs, making MCP its core identity.
   evidence:
-    - README explicitly states 'Use our MCP server to request human approvals from your AI workflows via MCP'
-    - Provides MCP configuration examples for Cursor, Claude, and Windsurf with npx @gotohuman/mcp-server
-    - Listed in awesome-mcp-servers directory under Official Servers section
-    - Site describes it as 'a central control plane for your team to approve actions' and 'supervise AI agents in one unified platform'.
-    - Provides integrations and SDKs for n8n, Make, LangGraph, and Python/TypeScript, plus an MCP server for broad workflow adoption.
-    - Listed in awesome-mcp-servers and Awesome-LLMOps under human approval and agent supervision contexts.
+    - Repo name and README explicitly define it as an MCP server for human approvals in agentic workflows.
+    - README shows MCP client config examples for Cursor, Claude, and Windsurf and an npx install command.
+    - Listed in awesome-mcp-servers under the Official Servers section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:26.021Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.910Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.390Z"
+    updated_at: "2026-05-06T22:44:05.900Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:26.560Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

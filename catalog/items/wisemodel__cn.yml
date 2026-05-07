@@ -1,0 +1,77 @@
+id: wisemodel__cn
+kind: website
+name: wisemodel.cn
+canonical_url: https://wisemodel.cn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__wisemodel__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 社区 Community
+        anchor_text: WiseModel
+        extracted_url: https://www.wisemodel.cn
+        surrounding_text: 4. [WiseModel](https://www.wisemodel.cn/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese AI open-source community and hosting platform for models, datasets, and code, positioned as an all-in-one ecosystem for future agent development.
+  why_it_matters: It provides a localized hub for discovering and hosting models and agent resources, acting as an ecosystem directory and infrastructure layer for developers building AI workflows.
+  mental_damage: Just when you thought the fragmentation of the AI ecosystem was manageable, we now have a distinct 'all-in-one' platform for every region, ensuring you'll need a separate bookmark folder for every time zone.
+  tags:
+    - models
+    - community
+    - agents
+    - datasets
+    - directory
+  confidence: medium
+curation:
+  status: included
+  reason: It functions primarily as a community hub and directory for AI models and agents rather than a standalone developer tool, fitting the 'Lists & Directories' mold.
+  evidence:
+    - Scraped site context describes it as a '中立开放的AI开源社区' (neutral open AI community) for models, datasets, and code.
+    - Source-list context places it in an 'awesome-LLM-resources' list under the '社区 Community' section.
+    - The pitch describes an 'all-in-one platform' for the Agent ecosystem, indicating a hosting/directory identity rather than a specific coding tool.
+placement:
+  primary_category: awesome-awesomes
+  section: Directories & Maps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:21.131Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

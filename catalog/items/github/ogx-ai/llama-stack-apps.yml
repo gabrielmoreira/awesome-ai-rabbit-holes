@@ -1,0 +1,80 @@
+id: github__ogx-ai__llama-stack-apps
+kind: github-repo
+name: llama-stack-apps
+canonical_url: https://github.com/ogx-ai/llama-stack-apps
+identity:
+  github_repo: ogx-ai/llama-stack-apps
+provenance:
+  discoveries:
+    - id: discovery__github__ogx-ai__llama-stack-apps__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: llama-agentic-system
+        extracted_url: https://github.com/meta-llama/llama-agentic-system
+        surrounding_text: "21. [llama-agentic-system ](https://github.com/meta-llama/llama-agentic-system): Agentic components of the Llama Stack APIs."
+        confidence: high
+metadata:
+  github:
+    stars: 4301
+    forks: 644
+    license: MIT
+    archived: true
+    created_at: "2024-06-25T22:29:07Z"
+    pushed_at: "2025-08-05T14:49:58Z"
+    description: Agentic components of the Llama Stack APIs
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:45:38.120Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:38.120Z"
+      bytes: 9012
+insights:
+  summary: Sample agentic applications and tooling examples built on top of the Llama Stack APIs for multi-step reasoning, tool use, and safety checks.
+  why_it_matters: Provides reference implementations and a client-side starting point for developers building agentic workflows on Meta's standardized Llama Stack distribution.
+  mental_damage: Yet another 'here is how to build an agent' scaffolding repo to clone, run once, and then watch quietly accumulate dust while you wonder if you should have just used the raw API.
+  tags:
+    - llama
+    - agent-examples
+    - meta
+    - llama-stack
+  confidence: high
+curation:
+  status: excluded
+  reason: The repo is archived and consists of sample apps and examples rather than a reusable developer tool, framework, or product that fits the catalog's scope.
+  evidence:
+    - Repo description states it is 'Agentic components of the Llama Stack APIs', indicating sample/example code rather than a standalone product.
+    - "Archived: yes — a strong negative signal for inclusion unless there is a compelling reason otherwise."
+    - README positions it as demo scripts and getting-started examples for connecting client apps to a Llama Stack server, not as a tool, framework, or platform.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.633Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:38.120Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:35.207Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

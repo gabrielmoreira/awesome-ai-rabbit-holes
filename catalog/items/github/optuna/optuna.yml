@@ -1,13 +1,13 @@
 id: github__optuna__optuna
 kind: github-repo
-name: Optuna
+name: optuna
 canonical_url: https://github.com/optuna/optuna
 identity:
   github_repo: optuna/optuna
 provenance:
   discoveries:
     - id: discovery__github__optuna__optuna__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14096
-    forks: 1322
+    stars: 14102
+    forks: 1324
     license: MIT
     archived: false
     created_at: "2018-02-21T06:12:56Z"
@@ -37,49 +37,49 @@ metadata:
       - machine-learning
       - parallel
       - python
-    last_checked_at: "2026-05-05T21:04:08.218Z"
+    last_checked_at: "2026-05-06T22:45:44.647Z"
     readme:
-      fetched_at: "2026-05-05T21:04:08.218Z"
+      fetched_at: "2026-05-06T22:45:44.647Z"
       bytes: 12914
 insights:
-  summary: Optuna is a Python framework for automatic hyperparameter optimization designed for machine learning workflows.
-  why_it_matters: It allows developers to move beyond manual grid search by dynamically constructing search spaces and efficiently pruning unpromising trials using a define-by-run API.
-  mental_damage: Yet another sophisticated tool to help you discover that your model's performance is actually quite sensitive to random seed initialization.
+  summary: Optuna is an open-source Python framework for automatic hyperparameter optimization in machine learning workflows.
+  why_it_matters: It provides a lightweight, define-by-run API that lets developers dynamically construct search spaces and scale optimization studies across distributed workers with minimal code changes.
+  mental_damage: Yet another sophisticated tool to perfectly tune the hyperparameters of a model that will still fail silently in production because the training data was garbage.
   tags:
-    - automl
     - hyperparameter-optimization
     - machine-learning
     - python
+    - automl
   confidence: high
 curation:
   status: excluded
-  reason: The project is a traditional machine learning framework for hyperparameter tuning, lacking the AI-assisted developer tooling angle required for this catalog.
+  reason: Excluded because it is a general machine learning optimization library with no AI developer tooling, coding agent, or prompt/context engineering angle.
   evidence:
-    - Repo description identifies it strictly as 'A hyperparameter optimization framework' for machine learning.
-    - README focuses on Pythonic search spaces and efficient optimization algorithms for ML models, not developer workflows.
-    - Listed in Awesome-LLMOps under 'AutoML', which targets model training infrastructure rather than AI-assisted coding.
+    - Repo description explicitly states 'A hyperparameter optimization framework' for machine learning.
+    - README emphasizes ML features like samplers, pruners, and visualization for training models, not coding assistants.
+    - Source list context places it under 'AutoML' in an LLMOps list, which is an operational category rather than a developer tooling fit.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14096) exceeded threshold (150)
+  reason: Stars (14102) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:08.855Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:08.218Z"
+    updated_at: "2026-05-06T22:45:44.647Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:06.615Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

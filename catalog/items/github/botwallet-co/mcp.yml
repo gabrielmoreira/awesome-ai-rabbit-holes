@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__botwallet-co__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - payments
       - solana
       - wallet
-    last_checked_at: "2026-05-05T21:01:24.150Z"
+    last_checked_at: "2026-05-06T22:12:56.032Z"
     readme:
-      fetched_at: "2026-05-05T21:01:24.150Z"
+      fetched_at: "2026-05-06T22:12:56.032Z"
       bytes: 9416
 insights:
-  summary: An MCP server that gives AI agents a USDC wallet with FROST threshold signing, spending guard rails, and the ability to pay for x402 APIs or create invoices.
-  why_it_matters: Developers can let coding agents autonomously pay for API access and handle microtransactions without handing over unrestricted spend keys.
-  mental_damage: Your AI agent now has a stipend, a cryptographic identity, and the ability to invoice clients, while you’re still manually approving its $5 purchases like a confused parent.
+  summary: An MCP server that gives AI agents a USDC wallet with FROST threshold signing, spending guard rails, and x402 paid API access.
+  why_it_matters: Developers can let agents handle payments, create invoices, and pay for APIs while enforcing human approval on larger transactions.
+  mental_damage: We have finally built the financial infrastructure to let a hallucinating agent accidentally donate your stablecoins to a nonexistent consulting session.
   tags:
     - mcp
     - payments
-    - agents
     - wallet
-    - x402
+    - agent-infrastructure
+    - fintech
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for giving agents wallet capabilities, which fits cleanly into MCP Servers and Tooling rather than broader agent orchestration or coding-agent categories.
+  reason: The product is an MCP server that adds wallet and payment capabilities to MCP-compatible clients, making MCP the clear product identity.
   evidence:
-    - "Repo description states: 'MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol.'"
-    - README positions it as a drop-in MCP server for Claude Desktop, Cursor, Windsurf, Cline, and other MCP-compatible clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, confirming MCP ecosystem relevance.
+    - "Repo description: 'MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol.'"
+    - "README: 'Works with Claude Desktop, Cursor, Windsurf, Cline, and any MCP-compatible client.'"
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:24.150Z"
+    updated_at: "2026-05-06T22:12:56.032Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:24.681Z"
+    updated_at: "2026-05-06T22:24:55.069Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

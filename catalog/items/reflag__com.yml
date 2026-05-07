@@ -1,12 +1,12 @@
 id: reflag__com
 kind: website
-name: Reflag
+name: reflag.com
 canonical_url: https://reflag.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__reflag__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [reflagcom/mcp](https://github.com/reflagcom/javascript/tree/main/packages/cli#model-context-protocol) 🎖️ 📇 ☁️ - Flag features directly from chat in your IDE with [Reflag](https://reflag.com)."
         confidence: high
     - id: discovery__reflag__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,44 +50,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A TypeScript-first feature flag platform with SDKs for React, Vue, Next, and Node, offering Linear and Slack integrations alongside a self-cleaning agent for flag removal.
-  why_it_matters: It streamlines feature rollouts and cleanup for SaaS teams while claiming to integrate directly with agentic workflows and IDEs like Cursor.
-  mental_damage: We have finally reached the point where the flags themselves are unionized and demand an agent to negotiate their retirement.
+  summary: A TypeScript-first feature flag platform with SDKs, local evaluation, and an MCP adapter that allows AI coding agents to create and manage feature flags via prompts.
+  why_it_matters: It integrates feature flags directly into AI-assisted development workflows, enabling agents to safely roll out and self-clean flags while keeping developers in flow with Linear and Slack sync.
+  mental_damage: We have finally automated the one thing developers are supposed to do manually just to prove we can still over-engineer a boolean.
   tags:
-    - agent-ready
-    - developer-tools
     - feature-flags
     - mcp
     - typescript
+    - agent-ready
+    - sdk
   confidence: medium
 curation:
   status: included
-  reason: The product primarily extends developer workflows and AI coding assistants (like Cursor) with feature flag management and MCP-based cleanup, fitting the extension/skills category.
+  reason: Reflag is a feature management SaaS at its core, but it is included here because its MCP server is a first-class integration that lets coding agents manage flags via prompt, fitting the MCP Servers category.
   evidence:
-    - Scraped site claims 'Auto cleaning up stale feature flags' and 'flagging using just a prompt in Cursor'.
-    - Listed in awesome-mcp-servers under 'Developer Tools' with description 'TypeScript feature management'.
-    - Provides SDKs for React, Vue, Next, Node and integrates with Linear and Slack.
+    - Appears in awesome-mcp-servers under 'Official Servers' and 'Developer Tools' with MCP-linked descriptions.
+    - Site excerpt highlights 'Agent-created code flagged with MCP' and 'Reflag agent handles flag cleanup' as core workflow hooks.
+    - Primary product is feature management with SDKs for React, Vue, Next, Node, and strong MCP integration for Cursor and other agents.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:29.060Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:53.351Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

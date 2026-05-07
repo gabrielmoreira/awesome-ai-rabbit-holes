@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__decisionnode__decisionnode__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - ui
       - vector-search
       - windsurf
-    last_checked_at: "2026-05-05T21:01:50.445Z"
+    last_checked_at: "2026-05-06T22:43:35.626Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.445Z"
+      fetched_at: "2026-05-06T22:43:35.626Z"
       bytes: 9389
 insights:
-  summary: A CLI and local MCP server that provides a shared, semantically searchable structured memory store for architectural decisions across Claude Code, Cursor, Windsurf, and other MCP clients.
-  why_it_matters: It lets AI coding agents persist and retrieve project-specific architectural context on demand instead of relying solely on static files or hallucinated recall.
-  mental_damage: Yet another layer of infrastructure to ensure your AI assistant remembers that you definitely, absolutely decided against connection pooling three weeks ago.
+  summary: A CLI and local MCP server that provides a shared, semantically queryable structured memory store for architectural decisions across Claude Code, Cursor, Windsurf, and other MCP clients.
+  why_it_matters: It lets AI coding assistants retrieve relevant past architectural decisions on demand via semantic search instead of bloating system prompts with static rules files.
+  mental_damage: Because apparently we've solved context windows by building a vector database for the meetings we wish we hadn't skipped.
   tags:
     - mcp
     - memory
-    - cli
     - semantic-search
-    - local
-  confidence: medium
+    - cli
+    - local-first
+  confidence: high
 curation:
   status: included
-  reason: The product is itself an MCP server and CLI tool for structured memory, fitting cleanly into MCP infrastructure rather than being a core coding agent, extension, or framework.
+  reason: The core novelty is a memory and retrieval system that stores structured decisions as vectors and exposes them via MCP for just-in-time context injection.
   evidence:
-    - Repo description explicitly states 'CLI + Local MCP - A shared structured memory store... Semantically queryable.'
-    - README confirms it exposes functionality via MCP with tools like add_decision and search_decisions, using local vector embeddings.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory', reinforcing its role as MCP infrastructure.
+    - "Repo description states: 'A shared structured memory store across Claude Code, Cursor, Windsurf... Semantically queryable.'"
+    - README explains retrieval is explicit via MCP search tool with cosine similarity, not pre-injected into system prompts.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.445Z"
+    updated_at: "2026-05-06T22:43:35.626Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:54.782Z"
+    updated_at: "2026-05-06T22:52:10.064Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

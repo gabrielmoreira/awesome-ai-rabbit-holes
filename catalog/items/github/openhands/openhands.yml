@@ -1,44 +1,13 @@
 id: github__openhands__openhands
 kind: github-repo
-name: OpenHands
+name: openhands
 canonical_url: https://github.com/openhands/openhands
 identity:
   github_repo: openhands/openhands
 provenance:
   discoveries:
-    - id: discovery__github__all-hands-ai__openhands__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradagi/awesome-cli-coding-agents
-        repository: bradAGI/awesome-cli-coding-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Terminal-native coding agents
-          - Open Source
-        anchor_text: OpenHands
-        extracted_url: https://github.com/all-hands-ai/openhands
-        surrounding_text: "- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only package](https://github.com/OpenHands/OpenHands-CLI)."
-        confidence: high
-    - id: discovery__github__opendevin__opendevin__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - OpenDevin
-        anchor_text: OpenDevin
-        extracted_url: https://github.com/opendevin/opendevin
-        surrounding_text: "## [OpenDevin](https://github.com/OpenDevin/OpenDevin)"
-        confidence: high
     - id: discovery__github__openhands__openhands__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -52,24 +21,9 @@ provenance:
         anchor_text: OpenHands
         extracted_url: https://github.com/all-hands-ai/openhands
         surrounding_text: "- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only package](https://github.com/OpenHands/OpenHands-CLI)."
-        confidence: high
-    - id: discovery__opendevin__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Coding Agents
-        anchor_text: OpenHands (OpenDevin)
-        extracted_url: https://opendevin.ai
-        surrounding_text: "- **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous development."
         confidence: high
     - id: discovery__github__openhands__openhands__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -85,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 72671
-    forks: 9193
+    stars: 72759
+    forks: 9215
     license: NOASSERTION
     archived: false
     created_at: "2024-03-13T03:33:31Z"
-    pushed_at: "2026-05-05T20:19:23Z"
+    pushed_at: "2026-05-06T21:28:41Z"
     description: "🙌 OpenHands: AI-Driven Development"
     homepage: https://openhands.dev
     topics:
@@ -103,58 +57,50 @@ metadata:
       - gpt
       - llm
       - openai
-    last_checked_at: "2026-05-05T21:04:06.095Z"
+    last_checked_at: "2026-05-06T22:45:42.878Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.095Z"
+      fetched_at: "2026-05-06T22:45:42.878Z"
       bytes: 8390
 insights:
-  summary: OpenHands is an open-source platform providing a Software Agent SDK, CLI, and GUI for running AI agents that can plan, write, edit, review, and debug code within a developer's repository or via cloud integrations.
-  why_it_matters: It offers a high-performance, self-hostable alternative to commercial coding agents like Devin, achieving strong benchmark results while integrating directly into developer workflows via CLI, IDE, or Slack.
-  mental_damage: Just when you finally memorized the CLI flags for your last coding agent, the community gifts you a modular SDK that makes you question if your current tool is just a glorified autocomplete wrapper.
+  summary: OpenHands is an AI-driven development platform providing a Python SDK, CLI, and local/cloud GUI to plan, write, and debug code across repositories using various LLMs.
+  why_it_matters: It offers developers a flexible, model-agnostic alternative to proprietary coding agents like Devin and Claude Code, with options ranging from terminal-native CLI usage to enterprise self-hosting.
+  mental_damage: Yet another 'Devin competitor' where the main challenge isn't the code generation, but deciding which of the 72,000 stars in your toolchain you actually trust to push to main.
   tags:
-    - agent
-    - autonomous
-    - cli
     - coding-agent
-    - local-ai
-    - open-source
+    - cli
     - sdk
-    - swe-agent
+    - self-hosted
+    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: The tool is a direct developer-facing coding assistant that operates on source code via CLI, SDK, and GUI, fitting the coding-agents category perfectly.
+  reason: The product is a primary coding assistant (CLI, GUI, Cloud) that developers delegate repo work to, fitting the 'Terminal & CLI Agents' profile better than a framework or extension.
   evidence:
-    - Repo description identifies it as 'AI-Driven Development' and the README details an SDK, CLI, and Local GUI for agentic coding.
-    - Features integrations with Slack, Jira, and Linear, targeting direct developer workflow integration rather than just app generation.
-    - Achieved 77.6% on SWEBench and has significant traction (72k+ stars) as a coding agent alternative.
-    - Repo description states 'AI-Driven Development' and README describes a CLI experience 'familiar to anyone who has worked with e.g. Claude Code'.
-    - README details 'OpenHands Local GUI' and 'Software Agent SDK' designed to 'run them locally, or scale to 1000s of agents'.
-    - High traction with 72,671 stars and recent activity (pushed 2026-05-05) indicates active developer tooling.
-    - Included in the 'awesome-ai-coding-tools' list under the 'Coding Agents' section.
-    - The project (OpenDevin) is a well-known autonomous coding agent framework, even though this specific URL points to the site rather than the repo.
+    - Repo description identifies it as 'AI-Driven Development' and source lists classify it as a 'Terminal-native coding agent'.
+    - README explicitly compares the CLI experience to Claude Code and the GUI to Devin/Jules, confirming its identity as a primary assistant.
+    - High traction with 72,759 stars and active development (pushed 2026-05-06) confirms ecosystem relevance.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (72671) exceeded threshold (150)
+  reason: Stars (72759) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:44.418Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.096Z"
+    updated_at: "2026-05-06T22:45:42.878Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:42.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__systran__faster-whisper
 kind: github-repo
-name: Faster Whisper
+name: faster-whisper
 canonical_url: https://github.com/systran/faster-whisper
 identity:
   github_repo: systran/faster-whisper
 provenance:
   discoveries:
-    - id: discovery__github__guillaumekln__faster-whisper__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__systran__faster-whisper__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 22645
-    forks: 1848
+    stars: 22672
+    forks: 1850
     license: MIT
     archived: false
     created_at: "2023-02-11T09:17:27Z"
@@ -41,49 +41,50 @@ metadata:
       - speech-to-text
       - transformer
       - whisper
-    last_checked_at: "2026-05-05T21:02:29.327Z"
+    last_checked_at: "2026-05-06T22:46:39.192Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.327Z"
+      fetched_at: "2026-05-06T22:46:39.192Z"
       bytes: 15246
 insights:
   summary: A Python reimplementation of OpenAI's Whisper speech recognition model using the CTranslate2 inference engine for faster transcription with lower memory usage.
-  why_it_matters: Developers building voice features or processing audio pipelines can integrate state-of-the-art transcription that runs up to 4x faster and supports 8-bit quantization on both CPU and GPU.
-  mental_damage: We have successfully optimized the model that transcribes our meetings so efficiently that we now have even more free time to worry about why we aren't shipping code.
+  why_it_matters: Developers building voice features or transcription pipelines can integrate Whisper-compatible speech-to-text into apps with significantly reduced latency and resource overhead.
+  mental_damage: Yet another reminder that the AI ecosystem is just layers of re-implementations of re-implementations, optimized so we can transcribe meetings we'll never listen to 4x faster.
   tags:
-    - inference
-    - local-ai
-    - python
     - speech-to-text
+    - inference
+    - whisper
+    - python
+    - optimization
   confidence: high
 curation:
-  status: included
-  reason: This is a local model serving stack that allows developers to run speech-to-text inference on their own hardware, fitting the Local AI category.
+  status: excluded
+  reason: This is a general-purpose speech recognition library for model inference, not a developer-facing AI tool, agent, or workflow specific to software development.
   evidence:
-    - "Repo description states: 'Faster Whisper transcription with CTranslate2'."
-    - README confirms it is a reimplementation for fast inference using CTranslate2, supporting CPU and GPU with quantization.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', indicating its role in local model infrastructure.
+    - Repo description identifies it as a Whisper transcription reimplementation using CTranslate2, not a dev tool.
+    - README focuses entirely on speech-to-text benchmarks and Python library usage, with no coding-agent or developer-workflow angle.
+    - Source list context places it in 'Large Model Serving' under LLMOps, which is infrastructure/ML ops rather than developer tooling.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (22645) exceeded threshold (150)
+  reason: Stars (22672) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:10.816Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.327Z"
+    updated_at: "2026-05-06T22:46:39.192Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:16.145Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

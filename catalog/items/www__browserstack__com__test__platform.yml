@@ -1,12 +1,12 @@
 id: www__browserstack__com__test__platform
 kind: website
-name: Test Platform
+name: test-platform
 canonical_url: https://www.browserstack.com/test-platform
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__browserstack__com__test__platform__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BrowserStack Test Platform is a cloud-based testing suite that combines manual testing, automation, and visual/accessibility checks with AI-powered workflows and agent integrations.
-  why_it_matters: It centralizes web and mobile testing across real devices with AI assistance, helping developers scale automation and improve release quality without managing their own device infrastructure.
-  mental_damage: Another platform promises to solve your QA debt with AI agents, while your team is still debating whether a button should be blue or accessible.
+  summary: A comprehensive, enterprise-scale testing platform that combines manual, automated, and low-code testing with AI agent workflows for web and mobile apps.
+  why_it_matters: It consolidates cross-browser, mobile, accessibility, and visual testing into a single AI-enhanced platform with deep CI/CD and Jira integrations.
+  mental_damage: Your QA cycle is now powered by AI agents, meaning you can finally spend less time debugging flaky tests and more time wondering if the AI is hallucinating the passing build.
   tags:
-    - accessibility
-    - ai-agents
-    - automation
-    - browserstack
     - testing
+    - qa
+    - ai-agents
+    - enterprise
+    - ci-cd
   confidence: high
 curation:
   status: excluded
-  reason: This is a general testing and QA platform for web/mobile apps, not a developer-facing AI coding tool, agent, IDE, or app builder that fits the catalog's scope.
+  reason: Exclude because this is a general enterprise testing SaaS for QA teams, not a developer-facing AI coding tool, agent, or infrastructure component.
   evidence:
-    - The product is described as an 'Open, flexible and integrated platform' for testing websites and mobile apps on real browsers and devices.
-    - Primary features center on cross-browser testing, mobile app testing, accessibility, and test management rather than code generation or AI coding assistance.
-    - Although it mentions 'AI agent powered workflows', these are focused on test planning/execution rather than developer coding workflows or repo-based assistance.
+    - Scraped site context describes a 'comprehensive test platform' for web/mobile testing, accessibility, and low-code automation, not a coding assistant.
+    - The site focuses on 'AI agent powered workflows' for test planning and execution, targeting QA/enterprise users rather than repo-level coding workflows.
+    - Appears in awesome-mcp-servers only as a server entry, but the core product is a broad testing platform rather than MCP-first tooling.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:55.964Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:12.858Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__internlm__mindsearch
 kind: github-repo
-name: MindSearch
+name: mindsearch
 canonical_url: https://github.com/internlm/mindsearch
 identity:
   github_repo: internlm/mindsearch
 provenance:
   discoveries:
     - id: discovery__github__internlm__mindsearch__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [MindSearch](https://github.com/InternLM/MindSearch) | LLM-based multi-agent framework for web search engine | ![Stars](https://img.shields.io/github/stars/InternLM/MindSearch) |"
         confidence: high
     - id: discovery__github__internlm__mindsearch__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6848
-    forks: 681
+    stars: 6847
+    forks: 682
     license: Apache-2.0
     archived: false
     created_at: "2024-07-28T03:54:50Z"
@@ -58,49 +58,50 @@ metadata:
       - searchgpt
       - transformer
       - web-search
-    last_checked_at: "2026-05-05T21:02:45.793Z"
+    last_checked_at: "2026-05-06T22:44:25.641Z"
     readme:
-      fetched_at: "2026-05-05T21:02:45.793Z"
+      fetched_at: "2026-05-06T22:44:25.641Z"
       bytes: 5120
 insights:
-  summary: An open-source, multi-agent framework that decomposes complex queries into sub-questions and performs parallel web searches to mimic human research workflows.
-  why_it_matters: Developers can self-host a Perplexity-style search engine, swapping in custom LLMs and search APIs to build deep research capabilities into their own applications.
-  mental_damage: Yet another opportunity to realize that while the agents are great at parallel searching, you're still the one manually aggregating why the four different API keys failed.
+  summary: MindSearch is an open-source, multi-agent framework that mimics human search behavior to perform deep web research using LLMs and various search engine APIs.
+  why_it_matters: Developers can self-host this Perplexity-style search engine to build custom research agents that decompose complex queries and synthesize answers from multiple web sources.
+  mental_damage: Yet another opportunity to replace a five-second Google search with a multi-agent orchestration architecture that takes three minutes to deliberate on your query.
   tags:
-    - llm-framework
     - multi-agent
-    - research
     - web-search
+    - llm-framework
+    - self-hosted
+    - research
   confidence: high
 curation:
   status: included
-  reason: It is a code-first framework and SDK for building multi-agent search systems, distributed via GitHub for developers to import and run locally, rather than a hosted control plane.
+  reason: The project is a code-first library and backend server (FastAPI) that developers import and script against to build multi-agent search capabilities, fitting the Frameworks & SDKs definition over an orchestration platform.
   evidence:
-    - Repo description defines it as an 'LLM-based Multi-agent Framework' for web search.
-    - README provides pip install instructions and Python API setup, confirming it is a developer SDK/library.
-    - Included in 'awesome-agent-orchestration' under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
+    - Repo description explicitly calls it an 'LLM-based Multi-agent Framework'.
+    - Setup involves cloning the repo, installing Python requirements, and running a FastAPI server and React frontend locally.
+    - Listed in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6848) exceeded threshold (150)
+  reason: Stars (6847) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:24.847Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:45.793Z"
+    updated_at: "2026-05-06T22:44:25.641Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:27.694Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

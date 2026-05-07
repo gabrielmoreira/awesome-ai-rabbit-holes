@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepseek-ai__deepseek-coder-v2__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6706
+    stars: 6710
     forks: 1077
     license: MIT
     archived: false
@@ -32,50 +32,50 @@ metadata:
     description: "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence"
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:50.984Z"
+    last_checked_at: "2026-05-06T22:43:36.046Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.984Z"
+      fetched_at: "2026-05-06T22:43:36.046Z"
       bytes: 20235
 insights:
-  summary: DeepSeek-Coder-V2 is an open-source Mixture-of-Experts (MoE) code language model available in 16B and 236B parameter sizes, designed to match or exceed closed-source models like GPT-4 Turbo on code-specific tasks.
-  why_it_matters: It provides developers with a high-performing, locally runnable alternative to proprietary coding models, supporting 338 programming languages with a 128k context window.
-  mental_damage: "Just what we needed: another benchmark where an open-source model claims parity with GPT-4, ensuring we spend the next month tuning yet another set of inference parameters instead of writing code."
+  summary: DeepSeek-Coder-V2 is an open-source Mixture-of-Experts (MoE) code language model available in 16B and 236B parameter sizes, designed to rival closed-source models like GPT-4 Turbo in code intelligence and math reasoning.
+  why_it_matters: Developers can self-host or fine-tune a high-performing coding model with 128k context and support for 338 programming languages, reducing dependency on proprietary APIs.
+  mental_damage: Another open-weight model claims to break the barrier of closed-source dominance, giving you one more reason to spend your weekend benchmarking it against your current stack instead of shipping code.
   tags:
     - llm
     - code-model
-    - local-ai
-    - open-source
+    - self-hosted
     - moe
+    - open-source
   confidence: high
 curation:
-  status: included
-  reason: The repository distributes the weights and instructions for running a powerful coding model locally, fitting the scope of local AI tooling for developers.
+  status: excluded
+  reason: This is a base/fine-tuned model release (weights and paper), not a developer-facing tool, agent, IDE, or infrastructure product that engineers would directly adopt into their workflow.
   evidence:
-    - Repo description states it is 'Breaking the Barrier of Closed-Source Models in Code Intelligence'.
-    - README details models (16B and 236B) available on HuggingFace for local use with 128k context.
-    - Listed under 'Code Models' in the awesome-ai-coding-tools directory, confirming its identity as a model weight distribution.
+    - Repo description defines it as a code language model, not a tool or product.
+    - README focuses on model downloads, benchmark results, and paper links rather than tooling UX.
+    - Listed in awesome-ai-coding-tools under 'Code Models', which is a model category rather than a developer tool category.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6706) exceeded threshold (150)
+  reason: Stars (6710) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.984Z"
+    updated_at: "2026-05-06T22:43:36.046Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:00.761Z"
+    updated_at: "2026-05-06T22:52:16.456Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

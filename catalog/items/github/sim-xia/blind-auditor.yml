@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sim-xia__blind-auditor__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-11-26T05:26:18Z"
+    pushed_at: "2025-12-10T00:20:45Z"
+    description: MCP tool for improving model coding quality by mandatory self-audition
+    homepage: ""
+    topics:
+      - agent
+      - ai-safety
+      - mcp
+      - python
+      - quality-improvement
+    last_checked_at: "2026-05-06T22:46:25.179Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:25.179Z"
+      bytes: 7049
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that intercepts AI-generated code and forces the host agent into a mandatory, isolated self-audit loop against configurable rules before releasing the output.
+  why_it_matters: It lets teams hard-code coding standards and quality gates directly into the agent workflow, preventing unvetted drafts from reaching the user without adding external API costs.
+  mental_damage: We have finally built a tool that makes the AI question its own existence before it inflicts code upon us, which is both a triumph of engineering and a damning indictment of our current workflow.
+  tags:
+    - mcp
+    - code-quality
+    - self-audit
+    - agent-safety
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server whose core identity is providing a mandatory audit middleware layer for coding agents via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly states 'MCP tool for improving model coding quality by mandatory self-audition'.
+    - README positions it as a 'mandatory code auditing system built on the MCP (Model Context Protocol)'.
+    - Source list places it in awesome-mcp-servers under 'Coding Agents', confirming MCP server identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:25.179Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:43.041Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

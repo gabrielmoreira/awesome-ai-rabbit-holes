@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flepied__second-brain-agent__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 292
+    stars: 293
     forks: 28
     license: GPL-3.0
     archived: false
@@ -42,50 +42,50 @@ metadata:
       - personal-knowledge-management
       - pkm
       - second-brain
-    last_checked_at: "2026-05-05T21:02:12.041Z"
+    last_checked_at: "2026-05-06T22:43:54.581Z"
     readme:
-      fetched_at: "2026-05-05T21:02:12.041Z"
+      fetched_at: "2026-05-06T22:43:54.581Z"
       bytes: 13802
 insights:
-  summary: A local AI agent that automatically indexes personal knowledge bases—including markdown, PDFs, and videos—and exposes them via a built-in MCP server for retrieval.
-  why_it_matters: It provides developers with a self-hosted bridge between their existing note stacks and LLM workflows by surfacing relevant context through the Model Context Protocol.
-  mental_damage: Yet another excuse to spend three hours configuring a RAG pipeline for notes you haven't opened since 2022, now with extra MCP jargon.
+  summary: A personal knowledge management agent that automatically indexes markdown files, PDFs, videos, and web pages, exposing them via a built-in MCP server for retrieval into LLM workflows.
+  why_it_matters: It gives developers a reusable context-retrieval layer that connects local notes and docs directly into coding assistants via MCP.
+  mental_damage: Because what your second brain really needed was one more background service and a fresh excuse to reorganize your markdown folders instead of shipping code.
   tags:
-    - langchain
+    - second-brain
     - pkm
     - mcp
     - retrieval
-    - local-ai
+    - langchain
   confidence: high
 curation:
   status: included
-  reason: The project's primary technical contribution is a built-in MCP server that makes local knowledge retrievable by other LLM tools and agents.
+  reason: The core novelty is automated indexing and MCP-powered retrieval of personal knowledge into LLM workflows, which aligns with Prompt & Context Engineering rather than being a primary coding assistant or thin host integration.
   evidence:
-    - "README explicitly states: 'Use the built-in Model Context Protocol (MCP) server to pull the most relevant context from your notes'"
-    - Repo description and topics confirm it is a LangChain-based AI agent for personal knowledge management
-    - Listed in awesome-langchain under Knowledge Management, indicating relevance to the LangChain ecosystem
+    - Repo description and README emphasize automated indexing of markdown, PDFs, videos, and web pages as the main feature.
+    - Built-in MCP server is highlighted as the retrieval mechanism to plug context into LLMs or workflows.
+    - "Strong fit with 'context-engineering' category: core job is retrieval, indexing, and context-shaping rather than editing code or orchestrating agents."
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (292) exceeded threshold (150)
+  reason: Stars (293) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:12.041Z"
+    updated_at: "2026-05-06T22:43:54.581Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:41.193Z"
+    updated_at: "2026-05-06T22:56:11.005Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

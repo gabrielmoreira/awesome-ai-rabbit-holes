@@ -1,13 +1,13 @@
 id: github__autogluon__autogluon
 kind: github-repo
-name: AutoGluon
+name: autogluon
 canonical_url: https://github.com/autogluon/autogluon
 identity:
   github_repo: autogluon/autogluon
 provenance:
   discoveries:
-    - id: discovery__github__awslabs__autogluon__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__autogluon__autogluon__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10284
+    stars: 10288
     forks: 1140
     license: Apache-2.0
     archived: false
@@ -52,51 +52,50 @@ metadata:
       - tabular-data
       - time-series
       - transfer-learning
-    last_checked_at: "2026-05-05T21:01:14.610Z"
+    last_checked_at: "2026-05-06T22:12:45.616Z"
     readme:
-      fetched_at: "2026-05-05T21:01:14.610Z"
+      fetched_at: "2026-05-06T22:12:45.616Z"
       bytes: 11385
 insights:
-  summary: AutoGluon is an AWS-backed AutoML framework that enables developers to train and deploy high-accuracy machine learning models for tabular, text, image, and time series data with minimal code.
-  why_it_matters: It abstracts away the manual tuning of hyperparameters and model selection, allowing developers to integrate production-grade predictive performance into applications with just a few lines of Python.
-  mental_damage: Because nothing says 'I have total control over my data pipeline' like letting a framework with a three-line API decide your entire model architecture and ensemble strategy.
+  summary: AutoGluon is an AWS-developed AutoML framework that automates training and deployment of machine learning and deep learning models across tabular, image, text, and time series data with minimal code.
+  why_it_matters: It allows developers to quickly build high-accuracy ML models without deep expertise in hyperparameter tuning, ensemble learning, or model selection.
+  mental_damage: Yet another 'three lines of code' promise that gently reminds you how many evenings you wasted manually tuning XGBoost before 2019.
   tags:
     - automl
-    - aws
-    - framework
     - machine-learning
-    - predictive-models
-    - python
+    - pytorch
+    - aws
+    - tabular
   confidence: high
 curation:
-  status: included
-  reason: The project is a code-first library and SDK for embedding ML capabilities into software, which fits the AI Frameworks and SDKs category rather than developer tooling like coding agents.
+  status: excluded
+  reason: AutoGluon is a traditional AutoML and data-science framework, not a developer-facing AI tool, agent, or infrastructure component as defined by this catalog's scope.
   evidence:
-    - Repo description and README define it as a library to 'train and deploy high-accuracy machine learning... in 3 lines of code'.
-    - Topics and code snippets (e.g., `from autogluon.tabular import TabularPredictor`) confirm it is an importable Python framework/SDK.
-    - It is developed by AWS AI and focuses on data science tasks (tabular, NLP, forecasting) rather than editing source code or building apps from prompts.
+    - Repo description and README focus on automating ML model training and deployment, not coding assistance or developer workflows.
+    - Topics and documentation center on data science, deep learning, and tabular/time-series forecasting rather than AI tooling for software development.
+    - Listed in Awesome-LLMOps under AutoML, but the catalog explicitly excludes generic ML research and non-developer-tooling AI products.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (10284) exceeded threshold (150)
+  reason: Stars (10288) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:50.483Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:14.610Z"
+    updated_at: "2026-05-06T22:12:45.616Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:50.233Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

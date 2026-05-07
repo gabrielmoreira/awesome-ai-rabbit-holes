@@ -1,12 +1,12 @@
 id: usemage__ai
 kind: website
-name: Mage
+name: usemage.ai
 canonical_url: https://usemage.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__usemage__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based GPT app generator that scaffolds full-stack React, Node.js, and Prisma applications using the Wasp framework.
-  why_it_matters: It lets developers bypass boilerplate setup by turning a prompt into a deployable full-stack Wasp application in seconds.
-  mental_damage: Another tool that promises to save you from writing code, while ensuring you’ll spend the afternoon debugging a stack you didn’t actually write.
+  summary: MAGE is a GPT-powered web app generator that creates full-stack React, Node.js, and Prisma applications using the Wasp framework from text prompts.
+  why_it_matters: It allows developers to bootstrap a full-stack Wasp application through a conversational interface, skipping the initial boilerplate and structure setup.
+  mental_damage: Yet another tool promising to automate the fun part of starting a project, leaving you alone to debug the generated Prisma schema and wonder why you didn't just write it yourself.
   tags:
     - app-generator
+    - wasp
     - full-stack
     - gpt
-    - wasp
+    - scaffolding
   confidence: high
 curation:
   status: included
-  reason: The product is a hosted, browser-first tool that generates whole full-stack applications from prompts, which aligns perfectly with the app-builders category.
+  reason: The product's core identity is turning prompts into full-stack web applications (React, Node.js, Prisma) via the Wasp framework, which aligns perfectly with the App Builders category.
   evidence:
-    - Scraped site title and description confirm it is a GPT Web App Generator for full-stack React, Node.js, and Prisma apps.
-    - Source-list context classifies it under 'App Builders' in awesome-ai-coding-tools.
-    - The workflow is prompt-to-app generation rather than in-IDE or repo-based coding assistance.
+    - "Scraped description states: 'Generate your full-stack React, Node.js and Prisma web app using the magic of GPT and the Wasp full-stack framework.'"
+    - Listed in awesome-ai-coding-tools under the 'App Builders' section with the same description.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:00.248Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:53.850Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

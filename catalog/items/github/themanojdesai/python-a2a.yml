@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__themanojdesai__python-a2a__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 988
+    forks: 136
+    license: MIT
+    archived: false
+    created_at: "2025-04-09T15:30:56Z"
+    pushed_at: "2025-09-06T08:10:09Z"
+    description: Python A2A is a powerful, easy-to-use library for implementing Google's [Agent-to-Agent (A2A) protocol](https://google.github.io/A2A/). It enables seamless communication between AI agents, creating interoperable agent ecosystems that can collaborate to solve complex problems.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:47.251Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:47.251Z"
+      bytes: 41263
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: python-a2a is a Python library for implementing Google's Agent-to-Agent (A2A) protocol with Model Context Protocol (MCP) integration for building interoperable multi-agent systems.
+  why_it_matters: It provides a standardized, production-ready SDK for developers to wire together disparate AI agents and external tools using emerging protocol standards.
+  mental_damage: Another week, another protocol promising to solve the 'my agent can't talk to your agent' problem, conveniently requiring you to rewrite your stack to find out.
+  tags:
+    - a2a
+    - mcp
+    - multi-agent
+    - sdk
+    - protocol
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a code-first library and SDK used by developers to implement agent communication protocols in Python, fitting the Frameworks & SDKs identity better than an orchestration platform.
+  evidence:
+    - Repo description explicitly defines it as 'a powerful, easy-to-use library for implementing Google's A2A protocol'.
+    - README emphasizes 'Comprehensive documentation, type hints, and examples' and 'works with any Python framework' like a typical SDK.
+    - Source list places it in 'Agent Communication Protocols' under an agent orchestration awesome list, but the product itself is the building block.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (988) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:47.251Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:49.481Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

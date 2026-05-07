@@ -1,12 +1,12 @@
 id: www__mintlify__com
 kind: website
-name: Mintlify
+name: www.mintlify.com
 canonical_url: https://www.mintlify.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__mintlify__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mintlify is an AI-native documentation platform that helps teams generate, maintain, and modernize developer documentation with context-aware agents and LLM-friendly features like llms.txt and MCP support.
-  why_it_matters: It allows developer teams to automate the creation and upkeep of documentation while ensuring their content is optimized for both human readers and AI workflows like LLM training and context retrieval.
-  mental_damage: We’ve successfully reached the point where documentation is no longer written for the humans who use the software, but primarily for the agents that will eventually replace them.
+  summary: Mintlify is an AI-native documentation platform that builds and maintains developer docs, API references, and knowledge bases designed for both human readers and LLM consumption.
+  why_it_matters: It automates documentation maintenance with context-aware AI agents and exposes product docs via LLMs.txt and MCP to integrate directly into developer AI workflows.
+  mental_damage: Your documentation is now so AI-native that the LLM reading it might understand your API better than the junior developer you just hired to write the docs.
   tags:
-    - ai-native
     - documentation
-    - knowledge-base
-    - llms.txt
     - mcp
+    - llms-txt
+    - knowledge-base
+    - ai-native
   confidence: high
 curation:
-  status: excluded
-  reason: While Mintlify is a polished developer-adjacent product, it is a documentation SaaS rather than a tool that assists in writing code, building apps, or orchestrating agents within a developer's workflow.
+  status: included
+  reason: Mintlify is a commercial SaaS documentation platform rather than a developer tool that fits categories like coding agents, frameworks, or extensions; however, it was listed in the awesome-ai-coding-tools directory under a Documentation section, making it a valid entry as a navigational discovery reference.
   evidence:
-    - Scraped site context describes it as 'The Intelligent Knowledge Platform' focused on documentation, help centers, and knowledge bases.
-    - Source list context places it under 'Documentation' in awesome-ai-coding-tools, acknowledging its peripheral role rather than core coding utility.
-    - No evidence of code generation, IDE integration, or agent orchestration; primary features are docs lifecycle, MCP/llms.txt support, and AI editing assistants for text.
+    - "Listed in awesome-ai-coding-tools under section: Documentation with linked page description: 'Meet the next generation of documentation. AI-native, beautiful out-of-the-box, and built for developers.'"
+    - Scraped site identifies it as 'The Intelligent Knowledge Platform' focused on documentation, API references, and LLM/MCP compatibility rather than a coding assistant or framework.
+    - Site excerpt highlights 'Self-updating knowledge management' and 'LLMs.txt & MCP' support, confirming it is a documentation product, not a standalone developer coding tool.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:07.183Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:21.677Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

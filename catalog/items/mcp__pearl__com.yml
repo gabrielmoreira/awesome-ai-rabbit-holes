@@ -1,12 +1,12 @@
 id: mcp__pearl__com
 kind: website
-name: Pearl
+name: mcp.pearl.com
 canonical_url: https://mcp.pearl.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__pearl__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,41 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pearl API MCP Server is a Model Context Protocol server implementation for the Pearl API.
-  why_it_matters: It allows AI assistants and agents to integrate with Pearl's API by exposing its capabilities through the standardized MCP interface.
-  mental_damage: Yet another MCP server entering the ecosystem, proving that the 'build once, wrap everywhere' protocol is rapidly becoming its own full-time integration job.
+  summary: An MCP server implementation that exposes the Pearl API to MCP-compatible clients.
+  why_it_matters: It allows developers to integrate Pearl API capabilities into any MCP-supporting coding assistant or agent workflow.
+  mental_damage: Another day, another MCP server, because apparently wrapping every API on earth in a protocol is the new npm install.
   tags:
-    - api
     - mcp
+    - api
+    - integration
     - server
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly identified as an MCP Server, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly identified as an MCP server and is listed in the awesome-mcp-servers directory, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Scraped site context identifies the product as 'Pearl API MCP Server'
-    - Listed in the awesome-mcp-servers directory under Official Servers
+    - "Primary page excerpt states: 'Pearl API MCP Server'"
+    - "Seen in awesome-mcp-servers list under section: Official Servers"
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:21.478Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:35.362Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

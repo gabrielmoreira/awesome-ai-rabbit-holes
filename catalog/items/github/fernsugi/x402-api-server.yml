@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fernsugi__x402-api-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - micropayments
       - usdc
       - x402
-    last_checked_at: "2026-05-05T21:02:10.043Z"
+    last_checked_at: "2026-05-06T22:43:52.826Z"
     readme:
-      fetched_at: "2026-05-05T21:02:10.043Z"
+      fetched_at: "2026-05-06T22:43:52.826Z"
       bytes: 13322
 insights:
-  summary: An HTTP API server implementing the x402 protocol that serves DeFi and crypto data endpoints requiring USDC micropayments on Base for each request.
-  why_it_matters: It provides a working reference for developers building pay-per-call data APIs where AI agents can autonomously handle micropayments without API keys or subscriptions.
-  mental_damage: Your agent now has a wallet, a credit score, and the ability to blow 0.008 USDC on a funding rate lookup without asking you first.
+  summary: A pay-per-call DeFi data API server that uses the x402 protocol to charge AI agents USDC micropayments on Base for endpoints like price feeds, gas tracking, and yield scanning.
+  why_it_matters: It gives autonomous agents a way to buy live crypto data without API keys or human billing, using HTTP 402 and on-chain payments as the access control.
+  mental_damage: We have reached the point where your agent needs a funded wallet and the ability to reason about gas fees just to check the price of Bitcoin.
   tags:
     - mcp
     - defi
     - x402
-    - base
-    - agents
+    - micropayments
+    - crypto-api
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server providing DeFi data endpoints with x402 micropayment support, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP-compatible server that exposes DeFi data endpoints using the x402 micropayment protocol, making it a domain-specific MCP server rather than a general framework or extension.
   evidence:
-    - Topics include mcp and is listed under Server Implementations > Finance & Fintech in awesome-mcp-servers.
-    - README shows npm package @x402-api/mcp-server and describes MCP server with ElizaOS plugin integration.
-    - Implements x402 protocol for pay-per-call DeFi data endpoints using USDC on Base.
+    - Repo description explicitly calls it an 'x402 protocol API server' with MCP topics and an npm MCP Server badge.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming existing MCP ecosystem recognition.
+    - README details an MCP server package (@x402-api/mcp-server) alongside ElizaOS plugin, showing MCP is a primary identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:10.043Z"
+    updated_at: "2026-05-06T22:43:52.826Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:22.647Z"
+    updated_at: "2026-05-06T22:55:48.335Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

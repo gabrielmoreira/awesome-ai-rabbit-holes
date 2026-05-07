@@ -1,0 +1,79 @@
+id: jina__ai__news__reader__lm__small__language__models__for__cleaning__and__converting__html__to__markdown
+kind: website
+name: reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown
+canonical_url: https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__jina__ai__news__reader__lm__small__language__models__for__cleaning__and__converting__html__to__markdown__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: "Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown"
+        extracted_url: https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown
+        surrounding_text: "23. [Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/?nocache=1)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Reader-LM is a pair of compact, long-context language models (0.5B and 1.5B parameters) trained to convert raw, noisy HTML into clean markdown for downstream LLM grounding.
+  why_it_matters: Developers can self-host or run these small models at the edge to reliably clean and structure web content for RAG pipelines without relying on heuristic scrapers or large, expensive LLMs.
+  mental_damage: We have officially reached the point where we train custom neural networks just to avoid writing one more regular expression.
+  tags:
+    - html-to-markdown
+    - small-language-models
+    - data-cleaning
+    - rag
+    - jina-ai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a hosted model release and research announcement rather than a reusable developer tool, framework, or local runtime, and it lacks a standalone product surface suitable for this catalog.
+  evidence:
+    - The input is a Jina AI press release and model announcement, not a usable CLI, SDK, or developer tool.
+    - Models are hosted on Hugging Face and cloud marketplaces (AWS/Azure) with no standalone developer-facing product or runtime.
+    - Listed in awesome-LLM-resources as a resource/tip, not as a developer tooling product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:42.445Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

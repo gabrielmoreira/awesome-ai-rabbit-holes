@@ -1,12 +1,12 @@
 id: www__tabnine__com
 kind: website
-name: Tabnine
+name: www.tabnine.com
 canonical_url: https://www.tabnine.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__tabnine__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tabnine is an AI coding assistant that provides code completion, generation, and SDLC agents across multiple IDEs with options for cloud, on-prem, or air-gapped deployment.
-  why_it_matters: It integrates directly into existing developer workflows to accelerate coding, testing, and documentation while offering enterprise controls for privacy and compliance.
-  mental_damage: The dashboard proudly shows what percentage of your code was written by an AI, turning your daily output into a metric that HR will inevitably ask you to explain.
+  summary: Tabnine is an AI code assistant that provides inline code completion, generation, refactoring, and testing across multiple IDEs with options for cloud, on-premise, or air-gapped deployment.
+  why_it_matters: It accelerates development workflows by deeply integrating AI suggestions directly into popular editors while offering enterprise-grade privacy and model choice.
+  mental_damage: Now you can watch your 'AI contribution percentage' dashboard climb while wondering if you are the pilot or just the person authorized to press Tab.
   tags:
     - code-completion
+    - ide-integration
     - enterprise
-    - ide-plugin
     - privacy
-    - sdlc
   confidence: high
 curation:
   status: included
-  reason: Tabnine is a primary developer-facing coding assistant that plans, writes, edits, and reviews code directly within the IDE and repository workflow.
+  reason: Tabnine is a primary, standalone AI coding assistant that integrates directly into the IDE workflow to plan, write, and test code, fitting the Coding Agents definition better than a thin extension.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Code Completion' as an AI assistant for developers.
-    - Site states it offers 'AI agents for every stage of the SDLC, from planning and code creation to testing and documentation.'
-    - Supports integration with VS Code, JetBrains, and Eclipse to accelerate development inside the editor.
+    - Described as 'the AI code assistant that accelerates and simplifies software development' with agents for 'planning, code creation, testing, and documentation'.
+    - Recognized in the awesome-ai-coding-tools list under the 'Code Completion' section.
+    - Offers deep IDE integration (VS Code, JetBrains, Eclipse) acting as the primary assistant surface.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:34.349Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:48.981Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

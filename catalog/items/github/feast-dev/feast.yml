@@ -1,13 +1,13 @@
 id: github__feast-dev__feast
 kind: github-repo
-name: Feast
+name: feast
 canonical_url: https://github.com/feast-dev/feast
 identity:
   github_repo: feast-dev/feast
 provenance:
   discoveries:
     - id: discovery__github__feast-dev__feast__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7004
-    forks: 1314
+    stars: 7008
+    forks: 1315
     license: Apache-2.0
     archived: false
     created_at: "2018-12-10T07:20:15Z"
-    pushed_at: "2026-05-04T11:48:01Z"
+    pushed_at: "2026-05-06T21:13:44Z"
     description: The Open Source Feature Store for AI/ML
     homepage: https://feast.dev
     topics:
@@ -43,49 +43,49 @@ metadata:
       - ml
       - mlops
       - python
-    last_checked_at: "2026-05-05T21:02:08.740Z"
+    last_checked_at: "2026-05-06T22:43:51.878Z"
     readme:
-      fetched_at: "2026-05-05T21:02:08.740Z"
+      fetched_at: "2026-05-06T22:43:51.878Z"
       bytes: 16617
 insights:
-  summary: Feast is an open source feature store that manages historical and real-time feature data for machine learning model training and online inference.
-  why_it_matters: It standardizes feature access across training and serving environments, letting ML platform teams decouple models from underlying data infrastructure while preventing data leakage during training.
-  mental_damage: Yet another critical piece of ML infrastructure to maintain, proving that in modern AI, we spend more time plumbing data than actually teaching models anything.
+  summary: Feast is an open-source feature store for machine learning that manages and serves features consistently across offline training and online inference environments.
+  why_it_matters: It decouples ML workflows from underlying data infrastructure by providing a single data access layer that prevents data leakage and abstracts feature storage for portable model deployment.
+  mental_damage: Yet another sophisticated piece of infrastructure ensuring your meticulously engineered features are perfectly served right up until the model they feed decides the moon is made of cheese.
   tags:
-    - data-engineering
     - feature-store
     - mlops
+    - data-engineering
     - python
   confidence: high
 curation:
   status: excluded
-  reason: While it is a strong ML infrastructure project, Feast is a data engineering platform for feature management rather than a developer-facing AI tool, agent, or coding workflow product.
+  reason: Feast is a general ML data infrastructure tool (feature store) for data scientists and MLOps engineers, lacking the specific developer-facing coding assistant, agent, or AI-tooling workflow focus required for this catalog.
   evidence:
-    - Repo description explicitly defines it as 'The Open Source Feature Store for AI/ML', targeting data science and MLOps.
-    - README states it is for ML platform teams to manage offline/online stores and feature servers, not for writing or editing code.
-    - Repository topics include data-engineering, data-science, and mlops, with no developer-tooling or coding-agent signals.
+    - "Repo description: 'The Open Source Feature Store for AI/ML'"
+    - README describes managing offline/online stores for ML training/inference, not coding assistants or developer tooling.
+    - Topics include big-data, data-science, machine-learning, and mlops, with no developer-tooling or coding-agent signals.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (7004) exceeded threshold (150)
+  reason: Stars (7008) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:09.462Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:08.740Z"
+    updated_at: "2026-05-06T22:43:51.878Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:55:36.706Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

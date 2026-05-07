@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getalby__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [getAlby/mcp](https://github.com/getAlby/mcp) 🎖️ 📇 ☁️ 🏠 - Connect any bitcoin lightning wallet to your agent to send and receive instant payments globally."
         confidence: high
     - id: discovery__github__getalby__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,14 +48,14 @@ metadata:
     description: Connect a bitcoin lightning wallet to your LLM using Nostr Wallet Connect and Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:19.524Z"
+    last_checked_at: "2026-05-06T22:44:00.955Z"
     readme:
-      fetched_at: "2026-05-05T21:02:19.524Z"
+      fetched_at: "2026-05-06T22:44:00.955Z"
       bytes: 7683
 insights:
-  summary: An MCP server that connects a Bitcoin Lightning wallet to LLMs via Nostr Wallet Connect, enabling AI agents to send and receive payments.
-  why_it_matters: It allows developers building AI agents to integrate BTC micropayments natively into LLM workflows for paid APIs, metered access, or autonomous tipping.
-  mental_damage: Finally, your AI agent can independently bankrupt your Lightning wallet while you debug why it decided to tip a Nostr relay at 3 AM.
+  summary: An MCP server that connects a Bitcoin Lightning wallet to LLMs using Nostr Wallet Connect, enabling AI agents to send and receive payments.
+  why_it_matters: It gives coding agents and workflows a standardized protocol bridge to handle Bitcoin Lightning payments, unlocking paid API calls, metered agent billing, and pay-per-use tooling.
+  mental_damage: We have successfully abstracted money itself into yet another context window token, ensuring your AI can now independently drain your Lightning wallet while you debug its stack traces.
   tags:
     - mcp
     - bitcoin
@@ -65,33 +65,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server designed to give AI agents financial capabilities via Bitcoin Lightning.
+  reason: The product is explicitly an MCP server for Bitcoin Lightning payments, and it is listed in awesome-mcp-servers under Finance & Fintech, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'Connect a bitcoin lightning wallet to your LLM using Nostr Wallet Connect and Model Context Protocol'."
-    - README details integration with Claude, Cline, Goose, and N8N as a standard MCP server implementation.
+    - Repo description states it is an MCP server connecting a bitcoin lightning wallet to LLMs.
     - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - README documents setup for Claude, Cline, Goose, Windsurf, and N8N as an MCP integration.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:19.524Z"
+    updated_at: "2026-05-06T22:44:00.955Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:04.705Z"
+    updated_at: "2026-05-06T22:57:25.420Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

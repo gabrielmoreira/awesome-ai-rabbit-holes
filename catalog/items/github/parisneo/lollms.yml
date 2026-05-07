@@ -1,13 +1,13 @@
 id: github__parisneo__lollms
 kind: github-repo
-name: LoLLMS
+name: lollms
 canonical_url: https://github.com/parisneo/lollms
 identity:
   github_repo: parisneo/lollms
 provenance:
   discoveries:
     - id: discovery__github__parisneo__lollms__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -35,50 +35,50 @@ metadata:
       - ai
       - llm
       - multimodal
-    last_checked_at: "2026-05-05T21:04:12.195Z"
+    last_checked_at: "2026-05-06T22:45:48.218Z"
     readme:
-      fetched_at: "2026-05-05T21:04:12.195Z"
+      fetched_at: "2026-05-06T22:45:48.218Z"
       bytes: 4855
 insights:
-  summary: A self-hosted, multi-user web application built with FastAPI and Vue.js that provides a unified chat interface for interacting with various local and remote LLM backends, featuring RAG, multimodal support, and user management.
-  why_it_matters: It allows developers to stand up a private, feature-rich AI chat platform with RAG capabilities that interfaces with any AI service, keeping data and model selection under their own control.
-  mental_damage: Finally, a solution to the existential dread of having too many model backends, consolidating them into one more web UI you now have to maintain, secure, and explain to your team.
+  summary: A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features.
+  why_it_matters: It provides a local-first, privacy-preserving alternative to hosted chat platforms with deep integration into multiple LLM services and extensible document retrieval.
+  mental_damage: Yet another 'one tool to rule them all' that promises to unify the AI ecosystem while adding a friend system to the one place developers go to avoid notifications.
   tags:
-    - chat-interface
-    - llm
     - local-ai
-    - rag
     - self-hosted
+    - chat-interface
+    - rag
+    - multi-user
   confidence: medium
 curation:
   status: included
-  reason: The project is a local-first, self-hosted AI interface and model serving stack designed to run on the user's hardware, fitting the local-ai category definition.
+  reason: The project is a self-hosted chat interface and serving layer designed to run locally with various LLM backends, fitting the Local AI category's focus on local runtimes and desktop interfaces.
   evidence:
-    - Repo description states it is 'An all in one AI solution compatible with any known AI service on the planet'.
-    - README describes a 'multi-user FastAPI backend and responsive Vue/Tailwind CSS frontend' for a chat interface with RAG.
-    - Included in the 'awesome-local-ai' list under the 'Inference Engine' section.
+    - Repo description states it is 'An all in one AI solution compatible with any known AI service on the planet'
+    - README describes a 'multi-user FastAPI backend and responsive Vue/Tailwind CSS frontend' with LLM integration and RAG
+    - Seen in awesome-local-ai under the 'Inference Engine' section
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:52.464Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:12.195Z"
+    updated_at: "2026-05-06T22:45:48.218Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:51.499Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

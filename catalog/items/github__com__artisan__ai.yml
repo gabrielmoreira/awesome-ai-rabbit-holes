@@ -1,12 +1,12 @@
 id: github__com__artisan__ai
 kind: website
-name: Artisian AI
+name: Artisan-AI
 canonical_url: https://github.com/Artisan-AI
 identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__artisan__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Artisan AI is a commercial SaaS platform that provides AI employees to automate outbound sales workflows, with its GitHub organization containing only forks and prototype repositories unrelated to the core product.
-  why_it_matters: It represents the trend of vertical AI agents aimed at replacing human-led outbound sales, though it offers no developer-facing tooling or APIs for software engineers to integrate into their workflows.
-  mental_damage: We have officially entered the era of 'AI Employees' where the GitHub organization is just a ghost town of forks, proving that even AI startups need a placeholder repo to look legitimate to developers.
+  summary: Artisan AI is a platform that sells outbound sales automation powered by 'AI Employees', with its GitHub organization containing only forked utility libraries and design prototypes.
+  why_it_matters: It does not provide developer tooling, coding assistance, or infrastructure relevant to building software.
+  mental_damage: We have officially reached the point where a sales CRM for cold emailing is listed alongside autonomous coding agents in 'awesome' directories, further diluting the signal-to-noise ratio of the ecosystem.
   tags:
-    - ai-employees
-    - outbound
     - sales-automation
+    - outbound
+    - non-dev-tool
   confidence: high
 curation:
   status: excluded
-  reason: The product is a vertical SaaS for sales automation, not a developer tool, coding agent, or infrastructure component relevant to software engineers.
+  reason: The product is a B2B sales automation platform ('Automate Your Outbound'), and the GitHub organization contains no coding agent code, only forks of SQLAlchemy filters and HTML prototypes unrelated to developer tooling.
   evidence:
-    - Scraped site context describes the product as 'Automate Your Outbound With an All-In-One, AI-First Platform Powered by AI Employees'.
-    - The GitHub organization contains only forks (sqlalchemy-filters) and a prototype repo, with no developer tooling, SDK, or agent code.
-    - Seen in awesome-ai-agents lists under a sales/outbound context, which falls outside the catalog's scope of developer-facing infrastructure and coding tools.
+    - "Scraped site description explicitly states: 'Automate Your Outbound With an All-In-One, AI-First Platform Powered by AI Employees'."
+    - GitHub organization repositories consist of 'sqlalchemy-filters' (forked) and 'mitch-prototypes' (HTML), showing no developer tooling artifact.
+    - Source list context (awesome-ai-agents) links to a sales/outbound platform page, which is a mismatch for a coding tool catalog.
 placement:
   primary_category: null
   section: null
@@ -56,17 +56,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:46.862Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -75,3 +67,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:16.288Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

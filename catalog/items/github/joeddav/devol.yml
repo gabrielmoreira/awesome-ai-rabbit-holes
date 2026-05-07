@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joeddav__devol__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,27 +39,28 @@ metadata:
       - keras
       - machine-learning
       - neural-architecture-search
-    last_checked_at: "2026-05-05T21:02:57.206Z"
+    last_checked_at: "2026-05-06T22:44:35.870Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.206Z"
+      fetched_at: "2026-05-06T22:44:35.870Z"
       bytes: 6329
 insights:
-  summary: A genetic programming toolkit that evolves neural network architectures for classification problems using Keras.
-  why_it_matters: It automates the trial-and-error process of designing deep learning architectures by treating model topology as an evolvable genome.
-  mental_damage: Because manually tuning hyperparameters was far too legacy, so now we just evolve a thousand inadequate models and call it efficiency.
+  summary: A Keras-based proof-of-concept for genetic neural architecture search that evolves model structures for classification problems.
+  why_it_matters: It automates the trial-and-error of designing deep learning architectures, letting developers evolve optimal layer configurations instead of hand-tuning them.
+  mental_damage: Just when you thought prompt engineering was the peak of abstraction, we're back to letting genetic algorithms randomly mutate convolutional layers until the MNIST accuracy looks impressive.
   tags:
     - automl
     - keras
-    - genetic-algorithm
     - neural-architecture-search
+    - genetic-algorithm
+    - deep-learning
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional deep learning research tool for neural architecture search, lacking the developer-facing AI assistance, agents, or infrastructure focus required for this catalog.
+  reason: This is a traditional deep learning research tool for neural architecture search, not a practical AI tool, agent, or developer-facing infrastructure relevant to modern AI-assisted coding workflows.
   evidence:
     - Repo description explicitly states 'Genetic neural architecture search with Keras', targeting ML researchers rather than software developers building with AI.
-    - README focuses on evolving CNN/Dense layer structures for MNIST-style classification problems, with no mention of LLMs, coding assistance, or developer workflows.
-    - Listed under AutoML in Awesome-LLMOps, but the project predates the modern LLM era (created 2017) and functions as a classic ML framework, not a developer tool.
+    - README demonstrates a classification-focused demo on the MNIST dataset using Keras, with no mention of coding assistance, agent orchestration, or developer tooling.
+    - Topics and content are centered on computer-vision, deep-learning, and automl, which fall outside the catalog's scope of practical AI developer tools.
 placement:
   primary_category: null
   section: null
@@ -69,19 +70,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.206Z"
+    updated_at: "2026-05-06T22:44:35.870Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:48.710Z"
+    updated_at: "2026-05-06T23:04:36.186Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

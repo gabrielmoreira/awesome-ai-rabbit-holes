@@ -1,13 +1,13 @@
 id: github__horovod__horovod
 kind: github-repo
-name: Horovod
+name: horovod
 canonical_url: https://github.com/horovod/horovod
 identity:
   github_repo: horovod/horovod
 provenance:
   discoveries:
     - id: discovery__github__horovod__horovod__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14690
+    stars: 14691
     forks: 2246
     license: NOASSERTION
     archived: false
@@ -46,50 +46,50 @@ metadata:
       - spark
       - tensorflow
       - uber
-    last_checked_at: "2026-05-05T21:02:36.013Z"
+    last_checked_at: "2026-05-06T22:44:16.665Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.013Z"
+      fetched_at: "2026-05-06T22:44:16.665Z"
       bytes: 16441
 insights:
-  summary: Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet that scales single-GPU scripts to run across many GPUs or hosts.
-  why_it_matters: It allows ML engineers to take existing training scripts and scale them to multi-GPU and multi-node environments with minimal code changes.
-  mental_damage: Another reminder that while we have agents writing code, the real bottleneck remains getting that code to actually run fast across more than one GPU without summoning the MPI demons.
+  summary: Horovod is a distributed deep learning training framework for scaling TensorFlow, Keras, PyTorch, and MXNet workloads across multiple GPUs and hosts.
+  why_it_matters: It allows developers to take single-GPU training scripts and scale them to large distributed environments with minimal code changes, optimizing for high throughput and scaling efficiency.
+  mental_damage: While you're busy figuring out how to make your ResNet converge across 512 GPUs, the coding agent has already written the entire training loop and is now arguing with you about the learning rate.
   tags:
-    - deep-learning
     - distributed-training
-    - mpi
     - pytorch
     - tensorflow
+    - deep-learning
+    - ml-infra
   confidence: high
 curation:
   status: excluded
-  reason: Horovod is a deep learning infrastructure library for model training, not a developer-facing AI tool, agent, or workflow product for software development.
+  reason: Horovod is a general machine learning infrastructure tool for distributed training, which falls outside the catalog's scope of practical AI tools, coding agents, and developer-facing AI workflows.
   evidence:
-    - Repo description explicitly defines it as a 'Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.'
-    - README focuses on scaling deep learning model training across GPUs and hosts, not on AI-assisted coding or developer workflows.
-    - Source list context places it in 'Training > Frameworks for Training' under Awesome-LLMOps, which is about ML operations rather than developer tooling.
+    - Repo description explicitly states it is a 'Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.'
+    - README confirms the goal is making 'distributed deep learning fast and easy to use' for model training, not developer tooling or coding assistance.
+    - Source list placement is under 'Training > Frameworks for Training' in an LLMOps list, indicating it is ML infrastructure rather than a developer agent or workflow tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14690) exceeded threshold (150)
+  reason: Stars (14691) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:19.557Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.013Z"
+    updated_at: "2026-05-06T22:44:16.665Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:35.377Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

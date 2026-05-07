@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arvindand__maven-tools-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [arvindand/maven-tools-mcp](https://github.com/arvindand/maven-tools-mcp) ☕ ☁️ 🏠 🍎 🪟 🐧 - Universal Maven Central dependency intelligence for JVM build tools (Maven, Gradle, SBT, Mill). Features bulk operations, version comparison, stability filtering, dependency age analysis, release patterns, and Context7 integration for upgrade guidance."
         confidence: high
     - id: discovery__github__arvindand__maven-tools-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -63,50 +63,50 @@ metadata:
       - native-image
       - spring-ai
       - spring-boot
-    last_checked_at: "2026-05-05T21:01:10.466Z"
+    last_checked_at: "2026-05-06T22:12:44.113Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.466Z"
+      fetched_at: "2026-05-06T22:12:44.113Z"
       bytes: 9441
 insights:
-  summary: An MCP server that provides AI assistants with structured Maven Central dependency intelligence, including version checks, release patterns, health audits, and optional Context7 documentation lookups for JVM projects.
-  why_it_matters: It allows coding agents to perform grounded dependency upgrades and audits directly within the editor or PR workflow without scraping web pages.
-  mental_damage: We've reached the point where even our dependency managers need their own context servers so the AI can feel confident about what version of Spring Boot you're definitely already using.
+  summary: An MCP server that provides AI assistants with structured Maven Central dependency intelligence, including version checks, CVE data, and license metadata for JVM build tools.
+  why_it_matters: It allows coding agents to make safer, grounded dependency upgrade decisions using live metadata instead of scraping web pages or guessing versions.
+  mental_damage: We have successfully abstracted the pain of reading release notes into the need for a specialized protocol server just to ask an AI if our transitive dependencies are haunted.
   tags:
-    - mcp
-    - java
+    - mcp-server
+    - jvm
     - dependencies
-    - maven
-    - context7
+    - maven-central
+    - spring-boot
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that exposes dependency intelligence tools to MCP-capable clients, which fits the MCP Servers and Tooling category cleanly.
+  reason: The product's identity is an MCP server providing JVM dependency intelligence, fitting the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'MCP server providing AI assistants with Maven Central dependency intelligence'"
-    - README documents 10 MCP tools (STDIO and HTTP transports) and setup for Claude Desktop and VS Code + GitHub Copilot
-    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers' sections
+    - Repo description explicitly states 'MCP server providing AI assistants with Maven Central dependency intelligence'.
+    - The README details 10 exposed MCP tools like get_latest_version and analyze_project_health.
+    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.467Z"
+    updated_at: "2026-05-06T22:12:44.113Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:12.446Z"
+    updated_at: "2026-05-06T22:22:30.021Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

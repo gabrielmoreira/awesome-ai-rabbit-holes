@@ -1,12 +1,12 @@
 id: durable__com
 kind: website
-name: Durable
+name: durable.com
 canonical_url: https://durable.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__durable__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Durable is a browser-first SaaS platform that generates small business websites, marketing materials, and operational tools from prompts, targeting non-technical business owners rather than developers.
-  why_it_matters: While it wraps similar AI generation tech found in developer tools, it represents a verticalized, end-user version of app building that removes the need for technical implementation entirely.
-  mental_damage: We curate tools to help developers code faster, yet here is a tool proving they aren't needed to build the exact things they usually bill for.
+  summary: Durable is an AI-powered business builder that generates websites, handles customer management, invoicing, and marketing automation for small business owners.
+  why_it_matters: It bundles site generation, CRM, and marketing tools into one platform so non-technical users can launch a business presence without writing code.
+  mental_damage: Another platform claiming to replace an entire engineering team, this time by building brochure sites for handyman businesses instead of your actual codebase.
   tags:
     - ai-website-builder
     - business-tools
     - no-code
-    - saas
   confidence: high
 curation:
   status: excluded
-  reason: This is a vertical SaaS product for small business owners to build their own websites and manage operations, lacking a developer-tooling or code-first interface.
+  reason: Durable is a consumer-facing small-business SaaS platform with no meaningful developer-tooling, coding-agent, or app-builder workflow for software developers.
   evidence:
-    - Scraped site context emphasizes 'Build your coaching business' and 'Trusted by 3 million business owners', not developers.
-    - The product is a 'complete AI business builder' for non-technical users, featuring invoicing and CRM, not a tool for editing source code or building software.
-    - Listed in awesome-ai-coding-tools under 'App Builders', but the surface is a hosted business suite, not a developer workflow tool.
+    - Scraped site describes it as an 'AI business builder' for coaching, landscaping, and photography businesses, not developers.
+    - Primary features are invoicing, CRM, SEO, and AI-generated logos/blogs, with no repo editing, IDE integration, or developer SDK.
+    - Listed under 'App Builders' in awesome-ai-coding-tools, but the product builds brochure sites for small businesses rather than developer apps or tools.
 placement:
   primary_category: null
   section: null
@@ -57,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:20.313Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:50.796Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

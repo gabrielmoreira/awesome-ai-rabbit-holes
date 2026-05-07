@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__ethereum-validator-queue-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: An MCP server that tracks Ethereum’s validator activation and exit queues in real time.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:11.454Z"
+    last_checked_at: "2026-05-06T22:44:49.091Z"
     readme:
-      fetched_at: "2026-05-05T21:03:11.454Z"
+      fetched_at: "2026-05-06T22:44:49.091Z"
       bytes: 6015
 insights:
-  summary: An MCP server that provides Ethereum validator activation and exit queue statistics, along with a prompt template for analyzing staking trends.
-  why_it_matters: It allows AI agents and LLMs to query real-time Ethereum staking dynamics and validator status directly within MCP-compatible clients like Claude Desktop.
-  mental_damage: Just when you thought the Model Context Protocol was for automating your Jira backlog, it's now being used to watch validators quit staking in real time.
+  summary: An MCP server that provides real-time Ethereum validator activation and exit queue statistics, plus a prompt template for analyzing staking trends.
+  why_it_matters: It gives AI agents live access to validator queue data so they can reason about staking demand, network security, and ETH market dynamics without manual lookups.
+  mental_damage: We’ve built an MCP server so your AI can stress-analyze validator exit queues in real time, because apparently even staking dashboards weren’t abstracted away enough.
   tags:
     - mcp
     - ethereum
-    - blockchain
-    - fintech
     - staking
+    - validator-queue
+    - fintech
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server implementation designed to expose Ethereum validator data to LLMs, fitting squarely into the MCP tooling category.
+  reason: The product is an MCP server whose identity and value are defined by the Model Context Protocol, exposing Ethereum validator queue tools and prompts for AI agents.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that tracks Ethereum’s validator activation and exit queues in real time.'"
-    - README details MCP tools (get_activation_queue, get_exit_queue) and installation instructions for Claude Desktop.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Finance & Fintech'.
+    - "Repo description: 'An MCP server that tracks Ethereum’s validator activation and exit queues in real time.'"
+    - README explicitly installs as an MCP server into Claude Desktop and exposes MCP tools (get_activation_queue, get_exit_queue, get_validator_status) and an MCP prompt (analyze_queue).
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:11.454Z"
+    updated_at: "2026-05-06T22:44:49.091Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:08.217Z"
+    updated_at: "2026-05-06T23:07:28.754Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

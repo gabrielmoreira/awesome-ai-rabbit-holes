@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arikusi__deepseek-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8
+    stars: 7
     forks: 4
     license: MIT
     archived: false
@@ -41,50 +41,50 @@ metadata:
       - mcp
       - mcp-server
       - typescript
-    last_checked_at: "2026-05-05T21:01:09.110Z"
+    last_checked_at: "2026-05-06T22:12:42.854Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.110Z"
+      fetched_at: "2026-05-06T22:12:42.854Z"
       bytes: 23372
 insights:
-  summary: An MCP server that exposes DeepSeek Chat and Reasoner models to MCP-compatible clients like Claude Code, Cursor, and Windsurf via stdio or HTTP transport.
-  why_it_matters: It lets developers swap DeepSeek's models into their existing MCP-based workflows without changing editors or agents.
-  mental_damage: Now you can orchestrate a reasoning model from a chat client that is itself orchestrating an agent, because nothing says 'working locally' like routing tokens through three layers of indirection.
+  summary: An MCP server that exposes DeepSeek chat and reasoning models to MCP-compatible clients like Claude Code, Cursor, and Windsurf, with multi-turn sessions, function calling, and cost tracking.
+  why_it_matters: Developers can route DeepSeek's reasoning and coding models directly into their existing MCP-enabled workflows without building custom API integrations.
+  mental_damage: Now you can orchestrate a committee of models from different providers, each with its own billing meter and failure mode, all from the comfort of your terminal.
   tags:
     - mcp
     - deepseek
+    - llm
     - typescript
-    - model-integration
-    - cli
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementing the Model Context Protocol to integrate DeepSeek models into MCP-compatible developer tools.
+  reason: This is a purpose-built MCP server exposing DeepSeek models to MCP-compatible clients, making MCP its core product identity.
   evidence:
     - "Repo description states: 'MCP Server for DeepSeek API - enables MCP clients to use DeepSeek Chat and Reasoner models'"
-    - README lists compatibility with 'Claude Code, Gemini CLI, Cursor, Windsurf, and any MCP-compatible client'
+    - README explicitly lists compatibility with Claude Code, Gemini CLI, Cursor, Windsurf, and any MCP-compatible client
     - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.110Z"
+    updated_at: "2026-05-06T22:12:42.854Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:59.936Z"
+    updated_at: "2026-05-06T22:22:15.341Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

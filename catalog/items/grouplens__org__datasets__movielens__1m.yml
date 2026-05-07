@@ -1,12 +1,12 @@
 id: grouplens__org__datasets__movielens__1m
 kind: website
-name: MovieLens-1M
+name: 1m
 canonical_url: https://grouplens.org/datasets/movielens/1m
 identity: {}
 provenance:
   discoveries:
     - id: discovery__grouplens__org__datasets__movielens__1m__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,21 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MovieLens 1M is a stable benchmark dataset containing 1 million movie ratings from 6,000 users on 4,000 movies, released in 2003.
-  why_it_matters: It serves as a foundational benchmark for evaluating recommendation algorithms and agent behaviors in research contexts.
-  mental_damage: We have reached a point where a static CSV from 2003 is listed alongside autonomous agents as if it might somehow write your unit tests.
+  summary: MovieLens 1M is a stable benchmark dataset containing 1 million movie ratings from 6000 users on 4000 movies, released in 2003 by GroupLens.
+  why_it_matters: It provides a long-standing, stable baseline for evaluating recommendation algorithms and agents designed to predict user preferences.
+  mental_damage: We have reached a point where a static CSV from 2003 is considered a critical benchmark for the cutting edge of autonomous AI agents.
   tags:
-    - benchmark
     - dataset
-    - recommendation-systems
+    - benchmark
+    - recommendation
+    - ml
   confidence: high
 curation:
   status: excluded
-  reason: This is a static research dataset for recommendation systems, not an AI tool, agent, workflow, or developer-facing infrastructure.
+  reason: This is a static benchmark dataset and research resource, not a developer-facing AI tool, agent, workflow, or infrastructure component.
   evidence:
-    - The source is a static dataset (1 million ratings, released 2003) with no tooling or executable components.
-    - Appears in awesome-ai-agents only as a benchmark reference under 'Agent4Rec', not as a functional tool.
-    - No repo description, stars, or code indicators suggest this is a developer tool or agent.
+    - The source page describes it as a 'Stable benchmark dataset' with 1 million ratings, released in 2003.
+    - It appears in awesome-ai-agents only as a data resource for 'Agent4Rec', not as a tool itself.
+    - The page contains no software, CLI, SDK, or agentic workflow—only a download link for ml-1m.zip.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:13.289Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:43.037Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

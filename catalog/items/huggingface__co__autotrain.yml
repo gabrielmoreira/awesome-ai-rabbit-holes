@@ -1,0 +1,77 @@
+id: huggingface__co__autotrain
+kind: website
+name: autotrain
+canonical_url: https://huggingface.co/autotrain
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__autotrain__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: AutoTrain
+        extracted_url: https://huggingface.co/autotrain
+        surrounding_text: "10. [AutoTrain](https://huggingface.co/autotrain): A new way to automatically train, evaluate and deploy state-of-the-art Machine Learning models."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A no-code Hugging Face platform that automatically trains, evaluates, and deploys machine learning models, including LLM finetuning.
+  why_it_matters: It allows developers to spin up custom-trained models and LLM finetunes directly from data uploads without writing training loops or managing infrastructure.
+  mental_damage: Yet another 'no-code' promise that lets you trade writing training scripts for the unique thrill of debugging a black-box AutoML job you have zero visibility into.
+  tags:
+    - ml
+    - finetuning
+    - automl
+    - huggingface
+    - deployment
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general AutoML SaaS for training and deploying ML models, which falls outside the catalog's scope of developer-facing coding tools, agents, and infrastructure.
+  evidence:
+    - Scraped site context describes it as 'Create powerful AI models without code' and 'automatic way to train... state-of-the-art Machine Learning models'.
+    - Source-list context places it under '微调 Fine-Tuning' (Fine-Tuning) in a general LLM resources list, not a developer tooling list.
+    - The listed tasks (Image Classification, Translation, Tabular Regression) confirm a general ML product, not a coding-agent or developer-infrastructure product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:51.055Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

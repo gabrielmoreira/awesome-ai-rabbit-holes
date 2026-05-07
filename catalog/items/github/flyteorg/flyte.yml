@@ -1,13 +1,13 @@
 id: github__flyteorg__flyte
 kind: github-repo
-name: Flyte
+name: flyte
 canonical_url: https://github.com/flyteorg/flyte
 identity:
   github_repo: flyteorg/flyte
 provenance:
   discoveries:
     - id: discovery__github__flyteorg__flyte__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6989
-    forks: 812
+    stars: 7001
+    forks: 813
     license: Apache-2.0
     archived: false
     created_at: "2019-10-21T17:40:04Z"
-    pushed_at: "2026-05-05T21:00:42Z"
+    pushed_at: "2026-05-06T20:26:40Z"
     description: Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.
     homepage: https://flyte.org
     topics:
@@ -53,50 +53,50 @@ metadata:
       - python
       - scale
       - workflow
-    last_checked_at: "2026-05-05T21:02:13.277Z"
+    last_checked_at: "2026-05-06T22:43:55.700Z"
     readme:
-      fetched_at: "2026-05-05T21:02:13.277Z"
+      fetched_at: "2026-05-06T22:43:55.700Z"
       bytes: 5427
 insights:
-  summary: Flyte is a Python-first framework and Kubernetes-native platform for orchestrating ML pipelines, model serving, and AI agent workflows at scale.
-  why_it_matters: It lets developers define production-grade AI and data workflows in pure Python while handling the heavy lifting of distributed execution, caching, and retries.
-  mental_damage: Yet another chance to wonder if your MLOps stack really needs a distributed orchestrator, or if you just enjoy rewriting your training loop in YAML-adjacent abstractions.
+  summary: Flyte is a Kubernetes-native workflow orchestration platform for reliably running ML pipelines, models, and agents at scale using Python.
+  why_it_matters: It lets developers define, run, and serve complex AI and data workflows locally or in production without wiring together fragile scripts.
+  mental_damage: You will spend three days learning Kubernetes YAML so your model inference job can fail at scale with enterprise-grade resilience.
   tags:
-    - agents
-    - kubernetes
-    - mlops
     - orchestration
+    - mlops
+    - workflows
+    - kubernetes
     - python
   confidence: high
 curation:
   status: included
-  reason: Flyte is a code-first SDK and framework that developers import to build and run AI/ML workflows, which fits cleanly as an AI Framework rather than a hosted orchestration control plane.
+  reason: Flyte is a code-first workflow engine where developers script pipelines and agents in Python, fitting the Frameworks & SDKs category rather than a control-plane orchestration platform.
   evidence:
-    - Repo description explicitly calls it 'Dynamic, resilient AI orchestration' for coordinating data, models, and compute.
-    - README shows Python SDK usage with @env.task decorators and flyte.run() patterns typical of a developer-imported framework.
-    - Topics and Awesome-LLMOps inclusion under 'Workflow' reinforce its role as a workflow framework rather than a hosted agent control plane.
+    - Repo description states 'Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.'
+    - README says 'Reliably orchestrate ML pipelines, models, and agents at scale — in pure Python.'
+    - Examples show developers importing flyte and writing @env.task decorators in Python code.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6989) exceeded threshold (150)
+  reason: Stars (7001) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:55.011Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:13.277Z"
+    updated_at: "2026-05-06T22:43:55.700Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:24.275Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

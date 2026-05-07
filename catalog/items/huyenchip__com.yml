@@ -1,12 +1,12 @@
 id: huyenchip__com
 kind: website
-name: Chip Huyen
+name: huyenchip.com
 canonical_url: https://huyenchip.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,40 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal site and blog by Chip Huyen focused on bringing AI into production, covering AI system design, MLOps, and AI engineering through articles and books.
-  why_it_matters: Developers building production AI systems can find practical insights on system design and MLOps drawn from the author's experience at NVIDIA, Netflix, and Stanford.
-  mental_damage: Yet another authoritative source promising to tell you how to actually do AI engineering, adding one more tab to the 'must read' pile you will definitely catch up on this weekend.
+  summary: A personal site and blog by Chip Huyen focused on bringing AI into production, covering AI system design, MLOps, and the author's books including Designing Machine Learning Systems and AI Engineering.
+  why_it_matters: Developers building AI systems can follow in-depth, practitioner-authored writing on production patterns, system design, and the evolving AI engineering discipline.
+  mental_damage: Yet another authoritative signal in the noise suggesting that if you just read enough thoughtful essays, you too could stop gluing LLMs together and finally understand what you are doing.
   tags:
     - ai-engineering
-    - blog
+    - production
     - mlops
-    - production-ai
+    - blog
   confidence: high
 curation:
-  status: included
-  reason: This is a personal blog and professional site publishing analysis and guides on AI system design, which fits the newsletters-and-feeds category for publications rather than a developer tool.
+  status: excluded
+  reason: This is a personal blog and publication site, not a developer-facing tool, product, framework, or directory, and therefore falls outside the catalog's scope of practical AI tooling.
   evidence:
-    - "Site description states: 'I work to bring AI into production. I write about AI system design.'"
-    - Author is a computer scientist who wrote 'Designing Machine Learning Systems' and 'AI Engineering', positioning the site as a publication.
-    - Listed in awesome-local-ai under 'Lists' as an 'awesome collection of open source and/or local AI tools and solutions' authored by Chip Huyen.
+    - Primary page excerpt describes Chip Huyen as a writer and computer scientist who blogs and writes books, not a tool author.
+    - Site description states 'I work to bring AI into production. I write about AI system design.' with no product or tooling surface.
+    - "Seen in awesome-local-ai only as a 'purpose: An awesome repository of local AI tools | section: Lists' linked page, not as a tool itself."
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:33.938Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -76,3 +68,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:32.351Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

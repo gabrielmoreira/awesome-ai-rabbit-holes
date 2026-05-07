@@ -1,12 +1,12 @@
 id: ipfind__com
 kind: website
-name: IP Find
+name: ipfind.com
 canonical_url: https://ipfind.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__ipfind__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web service providing a REST API for reverse IP address lookup, returning location, timezone, currency, and language data.
-  why_it_matters: It offers developers a simple, predictable HTTP endpoint to enrich IP data for general application logic without hosting their own GeoIP database.
-  mental_damage: Another essential utility API that will inevitably be replaced by a junior developer's weekend MCP server project, rendering this subscription obsolete.
+  summary: A web API service that returns geolocation, timezone, currency, and language data for a given IP address in JSON format.
+  why_it_matters: Developers building apps that need to localize content or infer user region can integrate a simple HTTP endpoint without managing their own IP database.
+  mental_damage: We have reached a point where even looking up an IP address is being packaged as an MCP server, just in case our agents need to geographically profile their users.
   tags:
+    - geo-ip
     - api
-    - geoip
-    - location
-    - utility
+    - mcp
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose GeoIP API service with no specific AI functionality, developer workflow integration, or AI-tooling angle required for this catalog.
+  reason: This is a generic web API for IP geolocation, not a developer-facing AI tool, agent, or AI infrastructure; its only connection to AI tooling is a mention in an awesome-mcp list as a potential server implementation.
   evidence:
-    - The scraped site describes a standard REST API for IP location lookup, listing code samples for Ruby, PHP, JS, C#, and Python, with no mention of AI, agents, or LLM integration.
-    - It appears in awesome-mcp-servers only as a 'Location Services' example, but the product itself is a generic web API, not native MCP infrastructure or AI tooling.
-    - The catalog scope explicitly excludes general developer utilities and non-AI infrastructure, focusing instead on AI agents, workflows, and dev-facing AI products.
+    - The product is a 'Free IP Address Geo Locator/Reverse Lookup API' with no stated AI, coding-agent, or prompt-engineering functionality.
+    - Seen in awesome-mcp-servers under Location Services, but the site itself presents no MCP server code, package, or AI workflow—only a generic REST API.
+    - No description, README, repo context, or developer-tooling pitch is provided; it is a standard SaaS data API.
 placement:
   primary_category: null
   section: null
@@ -58,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:38.303Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:36.139Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__composio__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,32 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web directory and registry for discovering Model Context Protocol (MCP) servers and tools.
-  why_it_matters: It centralizes the rapidly expanding ecosystem of MCP integrations, making it easier for developers to find the right tools to connect AI models to external data and APIs.
-  mental_damage: Just when you thought you had a handle on the LLM wrapper landscape, we've invented a protocol for the protocol so you can spend your afternoon browsing directories instead of writing code.
+  summary: A landing page and directory for Composio's MCP (Model Context Protocol) server integrations and tooling.
+  why_it_matters: It provides a centralized entry point for developers looking to connect their AI assistants to Composio's library of external app integrations via the MCP standard.
+  mental_damage: Finally, a dedicated URL to help you navigate the exponentially growing maze of middleware protocols required to make your AI assistant file a Jira ticket.
   tags:
     - mcp
+    - integrations
     - directory
-    - registry
-    - tooling
+    - composio
   confidence: medium
 curation:
   status: included
-  reason: The project is a registry and toolkit specifically for the Model Context Protocol, fitting squarely into the MCP infrastructure category.
+  reason: The domain and source-list context explicitly identify this as an MCP-related resource, fitting the MCP Servers & Tooling category as a server/middleware entry point.
   evidence:
-    - URL is mcp.composio.dev, indicating a specific focus on the MCP ecosystem.
-    - Listed in the awesome-LLM-resources directory under the section for 模型上下文协议 MCP (Model Context Protocol).
-    - The name and context imply a directory/tooling role for MCP servers rather than being a generic AI tool.
+    - URL is mcp.composio.dev, explicitly branding as an MCP resource.
+    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol MCP) section.
+    - Composio is known for providing tooling/integrations, aligning with the MCP 'Generic Servers & Middleware' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:46:17.369Z"
+    updated_at: "2026-05-06T22:27:29.906Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

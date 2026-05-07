@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elmoaid__tempograph__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - model-context-protocol
       - python
       - tree-sitter
-    last_checked_at: "2026-05-05T21:02:01.752Z"
+    last_checked_at: "2026-05-06T22:43:45.689Z"
     readme:
-      fetched_at: "2026-05-05T21:02:01.752Z"
+      fetched_at: "2026-05-06T22:43:45.689Z"
       bytes: 6500
 insights:
-  summary: TempoGraph is an MCP server that builds a tree-sitter dependency graph of a codebase to provide AI coding agents with precise file context via 24 tools, including impact analysis and dead code detection.
-  why_it_matters: It aims to stop agents from guessing which files to edit by supplying structural context, claiming consistent F1 score improvements in file prediction tasks across multiple models.
-  mental_damage: We have successfully engineered a scenario where the AI needs a dedicated graph database just to figure out which files the AI is allowed to break today.
+  summary: TempoGraph is a code graph context engine that builds a tree-sitter dependency graph of a repository and exposes 24 MCP tools to help AI agents identify the exact files needed for a task.
+  why_it_matters: It replaces keyword guessing with structural dependency analysis, measurably improving file-retrieval F1 scores by ~27% for coding agents working in large codebases.
+  mental_damage: We have finally built a dependency graph so your agent can confidently break exactly the right files instead of guessing wrong ones.
   tags:
     - mcp
-    - context-engineering
+    - context
     - code-graph
-    - developer-tools
+    - retrieval
     - tree-sitter
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing context tools for agents, fitting the MCP category instruction perfectly as a server-side toolkit.
+  reason: The core novelty is a structural context-retrieval and dependency-graph system designed to feed the right files into a model, which aligns with Prompt & Context Engineering.
   evidence:
-    - Repo description identifies it as a 'code graph context engine with 24 MCP tools'.
-    - README instructs users to add it to their MCP config for clients like Claude Code and Cursor.
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Repo description explicitly calls it a 'code graph context engine' with MCP tools for file discovery.
+    - README positions it as solving the problem of agents guessing files by using tree-sitter dependency graphs and 24 MCP tools.
+    - Includes a Python API (build_graph, search_symbols, importers_of) confirming it is a context infrastructure tool rather than a primary coding assistant.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:01.752Z"
+    updated_at: "2026-05-06T22:43:45.689Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:55.612Z"
+    updated_at: "2026-05-06T22:54:14.587Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

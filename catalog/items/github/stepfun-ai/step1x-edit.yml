@@ -1,0 +1,84 @@
+id: github__stepfun-ai__step1x-edit
+kind: github-repo
+name: step1x-edit
+canonical_url: https://github.com/stepfun-ai/step1x-edit
+identity:
+  github_repo: stepfun-ai/step1x-edit
+provenance:
+  discoveries:
+    - id: discovery__github__stepfun-ai__step1x-edit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: Step1X-Edit
+        extracted_url: https://github.com/stepfun-ai/step1x-edit
+        surrounding_text: 8. [Step1X-Edit](https://github.com/stepfun-ai/Step1X-Edit) `Editing`
+        confidence: high
+metadata:
+  github:
+    stars: 2194
+    forks: 96
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-23T09:53:08Z"
+    pushed_at: "2026-04-29T14:31:44Z"
+    description: A SOTA open-source image editing model, which aims to provide comparable performance against the closed-source models like GPT-4o and Gemini 2 Flash.
+    homepage: https://step1x-edit.github.io
+    topics:
+      - image-editing
+      - reasoning
+      - visual-reasoning
+    last_checked_at: "2026-05-06T22:46:34.588Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:34.588Z"
+      bytes: 23480
+insights:
+  summary: An open-source image editing model that uses reasoning to perform complex visual edits, aiming to match the performance of closed-source models like GPT-4o.
+  why_it_matters: It provides developers with a high-performing, locally runnable alternative for visual reasoning and editing tasks without relying on proprietary APIs.
+  mental_damage: Yet another SOTA model drops, forcing you to reconsider if your current image pipeline is just technical debt with better marketing.
+  tags:
+    - image-editing
+    - multimodal
+    - visual-reasoning
+    - open-source
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a generative AI model for image editing, which falls outside the catalog's scope of developer-facing coding tools, agents, and infrastructure.
+  evidence:
+    - Repo description explicitly states it is an 'image editing model' targeting visual performance against GPT-4o and Gemini.
+    - Topics and README focus on GEdit-Bench, KRIS-Bench, and image generation metrics rather than code editing or dev workflows.
+    - Source list context places it in 'LLM resources > Video > Model', indicating it is a model resource rather than a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2194) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.649Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:34.588Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:19.056Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

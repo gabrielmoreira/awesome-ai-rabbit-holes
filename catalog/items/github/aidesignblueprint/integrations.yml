@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidesignblueprint__integrations__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,53 +29,54 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-13T18:45:31Z"
-    pushed_at: "2026-05-05T20:31:38Z"
+    pushed_at: "2026-05-06T20:26:02Z"
     description: Official integrations and installable doctrine for AI Design Blueprint — MCP, IDE rules, prompt files, and agent runtimes.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:55.430Z"
+    last_checked_at: "2026-05-06T22:12:30.902Z"
     readme:
-      fetched_at: "2026-05-05T21:00:55.430Z"
+      fetched_at: "2026-05-06T22:12:30.902Z"
       bytes: 4519
 insights:
-  summary: A repository of official integrations, IDE rules, prompt files, and MCP server configurations for the AI Design Blueprint framework.
-  why_it_matters: It provides the reusable doctrine and configuration files needed to align various AI agents and IDEs with a specific design framework.
-  mental_damage: Yet another opportunity to copy-paste a 'doctrine' into your repo and wonder if the YAML is truly governing your agents or just cosplaying productivity.
+  summary: Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini.
+  why_it_matters: Developers can drop ready-made doctrine, rules, and MCP configs into their repos and editors to align multiple AI coding tools around a shared design framework.
+  mental_damage: We have now reached the point where we need a standardized doctrine and governance badges just to keep our AI assistants from inventing their own architectural opinions.
   tags:
     - mcp
-    - rules
-    - ide-setup
+    - ide-rules
     - prompt-files
-  confidence: medium
+    - agent-runtimes
+    - doctrine
+  confidence: high
 curation:
   status: included
-  reason: The repository serves as a distribution hub for reusable rules, prompt packs, and MCP configurations (a skills bundle) rather than being a primary coding agent or a generic app builder.
+  reason: The repo primarily distributes reusable doctrine files, IDE rules, prompt packs, and MCP configuration as portable skill content for multiple coding agents and editors.
   evidence:
-    - Repo description explicitly cites 'IDE rules, prompt files' and 'installable doctrine'.
-    - README details provider-specific instruction files for Cursor, Windsurf, and Copilot, plus 'static prompt packs'.
-    - Listed in awesome-mcp-servers under Knowledge & Memory, reinforcing its nature as a reusable integration pack.
+    - "Repo description: 'Official integrations and installable doctrine for AI Design Blueprint — MCP, IDE rules, prompt files, and agent runtimes.'"
+    - README details provider-specific instruction files for cursor/, windsurf/, github-copilot/, gemini/, plus shared doctrine in shared/ and open-weights/ prompt packs.
+    - "Source list: listed in awesome-mcp-servers under Knowledge & Memory, confirming its MCP and reusable-asset identity."
 placement:
   primary_category: skills
-  section: null
+  section: Rules, Commands & Prompts
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:55.430Z"
+    updated_at: "2026-05-06T22:12:30.902Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:52.750Z"
+    updated_at: "2026-05-06T22:19:50.244Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

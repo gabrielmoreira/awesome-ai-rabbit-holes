@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janhq__awesome-local-ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 1945
-    forks: 202
+    forks: 203
     license: null
     archived: false
     created_at: "2023-09-06T03:27:33Z"
@@ -32,49 +32,50 @@ metadata:
     description: An awesome repository of local AI tools
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:51.140Z"
+    last_checked_at: "2026-05-06T22:44:30.570Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.140Z"
+      fetched_at: "2026-05-06T22:44:30.570Z"
       bytes: 17640
 insights:
-  summary: A curated meta-list of open-source tools and solutions for running AI models and inference engines locally.
-  why_it_matters: It serves as a centralized navigation aid for developers looking to evaluate or deploy local LLM runtimes, inference engines, and desktop interfaces without relying on hosted SaaS.
-  mental_damage: Yet another 'awesome' list proving that keeping track of local AI tools now requires a dedicated organizational hierarchy just to manage the overwhelming flood of them.
+  summary: A curated GitHub awesome list cataloging open-source tools and solutions for running AI models locally on personal hardware.
+  why_it_matters: It serves as a centralized navigation map for developers looking to escape cloud API costs and privacy concerns by self-hosting inference engines and models.
+  mental_damage: You will spend four hours comparing the throughput of SGLang versus vLLM on this list before remembering you only came here to download a 7B model for a side project.
   tags:
     - local-ai
     - awesome-list
     - inference
-    - meta-list
+    - self-hosted
+    - directory
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of local AI tools rather than a standalone developer tool, making it a clear fit for the Awesome Awesomes category.
+  reason: The repository is a curated index of local AI tools rather than a standalone product, making it a navigation aid for developers.
   evidence:
-    - Repo description states it is 'An awesome repository of local AI tools'.
-    - README is structured as a meta-list comparing inference engines, UIs, and local solutions.
-    - Direct awesome list source is marked as true, indicating it organizes other tools.
+    - Repo description explicitly states 'An awesome repository of local AI tools'.
+    - README is structured as a directory table listing inference engines like llama.cpp, ollama, and vLLM.
+    - "Input metadata confirms 'Direct awesome list source: yes'."
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
   reason: Stars (1945) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.140Z"
+    updated_at: "2026-05-06T22:44:30.570Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:37.556Z"
+    updated_at: "2026-05-06T23:03:28.852Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

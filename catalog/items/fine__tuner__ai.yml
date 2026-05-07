@@ -1,12 +1,12 @@
 id: fine__tuner__ai
 kind: website
-name: Fine Tuner
+name: fine-tuner.ai
 canonical_url: https://fine-tuner.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__fine__tuner__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code SaaS platform for creating custom AI phone call agents using data and automation workflows.
-  why_it_matters: It allows teams to deploy voice-based AI agents without writing code, shifting the developer role from implementation to data configuration.
-  mental_damage: We have successfully abstracted away the coding part of software development so thoroughly that we can now build autonomous agents that talk on the phone, and we didn't even have to learn how to prompt them.
+  summary: A no-code platform for creating custom AI phone call agents integrated with Synthflow, requiring no coding or technical skills.
+  why_it_matters: It allows non-developers to build voice automation workflows, but offers no direct utility for developers looking to write, review, or automate code.
+  mental_damage: We have finally reached the singularity where 'AI agents' are marketed entirely to people who do not know what a git push is.
   tags:
-    - automation
-    - no-code
-    - phone-calls
     - voice-agents
+    - no-code
+    - synthetic-voice
   confidence: high
 curation:
   status: excluded
-  reason: The product is a no-code SaaS for business users to build phone agents, lacking a developer-tooling, IDE, coding, or infrastructure angle required for this catalog.
+  reason: This is a no-code SaaS platform for non-technical users to build phone call agents, which falls outside the catalog's scope of developer-facing tooling.
   evidence:
-    - Scraped site context states 'No coding or tech skills needed'.
-    - Source list context describes it as a tool for creating phone call agents effortlessly with data and ideas.
-    - The product is a browser-first SaaS for end-users, not a tool for developers to build software.
+    - Scraped site description explicitly states 'No coding or tech skills needed'.
+    - Source list context identifies it as a tool for creating phone call agents, not coding assistants.
+    - The product is Synthflow-based, targeting business automation rather than developer workflows.
 placement:
   primary_category: null
   section: null
@@ -57,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:32.071Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:06.797Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

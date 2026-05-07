@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__last9__last9-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -40,49 +40,50 @@ metadata:
       - monitoring
       - observability
       - vibe-coding
-    last_checked_at: "2026-05-05T21:03:17.332Z"
+    last_checked_at: "2026-05-06T22:44:56.314Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.332Z"
+      fetched_at: "2026-05-06T22:44:56.314Z"
       bytes: 20483
 insights:
-  summary: An MCP server that connects AI coding assistants like Claude and Cursor directly to production observability data including logs, metrics, traces, and alerts.
-  why_it_matters: Developers can ask their AI agent to debug production issues using real telemetry data instead of guessing based on code alone.
-  mental_damage: Your AI agent can now experience the same alert fatigue and log-scrolling paralysis that you spent three years automating away.
+  summary: An MCP server that connects AI coding assistants like Claude and Cursor directly to production observability data, including logs, metrics, traces, and alerts.
+  why_it_matters: It allows AI agents to stop guessing and start reading actual production signal when debugging issues in your live environment.
+  mental_damage: Now your AI can experience the same existential dread you feel when staring at a wall of 500-degree Splunk logs at 3 AM.
   tags:
     - mcp
     - observability
-    - monitoring
     - debugging
+    - monitoring
+    - integrations
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server that integrates observability platforms with MCP-capable AI assistants, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that exposes observability data to MCP-capable clients, fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Last9 MCP Server' and README confirms it connects Claude, Cursor, Windsurf to observability data via MCP protocol.
-    - Listed in awesome-mcp-servers directory under 'Official Servers' section.
-    - Active repository with recent push date (2026-05-05) and Apache-2.0 license.
+    - Repo description is 'Last9 MCP Server' with topics including mcp, monitoring, and observability.
+    - README explicitly states it connects Claude, Cursor, and Windsurf to production observability data via MCP.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.332Z"
+    updated_at: "2026-05-06T22:44:56.314Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:19.967Z"
+    updated_at: "2026-05-06T23:08:50.062Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

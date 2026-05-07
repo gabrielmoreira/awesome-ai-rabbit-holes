@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ajitpratap0__gosqlx__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - sqlite
       - wasm
       - zero-copy
-    last_checked_at: "2026-05-05T21:00:56.477Z"
+    last_checked_at: "2026-05-06T22:12:31.795Z"
     readme:
-      fetched_at: "2026-05-05T21:00:56.477Z"
+      fetched_at: "2026-05-06T22:12:31.795Z"
       bytes: 9379
 insights:
-  summary: A high-performance Go SDK and CLI for parsing, formatting, linting, and security-scanning SQL across multiple dialects, also available as an MCP server and VS Code extension.
-  why_it_matters: It gives developers and AI agents a fast, programmatic way to safely analyze and transform SQL before it reaches the database.
-  mental_damage: We have finally achieved sub-microsecond SQL parsing, which means your AI agent can now hallucinate insecure queries 1.38 million times per second.
+  summary: A high-performance Go SDK and CLI for parsing, formatting, linting, and security-scanning SQL across multiple dialects, which also ships an MCP server for AI tool integration.
+  why_it_matters: It provides a fast, zero-copy parser for building SQL-aware developer tooling and lets AI agents safely analyze and format queries via MCP.
+  mental_damage: We have successfully abstracted SQL parsing into yet another protocol layer so your linter can now negotiate context with your agent while you negotiate a new career path.
   tags:
     - sql
     - parser
     - mcp
     - go
     - security
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project positions itself as an MCP server with 7 SQL tools for AI integration, which fits the MCP infrastructure scope beyond its core Go library.
+  reason: The product's growing identity centers on its MCP server that exposes SQL parsing, linting, and security analysis as tools for AI clients.
   evidence:
-    - README explicitly lists '🤖 MCP Server (AI Integration)' with a remote endpoint and setup guide for Claude and Cursor.
-    - Included in the awesome-mcp-servers list under 'Developer Tools', confirming its role in the MCP ecosystem.
-    - Repository is active (pushed 2026-05-01) and provides a public remote MCP endpoint at mcp.gosqlx.dev.
+    - README explicitly promotes '🤖 MCP Server (AI Integration)' with setup for Claude and Cursor.
+    - Listed in awesome-mcp-servers under Developer Tools as a server implementation.
+    - Core product is a Go SQL parser and CLI, but MCP is a first-class distribution surface alongside VS Code and GitHub Actions.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:56.477Z"
+    updated_at: "2026-05-06T22:12:31.795Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:04.118Z"
+    updated_at: "2026-05-06T22:20:02.314Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

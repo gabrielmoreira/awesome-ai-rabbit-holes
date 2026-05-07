@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cyclops-ui__mcp-cyclops__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,49 +39,50 @@ metadata:
       - mcp
       - mcp-server
       - platform-engineering
-    last_checked_at: "2026-05-05T21:01:44.867Z"
+    last_checked_at: "2026-05-06T22:43:31.105Z"
     readme:
-      fetched_at: "2026-05-05T21:01:44.867Z"
+      fetched_at: "2026-05-06T22:43:31.105Z"
       bytes: 7896
 insights:
-  summary: An MCP server that lets AI agents manage Kubernetes applications through Cyclops Modules instead of raw Kubernetes manifests.
-  why_it_matters: It allows developers and their AI companions to provision and update Kubernetes resources using high-level abstractions, reducing the risk of misconfigurations in production.
-  mental_damage: Yet another layer of abstraction where your AI agent now needs its own Kubernetes certifications to safely ignore the YAML you were already pretending to understand.
+  summary: An MCP server that allows AI agents to safely create and update Kubernetes applications via Cyclops Modules instead of touching raw YAML.
+  why_it_matters: It lets your AI agent manage Kubernetes apps using high-level abstractions, reducing the odds of hallucinated misconfigurations hitting production.
+  mental_damage: Because what every overworked platform team really needed was an AI agent that can now abstract away Kubernetes complexity and then confidently misconfigure your cluster at a higher level.
   tags:
     - mcp
     - kubernetes
     - devops
+    - cyclops
     - platform-engineering
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to let AI agents interact with Kubernetes via the Cyclops abstraction layer.
+  reason: This is an MCP server that gives agents Kubernetes app-management tools via Cyclops, making MCP the core product identity rather than a secondary compatibility feature.
   evidence:
-    - "Repo description states: 'Model Context Protocol server for Cyclops'"
-    - README excerpt confirms it 'allows your favorite AI agent to manage your Kubernetes applications' via MCP tools
-    - Listed in awesome-mcp-servers under Cloud Platforms, showing ecosystem alignment
+    - Repo description explicitly states 'Model Context Protocol server for Cyclops'
+    - README pitches it as an MCP server providing tools so agents can create/update apps safely
+    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:44.867Z"
+    updated_at: "2026-05-06T22:43:31.105Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:02.336Z"
+    updated_at: "2026-05-06T22:51:15.325Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

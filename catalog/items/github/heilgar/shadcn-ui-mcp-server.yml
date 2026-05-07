@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__heilgar__shadcn-ui-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:32.318Z"
+    last_checked_at: "2026-05-06T22:44:13.091Z"
     readme:
-      fetched_at: "2026-05-05T21:02:32.318Z"
+      fetched_at: "2026-05-06T22:44:13.091Z"
       bytes: 3659
 insights:
-  summary: An MCP server that lets AI coding agents discover, document, and install shadcn/ui components and blocks directly from the editor.
-  why_it_matters: It gives coding assistants direct access to component metadata and installation workflows, reducing context-switching during UI development.
-  mental_damage: We have now successfully automated the one part of frontend development that already came with copy-paste documentation.
+  summary: An MCP server that lets AI coding assistants like Claude and Cursor list, document, and install shadcn/ui components and blocks directly through the Model Context Protocol.
+  why_it_matters: Developers can delegate UI scaffolding and component discovery to their AI assistant instead of manually checking docs and running CLI commands.
+  mental_damage: We have successfully abstracted away the two seconds it takes to read shadcn documentation into a protocol handshake that requires a server restart.
   tags:
     - mcp
-    - shadcn-ui
-    - components
-    - agent-tooling
+    - shadcn
+    - ui-components
+    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server purpose-built to expose shadcn/ui component and block management tools to AI agents.
+  reason: This is a domain-specific MCP server providing shadcn/ui component management tools, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - README lists MCP tools including list-components, get-component-docs, and install-component.
-    - Configuration examples provided for Claude Desktop, Windsurf, and Cursor using the MCP server format.
-    - Listed in awesome-mcp-servers under Community Servers, aligning with the MCP servers and tooling category.
+    - "README explicitly provides MCP tools: list-components, get-component-docs, install-component, list-blocks, get-block-docs, install-blocks."
+    - Listed in awesome-mcp-servers under 'Community Servers' section.
+    - Configuration examples provided for Claude Desktop, Windsurf, and Cursor as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:32.318Z"
+    updated_at: "2026-05-06T22:44:13.091Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:41.495Z"
+    updated_at: "2026-05-06T22:59:48.649Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__vllm-project__vllm
 kind: github-repo
-name: vLLM
+name: vllm
 canonical_url: https://github.com/vllm-project/vllm
 identity:
   github_repo: vllm-project/vllm
 provenance:
   discoveries:
     - id: discovery__github__vllm-project__vllm__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [vLLM](https://github.com/vllm-project/vllm)                    | - vLLM is a fast and easy-to-use library for LLM inference and serving.              | GGML/GGUF               | Both            | ❌  | Python      | Text-Gen      |"
         confidence: high
     - id: discovery__github__vllm-project__vllm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -36,6 +36,21 @@ provenance:
         anchor_text: vllm
         extracted_url: https://github.com/vllm-project/vllm
         surrounding_text: "| [vllm](https://github.com/vllm-project/vllm)                                          | A high-throughput and memory-efficient inference and serving engine for LLMs.                                   | ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=flat-square)                     |"
+        confidence: high
+    - id: discovery__github__vllm-project__vllm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: vllm (`🔥`)
+        extracted_url: https://github.com/vllm-project/vllm
+        surrounding_text: "9. [vllm (`🔥`)](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs."
         confidence: high
 metadata:
   github:
@@ -67,19 +82,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.672Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

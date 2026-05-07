@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaacphi__mcp-gdrive__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 274
-    forks: 101
+    forks: 102
     license: MIT
     archived: false
     created_at: "2024-12-13T23:49:36Z"
@@ -33,49 +33,50 @@ metadata:
     description: Model Context Protocol (MCP) Server for reading from Google Drive and editing Google Sheets
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:46.799Z"
+    last_checked_at: "2026-05-06T22:44:26.624Z"
     readme:
-      fetched_at: "2026-05-05T21:02:46.799Z"
+      fetched_at: "2026-05-06T22:44:26.623Z"
       bytes: 4884
 insights:
-  summary: An MCP server that lets AI agents search, read, and write to Google Drive and Google Sheets via the Model Context Protocol.
-  why_it_matters: Developers can wire AI assistants into document-heavy workflows without building custom Google API integrations themselves.
-  mental_damage: Another indispensable glue layer that makes your AI slightly more useful while ensuring your OAuth consent screen knows more about your life than your therapist.
+  summary: An MCP server that lets AI coding assistants search, read, and write to Google Drive and Google Sheets via the Model Context Protocol.
+  why_it_matters: It gives coding agents direct access to cloud documents and spreadsheets, turning Drive into a live context source instead of a manual copy-paste job.
+  mental_damage: Because nothing says modern engineering like teaching your agent to silently rewrite production spreadsheets while you watch the token count climb.
   tags:
     - mcp
     - google-drive
     - google-sheets
-    - integrations
+    - integration
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: This is a Model Context Protocol server that connects AI tools to Google Drive and Sheets, which fits cleanly into the MCP Servers and Tooling category.
+  reason: "MCP is the product identity: a purpose-built MCP server that exposes Google Drive and Sheets tools and resources to MCP-compatible assistants."
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol (MCP) Server for reading from Google Drive and editing Google Sheets'"
-    - README describes MCP server components including gdrive_search, gdrive_read_file, gsheets_read, and gsheets_update_cell tools
-    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems' section
+    - "Repo description explicitly states: 'Model Context Protocol (MCP) Server for reading from Google Drive and editing Google Sheets'."
+    - README documents MCP tools (gdrive_search, gdrive_read_file, gsheets_read, gsheets_update_cell) and resources (gdrive:///<file_id>).
+    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems', confirming its role as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (274) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:46.799Z"
+    updated_at: "2026-05-06T22:44:26.624Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:35.952Z"
+    updated_at: "2026-05-06T23:02:41.324Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

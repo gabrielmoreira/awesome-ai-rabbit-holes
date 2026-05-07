@@ -1,0 +1,81 @@
+id: github__skyworkai__skyreels-v2
+kind: github-repo
+name: skyreels-v2
+canonical_url: https://github.com/skyworkai/skyreels-v2
+identity:
+  github_repo: skyworkai/skyreels-v2
+provenance:
+  discoveries:
+    - id: discovery__github__skyworkai__skyreels-v2__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: SkyReels-V2
+        extracted_url: https://github.com/skyworkai/skyreels-v2
+        surrounding_text: 15. [SkyReels-V2](https://github.com/SkyworkAI/SkyReels-V2)
+        confidence: high
+metadata:
+  github:
+    stars: 6847
+    forks: 1449
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-15T10:16:25Z"
+    pushed_at: "2026-01-29T05:21:27Z"
+    description: "SkyReels-V2: Infinite-length Film Generative model"
+    homepage: https://platform.skyreels.ai
+    topics: []
+    last_checked_at: "2026-05-06T22:46:27.668Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:27.668Z"
+      bytes: 44885
+insights:
+  summary: SkyReels-V2 is an open-source infinite-length film generative model using an AutoRegressive Diffusion-Forcing architecture to create videos from prompts or images.
+  why_it_matters: It provides developers with the inference code and model weights to build applications involving high-quality, long-form video synthesis and image-to-video generation.
+  mental_damage: Now your local GPU cluster can hallucinate a 4-hour cinematic universe while your actual pull requests remain untouched for three sprints.
+  tags:
+    - video-generation
+    - multimodal
+    - diffusion
+    - model-weights
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is a multimedia generative model for video creation, lacking a developer-tooling angle like coding assistance, IDE integration, or dev infrastructure.
+  evidence:
+    - Repo description explicitly states 'Infinite-length Film Generative model', focused on video output.
+    - README emphasizes model weights and inference code for video generation, not coding workflows or dev tools.
+    - Source list catalogs it under '视频 Video > 模型' (Video Models), confirming its identity as a media generation model rather than a developer utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6847) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.648Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:27.668Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:07.779Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

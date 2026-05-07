@@ -1,13 +1,13 @@
 id: github__infuseai__artivc
 kind: github-repo
-name: ArtiVC
+name: artivc
 canonical_url: https://github.com/infuseai/artivc
 identity:
   github_repo: infuseai/artivc
 provenance:
   discoveries:
     - id: discovery__github__infuseai__artivc__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,27 +37,27 @@ metadata:
       - machinelearning
       - storage
       - version-control
-    last_checked_at: "2026-05-05T21:02:43.490Z"
+    last_checked_at: "2026-05-06T22:44:23.800Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.490Z"
+      fetched_at: "2026-05-06T22:44:23.800Z"
       bytes: 2669
 insights:
-  summary: A CLI tool for versioning large files and datasets on cloud storage using a Git-like workflow.
-  why_it_matters: It lets developers version control massive datasets on their existing AWS, GCP, or Azure storage without needing to run a separate server.
-  mental_damage: Because apparently the only thing better than managing a messy Git history is managing a messy data history on S3.
+  summary: ArtiVC is a CLI tool for versioning large files and datasets on cloud storage using a Git-like commit model.
+  why_it_matters: It lets developers treat data artifacts the same way they treat code, simplifying snapshotting and rollbacks directly within existing cloud storage environments like S3 or GCS.
+  mental_damage: "Just what we needed: another layer of versioning to manage, proving that no matter how advanced our models get, we still can't decide on a single source of truth for a 50GB CSV."
   tags:
-    - cli
     - data-versioning
-    - mlops
+    - cli
     - storage
+    - mlops
   confidence: high
 curation:
   status: excluded
-  reason: It is a general data storage utility for ML datasets, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: Excluded because it is a data infrastructure CLI for ML datasets, lacking a direct AI coding, agent, or developer-tooling workflow angle for our catalog.
   evidence:
-    - Repo description identifies it as a 'version control system to manage large files', not an AI tool.
-    - README focuses on CLI data snapshotting on cloud storage (S3, GCS, Azure) for ML datasets.
-    - Listed in Awesome-LLMOps under 'Data > Data Management', which is operational infrastructure rather than AI dev tooling.
+    - Repo description explicitly defines it as 'A version control system to manage large files.'
+    - README centers on data versioning for AWS S3, GCS, and Azure, not code generation or agent orchestration.
+    - Included in Awesome-LLMOps under 'Data > Data Management', confirming its identity as MLOps infrastructure.
 placement:
   primary_category: null
   section: null
@@ -65,21 +65,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (311) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:56.803Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.490Z"
+    updated_at: "2026-05-06T22:44:23.800Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:07.471Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__infracost__infracost
 kind: github-repo
-name: Infracost
+name: infracost
 canonical_url: https://github.com/infracost/infracost
 identity:
   github_repo: infracost/infracost
 provenance:
   discoveries:
     - id: discovery__github__infracost__infracost__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12283
+    stars: 12284
     forks: 667
     license: Apache-2.0
     archived: false
     created_at: "2020-06-24T09:11:56Z"
-    pushed_at: "2026-05-04T15:38:59Z"
+    pushed_at: "2026-05-06T16:20:00Z"
     description: Cloud cost estimates for Terraform in pull requests💰📉 Shift FinOps Left!
     homepage: https://infracost.io
     topics:
@@ -47,50 +47,50 @@ metadata:
       - monthly-costs
       - terraform
       - terraform-cost-estimation
-    last_checked_at: "2026-05-05T21:02:43.509Z"
+    last_checked_at: "2026-05-06T22:44:23.711Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.509Z"
+      fetched_at: "2026-05-06T22:44:23.711Z"
       bytes: 4236
 insights:
-  summary: Infracost is a CLI and CI/CD integration that generates cloud cost estimates and FinOps best practices for Terraform resources directly in pull requests and the terminal.
-  why_it_matters: It allows engineers to see the financial impact of infrastructure changes before they merge, integrating cost awareness directly into the standard code review workflow.
-  mental_damage: We have successfully shifted the existential dread of unexpected cloud bills leftward, ensuring you now watch your budget die in a pull request comment instead of a monthly invoice.
+  summary: Infracost shows cloud cost estimates and FinOps best practices for Terraform, letting engineers see a cost breakdown and understand costs before making changes, either in the terminal, VS Code, or pull requests.
+  why_it_matters: It shifts cloud cost awareness directly into the developer workflow, allowing teams to catch budget overruns and apply FinOps guardrails before infrastructure changes are merged.
+  mental_damage: Engineers can now argue about EC2 instance generations in a pull request comment thread, effectively turning every Terraform diff into a lightweight financial audit.
   tags:
-    - ci-cd
+    - terraform
+    - finops
     - cloud-cost
     - devops
-    - finops
-    - terraform
+    - ci-cd
   confidence: high
 curation:
-  status: included
-  reason: It is a developer tool that extends the PR and CI workflow with cost intelligence, fitting the AI Developer Extensions category as an augmentation to the existing code review process.
+  status: excluded
+  reason: Infracost is a DevOps and infrastructure cost-estimation tool, not an AI-powered developer tool, and contains no AI coding agent, model integration, or prompt-driven workflow relevant to this catalog's scope.
   evidence:
-    - "Repo description explicitly states: 'Cloud cost estimates for Terraform in pull requests'."
-    - "README confirms integration into PRs and CI/CD: 'Infracost also has many CI/CD integrations so you can easily post cost estimates in pull requests.'"
-    - Included in awesome-ai-coding-tools under 'DevOps and Infrastructure' as a governance tool for platform teams.
+    - Repo description and README focus entirely on Terraform cost estimation, CI/CD integration, and FinOps guardrails with no mention of AI models, agents, or LLM-powered features.
+    - Source list context places it in 'DevOps and Infrastructure' for 'FinOps governance', not under AI coding tools, despite being listed in an AI tools directory.
+    - No evidence in the inputs of AI, LLM, prompt engineering, or model-driven workflows; it is a static analysis and policy tool for cloud infrastructure.
 placement:
-  primary_category: ai-dev-extensions
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (12283) exceeded threshold (150)
+  reason: Stars (12284) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:57.695Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.509Z"
+    updated_at: "2026-05-06T22:44:23.711Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:07.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

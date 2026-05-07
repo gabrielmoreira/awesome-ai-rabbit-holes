@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__james-chahwan__repo-graph__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Structural graph memory for AI coding assistants — MCP server for codebase navigation
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:50.170Z"
+    last_checked_at: "2026-05-06T22:44:29.652Z"
     readme:
-      fetched_at: "2026-05-05T21:02:50.170Z"
+      fetched_at: "2026-05-06T22:44:29.652Z"
       bytes: 12861
 insights:
-  summary: An MCP server that builds a structural graph of a codebase and exposes tools for LLMs to navigate entities, relationships, and flows without reading entire repos.
-  why_it_matters: It dramatically reduces token usage and time to fix bugs by letting coding assistants query a lightweight code map instead of brute-forcing their way through file grepping.
-  mental_damage: We have now officially reached the point where our AI assistants need their own assistants just to figure out where the code lives.
+  summary: An MCP server that scans a codebase to build a structural graph of entities and flows, allowing LLMs to navigate and scope changes precisely without flooding context windows.
+  why_it_matters: It gives coding assistants a structural map to find the exact files and flows needed for a task, cutting token usage and orientation time dramatically in large monorepos.
+  mental_damage: We have successfully built a graph so the AI can pretend it understands the codebase, sparing us the existential dread of watching it grep around like a confused intern.
   tags:
     - mcp
     - context-engineering
-    - codebase-navigation
-    - graph-memory
+    - code-navigation
+    - token-optimization
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing graph-based context tooling for AI coding assistants, which fits squarely into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server that provides codebase graph memory as its core identity, mapping directly to the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Structural graph memory for AI coding assistants — MCP server for codebase navigation'"
-    - "README: 'exposes 13 MCP tools that let the LLM: Orient, Navigate, Scope, Assess'"
-    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers
+    - "Repo description states: 'Structural graph memory for AI coding assistants — MCP server for codebase navigation'"
+    - README confirms 'exposes 13 MCP tools' and demonstrates integration with Claude via MCP
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:50.170Z"
+    updated_at: "2026-05-06T22:44:29.652Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:21.059Z"
+    updated_at: "2026-05-06T23:03:15.791Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

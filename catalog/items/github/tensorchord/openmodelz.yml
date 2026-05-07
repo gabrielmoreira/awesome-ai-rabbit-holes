@@ -1,13 +1,13 @@
 id: github__tensorchord__openmodelz
 kind: github-repo
-name: OpenModelZ
+name: openmodelz
 canonical_url: https://github.com/tensorchord/openmodelz
 identity:
   github_repo: tensorchord/openmodelz
 provenance:
   discoveries:
     - id: discovery__github__tensorchord__openmodelz__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,17 +24,25 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 282
+    forks: 25
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-07-13T14:50:20Z"
+    pushed_at: "2023-11-03T06:33:25Z"
+    description: Autoscale LLM (vLLM, SGLang, LMDeploy) inferences on Kubernetes (and others)
+    homepage: https://docs.open.modelz.ai
+    topics:
+      - cluster-manager
+      - hacktoberfest
+      - inference
+      - llm
+      - llmops
+      - mlops
+    last_checked_at: "2026-05-06T22:46:43.870Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:43.870Z"
+      bytes: 18249
 insights:
   summary: null
   why_it_matters: null
@@ -49,22 +57,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (282) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:43.870Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:32:11.079Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__tensorchord__openmodelz: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

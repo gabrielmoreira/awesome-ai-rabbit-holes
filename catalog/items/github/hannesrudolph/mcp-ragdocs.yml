@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hannesrudolph__mcp-ragdocs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs) 🐍 🏠 - An MCP server implementation that provides tools for retrieving and processing documentation through vector search, enabling AI assistants to augment their responses with relevant documentation context"
         confidence: high
     - id: discovery__github__hannesrudolph__mcp-ragdocs__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 260
+    stars: 261
     forks: 24
     license: MIT
     archived: false
@@ -53,50 +53,49 @@ metadata:
       - mcp-servers
       - rag
       - vector-database
-    last_checked_at: "2026-05-05T21:02:30.416Z"
+    last_checked_at: "2026-05-06T22:44:11.120Z"
     readme:
-      fetched_at: "2026-05-05T21:02:30.416Z"
+      fetched_at: "2026-05-06T22:44:11.120Z"
       bytes: 4506
 insights:
-  summary: An MCP server that indexes documentation sources into a Qdrant vector database and exposes semantic search tools for AI assistants to retrieve relevant context.
-  why_it_matters: It allows developers to ground local AI assistants in specific documentation sets, reducing hallucinations and manual doc lookups during coding sessions.
-  mental_damage: Finally, a production-grade way to give your coding agent the permanent existential crisis of searching through 40 versions of your own outdated README.
+  summary: An MCP server that indexes documentation into a vector database and exposes semantic search tools so AI assistants can retrieve relevant docs on demand.
+  why_it_matters: It lets developers wire fresh, searchable documentation context into MCP-compatible assistants instead of relying on stale training data or manual copy-pasting.
+  mental_damage: Yet another RAG wrapper promising that this time, the docs will actually be what the model reads before confidently inventing an API.
   tags:
     - mcp
     - rag
-    - vector-search
     - documentation
-    - context
+    - vector-search
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that provides documentation retrieval via vector search, making it a clear fit for the MCP infrastructure category.
+  reason: This is an MCP-native server whose core identity is exposing documentation retrieval via the Model Context Protocol, making it a textbook fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states it is 'An MCP server implementation that provides tools for retrieving and processing documentation'.
-    - README demonstrates direct MCP integration with Claude Desktop via claude_desktop_config.json configuration.
-    - Featured in both awesome-mcp-list and awesome-mcp-servers under Knowledge & Memory sections.
+    - Repo description explicitly states 'An MCP server implementation that provides tools for retrieving and processing documentation through vector search'.
+    - README emphasizes usage with Claude Desktop via mcpServers configuration and details MCP tools like search_documentation and list_sources.
+    - Included in awesome-mcp-list and awesome-mcp-servers under Knowledge & Memory, confirming MCP-centric community adoption.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (260) exceeded threshold (150)
+  reason: Stars (261) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:30.416Z"
+    updated_at: "2026-05-06T22:44:11.120Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:27.668Z"
+    updated_at: "2026-05-06T22:59:27.163Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

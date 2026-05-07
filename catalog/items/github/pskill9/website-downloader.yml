@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pskill9__website-downloader__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [pskill9/website-downloader](https://github.com/pskill9/website-downloader) 🗄️ 🚀 - This MCP server provides a tool to download entire websites using wget. It preserves the website structure and converts links to work locally."
         confidence: high
     - id: discovery__github__pskill9__website-downloader__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,44 +48,49 @@ metadata:
     description: MCP server to download entire websites
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T23:08:11.084Z"
+    last_checked_at: "2026-05-06T22:45:58.794Z"
     readme:
-      fetched_at: "2026-05-05T23:08:11.084Z"
+      fetched_at: "2026-05-06T22:45:58.794Z"
       bytes: 2048
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that wraps wget to download and localize entire websites for use as a tool by MCP-compatible coding assistants.
+  why_it_matters: It gives agents a standardized way to snapshot web documentation and live examples locally, turning the unpredictable open web into a stable, offline context source.
+  mental_damage: We have successfully built infrastructure so your coding agent can recursively wget the internet, because apparently the solution to context engineering was always just downloading the whole site.
+  tags:
+    - mcp
+    - web-scraping
+    - context-tooling
+    - developer-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is an MCP server that exposes website downloading as a tool, exactly matching the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'MCP server to download entire websites'"
+    - README confirms it is an MCP server providing a download_website tool using wget
+    - Listed in awesome-mcp-list (Utilities) and awesome-mcp-servers (Developer Tools)
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:11.084Z"
+    updated_at: "2026-05-06T22:45:58.794Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:05.325Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

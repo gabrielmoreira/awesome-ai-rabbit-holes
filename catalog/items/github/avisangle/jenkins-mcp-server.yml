@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avisangle__jenkins-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,49 +45,50 @@ metadata:
       - model-context-protocol
       - portfolio-project
       - python
-    last_checked_at: "2026-05-05T21:01:13.932Z"
+    last_checked_at: "2026-05-06T22:12:46.871Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.932Z"
+      fetched_at: "2026-05-06T22:12:46.871Z"
       bytes: 15589
 insights:
-  summary: An MCP server that allows AI assistants to trigger jobs, monitor builds, manage artifacts, and interact with Jenkins CI/CD pipelines via the Model Context Protocol.
-  why_it_matters: It lets developers delegate Jenkins pipeline status checks and job triggers to their AI assistant instead of context-switching to the Jenkins UI.
-  mental_damage: You now possess the technology to ask a LLM to debug a failing build that was triggered by the same LLM hallucinating a YAML file.
+  summary: An MCP server that lets AI coding assistants trigger Jenkins jobs, check build statuses, and manage CI/CD pipelines through the Model Context Protocol.
+  why_it_matters: It closes the loop between AI agents and CI/CD by letting assistants natively monitor pipelines, fetch logs, and manage builds without leaving the coding workflow.
+  mental_damage: Your AI assistant can now stress-watch your failing builds in real time, eliminating the need for you to ever look at Jenkins again.
   tags:
     - mcp
     - jenkins
     - ci-cd
     - devops
-  confidence: high
+    - integration
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for Jenkins, which fits cleanly into the MCP Servers and Tooling category.
+  reason: "MCP is the product identity: a dedicated server exposing Jenkins CI/CD capabilities to MCP-compatible assistants like Claude Desktop."
   evidence:
-    - "Repo description: 'An MCP server for interacting with a Jenkins server.'"
-    - README excerpt details core capabilities like job management, build status, and pipeline monitoring via MCP.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'An MCP server for interacting with a Jenkins server'
+    - README positions it as an enterprise-grade MCP server with STDIO and HTTP transport modes
+    - Included in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.932Z"
+    updated_at: "2026-05-06T22:12:46.871Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:45.052Z"
+    updated_at: "2026-05-06T22:23:01.657Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__binance-alpha-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: An MCP server for tracking Binance Alpha trades, helping AI agents optimize alpha point accumulation.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:09.129Z"
+    last_checked_at: "2026-05-06T22:44:46.161Z"
     readme:
-      fetched_at: "2026-05-05T21:03:09.129Z"
+      fetched_at: "2026-05-06T22:44:46.160Z"
       bytes: 4237
 insights:
-  summary: An MCP server that tracks Binance Alpha token trades in real time and exposes tools to query top tokens and trade statistics for AI agent consumption.
-  why_it_matters: It gives trading-oriented AI agents structured, USD-normalized Binance Alpha trade data without forcing them to parse raw on-chain events themselves.
-  mental_damage: We have successfully built an MCP server so that AI agents can optimize theirBinance Alpha point accumulation strategies with real-time markdown tables.
+  summary: An MCP server that tracks Binance Alpha token trades in real time and exposes trading volume and statistics tools to AI agents.
+  why_it_matters: It gives coding agents and MCP clients a structured way to hook live crypto trade data into agent workflows without building custom scrapers.
+  mental_damage: We have finally reached the point where AI agents need dedicated middleware to optimize their Binance Alpha point accumulation strategies.
   tags:
     - mcp
-    - binance
-    - trading
-    - finance
     - crypto
-  confidence: medium
+    - finance
+    - binance
+    - trade-monitoring
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for exposing Binance Alpha trade data to AI agents, which matches the MCP infrastructure scope.
+  reason: The product is an MCP server providing crypto trade tracking tools, making it a clear fit for the MCP Domain Servers section.
   evidence:
-    - Repo description states it is 'An MCP server for tracking Binance Alpha trades, helping AI agents optimize alpha point accumulation.'
-    - README documents MCP tools (get_top_tokens, get_trade_stats) and configuration for MCP clients like Claude Desktop.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - Repo description states it is 'An MCP server for tracking Binance Alpha trades'.
+    - README documents MCP tools like get_top_tokens and get_trade_stats for AI agents.
+    - Listed in awesome-mcp-servers under Finance & Fintech, aligning with its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:09.129Z"
+    updated_at: "2026-05-06T22:44:46.161Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:34.853Z"
+    updated_at: "2026-05-06T23:06:51.894Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

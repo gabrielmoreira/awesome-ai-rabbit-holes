@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-devutils__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,49 @@ metadata:
       - model-context-protocol
       - typescript
       - uuid
-    last_checked_at: "2026-05-05T21:03:59.298Z"
+    last_checked_at: "2026-05-06T22:45:37.180Z"
     readme:
-      fetched_at: "2026-05-05T21:03:59.298Z"
+      fetched_at: "2026-05-06T22:45:37.180Z"
       bytes: 4060
 insights:
-  summary: A zero-auth MCP server that exposes 17 common developer utilities like base64, UUID, JWT decode, cron parsing, timestamps, JSON formatting, and regex testing to AI assistants via npx.
-  why_it_matters: It lets AI assistants handle routine encoding, decoding, and formatting tasks locally without external API keys, reducing context-switching during development workflows.
-  mental_damage: We have successfully reached the point where our AI assistants need their own utility belt to avoid asking us how to decode a base64 string.
+  summary: A zero-auth MCP server that exposes 17 common developer utilities—such as base64, UUID, JWT decode, cron, timestamps, JSON, and regex—to AI assistants like Claude, Cursor, and VS Code Copilot.
+  why_it_matters: It lets AI assistants perform deterministic, non-hallucinatable utility tasks locally without API keys, improving reliability for common encoding and formatting operations.
+  mental_damage: We have successfully abstracted running base64 on the command line into a protocol negotiation so your AI can do what `echo` has been doing since 1971.
   tags:
     - mcp
     - developer-tools
-    - typescript
     - utilities
-    - npx
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server providing developer utilities to AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product is an MCP server whose entire identity is exposing developer utilities over the Model Context Protocol, fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Zero-auth MCP server with everyday developer utilities'
-    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot as an MCP server via npx
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section
+    - "Repo description: 'Zero-auth MCP server with everyday developer utilities'"
+    - "README: 'An MCP server that gives your AI assistant 17 developer utilities' with explicit Claude/Cursor/Copilot configs"
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:59.298Z"
+    updated_at: "2026-05-06T22:45:37.180Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:36.021Z"
+    updated_at: "2026-05-06T23:18:21.872Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

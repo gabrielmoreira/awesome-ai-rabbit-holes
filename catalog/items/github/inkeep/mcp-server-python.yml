@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inkeep__mcp-server-python__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 26
+    stars: 25
     forks: 10
     license: MIT
     archived: false
@@ -32,14 +32,14 @@ metadata:
     description: Inkeep MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:43.902Z"
+    last_checked_at: "2026-05-06T22:44:24.153Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.902Z"
+      fetched_at: "2026-05-06T22:44:24.153Z"
       bytes: 2145
 insights:
-  summary: An MCP server implementation that connects the Inkeep RAG API to MCP-compatible clients like Claude Desktop to retrieve product documentation and documentation content.
-  why_it_matters: It allows developers to query their own project documentation directly inside their AI client instead of context-switching to a browser to read docs.
-  mental_damage: We have successfully abstracted the act of reading the documentation into a protocol that requires setting up a local Python environment and configuring JSON just to avoid opening a new tab.
+  summary: An MCP server that exposes Inkeep's RAG-powered product documentation and documentation search as a tool for MCP-compatible clients like Claude Desktop.
+  why_it_matters: Developers can query product documentation directly inside their assistant workflow without leaving the context of their coding environment.
+  mental_damage: Yet another layer of indirection so your AI can hallucinate about your docs with the confidence of a well-indexed vector store.
   tags:
     - mcp
     - rag
@@ -48,33 +48,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for exposing Inkeep's RAG capabilities to MCP clients, fitting the MCP Servers and Tooling category perfectly.
+  reason: The product is a Model Context Protocol server designed to make Inkeep's documentation search available to MCP clients, which fits the MCP Servers & Tooling category cleanly.
   evidence:
-    - Repo description is 'Inkeep MCP Server' and README details setup for MCP clients like Claude Desktop.
-    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
-    - Project is active (pushed 2025-04-10) and not archived.
+    - Repo description explicitly states 'Inkeep MCP Server'.
+    - README configures the server as an mcpServer entry for Claude Desktop via claude_desktop_config.json.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.902Z"
+    updated_at: "2026-05-06T22:44:24.153Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:03.886Z"
+    updated_at: "2026-05-06T23:02:11.849Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

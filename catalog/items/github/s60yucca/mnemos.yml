@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__s60yucca__mnemos__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 9
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-18T02:40:21Z"
+    pushed_at: "2026-05-06T02:07:31Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:14.748Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:14.748Z"
+      bytes: 13152
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local, single-binary MCP server that automatically builds and maintains a structured knowledge base for coding agents via background quality gates, deduplication, and context packing.
+  why_it_matters: It removes the manual overhead of memory management for agents like Claude Code and Cursor by handling storage, retrieval, and context assembly automatically within a token budget.
+  mental_damage: We have finally automated the process of remembering why we started refactoring this module three hours ago, ensuring our agent never forgets the context we ourselves have lost.
+  tags:
+    - mcp
+    - memory
+    - context
+    - local-first
+    - go
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core novelty is an automated memory and context-shaping system (quality gates, dedup, summarization, MMR packing) that feeds agents, fitting Prompt & Context Engineering over a generic extension label.
+  evidence:
+    - README states mnemos 'compiles a knowledge base' with auto-summarization, file-linking, and MMR context assembly, not just hosting tools.
+    - Tool runs as an MCP server but the primary job is memory retrieval/compression ('Autopilot knowledge base for your coding agent').
+    - Source list awesome-mcp-servers places it under 'Knowledge & Memory', aligning with context-engineering identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:14.748Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:42.000Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

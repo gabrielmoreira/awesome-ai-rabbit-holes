@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ammawla__encode-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -48,50 +48,50 @@ metadata:
       - claude-skills
       - encode
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:02.659Z"
+    last_checked_at: "2026-05-06T22:12:37.268Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.659Z"
+      fetched_at: "2026-05-06T22:12:37.268Z"
       bytes: 32529
 insights:
-  summary: An MCP server and Claude Code plugin that provides 20 tools and 47 skills to search, cross-reference, and analyze ENCODE genomics data and run analysis pipelines from natural language.
-  why_it_matters: Bioinformatics developers can query 14 databases, run 7 genomic pipelines, and generate publication-ready methods directly inside Claude Code without leaving the IDE.
-  mental_damage: Because nothing says 'focused software engineering' like turning your coding agent into a specialized genomics workbench that can cross-reference GWAS variants and ClinVar pathogenicity between commits.
+  summary: An MCP server and Claude plugin that provides 20 tools and 47 skills for searching, downloading, analyzing, and cross-referencing ENCODE genomic data within Claude Code and other MCP-compatible editors.
+  why_it_matters: It lets bioinformatics developers run complex genomic analyses, cross-reference 14 databases, and generate publication-ready methods using natural language instead of writing custom pipelines.
+  mental_damage: You now have 47 specialized skills to analyze histone peaks, but you still need a separate AI tool to explain what a histone peak actually is.
   tags:
     - mcp
     - bioinformatics
     - claude-code
     - genomics
-    - skills
+    - domain-server
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server and Claude plugin that extends an AI developer tool with domain-specific genomics capabilities, fitting cleanly into MCP tooling.
+  reason: The product's primary identity is an MCP server for the ENCODE genomics database, fitting cleanly as a domain-specific MCP server rather than a general coding agent or framework.
   evidence:
-    - Repo description explicitly states 'MCP server and Claude Plugin for a full ENCODE Project genomic data and analysis toolkit'.
-    - README shows 20 MCP tools, 47 skills, and integrations with Claude Code, VS Code, Cursor, and Windsurf.
-    - Listed under 'Server Implementations > Biology, Medicine and Bioinformatics' in awesome-mcp-servers.
+    - Repo description explicitly states 'MCP server and Claude Plugin for a full ENCODE Project genomic data and analysis toolkit'
+    - Found in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'
+    - README positions it as 'an MCP server, Claude plugin, and skills suite' with 20 MCP tools and 47 skills
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.659Z"
+    updated_at: "2026-05-06T22:12:37.268Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:00.095Z"
+    updated_at: "2026-05-06T22:21:05.699Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

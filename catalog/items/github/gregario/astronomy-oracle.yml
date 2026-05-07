@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__astronomy-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Celestial object catalog and observing session planner MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:27.398Z"
+    last_checked_at: "2026-05-06T22:44:07.913Z"
     readme:
-      fetched_at: "2026-05-05T21:02:27.398Z"
+      fetched_at: "2026-05-06T22:44:07.913Z"
       bytes: 4491
 insights:
   summary: An MCP server that provides LLM assistants with accurate astronomical catalog data and observing session planning for 13,000+ deep-sky objects.
-  why_it_matters: It prevents astronomy-related hallucinations in LLM workflows by replacing made-up magnitudes and coordinates with deterministic, local math and a bundled OpenNGC dataset.
-  mental_damage: We have finally solved the crisis of AI assistants confidently inventing stars, leaving developers free to worry about everything else hallucinating instead.
+  why_it_matters: It eliminates hallucinated star coordinates and magnitudes by giving coding agents deterministic, offline access to bundled OpenNGC data and local astronomy math.
+  mental_damage: We have finally solved the existential crisis of a language model confidently inventing the wrong Messier object, though one wonders when we will need an MCP server for 'what is a pointer, actually'.
   tags:
     - mcp
     - astronomy
-    - llm-tooling
-    - local-data
+    - domain-server
+    - offline
+    - tools
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server designed to extend LLM assistants with domain-specific tools, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server providing domain-specific tools (object lookup, catalog search, session planning) for LLM assistants, fitting squarely into MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'Celestial object catalog and observing session planner MCP server'.
-    - README confirms it is 'MCP-compatible' and provides configuration examples for Claude Desktop and Claude Code.
-    - Listed under 'Server Implementations > Aerospace & Astrodynamics' in the awesome-mcp-servers directory.
+    - README confirms it is an MCP-compatible server with 3 tools for astronomy data, bundled as an npm package.
+    - Listed in awesome-mcp-servers under 'Aerospace & Astrodynamics' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:27.398Z"
+    updated_at: "2026-05-06T22:44:07.913Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:51.552Z"
+    updated_at: "2026-05-06T22:58:49.246Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

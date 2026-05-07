@@ -1,12 +1,12 @@
 id: www__magnific__com
 kind: website
-name: Freepik
+name: www.magnific.com
 canonical_url: https://www.magnific.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__magnific__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magnific is a browser-first AI creative platform offering hosted tools for generating and editing images, video, audio, and 3D assets, along with collaborative workflows and a developer API.
-  why_it_matters: It provides a unified API and workflow canvas for developers needing to integrate diverse generative media models into applications or marketing pipelines without stitching together multiple vendor SDKs.
-  mental_damage: Yet another reminder that while we have perfectly good diffusion models, we are still waiting for an AI that can reliably center a div without six rounds of persuasion.
+  summary: Magnific is a creative AI platform offering image, video, audio, and 3D generation tools, upscalers, and editing capabilities via a web UI and developer API.
+  why_it_matters: It provides a unified API and node-based workflow canvas for integrating multiple generative AI models into creative pipelines, though it targets designers and marketers more than engineers.
+  mental_damage: Another reminder that while we're debugging Kubernetes configs, the hottest AI platforms are busy cloning voices and upscaling product shots for Puma campaigns.
   tags:
+    - creative-ai
     - api
-    - browser-first
-    - creative-assets
-    - generative-media
+    - image-generation
+    - video-generation
   confidence: high
 curation:
   status: excluded
-  reason: Magnific is a general creative suite for images, video, and audio generation aimed at marketing and filmmaking, lacking the software development, coding agent, or infrastructure focus required for this catalog.
+  reason: Excluded because it is a general creative content platform for images, video, and audio rather than a tool that assists developers with coding, infra, or dev workflows.
   evidence:
-    - Scraped site context describes it as 'The complete platform of creative AI tools for image, video, and audio generation' for campaigns and filmmaking.
-    - The listed tools (Image Upscaler, Video Generator, Voice Cloning) target creative production rather than code editing or developer workflow automation.
-    - Source list context places it under 'UI Generators' in a general awesome list, which is too broad for a curated developer-tooling catalog.
+    - Scraped site title and description explicitly identify it as 'The complete platform of creative AI tools for image, video, and audio generation' for campaigns and filmmaking.
+    - Source-list context lists it under 'UI Generators' in an awesome list, which is a mismatch for this catalog's focus on developer tooling rather than creative asset generation.
+    - No repo description, IDE integration, CLI agent, or coding-workflow utility is present in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:52.829Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:09.779Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

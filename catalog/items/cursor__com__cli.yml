@@ -1,12 +1,12 @@
 id: cursor__com__cli
 kind: website
-name: Cursor CLI
+name: cli
 canonical_url: https://cursor.com/cli
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__com__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -35,44 +35,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cursor CLI is a terminal-native AI coding agent that allows developers to plan, build, and automate coding tasks using frontier models directly from the command line.
-  why_it_matters: It brings Cursor's agentic capabilities into headless environments, CI/CD pipelines, and custom scripts, allowing developers to integrate AI coding workflows outside of the IDE.
-  mental_damage: You can now have an existential crisis about your coding abilities while staring at a scenic painted landscape wallpaper in your terminal instead of just your editor.
+  summary: Cursor CLI is a terminal-native AI coding agent that allows developers to plan, build, and ship code using frontier models from a command-line interface, with integrations for IDEs, scripts, and CI/CD workflows.
+  why_it_matters: It brings Cursor's multi-model agent capabilities into headless environments like GitHub Actions and custom scripts, enabling automated coding workflows outside the IDE.
+  mental_damage: Now you can automate your impostor syndrome directly from a curl command in your terminal, neatly removing the last remaining friction between you and a CI pipeline full of AI-generated regressions.
   tags:
-    - automation
     - cli
     - coding-agent
-    - cursor
     - terminal
+    - automation
+    - cursor
   confidence: high
 curation:
   status: included
-  reason: The product is a developer-facing coding agent that operates directly in the terminal, supporting repo work, scripting, and CI/CD integration, which fits the coding-agents category definition.
+  reason: Cursor CLI is a standalone terminal agent that lets developers delegate coding tasks, run headless automation, and integrate with CI, fitting the primary coding assistant definition for the terminal.
   evidence:
-    - Scraped site context describes it as 'Ship code with agents... Right from your terminal' with commands like '> agent'.
-    - Explicit support for GitHub Actions and headless scripts to 'automatically update docs' and 'trigger security reviews'.
-    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents > Closed Source' section.
+    - "Scraped site states: 'Ship code with agents. Right from your terminal.'"
+    - Documented support for headless CLI usage, shell mode, and GitHub Actions integration.
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:28.333Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:44.893Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__moxiespirit__oathscore__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - trading
       - vix
       - volatility
-    last_checked_at: "2026-05-05T21:03:47.285Z"
+    last_checked_at: "2026-05-06T22:45:25.826Z"
     readme:
-      fetched_at: "2026-05-05T21:03:47.285Z"
+      fetched_at: "2026-05-06T22:45:25.826Z"
       bytes: 6200
 insights:
-  summary: OathScore is an MCP-compatible server and API that provides real-time world state data and continuous quality ratings for financial data APIs used by AI trading agents.
-  why_it_matters: It gives trading agents a trust layer to verify data API accuracy, uptime, and freshness before making decisions, reducing the risk of acting on faulty market data.
-  mental_damage: We have finally built a credit bureau for APIs, because apparently the agents need to worry about data integrity even if they still can't decide whether to buy or sell.
+  summary: OathScore is a real-time API monitoring and rating service for trading data sources, shipping an MCP server so AI agents can query world state, volatility, and data quality scores.
+  why_it_matters: It lets trading agents programmatically check whether a market-data API is lying to them before making decisions, replacing vibes-based trust with uptime and accuracy metrics.
+  mental_damage: We have finally built a credit bureau for APIs, because apparently even our data sources now need to be audited by the same agents they are trying to mislead.
   tags:
     - mcp
     - finance
     - api-monitoring
-    - trading-agents
-    - data-quality
+    - trading
+    - agents
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tools like get_now and get_score for agent use, with MCP configuration examples and inclusion in the awesome-mcp-servers finance section.
+  reason: The product's primary identity is a domain-specific MCP server for finance and trading agents, providing world-state and API quality data through the Model Context Protocol.
   evidence:
-    - README includes MCP server configuration for Claude Code/Cursor and lists MCP tools like get_now and get_score.
-    - GitHub topics include mcp and mcp-server, and it is listed in awesome-mcp-servers under Finance & Fintech.
-    - Project is active (pushed 2026-04-10) and not archived, with a clear developer-facing MCP implementation.
+    - Repo description explicitly positions it as API quality ratings 'for AI trading agents' with MCP topics.
+    - README includes a dedicated 'For MCP-Compatible Agents' section with JSON config for Claude Code and Cursor.
+    - Included in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:47.285Z"
+    updated_at: "2026-05-06T22:45:25.826Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:10.176Z"
+    updated_at: "2026-05-06T23:15:45.100Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

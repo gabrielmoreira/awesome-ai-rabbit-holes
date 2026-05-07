@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__esignaturescom__mcp-server-esignatures__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: MCP server for eSignatures (https://esignatures.com)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:04.170Z"
+    last_checked_at: "2026-05-06T22:43:47.886Z"
     readme:
-      fetched_at: "2026-05-05T21:02:04.170Z"
+      fetched_at: "2026-05-06T22:43:47.886Z"
       bytes: 4218
 insights:
-  summary: An MCP server that exposes eSignatures.com contract and template management tools to AI models and agents.
-  why_it_matters: Developers can hook contract drafting, sending, and template management directly into their AI-assisted IDE or agent workflows instead of switching to a web dashboard.
-  mental_damage: Your coding agent can now negotiate, draft, and withdraw NDAs while you are still trying to remember if you committed your .env file.
+  summary: An MCP server that exposes eSignatures.com contract, template, and collaborator management tools to AI assistants like Claude Desktop.
+  why_it_matters: It lets developers draft, send, and manage eSignature contracts directly through chat interfaces instead of context-switching to a web dashboard.
+  mental_damage: We have finally achieved the future where your AI agent can politely nag someone to sign an NDA while you avoid ever learning where the 'Send' button is in yet another SaaS UI.
   tags:
     - mcp
+    - esignatures
     - contracts
-    - automation
-    - agent-tooling
+    - claude-desktop
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server that integrates eSignatures functionality into MCP-compatible clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server exposing eSignatures.com APIs, fitting cleanly into MCP Servers & Tooling as a domain server.
   evidence:
-    - Repo description explicitly states 'MCP server for eSignatures'
-    - README documents MCP tools for contract and template management (create_contract, send_contract, update_template, etc.)
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory
+    - Repo description and README explicitly define it as 'MCP server for eSignatures'.
+    - Provides MCP tools like create_contract, query_template, and list_recent_contracts for Claude Desktop integration.
+    - Listed in awesome-mcp-servers under 'Official Servers', confirming its MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:04.170Z"
+    updated_at: "2026-05-06T22:43:47.886Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:21.243Z"
+    updated_at: "2026-05-06T22:54:41.648Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

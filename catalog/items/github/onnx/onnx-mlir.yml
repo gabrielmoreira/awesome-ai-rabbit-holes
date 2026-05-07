@@ -1,13 +1,13 @@
 id: github__onnx__onnx-mlir
 kind: github-repo
-name: ONNX-MLIR
+name: onnx-mlir
 canonical_url: https://github.com/onnx/onnx-mlir
 identity:
   github_repo: onnx/onnx-mlir
 provenance:
   discoveries:
     - id: discovery__github__onnx__onnx-mlir__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,28 +33,28 @@ metadata:
     description: Representation and Reference Lowering of ONNX Models in MLIR Compiler Infrastructure
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:04:01.793Z"
+    last_checked_at: "2026-05-06T22:45:39.227Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.793Z"
+      fetched_at: "2026-05-06T22:45:39.227Z"
       bytes: 9455
 insights:
-  summary: A compiler that lowers ONNX machine learning models into native code using the MLIR and LLVM infrastructure.
-  why_it_matters: It allows developers to deploy optimized neural network models as standalone C, Java, or LLVM bytecode libraries with minimal runtime overhead.
-  mental_damage: Proof that we've successfully abstracted the abstraction of the abstraction, and you now need a compiler engineer just to run your neural network.
+  summary: A compiler that lowers Open Neural Network Exchange (ONNX) models into optimized code using the MLIR compiler infrastructure and LLVM.
+  why_it_matters: It allows developers to compile high-level neural network models into runnable libraries or bytecode with minimal runtime overhead, bridging the gap between model definition and production deployment.
+  mental_damage: Yet another reminder that the modern AI stack requires a PhD in compiler architecture just to figure out if your model will actually run on the hardware you bought.
   tags:
-    - compiler
-    - inference
     - mlir
     - onnx
-    - optimization
+    - compiler
+    - ml-compiler
+    - llvm
   confidence: high
 curation:
   status: excluded
-  reason: While technically impressive infrastructure, this is a deep ML compiler and model optimization tool rather than a developer-facing AI tool, agent, or workflow enhancer.
+  reason: Excluded because it is a machine learning compiler and infrastructure project for model optimization, lacking a direct developer-facing AI tooling, coding agent, or prompt engineering angle.
   evidence:
-    - Repo description explicitly defines it as 'Representation and Reference Lowering of ONNX Models in MLIR Compiler Infrastructure'.
-    - README states it 'transform[s] a valid ONNX graph into code... with minimum runtime support' targeting C/Java/LLVM, not developer workflows.
-    - Listed in Awesome-LLMOps under 'Performance > ML Compiler', confirming its identity as infrastructure rather than a developer assistant.
+    - Repo description explicitly states it is for 'Representation and Reference Lowering of ONNX Models in MLIR Compiler Infrastructure'.
+    - README confirms the project is a compiler technology to transform ONNX graphs into MLIR/LLVM code, targeting runtime performance rather than developer workflows.
+    - Seen in Awesome-LLMOps under 'Performance > ML Compiler', which aligns with infrastructure rather than the catalog's focus on AI developer tools.
 placement:
   primary_category: null
   section: null
@@ -62,21 +62,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1012) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:05.427Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.793Z"
+    updated_at: "2026-05-06T22:45:39.227Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:52.617Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

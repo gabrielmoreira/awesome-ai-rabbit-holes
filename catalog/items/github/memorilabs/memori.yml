@@ -1,13 +1,13 @@
 id: github__memorilabs__memori
 kind: github-repo
-name: Memori
+name: memori
 canonical_url: https://github.com/memorilabs/memori
 identity:
   github_repo: memorilabs/memori
 provenance:
   discoveries:
     - id: discovery__github__memorilabs__memori__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14069
-    forks: 1905
+    stars: 14077
+    forks: 1906
     license: NOASSERTION
     archived: false
     created_at: "2025-07-24T07:07:51Z"
-    pushed_at: "2026-05-05T20:54:18Z"
+    pushed_at: "2026-05-06T19:44:06Z"
     description: Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
     homepage: https://memorilabs.ai
     topics:
@@ -52,50 +52,49 @@ metadata:
       - state-management
       - stateful
       - typescript
-    last_checked_at: "2026-05-05T21:03:35.233Z"
+    last_checked_at: "2026-05-06T22:45:13.501Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.233Z"
-      bytes: 12281
+      fetched_at: "2026-05-06T22:45:13.501Z"
+      bytes: 12370
 insights:
-  summary: Memori is an LLM-agnostic memory infrastructure SDK and cloud service that captures agent execution and conversation history into structured, persistent state for AI applications.
-  why_it_matters: It allows developers to add stateful, long-term memory to AI agents with minimal integration overhead, significantly reducing context window bloat compared to full-history prompting.
-  mental_damage: "Just what we needed: another layer of infrastructure to manage so our agents can remember they already apologized for the last hallucination."
+  summary: Memori is an LLM-agnostic memory infrastructure layer that persists agent execution history and conversation state into structured, queryable memory for production systems.
+  why_it_matters: It offers Python and TypeScript SDKs to automatically capture and recall agent state, reducing prompt size by ~95% compared to full-context prompting while maintaining high benchmark accuracy.
+  mental_damage: Because nothing says 'production-ready agent' like adding a dedicated memory layer to remember what your stateless LLM forgot it was doing five minutes ago.
   tags:
-    - agent-infrastructure
-    - llm-agnostic
     - memory
+    - agent-infrastructure
+    - context-management
     - sdk
-    - state-management
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK and infrastructure layer developers import to add memory capabilities to their own agents, fitting the AI Frameworks category.
+  reason: The core novelty is a memory and context-shaping system that persists and retrieves agent state to reduce context footprint, fitting Prompt & Context Engineering.
   evidence:
-    - Repo description defines it as 'agent-native memory infrastructure' and an 'LLM-agnostic layer'.
-    - Provides Python and TypeScript SDKs (pip install memori, npm install @memorilabs/memori) for developer integration.
-    - Listed in awesome-agent-orchestration under 'Tools & Infrastructure > Memory & Knowledge'.
+    - Repo description explicitly calls it 'agent-native memory infrastructure' and 'structured, persistent state'.
+    - README emphasizes 'Memory from what agents do' and reports reducing context footprint to 4.97% of full-context while outperforming Zep, LangMem, and Mem0 on LoCoMo.
+    - It provides Python and TypeScript SDKs (pip install memori, npm install @memorilabs/memori) and a cloud API, positioning it as a developer-facing context layer.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14069) exceeded threshold (150)
+  reason: Stars (14077) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:49.435Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.233Z"
+    updated_at: "2026-05-06T22:45:13.501Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:12:59.626Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

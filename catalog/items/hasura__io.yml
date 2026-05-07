@@ -1,12 +1,12 @@
 id: hasura__io
 kind: website
-name: Hasura
+name: hasura.io
 canonical_url: https://hasura.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__hasura__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hasura is a data access platform providing a GraphQL Engine and PromptQL, a system designed to deliver business-context-aware data for AI applications and digital experiences.
-  why_it_matters: It allows developers to build AI features on top of reliable, context-rich data layers rather than wiring raw database queries into LLM prompts.
-  mental_damage: "Just what we needed: another layer of abstraction between the neural network and the SQL database, ensuring the 'context' is perfect right up until the moment the GraphQL schema changes."
+  summary: Hasura is a data access platform offering GraphQL and REST APIs over databases, recently introducing PromptQL for context-aware AI data interactions.
+  why_it_matters: It provides developers with a way to expose database data through APIs that AI agents can query accurately using business-specific context.
+  mental_damage: Yet another platform promising to solve the 'accurate AI' problem by adding a new query language to the ever-growing pile of data access abstractions we're all supposed to learn.
   tags:
-    - ai-infrastructure
     - data-access
     - graphql
-    - promptql
+    - ai-data
+    - apis
   confidence: high
 curation:
   status: excluded
-  reason: While Hasura is a developer tool, it is fundamentally a data API and GraphQL platform rather than a direct AI coding assistant, app builder, or agent orchestration tool for developers.
+  reason: Hasura is primarily a data API and GraphQL engine platform rather than a developer-facing AI coding tool, coding agent, or AI infrastructure that fits the catalog's scope.
   evidence:
-    - Scraped site context describes it as delivering 'accurate, fast, and secure data access for AI' via GraphQL and PromptQL, not as a coding agent or app builder.
-    - Source list context places it under 'Database and API Tools' in awesome-ai-coding-tools, indicating it is infrastructure supporting AI, not the AI tool itself.
-    - No evidence in the inputs suggests it writes code, builds apps from prompts, or orchestrates agents in a way that fits the specific catalog categories.
+    - Scraped site context describes it as delivering 'accurate, fast, and secure data access for AI and digital experiences', not as a coding tool.
+    - The site positions it as a 'Data Delivery Network' and 'GraphQL Engine' trusted by Fortune 100 companies, not as a coding assistant or AI dev tool.
+    - Though listed in awesome-ai-coding-tools under 'Database and API Tools', the core product is a data platform rather than a tool for writing, reviewing, or debugging code.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:17.586Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:45.004Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -6,23 +6,8 @@ identity:
   github_repo: genlayerlabs/yeagerai-agent
 provenance:
   discoveries:
-    - id: discovery__github__yeagerai__yeagerai-agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - yAgents
-        anchor_text: yAgents
-        extracted_url: https://github.com/yeagerai/yeagerai-agent
-        surrounding_text: "## [yAgents](https://github.com/yeagerai/yeagerai-agent)"
-        confidence: high
     - id: discovery__github__genlayerlabs__yeagerai-agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,26 +33,27 @@ metadata:
     homepage: ""
     topics:
       - yeager-squad-dev
-    last_checked_at: "2026-05-05T21:02:18.829Z"
+    last_checked_at: "2026-05-06T22:44:00.381Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.829Z"
+      fetched_at: "2026-05-06T22:44:00.381Z"
       bytes: 2729
 insights:
-  summary: A discontinued Langchain-based CLI tool for creating, prototyping, and deploying AI agents with persistent memory and interactive commands.
-  why_it_matters: It offered developers a quick way to scaffold and test Langchain agents via the terminal before the ecosystem standardized on more integrated platforms.
-  mental_damage: Nothing says 'cutting-edge AI infrastructure' quite like a 2023 agent builder that officially sunset itself before the 2024 agent hype even peaked.
+  summary: A discontinued LangChain-based CLI tool for interactively building, testing, and deploying AI agents with session-persistent memory.
+  why_it_matters: It offered an early, developer-friendly way to prototype LangChain agents directly from the terminal before the ecosystem standardized on newer orchestration frameworks.
+  mental_damage: A pioneering agent builder that courageously abandoned the field just in time to avoid the 2024 agent orchestration gold rush.
   tags:
-    - agent-builder
-    - cli
     - langchain
+    - cli
+    - agent-builder
     - prototyping
   confidence: high
 curation:
   status: excluded
-  reason: "Excluded because the project is explicitly discontinued (featured WARNING: DISCONTINUED in the README) and inactive, offering no current utility to developers seeking active tooling."
+  reason: Excluded because the project is explicitly discontinued and has seen minimal maintenance since mid-2024, making it a poor fit for an active developer tooling catalog.
   evidence:
-    - "README header prominently displays: [ WARNING: DISCONTINUED ]"
-    - Last push was 2024-09-18, but the project presents itself as shut down rather than maintained.
+    - "README banner clearly states 'WARNING: DISCONTINUED'."
+    - Last push was 2024-09-18, with no active development since.
+    - Appears in awesome-ai-agents, but primarily as a historical LangChain utility rather than a living tool.
 placement:
   primary_category: null
   section: null
@@ -75,21 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (594) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:54.494Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.150Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.829Z"
+    updated_at: "2026-05-06T22:44:00.381Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:15.751Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

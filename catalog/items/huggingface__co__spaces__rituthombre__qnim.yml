@@ -1,12 +1,12 @@
 id: huggingface__co__spaces__rituthombre__qnim
 kind: website
-name: QNimGPT
+name: QNim
 canonical_url: https://huggingface.co/spaces/rituthombre/QNim
 identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__spaces__rituthombre__qnim__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,21 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: QNim is a Hugging Face Space listed as an agent-based application, currently experiencing runtime errors and unavailable to use.
-  why_it_matters: It appears in the awesome-langchain directory as an example of agent implementation, serving as a reference point for community LangChain projects.
-  mental_damage: Nothing says 'cutting-edge AI agent' quite like a container that has been timing out for thirty minutes while the logs fetch eternally.
+  summary: QNim is a Hugging Face community Space that appears to be intended as an AI agent or chatbot demo using LangChain.
+  why_it_matters: It represents a low-friction way to experiment with LangChain-based agent implementations via the Hugging Face Spaces hosting environment.
+  mental_damage: Nothing says 'production-ready developer tooling' quite like a container that spent 30 minutes failing to wake up before timing out.
   tags:
-    - agents
-    - huggingface
     - langchain
+    - huggingface
+    - agent-demo
+    - chatbot
   confidence: high
 curation:
   status: excluded
-  reason: The project is a non-functional, unmaintained Hugging Face demo with no accessible code, description, or tooling surface for developers.
+  reason: The project is a non-functional, runtime-erroring Hugging Face demo Space with no description, README, or clear developer-tooling utility beyond being a generic chatbot example.
   evidence:
-    - Scraped site context shows 'Runtime error' and 'Launch timed out, space was not healthy after 30 min'.
-    - No repository description, README excerpt, or code is available to verify what the tool actually does.
-    - Appears only as a generic entry in awesome-langchain without a substantial developer-facing workflow.
+    - The Space is currently in a 'Runtime error' state with 'Launch timed out, space was not healthy after 30 min'.
+    - No repository description, README excerpt, or clear technical documentation was provided.
+    - It was listed in awesome-langchain under 'Other / Chatbots', suggesting a generic demo rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:30.531Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:23.728Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

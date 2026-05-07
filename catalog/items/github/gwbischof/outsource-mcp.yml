@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gwbischof__outsource-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Give your AI assistant its own AI assistants.
     homepage: https://gwbischof.notion.site/Give-Your-AI-Assistant-Its-Own-AI-Assistants-Introducing-Outsource-mcp-202cb0b01a9b803499bff8d44cecea4e
     topics: []
-    last_checked_at: "2026-05-05T21:02:29.429Z"
+    last_checked_at: "2026-05-06T22:44:09.872Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.429Z"
+      fetched_at: "2026-05-06T22:44:09.872Z"
       bytes: 9702
 insights:
-  summary: An MCP server that lets AI assistants outsource text and image generation tasks to 20+ model providers through a unified interface.
-  why_it_matters: It allows MCP-compatible hosts like Claude Desktop or Cline to route specific generation tasks to specialized providers without the host needing direct integration for each one.
-  mental_damage: Finally, your AI assistant can experience the same context-switching fatigue and API key management nightmare that you do, just to generate a haiku from a different model.
+  summary: An MCP server that lets AI assistants outsource text and image generation tasks to 20+ model providers through a single unified interface.
+  why_it_matters: Developers can let their primary coding assistant delegate work to alternative models (OpenAI, Anthropic, Google, Groq, etc.) without leaving the MCP-compatible client they already use.
+  mental_damage: "We have finally shipped the architectural pinnacle of 2025: an AI assistant that hires other AI assistants, so your AI assistant can be as confused as you are but with more API keys."
   tags:
     - mcp
     - multi-provider
-    - model-routing
-    - agent-tools
+    - model-abstraction
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to extend AI assistant capabilities via the Model Context Protocol.
+  reason: The product is an MCP server whose core identity is exposing multi-provider model access via the Model Context Protocol, making it a clean fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'Give your AI assistant its own AI assistants' via MCP."
-    - "README: 'An MCP (Model Context Protocol) server that enables AI applications to outsource tasks to various model providers.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Code Execution'.
+    - "Repo description states: 'Give your AI assistant its own AI assistants' and the README confirms it is 'An MCP (Model Context Protocol) server'."
+    - Compatible with Claude Desktop, Cline, and other MCP-enabled applications, with explicit MCP client configuration examples.
+    - Listed in awesome-mcp-servers under Server Implementations > Code Execution, reinforcing its MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.429Z"
+    updated_at: "2026-05-06T22:44:09.872Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:16.471Z"
+    updated_at: "2026-05-06T22:59:15.870Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

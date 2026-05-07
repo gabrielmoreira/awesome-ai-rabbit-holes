@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__souzix76__n8n-workflow-tester-safe__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-11T17:45:36Z"
+    pushed_at: "2026-03-30T01:08:35Z"
+    description: Safe MCP server + CLI for testing, inspecting, and operating n8n workflows with a constrained scope
+    homepage: https://github.com/hugoscastro-cell/n8n-workflow-tester-safe
+    topics:
+      - automation
+      - mcp
+      - model-context-protocol
+      - n8n
+      - typescript
+      - workflow-testing
+    last_checked_at: "2026-05-06T22:46:30.096Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:30.096Z"
+      bytes: 8979
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A safe MCP server and CLI for testing, scoring, and inspecting n8n workflows with a constrained scope that excludes destructive admin operations.
+  why_it_matters: It lets developers and autonomous agents validate n8n workflow behavior in CI and shared environments without handing over full admin credentials or triggering auto-fix loops.
+  mental_damage: We now have a specialized MCP server to test the workflows that were supposedly already solved by the agents we connected to n8n in the first place.
+  tags:
+    - mcp
+    - n8n
+    - workflow-testing
+    - ci
+    - typescript
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server for n8n workflow testing and inspection, with MCP as the primary adopted interface rather than a compatibility footnote.
+  evidence:
+    - Repo description explicitly calls it a 'Safe MCP server + CLI for testing, inspecting, and operating n8n workflows'.
+    - README positions it as an MCP server for Claude, OpenClaw, or any MCP client, with stdio transport and client config examples.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP infrastructure identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:30.096Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:31.133Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

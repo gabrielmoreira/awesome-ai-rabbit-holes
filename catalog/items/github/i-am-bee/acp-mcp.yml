@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__i-am-bee__acp-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,28 +33,27 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:40.467Z"
+    last_checked_at: "2026-05-06T22:44:21.069Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.467Z"
+      fetched_at: "2026-05-06T22:44:21.069Z"
       bytes: 4825
 insights:
-  summary: A lightweight adapter server that bridges Agent Communication Protocol (ACP) agents into the Model Context Protocol (MCP) ecosystem, allowing MCP applications like Claude Desktop to discover and invoke ACP agents as tools and resources.
-  why_it_matters: It enables developers working in the MCP ecosystem to reuse existing ACP agents without rewriting them, bridging two emerging agent communication standards.
-  mental_damage: Just when you thought keeping up with one new AI protocol was manageable, you now need an adapter to translate between the two protocols that were supposed to simplify everything.
+  summary: A lightweight adapter server that bridges Agent Communication Protocol (ACP) agents into the Model Context Protocol (MCP) ecosystem, allowing MCP applications like Claude Desktop to discover and invoke ACP agents as tools.
+  why_it_matters: It enables developers working in MCP environments to reuse existing ACP agents without rewriting them, smoothing over an emerging protocol fragmentation problem.
+  mental_damage: We have reached the point where we need adapters to help our adapters talk to each other, and the bridge itself is already archived.
   tags:
     - mcp
     - acp
     - interoperability
-    - bridge
-    - protocol
+    - protocol-bridge
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived, indicating the project is no longer maintained or has been sunset, which outweighs its technical fit as MCP infrastructure.
+  reason: The repository is archived, and its core identity is a niche protocol bridge/adapter rather than a standalone MCP server or developer tool that belongs in the catalog.
   evidence:
-    - Repository is marked as archived on GitHub.
-    - Created as recently as 2025-04-28 but last pushed on 2025-05-09, suggesting rapid abandonment.
-    - README describes a bridge specifically between ACP agents and MCP applications like Claude Desktop.
+    - "Repo is explicitly marked as archived (archived: yes)."
+    - Primary function is an interoperability adapter between ACP and MCP, not a standalone MCP server or tool.
+    - Listed in awesome-mcp-servers as a bridge, reinforcing its role as glue code rather than a primary product.
 placement:
   primary_category: null
   section: null
@@ -64,19 +63,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.467Z"
+    updated_at: "2026-05-06T22:44:21.069Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:20.244Z"
+    updated_at: "2026-05-06T23:01:32.035Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

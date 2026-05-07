@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) 🐍 🏠 - Model Context Protocol with Neo4j (Run queries, Knowledge Graph Memory, Manaage Neo4j Aura Instances)"
         confidence: high
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Neo4j](https://github.com/neo4j-contrib/mcp-neo4j/)** - Neo4j graph database server (schema + read/write-cypher) and separate graph database backed memory"
         confidence: high
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "-   **[neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)** [![GitHub stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j?style=social)](https://github.com/neo4j-contrib/mcp-neo4j): Enables Model Context Protocol interactions with Neo4j databases."
         confidence: high
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -85,50 +85,50 @@ metadata:
       - mcp-server
       - neo4j
       - stdio
-    last_checked_at: "2026-05-05T21:03:52.657Z"
+    last_checked_at: "2026-05-06T22:45:30.633Z"
     readme:
-      fetched_at: "2026-05-05T21:03:52.657Z"
+      fetched_at: "2026-05-06T22:45:30.633Z"
       bytes: 4934
 insights:
-  summary: A collection of Neo4j Labs MCP servers that let AI assistants query graphs with Cypher, manage Aura instances, and store knowledge graphs via natural language.
-  why_it_matters: It connects your AI coding assistant directly to graph data and cloud infrastructure, turning natural language into Cypher queries and Aura management without switching contexts.
-  mental_damage: You now have a graph database, three MCP servers, and a cloud console all arguing about whether your knowledge graph truly understands your weekend plans.
+  summary: A collection of Model Context Protocol servers from Neo4j Labs that let MCP clients interact with Neo4j databases, Aura cloud instances, and knowledge graphs.
+  why_it_matters: Developers using Claude Desktop, Cursor, or other MCP clients can query graphs, manage cloud instances, and persist memory via natural language instead of custom glue code.
+  mental_damage: You now have a standardized protocol for teaching your coding assistant to remember things in a graph database, which is the exact kind of architectural overkill that makes you wonder if you’re building software or a digital diorama of your own productivity.
   tags:
     - mcp
     - neo4j
-    - graph-database
-    - agent-tooling
     - knowledge-graph
+    - database
+    - memory
   confidence: high
 curation:
   status: included
-  reason: This is a suite of MCP servers specifically built to let AI assistants interact with Neo4j and Aura, fitting cleanly into the MCP infrastructure category.
+  reason: The product identity is explicitly a set of MCP servers providing Neo4j capabilities to MCP clients, which fits cleanly into MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Neo4j Labs Model Context Protocol servers'.
-    - README details multiple servers (mcp-neo4j-cypher, mcp-neo4j-memory, mcp-neo4j-cloud-aura-api) for AI assistant integration.
-    - Featured in awesome-mcp-list and awesome-mcp-servers under Database sections.
+    - "Repo description states: 'Neo4j Labs Model Context Protocol servers'"
+    - README describes multiple MCP servers (mcp-neo4j-cypher, mcp-neo4j-memory, etc.) that integrate with Claude Desktop, VS Code, Cursor, and other MCP clients
+    - Project is actively maintained with a pushed_at date of 2026-04-10 and is not archived
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (944) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.658Z"
+    updated_at: "2026-05-06T22:12:15.575Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:52.657Z"
+    updated_at: "2026-05-06T22:45:30.633Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:15.506Z"
+    updated_at: "2026-05-06T23:16:53.356Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

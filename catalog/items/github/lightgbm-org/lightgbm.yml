@@ -1,13 +1,13 @@
 id: github__lightgbm-org__lightgbm
 kind: github-repo
-name: LightGBM
+name: lightgbm
 canonical_url: https://github.com/lightgbm-org/lightgbm
 identity:
   github_repo: lightgbm-org/lightgbm
 provenance:
   discoveries:
-    - id: discovery__github__microsoft__lightgbm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__lightgbm-org__lightgbm__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 18318
-    forks: 4012
+    stars: 18319
+    forks: 4011
     license: MIT
     archived: false
     created_at: "2016-08-05T05:45:50Z"
-    pushed_at: "2026-05-04T04:02:22Z"
+    pushed_at: "2026-05-06T20:24:41Z"
     description: A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
     homepage: https://lightgbm.readthedocs.io/en/latest/
     topics:
@@ -47,53 +47,50 @@ metadata:
       - parallel
       - python
       - r
-    last_checked_at: "2026-05-05T21:03:38.831Z"
+    last_checked_at: "2026-05-06T22:44:58.720Z"
     readme:
-      fetched_at: "2026-05-05T21:03:38.831Z"
+      fetched_at: "2026-05-06T22:44:58.720Z"
       bytes: 13016
 insights:
-  summary: LightGBM is a fast, distributed gradient boosting framework based on decision tree algorithms for ranking, classification, and other machine learning tasks.
-  why_it_matters: It provides developers with a high-performance, low-memory library for building and training gradient boosted models across Python, R, and distributed environments.
-  mental_damage: A staple of the Kaggle era that reminds developers that while they are prompt engineering, others are still hand-tuning learning_rate on 10-year-old boosting algorithms.
+  summary: LightGBM is a fast, distributed gradient boosting framework using tree-based learning algorithms for ranking, classification, and other machine learning tasks.
+  why_it_matters: It provides a high-performance, low-memory library for training and deploying traditional ML models across Python, R, and distributed environments.
+  mental_damage: You will spend hours hyperparameter-tuning a gradient-boosted tree to squeeze out 0.02% accuracy while your colleagues prompt an LLM to write a Python script in seconds.
   tags:
-    - decision-trees
-    - distributed
-    - gradient-boosting
     - machine-learning
+    - gradient-boosting
     - python
+    - distributed
+    - data-science
   confidence: high
 curation:
   status: excluded
-  reason: LightGBM is a traditional machine learning library for model training, not a developer-facing AI tool, agent, or infrastructure component as defined by the catalog's scope.
+  reason: This is a traditional machine learning library for gradient boosting, not a developer-facing AI tool, agent, or infrastructure component for AI-assisted coding workflows.
   evidence:
-    - Repo description defines it as a gradient boosting framework for ML tasks, not a developer tooling product.
-    - Topics and README focus on data-mining, decision trees, and model accuracy rather than coding agents or AI workflows.
-    - No source-list context indicates it appears in developer-tooling or AI awesome lists.
-    - Repo description explicitly defines it as a gradient boosting (GBT/GBDT) framework for ranking and classification, not an AI developer tool.
-    - README emphasizes faster training, lower memory usage, and handling large-scale data for ML competitions, with no mention of coding assistance or developer workflows.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which indicates general ML training infrastructure rather than the specific AI tooling this catalog curates.
+    - Repo description explicitly identifies it as a gradient boosting (GBT/GBDT) framework for ranking and classification, not an AI coding tool.
+    - Topics list includes data-mining, decision-trees, and machine-learning, with no coding-agent, LLM, or developer-tooling signals.
+    - Source list placement in 'Awesome-LLMOps > Training > Frameworks for Training' is about ML training infra, not AI tooling for software developers.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (18318) exceeded threshold (150)
+  reason: Stars (18319) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:30.661Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:38.831Z"
+    updated_at: "2026-05-06T22:44:58.720Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:23.992Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

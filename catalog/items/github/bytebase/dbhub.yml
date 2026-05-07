@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytebase__dbhub__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting mainstream databases.\\"
         confidence: high
     - id: discovery__github__bytebase__dbhub__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -38,7 +38,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2689
+    stars: 2697
     forks: 227
     license: MIT
     archived: false
@@ -67,50 +67,50 @@ metadata:
       - sql
       - sqlite
       - sqlserver
-    last_checked_at: "2026-05-05T21:01:27.692Z"
+    last_checked_at: "2026-05-06T22:43:15.258Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.692Z"
+      fetched_at: "2026-05-06T22:43:15.258Z"
       bytes: 5539
 insights:
-  summary: A zero-dependency, token-efficient MCP server that allows AI clients like Claude and Cursor to query and explore Postgres, MySQL, SQL Server, MariaDB, and SQLite databases.
-  why_it_matters: It gives coding agents structured, guarded access to live database schemas and queries without burning through the context window or requiring heavy dependencies.
-  mental_damage: Another essential piece of infrastructure so your AI can finally generate that one SQL query that fixes production, while you sit there wondering why you still need to configure TOML files to make it happen.
+  summary: A zero-dependency, token-efficient MCP server that connects AI coding assistants to PostgreSQL, MySQL, SQL Server, MariaDB, and SQLite databases with built-in safety controls.
+  why_it_matters: It gives coding agents direct, read-safe access to live database schemas and queries without bloating the context window or requiring developers to build custom database bridges.
+  mental_damage: Another essential piece of infrastructure so your agent can confidently SELECT * FROM users while you pray the read-only guardrail actually works.
   tags:
     - mcp
     - database
-    - cursor
-    - claude
-    - sql
+    - agent-tooling
+    - token-efficient
+    - bytebase
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to bridge AI clients and databases, fitting perfectly into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server purpose-built to give AI agents database access, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description defines it as a 'zero-dependency, token-efficient database MCP server'.
-    - README confirms it implements the Model Context Protocol (MCP) server interface for clients like Claude and Cursor.
-    - Listed in awesome-mcp-list (Databases) and awesome-mcp-servers directories.
+    - Repo description explicitly states it is a 'database MCP server' with MCP topics and MCP tooling in the README.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under database sections, confirming ecosystem recognition as MCP infrastructure.
+    - Active development with recent pushes (2026-04-21) and 2697 stars for a repo created in March 2025.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2689) exceeded threshold (150)
+  reason: Stars (2697) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.692Z"
+    updated_at: "2026-05-06T22:43:15.258Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:00.205Z"
+    updated_at: "2026-05-06T22:47:30.399Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

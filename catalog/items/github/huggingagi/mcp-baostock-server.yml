@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingagi__mcp-baostock-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 104
-    forks: 27
+    forks: 28
     license: null
     archived: false
     created_at: "2025-04-08T00:30:12Z"
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:36.629Z"
+    last_checked_at: "2026-05-06T22:44:17.511Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.629Z"
+      fetched_at: "2026-05-06T22:44:17.511Z"
       bytes: 2269
 insights:
-  summary: An MCP server that exposes BaoStock's Chinese stock market data—including K-line history, financial indicators, and dividends—as tools for AI models and agents.
-  why_it_matters: Developers building financial AI agents can connect this server to let models query real stock fundamentals and market data without wiring up BaoStock directly.
-  mental_damage: We've reached the point where our AI agents now need their own specialized MCP servers just to argue about whether PE ratios justify a position in baijiu stocks.
+  summary: An MCP server that exposes BaoStock stock market data, including K-line history, financial indicators, and industry classifications, to AI models and agents.
+  why_it_matters: Developers building finance-oriented AI agents can connect to this server to give their models structured access to Chinese A-share market data without writing custom crawlers or parsers.
+  mental_damage: We have now successfully abstracted the volatile nature of the stock market into a standardized protocol, ensuring your AI agent can lose money in Python with unprecedented interoperability.
   tags:
     - mcp
     - finance
-    - stock-data
-    - agent-tooling
+    - data-server
+    - stock-market
   confidence: high
 curation:
   status: included
-  reason: This is a Model Context Protocol server that makes stock market data available as tools, which clearly fits the MCP Servers and Tooling category.
+  reason: The project's identity is explicitly an MCP server implementation for the finance domain, matching the MCP Servers & Tooling category.
   evidence:
-    - README states it is '一个基于BaoStock的股票数据服务器' providing multiple market-data interfaces for AI models.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
-    - Repository is active (pushed 2026-03-22) and not archived.
+    - Repository name is 'mcp-baostock-server' and the README explicitly describes '基于BaoStock的股票数据服务器'.
+    - Listed in the 'awesome-mcp-servers' directory under the 'Finance & Fintech' section.
+    - The usage command is 'uv run mcp-baostock-server', confirming it is a runnable MCP server instance.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.629Z"
+    updated_at: "2026-05-06T22:44:17.511Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:31.148Z"
+    updated_at: "2026-05-06T23:00:50.473Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

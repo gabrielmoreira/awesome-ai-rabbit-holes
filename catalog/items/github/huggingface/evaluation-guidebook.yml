@@ -1,13 +1,13 @@
 id: github__huggingface__evaluation-guidebook
 kind: github-repo
-name: Evaluation guidebook
+name: evaluation-guidebook
 canonical_url: https://github.com/huggingface/evaluation-guidebook
 identity:
   github_repo: huggingface/evaluation-guidebook
 provenance:
   discoveries:
     - id: discovery__github__huggingface__evaluation-guidebook__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,49 +39,50 @@ metadata:
       - llm
       - machine-learning
       - tutorial
-    last_checked_at: "2026-05-05T21:02:37.070Z"
+    last_checked_at: "2026-05-06T22:44:18.324Z"
     readme:
-      fetched_at: "2026-05-05T21:02:37.070Z"
+      fetched_at: "2026-05-06T22:44:18.324Z"
       bytes: 6880
 insights:
-  summary: A guidebook from Hugging Face sharing practical insights and theoretical knowledge on evaluating LLM performance, covering automated benchmarks, human evaluation, and LLM-as-a-judge methods.
-  why_it_matters: It provides developers with structured guidance on how to rigorously test and validate model performance for specific production tasks.
-  mental_damage: Because the only thing more exhausting than tuning a prompt is reading a 50-page guide on how to properly measure whether your tuning actually worked.
+  summary: A comprehensive guidebook from Hugging Face covering practical and theoretical methods for evaluating LLMs, including automated benchmarks, human evaluation, and LLM-as-a-judge techniques.
+  why_it_matters: It provides developers with structured methodologies to objectively measure model performance and design custom evaluations for production tasks.
+  mental_damage: Yet another meta-layer of abstraction where we spend more time scientifically proving the AI is confused than actually fixing the bugs it wrote.
   tags:
+    - evaluation
+    - llm
+    - guidebook
     - benchmarks
-    - guide
     - huggingface
-    - llm-evaluation
   confidence: high
 curation:
-  status: included
-  reason: The project is a resource guide focused on the methodology and tooling for evaluating LLMs, which fits squarely into the Evaluations and Benchmarks category.
+  status: excluded
+  reason: This is a documentation resource and educational guide rather than a standalone developer tool, framework, or product.
   evidence:
-    - Repo description explicitly states it is for sharing insights on 'LLM evaluation' and designing 'lighteval'.
-    - README details a guide covering automatic benchmarks, human evaluation, and LLM-as-a-judge workflows.
-    - Listed under '评估 Evaluation' (Evaluation) in the awesome-LLM-resources directory.
+    - README explicitly states 'THIS GUIDEBOOK IS NO LONGER MAINTAINED' and redirects to a Hugging Face space.
+    - Repository description defines it as a sharing of 'practical insights and theoretical knowledge', not a software tool.
+    - Source list context places it in an 'awesome-LLM-resources' list under 'Evaluation', identifying it as a learning resource.
 placement:
-  primary_category: evals
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (2102) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:32.958Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:37.070Z"
+    updated_at: "2026-05-06T22:44:18.324Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:58.337Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

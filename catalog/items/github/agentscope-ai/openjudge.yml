@@ -1,13 +1,13 @@
 id: github__agentscope-ai__openjudge
 kind: github-repo
-name: OpenJudge
+name: openjudge
 canonical_url: https://github.com/agentscope-ai/openjudge
 identity:
   github_repo: agentscope-ai/openjudge
 provenance:
   discoveries:
-    - id: discovery__github__modelscope__openjudge__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__agentscope-ai__openjudge__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,19 +16,19 @@ provenance:
       extraction:
         mode: parsed
         section_path:
-          - 评估 Evaluation
-        anchor_text: OpenJudge
-        extracted_url: https://github.com/modelscope/openjudge
-        surrounding_text: "19. [OpenJudge](https://github.com/modelscope/OpenJudge): A Unified Framework for Holistic Evaluation and Quality Rewards."
+          - 微调 Fine-Tuning
+        anchor_text: RM-Gallery
+        extracted_url: https://github.com/modelscope/rm-gallery
+        surrounding_text: "44. [RM-Gallery](https://github.com/modelscope/RM-Gallery): A One-Stop Reward Model Platform."
         confidence: high
 metadata:
   github:
-    stars: 587
+    stars: 592
     forks: 48
     license: Apache-2.0
     archived: false
     created_at: "2025-07-08T06:17:01Z"
-    pushed_at: "2026-04-30T08:18:46Z"
+    pushed_at: "2026-05-06T07:39:46Z"
     description: "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards"
     homepage: https://openjudge.me/
     topics:
@@ -44,56 +44,50 @@ metadata:
       - rlhf
       - skill-md
       - skills
-    last_checked_at: "2026-05-05T21:03:46.116Z"
+    last_checked_at: "2026-05-06T22:12:27.876Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.116Z"
+      fetched_at: "2026-05-06T22:12:27.876Z"
       bytes: 20582
 insights:
-  summary: OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use and scenario-specific graders to assess quality and generate reward signals for fine-tuning.
-  why_it_matters: It gives developers a structured workflow to collect test data, define grading rubrics, and run large-scale evaluations to iterate on and optimize their AI agents or chatbots.
-  mental_damage: Because the only thing more exhausting than building a brittle AI agent is building an entire second system just to grade how brittle the first one is.
+  summary: OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization.
+  why_it_matters: It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
+  mental_damage: Yet another framework promising to solve the 'is my agent actually good' problem, slotting neatly between your fine-tuning pipeline and the existential dread of evaluating subjective quality at scale.
   tags:
-    - agents
-    - ai-agents
-    - benchmark
-    - evals
     - evaluation
+    - reward-modeling
     - fine-tuning
-    - grading
-    - open-source
+    - llm-graders
+    - agent-quality
   confidence: high
 curation:
   status: included
-  reason: The project is an evaluation harness and benchmark framework designed to measure and optimize AI application quality, which fits squarely into the evals category.
+  reason: The core job is measuring, scoring, and generating reward signals for AI application quality rather than acting as a coding assistant, orchestrator, or framework.
   evidence:
-    - Repo description explicitly calls it a 'Unified Framework for Holistic Evaluation and Quality Rewards'.
-    - README states it is an 'open-source evaluation framework' designed to 'evaluate quality' and drive 'continuous application optimization'.
-    - Includes built-in and scenario-specific graders, reward signals for fine-tuning, and features like a 'Reference Hallucination Arena' leaderboard.
-    - "Repo description explicitly states: 'A Unified Framework for Holistic Evaluation and Quality Rewards'."
-    - README defines it as an 'open-source evaluation framework' that provides 'ready-to-use graders' and converts results into 'reward signals'.
-    - Listed in awesome-LLM-resources under the '评估 Evaluation' section.
+    - Repo description explicitly states it is 'A Unified Framework for Holistic Evaluation and Quality Rewards'
+    - "README emphasizes evaluation workflow: 'Collect test data → Define graders → Run evaluation at scale → Analyze weaknesses → Iterate quickly'"
+    - Recently active (pushed 2026-05-06) with built-in graders for AI Agent Skill packages and reward signal generation for fine-tuning
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (587) exceeded threshold (150)
+  reason: Stars (592) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:54.208Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.116Z"
+    updated_at: "2026-05-06T22:12:27.877Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:14.724Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

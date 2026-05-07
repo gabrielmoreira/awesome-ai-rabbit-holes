@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gpartin__cryptoguardclient__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: CryptoGuardClient
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:25.986Z"
+    last_checked_at: "2026-05-06T22:44:06.356Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.986Z"
+      fetched_at: "2026-05-06T22:44:06.356Z"
       bytes: 9374
 insights:
-  summary: An MCP server and Python client that provides crypto risk scoring, trade validation, and anomaly detection via a hosted API with 7 MCP tools for AI agents and developer workflows.
-  why_it_matters: Developers building crypto trading bots, AI agents, or DeFi dashboards can integrate structured risk verdicts (PROCEED / CAUTION / BLOCK) directly into their automated decision-making without building their own anomaly-detection pipeline.
-  mental_damage: You now have a deterministic risk oracle that confidently flagged FTX 23 days early, which somehow makes your own heuristic-laden trading bot feel even more like a glorified coin flip.
+  summary: A Python client and MCP server for CryptoGuard, a crypto risk scanner that validates trades and scans tokens via an API.
+  why_it_matters: It gives AI agents and developers a programmable way to gate crypto trades with a deterministic risk verdict instead of relying on vibes.
+  mental_damage: You now have a physics-based early warning system for Solana rugs, but still no mechanism to stop yourself from buying them at 3 AM.
   tags:
     - mcp
     - crypto
-    - risk-detection
+    - risk
     - api-client
-    - fintech
-  confidence: high
+    - finance
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server with 7 tools, listed in awesome-mcp-servers under Finance & Fintech, and is designed to be consumed by Claude Desktop, Cursor, and other MCP clients.
+  reason: The product is primarily a domain-specific MCP server exposing 7 crypto risk tools, fitting the MCP Servers & Tooling category.
   evidence:
-    - README states 'CryptoGuard is an MCP server with 7 tools. Works with Claude Desktop, Cursor, or any MCP client.'
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
-    - Provides MCP endpoint (/mcp), MCP tools list, and multiple MCP connection options (HTTP, uvx, pip).
+    - README explicitly states 'CryptoGuard is an MCP server with 7 tools' and provides MCP client configs.
+    - Source list context places it in awesome-mcp-servers under Finance & Fintech.
+    - The Python package CryptoGuardClient wraps API endpoints that are also exposed as MCP tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.986Z"
+    updated_at: "2026-05-06T22:44:06.356Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:35.565Z"
+    updated_at: "2026-05-06T22:58:32.124Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__future-agi__simulate-sdk__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,50 +39,50 @@ metadata:
       - simulate
       - testing-tools
       - voice-ai
-    last_checked_at: "2026-05-05T21:02:16.304Z"
+    last_checked_at: "2026-05-06T22:43:57.893Z"
     readme:
-      fetched_at: "2026-05-05T21:02:16.304Z"
+      fetched_at: "2026-05-06T22:43:57.893Z"
       bytes: 12912
 insights:
-  summary: A Python SDK for simulating and testing voice and text AI agents against persona-driven scenarios, with integrated evaluation and audio recording capabilities.
-  why_it_matters: It lets developers run automated, multi-turn simulations of their agents before deployment, bridging the gap between unit tests and unpredictable real-world user interactions.
-  mental_damage: You can now unit-test the vibes and tone of a simulated customer named Alice, ensuring your agent sounds adequately empathetic before it inevitably hallucinates a refund policy.
+  summary: A Python SDK for simulating and testing voice and text AI agents using persona-driven scenarios, with built-in evaluation hooks.
+  why_it_matters: It lets developers run multi-turn, realistic conversations against their agents before deployment instead of discovering hallucinations in production.
+  mental_damage: You can now orchestrate an entire cast of simulated, frustrated personas to yell at your agent, just to confirm that your guardrails are as fragile as your confidence.
   tags:
-    - testing
-    - evals
-    - voice-ai
+    - agent-testing
     - simulation
+    - voice-ai
+    - evaluation
     - sdk
   confidence: high
 curation:
   status: included
-  reason: The SDK is specifically designed to simulate agent conversations and feed results directly into evaluation metrics, fitting the definition of operational tooling for measuring agent behavior.
+  reason: The core job is measuring and scoring agent behavior through simulation and evaluation rather than acting as a coding assistant or generic framework.
   evidence:
-    - Repo description explicitly states it is an 'SDK for testing your AI Agents' with a focus on simulation.
-    - README emphasizes running agents against scenarios to capture transcripts/audio for scoring with '50+ built-in metrics'.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Workflow', confirming its place in the agent ops ecosystem.
+    - "Repo description: 'Enterprise Grade, Voice AI simulation SDK for testing your AI Agents'"
+    - "README: 'Run voice and text agents against persona-driven scenarios… and feed results straight into evals' with 50+ built-in metrics"
+    - Topics include evaluation, testing-tools, and agentic-ai with active development (pushed 2026-04-24)
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:16.304Z"
+    updated_at: "2026-05-06T22:43:57.893Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:25.125Z"
+    updated_at: "2026-05-06T22:56:51.857Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

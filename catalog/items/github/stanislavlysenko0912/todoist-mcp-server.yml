@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stanislavlysenko0912__todoist-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 62
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-03-29T16:13:53Z"
+    pushed_at: "2026-04-23T00:21:44Z"
+    description: Full implementation of Todoist Rest API & support Todoist Sync API for MCP server
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:33.719Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:33.719Z"
+      bytes: 5800
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Model Context Protocol server that exposes the full Todoist REST and Sync APIs for natural language task management across Claude, Cursor, and other MCP-compatible clients.
+  why_it_matters: It lets developers manage tasks, projects, and labels through their coding assistant instead of context-switching to a separate productivity app.
+  mental_damage: You can now procrastinate on your issues by asking your coding agent to reschedule them in Todoist while pretending you are still doing engineering work.
+  tags:
+    - mcp
+    - todoist
+    - productivity
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server implementation that integrates Todoist with MCP-compatible clients, fitting cleanly as a domain-specific MCP server.
+  evidence:
+    - Repo description states it is a 'Full implementation of Todoist Rest API & support Todoist Sync API for MCP server'.
+    - README describes it as 'A Model Context Protocol (MCP) server implementation that integrates Claude and other AI assistants with Todoist'.
+    - Listed in awesome-mcp-servers under the 'Community Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:33.719Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:09.278Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

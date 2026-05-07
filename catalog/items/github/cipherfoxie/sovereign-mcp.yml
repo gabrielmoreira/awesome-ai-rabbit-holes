@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cipherfoxie__sovereign-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: "MCP server for the Sovereign AI Blog: Search, retrieve, and diagnose tools for self-hosted AI on NVIDIA DGX Spark."
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:34.214Z"
+    last_checked_at: "2026-05-06T22:43:21.376Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.214Z"
+      fetched_at: "2026-05-06T22:43:21.376Z"
       bytes: 5609
 insights:
-  summary: An MCP server that exposes the Sovereign AI Blog—a hands-on engineering log for self-hosted AI on NVIDIA DGX Spark—to AI agents via search, retrieval, and SGLang diagnostics tools.
-  why_it_matters: It gives coding agents structured, up-to-date access to niche hardware setups and fixes that training data rarely covers, reducing hallucinated solutions for developers running AI on NVIDIA GB10 and SM121A stacks.
-  mental_damage: We have finally reached the point where we need an MCP server just to pipe our niche blog posts into an agent so it can stop confidently inventing broken SGLang patches for hardware that barely exists.
+  summary: An MCP server that exposes the Sovereign AI Blog's 60+ articles on self-hosted AI and NVIDIA DGX Spark setups to coding agents via search, retrieval, and SGLang diagnostics.
+  why_it_matters: It gives agents structured, version-current access to niche hardware troubleshooting and benchmarks that are typically missing from stale training data.
+  mental_damage: We have now successfully abstracted the act of reading a blog into a protocol, so your agent can hallucinate solutions to ARM64 problems using slightly fresher context.
   tags:
     - mcp
-    - self-hosted-ai
-    - nvidia-dgx
+    - self-hosted
     - knowledge-base
-    - fastmcp
-  confidence: high
+    - nvidia-dgx
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server providing domain-specific knowledge retrieval and diagnostics, which fits the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for the Sovereign AI Blog: Search, retrieve, and diagnose tools for self-hosted AI on NVIDIA DGX Spark.'"
-    - README confirms it is a FastMCP-based server with Streamable HTTP transport at /self-hosted-ai, exposing tools like search_blog and diagnose_sglang.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory', reinforcing its role as MCP infrastructure.
+    - Repo description explicitly states 'MCP server for the Sovereign AI Blog'.
+    - README details tools like search_blog and diagnose_sglang exposed via FastMCP with Streamable HTTP transport.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.214Z"
+    updated_at: "2026-05-06T22:43:21.376Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:11.023Z"
+    updated_at: "2026-05-06T22:49:13.812Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

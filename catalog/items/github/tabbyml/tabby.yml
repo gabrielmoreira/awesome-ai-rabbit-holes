@@ -1,13 +1,13 @@
 id: github__tabbyml__tabby
 kind: github-repo
-name: Tabby
+name: tabby
 canonical_url: https://github.com/tabbyml/tabby
 identity:
   github_repo: tabbyml/tabby
 provenance:
   discoveries:
     - id: discovery__github__tabbyml__tabby__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [tabby](https://github.com/TabbyML/tabby)           | Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.                  | ![GitHub Badge](https://img.shields.io/github/stars/TabbyML/tabby.svg?style=flat-square)        |"
         confidence: high
     - id: discovery__github__tabbyml__tabby__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -38,47 +38,68 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 33486
+    forks: 1744
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-03-16T09:18:01Z"
+    pushed_at: "2026-03-02T20:08:28Z"
+    description: Self-hosted AI coding assistant
+    homepage: https://tabbyml.com
+    topics:
+      - ai
+      - codegen
+      - coding-assistant
+      - coding-language
+      - developer-experience
+      - developer-tools
+      - gen-ai
+      - ide
+      - llms
+    last_checked_at: "2026-05-06T22:46:39.528Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:39.527Z"
+      bytes: 9981
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Tabby is a self-hosted, open-source AI coding assistant that runs locally or on-premises to provide code completion and chat capabilities similar to GitHub Copilot.
+  why_it_matters: It allows teams to run AI-assisted coding entirely within their own infrastructure, supporting consumer-grade GPUs and integrating directly into IDEs without relying on third-party cloud services.
+  mental_damage: Finally, you can spend three days configuring a self-hosted inference stack just to recreate the experience of typing half a line of code before the model suggests the other half.
+  tags:
+    - self-hosted
+    - coding-assistant
+    - local-ai
+    - ide-integration
+    - on-premises
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Tabby is a primary coding assistant product that developers delegate code completion and chat to within their IDE, fitting the Coding Agents identity better than a local runtime or extension.
+  evidence:
+    - Repo description explicitly states 'Self-hosted AI coding assistant'.
+    - README positions it as 'an open-source and on-premises alternative to GitHub Copilot' with chat and completion features.
+    - Active development with recent pushes (2026-03-02) and integration with VSCode as a primary assistant surface.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native Assistants
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (33486) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.671Z"
+    updated_at: "2026-05-06T22:12:15.594Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:39.528Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:20.695Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

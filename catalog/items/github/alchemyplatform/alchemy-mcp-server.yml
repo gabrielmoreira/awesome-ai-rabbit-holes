@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alchemyplatform__alchemy-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: Alchemy's official MCP Server. Allow AI agents to interact with Alchemy's blockchain APIs.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:00:57.583Z"
+    last_checked_at: "2026-05-06T22:12:32.678Z"
     readme:
-      fetched_at: "2026-05-05T21:00:57.583Z"
+      fetched_at: "2026-05-06T22:12:32.678Z"
       bytes: 8215
 insights:
-  summary: An official MCP server that enables AI agents and coding assistants to query Alchemy's blockchain APIs for token prices, NFT data, transaction history, and balances without writing custom code.
-  why_it_matters: It lets developers equip their existing AI coding agents with direct blockchain data access, removing the need to manually wrap Alchemy endpoints when building Web3 features.
-  mental_damage: Another day, another MCP server, because apparently the future of software engineering is just wiring together ephemeral protocol bridges until the context window sighs.
+  summary: An official MCP server that allows AI agents to query Alchemy's blockchain APIs for token prices, NFT data, transaction history, and balances without writing custom code.
+  why_it_matters: Developers can give their existing coding agents direct access to blockchain data across multiple networks, removing the need to manually build and maintain API integration layers.
+  mental_damage: Finally, your AI agent can check token balances and NFT ownership directly, ensuring you can deploy smart contracts while your terminal screams about gas fees in real time.
   tags:
     - mcp
     - blockchain
-    - web3
     - alchemy
     - api-bridge
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Alchemy's blockchain APIs, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server built to expose Alchemy's blockchain APIs to MCP-compatible clients, fitting cleanly into the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'Alchemy's official MCP Server'
-    - README details integration with Claude Code, Cursor, Windsurf, VS Code Copilot, and Cline as an MCP server
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - "Repo description states: 'Alchemy's official MCP Server. Allow AI agents to interact with Alchemy's blockchain APIs.'"
+    - README details a Model Context Protocol server with setup guides for Claude Code, Cursor, Windsurf, VS Code Copilot, and Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:57.583Z"
+    updated_at: "2026-05-06T22:12:32.678Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:15.266Z"
+    updated_at: "2026-05-06T22:20:12.056Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

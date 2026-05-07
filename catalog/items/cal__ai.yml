@@ -1,12 +1,12 @@
 id: cal__ai
 kind: website
-name: Cal.ai
+name: cal.ai
 canonical_url: https://cal.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,20 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cal.ai is an AI autonomous agent listed in directories tracking autonomous AI agents.
-  why_it_matters: It represents the growing ecosystem of autonomous agents that developers may need to evaluate or integrate into their workflows.
-  mental_damage: Yet another autonomous agent enters the arena, ready to promise agency while we still struggle to get basic API calls working reliably.
+  summary: Cal.ai is a scheduling assistant that uses AI to manage calendars and book meetings via natural language.
+  why_it_matters: It aims to offload the back-and-forth of scheduling to an autonomous agent, though it targets end-users rather than developer workflows.
+  mental_damage: Another autonomous agent enters the ring, this time tasked with the heroic mission of finding a Tuesday that works for everyone.
   tags:
-    - ai-agents
-    - autonomous-agents
-  confidence: medium
+    - scheduling
+    - autonomous-agent
+    - calendar
+  confidence: high
 curation:
   status: excluded
-  reason: There is no evidence this is a developer-facing tool; it appears to be a general autonomous agent with no clear developer-tooling angle, IDE integration, or code-focused workflow.
+  reason: Cal.ai is a general-purpose scheduling assistant for end-users, lacking a developer-tooling angle or code-editing capability required for this catalog.
   evidence:
-    - No repository description, README, or scraped site context provided to explain what the tool actually does for developers.
-    - Listed in awesome-ai-agents under a generic autonomous agents section with no developer-tooling specificity.
-    - No code, CLI, IDE, or repo-level workflow signals present in the available inputs.
+    - Seen in awesome-ai-agents under a 'scheduling assistant' context, not a coding tool.
+    - No repo description, README, or site context indicating it helps developers write, review, or debug code.
+    - URL points to a product page (cal.ai) rather than a developer tool or framework.
 placement:
   primary_category: null
   section: null
@@ -55,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:40.808Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:48.870Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__microsoft__jarvis
 kind: github-repo
-name: JARVIS
+name: jarvis
 canonical_url: https://github.com/microsoft/jarvis
 identity:
   github_repo: microsoft/jarvis
 provenance:
   discoveries:
     - id: discovery__github__microsoft__jarvis__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 24692
+    stars: 24693
     forks: 2113
     license: MIT
     archived: false
@@ -35,50 +35,50 @@ metadata:
       - deep-learning
       - platform
       - pytorch
-    last_checked_at: "2026-05-05T21:03:38.471Z"
+    last_checked_at: "2026-05-06T22:45:16.538Z"
     readme:
-      fetched_at: "2026-05-05T21:03:38.471Z"
+      fetched_at: "2026-05-06T22:45:16.538Z"
       bytes: 14987
 insights:
-  summary: JARVIS (HuggingGPT) is a research system that uses an LLM as a controller to plan tasks, select expert models from Hugging Face, execute them, and generate responses to solve complex AI tasks.
-  why_it_matters: It provides a reference architecture for developers building agentic systems that coordinate multiple specialized AI models through a single LLM interface.
-  mental_damage: Finally, a system that proves you can orchestrate a dozen gigabytes of local models just to have an LLM ask another LLM to describe an image.
+  summary: JARVIS (HuggingGPT) is a research system that uses an LLM as a controller to decompose complex AI tasks and route them to expert models hosted on Hugging Face.
+  why_it_matters: It demonstrates a multi-agent orchestration pattern where a planning LLM dynamically selects and executes specialized models to solve tasks beyond single-model capabilities.
+  mental_damage: Yet another framework promising AGI that requires 284GB of disk space, 24GB of VRAM, and the unwavering belief that your local GPU can actually serve a dozen expert models simultaneously.
   tags:
-    - agent-orchestration
-    - hugging-face
-    - llm
-    - multimodal
+    - multi-agent
+    - llm-orchestration
+    - huggingface
     - research
+    - microsoft
   confidence: high
 curation:
   status: excluded
-  reason: The project is a research prototype and conceptual architecture for general AI task solving, not a practical developer tool for coding, app building, or developer infrastructure.
+  reason: Exclude because JARVIS is a research prototype for general AI task automation (image, audio, video models) rather than a developer-facing tool for coding, repo work, or developer infrastructure.
   evidence:
-    - Repo description explicitly states this is 'a system to connect LLMs with ML community' focused on AGI research.
-    - README workflow describes solving general AI tasks (image-to-text, pose estimation) via Hugging Face models, not developer workflow automation.
-    - System requirements demand 284GB disk space and 24GB VRAM for local mode, signaling a research environment rather than a dev tool.
+    - Repo description explicitly states it is 'a system to connect LLMs with ML community' rather than a coding assistant.
+    - README overview describes routing to Hugging Face models for general AI tasks (image-to-text, stable diffusion, etc.), not code editing or repo workflows.
+    - Topics listed are deep-learning, platform, and pytorch, with no developer-tooling or coding-agent signals.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (24692) exceeded threshold (150)
+  reason: Stars (24693) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:29.822Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:38.471Z"
+    updated_at: "2026-05-06T22:45:16.538Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:41.276Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

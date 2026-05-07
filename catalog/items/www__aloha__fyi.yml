@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__aloha__fyi__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-first AI travel concierge that plans and books Hawaii itineraries using a chat interface.
-  why_it_matters: It offers a reference implementation of a domain-specific, agentic chat experience layered over a live booking inventory.
-  mental_damage: We have solved local AI inference, agent orchestration, and nearest-neighbor search, but apparently the killer app was an AI that books luaus.
+  summary: A Hawaii travel booking site that uses an AI concierge named Nani to generate personalized Oahu itineraries and book tours.
+  why_it_matters: It serves as an example of a domain-specific AI agent application, though it is aimed at tourists rather than developers.
+  mental_damage: We have successfully built an AI agent that can plan your luau down to the minute, but we still can't automate a PR review without three manual retries.
   tags:
-    - ai-concierge
     - travel
-    - chatbot
-    - vertical-agent
+    - ai-concierge
+    - tourism
+    - misclassified
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer travel booking site with an AI chat layer, not a developer tool, agent framework, or MCP server implementation.
+  reason: Excluded because the product is a consumer-facing travel booking site for Hawaii tourists, lacking any developer-tooling, coding, or infrastructure angle.
   evidence:
-    - Scraped site description bills it as '990+ Hawaii tours and experiences... AI concierge plans your perfect trip.'
-    - Primary excerpt shows a consumer trip-planning UI with itinerary building, neighborhood guides, and one-tap booking links.
-    - Listed in awesome-mcp-servers under 'Location Services', but the linked page is a consumer travel site, not an MCP server repo or developer tool.
+    - Scraped site context describes 'Nani is your AI concierge' for booking snorkeling, helicopters, and luaus on Oahu.
+    - Primary page excerpt focuses entirely on travel itineraries, restaurants, and neighborhood guides with no developer workflows.
+    - Listed in awesome-mcp-servers under 'Location Services', but the tool itself is a consumer travel app, not a developer utility.
 placement:
   primary_category: null
   section: null
@@ -60,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:49:30.703Z"
+    updated_at: "2026-05-06T22:31:36.990Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

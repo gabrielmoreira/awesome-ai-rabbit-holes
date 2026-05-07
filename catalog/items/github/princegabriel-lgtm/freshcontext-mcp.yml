@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__princegabriel-lgtm__freshcontext-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,44 +41,50 @@ metadata:
       - mcp-server
       - typescript
       - webscraping
-    last_checked_at: "2026-05-05T23:08:09.746Z"
+    last_checked_at: "2026-05-06T22:45:57.674Z"
     readme:
-      fetched_at: "2026-05-05T23:08:09.746Z"
+      fetched_at: "2026-05-06T22:45:57.674Z"
       bytes: 14693
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that wraps web-retrieved data in timestamped freshness envelopes to help AI agents distinguish current information from stale results.
+  why_it_matters: It gives coding agents access to market, repo, and news data with embedded age and confidence signals, reducing the risk of acting on outdated information.
+  mental_damage: We are now versioning reality itself so the agent stops confidently applying to jobs that closed two years ago.
+  tags:
+    - mcp
+    - context
+    - freshness
+    - agent-tools
+    - retrieval
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server that provides timestamped web intelligence to agents, making MCP its core identity rather than a secondary compatibility feature.
+  evidence:
+    - "Repo description states: 'Timestamped web intelligence for AI agents. MCP server with guaranteed freshness envelopes.'"
+    - README defines it as 'a data freshness layer for AI agents' implemented as an MCP server with 20 tools like extract_github and extract_finance.
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation, aligning with its MCP-first identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:09.746Z"
+    updated_at: "2026-05-06T22:45:57.674Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:50.916Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

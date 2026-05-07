@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcpdotdirect__starknet-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,50 @@ metadata:
       - mcp
       - mcp-server
       - starknet
-    last_checked_at: "2026-05-05T21:03:33.380Z"
+    last_checked_at: "2026-05-06T22:45:11.980Z"
     readme:
-      fetched_at: "2026-05-05T21:03:33.380Z"
+      fetched_at: "2026-05-06T22:45:11.980Z"
       bytes: 19156
 insights:
-  summary: An MCP server that exposes Starknet blockchain interactions—such as querying state, managing wallets, and executing smart contracts—as tools for LLM agents.
-  why_it_matters: It allows AI agents to reliably perform Starknet operations via natural language, bridging blockchain development workflows with MCP-compatible assistants.
-  mental_damage: We’ve successfully built an MCP server so your AI can lose funds on Starknet with the same effortless confidence it already loses context in 40k-token windows.
+  summary: An MCP server that exposes Starknet blockchain operations—such as querying state, transferring tokens, and interacting with Cairo smart contracts—as tools for AI agents.
+  why_it_matters: It lets AI coding assistants participate directly in Web3 workflows by resolving StarknetIDs, calling contracts, and handling transactions through natural language.
+  mental_damage: We have successfully abstracted blockchain development so that an LLM can burn gas on Mainnet while we debug why its tool call resolved a .stark domain to the wrong address.
   tags:
     - mcp
     - blockchain
     - starknet
+    - web3
     - agent-tools
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that provides blockchain tools for AI agents, fitting cleanly into MCP infrastructure.
+  reason: The product is an MCP server providing blockchain-specific tools and resources, making it a textbook fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'MCP server that provides LLM with tools for interacting with Starknet'."
-    - README confirms it is a 'comprehensive Model Context Protocol (MCP) server for the Starknet blockchain'.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - Repo description explicitly states 'MCP server that provides LLM with tools for interacting with Starknet'.
+    - README details MCP tools for balances, transactions, smart contracts, and StarknetID resolution.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:33.380Z"
+    updated_at: "2026-05-06T22:45:11.980Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:27.670Z"
+    updated_at: "2026-05-06T23:12:39.332Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

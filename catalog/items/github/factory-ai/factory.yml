@@ -1,43 +1,13 @@
 id: github__factory-ai__factory
 kind: github-repo
-name: Factory
+name: factory
 canonical_url: https://github.com/factory-ai/factory
 identity:
   github_repo: factory-ai/factory
 provenance:
   discoveries:
-    - id: discovery__factory__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Factory
-        anchor_text: Factory
-        extracted_url: https://www.factory.ai
-        surrounding_text: "## [Factory](https://www.factory.ai/)"
-        confidence: high
-    - id: discovery__factory__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Coding Agents
-        anchor_text: Factory
-        extracted_url: https://factory.ai
-        surrounding_text: "- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale."
-        confidence: high
     - id: discovery__github__factory-ai__factory__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -54,65 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 830
-    forks: 67
+    stars: 840
+    forks: 68
     license: null
     archived: false
     created_at: "2025-09-10T18:03:55Z"
-    pushed_at: "2026-05-05T20:03:59Z"
+    pushed_at: "2026-05-06T21:18:08Z"
     description: Factory - Agent-Native Software Development
     homepage: https://factory.ai
     topics: []
-    last_checked_at: "2026-05-05T21:02:07.569Z"
+    last_checked_at: "2026-05-06T22:43:51.013Z"
     readme:
-      fetched_at: "2026-05-05T21:02:07.569Z"
+      fetched_at: "2026-05-06T22:43:51.013Z"
       bytes: 1831
 insights:
-  summary: Factory is an agent-native development platform where the 'Droid' coding agent operates across CLI, IDE extensions, and CI workflows to plan, write, and review code.
-  why_it_matters: It aims to unify the coding agent experience across the terminal, VS Code, JetBrains, Slack, and GitHub Actions, reducing context switching between different AI assistants.
-  mental_damage: "Just what we needed: another 'top-performing' agent to install globally via curl while we pretend our terminal window is now a competent coworker."
+  summary: Factory (Droid) is a closed-source, agent-native development platform that assists with coding tasks across CLI, web, Slack/Teams, Linear/Jira, and mobile interfaces.
+  why_it_matters: It provides a multi-surface coding agent that developers can delegate repo work to via terminal, IDE extensions, or project management integrations.
+  mental_damage: Yet another agent promises to live in your terminal, IDE, chat app, and ticket queue simultaneously, ensuring you can be interrupted by AI in every possible workflow context.
   tags:
-    - automation
-    - ci-cd
-    - cli
     - coding-agent
-    - coding-agents
-    - enterprise
-    - github-actions
+    - cli
     - ide-extension
+    - multi-surface
   confidence: high
 curation:
   status: included
-  reason: Factory.ai is an AI coding agent platform that operates directly within a developer's repo, IDE, CLI, and PR workflow, fitting the coding-agents definition precisely.
+  reason: The product is a developer-facing coding assistant (Droid) that directly plans and edits code across repos, with a strong CLI presence and IDE integrations, matching the primary coding agent identity.
   evidence:
-    - "Scraped site states: 'Delegate complete tasks like refactors, incident response, and migrations to Droids without changing your tools.'"
-    - Product integrates into 'IDE, Web, CLI, Slack, Linear' and 'creates PRs while maintaining full traceability from ticket to code.'
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
-    - Repo description explicitly states 'Agent-Native Software Development'.
-    - README details CLI installation, VS Code/JetBrains extensions, and a GitHub Action for code reviews.
-    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents' section.
+    - Repo description states 'Factory - Agent-Native Software Development'.
+    - README positions Droid as a coding agent with CLI ('droid'), VS Code extension, and JetBrains/Zed integrations.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (830) exceeded threshold (150)
+  reason: Stars (840) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:36.240Z"
-    cause: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.910Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:07.569Z"
+    updated_at: "2026-05-06T22:43:51.013Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:55:23.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__antonosika__gpt-engineer
 kind: github-repo
-name: GPT Engineer
+name: gpt-engineer
 canonical_url: https://github.com/antonosika/gpt-engineer
 identity:
   github_repo: antonosika/gpt-engineer
 provenance:
   discoveries:
     - id: discovery__github__antonosika__gpt-engineer__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [GPT-Engineer](https://github.com/AntonOsika/gpt-engineer) | Agent for generating full projects from specs | ![Stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer) |"
         confidence: high
     - id: discovery__github__antonosika__gpt-engineer__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) - Specify what you want it to build, the AI asks for clarification, and then builds it."
         confidence: high
     - id: discovery__github__antonosika__gpt-engineer__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -52,24 +52,9 @@ provenance:
         extracted_url: https://github.com/antonosika/gpt-engineer
         surrounding_text: "- **[GPT Engineer](https://github.com/AntonOsika/gpt-engineer)** – AI agent for building full applications from natural language."
         confidence: high
-    - id: discovery__gptengineer__app__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - GPT Engineer
-        anchor_text: GPT Engineer
-        extracted_url: https://gptengineer.app
-        surrounding_text: "## [GPT Engineer](https://gptengineer.app/)"
-        confidence: high
 metadata:
   github:
-    stars: 55223
+    stars: 55226
     forks: 7325
     license: MIT
     archived: true
@@ -88,31 +73,27 @@ metadata:
       - gpt-engineer
       - openai
       - python
-    last_checked_at: "2026-05-05T21:01:04.821Z"
+    last_checked_at: "2026-05-06T22:12:39.311Z"
     readme:
-      fetched_at: "2026-05-05T21:01:04.821Z"
+      fetched_at: "2026-05-06T22:12:39.311Z"
       bytes: 7857
 insights:
-  summary: An archived CLI tool that generates and iterates on codebases from natural language prompts and supports benchmarking custom coding agents.
-  why_it_matters: It served as an early, influential playground for prompt-to-code generation and the precursor to the hosted gptengineer.app.
-  mental_damage: The OG code generation CLI is now archived, leaving you to either maintain a fork of history or admit that you mostly just wanted to watch the AI write code while you sipped coffee.
+  summary: A CLI tool that generates and improves codebases from natural language prompts, serving as an early open-source experiment in AI code generation.
+  why_it_matters: It pioneered the 'prompt-to-codebase' workflow for developers wanting to delegate entire project scaffolding and iteration cycles to an LLM via the terminal.
+  mental_damage: The OG prompt-to-app dream is now archived, leaving us to wonder if we should migrate to the managed service, the suggested fork, or just stare at the terminal until the code writes itself.
   tags:
-    - autonomous-agent
-    - benchmarking
     - cli
-    - codegen
-    - hosted-builder
-    - no-code
-    - prompt-to-app
-    - prototyping
+    - code-generation
+    - python
+    - benchmarking
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived, and the README itself directs users to gptengineer.app or aider for active development.
+  reason: The repository is explicitly marked as archived on GitHub, signaling that it is no longer actively maintained in favor of the commercial gptengineer.app or the recommended alternative, aider.
   evidence:
-    - Repo is marked as archived
-    - "README states: 'If you are looking for a well maintained hackable CLI for – check out aider'"
-    - README describes it as 'The OG code genereation experimentation platform'
+    - "Repo description notes it is a 'CLI platform to experiment with codegen' and a 'Precursor to: https://lovable.dev'."
+    - README explicitly directs users to 'gptengineer.app' for managed services or 'aider' for a maintained CLI.
+    - GitHub metadata confirms the repository is archived.
 placement:
   primary_category: null
   section: null
@@ -120,21 +101,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:39.467Z"
-    cause: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:04.821Z"
+    updated_at: "2026-05-06T22:12:39.311Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:15.330Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

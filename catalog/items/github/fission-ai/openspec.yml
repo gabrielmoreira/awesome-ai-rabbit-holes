@@ -1,13 +1,13 @@
 id: github__fission-ai__openspec
 kind: github-repo
-name: OpenSpec
+name: openspec
 canonical_url: https://github.com/fission-ai/openspec
 identity:
   github_repo: fission-ai/openspec
 provenance:
   discoveries:
     - id: discovery__github__fission-ai__openspec__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 45378
-    forks: 3154
+    stars: 45674
+    forks: 3184
     license: MIT
     archived: false
     created_at: "2025-08-05T10:37:45Z"
-    pushed_at: "2026-05-05T18:58:15Z"
+    pushed_at: "2026-05-06T04:50:29Z"
     description: Spec-driven development (SDD) for AI coding assistants.
     homepage: https://openspec.dev/
     topics:
@@ -42,49 +42,49 @@ metadata:
       - spec
       - spec-driven-development
       - specification
-    last_checked_at: "2026-05-05T21:02:11.771Z"
+    last_checked_at: "2026-05-06T22:43:54.306Z"
     readme:
-      fetched_at: "2026-05-05T21:02:11.771Z"
+      fetched_at: "2026-05-06T22:43:54.306Z"
       bytes: 7936
 insights:
-  summary: A spec-driven development framework that uses slash commands to generate and manage proposal, spec, design, and task artifacts for AI coding assistants.
-  why_it_matters: It introduces a structured spec layer that forces alignment on requirements and implementation steps before AI assistants generate code, reducing unpredictable outputs in existing codebases.
-  mental_damage: We have successfully abstracted the waterfall method into markdown files so your LLM can ignore the requirements with perfect documentation.
+  summary: OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants.
+  why_it_matters: It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
+  mental_damage: You now have a pristine folder of proposal.md, specs, and tasks.md documenting the feature that your AI assistant will still confidently misinterpret on the first three tries.
   tags:
-    - ai-workflow
-    - cli
-    - context-engineering
     - spec-driven
+    - planning
+    - context-engineering
+    - ai-workflow
   confidence: high
 curation:
   status: included
-  reason: The project's center of gravity is a spec-first loop where artifacts like proposals, specs, and tasks drive the AI coding workflow, fitting the spec-driven-development category perfectly.
+  reason: The product centers on a spec-first loop where structured artifacts (proposal, specs, design, tasks) drive planning, execution, and archival rather than being a standalone coding assistant or thin extension.
   evidence:
-    - "Repo description states: 'Spec-driven development (SDD) for AI coding assistants.'"
-    - README demonstrates a workflow based on '/opsx:propose', '/opsx:apply', and '/opsx:archive' that manages specification artifacts (proposal.md, specs/, design.md, tasks.md).
-    - Listed in 'awesome-spec-driven-development' under the 'Specification Tools' section.
+    - "Repo description: 'Spec-driven development (SDD) for AI coding assistants.'"
+    - README demo shows /opsx:propose → specs/tasks.md → /opsx:apply → /opsx:archive as the core workflow.
+    - Source list placement in awesome-spec-driven-development under 'Specification Tools' aligns with its primary identity.
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
-  reason: Stars (45378) exceeded threshold (150)
+  reason: Stars (45674) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:40.933Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:11.771Z"
+    updated_at: "2026-05-06T22:43:54.306Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:04.519Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

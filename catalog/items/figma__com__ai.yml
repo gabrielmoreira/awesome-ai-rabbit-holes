@@ -1,12 +1,12 @@
 id: figma__com__ai
 kind: website
-name: Figma AI
+name: ai
 canonical_url: https://figma.com/ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__figma__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Figma AI is a generative design feature embedded within the Figma editor that creates UI layouts, components, and design assets from text prompts.
-  why_it_matters: It allows developers and designers to prototype interfaces and generate frontend scaffolding directly within the design tool, reducing the manual overhead of translating mockups into code.
-  mental_damage: We have officially closed the loop where the design tool writes the UI that the developer then has to argue with the design tool about fixing.
+  summary: Figma's built-in AI features for generating and modifying UI designs directly within the Figma design environment.
+  why_it_matters: It allows designers and developers to generate UI components and layouts via prompts, bridging the gap between design concept and implementation.
+  mental_damage: Yet another reason to wonder if we are building software or just prompting our way through a design tool until the AI decides the margin looks better at 24px.
   tags:
-    - design-to-code
-    - figma
-    - prototyping
     - ui-generation
-  confidence: medium
+    - figma
+    - design-to-code
+  confidence: high
 curation:
-  status: included
-  reason: As a browser-first design surface that generates UI and site components from prompts, it fits the app-builders definition for creating frontend interfaces, despite being listed under 'UI Generators' in coding tool lists.
+  status: excluded
+  reason: This is a native feature of a design tool (Figma) rather than a standalone developer tooling product, and it lacks the repo/code context required for this catalog.
   evidence:
-    - URL points to figma.com/ai, indicating a hosted, browser-first product.
-    - Listed in awesome-ai-coding-tools under the 'UI Generators' section.
-    - Functionality centers on generating design assets and UI layouts via prompts rather than editing source code in a repo.
+    - URL points to figma.com/ai, indicating a native SaaS feature rather than a standalone repo or tool.
+    - Seen in awesome-ai-coding-tools under 'UI Generators', but the product is a design-platform feature, not a developer-facing coding tool.
 placement:
-  primary_category: app-builders
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:27.393Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:03.386Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

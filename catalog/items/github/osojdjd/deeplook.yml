@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__osojdjd__deeplook__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,50 @@ metadata:
       - mcp
       - mcp-server
       - open-source
-    last_checked_at: "2026-05-05T21:04:08.796Z"
+    last_checked_at: "2026-05-06T22:45:45.248Z"
     readme:
-      fetched_at: "2026-05-05T21:04:08.796Z"
+      fetched_at: "2026-05-06T22:45:45.248Z"
       bytes: 2454
 insights:
-  summary: An open-source MCP server that provides AI agents with real-time structured company data, financials, and market context by aggregating multiple APIs to reduce LLM hallucinations.
-  why_it_matters: It allows developers building agentic workflows to replace fragile web scraping or hallucinated financial guesses with a single MCP call delivering vetted, structured company intelligence.
-  mental_damage: We have successfully abstracted 'looking up a stock ticker' into a protocol negotiation, proving that even checking if NVIDIA is still doing well requires a middleware layer now.
+  summary: An MCP server that provides AI agents with real-time financial and company data from 8 APIs to prevent hallucinations in financial research.
+  why_it_matters: Developers building financial agents can plug in one MCP endpoint to replace brittle, hallucinated market data with structured, up-to-date context.
+  mental_damage: Yet another micro-service to manage so your agent can tell you with confidence that a company's market cap is $3 trillion, while your own productivity metrics remain negative.
   tags:
-    - mcp
+    - mcp-server
     - finance
-    - context-engineering
-    - agent-tooling
+    - company-research
+    - agent-context
+    - data-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide structured context to AI agents, fitting the MCP infrastructure category perfectly.
+  reason: The product's core identity is an MCP server providing financial data to AI agents, confirmed by its MCP-first setup instructions and presence in the awesome-mcp-servers list.
   evidence:
-    - "Repo description states: 'Company intelligence for AI agents — any company, one call' with topics including 'mcp-server'."
-    - README installation instructions focus entirely on adding the tool as an MCP connector to Claude, Cursor, VS Code, and other MCP clients.
-    - Listed under 'awesome-mcp-servers' in the 'Finance & Fintech' section, confirming its identity as a community-recognized MCP implementation.
+    - Repo description explicitly states 'Company intelligence for AI agents — any company, one call' and topics include 'mcp' and 'mcp-server'.
+    - Setup instructions are entirely MCP-focused, covering Claude.ai, Cursor, VS Code, Windsurf, and Claude Code MCP connections.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:08.796Z"
+    updated_at: "2026-05-06T22:45:45.248Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:15.260Z"
+    updated_at: "2026-05-06T23:20:16.125Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

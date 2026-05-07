@@ -1,0 +1,80 @@
+id: github__togethercomputer__moa
+kind: github-repo
+name: moa
+canonical_url: https://github.com/togethercomputer/moa
+identity:
+  github_repo: togethercomputer/moa
+provenance:
+  discoveries:
+    - id: discovery__github__togethercomputer__moa__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: MoA
+        extracted_url: https://github.com/togethercomputer/moa
+        surrounding_text: "15. [MoA](https://github.com/togethercomputer/MoA): Mixture of Agents (MoA) is a novel approach that leverages the collective strengths of multiple LLMs to enhance performance, achieving state-of-the-art results."
+        confidence: high
+metadata:
+  github:
+    stars: 2891
+    forks: 377
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-06-04T17:23:26Z"
+    pushed_at: "2025-01-07T03:21:19Z"
+    description: Together Mixture-Of-Agents (MoA) –  65.1% on AlpacaEval with OSS models
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:52.000Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:52.000Z"
+      bytes: 6750
+insights:
+  summary: A research reference implementation and paper proposing a layered architecture that aggregates responses from multiple open-source LLMs to outperform single-model performance on benchmarks like AlpacaEval.
+  why_it_matters: It provides a concrete Python pattern for chaining multiple LLMs together, allowing developers to experiment with ensemble methods for higher-quality outputs without relying on proprietary models.
+  mental_damage: "Just what your deployment pipeline needed: a 65.1% AlpacaEval score achieved by making four models argue with each other until they agree, presumably on how best to burn your API quota."
+  tags:
+    - multi-agent
+    - llm-ensemble
+    - research
+    - benchmark
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is primarily an academic research artifact and benchmark reference implementation rather than a practical developer tool for coding, orchestration, or app building.
+  evidence:
+    - Repo description focuses on research benchmark results (65.1% on AlpacaEval) rather than a developer tool.
+    - README centers on reproducing paper results and running evaluation scripts (AlpacaEval, MT-Bench, FLASK) rather than a usable product workflow.
+    - Source list context places it in '智能体 Agents' under a broad 'awesome-LLM-resources' list, indicating a resource/paper rather than a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2891) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.652Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:52.000Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:39.195Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

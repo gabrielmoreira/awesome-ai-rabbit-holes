@@ -1,13 +1,13 @@
 id: github__flwrlabs__flower
 kind: github-repo
-name: Flower
+name: flower
 canonical_url: https://github.com/flwrlabs/flower
 identity:
   github_repo: flwrlabs/flower
 provenance:
   discoveries:
-    - id: discovery__github__adap__flower__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__flwrlabs__flower__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6879
-    forks: 1185
+    stars: 6880
+    forks: 1186
     license: Apache-2.0
     archived: false
     created_at: "2020-02-17T11:51:29Z"
-    pushed_at: "2026-05-05T18:42:03Z"
+    pushed_at: "2026-05-06T21:43:31Z"
     description: "Flower: A Friendly Federated AI Framework"
     homepage: https://flower.ai
     topics:
@@ -52,52 +52,50 @@ metadata:
       - raspberry-pi
       - scikit-learn
       - tensorflow
-    last_checked_at: "2026-05-05T21:02:13.056Z"
+    last_checked_at: "2026-05-06T22:43:55.596Z"
     readme:
-      fetched_at: "2026-05-05T21:02:13.056Z"
+      fetched_at: "2026-05-06T22:43:55.596Z"
       bytes: 11434
 insights:
-  summary: Flower is a framework for building federated AI systems that enables training machine learning models across decentralized devices without sharing raw data.
-  why_it_matters: It provides a framework-agnostic SDK for developers to implement federated learning workflows across PyTorch, TensorFlow, Hugging Face, and other ML stacks, including edge devices like Android, iOS, and Raspberry Pi.
-  mental_damage: Yet another framework promises to solve the hard part of ML—getting data from clients—while you quietly realize your biggest federation challenge is getting two microservices to agree on a schema.
+  summary: Flower is an open-source framework for building federated learning systems that allows developers to train models across decentralized devices using various ML libraries like PyTorch and TensorFlow.
+  why_it_matters: It abstracts away the networking and aggregation logic, letting developers focus on model code while deploying training across edge devices, mobile, and heterogeneous fleets.
+  mental_damage: Now you can add 'federated learning infrastructure' to the list of things you are expected to productionize while trying to figure out if your AI assistant is actually writing useful code.
   tags:
-    - distributed
-    - edge-ai
     - federated-learning
-    - framework
-    - machine-learning
     - ml-framework
-    - privacy
+    - pytorch
+    - tensorflow
+    - distributed
   confidence: high
 curation:
-  status: included
-  reason: Flower is a code-first SDK and framework that developers import to build federated learning systems, fitting cleanly into AI Frameworks and SDKs.
+  status: excluded
+  reason: While it is a strong developer tool, Flower is a federated machine learning research and training framework, which falls outside the catalog's scope of AI coding assistants, developer workflows, and prompt/agent infrastructure.
   evidence:
-    - Repo description defines it as 'A Friendly Federated AI Framework' with strong framework/SDK signals.
-    - README positions Flower as a customizable, extendable framework for building federated AI systems with PyTorch, TensorFlow, Hugging Face, etc.
-    - Listed in Awesome-LLMOps under the 'Federated ML' section, confirming its fit in ML infrastructure rather than dev tooling like coding agents.
+    - "Repo description explicitly states 'Flower: A Friendly Federated AI Framework', focusing on ML training rather than code assistance."
+    - README details integration with PyTorch, TensorFlow, and mobile devices for decentralized model training, not repo editing or coding agents.
+    - Listed in Awesome-LLMOps under 'Federated ML', confirming its identity as an ML infrastructure tool rather than a developer productivity tool.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6879) exceeded threshold (150)
+  reason: Stars (6880) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:53.808Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:13.056Z"
+    updated_at: "2026-05-06T22:43:55.596Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:20.874Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dash0hq__mcp-dash0__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,21 +21,6 @@ provenance:
         extracted_url: https://github.com/dash0hq/mcp-dash0
         surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
         confidence: high
-    - id: discovery__www__dash0__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Dash0
-        extracted_url: https://www.dash0.com
-        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
-        confidence: high
 metadata:
   github:
     stars: 3
@@ -47,53 +32,50 @@ metadata:
     description: MCP server for Dash0
     homepage: https://dash0.com
     topics: []
-    last_checked_at: "2026-05-05T21:01:46.996Z"
+    last_checked_at: "2026-05-06T22:43:32.815Z"
     readme:
-      fetched_at: "2026-05-05T21:01:46.996Z"
+      fetched_at: "2026-05-06T22:43:32.815Z"
       bytes: 2072
 insights:
-  summary: An official MCP server that allows AI assistants to query OpenTelemetry resources, metrics, logs, and traces directly from Dash0.
-  why_it_matters: It connects observability data directly into the coding loop, letting AI agents investigate incidents and debug issues without switching context to the Dash0 dashboard.
-  mental_damage: We have successfully closed the loop where the AI writes the bug, the AI deploys the bug, and now the AI uses this server to stare at the telemetry of the bug it just wrote.
+  summary: An official MCP server that connects AI assistants like Claude and Cursor to Dash0's OpenTelemetry platform for querying metrics, logs, and traces.
+  why_it_matters: It lets AI coding agents investigate incidents and navigate observability data directly within the editor, bridging the gap between code generation and production debugging.
+  mental_damage: Your AI assistant can now sift through your telemetry data to find out exactly why the code it just wrote is crashing in production.
   tags:
-    - ai-sre
-    - debugging
     - mcp
-    - monitoring
     - observability
     - opentelemetry
-    - otel
-    - telemetry
+    - debugging
+    - dash0
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server implementation for Dash0, fitting squarely into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is exposing Dash0 observability resources to MCP-compatible AI clients.
   evidence:
     - Repo description explicitly states 'MCP server for Dash0'.
-    - README confirms it is 'The official Model Context Protocol (MCP) server for Dash0'.
+    - README confirms it is 'The official Model Context Protocol (MCP) server for Dash0' enabling AI assistants to query logs and traces.
     - Listed in awesome-mcp-servers under 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:25.824Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:46.996Z"
+    updated_at: "2026-05-06T22:43:32.816Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:34.679Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

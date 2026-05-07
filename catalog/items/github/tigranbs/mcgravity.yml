@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tigranbs__mcgravity__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 96
+    forks: 11
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-04-13T00:02:41Z"
+    pushed_at: "2026-02-15T00:17:45Z"
+    description: Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a plan→execute→review loop. Breaks work into atomic tasks for easier verification and course-correction.
+    homepage: ""
+    topics:
+      - claude
+      - claude-code
+      - codex
+      - gemini
+      - vibe-coding
+    last_checked_at: "2026-05-06T22:46:49.815Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:49.815Z"
+      bytes: 10337
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A fast terminal UI that orchestrates external AI coding tools (Claude Code, Codex, Gemini) in a structured plan→execute→review loop to break large tasks into atomic, verifiable units.
+  why_it_matters: It layers structured task decomposition and iteration on top of existing CLI coding agents, giving developers a tighter feedback loop without switching models.
+  mental_damage: You now have a terminal UI to manage the agents that manage your code, because apparently your workflow needed one more recursive layer of delegation.
+  tags:
+    - tui
+    - cli
+    - coding-agent
+    - orchestration
+    - planning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: McGravity is a terminal-based coding assistant surface that orchestrates repo-level plan→execute→review workflows using external AI CLIs, fitting the primary assistant role in a TUI rather than acting as a thin extension.
+  evidence:
+    - "Repo description: 'Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a plan→execute→review loop.'"
+    - "README: 'McGravity runs a continuous improvement loop: plan small tasks → execute one at a time → review → replan.'"
+    - "Active project: created 2025-04-13, pushed 2026-02-15, not archived."
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:49.815Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:17.095Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

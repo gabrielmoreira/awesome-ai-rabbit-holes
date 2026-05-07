@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__github__spec-kit__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 92668
-    forks: 8024
+    stars: 92909
+    forks: 8052
     license: MIT
     archived: false
     created_at: "2025-08-21T22:54:31Z"
-    pushed_at: "2026-05-05T18:28:29Z"
+    pushed_at: "2026-05-06T22:21:49Z"
     description: 💫 Toolkit to help you get started with Spec-Driven Development
     homepage: https://github.github.com/spec-kit/
     topics:
@@ -39,50 +39,50 @@ metadata:
       - prd
       - spec
       - spec-driven
-    last_checked_at: "2026-05-05T21:02:22.478Z"
+    last_checked_at: "2026-05-06T22:44:03.136Z"
     readme:
-      fetched_at: "2026-05-05T21:02:22.478Z"
-      bytes: 56697
+      fetched_at: "2026-05-06T22:44:03.135Z"
+      bytes: 57541
 insights:
-  summary: An open-source CLI and slash-command toolkit from GitHub that implements Spec-Driven Development by treating specifications as executable artifacts to guide AI coding agents.
-  why_it_matters: It shifts the developer workflow from writing code to writing structured specs that drive Copilot and other agents to generate and validate implementations.
-  mental_damage: We have successfully abstracted away the 'vibe coding' only to replace it with 'vibe specifying', where you now debug your PRD instead of your codebase.
+  summary: An open-source CLI toolkit and methodology from GitHub that formalizes spec-driven development, allowing developers to create executable specifications that guide AI coding agents.
+  why_it_matters: It provides a structured workflow and CLI ('specify') to define project constitutions and specs, aiming to replace 'vibe coding' with predictable, outcome-focused development when used alongside agents like Copilot.
+  mental_damage: We have officially circled back to writing requirements documents, except now we call them 'executable specs' and the compiler is a large language model with an attitude.
   tags:
     - spec-driven
     - cli
     - github
+    - methodology
     - copilot
-    - slash-commands
   confidence: high
 curation:
   status: included
-  reason: The project's center of gravity is a spec-first loop where specifications become executable to guide development, planning, and validation via AI agents, fitting the spec-driven-development category perfectly.
+  reason: The product identity is explicitly a toolkit for Spec-Driven Development, where specs are the primary artifact driving implementation via AI agents, fitting the category's 'spec-first loop' criteria perfectly.
   evidence:
-    - Repo description states it is a 'Toolkit to help you get started with Spec-Driven Development'.
-    - README defines Spec-Driven Development as making 'specifications become executable, directly generating working implementations'.
-    - Provides slash commands like /speckit.specify and /speckit.constitution to drive integrations with agents like Copilot.
+    - "Repo description states: 'Toolkit to help you get started with Spec-Driven Development.'"
+    - "README defines the core philosophy: 'specifications become executable, directly generating working implementations.'"
+    - Includes a 'specify' CLI and integrates with agents via slash commands like '/speckit.constitution'.
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
-  reason: Stars (92668) exceeded threshold (150)
+  reason: Stars (92909) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:22.478Z"
+    updated_at: "2026-05-06T22:44:03.136Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:35.407Z"
+    updated_at: "2026-05-06T22:57:51.891Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

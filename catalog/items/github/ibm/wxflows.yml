@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ibm__wxflows__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -52,50 +52,50 @@ metadata:
       - tool-calling
       - tools
       - watsonx
-    last_checked_at: "2026-05-05T21:02:40.457Z"
+    last_checked_at: "2026-05-06T22:44:21.166Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.457Z"
+      fetched_at: "2026-05-06T22:44:21.166Z"
       bytes: 2180
 insights:
-  summary: A collection of examples and tutorials for building AI applications using IBM's watsonx.ai Flows Engine to create and deploy tools for agentic frameworks.
-  why_it_matters: It provides a ready-to-use middleware layer and SDK for exposing data sources as tools compatible with LangChain, LangGraph, and OpenAI agents.
-  mental_damage: "Just what we needed: another IBM-branded abstraction layer to help us feel productive while wiring yet another set of tools into our agent stack."
+  summary: IBM's watsonx.ai Flows Engine provides SDKs and examples for building data-source tools and deploying them as endpoints usable by agentic frameworks like LangChain, LangGraph, and OpenAI.
+  why_it_matters: It abstracts the boilerplate of wrapping APIs and data sources into callable tools, letting developers quickly arm their agents with custom capabilities across Python and JavaScript.
+  mental_damage: Yet another middleware layer promising to solve tool-calling fragmentation, ensuring you can spend your afternoon wrapping a weather API instead of admitting the agent still can't debug your CI pipeline.
   tags:
-    - agents
     - tools
+    - agent-frameworks
+    - middleware
     - watsonx
-    - mcp
     - sdk
   confidence: high
 curation:
   status: included
-  reason: The repo is primarily a collection of code examples and tutorials for a developer SDK that builds tools for agents, fitting the code-first framework definition.
+  reason: The core offering is a code-first SDK and set of examples for building and deploying tools to be used within agentic frameworks, fitting the Frameworks & SDKs identity.
   evidence:
     - Repo description states it is 'Examples and tutorials for building AI applications with watsonx.ai Flows Engine'.
-    - README explains it allows developers to 'build tools out of any data source, and deploy them... using the SDK for Python & JavaScript'.
-    - Includes specific integrations and examples for LangGraph, LangChain, and OpenAI tool-calling patterns.
+    - README claims 'Tools built with watsonx.ai Flows Engine can be used in any Agentic Framework using the SDK for Python & JavaScript.'
+    - Active development visible with last push in 2025-09-18.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.457Z"
+    updated_at: "2026-05-06T22:44:21.166Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:20.924Z"
+    updated_at: "2026-05-06T23:01:35.963Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

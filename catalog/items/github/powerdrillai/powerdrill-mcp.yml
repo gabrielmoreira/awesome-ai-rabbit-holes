@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__powerdrillai__powerdrill-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,44 +32,48 @@ metadata:
     description: The MCP server for Powerdrill API.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T23:08:08.834Z"
+    last_checked_at: "2026-05-06T22:45:56.765Z"
     readme:
-      fetched_at: "2026-05-05T23:08:08.834Z"
+      fetched_at: "2026-05-06T22:45:56.765Z"
       bytes: 13847
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets Claude Desktop and other MCP-compatible clients query and run natural language jobs against Powerdrill datasets via User ID and Project API Key.
+  why_it_matters: Developers can wire Powerdrill’s dataset analysis directly into their AI assistant workflows without leaving the MCP client.
+  mental_damage: You now have a protocol adapter for a hosted data platform so your assistant can run natural language jobs on datasets you’ll probably never actually open.
+  tags:
+    - mcp
+    - data-analysis
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server for a specific data platform, making it a clear fit for MCP Servers & Tooling under Domain Servers.
+  evidence:
+    - "Repo description: 'The MCP server for Powerdrill API.'"
+    - "README: 'A Model Context Protocol (MCP) server that provides tools to interact with Powerdrill datasets... Integration with Claude Desktop and other MCP-compatible clients.'"
+    - Listed in awesome-mcp-servers under 'Official Servers'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:08.834Z"
+    updated_at: "2026-05-06T22:45:56.765Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:38.412Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

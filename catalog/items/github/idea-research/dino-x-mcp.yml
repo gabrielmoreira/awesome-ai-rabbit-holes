@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__idea-research__dino-x-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 118
-    forks: 10
+    stars: 113
+    forks: 9
     license: Apache-2.0
     archived: false
     created_at: "2025-06-04T09:04:21Z"
@@ -37,49 +37,50 @@ metadata:
       - mcp-server
       - object-detection
       - pose-estimation
-    last_checked_at: "2026-05-05T21:02:40.808Z"
+    last_checked_at: "2026-05-06T22:44:21.589Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.808Z"
+      fetched_at: "2026-05-06T22:44:21.589Z"
       bytes: 9148
 insights:
-  summary: An official MCP server that exposes DINO-X vision models to LLMs via a standard protocol, enabling object detection, localization, and image captioning through tools like Cursor and Windsurf.
-  why_it_matters: It allows developers to plug production-grade visual perception directly into their coding agent workflows without building custom vision API wrappers.
-  mental_damage: Your coding agent can now tell you exactly how many cars are in your screenshots, shifting the anxiety from 'will it compile' to 'why is it hallucinating traffic counts'.
+  summary: An official MCP server that exposes DINO-X vision APIs to LLMs, enabling object detection, localization, and image captioning inside MCP-compatible clients like Cursor and Windsurf.
+  why_it_matters: It lets coding agents and IDEs natively understand and reason about images, bridging the gap between multimodal models and structured developer workflows.
+  mental_damage: We have finally achieved the future where your coding agent can tell you there are three cars in your screenshot, but still cannot fix your failing test suite.
   tags:
     - mcp
     - vision
     - object-detection
     - multimodal
+    - image-understanding
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that integrates vision models into the MCP ecosystem for developer tools.
+  reason: The project's primary identity is an MCP server exposing vision APIs, fitting cleanly into the MCP Servers & Tooling category's Domain Servers section.
   evidence:
-    - Repo description explicitly states this is an 'Official DINO-X Model Context Protocol (MCP) server'.
-    - README details configuration for MCP clients including Cursor, WindSurf, and Trae.
-    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+    - Repo description explicitly states it is an 'Official DINO-X Model Context Protocol (MCP) server'.
+    - Listed in the awesome-mcp-servers directory under the 'Official Servers' section.
+    - README details MCP client configuration (Cursor, Windsurf) and transport modes (STDIO, Streamable HTTP).
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.808Z"
+    updated_at: "2026-05-06T22:44:21.589Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:22.642Z"
+    updated_at: "2026-05-06T23:01:36.791Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

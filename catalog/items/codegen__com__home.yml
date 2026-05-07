@@ -1,0 +1,76 @@
+id: codegen__com__home
+kind: website
+name: home
+canonical_url: https://codegen.com/home
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codegen__com__home__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Codegen
+        anchor_text: Codegen
+        extracted_url: https://www.codegen.com
+        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Codegen is an AI coding assistant that automates the full development workflow from ticket to pull request, marketed as the 'operating system for code agents'.
+  why_it_matters: It aims to replace manual boilerplate by handling planning, coding, and code review directly within a team's existing repo and project management tools like Linear.
+  mental_damage: Just when you thought your ticket queue was safe, an 'operating system for code agents' now wants to turn your carefully crafted Linear tickets into production PRs while you wonder if 'shipping' still counts if you didn't touch the keyboard.
+  tags:
+    - coding-agent
+    - repo-automation
+    - pr-workflow
+    - codegen
+  confidence: medium
+curation:
+  status: included
+  reason: The product identity is a primary coding assistant that automates the workflow from ticket to PR, fitting the definition of a repo-level coding agent.
+  evidence:
+    - Blog states 'The operating system for AI coding agents. Built for engineering teams that ship.'
+    - "Product features include 'Codegen + Linear: Where Tickets Become Code' and 'Codegen Weekly Diff'."
+    - Listed in awesome-ai-agents under the 'Codegen' section as an autonomous agent.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:17.506Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hostinger__api-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 87
-    forks: 41
+    forks: 42
     license: MIT
     archived: false
     created_at: "2025-04-11T10:40:50Z"
@@ -38,50 +38,50 @@ metadata:
       - cursor
       - hostinger
       - mcp
-    last_checked_at: "2026-05-05T21:02:36.282Z"
+    last_checked_at: "2026-05-06T22:44:17.236Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.282Z"
+      fetched_at: "2026-05-06T22:44:17.236Z"
       bytes: 44778
 insights:
-  summary: An MCP server that exposes 118 Hostinger API tools (covering billing, DNS, domains, hosting, VPS, and reach) to Claude, Cursor, and other MCP-compatible AI clients.
-  why_it_matters: It lets developers manage Hostinger infrastructure through natural-language prompts in their AI coding environments instead of juggling separate dashboards and API docs.
-  mental_damage: Because the one thing your autonomous coding agent was clearly missing was the ability to accidentally delete your production VPS while you argue about variable naming.
+  summary: An MCP server that exposes 118 Hostinger API tools (billing, DNS, domains, VPS, hosting, and Reach) as Model Context Protocol tools for Claude, Cursor, and other MCP-compatible agents.
+  why_it_matters: It lets agents directly manage Hostinger infrastructure—domains, VPS, billing, and DNS—without leaving the coding assistant or writing custom API glue code.
+  mental_damage: We’ve reached the point where your AI agent can now renew your domain and resize your VPS while you’re busy debugging why it didn’t set the DNS records correctly.
   tags:
     - mcp
     - hostinger
     - api
+    - agent-integration
     - infrastructure
-    - cursor
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that exposes a specific API surface to MCP-compatible clients, which clearly fits the MCP Servers and Tooling category.
+  reason: This is an MCP server exposing Hostinger API capabilities as tools, making MCP the core product identity rather than a compatibility footnote.
   evidence:
-    - "README states: 'Model Context Protocol (MCP) server for Hostinger API' with 118 total tools across multiple binaries."
-    - Includes JSON configuration examples for Claude and Cursor and supports stdio and HTTP transports.
-    - Listed in the awesome-mcp-servers directory under 'Official Servers'.
+    - README explicitly implements Model Context Protocol and provides JSON config for Claude, Cursor, etc.
+    - Includes binaries like hostinger-api-mcp, hostinger-vps-mcp, hostinger-dns-mcp covering 118 total tools.
+    - Listed in awesome-mcp-servers under 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.282Z"
+    updated_at: "2026-05-06T22:44:17.236Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:23.764Z"
+    updated_at: "2026-05-06T23:00:42.372Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

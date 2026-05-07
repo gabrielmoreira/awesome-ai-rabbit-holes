@@ -1,0 +1,76 @@
+id: huggingface__co__spaces__lhoestq__common__crawl__pipeline__creator
+kind: website
+name: Common-Crawl-Pipeline-Creator
+canonical_url: https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__spaces__lhoestq__common__crawl__pipeline__creator__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: Common-Crawl-Pipeline-Creator
+        extracted_url: https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator
+        surrounding_text: "15. [Common-Crawl-Pipeline-Creator](https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator): The Common Crawl Pipeline Creator."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Hugging Face Space that provides a UI for creating and customizing data processing pipelines for Common Crawl datasets.
+  why_it_matters: It allows developers and researchers to visually configure filtering and extraction steps for massive web datasets without writing boilerplate pipeline code.
+  mental_damage: Yet another GUI wrapping a data pipeline, proving that even when we train models on the entire internet, we still need a web form to decide which parts of the internet are worthy.
+  tags:
+    - data-processing
+    - common-crawl
+    - huggingface
+    - nlp
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a data processing utility for training datasets and ML research, not a developer-facing tool for coding, agents, or infrastructure workflows.
+  evidence:
+    - Description explicitly states it is for 'data processing pipeline for Common Crawl data'
+    - Found in awesome-LLM-resources under the '数据 Data' (Data) section
+    - Lacks any coding agent, IDE, extension, or developer-infrastructure identity
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:17.118Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

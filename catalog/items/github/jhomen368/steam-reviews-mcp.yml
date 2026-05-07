@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jhomen368__steam-reviews-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Search Steam games, fetch user reviews, and analyze sentiment with topic drill-down to make informed purchasing decisions.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:54.861Z"
+    last_checked_at: "2026-05-06T22:44:33.833Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.861Z"
+      fetched_at: "2026-05-06T22:44:33.833Z"
       bytes: 6549
 insights:
-  summary: An MCP server that lets AI assistants search Steam games, fetch user reviews, and run sentiment analysis with topic drill-down using the Steam Store API.
-  why_it_matters: It gives developers building MCP integrations a ready-made tool for connecting LLMs to real-time game data and review sentiment without wiring the Steam API themselves.
-  mental_damage: We have finally reached the logical endpoint of the MCP ecosystem, where an AI agent can now deliberate for twenty minutes on whether *Baldur’s Gate 3* is worth sixty dollars.
+  summary: An MCP server that lets AI assistants search Steam games, fetch user reviews, and run NLP-powered sentiment analysis with topic drill-down.
+  why_it_matters: It gives MCP-compatible coding assistants and agents direct access to Steam’s review ecosystem for gaming-oriented research and decision support.
+  mental_damage: You now have the infrastructure to ask an AI assistant whether Baldur’s Gate 3 is worth buying, and somehow that still feels like productive work.
   tags:
     - mcp
     - steam
+    - reviews
     - sentiment-analysis
-    - nodejs
     - gaming
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to extend AI assistants with Steam review and sentiment analysis capabilities, clearly fitting the MCP tooling category.
+  reason: This is an MCP server providing Steam-specific tools for game search, review fetching, and sentiment analysis, making MCP its core product identity.
   evidence:
-    - Repo description explicitly states it is an MCP server for Steam game search, review fetching, and sentiment analysis.
-    - README confirms it implements the Model Context Protocol with tools like search_steam_games and analyze_reviews for AI assistant integration.
-    - Listed in awesome-mcp-servers under Server Implementations > Gaming, confirming community recognition as MCP infrastructure.
+    - Repo description explicitly calls it 'A Model Context Protocol (MCP) server for Steam game reviews and analysis'.
+    - Includes tools like search_steam_games, fetch_reviews, and analyze_reviews designed for MCP clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming, confirming its identity as a domain-specific MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.861Z"
+    updated_at: "2026-05-06T22:44:33.833Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:19.579Z"
+    updated_at: "2026-05-06T23:04:11.006Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

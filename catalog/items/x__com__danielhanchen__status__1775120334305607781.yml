@@ -1,12 +1,12 @@
 id: x__com__danielhanchen__status__1775120334305607781
 kind: website
-name: "\"An open source Devin getting 12.29% on 100% of the SWE Bench test set vs Devin's 13.84% on 25% of the test set!\""
+name: "1775120334305607781"
 canonical_url: https://x.com/danielhanchen/status/1775120334305607781
 identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__danielhanchen__status__1775120334305607781__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,20 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An X.com status link with no accessible description, repo, or tool page to evaluate.
-  why_it_matters: It doesn't, because there is no tooling surface, README, or explanation attached to this entry.
-  mental_damage: We have reached peak AI curation velocity when a broken Twitter link qualifies as a candidate for the stack.
+  summary: An X/Twitter post referencing a SWE Agent project, whose actual content and project details are inaccessible due to a blocked or broken link.
+  why_it_matters: It was indexed as a software engineering agent in a curated list, but the lack of accessible content makes it impossible to evaluate its developer utility.
+  mental_damage: We are now curating dead Twitter links as viable alternatives to Claude Code, proving that 'awesome' lists are essentially auto-generated graveyards for unclickable URLs.
   tags:
+    - swe-agent
     - broken-link
-    - unverifiable
+    - awesome-list
   confidence: high
 curation:
   status: excluded
-  reason: The URL points to an X.com status that cannot be scraped, has no repo, no description, no README, and no usable context to determine what the tool actually is.
+  reason: The source URL is a Twitter link returning an error excerpt, providing no verifiable project description, README, or functional tooling to review.
   evidence:
-    - URL is a Twitter/X status with no accessible content or description
-    - No repo description, README, stars, or creation date available
-    - Scraped site context returned an error page rather than product information
+    - Scraped site context shows 'Something went wrong...' indicating the primary URL is inaccessible.
+    - No repo description, stars, license, or code context provided; only a mention in awesome-ai-agents.
+    - No technical details available to distinguish it as a tool vs. a tweet about a tool.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:16.194Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:33.773Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kleveross__ormb__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -44,28 +44,28 @@ metadata:
       - oci-artifacts
       - oci-registry
       - opencontainers
-    last_checked_at: "2026-05-05T21:03:07.064Z"
+    last_checked_at: "2026-05-06T22:44:44.145Z"
     readme:
-      fetched_at: "2026-05-05T21:03:07.064Z"
+      fetched_at: "2026-05-06T22:44:44.145Z"
       bytes: 4801
 insights:
-  summary: ORMB is a CLI tool that packages, versions, and distributes machine learning and deep learning models using OCI-compliant image registries like Docker Hub or Harbor.
-  why_it_matters: It allows ML engineers to apply familiar Docker-like workflows (save, push, pull, export) to model artifacts, bridging the gap between training and deployment infrastructure.
-  mental_damage: We have successfully Dockerized the ephemeral nature of machine learning, ensuring your model versioning is now just as over-engineered as your microservices.
+  summary: ORMB is a CLI tool that manages machine learning and deep learning models using OCI-compliant image registries like Docker Registry or Harbor.
+  why_it_matters: It allows developers to version, share, and deploy ML models using the same push/pull workflows they already use for container images.
+  mental_damage: You have finally containerized your model, but you still have no idea if it actually works or why you needed four GPUs to train it.
   tags:
+    - mlops
     - model-management
     - oci
-    - docker
-    - mlops
     - cli
+    - registry
   confidence: high
 curation:
   status: excluded
-  reason: The project focuses on ML/DL model registry and deployment infrastructure (MLOps) rather than AI developer tooling, coding agents, or prompt-driven workflows.
+  reason: This is a general ML model registry tool focused on MLOps infrastructure, not a developer-facing AI coding tool, agent, or workflow product.
   evidence:
-    - Repo description explicitly states 'Docker for Your ML/DL Models', targeting model management rather than code generation.
-    - README describes a workflow for pushing/pulling trained models (SavedModel, variables) to Harbor/Docker registries.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Model Management', confirming its MLOps infrastructure role.
+    - Repo description explicitly states it is 'Docker for Your ML/DL Models', targeting model management rather than code generation.
+    - README demonstrates CLI commands for pushing and pulling trained ML models (SavedModel format) to Harbor/Docker registries.
+    - Source list context places it in 'Large Scale Deployment > Model Management' within an LLMOps list, confirming its identity as infrastructure for models, not developer coding assistants.
 placement:
   primary_category: null
   section: null
@@ -75,19 +75,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:07.064Z"
+    updated_at: "2026-05-06T22:44:44.145Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:03.413Z"
+    updated_at: "2026-05-06T23:06:25.458Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

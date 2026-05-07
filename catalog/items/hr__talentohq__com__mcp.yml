@@ -1,12 +1,12 @@
 id: hr__talentohq__com__mcp
 kind: website
-name: TalentoHQ
+name: mcp
 canonical_url: https://hr.talentohq.com/mcp
 identity: {}
 provenance:
   discoveries:
     - id: discovery__hr__talentohq__com__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,42 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted directory and submission page for discovering and listing Model Context Protocol (MCP) servers.
-  why_it_matters: It serves as a navigational aid for developers looking to extend AI assistants with new tools via the MCP standard.
-  mental_damage: Another registry for the registries, because apparently the hardest part of the AI workflow is remembering where we filed the tools that file the tools.
+  summary: A human resources portal page referencing the Model Context Protocol (MCP) within the context of talent management software.
+  why_it_matters: It does not matter to developers building AI tooling, as it is an HR platform link rather than a technical MCP implementation.
+  mental_damage: We have officially reached the point where HR portals are name-dropping protocol specs to stay relevant in the AI gold rush.
   tags:
-    - directory
     - mcp
-    - registry
-  confidence: medium
+    - hr
+    - non-developer
+  confidence: high
 curation:
-  status: included
-  reason: The URL acts as a submission gateway and directory index for MCP servers, making it a navigational map for developers rather than a tool itself.
+  status: excluded
+  reason: The URL leads to an HR talent management portal (hr.talentohq.com), not a developer tool, MCP server, or technical implementation.
   evidence:
-    - The URL https://hr.talentohq.com/mcp redirects or links to the submission flow for mcpservers.org.
-    - It is listed in awesome-mcp-servers under the context of submitting servers to a central registry.
-    - The project provides no code, IDE, or agent, only a listing mechanism for MCP infrastructure.
+    - URL is https://hr.talentohq.com/mcp, indicating a Human Resources context rather than a technical tool.
+    - No repository description, README, or code indicators provided; only a generic entry in awesome-mcp-servers.
+    - No developer-facing features, CLIs, or SDKs are evident from the inputs.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:18.715Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:49.603Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

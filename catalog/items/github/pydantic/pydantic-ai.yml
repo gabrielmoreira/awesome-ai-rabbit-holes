@@ -1,13 +1,13 @@
 id: github__pydantic__pydantic-ai
 kind: github-repo
-name: PydanticAI
+name: pydantic-ai
 canonical_url: https://github.com/pydantic/pydantic-ai
 identity:
   github_repo: pydantic/pydantic-ai
 provenance:
   discoveries:
     - id: discovery__github__pydantic__pydantic-ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [pydantic/pydantic-ai/mcp-run-python](https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python) 🐍 🏠 - Run Python code in a secure sandbox via MCP tool calls"
         confidence: high
     - id: discovery__github__pydantic__pydantic-ai__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -39,7 +39,7 @@ provenance:
         surrounding_text: "| [PydanticAI](https://github.com/pydantic/pydantic-ai) | Type-safe agent framework using Pydantic models | ![Stars](https://img.shields.io/github/stars/pydantic/pydantic-ai) |"
         confidence: high
     - id: discovery__github__pydantic__pydantic-ai__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -54,7 +54,7 @@ provenance:
         surrounding_text: "- Docker deployment- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent"
         confidence: high
     - id: discovery__github__pydantic__pydantic-ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -70,12 +70,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 16856
-    forks: 2026
+    stars: 16873
+    forks: 2029
     license: MIT
     archived: false
     created_at: "2024-06-21T15:55:04Z"
-    pushed_at: "2026-05-05T22:41:03Z"
+    pushed_at: "2026-05-06T22:38:07Z"
     description: AI Agent Framework, the Pydantic way
     homepage: https://ai.pydantic.dev
     topics:
@@ -84,44 +84,50 @@ metadata:
       - llm
       - pydantic
       - python
-    last_checked_at: "2026-05-05T23:08:13.113Z"
+    last_checked_at: "2026-05-06T22:46:00.289Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.112Z"
-      bytes: 13000
+      fetched_at: "2026-05-06T22:46:00.289Z"
+      bytes: 13010
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python agent framework from the Pydantic team for building production-grade GenAI applications with type-safe models, tool integration, and durable execution.
+  why_it_matters: It lets developers build typed, validated, and observable agentic workflows using the same Pydantic patterns that already power much of the Python AI ecosystem.
+  mental_damage: Now you can experience the FastAPI feeling in agent land, right before realizing your agent’s biggest type error is its life choices.
+  tags:
+    - python
+    - agent-framework
+    - type-safe
+    - pydantic
+    - observability
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a code-first framework and SDK for building agents, not a standalone coding assistant, IDE, or multi-agent orchestration platform.
+  evidence:
+    - "Repo description: 'AI Agent Framework, the Pydantic way' and README positions it as a Python framework for building GenAI apps."
+    - README emphasizes developers import and script against it with type safety, tools, evals, and durable execution, not operating a control plane.
+    - Strong presence in awesome-llm-agents and awesome-agent-orchestration lists under frameworks, aligning with its SDK identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (16856) exceeded threshold (150)
+  reason: Stars (16873) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.658Z"
+    updated_at: "2026-05-06T22:12:15.575Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.113Z"
+    updated_at: "2026-05-06T22:46:00.290Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:23:21.177Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

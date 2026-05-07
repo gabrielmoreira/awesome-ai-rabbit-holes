@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agenthotspot__agenthotspot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: 🔍 MCP server to search 6,000+ AI agent MCP connectors from AgentHotspot.com Marketplace
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:50.880Z"
+    last_checked_at: "2026-05-06T22:12:26.736Z"
     readme:
-      fetched_at: "2026-05-05T21:00:50.880Z"
+      fetched_at: "2026-05-06T22:12:26.736Z"
       bytes: 5381
 insights:
-  summary: An MCP server that allows AI agents to search and discover over 6,000 MCP connectors listed on the AgentHotspot marketplace.
-  why_it_matters: Developers can search for and integrate existing MCP connectors directly from their agent workflow instead of manually browsing the web.
-  mental_damage: We now have an AI tool designed solely to help other AI tools find more AI tools, accelerating the recursive loop of middleware discovering middleware.
+  summary: An MCP server that lets AI agents search and discover over 6,000 MCP connectors listed on the AgentHotspot marketplace.
+  why_it_matters: It streamlines connector discovery by letting agents query the AgentHotspot catalog directly instead of forcing developers to manually browse a web directory.
+  mental_damage: Now your agent can autonomously discover 6,000 new ways to break your workflow without you ever leaving the chat window.
   tags:
     - mcp
-    - connectors
+    - connector-discovery
     - marketplace
-    - agent-tools
-  confidence: high
+    - agent-tooling
+    - search
+  confidence: medium
 curation:
   status: included
-  reason: This is a Model Context Protocol server implementation that provides search access to a catalog of other MCP connectors, fitting cleanly into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server built specifically to search an MCP connector marketplace, making it a clear fit for MCP Servers & Tooling under Registries & Discovery.
   evidence:
-    - Repo description explicitly states it is an 'MCP server to search 6,000+ AI agent MCP connectors'.
-    - README confirms it is 'MCP Compatible' and allows agents to 'search and discover oss connectors from the AgentHotspot marketplace'.
-    - Listed in the awesome-mcp-servers list under 'Server Implementations > Aggregators'.
+    - Repo description explicitly states it is an 'MCP server to search 6,000+ AI agent MCP connectors from AgentHotspot.com Marketplace'.
+    - README describes the tool as an MCP server allowing AI agents to 'search and discover oss connectors from the AgentHotspot marketplace'.
+    - Included in the awesome-mcp-servers list under 'Server Implementations > Aggregators', confirming its MCP infrastructure role.
 placement:
   primary_category: mcp
-  section: null
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:50.880Z"
+    updated_at: "2026-05-06T22:12:26.736Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:08.969Z"
+    updated_at: "2026-05-06T22:19:00.958Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

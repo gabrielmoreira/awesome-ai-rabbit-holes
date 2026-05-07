@@ -1,12 +1,12 @@
 id: spacelift__io
 kind: website
-name: Spacelift
+name: spacelift.io
 canonical_url: https://spacelift.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__spacelift__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Spacelift is an IaC orchestration platform that integrates AI, GitOps pipelines, and an Infrastructure Assistant to manage infrastructure provisioning for Terraform, OpenTofu, Ansible, and Kubernetes.
-  why_it_matters: It allows platform teams to define OPA policies in natural language and enables developers to request and manage infrastructure via an AI assistant or MCP server, reducing friction between rapid code shipping and infrastructure governance.
-  mental_damage: Now your infrastructure can hallucinate access policies just as confidently as your coding agent hallucinates deprecated API calls.
+  summary: Spacelift is an IaC orchestration platform that fuses traditional infrastructure pipelines with AI-assisted deployments, natural language policy definitions, and an integrated infrastructure assistant.
+  why_it_matters: It allows platform teams to govern infrastructure at scale while giving developers a self-service path to provision resources using natural language and AI assistance.
+  mental_damage: You can now wait for an AI assistant to finish provisioning your Terraform drift instead of waiting for a human to click approve in a ticket queue.
   tags:
-    - devops
     - iac
+    - devops
     - infrastructure
-    - mcp
+    - ai-assisted
+    - gitops
   confidence: medium
 curation:
   status: included
-  reason: While primarily an IaC orchestrator, it fits here because it offers an AI Infrastructure Assistant and an MCP server that allow teams to coordinate infrastructure tasks and policies via natural language, acting as a control plane for infrastructure agents.
+  reason: The product is an operated platform that coordinates infrastructure workflows, integrates AI assistance for policy and provisioning, and manages multi-agent/multi-tool pipelines, fitting the vertical orchestration mold rather than a simple coding assistant.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'DevOps and Infrastructure' section.
-    - Scraped site context mentions fusing IaC with an 'AI deployment model' and a 'powerful Infrastructure Assistant'.
-    - Documentation references enabling AI via the 'Spacelift AI assistant or via our MCP server' for self-service infrastructure management.
+    - Described as an 'IaC Orchestration Platform' that fuses AI with GitOps pipelines and includes an 'Infrastructure Assistant'.
+    - Features include an AI assistant for natural language policies, an MCP server for AI integration, and automated drift detection/remediation.
+    - Seen in awesome-ai-coding-tools under 'DevOps and Infrastructure', indicating a recognized developer-tooling angle.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:16.829Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:00.760Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

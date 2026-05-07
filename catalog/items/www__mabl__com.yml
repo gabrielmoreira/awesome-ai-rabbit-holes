@@ -1,12 +1,12 @@
 id: www__mabl__com
 kind: website
-name: Mabl
+name: www.mabl.com
 canonical_url: https://www.mabl.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__mabl__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: mabl is an AI-native, enterprise-focused test automation platform that uses agentic AI to build, run, and auto-heal end-to-end, mobile, API, and AI application tests.
-  why_it_matters: It positions itself as the quality safety net for teams shipping code at the speed of modern AI coding agents, aiming to eliminate test maintenance debt.
-  mental_damage: Just when you thought you could finally sprint at AI-agent velocity, you realize you now need an 'agentic testing' platform to verify that your autonomous code agents aren't hallucinating regressions faster than you can review them.
+  summary: mabl is an AI-native, low-code test automation platform for web, mobile, API, and AI application testing with auto-healing capabilities.
+  why_it_matters: It positions itself as the 'outer loop' quality layer designed to keep pace with the accelerated PR velocity driven by modern coding agents.
+  mental_damage: We have successfully automated the generation of infinite code, so naturally we now need an autonomous agent to verify that the infinite code doesn't break the checkout flow.
   tags:
-    - agentic-ai
-    - automation
-    - enterprise
-    - qa
     - testing
+    - qa
+    - agentic-testing
+    - low-code
+    - automation
   confidence: high
 curation:
   status: included
-  reason: mabl is a SaaS testing platform that extends the developer/QA workflow with AI-driven coverage and auto-healing; it augments the shipping process rather than acting as the primary coding assistant inside the IDE or repo.
+  reason: While it is a standalone SaaS platform, its primary relevance to this catalog is as a testing add-on that complements the workflow of developers using coding agents.
   evidence:
     - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
-    - Scraped site describes it as 'the agentic testing platform' designed to keep pace with teams using coding agents.
-    - Primary workflow is end-to-end test automation, API testing, and auto-healing rather than direct code editing or IDE integration.
+    - Site claims to be 'the agentic testing platform that gives you coverage that builds itself' to keep pace with 'AI coding agents'.
+    - Offers end-to-end, mobile, API, and AI app testing with auto-healing features.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:50.776Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:04.382Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

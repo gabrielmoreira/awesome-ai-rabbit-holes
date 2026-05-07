@@ -1,0 +1,81 @@
+id: github__facebookresearch__lingua
+kind: github-repo
+name: lingua
+canonical_url: https://github.com/facebookresearch/lingua
+identity:
+  github_repo: facebookresearch/lingua
+provenance:
+  discoveries:
+    - id: discovery__github__facebookresearch__lingua__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Meta Lingua
+        extracted_url: https://github.com/facebookresearch/lingua
+        surrounding_text: "32. [Meta Lingua](https://github.com/facebookresearch/lingua): a lean, efficient, and easy-to-hack codebase to research LLMs."
+        confidence: high
+metadata:
+  github:
+    stars: 4763
+    forks: 271
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2024-10-16T19:16:50Z"
+    pushed_at: "2025-07-18T09:36:44Z"
+    description: "Meta Lingua: a lean, efficient, and easy-to-hack codebase to research LLMs."
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:43:50.480Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:50.480Z"
+      bytes: 17106
+insights:
+  summary: Meta Lingua is a lean, minimal, and fast PyTorch library from Meta FAIR for training, inferring, and evaluating LLMs from scratch.
+  why_it_matters: It gives researchers and engineers a hackable, end-to-end codebase to rapidly prototype new architectures, losses, and data pipelines without the bloat of larger frameworks.
+  mental_damage: Yet another reminder that while we are shipping wrappers around wrappers, the real breakthroughs are happening in repositories most of us will only ever cite and never compile.
+  tags:
+    - llm-training
+    - pytorch
+    - research
+    - meta
+    - fine-tuning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational ML research library for training models from scratch, which falls outside the catalog's scope of practical AI tooling, agents, and developer-facing infrastructure.
+  evidence:
+    - Repo description explicitly states it is 'a lean, efficient, and easy-to-hack codebase to research LLMs'.
+    - README details training loops, SLURM jobs, tokenizers, and benchmark results for 1B/7B models rather than developer assistant workflows.
+    - Seen in source lists under 'Fine-Tuning' and 'LLM resources', which aligns with ML research rather than practical dev tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4763) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.613Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:50.480Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:55:18.590Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

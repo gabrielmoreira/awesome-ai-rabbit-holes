@@ -1,12 +1,12 @@
 id: www__safurai__com
 kind: website
-name: Safurai
+name: www.safurai.com
 canonical_url: https://www.safurai.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__safurai__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,41 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Safurai is an AI-powered coding assistant that integrates with IDEs like VS Code to help developers write, debug, and refactor code.
-  why_it_matters: It acts as a context-aware pair programmer within the editor, aiming to reduce context switching by handling routine coding tasks directly in the development environment.
-  mental_damage: "Just what the modern developer needs: another floating assistant competing for focus while we try to remember which keyboard shortcut summons the one that actually fixes the bug."
+  summary: Safurai is an AI-powered coding assistant that integrates into IDEs to help developers with code generation, refactoring, and debugging.
+  why_it_matters: It aims to streamline the development workflow by acting as a context-aware pair programmer directly within the editor environment.
+  mental_damage: Yet another contender in the 'I can write your code better than you can' sweepstakes, adding one more subscription to the pile of tools promising to automate the job you actually like doing.
   tags:
-    - code-assistant
-    - ide-extension
+    - ide-assistant
+    - code-generation
     - refactoring
-  confidence: medium
+  confidence: low
 curation:
   status: included
-  reason: The tool is a developer-facing coding assistant that integrates directly into the IDE workflow to write, debug, and refactor code, fitting the coding-agents profile.
+  reason: The product identity is a developer-facing coding assistant designed to generate, refactor, and debug code within an IDE, which aligns with the Coding Agents category.
   evidence:
-    - Listed under 'Developer tools' in the awesome-local-ai directory as an open source/local AI solution.
-    - Functionally described as an assistant that writes, debugs, and refactors code within the IDE.
+    - Listed in awesome-local-ai under 'Developer tools', indicating a developer-tooling focus.
+    - The product name and URL (safurai.com) strongly imply a commercial coding assistant product rather than a framework or extension.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:14.291Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:30.478Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

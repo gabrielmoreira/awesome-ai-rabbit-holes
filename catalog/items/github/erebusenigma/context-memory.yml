@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erebusenigma__context-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,50 @@ metadata:
       - memory
       - plugin
       - sqlite
-    last_checked_at: "2026-05-05T21:02:03.468Z"
+    last_checked_at: "2026-05-06T22:43:47.313Z"
     readme:
-      fetched_at: "2026-05-05T21:02:03.468Z"
+      fetched_at: "2026-05-06T22:43:47.313Z"
       bytes: 19538
 insights:
-  summary: A SQLite-backed memory plugin for Claude Code that persists session context, decisions, and code snippets across terminal sessions with full-text search.
-  why_it_matters: It eliminates the ephemeral nature of Claude Code sessions by allowing developers to recall past debugging sessions, architectural decisions, and code patterns months after they happened.
-  mental_damage: We have finally solved the problem of Claude forgetting everything by building a database to remember everything, which means we can now spend even more time debugging the same auth bug across an infinite timeline.
+  summary: A persistent, searchable context storage system for Claude Code that uses SQLite with FTS5 to save and recall session history, decisions, and code patterns across terminal sessions.
+  why_it_matters: It solves the ephemeral nature of Claude Code sessions by giving developers a fast, structured way to retrieve past decisions, bugs, and code patterns without re-explaining context.
+  mental_damage: We have finally built a memory palace for our AI assistant so that, somewhere between the 47th token and the heat death of the universe, it might remember why we chose JWT over sessions.
   tags:
     - claude-code
     - memory
-    - plugin
-    - sqlite
     - context
+    - sqlite
+    - fts5
   confidence: high
 curation:
   status: included
-  reason: This is a host-side integration that extends Claude Code with a memory layer, fitting the AI Developer Extensions category rather than being a primary coding agent itself.
+  reason: The core novelty is a memory and retrieval system designed to preserve and surface context across Claude Code sessions, which aligns with Prompt & Context Engineering.
   evidence:
-    - Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions'
-    - "README confirms it is a plugin/extension: 'context-memory fixes this' for Claude Code's ephemeral sessions"
-    - Topics include 'claude-code-plugin' and it is listed in awesome-mcp-servers under Knowledge & Memory
+    - Repo description explicitly states 'Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5'.
+    - README emphasizes memory retrieval features like /recall, auto-save hooks, and FTS5 search rather than acting as a primary coding assistant.
+    - Although listed under awesome-mcp-servers, the product identity is a memory system, not MCP infrastructure.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:03.468Z"
+    updated_at: "2026-05-06T22:43:47.313Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:14.542Z"
+    updated_at: "2026-05-06T22:54:34.735Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

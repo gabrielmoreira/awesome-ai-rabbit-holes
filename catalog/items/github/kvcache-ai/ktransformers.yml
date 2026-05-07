@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kvcache-ai__ktransformers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,59 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 17120
-    forks: 1283
+    stars: 17121
+    forks: 1285
     license: Apache-2.0
     archived: false
     created_at: "2024-07-26T07:18:28Z"
-    pushed_at: "2026-05-03T13:07:33Z"
+    pushed_at: "2026-05-06T09:29:39Z"
     description: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
     homepage: https://kvcache-ai.github.io/ktransformers/
     topics: []
-    last_checked_at: "2026-05-05T21:03:13.953Z"
+    last_checked_at: "2026-05-06T22:44:52.454Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.953Z"
+      fetched_at: "2026-05-06T22:44:52.454Z"
       bytes: 9915
 insights:
-  summary: A flexible framework for efficient local LLM inference and fine-tuning that uses CPU-GPU heterogeneous computing to run large models on consumer hardware with limited VRAM.
-  why_it_matters: It allows developers to run and fine-tune massive models like DeepSeek-V3 and Kimi-K2 locally on modest GPUs by offloading experts to CPU and disk, drastically reducing hardware barriers.
-  mental_damage: Another heroic effort to convince us that 24GB of VRAM is actually enough to host the future of intelligence, provided you are comfortable with three-layer memory hierarchies and the fleeting peace of mind that comes with 'experimental' support.
+  summary: A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing.
+  why_it_matters: It enables running and fine-tuning cutting-edge models like DeepSeek-V3 and Kimi-K2 on consumer-grade hardware by drastically reducing VRAM requirements.
+  mental_damage: You now have the framework to run a 671B parameter model on your 24GB GPU, which is the perfect excuse to avoid actually writing any application code.
   tags:
     - local-ai
     - llm-inference
     - fine-tuning
-    - heterogeneous-computing
-    - cpu-gpu
+    - optimization
   confidence: high
 curation:
   status: included
-  reason: This is a local model serving stack and optimization framework designed to run LLMs on personal hardware, fitting squarely into the Local AI category.
+  reason: The project is a developer-facing toolkit designed to run LLMs locally on heterogeneous hardware (CPU-GPU), fitting the Local AI runtime profile.
   evidence:
-    - Repo description explicitly states it is a framework for 'Heterogeneous LLM Inference/Fine-tune Optimizations'.
-    - README highlights running DeepSeek-R1 on 'single (24GB VRAM)/multi gpu and 382G DRAM' and supports local backends like llamfile.
-    - Active development indicated by recent pushes (2026-05-03) and rapid Day0 support for models like DeepSeek-V4-Flash and MiniMax-M2.5.
+    - Repo description explicitly states it is a 'Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations'.
+    - README highlights specific features like decreasing VRAM requirements from 21G to 11G for DeepSeekV2 and running models on 24GB VRAM.
+    - Source list context categorizes the tool under '推理 Inference' (Inference), aligning with the local runtime identity.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
-  reason: Stars (17120) exceeded threshold (150)
+  reason: Stars (17121) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.953Z"
+    updated_at: "2026-05-06T22:44:52.454Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:40.687Z"
+    updated_at: "2026-05-06T23:08:02.907Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

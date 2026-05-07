@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaacphi__mcp-language-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) 🏎️ 🏠 - MCP Language Server helps MCP enabled clients navigate codebases more easily by giving them access to semantic tools like get definition, references, rename, and diagnostics."
         confidence: high
     - id: discovery__github__isaacphi__mcp-language-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -53,49 +53,49 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:02:46.866Z"
+    last_checked_at: "2026-05-06T22:44:26.689Z"
     readme:
-      fetched_at: "2026-05-05T21:02:46.866Z"
+      fetched_at: "2026-05-06T22:44:26.689Z"
       bytes: 10237
 insights:
-  summary: An MCP server that wraps standard language servers (like gopls, rust-analyzer, or pyright) to expose semantic code tools such as definitions, references, and diagnostics to LLMs.
-  why_it_matters: It allows MCP-enabled AI clients to understand code structure and navigate repositories with compiler-accurate intelligence rather than guessing based on text.
-  mental_damage: We have successfully abstracted the abstraction of the protocol that talks to the tool that talks to the compiler, ensuring the AI can now rename variables with the same confidence as a junior developer.
+  summary: An MCP server that exposes language server protocol (LSP) capabilities like go-to-definition, references, and diagnostics to MCP-enabled AI clients.
+  why_it_matters: It allows coding assistants to perform deep semantic code navigation and refactoring by tapping into existing language servers rather than guessing structure from raw text.
+  mental_damage: We have successfully abstracted the abstraction, so your AI can now use the same protocol your IDE uses to pretend it knows what your code actually does.
   tags:
     - mcp
+    - lsp
+    - semantic-tools
     - language-server
-    - developer-tools
-    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation that bridges language server protocols to the Model Context Protocol, fitting perfectly under MCP infrastructure.
+  reason: The product's primary identity is an MCP server that bridges language servers to MCP clients, fitting cleanly into MCP infrastructure.
   evidence:
-    - "Repo description explicitly states: 'mcp-language-server gives MCP enabled clients access semantic tools'."
-    - README confirms it is an MCP server that 'runs and exposes a language server to LLMs'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description states it 'gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.'
+    - README confirms it is 'an MCP server that runs and exposes a language server to LLMs.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (1525) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:46.866Z"
+    updated_at: "2026-05-06T22:44:26.689Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:39.328Z"
+    updated_at: "2026-05-06T23:02:40.790Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

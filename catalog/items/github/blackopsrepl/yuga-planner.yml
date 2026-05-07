@@ -1,13 +1,13 @@
 id: github__blackopsrepl__yuga-planner
 kind: github-repo
-name: Yuga Planner
+name: yuga-planner
 canonical_url: https://github.com/blackopsrepl/yuga-planner
 identity:
   github_repo: blackopsrepl/yuga-planner
 provenance:
   discoveries:
     - id: discovery__github__blackopsrepl__yuga-planner__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,27 +32,27 @@ metadata:
     description: "Gradio Agents & MCP 2025 Hackathon project: LLM + constraint solver to schedule tasks around your existing calendar. Type task description → optimal calendar schedule."
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:22.038Z"
+    last_checked_at: "2026-05-06T22:12:53.959Z"
     readme:
-      fetched_at: "2026-05-05T21:01:22.038Z"
+      fetched_at: "2026-05-06T22:12:53.959Z"
       bytes: 10880
 insights:
-  summary: A neuro-symbolic prototype that combines LLM task decomposition with constraint solving to generate optimal team schedules from project descriptions, exposed as an MCP tool.
-  why_it_matters: It demonstrates a practical pattern for combining agentic planning with deterministic solvers and exposes the result via MCP for integration into developer workflows.
-  mental_damage: We have successfully built an AI agent to solve team scheduling, which is impressive, considering we still manually copy-paste our daily standup notes into a calendar no one reads.
+  summary: A neuro-symbolic scheduling prototype that decomposes project descriptions via LLamaIndex and generates optimal employee schedules using the Timefold constraint solver, exposed as an MCP tool.
+  why_it_matters: It demonstrates a concrete pattern for combining LLM task decomposition with hard constraint optimization for team scheduling use cases.
+  mental_damage: Because what your stack really needed was a hackathon project that turns a vague prompt into a Timefold-optimized Gantt chart you can’t quite trust.
   tags:
-    - agent
-    - hackathon
     - mcp
     - scheduling
+    - hackathon
+    - neuro-symbolic
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the repository is archived and it is a niche hackathon demo for team scheduling rather than a core developer-tooling product.
+  reason: Excluded because the repository is archived and the project is a niche hackathon demo for team scheduling rather than a reusable developer tool.
   evidence:
-    - Repo is marked as archived.
-    - Description identifies it as a 'Gradio Agents & MCP 2025 Hackathon project' and a 'prototype'.
-    - Only 3 stars and listed in awesome-mcp-servers under Community Servers.
+    - "Repo is archived (archived: yes), indicating no further maintenance."
+    - Created 2025-06-09 and pitched as a 'Gradio Agents & MCP 2025 Hackathon project', showing it is a demo/experiment.
+    - Core functionality is team/employee scheduling with Timefold, not a general-purpose coding assistant or developer workflow tool.
 placement:
   primary_category: null
   section: null
@@ -60,21 +60,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:01.700Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:22.038Z"
+    updated_at: "2026-05-06T22:12:53.959Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:29.263Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

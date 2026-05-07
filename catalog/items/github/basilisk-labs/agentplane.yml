@@ -1,13 +1,13 @@
 id: github__basilisk-labs__agentplane
 kind: github-repo
-name: AgentPlane
+name: agentplane
 canonical_url: https://github.com/basilisk-labs/agentplane
 identity:
   github_repo: basilisk-labs/agentplane
 provenance:
   discoveries:
     - id: discovery__github__basilisk-labs__agentplane__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-01-27T08:03:43Z"
-    pushed_at: "2026-05-05T21:00:21Z"
+    pushed_at: "2026-05-06T17:43:21Z"
     description: The audit layer for coding agents. Open-source CLI that turns Claude Code, Codex, Cursor, and Aider into reviewable Git work.
     homepage: https://agentplane.org
     topics:
@@ -47,50 +47,50 @@ metadata:
       - developer-tools
       - mcp
       - typescript
-    last_checked_at: "2026-05-05T21:01:17.755Z"
+    last_checked_at: "2026-05-06T22:12:50.087Z"
     readme:
-      fetched_at: "2026-05-05T21:01:17.755Z"
+      fetched_at: "2026-05-06T22:12:50.087Z"
       bytes: 8796
 insights:
-  summary: An open-source CLI that creates an audit trail for coding agents like Claude Code and Cursor by recording task intent, plans, and verification as Git artifacts.
-  why_it_matters: It allows developers to review the reasoning and approval chain behind AI-generated changes, not just the final diff, by keeping workflow state inside the repository.
-  mental_damage: We have successfully invented bureaucracy for the bots, ensuring that before your AI agent can break production, it must first fill out the proper paperwork in triplicate.
+  summary: A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits.
+  why_it_matters: It gives teams an auditable workflow envelope around Claude Code, Codex, Cursor, and Aider so reviewers can reconstruct why a change was made, not just what changed.
+  mental_damage: You now have a cryptographically signed paper trail for every hallucinated refactor, which somehow makes the 4 a.m. agent spiral feel even more official.
   tags:
-    - audit
     - cli
-    - coding-agents
+    - audit
     - git
-    - reproducibility
-  confidence: medium
+    - coding-agents
+    - workflow
+  confidence: high
 curation:
   status: included
-  reason: The tool acts as a workflow envelope and audit layer specifically designed to manage and record the output of coding agents within a repo/CLI context.
+  reason: The core product is a workflow and audit layer that wraps existing coding agents rather than acting as a primary coding assistant itself.
   evidence:
-    - Repo description explicitly calls it 'The audit layer for coding agents' and a 'CLI'.
-    - README confirms it turns Claude Code, Codex, Cursor, and Aider work into 'reviewable, reversible Git artifacts'.
-    - Source list 'awesome-cli-coding-agents' categorizes it under 'Agent infrastructure'.
+    - "Repo description: 'The audit layer for coding agents... turns Claude Code, Codex, Cursor, and Aider into reviewable Git work.'"
+    - "README: 'AgentPlane is not another coding agent. It is the workflow envelope around the agent you already use.'"
+    - Source list places it under 'Harnesses & orchestration > Agent infrastructure' as a wrapper, not a standalone agent.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:19.944Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:17.755Z"
+    updated_at: "2026-05-06T22:12:50.087Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:45.797Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

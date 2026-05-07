@@ -1,12 +1,12 @@
 id: claude__ai__desktop
 kind: website
-name: Claude Desktop
+name: desktop
 canonical_url: https://claude.ai/desktop
 identity: {}
 provenance:
   discoveries:
     - id: discovery__claude__ai__desktop__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claude.ai Desktop is the official native desktop application for interacting with Anthropic's Claude AI assistant.
-  why_it_matters: It provides developers with a dedicated, native interface to leverage Claude for coding assistance, brainstorming, and technical analysis outside of a browser tab.
-  mental_damage: Another delightful reason to keep the IDE minimized while we perfect the art of copy-pasting from a chat window into a terminal.
+  summary: Claude Desktop is a downloadable macOS and Windows application that provides a dedicated chat interface for interacting with Anthropic's Claude models outside of a web browser.
+  why_it_matters: It offers developers a persistent, native environment to prototype prompts, manage long-running conversations, and interact with Claude without the session limits or interface constraints of a browser tab.
+  mental_damage: Another pristine desktop sanctuary where we can carefully architect speculative prompts while our actual IDEs gather dust in the background.
   tags:
-    - anthropic
-    - chat-interface
     - claude
     - desktop-app
+    - chat-interface
+    - local-client
   confidence: high
 curation:
   status: excluded
-  reason: While listed in an awesome list, the desktop app is a general-purpose chat client for end-users, lacking the repo-editing, IDE-integration, or code-agent behavior required for this developer-tooling catalog.
+  reason: While it is a developer-adjacent tool, it is primarily a general-purpose chat client for end-users rather than a developer-facing coding assistant, IDE, or local AI runtime.
   evidence:
-    - URL points to claude.ai/desktop, indicating a general consumer chat application rather than a developer tool.
-    - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants', but the product itself is a generic AI assistant interface.
-    - No repo description, README, or code context provided to suggest it edits code, reviews PRs, or integrates into a developer workflow.
+    - URL resolves to claude.ai/desktop, which is a consumer chat application, not a coding agent or IDE.
+    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants', but source-list placement does not override the product's primary identity as a chat app.
+    - No repo description, README, or code-level inputs provided to suggest it functions as a coding agent or developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:48.730Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:01.987Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

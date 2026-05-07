@@ -6,24 +6,8 @@ identity:
   github_repo: codegraphcontext/codegraphcontext
 provenance:
   discoveries:
-    - id: discovery__github__shashankss1205__codegraphcontext__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🤖 <a name="coding-agents"></a>Coding Agents
-        anchor_text: shashankss1205/codegraphcontext
-        extracted_url: https://github.com/shashankss1205/codegraphcontext
-        surrounding_text: "- [shashankss1205/codegraphcontext](https://github.com/Shashankss1205/CodeGraphContext) 🐍 🏠 🍎 🪟 🐧 An MCP server that indexes local code into a graph database to provide context to AI assistants with a graphical code visualizations for humans."
-        confidence: high
     - id: discovery__github__codegraphcontext__codegraphcontext__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3156
+    stars: 3170
     forks: 564
     license: MIT
     archived: false
@@ -51,50 +35,50 @@ metadata:
     topics:
       - hacktoberfest2025
       - social-winter-of-code
-    last_checked_at: "2026-05-05T21:01:37.486Z"
+    last_checked_at: "2026-05-06T22:43:24.771Z"
     readme:
-      fetched_at: "2026-05-05T21:01:37.486Z"
+      fetched_at: "2026-05-06T22:43:24.771Z"
       bytes: 19751
 insights:
-  summary: An MCP server and CLI tool that indexes local codebases into a graph database to provide structural context to AI assistants.
-  why_it_matters: It gives coding agents a queryable map of call-chains and code relationships, reducing the context-window guessing games that happen on large repositories.
-  mental_damage: We have successfully reached the point where the AI needs a graph database just to pretend it read the codebase you cloned this morning.
+  summary: An MCP server and CLI toolkit that indexes local codebases into a graph database to provide structured context and code analysis to AI assistants.
+  why_it_matters: It bridges the gap between complex codebases and AI models by turning repository structure into a queryable graph accessible via MCP-compatible tools.
+  mental_damage: Finally, your AI agent can visualize the spaghetti code you wrote three years ago as a sophisticated graph database before confidently hallucinating how it works.
   tags:
-    - cli
-    - code-analysis
-    - context-engineering
-    - graph-database
     - mcp
+    - context-engineering
+    - code-analysis
+    - graph-database
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server and CLI toolkit designed to feed structured code context to AI assistants, which aligns directly with the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server for providing code context, fitting the MCP Servers & Tooling category over a generic coding agent or framework label.
   evidence:
-    - Repo description explicitly states it is an 'MCP server plus a CLI tool that indexes local code into a graph database'.
-    - README confirms it is a 'powerful MCP server and CLI toolkit' that connects to AI IDEs via MCP.
-    - The project is active (pushed 2026-05-04) with 3,156 stars and is not archived.
+    - Repo description explicitly states it is 'An MCP server plus a CLI tool'.
+    - README emphasizes 'A powerful MCP server and CLI toolkit' and 'connect it to your favorite AI IDE via MCP'.
+    - GitHub topics and badges highlight 'MCP-Compatible' as a core feature.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3156) exceeded threshold (150)
+  reason: Stars (3170) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:44.465Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.150Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:37.486Z"
+    updated_at: "2026-05-06T22:43:24.771Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:49:53.484Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

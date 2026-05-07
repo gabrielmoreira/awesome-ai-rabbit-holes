@@ -1,13 +1,13 @@
 id: github__agentscope-ai__reme
 kind: github-repo
-name: MemoryScope
+name: reme
 canonical_url: https://github.com/agentscope-ai/reme
 identity:
   github_repo: agentscope-ai/reme
 provenance:
   discoveries:
-    - id: discovery__github__modelscope__memoryscope__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__agentscope-ai__reme__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2895
+    stars: 2901
     forks: 236
     license: Apache-2.0
     archived: false
@@ -38,57 +38,50 @@ metadata:
       - memoryscope
       - rag
       - reme
-    last_checked_at: "2026-05-05T21:03:46.021Z"
+    last_checked_at: "2026-05-06T22:12:28.027Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.021Z"
+      fetched_at: "2026-05-06T22:12:28.026Z"
       bytes: 32021
 insights:
-  summary: ReMe is a Python memory management framework for AI agents that provides file-based and vector-based systems to handle long-term context retention and stateful sessions.
-  why_it_matters: It allows developers building coding assistants or agentic workflows to persist code style preferences and project context across stateless sessions without hitting context window limits.
-  mental_damage: We have finally solved the paradox of remembering everything by building a dedicated memory toolkit, ensuring our agents never forget the technical debt they helped create.
+  summary: ReMe is a Python memory management framework for AI agents that provides file-based and vector-based systems to persist context, compress long conversations, and recall relevant information across sessions.
+  why_it_matters: It solves the stateless-session and context-window limits that break long-running coding assistants by giving agents persistent, searchable memory.
+  mental_damage: Because nothing says 'the future of autonomous engineering' like bolting an external hippocampus onto your agent so it can pretend it remembers what you asked three prompts ago.
   tags:
-    - agent-infrastructure
+    - memory
     - agents
     - context
-    - context-window
-    - infrastructure
-    - memory
-    - memory-management
-    - python-sdk
-    - sdk
+    - python
+    - rag
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first SDK and building block for developers to integrate memory capabilities into their own AI agents, fitting the AI Frameworks category.
+  reason: The core novelty is a memory and context management system for agents, which clearly maps to Prompt & Context Engineering rather than a coding agent or extension.
   evidence:
-    - Repo description explicitly defines it as a 'Memory Management Kit for Agents'.
-    - README states ReMe is a 'memory management framework' available as a Python package (PyPI badge present).
-    - "Use cases include 'Coding assistant: Record code style preferences and project context' via importable libraries."
-    - "Repo description: 'ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.'"
-    - "README: 'ReMe is a memory management framework designed for AI agents, providing both file-based and vector-based memory systems.'"
-    - Topics include agent, ai-agents, memory, rag and it is distributed as a PyPI package (reme-ai).
+    - "Repo description: 'Memory Management Kit for Agents - Remember Me, Refine Me.'"
+    - "README: 'core problems of agent memory: limited context window and stateless sessions... ReMe gives agents real memory.'"
+    - Topics include memory, rag, and agent, and it is a PyPI package (reme-ai), fitting a code-first infrastructure role.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2895) exceeded threshold (150)
+  reason: Stars (2901) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:53.666Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.021Z"
+    updated_at: "2026-05-06T22:12:28.027Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:15.398Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__jinjieni__mixeval
 kind: github-repo
-name: MixEval
+name: mixeval
 canonical_url: https://github.com/jinjieni/mixeval
 identity:
   github_repo: jinjieni/mixeval
 provenance:
   discoveries:
-    - id: discovery__github__psycoy__mixeval__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__jinjieni__mixeval__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -46,49 +46,50 @@ metadata:
       - llm-evaluation-framework
       - llm-inference
       - mixeval
-    last_checked_at: "2026-05-05T21:02:55.877Z"
+    last_checked_at: "2026-05-06T22:44:34.998Z"
     readme:
-      fetched_at: "2026-05-05T21:02:55.877Z"
+      fetched_at: "2026-05-06T22:44:34.998Z"
       bytes: 14970
 insights:
-  summary: MixEval is a dynamic LLM evaluation suite and benchmark framework that correlates highly with Chatbot Arena rankings while running locally with significantly lower cost and time.
-  why_it_matters: It gives developers a fast, cost-effective way to rigorously evaluate and compare foundation models without relying on expensive, slow human-preference pipelines.
-  mental_damage: "Just what we needed: another perfectly correlated benchmark to help us feel productive while debating whether our models are actually getting better or just better at taking tests."
+  summary: MixEval is a click-and-go LLM evaluation suite and dynamic benchmark that measures model performance against Chatbot Arena rankings while running locally at a fraction of the cost.
+  why_it_matters: Developers can benchmark their own local or proprietary models against a ground-truth dataset that correlates 0.96 with Chatbot Arena, without spending thousands on crowdsourced evaluations.
+  mental_damage: We have built an entire sub-industry dedicated to measuring how good our measuring tools are, and now we need a benchmark to tell us which benchmark to trust.
   tags:
-    - arena-alternative
+    - llm-evaluation
     - benchmark
-    - llm-eval
-    - model-evaluation
+    - model-comparison
+    - local-eval
+    - neurips
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing evaluation framework and benchmark suite for measuring LLM behavior, which cleanly fits the evals category.
+  reason: The core job of this repository is measuring and scoring LLM behavior through benchmarking and evaluation suites, which fits squarely into the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly states it is 'the official evaluation suite and dynamic data release for MixEval'.
-    - README claims 0.96 correlation with Chatbot Arena while running at 6% the time and cost of traditional benchmarks.
-    - Topics and README confirm it supports both open-source and proprietary models with a click-and-go evaluation suite.
+    - Repo description explicitly states 'evaluation suite and dynamic data release for MixEval'
+    - README positions it as a 'click-and-go LLM Evaluation Suite' with model response generation and score computation
+    - Listed in awesome-LLM-resources under the '评估 Evaluation' section
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (256) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:32.388Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:55.877Z"
+    updated_at: "2026-05-06T22:44:34.998Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:24.369Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

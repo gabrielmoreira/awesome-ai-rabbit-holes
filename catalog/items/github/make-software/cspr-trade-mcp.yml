@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__make-software__cspr-trade-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:27.768Z"
+    last_checked_at: "2026-05-06T22:45:06.902Z"
     readme:
-      fetched_at: "2026-05-05T21:03:27.768Z"
+      fetched_at: "2026-05-06T22:45:06.902Z"
       bytes: 3861
 insights:
-  summary: An MCP server that exposes 24 tools for trading, market data, and portfolio tracking on the Casper Network DEX CSPR.trade to AI agents.
-  why_it_matters: It turns a blockchain DEX into a programmable surface so agents can quote swaps, analyze liquidity, and track portfolios without custom API glue code.
-  mental_damage: You now have a non-custodial AI agent that can estimate your impermanent loss in real time, which is either a productivity hack or a very efficient way to automate poor life choices.
+  summary: An MCP server that exposes 24 tools for market data, swaps, liquidity management, and portfolio tracking on the Casper Network DEX, CSPR.trade.
+  why_it_matters: Developers building AI agents for crypto trading can connect any MCP client to a hosted endpoint and immediately query DEX data or build transactions without writing Casper-specific glue code.
+  mental_damage: We now have a dedicated MCP server, a TypeScript SDK, and an OpenClaw skill pack for a DEX on a blockchain most developers would struggle to name, because why should the Casper Network be left out of the agentic integration gold rush.
   tags:
     - mcp
-    - casper
+    - crypto
     - dex
-    - blockchain
-    - finance
+    - casper
+    - trading
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server providing DEX tooling to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server with a hosted endpoint and npm packages that expose Casper Network DEX tools, making MCP the core product identity rather than a compatibility footnote.
   evidence:
-    - README explicitly states 'AI agent integration for CSPR.trade' via MCP with 24 public tools.
-    - Includes MCP endpoint and config instructions for Claude Desktop, Cursor, and other MCP clients.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP-native purpose.
+    - README explicitly brands it as 'CSPR.trade MCP' with a hosted MCP endpoint at https://mcp.cspr.trade/mcp.
+    - Includes 24 MCP tools for trading, market data, and portfolio tracking, plus an optional local signer mode.
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as a domain-specific MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:27.768Z"
+    updated_at: "2026-05-06T22:45:06.902Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:19.963Z"
+    updated_at: "2026-05-06T23:11:22.395Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__pezzolabs__pezzo
 kind: github-repo
-name: Pezzo 🕹️
+name: pezzo
 canonical_url: https://github.com/pezzolabs/pezzo
 identity:
   github_repo: pezzolabs/pezzo
 provenance:
   discoveries:
     - id: discovery__github__pezzolabs__pezzo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,21 +20,6 @@ provenance:
         anchor_text: Pezzo 🕹️
         extracted_url: https://github.com/pezzolabs/pezzo
         surrounding_text: "| [Pezzo 🕹️](https://github.com/pezzolabs/pezzo)                     | Pezzo is the open-source LLMOps platform built for developers and teams. In just two lines of code, you can seamlessly troubleshoot your AI operations, collaborate and manage your prompts in one place, and instantly deploy changes to any environment.                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/pezzolabs/pezzo.svg?style=flat-square)                |"
-        confidence: high
-    - id: discovery__www__pezzo__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Pezzo
-        anchor_text: Pezzo
-        extracted_url: https://www.pezzo.ai
-        surrounding_text: "## [Pezzo](https://www.pezzo.ai/)"
         confidence: high
 metadata:
   github:
@@ -67,53 +52,50 @@ metadata:
       - prompt-management
       - python
       - typescript
-    last_checked_at: "2026-05-05T21:04:15.384Z"
+    last_checked_at: "2026-05-06T22:45:51.133Z"
     readme:
-      fetched_at: "2026-05-05T21:04:15.384Z"
+      fetched_at: "2026-05-06T22:45:51.133Z"
       bytes: 6079
 insights:
-  summary: Pezzo is an open-source LLMOps platform for managing prompts, versioning, and monitoring AI operations with Node.js, Python, and LangChain clients.
-  why_it_matters: It gives developers a centralized console to version prompts, observe LLM calls, and cut costs with caching instead of scattering prompt strings across application code.
-  mental_damage: Yet another pristine dashboard promising to wrangle your prompts, as if debugging a 400-line system prompt wasn't already the new printf-debugging.
+  summary: Pezzo is an open-source LLMOps platform for managing prompts, monitoring AI operations, and tracking costs across Node.js, Python, and LangChain clients.
+  why_it_matters: It gives developers a centralized control plane to version prompts, observe LLM calls, and cut costs without wiring custom instrumentation into every app.
+  mental_damage: Yet another platform promising to solve the chaos of your prompt strings, as if the real problem was version control and not the fact that your carefully tuned system message breaks on the next model update.
   tags:
-    - agent-management
     - llmops
+    - prompt-management
     - observability
     - open-source
-    - prompt-management
-    - prompt-ops
+    - platform
   confidence: high
 curation:
   status: included
-  reason: Pezzo is a prompt-management and observability platform that fits cleanly under context engineering and LLMOps for developers rather than app building or coding agents.
+  reason: The core job is prompt management, versioning, and delivery rather than coding assistance, making Prompt & Context Engineering the best fit.
   evidence:
-    - Repo description explicitly calls it an 'LLMOps platform designed to streamline prompt design, version management, [and] observability'.
-    - README claims prompt management, observability, and caching across Node.js, Python, and LangChain clients.
-    - Listed in Awesome-LLMOps under the LLMOps section, aligning with prompt and context infrastructure.
-    - Listed in the awesome-ai-agents directory under 'Pezzo'
-    - Homepage describes the product as a platform for managing AI prompts and agents
+    - Repo description explicitly calls it an LLMOps platform for 'prompt design, version management, instant delivery'.
+    - README highlights prompt management, observability, and caching as primary features across Node, Python, and LangChain clients.
+    - Listed in Awesome-LLMOps under an LLMOps section, not as a coding agent or framework.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: context-engineering
+  section: PromptOps / Prompt Management
 lifecycle:
   status: promotion_candidate
   reason: Stars (3233) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:49.955Z"
-    cause: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:15.384Z"
+    updated_at: "2026-05-06T22:45:51.133Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:21:33.233Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

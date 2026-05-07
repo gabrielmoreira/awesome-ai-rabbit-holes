@@ -1,13 +1,13 @@
 id: github__mintplex-labs__anything-llm
 kind: github-repo
-name: Anything LLM
+name: anything-llm
 canonical_url: https://github.com/mintplex-labs/anything-llm
 identity:
   github_repo: mintplex-labs/anything-llm
 provenance:
   discoveries:
     - id: discovery__github__mintplex-labs__anything-llm__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Anything LLM](https://github.com/Mintplex-Labs/anything-llm): A full-stack application that turns any documents into an intelligent chatbot with a sleek UI and easier way to manage your workspaces. ![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)"
         confidence: high
     - id: discovery__github__mintplex-labs__anything-llm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 59551
-    forks: 6436
+    stars: 59620
+    forks: 6441
     license: MIT
     archived: false
     created_at: "2023-06-04T02:29:14Z"
-    pushed_at: "2026-05-04T18:18:49Z"
+    pushed_at: "2026-05-06T19:19:39Z"
     description: The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.
     homepage: https://anythingllm.com
     topics:
@@ -67,50 +67,50 @@ metadata:
       - rag
       - vector-database
       - web-scraping
-    last_checked_at: "2026-05-05T21:03:42.622Z"
+    last_checked_at: "2026-05-06T22:45:20.779Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.622Z"
+      fetched_at: "2026-05-06T22:45:20.779Z"
       bytes: 24506
 insights:
-  summary: An all-in-one desktop and self-hosted application for chatting with documents, running local LLMs, and automating workflows using built-in AI agents and RAG pipelines.
-  why_it_matters: It gives developers a privacy-first, locally runnable workspace to prototype RAG systems and agentic workflows without wiring together disparate libraries and vector databases.
-  mental_damage: Yet another 'all-in-one' AI wrapper that promises to solve the local LLM setup struggle, proving that in 2024, the hottest infrastructure play is a desktop app bundling everyone else's models.
+  summary: AnythingLLM is a self-hosted, privacy-focused desktop and server application that lets developers chat with local or cloud LLMs over their own documents using built-in RAG pipelines, vector databases, and configurable AI agents.
+  why_it_matters: It gives developers a private, all-in-one local workspace for document-grounded chat and lightweight agent workflows without wiring together separate LLM, embedding, and vector stores.
+  mental_damage: Yet another miracle app promising to be your private ChatGPT, assuming you have miraculously solved the local model, RAM, and prompt-wrangling treadmill already.
   tags:
-    - agents
-    - desktop-app
-    - local-llm
-    - privacy
+    - local-ai
     - rag
+    - llm
+    - self-hosted
+    - agents
   confidence: high
 curation:
   status: included
-  reason: The project is a local-first desktop and self-hosted interface for running LLMs, RAG, and agents on your own hardware, fitting the local-ai category better than a coding-agent or app-builder label.
+  reason: The product’s core identity is a local-first desktop and self-hosted chat interface for private LLM workflows, which aligns directly with the Local AI category and its Desktop Chat / Interfaces section.
   evidence:
-    - Repo description explicitly states 'On device and privacy first with no annoying setup or configuration.'
-    - "README highlights: 'Chat with your docs... runs locally by default with zero setup friction' and supports local models like Ollama/LocalAI."
-    - Topics include local-llm, ollama, localai, and rag, with 59k+ stars showing strong ecosystem traction.
+    - "Repo description: 'The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.'"
+    - "README: 'Chat with your docs. Automate complex workflows with AI Agents. Hyper-configurable, multi-user ready, battle-tested—and runs locally by default with zero setup friction.'"
+    - Topics include local-llm, ollama, rag, vector-database, and mcp, reinforcing the local/private execution identity.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (59551) exceeded threshold (150)
+  reason: Stars (59620) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:17.676Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.622Z"
+    updated_at: "2026-05-06T22:45:20.779Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:39.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

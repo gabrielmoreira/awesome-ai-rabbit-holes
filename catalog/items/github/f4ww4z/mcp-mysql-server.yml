@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__f4ww4z__mcp-mysql-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server) 📇 🏠 - Node.js-based MySQL database integration that provides secure MySQL database operations"
         confidence: high
     - id: discovery__github__f4ww4z__mcp-mysql-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,49 @@ metadata:
     description: A Model Context Protocol server for MySQL database operations
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:07.193Z"
+    last_checked_at: "2026-05-06T22:43:50.253Z"
     readme:
-      fetched_at: "2026-05-05T21:02:07.193Z"
+      fetched_at: "2026-05-06T22:43:50.253Z"
       bytes: 4367
 insights:
-  summary: A Model Context Protocol server that exposes MySQL database operations to AI models and agents through a standardized interface.
-  why_it_matters: It allows coding agents and AI assistants to directly query, modify, and inspect MySQL databases without custom glue code or fragile SQL generation wrappers.
-  mental_damage: Yet another MCP server appears in the night, promising your agent will finally understand your schema, though it will still probably drop the users table at 4 PM on a Friday.
+  summary: A Model Context Protocol server that exposes MySQL database operations, enabling AI models and MCP-compatible clients to connect, query, and manage MySQL databases through a standardized interface.
+  why_it_matters: It allows coding agents and MCP-enabled tools to directly inspect schemas, run queries, and manipulate data without the developer wiring up custom database integrations.
+  mental_damage: We have successfully abstracted the ancient art of writing SQL into a protocol handshake, so your AI can now hallucinate your schema with official middleware support.
   tags:
     - mcp
-    - mysql
     - database
+    - mysql
     - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for MySQL, cleanly fitting the MCP Servers and Tooling category.
+  reason: The product is an MCP server implementation for MySQL, which fits cleanly as domain-specific infrastructure for the Model Context Protocol.
   evidence:
-    - "Repo description explicitly states: 'A Model Context Protocol server for MySQL database operations'"
-    - README documents MCP tools like connect_db, query, execute, list_tables, and describe_table
-    - Included in awesome-mcp-list and awesome-mcp-servers under Databases sections
+    - "Repo description states: 'A Model Context Protocol server for MySQL database operations.'"
+    - README documents MCP tools (connect_db, query, execute, list_tables, describe_table) and configuration for Claude Desktop and Codex.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (157) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:07.193Z"
+    updated_at: "2026-05-06T22:43:50.253Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:55.502Z"
+    updated_at: "2026-05-06T22:55:17.284Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

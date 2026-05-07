@@ -1,13 +1,13 @@
 id: github__opencx-labs__openchat
 kind: github-repo
-name: OpenChat
+name: openchat
 canonical_url: https://github.com/opencx-labs/openchat
 identity:
   github_repo: opencx-labs/openchat
 provenance:
   discoveries:
-    - id: discovery__github__openchatai__openchat__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__opencx-labs__openchat__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,32 +33,28 @@ metadata:
     description: LLMs custom-chatbots console ⚡
     homepage: https://open.cx
     topics: []
-    last_checked_at: "2026-05-05T21:04:05.319Z"
+    last_checked_at: "2026-05-06T22:45:42.045Z"
     readme:
-      fetched_at: "2026-05-05T21:04:05.319Z"
+      fetched_at: "2026-05-06T22:45:42.045Z"
       bytes: 11047
 insights:
-  summary: OpenChat is an archived, self-hosted chatbot console for creating customized GPT-powered chatbots with support for ingesting codebases, PDFs, and websites as data sources.
-  why_it_matters: It offered developers a local hub to build and embed RAG-based chatbots using their own code and documentation as context before the ecosystem standardized on newer stacks.
-  mental_damage: Just when you finished wrapping your head around LangChain, you discover the 'central hub' you deployed six months ago is now a digital ghost town in a GitHub archive.
+  summary: An archived, LangChain-based chatbot console for creating and managing multiple custom GPT chatbots with embedded memory and codebase ingestion.
+  why_it_matters: It offered developers a way to spin up specialized chatbots using their own data sources—including entire codebases—before the RAG ecosystem matured.
+  mental_damage: We built a chatbot to manage our chatbots, back when 'ingesting a 400-page PDF' felt like the cutting edge of local AI achievement.
   tags:
     - chatbot
-    - gpt
     - langchain
-    - llm
-    - local-ai
     - rag
+    - local-ai
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and the project appears to be abandoned, making it unsuitable for a curated catalog of active developer tooling.
+  reason: The project is archived and positioned as an end-user chatbot console rather than a developer-facing coding tool, failing the active utility threshold for this catalog.
   evidence:
-    - "Repo status is explicitly 'archived: yes'."
-    - Last push was in February 2024, with no signs of active maintenance since.
-    - Appears in awesome-langchain as a chatbot project, but the core product is a user-facing chatbot console rather than a deep developer workflow integration.
-    - Repo is marked as archived, indicating it is no longer actively maintained.
-    - README describes it as an 'everyday user chatbot console' focused on managing custom GPT chatbots, not a developer IDE or coding agent.
-    - Primary features center on consumer RAG use cases (PDFs, websites) and website widgets rather than repo-editing workflows.
+    - Repo is marked as archived, indicating it is no longer maintained.
+    - Description and README pitch it as an 'everyday user chatbot console' rather than a developer tooling surface.
+    - Roadmap and features focus on website widgets, Slack/Intercom integration, and PDF ingestion rather than coding workflows.
 placement:
   primary_category: null
   section: null
@@ -66,21 +62,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:40.011Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:05.319Z"
+    updated_at: "2026-05-06T22:45:42.045Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:30.678Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__centralmind__gateway__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [centralmind/gateway](https://github.com/centralmind/gateway) 🏎️ 🏠 🍎 🪟 - MCP and MCP SSE Server that automatically generate API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase"
         confidence: high
     - id: discovery__github__centralmind__gateway__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -66,50 +66,50 @@ metadata:
       - rest-api
       - snowflake
       - supabase
-    last_checked_at: "2026-05-05T21:01:31.259Z"
+    last_checked_at: "2026-05-06T22:43:18.566Z"
     readme:
-      fetched_at: "2026-05-05T21:01:31.259Z"
+      fetched_at: "2026-05-06T22:43:18.566Z"
       bytes: 12283
 insights:
-  summary: A self-hosted gateway that automatically generates and exposes secure, LLM-optimized REST or MCP APIs directly from your database schema.
-  why_it_matters: It lets developers instantly give AI agents structured, compliant, and auditable access to live database data without writing a custom API.
-  mental_damage: We have successfully abstracted the job of writing a CRUD API into 'run a docker container and pray the LLM guesses the schema correctly'.
+  summary: A self-hosted gateway that automatically generates LLM-optimized REST or MCP server APIs from database schemas including PostgreSQL, MySQL, Snowflake, and BigQuery.
+  why_it_matters: It lets developers instantly give AI agents secure, auditable, and PII-safe access to structured data without hand-crafting database APIs.
+  mental_damage: Yet another clever layer promising to finally tame the 'AI agent connects to production database' horror story, conveniently ignoring that we already had three such layers before lunch.
   tags:
     - mcp
     - database
-    - api-generation
     - self-hosted
-    - golang
+    - api-generation
+    - security
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation that connects AI agents to databases, fitting perfectly into the MCP infrastructure category.
+  reason: The product's core identity is an MCP server for databases, explicitly optimized for LLMs and AI agents, matching the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'Universal MCP-Server for your Databases optimized for LLMs and AI-Agents'.
-    - README confirms it generates APIs as an MCP Server including SSE mode for AI agents.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+    - "Repo description states: 'Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.'"
+    - README emphasizes exposing databases to AI agents via MCP or OpenAPI 3.1 protocols.
+    - Listed in awesome-mcp-servers under 'Databases' and 'Frameworks' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (528) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:31.259Z"
+    updated_at: "2026-05-06T22:43:18.566Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:38.411Z"
+    updated_at: "2026-05-06T22:48:23.229Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

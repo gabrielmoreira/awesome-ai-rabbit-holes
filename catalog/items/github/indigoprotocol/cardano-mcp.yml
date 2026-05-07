@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__indigoprotocol__cardano-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: Cardano MCP server for handling wallet interactions
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:42.652Z"
+    last_checked_at: "2026-05-06T22:44:22.956Z"
     readme:
-      fetched_at: "2026-05-05T21:02:42.652Z"
+      fetched_at: "2026-05-06T22:44:22.956Z"
       bytes: 12162
 insights:
-  summary: An MCP server that enables AI agents and automation systems to interact with the Cardano blockchain for wallet operations and transaction handling.
-  why_it_matters: It allows developers to integrate Cardano wallet actions—like checking balances, resolving ADAHandles, and submitting transactions—directly into LLM-driven workflows via Claude Desktop, Cursor, or Windsurf.
-  mental_damage: Now your AI agent can lose your crypto with the same confidence it applies to losing your production credentials.
+  summary: An MCP server that exposes Cardano blockchain wallet interactions as tools for AI agents and automation systems.
+  why_it_matters: Developers building AI agents can delegate on-chain tasks like submitting transactions, checking balances, and managing UTxOs without writing custom blockchain integration code.
+  mental_damage: You can now instruct your coding agent to drain your own wallet with the same casual confidence it uses to delete your node_modules.
   tags:
     - mcp
     - cardano
     - blockchain
-    - wallet
-    - defi
+    - wallet-tools
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated Model Context Protocol server for Cardano wallet interactions, fitting squarely into the MCP infrastructure category.
+  reason: "MCP is the product identity: it is explicitly built and distributed as an MCP server to give agents wallet access to the Cardano blockchain."
   evidence:
-    - "Repo description explicitly states: 'Cardano MCP server for handling wallet interactions'"
-    - README confirms it is an 'MCP server for interacting with the Cardano blockchain from AI agents via the Model Context Protocol'
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation
+    - Repo description states 'Cardano MCP server for handling wallet interactions'.
+    - README excerpt says 'MCP server for interacting with the Cardano blockchain from AI agents... via the Model Context Protocol'.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:42.652Z"
+    updated_at: "2026-05-06T22:44:22.956Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:48.180Z"
+    updated_at: "2026-05-06T23:01:56.788Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

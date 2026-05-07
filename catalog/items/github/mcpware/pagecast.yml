@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcpware__pagecast__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - screencast
       - typescript
       - video
-    last_checked_at: "2026-05-05T21:03:33.637Z"
+    last_checked_at: "2026-05-06T22:45:12.188Z"
     readme:
-      fetched_at: "2026-05-05T21:03:33.637Z"
+      fetched_at: "2026-05-06T22:45:12.188Z"
       bytes: 9494
 insights:
-  summary: An MCP server that uses Playwright and ffmpeg to record browser interactions as GIFs or MP4s, enabling AI agents to automatically generate polished product demos.
-  why_it_matters: It allows developers to automate the creation of README demos and UI walkthroughs by letting an AI agent interact with a live browser and export optimized recordings.
-  mental_damage: We have successfully automated the creation of demo GIFs so that AI can show off the apps that AI helped us build, completing the loop of algorithmic vanity.
+  summary: An MCP server that uses Playwright and ffmpeg to record browser interactions as polished GIFs or videos with auto-zoom and cinematic effects for product demos.
+  why_it_matters: It lets developers delegate README demo creation to their AI coding assistant, automatically generating updated screen captures when UIs change without manual screen recording or video editing.
+  mental_damage: We have finally reached the point where the AI records its own demo of the app it just broke, so you can watch the failure in cinematic pan mode.
   tags:
     - mcp
+    - browser-recording
+    - demo-automation
     - playwright
-    - demo-recording
-    - browser-automation
-    - ffmpeg
+    - screen-capture
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server that extends AI agent capabilities with browser recording tools, fitting the MCP infrastructure category.
+  reason: The product is an MCP server that gives coding assistants browser recording capabilities, making MCP its core identity rather than a secondary compatibility feature.
   evidence:
-    - Repo description states it is 'Record any browser page as GIF or video via MCP'.
-    - README confirms it is installed as an MCP server for Claude Code ('claude mcp add pagecast').
-    - Listed in awesome-mcp-servers under 'Developer Tools' section.
+    - Repo description explicitly states 'Record any browser page as GIF or video via MCP — powered by Playwright + ffmpeg'
+    - README shows installation via 'claude mcp add pagecast' and documents MCP tool calls like record_page and smart_export
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with its MCP-first identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:33.637Z"
+    updated_at: "2026-05-06T22:45:12.188Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:30.065Z"
+    updated_at: "2026-05-06T23:12:43.617Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

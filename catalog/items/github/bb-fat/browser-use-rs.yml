@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bb-fat__browser-use-rs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,50 +35,50 @@ metadata:
     topics:
       - browser-use
       - mcp
-    last_checked_at: "2026-05-05T21:01:18.078Z"
+    last_checked_at: "2026-05-06T22:12:50.331Z"
     readme:
-      fetched_at: "2026-05-05T21:01:18.078Z"
+      fetched_at: "2026-05-06T22:12:50.331Z"
       bytes: 1484
 insights:
-  summary: A lightweight Rust library for browser automation via the Chrome DevTools Protocol with a built-in MCP server for AI-driven automation.
-  why_it_matters: It offers developers a zero-dependency, fast way to wire browser control directly into AI workflows via the Model Context Protocol.
-  mental_damage: Finally, a way to let your Rust-compiled agent nervously click buttons in Chrome while you explain to your team why the automation stack now needs a systems language.
+  summary: A lightweight Rust library for browser automation via Chrome DevTools Protocol that includes a built-in MCP server for AI-driven automation workflows.
+  why_it_matters: It gives developers a zero-dependency, native way to wire browser control into MCP-compatible coding agents without dragging in Node.js or heavy browser frameworks.
+  mental_damage: Yet another wheel reinvented in Rust because someone refused to trust the Node.js ecosystem, now neatly packaged for agents that don't actually know how to use it yet.
   tags:
     - rust
     - browser-automation
     - mcp
     - cdp
-    - ai-integration
+    - library
   confidence: medium
 curation:
   status: included
-  reason: The project is a developer-facing library whose primary contribution is a built-in MCP server for browser automation, making it a clear fit for MCP infrastructure.
+  reason: The product’s primary identity is a browser automation library whose main developer-facing value is its built-in MCP server for AI-driven workflows, fitting cleanly as an MCP domain server.
   evidence:
-    - Repo description explicitly states it is a Rust library with built-in AI integration through Model Context Protocol (MCP).
-    - README highlights include 'MCP Integration - Built-in Model Context Protocol server for AI-driven automation'.
-    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+    - Repo description explicitly calls it a Rust library with 'built-in AI integration through Model Context Protocol (MCP)'
+    - README highlights 'MCP Integration - Built-in Model Context Protocol server for AI-driven automation' as a core feature
+    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:18.078Z"
+    updated_at: "2026-05-06T22:12:50.331Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:23.534Z"
+    updated_at: "2026-05-06T22:23:46.040Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

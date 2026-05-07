@@ -1,13 +1,13 @@
 id: github__microsoft__ufo
 kind: github-repo
-name: UFO
+name: ufo
 canonical_url: https://github.com/microsoft/ufo
 identity:
   github_repo: microsoft/ufo
 provenance:
   discoveries:
     - id: discovery__github__microsoft__ufo__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8536
+    stars: 8550
     forks: 1016
     license: MIT
     archived: false
@@ -38,50 +38,50 @@ metadata:
       - gui
       - llm
       - windows
-    last_checked_at: "2026-05-05T21:03:39.766Z"
+    last_checked_at: "2026-05-06T22:45:17.955Z"
     readme:
-      fetched_at: "2026-05-05T21:03:39.766Z"
+      fetched_at: "2026-05-06T22:45:17.955Z"
       bytes: 25432
 insights:
-  summary: UFO³ is a Microsoft framework for orchestrating multi-device AI agents that decompose complex workflows into asynchronous DAG-based task graphs, with a stable Windows desktop automation agent (UFO²) serving as one of the device targets.
-  why_it_matters: It provides developers with a structured way to build and run cross-platform automation workflows that coordinate GUI and API actions across multiple devices using LLM-driven agents.
-  mental_damage: Just when you thought your automation stack was complicated enough, Microsoft has gifted you a constellation of agents that require their own galaxy-scale DAG to click a button on Windows.
+  summary: UFO³ is a Microsoft research project that provides a multi-device agent orchestration platform (Galaxy) and a Windows desktop agent (UFO²) for automating GUI and API tasks across heterogeneous platforms.
+  why_it_matters: It offers developers a structured way to decompose complex workflows into DAG-based tasks that run across multiple devices, bridging desktop automation with modern LLM orchestration.
+  mental_damage: Just when you thought 'agentic workflows' meant a Claude Code session, Microsoft releases a framework to weave an entire galaxy of agents so you can automate your Windows UI while questioning the heat death of your career.
   tags:
     - agent-orchestration
-    - dag
-    - microsoft
+    - gui-automation
     - multi-device
-    - windows-automation
+    - microsoft
+    - dag
   confidence: high
 curation:
   status: included
-  reason: This is a user-facing platform for coordinating multiple AI agents across devices with DAG-based task orchestration, fitting the agent-orchestration category rather than a coding agent that edits source code.
+  reason: The core product identity is a control plane (UFO³ Galaxy) for coordinating multiple agents and tasks across devices using DAG-based orchestration, fitting the 'operated workbench/platform' definition better than a single coding agent.
   evidence:
-    - "README describes 'Constellation: Task decomposition into executable DAGs' and 'Unified AIP protocol for secure agent communication' for cross-device workflows."
-    - UFO² is explicitly a 'Desktop AgentOS' for Windows automation, and UFO³ orchestrates these as device agents in a multi-device galaxy.
-    - Listed in awesome-ai-agents source list under a dedicated UFO section, confirming its recognition in the agent ecosystem.
+    - README explicitly positions UFO³ as a 'Multi-Device Agent Galaxy' with 'DAG-based task orchestration' and 'constellation' coordination logic.
+    - UFO² is described as a 'Desktop AgentOS' that 'can serve as Galaxy device agent', reinforcing the platform-over-agent identity.
+    - Created Jan 2024 with active pushes as of April 2026 (8.5k stars), showing it is an active, distinct ecosystem play rather than a simple coding assistant.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8536) exceeded threshold (150)
+  reason: Stars (8550) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:43.625Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:39.766Z"
+    updated_at: "2026-05-06T22:45:17.955Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:56.534Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

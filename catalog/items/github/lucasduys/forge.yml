@@ -1,13 +1,13 @@
 id: github__lucasduys__forge
 kind: github-repo
-name: Forge
+name: forge
 canonical_url: https://github.com/lucasduys/forge
 identity:
   github_repo: lucasduys/forge
 provenance:
   discoveries:
     - id: discovery__github__lucasduys__forge__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -51,50 +51,50 @@ metadata:
       - mcp
       - model-context-protocol
       - workflow-automation
-    last_checked_at: "2026-05-05T21:03:25.313Z"
+    last_checked_at: "2026-05-06T22:45:04.477Z"
     readme:
-      fetched_at: "2026-05-05T21:03:25.313Z"
+      fetched_at: "2026-05-06T22:45:04.477Z"
       bytes: 15355
 insights:
-  summary: A native Claude Code plugin that runs a five-phase autonomous loop to turn a one-line idea into tested, reviewed, and committed code inside a repository.
-  why_it_matters: It offloads the state-management and context-tracking burden from the developer to a disk-persisted pipeline that handles spec generation, TDD execution in git worktrees, and verification.
-  mental_damage: You can finally stop acting as the human context-window babysitter and just show up in the morning to review diffs like a proper 2019-era manager.
+  summary: A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code via a five-phase autonomous loop with on-disk state recovery.
+  why_it_matters: It removes the developer from the fragile prompt-and-review loop by autonomously handling spec generation, task planning, TDD execution in git worktrees, and verification against acceptance criteria.
+  mental_damage: You can finally stop heroically babysitting a context window like a project manager, only to be replaced by a plugin that does the babysitting for you.
   tags:
-    - autonomous
     - claude-code
     - plugin
+    - autonomous
     - tdd
-    - workflow-automation
+    - cli
   confidence: high
 curation:
   status: included
-  reason: It is a CLI-based coding agent plugin for Claude Code that directly plans, writes, tests, reviews, and commits code inside a developer's repo workflow.
+  reason: The product is explicitly a native Claude Code plugin that augments the assistant with autonomous workflow capabilities, making it an extension rather than the primary coding assistant.
   evidence:
-    - Repo description states it is 'The brainstorm-to-commit pipeline for Claude Code'.
-    - README describes a five-phase autonomous loop that executes tasks in parallel git worktrees with TDD and commits atomically.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+    - "README states: 'A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code'"
+    - Topics include 'claude-code-plugin', confirming its identity as an extension of Claude Code
+    - Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Orchestrators & autonomous loops', but primary product identity as a plugin overrides this
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:51.697Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:25.313Z"
+    updated_at: "2026-05-06T22:45:04.477Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:10:46.037Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

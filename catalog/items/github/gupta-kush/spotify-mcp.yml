@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gupta-kush__spotify-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - python
       - spotify
       - spotify-api
-    last_checked_at: "2026-05-05T21:02:29.145Z"
+    last_checked_at: "2026-05-06T22:44:09.600Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.145Z"
+      fetched_at: "2026-05-06T22:44:09.600Z"
       bytes: 17443
 insights:
-  summary: An MCP server that exposes 100+ Spotify tools for playback, playlist management, music discovery, and vibe analysis to Claude, Cursor, and other MCP clients.
-  why_it_matters: It lets developers wire deep Spotify automation and music intelligence into their AI workflows without wrestling with raw Web API calls or auth flows.
-  mental_damage: We now have a hundred-tool server for shuffling James Taylor deep cuts so your coding agent can optimize your listening vibes while you debug a mutex.
+  summary: An MCP server providing 100+ tools for controlling Spotify playback, playlists, and music discovery from Claude, Cursor, and other MCP clients.
+  why_it_matters: Developers can integrate music control and library analysis directly into their AI-assisted workflows without leaving the editor or CLI.
+  mental_damage: We have reached the point where an AI agent can map an artist's entire network and analyze your 'vibe' before you've even finished writing the code you're supposed to be focusing on.
   tags:
     - mcp
     - spotify
     - music
-    - fastmcp
+    - integration
     - python
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server with 100+ tools and explicit client integrations, which fits the MCP Servers and Tooling category precisely.
+  reason: The product's primary identity is an MCP server for Spotify, explicitly built to integrate with Claude, Cursor, and other MCP clients.
   evidence:
-    - "Repo description states: 'Control Spotify from Claude, Cursor, or any MCP client. 100+ tools for playback, playlists, discovery, and curation.'"
-    - README shows integrations for Claude Code, Claude Desktop, Cursor, and VS Code with MCP config examples.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
+    - "Repo description states: 'Control Spotify from Claude, Cursor, or any MCP client. 100+ tools...'"
+    - Topics include 'mcp-server' and 'model-context-protocol', confirming protocol-first identity.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.145Z"
+    updated_at: "2026-05-06T22:44:09.600Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:12.792Z"
+    updated_at: "2026-05-06T22:59:13.465Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

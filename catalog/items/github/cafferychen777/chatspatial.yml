@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cafferychen777__chatspatial__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 34
+    stars: 35
     forks: 8
     license: MIT
     archived: false
@@ -53,50 +53,50 @@ metadata:
       - spatial-transcriptomics
       - squidpy
       - visualization
-    last_checked_at: "2026-05-05T21:01:28.335Z"
+    last_checked_at: "2026-05-06T22:43:16.190Z"
     readme:
-      fetched_at: "2026-05-05T21:01:28.335Z"
+      fetched_at: "2026-05-06T22:43:16.190Z"
       bytes: 6273
 insights:
-  summary: An MCP server that exposes 20 schema-validated tools to orchestrate 65 spatial transcriptomics methods, allowing developers and researchers to run bioinformatics workflows via natural language in MCP-compatible clients.
-  why_it_matters: It replaces fragile ad-hoc LLM code generation with a reproducible, schema-enforced interface for complex single-cell and spatial genomics analysis inside standard MCP clients like Claude Code and Claude Desktop.
-  mental_damage: Finally, a way to let your LLM orchestrate obscure scRNA-seq methods with validated schemas, so you can feel productive while wondering if you still need a PhD to understand the output.
+  summary: An MCP server that provides 20 schema-validated tools to orchestrate 65 spatial transcriptomics analysis methods via natural language interfaces.
+  why_it_matters: It replaces fragile ad-hoc LLM code generation with reproducible, schema-enforced workflows for complex bioinformatics pipelines.
+  mental_damage: Finally, a way to burden an AI agent with the existential dread of single-cell genomics instead of your average CRUD app.
   tags:
     - mcp-server
     - bioinformatics
     - spatial-transcriptomics
-    - agentic-ai
     - python
+    - agentic-ai
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that integrates with MCP-compatible developer clients, which clearly fits the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server for a specific domain (bioinformatics), which fits the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'MCP server for spatial transcriptomics analysis through natural language interfaces.'"
-    - README confirms it exposes 20 schema-validated MCP tools and works with 'any MCP-compatible client — Claude Code, Claude Desktop, Codex, OpenCode, and other MCP-capable tools.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
+    - "Repo description states: 'MCP server for spatial transcriptomics analysis through natural language interfaces.'"
+    - README identifies it as exposing '20 schema-validated MCP tools' and working with 'any MCP-compatible client'.
+    - Listed in 'awesome-mcp-servers' under the Biology, Medicine and Bioinformatics section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:28.335Z"
+    updated_at: "2026-05-06T22:43:16.190Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:12.857Z"
+    updated_at: "2026-05-06T22:47:45.762Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fasuizu-br__speech-ai-examples__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -40,49 +40,50 @@ metadata:
       - speech-ai
       - speech-to-text
       - text-to-speech
-    last_checked_at: "2026-05-05T21:02:08.647Z"
+    last_checked_at: "2026-05-06T22:43:51.528Z"
     readme:
-      fetched_at: "2026-05-05T21:02:08.647Z"
+      fetched_at: "2026-05-06T22:43:51.528Z"
       bytes: 7401
 insights:
-  summary: A collection of production-ready code examples for Brainiall's Speech AI APIs, covering pronunciation assessment, STT, TTS, and MCP server configurations in Python, JavaScript, and curl.
-  why_it_matters: It gives developers copy-paste starting points to integrate speech AI and MCP tooling into apps without reading dense API reference docs.
-  mental_damage: Another MCP example repo with two stars proves that publishing boilerplate is now an obligatory stage in the AI API adoption lifecycle.
+  summary: A small repository of production-ready code examples and MCP configurations for interacting with Brainiall's Speech AI APIs, including pronunciation assessment, STT, TTS, and an LLM gateway.
+  why_it_matters: It gives developers copy-paste starting points to plug speech-to-text, text-to-speech, and pronunciation scoring into agents, IDEs, and apps via REST or MCP.
+  mental_damage: Yet another API example repo that exists so you can feel productive while absolutely not shipping that language-learning feature you sketched six months ago.
   tags:
     - speech-ai
     - mcp
     - api-examples
     - pronunciation
-  confidence: high
+    - llm-gateway
+  confidence: medium
 curation:
-  status: excluded
-  reason: The repo is a vendor-specific API example collection rather than a reusable developer tool, agent, framework, or MCP server itself, and it lacks meaningful ecosystem traction.
+  status: included
+  reason: The repo is primarily a set of MCP configs and API examples for Brainiall's speech and LLM endpoints, making it an MCP-facing domain toolkit rather than a standalone product or generic list.
   evidence:
-    - Repo description explicitly states it is 'Production-ready examples for Brainiall Speech AI APIs', not a tool or server.
-    - Only 2 stars and created in 2026-02, showing no meaningful adoption despite recent pushes.
-    - Listed in awesome-mcp-list under Art & Culture, not in a developer-tooling or infrastructure section.
+    - Repo description explicitly mentions 'MCP configs' alongside Python, JavaScript, and curl examples.
+    - README highlights MCP servers with '20 Tools' and lists MCP as a key integration surface.
+    - Appears in awesome-mcp-list under Art & Culture, reinforcing its MCP identity despite low stars.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:08.647Z"
+    updated_at: "2026-05-06T22:43:51.528Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:07.344Z"
+    updated_at: "2026-05-06T22:55:33.811Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

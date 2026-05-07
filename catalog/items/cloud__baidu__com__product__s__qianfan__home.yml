@@ -1,0 +1,77 @@
+id: cloud__baidu__com__product__s__qianfan__home
+kind: website
+name: qianfan_home
+canonical_url: https://cloud.baidu.com/product-s/qianfan_home
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cloud__baidu__com__product__s__qianfan__home__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: Baidu APPBuilder
+        extracted_url: https://appbuilder.cloud.baidu.com
+        surrounding_text: 10. [Baidu APPBuilder](https://appbuilder.cloud.baidu.com/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Baidu Qianfan is an enterprise-grade, one-stop large model platform offering model development, application development toolchains, multi-agent orchestration, RAG knowledge bases, and an exclusive marketplace of Skills and MCP services.
+  why_it_matters: It provides developers with a unified platform to build, orchestrate, and deploy production-grade AI agents, complete with model APIs, data tooling, and compliant enterprise infrastructure.
+  mental_damage: Just when you thought the agent orchestration market couldn't possibly fit another 'one-stop enterprise platform,' China's cloud giant rolls out yet another理由 to wonder if your simple CLI tool is actually an 'Agent-Centric Full-Link Data Intelligence Workbench.'
+  tags:
+    - agents
+    - enterprise
+    - mcp
+    - baidu
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: The platform's primary identity is a vertically integrated enterprise control plane for building, orchestrating, and managing multi-agent applications, data pipelines, and model services, rather than a coding assistant or a code-first SDK.
+  evidence:
+    - Positioned as '以Agent为核心的一站式企业级大模型服务平台' (Agent-centric one-stop enterprise platform).
+    - Features explicit Multi-Agent orchestration engines, DAG execution, and pre-built sub-agents for complex task distribution.
+    - Includes an exclusive Skill and MCP marketplace (Baidu Search, Baidu Encyclopedia, Baidu Maps) for extending agent capabilities.
+placement:
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:06.078Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

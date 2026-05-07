@@ -1,13 +1,13 @@
 id: github__sipeed__picoclaw
 kind: github-repo
-name: PicoClaw
+name: picoclaw
 canonical_url: https://github.com/sipeed/picoclaw
 identity:
   github_repo: sipeed/picoclaw
 provenance:
   discoveries:
     - id: discovery__github__sipeed__picoclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 28818
+    forks: 4127
+    license: MIT
+    archived: false
+    created_at: "2026-02-04T12:32:35Z"
+    pushed_at: "2026-05-06T16:19:14Z"
+    description: Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
+    homepage: https://picoclaw.io
+    topics: []
+    last_checked_at: "2026-05-06T22:46:26.610Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:26.610Z"
+      bytes: 29022
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: PicoClaw is an ultra-lightweight, self-bootstrapping AI assistant written in Go that runs on $10 hardware with less than 10MB of RAM.
+  why_it_matters: It enables developers to run a self-hosted, multi-provider AI agent on edge devices or low-spec servers, supporting CLI, Android, and multiple messaging channels.
+  mental_damage: Just when you thought your MacBook Pro was the minimum viable hardware for an AI agent, a 10MB Go binary arrives to make your cooling fans feel personally insulted.
+  tags:
+    - go
+    - edge-ai
+    - low-resource
+    - self-hosted
+    - cli-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: PicoClaw is a standalone, terminal-native AI agent that plans and executes tasks across repos and hardware, fitting the primary coding assistant definition.
+  evidence:
+    - "Repo description positions it as an automation assistant: 'Tiny, Fast, and Deployable anywhere — automate the mundane'."
+    - README identifies it as an 'ultra-lightweight personal AI assistant' built in Go with sub-10MB RAM usage.
+    - Source list 'awesome-cli-coding-agents' explicitly categorizes it under 'Terminal-native coding agents > OpenClaw ecosystem'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (28818) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:26.610Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:55.507Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

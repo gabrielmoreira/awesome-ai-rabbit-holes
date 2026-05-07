@@ -1,0 +1,76 @@
+id: www__tokenmetrics__com
+kind: website
+name: www.tokenmetrics.com
+canonical_url: https://www.tokenmetrics.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__tokenmetrics__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Token Metrics
+        extracted_url: https://www.tokenmetrics.com
+        surrounding_text: "- **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/) integration for fetching real-time crypto market data, trading signals, price predictions, and advanced analytics."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Token Metrics Daily Pulse is an AI-driven daily crypto newsletter that aggregates 41+ editorial sources and structured market data into a single morning market brief.
+  why_it_matters: It replaces the morning doomscroll with a structured, source-linked crypto market view, which is useful context for developers building in the web3 and crypto ecosystems.
+  mental_damage: Because what the modern developer truly needs is yet another AI-generated daily briefing to add to the five they already ignore before lunch.
+  tags:
+    - newsletter
+    - crypto
+    - ai-content
+    - daily-brief
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a consumer-facing crypto newsletter and media product, not a developer tool, framework, or workflow utility, despite its appearance in an MCP servers list.
+  evidence:
+    - The scraped site context describes it purely as a 'daily crypto newsletter' and 'AI market brief' for investors, not developers.
+    - The source-list context mentions it in 'awesome-mcp-servers', but the linked page describes a media product with no visible MCP server implementation or developer tooling.
+    - The product tiers (Free, Signal, Alpha, Roundtable) and '$TMAI' token gating confirm its identity as a financial media platform, not a coding utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:00.952Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

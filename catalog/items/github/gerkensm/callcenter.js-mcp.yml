@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gerkensm__callcenter.js-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Callcenter.JS AI Voice Agent VOIP Connector, MCP + CLI
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:19.335Z"
+    last_checked_at: "2026-05-06T22:44:00.671Z"
     readme:
-      fetched_at: "2026-05-05T21:02:19.335Z"
+      fetched_at: "2026-05-06T22:44:00.671Z"
       bytes: 44288
 insights:
-  summary: An MCP server and CLI tool that bridges OpenAI's real-time voice API with VoIP networks to let AI assistants make and handle phone calls on a developer's behalf.
-  why_it_matters: It extends MCP clients like Claude Code with outbound voice-agent capabilities, allowing developers to script or delegate real phone interactions through their existing AI workflow.
-  mental_damage: We have finally bridged the gap between hallucinating about your code and hallucinating at your pizzeria, and the README openly warns that the agent may call strangers in the middle of the night to play scary noises.
+  summary: An MCP server and CLI tool that bridges OpenAI's real-time voice API with VoIP networks to let Claude and other MCP clients make and handle phone calls on your behalf.
+  why_it_matters: It gives coding agents a telephony integration that can literally call humans during a workflow, turning 'talk to the library author' from a joke into a callable MCP tool.
+  mental_damage: We have finally reached the point where your AI assistant can dial a restaurant at 2 AM, order a pizza, and then call you back to complain about the documentation it just read.
   tags:
     - mcp
     - voip
     - voice-agent
     - cli
-  confidence: medium
+    - telephony
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server that connects AI voice capabilities to VoIP systems, which fits cleanly into the MCP infrastructure category.
+  reason: The product identity is explicitly an MCP server for telephony, bridging OpenAI Realtime voice with VoIP, and it is already listed in the awesome-mcp-servers directory under Communication.
   evidence:
-    - "Repo description states: 'Callcenter.JS AI Voice Agent VOIP Connector, MCP + CLI'"
-    - README confirms it is 'An MCP Server, CLI tool, and API that makes phone calls on your behalf using VoIP'
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - "Repo description: 'Callcenter.JS AI Voice Agent VOIP Connector, MCP + CLI'."
+    - "README: 'An MCP Server, CLI tool, and API that makes phone calls on your behalf using VoIP.'"
+    - Seen in awesome-mcp-servers under 'Server Implementations > Communication'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:19.335Z"
+    updated_at: "2026-05-06T22:44:00.671Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:01.263Z"
+    updated_at: "2026-05-06T22:57:23.070Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

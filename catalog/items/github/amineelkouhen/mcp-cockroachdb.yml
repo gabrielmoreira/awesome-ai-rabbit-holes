@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amineelkouhen__mcp-cockroachdb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
         confidence: high
     - id: discovery__github__amineelkouhen__mcp-cockroachdb__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -54,50 +54,49 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:02.500Z"
+    last_checked_at: "2026-05-06T22:12:37.068Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.500Z"
+      fetched_at: "2026-05-06T22:12:37.068Z"
       bytes: 20108
 insights:
-  summary: An MCP server that exposes CockroachDB operations—including queries, schema management, and cluster monitoring—as tools for LLMs and AI agents to interact with the database via natural language.
-  why_it_matters: It allows developers to wire CockroachDB directly into AI workflows in editors like Cursor and VS Code, letting agents inspect, query, and manage the database without hand-written glue code.
-  mental_damage: We have successfully abstracted away the one part of the stack where precision actually matters, replacing SQL with a probabilistic middleman that might drop your tables with confident enthusiasm.
+  summary: A Model Context Protocol server that exposes CockroachDB operations—including querying, cluster monitoring, and schema management—as tools for LLMs and agentic applications.
+  why_it_matters: It allows AI coding assistants and agents to directly inspect, query, and manage CockroachDB instances through natural language via the MCP standard.
+  mental_damage: Your database now has an MCP server, a natural language interface, and a dedicated GitHub repo, but your p99 latency is still a mystery to the model.
   tags:
     - mcp
-    - cockroachdb
     - database
+    - cockroachdb
     - agent-tools
-    - llm-integration
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server implementation that integrates CockroachDB with MCP clients, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP server implementation designed to give agents structured access to CockroachDB, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'The CockroachDB MCP Server', a natural language interface for MCP clients.
-    - README confirms seamless integration with MCP clients like Claude Desktop, Cursor, and VS Code with GitHub Copilot.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases', confirming ecosystem fit.
+    - Repo description explicitly states it is 'The CockroachDB MCP Server', a natural language interface for agentic applications.
+    - README details tools for cluster monitoring, database operations, table management, and query execution via MCP.
+    - Listed in awesome-mcp-servers under 'Databases' and 'Community Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.500Z"
+    updated_at: "2026-05-06T22:12:37.068Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:59.732Z"
+    updated_at: "2026-05-06T22:21:02.069Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

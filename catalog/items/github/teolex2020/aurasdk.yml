@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__teolex2020__aurasdk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 66
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-02-23T13:08:35Z"
+    pushed_at: "2026-03-24T16:02:46Z"
+    description: Cognitive memory for AI agents. Pure Rust, <1ms recall, 2.7MB, zero cloud. Patent Pending.
+    homepage: https://aurasdk.dev
+    topics:
+      - agent
+      - ai
+      - ai-agents
+      - cognitive
+      - embedded
+      - encryption
+      - llm
+      - memory
+      - offline
+      - python
+      - rust
+    last_checked_at: "2026-05-06T22:46:44.846Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:44.846Z"
+      bytes: 24849
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AuraSDK is a local, pure-Rust cognitive memory runtime that adds durable, sub-millisecond recall, governed correction, and self-adaptation to frozen AI models without cloud training or fine-tuning.
+  why_it_matters: It gives developers a lightweight, offline-first way to add structured, inspectable memory and bounded recall reranking to any agent or model runtime with a simple Python SDK.
+  mental_damage: Because your agent still can’t ship a clean PR, but now it will remember every time you told it to deploy to staging first.
+  tags:
+    - memory
+    - local-ai
+    - rust
+    - sdk
+    - offline
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core novelty is a local memory and context-shaping system for agents, which maps directly to Prompt & Context Engineering rather than orchestration or extension layers.
+  evidence:
+    - "Repo description: 'Cognitive memory for AI agents. Pure Rust, <1ms recall, 2.7MB, zero cloud.'"
+    - "README: 'AuraSDK is a local cognitive runtime that runs alongside any frozen model. It gives agents durable memory, explainability, governed correction, bounded recall reranking...'"
+    - "Python SDK usage: brain.store() and brain.recall() via pip install aura-memory."
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:44.846Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:20.227Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sidneybissoli__bcb-br-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-01-16T18:29:24Z"
+    pushed_at: "2026-03-19T01:59:14Z"
+    description: MCP server for Brazil Central Bank (BCB) data — Selic, IPCA, exchange rates, GDP for AI agents
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-tools
+      - banco-central
+      - bcb
+      - brazil
+      - brazilian
+      - central-bank
+      - claude
+      - cursor
+      - economic-data
+      - exchange-rate
+      - financial-data
+      - gdp
+      - inflation
+      - interest-rate
+      - ipca
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - selic
+      - typescript
+    last_checked_at: "2026-05-06T22:46:24.856Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:24.856Z"
+      bytes: 11023
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Brazilian Central Bank economic indicators—including Selic, IPCA, exchange rates, and GDP—to AI assistants via the Model Context Protocol.
+  why_it_matters: Developers building AI agents or assistants that need reliable, structured access to Brazilian financial data can plug this in without writing custom scrapers or API wrappers.
+  mental_damage: Because obviously the next logical step in the MCP ecosystem explosion is a dedicated server to ask Claude what the Selic rate is while your actual financial models wait in the queue.
+  tags:
+    - mcp
+    - finance
+    - brazil
+    - economic-data
+    - typescript
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a domain-specific MCP server with MCP as its core product identity, making it a clean fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for Brazil Central Bank (BCB) data'
+    - README shows it is distributed as an MCP server via npx, Smithery, and a hosted HTTP endpoint for Claude and other MCP clients
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as an MCP server
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:24.856Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:38.568Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

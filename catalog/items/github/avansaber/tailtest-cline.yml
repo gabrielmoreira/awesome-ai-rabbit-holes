@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avansaber__tailtest-cline__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - mcp-server
       - python
       - testing
-    last_checked_at: "2026-05-05T21:01:13.661Z"
+    last_checked_at: "2026-05-06T22:12:46.478Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.661Z"
+      fetched_at: "2026-05-06T22:12:46.478Z"
       bytes: 4921
 insights:
-  summary: A Cline plugin that combines an MCP server, .clinerules pack, and Memory Bank integration to automatically generate and run tests whenever the AI agent edits source code across 8+ supported editors.
-  why_it_matters: It bakes automated testing and adversarial checks directly into the Cline agent workflow, reducing the friction of manually verifying AI-generated changes in supported IDEs.
-  mental_damage: We have now reached the point where we need a dedicated test framework to verify the work of the thing that just overwrote our code, and it comes with an R1-R15 rule layer to keep the chaos organized.
+  summary: A Cline plugin that automatically generates and runs tests via an MCP server, .clinerules packs, and Memory Bank integration across 8+ supported editors.
+  why_it_matters: Developers using Cline can enforce continuous, adversarial test generation directly within their agent workflow without manually writing test scaffolding.
+  mental_damage: We have now reached the point where the AI agent needs its own adversarial testing plugin to double-check that it didn't break your code while you weren't looking.
   tags:
     - cline
-    - testing
     - mcp
+    - testing
+    - ai-plugin
     - automation
-    - rules
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing extension that augments the Cline coding assistant with automated testing behavior, memory, and rules, fitting the AI Developer Extensions category rather than being the primary assistant itself.
+  reason: The product is explicitly a Cline plugin that augments the primary coding assistant with automated test generation, making it a classic extension rather than a standalone agent.
   evidence:
-    - "Repo description explicitly calls it 'tailtest for Cline: MCP server + .clinerules pack + Memory Bank integration.'"
-    - README states it is a 'Cline plugin that automatically generates and runs tests every time the agent edits a source file.'
-    - Functionally provides a testing add-on and rule layer that extends another AI developer tool rather than acting as the main assistant.
+    - "Repo description states it is 'tailtest for Cline: MCP server + .clinerules pack + Memory Bank integration'"
+    - README identifies it as 'a Cline plugin that automatically generates and runs tests every time the agent edits a source file'
+    - Installation is entirely hosted within Cline's MCP Marketplace or MCP server settings, not as a standalone tool
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.661Z"
+    updated_at: "2026-05-06T22:12:46.478Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:43.230Z"
+    updated_at: "2026-05-06T22:22:59.431Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

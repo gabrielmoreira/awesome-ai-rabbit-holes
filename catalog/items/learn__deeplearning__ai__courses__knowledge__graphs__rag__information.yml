@@ -1,0 +1,77 @@
+id: learn__deeplearning__ai__courses__knowledge__graphs__rag__information
+kind: website
+name: information
+canonical_url: https://learn.deeplearning.ai/courses/knowledge-graphs-rag/information
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__learn__deeplearning__ai__courses__knowledge__graphs__rag__information__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: Knowledge Graphs for RAG
+        extracted_url: https://www.deeplearning.ai/short-courses/knowledge-graphs-rag
+        surrounding_text: 26. [Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A free, intermediate short course from DeepLearning.AI teaching developers how to build and query knowledge graphs with Neo4j and integrate them into RAG applications using LangChain.
+  why_it_matters: It gives developers hands-on patterns for moving beyond naive semantic search by structuring unstructured documents into queryable graphs that improve LLM context relevance.
+  mental_damage: Another expert-led course promising that if you just learn one more graph query language, this time your RAG app will definitely stop hallucinating about financial documents.
+  tags:
+    - rag
+    - knowledge-graphs
+    - neo4j
+    - langchain
+    - course
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational course and media resource, not a standalone developer tool, platform, or product that fits within the catalog's tooling scope.
+  evidence:
+    - The item is a DeepLearning.AI short course with video lessons and code examples, not a software tool or product.
+    - It appears in awesome-LLM-resources under a '课程 Course' (Course) section, confirming its identity as educational content.
+    - Catalog scope explicitly excludes generic AI courses, tutorials, and educational media in favor of practical AI tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:55.985Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: www__claudemcp__com__servers
 kind: website
-name: Claude MCP Servers
+name: servers
 canonical_url: https://www.claudemcp.com/servers
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__claudemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web directory listing available Model Context Protocol (MCP) servers for use with AI assistants.
-  why_it_matters: It serves as a navigational index for developers looking to extend AI assistants with specific external tools and data sources via the MCP standard.
-  mental_damage: Just when you thought keeping up with AI models was hard, we've successfully abstracted the problem into an exponential explosion of protocol servers you now need to audit and maintain.
+  summary: A directory page listing available MCP servers for use with Claude and other Model Context Protocol-compatible clients.
+  why_it_matters: Developers need a centralized place to discover and evaluate MCP servers that extend their AI coding assistants with new tools and capabilities.
+  mental_damage: Another discovery layer for a protocol that already requires a flowchart to understand which server does what, hosted on a site that itself is just a list of lists.
   tags:
-    - ai-tooling
-    - awesome-list
-    - directory
     - mcp
+    - directory
+    - discovery
+    - servers
   confidence: high
 curation:
   status: included
-  reason: The project is a directory/curated list of MCP servers (essentially an 'awesome list' for MCP), fitting the awesome-awesomes category rather than being a tool itself.
+  reason: This is a navigation and discovery page for MCP servers, making it a directory, not an operational server, extension, or framework itself.
   evidence:
-    - URL is https://www.claudemcp.com/servers, indicating a directory/listing site.
-    - Seen in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - No code repo description or README provided, indicating it is a listings page rather than a runnable tool.
+    - URL is https://www.claudemcp.com/servers, indicating a listing/discovery page rather than a runnable product.
+    - Seen in awesome-ai-coding-tools under the section 'MCP Servers and Directories', confirming its identity as a directory.
+    - No repo description, stars, or code artifacts provided, consistent with a static listing page rather than a software project.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:08.637Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:23.389Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

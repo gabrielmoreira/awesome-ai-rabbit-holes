@@ -1,12 +1,12 @@
 id: duckie__ai
 kind: website
-name: Duckie AI
+name: duckie.ai
 canonical_url: https://duckie.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__duckie__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Duckie AI is a hosted SaaS platform that builds and deploys autonomous customer support agents designed to fully resolve complex support tickets by analyzing ticket history and knowledge bases.
-  why_it_matters: It allows product and support teams to automate sophisticated, investigative ticket resolution workflows without requiring engineering resources to build or maintain the agents.
-  mental_damage: Another reminder that while we are still debugging why our AI coworkers can't center a div, the business has already deployed agents that autonomously refund customers and reset passwords.
+  summary: Duckie is a SaaS platform that builds autonomous AI customer support agents to resolve complex support tickets end-to-end by analyzing past ticket data and knowledge bases.
+  why_it_matters: It offers a no-code operational platform for deploying investigative support agents that handle account actions like refunds and billing, though it targets support teams rather than developers building software.
+  mental_damage: Another 'autonomous agent' that promises to replace the humans who would otherwise be complaining about the autonomous agents we are building.
   tags:
-    - autonomous-agents
     - customer-support
+    - agents
     - saas
-    - workflow-automation
+    - no-code
   confidence: high
 curation:
   status: excluded
-  reason: This is a customer-facing support automation SaaS with no developer-tooling surface, IDE integration, or code-generation workflow relevant to this catalog's scope.
+  reason: This is a vertical SaaS product for customer support teams, not a developer tool, coding agent, or infrastructure component used in the software development lifecycle.
   evidence:
-    - Scraped site context describes 'AI support agents that resolve tickets end to end' and 'Build sophisticated support agents in days, not months.'
-    - Primary workflow is 'No code, no tickets, no waiting' and 'Iterate in plain English' for customer support, not developer coding.
-    - Source list context (awesome-ai-agents) categorizes it as 'AI support agents that resolve tickets end to end' rather than coding or dev infrastructure.
+    - Site describes 'AI support agents that resolve tickets end to end' for customer service.
+    - Deployment is marketed as 'no technical expertise' and 'no code needed' with natural language tuning.
+    - Source list context places it in 'awesome-ai-agents' for 'AI support agents that resolve tickets', not developer tooling.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:17.147Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:48.359Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

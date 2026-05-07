@@ -1,13 +1,13 @@
 id: github__letta-ai__letta
 kind: github-repo
-name: MemGPT
+name: letta
 canonical_url: https://github.com/letta-ai/letta
 identity:
   github_repo: letta-ai/letta
 provenance:
   discoveries:
-    - id: discovery__github__cpacker__memgpt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__letta-ai__letta__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,8 +21,8 @@ provenance:
         extracted_url: https://github.com/cpacker/memgpt
         surrounding_text: "## [MemGPT](https://github.com/cpacker/MemGPT)"
         confidence: high
-    - id: discovery__github__cpacker__memgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__letta-ai__letta__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -36,25 +36,25 @@ provenance:
         extracted_url: https://github.com/cpacker/memgpt
         surrounding_text: "- [MemGPT](https://github.com/cpacker/MemGPT): Teaching LLMs memory management for unbounded context ![GitHub Repo stars](https://img.shields.io/github/stars/cpacker/MemGPT?style=social)"
         confidence: high
-    - id: discovery__github__letta-ai__letta__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:33:31.148Z"
+    - id: discovery__github__letta-ai__letta__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
       extraction:
         mode: parsed
         section_path:
-          - MemGPT
+          - 推理 Inference
         anchor_text: MemGPT
         extracted_url: https://github.com/cpacker/memgpt
-        surrounding_text: "## [MemGPT](https://github.com/cpacker/MemGPT)"
+        surrounding_text: "18. [MemGPT](https://github.com/cpacker/MemGPT): Create LLM agents with long-term memory and custom tools."
         confidence: high
 metadata:
   github:
-    stars: 22441
-    forks: 2386
+    stars: 22477
+    forks: 2389
     license: Apache-2.0
     archived: false
     created_at: "2023-10-11T07:38:37Z"
@@ -66,54 +66,50 @@ metadata:
       - ai-agents
       - llm
       - llm-agent
-    last_checked_at: "2026-05-05T21:03:18.991Z"
+    last_checked_at: "2026-05-06T22:44:58.117Z"
     readme:
-      fetched_at: "2026-05-05T21:03:18.991Z"
+      fetched_at: "2026-05-06T22:44:58.117Z"
       bytes: 4248
 insights:
-  summary: Letta (formerly MemGPT) is a platform and CLI tool for building stateful AI agents with persistent memory, available as a local terminal agent (Letta Code) or via an API/SDK for application integration.
-  why_it_matters: It provides developers with a framework and CLI to run coding agents locally with advanced memory management, or embed stateful agents into applications using Python and TypeScript SDKs.
-  mental_damage: We have successfully abstracted the concept of remembering things so that our agents can experience the same existential dread of context window limits that we do.
+  summary: Letta is an open-source platform and API for building stateful AI agents with advanced memory, self-improvement capabilities, and a local CLI tool for coding assistance.
+  why_it_matters: It provides developers with both a local CLI agent (Letta Code) for terminal-based coding and a full API/SDK to integrate stateful, memory-driven agents into custom applications.
+  mental_damage: Now you can worry about your local coding agent remembering past mistakes and 'self-improving' into a state of consciousness that judges your commit messages.
   tags:
     - agents
-    - cli
-    - framework
     - memory
-    - sdk
     - stateful
+    - sdk
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The Letta Code CLI is a terminal-based agent that helps developers code and perform local tasks with persistent memory, fitting the coding-agents category.
+  reason: The Letta Code CLI tool is positioned as a local terminal agent that helps you code and do tasks, fitting the Coding Agents category, while the broader API/SDK serves as infrastructure for building such agents.
   evidence:
-    - Repo description states it is a 'platform for building stateful agents' with 'Letta Code' running agents locally in the terminal.
-    - README specifies 'Letta Code supports skills and subagents... your agent help you code and do any task you can do on your computer.'
-    - Provides a full API and SDK (Python/TypeScript) for integrating agents, showing strong developer-tooling utility.
-    - Repo description defines it as a 'platform for building stateful agents' with an API and SDKs.
-    - README provides Python and TypeScript SDK installation and code examples for creating agents programmatically.
-    - Letta Code is offered as a separate CLI tool, confirming the repo itself is the underlying agent infrastructure.
+    - Repo description states it is a platform for building stateful agents with advanced memory.
+    - README explicitly mentions 'Letta Code' CLI tool that 'help you code' and runs locally in the terminal.
+    - Provides Python and TypeScript SDKs and an API for developers to build agents into applications.
 placement:
-  primary_category: null
+  primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (22441) exceeded threshold (150)
+  reason: Stars (22477) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:40.518Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.578Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:18.991Z"
+    updated_at: "2026-05-06T22:44:58.117Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:15.862Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

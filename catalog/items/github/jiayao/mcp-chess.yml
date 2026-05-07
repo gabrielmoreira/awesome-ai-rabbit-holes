@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jiayao__mcp-chess__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP server for playing chess against AI
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:54.914Z"
+    last_checked_at: "2026-05-06T22:44:33.814Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.914Z"
+      fetched_at: "2026-05-06T22:44:33.814Z"
       bytes: 1713
 insights:
-  summary: An MCP server that enables LLMs to play chess and analyze game positions through tools for board visualization, move validation, and PGN analysis.
-  why_it_matters: It demonstrates how to wrap game logic into the Model Context Protocol, allowing developers to test LLM reasoning and tool-use capabilities in a structured, rule-heavy environment.
-  mental_damage: "We have finally achieved the pinnacle of agentic workflows: an AI that can lose to you at chess in a language model context window."
+  summary: An MCP server that lets developers play chess against LLMs by exposing board state, move validation, and PGN analysis tools.
+  why_it_matters: It demonstrates how to wrap a classic game engine into a model-accessible tool, giving developers a clear reference for building interactive, stateful MCP servers.
+  mental_damage: We have finally solved the critical developer problem of tricking a 100-billion-parameter reasoning model into hanging its queen on move six.
   tags:
     - mcp
     - chess
-    - llm-tools
-    - game-integration
-  confidence: high
+    - game
+    - tool-server
+    - llm-integration
+  confidence: medium
 curation:
   status: included
-  reason: The project is a distinct MCP server implementation designed to be plugged into MCP-compatible clients, fitting the MCP infrastructure category.
+  reason: The project's identity is an MCP server for chess, fitting squarely into the MCP Servers & Tooling category as a domain-specific tool server.
   evidence:
-    - Repo description explicitly states 'MCP server for playing chess against AI'.
-    - README details specific MCP tools like get_board_visualization and make_move for LLM integration.
-    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory.
+    - "Repo description states: 'MCP server for playing chess against AI'."
+    - README instructs users to add it to their 'MCP config' to expose chess tools to LLMs.
+    - Listed in 'awesome-mcp-servers' under the Gaming section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.914Z"
+    updated_at: "2026-05-06T22:44:33.814Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:19.013Z"
+    updated_at: "2026-05-06T23:04:10.665Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

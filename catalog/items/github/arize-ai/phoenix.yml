@@ -1,13 +1,13 @@
 id: github__arize-ai__phoenix
 kind: github-repo
-name: Phoenix
+name: phoenix
 canonical_url: https://github.com/arize-ai/phoenix
 identity:
   github_repo: arize-ai/phoenix
 provenance:
   discoveries:
     - id: discovery__github__arize-ai__phoenix__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [Phoenix](https://github.com/Arize-ai/phoenix) | Open-source LLM tracing |"
         confidence: high
     - id: discovery__github__arize-ai__phoenix__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- [Phoenix](https://phoenix.arize.com/) - Open-source tool for ML observability that runs in your notebook environment, by Arize. Monitor and fine tune LLM, CV and tabular models."
         confidence: high
     - id: discovery__github__arize-ai__phoenix__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -54,12 +54,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9531
-    forks: 849
+    stars: 9549
+    forks: 850
     license: NOASSERTION
     archived: false
     created_at: "2022-11-09T23:44:35Z"
-    pushed_at: "2026-05-05T20:48:41Z"
+    pushed_at: "2026-05-06T22:11:43Z"
     description: AI Observability & Evaluation
     homepage: https://arize.com/docs/phoenix
     topics:
@@ -79,49 +79,49 @@ metadata:
       - openai
       - prompt-engineering
       - smolagents
-    last_checked_at: "2026-05-05T21:01:09.180Z"
+    last_checked_at: "2026-05-06T22:12:43.139Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.180Z"
+      fetched_at: "2026-05-06T22:12:43.139Z"
       bytes: 35735
 insights:
-  summary: An open-source platform for AI observability, tracing, and evaluation, designed to help developers instrument and optimize LLM applications and agents.
-  why_it_matters: It provides the tracing and evaluation harnesses needed to move LLM projects from prototype to production by measuring prompt quality and agent behavior.
-  mental_damage: You now have the dashboard to prove your agent is confidently hallucinating, but fixing the underlying logic remains a separate, unpaid internship.
+  summary: Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications.
+  why_it_matters: It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
+  mental_damage: You will now spend as much time tuning your evaluation harness as you do writing the code, just so you can prove to yourself that the hallucination rate is statistically acceptable.
   tags:
-    - llm-eval
-    - observability
-    - opensource
+    - llm-observability
+    - evals
     - tracing
+    - llmops
   confidence: high
 curation:
   status: included
-  reason: Fits squarely into the Evaluations and Benchmarks category as an observability and evaluation platform for LLMs and agents, rather than a coding agent or framework.
+  reason: The core product job is measuring, tracing, and evaluating model and agent behavior, which aligns directly with the Evals & Benchmarks category.
   evidence:
     - Repo description explicitly states 'AI Observability & Evaluation'.
-    - README states it is 'designed for experimentation, evaluation, and troubleshooting'.
-    - Listed in Awesome-LLMOps under 'LLMOps' and agent-orchestration lists under 'Observability & Tracing'.
+    - README describes it as 'an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting.'
+    - GitHub topics include evals, llm-evaluation, prompt-engineering, and ai-observability; also listed in awesome-agent-orchestration under 'Observability & Tracing'.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (9531) exceeded threshold (150)
+  reason: Stars (9549) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:01.723Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.180Z"
+    updated_at: "2026-05-06T22:12:43.139Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:16.984Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__lance-format__lance
 kind: github-repo
-name: Lance
+name: lance
 canonical_url: https://github.com/lance-format/lance
 identity:
   github_repo: lance-format/lance
 provenance:
   discoveries:
-    - id: discovery__github__eto-ai__lance__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__lance-format__lance__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6382
-    forks: 650
+    stars: 6389
+    forks: 654
     license: Apache-2.0
     archived: false
     created_at: "2022-07-07T22:29:29Z"
-    pushed_at: "2026-05-05T19:42:20Z"
+    pushed_at: "2026-05-06T22:26:43Z"
     description: Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
     homepage: https://lance.org
     topics:
@@ -49,53 +49,50 @@ metadata:
       - mlops
       - python
       - rust
-    last_checked_at: "2026-05-05T21:03:15.272Z"
+    last_checked_at: "2026-05-06T22:44:54.162Z"
     readme:
-      fetched_at: "2026-05-05T21:03:15.272Z"
+      fetched_at: "2026-05-06T22:44:54.162Z"
       bytes: 8428
 insights:
-  summary: Lance is an open lakehouse format for multimodal AI that provides high-performance vector search, full-text search, and random access on object storage, compatible with Pandas, DuckDB, Polars, and PyTorch.
-  why_it_matters: It gives developers a unified format to store embeddings, images, and tabular data with fast hybrid search and versioning, cutting out the glue code between data lakes and AI training pipelines.
-  mental_damage: Yet another lakehouse format enters the ring to save you from Parquet’s random access performance, assuming you were not already drowning in Iceberg, Delta, and Hudi compatibility matrices.
+  summary: Lance is an open lakehouse format and file format for multimodal AI that provides high-performance vector search, full-text search, and random access on object storage, compatible with Pandas, DuckDB, Polars, and PyTorch.
+  why_it_matters: It gives developers a single columnar format for storing embeddings, images, audio, and structured data with versioning and hybrid search without rebuilding their ML data stack.
+  mental_damage: Yet another Arrow-compatible data format to evaluate at 2am while telling yourself this time you’ll finally pick the one format that won’t be obsolete by your next vector search prototype.
   tags:
-    - data-format
+    - vector-search
     - lakehouse
+    - data-format
     - multimodal
     - rust
-    - vector-search
   confidence: high
 curation:
-  status: included
-  reason: Lance is a developer-facing library and data format SDK for building AI data infrastructure, fitting cleanly as a code-first building block rather than a hosted app builder or coding agent.
+  status: excluded
+  reason: Lance is a data storage format and library for multimodal ML/AI workloads rather than a developer-facing AI tool, agent, IDE, extension, or application-building product.
   evidence:
-    - Repo description explicitly defines it as an 'Open Lakehouse Format for Multimodal AI' with compatibility for Pandas, DuckDB, Polars, and PyTorch.
-    - README positions it as a format, table spec, and catalog for developers building search engines, feature stores, and ML training pipelines.
-    - Listed under 'Data > Data Storage' in Awesome-LLMOps, aligning with its infrastructure and SDK nature.
-    - Repo description explicitly defines it as an open lakehouse format with 100x faster random access, vector index, and data versioning.
-    - README positions it as a format with Rust core, Python/Java bindings, and integrations with Pandas, DuckDB, Polars, Spark, and Ray for AI workflows.
-    - "Active development signal: created 2022-07-07, last pushed 2026-05-05, 6382 stars, Apache-2.0 licensed, not archived."
+    - Repo description and README emphasize lakehouse format, vector index, data versioning, and compatibility with Pandas, DuckDB, Polars, PyArrow, and PyTorch.
+    - Topics and README focus on data-science, ML training, embeddings, and feature stores rather than coding assistants, agent orchestration, or developer tooling workflows.
+    - Listed in Awesome-LLMOps under Data > Data Storage, which confirms its identity as a data-layer product rather than a developer AI tool.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6382) exceeded threshold (150)
+  reason: Stars (6389) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:58.084Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:15.272Z"
+    updated_at: "2026-05-06T22:44:54.162Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:22.960Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

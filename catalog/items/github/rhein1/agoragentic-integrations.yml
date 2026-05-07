@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rhein1__agoragentic-integrations__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 13
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-27T21:04:11Z"
+    pushed_at: "2026-05-03T05:31:09Z"
+    description: "Agent OS integrations for deployed agents: smart routing, execute-first tools, Micro ECF exports, x402 calls, receipts, and Base USDC settlement."
+    homepage: https://agoragentic.com
+    topics:
+      - agent-client-protocol
+      - agent-os
+      - ai-agents
+      - autogen
+      - autonomous-agents
+      - crewai
+      - dify
+      - elizaos
+      - execute-first
+      - google-adk
+      - langchain
+      - llamaindex
+      - mastra
+      - mcp
+      - micro-ecf
+      - model-context-protocol
+      - python
+      - sdk
+      - usdc
+      - x402
+    last_checked_at: "2026-05-06T22:46:09.992Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:09.992Z"
+      bytes: 20077
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SDKs, MCP tooling, and protocol adapters for Agoragentic Agent OS, enabling deployed agents to route paid tasks, manage context via Micro ECF, and settle USDC transactions on Base L2.
+  why_it_matters: It gives developers a governed runtime and SDKs to deploy agents with budgets, wallets, and marketplace access instead of wiring raw provider APIs.
+  mental_damage: Another agent runtime promising paid work and crypto receipts, because what every codebase really needed was a smart contract for its chatbot’s to-do list.
+  tags:
+    - agent-os
+    - mcp
+    - sdk
+    - micro-ecf
+    - usdc
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The repo is primarily a set of SDKs, adapters, and MCP tooling that developers import and script against to integrate with Agent OS, fitting a code-first framework profile rather than a control plane or standalone assistant.
+  evidence:
+    - Repo description and README position this as 'Agent OS integrations', SDKs, MCP tools, and protocol adapters for deployed agents.
+    - Packages include Node.js SDK, Python SDK, MCP Server, ACP Adapter, and Micro ECF CLI, all consumed as code-first building blocks.
+    - The README instructs developers to call APIs and use SDKs to build integrations, not to operate a multi-agent workbench or runtime platform.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:09.992Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:39.098Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

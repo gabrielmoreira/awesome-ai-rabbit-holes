@@ -1,0 +1,85 @@
+id: github__hcplab-sysu__book-of-mlm
+kind: github-repo
+name: book-of-mlm
+canonical_url: https://github.com/hcplab-sysu/book-of-mlm
+identity:
+  github_repo: hcplab-sysu/book-of-mlm
+provenance:
+  discoveries:
+    - id: discovery__github__hcplab-sysu__book-of-mlm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《多模态大模型》
+        extracted_url: https://github.com/hcplab-sysu/book-of-mlm
+        surrounding_text: 6. [《多模态大模型》](https://github.com/HCPLab-SYSU/Book-of-MLM)
+        confidence: high
+metadata:
+  github:
+    stars: 277
+    forks: 25
+    license: null
+    archived: false
+    created_at: "2024-02-22T07:54:18Z"
+    pushed_at: "2026-04-30T06:53:31Z"
+    description: 《多模态大模型：新一代人工智能技术范式》配套教学资源
+    homepage: https://hcplab-sysu.github.io/Book-of-MLM/
+    topics:
+      - aigc
+      - embodied-ai
+      - large-language-models
+      - multimodal
+      - world-models
+    last_checked_at: "2026-05-06T22:44:12.678Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:12.678Z"
+      bytes: 6380
+insights:
+  summary: A Chinese-language textbook and teaching resource repository covering multimodal large model architectures, core technologies, and applications, written for students and AI practitioners.
+  why_it_matters: It provides a structured curriculum and teaching slides for developers and researchers entering the multimodal AI field, grounding theory in practical model analysis.
+  mental_damage: Yet another signal that the most important credential in AI right now is having a syllabus, not a shipping product.
+  tags:
+    - multimodal
+    - textbook
+    - education
+    - llm-resources
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational textbook and teaching resource repository, not a developer-facing tool, agent, framework, or infrastructure product, and thus falls outside the catalog's practical tooling scope.
+  evidence:
+    - Repo description explicitly states it is '配套教学资源' (supporting teaching resources) for a textbook.
+    - README is centered on book chapters, purchase links, and university teaching PPTs, not software tooling.
+    - Source list context places it in a '书籍 Book' (Books) section within an LLM resources list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (277) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.618Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:12.678Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:59:41.751Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

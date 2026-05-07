@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__frihet-io__frihet-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-02-12T02:45:11Z"
-    pushed_at: "2026-05-05T18:05:50Z"
+    pushed_at: "2026-05-06T09:32:08Z"
     description: Official MCP server for Frihet ERP — 52 tools for AI-powered invoicing, expenses, clients, products, quotes, reports, and tax compliance. Works with Claude, Cursor, Windsurf, Cline, Copilot.
     homepage: https://frihet.io
     topics:
@@ -53,50 +53,50 @@ metadata:
       - saas
       - tax-compliance
       - typescript
-    last_checked_at: "2026-05-05T21:02:15.381Z"
+    last_checked_at: "2026-05-06T22:43:57.216Z"
     readme:
-      fetched_at: "2026-05-05T21:02:15.381Z"
+      fetched_at: "2026-05-06T22:43:57.216Z"
       bytes: 17894
 insights:
-  summary: An MCP server that exposes 66 tools for the Frihet ERP platform, enabling AI assistants to manage invoicing, expenses, clients, and tax compliance directly from the IDE.
-  why_it_matters: It allows developers to automate business management workflows like creating invoices and tracking expenses using natural language within their existing AI coding environments.
-  mental_damage: You can now ask your coding agent to bill a client for 40 hours of consulting while it simultaneously forgets the semicolon it wrote two minutes ago.
+  summary: An MCP server that connects AI assistants to the Frihet ERP, exposing 66 tools for invoicing, expenses, clients, and tax compliance directly inside the IDE.
+  why_it_matters: It lets developers manage their entire business backend via natural language without leaving their coding environment, treating ERP operations as just another code-adjacent task.
+  mental_damage: We have finally achieved the singularity where your AI assistant can invoice a client for the 40 hours it spent hallucinating a fix for a bug you introduced while procrastinating on your expense reports.
   tags:
     - mcp
     - erp
     - fintech
-    - automation
-    - claude
+    - ide-integration
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation designed to connect AI assistants to the Frihet ERP system, fitting the MCP infrastructure category perfectly.
+  reason: The product is specifically an MCP server built to expose a domain-specific ERP API to AI assistants, fitting perfectly into the MCP Servers & Tooling category.
   evidence:
-    - "Repo description confirms: 'Official MCP server for Frihet ERP — 52 tools for AI-powered invoicing... Works with Claude, Cursor, Windsurf, Cline, Copilot.'"
-    - "README states: 'An MCP server that connects your AI assistant to Frihet... Manage your entire business from your IDE.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech', confirming community recognition as an MCP tool.
+    - Repo description explicitly states 'Official MCP server for Frihet ERP'.
+    - README highlights '66 tools' specifically for MCP clients like Claude, Cursor, and Windsurf.
+    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:15.381Z"
+    updated_at: "2026-05-06T22:43:57.216Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:16.819Z"
+    updated_at: "2026-05-06T22:56:40.430Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

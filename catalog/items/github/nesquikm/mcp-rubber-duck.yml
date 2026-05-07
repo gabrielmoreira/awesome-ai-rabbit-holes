@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nesquikm__mcp-rubber-duck__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 161
+    stars: 162
     forks: 23
     license: MIT
     archived: false
@@ -33,50 +33,49 @@ metadata:
     description: An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access. Just like rubber duck debugging, explain your problems to various AI "ducks" who can actually research and get different perspectives!
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:53.077Z"
+    last_checked_at: "2026-05-06T22:45:31.007Z"
     readme:
-      fetched_at: "2026-05-05T21:03:53.077Z"
+      fetched_at: "2026-05-06T22:45:31.007Z"
       bytes: 11994
 insights:
-  summary: An MCP server that bridges multiple OpenAI-compatible LLMs and CLI coding agents to provide multi-perspective debugging, consensus voting, and debate workflows for developers.
-  why_it_matters: It lets developers orchestrate responses from multiple AI models and coding agents simultaneously, adding consensus checks and structured debates directly into their existing MCP-compatible IDE or CLI workflow.
-  mental_damage: You now have an entire council of rubber ducks arguing about your bug, complete with voting, debates, and confidence scores, proving that even when you outsource thinking to AI, consensus-building remains a chore.
+  summary: An MCP server that bridges multiple OpenAI-compatible LLMs and CLI coding agents to enable multi-model conversational debugging, consensus voting, and structured debates.
+  why_it_matters: It lets developers pipe a single problem into many models or CLI agents at once to compare perspectives, run consensus votes, and iteratively refine answers without switching contexts.
+  mental_damage: You now have an entire parliament of AI ducks to approve your fix, because one unreliable code reviewer was never enough.
   tags:
     - mcp
-    - multi-llm
-    - debugging
-    - orchestration
-    - cli
+    - multi-agent
+    - llm-bridge
+    - cli-agents
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server that connects to and orchestrates multiple LLMs and CLI agents, fitting cleanly into MCP infrastructure rather than being a coding agent itself.
+  reason: "MCP is the product identity: it is explicitly an MCP server that bridges LLMs and CLI agents, and it is listed and positioned as MCP infrastructure in the ecosystem."
   evidence:
-    - Repo description explicitly states it is 'An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access.'
-    - README lists features like 'MCP Bridge', 'MCP Registry' badge, and 'MCP Prompts', confirming it is first and foremost an MCP tool.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory, reinforcing its identity as MCP infrastructure.
+    - Repo description states it is 'An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access.'
+    - README lists 'MCP Bridge' and 'MCP Prompts' as core features and links to the MCP Registry.
+    - Seen in awesome-mcp-servers under 'Server Implementations', reinforcing its MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (161) exceeded threshold (150)
+  reason: Stars (162) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:53.077Z"
+    updated_at: "2026-05-06T22:45:31.007Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:17.198Z"
+    updated_at: "2026-05-06T23:16:58.055Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

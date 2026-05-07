@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mladensu__cli-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [MladenSU/cli-mcp-server](https://github.com/MladenSU/cli-mcp-server) 🐍 🏠 - Command line interface with secure execution and customizable security policies"
         confidence: high
     - id: discovery__github__mladensu__cli-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,14 +48,14 @@ metadata:
     description: Command line interface for MCP clients with secure execution and customizable security policies
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:43.608Z"
+    last_checked_at: "2026-05-06T22:45:21.842Z"
     readme:
-      fetched_at: "2026-05-05T21:03:43.608Z"
+      fetched_at: "2026-05-06T22:45:21.842Z"
       bytes: 7244
 insights:
-  summary: A secure MCP server that executes whitelisted command-line commands with configurable security policies, path validation, and execution controls for LLM applications.
-  why_it_matters: It gives LLM agents a controlled gateway to run shell commands without handing over the keys to your entire filesystem.
-  mental_damage: We have finally reached the point where we need a security policy to manage the security policies that guard our AI's access to `ls`.
+  summary: A secure Model Context Protocol server that enables controlled command-line execution for LLM applications with strict security policies like command whitelisting and path validation.
+  why_it_matters: It lets MCP clients safely delegate shell commands to LLMs without opening the door to arbitrary code execution on your machine.
+  mental_damage: We have finally reached the architectural pinnacle where we need a protocol server, wrapped in a security policy, just to ask an AI to run `ls -l` for us.
   tags:
     - mcp
     - cli
@@ -64,33 +64,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone Model Context Protocol server implementation focused on secure CLI execution, which fits squarely into the MCP infrastructure category.
+  reason: The product identity is an MCP server implementation for secure CLI execution, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is a 'Command line interface for MCP clients'.
-    - README confirms it is an 'MCP server implementation for executing controlled command-line operations'.
-    - Included in both 'awesome-mcp-list' (Command Line) and 'awesome-mcp-servers' (Coding Agents) directories.
+    - "Repo description explicitly states: 'Command line interface for MCP clients with secure execution and customizable security policies'."
+    - "README confirms: 'A secure Model Context Protocol (MCP) server implementation for executing controlled command-line operations'."
+    - Found in awesome-mcp-list under 'Command Line' and awesome-mcp-servers under 'Coding Agents'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (169) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:43.608Z"
+    updated_at: "2026-05-06T22:45:21.842Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:28.326Z"
+    updated_at: "2026-05-06T23:14:52.681Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

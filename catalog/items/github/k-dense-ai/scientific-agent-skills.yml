@@ -1,13 +1,13 @@
 id: github__k-dense-ai__scientific-agent-skills
 kind: github-repo
-name: claude-scientific-skills
+name: scientific-agent-skills
 canonical_url: https://github.com/k-dense-ai/scientific-agent-skills
 identity:
   github_repo: k-dense-ai/scientific-agent-skills
 provenance:
   discoveries:
-    - id: discovery__github__k-dense-ai__claude-scientific-skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__k-dense-ai__scientific-agent-skills__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20152
-    forks: 2246
+    stars: 20246
+    forks: 2254
     license: MIT
     archived: false
     created_at: "2025-10-19T20:54:15Z"
-    pushed_at: "2026-05-04T10:52:04Z"
+    pushed_at: "2026-05-06T21:06:12Z"
     description: A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.
     homepage: https://k-dense.ai
     topics:
@@ -49,54 +49,44 @@ metadata:
       - proteomics
       - scientific-computing
       - scientific-visualization
-    last_checked_at: "2026-05-05T21:03:01.801Z"
+    last_checked_at: "2026-05-06T22:44:39.216Z"
     readme:
-      fetched_at: "2026-05-05T21:03:01.801Z"
+      fetched_at: "2026-05-06T22:44:39.216Z"
       bytes: 42038
 insights:
-  summary: A collection of 135 reusable agent skills for scientific and research workflows, compatible with AI coding assistants like Claude Code, Cursor, and Codex via the open Agent Skills standard.
-  why_it_matters: Developers building scientific tooling can plug in domain-specific skills that upgrade their coding agent into a specialized research assistant without writing custom workflows from scratch.
-  mental_damage: We have now reached the point where we are packaging specialized knowledge into 'skills' so our AI agents can pretend to have a PhD while we still struggle to center a div.
-  tags:
-    - agent-skills
-    - claude-code
-    - cursor
-    - research
-    - scientific-computing
-    - skills
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The repository is a dedicated skills pack for AI developer tools, distributing reusable scientific workflows specifically designed to enhance coding agents rather than being a standalone assistant.
-  evidence:
-    - Repo description explicitly states it is 'a set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.'
-    - README confirms it is 'a comprehensive collection of 135 ready-to-use scientific and research skills... for any AI agent that supports the open Agent Skills standard' and works with Cursor, Claude Code, and Codex.
-    - Topics include agent-skills, claude-skills, and claudecode, and it is listed in awesome-LLM-resources under the '技能 Skills' section.
-    - Repo description explicitly states it is a 'set of ready to use Agent Skills'.
-    - README confirms compatibility with 'Cursor, Claude Code, Codex' and the open Agent Skills standard.
-    - The primary artifact is the skill content itself (135 skills) rather than a new IDE or agent host.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: skills
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (20152) exceeded threshold (150)
+  reason: Stars (20246) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:52.037Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:01.801Z"
+    updated_at: "2026-05-06T22:44:39.216Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:05:12.328Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__k-dense-ai__scientific-agent-skills: 你好，我无法给到相关内容。"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

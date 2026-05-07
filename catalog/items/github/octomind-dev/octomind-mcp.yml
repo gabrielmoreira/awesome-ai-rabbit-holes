@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__octomind-dev__octomind-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: An MCP server for octomind tools, resources and prompts
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:58.934Z"
+    last_checked_at: "2026-05-06T22:45:36.594Z"
     readme:
-      fetched_at: "2026-05-05T21:03:58.934Z"
+      fetched_at: "2026-05-06T22:45:36.594Z"
       bytes: 5221
 insights:
-  summary: An MCP server that exposes Octomind's e2e testing platform tools, resources, and prompts to AI agents in local development environments.
-  why_it_matters: It allows coding agents to autonomously create, execute, and manage end-to-end tests within your existing IDE or CLI workflow without switching context to a separate platform.
-  mental_damage: Now your AI agent can write the tests that will inevitably fail when the UI changes, triggering another agent to fix them, in a beautiful, fully automated ouroboros of debugging.
+  summary: An MCP server that exposes Octomind's e2e test platform tools and resources to AI coding assistants for test creation, execution, and management.
+  why_it_matters: It lets developers delegate e2e test creation and execution to their local AI agents through a standardized protocol instead of using the Octomind web UI.
+  mental_damage: Your agent can now write, run, and auto-fix its own tests, completing the circle where the thing evaluating the code is the same thing that broke it.
   tags:
     - mcp
-    - e2e-testing
-    - developer-tools
-    - agent-tools
+    - testing
+    - e2e
+    - integrations
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation designed to expose Octomind's testing tools to MCP-compatible hosts like Claude and Cursor.
+  reason: The product's primary identity is an MCP server exposing Octomind's test platform capabilities to MCP-compatible clients like Claude Desktop and Cursor.
   evidence:
     - "Repo description explicitly states: 'An MCP server for octomind tools, resources and prompts'"
-    - README confirms it exposes tools like 'discovery', 'executeTests', and 'getTestReports' for agent consumption
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - "README confirms: 'With this MCP server you can use Octomind tools and resources in your local development environment'"
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:58.934Z"
+    updated_at: "2026-05-06T22:45:36.594Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:30.989Z"
+    updated_at: "2026-05-06T23:18:17.932Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__lightning-ai__pytorch-lightning
 kind: github-repo
-name: PyTorch Lightning
+name: pytorch-lightning
 canonical_url: https://github.com/lightning-ai/pytorch-lightning
 identity:
   github_repo: lightning-ai/pytorch-lightning
 provenance:
   discoveries:
-    - id: discovery__github__lightning-ai__lightning__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__lightning-ai__pytorch-lightning__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31113
-    forks: 3719
+    stars: 31114
+    forks: 3720
     license: Apache-2.0
     archived: false
     created_at: "2019-03-31T00:45:57Z"
-    pushed_at: "2026-05-05T18:06:23Z"
+    pushed_at: "2026-05-06T11:57:53Z"
     description: Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.
     homepage: https://lightning.ai/pytorch-lightning/?utm_source=ptl_readme&utm_medium=referral&utm_campaign=ptl_readme
     topics:
@@ -40,52 +40,50 @@ metadata:
       - machine-learning
       - python
       - pytorch
-    last_checked_at: "2026-05-05T21:03:20.168Z"
+    last_checked_at: "2026-05-06T22:44:58.986Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.168Z"
+      fetched_at: "2026-05-06T22:44:58.986Z"
       bytes: 28557
 insights:
-  summary: A deep learning framework that organizes PyTorch code to automate training infrastructure, enabling pretraining and finetuning of AI models across CPUs to multi-node GPUs without changing core model logic.
-  why_it_matters: It abstracts away the repetitive engineering boilerplate of distributed training, allowing developers to focus on model architecture while scaling from a laptop to 10,000+ GPUs.
-  mental_damage: Just when you thought you were a PyTorch purist, you realize you've traded raw tensor control for a framework that compares itself to NextJS, because apparently even backpropagation needs a React-like lifecycle now.
+  summary: A deep learning framework that organizes PyTorch code to automate training infrastructure, enabling pretraining and finetuning of AI models at scale from 1 to 10,000+ GPUs.
+  why_it_matters: It abstracts away repetitive engineering overhead like mixed precision and distributed training, letting developers focus on model logic while scaling across hardware without code changes.
+  mental_damage: Yet another layer of abstraction promising to save you from PyTorch boilerplate, ensuring you can now spend all your time debugging why your model mysteriously stopped converging at 10,000 GPUs instead of 1.
   tags:
-    - deep-learning
-    - distributed-computing
-    - distributed-training
-    - framework
-    - mlops
     - pytorch
+    - deep-learning
     - training
+    - framework
+    - distributed
   confidence: high
 curation:
-  status: included
-  reason: It is a code-first framework and SDK for building and training AI models, fitting the definition of ai-frameworks rather than a developer tool for writing application code.
+  status: excluded
+  reason: Excluded because it is a general deep learning and model training framework for PyTorch, not a developer-facing AI tool, agent, or productivity workflow relevant to the catalog's scope.
   evidence:
-    - Repo description states it is for pretraining/finetuning ANY AI model on GPUs with zero code changes.
-    - README explicitly defines it as a framework to organize PyTorch code and automate training infrastructure, not write application logic.
-    - Topics include pytorch, deep-learning, and machine-learning, signaling its place in the ML stack rather than the dev-tooling stack.
+    - Repo description explicitly states it is for pretraining/finetuning ANY AI model on GPUs, targeting data scientists and ML engineers.
+    - README describes it as a deep learning framework to organize PyTorch code, automate training infrastructure, and scale across hardware.
+    - Topics include ai, machine-learning, deep-learning, and python, with no coding-agent, IDE, extension, or developer-tooling angle.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (31113) exceeded threshold (150)
+  reason: Stars (31114) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:56.217Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.168Z"
+    updated_at: "2026-05-06T22:44:58.986Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:27.020Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__synter-media-ai__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 10
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-01-29T18:38:29Z"
+    pushed_at: "2026-04-23T18:12:12Z"
+    description: MCP server for AI agents to manage ad campaigns across Google, Meta, LinkedIn, Microsoft, Reddit, TikTok, and more
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:39.023Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:39.023Z"
+      bytes: 12410
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that gives AI agents read and write access to manage ad campaigns across Google, Meta, LinkedIn, Microsoft, Reddit, TikTok, and other advertising platforms.
+  why_it_matters: It lets developers wire ad account operations directly into coding assistants and MCP clients, turning natural-language chat into cross-platform campaign execution.
+  mental_damage: Your AI agent can now pause underperforming campaigns and burn real budget at 2 a.m. while you sleep, and the only safety net is a confirmation dialog it might eventually learn to click.
+  tags:
+    - mcp
+    - ad-tech
+    - marketing
+    - agent-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server for ad management, placing it cleanly in MCP Servers & Tooling as a domain-specific server rather than a generic framework or extension.
+  evidence:
+    - Repo description explicitly states 'MCP server for AI agents to manage ad campaigns'
+    - README positions it as an MCP server with Claude Desktop, Cursor, Amp, and HTTP transport configurations
+    - Listed in awesome-mcp-servers under Server Implementations > Marketing, confirming its MCP identity
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:39.023Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:14.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

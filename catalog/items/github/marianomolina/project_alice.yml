@@ -1,13 +1,13 @@
 id: github__marianomolina__project_alice
 kind: github-repo
-name: Project Alice
+name: project_alice
 canonical_url: https://github.com/marianomolina/project_alice
 identity:
   github_repo: marianomolina/project_alice
 provenance:
   discoveries:
     - id: discovery__github__marianomolina__project_alice__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -35,49 +35,50 @@ metadata:
       - agentic-framework
       - agentic-workflow
       - llm
-    last_checked_at: "2026-05-05T21:03:29.391Z"
+    last_checked_at: "2026-05-06T22:45:08.544Z"
     readme:
-      fetched_at: "2026-05-05T21:03:29.391Z"
+      fetched_at: "2026-05-06T22:45:08.544Z"
       bytes: 26495
 insights:
-  summary: A self-hosted, microservices-based framework for building, testing, and deploying agentic workflows with RAG, human-in-the-loop controls, and local model support.
-  why_it_matters: It gives developers a local-first workbench to visually construct and test complex agent pipelines with context management and evaluation tooling before pushing to production.
-  mental_damage: "Just what the ecosystem needed: another agent framework where you can spend three hours configuring RAG and context pruning to automate a task that was a five-line shell script."
+  summary: An agentic workflow framework with a web UI for creating, managing, and deploying AI agents that support RAG, human-in-the-loop, and chain-of-thought capabilities.
+  why_it_matters: It gives developers a self-hosted environment to build and coordinate multi-agent workflows with built-in context management and task orchestration.
+  mental_damage: Yet another self-hosted agent framework where you spend more time wiring microservices and pruning message queues than actually shipping code.
   tags:
     - agent-framework
-    - local-ai
+    - self-hosted
     - rag
+    - multi-agent
     - workflow
   confidence: medium
 curation:
   status: included
-  reason: It is a developer-imported framework and SDK for building agentic behavior in code, rather than a hosted control plane for operating agents.
+  reason: The project is a code-first framework and UI for building agentic workflows, fitting squarely as a developer toolkit rather than a standalone coding assistant or orchestration platform.
   evidence:
-    - "Repo description: 'A framework for agentic workflow creation and deployment'"
-    - "README: 'Alice is an agentic workflow framework that integrates task execution... leveraging a microservices architecture'"
-    - Listed in awesome-llm-agents under the 'Frameworks' section
+    - Repo description and README explicitly define it as 'a framework for agentic workflow creation and deployment' with microservices and MongoDB.
+    - Curated in the 'awesome-llm-agents' list under the 'Frameworks' section, aligning with its toolkit identity.
+    - Includes developer-facing primitives like RAG, chain-of-thought, message pruning, and prompt templating rather than acting as a primary coding agent.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (258) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:40.241Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:29.391Z"
+    updated_at: "2026-05-06T22:45:08.544Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:11:48.226Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

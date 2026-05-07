@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__debridge-finance__debridge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP server that gives AI agents the ability to execute cross-chain cryptocurrency swaps and transfers via the deBridge protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:49.923Z"
+    last_checked_at: "2026-05-06T22:43:35.296Z"
     readme:
-      fetched_at: "2026-05-05T21:01:49.923Z"
+      fetched_at: "2026-05-06T22:43:35.296Z"
       bytes: 11208
 insights:
-  summary: An MCP server that exposes deBridge cross-chain swap and transfer capabilities as tools and skills for AI agents and coding assistants.
-  why_it_matters: Developers building or extending AI agents can give them native access to cross-chain crypto execution across major blockchains without implementing deBridge protocol logic themselves.
-  mental_damage: Your AI agent can now drain wallets across multiple chains with nothing more than a prompt and a misplaced trust boundary.
+  summary: An MCP server that gives AI agents cross-chain and same-chain cryptocurrency swap and transfer capabilities via the deBridge protocol.
+  why_it_matters: Devs building AI agents that need to handle DeFi operations can plug this in to let their agents estimate fees and execute trades across major blockchains without writing custom bridge integrations.
+  mental_damage: Your coding agent can now independently drain your testnet wallets across twelve chains while you debug why it decided to swap USDC for a memecoin at 3 AM.
   tags:
     - mcp
+    - defi
     - crypto
     - blockchain
-    - agent-tools
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that exposes cross-chain swap tools and skills for AI agents, cleanly fitting the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server providing domain-specific (DeFi/cross-chain) tools and skills for AI agents, directly fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is an MCP server for AI agents to execute cross-chain swaps via deBridge.
-    - README confirms it is an MCP integration exposing tools and skills via a Streamable HTTP endpoint for Claude, Cursor, Cline, and other MCP hosts.
-    - Listed under Finance & Fintech in the awesome-mcp-servers directory, reinforcing its MCP server identity.
+    - Repo description explicitly states 'MCP server that gives AI agents the ability to execute cross-chain cryptocurrency swaps'.
+    - README positions it as an MCP integration exposing tools like `create_tx` and `transaction_same_chain_swap` via Streamable HTTP.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:49.923Z"
+    updated_at: "2026-05-06T22:43:35.296Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:49.123Z"
+    updated_at: "2026-05-06T22:52:09.078Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

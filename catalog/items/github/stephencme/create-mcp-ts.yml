@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stephencme__create-mcp-ts__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 21
+    forks: 7
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-04-09T01:23:35Z"
+    pushed_at: "2025-04-23T10:48:01Z"
+    description: Create a new MCP server in TypeScript, batteries included.
+    homepage: https://www.npmjs.com/package/create-mcp-ts
+    topics: []
+    last_checked_at: "2026-05-06T22:46:34.715Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:34.715Z"
+      bytes: 4809
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeScript scaffolding tool that generates a new, batteries-included MCP server project with zero build configuration and automatic client setup for Cursor, Windsurf, and Claude Desktop.
+  why_it_matters: It removes the boilerplate and build-tool friction from creating Model Context Protocol servers, letting developers focus on writing tool logic instead of configuring esbuild and tsup.
+  mental_damage: We have now successfully abstracted the process of building the abstraction layer that talks to the abstraction layer.
+  tags:
+    - mcp
+    - typescript
+    - scaffolding
+    - nodejs
+    - tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is a developer tool for creating and managing MCP server projects, fitting cleanly into MCP infrastructure tooling rather than a generic framework or extension.
+  evidence:
+    - "Repo description explicitly states: 'Create a new MCP server in TypeScript, batteries included.'"
+    - README details zero-config build tools via mcp-scripts and auto-configuration for Cursor, Windsurf, and Claude Desktop.
+    - Appears in awesome-mcp-servers under the 'Frameworks' section, reinforcing its MCP-specific dev-tool identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Clients / Inspectors / Dev Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:34.715Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:25.717Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__freedomintelligence__awesome-ai4med
 kind: github-repo
-name: Awesome-AI4Med
+name: awesome-ai4med
 canonical_url: https://github.com/freedomintelligence/awesome-ai4med
 identity:
   github_repo: freedomintelligence/awesome-ai4med
 provenance:
   discoveries:
     - id: discovery__github__freedomintelligence__awesome-ai4med__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2766
+    stars: 2769
     forks: 474
     license: null
     archived: false
@@ -40,50 +40,49 @@ metadata:
       - medical-llms
       - medical-vlms
       - models
-    last_checked_at: "2026-05-05T21:02:14.611Z"
+    last_checked_at: "2026-05-06T22:43:56.910Z"
     readme:
-      fetched_at: "2026-05-05T21:02:14.611Z"
+      fetched_at: "2026-05-06T22:43:56.910Z"
       bytes: 18390
 insights:
-  summary: A curated, structured directory of medical AI resources including specialized LLMs, multimodal models, datasets, and benchmarks for researchers and developers.
-  why_it_matters: It provides a clean, navigable map of the medical AI ecosystem, helping developers quickly locate relevant models and benchmarks without wading through disjointed research papers.
-  mental_damage: Yet another awesome list proving that in the age of AI, the highest-value contribution is sometimes just alphabetizing the chaos so the rest of us can feel productive while browsing.
+  summary: A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community.
+  why_it_matters: It provides developers and researchers with a structured, navigable index of specialized medical models and evaluation resources to accelerate building healthcare AI applications.
+  mental_damage: Because what the modern developer truly needs is yet another taxonomy of niche LLMs to contemplate while wondering if their general-purpose model just hallucinated the Hippocratic Oath.
   tags:
     - awesome-list
-    - benchmarks
-    - datasets
-    - llm
     - medical-ai
+    - llm-resources
+    - benchmarks
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list of resources rather than a standalone developer tool, fitting the awesome-awesomes category.
+  reason: This is a classic curation / directory repo that maps the medical AI ecosystem, fitting the navigation-aid mandate of the awesome-awesomes category.
   evidence:
-    - Repo description explicitly states it is 'A curated list of medical LLMs, multimodal systems, datasets, benchmarks'.
-    - README confirms the goal is to 'systematically curate research resources' and provide a 'structured, and easy-to-navigate collection'.
-    - The table of contents consists of categorized links to models, datasets, and papers rather than executable tooling.
+    - Repo description explicitly calls it 'A curated list of medical LLMs, multimodal systems, datasets, benchmarks'.
+    - README states the goal is to 'systematically curate research resources... providing a clean, structured, and easy-to-navigate collection'.
+    - Listed in awesome-LLM-resources as a core LLM resource directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2766) exceeded threshold (150)
+  reason: Stars (2769) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:13.225Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:14.611Z"
+    updated_at: "2026-05-06T22:43:56.910Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:35.762Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

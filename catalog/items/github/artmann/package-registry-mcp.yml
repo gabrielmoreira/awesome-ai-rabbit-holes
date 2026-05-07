@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__artmann__package-registry-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [artmann/package-registry-mcp](https://github.com/artmann/package-registry-mcp) 🏠 📇 🍎 🪟 🐧 - MCP server for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages."
         confidence: high
     - id: discovery__github__artmann__package-registry-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: MCP server for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:10.414Z"
+    last_checked_at: "2026-05-06T22:12:43.799Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.414Z"
+      fetched_at: "2026-05-06T22:12:43.799Z"
       bytes: 11769
 insights:
-  summary: An MCP server that allows AI assistants to search and retrieve real-time details from NPM, Cargo, PyPI, NuGet, and Go package registries.
-  why_it_matters: It gives coding agents live access to dependency metadata and vulnerability advisories, reducing the need to context-switch to a browser for package research.
-  mental_damage: Your agent can now argue with you about dependency versions using live registry data, making the 'which package should we use' debate even more exhausting.
+  summary: An MCP server that lets AI assistants search NPM, PyPI, crates.io, NuGet, and Go module registries and retrieve real-time package details and vulnerability advisories.
+  why_it_matters: Developers using agents can get live dependency information and security advisories instead of relying on stale training data when choosing or debugging packages.
+  mental_damage: We have invented a protocol so your AI can check if that npm package is abandonware before it confidently pastes the import statement.
   tags:
     - mcp
-    - package-registry
     - dependencies
-    - context-engineering
+    - security
+    - package-registry
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server providing tooling for the Model Context Protocol ecosystem, fitting cleanly into the MCP category.
+  reason: The product is an MCP server providing package-registry tooling for AI assistants, which fits cleanly as domain-specific MCP infrastructure.
   evidence:
     - Repo description explicitly states 'MCP server for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages.'
-    - README details integration instructions for Cursor, Claude Code, and Claude Desktop as an MCP server.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - README states 'A Model Context Protocol (MCP) server that enables AI assistants and agents (Claude, Cursor, Copilot, etc.) to search package registries.'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.414Z"
+    updated_at: "2026-05-06T22:12:43.799Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:10.899Z"
+    updated_at: "2026-05-06T22:22:28.266Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

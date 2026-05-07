@@ -1,12 +1,12 @@
 id: lilianweng__github__io__posts__2023__06__23__agent
 kind: website
-name: Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents". Lil’Log. https://lilianweng.github.io/posts/2023-06-23-agent/.
+name: 2023-06-23-agent
 canonical_url: https://lilianweng.github.io/posts/2023-06-23-agent
 identity: {}
 provenance:
   discoveries:
     - id: discovery__lilianweng__github__io__posts__2023__06__23__agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,22 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A long-form technical blog post by Lilian Weng that decomposes the architecture of LLM-powered autonomous agents into planning, memory, and tool-use components.
-  why_it_matters: It remains a foundational reference for developers building agentic workflows, outlining the system design patterns behind tools like AutoGPT and ChemCrow.
-  mental_damage: The definitive map of the rabbit hole we all read once, nodded along to, and then immediately forgot when the next shiny agent framework dropped.
+  summary: A landmark technical blog post by Lilian Weng that decomposes LLM-powered autonomous agents into planning, memory, and tool-use components with case studies.
+  why_it_matters: It remains a foundational reference for developers building agents, distilling practical patterns like ReAct, Reflexion, and external memory into a single readable architecture overview.
+  mental_damage: Reading this essay in 2023 convinced an entire generation of developers that glueing a vector store to a while-loop made them AI researchers.
   tags:
     - agents
-    - architecture
-    - llm
-    - research
+    - planning
+    - memory
+    - tool-use
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational article and conceptual overview, not a developer tool, SDK, or product that can be installed or used in a workflow.
+  reason: This is an educational blog post and reference article, not a standalone developer tool, framework, or product, and therefore does not fit the catalog's product-first scope.
   evidence:
-    - The source is a blog post (lilianweng.github.io) titled 'LLM Powered Autonomous Agents', not a software repository or tool.
-    - The content describes theory, architectures (ReAct, Reflexion), and case studies rather than providing executable code or a service.
-    - It appears in 'awesome-ai-agents' as a reference link under a 'Description' section, not as a standalone tool entry.
+    - The URL points to a Lil'Log blog post dated June 23, 2023, not a tool repository or product.
+    - The content is a technical essay discussing agent components, with citations to ReAct, Reflexion, and HuggingGPT, rather than shipping executable tooling.
+    - It appears in awesome-ai-agents as a descriptive reference (ChemCrow > Description) rather than as a tool entry.
 placement:
   primary_category: null
   section: null
@@ -58,17 +58,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:55.347Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:01.952Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

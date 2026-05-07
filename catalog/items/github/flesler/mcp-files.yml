@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flesler__mcp-files__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,50 @@ metadata:
     description: A comprehensive MCP server providing helpful tools for AI agents like Cursor
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:12.090Z"
+    last_checked_at: "2026-05-06T22:43:54.602Z"
     readme:
-      fetched_at: "2026-05-05T21:02:12.090Z"
+      fetched_at: "2026-05-06T22:43:54.602Z"
       bytes: 9635
 insights:
-  summary: A Model Context Protocol server that enables AI agents to find, read, and surgically edit code symbols across a codebase using tools like read_symbol and insert_text.
-  why_it_matters: It gives coding agents precise, codebase-wide symbol awareness and line-level editing capabilities, reducing the need for brittle whole-file rewrites.
-  mental_damage: We have reached the point where the AI needs its own specialized file server just to avoid confidently obliterating the wrong function.
+  summary: An MCP server that provides AI agents with surgical code-editing tools, including symbol discovery, line-precise insertion, and search-and-replace capabilities.
+  why_it_matters: It allows coding agents to stop guessing line numbers and start performing precise, multi-file refactoring by reading symbols and editing exact code ranges.
+  mental_damage: We have successfully abstracted away the act of typing code, so the AI can now confidently introduce syntax errors with surgical precision across your entire codebase.
   tags:
     - mcp
-    - cursor
     - code-editing
     - symbol-search
+    - cursor
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server providing specialized tools for AI agents, which fits the MCP Servers and Tooling category cleanly.
+  reason: The product identity is an MCP server providing tools for agents, fitting the MCP category's definition of protocol-first infrastructure.
   evidence:
-    - "Repo description explicitly states: 'A comprehensive MCP server providing helpful tools for AI agents like Cursor'"
-    - README documents MCP tools (read_symbol, insert_text, search_replace) designed to be added to Cursor or Claude Desktop via mcp.json configs
-    - Listed in awesome-mcp-servers under 'Community Servers', confirming its role as MCP infrastructure
+    - "Repo description explicitly states: 'A comprehensive MCP server providing helpful tools for AI agents like Cursor'."
+    - README details tools like read_symbol and insert_text designed specifically for the Model Context Protocol.
+    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:12.090Z"
+    updated_at: "2026-05-06T22:43:54.602Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:41.462Z"
+    updated_at: "2026-05-06T22:56:10.682Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pythia-the-oracle__pythia-oracle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,44 +44,50 @@ metadata:
       - oracle
       - smart-contracts
       - technical-analysis
-    last_checked_at: "2026-05-05T23:08:13.332Z"
+    last_checked_at: "2026-05-06T22:46:00.595Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.332Z"
+      fetched_at: "2026-05-06T22:46:00.595Z"
       bytes: 8341
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes on-chain calculated technical indicators (EMA, RSI, VWAP, Bollinger Bands) and event subscriptions via Chainlink for AI agents and smart contracts.
+  why_it_matters: Developers building AI trading agents or DeFi protocols can query complex technical analysis directly through the Model Context Protocol without building custom oracle infrastructure.
+  mental_damage: We have officially reached the point where your AI agent needs its own RSI feed before it can panic-sell your bags with institutional-grade sophistication.
+  tags:
+    - mcp-server
+    - defi
+    - chainlink
+    - technical-analysis
+    - oracle
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server purpose-built to expose on-chain technical indicators and event subscriptions, making MCP the core product identity rather than a compatibility footnote.
+  evidence:
+    - Repo description explicitly states 'MCP server for on-chain calculated indicators'
+    - README provides Claude Desktop, Claude Code, Cursor, Windsurf, and OpenAI Agents integration examples as the primary setup flow
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.332Z"
+    updated_at: "2026-05-06T22:46:00.595Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:26.589Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

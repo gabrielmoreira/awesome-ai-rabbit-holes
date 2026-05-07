@@ -1,12 +1,12 @@
 id: papersflow__ai
 kind: website
-name: PapersFlow
+name: papersflow.ai
 canonical_url: https://papersflow.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__papersflow__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI research workspace that indexes over 474 million academic papers to power literature reviews, citation management, LaTeX writing, and presentation generation for researchers.
-  why_it_matters: It offers an MCP server integration that allows developers building research-adjacent tools to query a massive academic corpus programmatically rather than scraping Google Scholar.
-  mental_damage: Another all-in-one 'workspace' arrives to save us from the terrifying possibility that a PhD student might have to use Zotero and Overleaf in two different browser tabs.
+  summary: PapersFlow is an AI-powered research workspace that indexes over 474M academic papers for literature reviews, citation management, LaTeX writing, and counter-evidence discovery.
+  why_it_matters: It offers developers and researchers an end-to-end platform to automate systematic reviews, synthesize evidence, and draft academic writing with verified citations, reducing months of manual research to hours.
+  mental_damage: Because nothing says 'focused coding session' like spinning up seven specialized AI agents just to double-check if a 2014 citation contradicts your hypothesis before you've even written a line of code.
   tags:
-    - academic
-    - literature-review
-    - mcp
     - research
+    - ai-agents
+    - literature-review
+    - academic
+    - latex
   confidence: high
 curation:
   status: excluded
-  reason: This is an end-user SaaS for academic research and writing, not a developer tool for building software, despite its presence in an MCP servers list.
+  reason: The product is a general-purpose academic research and writing platform for scientists and PhD students, not a developer-facing tool, framework, or coding workflow enhancer.
   evidence:
-    - Primary pitch is 'AI research workspace' for literature reviews, LaTeX writing, and citation management, targeting students and researchers.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory', but the product itself is a closed SaaS for academics, not a developer infrastructure tool.
-    - No evidence of an IDE plugin, CLI agent, or coding workflow; it generates presentations and paraphrases text rather than code.
+    - Primary page excerpt describes it as 'The all-in-one AI research workspace' for 'academic research', 'literature reviews', and 'LaTeX writing', targeting researchers and R&D teams.
+    - The extensive tool list includes citation generators, paraphrasing tools, and thesis guides, with no features aimed at code editing, repo workflows, or developer infrastructure.
+    - Appears in awesome-mcp-servers under 'Knowledge & Memory', but the core product is a SaaS research platform, not an MCP server or developer tool.
 placement:
   primary_category: null
   section: null
@@ -58,20 +59,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:59.006Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:16.751Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

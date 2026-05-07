@@ -1,12 +1,12 @@
 id: agentmindshare__com
 kind: website
-name: Agent Mindshare
+name: agentmindshare.com
 canonical_url: https://agentmindshare.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__agentmindshare__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform that monitors and analyzes how brands are perceived and discussed across major AI agents and LLMs, offering an MCP server integration for AI-assisted marketing research.
-  why_it_matters: It provides developers building AI-integrated products with analytics on how their brand is represented in LLM outputs, alongside an MCP server for workflow automation.
-  mental_damage: We have officially entered the era of 'vibe SEO,' where we now need specialized dashboards and credits to audit the hallucinations that generative models are having about our companies.
+  summary: A commercial platform that monitors and analyzes how brands are perceived across AI agents and LLMs, offering an MCP server integration for AI-assisted marketing workflows.
+  why_it_matters: It provides developers and agencies with tooling to programmatically audit and track their brand's visibility in AI-generated responses across major models.
+  mental_damage: We have successfully invented SEO for hallucinations, ensuring your brand's meaningless corporate messaging is now optimally represented in the stochastic parrot of your choice.
   tags:
-    - brand-analytics
-    - llm-monitoring
-    - marketing
-    - mcp
+    - ai-marketing
+    - brand-monitoring
+    - mcp-server
+    - llm-analytics
   confidence: high
 curation:
   status: excluded
-  reason: The core product is a marketing and brand-monitoring SaaS for businesses, not a tool designed to help developers write code, manage infrastructure, or build software.
+  reason: It is a marketing-focused SaaS platform for brand visibility tracking rather than a developer tool for building, coding, or infrastructure.
   evidence:
-    - Scraped site context describes it as a 'brand visibility platform' for monitoring AI agents, targeting agencies and marketing use cases.
-    - Primary features are sentiment analysis, competitor discovery, and BigQuery exports for marketing data, not source code assistance.
-    - Although it offers an MCP server, the tool itself is a hosted marketing analytics service rather than developer-facing infrastructure.
+    - Primary pitch is 'Monitor and track how your brand appears across AI agents and LLMs' and 'AI-generated responses about your company'.
+    - Source list context describes it as a tool for 'monitor and track how your brand appears across AI agents', linked in awesome-mcp-servers under marketing use cases.
+    - Core features are sentiment analysis, BigQuery export, and 'vibe SEO/geo' research rather than code editing or developer infrastructure.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:23.748Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:23.372Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

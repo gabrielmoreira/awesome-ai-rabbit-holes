@@ -1,13 +1,13 @@
 id: github__jbexta__agentpilot
 kind: github-repo
-name: AgentPilot
+name: agentpilot
 canonical_url: https://github.com/jbexta/agentpilot
 identity:
   github_repo: jbexta/agentpilot
 provenance:
   discoveries:
     - id: discovery__github__jbexta__agentpilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -50,49 +50,49 @@ metadata:
       - windows-copilot
       - workflow-automation
       - workflow-engine
-    last_checked_at: "2026-05-05T21:02:53.181Z"
+    last_checked_at: "2026-05-06T22:44:32.356Z"
     readme:
-      fetched_at: "2026-05-05T21:02:53.181Z"
+      fetched_at: "2026-05-06T22:44:32.356Z"
       bytes: 9113
 insights:
-  summary: A desktop GUI platform for designing, organizing, and executing complex multi-agent AI workflows with branching chats and scheduled automation.
-  why_it_matters: It gives developers a visual workbench to design and run multi-member AI workflows without wiring everything together in code.
-  mental_damage: Yet another canvas promising to wrangle your agents into a coherent workflow, just waiting for you to believe this diagram won’t become tomorrow’s legacy spaghetti.
+  summary: A desktop workflow automation platform and GUI for designing, organizing, and executing AI-driven tasks, from single LLM chats to complex multi-member workflows.
+  why_it_matters: It provides a visual, hierarchical interface for developers to build and schedule multi-agent workflows without writing a full orchestration framework from scratch.
+  mental_damage: "Just what the world needed: another desktop GUI to manage the 'complex AI-driven tasks' that we invented to avoid doing the actual work in the first place."
   tags:
-    - agent-orchestration
-    - desktop-gui
-    - multi-agent
     - workflow-automation
+    - multi-agent
+    - desktop-app
+    - gui
   confidence: high
 curation:
   status: included
-  reason: AgentPilot is an end-user desktop control plane for coordinating multiple LLMs and agents, scheduling workflows, and managing branching chats, which fits agent orchestration tooling.
+  reason: It is a workbench and control surface for designing and executing multi-agent workflows, fitting the orchestration category better than a single coding agent.
   evidence:
-    - Repo description states it is a 'versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.'
-    - README describes an 'intuitive and feature-rich interface' for designing AI workflows, branching chats, generative UI, and scheduled/recurring workflows.
-    - Listed in awesome-ai-agents under an agent orchestration section, and the project remains active with recent pushes and no archive flag.
+    - Repo description explicitly calls it a 'versatile workflow automation platform to create, organize, and execute AI workflows'.
+    - README highlights 'multi-member workflow' design, branching chats, and scheduled/recurring workflows.
+    - Listed in awesome-ai-agents under a section for autonomous agents, confirming its identity as a workflow engine.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (553) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:00.837Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:53.181Z"
+    updated_at: "2026-05-06T22:44:32.356Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:50.883Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

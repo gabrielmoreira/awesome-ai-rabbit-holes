@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__daisys-ai__daisys-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,21 +21,6 @@ provenance:
         extracted_url: https://github.com/daisys-ai/daisys-mcp
         surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
         confidence: high
-    - id: discovery__www__daisys__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: DAISYS
-        extracted_url: https://www.daisys.ai
-        surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
-        confidence: high
 metadata:
   github:
     stars: 13
@@ -47,52 +32,49 @@ metadata:
     description: The Daisys mcp server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:45.599Z"
+    last_checked_at: "2026-05-06T22:43:31.789Z"
     readme:
-      fetched_at: "2026-05-05T21:01:45.599Z"
+      fetched_at: "2026-05-06T22:43:31.789Z"
       bytes: 3735
 insights:
-  summary: An MCP server that provides voice generation capabilities by connecting AI assistants to the Daisys text-to-speech platform.
-  why_it_matters: Developers can add voice synthesis to their AI workflows by letting Claude Desktop, Cursor, or other MCP clients generate audio files directly through tool calls.
-  mental_damage: We have successfully abstracted text-to-speech behind a protocol, so your coding agent can now narrate its own struggles in a premium voice while you troubleshoot portaudio on Linux.
+  summary: An MCP server that connects AI assistants to the Daisys voice-generation platform for creating and storing audio files.
+  why_it_matters: Developers can invoke high-quality voice synthesis directly from their editor or terminal without leaving the MCP client workflow.
+  mental_damage: We have successfully abstracted text-to-speech behind yet another protocol layer so your coding agent can narrate its own hallucinations.
   tags:
-    - api
-    - audio
-    - daisys
     - mcp
-    - speech-synthesis
-    - text-to-speech
+    - tts
     - voice-generation
+    - daisys
   confidence: high
 curation:
   status: included
-  reason: This is a Model Context Protocol server that integrates Daisys voice generation into MCP-compatible clients, fitting cleanly into the MCP infrastructure category.
+  reason: The repository is explicitly an MCP server for the Daisys voice platform, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'The Daisys mcp server'"
-    - README demonstrates MCP client configuration for Claude Desktop, Cursor, mcp-cli, and mcp-vscode
-    - Listed in awesome-mcp-servers under 'Official Servers' section
+    - "Repo description states: 'The Daisys mcp server'"
+    - README shows configuration for Claude Desktop, Cursor, and VSCode MCP clients
+    - Listed in awesome-mcp-servers under the 'Official Servers' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:11.750Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:45.599Z"
+    updated_at: "2026-05-06T22:43:31.789Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:22.516Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openhands__openhands-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,59 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 165
-    forks: 83
+    stars: 167
+    forks: 85
     license: MIT
     archived: false
     created_at: "2025-09-02T20:50:27Z"
-    pushed_at: "2026-05-04T18:04:08Z"
+    pushed_at: "2026-05-06T21:52:50Z"
     description: Lightweight OpenHands CLI in a binary executable
     homepage: https://docs.openhands.dev/openhands/usage/cli/installation
     topics: []
-    last_checked_at: "2026-05-05T21:04:05.784Z"
+    last_checked_at: "2026-05-06T22:45:42.713Z"
     readme:
-      fetched_at: "2026-05-05T21:04:05.784Z"
+      fetched_at: "2026-05-06T22:45:42.713Z"
       bytes: 8865
 insights:
-  summary: A lightweight CLI and binary executable that runs the OpenHands coding agent inside terminals, IDEs, CI pipelines, and local or cloud sandboxes.
-  why_it_matters: It gives developers a fast, headless, and scriptable way to delegate coding tasks, run agents inside existing editor workflows, and integrate autonomous development into automation pipelines.
-  mental_damage: Yet another way to ask an agent to fix a bug while you nervously watch a terminal TUI and wonder if you still need to understand the code it is rewriting.
+  summary: A lightweight CLI and binary executable that runs the OpenHands coding agent directly in your terminal, IDE, or CI pipelines.
+  why_it_matters: It packages OpenHands into a standalone binary and Python tool, letting developers delegate coding tasks, run headless automation, and integrate with IDEs without standing up the full web GUI.
+  mental_damage: We have successfully reached the point where the agent needs its own agent to manage the agent's CLI flags in your terminal.
   tags:
     - cli
     - coding-agent
+    - ide-integration
     - headless
     - mcp
-    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The primary product is a developer-facing coding agent CLI that plans, writes, edits, and runs tasks directly against code in terminals, IDEs, and headless automation, which clearly fits the coding-agents category and its Terminal & CLI Agents section.
+  reason: The product is a standalone coding assistant CLI that reads code, plans changes, and executes tasks, fitting the primary coding agent identity rather than an extension or plugin.
   evidence:
-    - "Repo description states: 'Lightweight OpenHands CLI in a binary executable'."
-    - README explicitly supports terminal TUI, IDE integration, headless CI mode, and cloud agents.
-    - Already listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - Repo description states it is a 'Lightweight OpenHands CLI in a binary executable'.
+    - README lists running 'openhands' in terminal, headless CI mode, and IDE integration as core usage modes.
+    - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (165) exceeded threshold (150)
+  reason: Stars (167) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:05.784Z"
+    updated_at: "2026-05-06T22:45:42.713Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:47.146Z"
+    updated_at: "2026-05-06T23:19:40.225Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

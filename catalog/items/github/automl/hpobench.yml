@@ -1,13 +1,13 @@
 id: github__automl__hpobench
 kind: github-repo
-name: HPOlib2
+name: hpobench
 canonical_url: https://github.com/automl/hpobench
 identity:
   github_repo: automl/hpobench
 provenance:
   discoveries:
-    - id: discovery__github__automl__hpolib2__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__automl__hpobench__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,53 +37,50 @@ metadata:
       - benchmarking
       - containerized-benchmarks
       - hyperparameter-optimization
-    last_checked_at: "2026-05-05T21:01:13.426Z"
+    last_checked_at: "2026-05-06T22:12:46.138Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.426Z"
+      fetched_at: "2026-05-06T22:12:46.138Z"
       bytes: 8175
 insights:
-  summary: HPOBench is a library providing containerized hyperparameter optimization benchmarks designed for reproducible multi-fidelity benchmarking.
-  why_it_matters: It allows developers and researchers to standardize performance testing across different HPO algorithms using isolated, reproducible environments.
-  mental_damage: "Just what every engineer needed: a standardized way to quantify exactly how much time we're wasting tuning hyperparameters instead of writing features."
+  summary: A library and containerized benchmark suite for evaluating (multi-fidelity) hyperparameter optimization algorithms with a focus on reproducibility.
+  why_it_matters: It gives developers and researchers a standardized, reproducible way to measure and compare HPO algorithms across a wide range of pre-built ML and NAS benchmarks.
+  mental_damage: Yet another reminder that while we are building agents that write code, we are still spending more time tuning the knobs that train the models than the models themselves.
   tags:
-    - automl
-    - benchmarks
-    - evaluation
     - hyperparameter-optimization
-    - ml-eval
+    - benchmarking
+    - automl
     - reproducibility
+    - ml-eval
   confidence: high
 curation:
-  status: included
-  reason: This is a benchmark and evaluation framework for ML hyperparameters, which fits the Evaluations and Benchmarks category for measuring model behavior.
+  status: excluded
+  reason: This is a traditional AutoML benchmarking library for hyperparameter optimization research, not a practical AI developer tool, agent, workflow, or infrastructure project.
   evidence:
-    - "Repo description explicitly states: 'Collection of hyperparameter optimization benchmark problems'."
-    - README confirms the library provides 'benchmarks for (multi-fidelity) hyperparameter optimization with a focus on reproducibility.'
-    - Topics include 'benchmarking' and 'hyperparameter-optimization', aligning with the evals category.
-    - README confirms the library provides 'benchmarks for (multi-fidelity) hyperparameter optimization with a focus on reproducibility'.
-    - "Archived: no, pushed_at is recent (2025-05-21), and it is listed in Awesome-LLMOps under AutoML."
+    - Repo description explicitly states it is a 'Collection of hyperparameter optimization benchmark problems'.
+    - README demonstrates usage via Python benchmarking APIs and Singularity containers for ML/NAS evaluation, not coding assistants or developer workflows.
+    - Listed in Awesome-LLMOps under 'AutoML', which reflects research infrastructure rather than the curated developer-tooling scope of this catalog.
 placement:
-  primary_category: evals
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (167) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:39.914Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.426Z"
+    updated_at: "2026-05-06T22:12:46.138Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:56.239Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

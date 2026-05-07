@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skyworkai__mureka-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 91
+    forks: 20
+    license: MIT
+    archived: false
+    created_at: "2025-04-28T07:28:09Z"
+    pushed_at: "2025-05-13T10:25:27Z"
+    description: generate lyrics, song and background music(instrumental). Model Context Protocol (MCP) server.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:27.210Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:27.210Z"
+      bytes: 4099
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An official MCP server that exposes Mureka's lyrics, song, and background music generation APIs to MCP-compatible clients like Claude Desktop and OpenAI Agents SDK.
+  why_it_matters: It lets developers integrate music and lyric generation directly into AI-assisted workflows without building custom API wrappers.
+  mental_damage: We have finally solved the critical shortage of AI agents that can compose a coffee-shop lo-fi track while your actual codebase remains untouched.
+  tags:
+    - mcp
+    - music-generation
+    - api-wrapper
+    - openai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server for a specific domain (music/lyrics generation), making it a textbook fit for MCP Servers & Tooling under Domain Servers.
+  evidence:
+    - "Repo description: 'generate lyrics, song and background music... Model Context Protocol (MCP) server.'"
+    - "README: 'Official Mureka Model Context Protocol (MCP) server that enables interaction with powerful lyrics, song and bgm generating APIs.'"
+    - Listed in awesome-mcp-servers under 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:27.210Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:07.989Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

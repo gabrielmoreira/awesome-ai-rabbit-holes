@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__98lukehall__renoun-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Structural observability for AI conversations. Detects loops, stuck states, breakthroughs, and convergence patterns across 17 channels without analyzing content. MCP server + REST API.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:45.096Z"
+    last_checked_at: "2026-05-06T22:12:21.474Z"
     readme:
-      fetched_at: "2026-05-05T21:00:45.096Z"
+      fetched_at: "2026-05-06T22:12:21.474Z"
       bytes: 11918
 insights:
-  summary: An MCP server and REST API that classifies crypto market structural regimes — bounded, active, or unstable — and estimates regime stability half-life for pre-trade risk gating in trading bots and autonomous agents.
-  why_it_matters: It gives algorithmic trading systems and AI agents a lightweight, machine-readable risk signal to gate trades without analyzing price content directly.
-  mental_damage: Yet another niche SaaS emerges so your crypto bot can technically be called an 'autonomous agent' while still losing money with 100% bounded accuracy.
+  summary: An MCP server and REST API that classifies crypto market structural regimes (bounded, active, unstable) and estimates stability half-life for pre-trade risk gating in trading bots and autonomous agents.
+  why_it_matters: Developers building crypto trading agents can call a single endpoint to get structured regime signals and exit urgency instead of rolling their own TA pipelines.
+  mental_damage: Celebrates 100% bounded-regime accuracy while quietly burying the fact that the model still has to survive an active or unstable market without your bot nuking the account.
   tags:
     - mcp
     - crypto
     - trading
     - risk
-    - api
-  confidence: high
+    - agent-tooling
+  confidence: medium
 curation:
   status: included
-  reason: The project’s primary artifact is an MCP server paired with a REST API for crypto regime telemetry, which fits cleanly as MCP infrastructure.
+  reason: The product’s stated identity is an MCP server plus REST API that exposes crypto regime telemetry for agents, which fits Domain Servers under MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'MCP server + REST API' for structural observability.
-    - README documents MCP-compatible endpoints with machine-readable headers and webhook registrations.
-    - Listed in awesome-mcp-servers under Data Science Tools, reinforcing its MCP-server identity.
+    - Repo description explicitly calls it 'MCP server + REST API' for structural observability.
+    - README positions it as a pre-trade risk gate for trading bots, autonomous agents, and quant systems.
+    - Included in awesome-mcp-servers under Data Science Tools, aligning with its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:45.096Z"
+    updated_at: "2026-05-06T22:12:21.474Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:09.297Z"
+    updated_at: "2026-05-06T22:17:57.317Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gzoonet__cortex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,49 @@ metadata:
       - ollama
       - sqlite
       - web-dashboard
-    last_checked_at: "2026-05-05T21:02:29.504Z"
+    last_checked_at: "2026-05-06T22:44:10.118Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.504Z"
+      fetched_at: "2026-05-06T22:44:10.118Z"
       bytes: 10787
 insights:
-  summary: A local-first CLI and dashboard that watches project files, builds a knowledge graph using LLMs, and lets developers query across multiple repos with natural language.
-  why_it_matters: It gives developers a way to resurface scattered architecture decisions, patterns, and constraints across projects without manually digging through old READMEs and source files.
-  mental_damage: Now you can query three months of architectural indecision in natural language and get citations proving you contradicted yourself before the code even compiled.
+  summary: A local-first CLI and dashboard that watches project files, uses LLMs to extract entities and relationships into a knowledge graph, and allows natural language queries across multiple projects with source citations.
+  why_it_matters: Developers working across multiple repos can query architectural decisions, patterns, and past context without hunting through hundreds of scattered files.
+  mental_damage: You now have a tool to remember every architectural decision you made three months ago, which removes your last valid excuse for re-solving the same problem in a different repo.
   tags:
     - knowledge-graph
     - local-first
-    - mcp
+    - context-retrieval
     - llm
-    - developer-tools
   confidence: medium
 curation:
   status: included
-  reason: The tool is a retrieval, memory, and context-shaping system designed to make relevant project knowledge available to developers and their AI tools, which fits context-engineering rather than a primary coding agent or app builder.
+  reason: The core novelty is a local memory and retrieval system that indexes, distills, and queries developer context across projects, fitting Prompt & Context Engineering.
   evidence:
-    - "Repo description states: 'Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with LLMs, lets you query across projects.'"
-    - README explicitly lists 'MCP server for direct integration with Claude Code' and routes LLM calls between cloud and local models like Ollama.
-    - Included in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing its role as context infrastructure.
+    - "Repo description: 'Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with LLMs, lets you query across projects.'"
+    - "README: 'Watches your project files... extracts entities... stores in SQLite + LanceDB... queries in natural language with source citations.'"
+    - Primary artifact is memory/retrieval infrastructure, not a coding assistant or host integration layer.
 placement:
   primary_category: context-engineering
-  section: null
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.504Z"
+    updated_at: "2026-05-06T22:44:10.118Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:17.829Z"
+    updated_at: "2026-05-06T22:59:19.407Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

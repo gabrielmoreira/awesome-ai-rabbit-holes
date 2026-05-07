@@ -1,13 +1,13 @@
 id: github__moazbuilds__codemachine-cli
 kind: github-repo
-name: CodeMachine-CLI
+name: codemachine-cli
 canonical_url: https://github.com/moazbuilds/codemachine-cli
 identity:
   github_repo: moazbuilds/codemachine-cli
 provenance:
   discoveries:
     - id: discovery__github__moazbuilds__codemachine-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2474
+    stars: 2475
     forks: 239
     license: Apache-2.0
     archived: false
@@ -44,50 +44,50 @@ metadata:
       - orchestration
       - scaffolding
       - workflow-automation
-    last_checked_at: "2026-05-05T21:03:44.505Z"
+    last_checked_at: "2026-05-06T22:45:22.861Z"
     readme:
-      fetched_at: "2026-05-05T21:03:44.505Z"
+      fetched_at: "2026-05-06T22:45:22.861Z"
       bytes: 3955
 insights:
-  summary: An open-source CLI tool that orchestrates AI coding agents through structured, repeatable, and long-running workflows using headless scripting modes.
-  why_it_matters: It allows developers to capture complex agent workflows—like bug fixing or feature building—into reusable definitions, eliminating the need to manually re-explain processes to agents across sessions.
-  mental_damage: You’ve successfully automated the process of nagging your AI agents, effectively turning your terminal into a middle manager that never forgets the workflow you wish you didn't have to repeat.
+  summary: An open-source CLI tool that orchestrates existing AI coding agents like Claude Code and Cursor into reusable, multi-agent workflows with support for parallel execution and long-running tasks.
+  why_it_matters: It lets developers stop manually babysitting agents by capturing complex, multi-step coding workflows into repeatable orchestration patterns that can run autonomously for hours or days.
+  mental_damage: We have officially progressed from 'vibe coding' to 'orchestrating the vibes' across multiple agents because apparently one AI loop wasn't enough to make us feel redundant.
   tags:
-    - cli
-    - coding-agents
-    - multi-agent
     - orchestration
-    - workflow-automation
+    - cli
+    - multi-agent
+    - workflows
+    - automation
   confidence: high
 curation:
   status: included
-  reason: CodeMachine is a user-facing orchestration layer that controls and coordinates multiple AI coding agents via CLI, fitting the definition of agent orchestration rather than being a primary coding assistant itself.
+  reason: The product is explicitly an orchestration layer and control plane for coordinating multiple AI coding agents and workflows, rather than being a primary coding assistant itself.
   evidence:
-    - Repo description states it 'orchestrates AI coding agents into repeatable, long-running workflows.'
-    - README describes it as 'an orchestration layer that runs AI coding CLIs' and supports multi-agent orchestration and parallel execution.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source', confirming its relevance to the CLI agent ecosystem.
+    - Repo description states it 'orchestrates AI coding agents into repeatable, long-running workflows'
+    - README confirms it 'is an orchestration layer that runs AI coding CLIs through structured workflows' and handles multi-agent coordination
+    - Source list places it in 'Terminal-native coding agents > Open Source' under harnesses that orchestrate agents
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2474) exceeded threshold (150)
+  reason: Stars (2475) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:41.280Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:44.505Z"
+    updated_at: "2026-05-06T22:45:22.861Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:07.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cloudbet__sports-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,50 +36,50 @@ metadata:
       - mcp-server
       - sports
       - sports-data
-    last_checked_at: "2026-05-05T21:01:35.983Z"
+    last_checked_at: "2026-05-06T22:43:23.376Z"
     readme:
-      fetched_at: "2026-05-05T21:01:35.983Z"
+      fetched_at: "2026-05-06T22:43:23.376Z"
       bytes: 1011
 insights:
-  summary: A minimal, single-file Go implementation of a Model Context Protocol server that exposes sports data and betting tools via the Cloudbet public API for educational and demonstration purposes.
-  why_it_matters: Developers building MCP-aware AI agents can use this as a concrete reference for integrating external sports data APIs into their tool-calling workflows.
-  mental_damage: Just when you thought the MCP ecosystem couldn't get more niche, we now have a server dedicated to letting your coding agent check the Premier League odds instead of fixing that critical bug.
+  summary: A minimal, single-file MCP server implementation that exposes Cloudbet's sports data and betting tools via the Model Context Protocol for educational and demonstration purposes.
+  why_it_matters: It provides a concrete, runnable example of how to structure an MCP server for sports data, lowering the barrier for developers building domain-specific AI tool integrations.
+  mental_damage: Now you can spend your afternoon explaining to your coding agent why it can't parlay the Premier League fixture list into a deployed microservice.
   tags:
     - mcp
     - sports-data
     - go
-    - api-integration
     - demo
+    - api
   confidence: high
 curation:
   status: included
-  reason: This is a direct implementation of an MCP server, which fits squarely into the MCP Servers and Tooling category as infrastructure for AI agent tooling.
+  reason: The project's primary identity is an MCP server implementation for the sports/betting domain, fitting cleanly into MCP Servers & Tooling as a domain-specific example.
   evidence:
-    - Repo description explicitly states 'Cloudbet Sports Data MCP Server'.
-    - README describes it as a 'minimal implementation of the Model Context Protocol (MCP) for sports data and betting tool exposure'.
+    - Repo description explicitly states 'Cloudbet Sports Data MCP Server' and topics include mcp, mcp-server.
+    - README describes it as 'a single-file, minimal implementation of the Model Context Protocol (MCP) for sports data and betting tool exposure'.
     - Listed in awesome-mcp-servers under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:35.983Z"
+    updated_at: "2026-05-06T22:43:23.376Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:30.163Z"
+    updated_at: "2026-05-06T22:49:40.044Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

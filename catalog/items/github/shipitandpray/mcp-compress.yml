@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shipitandpray__mcp-compress__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,68 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-25T17:23:04Z"
+    pushed_at: "2026-03-25T18:36:29Z"
+    description: First MCP server for data compression. 60x compression on docs, 30x on SQL, 20x on logs. Zero dependencies. Lossless. Auto-picks best algorithm. 7 tools for any AI agent.
+    homepage: https://github.com/ShipItAndPray/mcp-compress#install
+    topics:
+      - ai-agents
+      - brotli
+      - claude-code
+      - compression
+      - data-compression
+      - developer-tools
+      - gzip
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-06T22:46:23.123Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.123Z"
+      bytes: 4128
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides 7 tools for compressing, decompressing, analyzing, and storing text, JSON, CSV, and log data using algorithms like brotli, gzip, and deflate, designed to reduce context window usage for AI agents.
+  why_it_matters: It lets agents shrink large API responses, logs, and docs before they hit the context window, potentially lowering token costs and fitting more data into limited space.
+  mental_damage: We have finally reached the point where our agents need dedicated lossless compression middleware so they can pretend to read 30KB of logs without actually reading 30KB of logs.
+  tags:
+    - mcp
+    - compression
+    - context-engineering
+    - data
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server that adds compression capabilities to any MCP-compatible agent, fitting cleanly as domain-specific MCP infrastructure rather than a framework or generic extension.
+  evidence:
+    - Repo description explicitly calls it 'First MCP server for data compression' with 7 tools for any AI agent.
+    - README states it 'Speaks MCP protocol over stdio. Works with any MCP-compatible AI agent' and is listed in awesome-mcp-servers under Server Implementations.
+    - Core tools are compress, decompress, analyze, store, retrieve, list, and stats, all centered on MCP-provided data compression.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.123Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:21.364Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

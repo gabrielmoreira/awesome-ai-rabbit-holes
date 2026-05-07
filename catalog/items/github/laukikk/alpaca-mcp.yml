@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laukikk__alpaca-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:17.338Z"
+    last_checked_at: "2026-05-06T22:44:56.399Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.338Z"
+      fetched_at: "2026-05-06T22:44:56.399Z"
       bytes: 3616
 insights:
-  summary: An MCP server that exposes the Alpaca trading API to AI assistants, enabling them to manage stock and crypto portfolios, place trades, and retrieve market data.
-  why_it_matters: It allows developers to connect LLMs like Claude to a live brokerage, turning conversational prompts into executable financial actions without building a custom integration layer.
-  mental_damage: We have finally bridged the gap between hallucinating code and hallucinating stock trades, giving your AI agent the keys to your brokerage account with nothing but a prompt between you and a margin call.
+  summary: An MCP server that exposes the Alpaca trading API as tools and resources for placing trades, managing portfolios, and accessing market data within MCP-compatible clients like Claude Desktop.
+  why_it_matters: It lets developers treat live trading operations as model-accessible tools, turning a trading API into a conversational workflow inside their existing AI assistants.
+  mental_damage: We have finally unlocked the ability to ask Claude to YOLO a crypto position at 2 AM while telling ourselves it is just a clean MCP integration.
   tags:
     - mcp
     - trading
     - finance
     - alpaca
-    - server
+    - market-data
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone Model Context Protocol server implementation designed to integrate financial trading capabilities into MCP-compatible clients.
+  reason: This is an MCP server for a specific domain (finance/trading), which clearly fits the MCP Servers & Tooling category as a domain-specific server implementation.
   evidence:
-    - Repo description explicitly states 'MCP for the Alpaca trading API'.
-    - README details a server providing resources and tools (place_market_order, get_account_info_tool) for Claude Desktop integration.
-    - Listed in awesome-mcp-servers under the 'Finance & Fintech' section.
+    - Repo description states it is 'MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data'.
+    - README confirms it is an MCP server providing trading tools and resources for MCP clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.338Z"
+    updated_at: "2026-05-06T22:44:56.399Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:22.383Z"
+    updated_at: "2026-05-06T23:08:50.456Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

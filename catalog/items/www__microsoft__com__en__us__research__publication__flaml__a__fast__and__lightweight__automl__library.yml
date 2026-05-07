@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__microsoft__com__en__us__research__publication__flaml__a__fast__and__lightweight__automl__library__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,21 +35,21 @@ metadata:
     readme: null
 insights:
   summary: FLAML is a lightweight Python AutoML library from Microsoft Research that automatically selects machine learning models and tunes hyperparameters under tight computational budgets.
-  why_it_matters: It lets developers automate model and hyperparameter selection with minimal compute cost, integrating directly into Python workflows for efficient ML prototyping.
-  mental_damage: Yet another reminder that the hardest part of machine learning is still deciding which model to pick, even when the library does it for you at lightning speed.
+  why_it_matters: It lets developers produce accurate ML models with minimal tuning effort and lower compute cost, simplifying model selection in traditional ML workflows.
+  mental_damage: Yet another reminder that while we automate picking models, we’re still manually debugging the prompts that will eventually replace the need for those models entirely.
   tags:
     - automl
-    - python
-    - hyperparameter-tuning
+    - ml
     - microsoft-research
+    - hyperparameter-tuning
   confidence: high
 curation:
   status: excluded
-  reason: FLAML is a traditional AutoML library for training and tuning ML models, not a developer-facing AI coding tool, agent, or workflow product.
+  reason: FLAML is a traditional AutoML library for training machine learning models, not a developer-facing AI coding tool, agent, extension, or infrastructure component.
   evidence:
-    - Microsoft Research page describes it as a library to automate learner and hyperparameter selection for training datasets, not code generation or developer workflows.
-    - Appears in Awesome-LLMOps under AutoML, which reflects ML Ops scope rather than the coding-agent, app-builder, or developer-tooling focus of this catalog.
-    - No evidence of IDE integration, coding assistance, app generation, or developer workflow automation in the provided description or excerpts.
+    - Microsoft Research describes it as a library to 'automate the choices of learners and hyperparameters' for ML datasets.
+    - Seen in Awesome-LLMOps under AutoML, but the tool itself has no coding-agent, IDE, or developer workflow augmentation purpose.
+    - The excerpt focuses on model training and cost-effective hyperparameter optimization, not code generation or AI-assisted development.
 placement:
   primary_category: null
   section: null
@@ -59,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:51:59.252Z"
+    updated_at: "2026-05-06T22:34:17.567Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

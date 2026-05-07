@@ -1,0 +1,86 @@
+id: github__quivrhq__megaparse
+kind: github-repo
+name: megaparse
+canonical_url: https://github.com/quivrhq/megaparse
+identity:
+  github_repo: quivrhq/megaparse
+provenance:
+  discoveries:
+    - id: discovery__github__quivrhq__megaparse__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: MegaParse
+        extracted_url: https://github.com/quivrhq/megaparse
+        surrounding_text: "24. [MegaParse](https://github.com/QuivrHQ/MegaParse): File Parser optimised for LLM Ingestion with no loss."
+        confidence: high
+metadata:
+  github:
+    stars: 7364
+    forks: 414
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-05-29T08:40:29Z"
+    pushed_at: "2025-02-21T15:21:14Z"
+    description: "File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs. "
+    homepage: https://megaparse.com
+    topics:
+      - docx
+      - llm
+      - parser
+      - pdf
+      - powerpoint
+    last_checked_at: "2026-05-06T22:46:03.548Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:03.548Z"
+      bytes: 3333
+insights:
+  summary: A Python-based document parser optimized for LLM ingestion that converts PDFs, Word, PowerPoint, and Excel files into structured text with minimal information loss.
+  why_it_matters: It provides a specialized preprocessing pipeline for developers building RAG systems or AI workflows that need to ingest complex business documents without losing tables, headers, or structure.
+  mental_damage: Yet another library promising to solve the 'PDF-to-LLM' pipeline, ensuring you can now feed your model 7,000 words of boilerplate Terms of Service with unprecedented fidelity.
+  tags:
+    - parser
+    - llm-ingestion
+    - rag
+    - document-processing
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first library used by developers to parse documents for AI workflows, fitting the Frameworks & SDKs category under retrieval infrastructure rather than a standalone agent or app builder.
+  evidence:
+    - "Repo description explicitly states: 'File Parser optimised for LLM Ingestion with no loss'"
+    - Installation via `pip install megaparse` and usage as a Python import (`from megaparse import MegaParse`) confirms code-first library identity.
+    - Supports PDF, Docx, PPTx, Excel, and CSV with benchmarks comparing similarity ratios against unstructured and llama_parser.
+placement:
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (7364) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.644Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:03.548Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:05.710Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,80 @@
+id: github__alibaba__logics-parsing
+kind: github-repo
+name: logics-parsing
+canonical_url: https://github.com/alibaba/logics-parsing
+identity:
+  github_repo: alibaba/logics-parsing
+provenance:
+  discoveries:
+    - id: discovery__github__alibaba__logics-parsing__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: Logics-Parsing
+        extracted_url: https://github.com/alibaba/logics-parsing
+        surrounding_text: 41. [Logics-Parsing](https://github.com/alibaba/Logics-Parsing)
+        confidence: high
+metadata:
+  github:
+    stars: 1341
+    forks: 113
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-09-11T02:57:24Z"
+    pushed_at: "2026-04-08T06:50:21Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:12:34.473Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:34.473Z"
+      bytes: 20677
+insights:
+  summary: Logics-Parsing is an Alibaba-built document parsing model that converts complex document images, including code blocks and flowcharts, into structured HTML output.
+  why_it_matters: It enables developers to ingest and structure complex documents, STEM content, and pseudocode blocks directly into HTML for downstream processing or RAG pipelines.
+  mental_damage: Yet another model to add to the stack, ensuring your 'simple' parsing pipeline now requires keeping up with Alibaba's latest SOTA benchmark chasing.
+  tags:
+    - parsing
+    - document-ai
+    - ml-model
+    - html-output
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the repository is a model/research release for document parsing rather than a developer-facing tool, IDE, framework, or agent for writing software.
+  evidence:
+    - The README describes a model release (Logics-Parsing-v2) focused on document image-to-HTML parsing, not a coding tool.
+    - Missing repo description and listed in a generic 'LLM resources' awesome list under 'Data', indicating a research/resource fit rather than a developer tool fit.
+    - The toolkit is a parsing model/checkpoint, which falls under common false positives for frameworks and local AI categories.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1341) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.601Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:34.473Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:32.634Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

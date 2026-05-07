@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rupinder2__mcp-orchestrator__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-22T06:19:00Z"
+    pushed_at: "2026-02-26T01:47:08Z"
+    description: " MCP Orchestration Gateway – aggregates tools from multiple MCP servers with BM25 search and deferred loading for Claude Desktop"
+    homepage: ""
+    topics:
+      - claude
+      - claude-desktop
+      - fastmcp
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - tool-aggregation
+      - tool-search-tool
+    last_checked_at: "2026-05-06T22:46:14.064Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:14.064Z"
+      bytes: 9218
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP gateway that aggregates tools from multiple downstream MCP servers and provides BM25-based search with deferred loading to conserve context window space in Claude Desktop.
+  why_it_matters: Developers running many MCP servers can unify tool access and search without exhausting their model's context window on unused tool definitions.
+  mental_damage: We have successfully built infrastructure to manage the overwhelming abundance of infrastructure we just built to talk to other infrastructure.
+  tags:
+    - mcp
+    - tool-aggregation
+    - context-management
+    - claude-desktop
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is an MCP middleware server that aggregates and searches across other MCP servers, fitting cleanly as MCP infrastructure rather than a coding agent or generic framework.
+  evidence:
+    - Repo description explicitly states 'MCP Orchestration Gateway – aggregates tools from multiple MCP servers'
+    - README shows it runs as an MCP server and is configured in Claude Desktop's mcpServers block
+    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:14.064Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:31.819Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

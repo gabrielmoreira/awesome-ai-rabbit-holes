@@ -1,0 +1,95 @@
+id: github__datajuicer__data-juicer
+kind: github-repo
+name: data-juicer
+canonical_url: https://github.com/datajuicer/data-juicer
+identity:
+  github_repo: datajuicer/data-juicer
+provenance:
+  discoveries:
+    - id: discovery__github__datajuicer__data-juicer__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: data-juicer
+        extracted_url: https://github.com/modelscope/data-juicer
+        surrounding_text: "3. [data-juicer](https://github.com/modelscope/data-juicer): A one-stop data processing system to make data higher-quality, juicier, and more digestible for LLMs!"
+        confidence: high
+metadata:
+  github:
+    stars: 6382
+    forks: 368
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-08-01T09:16:41Z"
+    pushed_at: "2026-04-28T04:31:42Z"
+    description: Data processing for and with foundation models!  🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷
+    homepage: https://datajuicer.github.io/data-juicer/
+    topics:
+      - data
+      - data-analysis
+      - data-pipeline
+      - data-processing
+      - data-science
+      - data-visualization
+      - foundation-models
+      - instruction-tuning
+      - large-language-models
+      - llm
+      - llms
+      - multi-modal
+      - pre-training
+      - synthetic-data
+    last_checked_at: "2026-05-06T22:43:33.298Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:33.298Z"
+      bytes: 16334
+insights:
+  summary: Data-Juicer is a modular, cloud-native data processing toolkit providing 200+ operators to clean, synthesize, and analyze multimodal data for LLM pre-training, fine-tuning, and agent workflows.
+  why_it_matters: It lets developers build composable, YAML-based data pipelines to curate high-quality datasets and agent traces at scale, from laptops to thousand-node Ray clusters.
+  mental_damage: Because even with the perfect 70B-sample dataset deduplicated in 2.8 hours, your model will still confidently hallucinate that Data-Juicer is a citrus-based cocktail recipe.
+  tags:
+    - data-pipeline
+    - llm-training
+    - multimodal
+    - ray
+    - synthetic-data
+  confidence: high
+curation:
+  status: excluded
+  reason: Exclude because it is primarily a data science and ML training infrastructure library, not a developer-facing AI tool for coding, agents, or app-building workflows.
+  evidence:
+    - "Repo description and README focus on foundation model data processing: pre-training, fine-tuning, RL, and data curation, not developer tooling."
+    - Topics (data-pipeline, data-science, pre-training, instruction-tuning) and operators (TextLengthFilter, WhitespaceNormalizationMapper) target ML engineering, not coding assistants or IDEs.
+    - Source list places it under '数据 Data' (Data) in an LLM resources list, confirming its identity as a data tool rather than a developer productivity product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6382) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:33.298Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:42.153Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

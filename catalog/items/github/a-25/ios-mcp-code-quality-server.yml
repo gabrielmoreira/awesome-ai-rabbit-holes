@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__a-25__ios-mcp-code-quality-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,30 +39,22 @@ metadata:
       - swift
       - swiftlint
       - xcode
-    last_checked_at: "2026-05-05T21:00:45.292Z"
+    last_checked_at: "2026-05-06T22:12:21.550Z"
     readme:
-      fetched_at: "2026-05-05T21:00:45.292Z"
+      fetched_at: "2026-05-06T22:12:21.550Z"
       bytes: 16009
 insights:
-  summary: An MCP server and CLI tool that runs Xcode tests and SwiftLint analysis, providing structured reports to AI assistants and developers for iOS code quality feedback.
-  why_it_matters: It bridges Xcode build/test tooling with MCP-compatible AI assistants, allowing iOS developers to get structured linting and test failure feedback directly through their AI workflows.
-  mental_damage: Finally, your AI assistant can now argue with you about SwiftLint violations that you were perfectly capable of ignoring on your own.
-  tags:
-    - mcp
-    - ios
-    - swift
-    - xcode
-    - linting
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is itself an MCP server implementation for iOS code quality analysis, which fits cleanly into the MCP Servers and Tooling category rather than being a coding agent or extension.
-  evidence:
-    - Repo description explicitly states this is an MCP server for AI assistants to run Xcode tests and linter analysis.
-    - README confirms dual-mode operation as both CLI tool and MCP server implementing the Model Context Protocol.
-    - Listed in awesome-mcp-servers under Developer Tools section, reinforcing its MCP infrastructure role.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -70,19 +62,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:45.292Z"
+    updated_at: "2026-05-06T22:12:21.550Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:11.227Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-06T23:34:07.782Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__a-25__ios-mcp-code-quality-server: 你好，我无法给到相关内容。"
     next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,76 @@
+id: webflow__com__ai
+kind: website
+name: ai
+canonical_url: https://webflow.com/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__webflow__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Webflow AI
+        extracted_url: https://webflow.com/ai
+        surrounding_text: "- **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content generation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Webflow AI is an integrated suite of generative AI features within the Webflow platform that generates sites from prompts, creates copy and code components, and optimizes sites for AI-driven search (AEO).
+  why_it_matters: It offers developers a prompt-to-site builder that scaffolds entire Webflow designs and generates React code components without leaving the platform.
+  mental_damage: Now you can watch a generative model slowly replace the hand-crafted CSS you spent three years perfecting, while the marketing team celebrates 'faster time to creativity.'
+  tags:
+    - app-builder
+    - prompt-to-site
+    - webflow
+    - cms
+  confidence: high
+curation:
+  status: included
+  reason: The primary user experience is turning prompts into websites and generating site assets, which aligns with the App Builders category rather than a coding agent.
+  evidence:
+    - The site claims users can 'generate an entire website with a scalable design system in minutes, all from a basic prompt.'
+    - Webflow AI features include 'Generate code components' and 'AI site builder' as core offerings.
+    - Included in awesome-ai-coding-tools under the 'App Builders' section, matching the prompt-to-site workflow.
+placement:
+  primary_category: app-builders
+  section: Prompt-to-Site Builders
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:17.504Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

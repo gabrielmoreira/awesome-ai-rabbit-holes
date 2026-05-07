@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcpware__ui-annotator-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,49 @@ metadata:
       - typescript
       - web-development
       - web-scraping
-    last_checked_at: "2026-05-05T21:03:33.764Z"
+    last_checked_at: "2026-05-06T22:45:12.285Z"
     readme:
-      fetched_at: "2026-05-05T21:03:33.764Z"
+      fetched_at: "2026-05-06T22:45:12.285Z"
       bytes: 9628
 insights:
-  summary: An MCP server that acts as a reverse proxy to inject hover annotations onto any web page, giving AI assistants human-readable names for UI elements.
-  why_it_matters: It bridges the communication gap between developers and coding agents by providing a shared visual vocabulary for UI elements, turning vague 'that button' requests into precise, editable instructions.
-  mental_damage: We have successfully built a proxy server just so our AI can finally understand which div we are pointing at, proving that the modern web stack is now too complex for the bots we built to automate it.
+  summary: An MCP server that acts as a reverse proxy to inject hover-based UI element annotations into any web page, giving AI assistants structured DOM context without browser extensions.
+  why_it_matters: It eliminates the 'that thing on the left' problem by giving both humans and AI a shared, human-readable vocabulary for UI elements during design and debugging workflows.
+  mental_damage: We’ve built a proxy to label buttons so the AI can finally understand what we’re pointing at, because apparently the 2024 dream of 'just describe it' still needs a reverse proxy and a hover label to work.
   tags:
     - mcp
-    - ui-annotation
     - browser-automation
+    - ui-annotation
     - devtools
-    - claude
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server designed to augment AI assistants with structured UI data, fitting squarely into the MCP infrastructure category.
+  reason: The product is an MCP server that provides browser UI annotation via a proxy, making MCP its core identity rather than a compatibility footnote.
   evidence:
-    - Repo description explicitly identifies it as an 'MCP server' for web page annotation.
-    - README confirms it provides MCP tools like `get_elements()` and `annotate(url)` for AI integration.
-    - Featured in the 'awesome-mcp-servers' list under 'Developer Tools' implementations.
+    - Repo description explicitly states 'MCP server that annotates any web page with hover labels'.
+    - README confirms MCP tools (annotate, get_elements, highlight_element) and MCP-first architecture throughout.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:33.764Z"
+    updated_at: "2026-05-06T22:45:12.285Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:33.881Z"
+    updated_at: "2026-05-06T23:12:43.880Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

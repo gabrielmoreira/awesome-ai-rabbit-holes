@@ -1,12 +1,12 @@
 id: www__truefoundry__com
 kind: website
-name: TrueFoundry
+name: www.truefoundry.com
 canonical_url: https://www.truefoundry.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__truefoundry__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,41 +34,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TrueFoundry is an enterprise-grade AI infrastructure platform providing an AI Gateway (including MCP and Agent Gateways), model serving, fine-tuning, and observability for deploying and governing agentic AI applications across various environments.
-  why_it_matters: It provides developers with a unified control plane to deploy any model or agent framework, manage prompt lifecycles, and enforce governance and cost controls without sinking time into custom MLOps plumbing.
-  mental_damage: Just when you thought your job description was safe as 'Software Engineer,' the platform promises to turn your GPU fleet into a self-optimizing engine that makes you wonder if 'Infrastructure Whisperer' is next on the business card.
+  summary: TrueFoundry is an enterprise-grade AI gateway and deployment platform that unifies LLM routing, MCP server management, agent orchestration, prompt lifecycle management, and infrastructure observability into a single control plane.
+  why_it_matters: It lets developers deploy any model or agent framework, manage prompt versions, and observe GPU and agent performance from one interface instead of stitching together fragmented MLOps tooling.
+  mental_damage: Yet another control plane promising to finally bring order to your agent sprawl, right up until you realize your agents now need their own agents to manage the control plane.
   tags:
-    - agents
-    - ai-gateway
-    - enterprise
     - llmops
+    - agent-gateway
     - mcp
+    - gpu-orchestration
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: TrueFoundry is an operational control plane and platform for deploying, governing, and observing agentic AI and LLM workflows, which fits the end-user platform definition for agent orchestration rather than a code-first SDK or a primary coding assistant.
+  reason: TrueFoundry is primarily an operated control plane and runtime platform for deploying, governing, and observing models, MCP servers, and multi-agent workloads, which aligns with Agent Orchestration's workbench/control-plane definition.
   evidence:
-    - Source list 'Awesome-LLMOps' identifies it as an AI Gateway combining LLM, MCP, and Agent Gateways.
-    - Scraped site describes a 'unified control plane' for deploying, scaling, and tracing agentic AI workloads and infrastructure observability.
-    - Product features include AI Gateway, MCP Registry, Prompt Lifecycle Management, and deployment for Langgraph/CrewAI agents.
+    - Site states it is an 'enterprise-grade AI Gateway combining LLM, MCP, and Agent Gateways' with a 'unified control plane'.
+    - Product surfaces include AI Gateway, MCP Gateway, Agent Gateway, Prompt Management, and framework-agnostic agent tracing.
+    - Listed in Awesome-LLMOps under the LLMOps section as a governance and deployment platform.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:59.986Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:05.231Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

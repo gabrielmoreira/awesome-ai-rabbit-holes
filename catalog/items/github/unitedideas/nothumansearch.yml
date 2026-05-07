@@ -1,13 +1,13 @@
 id: github__unitedideas__nothumansearch
 kind: github-repo
-name: Not Human Search
+name: nothumansearch
 canonical_url: https://github.com/unitedideas/nothumansearch
 identity:
   github_repo: unitedideas/nothumansearch
 provenance:
   discoveries:
     - id: discovery__github__unitedideas__nothumansearch__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -21,21 +21,6 @@ provenance:
         anchor_text: Not Human Search
         extracted_url: https://github.com/unitedideas/nothumansearch
         surrounding_text: "- **[Not Human Search](https://github.com/unitedideas/nothumansearch)** `⭐ 0` — Search engine for AI agents that ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin); 8,000+ indexed sites exposed via MCP server, REST API, and full-text search. Lets agents discover and verify external services before wiring them into a repo. MIT."
-        confidence: high
-    - id: discovery__nothumansearch__ai__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - MCP Servers and Directories
-        anchor_text: Not Human Search
-        extracted_url: https://nothumansearch.ai/mcp
-        surrounding_text: "- **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools, MCP servers, and APIs."
         confidence: high
 metadata:
   github:
@@ -51,47 +36,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A searchable web directory and index of Model Context Protocol (MCP) servers and tools.
-  why_it_matters: It provides a centralized navigation point for developers looking to discover and integrate MCP-compatible tools into their AI-assisted workflows.
-  mental_damage: Just when you thought you had a handle on the 47 MCP servers you already installed, here comes a directory to remind you of the 400 more you're missing.
-  tags:
-    - context
-    - directory
-    - discovery
-    - mcp
-    - tooling
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a directory/index of MCP tools rather than an MCP server, client, or toolkit itself, making it a navigation aid for developers.
-  evidence:
-    - URL resolves to nothumansearch.ai/mcp, indicating a searchable index rather than a tool repo.
-    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - No repository description, stars, or code indicators provided; fits the profile of a curated web directory.
-    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
-    - URL is https://nothumansearch.ai/mcp, indicating a web-based directory surface
-    - No repository description, README, or code indicators provided that suggest it is a server or toolkit
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:35.244Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

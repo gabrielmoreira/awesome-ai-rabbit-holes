@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__medical-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,50 @@ metadata:
       - pubmed
       - rxnorm
       - who
-    last_checked_at: "2026-05-05T21:02:50.455Z"
+    last_checked_at: "2026-05-06T22:44:29.847Z"
     readme:
-      fetched_at: "2026-05-05T21:02:50.455Z"
+      fetched_at: "2026-05-06T22:44:29.847Z"
       bytes: 9453
 insights:
-  summary: An MCP server that provides AI coding environments like Cursor and Claude Desktop with access to medical data from the FDA, WHO, PubMed, RxNorm, and Google Scholar.
-  why_it_matters: Developers building healthcare or medical AI applications can ground their assistants in authoritative, real-time clinical data without managing multiple API keys or external cloud calls.
-  mental_damage: We have reached the point where our coding agents need PubMed access to argue with us about whether a cough requires antibiotics.
+  summary: An MCP server that provides local, API-key-free access to authoritative medical data sources including FDA, WHO, PubMed, RxNorm, and Google Scholar for integration with AI coding environments.
+  why_it_matters: It allows developers building health-tech applications to query trusted medical databases directly within their AI workflow without external API configuration or cloud data leaks.
+  mental_damage: You can now ask your coding agent for pediatric dosage guidelines without leaving the editor, which is either a massive productivity hack or the beginning of an unregulated prescription workflow.
   tags:
     - mcp
     - medical
-    - healthcare
-    - cursor
-    - context
+    - local-first
+    - data-access
+    - domain-server
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server that exposes medical data sources to AI developer tools, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server for the medical domain, fitting exactly into the MCP Servers & Tooling category as a domain-specific data provider.
   evidence:
     - "Repo description explicitly states: 'An MCP server that provides comprehensive medical information by querying multiple authoritative medical APIs'."
-    - README confirms it is 'An MCP (Model Context Protocol) server' designed for Cursor and Claude Desktop.
-    - Listed in the awesome-mcp-servers directory under 'Biology, Medicine and Bioinformatics'.
+    - README describes it as 'An MCP (Model Context Protocol) server that brings authoritative medical information into AI coding environments like Cursor and Claude Desktop'.
+    - Appears in the 'awesome-mcp-servers' list under the 'Biology, Medicine and Bioinformatics' section, confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:50.455Z"
+    updated_at: "2026-05-06T22:44:29.847Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:26.765Z"
+    updated_at: "2026-05-06T23:03:20.926Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

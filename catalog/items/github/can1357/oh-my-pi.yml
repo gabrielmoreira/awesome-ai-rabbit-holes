@@ -1,13 +1,13 @@
 id: github__can1357__oh-my-pi
 kind: github-repo
-name: OH-MY-PI
+name: oh-my-pi
 canonical_url: https://github.com/can1357/oh-my-pi
 identity:
   github_repo: can1357/oh-my-pi
 provenance:
   discoveries:
     - id: discovery__github__can1357__oh-my-pi__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3959
-    forks: 364
+    stars: 4042
+    forks: 369
     license: MIT
     archived: false
     created_at: "2025-12-31T14:01:28Z"
-    pushed_at: "2026-05-05T14:15:32Z"
+    pushed_at: "2026-05-06T22:34:56Z"
     description: ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
     homepage: ""
     topics:
@@ -48,50 +48,50 @@ metadata:
       - terminal
       - tui
       - typescript
-    last_checked_at: "2026-05-05T21:01:29.790Z"
+    last_checked_at: "2026-05-06T22:43:17.132Z"
     readme:
-      fetched_at: "2026-05-05T21:01:29.790Z"
+      fetched_at: "2026-05-06T22:43:17.132Z"
       bytes: 61982
 insights:
-  summary: A terminal-native AI coding agent forked from pi-mono that supports hash-anchored edits, LSP integration, browser automation, subagents, and multiple LLM providers.
-  why_it_matters: It gives developers a fast, terminal-first coding agent with deep tooling integration and multi-provider flexibility, without leaving the CLI.
-  mental_damage: Another terminal agent promising to hash-anchor its way through your codebase while you stare at a TUI and wonder if you still need to know what any of the code actually does.
+  summary: A terminal-native AI coding agent for the terminal that supports hash-anchored edits, an optimized tool harness, LSP integration, Python, browser automation, and subagents.
+  why_it_matters: It offers developers a locally runnable, multi-provider coding assistant with deep terminal integration and extensible tooling for repo-level work.
+  mental_damage: Yet another fork in the terminal agent gold rush, proving that the fastest way to build a coding assistant is to fork an existing one and add more flags.
   tags:
+    - terminal
     - cli
     - coding-agent
-    - multi-provider
     - rust
-    - terminal
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: This is a terminal-native coding agent that directly edits, plans, and debugs code in a repo via CLI, which cleanly fits the coding-agents category.
+  reason: This is a standalone terminal coding agent that reads code, plans changes, and edits files, matching the primary product identity of a coding assistant rather than an extension or framework.
   evidence:
-    - Repo description states 'AI Coding agent for the terminal' with hash-anchored edits, LSP, and subagents.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
-    - Active repo (pushed 2026-05-05) with 3959 stars and an MIT license.
+    - Repo description explicitly calls it an 'AI Coding agent for the terminal' with hash-anchored edits and tool harness.
+    - README positions it as a primary coding assistant with sessions, context compaction, branching, and autonomous memory.
+    - Listed in awesome-cli-coding-agents under Terminal-native coding agents > Open Source.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3959) exceeded threshold (150)
+  reason: Stars (4042) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:23.730Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:29.791Z"
+    updated_at: "2026-05-06T22:43:17.132Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:00.976Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

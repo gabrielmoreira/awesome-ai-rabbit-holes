@@ -1,12 +1,12 @@
 id: www__theunwindai__com
 kind: website
-name: Unwind AI
+name: www.theunwindai.com
 canonical_url: https://www.theunwindai.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Unwind AI is a newsletter and content hub delivering daily digests, tutorials, and commentary on AI agents, LLMs, and developer-facing AI tooling.
-  why_it_matters: It aggregates high-leverage AI development trends and tutorials into a single feed, helping developers keep up with the rapidly evolving agent and LLM ecosystem without chasing individual repos.
-  mental_damage: Yet another expertly curated daily reminder that while you are fixing a CSS bug, the rest of the ecosystem is apparently building autonomous, 24/7, self-teaching agent workforces.
+  summary: A newsletter and curated digest covering daily AI agent updates, tutorials, and open-source app examples for developers building with LLMs.
+  why_it_matters: It aggregates practical, runnable AI agent and RAG examples along with daily ecosystem updates, saving developers from hunting across fragmented channels.
+  mental_damage: Another daily AI digest promising to keep you current, ensuring you can feel behind on agent frameworks, context windows, and Claude.md trivia before your first coffee.
   tags:
-    - ai-agents
-    - content-hub
-    - llm
     - newsletter
+    - agents
+    - llm-apps
     - tutorials
+    - digest
   confidence: high
 curation:
   status: included
-  reason: The project is a content publication and daily digest covering AI tools and agent workflows, which fits the newsletters-and-feeds category as an ongoing discovery resource for developers.
+  reason: The site is a recurring AI digest and tutorial hub ('Daily Unwind', 'Weekly Unwind', blogs, tutorials) rather than a standalone developer tool, making it a clear fit for Publications & Feeds.
   evidence:
-    - Site describes itself as an 'Open-source Ecosystem for High-Leverage AI Builders' with 'Daily Unwind' and 'Weekly Unwind' sections.
-    - Primary page excerpt shows 'AI Blogs', 'AI Tutorial', and 'Daily Unwind' entries rather than a software product or IDE tool.
-    - Listed in awesome-llm-apps under a section titled '💡 Why this exists', functioning as a content hub for the list itself.
+    - Site describes itself as a 'Daily Unwind' and 'Weekly Unwind' with AI blogs, tutorials, and ecosystem updates.
+    - Featured content includes tutorials like 'Build a Voice-First Insurance Claim Live Agent Team' and 'How to Run a 24/7 AI Agent'.
+    - Listed in awesome-llm-apps as part of an open-source ecosystem for AI builders, reinforcing its media and discovery role.
 placement:
   primary_category: newsletters-and-feeds
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:48.030Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:01.198Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

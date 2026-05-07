@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mnemox-ai__tradememory-protocol__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 793
-    forks: 109
+    stars: 808
+    forks: 110
     license: MIT
     archived: false
     created_at: "2026-02-23T10:35:46Z"
@@ -44,50 +44,50 @@ metadata:
       - mt5
       - outcome-weighted-memory
       - trading
-    last_checked_at: "2026-05-05T21:03:44.394Z"
+    last_checked_at: "2026-05-06T22:45:22.708Z"
     readme:
-      fetched_at: "2026-05-05T21:03:44.394Z"
+      fetched_at: "2026-05-06T22:45:22.708Z"
       bytes: 10941
 insights:
-  summary: An MCP server that provides AI trading agents with a persistent, outcome-weighted memory layer and SHA-256 tamper-proof audit trails for decision logging.
-  why_it_matters: It gives developers building trading agents a drop-in memory and compliance layer that works across any market, broker, or AI platform via the Model Context Protocol.
-  mental_damage: Your trading bot can now hallucinate with the unshakable confidence of a seasoned day trader, backed by a cryptographically secure diary of every bad decision it made last week.
+  summary: A persistent memory layer and MCP server that records trading decisions, outcomes, and audit trails for AI agents with SHA-256 tamper detection and outcome-weighted recall.
+  why_it_matters: It gives trading agents a memory system that survives context windows and produces regulator-ready audit trails across any market, broker, or AI platform.
+  mental_damage: Your AI trader still can't beat the market, but at least it can now perfectly document every dollar it forgot it lost.
   tags:
     - mcp
-    - trading
     - memory
-    - audit
-    - finance
+    - trading
+    - audit-trail
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: It is a well-documented MCP server with 17 tools specifically designed to extend AI agents with persistent memory and audit capabilities.
+  reason: The core novelty is a memory, retrieval, and audit system for AI agents, which maps cleanly to Prompt & Context Engineering, and MCP is the integration layer rather than the product identity.
   evidence:
-    - Repo description explicitly states '17 MCP tools' and the README confirms it is an MCP server installable via pip and configurable in Claude Desktop.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section, aligning with the catalog's MCP tooling scope.
-    - Active repository (pushed 2026-04-10) with 793 stars and MIT license.
+    - Repo description explicitly positions it as 'Decision audit trail + persistent memory for AI trading agents' with 17 MCP tools.
+    - README states 'TradeMemory is the memory layer' and emphasizes outcome-weighted recall, five memory layers, and SHA-256 tamper-proof audit trails.
+    - Listed in awesome-mcp-servers under Finance & Fintech, but memory system is the primary artifact, not just MCP compatibility.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
-  reason: Stars (793) exceeded threshold (150)
+  reason: Stars (808) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:44.394Z"
+    updated_at: "2026-05-06T22:45:22.708Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:36.114Z"
+    updated_at: "2026-05-06T23:15:01.011Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

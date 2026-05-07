@@ -1,13 +1,13 @@
 id: github__alternbits__awesome-ai-agents
 kind: github-repo
-name: Awesome AI Agents
+name: awesome-ai-agents
 canonical_url: https://github.com/alternbits/awesome-ai-agents
 identity:
   github_repo: alternbits/awesome-ai-agents
 provenance:
   discoveries:
-    - id: discovery__github__aylar-ghezelbash__awesome-ai-agents__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__alternbits__awesome-ai-agents__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 132
-    forks: 32
+    forks: 31
     license: MIT
     archived: false
     created_at: "2025-01-21T14:38:33Z"
@@ -42,49 +42,49 @@ metadata:
       - awesome-list
       - ml
       - mlops
-    last_checked_at: "2026-05-05T21:01:15.689Z"
+    last_checked_at: "2026-05-06T22:12:36.173Z"
     readme:
-      fetched_at: "2026-05-05T21:01:15.689Z"
+      fetched_at: "2026-05-06T22:12:36.173Z"
       bytes: 4720
 insights:
-  summary: A curated, categorized list of open-source and closed-source AI agents, frameworks, and companies.
-  why_it_matters: It serves as a centralized map of the rapidly expanding agent ecosystem, helping developers quickly locate tools for task automation, coding, and orchestration.
-  mental_damage: Yet another index to help you feel behind on the 400 different ways your job is about to be automated by a 'BabyBeeAGI' fork.
+  summary: A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents.
+  why_it_matters: It serves as a broad discovery map for developers trying to navigate the exploding ecosystem of AI agents to find tools relevant to their workflow.
+  mental_damage: Another list to add to your rotation of tabs, ensuring you feel adequately behind on the 40 new agent frameworks released since breakfast.
   tags:
-    - agents
-    - ai-ecosystem
     - awesome-list
+    - ai-agents
     - directory
+    - discovery
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list of AI agents rather than a standalone developer tool or product itself.
+  reason: The project is a curated directory/list of AI agents rather than a standalone tool, fitting the navigation and discovery role of the awesome-awesomes category.
   evidence:
-    - "Repo description explicitly states: 'A curated list of awesome top best AI Agents'."
-    - README organizes entries into 'Open-source Projects' and 'Closed-source Projects & Companies' like AutoGPT and CrewAI.
-    - The artifact is an index/list (awesome-ai-agents), fitting the navigation-aid scope of awesome-awesomes.
+    - Repo description states it is 'A curated list of awesome top best AI Agents'.
+    - README confirms it is a categorized list of open-source and closed-source projects, not a functional tool itself.
+    - Seen in 'awesome-ai-coding-tools' under the section 'Related Lists'.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:49.005Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:15.689Z"
+    updated_at: "2026-05-06T22:12:36.173Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:51.271Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

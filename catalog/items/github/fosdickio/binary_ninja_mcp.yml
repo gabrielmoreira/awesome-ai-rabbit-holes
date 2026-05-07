@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fosdickio__binary_ninja_mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 336
+    stars: 337
     forks: 71
     license: GPL-3.0
     archived: false
@@ -32,49 +32,49 @@ metadata:
     description: A Binary Ninja plugin containing an MCP server that enables seamless integration with your favorite LLM/MCP client.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:14.060Z"
+    last_checked_at: "2026-05-06T22:43:56.233Z"
     readme:
-      fetched_at: "2026-05-05T21:02:14.060Z"
+      fetched_at: "2026-05-06T22:43:56.233Z"
       bytes: 20726
 insights:
-  summary: A Binary Ninja plugin that runs an MCP server, exposing reverse engineering capabilities to MCP-compatible LLM clients like Cline, Cursor, and Claude Desktop.
-  why_it_matters: It allows developers to delegate tedious reverse engineering tasks, such as renaming functions and analyzing malware, directly to an LLM within their existing Binary Ninja workflow.
-  mental_damage: We have finally reached the point where the AI is doing the decompiling, the renaming, and the CTF solving, leaving the human to merely watch the progress bar and wonder when 'reversing like a human' became a prompt engineering task.
+  summary: A Binary Ninja plugin that runs an MCP server to expose reverse engineering capabilities to MCP-compatible LLM clients like Claude and Cline.
+  why_it_matters: It lets developers use familiar coding agents to analyze binaries, rename functions, and annotate disassembly directly within Binary Ninja.
+  mental_damage: You can now confuse your LLM with x86 assembly and CTF challenges just as easily as you confuse it with your React codebase.
   tags:
     - mcp
     - reverse-engineering
-    - binary-ninja
-    - security
+    - binary-analysis
+    - plugin
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that exposes Binary Ninja's capabilities to LLM clients, fitting the MCP infrastructure category perfectly.
+  reason: The product's primary identity is an MCP server that exposes Binary Ninja's capabilities to any MCP client, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'A Binary Ninja plugin containing an MCP server'.
-    - README confirms it exposes Binary Ninja capabilities through HTTP endpoints for any MCP client.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - Repo description explicitly states it is 'a Binary Ninja plugin containing an MCP server'.
+    - "README describes two components: a Binary Ninja plugin providing an MCP server and an MCP bridge for clients like Cline and Claude Desktop."
+    - Listed in awesome-mcp-servers under 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (336) exceeded threshold (150)
+  reason: Stars (337) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:14.060Z"
+    updated_at: "2026-05-06T22:43:56.233Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:02.493Z"
+    updated_at: "2026-05-06T22:56:30.633Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

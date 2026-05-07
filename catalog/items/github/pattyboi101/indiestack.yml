@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pattyboi101__indiestack__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -28,53 +28,54 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-02-22T15:12:12Z"
-    pushed_at: "2026-05-05T16:12:10Z"
+    pushed_at: "2026-05-06T17:10:14Z"
     description: Dependency guardrail for AI coding agents — validates packages, catches hallucinations, 6,500+ developer tools. MCP server + CLI + web.
     homepage: https://indiestack.ai
     topics: []
-    last_checked_at: "2026-05-05T21:04:13.401Z"
+    last_checked_at: "2026-05-06T22:45:49.393Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.401Z"
+      fetched_at: "2026-05-06T22:45:49.393Z"
       bytes: 5452
 insights:
-  summary: An MCP server and CLI that validates packages, catches hallucinations and typosquats, and searches a curated database of 6,500+ developer tools with compatibility intelligence.
-  why_it_matters: It acts as a dependency guardrail for AI coding agents, preventing them from installing hallucinated packages or incompatible tools during autonomous workflows.
-  mental_damage: Your AI agent now has its own supply-chain security team, because apparently the robot can't be trusted to tell the difference between a real package and a fever dream.
+  summary: A dependency guardrail and tool curation platform for AI coding agents that validates packages, catches hallucinations, and provides compatibility data across 6,500+ developer tools via an MCP server, CLI, and web interface.
+  why_it_matters: It prevents AI agents from confidently installing hallucinated or typosquatted packages by validating dependencies and mapping real-world compatibility before code is generated.
+  mental_damage: We now need a dedicated guardrail service to stop our autonomous agents from hallucinating npm packages, which is the exact kind of meticulously engineered chaos that makes you question if we are the ones being trained.
   tags:
     - mcp
-    - dependency-management
+    - dependencies
+    - ai-safety
     - cli
-    - agent-guardrails
+    - guardrails
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is an MCP server (with CLI fallback) that provides tooling and context to agents via the Model Context Protocol.
+  reason: IndieStack's primary product identity is an MCP server (23 tools, 3 resources, 5 prompts) that acts as a domain-specific validation and lookup layer for AI agents, rather than being a standalone coding agent or generic extension.
   evidence:
-    - Repo description explicitly states 'MCP server + CLI + web' with 23 MCP tools listed in the README.
-    - Provides `indiestack-mcp` integration specifically for Claude Code, Cursor, and Windsurf via standard MCP configuration.
-    - Seen in the awesome-mcp-list under the Search section, confirming its role as MCP infrastructure.
+    - Repo description explicitly states 'MCP server + CLI + web' as the product offering.
+    - README lists 23 MCP tools including validate_package, find_tools, and analyze_dependencies.
+    - Provides integration snippets for Claude Code, Cursor, and Windsurf via MCP configuration.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.401Z"
+    updated_at: "2026-05-06T22:45:49.393Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:03.635Z"
+    updated_at: "2026-05-06T23:21:08.315Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

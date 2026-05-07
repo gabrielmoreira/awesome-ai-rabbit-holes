@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stippi__code-assistant__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 163
+    forks: 26
+    license: MIT
+    archived: false
+    created_at: "2024-11-03T17:21:41Z"
+    pushed_at: "2026-05-06T16:05:09Z"
+    description: An LLM-powered, autonomous coding assistant. Also offers an MCP and ACP mode.
+    homepage: ""
+    topics:
+      - agentic-ai
+      - assistant
+      - claude-opus
+      - claude-sonnet
+      - coding-agent
+      - gemini-pro
+      - gpt-5-codex
+      - mcp-server
+    last_checked_at: "2026-05-06T22:46:35.049Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:35.049Z"
+      bytes: 13649
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An LLM-powered autonomous coding assistant built in Rust with CLI, GUI, and MCP/ACP server modes for multi-provider code analysis and modification.
+  why_it_matters: It gives developers a local, provider-agnostic coding agent with session memory, context compaction, and ready-made integrations for editors like Zed.
+  mental_damage: Yet another locally compiled Rust binary that promises to be the last coding agent you’ll need, provided you’re comfortable maintaining your own providers.json in 2026.
+  tags:
+    - coding-agent
+    - rust
+    - mcp
+    - cli
+    - gui
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a standalone, autonomous coding assistant with CLI and GUI surfaces that reads, edits, and plans across a repo, fitting the primary coding-agent identity rather than an extension or integration layer.
+  evidence:
+    - "Repo description states: 'An LLM-powered, autonomous coding assistant' with MCP and ACP modes."
+    - README emphasizes autonomous code analysis and modification with session management, context compaction, and multi-provider tooling.
+    - Shipped as a native Rust binary with both terminal and GUI interfaces, not as a plugin or host integration.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (163) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:35.049Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:25.823Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

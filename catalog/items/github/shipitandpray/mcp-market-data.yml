@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shipitandpray__mcp-market-data__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,69 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-25T17:51:39Z"
+    pushed_at: "2026-03-25T18:17:41Z"
+    description: First MCP server for live market data. Gives AI agents real-time crypto prices, candles, order books, technical analysis, and sentiment. Zero API keys. Zero dependencies.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-agents
+      - bitcoin
+      - crypto
+      - finance
+      - market-data
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - technical-analysis
+      - trading
+    last_checked_at: "2026-05-06T22:46:23.185Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.185Z"
+      bytes: 3338
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI agents with real-time cryptocurrency market data, technical analysis, and sentiment indicators without requiring API keys.
+  why_it_matters: It gives coding agents and MCP-compatible assistants live financial context so they can reason about crypto markets without developers wiring up exchange APIs.
+  mental_damage: We have officially reached the point where the agent can tell you BTC is overbought in real time, while your actual portfolio remains a timeless masterclass in buying tops.
+  tags:
+    - mcp
+    - market-data
+    - crypto
+    - finance
+    - agent-tools
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server purpose-built to expose live crypto market data and analysis tools to agents, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description states it is the 'First MCP server for live market data' with zero API keys or dependencies.
+    - README shows 8 MCP tools (price, candles, order_book, analyze, etc.) designed for any AI agent.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech', confirming its MCP ecosystem role.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.185Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:23.433Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

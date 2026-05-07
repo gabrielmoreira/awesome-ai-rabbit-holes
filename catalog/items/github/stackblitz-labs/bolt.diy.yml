@@ -1,13 +1,13 @@
 id: github__stackblitz-labs__bolt.diy
 kind: github-repo
-name: Bolt.diy
+name: bolt.diy
 canonical_url: https://github.com/stackblitz-labs/bolt.diy
 identity:
   github_repo: stackblitz-labs/bolt.diy
 provenance:
   discoveries:
     - id: discovery__github__stackblitz-labs__bolt.diy__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 19325
+    forks: 10374
+    license: MIT
+    archived: false
+    created_at: "2024-10-13T18:40:54Z"
+    pushed_at: "2026-02-07T14:36:22Z"
+    description: Prompt, run, edit, and deploy full-stack web applications using any LLM you want!
+    homepage: https://stackblitz-labs.github.io/bolt.diy/
+    topics: []
+    last_checked_at: "2026-05-06T22:46:32.558Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:32.558Z"
+      bytes: 20709
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers.
+  why_it_matters: It decouples the AI coding experience from proprietary backends, letting developers self-host and swap models while generating and deploying NodeJS apps directly from the browser.
+  mental_damage: Now you can spend just as much time configuring your local Ollama instance and debating model providers as you do prompting the app into existence.
+  tags:
+    - app-builder
+    - browser-ide
+    - multi-model
+    - self-hosted
+    - full-stack
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is turning prompts into full-stack web applications and deploying them, fitting the app-builder definition better than a standard repo-editing coding agent.
+  evidence:
+    - "Repo description explicitly states: 'Prompt, run, edit, and deploy full-stack web applications using any LLM you want!'"
+    - README features include 'AI-powered full-stack web development', 'Deploy directly to Netlify, Vercel, or GitHub Pages', and 'Download projects as ZIP'.
+    - Already curated in awesome-ai-coding-tools under the 'App Builders' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Prompt-to-App Builders
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (19325) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:32.558Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:59.020Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

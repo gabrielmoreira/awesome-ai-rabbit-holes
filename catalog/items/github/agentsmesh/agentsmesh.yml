@@ -1,28 +1,13 @@
 id: github__agentsmesh__agentsmesh
 kind: github-repo
-name: AgentsMesh
+name: agentsmesh
 canonical_url: https://github.com/agentsmesh/agentsmesh
 identity:
   github_repo: agentsmesh/agentsmesh
 provenance:
   discoveries:
-    - id: discovery__agentsmesh__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Coding Agents
-        anchor_text: AgentsMesh
-        extracted_url: https://agentsmesh.ai
-        surrounding_text: "- **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server. Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK."
-        confidence: high
     - id: discovery__github__agentsmesh__agentsmesh__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -38,7 +23,7 @@ provenance:
         surrounding_text: "- **[AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)** `⭐ 1.9k` — AI Agent Workforce Platform: remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, multi-agent collaboration via channels and pod bindings, built-in Kanban with MR/PR integration. Self-hosted with BYOK. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode. BSL-1.1."
         confidence: high
     - id: discovery__github__agentsmesh__agentsmesh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -54,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1934
-    forks: 200
+    stars: 1951
+    forks: 201
     license: NOASSERTION
     archived: false
     created_at: "2026-02-28T07:10:42Z"
-    pushed_at: "2026-05-05T20:14:16Z"
+    pushed_at: "2026-05-06T16:12:23Z"
     description: The AI Agent Workforce Platform — where teams scale beyond headcount. Give every team member an AI agent squad.
     homepage: https://agentsmesh.ai
     topics:
@@ -74,60 +59,50 @@ metadata:
       - gemini-cli
       - multi-agent
       - self-hosted
-    last_checked_at: "2026-05-05T21:00:53.180Z"
+    last_checked_at: "2026-05-06T22:12:28.464Z"
     readme:
-      fetched_at: "2026-05-05T21:00:53.180Z"
+      fetched_at: "2026-05-06T22:12:28.464Z"
       bytes: 8755
 insights:
-  summary: A self-hosted platform that spins up remote AI workstations (AgentPods) to coordinate multi-agent collaboration, task management, and Git workflows through a web console.
-  why_it_matters: It lets teams move beyond running single CLI agents locally by orchestrating Claude Code, Codex CLI, Gemini CLI, and Aider inside isolated worktrees with shared task tracking and PR integration.
-  mental_damage: We have successfully built Jira for autonomous agents, ensuring your AI squads can now suffer from the same ticket-pod binding friction and Kanban anxiety as your human teams.
+  summary: A self-hosted control plane that runs remote AI workstations (AgentPods) to coordinate multi-agent collaboration, task management, and Git integration across teams.
+  why_it_matters: It turns individual coding agents like Claude Code and Aider into a coordinated, Kanban-tracked workforce running on your own infrastructure with BYOK cost control.
+  mental_damage: "Just what every engineering manager dreamed of: a platform to scale headcount by adding more autonomous agents to the backlog instead of fixing the planning process."
   tags:
     - agent-orchestration
-    - agent-workforce
-    - cli-agents
     - multi-agent
     - self-hosted
-    - task-management
-    - workforce
+    - control-plane
+    - byok
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane for coordinating multiple AI agents as a workforce, which fits the user-facing orchestration platform definition rather than a repo-editing coding agent.
+  reason: The product is an operated workbench and control plane for coordinating multiple agents across teams, which aligns exactly with the Agent Orchestration category.
   evidence:
-    - Scraped site title and description define it as 'The AI Agent Workforce Platform' for assigning squads and tracking progress.
-    - "Source-list context (awesome-ai-coding-tools) lists it under 'Coding Agents' with the pitch: 'Give every team member an AI agent squad — assign tasks, track progress, and let them collaborate autonomously.'"
-    - Site title and description define it as 'The AI Agent Workforce Platform' for assigning tasks and tracking progress.
-    - Source list awesome-ai-coding-tools classifies it under 'Coding Agents' with a focus on squad-based autonomous collaboration.
-    - The workflow described is task assignment and progress tracking rather than direct IDE or repo code editing.
-    - Scraped site describes it as 'The AI Agent Workforce Platform' for assigning tasks and tracking progress.
-    - "Source list context (awesome-ai-coding-tools) lists it under 'Coding Agents' with the pitch: 'Give every team member an AI agent squad'."
-    - The workflow described is a management control plane for agents, not a repo/IDE assistant.
-    - README describes it as 'The AI Agent Workforce Platform' with AgentPods, multi-agent collaboration channels, and Kanban task management.
-    - Supports orchestrating Claude Code, Codex CLI, Gemini CLI, and Aider rather than being a coding agent itself.
+    - README describes it as 'The AI Agent Workforce Platform' with multi-agent collaboration, task management, and a web console.
+    - Architecture includes a Go API backend, Next.js frontend, Relay cluster, and self-hosted runners that run agents like Claude Code and Aider in isolated pods.
     - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1934) exceeded threshold (150)
+  reason: Stars (1951) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T22:47:16.940Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.910Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:53.180Z"
+    updated_at: "2026-05-06T22:12:28.464Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:18.301Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__pku-yuangroup__open-sora-plan
+kind: github-repo
+name: open-sora-plan
+canonical_url: https://github.com/pku-yuangroup/open-sora-plan
+identity:
+  github_repo: pku-yuangroup/open-sora-plan
+provenance:
+  discoveries:
+    - id: discovery__github__pku-yuangroup__open-sora-plan__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: Open-Sora-Plan
+        extracted_url: https://github.com/pku-yuangroup/open-sora-plan
+        surrounding_text: 5. [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+        confidence: high
+metadata:
+  github:
+    stars: 12160
+    forks: 1066
+    license: MIT
+    archived: false
+    created_at: "2024-02-20T14:01:03Z"
+    pushed_at: "2026-03-08T12:48:46Z"
+    description: This project aim to reproduce Sora (Open AI T2V model), we wish the open source community contribute to this project.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:45:54.352Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:54.352Z"
+      bytes: 15015
+insights:
+  summary: An open-source project aiming to reproduce OpenAI's Sora text-to-video model, built on Huawei Ascend hardware.
+  why_it_matters: It provides developers with a reproducible, locally-trainable codebase for state-of-the-art video generation research outside the ClosedAI ecosystem.
+  mental_damage: "Just what every backend engineer needed: a 12k-star distraction convincing them they can solve video synthesis on Huawei hardware before lunch."
+  tags:
+    - text-to-video
+    - generative-models
+    - sora
+    - multimodal
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a generative video model research project, not a developer-facing tool, agent, or infrastructure component for software engineering workflows.
+  evidence:
+    - Repo description explicitly states the goal is to 'reproduce Sora (Open AI T2V model)', a video generation model.
+    - README focuses on model training, paper citations (arXiv), and hardware (Huawei Ascend), with no developer tooling angle.
+    - Listed in source lists under '视频 Video > 模型' (Video > Models), not under coding or developer tools.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12160) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.642Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:54.352Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:12.826Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

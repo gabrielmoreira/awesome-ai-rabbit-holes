@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__burningion__video-editing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 🐍 - Add, Analyze, Search, and Generate Video Edits from your Video Jungle Collection"
         confidence: high
     - id: discovery__github__burningion__video-editing-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 263
+    stars: 264
     forks: 38
     license: null
     archived: false
@@ -48,49 +48,49 @@ metadata:
     description: MCP Interface for Video Jungle
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:27.294Z"
+    last_checked_at: "2026-05-06T22:43:15.099Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.294Z"
+      fetched_at: "2026-05-06T22:43:15.099Z"
       bytes: 7194
 insights:
-  summary: An MCP server that connects LLMs to Video Jungle, enabling video upload, search, and AI-generated edits through chat interfaces like Claude Desktop.
-  why_it_matters: It lets developers control video editing workflows and generative edits via natural language prompts instead of manual timeline manipulation.
-  mental_damage: "We have finally achieved the singular goal of modern AI tooling: making a developer's IDE the only interface needed to cut skateboard footage."
+  summary: An MCP server that lets developers upload, search, and generate video edits through Video Jungle directly from LLM clients like Claude Desktop.
+  why_it_matters: It turns natural language prompts into executable video-editing workflows, bridging LLM chat surfaces with a standalone video generation and editing platform.
+  mental_damage: We have finally unlocked the ability to prompt-engineer a skateboard montage while Claude politely asks for permission to scan your entire Photos library.
   tags:
     - mcp
     - video-editing
-    - multimodal
     - claude-desktop
+    - media-automation
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation, fitting cleanly into the MCP category as infrastructure for connecting LLMs to video editing capabilities.
+  reason: The product’s identity is an MCP server providing video editing, search, and generation tools for LLM clients, which fits cleanly under MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'MCP Interface for Video Jungle'
-    - README details an MCP server implementing tools like add-video, search-videos, and generate-edit-from-videos
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Art & Culture sections
+    - Repo description and README explicitly define it as an 'MCP Interface' and 'Video Editor MCP server' for Video Jungle.
+    - Installation instructions are centered on configuring it as an MCP server in Claude Desktop.
+    - It is already curated in awesome-mcp-list and awesome-mcp-servers under art and culture MCP servers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (263) exceeded threshold (150)
+  reason: Stars (264) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.294Z"
+    updated_at: "2026-05-06T22:43:15.099Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:56.662Z"
+    updated_at: "2026-05-06T22:47:22.814Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

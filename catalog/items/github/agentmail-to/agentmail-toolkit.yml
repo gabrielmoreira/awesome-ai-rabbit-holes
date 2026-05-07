@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentmail-to__agentmail-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:52.077Z"
+    last_checked_at: "2026-05-06T22:12:27.398Z"
     readme:
-      fetched_at: "2026-05-05T21:00:52.077Z"
+      fetched_at: "2026-05-06T22:12:27.398Z"
       bytes: 305
 insights:
-  summary: A toolkit that integrates popular agent frameworks like OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP) with the AgentMail API.
-  why_it_matters: It provides developers with the glue code needed to connect multiple major agent ecosystems to a specific email-centric API without writing boilerplate integrations.
-  mental_damage: We now have dedicated toolkits to help our toolkits talk to other toolkits, ensuring the abstraction layers remain comfortably nested three deep.
+  summary: A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP).
+  why_it_matters: It provides the boilerplate integration code needed to give popular agent frameworks the ability to send and receive email via AgentMail.
+  mental_damage: We have successfully abstracted the mailbox into yet another protocol adapter, ensuring your agent can now procrastinate in your inbox just like you do.
   tags:
     - mcp
-    - agent-framework
+    - agentmail
     - sdk
     - integration
+    - email
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first SDK/library designed for developers to import and integrate agent frameworks with a specific API, fitting the AI Frameworks category.
+  reason: The project is an integration layer that adds email capabilities to other agent frameworks and MCP-compatible tools rather than being a standalone coding assistant.
   evidence:
-    - README states it 'integrates popular agent frameworks and protocols... with the AgentMail API' via Python and Node packages.
-    - Listed in awesome-mcp-servers under 'Communication', confirming its role as an integration toolkit.
-    - Repository is active (pushed 2026-04-18) and not archived.
+    - README states it 'integrates popular agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and Model Context Protocol (MCP) with the AgentMail API.'
+    - Found in awesome-mcp-servers under 'Communication', confirming its role as a host integration.
+    - Provides language-specific packages (/python and /node) as integration points rather than a primary assistant product.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:52.077Z"
+    updated_at: "2026-05-06T22:12:27.398Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:19.669Z"
+    updated_at: "2026-05-06T22:19:08.735Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

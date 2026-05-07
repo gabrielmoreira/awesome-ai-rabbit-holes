@@ -1,0 +1,101 @@
+id: github__nvidia-nemo__automodel
+kind: github-repo
+name: automodel
+canonical_url: https://github.com/nvidia-nemo/automodel
+identity:
+  github_repo: nvidia-nemo/automodel
+provenance:
+  discoveries:
+    - id: discovery__github__nvidia-nemo__automodel__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: NeMo AutoModel
+        extracted_url: https://github.com/nvidia-nemo/automodel
+        surrounding_text: "51. [NeMo AutoModel](https://github.com/NVIDIA-NeMo/Automodel): Pytorch Distributed native training library for LLMs/VLMs with OOTB Hugging Face support."
+        confidence: high
+metadata:
+  github:
+    stars: 482
+    forks: 142
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-21T21:45:47Z"
+    pushed_at: "2026-05-06T22:34:13Z"
+    description: 🚀 Pytorch Distributed native training library for LLMs/VLMs with OOTB Hugging Face support
+    homepage: https://docs.nvidia.com/nemo/automodel/nightly/index.html
+    topics:
+      - deepseek-v3-2
+      - deepseek-v4
+      - finetuning
+      - gemma3
+      - gemma4
+      - glm
+      - gpt-oss
+      - huggingface
+      - kimi-k2
+      - llama
+      - llama3
+      - llm
+      - minimax-m2
+      - mistral
+      - openai
+      - pytorch
+      - qwen3
+      - qwen3-6
+      - qwen3-next
+      - vlm
+    last_checked_at: "2026-05-06T22:45:35.541Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:35.541Z"
+      bytes: 38336
+insights:
+  summary: NeMo AutoModel is a PyTorch-native distributed training library for fine-tuning and pretraining large language and vision-language models with out-of-the-box Hugging Face support.
+  why_it_matters: It gives developers a streamlined, pytorch-distributed path to fine-tune cutting-edge models like DeepSeek V4 and Mistral Medium 3.5 without wrestling with fragmented training stacks.
+  mental_damage: Yet another NVIDIA-powered promise that this time, distributed training will definitely feel like a well-documented weekend project rather than a multi-week incision into your GPU budget.
+  tags:
+    - training
+    - fine-tuning
+    - pytorch
+    - nvidia
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a model training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or coding workflow product within the catalog's scope.
+  evidence:
+    - Repo description explicitly positions it as a 'Pytorch Distributed native training library for LLMs/VLMs'.
+    - README and news focus entirely on pretraining, fine-tuning recipes, and model coverage rather than coding assistance.
+    - Listed in awesome-LLM-resources under the 'Fine-Tuning' section, not developer tooling or coding agents.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (482) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.633Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:35.541Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:17:59.275Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

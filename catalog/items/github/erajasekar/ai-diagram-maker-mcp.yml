@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erajasekar__ai-diagram-maker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:03.437Z"
+    last_checked_at: "2026-05-06T22:43:47.094Z"
     readme:
-      fetched_at: "2026-05-05T21:02:03.437Z"
+      fetched_at: "2026-05-06T22:43:47.094Z"
       bytes: 9403
 insights:
-  summary: An MCP server that connects AI Diagram Maker to MCP-compatible clients like Cursor and Claude Desktop to generate software diagrams from natural language, code, ASCII, images, or Mermaid syntax.
-  why_it_matters: It lets developers generate and iterate on flowcharts, sequence diagrams, ERDs, and UML directly inside their AI coding agent without leaving the chat or manually translating ideas into diagram syntax.
-  mental_damage: Another MCP server so your agent can draw a system architecture diagram that will immediately become outdated the moment you merge the next PR.
+  summary: An MCP server that connects AI Diagram Maker to Cursor, Claude Desktop, and Claude Code, enabling developers to generate flowcharts, sequence diagrams, ERDs, and UML from natural language, code, or Mermaid inside their AI agent chats.
+  why_it_matters: It lets developers produce and iterate on standard software diagrams without leaving their AI-assisted workflow, turning plain English or code into editable diagrams inline.
+  mental_damage: Another carefully engineered bridge so your AI assistant can draw boxes and arrows while your actual architecture slides further into entropy.
   tags:
     - mcp
     - diagrams
-    - architecture
     - cursor
     - claude
+    - architecture
   confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server that integrates an external diagramming API into MCP-compatible developer tools, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP server that gives agents access to diagram-generation capabilities, which aligns directly with the MCP Servers & Tooling category and its Domain Servers section.
   evidence:
-    - "README states: 'MCP server for AI Diagram Maker — generate beautiful software engineering diagrams directly inside Cursor, Claude Desktop, Claude Code, or any MCP-compatible AI agent.'"
-    - README documents stdio and HTTP transports, 5 MCP tools, and integration configs for Cursor, Claude Desktop, and Claude Code.
+    - Repo name and README explicitly define it as 'MCP server for AI Diagram Maker'.
+    - Supported transports include stdio and HTTP/Streamable HTTP for MCP-compatible clients.
     - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:03.437Z"
+    updated_at: "2026-05-06T22:43:47.094Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:14.459Z"
+    updated_at: "2026-05-06T22:54:34.637Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

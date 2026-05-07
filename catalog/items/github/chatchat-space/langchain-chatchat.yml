@@ -1,0 +1,101 @@
+id: github__chatchat-space__langchain-chatchat
+kind: github-repo
+name: langchain-chatchat
+canonical_url: https://github.com/chatchat-space/langchain-chatchat
+identity:
+  github_repo: chatchat-space/langchain-chatchat
+provenance:
+  discoveries:
+    - id: discovery__github__chatchat-space__langchain-chatchat__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: Langchain-Chatchat
+        extracted_url: https://github.com/chatchat-space/langchain-chatchat
+        surrounding_text: "6. [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): 基于 Langchain 与 ChatGLM 等不同大语言模型的本地知识库问答"
+        confidence: high
+metadata:
+  github:
+    stars: 37963
+    forks: 6195
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-31T12:12:45Z"
+    pushed_at: "2025-11-10T09:27:42Z"
+    description: "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    homepage: ""
+    topics:
+      - chatbot
+      - chatchat
+      - chatglm
+      - chatgpt
+      - embedding
+      - faiss
+      - fastchat
+      - gpt
+      - knowledge-base
+      - langchain
+      - langchain-chatglm
+      - llama
+      - llm
+      - milvus
+      - ollama
+      - qwen
+      - rag
+      - retrieval-augmented-generation
+      - streamlit
+      - xinference
+    last_checked_at: "2026-05-06T22:43:19.667Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:19.667Z"
+      bytes: 22275
+insights:
+  summary: Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama.
+  why_it_matters: It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
+  mental_damage: Yet another 'local ChatGPT' stack proving that while we can run the model offline, the real hallucination is thinking we've solved context management with a vector store and a Streamlit UI.
+  tags:
+    - rag
+    - local-llm
+    - langchain
+    - agent
+    - knowledge-base
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is a self-contained, offline-capable desktop/web interface for local LLMs and RAG, fitting the Local AI category better than a generic coding agent or framework label.
+  evidence:
+    - Repo description explicitly targets 'local knowledge based LLM' and 'offline private deployment'.
+    - README states the goal is a 'local knowledge base Q&A solution' using Streamlit WebUI and FastAPI.
+    - Featured in source lists under '知识库 RAG' (Knowledge Base RAG), not coding assistance.
+placement:
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (37963) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.607Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:19.667Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:43.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thu-nics__c2c__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -23,47 +23,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 389
+    forks: 46
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-10-03T15:55:08Z"
+    pushed_at: "2026-03-13T19:59:29Z"
+    description: "[ICLR'26] The official code implementation for \"Cache-to-Cache: Direct Semantic Communication Between Large Language Models\""
+    homepage: https://fuvty.github.io/C2C_Project_Page/
+    topics:
+      - kv-cache
+      - llm
+      - multi-agent
+    last_checked_at: "2026-05-06T22:46:49.336Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:49.336Z"
+      bytes: 14728
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Cache-to-Cache (C2C) is a research implementation that enables direct semantic communication between different Large Language Models by projecting and fusing their KV-caches, bypassing text generation.
+  why_it_matters: It offers a novel technical approach to multi-agent LLM collaboration that improves accuracy and latency by avoiding the information loss of text-based model chaining.
+  mental_damage: We have successfully eliminated the pesky human-readable sentence from the loop, ensuring that your models can now talk to each other in incomprehensible tensor-ese while you debug the resulting 2x speedup in silence.
+  tags:
+    - llm
+    - kv-cache
+    - multi-agent
+    - research
+    - semantic-communication
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is primarily an academic research artifact and paper implementation (ICLR'26) focused on model internals, not a practical developer tool, agent, or infrastructure component for building software.
+  evidence:
+    - Repo description explicitly labels this as '[ICLR'26] The official code implementation' for a research paper.
+    - README focuses on KV-cache projection, fuser weights, and latency benchmarks rather than developer workflows or agent orchestration.
+    - Source list placement in 'awesome-llm-agents/Frameworks' reflects academic categorization, but the code is a research prototype, not a usable framework or SDK for developers.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (389) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:49.336Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:10.511Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

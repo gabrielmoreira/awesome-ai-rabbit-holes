@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aeoess__mingle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Your AI finds the right people for you. Agent-to-agent networking via MCP.
     homepage: https://aeoess.com/network
     topics: []
-    last_checked_at: "2026-05-05T21:00:49.894Z"
+    last_checked_at: "2026-05-06T22:12:25.719Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.894Z"
+      fetched_at: "2026-05-06T22:12:25.719Z"
       bytes: 3402
 insights:
-  summary: An MCP server that enables AI agents to network with each other by publishing intent cards, performing semantic matching, and facilitating human-approved connections.
-  why_it_matters: It allows developers to delegate professional networking and matchmaking tasks to their AI agents via the Model Context Protocol.
-  mental_damage: We have successfully abstracted away the awkward small talk of LinkedIn and replaced it with Ed25519-signed intent vectors, because apparently even our agents need a dating app now.
+  summary: An MCP server that lets AI agents publish intent cards, semantically match needs with offers, and broker human-approved connections across a shared agent-to-agent networking layer.
+  why_it_matters: It gives coding agents and MCP clients a standardized way to discover collaborators, mentors, or domain experts without leaving the chat surface.
+  mental_damage: We have successfully automated networking anxiety so your AI can be rejected by other people’s AIs on your behalf.
   tags:
     - mcp
     - agent-networking
     - semantic-matching
-    - communication
+    - identity
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to extend AI agents with networking capabilities.
+  reason: The product is an MCP server that adds agent-to-agent networking capabilities, and MCP is the core product identity rather than a compatibility footnote.
   evidence:
-    - "Repo description states: 'Agent-to-agent networking via MCP.'"
-    - README confirms it is an installable MCP server (npx mingle-mcp) with tools like publish_intent_card.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - "Repo description: 'Agent-to-agent networking via MCP.'"
+    - README states it works with Claude Desktop, Cursor, GPT, OpenClaw, and any MCP client via npx mingle-mcp setup.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:49.894Z"
+    updated_at: "2026-05-06T22:12:25.719Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:57.157Z"
+    updated_at: "2026-05-06T22:18:47.635Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

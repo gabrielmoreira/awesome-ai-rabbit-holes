@@ -1,12 +1,12 @@
 id: windsurf__com
 kind: website
-name: Windsurf
+name: windsurf.com
 canonical_url: https://windsurf.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__windsurf__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,41 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Windsurf is an AI-native IDE and coding agent designed to help developers write, edit, and navigate code within a dedicated editor environment.
-  why_it_matters: It attempts to consolidate coding assistance and agentic workflows into a single development environment, reducing context switching between a chat window and the codebase.
-  mental_damage: Just when you had mastered the arcane art of prompting Cursor, the ecosystem demands you learn a new surfboard-based nomenclature before the next breaking change.
+  summary: Windsurf is an AI-native code editor and IDE designed to help developers write, edit, and navigate code with integrated AI assistance.
+  why_it_matters: It provides a dedicated development environment where AI assistance is built directly into the editing surface, changing how developers interact with their codebase.
+  mental_damage: Just when you thought you had settled on an AI editor, here comes another IDE promising to refactor your workflow while you refactor your dotfiles.
   tags:
     - ai-ide
-    - coding-agent
-    - editor
-  confidence: medium
+    - code-editor
+    - ai-assistant
+  confidence: high
 curation:
   status: included
-  reason: The product is primarily an AI-native editor/IDE experience (Windsurf), fitting the 'AI IDEs and Editors' category rather than a plugin or a pure app builder.
+  reason: Windsurf is listed as a canonical positive example for the AI IDEs & Editors category, fitting the profile of a development environment built around coding assistance rather than a plugin or terminal agent.
   evidence:
-    - URL targets windsurf.com, indicating the primary product surface is a hosted IDE/Editor.
-    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+    - Listed as a canonical positive example in the ai-ides-editors category definition (Windsurf).
+    - Included in the awesome-ai-coding-tools list under the section 'Code Editors and Assistants'.
+    - The URL windsurf.com and product name strongly align with the IDE and editor surface identity.
 placement:
   primary_category: ai-ides-editors
-  section: null
+  section: Full IDEs & Editors
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:15.535Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:19.781Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

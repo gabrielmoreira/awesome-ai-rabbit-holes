@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidf9999__gx-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,49 @@ metadata:
     description: A Python server that exposes Great Expectations data quality tools to LLM agents via the Model Context Protocol (MCP).
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:47.922Z"
+    last_checked_at: "2026-05-06T22:43:34.211Z"
     readme:
-      fetched_at: "2026-05-05T21:01:47.922Z"
+      fetched_at: "2026-05-06T22:43:34.211Z"
       bytes: 12764
 insights:
-  summary: A Python MCP server that exposes Great Expectations data quality tools so LLM agents can load datasets, define validation rules, and run checks programmatically.
-  why_it_matters: It lets agentic workflows perform real data validation without forcing developers to wire Great Expectations into agent code by hand.
-  mental_damage: We have successfully reached the point where our agents need their own data quality frameworks so they can doubt the datasets they hallucinated.
+  summary: A Python MCP server that exposes Great Expectations data quality checks as tools for LLM agents to validate datasets from CSV, Snowflake, or BigQuery.
+  why_it_matters: It lets coding agents programmatically define expectations and run data validation without leaving their MCP-powered workflow.
+  mental_damage: We have successfully abstracted data quality into another tool an agent can call while ignoring the fact that the data was probably broken before the LLM got involved.
   tags:
     - mcp
     - data-quality
     - great-expectations
-    - llm-agent
     - python
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that exposes Great Expectations as tools for LLM agents, which fits cleanly into MCP Servers and Tooling.
+  reason: The product is an MCP server exposing Great Expectations as tools, which fits the MCP Servers & Tooling category as a domain-specific server rather than a generic framework or extension.
   evidence:
-    - Repo description states it is a Python server exposing Great Expectations via the Model Context Protocol.
-    - README confirms it is an MCP server with HTTP, STDIO, and Inspector modes and is listed in awesome-mcp-servers.
-    - Actively maintained with a recent push date of 2025-12-14 and not archived.
+    - Repo description states it is 'A Python server that exposes Great Expectations data quality tools to LLM agents via the Model Context Protocol (MCP).'
+    - README explicitly positions it as an MCP server with STDIO, HTTP, and Inspector transports for AI clients like Claude.
+    - Listed in awesome-mcp-servers under Community Servers, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:47.922Z"
+    updated_at: "2026-05-06T22:43:34.211Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:36.546Z"
+    updated_at: "2026-05-06T22:51:55.576Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

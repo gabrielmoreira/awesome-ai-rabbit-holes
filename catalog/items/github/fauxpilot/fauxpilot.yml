@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fauxpilot__fauxpilot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14743
+    stars: 14742
     forks: 643
     license: MIT
     archived: false
@@ -32,50 +32,50 @@ metadata:
     description: FauxPilot - an open-source alternative to GitHub Copilot server
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:08.628Z"
+    last_checked_at: "2026-05-06T22:43:51.612Z"
     readme:
-      fetched_at: "2026-05-05T21:02:08.628Z"
+      fetched_at: "2026-05-06T22:43:51.612Z"
       bytes: 2312
 insights:
-  summary: FauxPilot is an open-source, locally hosted alternative to GitHub Copilot that serves Salesforce CodeGen models via NVIDIA's Triton Inference Server.
-  why_it_matters: It allows developers to run AI code completion locally on their own hardware, removing dependency on cloud services and keeping proprietary code off external servers.
-  mental_damage: Because nothing says 'accelerating developer productivity' like manually troubleshooting Docker, NVIDIA drivers, and VRAM constraints just to get autocomplete.
+  summary: FauxPilot is a self-hosted inference server that runs local code generation models (like Salesforce CodeGen) behind an API compatible with GitHub Copilot clients.
+  why_it_matters: It allows developers to run AI code completion locally using their own hardware, offering a privacy-focused alternative to cloud-hosted Copilot without sending code to external servers.
+  mental_damage: Trade your proprietary SaaS subscription for the privilege of debugging Docker containers, CUDA versions, and VRAM constraints just to get the same autocomplete suggestions.
   tags:
     - local-ai
-    - copilot-alternative
-    - codegen
     - self-hosted
+    - codegen
+    - copilot-alternative
     - nvidia
   confidence: high
 curation:
   status: included
-  reason: The project is a local runtime and model-serving stack designed to run AI code completion on the developer's own GPU hardware.
+  reason: It is a local serving stack designed to run on developer hardware, fitting the 'Local AI' category better than a 'Coding Agent' because it is the backend infrastructure, not the editor-side assistant.
   evidence:
-    - Repo description explicitly calls it 'an open-source alternative to GitHub Copilot server'.
-    - README confirms it runs Salesforce CodeGen models locally using NVIDIA Triton Inference Server with Docker.
-    - Listed under 'Code AI' in the Awesome-LLMOps directory, confirming its developer-tooling relevance.
+    - Repo description explicitly states it is an 'open-source alternative to GitHub Copilot server'.
+    - README specifies it uses NVIDIA Triton Inference Server and requires local NVIDIA GPUs with sufficient VRAM.
+    - Client configuration supports OpenAI API and Copilot Plugin standards to connect local models to editors.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14743) exceeded threshold (150)
+  reason: Stars (14742) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:08.628Z"
+    updated_at: "2026-05-06T22:43:51.613Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:09.524Z"
+    updated_at: "2026-05-06T22:55:32.835Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

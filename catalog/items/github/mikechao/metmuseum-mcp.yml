@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikechao__metmuseum-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - mcp-apps
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:03:40.083Z"
+    last_checked_at: "2026-05-06T22:45:18.275Z"
     readme:
-      fetched_at: "2026-05-05T21:03:40.083Z"
+      fetched_at: "2026-05-06T22:45:18.275Z"
       bytes: 11617
 insights:
-  summary: An MCP server that exposes The Metropolitan Museum of Art's collection API to AI models, allowing natural language search, object retrieval, and image access.
-  why_it_matters: It provides a concrete reference implementation for developers building domain-specific MCP servers that wrap third-party REST APIs with rich media support.
-  mental_damage: We have successfully liberated AI agents from helping us debug code, empowering them instead to curate van Gogh retrospectives from the comfort of our IDEs.
+  summary: A Model Context Protocol server that exposes the Metropolitan Museum of Art's collection to AI models for natural language search, object lookup, and image retrieval.
+  why_it_matters: It provides a ready-made MCP integration for developers building art-aware assistants or testing MCP tooling against a real-world API.
+  mental_damage: "We have finally achieved the singularity: an AI tool that can tell you Van Gogh's biography faster than it can fix your broken CI pipeline."
   tags:
     - mcp
     - art
-    - api-wrapper
-    - met-museum
+    - museum
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation with tooling and app support, fitting cleanly into the MCP infrastructure category.
+  reason: The product's core identity is an MCP server for a specific domain (art), matching the MCP Servers & Tooling category and Domain Servers section.
   evidence:
-    - Repo description explicitly states 'Met Museum MCP integration' and topics include mcp-server.
-    - README details a Model Context Protocol server with tools like search-museum-objects and MCP App support.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
+    - Repo description explicitly states 'Met Museum MCP integration' and topics include 'mcp-server'.
+    - README states 'A Model Context Protocol (MCP) server that provides access to The Metropolitan Museum of Art Collection'.
+    - Listed in awesome-mcp-servers under 'Art & Culture' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:40.083Z"
+    updated_at: "2026-05-06T22:45:18.275Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:44.775Z"
+    updated_at: "2026-05-06T23:14:03.035Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

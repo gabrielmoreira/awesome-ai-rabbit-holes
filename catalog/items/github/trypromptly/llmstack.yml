@@ -1,13 +1,13 @@
 id: github__trypromptly__llmstack
 kind: github-repo
-name: LLM Stack
+name: llmstack
 canonical_url: https://github.com/trypromptly/llmstack
 identity:
   github_repo: trypromptly/llmstack
 provenance:
   discoveries:
     - id: discovery__github__trypromptly__llmstack__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [LLM Stack](https://llmstack.ai/)"
         confidence: high
     - id: discovery__github__trypromptly__llmstack__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "| [LLMStack](https://github.com/trypromptly/LLMStack) | No-code multi-agent framework for LLM agents and workflows | ![Stars](https://img.shields.io/github/stars/trypromptly/LLMStack) |"
         confidence: high
     - id: discovery__github__trypromptly__llmstack__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -82,19 +82,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.580Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-06T22:46:56.915Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for trypromptly/llmstack
   categorize:
     status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
+    updated_at: "2026-05-06T22:47:07.182Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: pending
-    updated_at: null
-    cause: null

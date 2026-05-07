@@ -1,13 +1,13 @@
 id: github__clickhouse__clickhouse
 kind: github-repo
-name: ClickHouse
+name: clickhouse
 canonical_url: https://github.com/clickhouse/clickhouse
 identity:
   github_repo: clickhouse/clickhouse
 provenance:
   discoveries:
     - id: discovery__github__clickhouse__clickhouse__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 47214
-    forks: 8370
+    stars: 47250
+    forks: 8374
     license: Apache-2.0
     archived: false
     created_at: "2016-06-02T08:28:18Z"
-    pushed_at: "2026-05-05T20:59:27Z"
+    pushed_at: "2026-05-06T22:26:29Z"
     description: ClickHouse® is a real-time analytics database management system
     homepage: https://clickhouse.com
     topics:
@@ -49,50 +49,50 @@ metadata:
       - rust
       - self-hosted
       - sql
-    last_checked_at: "2026-05-05T21:01:35.535Z"
+    last_checked_at: "2026-05-06T22:43:22.711Z"
     readme:
-      fetched_at: "2026-05-05T21:01:35.535Z"
+      fetched_at: "2026-05-06T22:43:22.711Z"
       bytes: 4616
 insights:
-  summary: ClickHouse is an open-source, column-oriented database management system designed for high-performance real-time analytical reporting using SQL.
-  why_it_matters: Developers building AI-driven applications often need a backend capable of handling massive analytical workloads and vector search with low latency.
-  mental_damage: Yet another high-performance database to evaluate while you ignore the fact that your current analytic bottleneck is a 400-line CSV file.
+  summary: ClickHouse is an open-source, column-oriented, real-time analytics database management system designed for generating analytical reports using SQL.
+  why_it_matters: It serves as the high-performance storage backbone for analytics workloads, which is increasingly where developers offload the heavy lifting from AI-generated pipelines.
+  mental_damage: Yet another piece of infrastructure that will sit untouched in the stack while we collectively pretend that vector databases are the only data topology that matters for AI.
   tags:
-    - analytics
     - database
-    - olap
-    - real-time
+    - analytics
     - sql
+    - olap
+    - self-hosted
   confidence: high
 curation:
   status: excluded
-  reason: While ClickHouse is a critical piece of modern data infrastructure often used for AI/ML workloads, it is a general-purpose database management system and not an AI developer tool, agent, or extension.
+  reason: While it appears in awesome-mcp-servers for potential integration use, ClickHouse itself is a general-purpose database management system, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - Repo description defines it strictly as a 'real-time analytics database management system', not an AI tool.
-    - README excerpt focuses on SQL queries, cluster setup, and DBMS architecture with no AI-specific developer workflow features.
-    - Appears in 'awesome-mcp-servers' only as a data source backend, not as a tool that assists in coding or development.
+    - Repo description defines it as a 'real-time analytics database management system', not an AI tool.
+    - README excerpt focuses entirely on DBMS installation, events, and SQL capabilities with no mention of AI-native workflows.
+    - Presence in awesome-mcp-servers is as a target for an MCP server, not as an MCP tool itself.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (47214) exceeded threshold (150)
+  reason: Stars (47250) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:24.552Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:35.535Z"
+    updated_at: "2026-05-06T22:43:22.711Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:49:30.264Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

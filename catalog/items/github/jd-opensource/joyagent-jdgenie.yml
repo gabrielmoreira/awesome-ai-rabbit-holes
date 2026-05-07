@@ -1,0 +1,81 @@
+id: github__jd-opensource__joyagent-jdgenie
+kind: github-repo
+name: joyagent-jdgenie
+canonical_url: https://github.com/jd-opensource/joyagent-jdgenie
+identity:
+  github_repo: jd-opensource/joyagent-jdgenie
+provenance:
+  discoveries:
+    - id: discovery__github__jd-opensource__joyagent-jdgenie__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: JoyAgent-JDGenie
+        extracted_url: https://github.com/jd-opensource/joyagent-jdgenie
+        surrounding_text: "39. [JoyAgent-JDGenie](https://github.com/jd-opensource/joyagent-jdgenie): 业界首个开源高完成度轻量化通用多智能体产品."
+        confidence: high
+metadata:
+  github:
+    stars: 11712
+    forks: 1614
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-16T02:59:53Z"
+    pushed_at: "2026-02-12T06:33:00Z"
+    description: 开源的端到端产品级通用智能体
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:44:32.599Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:32.599Z"
+      bytes: 21104
+insights:
+  summary: JoyAgent-JDGenie is a self-hosted, end-to-end multi-agent product from JD.com that handles complex tasks like report generation, data analysis, and PPT creation out of the box.
+  why_it_matters: It provides a ready-to-run orchestration platform for enterprises and developers who want multi-agent capabilities without building from SDK scratch.
+  mental_damage: Just when you thought you could stop wiring LangChain primitives together, a tech giant drops a 75% GAIA-scoring 'product-level' agent that makes your custom scaffolding look like a science fair project.
+  tags:
+    - multi-agent
+    - self-hosted
+    - rag
+    - data-agent
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: The repo is a full-stack, operated multi-agent platform designed to coordinate various sub-agents (report, code, PPT, data) rather than a code-first library or a single coding assistant.
+  evidence:
+    - Repo description explicitly calls it an '端到端产品级通用智能体' (end-to-end product-level general agent).
+    - README positions it as a ready-to-use product with frontend/backend/engine, contrasting against SDKs and frameworks.
+    - Features specialized sub-agents for reports, PPTs, and data analysis (DataAgent), fitting a multi-agent coordination model.
+placement:
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (11712) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.622Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:32.599Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:57.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

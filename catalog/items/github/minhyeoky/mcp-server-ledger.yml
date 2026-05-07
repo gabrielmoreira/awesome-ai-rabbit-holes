@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minhyeoky__mcp-server-ledger__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: A Model Context Protocol server for interacting with Ledger CLI, a powerful double-entry accounting system. This server enables Large Language Models to query and analyze financial data through a standardized interface, making it easy for AI assistants to help with financial reporting, budget analysis, and accounting tasks.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:42.289Z"
+    last_checked_at: "2026-05-06T22:45:20.157Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.289Z"
+      fetched_at: "2026-05-06T22:45:20.157Z"
       bytes: 5257
 insights:
-  summary: An MCP server that exposes Ledger CLI's double-entry accounting commands to AI assistants, enabling LLMs to query financial data, generate reports, and analyze budgets via a standardized interface.
-  why_it_matters: It allows developers to integrate plain-language financial analysis into their local AI workflows, bridging the gap between personal accounting files and assistant-driven data queries.
-  mental_damage: We have finally reached the point where you can ask an LLM to explain why you are broke, and it will happily parse your Ledger file to confirm the math.
+  summary: An MCP server that exposes Ledger CLI's double-entry accounting commands to LLMs, enabling AI assistants to query balances, transactions, and budgets from a local ledger file.
+  why_it_matters: Developers who manage finances with Ledger CLI can now offload balance checks, budget analysis, and transaction queries to their AI assistant instead of memorizing CLI flags.
+  mental_damage: We have successfully reached the point where AI assistants now need dedicated protocol servers to parse your grocery spending, because apparently `ledger -f personal.ledger balance expenses:groceries` was the cognitive bottleneck all along.
   tags:
     - mcp
-    - finance
-    - cli
     - accounting
-    - local-ai
+    - cli
+    - finance
+    - ledger
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone Model Context Protocol server that connects Ledger CLI to MCP-compatible clients, fitting squarely into the MCP infrastructure category.
+  reason: The product's identity is an MCP server purpose-built to expose Ledger CLI functionality to AI assistants, which fits cleanly into the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly identifies it as 'A Model Context Protocol server for interacting with Ledger CLI'.
-    - README details specific MCP tool implementations (ledger_balance, ledger_register, etc.) built using the Model Context Protocol Python SDK.
-    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech', confirming its role as MCP infrastructure.
+    - Repo description explicitly states it is 'A Model Context Protocol server for interacting with Ledger CLI'.
+    - README confirms it 'exposes Ledger CLI's functionality through a standardized interface' for AI assistants.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP domain server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.289Z"
+    updated_at: "2026-05-06T22:45:20.157Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:10.862Z"
+    updated_at: "2026-05-06T23:14:26.596Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

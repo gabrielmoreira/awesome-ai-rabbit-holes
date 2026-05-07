@@ -1,0 +1,101 @@
+id: github__modelscope__ms-swift
+kind: github-repo
+name: ms-swift
+canonical_url: https://github.com/modelscope/ms-swift
+identity:
+  github_repo: modelscope/ms-swift
+provenance:
+  discoveries:
+    - id: discovery__github__modelscope__ms-swift__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Swift
+        extracted_url: https://github.com/modelscope/swift
+        surrounding_text: "9. [Swift](https://github.com/modelscope/swift): Use PEFT or Full-parameter to finetune 200+ LLMs or 15+ MLLMs."
+        confidence: high
+metadata:
+  github:
+    stars: 14021
+    forks: 1393
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-08-01T15:06:39Z"
+    pushed_at: "2026-05-06T17:25:43Z"
+    description: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
+    homepage: https://swift.readthedocs.io/zh-cn/latest/
+    topics:
+      - deepseek-r1
+      - embedding
+      - grpo
+      - internvl
+      - liger
+      - llama
+      - llama4
+      - llm
+      - lora
+      - megatron
+      - moe
+      - multimodal
+      - open-r1
+      - peft
+      - qwen3
+      - qwen3-6
+      - qwen3-omni
+      - qwen3-vl
+      - reranker
+      - sft
+    last_checked_at: "2026-05-06T22:45:24.038Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:24.038Z"
+      bytes: 34930
+insights:
+  summary: ms-swift is a Python framework for fine-tuning, deploying, and evaluating 600+ LLMs and 300+ multimodal models using PEFT and full-parameter methods.
+  why_it_matters: It provides a unified, scalable infrastructure for researchers and engineers to train and align large models with the latest RL algorithms without writing boilerplate from scratch.
+  mental_damage: Yet another 'ultimate' training framework that promises to solve the ML stack, ensuring you'll spend three days debugging environment conflicts just to change a LoRA rank.
+  tags:
+    - fine-tuning
+    - llm
+    - multimodal
+    - training
+    - deployment
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a general ML research and training framework for model weights, not a developer-facing tool for coding, agents, or app-building workflows.
+  evidence:
+    - Repo description focuses on PEFT, SFT, DPO, and GRPO for LLMs/MLLMs, not developer tooling.
+    - README identifies it as a 'fine-tuning and deployment framework' supporting Megatron parallelism and RL algorithms.
+    - Listed in awesome-LLM-resources under the 'Fine-Tuning' section, confirming its identity as an ML research resource.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (14021) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.631Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:24.038Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:22.064Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

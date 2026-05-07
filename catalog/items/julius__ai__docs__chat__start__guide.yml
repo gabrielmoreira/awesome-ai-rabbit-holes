@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__julius__ai__docs__chat__start__guide__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,21 +35,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation page explaining how to start using Julius AI's conversational data analysis chat interface.
-  why_it_matters: It helps newcomers configure and navigate a chat-based analytics tool, but offers no direct developer tooling or code-generation capabilities.
-  mental_damage: Yet another 'start here' guide for a SaaS product that helps non-coders ask spreadsheets questions, while we still debate whether agents can resolve a merge conflict.
+  summary: A documentation page describing how to start a chat session within the Julius AI platform.
+  why_it_matters: It explains the entry point for using Julius, an AI agent listed in autonomous agent directories, but offers no standalone tooling value itself.
+  mental_damage: We have reached the point where a 'how to start a chat' guide qualifies as an entry in an autonomous agents list, ensuring no one can ever escape the ecosystem by simply not knowing where the text box is.
   tags:
     - docs
-    - chatbot
-    - data-analysis
+    - support
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation guide for a conversational data analysis product, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: This is a documentation/support page for a platform, not a standalone developer tool, framework, or product, and therefore does not belong in a curated catalog of AI rabbit holes.
   evidence:
-    - URL points to a docs page (julius.ai/docs/chat-start-guide), not a tool or repo
-    - Seen in awesome-ai-agents as a description link for Julius, which is a data-analysis chat product rather than a coding agent
-    - No repo description, README, or code surface indicating developer workflow integration
+    - "URL points to a docs subpath: https://julius.ai/docs/chat-start-guide"
+    - Seen in awesome-ai-agents under 'Julius > Description', indicating it is a sub-page of a platform rather than a tool itself
+    - No repo description, README, or code artifacts provided; inputs consist only of a documentation link
 placement:
   primary_category: null
   section: null
@@ -59,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:45:43.040Z"
+    updated_at: "2026-05-06T22:26:42.650Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

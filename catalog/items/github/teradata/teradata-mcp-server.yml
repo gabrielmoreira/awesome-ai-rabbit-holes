@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__teradata__teradata-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,71 +21,61 @@ provenance:
         extracted_url: https://github.com/teradata/teradata-mcp-server
         surrounding_text: "- **[Teradata](https://github.com/Teradata/teradata-mcp-server)** - A collection of tools for managing the platform, addressing data quality and reading and writing to [Teradata](https://www.teradata.com/) Database."
         confidence: high
-    - id: discovery__www__teradata__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Teradata
-        extracted_url: https://www.teradata.com
-        surrounding_text: "- **[Teradata](https://github.com/Teradata/teradata-mcp-server)** - A collection of tools for managing the platform, addressing data quality and reading and writing to [Teradata](https://www.teradata.com/) Database."
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 49
+    forks: 56
+    license: MIT
+    archived: false
+    created_at: "2025-04-17T19:41:30Z"
+    pushed_at: "2026-04-30T15:13:51Z"
+    description: The community development of a MCP server for a Teradata database
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:44.930Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:44.930Z"
+      bytes: 7615
 insights:
-  summary: Teradata is an enterprise data warehousing and analytics platform that provides cloud and on-premises infrastructure for operationalizing AI and analytics at scale.
-  why_it_matters: While it offers an AI platform and a developer portal, it is primarily an enterprise data infrastructure play aimed at large organizations rather than a tool for individual developer workflow automation.
-  mental_damage: Yet another 'autonomous AI platform' arrives to remind us that while agents are ready to take over the world, they still need a proprietary, enterprise-grade data warehouse to do it in.
+  summary: An official MCP server from Teradata that exposes database tools, prompts, and resources for querying, analyzing, and managing Teradata data platforms via AI agents.
+  why_it_matters: It lets developers and AI agents directly interact with Teradata databases for querying, data quality checks, and feature store access without building custom integrations.
+  mental_damage: We have successfully abstracted SQL into prompts, meaning your Teradata DBA now has to worry about whether the LLM understands the semantic layer before it drops a production table.
   tags:
-    - ai-platform
-    - analytics
-    - enterprise-data
+    - mcp
+    - database
+    - teradata
+    - data-platform
+    - rag
   confidence: high
 curation:
-  status: excluded
-  reason: Teradata is a traditional enterprise data warehouse vendor pivoting to AI marketing; it lacks the specific developer-facing tooling (coding agents, app builders, MCP servers, etc.) required for this catalog.
+  status: included
+  reason: The product's core identity is an MCP server for the Teradata database platform, providing tools and prompts specifically over the Model Context Protocol.
   evidence:
-    - Scraped site context describes a 'Cloud Database Management System' and 'Data Fabric Platform' focused on banking, healthcare, and logistics, not developer tooling.
-    - The 'Developer portal' link exists, but the core product is an enterprise data platform, not a coding assistant, agent, or app builder.
-    - Appears in awesome-mcp-servers only as a commercial entity listing, not as a functional MCP server or developer tool implementation.
+    - Repo description explicitly states 'MCP server for a Teradata database'
+    - README emphasizes 'Model Context Protocol (MCP) server for Teradata' with tool modules for Query, Table, and DBA tasks
+    - Listed in awesome-mcp-servers under 'Official Servers' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:39.324Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:44.930Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:20.407Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

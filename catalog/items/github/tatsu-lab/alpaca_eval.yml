@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tatsu-lab__alpaca_eval__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,47 +23,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1984
+    forks: 308
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-25T09:35:28Z"
+    pushed_at: "2025-08-09T07:23:36Z"
+    description: An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast.
+    homepage: https://tatsu-lab.github.io/alpaca_eval/
+    topics:
+      - deep-learning
+      - evaluation
+      - foundation-models
+      - instruction-following
+      - large-language-models
+      - leaderboard
+      - nlp
+      - rlhf
+    last_checked_at: "2026-05-06T22:46:40.959Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:40.959Z"
+      bytes: 84471
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An automatic evaluator for instruction-following language models that uses a powerful LLM to score outputs against a reference model, validated against 20K human annotations.
+  why_it_matters: It enables developers to quickly benchmark model quality during development for under $10 and in under 3 minutes, replacing slow and expensive human evaluation loops.
+  mental_damage: You now have a 0.98 correlated excuse to avoid reading your model's outputs entirely while you chase leaderboard positions that correlate perfectly with being verbose.
+  tags:
+    - evals
+    - benchmarking
+    - llm
+    - leaderboard
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core job is measuring and scoring LLM instruction-following behavior with high human correlation, fitting the Evals & Benchmarks category.
+  evidence:
+    - Repo description defines it as 'An automatic evaluator for instruction-following language models.'
+    - README states the goal is a benchmark that is 'fast (< 5min), cheap (< $10), and highly correlated with humans (0.98).'
+    - Topics include 'evaluation' and 'leaderboard', and it provides a toolkit for building automatic evaluators.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1984) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:40.959Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:37.894Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

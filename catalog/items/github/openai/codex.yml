@@ -1,13 +1,13 @@
 id: github__openai__codex
 kind: github-repo
-name: CodeX (`🔥`)
+name: codex
 canonical_url: https://github.com/openai/codex
 identity:
   github_repo: openai/codex
 provenance:
   discoveries:
     - id: discovery__github__openai__codex__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Codex CLI](https://github.com/openai/codex)** `⭐ 79.9k` `[OpenAI]` — OpenAI's local coding agent for reading/editing/running code, with an interactive TUI and tool execution. Apache-2.0."
         confidence: high
     - id: discovery__github__openai__codex__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,81 +37,61 @@ provenance:
         extracted_url: https://github.com/openai/codex
         surrounding_text: 22. [CodeX (`🔥`)](https://github.com/openai/codex)
         confidence: high
-    - id: discovery__www__codex__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💰 <a name="finance--fintech"></a>Finance & Fintech
-        anchor_text: Codex API
-        extracted_url: https://www.codex.io
-        surrounding_text: "- [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks"
-        confidence: high
 metadata:
   github:
-    stars: 80134
-    forks: 11558
+    stars: 80410
+    forks: 11597
     license: Apache-2.0
     archived: false
     created_at: "2025-04-13T05:37:54Z"
-    pushed_at: "2026-05-05T21:03:17Z"
+    pushed_at: "2026-05-06T22:44:57Z"
     description: Lightweight coding agent that runs in your terminal
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:04:03.466Z"
+    last_checked_at: "2026-05-06T22:45:40.494Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.466Z"
+      fetched_at: "2026-05-06T22:45:40.494Z"
       bytes: 2627
 insights:
-  summary: A lightweight, local coding agent from OpenAI that runs in the terminal, assisting developers with code tasks using their ChatGPT plan or API key.
-  why_it_matters: It brings OpenAI's agentic coding capabilities directly into the terminal, allowing developers to integrate advanced AI assistance into their existing local workflows without switching context to a web UI.
-  mental_damage: Yet another reason to wonder if your terminal is now just a fancy wrapper for an API call you could have made yourself, provided you enjoy debugging an AI's file system access.
+  summary: Codex is a lightweight, local coding agent from OpenAI that runs in your terminal and can also be integrated into IDEs like VS Code, Cursor, and Windsurf.
+  why_it_matters: It provides developers with a first-party, CLI-native agentic workflow directly from OpenAI that leverages ChatGPT subscriptions for code generation and editing.
+  mental_damage: Just when you had your terminal workflow perfectly configured with Claude Code, OpenAI drops a competing 80k-star CLI agent to ensure you never settle on a single prompt-to-code pipeline.
   tags:
-    - api
-    - blockchain
     - cli
     - coding-agent
-    - data
-    - defi
-    - local-first
     - openai
     - terminal
+    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The repository explicitly describes itself as a 'lightweight coding agent that runs in your terminal' and provides a CLI tool for direct code interaction, fitting the coding-agents category perfectly.
+  reason: The repository describes a developer-facing coding assistant designed to plan, write, and edit code directly in the terminal or IDE, fitting the primary identity of a coding agent.
   evidence:
-    - "Repo description states: 'Lightweight coding agent that runs in your terminal'"
-    - "README confirms: 'Codex CLI is a coding agent from OpenAI that runs locally on your computer'"
-    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'
+    - "Repo description explicitly states: 'Lightweight coding agent that runs in your terminal'."
+    - README identifies it as 'a coding agent from OpenAI that runs locally on your computer' with IDE integration options.
+    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents' section.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (80134) exceeded threshold (150)
+  reason: Stars (80410) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:46.453Z"
-    cause: null
-    next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.466Z"
+    updated_at: "2026-05-06T22:45:40.494Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:11.038Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

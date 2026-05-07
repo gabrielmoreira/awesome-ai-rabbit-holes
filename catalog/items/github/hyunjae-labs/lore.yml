@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hyunjae-labs__lore__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Semantic search MCP server for Claude Code conversations. Hybrid vector + keyword search across all your sessions, fully local.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:40.130Z"
+    last_checked_at: "2026-05-06T22:44:20.962Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.130Z"
+      fetched_at: "2026-05-06T22:44:20.962Z"
       bytes: 7539
 insights:
-  summary: A local MCP server that indexes and semantically searches across Claude Code and OpenAI Codex CLI conversation histories using hybrid vector and keyword search.
-  why_it_matters: It lets developers retrieve forgotten architecture decisions, debugging sessions, and design discussions from months of AI coding history without relying on cloud APIs.
-  mental_damage: We have finally built a search engine for the thousands of unread AI conversations we prompted ourselves into, because even our own context now requires context retrieval.
+  summary: A local MCP server that indexes and provides hybrid semantic plus keyword search across Claude Code and OpenAI Codex CLI conversation histories.
+  why_it_matters: It lets developers retrieve past architecture decisions, debugging sessions, and design discussions from their AI coding assistants instead of re-learning them every session.
+  mental_damage: Because obviously the next logical step in the AI-assisted workflow is building a search engine for the conversations we are having with the AI so we don't have to admit we forgot what the AI told us yesterday.
   tags:
     - mcp
-    - semantic-search
-    - local-first
-    - claude-code
     - memory
-  confidence: high
+    - semantic-search
+    - local-ai
+    - cli
+  confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server that provides semantic search and memory over coding agent conversations, fitting cleanly into MCP infrastructure.
+  reason: The product's primary identity is an MCP server that provides conversation memory and retrieval, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description explicitly says 'Semantic search MCP server for Claude Code conversations.'
-    - README shows it integrates as an MCP server via `claude mcp add` and `codex mcp add`.
-    - Listed under 'Server Implementations > Knowledge & Memory' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'Semantic search MCP server for Claude Code conversations.'
+    - "README emphasizes MCP integration: 'Add to Claude Code' and 'Add to OpenAI Codex CLI' using `claude mcp add` and `codex mcp add`."
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.130Z"
+    updated_at: "2026-05-06T22:44:20.962Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:19.493Z"
+    updated_at: "2026-05-06T23:01:30.191Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

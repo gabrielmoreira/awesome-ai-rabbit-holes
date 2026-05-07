@@ -1,12 +1,12 @@
 id: encode__software
 kind: website
-name: encode
+name: encode.software
 canonical_url: https://encode.software
 identity: {}
 provenance:
   discoveries:
     - id: discovery__encode__software__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,20 +34,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Encode is an AI autonomous agent listed in the awesome-ai-agents directory with no public repository details or hosted tool description available.
-  why_it_matters: If operational, it represents another entry in the growing ecosystem of autonomous agents aimed at automating developer workflows.
-  mental_damage: We are now curating tools that are themselves just curated lists of other invisible agents, creating a recursive loop of meta-automation.
+  summary: encode.software is a website with no publicly available description or scraped content to determine its purpose or features.
+  why_it_matters: Without a documented feature set or workflow explanation, it is impossible to determine how this tool could alter or improve a developer's existing process.
+  mental_damage: We have reached the event horizon of the AI boom where tools are listed in agent directories before they have even written a README.
   tags:
-    - agent
-    - autonomous-agents
+    - unknown
+    - unverified
   confidence: low
 curation:
   status: excluded
-  reason: The project lacks a public repository, description, README, or hosted site context, making it impossible to verify if it is a developer tool or just a listing in a directory.
+  reason: The project lacks a repository description, README excerpt, scraped site context, and basic metadata, making it impossible to verify that it is a practical developer tool rather than vaporware or a placeholder.
   evidence:
-    - No repo description, README, or scraped site context provided.
-    - Only signal is inclusion in awesome-ai-agents, which is evidence of a listing but not of the tool's actual functionality.
-    - URL encode.software returns no homepage or product details to validate the developer-tooling claim.
+    - Repo description is missing (none).
+    - README excerpt and scraped site context are unavailable.
+    - Stars, license, creation date, and push date are all unknown.
 placement:
   primary_category: null
   section: null
@@ -55,20 +55,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:22.082Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:55.789Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

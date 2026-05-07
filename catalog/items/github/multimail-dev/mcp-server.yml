@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__multimail-dev__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for MultiMail — email for AI agents
     homepage: https://multimail.dev
     topics: []
-    last_checked_at: "2026-05-05T21:03:49.030Z"
+    last_checked_at: "2026-05-06T22:45:27.336Z"
     readme:
-      fetched_at: "2026-05-05T21:03:49.030Z"
+      fetched_at: "2026-05-06T22:45:27.336Z"
       bytes: 8165
 insights:
-  summary: An MCP server that gives AI agents their own email address with configurable oversight modes, ranging from full human approval to autonomous sending.
-  why_it_matters: Developers building email-capable agents can integrate outbound messaging with graduated human oversight directly into Claude, Cursor, Copilot, and other MCP-compatible clients without building email infrastructure from scratch.
-  mental_damage: Your agent now has its own inbox, which means you’ve officially introduced a new class of async failure where a bot politely argues with a mailing list while you sleep.
+  summary: An MCP server that provides AI agents with dedicated email addresses and configurable human oversight modes for sending and receiving messages.
+  why_it_matters: It lets developers wire email capabilities into coding agents and MCP clients with graduated oversight, removing the need to hand-roll mail integrations.
+  mental_damage: We have finally solved the hard problem of making sure your autonomous agent can politely spam humans while asking for permission to do so.
   tags:
     - mcp
     - email
-    - agents
+    - agent-integration
     - communication
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation for email access, which clearly fits the MCP Servers and Tooling category.
+  reason: The product is an MCP server for email purpose-built for agents, which aligns directly with the MCP Servers & Tooling category and its Domain Servers section.
   evidence:
-    - "Repo description states: 'MCP server for MultiMail — email for AI agents'"
-    - README provides MCP server config examples for Claude, Cursor, Copilot, Windsurf, and other MCP clients
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - "Repo description states: 'MCP server for MultiMail — email for AI agents'."
+    - README shows MCP config examples for Claude, Cursor, Windsurf, Copilot, and others.
+    - Listed in awesome-mcp-servers under Communication as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:49.030Z"
+    updated_at: "2026-05-06T22:45:27.336Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:29.537Z"
+    updated_at: "2026-05-06T23:16:08.342Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

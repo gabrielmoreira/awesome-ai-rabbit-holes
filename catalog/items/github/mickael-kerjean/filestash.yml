@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mickael-kerjean__filestash__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14134
-    forks: 977
+    stars: 14137
+    forks: 979
     license: AGPL-3.0
     archived: false
     created_at: "2017-06-13T05:34:14Z"
-    pushed_at: "2026-05-01T07:36:32Z"
+    pushed_at: "2026-05-06T12:37:03Z"
     description: ":file_folder: File Management Platform / Universal Data Access Layer (without FUSE)"
     homepage: https://www.filestash.app/
     topics:
@@ -52,50 +52,50 @@ metadata:
       - smb
       - vfs
       - webdav
-    last_checked_at: "2026-05-05T21:03:37.551Z"
+    last_checked_at: "2026-05-06T22:45:15.514Z"
     readme:
-      fetched_at: "2026-05-05T21:03:37.551Z"
+      fetched_at: "2026-05-06T22:45:15.514Z"
       bytes: 12342
 insights:
-  summary: A web-based file management platform and universal data access layer that supports over 20 storage protocols including FTP, SFTP, S3, and WebDAV, with an extensible plugin architecture.
-  why_it_matters: Developers can expose diverse storage backends via APIs, gateways (including MCP), and a workflow engine to automate file operations across heterogeneous infrastructure.
-  mental_damage: "Just what the modern developer needs: another plugin-driven platform that turns a simple file manager into a universal data abstraction layer with its own workflow engine and RBAC."
+  summary: Filestash is a self-hosted, plugin-driven file management platform that provides universal data access across 20+ storage protocols including FTP, S3, SFTP, and WebDAV, with gateway support for exposing data over protocols like MCP.
+  why_it_matters: It provides developers with a unified interface and API gateway to manage disparate storage backends while offering an MCP gateway for AI tool integration.
+  mental_damage: Yet another self-hosted panacea promising to unify every storage protocol known to humanity, this time with an MCP gateway so your coding agent can theoretically browse your SMB shares.
   tags:
     - file-management
-    - storage
+    - self-hosted
     - mcp
+    - storage
     - gateway
-    - plugins
   confidence: high
 curation:
-  status: included
-  reason: While primarily a file manager, it explicitly implements an MCP gateway and is widely curated in MCP server directories, making it a relevant MCP tooling entry.
+  status: excluded
+  reason: The core product is a general-purpose file manager and data access layer, not a developer-facing AI tool, despite offering an MCP gateway as one of many integrations.
   evidence:
-    - "README states it exposes data over protocols including MCP: 'APIs and Gateways let you also expose your data over protocols like ... MCP'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'
-    - Homepage and docs highlight an MCP gateway guide at /docs/guide/mcp-gateway.html
+    - Repo description and README define it as a 'File Management Platform / Universal Data Access Layer' and 'storage agnostic Dropbox-like file manager', not an AI tool.
+    - MCP is listed as just one of many gateway protocols (SFTP, S3, FTP, WebDAV, MCP, AS2) rather than the product identity.
+    - Appears in awesome-mcp-servers lists, but the decision ladder states primary product identity beats source-list placement.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14134) exceeded threshold (150)
+  reason: Stars (14137) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:37.551Z"
+    updated_at: "2026-05-06T22:45:15.514Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:17.918Z"
+    updated_at: "2026-05-06T23:13:26.626Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

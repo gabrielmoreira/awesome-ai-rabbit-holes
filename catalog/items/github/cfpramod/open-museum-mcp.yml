@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cfpramod__open-museum-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for federated, license-verified search across open-access museum collections (The Met, Cleveland, AIC). Normalized schema, dynasty-aware date parsing, strict-default license gate.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:31.709Z"
+    last_checked_at: "2026-05-06T22:43:18.789Z"
     readme:
-      fetched_at: "2026-05-05T21:01:31.709Z"
+      fetched_at: "2026-05-06T22:43:18.789Z"
       bytes: 21696
 insights:
-  summary: An MCP server that federates search across multiple open-access museum collections with normalized schemas and per-museum license verification.
-  why_it_matters: Developers building art-history agents or cultural apps can integrate five museum APIs through one MCP interface with built-in rights gates and citation generation.
-  mental_damage: We have successfully abstracted the entire museum industry into a single JSON schema, yet we still cannot agree on how to normalize a date.
+  summary: An MCP server that provides federated, license-verified search across open-access museum collections (The Met, Cleveland, AIC, Wikimedia, Europeana) with a normalized schema and strict rights gating.
+  why_it_matters: It gives MCP-compatible agents and developer workflows a single normalized interface for querying multiple museum APIs with deterministic citation and rights verification.
+  mental_damage: "We have finally solved the most pressing issue in modern software development: safely generating Van Gogh citations for your agent without accidentally violating museum rights policies."
   tags:
     - mcp
     - museum
-    - api-integration
     - art
-    - open-access
-  confidence: high
+    - search
+    - normalized-schema
+  confidence: medium
 curation:
   status: included
-  reason: This is a standalone MCP server that integrates multiple museum APIs, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The primary product identity is an MCP server exposing museum search and citation tools, which fits cleanly as a domain-specific MCP server.
   evidence:
     - Repo description explicitly states 'MCP server for federated, license-verified search across open-access museum collections'.
-    - README lists tools like search_artworks and get_artwork, confirming it is an MCP server implementation.
+    - README positions it as a multi-museum MCP interface with tools like search_artworks, get_artwork, and cite.
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:31.709Z"
+    updated_at: "2026-05-06T22:43:18.789Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:41.007Z"
+    updated_at: "2026-05-06T22:48:29.739Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

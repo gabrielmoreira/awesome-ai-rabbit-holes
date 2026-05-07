@@ -1,12 +1,12 @@
 id: openai__com__blog__openai__codex
 kind: website
-name: OpenAI Codex CLI
+name: openai-codex
 canonical_url: https://openai.com/blog/openai-codex
 identity: {}
 provenance:
   discoveries:
     - id: discovery__openai__com__blog__openai__codex__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI Codex is a general-purpose AI model designed to understand and generate code across a wide variety of programming languages.
-  why_it_matters: It serves as the foundational model powering many of the coding assistants and AI tools developers use daily to accelerate software development workflows.
-  mental_damage: We have moved from 'writing code' to 'prompting a model that was famously deprecated in favor of GPT-4, only to return as the engine behind the ghost in the machine.'
+  summary: OpenAI Codex is an AI system designed to understand and generate code, powering features like GitHub Copilot and other developer-facing coding assistants.
+  why_it_matters: It established the foundational model capabilities that power much of the current generation of AI-assisted coding tools and IDE integrations.
+  mental_damage: We now live in a world where the original 'Codex' is a historical artifact, yet we still argue about whether the models derived from it can actually fix a missing semicolon without deleting the database.
   tags:
-    - code-generation
-    - foundation-model
+    - coding-agent
     - llm
     - openai
+    - foundation-model
   confidence: medium
 curation:
   status: included
-  reason: It is the canonical example of an AI coding assistant model, fitting the 'Coding Agents' category as the technology that drives direct code generation and editing.
+  reason: Despite being a foundational model API rather than a modern CLI agent, its identity as a 'coding agent' capability is the primary lens through which developers interact with the OpenAI ecosystem for code generation.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
-    - The linked OpenAI blog post positions it as a model that translates natural language to code.
+    - Seen in awesome-ai-coding-tools under the section 'Coding Agents'.
+    - URL points to the official openai.com/blog/openai-codex announcement page.
+    - The name 'openai-codex' implies the primary identity is the code-generating agent/model itself.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:47.416Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:08.058Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

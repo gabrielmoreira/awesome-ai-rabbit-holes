@@ -1,13 +1,13 @@
 id: github__all-contributors__allcontributors.org
 kind: github-repo
-name: all-contributors
+name: allcontributors.org
 canonical_url: https://github.com/all-contributors/allcontributors.org
 identity:
   github_repo: all-contributors/allcontributors.org
 provenance:
   discoveries:
-    - id: discovery__github__all-contributors__all-contributors__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__all-contributors__allcontributors.org__awesome-list__github__awesome-copilot
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -39,32 +39,27 @@ metadata:
       - opensource
       - opensource-management
       - recognition
-    last_checked_at: "2026-05-05T21:01:00.893Z"
+    last_checked_at: "2026-05-06T22:12:35.858Z"
     readme:
-      fetched_at: "2026-05-05T21:01:00.893Z"
+      fetched_at: "2026-05-06T22:12:35.858Z"
       bytes: 52166
 insights:
-  summary: A specification and bot system for recognizing all types of contributors (not just code) in open-source project documentation.
-  why_it_matters: It provides a standardized way for maintainers to automate acknowledgment of diverse contributions like documentation, design, and issue triage directly in the README.
-  mental_damage: We have successfully automated the social anxiety of remembering to thank people, ensuring our open-source ego management is as well-maintained as our dependency trees.
+  summary: A specification and bot system for recognizing all types of open-source contributors, not just those who push code.
+  why_it_matters: It provides a standardized way to acknowledge documentation, design, and community contributions, which is useful for maintainers trying to build healthy project cultures.
+  mental_damage: We now have a formal spec, a bot, and an emoji key to ensure the person who fixed a typo in the README gets the same badge as the person who refactored the core architecture.
   tags:
-    - automation
-    - bot
-    - community
-    - contributors
-    - github-bot
     - open-source
+    - contributors
+    - bot
+    - recognition
   confidence: high
 curation:
   status: excluded
-  reason: This is a general open-source community management tool for acknowledging contributors, lacking a specific AI developer-tooling angle required for the catalog.
+  reason: This is an open-source community management tool and specification, lacking the AI-native developer tooling identity required for this catalog.
   evidence:
-    - Repo description focuses on recognizing contributors, not AI tooling.
-    - README describes a specification and bot for open-source acknowledgment with no mention of AI.
-    - Found in awesome-copilot lists only as a badge/example of contributor recognition, not as a copilot extension.
-    - Repo description and README focus entirely on recognizing non-code contributors using a bot and specification, with no mention of AI.
-    - Topics and content are centered on open-source management and acknowledgements, not AI tooling, agents, or infrastructure.
-    - Does not fit any available category, as it is neither an AI tool nor an extension of one.
+    - Repo description describes it as a bot and specification for recognizing contributors, not an AI tool.
+    - README focuses on open-source acknowledgment, emoji keys, and community management, with no mention of AI coding assistance.
+    - Appears in awesome-copilot under 'Contributors', but the tool itself is not an AI agent, extension, or coding workflow product.
 placement:
   primary_category: null
   section: null
@@ -72,21 +67,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (8037) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:43.981Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:00.893Z"
+    updated_at: "2026-05-06T22:12:35.858Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:46.114Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

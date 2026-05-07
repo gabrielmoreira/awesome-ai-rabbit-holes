@@ -1,13 +1,13 @@
 id: github__portkey-ai__gateway
 kind: github-repo
-name: Gateway
+name: gateway
 canonical_url: https://github.com/portkey-ai/gateway
 identity:
   github_repo: portkey-ai/gateway
 provenance:
   discoveries:
     - id: discovery__github__portkey-ai__gateway__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 11602
-    forks: 1037
+    stars: 11616
+    forks: 1039
     license: MIT
     archived: false
     created_at: "2023-08-23T11:52:47Z"
@@ -47,44 +47,50 @@ metadata:
       - mcp-servers
       - model-router
       - openai
-    last_checked_at: "2026-05-05T23:08:08.429Z"
+    last_checked_at: "2026-05-06T22:45:56.159Z"
     readme:
-      fetched_at: "2026-05-05T23:08:08.429Z"
+      fetched_at: "2026-05-06T22:45:56.159Z"
       bytes: 21564
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A fast, open-source AI gateway that routes requests to 1,600+ LLMs with built-in guardrails, load balancing, and fallbacks via a single API.
+  why_it_matters: It gives developers a single integration point to manage model routing, reliability, and safety across a massive provider ecosystem without vendor lock-in.
+  mental_damage: Because what the modern stack really needed was another high-performance abstraction layer to argue about while your 12-line script slowly forgets which of the 1,600 models it was supposed to be talking to.
+  tags:
+    - ai-gateway
+    - llm-routing
+    - guardrails
+    - mcp
+    - open-source
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a code-first, developer-operated infrastructure component used to integrate and manage model access in applications, fitting the provider/model abstraction shape of Frameworks & SDKs.
+  evidence:
+    - Repo description explicitly calls it a fast AI Gateway with a 'friendly API' for routing to 1,600+ LLMs.
+    - README emphasizes <1ms latency, 122kb footprint, and drop-in integration for handling retries, fallbacks, and load balancing.
+    - Topics include llm-gateway, model-router, and langchain, and it appears in awesome-langchain under 'Other LLM Frameworks'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
-  reason: Stars (11602) exceeded threshold (150)
+  reason: Stars (11616) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:08.429Z"
+    updated_at: "2026-05-06T22:45:56.159Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:34.457Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

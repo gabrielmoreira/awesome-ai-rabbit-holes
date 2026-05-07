@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erishforg__git-parsec__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -28,7 +28,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-14T02:18:35Z"
-    pushed_at: "2026-05-04T12:27:25Z"
+    pushed_at: "2026-05-06T12:59:25Z"
     description: Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel AI agent workflows, CI monitoring, stacked PRs, conflict detection.
     homepage: https://erishforg.github.io/git-parsec/
     topics:
@@ -51,50 +51,50 @@ metadata:
       - ticket-management
       - worktree
       - worktree-manager
-    last_checked_at: "2026-05-05T21:02:04.050Z"
+    last_checked_at: "2026-05-06T22:43:47.695Z"
     readme:
-      fetched_at: "2026-05-05T21:02:04.050Z"
+      fetched_at: "2026-05-06T22:43:47.695Z"
       bytes: 9106
 insights:
-  summary: A Rust-based CLI tool that manages Git worktree lifecycles by connecting tickets from Jira or Git forges directly to isolated workspaces, automating the start-to-PR cycle with stacked PR support.
-  why_it_matters: It eliminates context-switching between ticket trackers, terminals, and pull request UIs by providing a single command loop for starting work, shipping code, and managing stacked branches.
-  mental_damage: Finally, a tool to manage the parallel reality of ten AI agents creating conflicting worktrees, because apparently we needed a manager for the managers.
+  summary: A Rust-based Git worktree lifecycle manager that integrates with Jira, GitHub Issues, and GitLab to create isolated workspaces from tickets and ship stacked PRs in one command.
+  why_it_matters: It eliminates the manual loop of syncing tickets, branches, and PRs while enabling parallel AI agent workflows and stacked changes without index lock collisions.
+  mental_damage: Because what modern software development truly needed was a CLI tool to manage the parallel reality of twelve AI agents subtree-merging rate-limit fixes while you debug CI in a terminal Kanban board.
   tags:
     - git
-    - cli
     - worktree
-    - productivity
-    - rust
+    - cli
+    - devops
+    - ai-agent
   confidence: medium
 curation:
   status: included
-  reason: The tool acts as a CLI agent that collaborates with the developer (and other AI agents) on source code workflows within a repo, fitting the terminal agent profile.
+  reason: Its primary value is augmenting the Git/ticket workflow for developers and AI agents rather than being a coding assistant that writes or debugs code itself.
   evidence:
-    - Repo description explicitly states 'Parallel AI agent workflows' and 'ticket to PR in one command'.
-    - README highlights 'agent-friendly' design with --json flags, JSONL logs, and offline modes for tooling/agents.
-    - Included in awesome-ai-coding-tools under 'Developer Productivity Tools', confirming its place in the coding tool ecosystem.
+    - Repo description explicitly calls it a 'git worktree lifecycle manager' with 'Parallel AI agent workflows' as a feature, not the core identity.
+    - Every command is designed to manage branches, tickets, and PR logistics (start, ship, stack, merge, ci), not to read or write application code.
+    - Source list places it under 'Developer Productivity Tools', aligning with workflow automation rather than coding agents.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:04.050Z"
+    updated_at: "2026-05-06T22:43:47.695Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:21.150Z"
+    updated_at: "2026-05-06T22:54:41.850Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

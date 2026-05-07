@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pfillion42__memviz__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - typescript
       - umap
       - vector-database
-    last_checked_at: "2026-05-05T21:04:15.482Z"
+    last_checked_at: "2026-05-06T22:45:51.143Z"
     readme:
-      fetched_at: "2026-05-05T21:04:15.482Z"
+      fetched_at: "2026-05-06T22:45:51.143Z"
       bytes: 8697
 insights:
-  summary: A local web UI for browsing, searching, visualizing, and managing the SQLite-vec database created by the MCP Memory Service.
-  why_it_matters: It gives developers a visual interface to inspect, clean, and understand the vector memory their AI assistants are accumulating.
-  mental_damage: Another tool to help you obsess over the memories your AI is forming about you, because apparently the relationship wasn't complicated enough.
+  summary: A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP Memory Service.
+  why_it_matters: It gives developers a visual interface to inspect, clean, and understand the vector memories that Claude Code and other MCP clients accumulate over time.
+  mental_damage: You now have an interactive dashboard to micromanage the memories of an AI that you originally asked to just write a function for you.
   tags:
-    - mcp
-    - vector-database
     - memory
+    - mcp
+    - vector-db
     - visualization
-    - local-ai
+    - local
   confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated visualization and management tool for databases created by MCP Memory Service, making it a clear fit for the MCP tooling category.
+  reason: The core novelty is a visualization and management layer for local vector memory systems used by coding assistants, fitting context engineering over a generic extension label.
   evidence:
-    - Repo description explicitly states it manages SQLite-vec databases from MCP Memory Service.
-    - README confirms it reads from the database created by the MCP Memory Service and is tagged with 'mcp'.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description states it is 'A local vector memory explorer with a modern UI' for SQLite-vec databases from MCP Memory Service.
+    - README explicitly targets users of 'Claude Code or Claude Desktop with the memory MCP server' to manage their local memory DB.
+    - Built as a React + Express UI surface focused on memory visualization, semantic clustering, and duplicate detection rather than coding assistance.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:15.482Z"
+    updated_at: "2026-05-06T22:45:51.143Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:22.387Z"
+    updated_at: "2026-05-06T23:21:32.834Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

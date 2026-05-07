@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fiddler-labs__fiddler-auditor__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 190
+    stars: 191
     forks: 23
     license: NOASSERTION
     archived: false
@@ -40,50 +40,49 @@ metadata:
       - llms
       - nlp
       - robustness
-    last_checked_at: "2026-05-05T21:02:11.127Z"
+    last_checked_at: "2026-05-06T22:43:53.773Z"
     readme:
-      fetched_at: "2026-05-05T21:02:11.127Z"
+      fetched_at: "2026-05-06T22:43:53.773Z"
       bytes: 4483
 insights:
-  summary: Fiddler Auditor is a Python library for evaluating and red-teaming large language and NLP models to identify weaknesses before production deployment.
-  why_it_matters: It lets ML and software teams programmatically audit LLMs for hallucinations, prompt injection vulnerabilities, and robustness using custom metrics and LangChain integration.
-  mental_damage: We now have a dedicated library to scientifically confirm that our models are confidently incorrect, which is slightly more formal than just asking it to count the letter 'r' in strawberry.
+  summary: Fiddler Auditor is a Python library for red-teaming, evaluating, and comparing LLMs and NLP models against custom metrics before production deployment.
+  why_it_matters: It gives developers a structured way to surface hallucinations, prompt injection risks, and model weaknesses via automated perturbation and custom eval metrics.
+  mental_damage: Yet another tool promising to catch your model before it embarrasses you in production, assuming you have the time to write evals between framework migrations.
   tags:
     - llm-eval
     - red-teaming
     - langchain
-    - observability
-    - ai-safety
+    - nl-eval
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing evaluation and observability tool for LLMs, fitting cleanly into the Evaluations and Benchmarks category rather than a coding agent or framework.
+  reason: The core job is measuring, scoring, and red-teaming model behavior via eval metrics and prompt perturbation, which aligns directly with the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly states 'Fiddler Auditor is a tool to evaluate language models.'
-    - README claims it supports 'Red-teaming LLMs' and 'Custom evaluation metrics' for pre-production auditing.
-    - Listed in Awesome-LLMOps under the 'Security > Observability' section.
+    - "Repo description states: 'Fiddler Auditor is a tool to evaluate language models.'"
+    - README says it supports red-teaming LLMs, custom evaluation metrics, and comparison of LLMs.
+    - Listed in Awesome-LLMOps under Security > Observability for auditing and eval use cases.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (190) exceeded threshold (150)
+  reason: Stars (191) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:11.127Z"
+    updated_at: "2026-05-06T22:43:53.773Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:34.732Z"
+    updated_at: "2026-05-06T22:55:59.787Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
