@@ -1,12 +1,12 @@
 id: clevagent__io
 kind: website
-name: ClevAgent
+name: clevagent.io
 canonical_url: https://clevagent.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__clevagent__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,43 +35,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ClevAgent is a supervised terminal layer that monitors AI agent sessions to detect inefficient patterns like duplicate reads and memory bloat, injecting corrective guidance in real time.
-  why_it_matters: It addresses the hidden operational cost of agentic workflows by reducing token waste and enforcing workspace hygiene, making autonomous sessions cheaper and more reliable.
-  mental_damage: We have finally built a tool to supervise the tools we built to avoid supervising the tools we built to write code.
+  summary: ClevAgent is a supervised terminal workstation that intercepts running AI agents to detect wasteful patterns like duplicate reads and memory bloat, injecting corrective guidance to improve session efficiency.
+  why_it_matters: It targets the hidden token and time waste in long agent sessions, helping developers reduce costs and keep workspaces cleaner across repeated runs.
+  mental_damage: We have finally built middleware to watch the agents that were supposed to be watching the code for us, completing the circle of recursive oversight.
   tags:
     - agent-ops
-    - observability
-    - terminal
     - token-optimization
-  confidence: high
+    - context-management
+    - terminal
+  confidence: medium
 curation:
   status: included
-  reason: It is a user-facing operational layer for monitoring and correcting agent behavior in real-time, fitting the control-plane definition of agent orchestration.
+  reason: The core novelty is a context-shaping system that detects memory bloat, duplicate reads, and pathological loops, then injects guidance to trim context and improve workspace hygiene.
   evidence:
-    - Listed in Awesome-LLMOps under 'Security > Observability' as a tool to run agents inside a supervised terminal.
-    - Product description explicitly states it 'sits between the agent and its work' to add guidance and visibility.
-    - Features include detecting work patterns, stopping loops, and logging interventions within agent sessions.
+    - Product description states it 'sits between the agent and its work, adding guidance when the session needs a better next move'.
+    - Features explicitly include 'Keep Memory Lean' and 'Reduce Wasteful Calls' through context and memory management.
+    - Listed in Awesome-LLMOps under 'Security > Observability' as a tool for supervising agent execution and visibility.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:49.834Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:03.360Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

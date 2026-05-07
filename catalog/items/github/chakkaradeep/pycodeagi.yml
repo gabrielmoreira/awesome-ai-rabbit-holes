@@ -1,13 +1,13 @@
 id: github__chakkaradeep__pycodeagi
 kind: github-repo
-name: PyCodeAGI
+name: pycodeagi
 canonical_url: https://github.com/chakkaradeep/pycodeagi
 identity:
   github_repo: chakkaradeep/pycodeagi
 provenance:
   discoveries:
     - id: discovery__github__chakkaradeep__pycodeagi__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,27 +33,27 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:32.008Z"
+    last_checked_at: "2026-05-06T22:43:19.043Z"
     readme:
-      fetched_at: "2026-05-05T21:01:32.008Z"
+      fetched_at: "2026-05-06T22:43:19.043Z"
       bytes: 428
 insights:
-  summary: An early-stage experiment that uses LangChain to generate complete Python applications from a text description of what the user wants to build.
-  why_it_matters: It demonstrates a prompt-to-app workflow for Python, serving as a reference implementation for developers exploring autonomous code generation using the LangChain framework.
-  mental_damage: "Just what the world needed: another 'AGI' script from 2023 that hallucinates a Flask app and then gracefully retires to the GitHub graveyard a few weeks later."
+  summary: A small Python experiment that uses LangChain to generate a complete Python application from a user's text description of what they want to build.
+  why_it_matters: It explores the early 'prompt-to-app' workflow by attempting to automate the entire generation of a Python project from scratch using agentic loops.
+  mental_damage: Yet another 2023-era attempt to convince us that feeding a sentence into a loop will somehow replace the agony of actually designing software architecture.
   tags:
-    - autonomous-agents
-    - code-generation
     - langchain
+    - agent
     - python
+    - code-generation
   confidence: high
 curation:
   status: excluded
-  reason: The project is an inactive, experimental proof-of-concept from 2023 with no description and no recent updates, falling outside the scope of practical, maintained developer tooling.
+  reason: Excluded because the repository is stagnant (last pushed in May 2023), is explicitly described as a 'small... experiment' that 'just started', and offers no maintained tooling value for modern developer workflows.
   evidence:
-    - Last push was 2023-05-04, indicating the project is abandoned and not actively maintained.
-    - README describes it as a 'small AGI experiment' and 'very early' stage rather than a usable tool.
-    - Appears in awesome-langchain as an agent tool, but the code itself is a toy implementation rather than a robust framework.
+    - Last push was 2023-05-04, over a year of inactivity.
+    - README describes it as 'A small AGI experiment' and 'very early'.
+    - Low star count (183) combined with stale status confirms it is a historical artifact rather than active tooling.
 placement:
   primary_category: null
   section: null
@@ -61,21 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (183) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:46.801Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:32.008Z"
+    updated_at: "2026-05-06T22:43:19.043Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:34.481Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

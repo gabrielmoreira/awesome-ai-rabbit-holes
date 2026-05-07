@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hashicorp__terraform-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,23 +24,23 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1355
+    stars: 1357
     forks: 154
     license: MPL-2.0
     archived: false
     created_at: "2025-04-19T19:49:09Z"
-    pushed_at: "2026-05-05T15:06:35Z"
+    pushed_at: "2026-05-06T22:24:50Z"
     description: The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:31.743Z"
+    last_checked_at: "2026-05-06T22:44:12.400Z"
     readme:
-      fetched_at: "2026-05-05T21:02:31.743Z"
+      fetched_at: "2026-05-06T22:44:12.400Z"
       bytes: 20569
 insights:
-  summary: An official HashiCorp MCP server that connects AI assistants to Terraform Registry APIs and HCP Terraform for workspace management and infrastructure operations.
-  why_it_matters: It allows developers to query providers, manage workspaces, and inspect infrastructure state directly through their AI coding assistant instead of context-switching to the CLI or web console.
-  mental_damage: We have successfully abstracted the infrastructure code so far away that we now need a protocol server just to let the AI ask the registry if our abstraction is abstracted enough.
+  summary: An official HashiCorp MCP server that connects AI assistants to Terraform Registry APIs, HCP Terraform, and Terraform Enterprise for workspace and infrastructure management.
+  why_it_matters: It lets coding agents directly query providers, modules, and manage Terraform workspaces without developers manually context-switching to the Terraform CLI or web UI.
+  mental_damage: We have successfully abstracted infrastructure management one layer away, so your AI can now drift your state file while you watch in horror.
   tags:
     - mcp
     - terraform
@@ -50,33 +50,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation from HashiCorp, fitting cleanly into the MCP Servers and Tooling category as a protocol server rather than a coding agent or extension.
+  reason: The product is an official HashiCorp MCP server whose primary identity is providing Terraform ecosystem access via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is a 'Terraform MCP Server' providing Model Context Protocol integration.
-    - README confirms it is a server implementing MCP to integrate with Terraform Registry and HCP Terraform APIs.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
+    - Repo description explicitly states it is 'The Terraform MCP Server' providing MCP integration.
+    - README confirms it is a Model Context Protocol server for Terraform Registry APIs and HCP Terraform.
+    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1355) exceeded threshold (150)
+  reason: Stars (1357) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:31.743Z"
+    updated_at: "2026-05-06T22:44:12.400Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:38.093Z"
+    updated_at: "2026-05-06T22:59:41.853Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

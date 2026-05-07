@@ -1,29 +1,13 @@
 id: github__wise-vision__ros2_mcp
 kind: github-repo
-name: WiseVision/mcp_server_ros_2
+name: ros2_mcp
 canonical_url: https://github.com/wise-vision/ros2_mcp
 identity:
   github_repo: wise-vision/ros2_mcp
 provenance:
   discoveries:
-    - id: discovery__github__wise-vision__mcp_server_ros_2__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💻 <a name="developer-tools"></a>Developer Tools
-        anchor_text: WiseVision/mcp_server_ros_2
-        extracted_url: https://github.com/wise-vision/mcp_server_ros_2
-        surrounding_text: "- [WiseVision/mcp_server_ros_2](https://github.com/wise-vision/mcp_server_ros_2) 🐍 🤖 - MCP server for ROS2 enabling AI-driven robotics applications and services."
-        confidence: high
     - id: discovery__github__wise-vision__ros2_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -68,19 +52,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.152Z"
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__entanglr__zettelkasten-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,49 +43,49 @@ metadata:
       - obsidian
       - python
       - zettelkasten
-    last_checked_at: "2026-05-05T21:02:02.689Z"
+    last_checked_at: "2026-05-06T22:43:46.329Z"
     readme:
-      fetched_at: "2026-05-05T21:02:02.689Z"
+      fetched_at: "2026-05-06T22:43:46.329Z"
       bytes: 11736
 insights:
-  summary: An MCP server that implements the Zettelkasten methodology, allowing AI clients like Claude to create, link, and synthesize atomic notes into a knowledge graph.
-  why_it_matters: It gives developers a structured way to build a persistent, queryable knowledge base through AI chat, bridging the gap between note-taking and agentic workflows.
-  mental_damage: Now you can automate the creation of an incomprehensible web of atomic thoughts, ensuring your second brain is just as fragmented and anxious as the first one.
+  summary: A Model Context Protocol server that implements the Zettelkasten knowledge management methodology, enabling AI assistants like Claude to create, link, and synthesize atomic notes.
+  why_it_matters: It gives coding agents a structured, semantic memory layer for long-term knowledge management directly within the MCP workflow.
+  mental_damage: Because nothing says 'I am definitely going to finish that side project' like setting up a digital second brain to organize notes about why you never finished the first one.
   tags:
     - mcp
     - knowledge-management
-    - zettelkasten
-    - python
+    - memory
+    - claude
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for knowledge management, fitting cleanly into the dedicated MCP category.
+  reason: The product is explicitly an MCP server designed to provide knowledge graph and note-taking capabilities to MCP-compatible clients.
   evidence:
-    - Repo description identifies it as 'A Model Context Protocol (MCP) server'.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
-    - Active development (pushed 2025-04-25) and standard MCP Python SDK architecture.
+    - Repo description states it is 'A Model Context Protocol (MCP) server that implements the Zettelkasten knowledge management methodology'.
+    - Featured in the awesome-mcp-servers list under 'Knowledge & Memory' server implementations.
+    - README details specific MCP tools for creating links, note types, and semantic relationships within the server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:02.689Z"
+    updated_at: "2026-05-06T22:43:46.329Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:03.275Z"
+    updated_at: "2026-05-06T22:54:21.153Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

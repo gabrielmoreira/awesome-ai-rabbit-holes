@@ -1,13 +1,13 @@
 id: github__pytorch__pytorch
 kind: github-repo
-name: PyTorch
+name: pytorch
 canonical_url: https://github.com/pytorch/pytorch
 identity:
   github_repo: pytorch/pytorch
 provenance:
   discoveries:
     - id: discovery__github__pytorch__pytorch__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 99665
-    forks: 27674
+    stars: 99693
+    forks: 27692
     license: NOASSERTION
     archived: false
     created_at: "2016-08-13T05:26:41Z"
-    pushed_at: "2026-05-05T23:04:10Z"
+    pushed_at: "2026-05-06T22:45:20Z"
     description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
     homepage: https://pytorch.org
     topics:
@@ -41,44 +41,50 @@ metadata:
       - numpy
       - python
       - tensor
-    last_checked_at: "2026-05-05T23:08:13.458Z"
+    last_checked_at: "2026-05-06T22:46:00.880Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.458Z"
+      fetched_at: "2026-05-06T22:46:00.880Z"
       bytes: 29372
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: PyTorch is a Python package providing tensor computation with strong GPU acceleration and tape-based deep neural networks.
+  why_it_matters: It serves as a foundational framework for building and training deep learning models, though it targets ML researchers and data scientists more than application developers looking for AI tooling.
+  mental_damage: Another reminder that while we're all busy Prompt Engineering for CRUD apps, the real magic (and math) is still happening in libraries where 99% of us only ever change the learning rate.
+  tags:
+    - deep-learning
+    - gpu
+    - python
+    - tensors
+    - ml-framework
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a general deep learning research framework (ML library), not a practical AI tool, agent, or developer infrastructure product for the scope of this catalog.
+  evidence:
+    - Repo description defines it as 'Tensors and Dynamic neural networks in Python', targeting deep learning research rather than developer tooling.
+    - README explicitly states it is used as 'a replacement for NumPy' or 'a deep learning research platform', lacking any coding agent or AI-app-builder identity.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a generic ML category outside our developer-facing scope.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (99665) exceeded threshold (150)
+  reason: Stars (99693) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.458Z"
+    updated_at: "2026-05-06T22:46:00.880Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:23:28.366Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openstack-kr__python-openstackmcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,49 +35,50 @@ metadata:
     topics:
       - mcp-server
       - openstack
-    last_checked_at: "2026-05-05T21:04:07.365Z"
+    last_checked_at: "2026-05-06T22:45:44.011Z"
     readme:
-      fetched_at: "2026-05-05T21:04:07.365Z"
+      fetched_at: "2026-05-06T22:45:44.011Z"
       bytes: 4119
 insights:
-  summary: An MCP server that lets AI assistants manage OpenStack resources like compute, networking, and storage via the Model Context Protocol.
-  why_it_matters: Developers running infrastructure on OpenStack can now delegate cloud resource management to their local AI assistants instead of writing raw SDK calls.
-  mental_damage: We have successfully abstracted cloud infrastructure management into a protocol that requires an AI to translate your intent into API calls you could have written yourself in the time it took to configure the MCP server.
+  summary: An MCP server that exposes OpenStack compute, image, identity, network, and block storage resources to AI assistants like Claude Desktop via the Model Context Protocol.
+  why_it_matters: It lets developers manage and automate OpenStack cloud infrastructure through natural language conversations instead of raw CLI commands or SDK scripts.
+  mental_damage: "We have finally achieved the platonic ideal of modern cloud operations: wrapping a 2010s-era OpenStack cloud in an MCP server so an LLM can nervously describe your instances back to you."
   tags:
     - mcp
     - openstack
     - cloud
     - infrastructure
+    - claude-desktop
   confidence: high
 curation:
   status: included
-  reason: This is a straightforward MCP server implementation for OpenStack, fitting cleanly into the MCP tooling category.
+  reason: This is a first-party MCP server implementation that gives AI assistants direct access to OpenStack services, making MCP its clear product identity.
   evidence:
-    - Repo description explicitly states 'openstack mcp server'
-    - README confirms it implements the Model Context Protocol to interact with OpenStack services
-    - Listed in awesome-mcp-servers under Cloud Platforms section
+    - Repo description is literally 'openstack mcp server'
+    - README states it 'provides an interface for AI assistants to interact with OpenStack services' via MCP protocol
+    - Listed in awesome-mcp-servers under Cloud Platforms, with tools for compute, image, identity, network, and block storage
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:07.365Z"
+    updated_at: "2026-05-06T22:45:44.011Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:58.453Z"
+    updated_at: "2026-05-06T23:19:55.833Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

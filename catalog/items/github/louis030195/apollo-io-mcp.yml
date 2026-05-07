@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__louis030195__apollo-io-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 2
     forks: 2
     license: MIT
     archived: false
@@ -33,49 +33,49 @@ metadata:
     description: let AGI print dollars for you
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:24.646Z"
+    last_checked_at: "2026-05-06T22:45:03.870Z"
     readme:
-      fetched_at: "2026-05-05T21:03:24.646Z"
+      fetched_at: "2026-05-06T22:45:03.870Z"
       bytes: 4920
 insights:
-  summary: An MCP server that exposes the Apollo.io B2B sales intelligence API to LLMs like Claude for searching and enriching contacts and companies.
-  why_it_matters: Developers can wire Apollo's 275M+ contact database directly into their LLM workflows to automate sales prospecting without leaving the chat interface.
-  mental_damage: We have successfully abstracted away the labor of talking to humans so thoroughly that we now need a protocol server to let our AI ask Apollo.io who it should cold email next.
+  summary: An MCP server that exposes Apollo.io's B2B sales intelligence database to LLMs for searching prospects, enriching contacts, and discovering companies.
+  why_it_matters: Developers building sales-focused agents or workflows can give their LLMs direct access to 275M+ contacts without writing custom API wrappers.
+  mental_damage: Your coding agent can now hunt for B2B leads while you debug a null pointer, blurring the line between 'shipping features' and 'letting AGI print dollars' beyond recognition.
   tags:
     - mcp
-    - sales
+    - sales-intelligence
+    - b2b
     - llm-integration
-    - apollo
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: It is a concrete MCP server implementation for a specific API, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server for Apollo.io, which fits cleanly into MCP Servers & Tooling as a specialized external data integration.
   evidence:
-    - Repo description identifies it as an MCP server for Apollo.io
-    - "README states: 'MCP (Model Context Protocol) server for Apollo.io B2B sales intelligence API'"
-    - Source list context places it under 'Server Implementations' in awesome-mcp-servers
+    - Repo description and README explicitly define it as 'MCP (Model Context Protocol) server for Apollo.io B2B sales intelligence API'.
+    - Included in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - Active as of 2025-10-17 with no archived status, despite low star count (2).
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:24.646Z"
+    updated_at: "2026-05-06T22:45:03.870Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:45.071Z"
+    updated_at: "2026-05-06T23:10:41.331Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

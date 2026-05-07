@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paracetamol951__p-link-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - x402-agent
       - x402-api
       - x402-payment
-    last_checked_at: "2026-05-05T21:04:12.012Z"
+    last_checked_at: "2026-05-06T22:45:48.175Z"
     readme:
-      fetched_at: "2026-05-05T21:04:12.012Z"
+      fetched_at: "2026-05-06T22:45:48.175Z"
       bytes: 7221
 insights:
-  summary: An MCP server that exposes the P-Link.io payment API as tools, allowing AI agents and chat clients to send money, request payment links, and pay for HTTP 402-protected resources on Solana.
-  why_it_matters: It gives developers a standardized way to let AI agents handle micropayments and paid API access using the Model Context Protocol and HTTP 402.
-  mental_damage: We have finally bridged the gap between autonomous agents and Solana wallets, meaning your ChatGPT can now accidentally drain your testnet funds while trying to buy a PDF.
+  summary: An MCP server that exposes the P-Link.io payment API as tools so Claude, ChatGPT, and other MCP-compatible clients can create payment links, send money, and pay HTTP 402-protected resources on Solana.
+  why_it_matters: It gives coding agents a standard protocol interface to programmatic payments, enabling agentic workflows that can autonomously pay for APIs, content, and services.
+  mental_damage: We have finally arrived at the point where your AI assistant can independently burn your Solana wallet on paywalled documentation sites while you watch in awe.
   tags:
     - mcp
     - payments
     - solana
     - x402
-    - agent-tools
-  confidence: high
+    - agent-tooling
+  confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server implementation that integrates payment tools for agents, fitting cleanly into the MCP Servers and Tooling category.
+  reason: "MCP is the core product identity: this is explicitly an MCP server exposing payment tools, not a generic payment platform or a framework."
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) for P-Link.io'.
-    - README confirms it 'exposes the p-link.io API as Model Context Protocol (MCP) tools' over HTTP and STDIO.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description states it is a 'Model Context Protocol (MCP) for P-Link.io'.
+    - README title is 'P-Link.io MCP Server' and describes exposing the p-link.io API as MCP tools over HTTP and STDIO.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:12.012Z"
+    updated_at: "2026-05-06T22:45:48.175Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:49.722Z"
+    updated_at: "2026-05-06T23:20:50.386Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

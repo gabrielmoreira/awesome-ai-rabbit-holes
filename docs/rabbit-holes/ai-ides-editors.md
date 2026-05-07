@@ -1,99 +1,126 @@
-# AI IDEs and Editors
+# IDEs & Editors
 
-Editors and IDEs built around AI assistance.
+Development environments built around coding assistance.
 
 ## Tools & Resources
 
-- **[code server](https://github.com/coder/code-server)** `⭐ 77.4k` `updated ≤30d` Run VS Code on any machine and access it directly in a web browser. <details><summary>More about</summary>
+- **[code server](https://github.com/coder/code-server)** `⭐ 77.4k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
 
-  It enables remote development and consistent coding environments accessible from any device with a browser, which is foundational for running modern AI coding agents in the cloud.
+  It allows developers to use a familiar IDE environment from any device with a browser, enabling consistent remote development workflows.
 
-  _We have successfully orchestrated a stack of abstractions so deep that we now run a fully indexed IDE inside a browser tab, just to ask an AI to write the code we no longer have time to understand._
+  _Now you can drain your laptop battery watching a browser tab spin while your actual code compiles on a server you have to maintain yourself._
 
-  `browser-ide` `cloud` `remote-development` `vscode`
+  `ide` `remote-development` `vscode` `browser-ide`
+  </details>
+
+- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 3.6k` `updated ≤30d` Kiro is an agentic IDE and CLI from Amazon that combines spec-driven development, hooks, and natural language coding assistance to help developers move from prototype to production. <details><summary>More about</summary>
+
+  It integrates structured spec planning directly into the development environment alongside agentic chat and automated hooks, aiming to formalize AI-assisted workflows beyond simple code completion.
+
+  _Another day, another IDE promising to turn your vague prompts into production-ready specs, just in case you were worried Cursor wasn't quite enterprise enough yet._
+
+  `ide` `agentic` `spec-driven` `cli` `aws`
   </details>
 
 ## Incubating
 
 _These are new or low-traffic entries being watched._
 
-- **[dcostenco/prism-mcp](https://github.com/dcostenco/prism-coder)** `⭐ 132` `updated ≤30d` An MCP server and AI-native desktop IDE that provides a HIPAA-hardened cognitive architecture with persistent memory, Hebbian learning, and on-device LLM execution for coding and multi-agent workflows. <details><summary>More about</summary>
+- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 59` `updated ≤90d` GitWit is an open-source, cloud-based code editing environment that integrates AI code generation, live previews, and chat, built with Next.js and supporting multiple AI providers. <details><summary>More about</summary>
 
-  It offers developers a local-first, privacy-conscious workspace that combines an IDE, persistent agent memory, and visual multi-agent orchestration without relying on external APIs.
+  It provides developers with a self-hostable, AI-native IDE surface that supports custom API keys and live previews via E2B sandboxes.
 
-  _Just when you thought 'vibe coding' was the peak, we now have cognitive architectures with Hebbian learning and HIPAA-hardened mind palaces running autonomously on your laptop._
+  _Another day, another open-source 'AI-native' IDE hoping to be the Cursor alternative you can host on a Tuesday afternoon._
 
-  `agent-memory` `ai-ide` `cognitive-architecture` `ide` `local-ai` `local-llm` `mcp` `mcp-server`
+  `ai-ide` `code-generation` `self-hosted` `live-preview` `nextjs`
   </details>
 
-- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 59` `updated ≤90d` An open-source, cloud-based code editing environment with AI code generation, live preview, and AI chat capabilities. <details><summary>More about</summary>
+- **[Cursor](https://cursor.com)** Cursor is an AI-native code editor and development environment that integrates context-aware code completion, multi-model assistance, and autonomous coding agents directly into the IDE workflow. <details><summary>More about</summary>
 
-  It provides developers with a self-hostable, AI-native IDE experience that integrates multiple LLM providers and live previews for rapid application development.
+  It provides a unified surface where developers can switch between fast inline completions, targeted edits, and fully autonomous agents while maintaining deep codebase understanding.
 
-  _Yet another self-hostable 'AI-native' IDE stack to deploy and maintain, because nothing says rapid prototyping like configuring Postgres, Clerk, E2B, and AWS Bedrock credentials first._
+  _You now have three different ways to ask an AI to write your code, and you will still spend forty minutes debating which autonomy slider setting makes you a real engineer._
 
-  `ai-ide` `code-generation` `live-preview` `nextjs` `self-hosted`
+  `ai-editor` `coding-agent` `ide` `multi-model` `autonomous`
   </details>
 
-- **[Zed](https://github.com/zed-industries/zed)** Zed is a high-performance, multiplayer code editor built in Rust that integrates AI features directly into the development environment. <details><summary>More about</summary>
+- **[JetBrains AI](https://www.jetbrains.com/ai)** JetBrains AI is a suite of integrated AI-powered coding assistance and services embedded within JetBrains IDEs. <details><summary>More about</summary>
 
-  It offers developers a native, AI-augmented IDE experience designed for speed and real-time collaboration without the overhead of Electron-based editors.
+  It brings code completion, generation, and chat capabilities directly into the JetBrains editor ecosystem, reducing context switching for millions of developers.
 
-  _Just when you thought the editor wars were settled by VS Code extensions, we are now evaluating whether our text editor's Rust compilation speed is the critical bottleneck in our 400ms AI chat response time._
+  _Yet another reason to feel guilty about your 'disposable' tab-completion habits while the IDE slowly indexes your entire project to suggest a variable name you already knew._
 
-  `ai-assisted` `ai-ide` `collaboration` `editor` `ide` `multiplayer` `rust`
+  `jetbrains` `code-completion` `ide-integration` `ai-assistant`
   </details>
 
-- **[Cursor](https://cursor.com)** Cursor is an AI-native code editor and IDE that provides autocomplete, conversational code editing, and autonomous agents to plan, build, and review code within a developer's existing codebase. <details><summary>More about</summary>
+- **[PearAI](https://pear.ai)** PearAI is an AI-native code editor and development environment designed to assist developers with coding tasks. <details><summary>More about</summary>
 
-  It integrates frontier models directly into the coding workflow, allowing developers to delegate routine implementation, navigate large codebases semantically, and automate PR reviews without leaving their environment.
+  It provides a dedicated IDE surface for developers looking to integrate AI assistance directly into their coding workflow without relying on plugins for existing editors.
 
-  _We have successfully automated the 'vibe check' portion of programming, leaving developers to anxiously debate whether they are still the pilot or just the flight attendant for an agentic autocomplete system._
+  _Yet another fork in the road where you have to decide if this specific AI editor is the one that will finally justify the muscle memory you'll lose switching away from your current setup._
 
-  `ai-ide` `autocomplete` `coding-agent` `developer-productivity` `multi-agent`
+  `ai-editor` `ide` `coding-assistant`
   </details>
 
-- **[PearAI](https://pear.ai)** Pearl.ai is an AI coding assistant and code editor positioned as an alternative development environment with integrated AI assistance. <details><summary>More about</summary>
+- **[Review](https://aifordevelopers.org/tool/antigravity)** Google Antigravity is an AI-first IDE built on a modified Visual Studio Code fork that uses autonomous agents to plan, write, and test code across a multi-agent 'Mission Control' interface. <details><summary>More about</summary>
 
-  It offers developers an AI-native editor experience that combines code writing, editing, and assistance in a single dedicated IDE surface.
+  It moves beyond sidebar chatbots by letting developers dispatch up to five parallel agents to handle tasks like refactoring and UI building while providing structured progress artifacts.
 
-  _Yet another AI editor enters the arena, giving developers one more tab to manage while trying to remember which assistant they promised to actually use this week._
+  _We've successfully evolved from 'accepting a tab completion' to 'project managing five autonomous agents while praying the rate limits hold'._
 
-  `ai-editor` `coding-assistant` `ide`
+  `ide` `coding-agents` `multi-agent` `google` `vscode-fork`
   </details>
 
-- **[Review](https://aifordevelopers.org/tool/antigravity)** Antigravity is an AI-native IDE built on a modified Visual Studio Code fork that uses autonomous agents to plan, write, execute, and test code across a multi-agent 'Mission Control' interface. <details><summary>More about</summary>
+- **[Supermaven](https://supermaven.com)** Supermaven is a code completion and chat tool that integrates with VS Code, JetBrains, and Neovim, offering large context windows for suggestions and model-based chat for applying code changes. <details><summary>More about</summary>
 
-  It shifts the developer workflow from line-by-line assistance to parallel, agent-driven task execution with integrated visual testing and multi-model support.
+  It competes directly with GitHub Copilot by offering a 1 million token context window and low-latency completions, aiming to help developers write code faster within their existing editors.
 
-  _Just when you thought you had a handle on 'vibe coding' with a chatbot sidebar, now you need to manage a five-agent scrum team that opens its own browser to judge your UI._
+  _Just when you had optimized your Copilot prompt prefixes, you now have to evaluate whether a 1-million-token context window is the feature that finally justifies switching your entire workflow again._
 
-  `coding-agents` `google` `ide` `multi-agent` `vscode-fork`
+  `code-completion` `ide-extension` `chat` `copilot-alternative`
   </details>
 
-- **[Trae](https://www.trae.ai)** TRAE is an AI-native IDE that integrates an AI assistant into the developer's workflow to handle coding tasks from task definition through results review. <details><summary>More about</summary>
+- **[Trae](https://www.trae.ai)** TRAE is an AI-native IDE that integrates assistant capabilities directly into the development environment, with a 'SOLO' mode that handles coding tasks from definition to completion. <details><summary>More about</summary>
 
-  It positions itself as a development environment where developers define tasks and review AI-generated results, aiming to reduce the manual overhead of writing and debugging code.
+  It positions itself as a task-oriented environment where developers define intent and review results, reducing the loop between planning and implementation.
 
-  _Another day, another IDE promising that 'AI handles the rest' while you quietly wonder if your new job description is 'Professional Prompt Reviewer.'._
+  _Yet another AI IDE promising you can 'define the task, review the results, and AI handles the rest'—because what this ecosystem really needs is more ways to feel like a project manager of a very fast, very confident ghost._
 
-  `ai-ide` `coding-assistant` `task-automation`
+  `ide` `ai-assistant` `task-driven` `desktop-app`
   </details>
 
-- **[Windsurf](https://windsurf.com)** Windsurf is an AI-native IDE and coding agent designed to help developers write, edit, and navigate code within a dedicated editor environment. <details><summary>More about</summary>
+- **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode)** Visual Studio IntelliCode is an AI-assisted code completion and automation tool that provides whole-line suggestions, context-aware IntelliSense ranking, and repetitive edit detection within Visual Studio and VS Code. <details><summary>More about</summary>
 
-  It attempts to consolidate coding assistance and agentic workflows into a single development environment, reducing context switching between a chat window and the codebase.
+  It reduces keystrokes and repetitive refactoring work by learning from your codebase and open-source GitHub patterns to predict the next logical code step.
 
-  _Just when you had mastered the arcane art of prompting Cursor, the ecosystem demands you learn a new surfboard-based nomenclature before the next breaking change._
+  _Just when you mastered IntelliSense, Microsoft layered AI on top so you can worry about whether the machine is predicting your variable names or silently judging your coding style._
 
-  `ai-ide` `coding-agent` `editor`
+  `code-completion` `visual-studio` `vs-code` `ai-assistance` `refactoring`
   </details>
 
-- **[Windsurf](https://windsurf.com/editor)** Windsurf Editor is an AI-native IDE that integrates coding agents and autonomous cloud agents directly into the development environment to assist with code generation, refactoring, and task delegation. <details><summary>More about</summary>
+- **[Windsurf](https://windsurf.com)** Windsurf is an AI-native code editor and IDE designed to help developers write, edit, and navigate code with integrated AI assistance. <details><summary>More about</summary>
 
-  It attempts to merge local coding assistance with cloud-based autonomous agents in a single interface, aiming to reduce context switching and keep developers in a continuous 'flow state'.
+  It provides a dedicated development environment where AI assistance is built directly into the editing surface, changing how developers interact with their codebase.
 
-  _Just when you thought you had mastered the 'Cursor vs Copilot' workflow anxiety, we now have IDEs shipping with built-in Kanban boards to manage your robot subordinates so you can focus on 'the fun parts' like prompt engineering._
+  _Just when you thought you had settled on an AI editor, here comes another IDE promising to refactor your workflow while you refactor your dotfiles._
 
-  `ai-workflow` `coding-agent` `editor` `ide`
+  `ai-ide` `code-editor` `ai-assistant`
+  </details>
+
+- **[Windsurf](https://windsurf.com/editor)** Windsurf Editor is an AI-native IDE that integrates an agentic coding assistant (Cascade) and a cloud-based autonomous agent (Devin) into a single development environment. <details><summary>More about</summary>
+
+  It attempts to merge local coding assistance with cloud-based task delegation and an 'Agent Command Center' to manage multiple AI workflows without leaving the editor.
+
+  _Just when you thought 'flow state' meant uninterrupted coding, we now have a Kanban board for your autonomous agents to ensure the machine delegation pipeline never interrupts your vibe._
+
+  `ide` `agentic` `editor` `mcp` `devin`
+  </details>
+
+- **[Zed](https://zed.dev)** Zed is a high-performance, multiplayer code editor built in Rust that integrates AI-assisted coding features directly into the development environment. <details><summary>More about</summary>
+
+  It offers developers a modern, open-source IDE alternative with native AI capabilities designed to assist with coding tasks without leaving the editor.
+
+  _Just what the ecosystem needed: another lightning-fast editor to distract you from actually shipping code while you spend three days configuring the AI assistant._
+
+  `ide` `editor` `ai-assisted` `rust` `multiplayer`
   </details>

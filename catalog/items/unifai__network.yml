@@ -1,12 +1,12 @@
 id: unifai__network
 kind: website
-name: UnifAI Network
+name: unifai.network
 canonical_url: https://unifai.network
 identity: {}
 provenance:
   discoveries:
     - id: discovery__unifai__network__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: UnifAI Network is an AI-native infrastructure platform for DeFi that provides an agent runtime, developer SDK, and unified tooling to build and automate financial strategies on Solana.
-  why_it_matters: It offers developers a framework and SDK to build autonomous financial agents that interact with over 100 DeFi protocols without writing custom integration code.
-  mental_damage: Finally, the existential dread of being replaced by AI is softened by the comforting realization that the bot is just going to ape into Solana memecoins for you.
+  summary: UnifAI Network is an AI-native infrastructure platform for autonomous DeFi that provides an agent runtime, unified tool orchestration for 100+ protocols, and a developer SDK for building and deploying automated trading strategies.
+  why_it_matters: It offers developers a specialized SDK and execution layer to build, benchmark, and deploy financial agents without manually wrapping disparate DeFi protocols.
+  mental_damage: "Just what the modern developer needs: another agentic runtime that turns your hard-earned SOL into a benchmark statistic while you debug its multi-tool routing at 3 AM."
   tags:
-    - agent-runtime
-    - ai-infrastructure
     - defi
+    - agent-runtime
     - sdk
-    - solana
-  confidence: high
+    - orchestration
+    - finance
+  confidence: medium
 curation:
-  status: excluded
-  reason: Despite having a developer SDK, the platform is fundamentally a DeFi/Solana finance application rather than a general-purpose developer tool, IDE extension, or coding agent.
+  status: included
+  reason: The product is a control plane and runtime platform specifically designed for coordinating multiple agents and tools in the DeFi vertical, fitting the 'Vertical Orchestration Platforms' section.
   evidence:
-    - Primary page excerpt focuses almost entirely on 'Agentic Finance', 'Smart Farming Strategy', and DeFi APY performance metrics.
-    - Testimonials and features highlight automated liquidity positions and market-making on Meteora/Solana, not software development workflows.
-    - Listed in awesome-mcp-servers under 'Official Servers', but the product itself is a domain-specific financial agent platform, not core dev tooling.
+    - "Scraped site context describes an 'Agent Runtime' and 'Unified Tools Integration: Orchestration Layer' for wrapping 100+ DeFi protocols."
+    - Source list context places it in 'awesome-mcp-servers' under 'Official Servers', indicating an MCP-compatible server identity for tool access.
+    - Testimonials and site text highlight a 'Developer SDK' for creating and automating strategies.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:54.538Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:46.865Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

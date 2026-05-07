@@ -1,12 +1,12 @@
 id: e2b__dev__docs__llm__platforms__openai
 kind: website
-name: OpenAI's Assistants
+name: openai
 canonical_url: https://e2b.dev/docs/llm-platforms/openai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__e2b__dev__docs__llm__platforms__openai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,23 +35,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation page explaining how to integrate OpenAI's models with E2B's sandbox environments for building AI applications.
-  why_it_matters: Developers building AI agents can use this reference to run OpenAI models securely inside ephemeral cloud sandboxes for code execution and tool use.
-  mental_damage: Yet another integration doc that turns a simple API call into a multi-layered architectural decision about where your model's code actually runs.
+  summary: A documentation page explaining how to integrate E2B sandboxes with OpenAI's API for code execution.
+  why_it_matters: It shows developers how to add secure, isolated code execution environments to OpenAI-powered applications.
+  mental_damage: Yet another reminder that wiring up a sandbox to a foundational model is now considered a 'platform integration' rather than a terrifying security liability.
   tags:
-    - docs
-    - e2b
-    - llm
     - openai
     - sandbox
+    - docs
+    - e2b
+    - integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for integrating OpenAI with E2B, not a standalone developer tool, agent, or product.
+  reason: This is a documentation page for integrating E2B with OpenAI, not a standalone developer tool, agent, or product.
   evidence:
-    - URL points to e2b.dev/docs/llm-platforms/openai, which is a documentation page rather than a tool or repo.
-    - No repo description, stars, license, or activity metadata provided; no standalone product surface is present.
-    - Listed in awesome-ai-agents under 'AI apps & agents with sandbox integration', but that refers to OpenAI's Assistants, not this docs page.
+    - URL points to e2b.dev/docs/llm-platforms/openai, indicating a documentation page rather than a standalone project.
+    - No repo description, stars, or code artifacts provided; only a link to a guide.
+    - Appears in awesome-ai-agents as an AI app with sandbox integration, but the item itself is a configuration/doc page, not a product.
 placement:
   primary_category: null
   section: null
@@ -59,20 +59,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:17.091Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:49.914Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

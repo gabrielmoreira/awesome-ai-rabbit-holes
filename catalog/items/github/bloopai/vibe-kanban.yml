@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bloopai__vibe-kanban__direct-link
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: direct-link
         name: Manual submission
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25934
-    forks: 2667
+    stars: 25993
+    forks: 2677
     license: Apache-2.0
     archived: false
     created_at: "2025-06-14T19:10:21Z"
@@ -37,49 +37,50 @@ metadata:
       - kanban
       - management
       - task-manager
-    last_checked_at: "2026-05-05T21:01:23.356Z"
+    last_checked_at: "2026-05-06T22:12:55.197Z"
     readme:
-      fetched_at: "2026-05-05T21:01:23.356Z"
+      fetched_at: "2026-05-06T22:12:55.197Z"
       bytes: 7427
 insights:
-  summary: A kanban board and workspace manager for running and reviewing multiple coding agents—including Claude Code, Codex, and Gemini CLI—directly against a repo with built-in diff review and app previews.
-  why_it_matters: It gives developers a single control plane to plan tasks, dispatch agents to isolated workspaces, review generated diffs, and open PRs without context-switching out of the planning flow.
-  mental_damage: "Just what every engineer needed: a kanban board to orchestrate the seven different AI agents they now have to manage, review, and emotionally support."
+  summary: A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI.
+  why_it_matters: It gives developers a structured loop for planning issues, running agents in isolated branches, reviewing diffs, and merging PRs without leaving a single control surface.
+  mental_damage: We have successfully abstracted the job of writing code into dragging cards on a board so that we can feel productive while supervising a small swarm of agents we no longer fully understand.
   tags:
     - kanban
-    - agent-orchestration
-    - coding-agents
-    - review-workflow
+    - multi-agent
+    - cli
+    - review
+    - workflow
   confidence: high
 curation:
   status: included
-  reason: This is a user-facing workbench for coordinating multiple coding agents across workspaces, review, and planning, which aligns with agent-orchestration rather than being a primary coding assistant itself.
+  reason: The product is an operated workbench and control plane for coordinating multiple coding agents across workspaces, review, and merge workflows, rather than being a standalone coding assistant itself.
   evidence:
-    - "Repo description: 'Get 10X more out of Claude Code, Codex or any coding agent'"
-    - "README: 'Run coding agents in workspaces… Review diffs and leave inline comments… Switch between 10+ coding agents'"
-    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners' and in awesome-spec-driven-development under 'Workflow Management'
+    - README states it runs Claude Code, Codex, Gemini CLI, and 10+ other agents inside workspaces with branches, terminals, and dev servers.
+    - Core workflow is kanban planning, agent execution, diff review, and PR creation from a single UI surface.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners' and in awesome-spec-driven-development under 'Workflow Management'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25934) exceeded threshold (150)
+  reason: Stars (25993) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:23.356Z"
+    updated_at: "2026-05-06T22:12:55.197Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:18.168Z"
+    updated_at: "2026-05-06T22:24:40.340Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__sgl-project__sglang
 kind: github-repo
-name: SGLang (`🔥`)
+name: sglang
 canonical_url: https://github.com/sgl-project/sglang
 identity:
   github_repo: sgl-project/sglang
 provenance:
   discoveries:
     - id: discovery__github__sgl-project__sglang__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [SGLang](https://github.com/sgl-project/sglang)                 | - 3-5x higher throughput than vLLM (Control flow, RadixAttention, KV cache reuse)    | Safetensor / AWQ / GPTQ | GPU             | ❌  | Python      | Text-Gen      |"
         confidence: high
     - id: discovery__github__sgl-project__sglang__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -38,47 +38,77 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 27142
+    forks: 5731
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-01-08T04:15:52Z"
+    pushed_at: "2026-05-06T22:44:27Z"
+    description: SGLang is a high-performance serving framework for large language models and multimodal models.
+    homepage: https://sglang.io
+    topics:
+      - attention
+      - blackwell
+      - cuda
+      - deepseek
+      - diffusion
+      - glm
+      - gpt-oss
+      - inference
+      - llama
+      - llm
+      - minimax
+      - moe
+      - qwen
+      - qwen-image
+      - reinforcement-learning
+      - transformer
+      - vlm
+      - wan
+    last_checked_at: "2026-05-06T22:46:21.556Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:21.556Z"
+      bytes: 10811
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure.
+  why_it_matters: It lets developers self-host and serve modern LLMs and VLMs with optimized inference performance across CUDA, TPU, and Blackwell hardware.
+  mental_damage: Yet another carefully tuned inference stack to master while you wait for the one model that finally makes your local GPU stop sounding like a jet engine.
+  tags:
+    - llm
+    - inference
+    - local-ai
+    - serving
+    - multimodal
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: SGLang is a developer-facing serving stack whose core identity is high-performance local or self-hosted LLM/VLM inference rather than a coding assistant, IDE, or framework.
+  evidence:
+    - Repo description states it is a high-performance serving framework for LLMs and multimodal models.
+    - Topics and README emphasize inference, CUDA, TPU, Blackwell, and day-0 model support rather than coding workflows.
+    - Included in awesome-local-ai under Inference Engine, reinforcing its local serving role.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Serving / APIs
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (27142) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.671Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:21.556Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:04.822Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

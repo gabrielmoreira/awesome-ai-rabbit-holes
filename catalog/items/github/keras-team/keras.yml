@@ -1,13 +1,13 @@
 id: github__keras-team__keras
 kind: github-repo
-name: Keras
+name: keras
 canonical_url: https://github.com/keras-team/keras
 identity:
   github_repo: keras-team/keras
 provenance:
   discoveries:
     - id: discovery__github__keras-team__keras__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 64057
-    forks: 19764
+    stars: 64060
+    forks: 19765
     license: Apache-2.0
     archived: false
     created_at: "2015-03-28T00:35:42Z"
-    pushed_at: "2026-05-05T19:49:26Z"
+    pushed_at: "2026-05-06T21:02:29Z"
     description: Deep Learning for humans
     homepage: http://keras.io/
     topics:
@@ -41,49 +41,50 @@ metadata:
       - python
       - pytorch
       - tensorflow
-    last_checked_at: "2026-05-05T21:03:04.085Z"
+    last_checked_at: "2026-05-06T22:44:41.990Z"
     readme:
-      fetched_at: "2026-05-05T21:03:04.085Z"
+      fetched_at: "2026-05-06T22:44:41.990Z"
       bytes: 5354
 insights:
-  summary: Keras is a high-level multi-backend deep learning framework supporting JAX, TensorFlow, and PyTorch, designed for building and training models across various ML domains.
-  why_it_matters: It allows developers to write backend-agnostic deep learning code that can scale from a laptop to datacenter GPUs while switching frameworks without rewriting models.
-  mental_damage: Another framework promising to end framework lock-in, just in time for developers to rewrite their stacks again to support the three backends that replaced the one they just left.
+  summary: Keras is a high-level, multi-backend deep learning framework for building and training neural networks on top of JAX, TensorFlow, PyTorch, and OpenVINO.
+  why_it_matters: It allows developers to write models once and deploy them across different backends, avoiding framework lock-in while leveraging specific performance benefits like JAX acceleration.
+  mental_damage: Now you can port your models across three different frameworks just to discover that your training pipeline is still bottlenecked by your own data loading logic.
   tags:
     - deep-learning
-    - ml-framework
     - multi-backend
+    - neural-networks
     - python
+    - ml-framework
   confidence: high
 curation:
   status: excluded
-  reason: Keras is a general deep learning and ML research framework, not a developer-facing AI tool, agent, or infrastructure product for coding workflows.
+  reason: Keras is a general deep learning and ML framework, which falls outside the catalog's strict scope of AI developer tooling like coding agents, IDEs, and prompt engineering infrastructure.
   evidence:
-    - Repo description is 'Deep Learning for humans', targeting ML model builders rather than software engineers building apps with AI.
-    - Topics and README focus on neural networks, JAX, TensorFlow, and PyTorch training workflows, not coding assistants or developer tooling.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a research/ML operations context rather than the developer productivity scope of this catalog.
+    - Repo description is 'Deep Learning for humans', targeting ML engineers rather than software developers building AI apps.
+    - README focuses on model training, computer vision, NLP, and backend compatibility (JAX, TF, PyTorch), not coding assistance or agent workflows.
+    - Found in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML ops category rather than specific AI dev tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (64057) exceeded threshold (150)
+  reason: Stars (64060) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:26.150Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:04.085Z"
+    updated_at: "2026-05-06T22:44:41.990Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:53.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: rygen__io
 kind: website
-name: Dataoorts
+name: rygen.io
 canonical_url: https://rygen.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__rygen__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,22 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RyGen is a hosted AI gateway offering access to multiple AI models with a focus on affordability, enterprise security, and privacy.
-  why_it_matters: It provides developers with a unified, potentially lower-cost API endpoint to access various AI models while maintaining enterprise-grade security standards.
-  mental_damage: Yet another AI gateway promising 'uncompromised' performance, because clearly what the ecosystem needed was more abstraction layers between our code and the models we can't quite afford.
+  summary: RyGen is a commercial API gateway offering affordable access to AI models with enterprise security and privacy claims.
+  why_it_matters: Developers looking to reduce model inference costs or enforce privacy boundaries may evaluate it as an alternative API provider.
+  mental_damage: "Just what the ecosystem needed: another API gateway wrapped in enough enterprise security language to make you forget you’re still debugging prompt tokens."
   tags:
-    - ai-gateway
-    - api
+    - api-gateway
     - llmops
-    - privacy
+    - provider
   confidence: medium
 curation:
   status: excluded
-  reason: The project appears to be a generic hosted AI model gateway/api service rather than a developer tool, agent, or workflow automation product that fits the catalog's scope.
+  reason: The site presents as a hosted API provider and gateway rather than a developer-facing tool, framework, agent, or workflow product that fits the catalog's scope.
   evidence:
-    - Scraped site context describes it as 'The world's most affordable Gateway to AI' with generic marketing copy.
-    - Lack of repository details, README, or specific developer-tooling features prevent verifying a concrete developer workflow fit.
-    - Listed in Awesome-LLMOps under a generic 'Rize with RyGen' link, but the surface area resembles a standard API provider rather than a tool.
+    - Scraped page describes RyGen as 'the world's most affordable Gateway to AI' with 'Enterprise security. Absolute privacy.'
+    - No repo description, README, or developer-facing tooling artifacts are available.
+    - Listed in Awesome-LLMOps under LLMOps, but the linked page is a commercial provider surface rather than usable dev tooling.
 placement:
   primary_category: null
   section: null
@@ -57,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:51.910Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:14.293Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

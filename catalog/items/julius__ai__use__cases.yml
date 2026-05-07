@@ -1,12 +1,12 @@
 id: julius__ai__use__cases
 kind: website
-name: Use cases
+name: use_cases
 canonical_url: https://julius.ai/use_cases
 identity: {}
 provenance:
   discoveries:
     - id: discovery__julius__ai__use__cases__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,21 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A catalog page listing practical use cases for Julius AI, an autonomous agent platform for data analysis and visualization.
-  why_it_matters: It provides developers and analysts with concrete patterns for applying autonomous agents to structured data workflows rather than just generic chat.
-  mental_damage: We now have agents writing essays about why you should let them analyze your CSVs, and somehow we’re calling this a use-case library instead of a warning sign.
+  summary: A marketing page showcasing example use cases for Julius AI, a conversational data analysis platform.
+  why_it_matters: Developers evaluating AI tools need to understand whether a platform supports their specific workflow before investing time in integration.
+  mental_damage: We've reached the point where reading a list of bullet points about what an AI might do counts as 'researching developer tooling'.
   tags:
-    - agents
-    - autonomous-agents
+    - marketing-page
     - data-analysis
+    - auxiliary-resource
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing use-case page for a general-purpose data analysis agent, not a developer-facing tool, IDE, framework, or infrastructure component.
+  reason: This is a marketing auxiliary page (use_cases) for Julius AI, not a standalone developer tool, framework, or product that fits our catalog scope.
   evidence:
-    - The URL points to a use-case listing page (julius.ai/use_cases), not a developer tool or repository.
-    - Seen in awesome-ai-agents under Julius, which describes a general data-analysis agent rather than a coding assistant.
-    - No repo description, README, or code-level inputs indicating developer tooling, SDKs, or IDE integration.
+    - URL points to a sub-page (julius.ai/use_cases) rather than a product or repo root.
+    - Classified in source list as 'Julius > Description', indicating it is descriptive marketing content.
+    - No repo description, README, or code artifacts provided to suggest a developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:44.507Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:42.548Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

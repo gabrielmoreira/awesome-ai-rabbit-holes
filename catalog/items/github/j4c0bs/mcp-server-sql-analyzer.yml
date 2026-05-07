@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__j4c0bs__mcp-server-sql-analyzer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [j4c0bs/mcp-server-sql-analyzer](https://github.com/j4c0bs/mcp-server-sql-analyzer) 🐍 - MCP server that provides SQL analysis, linting, and dialect conversion using [SQLGlot](https://github.com/tobymao/sqlglot)"
         confidence: high
     - id: discovery__github__j4c0bs__mcp-server-sql-analyzer__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: MCP server for SQL static analysis.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:48.691Z"
+    last_checked_at: "2026-05-06T22:44:28.727Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.691Z"
+      fetched_at: "2026-05-06T22:44:28.727Z"
       bytes: 4596
 insights:
-  summary: An MCP server that provides SQL static analysis, linting, and dialect conversion capabilities using SQLGlot.
-  why_it_matters: It allows AI assistants like Claude to validate syntax, convert queries between dialects, and analyze table dependencies directly within the developer's workflow.
-  mental_damage: We have successfully abstracted SQL validation into a protocol server so the AI can feel confident about the MySQL-to-Postgres migration it confidently hallucinated five minutes ago.
+  summary: An MCP server that provides SQL static analysis, linting, dialect conversion, and table/column reference extraction using SQLGlot.
+  why_it_matters: It lets AI coding assistants validate, convert, and reason about SQL queries across dialects before they ship broken database code.
+  mental_damage: We now have an MCP server to help the AI catch SQL errors that the AI itself introduced while we were busy configuring yet another MCP server.
   tags:
     - mcp
     - sql
     - static-analysis
+    - database
     - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling for SQL analysis, which fits the MCP Servers and Tooling category.
+  reason: This is an MCP server providing SQL analysis capabilities, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'MCP server for SQL static analysis.'"
-    - README confirms it is a Model Context Protocol server providing linting and transpilation tools.
-    - Listed in awesome-mcp-list and awesome-mcp-servers directories under developer tools.
+    - "Repo description states: 'MCP server for SQL static analysis.'"
+    - "README confirms: 'A Model Context Protocol (MCP) server that provides SQL analysis, linting, and dialect conversion capabilities.'"
+    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools' and awesome-mcp-list under 'Utilities'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.691Z"
+    updated_at: "2026-05-06T22:44:28.727Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:04.197Z"
+    updated_at: "2026-05-06T23:03:03.729Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

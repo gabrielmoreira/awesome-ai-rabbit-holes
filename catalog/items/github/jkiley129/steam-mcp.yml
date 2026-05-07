@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jkiley129__steam-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server that exposes your Steam library to Claude. Ask natural-language questions about your games.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:56.536Z"
+    last_checked_at: "2026-05-06T22:44:35.557Z"
     readme:
-      fetched_at: "2026-05-05T21:02:56.536Z"
+      fetched_at: "2026-05-06T22:44:35.557Z"
       bytes: 4553
 insights:
-  summary: A local MCP server that connects Claude Desktop to a user's Steam library, enabling natural-language queries about game playtime, backlog, and store metadata.
-  why_it_matters: It demonstrates how easily developers can wire personal APIs into local AI workflows using the Model Context Protocol without writing custom glue code.
-  mental_damage: "We have finally achieved the future: an AI agent that knows exactly how many hours you've sunk into Elden Ring, just in case your therapist isn't available."
+  summary: A local MCP server that connects Claude Desktop to a user's Steam library via the Steam Web API.
+  why_it_matters: It provides a reference implementation for exposing third-party REST APIs as MCP tools using a standard Node.js setup and Claude Desktop config.
+  mental_damage: We have successfully reached the point where an AI assistant needs to know exactly how many hours you've wasted in RPGs before it can help you write a for-loop.
   tags:
     - mcp
     - steam
-    - claude
-    - local-ai
-    - gaming
-  confidence: high
+    - nodejs
+    - api-integration
+    - claude-desktop
+  confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server implementation that exposes Steam data to Claude, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that exposes gaming data, fitting the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description states it is an 'MCP server that exposes your Steam library to Claude.'
-    - README confirms it is a local Model Context Protocol (MCP) server with tools like get_library and get_game_details.
-    - Listed in awesome-mcp-servers under the Gaming section, confirming its identity as an MCP implementation.
+    - "Repo description explicitly states: 'MCP server that exposes your Steam library to Claude.'"
+    - README details a local server setup using `npx` and standard MCP config for Claude Desktop.
+    - Found in the 'awesome-mcp-servers' list under the 'Gaming' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:56.536Z"
+    updated_at: "2026-05-06T22:44:35.557Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:40.531Z"
+    updated_at: "2026-05-06T23:04:30.707Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

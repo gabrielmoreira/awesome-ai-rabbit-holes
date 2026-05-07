@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paddlepaddle__paddle__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 23873
-    forks: 5989
+    forks: 5988
     license: Apache-2.0
     archived: false
     created_at: "2016-08-15T06:59:08Z"
@@ -41,27 +41,27 @@ metadata:
       - paddlepaddle
       - python
       - scalability
-    last_checked_at: "2026-05-05T21:04:10.815Z"
+    last_checked_at: "2026-05-06T22:45:46.477Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.815Z"
+      fetched_at: "2026-05-06T22:45:46.477Z"
       bytes: 5541
 insights:
-  summary: PaddlePaddle is an open-source deep learning and machine learning framework from Baidu that supports high-performance single-machine and distributed training with cross-platform deployment capabilities.
-  why_it_matters: It provides developers with an industrial-grade platform for training and deploying large models, featuring unified dynamic/static graphs and automatic parallelism to reduce infrastructure overhead.
-  mental_damage: "Just what the ecosystem needed: another massive deep learning framework to evaluate while you wonder if your current stack will even support the next generation of model architectures."
+  summary: PaddlePaddle is a deep learning and machine learning framework from Baidu offering distributed training, unified dynamic/static graphs, and cross-platform deployment capabilities.
+  why_it_matters: It provides an industrial-grade, unified framework for training and inference (including large models) with automatic parallelism and multi-hardware support.
+  mental_damage: "Just what the ecosystem needed: another massive deep learning framework proving that model training infrastructure is still a competitive contact sport."
   tags:
     - deep-learning
-    - framework
     - distributed-training
+    - framework
     - industrial-ml
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose deep learning framework for ML researchers and data scientists, not a developer-facing AI tool, agent, or infrastructure product for software development workflows.
+  reason: Excluded because it is a general-purpose deep learning framework and ML training infrastructure, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - "Repo description explicitly defines it as a 'Deep Learning: Machine Learning Framework', not a developer tooling product."
-    - README focuses on industrial ML training, inference for large models, and scientific computing rather than coding assistance or developer workflows.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which targets ML ops rather than the developer-tooling scope of this catalog.
+    - Repo description explicitly defines it as a 'Deep Learning & Machine Learning Framework', not a coding assistant or AI tool.
+    - README emphasizes training/inference for large models, scientific computing, and hardware adaptation, with no coding-agent or developer-tooling workflow.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which confirms its identity as ML infrastructure rather than a developer productivity tool.
 placement:
   primary_category: null
   section: null
@@ -71,19 +71,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.815Z"
+    updated_at: "2026-05-06T22:45:46.477Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:37.013Z"
+    updated_at: "2026-05-06T23:20:31.732Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

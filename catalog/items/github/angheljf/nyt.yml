@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__angheljf__nyt__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -32,49 +32,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:03.918Z"
+    last_checked_at: "2026-05-06T22:12:38.388Z"
     readme:
-      fetched_at: "2026-05-05T21:01:03.918Z"
+      fetched_at: "2026-05-06T22:12:38.388Z"
       bytes: 2370
 insights:
-  summary: A TypeScript-based MCP server that connects the New York Times API to AI assistants, allowing keyword searches of articles from the last 30 days.
-  why_it_matters: It extends the context window of MCP-compatible assistants like Claude Desktop with real-time access to recent news, without requiring manual copy-pasting of articles.
-  mental_damage: We have reached the point where an AI agent needs a dedicated server just to remember that the news happened this month.
+  summary: A TypeScript-based MCP server that connects the New York Times API to MCP-compatible clients to search articles from the last 30 days.
+  why_it_matters: It gives coding assistants like Claude Desktop direct access to recent news context without leaving the chat interface.
+  mental_damage: We have finally reached the point where an AI agent can cite the news, sparing you the unimaginable trauma of opening a browser tab.
   tags:
     - mcp
+    - search
     - typescript
     - nyt
-    - context-extension
+    - integration
   confidence: high
 curation:
   status: included
-  reason: This is a textbook MCP server implementation for connecting external APIs to AI assistants, fitting cleanly into the MCP infrastructure category.
+  reason: The project is a protocol-native server built specifically to expose NYT search capabilities via MCP, fitting the 'Domain Servers' section.
   evidence:
-    - README explicitly states this is a 'TypeScript-based MCP server' for searching articles.
+    - README explicitly states 'This is a TypeScript-based MCP server'.
+    - Installation instructions are provided specifically for Claude Desktop via Smithery and manual config.
     - Listed in the 'awesome-mcp-list' under the Search section.
-    - Provides a tool (`search_articles`) and integration instructions for Claude Desktop.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:03.918Z"
+    updated_at: "2026-05-06T22:12:38.388Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:14.728Z"
+    updated_at: "2026-05-06T22:21:20.770Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

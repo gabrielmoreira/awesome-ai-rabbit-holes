@@ -1,13 +1,13 @@
 id: github__api7__apisix-mcp
 kind: github-repo
-name: APISIX-MCP
+name: apisix-mcp
 canonical_url: https://github.com/api7/apisix-mcp
 identity:
   github_repo: api7/apisix-mcp
 provenance:
   discoveries:
     - id: discovery__github__api7__apisix-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [api7/apisix-mcp](https://github.com/api7/apisix-mcp) 🎖️ 📇 🏠 MCP Server that support for querying and managing all resource in [Apache APISIX](https://github.com/apache/apisix)."
         confidence: high
     - id: discovery__github__api7__apisix-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -53,50 +53,49 @@ metadata:
       - mcp
       - mcp-server
       - typescript
-    last_checked_at: "2026-05-05T21:01:06.518Z"
+    last_checked_at: "2026-05-06T22:12:40.861Z"
     readme:
-      fetched_at: "2026-05-05T21:01:06.518Z"
+      fetched_at: "2026-05-06T22:12:40.861Z"
       bytes: 5971
 insights:
-  summary: An MCP server that bridges LLMs with the APISIX Admin API to enable natural language management of routes, services, plugins, and security configurations.
-  why_it_matters: It allows developers to inspect and control APISIX gateway resources through AI clients like Cursor or Claude, removing the need to memorize Admin API endpoints.
-  mental_damage: You can now accidentally DELETE /apisix/admin/routes/1 using a conversational typo, combining the destructive power of gateway configs with the reliability of an LLM.
+  summary: An MCP server that bridges LLMs with the APISIX Admin API to manage API gateways using natural language.
+  why_it_matters: It allows developers to list routes, configure plugins, and manage SSL certificates through Claude, Cursor, or Copilot instead of memorizing APISIX Admin API endpoints.
+  mental_damage: You can now vibe-code your API gateway configuration and discover that 'delete all routes' parses just as easily as 'list services' when you're prompt-chaining at 2am.
   tags:
+    - mcp
     - api-management
     - apisix
     - devops
-    - mcp
-    - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to expose APISIX Admin API operations to LLMs, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server that exposes APISIX Admin API operations as tools for MCP-compatible AI clients.
   evidence:
     - Repo description explicitly states it is an 'APISIX Model Context Protocol (MCP) server'.
-    - README details specific MCP tools for route, service, upstream, and plugin management via AI clients.
-    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers'.
+    - README details specific MCP tool definitions like create_route, get_plugin_info, and manage_consumers for AI client configuration.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:38.687Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:06.518Z"
+    updated_at: "2026-05-06T22:12:40.861Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:51.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

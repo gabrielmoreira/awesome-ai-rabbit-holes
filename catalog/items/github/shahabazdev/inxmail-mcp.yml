@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shahabazdev__inxmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T16:11:23Z"
+    pushed_at: "2026-04-05T05:48:45Z"
+    description: MCP server for the Inxmail Commerce transactional API — events, sendings, bounces, blocklist, blacklist, reactions, and delivery tracking from Claude.
+    homepage: ""
+    topics:
+      - claude
+      - email
+      - inxmail
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - transactional-email
+    last_checked_at: "2026-05-06T22:46:22.155Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:22.155Z"
+      bytes: 6001
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the Inxmail Commerce transactional email API to Claude, allowing developers to trigger events, check delivery status, and manage blocklists via natural language prompts.
+  why_it_matters: It lets developers manage transactional email workflows—bounces, blocklists, and event triggers—directly from their coding assistant instead of switching to a separate admin panel or writing API glue code.
+  mental_damage: Another bespoke MCP server proving that the modern developer experience now includes installing a dedicated npm package just to ask Claude why your welcome emails are hard-bouncing.
+  tags:
+    - mcp
+    - email
+    - transactional-email
+    - claude
+    - inxmail
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server for a specific transactional email API, aligning perfectly with the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for the Inxmail Commerce transactional API'.
+    - README details 29 tools registered for Claude Code and Claude Desktop via npx.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:22.155Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:09.839Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

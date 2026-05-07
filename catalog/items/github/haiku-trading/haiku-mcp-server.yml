@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__haiku-trading__haiku-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -50,14 +50,14 @@ metadata:
       - swap
       - web3
       - yield
-    last_checked_at: "2026-05-05T21:02:29.898Z"
+    last_checked_at: "2026-05-06T22:44:10.262Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.898Z"
+      fetched_at: "2026-05-06T22:44:10.262Z"
       bytes: 15812
 insights:
-  summary: An MCP server that lets AI agents execute DeFi actions like swaps, bridging, and yield strategies across 22 blockchain networks via the Haiku API.
-  why_it_matters: It gives coding agents and LLM workflows a standardized interface to interact with on-chain finance without manually wiring RPC calls or transaction signing logic.
-  mental_damage: Finally, your AI agent can lose your portfolio across 22 chains in milliseconds instead of the hours it would take you to do it manually.
+  summary: An MCP server that lets AI agents discover tokens, quotes, and yield opportunities, then build and sign transactions across 22 blockchains via the Haiku API.
+  why_it_matters: Developers can wire DeFi execution into Claude Desktop and other MCP hosts without building custom blockchain integrations for swaps, bridging, and yield strategies.
+  mental_damage: "We have finally achieved the platonic ideal of 2026: an AI agent that can drain your multisig across twenty-two chains while politely asking your wallet to sign an EIP-712 payload."
   tags:
     - mcp
     - defi
@@ -67,33 +67,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for DeFi execution, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is exposing DeFi execution tools to MCP-compatible hosts.
   evidence:
-    - Repo description states it is an 'MCP server for DeFi execution' and the README confirms it implements MCP tools like haiku_get_quote and haiku_discover_yields.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
-    - Includes configuration instructions for Claude Desktop, confirming its role as a tool provider for AI assistants.
+    - Repo description explicitly states 'MCP server for DeFi execution' and topics include mcp-server and model-context-protocol.
+    - README documents MCP tools like haiku_get_quote and haiku_discover_yields configured for Claude Desktop via claude_desktop_config.json.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server rather than a standalone agent or framework.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.898Z"
+    updated_at: "2026-05-06T22:44:10.262Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:22.444Z"
+    updated_at: "2026-05-06T22:59:20.921Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

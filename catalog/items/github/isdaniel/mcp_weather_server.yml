@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isdaniel__mcp_weather_server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,50 +39,50 @@ metadata:
       - mcp-server
       - python
       - python3
-    last_checked_at: "2026-05-05T21:02:47.145Z"
+    last_checked_at: "2026-05-06T22:44:27.238Z"
     readme:
-      fetched_at: "2026-05-05T21:02:47.145Z"
+      fetched_at: "2026-05-06T22:44:27.238Z"
       bytes: 22245
 insights:
-  summary: A Model Context Protocol server that exposes weather and air quality data via the Open-Meteo API, supporting stdio, SSE, and Streamable HTTP transports.
-  why_it_matters: It provides a ready-to-use, multi-transport MCP server that developers can plug into their AI clients to add location-based weather context without building their own API integration.
-  mental_damage: We have successfully modularized checking the weather into a protocol server, because apparently asking a model to read a forecast was one abstraction layer too few.
+  summary: A Model Context Protocol server that exposes weather and air quality data from the Open-Meteo API to MCP-compatible clients via stdio, SSE, or Streamable HTTP transports.
+  why_it_matters: It lets coding agents and MCP clients enrich their context with real-time weather and timezone data without developers hand-rolling API integrations.
+  mental_damage: We have officially arrived at the point where an AI agent needs a dedicated protocol server to decide if it should bring a jacket.
   tags:
     - mcp
     - weather
     - python
-    - api-integration
     - open-meteo
+    - context-tool
   confidence: high
 curation:
   status: included
-  reason: The project is a standard MCP server implementation designed to be consumed by MCP-compatible clients, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server implementation focused on a specific domain (weather), making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server'
-    - README details multiple MCP transport modes (stdio, SSE, streamable-http) and integration with clients like Claude Desktop and Cline
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Location Services'
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server that provides weather information'."
+    - README details support for stdio, SSE, and Streamable HTTP transports for MCP clients like Claude Desktop and Cline.
+    - Listed in awesome-mcp-servers under 'Location Services', confirming its identity as a domain-specific MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:47.145Z"
+    updated_at: "2026-05-06T22:44:27.238Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:41.088Z"
+    updated_at: "2026-05-06T23:02:46.888Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

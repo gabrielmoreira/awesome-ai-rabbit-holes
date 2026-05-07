@@ -1,13 +1,13 @@
 id: github__automl__robo
 kind: github-repo
-name: RoBO
+name: robo
 canonical_url: https://github.com/automl/robo
 identity:
   github_repo: automl/robo
 provenance:
   discoveries:
     - id: discovery__github__automl__robo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -32,27 +32,27 @@ metadata:
     description: "RoBO: a Robust Bayesian Optimization framework"
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:13.206Z"
+    last_checked_at: "2026-05-06T22:12:46.242Z"
     readme:
-      fetched_at: "2026-05-05T21:01:13.206Z"
+      fetched_at: "2026-05-06T22:12:46.242Z"
       bytes: 1605
 insights:
-  summary: RoBO is a Python framework for robust Bayesian optimization that provides modular interfaces for tuning hyperparameters and optimizing black-box functions.
-  why_it_matters: It gives developers a structured way to automate hyperparameter tuning and expensive function optimization without hand-rolling their own BO loops.
-  mental_damage: Yet another reminder that while we build tools to auto-tune models, we still manually tune the learning rates of our own productivity.
+  summary: RoBO is a Python framework for robust Bayesian optimization that supports multiple surrogate models and acquisition functions.
+  why_it_matters: It provides a standardized, flexible toolkit for efficiently tuning hyperparameters in machine learning pipelines, a common pain point for developers.
+  mental_damage: Yet another reminder that while we build agents to write code, we are still relying on decade-old math to stop those agents from guessing random hyperparameters.
   tags:
-    - automl
     - bayesian-optimization
+    - automl
     - hyperparameter-tuning
     - python
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional machine learning research framework for hyperparameter optimization, not a developer-facing AI tool, agent, or workflow product.
+  reason: Excluded because this is a general machine learning research library for hyperparameter optimization, not a developer-facing AI tool, agent, or infrastructure component.
   evidence:
-    - Repo description and README define it as a Robust Bayesian Optimization framework for AutoML, not a developer tooling product.
-    - Last push was in 2019, indicating the project is no longer actively maintained.
-    - Listed in Awesome-LLMOps under AutoML, which reflects research infrastructure rather than the catalog's focus on AI developer workflows.
+    - Repo description identifies it as a 'Robust Bayesian Optimization framework', a pure ML research tool.
+    - README and documentation show it is a Python library for surrogate models, not a coding assistant or AI workflow tool.
+    - Last push was in 2019, indicating the project is no longer actively maintained for modern AI developer workflows.
 placement:
   primary_category: null
   section: null
@@ -60,21 +60,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (489) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:40.308Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:13.206Z"
+    updated_at: "2026-05-06T22:12:46.242Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:56.131Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

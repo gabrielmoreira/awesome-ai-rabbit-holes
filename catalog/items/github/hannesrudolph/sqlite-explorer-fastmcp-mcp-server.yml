@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hannesrudolph__sqlite-explorer-fastmcp-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hannesrudolph/sqlite-explorer-fastmcp-mcp-server](https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server) 🐍 🏠 - An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety features and query validation."
         confidence: high
     - id: discovery__github__hannesrudolph__sqlite-explorer-fastmcp-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,49 +54,50 @@ metadata:
       - mcp
       - python
       - sqlite
-    last_checked_at: "2026-05-05T21:02:30.451Z"
+    last_checked_at: "2026-05-06T22:44:11.308Z"
     readme:
-      fetched_at: "2026-05-05T21:02:30.451Z"
+      fetched_at: "2026-05-06T22:44:11.308Z"
       bytes: 4081
 insights:
-  summary: A Model Context Protocol server built with FastMCP that provides LLMs with safe, read-only access to query and inspect SQLite databases via validated tools.
-  why_it_matters: It allows coding agents and AI assistants to inspect local database schemas and run SELECT queries without risking data mutation or SQL injection.
-  mental_damage: We have successfully abstracted the database so far away that the AI now needs a dedicated safety-wrapped server just to perform a SELECT * on a local file.
+  summary: An MCP server built with the FastMCP framework that provides LLMs with safe, read-only access to SQLite databases for querying and schema inspection.
+  why_it_matters: It allows coding agents like Claude and Cline to securely inspect and query local database state without risking data mutation.
+  mental_damage: We have successfully abstracted the act of reading a database into a protocol handshake so our AI can feel productive without actually opening a SQL prompt.
   tags:
     - mcp
     - sqlite
-    - database-tools
-    - llm-integration
+    - database
+    - fastmcp
+    - read-only
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for SQLite, fitting squarely into the MCP Servers and Tooling category.
+  reason: This is a protocol-native server whose primary identity is exposing SQLite via MCP, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP)'."
-    - "README details specific MCP tools exposed: read_query, list_tables, and describe_table using the FastMCP framework."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+    - Repo description explicitly states it is 'An MCP server that provides safe, read-only access to SQLite databases'.
+    - README demonstrates installation via `fastmcp install` and configuration for Claude Desktop and Cline, confirming its MCP server identity.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under the Databases section, validating its ecosystem role.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:30.451Z"
+    updated_at: "2026-05-06T22:44:11.308Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:28.041Z"
+    updated_at: "2026-05-06T22:59:28.790Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

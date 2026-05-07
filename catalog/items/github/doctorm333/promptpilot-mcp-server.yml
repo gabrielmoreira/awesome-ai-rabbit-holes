@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__doctorm333__promptpilot-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for PromptPilot.club — generate images, video, and audio via Pollinations API
     homepage: https://promptpilot.club
     topics: []
-    last_checked_at: "2026-05-05T21:01:54.976Z"
+    last_checked_at: "2026-05-06T22:43:39.604Z"
     readme:
-      fetched_at: "2026-05-05T21:01:54.976Z"
+      fetched_at: "2026-05-06T22:43:39.604Z"
       bytes: 3388
 insights:
-  summary: An MCP server that lets developers generate images, video, and audio from within AI coding agents like Claude Code, Cursor, and Windsurf using the Pollinations API.
-  why_it_matters: It extends the standard coding-agent workflow with media generation capabilities, allowing developers to create assets directly inside their IDE without switching contexts to external design tools.
-  mental_damage: "We have finally achieved the pinnacle of engineering productivity: prompting a cyberpunk cityscape into existence from inside a JSON config file while our actual codebase remains untouched."
+  summary: An MCP server that lets Claude Code, Cursor, Windsurf, and other MCP-compatible agents generate images, video, and audio via the Pollinations API.
+  why_it_matters: It gives coding agents direct access to multimedia generation without leaving the IDE, bridging repo work and creative asset creation in one loop.
+  mental_damage: Your coding agent can now drain your API balance generating cyberpunk cityscapes while you are just trying to fix a CSS bug.
   tags:
     - mcp
-    - media-generation
+    - multimedia
     - pollinations
-    - ide-integration
+    - agent-integration
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to add media generation tools to MCP-compatible clients, fitting the MCP infrastructure category.
+  reason: The product is an MCP server that exposes image, video, and audio generation tools to MCP-compatible agents, making MCP its core identity.
   evidence:
-    - "Repo description states: 'MCP server for PromptPilot.club — generate images, video, and audio via Pollinations API'"
-    - README lists 8 MCP tools including generate_image, generate_video, and generate_audio for Claude Code, Cursor, and Windsurf
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
+    - "Repo description: 'MCP server for PromptPilot.club — generate images, video, and audio via Pollinations API'"
+    - "README: 'Generate images, video, and audio directly in Claude Code, Cursor, Windsurf, or any MCP-compatible AI agent.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:54.976Z"
+    updated_at: "2026-05-06T22:43:39.604Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:43.356Z"
+    updated_at: "2026-05-06T22:53:00.533Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

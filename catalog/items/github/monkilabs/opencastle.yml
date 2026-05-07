@@ -1,13 +1,13 @@
 id: github__monkilabs__opencastle
 kind: github-repo
-name: OpenCastle
+name: opencastle
 canonical_url: https://github.com/monkilabs/opencastle
 identity:
   github_repo: monkilabs/opencastle
 provenance:
   discoveries:
     - id: discovery__github__monkilabs__opencastle__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -53,50 +53,50 @@ metadata:
       - orchestration-systems
       - vibe-coding
       - vibecoding
-    last_checked_at: "2026-05-05T21:03:46.697Z"
+    last_checked_at: "2026-05-06T22:45:24.847Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.697Z"
+      fetched_at: "2026-05-06T22:45:24.847Z"
       bytes: 8770
 insights:
-  summary: A CLI tool that sets up multi-agent orchestration, specialist agents, and reusable skills for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and Windsurf.
-  why_it_matters: It lets developers decompose tasks across specialist agents and run them interactively in the IDE or as batch jobs via the Convoy Engine, with cost-aware model routing and built-in quality gates.
-  mental_damage: You now have a panel of AI agents that can review, dispute, and vote on each other’s output, turning your solo repo into a corporate committee that never goes home.
+  summary: A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others.
+  why_it_matters: It lets developers bootstrap a coordinated team of specialist agents inside their existing IDEs instead of relying on a single assistant to handle every task.
+  mental_damage: You now have the infrastructure to convene a panel of AI agents for a majority vote on your semicolon placement, which is definitely easier than just deciding yourself.
   tags:
-    - cli
-    - copilot
     - multi-agent
     - orchestration
-    - skills
+    - cli
+    - ide-integration
+    - convoy
   confidence: high
 curation:
   status: included
-  reason: OpenCastle is an extension layer that adds multi-agent orchestration, skills, and workflows on top of existing coding assistants rather than being a primary coding agent itself.
+  reason: The product's core identity is a runtime and CLI for coordinating multiple specialist agents across different IDEs, fitting the control-plane nature of agent orchestration.
   evidence:
-    - "Repo description: 'Multi agens orchestration setup for Github Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex and Antigravity.'"
-    - "README: 'Turn your AI coding assistant into a multi-agent team' and generates IDE-specific configs like .cursorrules and CLAUDE.md."
-    - Source list inclusion under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents.
+    - Repo description explicitly states 'Multi agents orchestration setup for Github Copilot, Cursor, Claude Code...'
+    - README describes 'Convoy Engine' as a deterministic, crash-recoverable orchestrator for running agent teams.
+    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:01.064Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.697Z"
+    updated_at: "2026-05-06T22:45:24.847Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:30.490Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

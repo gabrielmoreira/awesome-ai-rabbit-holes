@@ -1,13 +1,13 @@
 id: github__huggingface__accelerate
 kind: github-repo
-name: Accelerate
+name: accelerate
 canonical_url: https://github.com/huggingface/accelerate
 identity:
   github_repo: huggingface/accelerate
 provenance:
   discoveries:
     - id: discovery__github__huggingface__accelerate__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9659
-    forks: 1343
+    stars: 9664
+    forks: 1344
     license: Apache-2.0
     archived: false
     created_at: "2020-10-30T13:27:12Z"
@@ -33,50 +33,50 @@ metadata:
     description: 🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support
     homepage: https://huggingface.co/docs/accelerate
     topics: []
-    last_checked_at: "2026-05-05T21:02:36.812Z"
+    last_checked_at: "2026-05-06T22:44:17.697Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.812Z"
+      fetched_at: "2026-05-06T22:44:17.697Z"
       bytes: 15187
 insights:
-  summary: A lightweight Python library from Hugging Face that abstracts PyTorch training boilerplate to run models on CPUs, GPUs, TPUs, and distributed setups with mixed precision support.
-  why_it_matters: It lets PyTorch developers keep writing their own training loops while offloading device management, mixed precision, and distributed scaling to a few lines of imports.
-  mental_damage: You wanted to train a model, but now you’ve spent three hours deciding whether your fp8 setup is spiritually correct while Accelerate silently decides where your tensors live.
+  summary: A Python library from Hugging Face that abstracts multi-GPU, TPU, and mixed-precision boilerplate so raw PyTorch training scripts run on almost any distributed configuration.
+  why_it_matters: Developers can keep writing standard PyTorch training loops while gaining automatic support for fp8, FSDP, DeepSpeed, and multi-node setups without maintaining custom distributed code.
+  mental_damage: Yet another reminder that your carefully hand-rolled distributed training script was mostly unnecessary boilerplate you convinced yourself you needed to write.
   tags:
-    - deep-learning
-    - distributed
-    - huggingface
     - pytorch
     - training
+    - distributed
+    - huggingface
+    - mlops
   confidence: high
 curation:
   status: excluded
-  reason: This is a general ML training framework for PyTorch, not a developer-facing AI tool, agent, IDE, builder, or infrastructure product aimed at software engineers.
+  reason: This is a general ML training library for PyTorch model training and distributed compute, not a developer-facing AI tool, agent, workflow, or infrastructure product aimed at software development workflows.
   evidence:
-    - Repo description focuses on training and using PyTorch models across devices, not developer workflows.
-    - README demonstrates standard ML training loop augmentation, not code assistance, app building, or agent orchestration.
-    - Listed under Training > Frameworks for Training in Awesome-LLMOps, which is ML ops, not developer tooling.
+    - Repo description focuses on launching, training, and using PyTorch models on distributed devices, not developer tooling.
+    - README demonstrates a PyTorch training-loop abstraction with no coding-agent, IDE, extension, or app-building functionality.
+    - Listed in Awesome-LLMOps under Training > Frameworks for Training, which is ML ops infrastructure rather than our developer-tooling scope.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (9659) exceeded threshold (150)
+  reason: Stars (9664) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:30.548Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.812Z"
+    updated_at: "2026-05-06T22:44:17.697Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:50.372Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

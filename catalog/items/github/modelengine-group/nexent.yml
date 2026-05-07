@@ -1,13 +1,13 @@
 id: github__modelengine-group__nexent
 kind: github-repo
-name: Nexent
+name: nexent
 canonical_url: https://github.com/modelengine-group/nexent
 identity:
   github_repo: modelengine-group/nexent
 provenance:
   discoveries:
     - id: discovery__github__modelengine-group__nexent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4383
-    forks: 582
+    stars: 4392
+    forks: 583
     license: MIT
     archived: false
     created_at: "2025-04-28T10:44:33Z"
-    pushed_at: "2026-05-01T18:56:19Z"
+    pushed_at: "2026-05-06T14:02:20Z"
     description: Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.
     homepage: https://nexent.tech
     topics:
@@ -44,50 +44,50 @@ metadata:
       - mcp
       - multi-agent
       - rag
-    last_checked_at: "2026-05-05T21:03:45.446Z"
+    last_checked_at: "2026-05-06T22:45:23.692Z"
     readme:
-      fetched_at: "2026-05-05T21:03:45.446Z"
+      fetched_at: "2026-05-06T22:45:23.692Z"
       bytes: 6014
 insights:
-  summary: Nexent is a zero-code platform that auto-generates production-grade AI agents using natural language, providing unified tools, skills, memory, and orchestration built on Harness Engineering principles.
-  why_it_matters: It allows developers to spin up fully functional, multi-component AI agents without writing orchestration code, focusing instead on defining behavior through prompts.
-  mental_damage: Yet another platform promising to solve the 'complexity' of agent building by adding a layer of abstraction so thick you'll need a prompt to remember why you started the project.
+  summary: Nexent is a zero-code platform for auto-generating production-grade AI agents, featuring unified tools, skills, memory, and orchestration with built-in constraints and control planes.
+  why_it_matters: It allows developers to spin up multi-agent systems with memory and tool integration using natural language prompts instead of writing orchestration code.
+  mental_damage: Yet another 'zero-code' platform promising to automate away the complexity of agent engineering, right as we were all starting to enjoy writing YAML again.
   tags:
     - agents
-    - harness-engineering
-    - mcp
-    - no-code
     - orchestration
+    - mcp
+    - multi-agent
+    - platform
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing platform and control plane for coordinating tools, memory, skills, and agent workflows, fitting the agent-orchestration category rather than a coding-agent or framework.
+  reason: The product is a zero-code platform and control plane for generating and managing production-grade AI agents with built-in orchestration, memory, and tools, fitting the agent orchestration category.
   evidence:
-    - Repo description defines it as a 'zero-code platform for auto-generating production-grade AI agents' with unified tools, skills, and orchestration.
-    - README highlights 'built-in constraints, feedback loops, and control planes' and features like knowledge bases and MCP tool ecosystems.
-    - Topics include 'agentic-framework', 'multi-agent', and 'harness-engineering', confirming its focus on agent coordination.
+    - Repo description describes it as a 'zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.'
+    - README states it is a 'zero-code platform for auto-generating production-grade AI agents' and highlights features like control planes and multi-agent orchestration.
+    - Topics include agent, agentic-ai, agentic-framework, agentic-workflow, multi-agent, and mcp, reinforcing its orchestration identity.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4383) exceeded threshold (150)
+  reason: Stars (4392) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:49.600Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:45.446Z"
+    updated_at: "2026-05-06T22:45:23.692Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:16.460Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

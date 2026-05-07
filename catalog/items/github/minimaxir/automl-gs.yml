@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minimaxir__automl-gs__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,27 +38,28 @@ metadata:
       - python
       - tensorflow
       - xgboost
-    last_checked_at: "2026-05-05T21:03:42.299Z"
+    last_checked_at: "2026-05-06T22:45:20.410Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.299Z"
+      fetched_at: "2026-05-06T22:45:20.410Z"
       bytes: 11078
 insights:
-  summary: A Python CLI and module that takes an input CSV and target field, then generates optimized machine learning/deep learning models along with native Python pipeline code for TensorFlow and XGBoost.
-  why_it_matters: It lets developers and data scientists skip writing boilerplate preprocessing and model architecture code by generating a tweakable baseline pipeline from the command line.
-  mental_damage: Because nothing says modern developer productivity like pretending AutoML from 2019 didn't already teach us that generated baselines still require a human to clean up the mess.
+  summary: A command-line tool that takes an input CSV and a target field, then generates optimized machine learning and deep learning models along with native Python code pipelines.
+  why_it_matters: It lets developers and data scientists spin up a strong baseline model and production-ready training code without writing any model definitions or data preprocessing boilerplate.
+  mental_damage: Yet another reminder that the hardest part of machine learning remains explaining to stakeholders why the 'zero-code' model still needs a human to make it useful.
   tags:
     - automl
     - cli
-    - ml-models
-    - python
+    - tensorflow
+    - xgboost
+    - classic-ml
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional AutoML tool for tabular data science, not a developer-facing AI tool, coding agent, or AI infrastructure component.
+  reason: Excluded because the project is a traditional AutoML tool for tabular data science and has been inactive since 2019, lacking the modern LLM, agent, or developer-infrastructure angle this catalog requires.
   evidence:
-    - Repo description focuses on CSV input and model generation, not AI-assisted coding workflows.
-    - README shows it generates TensorFlow/XGBoost pipelines for citizen data scientists, not developer tooling.
-    - Last push was in 2019, and it appears under AutoML rather than LLM/AI-dev tooling in source lists.
+    - Repo description and README focus on generating TensorFlow/XGBoost models from CSVs, not LLM or coding workflows.
+    - Last push was 2019-10-22, showing the project is effectively unmaintained.
+    - Appears in Awesome-LLMOps under AutoML, but the tool predates the modern LLM developer tooling era and has no AI coding assistant relevance.
 placement:
   primary_category: null
   section: null
@@ -68,19 +69,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.299Z"
+    updated_at: "2026-05-06T22:45:20.410Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:11.806Z"
+    updated_at: "2026-05-06T23:14:30.705Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

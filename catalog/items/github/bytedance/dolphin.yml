@@ -1,13 +1,13 @@
 id: github__bytedance__dolphin
 kind: github-repo
-name: Dolphin
+name: dolphin
 canonical_url: https://github.com/bytedance/dolphin
 identity:
   github_repo: bytedance/dolphin
 provenance:
   discoveries:
     - id: discovery__github__bytedance__dolphin__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8924
+    stars: 8925
     forks: 754
     license: NOASSERTION
     archived: false
@@ -41,50 +41,50 @@ metadata:
       - pdf-parser
       - python
       - vlm-ocr
-    last_checked_at: "2026-05-05T21:01:27.694Z"
+    last_checked_at: "2026-05-06T22:43:15.391Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.694Z"
+      fetched_at: "2026-05-06T22:43:15.391Z"
       bytes: 9509
 insights:
-  summary: Dolphin is a document image parsing system from ByteDance that uses heterogeneous anchor prompting to analyze layout, reading order, and elements (text, tables, formulas, code) in both digital and photographed documents.
-  why_it_matters: It provides developers with a lightweight, high-performance local model for converting complex PDFs and images into structured data, reducing reliance on brittle traditional OCR pipelines.
-  mental_damage: Finally, a 3B parameter model to solve the 'is this a table or just a very organized accident' problem that every PDF parser since 1995 has failed to answer.
+  summary: Dolphin is an open-source, lightweight vision-language model from ByteDance that parses complex document images—including PDFs, tables, formulas, and code blocks—into structured outputs using a two-stage heterogeneous anchor prompting architecture.
+  why_it_matters: It gives developers a high-performance, 3B-parameter alternative to heavy OCR pipelines for extracting structured data from messy real-world documents, with support for vLLM and TensorRT-LLM acceleration.
+  mental_damage: Yet another reminder that while we build agents to write code, the industry is still funneling massive research energy into teaching models how to correctly read a PDF without hallucinating the table headers.
   tags:
-    - bytedance
-    - document-parsing
     - ocr
-    - pdf
+    - document-parsing
     - vlm
+    - pdf
+    - bytedance
   confidence: high
 curation:
   status: excluded
-  reason: While technically impressive, this is a research-oriented document analysis model focused on vision and layout parsing, not a developer tool for coding, agent orchestration, or IDE workflows.
+  reason: Excluded because Dolphin is a research-oriented document image parsing model and OCR toolkit, not a developer-facing AI tool, agent, workflow, or infrastructure component for building software.
   evidence:
-    - "Repo description explicitly frames it as a research paper implementation: 'Document Image Parsing via Heterogeneous Anchor Prompting, ACL 2025'."
-    - The README focuses on layout analysis, formula parsing, and table detection rather than source code assistance or developer infrastructure.
-    - Listed in awesome-LLM-resources under 'Data' section, indicating it is viewed as a data/model resource rather than a dev tool.
+    - "Repo description explicitly frames it as a research paper implementation ('Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting', ACL 2025)."
+    - README focuses on document layout analysis, PDF parsing, formula/table extraction, and benchmark performance, with no coding-agent or developer-workflow utility.
+    - Source list context places it in a generic 'LLM resources / Data' section, indicating it is treated as a data model rather than a developer tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8924) exceeded threshold (150)
+  reason: Stars (8925) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:03.745Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.694Z"
+    updated_at: "2026-05-06T22:43:15.391Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:47:30.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__calcnook__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,25 +35,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Python package available on PyPI that implements a Model Context Protocol (MCP) server for finance and fintech calculations.
-  why_it_matters: It provides a standardized MCP interface for financial computations, allowing AI agents and coding assistants to offload complex math to a dedicated tool.
-  mental_damage: We have successfully abstracted basic arithmetic into a protocol server, ensuring your AI agent now needs a network round-trip to calculate a compound interest rate.
+  summary: A PyPI package listed as an MCP server implementation for finance and fintech use cases, but its documentation page is inaccessible and functional details are unavailable.
+  why_it_matters: It claims to extend MCP-compatible assistants with financial data capabilities, fitting into the growing ecosystem of domain-specific tool servers.
+  mental_damage: We now have a fintech MCP server that nobody can actually load or verify, which is the spiritual equivalent of a bank that forgot to unlock its front door.
   tags:
     - mcp
-    - finance
-    - python
     - fintech
-    - tooling
-  confidence: medium
+    - pypi
+    - server
+  confidence: low
 curation:
-  status: included
-  reason: The project is explicitly listed as an MCP server implementation for finance in the awesome-mcp-servers list and is distributed as a PyPI package serving that protocol.
+  status: excluded
+  reason: Excluded because the primary artifact is an inaccessible PyPI package with no readable description, README, or working documentation, making it impossible to verify its developer-tooling value or scope.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
-    - Hosted on PyPI as a Python package named 'calcnook'.
-    - Scraped site context identifies the project as 'Client Challenge' related to the MCP ecosystem.
+    - Scraped site context shows the primary page could not load and provides no usable description.
+    - No repo description, README excerpt, stars, license, or creation/push dates are available to assess fit or activity.
+    - Listed only as a finance MCP server in awesome-mcp-servers without independent evidence of a functioning product.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -61,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:47:17.796Z"
+    updated_at: "2026-05-06T22:28:41.242Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

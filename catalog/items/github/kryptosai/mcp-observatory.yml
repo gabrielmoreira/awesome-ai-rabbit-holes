@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kryptosai__mcp-observatory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,49 @@ metadata:
       - regression-testing
       - schema-drift
       - testing
-    last_checked_at: "2026-05-05T21:03:08.318Z"
+    last_checked_at: "2026-05-06T22:44:45.475Z"
     readme:
-      fetched_at: "2026-05-05T21:03:08.318Z"
+      fetched_at: "2026-05-06T22:44:45.475Z"
       bytes: 13955
 insights:
-  summary: An MCP server and CLI tool that tests, scans, and records other MCP servers to detect schema drift, regressions, and security issues.
-  why_it_matters: It brings automated regression testing, replay cassettes, and health scoring to MCP server ecosystems so developers can harden their agent toolchains in CI.
-  mental_damage: We now need a dedicated testing tool to make sure the tools our AI agents use to do our jobs are themselves not hallucinating.
+  summary: An MCP server that scans, tests, and records other MCP servers to detect regressions, schema drift, and security issues.
+  why_it_matters: It lets developers and AI agents automatically verify that their MCP toolchains haven't broken after upgrades or config changes.
+  mental_damage: We now have autonomous agents testing other autonomous agents, because apparently the only thing more reliable than human review is a recursive loop of software checking itself.
   tags:
     - mcp
     - testing
+    - regression
     - observability
-    - cli
-    - devops
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP infrastructure tool for testing, recording, and verifying MCP servers, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is centered on MCP infrastructure, acting as a testing and observability tool for the Model Context Protocol ecosystem.
   evidence:
     - Repo description states it is 'An MCP server that tests your MCP servers for breaking changes'.
-    - README positions it as 'The first testing tool that is itself an MCP server' with scan, test, record, replay, and verify commands.
+    - README positions it as 'The first testing tool that is itself an MCP server' with commands like scan, test, record, replay, and diff.
     - Included in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Clients / Inspectors / Dev Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:08.318Z"
+    updated_at: "2026-05-06T22:44:45.475Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:18.786Z"
+    updated_at: "2026-05-06T23:06:43.476Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

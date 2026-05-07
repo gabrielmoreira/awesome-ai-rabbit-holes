@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__phnx-labs__linear-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -46,49 +46,50 @@ metadata:
       - mcp-alternative
       - python
       - single-file-cli
-    last_checked_at: "2026-05-05T21:04:16.372Z"
+    last_checked_at: "2026-05-06T22:45:51.776Z"
     readme:
-      fetched_at: "2026-05-05T21:04:16.372Z"
+      fetched_at: "2026-05-06T22:45:51.776Z"
       bytes: 10331
 insights:
-  summary: A single-file, zero-dependency Python CLI that lets developers and coding agents manage Linear issues directly from the shell.
-  why_it_matters: It provides a lightweight, scriptable interface for agents and humans to share a Linear queue, claim tasks, and close tickets with proof without importing an SDK or hand-writing GraphQL.
-  mental_damage: We have finally achieved the future where your CLI tool and your AI agent can both silently reorganize your ticket queue, and neither one will tell you they did it.
+  summary: A single-file Python CLI for managing Linear issues from the terminal, designed to be used directly by developers or as an integration layer for coding agents like Claude Code and Codex.
+  why_it_matters: It provides a zero-dependency, scriptable interface for agents to claim tickets, report progress, and close issues with proof, bridging project management and autonomous coding workflows.
+  mental_damage: We have reached the point where our CLI tools need a 'Works with Claude' badge to validate their existence in the agentic queue.
   tags:
     - linear
     - cli
-    - agent-infrastructure
+    - agent-integration
     - python
-  confidence: medium
+    - issue-tracking
+  confidence: high
 curation:
   status: included
-  reason: This is a developer-facing CLI designed specifically to let coding agents and humans collaborate on Linear issue tracking within a terminal workflow, fitting Terminal & CLI Agents under coding-agents.
+  reason: The tool extends coding agents with Linear project management capabilities rather than acting as a primary coding assistant itself.
   evidence:
-    - "Repo description states: 'Linear for you and your agents. Single-file Python CLI that drives Linear from the shell or a subagent.'"
-    - README excerpt shows it is agent-friendly with lane labels and includes a skill.md for Claude/Codex/Gemini integration.
-    - Seen in awesome-cli-coding-agents under Harnesses & orchestration > Agent infrastructure.
+    - Repo description states it is 'Linear for you and your agents' and a 'Single-file Python CLI that drives Linear from the shell or a subagent'.
+    - README highlights specific agent integrations with Claude, Codex, Gemini, and Cursor, and includes a `skill.md` for agents.
+    - Source list placement in 'awesome-cli-coding-agents' under 'Agent infrastructure' confirms its role in extending agent capabilities.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:16.372Z"
+    updated_at: "2026-05-06T22:45:51.776Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:35.024Z"
+    updated_at: "2026-05-06T23:21:40.071Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

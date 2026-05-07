@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-sqlite__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - sql
       - sqlite
       - typescript
-    last_checked_at: "2026-05-05T21:04:00.020Z"
+    last_checked_at: "2026-05-06T22:45:37.841Z"
     readme:
-      fetched_at: "2026-05-05T21:04:00.020Z"
+      fetched_at: "2026-05-06T22:45:37.841Z"
       bytes: 4084
 insights:
-  summary: A TypeScript MCP server that lets AI assistants like Claude and Cursor query SQLite databases, inspect schemas, and explain queries with read-only safety by default.
-  why_it_matters: Developers working with local-first apps and embedded databases can now let their AI assistants safely explore SQLite schemas and data without leaving the editor.
-  mental_damage: We have successfully built infrastructure so your AI can introspect a local database that you could have opened in a GUI in three seconds, but this way the context window stays warm.
+  summary: A TypeScript MCP server that lets AI assistants query SQLite databases, inspect schemas, and explain query plans, running read-only by default.
+  why_it_matters: It gives coding agents and IDE copilots safe, read-only access to local SQLite files so they can inspect schemas and reason about data without leaving the chat.
+  mental_damage: Another essential brick in the grand pilgrimage to make your AI assistant fluent in every file format on your laptop except the one you actually need it to fix.
   tags:
     - mcp
     - sqlite
-    - typescript
     - database
-    - cursor
-  confidence: medium
+    - typescript
+    - context
+  confidence: high
 curation:
   status: included
-  reason: The project is a developer tool that implements the Model Context Protocol to expose SQLite databases to AI assistants, fitting cleanly into the MCP servers category.
+  reason: The product is an MCP server whose identity and entire purpose is exposing SQLite access to MCP clients like Claude Desktop, Cursor, and VS Code Copilot.
   evidence:
-    - Repo description explicitly states 'MCP server for SQLite — query databases, inspect schemas, explain queries'.
-    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot as an MCP server.
-    - Listed under 'Server Implementations > Databases' in the awesome-mcp-servers directory.
+    - "Repo description: 'MCP server for SQLite — query databases, inspect schemas, explain queries'"
+    - README states it 'opens the database read-only by default' and works with Claude Desktop, Cursor, and VS Code Copilot
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:00.020Z"
+    updated_at: "2026-05-06T22:45:37.841Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:46.227Z"
+    updated_at: "2026-05-06T23:18:32.987Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

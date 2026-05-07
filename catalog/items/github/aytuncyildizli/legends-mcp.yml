@@ -6,8 +6,8 @@ identity:
   github_repo: aytuncyildizli/legends-mcp
 provenance:
   discoveries:
-    - id: discovery__github__cryptosquanch__legends-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__aytuncyildizli__legends-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,52 +33,49 @@ metadata:
     description: Chat with legendary founders & investors via MCP. No API key required!
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:43.466Z"
+    last_checked_at: "2026-05-06T22:12:48.228Z"
     readme:
-      fetched_at: "2026-05-05T21:01:43.466Z"
+      fetched_at: "2026-05-06T22:12:48.228Z"
       bytes: 11400
 insights:
-  summary: An MCP server that lets developers chat with simulated personas of famous founders and investors inside Claude Code, operating without an API key.
-  why_it_matters: It provides a local MCP integration that augments the developer's assistant with domain-specific 'characters' for startup strategy and product advice directly in the coding environment.
-  mental_damage: We have reached the point where we are meticulously injecting simulated venture capitalists into our IDEs to roast our product designs, just in case the real ones weren't enough of a rejection trigger.
+  summary: An MCP server that lets developers chat with prompt-simulated legendary founders and investors inside Claude Code, with no API key required.
+  why_it_matters: It adds a novelty knowledge layer to Claude Code so developers can get startup, investing, and product feedback framed through the personas of well-known tech figures.
+  mental_damage: "We have finally solved the hardest problem in software engineering: getting a simulated Warren Buffett to tell your seed-stage CLI tool that it lacks a moat."
   tags:
-    - claude-code
     - mcp
+    - claude-code
     - personas
-    - simulation
+    - knowledge
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server ('legends-mcp') designed to integrate legendary personas into Claude Code via the Model Context Protocol.
+  reason: The product is an MCP server that exposes legendary-founder personas as tools for Claude Code, fitting cleanly as domain-specific MCP infrastructure.
   evidence:
-    - "Repo description states: 'Chat with legendary founders & investors via MCP.'"
-    - README setup instructions configure it as an MCP server in Claude Code settings.
-    - The package is distributed as 'legends-mcp' on npm specifically for MCP compatibility.
-    - Repo description explicitly states 'Chat with legendary founders & investors via MCP'
-    - README provides configuration for Claude Code via the mcpServers JSON block
-    - Listed in the awesome-mcp-servers directory under 'Knowledge & Memory'
+    - "Repo description states: 'Chat with legendary founders & investors via MCP. No API key required!'"
+    - README shows MCP server setup via npx for Claude Code and lists tools like party_mode and summon_legend.
+    - Included in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:48.991Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:43.466Z"
+    updated_at: "2026-05-06T22:12:48.228Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:18.608Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

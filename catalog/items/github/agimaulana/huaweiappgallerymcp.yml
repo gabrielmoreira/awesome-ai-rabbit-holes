@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agimaulana__huaweiappgallerymcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:53.635Z"
+    last_checked_at: "2026-05-06T22:12:28.782Z"
     readme:
-      fetched_at: "2026-05-05T21:00:53.635Z"
+      fetched_at: "2026-05-06T22:12:28.782Z"
       bytes: 6798
 insights:
-  summary: A Model Context Protocol server that lets AI assistants manage app publishing workflows on Huawei AppGallery Connect, including metadata updates, binary uploads, and release submissions.
-  why_it_matters: It allows developers using Claude Desktop or other MCP clients to automate Huawei app store operations like phased rollouts and localized listings directly through natural language.
-  mental_damage: We have successfully abstracted away the one remaining human joy of clicking through Huawei's AppGallery Connect UI by wrapping it in an MCP server with 2 stars.
+  summary: A Model Context Protocol server that lets MCP-compatible clients like Claude Desktop manage Huawei AppGallery Connect publishing tasks, including metadata updates, binary uploads, and release submissions.
+  why_it_matters: It turns Huawei AppGallery publishing into a conversational workflow, letting developers manage app releases through their existing AI coding assistants instead of the web console.
+  mental_damage: We have successfully abstracted away the mobile app publishing console so you can now miss your Huawei AppGallery release deadlines via Claude Desktop instead of Chrome.
   tags:
     - mcp
     - huawei
-    - app-store
-    - automation
-    - developer-tools
-  confidence: medium
+    - appgallery
+    - publishing
+    - devops
+  confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Huawei AppGallery, fitting cleanly into the MCP servers and tooling category.
+  reason: The product is fundamentally an MCP server for a specific domain (Huawei AppGallery), making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - README explicitly states it is 'A Model Context Protocol (MCP) server for managing app publishing on Huawei AppGallery Connect.'
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools'.
-    - Provides stdio MCP server integration for Claude Desktop and Claude Code with specific tool definitions for AppGallery operations.
+    - README explicitly describes it as 'A Model Context Protocol (MCP) server for managing app publishing on Huawei AppGallery Connect'.
+    - Installation instructions are MCP-native, including `claude mcp add --from-registry` and configuration for Claude Desktop and Claude Code.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools', confirming its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:53.635Z"
+    updated_at: "2026-05-06T22:12:28.782Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:32.759Z"
+    updated_at: "2026-05-06T22:19:23.789Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

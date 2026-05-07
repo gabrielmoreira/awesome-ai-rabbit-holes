@@ -1,0 +1,81 @@
+id: github__qwenlm__qwen3
+kind: github-repo
+name: qwen3
+canonical_url: https://github.com/qwenlm/qwen3
+identity:
+  github_repo: qwenlm/qwen3
+provenance:
+  discoveries:
+    - id: discovery__github__qwenlm__qwen3__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: Qwen3 Technical Report
+        extracted_url: https://github.com/qwenlm/qwen3
+        surrounding_text: 49. [Qwen3 Technical Report](https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf)
+        confidence: high
+metadata:
+  github:
+    stars: 27204
+    forks: 1983
+    license: null
+    archived: false
+    created_at: "2024-02-05T05:45:08Z"
+    pushed_at: "2026-01-09T03:05:47Z"
+    description: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:04.261Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:04.261Z"
+      bytes: 24732
+insights:
+  summary: Qwen3 is a series of large language models from Alibaba Cloud, available in dense and Mixture-of-Experts formats ranging from 0.6B to 235B parameters.
+  why_it_matters: Developers can use these open-weight models locally or via API for coding, agent tasks, and instruction following in both thinking and non-thinking modes.
+  mental_damage: Another Tuesday, another open-weight model family promising state-of-the-art reasoning that will inevitably be the 'previously best' by next Tuesday.
+  tags:
+    - llm
+    - local-models
+    - alibaba
+    - open-weights
+    - reasoning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a raw model repository and checkpoint collection, not a developer-facing tool, agent, IDE, framework, or infrastructure product for building with AI.
+  evidence:
+    - Repo description states it is 'the large language model series developed by Qwen team, Alibaba Cloud.'
+    - README focuses on model checkpoints, inference guides, deployment, quantization, and training rather than a developer tool product.
+    - Listed in awesome-LLM-resources under a 'Paper' section, indicating it is a model/research resource rather than tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (27204) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.644Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:04.261Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:15.781Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

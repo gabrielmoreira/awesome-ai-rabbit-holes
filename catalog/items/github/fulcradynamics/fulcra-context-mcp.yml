@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fulcradynamics__fulcra-context-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp) [![fulcra-context-mcp MCP server](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp) 🐍 ☁️ - MCP server for accessing personal health and biometric data including sleep stages, heart rate, HRV, glucose, workouts, calendar, and location via the Fulcra Life API with OAuth2 consent."
         confidence: high
     - id: discovery__github__fulcradynamics__fulcra-context-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:15.470Z"
+    last_checked_at: "2026-05-06T22:43:57.379Z"
     readme:
-      fetched_at: "2026-05-05T21:02:15.470Z"
+      fetched_at: "2026-05-06T22:43:57.379Z"
       bytes: 2183
 insights:
-  summary: An MCP server that provides tools and resources to access Fulcra Context data via the Fulcra API, supporting both local stdio and remote Streamable HTTP transports.
-  why_it_matters: It allows developers to integrate Fulcra's context management directly into MCP-compatible clients like Claude for Desktop, bridging external context stores with local AI workflows.
-  mental_damage: We have successfully abstracted the abstraction, meaning you can now pipe your context into a protocol that talks to a server that talks to an API, because apparently opening a browser was too straightforward.
+  summary: An MCP server that exposes your Fulcra Context data to MCP-compatible AI clients via the Fulcra API.
+  why_it_matters: Developers using Fulcra Context can wire their stored context directly into Claude for Desktop and other MCP hosts without building custom integrations.
+  mental_damage: You now have three layers of indirection—context store, MCP server, and client adapter—to remind yourself that your AI still can't remember what you did yesterday.
   tags:
     - mcp
     - context
-    - oauth
-    - python
-  confidence: high
+    - fulcra
+    - api
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to provide access to Fulcra API data within the Model Context Protocol ecosystem.
+  reason: This is an MCP server for a specific domain (Fulcra Context data), making it a clear fit for MCP Servers & Tooling rather than a generic extension or framework.
   evidence:
     - "README states: 'This is an MCP server that provides tools and resources to call the Fulcra API'"
-    - Listed in awesome-mcp-servers under Server Implementations
-    - Supports both stdio and Streamable HTTP transports for MCP clients
+    - Listed in awesome-mcp-servers under 'Server Implementations' and 'Official Servers'
+    - Supports stdio and Streamable HTTP transports with OAuth2 handling between MCP clients
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:15.470Z"
+    updated_at: "2026-05-06T22:43:57.379Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:19.457Z"
+    updated_at: "2026-05-06T22:56:43.674Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

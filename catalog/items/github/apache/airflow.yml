@@ -1,13 +1,13 @@
 id: github__apache__airflow
 kind: github-repo
-name: Airflow
+name: airflow
 canonical_url: https://github.com/apache/airflow
 identity:
   github_repo: apache/airflow
 provenance:
   discoveries:
     - id: discovery__github__apache__airflow__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [yangkyeongmo@/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow) 🐍 🏠 - MCP server that connects to [Apache Airflow](https://airflow.apache.org/) using official client."
         confidence: high
     - id: discovery__github__apache__airflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,12 +40,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 45288
-    forks: 17000
+    stars: 45304
+    forks: 17008
     license: Apache-2.0
     archived: false
     created_at: "2015-04-13T18:04:58Z"
-    pushed_at: "2026-05-05T20:43:05Z"
+    pushed_at: "2026-05-06T21:45:50Z"
     description: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows
     homepage: https://airflow.apache.org/
     topics:
@@ -69,50 +69,50 @@ metadata:
       - workflow
       - workflow-engine
       - workflow-orchestration
-    last_checked_at: "2026-05-05T21:01:05.337Z"
+    last_checked_at: "2026-05-06T22:12:39.689Z"
     readme:
-      fetched_at: "2026-05-05T21:01:05.337Z"
+      fetched_at: "2026-05-06T22:12:39.689Z"
       bytes: 38106
 insights:
-  summary: Apache Airflow is a platform to programmatically author, schedule, and monitor workflows using Python-defined DAGs.
-  why_it_matters: It remains the industry-standard backbone for orchestrating complex data pipelines, MLOps lifecycles, and batch processing jobs that modern AI systems depend on.
-  mental_damage: We have reached a point where the 'AI workflow' is often just a very fancy way of scheduling a Python script that calls an API, and Airflow is still the king of knowing exactly when that script failed at 3 AM.
+  summary: Apache Airflow is a platform to programmatically author, schedule, and monitor data pipelines and workflows.
+  why_it_matters: It provides the standard DAG-based orchestration layer used to schedule and observe data, ML, and automation workflows at scale.
+  mental_damage: You will spend weeks modeling your pipelines as YAML-friendly Python just to discover that your AI agent now needs its own daily ETL job to stay context-aware.
   tags:
-    - data-engineering
-    - mlops
-    - orchestration
+    - airflow
+    - workflow-orchestration
+    - data-pipelines
     - python
-    - workflow
+    - scheduler
   confidence: high
 curation:
   status: excluded
-  reason: Airflow is a general-purpose data/workflow orchestration framework, not a tool that assists developers with AI coding, spec generation, or agent orchestration.
+  reason: Although Airflow appears in some AI/LLMOps lists, it is a general-purpose data and workflow orchestration platform with no meaningful AI-native developer-tooling identity for this catalog.
   evidence:
-    - Repo description defines it as a platform to author, schedule, and monitor workflows, targeting data engineering and ETL.
-    - Topics include 'data-engineering', 'elt', and 'orchestration', with no mention of AI-assisted coding or prompt-based development.
-    - Source-list context places it in 'Developer Tools' or 'Workflow' sections for infrastructure, not AI coding assistants.
+    - Repo description and README define it as a generic workflow orchestration platform, not an AI developer tool.
+    - Topics and homepage focus on ETL, data engineering, and scheduling rather than AI coding, agents, or prompt engineering.
+    - Appears in awesome-mcp-servers and Awesome-LLMOps only as a general platform, not as an MCP-first or AI-first product.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (45288) exceeded threshold (150)
+  reason: Stars (45304) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:26.594Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:05.337Z"
+    updated_at: "2026-05-06T22:12:39.689Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:33.886Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

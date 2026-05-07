@@ -1,13 +1,13 @@
 id: github__openbmb__chatdev
 kind: github-repo
-name: ChatDev
+name: chatdev
 canonical_url: https://github.com/openbmb/chatdev
 identity:
   github_repo: openbmb/chatdev
 provenance:
   discoveries:
     - id: discovery__github__openbmb__chatdev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 32992
-    forks: 4086
+    stars: 33011
+    forks: 4089
     license: Apache-2.0
     archived: false
     created_at: "2023-08-28T02:18:13Z"
@@ -32,49 +32,49 @@ metadata:
     description: "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration"
     homepage: https://arxiv.org/abs/2307.07924
     topics: []
-    last_checked_at: "2026-05-05T21:04:04.236Z"
+    last_checked_at: "2026-05-06T22:45:41.283Z"
     readme:
-      fetched_at: "2026-05-05T21:04:04.236Z"
+      fetched_at: "2026-05-06T22:45:41.283Z"
       bytes: 23621
 insights:
-  summary: ChatDev 2.0 (DevAll) is a zero-code multi-agent orchestration platform that allows users to build and execute customized multi-agent systems for tasks like software development, data visualization, and research through simple configuration.
-  why_it_matters: It provides a structured framework for developers to experiment with and deploy multi-agent collaboration patterns—such as virtual software companies with CEO/CTO/Programmer roles—without necessarily writing the underlying orchestration code themselves.
-  mental_damage: We have successfully evolved from 'vibe coding' to 'vibe managing' a virtual C-suite of LLMs that argue about your PR before the human reviewer even opens it.
+  summary: ChatDev 2.0 (DevAll) is a zero-code multi-agent orchestration platform that allows users to build and execute customized multi-agent systems for tasks ranging from software development to data visualization and deep research.
+  why_it_matters: It provides a structured environment to coordinate specialized AI agents (like CEO, CTO, and Programmer) to automate complex workflows without requiring the developer to write the underlying orchestration code.
+  mental_damage: "Just what we needed: a virtual software company with a CEO agent so we can finally experience being micromanaged by a large language model."
   tags:
-    - llm
     - multi-agent
     - orchestration
-    - zero-code
+    - automation
+    - llm
   confidence: high
 curation:
   status: included
-  reason: The project has evolved into a user-facing platform for orchestrating multiple agents and tasks, which fits the operational control plane definition of agent-orchestration rather than a repo-editing coding agent.
+  reason: The project explicitly identifies as a 'Zero-Code Multi-Agent Platform' and 'comprehensive multi-agent orchestration platform' rather than a direct coding assistant.
   evidence:
-    - README states ChatDev 2.0 is a 'Zero-Code Multi-Agent Platform' for building and executing customized multi-agent systems through configuration.
-    - The platform supports orchestrating complex scenarios like data visualization and deep research, moving beyond just the v1.0 'Virtual Software Company' code generation.
-    - Listed in the awesome-ai-agents list under 'ChatDev', confirming ecosystem relevance in agent collaboration.
+    - "Repo description states: 'Dev All through LLM-powered Multi-Agent Collaboration'."
+    - README claims ChatDev 2.0 is a 'Zero-Code Multi-Agent Platform' for orchestrating agents across various scenarios like data visualization and 3D generation.
+    - Canonical positive listed in category definition for agent-orchestration is 'ChatDev'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (32992) exceeded threshold (150)
+  reason: Stars (33011) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:32.671Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:04.236Z"
+    updated_at: "2026-05-06T22:45:41.283Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:21.727Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

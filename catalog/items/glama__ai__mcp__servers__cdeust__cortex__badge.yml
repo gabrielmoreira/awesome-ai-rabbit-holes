@@ -1,12 +1,12 @@
 id: glama__ai__mcp__servers__cdeust__cortex__badge
 kind: website
-name: "![badge"
+name: badge
 canonical_url: https://glama.ai/mcp/servers/cdeust/Cortex/badge
 identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__mcp__servers__cdeust__cortex__badge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,43 +35,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Model Context Protocol (MCP) server implementation for the Cortex memory system, listed among community server implementations.
-  why_it_matters: It allows MCP-compatible assistants to interface with Cortex, extending their memory capabilities with another backend option.
-  mental_damage: We now have a protocol for the tools that help the AI remember which protocol we are currently using to talk to the tools.
+  summary: A badge/link asset pointing to an MCP server entry for Cortex within the Glama MCP server directory.
+  why_it_matters: It provides a quick visual indicator for projects or documentation to signal that a Cortex MCP server is available and discoverable via Glama.
+  mental_damage: We now have badges for the discovery pages of protocols that help us discover the tools we forgot we installed.
   tags:
-    - context
     - mcp
-    - memory
-    - server
-  confidence: medium
+    - badge
+    - directory
+    - discovery
+  confidence: high
 curation:
-  status: included
-  reason: This is a specific server implementation for the Model Context Protocol, fitting cleanly into the MCP infrastructure category.
+  status: excluded
+  reason: This is an auxiliary badge/link asset pointing to a directory entry, not a standalone product, server, registry, or developer tool.
   evidence:
-    - URL path is 'glama.ai/mcp/servers/cdeust/Cortex/badge', identifying it as an MCP server.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Knowledge & Memory'.
-    - Related to 'Cortex', implying a memory/knowledge system integration via MCP.
+    - URL resolves to a badge endpoint on glama.ai for a specific MCP server entry
+    - No repo description, README, or product substance provided beyond the directory link
+    - Listed in awesome-mcp-servers as a server implementation, but the URL itself is just a badge asset
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:58.640Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:28.975Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

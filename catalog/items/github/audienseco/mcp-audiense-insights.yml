@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__audienseco__mcp-audiense-insights__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,27 +34,28 @@ metadata:
     topics:
       - mcp
       - modelcontextprotocol
-    last_checked_at: "2026-05-05T21:01:11.866Z"
+    last_checked_at: "2026-05-06T22:12:45.236Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.866Z"
+      fetched_at: "2026-05-06T22:12:45.236Z"
       bytes: 8093
 insights:
-  summary: An archived MCP server that lets Claude and other MCP-compatible clients interact with Audiense Insights to pull marketing and audience analysis data.
-  why_it_matters: It exposes marketing audience insights—demographics, influencers, and content engagement—directly into developer and AI agent workflows via the Model Context Protocol.
-  mental_damage: We have successfully reached the point where even social media marketing analytics need their own protocol server, just in case your coding agent wants to optimize a Twitter bio mid-sprint.
+  summary: An archived MCP server that lets Claude and other MCP-compatible clients pull marketing insights, audience demographics, and influencer data from Audiense Insights accounts.
+  why_it_matters: It demonstrates how MCP can connect LLMs to niche SaaS APIs, allowing developers to prototype marketing-analytics workflows without writing custom glue code.
+  mental_damage: We have successfully abstracted away the last barrier between a developer and extracting Twitter influencer affinity scores via a deprecated Node server.
   tags:
     - mcp
     - marketing
     - analytics
     - audiense
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and explicitly deprecated by the authors, who have migrated the functionality to a remote MCP, making this codebase unsuitable for inclusion.
+  reason: The repository is explicitly archived and deprecated by the maintainers, who have migrated the functionality to a remote MCP model, meaning this codebase is no longer a usable or maintained developer tool.
   evidence:
-    - Repo is marked as archived on GitHub.
-    - README includes a prominent deprecation notice stating the server has been migrated to a remote model.
-    - 19 stars and niche marketing focus outside core developer tooling scope.
+    - Repo description confirms it is an MCP server for Audiense Insights.
+    - README contains a 'Deprecated' warning stating the repo is no longer maintained and the functionality migrated to a remote model.
+    - GitHub metadata shows the repo is archived.
 placement:
   primary_category: null
   section: null
@@ -64,19 +65,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.866Z"
+    updated_at: "2026-05-06T22:12:45.236Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:27.028Z"
+    updated_at: "2026-05-06T22:22:43.919Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexey-pelykh__lhremote__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,11 +25,11 @@ provenance:
 metadata:
   github:
     stars: 4
-    forks: 7
+    forks: 8
     license: AGPL-3.0
     archived: false
     created_at: "2026-01-31T08:13:23Z"
-    pushed_at: "2026-05-05T18:39:22Z"
+    pushed_at: "2026-05-06T22:07:30Z"
     description: CLI and MCP server for LinkedHelper automation — let AI assistants control LinkedIn outreach
     homepage: https://lhremote.org
     topics:
@@ -42,49 +42,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-05-05T21:00:58.443Z"
+    last_checked_at: "2026-05-06T22:12:33.576Z"
     readme:
-      fetched_at: "2026-05-05T21:00:58.443Z"
+      fetched_at: "2026-05-06T22:12:33.576Z"
       bytes: 49888
 insights:
-  summary: A CLI and MCP server that lets AI assistants control LinkedHelper to automate LinkedIn outreach, campaign management, and profile engagement.
-  why_it_matters: Developers building AI-driven sales or recruiting workflows can expose 68 LinkedIn automation tools to Claude and other MCP clients without writing custom browser scripts.
-  mental_damage: "We have finally achieved the singularity: an AI assistant that can politely endorse your skills and send connection requests while you debug why the MCP server has more stars than the campaign has replies."
+  summary: A CLI and MCP server that lets AI assistants like Claude control LinkedHelper to automate LinkedIn outreach campaigns, profile enrichment, and engagement actions.
+  why_it_matters: It turns a desktop LinkedIn automation tool into a programmable surface so developers can orchestrate outbound workflows directly from their AI coding environment.
+  mental_damage: "We have finally automated the one human interaction developers were already famously great at: sending connection requests on LinkedIn."
   tags:
     - mcp
     - linkedin
-    - cli
     - automation
+    - cli
+    - marketing
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that exposes LinkedHelper automation tools to AI assistants, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that exposes LinkedHelper automation as tools for AI assistants, fitting cleanly as a domain-specific MCP server rather than a generic extension or framework.
   evidence:
-    - Repo description states it is a 'CLI and MCP server for LinkedHelper automation'.
-    - README demonstrates 68 tools exposed via MCP for Claude Desktop integration.
-    - Listed under 'Server Implementations > Marketing' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation — let AI assistants control LinkedIn outreach'.
+    - README documents 68 MCP tools for campaigns, messaging, profile queries, and LinkedIn engagement exposed to Claude Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Marketing, confirming domain-server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:58.443Z"
+    updated_at: "2026-05-06T22:12:33.576Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:24.561Z"
+    updated_at: "2026-05-06T22:20:21.575Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,0 +1,77 @@
+id: datawhalechina__github__io__llm__cookbook
+kind: website
+name: llm-cookbook
+canonical_url: https://datawhalechina.github.io/llm-cookbook
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__datawhalechina__github__io__llm__cookbook__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《面向开发者的LLM入门教程》
+        extracted_url: https://datawhalechina.github.io/llm-cookbook
+        surrounding_text: 15. [《面向开发者的LLM入门教程》](https://datawhalechina.github.io/llm-cookbook/#/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language introductory tutorial and resource hub for developers learning to use Large Language Models.
+  why_it_matters: It aggregates the world's best LLM resources, covering everything from model training to辅助编程 (assisted programming) for developers entering the ecosystem.
+  mental_damage: Another shining beacon assuring developers that if they just read one more curated guide, they will finally understand the rapidly shifting ground beneath their feet.
+  tags:
+    - llm
+    - tutorial
+    - resources
+    - chinese
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is an educational tutorial and resource list for learning LLMs, not a developer-facing tool, agent, or infrastructure product.
+  evidence:
+    - Title explicitly states '面向开发者的LLM入门教程' (Introduction to LLM for Developers).
+    - Source list context identifies it as a '资料总结' (resource summary/tutorial) rather than a software tool.
+    - Lacks repo description, code artifacts, or a product identity suitable for a tooling catalog.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:52.177Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

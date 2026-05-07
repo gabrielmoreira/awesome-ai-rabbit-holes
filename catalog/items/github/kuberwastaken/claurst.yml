@@ -1,13 +1,13 @@
 id: github__kuberwastaken__claurst
 kind: github-repo
-name: Claurst
+name: claurst
 canonical_url: https://github.com/kuberwastaken/claurst
 identity:
   github_repo: kuberwastaken/claurst
 provenance:
   discoveries:
     - id: discovery__github__kuberwastaken__claurst__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,59 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9495
-    forks: 7815
+    stars: 9511
+    forks: 7822
     license: GPL-3.0
     archived: false
     created_at: "2026-03-31T09:23:58Z"
-    pushed_at: "2026-05-05T19:17:08Z"
+    pushed_at: "2026-05-06T10:56:58Z"
     description: Your favorite Terminal Coding Agent, now in Rust
     homepage: http://claurst.kuber.studio/
     topics: []
-    last_checked_at: "2026-05-05T21:03:09.039Z"
+    last_checked_at: "2026-05-06T22:44:46.096Z"
     readme:
-      fetched_at: "2026-05-05T21:03:09.039Z"
+      fetched_at: "2026-05-06T22:44:46.096Z"
       bytes: 6462
 insights:
-  summary: A terminal-based AI coding agent built in Rust that supports over 30 AI providers and offers a TUI for pair programming, memory consolidation, and managed agent loops.
-  why_it_matters: It provides a fast, local, and privacy-focused alternative to cloud-first coding assistants with the flexibility to swap between nearly any major LLM provider.
-  mental_damage: We have successfully reached the point where the cutting-edge developer experience is a crab in a terminal yelling at you in caveman mode while it rewrites your codebase in Rust.
+  summary: Claurst is an open-source, terminal-based coding agent built in Rust that reimplements Claude Code's behavior with multi-provider support, a TUI interface, and experimental managed agent orchestration.
+  why_it_matters: It offers developers a fast, memory-efficient, and telemetry-free CLI pair programmer that supports 30+ AI providers while remaining fully local and extensible.
+  mental_damage: We have successfully reached the phase of the timeline where we are rewriting leaked npm source maps in Rust to build terminal crabs that argue with us about code.
   tags:
-    - cli-agent
-    - multi-provider
+    - terminal-agent
     - rust
-    - terminal
+    - cli
+    - multi-provider
     - tui
   confidence: high
 curation:
   status: included
-  reason: The project is a terminal-native coding agent that collaborates directly on source code in the CLI, fitting the coding-agents category and its specific terminal section.
+  reason: Claurst is a standalone terminal coding assistant that directly plans, writes, and edits code across a repo, fitting the primary identity of a coding agent rather than an extension or framework.
   evidence:
-    - "Repo description explicitly states: 'Your favorite Terminal Coding Agent, now in Rust.'"
-    - README confirms it is a 'multi-provider terminal coding agent' and 'TUI pair programmer' for editing code.
-    - Included in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents > Open Source'.
+    - Repo description explicitly calls it 'Your favorite Terminal Coding Agent, now in Rust'.
+    - README states it is a 'multi-provider terminal coding agent' and 'TUI pair programmer' that reads and edits code.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (9495) exceeded threshold (150)
+  reason: Stars (9511) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:34.782Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:09.039Z"
+    updated_at: "2026-05-06T22:44:46.096Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:52.075Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

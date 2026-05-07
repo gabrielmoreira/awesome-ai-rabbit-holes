@@ -1,13 +1,13 @@
 id: github__aaronjmars__aeon
 kind: github-repo
-name: Aeon
+name: aeon
 canonical_url: https://github.com/aaronjmars/aeon
 identity:
   github_repo: aaronjmars/aeon
 provenance:
   discoveries:
     - id: discovery__github__aaronjmars__aeon__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,62 +24,61 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 271
-    forks: 41
+    stars: 276
+    forks: 44
     license: MIT
     archived: false
     created_at: "2026-03-04T19:44:49Z"
-    pushed_at: "2026-05-05T11:32:18Z"
+    pushed_at: "2026-05-06T11:38:52Z"
     description: The most autonomous agent framework. No approval loops. No babysitting. Configure once, forget forever.
     homepage: https://x.com/aeonframework
     topics:
       - aeon
       - ai-agents
       - claude-code
-    last_checked_at: "2026-05-05T21:00:45.781Z"
+    last_checked_at: "2026-05-06T22:12:22.115Z"
     readme:
-      fetched_at: "2026-05-05T21:00:45.781Z"
+      fetched_at: "2026-05-06T22:12:22.115Z"
       bytes: 22515
 insights:
-  summary: Aeon is a self-hosted autonomous agent framework that runs unattended on a schedule, manages its own skills, and performs recurring developer tasks like PR reviews and research without interactive approval loops.
-  why_it_matters: It lets developers configure recurring CI-adjacent workflows—such as market monitoring, security scans, and morning briefs—to run autonomously on GitHub Actions without human intervention.
-  mental_damage: We’ve successfully automated the approval loops away, which means the only thing left for developers to do is anxiously check Telegram at 3 AM to see if the autonomous system has decided to refactor the entire repo.
+  summary: Aeon is an autonomous agent framework that runs unattended on a schedule, leveraging skills like deep research and PR reviews to complete tasks without human approval loops.
+  why_it_matters: It lets developers configure recurring tasks—such as morning briefs, security scans, and market monitoring—to run autonomously on GitHub Actions without requiring interactive supervision.
+  mental_damage: We have finally built the 'set it and forget it' agent, which means the only thing left to debug at 3 AM is why the agent decided your production PR was a suitable place to practice its autonomous market analysis.
   tags:
-    - agents
-    - autonomous
-    - cli
+    - autonomous-agents
+    - scheduled-tasks
+    - claude-code
     - github-actions
-    - scheduling
   confidence: high
 curation:
   status: included
-  reason: Fits cleanly as a CLI-based autonomous coding agent that operates on repos and tasks without interactive babysitting, matching the awesome-cli-coding-agents source context.
+  reason: The product is a developer-facing autonomous agent that orchestrates tasks like PR reviews and research digests using its own framework and skill system, fitting the terminal/CLI coding agent profile.
   evidence:
-    - Repo description explicitly calls it 'the most autonomous agent framework' with no approval loops.
-    - Source list includes it under awesome-cli-coding-agents → Harnesses & orchestration > Orchestrators & autonomous loops.
-    - README positions it as a system that handles PR reviews, deploys, and research digests on a schedule via GitHub Actions.
+    - "Repo description states: 'The most autonomous agent framework. No approval loops. No babysitting.'"
+    - README explicitly compares itself to Claude Code and positions Aeon as an autonomous system you 'configure and walk away from.'
+    - Source list 'awesome-cli-coding-agents' includes it under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (271) exceeded threshold (150)
+  reason: Stars (276) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:17.382Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:45.781Z"
+    updated_at: "2026-05-06T22:12:22.115Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:18:05.503Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

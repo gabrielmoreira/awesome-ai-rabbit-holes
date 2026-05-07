@@ -1,0 +1,23 @@
+{#
+Template: docs-readme.njk
+Purpose: Render the generated repository README.md landing page for the catalog.
+Executed by: scripts/catalog/render.ts -> renderReadme() during `catalog:render` and `catalog:sync`.
+Receives:
+- rabbitHoles: Array<{ name, slug, description }>
+#}
+# Awesome AI Rabbit Holes
+
+A never-complete, already-outdated catalog of AI agents, tools, workflows, and rabbit holes for people who keep asking: "Am I behind?", "Is everyone else already using this?", "Should I rebuild my workflow again?", "Was this obvious to everyone but me?", and "Is this curiosity, productivity, anxiety, impostor syndrome, or just the slow road to burnout?"
+
+Come for the tools. Stay for the FOMO, impostor syndrome, anxiety, and occasional reminder that you probably do not need to rebuild your entire workflow again today.
+
+## How to use this repo
+
+Do not try to read everything.
+
+Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous, then stop.
+
+## Rabbit Holes
+
+{% for rabbitHole in rabbitHoles %}- [{{ rabbitHole.name }}](docs/rabbit-holes/{{ rabbitHole.slug }}.md) — {{ rabbitHole.description }}
+{% endfor %}

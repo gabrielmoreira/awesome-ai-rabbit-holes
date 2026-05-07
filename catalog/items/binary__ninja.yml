@@ -1,12 +1,12 @@
 id: binary__ninja
 kind: website
-name: Binary Ninja
+name: binary.ninja
 canonical_url: https://binary.ninja
 identity: {}
 provenance:
   discoveries:
     - id: discovery__binary__ninja__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Binary Ninja is a commercial interactive decompiler, disassembler, and binary analysis platform for reverse engineers, featuring scripting APIs and optional AI-assisted analysis.
-  why_it_matters: It provides developers working on reverse engineering with a scriptable environment to automate binary analysis using C++, Python, or Rust, and includes AI features to accelerate understanding.
-  mental_damage: Just when you thought your job was safe from AI, it's now helping reverse engineers decompile binaries faster, leaving you with even fewer excuses for not understanding that legacy firmware.
+  summary: Binary Ninja is a commercial, interactive reverse engineering platform combining a disassembler, decompiler, debugger, and binary analysis tool with scripting support for C++, Python, and Rust.
+  why_it_matters: It provides a scriptable environment for deep binary analysis and includes optional AI-assisted features to accelerate reverse engineering workflows.
+  mental_damage: Now you can add 'evaluating AI decompiler output for subtle instruction translation bugs' to the list of things you didn't have time to do before.
   tags:
-    - ai-assisted
-    - binary-analysis
-    - decompiler
     - reverse-engineering
+    - decompiler
+    - binary-analysis
+    - security
   confidence: high
 curation:
   status: excluded
-  reason: The primary product is a reverse engineering platform for binary analysis, not a developer-facing AI tool for coding, app building, or workflow automation within the software development lifecycle.
+  reason: Binary Ninja is a traditional reverse engineering and security analysis platform; its AI features are secondary accelerators, and it lacks the MCP server identity required for inclusion via the awesome-mcp-servers list.
   evidence:
-    - Scraped site context describes it as 'an interactive decompiler, disassembler, debugger, and binary analysis platform' for reverse engineers.
-    - "The only AI mention is a supplementary feature: 'Accelerate analysis and optimize understanding through extra AI-powered features.'"
-    - Found in awesome-mcp-servers context, but the product itself is a standalone reverse engineering tool, not an MCP server or primary AI developer tool.
+    - The scraped site describes it as a 'modern reverse engineering platform with a scriptable and extensible decompiler', not an MCP tool.
+    - The source list entry in awesome-mcp-servers merely references the tool, but the product itself is a standalone binary analysis suite, not MCP infrastructure.
+    - The primary workflow is reverse engineering and debugging binaries, which falls outside the catalog's focus on AI coding agents, app builders, and developer AI infrastructure.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:30.170Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:39.793Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__betterdb-inc__monitor__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 307
+    stars: 310
     forks: 47
     license: NOASSERTION
     archived: false
@@ -39,50 +39,50 @@ metadata:
       - prometheus
       - redis
       - valkey
-    last_checked_at: "2026-05-05T21:01:19.636Z"
+    last_checked_at: "2026-05-06T22:12:51.795Z"
     readme:
-      fetched_at: "2026-05-05T21:01:19.636Z"
+      fetched_at: "2026-05-06T22:12:51.795Z"
       bytes: 17244
 insights:
-  summary: A self-hosted monitoring tool for Valkey and Redis with a NestJS backend, React frontend, and CLI for real-time metrics, slowlog analysis, and audit trails.
-  why_it_matters: It gives developers a dedicated, easy-to-deploy interface for observing and auditing Valkey/Redis performance without relying on generic infrastructure dashboards.
-  mental_damage: You now have a dedicated observability stack for your key-value store, because apparently the one thing our AI agents haven't automated yet is the anxiety of watching our cache hit ratio in real time.
+  summary: A self-hosted monitoring tool for Valkey and Redis databases with a NestJS backend, React frontend, and CLI for real-time observability, slowlog analysis, and audit trails.
+  why_it_matters: It offers developers a dedicated, self-contained observability stack for Valkey/Redis without requiring them to bolt generic infrastructure metrics into Prometheus.
+  mental_damage: Yet another neon-signaled ‘modern’ observability stack that proves the only thing we love monitoring more than our model hallucinations is our key-value cache hit ratio.
   tags:
-    - monitoring
-    - valkey
     - redis
+    - valkey
+    - monitoring
     - observability
-    - cli
+    - self-hosted
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional database monitoring and observability tool with no AI, agent, or prompt-driven workflow for developers.
+  reason: Excluded because it is a general-purpose database monitoring tool with no AI-specific developer workflow, agent integration, or model-facing functionality.
   evidence:
-    - Repo description and README describe real-time monitoring, slowlog analysis, and audit trails for Valkey/Redis with no mention of AI.
-    - Tech stack includes NestJS, React, and CLI tooling focused on database metrics, not AI-assisted development.
-    - Listed in awesome-mcp-servers, but the project itself is not an MCP server or AI tool; it is conventional observability infrastructure.
+    - Repo description and README focus entirely on Valkey/Redis metrics, slowlog analysis, and audit trails with no mention of AI, LLMs, or coding agents.
+    - Source-list context places it in awesome-mcp-servers, but the README contains no references to MCP, context protocol, or model integrations.
+    - Tech stack is a standard NestJS + React + CLI observability stack, which falls outside the catalog’s AI developer-tooling scope.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (307) exceeded threshold (150)
+  reason: Stars (310) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:19.636Z"
+    updated_at: "2026-05-06T22:12:51.795Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:37.363Z"
+    updated_at: "2026-05-06T22:24:02.689Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

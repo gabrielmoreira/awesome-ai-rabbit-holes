@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__facebookresearch__segment-anything__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 54088
-    forks: 6335
+    stars: 54092
+    forks: 6336
     license: Apache-2.0
     archived: false
     created_at: "2023-03-23T17:03:03Z"
@@ -33,49 +33,50 @@ metadata:
     description: The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:07.462Z"
+    last_checked_at: "2026-05-06T22:43:50.566Z"
     readme:
-      fetched_at: "2026-05-05T21:02:07.462Z"
+      fetched_at: "2026-05-06T22:43:50.566Z"
       bytes: 9621
 insights:
-  summary: A Meta AI research repository providing code and model checkpoints for the Segment Anything Model (SAM), a promptable foundation model for zero-shot image and video segmentation.
-  why_it_matters: It gives developers a high-quality, pre-trained foundation model and inference code to embed visual segmentation capabilities into applications without training custom models.
-  mental_damage: You now have 54,000 stars worth of anxiety wondering if your manual pixel-labelling script is the modern equivalent of writing your own HTTP server in C.
+  summary: A Meta AI repository providing code, model checkpoints, and example notebooks for running inference with the Segment Anything Model (SAM) for promptable image and video segmentation.
+  why_it_matters: It gives developers a foundation model and pip-installable toolkit to add zero-shot visual segmentation to apps without training custom models.
+  mental_damage: Yet another reminder that while we are debugging a React modal, the rest of the world is solving computer vision with a single prompt and a 1.1 billion mask dataset.
   tags:
     - computer-vision
     - foundation-model
-    - segmentation
-    - ml-models
+    - image-segmentation
+    - meta-ai
+    - sam
   confidence: high
 curation:
   status: excluded
-  reason: While a high-quality developer resource, it is a general ML research model for computer vision rather than a tool for coding workflows, agent orchestration, or app building.
+  reason: Excluded because it is a general computer vision foundation model and research artifact, not a developer-facing AI coding tool, agent, or workflow product.
   evidence:
-    - Repo description explicitly states it provides code for running inference with a CV model (SAM), not for software development tasks.
-    - README focuses on image/video segmentation, mask generation, and ONNX export for visual tasks, with no developer-tooling angle.
-    - Listed in Awesome-LLMOps under 'Model > CV Foundation Model', confirming its scope is ML infrastructure rather than developer productivity.
+    - Repo description and README focus on promptable visual segmentation and mask generation, not code editing or developer workflows.
+    - Source list context places it under 'Model > CV Foundation Model' in an LLMOps list, which is outside this catalog's scope.
+    - No evidence of coding assistance, agent orchestration, IDE integration, app building, or developer infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (54088) exceeded threshold (150)
+  reason: Stars (54092) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:07.462Z"
+    updated_at: "2026-05-06T22:43:50.566Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:58.139Z"
+    updated_at: "2026-05-06T22:55:21.782Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

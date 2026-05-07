@@ -6,8 +6,8 @@ identity:
   github_repo: commune-dev/awesome-agent-protocols
 provenance:
   discoveries:
-    - id: discovery__github__shanjai-raj__awesome-agent-protocols__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__commune-dev__awesome-agent-protocols__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -52,50 +52,50 @@ metadata:
       - protocols
       - sms
       - webhooks
-    last_checked_at: "2026-05-05T21:01:39.483Z"
+    last_checked_at: "2026-05-06T22:43:26.593Z"
     readme:
-      fetched_at: "2026-05-05T21:01:39.483Z"
+      fetched_at: "2026-05-06T22:43:26.593Z"
       bytes: 13011
 insights:
-  summary: A curated awesome list of protocols, SDKs, and tools for AI agent communication, covering email, MCP servers, webhooks, and inter-agent messaging.
-  why_it_matters: It serves as a centralized map for developers trying to connect agents across different communication layers, from email APIs to message queues.
-  mental_damage: Because nothing says 'robust ecosystem' like needing a curated directory just to figure out how your agents are supposed to say hello to one another.
+  summary: A curated list of protocols, SDKs, and tools for AI agent communication, covering email, MCP, webhooks, and inter-agent messaging.
+  why_it_matters: It provides a centralized discovery map for developers stitching together multi-agent systems that need to send email, use MCP servers, or route webhooks.
+  mental_damage: Yet another awesome list for an ecosystem that now requires a protocol just to figure out which protocols your agents should be using.
   tags:
-    - agents
     - awesome-list
-    - communication
+    - agent-protocols
     - mcp
-    - protocols
+    - multi-agent
+    - discovery
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list organizing AI tooling rather than a standalone tool or product experience itself.
+  reason: The project is a curated discovery list for agent communication protocols and tools, which fits the developer-facing navigation aid category.
   evidence:
-    - Repo description explicitly states 'Curated list of protocols for AI agent communication'.
-    - README is structured as an awesome list with sections for Email, MCP Servers, Webhooks, and Inter-Agent Protocols.
-    - Topics include 'awesome-list' and 'curated-list', confirming the directory nature of the project.
+    - "Repo description explicitly states: 'Curated list of protocols for AI agent communication'."
+    - README organizes tools into Email, MCP Servers, Webhooks, and Inter-Agent Protocols sections.
+    - Seen in source lists under 'awesome-agent-orchestration' as a 'Related Awesome List'.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:05.325Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:39.483Z"
+    updated_at: "2026-05-06T22:43:26.593Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:16.792Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

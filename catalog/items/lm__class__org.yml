@@ -1,0 +1,76 @@
+id: lm__class__org
+kind: website
+name: lm-class.org
+canonical_url: https://lm-class.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lm__class__org__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: LM-class
+        extracted_url: https://lm-class.org/lectures
+        surrounding_text: 33. [LM-class](https://lm-class.org/lectures)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LM-class is a structured educational course and lecture series covering the fundamentals of contemporary language modeling, from n-gram models to LLMs and instruction tuning.
+  why_it_matters: It provides a coherent, assignment-driven curriculum for developers who want to deeply understand the internals of language models rather than just calling them via API.
+  mental_damage: Yet another pristine curriculum to bookmark while you frantically paste Stack Overflow snippets into an LLM chat window and call it 'upskilling'.
+  tags:
+    - education
+    - llm
+    - course
+    - machine-learning
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is an educational course and lecture series, not a practical AI tool, agent, workflow, or developer-facing infrastructure.
+  evidence:
+    - Scraped site context explicitly describes it as 'an education resource for contemporary language modeling'.
+    - Source-list context places it in a 'Course' section within an LLM resources list, not a tooling directory.
+    - The content is organized into lectures and assignments (perceptrons, word2vec, transformers) rather than shipping a usable product or integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:13.922Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

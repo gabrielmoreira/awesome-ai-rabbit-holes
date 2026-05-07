@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adityaaery20__media-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:49.597Z"
+    last_checked_at: "2026-05-06T22:12:25.450Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.597Z"
+      fetched_at: "2026-05-06T22:12:25.450Z"
       bytes: 4701
 insights:
-  summary: A locally run MCP server that exposes image and video processing operations (resize, convert, compress, crop, filter, analyze) to AI assistants via the Model Context Protocol.
-  why_it_matters: Developers can delegate routine media manipulation tasks to their AI coding assistant directly inside the IDE, removing the need to context-switch to separate tools or write one-off scripts.
-  mental_damage: We have officially reached the point where an AI agent needs its own dedicated server just to safely resize a JPEG without hallucinating the dimensions.
+  summary: A minimal MCP server that gives AI assistants local image and video processing tools like resize, convert, compress, and metadata stripping with no API keys or configuration.
+  why_it_matters: Developers can delegate routine media tasks directly to their coding assistant instead of leaving the IDE to run ImageMagick or FFmpeg by hand.
+  mental_damage: We have successfully reached the point where your AI needs its own ffmpeg wrapper so you don't have to remember what a pixel is.
   tags:
     - mcp
     - media-processing
-    - developer-tools
-    - local-first
-  confidence: medium
+    - local-tools
+    - image
+    - video
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that integrates with Claude, Cursor, and VS Code, making it a clear fit for the MCP Servers and Tooling category.
+  reason: "MCP is the product identity: a lightweight, zero-config MCP server purpose-built to expose media processing tools to any MCP-compatible client."
   evidence:
-    - README states it is an 'MCP server for image & video processing' designed to work with Claude Desktop, Cursor, and VS Code.
-    - Source-list context confirms inclusion in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
-    - Project is newly created and active (pushed 2026-03-19) with a clear focus on the MCP protocol.
+    - README explicitly brands itself as 'MCP server for image & video processing' with MCP-native setup instructions.
+    - Supports Claude Desktop, Claude Code, Cursor, VS Code, Windsurf via standard MCP config and uvx launch.
+    - Included in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:49.597Z"
+    updated_at: "2026-05-06T22:12:25.450Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:54.824Z"
+    updated_at: "2026-05-06T22:18:42.574Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

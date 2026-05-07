@@ -1,13 +1,13 @@
 id: github__aimclub__fedot
 kind: github-repo
-name: FEDOT
+name: fedot
 canonical_url: https://github.com/aimclub/fedot
 identity:
   github_repo: aimclub/fedot
 provenance:
   discoveries:
-    - id: discovery__github__nccr-itmo__fedot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__aimclub__fedot__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -28,7 +28,7 @@ metadata:
     license: BSD-3-Clause
     archived: false
     created_at: "2020-01-13T12:48:37Z"
-    pushed_at: "2026-05-05T15:30:58Z"
+    pushed_at: "2026-05-06T14:42:51Z"
     description: Automated modeling and machine learning framework FEDOT
     homepage: https://fedot.readthedocs.io
     topics:
@@ -43,50 +43,50 @@ metadata:
       - multimodality
       - parameter-tuning
       - structural-learning
-    last_checked_at: "2026-05-05T21:03:51.967Z"
+    last_checked_at: "2026-05-06T22:12:31.269Z"
     readme:
-      fetched_at: "2026-05-05T21:03:51.967Z"
+      fetched_at: "2026-05-06T22:12:31.269Z"
       bytes: 17507
 insights:
   summary: FEDOT is an open-source AutoML framework that uses evolutionary algorithms to automatically design and optimize machine learning pipelines for classification, regression, clustering, and time series tasks.
-  why_it_matters: It allows developers to automate the complex generative design of ML pipelines, integrating with libraries like Scikit-learn and XGBoost while handling hyperparameter tuning and structural learning.
-  mental_damage: Another framework promising to automate the data scientist out of existence, provided you're comfortable letting an evolutionary algorithm decide your model architecture while you debug the resulting graph.
+  why_it_matters: It allows developers to automate complex ML pipeline design and hyperparameter tuning with a simple fit/predict API, integrating with popular libraries like Scikit-learn, CatBoost, and XGBoost.
+  mental_damage: Just when you thought your job was safe from AI assistants editing code, this framework arrives to prove that evolutionary algorithms can automate the modeling part too, leaving you to wonder if hyperparameter tuning was the only thing keeping you relevant.
   tags:
     - automl
+    - ml-pipelines
     - evolutionary-algorithms
     - machine-learning
-    - pipelines
-    - python
+    - optimization
   confidence: high
 curation:
-  status: included
-  reason: The project is a code-first SDK and framework for embedding automated ML pipeline generation into software, fitting the ai-frameworks definition rather than a developer-facing coding agent.
+  status: excluded
+  reason: FEDOT is a traditional automated machine learning framework for building data models, lacking the developer-facing coding assistance, agent orchestration, or AI-infrastructure focus required for this catalog.
   evidence:
-    - Repo description defines it as an 'Automated modeling and machine learning framework'.
-    - README confirms it is a framework providing a high-level Python API (pip install fedot) for building ML pipelines.
-    - Topics include 'automated-machine-learning', 'machine-learning', and 'evolutionary-algorithms', indicating a library/SDK nature.
+    - Repo description explicitly identifies it as an 'Automated modeling and machine learning framework', not a coding tool.
+    - README details a fit/predict API for classification, regression, and time series, with no mention of code editing, IDE integration, or LLM workflows.
+    - Source list placement is in 'AutoML' under an LLMOps list, indicating it is ML infrastructure rather than a developer productivity tool.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (704) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:02.463Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:51.967Z"
+    updated_at: "2026-05-06T22:12:31.269Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:56.672Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

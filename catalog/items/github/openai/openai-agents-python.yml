@@ -1,13 +1,13 @@
 id: github__openai__openai-agents-python
 kind: github-repo
-name: OpenAI Agents Python
+name: openai-agents-python
 canonical_url: https://github.com/openai/openai-agents-python
 identity:
   github_repo: openai/openai-agents-python
 provenance:
   discoveries:
     - id: discovery__github__openai__openai-agents-python__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25911
-    forks: 3955
+    stars: 25945
+    forks: 3977
     license: MIT
     archived: false
     created_at: "2025-03-11T03:42:36Z"
-    pushed_at: "2026-05-05T15:53:43Z"
+    pushed_at: "2026-05-06T12:48:13Z"
     description: A lightweight, powerful framework for multi-agent workflows
     homepage: https://openai.github.io/openai-agents-python/
     topics:
@@ -39,50 +39,50 @@ metadata:
       - llm
       - openai
       - python
-    last_checked_at: "2026-05-05T21:04:03.574Z"
+    last_checked_at: "2026-05-06T22:45:40.591Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.574Z"
+      fetched_at: "2026-05-06T22:45:40.591Z"
       bytes: 5995
 insights:
-  summary: A lightweight Python SDK for building multi-agent workflows with support for OpenAI models and 100+ other LLMs, featuring tools, guardrails, and tracing.
-  why_it_matters: It gives developers a structured, provider-agnostic way to compose agents, manage sessions, and observe complex LLM workflows without wiring everything from scratch.
-  mental_damage: Another framework enters the arena to solve multi-agent chaos, politely promising that this time orchestration won't require its own orchestration team.
+  summary: A lightweight Python SDK from OpenAI for building and orchestrating multi-agent workflows with support for over 100 LLM providers.
+  why_it_matters: Developers can define agents with specific instructions and tools, then delegate tasks across a managed workflow without building orchestration logic from scratch.
+  mental_damage: Just when you thought you were done rewriting your stack for the latest agent framework, OpenAI releases the 'official' way to do it, rendering your three-week-old AutoGen implementation a legacy system.
   tags:
-    - framework
-    - multi-agent
-    - openai
     - python
+    - multi-agent
     - sdk
+    - framework
+    - openai
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and importable framework for building agentic behavior, which matches ai-frameworks rather than a hosted control plane or a coding agent that edits repos directly.
+  reason: The repository is a code-first SDK and library that developers import to build agentic systems, fitting the definition of Frameworks & SDKs over an orchestration platform.
   evidence:
-    - "Repo description states: 'A lightweight, powerful framework for multi-agent workflows'"
-    - README explicitly presents it as an SDK with agents, tools, guardrails, sessions, and tracing for developers to import and use in Python code
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks', reinforcing its framework positioning
+    - Repo description explicitly calls it a 'lightweight, powerful framework'.
+    - README instructs users to 'pip install openai-agents' and import classes like Runner and Agent in Python code.
+    - Source list 'awesome-agent-orchestration' lists it under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25911) exceeded threshold (150)
+  reason: Stars (25945) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:23.827Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.574Z"
+    updated_at: "2026-05-06T22:45:40.591Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:09.758Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

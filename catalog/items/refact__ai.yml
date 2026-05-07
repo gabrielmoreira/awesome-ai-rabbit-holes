@@ -1,12 +1,12 @@
 id: refact__ai
 kind: website
-name: Refact.ai
+name: refact.ai
 canonical_url: https://refact.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__refact__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,40 +34,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source, autonomous AI coding agent that integrates with IDEs to automate coding, debugging, and testing tasks with full codebase context and on-premise deployment options.
-  why_it_matters: It offers developers a self-hosted alternative to Cursor and Copilot that can autonomously plan and execute coding tasks directly within their existing IDE workflow.
-  mental_damage: Another existential milestone where the 'vibe coding' approach promises a digital twin that handles 95% of the work while you perfect the art of prompt ping-pong.
+  summary: Refact.ai is an autonomous AI coding agent that integrates with IDEs to plan, write, debug, and test code across a repository with context awareness and on-premise deployment options.
+  why_it_matters: It offers developers a self-hosted, open-source alternative to Cursor and Copilot that can automate end-to-end coding tasks while keeping codebases private.
+  mental_damage: Another 'vibe coding' agent promising to turn 80 hours of work into 30 minutes, ensuring you'll spend those saved hours frantically prompting to fix what the agent broke.
   tags:
-    - autonomous-agent
-    - code-completion
-    - ide
+    - coding-agent
+    - ide-extension
     - self-hosted
+    - autonomous
+    - on-premise
   confidence: high
 curation:
   status: included
-  reason: Refact.ai is a developer-facing coding agent that directly plans, writes, edits, and debugs code inside a repo and IDE workflow, fitting the coding-agents category perfectly.
+  reason: Refact.ai is a primary coding assistant that developers delegate repo work to directly within their IDE, fitting the core definition of a coding agent rather than an extension or framework.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Code Completion' as an open-source alternative to Cursor and Copilot.
-    - Product description explicitly states it is 'Your Open-Source, Autonomous AI Agent' that works 'like another developer in your IDE'.
-    - Integrates with VS Code, JetBrains, Neovim, and other IDEs to handle autonomous coding, debugging, and testing tasks.
+    - Describes itself as an 'open-source alternative to Cursor and Copilot' with an 'Autonomous AI agent' that plans, executes, and deploys.
+    - Integrates directly into VS Code, JetBrains, and other IDEs as the primary assistant surface for chat, code completion, and task automation.
+    - Included in awesome-ai-coding-tools under the 'Code Completion' section as a core coding tool.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:28.335Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -76,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:53.247Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

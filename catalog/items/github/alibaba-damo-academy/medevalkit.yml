@@ -1,13 +1,13 @@
 id: github__alibaba-damo-academy__medevalkit
 kind: github-repo
-name: MedEvalKit
+name: medevalkit
 canonical_url: https://github.com/alibaba-damo-academy/medevalkit
 identity:
   github_repo: alibaba-damo-academy/medevalkit
 provenance:
   discoveries:
     - id: discovery__github__alibaba-damo-academy__medevalkit__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,50 +36,49 @@ metadata:
       - llm
       - medicalai
       - multimodal
-    last_checked_at: "2026-05-05T21:00:59.223Z"
+    last_checked_at: "2026-05-06T22:12:34.515Z"
     readme:
-      fetched_at: "2026-05-05T21:00:59.223Z"
+      fetched_at: "2026-05-06T22:12:34.515Z"
       bytes: 6889
 insights:
-  summary: MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models across a wide range of healthcare datasets and supported model architectures.
-  why_it_matters: It gives developers building medical AI a single harness to plug in new models, run standardized medical benchmarks, and compare results without stitching together disjointed eval scripts.
-  mental_damage: Because nothing says practical developer tooling like needing flash-attn, open_clip_torch, and an entire cloned LLaVA-NeXT repo just to find out your medical model still can’t read an X-ray.
+  summary: MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks.
+  why_it_matters: It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
+  mental_damage: Now you can quantitatively prove that your hallucination-prone medical chatbot is, in fact, slightly less wrong than the other one on a very specific subset of PubMedQA.
   tags:
-    - benchmark
-    - evaluation
-    - llm
+    - evals
     - medical-ai
-    - multimodal
+    - benchmarking
+    - llm-eval
   confidence: high
 curation:
   status: included
-  reason: This is an evaluation harness and benchmark framework for medical LLMs/MLLMs, which fits squarely into the Evaluations and Benchmarks category.
+  reason: The core identity of the project is a framework for measuring and scoring model behavior on medical benchmarks, which fits the Evals & Benchmarks category perfectly.
   evidence:
-    - "Repo description: 'MedEvalKit: A Unified Medical Evaluation Framework'"
-    - README states it is 'A comprehensive evaluation framework for Large Medical Models (LMMs/LLMs) in the healthcare domain.'
-    - Seen in awesome-LLM-resources under the section '评估 Evaluation'
+    - "Repo description explicitly states: 'MedEvalKit: A Unified Medical Evaluation Framework'."
+    - "README confirms the job is evaluation: 'A comprehensive evaluation framework for Large Medical Models (LMMs/LLMs)'."
+    - Included in awesome-LLM-resources under the section '评估 Evaluation'.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (228) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:31.569Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:59.223Z"
+    updated_at: "2026-05-06T22:12:34.515Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:34.423Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

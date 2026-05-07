@@ -1,12 +1,12 @@
 id: askpandi__com
 kind: website
-name: Ask Pandi
+name: askpandi.com
 canonical_url: https://askpandi.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__askpandi__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A generic Q&A web app that lets users search for answers and discover curated content.
-  why_it_matters: It doesn't, unless your definition of 'developer tooling' includes asking a web form why your build is failing.
-  mental_damage: We have officially reached the point where 'Ask Anything' sites are being filed under autonomous agent directories.
+  summary: A consumer-facing Q&A web app promising personalized feeds and knowledge discovery without any visible developer tooling surface.
+  why_it_matters: It doesn't — despite appearing in an AI agents list, the product itself is a generic 'ask anything' knowledge platform rather than a coding assistant.
+  mental_damage: We have officially reached the point where a website that says 'Sign Up' and 'Discover new content' qualifies as an autonomous AI agent in a curated developer directory.
   tags:
     - qa
-    - search
-    - web-app
+    - knowledge-base
+    - consumer-app
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose consumer Q&A product with no developer-facing workflow, IDE integration, or code-generation capability.
+  reason: The product is a consumer Q&A and content discovery platform with no developer-facing tooling, coding capabilities, or repo-editing workflow.
   evidence:
-    - Scraped site context describes 'Accurate Answers, Endless Wonder' and 'Search for answers', targeting general users rather than developers.
-    - Listed in awesome-ai-agents under 'Ask Anything', but the linked page shows no agentic logic or coding features.
-    - No repo description, README, or technical context provided to suggest it is a tool for software development.
+    - Scraped site excerpt shows only 'Sign Up Log In', 'Search for answers', and 'Discover new content curated for you' with no developer or coding features.
+    - Primary page title and description are 'Pandi - Accurate Answers, Endless Wonder' and 'Ask Anything', indicating a generic consumer knowledge product.
+    - Listed in awesome-ai-agents only as 'Ask Anything' with no indication of coding, agent orchestration, or developer workflow integration.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:03.971Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:11.952Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidlee__spec-driver__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -39,50 +39,49 @@ metadata:
       - spec-driven
       - spec-driven-development
       - tui
-    last_checked_at: "2026-05-05T21:01:48.248Z"
+    last_checked_at: "2026-05-06T22:43:34.308Z"
     readme:
-      fetched_at: "2026-05-05T21:01:48.248Z"
+      fetched_at: "2026-05-06T22:43:34.308Z"
       bytes: 9394
 insights:
-  summary: A CLI and TUI toolkit that provides a specification-driven workflow and project-local skills to help Claude Code, Codex, and similar agents build and maintain evergreen specs inside a repo.
-  why_it_matters: It gives developers a structured spec-first loop and lightweight tooling so coding agents can collaborate on sustainable system design instead of generating disposable code.
-  mental_damage: You install a framework to tell your agent how to read the framework that tells the agent how to build the thing you could have just described to it.
+  summary: A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes.
+  why_it_matters: It creates a structured spec-first loop that treats living documentation as the authoritative source of truth for agent-driven development workflows.
+  mental_damage: You finally solved the problem of keeping documentation in sync by making the stochastic agent responsible for maintaining the very specs that keep it in check.
   tags:
     - spec-driven
     - cli
-    - claude-code
-    - agent-workflow
     - tui
+    - claude-code
   confidence: high
 curation:
   status: included
-  reason: The project’s center of gravity is a spec-first development loop with artifacts, validation, and agent-driven workflows, which clearly aligns with the Spec-Driven Development category.
+  reason: The project centers on a specification-first loop where markdown and YAML specs drive the agent's execution, validation, and repair workflow.
   evidence:
-    - Repo description and README position it as a spec-driving toolkit for agents like Claude Code and Codex.
-    - Included in awesome-spec-driven-development under 'Specification Tools', reinforcing the spec-first focus.
-    - Provides YAML registries, validation, and evergreen specs designed to guide agent workflows rather than act as the primary coding assistant.
+    - "Repo description states: 'You install it. Claude drives the CLI tool.'"
+    - README defines it as 'specification-driving development toolkit' with 'evergreen specs' and 'agentic memory'.
+    - Listed in awesome-spec-driven-development under 'Specification Tools' section.
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:48.248Z"
+    updated_at: "2026-05-06T22:43:34.308Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:37.424Z"
+    updated_at: "2026-05-06T22:51:56.006Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

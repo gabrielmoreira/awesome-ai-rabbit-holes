@@ -1,13 +1,13 @@
 id: github__simonmichael__hledger
 kind: github-repo
-name: HLedger
+name: hledger
 canonical_url: https://github.com/simonmichael/hledger
 identity:
   github_repo: simonmichael/hledger
 provenance:
   discoveries:
     - id: discovery__github__simonmichael__hledger__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4477
+    forks: 378
+    license: GPL-3.0
+    archived: false
+    created_at: "2013-04-08T16:41:47Z"
+    pushed_at: "2026-05-06T21:13:49Z"
+    description: Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.
+    homepage: https://hledger.org
+    topics:
+      - accounting
+      - command-line-tool
+      - console-application
+      - finance
+      - haskell
+      - haskell-applications
+      - hledger
+      - ledger
+      - plaintext
+      - plaintextaccounting
+      - tui
+      - web-application
+    last_checked_at: "2026-05-06T22:46:25.552Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:25.552Z"
+      bytes: 22594
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: hledger is a robust, fast, plain text accounting tool with CLI, TUI, and web interfaces for tracking money, investments, and time in a future-proof text format.
+  why_it_matters: It provides a scriptable, privacy-focused accounting engine that developers can integrate into financial workflows or automate with CLI and HTTP APIs.
+  mental_damage: Yet another opportunity to discover that your plain-text, double-entry lunch money deserves the same rigorous version control and Haskell rewrites as your production monolith.
+  tags:
+    - plain-text-accounting
+    - cli
+    - "-finance"
+    - haskell
+    - scriptable
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a personal finance and accounting tool for plain text bookkeeping, not an AI tool, agent, or developer-facing AI infrastructure.
+  evidence:
+    - Repo description and README describe it as a plain text accounting tool for tracking money and time, with no AI or LLM features.
+    - Source-list context shows it only appears as an MCP server implementation for finance, but the core product itself is not AI-native tooling.
+    - Topics and documentation focus on Haskell, Ledger CLI compatibility, and accounting workflows, with no AI, agent, or prompt-engineering substance.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4477) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:25.552Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:48.575Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

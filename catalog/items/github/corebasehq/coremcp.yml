@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__corebasehq__coremcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,50 @@ metadata:
       - mcp
       - mcp-server
       - mssql
-    last_checked_at: "2026-05-05T21:01:41.710Z"
+    last_checked_at: "2026-05-06T22:43:28.675Z"
     readme:
-      fetched_at: "2026-05-05T21:01:41.710Z"
+      fetched_at: "2026-05-06T22:43:28.675Z"
       bytes: 16422
 insights:
-  summary: An open-source MCP server written in Go that connects AI assistants to legacy databases like MSSQL, providing schema discovery and read-only query tools with built-in security controls.
-  why_it_matters: It allows developers to expose legacy database contexts to LLMs for analysis without writing custom connectors or risking destructive queries on production data.
-  mental_damage: Finally, a secure bridge to let your AI agent stare directly into the abyss of your 1998 Turkish ERP database, character encoding and all.
+  summary: CoreMCP is an open-source, Go-based MCP server that exposes legacy databases like MSSQL to AI agents with read-only safety, schema discovery, and PII masking.
+  why_it_matters: It allows developers to securely connect AI assistants to legacy or production databases for analysis without risking writes or exposing sensitive data.
+  mental_damage: We have finally bridged the gap between 1998-era MSSQL instances and the latest LLMs, ensuring your AI can now misinterpret your legacy ERP data with unprecedented speed.
   tags:
     - mcp
     - database
-    - golang
     - legacy-systems
+    - golang
     - llm-ops
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to bridge AI agents and databases, fitting the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server specifically for database connectivity, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description identifies it as a 'bridge' for LLM data analysis via Model Context Protocol.
-    - README confirms it is a 'Model Context Protocol (MCP) server for database operations' with MSSQL support.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Databases'.
+    - "Repo description states: 'CoreMCP: Connect Legacy Databases to AI Agents via Model Context Protocol.'"
+    - README identifies it as a 'Model Context Protocol (MCP) server for database operations'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:41.710Z"
+    updated_at: "2026-05-06T22:43:28.675Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:31.501Z"
+    updated_at: "2026-05-06T22:50:43.047Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

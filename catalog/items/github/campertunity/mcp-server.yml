@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__campertunity__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:29.353Z"
+    last_checked_at: "2026-05-06T22:43:17.021Z"
     readme:
-      fetched_at: "2026-05-05T21:01:29.353Z"
+      fetched_at: "2026-05-06T22:43:17.021Z"
       bytes: 3900
 insights:
-  summary: An MCP server and agent skill pack for searching, checking availability, and booking campgrounds worldwide via AI tools.
-  why_it_matters: Developers building travel or outdoor AI agents can integrate real-time campsite search and booking without scraping campground websites themselves.
-  mental_damage: The inevitable future where your AI agent autonomously books a campsite in the middle of a planning session and you only find out when the confirmation email arrives.
+  summary: An MCP server and agent skill pack that enables AI coding assistants to search for campgrounds, check availability, and generate booking links via the Campertunity API.
+  why_it_matters: It demonstrates how domain-specific data (camping availability) can be exposed as a tool to agents like Claude Code and OpenClaw using the SKILL.md format and MCP.
+  mental_damage: We have successfully reached the point where your terminal agent can secure a tent spot in Yosemite, but still can't resolve a merge conflict without rewriting your entire auth stack.
   tags:
     - mcp
     - skills
-    - travel
-    - booking
-    - agent-tools
-  confidence: high
+    - agent-integration
+    - domain-tools
+  confidence: medium
 curation:
   status: included
-  reason: The project is primarily an MCP server with agent skill files for campsite search and booking, fitting directly into the MCP Servers and Tooling category.
+  reason: The project's primary identity is an MCP server distributed via npx to provide camping data tools to AI agents, fitting the MCP Servers category.
   evidence:
-    - README explicitly provides an MCP server configuration and lists available MCP tools like listing-search and listing-book.
-    - Includes agent skill files compatible with OpenClaw, Claude Code, Codex, and other platforms supporting SKILL.md format.
-    - Listed in awesome-mcp-servers under Official Servers, confirming its role as an MCP server.
+    - Repository name is 'mcp-server' and README explicitly provides the JSON config for 'mcpServers'.
+    - Includes skill files compatible with Claude Code, Codex, and OpenClaw via the SKILL.md format.
+    - Listed in 'awesome-mcp-servers' under the section 'Official Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:29.353Z"
+    updated_at: "2026-05-06T22:43:17.021Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:22.231Z"
+    updated_at: "2026-05-06T22:48:00.559Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

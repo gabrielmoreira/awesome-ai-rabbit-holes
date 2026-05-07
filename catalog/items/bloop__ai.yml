@@ -1,12 +1,12 @@
 id: bloop__ai
 kind: website
-name: Bloop
+name: bloop.ai
 canonical_url: https://bloop.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__bloop__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,42 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bloop is building tools to plan, orchestrate, and review the work of autonomous AI agents within a developer's workflow.
-  why_it_matters: It provides the infrastructure to manage long-running AI tasks, aiming to turn engineers into high-velocity managers of autonomous coding agents.
-  mental_damage: We have successfully automated the job of writing code so we can spend our days doing performance reviews for the bots instead.
+  summary: Bloop is building tools, starting with Vibe Kanban, to plan, orchestrate, and review the work of autonomous AI agents, aiming to turn engineers into high-velocity engineering managers.
+  why_it_matters: As coding tasks shift from instant autocomplete to long-running autonomous workflows, developers need infrastructure to coordinate and review agent output at scale.
+  mental_damage: Now you can outsource your impostor syndrome to a kanban board full of agents while you sip coffee and pretend to manage them.
   tags:
-    - agent-management
-    - orchestration
+    - agent-orchestration
+    - multi-agent
     - workflow
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The product is a user-facing platform for coordinating and reviewing the work of multiple autonomous agents, fitting the end-user control plane definition of agent-orchestration.
+  reason: The product's core identity is a workbench for planning, orchestrating, and reviewing autonomous AI agents, which aligns with the Agent Orchestration category's focus on control planes and collaboration surfaces.
   evidence:
-    - "Scraped site description states: 'Building tools to plan, orchestrate and review the work of autonomous AI agents.'"
-    - Source list context (awesome-ai-agents) lists the project under 'Bloop' with the purpose of orchestrating autonomous agents.
-    - The project's goal is explicitly to 'turn every engineer into a high-velocity engineering manager' via agent infrastructure.
+    - "Scraped site context states: 'We are building tools that enable you to plan, orchestrate and review the work of autonomous AI agents.'"
+    - The about page highlights 'Vibe Kanban' as their primary product for this orchestration.
+    - Included in the awesome-ai-agents list under the section 'Bloop' with the purpose of listing autonomous agents.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:34.377Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:42.563Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

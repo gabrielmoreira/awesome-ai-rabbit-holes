@@ -1,13 +1,13 @@
 id: github__opennmt__ctranslate2
 kind: github-repo
-name: CTranslate2
+name: ctranslate2
 canonical_url: https://github.com/opennmt/ctranslate2
 identity:
   github_repo: opennmt/ctranslate2
 provenance:
   discoveries:
     - id: discovery__github__opennmt__ctranslate2__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4470
-    forks: 480
+    stars: 4471
+    forks: 479
     license: MIT
     archived: false
     created_at: "2019-09-23T08:10:42Z"
@@ -53,50 +53,50 @@ metadata:
       - quantization
       - thrust
       - transformer-models
-    last_checked_at: "2026-05-05T21:04:06.855Z"
+    last_checked_at: "2026-05-06T22:45:43.584Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.854Z"
+      fetched_at: "2026-05-06T22:45:43.584Z"
       bytes: 9262
 insights:
-  summary: CTranslate2 is a C++ and Python library that provides fast, optimized inference for Transformer models on CPU and GPU with support for quantization and multiple backends.
-  why_it_matters: It lets developers serve and run LLMs, translation, and Whisper models with significantly lower latency and memory usage than standard frameworks, using INT8/INT4 quantization and architecture-specific optimizations.
-  mental_damage: You will spend three days debating AVX-512 versus ARM64 NEON intrinsics, only to realize your model still outputs 'As an AI language model' with terrifying efficiency.
+  summary: A C++ and Python library for fast, efficient inference of Transformer models with quantization and CPU/GPU optimizations.
+  why_it_matters: It lets developers run quantized LLMs and translation models with significantly lower latency and memory usage across x86, ARM, and GPU backends.
+  mental_damage: Yet another reminder that your carefully prompt-tuned AI stack still depends on someone else’s hand-tuned AVX2 intrinsics to avoid melting a laptop.
   tags:
-    - cpp
     - inference
-    - local-ai
-    - quantization
     - transformers
+    - quantization
+    - cpp
+    - local-ai
   confidence: high
 curation:
-  status: included
-  reason: This is a local model runtime and serving stack for running Transformer models efficiently on the developer's own hardware, which clearly fits the Local AI category.
+  status: excluded
+  reason: Excluded because it is a general-purpose ML inference engine rather than a developer-facing AI tool, agent, or workflow product within the catalog’s scope.
   evidence:
-    - Repo description states it is a 'Fast inference engine for Transformer models'.
-    - README confirms it enables efficient local execution on CPU and GPU with quantization, batching, and multiple architectures.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', matching the local/self-hosted serving scope.
+    - "Repo description: 'Fast inference engine for Transformer models' — a model runtime, not a developer tool."
+    - README describes a C++ and Python library for model quantization, batching, and decoding, with no coding-agent or IDE workflow.
+    - Appears in Awesome-LLMOps under 'Large Model Serving', which is infrastructure, not developer-facing AI tooling.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4470) exceeded threshold (150)
+  reason: Stars (4471) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:54.206Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.855Z"
+    updated_at: "2026-05-06T22:45:43.584Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:49.681Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

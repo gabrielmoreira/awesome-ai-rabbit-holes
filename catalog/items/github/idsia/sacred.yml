@@ -1,13 +1,13 @@
 id: github__idsia__sacred
 kind: github-repo
-name: Sacred
+name: sacred
 canonical_url: https://github.com/idsia/sacred
 identity:
   github_repo: idsia/sacred
 provenance:
   discoveries:
     - id: discovery__github__idsia__sacred__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,28 +40,27 @@ metadata:
       - reproducibility
       - reproducible-research
       - reproducible-science
-    last_checked_at: "2026-05-05T21:02:40.978Z"
+    last_checked_at: "2026-05-06T22:44:21.713Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.978Z"
+      fetched_at: "2026-05-06T22:44:21.713Z"
       bytes: 12697
 insights:
-  summary: Sacred is a Python library that helps developers configure, organize, log, and reproduce machine learning experiments by capturing parameters, dependencies, and results.
-  why_it_matters: It standardizes the tedious overhead of experiment tracking—configs, CLI, logging, and seeding—so ML developers can focus on model code and reliably reproduce runs.
-  mental_damage: Because nothing says modern ML engineering like wrapping a simple SVM script in an experiment framework just to prove your hyperparameters weren’t chosen by dice roll.
+  summary: Sacred is a Python tool designed to help researchers configure, organize, log, and reproduce machine learning experiments, primarily by managing configurations and logging results to databases like MongoDB.
+  why_it_matters: It handles the tedious overhead of experiment tracking and reproducibility for Python-based ML workflows, ensuring that model training runs are well-documented and can be repeated consistently.
+  mental_damage: The Python ML community spent a decade building custom sacred-script wrappers to reproduce experiments before deciding that maybe, just maybe, they should have just used an LLM to write the boilerplate faster.
   tags:
     - experiment-tracking
-    - ml-infrastructure
-    - python
+    - ml-ops
     - reproducibility
-    - training
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: The project is a general machine learning experiment-tracking library for researchers, not a developer-facing AI tool, agent, workflow, or infrastructure aimed at software engineers building with AI.
+  reason: Sacred is a general machine learning experiment tracking tool for researchers, lacking a specific developer-facing AI tooling angle required for this catalog.
   evidence:
-    - Repo description and README focus on ML experiment configuration, tracking, and reproducibility, not AI-assisted development workflows.
-    - Topics and documentation emphasize infrastructure, machine-learning, and reproducible research rather than coding agents, app builders, or developer tooling.
-    - Listed under Training > Experiment Tracking in Awesome-LLMOps, which covers ML ops rather than the catalog’s developer-tooling scope.
+    - Repo description and README focus on general ML experiment configuration, logging, and reproducibility, not AI-assisted coding or developer infrastructure.
+    - Listed in Awesome-LLMOps under 'Training > Experiment Tracking', which is a general ML Ops category rather than a specific AI developer tooling category.
+    - Topics include 'machine-learning' and 'reproducible-science', indicating a research/academic focus rather than a software engineering or coding agent focus.
 placement:
   primary_category: null
   section: null
@@ -69,21 +68,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4364) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:29.258Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.978Z"
+    updated_at: "2026-05-06T22:44:21.713Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:38.966Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

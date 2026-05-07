@@ -1,12 +1,12 @@
 id: www__agents__inc
 kind: website
-name: AGENTS.inc
+name: www.agents.inc
 canonical_url: https://www.agents.inc
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AGENTS.inc is a no-code SaaS platform providing a suite of configurable AI agents for business intelligence tasks like news monitoring, patent analysis, and market research.
-  why_it_matters: It offers SDKs and APIs for developers who need to integrate pre-built knowledge-work agents into custom applications without building the underlying models.
-  mental_damage: Just when you thought 'no code required' meant you were safe, they offer an SDK so you can still write code to wrap the thing that promised you wouldn't need code.
+  summary: AGENTS.inc is a no-code SaaS platform providing domain-specific AI agents for business intelligence tasks like news monitoring, patent analysis, and supply chain sourcing.
+  why_it_matters: It offers SDKs and APIs for developers looking to build or integrate custom enterprise knowledge-work agents without managing the underlying infrastructure.
+  mental_damage: Yet another 'reliable AI' platform promising to replace human analysts, ensuring developers can spend their time debugging the integration instead of the hallucinations.
   tags:
     - agents
+    - enterprise
+    - sdk
     - business-intelligence
     - no-code
-    - saas
-    - sdk
   confidence: high
 curation:
   status: excluded
-  reason: The platform is a vertical SaaS product for business analysts performing market research and monitoring, not a developer tool for writing, reviewing, or orchestrating code.
+  reason: The platform is a vertical SaaS product for business analysis and market intelligence, not a tool for writing, reviewing, or debugging code.
   evidence:
-    - The site emphasizes 'No Coding Required' and targets business use cases like M&A targeting, supply chain sourcing, and regulatory monitoring.
-    - Inclusion in 'awesome-ai-agents' is for generic autonomous agents, but the catalog scope requires developer-facing infrastructure or coding workflow tools.
-    - While SDKs and APIs exist, the primary product is a hosted 'virtual consultant' service for strategic intelligence, not a coding agent or framework.
+    - Site description focuses on 'strategic intelligence', 'M&A Targeting', and 'EU Policy Watch' rather than code.
+    - Explicitly states 'No Coding Required' and targets business users with '3 clicks' configuration.
+    - Developer access is limited to 'SDKs and APIs' to build new agents, rather than a coding assistant workflow.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:28.521Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:35.287Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

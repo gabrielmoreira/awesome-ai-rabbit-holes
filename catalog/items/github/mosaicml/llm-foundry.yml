@@ -1,0 +1,86 @@
+id: github__mosaicml__llm-foundry
+kind: github-repo
+name: llm-foundry
+canonical_url: https://github.com/mosaicml/llm-foundry
+identity:
+  github_repo: mosaicml/llm-foundry
+provenance:
+  discoveries:
+    - id: discovery__github__mosaicml__llm-foundry__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: LLM-Foundry
+        extracted_url: https://github.com/mosaicml/llm-foundry
+        surrounding_text: "22. [LLM-Foundry](https://github.com/mosaicml/llm-foundry): LLM training code for Databricks foundation models."
+        confidence: high
+metadata:
+  github:
+    stars: 4402
+    forks: 589
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-04-28T22:33:27Z"
+    pushed_at: "2026-03-25T17:22:01Z"
+    description: LLM training code for Databricks foundation models
+    homepage: https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+    topics:
+      - deep-learning
+      - llm
+      - neural-networks
+      - nlp
+      - pytorch
+    last_checked_at: "2026-05-06T22:45:25.297Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:25.297Z"
+      bytes: 20951
+insights:
+  summary: A PyTorch-based library for training, fine-tuning, evaluating, and deploying large language models on the MosaicML and Databricks platforms.
+  why_it_matters: It provides the official training infrastructure behind Databricks' open models like DBRX and MPT, enabling developers to build and customize foundation models with optimized throughput.
+  mental_damage: Yet another reminder that while you're struggling to get a 7B model to run locally, Databricks is casually open-sourcing 132B parameter MoEs and the tooling to retrain them.
+  tags:
+    - llm-training
+    - pytorch
+    - fine-tuning
+    - foundation-models
+    - databricks
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a deep-learning framework for training foundation models rather than a tool for developers building with AI or automating coding workflows.
+  evidence:
+    - Repo description explicitly states 'LLM training code for Databricks foundation models'
+    - Topics include deep-learning, neural-networks, and pytorch rather than developer tooling
+    - Listed in awesome-LLM-resources under 'Fine-Tuning' section for ML research, not developer productivity
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4402) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.631Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:25.297Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:37.446Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

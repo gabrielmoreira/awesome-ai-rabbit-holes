@@ -1,12 +1,12 @@
 id: x__com__pelaseyed__status__1709592941226831916
 kind: website
-name: code execution tool
+name: "1709592941226831916"
 canonical_url: https://x.com/pelaseyed/status/1709592941226831916
 identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__pelaseyed__status__1709592941226831916__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,20 +35,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An unverifiable link to an X.com status update that cannot be accessed or reviewed due to privacy extension errors and missing metadata.
-  why_it_matters: It doesn't; this is a broken URL with no recoverable tooling information for developers.
-  mental_damage: We are now reviewing tweets as if they were viable open-source contributions to the developer stack.
+  summary: An X.com status link that appears to reference the Superagent project in the context of AI agents with sandbox integration, but the page content could not be retrieved.
+  why_it_matters: Superagent is listed among AI apps and agents with sandbox integration, which is relevant for developers exploring autonomous agent tooling.
+  mental_damage: We have reached such peak AI agent hype that even a dead Twitter link is being reviewed as a potential catalog entry.
   tags:
-    - broken-link
-    - unverified
-  confidence: high
+    - ai-agents
+    - sandbox
+  confidence: low
 curation:
   status: excluded
-  reason: The URL leads to an inaccessible X.com page with no recoverable description, README, or functional tool context, making it impossible to verify it is a real developer tool.
+  reason: This is a link to a social media post that could not be scraped, providing no standalone product, code, or usable tooling to evaluate or include.
   evidence:
-    - Scraped site context shows 'Something went wrong' with no title, description, or excerpt available.
-    - No repo description, stars, license, or creation date could be provided.
-    - Source URL is a social media status link rather than a tool repository or product page.
+    - The URL points to x.com and the scraped content returned a privacy-extension error with no project description.
+    - No repository metadata, README, or homepage content is available to verify the product's existence or scope.
+    - Only indirect source-list context mentions 'Superagent' under sandbox-integrated AI agents, but no first-party content is available.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:21.915Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:39.961Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__diivi__aseprite-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 158
+    stars: 160
     forks: 17
     license: MIT
     archived: false
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for interacting with the Aseprite API
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:53.504Z"
+    last_checked_at: "2026-05-06T22:43:38.236Z"
     readme:
-      fetched_at: "2026-05-05T21:01:53.504Z"
+      fetched_at: "2026-05-06T22:43:38.236Z"
       bytes: 1563
 insights:
-  summary: An MCP server that exposes the Aseprite pixel art API to AI coding assistants, allowing them to create and manipulate sprites directly within the editor.
-  why_it_matters: It bridges the gap between AI code generation and creative asset workflows, letting developers automate sprite creation and modification through natural language prompts in their IDE.
-  mental_damage: "We have finally solved the hardest problem in computer science: getting a $20/month subscription to prompt a cloud while a Docker container installs Steam to draw a pixelated mushroom."
+  summary: An MCP server that exposes the Aseprite pixel-art API so coding agents like Cursor can programmatically create and manipulate sprites.
+  why_it_matters: It lets developers script pixel-art workflows through their coding assistant instead of manually clicking through Aseprite frames.
+  mental_damage: You now have the infrastructure to ask an LLM to draw a cloud, proving once again that no niche is safe from agent integration.
   tags:
     - mcp
     - aseprite
     - pixel-art
-    - integration
+    - extension
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to integrate Aseprite with AI assistants, fitting squarely into the MCP Servers and Tooling category.
+  reason: This is an MCP server exposing a specific domain tool (Aseprite), fitting cleanly as a Domain Server under MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'MCP server for interacting with the Aseprite API'."
-    - README demonstrates usage by showing Cursor using the MCP server to draw a cloud in Aseprite.
-    - Listed in the 'awesome-mcp-servers' directory under 'Art & Culture' server implementations.
+    - "Repo description states: 'MCP server for interacting with the Aseprite API'"
+    - README shows MCP server configuration JSON and Docker usage for the server
+    - Listed in awesome-mcp-servers under 'Art & Culture' as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (158) exceeded threshold (150)
+  reason: Stars (160) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:53.504Z"
+    updated_at: "2026-05-06T22:43:38.236Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:26.537Z"
+    updated_at: "2026-05-06T22:52:44.896Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

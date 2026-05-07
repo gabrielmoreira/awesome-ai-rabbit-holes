@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abcxz__conviction-fm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - model-context-protocol
       - solana
       - strategy
-    last_checked_at: "2026-05-05T21:00:46.759Z"
+    last_checked_at: "2026-05-06T22:12:23.185Z"
     readme:
-      fetched_at: "2026-05-05T21:00:46.759Z"
+      fetched_at: "2026-05-06T22:12:23.185Z"
       bytes: 3261
 insights:
-  summary: An MCP server and CLI that lets AI agents participate in daily strategy competitions by evaluating live market data for token pairs on Solana.
-  why_it_matters: It provides developers with a concrete, MCP-compatible interface to benchmark autonomous agent logic against live market conditions and other strategies.
-  mental_damage: Finally, a way to pit your over-engineered AI agent against others in a daily competition to see whose token predictions fail first.
+  summary: An MCP server and CLI that lets AI agents participate in daily strategy competitions by analyzing live crypto market data and entering conviction-weighted positions on conviction.fm.
+  why_it_matters: It gives developers a concrete, gamified surface for wiring autonomous agents into live market data, pools, and payout logic via MCP-compatible clients like Claude Code and Cursor.
+  mental_damage: You can now pit your Claude Code and Cursor agents against each other in a daily Solana token deathmatch, because apparently your agent ecosystem needed its own prediction market.
   tags:
     - mcp
+    - ai-agents
     - cli
-    - solana
-    - ai-agent
-    - fintech
+    - crypto
+    - strategy
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server and CLI designed to integrate agent strategies with the conviction.fm competition platform.
+  reason: The product identity is an MCP server and CLI for a specific domain (crypto strategy competitions), making it a textbook domain MCP server rather than a standalone coding assistant or generic framework.
   evidence:
     - Repo description explicitly states 'MCP server + CLI for conviction.fm'.
-    - README details `conviction-mcp` as a server compatible with Claude Code, Cursor, Cline, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' implementations.
+    - README positions conviction-mcp as an MCP server that works with Claude Code, Cursor, Cline, Windsurf, and any MCP-compatible client.
+    - Listed in awesome-mcp-servers under Finance & Fintech, aligning with the domain-server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:46.759Z"
+    updated_at: "2026-05-06T22:12:23.185Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:26.456Z"
+    updated_at: "2026-05-06T22:18:21.460Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: agentscale__ai
 kind: website
-name: AgentScale
+name: agentscale.ai
 canonical_url: http://agentscale.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__agentscale__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AgentScale AI is a business automation service that combines robotic process automation, large language models, and AI agents.
-  why_it_matters: It offers a blueprint for integrating LLMs with traditional RPA workflows to automate business processes.
-  mental_damage: Another 'cutting-edge' consultancy promising to automate your backlog with agents, provided you have the budget and the patience to explain your legacy RPA setup to a GPT wrapper.
+  summary: AgentScale AI is a business automation platform combining robotic process automation, large language models, and AI agents.
+  why_it_matters: It aims to help organizations automate workflows by integrating RPA with modern LLM capabilities.
+  mental_damage: Yet another 'AI agents for enterprise' consultancy play, ensuring your RPA scripts now have a token budget to exceed.
   tags:
-    - business-automation
-    - llm-integration
     - rpa
+    - llm
+    - automation
+    - enterprise-agents
   confidence: high
 curation:
   status: excluded
-  reason: The project is a business-facing consultancy service for RPA and automation, not a developer tool, agent framework, or coding assistant.
+  reason: The product is a general business automation and RPA solution targeting enterprises, lacking a specific developer-tooling angle required for this catalog.
   evidence:
-    - Site description focuses on 'empowering businesses with automation solutions' via RPA and agents.
-    - No repository, code, IDE plugin, or developer-facing interface is present.
-    - Listed in awesome-ai-agents as a service provider rather than a tool or framework.
+    - Scraped site context describes it as empowering businesses with 'automation solutions using robotic process automation, large language models and AI agents'.
+    - No GitHub repository, code-first SDK, or developer-facing tooling evidence is present.
+    - Source list context (awesome-ai-agents) is evidence but does not override the lack of developer-tooling fit.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:28.352Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:24.008Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

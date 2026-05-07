@@ -1,13 +1,13 @@
 id: github__launsion-boop__echocoding
 kind: github-repo
-name: EchoCoding
+name: echocoding
 canonical_url: https://github.com/launsion-boop/echocoding
 identity:
   github_repo: launsion-boop/echocoding
 provenance:
   discoveries:
     - id: discovery__github__launsion-boop__echocoding__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,56 +29,56 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-14T05:47:31Z"
-    pushed_at: "2026-05-01T12:37:40Z"
+    pushed_at: "2026-05-06T07:42:43Z"
     description: Make your AI coding agent talk, listen, and feel alive.
     homepage: ""
     topics:
       - agent
       - vibe-coding
-    last_checked_at: "2026-05-05T21:03:17.731Z"
+    last_checked_at: "2026-05-06T22:44:56.892Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.731Z"
+      fetched_at: "2026-05-06T22:44:56.892Z"
       bytes: 23591
 insights:
-  summary: EchoCoding adds sound effects, ambient audio, TTS, and voice input to AI coding agents like Claude Code, Cursor, and Windsurf via CLI hooks and MCP tools.
-  why_it_matters: It gives developers audio-based spatial awareness of their agent's state and enables hands-free voice interaction during coding sessions.
-  mental_damage: Your AI agent now has a sonic personality and expects spoken answers, turning quiet debugging into a fully voice-acted theatre production.
+  summary: EchoCoding is a CLI and MCP-compatible add-on that adds sound effects, ambient audio, TTS speech, and voice command capabilities to AI coding agents like Claude Code, Cursor, and Windsurf.
+  why_it_matters: It gives developers spatial and auditory awareness of their agent's state and actions without requiring them to watch the terminal constantly.
+  mental_damage: Your $200/month coding agent can now narrate its own existence while you pretend you're still 'pair programming' in a busy coffee shop.
   tags:
-    - agent-extension
     - audio
-    - cli
-    - mcp
     - voice
+    - mcp
+    - extensions
+    - cli
   confidence: high
 curation:
   status: included
-  reason: This is an extension layer that augments existing coding agents with audio and voice capabilities rather than being a primary coding assistant itself.
+  reason: The tool is explicitly designed to augment existing coding assistants with audio capabilities rather than acting as a primary coding assistant itself.
   evidence:
-    - "Repo description states: 'Make your AI coding agent talk, listen, and feel alive.'"
-    - "README explains: 'EchoCoding is pipes, not brains. It gives your AI agent a mouth and ears' and supports Claude Code, Cursor, Windsurf, Codex CLI, Gemini CLI via hooks and MCP."
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+    - README states 'pipes, not brains' and that it 'gives your AI agent a mouth and ears' rather than doing coding itself.
+    - Supported clients explicitly listed include Claude Code, Cursor, Windsurf, Codex CLI, Gemini CLI, and any MCP-compatible tool.
+    - Source list placed it in 'Harnesses & orchestration > Agent infrastructure', but the product identity is clearly an integration layer.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:25.215Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.731Z"
+    updated_at: "2026-05-06T22:44:56.892Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:56.468Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

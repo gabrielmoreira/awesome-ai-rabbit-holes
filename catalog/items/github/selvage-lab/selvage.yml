@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__selvage-lab__selvage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 33
+    forks: 7
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-30T09:12:29Z"
+    pushed_at: "2026-02-23T11:20:57Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:20.199Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:20.199Z"
+      bytes: 19796
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool that uses LLMs to analyze Git diffs for code quality, bug detection, and security vulnerabilities, with optional MCP and Claude Code plugin modes.
+  why_it_matters: It automates code reviews directly from the terminal or inside editors like Cursor and Claude Code, aiming to catch issues before a human ever looks at the PR.
+  mental_damage: Because nothing says 'confident in my code' like outsourcing your dignity to a CLI tool that summarizes your diffs while you pray the LLM doesn't hallucinate a critical vulnerability in your linter config.
+  tags:
+    - code-review
+    - cli
+    - mcp
+    - git
+    - ai-qa
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool primarily augments coding assistants and Git workflows with automated review capabilities rather than acting as a standalone coding agent that plans and edits code across a repo.
+  evidence:
+    - README states it is a 'CLI tool that helps AI analyze Git diffs' and includes a Claude Code plugin with a '/review' skill.
+    - Features 'MCP Mode Support' for registration in Cursor and Claude Code to request reviews via natural language.
+    - Core workflow is reviewing staged, unstaged, or commit-based changes, not autonomous repo planning or file editing.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:20.199Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:49.182Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

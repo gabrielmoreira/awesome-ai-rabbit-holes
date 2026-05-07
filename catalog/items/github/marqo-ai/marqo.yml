@@ -1,13 +1,13 @@
 id: github__marqo-ai__marqo
 kind: github-repo
-name: Marqo
+name: marqo
 canonical_url: https://github.com/marqo-ai/marqo
 identity:
   github_repo: marqo-ai/marqo
 provenance:
   discoveries:
     - id: discovery__github__marqo-ai__marqo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5026
+    stars: 5027
     forks: 232
     license: Apache-2.0
     archived: false
@@ -37,49 +37,50 @@ metadata:
       - machine-learning
       - multi-modal
       - search-engine
-    last_checked_at: "2026-05-05T21:03:30.835Z"
+    last_checked_at: "2026-05-06T22:45:09.755Z"
     readme:
-      fetched_at: "2026-05-05T21:03:30.835Z"
+      fetched_at: "2026-05-06T22:45:09.755Z"
       bytes: 1427
 insights:
-  summary: Marqo is an AI-native ecommerce search platform that provides semantic search and product recommendations by leveraging multimodal vector search and shopper behavior data.
-  why_it_matters: Developers building commerce experiences can use it to replace keyword search with intent-aware retrieval without training custom ML models from scratch.
-  mental_damage: Yet another reminder that while we automate search relevance, we still haven't figured out how to make the search bar on the internal dev docs return the right result.
+  summary: Marqo is an open-source vector and semantic search engine designed for e-commerce, combining multi-modal understanding with product search and personalization capabilities.
+  why_it_matters: It provides developers with a way to index and search unstructured data like images and text using state-of-the-art embeddings, fitting into the retrieval layer of AI applications.
+  mental_damage: Yet another reminder that while we're all building agents that write code, we still have to figure out how to actually store and retrieve the data those agents need without spinning up a PhD thesis in vector math.
   tags:
-    - ecommerce
-    - search
-    - semantic-search
     - vector-search
+    - semantic-search
+    - ecommerce
+    - embedding
+    - multimodal
   confidence: high
 curation:
-  status: excluded
-  reason: The project is a commerce-focused SaaS and vector search engine, not a developer-facing AI coding tool, agent, or workflow enhancer for software development.
+  status: included
+  reason: Marqo is a developer-facing infrastructure component (SDK/Engine) for vector search and retrieval, fitting the 'code-first building blocks' definition of Frameworks & SDKs, specifically under retrieval infrastructure.
   evidence:
-    - "Repo description: 'Ecommerce Search and Discovery' and README confirms it is a platform for 'online brands in fashion, beauty, electronics'."
-    - Notice in README states the open source project is deprecated and directs users to the commercial marqo.ai product.
-    - Listed in Awesome-LLMOps under 'Search > Vector search', which is infrastructural, not developer-tooling for coding workflows.
+    - Repo description identifies it as a 'Search and Discovery' engine.
+    - README describes it as an 'AI-native ecommerce search platform' for semantic search and personalization.
+    - Listed in Awesome-LLMOps under 'Search > Vector search', confirming its role as a retrieval infrastructure tool.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5026) exceeded threshold (150)
+  reason: Stars (5027) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:01.874Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:30.835Z"
+    updated_at: "2026-05-06T22:45:09.755Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:12:06.960Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

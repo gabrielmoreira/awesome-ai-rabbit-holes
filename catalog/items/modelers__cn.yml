@@ -1,0 +1,77 @@
+id: modelers__cn
+kind: website
+name: modelers.cn
+canonical_url: https://modelers.cn
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__modelers__cn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 社区 Community
+        anchor_text: 魔乐社区
+        extracted_url: https://modelers.cn
+        surrounding_text: 1. [魔乐社区](https://modelers.cn/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: 魔乐社区 (Modelers.cn) is a neutral, public welfare AI community in China providing hosting, display, and collaborative application services for AI tools, models, and datasets.
+  why_it_matters: It provides a localized, open platform for Chinese developers to access, host, and collaborate on AI models and tooling without relying solely on foreign infrastructure.
+  mental_damage: "Just what we needed: another walled garden promising to be the 'neutral' hub for an entire nation's AI ecosystem, ensuring we have even more places to check for the same models."
+  tags:
+    - community
+    - model-hosting
+    - china
+    - open-source
+    - ecosystem
+  confidence: high
+curation:
+  status: excluded
+  reason: It is a general AI community and hosting platform for models/data rather than a specific developer tool, agent, framework, or IDE integration suited for this catalog.
+  evidence:
+    - Description defines it as a 'neutral, public welfare artificial intelligence community' for hosting tools, models, and data.
+    - Source list context confirms it is a 'community' (社区) focused on ecosystem building, not a specific coding tool.
+    - No developer-tooling angle (CLI, IDE, agent, SDK) is present in the description or scraped site context.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:55.474Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

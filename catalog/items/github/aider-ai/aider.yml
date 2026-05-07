@@ -1,13 +1,13 @@
 id: github__aider-ai__aider
 kind: github-repo
-name: Aider
+name: aider
 canonical_url: https://github.com/aider-ai/aider
 identity:
   github_repo: aider-ai/aider
 provenance:
   discoveries:
     - id: discovery__github__aider-ai__aider__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Aider](https://github.com/Aider-AI/aider)** `⭐ 44.3k` — Pair-programming agent for editing files via diffs/patches, with strong git and multi-file workflows."
         confidence: high
     - id: discovery__github__aider-ai__aider__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "## [Aider](https://github.com/paul-gauthier/aider)"
         confidence: high
     - id: discovery__github__aider-ai__aider__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -52,40 +52,10 @@ provenance:
         extracted_url: https://aider.chat
         surrounding_text: "- **[Aider](https://aider.chat)** – Terminal-based AI pair programming tool for editing code in local git repos."
         confidence: high
-    - id: discovery__github__paul-gauthier__aider__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Coding Agents
-        anchor_text: Aider
-        extracted_url: https://github.com/paul-gauthier/aider
-        surrounding_text: "- **[Aider](https://github.com/paul-gauthier/aider)** – AI coding agent for collaborative editing and code generation via CLI."
-        confidence: high
-    - id: discovery__github__paul-gauthier__aider__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Aider
-        anchor_text: Aider
-        extracted_url: https://github.com/paul-gauthier/aider
-        surrounding_text: "## [Aider](https://github.com/paul-gauthier/aider)"
-        confidence: high
 metadata:
   github:
-    stars: 44368
-    forks: 4358
+    stars: 44416
+    forks: 4362
     license: Apache-2.0
     archived: false
     created_at: "2023-05-09T18:57:49Z"
@@ -106,53 +76,50 @@ metadata:
       - llama
       - openai
       - sonnet
-    last_checked_at: "2026-05-05T21:04:13.757Z"
+    last_checked_at: "2026-05-06T22:12:30.810Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.757Z"
+      fetched_at: "2026-05-06T22:12:30.810Z"
       bytes: 12406
 insights:
-  summary: Aider is a terminal-based AI pair programming tool that connects to cloud and local LLMs to edit code, manage git commits, and work across existing codebases.
-  why_it_matters: It allows developers to delegate multi-file code changes and refactoring directly from the CLI while maintaining git integration and automated linting/testing workflows.
-  mental_damage: Achieves 88% singularity by letting the AI write its own code, leaving you to wonder if you're pair programming or just the guy who fixes the linting errors the AI keeps introducing.
+  summary: Aider is a terminal-based AI pair programming tool that connects to various LLMs to read, edit, and manage codebases with automatic git integration.
+  why_it_matters: It allows developers to delegate multi-file code changes, testing, and linting to an LLM directly from the command line while maintaining sensible git diffs.
+  mental_damage: You can now argue with your terminal about edge cases at 2 AM, and unlike your colleagues, the terminal will actually commit the fixes with a sensible message.
   tags:
     - cli
-    - git-integration
-    - local-llm
     - pair-programming
-    - terminal
+    - git-integration
+    - multi-model
+    - terminal-agent
   confidence: high
 curation:
   status: included
-  reason: Aider is a definitive coding agent that operates directly on source code within a repo via the terminal, fitting the coding-agents category and its specific terminal section perfectly.
+  reason: Aider is a standalone coding assistant that developers use as the primary interface for repo work via the CLI, fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'aider is AI pair programming in your terminal'"
-    - "README: 'automatically commits changes with sensible commit messages' and 'lint and test your code every time aider makes changes'"
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
-    - Repo description defines it as 'AI pair programming in your terminal'.
-    - README highlights direct codebase editing, repo mapping, and automatic git commits.
-    - Included in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - "Repo description states: 'aider is AI pair programming in your terminal.'"
+    - "README highlights direct capabilities: editing files, mapping the codebase, running linters/tests, and automatic git commits."
+    - Featured in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source' with 44k stars and active development.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (44368) exceeded threshold (150)
+  reason: Stars (44416) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:03.764Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.757Z"
+    updated_at: "2026-05-06T22:12:30.810Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:49.552Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

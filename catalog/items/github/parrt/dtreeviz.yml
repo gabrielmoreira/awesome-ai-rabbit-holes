@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__parrt__dtreeviz__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -42,27 +42,28 @@ metadata:
       - scikit-learn
       - visualization
       - xgboost
-    last_checked_at: "2026-05-05T21:04:12.425Z"
+    last_checked_at: "2026-05-06T22:45:48.556Z"
     readme:
-      fetched_at: "2026-05-05T21:04:12.425Z"
+      fetched_at: "2026-05-06T22:45:48.556Z"
       bytes: 18608
 insights:
-  summary: A Python library for visualizing and interpreting decision tree models from scikit-learn, XGBoost, LightGBM, and other machine learning frameworks.
-  why_it_matters: It helps developers and data scientists debug, understand, and explain how tree-based models partition data and make predictions.
-  mental_damage: Yet another specialized tool that reminds you your 'AI' is just a glorified series of if-statements drawn by a Python script.
+  summary: A Python library for visualizing and interpreting decision trees from scikit-learn, XGBoost, LightGBM, Spark MLlib, and TensorFlow models.
+  why_it_matters: It helps developers and data scientists understand how structured ML models make decisions through visualization of trees, prediction paths, and feature spaces.
+  mental_damage: Another classic ML interpretability tool that reminds us our 'AI rabbit holes' now include debugging Random Forests from 2018 while we wait for agents to write themselves.
   tags:
-    - python
-    - machine-learning
-    - visualization
     - decision-trees
+    - visualization
+    - ml-interpretability
+    - python
+    - data-science
   confidence: high
 curation:
   status: excluded
-  reason: The project is a general machine learning visualization library for data science, not a developer-facing AI tool, agent, or workflow product.
+  reason: This is a traditional machine learning visualization library with no AI developer tooling angle; it supports classic ML models like Random Forests and XGBoost rather than LLMs, coding agents, or developer infrastructure.
   evidence:
-    - Repo description states it is a 'python library for decision tree visualization and model interpretation' for scikit-learn and XGBoost.
-    - Topics and README focus on ML models (Random Forests, gradient boosting) rather than AI-assisted coding or developer infrastructure.
-    - Missing from the catalog's scope which targets coding agents, app builders, and AI developer tooling rather than general ML research or data science utilities.
+    - Repo description explicitly states 'decision tree visualization and model interpretation' for scikit-learn, XGBoost, Spark MLlib, LightGBM, and TensorFlow.
+    - Topics are data-science, decision-trees, machine-learning, model-interpretation, python — no LLM, agent, or developer-tooling tags.
+    - README focuses entirely on classical ML model visualization with no mention of AI-assisted coding, agents, or developer workflows.
 placement:
   primary_category: null
   section: null
@@ -72,19 +73,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:12.425Z"
+    updated_at: "2026-05-06T22:45:48.556Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:52.792Z"
+    updated_at: "2026-05-06T23:20:53.840Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

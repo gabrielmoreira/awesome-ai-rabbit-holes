@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jonradoff__lightcms__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [jonradoff/lightcms](https://github.com/jonradoff/lightcms) [![jonradoff/lightcms MCP server](https://glama.ai/mcp/servers/jonradoff/lightcms/badges/score.svg)](https://glama.ai/mcp/servers/jonradoff/lightcms) 🏎️ ☁️ - AI-native CMS with 72 MCP tools for managing websites through natural language. Create and publish content, manage templates, assets, snippets, themes, collections, redirects, and multi-site forks — with full content versioning and semantic search."
         confidence: high
     - id: discovery__github__jonradoff__lightcms__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -53,50 +53,49 @@ metadata:
       - mcp
       - website-development
       - websites
-    last_checked_at: "2026-05-05T21:02:58.595Z"
+    last_checked_at: "2026-05-06T22:44:36.752Z"
     readme:
-      fetched_at: "2026-05-05T21:02:58.595Z"
+      fetched_at: "2026-05-06T22:44:36.752Z"
       bytes: 64327
 insights:
-  summary: A Go-powered content management system that exposes 106 MCP tools so AI agents can autonomously read, write, publish, and bulk-import website content.
-  why_it_matters: Developers can treat CMS content operations as structured agent actions instead of building custom integrations to manage websites through AI workflows.
-  mental_damage: We’ve finally reached the point where the CMS is agentically updatable, meaning your content platform can now refactor itself while you argue with Claude about button alignment.
+  summary: A Go-powered content management system that exposes 106 MCP tools, allowing coding agents like Claude Code to programmatically read, write, publish, and bulk-import website content.
+  why_it_matters: It turns a CMS into a machine-readable surface so agents can own the full content lifecycle—from bulk AI-generated imports to approval workflows—without a human clicking through admin panels.
+  mental_damage: We have successfully reached the point where the CMS is no longer for humans, and your blog will now be maintained by a Claude instance that demands 106 specific tools to approve its own drafts.
   tags:
     - mcp
     - cms
     - agentic-workflow
     - go
-    - content-management
   confidence: high
 curation:
   status: included
-  reason: The core differentiator is the 106-tool MCP server that lets AI agents control the CMS, making it primarily MCP infrastructure rather than a generic CMS or coding agent.
+  reason: The product's primary developer-facing identity is the MCP server with 106 tools that let agents control the CMS, placing it firmly in MCP Domain Servers rather than as a generic CMS or coding agent.
   evidence:
-    - Repo description explicitly states 'built for the AI era' with MCP server for agent control
-    - README claims 106 MCP tools for agent control and is listed in awesome-mcp-servers under Developer Tools
-    - Active development (pushed 2026-03-31) with dedicated MCP.md documentation and Glama MCP server score badge
+    - Repo description explicitly states it is 'built for the AI era' with a 'MCP server for agent control'.
+    - README highlights 106 MCP tools for reading, writing, publishing, and bulk-importing content via any MCP client.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools, confirming its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:58.595Z"
+    updated_at: "2026-05-06T22:44:36.752Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:05.652Z"
+    updated_at: "2026-05-06T23:04:44.290Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

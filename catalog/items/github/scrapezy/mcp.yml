@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scrapezy__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,73 +21,61 @@ provenance:
         extracted_url: https://github.com/scrapezy/mcp
         surrounding_text: "- **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with [Scrapezy](https://scrapezy.com)"
         confidence: high
-    - id: discovery__scrapezy__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Scrapezy
-        extracted_url: https://scrapezy.com
-        surrounding_text: "- **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with [Scrapezy](https://scrapezy.com)"
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 14
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-02-25T08:31:23Z"
+    pushed_at: "2025-03-11T08:04:20Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:18.724Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:18.724Z"
+      bytes: 2302
 insights:
-  summary: Scrapezy is a SaaS web scraping API that uses natural language prompts to extract structured data from websites, offering exports for both human analysts and AI pipelines.
-  why_it_matters: It provides a developer-first API and MCP integration that allows teams to skip writing fragile selectors and instead treat the web as a structured data source for applications and LLM contexts.
-  mental_damage: We have successfully abstracted away the last vestiges of understanding HTML, meaning our data pipelines are now entirely dependent on an AI's ability to guess what a div contains today.
+  summary: A Model Context Protocol server that exposes Scrapezy's web data extraction API as a tool for MCP-compatible AI assistants like Claude Desktop.
+  why_it_matters: It lets developers and their local agents pull structured data from websites directly within their coding assistant, removing the friction of manual scraping or API wrapping during development.
+  mental_damage: Another Tuesday, another micro-package whose entire raison d'être is convincing your AI that the internet is not, in fact, a 404 error.
   tags:
-    - api
-    - data-extraction
-    - llm-integration
     - mcp
     - web-scraping
-  confidence: medium
+    - integration
+    - claude-desktop
+    - data-extraction
+  confidence: high
 curation:
   status: included
-  reason: While it is a general scraping SaaS, its explicit listing in the awesome-mcp-servers directory and its documentation highlighting MCP integration for Claude and Cursor justify inclusion under MCP tooling for developers.
+  reason: The product is explicitly built as an MCP server to give AI models access to web scraping capabilities, fitting perfectly into the MCP Servers & Tooling category.
   evidence:
-    - Listed in 'awesome-mcp-servers' under 'Official Servers' with the description 'Transform any website into structured data'.
-    - Scraped site context explicitly mentions 'MCP integration for Claude' and 'API-first design'.
-    - Product features include REST API, webhooks, and integrations with Cursor and VS Code.
+    - "README states: 'A Model Context Protocol server for Scrapezy that enables AI models to extract structured data from websites.'"
+    - Includes explicit installation instructions for Claude Desktop via the `mcpServers` config block.
+    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers', confirming its identity as an MCP component.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:59.175Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:18.724Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:31.645Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

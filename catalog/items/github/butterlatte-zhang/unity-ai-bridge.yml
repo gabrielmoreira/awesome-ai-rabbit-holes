@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__butterlatte-zhang__unity-ai-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - unity-profiler
       - unity3d
       - windsurf
-    last_checked_at: "2026-05-05T21:01:27.370Z"
+    last_checked_at: "2026-05-06T22:43:14.968Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.370Z"
+      fetched_at: "2026-05-06T22:43:14.968Z"
       bytes: 11432
 insights:
-  summary: An MCP server and Unity package that lets AI coding assistants remotely control the Unity Editor, providing 65 tools for scene management, profiling, and light probe configuration via file-based IPC.
-  why_it_matters: It closes the gap between AI coding agents and game development workflows by giving assistants direct, tool-based access to the Unity Editor instead of just file system I/O.
-  mental_damage: We have finally reached the point where the AI needs a dedicated bridge to micromanage your light probes because apparently watching paint dry in the Unity Editor wasn't tedious enough for a human.
+  summary: A file-based MCP server and Unity package that exposes 65 editor tools to AI coding assistants, enabling remote control of scenes, game objects, profiler, and light probes from IDEs like Cursor and Claude Code.
+  why_it_matters: It bridges the gap between AI coding agents and the Unity Editor, allowing assistants to inspect scenes and profile performance instead of being limited to file I/O.
+  mental_damage: We have finally automated the part of game development where you alt-tab to the Unity Editor, so your AI can now generate shader errors and profile frame drops without you ever seeing the scene.
   tags:
     - unity
     - mcp
     - game-dev
-    - ai-bridge
-    - ipc
+    - ide-integration
+    - editor-tools
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that provides tooling for Unity, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that gives AI agents access to Unity Editor capabilities, fitting the Domain Servers section of MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Remote-control Unity Editor from any AI IDE — 62 tools... File-based IPC' and topics include 'mcp-server' and 'model-context-protocol'.
-    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory.
-    - README details 65 tools exposed via MCP to IDEs like Cursor, Copilot, and Claude Code.
+    - Repo description explicitly states 'Remote-control Unity Editor from any AI IDE — 62 tools... File-based IPC' and tags include mcp-server and unity-mcp.
+    - README emphasizes 'full editor access' via MCP for Claude Code, Cursor, and Copilot with 65 specific tools across 15 categories.
+    - Listed in awesome-mcp-servers under 'Gaming', reinforcing its identity as a domain-specific MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.370Z"
+    updated_at: "2026-05-06T22:43:14.968Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:56.973Z"
+    updated_at: "2026-05-06T22:47:30.114Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

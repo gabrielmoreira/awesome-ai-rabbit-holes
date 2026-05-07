@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__supadata-ai__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,73 +21,70 @@ provenance:
         extracted_url: https://github.com/supadata-ai/mcp
         surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
         confidence: high
-    - id: discovery__supadata__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Supadata
-        extracted_url: https://supadata.ai
-        surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 46
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2025-07-13T18:02:34Z"
+    pushed_at: "2026-03-25T15:15:02Z"
+    description: Official Supadata MCP Server - Adds powerful video & web scraping to Cursor, Claude and any other LLM clients.
+    homepage: https://supadata.ai
+    topics:
+      - ai
+      - crawler
+      - llm
+      - mcp
+      - scrape
+      - tiktok
+      - transcript
+      - whisper
+      - youtube
+    last_checked_at: "2026-05-06T22:46:37.489Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:37.489Z"
+      bytes: 4485
 insights:
-  summary: A developer API that extracts transcripts, metadata, and structured data from web pages and social media videos (YouTube, TikTok, Instagram, X, Facebook) for AI training and retrieval pipelines.
-  why_it_matters: Developers building RAG systems or AI agents can pipe social and web content directly into their pipelines without maintaining brittle scrapers for individual platforms.
-  mental_damage: We have reached the point where an API exists solely to feed Rick Astley lyrics into a vector database at enterprise scale.
+  summary: An MCP server that exposes Supadata's video transcript extraction, web scraping, crawling, and AI-powered structured data extraction as tools for Cursor, Claude, and other LLM clients.
+  why_it_matters: It lets coding agents directly pull transcripts, scrape pages, and extract structured data from video content without leaving the IDE or writing custom scripts.
+  mental_damage: Nothing says 'AI engineering' quite like installing a dedicated server just to let your assistant watch YouTube videos for you.
   tags:
-    - api
-    - data-extraction
-    - rag
-    - web-scraping
-    - youtube
+    - mcp
+    - scraping
+    - transcripts
+    - web-crawling
+    - llm-tools
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general-purpose data extraction API for social media and web content, not a developer-facing AI tool, agent, workflow, or infrastructure component.
+  status: included
+  reason: The product is an MCP server whose primary identity is exposing Supadata's video and web scraping capabilities to MCP-compatible clients.
   evidence:
-    - The product is described as a 'Web & YouTube to text API for makers' aimed at AI training and retrieval, not developer tooling or coding workflows.
-    - It provides a REST API for transcripts and metadata, functioning as a content pipeline utility rather than a coding agent, IDE, app builder, or AI framework.
-    - Appears in awesome-mcp-servers only as an MCP data source, but the product itself is a generic content API with no AI-agent, IDE, or developer-workflow-native surface.
+    - Repo description explicitly states it is the 'Official Supadata MCP Server' for Cursor, Claude, and other LLM clients.
+    - README documents MCP tools for transcript, scrape, map, crawl, metadata, and AI-powered extract.
+    - Listed in awesome-mcp-servers under 'Official Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:28.428Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:37.489Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:47.462Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

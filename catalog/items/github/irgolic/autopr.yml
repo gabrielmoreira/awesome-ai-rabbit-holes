@@ -1,13 +1,13 @@
 id: github__irgolic__autopr
 kind: github-repo
-name: AutoPR
+name: autopr
 canonical_url: https://github.com/irgolic/autopr
 identity:
   github_repo: irgolic/autopr
 provenance:
   discoveries:
     - id: discovery__github__irgolic__autopr__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -43,28 +43,20 @@ metadata:
       - gpt-4
       - llm
       - openai
-    last_checked_at: "2026-05-05T21:02:46.455Z"
+    last_checked_at: "2026-05-06T22:44:26.196Z"
     readme:
-      fetched_at: "2026-05-05T21:02:46.455Z"
+      fetched_at: "2026-05-06T22:44:26.196Z"
       bytes: 2732
 insights:
-  summary: AutoPR is an archived GitHub Action that autonomously generates and opens pull requests in response to labeled issues using early LLM workflows.
-  why_it_matters: It offers a historical look at one of the first attempts to automate the full code-change lifecycle from issue to PR, predating modern coding agents.
-  mental_damage: A pioneer in showing us that letting a 2023 LLM autonomously push branches was a great way to collect duplicated lines and hallucinations in a neat PR format.
-  tags:
-    - archived
-    - autonomous
-    - github-action
-    - llm
-    - pull-requests
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: The repository is archived and described by its author as an alpha-era demo that 'worked about 20% of the time', making it a historical artifact rather than a usable developer tool.
-  evidence:
-    - Repo is explicitly marked as archived on GitHub.
-    - README states it was an alpha release from March 2023 that worked 'about 20% of the time'.
-    - Author describes it as 'a brief glimpse into the past' rather than an active tool.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -72,21 +64,23 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:31.848Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:46.455Z"
+    updated_at: "2026-05-06T22:44:26.196Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:02:34.388Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__irgolic__autopr: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

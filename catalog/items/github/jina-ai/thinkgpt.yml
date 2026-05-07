@@ -1,13 +1,13 @@
 id: github__jina-ai__thinkgpt
 kind: github-repo
-name: ThinkGPT
+name: thinkgpt
 canonical_url: https://github.com/jina-ai/thinkgpt
 identity:
   github_repo: jina-ai/thinkgpt
 provenance:
   discoveries:
-    - id: discovery__github__alaeddine-13__thinkgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__jina-ai__thinkgpt__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,55 +33,50 @@ metadata:
     description: Agent techniques to augment your LLM and push it beyong its limits
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:55.720Z"
+    last_checked_at: "2026-05-06T22:44:34.620Z"
     readme:
-      fetched_at: "2026-05-05T21:02:55.720Z"
+      fetched_at: "2026-05-06T22:44:34.620Z"
       bytes: 8838
 insights:
-  summary: ThinkGPT is a Python library that implements Chain of Thoughts, memory, and reasoning primitives to extend LLM capabilities with techniques like self-refinement and knowledge compression.
-  why_it_matters: It provides developers with importable building blocks to solve limited context windows and add higher-order reasoning to their own LLM-powered applications.
-  mental_damage: Yet another reminder that the industry is frantically building external brains to compensate for the fact that our models still can't remember what they did five minutes ago.
+  summary: ThinkGPT is a Python library that implements Chain of Thoughts, long-term memory, and self-refinement primitives to extend LLM capabilities beyond their context limits.
+  why_it_matters: It gives developers code-first building blocks to add reasoning, compressed knowledge retrieval, and self-healing code generation to their own LLM-powered applications.
+  mental_damage: Now you can spend your afternoon teaching a language model how to summarize its own notes instead of just writing the code yourself.
   tags:
-    - chain-of-thought
-    - library
     - llm
-    - llm-library
     - memory
-    - python
     - reasoning
+    - python-library
+    - langchain
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and SDK that developers import to build LLM features, fitting the AI Frameworks and SDKs category rather than a user-facing agent or app builder.
+  reason: This is a code-first library used by developers to build reasoning and memory systems into their applications, fitting the Agent Frameworks section of Frameworks & SDKs.
   evidence:
-    - Repo description states it is 'Agent techniques to augment your LLM', framing it as a library.
-    - README explicitly describes it as 'a Python library aimed at implementing Chain of Thoughts for Large Language Models (LLMs)' with a pythonic API.
-    - Source list context confirms inclusion in awesome-langchain under 'Tools > Agents' as a project using the framework.
-    - Repo description states it is for 'Agent techniques to augment your LLM' and the README confirms it is a 'Python library'.
-    - Features are implemented as importable methods like llm.memorize(), llm.remember(), and llm.refine().
-    - Created in April 2023 and last pushed in May 2024, showing it is an established, active library.
+    - Repo description describes it as 'Agent techniques to augment your LLM' via a Python library.
+    - README states 'ThinkGPT is a Python library aimed at implementing Chain of Thoughts for LLMs' with a pythonic API.
+    - Source list awesome-langchain includes it under 'Tools > Agents', confirming its framework identity.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (1578) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:27.496Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:55.720Z"
+    updated_at: "2026-05-06T22:44:34.620Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:19.568Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__psu3d0__spreadsheet-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 43
+    stars: 44
     forks: 5
     license: Apache-2.0
     archived: false
@@ -37,44 +37,50 @@ metadata:
       - spreadsheet-agent
       - spreadsheet-ai
       - spreadsheet-mcp
-    last_checked_at: "2026-05-05T23:08:11.305Z"
+    last_checked_at: "2026-05-06T22:45:58.942Z"
     readme:
-      fetched_at: "2026-05-05T23:08:11.305Z"
+      fetched_at: "2026-05-06T22:45:58.941Z"
       bytes: 30518
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Rust-based MCP server, CLI, and SDK that gives LLM agents a token-efficient, stateful way to read, analyze, and safely mutate Excel workbooks without UI automation.
+  why_it_matters: It replaces brittle screenshot-based spreadsheet workflows with deterministic JSON contracts, dry-run edits, recalc loops, and diff proofs tailored for agent tool use.
+  mental_damage: We have finally built a safe, event-sourced way for agents to mutate your financial models, which is definitely the most comforting possible use of recursive LLM loops.
+  tags:
+    - mcp
+    - spreadsheet
+    - agent-tooling
+    - cli
+    - rust
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product’s core identity is an MCP server for spreadsheet interaction, with an MCP-first design that explicitly ships a stateful MCP surface alongside CLI and SDK forms.
+  evidence:
+    - "Repo description: 'MCP server for spreadsheet analysis and editing. Slim, token-efficient tool surface designed for LLM agents.'"
+    - "README: 'MCP server | spreadsheet-mcp | Stateful | Multi-turn agent sessions, workbook caching, fork/recalc workflows'."
+    - "Source list: included in awesome-mcp-servers under Server Implementations > Developer Tools."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:11.305Z"
+    updated_at: "2026-05-06T22:45:58.942Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:07.026Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

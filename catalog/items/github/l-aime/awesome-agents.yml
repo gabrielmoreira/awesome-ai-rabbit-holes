@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__l-aime__awesome-agents__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -35,49 +35,50 @@ metadata:
       - agent
       - ai
       - python
-    last_checked_at: "2026-05-05T21:03:14.741Z"
+    last_checked_at: "2026-05-06T22:44:53.451Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.741Z"
+      fetched_at: "2026-05-06T22:44:53.450Z"
       bytes: 22090
 insights:
-  summary: A curated meta-list of AI agent projects, frameworks, and research papers covering categories from software development agents to multi-agent collaboration.
-  why_it_matters: It serves as a navigational map for developers trying to make sense of the exploding ecosystem of agent frameworks and tools.
-  mental_damage: "Just what the world needed: another list to add to the list of lists, ensuring you spend more time curating your reading list than reading the papers themselves."
+  summary: A curated directory of AI agent projects, frameworks, research papers, and architectural patterns spanning software development, research, and multi-agent collaboration.
+  why_it_matters: It provides a categorized map of the agent ecosystem, helping developers quickly navigate the fragmented landscape of frameworks and tools.
+  mental_damage: Another curated list to bookmark right before the next framework drops and renders the entire taxonomy obsolete.
   tags:
     - agents
-    - awesome-list
-    - meta-list
     - directory
+    - frameworks
+    - research
+    - list
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list of AI tools and research rather than a standalone developer tool, fitting the awesome-awesomes category.
+  reason: The repository is a curated index of agent tools and research rather than a standalone product, fitting the navigation-aid role of the awesome-awesomes category.
   evidence:
-    - Repo description explicitly states it is 'A curated collection of cutting-edge AI agent projects, frameworks, and research papers.'
-    - README is structured as a directory with tables of contents linking to other projects like OpenDevin, MetaGPT, and AutoGPT.
-    - Listed in the 'awesome-agent-orchestration' source list under the 'Related Awesome Lists' section.
+    - Repo description states it is 'A curated collection of cutting-edge AI agent projects, frameworks, and research papers.'
+    - README contains tables categorizing projects like 'Software Development Agents' and 'Multi-Agent Collaboration' without providing a runnable tool.
+    - Listed in source lists under 'awesome-agent-orchestration' with the purpose of curating agent frameworks and protocols.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.741Z"
+    updated_at: "2026-05-06T22:44:53.451Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:50.051Z"
+    updated_at: "2026-05-06T23:08:12.622Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

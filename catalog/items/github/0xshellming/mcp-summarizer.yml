@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xshellming__mcp-summarizer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [0xshellming/mcp-summarizer](https://github.com/0xshellming/mcp-summarizer) 📕 ☁️ - AI Summarization MCP Server, Support for multiple content types: Plain text, Web pages, PDF documents, EPUB books, HTML content"
         confidence: high
     - id: discovery__github__0xshellming__mcp-summarizer__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -56,49 +56,49 @@ metadata:
       - ebook
       - gemini
       - summarizer
-    last_checked_at: "2026-05-05T21:00:43.523Z"
+    last_checked_at: "2026-05-06T22:12:19.715Z"
     readme:
-      fetched_at: "2026-05-05T21:00:43.523Z"
+      fetched_at: "2026-05-06T22:12:19.715Z"
       bytes: 3145
 insights:
-  summary: An MCP server that provides content summarization capabilities for text, web pages, PDF documents, and EPUB books using Google's Gemini 1.5 Pro model.
-  why_it_matters: It allows developers to wire AI-powered content summarization directly into MCP-compatible IDEs and agents, reducing context-switching when digesting technical documentation or long-form content.
-  mental_damage: Because nothing says 'efficient learning' like installing a local server to summarize a README that you could have read in the time it took to configure the server.
+  summary: An MCP server that provides content summarization capabilities for text, URLs, PDFs, and EPUB files using Google's Gemini 1.5 Pro model.
+  why_it_matters: It allows coding agents and MCP-compatible clients to ingest and condense long-form content like documentation or ebooks directly into their context window.
+  mental_damage: We have successfully abstracted the act of reading into a network call, ensuring your AI agent can now summarize an entire EPUB in the time it takes you to find the 'summarize' tool in your config file.
   tags:
     - mcp
     - summarization
     - gemini
-    - context-engineering
+    - context
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation for content summarization, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The repository is explicitly an MCP server implementation designed to give AI clients summarization capabilities, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP Server for AI Summarization'."
-    - README details an MCP server implementation with tools for summarizing text, URLs, PDFs, and EPUBs.
-    - Listed in both 'awesome-mcp-list' (Utilities) and 'awesome-mcp-servers' (Knowledge & Memory).
+    - "Repo description states: 'MCP Server for AI Summarization'."
+    - README details a Model Context Protocol server providing a 'summarize' tool for various content types.
+    - Listed in 'awesome-mcp-servers' under 'Knowledge & Memory' and 'awesome-mcp-list' under 'Utilities'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (161) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:43.523Z"
+    updated_at: "2026-05-06T22:12:19.715Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:53.674Z"
+    updated_at: "2026-05-06T22:17:30.543Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

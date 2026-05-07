@@ -1,13 +1,13 @@
 id: github__priivacy-ai__spec-kitty
 kind: github-repo
-name: Spec Kitty
+name: spec-kitty
 canonical_url: https://github.com/priivacy-ai/spec-kitty
 identity:
   github_repo: priivacy-ai/spec-kitty
 provenance:
   discoveries:
     - id: discovery__github__priivacy-ai__spec-kitty__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1191
+    stars: 1195
     forks: 94
     license: MIT
     archived: false
     created_at: "2025-10-09T12:29:47Z"
-    pushed_at: "2026-05-05T19:19:52Z"
+    pushed_at: "2026-05-06T20:01:38Z"
     description: Spec-Driven Development for serious software developers. Spec Coding with with Claude, Cursor, Gemini, Codex. Kanban dashboard, git worktrees, auto-merge and more.
     homepage: https://priivacy-ai.github.io/spec-kitty/
     topics:
@@ -52,44 +52,50 @@ metadata:
       - structured-development
       - teams
       - windsurf
-    last_checked_at: "2026-05-05T23:08:09.863Z"
+    last_checked_at: "2026-05-06T22:45:57.609Z"
     readme:
-      fetched_at: "2026-05-05T23:08:09.863Z"
-      bytes: 81119
+      fetched_at: "2026-05-06T22:45:57.609Z"
+      bytes: 4977
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard.
+  why_it_matters: It imposes structure on AI-generated code by keeping specs, plans, and tasks in the repo, preventing requirements from vanishing into the void during long agent sessions.
+  mental_damage: Finally, a tool to manage the chaos of five different AI agents editing your repo, just in case you were worried your workflow didn't have enough YAML and worktrees yet.
+  tags:
+    - spec-driven
+    - cli
+    - multi-agent
+    - git-worktrees
+    - kanban
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is a spec-first loop for planning and executing AI coding work, explicitly positioning itself as spec-driven development infrastructure rather than a standalone coding agent.
+  evidence:
+    - "Repo description states: 'Spec-Driven Development for serious software developers' with a spec -> plan -> tasks -> next -> review -> accept -> merge pipeline."
+    - README defines the product as 'an open-source CLI for turning product intent into a repeatable agent workflow' centered on repository-native mission artifacts.
+    - Listed in the 'awesome-spec-driven-development' directory under the 'Workflow Management' section, reinforcing its spec-first identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1191) exceeded threshold (150)
+  reason: Stars (1195) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:09.863Z"
+    updated_at: "2026-05-06T22:45:57.609Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:51.325Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

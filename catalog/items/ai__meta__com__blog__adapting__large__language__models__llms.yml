@@ -1,0 +1,77 @@
+id: ai__meta__com__blog__adapting__large__language__models__llms
+kind: website
+name: adapting-large-language-models-llms
+canonical_url: https://ai.meta.com/blog/adapting-large-language-models-llms
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ai__meta__com__blog__adapting__large__language__models__llms__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: "Part 1: Methods for adapting large language models"
+        extracted_url: https://ai.meta.com/blog/adapting-large-language-models-llms
+        surrounding_text: "20. [Part 1: Methods for adapting large language models](https://ai.meta.com/blog/adapting-large-language-models-llms/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Meta AI blog post explaining the spectrum of approaches for adapting large language models to domain data, including pre-training, fine-tuning, RAG, and in-context learning.
+  why_it_matters: It provides small AI product teams with a decision flowchart and practical guidance for choosing cost-effective LLM adaptation strategies without defaulting to expensive retraining.
+  mental_damage: Another foundational explainer to bookmark and feel smart about, right before copy-pasting a prompt and calling it fine-tuning anyway.
+  tags:
+    - llm-adaptation
+    - meta-ai
+    - rag
+    - fine-tuning
+    - prompt-engineering
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a static educational blog post from Meta, not a developer tool, framework, agent, or reusable resource, and therefore falls outside the catalog's product-and-tooling scope.
+  evidence:
+    - URL points to a Meta AI blog post, not a GitHub repo or product page.
+    - The excerpt is entirely educational content covering LLM adaptation methods and decision flowcharts.
+    - Seen in awesome-LLM-resources under 'Tips', reinforcing its identity as a learning resource rather than tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:31.298Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__jakobdylanc__llmcord
 kind: github-repo
-name: discord-llm-chatbot
+name: llmcord
 canonical_url: https://github.com/jakobdylanc/llmcord
 identity:
   github_repo: jakobdylanc/llmcord
 provenance:
   discoveries:
-    - id: discovery__github__jakobdylanc__discord-llm-chatbot__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__jakobdylanc__llmcord__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 793
+    stars: 794
     forks: 190
     license: MIT
     archived: false
@@ -46,50 +46,50 @@ metadata:
       - openai
       - openrouter
       - vllm
-    last_checked_at: "2026-05-05T21:02:49.954Z"
+    last_checked_at: "2026-05-06T22:44:29.468Z"
     readme:
-      fetched_at: "2026-05-05T21:02:49.954Z"
+      fetched_at: "2026-05-06T22:44:29.468Z"
       bytes: 7116
 insights:
-  summary: A lightweight Python bot that turns Discord into a collaborative frontend for any OpenAI-compatible LLM, supporting reply-based threading and model switching.
-  why_it_matters: It lets teams self-host a shared AI chat interface using local or remote models without standing up a dedicated web app or SaaS.
-  mental_damage: Finally, a way to make architectural decisions with your LLM while arguing with your teammates in a Discord thread at 2 AM.
+  summary: A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations.
+  why_it_matters: It gives teams a zero-friction way to collaborate around LLMs directly inside Discord, with easy model switching and support for both cloud and local inference.
+  mental_damage: Finally, a way to escalate your team’s AI prompting habits into a shared Discord channel where everyone can branch, reply, and collectively wonder why the bot is using gpt-5 to debug a CSS margin.
   tags:
-    - chatbot
     - discord
-    - llm
+    - llm-frontend
     - local-ai
+    - chatbot
     - openai-compatible
   confidence: high
 curation:
   status: included
-  reason: This is a developer-tooling project for running LLMs as a Discord bot with strong local-AI support, fitting the local-ai category rather than coding agents or app builders.
+  reason: The project is a self-hosted Discord bot whose core value is providing a local- or self-hosted chat interface for LLMs, directly aligning with the Local AI category’s desktop/chat interfaces section.
   evidence:
     - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API (Ollama, xAI, Gemini, OpenRouter and more)'"
-    - README states it works with local models via Ollama, LM Studio, vLLM, and any OpenAI-compatible API server.
-    - Seen in awesome-local-ai under User Tools, aligning with local execution and developer utility.
+    - "README excerpt emphasizes local runtimes: 'Or run local models with: Ollama, LM Studio, vLLM... Or use any other OpenAI compatible API server.'"
+    - "Seen in awesome-local-ai under section: User Tools"
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (793) exceeded threshold (150)
+  reason: Stars (794) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:20.547Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:49.954Z"
+    updated_at: "2026-05-06T22:44:29.468Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:16.090Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

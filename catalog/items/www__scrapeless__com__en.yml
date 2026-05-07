@@ -1,0 +1,76 @@
+id: www__scrapeless__com__en
+kind: website
+name: en
+canonical_url: https://www.scrapeless.com/en
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__scrapeless__com__en__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Scrapeless
+        extracted_url: https://www.scrapeless.com/en
+        surrounding_text: "- **[Scrapeless](https://github.com/scrapeless-ai/scrapeless-mcp-server)** - Integrate real-time [Scrapeless](https://www.scrapeless.com/en) Google SERP(Google Search, Google Flight, Google Map, Google Jobs....) results into your LLM applications. This server enables dynamic context retrieval for AI workflows, chatbots, and research tools."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Scrapeless is a commercial web scraping platform providing APIs, cloud browsers, proxies, and a dedicated MCP server to give AI agents reliable, anti-bot access to the public web.
+  why_it_matters: It offers developers a drop-in solution for bypassing CAPTCHAs, IP bans, and JS rendering issues when building AI agents that need to ingest live web data.
+  mental_damage: We have successfully abstracted away the internet itself into a paid API, ensuring your agent never has to experience the character-building frustration of a 403 error again.
+  tags:
+    - web-scraping
+    - mcp
+    - ai-agents
+    - data-extraction
+  confidence: medium
+curation:
+  status: included
+  reason: Included under MCP Servers because the product recently launched a dedicated MCP Server to act as an AI-web connector, fitting the 'Domain Servers' section.
+  evidence:
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
+    - "Scraped site context explicitly states: 'Scrapeless MCP Server Is Officially Live! Build Your Ultimate AI-Web Connector'."
+    - Product identity is a full-stack scraping toolkit (APIs, Proxies, Browser) exposing capabilities via MCP.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.669Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:35.446Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

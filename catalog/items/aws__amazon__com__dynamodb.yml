@@ -1,12 +1,12 @@
 id: aws__amazon__com__dynamodb
 kind: website
-name: DynamoDB
+name: dynamodb
 canonical_url: https://aws.amazon.com/dynamodb
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aws__amazon__com__dynamodb__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database service designed for high-performance applications at any scale.
-  why_it_matters: It provides developers with zero-infrastructure database management, instant scaling, and single-digit millisecond performance for building serverless applications.
-  mental_damage: Your AI agent can now hallucinate a perfectly valid DynamoDB schema, leaving you to debug the eventual consistency model it didn't understand.
+  summary: Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed for high-performance applications at any scale.
+  why_it_matters: Developers building AI applications often need low-latency, scalable storage for session state, chat history, and vector metadata, which DynamoDB provides out of the box.
+  mental_damage: It remains the de facto choice for engineers who enjoy explaining eventual consistency over drinks while their AI agents churn through terabytes of context.
   tags:
-    - aws
     - database
-    - infrastructure
-    - nosql
+    - aws
     - serverless
+    - nosql
   confidence: high
 curation:
   status: excluded
-  reason: DynamoDB is a core cloud infrastructure service, not an AI developer tool, agent, or workflow product, despite appearing in an MCP server list.
+  reason: DynamoDB is a foundational cloud database service, not a developer-facing AI tool, agent, framework, or coding workflow product.
   evidence:
-    - Scraped site context describes a managed NoSQL database service, not an AI tool.
-    - Source-list context shows it is listed as a 'Community Server' for MCP, but the product itself has no AI developer-tooling interface.
+    - Primary page excerpt describes a managed NoSQL database service with no AI-driven coding, agent, or context-engineering features.
+    - Seen in awesome-mcp-servers only as a target database, not as an MCP server or AI tool itself.
+    - No repo description, stars, or code artifacts provided; the item is a cloud infrastructure product, not an AI developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:23.597Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:31.249Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

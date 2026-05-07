@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cscsoftware__aidex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-01-26T18:22:10Z"
-    pushed_at: "2026-05-04T21:25:25Z"
+    pushed_at: "2026-05-06T22:26:27Z"
     description: MCP Server for persistent code indexing. Gives AI assistants (Claude, Gemini, Copilot, Cursor) instant access to your codebase. 50x less context than grep.
     homepage: https://www.npmjs.com/package/aidex-mcp
     topics:
@@ -49,50 +49,50 @@ metadata:
       - tree-sitter
       - vscode
       - windsurf
-    last_checked_at: "2026-05-05T21:01:43.338Z"
+    last_checked_at: "2026-05-06T22:43:30.060Z"
     readme:
-      fetched_at: "2026-05-05T21:01:43.338Z"
+      fetched_at: "2026-05-06T22:43:30.060Z"
       bytes: 39883
 insights:
-  summary: An MCP server that provides persistent code indexing, semantic search, memory, and telemetry to AI coding assistants, claiming to reduce context usage by up to 50x compared to grep.
-  why_it_matters: It gives local AI agents a persistent, cross-project memory and low-token search layer so they stop re-reading your entire codebase on every prompt.
-  mental_damage: We have now built a brain with 33 tools just so our AI assistants can remember what they were doing five minutes ago without burning through a novel's worth of tokens.
+  summary: An MCP server that provides AI coding assistants with persistent memory, semantic code search, and live telemetry using a local-first, token-efficient index.
+  why_it_matters: It lets models search and remember across sessions with far less context than grep, reducing token waste while giving assistants cross-project memory and live app telemetry.
+  mental_damage: We have successfully abstracted the abstraction by adding a memory server to the tool that talks to the model that talks to the IDE that talks to the code we forgot we wrote.
   tags:
     - mcp
-    - code-search
     - context-engineering
-    - memory-layer
-    - developer-tools
+    - code-search
+    - memory
+    - token-efficiency
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, fitting cleanly into the MCP Servers and Tooling category.
+  reason: Its core novelty is a memory, retrieval, and context-shaping system for coding assistants rather than being a primary coding agent or a thin host integration.
   evidence:
-    - "Repo description states: 'MCP Server for persistent code indexing.'"
-    - README identifies it as 'an MCP server that gives AI coding assistants a memory, semantic search, and live telemetry.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - "Repo description: 'MCP Server for persistent code indexing. Gives AI assistants instant access to your codebase. 50x less context than grep.'"
+    - "README: 'The persistent brain for AI coding agents… Memory, semantic search, and live telemetry — local-first, model-agnostic.'"
+    - Found in awesome-mcp-servers under Developer Tools, reinforcing MCP infrastructure identity.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:43.338Z"
+    updated_at: "2026-05-06T22:43:30.060Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:51.171Z"
+    updated_at: "2026-05-06T22:51:03.303Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

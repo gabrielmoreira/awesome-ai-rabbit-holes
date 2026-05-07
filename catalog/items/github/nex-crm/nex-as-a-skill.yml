@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nex-crm__nex-as-a-skill__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -45,50 +45,50 @@ metadata:
       - memory
       - nodejs
       - typescript
-    last_checked_at: "2026-05-05T21:03:54.020Z"
+    last_checked_at: "2026-05-06T22:45:31.816Z"
     readme:
-      fetched_at: "2026-05-05T21:03:54.020Z"
+      fetched_at: "2026-05-06T22:45:31.816Z"
       bytes: 10418
 insights:
-  summary: A CLI and skill-pack system that connects AI coding agents across platforms into a shared knowledge graph with integrations for email, Slack, and CRM tools.
-  why_it_matters: It lets developers carry context, memories, and project knowledge across Claude Code, Cursor, Windsurf, and other agents without re-explaining or re-pasting information.
-  mental_damage: You have finally solved the problem of your AI agents having no long-term memory, only to realize they now remember every half-baked idea and deprecated API decision you hoped they would forget.
+  summary: Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms.
+  why_it_matters: It lets teams persist and recall context across different AI coding assistants and workplace tools so agents get smarter the more the team works.
+  mental_damage: We have officially reached the point where your AI agents need their own CRM to remember who Maria Rodriguez is and why she has a Q3 budget.
   tags:
-    - context-engineering
-    - knowledge-graph
+    - memory
+    - context
     - mcp
+    - knowledge-graph
     - cli
-    - agent-memory
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a reusable layer of slash commands, rules packs, and platform plugins designed to teach other AI agents how to use Nex's shared memory and knowledge graph.
+  reason: The primary artifact is a reusable pack of skills, slash commands, and platform rules that teach agents how to use the Nex memory layer, which fits Agent Skills best; the underlying Nex platform is not the distributed artifact here.
   evidence:
-    - README explicitly structures the project around plugin-commands/, platform-rules/, and platform-plugins/ for Claude Code, Cursor, Windsurf, and others.
-    - Repo description and topics emphasize context-engineering, MCP, memory, and agent infrastructure rather than being a standalone coding assistant.
-    - Source list placement under 'Harnesses & orchestration > Agent infrastructure' aligns with a skills/infrastructure layer rather than a primary coding agent.
+    - Repo description and README position Nex as a knowledge graph and memory layer for AI agents.
+    - README shows the core content is slash commands in plugin-commands/, platform rules in platform-rules/, and plugins in platform-plugins/.
+    - Topics include context-engineering, mcp, memory, and developer-tools, aligning with skill/context distribution.
 placement:
   primary_category: skills
-  section: null
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:54.020Z"
+    updated_at: "2026-05-06T22:45:31.816Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:29.506Z"
+    updated_at: "2026-05-06T23:17:09.039Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

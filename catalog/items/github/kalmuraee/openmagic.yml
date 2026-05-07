@@ -1,13 +1,13 @@
 id: github__kalmuraee__openmagic
 kind: github-repo
-name: OpenMagic
+name: openmagic
 canonical_url: https://github.com/kalmuraee/openmagic
 identity:
   github_repo: kalmuraee/openmagic
 provenance:
   discoveries:
     - id: discovery__github__kalmuraee__openmagic__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,50 +49,50 @@ metadata:
       - vibe-coding
       - vue
       - web-development
-    last_checked_at: "2026-05-05T21:03:02.435Z"
+    last_checked_at: "2026-05-06T22:44:39.911Z"
     readme:
-      fetched_at: "2026-05-05T21:03:02.435Z"
+      fetched_at: "2026-05-06T22:44:39.911Z"
       bytes: 12626
 insights:
-  summary: OpenMagic is a local reverse-proxy tool that injects a floating AI toolbar into any running web app, allowing developers to select elements, capture context, and apply AI-generated code patches with HMR refresh.
-  why_it_matters: It enables visual, in-context editing of live web applications without requiring IDE plugins or framework-specific integrations, bridging the gap between browser inspection and codebase modification.
-  mental_damage: We have finally achieved the perfect symbiosis of 'vibe coding' and reverse proxies, ensuring your local dev server now needs a firewall just to protect it from your own good ideas.
+  summary: OpenMagic is a local Node.js reverse proxy that injects a floating AI coding toolbar into any running web app, allowing developers to select elements, capture context, and apply AI-generated code patches via their own LLM API keys.
+  why_it_matters: It lets frontend developers modify components and styles directly from the browser preview with real-time diffs and HMR, without needing an IDE plugin or account.
+  mental_damage: Finally, a way to let a language model edit your hot-reloading frontend from a floating toolbar, because apparently we needed to recreate the browser dev tools experience with an API key and a leap of faith.
   tags:
-    - in-context-editing
-    - llm-toolbar
-    - local-ai
+    - ai-toolbar
     - reverse-proxy
-    - vibe-coding
+    - frontend
+    - local-first
+    - hot-reload
   confidence: medium
 curation:
   status: included
-  reason: The tool operates as a local CLI-driven agent that directly modifies source code in a repo via a browser toolbar interface, fitting the coding-agents definition of editing code inside a developer's workflow.
+  reason: The product acts as a primary coding assistant that directly reads code, captures UI context, plans changes, and edits files through a browser-based interface, fitting the coding-agents category over an extension.
   evidence:
-    - Repo description states it is an 'AI-powered coding toolbar' that lets AI 'modify your codebase in real-time'.
-    - README confirms it runs via 'npx openmagic@latest' as a reverse proxy to handle 'File Read/Write' and 'LLM API Proxy'.
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Repo description states it is an 'AI-powered coding toolbar' that modifies codebases in real-time.
+    - README describes a standalone local server that handles file I/O and LLM calls as the primary interface, not as a plugin to another assistant.
+    - Active as of 2026-05-02 with recent development, presented as an independent tool rather than an augmentation.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:01.838Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:02.435Z"
+    updated_at: "2026-05-06T22:44:39.911Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:28.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

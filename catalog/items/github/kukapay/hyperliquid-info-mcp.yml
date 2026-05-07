@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__hyperliquid-info-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: An MCP server that provides real-time data and insights from the Hyperliquid perp DEX for use in bots, dashboards, and analytics.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:11.761Z"
+    last_checked_at: "2026-05-06T22:44:49.363Z"
     readme:
-      fetched_at: "2026-05-05T21:03:11.761Z"
+      fetched_at: "2026-05-06T22:44:49.362Z"
       bytes: 6158
 insights:
-  summary: An MCP server that exposes real-time user and market data from the Hyperliquid perp DEX for use in bots, dashboards, and analytics workflows.
-  why_it_matters: Developers building trading bots or crypto analytics tools can plug this into MCP-compatible agents to query positions, orders, and candlestick data without writing custom API integrations.
-  mental_damage: We have officially reached the point where decentralized perpetual swaps now require their own Model Context Protocol server to feel accessible to an LLM.
+  summary: An MCP server that exposes real-time user and market data from the Hyperliquid perp DEX for use in trading bots, dashboards, and analytics.
+  why_it_matters: Developers building crypto trading tools can wire Hyperliquid account positions, orders, funding, and candlestick data directly into MCP-compatible assistants and workflows.
+  mental_damage: The dream of asking Claude Desktop to analyze your leveraged BTC position is now technically possible, which is exactly the kind of financial decision support you should probably not automate.
   tags:
     - mcp
     - crypto
     - trading
-    - dex
-    - api
-  confidence: medium
+    - finance
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server providing Hyperliquid DEX data, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server exposing crypto exchange data, which fits cleanly as a domain-specific MCP server rather than a coding agent or extension.
   evidence:
-    - Repo description states it is 'An MCP server that provides real-time data and insights from the Hyperliquid perp DEX'.
-    - README details MCP tools like get_user_state, get_candles_snapshot, and an analyze_positions prompt.
-    - Listed in the awesome-mcp-servers directory under Finance & Fintech.
+    - "Repo description: 'An MCP server that provides real-time data and insights from the Hyperliquid perp DEX'"
+    - "README shows MCP-native usage: 'mcp dev main.py' and 'mcp install main.py --name Hyperliquid Info'"
+    - Listed in awesome-mcp-servers under Finance & Fintech, confirming MCP server identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:11.761Z"
+    updated_at: "2026-05-06T22:44:49.363Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:12.191Z"
+    updated_at: "2026-05-06T23:07:31.745Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

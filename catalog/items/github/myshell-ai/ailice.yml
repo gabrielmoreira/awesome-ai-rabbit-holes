@@ -1,13 +1,13 @@
 id: github__myshell-ai__ailice
 kind: github-repo
-name: AIlice
+name: ailice
 canonical_url: https://github.com/myshell-ai/ailice
 identity:
   github_repo: myshell-ai/ailice
 provenance:
   discoveries:
     - id: discovery__github__myshell-ai__ailice__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -36,28 +36,28 @@ metadata:
       - ai
       - llm
       - llm-agent
-    last_checked_at: "2026-05-05T21:03:50.400Z"
+    last_checked_at: "2026-05-06T22:45:28.638Z"
     readme:
-      fetched_at: "2026-05-05T21:03:50.400Z"
+      fetched_at: "2026-05-06T22:45:28.638Z"
       bytes: 60870
 insights:
-  summary: A fully autonomous, general-purpose AI agent built on open-source LLMs that uses an Interactive Agents Call Tree architecture to perform complex tasks including coding, research, and system management.
-  why_it_matters: Developers can run a local, JARVIS-like assistant that decomposes complex coding and research tasks into dynamic sub-agents using their choice of local or commercial LLMs.
-  mental_damage: Yet another autonomous agent framework arrives to ensure that while the AI plans its self-evolution, you are still manually debugging why it chose to `rm -rf` the wrong directory.
+  summary: AIlice is a fully autonomous, general-purpose AI agent built on open-source LLMs that uses an Interactive Agents Call Tree architecture to handle complex tasks like themed research, coding, and system management.
+  why_it_matters: It offers developers a framework for running a self-contained, locally-hosted 'JARVIS-like' assistant capable of decomposing complex tasks without relying solely on cloud APIs.
+  mental_damage: Just when you thought your terminal was safe, here comes a recursive call tree of agents ready to refactor your repo while you wonder if you're still the senior developer.
   tags:
     - autonomous-agent
-    - llm
     - local-ai
-    - mcp
+    - llm
+    - open-source
     - multi-agent
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing autonomous agent that can directly perform coding, system management, and research tasks via CLI/local execution, fitting the coding-agents category.
+  reason: AIlice is a standalone, autonomous AI agent that directly plans and executes complex tasks including coding and system management via a CLI/repo workflow, fitting the Coding Agents profile.
   evidence:
-    - Repo description explicitly defines it as a 'fully autonomous, general-purpose AI agent' proficient in coding and system management.
-    - README details a CLI/local usage model where developers install and interact with the agent to perform complex tasks.
-    - Recent activity includes MCP tool support (Mar 2025) and pushes as recent as Aug 2025, showing active development.
+    - "Repo description explicitly states: 'AIlice is a fully autonomous, general-purpose AI agent.'"
+    - README claims proficiency in 'thematic research, coding, system management' using the IACT architecture.
+    - Active development with a push date of 2025-08-18 and 1406 stars, confirming it is not archived or stale.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -65,21 +65,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1406) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:42.786Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:50.400Z"
+    updated_at: "2026-05-06T22:45:28.638Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:16:23.029Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

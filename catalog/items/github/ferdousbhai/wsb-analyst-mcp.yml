@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferdousbhai__wsb-analyst-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for analyzing WallStreetBets
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:09.996Z"
+    last_checked_at: "2026-05-06T22:43:52.719Z"
     readme:
-      fetched_at: "2026-05-05T21:02:09.996Z"
+      fetched_at: "2026-05-06T22:43:52.719Z"
       bytes: 5818
 insights:
-  summary: An MCP server that fetches and analyzes real-time WallStreetBets posts, comments, and stock tickers for use with Claude Desktop and other MCP clients.
-  why_it_matters: It lets developers wire Reddit sentiment data directly into LLM workflows, enabling rapid prototyping of market-analysis agents without building a custom Reddit scraping pipeline.
-  mental_damage: We have finally bridged the gap between enterprise-grade AI infrastructure and the financial advice of strangers yelling about tendies on the internet.
+  summary: An MCP server that fetches and analyzes real-time WallStreetBets posts, comments, and trending stock tickers for LLM clients like Claude Desktop.
+  why_it_matters: It provides a ready-made bridge between Reddit's retail-investor sentiment and local LLM workflows, allowing developers to build financial analysis agents without wrestling with the Reddit API directly.
+  mental_damage: Finally, a tool to ensure your AI agent can lose money in the stock market with the same uninformed confidence as a stranger on the internet.
   tags:
     - mcp
-    - reddit
     - finance
-    - sentiment-analysis
+    - reddit
+    - data-integration
     - llm-tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server designed to expose WallStreetBets data to LLM clients, which fits squarely into the MCP Servers and Tooling category.
+  reason: The project's primary identity is an MCP server providing WallStreetBets data to LLM clients, fitting the Domain Servers section of the MCP category.
   evidence:
-    - Repo description explicitly states 'MCP server for analyzing WallStreetBets'.
-    - README confirms it is a Model Context Protocol server integrating with Claude Desktop and other MCP clients.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - "Repo description explicitly states: 'MCP server for analyzing WallStreetBets'."
+    - README confirms it is 'A Model Context Protocol (MCP) server' with 'MCP Integration' for Claude Desktop.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:09.996Z"
+    updated_at: "2026-05-06T22:43:52.719Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:21.560Z"
+    updated_at: "2026-05-06T22:55:48.148Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

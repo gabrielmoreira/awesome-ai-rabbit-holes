@@ -1,13 +1,13 @@
 id: github__zenml-io__zenml
 kind: github-repo
-name: ZenML
+name: zenml
 canonical_url: https://github.com/zenml-io/zenml
 identity:
   github_repo: zenml-io/zenml
 provenance:
   discoveries:
     - id: discovery__github__zenml-io__zenml__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [zenml-io/mcp-zenml](https://github.com/zenml-io/mcp-zenml) 🐍 🏠 ☁️ - An MCP server to connect with your [ZenML](https://www.zenml.io) MLOps and LLMOps pipelines"
         confidence: high
     - id: discovery__github__zenml-io__zenml__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[ZenML](https://github.com/zenml-io/mcp-zenml)** - Interact with your MLOps and LLMOps pipelines through your [ZenML](https://www.zenml.io) MCP server"
         confidence: high
     - id: discovery__github__zenml-io__zenml__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -82,19 +82,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flowzap-xyz__flowzap-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for FlowZap - Create workflow diagrams via AI assistants
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:12.735Z"
+    last_checked_at: "2026-05-06T22:43:55.347Z"
     readme:
-      fetched_at: "2026-05-05T21:02:12.735Z"
+      fetched_at: "2026-05-06T22:43:55.347Z"
       bytes: 7199
 insights:
-  summary: An MCP server that lets AI assistants generate workflow, sequence, and architecture diagrams using the FlowZap visual diagramming tool and its text-based DSL.
-  why_it_matters: It allows coding agents to read artifacts like HTTP logs or OpenAPI specs and automatically produce shareable visual diagrams without the developer switching contexts to a whiteboard tool.
-  mental_damage: We have successfully abstracted drawing a box with an arrow into a multi-agent protocol negotiation, because apparently opening a blank document by hand is now a workflow failure.
+  summary: An MCP server that lets AI assistants generate FlowZap workflow, sequence, and architecture diagrams from text prompts via a custom DSL.
+  why_it_matters: Developers can ask their coding agent to diagram flows, APIs, and nginx logs directly inside the editor instead of manually translating code into diagrams.
+  mental_damage: Another DSL that promises AI will finally draw the architecture diagram your team will ignore in Confluence.
   tags:
     - mcp
     - diagrams
-    - workflow
     - architecture
+    - dsl
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that exposes diagramming tools to AI assistants, fitting cleanly into the MCP infrastructure category.
+  reason: This is an MCP server that exposes diagram-generation tools to MCP-compatible coding assistants, making MCP its primary product identity.
   evidence:
-    - "Repo description explicitly states: 'MCP server for FlowZap - Create workflow diagrams via AI assistants'"
-    - README confirms it exposes tools like flowzap_create_playground and flowzap_artifact_to_diagram to MCP-compatible clients (Claude, Cursor, Windsurf, etc.)
-    - Listed in awesome-mcp-servers under 'Server Implementations > Architecture & Design'
+    - "Repo description: 'MCP server for FlowZap - Create workflow diagrams via AI assistants'"
+    - README lists tools like flowzap_create_playground and flowzap_artifact_to_diagram exposed via MCP to Claude, Cursor, Windsurf, and others
+    - Included in awesome-mcp-servers under Server Implementations > Architecture & Design
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:12.735Z"
+    updated_at: "2026-05-06T22:43:55.348Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:50.856Z"
+    updated_at: "2026-05-06T22:56:17.372Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

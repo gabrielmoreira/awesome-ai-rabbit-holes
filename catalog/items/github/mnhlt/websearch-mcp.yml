@@ -1,13 +1,13 @@
 id: github__mnhlt__websearch-mcp
 kind: github-repo
-name: WebSearch-MCP
+name: websearch-mcp
 canonical_url: https://github.com/mnhlt/websearch-mcp
 identity:
   github_repo: mnhlt/websearch-mcp
 provenance:
   discoveries:
     - id: discovery__github__mnhlt__websearch-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,50 +34,50 @@ metadata:
     topics:
       - internet-access-llm
       - websearch
-    last_checked_at: "2026-05-05T21:03:44.386Z"
+    last_checked_at: "2026-05-06T22:45:22.706Z"
     readme:
-      fetched_at: "2026-05-05T21:03:44.386Z"
+      fetched_at: "2026-05-06T22:45:22.706Z"
       bytes: 11365
 insights:
-  summary: A self-hosted Model Context Protocol server that provides web search capabilities to AI assistants like Claude by integrating with a local Crawler API and FlareSolverr setup.
-  why_it_matters: It allows developers to give their local MCP-compatible agents real-time web access without relying on hosted search APIs or leaking queries to third parties.
-  mental_damage: Another essential brick in the tower of infrastructure we are building so our AI can browse the web while we are busy configuring Docker containers for the crawler that browses the web.
+  summary: A self-hosted Model Context Protocol (MCP) server that provides web search capabilities to AI assistants like Claude by integrating with a local WebSearch Crawler API via stdio transport.
+  why_it_matters: It allows developers to give their local MCP-compatible coding agents real-time web access without relying on black-box cloud APIs.
+  mental_damage: Because nothing says 'local-first development' like spinning up a Docker container, a FlareSolverr bypass, and a custom crawler just to ask your assistant what the weather is.
   tags:
-    - docker
     - mcp
+    - web-search
     - self-hosted
     - stdio
-    - web-search
+    - crawler
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for web search, fitting cleanly into the MCP Servers and Tooling category as infrastructure rather than a primary assistant.
+  reason: This is a purpose-built MCP server providing a specific domain capability (web search), fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server implementation'.
-    - README details integration with Claude Desktop, Cursor IDE, and Cline via standard MCP configurations.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - Repo description explicitly states 'A Model Context Protocol (MCP) server implementation that provides a web search capability.'
+    - README details integration with Claude Desktop, Cursor IDE, and Cline as an MCP server.
+    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:36.271Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:44.386Z"
+    updated_at: "2026-05-06T22:45:22.706Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:01.116Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,23 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__open-gitagent__gitagent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradagi/awesome-cli-coding-agents
-        repository: bradAGI/awesome-cli-coding-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Terminal-native coding agents
-          - OpenClaw ecosystem
-        anchor_text: GitClaw
-        extracted_url: https://github.com/open-gitagent/gitclaw
-        surrounding_text: "- **[GitClaw](https://github.com/open-gitagent/gitclaw)** `⭐ 336` — Git-native AI agent framework where agent identity, rules, memory, tools, and skills are all version-controlled files. MIT."
-        confidence: high
-    - id: discovery__github__open-gitagent__gitclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -40,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 343
+    stars: 346
     forks: 62
     license: MIT
     archived: false
@@ -55,56 +39,49 @@ metadata:
       - llm
       - openclaw
       - personal
-    last_checked_at: "2026-05-05T21:04:03.056Z"
+    last_checked_at: "2026-05-06T22:45:39.955Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.056Z"
+      fetched_at: "2026-05-06T22:45:39.955Z"
       bytes: 21921
 insights:
-  summary: A git-native AI agent framework that stores an agent's identity, rules, memory, tools, and skills as version-controlled files within a repository.
-  why_it_matters: It allows developers to fork, branch, diff, and git-log their agent's behavior and memory just like application code, turning agent configuration into a standard repo workflow.
-  mental_damage: You can now peer-review your AI's soul and rules in a pull request, which is definitely a healthy boundary to maintain with software that may soon be writing the commit messages.
+  summary: Gitclaw is a CLI-based coding agent that treats the agent's identity, rules, memory, tools, and skills as version-controlled files inside a git repository.
+  why_it_matters: Developers can fork, branch, diff, and audit their agent's behavior and memory using standard git workflows, bringing version control to AI agent configuration.
+  mental_damage: We have finally solved the problem of not being able to git blame our AI's personality and memory by making the agent itself a repository you have to maintain.
   tags:
-    - agent-framework
-    - ai-agents
     - cli
-    - framework
-    - git
-    - memory
-    - sdk
-    - version-control
+    - git-native
+    - coding-agent
+    - agent-framework
   confidence: high
 curation:
   status: included
-  reason: It is a CLI-based coding agent that operates directly on local repos and GitHub repos via prompts, fitting the developer-facing repo/CLI assistant profile.
+  reason: The product is a standalone terminal-native coding assistant that developers delegate repo work to, reading code, planning changes, and editing files directly from the CLI.
   evidence:
-    - Repo description defines it as a 'universal git-native AI agent framework' where identity, rules, and memory are version-controlled files.
-    - README demo shows running `gitclaw --dir ~/my-project` to explain code and suggest improvements, and `--repo` to fix bugs on GitHub repos.
-    - SDK usage confirms it is a developer tool for querying and operating on codebases via an agent loop.
-    - Repo description defines it as a 'universal git-native AI agent framework' where the agent lives inside a git repo.
-    - README demonstrates CLI usage for running agents on local dirs or GitHub repos to fix bugs and suggest improvements.
-    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > OpenClaw ecosystem'.
+    - Repo description states it is 'A universal git-native AI agent framework' that lives inside a git repo.
+    - README demonstrates CLI usage like `gitclaw --dir ~/my-project 'Explain this project and suggest improvements'` and `--repo` mode for cloning and fixing bugs.
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (343) exceeded threshold (150)
+  reason: Stars (346) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:20.211Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.056Z"
+    updated_at: "2026-05-06T22:45:39.955Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:02.293Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

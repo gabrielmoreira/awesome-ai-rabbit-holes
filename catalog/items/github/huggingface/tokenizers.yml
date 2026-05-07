@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__tokenizers__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10693
-    forks: 1084
+    stars: 10698
+    forks: 1085
     license: Apache-2.0
     archived: false
     created_at: "2019-11-01T17:52:20Z"
-    pushed_at: "2026-05-01T19:02:26Z"
+    pushed_at: "2026-05-06T03:21:52Z"
     description: 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
     homepage: https://huggingface.co/docs/tokenizers
     topics:
@@ -40,50 +40,50 @@ metadata:
       - natural-language-understanding
       - nlp
       - transformers
-    last_checked_at: "2026-05-05T21:02:37.743Z"
+    last_checked_at: "2026-05-06T22:44:19.136Z"
     readme:
-      fetched_at: "2026-05-05T21:02:37.743Z"
+      fetched_at: "2026-05-06T22:44:19.136Z"
       bytes: 3379
 insights:
-  summary: A fast, Rust-based library for training and running state-of-the-art tokenizers (BPE, WordPiece, Unigram) with bindings for Python, Node.js, and Ruby.
-  why_it_matters: Developers building NLP pipelines or LLM infrastructure can integrate high-performance tokenization that handles training, truncation, and alignment tracking out of the box.
-  mental_damage: Another essential brick in the towering cathedral of ML infrastructure that reminds you tokenization is still something you have to worry about in 2025.
+  summary: A fast, Rust-based library for training and running BPE, WordPiece, and Unigram tokenizers optimized for both research and production NLP pipelines.
+  why_it_matters: Developers building custom LLMs or fine-tuning transformers need a high-performance tool to build vocabularies and tokenize text at scale without becoming a bottleneck.
+  mental_damage: Yet another foundational dependency that reminds you your 'vibe-coded' app is ultimately just a wrapper around meticulously engineered Rust tokenizers from 2019.
   tags:
+    - tokenizer
     - nlp
-    - tokenization
     - rust
-    - python-bindings
-    - llm-infrastructure
+    - huggingface
+    - library
   confidence: high
 curation:
-  status: included
-  reason: This is a code-first library and SDK focused on embedding tokenizer behavior into software, fitting the AI Frameworks category rather than a developer-facing agent or IDE tool.
+  status: excluded
+  reason: Excluded because it is a general-purpose NLP/ML library for text tokenization, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - Repo description identifies it as fast state-of-the-art tokenizers optimized for research and production.
-    - README details training vocabularies, bindings for Rust/Python/Node.js/Ruby, and pre/post-processing features.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', reinforcing its infrastructure/SDK role.
+    - Repo description explicitly targets 'Research and Production' NLP, not developer tooling workflows.
+    - Topics include generic ML terms like 'natural-language-processing' and 'transformers' rather than 'coding-agent' or 'IDE'.
+    - README focuses on training vocabularies and encoding text strings, lacking any coding assistant or app-building interface.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (10693) exceeded threshold (150)
+  reason: Stars (10698) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:37.743Z"
+    updated_at: "2026-05-06T22:44:19.136Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:43.256Z"
+    updated_at: "2026-05-06T23:01:08.855Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

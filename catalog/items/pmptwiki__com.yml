@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pmptwiki__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,32 +35,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform and CLI for recording, sharing, and cloning structured AI prompting journeys so that others can reproduce how a product was built with AI.
-  why_it_matters: Developers can stop guessing which vague prompt led to a working prototype by cloning documented, versioned prompt workflows and pasting them directly into Claude or Cursor.
-  mental_damage: We’ve moved from 'it works on my machine' to 'it prompted on my machine,' and now we’re publishing the hallucinations as reproducible artifacts.
+  summary: A platform and CLI for recording, sharing, and cloning structured AI product development journeys, including prompts and project history.
+  why_it_matters: It lets developers share and reproduce full vibe-coding workflows with structured prompts instead of just dumping finished code.
+  mental_damage: Because what the world definitely needed is yet another way to package, version, and flex about how many times you rewrote the same prompt before the AI stopped hallucinating.
   tags:
     - prompt-sharing
     - cli
+    - workflow
     - reproducibility
-    - mcp
   confidence: medium
 curation:
   status: included
-  reason: The product centers on capturing, structuring, and replaying prompt/context workflows across AI tools, which fits prompt and context engineering rather than being a primary coding agent or app builder.
+  reason: The core product centers on structured prompt planning, cloning journeys, and reproducible build sequences rather than acting as a coding assistant or generic platform.
   evidence:
-    - Site describes itself as 'Share how you build with AI. A platform to record and share your product development journey.'
-    - CLI commands include pmpt plan, pmpt save, pmpt clone, and copying AI prompts to clipboard for Claude/Cursor.
-    - Listed in awesome-mcp-servers under Developer Tools with MCP integration to 'record everything automatically'.
+    - "Site states: 'Share the entire journey — anyone can reproduce it' and 'Answer 5 questions, get a structured AI prompt'."
+    - "CLI workflow: pmpt plan, pmpt save, pmpt publish, and pmpt clone to reproduce projects."
+    - Listed in awesome-mcp-servers but MCP is only an adapter ('MCP Connect your AI tool — it records everything automatically').
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:47:03.517Z"
+    updated_at: "2026-05-06T22:28:22.763Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

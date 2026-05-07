@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sidneybissoli__ibge-br-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-01-18T11:23:14Z"
+    pushed_at: "2026-01-23T20:56:45Z"
+    description: MCP Server for IBGE APIs - Brazilian geographic, demographic and statistical data
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:24.823Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:24.823Z"
+      bytes: 13856
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server exposing 23 tools for querying Brazilian Institute of Geography and Statistics (IBGE) APIs, including geographic, demographic, economic, and census data.
+  why_it_matters: Developers building AI assistants for Brazilian markets can give their agents direct access to official geographic and economic data without writing custom API integrations.
+  mental_damage: Your AI agent can now explain Brazil's municipal demographics in detail, while still struggling to center a div or understand why your deployment pipeline is failing.
+  tags:
+    - mcp
+    - brazil
+    - geodata
+    - statistics
+    - api-wrapper
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a clear MCP server implementation focused on a specific data domain (Brazilian geographic and statistical data), making it a textbook fit for the MCP Domain Servers section.
+  evidence:
+    - Repo description explicitly states 'MCP Server for IBGE APIs'
+    - README confirms it implements the Model Context Protocol with 23 specialized tools for IBGE data
+    - Listed in awesome-mcp-servers directory under 'Databases' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:24.823Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:41.250Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

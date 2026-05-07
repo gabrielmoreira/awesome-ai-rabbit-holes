@@ -1,13 +1,13 @@
 id: github__huggingface__peft
 kind: github-repo
-name: PEFT
+name: peft
 canonical_url: https://github.com/huggingface/peft
 identity:
   github_repo: huggingface/peft
 provenance:
   discoveries:
     - id: discovery__github__huggingface__peft__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [PEFT](https://github.com/huggingface/peft) - Parameter efficient fine-tuning (LoRA, DoRA, model merger and more)"
         confidence: high
     - id: discovery__github__huggingface__peft__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 21066
-    forks: 2279
+    stars: 21070
+    forks: 2278
     license: Apache-2.0
     archived: false
     created_at: "2022-11-25T03:51:09Z"
-    pushed_at: "2026-05-05T15:44:14Z"
+    pushed_at: "2026-05-06T14:57:16Z"
     description: "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
     homepage: https://huggingface.co/docs/peft
     topics:
@@ -58,50 +58,50 @@ metadata:
       - python
       - pytorch
       - transformers
-    last_checked_at: "2026-05-05T21:02:37.399Z"
+    last_checked_at: "2026-05-06T22:44:18.642Z"
     readme:
-      fetched_at: "2026-05-05T21:02:37.399Z"
+      fetched_at: "2026-05-06T22:44:18.642Z"
       bytes: 12217
 insights:
-  summary: A library from Hugging Face that provides state-of-the-art methods for Parameter-Efficient Fine-Tuning (PEFT) to adapt large pretrained models by training only a small subset of parameters.
-  why_it_matters: It allows developers to fine-tune massive LLMs and diffusion models on consumer hardware by drastically reducing the number of trainable parameters and storage costs.
-  mental_damage: You can now fine-tune a model larger than your RAM budget, proving once again that 'parameter-efficient' is just code for 'still needs a GPU, but slightly fewer of them'.
+  summary: A HuggingFace library providing state-of-the-art Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA to adapt large pretrained models by training only a small subset of parameters.
+  why_it_matters: It allows developers to fine-tune massive models on modest hardware by drastically reducing computational and storage costs compared to full fine-tuning.
+  mental_damage: You now have a 20k-star rationale to spend three weeks hyperparameter-tuning a LoRA adapter instead of just accepting that the base model doesn't know your internal API.
   tags:
     - fine-tuning
-    - huggingface
-    - llm
     - lora
+    - huggingface
     - pytorch
+    - llm
   confidence: high
 curation:
   status: excluded
-  reason: This is a fundamental ML training library for data scientists and ML engineers, not a tool for software developers building AI applications or coding assistants.
+  reason: This is a core ML research and model-training library for data scientists, not a developer-facing tool for building, orchestrating, or assisting with software development workflows.
   evidence:
-    - Repo description defines it as 'State-of-the-art Parameter-Efficient Fine-Tuning', targeting model training rather than developer tooling.
-    - README focuses on adapting pretrained models, LoRA configurations, and training loops using Transformers and PyTorch.
-    - Listed in 'Training' sections of ML/LLMOps awesome lists, confirming its fit as an ML framework rather than a developer productivity tool.
+    - Repo description and README focus on fine-tuning large pretrained models and training adapters, not coding assistance or dev tooling.
+    - Listed in source lists under 'Training' and 'Foundation Model Fine Tuning', targeting ML Ops rather than software engineering.
+    - The quickstart example demonstrates model training and inference wrapping, lacking any IDE, agent, or app-building interface for developers.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (21066) exceeded threshold (150)
+  reason: Stars (21070) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:38.300Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:37.399Z"
+    updated_at: "2026-05-06T22:44:18.642Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:03.280Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

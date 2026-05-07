@@ -1,13 +1,13 @@
 id: github__oobabooga__textgen
 kind: github-repo
-name: text-generation-webui
+name: textgen
 canonical_url: https://github.com/oobabooga/textgen
 identity:
   github_repo: oobabooga/textgen
 provenance:
   discoveries:
-    - id: discovery__github__oobabooga__text-generation-webui__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__oobabooga__textgen__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,66 +21,76 @@ provenance:
         extracted_url: https://github.com/oobabooga/text-generation-webui
         surrounding_text: "- [oobabooga](https://github.com/oobabooga/text-generation-webui) - A Gradio web UI for Large Language Models."
         confidence: high
+    - id: discovery__github__oobabooga__textgen__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Text Generation WebUI
+        extracted_url: https://github.com/oobabooga/text-generation-webui
+        surrounding_text: "3. [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models."
+        confidence: high
 metadata:
   github:
-    stars: 46941
-    forks: 5973
+    stars: 46945
+    forks: 5972
     license: AGPL-3.0
     archived: false
     created_at: "2022-12-21T04:17:37Z"
-    pushed_at: "2026-05-05T18:28:09Z"
+    pushed_at: "2026-05-06T18:31:08Z"
     description: Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API.
     homepage: https://localbench.substack.com
     topics: []
-    last_checked_at: "2026-05-05T21:04:02.431Z"
+    last_checked_at: "2026-05-06T22:45:39.321Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.431Z"
+      fetched_at: "2026-05-06T22:45:39.321Z"
       bytes: 30820
 insights:
-  summary: A desktop application for running large language models locally, featuring chat, vision, tool-calling, and OpenAI/Anthropic-compatible API endpoints.
-  why_it_matters: It provides developers with a private, offline playground and a local API drop-in replacement for testing and integrating LLMs without cloud dependencies.
-  mental_damage: Now you can host the hallucination engine on your own GPU, giving you the distinct pleasure of debugging your own local model while your fan sounds like a jet engine taking off.
+  summary: An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs.
+  why_it_matters: It provides developers with a private, drop-in API server and UI to run and test models locally without telemetry or cloud dependencies.
+  mental_damage: Nothing says 'I am optimizing my token spend' quite like downloading 40GB of weights just to see if a 7B model can debug a missing semicolon.
   tags:
-    - api
-    - desktop-app
-    - llm
     - local-ai
-    - open-source
-    - openai-api
-    - tool-calling
+    - llm
+    - self-hosted
+    - desktop-app
+    - api
   confidence: high
 curation:
   status: included
-  reason: This is a desktop interface and serving stack for local LLMs, fitting the local-ai category as a developer-facing tool for private inference and API testing.
+  reason: The product is a desktop app and local serving layer for running LLMs on your own hardware, which is the canonical definition of the Local AI category.
   evidence:
-    - Repo description explicitly calls it an 'Open-source desktop app for local LLMs' with API compatibility.
-    - README details local execution with multiple backends (llama.cpp, Transformers) and zero telemetry.
-    - Included in 'awesome-local-ai' under the 'Inference UI' section.
-    - Repo description explicitly states 'Open-source desktop app for local LLMs' with API compatibility.
-    - README emphasizes 100% offline/private execution with zero telemetry and supports multiple local backends like llama.cpp.
-    - High traction with 46,941 stars and active maintenance (pushed 2026-05-05).
+    - "Repo description states: 'Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API.'"
+    - README identifies it as 'A desktop app for local LLMs. Open source, no telemetry.' with an OpenAI/Anthropic-compatible API.
+    - Listed in awesome-local-ai under the 'Inference UI' section and has high traction (46k+ stars).
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (46941) exceeded threshold (150)
+  reason: Stars (46945) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:09.640Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.431Z"
+    updated_at: "2026-05-06T22:45:39.321Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:54.477Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

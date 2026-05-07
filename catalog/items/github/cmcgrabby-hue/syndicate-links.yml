@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cmcgrabby-hue__syndicate-links__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,53 +29,53 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-18T05:19:07Z"
-    pushed_at: "2026-05-05T20:51:48Z"
+    pushed_at: "2026-05-06T20:52:29Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:36.286Z"
+    last_checked_at: "2026-05-06T22:43:23.654Z"
     readme:
-      fetched_at: "2026-05-05T21:01:36.286Z"
+      fetched_at: "2026-05-06T22:43:23.654Z"
       bytes: 2819
 insights:
-  summary: An MCP server that exposes tools for managing affiliate programs, tracking conversions, and checking commissions via the Syndicate Links API.
-  why_it_matters: It enables AI agents to natively handle affiliate attribution and payouts without relying on browser cookies or external tracking links.
-  mental_damage: We have finally reached the point where the agent doesn't just write the code, it also demands its own referral bonus for recommending the IDE it wrote itself in.
+  summary: An MCP server that lets AI agents discover merchant affiliate programs, track conversions with signed attribution tokens, and check earned commissions via the Syndicate Links API.
+  why_it_matters: Developers building commercial agent workflows can monetize product recommendations natively through the Model Context Protocol without relying on browser cookies or manual tracking links.
+  mental_damage: "We have finally solved the hardest problem in AI agent infrastructure: teaching your terminal how to earn a 3% kickback on recommended GPUs."
   tags:
     - mcp
     - affiliate
-    - agent-tooling
     - monetization
+    - agent-tooling
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server implementation that provides agent-facing tools for the Syndicate Links affiliate API, fitting the MCP infrastructure category.
+  reason: The product is an MCP server that exposes affiliate program discovery and commission tracking as tools for AI agents, making MCP its primary identity.
   evidence:
     - "README states: 'MCP server for the Syndicate Links affiliate commission API — 7 tools for AI agent attribution, program discovery, and commission tracking.'"
-    - Listed in the awesome-mcp-servers list under 'Server Implementations > E-Commerce'.
-    - Installation is via 'npx syndicate-links-mcp' and configures directly into Claude Desktop via 'mcpServers'.
+    - Source list placement in awesome-mcp-servers under 'Server Implementations > E-Commerce' confirms MCP server identity.
+    - Configuration instructions show Claude Desktop MCP server setup with npx syndicate-links-mcp.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:36.286Z"
+    updated_at: "2026-05-06T22:43:23.654Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:32.422Z"
+    updated_at: "2026-05-06T22:49:41.208Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

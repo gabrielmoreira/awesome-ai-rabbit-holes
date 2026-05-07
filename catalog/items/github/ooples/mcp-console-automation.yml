@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ooples__mcp-console-automation__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for AI-driven console application automation and monitoring
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:02.115Z"
+    last_checked_at: "2026-05-06T22:45:39.372Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.115Z"
+      fetched_at: "2026-05-06T22:45:39.372Z"
       bytes: 14597
 insights:
-  summary: An MCP server that gives AI assistants deep control over terminal sessions, enabling them to spawn shells, interact with console applications, and automate CLI workflows across platforms.
-  why_it_matters: It allows coding agents to go beyond code editing and actually drive interactive terminal tools, run background jobs, and validate output directly within the shell environment.
-  mental_damage: We have finally built the bridge that allows your AI to get stuck in infinite loops inside a terminal session it created all by itself.
+  summary: An MCP server that allows AI assistants to create, control, and monitor interactive terminal sessions, run background jobs, and execute automated test assertions against console output.
+  why_it_matters: It gives coding agents deep, programmatic control over the terminal environment, enabling them to run, debug, and validate commands across local and remote SSH sessions without human intervention.
+  mental_damage: We have successfully abstracted away the need to look at the terminal by teaching the AI to look at the terminal for us, effectively automating the act of pretending to be productive in a shell.
   tags:
     - mcp
     - terminal
     - automation
-    - cli
+    - ssh
     - testing
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server designed to extend AI assistants with terminal automation capabilities, which fits cleanly into the MCP infrastructure category.
+  reason: The product's identity is specifically an MCP server implementation designed to give AI models terminal and console automation capabilities.
   evidence:
-    - Repo description explicitly states 'MCP server for AI-driven console application automation'.
-    - README details a production-ready MCP server for controlling console sessions, SSH, and background jobs.
-    - Included in the 'awesome-mcp-servers' list under Server Implementations.
+    - "Repo description explicitly states: 'MCP server for AI-driven console application automation and monitoring'."
+    - README details a 'Production-Ready Model Context Protocol (MCP) server' with specific tools for shell and SSH interaction.
+    - Included in the 'awesome-mcp-servers' list under 'Server Implementations'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.115Z"
+    updated_at: "2026-05-06T22:45:39.372Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:09.050Z"
+    updated_at: "2026-05-06T23:18:55.413Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

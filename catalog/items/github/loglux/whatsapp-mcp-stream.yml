@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__loglux__whatsapp-mcp-stream__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,50 @@ metadata:
       - mcp-server
       - whatsapp
       - whatsapp-automation
-    last_checked_at: "2026-05-05T21:03:23.481Z"
+    last_checked_at: "2026-05-06T22:45:02.978Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.481Z"
+      fetched_at: "2026-05-06T22:45:02.978Z"
       bytes: 9066
 insights:
-  summary: A WhatsApp MCP server built on Streamable HTTP transport using Baileys, featuring a web admin UI and bidirectional media flow for integrating WhatsApp with AI agents.
-  why_it_matters: It allows developers to connect AI agents and MCP clients directly to WhatsApp for messaging, contact management, and media handling without building custom WhatsApp bridges.
-  mental_damage: "We have finally achieved the future: an MCP server so fresh it was created in 2026, allowing your AI agent to ping the group chat while you wonder if 'Streamable HTTP' is just what we're calling HTTP now."
+  summary: A WhatsApp MCP server built on Streamable HTTP transport using Baileys, providing a web admin UI and bidirectional media flow for integrating WhatsApp messaging into AI workflows.
+  why_it_matters: It lets developers expose WhatsApp messaging, contacts, groups, and media as MCP tools so AI agents can interact with chats and send files programmatically.
+  mental_damage: Yet another niche MCP server ensuring your AI agent can now urgently notify you in a group chat at 2 AM that your CI pipeline is, in fact, still failing.
   tags:
     - mcp
     - whatsapp
     - baileys
-    - messaging
-  confidence: medium
+    - chat-integration
+    - media-upload
+  confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for WhatsApp, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server for WhatsApp, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states it is 'A WhatsApp MCP server built around Streamable HTTP transport'.
-    - README details MCP Tools for auth, contacts, chats, messages, and media exposed via a /mcp endpoint.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - "Repo description explicitly states: 'A WhatsApp MCP server built around Streamable HTTP transport'."
+    - README details MCP tools for auth, contacts, chats, messages, and media, confirming MCP is the product identity.
+    - Listed in awesome-mcp-servers under Communication, reinforcing its role as a domain-specific MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.481Z"
+    updated_at: "2026-05-06T22:45:02.978Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:32.314Z"
+    updated_at: "2026-05-06T23:10:23.310Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

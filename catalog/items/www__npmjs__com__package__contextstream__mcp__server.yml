@@ -1,12 +1,12 @@
 id: www__npmjs__com__package__contextstream__mcp__server
 kind: website
-name: contextstream/mcp-server
+name: mcp-server
 canonical_url: https://www.npmjs.com/package/@contextstream/mcp-server
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__npmjs__com__package__contextstream__mcp__server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,42 +35,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An npm package providing a Model Context Protocol (MCP) server implementation for context streaming.
-  why_it_matters: It enables developers to integrate context-streaming capabilities into MCP-compatible AI workflows via a standard Node.js package.
-  mental_damage: We have successfully abstracted the abstraction, meaning you can now install a package to help your assistant talk to a protocol that helps it talk to your code.
+  summary: An MCP server implementation in the @contextstream namespace focused on knowledge and memory capabilities.
+  why_it_matters: It provides the plumbing for coding assistants to offload context and retrieval into a dedicated memory server.
+  mental_damage: Finally, a dedicated server to remember what you were doing before you context-switched into oblivion.
   tags:
-    - context-streaming
     - mcp
-    - npm
+    - memory
+    - knowledge
+    - context
   confidence: medium
 curation:
   status: included
-  reason: The package is explicitly an MCP server implementation listed under 'Server Implementations' in the awesome-mcp-servers directory, fitting the MCP infrastructure scope.
+  reason: The package is explicitly an MCP server for knowledge and memory, directly matching the MCP Servers & Tooling category.
   evidence:
-    - Package name is @contextstream/mcp-server, identifying it as MCP infrastructure.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Knowledge & Memory'.
-    - Published on npmjs.com, targeting Node.js developers.
+    - Package name is @contextstream/mcp-server on npm, indicating an MCP implementation.
+    - Listed in awesome-mcp-servers under the 'Knowledge & Memory' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:14.830Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:30.346Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

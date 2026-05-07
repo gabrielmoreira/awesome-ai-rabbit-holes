@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the-basilisk-ai__squad-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 2
+    forks: 4
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-04-06T12:19:42Z"
+    pushed_at: "2026-05-05T00:18:21Z"
+    description: "Remote Model Context Protocol (MCP) server for Squad AI. Manage your product strategy with your favourite AI agent. "
+    homepage: https://docs.meetsquad.ai/guides/squad-mcp
+    topics: []
+    last_checked_at: "2026-05-06T22:46:45.302Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:45.302Z"
+      bytes: 10696
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A remote MCP server that exposes Squad's AI-powered product discovery and strategy platform as tools for Claude, ChatGPT, and other MCP-compatible assistants.
+  why_it_matters: Developers and product teams can query opportunities, solutions, goals, and customer feedback directly from their AI assistant without context-switching to the Squad web app.
+  mental_damage: We have successfully turned product strategy into yet another JSON tool call, so you can now neglect your roadmap without ever leaving your chat window.
+  tags:
+    - mcp
+    - product-management
+    - remote-server
+    - squad
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server that brings Squad's product-management capabilities into MCP-compatible assistants, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states it is a 'Remote Model Context Protocol (MCP) server for Squad AI'.
+    - README shows 30+ MCP tools across 9 categories (opportunities, solutions, goals, knowledge, feedback, insights, search, views).
+    - Listed in awesome-mcp-servers under 'Community Servers' for the purpose of MCP server curation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:45.302Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:27.959Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

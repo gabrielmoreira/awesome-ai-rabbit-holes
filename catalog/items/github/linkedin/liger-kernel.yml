@@ -1,0 +1,86 @@
+id: github__linkedin__liger-kernel
+kind: github-repo
+name: liger-kernel
+canonical_url: https://github.com/linkedin/liger-kernel
+identity:
+  github_repo: linkedin/liger-kernel
+provenance:
+  discoveries:
+    - id: discovery__github__linkedin__liger-kernel__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: Liger-Kernel
+        extracted_url: https://github.com/linkedin/liger-kernel
+        surrounding_text: "26. [Liger-Kernel](https://github.com/linkedin/Liger-Kernel): Efficient Triton Kernels for LLM Training."
+        confidence: high
+metadata:
+  github:
+    stars: 6331
+    forks: 526
+    license: BSD-2-Clause
+    archived: false
+    created_at: "2024-08-06T17:47:52Z"
+    pushed_at: "2026-05-06T11:59:53Z"
+    description: Efficient Triton Kernels for LLM Training
+    homepage: https://linkedin.github.io/Liger-Kernel/
+    topics:
+      - finetuning
+      - gemma2
+      - hacktoberfest
+      - llama
+      - llama3
+      - llm-training
+      - llms
+      - mistral
+      - phi3
+      - triton
+      - triton-kernels
+    last_checked_at: "2026-05-06T22:45:00.206Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:00.206Z"
+      bytes: 24963
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6331) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.627Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:00.206Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:09:45.496Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__linkedin__liger-kernel: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

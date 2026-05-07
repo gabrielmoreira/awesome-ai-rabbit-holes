@@ -2,218 +2,470 @@
   name: Coding Agents
   slug: coding-agents
   description: >
-    AI coding assistants, autonomous programming agents, and review/test agents
-    that help a developer work directly on source code.
-  prompt_instruction: >
-    The primary product is a developer-facing coding assistant or coding agent
-    that directly plans, writes, edits, reviews, tests, or debugs code inside a
-    repo, IDE, CLI, desktop, or PR workflow. Do not use this for products that
-    mainly turbocharge another assistant, editor, or agent with memory, skills,
-    tasking, or QA layers; those are extensions, not the main assistant.
+    Assistants that directly plan, write, review, test, or debug code.
+  prompt:
+    instructions: >
+      The product itself is a developer-facing coding assistant that developers
+      delegate repo work to across a repo, IDE, CLI, desktop, or PR workflow.
+    use_when:
+      - The tool directly reads code, plans changes, edits files, runs commands or tests, reviews diffs, or repairs failures.
+      - The developer uses this product as the primary coding assistant, not as a thin layer on top of another assistant.
+    do_not_use_when:
+      - The primary product is an IDE or editor surface.
+      - The product mainly augments another assistant or editor with host integrations, memory, or workflow utilities.
+      - The product is mainly a framework, SDK, runtime platform, or local assistant whose coding role is secondary.
+    canonical_positives:
+      - Claude Code
+      - Gemini CLI
+      - OpenCode
+      - Cline
+      - CodeX
+    common_false_positives:
+      - Cursor
+      - Playwright
+      - OpenClaw
+      - Open Interpreter
+      - Git AI
   sections:
     - Terminal & CLI Agents
     - IDE-Native Assistants
     - Browser/Desktop/Computer-Use Agents
     - Review, Testing & Repair Agents
 
+- id: ai-ides-editors
+  name: IDEs & Editors
+  slug: ai-ides-editors
+  description: >
+    Development environments built around coding assistance.
+  prompt:
+    instructions: >
+      The primary product surface is the AI-native editor or IDE itself rather
+      than a plugin, a terminal agent, or a backend framework.
+    use_when:
+      - The development environment itself is the product.
+      - AI assistance is integrated into the editor or IDE surface as a core part of the environment.
+    do_not_use_when:
+      - It is primarily a terminal or repo agent.
+      - It is a plugin, extension, wrapper, or remote host for another editor.
+      - It is mainly a framework, SDK, or control plane.
+    canonical_positives:
+      - Cursor
+      - Zed
+      - Trae
+      - Windsurf
+      - PearAI
+    common_false_positives:
+      - code-server
+      - Claude Code
+      - Gemini CLI
+      - Git AI
+      - cmux
+  sections:
+    - Full IDEs & Editors
+    - Remote / Hosted Editor Surfaces
+
 - id: ai-dev-extensions
-  name: AI Developer Extensions
+  name: Extensions & Integrations
   slug: ai-dev-extensions
   description: >
-    Memory layers, testing add-ons, UI/workflow boosters, and host-side
-    integrations that extend another AI developer tool rather than being the
-    primary assistant themselves.
-  prompt_instruction: >
-    The product mainly augments another coding assistant, editor, or agent with
-    memory, testing, UI, workflow automation, or host integration behavior. If
-    the primary artifact is a reusable skills/rules pack or a skills
-    directory/registry, prefer the dedicated skills category instead.
+    Add-ons and host integrations that extend another coding tool rather than
+    being the primary assistant.
+  prompt:
+    instructions: >
+      The main value is augmenting another coding assistant, editor, or agent
+      with extra capabilities rather than being the primary assistant itself.
+    use_when:
+      - The product adds debugger, browser, Figma, git, session UI, tasking, or workflow capabilities to another assistant or editor.
+      - The integration layer is the main product identity.
+    do_not_use_when:
+      - It is a standalone assistant, full IDE, platform, or broad SaaS product.
+      - The core novelty is memory, retrieval, compression, or prompt management rather than the host integration layer.
+      - The primary artifact is a skills pack or skills registry.
+    canonical_positives:
+      - Git AI
+      - figma-use
+      - claude-debugs-for-you
+      - Claude Code Tools
+      - Claudia
+    common_false_positives:
+      - Infracost
+      - OneCLI
+      - cmux
+      - claude-task-master
+      - Cursor Watchful Headers
   sections:
     - Memory & Context Add-ons
     - Testing & QA Add-ons
     - IDE / UI / Workflow Add-ons
     - Host Integrations & Automation
 
-- id: skills
-  name: AI Developer Skills
-  slug: skills
-  description: >
-    Reusable skill packs, rules packs, command packs, and skill directories for
-    AI developer tools.
-  prompt_instruction: >
-    The primary artifact is the reusable skill content itself: a skill pack,
-    rules bundle, slash-command pack, or a directory/registry of such skills for
-    Claude Code, Cursor, Cline, Roo, OpenCode, or similar hosts. Use this when
-    the distribution unit is the skills layer itself rather than a broader
-    extension product.
-  sections:
-    - Skill Packs & Libraries
-    - Rules, Commands & Prompts
-    - Skill Registries & Directories
-    - Domain & Workflow Skill Packs
-
-- id: app-builders
-  name: AI App Builders
-  slug: ai-app-builders
-  description: >
-    Builder-style AI products that generate, assemble, or deploy whole apps,
-    sites, internal tools, or local project scaffolds from prompts.
-  prompt_instruction: >
-    The primary surface is an app/site/project builder rather than a repo-editing
-    assistant: hosted prompt-to-app or prompt-to-site products, internal tool
-    builders, or local/code-scaffolding generators that mainly create a new
-    project from prompts. Do not use this for a repo/IDE assistant that helps a
-    developer edit an existing codebase.
-  sections:
-    - Prompt-to-App Builders
-    - Prompt-to-Site Builders
-    - Internal Tools & Dashboards
-    - Local / Code-Scaffolding Builders
-
-- id: ai-ides-editors
-  name: AI IDEs and Editors
-  slug: ai-ides-editors
-  description: >
-    Editors and IDEs built around AI assistance.
-  prompt_instruction: >
-    The primary product surface is an AI-native editor or IDE. Prefer this when
-    the product is the development environment itself, not a plugin, rules pack,
-    or backend framework.
-  sections:
-    - Full IDEs & Editors
-    - Remote / Hosted Editor Surfaces
-
 - id: agent-orchestration
   name: Agent Orchestration
   slug: agent-orchestration
   description: >
-    User-facing platforms and operational tooling for coordinating multiple AI
-    agents.
-  prompt_instruction: >
-    End-user platforms, control planes, workbenches, or workforce systems for
-    coordinating multiple agents, tasks, or agent runtimes. Do not use this for
-    a code-first SDK/framework that developers import into their own code.
+    Tools and platforms for coordinating multiple agents.
+  prompt:
+    instructions: >
+      The main product is a workbench, control plane, or runtime platform for
+      coordinating multiple agents, tasks, and shared workflows.
+    use_when:
+      - Multi-agent coordination is the main value proposition.
+      - The product is an operated workbench, control plane, or runtime surface rather than a code-first library.
+    do_not_use_when:
+      - It is primarily a framework, SDK, or provider CLI used in code.
+      - It is a single coding assistant.
+      - It is only a thin extension or host integration.
+    canonical_positives:
+      - LangFlow
+      - Dify
+      - Flowise
+      - ChatDev
+      - Multica
+    common_false_positives:
+      - CrewAI
+      - AutoGen
+      - MetaGPT
+      - Lobe Chat
+      - MaxKB
   sections:
     - Control Planes & Workforce Platforms
     - Workbenches & Collaboration Surfaces
     - Multi-Agent Runtime Platforms
     - Vertical Orchestration Platforms
 
+- id: app-builders
+  name: App Builders
+  slug: ai-app-builders
+  description: >
+    Products that generate, assemble, or deploy apps, sites, internal tools, or
+    project scaffolds from prompts.
+  prompt:
+    instructions: >
+      The main surface turns prompts into apps, sites, dashboards, internal
+      tools, or scaffolds rather than helping a developer edit an existing repo.
+    use_when:
+      - The product is prompt-to-app, prompt-to-site, internal-tool generation, or local scaffolding.
+      - The user experience centers on creating a new app or project from prompts.
+    do_not_use_when:
+      - It mainly edits an existing repo or codebase.
+      - It is a generic low-code platform with optional AI rather than a prompt-first builder.
+      - It is mainly a testing, QA, or observability product.
+    canonical_positives:
+      - Screenshot-to-Code
+      - dyad
+      - Friday
+      - 10Web
+      - base44
+    common_false_positives:
+      - Baserow
+      - ii-agent
+      - MemFree
+      - DiffBlue Cover
+      - Testsigma
+  sections:
+    - Prompt-to-App Builders
+    - Prompt-to-Site Builders
+    - Internal Tools & Dashboards
+    - Local / Code-Scaffolding Builders
+
+- id: local-ai
+  name: Local AI
+  slug: local-ai
+  description: >
+    Local runtimes, desktop apps, and tooling for running AI on your own
+    hardware.
+  prompt:
+    instructions: >
+      Local or self-hosted execution is the main reason to use the product,
+      whether as a runtime, serving layer, desktop interface, or on-device tool.
+    use_when:
+      - Private, local, self-hosted, or on-device execution is central to the product identity.
+      - The product is a local runtime, local serving stack, desktop app, or developer tool centered on local inference.
+    do_not_use_when:
+      - It is mainly a hosted SaaS product.
+      - It is primarily a code-first framework or SDK.
+      - It is just a raw model repo or checkpoint with weak runtime or app identity.
+    canonical_positives:
+      - Ollama
+      - llama.cpp
+      - LocalAI
+      - gpt4all
+      - text-generation-webui
+    common_false_positives:
+      - PrivateGPT
+      - Anything LLM
+      - whisper
+      - stable-diffusion
+      - OpenClaw
+  sections:
+    - Local Runtimes
+    - Local Serving / APIs
+    - Desktop Chat / Interfaces
+
 - id: ai-frameworks
-  name: AI Frameworks and SDKs
+  name: Frameworks & SDKs
   slug: ai-frameworks
   description: >
-    Frameworks, SDKs, and code-first building blocks for embedding AI behavior
+    Code-first building blocks for embedding models, agents, or AI workflows
     into software.
-  prompt_instruction: >
-    The product is mainly a framework, SDK, library, or importable code-first
-    building block. Even if the README uses orchestration language, keep it here
-    when developers primarily build with it in code rather than operate it as a
-    control plane.
+  prompt:
+    instructions: >
+      Developers primarily import, script, or program against the product as a
+      framework, SDK, library, engine, parser, or provider CLI.
+    use_when:
+      - The product is mainly used as code-first building blocks.
+      - Developers build with it in code, scripts, or provider APIs rather than operate it as a control plane.
+    do_not_use_when:
+      - It is primarily an operated workbench, control plane, or runtime platform.
+      - It is mainly a local end-user app.
+      - It is a raw model repo without a strong reusable toolkit identity.
+    canonical_positives:
+      - LangChain
+      - markitdown
+      - PaddleOCR
+      - AutoGen
+      - MetaGPT
+    common_false_positives:
+      - stable-diffusion
+      - whisper
+      - OpenManus
+      - Dify
+      - Flowise
   sections:
     - Agent Frameworks
     - Workflow / Graph Engines
     - Memory / Retrieval Infrastructure
     - Provider / Model Abstractions
 
-- id: spec-driven-development
-  name: Spec-Driven Development
-  slug: spec-driven-development
-  description: >
-    Environments and tooling where specifications are the primary artifact that
-    drives planning, generation, validation, or repair.
-  prompt_instruction: >
-    The center of gravity is a spec-first loop: brainstorm/spec, plan, execute,
-    validate, repair, or govern from specifications. Do not use this for a
-    generic coding assistant that merely happens to accept prompts.
-  sections:
-    - Spec-First Environments
-    - Planning / Task Decomposition
-    - Execution Loops & Repair
-    - Governance / Validation
-
-- id: context-engineering
-  name: Prompting and Context Engineering
-  slug: prompting-context-engineering
-  description: >
-    Prompt design, retrieval, memory, compression, and context-shaping systems
-    for making models see the right information while everyone quietly begs for
-    more tokens.
-  prompt_instruction: >
-    Prompt systems, retrieval, fresh-doc lookup, context packing, memory,
-    compression, distillation, and prompt-management infrastructure. Do not use
-    this for assistant-specific add-ons whose primary job is to extend one host
-    tool; those belong in AI Developer Extensions and Skills.
-  sections:
-    - Prompt Assets & Templating
-    - Context Retrieval & Fresh Docs
-    - Memory / Compression / Distillation
-    - PromptOps / Prompt Management
-
-- id: mcp
-  name: MCP Servers and Tooling
-  slug: mcp
-  description: >
-    Model Context Protocol servers, clients, registries, and tooling.
-  prompt_instruction: >
-    The product itself is MCP infrastructure: a server, client, registry,
-    inspector, middleware layer, or MCP-focused toolkit. Merely integrating with
-    MCP or being listed in an MCP awesome list is not enough.
-  sections:
-    - Registries & Discovery
-    - Clients / Inspectors / Dev Tools
-    - Generic Servers & Middleware
-    - Domain Servers
-
-- id: local-ai
-  name: Local AI
-  slug: local-ai
-  description: >
-    Run AI models on your own hardware.
-  prompt_instruction: >
-    Local runtimes, model serving stacks, on-device inference, desktop local-AI
-    interfaces, or developer tooling centered on private/local execution rather
-    than hosted SaaS.
-  sections:
-    - Local Runtimes
-    - Local Serving / APIs
-    - Desktop Chat / Interfaces
-
 - id: evals
-  name: Evaluations and Benchmarks
+  name: Evals & Benchmarks
   slug: evals
   description: >
-    Frameworks, benchmarks, and operational tooling for measuring model, prompt,
-    or agent behavior.
-  prompt_instruction: >
-    Benchmarks, eval harnesses, prompt-regression systems, LLM observability, or
-    evaluation platforms that measure quality rather than acting as the primary
-    assistant themselves.
+    Frameworks and tooling for measuring model, prompt, or agent behavior.
+  prompt:
+    instructions: >
+      The core job is measuring, scoring, tracing, comparing, or regression-
+      testing model, prompt, or agent behavior rather than acting as the primary
+      assistant itself.
+    use_when:
+      - Evaluation, benchmarking, observability, tracing, or prompt regression is the main product job.
+      - The product measures quality or behavior rather than merely using AI internally.
+    do_not_use_when:
+      - Observability, security, or analytics is only a side feature.
+      - The product is mainly orchestration, ops, or data infrastructure.
+      - The product is primarily a coding assistant or app builder.
+    canonical_positives:
+      - DeepEval
+      - RAGAS
+      - lm-evaluation-harness
+      - Opik
+      - Phoenix
+    common_false_positives:
+      - SuperAgent
+      - AgentMark
+      - GreptimeDB
+      - Helicone
+      - FastGPT
   sections:
     - Agent Benchmarks
     - Prompt Regression & Experimentation
     - Observability / Tracing / EvalOps
     - Safety / Fairness / Data Quality
 
+- id: mcp
+  name: MCP Servers & Tooling
+  slug: mcp
+  description: >
+    Servers, clients, registries, and tooling for the Model Context Protocol.
+  prompt:
+    instructions: >
+      MCP must be the product identity: a server, client, registry, inspector,
+      middleware layer, or MCP-first toolkit.
+    use_when:
+      - The product itself is MCP infrastructure.
+      - MCP is the primary adopted thing, not a compatibility footnote.
+    do_not_use_when:
+      - MCP is only an adapter, bridge, or compatibility feature.
+      - The underlying product identity is really a framework, extension, or general platform.
+    canonical_positives:
+      - modelcontextprotocol/servers
+      - playwright-mcp
+      - github-mcp-server
+      - FastMCP
+      - MCP Toolbox for Databases
+    common_false_positives:
+      - apisix
+      - filestash
+      - Inbox Zero
+      - Jan
+      - claude-task-master
+  sections:
+    - Registries & Discovery
+    - Clients / Inspectors / Dev Tools
+    - Generic Servers & Middleware
+    - Domain Servers
+
+- id: skills
+  name: Agent Skills
+  slug: skills
+  description: >
+    Reusable skill packs, rules, commands, and skill directories for coding
+    tools.
+  prompt:
+    instructions: >
+      The thing being distributed is the reusable skill, rules, or command pack
+      itself, or a registry or directory of such packs.
+    use_when:
+      - The primary artifact is a reusable skill pack, rules bundle, slash-command pack, or skills registry.
+      - The value lives in portable skill content rather than a broader platform or extension suite.
+    do_not_use_when:
+      - The product is a broader platform, extension suite, or orchestration system that merely ships skills.
+      - The stronger identity is spec-driven workflow, orchestration, or host integration.
+    canonical_positives:
+      - anthropics/skills
+      - awesome-claude-skills
+      - claude-scientific-skills
+      - ClawHub
+      - toprank
+    common_false_positives:
+      - Kurtosis
+      - cc-sdd
+      - spec-kit-command-cursor
+      - claude-cmd
+      - Claude Code Tools
+  sections:
+    - Skill Packs & Libraries
+    - Rules, Commands & Prompts
+    - Skill Registries & Directories
+    - Domain & Workflow Skill Packs
+
+- id: context-engineering
+  name: Prompt & Context Engineering
+  slug: prompting-context-engineering
+  description: >
+    Memory, retrieval, compression, and prompt-shaping systems for getting the
+    right context in front of a model.
+  prompt:
+    instructions: >
+      The main job is improving what goes into the model: prompt assets,
+      retrieval, fresh-doc lookup, memory, compression, distillation, indexing,
+      or prompt management.
+    use_when:
+      - The core novelty is the context or memory system itself.
+      - Prompt systems, retrieval, docs lookup, context packing, memory, compression, or prompt management are the main product substance.
+    do_not_use_when:
+      - It is a thin host integration or wrapper.
+      - It is mainly an eval-first product.
+      - It is primarily an educational guide or media resource.
+    canonical_positives:
+      - memvid
+      - gitingest
+      - cocoindex-code
+      - ai-distiller
+      - omega-memory/core
+    common_false_positives:
+      - Prompt Engineering Guide
+      - AgentMark
+      - ApeRAG
+      - PromptSite
+      - claude-engram
+  sections:
+    - Prompt Assets & Templating
+    - Context Retrieval & Fresh Docs
+    - Memory / Compression / Distillation
+    - PromptOps / Prompt Management
+
+- id: spec-driven-development
+  name: Spec-Driven Development
+  slug: spec-driven-development
+  description: >
+    Tooling where specifications are the primary artifact for planning,
+    validation, repair, or governance.
+  prompt:
+    instructions: >
+      Specs, contracts, plans, or typed structured instructions are the primary
+      artifact driving implementation and validation.
+    use_when:
+      - The product centers on a spec-first loop for planning, execution, validation, repair, or governance.
+      - Specs or structured contracts are the controlling artifact, not just optional prompts.
+    do_not_use_when:
+      - It is just a command pack or generic prompt set.
+      - It is a generic coding assistant with no real spec-first discipline.
+      - The stronger identity is skills distribution or host integration.
+    canonical_positives:
+      - spec-kit
+      - OpenSpec
+      - lean-spec
+      - spec-driver
+      - tnl
+    common_false_positives:
+      - agents.md
+      - cc-sdd
+      - spec-kit-command-cursor
+      - generic slash-command packs
+      - generic coding agents
+  sections:
+    - Spec-First Environments
+    - Planning / Task Decomposition
+    - Execution Loops & Repair
+    - Governance / Validation
+
 - id: awesome-awesomes
   name: Awesome Awesomes
   slug: awesome-awesomes
   description: >
-    Awesome lists, meta-lists, indexes, maps, and other attempts to organize AI
-    tooling rather than be the tool itself.
-  prompt_instruction: >
-    Curated lists, directories, maps, and indexes rather than a standalone tool
-    or product experience.
+    Lists, maps, directories, and indexes for navigating AI tooling.
+  prompt:
+    instructions: >
+      The main value is discovery, navigation, indexing, curation, or mapping
+      the ecosystem rather than delivering a standalone product experience.
+    use_when:
+      - The product is a curated list, directory, map, or index.
+      - The primary job is helping developers discover or navigate the ecosystem.
+    do_not_use_when:
+      - It is mainly a tutorial hub, publication, or feed.
+      - It is a standalone product, platform, or operated tool.
+      - It is an operational registry whose stronger identity is protocol tooling.
+    canonical_positives:
+      - awesome-cursorrules
+      - awesome-copilot
+      - awesome-ai-agents
+      - Awesome LLM
+      - awesome-mlops
+    common_false_positives:
+      - Langchain Tutorials
+      - Prompt Engineering Guide
+      - Chip Huyen
+      - one-off landscape articles
+      - operational registries
   sections:
     - Directories & Maps
 
 - id: newsletters-and-feeds
-  name: Newsletters and Feeds
+  name: Publications & Feeds
   slug: newsletters-and-feeds
   description: >
     Newsletters, podcasts, and feeds for staying current with AI.
-  prompt_instruction: >
-    Publications, newsletters, podcasts, or feeds whose main value is ongoing
-    discovery, commentary, or analysis rather than direct tooling.
-  sections:
-    - Newsletters & Feeds
+  prompt:
+    instructions: >
+      The main value is recurring commentary, updates, analysis, publishing, or
+      ongoing educational media rather than direct tooling.
+    use_when:
+      - The product is a newsletter, blog, podcast, recurring digest, or media surface.
+      - Ongoing commentary, updates, or educational publishing is the main value.
+    do_not_use_when:
+      - It is a static list or directory.
+      - It is a standalone product or platform.
+      - It is only a one-off article unless you intentionally want landmark essays.
+    canonical_positives:
+      - Chip Huyen
+      - LangChain Blog
+      - AI for Developers
+      - AwesomeAgents newsletter
+      - Unwind AI
+    common_false_positives:
+      - The State of MCP in 2025
+      - Prompt Engineering Guide
+      - Langchain Tutorials
+      - Awesome LLM
+      - promptengineering.org

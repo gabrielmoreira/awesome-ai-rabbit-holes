@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stape-io__stape-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-17T09:29:12Z"
+    pushed_at: "2026-03-28T17:07:43Z"
+    description: "Interact with the Stape API using AI assistants like Claude, or in AI-powered IDEs like Cursor. "
+    homepage: https://stape.io
+    topics:
+      - gtm
+      - gtm-server-side
+      - mcp
+      - mcp-server
+      - stape
+    last_checked_at: "2026-05-06T22:46:33.778Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:33.778Z"
+      bytes: 2238
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the Stape GTM (server-side tagging) API to AI assistants like Claude and Cursor.
+  why_it_matters: It lets developers manage server-side tagging, containers, and GTM resources through natural language in their AI-powered IDEs instead of the Stape web dashboard.
+  mental_damage: You can now debug your tracking setup via Claude Desktop, because apparently the modern developer workflow requires an LLM to configure the very pixels that follow users around the internet.
+  tags:
+    - mcp
+    - gtm
+    - server-side-tagging
+    - stape
+    - marketing-api
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server for a specific domain (Stape/GTM), fitting cleanly into Domain Servers under MCP Servers & Tooling.
+  evidence:
+    - Repo description explicitly states it is an MCP server for interacting with the Stape API via AI assistants.
+    - README demonstrates MCP server configuration for Claude Desktop and Cursor.
+    - Listed in awesome-mcp-servers under the Marketing section, confirming its domain-specific MCP identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:33.778Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:11.098Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

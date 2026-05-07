@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scikit-learn__scikit-learn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 65989
+    forks: 26991
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2010-08-17T09:43:38Z"
+    pushed_at: "2026-05-06T22:21:16Z"
+    description: "scikit-learn: machine learning in Python"
+    homepage: https://scikit-learn.org
+    topics:
+      - data-analysis
+      - data-science
+      - machine-learning
+      - python
+      - statistics
+    last_checked_at: "2026-05-06T22:46:18.256Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:18.256Z"
+      bytes: 7443
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: scikit-learn is a Python module for machine learning built on top of SciPy, providing a wide array of algorithms for classification, regression, clustering, and dimensionality reduction.
+  why_it_matters: It remains the foundational, industry-standard library for traditional machine learning in Python, serving as the baseline for data processing and model training even as the ecosystem shifts toward LLMs.
+  mental_damage: While everyone is busy debating which LLM can write the best Python wrapper, this library quietly continues to power the actual statistical models that real production systems rely on.
+  tags:
+    - machine-learning
+    - python
+    - data-science
+    - statistics
+    - library
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is a general machine learning library for data science, not a developer-facing AI tool, agent, workflow, or infrastructure product as defined by the catalog scope.
+  evidence:
+    - "Repo description is 'scikit-learn: machine learning in Python', identifying it as a general ML library."
+    - README describes it as 'a Python module for machine learning built on top of SciPy', targeting data science rather than developer tooling.
+    - Topics include 'data-science' and 'machine-learning', with no signals of coding agents, LLM tooling, or developer infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (65989) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:18.256Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:24.725Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

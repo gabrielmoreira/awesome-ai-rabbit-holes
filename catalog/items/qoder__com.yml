@@ -1,12 +1,12 @@
 id: qoder__com
 kind: website
-name: Qoder
+name: qoder.com
 canonical_url: https://qoder.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__qoder__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,42 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Qoder is an AI-powered agentic coding platform that provides conversation-based programming, intelligent code generation, and developer tools.
-  why_it_matters: It positions itself as a platform for 'real' software development, aiming to integrate agentic workflows directly into the coding process rather than just providing snippet completions.
-  mental_damage: Another entrant in the 'agentic' sweepstakes arrives to ensure developers spend more time prompting their IDE than actually reading the code it just wrote.
+  summary: Qoder is an AI-powered agentic coding platform for real software development, offering intelligent code generation and conversation-based programming.
+  why_it_matters: It positions itself as a primary coding assistant, allowing developers to delegate repo work through conversational interactions and automated code generation.
+  mental_damage: Another Tuesday, another 'agentic' platform promising to refactor your legacy codebase while you wonder if 'conversation-based programming' is just a fancy term for arguing with a chatbot until the tests pass.
   tags:
-    - agentic
-    - ai-assistant
     - coding-agent
+    - ai-platform
+    - code-generation
   confidence: medium
 curation:
   status: included
-  reason: The product describes itself as an 'agentic coding platform' designed to help developers write and review code, fitting the coding-agents criteria for direct repo/IDE workflow assistance.
+  reason: The product presents itself as a standalone 'agentic coding platform' and 'AI-powered coding assistant', fitting the primary coding assistant identity rather than an extension or framework.
   evidence:
-    - Scraped site title and description explicitly call it an 'AI-powered agentic coding platform' and 'AI Coding Assistant'.
-    - Site claims features for 'intelligent code generation' and 'conversation-based programming'.
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants'.
+    - Scraped site title identifies it as an 'AI Coding Assistant - Agentic Coding Platform'.
+    - Description claims it is 'an AI-powered agentic coding platform for real software development'.
+    - Included in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:21.875Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:45.357Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

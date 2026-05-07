@@ -1,12 +1,12 @@
 id: jsonfix__lake__vercel__app
 kind: website
-name: JSONFix
+name: jsonfix-lake.vercel.app
 canonical_url: https://jsonfix-lake.vercel.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__jsonfix__lake__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free online tool that formats, validates, minifies, and uses Claude AI to repair broken JSON strings.
-  why_it_matters: It provides a quick, browser-based way to un-break malformed JSON without requiring IDE extensions or new dependencies.
-  mental_damage: We have successfully solved the JSON formatting crisis of 2024 by adding yet another Vercel deployment to the stack that already includes jq, Python, and five different IDE plugins.
+  summary: A free online utility that formats, validates, and uses Claude to repair broken JSON with common syntax errors.
+  why_it_matters: It provides a quick, no-signup fallback for developers dealing with malformed JSON that standard parsers reject.
+  mental_damage: We have reached the point where we build dedicated web tools to paper over the fact that our AI-generated configs and payloads are consistently unparseable.
   tags:
-    - ai-fix
-    - formatter
     - json
+    - formatter
+    - ai-fix
     - utility
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose utility website for formatting JSON, not a developer-facing AI tool, agent, workflow, or infrastructure component for building software.
+  reason: This is a general-purpose web utility for fixing JSON rather than a developer-facing AI coding tool, agent, or workflow component.
   evidence:
-    - The tool is a generic 'online JSON formatter & fixer' with no repo, IDE, CLI, or workflow integration.
-    - It is a simple hosted utility rather than a coding agent, app builder, or developer infrastructure.
-    - Included in 'awesome-ai-coding-tools' under 'Developer Productivity Tools', but the listing is a generic utility rather than a coding tool.
+    - The primary page excerpt describes a 'Free Online JSON Formatter & Fixer' for pasting JSON, not a coding workflow tool.
+    - Its inclusion in awesome-ai-coding-tools under 'Developer Productivity Tools' is too broad for this catalog's focus on AI-native dev tooling.
+    - The AI feature is simply using Claude to repair JSON syntax, lacking the repo editing, agent orchestration, or IDE integration required for inclusion.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:42.962Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:22.598Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

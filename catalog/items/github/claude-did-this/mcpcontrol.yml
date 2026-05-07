@@ -1,13 +1,13 @@
 id: github__claude-did-this__mcpcontrol
 kind: github-repo
-name: Windows Control
+name: mcpcontrol
 canonical_url: https://github.com/claude-did-this/mcpcontrol
 identity:
   github_repo: claude-did-this/mcpcontrol
 provenance:
   discoveries:
-    - id: discovery__github__cheffromspace__nutjs-windows-control__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__claude-did-this__mcpcontrol__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 319
-    forks: 47
+    forks: 48
     license: MIT
     archived: false
     created_at: "2024-12-03T17:40:27Z"
@@ -39,55 +39,50 @@ metadata:
       - mcp
       - os-automation
       - windows
-    last_checked_at: "2026-05-05T21:01:34.980Z"
+    last_checked_at: "2026-05-06T22:43:22.401Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.980Z"
+      fetched_at: "2026-05-06T22:43:22.401Z"
       bytes: 10804
 insights:
-  summary: An MCP server for Windows that enables AI models like Claude to programmatically control the desktop via mouse, keyboard, window management, and screen capture.
-  why_it_matters: It allows developers to delegate tedious UI testing and cross-application workflows to an AI that can actually see and interact with the Windows interface.
-  mental_damage: We have finally bridged the gap between 'vibe coding' and 'vibe clicking' by letting an LLM take over your mouse cursor in a 1280x720 virtual machine.
+  summary: An MCP server that provides programmatic control over Windows OS operations including mouse, keyboard, window management, and screen capture for AI model integration.
+  why_it_matters: Developers can delegate repetitive UI testing, workflow automation, and cross-application integration tasks to coding assistants like Claude by giving them direct control over Windows desktop environments.
+  mental_damage: You can now watch your AI assistant nervously click around a 1280x720 virtual machine like a caffeinated intern trying to fill out forms while you supervise from the sidelines.
   tags:
-    - automation
-    - claude
-    - computer-control
     - mcp
-    - os-automation
+    - windows-automation
     - os-control
-    - windows
+    - computer-use
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for Windows OS automation, fitting directly into the MCP Servers and Tooling category.
+  reason: This is an MCP server providing Windows OS automation capabilities, making it a clear fit for the MCP Servers & Tooling category as the product identity is the MCP server itself.
   evidence:
-    - "Repo description states: 'MCP server for Windows OS automation'"
-    - README identifies it as a 'Windows control server for the Model Context Protocol'
-    - Listed in 'awesome-mcp-servers' under 'Community Servers'
-    - Repo description states 'MCP server for Windows OS automation'.
-    - README confirms it is a 'Windows control server for the Model Context Protocol'.
-    - Topics include 'mcp' and 'computer-control', aligning with the MCP category scope.
+    - Repo description explicitly states 'MCP server for Windows OS automation'
+    - README confirms it's a 'Windows control server for the Model Context Protocol' with mouse, keyboard, window management, and screen capture
+    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - Active development with recent push date of 2025-12-02
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (319) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:19.450Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.980Z"
+    updated_at: "2026-05-06T22:43:22.401Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:49:27.752Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

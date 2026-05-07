@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elvismdev__mem0-mcp-selfhosted__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 83
+    stars: 84
     forks: 29
     license: MIT
     archived: false
@@ -45,50 +45,50 @@ metadata:
       - ollama
       - qdrant
       - self-hosted
-    last_checked_at: "2026-05-05T21:02:01.758Z"
+    last_checked_at: "2026-05-06T22:43:45.893Z"
     readme:
-      fetched_at: "2026-05-05T21:02:01.758Z"
+      fetched_at: "2026-05-06T22:43:45.893Z"
       bytes: 20656
 insights:
-  summary: A self-hosted MCP server that brings mem0's memory layer to Claude Code using local Qdrant, Neo4j, and Ollama for fully private, persistent context across sessions.
-  why_it_matters: It lets developers give Claude Code a long-term memory that runs entirely on their own infrastructure, removing the need to re-explain project conventions and decisions in every session.
-  mental_damage: You can now preserve every bad architectural decision you have ever made in a local knowledge graph, ensuring Claude will faithfully repeat them until the heat death of your codebase.
+  summary: A self-hosted MCP server that integrates mem0 memory capabilities with Claude Code using local Qdrant, Neo4j, and Ollama infrastructure.
+  why_it_matters: It lets developers run persistent, cross-session memory for Claude Code entirely on their own hardware without sending context to third-party memory services.
+  mental_damage: You can now remember every bad architectural decision you have ever made, locally and in a knowledge graph, forever.
   tags:
     - mcp
-    - memory
     - self-hosted
+    - memory
     - claude-code
     - local-ai
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for mem0, making it a clean fit for the MCP Servers and Tooling category rather than a coding agent or extension.
+  reason: This is an MCP server first and foremost, exposing memory tools to Claude Code via the Model Context Protocol with self-hosted infrastructure.
   evidence:
-    - Repo description states it is a 'Self-hosted mem0 MCP server for Claude Code' with Qdrant, Neo4j, and Ollama.
-    - README confirms it exposes 11 MCP tools for memory management and integrates directly with Claude Code via the MCP protocol.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description explicitly calls it a 'Self-hosted mem0 MCP server for Claude Code'
+    - README confirms it 'exposes 11 MCP tools for full memory management' and is listed in awesome-mcp-servers under Knowledge & Memory
+    - Active project (pushed 2026-03-13) with MIT license and clear MCP server identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:01.759Z"
+    updated_at: "2026-05-06T22:43:45.893Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:56.077Z"
+    updated_at: "2026-05-06T22:54:14.842Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

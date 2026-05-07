@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__beltran12138__wecom-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - python
       - wechat-work
       - wecom
-    last_checked_at: "2026-05-05T21:01:18.807Z"
+    last_checked_at: "2026-05-06T22:12:50.878Z"
     readme:
-      fetched_at: "2026-05-05T21:01:18.807Z"
+      fetched_at: "2026-05-06T22:12:50.878Z"
       bytes: 7260
 insights:
-  summary: A Python-based MCP server that enables AI agents to create, read, and edit WeCom (Enterprise WeChat) documents and Smartsheets via the @wecom/cli API.
-  why_it_matters: It closes the document-CRUD gap in the WeCom MCP ecosystem, allowing agents in Claude Desktop, Cursor, or Hermes to manage internal docs and structured data without manual copy-pasting.
-  mental_damage: We have invented a cross-platform bridge to let a Large Language Model edit Excel-like sheets in Chinese enterprise chat software, and somehow this is the most reasonable part of the stack.
+  summary: An MCP server that enables AI agents to perform CRUD operations on WeCom (Enterprise WeChat) documents and Smartsheets via the @wecom/cli API.
+  why_it_matters: It lets developers automate internal documentation workflows in WeCom directly from MCP-compatible assistants like Claude Desktop and Cursor, filling a gap left by message-only WeCom integrations.
+  mental_damage: You can now delegate updating Q2 reports to an agent, right after you finish debugging why node.exe refuses to talk to WSL.
   tags:
     - mcp
     - wecom
     - enterprise-wechat
+    - document-automation
     - python
-    - doc-crud
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that extends agent tooling with WeCom document operations, fitting cleanly into MCP infrastructure.
+  reason: The product is an MCP server whose sole identity is exposing WeCom document operations to MCP-compatible clients, making it a textbook fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'MCP server for WeCom document operations'.
-    - Compatible with Claude Desktop, Hermes Agent, and Cursor as an MCP client integration.
-    - Listed under 'Server Implementations > Communication' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'MCP server for WeCom (Enterprise WeChat) document operations'.
+    - README confirms compatibility with Claude Desktop, Hermes Agent, and Cursor as an MCP server.
+    - Listed in awesome-mcp-servers under Server Implementations > Communication.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:18.807Z"
+    updated_at: "2026-05-06T22:12:50.878Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:29.013Z"
+    updated_at: "2026-05-06T22:23:51.976Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

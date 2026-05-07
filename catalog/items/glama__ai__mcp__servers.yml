@@ -1,12 +1,12 @@
 id: glama__ai__mcp__servers
 kind: website
-name: Awesome MCP Servers
+name: servers
 canonical_url: https://glama.ai/mcp/servers
 identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__mcp__servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory."
         confidence: high
     - id: discovery__glama__ai__mcp__servers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,44 +49,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A comprehensive, daily-updated registry of over 22,000 Model Context Protocol (MCP) servers, clients, tools, and integrations.
-  why_it_matters: It serves as a central discovery hub for developers looking to extend AI assistants with specific capabilities like database access, browser automation, or API integrations via MCP.
-  mental_damage: We now have a registry of 22,836 ways to give an AI agent the keys to our databases, our browsers, and our crypto wallets, because manually checking documentation is apparently too much friction.
+  summary: Glama operates a large, daily-updated registry of over 22,000 MCP servers, clients, connectors, and tools for discovering and integrating Model Context Protocol capabilities.
+  why_it_matters: Developers integrating MCP into editors, agents, or internal tooling can use this as a centralized discovery layer to browse servers by capability, language, and deployment type.
+  mental_damage: There are now 22,921 ways to give your AI agent access to a database, a browser, or a supermarket API, and absolutely no guarantee any of them will work next Tuesday.
   tags:
-    - directory
-    - integrations
     - mcp
     - registry
-    - tooling
+    - discovery
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: This is a meta-directory and registry of MCP servers rather than a server or tool itself, fitting the awesome-awesomes category as a navigation aid for developers.
+  reason: The product is primarily an MCP registry and discovery surface, making it a strong fit for MCP Servers & Tooling under Registries & Discovery.
   evidence:
-    - Scraped site title is 'Open-Source MCP Servers – 22,836 in the Glama Registry'.
-    - Description calls it 'the most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations'.
-    - Listed in 'awesome-mcp-servers' and 'awesome-LLM-resources' source lists as a directory/registry.
+    - Scraped site title and description explicitly call it 'Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.'
+    - Homepage counts 22,921 servers and allows filtering by attributes like Remote, Python, TypeScript, Developer Tools, and Databases.
+    - Listed in awesome-mcp-servers and awesome-LLM-resources specifically as an MCP registry and directory.
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: mcp
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:04.156Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:31.069Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

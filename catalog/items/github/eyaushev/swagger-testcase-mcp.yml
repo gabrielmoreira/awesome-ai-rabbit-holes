@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eyaushev__swagger-testcase-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: "MCP server for API testing: generates test cases, validates specs, compares versions, and creates mock data from Swagger/OpenAPI specifications"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:06.971Z"
+    last_checked_at: "2026-05-06T22:43:50.184Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.971Z"
+      fetched_at: "2026-05-06T22:43:50.184Z"
       bytes: 15476
 insights:
-  summary: An MCP server that parses Swagger/OpenAPI specs to generate structured test cases, validate API definitions, and create mock data for import into testing tools.
-  why_it_matters: It automates the tedious generation of positive, negative, and security test cases from API specs, allowing developers and QA to skip manual boilerplate and focus on business logic.
-  mental_damage: We have successfully automated the creation of test cases that will likely never be updated again once the initial excitement of the new tool wears off.
+  summary: An MCP server that parses Swagger/OpenAPI specs to generate structured test cases, validate API definitions, compare versions, and create mock data.
+  why_it_matters: It automates the tedious generation of positive, negative, and security test cases from API specs, exporting directly to tools like Postman, TestRail, and k6.
+  mental_damage: Another brave attempt to solve the 'I wrote 50 test cases for a single endpoint and then the spec changed' tragedy, now wrapped in the MCP protocol du jour.
   tags:
     - mcp
     - api-testing
     - openapi
-    - qa-automation
-    - swagger
-  confidence: high
+    - qa
+    - test-generation
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing API testing capabilities, fitting squarely into the MCP tooling category.
+  reason: The product identity is an MCP server designed to give coding assistants and clients access to specialized API testing and spec analysis capabilities.
   evidence:
-    - Repo description confirms it is an 'MCP server for API testing'.
-    - README details integration with Claude Desktop, Cursor, VS Code, and Cline as an MCP server.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'MCP server for API testing'.
+    - README details integration configs for Claude Desktop, Cursor, Windsurf, and VS Code.
+    - Listed in 'awesome-mcp-servers' under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.971Z"
+    updated_at: "2026-05-06T22:43:50.184Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:51.041Z"
+    updated_at: "2026-05-06T22:55:16.448Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

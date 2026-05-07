@@ -1,12 +1,12 @@
 id: microsoft__github__io__autogen
 kind: website
-name: AutoGen Documentation
+name: autogen
 canonical_url: https://microsoft.github.io/autogen
 identity: {}
 provenance:
   discoveries:
     - id: discovery__microsoft__github__io__autogen__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -35,42 +35,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Microsoft framework for building multi-agent systems where multiple AI agents can collaborate, converse, and execute tasks together.
-  why_it_matters: It provides developers with a structured code-first way to orchestrate complex workflows involving multiple specialized LLM agents.
-  mental_damage: Another framework to help you simulate a software team in chat rooms so you can feel productive while debugging why Agent A is still waiting on Agent B to finish saying 'Hello'.
+  summary: AutoGen is a framework for building and orchestrating multi-agent AI workflows, developed by Microsoft.
+  why_it_matters: It provides developers with a structured code-first approach to coordinating multiple LLM agents to solve complex, multi-step coding and reasoning tasks.
+  mental_damage: Just when you thought managing one hallucinating intern was hard, Microsoft provides the framework to hire an entire team of them, complete with standup meetings.
   tags:
+    - multi-agent
     - framework
     - microsoft
-    - multi-agent
     - orchestration
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: It is a developer-imported SDK/framework for building multi-agent systems in code, which fits the ai-frameworks definition rather than a user-facing orchestration platform.
+  reason: The product is fundamentally a code-first library and SDK used by developers to programmatically build multi-agent systems, falling under the Agent Frameworks section.
   evidence:
-    - Listed in awesome-agent-orchestration as a core documentation resource alongside other frameworks like CrewAI and LangGraph.
-    - Described as a framework for multi-agent systems, requiring developers to import and build with it rather than operate a control plane.
+    - Listed in 'awesome-agent-orchestration' specifically as an 'AI Agent framework' alongside LangChain/CrewAI.
+    - Explicitly cited in the 'ai-frameworks' category definition as a 'canonical_positive' example of a framework.
+    - The 'agent-orchestration' category explicitly lists AutoGen as a 'common_false_positive' for platforms, confirming it is a framework, not a control plane.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:34.032Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:50.430Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

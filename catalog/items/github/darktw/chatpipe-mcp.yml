@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__darktw__chatpipe-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,49 +41,50 @@ metadata:
       - mcp
       - mcp-server
       - shareable-links
-    last_checked_at: "2026-05-05T21:01:46.611Z"
+    last_checked_at: "2026-05-06T22:43:32.643Z"
     readme:
-      fetched_at: "2026-05-05T21:01:46.611Z"
+      fetched_at: "2026-05-06T22:43:32.643Z"
       bytes: 6549
 insights:
-  summary: An MCP server that lets AI coding agents publish generated HTML content as live, shareable web pages via the ChatPipe hosting platform.
-  why_it_matters: It allows developers to instantly deploy prototypes, dashboards, or static pages directly from their AI agent without configuring hosting, domains, or CI/CD pipelines.
-  mental_damage: We have successfully abstracted away the 'deploy to production' button into a prompt, ensuring you can now publish unversioned, AI-generated HTML to the public internet before your linter even finishes.
+  summary: An MCP server that lets AI coding agents publish generated HTML content as live, shareable web pages via the ChatPipe hosting API.
+  why_it_matters: It removes deploy pipelines and hosting setup so agents can instantly turn generated dashboards, landing pages, or forms into accessible URLs.
+  mental_damage: "We have finally achieved the future: an agent that spins up a landing page and publishes it to production before you’ve had a chance to wonder whether anyone asked for one."
   tags:
     - mcp
     - publishing
-    - hosting
+    - ai-agent
+    - html
     - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to extend AI agents with publishing capabilities, fitting squarely into the MCP infrastructure category.
+  reason: The product identity is an MCP server that extends coding agents with live HTML publishing capabilities via the ChatPipe API.
   evidence:
-    - "Repo description explicitly states: 'Publish live web pages from your AI coding agent — instant shareable URLs from your terminal.'"
-    - README confirms it is a 'Model Context Protocol server' compatible with any MCP-compatible AI coding agent.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - "Repo description: 'Publish live web pages from your AI coding agent — instant shareable URLs from your terminal.'"
+    - "README: 'ChatPipe MCP is a Model Context Protocol server that lets AI coding agents publish HTML content as live, shareable web pages.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:46.611Z"
+    updated_at: "2026-05-06T22:43:32.643Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:23.153Z"
+    updated_at: "2026-05-06T22:51:34.484Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

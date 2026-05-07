@@ -1,13 +1,13 @@
 id: github__eli64s__readme-ai
 kind: github-repo
-name: README-AI
+name: readme-ai
 canonical_url: https://github.com/eli64s/readme-ai
 identity:
   github_repo: eli64s/readme-ai
 provenance:
   discoveries:
     - id: discovery__github__eli64s__readme-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2894
-    forks: 283
+    stars: 2893
+    forks: 282
     license: MIT
     archived: false
     created_at: "2023-01-16T19:47:17Z"
@@ -52,50 +52,50 @@ metadata:
       - readme-generator
       - readme-md-generator
       - readme-template
-    last_checked_at: "2026-05-05T21:02:01.451Z"
+    last_checked_at: "2026-05-06T22:43:45.265Z"
     readme:
-      fetched_at: "2026-05-05T21:02:01.451Z"
+      fetched_at: "2026-05-06T22:43:45.265Z"
       bytes: 38921
 insights:
-  summary: A CLI tool that analyzes a repository or local codebase and generates a structured README file using various LLM providers including OpenAI, Anthropic, Gemini, and local Ollama models.
-  why_it_matters: It automates the tedious process of bootstrapping and maintaining documentation, allowing developers to generate consistent, detailed READMEs with a single command.
-  mental_damage: We now have AI agents writing the documentation for projects that the AI agents also wrote, ensuring the README is just as overconfident as the code itself.
+  summary: A CLI tool that generates README documentation for repositories by analyzing codebases with configurable LLM providers including OpenAI, Anthropic, Gemini, and Ollama.
+  why_it_matters: It automates the tedious task of writing and maintaining project documentation, allowing developers to generate structured READMEs with a single command while supporting offline mode and custom templates.
+  mental_damage: We have officially reached the point where we need AI to write the text that explains the code we were too busy prompting AI to write.
   tags:
+    - readme-generator
     - cli
     - documentation
     - llm
     - python
-    - readme-generator
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: It is a developer tool that directly operates on a codebase via the CLI to generate and manipulate source files (READMEs), fitting the terminal agent profile.
+  reason: This is a developer tool that augments the workflow around a codebase by automating documentation generation, fitting best as an extension-like workflow utility rather than a core coding agent.
   evidence:
     - "Repo description explicitly states: 'README file generator, powered by AI.'"
-    - "README claims: 'Simply provide a URL or path to your codebase, and a well-structured and detailed README will be generated.'"
-    - Listed in 'awesome-ai-coding-tools' under the Documentation section.
+    - "README states: 'generate README files using a robust repository processing engine and advanced language models.'"
+    - Source list context places it under 'Documentation' in awesome-ai-coding-tools.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2894) exceeded threshold (150)
+  reason: Stars (2893) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:50.130Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:01.451Z"
+    updated_at: "2026-05-06T22:43:45.265Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:08.574Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

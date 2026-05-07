@@ -1,13 +1,13 @@
 id: github__nvidia__tensorrt-llm
 kind: github-repo
-name: TensorRT-LLM
+name: tensorrt-llm
 canonical_url: https://github.com/nvidia/tensorrt-llm
 identity:
   github_repo: nvidia/tensorrt-llm
 provenance:
   discoveries:
     - id: discovery__github__nvidia__tensorrt-llm__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [Tensorrt-llm](https://github.com/NVIDIA/TensorRT-LLM)          | - Inference efficiently on NVIDIA GPUs                                               | Python / C++ runtimes   | Both            | ❌  | Python/C++  | Text-Gen      |"
         confidence: high
     - id: discovery__github__nvidia__tensorrt-llm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,14 +37,29 @@ provenance:
         extracted_url: https://github.com/nvidia/tensorrt-llm
         surrounding_text: "| [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)                                | Inference engine for TensorRT on Nvidia GPUs                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg?style=flat-square)                   |"
         confidence: high
+    - id: discovery__github__nvidia__tensorrt-llm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: TensorRT-LLM
+        extracted_url: https://github.com/nvidia/tensorrt-llm
+        surrounding_text: "8. [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs."
+        confidence: high
 metadata:
   github:
-    stars: 13555
-    forks: 2351
+    stars: 13567
+    forks: 2353
     license: NOASSERTION
     archived: false
     created_at: "2023-08-16T17:14:27Z"
-    pushed_at: "2026-05-05T20:42:44Z"
+    pushed_at: "2026-05-06T22:38:55Z"
     description: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.
     homepage: https://nvidia.github.io/TensorRT-LLM
     topics:
@@ -53,50 +68,50 @@ metadata:
       - llm-serving
       - moe
       - pytorch
-    last_checked_at: "2026-05-05T21:03:57.517Z"
+    last_checked_at: "2026-05-06T22:45:35.343Z"
     readme:
-      fetched_at: "2026-05-05T21:03:57.517Z"
+      fetched_at: "2026-05-06T22:45:35.343Z"
       bytes: 26642
 insights:
-  summary: TensorRT LLM is an NVIDIA Python/C++ toolkit that provides specialized kernels and runtimes to optimize and serve large language and visual models efficiently on NVIDIA GPUs.
-  why_it_matters: It gives developers a code-first path to squeeze maximum throughput and minimum latency out of LLM inference on NVIDIA hardware without reinventing low-level CUDA optimizations.
-  mental_damage: You will spend three days tuning CUDA graph batch sizes and MoE parallelism strategies just to learn that your prompt throughput is now bottlenecked by how fast you can type 'please optimize this'.
+  summary: TensorRT LLM is a Python and C++ framework from NVIDIA for defining, optimizing, and serving Large Language Models with specialized kernels and efficient runtimes on NVIDIA GPUs.
+  why_it_matters: It allows developers to squeeze maximum inference performance out of NVIDIA hardware for LLMs and Visual Gen models through state-of-the-art optimizations and distributed serving strategies.
+  mental_damage: Nothing says 'I enjoy my job' quite like spending three days tuning CUDA graph batch sizes just to shave 40 milliseconds off a token that nobody asked for.
   tags:
-    - gpu-optimization
-    - llm-inference
-    - local-ai
+    - inference
     - nvidia
-    - python
+    - llm-serving
+    - cuda
+    - optimization
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and runtime toolkit that developers import and build with to optimize LLM serving, which fits the AI Frameworks category rather than a hosted product or agent.
+  reason: It is a code-first library and runtime toolkit developers use to build optimized LLM inference pipelines on NVIDIA GPUs, fitting the Frameworks & SDKs identity.
   evidence:
-    - Repo description clearly states it is a Python API and runtime for defining and optimizing LLM inference on NVIDIA GPUs.
-    - README positions it as a framework with specialized kernels, a pythonic API, and C++ runtimes for building performant inference systems.
-    - Strong ecosystem presence in awesome-local-ai (Inference Engine) and Awesome-LLMOps (Large Model Serving) confirms its developer-tooling relevance.
+    - Repo description explicitly calls it an 'easy-to-use Python API to define Large Language Models' with Python and C++ runtimes.
+    - README positions it as a 'pythonic framework that enables you to customize and extend the system' with specialized kernels.
+    - Source lists classify it under 'Inference Engine' and 'Large Model Serving', confirming its role as reusable inference infrastructure.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
-  reason: Stars (13555) exceeded threshold (150)
+  reason: Stars (13567) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:14.973Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:57.517Z"
+    updated_at: "2026-05-06T22:45:35.343Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:17:55.842Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

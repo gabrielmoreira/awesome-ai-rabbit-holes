@@ -1,12 +1,12 @@
 id: apidna__io
 kind: website
-name: APIDNA
+name: apidna.io
 canonical_url: https://apidna.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__apidna__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: APIDNA is a SaaS platform that builds and operates vertically-trained AI agents to automate complex enterprise workflows across APIs, ERPs, and legacy systems.
-  why_it_matters: It provides developers with an execution layer for deploying domain-specific agents that handle integration, state management, and compliance in regulated environments without building custom orchestration from scratch.
-  mental_damage: Yet another reminder that while we’re prompt-engineering a to-do app for the tenth time, the enterprises are quietly deploying agents that reconcile millions of transactions while we debug a 500 error from a generic chatbot.
+  summary: APIDNA is an enterprise platform that delivers vertically-trained AI agents designed to automate complex, cross-system workflows like reconciliation, compliance, and document processing.
+  why_it_matters: It offers developers a model-agnostic execution layer for deploying domain-specific agents that integrate natively with ERPs, legacy systems, and strict regulatory environments.
+  mental_damage: Another platform promising to turn your spaghetti legacy systems into autonomous agent workflows, ensuring you can watch the reconciliation fail in real-time with 99.98% match accuracy.
   tags:
     - agent-orchestration
     - enterprise
-    - saas
     - workflow-automation
+    - vertical-agents
   confidence: medium
 curation:
   status: included
-  reason: The product is an end-user platform for coordinating multiple specialized AI agents across enterprise systems, fitting the definition of agent orchestration rather than a coding assistant or app builder.
+  reason: The product is a control plane and runtime platform for coordinating multiple specialized agents (Reconciliation, Compliance, Knowledge) across enterprise systems, fitting the vertical orchestration profile.
   evidence:
-    - Scraped site context describes 'agent orchestration' and 'multi-agent coordination at enterprise scale'.
-    - Listed under 'awesome-ai-agents' with the description 'Vertically-trained agentic systems that execute real-world workflows'.
-    - Primary surface is a hosted platform (agent.apidna.io) focused on operational workflow execution, not IDE code editing.
+    - Site describes 'vertically-trained agentic systems' executing workflows across APIs, ERPs, and legacy infrastructure.
+    - Capabilities include 'Agent orchestration' to deploy and coordinate multiple specialized agents on a dedicated execution layer.
+    - Listed in awesome-ai-agents under the section for 'Vertically-trained agentic systems' for enterprise environments.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:59.427Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:05.011Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

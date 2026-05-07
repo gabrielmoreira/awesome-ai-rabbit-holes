@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__giskard09__argentum-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,53 +29,54 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2026-03-25T14:50:32Z"
-    pushed_at: "2026-05-04T00:53:00Z"
+    pushed_at: "2026-05-06T19:21:57Z"
     description: ARGENTUM core — karma economy for agents and humans
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:21.292Z"
+    last_checked_at: "2026-05-06T22:44:02.366Z"
     readme:
-      fetched_at: "2026-05-05T21:02:21.292Z"
+      fetched_at: "2026-05-06T22:44:02.366Z"
       bytes: 8934
 insights:
-  summary: A Model Context Protocol (MCP) server that implements a karma economy system for AI agents and humans, featuring verifiable action tracking, reputation leaderboards, and composable 'Mycelium Trails' for chaining MCP service calls.
-  why_it_matters: It provides a standardized MCP interface for agents to record reputation, verify actions via community attestation, and register reusable service workflows within the growing MCP ecosystem.
-  mental_damage: We have successfully built a blockchain-style karma system for bots, ensuring your AI agent can now worry about its credit score while it fixes your merge conflicts.
+  summary: An MCP server that implements a karma economy and verifiable 'Mycelium Trails' (recipes of MCP calls) for AI agents and humans, with Lightning network integration.
+  why_it_matters: It provides a protocol-native way for agents to build reputation, verify actions, and monetize composable workflows via the MCP standard.
+  mental_damage: We have successfully formalized the GitHub contribution graph into a pay-to-verify Lightning economy so that your agent can worry about its credit score while it debugs.
   tags:
     - mcp
     - karma
-    - agent-reputation
+    - reputation
     - lightning
+    - agents
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tools for a karma economy and service trails, fitting the MCP infrastructure category perfectly.
+  reason: The product's primary identity is an MCP server exposing karma and trail tools, aligning perfectly with the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'ARGENTUM core — karma economy for agents and humans' and README confirms 'MCP Server'."
-    - README details 10 specific MCP tools (submit_action, attest_action, register_trail, etc.) exposed via SSE transport.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Repo description explicitly states 'ARGENTUM core — karma economy for agents and humans' and the README titles it 'ARGENTUM — MCP Server'.
+    - README details 10 specific MCP tools (submit_action, attest_action, register_trail, etc.) and provides MCP config JSON for integration.
+    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech', confirming its role as a domain-specific server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:21.292Z"
+    updated_at: "2026-05-06T22:44:02.366Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:22.851Z"
+    updated_at: "2026-05-06T22:57:42.008Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

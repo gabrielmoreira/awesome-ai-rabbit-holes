@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__narumiruna__gitingest-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:51.413Z"
+    last_checked_at: "2026-05-06T22:45:29.401Z"
     readme:
-      fetched_at: "2026-05-05T21:03:51.413Z"
+      fetched_at: "2026-05-06T22:45:29.401Z"
       bytes: 2406
 insights:
-  summary: An MCP server that integrates with gitingest to turn any Git repository into a structured text digest for AI assistants.
-  why_it_matters: It allows coding agents and LLMs to ingest entire repository structures and file contents directly via the Model Context Protocol, bypassing manual copy-pasting.
-  mental_damage: We have successfully abstracted the act of reading code into an MCP server that turns a repository into a text blob, because apparently the AI's context window needed its own middleware.
+  summary: An MCP server that wraps gitingest to turn any Git repository into a structured text digest for AI assistants.
+  why_it_matters: It lets coding agents ingest entire repos into context without cloning or manual file stitching, streamlining repo-wide analysis tasks.
+  mental_damage: We have finally reached the point where we need a protocol server to feed a digest tool into an assistant so it can pretend it read your codebase.
   tags:
     - mcp
     - git
     - context
-    - developer-tools
+    - digest
+    - repo-analysis
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server implementation designed to provide repository ingestion capabilities to MCP-compatible hosts.
+  reason: The product is an MCP server implementation whose entire identity is exposing gitingest repository digestion as an MCP tool.
   evidence:
-    - README identifies this as 'A Model Context Protocol (MCP) server implementation that integrates with gitingest'.
-    - Provides the `ingest_git` tool specifically for MCP hosts to analyze repo structure and content.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - GitHub repo name is gitingest-mcp with description focused on MCP server implementation.
+    - README explicitly states it is 'A Model Context Protocol (MCP) server implementation that integrates with gitingest'.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:51.413Z"
+    updated_at: "2026-05-06T22:45:29.402Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:55.634Z"
+    updated_at: "2026-05-06T23:16:35.935Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

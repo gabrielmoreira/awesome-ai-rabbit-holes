@@ -1,12 +1,12 @@
 id: github__com__antvis
 kind: website
-name: AntV
+name: antvis
 canonical_url: https://github.com/antvis
 identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__antvis__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
         confidence: high
     - id: discovery__github__com__antvis__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,40 +50,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AntV is an open-source suite of JavaScript visualization libraries and AI-powered tooling from Ant Group, covering statistical, graph, geographical, and unstructured data visualization.
-  why_it_matters: It provides developers with a comprehensive, grammar-based toolkit to embed complex data visualizations and AI-generated infographics directly into applications.
-  mental_damage: Another sprawling charting ecosystem to evaluate while you quietly mourn the one time your boss let you just use a simple bar chart.
+  summary: AntV is an Ant Group-initiated ecosystem of JavaScript data visualization libraries (G2, G6, L7, etc.) paired with AI-native tooling like chart generation MCP servers, Infographic, and AVA.
+  why_it_matters: It gives developers a batteries-included path from raw data to AI-generated infographics and charts, with MCP servers that let coding agents call on mature visualization grammars instead of hallucinating SVG.
+  mental_damage: We have reached the point where even our chart libraries need their own MCP servers, because apparently asking an LLM to invent a bar chart from scratch wasn't unhinged enough.
   tags:
-    - ant-group
-    - charting-libraries
-    - data-visualization
-    - javascript
+    - visualization
+    - antv
+    - mcp-servers
+    - ai-analytics
   confidence: high
 curation:
-  status: excluded
-  reason: While AntV includes AI features (AVA, GPT-Vis, mcp-server-chart), the organization itself is a general-purpose data visualization suite, which falls outside the catalog's focus on AI-specific developer tooling, agents, and infrastructure.
+  status: included
+  reason: The organization publishes distinct MCP servers (mcp-server-chart, mcp-server-antv) that expose AntV visualization capabilities to MCP-compatible agents, making MCP infrastructure the strongest fit.
   evidence:
-    - The README describes AntV as a 'data visualization' suite started in 2017, focusing on graphical grammar rather than AI-native tooling.
-    - The GitHub organization is a collection of 121 repositories for chart libraries (G2, G6, L7), not a single AI product.
-    - AI components (like mcp-server-chart) are sub-components of a larger traditional visualization project.
+    - README lists 'AI-powered intelligent visualization' including mcp-server-chart and mcp-server-antv as first-class org repos.
+    - awesome-mcp-servers includes antvis entries under 'Server Implementations' and 'Official Servers' for chart visualization.
+    - Pinned repos include mcp-server-chart (4k stars) described as 'A visualization mcp & skills contains 25+ visual charts using @antvis'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:45.177Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -92,3 +84,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:16.190Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

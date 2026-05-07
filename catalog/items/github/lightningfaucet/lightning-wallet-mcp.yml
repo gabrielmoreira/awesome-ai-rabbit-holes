@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lightningfaucet__lightning-wallet-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -48,50 +48,50 @@ metadata:
       - payments
       - wallet
       - x402
-    last_checked_at: "2026-05-05T21:03:20.141Z"
+    last_checked_at: "2026-05-06T22:44:59.040Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.141Z"
+      fetched_at: "2026-05-06T22:44:59.040Z"
       bytes: 20827
 insights:
-  summary: An MCP server and CLI that gives AI agents access to a Bitcoin wallet for making Lightning, L402, and USDC payments via frameworks like Claude Code, Cursor, and OpenClaw.
-  why_it_matters: It lets developers build and experiment with autonomous agents that can programmatically pay for APIs and send value without human intervention.
-  mental_damage: "The natural next step in agent autonomy is here: your code assistant can now independently burn your sats on paywalled APIs while you debug the resulting 402 errors."
+  summary: An MCP server and CLI that gives AI agents a Bitcoin Lightning wallet for making instant L402 and X402 payments.
+  why_it_matters: It lets developers wire autonomous agents directly into payment flows so they can purchase API access and services without human intervention.
+  mental_damage: Your agent can now independently burn your sats on paywalled APIs while you debug why its wallet is empty at 2am.
   tags:
     - mcp
+    - payments
     - bitcoin
     - lightning
-    - payments
-    - agents
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation for wallet and payment capabilities, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server that gives agents wallet capabilities, placing it squarely in MCP domain servers rather than as a generic extension or framework.
   evidence:
-    - "Repo description: 'MCP Server for Lightning Faucet - Give your AI agent a Bitcoin wallet'"
-    - README explicitly provides MCP server configuration for Claude Code and Cursor
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' implementations
+    - Repo description explicitly states 'MCP Server for Lightning Faucet - Give your AI agent a Bitcoin wallet'.
+    - README promotes both MCP server mode for Claude Code/Cursor and a standalone CLI, with MCP configuration examples front and center.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.141Z"
+    updated_at: "2026-05-06T22:44:59.040Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:56.147Z"
+    updated_at: "2026-05-06T23:09:30.672Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

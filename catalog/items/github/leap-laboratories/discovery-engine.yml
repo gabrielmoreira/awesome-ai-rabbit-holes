@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leap-laboratories__discovery-engine__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,30 +33,29 @@ metadata:
     description: Discovery Engine — find novel, statistically validated patterns in tabular data
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:18.052Z"
+    last_checked_at: "2026-05-06T22:44:57.162Z"
     readme:
-      fetched_at: "2026-05-05T21:03:18.052Z"
+      fetched_at: "2026-05-06T22:44:57.162Z"
       bytes: 12121
 insights:
-  summary: Discovery Engine is a Python SDK and API service that analyzes tabular data to find novel, statistically validated feature interactions and subgroup effects without requiring pre-defined hypotheses.
-  why_it_matters: It allows developers and data scientists to automate the discovery of complex conditional patterns and interaction effects in datasets using a structured ML pipeline rather than manual hypothesis testing.
-  mental_damage: Finally, a way to automate the 'Eureka!' moment so you can spend more time debugging why the AI thinks humidity and wind speed are the keys to your entire business logic.
+  summary: Discovery Engine (Disco) is a Python SDK and API that finds novel, statistically validated feature interactions and subgroup patterns in tabular data using ML interpretability and literature cross-checks.
+  why_it_matters: It lets data-focused developers uncover non-obvious, FDR-corrected variable interactions and novelty classifications without having to pre-form hypotheses or hand-craft pandas queries.
+  mental_damage: Yet another magical black box that promises to find the insights you should have had, provided you’re comfortable outsourcing your statistical intuition to a pipeline you can’t quite replicate locally.
   tags:
     - data-science
-    - tabular-data
+    - ml-interpretability
+    - python-sdk
     - pattern-discovery
-    - sdk
-    - api
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: It is a code-first SDK and API that developers import to embed automated pattern discovery into their data workflows, fitting the AI Frameworks category.
+  status: excluded
+  reason: This is a general-purpose data science and ML interpretability tool for tabular data analysis, not a developer-facing AI coding tool, agent, extension, or infrastructure component.
   evidence:
-    - Repo description states it 'find[s] novel, statistically validated patterns in tabular data'.
-    - README provides a Python SDK usage example via `from discovery import Engine` and `pip install`.
-    - Listed in awesome-mcp-servers under Data Science Tools, but the primary artifact is the importable Python library.
+    - "Repo description explicitly states: 'find novel, statistically validated patterns in tabular data'."
+    - README positions it against pandas and hypothesis-driven analysis, targeting data scientists rather than software developers building apps or agents.
+    - No developer-tooling angle such as coding assistance, IDE integration, agent orchestration, or prompt/context engineering is present in the README.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -64,19 +63,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:18.052Z"
+    updated_at: "2026-05-06T22:44:57.162Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:31.185Z"
+    updated_at: "2026-05-06T23:09:02.123Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

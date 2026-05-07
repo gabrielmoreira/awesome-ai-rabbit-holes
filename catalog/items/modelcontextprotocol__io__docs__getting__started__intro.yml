@@ -1,12 +1,12 @@
 id: modelcontextprotocol__io__docs__getting__started__intro
 kind: website
-name: MCP
+name: intro
 canonical_url: https://modelcontextprotocol.io/docs/getting-started/intro
 identity: {}
 provenance:
   discoveries:
     - id: discovery__modelcontextprotocol__io__docs__getting__started__intro__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "[MCP](https://modelcontextprotocol.io/) is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services."
         confidence: high
     - id: discovery__modelcontextprotocol__io__docs__getting__started__intro__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -50,44 +50,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Model Context Protocol (MCP) is an open-source standard that provides a universal interface for connecting AI applications to external data sources, tools, and workflows.
-  why_it_matters: It reduces the integration complexity for developers building AI agents by providing a standardized 'USB-C port' style protocol for accessing external systems like calendars, databases, and file systems.
-  mental_damage: We have successfully standardized the process of explaining to an LLM how to read a spreadsheet, meaning the holy grail of modern engineering is now writing adapters for adapters.
+  summary: The Model Context Protocol (MCP) is an open-standard documentation page defining a universal protocol for connecting AI applications to external data sources, tools, and workflows.
+  why_it_matters: It standardizes how AI assistants like Claude and ChatGPT integrate with local files, databases, and APIs, reducing custom integration work for developers.
+  mental_damage: We have successfully standardized the plug, but we still have not agreed on what should happen when you plug it in.
   tags:
-    - ai-infrastructure
-    - integration
     - mcp
     - protocol
     - standard
+    - docs
   confidence: high
 curation:
-  status: included
-  reason: The project is the definition and documentation of the Model Context Protocol itself, serving as the foundational infrastructure for the MCP ecosystem.
+  status: excluded
+  reason: This is a documentation page explaining the MCP standard, not a standalone product, server, client, or developer tool, and thus does not fit any product category.
   evidence:
-    - Primary page excerpt defines MCP as 'an open-source standard for connecting AI applications to external systems'.
-    - Listed in 'awesome-mcp-servers' under the section 'What is MCP?' as the core documentation.
-    - Referenced in 'awesome-agent-orchestration' as a popular protocol (mcp protocol) for agent communication.
+    - The URL points to a documentation page ('/docs/getting-started/intro'), not a product repo or tool.
+    - The excerpt describes the protocol standard and 'What can MCP enable?', acting as educational content rather than a tool.
+    - Source lists reference it as a definition page ('What is MCP?') rather than listing it as a usable server or SDK.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:40.481Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:54.628Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

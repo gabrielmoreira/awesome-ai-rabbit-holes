@@ -1,12 +1,12 @@
 id: newsletter__maartengrootendorst__com__p__a__visual__guide__to__mixture__of__experts
 kind: website
-name: A Visual Guide to Mixture of Experts (MoE)
+name: a-visual-guide-to-mixture-of-experts
 canonical_url: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
 identity: {}
 provenance:
   discoveries:
     - id: discovery__newsletter__maartengrootendorst__com__p__a__visual__guide__to__mixture__of__experts__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A visual blog post and guide explaining the Mixture of Experts (MoE) architecture used in modern Large Language Models, illustrated with over 50 diagrams.
-  why_it_matters: It helps developers understand the trade-offs between sparse and active parameters in models like Mixtral 8x7B, which impacts infrastructure decisions for hosting and inference.
-  mental_damage: You will read this entire guide to feel smart about router load balancing, only to immediately forget the difference between Token Choice and Soft-MoE when the next model drops.
+  summary: A visual, newsletter-based guide explaining how Mixture of Experts (MoE) architectures work in Large Language Models using over 50 diagrams and detailed component breakdowns.
+  why_it_matters: Helps developers understand the trade-offs between sparse and active parameters so they can choose and run MoE models like Mixtral 8x7B more effectively.
+  mental_damage: Yet another opportunity to feel intellectually inadequate because you understand transformers but still can't explain why your sparse model just dropped a token.
   tags:
-    - architecture
-    - education
-    - llm
     - moe
+    - llm-architecture
+    - education
+    - newsletter
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational article and newsletter post about ML research concepts, not a developer tool, agent, or infrastructure product.
+  reason: This is an educational article and newsletter post explaining MoE architecture, not a developer tool, framework, or product.
   evidence:
-    - The source is a Substack newsletter post (newsletter.maartengrootendorst.com), not a software repository or tool.
-    - The content is a visual explanation of MoE architecture (experts, routers, load balancing) rather than a functional tool for developers.
-    - It was found in 'awesome-LLM-resources' under 'Tips', confirming its nature as a learning resource rather than a developer utility.
+    - Source is a Substack newsletter post titled 'A Visual Guide to Mixture of Experts (MoE)', not a software tool.
+    - Content is purely educational, containing over 50 visualizations explaining router mechanisms, expert capacity, and load balancing.
+    - Found in awesome-LLM-resources under 'Tips' section as a learning resource, not as a tool or SDK.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:42.070Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:01.746Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

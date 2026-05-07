@@ -1,12 +1,12 @@
 id: shoppal__ai
 kind: website
-name: ShopPal
+name: shoppal.ai
 canonical_url: https://shoppal.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__shoppal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ShopPal AI is a U.S.-based service provider that integrates AI infrastructure, shopping agents, and content generation into the e-commerce stacks of fashion and apparel brands.
-  why_it_matters: It offers a case study in how domain-specific AI agents and content automation are being packaged as managed services for enterprise commerce stacks rather than developer tooling.
-  mental_damage: Yet another 'AI agent' that turns out to be a managed services firm in the Bay Area, proving that if you put 'agent' in the name, someone will list you in an awesome-ai-agents repo.
+  summary: ShopPal AI is a U.S.-based service provider that integrates AI infrastructure, content generation, and go-to-market execution specifically for fashion and apparel brands.
+  why_it_matters: It offers a template for how generalized AI technologies like shopping agents and visual AI can be operationalized into revenue-generating systems within a specific vertical.
+  mental_damage: Witnessing a company pitch 'AI Infrastructure' for fashion while explicitly assuring investors that no overseas affiliate will touch the U.S. revenue serves as a stark reminder that modern AI adoption is often 10% neural networks and 90% Cayman Islands holding structures.
   tags:
-    - ai-infrastructure
-    - e-commerce
-    - fashion
-    - managed-services
+    - vertical-ai
+    - fashion-tech
+    - ai-integration
+    - enterprise-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a consultancy and managed service firm for the fashion industry, not a developer-facing tool, agent, or infrastructure component.
+  reason: This is a vertical-specific agency and service provider for the fashion industry, not a developer-facing tool, framework, or coding assistant.
   evidence:
-    - The site describes the project as a 'U.S.-based company providing AI infrastructure integration, operational enablement, and go-to-market execution services for fashion and apparel brands.'
-    - The 'How It Works' section describes catalog integration, styling, and content generation services for brands, not tools for software developers.
-    - It appears in awesome-ai-agents, but the listing is misleading as the product is a service business, not a coding or development agent.
+    - The scraped site describes the product as 'AI infrastructure integration, operational enablement, and go-to-market execution services for fashion and apparel brands', not a developer tool.
+    - It focuses on merchandising, content generation for marketing, and styling logic rather than code editing, agent orchestration, or SDKs.
+    - It appears in 'awesome-ai-agents' only as a generic listing, likely due to keyword matching on 'shopping agents' rather than being a programmable agent framework.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:06.888Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:35.223Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

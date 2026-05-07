@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__nearby-search-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp) 🐍 ☁️ - An MCP server for nearby place searches with IP-based location detection."
         confidence: high
     - id: discovery__github__kukapay__nearby-search-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,50 +48,49 @@ metadata:
     description: An MCP server for nearby place searches with IP-based location detection.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:12.072Z"
+    last_checked_at: "2026-05-06T22:44:49.889Z"
     readme:
-      fetched_at: "2026-05-05T21:03:12.072Z"
+      fetched_at: "2026-05-06T22:44:49.889Z"
       bytes: 1959
 insights:
-  summary: An MCP server that detects a user's location via IP and searches for nearby places using the Google Places API.
-  why_it_matters: It allows AI agents and MCP-compatible clients to perform location-aware searches without requiring manual GPS input or complex API wiring.
-  mental_damage: Another niche MCP server joins the ecosystem, proving that the 'build once, integrate nowhere' era is in full swing.
+  summary: An MCP server that enables AI agents to search for nearby places and detect location via IP address using the Google Places API.
+  why_it_matters: It gives MCP-compatible coding assistants like Claude Desktop the ability to answer location-aware queries without leaving the chat interface.
+  mental_damage: "We have finally solved the hardest problem in computer science: letting your terminal agent find the nearest coffee shop while it silently forgets your auth tokens."
   tags:
     - mcp
     - location
-    - server
     - google-places
-    - ip-geolocation
+    - ip-detection
   confidence: high
 curation:
   status: included
-  reason: The project is a distinct MCP server implementation designed to extend AI tooling with location services, fitting squarely into the MCP tooling category.
+  reason: The project is explicitly an MCP server for location services, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly defines it as 'An MCP server for nearby place searches'.
-    - README details a standard MCP setup with a 'search_nearby' tool endpoint and client configuration.
-    - Listed in 'awesome-mcp-servers' and 'awesome-mcp-list' under Location Services sections.
+    - "Repo description states: 'An MCP server for nearby place searches with IP-based location detection.'"
+    - README demonstrates MCP-specific configuration for Claude Desktop and usage of the `mcp` Python package.
+    - Included in `awesome-mcp-list` and `awesome-mcp-servers` under Location Services sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:12.072Z"
+    updated_at: "2026-05-06T22:44:49.889Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:14.919Z"
+    updated_at: "2026-05-06T23:07:35.499Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

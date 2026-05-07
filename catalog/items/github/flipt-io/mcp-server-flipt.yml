@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flipt-io__mcp-server-flipt__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: https://www.npmjs.com/package/@flipt-io/mcp-server-flipt
     topics: []
-    last_checked_at: "2026-05-05T21:02:12.613Z"
+    last_checked_at: "2026-05-06T22:43:54.823Z"
     readme:
-      fetched_at: "2026-05-05T21:02:12.613Z"
+      fetched_at: "2026-05-06T22:43:54.823Z"
       bytes: 2358
 insights:
-  summary: An MCP server implementation that exposes Flipt feature-flag operations (CRUD, evaluation, rollouts) to AI assistants via the Model Context Protocol.
-  why_it_matters: Developers integrating feature flags with AI agents can let assistants safely toggle, evaluate, and manage flags without leaving the MCP workflow.
-  mental_damage: Another day, another MCP server, because apparently even flipping a boolean now requires a dedicated protocol handshake and a 3am npm install.
+  summary: An MCP server that lets AI assistants read and manage feature flags, namespaces, segments, and rollout rules in Flipt.
+  why_it_matters: It gives coding agents direct, programmable control over feature-flag lifecycle and evaluation without leaving the assistant context.
+  mental_damage: You now have an AI assistant toggling flags in production while you argue with it about whether the toggle was actually persisted.
   tags:
     - mcp
     - feature-flags
     - flipt
-    - ai-tooling
+    - devops
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation for Flipt, squarely fitting the MCP infrastructure category rather than a coding agent or extension.
+  reason: The product is an MCP server for a specific domain (Flipt feature flags), which fits MCP Servers & Tooling as a domain server, not a generic extension or framework.
   evidence:
     - "README states: 'A Model Context Protocol (MCP) server for Flipt, allowing AI assistants to interact with feature flags.'"
-    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Actively pushed as of 2026-02-11, with recent creation in 2025-03-15 and not archived.
+    - Seen in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Recently created 2025-03-15 and actively pushed 2026-02-11, Apache-2.0 licensed, not archived.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:12.613Z"
+    updated_at: "2026-05-06T22:43:54.823Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:46.874Z"
+    updated_at: "2026-05-06T22:56:11.285Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

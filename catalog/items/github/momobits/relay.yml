@@ -1,13 +1,13 @@
 id: github__momobits__relay
 kind: github-repo
-name: Relay
+name: relay
 canonical_url: https://github.com/momobits/relay
 identity:
   github_repo: momobits/relay
 provenance:
   discoveries:
     - id: discovery__github__momobits__relay__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -32,50 +32,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:46.509Z"
+    last_checked_at: "2026-05-06T22:45:24.583Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.509Z"
+      fetched_at: "2026-05-06T22:45:24.583Z"
       bytes: 31368
 insights:
-  summary: A workflow system that adds a persistent .relay/ memory layer and 20 structured skills for directing AI coding agents across multi-session projects.
-  why_it_matters: It attempts to solve AI amnesia and context fragmentation by giving developers a shared, structured state file that works across Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
-  mental_damage: Finally, a system to manage the meta-work of managing the AI that manages your codebase, ensuring your token budget now requires its own project manager.
+  summary: Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
+  why_it_matters: It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
+  mental_damage: Another layer of structured markdown to manage the chaos of AI coding sessions, letting you proudly accumulate technical debt with a full audit trail.
   tags:
+    - memory
     - cli
-    - memory-layer
-    - multi-agent
-    - skills
     - workflow
+    - multi-model
+    - skills
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a reusable skills pack and structured workflow layer (20 skills, .relay/ directory) designed to extend and coordinate existing AI coding agents like Claude Code and Codex CLI.
+  reason: The primary artifact is a pack of 20 workflow skills that run inside Claude Code, Codex CLI, and Gemini CLI to provide persistent project memory and structured task management.
   evidence:
-    - README states '20 workflow skills cover the full lifecycle' and 'primary artifact is the reusable skill content' matches the skills category instruction.
-    - Works with Claude Code, OpenAI Codex CLI, and Google Gemini CLI as a memory/skills layer rather than being the primary assistant itself.
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', supporting its fit as a developer-facing AI workflow tool.
+    - README states it provides '20 workflow skills' covering the full lifecycle for Claude Code, Codex CLI, and Gemini CLI.
+    - Creates a persistent `.relay/` directory with structured markdown as shared memory across sessions and models.
+    - Badged as 'Claude Code Skills', 'Codex CLI Skills', and 'Gemini CLI Skills' in the README header.
 placement:
   primary_category: skills
-  section: null
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:00.399Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.509Z"
+    updated_at: "2026-05-06T22:45:24.583Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:29.152Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

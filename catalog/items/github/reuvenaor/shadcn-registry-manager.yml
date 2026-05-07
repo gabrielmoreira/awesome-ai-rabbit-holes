@@ -1,13 +1,13 @@
 id: github__reuvenaor__shadcn-registry-manager
 kind: github-repo
-name: Shadcn Registry Manager
+name: shadcn-registry-manager
 canonical_url: https://github.com/reuvenaor/shadcn-registry-manager
 identity:
   github_repo: reuvenaor/shadcn-registry-manager
 provenance:
   discoveries:
     - id: discovery__github__reuvenaor__shadcn-registry-manager__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-07-09T11:07:19Z"
+    pushed_at: "2025-09-18T13:01:22Z"
+    description: "MCP shadcn registry cli manager "
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:09.660Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:09.660Z"
+      bytes: 4474
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes shadcn/ui CLI commands (init, add, list components) as tools so AI agents or automation can manage component registries remotely.
+  why_it_matters: It lets AI coding agents and CI pipelines programmatically scaffold and maintain shadcn/ui component setups without manual terminal interaction.
+  mental_damage: We’ve reached the point where the UI framework needs its own protocol server so your AI can argue with your design system for you.
+  tags:
+    - mcp
+    - shadcn
+    - ui-components
+    - automation
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product’s core identity is an MCP server exposing shadcn CLI workflows, fitting cleanly as a domain-specific MCP server rather than a general coding agent or extension.
+  evidence:
+    - Repo description explicitly states 'MCP shadcn registry cli manager'.
+    - README title and description define it as 'an MCP (Model Context Protocol) server for the shadcn/ui component registry and CLI'.
+    - Included in awesome-mcp-servers under Community Servers, aligning with MCP infrastructure scope.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:09.660Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:37.481Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

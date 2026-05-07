@@ -1,13 +1,13 @@
 id: github__kirodotdev__kiro
 kind: github-repo
-name: Kiro
+name: kiro
 canonical_url: https://github.com/kirodotdev/kiro
 identity:
   github_repo: kirodotdev/kiro
 provenance:
   discoveries:
     - id: discovery__github__kirodotdev__kiro__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -21,40 +21,10 @@ provenance:
         extracted_url: https://github.com/kirodotdev/kiro
         surrounding_text: "- [Kiro](https://github.com/kirodotdev/Kiro) ![](https://img.shields.io/github/stars/kirodotdev/Kiro.svg) - Agentic IDE for spec-driven development from prototype to production with natural language coding."
         confidence: high
-    - id: discovery__kiro__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Code Editors and Assistants
-        anchor_text: Kiro
-        extracted_url: https://kiro.dev
-        surrounding_text: "- **[Kiro](https://kiro.dev/)** – Spec-driven AI development environment by AWS."
-        confidence: high
-    - id: discovery__kiro__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: WangRongsheng/awesome-LLM-resources
-        url: https://github.com/wangrongsheng/awesome-llm-resources
-        repository: WangRongsheng/awesome-LLM-resources
-      extraction:
-        mode: parsed
-        section_path:
-          - 代码 Coding
-        anchor_text: Kiro
-        extracted_url: https://kiro.dev
-        surrounding_text: 19. [Kiro](https://kiro.dev/)
-        confidence: high
 metadata:
   github:
-    stars: 3609
-    forks: 241
+    stars: 3625
+    forks: 243
     license: null
     archived: false
     created_at: "2025-06-17T19:12:20Z"
@@ -66,56 +36,50 @@ metadata:
       - ide
       - kiro
       - spec
-    last_checked_at: "2026-05-05T21:03:06.597Z"
+    last_checked_at: "2026-05-06T22:44:43.729Z"
     readme:
-      fetched_at: "2026-05-05T21:03:06.597Z"
+      fetched_at: "2026-05-06T22:44:43.729Z"
       bytes: 4541
 insights:
-  summary: Kiro is an agentic IDE and CLI from Amazon that supports spec-driven development, hooks, and natural language coding assistance across macOS, Windows, and Linux.
-  why_it_matters: It integrates spec-driven planning directly into the development environment and automates repetitive tasks through file-change hooks and MCP server support.
-  mental_damage: Another day, another IDE promising to take you from prototype to production, provided you fully buy into yet another Amazon-backed spec dialect.
+  summary: Kiro is an agentic IDE and CLI from Amazon that combines spec-driven development, hooks, and natural language coding assistance to help developers move from prototype to production.
+  why_it_matters: It integrates structured spec planning directly into the development environment alongside agentic chat and automated hooks, aiming to formalize AI-assisted workflows beyond simple code completion.
+  mental_damage: Another day, another IDE promising to turn your vague prompts into production-ready specs, just in case you were worried Cursor wasn't quite enterprise enough yet.
   tags:
-    - agentic
-    - agentic-dev
-    - ai-ide
-    - autonomous
-    - cli
     - ide
-    - mcp
+    - agentic
     - spec-driven
+    - cli
+    - aws
   confidence: high
 curation:
   status: included
-  reason: The primary product surface is a standalone AI-native IDE and CLI, which fits the AI IDEs and Editors category rather than a coding agent that lives inside an existing editor.
+  reason: The primary product surface is a standalone desktop IDE and CLI environment with integrated AI, fitting the IDE identity better than a terminal-only agent or an extension.
   evidence:
-    - Repo description states it is 'an agentic IDE that works alongside you from prototype to production'
-    - README describes both a desktop IDE for macOS/Windows/Linux and a standalone CLI as the primary interfaces
-    - Source list includes it under 'IDE & Editor Integrations' in an awesome-spec-driven-development list
-    - Product description states it is 'an agentic AI with an IDE and CLI that helps you go from prototype to production'.
-    - Features include managing intent, completing long-running tasks across large codebases, and validating code correctness with an agent.
-    - Included in the awesome-ai-coding-tools list under the 'Code Editors and Assistants' section.
+    - Repo description explicitly states 'Kiro is an agentic IDE' and the README lists both Desktop Application and CLI interfaces.
+    - Core capabilities include IDE-native features like Steering files, Hooks, and Agentic Chat within the editor context.
+    - Source list placement in 'awesome-spec-driven-development' under 'IDE & Editor Integrations' aligns with the product's spec-first IDE identity.
 placement:
-  primary_category: mcp
-  section: Terminal & CLI Agents
+  primary_category: ai-ides-editors
+  section: Full IDEs & Editors
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3609) exceeded threshold (150)
+  reason: Stars (3625) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:36.854Z"
-    cause: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.910Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:06.597Z"
+    updated_at: "2026-05-06T22:44:43.729Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:20.149Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

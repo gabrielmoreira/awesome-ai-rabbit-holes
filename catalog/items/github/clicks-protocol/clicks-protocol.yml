@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clicks-protocol__clicks-protocol__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - usdc
       - x402
       - yield
-    last_checked_at: "2026-05-05T21:01:35.496Z"
+    last_checked_at: "2026-05-06T22:43:22.908Z"
     readme:
-      fetched_at: "2026-05-05T21:01:35.496Z"
+      fetched_at: "2026-05-06T22:43:22.908Z"
       bytes: 10601
 insights:
-  summary: An SDK and MCP server for Base that enables AI agents to automatically earn DeFi yield on idle USDC by splitting incoming payments between liquid funds and lending protocols like Aave and Morpho.
-  why_it_matters: Developers building autonomous agents on Base can integrate a single SDK call or MCP tool to put idle x402 payment balances to work without manual treasury management or lockups.
-  mental_damage: We have finally reached the point where your agent’s agent now needs a yield strategy, and you’re the one debugging a reentrancy guard at 2 a.m. because 20% of a bot’s lunch money was auto-routed to Morpho.
+  summary: An SDK and MCP server that lets AI agents automatically split incoming USDC payments on Base into liquid funds and DeFi yield via Aave or Morpho.
+  why_it_matters: Developers building agentic payment flows can add autonomous yield generation to idle agent treasuries with a single SDK call or MCP tool invocation.
+  mental_damage: Your agent is now sophisticated enough to earn yield on its own pocket change, but still can't figure out why the build is failing.
   tags:
-    - mcp
     - defi
-    - base
+    - mcp
     - sdk
-    - agents
+    - base
+    - agent-infra
   confidence: medium
 curation:
   status: included
-  reason: The project ships a dedicated MCP server with 10 tools for Claude, Cursor, and other MCP-compatible clients, making it a developer-facing MCP tool, not a general DeFi product or coding agent.
+  reason: The product identity is a finance-domain MCP server with an accompanying SDK, designed to give agents access to yield-bearing USDC management on Base.
   evidence:
-    - "README explicitly documents an MCP server: `npm install @clicks-protocol/mcp-server` with 10 MCP tools and compatibility with Claude, Cursor, LangChain."
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming existing MCP ecosystem recognition.
-    - Primary developer surface is the `@clicks-protocol/sdk` and MCP server, not a hosted app builder or repo-editing assistant.
+    - "Repo description: 'Autonomous yield for AI agents on Base. 80% liquid, 20% earning. No lockup. One SDK call.'"
+    - README includes an MCP Server section and publishes to the MCP Registry, with 10 tools for Claude, Cursor, and LangChain.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its domain-server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:35.496Z"
+    updated_at: "2026-05-06T22:43:22.908Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:26.732Z"
+    updated_at: "2026-05-06T22:49:34.927Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

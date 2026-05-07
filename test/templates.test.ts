@@ -12,27 +12,42 @@ import {
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const TEMPLATE_DIR = path.join(REPO_ROOT, "config", "templates");
 
+const PROMPT_CATEGORIES = [
+  {
+    id: "coding-agents",
+    name: "Coding Agents",
+    description: "Tools for coding with AI.",
+    prompt: {
+      instructions: "The product itself is the coding assistant.",
+      use_when: ["It directly edits or reviews code."],
+      do_not_use_when: ["It mainly augments another assistant."],
+      canonical_positives: ["Claude Code"],
+      common_false_positives: ["Cursor"],
+    },
+    hasSections: true,
+    sections: ["Terminal & CLI Agents"],
+  },
+];
+
 describe("catalog templates", () => {
-  it("stores each catalog template in its own .njk file", () => {
-    expect(fs.existsSync(path.join(TEMPLATE_DIR, "readme.njk"))).toBe(true);
-    expect(fs.existsSync(path.join(TEMPLATE_DIR, "category-page.njk"))).toBe(true);
-    expect(fs.existsSync(path.join(TEMPLATE_DIR, "categorize-baseline-current.njk"))).toBe(true);
-    expect(fs.existsSync(path.join(TEMPLATE_DIR, "categorize-definition.njk"))).toBe(true);
+  it("stores the catalog templates with docs-/prompt- prefixes", () => {
+    expect(fs.existsSync(path.join(TEMPLATE_DIR, "docs-readme.njk"))).toBe(true);
+    expect(fs.existsSync(path.join(TEMPLATE_DIR, "docs-category-page.njk"))).toBe(true);
+    expect(fs.existsSync(path.join(TEMPLATE_DIR, "prompt-categorize.njk"))).toBe(true);
   });
 
   it("resolves template files from config/templates", () => {
-    expect(String(resolveCatalogTemplateFileUrl("readme.njk"))).toMatch(/[\\/]config[\\/]templates[\\/]readme\.njk$/);
-    expect(String(resolveCatalogTemplateFileUrl("categorize-definition.njk"))).toMatch(
-      /[\\/]config[\\/]templates[\\/]categorize-definition\.njk$/,
+    expect(String(resolveCatalogTemplateFileUrl("docs-readme.njk"))).toMatch(/[\\/]config[\\/]templates[\\/]docs-readme\.njk$/);
+    expect(String(resolveCatalogTemplateFileUrl("prompt-categorize.njk"))).toMatch(
+      /[\\/]config[\\/]templates[\\/]prompt-categorize\.njk$/,
     );
   });
 
   it("starts each template file with a Nunjucks header comment describing purpose and inputs", () => {
     for (const fileName of [
-      "readme.njk",
-      "category-page.njk",
-      "categorize-baseline-current.njk",
-      "categorize-definition.njk",
+      "docs-readme.njk",
+      "docs-category-page.njk",
+      "prompt-categorize.njk",
     ]) {
       const template = fs.readFileSync(path.join(TEMPLATE_DIR, fileName), "utf8");
       expect(template.startsWith("{#")).toBe(true);
@@ -43,7 +58,7 @@ describe("catalog templates", () => {
   });
 
   it("keeps category page branching inline instead of splitting fragments", () => {
-    const template = fs.readFileSync(path.join(TEMPLATE_DIR, "category-page.njk"), "utf8");
+    const template = fs.readFileSync(path.join(TEMPLATE_DIR, "docs-category-page.njk"), "utf8");
 
     expect(template).toContain("{% for item in activeItems %}");
     expect(template).toContain("{% for item in incubatingItems %}");
@@ -54,18 +69,23 @@ describe("catalog templates", () => {
     expect(template).not.toContain("{% extends");
   });
 
-  it("uses one shared definition template file gated by includeExamples", () => {
-    const template = fs.readFileSync(path.join(TEMPLATE_DIR, "categorize-definition.njk"), "utf8");
-
-    expect(template).toContain("{% if includeExamples %}");
-    expect(template).toContain("Contrastive boundary examples:");
-  });
-
-  it("keeps the README intro text inside the template file", () => {
-    const template = fs.readFileSync(path.join(TEMPLATE_DIR, "readme.njk"), "utf8");
+  it("keeps the README intro text inside the docs template file", () => {
+    const template = fs.readFileSync(path.join(TEMPLATE_DIR, "docs-readme.njk"), "utf8");
 
     expect(template).toContain("# Awesome AI Rabbit Holes");
     expect(template).toContain("Come for the tools. Stay for the FOMO");
+  });
+
+  it("uses one single categorization prompt template with boundary guidance", () => {
+    const template = fs.readFileSync(path.join(TEMPLATE_DIR, "prompt-categorize.njk"), "utf8");
+
+    expect(template).toContain("Boundary exemplars:");
+    expect(template).toContain("Choose `ai-dev-extensions` over `coding-agents`");
+    expect(template).toContain("Choose `context-engineering` over `ai-dev-extensions`");
+    expect(template).toContain("category_candidates");
+    expect(template).toContain("contrastive_reason");
+    expect(template).not.toContain("includeExamples");
+    expect(template).not.toContain("definition-first");
   });
 
   it("renders README links from a simple ViewModel", () => {
@@ -173,9 +193,8 @@ describe("catalog templates", () => {
     );
   });
 
-  it("renders the baseline categorization prompt with optional evidence blocks", () => {
+  it("renders the single categorization prompt with structured category guidance and optional evidence blocks", () => {
     const output = renderCatalogInsightPromptTemplate({
-      profile: "baseline-current",
       item: {
         name: "test-tool",
         url: "https://github.com/example/test-tool",
@@ -189,9 +208,7 @@ describe("catalog templates", () => {
         homepage: "(none)",
         directAwesomeList: "no",
       },
-      categoryLines: [
-        "coding-agents | Coding Agents | Tools for coding with AI. | Tools that directly help developers write or review code. | sections: Terminal & CLI Agents",
-      ],
+      categories: PROMPT_CATEGORIES,
       hasSourceContext: true,
       sourceContextLines: ["awesome-list | section: Coding Agents"],
       hasWebsiteContext: true,
@@ -208,15 +225,17 @@ describe("catalog templates", () => {
     expect(output).toContain("Scraped site context:");
     expect(output).toContain("Primary page excerpt:");
     expect(output).toContain("README excerpt (markdown, may be truncated):");
-    expect(output).toContain("sections: Terminal & CLI Agents");
-    expect(output).toContain("choose the single best matching section exactly as written");
-    expect(output).toContain('"section": "Terminal & CLI Agents" | null');
-    expect(output).not.toContain("Contrastive boundary examples:");
+    expect(output).toContain("instructions: The product itself is the coding assistant.");
+    expect(output).toContain("use_when:");
+    expect(output).toContain("do_not_use_when:");
+    expect(output).toContain("canonical_positives:");
+    expect(output).toContain("common_false_positives:");
+    expect(output).toContain('"category_candidates": ["coding-agents", "ai-dev-extensions"]');
+    expect(output).toContain('"contrastive_reason": "Choose coding-agents over ai-dev-extensions because ..." | null');
   });
 
   it("omits optional categorization prompt blocks when the data is absent", () => {
     const output = renderCatalogInsightPromptTemplate({
-      profile: "baseline-current",
       item: {
         name: "test-tool",
         url: "https://github.com/example/test-tool",
@@ -230,7 +249,7 @@ describe("catalog templates", () => {
         homepage: "(none)",
         directAwesomeList: "no",
       },
-      categoryLines: ["coding-agents | Coding Agents | Tools for coding with AI. | Tools that directly help developers write or review code."],
+      categories: PROMPT_CATEGORIES,
       hasSourceContext: false,
       sourceContextLines: [],
       hasWebsiteContext: false,
@@ -245,74 +264,5 @@ describe("catalog templates", () => {
     expect(output).not.toContain("Seen in source lists / directories:\n-");
     expect(output).not.toContain("Primary page excerpt:\n---");
     expect(output).not.toContain("README excerpt (markdown, may be truncated):\n---");
-  });
-
-  it("renders the definition-first prompt without contrastive examples", () => {
-    const output = renderCatalogInsightPromptTemplate({
-      profile: "definition-first",
-      item: {
-        name: "test-tool",
-        url: "https://github.com/example/test-tool",
-        repoDescription: "A developer-facing AI tool.",
-        stars: "1200",
-        topics: "ai, agents",
-        license: "MIT",
-        archived: "no",
-        createdAt: "2024-01-01T00:00:00Z",
-        pushedAt: "2026-04-01T00:00:00Z",
-        homepage: "(none)",
-        directAwesomeList: "yes",
-      },
-      categoryLines: [
-        "coding-agents | Coding Agents | Tools for coding with AI. | Tools that directly help developers write or review code. | sections: Terminal & CLI Agents",
-      ],
-      hasSourceContext: false,
-      sourceContextLines: [],
-      hasWebsiteContext: false,
-      websiteTitle: "(none)",
-      websiteDescription: "(none)",
-      hasWebsiteExcerpt: false,
-      websiteExcerpt: "",
-      hasReadmeExcerpt: false,
-      readmeExcerpt: "",
-    });
-
-    expect(output).toContain("Some category lines include 'sections: ...' with the allowed grouping labels for that category.");
-    expect(output).toContain('"section": "Terminal & CLI Agents" | null');
-    expect(output).not.toContain("Contrastive boundary examples:");
-  });
-
-  it("renders the definition-with-examples prompt with contrastive examples", () => {
-    const output = renderCatalogInsightPromptTemplate({
-      profile: "definition-with-examples",
-      item: {
-        name: "test-tool",
-        url: "https://github.com/example/test-tool",
-        repoDescription: "A developer-facing AI tool.",
-        stars: "1200",
-        topics: "ai, agents",
-        license: "MIT",
-        archived: "no",
-        createdAt: "2024-01-01T00:00:00Z",
-        pushedAt: "2026-04-01T00:00:00Z",
-        homepage: "(none)",
-        directAwesomeList: "no",
-      },
-      categoryLines: [
-        "coding-agents | Coding Agents | Tools for coding with AI. | Tools that directly help developers write or review code. | sections: Terminal & CLI Agents",
-      ],
-      hasSourceContext: false,
-      sourceContextLines: [],
-      hasWebsiteContext: false,
-      websiteTitle: "(none)",
-      websiteDescription: "(none)",
-      hasWebsiteExcerpt: false,
-      websiteExcerpt: "",
-      hasReadmeExcerpt: false,
-      readmeExcerpt: "",
-    });
-
-    expect(output).toContain("Contrastive boundary examples:");
-    expect(output).toContain("If the tool is itself a coding assistant");
   });
 });

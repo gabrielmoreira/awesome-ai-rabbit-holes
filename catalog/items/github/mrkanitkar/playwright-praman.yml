@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mrkanitkar__playwright-praman__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -53,50 +53,50 @@ metadata:
       - testing
       - typescript
       - ui5
-    last_checked_at: "2026-05-05T21:03:47.968Z"
+    last_checked_at: "2026-05-06T22:45:26.283Z"
     readme:
-      fetched_at: "2026-05-05T21:03:47.968Z"
+      fetched_at: "2026-05-06T22:45:26.283Z"
       bytes: 9633
 insights:
-  summary: A Playwright plugin that adds SAP UI5 runtime awareness and AI agent-driven test generation for enterprise SAP and S/4HANA applications.
-  why_it_matters: It lets SAP QA and developer teams describe business processes in plain language and get resilient, self-healing Playwright tests that survive UI5 upgrades and theme changes.
-  mental_damage: Finally, a tool that automates the part of enterprise SAP testing where you pretend AI agents are writing your tests while you manually fix the selectors they break.
+  summary: A Playwright plugin that adds deep SAP UI5 runtime awareness and AI agents to generate, run, and self-heal production-ready E2E tests for S/4HANA and Fiori applications.
+  why_it_matters: SAP UI5 test automation usually collapses into fragile DOM selectors; this replaces that with UI5 control registry queries and an AI plan → generate → heal loop so QA teams can describe business processes instead of hunting selectors.
+  mental_damage: We have officially reached the point where your test framework needs its own planner, generator, and healer agents just to survive a Fiori theme upgrade.
   tags:
-    - playwright
     - sap
+    - playwright
+    - e2e-testing
+    - ai-agents
     - ui5
-    - test-automation
-    - ai-agent
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: This is a developer-facing testing extension that augments Playwright and AI coding agents with SAP UI5 fixtures, selectors, and agent pipelines, rather than being a primary coding assistant itself.
+  reason: The primary identity is a Playwright plugin that augments testing workflows with AI agents (Planner, Generator, Healer) and IDE integrations rather than acting as a standalone coding assistant.
   evidence:
     - "Repo description: 'AI-First SAP UI5 Test Automation for Playwright'"
-    - README explicitly targets AI agents (Claude Code, Copilot, Cursor) as consumers of its fixtures and agent definitions
-    - Seen in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'
+    - README states it 'extends Playwright with deep SAP UI5 awareness' and provides a plan → generate → heal pipeline for SAP tests
+    - Topics include 'playwright-plugin' and the README explicitly positions it as augmenting AI coding agents (Claude Code, Copilot, Cursor, Jules)
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:47.968Z"
+    updated_at: "2026-05-06T22:45:26.283Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:16.651Z"
+    updated_at: "2026-05-06T23:15:54.093Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

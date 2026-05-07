@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__imprvhub__mcp-browser-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - playwright
       - safari
       - web
-    last_checked_at: "2026-05-05T21:02:42.142Z"
+    last_checked_at: "2026-05-06T22:44:22.680Z"
     readme:
-      fetched_at: "2026-05-05T21:02:42.142Z"
+      fetched_at: "2026-05-06T22:44:22.680Z"
       bytes: 18163
 insights:
-  summary: An MCP server that gives Claude Desktop autonomous browser automation capabilities, including DOM interaction, JavaScript execution, and API requests via Playwright.
-  why_it_matters: It lets developers delegate repetitive browser workflows like form filling, screenshot capture, and navigation to a local Claude Desktop instance through a standardized protocol.
-  mental_damage: We have officially reached the point where your AI assistant needs its own browser driver so it can debug the very automation scripts you asked it to write.
+  summary: An MCP server that gives Claude Desktop autonomous browser automation capabilities using Playwright, allowing it to navigate, interact with DOM elements, execute JavaScript, and make API requests.
+  why_it_matters: Developers can let Claude handle multi-step browser workflows—like form filling, screenshot capture, and API testing—without leaving their chat interface.
+  mental_damage: We have successfully reached the point where your AI assistant now needs its own browser agent to do the clicking you were supposed to automate ten years ago.
   tags:
     - mcp
     - browser-automation
     - playwright
     - claude
-    - agent
+    - extension
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation for browser automation, which fits squarely into the MCP Servers and Tooling category.
+  reason: This is an integration layer that extends Claude Desktop with browser capabilities, not a standalone coding assistant, making it a clear fit for Extensions & Integrations.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) integration' for browser automation.
-    - README details an MCP server providing browser automation capabilities to Claude Desktop via Playwright.
-    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) integration that provides Claude Desktop with autonomous browser automation capabilities'.
+    - README demonstrates it augments Claude with Playwright-driven browser interactions (click, fill, navigate) rather than acting as a primary coding agent.
+    - Listed in awesome-mcp-servers under 'Browser Automation', confirming its identity as an MCP host integration.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:42.142Z"
+    updated_at: "2026-05-06T22:44:22.680Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:43.294Z"
+    updated_at: "2026-05-06T23:01:55.221Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

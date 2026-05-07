@@ -1,12 +1,12 @@
 id: cal__com
 kind: website
-name: Calcom
+name: cal.com
 canonical_url: https://cal.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cal__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cal.com is an open-source scheduling infrastructure and calendar platform for booking appointments and managing availability.
-  why_it_matters: It provides developers with a self-hostable scheduling stack and API to embed booking workflows directly into their applications.
-  mental_damage: Another essential piece of internet infrastructure that will inevitably require an AI agent wrapper just to help you configure its availability logic.
+  summary: Cal.com is an open-source scheduling platform and calendar infrastructure for managing bookings and availability.
+  why_it_matters: It provides developers with a self-hostable, API-driven scheduling stack that can be embedded into products or used as a replacement for enterprise calendar tools.
+  mental_damage: "Just what the ecosystem needed: another excuse to spin up a local instance, debug a calendar stack, and wonder why your AI agent just booked a standup for 3 AM."
   tags:
-    - calendar
-    - infrastructure
-    - open-source
     - scheduling
+    - calendar
+    - self-hosted
+    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: This is a scheduling and calendar infrastructure product with no AI-native developer tooling angle, despite appearing in a generic MCP server list.
+  reason: Excluded because Cal.com is a general-purpose scheduling and calendar infrastructure product with no meaningful AI-native developer-tooling angle, despite appearing in an MCP servers list.
   evidence:
-    - Repo description and site context describe a scheduling/calendar platform, not an AI tool.
-    - Appears in awesome-mcp-servers only as a community server entry, not as a primary AI developer tool.
-    - No description, README, or context indicates coding agents, app building, or AI workflow automation.
+    - No repo description, README, or site context provided that indicates AI, coding-agent, or developer-tooling functionality.
+    - Seen in awesome-mcp-servers, but MCP compatibility alone does not override the absence of an AI developer tool identity.
+    - Primary product is a scheduling/calendar platform, not a coding assistant, extension, framework, or AI workflow tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:40.879Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:55.101Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

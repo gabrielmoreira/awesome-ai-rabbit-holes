@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__lego-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: LEGO sets, parts, minifigs, and inventories as an MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:27.770Z"
+    last_checked_at: "2026-05-06T22:44:08.273Z"
     readme:
-      fetched_at: "2026-05-05T21:02:27.770Z"
+      fetched_at: "2026-05-06T22:44:08.273Z"
       bytes: 5081
 insights:
-  summary: An MCP server that exposes the Rebrickable LEGO catalog—covering sets, parts, minifigs, and inventories—as tools for MCP-compatible IDEs and assistants.
-  why_it_matters: It lets developers query a 26k-set LEGO database directly from their AI editor instead of context-switching to a browser, which is useful if you are building brick-related features or just very serious about minifigs.
-  mental_damage: We have finally reached the point where your coding agent can compare minifigure inventories, yet it still cannot reliably import your existing project without deleting half the tests.
+  summary: An MCP server that exposes the Rebrickable LEGO catalog—26k sets, 62k parts, and 17k minifigs—as tools for AI assistants.
+  why_it_matters: Developers building LEGO-adjacent AI features or automating brick inventory workflows can wire structured set, part, and minifig data directly into Claude Code, Cursor, and other MCP-compatible IDEs.
+  mental_damage: We now have a protocol for letting a coding assistant hallucinate fewer minifigure accessories, while the actual production codebase remains untouched.
   tags:
     - mcp
     - lego
-    - ide-extension
-    - knowledge-base
+    - rebrickable
+    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server providing tooling for MCP-compatible developer environments, which fits the MCP category cleanly.
+  reason: The product identity is an MCP server for LEGO data, exactly matching the MCP Servers & Tooling category and the Domain Servers section.
   evidence:
-    - "Repo description: 'LEGO sets, parts, minifigs, and inventories as an MCP server'"
-    - "README: '10 tools. Zero config. Works with every MCP-compatible IDE.' and lists Claude Code, Cursor, VS Code, Windsurf, Zed setup instructions."
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+    - "Repo description states: 'LEGO sets, parts, minifigs, and inventories as an MCP server'"
+    - README describes 10 MCP tools backed by embedded Rebrickable data and lists installation for Claude Code, Cursor, VS Code, Windsurf, and Zed
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:27.770Z"
+    updated_at: "2026-05-06T22:44:08.273Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:55.557Z"
+    updated_at: "2026-05-06T22:58:56.068Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

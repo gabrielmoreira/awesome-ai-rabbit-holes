@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qovery__qovery-skills__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -24,11 +24,11 @@ provenance:
 metadata:
   github:
     stars: 5
-    forks: 0
+    forks: 1
     license: null
     archived: false
     created_at: "2026-04-19T13:18:24Z"
-    pushed_at: "2026-05-05T20:54:39Z"
+    pushed_at: "2026-05-06T13:42:04Z"
     description: AI agent skills for deploying applications to Kubernetes with Qovery. Works with OpenCode, Claude Code, and any agent supporting SKILL.md.
     homepage: null
     topics:
@@ -42,44 +42,50 @@ metadata:
       - qovery
       - skill
       - terraform
-    last_checked_at: "2026-05-05T23:08:14.834Z"
+    last_checked_at: "2026-05-06T22:46:02.273Z"
     readme:
-      fetched_at: "2026-05-05T23:08:14.834Z"
-      bytes: 26341
+      fetched_at: "2026-05-06T22:46:02.273Z"
+      bytes: 28367
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes.
+  why_it_matters: It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
+  mental_damage: We’ve reached the point where agents need their own onboarding packs just to survive a Kubernetes cluster without waking someone up at 3 AM.
+  tags:
+    - skills
+    - devops
+    - kubernetes
+    - agent-skills
+    - qovery
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The primary artifact is a reusable skill pack distributed via the Agent Skills open standard, designed to be consumed by 30+ coding agents rather than being a standalone assistant or extension.
+  evidence:
+    - "Repo description states: 'AI agent skills for deploying applications to Kubernetes with Qovery. Works with OpenCode, Claude Code, and any agent supporting SKILL.md.'"
+    - README describes eight distinct skills (qovery-onboard, qovery-deploy, qovery-troubleshoot, etc.) installed globally via a curl installer.
+    - Skills follow the Agent Skills open standard and are designed for tools discovering skills from .claude/skills/ or .agents/skills/ directories.
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Domain & Workflow Skill Packs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:14.834Z"
+    updated_at: "2026-05-06T22:46:02.273Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:47.836Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

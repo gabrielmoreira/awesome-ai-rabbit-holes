@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__cryptopanic-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) 🐍 ☁️ - Providing latest cryptocurrency news to AI agents, powered by CryptoPanic."
         confidence: high
     - id: discovery__github__kukapay__cryptopanic-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,49 @@ metadata:
     description: Provide latest cryptocurrency news to AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:10.939Z"
+    last_checked_at: "2026-05-06T22:44:48.372Z"
     readme:
-      fetched_at: "2026-05-05T21:03:10.939Z"
+      fetched_at: "2026-05-06T22:44:48.372Z"
       bytes: 1800
 insights:
   summary: An MCP server that exposes the CryptoPanic API to AI agents, allowing them to fetch the latest cryptocurrency news and media.
-  why_it_matters: It enables developers building crypto-focused AI agents to wire in real-time market news via a standardized protocol without writing custom API wrappers.
-  mental_damage: Finally, your coding agent can now panic-sell your portfolio in real-time based on the latest 'Bitcoin Breaks $60k' headline it fetched for itself.
+  why_it_matters: It gives trading and crypto-focused coding agents a structured way to pull real-time market sentiment and news without custom scraping.
+  mental_damage: Your agent can now panic about Bitcoin in real-time, provided it has the API key to do so.
   tags:
     - mcp
     - crypto
     - finance
-    - agent-tooling
+    - server
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server for providing crypto news to agents, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server designed to give agents access to a specific data domain (crypto news), fitting the MCP Servers category.
   evidence:
     - "Repo description states: 'Provide latest cryptocurrency news to AI agents.'"
-    - README confirms it implements the `get_crypto_news` tool specifically for MCP integration.
-    - Included in 'awesome-mcp-servers' under the Finance & Fintech section.
+    - README describes a single tool `get_crypto_news` configured explicitly as an `mcpServers` entry.
+    - Included in 'awesome-mcp-servers' and 'awesome-mcp-list' under Finance & Fintech.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:10.939Z"
+    updated_at: "2026-05-06T22:44:48.372Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:00.947Z"
+    updated_at: "2026-05-06T23:07:17.345Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

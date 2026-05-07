@@ -1,12 +1,12 @@
 id: kilo__ai
 kind: website
-name: Kilo Code
+name: kilo.ai
 canonical_url: https://kilo.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__kilo__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source AI coding agent that integrates with VS Code, JetBrains, and CLI to write, refactor, debug, and review code using 500+ models with a local-first approach.
-  why_it_matters: It offers developers a transparent, model-agnostic alternative to closed-loop coding assistants, letting teams bring their own keys and inspect every prompt directly inside their existing IDEs.
-  mental_damage: Now you can agonize over choosing one of five hundred models every time you toggle between 'Architect' and 'Debug' mode, ensuring your workflow paralysis is as locally hosted as your code.
+  summary: Kilo is an open-source AI coding agent that integrates with VS Code, JetBrains, and the CLI to write, refactor, plan, and debug code across 500+ models.
+  why_it_matters: It offers developers a local-first, model-agnostic coding assistant that can be run in the IDE, terminal, or as a hosted cloud agent with transparent prompt visibility.
+  mental_damage: Yet another open-source 'most popular' coding agent enters the arena, promising to liberate you from Cursor while ensuring your token spend remains as dizzying as ever.
   tags:
-    - cli
     - coding-agent
-    - ide-extension
-    - local-first
     - open-source
+    - vscode
+    - cli
+    - multi-model
   confidence: high
 curation:
   status: included
-  reason: The product is a developer-facing coding assistant that directly plans, writes, edits, reviews, and debugs code inside a repo, IDE, and CLI workflow, fitting the coding-agents definition perfectly.
+  reason: Kilo positions itself as a primary coding assistant with specialized agent modes (Code, Architect, Debug) that directly plan, write, and repair code across IDEs and CLI.
   evidence:
-    - Scraped site title identifies it as 'The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI'.
-    - Site excerpt details 'Code Mode', 'Architect Mode', and 'Debug Mode' for working directly on a codebase.
-    - Featured in awesome-ai-coding-tools under 'Code Editors and Assistants'.
+    - Site describes it as 'The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI'.
+    - "Includes specialized agent modes: Code Mode, Architect Mode, Debug Mode for repo-level work."
+    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' as a primary assistant.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:50.016Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:49.148Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

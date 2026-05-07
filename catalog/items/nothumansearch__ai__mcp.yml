@@ -1,0 +1,75 @@
+id: nothumansearch__ai__mcp
+kind: website
+name: mcp
+canonical_url: https://nothumansearch.ai/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__nothumansearch__ai__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Not Human Search
+        extracted_url: https://nothumansearch.ai/mcp
+        surrounding_text: "- **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools, MCP servers, and APIs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A curated directory page listing MCP servers and tools for the Model Context Protocol ecosystem.
+  why_it_matters: It serves as a navigation aid for developers trying to discover which MCP servers exist and how they might extend their AI coding assistants.
+  mental_damage: Another meticulously organized map of the MCP wilderness that will be hopelessly outdated by the time you finish reading it.
+  tags:
+    - mcp
+    - directory
+    - discovery
+  confidence: medium
+curation:
+  status: included
+  reason: The URL presents a directory/listing page for MCP servers and tools, making it a navigation and discovery resource rather than a standalone product or server itself.
+  evidence:
+    - URL path is 'nothumansearch.ai/mcp', indicating an MCP-focused directory or listing page
+    - Found in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
+    - No repository description, README, or code artifacts provided—only a listing/directory signal
+placement:
+  primary_category: awesome-awesomes
+  section: Directories & Maps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.664Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:02.074Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

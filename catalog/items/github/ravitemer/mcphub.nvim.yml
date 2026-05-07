@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ravitemer__mcphub.nvim__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,74 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1765
+    forks: 83
+    license: MIT
+    archived: false
+    created_at: "2025-02-19T06:55:16Z"
+    pushed_at: "2026-01-18T10:00:29Z"
+    description: An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.
+    homepage: https://ravitemer.github.io/mcphub.nvim/
+    topics:
+      - avante
+      - chatgpt
+      - chatplugin
+      - claude-ai
+      - codecompanion
+      - llm
+      - mcp
+      - mcp-client
+      - mcp-hub
+      - mcp-server
+      - mcp-servers
+      - model-context-protocol
+      - neovim
+      - neovim-plugin
+      - nvim
+      - nvim-plugin
+    last_checked_at: "2026-05-06T22:46:06.581Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:06.581Z"
+      bytes: 7831
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP client for Neovim that integrates, manages, and tests MCP servers directly within the editor for use with compatible chat and coding plugins.
+  why_it_matters: It allows Neovim users to bring external MCP tooling into their existing chat-assisted workflows without leaving the editor.
+  mental_damage: We have reached the point where your editor now needs a dedicated client just to manage the protocol that manages the tools that manage the AI that manages your code.
+  tags:
+    - neovim
+    - mcp
+    - editor-plugin
+    - developer-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP client and dev tool for managing MCP servers inside Neovim, which fits squarely into MCP Servers & Tooling.
+  evidence:
+    - Repo description explicitly states 'An MCP client for Neovim that seamlessly integrates MCP servers'.
+    - README excerpt confirms it is 'A MCP client for neovim' providing an interface for 'managing, testing, and using MCP servers'.
+    - Appears in awesome-mcp-servers under the 'Clients' section, reinforcing its MCP infrastructure identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Clients / Inspectors / Dev Tools
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1765) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:06.581Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:52.331Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

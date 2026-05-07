@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__system-prompts-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - mcp-server
       - prompts
       - system-prompts
-    last_checked_at: "2026-05-05T21:02:50.584Z"
+    last_checked_at: "2026-05-06T22:44:30.010Z"
     readme:
-      fetched_at: "2026-05-05T21:02:50.584Z"
+      fetched_at: "2026-05-06T22:44:30.010Z"
       bytes: 6490
 insights:
-  summary: An MCP server that exposes a library of system prompts, summaries, and tool definitions from popular AI tools like Cursor, Claude, and Devin as callable tools in MCP-compatible environments.
-  why_it_matters: It lets developers inspect, reference, and reuse the exact system prompts that power today's leading AI coding tools directly inside their own workflows.
-  mental_damage: Because nothing says 'I have my own workflow' quite like installing a server to steal personality traits from an AI tool you're already paying for.
+  summary: An MCP server that exposes a library of system prompts, summaries, and tool definitions from popular AI tools like Cursor, Claude, and Devin as callable tools for hosts like Claude Desktop and Cursor.
+  why_it_matters: It lets developers browse, discover, and inject proven system prompts from competing AI tools directly into their own local coding workflows.
+  mental_damage: Now you can spend your afternoon meticulously copying the system prompt of an AI tool you already pay for, just to paste it into a different AI tool you also pay for.
   tags:
     - mcp
     - system-prompts
     - prompt-engineering
-    - context-engineering
+    - context
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server that distributes prompt content as tools, cleanly fitting the MCP Servers and Tooling category.
+  reason: This is an MCP server that specifically packages and serves system prompts from various AI tools, making MCP the core product identity.
   evidence:
     - "Repo description explicitly states: 'Model Context Protocol server exposing system prompt files and summaries.'"
-    - README confirms it is an MCP server exposing prompts as tools for Cursor and Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - README confirms it is 'An MCP (Model Context Protocol) server that exposes a collection of system prompts... as MCP tools.'
+    - Topics include 'mcp-server' and it is listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:50.584Z"
+    updated_at: "2026-05-06T22:44:30.010Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:30.910Z"
+    updated_at: "2026-05-06T23:03:24.181Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

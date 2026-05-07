@@ -1,13 +1,13 @@
 id: github__cyberchitta__llm-context.py
 kind: github-repo
-name: llm-context
+name: llm-context.py
 canonical_url: https://github.com/cyberchitta/llm-context.py
 identity:
   github_repo: cyberchitta/llm-context.py
 provenance:
   discoveries:
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py) 🐍 🏠 - Share code context with LLMs via MCP or clipboard"
         confidence: high
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[llm-context](https://github.com/cyberchitta/llm-context.py)** - Share code context with LLMs via Model Context Protocol or clipboard."
         confidence: high
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -68,50 +68,49 @@ metadata:
       - coding
       - model-context-protocol
       - tools
-    last_checked_at: "2026-05-05T21:01:44.586Z"
+    last_checked_at: "2026-05-06T22:43:30.765Z"
     readme:
-      fetched_at: "2026-05-05T21:01:44.586Z"
+      fetched_at: "2026-05-06T22:43:30.765Z"
       bytes: 11113
 insights:
-  summary: A CLI tool and MCP server that builds task-specific context bundles from a codebase using rule-based filtering, smart outlining, and clipboard or MCP output for LLM workflows.
-  why_it_matters: It reduces the friction of manually hunting, copying, and curating files by letting developers and agents define reusable rules that select, outline, and deliver the right code context for reviews, debugging, and task-focused sessions.
-  mental_damage: We have finally built a tool to manage the context we only need because the models can’t remember the repo we just opened.
+  summary: A CLI tool and MCP server that uses rule-based YAML+Markdown configurations to select, filter, and format relevant project files for sharing with LLMs via clipboard or context protocol.
+  why_it_matters: It replaces the manual, token-budget guessing game of copying files into chat with composable rules that automate context selection for tasks like code review and documentation.
+  mental_damage: We have officially reached the point where we need a dedicated rule engine just to manage what we are willing to show the AI, because apparently our repos are now too large for the models but too precious for us to summarize ourselves.
   tags:
-    - cli
     - context-management
-    - llm-workflow
     - mcp
+    - cli
     - rules
   confidence: high
 curation:
   status: included
-  reason: The project is primarily an MCP server and toolkit for context management, not a coding agent or generic extension, and it is explicitly curated in MCP awesome lists under file systems and server implementations.
+  reason: The core novelty is the context-shaping system itself—using rules for selection, filtering, and formatting project context—rather than being a primary coding agent or a simple host integration.
   evidence:
-    - "Repo description: 'Share code with LLMs via Model Context Protocol or clipboard' with MCP listed in topics."
-    - README demonstrates MCP integration via lc-mcp for Claude Desktop and provides MCP tools like lc_outlines and lc_missing.
-    - Included in awesome-mcp-list and awesome-mcp-servers under File Systems and Community Servers sections.
+    - Repo description states it is for sharing code with LLMs via MCP or clipboard using 'rule-based customization'.
+    - README emphasizes 'smart context management' and 'composable rules' as the solution to context friction, not autonomous coding.
+    - Includes an MCP server ('lc-mcp'), but MCP is a delivery mechanism for its primary identity as a context selection tool.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (299) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:00.591Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.577Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:44.586Z"
+    updated_at: "2026-05-06T22:43:30.765Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:13.767Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

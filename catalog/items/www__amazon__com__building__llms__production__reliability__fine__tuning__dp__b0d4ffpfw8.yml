@@ -1,12 +1,12 @@
 id: www__amazon__com__building__llms__production__reliability__fine__tuning__dp__b0d4ffpfw8
 kind: website
-name: "《Building LLMs for Production: Enhancing LLM Abilities and Reliability with Prompting, Fine-Tuning, and RAG》"
+name: B0D4FFPFW8
 canonical_url: https://www.amazon.com/Building-LLMs-Production-Reliability-Fine-Tuning/dp/B0D4FFPFW8
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__amazon__com__building__llms__production__reliability__fine__tuning__dp__b0d4ffpfw8__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A book sold on Amazon about building and fine-tuning LLMs for production use.
-  why_it_matters: It provides a structured resource for developers needing to understand the operational and reliability concerns of deploying LLMs.
-  mental_damage: Another static dead-tree relic competing for attention in an ecosystem that moves faster than the ink can dry.
+  summary: An Amazon book titled 'Building LLMs' covering production reliability and fine-tuning.
+  why_it_matters: It provides a structured reference for developers moving from experimentation to reliable LLM deployment.
+  mental_damage: Because what every over-tooled engineer really needs is another unread PDF to justify their fine-tuning phase.
   tags:
-    - book
-    - fine-tuning
     - llm
+    - book
     - production
+    - fine-tuning
   confidence: high
 curation:
   status: excluded
-  reason: This is a commercial book, not a developer tool, infrastructure component, or software project.
+  reason: This is a commercial book listing on Amazon, not a developer tool, framework, or infrastructure component.
   evidence:
-    - URL points to an Amazon product page for a book (B0D4FFPFW8), not a tool repository.
-    - Found in an awesome list section titled '书籍 Book' (Books), confirming it is literature.
-    - Scraped site context is a generic Amazon shopping page with no tool functionality.
+    - URL points to amazon.com product page (B0D4FFPFW8)
+    - Source list categorizes it as a book (书籍 Book), not a tool
+    - No repo description, README, or code artifacts were provided
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:29.753Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:34.938Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

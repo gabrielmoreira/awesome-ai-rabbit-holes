@@ -1,13 +1,13 @@
 id: github__shcherbak-ai__contextgem
 kind: github-repo
-name: ContextGem
+name: contextgem
 canonical_url: https://github.com/shcherbak-ai/contextgem
 identity:
   github_repo: shcherbak-ai/contextgem
 provenance:
   discoveries:
     - id: discovery__github__shcherbak-ai__contextgem__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,47 +23,77 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1833
+    forks: 155
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-10-11T20:36:09Z"
+    pushed_at: "2026-05-05T18:48:55Z"
+    description: "ContextGem: Effortless LLM extraction from documents"
+    homepage: https://contextgem.dev/
+    topics:
+      - ai
+      - contract-analysis
+      - data-extraction
+      - document-intelligence
+      - docx
+      - docx2md
+      - docx2txt
+      - generative-ai
+      - legaltech
+      - llm
+      - llm-extraction
+      - llm-framework
+      - llm-pipeline
+      - llms
+      - nlp
+      - prompt-engineering
+      - text-analysis
+      - unstructured-data
+    last_checked_at: "2026-05-06T22:46:22.524Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:22.524Z"
+      bytes: 22095
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ContextGem is an open-source Python framework that uses LLMs to extract structured data, insights, and justifications from documents with granular source references.
+  why_it_matters: It lets developers describe extractions in natural language and handles the prompt engineering, validation, and reference mapping automatically.
+  mental_damage: Yet another framework promising to solve the 'I have a PDF and a dream' problem, ensuring you can now turn a legal contract into a Pydantic model without ever reading it.
+  tags:
+    - llm-extraction
+    - document-intelligence
+    - framework
+    - python
+    - structured-output
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a code-first Python library and SDK used by developers to build document extraction pipelines, fitting the Frameworks & SDKs definition.
+  evidence:
+    - Repo description states it is for 'Effortless LLM extraction from documents'
+    - README describes it as a 'free, open-source LLM framework' where developers describe what to extract in code
+    - Topics include 'llm-framework', 'llm-pipeline', and 'python', confirming its SDK identity
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1833) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:22.524Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:14.757Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

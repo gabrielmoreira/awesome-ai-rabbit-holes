@@ -1,12 +1,12 @@
 id: www__broadn__io
 kind: website
-name: broadn
+name: www.broadn.io
 canonical_url: https://www.broadn.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__broadn__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted SaaS platform that automates manufacturing sales workflows by using an AI agent to parse RFQs and emails, generate quotes, and sync orders with ERP/CRM systems.
-  why_it_matters: It demonstrates a niche, end-to-end agentic workflow integration that developers building vertical SaaS or ERP connectors might study for patterns.
-  mental_damage: We have successfully automated the sales quoting process, meaning the only thing left for humans to do is argue with the AI about why the margin is too low.
+  summary: Broadn is a vertical AI agent platform that automates sales quoting and order entry for U.S. manufacturers by parsing RFQs from email and syncing structured outputs to ERPs and CRMs.
+  why_it_matters: It demonstrates how specialized AI agents can integrate with industrial sales stacks (SAP, Quickbooks, Salesforce) to automate complex, domain-specific workflows without developer intervention.
+  mental_damage: Just when you thought the agent hype couldn't get more niche, we now have offline agents negotiating margin control on HVAC orders while you wonder if your own job is next.
   tags:
+    - sales-ops
+    - vertical-agents
     - erp-integration
-    - manufacturing
-    - sales-automation
-    - vertical-ai
+    - rfq-automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a vertical SaaS solution for manufacturing sales teams, not a developer-facing tool, coding agent, or infrastructure component.
+  reason: Excluded because Broadn is a vertical SaaS product for manufacturing sales operations, lacking a developer-facing tooling, coding, or infrastructure angle required for this catalog.
   evidence:
-    - Site description explicitly targets 'U.S. manufacturers' and 'sales teams' rather than developers.
-    - Core functionality is automating RFQs, quoting, and ERP order entry, not code generation or developer workflow.
-    - Listed in awesome-ai-agents under a sales/operations context ('Quoting and orders automated from inbox to ERP'), not a dev-tooling context.
+    - Scraped site context describes the product as 'AI for manufacturing sales ops' focused on quoting and orders.
+    - Primary page excerpt emphasizes end-user sales features (pricing logic, margin control, ERP sync) with no mention of developer APIs, SDKs, or coding workflows.
+    - Seen in awesome-ai-agents under a section for 'Quoting and orders automated from inbox to ERP', which aligns with a business automation tool rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:55.266Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:12.468Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

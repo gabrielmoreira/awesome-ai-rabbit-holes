@@ -1,13 +1,13 @@
 id: github__pj4533__yourgoal
 kind: github-repo
-name: Yourgoal
+name: yourgoal
 canonical_url: https://github.com/pj4533/yourgoal
 identity:
   github_repo: pj4533/yourgoal
 provenance:
   discoveries:
     - id: discovery__github__pj4533__yourgoal__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -32,44 +32,50 @@ metadata:
     description: Swift implementation of BabyAGI
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T23:08:06.232Z"
+    last_checked_at: "2026-05-06T22:45:54.016Z"
     readme:
-      fetched_at: "2026-05-05T23:08:06.232Z"
+      fetched_at: "2026-05-06T22:45:54.016Z"
       bytes: 1224
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Swift port of BabyAGI that implements an AI-powered task management loop using OpenAI and Pinecone to create, prioritize, and execute tasks.
+  why_it_matters: It offers developers a natively compiled, language-specific reference implementation of autonomous task-driven agents that can run outside Python-centric environments.
+  mental_damage: Now you can spiral into recursive task-loops in Swift, proving that no matter the language, we remain equally powerless against our own TODO lists.
+  tags:
+    - swift
+    - babyagi
+    - autonomous-agents
+    - task-management
+    - local-cli
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a standalone CLI agent that autonomously manages and executes tasks using AI, fitting the coding-agents definition as a primary assistant for task work.
+  evidence:
+    - Repo description explicitly states 'Swift implementation of BabyAGI', an autonomous AI agent.
+    - README confirms it creates, prioritizes, and executes tasks using OpenAI and Pinecone APIs.
+    - Listed in awesome-ai-agents under the 'Yourgoal' section as an autonomous agent.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:06.232Z"
+    updated_at: "2026-05-06T22:45:54.016Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:07.650Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

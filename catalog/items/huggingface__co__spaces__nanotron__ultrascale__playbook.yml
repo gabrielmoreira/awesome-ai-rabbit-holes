@@ -1,0 +1,75 @@
+id: huggingface__co__spaces__nanotron__ultrascale__playbook
+kind: website
+name: ultrascale-playbook
+canonical_url: https://huggingface.co/spaces/nanotron/ultrascale-playbook
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__spaces__nanotron__ultrascale__playbook__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: "The Ultra-Scale Playbook: Training LLMs on GPU Clusters"
+        extracted_url: https://huggingface.co/spaces/nanotron/ultrascale-playbook
+        surrounding_text: "38. [The Ultra-Scale Playbook: Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Hugging Face-hosted guide documenting best practices and techniques for training large language models on large GPU clusters.
+  why_it_matters: It consolidates distributed training strategies for ML engineers scaling models beyond single-node setups.
+  mental_damage: Yet another reminder that while we're shipping TODO apps with AI agents, the real wizards are figuring out how to not melt 10,000 H100s at once.
+  tags:
+    - llm-training
+    - ml-infrastructure
+    - distributed-systems
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is an educational guide and documentation resource rather than a developer-facing tool, agent, or infrastructure product.
+  evidence:
+    - Scraped site title and excerpt describe it as 'The ultimate guide to training LLM on large GPU Clusters', indicating a documentation/guide resource.
+    - Source-list context places it in an 'awesome-LLM-resources' list under a 'Tips' section, not as a standalone software tool.
+    - No repo description, code, or product surface is present; the URL points to a Hugging Face Space serving static guide content.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:23.364Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

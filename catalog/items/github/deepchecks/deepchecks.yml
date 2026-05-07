@@ -1,13 +1,13 @@
 id: github__deepchecks__deepchecks
 kind: github-repo
-name: Deepchecks
+name: deepchecks
 canonical_url: https://github.com/deepchecks/deepchecks
 identity:
   github_repo: deepchecks/deepchecks
 provenance:
   discoveries:
     - id: discovery__github__deepchecks__deepchecks__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -47,28 +47,28 @@ metadata:
       - pandas-dataframe
       - python
       - pytorch
-    last_checked_at: "2026-05-05T21:01:50.931Z"
+    last_checked_at: "2026-05-06T22:43:36.073Z"
     readme:
-      fetched_at: "2026-05-05T21:01:50.931Z"
+      fetched_at: "2026-05-06T22:43:36.073Z"
       bytes: 31857
 insights:
-  summary: Deepchecks is an open-source Python library offering automated validation checks for tabular, NLP, and computer vision data and models across research, CI, and production monitoring workflows.
-  why_it_matters: It lets ML engineers codify data integrity, model performance, and drift checks directly into CI pipelines and production monitoring instead of relying on ad-hoc analysis.
-  mental_damage: Now you can add 'continuous validation' to your resume while quietly praying your carefully tuned checks don't flag your entire dataset as statistical garbage the night before a launch.
+  summary: Deepchecks is an open-source Python framework for continuous validation of ML models and data, offering built-in checks and suites for testing data integrity, model performance, and drift across tabular, NLP, and CV workflows from research to production.
+  why_it_matters: It lets developers codify data and model validation into CI pipelines and production monitoring, catching train-serve skew, data drift, and silent quality regressions before they hit users.
+  mental_damage: Yet another reminder that your carefully tuned model is only ever one silent data drift away from confidently predicting nonsense while your dashboards smile back at you.
   tags:
-    - data-drift
     - mlops
     - model-validation
-    - python
-    - testing
+    - data-drift
+    - ci-testing
+    - monitoring
   confidence: high
 curation:
   status: excluded
-  reason: Deepchecks is a traditional ML validation and monitoring framework for data scientists and MLOps engineers, not a developer-facing AI coding tool, agent, or AI-app builder.
+  reason: This is a general ML validation and MLOps framework focused on classical ML workflows, not a developer-facing AI coding tool, agent, or prompt/context engineering utility within the catalog's scope.
   evidence:
-    - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data' and 'AI & ML validation needs', targeting data scientists rather than software developers.
-    - Topics include data-drift, data-science, deep-learning, machine-learning, mlops, and model-monitoring, with no coding-agent or developer-tooling signals.
-    - README describes testing, CI, and monitoring for tabular, NLP, and CV models, not AI-assisted code editing or app generation.
+    - Repo description and README position it as a holistic ML/data validation solution for tabular, NLP, and CV models, not AI coding assistants or developer tooling.
+    - Topics and components emphasize data-drift, model-monitoring, and MLOps rather than coding agents, IDEs, prompt engineering, or app builders.
+    - Included in Awesome-LLMOps under Security > Observability, but the product itself is a general ML testing framework rather than a targeted AI developer tool.
 placement:
   primary_category: null
   section: null
@@ -76,21 +76,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4011) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:00.848Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:50.931Z"
+    updated_at: "2026-05-06T22:43:36.073Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:16.558Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

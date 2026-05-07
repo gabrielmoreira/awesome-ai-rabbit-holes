@@ -1,12 +1,12 @@
 id: githubnext__com__projects__copilot__workspace
 kind: website
-name: Copilot Workspace
+name: copilot-workspace
 canonical_url: https://githubnext.com/projects/copilot-workspace
 identity: {}
 provenance:
   discoveries:
     - id: discovery__githubnext__com__projects__copilot__workspace__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Copilot Workspace is an agentic development environment designed to handle everyday developer tasks through AI assistance.
-  why_it_matters: It aims to integrate AI agents directly into the developer's workflow to automate routine coding tasks within a dedicated environment.
-  mental_damage: Yet another 'agentic' environment promising to handle your daily toil, ensuring you can spend your newfound free time debugging why the agent thought deleting the tests was the optimal path to a green build.
+  summary: Copilot Workspace is an agentic development environment designed to handle everyday coding tasks.
+  why_it_matters: It positions the AI as the primary environment for planning and executing routine development work rather than just an inline suggestion engine.
+  mental_damage: Just when you thought 'vibe coding' couldn't get more abstract, GitHub offers a dedicated workspace so you can watch an agent handle your daily ticket queue while you check Slack.
   tags:
-    - agentic
     - copilot
-    - dev-environment
+    - agentic
     - github
+    - workspace
   confidence: medium
 curation:
   status: included
-  reason: The project is described as an 'agentic dev environment' for everyday tasks, which aligns with tools that help developers work on code, fitting the coding-agents profile.
+  reason: The product is described as an 'agentic dev environment' intended for everyday tasks, fitting the definition of a primary coding assistant rather than an extension or framework.
   evidence:
     - Scraped site context describes it as 'An agentic dev environment, designed for everyday tasks.'
-    - Included in the awesome-ai-coding-tools list under the 'Coding Agents' section.
+    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - The GitHub Next project URL indicates it is a first-party experimental environment from GitHub.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:50.570Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:22.317Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

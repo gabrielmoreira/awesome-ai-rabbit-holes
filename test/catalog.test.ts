@@ -58,7 +58,13 @@ const CATEGORIES: Category[] = [
     name: "Coding Agents",
     slug: "coding-agents",
     description: "Tools for coding with AI.",
-    prompt_instruction: "User-facing coding assistants that directly write or review code.",
+    prompt: {
+      instructions: "User-facing coding assistants that directly write or review code.",
+      use_when: ["The product directly handles repo work for the developer."],
+      do_not_use_when: ["It is mainly an extension or IDE surface."],
+      canonical_positives: ["Claude Code"],
+      common_false_positives: ["Cursor"],
+    },
     sections: ["Terminal & CLI Agents"],
   },
   {
@@ -66,7 +72,13 @@ const CATEGORIES: Category[] = [
     name: "AI Developer Extensions",
     slug: "ai-dev-extensions",
     description: "Memory layers, testing add-ons, and workflow boosters for AI developer tools.",
-    prompt_instruction: "Extensions that augment another assistant with memory, testing, or workflow behavior.",
+    prompt: {
+      instructions: "Extensions that augment another assistant with memory, testing, or workflow behavior.",
+      use_when: ["The product augments another assistant."],
+      do_not_use_when: ["It is the primary coding assistant."],
+      canonical_positives: ["Git AI"],
+      common_false_positives: ["Claude Code"],
+    },
     sections: ["Memory & Context Add-ons", "IDE / UI / Workflow Add-ons"],
   },
   {
@@ -74,7 +86,13 @@ const CATEGORIES: Category[] = [
     name: "AI Developer Skills",
     slug: "skills",
     description: "Reusable skill packs, command packs, and skill directories for AI developer tools.",
-    prompt_instruction: "Reusable skill packs, rules bundles, and skills directories for AI developer tools.",
+    prompt: {
+      instructions: "Reusable skill packs, rules bundles, and skills directories for AI developer tools.",
+      use_when: ["The main artifact is the reusable skill content itself."],
+      do_not_use_when: ["The stronger identity is a broader platform."],
+      canonical_positives: ["anthropics/skills"],
+      common_false_positives: ["cc-sdd"],
+    },
     sections: ["Skill Packs & Libraries", "Skill Registries & Directories"],
   },
   {
@@ -82,21 +100,39 @@ const CATEGORIES: Category[] = [
     name: "AI Frameworks and SDKs",
     slug: "ai-frameworks",
     description: "Code-first AI building blocks.",
-    prompt_instruction: "Frameworks, SDKs, and libraries that developers import or build on in code.",
+    prompt: {
+      instructions: "Frameworks, SDKs, and libraries that developers import or build on in code.",
+      use_when: ["Developers primarily build with it in code."],
+      do_not_use_when: ["It is primarily an operated platform."],
+      canonical_positives: ["LangChain"],
+      common_false_positives: ["Dify"],
+    },
   },
   {
     id: "mcp",
     name: "MCP Servers",
     slug: "mcp",
     description: "MCP tooling.",
-    prompt_instruction: "Model Context Protocol tooling.",
+    prompt: {
+      instructions: "Model Context Protocol tooling.",
+      use_when: ["The product itself is MCP infrastructure."],
+      do_not_use_when: ["MCP is just a compatibility feature."],
+      canonical_positives: ["playwright-mcp"],
+      common_false_positives: ["apisix"],
+    },
   },
   {
     id: "awesome-awesomes",
     name: "Awesome Awesomes",
     slug: "awesome-awesomes",
     description: "Meta-lists.",
-    prompt_instruction: "Curated directories and indexes rather than individual tools.",
+    prompt: {
+      instructions: "Curated directories and indexes rather than individual tools.",
+      use_when: ["The main value is navigation or discovery."],
+      do_not_use_when: ["The product itself is a standalone tool."],
+      canonical_positives: ["awesome-ai-agents"],
+      common_false_positives: ["Chip Huyen"],
+    },
   },
 ];
 
@@ -1037,6 +1073,34 @@ describe("render", () => {
     expect(page).not.toContain("**[10web.io]");
   });
 
+  it("prefers a sourced mmx-cli label over the generic repo name cli", () => {
+    const item = makeItem({
+      id: "github__minimax-ai__cli",
+      kind: "github-repo",
+      name: "cli",
+      canonical_url: "https://github.com/minimax-ai/cli",
+      identity: { github_repo: "minimax-ai/cli" },
+      placement: { primary_category: "ai-frameworks", section: null },
+      lifecycle: { status: "curated" },
+      insights: { ...makeItem().insights, summary: "MiniMax provider CLI." },
+      provenance: {
+        discoveries: [{
+          ...makeItem().provenance.discoveries[0],
+          extraction: {
+            ...makeItem().provenance.discoveries[0].extraction,
+            section_path: ["技能 Skills"],
+            anchor_text: "mmx-cli",
+          },
+        }],
+      },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[3], [item]);
+
+    expect(page).toContain("**[mmx-cli](https://github.com/minimax-ai/cli)** MiniMax provider CLI.");
+    expect(page).not.toContain("**[cli](https://github.com/minimax-ai/cli)**");
+  });
+
 
 
   it("incubating items render separately as compact bullets", () => {
@@ -1276,10 +1340,10 @@ describe("AI insights", () => {
         },
       },
     });
-    const prompt = buildInsightPrompt({ item, categories: ["coding-agents", "mcp"] });
+    const prompt = buildInsightPrompt({ item, categories: [CATEGORIES[0]!, CATEGORIES[4]!] });
     expect(prompt).toContain("500");
     expect(prompt).toContain("A great tool");
-    expect(prompt).toContain("coding-agents");
+    expect(prompt).toContain("Coding Agents");
   });
 
   it("valid AI response is parsed correctly", () => {
@@ -1290,9 +1354,11 @@ describe("AI insights", () => {
       tags: ["kanban", "agents"],
       should_include: true,
       primary_category: "coding-agents",
+      section: null,
       decision_reason: "Fits developer tooling and belongs in coding agents.",
       decision_evidence: ["Repo description says it is a kanban tool for coding agents."],
-      category_candidates: ["coding-agents"],
+      category_candidates: ["coding-agents", "ai-dev-extensions"],
+      contrastive_reason: "Choose coding-agents over ai-dev-extensions because it directly handles repo work rather than augmenting another assistant.",
       confidence: "high",
     });
     const result = parseAIInsightResponse(raw);
@@ -1300,6 +1366,7 @@ describe("AI insights", () => {
     expect(result.tags).toContain("kanban");
     expect((result as any).should_include).toBe(true);
     expect(result.confidence).toBe("high");
+    expect(result.category_candidates).toEqual(["coding-agents", "ai-dev-extensions"]);
   });
 
   it("invalid AI response is rejected", () => {
@@ -1317,9 +1384,11 @@ describe("AI insights", () => {
       tags: ["Coding Agent", "MCP Server"],
       should_include: true,
       primary_category: "coding-agents",
+      section: null,
       decision_reason: "Fits coding workflows.",
       decision_evidence: ["Repo description says it is a developer tool."],
-      category_candidates: ["coding-agents"],
+      category_candidates: ["coding-agents", "mcp"],
+      contrastive_reason: "Choose coding-agents over mcp because the product is a coding assistant, not MCP infrastructure.",
       confidence: "medium",
     });
     const result = parseAIInsightResponse(raw);
@@ -1337,7 +1406,7 @@ describe("AI insights", () => {
       },
     });
     const readme = "# Cool Tool\n\nThis tool turns prompts into pull requests.";
-    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"], readme });
+    const prompt = buildInsightPrompt({ item, categories: [CATEGORIES[0]!], readme });
     expect(prompt).toContain("README excerpt (markdown");
     expect(prompt).toContain("turns prompts into pull requests");
   });
@@ -1367,7 +1436,7 @@ describe("AI insights", () => {
     });
     const prompt = buildInsightPrompt({
       item,
-      categories: ["coding-agents"],
+      categories: [CATEGORIES[0]!],
       website_context: {
         title: "Cursor",
         description: "AI-first code editor.",
@@ -1379,25 +1448,20 @@ describe("AI insights", () => {
     expect(prompt).toContain("built for developers");
   });
 
-  it("prompt uses YAML-driven category instructions instead of hardcoded category prose", () => {
+  it("prompt uses YAML-driven structured category guidance instead of hardcoded category prose", () => {
     const item = makeItem();
     const prompt = buildInsightPrompt({
       item,
-      categories: [
-        "coding-agents | Coding Agents | Tools that directly write or review code. | User-facing coding assistants that directly write or review code.",
-        "ai-frameworks | AI Frameworks and SDKs | Code-first AI building blocks. | Frameworks, SDKs, and libraries that developers import or build on in code.",
-        "mcp | MCP Servers and Tooling | Model Context Protocol infrastructure. | Model Context Protocol tooling.",
-      ],
+      categories: [CATEGORIES[0]!, CATEGORIES[4]!, CATEGORIES[5]!],
     });
 
-    expect(prompt).toContain("Use the available category list below as the source of truth.");
-    expect(prompt).toContain("prompt-specific fit instruction");
-    expect(prompt).toContain("coding-agents | Coding Agents | Tools that directly write or review code. | User-facing coding assistants that directly write or review code.");
-    expect(prompt).toContain("ai-frameworks | AI Frameworks and SDKs | Code-first AI building blocks. | Frameworks, SDKs, and libraries that developers import or build on in code.");
-    expect(prompt).toContain("mcp | MCP Servers and Tooling | Model Context Protocol infrastructure. | Model Context Protocol tooling.");
-    expect(prompt).not.toContain("- coding-agents: user-facing coding assistants");
+    expect(prompt).toContain("Use the structured category definitions below as the source of truth.");
+    expect(prompt).toContain("canonical_positives");
+    expect(prompt).toContain("common_false_positives");
+    expect(prompt).toContain("Claude Code");
+    expect(prompt).toContain("playwright-mcp");
+    expect(prompt).toContain("awesome-ai-agents");
   });
-
 
   it("prompt omits README excerpt section when readme is missing", () => {
     const item = makeItem({
@@ -1408,21 +1472,16 @@ describe("AI insights", () => {
         },
       },
     });
-    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"] });
-    // The delimited body section is not present, even though instructions
-    // about README excerpts may still mention the phrase.
+    const prompt = buildInsightPrompt({ item, categories: [CATEGORIES[0]!] });
     expect(prompt).not.toContain("README excerpt (markdown");
-    // Empty string should also be treated as missing.
-    const prompt2 = buildInsightPrompt({ item, categories: ["coding-agents"], readme: "" });
+    const prompt2 = buildInsightPrompt({ item, categories: [CATEGORIES[0]!], readme: "" });
     expect(prompt2).not.toContain("README excerpt (markdown");
-    // No "Not available" placeholder either — the section is just omitted.
     expect(prompt).not.toContain("Not available");
   });
 
   it("README excerpt is truncated near the budget with a visible marker", async () => {
     const { truncateReadmeForPrompt, README_EXCERPT_MAX_CHARS, README_TRUNCATION_MARKER } =
       await import("../scripts/catalog/categorize-prompt.js");
-    // Build a long README with section headings so the truncator can find a boundary.
     const sections: string[] = ["# Title\n\nIntro paragraph.\n"];
     for (let i = 0; i < 50; i++) {
       sections.push(`\n## Section ${i}\n\n${"x".repeat(500)}\n`);
@@ -1432,7 +1491,6 @@ describe("AI insights", () => {
     const truncated = truncateReadmeForPrompt(long);
     expect(truncated.endsWith(README_TRUNCATION_MARKER)).toBe(true);
     expect(truncated.length).toBeLessThanOrEqual(README_EXCERPT_MAX_CHARS + README_TRUNCATION_MARKER.length);
-    // Beginning is preserved.
     expect(truncated.startsWith("# Title")).toBe(true);
   });
 
@@ -1447,7 +1505,6 @@ describe("AI insights", () => {
     expect(truncated.endsWith(README_TRUNCATION_MARKER)).toBe(true);
   });
 
-
   it("short README is returned unchanged by truncator", async () => {
     const { truncateReadmeForPrompt } = await import("../scripts/catalog/categorize-prompt.js");
     const short = "# Title\n\nA short readme.";
@@ -1456,24 +1513,19 @@ describe("AI insights", () => {
 
   it("prompt encodes useful->funny->acidic tone ladder and reality guardrail", () => {
     const item = makeItem();
-    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"] });
-    // Tone ladder
+    const prompt = buildInsightPrompt({ item, categories: [CATEGORIES[0]!] });
     expect(prompt).toMatch(/Useful first/i);
     expect(prompt).toMatch(/Funny second/i);
     expect(prompt).toMatch(/Acidic third/i);
-    // Reality guardrail: joke must be grounded
     expect(prompt).toMatch(/foot in reality/i);
-    // Author guardrail
     expect(prompt).toMatch(/No attacks on the project authors|do not mock authors|not at the people/i);
-    // No invented features
     expect(prompt).toMatch(/invent/i);
-    // Anti-generic
     expect(prompt).toMatch(/another AI tool/i);
   });
 
   it("prompt instructs that description seeds summary and README seeds substance", () => {
     const item = makeItem();
-    const prompt = buildInsightPrompt({ item, categories: ["coding-agents"] });
+    const prompt = buildInsightPrompt({ item, categories: [CATEGORIES[0]!] });
     expect(prompt).toMatch(/Repo description:/);
     expect(prompt).toMatch(/seed for the factual one-line summary/i);
     expect(prompt).toMatch(/README excerpt: the project's own pitch/i);
@@ -1511,6 +1563,7 @@ describe("AI insight application", () => {
         decision_reason: "Fits developer tooling and belongs in coding agents.",
         decision_evidence: ["Repo description says it is a CLI-first catalog."],
         category_candidates: ["not-a-real-category", "coding-agents"],
+        contrastive_reason: "Choose not-a-real-category over coding-agents because the model emitted an invalid primary id in this fixture.",
         confidence: "medium",
       } as any,
       CATEGORIES
@@ -1537,7 +1590,8 @@ describe("AI insight application", () => {
         primary_category: "coding-agents",
         decision_reason: "Fits the catalog but the existing placement already pinned it to mcp.",
         decision_evidence: ["The repo is still a developer-facing tool."],
-        category_candidates: ["coding-agents"],
+        category_candidates: ["coding-agents", "ai-dev-extensions"],
+        contrastive_reason: "Choose coding-agents over ai-dev-extensions because the tool itself performs the coding work.",
         confidence: "high",
       } as any,
       CATEGORIES
@@ -1812,7 +1866,8 @@ describe("AI insight application", () => {
           primary_category: "coding-agents",
           decision_reason: "Fits developer tooling and belongs in coding agents.",
           decision_evidence: ["Repo description says it keeps fast-moving tooling discoverable."],
-          category_candidates: ["coding-agents"],
+          category_candidates: ["coding-agents", "awesome-awesomes"],
+          contrastive_reason: "Choose coding-agents over awesome-awesomes because the fixture forces an included coding tool rather than a standalone directory.",
           confidence: "high",
         })
     );
@@ -2174,29 +2229,37 @@ describe("renderReadme: all category links stay visible", () => {
 
 
 describe("Context Engineering page wording", () => {
-  it("category description carries the 'tokens' joke (from config/categories.yml)", () => {
+  it("category description stays concise and grounded in config/categories.yml", () => {
     const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "config", "categories.yml");
     const yaml = fs.readFileSync(yamlPath, "utf8");
-    // Pull out the context-engineering entry's description block.
     const m = yaml.match(/- id: context-engineering[\s\S]*?description: >([\s\S]*?)(?:\n- id:|\n*$)/);
     expect(m, "context-engineering category not found").not.toBeNull();
     const description = (m![1] ?? "").toLowerCase();
-    expect(description).toMatch(/tokens?/);
+    expect(description).toContain("memory");
+    expect(description).toContain("context");
+    expect(description).not.toMatch(/tokens?/);
   });
 
   it("renderRabbitHolePage emits the category description verbatim", () => {
     const ctx: Category = {
       id: "context-engineering",
-      name: "Prompting and Context Engineering",
+      name: "Context Engineering",
       slug: "prompting-context-engineering",
-      description: "give me tokens, my precious tokens",
+      description: "memory, retrieval, and prompt-shaping systems",
+      prompt: {
+        instructions: "The main job is improving what goes into the model.",
+        use_when: ["The core novelty is the context or memory system itself."],
+        do_not_use_when: ["It is mainly a thin host integration."],
+        canonical_positives: ["gitingest"],
+        common_false_positives: ["Prompt Engineering Guide"],
+      },
     };
     const item = makeItem({
       placement: { primary_category: "context-engineering", section: null },
       lifecycle: { status: "curated" },
     });
     const page = renderRabbitHolePage(ctx, [item]);
-    expect(page).toContain("give me tokens, my precious tokens");
+    expect(page).toContain("memory, retrieval, and prompt-shaping systems");
   });
 });
 

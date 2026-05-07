@@ -1,12 +1,12 @@
 id: forge__web__rebaselabs__online
 kind: website
-name: Forge
+name: forge-web.rebaselabs.online
 canonical_url: https://forge-web.rebaselabs.online
 identity: {}
 provenance:
   discoveries:
     - id: discovery__forge__web__rebaselabs__online__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-first AI product that generates, assembles, or deploys whole apps, sites, and internal tools from prompts.
-  why_it_matters: It allows developers to prototype and ship full applications or internal tools directly from a browser without setting up a local development environment.
-  mental_damage: Another browser tab promising to turn your vague prompt into a deployable app, ensuring you can now distract yourself with 'vibe coding' instead of fixing that one critical bug in the repo.
+  summary: A web-based tool listed as an AI-powered app builder for generating applications from prompts.
+  why_it_matters: It aims to let developers and non-developers spin up functional apps via prompts without manually scaffolding a project.
+  mental_damage: Yet another magical prompt-to-app wizard that will confidently generate a fully structured TODO app while your actual production monolith quietly decays.
   tags:
     - app-builder
-    - browser-first
     - prompt-to-app
-    - prototyping
-  confidence: medium
+    - web-tool
+  confidence: low
 curation:
   status: included
-  reason: This is a hosted, browser-first product for turning prompts into full apps and sites, which clearly fits the app-builders category and matches its inclusion in awesome-ai-coding-tools under App Builders.
+  reason: The tool is explicitly listed under App Builders in awesome-ai-coding-tools and its domain implies a prompt-driven app generation workflow rather than repo editing.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'App Builders' section.
-    - URL is a hosted web property (forge-web.rebaselabs.online), indicating a browser-first product surface.
-    - No repo description, README, or source code details provided, so the awesome-list context is the primary fit signal.
+    - "Listed in awesome-ai-coding-tools under the section: App Builders"
+    - URL (forge-web.rebaselabs.online) implies a web-based app generation surface
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:34.476Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:12.693Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

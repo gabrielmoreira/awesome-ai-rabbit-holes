@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__py2755__aiogram-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,44 +40,50 @@ metadata:
       - model-context-protocol
       - python
       - telegram
-    last_checked_at: "2026-05-05T23:08:12.691Z"
+    last_checked_at: "2026-05-06T22:45:59.837Z"
     readme:
-      fetched_at: "2026-05-05T23:08:12.691Z"
+      fetched_at: "2026-05-06T22:45:59.837Z"
       bytes: 11161
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python middleware library that exposes existing aiogram Telegram bots as MCP servers, allowing AI agents like Claude to send messages, read history, and manage interactive menus via the Model Context Protocol.
+  why_it_matters: Developers can grant AI agents real-time access to their Telegram bots with five lines of code, eliminating the need to rewrite handlers or build custom API bridges.
+  mental_damage: We have successfully abstracted the concept of 'talking to a bot' into a protocol that lets another AI talk to your bot, ensuring your Telegram channels are fully prepared for recursive AI conversations.
+  tags:
+    - mcp
+    - telegram
+    - python
+    - middleware
+    - aiogram
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server implementation that bridges Telegram bots to the Model Context Protocol, fitting squarely into MCP Servers & Tooling.
+  evidence:
+    - "Repo description explicitly states: 'MCP server middleware for aiogram Telegram bots'."
+    - "README states core goal: 'turns any aiogram bot into an MCP server' with 30 tools and 7 resources."
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:12.691Z"
+    updated_at: "2026-05-06T22:45:59.837Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:18.945Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

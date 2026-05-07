@@ -1,12 +1,12 @@
 id: sourcegraph__com__docs
 kind: website
-name: Cody by Sourcegraph
+name: docs
 canonical_url: https://sourcegraph.com/docs
 identity: {}
 provenance:
   discoveries:
     - id: discovery__sourcegraph__com__docs__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "## [Cody by Sourcegraph](https://docs.sourcegraph.com/cody)"
         confidence: high
     - id: discovery__sourcegraph__com__docs__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,44 +49,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation site for Cody, an AI coding assistant by Sourcegraph that provides chat, code completion, and context-aware code editing across VS Code, JetBrains, Visual Studio, CLI, and the web.
-  why_it_matters: It integrates directly into the developer's IDE and CLI workflow to provide context-aware code generation, editing, and debugging using advanced search across local and remote codebases.
-  mental_damage: Just when you thought the context window arms race was over, here comes another assistant promising to vacuum up your entire monorepo to suggest the one import you already knew you needed.
+  summary: Documentation page for Cody, an AI coding assistant by Sourcegraph that provides chat, code completion, and context-aware coding help across VS Code, JetBrains, Visual Studio, and the web.
+  why_it_matters: It explains how to set up and use Cody, a multi-LLM coding assistant that pulls context from local and remote codebases via Sourcegraph's Search API.
+  mental_damage: Because nothing says productivity like spending an afternoon reading docs to properly configure yet another AI assistant that promises to understand your entire codebase.
   tags:
     - ai-coding-assistant
-    - code-completion
-    - context-aware
-    - ide-extension
     - sourcegraph
+    - cody
+    - documentation
   confidence: high
 curation:
-  status: included
-  reason: Cody is a well-established, developer-facing coding assistant that directly edits, reviews, and generates code within IDEs and CLI workflows, fitting the coding-agents category clearly.
+  status: excluded
+  reason: This entry links to a documentation page rather than a standalone product, and Cody itself is already a well-known coding assistant that would need its own product entry if included.
   evidence:
-    - Primary page excerpt describes Cody as 'an AI coding assistant that helps you understand, write, and fix code faster' inside IDEs and CLI.
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' and in awesome-ai-agents under 'Cody by Sourcegraph'.
-    - Features include developer chat, code completions, code edits, and debugging capabilities directly in the workflow.
+    - URL points to sourcegraph.com/docs, which is a documentation page, not a product repo or tool.
+    - Scraped content is the Cody documentation describing features like chat, autocomplete, and context filters.
+    - Source lists reference 'Cody by Sourcegraph' but the link itself is only the docs, not the tool or extension.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:13.927Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:44.147Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

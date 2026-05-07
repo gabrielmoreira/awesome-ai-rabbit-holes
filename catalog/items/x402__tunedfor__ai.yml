@@ -1,12 +1,12 @@
 id: x402__tunedfor__ai
 kind: website
-name: "`x402.tunedfor.ai`"
+name: x402.tunedfor.ai
 canonical_url: https://x402.tunedfor.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__x402__tunedfor__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,44 +35,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A pay-per-call crypto market data API designed for AI agents, providing aggregated cross-exchange orderflow, derived metrics, and macro context via MCP and the x402 payment protocol.
-  why_it_matters: Developers building trading agents can plug in a single MCP endpoint to get 20-exchange aggregated signals and regime detection without maintaining exchange scrapers or API keys.
-  mental_damage: Your trading bot still can't beat the market, but now it can pay USDC to learn that fact 200 milliseconds faster.
+  summary: A crypto market data API that exposes aggregated cross-exchange orderflow, derived metrics, and regime detection via an MCP server and x402 pay-per-call protocol.
+  why_it_matters: Developers building AI trading agents can plug a single MCP endpoint into Claude, Cursor, or any x402-compatible client to get multi-exchange signals without managing exchange APIs or API keys.
+  mental_damage: We have finally reached the point where your agent needs its own blockchain wallet and 200ms USDC micropayments just to figure out that Bitcoin is being accumulated.
   tags:
-    - agent-data
-    - api
-    - crypto
     - mcp
+    - crypto
+    - market-data
     - x402
+    - agent-data
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly built as an MCP server with a native x402 protocol integration, fitting directly into the MCP Servers and Tooling category.
+  reason: The product’s primary identity is an MCP server that exposes crypto market structure data to AI agents, with MCP connectivity featured front and center alongside a complementary x402 SDK.
   evidence:
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
-    - Installation instructions provided for Claude Desktop, Cursor, and Windsurf via MCP URLs and npx configs.
-    - Service manifest available at /.well-known/x402.json for machine-readable autodiscovery by agents.
+    - Site title and description explicitly position it as a 'Crypto Market Data API for AI Agents' with 'Free via MCP'.
+    - Setup documentation leads with MCP config snippets for Claude, Cursor, Windsurf, and Smithery before showing the Python x402 SDK.
+    - Included in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' as a crypto market structure MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:28.669Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:46.816Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

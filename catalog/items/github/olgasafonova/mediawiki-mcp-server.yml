@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__olgasafonova__mediawiki-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,50 @@ metadata:
       - starred
       - wiki
       - wikipedia
-    last_checked_at: "2026-05-05T21:04:00.657Z"
+    last_checked_at: "2026-05-06T22:45:38.410Z"
     readme:
-      fetched_at: "2026-05-05T21:04:00.657Z"
+      fetched_at: "2026-05-06T22:45:38.410Z"
       bytes: 35716
 insights:
-  summary: A Go-based MCP server that connects AI assistants and shells to MediaWiki wikis for searching, reading, and editing content via the Model Context Protocol.
-  why_it_matters: It lets developers automate wiki documentation tasks and query internal knowledge bases directly from their AI coding tools and CI pipelines.
-  mental_damage: You can now ask your AI to format a wiki page while it simultaneously forgets the three lines of code you just wrote.
+  summary: An MCP server that exposes MediaWiki content to AI assistants, enabling natural language search, reading, and editing of wiki pages.
+  why_it_matters: Developers can now delegate documentation lookups, wiki edits, and internal knowledge base queries directly to their coding agents without leaving the chat interface.
+  mental_damage: We have successfully abstracted the final remaining human task of clicking 'Edit' on a wiki page behind a JSON-RPC protocol.
   tags:
     - mcp
     - mediawiki
+    - wiki-automation
     - go
     - cli
-    - knowledge-base
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to integrate MediaWiki with AI assistants, fitting cleanly into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server designed to give AI assistants access to MediaWiki wikis, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for MediaWiki wikis'.
-    - README confirms compatibility with Claude Desktop, Cursor, and other MCP-compatible tools.
-    - Listed in awesome-mcp-servers under 'MCP Server Implementations'.
+    - "Repo description states: 'MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants'."
+    - README confirms identity as an MCP server with explicit setup instructions for Claude, Cursor, and ChatGPT.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.639Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:00.657Z"
+    updated_at: "2026-05-06T22:45:38.410Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:51.040Z"
+    updated_at: "2026-05-06T23:18:40.150Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

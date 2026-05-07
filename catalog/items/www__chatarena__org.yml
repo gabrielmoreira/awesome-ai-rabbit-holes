@@ -1,12 +1,12 @@
 id: www__chatarena__org
 kind: website
-name: ChatArena
+name: www.chatarena.org
 canonical_url: https://www.chatarena.org
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__chatarena__org__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ChatArena is a platform for evaluating and letting language models compete or collaborate in multi-agent conversational scenarios.
-  why_it_matters: It provides developers with a structured environment to benchmark, observe, and analyze the behavior of multi-agent LLM systems.
-  mental_damage: Yet another pristine sandbox where agents politely outperform each other while your actual production monolith remains terrified of a single unsupervised merge.
+  summary: ChatArena is a platform for simulating and evaluating multi-agent conversational interactions, originally listed as an AI autonomous agent environment.
+  why_it_matters: It provides developers with infrastructure to benchmark how multiple AI agents behave, negotiate, and compete in shared conversational environments.
+  mental_damage: Yet another arena where autonomous agents can endlessly debate each other while your actual production code remains unwritten.
   tags:
-    - evaluation
-    - llm
     - multi-agent
-    - research
+    - evaluation
+    - simulation
+    - benchmark
   confidence: medium
 curation:
   status: included
-  reason: The project is a platform for evaluating and benchmarking multi-agent LLM behavior, which fits the Evaluations and Benchmarks category.
+  reason: The project is primarily a simulation and evaluation environment for multi-agent conversational systems, fitting the evals category focused on measuring agent behavior.
   evidence:
-    - Listed under 'awesome-ai-agents' specifically in a section titled 'ChatArena' focused on autonomous agents.
-    - The domain chatarena.org and context imply a focus on conversational agent evaluation and competition rather than direct coding assistance.
+    - Listed in awesome-ai-agents under section 'ChatArena' for autonomous agent evaluation
+    - Platform name and context indicate a conversational simulation and benchmarking focus
+    - No evidence of being a coding assistant, IDE, framework, or developer tool for writing or editing code
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:02.734Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:21.615Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

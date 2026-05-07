@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mbentham__sqlaugur__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - sql-server
-    last_checked_at: "2026-05-05T21:03:32.661Z"
+    last_checked_at: "2026-05-06T22:45:11.390Z"
     readme:
-      fetched_at: "2026-05-05T21:03:32.661Z"
+      fetched_at: "2026-05-06T22:45:11.390Z"
       bytes: 23156
 insights:
-  summary: An MCP server that gives AI assistants safe, read-only access to SQL Server databases using AST-based query validation and integrated DBA diagnostic tooling.
-  why_it_matters: It lets AI coding assistants safely query production SQL Server instances without risking data mutations or runaway query loops.
-  mental_damage: We have finally reached the point where we need an AST-powered gatekeeper to stop our AI assistants from SQL-injecting themselves into a coma.
+  summary: An MCP server that grants AI assistants read-only access to SQL Server databases using AST-based query validation, rate limiting, and integrated DBA diagnostic tooling.
+  why_it_matters: It lets developers safely point coding agents at production SQL Servers without fearing runaway queries or comment-injection trickery.
+  mental_damage: The modern developer experience now includes installing a dedicated parser just to make sure the AI doesn't drop the production database while trying to count rows.
   tags:
     - mcp
     - sql-server
     - database
     - security
-    - dotnet
+    - dba
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server providing database access tooling for AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server for SQL Server with AST-level validation and DBA tooling, making it a clear fit for the MCP Domain Servers section.
   evidence:
-    - Repo description explicitly states 'MCP server providing AI assistants with safe, read-only access to SQL Server databases.'
-    - README shows stdio-based MCP server integration examples for Claude Desktop, Claude Code, and VS Code/Copilot.
-    - Listed under 'Server Implementations > Databases' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'MCP server providing AI assistants with safe, read-only access to SQL Server databases'
+    - README emphasizes MCP integration with Claude Desktop, Claude Code, and VS Code / Copilot configuration examples
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:32.661Z"
+    updated_at: "2026-05-06T22:45:11.390Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:21.812Z"
+    updated_at: "2026-05-06T23:12:32.370Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

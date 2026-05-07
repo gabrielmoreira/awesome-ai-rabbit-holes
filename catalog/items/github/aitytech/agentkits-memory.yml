@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aitytech__agentkits-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Persistent memory system for AI coding assistants via MCP. Works with Claude Code, Cursor, Copilot, Windsurf, Cline.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:56.133Z"
+    last_checked_at: "2026-05-06T22:12:31.384Z"
     readme:
-      fetched_at: "2026-05-05T21:00:56.133Z"
+      fetched_at: "2026-05-06T22:12:31.384Z"
       bytes: 28122
 insights:
-  summary: A local MCP-based memory server that persists coding decisions, errors, and context across sessions for AI assistants like Claude Code, Cursor, and Cline using SQLite.
-  why_it_matters: It addresses the 'amnesiac assistant' problem by injecting relevant past decisions and patterns into new sessions, reducing the need to re-explain codebase context.
-  mental_damage: We have finally solved the problem of AI assistants forgetting our bad decisions by building a local database specifically designed to remember them forever.
+  summary: A persistent, local-first memory system that exposes session context, decisions, and code patterns to AI coding assistants via an MCP server.
+  why_it_matters: It lets developers carry learned context, error solutions, and code patterns across sessions in Claude Code, Cursor, Copilot, Windsurf, and Cline without cloud dependencies.
+  mental_damage: We have successfully built infrastructure to remember why we did things, so we can now recreate the same architectural mistakes with perfect historical consistency.
   tags:
-    - mcp
     - memory
+    - mcp
     - context
-    - ai-assistants
     - local-first
+    - sqlite
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation providing memory tooling for AI coding assistants, fitting the MCP infrastructure category.
+  reason: The core novelty is a memory, retrieval, and context-shaping system designed to persist and inject past session context into models via MCP, which aligns with Prompt & Context Engineering.
   evidence:
-    - "Repo description states: 'Persistent memory system for AI coding assistants via MCP.'"
-    - README lists 9 MCP tools including save, search, and timeline for session context.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - Repo description explicitly states 'Persistent memory system for AI coding assistants via MCP.'
+    - README emphasizes memory, vector search, 3-layer search to save ~87% tokens, and lifecycle compression of old sessions.
+    - Seen in awesome-mcp-servers under 'Knowledge & Memory', reinforcing the memory-system identity.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:56.133Z"
+    updated_at: "2026-05-06T22:12:31.384Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:59.818Z"
+    updated_at: "2026-05-06T22:19:56.437Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__plasma-umass__scalene__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13407
+    stars: 13409
     forks: 435
     license: Apache-2.0
     archived: false
@@ -47,44 +47,49 @@ metadata:
       - python
       - python-profilers
       - scalene
-    last_checked_at: "2026-05-05T23:08:06.938Z"
+    last_checked_at: "2026-05-06T22:45:54.723Z"
     readme:
-      fetched_at: "2026-05-05T23:08:06.938Z"
+      fetched_at: "2026-05-06T22:45:54.723Z"
       bytes: 25566
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Scalene is a high-performance Python profiler for CPU, GPU, and memory that integrates AI providers to generate code optimization suggestions directly in the terminal and VS Code.
+  why_it_matters: It allows developers to pinpoint performance bottlenecks with high precision and receive actionable, AI-generated refactoring proposals without leaving their profiling workflow.
+  mental_damage: Now your profiler not only tells you that your code is slow, but uses a multi-billion parameter model to gently explain exactly how you failed at basic algorithmic efficiency.
+  tags:
+    - python
+    - profiling
+    - optimization
+    - performance
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The primary product identity is a Python profiler; the AI feature is an integrated add-on that proposes optimizations within the tool's UI and extension, rather than acting as a standalone coding agent.
+  evidence:
+    - Repo description identifies it as a 'CPU, GPU, and memory profiler for Python' with 'AI-powered optimization proposals'.
+    - README details AI integration via OpenAI, Azure, Bedrock, and Ollama to generate suggestions via a lightning bolt icon in the UI.
+    - Includes a Visual Studio Code extension that wraps the profiling and AI suggestion features into the editor.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
-  reason: Stars (13407) exceeded threshold (150)
+  reason: Stars (13409) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:06.938Z"
+    updated_at: "2026-05-06T22:45:54.723Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:16.449Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

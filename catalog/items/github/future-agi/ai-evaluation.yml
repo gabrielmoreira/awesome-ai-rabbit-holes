@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__future-agi__ai-evaluation__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -28,7 +28,7 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2025-06-11T10:34:59Z"
-    pushed_at: "2026-04-28T11:12:38Z"
+    pushed_at: "2026-05-06T18:58:08Z"
     description: "Evaluation Framework for all your AI related Workflows "
     homepage: https://futureagi.com
     topics:
@@ -38,50 +38,49 @@ metadata:
       - cicd
       - evaluation
       - ml
-    last_checked_at: "2026-05-05T21:02:15.899Z"
+    last_checked_at: "2026-05-06T22:43:57.844Z"
     readme:
-      fetched_at: "2026-05-05T21:02:15.899Z"
+      fetched_at: "2026-05-06T22:43:57.844Z"
       bytes: 17928
 insights:
-  summary: An SDK and evaluation framework providing 72 local metrics, guardrail scanners, and LLM-as-judge capabilities to measure and monitor the quality of AI workflows and LLM outputs.
-  why_it_matters: It gives developers a unified API to catch hallucinations, validate function calls, and enforce safety guardrails locally before bad outputs reach production.
-  mental_damage: You can now fail your own evals with mathematical precision while your model confidently explains why 'stop all medications' is actually sound medical advice.
+  summary: A Python and TypeScript SDK providing 72 local metrics, LLM-as-Judge augmentation, guardrail scanners, and streaming assessment to evaluate AI workflows and agent behavior.
+  why_it_matters: It gives developers a unified evaluate() API to catch hallucinations, validate function calls, and regression-test agents locally before shipping to production.
+  mental_damage: You now have 72 ways to scientifically prove your LLM is broken, assuming you have the time to write the evals while the model writes your code.
   tags:
     - evals
-    - llm-ops
-    - testing
     - sdk
-    - guardrails
+    - agent-testing
+    - observability
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated evaluation framework and SDK for measuring LLM and agent behavior, which aligns perfectly with the Evaluations and Benchmarks category.
+  reason: The core product identity is a measurement and scoring framework for model, prompt, and agent behavior, matching the evals category over code-first SDKs because the primary job is evaluation and observability.
   evidence:
-    - "Repo description explicitly states: 'Evaluation Framework for all your AI related Workflows'."
-    - README highlights 72 local metrics, guardrail scanners, and LLM-as-Judge features under a unified evaluate() API.
-    - Listed in Awesome-LLMOps under the 'LLMOps' section, reinforcing its fit as an evaluation/observability tool.
+    - "Repo description states: 'Evaluation Framework for all your AI related Workflows'."
+    - README positions the product as 'Evaluation Framework' with 72 local metrics, LLM-as-Judge, guardrails, and OpenTelemetry integration.
+    - Listed in Awesome-LLMOps under the LLMOps section, aligning with evaluation and observability tooling.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:15.899Z"
+    updated_at: "2026-05-06T22:43:57.844Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:22.566Z"
+    updated_at: "2026-05-06T22:56:48.690Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

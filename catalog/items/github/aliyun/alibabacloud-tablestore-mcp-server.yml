@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliyun__alibabacloud-tablestore-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [aliyun/alibabacloud-tablestore-mcp-server](https://github.com/aliyun/alibabacloud-tablestore-mcp-server) ☕ 🐍 ☁️ - MCP service for Tablestore, features include adding documents, semantic search for documents based on vectors and scalars, RAG-friendly, and serverless."
         confidence: high
     - id: discovery__github__aliyun__alibabacloud-tablestore-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,50 +48,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:00.310Z"
+    last_checked_at: "2026-05-06T22:12:35.425Z"
     readme:
-      fetched_at: "2026-05-05T21:01:00.310Z"
+      fetched_at: "2026-05-06T22:12:35.425Z"
       bytes: 1145
 insights:
-  summary: An official Model Context Protocol server implementation for Alibaba Cloud Tablestore, available in Java and Python, providing RAG and memory capabilities for AI agents.
-  why_it_matters: It allows developers building on Alibaba Cloud to easily wire Tablestore into MCP-compatible agent workflows for knowledge bases, RAG systems, and persistent memory.
-  mental_damage: "Just what the ecosystem needed: another vendor-specific MCP server to add to the pile, ensuring your agent stack remains a distributed Lego set held together by fragile JSON configs."
+  summary: An official MCP server implementation that exposes Alibaba Cloud Tablestore capabilities to AI assistants via Java and Python servers.
+  why_it_matters: Developers using MCP-compatible assistants can directly query and manage Tablestore vectors and data without writing custom database integration code.
+  mental_damage: Yet another proprietary database vendor shipping its own MCP adapter, ensuring your AI assistant remains securely locked into whichever cloud provider's ecosystem you're already overcommitted to.
   tags:
     - mcp
+    - database
     - alibaba-cloud
     - tablestore
     - java
-    - python
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation for a major cloud database, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is an official MCP server implementation for Tablestore, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo name and README explicitly define this as 'Tablestore MCP servers' with Java and Python implementations.
-    - Included in 'awesome-mcp-servers' and 'awesome-mcp-list' under the Databases section.
-    - Actively maintained with a recent push date (2026-03-19) and Apache-2.0 license.
+    - Repo name and README explicitly describe Tablestore MCP servers with Java and Python implementations.
+    - Listed in both awesome-mcp-list and awesome-mcp-servers under Databases sections.
+    - Actively maintained with recent push date and no archive flag.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (156) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:00.310Z"
+    updated_at: "2026-05-06T22:12:35.425Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:42.786Z"
+    updated_at: "2026-05-06T22:20:43.959Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

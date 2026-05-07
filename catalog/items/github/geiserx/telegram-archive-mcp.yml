@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__telegram-archive-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: GPL-3.0
     archived: false
     created_at: "2026-04-01T10:40:14Z"
-    pushed_at: "2026-04-28T16:03:41Z"
+    pushed_at: "2026-05-06T08:53:31Z"
     description: MCP Server for Telegram-Archive — search messages, browse chats, and access archived Telegram history via MCP
     homepage: null
     topics:
@@ -53,50 +53,50 @@ metadata:
       - telegram
       - telegram-archive
       - telegram-bot
-    last_checked_at: "2026-05-05T21:02:18.474Z"
+    last_checked_at: "2026-05-06T22:43:59.905Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.474Z"
+      fetched_at: "2026-05-06T22:43:59.905Z"
       bytes: 8346
 insights:
-  summary: A self-hosted MCP server that exposes archived Telegram chat history as resources and tools for LLMs to search messages and browse chats.
-  why_it_matters: Developers can connect AI agents and coding assistants directly to their Telegram archives, enabling automated reference lookups and context retrieval from past conversations.
-  mental_damage: "We have finally achieved the platonic ideal of modern developer productivity: an MCP server to help your AI agent query that one message from three years ago where you swore you pasted the correct API key."
+  summary: A self-hosted MCP server written in Go that exposes archived Telegram chat history, messages, and statistics to LLMs via JSON-RPC.
+  why_it_matters: Developers can give coding agents and local assistants direct, searchable access to their Telegram archives for context-aware workflows.
+  mental_damage: We have finally reached the point where your AI assistant can trauma-dump your own 40,000-message Telegram history back at you at 2am.
   tags:
     - mcp
     - telegram
-    - archive
     - self-hosted
     - go
+    - context
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that exposes Telegram archive data to LLMs, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server whose primary identity is exposing Telegram archive data to LLMs via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP Server for Telegram-Archive' with MCP-specific features.
-    - README details MCP resources and tools (search_messages, get_chat_stats) over JSON-RPC / stdio transports.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its MCP ecosystem role.
+    - "Repo description explicitly states: 'MCP Server for Telegram-Archive — search messages, browse chats, and access archived Telegram history via MCP'."
+    - "README confirms: 'A tiny bridge that exposes any Telegram-Archive instance as an MCP server, enabling LLMs to search messages, browse chats, and access archived Telegram history.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.474Z"
+    updated_at: "2026-05-06T22:43:59.905Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:50.473Z"
+    updated_at: "2026-05-06T22:57:13.725Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

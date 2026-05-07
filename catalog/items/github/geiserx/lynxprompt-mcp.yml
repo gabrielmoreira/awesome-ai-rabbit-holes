@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__lynxprompt-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: GPL-3.0
     archived: false
     created_at: "2026-04-01T10:40:12Z"
-    pushed_at: "2026-04-25T00:39:12Z"
+    pushed_at: "2026-05-06T08:49:12Z"
     description: MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP
     homepage: null
     topics:
@@ -53,50 +53,50 @@ metadata:
       - prompt-management
       - self-hosted
       - stdio
-    last_checked_at: "2026-05-05T21:02:18.118Z"
+    last_checked_at: "2026-05-06T22:43:59.685Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.118Z"
+      fetched_at: "2026-05-06T22:43:59.685Z"
       bytes: 7883
 insights:
-  summary: An MCP server that exposes a LynxPrompt instance so LLMs can browse, search, and manage AI configuration blueprints like AGENTS.md and CLAUDE.md via JSON-RPC or stdio.
-  why_it_matters: It lets coding agents directly read and update the prompt blueprints and rule hierarchies that shape their own behavior, turning config management into a programmable workflow.
-  mental_damage: We have successfully reached the point where our agents now need dedicated servers just to argue with and reorganize their own instruction manuals.
+  summary: A Go-based MCP server that exposes a LynxPrompt instance as a Model Context Protocol endpoint, allowing LLMs to browse, search, and manage AI configuration blueprints like AGENTS.md and CLAUDE.md.
+  why_it_matters: It lets coding agents dynamically discover and manage prompt blueprints and context rules via MCP instead of relying on static, manually synced config files.
+  mental_damage: Another layer of abstraction so your agent can negotiate with a server about which agent-rules server it should be listening to.
   tags:
     - mcp
     - prompt-management
     - go
-    - lynxprompt
     - context-engineering
-  confidence: medium
+    - self-hosted
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation focused on exposing prompt-blueprint management via the Model Context Protocol, which aligns directly with the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server built to bridge LynxPrompt blueprints into MCP-compatible clients, making MCP its primary identity.
   evidence:
-    - Repo description states it is an 'MCP Server for LynxPrompt' to manage AI configuration blueprints via MCP.
-    - README confirms it exposes resources and tools over JSON-RPC/stdio as a bridge for the LynxPrompt platform.
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - "Repo description states: 'MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP'."
+    - README title and badge explicitly market it as 'A tiny bridge that exposes any LynxPrompt instance as an MCP server'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.119Z"
+    updated_at: "2026-05-06T22:43:59.685Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:49.042Z"
+    updated_at: "2026-05-06T22:57:10.097Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

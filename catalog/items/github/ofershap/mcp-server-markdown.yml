@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-markdown__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,14 +45,14 @@ metadata:
       - model-context-protocol
       - search
       - typescript
-    last_checked_at: "2026-05-05T21:03:59.682Z"
+    last_checked_at: "2026-05-06T22:45:37.533Z"
     readme:
-      fetched_at: "2026-05-05T21:03:59.682Z"
+      fetched_at: "2026-05-06T22:45:37.533Z"
       bytes: 4296
 insights:
-  summary: An MCP server that indexes local markdown files to enable AI assistants to search content, extract sections by heading, list table of contents, find code blocks, and parse frontmatter.
-  why_it_matters: It lets coding agents understand and navigate your project's internal documentation, ADRs, and wikis as structured content instead of raw text.
-  mental_damage: We have successfully built infrastructure to help the AI read the README so you don't have to, though you'll still need to debug why it extracted the wrong heading level.
+  summary: An MCP server that lets AI assistants search, navigate, and extract structured content from local markdown files, including sections, headings, and code blocks.
+  why_it_matters: It gives coding assistants structured access to internal documentation, ADRs, and wikis instead of forcing them to treat markdown as raw text.
+  mental_damage: Your AI still can't fix the bug, but now it can confidently misquote your two-year-old onboarding guide with proper heading hierarchy.
   tags:
     - mcp
     - markdown
@@ -62,33 +62,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a Model Context Protocol server that provides structured markdown document access to AI clients like Claude Desktop, Cursor, and VS Code Copilot.
+  reason: The product identity is an MCP server purpose-built for markdown, fitting cleanly as domain-specific MCP infrastructure rather than a generic framework or extension.
   evidence:
-    - Repo description explicitly states 'MCP server for markdown' with search, section extraction, and heading listing capabilities.
-    - README confirms it 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client' via standard MCP configuration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section.
+    - Repo description explicitly states 'MCP server for markdown — search, extract sections, list headings, find code blocks'.
+    - README positions it as a server that 'understands headings, sections, or code blocks' for Claude Desktop, Cursor, and VS Code Copilot.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:59.682Z"
+    updated_at: "2026-05-06T22:45:37.533Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:42.560Z"
+    updated_at: "2026-05-06T23:18:28.411Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikeyobrien__ralph-orchestrator__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2823
-    forks: 265
+    stars: 2826
+    forks: 266
     license: MIT
     archived: false
     created_at: "2025-09-07T18:17:13Z"
-    pushed_at: "2026-05-02T12:51:40Z"
+    pushed_at: "2026-05-06T13:47:11Z"
     description: An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration
     homepage: ""
     topics:
@@ -48,49 +48,49 @@ metadata:
       - opencode
       - ralph-loop
       - ralph-wiggum
-    last_checked_at: "2026-05-05T21:03:40.350Z"
+    last_checked_at: "2026-05-06T22:45:18.572Z"
     readme:
-      fetched_at: "2026-05-05T21:03:40.350Z"
+      fetched_at: "2026-05-06T22:45:18.572Z"
       bytes: 11514
 insights:
-  summary: A Rust-based orchestration framework that runs autonomous loops for AI coding agents like Claude Code and Kiro, using a persona-based 'hat system' and backpressure gates to iterate on tasks until completion.
-  why_it_matters: It provides a structured control plane for developers to automate multi-step coding workflows—planning, implementation, and validation—across multiple CLI-based AI agents without manual intervention.
-  mental_damage: We have finally created a system to ensure the AI keeps trying to write that JWT feature until either the tests pass or your patience runs out, whichever comes first.
+  summary: A Rust-based CLI orchestrator that runs autonomous coding loops across multiple AI backends (Claude Code, Gemini CLI, Kiro, etc.) until tasks pass backpressure gates like tests and linting.
+  why_it_matters: It gives developers a way to hand off structured specs and let multiple agent backends iterate autonomously with built-in planning, memory, and failure gating.
+  mental_damage: We have now built a hat-wearing loop to keep the AI from failing English, and somehow this feels like progress.
   tags:
-    - agent-orchestration
-    - cli
     - autonomous-loops
     - multi-backend
+    - cli-orchestration
+    - ralph-wiggum
   confidence: high
 curation:
   status: included
-  reason: While it interacts with coding agents, its primary value is as a user-facing control plane and orchestration framework for coordinating those agents, rather than being a coding assistant itself.
+  reason: Ralph is a developer-facing terminal agent that plans, iterates, and repairs code across repos using autonomous loops, fitting the primary coding assistant definition rather than being a thin extension or pure framework.
   evidence:
-    - README describes it as a 'hat-based orchestration framework' with a web dashboard for 'monitoring and managing orchestration loops'.
-    - Supports multiple backends (Claude Code, Kiro, Gemini CLI) acting as the coordinator rather than the code generator.
-    - Listed in 'awesome-cli-coding-agents' under the section 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+    - "Repo description: 'autonomous AI agent orchestration' with active development (pushed 2026-05-06, 2826 stars)."
+    - "README demonstrates developer workflow: ralph plan, ralph run, backpressure via tests/lint, multi-backend support."
+    - Listed in awesome-cli-coding-agents under 'Orchestrators & autonomous loops' as a terminal-native agent harness.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2823) exceeded threshold (150)
+  reason: Stars (2826) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:40.350Z"
+    updated_at: "2026-05-06T22:45:18.572Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:50.684Z"
+    updated_at: "2026-05-06T23:14:05.119Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

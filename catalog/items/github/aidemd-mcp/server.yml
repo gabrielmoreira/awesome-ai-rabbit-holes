@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidemd-mcp__server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,49 +41,49 @@ metadata:
       - developer-tools
       - mcp-server
       - windsurf
-    last_checked_at: "2026-05-05T21:00:55.224Z"
+    last_checked_at: "2026-05-06T22:12:30.692Z"
     readme:
-      fetched_at: "2026-05-05T21:00:55.224Z"
+      fetched_at: "2026-05-06T22:12:30.692Z"
       bytes: 12681
 insights:
-  summary: An MCP server that teaches AI agents the AIDE spec methodology by managing progressive disclosure spec files alongside code in AI-powered IDEs.
-  why_it_matters: It lets developers enforce intent-driven specs and validation checks directly inside Claude Code, Cursor, and VS Code so agents plan and build against structured context instead of vibes.
-  mental_damage: You now have a deterministic way to make your AI write and validate specs, which means the only thing left to drift is your own willingness to maintain them.
+  summary: An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases.
+  why_it_matters: It gives coding agents a structured spec-first workflow, letting teams govern implementation and QA through progressive-disclosure methodology files rather than ad-hoc prompts.
+  mental_damage: We’ve successfully reached the point where your AI agent now needs its own methodology server to tell it how to read the methodology files you wrote for it.
   tags:
     - mcp
     - spec-driven
-    - ai-ide
     - context-engineering
+    - developer-tools
   confidence: medium
 curation:
   status: included
-  reason: The project is itself an MCP server that extends AI IDEs with spec-driven development capabilities, clearly fitting the MCP Servers and Tooling category.
+  reason: The core product is a spec-first environment centered on .aide methodology files that drive planning, validation, and agent behavior, delivered as an MCP server.
   evidence:
-    - "Repo description explicitly states: 'MCP server that teaches any AI agent the AIDE spec methodology'"
-    - README details MCP tools like aide_init, aide_validate, aide_inspect, and aide_brain for Claude Code, Cursor, and VS Code
-    - Listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers
+    - "Repo description: 'MCP server that teaches any AI agent the AIDE spec methodology — progressive disclosure specs alongside code'"
+    - "README: 'Manage .aide spec files that live next to your code — the domain context that architects plan from, implementors build from, and QA validates against.'"
+    - Features include spec discovery, scaffolding, validation, and upgrade drift detection centered on the AIDE spec methodology.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:55.224Z"
+    updated_at: "2026-05-06T22:12:30.692Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:51.968Z"
+    updated_at: "2026-05-06T22:19:49.321Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,0 +1,96 @@
+id: github__rowboatlabs__rowboat
+kind: github-repo
+name: rowboat
+canonical_url: https://github.com/rowboatlabs/rowboat
+identity:
+  github_repo: rowboatlabs/rowboat
+provenance:
+  discoveries:
+    - id: discovery__github__rowboatlabs__rowboat__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: rowboat
+        extracted_url: https://github.com/rowboatlabs/rowboat
+        surrounding_text: "34. [rowboat](https://github.com/rowboatlabs/rowboat): Let AI build multi-agent workflows for you in minutes."
+        confidence: high
+metadata:
+  github:
+    stars: 13269
+    forks: 1321
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-01-13T09:30:40Z"
+    pushed_at: "2026-05-06T17:44:00Z"
+    description: Open-source AI coworker, with memory
+    homepage: https://www.rowboatlabs.com
+    topics:
+      - agents
+      - agents-sdk
+      - ai
+      - ai-agents
+      - ai-agents-automation
+      - chatgpt
+      - claude-code
+      - claude-cowork
+      - generative-ai
+      - llm
+      - multiagent
+      - opeani
+      - open-source
+      - orchestration
+      - productivity
+    last_checked_at: "2026-05-06T22:46:12.544Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:12.544Z"
+      bytes: 6529
+insights:
+  summary: An open-source, local-first AI coworker that builds a long-lived knowledge graph from emails and meeting notes to draft documents, prep meetings, and generate artifacts like PDF slides.
+  why_it_matters: It offers developers a transparent, Markdown-based memory system that compounds context locally, reducing the need to repeatedly re-explain project history to AI tools.
+  mental_damage: Finally, a local AI coworker that builds a sprawling knowledge graph of your meetings, ensuring you can never truly escape the context of that roadmap sync from three months ago.
+  tags:
+    - knowledge-graph
+    - local-first
+    - memory
+    - multi-agent
+    - productivity
+  confidence: high
+curation:
+  status: included
+  reason: The core novelty is a long-lived, inspectable knowledge graph and memory system that shapes context for the model, fitting Prompt & Context Engineering better than a coding agent or general productivity tool.
+  evidence:
+    - "Repo description: 'Open-source AI coworker, with memory'"
+    - "README: 'maintains an Obsidian-compatible vault of plain Markdown notes with backlinks — a transparent working memory'"
+    - "README: 'Rowboat maintains long-lived knowledge... context accumulates over time, relationships are explicit and inspectable'"
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (13269) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.646Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:12.544Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:14.395Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alekseimarchenko__central-intelligence__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Persistent memory for AI agents. Agents forget. CI remembers.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:57.600Z"
+    last_checked_at: "2026-05-06T22:12:32.758Z"
     readme:
-      fetched_at: "2026-05-05T21:00:57.600Z"
+      fetched_at: "2026-05-06T22:12:32.758Z"
       bytes: 13683
 insights:
-  summary: An MCP server that provides persistent memory for AI agents, allowing them to store, recall, and share context across sessions with tools like Claude Code, Cursor, and LangChain.
-  why_it_matters: It solves the 'blank slate' problem where agents lose all context, preferences, and architectural understanding between restarts, eliminating repetitive onboarding in every new session.
-  mental_damage: We have finally built infrastructure to remember that we already explained our deployment preferences three times this week, ensuring the agent can now ignore us with perfect historical accuracy.
+  summary: An MCP server providing persistent memory storage and semantic recall for AI agents across sessions, integrating with tools like Claude Code, Cursor, and LangChain.
+  why_it_matters: It allows developers to retain context, preferences, and architectural decisions across AI agent sessions, eliminating the need to re-explain project details every time a session restarts.
+  mental_damage: We have finally built a permanent external hard drive for the goldfish-like attention span of our coding agents, ensuring they never forget how much you hate semicolons.
   tags:
     - mcp
     - memory
     - context
-    - agents
+    - persistent-storage
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to integrate with various AI agent hosts, fitting the MCP Servers and Tooling category perfectly.
+  reason: The core novelty is a memory and retrieval system for agents, fitting the Prompt & Context Engineering category, specifically targeting memory and compression use cases.
   evidence:
-    - "Repo description states: 'Persistent memory for AI agents... Works with Claude Code, Cursor, LangChain, CrewAI, and any agent that supports MCP.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
-    - Distributed via npm as 'central-intelligence-mcp' implementing the Model Context Protocol.
+    - Repo description states 'Persistent memory for AI agents. Agents forget. CI remembers.'
+    - README defines the product as 'Persistent memory for AI agents' with tools like `remember`, `recall`, and `context`.
+    - Listed in awesome-mcp-servers under the 'Knowledge & Memory' section.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:57.600Z"
+    updated_at: "2026-05-06T22:12:32.758Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:15.575Z"
+    updated_at: "2026-05-06T22:20:13.305Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

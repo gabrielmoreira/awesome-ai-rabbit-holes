@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arize-ai__text-to-graphql-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:09.405Z"
+    last_checked_at: "2026-05-06T22:12:43.188Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.405Z"
+      fetched_at: "2026-05-06T22:12:43.188Z"
       bytes: 17004
 insights:
-  summary: An MCP server that converts natural language queries into valid GraphQL using a LangGraph agent, integrating with AI assistants like Claude Desktop and Cursor.
-  why_it_matters: It allows developers to query GraphQL APIs conversationally through their AI assistant, removing the need to manually construct complex queries against a schema.
-  mental_damage: We have successfully abstracted the act of learning a query language into the act of debugging an LLM's interpretation of a schema it barely understands.
+  summary: An MCP server that converts natural language descriptions into valid, executable GraphQL queries using a LangGraph agent.
+  why_it_matters: It allows developers and AI assistants to interact with GraphQL APIs using plain English, removing the need to manually write or memorize complex query syntax.
+  mental_damage: You can now hallucinate GraphQL queries in English and have an agent translate them, adding a layer of linguistic uncertainty to your strongly-typed API.
   tags:
     - mcp
     - graphql
+    - natural-language
     - langgraph
-    - cursor
-    - claude
+    - api
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling for the Model Context Protocol ecosystem, fitting the dedicated MCP category.
+  reason: The product's identity is a Model Context Protocol server designed to bridge AI assistants and GraphQL APIs, fitting the MCP Servers & Tooling category.
   evidence:
-    - README title and overview define it as a 'Text-to-GraphQL MCP Server' using the Model Context Protocol.
-    - Features list explicitly mentions 'Full compatibility with Claude Desktop, Cursor, and other MCP clients'.
-    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
+    - Name is 'text-to-graphql-mcp' and README explicitly states it is an 'MCP (Model Context Protocol) server'.
+    - Features 'Full compatibility with Claude Desktop, Cursor, and other MCP clients'.
+    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.405Z"
+    updated_at: "2026-05-06T22:12:43.188Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:02.986Z"
+    updated_at: "2026-05-06T22:22:17.531Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

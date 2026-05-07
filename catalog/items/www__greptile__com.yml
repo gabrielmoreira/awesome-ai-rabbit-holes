@@ -1,12 +1,12 @@
 id: www__greptile__com
 kind: website
-name: Greptile
+name: www.greptile.com
 canonical_url: https://www.greptile.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__greptile__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,46 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Greptile is a hosted AI service that reviews pull requests by indexing the entire codebase and using a swarm of agents to catch bugs and enforce team-specific coding standards.
-  why_it_matters: It integrates directly into GitHub and GitLab workflows to automate code reviews with full repository context, aiming to catch multi-file logical bugs before they reach human reviewers.
-  mental_damage: We have successfully automated the part of code review where a senior engineer sighs and explains why your clever one-liner broke a dependency three layers deep.
+  summary: An AI-powered code review platform that builds a graph index of a codebase and uses a swarm of agents to analyze pull requests for bugs, style violations, and logical errors.
+  why_it_matters: It automates the PR review feedback loop with full repository context, aiming to catch multi-file bugs and enforce team standards before human reviewers look at the code.
+  mental_damage: Another layer of 'agentic' oversight to debate while you quietly wonder if the swarm will eventually demand commit access and a 401k.
   tags:
-    - agents
-    - automation
-    - ci-cd
     - code-review
-    - pr-review
+    - pr-automation
+    - agents
+    - ci-cd
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing agent that operates directly on source code within the PR workflow, distinct from app builders or pure extensions.
+  reason: Greptile is a standalone AI agent product that directly reviews, tests, and validates code changes in PRs, fitting the coding-agents profile for review and repair.
   evidence:
-    - "Scraped site states: 'AI agents that review and test pull requests with full context of the codebase.'"
-    - Source list context confirms inclusion in awesome-ai-coding-tools under 'Code Review and Refactoring'.
-    - Homepage highlights integration with IDEs and coding agents (Claude Code, Cursor) to fix issues found during review.
+    - Scraped site describes 'AI agents that review and test pull requests with full context of the codebase.'
+    - Source list awesome-ai-coding-tools includes it under 'Code Review and Refactoring'.
+    - Product features include autonomous test generation (TREX) and fixing issues in IDEs, not just augmenting another assistant.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:07.458Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
-    cause: null
+    updated_at: "2026-05-06T22:12:15.668Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:26.338Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

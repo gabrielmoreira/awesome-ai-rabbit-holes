@@ -1,13 +1,13 @@
 id: github__kilo-org__kilocode
 kind: github-repo
-name: Kilo Code
+name: kilocode
 canonical_url: https://github.com/kilo-org/kilocode
 identity:
   github_repo: kilo-org/kilocode
 provenance:
   discoveries:
     - id: discovery__github__kilo-org__kilocode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Kilo Code CLI](https://github.com/Kilo-Org/kilocode)** `⭐ 18.9k` — Agentic engineering platform with CLI; orchestrator mode, 100s of LLMs, skills, and checkpointing."
         confidence: high
     - id: discovery__github__kilo-org__kilocode__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 18940
-    forks: 2486
+    stars: 18978
+    forks: 2491
     license: MIT
     archived: false
     created_at: "2025-03-10T15:34:26Z"
-    pushed_at: "2026-05-05T19:30:45Z"
+    pushed_at: "2026-05-06T22:28:26Z"
     description: Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
     homepage: https://kilo.ai/
     topics:
@@ -60,50 +60,50 @@ metadata:
       - sonnet
       - vscode
       - vscode-extension
-    last_checked_at: "2026-05-05T21:03:05.681Z"
+    last_checked_at: "2026-05-06T22:44:42.942Z"
     readme:
-      fetched_at: "2026-05-05T21:03:05.681Z"
+      fetched_at: "2026-05-06T22:44:42.942Z"
       bytes: 6271
 insights:
-  summary: Kilo is an open-source coding agent and engineering platform that integrates into VS Code and the CLI to generate code, automate tasks, and debug existing repos.
-  why_it_matters: It offers developers a multi-modal agent experience—combining inline autocomplete, terminal automation, browser control, and an MCP marketplace—directly inside their IDE or terminal workflow.
-  mental_damage: "Just what the modern developer needs: another 'all-in-one agentic platform' to manage while wondering if the agent is refactoring the code or just refactoring the anxiety."
+  summary: Kilo is an open-source coding agent and IDE extension that generates code from natural language, automates tasks, and supports autonomous CLI execution across VS Code, JetBrains, and the terminal.
+  why_it_matters: It bundles code generation, inline completions, browser automation, and an MCP marketplace into a single agentic platform that runs locally via CLI or inside popular editors.
+  mental_damage: Yet another all-in-one coding agent promising to ship faster, because what every repo really needs is one more autonomous loop with optional API keys.
   tags:
-    - cli
     - coding-agent
-    - mcp
-    - open-source
     - vscode-extension
+    - cli
+    - mcp
+    - autonomous
   confidence: high
 curation:
   status: included
-  reason: The primary product is a developer-facing coding assistant that directly writes, edits, and debugs code inside a repo via a CLI and VS Code extension, fitting the coding-agents definition.
+  reason: Kilo presents itself as the primary coding assistant across IDE and CLI surfaces, directly planning, writing, and debugging code rather than extending another assistant.
   evidence:
-    - Repo description explicitly calls it 'the most popular open source coding agent'.
-    - README details features like code generation, automated refactoring, terminal commands, and a VS Code extension.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - Repo description states it is 'the most popular open source coding agent' and an 'all-in-one agentic engineering platform'.
+    - README highlights direct code generation, inline autocomplete, terminal commands, browser automation, and autonomous CI/CD mode via kilo run --auto.
+    - Listed in awesome-cli-coding-agents under Terminal-native coding agents > Open Source and supports VS Code, JetBrains, and CLI binaries.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: IDE-Native Assistants
 lifecycle:
   status: promotion_candidate
-  reason: Stars (18940) exceeded threshold (150)
+  reason: Stars (18978) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:45.457Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:05.681Z"
+    updated_at: "2026-05-06T22:44:42.942Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:08.267Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

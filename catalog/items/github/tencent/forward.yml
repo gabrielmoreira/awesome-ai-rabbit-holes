@@ -1,13 +1,13 @@
 id: github__tencent__forward
 kind: github-repo
-name: Forward
+name: forward
 canonical_url: https://github.com/tencent/forward
 identity:
   github_repo: tencent/forward
 provenance:
   discoveries:
     - id: discovery__github__tencent__forward__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,47 +23,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 554
+    forks: 62
+    license: NOASSERTION
+    archived: false
+    created_at: "2021-03-11T02:40:04Z"
+    pushed_at: "2022-01-29T16:34:05Z"
+    description: "A library for high performance deep learning inference on NVIDIA GPUs. "
+    homepage: ""
+    topics:
+      - cuda
+      - deep-learning
+      - forward
+      - gpu
+      - inference
+      - inference-engine
+      - keras
+      - neural-network
+      - onnx
+      - pytorch
+      - tensorflow
+      - tensorrt
+    last_checked_at: "2026-05-06T22:46:42.615Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:42.615Z"
+      bytes: 8661
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Forward is a high-performance deep learning inference engine from Tencent that converts models from TensorFlow, PyTorch, Keras, and ONNX into optimized TensorRT engines.
+  why_it_matters: It removes the friction of manual model conversion and network rebuilding, letting developers go straight from trained models to high-speed GPU inference.
+  mental_damage: A framework promising to save you from TensorRT complexity, which is itself a complex framework whose last meaningful update is now older than some production models you’ll try to load into it.
+  tags:
+    - inference-engine
+    - tensorrt
+    - gpu
+    - deep-learning
+    - onnx
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is a deep learning inference runtime for model deployment, not an AI tool aimed at helping software developers write, review, or manage code.
+  evidence:
+    - Repo description explicitly states it is a 'library for high performance deep learning inference on NVIDIA GPUs', not a developer productivity tool.
+    - README focuses entirely on model conversion (TensorFlow, PyTorch, ONNX to TensorRT) and inference optimization, with no developer-coding workflow integration.
+    - Last push was in 2022, and it appears in Awesome-LLMOps under 'Optimizations', which covers ML infra rather than our developer-tooling scope.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (554) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:42.615Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:57.182Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

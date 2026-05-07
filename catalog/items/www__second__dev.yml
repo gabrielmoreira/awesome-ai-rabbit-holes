@@ -1,12 +1,12 @@
 id: www__second__dev
 kind: website
-name: Second
+name: www.second.dev
 canonical_url: https://www.second.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__second__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,41 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Second is an AI coding agent designed to plan, implement, and test code changes directly within a developer's repository and workflow.
-  why_it_matters: It aims to automate the implementation of full-stack tickets and pull requests, allowing developers to delegate routine feature work and bug fixes to an autonomous agent.
-  mental_damage: You can now pay a bot to suffer through the pain of reading your own spaghetti codebase and opening a PR that you still have to review anyway.
+  summary: Second is an AI agent platform designed to autonomously plan, code, and ship software tasks within a developer's existing repository workflow.
+  why_it_matters: It aims to handle full task lifecycles—from issue to pull request—allowing developers to delegate implementation work to an autonomous coding agent.
+  mental_damage: Yet another opportunity to discover that 'autonomous' usually means 'requires three rounds of polite negotiation to fix a missing semicolon.'
   tags:
-    - autonomous
     - coding-agent
-    - pr-automation
-  confidence: medium
+    - autonomous
+    - pr-workflow
+    - delegation
+  confidence: low
 curation:
   status: included
-  reason: The tool is listed in awesome-ai-agents as an autonomous agent that directly plans, writes, and tests code within a repo and PR workflow, fitting the coding-agents definition precisely.
+  reason: The product is positioned as a primary coding assistant that autonomously handles repo work and shipping tasks, fitting the core definition of a coding agent.
   evidence:
-    - Listed in the awesome-ai-agents directory under the 'Second' section for autonomous agents.
-    - Positioned as a coding agent (second.dev) that operates on source code rather than a browser-based app builder.
+    - Listed in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents'.
+    - The domain 'second.dev' implies a developer-focused tool rather than a generic consumer AI product.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:17.864Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:35.208Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

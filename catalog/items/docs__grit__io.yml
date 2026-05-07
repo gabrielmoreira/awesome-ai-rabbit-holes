@@ -1,12 +1,12 @@
 id: docs__grit__io
 kind: website
-name: Grit
+name: docs.grit.io
 canonical_url: https://docs.grit.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__grit__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Grit is a declarative query language and toolchain for searching and transforming source code across large repositories, with built-in auto-fix and linting capabilities.
-  why_it_matters: It lets developers automate large-scale migrations, dependency upgrades, and custom linting across millions of lines of code without needing to understand abstract syntax trees.
-  mental_damage: Engineers can now spend their afternoon defining 'where' clauses to exclude 'it()' blocks instead of simply doing the find-and-replace that has been free since 1979.
+  summary: Documentation site for GritQL, a declarative query language for searching and modifying source code across multiple languages.
+  why_it_matters: It provides the syntax and guides needed to automate large-scale code migrations, custom linting, and dependency upgrades using pattern-based transformations.
+  mental_damage: Another declarative language to learn so you can finally automate the refactoring you’ll still manually review out of spite.
   tags:
-    - code-search
-    - code-transformation
     - gritql
-    - linting
-    - refactoring
+    - code-transformation
+    - static-analysis
+    - docs
+    - cli
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a code transformation and linting utility designed for static analysis and migrations, but it lacks the AI agent behavior, generative coding loop, or autonomous workflow required for this catalog's scope.
+  reason: This is a documentation site for GritQL, not a standalone product, agent, or developer tool; it serves as auxiliary reference material rather than a usable tool.
   evidence:
-    - The primary page describes GritQL as a 'declarative query language for searching and modifying source code', emphasizing static patterns, not AI generation.
-    - Use cases listed are 'Large-scale migrations', 'Custom linting', and 'Dependency upgrades'—classic static analysis tasks rather than AI agent workflows.
-    - Listed in 'awesome-ai-agents' under a declarative search context, but the tool itself functions as a structural query engine rather than an autonomous coding agent.
+    - URL is docs.grit.io, which is a documentation site, not a product repo or tool.
+    - "Scraped content is entirely documentation sections: CLI Quickstart, Pattern Library, Language Reference, Guides."
+    - No standalone tool, CLI binary, IDE extension, or agent product is presented; it supports the GritQL language.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:02.195Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:31.414Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

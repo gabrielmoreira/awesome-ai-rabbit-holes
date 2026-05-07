@@ -1,0 +1,81 @@
+id: github__opendatalab__pdf-extract-kit
+kind: github-repo
+name: pdf-extract-kit
+canonical_url: https://github.com/opendatalab/pdf-extract-kit
+identity:
+  github_repo: opendatalab/pdf-extract-kit
+provenance:
+  discoveries:
+    - id: discovery__github__opendatalab__pdf-extract-kit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: PDF-Extract-Kit
+        extracted_url: https://github.com/opendatalab/pdf-extract-kit
+        surrounding_text: "6. [PDF-Extract-Kit](https://github.com/opendatalab/PDF-Extract-Kit): A Comprehensive Toolkit for High-Quality PDF Content Extraction."
+        confidence: high
+metadata:
+  github:
+    stars: 9645
+    forks: 729
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-06-27T13:05:27Z"
+    pushed_at: "2025-01-03T02:00:20Z"
+    description: A Comprehensive Toolkit for High-Quality PDF Content Extraction
+    homepage: https://pdf-extract-kit.readthedocs.io/zh-cn/latest/index.html
+    topics: []
+    last_checked_at: "2026-05-06T22:45:42.353Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:42.353Z"
+      bytes: 14312
+insights:
+  summary: A modular Python toolkit that bundles fine-tuned models for layout detection, OCR, formula recognition, and table extraction to parse complex PDF documents into structured content.
+  why_it_matters: It provides the high-quality document parsing layer needed to feed clean, structured data into LLMs for RAG, document Q&A, and translation workflows.
+  mental_damage: Yet another reminder that while agents can write entire apps, we still need a dedicated AI toolkit just to convince a PDF it contains readable text.
+  tags:
+    - pdf-parsing
+    - document-extraction
+    - ocr
+    - llm-tooling
+    - models
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first toolkit and model hub for parsing documents, fitting the Frameworks & SDKs category as retrieval infrastructure for AI workflows rather than a coding agent or generic ML research.
+  evidence:
+    - "Repo description: 'A Comprehensive Toolkit for High-Quality PDF Content Extraction'."
+    - README states it is 'designed for high-quality document processing and functions as a model toolbox' for building apps like 'document translation, document Q&A, or document assistants'.
+    - Includes modular models for Layout Detection, OCR, and Formula Recognition, serving as a parser/extractor library.
+placement:
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (9645) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.640Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:42.353Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:34.567Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

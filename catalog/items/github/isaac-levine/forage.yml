@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaac-levine__forage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,49 +40,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - tool-discovery
-    last_checked_at: "2026-05-05T21:02:46.725Z"
+    last_checked_at: "2026-05-06T22:44:26.564Z"
     readme:
-      fetched_at: "2026-05-05T21:02:46.725Z"
+      fetched_at: "2026-05-06T22:44:26.564Z"
       bytes: 7458
 insights:
-  summary: An MCP server that lets AI coding agents automatically discover, install, and learn to use new MCP tools during a session without requiring a restart.
-  why_it_matters: Developers can grant agents the ability to self-extend their toolset on the fly, removing the manual cycle of identifying, installing, and configuring new MCP servers every time a task requires a missing capability.
-  mental_damage: We have finally built an agent that can install more agents to solve the problem of having too many agents to install manually.
+  summary: Forage is an MCP server that lets AI coding agents automatically discover, install, and learn to use new MCP tools at runtime without restarting.
+  why_it_matters: It closes the loop between a coding agent hitting a capability wall and gaining new host integrations by dynamically fetching and persisting tool access across sessions.
+  mental_damage: We have finally built a system that lets your agent silently accrue dependencies so you can wake up to a manifest.json that looks like a teenager's npm install history.
   tags:
     - mcp
     - tool-discovery
     - agent-extensions
-    - self-improving
+    - claude-code
+    - cursor
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP middleware server that discovers, proxies, and manages other MCP servers, fitting cleanly into MCP infrastructure rather than acting as a primary coding agent or a generic extension.
+  reason: The product identity is an MCP gateway and middleware server that dynamically discovers, proxies, and persists other MCP servers for coding agents.
   evidence:
-    - "Repo description explicitly states: 'Self-improving tool discovery for AI agents. Agents find, install, and learn to use new MCP tools automatically.'"
-    - README describes Forage as 'a gateway/proxy MCP server' that searches registries and runs child MCP servers as subprocesses.
-    - Listed under 'Server Implementations > Aggregators' in awesome-mcp-servers, confirming its role as MCP infrastructure.
+    - "Repo description: 'Self-improving tool discovery for AI agents. Agents find, install, and learn to use new MCP tools automatically.'"
+    - "README: 'Forage is a gateway/proxy MCP server... discovers tools, installs tools, wraps their capabilities, and emits list_changed notifications.'"
+    - Topics and awesome-mcp-servers listing confirm the MCP server and aggregator identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:46.725Z"
+    updated_at: "2026-05-06T22:44:26.564Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:33.783Z"
+    updated_at: "2026-05-06T23:02:39.629Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

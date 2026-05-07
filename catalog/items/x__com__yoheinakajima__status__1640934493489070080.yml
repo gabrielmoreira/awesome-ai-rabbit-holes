@@ -1,12 +1,12 @@
 id: x__com__yoheinakajima__status__1640934493489070080
 kind: website
-name: Task-Driven Autonomous Agent
+name: "1640934493489070080"
 canonical_url: https://x.com/yoheinakajima/status/1640934493489070080
 identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__yoheinakajima__status__1640934493489070080__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,21 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet referencing the BabyAGI autonomous agent, listed in an awesome-ai-agents directory.
-  why_it_matters: It highlights the early conceptual link between social media discourse and the emergence of autonomous agent frameworks.
-  mental_damage: We are now treating ephemeral Twitter threads as foundational architecture docs for the agent revolution.
+  summary: A tweet linking to a specific status about BabyAGI, which is an experimental autonomous AI agent for task management and execution.
+  why_it_matters: Developers exploring the evolution of autonomous agents often trace the lineage back to early viral experiments like BabyAGI to understand task decomposition patterns.
+  mental_damage: We have reached a point where a link to a social media post about a concept is considered a sufficient directory entry for 'autonomous agents'.
   tags:
     - agents
-    - conceptual
-    - social-media
+    - autonomous
+    - experimental
   confidence: high
 curation:
   status: excluded
-  reason: This is a link to a social media status, not a developer tool, framework, or usable software.
+  reason: This is a link to a tweet (X.com status) rather than a standalone tool, repository, or directory, offering no functional developer tooling to include.
   evidence:
-    - URL points to x.com/yoheinakajima/status/... which is a tweet, not a repo or product.
-    - Scraped site context failed to load content, returning only a privacy-extension error.
-    - No repository description, README, code, or tooling surface exists to evaluate.
+    - URL points to x.com/yoheinakajima/status/... which failed to load, indicating a social media link rather than a tool.
+    - No repository description, README, stars, or code artifacts were provided.
+    - Source list context only shows it was mentioned as a description within the awesome-ai-agents list, not as a tool itself.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:24.322Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:44.456Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

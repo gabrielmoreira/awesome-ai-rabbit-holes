@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ragieai__ragie-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,27 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 86
+    forks: 19
+    license: MIT
+    archived: false
+    created_at: "2025-02-28T00:23:00Z"
+    pushed_at: "2026-02-04T03:44:35Z"
+    description: Ragie Model Context Protocol Server
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:05.563Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:05.563Z"
+      bytes: 5137
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A now-deprecated MCP server that enabled AI models to retrieve information from a Ragie knowledge base before the feature was moved natively into Ragie's platform.
+  why_it_matters: It demonstrates the rapid lifecycle of MCP tooling, where standalone servers can be absorbed into hosted platforms as the protocol matures.
+  mental_damage: We built the adapter so you don't have to, until we decided you shouldn't have to build it at all three weeks later.
+  tags:
+    - mcp
+    - knowledge-retrieval
+    - deprecated
+    - server
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository explicitly states it is no longer needed because the functionality is now supported natively by Ragie, making it a sunsetted wrapper rather than an active tool.
+  evidence:
+    - "README banner states: 'This project is no longer needed. Ragie now supports MCP natively'"
+    - Created in 2025 but already deprecated in favor of native platform support
+    - Functions purely as an MCP adapter for a proprietary knowledge base API
 placement:
   primary_category: null
   section: null
@@ -54,19 +63,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:17.898Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for ragieai/ragie-mcp-server
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:05.563Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:36.835Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

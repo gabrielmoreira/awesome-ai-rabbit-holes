@@ -25,21 +25,39 @@ const SOURCE_LIST_CATEGORIES: Category[] = [
     name: "MCP Servers and Tooling",
     slug: "mcp",
     description: "Model Context Protocol servers, clients, and tooling.",
-    prompt_instruction: "Model Context Protocol servers, clients, registries, and tooling.",
+    prompt: {
+      instructions: "Model Context Protocol servers, clients, registries, and tooling.",
+      use_when: ["The product itself is MCP infrastructure."],
+      do_not_use_when: ["MCP is only a compatibility feature."],
+      canonical_positives: ["playwright-mcp"],
+      common_false_positives: ["apisix"],
+    },
   },
   {
     id: "coding-agents",
     name: "Coding Agents",
     slug: "coding-agents",
     description: "AI coding assistants and autonomous programming agents.",
-    prompt_instruction: "User-facing coding assistants and autonomous coding agents that directly write or review code.",
+    prompt: {
+      instructions: "User-facing coding assistants and autonomous coding agents that directly write or review code.",
+      use_when: ["The product directly writes, reviews, or repairs code."],
+      do_not_use_when: ["It is mainly an IDE or extension."],
+      canonical_positives: ["Claude Code"],
+      common_false_positives: ["Cursor"],
+    },
   },
   {
     id: "ai-ides-editors",
     name: "AI IDEs and Editors",
     slug: "ai-ides-editors",
     description: "Editors and IDEs built around AI assistance.",
-    prompt_instruction: "IDEs and editors whose primary product surface is an AI-native development environment.",
+    prompt: {
+      instructions: "IDEs and editors whose primary product surface is an AI-native development environment.",
+      use_when: ["The development environment itself is the product."],
+      do_not_use_when: ["It is a terminal agent or thin wrapper."],
+      canonical_positives: ["Cursor"],
+      common_false_positives: ["Claude Code"],
+    },
   },
 ];
 

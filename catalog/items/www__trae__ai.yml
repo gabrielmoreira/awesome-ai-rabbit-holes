@@ -1,12 +1,12 @@
 id: www__trae__ai
 kind: website
-name: Trae
+name: www.trae.ai
 canonical_url: https://www.trae.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__trae__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "- **[Trae](https://www.trae.ai/)** – Adaptive AI IDE by ByteDance for faster coding and AI collaboration."
         confidence: high
     - id: discovery__www__trae__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,42 +49,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TRAE is an AI-native IDE that integrates an AI assistant into the developer's workflow to handle coding tasks from task definition through results review.
-  why_it_matters: It positions itself as a development environment where developers define tasks and review AI-generated results, aiming to reduce the manual overhead of writing and debugging code.
-  mental_damage: Another day, another IDE promising that 'AI handles the rest' while you quietly wonder if your new job description is 'Professional Prompt Reviewer.'
+  summary: TRAE is an AI-native IDE that integrates assistant capabilities directly into the development environment, with a 'SOLO' mode that handles coding tasks from definition to completion.
+  why_it_matters: It positions itself as a task-oriented environment where developers define intent and review results, reducing the loop between planning and implementation.
+  mental_damage: Yet another AI IDE promising you can 'define the task, review the results, and AI handles the rest'—because what this ecosystem really needs is more ways to feel like a project manager of a very fast, very confident ghost.
   tags:
-    - ai-ide
-    - coding-assistant
-    - task-automation
+    - ide
+    - ai-assistant
+    - task-driven
+    - desktop-app
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly described as an IDE (TRAE IDE) that integrates AI into the workflow, fitting the AI IDEs and Editors category rather than a plugin or app builder.
+  reason: TRAE is an AI-native IDE (TRAE IDE) with a task-driven 'SOLO' mode, making it a primary development environment rather than a plugin, agent, or extension.
   evidence:
-    - Scraped site title and description identify it as 'TRAE IDE' that 'integrates seamlessly into your workflow'.
-    - The excerpt describes 'TRAE SOLO' where 'you define the task, review the results, and AI handles the rest' inside a desktop/app environment.
-    - Listed in awesome-ai-coding-tools under the 'Code Editors and Assistants' section.
+    - Scraped site context identifies the product as 'TRAE IDE' and a 'development environment' with SOLO desktop/app/web surfaces.
+    - Source lists categorize it under 'Code Editors and Assistants' and '代码 Coding' as an IDE-class product.
+    - The product pitch centers on integrating AI into the workflow as the environment itself, not as an add-on.
 placement:
   primary_category: ai-ides-editors
-  section: null
+  section: Full IDEs & Editors
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:49.357Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:02.546Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

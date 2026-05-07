@@ -1,0 +1,88 @@
+id: github__handsonllm__hands-on-large-language-models
+kind: github-repo
+name: hands-on-large-language-models
+canonical_url: https://github.com/handsonllm/hands-on-large-language-models
+identity:
+  github_repo: handsonllm/hands-on-large-language-models
+provenance:
+  discoveries:
+    - id: discovery__github__handsonllm__hands-on-large-language-models__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《Hands-On Large Language Models》
+        extracted_url: https://github.com/handsonllm/hands-on-large-language-models
+        surrounding_text: 12. [《Hands-On Large Language Models》](https://github.com/handsOnLLM/Hands-On-Large-Language-Models)
+        confidence: high
+metadata:
+  github:
+    stars: 26004
+    forks: 6025
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-06-28T11:49:46Z"
+    pushed_at: "2026-04-24T10:20:08Z"
+    description: Official code repo for the O'Reilly Book - "Hands-On Large Language Models"
+    homepage: https://www.llm-book.com/
+    topics:
+      - artificial-intelligence
+      - book
+      - large-language-models
+      - llm
+      - llms
+      - oreilly
+      - oreilly-books
+    last_checked_at: "2026-05-06T22:44:10.810Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:10.810Z"
+      bytes: 11805
+insights:
+  summary: Official code repository accompanying the O'Reilly book 'Hands-On Large Language Models' by Jay Alammar and Maarten Grootendorst.
+  why_it_matters: Provides nearly 300 custom figures and practical code examples for developers aiming to understand and apply LLM concepts beyond just clicking 'generate'.
+  mental_damage: Another excellent resource to add to the 'Read Later' pile, ensuring you can visualize transformer architectures perfectly right up until the moment your boss asks why the chatbot is hallucinating.
+  tags:
+    - llm
+    - book
+    - education
+    - oreilly
+    - examples
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a book's supporting code repository and educational media, not a developer-facing tool, agent, framework, or infrastructure component.
+  evidence:
+    - Repo description explicitly states it is the 'Official code repo for the O'Reilly Book'.
+    - README describes the content as a book with custom figures and code examples, not a runnable tool.
+    - Source list context classifies it under '书籍 Book' (Books), confirming its identity as a publication.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (26004) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.617Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:10.810Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:59:25.015Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

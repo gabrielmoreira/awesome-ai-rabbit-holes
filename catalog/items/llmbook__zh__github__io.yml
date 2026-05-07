@@ -1,0 +1,79 @@
+id: llmbook__zh__github__io
+kind: website
+name: llmbook-zh.github.io
+canonical_url: https://llmbook-zh.github.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__llmbook__zh__github__io__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《大语言模型》
+        extracted_url: https://llmbook-zh.github.io
+        surrounding_text: 2. [《大语言模型》](https://llmbook-zh.github.io/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language technical book and course site covering the full LLM stack, from architecture and pretraining to prompting, RAG, and agent-based reasoning.
+  why_it_matters: It provides a structured, practitioner-authored curriculum and reference for developers who need to understand how LLMs actually work before wiring them into tools.
+  mental_damage: Yet another reminder that reading 300 pages on transformer internals is easier than admitting your prompt-to-app builder is just autocomplete with a Stripe bill.
+  tags:
+    - llm
+    - education
+    - book
+    - course
+    - chinese
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational book and course site, not a developer-facing tool, agent, framework, or product; it belongs in learning resources, not a tooling catalog.
+  evidence:
+    - Scraped site title and description identify it as 《大语言模型》, a published textbook with PDF, PPT, and video course materials.
+    - Content is organized as lectures (architecture, pretraining, alignment, prompting, reasoning) rather than a usable CLI, SDK, IDE, or agent product.
+    - Appears in awesome-LLM-resources under a books section, which is a learning curator signal, not a developer-tooling signal.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:10.221Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

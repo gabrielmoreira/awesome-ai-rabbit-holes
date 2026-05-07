@@ -1,13 +1,13 @@
 id: github__kubeflow__katib
 kind: github-repo
-name: Katib
+name: katib
 canonical_url: https://github.com/kubeflow/katib
 identity:
   github_repo: kubeflow/katib
 provenance:
   discoveries:
     - id: discovery__github__kubeflow__katib__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -28,7 +28,7 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2018-04-03T17:07:12Z"
-    pushed_at: "2026-04-14T01:21:37Z"
+    pushed_at: "2026-05-06T17:08:10Z"
     description: Automated Machine Learning on Kubernetes
     homepage: https://www.kubeflow.org/docs/components/katib
     topics:
@@ -46,28 +46,27 @@ metadata:
       - pytorch
       - scikit-learn
       - tensorflow
-    last_checked_at: "2026-05-05T21:03:08.722Z"
+    last_checked_at: "2026-05-06T22:44:45.829Z"
     readme:
-      fetched_at: "2026-05-05T21:03:08.722Z"
+      fetched_at: "2026-05-06T22:44:45.829Z"
       bytes: 8206
 insights:
-  summary: Kubeflow Katib is a Kubernetes-native automated machine learning (AutoML) project that supports hyperparameter tuning, early stopping, and neural architecture search for ML frameworks.
-  why_it_matters: It allows developers to automate the tedious search for optimal model configurations directly within their Kubernetes infrastructure using familiar ML frameworks.
-  mental_damage: Because nothing says 'focus on shipping features' like spinning up a Kubernetes cluster just to ask an algorithm to guess your learning rate for you.
+  summary: Kubeflow Katib is a Kubernetes-native automated machine learning (AutoML) project for hyperparameter tuning, early stopping, and neural architecture search across various ML frameworks.
+  why_it_matters: It allows developers to automate the grind of hyperparameter optimization and neural architecture search directly within their Kubernetes infrastructure.
+  mental_damage: Because nothing says 'streamlined developer experience' quite like spinning up a Kubernetes cluster just to find out your learning rate should have been 0.001.
   tags:
     - automl
-    - hyperparameter-tuning
-    - kubeflow
     - kubernetes
     - mlops
+    - hyperparameter-tuning
   confidence: high
 curation:
   status: excluded
-  reason: Katib is a general machine learning infrastructure tool for model tuning, not a developer-facing AI tool for writing, editing, or assisting with source code.
+  reason: The project is a general machine learning infrastructure tool for model training and tuning, lacking the specific developer-facing coding assistant, agent, or AI tooling identity required for this catalog.
   evidence:
-    - Repo description explicitly states 'Automated Machine Learning on Kubernetes', focusing on model training rather than code generation.
-    - README focuses on Hyperparameter Tuning, Early Stopping, and Neural Architecture Search for frameworks like TensorFlow and PyTorch.
-    - Listed in Awesome-LLMOps under 'AutoML', which is infrastructure for ML practitioners, not software development tooling.
+    - Repo description identifies it as 'Automated Machine Learning on Kubernetes', focusing on model training rather than code generation.
+    - README describes support for Hyperparameter Tuning, Early Stopping, and Neural Architecture Search using TensorFlow, PyTorch, and JAX.
+    - Appears in Awesome-LLMOps under 'AutoML', which is a general MLOps category rather than a specific developer coding tool.
 placement:
   primary_category: null
   section: null
@@ -75,21 +74,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1683) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:25.312Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:08.722Z"
+    updated_at: "2026-05-06T22:44:45.829Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:46.826Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

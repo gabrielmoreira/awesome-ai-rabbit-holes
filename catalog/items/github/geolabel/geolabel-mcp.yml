@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geolabel__geolabel-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,48 @@ metadata:
     description: MCP server for GeoLabel — GPS coordinates to AI-ready location context
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:19.143Z"
+    last_checked_at: "2026-05-06T22:44:00.630Z"
     readme:
-      fetched_at: "2026-05-05T21:02:19.143Z"
+      fetched_at: "2026-05-06T22:44:00.630Z"
       bytes: 4008
 insights:
-  summary: An MCP server that translates GPS coordinates into AI-ready location context, including place names, categories, and real-time opening hours, for use with Claude and other MCP-compatible assistants.
-  why_it_matters: It allows coding agents and local assistants to ground themselves in the user's physical location, enabling context-aware responses without hardcoding location logic.
-  mental_damage: We have successfully abstracted 'where am I' into a server call, because apparently checking a map is now a task that requires an autonomous agent and a protocol buffer.
+  summary: An MCP server that converts GPS coordinates into AI-ready location context, including place names, categories, and real-time opening hours.
+  why_it_matters: It gives coding assistants the ability to reason about the user's physical location, enabling context-aware responses without manual lookups.
+  mental_damage: Your agent can now tell you that the Walmart you're standing in front of closes in 47 minutes, which is somehow both impressive and a sign that we've successfully automated the last remaining scraps of human situational awareness.
   tags:
     - mcp
-    - location
-    - context
-    - gps
+    - location-services
+    - context-tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to provide location context to AI assistants, fitting squarely into the MCP infrastructure category.
+  reason: The product is an MCP server specifically built to provide location context to MCP-compatible assistants, making it a clear fit for Domain Servers under MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly defines it as a 'MCP server for GeoLabel'.
-    - README details integration with Claude Desktop, Claude Code, Hermes Agent, and OpenClaw via standard MCP configuration.
-    - Listed in the awesome-mcp-servers directory under 'Location Services'.
+    - "Repo description explicitly states: 'MCP server for GeoLabel — GPS coordinates to AI-ready location context'."
+    - README frames the tool as an integration for Claude Desktop, Claude Code, Hermes Agent, and OpenClaw via MCP configuration.
+    - Listed in awesome-mcp-servers under 'Location Services', confirming its identity as an MCP domain server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:19.143Z"
+    updated_at: "2026-05-06T22:44:00.630Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:00.982Z"
+    updated_at: "2026-05-06T22:57:21.927Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

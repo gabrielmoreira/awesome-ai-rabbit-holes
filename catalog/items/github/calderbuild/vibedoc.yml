@@ -1,13 +1,13 @@
 id: github__calderbuild__vibedoc
 kind: github-repo
-name: VibeDoc
+name: vibedoc
 canonical_url: https://github.com/calderbuild/vibedoc
 identity:
   github_repo: calderbuild/vibedoc
 provenance:
   discoveries:
-    - id: discovery__github__jasonrobertdestiny__vibedoc__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__calderbuild__vibedoc__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 377
-    forks: 49
+    stars: 372
+    forks: 44
     license: MIT
     archived: false
     created_at: "2025-09-06T08:28:19Z"
@@ -36,54 +36,49 @@ metadata:
       - architect
       - productmanager
       - vibecoding
-    last_checked_at: "2026-05-05T21:02:52.195Z"
+    last_checked_at: "2026-05-06T22:43:16.339Z"
     readme:
-      fetched_at: "2026-05-05T21:02:52.195Z"
+      fetched_at: "2026-05-06T22:43:16.339Z"
       bytes: 11888
 insights:
-  summary: An AI tool that transforms product ideas into structured development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude, Cursor, and Copilot.
-  why_it_matters: It operationalizes the 'vibe coding' workflow by bridging the gap between a raw concept and the specific prompts needed to drive modern AI coding agents.
-  mental_damage: We have officially reached the point where we need an AI to generate the prompts required to ask another AI to write the code for the app we haven't fully imagined yet.
+  summary: VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes.
+  why_it_matters: It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
+  mental_damage: We have successfully optimized the time between 'having an idea' and 'having a 10,000-word document the AI will ignore' down to under three minutes.
   tags:
-    - architecture
-    - planning
-    - product-management
-    - prompt-generation
-    - prompts
     - spec-driven
+    - planning
+    - prompt-generation
+    - architecture
   confidence: high
 curation:
   status: included
-  reason: "The tool centers on a spec-first loop: taking an idea, generating a technical specification, architecture diagrams, and then producing the prompts to drive execution, fitting the spec-driven development category."
+  reason: The tool centers on generating structured specifications, technical documentation, and task breakdowns that drive implementation, fitting the spec-first loop definition perfectly.
   evidence:
     - Repo description states it 'Transform[s] ideas into complete development plans with AI coding prompts'.
-    - README emphasizes 'Intelligent Development Plan Generation' and 'AI Coding Prompt Generation' for tools like Cursor and Claude.
-    - Generates technical documentation, architecture diagrams (Mermaid), and exportable plans before coding begins.
-    - Repo description states it 'Transform ideas into complete development plans with AI coding prompts'.
-    - README details features for generating technical solutions, development plans, and AI coding prompts for multiple assistants.
-    - Already listed in awesome-spec-driven-development under 'Workflow Management'.
+    - README outlines features for generating Product Overviews, Technical Solutions, Development Plans, and AI Coding Prompts for Cursor/Claude.
+    - Explicitly listed in the 'awesome-spec-driven-development' list under the 'Workflow Management' section.
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Planning / Task Decomposition
 lifecycle:
   status: promotion_candidate
-  reason: Stars (377) exceeded threshold (150)
+  reason: Stars (372) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:49.907Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:52.195Z"
+    updated_at: "2026-05-06T22:43:16.339Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:47:51.846Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chunkydotdev__bldbl-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
         confidence: high
     - id: discovery__github__chunkydotdev__bldbl-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:34.029Z"
+    last_checked_at: "2026-05-06T22:43:21.310Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.029Z"
+      fetched_at: "2026-05-06T22:43:21.310Z"
       bytes: 12391
 insights:
-  summary: An official MCP server that connects AI assistants like Claude and Cursor to the Buildable platform to retrieve project context, manage tasks, and report progress.
-  why_it_matters: It allows AI coding agents to integrate directly with Buildable's task management and project plans, enabling more context-aware assistance within IDEs.
-  mental_damage: We have now successfully abstracted project management into a protocol, so your AI can now politely ask you questions about why the task it invented isn't done yet.
+  summary: An official MCP server that connects AI assistants like Claude and Cursor to the Buildable platform for project context, task management, and progress tracking.
+  why_it_matters: It allows developers to delegate task execution and progress reporting to their AI assistant directly within the Buildable project management environment.
+  mental_damage: "We have finally achieved the zenith of modern engineering: an AI wrapper for a project management tool, so your chatbot can politely ask you why the 'Implement Auth' task has been 'In Progress' for three weeks."
   tags:
     - mcp
     - buildable
-    - ide-integration
     - task-management
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a Model Context Protocol server designed to bridge AI assistants with the Buildable platform, fitting the MCP infrastructure category.
+  reason: The product is explicitly an MCP server designed to integrate AI assistants with the Buildable platform, fitting the MCP Servers & Tooling category.
   evidence:
-    - "README states: 'Official MCP client for Buildable' and 'This package enables AI assistants... to work directly with Buildable projects using the Model Context Protocol (MCP)'."
-    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Provides configuration examples for Claude Desktop and Cursor AI via the MCP standard.
+    - GitHub repo name is 'bldbl-mcp' and README confirms it is the 'Official MCP client for Buildable'.
+    - Source list context shows inclusion in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - Features are exposed as MCP tools (get_project_context, start_task, update_progress) for Claude and Cursor.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.029Z"
+    updated_at: "2026-05-06T22:43:21.310Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:07.722Z"
+    updated_at: "2026-05-06T22:49:09.522Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__8144225309__superscalar-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -45,49 +45,49 @@ metadata:
       - scaling
       - superscalar
       - taproot
-    last_checked_at: "2026-05-05T21:00:44.754Z"
+    last_checked_at: "2026-05-06T22:12:21.129Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.754Z"
+      fetched_at: "2026-05-06T22:12:21.129Z"
       bytes: 1788
 insights:
-  summary: An MCP server that lets AI assistants query Bitcoin Lightning channel factory specs, estimate UTXO savings, and explore SuperScalar factory architectures.
-  why_it_matters: Developers building on Bitcoin Layer 2 can ask Claude to reason about channel factory tradeoffs and protocol internals without leaving their assistant workflow.
-  mental_damage: Your AI assistant is now an expert on invalidation trees, while you are still struggling to keep your dev dependencies up to date.
+  summary: An MCP server that exposes Bitcoin Lightning channel factory documentation, UTXO savings estimators, and architecture lookups for SuperScalar to LLM clients like Claude Desktop.
+  why_it_matters: It lets developers query complex Layer 2 Bitcoin protocols and run savings simulations directly inside their AI-assisted coding environments instead of switching to browser docs.
+  mental_damage: We have successfully abstracted away the need to understand Bitcoin cryptography by wrapping it in an MCP server that an LLM will likely hallucinate about anyway.
   tags:
     - mcp
     - bitcoin
     - lightning
-    - protocol
+    - layer2
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that exposes Bitcoin Lightning protocol tooling to AI assistants, cleanly fitting the MCP infrastructure category.
+  reason: The product is explicitly an MCP server providing domain-specific tools for the SuperScalar Bitcoin protocol, fitting the 'Domain Servers' section of MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'MCP server for SuperScalar — Bitcoin Lightning channel factories'.
-    - README provides usage instructions for Claude Desktop and Claude Code MCP integration.
-    - Listed in awesome-mcp-list under Finance & Fintech, confirming MCP ecosystem relevance.
+    - "Repo description states: 'MCP server for SuperScalar — Bitcoin Lightning channel factories.'"
+    - README defines tools like `superscalar_estimate_savings` and `superscalar_architecture` exposed via MCP.
+    - Source list context confirms inclusion in 'awesome-mcp-list' under Finance & Fintech.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.754Z"
+    updated_at: "2026-05-06T22:12:21.129Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:05.814Z"
+    updated_at: "2026-05-06T22:17:48.333Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

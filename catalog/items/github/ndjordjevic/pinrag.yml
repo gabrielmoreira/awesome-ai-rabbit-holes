@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ndjordjevic__pinrag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,14 +47,14 @@ metadata:
       - rag
       - vscode
       - youtube
-    last_checked_at: "2026-05-05T21:03:51.868Z"
+    last_checked_at: "2026-05-06T22:45:29.935Z"
     readme:
-      fetched_at: "2026-05-05T21:03:51.868Z"
+      fetched_at: "2026-05-06T22:45:29.935Z"
       bytes: 34088
 insights:
-  summary: A local RAG server built with LangChain that exposes document indexing and citation-aware querying as an MCP server for Cursor, VS Code, and other AI assistants.
-  why_it_matters: Developers can index scattered learning materials—PDFs, GitHub repos, YouTube videos, and Discord threads—into a single searchable index and query them directly from their AI editor with source citations.
-  mental_damage: We have finally solved the problem of never reading the materials we hoard, by building a RAG stack so we can ignore them more efficiently with better citations.
+  summary: A RAG system built with LangChain that exposes multi-format document indexing and citation-based querying as an MCP server for Cursor, VS Code, and other AI assistants.
+  why_it_matters: It lets developers centralize scattered learning materials—PDFs, GitHub repos, YouTube videos, and Discord threads—into one queryable index that their coding assistant can cite directly inside the editor.
+  mental_damage: We have successfully reached the point where the assistant needs its own assistant just to remember what you watched on YouTube yesterday.
   tags:
     - rag
     - mcp
@@ -64,33 +64,33 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server that provides knowledge and memory tooling to AI editors, which fits the MCP category better than AI Developer Extensions since the product itself is MCP infrastructure.
+  reason: The product is explicitly built and distributed as an MCP server for knowledge and memory, making it a textbook fit for the MCP Servers & Tooling category rather than a generic RAG framework.
   evidence:
-    - Repo description explicitly states it is 'built as an MCP server for Cursor, VS Code, and other AI assistants'.
-    - README details MCP tools (add_document_tool, query_tool), MCP resources, and MCP prompts for editor integration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - Repo description states it is 'designed as an MCP server for Cursor, VS Code, and other AI assistants'.
+    - README lists MCP tools, MCP resources, and MCP prompts as the primary interface and details Cursor/VS Code MCP configuration.
+    - Listed in awesome-mcp-servers under the Knowledge & Memory section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:51.868Z"
+    updated_at: "2026-05-06T22:45:29.935Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:02.609Z"
+    updated_at: "2026-05-06T23:16:43.446Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

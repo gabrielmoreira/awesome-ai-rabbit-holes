@@ -6,8 +6,8 @@ identity:
   github_repo: simon-ami/win-cli-mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__simonb97__win-cli-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__simon-ami__win-cli-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 267
+    forks: 48
+    license: MIT
+    archived: true
+    created_at: "2024-12-04T13:14:23Z"
+    pushed_at: "2025-08-07T14:47:58Z"
+    description: Model Context Protocol server for secure command-line interactions on Windows systems
+    homepage: ""
+    topics:
+      - claude
+      - claude-ai
+      - mcp
+      - mcp-server
+      - modelcontextprotocol
+    last_checked_at: "2026-05-06T22:46:25.277Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:25.277Z"
+      bytes: 15838
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A deprecated Model Context Protocol server that enables secure command-line interactions on Windows systems via PowerShell, CMD, Git Bash, and SSH for MCP clients like Claude Desktop.
+  why_it_matters: It provided a structured way to grant AI assistants controlled shell access on Windows before being fully supplanted by more active successors.
+  mental_damage: We are now officially archiving the infrastructure used to archive the terminal sessions used to build the infrastructure, just in case the successor also gets deprecated next week.
+  tags:
+    - mcp
+    - windows
+    - cli
+    - shell
+    - deprecated
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is explicitly archived and marked as deprecated by the author in favor of DesktopCommanderMCP, making it a dead end for active adoption.
+  evidence:
+    - Repo description identifies it as an MCP server for Windows CLI interactions.
+    - README contains a 'PROJECT DEPRECATED' notice recommending migration to DesktopCommanderMCP.
+    - "GitHub status shows 'archived: yes', indicating no further maintenance."
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:25.277Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:44.302Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

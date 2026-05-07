@@ -1,13 +1,13 @@
 id: github__8ensmith__mcp-open-library
 kind: github-repo
-name: MCP Open Library
+name: mcp-open-library
 canonical_url: https://github.com/8ensmith/mcp-open-library
 identity:
   github_repo: 8ensmith/mcp-open-library
 provenance:
   discoveries:
     - id: discovery__github__8ensmith__mcp-open-library__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [8enSmith/mcp-open-library](https://github.com/8enSmith/mcp-open-library) 📇 ☁️ - A MCP server for the Open Library API that enables AI assistants to search for book information."
         confidence: high
     - id: discovery__github__8ensmith__mcp-open-library__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -59,50 +59,50 @@ metadata:
       - open-library
       - open-library-api
       - openlibrary
-    last_checked_at: "2026-05-05T21:00:45.060Z"
+    last_checked_at: "2026-05-06T22:12:21.471Z"
     readme:
-      fetched_at: "2026-05-05T21:00:45.060Z"
+      fetched_at: "2026-05-06T22:12:21.471Z"
       bytes: 8518
 insights:
-  summary: An MCP server that exposes the Internet Archive's Open Library API as tools for book and author search within MCP-compatible AI assistants.
-  why_it_matters: It lets developers wire literary and bibliographic data directly into local AI workflows without writing custom API wrappers.
-  mental_damage: We now have a standardized protocol for asking an assistant about Tolkien, while the actual code review it was supposed to help with remains unstarted.
+  summary: An MCP server that exposes the Internet Archive's Open Library API to AI assistants, enabling searches for books, authors, and cover art via structured tool calls.
+  why_it_matters: Developers building or extending AI coding assistants can plug this server in to give their agents structured access to a massive open catalog of book and author metadata.
+  mental_damage: We have officially reached the point where an AI agent can spend your API budget debating the publication year of The Hobbit instead of fixing your failing tests.
   tags:
-    - api-integration
-    - assistant-tools
-    - books
     - mcp
     - open-library
+    - internet-archive
+    - books
+    - metadata
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation and fits cleanly into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is exposing Open Library data to MCP-compatible assistants, fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - Repo description states it is 'A Model Context Protocol (MCP) server for the Internet Archive's Open Library API'.
-    - README confirms it implements MCP tools like get_book_by_title and get_author_info for AI assistants.
-    - Listed in awesome-mcp-servers under Community Servers / Art & Culture sections.
+    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for the Internet Archive's Open Library API'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' and 'Community Servers'.
+    - README documents MCP tools like get_book_by_title and get_author_info for AI assistant consumption.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:09.425Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:45.060Z"
+    updated_at: "2026-05-06T22:12:21.471Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:53.878Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

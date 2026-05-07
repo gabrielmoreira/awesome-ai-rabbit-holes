@@ -1,12 +1,12 @@
 id: www__prompteams__com
 kind: website
-name: Prompteams
+name: www.prompteams.com
 canonical_url: https://www.prompteams.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__prompteams__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform for managing, versioning, testing, and deploying AI prompts with Git-like workflows and auto-generated APIs for team collaboration.
-  why_it_matters: It provides a structured environment to version prompts, build CI/CD pipelines for LLM testing, and decouple prompt updates from application code via real-time APIs.
-  mental_damage: Because nothing says 'cutting-edge AI innovation' quite like building a dedicated CI/CD pipeline to manage the recursive art of asking a robot to please behave this time.
+  summary: A team-oriented SaaS platform for versioning, testing, and managing AI prompts with Git-like workflows and auto-generated APIs.
+  why_it_matters: It gives teams a structured CI/CD pipeline for prompts, allowing non-engineers and engineers to collaboratively iterate, test for hallucinations, and deploy prompt updates via API.
+  mental_damage: You now have version control for your version control, because apparently managing your instructions to the AI requires the same rigor as the code it breaks.
   tags:
-    - ci-cd
-    - llmops
     - prompt-management
+    - llmops
     - testing
-    - versioning
+    - ci-cd
+    - team-collab
   confidence: high
 curation:
   status: included
-  reason: The product is a prompt-management and testing infrastructure designed to help developers version, iterate, and validate prompts, which aligns with context engineering.
+  reason: The core product job is managing, testing, and regression-testing prompts (including hallucination checks and CI/CD pipelines) rather than being a coding assistant, framework, or generic platform.
   evidence:
-    - Listed in Awesome-LLMOps under prompt management, testing, and version control.
-    - Features include prompt versioning, a testing suite for hallucinations/edge cases, and Git-like repositories/commits.
-    - Auto-generated real-time APIs allow prompt updates without changing application code.
+    - "Scraped site states: 'Build CI/CD Pipelines for AI Prompts' and 'Automatically run end-to-end LLM testing'."
+    - Features include prompt versioning, unlimited test cases, and checking for 'hallucinations, issues, edge cases'.
+    - Listed in Awesome-LLMOps under the LLMOps section specifically for prompt management and testing.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: evals
+  section: Prompt Regression & Experimentation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:42.789Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:02.110Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

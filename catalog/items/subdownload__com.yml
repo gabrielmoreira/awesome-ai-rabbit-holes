@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__subdownload__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,32 +35,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A service that provides YouTube video transcripts and AI-generated summaries via a web UI, REST API, and MCP server for integration with AI agents and developer workflows.
-  why_it_matters: It allows developers to programmatically feed video content into LLMs by handling transcript extraction and summarization across 40+ agents and editors like Cursor and Claude.
-  mental_damage: We have officially reached the point where our AI agents need their own dedicated 'skills' and MCP servers just to watch YouTube videos for us.
+  summary: SubDownload is a YouTube transcript and summarization service that exposes its video knowledge base via a hosted MCP server, REST API, and agent skills package.
+  why_it_matters: It gives coding agents and developer workflows a pluggable way to retrieve, summarize, and cite YouTube content without building custom transcript pipelines.
+  mental_damage: Because nothing says 'local-first developer tooling' like outsourcing your documentation diet to a hosted MCP server that summarizes other people's YouTube summaries.
   tags:
     - mcp
+    - youtube
     - transcript
+    - summarization
     - api
-    - knowledge-base
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The product explicitly offers an MCP server endpoint (api.subdownload.com/mcp) and agent skills packaging, fitting the MCP infrastructure scope beyond just being a generic SaaS.
+  reason: The core developer-facing product identity is a hosted MCP server for YouTube transcript and summary retrieval, with complementary REST API and agent skills support.
   evidence:
-    - "Scraped site context lists '⚡ MCP Server: Add api.subdownload.com/mcp to Claude, ChatGPT, Cursor'."
-    - Site mentions 'npx @subdown/skill@latest — works with 40+ agents' as an Agent Skill.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Knowledge & Memory'.
+    - "Scraped site advertises 'MCP server: add api.subdownload.com/mcp to Claude, ChatGPT, Cursor' as a primary integration surface."
+    - Listed in awesome-mcp-servers under Knowledge & Memory for searching community-shared YouTube summaries.
+    - Also ships a REST API and npx @subdown/skill@latest agent skill compatible with 40+ agents.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,9 +70,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:48:23.600Z"
+    updated_at: "2026-05-06T22:30:09.771Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

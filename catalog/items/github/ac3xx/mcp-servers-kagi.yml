@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ac3xx__mcp-servers-kagi__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Kagi](https://github.com/ac3xx/mcp-servers-kagi)** - Kagi search API integration"
         confidence: high
     - id: discovery__github__ac3xx__mcp-servers-kagi__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -49,14 +49,14 @@ metadata:
     topics:
       - kagi
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:00:47.541Z"
+    last_checked_at: "2026-05-06T22:12:24.004Z"
     readme:
-      fetched_at: "2026-05-05T21:00:47.541Z"
+      fetched_at: "2026-05-06T22:12:24.004Z"
       bytes: 3331
 insights:
-  summary: A TypeScript-based Model Context Protocol server that integrates the Kagi Search API, allowing AI assistants like Claude to perform web searches via MCP.
-  why_it_matters: It enables developers to augment their local AI assistants with real-time web search capabilities from Kagi, bridging the gap between private LLMs and live internet data.
-  mental_damage: "Just what we needed: another middleware layer so our AI can argue with us using search results we explicitly opted out of by paying for Kagi."
+  summary: A TypeScript-based MCP server that gives AI assistants like Claude Desktop access to Kagi's web search API.
+  why_it_matters: It allows developers to swap generic search backends for Kagi's premium search results directly within their MCP-compatible coding workflows.
+  mental_damage: We have successfully abstracted the act of searching the web behind three layers of indirection, proving that no API is safe from becoming a tool for a tool.
   tags:
     - mcp
     - kagi
@@ -66,33 +66,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for the Kagi API, fitting squarely into the MCP infrastructure category.
+  reason: The repository is explicitly a Model Context Protocol server implementation for a specific API, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'A Model Context Protocol server implementation for Kagi's API'."
+    - "Repo description states: 'A Model Context Protocol server implementation for Kagi's API'."
     - README confirms it is a 'TypeScript-based MCP server that integrates the Kagi Search API'.
-    - Featured in both 'awesome-mcp-list' (Search section) and 'awesome-mcp-servers' (Community Servers).
+    - Listed in awesome-mcp-servers under 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:47.541Z"
+    updated_at: "2026-05-06T22:12:24.004Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:34.781Z"
+    updated_at: "2026-05-06T22:18:28.241Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

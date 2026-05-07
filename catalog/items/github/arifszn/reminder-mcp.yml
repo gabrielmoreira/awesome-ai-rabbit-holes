@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arifszn__reminder-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: A MCP server for scheduling and triggering reminders via Slack or Telegram.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:09.038Z"
+    last_checked_at: "2026-05-06T22:12:42.815Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.038Z"
+      fetched_at: "2026-05-06T22:12:42.815Z"
       bytes: 2723
 insights:
-  summary: A Model Context Protocol server that lets LLMs schedule and trigger reminders through Slack or Telegram using cron-job.org for external execution.
-  why_it_matters: It gives coding agents a lightweight way to delegate time-based follow-ups to external messaging platforms without requiring the host server to stay alive.
-  mental_damage: We have successfully built an integration that allows an AI to nag you via Telegram, ensuring your reminder infrastructure is now as over-engineered as your CI pipeline.
+  summary: An MCP server that lets coding assistants schedule and trigger reminders via Slack or Telegram using cron-job.org as an external scheduler.
+  why_it_matters: Developers can ask their AI assistant to set reminders that fire even when the local session is closed, bridging assistant context with external notification channels.
+  mental_damage: "We have finally solved the hardest problem in computer science: getting a chatbot to remind you to call Alice, via a cron service, a webhook, and a protocol layer."
   tags:
     - mcp
+    - notifications
     - reminders
     - slack
     - telegram
-    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server designed to extend LLM capabilities with scheduled reminders via external messaging platforms, fitting cleanly into MCP infrastructure.
+  reason: The product is an MCP server whose core identity is exposing reminder scheduling to MCP-compatible assistants, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Repo description states it is 'A MCP server for scheduling and triggering reminders via Slack or Telegram.'
-    - README demonstrates natural language usage with LLMs to manage reminders through an MCP interface.
-    - Listed in awesome-mcp-servers under 'Community Servers', confirming its role in the MCP ecosystem.
+    - "Repo description: 'A MCP server for scheduling and triggering reminders via Slack or Telegram.'"
+    - "README states: 'A MCP server for scheduling and triggering reminders via Slack or Telegram.'"
+    - Listed in awesome-mcp-servers under Community Servers with MCP purpose.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.038Z"
+    updated_at: "2026-05-06T22:12:42.815Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:58.867Z"
+    updated_at: "2026-05-06T22:22:15.440Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

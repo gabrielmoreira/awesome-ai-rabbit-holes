@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__calintzy__evmscope__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -51,50 +51,50 @@ metadata:
       - token-price
       - typescript
       - web3
-    last_checked_at: "2026-05-05T21:01:28.908Z"
+    last_checked_at: "2026-05-06T22:43:16.602Z"
     readme:
-      fetched_at: "2026-05-05T21:01:28.908Z"
+      fetched_at: "2026-05-06T22:43:16.602Z"
       bytes: 18663
 insights:
-  summary: An MCP server and CLI toolkit that exposes 26 read-only EVM blockchain tools—including token prices, gas comparisons, wallet balances, and DeFi safety checks—across seven major chains, requiring zero configuration or API keys.
-  why_it_matters: It gives AI agents and terminal users direct, zero-config access to real-time on-chain data that models like Claude and GPT otherwise cannot reach.
-  mental_damage: We have successfully built an MCP server so that our AI agents can panic about gas fees and honeypot tokens just as efficiently as we can.
+  summary: An MCP server providing 26 on-chain tools across 7 EVM chains for querying token prices, gas, balances, and DeFi data without API keys.
+  why_it_matters: It allows AI coding agents to answer real-time blockchain queries directly within the IDE or terminal instead of hallucinating current ETH prices.
+  mental_damage: We have successfully abstracted away the last remaining excuse for not checking token balances before deploying a smart contract.
   tags:
     - mcp
-    - blockchain
     - evm
+    - blockchain
     - defi
     - cli
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a dedicated MCP server providing EVM blockchain tools for AI agents, which clearly fits the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is providing blockchain data tools to AI agents via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is an 'EVM blockchain intelligence toolkit for AI agents — 23 MCP tools'.
-    - README demonstrates dual-mode operation as both a CLI and an MCP server for integration with Claude, Cursor, and other MCP hosts.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'EVM blockchain intelligence toolkit for AI agents — 23 MCP tools'.
+    - README emphasizes MCP server setup for Claude Code, Claude Desktop, and Cursor as the primary integration mode.
+    - Included in the 'awesome-mcp-servers' list under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:28.908Z"
+    updated_at: "2026-05-06T22:43:16.602Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:16.182Z"
+    updated_at: "2026-05-06T22:47:51.140Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__generalaction__emdash
 kind: github-repo
-name: Emdash
+name: emdash
 canonical_url: https://github.com/generalaction/emdash
 identity:
   github_repo: generalaction/emdash
 provenance:
   discoveries:
     - id: discovery__github__generalaction__emdash__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4257
-    forks: 404
+    stars: 4268
+    forks: 409
     license: Apache-2.0
     archived: false
     created_at: "2025-08-28T07:19:57Z"
-    pushed_at: "2026-05-05T20:48:51Z"
+    pushed_at: "2026-05-06T21:38:39Z"
     description: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.
     homepage: https://emdash.sh
     topics:
@@ -52,50 +52,60 @@ metadata:
       - parallel-agents
       - parallelexecution
       - terminal
-    last_checked_at: "2026-05-05T21:02:18.482Z"
+    last_checked_at: "2026-05-06T22:43:59.986Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.482Z"
+      fetched_at: "2026-05-06T22:43:59.986Z"
       bytes: 11844
 insights:
-  summary: An open-source, provider-agnostic desktop app that runs multiple CLI coding agents in parallel, isolated in their own git worktrees, on local or remote machines via SSH.
-  why_it_matters: It centralizes and parallelizes agentic coding workflows across 24+ CLI providers while adding ticket integration, diff review, and CI/CD checks in a single environment.
-  mental_damage: Finally, a dedicated desktop environment to orchestrate the growing swarm of CLI agents so you can feel productive while watching four different LLMs refactor the same function into four slightly different kinds of broken.
-  tags:
-    - agentic-ide
-    - cli-orchestration
-    - git-worktrees
-    - parallel-agents
-    - yc-w26
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a desktop agentic development environment that directly coordinates coding agents working on source code inside git worktrees, fitting the coding-agents category with a terminal/CLI focus.
-  evidence:
-    - "Repo description: 'Run multiple coding agents in parallel. Use any provider.'"
-    - "README: 'lets you run multiple coding agents in parallel, each isolated in its own git worktree... supports 24 CLI agents, including Claude Code, Codex, OpenCode, Gemini and Amp.'"
-    - Seen in awesome-cli-coding-agents under 'Session managers & parallel runners'.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4257) exceeded threshold (150)
+  reason: Stars (4268) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:51.471Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.482Z"
+    updated_at: "2026-05-06T22:43:59.986Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T22:57:15.396Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__generalaction__emdash: {
+          "summary": "Emdash is an open-source, provider-agnostic desktop app that runs multiple coding agents in parallel within isolated git worktrees, supporting 24 CLI agents like Claude Code and Gemini CLI, with remote SSH capabilities.",
+          "why_it_matters": "It centralizes and parallelizes interactions with various coding agents, allowing developers to delegate tickets from Linear, GitHub, or Jira and manage reviews, tests, and CI/CD checks in one interface.",
+          "mental_damage": "The dream of running twenty-four different CLI agents in parallel is finally here, ensuring your CPU fans spin as loudly as your existential dread about which bot to trust.",
+          "tags": ["agentic-development", "parallel-agents", "git-worktrees", "desktop-app", "ssh"],
+          "should_include": true,
+          "primary_category": "agent-orchestration",
+          "section": "Workbenches & Collaboration Surfaces",
+          "decision_reason": "The core product is a desktop workbench and control plane (ADE) designed specifically to coordinate and manage multiple external coding agents in parallel, fitting the orchestration definition better than acting as a single agent itself.",
+          "decision_evidence": [
+            "README states: 'Emdash is a provider-agnostic desktop app that lets you run multiple coding agents in parallel... We call it an Agentic Development Environment (ADE).'",
+            "Supports 24 CLI providers (Claude Code, Codex, etc.) and focuses on managing their sessions, diffs, and PRs rather than being a single agent.",
+            "Created recently (2025-08-28) but highly active (pushed 2026-05-06) with 4268 stars and YC W26 backing."
+          ],
+          "category_candidates": ["agent-orchestration", "coding-agents"],
+          "contrastive_reason": "Choose agent-orchestration over coding-agents because Emdash is the workbench that operates and coordinates multiple external agents (
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

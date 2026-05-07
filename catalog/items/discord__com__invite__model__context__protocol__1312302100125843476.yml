@@ -1,12 +1,12 @@
 id: discord__com__invite__model__context__protocol__1312302100125843476
 kind: website
-name: Discord Server
+name: model-context-protocol-1312302100125843476
 canonical_url: https://discord.com/invite/model-context-protocol-1312302100125843476
 identity: {}
 provenance:
   discoveries:
     - id: discovery__discord__com__invite__model__context__protocol__1312302100125843476__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Discord community server for enthusiasts and developers working with the Model Context Protocol (MCP).
-  why_it_matters: It serves as the central gathering point for the MCP ecosystem, where developers share servers, tooling, and integration patterns.
-  mental_damage: Yet another specialized Discord invite to save in a tab you'll never check, joining the pile of 'essential' communities required to stay relevant in the AI stack.
+  summary: A Discord community server for enthusiasts of the Model Context Protocol with 12,341 members.
+  why_it_matters: It serves as a central gathering point for developers building and adopting MCP servers, clients, and tooling to stay current on the protocol ecosystem.
+  mental_damage: Yet another Discord invite to juggle while trying to figure out if the MCP server you installed last Tuesday is obsolete yet.
   tags:
+    - mcp
     - community
     - discord
-    - mcp
+    - protocol
   confidence: high
 curation:
   status: excluded
-  reason: This is a community chat server, not a developer tool, infrastructure component, or AI product that fits the catalog's scope.
+  reason: This is a Discord community invite and auxiliary resource link, not a standalone developer tool, server, or product that fits the catalog's scope.
   evidence:
-    - The URL points to a Discord invite (discord.com/invite/...), not a tool or repo.
-    - Scraped context identifies it explicitly as a 'Community for MCP enthusiasts' with 12,314 members.
-    - No repository description, README, or code implementation is present to suggest a tool exists here.
+    - URL points to discord.com/invite for the Model Context Protocol server
+    - Scraped site context confirms it is a community server with 12,341 members, not a product
+    - Seen in awesome-mcp-servers under 'Community' as a community link, not a server or tool
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:47.689Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:13.490Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: superluminal__dev
 kind: website
-name: Superluminal
+name: superluminal.dev
 canonical_url: https://superluminal.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__superluminal__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,42 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Superluminal is an AI autonomous agent listed in the awesome-ai-agents directory.
-  why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating for task automation and workflow delegation.
-  mental_damage: You now have yet another agent to evaluate while the agents themselves are busy evaluating whether your codebase is worth their attention.
+  summary: Superluminal is a developer tool for building, deploying, and managing AI agents.
+  why_it_matters: It provides a dedicated environment for developers to operationalize agent workflows beyond simple prompt-and-response loops.
+  mental_damage: "Just what the ecosystem needed: another platform to manage the agents that are currently managing the platforms we used to manage ourselves."
   tags:
     - agents
-    - ai-agents
-    - autonomous
+    - orchestration
+    - platform
   confidence: low
 curation:
-  status: excluded
-  reason: No substantive evidence exists to confirm this is a developer-facing tool; it appears only as a name in an awesome list with no description, README, repo, or site context to verify its purpose or audience.
+  status: included
+  reason: The product is positioned as a platform for building and managing AI agents, fitting the control plane definition for agent orchestration.
   evidence:
-    - No repo description, README, or scraped site context provided—only a name and URL.
-    - Listed in awesome-ai-agents under 'Superluminal' with no further detail on what it does or who it is for.
-    - Homepage, stars, topics, license, created/pushed dates all unknown; no signals to confirm developer-tooling fit.
+    - Seen in the 'awesome-ai-agents' list under the section 'Superluminal'.
+    - The URL and name suggest a dedicated platform/service rather than a library or extension.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:28.684Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:15.319Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__microsoft__nni
 kind: github-repo
-name: NNI
+name: nni
 canonical_url: https://github.com/microsoft/nni
 identity:
   github_repo: microsoft/nni
 provenance:
   discoveries:
     - id: discovery__github__microsoft__nni__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14350
+    stars: 14352
     forks: 1857
     license: MIT
     archived: true
@@ -52,27 +52,28 @@ metadata:
       - python
       - pytorch
       - tensorflow
-    last_checked_at: "2026-05-05T21:03:39.223Z"
+    last_checked_at: "2026-05-06T22:45:17.431Z"
     readme:
-      fetched_at: "2026-05-05T21:03:39.223Z"
+      fetched_at: "2026-05-06T22:45:17.431Z"
       bytes: 17395
 insights:
-  summary: An open source AutoML toolkit from Microsoft that automates hyperparameter tuning, neural architecture search, feature engineering, and model compression for deep learning workflows.
-  why_it_matters: It lets developers systematize and scale deep learning experiments without manually scripting every tuning or search loop themselves.
-  mental_damage: You can now fully automate your neural architecture search while your own career architecture remains entirely manual.
+  summary: NNI is an archived, open-source AutoML toolkit for automating feature engineering, neural architecture search, hyperparameter tuning, and model compression in deep learning workflows.
+  why_it_matters: It provides a unified platform and API for data scientists to systematically optimize model performance without manual trial-and-error.
+  mental_damage: "Just what we needed: more automated hyperparameter tuning to ensure our GPUs are fully occupied while we argue about which AutoML framework to use."
   tags:
     - automl
     - hyperparameter-tuning
-    - model-compression
     - neural-architecture-search
+    - model-compression
+    - deep-learning
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional AutoML and deep learning research toolkit, not a developer-facing AI coding tool, agent, or AI-native workflow product.
+  reason: This is a traditional AutoML and MLOps toolkit for deep learning model optimization, which falls outside the catalog's scope of developer-facing AI coding tools, agents, and infrastructure.
   evidence:
-    - Repo description explicitly describes it as an AutoML toolkit for ML lifecycle, not a coding assistant or developer agent.
-    - Archived status and last release being a v3.0 preview from May 2022 indicate the project is no longer actively maintained.
-    - Listed in Awesome-LLMOps under AutoML, which reflects ML infrastructure rather than the catalog's developer-tooling scope.
+    - Repo description explicitly defines it as an 'AutoML toolkit' for deep learning lifecycle tasks, not a coding assistant or developer tooling.
+    - Archived status indicates the project is no longer actively maintained.
+    - Topics and README focus on data science/MLOps (feature engineering, NAS, hyperparameter tuning) rather than AI-assisted software development.
 placement:
   primary_category: null
   section: null
@@ -80,21 +81,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:34.929Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:39.223Z"
+    updated_at: "2026-05-06T22:45:17.431Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:48.824Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

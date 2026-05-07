@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hanzili__comet-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,49 +37,49 @@ metadata:
       - agentic-browser
       - automation
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:30.717Z"
+    last_checked_at: "2026-05-06T22:44:11.380Z"
     readme:
-      fetched_at: "2026-05-05T21:02:30.717Z"
+      fetched_at: "2026-05-06T22:44:11.380Z"
       bytes: 4741
 insights:
-  summary: An MCP server that connects Claude Code to the Perplexity Comet browser, delegating web research and browsing tasks to a separate agent while keeping the coding assistant focused on code.
-  why_it_matters: It lets developers hand off deep research, login flows, and dynamic site interaction to a dedicated browsing agent without bloating the coding model's context window.
-  mental_damage: We have now reached the point where your coding assistant hires a browsing assistant so it doesn't have to think about the web while it thinks about your code.
+  summary: An MCP server that connects Claude Code to the Perplexity Comet browser, delegating web research and browsing tasks to a separate AI agent.
+  why_it_matters: It lets developers keep their coding assistant focused on repo work while offloading complex web navigation, login walls, and research to a purpose-built browser agent.
+  mental_damage: We have now reached the architectural pinnacle of running three different AI models in a daisy chain just to ask one of them to click a button on a website.
   tags:
     - mcp
     - browser-automation
-    - agentic-ai
     - claude-code
+    - perplexity
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server that bridges Claude Code with the Perplexity Comet browser, which fits cleanly into MCP Servers and Tooling.
+  reason: The product's identity is an MCP server that extends Claude Code with browser capabilities via Perplexity Comet, fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'MCP Server connecting to Perplexity Comet browser'"
-    - "README: 'An MCP server that connects Claude Code to Perplexity Comet'"
-    - Listed in awesome-mcp-servers under Browser Automation
+    - Repo description explicitly states 'MCP Server connecting to Perplexity Comet browser'.
+    - Topics include 'mcp-server' and the README details configuration for Claude Code via .mcp.json.
+    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:30.717Z"
+    updated_at: "2026-05-06T22:44:11.380Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:30.212Z"
+    updated_at: "2026-05-06T22:59:32.054Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

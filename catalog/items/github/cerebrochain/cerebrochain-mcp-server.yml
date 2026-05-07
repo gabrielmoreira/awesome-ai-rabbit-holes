@@ -6,24 +6,8 @@ identity:
   github_repo: cerebrochain/cerebrochain-mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__ofodevelopment__cerebrochain-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🛒 <a name="e-commerce"></a>E-Commerce
-        anchor_text: OFODevelopment/cerebrochain-mcp-server
-        extracted_url: https://github.com/ofodevelopment/cerebrochain-mcp-server
-        surrounding_text: "- [OFODevelopment/cerebrochain-mcp-server](https://github.com/OFODevelopment/cerebrochain-mcp-server) [![OFODevelopment/cerebrochain-mcp-server MCP server](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server) 📇 ☁️ - Supply chain & logistics intelligence — rate shopping across 85+ carriers, inventory management, order tracking, fleet logistics, and AI-powered demand forecasting. 20 tools and 3 resources for warehouse and supply chain operations."
-        confidence: high
     - id: discovery__github__cerebrochain__cerebrochain-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -59,54 +43,50 @@ metadata:
       - warehouse-management
       - wms
       - x402
-    last_checked_at: "2026-05-05T21:04:00.353Z"
+    last_checked_at: "2026-05-06T22:43:18.503Z"
     readme:
-      fetched_at: "2026-05-05T21:04:00.353Z"
+      fetched_at: "2026-05-06T22:43:18.503Z"
       bytes: 3684
 insights:
-  summary: An MCP server that connects AI agents like Claude and Cursor to CerebroChain's logistics and warehouse management APIs for rate shopping, inventory tracking, and AI-powered supply chain forecasting.
-  why_it_matters: It allows developers to integrate supply chain and logistics operations directly into their AI-assisted workflows without building custom API wrappers.
-  mental_damage: Now your AI agent can worry about FedEx surcharges and warehouse stockouts while you still can't get the CI pipeline to pass.
+  summary: An MCP server that exposes CerebroChain's logistics, WMS, and supply-chain APIs—such as rate shopping, inventory, orders, and AI forecasting—to Claude, Cursor, and other MCP-compatible agents.
+  why_it_matters: Developers building agentic workflows can plug their AI assistants directly into real logistics systems without writing custom API wrappers.
+  mental_damage: Your AI agent can now optimize delivery routes and detect supply-chain bottlenecks, yet somehow still can't figure out why your CI pipeline is failing.
   tags:
-    - ai-agent
-    - logistics
     - mcp
-    - npm
-    - supply-chain
+    - logistics
     - wms
+    - supply-chain
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to expose logistics APIs to MCP-compatible AI tools.
+  reason: The product is explicitly an MCP server for supply-chain and logistics APIs, which clearly fits the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description states: 'The first logistics/WMS MCP server for AI agents.'"
-    - README demonstrates configuration for Claude Desktop and Cursor as an MCP server.
-    - Provides 13+ tools via the Model Context Protocol for shipping, inventory, and fleet tracking.
-    - Repo description explicitly states 'The first logistics/WMS MCP server for AI agents.'
-    - README documents configuration for Claude Desktop and Cursor and lists 13+ MCP tools like compare_shipping_rates and search_inventory.
-    - Listed in awesome-mcp-servers under 'Server Implementations > E-Commerce'.
+    - "Repo description states: 'The first logistics/WMS MCP server for AI agents' with 13+ tools."
+    - README shows configuration for Claude Desktop and Cursor as an MCP server with tier-based tools.
+    - Listed in awesome-mcp-servers under Server Implementations > E-Commerce, reinforcing its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:49.031Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.150Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:00.353Z"
+    updated_at: "2026-05-06T22:43:18.503Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:28.291Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

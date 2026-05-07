@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gomarble-ai__facebook-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [gomarble-ai/facebook-ads-mcp-server](https://github.com/gomarble-ai/facebook-ads-mcp-server) 🐍 ☁️ - MCP server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features."
         confidence: high
     - id: discovery__github__gomarble-ai__facebook-ads-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 320
-    forks: 96
+    stars: 321
+    forks: 97
     license: MIT
     archived: false
     created_at: "2025-04-07T17:46:05Z"
@@ -48,14 +48,14 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:23.633Z"
+    last_checked_at: "2026-05-06T22:44:04.433Z"
     readme:
-      fetched_at: "2026-05-05T21:02:23.633Z"
+      fetched_at: "2026-05-06T22:44:04.433Z"
       bytes: 7354
 insights:
-  summary: An MCP server that provides programmatic access to Meta Ads data and management features for integration with AI clients like Cursor and Claude Desktop.
-  why_it_matters: It allows developers to query and manage ad campaigns through natural language in their IDE, removing the need to manually navigate the Meta Ads UI or build custom API wrappers.
-  mental_damage: We have successfully abstracted a UI behind an API so we can ask an LLM to click the buttons for us, completing the circle of 'I don't want to do my job' infrastructure.
+  summary: A Model Context Protocol server that provides programmatic access to Meta Ads data and management features for MCP-compatible clients like Cursor and Claude Desktop.
+  why_it_matters: It allows developers to delegate Meta Ads querying and management to coding agents, removing the need to manually navigate the Meta Ads UI or build custom API wrappers.
+  mental_damage: We have successfully abstracted away the misery of Facebook's ad manager by wrapping it in an MCP server, so your coding agent can now share in the suffering of deciphering cryptic campaign metrics.
   tags:
     - mcp
     - meta-ads
@@ -64,33 +64,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Meta Ads, fitting cleanly into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server implementation for a specific domain (Meta Ads), fitting the 'Domain Servers' section of the MCP category.
   evidence:
-    - "README states: 'This project provides an MCP server acting as an interface to the Meta Ads.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
-    - Setup instructions explicitly show configuration for MCP clients like Cursor and Claude Desktop.
+    - README explicitly states 'This project provides an MCP server acting as an interface to the Meta Ads'.
+    - Usage instructions demonstrate integration with 'MCP Clients (e.g., Cursor, Claude Desktop)'.
+    - Listed in 'awesome-mcp-servers' under the 'Marketing' section as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (320) exceeded threshold (150)
+  reason: Stars (321) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:23.633Z"
+    updated_at: "2026-05-06T22:44:04.433Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:59.337Z"
+    updated_at: "2026-05-06T22:58:04.949Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

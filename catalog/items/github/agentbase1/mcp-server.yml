@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentbase1__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,49 +41,49 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:00:50.806Z"
+    last_checked_at: "2026-05-06T22:12:26.582Z"
     readme:
-      fetched_at: "2026-05-05T21:00:50.806Z"
+      fetched_at: "2026-05-06T22:12:26.582Z"
       bytes: 2192
 insights:
-  summary: An MCP server that lets AI agents search and retrieve agent instruction files from the AgentBase registry of system prompts, skills, and workflows.
-  why_it_matters: Developers can equip MCP-compatible agents with runtime access to a shared library of domain-specific instructions, safety filters, and reusable workflows without hardcoding them.
-  mental_damage: We’ve built a protocol to let agents dynamically load the same prompt packs we’ll later blame them for misusing.
+  summary: An MCP server that wraps the AgentBase instruction registry, exposing tools to search and retrieve system prompts, skills, and workflows for MCP-compatible AI agents.
+  why_it_matters: It lets agents and coding workflows pull reusable instruction files, safety filters, and domain packs from a shared registry at runtime instead of hardcoding them.
+  mental_damage: We have now built a protocol to let your AI borrow someone else's AI's personality, one HTTP request at a time.
   tags:
     - mcp
     - agent-instructions
-    - skills
+    - prompt-management
     - registry
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server that exposes registry search and retrieval tools, cleanly fitting the MCP Servers and Tooling category.
+  reason: This is an MCP server whose primary identity is exposing AgentBase's instruction registry via MCP tools, making it a textbook fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'AgentBase MCP server — search and retrieve agent instruction files via MCP tools'"
-    - "README: 'MCP server for the AgentBase agent instruction registry... exposes them as structured MCP tools'"
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+    - "Repo description states: 'AgentBase MCP server — search and retrieve agent instruction files via MCP tools'."
+    - "README says: 'MCP server for the AgentBase agent instruction registry... exposes them as structured MCP tools'."
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:50.806Z"
+    updated_at: "2026-05-06T22:12:26.582Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:07.262Z"
+    updated_at: "2026-05-06T22:18:57.385Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

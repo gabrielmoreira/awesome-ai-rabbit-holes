@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quantoracledev__quantoracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-04T03:54:58Z"
-    pushed_at: "2026-05-04T17:58:35Z"
+    pushed_at: "2026-05-06T10:58:01Z"
     description: 63 deterministic quant computation tools for autonomous financial agents. Options, derivatives, risk, portfolio, statistics, crypto/DeFi, macro/FX, TVM. 1,000 free calls/day — no signup.
     homepage: https://quantoracle.dev
     topics:
@@ -53,44 +53,50 @@ metadata:
       - quantitative-finance
       - risk-management
       - x402
-    last_checked_at: "2026-05-05T23:08:15.544Z"
+    last_checked_at: "2026-05-06T22:46:02.880Z"
     readme:
-      fetched_at: "2026-05-05T23:08:15.544Z"
+      fetched_at: "2026-05-06T22:46:02.880Z"
       bytes: 30228
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A quantitative finance API and MCP server providing 63 deterministic calculators for options, derivatives, risk, and crypto math, designed to be called by autonomous financial agents.
+  why_it_matters: It gives AI agents a reliable way to perform complex financial math with exact analytical formulas instead of relying on probabilistic LLM calculations.
+  mental_damage: We've reached the point where we don't trust the all-knowing neural network to correctly calculate Black-Scholes, so we've built a deterministic API just to keep the hallucination-prone agent from bankrupting the simulated portfolio.
+  tags:
+    - mcp-server
+    - finance
+    - quant
+    - agent-tools
+    - api
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server exposing financial computation tools for agents, as evidenced by its npm package, topic tags, and placement in awesome-mcp-servers.
+  evidence:
+    - Repo topics include 'mcp' and 'mcp-server', and README highlights the 'quantoracle-mcp' npm package.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - README explicitly positions it as 'the quantitative computation API for autonomous financial agents' with an MCP integration.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:15.544Z"
+    updated_at: "2026-05-06T22:46:02.880Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:58.092Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

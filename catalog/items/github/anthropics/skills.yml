@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anthropics__skills__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Intelligent search capabilities to let every model and client use [Claude Agent Skills](https://www.anthropic.com/news/skills) like native."
         confidence: high
     - id: discovery__github__anthropics__skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,60 +39,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 128476
-    forks: 15115
+    stars: 129084
+    forks: 15204
     license: null
     archived: false
     created_at: "2025-09-22T15:53:31Z"
-    pushed_at: "2026-05-03T13:58:42Z"
+    pushed_at: "2026-05-06T16:05:51Z"
     description: Public repository for Agent Skills
     homepage: ""
     topics:
       - agent-skills
-    last_checked_at: "2026-05-05T21:01:04.344Z"
+    last_checked_at: "2026-05-06T22:12:39.044Z"
     readme:
-      fetched_at: "2026-05-05T21:01:04.344Z"
+      fetched_at: "2026-05-06T22:12:39.044Z"
       bytes: 5460
 insights:
-  summary: Anthropic's official repository of reusable Agent Skills—folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks.
-  why_it_matters: It provides the reference implementation and specification for teaching Claude how to handle specific workflows, from document editing to MCP server generation, directly inside Claude Code and the API.
-  mental_damage: We have officially progressed from writing code to writing folders of markdown just to teach the AI how to pretend it knows how to use your internal PDF template.
+  summary: A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks.
+  why_it_matters: It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
+  mental_damage: Because nothing says 'modern software engineering' like version-controlling a folder of markdown incantations and pretending your LLM now has a resumé.
   tags:
-    - skills
-    - claude
     - agent-skills
+    - claude
     - anthropic
-    - spec
+    - prompt-engineering
+    - reusable-skills
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill pack and the official specification for Agent Skills, making it a perfect fit for the skills category.
+  reason: The repository's primary artifact is a distributed library of reusable skill packs and the Agent Skills specification, making it a canonical fit for the Agent Skills category.
   evidence:
     - "Repo description explicitly states: 'Public repository for Agent Skills'."
-    - "README confirms: 'This repository contains skills that demonstrate what's possible with Claude's skills system' and includes the Agent Skills specification in /spec."
-    - Includes instructions for registering the repo as a 'Claude Code Plugin marketplace' and installing specific skill sets like document-skills.
+    - README describes the repo as containing skill examples, the Agent Skills specification, and templates for creating custom skills.
+    - Canonical positives for the 'skills' category explicitly list 'anthropics/skills' as a primary example.
 placement:
   primary_category: skills
-  section: null
+  section: Skill Packs & Libraries
 lifecycle:
   status: promotion_candidate
-  reason: Stars (128476) exceeded threshold (150)
+  reason: Stars (129084) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:04.344Z"
+    updated_at: "2026-05-06T22:12:39.044Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:20.875Z"
+    updated_at: "2026-05-06T22:21:27.948Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

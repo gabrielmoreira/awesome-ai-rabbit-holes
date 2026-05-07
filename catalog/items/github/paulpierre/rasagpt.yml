@@ -1,13 +1,13 @@
 id: github__paulpierre__rasagpt
 kind: github-repo
-name: RasaGPT
+name: rasagpt
 canonical_url: https://github.com/paulpierre/rasagpt
 identity:
   github_repo: paulpierre/rasagpt
 provenance:
   discoveries:
     - id: discovery__github__paulpierre__rasagpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -50,50 +50,50 @@ metadata:
       - rasa-nlu
       - telegram
       - telegram-bot
-    last_checked_at: "2026-05-05T21:04:14.043Z"
+    last_checked_at: "2026-05-06T22:45:49.742Z"
     readme:
-      fetched_at: "2026-05-05T21:04:14.043Z"
+      fetched_at: "2026-05-06T22:45:49.742Z"
       bytes: 31914
 insights:
-  summary: A headless LLM chatbot platform built on Rasa and Langchain that provides a FastAPI backend, document ingestion, and pgvector-based retrieval for building Telegram and multi-channel bots.
-  why_it_matters: It gives developers a ready-to-run boilerplate that wires together Rasa's conversational NLU with Langchain's LLM retrieval, multi-tenancy, and document ingestion so they can skip the integration headaches.
-  mental_damage: Yet another ambitious framework promising to glue yesterday's chatbot state machine to today's LLM hallucination engine, just waiting for you to declare it production-ready before discovering the prompt injection caveats.
+  summary: RasaGPT is a headless LLM chatbot platform built on top of Rasa and Langchain, using FastAPI, pgvector, and LlamaIndex to provide document indexing, retrieval, and a multi-tenant API for building custom Telegram bots.
+  why_it_matters: It provides a ready-to-run boilerplate for developers who want to modernize Rasa with LLM orchestration without resolving library conflicts, Docker issues, and multi-tenancy hacks themselves.
+  mental_damage: Because nothing says 'cutting-edge AI' like wrapping a 2018 NLU pipeline in FastAPI and declaring victory over the chatbot industrial complex.
   tags:
     - chatbot
-    - fastapi
-    - langchain
-    - llm
     - rasa
+    - langchain
+    - fastapi
+    - headless
   confidence: high
 curation:
   status: included
-  reason: It is a code-first boilerplate and framework for building LLM-powered chatbots, which fits AI Frameworks and SDKs rather than a coding agent or app builder.
+  reason: The project is primarily a code-first boilerplate and reference implementation that developers build upon using Python, FastAPI, and Langchain, fitting the Frameworks & SDKs mold rather than a standalone agent or UI.
   evidence:
-    - Repo description states it is a headless LLM chatbot platform built on Rasa and Langchain with FastAPI.
-    - README describes it as boilerplate and a reference implementation for integrating LLM libraries with Rasa.
-    - Listed in awesome-langchain under Tools > Agents as a Langchain-based project.
+    - Repo description defines it as a 'headless LLM chatbot platform' built on Rasa and Langchain with FastAPI.
+    - README describes it as 'boilerplate and a reference implementation' with custom async endpoints and database models via SQLModel.
+    - Listed in awesome-langchain under 'Tools > Agents', indicating its identity as a developer toolkit/library component.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (2465) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:09.799Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:14.043Z"
+    updated_at: "2026-05-06T22:45:49.742Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:21:15.663Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

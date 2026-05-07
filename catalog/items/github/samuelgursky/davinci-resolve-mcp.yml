@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__samuelgursky__davinci-resolve-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 980
+    forks: 113
+    license: MIT
+    archived: false
+    created_at: "2025-03-18T03:11:04Z"
+    pushed_at: "2026-05-05T23:02:34Z"
+    description: MCP server integration for DaVinci Resolve
+    homepage: ""
+    topics:
+      - blackmagic
+      - blackmagic-design
+      - blackmagicdesign
+      - davinci-resolve
+      - davinciresolve
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-05-06T22:46:16.447Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:16.447Z"
+      bytes: 61741
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing complete coverage of the DaVinci Resolve Scripting API, allowing AI assistants to control post-production workflows via natural language.
+  why_it_matters: Developers building AI video pipelines can now let assistants like Claude or Cursor manipulate timelines, markers, and cloud projects without writing custom Resolve scripts.
+  mental_damage: We have finally achieved the singularity where an LLM can color-grade your footage, provided you enjoy debugging 328 API tool mappings to nudge a playhead by 24 frames.
+  tags:
+    - mcp
+    - video-editing
+    - da-vinci-resolve
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is an MCP server for a specific domain (video editing), fitting squarely into MCP Servers & Tooling as a domain-specific implementation.
+  evidence:
+    - Repo description explicitly states 'MCP server integration for DaVinci Resolve'.
+    - "README pitch: 'Connect AI assistants (Claude, Cursor, Windsurf) to DaVinci Resolve and control every aspect of your post-production workflow'."
+    - Appears in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (980) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:16.447Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:59.990Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

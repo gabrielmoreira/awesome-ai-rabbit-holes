@@ -1,12 +1,12 @@
 id: w3gpt__ai
 kind: website
-name: Web3 GPT
+name: w3gpt.ai
 canonical_url: https://w3gpt.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__w3gpt__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based AI chat interface for generating, deploying, and managing smart contracts and on-chain agents.
-  why_it_matters: It allows developers to skip writing Solidity boilerplate by generating and deploying contracts directly from a chat interface.
-  mental_damage: Because what the world definitely needed was another 'GPT' wrapper that turns natural language into immutable, expensive mistakes on a public ledger.
+  summary: A chat-based AI tool for generating, deploying, and managing smart contracts and onchain agents directly through prompts.
+  why_it_matters: It lets web3 developers skip boilerplate and deploy Solidity contracts straight from a chat interface instead of manually configuring Hardhat or Foundry pipelines.
+  mental_damage: Yet another vertical AI wrapper pretending that blockchain development was the one workflow missing a GPT-powered chat layer.
   tags:
-    - chat-interface
-    - onchain
-    - smart-contracts
     - web3
+    - smart-contracts
+    - chat
+    - onchain
+    - solidity
   confidence: medium
 curation:
   status: included
-  reason: This is a browser-first SaaS product that generates and deploys smart contracts from prompts, fitting the app-builder model for dApp tooling rather than an IDE-integrated coding agent.
+  reason: The product turns natural language prompts into deployed smart contracts and onchain agents, fitting the prompt-to-app builder model for a web3-specific workflow.
   evidence:
-    - "Scraped site title identifies as 'Web3GPT' with description: 'Deploy smart contracts, create AI Agents, do more onchain with AI.'"
-    - Primary page excerpt shows a 'Chat' interface with 'Generate' and 'Deploy' actions for smart contracts.
-    - Listed in awesome-ai-agents under 'Web3 GPT' with the purpose of deploying smart contracts and creating agents.
+    - "Scraped site description states: 'Deploy smart contracts, create AI Agents, do more onchain with AI.'"
+    - Primary page excerpt shows a chat interface focused on 'Prompt smart contracts' and 'Deploy directly from chat'.
+    - Listed in awesome-ai-agents under a Web3-specific section targeting smart contract deployment.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:08.867Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:03.093Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

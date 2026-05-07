@@ -1,12 +1,12 @@
 id: checksum__ai
 kind: website
-name: Checksum AI
+name: checksum.ai
 canonical_url: https://checksum.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__checksum__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform that uses specialized AI agents to automatically generate, run, and maintain Playwright end-to-end and API tests within a CI pipeline.
-  why_it_matters: It targets the pain point where AI-generated code outpaces a team's ability to manually write and maintain the test coverage required to validate it.
-  mental_damage: Just when you thought you could let a coding agent write the code, you now need a testing agent to clean up after the coding agent, creating a beautiful daisy chain of autonomous debugging debt.
+  summary: Checksum is a continuous AI testing platform that automatically generates, runs, and maintains Playwright end-to-end, API, and unit tests by simulating production environments.
+  why_it_matters: It offloads the low-leverage work of writing and fixing tests as codebases evolve, aiming to keep coverage high without slowing down teams using coding agents.
+  mental_damage: We have successfully automated the maintenance of the tests we let AI write to validate the code that other AI wrote, completing the ouroboros of synthetic confidence.
   tags:
-    - agents
-    - ci-cd
-    - playwright
-    - qa
     - testing
+    - qa
+    - e2e
+    - agents
+    - playwright
   confidence: high
 curation:
   status: included
-  reason: It acts as an autonomous agent that collaborates on the codebase by generating, executing, and healing test code directly in the repo and PR workflow.
+  reason: The product is an autonomous agent that reads code, generates tests, executes them against real environments, and repairs failures automatically, fitting the definition of a coding agent focused on testing and repair.
   evidence:
-    - Generates production-ready Playwright tests that live in the repository (no vendor lock-in).
-    - CI Agent generates 50-200 tests per PR, targeting changed code before human review.
-    - Featured in awesome-ai-coding-tools under the 'Testing and QA' section.
+    - Scraped site states Checksum 'generates, runs, and maintains end-to-end tests automatically' with agents for E2E, CI, and API.
+    - Included in the awesome-ai-coding-tools list under the 'Testing and QA' section.
+    - Product description highlights autonomous resolution of 70% of test failures without engineer intervention.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:48.117Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:03.155Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

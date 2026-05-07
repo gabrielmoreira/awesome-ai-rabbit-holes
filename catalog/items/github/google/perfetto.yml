@@ -1,13 +1,13 @@
 id: github__google__perfetto
 kind: github-repo
-name: Perfetto
+name: perfetto
 canonical_url: https://github.com/google/perfetto
 identity:
   github_repo: google/perfetto
 provenance:
   discoveries:
     - id: discovery__github__google__perfetto__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,59 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5892
-    forks: 769
+    stars: 5897
+    forks: 771
     license: Apache-2.0
     archived: false
     created_at: "2019-12-10T10:32:44Z"
-    pushed_at: "2026-05-05T20:23:13Z"
+    pushed_at: "2026-05-06T22:36:35Z"
     description: Production-grade client-side tracing, profiling, and analysis for complex software systems.
     homepage: https://www.perfetto.dev
     topics: []
-    last_checked_at: "2026-05-05T21:02:24.517Z"
+    last_checked_at: "2026-05-06T22:44:05.068Z"
     readme:
-      fetched_at: "2026-05-05T21:02:24.517Z"
+      fetched_at: "2026-05-06T22:44:05.068Z"
       bytes: 4599
 insights:
-  summary: Perfetto is an open-source suite of SDKs, daemons, and tools for high-performance client-side tracing, profiling, and SQL-based trace analysis across Android, Linux, Chromium, and other complex systems.
-  why_it_matters: It gives developers a unified, production-grade pipeline to instrument apps, capture system-wide context, and query multi-GB traces locally to root-cause performance issues and jank.
-  mental_damage: You’ll spend hours crafting the perfect trace query to prove your app is fast, then realize you’ve been profiling the profiler.
+  summary: Perfetto is an open-source suite of SDKs, daemons, and tools for high-performance system profiling, app tracing, and trace analysis on Android, Linux, and Chromium.
+  why_it_matters: It provides developers with production-grade, SQL-queryable tracing capabilities and a local browser-based UI to root-cause performance issues and memory bottlenecks in complex systems.
+  mental_damage: Yet another powerful tool to help you prove that your 400-millisecond microservice latency is actually caused by a kernel scheduling quirk on a neighbor's core, not your code.
   tags:
-    - android
-    - linux
-    - performance
-    - profiling
     - tracing
+    - profiling
+    - performance
+    - debugging
+    - sdk
   confidence: high
 curation:
   status: excluded
-  reason: Although it appears in an awesome-mcp-servers list, Perfetto itself is a traditional system profiling and tracing suite with no AI-focused developer-tooling surface, which falls outside the catalog’s scope.
+  reason: Perfetto is a general-purpose system profiling and tracing tool for performance engineering, with no AI-specific features, LLM integration, or AI developer workflow angle.
   evidence:
-    - Repo description and README describe it as a production-grade tracing, profiling, and analysis suite for Android, Chromium, and Linux.
-    - No mention of AI, LLMs, coding agents, or AI-assisted workflows in the README excerpt or description.
-    - Appears in awesome-mcp-servers, but the listing appears to be a community-contributed MCP bridge rather than Perfetto itself being an AI developer tool.
+    - Repo description and README describe it purely as a tracing/profiling suite for Android, Linux, and Chromium with no mention of AI, LLMs, or coding agents.
+    - Source-list context shows it only appears as an MCP server wrapper in awesome-mcp-servers, but the core product itself is not AI tooling.
+    - Catalog scope requires practical AI tools, agents, or developer-facing AI infrastructure; Perfetto is traditional performance instrumentation.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5892) exceeded threshold (150)
+  reason: Stars (5897) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:09.450Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:24.517Z"
+    updated_at: "2026-05-06T22:44:05.068Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:15.898Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

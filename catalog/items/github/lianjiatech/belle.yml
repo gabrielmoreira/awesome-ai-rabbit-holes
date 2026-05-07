@@ -1,13 +1,13 @@
 id: github__lianjiatech__belle
 kind: github-repo
-name: BELLE
+name: belle
 canonical_url: https://github.com/lianjiatech/belle
 identity:
   github_repo: lianjiatech/belle
 provenance:
   discoveries:
     - id: discovery__github__lianjiatech__belle__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8282
+    stars: 8281
     forks: 767
     license: Apache-2.0
     archived: false
@@ -43,50 +43,50 @@ metadata:
       - llama
       - lora
       - open-models
-    last_checked_at: "2026-05-05T21:03:19.516Z"
+    last_checked_at: "2026-05-06T22:44:58.568Z"
     readme:
-      fetched_at: "2026-05-05T21:03:19.516Z"
+      fetched_at: "2026-05-06T22:44:58.568Z"
       bytes: 26696
 insights:
-  summary: BELLE is an open-source project providing Chinese-optimized instruction-tuned language models, training code, and datasets built on top of LLaMA and BLOOM.
-  why_it_matters: It gives developers a ready-to-use stack for fine-tuning and deploying Chinese-centric LLMs with training scripts, RLHF code, and local inference support.
-  mental_damage: Another weekend lost deciding whether your chatbot's Mandarin fluency is worth the 7GB download and the inevitable 4-bit quantization regret.
+  summary: BELLE is an open-source project providing Chinese-optimized LLMs, instruction-tuning datasets, training code, and local desktop apps built on models like LLaMA and BLOOM.
+  why_it_matters: It lowers the barrier for developers building Chinese-centric conversational AI by providing ready-to-use models, training pipelines, and evaluation tooling.
+  mental_damage: Just when you thought the open-source LLM space couldn't get more fragmented, here is another suite of models proudly reminding you that your tokenizer is probably still optimised for English.
   tags:
-    - chinese-nlp
+    - chinese-llm
     - fine-tuning
-    - llm
-    - local-ai
+    - local-models
+    - nlp
     - open-source
   confidence: high
 curation:
   status: excluded
-  reason: While actively maintained and popular, this is a general LLM training project and model repository rather than a developer-facing tool, agent, or coding workflow product.
+  reason: The project is a general LLM research and model release effort focused on Chinese NLP and fine-tuning, not a developer-facing coding tool, agent, or infrastructure component.
   evidence:
-    - Repo description explicitly states it is a Chinese dialogue large model engine, not a developer tool.
-    - README focuses on model training, instruction datasets, and RLHF, with no coding-agent or IDE integration.
-    - Listed in Awesome-LLMOps under 'Model > Large Language Model', confirming its place as model infrastructure rather than developer tooling.
+    - Repo description explicitly states it is a Chinese dialogue LLM engine, not a coding tool.
+    - README focuses on instruction-tuning, model releases, and Chinese NLP benchmarks rather than developer workflows or coding assistance.
+    - Listed in Awesome-LLMOps under 'Model > Large Language Model', which aligns with research/MLOps rather than coding-agent tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8282) exceeded threshold (150)
+  reason: Stars (8281) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:51.116Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:19.516Z"
+    updated_at: "2026-05-06T22:44:58.568Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:23.706Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

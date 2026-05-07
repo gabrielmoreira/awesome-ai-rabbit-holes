@@ -1,12 +1,12 @@
 id: www__adept__ai
 kind: website
-name: Adept AI
+name: www.adept.ai
 canonical_url: https://www.adept.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__adept__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Adept AI is a research and product company building general-purpose AI agents designed to perform complex software and web-based tasks across desktop and browser environments.
-  why_it_matters: It aims to create models that can directly interact with user interfaces to automate multi-step workflows, potentially changing how developers delegate routine software operations.
-  mental_damage: "Just what we needed: another highly funded research lab promising an agent that will finally automate the boring parts of our job while we nervously check if our own repo is in their training set."
+  summary: Adept AI builds general-purpose AI agents designed to perform complex digital workflows by directly interacting with software interfaces.
+  why_it_matters: It represents an early and influential attempt to move beyond code completion toward agents that can actually operate desktop and web applications to complete multi-step tasks.
+  mental_damage: "Just what we needed: an agent that can independently navigate enterprise SaaS billing pages while we wonder if 'agentic' is just a fancy word for 'click-happy script.'"
   tags:
     - agents
+    - computer-use
     - automation
-    - research
-    - ui-interaction
+    - workflow
   confidence: medium
 curation:
-  status: excluded
-  reason: Adept is a research lab and company focused on foundational models rather than a direct developer tool, IDE plugin, or coding agent that fits into a developer's current workflow.
+  status: included
+  reason: Adept is a developer-facing AI agent platform focused on computer-use and workflow automation, fitting the 'Browser/Desktop/Computer-Use Agents' definition within Coding Agents.
   evidence:
-    - The URL points to a corporate homepage (www.adept.ai) with no repository description, README, or code exposed for evaluation.
-    - Listed in awesome-ai-agents as a company/research entity rather than a specific installable tool or library.
-    - No evidence of a developer-facing IDE integration, CLI tool, or framework SDK in the provided inputs.
+    - Seen in the 'awesome-ai-agents' list under the section 'Adept AI', confirming its identity as an autonomous agent.
+    - The URL (www.adept.ai) and name imply a hosted SaaS platform for AI agents rather than a local library or framework.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:23.731Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:28.616Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

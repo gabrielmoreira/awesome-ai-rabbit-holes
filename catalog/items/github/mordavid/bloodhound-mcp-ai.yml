@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mordavid__bloodhound-mcp-ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 353
-    forks: 54
+    forks: 53
     license: null
     archived: false
     created_at: "2025-04-04T08:14:28Z"
@@ -38,50 +38,50 @@ metadata:
       - cypher-query-language
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:46.892Z"
+    last_checked_at: "2026-05-06T22:45:25.306Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.892Z"
+      fetched_at: "2026-05-06T22:45:25.306Z"
       bytes: 4359
 insights:
-  summary: An MCP server that allows security professionals to query BloodHound Active Directory data and attack paths using natural language instead of complex Cypher queries.
-  why_it_matters: It lowers the barrier to entry for AD security analysis by wrapping 75+ Cypher queries into an AI-accessible tool that integrates with existing MCP clients.
-  mental_damage: We have successfully abstracted away the need to understand graph databases, meaning you can now pwn an entire domain without ever learning how the graph actually works.
+  summary: An MCP server that connects BloodHound to AI models, allowing security professionals to query Active Directory attack paths and security posture using natural language instead of Cypher queries.
+  why_it_matters: It translates complex graph database queries into plain English, making Active Directory security analysis accessible without deep Cypher expertise.
+  mental_damage: Security professionals can now confidently ask an AI for attack paths in English, while still having to explain to their managers why the AI didn't actually fix the Kerberos issues it found.
   tags:
     - mcp
     - security
-    - bloodhound
     - active-directory
-    - cypher
+    - bloodhound
+    - neo4j
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to expose BloodHound functionality via the Model Context Protocol.
+  reason: The product is explicitly an MCP server for the security domain, providing natural language access to BloodHound's graph data via the Model Context Protocol.
   evidence:
-    - Repo description defines it as 'integration that connects BloodHound with AI through Model Context Protocol'
-    - README confirms it is a 'Model Context Protocol (MCP) Server for BloodHound' with 75+ specialized tools
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'
+    - Repo description identifies it as 'integration that connects BloodHound with AI through Model Context Protocol'.
+    - README states 'over 75 specialized tools based on the original BloodHound CE Cypher queries' exposed via MCP.
+    - Listed in awesome-mcp-servers under 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (353) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.892Z"
+    updated_at: "2026-05-06T22:45:25.306Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:03.811Z"
+    updated_at: "2026-05-06T23:15:36.582Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

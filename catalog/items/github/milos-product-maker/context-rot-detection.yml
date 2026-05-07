@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__milos-product-maker__context-rot-detection__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Context Rot Detection & Healing MCP Service — gives AI agents self-awareness about their cognitive state
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:41.207Z"
+    last_checked_at: "2026-05-06T22:45:19.220Z"
     readme:
-      fetched_at: "2026-05-05T21:03:41.207Z"
+      fetched_at: "2026-05-06T22:45:19.220Z"
       bytes: 8093
 insights:
-  summary: An MCP server that analyzes an AI agent's context window health and provides recovery recommendations to mitigate performance degradation during long-running sessions.
-  why_it_matters: It gives coding agents and developers a real-time health score and actionable steps to prevent the 'lost-in-the-middle' failure mode as context windows fill up.
-  mental_damage: We have finally built a mood ring for our LLMs, because apparently the agent is now too cognitively degraded to realize it has stopped understanding the assignment.
+  summary: An MCP server that analyzes an AI agent's context window health, returning a degradation score and recovery recommendations based on token usage, session fatigue, and model-specific degradation curves.
+  why_it_matters: It gives long-running agents quantitative visibility into context rot—a known failure mode—so they can proactively compact context or offload to memory before performance silently degrades.
+  mental_damage: We have finally built a tool to tell the agent it is hallucinating because its context window is full, rather than admitting that we probably shouldn't have pasted the entire repo into the prompt in the first place.
   tags:
     - mcp
-    - context-engineering
+    - context-rot
     - agent-health
-    - observability
-  confidence: high
+    - prompt-engineering
+  confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated MCP server providing context health tooling for AI agents, fitting squarely into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server that exposes context health tools to MCP-compatible clients like Claude Code and Claude Desktop.
   evidence:
-    - Repo description explicitly states 'Context Rot Detection & Healing MCP Service'.
-    - README details MCP client configuration for Claude Code and Claude Desktop.
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Repo description explicitly calls it a 'Context Rot Detection & Healing MCP Service'.
+    - README provides MCP client configuration examples for Claude Code, Claude Desktop, and Docker, making MCP the primary interface.
+    - Already curated in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:41.207Z"
+    updated_at: "2026-05-06T22:45:19.220Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:57.442Z"
+    updated_at: "2026-05-06T23:14:14.637Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

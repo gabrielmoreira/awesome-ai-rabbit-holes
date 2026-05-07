@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apinetwork__piapi-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: A TypeScript implementation of a Model Context Protocol (MCP) server that integrates with PiAPI's API. PiAPI makes user able to generate media content with Midjourney/Flux/Kling/LumaLabs/Udio/Chrip/Trellis directly from Claude or any other MCP-compatible apps.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:06.875Z"
+    last_checked_at: "2026-05-06T22:12:41.143Z"
     readme:
-      fetched_at: "2026-05-05T21:01:06.875Z"
+      fetched_at: "2026-05-06T22:12:41.143Z"
       bytes: 6498
 insights:
-  summary: A TypeScript MCP server that connects Claude and other MCP-compatible apps to PiAPI for generating images, video, music, 3D models, and other media content via APIs like Midjourney, Flux, and Kling.
-  why_it_matters: It lets developers invoke rich media generation directly from their MCP-aware workflows instead of wiring separate API clients by hand.
-  mental_damage: We’ve successfully unified the calling card of Midjourney, Suno, and Luma behind a single MCP server, so you can now over-engineer your CLIs to hallucinate 3D models while your actual codebase quietly rots.
+  summary: A TypeScript MCP server that connects PiAPI's media generation services (Midjourney, Flux, Kling, etc.) to Claude and other MCP-compatible applications.
+  why_it_matters: Developers can trigger image, video, music, and 3D generation directly from their coding assistant without switching contexts to external web tools.
+  mental_damage: We have successfully abstracted away the creative process so thoroughly that you can now hallucinate a music video via JSON-RPC without ever leaving your IDE.
   tags:
     - mcp
     - media-generation
     - typescript
     - claude
-    - piapi
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that integrates media-generation APIs with MCP-compatible clients, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is a Model Context Protocol server purpose-built to expose media generation APIs to MCP-compatible clients.
   evidence:
-    - Repo description explicitly states it is a TypeScript implementation of a Model Context Protocol (MCP) server for PiAPI.
-    - README shows it exposes media-generation tools (Flux, Kling, Suno, Trellis, etc.) to Claude Desktop and other MCP-compatible apps.
-    - Listed under awesome-mcp-servers in the Community Servers section.
+    - Repo description explicitly states it is 'A TypeScript implementation of a Model Context Protocol (MCP) server'.
+    - Found in awesome-mcp-servers under the 'Community Servers' section.
+    - README positions it as a tool to generate media content 'directly from Claude or any other MCP-compatible apps'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:06.875Z"
+    updated_at: "2026-05-06T22:12:41.143Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:43.061Z"
+    updated_at: "2026-05-06T22:21:54.326Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

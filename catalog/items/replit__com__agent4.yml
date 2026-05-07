@@ -1,12 +1,12 @@
 id: replit__com__agent4
 kind: website
-name: Replit Agent
+name: agent4
 canonical_url: https://replit.com/agent4
 identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__agent4__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agent 4 is Replit's browser-based AI agent that builds full-stack web apps, mobile apps, and other digital assets from prompts while offering a visual design canvas and collaborative task management.
-  why_it_matters: It allows developers to go from a rough concept to a deployed prototype by handling parallel tasks like auth, database, and UI design within a single browser environment.
-  mental_damage: Your PM can now bypass Figma entirely to ship a 'functional prototype' that you will absolutely be asked to productionize by Tuesday.
+  summary: Agent 4 is Replit's latest AI coding agent designed to build and iterate on full applications, including mobile apps, web apps, and landing pages, from prompts.
+  why_it_matters: It integrates visual design tools, parallel task execution, and team collaboration features directly into the app-generation workflow, allowing developers to generate production-ready apps without leaving the environment.
+  mental_damage: Just when you thought 'vibe coding' was a safe coping mechanism, Replit introduces a parallelized agent that can build the backend, debug the auth, and question your life choices all at the same time.
   tags:
+    - agent
+    - replit
     - app-builder
     - collaboration
-    - prototyping
-    - replit
   confidence: high
 curation:
   status: included
-  reason: This is a browser-first SaaS product that generates full apps and sites from prompts with a hosted design canvas, which fits the app-builders category rather than coding-agents.
+  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section, though the product surface is a hosted builder.
-    - Scraped site context describes a 'browser-first' experience for building 'mobile and web apps, landing pages, decks, videos'.
-    - Features a 'design canvas' for visual editing and claims to handle '10x faster builds' via parallel agent execution in the cloud.
+    - Described as 'Replit's fastest, most versatile Agent to date' with capabilities to build apps, sites, and internal tools.
+    - Features include designing in code, handling task prioritization, and executing multiple independent tasks simultaneously.
+    - Included in 'awesome-ai-coding-tools' under the 'Coding Agents' section.
 placement:
   primary_category: app-builders
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:32.071Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:57.713Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

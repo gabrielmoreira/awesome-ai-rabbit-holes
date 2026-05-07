@@ -1,12 +1,12 @@
 id: aiagent__app
 kind: website
-name: AI Agents
+name: aiagent.app
 canonical_url: https://aiagent.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aiagent__app__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code SaaS platform for creating and deploying teams of AI agents to automate business tasks like marketing, sales, and content generation.
-  why_it_matters: It offers a hosted interface for orchestrating multi-agent workflows without writing code, targeting business operations rather than source code modification.
-  mental_damage: Another 'agentic' platform promising to multiply your best teammates, assuming you first survive the irony of using an autonomous agent to handle the busywork of evaluating autonomous agents.
+  summary: A no-code SaaS platform for building and managing teams of general-purpose AI agents to automate business tasks like marketing, sales, and content generation.
+  why_it_matters: It offers a configured environment for multi-agent workflows, though it targets business operations rather than repository editing or software development.
+  mental_damage: Yet another 'agent' platform promising to multiply your teammates, just in case the 400 other wrappers weren't quite enterprise-ready enough.
   tags:
-    - automation
-    - multi-agent
+    - agents
     - no-code
+    - automation
     - saas
   confidence: high
 curation:
   status: excluded
-  reason: The product is a no-code business automation SaaS for marketing and sales, lacking a developer-facing tooling angle for coding, infrastructure, or app-building.
+  reason: The product is a general-purpose business automation SaaS with no meaningful developer-tooling angle, IDE integration, or code-editing capabilities.
   evidence:
-    - Site excerpt describes 'Create a team of AI agents' for 'Marketing, SEO, Content, Social, Sales' with 'No Code Needed'.
-    - Capabilities focus on business users ('no training needed', 'optimize workflow', 'content strategy') rather than developers.
-    - Listed in awesome-local-ai under 'Agents', but the tool itself is a hosted SaaS for business ops, not a local developer tool.
+    - Site content focuses entirely on business use cases like 'Marketing', 'Sales', and 'Content' with 'No Code Needed'.
+    - The platform is described as a tool for 'task automation and workflow optimization' for end-users, not developers editing repos.
+    - Appears in awesome-local-ai lists, but source-list context is evidence, not destiny; the product itself is not a local tool or dev utility.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:34.863Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:39.318Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

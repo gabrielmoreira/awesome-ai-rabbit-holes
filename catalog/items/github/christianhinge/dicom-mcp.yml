@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__christianhinge__dicom-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:33.535Z"
+    last_checked_at: "2026-05-06T22:43:20.621Z"
     readme:
-      fetched_at: "2026-05-05T21:01:33.535Z"
+      fetched_at: "2026-05-06T22:43:20.621Z"
       bytes: 6630
 insights:
-  summary: A Model Context Protocol server that lets AI assistants query, read, and move data on DICOM servers such as PACS and VNA systems.
-  why_it_matters: It gives developers building medical-imaging AI workflows a ready-made bridge between LLMs and DICOM infrastructure without writing custom DICOM networking code.
-  mental_damage: Because what every radiology department needs is an LLM deciding which C-MOVE operation to fire at the PACS at 3 a.m.
+  summary: An MCP server that lets AI assistants query, read, and move data on DICOM medical imaging servers (PACS) via standard DICOM network operations.
+  why_it_matters: It gives coding agents and LLMs structured access to medical imaging archives so they can answer questions about patient studies, reports, and image volumes without custom DICOM glue code.
+  mental_damage: We have finally reached the point where the AI can read the radiologist’s report, measure the spleen, and still ask you to confirm the patient’s name before moving their entire imaging archive.
   tags:
     - mcp
     - medical-imaging
     - dicom
     - pacs
-    - developer-tools
+    - healthcare
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server for DICOM systems, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server purpose-built to expose DICOM server capabilities to MCP-compatible clients, making MCP its primary identity.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) for interacting with dicom servers'.
-    - README shows integration via claude_desktop_config.json as an MCP server with query, read, and move tools.
-    - Listed in awesome-mcp-servers under Server Implementations > Databases, confirming its MCP ecosystem role.
+    - "Repo description: 'Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)'"
+    - "README: 'The dicom-mcp server enables AI assistants to query, read, and move data on DICOM servers' with MCP client configuration examples"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:33.535Z"
+    updated_at: "2026-05-06T22:43:20.621Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:02.488Z"
+    updated_at: "2026-05-06T22:49:02.442Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

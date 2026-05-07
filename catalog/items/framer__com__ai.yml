@@ -1,12 +1,12 @@
 id: framer__com__ai
 kind: website
-name: Framer AI
+name: ai
 canonical_url: https://framer.com/ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__framer__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,41 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Framer AI is a browser-first SaaS feature inside the Framer web design platform that generates websites and landing pages from text prompts.
-  why_it_matters: It allows developers and designers to scaffold marketing sites and landing pages instantly without manually writing HTML, CSS, or configuring a static site generator.
-  mental_damage: Another reminder that while we automate entire websites in seconds, we still manually fight CSS grid for three hours to align a footer.
+  summary: Framer AI is a feature within the Framer web design platform that generates websites and UI layouts from text prompts.
+  why_it_matters: It allows developers and designers to scaffold marketing sites and UI prototypes directly from natural language, cutting down on boilerplate CSS and layout work.
+  mental_damage: Yet another reminder that while AI can ship your landing page in seconds, it still can't decide if your z-index hell is a feature or a bug.
   tags:
-    - framer
+    - app-builder
     - prompt-to-site
-    - website-builder
+    - web-design
+    - framer
   confidence: medium
 curation:
   status: included
-  reason: This is a hosted, browser-first product that turns prompts into full sites and landing pages, which aligns perfectly with the app-builders category definition.
+  reason: The tool is a prompt-to-site builder integrated into the Framer platform, focused on generating new web layouts rather than editing existing codebases.
   evidence:
-    - Classified under 'App Builders' in the awesome-ai-coding-tools source list.
-    - URL points to framer.com/ai, indicating a hosted SaaS builder surface rather than a repo/IDE assistant.
+    - URL is framer.com/ai, indicating an AI feature within the Framer web design ecosystem.
+    - Included in awesome-ai-coding-tools under the 'App Builders' section.
+    - Product identity aligns with prompt-to-site generation rather than repo editing or coding agents.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-Site Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:35.063Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:14.343Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

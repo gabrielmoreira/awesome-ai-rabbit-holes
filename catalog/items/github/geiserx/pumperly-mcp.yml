@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__pumperly-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: GPL-3.0
     archived: false
     created_at: "2026-04-01T10:40:16Z"
-    pushed_at: "2026-04-25T00:39:16Z"
+    pushed_at: "2026-05-06T08:53:38Z"
     description: MCP Server for Pumperly — real-time fuel and EV charging prices, station search, and route planning via MCP
     homepage: null
     topics:
@@ -53,50 +53,50 @@ metadata:
       - route-planning
       - self-hosted
       - stdio
-    last_checked_at: "2026-05-05T21:02:18.408Z"
+    last_checked_at: "2026-05-06T22:43:59.719Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.408Z"
+      fetched_at: "2026-05-06T22:43:59.719Z"
       bytes: 7466
 insights:
-  summary: A Go-based MCP server that exposes a Pumperly instance as a Model Context Protocol endpoint for querying real-time fuel prices, locating EV charging stations, and performing route planning and geocoding.
-  why_it_matters: It lets developers augment LLM workflows with live location and fuel data without building custom API integrations for European fuel and EV infrastructure.
-  mental_damage: "We have finally achieved the singularity: an MCP server for your MCP server to ask about petrol prices while your agent plans a route to the nearest charging station."
+  summary: A self-hosted MCP server that exposes a Pumperly instance to LLMs, enabling real-time fuel prices, EV charging station search, and route planning via the Model Context Protocol.
+  why_it_matters: It lets developers wire location-specific fuel and EV data into coding agents and tool-using LLMs without building custom API integrations.
+  mental_damage: We have finally reached the point where an AI agent can plan a road trip to the nearest charger, while your actual code still won't compile.
   tags:
     - mcp
-    - go
     - self-hosted
+    - go
     - location-services
     - ev-charging
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation listed in the awesome-mcp-servers directory under location services, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server purpose-built to expose fuel and EV charging data to LLMs, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - "Repo description states: 'MCP Server for Pumperly — real-time fuel and EV charging prices, station search, and route planning via MCP'."
-    - "README confirms: 'A tiny bridge that exposes any Pumperly instance as an MCP server, enabling LLMs to query real-time fuel prices...'."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Location Services'.
+    - Repo description explicitly states 'MCP Server for Pumperly — real-time fuel and EV charging prices'
+    - README confirms 'A tiny bridge that exposes any Pumperly instance as an MCP server'
+    - Listed in awesome-mcp-servers under 'Location Services', aligning with its MCP-first identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.408Z"
+    updated_at: "2026-05-06T22:43:59.719Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:48.951Z"
+    updated_at: "2026-05-06T22:57:10.327Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

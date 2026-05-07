@@ -1,12 +1,12 @@
 id: v0__dev
 kind: website
-name: v0
+name: v0.dev
 canonical_url: https://v0.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__v0__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "## [v0 by Vercel](https://v0.dev/)"
         confidence: high
     - id: discovery__v0__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -36,7 +36,7 @@ provenance:
         surrounding_text: "- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text prompts."
         confidence: high
     - id: discovery__v0__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -64,44 +64,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: v0.dev is a browser-first AI tool by Vercel that generates React components, full web applications, and UI layouts from natural language prompts.
-  why_it_matters: It allows developers to scaffold functional front-end code and responsive layouts instantly, significantly speeding up the prototyping phase without leaving the browser.
-  mental_damage: You can now generate a beautifully styled, production-ready checkout flow in 30 seconds, only to spend the next three hours trying to convince your team that generating the entire app via prompt doesn't mean you don't need a version control strategy.
+  summary: v0.dev is a Vercel product that generates React components, front-end code, and app scaffolds from natural language prompts and images.
+  why_it_matters: It allows developers to rapidly prototype and ship UI by converting text or designs directly into production-ready code and deployable applications.
+  mental_damage: Another reason to question whether 'front-end developer' is a job description or just a very expensive prompt engineering phase.
   tags:
-    - frontend
-    - prototyping
-    - react
+    - prompt-to-app
     - ui-generation
     - vercel
+    - react
   confidence: high
 curation:
   status: included
-  reason: It is a hosted, browser-first product that turns prompts into full applications and deployed tools, fitting the app-builders definition over coding-agents.
+  reason: The primary product surface turns prompts and images into apps and UI components rather than acting as a repo-editing coding assistant.
   evidence:
-    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
-    - URL is a hosted SaaS product (v0.dev) rather than a repo or IDE plugin.
-    - Described as an AI tool for generating code and apps from prompts.
+    - Seen in awesome-ai-coding-tools under the 'App Builders' section.
+    - Product identity is generating apps/scaffolds from prompts, matching the App Builders category instructions.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:01.142Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:53.749Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

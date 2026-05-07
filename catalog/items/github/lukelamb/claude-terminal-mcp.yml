@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lukelamb__claude-terminal-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -49,14 +49,14 @@ metadata:
       - nodejs
       - shell
       - terminal
-    last_checked_at: "2026-05-05T21:03:25.649Z"
+    last_checked_at: "2026-05-06T22:45:04.777Z"
     readme:
-      fetched_at: "2026-05-05T21:03:25.649Z"
+      fetched_at: "2026-05-06T22:45:04.777Z"
       bytes: 6956
 insights:
-  summary: A zero-dependency MCP extension that gives Claude Desktop terminal, filesystem, and background job access on Linux via an installable .mcpb package.
-  why_it_matters: It enables developers on Linux to grant Claude direct shell and file access for local automation, filling a gap left by the platform's limited config-based MCP support.
-  mental_damage: We have successfully reached the point where we install unverified extensions to let an AI hold an SSH-grade session on our main machine, guarded only by a denylist that admits it can be trivially bypassed.
+  summary: A zero-dependency MCP extension that gives Claude Desktop on Linux terminal, filesystem, and background-job access via an installable .mcpb package.
+  why_it_matters: It fills a Linux-specific gap where standard MCP server configs don't load, letting developers grant Claude shell and file access through the extension UI instead.
+  mental_damage: We've reached the point where a brand-new repo with zero stars is quietly handing unrestricted bash access to an AI on your primary user account, and we call it a productivity win.
   tags:
     - mcp
     - claude-desktop
@@ -66,33 +66,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is itself an installable MCP server/extension that adds tooling to Claude Desktop, which fits the MCP Servers and Tooling category directly.
+  reason: The product identity is an MCP server extension that exposes terminal and filesystem tools to Claude Desktop, fitting cleanly as MCP infrastructure rather than a standalone assistant or generic extension.
   evidence:
     - Repo description explicitly calls it a 'Zero-dependency MCP extension' for Claude Desktop.
-    - README details 8 exposed MCP tools (run_command, read_file, list_directory, etc.) packaged as a .mcpb extension.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Command Line'.
+    - README states it 'exposes 8 tools to Claude' via an installable Terminal.mcpb, targeting the MCP extension model on Linux.
+    - Listed in awesome-mcp-servers under Server Implementations > Command Line, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:25.649Z"
+    updated_at: "2026-05-06T22:45:04.777Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:56.764Z"
+    updated_at: "2026-05-06T23:10:51.534Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

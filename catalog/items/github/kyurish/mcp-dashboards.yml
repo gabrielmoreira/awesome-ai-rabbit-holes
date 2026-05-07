@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyurish__mcp-dashboards__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -49,50 +49,50 @@ metadata:
       - model-context-protocol
       - real-time
       - themes
-    last_checked_at: "2026-05-05T21:03:14.594Z"
+    last_checked_at: "2026-05-06T22:44:53.201Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.594Z"
+      fetched_at: "2026-05-06T22:44:53.201Z"
       bytes: 12040
 insights:
-  summary: An MCP server that renders interactive dashboards, charts, and KPI widgets directly inside AI clients like Claude Desktop and VS Code using 44+ chart types and 21 themes.
-  why_it_matters: It lets developers visualize data inline during AI conversations instead of context-switching to spreadsheets or BI tools when asking models to analyze datasets.
-  mental_damage: We have successfully reached the point where our AI needs a dedicated server just to render a bar chart so we don't have to open a browser tab.
+  summary: An MCP server that renders interactive charts, dashboards, and KPI widgets directly inside AI clients using 44+ chart types and 21 themes.
+  why_it_matters: It lets developers visualize data and build dashboards inline during AI conversations without context-switching to spreadsheets or BI tools.
+  mental_damage: We have successfully reached the point where your AI needs its own Chart.js frontend so you don't have to Alt-Tab away from the prompt box.
   tags:
     - mcp
     - data-visualization
     - dashboards
     - charts
-    - claude
-  confidence: high
+    - ai-clients
+  confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server that extends AI clients with data visualization capabilities, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that gives AI clients data visualization capabilities, which fits MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description explicitly states 'MCP Apps powered' and topics include mcp-server and model-context-protocol
-    - README demonstrates it runs as an MCP server configured in claude_desktop_config.json and supports Streamable HTTP
-    - Listed in awesome-mcp-servers under Server Implementations > Data Visualization
+    - "Repo description: 'Turn your data into interactive dashboards inside any AI client - MCP Apps powered'"
+    - README states it is a single MCP server with 31 tools covering 44+ chart subtypes for clients like Claude Desktop and VS Code
+    - Listed in awesome-mcp-servers under 'Data Visualization' as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.594Z"
+    updated_at: "2026-05-06T22:44:53.201Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:47.456Z"
+    updated_at: "2026-05-06T23:08:09.817Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

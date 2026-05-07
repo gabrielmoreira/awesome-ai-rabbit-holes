@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__bridge-rates-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: An MCP server that delivers real-time cross-chain bridge rates and optimal transfer routes to  onchain AI agents.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:09.612Z"
+    last_checked_at: "2026-05-06T22:44:46.455Z"
     readme:
-      fetched_at: "2026-05-05T21:03:09.612Z"
+      fetched_at: "2026-05-06T22:44:46.455Z"
       bytes: 4376
 insights:
-  summary: An MCP server that provides real-time cross-chain bridge rates and optimal transfer routes for onchain AI agents by integrating with LI.FI.
-  why_it_matters: It allows AI agents to fetch live bridging data and evaluate transfer routes programmatically, removing the need to manually check rates across multiple bridges.
-  mental_damage: Your AI agent can now autonomously waste gas on cross-chain transfers at machine speed, completely unassisted by human hesitation.
+  summary: An MCP server that provides real-time cross-chain bridge rates and optimal transfer routes for onchain AI agents via the LI.FI API.
+  why_it_matters: Developers building AI agents that interact with DeFi protocols can equip them with live bridge data and route optimization without writing custom API integrations.
+  mental_damage: We have finally reached the point where your AI agent needs an MCP server just to figure out which bridge won't drain the treasury, while you still manually check Etherscan.
   tags:
     - mcp
-    - crypto
     - defi
-    - bridge
-    - li.fi
+    - blockchain
+    - finance
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server that exposes cross-chain bridging tools for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server delivering domain-specific bridge rate data, fitting cleanly into MCP Servers & Tooling as a finance domain server.
   evidence:
-    - Repo description explicitly states 'An MCP server that delivers real-time cross-chain bridge rates'
-    - README describes integration with MCP clients like Claude Desktop and lists specific MCP tools (getBridgeRates, getSupportedChains)
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory
+    - Repo description states it is 'An MCP server that delivers real-time cross-chain bridge rates'.
+    - README documents MCP tools like `getBridgeRates` and configuration for MCP clients like Claude Desktop.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:09.612Z"
+    updated_at: "2026-05-06T22:44:46.455Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:40.903Z"
+    updated_at: "2026-05-06T23:06:58.229Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

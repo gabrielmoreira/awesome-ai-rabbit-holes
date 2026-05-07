@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kaushikb11__awesome-llm-agents__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1458
-    forks: 267
+    stars: 1459
+    forks: 269
     license: null
     archived: false
     created_at: "2023-04-04T10:22:43Z"
@@ -35,50 +35,50 @@ metadata:
       - agents
       - langchain
       - llm
-    last_checked_at: "2026-05-05T21:03:03.077Z"
+    last_checked_at: "2026-05-06T22:44:40.850Z"
     readme:
-      fetched_at: "2026-05-05T21:03:03.077Z"
+      fetched_at: "2026-05-06T22:44:40.850Z"
       bytes: 22535
 insights:
-  summary: A curated, actively updated directory listing frameworks and tools for building LLM-based agents.
-  why_it_matters: It provides a centralized map of the rapidly expanding agent ecosystem, helping developers quickly compare frameworks like CrewAI, LangChain, and AutoGen without wading through individual READMEs.
-  mental_damage: "Just what we needed: a single, 1,400-star list to help us choose which of the 1,400 agent frameworks we should have used six months ago."
+  summary: A curated, frequently updated awesome list indexing LLM agent frameworks, orchestration tools, and development platforms.
+  why_it_matters: It serves as a centralized map for developers trying to navigate the rapidly expanding and often redundant ecosystem of agent frameworks.
+  mental_damage: Because nothing says 'I am optimizing my workflow' quite like spending three hours browsing a list of tools that all promise to do the exact same thing.
   tags:
     - agents
-    - llm
-    - framework
-    - directory
     - awesome-list
+    - directory
+    - frameworks
+    - llm
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of agent tools rather than a standalone developer tool or product, fitting the 'awesome-awesomes' category.
+  reason: The project is a curated directory and index of other tools rather than a standalone product, framework, or agent itself.
   evidence:
     - "Repo description explicitly states: 'A curated list of awesome LLM agents frameworks.'"
-    - README is structured as a directory listing frameworks like CrewAI, LangChain, and AutoGen with star counts.
-    - Marked as a 'Direct awesome list source' in the inputs.
+    - README confirms it is a list containing entries for CrewAI, Langchain, AutoGen, etc., with star counts and descriptions.
+    - Direct awesome list source is marked as 'yes', confirming its identity as a navigation aid.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1458) exceeded threshold (150)
+  reason: Stars (1459) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:03.077Z"
+    updated_at: "2026-05-06T22:44:40.850Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:30:09.137Z"
+    updated_at: "2026-05-06T23:05:39.798Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andrealufino__aapl-ads-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,50 +39,49 @@ metadata:
       - apple-search-ads
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:01:03.089Z"
+    last_checked_at: "2026-05-06T22:12:37.696Z"
     readme:
-      fetched_at: "2026-05-05T21:01:03.089Z"
+      fetched_at: "2026-05-06T22:12:37.696Z"
       bytes: 6990
 insights:
-  summary: A self-hosted MCP server that exposes read-only access to the Apple Search Ads API v5, allowing MCP-compatible clients like Claude to query campaigns, ad groups, keywords, and performance reports using natural language.
-  why_it_matters: It lets developers and marketers automate ad-hoc Apple Search Ads analysis and reporting through AI assistants instead of manually navigating the official dashboards or writing custom API wrappers.
-  mental_damage: We have successfully abstracted away the dashboard so you can now ask an LLM why your CPI spiked, though you still have to debug PEM file formats from 2026.
+  summary: A self-hosted MCP server that exposes read-only tools for querying Apple Search Ads API v5 data, such as campaigns, keywords, and performance reports.
+  why_it_matters: It lets developers ask natural-language questions about their ad performance directly inside MCP-compatible clients like Claude Desktop instead of wrestling with the official ASA dashboards.
+  mental_damage: You can now outsource your ad-hoc Apple Search Ads reporting to a chatbot, while the real damage remains that you are still running Apple Search Ads.
   tags:
     - mcp
     - apple-search-ads
     - self-hosted
-    - node
     - marketing
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation for a specific API, which fits squarely into the MCP Servers and Tooling category.
+  reason: "MCP is the core product identity: a self-hosted, read-only MCP server built specifically to expose Apple Search Ads API v5 tools to MCP-compatible clients."
   evidence:
-    - Repo description explicitly states 'MCP server for Apple Search Ads API v5'.
-    - README confirms it 'implements the MCP stdio transport' and exposes tools for ASA data.
-    - Listed under 'Server Implementations > Marketing' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'MCP server for Apple Search Ads API v5 — read-only, self-hosted'.
+    - README positions the project as an MCP server implementing stdio transport with 9 read-only tools for ASA data.
+    - Listed in awesome-mcp-servers under Server Implementations > Marketing, which aligns with its MCP-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:03.089Z"
+    updated_at: "2026-05-06T22:12:37.696Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:05.425Z"
+    updated_at: "2026-05-06T22:21:12.344Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

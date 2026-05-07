@@ -1,13 +1,13 @@
 id: github__maplemx__agently
 kind: github-repo
-name: Agently
+name: agently
 canonical_url: https://github.com/maplemx/agently
 identity:
   github_repo: maplemx/agently
 provenance:
   discoveries:
     - id: discovery__github__maplemx__agently__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,49 +32,50 @@ metadata:
     description: "[GenAI Application Development Framework]  🚀 Build GenAI application quick and easy 💬 Easy to interact with GenAI agent in code using structure data and chained-calls syntax 🧩 Use Event-Driven Flow *TriggerFlow* to manage complex GenAI working logic 🔀 Switch to any model without rewrite application code"
     homepage: http://agently.tech
     topics: []
-    last_checked_at: "2026-05-05T21:03:28.436Z"
+    last_checked_at: "2026-05-06T22:45:07.638Z"
     readme:
-      fetched_at: "2026-05-05T21:03:28.436Z"
+      fetched_at: "2026-05-06T22:45:07.638Z"
       bytes: 16095
 insights:
-  summary: A Python framework for building GenAI applications with structured outputs, event-driven TriggerFlow orchestration, and model-agnostic switching.
-  why_it_matters: It gives developers a code-first way to tame LLM output drift and complex multi-step agent workflows without rewriting their stack when switching models.
-  mental_damage: Another framework promising to engineer the uncertainty out of your POCs, just in case the four other agent frameworks on your filesystem suddenly stop being the one true way.
+  summary: Agently is a Python framework for building GenAI applications with event-driven TriggerFlow orchestration, contract-first output control, and model-agnostic switching.
+  why_it_matters: It gives developers structured primitives to turn unpredictable LLM behavior into testable, maintainable production workflows without rewriting code to swap models.
+  mental_damage: Yet another framework promising to tame LLM chaos, ensuring you can now debug your agent logic and your workflow graph simultaneously.
   tags:
     - agents
     - framework
-    - orchestration
     - python
-  confidence: medium
+    - orchestration
+    - llm
+  confidence: high
 curation:
   status: included
-  reason: This is a developer-importable SDK for embedding agent and orchestration behavior into Python applications, which clearly fits the AI Frameworks and SDKs category.
+  reason: The product is a code-first SDK and framework for building GenAI applications, not an operated platform or standalone coding assistant.
   evidence:
-    - Repo description defines it as a 'GenAI Application Development Framework' with chained-calls and TriggerFlow orchestration.
-    - README positions it as a code-first framework for building production-grade AI apps with session, tool logs, and FastAPI integration.
-    - It is listed in awesome-LLM-resources under the '智能体 Agents' section, aligning with its agent-framework focus.
+    - Repo description explicitly calls it a 'GenAI Application Development Framework' with chained-calls and TriggerFlow.
+    - README positions it as a Python library for contract-first output control, session management, and model switching.
+    - Developers use it as a framework via pip install, with optional devtools, fitting the code-first building-block model.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:33.524Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:28.436Z"
+    updated_at: "2026-05-06T22:45:07.638Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:11:31.125Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

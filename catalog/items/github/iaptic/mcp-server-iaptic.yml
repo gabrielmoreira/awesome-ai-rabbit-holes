@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__iaptic__mcp-server-iaptic__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue statistics."
         confidence: high
     - id: discovery__github__iaptic__mcp-server-iaptic__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,49 @@ metadata:
     description: " Model Context Protocol server for interacting with iaptic"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:40.368Z"
+    last_checked_at: "2026-05-06T22:44:21.044Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.367Z"
+      fetched_at: "2026-05-06T22:44:21.044Z"
       bytes: 3773
 insights:
-  summary: An MCP server that exposes the Iaptic API, allowing AI assistants like Claude to query customer data, purchases, transactions, and statistics directly.
-  why_it_matters: It lets developers hook their in-app purchase management platform into their AI workflow, enabling natural language queries over financial data without building a custom integration.
-  mental_damage: Yet another niche MCP server proving that if a REST API exists, someone will inevitably wrap it in a protocol so an LLM can ask about yesterday's Stripe revenue.
+  summary: An MCP server that exposes Iaptic customer, purchase, transaction, and statistics data to AI assistants like Claude.
+  why_it_matters: Developers can enable AI assistants to directly query live app monetization data instead of manually exporting or explaining revenue context.
+  mental_damage: "We have finally automated the one remaining task between a developer and their Stripe revenue dashboard: asking Claude to ask the MCP server to ask the API to tell them their MRR."
   tags:
     - mcp
-    - iaptic
-    - api-wrapper
-    - nodejs
+    - iap
+    - monetization
+    - data-connector
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server implementation for a specific API, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that exposes a specific domain (Iaptic) to MCP-compatible clients, fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol server for interacting with iaptic'."
-    - README details tools for customers, purchases, transactions, and statistics exposed via MCP.
-    - Listed in 'awesome-mcp-list' and 'awesome-mcp-servers' under Customer Data Platforms sections.
+    - Repo description states 'Model Context Protocol server for interacting with iaptic'
+    - README confirms it is 'A Model Context Protocol server for interacting with the Iaptic API'
+    - Appears in awesome-mcp-list and awesome-mcp-servers under Customer Data Platforms
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.368Z"
+    updated_at: "2026-05-06T22:44:21.044Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:20.143Z"
+    updated_at: "2026-05-06T23:01:33.647Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,75 @@
+id: arxiv__org__pdf__2510__18692
+kind: website
+name: "2510.18692"
+canonical_url: https://arxiv.org/pdf/2510.18692
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__arxiv__org__pdf__2510__18692__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: MoGA
+        extracted_url: https://arxiv.org/pdf/2510.18692
+        surrounding_text: 19. [MoGA](https://arxiv.org/pdf/2510.18692) `长视频`
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An arXiv research paper (2510.18692) about LLM-related topics, linked as a PDF rather than a usable developer tool.
+  why_it_matters: It aggregates LLM resources that may inform tool choices, but only if you enjoy reading academic PDFs instead of shipping code.
+  mental_damage: Nothing says 'productive sprint' like adding a PDF link to your backlog and pretending it counts as integrating AI tooling.
+  tags:
+    - research-paper
+    - llm-resources
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a research paper PDF, not a usable developer tool, agent, framework, or directory, and therefore falls outside the catalog's scope of practical AI tooling.
+  evidence:
+    - URL points to https://arxiv.org/pdf/2510.18692, which is a static PDF of an academic paper
+    - No repo description, README, stars, or code artifacts are provided to indicate a usable product
+    - Source-list context shows it is listed in awesome-LLM-resources as a video or model resource, not as a standalone developer tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:10.317Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

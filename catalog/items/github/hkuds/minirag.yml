@@ -1,13 +1,13 @@
 id: github__hkuds__minirag
 kind: github-repo
-name: MiniRAG
+name: minirag
 canonical_url: https://github.com/hkuds/minirag
 identity:
   github_repo: hkuds/minirag
 provenance:
   discoveries:
     - id: discovery__github__hkuds__minirag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1877
-    forks: 244
+    stars: 1879
+    forks: 245
     license: MIT
     archived: false
     created_at: "2025-01-11T13:24:14Z"
@@ -35,50 +35,50 @@ metadata:
       - large-language-models
       - rag
       - retrieval-augmented-generation
-    last_checked_at: "2026-05-05T21:02:34.956Z"
+    last_checked_at: "2026-05-06T22:44:15.786Z"
     readme:
-      fetched_at: "2026-05-05T21:02:34.956Z"
+      fetched_at: "2026-05-06T22:44:15.786Z"
       bytes: 8272
 insights:
-  summary: MiniRAG is a lightweight retrieval-augmented generation framework that enables small, open-source language models to perform effective RAG using heterogeneous graph indexing and topology-enhanced retrieval.
-  why_it_matters: It allows developers to build RAG systems that run on resource-constrained devices or with smaller models, reducing storage costs by 75% compared to traditional methods.
-  mental_damage: Yet another RAG framework arrives to assure you that this time, the graph topology will finally solve the context problem without requiring a PhD in knowledge graphs.
+  summary: MiniRAG is a lightweight retrieval-augmented generation framework optimized to run effectively on small, open-source language models using heterogeneous graph indexing.
+  why_it_matters: It provides a code-first SDK for building RAG systems that perform well on resource-constrained hardware without requiring massive LLM backends.
+  mental_damage: Finally, a RAG framework simple enough that you can run it locally and still have room left on the hard drive to store your 47 other abandoned RAG experiments.
   tags:
-    - framework
-    - graph-retrieval
-    - lightweight
     - rag
-    - small-language-models
+    - framework
+    - llm
+    - graph-indexing
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first SDK/framework for embedding RAG behavior into applications using small models and graph-based retrieval, fitting the AI Frameworks category.
+  reason: The project is a code-first library (pip installable) providing retrieval and indexing infrastructure for RAG workflows, fitting the Frameworks & SDKs category.
   evidence:
-    - Repo description identifies it as a framework for RAG using small and open-sourced language models.
-    - README shows it is importable via pip (minirag-hku) and reproducible via Python scripts.
-    - Classified under '知识库 RAG' in awesome-LLM-resources, confirming its RAG framework positioning.
+    - Repo description identifies it as a framework for RAG using small language models.
+    - README provides a Quick Start using `pip install minirag-hku` and Python scripts, confirming a code-first SDK identity.
+    - It is listed in awesome-LLM-resources under the '知识库 RAG' (Knowledge Base RAG) section.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1877) exceeded threshold (150)
+  reason: Stars (1879) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:07.852Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:34.956Z"
+    updated_at: "2026-05-06T22:44:15.786Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:24.221Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

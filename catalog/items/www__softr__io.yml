@@ -1,12 +1,12 @@
 id: www__softr__io
 kind: website
-name: Softr
+name: www.softr.io
 canonical_url: https://www.softr.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__softr__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Softr is a no-code SaaS platform that uses AI to generate custom business apps, portals, and internal tools from text descriptions, integrating with data sources like Airtable and Notion.
-  why_it_matters: It allows developers to rapidly prototype and hand off business-facing tools without writing boilerplate CRUD code, acting as a bridge between data sources and functional web apps.
-  mental_damage: Yet another reminder that while we spend weeks debating state management libraries, the rest of the world is building entire ERPs by describing them to a chatbot.
+  summary: Softr is a no-code platform that uses AI to generate business apps, internal tools, and portals by describing requirements over connected data sources like Airtable, Notion, and Google Sheets.
+  why_it_matters: It allows developers to rapidly scaffold internal operational tools and CRMs via prompts, bypassing the need to manually wire up databases and UIs for common business workflows.
+  mental_damage: Another victory for the 'describe it and ship' movement, ensuring developers can now spend their afternoons explaining to stakeholders why the AI-built portal still needs a human to configure the permissions.
   tags:
-    - ai-generation
-    - app-builder
-    - internal-tools
     - no-code
+    - internal-tools
+    - ai-builder
+    - business-apps
   confidence: high
 curation:
   status: included
-  reason: It is a browser-first SaaS product that generates full internal tools and portals from prompts, fitting the app-builders category rather than coding-agents.
+  reason: The product is a prompt-to-app builder specifically targeting internal tools and dashboards, fitting the App Builders category definition over a generic coding agent.
   evidence:
-    - Site title and description explicitly state 'Build Custom AI Business Apps, Portals & Internal Tools with No Code'.
-    - "Primary feature is 'Co-build with AI: Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'"
-    - Already categorized under 'App Builders' in the awesome-ai-coding-tools source list.
+    - Scraped site title describes it as 'Build Custom AI Business Apps, Portals & Internal Tools with No Code'.
+    - "Site excerpt states: 'Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'"
+    - Listed in awesome-ai-coding-tools under the 'App Builders' section.
 placement:
   primary_category: app-builders
-  section: null
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:25.156Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:40.487Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

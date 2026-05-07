@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__detrol__quorum-cli__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -42,50 +42,50 @@ metadata:
       - ollama
       - openai
       - terminal-ui
-    last_checked_at: "2026-05-05T21:01:52.249Z"
+    last_checked_at: "2026-05-06T22:43:37.442Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.249Z"
+      fetched_at: "2026-05-06T22:43:37.442Z"
       bytes: 30606
 insights:
-  summary: A terminal-based CLI and MCP server that orchestrates structured debates and discussions between multiple LLMs, including local models via Ollama.
-  why_it_matters: It lets developers leverage multi-model consensus, brainstorming, and structured debate directly from the terminal or within Claude Code/Desktop via MCP to evaluate technical decisions.
-  mental_damage: Because the only thing better than one AI confidently hallucinating about your architecture is four of them arguing about it in a terminal war room.
+  summary: A terminal and web CLI that runs structured, multi-model debates between LLMs like GPT, Claude, Gemini, and local Ollama models using formal discussion methods.
+  why_it_matters: It lets developers surface trade-offs and reach consensus by watching different models argue about architecture, tooling, and design decisions inside the terminal or Claude Code via MCP.
+  mental_damage: Finally, a tool that lets GPT-4o, Claude, and Gemini argue about your PostgreSQL vs MongoDB debate so you can feel superior to all three at once.
   tags:
     - multi-agent
     - cli
+    - debate
     - mcp
-    - llm-debate
-    - terminal
+    - llm
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing CLI and MCP tool for coordinating multiple AI agents in structured discussions, fitting agent orchestration rather than a coding agent that edits repos directly.
+  reason: The core product is a multi-agent collaboration surface designed to coordinate structured debates between multiple LLMs, fitting the agent orchestration workbench profile rather than a single coding agent.
   evidence:
-    - Repo description states it is a 'Multi-agent AI discussion CLI for structured debates between LLMs'.
-    - README highlights integration with Claude Code/Desktop via MCP for multi-model discussions, not direct code editing.
-    - Listed under 'Frameworks' in the awesome-llm-agents source list as a multi-agent discussion system.
+    - "Repo description: 'Multi-agent AI discussion CLI for structured debates between LLMs'"
+    - "README: 'Multi-agent AI discussion system for structured debates... let them debate, brainstorm, or deliberate using seven different methods'"
+    - Also provides an MCP server to integrate debates into Claude Code/Desktop workflows
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.249Z"
+    updated_at: "2026-05-06T22:43:37.442Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:13.563Z"
+    updated_at: "2026-05-06T22:52:34.938Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

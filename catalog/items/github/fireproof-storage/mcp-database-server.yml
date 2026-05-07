@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fireproof-storage__mcp-database-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [fireproof-storage/mcp-database-server](https://github.com/fireproof-storage/mcp-database-server) 📇 ☁️ - Fireproof ledger database with multi-user sync"
         confidence: high
     - id: discovery__github__fireproof-storage__mcp-database-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Fireproof](https://github.com/fireproof-storage/mcp-database-server)** - Immutable ledger database with live synchronization"
         confidence: high
     - id: discovery__github__fireproof-storage__mcp-database-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -63,49 +63,50 @@ metadata:
     description: Store and load JSON documents from LLM tool use
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:11.574Z"
+    last_checked_at: "2026-05-06T22:43:54.265Z"
     readme:
-      fetched_at: "2026-05-05T21:02:11.574Z"
+      fetched_at: "2026-05-06T22:43:54.265Z"
       bytes: 1239
 insights:
-  summary: A Model Context Protocol server that provides LLMs with CRUD and query access to JSON documents stored in a Fireproof database.
-  why_it_matters: It gives AI assistants like Claude Desktop a persistent, queryable state layer for JSON data without requiring custom database integration work.
-  mental_damage: We have successfully abstracted the database into a protocol, so now your LLM can persist its hallucinations with the robust reliability of a JSON document store.
+  summary: A demo MCP server that exposes a Fireproof JSON document store with CRUD and query operations for LLM tool use.
+  why_it_matters: It provides a concrete reference implementation for plugging local JSON document storage into MCP-compatible assistants like Claude Desktop.
+  mental_damage: Another indispensable brick in the towering cathedral of MCP infrastructure we are all definitely going to standardize on before next week.
   tags:
     - mcp
     - database
-    - fireproof
     - json
-  confidence: high
+    - fireproof
+    - demo
+  confidence: medium
 curation:
   status: included
-  reason: This is a Model Context Protocol server implementation providing database tooling for LLMs, which fits the MCP category directly.
+  reason: It is an MCP server implementation for document storage, fitting cleanly as domain-specific MCP infrastructure rather than a generic framework or extension.
   evidence:
-    - Repo description states it is for storing and loading JSON documents from LLM tool use via MCP.
-    - README confirms it is a Model Context Protocol server using Fireproof for Claude Desktop integration.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under the Databases section.
+    - "Repo description: 'Store and load JSON documents from LLM tool use'"
+    - "README: 'demo server implements a basic JSON document store with CRUD operations... used for plugging code and data into A.I. systems such as Claude Desktop'"
+    - Included in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.660Z"
+    updated_at: "2026-05-06T22:12:15.577Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:11.574Z"
+    updated_at: "2026-05-06T22:43:54.265Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:39.424Z"
+    updated_at: "2026-05-06T22:56:03.198Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

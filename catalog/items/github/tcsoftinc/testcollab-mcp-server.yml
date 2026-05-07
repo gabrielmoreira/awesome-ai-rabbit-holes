@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tcsoftinc__testcollab-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 3
+    forks: 1
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-01-21T06:20:01Z"
+    pushed_at: "2026-03-30T03:05:08Z"
+    description: MCP server for TestCollab test management. Lets AI coding assistants (Claude Code, Cursor, Windsurf, Codex) create, update, and query test cases, create test plans, and suite hierarchy. Connect your AI workflow to your QA process.
+    homepage: https://testcollab.com
+    topics: []
+    last_checked_at: "2026-05-06T22:46:41.799Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:41.799Z"
+      bytes: 5789
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects AI coding assistants like Claude Code, Cursor, and Windsurf to TestCollab, enabling the creation, update, and querying of test cases, plans, and suites directly from the chat interface.
+  why_it_matters: It bridges the gap between AI-generated code and formal QA processes by allowing developers to manage their entire test lifecycle without leaving their coding assistant.
+  mental_damage: We have successfully automated the burden of switching browser tabs to update test cases, though the test cases themselves remain as diligently ignored by the AI as they were by us.
+  tags:
+    - mcp
+    - qa
+    - testing
+    - integration
+    - testcollab
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is an MCP server specifically built to expose TestCollab's test management capabilities to MCP-compatible clients.
+  evidence:
+    - "Repo description explicitly states: 'MCP server for TestCollab test management'."
+    - README details integration with Claude, Cursor, Windsurf, and Codex via standard MCP configuration files.
+    - Listed in the awesome-mcp-servers directory under 'Developer Tools'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:41.799Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:44.249Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

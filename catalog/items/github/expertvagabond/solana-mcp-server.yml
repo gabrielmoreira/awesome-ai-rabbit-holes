@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__expertvagabond__solana-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - model-context-protocol
       - solana
       - tools
-    last_checked_at: "2026-05-05T21:02:06.651Z"
+    last_checked_at: "2026-05-06T22:43:49.785Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.651Z"
+      fetched_at: "2026-05-06T22:43:49.785Z"
       bytes: 5450
 insights:
-  summary: An MCP server providing 25 tools for Solana blockchain interactions, including wallet management, SPL token lifecycle operations, transfers, and network queries.
-  why_it_matters: It allows AI coding assistants to manage the full lifecycle of Solana tokens and wallets directly from the chat interface, removing the need to manually construct CLI commands or raw RPC calls.
-  mental_damage: We've reached the point where the AI needs a dedicated server just to handle the existential dread of managing Solana token authorities.
+  summary: A Model Context Protocol server that exposes 25 tools for interacting with the Solana blockchain, including wallet management, SPL token operations, and network queries.
+  why_it_matters: It allows AI coding assistants to natively manage Solana wallets, mint tokens, and interact with DeFi protocols without developers writing raw web3.js glue code.
+  mental_damage: We have now successfully abstracted away the last remaining friction of deploying unaudited tokens by giving an LLM the private keys.
   tags:
     - mcp
     - solana
     - blockchain
     - web3
-    - tools
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to extend AI assistants with Solana blockchain capabilities, fitting the MCP infrastructure category.
+  reason: The product identity is an MCP server for Solana, fitting perfectly into the Domain Servers section of the MCP category.
   evidence:
-    - Repo description explicitly states 'Solana MCP server for wallet management, transactions, and program interactions'.
-    - README confirms it is a 'Full Solana blockchain MCP server' with 25 tools for MCP hosts like Claude Desktop.
-    - Listed in the 'awesome-mcp-servers' directory under Finance & Fintech implementations.
+    - Repo description explicitly states 'Solana MCP server' with topics including mcp and mcp-server.
+    - README positions it as a tool for Claude Desktop config ('claude_desktop_config.json') with 25 specific Solana tools.
+    - Included in the 'awesome-mcp-servers' list under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.651Z"
+    updated_at: "2026-05-06T22:43:49.785Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:45.345Z"
+    updated_at: "2026-05-06T22:55:10.517Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

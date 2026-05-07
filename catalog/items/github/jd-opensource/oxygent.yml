@@ -1,13 +1,13 @@
 id: github__jd-opensource__oxygent
 kind: github-repo
-name: OxyGent
+name: oxygent
 canonical_url: https://github.com/jd-opensource/oxygent
 identity:
   github_repo: jd-opensource/oxygent
 provenance:
   discoveries:
     - id: discovery__github__jd-opensource__oxygent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,59 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1845
+    stars: 1844
     forks: 262
     license: NOASSERTION
     archived: false
     created_at: "2025-07-18T02:40:42Z"
-    pushed_at: "2026-04-30T09:16:24Z"
+    pushed_at: "2026-05-06T15:28:31Z"
     description: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction"
     homepage: https://oxygent.jd.com
     topics: []
-    last_checked_at: "2026-05-05T21:02:53.524Z"
+    last_checked_at: "2026-05-06T22:44:32.694Z"
     readme:
-      fetched_at: "2026-05-05T21:02:53.524Z"
+      fetched_at: "2026-05-06T22:44:32.694Z"
       bytes: 8569
 insights:
-  summary: OxyGent is a Python framework for building modular, observable, and evolvable multi-agent systems using standardized 'Oxy' components.
-  why_it_matters: It provides developers with a structured way to assemble, debug, and scale collaborative AI agents with hot-swappable components and built-in evaluation loops.
-  mental_damage: Another modular agent framework that promises your distributed AI team will collaborate better than your actual standup ever has.
+  summary: OxyGent is an open-source Python framework for building modular, observable, and evolvable multi-agent systems using standardized Oxy components.
+  why_it_matters: It provides developers with a structured, LEGO-like way to assemble and hot-swap agents, tools, and models while retaining auditability and distributed scheduling.
+  mental_damage: Just when you thought 'agentic' was losing its buzzword sheen, now you can build infinite, self-evolving agent teams that will proudly fail at GAIA benchmarks with 59.14 points of distributed confidence.
   tags:
-    - agent-topology
-    - framework
-    - jd
     - multi-agent
+    - framework
     - python
+    - observability
+    - jd-opensource
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first Python/Java SDK for building multi-agent systems, which fits the AI Frameworks category rather than an orchestration control plane or coding agent.
+  reason: The project is a code-first Python/Java SDK and framework for building multi-agent systems, fitting cleanly as a developer building block rather than an operated platform or standalone coding assistant.
   evidence:
-    - Repo description confirms it is a framework for making multi-agent systems modular and observable.
-    - README describes it as 'an advanced Python framework that empowers developers to quickly build production-ready intelligent systems' with modular Oxy components.
-    - Source list context places it under '智能体 Agents' (Agents), aligning with the framework's focus on agent collaboration.
+    - README describes it as 'an advanced Python framework that empowers developers to quickly build production-ready intelligent systems'
+    - Core features focus on modular Oxy components, Python interfaces, and distributed scheduling for agent topologies
+    - Over 1800 stars and active development (pushed May 2026) show real ecosystem traction for a framework
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1845) exceeded threshold (150)
+  reason: Stars (1844) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:04.567Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:53.524Z"
+    updated_at: "2026-05-06T22:44:32.694Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:57.540Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

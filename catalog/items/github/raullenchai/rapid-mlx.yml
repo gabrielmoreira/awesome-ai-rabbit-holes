@@ -1,13 +1,13 @@
 id: github__raullenchai__rapid-mlx
 kind: github-repo
-name: Rapid-MLX
+name: rapid-mlx
 canonical_url: https://github.com/raullenchai/rapid-mlx
 identity:
   github_repo: raullenchai/rapid-mlx
 provenance:
   discoveries:
     - id: discovery__github__raullenchai__rapid-mlx__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,78 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1694
+    forks: 229
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-25T00:41:44Z"
+    pushed_at: "2026-05-06T20:36:54Z"
+    description: The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Works with Claude Code, Cursor, Aider.
+    homepage: https://pypi.org/project/rapid-mlx
+    topics:
+      - apple-silicon
+      - claude-code
+      - cursor
+      - deepseek
+      - fastapi
+      - hacktoberfest
+      - inference
+      - llm
+      - local-llm
+      - m1
+      - m2
+      - m3
+      - macos
+      - mlx
+      - ollama-alternative
+      - openai-api
+      - python
+      - qwen
+      - tool-calling
+    last_checked_at: "2026-05-06T22:46:06.564Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:06.564Z"
+      bytes: 35025
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor.
+  why_it_matters: It allows developers on Mac to run frontier-sized models locally with minimal latency, enabling private, cost-free usage of tool-calling workflows inside their existing editors.
+  mental_damage: Another Tuesday, another drop-in replacement for OpenAI that turns your Mac into a space heater so you can debug a 4B parameter model's failure to close a div.
+  tags:
+    - local-ai
+    - apple-silicon
+    - mlx
+    - openai-api
+    - tool-calling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product identity is a local runtime and serving stack for Apple Silicon, prioritizing private, on-device execution and OpenAI-compatible API access over being a coding assistant or framework.
+  evidence:
+    - Repo description explicitly calls it 'The fastest local AI engine for Apple Silicon' with 4.2x faster speed than Ollama.
+    - README emphasizes running local models on Mac with an OpenAI-compatible server accessible at localhost:8000.
+    - Topics and README confirm it is an 'ollama-alternative' focused on local inference, tool calling, and integration with editors like Cursor and Claude Code.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Serving / APIs
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1694) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:06.564Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:51.215Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

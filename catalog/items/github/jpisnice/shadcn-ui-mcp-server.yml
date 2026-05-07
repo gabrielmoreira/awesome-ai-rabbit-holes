@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jpisnice__shadcn-ui-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2761
+    stars: 2762
     forks: 289
     license: MIT
     archived: false
@@ -52,49 +52,50 @@ metadata:
       - vue
       - vuejs
       - webdev
-    last_checked_at: "2026-05-05T21:02:59.736Z"
+    last_checked_at: "2026-05-06T22:44:37.559Z"
     readme:
-      fetched_at: "2026-05-05T21:02:59.736Z"
+      fetched_at: "2026-05-06T22:44:37.559Z"
       bytes: 10659
 insights:
-  summary: An MCP server that provides AI assistants with structured access to shadcn/ui v4 component source code, demos, and metadata across React, Svelte, Vue, and React Native frameworks.
-  why_it_matters: It gives coding agents the ability to retrieve accurate, framework-specific shadcn/ui implementations and configuration details directly within the development workflow, reducing hallucinated UI code.
-  mental_damage: We have now successfully abstracted the process of copy-pasting UI components into a protocol that allows an AI to hallucinate them with significantly more authority.
+  summary: An MCP server that provides AI assistants with structured access to shadcn/ui v4 component source code, blocks, and metadata across React, Svelte, Vue, and React Native.
+  why_it_matters: It allows coding agents to retrieve accurate, framework-specific shadcn/ui implementations and installation details directly from the context protocol, reducing hallucinated imports and outdated component patterns.
+  mental_damage: We have now successfully abstracted the act of copying and pasting UI components into a protocol layer, ensuring your AI can confidently misuse shadcn/ui in four frameworks simultaneously.
   tags:
     - mcp
     - shadcn-ui
-    - context-engineering
+    - context-server
     - multi-framework
+    - component-library
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server providing context and tooling infrastructure for AI assistants, fitting squarely into the MCP category.
+  reason: The product's core identity is an MCP server that maps shadcn/ui component knowledge into the Model Context Protocol for assistant consumption.
   evidence:
-    - Repo description explicitly states it is 'A mcp server to allow LLMS gain context about shadcn ui'.
-    - README details MCP transport modes (stdio, SSE) and integration with Claude Desktop and Claude Code.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'A mcp server to allow LLMS gain context about shadcn ui component structure'.
+    - README positions it as 'A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to shadcn/ui v4 components'.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2761) exceeded threshold (150)
+  reason: Stars (2762) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:59.736Z"
+    updated_at: "2026-05-06T22:44:37.559Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:27.783Z"
+    updated_at: "2026-05-06T23:04:58.944Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

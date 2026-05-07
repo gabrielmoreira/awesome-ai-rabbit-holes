@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pipepie__pipepie__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -46,44 +46,50 @@ metadata:
       - self-hosted
       - tunnel
       - webhook
-    last_checked_at: "2026-05-05T23:08:06.197Z"
+    last_checked_at: "2026-05-06T22:45:53.981Z"
     readme:
-      fetched_at: "2026-05-05T23:08:06.197Z"
+      fetched_at: "2026-05-06T22:45:53.981Z"
       bytes: 9062
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted, encrypted tunnel tool for webhooks and local development that includes built-in pipeline tracing and an MCP server for AI tooling integration.
+  why_it_matters: It gives developers a private, observable tunnel for debugging AI webhooks and lets AI assistants directly manage tunnels and inspect traces via MCP.
+  mental_damage: Yet another self-hosted ngrok alternative that promises to solve the 'my webhook payload is a black box' anxiety, now with 577 req/s of encrypted peace of mind.
+  tags:
+    - self-hosted
+    - tunnel
+    - mcp-server
+    - webhook
+    - pipeline-tracing
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product includes a built-in MCP server as a core feature, and its identity as a tunnel/middleware with AI-specific tracing aligns with MCP infrastructure tooling.
+  evidence:
+    - Repo description states it is a 'Self-hosted encrypted tunnel... with MCP server for AI tools.'
+    - README explicitly lists 'MCP server built-in — pie mcp gives Claude, Cursor, and AI tools direct access to tunnels.'
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:06.197Z"
+    updated_at: "2026-05-06T22:45:53.981Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:06.266Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

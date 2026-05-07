@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kambriso__fritzbox-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: FRITZ!Box MCP Server for LLM/ KI Integration - Home Automation from your favourite KI agent
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:02.510Z"
+    last_checked_at: "2026-05-06T22:44:40.327Z"
     readme:
-      fetched_at: "2026-05-05T21:03:02.510Z"
+      fetched_at: "2026-05-06T22:44:40.327Z"
       bytes: 23967
 insights:
-  summary: An MCP server that lets AI assistants like Claude control and query a local FRITZ!Box router using natural language.
-  why_it_matters: It turns a home router into a programmable surface for local AI agents, letting developers manage network diagnostics and configuration through their existing assistant workflows.
-  mental_damage: We have finally bridged the gap between state-of-the-art language models and the 2010s networking hardware in your basement, because apparently we can't be trusted to type '192.168.178.1' anymore.
+  summary: An MCP server that exposes FRITZ!Box router management capabilities to AI assistants via natural language.
+  why_it_matters: It lets developers query network status, troubleshoot connectivity, and manage router settings through their existing AI assistant instead of the FRITZ!Box web UI.
+  mental_damage: You now have a secure local bridge so your coding agent can reboot your router while you debug why your AI tooling can't reach the internet.
   tags:
     - mcp
     - home-automation
     - networking
-    - local-ai
-    - tooling
+    - fritzbox
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to bridge AI assistants with local hardware, fitting cleanly into the MCP infrastructure category.
+  reason: The product is an MCP server for FRITZ!Box home automation, which fits cleanly as a domain-specific MCP server implementation.
   evidence:
-    - Repo description explicitly states 'FRITZ!Box MCP Server for LLM/ KI Integration'.
-    - README details a secure bridge between AI agents and the router using the Model Context Protocol.
-    - Listed in the awesome-mcp-servers directory under 'Home Automation' server implementations.
+    - "Repo description: 'FRITZ!Box MCP Server for LLM/KI Integration - Home Automation from your favourite KI agent'"
+    - "README: 'This MCP server lets you interact with your FRITZ!Box router using AI assistants.'"
+    - Listed in awesome-mcp-servers under 'Home Automation' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:02.510Z"
+    updated_at: "2026-05-06T22:44:40.327Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:30:02.425Z"
+    updated_at: "2026-05-06T23:05:29.761Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

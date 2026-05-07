@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pallaprolus__mendeley-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,49 @@ metadata:
       - python
       - reference-manager
       - research
-    last_checked_at: "2026-05-05T21:04:11.331Z"
+    last_checked_at: "2026-05-06T22:45:47.133Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.331Z"
+      fetched_at: "2026-05-06T22:45:47.133Z"
       bytes: 8863
 insights:
   summary: An MCP server that connects a Mendeley reference library to LLM clients like Claude Desktop and Cursor for searching, retrieving, and managing academic papers.
-  why_it_matters: It allows developers and researchers to query their personal academic libraries and the global Mendeley catalog directly from their AI coding environments without leaving the workflow.
-  mental_damage: We have successfully automated the process of doom-scrolling through academic papers so you can now do it with a chatbot instead of a browser tab.
+  why_it_matters: It allows developers and researchers to query their academic library and the global Mendeley catalog directly from their coding assistant, streamlining literature review during technical research.
+  mental_damage: You can now debug your context window overflow by asking an LLM to summarize the very papers you should have read instead of prompting.
   tags:
     - mcp
     - reference-manager
     - academic
     - python
-    - claude
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation designed to integrate a reference manager with LLM clients, which fits the MCP infrastructure category perfectly.
+  reason: The product's identity is an MCP server specifically bridging Mendeley to MCP-compatible clients, fitting the Domain Servers section.
   evidence:
-    - Repo description states it is an 'MCP server for Mendeley reference manager'.
-    - README confirms it is an MCP server connecting libraries to Claude Desktop and Cursor.
-    - Listed in the awesome-mcp-servers directory under 'Knowledge & Memory'.
+    - Repo description explicitly states 'MCP server for Mendeley reference manager'.
+    - README confirms it is an MCP server connecting to Claude Desktop, Cursor, and other MCP clients.
+    - Featured in 'awesome-mcp-servers' under 'Knowledge & Memory' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.331Z"
+    updated_at: "2026-05-06T22:45:47.133Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:40.833Z"
+    updated_at: "2026-05-06T23:20:38.359Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ip2location__mcp-ip2location-io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) 🐍 ☁️  - Official IP2Location.io MCP server to obtain the geolocation, proxy and network information of an IP address utilizing IP2Location.io API."
         confidence: high
     - id: discovery__github__ip2location__mcp-ip2location-io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -54,50 +54,50 @@ metadata:
       - ip
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:45.888Z"
+    last_checked_at: "2026-05-06T22:44:25.878Z"
     readme:
-      fetched_at: "2026-05-05T21:02:45.888Z"
+      fetched_at: "2026-05-06T22:44:25.878Z"
       bytes: 5684
 insights:
-  summary: An MCP server that exposes the IP2Location.io API to MCP-compatible clients, enabling AI assistants to look up geolocation, network, and proxy data for IPv4 and IPv6 addresses.
-  why_it_matters: It lets developers augment local AI workflows with on-demand IP intelligence without wiring API calls by hand inside prompts or tools.
-  mental_damage: Another specialized MCP server enters the registry, raising the existential question of whether we are building an ecosystem or just a very polite Parts Unknown for micro-integrations.
+  summary: An MCP server that exposes the IP2Location.io API to provide detailed geolocation, network, and security data for IPv4 and IPv6 addresses to compatible AI assistants like Claude Desktop.
+  why_it_matters: Developers can delegate IP analysis and network reconnaissance directly to their coding agents without leaving the chat interface or writing custom API integration scripts.
+  mental_damage: We have successfully abstracted away the trivial effort of opening a browser to check an IP address into a multi-step MCP server setup and configuration file edit.
   tags:
     - mcp
     - geolocation
-    - ip-lookup
-    - fastmcp
     - claude-desktop
+    - networking
+    - fastmcp
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for IP geolocation data, which cleanly fits the MCP Servers and Tooling category.
+  reason: The product's identity is explicitly an MCP server implementation for a specific API, serving as a tool provider for host assistants rather than acting as a standalone assistant or framework.
   evidence:
-    - "Repo description explicitly states: 'IP Geolocation MCP server using IP2Location.io API'."
-    - README describes a FastMCP tool with get_geolocation and setup instructions for Claude Desktop via mcpServers config.
-    - Included in awesome-mcp-servers under 'Server Implementations > Location Services'.
+    - Repo description explicitly states 'IP Geolocation MCP server using IP2Location.io API'.
+    - README confirms it is a 'simple Model Context Protocol (MCP) server implementation' built as a FastMCP tool.
+    - Listed in awesome-mcp-servers under 'Location Services' and 'Official Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:45.888Z"
+    updated_at: "2026-05-06T22:44:25.878Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:25.062Z"
+    updated_at: "2026-05-06T23:02:29.085Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

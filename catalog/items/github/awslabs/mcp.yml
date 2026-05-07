@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__awslabs__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [awslabs/mcp](https://github.com/awslabs/mcp) 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources."
         confidence: high
     - id: discovery__github__awslabs__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,13 +39,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8964
-    forks: 1500
+    stars: 8977
+    forks: 1503
     license: Apache-2.0
     archived: false
     created_at: "2025-03-21T00:39:00Z"
-    pushed_at: "2026-05-05T20:32:44Z"
-    description: Official MCP Servers for AWS
+    pushed_at: "2026-05-06T21:05:56Z"
+    description: Open source MCP Servers for AWS
     homepage: https://awslabs.github.io/mcp/
     topics:
       - aws
@@ -57,49 +57,50 @@ metadata:
       - mcp-servers
       - mcp-tools
       - modelcontextprotocol
-    last_checked_at: "2026-05-05T21:01:14.829Z"
+    last_checked_at: "2026-05-06T22:12:47.384Z"
     readme:
-      fetched_at: "2026-05-05T21:01:14.829Z"
-      bytes: 185437
+      fetched_at: "2026-05-06T22:12:47.384Z"
+      bytes: 186171
 insights:
-  summary: A suite of official AWS MCP servers and supporting tooling maintained by AWS Labs to connect AI assistants with AWS services.
-  why_it_matters: It lets AI coding agents and IDEs directly read AWS docs, manage infrastructure, and operate on cloud resources through a standardized protocol.
-  mental_damage: Now your AI can confidently misconfigure your entire AWS account with the full, official blessing of the cloud provider.
+  summary: A suite of AWS-maintained MCP servers that expose AWS services, documentation, and infrastructure capabilities to MCP-compatible coding assistants and agents.
+  why_it_matters: It gives developers a standardized way to let their AI tools directly interact with AWS, from infrastructure deployment to real-time documentation lookups, without writing custom integrations.
+  mental_damage: Yet another opportunity to discover that your agent has quietly spun up three DynamoDB tables, a Lambda, and a fresh S3 bucket while you were reading its justification.
   tags:
     - aws
     - mcp
     - server
-    - cloud
+    - agent-integration
+    - infrastructure
   confidence: high
 curation:
   status: included
-  reason: This is official MCP infrastructure from AWS Labs, providing the servers and tooling that define the category itself.
+  reason: The repository's primary identity is a collection of MCP servers for AWS services, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'Official MCP Servers for AWS'.
-    - README details a suite of specialized MCP servers for AWS services with integrations for Claude Code, Cursor, Cline, and VS Code.
-    - Actively maintained with a recent push date (2026-05-05) and high traction (8964 stars).
+    - Repo description explicitly states 'Open source MCP Servers for AWS'.
+    - README is structured entirely around individual MCP server offerings for various AWS domains (AI/ML, Data, Developer Tools, etc.).
+    - GitHub topics are heavily weighted toward 'mcp-server', 'mcp-tools', and 'modelcontextprotocol'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8964) exceeded threshold (150)
+  reason: Stars (8977) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:14.829Z"
+    updated_at: "2026-05-06T22:12:47.384Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:52.135Z"
+    updated_at: "2026-05-06T22:23:08.543Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

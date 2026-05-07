@@ -1,13 +1,13 @@
 id: github__determined-ai__determined
 kind: github-repo
-name: Determined
+name: determined
 canonical_url: https://github.com/determined-ai/determined
 identity:
   github_repo: determined-ai/determined
 provenance:
   discoveries:
     - id: discovery__github__determined-ai__determined__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -46,50 +46,50 @@ metadata:
       - mlops
       - pytorch
       - tensorflow
-    last_checked_at: "2026-05-05T21:01:52.149Z"
+    last_checked_at: "2026-05-06T22:43:37.576Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.149Z"
+      fetched_at: "2026-05-06T22:43:37.576Z"
       bytes: 4749
 insights:
-  summary: Determined is an open-source machine learning platform that handles distributed training, hyperparameter tuning, experiment tracking, and resource management for PyTorch and TensorFlow workloads.
-  why_it_matters: It allows ML engineers to stop writing custom scripts for cluster management and instead define training, tuning, and resource allocation via YAML configs and Python APIs.
-  mental_damage: Yet another reminder that while AI writes the code, we still need an entire platform just to manage the GPUs burning down the house.
+  summary: Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter tuning, experiment tracking, and resource management for PyTorch and TensorFlow workloads.
+  why_it_matters: It provides a unified CLI, Python API, and Web UI to manage deep learning experiments and cluster resources, reducing the boilerplate of scaling and tracking model training.
+  mental_damage: Yet another all-in-one ML platform promising to tame your GPU spend, for when you’ve decided the best way to do deep learning is to deploy a Kubernetes cluster instead of writing a training loop.
   tags:
-    - distributed-training
     - ml-infrastructure
+    - distributed-training
     - mlops
     - pytorch
     - tensorflow
   confidence: high
 curation:
-  status: included
-  reason: It is a code-first SDK and infrastructure framework for ML training workflows, fitting the ai-frameworks category rather than a developer coding assistant.
+  status: excluded
+  reason: This is a general machine learning infrastructure and MLOps platform focused on model training and tuning, not a developer-facing AI tool, coding agent, or AI workflow product.
   evidence:
-    - Repo description explicitly defines it as a machine learning platform for distributed training and experiment tracking.
-    - README details Python library APIs (PyTorchTrial) and YAML configuration for training, fitting the SDK/framework definition.
-    - Topics include ml-infrastructure, distributed-training, and mlops, confirming the ML infrastructure scope over code editing.
+    - Repo description explicitly focuses on distributed training, hyperparameter tuning, and resource management for PyTorch/TensorFlow.
+    - README demonstrates a deep learning platform with CLI, Python APIs, and Web UI for experiment tracking rather than AI-assisted coding.
+    - Topics and documentation center on data-science, deep-learning, and mlops rather than AI tooling for software developers.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (3225) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:13.491Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.149Z"
+    updated_at: "2026-05-06T22:43:37.576Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:30.870Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

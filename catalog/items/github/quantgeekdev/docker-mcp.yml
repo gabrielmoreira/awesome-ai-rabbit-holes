@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quantgeekdev__docker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [QuantGeekDev/docker-mcp](https://github.com/QuantGeekDev/docker-mcp) 🏎️ 🏠 - Docker container management and operations through MCP"
         confidence: high
     - id: discovery__github__quantgeekdev__docker-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Docker](https://github.com/QuantGeekDev/docker-mcp)** - Run and manage docker containers, docker compose, and logs"
         confidence: high
     - id: discovery__github__quantgeekdev__docker-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -63,44 +63,49 @@ metadata:
     description: A docker MCP Server (modelcontextprotocol)
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T23:08:15.224Z"
+    last_checked_at: "2026-05-06T22:46:02.563Z"
     readme:
-      fetched_at: "2026-05-05T23:08:15.224Z"
+      fetched_at: "2026-05-06T22:46:02.563Z"
       bytes: 4348
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Model Context Protocol server that exposes Docker container management and Docker Compose stack deployment as tools for AI assistants like Claude Desktop.
+  why_it_matters: It lets developers delegate container creation, deployment, and log inspection to an AI assistant instead of manually running Docker CLI commands.
+  mental_damage: We have now successfully abstracted away the one CLI tool that already had sensible defaults and readable output.
+  tags:
+    - mcp
+    - docker
+    - containers
+    - devops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: MCP server identity is the core product, exposing Docker operations as tools for MCP-compatible assistants, which fits the MCP Servers & Tooling category cleanly.
+  evidence:
+    - Repo description explicitly states 'A docker MCP Server (modelcontextprotocol)'.
+    - README demonstrates MCP tool definitions (create-container, deploy-compose, get-logs, list-containers) and Claude Desktop configuration.
+    - Included in awesome-mcp-servers and awesome-mcp-list directories under MCP server sections.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (476) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:15.224Z"
+    updated_at: "2026-05-06T22:46:02.563Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:57.993Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

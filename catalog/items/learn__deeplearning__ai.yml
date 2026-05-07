@@ -1,0 +1,76 @@
+id: learn__deeplearning__ai
+kind: website
+name: learn.deeplearning.ai
+canonical_url: https://learn.deeplearning.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__learn__deeplearning__ai__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "吴恩达: LLM series of courses"
+        extracted_url: https://learn.deeplearning.ai
+        surrounding_text: "3. [吴恩达: LLM series of courses](https://learn.deeplearning.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: DeepLearning.AI is an online learning platform offering short courses and professional certificates on AI topics including prompt engineering, agents, RAG, and AI coding.
+  why_it_matters: Developers can quickly upskill on practical AI tooling and workflows through hands-on courses taught by industry leaders like Andrew Ng.
+  mental_damage: Another platform promising that 90 minutes of video and a few notebook cells will finally make you the AI architect you pretend to be in stand-ups.
+  tags:
+    - courses
+    - education
+    - ai-learning
+    - deeplearning-ai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational platform and course hub rather than a developer-facing AI tool, agent, framework, or infrastructure product.
+  evidence:
+    - The scraped site context shows a course platform with topics like 'Prompt Engineering 46' and 'AI Coding 14', not a developer tool.
+    - Source-list context lists it under '课程 Course' (Courses) in an LLM resources list, not as a tool or product.
+    - The platform is a learning destination, not something developers import, run, install, or operate as part of their AI tooling workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:57.686Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

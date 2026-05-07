@@ -1,12 +1,12 @@
 id: www__codebuddy__cn
 kind: website
-name: CodeBuddy
+name: www.codebuddy.cn
 canonical_url: https://www.codebuddy.cn
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__codebuddy__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tencent Cloud CodeBuddy is an AI coding assistant for the Chinese market that uses the Hunyuan code model to provide code completion, technical dialogue, and code diagnosis within the developer workflow.
-  why_it_matters: It integrates directly into the IDE to handle code generation, optimization, and debugging, aiming to reduce the manual overhead of routine coding tasks for developers using Tencent's ecosystem.
-  mental_damage: Another proprietary 'intelligent companion' enters the arena, ensuring developers can now debate context windows in Mandarin while wondering if their cloud bill scales with every autocomplete token.
+  summary: Tencent Cloud CodeBuddy is an AI coding assistant powered by the Hunyuan code model, offering technical dialogue, code completion, diagnostics, and optimization.
+  why_it_matters: It provides a localized, enterprise-grade coding copilot alternative for developers working within the Tencent Cloud ecosystem or seeking Hunyuan-powered assistance.
+  mental_damage: Another mandatory 'intelligent companion' enters the fray, ensuring your IDE remains a noisy, cloud-specific ecosystem even if you just wanted to write a for-loop.
   tags:
-    - ai-coding
+    - coding-assistant
+    - tencent-cloud
     - code-completion
-    - ide-assistant
-    - tencent
+    - hunyuan
   confidence: medium
 curation:
   status: included
-  reason: The product is a developer-facing coding assistant that directly writes, diagnoses, and optimizes code inside the development environment, fitting the coding-agents definition.
+  reason: The product is a standalone AI coding assistant designed to help developers write, diagnose, and optimize code, fitting the primary identity of a coding agent.
   evidence:
-    - Described as '辅助编码工具' (auxiliary coding tool) providing code completion and diagnosis.
-    - Based on the Hunyuan code model to help generate code and solve technical problems.
-    - Listed under '代码 Coding' in the awesome-LLM-resources directory as a coding tool.
+    - Description states it is an 'assistant' providing 'technical dialogue, code completion, code diagnosis and optimization'.
+    - Source list context identifies it as '腾讯云代码助手' (Tencent Cloud Code Assistant) under a coding section.
+    - It is positioned as a direct auxiliary coding tool rather than an extension or framework.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:17.827Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:35.019Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

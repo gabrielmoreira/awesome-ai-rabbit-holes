@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cswkim__discogs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP Server for Discogs
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:43.765Z"
+    last_checked_at: "2026-05-06T22:43:30.192Z"
     readme:
-      fetched_at: "2026-05-05T21:01:43.765Z"
+      fetched_at: "2026-05-06T22:43:30.192Z"
       bytes: 8934
 insights:
-  summary: An MCP server that exposes Discogs music catalog search and collection management tools to compatible AI assistants like Claude Desktop.
-  why_it_matters: Developers building music-oriented agent workflows can integrate Discogs data without writing custom API wrappers by plugging this server into their MCP client.
-  mental_damage: We have successfully reached the point where we need a standardized protocol just to ask an AI to fondle our vinyl records.
+  summary: An MCP server that exposes the Discogs music catalog API as tools for AI assistants like Claude Desktop, enabling search and collection management via prompt.
+  why_it_matters: It lets developers and music nerds query a massive music database through their coding assistant instead of wiring up API calls by hand.
+  mental_damage: We have officially reached the point where your AI assistant needs a dedicated server to argue with you about rare 1970s pressings.
   tags:
     - mcp
-    - discogs
     - music
-    - api-integration
+    - api
+    - discogs
+    - integration
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server implementation that provides tooling for the Discogs API, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server built with FastMCP that exposes Discogs API endpoints as tools, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
     - Repo description explicitly states 'MCP Server for Discogs'.
-    - README confirms it is built using FastMCP to expose Discogs API tools to clients like Claude Desktop.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - README confirms it is built using FastMCP and exposes Discogs API operations as tools for Claude Desktop and other MCP clients.
+    - Listed in awesome-mcp-servers under 'Art & Culture' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:43.765Z"
+    updated_at: "2026-05-06T22:43:30.192Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:53.154Z"
+    updated_at: "2026-05-06T22:51:03.641Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

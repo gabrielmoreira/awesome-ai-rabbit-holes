@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__benswel__qr-agent-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: QR-as-a-Service API for AI agents — 34 MCP tools, 11 QR types, dynamic links, scan analytics, webhooks, custom domains. REST API + MCP server.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:18.842Z"
+    last_checked_at: "2026-05-06T22:12:51.008Z"
     readme:
-      fetched_at: "2026-05-05T21:01:18.842Z"
+      fetched_at: "2026-05-06T22:12:51.008Z"
       bytes: 11902
 insights:
-  summary: A self-hostable QR-as-a-Service API and MCP server that lets AI agents generate, style, and track dynamic QR codes with scan analytics and webhooks.
-  why_it_matters: It packages 37 MCP tools into a single server so agents can programmatically manage QR codes, redirections, and scan analytics without leaving their workflow.
-  mental_damage: "We have finally achieved the singularity: an AI agent can now autonomously A/B test a QR code pointing to a vegan brunch special without human intervention."
+  summary: A self-hostable QR-as-a-Service API and MCP server with 34 tools that lets AI agents generate, retarget, and track dynamic QR codes via REST or the Model Context Protocol.
+  why_it_matters: Developers building agentic workflows can give their assistants a durable, retargetable link primitive without wiring up short-link infrastructure themselves.
+  mental_damage: We have officially reached the point where QR code management is infrastructural enough to merit its own MCP server and 37-tool surface area.
   tags:
     - mcp
     - qr-codes
-    - api
+    - agent-tooling
+    - rest-api
     - self-hosted
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation with 37 tools, fitting cleanly into the MCP infrastructure category.
+  reason: The product’s primary identity is an MCP server exposing QR-code capabilities to agents, fitting cleanly as a domain-specific MCP server rather than a generic dev tool.
   evidence:
-    - "Repo description states: 'QR-as-a-Service API for AI agents — 34 MCP tools... REST API + MCP server.'"
-    - "README confirms: 'MCP server — qr-for-agent with 37 tools for Claude Desktop, Cursor, etc.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly calls it a QR-as-a-Service API and MCP server with 34 MCP tools.
+    - README highlights an MCP package (`qr-for-agent`) for Claude Desktop and Cursor, and includes `/.well-known/mcp.json`.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:18.842Z"
+    updated_at: "2026-05-06T22:12:51.008Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:31.865Z"
+    updated_at: "2026-05-06T22:23:55.393Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: uizard__io
 kind: website
-name: Uizard
+name: uizard.io
 canonical_url: https://uizard.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__uizard__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Uizard is a browser-based AI design platform that generates editable UI mockups, wireframes, and prototypes for apps and websites from text prompts, screenshots, or hand-drawn sketches.
-  why_it_matters: It allows developers to generate clickable UI prototypes and visual scaffolds in seconds, providing a faster starting point for implementation without needing deep design expertise.
-  mental_damage: Yet another tool that turns a 30-second idea into a pixel-perfect mockup, ensuring you can spend the next three days arguing with stakeholders about the shade of blue while the actual codebase remains empty.
+  summary: Uizard is an AI-assisted UI design platform that generates editable mobile app, web app, and website mockups from text prompts, screenshots, or hand-drawn wireframes.
+  why_it_matters: It allows developers and product teams to rapidly generate clickable UI prototypes and scaffolds from prompts, serving as a visual starting point before implementation begins.
+  mental_damage: Another tool promising that you can 'build an app in seconds without code or design,' ensuring developers will still be asked why the shipped product doesn't look like the AI-generated mockup.
   tags:
-    - ai-generated
-    - mockups
-    - prototyping
     - ui-design
-  confidence: high
+    - prototyping
+    - prompt-to-app
+    - figma-integration
+  confidence: medium
 curation:
   status: included
-  reason: Uizard is a browser-first SaaS that generates UI designs and prototypes from prompts, fitting the app-builder profile for visual scaffolding rather than a repo-based coding agent.
+  reason: The primary workflow is turning prompts into app designs, sites, and mockups rather than editing an existing repository or acting as a coding assistant.
   evidence:
-    - Scraped site context describes 'Generate multi-screen, editable prototypes in seconds using simple text' via a web interface.
-    - Listed in awesome-ai-coding-tools under 'UI Generators' with the description 'UI design for apps, websites, and desktop software in minutes.'
-    - Primary workflow is design generation (Screenshot Scanner, Wireframe Scanner) rather than editing source code in an IDE or CLI.
+    - Scraped site context describes 'Generate projects, screens, and themes' and 'turn a boring text prompt into a complete UI design'.
+    - Source list awesome-ai-coding-tools includes it under 'UI Generators' with the description 'UI design for apps, websites, and desktop software in minutes'.
+    - "Testimonials confirm the workflow: 'I made an app mockup in 2 minutes... typing a text prompt generates the UI'."
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:54.089Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:46.767Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

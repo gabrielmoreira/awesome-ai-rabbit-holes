@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minhalvp__android-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 742
+    stars: 744
     forks: 82
     license: Apache-2.0
     archived: false
@@ -32,50 +32,50 @@ metadata:
     description: An MCP server that provides control over Android devices via adb
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:41.996Z"
+    last_checked_at: "2026-05-06T22:45:19.846Z"
     readme:
-      fetched_at: "2026-05-05T21:03:41.996Z"
+      fetched_at: "2026-05-06T22:45:19.846Z"
       bytes: 5556
 insights:
-  summary: An MCP server that exposes Android device control via ADB, allowing AI models and editors to execute commands, capture screenshots, and inspect UI layouts.
-  why_it_matters: It lets coding agents and MCP clients directly interact with Android emulators or devices, bridging the gap between AI-assisted code generation and mobile hardware testing.
-  mental_damage: "We have finally achieved the singularity: an AI that can take a screenshot of your broken UI and proudly tell you exactly what it sees while being completely unable to fix the XML."
+  summary: An MCP server that exposes Android device controls via ADB, allowing AI assistants like Claude Desktop and Cursor to execute commands, capture screenshots, and inspect UI layouts.
+  why_it_matters: It lets coding agents directly interact with mobile hardware, bridging the gap between AI code generation and on-device testing or debugging workflows.
+  mental_damage: We have finally achieved the singularity where your AI assistant can automate your phone, just in time to realize you now have to debug both your repo and your ADB bridge configurations.
   tags:
     - mcp
     - android
     - adb
+    - mobile-testing
     - automation
-    - mobile
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide tooling for the Model Context Protocol ecosystem, fitting cleanly into the MCP category.
+  reason: The product's identity is an MCP server providing Android device capabilities, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description states it is 'An MCP server that provides control over Android devices via adb'.
-    - README confirms it exposes tools for ADB commands, screenshots, and UI layout for MCP clients like Claude Desktop and Cursor.
-    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+    - "Repo description explicitly states: 'An MCP server that provides control over Android devices via adb'."
+    - README confirms it exposes tools like execute_adb_command and get_screenshot for MCP clients like Claude Desktop and Cursor.
+    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (742) exceeded threshold (150)
+  reason: Stars (744) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:41.996Z"
+    updated_at: "2026-05-06T22:45:19.846Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:09.072Z"
+    updated_at: "2026-05-06T23:14:24.370Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

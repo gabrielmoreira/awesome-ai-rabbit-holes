@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antonio-mello-ai__mcp-proxmox__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8
+    stars: 9
     forks: 1
     license: MIT
     archived: false
@@ -42,50 +42,50 @@ metadata:
       - proxmox
       - proxmox-ve
       - virtualization
-    last_checked_at: "2026-05-05T21:01:04.818Z"
+    last_checked_at: "2026-05-06T22:12:39.233Z"
     readme:
-      fetched_at: "2026-05-05T21:01:04.818Z"
+      fetched_at: "2026-05-06T22:12:39.233Z"
       bytes: 8289
 insights:
-  summary: An MCP server that lets AI assistants like Claude and Cursor manage Proxmox VE clusters, handling VM/container provisioning, snapshots, backups, and firewall rules via natural language.
-  why_it_matters: It turns infrastructure management into a conversational workflow, allowing developers to spin up, clone, and tear down homelab or self-hosted environments without memorizing Proxmox API endpoints.
-  mental_damage: Finally, you can hallucinate your way into deleting a production VM by politely asking your AI assistant for a 'quick cleanup'.
+  summary: An MCP server that lets AI assistants like Claude and Cursor manage Proxmox VE clusters, including provisioning VMs, managing snapshots, and browsing storage.
+  why_it_matters: It gives developers a natural language interface to control homelab or on-prem virtualization infrastructure directly from their coding assistant.
+  mental_damage: You can now debug your VM provisioning by arguing with Claude, which is definitely the career progression you signed up for.
   tags:
     - mcp
     - proxmox
-    - infrastructure
     - homelab
-    - devops
+    - infrastructure
+    - virtualization
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that directly integrates Proxmox VE infrastructure management into AI assistant workflows, fitting cleanly into the MCP tooling category.
+  reason: The product is a domain-specific MCP server for Proxmox, which fits cleanly under MCP Servers & Tooling as a virtualization management tool.
   evidence:
-    - "Repo description explicitly states: 'MCP server for managing Proxmox VE clusters through AI assistants'."
-    - README details integration with Claude Desktop, Claude Code, and Cursor as an MCP server.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Cloud Platforms'.
+    - "Repo description: 'MCP server for managing Proxmox VE clusters through AI assistants'."
+    - README states it is an MCP server for Claude, Cursor, and Cline to manage Proxmox infrastructure.
+    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:04.819Z"
+    updated_at: "2026-05-06T22:12:39.233Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:22.012Z"
+    updated_at: "2026-05-06T22:21:31.670Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__m0n0x41d__haft
 kind: github-repo
-name: quint-code
+name: haft
 canonical_url: https://github.com/m0n0x41d/haft
 identity:
   github_repo: m0n0x41d/haft
 provenance:
   discoveries:
-    - id: discovery__github__m0n0x41d__quint-code__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__m0n0x41d__haft__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1311
+    stars: 1313
     forks: 104
     license: NOASSERTION
     archived: false
@@ -52,53 +52,50 @@ metadata:
       - reasoning
       - structured-reasoning
       - systems-thinking
-    last_checked_at: "2026-05-05T21:03:26.809Z"
+    last_checked_at: "2026-05-06T22:45:05.919Z"
     readme:
-      fetched_at: "2026-05-05T21:03:26.809Z"
+      fetched_at: "2026-05-06T22:45:05.919Z"
       bytes: 19379
 insights:
-  summary: Haft is a CLI and MCP plugin that adds structured engineering decision-making, spec governance, and evidence decay tracking to AI coding agents like Claude Code and Codex.
-  why_it_matters: It forces agents to frame problems, compare options under parity, and record falsifiable decisions before writing code, aiming to prevent velocity from outrunning engineering discipline.
-  mental_damage: Finally, a tool to govern the agents that are already ignoring your half-written Jira tickets with unprecedented confidence.
+  summary: Haft is a spec-driven engineering governor that integrates with AI coding agents like Claude Code and Codex via MCP and CLI to enforce structured decision-making, evidence tracking, and stale-assumption detection.
+  why_it_matters: It shifts AI-assisted development from prompt-and-pray to governed execution by treating specs, decisions, and evidence as falsifiable contracts rather than ephemeral chat context.
+  mental_damage: You now have a tool to govern the engineering decisions of the agents writing your code, which mostly means you'll spend your afternoon YAML-linting the spec that describes the bug the agent introduced in record time.
   tags:
-    - agents
-    - cli
+    - spec-driven
     - governance
     - mcp
-    - spec-driven
+    - cli
+    - decision-engineering
   confidence: high
 curation:
   status: included
-  reason: Haft integrates directly into the coding agent workflow as a CLI harness and MCP plugin that governs Claude Code and Codex execution, which fits the coding-agents category for repo-level agent collaboration.
+  reason: The product's core identity is a spec-first governance layer that treats structured specifications, parity checks, and evidence decay as the controlling artifacts for agent execution.
   evidence:
-    - Repo description states it is an 'Engineering decisions engine' for Claude Code, Cursor, Gemini CLI, and Codex.
-    - README describes an MCP plugin and CLI Harness that sit between developer intentions and agent execution inside the repo.
-    - Active project with 1311 stars, created 2025-12-10 and pushed 2026-05-04, not archived.
-    - Repo description explicitly calls it an 'Engineering decisions engine' with 'evidence decay and parity enforcement' for Claude Code, Cursor, and others.
-    - README states it is 'the engineering governor that sits between your intentions and your agents' execution' with a 'Specify → Think → Run → Govern' loop.
-    - Listed in awesome-spec-driven-development under 'Specification Tools' as a tool for writing specifications first to guide development.
+    - Repo description explicitly positions it as an 'Engineering decisions engine' for Claude Code, Cursor, and other agents with 'evidence decay and parity enforcement'.
+    - README states 'Specify → Think → Run → Govern' and positions Haft as 'the handle between the tool and the hand' focused on formal specification and governed decisions.
+    - Listed in awesome-spec-driven-development under 'Specification Tools', aligning with its spec-first workflow identity.
 placement:
-  primary_category: mcp
-  section: Terminal & CLI Agents
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1311) exceeded threshold (150)
+  reason: Stars (1313) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:35:07.440Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:26.809Z"
+    updated_at: "2026-05-06T22:45:05.919Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:11:06.286Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

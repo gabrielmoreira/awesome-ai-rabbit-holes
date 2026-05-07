@@ -1,12 +1,12 @@
 id: www__usebruno__com
 kind: website
-name: Bruno API Client
+name: www.usebruno.com
 canonical_url: https://www.usebruno.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__usebruno__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bruno is a local, Git-native API client for REST, GraphQL, gRPC, and WebSocket that stores collections as plain text files instead of cloud-synced proprietary formats.
-  why_it_matters: It lets developers version, diff, and colocate API tests directly in their repositories, integrating naturally with existing Git workflows and CI pipelines.
-  mental_damage: Another classic developer standoff where we joyfully abandon a bloated cloud platform for a lean local tool, only to eventually beg for an AI agent to autopilot the very API tests we fought to keep in Git.
+  summary: Bruno is a local, Git-native API client for REST, GraphQL, gRPC, and WebSocket APIs that stores collections as plain text files in your repository.
+  why_it_matters: It gives developers a Postman alternative that integrates seamlessly with existing Git workflows and IDEs without forcing cloud sync or账号 creation.
+  mental_damage: Another devtool bravely fighting the good fight against 'platformization', while we wait for the first AI agent to accidentally `git push` our API secrets to a public repo.
   tags:
-    - api-testing
-    - developer-tools
+    - api-client
     - git-native
     - local-first
+    - open-source
+    - postman-alternative
   confidence: high
 curation:
   status: excluded
-  reason: Bruno is a traditional API client and does not provide AI-specific functionality, developer-facing AI infrastructure, or agentic workflows required for this catalog.
+  reason: Bruno is a traditional API testing client, not an AI tool, agent, or AI developer infrastructure, despite being listed in an MCP servers collection.
   evidence:
-    - The scraped site describes it as a 'Git-native API client' to replace Postman, with no mention of AI, LLMs, or agents.
-    - It is listed in awesome-mcp-servers only as a generic developer tool, not as an MCP server or AI infrastructure itself.
-    - The value proposition is local-first API testing and Git collaboration, which falls outside the AI rabbit hole scope.
+    - Scraped site describes it as 'The Git-native API client' with no mention of AI, agents, or model integration.
+    - Source list context cites it as a Postman alternative for REST/GraphQL/gRPC, not as an active MCP server implementation.
+    - No AI-related features, prompts, or model workflows are described in the site excerpt.
 placement:
   primary_category: null
   section: null
@@ -58,20 +59,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:00.068Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:08.886Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

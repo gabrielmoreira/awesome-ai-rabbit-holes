@@ -6,24 +6,8 @@ identity:
   github_repo: bonnard-data/bonnard-cli
 provenance:
   discoveries:
-    - id: discovery__github__meal-inc__bonnard-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📊 <a name="data-platforms"></a>Data Platforms
-        anchor_text: meal-inc/bonnard-cli
-        extracted_url: https://github.com/meal-inc/bonnard-cli
-        surrounding_text: "- [meal-inc/bonnard-cli](https://github.com/meal-inc/bonnard-cli) 📇 ☁️ - Ultra-fast to deploy agentic-first MCP-ready semantic layer. Let your data be like water."
-        confidence: high
     - id: discovery__github__bonnard-data__bonnard-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -69,53 +53,50 @@ metadata:
       - snowflake
       - structured-output
       - text-to-sql
-    last_checked_at: "2026-05-05T21:03:34.310Z"
+    last_checked_at: "2026-05-06T22:12:55.785Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.310Z"
+      fetched_at: "2026-05-06T22:12:55.785Z"
       bytes: 6706
 insights:
-  summary: An open-source CLI tool for defining an agent-native semantic analytics layer that scaffolds project schemas and generates reusable skills for coding agents like Claude Code, Cursor, and Codex.
-  why_it_matters: It lets developers define metrics once and expose them to AI agents via MCP and SDKs, preventing the metric drift that usually occurs when dashboards and LLMs query the same warehouse.
-  mental_damage: We have successfully abstracted the abstraction, meaning your AI agent now needs a CLI tool just to understand the metrics your BI tool already misunderstood.
+  summary: An open-source CLI for defining an agent-native semantic analytics layer that generates skills for Claude Code, Cursor, and Codex, and exposes governed metrics via an MCP server.
+  why_it_matters: It lets developers define one set of metric definitions and automatically equip multiple coding agents with the context and access they need to query data warehouses reliably.
+  mental_damage: You set out to solve metrics drift, and accidentally invented yet another layer of YAML schema that your agents can now argue about.
   tags:
-    - analytics
-    - cli
     - mcp
     - semantic-layer
-    - skills
+    - cli
+    - analytics
+    - agent-skills
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a CLI that generates reusable skill packs and rules bundles (bon init) specifically designed for AI developer tools like Claude Code and Cursor.
+  reason: MCP is a core, first-class feature of the product identity, serving governed agent queries alongside its CLI and semantic layer.
   evidence:
-    - Repo description explicitly states 'Skills included' and is optimized for Claude Code, Gemini, and Codex.
-    - "README states: 'bon init generates rules and skills for Claude Code, Cursor, and Codex so agents understand your semantic layer.'"
-    - Topics include 'mcp-server' and 'agentic-schema', framing it as infrastructure for agent context.
-    - Repo description states it is an 'Open-source agentic schema CLI... Skills included' with an mcp-server topic.
-    - README states 'MCP is a core feature, not a plugin' and provides `bon mcp` for MCP server setup.
-    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms.
+    - README states 'MCP is a core feature, not a plugin' and includes a dedicated `bon mcp` command.
+    - Repo topics include mcp-server and model-context-protocol, and it is listed in awesome-mcp-servers under Data Platforms.
+    - The CLI generates agent configs and skills for Claude Code, Cursor, and Codex, making it a multi-agent MCP data source.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:36.655Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.150Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.310Z"
+    updated_at: "2026-05-06T22:12:55.785Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:53.334Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

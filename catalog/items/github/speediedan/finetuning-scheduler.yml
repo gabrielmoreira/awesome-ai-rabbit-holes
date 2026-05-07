@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__speediedan__finetuning-scheduler__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,27 +24,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 69
+    forks: 7
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-02-04T19:08:54Z"
+    pushed_at: "2026-01-26T21:32:36Z"
+    description: A PyTorch Lightning extension that accelerates and enhances foundation model experimentation with flexible fine-tuning schedules.
+    homepage: https://finetuning-scheduler.readthedocs.io
+    topics:
+      - artificial-intelligence
+      - fine-tuning
+      - finetuning
+      - machine-learning
+      - neural-networks
+      - pytorch
+      - pytorch-lightning
+      - superglue
+      - transfer-learning
+    last_checked_at: "2026-05-06T22:46:30.551Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:30.551Z"
+      bytes: 15914
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A PyTorch Lightning extension that enables flexible, phase-based fine-tuning schedules with automated checkpointing and early-stopping for foundation model experimentation.
+  why_it_matters: It gives researchers and ML engineers a structured way to iterate on fine-tuning strategies without hand-rolling complex training loops.
+  mental_damage: Because spending three days tuning your fine-tuning schedule is apparently the new alternative to actually shipping a model.
+  tags:
+    - pytorch-lightning
+    - fine-tuning
+    - training-schedules
+    - ml-experimentation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a low-level ML training library for PyTorch Lightning, which falls into general machine learning research and model training rather than the developer-facing AI tooling, agents, or infrastructure this catalog curates.
+  evidence:
+    - Repo description explicitly states it is 'A PyTorch Lightning extension that accelerates and enhances foundation model experimentation'.
+    - Topics and README focus on neural networks, transfer learning, and fine-tuning phases, not developer workflows or coding assistants.
+    - Featured in Awesome-LLMOps under 'Training > Foundation Model Fine Tuning', which is ML ops rather than developer tooling.
 placement:
   primary_category: null
   section: null
@@ -54,17 +72,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:30.551Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:36.403Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

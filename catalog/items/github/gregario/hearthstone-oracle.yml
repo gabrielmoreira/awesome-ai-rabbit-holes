@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__hearthstone-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Hearthstone MCP server with card search, deck analysis, and strategy coaching
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:27.720Z"
+    last_checked_at: "2026-05-06T22:44:08.266Z"
     readme:
-      fetched_at: "2026-05-05T21:02:27.720Z"
+      fetched_at: "2026-05-06T22:44:08.266Z"
       bytes: 3597
 insights:
-  summary: An MCP server that exposes the full Hearthstone card database and built-in strategy knowledge to LLMs for card search, deck analysis, and gameplay coaching.
-  why_it_matters: It demonstrates how to wrap a game-specific dataset and domain logic into an MCP server that any compatible agent can call without API keys or external services.
-  mental_damage: "We have finally achieved the future: an AI agent that can tell you why your Reno Priest list is bad, while your actual PRs rot in code review."
+  summary: An MCP server that gives LLMs structured access to the Hearthstone card database and built-in strategy knowledge for deck analysis and gameplay coaching.
+  why_it_matters: Developers building AI gaming assistants or experimenting with domain-specific MCP tooling get a ready-made server with card search, deck decoding, and archetype analysis without parsing game data themselves.
+  mental_damage: We have reached the point where an LLM can coach you through a digital card game while your actual coding agent still cannot figure out why your tests are failing.
   tags:
     - mcp
     - gaming
-    - llm-tools
+    - domain-server
     - node
+    - local
   confidence: high
 curation:
   status: included
-  reason: It is a standalone MCP server implementation designed to be plugged into MCP-compatible clients, which clearly fits the MCP Servers and Tooling category.
+  reason: This is an MCP server purpose-built to expose Hearthstone game data and strategy knowledge to LLMs, making it a textbook fit for the MCP Domain Servers section.
   evidence:
-    - "Repo description states: 'Hearthstone MCP server with card search, deck analysis, and strategy coaching.'"
-    - README explicitly lists 9 MCP tools and includes setup instructions for Claude Desktop and claude mcp add.
-    - Listed in awesome-mcp-servers under Gaming, confirming its role as MCP infrastructure.
+    - Repo description explicitly states 'Hearthstone MCP server with card search, deck analysis, and strategy coaching'
+    - README confirms 9 MCP tools including search_cards, decode_deck, analyze_deck, and coach capabilities
+    - Listed in awesome-mcp-servers under Gaming section, reinforcing its MCP server identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:27.720Z"
+    updated_at: "2026-05-06T22:44:08.266Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:54.886Z"
+    updated_at: "2026-05-06T22:58:55.397Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: codestory__ai
 kind: website
-name: Aide by Codestory
+name: codestory.ai
 canonical_url: https://codestory.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__codestory__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,41 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codestory is the company behind Aide, an AI coding agent designed to assist developers with code-related tasks.
-  why_it_matters: It offers a dedicated autonomous agent for developers looking to offload coding, review, or debugging tasks to a specialized AI tool.
-  mental_damage: We have reached the point where we are curating the curators of the agents that help us review the code the other agents wrote.
+  summary: Codestory.ai is an AI coding assistant that reads repositories, plans changes, and edits code, listed in the awesome-ai-agents directory as 'Aide'.
+  why_it_matters: It offers developers a repo-level autonomous agent that can be delegated to handle planning and implementation tasks across a codebase.
+  mental_damage: Another autonomous agent enters the arena, ready to refactor your repository while you wonder if you still need to understand the code it just rewrote.
   tags:
-    - autonomous
     - coding-agent
-    - developer-tool
+    - repo-agent
+    - autonomous
   confidence: medium
 curation:
   status: included
-  reason: The product (Aide) is listed in the awesome-ai-agents directory specifically as a coding agent, fitting the profile of a developer-facing assistant that works on source code.
+  reason: The product is listed as 'Aide by Codestory' in the awesome-ai-agents list, identifying it as a standalone coding assistant that autonomously handles repo work.
   evidence:
-    - Seen in awesome-ai-agents list under the section 'Aide by Codestory'
-    - The source list categorizes it as an 'AI autonomous agent'
+    - Seen in awesome-ai-agents list under the section for 'Aide by Codestory'
+    - Listed under a directory specifically for 'AI autonomous agents' that plan and execute code changes
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:07.030Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:18.866Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

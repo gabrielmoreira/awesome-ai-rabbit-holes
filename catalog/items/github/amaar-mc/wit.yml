@@ -1,13 +1,13 @@
 id: github__amaar-mc__wit
 kind: github-repo
-name: Wit
+name: wit
 canonical_url: https://github.com/amaar-mc/wit
 identity:
   github_repo: amaar-mc/wit
 provenance:
   discoveries:
     - id: discovery__github__amaar-mc__wit__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 41
+    stars: 42
     forks: 3
     license: MIT
     archived: false
@@ -42,49 +42,50 @@ metadata:
       - merge-conflicts
       - tree-sitter
       - typescript
-    last_checked_at: "2026-05-05T21:01:02.204Z"
+    last_checked_at: "2026-05-06T22:12:36.730Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.204Z"
+      fetched_at: "2026-05-06T22:12:36.730Z"
       bytes: 11476
 insights:
-  summary: A lightweight daemon and CLI that lets multiple AI coding agents coordinate their work by declaring intents, locking symbols, and detecting conflicts before code is written.
-  why_it_matters: It prevents merge conflicts and wasted effort when running several AI agents simultaneously on the same repository by adding a pre-conflict coordination layer.
-  mental_damage: We’ve finally built infrastructure to stop AI agents from fighting over the same function, as if the primary bottleneck to shipping was too many helpers and not enough plumbing.
+  summary: A lightweight daemon and CLI protocol that lets multiple AI coding agents declare intents, lock code symbols, and detect conflicts before writing to a shared repository.
+  why_it_matters: It prevents merge conflicts across concurrent AI agent sessions by coordinating work scope at the intent and symbol level rather than relying on git to untangle the mess after the fact.
+  mental_damage: We have finally reached the point where the greatest threat to your codebase is not a junior developer, but three Claude Code instances fighting over the same function like seagulls on a chip.
   tags:
     - agent-coordination
+    - multi-agent
     - cli
     - conflict-prevention
-    - multi-agent
+    - git
   confidence: high
 curation:
   status: included
-  reason: Wit is a user-facing coordination daemon and CLI designed to manage multiple coding agents working in the same repo, which fits agent orchestration rather than being a primary coding assistant itself.
+  reason: The core product is a coordination protocol and daemon for managing multiple AI agents working in the same repo, which aligns with Agent Orchestration's focus on control planes and runtime platforms for multi-agent workflows.
   evidence:
     - Repo description explicitly states 'Agent coordination protocol — declare intents, lock symbols, detect conflicts before code is written'.
-    - README positions Wit as a layer that 'sits between your agents and git' and is already listed in awesome-cli-coding-agents under 'Agent infrastructure'.
-    - Active project with recent creation and push dates (March 2026), MIT licensed, and not archived.
+    - README states 'Wit coordinates multiple AI coding agents working on the same repository simultaneously' and runs as a background daemon with JSON-RPC.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:54.135Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.204Z"
+    updated_at: "2026-05-06T22:12:36.730Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:58.240Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

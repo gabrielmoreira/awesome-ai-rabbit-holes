@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__acedatacloud__seedreammcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,50 +39,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - seedream
-    last_checked_at: "2026-05-05T21:00:48.160Z"
+    last_checked_at: "2026-05-06T22:12:24.336Z"
     readme:
-      fetched_at: "2026-05-05T21:00:48.160Z"
+      fetched_at: "2026-05-06T22:12:24.336Z"
       bytes: 15418
 insights:
-  summary: An MCP server that exposes ByteDance Seedream image generation and editing models via the AceDataCloud API to Claude, VS Code, Cursor, and other MCP-compatible clients.
-  why_it_matters: Developers using AI-assisted IDEs can now generate and edit images directly within their coding environment without switching contexts to external design tools.
-  mental_damage: Your coding agent can now argue about typography and hallucinate brand guidelines while you are just trying to merge a PR.
+  summary: An MCP server that exposes ByteDance Seedream image generation and editing capabilities to Claude, VS Code, Cursor, and other MCP-compatible clients via the Ace Data Cloud API.
+  why_it_matters: Developers using MCP-enabled coding assistants can generate, edit, and manage AI images directly from their IDE or agent workflow without leaving the coding environment.
+  mental_damage: We have officially reached the point where your coding agent can now generate brand assets while it hallucinates your API endpoints.
   tags:
     - mcp
     - image-generation
-    - seedream
     - bytedance
-    - developer-tools
-  confidence: medium
+    - seedream
+    - ide-integration
+  confidence: high
 curation:
   status: included
-  reason: The project is a concrete MCP server implementation designed to expose image generation capabilities to developer tools, fitting cleanly into the MCP infrastructure category.
+  reason: It is an MCP server whose primary identity is exposing ByteDance Seedream image generation as an MCP tool, making it a canonical domain server for the MCP category.
   evidence:
-    - Repo description explicitly states 'MCP server for ByteDance Seedream image generation and editing via Ace Data Cloud.'
-    - README details integrations with Claude Desktop, Cursor, Windsurf, VS Code, JetBrains, Claude Code, Cline, Roo Code, and Continue.dev.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' section.
+    - "Repo description explicitly states: 'MCP server for ByteDance Seedream image generation and editing'"
+    - README lists tool definitions like seedream_generate_image and seedream_edit_image for MCP clients
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:48.160Z"
+    updated_at: "2026-05-06T22:12:24.336Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:40.381Z"
+    updated_at: "2026-05-06T22:18:34.421Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

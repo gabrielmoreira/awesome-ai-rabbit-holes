@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__briandconnelly__mcp-server-ipinfo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [briandconnelly/mcp-server-ipinfo](https://github.com/briandconnelly/mcp-server-ipinfo) 🐍 ☁️  - IP address geolocation and network information using IPInfo API"
         confidence: high
     - id: discovery__github__briandconnelly__mcp-server-ipinfo__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: IP Geolocation Server for MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:24.927Z"
+    last_checked_at: "2026-05-06T22:12:56.775Z"
     readme:
-      fetched_at: "2026-05-05T21:01:24.927Z"
+      fetched_at: "2026-05-06T22:12:56.775Z"
       bytes: 3216
 insights:
-  summary: A Model Context Protocol server that provides IP geolocation, ISP, and residential proxy data via the IPInfo API for integration into MCP-compatible developer tools.
-  why_it_matters: It allows AI agents and developer environments to resolve IP addresses to physical locations and network details without the developer writing API integration code.
-  mental_damage: We have successfully abstracted the process of figuring out where a packet claims to be from behind a standardized protocol, ensuring our agents can now argue about geography with the same confidence they argue about semicolons.
+  summary: A Model Context Protocol server that wraps the IPInfo API to provide IP geolocation, network details, and residential proxy checks to MCP-compatible coding assistants.
+  why_it_matters: It gives AI agents the ability to resolve physical location, ISP, and proxy data for IP addresses without leaving the prompt context.
+  mental_damage: Your agent can now tell you exactly which coffee shop you're coding from, in case the existential dread of remote work wasn't localized enough.
   tags:
     - mcp
-    - ip-geolocation
+    - geolocation
+    - ipinfo
+    - server
     - developer-tools
-    - networking
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server providing tooling for the MCP ecosystem, fitting the mcp category's focus on servers and infrastructure.
+  reason: The product is an MCP server implementation for IP geolocation, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly defines it as an 'IP Geolocation Server for MCP'.
-    - README details tools like get_ip_details and get_residential_proxy_info designed for MCP clients.
-    - Featured in 'awesome-mcp-servers' and 'awesome-mcp-list' under Location Services sections.
+    - Repo description explicitly states 'IP Geolocation Server for MCP'.
+    - README confirms it is a 'Model Context Protocol server' using the ipinfo.io API.
+    - Included in 'awesome-mcp-servers' and 'awesome-mcp-list' under Location Services sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:24.927Z"
+    updated_at: "2026-05-06T22:12:56.775Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:35.299Z"
+    updated_at: "2026-05-06T22:25:03.264Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

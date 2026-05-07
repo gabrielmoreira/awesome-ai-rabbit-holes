@@ -1,13 +1,13 @@
 id: github__sweepai__sweep
 kind: github-repo
-name: Sweep
+name: sweep
 canonical_url: https://github.com/sweepai/sweep
 identity:
   github_repo: sweepai/sweep
 provenance:
   discoveries:
     - id: discovery__github__sweepai__sweep__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -21,75 +21,69 @@ provenance:
         extracted_url: https://github.com/sweepai/sweep
         surrounding_text: "- **[Sweep](https://github.com/sweepai/sweep)** – AI agent for automating PR reviews and fixes."
         confidence: high
-    - id: discovery__sweep__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Sweep
-        anchor_text: Sweep
-        extracted_url: https://sweep.dev
-        surrounding_text: "## [Sweep](https://sweep.dev/)"
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7712
+    forks: 460
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-06-14T10:08:07Z"
+    pushed_at: "2025-09-18T06:10:59Z"
+    description: "Sweep: AI coding assistant for JetBrains"
+    homepage: https://sweep.dev
+    topics:
+      - ai
+      - ai-developer
+      - ai-softwar
+      - ai-software
+      - code-assistant
+      - code-search
+      - developer-tools
+      - github-app
+      - gpt-4
+    last_checked_at: "2026-05-06T22:46:38.625Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:38.625Z"
+      bytes: 245
 insights:
-  summary: A JetBrains IDE plugin that provides AI-powered code autocomplete, an AI agent for code changes, and codebase indexing.
-  why_it_matters: It offers developers a way to stay inside their preferred JetBrains IDEs (like IntelliJ and PyCharm) while getting AI coding assistance comparable to tools like Cursor.
-  mental_damage: We have officially reached the point where bragging about 'Tab, Tab, Tab' is considered a competitive advantage in the IDE wars.
+  summary: Sweep is an AI coding assistant plugin designed specifically for the JetBrains IDE ecosystem.
+  why_it_matters: It integrates AI-assisted coding directly into the JetBrains workflow, allowing developers to delegate repo tasks without switching editors.
+  mental_damage: Because nothing says 'streamlined workflow' like installing a specialized AI plugin to fix the fact that your 800-dollar IDE didn't already come with one built in.
   tags:
-    - autocomplete
-    - coding-agent
-    - ide-plugin
     - jetbrains
+    - plugin
+    - code-assistant
+    - ide-extension
   confidence: high
 curation:
   status: included
-  reason: The product is a developer-facing coding assistant that directly edits, suggests, and reviews code within the JetBrains IDE workflow, fitting the coding-agents criteria.
+  reason: The tool is explicitly described as a plugin for JetBrains, making it an extension of an existing editor rather than a standalone coding agent or IDE.
   evidence:
-    - Scraped site context describes it as 'The fastest AI copilot for JetBrains' with an 'AI Agent built for JetBrains'.
-    - Features include 'next-edit autocomplete', 'AI Code Review', and 'Resolving Definitions / Code Search' inside the IDE.
-    - Listed in awesome-ai-agents under the section for AI copilots and agents.
-    - Scraped site describes it as 'The fastest AI copilot for JetBrains' with autocomplete, agent, and code review features.
-    - Changelog shows active development including AI Code Review, Web Search tools, and Remote MCP Server support.
-    - Listed in awesome-ai-agents under a section dedicated to Sweep as an AI agent for JetBrains.
+    - "Repo description states: 'Sweep: AI coding assistant for JetBrains'."
+    - README directs users to the JetBrains plugin marketplace page.
+    - Source list awesome-ai-coding-tools classifies it under 'Code Review and Refactoring'.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (7712) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:41.263Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:38.625Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:08.538Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: www__bilibili__com__video__bv1darmbce4a
 kind: website
-name: 翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast
+name: BV1darmBcE4A
 canonical_url: https://www.bilibili.com/video/BV1darmBcE4A
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__bilibili__com__video__bv1darmbce4a__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,44 +35,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A podcast interview video with OpenAI researcher Jiaxi (翁家翌) discussing GPT evolution, reinforcement learning, post-training, and infra.
-  why_it_matters: Developers building on top of LLMs get a rare inside look at how ChatGPT and GPT-4 scale, what post-training actually entails, and the infra bottlenecks behind the curtain.
-  mental_damage: Yet another reminder that while you spend three days debugging a React hook, someone else was quietly reshaping the model that will eventually rewrite your entire codebase.
+  summary: A Chinese-language podcast interview with OpenAI researcher Jia Yi Weng discussing GPT model development, reinforcement learning, and infrastructure.
+  why_it_matters: Developers can hear first-hand accounts of post-training, RLHF, and LLM infra from someone who helped build GPT-3.5/4/5.
+  mental_damage: Yet another hour-long rabbit hole where you convince yourself that understanding GPT-5’s RL infra will somehow unblock your failing CI pipeline.
   tags:
-    - infra
+    - podcast
     - llm
     - openai
-    - podcast
-    - post-training
+    - infra
+    - reinforcement-learning
   confidence: high
 curation:
-  status: included
-  reason: This is a podcast episode providing insight and commentary rather than a developer tool, IDE, agent, or framework, so it belongs in newsletters-and-feeds.
+  status: excluded
+  reason: This is a video podcast episode, not a developer tool, framework, or product, and therefore falls outside the catalog’s practical AI tooling scope.
   evidence:
-    - Source URL is a Bilibili video page, not a GitHub repo or tool.
-    - Listed under 'Podcast' in the awesome-LLM-resources directory with a podcast episode description.
-    - Content is an interview about OpenAI, GPT, and infra, not a software product or coding assistant.
+    - URL is a Bilibili video page, not a repo or product site.
+    - Content is an interview about OpenAI research, not a usable developer tool.
+    - Listed in awesome-LLM-resources under Podcast, which is media rather than tooling.
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:51.005Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:00.836Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

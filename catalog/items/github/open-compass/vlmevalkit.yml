@@ -1,13 +1,13 @@
 id: github__open-compass__vlmevalkit
 kind: github-repo
-name: VLMEvalKit
+name: vlmevalkit
 canonical_url: https://github.com/open-compass/vlmevalkit
 identity:
   github_repo: open-compass/vlmevalkit
 provenance:
   discoveries:
     - id: discovery__github__open-compass__vlmevalkit__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4109
-    forks: 689
+    stars: 4108
+    forks: 690
     license: Apache-2.0
     archived: false
     created_at: "2023-12-01T08:18:11Z"
@@ -51,50 +51,50 @@ metadata:
       - qwen
       - vit
       - vqa
-    last_checked_at: "2026-05-05T21:04:02.750Z"
+    last_checked_at: "2026-05-06T22:45:39.830Z"
     readme:
-      fetched_at: "2026-05-05T21:04:02.750Z"
+      fetched_at: "2026-05-06T22:45:39.830Z"
       bytes: 14787
 insights:
-  summary: An open-source evaluation toolkit for large vision-language models that supports one-command benchmarking across 220+ LMMs and 80+ benchmarks.
-  why_it_matters: It lets developers reliably measure and compare multimodal model performance without wrestling with data prep across multiple repositories.
-  mental_damage: Because nothing says 'we have achieved AGI' quite like spending three weeks tuning an eval harness to confirm your model still can't count the fingers in an image.
+  summary: An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing.
+  why_it_matters: It gives developers a standardized, reproducible way to benchmark multimodal model performance without manually wrangling data across disparate repositories.
+  mental_damage: We now have a dedicated framework to scientifically confirm that your shiny new multimodal model still can't tell a knitting needle from a breadstick.
   tags:
-    - benchmark
-    - eval
-    - llm
-    - multimodal
+    - evaluation
     - vision-language
+    - benchmarking
+    - multimodal
+    - llm
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated evaluation harness and benchmark toolkit for multimodal models, which fits squarely into the Evaluations and Benchmarks category.
+  reason: The core job is measuring and scoring model behavior across standardized benchmarks, which aligns precisely with the Evals & Benchmarks category.
   evidence:
-    - Repo description states it is an 'Open-source evaluation toolkit of large multi-modality models', supporting 220+ LMMs and 80+ benchmarks.
-    - README excerpt confirms it is an 'open-source evaluation toolkit' enabling 'one-command evaluation' of LVLMs on various benchmarks.
-    - Listed in awesome-LLM-resources under the '评估 Evaluation' (Evaluation) section.
+    - Repo description explicitly states 'Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks'.
+    - README confirms 'one-command evaluation of LVLMs on various benchmarks' and highlights generation-based evaluation with exact matching and LLM-based extraction.
+    - Source list places it in the '评估 Evaluation' section of an LLM resource list, reinforcing its identity as an evaluation tool.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4109) exceeded threshold (150)
+  reason: Stars (4108) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:15.058Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:02.750Z"
+    updated_at: "2026-05-06T22:45:39.830Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:02.597Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

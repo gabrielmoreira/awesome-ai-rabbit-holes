@@ -1,13 +1,13 @@
 id: github__kedro-org__kedro-viz
 kind: github-repo
-name: Kedro-Viz
+name: kedro-viz
 canonical_url: https://github.com/kedro-org/kedro-viz
 identity:
   github_repo: kedro-org/kedro-viz
 provenance:
   discoveries:
     - id: discovery__github__kedro-org__kedro-viz__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -29,7 +29,7 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2019-05-09T10:35:23Z"
-    pushed_at: "2026-05-04T09:51:21Z"
+    pushed_at: "2026-05-06T17:34:51Z"
     description: "Visualise your Kedro data and machine-learning pipelines and track your experiments. "
     homepage: https://demo.kedro.org
     topics:
@@ -40,28 +40,28 @@ metadata:
       - kedro-plugin
       - python
       - react
-    last_checked_at: "2026-05-05T21:03:03.360Z"
+    last_checked_at: "2026-05-06T22:44:41.185Z"
     readme:
-      fetched_at: "2026-05-05T21:03:03.360Z"
+      fetched_at: "2026-05-06T22:44:41.185Z"
       bytes: 10733
 insights:
-  summary: Kedro-Viz is an interactive visualisation plugin and standalone React component for exploring Kedro data and machine-learning pipelines and tracking experiments.
-  why_it_matters: It lets developers inspect, search, and debug complex ML pipelines with autoreload and rich metadata instead of reading raw YAML or Python boilerplate.
-  mental_damage: Yet another reminder that your most impressive AI system is still just a DAG wearing a Plotly chart, and someone will eventually ask you to visualise the visualiser.
+  summary: Kedro-Viz is a plugin and standalone React component for visualizing Kedro data science pipelines and tracking machine-learning experiments.
+  why_it_matters: It gives data scientists an interactive, searchable visual interface to manage, filter, and understand complex ML pipelines and metadata.
+  mental_damage: Because nothing says 'our models are under control' like spending an afternoon arranging colorful nodes while the pipeline silently overfits in the background.
   tags:
+    - data-visualization
     - experiment-tracking
     - kedro
-    - mlops
-    - pipeline-visualisation
-    - react
+    - ml-pipelines
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: This is a general MLOps and data-pipeline visualisation tool with no meaningful AI developer-tooling angle for coding agents, IDEs, app builders, or adjacent AI infrastructure.
+  reason: The project is a traditional ML pipeline visualization and experiment tracking tool with no meaningful AI-assisted coding, agent, or developer-workflow identity.
   evidence:
-    - Repo description and README focus on visualising Kedro data/ML pipelines and experiment tracking, not AI-assisted coding or developer workflows.
-    - Listed under Training > Experiment Tracking in Awesome-LLMOps, which is a general MLOps context rather than AI developer tooling.
-    - No mention of coding agents, IDE integration, prompt tooling, MCP, or app-building capabilities in the provided inputs.
+    - Repo description explicitly focuses on visualizing Kedro data/ML pipelines and experiment tracking.
+    - README describes it as an interactive development tool for building data science pipelines, not coding agents or AI workflows.
+    - Seen in Awesome-LLMOps under 'Training > Experiment Tracking', which is ML operations rather than developer-facing AI tooling.
 placement:
   primary_category: null
   section: null
@@ -69,21 +69,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (748) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:17.492Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:03.360Z"
+    updated_at: "2026-05-06T22:44:41.185Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:46.395Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

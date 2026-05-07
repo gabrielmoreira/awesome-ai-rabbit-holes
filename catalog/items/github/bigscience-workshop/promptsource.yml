@@ -1,13 +1,13 @@
 id: github__bigscience-workshop__promptsource
 kind: github-repo
-name: PromptSource
+name: promptsource
 canonical_url: https://github.com/bigscience-workshop/promptsource
 identity:
   github_repo: bigscience-workshop/promptsource
 provenance:
   discoveries:
     - id: discovery__github__bigscience-workshop__promptsource__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,28 +35,28 @@ metadata:
       - machine-learning
       - natural-language-processing
       - nlp
-    last_checked_at: "2026-05-05T21:01:20.725Z"
+    last_checked_at: "2026-05-06T22:12:52.787Z"
     readme:
-      fetched_at: "2026-05-05T21:01:20.725Z"
+      fetched_at: "2026-05-06T22:12:52.787Z"
       bytes: 9587
 insights:
-  summary: A toolkit and library for creating, sharing, and applying structured natural language prompts (templates) to datasets, primarily within the HuggingFace ecosystem.
-  why_it_matters: It provides a standardized Jinja-based interface to manage thousands of prompts, allowing developers to apply consistent prompt engineering patterns across hundreds of NLP datasets.
-  mental_damage: Just when you thought prompt engineering was becoming a stable discipline, here is a library to remind you that managing 2,000 permutations of 'Does this imply that...' is the new data entry job.
+  summary: A toolkit and library for creating, sharing, and using structured natural language prompt templates, primarily designed for NLP research and dataset preparation.
+  why_it_matters: It provides a standardized way to manage prompt templates using Jinja, allowing developers to apply consistent prompt logic across Hugging Face datasets.
+  mental_damage: Because nothing says 'accelerating developer productivity' like spending an afternoon crafting the perfect Jinja template to ask a model if 'Carlyle Looks Toward Commercial Aerospace' is business news.
   tags:
-    - huggingface
+    - prompts
     - nlp
-    - prompt-engineering
     - templates
+    - huggingface
     - toolkit
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the project focuses on NLP dataset templating and model fine-tuning (P3/FLAN/T0) rather than providing developer-facing tooling, agents, or infrastructure for building software.
+  reason: This is a general NLP research tool for prompt engineering on datasets, lacking the specific developer-infrastructure or coding-workflow focus required for this catalog.
   evidence:
-    - Repo description and README focus on 'natural language prompts' for 'datasets' rather than coding workflows.
-    - Topics listed are 'machine-learning', 'natural-language-processing', 'nlp', indicating a research/ML focus rather than dev tooling.
-    - Source list context places it in 'awesome-langchain' under 'Other LLM Frameworks', but its core function is dataset preparation, not software development automation.
+    - Repo description explicitly states it is for 'natural language prompts' rather than code generation or developer tooling.
+    - README examples focus on NLP classification tasks (e.g., AG News, SNLI) and dataset manipulation, not repo editing or coding agents.
+    - Topics and context ('bigscience-workshop', 'machine-learning', 'nlp') signal a research/ML audience rather than a software developer tooling audience.
 placement:
   primary_category: null
   section: null
@@ -64,21 +64,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3010) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:47.762Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:20.725Z"
+    updated_at: "2026-05-06T22:12:52.787Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:17.098Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__scale3-labs__langtrace
 kind: github-repo
-name: Langtrace
+name: langtrace
 canonical_url: https://github.com/scale3-labs/langtrace
 identity:
   github_repo: scale3-labs/langtrace
 provenance:
   discoveries:
     - id: discovery__github__scale3-labs__langtrace__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,47 +24,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1199
+    forks: 123
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-03-30T23:49:41Z"
+    pushed_at: "2025-11-17T15:08:48Z"
+    description: Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊
+    homepage: https://langtrace.ai
+    topics:
+      - ai
+      - datasets
+      - evaluations
+      - gpt
+      - langchain
+      - llm
+      - llm-framework
+      - llmops
+      - observability
+      - open-source
+      - open-telemetry
+      - openai
+      - prompt-engineering
+      - tracing
+    last_checked_at: "2026-05-06T22:46:17.900Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:17.900Z"
+      bytes: 13318
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Langtrace is an open-source observability platform built on OpenTelemetry that provides real-time tracing, metrics, and evaluations for LLM applications, APIs, vector databases, and popular LLM frameworks via TypeScript and Python SDKs.
+  why_it_matters: It gives developers instrumented visibility into LLM latency, cost, and workflow behavior, making it easier to debug and optimize AI-powered applications.
+  mental_damage: You can now trace exactly how many tokens and dollars your agent burned while confidently explaining to your team that observability was the missing piece all along.
+  tags:
+    - observability
+    - tracing
+    - llmops
+    - opentelemetry
+    - evals
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core job of this product is tracing, metrics, and evaluations for LLM applications, which aligns directly with the Evals & Benchmarks category rather than orchestration or frameworks.
+  evidence:
+    - Repo description explicitly defines it as an observability tool for LLM apps with tracing, evaluations, and metrics.
+    - README highlights real-time monitoring, performance insights, debug tools, and OTEL-standard trace generation.
+    - Source list placed it under Tools & Infrastructure > Observability & Tracing in an agent-orchestration repo.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1199) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:17.900Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:18.829Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

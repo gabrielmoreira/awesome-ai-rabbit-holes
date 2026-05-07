@@ -1,0 +1,77 @@
+id: supadata__ai
+kind: website
+name: supadata.ai
+canonical_url: https://supadata.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__supadata__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Supadata
+        extracted_url: https://supadata.ai
+        surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An API service that extracts transcripts, metadata, and structured data from web pages, YouTube, TikTok, Instagram, X, and Facebook content for AI training and retrieval pipelines.
+  why_it_matters: Developers building RAG pipelines, AI training sets, or social media analysis tools can reliably turn messy video and web content into clean JSON with a single API call.
+  mental_damage: Because nothing says 'production-grade AI infrastructure' like a Rick Astley transcript confirming your API key works at 2am.
+  tags:
+    - api
+    - web-scraping
+    - youtube
+    - social-media
+    - rag
+  confidence: medium
+curation:
+  status: included
+  reason: This is a developer-facing API and data extraction toolkit for building retrieval pipelines, fitting cleanly as a code-first building block for memory and retrieval infrastructure.
+  evidence:
+    - The site describes a 'Simple, reliable API for developers & makers' with curl usage examples and JSON output.
+    - Core capabilities include video transcripts, social media metadata, and web scraping/crawling for any URL.
+    - Listed in awesome-mcp-servers as a server, but the primary product identity is the API and data extraction service itself.
+placement:
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:12.043Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

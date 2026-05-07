@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nnemirovsky__iwdp-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - safari
       - web-inspector
       - webkit
-    last_checked_at: "2026-05-05T21:03:55.389Z"
+    last_checked_at: "2026-05-06T22:45:33.647Z"
     readme:
-      fetched_at: "2026-05-05T21:03:55.389Z"
+      fetched_at: "2026-05-06T22:45:33.647Z"
       bytes: 13648
 insights:
-  summary: An MCP server and CLI that exposes the iOS WebKit Inspector Protocol as tools so AI agents and IDEs can debug Safari on real iPhones.
-  why_it_matters: It gives coding agents and MCP clients native access to real iOS Safari sessions, closing a long-standing gap where only desktop Chrome debugging was agent-accessible.
-  mental_damage: We have finally automated the one remaining step of mobile debugging that still required a human with a lightning cable and a prayer.
+  summary: An MCP server and CLI that bridges the WebKit Inspector Protocol to let AI agents remotely debug iOS Safari on real devices.
+  why_it_matters: It gives coding agents and MCP-compatible IDEs the missing ability to inspect DOM, debug JS, and capture network traffic on real iPhones, filling a gap that desktop Chrome DevTools MCP cannot cover.
+  mental_damage: We have finally automated the part of mobile debugging where you used to bother a teammate with an iPhone, only now the AI can also see your httpOnly cookies and judge you.
   tags:
     - mcp
-    - ios-safari
+    - ios
     - debugging
+    - safari
     - webkit
-    - mobile
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server with deep protocol tooling, fitting the MCP Servers and Tooling category rather than being a coding agent itself.
+  reason: This is an MCP server that exposes 100+ WebKit Inspector Protocol tools to AI agents and IDEs, making MCP its core product identity.
   evidence:
     - "Repo description states: 'MCP server + CLI for iOS Safari debugging via ios-webkit-debug-proxy — full WebKit Inspector Protocol support'."
-    - README lists 100+ tools across 27 WebKit Inspector Protocol domains and one-click installs for Claude Code, VS Code, Cursor, Windsurf, and others as an MCP server.
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation, reinforcing its MCP infrastructure role.
+    - README shows '100+ tools across all 27 WebKit Inspector Protocol domains' and installs directly into Claude Code, Cursor, Windsurf, and others as an MCP server.
+    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:55.389Z"
+    updated_at: "2026-05-06T22:45:33.647Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:50.065Z"
+    updated_at: "2026-05-06T23:17:33.359Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

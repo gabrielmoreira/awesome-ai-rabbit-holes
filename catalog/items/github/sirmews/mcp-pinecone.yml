@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sirmews__mcp-pinecone__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone) 🐍 ☁️ - Pinecone integration with vector search capabilities"
         confidence: high
     - id: discovery__github__sirmews__mcp-pinecone__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,47 +39,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 148
+    forks: 35
+    license: MIT
+    archived: true
+    created_at: "2024-12-08T04:53:27Z"
+    pushed_at: "2025-01-31T08:20:22Z"
+    description: Model Context Protocol server to allow for reading and writing from Pinecone. Rudimentary RAG
+    homepage: ""
+    topics:
+      - claude
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pinecone
+      - rag
+    last_checked_at: "2026-05-06T22:46:26.565Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:26.565Z"
+      bytes: 5837
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An archived MCP server that lets Claude Desktop read, write, and semantically search Pinecone vector indexes with built-in document chunking and embedding via Pinecone's inference API.
+  why_it_matters: It gives coding assistants a drop-in memory layer for RAG workflows without requiring developers to hand-roll vector DB integrations.
+  mental_damage: Nothing says modern developer productivity like installing a now-archived bridge to pipe your prompts into a vector database that will silently drift out of context anyway.
+  tags:
+    - mcp
+    - pinecone
+    - rag
+    - vector-db
+    - claude
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is archived, which is a strong negative signal for a protocol server that depends on an evolving spec and external service APIs.
+  evidence:
+    - "Repo description: 'Model Context Protocol server to allow for reading and writing from Pinecone. Rudimentary RAG'"
+    - "Archived: yes (clear negative signal for inclusion)"
+    - Seen in awesome-mcp-list and awesome-mcp-servers under Databases sections
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.671Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:26.565Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:59.448Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

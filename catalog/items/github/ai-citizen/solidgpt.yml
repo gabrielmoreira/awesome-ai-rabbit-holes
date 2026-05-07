@@ -1,13 +1,13 @@
 id: github__ai-citizen__solidgpt
 kind: github-repo
-name: SolidGPT
+name: solidgpt
 canonical_url: https://github.com/ai-citizen/solidgpt
 identity:
   github_repo: ai-citizen/solidgpt
 provenance:
   discoveries:
     - id: discovery__github__ai-citizen__solidgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -41,50 +41,50 @@ metadata:
       - llm
       - notion
       - solidgpt
-    last_checked_at: "2026-05-05T21:00:54.738Z"
+    last_checked_at: "2026-05-06T22:12:29.863Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.738Z"
+      fetched_at: "2026-05-06T22:12:29.863Z"
       bytes: 4004
 insights:
-  summary: A VSCode extension and CLI tool that enables semantic search and chat over a local codebase and Notion documents using LLMs.
-  why_it_matters: It allows developers to query their project's source code and documentation directly within their editor to quickly locate methods or understand context without manual hunting.
-  mental_damage: Yet another reason to perfect the art of asking an AI where the spaghetti is hidden instead of reading the code yourself.
+  summary: SolidGPT is a developer-facing AI search assistant that indexes local codebases and Notion workspace documents for semantic querying within a VSCode extension.
+  why_it_matters: It lets developers query their existing code and project documentation in natural language, reducing context-switching between the editor and external wikis.
+  mental_damage: Another valiant attempt to solve the modern developer's dilemma of having 500 files onboarded but still spending three hours finding where the actual logic lives.
   tags:
-    - chatbot
-    - codebase
-    - notion
     - semantic-search
-    - vscode
+    - vscode-extension
+    - notion-integration
+    - codebase-indexing
+    - langchain
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing assistant that integrates into VSCode to help navigate and understand an existing codebase via chat and search.
+  reason: The core novelty is indexing and retrieving context from a codebase and Notion to feed into a model, aligning with context retrieval and fresh-doc lookup rather than being a primary coding agent.
   evidence:
-    - Repo description explicitly states 'Developer AI Persona Search Agent'.
-    - README highlights VSCode Extension for talking to your codebase and semantic search.
-    - Usecase section describes asking questions about the codebase and getting answers in seconds.
+    - Repo description identifies it as a 'Developer AI Persona Search Agent' focused on semantic search.
+    - README explicitly states it helps 'Talk to your codebase' and performs 'Semantic search and summary in Notion'.
+    - Appears in awesome-langchain under 'Knowledge Management', reinforcing its retrieval identity.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (1792) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:45.630Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.738Z"
+    updated_at: "2026-05-06T22:12:29.863Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:37.127Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

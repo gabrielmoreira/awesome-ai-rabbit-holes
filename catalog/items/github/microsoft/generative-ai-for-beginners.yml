@@ -1,0 +1,95 @@
+id: github__microsoft__generative-ai-for-beginners
+kind: github-repo
+name: generative-ai-for-beginners
+canonical_url: https://github.com/microsoft/generative-ai-for-beginners
+identity:
+  github_repo: microsoft/generative-ai-for-beginners
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__generative-ai-for-beginners__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "微软: Generative AI for Beginners"
+        extracted_url: https://github.com/microsoft/generative-ai-for-beginners
+        surrounding_text: "6. [微软: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)"
+        confidence: high
+metadata:
+  github:
+    stars: 110274
+    forks: 59150
+    license: MIT
+    archived: false
+    created_at: "2023-06-19T16:28:59Z"
+    pushed_at: "2026-04-30T09:47:28Z"
+    description: "21 Lessons, Get Started Building with Generative AI "
+    homepage: ""
+    topics:
+      - ai
+      - azure
+      - chatgpt
+      - dall-e
+      - generative-ai
+      - generativeai
+      - gpt
+      - language-model
+      - llms
+      - microsoft-for-beginners
+      - openai
+      - prompt-engineering
+      - semantic-search
+      - transformers
+    last_checked_at: "2026-05-06T22:45:16.435Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:16.435Z"
+      bytes: 24319
+insights:
+  summary: A 21-lesson open-source course by Microsoft teaching developers the fundamentals of building generative AI applications.
+  why_it_matters: It provides a structured, multi-language curriculum covering prompt engineering and application development fundamentals for developers entering the generative AI ecosystem.
+  mental_damage: Another high-quality course to star, clone, and feel productive about while your actual AI-powered PR languishes in code review for a week.
+  tags:
+    - education
+    - course
+    - microsoft
+    - generative-ai
+    - beginners
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational curriculum and documentation resource, not a developer-facing tool, agent, framework, or infrastructure product.
+  evidence:
+    - Repo description states it is '21 Lessons, Get Started Building with Generative AI', identifying it as a course.
+    - README confirms the product is a '21-lesson comprehensive course', not a software tool or CLI.
+    - Source list context categorizes it under '课程 Course' (Course), aligning with its identity as learning material.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (110274) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.629Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:16.435Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:33.534Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

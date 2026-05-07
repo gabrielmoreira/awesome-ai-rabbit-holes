@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidan90__time-node-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for timezone-aware date and time operations
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:47.871Z"
+    last_checked_at: "2026-05-06T22:43:33.975Z"
     readme:
-      fetched_at: "2026-05-05T21:01:47.871Z"
+      fetched_at: "2026-05-06T22:43:33.975Z"
       bytes: 5011
 insights:
-  summary: A lightweight Node.js MCP server that provides timezone-aware date and time operations to AI assistants via the Model Context Protocol.
-  why_it_matters: It solves the common problem of LLMs hallucinating dates and times by giving tools like Claude Desktop a reliable source of truth for timezone conversions and DST-aware calculations.
-  mental_damage: We have successfully reached the point where we need to install a dedicated server just to remind the all-knowing AI overlord what time it is in London.
+  summary: A small Node.js MCP server that provides timezone-aware date, time, and DST conversion tools for AI assistants like Claude Desktop.
+  why_it_matters: It fixes the common failure mode where LLMs confidently hallucinate the current date or botch timezone math during meeting scheduling and travel planning.
+  mental_damage: We have reached the point where we need a dedicated protocol server just to teach the assistant what time it is, as if time itself were a context window limitation.
   tags:
     - mcp
     - timezone
     - nodejs
-    - developer-tools
+    - claude-desktop
   confidence: high
 curation:
   status: included
-  reason: The project is a self-contained MCP server implementation designed to extend AI assistants with specific tooling capabilities, fitting the MCP category perfectly.
+  reason: The product is a purpose-built MCP server whose entire identity is exposing timezone and date-time tools to MCP-compatible assistants.
   evidence:
-    - "Repo description explicitly states: 'MCP server for timezone-aware date and time operations'."
-    - README details integration with Claude Desktop via the Model Context Protocol configuration.
-    - Included in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'MCP server for timezone-aware date and time operations'.
+    - README details a Model Context Protocol server with tools like get_current_time and convert_time for Claude Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:47.871Z"
+    updated_at: "2026-05-06T22:43:33.975Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:33.420Z"
+    updated_at: "2026-05-06T22:51:52.724Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

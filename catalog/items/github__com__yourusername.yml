@@ -1,12 +1,12 @@
 id: github__com__yourusername
 kind: website
-name: Your Name
+name: yourusername
 canonical_url: https://github.com/yourusername
 identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__yourusername__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -34,20 +34,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This is a GitHub user profile page for 'yourusername', which currently has no public repositories or project artifacts.
-  why_it_matters: It doesn't; this is a placeholder profile rather than a usable developer tool or framework.
-  mental_damage: We have reached peak AI automation when the catalog starts reviewing the empty GitHub profiles of the people who might one day build the tools.
+  summary: This is a GitHub user profile page for 'yourusername', which currently has no public repositories.
+  why_it_matters: It doesn't; this is effectively a placeholder profile and offers no tooling for developers to use.
+  mental_damage: "We have reached peak AI automation: the reviewer is now attempting to evaluate the emptiness of a user profile as if it were a production-grade coding agent."
   tags:
-    - no-repo
     - placeholder
+    - profile
   confidence: high
 curation:
   status: excluded
-  reason: This is not a software project, tool, or directory; it is a personal GitHub profile with no public repositories or code artifacts.
+  reason: This entry links to a GitHub user profile with zero public repositories, meaning there is no software product, tool, or directory to include in the catalog.
   evidence:
-    - "The scraped context explicitly states: 'Yourusername doesn't have any public repositories yet.'"
-    - The repo description, homepage, stars, and creation date are all unknown or empty.
-    - The source list context only links to the generic GitHub profile overview, not a specific tool or list.
+    - "Scraped site context confirms: 'Yourusername doesn't have any public repositories yet.'"
+    - Repo description, stars, topics, and license are all non-existent or unknown.
+    - Source list context links to a generic GitHub overview page rather than a specific tool repository.
 placement:
   primary_category: null
   section: null
@@ -55,17 +55,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:42.156Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -74,3 +66,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:21.847Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

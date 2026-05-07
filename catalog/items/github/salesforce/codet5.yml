@@ -1,13 +1,13 @@
 id: github__salesforce__codet5
 kind: github-repo
-name: CodeT5
+name: codet5
 canonical_url: https://github.com/salesforce/codet5
 identity:
   github_repo: salesforce/codet5
 provenance:
   discoveries:
     - id: discovery__github__salesforce__codet5__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,47 +23,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3099
+    forks: 492
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2021-08-16T04:03:46Z"
+    pushed_at: "2024-01-20T11:34:30Z"
+    description: "Home of CodeT5: Open Code LLMs for Code Understanding and Generation"
+    homepage: https://arxiv.org/abs/2305.07922
+    topics:
+      - code-generation
+      - code-intelligence
+      - code-understanding
+      - language-model
+      - large-language-models
+    last_checked_at: "2026-05-06T22:46:15.766Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:15.766Z"
+      bytes: 5127
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CodeT5 is a family of open-source encoder-decoder language models from Salesforce Research designed for code understanding, generation, summarization, and autocompletion.
+  why_it_matters: It provides developers with the weights and architecture to build or fine-tune custom coding assistants, rather than relying solely on closed, proprietary APIs.
+  mental_damage: Yet another reminder that while we wait for the magical AGI assistant, we are still expected to be ML researchers downloading HuggingFace checkpoints and tuning hyperparameters just to get a decent autocomplete.
+  tags:
+    - code-generation
+    - llm
+    - research
+    - open-source
+    - salesforce
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a research artifact and model repository, not a developer-facing tool, IDE, agent, or framework for immediate use in a workflow.
+  evidence:
+    - Repo description identifies this as 'Open Code LLMs' (models), not a product or tool.
+    - README focuses on paper citations (EMNLP, NeurIPS) and HuggingFace checkpoints rather than a developer tool experience.
+    - Listed in Awesome-LLMOps under 'Code AI', which covers research models rather than operational developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3099) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:15.766Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:52.996Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

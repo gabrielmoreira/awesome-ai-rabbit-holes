@@ -1,12 +1,12 @@
 id: openclawmp__stepfun__com
 kind: website
-name: 水产市场
+name: openclawmp.stepfun.com
 canonical_url: https://openclawmp.stepfun.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__openclawmp__stepfun__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language marketplace and community hub for discovering, sharing, and installing skills, plugins, triggers, and communicators designed to extend AI agents.
-  why_it_matters: It provides a centralized registry for developers to find reusable agent extensions and integration patterns rather than building common capabilities from scratch.
-  mental_damage: We have finally achieved the App Store model for AI agents, meaning your bot's capabilities are now just one `npm install`-style command away from requiring dependency management and version conflicts.
+  summary: A Chinese-language marketplace and community hub for discovering, sharing, and installing reusable Agent Skills, plugins, triggers, and communication adapters.
+  why_it_matters: It provides a structured registry where developers can extend their agents with community-built capabilities and configuration packs instead of writing them from scratch.
+  mental_damage: Just when you thought dependency hell was contained to npm, we now have a burgeoning app store for giving your AI agents new personality quirks and browser plugins.
   tags:
-    - agent-ecosystem
-    - agent-marketplace
+    - agent-skills
+    - marketplace
+    - community
     - plugins
-    - skills
   confidence: high
 curation:
-  status: excluded
-  reason: This is a consumer-facing agent marketplace and community hub for 'Agent evolution' rather than a developer tool, framework, or extension that fits into a software development workflow.
+  status: included
+  reason: The product is explicitly a registry and discovery hub ('新时代的 App Store') for Agent assets like skills, plugins, and triggers, which aligns with the Agent Skills category.
   evidence:
-    - Describes itself as a '新时代的 App Store' (New Era App Store) for agents to learn from each other.
-    - Content is primarily a directory of 'Skills', 'Plugins', 'Triggers', and 'Communicators' for end-user agents.
-    - Appears in 'awesome-LLM-resources' under a 'Skills' section, indicating it is a resource/directory rather than a dev tool.
+    - Site title and description identify it as a marketplace ('水产市场') for skills, plugins, triggers, and communicators.
+    - The page excerpt explicitly lists '经验/集合', '技能', '插件', and '触发器' as the primary asset types available for agents.
+    - Source list context places it under '技能 Skills' as a place to share skills, experiences, plugins, and triggers.
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:52.944Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:09.320Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

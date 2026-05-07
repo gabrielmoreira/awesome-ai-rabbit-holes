@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arrismo__kaggle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,50 +35,49 @@ metadata:
     topics:
       - kaggle
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:09.985Z"
+    last_checked_at: "2026-05-06T22:12:43.502Z"
     readme:
-      fetched_at: "2026-05-05T21:01:09.985Z"
+      fetched_at: "2026-05-06T22:12:43.502Z"
       bytes: 5781
 insights:
-  summary: An MCP server that allows AI agents to search for, download, and generate EDA prompts for Kaggle datasets via the Kaggle API.
-  why_it_matters: It connects data science platforms directly into agentic workflows, allowing models to autonomously source training data and bootstrap analysis notebooks.
-  mental_damage: We have successfully abstracted the process of downloading a zip file into a protocol handshake so your agent can hallucinate statistics about data it found on its own.
+  summary: A Model Context Protocol server built with FastMCP that exposes Kaggle API tools for searching and downloading datasets, plus a prompt generator for EDA notebooks.
+  why_it_matters: It lets coding agents and MCP clients pull datasets and bootstrap analysis notebooks directly from Kaggle without leaving the AI-assisted workflow.
+  mental_damage: You can now outsource your Kaggle procrastination to an agent that can download datasets and hallucinate EDA templates without you ever understanding the data.
   tags:
     - mcp
     - kaggle
     - data-science
     - fastmcp
-    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to integrate Kaggle into AI agent workflows, fitting the MCP Servers and Tooling category.
+  reason: This is an MCP server by identity and implementation, exposing Kaggle tools and prompts via the Model Context Protocol, which maps cleanly to the MCP Domain Servers section.
   evidence:
-    - "Repo description explicitly states: 'MCP server for Kaggle'."
-    - README details implementation using `fastmcp` library to expose tools like `search_kaggle_datasets` and `download_kaggle_dataset`.
-    - Listed in 'awesome-mcp-servers' under 'Data Science Tools' section.
+    - "Repo description: 'MCP server for Kaggle'."
+    - "README: 'contains an MCP (Model Context Protocol) server (server.py) built using the fastmcp library' with tools for search/download and an EDA prompt."
+    - Listed in awesome-mcp-servers under 'Data Science Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:09.985Z"
+    updated_at: "2026-05-06T22:12:43.502Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:06.914Z"
+    updated_at: "2026-05-06T22:22:23.332Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

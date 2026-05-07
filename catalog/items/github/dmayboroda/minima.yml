@@ -1,13 +1,13 @@
 id: github__dmayboroda__minima
 kind: github-repo
-name: Minima
+name: minima
 canonical_url: https://github.com/dmayboroda/minima
 identity:
   github_repo: dmayboroda/minima
 provenance:
   discoveries:
     - id: discovery__github__dmayboroda__minima__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server."
         confidence: high
     - id: discovery__github__dmayboroda__minima__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1046
+    stars: 1047
     forks: 103
     license: MPL-2.0
     archived: false
@@ -60,50 +60,50 @@ metadata:
       - ollama
       - qdrant
       - sentence-transformers
-    last_checked_at: "2026-05-05T21:01:54.474Z"
+    last_checked_at: "2026-05-06T22:43:38.977Z"
     readme:
-      fetched_at: "2026-05-05T21:01:54.474Z"
+      fetched_at: "2026-05-06T22:43:38.977Z"
       bytes: 9319
 insights:
-  summary: Minima is an open-source, on-premises RAG stack that runs as configurable Docker containers and exposes local document search via ChatGPT Custom GPTs, Anthropic Claude (MCP), or a fully local Ollama setup.
-  why_it_matters: It lets developers run private, local document-grounded AI workflows without sending internal data to external APIs, with pluggable LLM backends and MCP support for Claude Desktop.
-  mental_damage: Now you can host your own vector-backed paranoia fortress and still obsess over whether the reranker is secretly telephoning home.
+  summary: Minima is an open-source, on-premises RAG (Retrieval-Augmented Generation) system that runs as configurable Docker containers, allowing developers to query local documents using local LLMs, ChatGPT, or Claude via MCP integration.
+  why_it_matters: It offers a self-contained, privacy-first infrastructure for indexing and querying local codebases or documentation using your choice of local models or external APIs.
+  mental_damage: Yet another 'run it locally with Docker' RAG setup that forces you to choose between debugging docker-compose errors or just pasting the file into ChatGPT like a civilized animal.
   tags:
-    - docker
-    - langchain
+    - rag
     - local-ai
     - mcp
-    - rag
+    - docker
+    - on-premises
   confidence: high
 curation:
   status: included
-  reason: The project is a local-first, self-hosted AI stack centered on private model execution and document retrieval, which aligns with the Local AI category's focus on running AI on your own hardware.
+  reason: The primary product identity is a self-hosted, local runtime for RAG that can serve as an MCP server, fitting the 'Local AI' scope of on-device/self-hosted tooling.
   evidence:
-    - "Repo description: 'On-premises conversational RAG with configurable containers'"
-    - "README: supports fully local Ollama mode, custom LLM APIs, ChatGPT integration, and MCP integration for Claude Desktop"
-    - "Topics include local-ai signals: ollama, docker, huggingface, mcp, and listed in awesome-mcp-servers and awesome-langchain"
+    - "Repo description explicitly states: 'On-premises conversational RAG with configurable containers'."
+    - README details fully local setups using Ollama and Docker Compose for self-hosted inference.
+    - Includes an MCP server mode for integration with Claude Desktop, acting as a local serving layer.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1046) exceeded threshold (150)
+  reason: Stars (1047) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:37.350Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:54.474Z"
+    updated_at: "2026-05-06T22:43:38.977Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:55.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

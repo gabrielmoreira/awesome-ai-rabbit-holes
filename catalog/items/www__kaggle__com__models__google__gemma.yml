@@ -1,12 +1,12 @@
 id: www__kaggle__com__models__google__gemma
 kind: website
-name: Gemma
+name: gemma
 canonical_url: https://www.kaggle.com/models/google/gemma
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__kaggle__com__models__google__gemma__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,21 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Gemma is a family of lightweight, open large language models built by Google using the research and technology behind Gemini.
-  why_it_matters: Developers can run and fine-tune these models locally or in their own infrastructure to build AI-powered applications without relying on hosted APIs.
-  mental_damage: Now you have to decide not just which model to use, but whether you are mentally prepared to quantize, fine-tune, and babysit a 'lightweight' 7B parameter roommate on your own hardware.
+  summary: Gemma is a family of lightweight, open large language models built by Google using the same research and technology behind the Gemini models.
+  why_it_matters: Developers can run or fine-tune these open weights locally or in their own infrastructure to power custom coding assistants without relying on proprietary hosted APIs.
+  mental_damage: Just when you had your local Llama setup perfectly tuned, Google releases a new family of open models that immediately makes your current quantization strategy feel like a museum exhibit.
   tags:
+    - local-models
+    - open-weights
     - google
     - llm
-    - local-ai
-    - open-model
   confidence: high
 curation:
   status: excluded
-  reason: While Gemma is a highly relevant developer tool, it is a foundational model release rather than a developer-facing application, agent, or infrastructure tool, making it too broad for this specific catalog scope.
+  reason: Gemma is a raw model family and checkpoint collection hosted on Kaggle, not a developer-facing tool, agent, IDE, framework, or local runtime with its own product identity.
   evidence:
-    - Seen in Awesome-LLMOps under 'Model > Large Language Model', confirming its classification as a base model.
-    - Scraped site context describes it as 'a family of lightweight, open models', not a coding assistant or workflow tool.
+    - Scraped site context describes Gemma as 'a family of lightweight, open models' hosted on Kaggle, not a tool or app.
+    - No repo description, README, stars, or code artifacts are provided—only a model listing page.
+    - Appears in Awesome-LLMOps under 'Model > Large Language Model', which is a category for model assets rather than developer tooling.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:36.231Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:56.440Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

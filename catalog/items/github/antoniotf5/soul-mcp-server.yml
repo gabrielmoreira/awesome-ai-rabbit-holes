@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antoniotf5__soul-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,49 +37,49 @@ metadata:
       - mcp
       - model-context-protocol
       - soul-md
-    last_checked_at: "2026-05-05T21:01:04.704Z"
+    last_checked_at: "2026-05-06T22:12:39.276Z"
     readme:
-      fetched_at: "2026-05-05T21:01:04.704Z"
+      fetched_at: "2026-05-06T22:12:39.276Z"
       bytes: 2223
 insights:
-  summary: An MCP server that validates, scores, and generates templates for SOUL.md agent specification files from Claude Desktop or other MCP-compatible clients.
-  why_it_matters: It provides a standardized tooling layer for developers defining agent behavior via the SOUL.md spec, integrating validation and scaffolding directly into the MCP workflow.
-  mental_damage: We have now successfully abstracted the process of writing the configuration files that configure the agents that write the code, ensuring our YAML-induced anxiety is fully portable.
+  summary: An MCP server that validates, scores, and generates .soul.md files for defining agent personalities directly from Claude Desktop or other MCP-compatible clients.
+  why_it_matters: It provides the tooling layer needed to enforce schema validity and completeness on SOUL.md agent definitions, supporting the surrounding Agenturo ecosystem.
+  mental_damage: We have now successfully abstracted 'writing a markdown file' into a client-server protocol transaction requiring a Node process and a JSON config.
   tags:
     - mcp
-    - spec-validation
-    - agent-config
+    - agent-spec
     - claude
+    - schema-validation
   confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for handling SOUL.md files, fitting squarely into the MCP infrastructure category.
+  reason: The product identity is explicitly an MCP server for handling a specific file format (SOUL.md), fitting the Domain Servers section of the MCP category.
   evidence:
-    - "Repo description explicitly states: 'MCP server for SOUL.md — validate and generate soul files from Claude Desktop.'"
-    - "README details three specific MCP tools: validate_soul_file, generate_soul_template, and score_soul_file."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - "Repo description states: 'MCP server for SOUL.md — validate and generate soul files from Claude Desktop.'"
+    - "README identifies three tools: validate_soul_file, generate_soul_template, and score_soul_file exposed via MCP."
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:04.704Z"
+    updated_at: "2026-05-06T22:12:39.276Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:22.215Z"
+    updated_at: "2026-05-06T22:21:32.225Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

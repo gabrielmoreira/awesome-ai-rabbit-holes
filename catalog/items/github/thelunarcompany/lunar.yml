@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thelunarcompany__lunar__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 424
+    forks: 32
+    license: MIT
+    archived: false
+    created_at: "2023-08-15T10:22:02Z"
+    pushed_at: "2026-05-06T15:33:10Z"
+    description: "lunar.dev: Agent native MCP Gateway for governance and security"
+    homepage: https://lunar.dev
+    topics:
+      - agent-skills
+      - api-proxy
+      - mcp
+      - mcp-client
+      - mcp-gateway
+      - mcp-security
+      - mcp-server
+      - mcp-servers
+      - rate-limit
+      - throttling
+      - visibility
+    last_checked_at: "2026-05-06T22:46:47.006Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:47.006Z"
+      bytes: 2863
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Lunar.dev is an open-source API gateway and MCP aggregator that governs, monitors, and shapes outbound AI agent traffic, including rate limiting, cost tracking, and unified MCP server access.
+  why_it_matters: It gives teams a central mediation layer to enforce policies, throttle agent actions, and gain real-time visibility into latency, errors, and token costs across all outbound AI and API calls.
+  mental_damage: Another reassuring reminder that our agents are now sufficiently prolific and unruly enough to warrant their own dedicated traffic control and sobriety checkpoints.
+  tags:
+    - mcp
+    - api-gateway
+    - agent-governance
+    - observability
+    - rate-limiting
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is centered on MCP as a gateway and aggregator, acting as middleware to consolidate and govern MCP servers along with general AI API traffic.
+  evidence:
+    - Repo description explicitly states 'Agent native MCP Gateway for governance and security'.
+    - README highlights 'Centralized MCP Aggregation' and includes Lunar MCPX as a zero-code aggregator for multiple MCP servers.
+    - GitHub topics heavily emphasize MCP (mcp, mcp-client, mcp-gateway, mcp-security, mcp-server, mcpx).
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (424) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:47.006Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:47.178Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

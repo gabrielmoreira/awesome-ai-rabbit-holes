@@ -1,12 +1,12 @@
 id: questflow__ai
 kind: website
-name: Questflow
+name: questflow.ai
 canonical_url: https://questflow.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__questflow__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform for creating and deploying AI agents (clones) that automate trading across on-chain markets like Polymarket and OKX.
-  why_it_matters: It provides a developer platform for designing and deploying 'AI swarms' specifically targeting automated market execution and on-chain transaction tracking.
-  mental_damage: You can now deploy an autonomous AI swarm to discover alpha on Pump.fun, because apparently your trading strategy needed more autonomous agents and less sleep.
+  summary: Questflow is a platform for designing and deploying swarms of AI agents that automate tasks and execute trades across on-chain markets like Polymarket and OKX.
+  why_it_matters: It provides a developer platform (Builder) and A2A Hub for teams looking to orchestrate multiple autonomous agents for real-time financial data tracking and execution.
+  mental_damage: Just when you thought your Cursor setup was complex, now you need a swarm of AI clones to manage your on-chain gambling portfolio 24/7.
   tags:
-    - agents
-    - on-chain
-    - swarms
+    - agent-swarm
     - trading
-  confidence: high
+    - a2a
+    - on-chain
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a consumer-facing crypto trading bot platform, not a developer tool for writing code, building apps, or managing infrastructure.
+  status: included
+  reason: The product positions itself as a platform for designing and deploying AI swarms and coordinating agents via an A2A Hub, fitting the vertical orchestration model rather than a generic coding assistant.
   evidence:
-    - Primary excerpt describes 'Create your AI Clone to trade across Polymarket, Pump.fun, OKX' rather than coding assistance.
-    - Listed in awesome-ai-agents specifically for trading execution and revenue generation on on-chain markets.
-    - Developer platform features appear to support building trading agents, not general software development workflows.
+    - Scraped site describes a 'Developer Platform' to 'Design and deploy your own AI swarm'.
+    - Features an 'A2A Hub' specifically for discovering and deploying AI agents.
+    - Source list context highlights the product as a tool for trading across markets using AI clones/agents.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:22.730Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:45.575Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

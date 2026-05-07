@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rember__rember-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -21,72 +21,61 @@ provenance:
         extracted_url: https://github.com/rember/rember-mcp
         surrounding_text: "- **[Rember](https://github.com/rember/rember-mcp)** - Create spaced repetition flashcards in [Rember](https://rember.com) to remember anything you learn in your chats"
         confidence: high
-    - id: discovery__www__rember__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Rember
-        extracted_url: https://rember.com
-        surrounding_text: "- **[Rember](https://github.com/rember/rember-mcp)** - Create spaced repetition flashcards in [Rember](https://rember.com) to remember anything you learn in your chats"
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 62
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-02-28T10:46:02Z"
+    pushed_at: "2025-03-28T09:29:27Z"
+    description: A Model Context Protocol (MCP) server for Rember.
+    homepage: https://rember.com
+    topics: []
+    last_checked_at: "2026-05-06T22:46:09.026Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:09.026Z"
+      bytes: 3981
 insights:
-  summary: Rember is an AI-powered flashcard generator and spaced repetition app that integrates with AI chat tools via MCP to capture learning content from various inputs.
-  why_it_matters: It offers developers an MCP-connected workflow to turn AI chats, PDFs, and videos into high-quality flashcards for retaining technical concepts.
-  mental_damage: We have successfully built an MCP server so your AI can instruct another AI to help you memorize what the first AI just explained to you.
+  summary: An official Model Context Protocol (MCP) server that allows AI assistants like Claude to create and manage flashcards within the Rember spaced-repetition study platform.
+  why_it_matters: It bridges the gap between conversational AI learning and long-term retention by letting developers persist knowledge found in chats directly into a structured study workflow.
+  mental_damage: Because apparently the modern developer workflow isn't complete until your AI assistant is also guilt-tripping you to study flashcards for code concepts you forgot five minutes after generating them.
   tags:
-    - flashcards
-    - learning
     - mcp
+    - flashcards
     - spaced-repetition
+    - claude
+    - integration
   confidence: high
 curation:
-  status: excluded
-  reason: Although it provides an MCP server, the core product is a consumer-grade learning and flashcard app for spaced repetition, not a developer-facing tool for building, coding, or infrastructure.
+  status: included
+  reason: The project's identity is explicitly an MCP server for a specific domain (Rember), fitting the 'Domain Servers' section of the MCP category.
   evidence:
-    - Primary description is 'AI canvas for flashcards you will remember', targeting general learners rather than developers.
-    - MCP integration is presented as a way to 'capture AI chats' and create study cards, not to enhance coding workflows.
-    - Product competes with Anki and focuses on memory retention techniques rather than software development tasks.
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for Rember.'"
+    - README confirms the product is a server to 'Allow Claude to create flashcards' via the MCP standard.
+    - Listed in 'awesome-mcp-servers' under the section 'Official Servers'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:10.337Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:09.026Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:28.722Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

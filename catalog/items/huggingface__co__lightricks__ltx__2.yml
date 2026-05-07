@@ -1,0 +1,78 @@
+id: huggingface__co__lightricks__ltx__2
+kind: website
+name: LTX-2
+canonical_url: https://huggingface.co/Lightricks/LTX-2
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__lightricks__ltx__2__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: LTX-2
+        extracted_url: https://huggingface.co/Lightricks/LTX-2
+        surrounding_text: 22. [LTX-2](https://huggingface.co/Lightricks/LTX-2)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LTX-2 is a DiT-based, open-weight audio-video foundation model designed to generate synchronized video and audio from text, images, or existing video inputs.
+  why_it_matters: It provides developers with a local-first, code-accessible stack (Diffusers, PyTorch, ComfyUI) for building generative video features directly into applications without relying on hosted APIs.
+  mental_damage: Our IDEs can now generate 121 frames of a man playing guitar, yet they still can't figure out why the staging environment is down.
+  tags:
+    - video-generation
+    - diffusion
+    - multimodal
+    - local-ai
+    - pytorch
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because LTX-2 is a generative media model and checkpoint repository, lacking the developer-tooling, coding-agent, or infrastructure identity required for this catalog.
+  evidence:
+    - Model card identifies LTX-2 as a 'DiT-based audio-video foundation model' for text/image-to-video generation, not a coding tool.
+    - GitHub description and README focus on media generation pipelines (Diffusers, ComfyUI) with no code-editing, agent, or dev-infra capabilities.
+    - Source list context places it under '视频 Video > 模型' (Video Models), categorizing it as a media resource rather than a developer utility.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:10.211Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

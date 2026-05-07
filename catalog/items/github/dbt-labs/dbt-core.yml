@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dbt-labs__dbt-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
         confidence: high
     - id: discovery__github__dbt-labs__dbt-core__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12721
-    forks: 2377
+    stars: 12727
+    forks: 2379
     license: NOASSERTION
     archived: false
     created_at: "2016-03-10T02:38:00Z"
-    pushed_at: "2026-05-05T20:05:12Z"
+    pushed_at: "2026-05-06T20:32:12Z"
     description: dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
     homepage: https://getdbt.com
     topics:
@@ -55,50 +55,49 @@ metadata:
       - elt
       - pypa
       - slack
-    last_checked_at: "2026-05-05T21:01:48.648Z"
+    last_checked_at: "2026-05-06T22:43:34.663Z"
     readme:
-      fetched_at: "2026-05-05T21:01:48.648Z"
+      fetched_at: "2026-05-06T22:43:34.663Z"
       bytes: 2717
 insights:
-  summary: dbt-core is an open-source command-line tool that enables data analysts and engineers to transform data in warehouses using software engineering practices like versioning, testing, and modular modeling.
-  why_it_matters: It brings CI/CD, testing, and dependency management to SQL-based data transformation, allowing data teams to treat analytics code with the same rigor as application software.
-  mental_damage: We've successfully applied the entire software engineering stack to SQL, meaning you can now enjoy merge conflicts and broken CI pipelines while waiting for your warehouse credits to burn.
+  summary: dbt-core is an open-source command-line tool that enables data analysts and engineers to transform data in their data warehouses using software engineering practices like testing, modular modeling, and version control.
+  why_it_matters: It allows analytics teams to manage data transformations as code, bringing CI/CD, testing, and documentation workflows to the modern data stack.
+  mental_damage: You can now treat SQL models with the same rigorous PR reviews and test anxiety as application code, ensuring your data pipeline has as much technical debt as your frontend.
   tags:
-    - data-engineering
-    - sql
+    - data-modeling
     - elt
-    - analytics
-    - transformations
+    - analytics-engineering
+    - cli
   confidence: high
 curation:
   status: excluded
-  reason: While dbt is a critical developer tool for data teams, it is a data transformation and analytics engineering framework with no AI-specific functionality, which falls outside the scope of this AI rabbit hole catalog.
+  reason: While dbt-core is a foundational tool for analytics engineering, it is a general data transformation framework and CLI for SQL-based ELT workflows, lacking a specific AI developer-tooling angle required for this catalog.
   evidence:
-    - Repo description and README focus entirely on SQL transformation and software engineering practices for data, with no mention of AI, LLMs, or agents.
-    - GitHub topics (analytics, business-intelligence, data-modeling, elt) confirm a data engineering focus rather than an AI tooling focus.
-    - Appearance in awesome-mcp-servers is likely due to a community MCP wrapper, but the core dbt-core product itself contains no AI features.
+    - Repo description focuses on data transformation for analysts, not AI coding assistance.
+    - GitHub topics include analytics, business-intelligence, and data-modeling, with no AI/LLM signals.
+    - Source-list context only shows it listed as a generic MCP server adapter, not as an AI-native tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (12721) exceeded threshold (150)
+  reason: Stars (12727) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:48.648Z"
+    updated_at: "2026-05-06T22:43:34.663Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:42.419Z"
+    updated_at: "2026-05-06T22:52:01.512Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

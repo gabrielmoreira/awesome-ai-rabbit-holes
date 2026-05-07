@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chaindead__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,50 @@ metadata:
       - mtproto
       - telegram
       - telegram-api
-    last_checked_at: "2026-05-05T21:01:31.770Z"
+    last_checked_at: "2026-05-06T22:43:18.828Z"
     readme:
-      fetched_at: "2026-05-05T21:01:31.770Z"
+      fetched_at: "2026-05-06T22:43:18.828Z"
       bytes: 9065
 insights:
-  summary: An MCP server that bridges the Telegram API with AI assistants, enabling programmatic management of dialogs, messages, drafts, and read statuses.
-  why_it_matters: It allows developers to wire Telegram directly into agent workflows so assistants can read, summarize, and draft responses to messages without leaving the IDE.
-  mental_damage: "We have finally solved the hardest problem in computer science: making your AI agent just as distracted by Telegram notifications as you are."
+  summary: An MCP server that bridges the Telegram API with AI assistants to manage dialogs, messages, drafts, and read statuses.
+  why_it_matters: It allows developers to automate Telegram message management and summarization directly through their existing MCP-compatible coding assistants.
+  mental_damage: Your AI assistant can now draft replies to your unread Telegram messages, ensuring you never have to actually speak to another human again.
   tags:
     - mcp
     - telegram
-    - messaging
-    - tooling
+    - integration
+    - communication
+    - mtproto
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to expose Telegram API capabilities to AI assistants via the Model Context Protocol.
+  reason: The product identity is a standalone MCP server bridging Telegram with AI assistants, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is a 'Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.'
-    - README confirms 'The server is a bridge between the Telegram API and the AI assistants and is based on the Model Context Protocol.'
+    - "Repo description explicitly states: 'Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.'"
+    - README identifies the project as 'a bridge between the Telegram API and the AI assistants' based on the Model Context Protocol.
     - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (326) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:31.770Z"
+    updated_at: "2026-05-06T22:43:18.828Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:45.261Z"
+    updated_at: "2026-05-06T22:48:33.785Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

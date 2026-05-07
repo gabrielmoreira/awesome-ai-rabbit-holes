@@ -1,13 +1,13 @@
 id: github__run-llama__llama-hub
 kind: github-repo
-name: LlamaHub
+name: llama-hub
 canonical_url: https://github.com/run-llama/llama-hub
 identity:
   github_repo: run-llama/llama-hub
 provenance:
   discoveries:
-    - id: discovery__github__emptycrown__llama-hub__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__run-llama__llama-hub__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3473
+    stars: 3475
     forks: 719
     license: MIT
     archived: true
@@ -33,28 +33,28 @@ metadata:
     description: A library of data loaders for LLMs made by the community -- to be used with LlamaIndex and/or LangChain
     homepage: https://llamahub.ai/
     topics: []
-    last_checked_at: "2026-05-05T21:02:02.313Z"
+    last_checked_at: "2026-05-06T22:46:13.521Z"
     readme:
-      fetched_at: "2026-05-05T21:02:02.313Z"
+      fetched_at: "2026-05-06T22:46:13.521Z"
       bytes: 15460
 insights:
-  summary: A community-maintained library of data loaders, tools, and packs for connecting LLMs to external knowledge sources, originally designed for use with LlamaIndex and LangChain.
-  why_it_matters: It simplifies ingesting data from diverse sources like Google Docs, SQL, and Slack into LLM workflows for retrieval and agent tooling.
-  mental_damage: The repo is archived and the entire ecosystem migrated elsewhere, yet the link still lives on in awesome lists like a digital ghost town tourists keep visiting.
+  summary: A now-archived community library of data loaders, tools, and llama-packs designed to connect LLMs to external knowledge sources within LlamaIndex and LangChain workflows.
+  why_it_matters: It provided a standardized way to ingest data from sources like Google Docs, SQL, and Slack into early LLM applications before being merged into the core LlamaIndex repo.
+  mental_damage: A relic of the 2023 AI gold rush where we collectively built a registry of 'Google Docs readers' before realizing the framework could just eat the repo whole.
   tags:
-    - archived
-    - data-loaders
-    - integrations
+    - loaders
     - langchain
-    - llama-index
+    - llamaindex
+    - data-connectors
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and its functionality has been fully deprecated and moved into the core llama-index repository.
+  reason: The repository is explicitly archived and deprecated, with all functionality moved to the core `llama-index` repository, making it a historical artifact rather than an active developer tool.
   evidence:
-    - Repo archived flag is true and the README includes a CAUTION notice stating it is deprecated.
-    - "README states: 'With the launch of LlamaIndex v0.10, we are deprecating this llama_hub repo - all integrations... are now in the core llama-index Python repository.'"
-    - Pushed at date is 2024-03-01, indicating no active development since the deprecation.
+    - "Repo description identifies it as a library for LlamaIndex/LangChain, but the README banner states: 'This repo has since be archived and is read-only.'"
+    - "The README confirms: 'With the launch of LlamaIndex v0.10, we are deprecating this llama_hub repo - all integrations... are now in the core llama-index Python repository.'"
+    - Pushed_at date is 2024-03-01, indicating no active development since the deprecation.
 placement:
   primary_category: null
   section: null
@@ -62,21 +62,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:57.219Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:02.313Z"
+    updated_at: "2026-05-06T22:46:13.521Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:28.510Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliafsahnoudeh__shahnameh-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: ام سی پی سرور برای شاهنامه
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:58.888Z"
+    last_checked_at: "2026-05-06T22:12:34.175Z"
     readme:
-      fetched_at: "2026-05-05T21:00:58.888Z"
+      fetched_at: "2026-05-06T22:12:34.175Z"
       bytes: 1192
 insights:
-  summary: An MCP server that exposes the Shahnameh (Persian epic poetry) dataset via tools for AI models to query verses and related cultural data.
-  why_it_matters: It allows developers building MCP-compatible AI assistants to add Persian literary context and cultural queries without building a custom API integration.
-  mental_damage: We now have the infrastructure to ask an LLM about 10th-century epic poetry mid-session, while the actual codebase remains undocumented.
+  summary: An MCP server that exposes Shahnameh poetry and data via the Model Context Protocol by wrapping the Shahnameh API.
+  why_it_matters: It lets developers and AI agents query Persian literary data through a standardized MCP interface instead of hand-rolling API calls.
+  mental_damage: "You have achieved the singularity: plugging a thousand-year-old epic into your coding agent’s tool list, because apparently your LLM needed help with Ferdowsi before it could fix a null pointer."
   tags:
     - mcp
+    - persian-literature
     - culture
-    - persian
     - api-wrapper
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is a Model Context Protocol server providing tool access to a specific dataset, fitting cleanly into the MCP category.
+  reason: The project’s identity is an MCP server for a specific domain (Shahnameh literature), fitting cleanly into MCP Servers & Tooling as a domain-specific server.
   evidence:
     - Repo description explicitly states 'ام سی پی سرور برای شاهنامه' (MCP server for Shahnameh).
-    - README confirms it calls the Shahnameh API behind the scenes and is tested with the MCP inspector.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+    - README explains the server calls the Shahnameh API and is tested with @modelcontextprotocol/inspector.
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:58.888Z"
+    updated_at: "2026-05-06T22:12:34.175Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:29.915Z"
+    updated_at: "2026-05-06T22:20:28.335Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

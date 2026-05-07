@@ -1,13 +1,13 @@
 id: github__mshumer__gpt-prompt-engineer
 kind: github-repo
-name: GPT Prompt Engineer
+name: gpt-prompt-engineer
 canonical_url: https://github.com/mshumer/gpt-prompt-engineer
 identity:
   github_repo: mshumer/gpt-prompt-engineer
 provenance:
   discoveries:
     - id: discovery__github__mshumer__gpt-prompt-engineer__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -32,49 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:48.484Z"
+    last_checked_at: "2026-05-06T22:45:26.598Z"
     readme:
-      fetched_at: "2026-05-05T21:03:48.484Z"
+      fetched_at: "2026-05-06T22:45:26.598Z"
       bytes: 8861
 insights:
-  summary: A notebook-based tool that generates, tests, and ranks multiple prompt variations using an ELO rating system to find the most effective prompt for a given task.
-  why_it_matters: It automates the tedious trial-and-error cycle of prompt engineering by scientifically benchmarking candidates against your specific test cases.
-  mental_damage: We've successfully built a distributed system to solve the problem of writing a text box input, effectively turning prompt engineering into a spectator sport with an ELO leaderboard.
+  summary: A notebook-based tool that generates, tests, and ELO-ranks multiple prompt candidates against provided test cases to find the most effective prompt for a given task.
+  why_it_matters: It automates the trial-and-error loop of prompt engineering by systematically evaluating variations so developers can optimize LLM performance without manual guesswork.
+  mental_damage: You now have a rigorous ranking system to prove that your prompts are suboptimal, adding a new layer of performance anxiety to the alchemy of prompt engineering.
   tags:
-    - evals
-    - llm-optimization
-    - notebooks
     - prompt-engineering
+    - evals
+    - notebooks
+    - llm-optimization
   confidence: high
 curation:
   status: included
-  reason: The tool is fundamentally an evaluation harness that benchmarks and ranks prompt performance using an ELO system, fitting the evals category better than a generic prompting bucket.
+  reason: The core job is measuring, scoring, and comparing prompt performance using an ELO rating system, which aligns directly with eval and experimentation tooling for developers.
   evidence:
-    - README states it 'generate[s], test[s], and rank[s] a multitude of prompts' using an 'ELO rating system'.
-    - Features include testing prompts against test cases and logging results to Weights & Biases for performance tracking.
-    - Active development (pushed 2025-10-16) with ~9.6k stars, indicating strong ecosystem traction for this specific workflow.
+    - README states it 'generate[s], test[s], and rank[s] a multitude of prompts to find the ones that perform the best' using an ELO rating system.
+    - Includes optional logging to Weights & Biases and Portkey for tracing and comparing prompt chain performance.
+    - Active repo (pushed 2025-10-16) with ~9655 stars, showing strong ecosystem traction for a prompt-testing utility.
 placement:
   primary_category: evals
-  section: null
+  section: Prompt Regression & Experimentation
 lifecycle:
   status: promotion_candidate
   reason: Stars (9655) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:23.772Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:48.484Z"
+    updated_at: "2026-05-06T22:45:26.598Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:58.971Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

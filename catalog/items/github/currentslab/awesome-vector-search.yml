@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__currentslab__awesome-vector-search__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -42,49 +42,49 @@ metadata:
       - vector
       - vector-search
       - vector-search-engine
-    last_checked_at: "2026-05-05T21:01:44.134Z"
+    last_checked_at: "2026-05-06T22:43:30.434Z"
     readme:
-      fetched_at: "2026-05-05T21:01:44.134Z"
+      fetched_at: "2026-05-06T22:43:30.434Z"
       bytes: 9511
 insights:
-  summary: A curated awesome list collecting vector search engines, libraries, cloud services, and research papers related to similarity search.
-  why_it_matters: It serves as a centralized map for developers navigating the exploding ecosystem of vector databases and ANN algorithms required for modern AI applications.
-  mental_damage: Because nothing says 'I am optimizing retrieval latency' like spending three hours browsing a list of 40 different vector databases instead of actually indexing your data.
+  summary: A curated list of vector search libraries, services, and research papers for building similarity search capabilities.
+  why_it_matters: Developers building RAG pipelines or semantic search features need a map of the fragmented ecosystem of vector databases and ANN algorithms.
+  mental_damage: Because nothing says 'production-ready architecture' like spending three hours comparing HNSW implementations in a browser tab instead of writing code.
   tags:
     - vector-search
     - awesome-list
     - similarity-search
-    - database
+    - retrieval
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list of vector search tools and research, fitting the awesome-awesomes category as a navigation aid for developers.
+  reason: This is a curation and discovery resource (an awesome list) focused on vector search infrastructure, fitting the 'Lists & Directories' scope for navigating AI tooling.
   evidence:
-    - Repo description explicitly states it is a 'Collections of vector search related libraries, service and research papers'.
+    - "Repo description explicitly states: 'Collections of vector search related libraries, service and research papers'."
     - README confirms it is a 'curated list of awesome vector search framework/engine, library, cloud service and research papers'.
-    - Listed in Awesome-LLMOps under the 'Awesome Lists' section, confirming its status as a meta-list.
+    - Included in Awesome-LLMOps under the 'Awesome Lists' section, confirming its identity as a directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
   reason: Stars (1560) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:44.134Z"
+    updated_at: "2026-05-06T22:43:30.434Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:54.660Z"
+    updated_at: "2026-05-06T22:51:07.106Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

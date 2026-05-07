@@ -1,0 +1,75 @@
+id: www__zhihu__com__people__ybq__29__32__posts
+kind: website
+name: posts
+canonical_url: https://www.zhihu.com/people/ybq-29-32/posts
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__zhihu__com__people__ybq__29__32__posts__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: "知乎: ybq"
+        extracted_url: https://www.zhihu.com/people/ybq-29-32/posts
+        surrounding_text: "26. [知乎: ybq](https://www.zhihu.com/people/ybq-29-32/posts)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A personal Zhihu profile page collecting LLM and AI resource posts, linked from a general-purpose LLM resources awesome list.
+  why_it_matters: It surfaces tutorials and curated pointers across coding assistants, agents, and model tooling for developers exploring the ecosystem.
+  mental_damage: Another reminder that the difference between a curated learning path and an open browser tab with 47 bookmarks is mostly vibes.
+  tags:
+    - llm-resources
+    - tutorials
+    - reading-list
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a personal publication feed on Zhihu, not a developer tool, directory, or product, and belongs in educational media rather than this catalog.
+  evidence:
+    - URL is a Zhihu user posts page (https://www.zhihu.com/people/ybq-29-32/posts), not a tool or directory.
+    - Seen only in awesome-LLM-resources under a tutorials section, not as a standalone developer product.
+    - No repo description, README, stars, or product artifact is provided that would indicate a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:27.605Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

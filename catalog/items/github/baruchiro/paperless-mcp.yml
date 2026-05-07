@@ -1,13 +1,13 @@
 id: github__baruchiro__paperless-mcp
 kind: github-repo
-name: Paperless-MCP
+name: paperless-mcp
 canonical_url: https://github.com/baruchiro/paperless-mcp
 identity:
   github_repo: baruchiro/paperless-mcp
 provenance:
   discoveries:
     - id: discovery__github__baruchiro__paperless-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,49 +37,49 @@ metadata:
       - mcp
       - mcp-server
       - paperless-ngx
-    last_checked_at: "2026-05-05T21:01:17.525Z"
+    last_checked_at: "2026-05-06T22:12:49.686Z"
     readme:
-      fetched_at: "2026-05-05T21:01:17.525Z"
+      fetched_at: "2026-05-06T22:12:49.686Z"
       bytes: 14124
 insights:
-  summary: An MCP server that exposes Paperless-NGX document management capabilities—such as searching, uploading, and bulk editing documents—as tools for AI assistants.
-  why_it_matters: It lets developers query, organize, and manipulate their document archive directly through an AI agent instead of switching to the Paperless web UI or API clients.
-  mental_damage: You now have the infrastructure to ask a large language model to tag your tax returns, which is definitely the highest-leverage use of context windows we could have built.
+  summary: An MCP server that exposes Paperless-NGX document management APIs as tools for AI assistants like Claude.
+  why_it_matters: It lets developers query, search, upload, and bulk-edit their document archive directly from their coding assistant instead of switching to the Paperless UI.
+  mental_damage: Your AI assistant can now organize your tax returns and receipts with the same confidence it uses to delete your production database.
   tags:
-    - document-management
-    - integrations
     - mcp
     - paperless-ngx
+    - document-management
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server designed to integrate Paperless-NGX with MCP-compatible AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is exposing Paperless-NGX APIs to MCP-compatible assistants, fitting cleanly into MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states it is 'An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server.'
-    - README details MCP tool definitions for document operations like search_documents, post_document, and bulk_edit_documents.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers', confirming its role as MCP infrastructure.
+    - "Listed in awesome-mcp-servers under 'Community Servers' with topics: mcp, mcp-server."
+    - README shows MCP config examples for Cursor and describes tools like list_documents, search_documents, post_document for Paperless-NGX.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:16.790Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:17.525Z"
+    updated_at: "2026-05-06T22:12:49.686Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:39.294Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

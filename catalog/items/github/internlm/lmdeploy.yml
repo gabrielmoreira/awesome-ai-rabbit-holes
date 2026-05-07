@@ -1,13 +1,13 @@
 id: github__internlm__lmdeploy
 kind: github-repo
-name: LmDeploy
+name: lmdeploy
 canonical_url: https://github.com/internlm/lmdeploy
 identity:
   github_repo: internlm/lmdeploy
 provenance:
   discoveries:
     - id: discovery__github__internlm__lmdeploy__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,14 +21,29 @@ provenance:
         extracted_url: https://github.com/internlm/lmdeploy
         surrounding_text: "| [LmDeploy](https://github.com/InternLM/lmdeploy)                | - LMDeploy is a toolkit for compressing, deploying, and serving LLMs.                | Pytorch / Turbomind     | Both            | ❌  | Python/C++  | Text-Gen      |"
         confidence: high
+    - id: discovery__github__internlm__lmdeploy__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LMDeploy
+        extracted_url: https://github.com/internlm/lmdeploy
+        surrounding_text: "24. [LMDeploy](https://github.com/InternLM/lmdeploy): LMDeploy is a toolkit for compressing, deploying, and serving LLMs."
+        confidence: high
 metadata:
   github:
-    stars: 7841
-    forks: 693
+    stars: 7840
+    forks: 694
     license: Apache-2.0
     archived: false
     created_at: "2023-06-15T12:38:06Z"
-    pushed_at: "2026-04-29T12:00:44Z"
+    pushed_at: "2026-05-06T18:05:13Z"
     description: LMDeploy is a toolkit for compressing, deploying, and serving LLMs.
     homepage: https://lmdeploy.readthedocs.io/en/latest
     topics:
@@ -43,50 +58,50 @@ metadata:
       - llm
       - llm-inference
       - turbomind
-    last_checked_at: "2026-05-05T21:02:45.676Z"
+    last_checked_at: "2026-05-06T22:44:25.516Z"
     readme:
-      fetched_at: "2026-05-05T21:02:45.676Z"
+      fetched_at: "2026-05-06T22:44:25.516Z"
       bytes: 15546
 insights:
-  summary: LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch support.
-  why_it_matters: It gives developers a high-performance, local-first path to serve and scale LLMs with quantization, multi-GPU support, and OpenAI-compatible APIs without relying on hosted inference.
-  mental_damage: Yet another inference stack reminding you that your homegrown Flask wrapper around a quantized model was never going to be the thing that scaled.
+  summary: LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch.
+  why_it_matters: It provides developers with high-performance local inference acceleration, quantization, and serving capabilities for running models like Llama, InternLM, and DeepSeek on their own hardware.
+  mental_damage: "Just what the ecosystem needed: another high-performance inference engine to add to the 'which local stack do I cry about today' rotation alongside vLLM and llama.cpp."
   tags:
-    - cuda
     - llm-inference
     - local-ai
-    - model-serving
     - quantization
+    - cuda
+    - serving
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing toolkit for running and optimizing LLMs locally or on-prem, fitting cleanly under local AI infrastructure rather than coding agents or app builders.
+  reason: The project's primary identity is a local toolkit for running and serving LLMs on your own hardware with optimized inference engines, fitting the Local AI 'Local Serving / APIs' section.
   evidence:
     - "Repo description: 'LMDeploy is a toolkit for compressing, deploying, and serving LLMs.'"
-    - README emphasizes TurboMind/PyTorch inference engines, quantization, multi-GPU serving, and OpenAI-compatible API servers.
-    - Included in awesome-local-ai under 'Inference Engine' and awesome-LLM-resources under '推理 Inference'.
+    - Listed in awesome-local-ai under the 'Inference Engine' section.
+    - Actively maintained with recent updates for Qwen3.5 and llm-compressor 4bit quantization (pushed 2026-05-06).
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (7841) exceeded threshold (150)
+  reason: Stars (7840) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:22.419Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:45.676Z"
+    updated_at: "2026-05-06T22:44:25.516Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:27.364Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

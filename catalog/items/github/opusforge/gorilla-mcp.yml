@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opusforge__gorilla-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,49 +40,50 @@ metadata:
       - mcp
       - model-context-protocol
       - saas
-    last_checked_at: "2026-05-05T21:04:08.370Z"
+    last_checked_at: "2026-05-06T22:45:44.820Z"
     readme:
-      fetched_at: "2026-05-05T21:04:08.370Z"
+      fetched_at: "2026-05-06T22:45:44.820Z"
       bytes: 7622
 insights:
-  summary: An MCP server that connects Claude and Cursor to the Gorilla SaaS, enabling AI agents to find and qualify early SaaS users by searching Reddit, X, YouTube, TikTok, and LinkedIn.
-  why_it_matters: It allows developer-focused AI workflows to integrate lead generation and outreach drafting directly into the coding environment rather than switching to external marketing tools.
-  mental_damage: "We have officially reached the point where your coding agent can now handle the part of the job no one wanted anyway: cold outreach to strangers on the internet."
+  summary: An MCP server that connects Claude and other assistants to Gorilla, a SaaS marketing tool for finding early users by searching Reddit, X, YouTube, TikTok, and LinkedIn.
+  why_it_matters: It lets developers delegate SaaS lead generation and outreach drafting directly to their coding assistant instead of switching contexts to a marketing dashboard.
+  mental_damage: We have successfully abstracted founder marketing anxiety into a schema that your coding assistant can now stress about between debugging sessions.
   tags:
     - mcp
-    - lead-generation
     - marketing
+    - lead-generation
     - saas
-  confidence: high
+    - claude
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to integrate a specific SaaS tool into AI coding environments like Claude Code and Cursor.
+  reason: The product is an MCP server that gives assistants access to a specific domain (SaaS lead generation), fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description identifies it as an 'MCP server for Gorilla'.
-    - README provides configuration examples for Claude Code and Cursor under the MCP server format.
-    - Listed in awesome-mcp-servers under the 'Marketing' section, confirming its identity as an MCP tool.
+    - Repo description explicitly states 'MCP server for Gorilla' with lead generation on social platforms.
+    - README provides setup instructions for Claude Code and Cursor MCP configurations.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:08.370Z"
+    updated_at: "2026-05-06T22:45:44.820Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:09.831Z"
+    updated_at: "2026-05-06T23:20:07.662Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

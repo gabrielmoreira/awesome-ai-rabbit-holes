@@ -1,13 +1,13 @@
 id: github__neovateai__neovate-code
 kind: github-repo
-name: Neovate Code
+name: neovate-code
 canonical_url: https://github.com/neovateai/neovate-code
 identity:
   github_repo: neovateai/neovate-code
 provenance:
   discoveries:
     - id: discovery__github__neovateai__neovate-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -33,28 +33,27 @@ metadata:
     description: Neovate Code is a code agent to enhance your development. You can use it to generate code, fix bugs, review code, add tests, and more. You can run it in interactive mode or headless mode.
     homepage: https://neovateai.dev/
     topics: []
-    last_checked_at: "2026-05-05T21:03:52.763Z"
+    last_checked_at: "2026-05-06T22:45:30.650Z"
     readme:
-      fetched_at: "2026-05-05T21:03:52.763Z"
+      fetched_at: "2026-05-06T22:45:30.650Z"
       bytes: 2479
 insights:
-  summary: Neovate Code is a terminal-native coding agent that runs in interactive or headless mode to generate code, fix bugs, review code, and add tests directly within a repository workflow.
-  why_it_matters: It offers developers a CLI-based AI assistant that integrates into existing terminal workflows for code generation, debugging, and testing without requiring an IDE switch.
-  mental_damage: Another CLI agent enters the arena, promising to refactor your authentication flow while you wonder if it will also refactor your employment status.
+  summary: Neovate Code is an MIT-licensed CLI coding agent that generates code, fixes bugs, reviews code, and adds tests in both interactive and headless modes.
+  why_it_matters: Developers can run it directly in the terminal to delegate repo work across multiple providers without being locked into a specific IDE or platform.
+  mental_damage: Yet another terminal-native coding agent promising to automate your workflow, which is perfect for when you need a fresh way to procrastinate on actual debugging.
   tags:
     - cli
-    - code-review
     - coding-agent
     - terminal
-    - testing
+    - multi-provider
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing coding agent that directly edits, reviews, and tests code via a CLI, fitting cleanly into the terminal-native coding agents section.
+  reason: It is a standalone CLI coding assistant that directly edits, reviews, and tests code, fitting squarely as a primary agent rather than an extension or framework.
   evidence:
-    - Repo description states it is 'a code agent to enhance your development' for generating code, fixing bugs, and reviewing code in interactive or headless mode.
-    - README frames it as a 'coding agent' installed via npm and used in the command line to operate on an existing codebase.
-    - Listed in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+    - Repo description explicitly calls it 'a code agent to enhance your development' with generation, bug fixing, and review capabilities.
+    - README positions it as a primary coding assistant run via `npm install -g @neovate/code` with interactive and headless modes.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -62,21 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1531) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:15.949Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:52.763Z"
+    updated_at: "2026-05-06T22:45:30.650Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:16:57.335Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

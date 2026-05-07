@@ -1,13 +1,13 @@
 id: github__0xmariowu__agentlint
 kind: github-repo
-name: AgentLint
+name: agentlint
 canonical_url: https://github.com/0xmariowu/agentlint
 identity:
   github_repo: 0xmariowu/agentlint
 provenance:
   discoveries:
     - id: discovery__github__0xmariowu__agentlint__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-02T16:18:15Z"
-    pushed_at: "2026-05-01T19:12:52Z"
+    pushed_at: "2026-05-06T06:39:36Z"
     description: The linter for your agent harness. Works with Claude Code, Codex, and Cursor.
     homepage: https://agentlint.app
     topics:
@@ -53,50 +53,50 @@ metadata:
       - llm-tools
       - prompt-engineering
       - repository-intelligence
-    last_checked_at: "2026-05-05T21:00:43.552Z"
+    last_checked_at: "2026-05-06T22:12:19.811Z"
     readme:
-      fetched_at: "2026-05-05T21:00:43.552Z"
+      fetched_at: "2026-05-06T22:12:19.810Z"
       bytes: 21749
 insights:
-  summary: A CLI and Claude Code plugin that lints and scores an AI coding agent's harness (AGENTS.md, CLAUDE.md, CI configs, .gitignore) across 51+ checks to improve context quality and agent reliability.
-  why_it_matters: It treats prompt files, CI configs, and repo instructions as a first-class engineering surface, giving developers a measurable way to harden the context that agents actually read.
-  mental_damage: "We have finally achieved the inevitable endpoint of modern development: installing a linter to complain about the Markdown files we wrote to tell the AI how to behave."
+  summary: A linter that scores and fixes agent harness configurations, including CLAUDE.md, AGENTS.md, CI, and .gitignore, for coding agents like Claude Code, Codex, and Cursor.
+  why_it_matters: It applies deterministic checks to the instruction files and repo setup that directly shape agent reliability, addressing the emerging discipline of harness engineering.
+  mental_damage: We have officially entered the era where ESLint handles the code humans write and a separate linter is required to sanitize the context files we feed the robots that overwrite it.
   tags:
-    - claude-code
-    - context-engineering
-    - cursor
-    - harness
     - linting
+    - context-engineering
+    - harness
+    - cli-tool
+    - agent-infrastructure
   confidence: high
 curation:
   status: included
-  reason: The tool focuses on shaping, validating, and scoring the context and instruction layers that feed coding agents, which aligns directly with context engineering rather than acting as a primary coding agent itself.
+  reason: The core novelty is a prompt/context-shaping system that scores, lints, and repairs the instruction files and repo constraints that control agent behavior, fitting Prompt & Context Engineering.
   evidence:
-    - "Repo description states: 'The linter for your agent harness. Works with Claude Code, Codex, and Cursor.'"
-    - README explicitly defines the product as 'the first linter for the harness itself' and scores context files across 51+ deterministic checks.
-    - Source list includes it under 'Harnesses & orchestration > Agent infrastructure', reinforcing its infrastructure/context focus.
+    - Repo description and README state it is 'the linter for your agent harness' with 51+ checks on CLAUDE.md, AGENTS.md, CI, and .gitignore.
+    - README explicitly frames the product around 'harness engineering' — improving what goes into the model via context files and repo constraints.
+    - Active as of 2026-05-06, with a dedicated site (agentlint.app) and guides on writing good CLAUDE.md and related context files.
 placement:
   primary_category: context-engineering
-  section: null
+  section: PromptOps / Prompt Management
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:51.316Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:43.552Z"
+    updated_at: "2026-05-06T22:12:19.811Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:30.936Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

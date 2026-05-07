@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dannote__figma-use__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - cli
       - design
       - figma
-    last_checked_at: "2026-05-05T21:01:46.439Z"
+    last_checked_at: "2026-05-06T22:43:32.557Z"
     readme:
-      fetched_at: "2026-05-05T21:01:46.439Z"
+      fetched_at: "2026-05-06T22:43:32.557Z"
       bytes: 15184
 insights:
-  summary: A CLI tool that provides full read/write control over Figma via terminal commands and JSX, enabling AI agents to create, modify, and style designs programmatically.
-  why_it_matters: It closes the loop for AI agents that can read designs but lack the ability to execute changes in Figma, allowing for programmatic UI generation and layout manipulation.
-  mental_damage: We have successfully automated the designer's job away, only to hand it to an LLM that will now debate the semantic correctness of a 'Frame' versus a 'Div' in JSX.
+  summary: A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations.
+  why_it_matters: It closes the edit gap left by Figma's official MCP plugin, letting agents programmatically manipulate designs using compact CLI calls or familiar React-like JSX.
+  mental_damage: We have successfully reached the point where LLMs are writing React components that compile into Figma layers so we don't have to open the design tool we pay for.
   tags:
-    - cli
     - figma
+    - cli
     - ai-agents
     - design-automation
   confidence: high
 curation:
   status: included
-  reason: This is a CLI tool designed specifically to allow coding agents and LLMs to interact with and modify a design codebase (Figma) via commands and JSX, fitting the model of an agent operating in a specific environment.
+  reason: The tool's primary identity is extending AI agents and coding assistants with Figma design capabilities via CLI, fitting cleanly as a host integration rather than a standalone coding agent.
   evidence:
-    - Repo description explicitly states 'Full read/write access for AI agents' with 100+ commands.
-    - README emphasizes 'LLMs know CLI' and 'JSX is how LLMs already think about UI' as the core integration points.
-    - Included in awesome-mcp-servers under 'Developer Tools', confirming its place in the agent tooling ecosystem.
+    - "Repo description states: 'Control Figma from the command line. Full read/write access for AI agents'."
+    - "README explicitly frames it as a bridge: 'LLMs know CLI. LLMs know React. This combines both.'"
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its role as an integration layer.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (540) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:46.439Z"
+    updated_at: "2026-05-06T22:43:32.557Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:19.915Z"
+    updated_at: "2026-05-06T22:51:33.248Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

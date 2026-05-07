@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jaspertvdm__mcp-server-gemini-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP Server - Bridge to Google Gemini API. Part of HumoticaOS/SymbAIon ecosystem.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:52.170Z"
+    last_checked_at: "2026-05-06T22:44:31.692Z"
     readme:
-      fetched_at: "2026-05-05T21:02:52.170Z"
+      fetched_at: "2026-05-06T22:44:31.692Z"
       bytes: 1533
 insights:
-  summary: A Model Context Protocol server that bridges MCP clients like Claude Desktop to the Google Gemini API for multimodal model usage.
-  why_it_matters: It allows developers to pipe Google's Gemini models into MCP-compatible hosts, expanding model choice beyond the default provider.
-  mental_damage: We have successfully abstracted the abstraction, meaning you can now pay Google to talk to the AI that is talking to your IDE.
+  summary: A lightweight MCP server that bridges MCP-compatible clients like Claude Desktop to the Google Gemini API for model access.
+  why_it_matters: It allows developers to swap or augment their default model provider with Gemini directly within existing MCP client workflows without changing the host tool.
+  mental_damage: Because nothing says 'streamlined developer experience' like installing a bridge to a bridge so your desktop app can talk to a cloud API.
   tags:
     - mcp
     - gemini
     - bridge
-    - google-api
+    - model-access
   confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to connect the Gemini API to MCP clients, fitting squarely into the MCP infrastructure category.
+  reason: The project's primary identity is an MCP server implementation designed to connect clients to the Gemini API, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP Server - Bridge to Google Gemini API.'"
-    - README confirms usage by adding it as an 'mcpServers' entry in Claude Desktop configuration.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Aggregators'.
+    - Repo description explicitly states 'MCP Server - Bridge to Google Gemini API'.
+    - README demonstrates usage by adding the server to 'claude_desktop_config.json'.
+    - Included in the 'awesome-mcp-servers' list under 'Server Implementations > Aggregators'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:52.170Z"
+    updated_at: "2026-05-06T22:44:31.692Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:51.670Z"
+    updated_at: "2026-05-06T23:03:43.812Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

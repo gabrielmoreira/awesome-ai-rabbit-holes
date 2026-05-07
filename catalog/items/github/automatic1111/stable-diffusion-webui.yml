@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automatic1111__stable-diffusion-webui__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 162730
-    forks: 30312
+    stars: 162749
+    forks: 30311
     license: AGPL-3.0
     archived: false
     created_at: "2022-08-22T14:05:26Z"
@@ -48,50 +48,50 @@ metadata:
       - unstable
       - upscaling
       - web
-    last_checked_at: "2026-05-05T21:01:12.665Z"
+    last_checked_at: "2026-05-06T22:12:45.553Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.665Z"
+      fetched_at: "2026-05-06T22:12:45.553Z"
       bytes: 12924
 insights:
-  summary: A local web interface for running Stable Diffusion models that provides txt2img, img2img, inpainting, and model training capabilities with extensive customization options.
-  why_it_matters: Developers building local AI pipelines or needing offline image generation can run, fine-tune, and serve diffusion models through a Gradio-based UI with API access.
-  mental_damage: Yet another reminder that while we're all here to automate coding, the most stable local AI tool in your stack is still the one generating anime wallpapers.
+  summary: A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities.
+  why_it_matters: It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
+  mental_damage: A rite of passage where developers convince themselves they are 'doing ML engineering' while spending four hours tweaking 'txt2img' parameters to generate anime tuxedos.
   tags:
     - stable-diffusion
     - local-ai
     - image-generation
     - gradio
-    - diffusion-models
+    - web-ui
   confidence: high
 curation:
   status: included
-  reason: This is a classic local AI tool for running diffusion models on your own hardware, fitting the local-ai category as a desktop local-AI interface and inference UI.
+  reason: The project is a local-first desktop interface for running AI models on personal hardware, fitting the Local AI category despite being image-focused rather than code-focused.
   evidence:
-    - Repo description identifies it as 'Stable Diffusion web UI'
-    - README excerpt confirms it is 'A web interface for Stable Diffusion, implemented using Gradio library' with API support
-    - Seen in awesome-local-ai under Inference UI, and local-ai category covers 'desktop local-AI interfaces'
+    - Repo description is 'Stable Diffusion web UI', clearly identifying it as a local UI for image generation.
+    - README confirms it is a 'web interface for Stable Diffusion' with features like txt2img, img2img, and local training.
+    - Seen in 'awesome-local-ai' under the 'Inference UI' section, confirming its identity as a local AI tool.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (162730) exceeded threshold (150)
+  reason: Stars (162749) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.665Z"
+    updated_at: "2026-05-06T22:12:45.553Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:34.360Z"
+    updated_at: "2026-05-06T22:22:50.840Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

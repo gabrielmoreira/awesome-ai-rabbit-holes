@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dollhousemcp__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: AGPL-3.0
     archived: false
     created_at: "2025-07-01T17:50:56Z"
-    pushed_at: "2026-05-01T23:30:02Z"
+    pushed_at: "2026-05-06T21:15:09Z"
     description: A Free, Open Source MCP server for dynamic custom persona management with public a GitHub collection of personas, skills, templates, and other elements for AI models.
     homepage: https://www.npmjs.com/package/@dollhousemcp/mcp-server
     topics:
@@ -53,50 +53,50 @@ metadata:
       - typescript
       - vscode
       - windsurf
-    last_checked_at: "2026-05-05T21:01:55.474Z"
+    last_checked_at: "2026-05-06T22:43:40.101Z"
     readme:
-      fetched_at: "2026-05-05T21:01:55.474Z"
+      fetched_at: "2026-05-06T22:43:40.101Z"
       bytes: 27760
 insights:
-  summary: An open-source MCP server that manages dynamic personas, skills, templates, and memories, allowing developers to customize AI behavior via a local portfolio and community collection.
-  why_it_matters: It gives developers a structured way to package, reuse, and share modular AI behaviors like skills and personas across compatible hosts such as Claude, Cursor, and VS Code.
-  mental_damage: We have now reached the point where we are meticulously organizing the personalities of our AI assistants while our own documentation rots in peace.
+  summary: An open-source MCP server that manages dynamic custom personas, skills, templates, and memory elements for AI models and coding assistants.
+  why_it_matters: It gives developers a local, programmable way to package and swap context, skills, and behavior packs across MCP-compatible assistants like Claude Code, Cursor, and Windsurf.
+  mental_damage: You can now version-control your AI’s personality with the same rigor you avoided applying to your own code reviews.
   tags:
     - mcp
     - personas
     - skills
     - memory
-    - context-engineering
+    - context
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing infrastructure for managing AI elements, which fits the MCP Servers and Tooling category precisely.
+  reason: The product’s core identity is an MCP server for managing personas, skills, templates, and memory, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Repo description identifies it as 'A Free, Open Source MCP server for dynamic custom persona management'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
-    - README confirms it implements the Model Context Protocol to manage personas, skills, and memories locally.
+    - Repo description explicitly calls it an MCP server for persona management with skills and templates.
+    - README centers on activating and editing personas, skills, templates, agents, memories, and ensembles via MCP.
+    - Listed in awesome-mcp-servers under Knowledge & Memory, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:55.474Z"
+    updated_at: "2026-05-06T22:43:40.101Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:47.823Z"
+    updated_at: "2026-05-06T22:53:08.188Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

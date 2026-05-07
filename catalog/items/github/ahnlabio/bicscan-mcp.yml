@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahnlabio__bicscan-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: BICScan MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:54.259Z"
+    last_checked_at: "2026-05-06T22:12:29.289Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.259Z"
+      fetched_at: "2026-05-06T22:12:29.289Z"
       bytes: 3811
 insights:
-  summary: A Model Context Protocol server that integrates the BICScan API to provide blockchain address risk scoring, asset information, and real-time scanning for crypto addresses, domains, and dApps.
-  why_it_matters: It allows developers using MCP-compatible clients like Claude Desktop to query blockchain risk data and asset holdings directly within their workflow without switching contexts.
-  mental_damage: We have successfully abstracted away the need to leave our IDEs to check if that wallet address is a scam, marking a new peak in developer laziness.
+  summary: An MCP server that exposes BICScan API capabilities to AI assistants, enabling risk scoring, asset lookups, and real-time scanning for blockchain addresses, domains, and decentralized applications.
+  why_it_matters: Developers building crypto or Web3 workflows can delegate blockchain risk assessments and asset queries directly to their MCP-compatible coding assistants instead of wiring API calls manually.
+  mental_damage: Your AI assistant can now confidently tell you that a wallet is sketchy while remaining completely oblivious to the questionable state of your own commit history.
   tags:
     - mcp
     - blockchain
-    - security
     - fintech
-    - api
+    - risk-scoring
+    - web3
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to integrate blockchain risk analysis into MCP-compatible clients.
+  reason: The product identity is an MCP server providing domain-specific blockchain risk and asset data to MCP-compatible assistants, which is a clean fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'BICScan MCP Server' and the README details integration with 'claude_desktop_config.json'.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
-    - Created recently (2025-03-25) but actively pushed (2026-02-17) with MIT license and not archived.
+    - Repo description explicitly states 'BICScan MCP Server' as the product identity.
+    - README centers on exposing BICScan API as an MCP server configured for Claude Desktop.
+    - Included in awesome-mcp-servers under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.259Z"
+    updated_at: "2026-05-06T22:12:29.289Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:38.835Z"
+    updated_at: "2026-05-06T22:19:29.215Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

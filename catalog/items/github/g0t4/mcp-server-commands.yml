@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__g0t4__mcp-server-commands__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands) 📇 🏠 - Run any command with `run_command` and `run_script` tools."
         confidence: high
     - id: discovery__github__g0t4__mcp-server-commands__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: "Model Context Protocol server to run commands (tool: `runProcess`)"
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:16.660Z"
+    last_checked_at: "2026-05-06T22:43:58.474Z"
     readme:
-      fetched_at: "2026-05-05T21:02:16.660Z"
+      fetched_at: "2026-05-06T22:43:58.474Z"
       bytes: 5588
 insights:
-  summary: A Model Context Protocol server that exposes a `runProcess` tool, allowing LLMs to execute shell commands and scripts directly on the host machine.
-  why_it_matters: It gives coding agents the ability to interact with the local environment, run scripts, and inspect system state via standard MCP clients like Claude Desktop or Zed.
-  mental_damage: "We have finally closed the loop: the AI can now run `rm -rf` on the very machine you are using to supervise it, provided you click 'Approve Once' with blind faith."
+  summary: An MCP server that exposes a `runProcess` tool allowing LLMs to execute shell commands and scripts on the host machine via stdio transport.
+  why_it_matters: It gives coding assistants and desktop AI tools a standardized way to run arbitrary commands, scripts, and pipelines directly on the developer's machine with user-approved execution.
+  mental_damage: "We have finally achieved the perfect recursive loop: an MCP server to let your AI run the very shell commands that might eventually delete the folder containing the MCP server."
   tags:
     - mcp
-    - cli
-    - tooling
+    - shell
+    - command-execution
     - local-ai
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to bridge LLMs and the host command line, fitting the MCP infrastructure category.
+  reason: This is an MCP server that provides generic command execution capabilities, making it a clear fit for the MCP Servers & Tooling category as a reusable protocol server.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol server to run commands'.
-    - README details the `runProcess` tool for shell execution via STDIO transport for clients like Claude Desktop.
-    - Listed in awesome-mcp-list and awesome-mcp-servers directories under command-line and server implementations.
+    - Repo description explicitly states 'Model Context Protocol server to run commands'
+    - README details the `runProcess` tool for shell and argv execution with MCP transport
+    - Included in awesome-mcp-list and awesome-mcp-servers directories under MCP sections
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (224) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:16.660Z"
+    updated_at: "2026-05-06T22:43:58.474Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:31.056Z"
+    updated_at: "2026-05-06T22:56:57.049Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__googlecloudplatform__cloud-run-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 604
+    stars: 605
     forks: 109
     license: Apache-2.0
     archived: false
@@ -36,50 +36,50 @@ metadata:
       - google-cloud-run
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:02:25.114Z"
+    last_checked_at: "2026-05-06T22:44:05.479Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.114Z"
+      fetched_at: "2026-05-06T22:44:05.479Z"
       bytes: 13299
 insights:
-  summary: An official Google Cloud MCP server that lets AI agents, IDEs, and CLIs deploy and manage applications on Cloud Run.
-  why_it_matters: It connects AI coding agents directly to GCP infrastructure, allowing them to ship code to production without the developer manually configuring Cloud Run deployments.
-  mental_damage: We have successfully abstracted the last remaining friction point between 'vibe coding' an app and deploying it to a URL that will cost you real money.
+  summary: An official Google Cloud MCP server that enables AI agents to deploy, list, and inspect Cloud Run services directly from the CLI, IDEs, or agent SDKs.
+  why_it_matters: It lets developers skip the gcloud yak-shaving and hand deployment duties straight to their AI assistant, turning Cloud Run into a native agent tool.
+  mental_damage: We have officially reached the point where your AI agent needs its own IAM permissions just to fail a deployment that you could have copy-pasted from the documentation.
   tags:
     - mcp
     - google-cloud
     - cloud-run
     - deployment
-    - agent-tooling
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The project is an official MCP server implementation for Google Cloud Run, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server for Cloud Run, explicitly listed in the official awesome-mcp-servers directory, making it a canonical fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server to deploy apps to Cloud Run'."
-    - README details a Model Context Protocol server with tools like 'deploy-file-contents' and 'list-services'.
-    - Included in the 'awesome-mcp-servers' list under 'Official Servers'.
+    - "Repo description states: 'MCP server to deploy apps to Cloud Run'."
+    - README explicitly shows MCP server configuration and lists tools like deploy-local-folder and list-services.
+    - Found in awesome-mcp-servers under 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (604) exceeded threshold (150)
+  reason: Stars (605) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.114Z"
+    updated_at: "2026-05-06T22:44:05.479Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:17.364Z"
+    updated_at: "2026-05-06T22:58:19.228Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

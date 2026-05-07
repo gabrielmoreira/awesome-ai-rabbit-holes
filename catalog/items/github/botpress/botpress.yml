@@ -1,13 +1,13 @@
 id: github__botpress__botpress
 kind: github-repo
-name: Botpress
+name: botpress
 canonical_url: https://github.com/botpress/botpress
 identity:
   github_repo: botpress/botpress
 provenance:
   discoveries:
     - id: discovery__github__botpress__botpress__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14671
+    stars: 14673
     forks: 2252
     license: MIT
     archived: false
     created_at: "2016-11-16T21:57:59Z"
-    pushed_at: "2026-05-05T20:19:24Z"
+    pushed_at: "2026-05-06T22:12:31Z"
     description: The open-source hub to build & deploy GPT/LLM Agents ⚡️
     homepage: https://botpress.com
     topics:
@@ -44,50 +44,50 @@ metadata:
       - nlp
       - openai
       - prompt
-    last_checked_at: "2026-05-05T21:01:24.298Z"
+    last_checked_at: "2026-05-06T22:12:56.033Z"
     readme:
-      fetched_at: "2026-05-05T21:01:24.298Z"
+      fetched_at: "2026-05-06T22:12:56.033Z"
       bytes: 7022
 insights:
-  summary: An open-source platform and SDK for building, deploying, and managing GPT/LLM-powered chatbots and integrations via a CLI, Studio, and Hub.
-  why_it_matters: It provides developers with a structured way to build conversational AI using code-first tools like the Botpress SDK and CLI, alongside a marketplace for public integrations.
-  mental_damage: "Just what the world needed: another 'ultimate platform' to ensure your weekend project is now a conversational interface with a 14k-star reputation to maintain."
+  summary: Botpress is an open-source platform and SDK for building, deploying, and managing GPT/LLM-powered chatbots and conversational agents.
+  why_it_matters: It provides developers with a studio, CLI, SDK, and Hub ecosystem to programmatically build and scale conversational AI agents with custom integrations.
+  mental_damage: Yet another platform promising to turn your business logic into a 'next-generation' chatbot, ensuring you'll spend more time debugging intent flows than shipping actual features.
   tags:
-    - agent
-    - botpress
     - chatbot
     - llm
+    - agents
     - sdk
+    - botpress
   confidence: high
 curation:
   status: included
-  reason: The repository primarily distributes the SDK, CLI, and client libraries that developers import and use to build bot logic programmatically, fitting the code-first building block definition of ai-frameworks.
+  reason: Botpress is a control plane and runtime platform for building and orchestrating conversational agents, complete with a studio, SDK, and integration hub, fitting the agent orchestration profile better than a simple coding agent.
   evidence:
     - Repo description defines it as 'The open-source hub to build & deploy GPT/LLM Agents'.
-    - README details Devtools including @botpress/cli, @botpress/client, and @botpress/sdk for building integrations as code.
-    - Includes a '/bots' folder with examples of bots 'as code' using the SDK and CLI rather than just the Studio.
+    - README details a platform identity including Botpress Studio, Botpress Cloud, CLI, SDK, and a Hub for integrations.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a builder platform.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (14671) exceeded threshold (150)
+  reason: Stars (14673) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:11:24.579Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:24.298Z"
+    updated_at: "2026-05-06T22:12:56.033Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:55.538Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

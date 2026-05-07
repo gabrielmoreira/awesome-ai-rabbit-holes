@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stacklok__brood-box__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[brood-box](https://github.com/stacklok/brood-box)** `⭐ 29` — Hardware-isolated microVM sandbox for AI coding agents (Claude Code, Codex, OpenCode) with COW snapshot isolation, egress control, and MCP authorization."
         confidence: high
     - id: discovery__github__stacklok__brood-box__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,47 +39,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 29
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-02-13T18:25:11Z"
+    pushed_at: "2026-05-04T12:47:31Z"
+    description: CLI tool for running coding agents inside hardware-isolated microVMs
+    homepage: ""
+    topics:
+      - ai-agents
+      - claude-code
+      - codex
+      - developer-tools
+      - microvm
+      - sandbox
+      - security
+    last_checked_at: "2026-05-06T22:46:32.826Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:32.826Z"
+      bytes: 13881
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool that runs coding agents like Claude Code and Codex inside hardware-isolated microVMs, requiring explicit user review of file changes before they reach the workspace.
+  why_it_matters: It lets developers experiment with autonomous coding agents without handing over full filesystem access or API keys to a process running natively on their machine.
+  mental_damage: We have successfully reached the point where we need KVM-backed microVMs just to survive letting an LLM run `rm -rf` on our behalf.
+  tags:
+    - security
+    - sandboxing
+    - microvm
+    - cli
+    - agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is a security and execution harness that wraps existing coding agents (Claude Code, Codex) in microVMs rather than acting as the primary coding assistant itself.
+  evidence:
+    - Repo description explicitly states it is a 'CLI tool for running coding agents inside hardware-isolated microVMs.'
+    - README shows it launches Claude Code inside a VM via `bbox claude-code` and is not the agent itself.
+    - Listed as 'Agent infrastructure' in awesome-cli-coding-agents, reinforcing its identity as a harness/orchestration layer for other agents.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.671Z"
+    updated_at: "2026-05-06T22:12:15.594Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:32.826Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:59.370Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

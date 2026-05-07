@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shadcnstudio__shadcn-studio__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1536
+    forks: 112
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-21T10:23:13Z"
+    pushed_at: "2026-02-16T05:48:49Z"
+    description: An open-source collection of copy-and-paste shadcn components, blocks, and templates - paired with a powerful theme generator to craft, customize, and ship faster.
+    homepage: https://shadcnstudio.com
+    topics:
+      - component
+      - components-library
+      - css
+      - html
+      - javascript
+      - shadcn
+      - shadcn-admin
+      - shadcn-components
+      - shadcn-registry
+      - shadcn-template
+      - shadcn-theme
+      - shadcn-theme-customizer
+      - shadcn-theme-editor
+      - shadcn-ui
+      - shadcnblocks
+      - shadcnui
+      - shadcnui-blocks
+      - tailwindcss
+      - typescript
+      - uikit
+    last_checked_at: "2026-05-06T22:46:21.900Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:21.900Z"
+      bytes: 8625
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source collection of copy-and-paste shadcn/ui components, blocks, and templates with a theme generator and an MCP server for IDE integration.
+  why_it_matters: It provides developers with pre-built, animated UI variants and a theme generator to accelerate frontend scaffolding, while the MCP server allows AI coding assistants to generate these components directly in the IDE.
+  mental_damage: Yet another opportunity to spend three hours tweaking a button's OKLCH values via an AI-generated theme while your actual feature branch gathers dust.
+  tags:
+    - shadcn
+    - ui-components
+    - mcp-server
+    - theme-generator
+    - tailwind
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary AI developer-tooling identity is its MCP Server, which allows IDEs to generate shadcn components, placing it in MCP Servers & Tooling.
+  evidence:
+    - Repo description explicitly mentions 'paired with a powerful theme generator' and the README highlights 'shadcn/studio MCP' as a key feature.
+    - Listed in awesome-mcp-servers under 'Developer Tools' specifically for the 'Shadcn MCP Server' that generates components inside the IDE.
+    - Created in April 2025 and actively pushed to as of February 2026, showing active development of the tooling ecosystem.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1536) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:21.900Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:08.576Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

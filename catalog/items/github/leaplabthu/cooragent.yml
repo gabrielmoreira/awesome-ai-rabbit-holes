@@ -1,0 +1,81 @@
+id: github__leaplabthu__cooragent
+kind: github-repo
+name: cooragent
+canonical_url: https://github.com/leaplabthu/cooragent
+identity:
+  github_repo: leaplabthu/cooragent
+provenance:
+  discoveries:
+    - id: discovery__github__leaplabthu__cooragent__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: Cooragent
+        extracted_url: https://github.com/leaplabthu/cooragent
+        surrounding_text: "31. [Cooragent](https://github.com/LeapLabTHU/cooragent): Cooragent is an AI agent collaboration community."
+        confidence: high
+metadata:
+  github:
+    stars: 1717
+    forks: 149
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-11T14:59:45Z"
+    pushed_at: "2026-04-29T03:51:31Z"
+    description: Official Repository of Cooragent.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:44:57.311Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:57.311Z"
+      bytes: 11106
+insights:
+  summary: Cooragent is a Python-based AI agent collaboration platform and CLI that generates agents from natural language and coordinates multi-agent workflows for complex task execution.
+  why_it_matters: It lets developers spin up specialized agents and workflows with a single sentence, then automatically orchestrates them so you don't have to manually wire tool selection, prompts, and task routing.
+  mental_damage: "Just what the ecosystem needed: another system to argue with multiple agents about why your stock analysis workflow is still returning 2022 data."
+  tags:
+    - agents
+    - multi-agent
+    - workflow
+    - cli
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The core product is a workbench and runtime for coordinating multiple agents and workflows, not a single coding assistant or code-first SDK.
+  evidence:
+    - README states Cooragent is 'an AI agent collaboration community' with Agent Factory and Agent Workflow modes for multi-agent task collaboration.
+    - CLI modes (Launch, Polish, Production) are designed to build, refine, and run multi-agent workflows rather than edit an existing repo directly.
+    - Seen in awesome-LLM-resources under '智能体 Agents', aligning with its multi-agent orchestration identity.
+placement:
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1717) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.626Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:57.311Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:04.155Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

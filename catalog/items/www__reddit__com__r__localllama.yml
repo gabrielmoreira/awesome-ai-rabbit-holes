@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__reddit__com__r__localllama__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: r/LocalLLaMA is a Reddit community focused on running large language models locally on consumer hardware.
-  why_it_matters: It serves as a central hub for developers navigating the rapidly evolving ecosystem of open-source models, quantization methods, and local inference stacks.
-  mental_damage: Another day, another excuse to spend 400GB of NVMe space on a model that will be obsolete next Tuesday, all while convincing yourself you're staying ahead of the curve.
+  summary: A Reddit community subreddit focused on running large language models locally on consumer hardware.
+  why_it_matters: It serves as a primary grassroots hub for developers navigating the fragmented ecosystem of local model runtimes, quantizations, and hardware benchmarks.
+  mental_damage: The place where you go to learn that your expensive GPU isn't actually expensive enough to run the new 70B model everyone is talking about.
   tags:
     - local-ai
     - community
     - reddit
-    - llm
+    - hardware
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media subreddit and community hub, not a developer tool, infrastructure component, or product.
+  reason: This is a social media community and discussion forum, not a developer tool, infrastructure, or product, and thus falls outside the catalog's scope of practical AI tooling.
   evidence:
-    - URL points to reddit.com/r/LocalLLaMA, identifying it as a community forum rather than software.
-    - Source-list context describes it as a 'Reddit' link within an 'awesome collection', indicating it is a directory entry for a community, not the tool itself.
-    - No repository description, README, or code artifacts are present to suggest a tool, framework, or app.
+    - URL points to reddit.com/r/LocalLLaMA, identifying it as a subreddit rather than a tool or repo.
+    - Seen in awesome-local-ai under 'Community', which categorizes it as a discussion hub rather than a runtime or framework.
+    - No repo description, README, or code artifacts exist to suggest a standalone product or library.
 placement:
   primary_category: null
   section: null
@@ -59,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:53:03.131Z"
+    updated_at: "2026-05-06T22:35:23.193Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

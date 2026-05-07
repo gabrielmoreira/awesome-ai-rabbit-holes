@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__larrywalkerdev__mcp-immostage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,50 @@ metadata:
       - proptech
       - real-estate
       - virtual-staging
-    last_checked_at: "2026-05-05T21:03:17.233Z"
+    last_checked_at: "2026-05-06T22:44:56.131Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.233Z"
+      fetched_at: "2026-05-06T22:44:56.131Z"
       bytes: 3728
 insights:
-  summary: An MCP server that connects AI clients to ImmoStage's real estate tooling for virtual room staging, floor plan rendering, image classification, and German property listing optimization.
-  why_it_matters: It lets developers integrate real estate-specific AI workflows—like staging empty rooms or generating localized property descriptions—directly into MCP-compatible clients and automations.
-  mental_damage: "We have finally unlocked the true promise of the Model Context Protocol: helping Claude decide whether your Berlin-Mitte apartment deserves Scandinavian minimalism or full luxury staging."
+  summary: An MCP server that exposes real estate AI tools—virtual staging, floor plan rendering, room classification, and German property description generation—as tools callable by MCP-compatible clients.
+  why_it_matters: Developers building PropTech or real estate workflows can wire visual staging and listing optimization directly into Claude Desktop or other MCP clients without wrapping a separate SaaS API by hand.
+  mental_damage: We have successfully reached the point where your coding assistant can stage a Berlin Mitte living room faster than you can argue about whether MCP is just REST in a trench coat.
   tags:
     - mcp
-    - real-estate
     - proptech
+    - real-estate
     - virtual-staging
     - dach
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server exposing real estate AI tools via the Model Context Protocol, which aligns directly with the MCP Servers and Tooling category.
+  reason: This is an MCP server purpose-built to expose real estate AI capabilities as tools, which fits the MCP Servers & Tooling category and the Domain Servers section.
   evidence:
-    - "Repo description states: 'MCP Server for AI Virtual Staging — stage rooms, beautify floor plans, classify images, optimize property listings.'"
-    - "README confirms: 'AI-powered virtual staging MCP server... all through the Model Context Protocol.'"
-    - Server URL is mcp.immostage.ai/api/mcp and configured as an MCP server in Claude Desktop.
+    - Repo description explicitly states 'MCP Server for AI Virtual Staging'.
+    - README positions the project as an MCP server with tools like stage_room, beautify_floor_plan, and optimize_listing.
+    - Listed in awesome-mcp-servers under Server Implementations, confirming ecosystem placement as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.233Z"
+    updated_at: "2026-05-06T22:44:56.131Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:19.681Z"
+    updated_at: "2026-05-06T23:08:50.551Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

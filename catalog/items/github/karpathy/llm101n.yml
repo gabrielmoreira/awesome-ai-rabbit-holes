@@ -1,0 +1,80 @@
+id: github__karpathy__llm101n
+kind: github-repo
+name: llm101n
+canonical_url: https://github.com/karpathy/llm101n
+identity:
+  github_repo: karpathy/llm101n
+provenance:
+  discoveries:
+    - id: discovery__github__karpathy__llm101n__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: LLM101n
+        extracted_url: https://github.com/karpathy/llm101n
+        surrounding_text: "25. [LLM101n](https://github.com/karpathy/LLM101n): Let's build a Storyteller."
+        confidence: high
+metadata:
+  github:
+    stars: 36893
+    forks: 2018
+    license: null
+    archived: true
+    created_at: "2024-05-27T00:23:38Z"
+    pushed_at: "2024-08-01T01:20:33Z"
+    description: "LLM101n: Let's build a Storyteller"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:44:40.410Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:40.410Z"
+      bytes: 2398
+insights:
+  summary: An archived, work-in-progress course by Andrej Karpathy to build a storyteller LLM from scratch in Python, C, and CUDA.
+  why_it_matters: It promises an end-to-end curriculum for understanding the full stack of LLM creation, from tokenization to deployment.
+  mental_damage: We are staring at a 36,000-star monument to the fact that even the best instructors are still struggling to finish the course on the tools we are supposed to already be experts in.
+  tags:
+    - llm
+    - course
+    - education
+    - deep-learning
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the repo is explicitly archived and the README states the course does not yet exist, making it an educational resource rather than a usable developer tool.
+  evidence:
+    - "Repo description: 'LLM101n: Let's build a Storyteller'"
+    - "README Note: 'this course does not yet exist. It is current being developed... Until it is ready I am archiving this repo'"
+    - "Archived: yes"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.623Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:40.410Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:36.430Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

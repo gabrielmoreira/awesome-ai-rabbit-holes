@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikusnuz__pexbot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,50 @@ metadata:
       - trading
       - upbit
       - virtual-trading
-    last_checked_at: "2026-05-05T21:03:41.054Z"
+    last_checked_at: "2026-05-06T22:45:19.155Z"
     readme:
-      fetched_at: "2026-05-05T21:03:41.054Z"
+      fetched_at: "2026-05-06T22:45:19.155Z"
       bytes: 5794
 insights:
   summary: An MCP server that connects AI agents to pex.bot for simulated cryptocurrency trading using real-time Upbit market data.
-  why_it_matters: Developers building or testing autonomous trading agents can use this to give their models a standardized interface for executing virtual trades and analyzing market decisions.
-  mental_damage: Your AI agent can now autonomously lose 100 million virtual won while you debug why it decided to short Bitcoin based on a confidently worded hallucination.
+  why_it_matters: It gives coding agents a standardized interface to execute, track, and reason about virtual trades across 318 markets with enforced decision logging.
+  mental_damage: Finally, an MCP server purpose-built to help your autonomous agent prove it can lose 100M KRW in virtual won just as confidently as a human.
   tags:
     - mcp
     - crypto
     - trading
+    - finance
     - simulation
-    - autonomous-agents
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing trading tools, resources, and prompts for AI agents, which fits cleanly into the MCP infrastructure category.
+  reason: The product is explicitly an MCP server exposing 22 tools and 5 resources for a specific domain, fitting cleanly into MCP Servers & Tooling as a domain-specific implementation.
   evidence:
     - "Repo description states: 'MCP server for pex.bot — AI simulated crypto trading with real-time Upbit prices.'"
-    - README details 22 tools, 5 resources, and 5 prompts designed for MCP integration.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+    - README defines 22 tools, 5 resources, and 5 prompts specifically for the MCP interface.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:41.054Z"
+    updated_at: "2026-05-06T22:45:19.155Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:37:57.215Z"
+    updated_at: "2026-05-06T23:14:12.035Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

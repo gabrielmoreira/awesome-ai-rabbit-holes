@@ -1,0 +1,96 @@
+id: github__minishlab__semhash
+kind: github-repo
+name: semhash
+canonical_url: https://github.com/minishlab/semhash
+identity:
+  github_repo: minishlab/semhash
+provenance:
+  discoveries:
+    - id: discovery__github__minishlab__semhash__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: semhash
+        extracted_url: https://github.com/minishlab/semhash
+        surrounding_text: "27. [semhash](https://github.com/MinishLab/semhash): lightweight and flexible tool for deduplicating datasets using semantic similarity."
+        confidence: high
+metadata:
+  github:
+    stars: 922
+    forks: 56
+    license: MIT
+    archived: false
+    created_at: "2024-10-13T11:57:51Z"
+    pushed_at: "2026-05-04T07:04:33Z"
+    description: Fast Multimodal Semantic Deduplication & Filtering
+    homepage: https://minish.ai/packages/semhash/introduction
+    topics:
+      - datasets
+      - deduplication
+      - image-dataset-cleaning
+      - model2vec
+      - preprocessing
+      - semantic-deduplication
+      - text-dataset-cleaning
+      - vicinity
+    last_checked_at: "2026-05-06T22:45:20.569Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:20.569Z"
+      bytes: 20635
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (922) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.630Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:20.569Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:14:32.172Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__minishlab__semhash: {
+          "summary": "SemHash is a lightweight, multimodal Python library for semantic deduplication, outlier filtering, and representative sample selection across text, image, and other modalities.",
+          "why_it_matters": "It lets developers clean and sanitize training and testing datasets at scale using fast embeddings and efficient similarity search, reducing data leakage and noise before model training.",
+          "mental_damage": "Yet another reminder that even our datasets now need AI to figure out they are full of duplicates we probably should have noticed ourselves.",
+          "tags": ["deduplication", "dataset-cleaning", "semantic-search", "multimodal", "ml-infrastructure"],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "SemHash is a data preprocessing and dataset cleaning library for ML workflows, not a developer-facing AI tool, agent, or infrastructure product for software development.",
+          "decision_evidence": [
+            "Repo description and README position it squarely as a dataset cleaning and deduplication library for text, images, and other modalities.",
+            "Used via `pip install semhash` and scripted as a Python library, with no coding agent, IDE, extension, or developer workflow identity.",
+            "Appears in awesome-LLM-resources under a data section
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

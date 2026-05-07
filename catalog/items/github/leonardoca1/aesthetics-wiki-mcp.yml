@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leonardoca1__aesthetics-wiki-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,49 +41,49 @@ metadata:
       - mediawiki
       - model-context-protocol
       - python
-    last_checked_at: "2026-05-05T21:03:18.678Z"
+    last_checked_at: "2026-05-06T22:44:57.793Z"
     readme:
-      fetched_at: "2026-05-05T21:03:18.678Z"
+      fetched_at: "2026-05-06T22:44:57.793Z"
       bytes: 5004
 insights:
-  summary: An MCP server that lets LLMs search, read, and fetch images from the Aesthetics Wiki via the MediaWiki API.
-  why_it_matters: It turns a niche creative wiki into a structured tool call so design-oriented developers and AI agents can ground moodboards, branding, and worldbuilding in real aesthetic vocabulary instead of hallucinated vibes.
-  mental_damage: "We have finally solved the hardest problem in modern software engineering: piping cottagecore definitions directly into our LLM context windows with zero additional setup."
+  summary: An MCP server that exposes the Aesthetics Wiki (aesthetics.fandom.com) to LLMs, allowing them to search, read, and retrieve images for visual subcultures like cottagecore and y2k.
+  why_it_matters: It turns a massive, formless wiki into a structured tool call, letting creative-coding and design-adjacent workflows pull grounded aesthetic vocabulary directly into their context window.
+  mental_damage: "We have finally solved the most pressing infrastructure crisis of our time: giving Claude instant, structured access to goblincore lore instead of forcing it to hallucinate what a 'fairycore' moodboard looks like."
   tags:
     - mcp
     - mediawiki
-    - design-tooling
-    - python
+    - llm-tools
+    - creative
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server that exposes Aesthetics Wiki content as tools for LLMs, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is a domain-specific MCP server that provides structured access to the Aesthetics Wiki, fitting cleanly into the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP server for the Aesthetics Wiki... search, read, and discover aesthetics from your LLM.'"
-    - README positions it as an MCP server runnable via uvx with Claude Desktop and other MCP clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
+    - "Repo description explicitly states: 'MCP server for the Aesthetics Wiki'."
+    - README confirms it is an MCP server providing tools like search_aesthetic and get_aesthetic_images via stdio.
+    - Listed in awesome-mcp-servers under 'Art & Culture' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:18.678Z"
+    updated_at: "2026-05-06T22:44:57.793Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:38.248Z"
+    updated_at: "2026-05-06T23:09:11.964Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

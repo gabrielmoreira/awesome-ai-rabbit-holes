@@ -1,13 +1,13 @@
 id: github__the-swarm-corporation__awesome-swarms-list
 kind: github-repo
-name: awesome-Swarms-List
+name: awesome-swarms-list
 canonical_url: https://github.com/the-swarm-corporation/awesome-swarms-list
 identity:
   github_repo: the-swarm-corporation/awesome-swarms-list
 provenance:
   discoveries:
     - id: discovery__github__the-swarm-corporation__awesome-swarms-list__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -23,47 +23,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 19
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-07-13T00:42:10Z"
+    pushed_at: "2025-07-13T01:26:47Z"
+    description: A curated list of awesome applications, tools, and resources for the Swarms framework by swarms.ai. Swarms is a powerful, production-grade framework for orchestrating multi-agent AI systems, enabling developers to build everything from simple autonomous agents to complex, collaborative swarms that can solve real-world problems.
+    homepage: https://swarms.ai
+    topics:
+      - ai
+      - autogen
+      - autogen-agents
+      - awesome-list
+      - awesome-lists
+      - crewai
+      - langchain
+      - langchain-python
+      - langgraph
+      - ml
+      - multi-agent-framework
+      - multi-agent-sdk
+      - swarms
+      - swarms-corp
+    last_checked_at: "2026-05-06T22:46:45.978Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:45.978Z"
+      bytes: 33620
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated list of libraries, tools, templates, and resources specifically for the Swarms multi-agent orchestration framework.
+  why_it_matters: It acts as a centralized map for developers building production-grade agent swarms, saving time otherwise spent digging through disparate medical, financial, and infrastructure implementations.
+  mental_damage: Just when you thought the dependency graph was deep enough, you now need a curated list of lists to navigate the frameworks that orchestrate the agents that write your code.
+  tags:
+    - multi-agent
+    - swarms
+    - directory
+    - orchestration
+    - resources
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The repository is a curated directory of resources for a specific framework, fitting the navigation and discovery mandate of the awesome-awesomes category.
+  evidence:
+    - Repo description explicitly states it is 'A curated list of awesome applications, tools, and resources'.
+    - README confirms it is 'A curated, comprehensive list of awesome libraries, tools, templates, and resources'.
+    - Seen in source lists under 'awesome-agent-orchestration' as a 'Related Awesome List'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:45.978Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:35.013Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

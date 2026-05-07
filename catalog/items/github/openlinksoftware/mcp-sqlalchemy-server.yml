@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openlinksoftware__mcp-sqlalchemy-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,14 +33,14 @@ metadata:
     description: A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:06.413Z"
+    last_checked_at: "2026-05-06T22:45:43.178Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.413Z"
+      fetched_at: "2026-05-06T22:45:43.178Z"
       bytes: 10641
 insights:
-  summary: A lightweight MCP server built with FastAPI and SQLAlchemy that exposes database schemas, tables, and query execution capabilities to MCP-compatible AI clients via ODBC.
-  why_it_matters: Developers can connect AI assistants like Claude Desktop directly to Virtuoso, PostgreSQL, MySQL, or SQLite instances to inspect schemas and run queries without leaving their chat interface.
-  mental_damage: We have successfully abstracted SQL behind an AI chat interface, yet we still have to hand-write ODBC DSN configurations in INI files like it's 1999.
+  summary: A lightweight MCP server using FastAPI, SQLAlchemy, and pyodbc that exposes database schemas, tables, and querying capabilities to MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows developers to connect AI assistants directly to Virtuoso, PostgreSQL, MySQL, or SQLite databases via the Model Context Protocol for interactive data exploration.
+  mental_damage: We have successfully abstracted the ancient ritual of writing SQL into the slightly newer ritual of convincing an LLM to write SQL via a FastAPI wrapper.
   tags:
     - mcp
     - database
@@ -50,33 +50,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a specialized MCP server implementation that connects AI tools to databases via ODBC/SQLAlchemy, cleanly fitting the MCP infrastructure category.
+  reason: The project's primary identity is an MCP server implementation for database access, fitting cleanly into the MCP Servers & Tooling category.
   evidence:
     - "Repo description explicitly states: 'A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.'"
-    - "README details MCP server features: Get Schemas, Get Tables, Execute Queries, and configuration for Claude Desktop via mcpServers JSON."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' section.
+    - README details MCP server features like 'Get Schemas', 'Execute Queries', and configuration for 'Claude Desktop'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Databases', confirming its protocol-centric identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.413Z"
+    updated_at: "2026-05-06T22:45:43.178Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:48.564Z"
+    updated_at: "2026-05-06T23:19:45.351Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

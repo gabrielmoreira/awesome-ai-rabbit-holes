@@ -1,13 +1,13 @@
 id: github__letta-ai__letta-code
 kind: github-repo
-name: Letta Code
+name: letta-code
 canonical_url: https://github.com/letta-ai/letta-code
 identity:
   github_repo: letta-ai/letta-code
 provenance:
   discoveries:
     - id: discovery__github__letta-ai__letta-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,59 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2421
+    stars: 2424
     forks: 248
     license: Apache-2.0
     archived: false
     created_at: "2025-10-25T04:17:51Z"
-    pushed_at: "2026-05-04T20:30:15Z"
+    pushed_at: "2026-05-06T22:36:55Z"
     description: The memory-first coding agent
     homepage: https://docs.letta.com/letta-code
     topics: []
-    last_checked_at: "2026-05-05T21:03:18.850Z"
+    last_checked_at: "2026-05-06T22:44:57.920Z"
     readme:
-      fetched_at: "2026-05-05T21:03:18.850Z"
+      fetched_at: "2026-05-06T22:44:57.920Z"
       bytes: 3420
 insights:
-  summary: A memory-first, long-lived coding agent and CLI tool that persists context, learns skills, and supports model swapping across sessions.
-  why_it_matters: It replaces disposable AI sessions with a persistent coworker that remembers your codebase and improves over time, reducing repeated context setup.
-  mental_damage: We have officially reached the point where the AI has better retention than the average senior developer on a Friday afternoon.
+  summary: A memory-first coding agent and CLI harness that persists developer context and learns across sessions, supporting multiple LLM backends.
+  why_it_matters: It offers a reusable, cross-model coding agent that remembers project context and skills over time, reducing the 'amnesiac contractor' dynamic of session-based CLI tools.
+  mental_damage: You can now hire a junior that never leaves, never forgets your preferences, and still breaks your build—just with slightly better emotional continuity.
   tags:
     - cli
-    - coding-agent
     - memory
-    - persistent
-    - skills
+    - coding-agent
+    - multi-model
+    - letta
   confidence: high
 curation:
   status: included
-  reason: The primary product is a developer-facing coding agent that directly plans, writes, and edits code inside a repo via CLI and desktop app, fitting the coding-agents category.
+  reason: Letta Code is a standalone coding agent that developers run as their primary assistant in the terminal or desktop, directly planning, editing, and learning over time.
   evidence:
-    - "Repo description states: 'The memory-first coding agent'"
-    - README describes a 'memory-first coding harness' with persistent agents and skills for long-lived coding workflows
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+    - Repo description calls it 'The memory-first coding agent'.
+    - README positions it as a direct alternative to Claude Code / Codex / Gemini CLI with persistent agent memory.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2421) exceeded threshold (150)
+  reason: Stars (2424) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:38.799Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:18.850Z"
+    updated_at: "2026-05-06T22:44:57.920Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:14.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

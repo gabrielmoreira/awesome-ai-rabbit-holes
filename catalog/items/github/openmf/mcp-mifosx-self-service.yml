@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openmf__mcp-mifosx-self-service__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [openMF/mcp-mifosx-self-service](https://github.com/openMF/mcp-mifosx-self-service) 🐍 ☁️  - A self-service integration for user registration, authentication, account management, transactions, and third-party transfers with Apache Fineract."
         confidence: high
     - id: discovery__github__openmf__mcp-mifosx-self-service__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,50 +48,49 @@ metadata:
     description: MCP Server for Mifos X - Self Service
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:06.609Z"
+    last_checked_at: "2026-05-06T22:45:43.326Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.609Z"
+      fetched_at: "2026-05-06T22:45:43.326Z"
       bytes: 10929
 insights:
-  summary: An open-source MCP server built with FastMCP that exposes Apache Fineract / MifosX self-service banking APIs as AI-callable tools for MCP-compatible clients like Claude Desktop.
-  why_it_matters: It allows developers building fintech integrations to let AI agents handle complex banking workflows—like loan management and transfers—directly through the MifosX API without writing custom glue code.
-  mental_damage: We have successfully abstracted banking infrastructure so that an LLM can now mismanage your loans and beneficiaries with the same confidence it brings to JavaScript dependency upgrades.
+  summary: An MCP server built with FastMCP that exposes Apache Fineract / Mifos X self-service banking APIs as AI-callable tools for MCP-compatible clients.
+  why_it_matters: Developers building AI-driven fintech workflows can let assistants like Claude Desktop securely authenticate users, manage loans, and handle transfers through a standardized MCP bridge instead of hand-crafting API integrations.
+  mental_damage: We now have MCP servers for core banking systems, meaning your AI assistant can technically approve a loan before you’ve finished configuring its environment variables.
   tags:
     - mcp
     - fintech
+    - banking-apis
     - fastmcp
-    - python
-    - banking
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for the MifosX banking platform, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server for a specific domain (banking/fintech), making it a textbook fit for MCP Servers & Tooling under Domain Servers.
   evidence:
-    - Repo description explicitly states 'MCP Server for Mifos X - Self Service'
-    - README confirms it is a 'Model Context Protocol (MCP) server built using FastMCP (Python)' exposing tools for AI clients
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - "Repo description: 'MCP Server for Mifos X - Self Service'"
+    - README states it is 'a Model Context Protocol (MCP) server built using FastMCP' exposing AI-callable tools for MifosX/Fineract APIs.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.609Z"
+    updated_at: "2026-05-06T22:45:43.326Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:53.034Z"
+    updated_at: "2026-05-06T23:19:47.718Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

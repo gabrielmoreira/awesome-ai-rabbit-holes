@@ -1,12 +1,12 @@
 id: dosu__dev
 kind: website
-name: Dosu
+name: dosu.dev
 canonical_url: https://dosu.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__dosu__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dosu is a knowledge infrastructure product that captures context from coding agent sessions and tool integrations to automatically maintain documentation and improve agent performance.
-  why_it_matters: It provides a shared memory layer and MCP server that allows coding agents to access consistent team context, reducing token usage and improving implementation consistency across sessions.
-  mental_damage: We have finally solved the problem of stale documentation by ensuring our agents quietly document their own hallucinations directly into the repo's permanent record.
+  summary: Dosu is a knowledge infrastructure platform that captures context from coding agent sessions, documentation, and chat tools to build a shared team memory and maintain documentation automatically.
+  why_it_matters: It reduces token usage and increases consistency by giving coding agents access to automatically maintained team knowledge instead of forcing them to re-prompt for context.
+  mental_damage: We have successfully reached the point where we need a platform to document what our AI agents learned so the next AI agent doesn't bother us with the same questions.
   tags:
-    - agent-memory
-    - context-engineering
-    - knowledge-management
+    - memory
     - mcp
+    - context
+    - documentation
+    - knowledge-management
   confidence: high
 curation:
   status: included
-  reason: Dosu primarily extends the capabilities of existing coding agents (like Claude Code) by providing memory, context, and documentation automation via an MCP server, rather than acting as a primary coding assistant itself.
+  reason: Dosu's core novelty is automatic knowledge capture and context infrastructure for agents, making it a memory and context system rather than a primary coding assistant or generic platform.
   evidence:
-    - "Scraped site states: 'The Dosu MCP Server builds team-wide memory in the background during every coding agent session'."
-    - "Installation flow shows: 'npx @dosu/cli setup' followed by 'Added Dosu to Claude Code' and 'Updated AGENTS.md'."
-    - "Site explicitly mentions: 'Your agent gets access to consistent, token-efficient context from all your connected tools'."
+    - Dosu's MCP Server 'builds team-wide memory in the background during every coding agent session'
+    - Claims 'automatic knowledge capture gives your team shared context and improves agent performance'
+    - Maintains living documentation including AGENTS.md and CLAUDE.md automatically from agent sessions
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:13.836Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:46.778Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

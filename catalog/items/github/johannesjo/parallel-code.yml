@@ -1,13 +1,13 @@
 id: github__johannesjo__parallel-code
 kind: github-repo
-name: Parallel Code
+name: parallel-code
 canonical_url: https://github.com/johannesjo/parallel-code
 identity:
   github_repo: johannesjo/parallel-code
 provenance:
   discoveries:
     - id: discovery__github__johannesjo__parallel-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 609
+    stars: 612
     forks: 78
     license: MIT
     archived: false
     created_at: "2026-02-18T09:53:27Z"
-    pushed_at: "2026-05-05T18:06:46Z"
+    pushed_at: "2026-05-06T13:49:28Z"
     description: Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
     homepage: https://parallelcode.app
     topics:
@@ -43,50 +43,50 @@ metadata:
       - gemini-cli
       - git-worktree
       - terminal
-    last_checked_at: "2026-05-05T21:02:57.507Z"
+    last_checked_at: "2026-05-06T22:44:36.029Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.507Z"
+      fetched_at: "2026-05-06T22:44:36.029Z"
       bytes: 8481
 insights:
-  summary: A desktop orchestration tool for running Claude Code, Codex, Gemini, and Copilot CLI in parallel, each isolated in its own git worktree for concurrent task execution and diff review.
-  why_it_matters: It lets developers dispatch multiple AI agents on separate features simultaneously while keeping changes isolated, auditable, and mergeable from a single keyboard-driven interface.
-  mental_damage: You now have ten agents, ten branches, and a renewed sense that your job is less 'writing code' and more 'managing a small, very confident workforce of context-window tenants.'
+  summary: A desktop workbench that dispatches Claude Code, Codex, and Gemini CLI in parallel across isolated git worktrees, with a GUI for diff review and merge management.
+  why_it_matters: It lets developers run multiple AI coding agents on separate features simultaneously and review each branch's diffs in one place, reducing sequential wait times and branch conflicts.
+  mental_damage: You can now race ten agents against each other and still end up reviewing code written by whichever one hallucinated the least.
   tags:
-    - agent-orchestration
-    - cli-tools
-    - electron
-    - git-worktree
     - parallel-agents
+    - git-worktree
+    - cli-harness
+    - multi-agent
+    - diff-review
   confidence: high
 curation:
   status: included
-  reason: This is a user-facing workbench for coordinating multiple AI coding agents and tasks in parallel, which aligns with agent-orchestration, not a primary coding assistant itself.
+  reason: The product is a multi-agent workbench that coordinates several coding agents in parallel across isolated environments, which aligns with Agent Orchestration's control-plane and workbench criteria rather than being a standalone coding assistant.
   evidence:
-    - Repo description states it runs Claude Code, Codex, and Gemini side by side in their own git worktrees.
-    - README positions it as dispatching agents in parallel with isolated branches, diff review, and merge workflows.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
+    - "README states: 'Dispatch AI coding agents in parallel, each in its own worktree' and 'Ten agents. Ten branches. One afternoon.'"
+    - Source list places it under 'Harnesses & orchestration > Session managers & parallel runners'.
+    - "Archived: false, active pushes as of 2026-05-06, and 612 stars indicate healthy ecosystem traction."
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (609) exceeded threshold (150)
+  reason: Stars (612) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:49.965Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.507Z"
+    updated_at: "2026-05-06T22:44:36.029Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:37.061Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

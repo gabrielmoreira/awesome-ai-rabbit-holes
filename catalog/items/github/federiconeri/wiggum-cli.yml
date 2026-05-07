@@ -1,13 +1,13 @@
 id: github__federiconeri__wiggum-cli
 kind: github-repo
-name: Wiggum CLI
+name: wiggum-cli
 canonical_url: https://github.com/federiconeri/wiggum-cli
 identity:
   github_repo: federiconeri/wiggum-cli
 provenance:
   discoveries:
     - id: discovery__github__federiconeri__wiggum-cli__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -48,49 +48,50 @@ metadata:
       - tech-stack-detection
       - terminal-ui
       - typescript
-    last_checked_at: "2026-05-05T21:02:09.300Z"
+    last_checked_at: "2026-05-06T22:43:52.142Z"
     readme:
-      fetched_at: "2026-05-05T21:02:09.300Z"
+      fetched_at: "2026-05-06T22:43:52.142Z"
       bytes: 15004
 insights:
-  summary: A terminal-based AI agent CLI that scans existing codebases, generates feature specifications through AI interviews, and runs autonomous implement-test-fix loops using Claude Code or Codex.
-  why_it_matters: It aims to close the gap between a backlog item and a merged PR by automating the spec generation and coding loop directly within your existing repository.
-  mental_damage: We have officially reached the point where the agent needs an agent to interview you about the agent's work before the agent begins the agentic loop.
+  summary: A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI.
+  why_it_matters: It structures the messy gap between a backlog idea and running code by automating spec generation and handing off execution to installed coding agents.
+  mental_damage: You can now outsource the interview phase of feature planning to an AI, leaving you free to stare at a terminal while two AIs argue about your stack until a PR appears.
   tags:
-    - autonomous
     - cli
-    - ralph-loop
     - spec-driven
-  confidence: medium
+    - autonomous-loops
+    - claude-code
+    - codex
+  confidence: high
 curation:
   status: included
-  reason: The tool operates as a CLI coding agent that collaborates on source code inside a repo via autonomous loops, fitting the Coding Agents category.
+  reason: The product centers on a spec-first loop where structured interviews produce specs that drive autonomous implement-test-fix cycles via Claude Code or Codex CLI.
   evidence:
-    - Repo description states it is an 'AI agent CLI for spec-driven feature loops' that runs 'autonomous implement-test-fix cycles'.
-    - README explains it plugs into any codebase to scan, interview, and delegate coding loops to Claude Code or Codex CLI.
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Repo description states it is 'an AI agent CLI for spec-driven feature loops with Claude Code and Codex' that generates specs and runs autonomous cycles.
+    - "README diagram and text explain two phases: Wiggum acts as the agent to scan, interview, and produce specs, then delegates coding loops to Claude Code or Codex CLI."
+    - Features include AI-guided interviews, spec autocomplete, Ralph loops, and backlog automation explicitly framed around spec-driven execution.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: spec-driven-development
+  section: Execution Loops & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:15.208Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:09.300Z"
+    updated_at: "2026-05-06T22:43:52.142Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:55:40.212Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

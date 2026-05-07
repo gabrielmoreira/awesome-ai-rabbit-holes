@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__muhannad-hash__git-context-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server that answers why code exists - git blame, PR descriptions, and linked issues
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:48.737Z"
+    last_checked_at: "2026-05-06T22:45:27.034Z"
     readme:
-      fetched_at: "2026-05-05T21:03:48.737Z"
+      fetched_at: "2026-05-06T22:45:27.034Z"
       bytes: 3616
 insights:
-  summary: An MCP server that provides tools to trace code lines back through git blame, pull requests, and linked issues to explain why a specific piece of code exists.
-  why_it_matters: It allows developers to query the historical context and intent behind code changes directly within their AI assistant, eliminating the need to manually dig through git logs and GitHub issue trackers.
-  mental_damage: We have successfully automated the one human ritual—blaming others for code—so that an AI can now explain exactly why Sarah Chen ruined your weekend in August 2024.
+  summary: An MCP server that enriches git blame data by tracing commits to their associated pull requests and linked GitHub issues to explain why a line of code exists.
+  why_it_matters: It streamlines the archeological process of understanding legacy code by letting developers query git history context directly inside their coding assistant.
+  mental_damage: We have successfully automated the last defense mechanism developers had against being asked to explain code they wrote three years ago.
   tags:
     - mcp
     - git
     - context
-    - claude
-  confidence: medium
+    - debugging
+  confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that extends AI assistants with git history context tools, fitting the MCP infrastructure category.
+  reason: The product is explicitly an MCP server designed to provide git context to compatible clients like Claude Code, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server that answers why code exists'."
-    - README details tools like `blame_context` and `commit_story` designed to integrate with Claude via MCP.
-    - Listed in awesome-mcp-servers under 'Developer Tools' section.
+    - Repo description defines it as 'MCP server that answers why code exists'.
+    - README demonstrates installation via `claude mcp add` and usage inside Claude Code.
+    - Listed in awesome-mcp-servers under 'Developer Tools' due to its protocol-native identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:48.737Z"
+    updated_at: "2026-05-06T22:45:27.034Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:28.452Z"
+    updated_at: "2026-05-06T23:16:03.935Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

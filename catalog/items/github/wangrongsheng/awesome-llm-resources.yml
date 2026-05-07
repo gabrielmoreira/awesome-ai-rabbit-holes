@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wangrongsheng__awesome-llm-resources__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,21 +20,6 @@ provenance:
         anchor_text: https://github.com/WangRongsheng/awesome-LLM-resources
         extracted_url: https://github.com/wangrongsheng/awesome-llm-resources
         surrounding_text: LLM resources.
-        confidence: high
-    - id: discovery__github__wangrongsheng__awesome-llm-resourses__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: WangRongsheng/awesome-LLM-resources
-        url: https://github.com/wangrongsheng/awesome-llm-resources
-        repository: WangRongsheng/awesome-LLM-resources
-      extraction:
-        mode: parsed
-        section_path:
-          - 论文 Paper
-        anchor_text: DeepSeek V3 Technical Report
-        extracted_url: https://github.com/wangrongsheng/awesome-llm-resourses
-        surrounding_text: 31. [DeepSeek V3 Technical Report](https://github.com/WangRongsheng/awesome-LLM-resourses/blob/main/docs/DeepSeek_V3.pdf)
         confidence: high
 metadata:
   github:
@@ -66,19 +51,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

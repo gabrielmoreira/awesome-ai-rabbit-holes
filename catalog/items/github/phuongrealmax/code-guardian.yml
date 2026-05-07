@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__phuongrealmax__code-guardian__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - technical-debt
-    last_checked_at: "2026-05-05T21:04:16.924Z"
+    last_checked_at: "2026-05-06T22:45:52.238Z"
     readme:
-      fetched_at: "2026-05-05T21:04:16.924Z"
+      fetched_at: "2026-05-06T22:45:52.238Z"
       bytes: 7445
 insights:
-  summary: An MCP server that integrates with Claude Code to analyze repositories, detect code hotspots, and generate refactoring plans using over 113 tools.
-  why_it_matters: It transforms Claude Code into a specialized refactoring assistant that can scan large codebases, track technical debt, and manage optimization sessions across multiple conversations.
-  mental_damage: We have now reached the point where our AI assistants need their own memory systems, dashboards, and 113 tools just to remember that we wanted to fix that one nested if-statement from three months ago.
+  summary: An MCP server that provides over 113 tools to transform Claude Code into a code refactoring assistant for large repositories, featuring hotspot detection, session persistence, and a live progress dashboard.
+  why_it_matters: It packages code analysis, complexity metrics, and refactoring plans into a single MCP toolset so developers can offload technical debt cleanup to Claude Code without assembling separate scripts.
+  mental_damage: Yet another chance to discover that your 68,000-line codebase has twenty hotspots that you will now diligently ignore while watching a live dashboard.
   tags:
     - mcp
     - refactoring
     - claude-code
     - technical-debt
-    - cli
-  confidence: high
+    - code-analysis
+  confidence: medium
 curation:
   status: included
-  reason: The primary artifact is an MCP server (with 113+ tools) designed to extend Claude Code, fitting cleanly into the MCP Servers and Tooling category rather than being a standalone coding agent.
+  reason: The product explicitly identifies as an MCP server and positions itself as a feature-rich toolset for Claude Code, making MCP its primary identity rather than a generic coding agent or extension.
   evidence:
-    - Repo description explicitly states 'built on Claude Code + MCP' and identifies as an MCP server.
-    - README highlights '113+ MCP tools' and compares itself as 'the most comprehensive MCP server for Claude Code'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Science Tools'.
+    - Repo description states it is 'built on Claude Code + MCP' and 'MCP server' with 113+ tools.
+    - README comparison table claims it is 'the most comprehensive MCP server for Claude Code'.
+    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:16.924Z"
+    updated_at: "2026-05-06T22:45:52.238Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:36.899Z"
+    updated_at: "2026-05-06T23:21:46.998Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

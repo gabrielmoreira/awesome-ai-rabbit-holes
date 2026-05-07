@@ -1,12 +1,12 @@
 id: chathelp__ai
 kind: website
-name: ChatHelp
+name: chathelp.ai
 canonical_url: https://chathelp.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__chathelp__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted SaaS platform offering a free AI chat widget for websites, a private knowledge base, and over 100 business-focused AI tools for customer support, content creation, and study workflows.
-  why_it_matters: It allows developers to integrate a customizable, data-trained AI support bot into client sites with a single line of code while centralizing various business AI workflows under one dashboard.
-  mental_damage: Another 'all-in-one AI toolbox' arrives to ensure you never have to leave a single dashboard to wonder why you bought 100 different AI subscriptions in the first place.
+  summary: ChatHelp.ai is a business-facing SaaS platform offering a customizable AI chat widget for websites, a private knowledge base, and over 100 vertical AI tools for tasks like content writing, image generation, and customer support.
+  why_it_matters: It allows developers to embed a multimodal, RAG-backed chat interface into sites with minimal code, while centralizing various business workflows like WordPress posting and Yelp review analysis under a single API key.
+  mental_damage: Yet another 'all-in-one AI toolbox' promising to save you from the existential dread of managing multiple subscriptions, provided you're willing to hand over your API keys and trust a single line of embed code with your customer support.
   tags:
-    - ai-tools
     - chat-widget
-    - customer-support
-    - knowledge-base
     - saas
+    - knowledge-base
+    - business-tools
+    - embed
   confidence: high
 curation:
   status: excluded
-  reason: The product is a business-facing SaaS for website chat widgets and content generation, lacking a developer-tooling or code-centric workflow angle required for this catalog.
+  reason: This is a general-purpose business SaaS platform for end-users and website owners, lacking the developer-tooling, coding-agent, or infrastructure focus required for this catalog.
   evidence:
-    - Primary page excerpt focuses on 'Free AI Chat Widget - for your website' and 'Business, Work, Study Assistant'.
-    - Featured tools include 'AI Writer & WordPress Auto Poster', 'AI Yelp Reviews Analyzer', and 'Flux AI Image Generator'.
-    - Listed in awesome-ai-agents under a section dedicated to a website chat widget, not a coding agent.
+    - Primary pitch is a 'Free AI Chat Widget - for your website' and 'Business, Work, Study Assistant'.
+    - Features are vertical business tools like 'AI Writer & WordPress Auto Poster' and 'AI Yelp Reviews Analyzer', not code editing or dev infrastructure.
+    - Appears in awesome-ai-agents only as a chat widget for customer support, which is a common false positive for developer-focused agent lists.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:49.555Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:58.597Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

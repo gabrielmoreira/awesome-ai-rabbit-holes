@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hadicherkaoui__crafty-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Crafty Controller MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:29.679Z"
+    last_checked_at: "2026-05-06T22:44:10.192Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.679Z"
+      fetched_at: "2026-05-06T22:44:10.192Z"
       bytes: 7719
 insights:
-  summary: An MCP server that exposes the Crafty Controller 4 API as tools, allowing AI assistants to manage Minecraft servers via natural language.
-  why_it_matters: It lets developers automate and control their Minecraft server infrastructure directly through their AI chat interface instead of switching to a web panel or CLI.
-  mental_damage: "We have finally achieved the singularity: an AI agent that can ban griefers on your private Minecraft server while you debug a React hook."
+  summary: An MCP server that exposes the full Crafty Controller 4 API as tools, allowing AI assistants to manage Minecraft servers via natural language.
+  why_it_matters: It lets developers script and control Minecraft server lifecycles, backups, and console commands through their existing AI chat workflows instead of manual panel clicks.
+  mental_damage: "We have finally achieved the singularity: Claude can now ban griefers and rotate Minecraft backups while you debug your actual CI pipeline."
   tags:
     - mcp
     - minecraft
-    - game-servers
-    - automation
+    - crafty-controller
+    - server-management
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server for Crafty Controller, which fits directly into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server purpose-built to expose Crafty Controller's gaming server API to MCP-compatible clients.
   evidence:
-    - Repo description explicitly states 'Crafty Controller MCP server'.
-    - README confirms it exposes the full Crafty Controller 4 API V2 as MCP tools for Claude and other clients.
-    - Listed in the awesome-mcp-servers list under 'Gaming' server implementations.
+    - "Repo description: 'Crafty Controller MCP server'"
+    - "README: 'exposes the full Crafty Controller 4 API V2 as MCP tools, letting AI assistants like Claude manage your Minecraft servers'"
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.679Z"
+    updated_at: "2026-05-06T22:44:10.192Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:18.345Z"
+    updated_at: "2026-05-06T22:59:19.775Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

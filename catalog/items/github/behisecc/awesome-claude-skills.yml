@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__behisecc__awesome-claude-skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8922
-    forks: 1094
+    stars: 8942
+    forks: 1097
     license: null
     archived: false
     created_at: "2025-10-17T15:05:35Z"
@@ -32,50 +32,49 @@ metadata:
     description: A curated list of Claude Skills.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:18.725Z"
+    last_checked_at: "2026-05-06T22:12:50.666Z"
     readme:
-      fetched_at: "2026-05-05T21:01:18.725Z"
+      fetched_at: "2026-05-06T22:12:50.666Z"
       bytes: 27952
 insights:
-  summary: A curated directory of reusable skill packs, rules bundles, and command packs for extending Claude and Claude Code with specialized workflows.
-  why_it_matters: It gives developers a centralized map to discover and share task-specific instructions that make Claude behave like a domain-aware teammate instead of a generic chatbot.
-  mental_damage: We now maintain dependency trees of personality traits for our assistants, and debugging your agent’s vibes is the new debugging your build pipeline.
+  summary: A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code.
+  why_it_matters: It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
+  mental_damage: Just when you thought 'prompt engineering' was the peak of meta-work, we now have directories for the directories of skills that tell the AI how to pretend it knows how to use git worktrees.
   tags:
     - claude
     - skills
-    - ai-config
-    - agent-extensions
     - directory
+    - prompt-engineering
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a directory of reusable skill packs and rules for Claude-based developer tools rather than a standalone assistant or extension, which aligns directly with the skills category.
+  reason: This is a navigation aid and ecosystem map for Claude skills, fitting the 'Lists & Directories' category better than a product-specific category like 'Agent Skills'.
   evidence:
-    - Repo description explicitly states 'A curated list of Claude Skills.'
-    - README organizes entries into Development & Code Tools, Security, and other skill categories such as test-driven-development and plugin-authoring.
-    - Listed in awesome-LLM-resources under a dedicated Skills section, confirming its role as a skills directory.
+    - Repo description explicitly states 'A curated list of Claude Skills'.
+    - README is structured as a directory with Table of Contents linking to external skill repositories (e.g., anthropics/skills, obra/superpowers).
+    - Seen in source lists under 'awesome-LLM-resources' specifically categorized as '技能 Skills' (Skills).
 placement:
-  primary_category: skills
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8922) exceeded threshold (150)
+  reason: Stars (8942) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:18.725Z"
+    updated_at: "2026-05-06T22:12:50.666Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:27.910Z"
+    updated_at: "2026-05-06T22:23:52.075Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

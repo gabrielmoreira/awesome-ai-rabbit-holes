@@ -1,13 +1,13 @@
 id: github__sentdex__termgpt
 kind: github-repo
-name: TermGPT
+name: termgpt
 canonical_url: https://github.com/sentdex/termgpt
 identity:
   github_repo: sentdex/termgpt
 provenance:
   discoveries:
     - id: discovery__github__sentdex__termgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 412
+    forks: 95
+    license: MIT
+    archived: false
+    created_at: "2023-06-03T16:39:05Z"
+    pushed_at: "2023-07-20T07:07:48Z"
+    description: Giving LLMs like GPT-4 the ability to plan and execute terminal commands
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:20.749Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:20.749Z"
+      bytes: 1359
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python CLI tool that uses GPT-4 to plan and execute terminal commands to fulfill natural language programming requests.
+  why_it_matters: It lets developers describe a goal in plain English and delegates the research, file manipulation, and command execution to an LLM with a human approval step.
+  mental_damage: We have finally automated the part of the job where you type things into a black box and hope they don't `rm -rf` your project, provided you trust the bold red text.
+  tags:
+    - cli
+    - terminal
+    - automation
+    - langchain
+    - gpt-4
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a standalone CLI coding agent that plans and executes terminal commands to fulfill development tasks, fitting the definition of a primary coding assistant.
+  evidence:
+    - Repo description states it gives LLMs the ability to 'plan and execute terminal commands'.
+    - README explains the script queries GPT-4 for a series of terminal commands to achieve a programming objective, then asks user approval.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a developer tool.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (412) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:20.750Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:55.551Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

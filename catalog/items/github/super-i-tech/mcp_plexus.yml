@@ -1,13 +1,13 @@
 id: github__super-i-tech__mcp_plexus
 kind: github-repo
-name: MCP Plexus
+name: mcp_plexus
 canonical_url: https://github.com/super-i-tech/mcp_plexus
 identity:
   github_repo: super-i-tech/mcp_plexus
 provenance:
   discoveries:
     - id: discovery__github__super-i-tech__mcp_plexus__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 30
+    forks: 10
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-27T17:11:45Z"
+    pushed_at: "2025-06-09T19:34:42Z"
+    description: Secure, Multi-Tenant MCP Server Framework for Modern AI
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:37.251Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:37.251Z"
+      bytes: 28798
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python framework built on FastMCP for building secure, multi-tenant Model Context Protocol (MCP) servers with integrated OAuth 2.1 and API key management.
+  why_it_matters: It provides the boilerplate and security structure needed to deploy isolated MCP environments for multiple clients, handling the complex external service integrations that raw MCP servers often lack.
+  mental_damage: Another layer of abstraction to help us manage the growing stack of abstractions required to ask a robot to use our GitHub tokens.
+  tags:
+    - mcp
+    - python
+    - framework
+    - oauth
+    - multi-tenant
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly a framework for building MCP server infrastructure, making it a perfect fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description identifies it as a 'Secure, Multi-Tenant MCP Server Framework'.
+    - README states it 'extends the capabilities of FastMCP 2.7' to create 'sophisticated, multi-tenant AI backend systems'.
+    - Listed under 'Frameworks' in the awesome-mcp-servers directory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:37.251Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:52.761Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

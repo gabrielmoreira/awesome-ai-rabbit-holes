@@ -1,13 +1,13 @@
 id: github__superagent-ai__grok-cli
 kind: github-repo
-name: Grok CLI
+name: grok-cli
 canonical_url: https://github.com/superagent-ai/grok-cli
 identity:
   github_repo: superagent-ai/grok-cli
 provenance:
   discoveries:
     - id: discovery__github__superagent-ai__grok-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,47 +24,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3013
+    forks: 370
+    license: MIT
+    archived: false
+    created_at: "2025-07-14T07:57:39Z"
+    pushed_at: "2026-05-06T08:28:00Z"
+    description: An open-source coding agent for the Grok API
+    homepage: ""
+    topics:
+      - agents
+      - ai
+      - cli
+      - code
+      - coding-agent
+      - grok
+      - xai
+    last_checked_at: "2026-05-06T22:46:37.361Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:37.361Z"
+      bytes: 18225
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source terminal coding agent that connects to xAI's Grok API, featuring real-time X and web search, sub-agents, remote Telegram control, and a TUI built with Bun.
+  why_it_matters: It gives developers a terminal-native way to delegate repo work to Grok models with built-in desktop automation and scheduling, without switching to a different assistant ecosystem.
+  mental_damage: You can now pair-program with Grok from your phone via Telegram while a CLI agent rewrites your repo and optionally takes accessibility snapshots of your desktop, because normal debugging was getting too peaceful.
+  tags:
+    - cli
+    - grok
+    - coding-agent
+    - terminal
+    - telegram
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a standalone terminal coding assistant that reads repos, plans changes, runs commands, and edits code using Grok models, fitting the primary coding-agent definition.
+  evidence:
+    - "Repo description states: 'An open-source coding agent for the Grok API'."
+    - README shows headless and interactive modes that plan, edit, test, and refactor code across a repo.
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3013) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:37.361Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:54.284Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

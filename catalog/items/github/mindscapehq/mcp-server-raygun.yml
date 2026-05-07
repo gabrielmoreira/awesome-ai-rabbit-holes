@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mindscapehq__mcp-server-raygun__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- **[Raygun](https://github.com/MindscapeHQ/mcp-server-raygun)** - Interact with your crash reporting and real using monitoring data on your Raygun account"
         confidence: high
     - id: discovery__github__mindscapehq__mcp-server-raygun__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -51,49 +51,49 @@ metadata:
       - llm-agents
       - mcp
       - real-user-monitoring
-    last_checked_at: "2026-05-05T21:03:41.384Z"
+    last_checked_at: "2026-05-06T22:45:19.481Z"
     readme:
-      fetched_at: "2026-05-05T21:03:41.384Z"
+      fetched_at: "2026-05-06T22:45:19.481Z"
       bytes: 9330
 insights:
-  summary: A remote Model Context Protocol (MCP) server that connects AI coding assistants to Raygun crash reporting and real user monitoring data for error investigation and resolution.
-  why_it_matters: Developers can ask their IDE assistant to investigate crash reports, correlate errors with deployments, and analyze performance trends without leaving the editor.
-  mental_damage: Now your AI can debug production crashes using telemetry you were too overwhelmed by notifications to look at yourself.
+  summary: A remote Model Context Protocol server that provides AI coding assistants with read-only access to Raygun crash reporting, real user monitoring, and deployment data.
+  why_it_matters: It allows developers to investigate production errors and performance regressions through natural language conversations directly within their AI assistant workflow.
+  mental_damage: You can now ask your AI assistant to explain why production is on fire, adding 'conversational debugging' to the list of reasons you'll be awake at 3 AM.
   tags:
     - mcp
-    - raygun
-    - error-monitoring
-    - context-protocol
+    - monitoring
+    - error-reporting
+    - integrations
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server providing tooling infrastructure for the Model Context Protocol ecosystem, fitting the MCP category precisely.
+  reason: The product's primary identity is an MCP server that exposes Raygun monitoring data to other assistants, fitting the 'Domain Servers' section of MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'Give your AI coding assistants access to Raygun...' as an MCP server."
-    - README confirms it is 'A remote Model Context Protocol (MCP) server' hosted at api.raygun.com/v3/mcp.
-    - "Listed in two MCP-specific awesome lists: awesome-mcp-list (Monitoring) and awesome-mcp-servers (Official Servers)."
+    - "Repo description explicitly states: 'Give your AI coding assistants access to Raygun...'"
+    - README confirms it is a 'remote Model Context Protocol (MCP) server' hosted at api.raygun.com.
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under monitoring/servers sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:41.384Z"
+    updated_at: "2026-05-06T22:45:19.481Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:03.186Z"
+    updated_at: "2026-05-06T23:14:18.807Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

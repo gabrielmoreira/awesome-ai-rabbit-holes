@@ -153,13 +153,20 @@ export type CatalogItem = {
   processing?: ProcessingState;
 };
 
+export type CategoryPrompt = {
+  instructions: string;
+  use_when: string[];
+  do_not_use_when: string[];
+  canonical_positives: string[];
+  common_false_positives: string[];
+};
 
 export type Category = {
   id: string;
   name: string;
   description: string;
   slug: string;
-  prompt_instruction?: string;
+  prompt: CategoryPrompt;
   sections?: string[];
 };
 

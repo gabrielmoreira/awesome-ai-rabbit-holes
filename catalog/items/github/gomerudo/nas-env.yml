@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gomerudo__nas-env__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,27 +35,27 @@ metadata:
       - neural-architecture-search
       - openai-gym
       - reinforcement-learning
-    last_checked_at: "2026-05-05T21:02:23.760Z"
+    last_checked_at: "2026-05-06T22:44:04.492Z"
     readme:
-      fetched_at: "2026-05-05T21:02:23.760Z"
+      fetched_at: "2026-05-06T22:44:04.492Z"
       bytes: 2410
 insights:
-  summary: A proof-of-concept OpenAI Gym environment that models Neural Architecture Search (NAS) as a reinforcement learning problem using the Neural Structure Code encoding.
-  why_it_matters: It provides a structured RL interface for researchers to experiment with agent-driven neural network design on datasets like CIFAR-10 without building the scaffolding from scratch.
-  mental_damage: "Just what we needed: yet another reinforcement learning loop to tweak hyperparameters in a 2019-era gym environment while the rest of the world moves on to foundation models."
+  summary: A proof-of-concept OpenAI Gym environment for applying reinforcement learning to Neural Architecture Search (NAS) on datasets like CIFAR-10.
+  why_it_matters: It provides a standardized RL interface for researchers looking to automate neural network design using reinforcement learning baselines.
+  mental_damage: "Just what the modern developer needs: a framework to automate the architectural anxiety of neural networks using reinforcement learning concepts from 2019."
   tags:
-    - neural-architecture-search
     - reinforcement-learning
+    - neural-architecture-search
     - openai-gym
-    - research
+    - automl
   confidence: high
 curation:
   status: excluded
-  reason: This is a specialized ML research environment for Neural Architecture Search, not a practical developer tool, agent, or infrastructure component for software engineering workflows.
+  reason: Excluded because it is an ML research environment for neural architecture search, not a practical AI tool, agent, or developer infrastructure for software engineering workflows.
   evidence:
-    - Repo description and README explicitly frame this as a research project for Neural Architecture Search (NAS), not a developer tool.
-    - Last push was in 2020, and the README notes the code is a proof-of-concept that 'may contain minor bugs'.
-    - Listed under 'AutoML' in Awesome-LLMOps, which confirms its ML research niche rather than developer-tooling focus.
+    - Repo description and README explicitly define this as a research tool for Neural Architecture Search (NAS) and reinforcement learning, not developer tooling.
+    - Last push was in 2020, indicating the project is stagnant and tied to older ML paradigms rather than current developer-facing AI trends.
+    - Appears in Awesome-LLMOps under 'AutoML', but this is a generic ML research categorization that does not align with the catalog's focus on coding agents and developer infrastructure.
 placement:
   primary_category: null
   section: null
@@ -65,19 +65,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:23.760Z"
+    updated_at: "2026-05-06T22:44:04.492Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:00.874Z"
+    updated_at: "2026-05-06T22:58:09.546Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

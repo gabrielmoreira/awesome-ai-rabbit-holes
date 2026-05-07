@@ -1,13 +1,13 @@
 id: github__infiniflow__infinity
 kind: github-repo
-name: Infinity
+name: infinity
 canonical_url: https://github.com/infiniflow/infinity
 identity:
   github_repo: infiniflow/infinity
 provenance:
   discoveries:
     - id: discovery__github__infiniflow__infinity__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -22,14 +22,29 @@ provenance:
         extracted_url: https://github.com/infiniflow/infinity
         surrounding_text: "| [Infinity](https://github.com/infiniflow/infinity)        | The AI-native database built for LLM applications, providing incredibly fast vector and full-text search                                                                                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/infiniflow/infinity.svg?style=flat-square)        |"
         confidence: high
+    - id: discovery__github__infiniflow__infinity__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Infinity
+        extracted_url: https://github.com/infiniflow/infinity
+        surrounding_text: "39. [Infinity](https://github.com/infiniflow/infinity): The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense embedding, sparse embedding, tensor and full-text."
+        confidence: high
 metadata:
   github:
-    stars: 4499
+    stars: 4501
     forks: 418
     license: Apache-2.0
     archived: false
     created_at: "2022-07-18T13:52:38Z"
-    pushed_at: "2026-04-24T13:49:00Z"
+    pushed_at: "2026-05-06T15:02:36Z"
     description: The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vector, tensor (multi-vector), and full-text.
     homepage: https://infiniflow.org
     topics:
@@ -52,50 +67,49 @@ metadata:
       - vector-database
       - vector-search
       - vectordatabase
-    last_checked_at: "2026-05-05T21:02:43.152Z"
+    last_checked_at: "2026-05-06T22:44:23.402Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.152Z"
+      fetched_at: "2026-05-06T22:44:23.401Z"
       bytes: 5645
 insights:
-  summary: An AI-native database built for LLM applications, providing hybrid search across dense vectors, sparse vectors, tensors, and full-text data.
-  why_it_matters: It gives developers a single, high-performance system to handle all the messy retrieval modes needed for RAG pipelines without gluing together separate vector and text stores.
-  mental_damage: Yet another vector database promising to be the 'LLM memory layer,' because apparently the 47th time is the charm for solving retrieval without accidentally querying your entire production dataset.
+  summary: Infinity is a high-performance, AI-native database built in C++20 that provides hybrid search over dense vectors, sparse vectors, tensors, and full-text data for LLM and RAG applications.
+  why_it_matters: It offers Python-embedded and client-server modes with sub-millisecond latency for vector and full-text search, making it a practical infrastructure choice for developers building RAG pipelines and AI features.
+  mental_damage: Yet another vector database promising to solve your RAG latency woes, ensuring you can spend the weekend benchmarking HNSW graphs instead of shipping features.
   tags:
+    - vector-database
+    - rag
     - hybrid-search
     - llm-infrastructure
-    - python-sdk
-    - rag
-    - vector-database
   confidence: high
 curation:
   status: included
-  reason: This is a code-first database SDK and server that developers import and deploy to build AI features, fitting the AI Frameworks and SDKs category.
+  reason: While it is a runnable database server, developers interact with it primarily via the Python SDK and HTTP API as a building block for retrieval and memory systems in AI applications, fitting the code-first infrastructure identity better than a generic local runtime.
   evidence:
-    - Repo description explicitly defines it as 'The AI-native database built for LLM applications' with Python SDK support.
-    - README demonstrates usage via `pip install infinity-sdk` and Python code importing `infinity` to create tables and run vector searches.
-    - Appears in 'Awesome-LLMOps' under 'Search > Vector search', confirming its role as a developer infrastructure component.
+    - Repo description explicitly calls it an 'AI-native database built for LLM applications' with hybrid search capabilities.
+    - README highlights an 'Intuitive Python API' and embedded Python module usage as core developer-facing features.
+    - Listed in Awesome-LLMOps under 'Search > Vector search', confirming its role as a developer infrastructure component.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4499) exceeded threshold (150)
+  reason: Stars (4501) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:55.162Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.152Z"
+    updated_at: "2026-05-06T22:44:23.402Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:03.201Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

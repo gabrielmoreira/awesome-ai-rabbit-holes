@@ -1,13 +1,13 @@
 id: github__prefecthq__fastmcp
 kind: github-repo
-name: FastMCP
+name: fastmcp
 canonical_url: https://github.com/prefecthq/fastmcp
 identity:
   github_repo: prefecthq/fastmcp
 provenance:
   discoveries:
-    - id: discovery__github__jlowin__fastmcp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__prefecthq__fastmcp__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25009
-    forks: 1989
+    stars: 25025
+    forks: 1991
     license: Apache-2.0
     archived: false
     created_at: "2024-11-30T01:47:40Z"
@@ -41,49 +41,50 @@ metadata:
       - mcp-tools
       - model-context-protocol
       - python
-    last_checked_at: "2026-05-05T21:02:57.072Z"
+    last_checked_at: "2026-05-06T22:45:57.357Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.072Z"
+      fetched_at: "2026-05-06T22:45:57.357Z"
       bytes: 6658
 insights:
-  summary: A Python framework for building Model Context Protocol (MCP) servers and clients with automatic schema generation and protocol management.
-  why_it_matters: It standardizes how developers expose tools and data to LLMs, handling transport, validation, and lifecycle so you can focus on Python function logic.
-  mental_damage: The standard framework for building MCP servers that powers 70% of them, proving once again that the fastest way to standardize a protocol is to let the Python community build a wrapper everyone actually enjoys using.
+  summary: A Python framework for building Model Context Protocol servers, clients, and interactive apps with automatic schema generation and protocol lifecycle management.
+  why_it_matters: It standardizes and simplifies how developers expose tools and data to LLMs, handling validation, transport, and authentication so you can focus on logic instead of protocol boilerplate.
+  mental_damage: We have successfully abstracted away the pain of building protocol servers, which means the only thing left to argue about is whether your MCP server should have been a REST API in 2023.
   tags:
-    - framework
-    - llm-tools
     - mcp
     - python
+    - framework
+    - tooling
+    - protocol
   confidence: high
 curation:
   status: included
-  reason: FastMCP is a core MCP infrastructure tool (server/client framework) explicitly designed for building Model Context Protocol integrations, fitting the mcp category perfectly.
+  reason: The product identity is explicitly MCP infrastructure, serving as a framework for building MCP servers and clients, which aligns perfectly with the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'The fast, Pythonic way to build MCP servers and clients.'"
-    - README states it is 'the standard framework for working with MCP' and powers 70% of MCP servers.
-    - Topics include mcp, mcp-servers, mcp-clients, and mcp-tools.
+    - Repo description states it is 'The fast, Pythonic way to build MCP servers and clients.'
+    - README claims 'FastMCP is the standard framework for working with MCP' and powers '70% of MCP servers across all languages.'
+    - Topics include mcp, mcp-servers, mcp-clients, and mcp-tools, confirming protocol-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25009) exceeded threshold (150)
+  reason: Stars (25025) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:42.472Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.072Z"
+    updated_at: "2026-05-06T22:45:57.357Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:42.830Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

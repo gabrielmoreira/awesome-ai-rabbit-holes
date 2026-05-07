@@ -1,12 +1,12 @@
 id: clirank__dev
 kind: website
-name: CLIRank
+name: clirank.dev
 canonical_url: https://clirank.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__clirank__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server) [![alexanderclapp/clirank-mcp-server MCP server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web: [clirank.dev](https://clirank.dev)."
         confidence: high
     - id: discovery__clirank__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -50,42 +50,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and aggregator for discovering Model Context Protocol (MCP) servers and tools.
-  why_it_matters: It serves as a navigation aid for developers looking to extend AI coding assistants with specific external tools and data sources via the MCP standard.
-  mental_damage: Yet another layer of meta-discovery is required just to figure out which middleware we need to make our agents actually understand our middleware.
+  summary: A directory and discovery hub for Model Context Protocol (MCP) servers and tools.
+  why_it_matters: It serves as a navigation layer for developers trying to find the right MCP integrations to extend their AI coding assistants.
+  mental_damage: Another meticulously organized map of the rabbit hole we've voluntarily jumped into, ensuring we spend more time browsing MCP servers than actually writing code.
   tags:
+    - mcp
     - directory
     - discovery
-    - mcp
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: The site functions as a directory and aggregator for MCP servers, fitting the 'Awesome Awesomes' category for navigation aids rather than being a tool itself.
+  reason: The site functions as a discovery layer and directory for MCP tooling, fitting the 'Lists & Directories' category better than a specific protocol tool.
   evidence:
-    - Listed under 'Server Implementations > Aggregators' in the awesome-mcp-servers list.
-    - Listed under 'MCP Servers and Directories' in awesome-ai-coding-tools.
-    - URL is clirank.dev, indicating a web-based directory rather than a runnable tool or framework.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+    - The URL clirank.dev and context suggest a ranking/discovery site rather than a standalone server or client.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:50.659Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:04.706Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

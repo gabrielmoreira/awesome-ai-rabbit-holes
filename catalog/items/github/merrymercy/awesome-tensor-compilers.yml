@@ -1,13 +1,13 @@
 id: github__merrymercy__awesome-tensor-compilers
 kind: github-repo
-name: Awesome Tensor Compilers
+name: awesome-tensor-compilers
 canonical_url: https://github.com/merrymercy/awesome-tensor-compilers
 identity:
   github_repo: merrymercy/awesome-tensor-compilers
 provenance:
   discoveries:
     - id: discovery__github__merrymercy__awesome-tensor-compilers__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2742
+    stars: 2743
     forks: 324
     license: null
     archived: false
@@ -39,50 +39,50 @@ metadata:
       - machine-learning
       - programming-language
       - tensor
-    last_checked_at: "2026-05-05T21:03:35.922Z"
+    last_checked_at: "2026-05-06T22:45:14.222Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.922Z"
+      fetched_at: "2026-05-06T22:45:14.222Z"
       bytes: 27533
 insights:
-  summary: A curated list of compiler projects, frameworks, and academic papers focused on optimizing tensor computation and deep learning workloads.
-  why_it_matters: It serves as a centralized map for developers building or optimizing high-performance ML infrastructure, covering everything from TVM and MLIR to auto-scheduling techniques.
-  mental_damage: Another map of the graveyard where brilliant engineers spend years shaving off milliseconds from matrix multiplications that will ultimately be called by a Python script with a 400ms framework overhead.
+  summary: A curated list of compiler projects and academic papers focused on tensor computation and deep learning optimization.
+  why_it_matters: It serves as a research map for developers building high-performance ML infrastructure rather than those looking for coding assistants.
+  mental_damage: Yet another taxonomy to distract you while your actual model training job silently OOMs on an unoptimized matrix multiplication.
   tags:
-    - awesome-list
     - compilers
-    - deep-learning
-    - optimization
     - tensor
+    - deep-learning
+    - research
+    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory mapping the tensor compiler ecosystem, fitting the scope of navigation aids for developers rather than a standalone tool.
+  reason: It is a curated directory of compiler research and projects, fitting the 'Lists & Directories' category as a navigation aid for ML infrastructure developers.
   evidence:
-    - Repo description explicitly states it is 'A list of awesome compiler projects and papers'.
-    - README structure is a categorized index of external projects (TVM, MLIR, XLA) and academic papers.
-    - Listed in Awesome-LLMOps under the 'Awesome Lists' section, confirming its identity as a meta-list.
+    - "Repo description explicitly states: 'A list of awesome compiler projects and papers for tensor computation and deep learning.'"
+    - README is structured as a navigational index with sections for Open Source Projects, Papers, and Tutorials.
+    - Seen in Awesome-LLMOps under the 'Awesome Lists' section, confirming its identity as a curated directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2742) exceeded threshold (150)
+  reason: Stars (2743) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:58.812Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.922Z"
+    updated_at: "2026-05-06T22:45:14.222Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:05.483Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

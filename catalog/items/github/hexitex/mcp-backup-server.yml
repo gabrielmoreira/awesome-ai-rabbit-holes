@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hexitex__mcp-backup-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,49 @@ metadata:
     description: A Model Context Protocol (MCP) server implementation that provides file backup and restoration capabilities
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:33.207Z"
+    last_checked_at: "2026-05-06T22:44:13.867Z"
     readme:
-      fetched_at: "2026-05-05T21:02:33.207Z"
+      fetched_at: "2026-05-06T22:44:13.867Z"
       bytes: 6760
 insights:
   summary: A Model Context Protocol server that provides file and folder backup and restoration capabilities for AI agents and code editors like Cursor and Windsurf.
-  why_it_matters: It offers AI agents and editors a quick, lightweight 'save point' mechanism for risky edits without requiring full Git initialization or commit workflows.
-  mental_damage: We have successfully built a specialized MCP server so your AI agent can suffer from the same snapshot anxiety you previously handled with a quick `git stash`.
+  why_it_matters: It offers AI agents a quick, context-aware save-point mechanism for risky edits without the overhead of initializing a Git repository or writing commit messages.
+  mental_damage: We have successfully abstracted away the two seconds it takes to type `git commit -m 'backup'`, proving that even our safety nets now require their own dedicated protocol servers.
   tags:
     - mcp
     - backup
-    - cursor
-    - windsurf
-    - context
+    - context-protocol
+    - editor-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation that provides tooling for the Model Context Protocol ecosystem, fitting cleanly into the MCP category.
+  reason: The product's identity is an MCP server implementation specifically for backup operations, fitting the 'MCP Servers & Tooling' category.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server implementation'
-    - README confirms it is a specialized MCP server tested in Cursor and Windsurf editors
-    - Listed in the awesome-mcp-servers directory under 'Community Servers'
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server implementation that provides file backup and restoration capabilities'."
+    - README confirms it is a 'specialized MCP server' tested in Cursor and Windsurf.
+    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.691Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:33.207Z"
+    updated_at: "2026-05-06T22:44:13.867Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:49.958Z"
+    updated_at: "2026-05-06T22:59:57.097Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

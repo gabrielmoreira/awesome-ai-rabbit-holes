@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paulhkang94__markview__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,50 +47,50 @@ metadata:
       - native-app
       - swift
       - swiftui
-    last_checked_at: "2026-05-05T21:04:13.726Z"
+    last_checked_at: "2026-05-06T22:45:49.594Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.726Z"
+      fetched_at: "2026-05-06T22:45:49.594Z"
       bytes: 5808
 insights:
-  summary: A native macOS markdown preview application that includes an MCP server, allowing Claude Code to render and preview markdown content live in a dedicated Swift/SwiftUI window.
-  why_it_matters: It enables coding agents to visualize generated documentation, READMEs, and Mermaid diagrams in real-time without leaving the workflow or relying on Electron-heavy browsers.
-  mental_damage: We have successfully built a native bridge just so the AI can watch its own markdown render, because apparently even the bots need a preview pane to feel productive.
+  summary: A native macOS markdown preview app that includes an MCP server, allowing Claude Code and Claude Desktop to render and preview markdown content live in a native SwiftUI window.
+  why_it_matters: It gives local coding agents a real-time, native rendering surface for documentation, specs, and Mermaid diagrams without the overhead of Electron or a browser tab.
+  mental_damage: We have officially reached the point where our AI assistants need dedicated native windows just to show us the markdown they are writing, because apparently reading raw text is too old-school.
   tags:
     - mcp
     - macos
     - markdown
-    - swift
     - claude-code
+    - swift
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server implementation designed to integrate Claude Code with a native macOS rendering engine, fitting the MCP Servers and Tooling category.
+  reason: MCP is the core product identity; the tool is packaged and distributed specifically as an MCP server to extend Claude's capabilities with a native markdown preview.
   evidence:
-    - "Repo description explicitly states: 'Native macOS markdown preview + MCP server for Claude Code.'"
-    - README details the `mcp-server-markview` npm wrapper and tools like `preview_markdown` for AI integration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'Native macOS markdown preview + MCP server for Claude Code.'
+    - Source list context shows inclusion in 'awesome-mcp-servers' under 'Developer Tools'.
+    - README details specific MCP tools (`preview_markdown`, `open_file`) and setup for Claude Code/Desktop.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.726Z"
+    updated_at: "2026-05-06T22:45:49.594Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:05.520Z"
+    updated_at: "2026-05-06T23:21:09.245Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

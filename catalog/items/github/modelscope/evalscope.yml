@@ -1,13 +1,13 @@
 id: github__modelscope__evalscope
 kind: github-repo
-name: EvalScope (`🔥`)
+name: evalscope
 canonical_url: https://github.com/modelscope/evalscope
 identity:
   github_repo: modelscope/evalscope
 provenance:
   discoveries:
     - id: discovery__github__modelscope__evalscope__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2753
+    stars: 2759
     forks: 322
     license: Apache-2.0
     archived: false
     created_at: "2023-12-07T06:10:49Z"
-    pushed_at: "2026-05-04T14:01:27Z"
+    pushed_at: "2026-05-06T08:40:55Z"
     description: A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.
     homepage: https://evalscope.readthedocs.io/en/latest/
     topics:
@@ -37,50 +37,50 @@ metadata:
       - performance
       - rag
       - vlm
-    last_checked_at: "2026-05-05T21:03:45.622Z"
+    last_checked_at: "2026-05-06T22:45:24.081Z"
     readme:
-      fetched_at: "2026-05-05T21:03:45.622Z"
+      fetched_at: "2026-05-06T22:45:24.081Z"
       bytes: 34834
 insights:
-  summary: EvalScope is a Python framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing.
-  why_it_matters: It gives developers a structured way to measure model quality and inference performance across multiple backends instead of stitching together ad-hoc eval scripts.
-  mental_damage: Because the only thing more exhausting than tuning prompts is building an entire benchmarking pipeline just to prove your model is statistically 3% less confused than the last one.
+  summary: EvalScope is a framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing.
+  why_it_matters: It provides developers with a one-stop solution to measure model quality and inference performance across multiple backends and modalities.
+  mental_damage: Yet another reason to spend three hours tuning your benchmark suite instead of actually shipping the feature you promised last sprint.
   tags:
-    - benchmark
     - eval
+    - benchmark
     - llm
-    - modelscope
     - performance
+    - modelscope
   confidence: high
 curation:
   status: included
-  reason: EvalScope is an evaluation and benchmarking framework for LLMs and related models, which clearly fits the Evaluations and Benchmarks category.
+  reason: The core job is measuring, scoring, and benchmarking model behavior, which aligns exactly with the Evals & Benchmarks category.
   evidence:
-    - "Repo description: 'streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.'"
-    - README lists benchmarks (MMLU, GSM8K), multi-backend evaluation, and inference performance testing (TTFT, TPOT).
-    - Featured in an awesome-LLM-resources list under the Evaluation section.
+    - Repo description states it is 'a streamlined and customizable framework for efficient large model evaluation and performance benchmarking.'
+    - README lists features like 'Comprehensive Evaluation Benchmarks', 'Inference Performance Testing', and 'Arena Mode' for model comparison.
+    - Appears in awesome-LLM-resources under the '评估 Evaluation' section, reinforcing its identity as an evaluation tool.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2753) exceeded threshold (150)
+  reason: Stars (2759) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:53.349Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:45.622Z"
+    updated_at: "2026-05-06T22:45:24.081Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:21.738Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

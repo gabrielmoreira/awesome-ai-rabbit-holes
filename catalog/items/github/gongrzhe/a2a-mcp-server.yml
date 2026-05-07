@@ -1,13 +1,13 @@
 id: github__gongrzhe__a2a-mcp-server
 kind: github-repo
-name: A2A-MCP-Server
+name: a2a-mcp-server
 canonical_url: https://github.com/gongrzhe/a2a-mcp-server
 identity:
   github_repo: gongrzhe/a2a-mcp-server
 provenance:
   discoveries:
     - id: discovery__github__gongrzhe__a2a-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -33,27 +33,27 @@ metadata:
     description: A mcp server that bridges the Model Context Protocol (MCP) with the Agent-to-Agent (A2A) protocol, enabling MCP-compatible AI assistants (like Claude) to seamlessly interact with A2A agents.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:23.850Z"
+    last_checked_at: "2026-05-06T22:44:04.560Z"
     readme:
-      fetched_at: "2026-05-05T21:02:23.850Z"
+      fetched_at: "2026-05-06T22:44:04.560Z"
       bytes: 14970
 insights:
-  summary: An archived MCP server that bridges the Model Context Protocol with Google's Agent-to-Agent (A2A) protocol, allowing MCP-compatible assistants like Claude to discover and communicate with A2A agents.
-  why_it_matters: It demonstrates a concrete interoperability layer between two emerging agent protocols, enabling developers to experiment with multi-agent workflows before the standards fully settle.
-  mental_damage: We are now building bridges between protocols that were invented last Tuesday, ensuring our agents can argue with each other in multiple dialects.
+  summary: An archived MCP server that bridges the Model Context Protocol with Google's Agent-to-Agent (A2A) protocol, allowing MCP-compatible assistants like Claude to discover and interact with A2A agents.
+  why_it_matters: It provides the plumbing to connect Anthropic's MCP ecosystem with Google's emerging A2A standard, letting developers experiment with cross-protocol agent communication.
+  mental_damage: We now have a protocol bridge for protocols that are themselves mostly bridges, adding another layer of middleware to the stack before we've even agreed on what the bottom layer looks like.
   tags:
-    - a2a
-    - agent-communication
     - mcp
+    - a2a
     - protocol-bridge
+    - agent-communication
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived, indicating it is no longer maintained, which makes it unsuitable for a curated catalog of active developer tooling.
+  reason: The repository is archived, and as a thin protocol bridge without an active maintenance cycle, it adds minimal enduring value to a curated developer tooling catalog.
   evidence:
-    - "Repository is marked as archived (archived: yes)"
-    - Created in May 2025 and last pushed in June 2025, showing extremely short lifespan before archival
-    - Appears in awesome-agent-orchestration under Agent Communication Protocols, confirming protocol-bridge intent
+    - Repo is marked as archived, indicating it is no longer actively maintained.
+    - Product identity is a bridge/adapter between MCP and A2A, fitting the 'MCP is only an adapter' exclusion rule for the MCP category.
+    - Classified under 'Agent Communication Protocols' in an awesome list, which signals infrastructure rather than a standalone dev tool.
 placement:
   primary_category: null
   section: null
@@ -61,21 +61,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:59.447Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:23.850Z"
+    updated_at: "2026-05-06T22:44:04.560Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:09.810Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

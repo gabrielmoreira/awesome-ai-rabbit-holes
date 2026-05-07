@@ -1,13 +1,13 @@
 id: github__logicalclocks__hopsworks
 kind: github-repo
-name: Hopsworks
+name: hopsworks
 canonical_url: https://github.com/logicalclocks/hopsworks
 identity:
   github_repo: logicalclocks/hopsworks
 provenance:
   discoveries:
     - id: discovery__github__logicalclocks__hopsworks__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -50,27 +50,27 @@ metadata:
       - pyspark
       - python
       - serverless
-    last_checked_at: "2026-05-05T21:03:23.401Z"
+    last_checked_at: "2026-05-06T22:45:02.736Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.401Z"
+      fetched_at: "2026-05-06T22:45:02.736Z"
       bytes: 9921
 insights:
-  summary: Hopsworks is a data-intensive AI platform providing a Python-centric feature store, real-time AI lakehouse capabilities, and MLOps tooling for managing and serving ML models.
-  why_it_matters: It provides ML teams with a unified environment to govern, develop, and share assets like features and models across cloud environments like AWS, Azure, and GCP.
-  mental_damage: Because nothing says 'agile developer experience' like spinning up a specialized lakehouse platform just to admit that your most valuable ML asset is a curated table of features.
+  summary: Hopsworks is a data-intensive AI platform providing a Python-centric feature store, MLOps capabilities, and model serving infrastructure for machine learning teams.
+  why_it_matters: It provides the governed infrastructure for managing features, training pipelines, and serving models on AWS, Azure, and GCP, integrating with tools like Databricks and SageMaker.
+  mental_damage: Yet another platform promising to solve the 'feature store' problem, ensuring your data science team can spend weeks configuring infrastructure instead of arguing about hyperparameters.
   tags:
-    - feature-store
-    - ml-platform
     - mlops
-    - python
+    - feature-store
+    - model-serving
+    - data-platform
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the project is a general ML data platform and feature store focused on data science infrastructure, lacking a direct AI developer tooling angle for coding, agents, or app building.
+  reason: It is a general ML infrastructure and data platform (MLOps) rather than a developer-facing AI coding tool, agent, or workflow product.
   evidence:
-    - Repo description and README define it as a 'Data-Intensive AI platform' and 'Real-Time AI Lakehouse' for ML, not a developer coding tool.
-    - Topics and features focus on data-science, feature-engineering, model-serving, and pyspark rather than code generation or IDE integration.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', which confirms its role as backend infrastructure rather than a developer-facing assistant.
+    - Repo description defines it as a 'Data-Intensive AI platform with a Feature Store', focused on ML, not coding assistants.
+    - README emphasizes ML assets, feature pipelines, training pipelines, and model serving rather than code editing or AI agent workflows.
+    - Source list placement is 'Awesome-LLMOps > ML Platforms', which confirms its identity as backend ML infrastructure, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -78,21 +78,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1294) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:32.015Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.401Z"
+    updated_at: "2026-05-06T22:45:02.736Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:10:22.732Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

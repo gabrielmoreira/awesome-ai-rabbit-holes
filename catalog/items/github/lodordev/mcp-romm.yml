@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lodordev__mcp-romm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for RomM — browse and manage your retro game library with AI
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:23.069Z"
+    last_checked_at: "2026-05-06T22:45:02.406Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.069Z"
+      fetched_at: "2026-05-06T22:45:02.406Z"
       bytes: 4502
 insights:
-  summary: An MCP server that exposes a self-hosted RomM retro game library through 19 read-only tools for browsing platforms, searching ROMs, and managing collections via AI assistants.
-  why_it_matters: It lets developers manage and query their personal retro gaming libraries conversationally through MCP-compatible assistants rather than clicking through a web UI.
-  mental_damage: We have successfully reached the point where an AI agent can now manage your Pokémon ROM collection, but still can't figure out why your Docker container won't connect to localhost.
+  summary: An MCP server that exposes a self-hosted RomM retro game library to AI assistants, providing 19 read-only tools for browsing platforms, searching ROMs, and checking metadata.
+  why_it_matters: It lets developers query and manage their retro game collections through natural language via any MCP-compatible assistant instead of the RomM UI.
+  mental_damage: You now have the infrastructure to ask Claude about your Super Nintendo saves, which is indisputable proof that your AI tooling stack is completely out of control.
   tags:
     - mcp
     - retro-gaming
     - romm
     - self-hosted
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server that integrates RomM with MCP-compatible AI assistants, fitting cleanly into the MCP Servers and Tooling category.
+  reason: "MCP is the core product identity: a single-purpose Model Context Protocol server for a specific domain (retro gaming libraries), matching the Domain Servers section."
   evidence:
-    - Repo description explicitly states 'MCP server for RomM' with 19 read-only tools for browsing and managing a retro game library.
-    - README details integration with Claude Code and Claude Desktop via .mcp.json configuration.
-    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'MCP server for RomM' as the primary identity.
+    - README details 19 read-only tools exposed via MCP for browsing and managing a RomM instance.
+    - Listed in awesome-mcp-servers under 'Gaming', confirming domain-server positioning within the MCP ecosystem.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.069Z"
+    updated_at: "2026-05-06T22:45:02.407Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:32.174Z"
+    updated_at: "2026-05-06T23:10:21.782Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

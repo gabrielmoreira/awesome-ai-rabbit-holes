@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gdikov__hypertunity__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,27 +37,27 @@ metadata:
       - hyperparameter-optimization
       - slurm
       - tensorboard
-    last_checked_at: "2026-05-05T21:02:17.843Z"
+    last_checked_at: "2026-05-06T22:43:59.420Z"
     readme:
-      fetched_at: "2026-05-05T21:02:17.843Z"
+      fetched_at: "2026-05-06T22:43:59.420Z"
       bytes: 3408
 insights:
-  summary: A lightweight Python library for black-box hyperparameter optimisation that wraps GPyOpt, supports Slurm-based scheduling, and visualises results in Tensorboard.
-  why_it_matters: It lets ML engineers treat expensive model-tuning loops as structured, parallelisable jobs instead of a pile of hand-tuned scripts.
-  mental_damage: Yet another reminder that the hardest part of modern AI work is not the model, but the existential dread of tuning the knobs that control it.
+  summary: A lightweight, high-level Python library for black-box hyperparameter optimisation that wraps GPyOpt and supports Slurm scheduling and Tensorboard visualisation.
+  why_it_matters: It lets developers automate and parallelise costly model-tuning experiments through a simple Python API instead of hand-rolling optimiser loops.
+  mental_damage: Another reminder that while we are busy shipping AI agents that write code, we still need an entire separate library from 2019 just to tune the hyperparameters of the models those agents call.
   tags:
     - hyperparameter-optimization
     - bayesian-optimization
-    - ml-ops
-    - tensorboard
+    - ml-experiments
+    - python-library
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional ML tuning library with no meaningful AI-assisted developer tooling, coding agent, or prompt-driven workflow.
+  reason: The project is a traditional ML hyperparameter-tuning library with no AI developer tooling, coding-agent, or LLM workflow angle, and has been inactive since early 2020.
   evidence:
-    - Repo description explicitly frames it as a black-box hyperparameter optimisation toolset, not a developer AI assistant.
-    - README focuses on Bayesian optimisation, Slurm scheduling, and Tensorboard reporting for ML experiments.
-    - Listed under AutoML in Awesome-LLMOps, which reflects an ML infrastructure context rather than AI developer tooling.
+    - Repo description explicitly states it is a toolset for black-box hyperparameter optimisation, not an AI coding tool.
+    - "README demonstrates a pure ML experiment workflow: defining domains, running Bayesian optimisation, and visualising results in Tensorboard."
+    - Last push was 2020-01-26 and it shows no MCP, coding-agent, or LLM-oriented features despite appearing in an Awesome-LLMOps list under AutoML.
 placement:
   primary_category: null
   section: null
@@ -67,19 +67,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:17.843Z"
+    updated_at: "2026-05-06T22:43:59.420Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:42.985Z"
+    updated_at: "2026-05-06T22:57:07.756Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

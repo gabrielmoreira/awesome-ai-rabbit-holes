@@ -1,13 +1,13 @@
 id: github__adawalli__nexus
 kind: github-repo
-name: Nexus
+name: nexus
 canonical_url: https://github.com/adawalli/nexus
 identity:
   github_repo: adawalli/nexus
 provenance:
   discoveries:
     - id: discovery__github__adawalli__nexus__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: MCP Server to make searching openrouter easy
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:49.295Z"
+    last_checked_at: "2026-05-06T22:12:25.274Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.295Z"
+      fetched_at: "2026-05-06T22:12:25.274Z"
       bytes: 15476
 insights:
-  summary: An MCP server that provides AI-powered search capabilities via OpenRouter, exposing models like Perplexity Sonar and Grok 4 as tools for MCP-compatible clients such as Claude Desktop and Cursor.
-  why_it_matters: It gives developers a zero-install way to plug real-time web search and training-data knowledge from multiple model families directly into their existing MCP client workflows.
-  mental_damage: We have successfully abstracted the abstraction by adding a protocol server so our assistants can argue with other assistants about which search provider is least hallucinatory.
+  summary: An MCP server that provides AI-powered search capabilities via OpenRouter, exposing Perplexity Sonar and Grok models as tools for MCP-compatible clients like Claude Code and Cursor.
+  why_it_matters: It gives coding assistants real-time web search and training-data knowledge through a zero-install MCP server, removing the need to build custom search integrations.
+  mental_damage: We have reached the point where the most concise way to describe a tool is 'it helps your AI use another AI to search for things using a third AI's API routing layer.'
   tags:
     - mcp
     - openrouter
     - search
-    - typescript
-  confidence: high
+    - nexus
+  confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server that integrates OpenRouter search models into MCP-compatible clients, which is a clear fit for the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server that integrates OpenRouter search models into MCP-compatible clients, making MCP its primary identity.
   evidence:
     - "Repo description states: 'MCP Server to make searching openrouter easy'"
     - "README confirms: 'Nexus is a Model Context Protocol (MCP) server that provides AI-powered search functionality through the OpenRouter API'"
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - Listed in awesome-mcp-servers under Community Servers section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:51.550Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:49.295Z"
+    updated_at: "2026-05-06T22:12:25.274Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:18:41.385Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

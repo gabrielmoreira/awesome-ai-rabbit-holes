@@ -1,13 +1,13 @@
 id: github__samholt__l2mac
 kind: github-repo
-name: L2MAC
+name: l2mac
 canonical_url: https://github.com/samholt/l2mac
 identity:
   github_repo: samholt/l2mac
 provenance:
   discoveries:
     - id: discovery__github__samholt__l2mac__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [L2MAC](https://github.com/samholt/l2mac)"
         confidence: high
     - id: discovery__github__samholt__l2mac__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -39,47 +39,68 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 153
+    forks: 44
+    license: MIT
+    archived: false
+    created_at: "2024-03-08T12:01:02Z"
+    pushed_at: "2024-12-27T00:50:24Z"
+    description: "🚀 The LLM Automatic Computer Framework: L2MAC"
+    homepage: https://samholt.github.io/L2MAC/
+    topics:
+      - agent
+      - book
+      - codebase
+      - coding
+      - generator
+      - gpt
+      - l2mac
+      - llm
+      - multi-agent
+    last_checked_at: "2026-05-06T22:46:15.805Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:15.805Z"
+      bytes: 19094
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: L2MAC is a framework that uses a multi-agent, von Neumann-style architecture to take a single prompt and generate extensive codebases or text outputs that exceed standard LLM context windows.
+  why_it_matters: It allows developers to offload the generation of large, multi-file project scaffolds to a coordinated system of agents rather than fighting context limits manually.
+  mental_damage: We have finally built a machine that turns a single sentence into a sprawling, unmaintainable codebase without any human intervention, preserving the tradition of technical debt at machine speed.
+  tags:
+    - multi-agent
+    - codebase-generation
+    - context-window
+    - cli
+    - framework
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It acts as a primary coding assistant that reads a prompt and autonomously plans, writes, and structures an entire codebase via its CLI and library interfaces.
+  evidence:
+    - Repo description defines it as 'The LLM Automatic Computer Framework' for generating extensive codebases.
+    - README shows a CLI usage (l2mac 'Create a snake game...') that generates a full repo in ./workspace.
+    - Included in 'awesome-agent-orchestration' under 'Multi-Agent Orchestration Frameworks', confirming its agentic identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:15.805Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:55.707Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

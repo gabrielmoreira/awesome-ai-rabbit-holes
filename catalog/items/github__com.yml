@@ -1,12 +1,12 @@
 id: github__com
 kind: website
-name: GitHub
+name: github.com
 canonical_url: https://github.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,23 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitHub is the world's most widely adopted developer platform, providing a suite of AI-powered tools including Copilot, Codespaces, Actions, and an MCP Registry.
-  why_it_matters: It centralizes the modern developer workflow by integrating AI code generation, automated CI/CD, and an expanding ecosystem of external MCP tooling.
-  mental_damage: We now have an AI platform to manage the AI agents that are writing the code to automate the platform that manages the code.
+  summary: GitHub is the world's most widely adopted developer platform and source-code host, offering AI-powered features including GitHub Copilot, GitHub Spark, and an MCP Registry.
+  why_it_matters: It serves as the primary hub where developers store code, automate workflows via Actions, and increasingly integrate AI agents and MCP tooling into their daily development lifecycle.
+  mental_damage: We have successfully centralized the entire open-source ecosystem into a single platform that now wants to sell you an AI agent to write the code you used to enjoy writing yourself.
   tags:
-    - ci-cd
+    - developer-platform
+    - ai-hub
+    - mcp-registry
     - copilot
-    - git
-    - mcp
-    - platform
   confidence: high
 curation:
   status: excluded
-  reason: GitHub is a foundational platform and hosting service rather than a specific AI tool, agent, or developer-facing product that fits the catalog's scope.
+  reason: GitHub is a massive general-purpose developer platform and source-code host, not a specific AI tool, agent, framework, or developer-facing product that fits the catalog's scope.
   evidence:
-    - The URL points to the root github.com domain, which is a general developer platform, not a specific tool or repository.
-    - Appears in awesome-mcp-servers only as a reference to the broader platform and its MCP Registry, not as a standalone server implementation.
-    - Scraped site context describes a wide array of features (Issues, Actions, Codespaces) rather than a single AI rabbit hole or tool.
+    - The scraped site context describes GitHub as a broad 'developer platform' with features like Actions, Codespaces, and Issues, not a standalone AI tool.
+    - The URL provided is the root github.com domain, representing the entire platform rather than a specific repository or AI product.
+    - Appears in awesome-mcp-servers lists only because it hosts an MCP Registry, but the platform itself is not an MCP server or AI tool.
 placement:
   primary_category: null
   section: null
@@ -59,17 +58,9 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:50.976Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -78,3 +69,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:16.814Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

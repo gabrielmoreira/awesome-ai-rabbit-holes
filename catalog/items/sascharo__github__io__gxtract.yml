@@ -1,12 +1,12 @@
 id: sascharo__github__io__gxtract
 kind: website
-name: sascharo.github.io/gxtract
+name: gxtract
 canonical_url: https://sascharo.github.io/gxtract
 identity: {}
 provenance:
   discoveries:
     - id: discovery__sascharo__github__io__gxtract__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GXtract is a Model Context Protocol (MCP) server that integrates with GroundX to extract architectural and implementation details from documents, specifically targeting scientific papers and research articles.
-  why_it_matters: It allows developers to plug document extraction and semantic search capabilities into MCP-compatible clients like VS Code, bridging the gap between research literature and coding workflows.
-  mental_damage: We have successfully abstracted the act of reading a paper into a server protocol, ensuring you can ignore groundbreaking research without ever leaving your IDE.
+  summary: GXtract is a Model Context Protocol (MCP) server that integrates with GroundX to extract architectural and implementation details from scientific papers and research documents.
+  why_it_matters: It allows coding agents and MCP clients to query and ingest technical details from research docs directly into their context without manual copy-pasting.
+  mental_damage: Finally, an async Python server to solve the problem of reading the paper yourself before asking the agent to implement it.
   tags:
-    - document-extraction
-    - fastmcp
-    - groundx
     - mcp
+    - groundx
+    - document-extraction
     - research
+    - fastmcp
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server listed in the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
+  reason: This is a purpose-built MCP server for document extraction, fitting the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - "README states: 'GXtract is a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool integration.'"
+    - "Documentation states: 'GXtract is a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool integration.'"
     - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
-    - Architecture uses 'FastMCP v2 library' to provide tools for document extraction and search.
+    - Built using FastMCP v2 and designed to provide tools for extracting details from scientific papers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:54.199Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:20.321Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

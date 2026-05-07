@@ -1,29 +1,13 @@
 id: github__sipyourdrink-ltd__bernstein
 kind: github-repo
-name: Bernstein
+name: bernstein
 canonical_url: https://github.com/sipyourdrink-ltd/bernstein
 identity:
   github_repo: sipyourdrink-ltd/bernstein
 provenance:
   discoveries:
-    - id: discovery__github__chernistry__bernstein__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: bradAGI/awesome-cli-coding-agents
-        url: https://github.com/bradagi/awesome-cli-coding-agents
-        repository: bradAGI/awesome-cli-coding-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Harnesses & orchestration
-          - Orchestrators & autonomous loops
-        anchor_text: Bernstein
-        extracted_url: https://github.com/chernistry/bernstein
-        surrounding_text: "- **[Bernstein](https://github.com/chernistry/bernstein)** `⭐ 263` — Deterministic Python orchestrator — spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI), verifies with tests, auto-commits."
-        confidence: high
     - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -39,7 +23,7 @@ provenance:
         surrounding_text: "- **[Bernstein](https://github.com/chernistry/bernstein)** `⭐ 263` — Deterministic Python orchestrator — spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI), verifies with tests, auto-commits."
         confidence: high
     - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -56,12 +40,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 272
-    forks: 33
+    stars: 281
+    forks: 34
     license: Apache-2.0
     archived: false
     created_at: "2026-03-22T14:52:26Z"
-    pushed_at: "2026-05-05T19:30:28Z"
+    pushed_at: "2026-05-06T21:44:18Z"
     description: Deterministic orchestrator for 30+ CLI AI coding agents. Git worktree isolation, HMAC audit trail, MCP server mode.
     homepage: https://bernstein.run
     topics:
@@ -85,50 +69,50 @@ metadata:
       - multi-agent-orchestration
       - python
       - self-evolving
-    last_checked_at: "2026-05-05T21:01:33.165Z"
+    last_checked_at: "2026-05-06T22:46:26.464Z"
     readme:
-      fetched_at: "2026-05-05T21:01:33.164Z"
-      bytes: 29265
+      fetched_at: "2026-05-06T22:46:26.464Z"
+      bytes: 30410
 insights:
-  summary: A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git worktree isolation, test verification, and an HMAC-signed audit trail.
-  why_it_matters: It lets teams run a swarm of existing CLI agents on the same codebase simultaneously, automatically merging only the code that passes tests.
-  mental_damage: "We have finally achieved the logical endpoint of modern engineering: writing one prompt and then anxiously watching a committee of bots race to rewrite your repo in parallel."
+  summary: A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git worktree isolation and an HMAC audit trail.
+  why_it_matters: Developers can delegate full features to a swarm of isolated agents and return only when tested, merged code is ready, without wiring multiple CLIs by hand.
+  mental_damage: You’ve successfully automated yourself out of the coding loop, yet somehow you’re still on call when the swarm’s four-agent JWT implementation quietly disagrees with your auth spec.
   tags:
-    - agent-orchestration
+    - multi-agent
     - cli
+    - orchestration
     - git-worktree
     - mcp
-    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing operational orchestrator for coordinating multiple CLI coding agents, which fits agent-orchestration better than coding-agents because it manages the swarm rather than acting as the assistant itself.
+  reason: The core product is a runtime platform that coordinates multiple coding agents, tasks, and workflows with deterministic scheduling, git isolation, and audit trails, fitting agent orchestration over single-agent or extension categories.
   evidence:
-    - Repo description explicitly calls it a 'Deterministic orchestrator for 30+ CLI AI coding agents' with git worktree isolation.
-    - "README demonstrates a control-plane workflow: decomposes goals, runs agents in parallel, verifies tests, and merges code automatically."
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+    - Repo description explicitly calls it a 'Deterministic orchestrator for 30+ CLI AI coding agents' with git worktree isolation and MCP server mode.
+    - README states it 'splits the work across several AI coding agents… runs the tests, and merges the code that actually passes' using a deterministic runtime rather than an LLM scheduler.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops', reinforcing its orchestration identity.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (272) exceeded threshold (150)
+  reason: Stars (281) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:59.516Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:33.165Z"
+    updated_at: "2026-05-06T22:46:26.464Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:56.260Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

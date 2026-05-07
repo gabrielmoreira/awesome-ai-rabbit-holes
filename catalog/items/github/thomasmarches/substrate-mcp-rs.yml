@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thomasmarches__substrate-mcp-rs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-04-29T10:33:35Z"
+    pushed_at: "2025-10-12T10:56:46Z"
+    description: A Model Context Protocol (MCP) server for Substrate blockchains, written in Rust and interfacing the subxt crate.
+    homepage: ""
+    topics:
+      - ia
+      - mcp
+      - polkadot
+      - rust
+      - substrate
+      - subxt
+    last_checked_at: "2026-05-06T22:46:48.985Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:48.985Z"
+      bytes: 6195
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Rust-based Model Context Protocol (MCP) server that exposes Substrate blockchain operations—such as querying balances, storage, and submitting transactions—via the MCP protocol using the subxt crate.
+  why_it_matters: It allows developers to integrate live Substrate and Polkadot blockchain interactions directly into AI coding assistants like Cursor or Claude Code using natural language.
+  mental_damage: You can now debug your custom pallet's storage issues by asking an LLM that talks to a Rust binary, which talks to a node, that talks to the chain, ensuring maximum latency between your confusion and your answer.
+  tags:
+    - mcp
+    - rust
+    - substrate
+    - blockchain
+    - polkadot
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server implementation for a specific domain (Substrate blockchains), fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for Substrate blockchains'."
+    - README details exposing blockchain tools (query_balance, send_dynamic_signed_transaction) via the MCP protocol.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations', confirming its identity as an MCP server.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:48.985Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:06.226Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

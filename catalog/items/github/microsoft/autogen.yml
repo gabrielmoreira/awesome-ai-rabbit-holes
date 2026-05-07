@@ -1,13 +1,13 @@
 id: github__microsoft__autogen
 kind: github-repo
-name: AutoGen
+name: autogen
 canonical_url: https://github.com/microsoft/autogen
 identity:
   github_repo: microsoft/autogen
 provenance:
   discoveries:
     - id: discovery__github__microsoft__autogen__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [AutoGen](https://github.com/microsoft/autogen)"
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "| [AutoGen](https://github.com/microsoft/autogen) | Microsoft's framework for building multi-agent conversational systems | ![Stars](https://img.shields.io/github/stars/microsoft/autogen) |"
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "- [Autogen](https://github.com/microsoft/autogen): Enable Next-Gen Large Language Model Applications."
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -68,7 +68,7 @@ provenance:
         surrounding_text: "- **[AutoGen](https://github.com/microsoft/autogen)** – Microsoft's multi-agent framework for building AI agent teams that collaborate on coding tasks."
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -83,7 +83,7 @@ provenance:
         surrounding_text: "- [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for building"
         confidence: high
     - id: discovery__github__microsoft__autogen__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -99,8 +99,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 57728
-    forks: 8712
+    stars: 57753
+    forks: 8718
     license: CC-BY-4.0
     archived: false
     created_at: "2023-08-18T11:43:45Z"
@@ -118,50 +118,50 @@ metadata:
       - framework
       - llm-agent
       - llm-framework
-    last_checked_at: "2026-05-05T21:03:37.965Z"
+    last_checked_at: "2026-05-06T22:45:16.022Z"
     readme:
-      fetched_at: "2026-05-05T21:03:37.965Z"
+      fetched_at: "2026-05-06T22:45:16.022Z"
       bytes: 20790
 insights:
-  summary: AutoGen is a Python framework for building multi-agent AI applications that can operate autonomously or collaborate with humans, currently in maintenance mode as Microsoft shifts focus to the new Agent Framework.
-  why_it_matters: It provides the building blocks for developers to orchestrate specialized AI agents that communicate, use tools via MCP, and solve complex tasks through code-first workflows.
-  mental_damage: Microsoft has kindly provided the classic 'abandon ship' migration guide to their new framework, ensuring you can rewrite your agent orchestration just in time for the next architectural paradigm shift.
+  summary: A programming framework for building multi-agent AI applications in Python, now in maintenance mode in favor of Microsoft's newer Agent Framework.
+  why_it_matters: It provides the foundational building blocks for developers to compose autonomous assistants that can coordinate tasks, use tools via MCP, and hand off work to specialist agents.
+  mental_damage: We spent two years wiring agents together in a framework that is now gently sunset into a new Microsoft framework that will likely be sunset again by 2026.
   tags:
-    - framework
-    - mcp
     - multi-agent
-    - orchestration
+    - framework
     - python
+    - mcp
+    - orchestration
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK/framework for embedding multi-agent AI behavior into software, which aligns with the ai-frameworks instruction to prefer that category over orchestration platforms for importable libraries.
+  reason: AutoGen is a code-first library and SDK used by developers to build multi-agent systems in Python, fitting the Frameworks & SDKs identity rather than a standalone coding assistant or control plane.
   evidence:
-    - Repo description explicitly defines it as 'A programming framework for agentic AI'.
-    - README examples show Python code importing libraries (autogen_agentchat) to build agents programmatically.
-    - Strong ecosystem presence in 'awesome-llm-agents' and 'awesome-agent-orchestration' lists under Frameworks sections.
+    - Repo description explicitly states 'A programming framework for agentic AI'.
+    - README shows primary usage via Python imports (AssistantAgent, OpenAIChatCompletionClient) and pip install commands.
+    - README explicitly labels the project as 'maintenance mode' and directs users to the newer Microsoft Agent Framework.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (57728) exceeded threshold (150)
+  reason: Stars (57753) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:24.067Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.658Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:37.965Z"
+    updated_at: "2026-05-06T22:45:16.022Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:33.717Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

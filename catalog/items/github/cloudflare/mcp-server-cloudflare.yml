@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cloudflare__mcp-server-cloudflare__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) 🎖️ 📇 ☁️ - Integration with Cloudflare services including Workers, KV, R2, and D1"
         confidence: high
     - id: discovery__github__cloudflare__mcp-server-cloudflare__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)** - Deploy, configure & interrogate your resources on the Cloudflare developer platform (e.g. Workers/KV/R2/D1)"
         confidence: high
     - id: discovery__github__cloudflare__mcp-server-cloudflare__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,8 +54,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3702
-    forks: 385
+    stars: 3707
+    forks: 389
     license: Apache-2.0
     archived: false
     created_at: "2024-11-27T22:07:30Z"
@@ -63,49 +63,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:36.198Z"
+    last_checked_at: "2026-05-06T22:43:23.467Z"
     readme:
-      fetched_at: "2026-05-05T21:01:36.198Z"
+      fetched_at: "2026-05-06T22:43:23.467Z"
       bytes: 8126
 insights:
-  summary: A collection of official Cloudflare MCP servers that let developers manage Workers, observability, DNS, and other Cloudflare services via natural language in MCP-compatible clients like Cursor and Claude.
-  why_it_matters: It integrates Cloudflare's full developer platform—including bindings, builds, and browser rendering—directly into AI coding workflows, reducing context switching between dashboards and terminals.
-  mental_damage: The dream of telling an LLM to 'fix the cache rules' is now technically viable, provided you enjoy debugging why your AI agent just nuked a production Worker via a misunderstood natural language prompt.
+  summary: A collection of official Model Context Protocol servers from Cloudflare that expose services like Workers, DNS, Radar, and AI Gateway to MCP-compatible clients such as Cursor and Claude.
+  why_it_matters: Developers can manage Cloudflare infrastructure, debug workers, and query analytics using natural language through their existing AI coding assistants.
+  mental_damage: You can now ask your LLM to debug a Workers deployment, only to realize you've successfully offloaded your infrastructure anxiety to a context window that resets every 200k tokens.
   tags:
     - mcp
     - cloudflare
     - infrastructure
-    - tooling
+    - context-protocol
   confidence: high
 curation:
   status: included
-  reason: This is a canonical set of official MCP servers for a major developer platform, directly fitting the MCP Servers and Tooling category.
+  reason: The repository is a suite of official MCP servers for Cloudflare services, making MCP the primary product identity rather than a secondary feature.
   evidence:
-    - README explicitly states this repository provides 'several MCP servers allowing you to connect to Cloudflare's service from an MCP client'.
-    - Included in 'awesome-mcp-servers' under 'Official Servers' and 'Cloud Platforms' sections.
-    - Active development with latest push in 2026 and backed by Cloudflare (Apache-2.0 license, 3702 stars).
+    - Repository name is 'mcp-server-cloudflare' and the README explicitly describes 'several MCP servers allowing you to connect to Cloudflare's service from an MCP client'.
+    - Includes 14 domain-specific servers covering Workers, Observability, DNS, AI Gateway, and Browser Rendering under the *.mcp.cloudflare.com domain.
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under 'Cloud Platforms' and 'Official Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3702) exceeded threshold (150)
+  reason: Stars (3707) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:36.198Z"
+    updated_at: "2026-05-06T22:43:23.467Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:32.501Z"
+    updated_at: "2026-05-06T22:49:42.467Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

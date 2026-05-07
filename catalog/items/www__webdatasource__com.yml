@@ -1,12 +1,12 @@
 id: www__webdatasource__com
 kind: website
-name: WebDataSource
+name: www.webdatasource.com
 canonical_url: https://www.webdatasource.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Model Context Protocol server that exposes web crawling, scraping, and data retrieval tools for integration into agentic AI workflows and IDEs.
-  why_it_matters: Developers can connect this MCP server to IDEs like VS Code to let coding agents autonomously discover, crawl, and extract structured data from the internet or intranets.
-  mental_damage: Another essential piece of infrastructure so your agent can browse the web for you, because apparently the one thing it still needs help with is reading the documentation you already opened in a different window.
+  summary: An MCP server that exposes web crawling, scraping, and RAG-based retrieval tools to IDEs and agentic systems via the WDS API Server.
+  why_it_matters: It lets agents and IDEs orchestrate structured web data extraction and site indexing directly within their existing workflows, without building custom crawlers.
+  mental_damage: Another MCP server enters the ring, promising your coding agent will finally understand the internet—until it proudly indexes a 404 page and calls it context.
   tags:
-    - agent-tooling
-    - ide-integration
     - mcp
     - web-scraping
+    - rag
+    - agent-tools
+    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing crawl, scrape, and retrieval tools for IDEs and agentic systems, which fits the MCP Servers and Tooling category cleanly.
+  reason: The product’s primary identity is an MCP server that exposes crawling, scraping, and retrieval tools to IDEs and agentic systems, making it a strong fit for MCP Servers & Tooling.
   evidence:
-    - "Scraped site title and description state: 'Web Data Source: Pluggable Web Crawler for Agentic AI' and describe an MCP server for IDEs and agents."
-    - Documentation details MCP tools like StartJob, Crawl, Scrape, and GetDownloadTaskStatus, and shows connection instructions for Visual Studio Code.
-    - Listed in the awesome-mcp-servers directory under Official Servers as a pluggable web crawler for Agentic AI systems.
+    - Scraped site describes it as 'A Model Context Protocol (MCP) server that lets IDEs and agentic systems orchestrate crawling and scraping with WDS.'
+    - Listed in awesome-mcp-servers under Official Servers for the purpose of MCP-based crawling integration.
+    - MCP endpoint, tools (Crawl, Scrape, Retrieve), and prompts (ScrapeData, Resume, Query) are the core documented surface.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:11.106Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:18.524Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

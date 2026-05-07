@@ -1,0 +1,94 @@
+id: github__langgptai__langgpt
+kind: github-repo
+name: langgpt
+canonical_url: https://github.com/langgptai/langgpt
+identity:
+  github_repo: langgptai/langgpt
+provenance:
+  discoveries:
+    - id: discovery__github__langgptai__langgpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: LangGPT
+        extracted_url: https://github.com/langgptai/langgpt
+        surrounding_text: "21. [LangGPT](https://github.com/langgptai/LangGPT): Empowering everyone to become a prompt expert!"
+        confidence: high
+metadata:
+  github:
+    stars: 12036
+    forks: 924
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-06T13:49:43Z"
+    pushed_at: "2026-01-30T00:02:22Z"
+    description: "LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 最流行的提示词落地范式 | Language of GPT  The pioneering framework for structured & meta-prompt design 10,000+ ⭐ | Battle-tested by thousands of users worldwide  Created by 云中江树"
+    homepage: https://github.com/langgptai
+    topics:
+      - chatgpt
+      - claude
+      - deeplearning
+      - doubao
+      - framework
+      - gemini
+      - gpt-4
+      - gpt3-prompts
+      - langgpt
+      - meta-prompting
+      - prompt
+      - prompt-engineering
+      - qwen
+      - structured-prompts
+    last_checked_at: "2026-05-06T22:44:55.500Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:55.500Z"
+      bytes: 19211
+insights:
+  summary: LangGPT is a structured prompt design framework and template system for creating reusable, modular prompts for large language models like GPT-4 and Claude.
+  why_it_matters: It gives developers a systematic, code-like methodology for managing prompt complexity, moving beyond trial-and-error to versionable, modular prompt architectures.
+  mental_damage: We have successfully abstracted software engineering into prompt engineering, creating a 'programming language' for the very thing we hoped would replace programming languages.
+  tags:
+    - prompt-engineering
+    - structured-prompts
+    - meta-prompting
+    - templates
+  confidence: high
+curation:
+  status: included
+  reason: The core novelty is the prompt system itself—providing structured templates, modularity, and variables for prompt management—which aligns perfectly with Prompt & Context Engineering.
+  evidence:
+    - Repo description defines it as 'structured prompt design framework' and 'prompt expert' tool.
+    - README states 'LangGPT is a structured, reusable prompt design framework' with variables, commands, and conditional logic.
+    - Features a Claude Code skill, but the primary identity is the prompt framework and template methodology, not the integration.
+placement:
+  primary_category: context-engineering
+  section: Prompt Assets & Templating
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12036) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.626Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:55.500Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:41.207Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

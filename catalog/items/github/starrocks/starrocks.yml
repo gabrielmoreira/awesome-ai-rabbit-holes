@@ -1,13 +1,13 @@
 id: github__starrocks__starrocks
 kind: github-repo
-name: StarRocks
+name: starrocks
 canonical_url: https://github.com/starrocks/starrocks
 identity:
   github_repo: starrocks/starrocks
 provenance:
   discoveries:
     - id: discovery__github__starrocks__starrocks__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11647
+    forks: 2406
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-09-04T02:29:35Z"
+    pushed_at: "2026-05-06T19:33:27Z"
+    description: The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. With the flexibility to support nearly any scenario, StarRocks provides best-in-class performance for multi-dimensional analytics, real-time analytics, and ad-hoc queries. A Linux Foundation project.
+    homepage: https://starrocks.io
+    topics:
+      - analytics
+      - big-data
+      - cloudnative
+      - database
+      - datalake
+      - delta-lake
+      - distributed-database
+      - hudi
+      - iceberg
+      - join
+      - lakehouse
+      - lakehouse-platform
+      - mpp
+      - olap
+      - real-time-analytics
+      - real-time-updates
+      - realtime-database
+      - sql
+      - star-schema
+      - vectorized
+    last_checked_at: "2026-05-06T22:46:34.084Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:34.084Z"
+      bytes: 10343
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: StarRocks is an open-source, high-performance distributed SQL query engine designed for sub-second real-time analytics and multi-dimensional OLAP workloads on data lakehouses.
+  why_it_matters: It offers developers a vectorized engine with smart query optimization that eliminates the need for data denormalization or movement, significantly speeding up ad-hoc analytics over formats like Iceberg, Hudi, and Delta Lake.
+  mental_damage: Yet another blazing-fast query engine to master while you wait for your AI overlords to eventually just summarize the data lakehouse without bothering to run the query at all.
+  tags:
+    - database
+    - olap
+    - real-time-analytics
+    - sql
+    - lakehouse
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: StarRocks is a general-purpose distributed database and query engine, lacking a primary AI developer-tooling identity required for this catalog.
+  evidence:
+    - Repo description and README define it strictly as a 'query engine' and 'database' for analytics, not an AI tool.
+    - Topics and architecture focus on OLAP, SQL, and data lakes rather than coding agents, MCP, or prompt engineering.
+    - Inclusion in 'awesome-mcp-servers' is noted, but MCP is merely a compatibility adapter for a traditional database, not the product's core identity.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11647) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:34.084Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:18.228Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

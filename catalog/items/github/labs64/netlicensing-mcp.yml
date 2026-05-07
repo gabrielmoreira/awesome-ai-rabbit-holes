@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__labs64__netlicensing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,29 +40,22 @@ metadata:
       - mcp
       - mcp-server
       - netlicensing
-    last_checked_at: "2026-05-05T21:03:14.946Z"
+    last_checked_at: "2026-05-06T22:44:53.812Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.946Z"
+      fetched_at: "2026-05-06T22:44:53.811Z"
       bytes: 12444
 insights:
-  summary: An official MCP server that exposes the full Labs64 NetLicensing REST API as natural language tools so AI agents can manage products, licenses, and customers without direct API calls.
-  why_it_matters: Developers can let coding agents handle license lifecycle tasks—creating licensees, validating entitlements, and running audits—directly from their IDE or chat interface.
-  mental_damage: "We have finally achieved the platonic ideal of late-stage AI tooling: a conversational interface to ask an agent to politely remind a customer their license expired."
-  tags:
-    - mcp
-    - licensing
-    - agent-tooling
-    - netlicensing
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a purpose-built MCP server that wraps a SaaS API for agent consumption, which clearly fits the MCP Servers and Tooling category.
-  evidence:
-    - Repo description explicitly states this is 'The official NetLicensing MCP Server' implementing the Model Context Protocol.
-    - README confirms full MCP compatibility with Claude Desktop, GitHub Copilot Agent mode, VS Code, and JetBrains IDEs.
-    - Listed under 'Server Implementations > Cloud Platforms' in the awesome-mcp-servers directory.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -70,19 +63,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.946Z"
+    updated_at: "2026-05-06T22:44:53.812Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:52.847Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-06T23:08:17.619Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__labs64__netlicensing-mcp: Invalid AI response format: SyntaxError: Bad escaped character in JSON at position 496 (line 4 column 125)"
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__landing-ai__vision-agent
 kind: github-repo
-name: Vision agent
+name: vision-agent
 canonical_url: https://github.com/landing-ai/vision-agent
 identity:
   github_repo: landing-ai/vision-agent
 provenance:
   discoveries:
     - id: discovery__github__landing-ai__vision-agent__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5275
+    stars: 5276
     forks: 600
     license: Apache-2.0
     archived: false
@@ -32,50 +32,50 @@ metadata:
     description: This tool has been deprecated. Use Agentic Document Extraction instead.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:15.471Z"
+    last_checked_at: "2026-05-06T22:44:54.470Z"
     readme:
-      fetched_at: "2026-05-05T21:03:15.471Z"
+      fetched_at: "2026-05-06T22:44:54.470Z"
       bytes: 10891
 insights:
-  summary: VisionAgent is a Python library and local webapp from LandingAI that generates runnable vision-processing code from image or video prompts using external LLMs.
-  why_it_matters: It lets developers prototype visual AI features by turning a prompt and an image into working code and tests, without hand-crafting model-selection and inference logic.
-  mental_damage: You now have a coder agent that writes vision code, but you still need three different API keys and a dream to figure out who owns the resulting liability.
+  summary: VisionAgent is a Python SDK and agentic coder from LandingAI that turns image or video prompts into runnable vision application code.
+  why_it_matters: It lets developers skip hand-writing computer vision pipelines by generating, testing, and iterating on vision code automatically using Anthropic and Google models.
+  mental_damage: Yet another specialized agent arrives to remind you that your generic coding assistant still can’t reliably see, even when the task is literally about seeing.
   tags:
-    - code-generation
-    - langchain
-    - local-webapp
-    - python
     - vision
-  confidence: high
+    - code-generation
+    - sdk
+    - agent
+    - computer-vision
+  confidence: medium
 curation:
   status: included
-  reason: The project is a developer-facing coding agent that plans, generates, tests, and iterates on vision-related code inside a local workflow, matching the coding-agents instruction.
+  reason: The primary artifact is a Python library and SDK that developers import and script against to generate vision code, making it a code-first framework rather than a standalone coding assistant or orchestration platform.
   evidence:
-    - README states it 'generates code and a test case based on the plan' and iterates until tests pass.
-    - Usage is via a Python library (VisionAgentCoderV2) and a local webapp in examples/chat.
-    - Repo description notes deprecation in favor of 'Agentic Document Extraction', but the repo remains unarchived and was pushed in 2026.
+    - "README shows pip install and import usage: from vision_agent.agent import VisionAgentCoderV2"
+    - Core workflow is code generation via VisionAgentCoderV2().generate_code() with prompt and media input
+    - Repo description notes deprecation in favor of Agentic Document Extraction, but repo remains unarchived and was pushed recently
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5275) exceeded threshold (150)
+  reason: Stars (5276) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:59.409Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:15.471Z"
+    updated_at: "2026-05-06T22:44:54.470Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:25.181Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

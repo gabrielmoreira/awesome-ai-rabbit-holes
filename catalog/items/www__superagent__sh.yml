@@ -1,12 +1,12 @@
 id: www__superagent__sh
 kind: website
-name: Superagent
+name: www.superagent.sh
 canonical_url: https://www.superagent.sh
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,38 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A red teaming platform that deploys adversarial attack agents against production AI systems to surface data leaks, harmful outputs, and unauthorized actions.
+  why_it_matters: It lets developers and security teams stress-test agent behavior under realistic attack scenarios before shipping to customers.
+  mental_damage: You now have to worry not only about whether your agent works, but whether a specialized red-team agent will publicly embarrass it before your users do.
+  tags:
+    - security
+    - red-teaming
+    - agents
+    - eval
+    - safety
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core job is measuring, surfacing, and documenting unsafe agent behavior through adversarial testing, which aligns with evals and safety tooling rather than coding assistance or orchestration.
+  evidence:
+    - "Site title and description: 'Red Team Testing for AI Agents — We attack your production system to surface data leaks, harmful outputs, and unwanted actions.'"
+    - "Primary excerpt: 'Our Red Team deploys specialized attack agents against your production system. Black-box testing that probes for the failures your users would encounter.'"
+    - "Source-list context: listed under awesome-ai-agents with the purpose of red teaming and surfacing data leaks and harmful outputs."
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Safety / Fairness / Data Quality
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T22:33:51.095Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-05T23:33:51.093Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.153Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:42.798Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

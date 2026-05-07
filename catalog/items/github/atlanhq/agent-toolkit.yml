@@ -6,23 +6,8 @@ identity:
   github_repo: atlanhq/agent-toolkit
 provenance:
   discoveries:
-    - id: discovery__atlan__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Atlan
-        extracted_url: https://atlan.com
-        surrounding_text: "- **[Atlan](https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol)** - Official MCP Server from [Atlan](https://atlan.com) which enables you to bring the power of metadata to your AI tools"
-        confidence: high
     - id: discovery__github__atlanhq__agent-toolkit__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -43,7 +28,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-04-03T11:23:08Z"
-    pushed_at: "2026-04-28T16:03:44Z"
+    pushed_at: "2026-05-06T05:51:48Z"
     description: Atlan AI Agent Toolkit
     homepage: https://docs.atlan.com/product/capabilities/atlan-ai/how-tos/atlan-mcp-overview
     topics:
@@ -53,56 +38,49 @@ metadata:
       - catalog
       - llm
       - mcp
-    last_checked_at: "2026-05-05T21:01:11.248Z"
+    last_checked_at: "2026-05-06T22:12:44.591Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.248Z"
+      fetched_at: "2026-05-06T22:12:44.591Z"
       bytes: 2265
 insights:
-  summary: An MCP server and Claude Code plugin that lets developers search, govern, and manage data assets inside Atlan using natural language.
-  why_it_matters: It turns Atlan's data catalog into a conversational surface so developers can trace lineage and manage governance without leaving their AI-assisted workflow.
-  mental_damage: We have finally reached the point where the data catalog needs its own plugin for the plugin that writes your code.
+  summary: A toolkit providing an MCP server and Claude Code plugin for searching, governing, and managing Atlan data assets via natural language.
+  why_it_matters: It connects Claude Code directly to your data catalog, letting developers query lineage, governance, and data quality rules without leaving the agent loop.
+  mental_damage: We have successfully abstracted away learning the UI of yet another data platform by teaching our coding agent how to click through it for us.
   tags:
-    - agents
-    - claude-code
-    - context-engineering
-    - data-catalog
-    - data-governance
-    - enterprise
     - mcp
+    - data-catalog
+    - claude-code
     - plugin
   confidence: high
 curation:
   status: included
-  reason: The product is listed in awesome-mcp-servers and explicitly provides an MCP server to feed certified enterprise context to downstream AI agents.
+  reason: The primary product identity is a plugin and MCP server that extends Claude Code with Atlan data catalog capabilities, fitting the extensions category over a standalone coding agent.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' as providing the missing context layer for enterprise AI.
-    - Scraped site context confirms 'Certified context flows to every AI agent... through the Atlan MCP server.'
-    - Describes itself as 'The Context Layer for AI' focusing on data graphs, governance, and business logic for agents.
-    - Repo description and README define it as an MCP server and official Claude Code plugin for Atlan services.
-    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing the MCP infrastructure fit.
-    - Actively maintained (pushed 2026-04-28) with MIT license and no archive flag.
+    - README explicitly positions it as 'The official Atlan plugin for Claude Code'.
+    - GitHub topics include 'mcp' and 'agents', and it is listed in awesome-mcp-servers under 'Official Servers'.
+    - The core features are driven by a hosted MCP server at 'mcp.atlan.com/mcp' providing 15 tools for data asset interaction.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T22:33:50.106Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.248Z"
+    updated_at: "2026-05-06T22:12:44.591Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:36.570Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

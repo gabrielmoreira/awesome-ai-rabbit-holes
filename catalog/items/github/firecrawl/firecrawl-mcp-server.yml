@@ -6,8 +6,8 @@ identity:
   github_repo: firecrawl/firecrawl-mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__mendableai__firecrawl-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__firecrawl__firecrawl-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6221
-    forks: 708
+    stars: 6229
+    forks: 710
     license: MIT
     archived: false
     created_at: "2024-12-06T07:50:27Z"
-    pushed_at: "2026-05-05T15:54:20Z"
+    pushed_at: "2026-05-05T21:58:59Z"
     description: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.
     homepage: https://firecrawl.dev
     topics:
@@ -46,54 +46,50 @@ metadata:
       - search-api
       - web-crawler
       - web-scraping
-    last_checked_at: "2026-05-05T21:03:35.605Z"
+    last_checked_at: "2026-05-06T22:43:54.180Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.605Z"
+      fetched_at: "2026-05-06T22:43:54.180Z"
       bytes: 28736
 insights:
-  summary: An official Model Context Protocol server that exposes Firecrawl's web scraping, searching, and browser automation capabilities to compatible AI clients like Cursor, Claude, and VS Code.
-  why_it_matters: It allows coding agents and IDEs to autonomously fetch, scrape, and interact with live web content, closing the gap between local codebases and external documentation or data sources.
-  mental_damage: We have successfully abstracted web browsing into a protocol, so your $40/month agent can now cheerfully burn your API credits navigating cookie banners just to read a docs page.
+  summary: An official MCP server that integrates Firecrawl's web scraping, searching, and browser automation capabilities into LLM clients like Cursor, Claude, and VS Code.
+  why_it_matters: It allows coding agents and IDEs to perform deep web research, scrape documentation, and interact with live pages as part of their context-gathering workflow.
+  mental_damage: We have successfully abstracted the web into a tool call, meaning your agent can now hallucinate about live URLs with absolute confidence.
   tags:
-    - context-protocol
-    - cursor
-    - firecrawl
-    - llm-tools
     - mcp
     - web-scraping
+    - cursor
+    - firecrawl
+    - context
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation, serving as infrastructure to connect Firecrawl's scraping tools to MCP-compatible clients, which fits the MCP category perfectly.
+  reason: The product's identity is explicitly an MCP server, listed in official MCP directories, designed to give LLM clients web access via the Model Context Protocol.
   evidence:
-    - Repo description confirms it is the 'Official Firecrawl MCP Server'.
-    - README details integration with Cursor, Windsurf, VS Code, and Claude via the Model Context Protocol.
-    - Topics include 'mcp-server' and 'model-context-protocol', with 6.2k stars and active development (pushed 2026-05-05).
-    - "Repo description explicitly states: 'Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.'"
-    - README confirms it is 'A Model Context Protocol (MCP) server implementation' with features like scraping URLs and interacting with pages.
-    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section, confirming its role in the MCP ecosystem.
+    - Repo description identifies it as the 'Official Firecrawl MCP Server'.
+    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - README details integration specifically with Cursor, Claude, Windsurf, and VS Code via MCP configuration.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (6221) exceeded threshold (150)
+  reason: Stars (6229) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:56.665Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.605Z"
+    updated_at: "2026-05-06T22:43:54.180Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:03.611Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

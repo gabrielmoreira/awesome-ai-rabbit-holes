@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mnlt__wellread__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: Collective research memory for AI agents
     homepage: https://www.wellread.md
     topics: []
-    last_checked_at: "2026-05-05T21:03:44.477Z"
+    last_checked_at: "2026-05-06T22:45:22.834Z"
     readme:
-      fetched_at: "2026-05-05T21:03:44.477Z"
+      fetched_at: "2026-05-06T22:45:22.834Z"
       bytes: 5265
 insights:
-  summary: An MCP server that acts as a shared semantic cache for agent research, storing verified technical answers to reduce redundant web searches and token usage across sessions.
-  why_it_matters: It drastically cuts token costs and latency for AI agents by serving previously verified research instead of forcing a fresh web search for every repeated technical query.
-  mental_damage: We have successfully built a distributed system to solve the problem of our AI assistants having the same memory holes we do.
+  summary: Collective research memory for AI agents that caches and shares technical research findings to avoid redundant web searches across sessions.
+  why_it_matters: Drastically reduces token spend and hallucination risk by surfacing prior verified research before the agent hits the web, with semantic caching and freshness-aware re-checking.
+  mental_damage: Your agent will now burn fewer tokens rediscovering the same Stack Overflow answer for the 48th time, while you wonder why we needed a distributed cache to solve what a browser bookmark used to do.
   tags:
     - mcp
     - memory
-    - agent-optimization
+    - caching
     - research
+    - token-optimization
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing a shared research memory layer for AI agents, fitting directly into the MCP infrastructure category.
+  reason: The core novelty is a shared memory and retrieval system for agents—semantic caching, freshness tracking, and research reuse—making it a context-engineering tool rather than a coding agent or thin extension.
   evidence:
-    - "Repo description states: 'Collective research memory for AI agents'."
-    - "README confirms it is an MCP server: 'npx wellread' and 'Works with any MCP client'."
-    - Listed in 'awesome-mcp-servers' under 'Knowledge & Memory' section.
+    - "Repo description: 'Collective research memory for AI agents'"
+    - "README: 'Before your agent hits the web, wellread checks what other devs already found' with semantic caching and freshness layers"
+    - Supported via MCP and best experience with Claude Code, but MCP is the adapter, not the product identity
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:44.477Z"
+    updated_at: "2026-05-06T22:45:22.834Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:35.915Z"
+    updated_at: "2026-05-06T23:15:02.480Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

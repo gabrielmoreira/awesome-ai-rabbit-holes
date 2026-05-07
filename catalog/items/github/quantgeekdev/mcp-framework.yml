@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quantgeekdev__mcp-framework__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -41,44 +41,50 @@ metadata:
       - mcp
       - modelcontextprotocol
       - typescript
-    last_checked_at: "2026-05-05T23:08:15.564Z"
+    last_checked_at: "2026-05-06T22:46:02.891Z"
     readme:
-      fetched_at: "2026-05-05T23:08:15.564Z"
+      fetched_at: "2026-05-06T22:46:02.891Z"
       bytes: 25056
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeScript framework and CLI for building Model Context Protocol (MCP) servers with automatic discovery for tools, resources, and prompts.
+  why_it_matters: It gives developers a structured, type-safe way to build and validate custom MCP servers rather than wiring protocol boilerplate by hand.
+  mental_damage: Yet another framework promising to tame the MCP ecosystem, because apparently writing a server in 2024 still requires an opinionated CLI and a fresh set of abstractions.
+  tags:
+    - mcp
+    - typescript
+    - framework
+    - cli
+    - servers
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a code-first framework and CLI that developers import and script against to build MCP servers, making it a classic fit for Frameworks & SDKs.
+  evidence:
+    - Repo description explicitly calls it 'The Typescript MCP Framework'.
+    - README highlights CLI commands (mcp create, mcp add tool) and TypeScript base classes for building servers.
+    - Featured in awesome-mcp-servers under the Frameworks section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (916) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:15.564Z"
+    updated_at: "2026-05-06T22:46:02.891Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:56.928Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

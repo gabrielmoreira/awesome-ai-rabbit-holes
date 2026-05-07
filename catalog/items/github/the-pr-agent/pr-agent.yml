@@ -6,8 +6,8 @@ identity:
   github_repo: the-pr-agent/pr-agent
 provenance:
   discoveries:
-    - id: discovery__github__qodo-ai__pr-agent__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__the-pr-agent__pr-agent__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,47 +23,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11101
+    forks: 1488
+    license: AGPL-3.0
+    archived: false
+    created_at: "2023-07-05T21:02:15Z"
+    pushed_at: "2026-05-02T20:46:03Z"
+    description: "🚀 PR Agent: The Original Open-Source PR Reviewer.  "
+    homepage: https://www.pr-agent.ai
+    topics:
+      - code-review
+      - codereview
+      - coding-assistant
+      - devtools
+      - gpt-4
+      - openai
+      - pull-request
+      - pull-requests
+    last_checked_at: "2026-05-06T22:46:45.647Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:45.647Z"
+      bytes: 12547
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source AI agent that automates pull request reviews, suggestions, and Q&A across GitHub, GitLab, Bitbucket, and Azure DevOps via CLI, GitHub Actions, or webhooks.
+  why_it_matters: It lets teams automate code reviews with customizable AI prompts and multi-model support without adopting a closed enterprise platform.
+  mental_damage: Yet another chance to discover that your AI reviewer complains about the exact lint violations you just ignored in the CI config.
+  tags:
+    - code-review
+    - ai-agent
+    - ci-cd
+    - self-hosted
+    - pull-requests
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a standalone AI coding assistant whose primary job is reviewing, improving, and answering questions about pull requests across multiple git platforms.
+  evidence:
+    - "Repo description explicitly states: 'The Original Open-Source PR Reviewer.'"
+    - README defines PR-Agent as 'an open-source, AI-powered code review agent' with /review, /improve, and /ask tools.
+    - Seen in awesome-ai-coding-tools under 'Code Review and Refactoring', matching its core identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11101) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:45.647Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:30.185Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

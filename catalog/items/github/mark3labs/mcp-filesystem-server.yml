@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mark3labs__mcp-filesystem-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) 🏎️ 🏠 - Golang implementation for local file system access."
         confidence: high
     - id: discovery__github__mark3labs__mcp-filesystem-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "-   **[mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server)** [![GitHub stars](https://img.shields.io/github/stars/mark3labs/mcp-filesystem-server?style=social)](https://github.com/mark3labs/mcp-filesystem-server): Provides local file system access (Golang implementation)."
         confidence: high
     - id: discovery__github__mark3labs__mcp-filesystem-server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -65,50 +65,50 @@ metadata:
     description: Go server implementing Model Context Protocol (MCP) for filesystem operations.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:29.726Z"
+    last_checked_at: "2026-05-06T22:45:09.018Z"
     readme:
-      fetched_at: "2026-05-05T21:03:29.726Z"
+      fetched_at: "2026-05-06T22:45:09.018Z"
       bytes: 5802
 insights:
-  summary: A Go server implementing the Model Context Protocol (MCP) that exposes local filesystem operations—like read, write, search, and directory tree—as secure, programmable tools for MCP-compatible clients.
-  why_it_matters: It lets AI agents and developer tools safely access and manipulate your local filesystem through a standardized protocol, removing the need for brittle, custom file-handling glue code.
-  mental_damage: We have successfully abstracted file I/O into yet another protocol layer, so your agent can now recursively delete your project in a way that is fully standards-compliant.
+  summary: A Go implementation of a Model Context Protocol (MCP) server that exposes local filesystem operations like read, write, search, and directory listing to MCP-compatible clients.
+  why_it_matters: It lets MCP-aware coding assistants and agents securely access and manipulate the local filesystem through a standardized protocol rather than custom integrations.
+  mental_damage: Another brick in the wall of 'standards' that turn a simple file read into a protocol handshake, while your agent still hallucinates the path.
   tags:
     - mcp
     - filesystem
     - go
+    - server
     - local-ai
-    - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for filesystem access, matching the 'MCP Servers and Tooling' category exactly.
+  reason: The product's entire identity is an MCP server for filesystem access, placing it squarely in MCP Servers & Tooling as a domain-specific server implementation.
   evidence:
-    - "Repo description states: 'Go server implementing Model Context Protocol (MCP) for filesystem operations.'"
-    - README shows explicit integration examples using the 'mcpServers' JSON configuration block for MCP clients.
-    - Listed in 'awesome-mcp-servers' and 'awesome-mcp-list' under File Systems sections, confirming its role in the MCP ecosystem.
+    - Repo description explicitly states 'Go server implementing Model Context Protocol (MCP) for filesystem operations.'
+    - README documents MCP resources and tools (read_file, write_file, search_files, etc.) designed for MCP client integration.
+    - Included in awesome-mcp-list and awesome-mcp-servers under File Systems sections, confirming its role as an MCP ecosystem component.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (640) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.578Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:29.726Z"
+    updated_at: "2026-05-06T22:45:09.018Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:46.044Z"
+    updated_at: "2026-05-06T23:11:52.347Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

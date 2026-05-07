@@ -6,8 +6,8 @@ identity:
   github_repo: mozilla-ai/llamafile
 provenance:
   discoveries:
-    - id: discovery__github__mozilla-ocho__llamafile__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__mozilla-ai__llamafile__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 24376
-    forks: 1348
+    stars: 24389
+    forks: 1349
     license: NOASSERTION
     archived: false
     created_at: "2023-09-10T21:12:32Z"
@@ -41,53 +41,50 @@ metadata:
       - open-source-ai
       - single-file-executable
       - speech-to-text
-    last_checked_at: "2026-05-05T21:03:47.815Z"
+    last_checked_at: "2026-05-06T22:45:25.919Z"
     readme:
-      fetched_at: "2026-05-05T21:03:47.815Z"
+      fetched_at: "2026-05-06T22:45:25.919Z"
       bytes: 5534
 insights:
-  summary: llamafile packages LLMs and speech-to-text models into a single executable file that runs locally on most operating systems and CPU architectures without installation.
-  why_it_matters: It collapses the complexity of local AI setup into a portable binary, letting developers run and distribute open models directly from the command line.
-  mental_damage: You now have no excuse not to run a local model, yet somehow still find yourself pasting secrets into a chat window with 400ms latency hosted three time zones away.
+  summary: llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures.
+  why_it_matters: It enables developers to run open-weight models locally with zero setup, making private, offline AI inference trivial to distribute and test against.
+  mental_damage: You now have no excuse not to run a local model, yet somehow still find yourself pasting secrets into a web UI while a 4GB executable sits chmod +x on your desktop.
   tags:
-    - inference
-    - llm
     - local-ai
-    - offline
+    - llm
     - single-binary
-    - single-file
+    - offline
+    - inference
   confidence: high
 curation:
   status: included
-  reason: llamafile is a local model runtime and distribution tool that lets developers run LLMs offline via a single executable, fitting squarely into Local AI.
+  reason: The product's core identity is a local runtime that collapses LLM inference into a single executable, fitting squarely into Local AI tooling for developers.
   evidence:
     - "Repo description states: 'Distribute and run LLMs with a single file.'"
-    - README explains it combines llama.cpp with Cosmopolitan Libc to create a single-file executable for local inference on most OSes and CPUs.
-    - Topics include local-ai, local-inference, and local-llm, and the tool bundles whisper.cpp for local speech-to-text.
-    - README explains it combines llama.cpp with Cosmopolitan Libc to create a single-file executable for local LLM inference across most OSes.
-    - Listed under 'Local LLM Tools' in the awesome-ai-coding-tools directory.
+    - README explains it combines llama.cpp with Cosmopolitan Libc to create a single-file executable with no installation.
+    - Source list 'awesome-ai-coding-tools' catalogs it under 'Local LLM Tools'.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
-  reason: Stars (24376) exceeded threshold (150)
+  reason: Stars (24389) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:14.989Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:47.815Z"
+    updated_at: "2026-05-06T22:45:25.919Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:47.010Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

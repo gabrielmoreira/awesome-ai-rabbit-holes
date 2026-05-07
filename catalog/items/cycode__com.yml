@@ -1,0 +1,77 @@
+id: cycode__com
+kind: website
+name: cycode.com
+canonical_url: https://cycode.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cycode__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Cycode
+        extracted_url: https://cycode.com
+        surrounding_text: "- **[Cycode](https://github.com/cycodehq/cycode-cli#mcp-command-experiment)** - Boost security in your dev lifecycle via SAST, SCA, Secrets & IaC scanning with [Cycode](https://cycode.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Cycode is an enterprise application security platform that secures the software development lifecycle from code to runtime, featuring AI-native scanning, governance, and an MCP server for integrating security into AI coding workflows.
+  why_it_matters: It provides the governance, guardrails, and vulnerability remediation needed to safely use AI coding assistants at scale without blowing up your attack surface.
+  mental_damage: Now your security team can finally keep up with your 10x AI-generated code velocity, provided they finish configuring the 100+ connectors before the next prompt-to-prod deploy.
+  tags:
+    - security
+    - aspm
+    - mcp
+    - devsecops
+    - agentic
+  confidence: medium
+curation:
+  status: included
+  reason: While primarily an Application Security platform, it explicitly offers a dedicated MCP Server to secure AI vibe coding workflows, making it a fit for the MCP Domain Servers section.
+  evidence:
+    - Source list context identifies it in 'awesome-mcp-servers' under 'Official Servers'.
+    - "Scraped site context highlights 'Introducing Cycode’s MCP Server: Secure AI Vibe Coding Workflows, Built-In'."
+    - The platform provides AI governance and guardrails specifically for AI coding assistants and the ADLC.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:52.718Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

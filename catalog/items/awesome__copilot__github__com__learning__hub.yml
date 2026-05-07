@@ -1,12 +1,12 @@
 id: awesome__copilot__github__com__learning__hub
 kind: website
-name: Learning Hub
+name: learning-hub
 canonical_url: https://awesome-copilot.github.com/learning-hub
 identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__learning__hub__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated hub of articles, walkthroughs, and reference material for mastering GitHub Copilot's advanced features like agents, skills, and custom instructions.
-  why_it_matters: It provides the missing manual for developers trying to graduate from basic tab-completion to orchestrating custom agents and workflows within Copilot.
-  mental_damage: Finally, a documentation site to help you figure out why your 'Agentic Workflow' is just a very expensive way to generate YAML files you don't understand.
+  summary: A curated hub of articles, walkthroughs, and reference materials for mastering GitHub Copilot customization, including agents, skills, and instructions.
+  why_it_matters: It provides a structured learning path and cookbook for developers looking to move beyond default Copilot usage into custom agents and complex workflows.
+  mental_damage: Just when you thought the code was writing itself, you now need a dedicated study guide to teach the AI how to read the manual you haven't finished writing.
   tags:
-    - agents
-    - docs
-    - github-copilot
+    - copilot
     - learning
+    - docs
+    - skills
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory/meta-list of resources and tutorials for GitHub Copilot, making it a navigation aid for developers rather than a standalone tool or assistant.
+  status: excluded
+  reason: This is purely documentation and a learning resource hub, not a standalone developer tool, extension, or product.
   evidence:
-    - Source list context identifies this as a 'curated list' and 'awesome-copilot' resource.
-    - Scraped site context describes 'Curated articles, walkthroughs, and reference material'.
-    - The page structure is a list of links to Fundamentals, Reference, and Hands-on Cookbooks, not a tool execution environment.
+    - Primary page excerpt describes 'Curated articles, walkthroughs, and reference material' rather than executable tooling.
+    - Source list context confirms it is a 'Community-contributed instructions, agents, skills' hub, effectively a documentation site.
+    - No code, CLI, SDK, or runnable product identity is present in the inputs.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:15.707Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:23.273Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

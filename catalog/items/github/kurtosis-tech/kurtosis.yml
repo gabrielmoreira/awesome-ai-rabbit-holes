@@ -1,13 +1,13 @@
 id: github__kurtosis-tech__kurtosis
 kind: github-repo
-name: Kurtosis
+name: kurtosis
 canonical_url: https://github.com/kurtosis-tech/kurtosis
 identity:
   github_repo: kurtosis-tech/kurtosis
 provenance:
   discoveries:
     - id: discovery__github__kurtosis-tech__kurtosis__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -47,50 +47,50 @@ metadata:
       - kubernetes
       - networks
       - prototyping
-    last_checked_at: "2026-05-05T21:03:13.655Z"
+    last_checked_at: "2026-05-06T22:44:52.117Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.655Z"
+      fetched_at: "2026-05-06T22:44:52.117Z"
       bytes: 24511
 insights:
-  summary: A container orchestration platform and packaging system for spinning up ephemeral backend stacks on Docker or Kubernetes, with Claude Code skills for managing enclaves and services.
-  why_it_matters: It lets developers reuse complex stack definitions across local dev, CI, and cluster testing with one-liner launches instead of glue scripts and YAML sprawl.
-  mental_damage: Now you can orchestrate multi-service ephemeral environments with Starlark packages and Claude Code skills, because plain Docker Compose clearly wasn’t enough abstraction for a Tuesday.
+  summary: Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments.
+  why_it_matters: It lets developers and AI agents reproducibly spin up complex dev and test stacks with one-liner commands, bridging local prototyping and CI testing.
+  mental_damage: We’ve successfully abstracted Docker Compose into a platform so that your coding agent can debug a Redis voting app enclave while you wonder what layer of the stack is actually yours.
   tags:
-    - claude-code
     - devops
-    - docker
-    - infrastructure
-    - orchestration
+    - infra
+    - claude-skills
+    - containers
+    - testing
   confidence: high
 curation:
   status: included
-  reason: The repository’s primary inclusion hook is a structured set of Claude Code skills for building, debugging, and managing Kurtosis enclaves, making it a reusable skill pack rather than a standalone coding agent or general DevOps tool.
+  reason: The repository includes a comprehensive set of structured Claude Code skills for building, debugging, and managing Kurtosis enclaves, making it a reusable skill pack for a coding tool.
   evidence:
-    - The README explicitly documents 20+ Claude Code skills in a skills/ directory for enclave, cluster, Docker, and Kubernetes workflows.
-    - Repo description positions it as 'Docker Compose for blockchain,' but the skills layer is the developer-facing AI integration.
-    - Appears in Awesome-LLMOps under IDEs and Workspaces, reinforcing its relevance to AI-assisted developer workflows.
+    - README explicitly includes a 'Claude Code Skills' section with 21 structured skills in the skills/ directory.
+    - Skills cover operational workflows like docker-debug, k8s-debug-pods, and run-package for Kurtosis environments.
+    - Primary product is Kurtosis infra platform, but the skills pack is the clear developer-facing AI artifact for this catalog.
 placement:
   primary_category: skills
-  section: null
+  section: Domain & Workflow Skill Packs
 lifecycle:
   status: promotion_candidate
   reason: Stars (539) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:37.845Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.655Z"
+    updated_at: "2026-05-06T22:44:52.117Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:02.327Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

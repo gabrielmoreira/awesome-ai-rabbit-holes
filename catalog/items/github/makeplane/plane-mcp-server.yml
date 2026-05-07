@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__makeplane__plane-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,49 +34,49 @@ metadata:
     topics:
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:03:28.039Z"
+    last_checked_at: "2026-05-06T22:45:07.140Z"
     readme:
-      fetched_at: "2026-05-05T21:03:28.039Z"
+      fetched_at: "2026-05-06T22:45:07.140Z"
       bytes: 13727
 insights:
-  summary: The official Model Context Protocol server for Plane, enabling AI agents to interact with Plane's project management APIs via stdio, SSE, and HTTP transports.
-  why_it_matters: It lets developers connect coding agents directly to their Plane workspace to read and manipulate issues, cycles, and modules without leaving the agent context.
-  mental_damage: "We have finally achieved the platonic ideal of modern productivity: an integration layer that lets your AI agent update a ticket in a tool you were already ignoring."
+  summary: Plane's official MCP server that exposes Plane project management APIs as tools and resources for AI agents via stdio, SSE, and streamable HTTP transports.
+  why_it_matters: It lets coding agents and MCP-compatible clients directly read and manipulate Plane issues, cycles, and projects without leaving the agent context.
+  mental_damage: Yet another official MCP server so your agent can argue with your project board instead of just writing the code.
   tags:
     - mcp
     - plane
     - project-management
-    - integration
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation with multiple transports and official status, which cleanly fits the MCP Servers and Tooling category.
+  reason: "This is MCP infrastructure first: an official server that exposes Plane as an MCP endpoint, fitting cleanly as a domain-specific MCP server."
   evidence:
-    - "Repo description explicitly states: 'Plane's Official Model Context Protocol Server'."
-    - README details stdio, SSE, and streamable HTTP transports specifically for MCP client integration.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - "Repo description: 'Plane's Official Model Context Protocol Server'"
+    - "README: provides MCP tools and resources for interacting with Plane through AI agents via stdio, SSE, and HTTP transports"
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (212) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:28.039Z"
+    updated_at: "2026-05-06T22:45:07.140Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:22.810Z"
+    updated_at: "2026-05-06T23:11:22.889Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

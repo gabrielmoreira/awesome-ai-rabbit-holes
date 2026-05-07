@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gpartin__waveguardclient__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,50 +40,49 @@ metadata:
       - mcp-server
       - python
       - sdk
-    last_checked_at: "2026-05-05T21:02:26.045Z"
+    last_checked_at: "2026-05-06T22:44:06.438Z"
     readme:
-      fetched_at: "2026-05-05T21:02:26.045Z"
+      fetched_at: "2026-05-06T22:44:06.438Z"
       bytes: 15545
 insights:
-  summary: A Python SDK and MCP server for the WaveGuard API, providing physics-based anomaly detection for any data type via a single stateless API call.
-  why_it_matters: It gives developers a zero-config, ML-free anomaly detection endpoint that can be hooked into AI agents via MCP or used directly in Python to monitor metrics, logs, and transactions.
-  mental_damage: Another glorious day where we abandon trained models for GPU-powered wave simulations, because apparently the only thing missing from your alerting pipeline was solving coupled wave equations on a 64³ lattice.
+  summary: A Python SDK and MCP server for the WaveGuard API, providing stateless, physics-based anomaly detection for any data type via a single API call.
+  why_it_matters: It offers developers a zero-config alternative to ML-based anomaly detection that requires no training pipelines, model management, or data science expertise.
+  mental_damage: "Wave physics is the new 'blockchain': the perfect excuse to avoid writing a single sklearn import while still claiming you solved anomaly detection."
   tags:
     - anomaly-detection
     - mcp-server
-    - sdk
-    - python
-    - physics-based
+    - python-sdk
+    - api-client
   confidence: medium
 curation:
   status: included
-  reason: The project distributes an MCP server for Claude Desktop alongside a Python SDK, clearly fitting the MCP servers and tooling category rather than a generic data science library.
+  reason: It is primarily a code-first Python SDK and provider client for a specific API, placing it firmly in Frameworks & SDKs rather than orchestration or MCP infrastructure.
   evidence:
-    - Repo description states it is a 'Python SDK for WaveGuard physics-based anomaly detection API' with the mcp-server topic.
-    - README explicitly includes 'MCP / Claude' integration and displays an MCP badge linking to Smithery.
-    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its role as an MCP implementation.
+    - Repo description explicitly states 'Python SDK for WaveGuard ... API'
+    - README positions it as a client library with quickstart examples for pip install and API calls
+    - MCP is listed as a compatibility feature ('MCP / Claude') rather than the core product identity
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:26.045Z"
+    updated_at: "2026-05-06T22:44:06.438Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:35.791Z"
+    updated_at: "2026-05-06T22:58:32.810Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

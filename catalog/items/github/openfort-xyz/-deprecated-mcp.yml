@@ -1,13 +1,13 @@
 id: github__openfort-xyz__-deprecated-mcp
 kind: github-repo
-name: Openfort
+name: "-deprecated-mcp"
 canonical_url: https://github.com/openfort-xyz/-deprecated-mcp
 identity:
   github_repo: openfort-xyz/-deprecated-mcp
 provenance:
   discoveries:
-    - id: discovery__github__openfort-xyz__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__openfort-xyz__-deprecated-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,32 +32,27 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:05.867Z"
+    last_checked_at: "2026-05-06T22:45:42.661Z"
     readme:
-      fetched_at: "2026-05-05T21:04:05.867Z"
+      fetched_at: "2026-05-06T22:45:42.661Z"
       bytes: 7532
 insights:
-  summary: An archived MCP server that lets AI assistants like Cursor, Windsurf, and VS Code Copilot create and manage projects on Openfort's wallet and authentication infrastructure.
-  why_it_matters: It allows developers to scaffold apps and manage Openfort resources directly through chat in their IDE instead of context-switching to dashboards.
-  mental_damage: Another niche MCP server joins the pile, proving that the future of development is explaining your wallet infrastructure to a chatbot that forgets it has tools.
+  summary: An archived MCP server that enabled AI assistants to create projects, manage configurations, and interact with Openfort's wallet and authentication infrastructure.
+  why_it_matters: It allowed developers to scaffold apps and manage Openfort resources directly from chat interfaces like Cursor, Windsurf, and Claude Desktop.
+  mental_damage: Another MCP server abandoned to the digital graveyard less than two months after its grand debut, proving that even infrastructure for wallet authentication isn't safe from the rapid churn of the AI tooling ecosystem.
   tags:
-    - editor-integration
-    - ide-integration
-    - infrastructure
     - mcp
     - openfort
     - wallet-infrastructure
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and was created in July 2025 with only 4 stars, indicating it is a discontinued or deprecated experiment rather than a living tool.
+  reason: The repository is explicitly archived and the name itself contains '-deprecated-mcp', signaling it is no longer maintained or recommended for use.
   evidence:
-    - "Archived: yes"
-    - "Created at: 2025-07-22, Stars: 4"
-    - Repo name includes '-deprecated-mcp'
-    - Repo is marked as archived, indicating it is no longer maintained.
-    - Created in July 2025 with only 4 stars, showing negligible ecosystem traction.
-    - Appears in awesome-mcp-servers but the repo itself is a dead integration for a single vendor's platform.
+    - Repository name includes '-deprecated-mcp' and the repo is marked as archived.
+    - Created on 2025-07-22 and already archived, indicating a very short lifespan.
+    - README describes an Openfort MCP server, but the project is defunct.
 placement:
   primary_category: null
   section: null
@@ -65,21 +60,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:44.296Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:05.867Z"
+    updated_at: "2026-05-06T22:45:42.661Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:38.386Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

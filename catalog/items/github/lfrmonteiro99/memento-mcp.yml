@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lfrmonteiro99__memento-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Persistent memory MCP server with typed memories, decay scoring, and token-aware context injection
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:19.194Z"
+    last_checked_at: "2026-05-06T22:44:58.245Z"
     readme:
-      fetched_at: "2026-05-05T21:03:19.194Z"
+      fetched_at: "2026-05-06T22:44:58.245Z"
       bytes: 18917
 insights:
-  summary: A local-first MCP server that provides persistent, typed memory and token-aware context injection for AI coding agents using a SQLite-backed knowledge store.
-  why_it_matters: It allows coding agents like Claude Code and Cursor to retain architectural decisions, conventions, and pitfalls across sessions, reducing the need to re-explain project context and burn tokens.
-  mental_damage: We have finally solved the 'AI forgets why we did it that way' problem by adding a database to remember the things we originally wrote down in markdown files that the AI also forgot.
+  summary: A local-first MCP server that provides persistent, typed memory and token-aware context injection for AI coding agents like Claude Code, Cursor, and Codex.
+  why_it_matters: It eliminates the repetitive token cost and friction of re-explaining project decisions, conventions, and pitfalls to AI agents across sessions.
+  mental_damage: We have successfully engineered a sophisticated persistence layer dedicated to remembering why we chose a specific ORM, so the AI can forget it with even more enterprise-grade efficiency.
   tags:
     - mcp
     - memory
     - context
     - local-first
-    - coding-agent
+    - token-optimization
   confidence: high
 curation:
   status: included
-  reason: The project is a specialized MCP server providing memory infrastructure, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is explicitly an MCP server providing memory infrastructure, fitting the MCP Servers & Tooling category over a generic extension label.
   evidence:
-    - Repo description explicitly defines it as a 'Persistent memory MCP server'.
-    - README states it is a 'local-first MCP server' that integrates with Claude Code, Codex, and Cursor via stdio-MCP.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description identifies it as a 'Persistent memory MCP server'.
+    - README states it is 'A local-first MCP server that gives Claude Code, Codex, Cursor, and any stdio-MCP client durable project memory'.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:19.194Z"
+    updated_at: "2026-05-06T22:44:58.245Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:46.341Z"
+    updated_at: "2026-05-06T23:09:18.968Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

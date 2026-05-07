@@ -1,13 +1,13 @@
 id: github__safellama__plexiglass
 kind: github-repo
-name: Plexiglass
+name: plexiglass
 canonical_url: https://github.com/safellama/plexiglass
 identity:
   github_repo: safellama/plexiglass
 provenance:
   discoveries:
-    - id: discovery__github__kortex-labs__plexiglass__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__safellama__plexiglass__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,50 +40,49 @@ metadata:
       - deep-neural-networks
       - machine-learning
       - security
-    last_checked_at: "2026-05-05T21:03:07.986Z"
+    last_checked_at: "2026-05-06T22:46:15.593Z"
     readme:
-      fetched_at: "2026-05-05T21:03:07.986Z"
+      fetched_at: "2026-05-06T22:46:15.593Z"
       bytes: 2730
 insights:
-  summary: A CLI toolkit for testing LLMs against adversarial attacks like prompt injection and jailbreaking, while benchmarking models for security, bias, and toxicity.
-  why_it_matters: It gives developers a command-line workflow to scan and benchmark their LLM deployments for vulnerabilities before shipping them to production.
-  mental_damage: Finally, a tool to scientifically prove that your carefully aligned model will still tell users how to build a meth lab if they just ask nicely enough.
+  summary: A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking.
+  why_it_matters: It lets developers benchmark and harden their LLM integrations against security, bias, and toxicity risks using real-world adversarial datasets.
+  mental_damage: Because what your pipeline really needed at 4 PM on a Friday was a dedicated scanner to confirm that your 'secure' model can indeed be jailbroken by a teenager on Reddit.
   tags:
-    - adversarial-attacks
-    - benchmarking
-    - cli
-    - evals
     - llm-security
+    - cli-tool
+    - benchmarking
+    - adversarial-testing
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing CLI and framework for benchmarking and evaluating LLM security, safety, and toxicity, which fits the Evaluations and Benchmarks category.
+  reason: The core job is measuring and benchmarking model behavior against security, bias, and toxicity vulnerabilities, which aligns with the Evals category.
   evidence:
-    - Repo description explicitly states it is a 'toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs)'
-    - README defines 'llm-scan' mode as running benchmarks to 'identify and assess various vulnerabilities' and 'llm-chat' for measuring metrics like toxicity.
-    - Listed under 'Awesome-LLMOps' in the 'Security > Frameworks for LLM security' section.
+    - Repo description states it is 'A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs).'
+    - README describes 'llm-scan' mode for benchmarking security/bias/toxicity using open-source adversarial datasets.
+    - Listed in Awesome-LLMOps under 'Security > Frameworks for LLM security', reinforcing its eval/security tooling identity.
 placement:
   primary_category: evals
-  section: null
+  section: Safety / Fairness / Data Quality
 lifecycle:
   status: promotion_candidate
   reason: Stars (154) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:17.920Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:07.986Z"
+    updated_at: "2026-05-06T22:46:15.593Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:45.093Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

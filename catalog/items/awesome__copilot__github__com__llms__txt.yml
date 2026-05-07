@@ -1,12 +1,12 @@
 id: awesome__copilot__github__com__llms__txt
 kind: website
-name: "`llms.txt`"
+name: llms.txt
 canonical_url: https://awesome-copilot.github.com/llms.txt
 identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__llms__txt__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-driven hub of custom agents, instructions, skills, and learning resources designed to extend and customize GitHub Copilot across various domains and workflows.
-  why_it_matters: It provides developers with reusable configurations and specialized personas that allow Copilot to handle specific tasks like Azure IaC, accessibility testing, and .NET upgrades without starting from scratch.
-  mental_damage: You can now procrastinate on actual coding by spending three hours selecting the perfect combination of agents, skills, and instructions to automate a five-minute task.
+  summary: A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs.
+  why_it_matters: It gives developers a ready-made library of reusable Copilot behaviors and governance patterns instead of prompting them to reinvent domain-specific assistants from scratch.
+  mental_damage: We have now reached the point where we need a curated list of curated instruction files just to keep our AI assistants from forgetting which cloud provider we are using this sprint.
   tags:
-    - agents
-    - extensions
-    - github-copilot
-    - mcp
+    - copilot
     - skills
+    - directory
+    - agents
+    - github
   confidence: high
 curation:
   status: included
-  reason: The project is a collection of extensions (agents, skills, instructions) specifically designed to augment GitHub Copilot, fitting the definition of AI Developer Extensions and Skills.
+  reason: This is a curated directory and learning hub for Copilot customization assets, which fits the navigation/discovery role of the awesome-awesomes category.
   evidence:
-    - README states it provides 'custom agents, instructions, and skills to enhance GitHub Copilot experiences'.
-    - Includes specialized agents for Azure IaC, .NET, and accessibility that plug into the Copilot workflow.
-    - Listed in the 'awesome-copilot' source list as a companion resource for customization.
+    - Source lists classify it under awesome-copilot as a collection of instructions, agents, and skills.
+    - README describes it explicitly as 'a community-driven collection of custom agents, instructions, and skills'.
+    - The site surfaces a Learning Hub and categorized agent/skill listings rather than a standalone product.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:15.776Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:26.309Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__baskcart__w3ledger-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:17.793Z"
+    last_checked_at: "2026-05-06T22:12:50.019Z"
     readme:
-      fetched_at: "2026-05-05T21:01:17.793Z"
+      fetched_at: "2026-05-06T22:12:50.019Z"
       bytes: 7048
 insights:
-  summary: An MCP server that enables AI agents to interact with a self-verifying ledger for checking token balances, creating gift cards, and processing dual-signed purchases via cryptographic signatures.
-  why_it_matters: Developers building AI agents that handle financial transactions can integrate ledger capabilities with signature verification directly into Claude Desktop, Cursor, or VS Code without building custom blockchain infrastructure.
-  mental_damage: We have officially reached the point where AI agents need their own cryptographically secured economies, complete with loyalty tiers and cashback rates, to prevent them from improvising unauthorized gift cards.
+  summary: An MCP server that exposes W3Ledger token operations—balance checks, gift cards, sponsor cards, and dual-signed purchases—to AI agents via Claude Desktop, Cursor, and VS Code.
+  why_it_matters: Developers building agentic workflows can let assistants handle crypto-native commerce and loyalty programs without wiring custom API clients or reinventing signature verification.
+  mental_damage: We have reached the point where your AI agent needs a cryptographically signed gift card and a post-quantum wallet just to buy a VR session on your behalf.
   tags:
     - mcp
-    - ledger
-    - blockchain
-    - ai-agents
-    - payments
+    - crypto
+    - finance
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation that integrates with the W3Ledger API, fitting directly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that adds finance and crypto ledger tooling for agents, making it a textbook fit for MCP Servers & Tooling under Domain Servers.
   evidence:
-    - README explicitly states this is an 'MCP (Model Context Protocol) server' with stdio transport configuration for Claude Desktop, Cursor, and VS Code.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' section.
-    - Provides MCP tool definitions (check_balance, create_gift_card, purchase_product) and uses npx for distribution as an MCP server package.
+    - README explicitly states it is 'an MCP (Model Context Protocol) server' with stdio configs for Claude Desktop, Cursor, and VS Code.
+    - Included in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+    - "Tool surface is clearly domain-specific: check_balance, create_gift_card, claim_sponsor_card, purchase_product with dual signatures."
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:17.793Z"
+    updated_at: "2026-05-06T22:12:50.019Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:21.005Z"
+    updated_at: "2026-05-06T22:23:43.658Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

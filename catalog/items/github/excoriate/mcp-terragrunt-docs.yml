@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__excoriate__mcp-terragrunt-docs__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,50 @@ metadata:
     description: Deno/TypeScript MCP Server providing context related to Terragrunt documentation.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:06.319Z"
+    last_checked_at: "2026-05-06T22:43:49.518Z"
     readme:
-      fetched_at: "2026-05-05T21:02:06.319Z"
+      fetched_at: "2026-05-06T22:43:49.518Z"
       bytes: 7399
 insights:
-  summary: A Model Context Protocol server built with Deno and TypeScript that provides AI agents with real-time access to Terragrunt documentation and GitHub issues.
-  why_it_matters: It solves the poor IDE support for Terragrunt by feeding LLMs accurate, up-to-date documentation and issue context instead of relying on hallucination-prone training data.
-  mental_damage: We have successfully abstracted infrastructure definitions to the point where we now need a dedicated protocol server just to ask an AI what a configuration block does.
+  summary: A Deno/TypeScript MCP server that exposes Terragrunt documentation and GitHub issues as tools and resources for AI assistants.
+  why_it_matters: It gives LLMs live access to Terragrunt docs and open issues, reducing incorrect autocompletion and false-positive linting when writing IaC configurations.
+  mental_damage: You now have a dedicated MCP server to teach your AI assistant the nuances of Terragrunt, because apparently the complexity of infrastructure-as-code requires a dedicated context pipeline just to keep the hallucinations marginally accurate.
   tags:
     - mcp
     - terragrunt
-    - devops
-    - context-engineering
+    - iac
+    - docs
+    - deno
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing Terragrunt documentation context, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product's explicit identity is an MCP server providing Terragrunt documentation context, fitting squarely as a domain-specific MCP server.
   evidence:
     - Repo description states it is a 'Deno/TypeScript MCP Server providing context related to Terragrunt documentation.'
-    - README confirms it 'acts as an MCP provider, exposing tools and resources' for Terragrunt docs and GitHub issues.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - README confirms it is 'A Model Context Protocol (MCP) server... designed to provide contextual information related to Terragrunt.'
+    - Listed in the awesome-mcp-servers directory under 'Community Servers' for the Terragrunt domain.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:06.319Z"
+    updated_at: "2026-05-06T22:43:49.518Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:44.515Z"
+    updated_at: "2026-05-06T22:55:09.324Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__redis__mcp-redis-cloud__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 38
+    forks: 22
+    license: MIT
+    archived: false
+    created_at: "2025-03-28T10:18:18Z"
+    pushed_at: "2025-05-05T06:09:05Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:07.831Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:07.831Z"
+      bytes: 6663
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An official MCP server from Redis that exposes Redis Cloud API capabilities—account, subscription, database, and task management—to MCP clients like Claude Desktop and Cursor.
+  why_it_matters: It lets developers manage Redis Cloud infrastructure through natural language in their AI coding environments instead of switching to dashboards or CLI tools.
+  mental_damage: We have successfully reached the point where we need a standardized protocol just to ask a chatbot to provision a database in the cloud.
+  tags:
+    - mcp
+    - redis
+    - cloud
+    - infrastructure
+    - integrations
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a purpose-built MCP server that exposes Redis Cloud API operations to MCP clients, making MCP its primary product identity.
+  evidence:
+    - Repo name is mcp-redis-cloud and README explicitly describes it as 'an MCP Server for Redis Cloud's API'.
+    - Usage instructions are provided for Claude Desktop and Cursor IDE as MCP server integrations.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:07.831Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:05.747Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

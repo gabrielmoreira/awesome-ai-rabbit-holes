@@ -1,12 +1,12 @@
 id: stitch__withgoogle__com
 kind: website
-name: Stitch (Google)
+name: stitch.withgoogle.com
 canonical_url: https://stitch.withgoogle.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__stitch__withgoogle__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Stitch is a browser-based AI tool from Google that generates UI designs and frontend code for mobile and web applications from text prompts.
-  why_it_matters: It allows developers and designers to rapidly prototype application interfaces and frontends directly from ideas without starting from a blank canvas.
-  mental_damage: Just when you thought you had the 'vibe coding' workflow figured out, Google releases a tool that turns your vague prompt into a UI that you will now spend four hours refactoring to actually work.
+  summary: Stitch is a Google AI experiment that generates mobile and web UI designs from prompts or images to accelerate design ideation.
+  why_it_matters: It provides developers and designers with a rapid way to jumpstart UI scaffolding before diving into hand-coding or design tools.
+  mental_damage: Another tool to generate mockups that look great in the demo but will inevitably be rewritten from scratch when the developer realizes CSS is still a thing.
   tags:
-    - frontend
-    - google
-    - prototyping
     - ui-generation
+    - design-ideation
+    - google-ai
+    - frontend
   confidence: high
 curation:
   status: included
-  reason: As a browser-first SaaS that generates UIs and code from prompts, it fits the app-builders category for rapid prototyping rather than a repo-based coding agent.
+  reason: The product converts prompts into UI designs and application layouts rather than editing an existing codebase, fitting the prompt-to-site builder profile.
   evidence:
-    - Scraped site title and description confirm it 'generates UIs for mobile and web applications' via AI.
-    - Source-list context places it under 'UI Generators' in awesome-ai-coding-tools.
-    - The product is a hosted browser experience (stitch.withgoogle.com), not an IDE plugin or CLI agent.
+    - Scraped site description states 'Stitch generates UIs for mobile and web applications, making design ideation fast and easy.'
+    - Listed in awesome-ai-coding-tools under the 'UI Generators' section.
+    - Product identity is turning prompts/images into frontend designs, not repo-level coding assistance.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-Site Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:21.097Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:07.842Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahmetsbilgin__finbrain-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: "FinBrain MCP server: expose FinBrain datasets to AI agents (Claude, VSCode etc.) via SDK-first tools. Runs locally with each user's own FinBrain API key."
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:54.082Z"
+    last_checked_at: "2026-05-06T22:12:29.144Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.082Z"
+      fetched_at: "2026-05-06T22:12:29.144Z"
       bytes: 11965
 insights:
-  summary: A local MCP server that exposes FinBrain financial datasets—including price predictions, sentiment analysis, and alternative data—to AI clients like Claude Desktop and VS Code via a Python SDK.
-  why_it_matters: It lets developers pipe structured financial intelligence directly into their AI-assisted coding workflows without building custom API integrations.
-  mental_damage: You can now prompt your coding agent to day-trade based on Reddit mentions and congressional disclosures while it debugs your unit tests.
+  summary: A local MCP server that exposes FinBrain financial datasets, including price predictions, sentiment analysis, and alternative data, to AI clients like Claude Desktop and VS Code.
+  why_it_matters: Developers building finance-focused agents can integrate comprehensive market data and predictions directly into their AI workflow without building custom API wrappers.
+  mental_damage: We have successfully abstracted the abstractors, creating a specialized MCP server so your AI can tell you why Reddit hates your portfolio in real-time.
   tags:
     - mcp
     - finance
+    - data
     - local-server
-    - python
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that integrates external financial data into the Model Context Protocol ecosystem for developer tools.
+  reason: The product is explicitly an MCP server designed to expose a specific domain's data (finance) to AI agents, fitting the Domain Servers section perfectly.
   evidence:
-    - Repo description explicitly states it is a 'FinBrain MCP server' exposing datasets to AI agents via SDK-first tools.
-    - README details a local MCP server with multiple financial data tools like predictions, sentiment, and insider trading data.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Repo description confirms it is a 'FinBrain MCP server' exposing datasets to AI agents.
+    - README lists specific MCP tools like `predictions_by_ticker` and `reddit_mentions_by_ticker`.
+    - Found in the 'awesome-mcp-servers' list under the Finance & Fintech section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.082Z"
+    updated_at: "2026-05-06T22:12:29.144Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:38.075Z"
+    updated_at: "2026-05-06T22:19:28.977Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

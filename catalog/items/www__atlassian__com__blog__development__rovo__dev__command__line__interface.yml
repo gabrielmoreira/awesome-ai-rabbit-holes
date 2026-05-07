@@ -1,12 +1,12 @@
 id: www__atlassian__com__blog__development__rovo__dev__command__line__interface
 kind: website
-name: Rovo Dev (Atlassian)
+name: rovo-dev-command-line-interface
 canonical_url: https://www.atlassian.com/blog/development/rovo-dev-command-line-interface
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rovo Dev CLI is an enterprise-focused AI coding agent from Atlassian that operates in the terminal to understand codebases, assist with development tasks, and integrate with the Atlassian ecosystem including Jira and Bitbucket.
-  why_it_matters: It brings agentic coding assistance directly into the terminal while deeply integrating with Jira, Confluence, and Bitbucket to reduce context switching for teams already embedded in the Atlassian workflow.
-  mental_damage: Another day, another terminal agent claiming to be your intelligent partner, just waiting to argue with you about the best way to migrate that legacy service you were finally going to tackle manually.
+  summary: "Rovo Dev CLI is an enterprise-focused AI coding agent from Atlassian that runs in the terminal, integrates with Jira, Confluence, and Bitbucket, and scores #1 on the SWE-bench full benchmark."
+  why_it_matters: It offers terminal-native repo work backed by enterprise permission controls, Atlassian ecosystem integration, and a top-tier SWE-bench score for real-world issue resolution.
+  mental_damage: You can now watch a corporate AI agent with memory files and role-based permissions refactor your code while politely updating Jira tickets you were hoping to ignore.
   tags:
-    - atlassian
     - cli
-    - code-assistant
+    - coding-agent
+    - atlassian
+    - swe-bench
     - enterprise
-    - terminal
   confidence: high
 curation:
   status: included
-  reason: The product is a developer-facing coding agent that directly plans, writes, edits, and debugs code inside the CLI workflow, fitting the coding-agents category definition.
+  reason: The product is a standalone AI coding agent that runs in the terminal, reads and edits code, and coordinates repo work, matching the coding-agents identity rather than an extension or integration layer.
   evidence:
-    - Source list context shows it is listed under 'Coding Agents' in awesome-ai-coding-tools.
-    - Scraped site context describes it as 'an intelligent development agent that understands, codes, and collaborates with you' in the terminal.
-    - The excerpt highlights features like code understanding, AI-assisted completion, refactoring, and debugging directly in the CLI.
+    - "Blog states: 'Rovo Dev CLI turns your command line into an intelligent development agent that understands, codes, and collaborates with you.'"
+    - Capabilities include code understanding, AI-assisted completion, refactoring, testing, debugging, and repo editing directly in the terminal.
+    - "Achieves #1 on SWE-bench full benchmark and integrates with Jira, Confluence, and Bitbucket as part of its core workflow."
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:42.514Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:52.170Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

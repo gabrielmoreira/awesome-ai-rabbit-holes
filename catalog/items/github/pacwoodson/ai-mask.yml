@@ -1,13 +1,13 @@
 id: github__pacwoodson__ai-mask
 kind: github-repo
-name: AI-Mask
+name: ai-mask
 canonical_url: https://github.com/pacwoodson/ai-mask
 identity:
   github_repo: pacwoodson/ai-mask
 provenance:
   discoveries:
-    - id: discovery__github__pacoccino__ai-mask__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__pacwoodson__ai-mask__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -38,55 +38,50 @@ metadata:
       - machine-learning
       - wasm
       - webgpu
-    last_checked_at: "2026-05-05T21:04:10.976Z"
+    last_checked_at: "2026-05-06T22:45:46.437Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.976Z"
+      fetched_at: "2026-05-06T22:45:46.437Z"
       bytes: 5788
 insights:
-  summary: A Chrome extension that runs local AI models via WebGPU and WASM and exposes them to web apps through a unified SDK, acting as a local inference provider for the browser.
-  why_it_matters: It lets developers build web apps that run inference entirely on the user's device, eliminating API keys, backend proxies, and redundant model downloads across domains.
-  mental_damage: We have successfully rebuilt the crypto-wallet pattern for AI, so now your browser extension can guard your LLM access with the same comforting friction.
+  summary: A Chrome extension that acts as a local AI inference provider, caching models once in the browser and serving them to compatible web apps via an SDK.
+  why_it_matters: It lets developers build web apps with free, private, on-device inference while avoiding repeated multi-gigabyte model downloads per domain.
+  mental_damage: We've successfully reinvented the GPU driver layer as a Chrome extension so we can argue about model cache partitions instead of just running Ollama.
   tags:
-    - chrome-extension
-    - inference
     - local-ai
-    - local-inference
-    - on-device
-    - privacy
-    - wasm
+    - chrome-extension
     - webgpu
+    - inference
+    - sdk
   confidence: medium
 curation:
   status: included
-  reason: The project is a local inference tool that serves on-device AI models to web applications via a browser extension and SDK, fitting cleanly into Local AI.
+  reason: The core product identity is a local serving layer and developer SDK for on-device browser-based inference, fitting Local AI.
   evidence:
     - "Repo description states: 'Serve local ML inference engines to web apps'"
-    - "README: 'AI-Mask is a chrome web extension that serves as a local provider to AI models execution. It runs model on-device for web apps.'"
-    - Seen in awesome-local-ai under Inference UI, aligning with local execution focus.
-    - README positions it as a local inference provider using WebGPU/WASM with an npm SDK package
-    - Active as of 2024-04-09 and not archived, despite being early-stage
+    - README positions it as 'a chrome web extension that serves as a local provider to AI models execution' with an SDK for integrators
+    - Featured in awesome-local-ai under the Inference UI section
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:34.843Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.976Z"
+    updated_at: "2026-05-06T22:45:46.437Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:31.601Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

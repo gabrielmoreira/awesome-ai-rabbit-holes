@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nzrsky__xctools-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,50 @@ metadata:
     description: A Model Context Protocol server for different Xcode related tools
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:58.106Z"
+    last_checked_at: "2026-05-06T22:45:35.927Z"
     readme:
-      fetched_at: "2026-05-05T21:03:58.106Z"
+      fetched_at: "2026-05-06T22:45:35.927Z"
       bytes: 7043
 insights:
-  summary: A Model Context Protocol server that exposes Xcode development tools like xcrun, xcodebuild, and xctrace to MCP-compatible AI clients.
-  why_it_matters: It allows AI coding assistants to directly build, test, and analyze performance for Apple platform projects without the developer leaving their chat interface.
-  mental_damage: "We have finally achieved the platonic ideal of modern development: an AI agent wrapping a build tool that wraps a compiler, so you can prompt your way through a SwiftUI bug at 2 AM."
+  summary: A Model Context Protocol server that exposes Xcode development tools like xcrun, xcodebuild, and xctrace to MCP-compatible AI assistants.
+  why_it_matters: It allows coding agents to build, test, archive, and profile iOS/macOS projects by giving them structured access to the full Xcode toolchain.
+  mental_damage: You can now ask an AI to debug your SwiftUI layout, wait forty seconds, and receive a perfectly formatted excuse from xcodebuild instead.
   tags:
     - mcp
     - xcode
-    - apple
+    - ios
     - developer-tools
+    - apple
   confidence: high
 curation:
   status: included
-  reason: The project is strictly an MCP server implementation designed to integrate Xcode tooling into the Model Context Protocol ecosystem, fitting the MCP category perfectly.
+  reason: This is a purpose-built MCP server for Xcode tooling, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
     - Repo description states it is 'A Model Context Protocol server for different Xcode related tools'.
-    - README details integration with Claude Desktop and VS Code MCP extensions to expose xcrun, xcodebuild, and xctrace.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - README lists MCP configuration examples for Claude Desktop and VS Code MCP Extension.
+    - Included in the awesome-mcp-servers list under 'Community Servers', confirming its ecosystem identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:58.106Z"
+    updated_at: "2026-05-06T22:45:35.927Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:20.911Z"
+    updated_at: "2026-05-06T23:18:06.932Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__continuedev__continue
 kind: github-repo
-name: Continue
+name: continue
 canonical_url: https://github.com/continuedev/continue
 identity:
   github_repo: continuedev/continue
 provenance:
   discoveries:
     - id: discovery__github__continuedev__continue__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Continue CLI](https://github.com/continuedev/continue)** `⭐ 33k` — Open-source terminal extension for multi-model coding with local/privacy focus."
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "## [Continue](https://continue.dev/)"
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -53,7 +53,7 @@ provenance:
         surrounding_text: "- **[Continue](https://github.com/continuedev/continue)** vscode auto complete and chat tool (full feature support)"
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -68,7 +68,7 @@ provenance:
         surrounding_text: "| [Continue](https://github.com/continuedev/continue) | ⏩ the open-source autopilot for software development—bring the power of ChatGPT to VS Code              | ![GitHub Badge](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat-square) |"
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -84,12 +84,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 32986
-    forks: 4461
+    stars: 33006
+    forks: 4459
     license: Apache-2.0
     archived: false
     created_at: "2023-05-24T03:39:39Z"
-    pushed_at: "2026-05-05T16:20:21Z"
+    pushed_at: "2026-05-06T18:29:26Z"
     description: ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
     homepage: https://docs.continue.dev
     topics:
@@ -101,50 +101,50 @@ metadata:
       - llm
       - open-source
       - vs-code-extenstion
-    last_checked_at: "2026-05-05T21:01:41.216Z"
+    last_checked_at: "2026-05-06T22:43:28.034Z"
     readme:
-      fetched_at: "2026-05-05T21:01:41.216Z"
+      fetched_at: "2026-05-06T22:43:28.034Z"
       bytes: 4352
 insights:
-  summary: Continue runs AI agents as GitHub status checks on pull requests using markdown-defined rules powered by its open-source CLI.
-  why_it_matters: It lets teams codify review standards as version-controlled AI checks that run automatically in CI, bridging the gap between linters and human code review.
-  mental_damage: You can now version-control your anxiety by encoding subjective code review opinions into YAML files that an AI will enforce on every single pull request.
+  summary: Continue is an open-source CLI and CI tool that runs source-controlled AI checks, defined as markdown files in a repo, as GitHub status checks on pull requests.
+  why_it_matters: It lets teams encode coding standards and review rules as version-controlled markdown files, enforcing them automatically via AI on every pull request.
+  mental_damage: We have successfully automated the experience of waiting for a senior developer to sigh at your PR, but now it returns a diff in under three seconds.
   tags:
-    - ai-agents
     - ci
-    - cli
     - code-review
-    - github-checks
+    - cli
+    - ai-checks
+    - github
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is the Continue CLI which powers autonomous code review agents that operate directly on source code within a PR workflow, fitting the coding-agents definition.
+  reason: It is a developer-facing coding agent purpose-built to review PRs, enforce checks, and suggest diffs directly within the CI workflow.
   evidence:
-    - "Repo description: 'Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI'."
-    - "README: 'Continue runs agents on every pull request as GitHub status checks. Each agent is a markdown file in your repo'."
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - "Repo description states: 'Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI.'"
+    - README explains checks run on every PR as GitHub status checks with green/red outcomes and suggested diffs.
+    - Highly active repo (33k stars, pushed 2026-05-06) included in awesome-ai-coding-tools under 'Code Editors and Assistants'.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (32986) exceeded threshold (150)
+  reason: Stars (33006) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:22.415Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.658Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:41.216Z"
+    updated_at: "2026-05-06T22:43:28.034Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:36.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

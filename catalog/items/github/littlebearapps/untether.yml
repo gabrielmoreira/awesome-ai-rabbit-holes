@@ -1,13 +1,13 @@
 id: github__littlebearapps__untether
 kind: github-repo
-name: Untether
+name: untether
 canonical_url: https://github.com/littlebearapps/untether
 identity:
   github_repo: littlebearapps/untether
 provenance:
   discoveries:
     - id: discovery__github__littlebearapps__untether__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -48,50 +48,50 @@ metadata:
       - remote-development
       - telegram
       - telegram-bot
-    last_checked_at: "2026-05-05T21:03:21.692Z"
+    last_checked_at: "2026-05-06T22:45:01.033Z"
     readme:
-      fetched_at: "2026-05-05T21:03:21.692Z"
+      fetched_at: "2026-05-06T22:45:01.033Z"
       bytes: 22104
 insights:
-  summary: A Telegram bridge that lets developers remotely send tasks, stream progress, and approve actions for local AI coding agents including Claude Code, Codex, and Gemini CLI.
-  why_it_matters: It enables developers to trigger and supervise coding agents from a phone via voice or text, removing the need to be tethered to a terminal or SSH session.
-  mental_damage: "We have finally achieved the platonic ideal of modern software engineering: dictating code fixes to a bot while walking the dog, because apparently being at a desk was the only thing holding back our productivity."
+  summary: A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone.
+  why_it_matters: It untethers agents from the terminal, letting developers kick off repo work, stream progress, and approve changes remotely without SSH or a desk.
+  mental_damage: Now you can review failing tests and approve destructive file edits while walking the dog, because apparently nowhere is safe from your CI pipeline.
   tags:
-    - cli-tools
-    - coding-agents
-    - python
-    - remote-control
     - telegram
+    - remote-control
+    - cli-agents
+    - mobile
+    - bridge
   confidence: high
 curation:
   status: included
-  reason: It directly integrates with and extends the workflow of terminal-based coding agents (Claude Code, Codex, etc.), fitting the coding-agents category as remote infrastructure for those tools.
+  reason: The product is a remote control surface and Telegram integration that augments existing coding agents rather than acting as a primary coding assistant itself.
   evidence:
-    - Repo description explicitly states it is a 'Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp)'.
-    - README confirms it connects agents running on your machine to Telegram for remote tasking and approvals.
-    - Listed in awesome-cli-coding-agents under 'Agent infrastructure', aligning with its role supporting CLI coding agents.
+    - Repo description explicitly calls it a 'Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp)'
+    - README states 'Untether just bridges them to Telegram' and supports multiple existing agents rather than being one itself
+    - Source list places it under 'Harnesses & orchestration > Agent infrastructure', aligning with its integration role
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:13.462Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:21.692Z"
+    updated_at: "2026-05-06T22:45:01.033Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:58.569Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__saintdoresh__yfinance-trader-mcp-claudedesktop__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 31
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-03-15T19:15:51Z"
+    pushed_at: "2025-08-11T15:27:04Z"
+    description: An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance library, specifically adapted for Claude Desktop.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:15.419Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:15.419Z"
+      bytes: 5081
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes yfinance stock market data, company metrics, and insider transactions as tools specifically adapted for Claude Desktop.
+  why_it_matters: It lets developers query financial data, analyst recommendations, and historical prices directly inside Claude Desktop without wiring up external APIs or switching contexts.
+  mental_damage: Another niche MCP server so you can day-trade between commits without ever leaving the comfort of your AI assistant.
+  tags:
+    - mcp
+    - finance
+    - claude-desktop
+    - yfinance
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose identity and utility are defined by implementing the Model Context Protocol to expose financial data tools.
+  evidence:
+    - Repo description states it is 'An MCP (Model Context Protocol) tool ... specifically adapted for Claude Desktop.'
+    - README details multiple MCP tools like get_stock_quote and get_insider_transactions using yfinance.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:15.419Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:52.469Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

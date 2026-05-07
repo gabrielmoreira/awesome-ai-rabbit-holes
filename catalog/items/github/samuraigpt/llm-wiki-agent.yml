@@ -1,13 +1,13 @@
 id: github__samuraigpt__llm-wiki-agent
 kind: github-repo
-name: Camel-AutoGPT
+name: llm-wiki-agent
 canonical_url: https://github.com/samuraigpt/llm-wiki-agent
 identity:
   github_repo: samuraigpt/llm-wiki-agent
 provenance:
   discoveries:
-    - id: discovery__github__samuraigpt__camel-autogpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__samuraigpt__llm-wiki-agent__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,47 +24,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2496
+    forks: 286
+    license: MIT
+    archived: false
+    created_at: "2023-04-21T08:31:00Z"
+    pushed_at: "2026-05-06T17:18:13Z"
+    description: A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API key needed.
+    homepage: ""
+    topics:
+      - claude-code
+      - codex
+      - gemini
+      - knowledge-base
+      - knowledge-graph
+      - llm
+      - markdown
+      - obsidian
+      - personal-knowledge-management
+      - rag
+      - wiki
+    last_checked_at: "2026-05-06T22:46:16.378Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:16.378Z"
+      bytes: 12653
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs.
+  why_it_matters: It packages a complete RAG-style knowledge management workflow as portable slash commands and agent configs, letting developers reuse a structured memory system across multiple coding agents without building it themselves.
+  mental_damage: We have reached the point where the agent needs its own agent to remember what the agent did with the documents you fed the agent so you do not have to write notes like a Victorian clerk.
+  tags:
+    - knowledge-base
+    - claude-code
+    - skills
+    - wiki
+    - rag
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The primary artifact is a reusable skill pack with agent configs and slash commands designed to be dropped into Claude Code, Codex, or Gemini CLI, which aligns with the Skills category's focus on portable skill content.
+  evidence:
+    - README explicitly calls it 'A coding agent skill' and ships CLAUDE.md, AGENTS.md, GEMINI.md configs plus .claude/commands/ slash commands.
+    - Repo description states it 'Works with Claude Code, Codex, OpenCode, Gemini CLI' and requires one of these agents as the host.
+    - The product is a skill pack, not a standalone assistant, IDE, or platform, and is actively maintained (pushed 2026-05-06, not archived).
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Packs & Libraries
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2496) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.443Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:16.378Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:00.993Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tomatio13__mcp-server-tavily__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -23,47 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 47
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2024-11-30T15:39:40Z"
+    pushed_at: "2025-08-19T14:04:48Z"
+    description: Taivily APIを利用するMCP Serverです。Officialが提供される前に開発しました
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:52.084Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:52.084Z"
+      bytes: 6223
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the Tavily search API as a tool for AI assistants like Claude Desktop and Cursor.
+  why_it_matters: It allows coding agents to perform real-time web searches for current events and documentation without leaving the chat interface.
+  mental_damage: We have successfully abstracted the revolutionary act of opening a new browser tab into a specialized JSON-RPC protocol.
+  tags:
+    - mcp
+    - search
+    - tavily
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's identity is explicitly an MCP server built to give assistants access to the Tavily API, fitting the MCP Servers & Tooling category.
+  evidence:
+    - Repo description states it is an 'MCP Server' for the Tavily API.
+    - README details integration instructions for Claude Desktop and Cursor via MCP configuration.
+    - Listed in the 'awesome-mcp-list' under the Search section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:52.084Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:39.067Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

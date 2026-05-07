@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mermaid-js__mermaid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [hustcc/mcp-mermaid](https://github.com/hustcc/mcp-mermaid) 📇 🏠 - Generate [mermaid](https://mermaid.js.org/) diagram and chart with AI MCP dynamically."
         confidence: high
     - id: discovery__github__mermaid-js__mermaid__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 87815
-    forks: 8933
+    stars: 87846
+    forks: 8944
     license: MIT
     archived: false
     created_at: "2014-11-01T23:52:32Z"
-    pushed_at: "2026-05-05T09:29:49Z"
+    pushed_at: "2026-05-06T09:27:50Z"
     description: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
     homepage: https://mermaid.ai/open-source/
     topics:
@@ -56,14 +56,14 @@ metadata:
       - mindmap
       - typescript
       - uml-diagrams
-    last_checked_at: "2026-05-05T21:03:35.975Z"
+    last_checked_at: "2026-05-06T22:45:13.949Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.975Z"
+      fetched_at: "2026-05-06T22:45:13.949Z"
       bytes: 24104
 insights:
-  summary: A JavaScript-based diagramming and visualization library that generates diagrams like flowcharts, sequence diagrams, and UML from markdown-like text definitions.
-  why_it_matters: It allows developers to version-control and automate documentation diagrams alongside code, eliminating the friction of manual diagramming tools.
-  mental_damage: Finally, a tool that lets you write YAML-like syntax to generate a flowchart that perfectly visualizes the spaghetti code you refuse to refactor.
+  summary: Mermaid is a JavaScript-based diagramming and charting tool that renders Markdown-like text definitions into diagrams including flowcharts, sequence diagrams, and mind maps.
+  why_it_matters: It allows developers to version-control architecture and documentation as code rather than managing binary image files in a repository.
+  mental_damage: The industry has collectively decided that maintaining a regex-heavy grammar for diagram syntax is preferable to just opening a drawing tool for five minutes.
   tags:
     - diagrams-as-code
     - documentation
@@ -72,33 +72,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: While widely used for documentation, Mermaid is a general-purpose diagramming library and lacks a specific AI-focused developer tooling angle required for this catalog.
+  reason: Mermaid is a general-purpose documentation and diagramming library, not a developer-facing AI tool, agent, or AI infrastructure.
   evidence:
-    - Repo description defines it as a text-to-diagram generator, with no mention of AI, agents, or LLM integration.
-    - README excerpt focuses on JavaScript library usage, diagram types, and documentation, fitting a documentation tool rather than an AI developer tool.
-    - Appears in awesome-mcp-servers only as a community server example for diagram generation, not as a core AI coding utility.
+    - Repo description defines it as 'Generation of diagrams... from text', with no mention of AI, agents, or LLM integration in the core product.
+    - Appears in awesome-mcp-servers lists only as a community server adapter, meaning MCP is a compatibility bridge, not the product identity.
+    - Topics and README focus on JavaScript, UML, and flowcharts, lacking AI-specific workflows or prompt/context engineering substance.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (87815) exceeded threshold (150)
+  reason: Stars (87846) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.975Z"
+    updated_at: "2026-05-06T22:45:13.949Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:56.932Z"
+    updated_at: "2026-05-06T23:13:05.170Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

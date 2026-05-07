@@ -1,0 +1,84 @@
+id: github__pdf2htmlex__pdf2htmlex
+kind: github-repo
+name: pdf2htmlex
+canonical_url: https://github.com/pdf2htmlex/pdf2htmlex
+identity:
+  github_repo: pdf2htmlex/pdf2htmlex
+provenance:
+  discoveries:
+    - id: discovery__github__pdf2htmlex__pdf2htmlex__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: pdf2htmlEX
+        extracted_url: https://github.com/pdf2htmlex/pdf2htmlex
+        surrounding_text: "22. [pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX): Convert PDF to HTML without losing text or format."
+        confidence: high
+metadata:
+  github:
+    stars: 5497
+    forks: 510
+    license: NOASSERTION
+    archived: false
+    created_at: "2018-01-22T15:26:50Z"
+    pushed_at: "2025-07-17T13:00:10Z"
+    description: Convert PDF to HTML without losing text or format.
+    homepage: https://pdf2htmlEX.github.io/pdf2htmlEX/
+    topics:
+      - html
+      - pdf
+      - pdf-document-processor
+      - pdf-viewer
+    last_checked_at: "2026-05-06T22:45:50.244Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:50.244Z"
+      bytes: 5216
+insights:
+  summary: A tool that converts PDF files into HTML while preserving text, formatting, and layout fidelity.
+  why_it_matters: It allows developers to render complex documents like academic papers and magazines as native web content without losing typographic accuracy.
+  mental_damage: Because clearly what the modern web needed was another clever way to turn static print artifacts into inspectable, SEO-unfriendly HTML blobs.
+  tags:
+    - pdf
+    - html
+    - document-processing
+    - conversion
+  confidence: high
+curation:
+  status: excluded
+  reason: Exclude because it is a general document conversion utility with no AI, LLM, or developer-AI-tooling angle, despite appearing in a broad LLM resource list.
+  evidence:
+    - Repo description states 'Convert PDF to HTML without losing text or format' with no mention of AI.
+    - README focuses entirely on rendering fidelity, fonts, and DPI settings for PDF-to-HTML conversion.
+    - Listed in awesome-LLM-resources under a generic 'Data' section, but the tool itself performs no LLM or AI tasks.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (5497) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.642Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:50.244Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:21:17.657Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

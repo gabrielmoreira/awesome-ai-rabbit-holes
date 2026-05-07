@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__perspective-ai__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,14 +44,14 @@ metadata:
       - mcp-server
       - researcher
       - survey
-    last_checked_at: "2026-05-05T21:04:15.144Z"
+    last_checked_at: "2026-05-06T22:45:51.032Z"
     readme:
-      fetched_at: "2026-05-05T21:04:15.144Z"
+      fetched_at: "2026-05-06T22:45:51.032Z"
       bytes: 10115
 insights:
-  summary: An MCP server that connects Perspective AI's conversational form replacement platform to MCP-compatible clients like Claude and Cursor, allowing developers to design, analyze, and automate AI-driven conversation agents directly from their IDE or assistant.
-  why_it_matters: It lets developers manage lead qualification workflows, conversation analytics, and CRM automations as code-adjacent tasks without leaving their AI-assisted editing environment.
-  mental_damage: We have successfully abstracted away the trauma of filling out forms by introducing the trauma of configuring an MCP server to trick users into filling out forms via 'adaptive AI conversations'.
+  summary: An MCP server that connects AI assistants like Claude and Cursor to Perspective AI's conversational form-replacement platform for designing, analyzing, and automating AI concierges.
+  why_it_matters: It lets developers manage conversational data capture, lead qualification, and follow-up automation directly from their coding environment instead of a separate SaaS dashboard.
+  mental_damage: Your coding agent can now ping Slack about trust scores while you're still debugging why your form fields keep turning into adaptive hallucinations.
   tags:
     - mcp
     - conversational-ai
@@ -60,33 +60,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation for a third-party SaaS, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product is a first-party MCP server built to give MCP-compatible clients access to Perspective AI's conversational concierge platform.
   evidence:
-    - Repo description and README identify this as 'MCP server for Perspective AI' with setup instructions for Claude, Cursor, and VS Code.
-    - Listed in 'awesome-mcp-servers' under the 'Conversational AI' section, confirming its role in the MCP ecosystem.
-    - Repository is active (pushed 2026-04-28) and not archived, despite low star count.
+    - Repo description explicitly states 'MCP server for Perspective AI' with MCP server topics.
+    - README says 'MCP server for Perspective AI' and documents Claude Code, Cursor, Claude.ai, and stdio client setup.
+    - Included in awesome-mcp-servers under Conversational AI, reinforcing MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:15.144Z"
+    updated_at: "2026-05-06T22:45:51.032Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:22.156Z"
+    updated_at: "2026-05-06T23:21:31.932Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

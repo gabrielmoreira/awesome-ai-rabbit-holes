@@ -1,13 +1,13 @@
 id: github__dragonfly__dragonfly
 kind: github-repo
-name: Dragonfly
+name: dragonfly
 canonical_url: https://github.com/dragonfly/dragonfly
 identity:
   github_repo: dragonfly/dragonfly
 provenance:
   discoveries:
     - id: discovery__github__dragonfly__dragonfly__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -32,50 +32,49 @@ metadata:
     description: An open source python library for scalable Bayesian optimisation.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:56.945Z"
+    last_checked_at: "2026-05-06T22:43:41.474Z"
     readme:
-      fetched_at: "2026-05-05T21:01:56.945Z"
+      fetched_at: "2026-05-06T22:43:41.474Z"
       bytes: 7519
 insights:
-  summary: Dragonfly is an open source Python library for scalable Bayesian optimisation, supporting high-dimensional, parallel, multi-fidelity, and multi-objective optimisation tasks.
-  why_it_matters: It provides developers with a ready-to-import framework for optimising expensive black-box functions, useful for tuning machine learning hyperparameters or neural architecture search without building custom optimisation loops.
-  mental_damage: Yet another reminder that while we’re busy vibing with LLM agents, there’s an entire ecosystem of classical optimisation maths quietly waiting to be rediscovered by prompting a model to tune our hyperparameters.
+  summary: An open-source Python library for scalable Bayesian optimisation of black-box functions, supporting high-dimensional, parallel, multi-fidelity, and multi-objective optimisation.
+  why_it_matters: Developers training models or tuning expensive pipelines can use it to minimise evaluation cost when searching high-dimensional hyperparameter or system configuration spaces.
+  mental_damage: Yet another reminder that while we prompt our way through CRUD apps, the real optimisation problems are still being solved by mathematicians with Fortran dependencies.
   tags:
-    - automl
     - bayesian-optimisation
+    - python
     - hyperparameter-tuning
-    - python-library
-    - scalable
+    - automl
   confidence: high
 curation:
-  status: included
-  reason: This is a code-first Python library and SDK for Bayesian optimisation, fitting cleanly as a framework developers import to embed optimisation behaviour into their own workflows.
+  status: excluded
+  reason: Although listed under AutoML in an LLMOps awesome list, the project is a general-purpose Bayesian optimisation library with no demonstrable AI developer-tooling, coding-agent, or prompt/context engineering identity.
   evidence:
-    - Repo description states it is 'an open source python library for scalable Bayesian optimisation.'
-    - README demonstrates importable APIs like minimise_function and maximise_function for direct use in Python code.
-    - Listed under AutoML in Awesome-LLMOps, reinforcing its role as a machine learning optimisation framework.
+    - Repo description and README define it strictly as a Python library for scalable Bayesian optimisation, not an AI developer tool.
+    - No references to LLMs, coding agents, prompt engineering, MCP, or developer workflows in the description or README excerpt.
+    - Source-list placement is in an AutoML section of Awesome-LLMOps, which is not sufficient to override the lack of developer-tooling fit.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (894) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:05.511Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:56.945Z"
+    updated_at: "2026-05-06T22:43:41.474Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:53:25.592Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

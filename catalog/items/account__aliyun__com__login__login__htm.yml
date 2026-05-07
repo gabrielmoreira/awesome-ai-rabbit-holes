@@ -1,12 +1,12 @@
 id: account__aliyun__com__login__login__htm
 kind: website
-name: Yunxiao platform
+name: login.htm
 canonical_url: https://account.aliyun.com/login/login.htm
 identity: {}
 provenance:
   discoveries:
     - id: discovery__account__aliyun__com__login__login__htm__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This is the standard login page for Alibaba Cloud (Aliyun), a major cloud service provider.
-  why_it_matters: It matters only in the sense that developers need to authenticate to access Aliyun's underlying AI and cloud infrastructure.
-  mental_damage: We have officially reached peak signal-to-noise ratio when a cloud provider's login page is listed alongside autonomous coding agents.
+  summary: This is the Aliyun (Alibaba Cloud) login page, not a developer tool or MCP server.
+  why_it_matters: It doesn't, unless you are trying to sign in to Alibaba Cloud to use their actual AI services.
+  mental_damage: We have officially reached peak AI ecosystem absurdity when a cloud provider's login URL gets indexed as an 'Official MCP Server' in a curated list.
   tags:
-    - cloud
-    - infrastructure
-    - login-page
+    - not-a-tool
+    - false-positive
+    - misclassified
   confidence: high
 curation:
   status: excluded
-  reason: The URL points to a generic corporate login page, not a developer tool, agent, or MCP server implementation.
+  reason: The URL resolves to a cloud login page, not an MCP server or developer tool, making it a false positive in the source list.
   evidence:
-    - The URL is 'https://account.aliyun.com/login/login.htm', which is a standard user authentication gateway.
-    - Scraped context describes general cloud services (computing, security, IoT), not a specific AI developer tool.
-    - The awesome-mcp-servers reference appears to be a hallucinated or mislinked description for a generic cloud login URL.
+    - Scraped site title is '阿里云登录' (Alibaba Cloud Login) with a generic cloud services description.
+    - Source list context shows it was linked as an 'Official Server' in awesome-mcp-servers, but the URL is just a login endpoint.
+    - No repository description, README, code, or tooling artifacts are present.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:16.685Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:10.131Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

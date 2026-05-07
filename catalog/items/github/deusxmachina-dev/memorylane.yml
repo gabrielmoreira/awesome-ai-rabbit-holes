@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deusxmachina-dev__memorylane__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,53 +29,54 @@ metadata:
     license: GPL-3.0
     archived: false
     created_at: "2026-02-03T09:15:03Z"
-    pushed_at: "2026-05-05T09:07:49Z"
+    pushed_at: "2026-05-06T18:06:25Z"
     description: null
     homepage: https://trymemorylane.com/
     topics: []
-    last_checked_at: "2026-05-05T21:01:52.418Z"
+    last_checked_at: "2026-05-06T22:43:37.448Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.418Z"
+      fetched_at: "2026-05-06T22:43:37.448Z"
       bytes: 1298
 insights:
-  summary: A desktop app that records your screen to build context about your workflow and exposes that context to AI chats via an MCP server.
-  why_it_matters: It attempts to solve the context-switching problem by letting AI assistants see what you are working on without manual copy-pasting of logs or screenshots.
-  mental_damage: "We have finally automated the one thing that kept us from working: the illusion that an AI is watching us work."
+  summary: A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat.
+  why_it_matters: It attempts to automate the tedious context-gathering phase of AI assistance by watching you work and feeding relevant history directly into your coding agent.
+  mental_damage: We have finally reached the point where your computer watches you code so it can tell the AI what you were trying to do before you gave up and asked for help.
   tags:
+    - desktop-app
+    - context-recording
     - mcp
-    - context
-    - desktop
-    - memory
+    - automation
+    - screen-capture
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation that exposes desktop-recorded context to AI chats, fitting the MCP infrastructure category.
+  reason: The core product is a desktop host integration that captures screen context and feeds it into other AI chats via MCP, augmenting the assistant rather than being the primary coding agent.
   evidence:
-    - README states it is 'queryable from any AI chat via MCP' and lists a CLI package for integration.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
-    - Active repository with recent pushes (2026-05-05) and downloadable desktop builds for macOS and Windows.
+    - README states it 'sees what you see, builds context... and surfaces automation opportunities — all queryable from any AI chat via MCP.'
+    - Found in awesome-mcp-servers under 'Knowledge & Memory', aligning with its MCP integration identity.
+    - Distributed as a desktop app (macOS/Windows) and CLI, acting as a bridge/layer rather than a standalone repo-editing agent.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-dev-extensions
+  section: Memory & Context Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.418Z"
+    updated_at: "2026-05-06T22:43:37.448Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:13.342Z"
+    updated_at: "2026-05-06T22:52:35.888Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

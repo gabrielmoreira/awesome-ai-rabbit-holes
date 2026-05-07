@@ -1,13 +1,13 @@
 id: github__schemacrawler__schemacrawler-ai-mcp-server-usage
 kind: github-repo
-name: schemacrawler/SchemaCrawler-MCP-Server-Usage
+name: schemacrawler-ai-mcp-server-usage
 canonical_url: https://github.com/schemacrawler/schemacrawler-ai-mcp-server-usage
 identity:
   github_repo: schemacrawler/schemacrawler-ai-mcp-server-usage
 provenance:
   discoveries:
-    - id: discovery__github__schemacrawler__schemacrawler-mcp-server-usage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__schemacrawler__schemacrawler-ai-mcp-server-usage__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/schemacrawler/schemacrawler-mcp-server-usage
         surrounding_text: "- [schemacrawler/SchemaCrawler-MCP-Server-Usage](https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage) 🎖️ ☕ – Connect to any relational database, and be able to get valid SQL, and ask questions like what does a certain column prefix mean."
         confidence: high
-    - id: discovery__github__schemacrawler__schemacrawler-mcp-server-usage__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__schemacrawler__schemacrawler-ai-mcp-server-usage__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,45 +37,38 @@ provenance:
         extracted_url: https://github.com/schemacrawler/schemacrawler-mcp-server-usage
         surrounding_text: "- **[SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage)** - Connect to any relational database, and be able to get valid SQL, and ask questions like what does a certain column prefix mean."
         confidence: high
-    - id: discovery__github__schemacrawler__schemacrawler-ai-mcp-server-usage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🗄️ <a name="databases"></a>Databases
-        anchor_text: schemacrawler/SchemaCrawler-MCP-Server-Usage
-        extracted_url: https://github.com/schemacrawler/schemacrawler-mcp-server-usage
-        surrounding_text: "- [schemacrawler/SchemaCrawler-MCP-Server-Usage](https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage) 🎖️ ☕ – Connect to any relational database, and be able to get valid SQL, and ask questions like what does a certain column prefix mean."
-        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 24
+    forks: 3
+    license: EPL-2.0
+    archived: false
+    created_at: "2025-05-18T14:07:10Z"
+    pushed_at: "2026-05-06T14:04:30Z"
+    description: Find out how to use SchemaCrawler AI MCP Server
+    homepage: https://www.schemacrawler.com/
+    topics: []
+    last_checked_at: "2026-05-06T22:46:17.838Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:17.838Z"
+      bytes: 2390
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A usage guide and MCP client setup for running the SchemaCrawler AI MCP Server in VS Code's Agent mode.
+  why_it_matters: It provides the concrete boilerplate and configuration needed to let coding agents introspect and query database schemas via Dockerized MCP tooling.
+  mental_damage: Another README teaching you how to glue a database tool to an AI agent, because apparently we can't just run a CLI and read the output like civilized people anymore.
+  tags:
+    - mcp
+    - database
+    - schema
+    - vscode
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This repository is primarily a documentation and usage example project (a 'bare project') rather than a standalone product, server, or tool.
+  evidence:
+    - Repo description states it is 'Find out how to use SchemaCrawler AI MCP Server'
+    - README explicitly calls it 'a bare project that acts as an MCP client... for use in Agent mode' and points to documentation
+    - The actual server product lives in a different repo (SchemaCrawler-AI), making this a supporting resource
 placement:
   primary_category: null
   section: null
@@ -83,19 +76,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.152Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:17.838Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:22.111Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

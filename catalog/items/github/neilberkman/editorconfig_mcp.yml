@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neilberkman__editorconfig_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:52.399Z"
+    last_checked_at: "2026-05-06T22:45:30.323Z"
     readme:
-      fetched_at: "2026-05-05T21:03:52.399Z"
+      fetched_at: "2026-05-06T22:45:30.323Z"
       bytes: 5482
 insights:
-  summary: A Model Context Protocol server that formats files using project .editorconfig rules to prevent AI coding agents from generating minor formatting errors.
-  why_it_matters: It acts as a proactive formatting gatekeeper for AI-assisted development, letting agents produce lint-clean code without wasting cycles on trivial whitespace fixes.
-  mental_damage: We have reached the point where we need dedicated middleware to stop our AI assistants from failing at the same trailing-whitespace problems linters solved in 2010.
+  summary: An MCP-compliant server that formats files using project .editorconfig rules to prevent AI coding agents from generating minor formatting errors.
+  why_it_matters: It acts as a proactive formatting gatekeeper, letting AI agents produce clean code that won't waste cycles getting flagged and fixed by linters.
+  mental_damage: We have finally reached the point where we are building protocol-compliant middleware just to stop our robot assistants from leaving trailing whitespace.
   tags:
     - mcp
     - formatting
     - editorconfig
-    - linting
-  confidence: medium
+    - ai-agents
+  confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation designed to expose .editorconfig formatting as a tool for AI coding assistants.
+  reason: The product's identity is an MCP server providing formatting capabilities, which fits squarely into the MCP Servers & Tooling category.
   evidence:
     - "README states: 'A Model Context Protocol (MCP) compliant server that formats files using .editorconfig rules.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
-    - "Very new but active: created 2025-06-08, pushed 2025-06-17, not archived, with 5 stars."
+    - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
+    - Installation and usage instructions are centered on running the MCP server and connecting it to tools like Claude Code.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:52.399Z"
+    updated_at: "2026-05-06T22:45:30.323Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:09.426Z"
+    updated_at: "2026-05-06T23:16:50.564Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

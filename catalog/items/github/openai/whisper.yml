@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openai__whisper__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 98951
-    forks: 12144
+    stars: 99015
+    forks: 12151
     license: MIT
     archived: false
     created_at: "2022-09-16T20:02:54Z"
@@ -33,50 +33,50 @@ metadata:
     description: Robust Speech Recognition via Large-Scale Weak Supervision
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:04:03.704Z"
+    last_checked_at: "2026-05-06T22:45:40.876Z"
     readme:
-      fetched_at: "2026-05-05T21:04:03.704Z"
+      fetched_at: "2026-05-06T22:45:40.876Z"
       bytes: 8246
 insights:
-  summary: Whisper is a general-purpose Transformer sequence-to-sequence model from OpenAI for multilingual speech recognition, speech translation, and language identification, available as an importable Python package.
-  why_it_matters: It provides developers with a high-quality, open-weight foundation model and a simple CLI/Python API to integrate robust audio transcription and translation into applications without relying on external APIs.
-  mental_damage: Yet another reminder that while we have solved converting audio to text with near-human accuracy, we are still debugging CSS grid by hand.
+  summary: Whisper is an open-source, Transformer-based sequence-to-sequence model from OpenAI for general-purpose speech recognition, translation, and language identification.
+  why_it_matters: It provides developers with a robust, multilingual offline toolkit to transcribe audio and translate speech without relying on external API calls.
+  mental_damage: Yet another foundational model that forces you to install ffmpeg, rust, and a specific PyTorch version just to feel the thrill of local inference before realizing you still need a GPU the size of a small car.
   tags:
     - speech-recognition
     - audio
-    - foundation-model
+    - multilingual
     - local-ai
-    - python
+    - openai
   confidence: high
 curation:
-  status: included
-  reason: The project is a code-first SDK and model weights that developers import and run locally to embed speech recognition capabilities, fitting the AI Frameworks and SDKs category.
+  status: excluded
+  reason: Whisper is a foundational audio model and research artifact, not a developer-facing tool, agent, or infrastructure component within the catalog's scope.
   evidence:
-    - Repo description defines it as 'Robust Speech Recognition via Large-Scale Weak Supervision'.
-    - README demonstrates a Python package installable via 'pip install openai-whisper' and a CLI tool.
-    - Listed in Awesome-LLMOps under 'Model > Audio Foundation Model', confirming its use as a building block.
+    - Repo description identifies it as 'Robust Speech Recognition via Large-Scale Weak Supervision', not a coding tool.
+    - README details a Transformer sequence-to-sequence model for audio tasks, not repo editing or agentic workflows.
+    - Listed in awesome-llmops under 'Model > Audio Foundation Model', confirming its identity as a model rather than a developer product.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (98951) exceeded threshold (150)
+  reason: Stars (99015) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:03.704Z"
+    updated_at: "2026-05-06T22:45:40.876Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:26.146Z"
+    updated_at: "2026-05-06T23:19:14.406Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

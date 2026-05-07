@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__irskep__persistproc__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server to allow LLMs to manage and inspect long-running processes
     homepage: https://steveasleep.com/persistproc/
     topics: []
-    last_checked_at: "2026-05-05T21:02:46.610Z"
+    last_checked_at: "2026-05-06T22:44:26.519Z"
     readme:
-      fetched_at: "2026-05-05T21:02:46.610Z"
+      fetched_at: "2026-05-06T22:44:26.519Z"
       bytes: 7183
 insights:
-  summary: An MCP server that lets LLM agents and developers see, manage, and restart long-running processes like dev servers without copy-pasting terminal output.
-  why_it_matters: It closes the loop between running local services and AI coding agents by giving them direct access to process output and control, eliminating the manual friction of relaying errors.
-  mental_damage: We have officially reached the point where we need a dedicated middleware layer just so our AI assistants can watch the npm run dev logs we are already staring at.
+  summary: An MCP server and CLI tool that lets LLMs and humans see, manage, and restart long-running development processes like web servers.
+  why_it_matters: It eliminates the tedious copy-paste loop between terminal errors and AI agents by giving tools like Cursor and Claude Code direct access to live process output and control.
+  mental_damage: We have finally built a middleware bridge so that three different AI agents can simultaneously fail to understand why your dev server is crashing.
   tags:
     - mcp
     - process-management
-    - agent-infrastructure
-    - dev-workflow
+    - multi-agent
+    - cli-tool
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to expose process management capabilities to LLMs, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product's identity is explicitly an MCP server designed to bridge LLMs and local processes, fitting the MCP Servers & Tooling category perfectly.
   evidence:
-    - Repo description states it is an 'MCP server to allow LLMs to manage and inspect long-running processes'.
-    - README confirms it 'exposes a standard Model Context Protocol (MCP) server' with tools like list, output, and ctrl.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - "Repo description states: 'MCP server to allow LLMs to manage and inspect long-running processes'."
+    - README identifies it as 'an MCP server and command line tool' exposing standard MCP tools (ctrl, list, output).
+    - Project is very new (created 2025-07-01) and active (pushed 2025-07-18), showing early-stage but clear intent.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:46.610Z"
+    updated_at: "2026-05-06T22:44:26.519Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:32.645Z"
+    updated_at: "2026-05-06T23:02:40.479Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

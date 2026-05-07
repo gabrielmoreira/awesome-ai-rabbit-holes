@@ -1,12 +1,12 @@
 id: www__opdstar__com
 kind: website
-name: OPDSTAR
+name: www.opdstar.com
 canonical_url: https://www.opdstar.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__opdstar__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Taiwan-focused AI assistant that translates Chinese patient complaints into English medical records, looks up ICD-10 codes, and warns physicians about national health insurance rejection risks.
-  why_it_matters: It is a domain-specific MCP server implementation that demonstrates how to build structured medical workflows on top of the protocol for non-software-engineering verticals.
-  mental_damage: We have successfully abstracted the Taiwanese healthcare billing system into a prompt, proving once again that no human workflow is safe from being turned into a context window.
+  summary: OPDSTAR is a Taiwan-focused AI assistant that translates Chinese outpatient complaints into English medical records, looks up ICD-10 codes, and alerts physicians to National Health Insurance reimbursement risks.
+  why_it_matters: While primarily a medical tool, it serves as a domain-specific MCP server example for handling specialized clinical terminology and regulatory compliance workflows.
+  mental_damage: We have now officially entered the era where 'awesome-mcp-servers' includes tools for arguing with Taiwan's National Health Insurance system, proving no vertical is safe from the protocol.
   tags:
-    - healthcare
     - mcp
-    - niche
+    - medical
+    - domain-specific
     - taiwan
   confidence: high
 curation:
   status: excluded
-  reason: This is a medical billing and record-keeping tool for physicians, not a developer-facing tool, agent, or infrastructure component.
+  reason: Although listed in awesome-mcp-servers, the tool is a vertical medical application for physicians with no developer-facing utility or coding workflow integration.
   evidence:
-    - The scraped site description focuses entirely on translating medical complaints and checking insurance codes for doctors.
-    - Source-list context places it under 'Biology, Medicine and Bioinformatics' in awesome-mcp-servers, not developer tooling.
-    - There is no indication it assists with coding, app building, or developer workflow automation.
+    - Source list context confirms it is an MCP server for 'Biology, Medicine and Bioinformatics' focused on ICD-10 codes and insurance risks.
+    - "Scraped site description explicitly targets physicians: '解決新手醫師不熟申報、老鳥醫師沒時間寫病歷的痛點' (solving the pain of new doctors unfamiliar with claims and veteran doctors having no time to write medical records)."
+    - No repository description, README, or code context indicating it is a reusable developer tool, framework, or general-purpose MCP infrastructure.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:21.500Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:37.983Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

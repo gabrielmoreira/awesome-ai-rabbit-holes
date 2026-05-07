@@ -1,13 +1,13 @@
 id: github__stravu__crystal
 kind: github-repo
-name: Crystal
+name: crystal
 canonical_url: https://github.com/stravu/crystal
 identity:
   github_repo: stravu/crystal
 provenance:
   discoveries:
     - id: discovery__github__stravu__crystal__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,47 +24,72 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3045
+    forks: 196
+    license: MIT
+    archived: false
+    created_at: "2025-06-05T23:54:39Z"
+    pushed_at: "2026-02-26T21:48:10Z"
+    description: (Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
+    homepage: https://nimbalyst.com/
+    topics:
+      - agentic-ai
+      - ai
+      - ai-coding
+      - anthropic
+      - claude
+      - claude-code
+      - codex
+      - cursor
+      - development-environment
+      - ide
+      - llm-coding
+      - openai-codex
+      - vibe-coding
+    last_checked_at: "2026-05-06T22:46:35.720Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:35.720Z"
+      bytes: 2564
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Crystal is a desktop app that runs multiple Codex and Claude Code sessions in parallel git worktrees, now deprecated in favor of Nimbalyst.
+  why_it_matters: It lets developers test and compare different AI coding approaches across isolated git worktrees without manually juggling terminals and contexts.
+  mental_damage: A desktop app built to manage the cognitive overhead of running multiple AI coding agents in parallel, which is itself being replaced by a newer desktop app that will likely need its own desktop app to manage it.
+  tags:
+    - parallel-agents
+    - git-worktrees
+    - claude-code
+    - codex
+    - session-manager
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is a desktop workbench for coordinating multiple coding agent sessions (Codex, Claude Code) across parallel git worktrees, which aligns with agent orchestration workbenches rather than being a coding agent itself.
+  evidence:
+    - Repo description states it runs multiple Codex and Claude Code sessions in parallel git worktrees via a desktop app.
+    - Source list places it in 'Harnesses & orchestration > Session managers & parallel runners'.
+    - README confirms it is deprecated in favor of Nimbalyst, an 'AI-native workspace' and 'code-aware agent orchestration' platform.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3045) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:35.720Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:32.672Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

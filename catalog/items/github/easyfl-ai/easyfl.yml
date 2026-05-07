@@ -1,13 +1,13 @@
 id: github__easyfl-ai__easyfl
 kind: github-repo
-name: EasyFL
+name: easyfl
 canonical_url: https://github.com/easyfl-ai/easyfl
 identity:
   github_repo: easyfl-ai/easyfl
 provenance:
   discoveries:
     - id: discovery__github__easyfl-ai__easyfl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -32,27 +32,27 @@ metadata:
     description: An easy-to-use federated learning platform
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:59.106Z"
+    last_checked_at: "2026-05-06T22:43:43.311Z"
     readme:
-      fetched_at: "2026-05-05T21:01:59.106Z"
+      fetched_at: "2026-05-06T22:43:43.311Z"
       bytes: 6087
 insights:
-  summary: EasyFL is a low-code federated learning platform built on PyTorch that enables researchers and developers to simulate, prototype, and deploy FL applications with minimal coding.
-  why_it_matters: It lowers the barrier to entering federated learning by providing out-of-the-box datasets, models, and algorithms while supporting distributed and Kubernetes-based remote training.
-  mental_damage: Another 'low-code' platform promising to abstract away the complexity of distributed systems, ensuring you can now debug multi-node PyTorch errors with only three lines of code.
+  summary: EasyFL is a low-code federated learning platform built on PyTorch for experimenting with and prototyping FL applications with minimal coding.
+  why_it_matters: It lets developers quickly simulate cross-silo and cross-device federated scenarios, migrate existing CV or NLP models to FL, and run distributed or remote training with just a few lines of code.
+  mental_damage: Yet another reminder that the hardest part of machine learning isn't the math, it's the smug satisfaction of calling three lines of PyTorch wrapper code 'low-code' while your actual production data remains stubbornly centralized.
   tags:
     - federated-learning
-    - low-code
-    - ml-research
     - pytorch
+    - ml-platform
+    - low-code
   confidence: high
 curation:
   status: excluded
-  reason: The project is a federated learning research platform and framework, which falls under general ML research and infrastructure rather than the specific scope of AI developer tooling, coding agents, or app builders.
+  reason: The project is a traditional federated learning research platform for ML training, not a developer-facing AI coding tool, agent, or infrastructure product within the catalog's scope.
   evidence:
-    - Repo description defines it as 'An easy-to-use federated learning platform', focusing on ML research and POCs.
-    - README emphasizes CV/NLP application migration, PyTorch code, and research paper reproductions rather than AI-assisted coding workflows.
-    - Listed in Awesome-LLMOps under 'Federated ML', a general ML operations category rather than developer productivity or coding assistants.
+    - Repo description states it is 'An easy-to-use federated learning platform', focused on ML research and FL applications.
+    - README emphasizes enabling users to experiment and prototype federated learning (CV/NLP) with PyTorch, not assisting with software development workflows.
+    - Listed in Awesome-LLMOps under 'Federated ML', which is a research/infrastructure topic rather than a developer tooling category.
 placement:
   primary_category: null
   section: null
@@ -60,21 +60,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:28.188Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:59.106Z"
+    updated_at: "2026-05-06T22:43:43.311Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:53:47.909Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__guinmoon__llmfarm
 kind: github-repo
-name: LLMFarm
+name: llmfarm
 canonical_url: https://github.com/guinmoon/llmfarm
 identity:
   github_repo: guinmoon/llmfarm
 provenance:
   discoveries:
     - id: discovery__github__guinmoon__llmfarm__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,9 +21,24 @@ provenance:
         extracted_url: https://github.com/guinmoon/llmfarm
         surrounding_text: "- [LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other large language models on iOS and MacOS offline using GGML library."
         confidence: high
+    - id: discovery__github__guinmoon__llmfarm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LLMFarm
+        extracted_url: https://github.com/guinmoon/llmfarm
+        surrounding_text: "20. [LLMFarm](https://github.com/guinmoon/LLMFarm): llama and other large language models on iOS and MacOS offline using GGML library."
+        confidence: high
 metadata:
   github:
-    stars: 2023
+    stars: 2024
     forks: 167
     license: MIT
     archived: false
@@ -42,50 +57,50 @@ metadata:
       - rwkv
       - starcoder
       - swift
-    last_checked_at: "2026-05-05T21:02:29.069Z"
+    last_checked_at: "2026-05-06T22:44:09.566Z"
     readme:
-      fetched_at: "2026-05-05T21:02:29.069Z"
+      fetched_at: "2026-05-06T22:44:09.566Z"
       bytes: 6669
 insights:
-  summary: LLMFarm is an iOS and macOS application that enables offline execution of various large language models, including coding models like StarCoder, using the GGML library.
-  why_it_matters: It allows developers to benchmark and run local LLMs directly on Apple hardware, providing a mobile-native interface for testing model performance and experimenting with on-device inference.
-  mental_damage: Now you can waste your battery life optimizing quantized models on your iPhone instead of just complaining about context windows on your laptop.
+  summary: LLMFarm is an iOS and macOS app that runs large language models locally on-device using the GGML library, supporting models like LLaMA, Starcoder, and Gemma.
+  why_it_matters: It lets developers benchmark, test RAG setups, and run coding models like Starcoder directly on Apple hardware without cloud dependencies.
+  mental_damage: Now you can spend your afternoon tweaking sampling parameters on your iPhone to see if Mixtral can finally debug your CI pipeline offline.
   tags:
-    - ggml
-    - ios
     - local-ai
+    - ios
     - macos
     - offline
+    - ggml
   confidence: high
 curation:
   status: included
-  reason: The project is a desktop and mobile interface specifically designed for running AI models locally on Apple hardware, fitting squarely into the local-ai category.
+  reason: The core product identity is a local, on-device desktop and mobile interface for running LLMs offline on Apple hardware, which aligns directly with the Local AI category.
   evidence:
-    - Repo description states it runs 'llama and other large language models on iOS and MacOS offline using GGML library.'
-    - README lists supported inferences including StarCoder and notes compatibility with macOS 13+ and iOS 16+.
-    - Included in the 'awesome-local-ai' list under the 'Inference UI' section.
+    - Repo description states it runs LLMs on iOS and macOS offline using GGML.
+    - README lists supported inferences including coding models like Starcoder and notes Metal GPU support.
+    - Source lists categorize it under 'Inference UI' for local AI tools.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2023) exceeded threshold (150)
+  reason: Stars (2024) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:12.527Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.586Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:29.069Z"
+    updated_at: "2026-05-06T22:44:09.566Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:59:13.026Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

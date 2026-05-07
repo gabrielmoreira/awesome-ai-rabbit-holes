@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__oschina__mcp-gitee__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,49 +35,49 @@ metadata:
       - gitee
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:04:08.745Z"
+    last_checked_at: "2026-05-06T22:45:45.100Z"
     readme:
-      fetched_at: "2026-05-05T21:04:08.745Z"
+      fetched_at: "2026-05-06T22:45:45.100Z"
       bytes: 9103
 insights:
-  summary: A Model Context Protocol (MCP) server that enables AI assistants to interact with Gitee's API for managing repositories, issues, pull requests, and notifications.
-  why_it_matters: It bridges the gap between AI coding agents and Gitee-hosted projects, allowing developers using tools like Cursor or Claude to automate repo management and issue-driven workflows.
-  mental_damage: Finally, your AI agent can now close its own issues on a platform that isn't GitHub, ensuring the sprawling context-window empire expands to every git forge in existence.
+  summary: An MCP server implementation for Gitee that exposes repositories, issues, and pull requests as tools for AI assistants via the Model Context Protocol.
+  why_it_matters: It lets coding agents and editors with MCP support operate directly on Gitee repos, issues, and PRs without custom glue code.
+  mental_damage: We now have a protocol to let an AI gently close your issues on a platform you only use because the firewall told you to.
   tags:
     - mcp
     - gitee
-    - integration
-    - devops
+    - git-integration
+    - ai-tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Gitee, fitting perfectly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server for Gitee with MCP as the core identity, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server implementation for Gitee'.
-    - README demonstrates integration with multiple MCP hosts including Claude, Cursor, Cline, and Windsurf.
-    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers'.
+    - Repo description states it is 'a Model Context Protocol (MCP) server implementation for Gitee'.
+    - README positions it as an MCP server with toolset management and explicit host configs for Claude, Cursor, Cline, Trae, and Windsurf.
+    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its MCP infrastructure role.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:08.745Z"
+    updated_at: "2026-05-06T22:45:45.100Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:13.994Z"
+    updated_at: "2026-05-06T23:20:12.658Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

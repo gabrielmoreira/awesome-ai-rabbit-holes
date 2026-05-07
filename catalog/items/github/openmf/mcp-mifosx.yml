@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openmf__mcp-mifosx__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -25,11 +25,11 @@ provenance:
 metadata:
   github:
     stars: 22
-    forks: 32
+    forks: 34
     license: MPL-2.0
     archived: false
     created_at: "2025-03-26T18:04:18Z"
-    pushed_at: "2026-05-05T12:31:36Z"
+    pushed_at: "2026-05-06T22:12:07Z"
     description: Model Context Protocol - MCP for Mifos X
     homepage: https://ai.mifos.community/
     topics:
@@ -44,50 +44,49 @@ metadata:
       - llm
       - loan
       - savings
-    last_checked_at: "2026-05-05T21:04:06.747Z"
+    last_checked_at: "2026-05-06T22:45:43.688Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.747Z"
+      fetched_at: "2026-05-06T22:45:43.688Z"
       bytes: 11645
 insights:
-  summary: An open-source MCP server that exposes Apache Fineract / Mifos X core banking operations as AI-consumable tools, with implementations in Go, Java, Python, and Rust.
-  why_it_matters: It lets developers plug AI agents directly into a real core-banking backend, so you can automate loans, clients, and backoffice workflows without writing yet another brittle REST integration layer.
-  mental_damage: We have reached the point where even core banking infrastructure is being wrapped in MCP so your LLM can misplace a loan application with autonomous confidence.
+  summary: An MCP server implementation that exposes Apache Fineract / Mifos X core banking operations as typed tools for AI agents across Go, Java, Python, and Rust runtimes.
+  why_it_matters: It lets developers wire AI assistants directly into real financial backends without building custom banking API integrations from scratch.
+  mental_damage: "We have finally achieved the inevitable endpoint of the MCP ecosystem: a stateless bridge that lets your coding agent argue with a core banking ledger in four different programming languages."
   tags:
     - mcp
     - fintech
     - banking
-    - core-banking
     - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation exposing 100+ typed tools for a major core-banking platform, which fits squarely into MCP Servers and Tooling.
+  reason: This is a domain-specific MCP server exposing banking tools, and MCP is its primary product identity rather than a side feature.
   evidence:
-    - "Repo description: 'Model Context Protocol - MCP for Mifos X'"
-    - README states it provides MCP for the Mifos X ecosystem, with 102 tools in Go, 89 in Rust, 49 in Python, and 38 in Java
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - Repo description explicitly states 'Model Context Protocol - MCP for Mifos X'.
+    - README says it 'provides Model Context Protocol (MCP) for the Mifos X Ecosystem' with 38-102 typed tools per implementation.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.747Z"
+    updated_at: "2026-05-06T22:45:43.688Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:53.567Z"
+    updated_at: "2026-05-06T23:19:49.206Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

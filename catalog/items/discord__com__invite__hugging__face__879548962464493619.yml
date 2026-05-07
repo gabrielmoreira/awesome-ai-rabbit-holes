@@ -1,12 +1,12 @@
 id: discord__com__invite__hugging__face__879548962464493619
 kind: website
-name: Hugging Face
+name: hugging-face-879548962464493619
 canonical_url: https://discord.com/invite/hugging-face-879548962464493619
 identity: {}
 provenance:
   discoveries:
     - id: discovery__discord__com__invite__hugging__face__879548962464493619__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,22 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An invite link to the official Hugging Face Discord community server for machine learning discussion and support.
-  why_it_matters: It provides developers with a massive real-time channel to troubleshoot model hosting, library usage, and local AI setups.
-  mental_damage: Yet another notification badge to ignore while pretending you aren't spending 40 hours a week debugging a tokenizer.
+  summary: A 216,113-member Discord community for Hugging Face users to discuss and democratize machine learning.
+  why_it_matters: Developers can tap into a massive community for troubleshooting local AI setups, model selection, and ML workflow advice.
+  mental_damage: Yet another invite link to a chat room where your 'democratized' question about a 4-bit quantized model will be buried by 200 messages of people posting memes.
   tags:
     - community
-    - discord
-    - hugging-face
-    - support
+    - local-ai
+    - ml-discord
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic community invite link and chat platform entry point, not a developer tool, agent, framework, or infrastructure component.
+  reason: This is a Discord invite link and community hub, not a developer tool, framework, extension, or product.
   evidence:
-    - The URL points to a Discord invite (discord.com/invite) rather than a tool, repo, or product.
-    - Context describes a community server with 215k members for ML discussion, not a developer workflow automation product.
-    - Appears in source lists only under 'Community', which is a social category rather than a tooling category.
+    - The URL is a Discord invite link (discord.com/invite/hugging-face-...).
+    - Scraped context confirms it is a community server with 216,113 members, not a software tool.
+    - Source list 'awesome-local-ai' lists it under 'Community', which is a meta-category for people, not tooling.
 placement:
   primary_category: null
   section: null
@@ -57,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:48.335Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:13.626Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

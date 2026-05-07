@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rplryan__x402-discovery-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,73 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-02-26T10:43:40Z"
+    pushed_at: "2026-03-11T12:16:12Z"
+    description: MCP server for x402 Service Discovery — continuously growing catalog of services, real-time quality signals, facilitator-compat checks. For Claude, Cursor, Windsurf.
+    homepage: https://x402scout.com/
+    topics:
+      - ai-agents
+      - base-chain
+      - base-network
+      - claude
+      - coinbase
+      - cursor
+      - llm-tools
+      - mcp
+      - mcp-server
+      - micropayments
+      - model-context-protocol
+      - service-discovery
+      - usdc
+      - x402
+    last_checked_at: "2026-05-06T22:46:12.595Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:12.595Z"
+      bytes: 17803
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects AI agents to a continuously updated catalog of x402 micropayment services with real-time quality signals and facilitator compatibility checks.
+  why_it_matters: It gives Claude, Cursor, and Windsurf agents a discovery layer for the x402 agentic economy so they can find live, trustworthy, paid APIs without manually vetting endpoints.
+  mental_damage: We’ve reached the point where agents need a dedicated discovery protocol to safely spend micro-budgets across a registry of endpoints that may or may not be alive.
+  tags:
+    - mcp
+    - x402
+    - service-discovery
+    - micropayments
+    - base
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server that exposes x402 service discovery as tools to MCP-compatible clients, matching the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'MCP server for x402 Service Discovery' with Claude, Cursor, Windsurf as targets.
+    - README positions the project as 'This MCP server solves it' and provides MCP tools (scout_route, scout_discover, etc.).
+    - Listed in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing the MCP server identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:12.595Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:17.155Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__k-dense-ai__claude-skills-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for searching and retrieving Claude Agent Skills using vector search
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:01.446Z"
+    last_checked_at: "2026-05-06T22:44:39.240Z"
     readme:
-      fetched_at: "2026-05-05T21:03:01.446Z"
+      fetched_at: "2026-05-06T22:44:39.240Z"
       bytes: 9309
 insights:
-  summary: An MCP server that provides semantic search and progressive retrieval for Claude Agent Skills, allowing any MCP-compatible AI assistant to discover and use curated skill packs.
-  why_it_matters: It bridges the gap between Anthropic's Agent Skills framework and the wider AI ecosystem, letting developers use specialized skills in tools like Cursor, Codex, and Gemini without waiting for native support.
-  mental_damage: We built an entire bridge to deliver skills to our assistants, only for the assistants to learn how to walk across the river themselves a few months later.
+  summary: An MCP server that provides semantic search and retrieval for Claude Agent Skills to any MCP-compatible AI assistant.
+  why_it_matters: It allows developers to expand any coding assistant with a curated library of specialized skills without waiting for native platform support.
+  mental_damage: A bridge built to cross a river that immediately dried up, proving that in AI tooling, 'native adoption' moves faster than a PyPI publish.
   tags:
     - mcp
     - skills
     - vector-search
-    - cursor
-    - agent-skills
+    - context
   confidence: high
 curation:
-  status: excluded
-  reason: The project is explicitly unmaintained and obsolete because major AI platforms have natively adopted the skills system it was built to bridge.
+  status: included
+  reason: The project is an MCP server designed to serve skill content via the Model Context Protocol, fitting the MCP infrastructure definition despite being partially sunset.
   evidence:
-    - "README states: 'This MCP server is no longer hosted or maintained. Agent Skills have been natively adopted by all major AI platforms... There is no longer a need for an MCP bridge.'"
-    - The project describes itself as a bridge to 'bring Anthropic's Agent Skills framework to the entire AI ecosystem,' a use case the author confirms is now obsolete.
+    - Repo description explicitly states 'MCP server for searching and retrieving Claude Agent Skills'.
+    - README confirms it implements the Model Context Protocol to deliver skills to MCP-compatible apps like Cursor.
+    - Source list context confirms placement in 'awesome-mcp-servers' under Server Implementations.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (381) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:01.446Z"
+    updated_at: "2026-05-06T22:44:39.240Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:51.423Z"
+    updated_at: "2026-05-06T23:05:15.113Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

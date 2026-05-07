@@ -1,0 +1,76 @@
+id: huggingface__co__docs__transformers__model__doc__auto
+kind: website
+name: auto
+canonical_url: https://huggingface.co/docs/transformers/model_doc/auto
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__docs__transformers__model__doc__auto__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: support model
+        extracted_url: https://huggingface.co/docs/transformers/model_doc/auto
+        surrounding_text: 27. [Preference Optimization for Vision Language Models with TRL](https://huggingface.co/blog/dpo_vlm) 【[support model](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForVision2Seq)】
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A documentation page for the Hugging Face Transformers library's `auto` classes, which automatically load the correct model architecture based on checkpoint names.
+  why_it_matters: It provides the standard Python API entry point for loading thousands of pretrained models without needing to manually specify architecture classes.
+  mental_damage: Another reminder that while we automate the discovery of model weights, we still haven't automated the discovery of why those weights fail on our specific data.
+  tags:
+    - huggingface
+    - transformers
+    - documentation
+    - ml-library
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation page for an ML library, not a standalone developer tool, agent, or infrastructure product within the catalog's scope.
+  evidence:
+    - URL points to huggingface.co/docs, identifying it as a documentation page rather than a tool or repo.
+    - No repo description, stars, or code artifacts provided; it lacks a standalone product identity.
+    - Source list context (awesome-LLM-resources) categorizes it as a general resource/tip, not a specific developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:02.242Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

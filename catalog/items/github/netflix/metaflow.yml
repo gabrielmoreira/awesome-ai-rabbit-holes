@@ -1,13 +1,13 @@
 id: github__netflix__metaflow
 kind: github-repo
-name: Metaflow
+name: metaflow
 canonical_url: https://github.com/netflix/metaflow
 identity:
   github_repo: netflix/metaflow
 provenance:
   discoveries:
     - id: discovery__github__netflix__metaflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -25,11 +25,11 @@ provenance:
 metadata:
   github:
     stars: 10077
-    forks: 1267
+    forks: 1268
     license: Apache-2.0
     archived: false
     created_at: "2019-09-17T17:48:25Z"
-    pushed_at: "2026-05-05T19:10:56Z"
+    pushed_at: "2026-05-06T22:38:42Z"
     description: Build, Manage and Deploy AI/ML Systems
     homepage: https://metaflow.org
     topics:
@@ -53,50 +53,50 @@ metadata:
       - mlops
       - model-management
       - python
-    last_checked_at: "2026-05-05T21:03:53.228Z"
+    last_checked_at: "2026-05-06T22:45:30.967Z"
     readme:
-      fetched_at: "2026-05-05T21:03:53.228Z"
+      fetched_at: "2026-05-06T22:45:30.967Z"
       bytes: 5267
 insights:
-  summary: Metaflow is a Python framework for building and managing AI/ML systems, handling the lifecycle from local prototyping to production deployment on cloud infrastructure.
-  why_it_matters: It provides a unified API for data scientists and engineers to version experiments, scale compute vertically and horizontally across AWS/Azure/GCP, and deploy reliable workflows without rewriting code for production.
-  mental_damage: You can now orchestrate petabytes of data and hundreds of millions of compute jobs, which is great, because nothing says 'human-centric' like debugging a distributed DAG that processes your entire company's data at 3 AM.
+  summary: Metaflow is a Python framework for building and managing real-life AI/ML systems, from rapid local prototyping in notebooks to scalable production deployments on cloud infrastructure.
+  why_it_matters: It gives data science and engineering teams a unified API to version experiments, scale compute across AWS/Azure/GCP, and deploy reliable ML workflows without reinventing infrastructure.
+  mental_damage: Another framework promising to bridge the notebook-to-production gap, ensuring you can now orchestrate petabytes of regret with a friendly Pythonic API.
   tags:
-    - llmops
     - mlops
-    - python
-    - scaling
     - workflow
+    - python
+    - orchestration
+    - ml-infrastructure
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and framework that developers import to build ML/AI workflows, fitting the ai-frameworks category rather than an orchestration control plane or a coding agent.
+  reason: Metaflow is a code-first framework and SDK used by developers to script and manage ML/AI workflows, fitting the Frameworks & SDKs identity better than orchestration platforms or coding agents.
   evidence:
-    - Repo description defines it as a framework to 'Build, Manage and Deploy AI/ML Systems'.
-    - README describes 'a simple and friendly pythonic API' for scaling and deployment, indicating a library/framework role.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Workflow', confirming its role in the MLOps stack.
+    - Repo description states it is to 'Build, Manage and Deploy AI/ML Systems' with a Pythonic API.
+    - README positions it as a framework for scientists and engineers to manage AI/ML systems from prototypes to production.
+    - Listed in Awesome-LLMOps under 'Large Scale Deployment > Workflow', aligning with workflow engine categorization.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (10077) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:18.926Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:53.228Z"
+    updated_at: "2026-05-06T22:45:30.967Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:17:00.539Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

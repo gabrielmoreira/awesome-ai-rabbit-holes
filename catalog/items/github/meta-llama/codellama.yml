@@ -1,13 +1,13 @@
 id: github__meta-llama__codellama
 kind: github-repo
-name: Code Llama
+name: codellama
 canonical_url: https://github.com/meta-llama/codellama
 identity:
   github_repo: meta-llama/codellama
 provenance:
   discoveries:
-    - id: discovery__github__facebookresearch__codellama__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__meta-llama__codellama__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 16331
-    forks: 1941
+    stars: 16328
+    forks: 1942
     license: NOASSERTION
     archived: true
     created_at: "2023-08-24T14:25:15Z"
@@ -32,31 +32,28 @@ metadata:
     description: Inference code for CodeLlama models
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:36.450Z"
+    last_checked_at: "2026-05-06T22:45:14.584Z"
     readme:
-      fetched_at: "2026-05-05T21:03:36.450Z"
+      fetched_at: "2026-05-06T22:45:14.584Z"
       bytes: 8837
 insights:
-  summary: A minimal inference repository for the Code Llama family of open large language models for code, fine-tuned from Llama 2 by Meta.
-  why_it_matters: It provides the baseline weights and inference code for developers looking to run state-of-the-art, local code generation models without relying on hosted APIs.
-  mental_damage: "Just what the ecosystem needed: another reason to download 131GB of weights, wait 48 hours for a signed URL, and realize your GPU is still too small."
+  summary: Inference code and model weights for the Code Llama family of large language models fine-tuned from Llama 2 for code generation.
+  why_it_matters: It provides the open weights and runtime examples developers need to run or build upon state-of-the-art local code models.
+  mental_damage: Meta gifted us powerful local code models and then promptly archived the repo, ensuring our dependency graphs rot almost as fast as our prompt templates.
   tags:
-    - code-generation
-    - inference
+    - code-models
+    - local-inference
     - llama
-    - local-models
     - meta
+    - inference
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and serves only as minimal inference code for a foundational model, which falls outside the scope of practical developer tooling and into general ML research infrastructure.
+  reason: The repository is archived and functions primarily as a raw model weight distribution with minimal runtime/tooling identity, pushing it out of scope for developer-facing tooling.
   evidence:
-    - Repository is marked as archived, indicating it is no longer actively maintained.
-    - Description and README state it is a 'minimal example to load Code Llama models and run inference', not a developer tool or agent.
-    - Appears in awesome lists under 'Code Models', reinforcing that it is a model weight repo rather than a coding workflow tool.
-    - Repo description states it is 'Inference code for CodeLlama models', and README confirms it is a 'minimal example to load Code Llama models and run inference.'
-    - "The repository has archived: yes, indicating it is no longer actively maintained or intended for new adoption."
-    - The project is a model release artifact rather than a practical AI coding tool, agent, IDE, or developer workflow product.
+    - Repo description states it is 'Inference code for CodeLlama models', not a developer tool.
+    - "Archived: yes, indicating the project is no longer actively maintained."
+    - "README explicitly notes: 'This repository is intended as a minimal example to load Code Llama models and run inference.'"
 placement:
   primary_category: null
   section: null
@@ -64,21 +61,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:03.483Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:36.450Z"
+    updated_at: "2026-05-06T22:45:14.584Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:11.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

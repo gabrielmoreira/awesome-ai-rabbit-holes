@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__punkpeye__awesome-mcp-servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 86298
-    forks: 9854
+    stars: 86360
+    forks: 9892
     license: MIT
     archived: false
     created_at: "2024-11-30T04:49:10Z"
@@ -34,44 +34,49 @@ metadata:
     topics:
       - ai
       - mcp
-    last_checked_at: "2026-05-05T23:08:12.114Z"
+    last_checked_at: "2026-05-06T22:45:59.689Z"
     readme:
-      fetched_at: "2026-05-05T23:08:12.114Z"
+      fetched_at: "2026-05-06T22:45:59.689Z"
       bytes: 512000
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools.
+  why_it_matters: It serves as the primary discovery layer for developers looking to extend AI assistants with new capabilities via standardized MCP servers.
+  mental_damage: We have now successfully abstracted the problem of 'too many AI tools' into the meta-problem of 'maintaining a list of protocols that list tools'.
+  tags:
+    - mcp
+    - directory
+    - ecosystem
+    - discovery
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a high-signal curated index of MCP servers, fitting the 'Lists & Directories' category as a navigation aid for developers.
+  evidence:
+    - "Repo description explicitly states: 'A collection of MCP servers.'"
+    - GitHub topics include 'mcp' and it is sourced from 'awesome-LLM-resources' as an MCP section entry.
+    - README identifies this as 'A curated list of awesome Model Context Protocol (MCP) servers' with a linked web directory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (86298) exceeded threshold (150)
+  reason: Stars (86360) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.572Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:12.114Z"
+    updated_at: "2026-05-06T22:45:59.689Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:12.640Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

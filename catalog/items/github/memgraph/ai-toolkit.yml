@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memgraph__ai-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,54 +29,54 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-04-01T09:54:01Z"
-    pushed_at: "2026-05-05T12:50:13Z"
+    pushed_at: "2026-05-06T14:11:09Z"
     description: "Toolkit for building AI-driven graph apps on Memgraph, with LangChain, MCP, and agent implementations. "
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:35.053Z"
+    last_checked_at: "2026-05-06T22:45:13.425Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.053Z"
+      fetched_at: "2026-05-06T22:45:13.425Z"
       bytes: 7261
 insights:
-  summary: A toolkit for building AI-driven graph applications on Memgraph, providing LangChain integrations, an MCP server, and agents for knowledge graph construction and querying.
-  why_it_matters: It gives developers a ready-made stack to wire graph-powered RAG, natural language database queries, and MCP tooling into their LLM workflows without building the plumbing from scratch.
-  mental_damage: Another delightful reminder that your carefully normalized SQL database is now just a temporary staging area for a graph that an LLM will eventually traverse with alarming confidence.
+  summary: A toolkit for building AI-driven graph applications on Memgraph, providing a core toolbox, LangChain integrations, an MCP server, and utilities for converting unstructured documents into knowledge graphs.
+  why_it_matters: It gives developers a ready-made stack to wire graph-powered RAG and agent workflows into their apps without hand-rolling Memgraph integrations.
+  mental_damage: Yet another SDK bundle promising to turn your documents into a queryable graph, right alongside the three other graph-RAG stacks you abandoned last quarter.
   tags:
-    - graph-rag
-    - mcp
-    - langchain
-    - knowledge-graph
     - memgraph
+    - graph-rag
+    - langchain
+    - mcp
+    - knowledge-graph
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and set of integrations (LangChain, MCP, agents) for developers to build graph-based AI apps, fitting cleanly as an AI framework rather than a hosted product or primary coding agent.
+  reason: The project is a code-first set of libraries and integrations (toolbox, LangChain package, MCP server) for building graph-RAG and agent workflows on Memgraph, fitting the Frameworks & SDKs category.
   evidence:
-    - Repo description explicitly calls it a 'Toolkit for building AI-driven graph apps' with LangChain, MCP, and agent implementations.
-    - README shows multiple pip-installable packages (memgraph-toolbox, langchain-memgraph, mcp-memgraph) used as imported libraries in developer code.
-    - Includes a runnable sql2graph agent and MCP server, but the primary surface is the developer importing these tools, not a hosted control plane.
+    - "Repo description: 'Toolkit for building AI-driven graph apps on Memgraph, with LangChain, MCP, and agent implementations.'"
+    - README shows multiple pip-installable packages (memgraph-toolbox, langchain-memgraph, mcp-memgraph, unstructured2graph) used as code-first building blocks.
+    - Source list appearance in awesome-mcp-servers under Databases, but primary identity is a broader Memgraph toolkit, not only MCP infrastructure.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.053Z"
+    updated_at: "2026-05-06T22:45:13.425Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:48.549Z"
+    updated_at: "2026-05-06T23:12:58.543Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

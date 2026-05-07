@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__langtail__ai-orchestra__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -47,50 +47,50 @@ metadata:
       - swarm
       - typescript
       - vercel-ai-sdk
-    last_checked_at: "2026-05-05T21:03:16.982Z"
+    last_checked_at: "2026-05-06T22:44:56.105Z"
     readme:
-      fetched_at: "2026-05-05T21:03:16.982Z"
+      fetched_at: "2026-05-06T22:44:56.105Z"
       bytes: 12949
 insights:
-  summary: A lightweight TypeScript library for orchestrating AI agent handoffs and state transitions, built around Vercel's AI SDK streamText as a simpler alternative to LangGraph.
-  why_it_matters: It gives developers a code-first way to model multi-agent workflows with streaming and explicit state control without adopting a heavier framework.
-  mental_damage: Streaming Claude handoffs in a state machine you wrote yourself is the new spinning cursor of moral superiority.
+  summary: A lightweight TypeScript library for orchestrating multiple AI agents with state transitions, built around Vercel's streamText as a simpler alternative to LangGraph.
+  why_it_matters: Developers building multi-agent workflows get a minimal, streaming-first orchestration layer with clear state control and low overhead compared to heavier graph frameworks.
+  mental_damage: Another proud entry in the growing genre where we wrap a three-file TypeScript library around an SDK and declare victory over the agent orchestration problem.
   tags:
     - agent-orchestration
     - typescript
-    - vercel-ai-sdk
     - state-machine
-    - streaming
-  confidence: high
+    - vercel-ai-sdk
+    - multi-agent
+  confidence: medium
 curation:
   status: included
-  reason: This is a developer-imported SDK for building agent behavior in code, which fits ai-frameworks rather than a control-plane orchestration platform.
+  reason: The project is primarily a code-first library (imported and scripted in TypeScript) for building multi-agent workflows, making it a clear fit for Frameworks & SDKs rather than an operated platform.
   evidence:
-    - "Repo description: 'Simple orchestration for AI Agents built around Vercel's streamText.'"
-    - README positions it as 'a simpler alternative to LangGraph' with an npm install and TypeScript API.
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > TypeScript & Node.js Frameworks'.
+    - Readme shows npm install ai-orchestra and imports like createOrchestra, createToolResponse, processStream.
+    - Repo description explicitly calls it 'simple orchestration for AI Agents built around Vercel's streamText'.
+    - Source list places it under 'Core Frameworks > TypeScript & Node.js Frameworks' in an agent-orchestration repo.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:16.982Z"
+    updated_at: "2026-05-06T22:44:56.105Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:18.976Z"
+    updated_at: "2026-05-06T23:08:46.218Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

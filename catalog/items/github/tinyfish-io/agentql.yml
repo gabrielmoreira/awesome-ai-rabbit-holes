@@ -1,13 +1,13 @@
 id: github__tinyfish-io__agentql
 kind: github-repo
-name: AgentQL
+name: agentql
 canonical_url: https://github.com/tinyfish-io/agentql
 identity:
   github_repo: tinyfish-io/agentql
 provenance:
   discoveries:
     - id: discovery__github__tinyfish-io__agentql__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,75 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1343
+    forks: 154
+    license: MIT
+    archived: false
+    created_at: "2024-02-20T19:56:33Z"
+    pushed_at: "2026-05-06T02:18:36Z"
+    description: AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.
+    homepage: https://agentql.com
+    topics:
+      - agent
+      - ai
+      - aiagent
+      - automation
+      - javascript
+      - playwright
+      - python
+      - rpa
+      - scraping
+      - web
+      - web-scraping
+      - web-scraping-colabs
+      - web-scraping-javascript
+      - web-scraping-python
+      - web-scrapping
+      - webagent
+    last_checked_at: "2026-05-06T22:46:51.105Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:51.105Z"
+      bytes: 15444
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AgentQL is a suite of tools for connecting AI agents and LLMs to the web, featuring a natural language query language, Python and JavaScript SDKs, Playwright integrations, a REST API, and a browser debugger for extracting data and automating workflows on live sites.
+  why_it_matters: It allows developers to build resilient, self-healing web automation and scraping scripts that work across dynamic and authenticated sites using natural language selectors instead of brittle CSS or XPath.
+  mental_damage: Yet another framework promising to finally teach your agent how to click the 'Accept Cookies' button, provided you can perfectly phrase the query in their proprietary dialect.
+  tags:
+    - web-automation
+    - scraping
+    - playwright
+    - sdk
+    - agent-tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is primarily a code-first toolkit (SDKs, API, query language) for developers to script web interactions and data extraction for their own agents or automation workflows.
+  evidence:
+    - Repo description explicitly calls it a 'suite of tools' with 'Python and JavaScript SDKs, browser debugger, and REST API'.
+    - README details SDKs for Python and JS, a REST API, and integrations with Langchain and Playwright, positioning it as a developer building block.
+    - Although listed in awesome-mcp-servers, the core product identity is the query language and SDKs, with MCP being just one of many integrations.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1343) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:51.105Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:30.030Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

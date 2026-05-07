@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__theobrigitte__mcp-time__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 15
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-07-09T14:43:04Z"
+    pushed_at: "2026-03-30T10:02:59Z"
+    description: MCP (Model Context Protocol) server which provides utilities to work with time and dates, with natural language, multiple formats and timezone convertion capabilities
+    homepage: ""
+    topics:
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - modelcontextprotocol
+    last_checked_at: "2026-05-06T22:46:47.382Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:47.382Z"
+      bytes: 8885
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI assistants with tools for time and date operations, including natural language parsing, timezone conversion, and duration math.
+  why_it_matters: It allows coding agents and MCP clients to handle temporal logic and scheduling tasks without hallucinating date math or timezone offsets.
+  mental_damage: We have successfully abstracted telling the time into a network request that requires a protocol handshake, a server process, and a token budget.
+  tags:
+    - mcp
+    - time
+    - tooling
+    - server
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server providing time utilities, fitting cleanly into the MCP Servers & Tooling category as a domain-specific tool server.
+  evidence:
+    - Repo description explicitly states 'MCP (Model Context Protocol) server which provides utilities to work with time and dates'.
+    - README states 'The Time MCP Server is a Model Context Protocol (MCP) server that provides AI assistants... with standardized tools'.
+    - Listed in awesome-mcp-servers under the 'Community Servers' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:47.383Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:50.113Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

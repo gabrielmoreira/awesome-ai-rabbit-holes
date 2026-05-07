@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genomoncology__biomcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 499
+    stars: 501
     forks: 101
     license: MIT
     archived: false
@@ -44,50 +44,50 @@ metadata:
       - model-context-protocol
       - pubmed
       - pubmed-central
-    last_checked_at: "2026-05-05T21:02:18.787Z"
+    last_checked_at: "2026-05-06T22:44:00.351Z"
     readme:
-      fetched_at: "2026-05-05T21:02:18.787Z"
+      fetched_at: "2026-05-06T22:44:00.351Z"
       bytes: 16446
 insights:
-  summary: BioMCP is an MCP server and CLI tool that unifies biomedical data sources—including PubMed, clinical trials, and genomics databases—into a single query grammar for researchers and AI agents.
-  why_it_matters: It provides developers building biomedical agent workflows with a ready-to-use MCP interface and CLI grammar for cross-entity search, enrichment, and study analysis across multiple public APIs.
-  mental_damage: Yet another MCP server joins the party, proving that the hot new standard for solving fragmented APIs is to wrap them all in an even hotter new standard.
+  summary: BioMCP is a biomedical MCP server and CLI tool that unifies queries across PubMed, clinical trials, and genomics databases into a single grammar for researchers and AI agents.
+  why_it_matters: It gives coding agents and developers a standardized MCP interface to query live biomedical literature and patient data without wrestling with disparate APIs and identifiers.
+  mental_damage: Now your agent can confidently hallucinate oncology advice with the authority of a unified, peer-reviewed literature search.
   tags:
     - mcp
-    - bioinformatics
+    - biomedical
     - cli
+    - domain-server
     - agent-tooling
-    - llm-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server with CLI and HTTP interfaces designed to expose biomedical data sources to AI agents and MCP clients.
+  reason: The product's core identity is a domain-specific MCP server for biomedical data, explicitly designed to be consumed by agents via the Model Context Protocol.
   evidence:
-    - "Repo description explicitly states: 'BioMCP: Biomedical Model Context Protocol'"
-    - README includes MCP client config and 'biomcp serve' / 'biomcp serve-http' commands for MCP server deployment
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'
+    - "Repo description states 'BioMCP: Biomedical Model Context Protocol' and topics include 'mcp-server'."
+    - "README provides MCP client configuration: 'command: biomcp, args: [serve]'."
+    - Listed in 'awesome-mcp-servers' under the Biology, Medicine and Bioinformatics section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (499) exceeded threshold (150)
+  reason: Stars (501) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:18.787Z"
+    updated_at: "2026-05-06T22:44:00.351Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:54.925Z"
+    updated_at: "2026-05-06T22:57:19.329Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

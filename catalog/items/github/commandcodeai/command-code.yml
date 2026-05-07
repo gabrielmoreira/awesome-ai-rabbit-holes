@@ -1,13 +1,13 @@
 id: github__commandcodeai__command-code
 kind: github-repo
-name: Command Code
+name: command-code
 canonical_url: https://github.com/commandcodeai/command-code
 identity:
   github_repo: commandcodeai/command-code
 provenance:
   discoveries:
     - id: discovery__github__commandcodeai__command-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3153
+    stars: 3163
     forks: 326
     license: null
     archived: false
@@ -46,50 +46,49 @@ metadata:
       - harness
       - kimi
       - openai
-    last_checked_at: "2026-05-05T21:01:39.405Z"
+    last_checked_at: "2026-05-06T22:43:26.422Z"
     readme:
-      fetched_at: "2026-05-05T21:01:39.405Z"
+      fetched_at: "2026-05-06T22:43:26.422Z"
       bytes: 4001
 insights:
-  summary: A terminal-based, npm-installable coding agent that builds features, fixes bugs, and writes tests while learning a personalized 'taste' profile from the developer's code review feedback.
-  why_it_matters: It attempts to solve the context-drift problem by enforcing a learned coding style directly in the terminal workflow, rather than just generating generic code.
-  mental_damage: Now you can outsource your impostor syndrome to a CLI tool that judges your coding taste and remembers every time you accepted a hacky fix.
+  summary: Command Code is a terminal-based coding agent that builds, tests, and refactors full-stack projects while learning a personalized 'taste' profile from the developer's code review choices.
+  why_it_matters: It aims to reduce the friction of AI code generation by adapting to your specific coding style and preferences through a feedback loop of accepts, rejects, and edits.
+  mental_damage: We've successfully replaced the tedious task of writing code with the equally tedious task of training a model to mimic our own inconsistent coding habits.
   tags:
     - cli
     - coding-agent
-    - npm
-    - taste
+    - taste-learning
     - terminal
   confidence: high
 curation:
   status: included
-  reason: The tool is a terminal-native coding agent that directly edits code, manages workflows, and learns user preferences, fitting the coding-agents definition perfectly.
+  reason: The product is a standalone CLI coding agent designed to be the primary assistant for developers, directly handling repo work, not merely extending another tool.
   evidence:
     - Repo description identifies it as 'Command Code AI' and topics include 'cli' and 'coding-agent'.
-    - README states it is 'The coding agent that learns your coding taste' and handles building, fixing, and refactoring in the terminal.
-    - Already curated in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents'.
+    - README states it is 'The coding agent that learns your coding taste' and ships features, fixes bugs, and writes tests.
+    - Source list 'awesome-cli-coding-agents' classifies it under 'Terminal-native coding agents > Closed Source'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3153) exceeded threshold (150)
+  reason: Stars (3163) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:04.486Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:39.405Z"
+    updated_at: "2026-05-06T22:43:26.422Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:15.748Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

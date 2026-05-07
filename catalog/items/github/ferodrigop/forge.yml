@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferodrigop__forge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Terminal MCP server for AI coding agents — spawn, manage, and monitor PTY sessions via the Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:10.330Z"
+    last_checked_at: "2026-05-06T22:43:53.039Z"
     readme:
-      fetched_at: "2026-05-05T21:02:10.330Z"
+      fetched_at: "2026-05-06T22:43:53.039Z"
       bytes: 28958
 insights:
   summary: A terminal MCP server that lets AI coding agents spawn, manage, and monitor persistent PTY sessions with incremental output reading and a web dashboard.
-  why_it_matters: It allows agents like Claude Code and Codex to run multiple long-lived processes in parallel and read only new output, reducing context-window waste during full-stack development.
-  mental_damage: We have finally built infrastructure so your AI agents can open terminals, run servers, and ignore the output just as efficiently as you do.
+  why_it_matters: It gives coding agents persistent, parallel terminal sessions so they can run full-stack dev servers and long-running processes without choking on context or one-command-at-a-time bottlenecks.
+  mental_damage: We have finally built infrastructure so your AI can watch its own React app crash in a headless terminal while you nervously refresh a dashboard instead of the actual code.
   tags:
     - mcp
     - terminal
     - pty
-    - agents
-    - cli
+    - multi-agent
+    - context
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server purpose-built to give coding agents persistent terminal capabilities, which fits cleanly as MCP infrastructure rather than being a primary coding assistant itself.
+  reason: The product’s core identity is an MCP server for terminal and PTY capabilities, fitting cleanly as MCP infrastructure rather than a standalone coding assistant or thin extension.
   evidence:
-    - Repo description explicitly states 'Terminal MCP server for AI coding agents — spawn, manage, and monitor PTY sessions via the Model Context Protocol.'
-    - README positions Forge as tooling that 'works with any MCP-compatible client' and highlights MCP-specific features like incremental reads and multi-agent orchestration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Command Line', reinforcing its role as MCP infrastructure.
+    - Repo description explicitly states 'Terminal MCP server for AI coding agents'
+    - README positions it as an MCP server with PTY sessions, incremental reads, and multi-agent orchestration for MCP-compatible clients
+    - Listed in awesome-mcp-servers under Server Implementations > Command Line
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:10.330Z"
+    updated_at: "2026-05-06T22:43:53.039Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:19:22.233Z"
+    updated_at: "2026-05-06T22:55:50.326Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__traceloop__openllmetry
 kind: github-repo
-name: Openllmetry
+name: openllmetry
 canonical_url: https://github.com/traceloop/openllmetry
 identity:
   github_repo: traceloop/openllmetry
 provenance:
   discoveries:
     - id: discovery__github__traceloop__openllmetry__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [Traceloop OpenLLMetry](https://github.com/traceloop/openllmetry)                              | OpenTelemetry-based observability and monitoring for LLM and agents workflows.                                                           | ![GitHub Badge](https://img.shields.io/github/stars/traceloop/openllmetry.svg?style=flat-square)"
         confidence: high
     - id: discovery__github__traceloop__openllmetry__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -40,47 +40,77 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7075
+    forks: 951
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-09-02T14:42:59Z"
+    pushed_at: "2026-05-06T16:18:18Z"
+    description: Open-source observability for your GenAI or LLM application, based on OpenTelemetry
+    homepage: https://www.traceloop.com/openllmetry
+    topics:
+      - artifical-intelligence
+      - datascience
+      - generative-ai
+      - good-first-issue
+      - good-first-issues
+      - help-wanted
+      - llm
+      - llmops
+      - metrics
+      - ml
+      - model-monitoring
+      - monitoring
+      - observability
+      - open-source
+      - open-telemetry
+      - opentelemetry
+      - opentelemetry-python
+      - python
+    last_checked_at: "2026-05-06T22:46:53.868Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:53.868Z"
+      bytes: 10770
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: OpenLLMetry is a set of OpenTelemetry-based instrumentations and an SDK for adding observability, tracing, and metrics to LLM applications and vector databases.
+  why_it_matters: It allows developers to monitor token usage, latency, and prompt flow in their GenAI stacks using standard OTel pipelines connected to existing tools like Datadog or Honeycomb.
+  mental_damage: You now have perfect visibility into just how many tokens your 'simple' RAG app burns while returning the wrong answer with deterministic latency.
+  tags:
+    - observability
+    - llmops
+    - opentelemetry
+    - python
+    - tracing
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a developer-facing SDK and instrumentation library for tracing and monitoring LLM applications, fitting the eval/observability mold rather than an agent or extension.
+  evidence:
+    - "Repo description: 'Open-source observability for your GenAI or LLM application, based on OpenTelemetry'"
+    - "README: 'standard OpenTelemetry instrumentations for LLM providers and Vector DBs' and 'tracing your code with OpenLLMetry'"
+    - "Source lists: Featured in Awesome-LLMOps under 'Security > Observability'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (7075) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.672Z"
+    updated_at: "2026-05-06T22:12:15.594Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:53.868Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:00.037Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

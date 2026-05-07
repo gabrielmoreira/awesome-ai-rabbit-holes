@@ -1,13 +1,13 @@
 id: github__coder__code-server
 kind: github-repo
-name: code server
+name: code-server
 canonical_url: https://github.com/coder/code-server
 identity:
   github_repo: coder/code-server
 provenance:
   discoveries:
     - id: discovery__github__coder__code-server__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 77407
-    forks: 6645
+    stars: 77423
+    forks: 6647
     license: MIT
     archived: false
     created_at: "2019-02-27T16:50:41Z"
-    pushed_at: "2026-05-01T12:43:43Z"
+    pushed_at: "2026-05-06T22:18:46Z"
     description: VS Code in the browser
     homepage: https://coder.com
     topics:
@@ -40,49 +40,49 @@ metadata:
       - remote-work
       - vscode
       - vscode-remote
-    last_checked_at: "2026-05-05T21:01:37.992Z"
+    last_checked_at: "2026-05-06T22:43:25.131Z"
     readme:
-      fetched_at: "2026-05-05T21:01:37.992Z"
+      fetched_at: "2026-05-06T22:43:25.131Z"
       bytes: 3353
 insights:
-  summary: Run VS Code on any machine and access it directly in a web browser.
-  why_it_matters: It enables remote development and consistent coding environments accessible from any device with a browser, which is foundational for running modern AI coding agents in the cloud.
-  mental_damage: We have successfully orchestrated a stack of abstractions so deep that we now run a fully indexed IDE inside a browser tab, just to ask an AI to write the code we no longer have time to understand.
+  summary: Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints.
+  why_it_matters: It allows developers to use a familiar IDE environment from any device with a browser, enabling consistent remote development workflows.
+  mental_damage: Now you can drain your laptop battery watching a browser tab spin while your actual code compiles on a server you have to maintain yourself.
   tags:
-    - browser-ide
-    - cloud
+    - ide
     - remote-development
     - vscode
-  confidence: high
+    - browser-ide
+  confidence: medium
 curation:
   status: included
-  reason: It is the definitive browser-based IDE and development environment, fitting the 'AI IDEs and Editors' category as the host environment for AI tooling.
+  reason: The product is a remote development environment that hosts VS Code in the browser, fitting the IDE/Editor category for remote surfaces, though it is a conventional IDE wrapper rather than an AI-native tool.
   evidence:
-    - Repo description explicitly states 'VS Code in the browser'.
-    - README highlights running VS Code on any machine and accessing it via browser with cloud server speed-ups.
-    - High traction with 77,407 stars and active maintenance (pushed 2026-05-01).
+    - Repo description states 'VS Code in the browser'
+    - README highlights running VS Code on any machine and accessing it via browser
+    - Listed in Awesome-LLMOps under 'Training > IDEs and Workspaces'
 placement:
   primary_category: ai-ides-editors
-  section: null
+  section: Remote / Hosted Editor Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (77407) exceeded threshold (150)
+  reason: Stars (77423) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:47.690Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:37.992Z"
+    updated_at: "2026-05-06T22:43:25.131Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:06.469Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

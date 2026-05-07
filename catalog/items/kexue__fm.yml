@@ -1,0 +1,76 @@
+id: kexue__fm
+kind: website
+name: kexue.fm
+canonical_url: https://kexue.fm
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__kexue__fm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: "Blog: 科学空间（苏剑林）"
+        extracted_url: https://kexue.fm
+        surrounding_text: "22. [Blog: 科学空间（苏剑林）](https://kexue.fm/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language blog and resource hub covering advanced LLM topics including multimodal generation, agents, auxiliary programming, and model training.
+  why_it_matters: It serves as a centralized knowledge base for developers navigating the rapidly expanding, and often chaotic, landscape of Chinese and global LLM research.
+  mental_damage: Yet another reminder that while you're debugging a null pointer, the rest of the world is publishing tutorials on o1 model architectures and AI peer review.
+  tags:
+    - llm-resources
+    - tutorials
+    - chinese-ai
+    - research
+  confidence: high
+curation:
+  status: excluded
+  reason: The site is a publication and educational resource hub, not a developer-facing tool, agent, or infrastructure component.
+  evidence:
+    - Listed in awesome-LLM-resources specifically as a '教程 Tutorial' (Tutorial) section.
+    - Description emphasizes 'resources' and 'summary' of LLM knowledge rather than a product or tool.
+    - Lacks a repo description, README, or code signals indicating a buildable/runnable developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:48.934Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

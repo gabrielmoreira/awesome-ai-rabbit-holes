@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rohitg00__kubectl-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 878
+    forks: 168
+    license: MIT
+    archived: false
+    created_at: "2025-03-23T17:49:07Z"
+    pushed_at: "2026-04-08T22:37:48Z"
+    description: "Published in CNCF Landscape: A MCP server for Kubernetes."
+    homepage: https://www.npmjs.com/package/kubectl-mcp-server
+    topics:
+      - ai
+      - deployment
+      - devops
+      - genai
+      - kubernetes
+      - kubernetes-cluster
+      - kubernetes-tools
+      - llms
+      - mcp
+      - mcp-server
+      - npm
+      - pypi
+    last_checked_at: "2026-05-06T22:46:11.877Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.877Z"
+      bytes: 41469
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes 253 Kubernetes tools—including diagnostics, deployment, cost optimization, and dashboards—so AI assistants can manage clusters via natural language.
+  why_it_matters: It lets developers delegate day-to-day Kubernetes operations to their AI assistant instead of memorizing kubectl incantations or writing one-off scripts.
+  mental_damage: You can now debug a crashed pod at 2 a.m. by arguing with an LLM instead of reading YAML, which somehow feels like progress until the model decides to scale your production replica set to zero.
+  tags:
+    - mcp
+    - kubernetes
+    - devops
+    - infrastructure
+    - ai-assistant
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product’s identity is an MCP server for Kubernetes, fitting cleanly as domain-specific MCP infrastructure rather than a generic coding agent or extension.
+  evidence:
+    - "Repo description states: 'A MCP server for Kubernetes' and it is listed in awesome-mcp-servers under Server Implementations."
+    - README emphasizes '253 powerful tools' exposed via MCP to control Kubernetes clusters through natural language with AI assistants.
+    - Active project (pushed 2026-04-08) with packages on npm and PyPI, and inclusion in the CNCF Landscape.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (878) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.877Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:05.716Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

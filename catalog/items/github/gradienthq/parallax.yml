@@ -1,13 +1,13 @@
 id: github__gradienthq__parallax
 kind: github-repo
-name: Parallax
+name: parallax
 canonical_url: https://github.com/gradienthq/parallax
 identity:
   github_repo: gradienthq/parallax
 provenance:
   discoveries:
     - id: discovery__github__gradienthq__parallax__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1272
+    stars: 1274
     forks: 134
     license: Apache-2.0
     archived: false
@@ -49,50 +49,49 @@ metadata:
       - pytorch
       - qwen
       - transformer
-    last_checked_at: "2026-05-05T21:02:26.643Z"
+    last_checked_at: "2026-05-06T22:44:07.168Z"
     readme:
-      fetched_at: "2026-05-05T21:02:26.643Z"
+      fetched_at: "2026-05-06T22:44:07.168Z"
       bytes: 8412
 insights:
-  summary: Parallax is a distributed model serving framework that enables developers to build local AI clusters by pooling GPUs and devices across different locations for LLM inference.
-  why_it_matters: It allows developers to run large models like DeepSeek and Qwen by sharding them across personal hardware, bypassing centralized API costs and constraints.
-  mental_damage: Finally, a way to turn your team's collection of mismatched MacBooks and spare GPUs into a distributed cluster that will inevitably spend more time debugging P2P connections than generating tokens.
+  summary: Parallax is a distributed model serving framework that enables developers to build self-hosted AI clusters by pooling GPUs across heterogeneous, geographically dispersed nodes.
+  why_it_matters: It allows teams to bypass centralized inference APIs by turning a mix of local Macs and remote GPUs into a unified, high-performance serving layer for running models like Qwen, DeepSeek, and Llama.
+  mental_damage: Now you can finally justify keeping that rack of mismatched GPUs in the closet by pretending your side project has the infrastructure needs of a mid-sized sovereign nation.
   tags:
-    - distributed-systems
-    - inference
-    - llm-serving
+    - distributed-inference
     - local-ai
+    - gpu-cluster
     - self-hosted
   confidence: high
 curation:
-  status: included
-  reason: The project is a developer-facing infrastructure tool for running LLMs locally and across distributed nodes, fitting the local-ai category's focus on private/on-device execution stacks.
+  status: excluded
+  reason: While it is a useful developer tool, it is primarily an ML infrastructure and model serving framework (akin to a decentralized vLLM), which falls outside the catalog's scope of coding assistants, agent workflows, and developer-facing AI tooling.
   evidence:
-    - Repo description explicitly states it is a 'distributed model serving framework' for building your own AI cluster.
-    - README highlights 'Host local LLM on personal devices' and 'Pipeline parallel model sharding' as core features.
-    - Backend integrates with SGLang and vLLM, positioning it as infrastructure for local/decentralized inference rather than a coding assistant.
+    - Repo description and README define it as a 'distributed model serving framework' and 'inference engine', not a coding assistant.
+    - Topics and architecture focus on LLM serving, pipeline parallel sharding, and GPU backends (SGLang, vLLM, MLX) rather than code editing or agent orchestration.
+    - Listed in awesome-LLM-resources under 'Inference', reinforcing its identity as an ML infrastructure component rather than a developer productivity tool.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1272) exceeded threshold (150)
+  reason: Stars (1274) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:42.696Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:26.643Z"
+    updated_at: "2026-05-06T22:44:07.168Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:42.437Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

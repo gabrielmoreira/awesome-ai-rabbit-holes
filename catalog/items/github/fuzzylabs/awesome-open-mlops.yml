@@ -1,13 +1,13 @@
 id: github__fuzzylabs__awesome-open-mlops
 kind: github-repo
-name: Awesome Open MLOps
+name: awesome-open-mlops
 canonical_url: https://github.com/fuzzylabs/awesome-open-mlops
 identity:
   github_repo: fuzzylabs/awesome-open-mlops
 provenance:
   discoveries:
     - id: discovery__github__fuzzylabs__awesome-open-mlops__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,49 +38,49 @@ metadata:
       - machine-learning
       - machinelearning
       - mlops
-    last_checked_at: "2026-05-05T21:02:16.658Z"
+    last_checked_at: "2026-05-06T22:43:58.356Z"
     readme:
-      fetched_at: "2026-05-05T21:02:16.658Z"
+      fetched_at: "2026-05-06T22:43:58.356Z"
       bytes: 24508
 insights:
-  summary: A curated, opinionated list of free and open source tools across the entire MLOps lifecycle, maintained by Fuzzy Labs.
-  why_it_matters: It provides developers with a filter for production-grade open source MLOps infrastructure, saving time otherwise spent vetting SaaS-lite tools that lack standalone functionality.
-  mental_damage: Yet another stellar map of the MLOps galaxy that will sit open in a tab until you eventually close it and just guess which labeling tool to use anyway.
+  summary: A curated guide and directory of free and open source MLOps tools covering the full lifecycle from data annotation to model monitoring.
+  why_it_matters: It provides developers with a vetted, fully open-source map of the MLOps ecosystem, filtering out vendor-locked or SaaS-pushing tools.
+  mental_damage: Yet another beautiful list to ponder endlessly while your actual model training sits idle, waiting for you to finally pick a feature store.
   tags:
-    - awesome-list
-    - infrastructure
     - mlops
+    - awesome-list
     - open-source
+    - directory
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list of tools rather than a standalone developer tool itself, fitting the awesome-awesomes category.
+  reason: This is a curated directory and discovery map for open-source MLOps tooling, fitting the 'Lists & Directories' category as a navigation aid for developers.
   evidence:
     - Repo description explicitly calls it 'The Fuzzy Labs guide to the universe of open source MLOps'.
-    - README structure is a categorized list of external tools (Label Studio, CVAT, etc.) with licensing and descriptions.
-    - Listed in the 'Awesome-LLMOps' directory under the 'Awesome Lists' section, confirming its status as a navigation aid.
+    - README structures the content as a categorized list of tools across data annotation, training, deployment, and monitoring.
+    - Seen in the 'Awesome-LLMOps' list under the 'Awesome Lists' section, confirming its identity as a curated directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
   reason: Stars (481) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:28.499Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:16.658Z"
+    updated_at: "2026-05-06T22:43:58.356Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:53.507Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

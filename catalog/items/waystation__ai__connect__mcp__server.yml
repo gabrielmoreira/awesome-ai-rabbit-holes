@@ -1,12 +1,12 @@
 id: waystation__ai__connect__mcp__server
 kind: website
-name: WayStation
+name: mcp-server
 canonical_url: https://waystation.ai/connect/mcp-server
 identity: {}
 provenance:
   discoveries:
     - id: discovery__waystation__ai__connect__mcp__server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: WayStation is a no-code integration hub that connects any MCP host with daily productivity apps and tools.
-  why_it_matters: It allows developers to quickly bridge MCP-compatible hosts like Claude or ChatGPT with external tools without writing custom server code.
-  mental_damage: We have successfully abstracted the abstraction, meaning you can now pay a SaaS to manage the protocol that was supposed to simplify integrations in the first place.
+  summary: WayStation is a no-code, secure integration hub that acts as a universal MCP server to connect any MCP host with daily productivity tools.
+  why_it_matters: It simplifies the fragmented MCP ecosystem by offering a single middleware layer to bridge hosts like Claude and ChatGPT with external applications without writing code.
+  mental_damage: "Just what the ecosystem needed: another universal abstraction layer promising to be the 'only' thing you need, right before the next 'only' thing launches next Tuesday."
   tags:
-    - integration
     - mcp
     - middleware
+    - integrations
     - no-code
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP integration hub and server middleware, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is a universal MCP server and integration hub, fitting squarely into MCP infrastructure rather than a generic extension or framework.
   evidence:
-    - Scraped site title and description identify it as 'The only MCP Server you need' and an 'integration hub'.
-    - Source list context places it under 'Official Servers' in the awesome-mcp-servers directory.
-    - The excerpt explicitly mentions connecting MCP hosts with tools like Claude and ChatGPT.
+    - Listed in awesome-mcp-servers under 'Official Servers'.
+    - "Scraped site states: 'The only MCP Server you need. Connect any MCP host with the tools you use daily through our no-code, secure integration hub.'"
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:10.411Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:10.685Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

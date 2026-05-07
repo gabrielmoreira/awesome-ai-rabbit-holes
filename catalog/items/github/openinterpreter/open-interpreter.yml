@@ -1,28 +1,13 @@
 id: github__openinterpreter__open-interpreter
 kind: github-repo
-name: Open Interpreter
+name: open-interpreter
 canonical_url: https://github.com/openinterpreter/open-interpreter
 identity:
   github_repo: openinterpreter/open-interpreter
 provenance:
   discoveries:
-    - id: discovery__github__killianlucas__open-interpreter__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: janhq/awesome-local-ai
-        url: https://github.com/janhq/awesome-local-ai
-        repository: janhq/awesome-local-ai
-      extraction:
-        mode: parsed
-        section_path:
-          - Agents
-        anchor_text: Open Interpreter
-        extracted_url: https://github.com/killianlucas/open-interpreter
-        surrounding_text: "- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Let language models run code. Have your agent write and execute code."
-        confidence: high
     - id: discovery__github__openinterpreter__open-interpreter__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -37,8 +22,23 @@ provenance:
         extracted_url: https://github.com/openinterpreter/open-interpreter
         surrounding_text: "- **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** `⭐ 63.4k` — Terminal tool that can execute code and actions; often used as a \"do things on my machine\" agent."
         confidence: high
+    - id: discovery__github__openinterpreter__open-interpreter__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents
+        anchor_text: Open Interpreter
+        extracted_url: https://github.com/killianlucas/open-interpreter
+        surrounding_text: "- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Let language models run code. Have your agent write and execute code."
+        confidence: high
     - id: discovery__github__openinterpreter__open-interpreter__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -52,25 +52,25 @@ provenance:
         extracted_url: https://github.com/openinterpreter/open-interpreter
         surrounding_text: "- **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** – Open-source agent that runs code locally in response to natural language, supporting Python, JS, shell, and more."
         confidence: high
-    - id: discovery__www__openinterpreter__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__openinterpreter__open-interpreter__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
       extraction:
         mode: parsed
         section_path:
-          - Open Interpreter
+          - 推理 Inference
         anchor_text: Open Interpreter
-        extracted_url: https://openinterpreter.com
-        surrounding_text: "## [Open Interpreter](https://openinterpreter.com/)"
+        extracted_url: https://github.com/openinterpreter/open-interpreter
+        surrounding_text: "15. [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter): A natural language interface for computers."
         confidence: high
 metadata:
   github:
-    stars: 63394
-    forks: 5526
+    stars: 63409
+    forks: 5523
     license: AGPL-3.0
     archived: false
     created_at: "2023-07-14T07:10:44Z"
@@ -84,56 +84,50 @@ metadata:
       - javascript
       - nodejs
       - python
-    last_checked_at: "2026-05-05T21:04:06.158Z"
+    last_checked_at: "2026-05-06T22:45:42.965Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.158Z"
+      fetched_at: "2026-05-06T22:45:42.965Z"
       bytes: 14378
 insights:
-  summary: A terminal-based natural language interface that lets LLMs run Python, JavaScript, and shell commands locally to automate tasks on your computer.
-  why_it_matters: It gives developers a local, unrestricted coding agent that can manipulate files, control browsers, and analyze data without the sandbox limits of hosted Code Interpreters.
-  mental_damage: Yet another reason to feel guilty about charging hourly for a task that a local Python script just negotiated with itself to complete in under sixty seconds.
+  summary: Open Interpreter is a terminal-based natural language interface that runs Python, JavaScript, and shell code locally via LLMs to perform tasks like data analysis, file manipulation, and browser automation.
+  why_it_matters: It gives developers a local, unrestricted alternative to OpenAI's Code Interpreter with full system access, internet connectivity, and no runtime limits.
+  mental_damage: Another chance to discover that 'plot AAPL and META's normalized stock prices' is a more compelling task than the Jira ticket you were supposed to finish 20 minutes ago.
   tags:
     - cli
-    - code-execution
-    - coding-agent
-    - desktop-agent
-    - document-automation
     - local-ai
-    - pdf-forms
-    - terminal
+    - code-execution
+    - terminal-agent
+    - python
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing coding agent that runs locally in the terminal/IDE context to plan, write, and execute code directly on the user's machine.
+  reason: It fits as a Terminal & CLI Agent because it acts as a primary coding assistant in the terminal that plans and executes code across a local environment.
   evidence:
-    - Repo description defines it as 'A natural language interface for computers' that runs code locally.
-    - README states it lets LLMs 'run code (Python, Javascript, Shell, and more) locally' via a ChatGPT-like terminal interface.
-    - Source list context confirms inclusion in 'awesome-local-ai' under the 'Agents' section with high ecosystem traction (63k stars).
-    - "Repo description: 'A natural language interface for computers' that runs code locally via a ChatGPT-like terminal interface."
-    - "README: 'Open Interpreter lets LLMs run code (Python, Javascript, Shell, and more) locally' with user approval before execution."
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - "Repo description: 'A natural language interface for computers'"
+    - "README: 'lets LLMs run code (Python, Javascript, Shell, and more) locally' via a ChatGPT-like terminal interface"
+    - Listed as a 'Terminal-native coding agent' in awesome-cli-coding-agents and 'Coding Agents' in awesome-ai-coding-tools
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (63394) exceeded threshold (150)
+  reason: Stars (63409) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:41.624Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.445Z"
+    updated_at: "2026-05-06T22:12:15.575Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.158Z"
+    updated_at: "2026-05-06T22:45:42.965Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:41.161Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__plastic-labs__tutor-gpt
 kind: github-repo
-name: TutorGPT
+name: tutor-gpt
 canonical_url: https://github.com/plastic-labs/tutor-gpt
 identity:
   github_repo: plastic-labs/tutor-gpt
 provenance:
   discoveries:
     - id: discovery__github__plastic-labs__tutor-gpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -43,20 +43,28 @@ metadata:
       - reasoning
       - theory-of-mind
       - tutoring
-    last_checked_at: "2026-05-05T23:08:06.918Z"
+    last_checked_at: "2026-05-06T22:45:54.927Z"
     readme:
-      fetched_at: "2026-05-05T23:08:06.918Z"
+      fetched_at: "2026-05-06T22:45:54.927Z"
       bytes: 8466
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An LLM-powered learning companion that dynamically updates its own prompts using Theory-of-Mind reasoning to deliver personalized tutoring experiences.
+  why_it_matters: Demonstrates how identity modeling and dynamic prompt rewriting can create adaptive AI personalities, serving as a reference implementation for developer-facing educational agents.
+  mental_damage: Yet another reminder that while an AI can autonomously rewrite its own prompts to teach you literacy, your own team's AI assistant still can't figure out why the build is failing.
+  tags:
+    - education
+    - prompt-engineering
+    - reasoning
+    - langchain
+    - theory-of-mind
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is an end-user education and literacy tutor rather than a developer tool, IDE extension, or coding agent.
+  evidence:
+    - Repo description explicitly defines it as an 'AI tutor powered by Theory-of-Mind reasoning', not a coding assistant.
+    - README states it is an 'LLM powered learning companion' that updates its own prompts, with the hosted version being 'Bloom' for general learning.
+    - Source list context places it under 'Chatbots' in awesome-langchain, not in developer tooling or coding agent sections.
 placement:
   primary_category: null
   section: null
@@ -64,23 +72,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (903) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:06.918Z"
+    updated_at: "2026-05-06T22:45:54.927Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:19.407Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__paddlepaddle__paddleocr
 kind: github-repo
-name: PaddleOCR
+name: paddleocr
 canonical_url: https://github.com/paddlepaddle/paddleocr
 identity:
   github_repo: paddlepaddle/paddleocr
 provenance:
   discoveries:
     - id: discovery__github__paddlepaddle__paddleocr__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 77117
-    forks: 10366
+    stars: 77183
+    forks: 10372
     license: Apache-2.0
     archived: false
     created_at: "2020-05-08T10:38:16Z"
-    pushed_at: "2026-05-04T23:13:53Z"
+    pushed_at: "2026-05-06T03:09:43Z"
     description: Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
     homepage: https://www.paddleocr.com
     topics:
@@ -45,50 +45,50 @@ metadata:
       - pp-ocr
       - pp-structure
       - rag
-    last_checked_at: "2026-05-05T21:04:11.030Z"
+    last_checked_at: "2026-05-06T22:45:47.909Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.030Z"
+      fetched_at: "2026-05-06T22:45:47.909Z"
       bytes: 23379
 insights:
-  summary: A Python-based OCR toolkit that converts PDFs and images into structured data formats like JSON and Markdown for downstream AI and LLM workflows.
-  why_it_matters: It provides the foundational document-parsing layer needed to feed clean, structured data into RAG pipelines, agents, and other LLM applications.
-  mental_damage: Yet another reminder that while models can debate philosophy, we are still writing 70,000-star libraries just to teach computers to read a tilted PDF.
+  summary: A lightweight, multilingual OCR toolkit that converts images and PDFs into structured data formats like JSON and Markdown for use in LLM pipelines.
+  why_it_matters: It provides the document ingestion layer necessary to feed clean, structured context into RAG systems and AI agents without relying on brittle, closed-source parsers.
+  mental_damage: We have successfully abstracted the problem of reading a PDF into a 70k-star repository dependency, ensuring our AI workflows are now bottlenecked by OCR preprocessing rather than the model itself.
   tags:
-    - document-parsing
-    - local-ai
     - ocr
-    - pdf-extraction
+    - document-ai
     - rag
+    - pdf-parsing
+    - paddlepaddle
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing library and SDK for embedding OCR and document-understanding capabilities into applications, fitting the code-first building block definition.
+  reason: The project is a code-first toolkit and library used by developers to parse documents programmatically, fitting the Frameworks & SDKs identity as a building block for AI workflows.
   evidence:
-    - "Repo description: 'Turn any PDF or image document into structured data for your AI... lightweight OCR toolkit.'"
-    - README positions it as an importable engine trusted by Dify, RAGFlow, and Cherry Studio.
-    - Topics include 'document-parsing', 'pdf-parser', and 'rag', indicating a framework/SDK nature.
+    - Repo description explicitly states it is a 'powerful, lightweight OCR toolkit' for structured data.
+    - README positions it as a 'bedrock for building intelligent RAG and Agentic applications' used via import/CLI.
+    - Listed as a canonical positive example within the ai-frameworks category definition.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
-  reason: Stars (77117) exceeded threshold (150)
+  reason: Stars (77183) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:37.100Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.030Z"
+    updated_at: "2026-05-06T22:45:47.909Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:34.584Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

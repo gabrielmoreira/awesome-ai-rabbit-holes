@@ -1,13 +1,13 @@
 id: github__shishirpatil__gorilla
 kind: github-repo
-name: Gorilla
+name: gorilla
 canonical_url: https://github.com/shishirpatil/gorilla
 identity:
   github_repo: shishirpatil/gorilla
 provenance:
   discoveries:
     - id: discovery__github__shishirpatil__gorilla__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -24,47 +24,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12858
+    forks: 1359
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-19T00:46:45Z"
+    pushed_at: "2026-04-13T03:19:45Z"
+    description: "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+    homepage: https://gorilla.cs.berkeley.edu/
+    topics:
+      - api
+      - api-documentation
+      - chatgpt
+      - claude-api
+      - gpt-4-api
+      - llm
+      - openai-api
+      - openai-functions
+    last_checked_at: "2026-05-06T22:46:23.518Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.518Z"
+      bytes: 16591
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL).
+  why_it_matters: It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select models based on their ability to interact with external tools and APIs.
+  mental_damage: We have evolved from 'can the model write a for-loop?' to 'can the model correctly invoke a nested API call without hallucinating a parameter?', and we now need a leaderboard just to track the existential dread of tool integration.
+  tags:
+    - function-calling
+    - benchmarks
+    - llm-eval
+    - api-integration
+    - research
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core identity of this repo is the Berkeley Function-Calling Leaderboard and associated evaluation datasets (BFCL V2/V3/V4) used to measure model tool-use capabilities, fitting the evals category perfectly.
+  evidence:
+    - "Repo description explicitly states: 'Training and Evaluating LLMs for Function Calls (Tool Calls)'."
+    - README highlights the 'Berkeley Function-Calling Leaderboard' (BFCL V4 Agentic) as the primary recent update.
+    - The project includes specific eval datasets like APIBench and runtime evaluation tools like GoEx.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (12858) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.518Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:26.027Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

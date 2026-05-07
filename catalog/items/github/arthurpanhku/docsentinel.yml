@@ -1,13 +1,13 @@
 id: github__arthurpanhku__docsentinel
 kind: github-repo
-name: arthurpanhku/Arthor-Agent
+name: docsentinel
 canonical_url: https://github.com/arthurpanhku/docsentinel
 identity:
   github_repo: arthurpanhku/docsentinel
 provenance:
   discoveries:
-    - id: discovery__github__arthurpanhku__arthor-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__arthurpanhku__docsentinel__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,53 +45,50 @@ metadata:
       - rag
       - security
       - security-assessment
-    last_checked_at: "2026-05-05T21:01:10.257Z"
+    last_checked_at: "2026-05-06T22:12:43.918Z"
     readme:
-      fetched_at: "2026-05-05T21:01:10.257Z"
+      fetched_at: "2026-05-06T22:12:43.918Z"
       bytes: 19595
 insights:
-  summary: An AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph agents to automate security assessments across all six phases of development, from requirements to operations.
-  why_it_matters: It shifts security left by automating the tedious review of documents, threat modeling, and SAST/DAST triage directly into CI/CD pipelines and developer workflows.
-  mental_damage: Finally, an AI agent to automate the security paperwork so you can get back to shipping the vulnerabilities faster.
+  summary: DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations.
+  why_it_matters: It shifts security left by automating threat modeling, compliance gap analysis, and SAST/DAST triage using LLMs and RAG, reducing manual review bottlenecks for security teams.
+  mental_damage: Finally, an AI agent to help you pretend you read the 400-page compliance PDF you uploaded to its knowledge base.
   tags:
-    - compliance
-    - langgraph
-    - mcp
-    - security
     - ssdlc
+    - security
+    - langgraph
+    - rag
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing platform using LangGraph to coordinate multiple specialized AI agents across the software lifecycle, fitting the orchestration category rather than a simple coding assistant.
+  reason: The product is a multi-agent platform orchestrated by LangGraph specifically for the vertical SSDLC workflow, acting as a control plane for security agents rather than a generic coding assistant.
   evidence:
-    - README describes 'stateful, graph-based agent workflows' orchestrated by LangGraph with dedicated personas for each SSDLC phase.
+    - README defines it as an 'AI-powered SSDLC platform' using 'LangGraph orchestration' with stateful, graph-based agent workflows.
+    - Product covers all 6 SSDLC phases (Requirements through Operations) with dedicated AI personas, not just code editing.
     - Built as a headless API + MCP service intended to integrate into CI/CD pipelines and existing security workflows.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' implementations, confirming its role as agent infrastructure.
-    - Repo description explicitly states 'MCP server for AI agent for cybersecurity'.
-    - README highlights 'Headless API + MCP service' and integrations with 'Claude Desktop, Cursor, OpenClaw'.
-    - Badges and documentation confirm 'MCP Ready' status and agent integration focus.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:08.378Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:10.257Z"
+    updated_at: "2026-05-06T22:12:43.918Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:24.067Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

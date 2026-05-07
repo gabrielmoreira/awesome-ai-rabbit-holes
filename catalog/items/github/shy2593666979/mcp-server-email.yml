@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shy2593666979__mcp-server-email__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 76
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-03-23T06:30:02Z"
+    pushed_at: "2025-04-27T14:25:02Z"
+    description: 一个基于 MCP (Model Context Protocol) 的邮件服务，支持 LLM 发送带附件的电子邮件及在指定目录中搜索文件。提供安全的 SMTP 传输、多收件人支持和附件模式匹配搜索功能，适用于 Gmail、Outlook、Yahoo、QQ 邮箱和网易 126 邮箱等主流邮箱服务。
+    homepage: ""
+    topics:
+      - email
+      - mcp
+      - mcp-client
+      - mcp-server
+    last_checked_at: "2026-05-06T22:46:24.550Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:24.550Z"
+      bytes: 4475
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables LLMs to send emails with attachments and search for files in local directories via SMTP.
+  why_it_matters: It gives coding agents and assistants a standardized way to handle email tasks, removing the need to hand-roll SMTP integrations for every new workflow.
+  mental_damage: We have successfully abstracted sending an email into a protocol server so our agents can notify us about the pull requests they opened while we were busy configuring the protocol server.
+  tags:
+    - mcp
+    - email
+    - integration
+    - smpt
+    - llm-tool
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server providing email capabilities, fitting squarely into the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states it is '基于 MCP (Model Context Protocol) 的邮件服务' (an email service based on MCP).
+    - README details tools like `send_email` and `search_attachments` exposed via the Model Context Protocol.
+    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:24.550Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:36.390Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

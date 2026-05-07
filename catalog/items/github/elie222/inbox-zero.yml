@@ -1,13 +1,13 @@
 id: github__elie222__inbox-zero
 kind: github-repo
-name: Inbox Zero
+name: inbox-zero
 canonical_url: https://github.com/elie222/inbox-zero
 identity:
   github_repo: elie222/inbox-zero
 provenance:
   discoveries:
     - id: discovery__github__elie222__inbox-zero__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [elie222/inbox-zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server) 🐍 ☁️ - An MCP server for Inbox Zero. Adds functionality on top of Gmail like finding out which emails you need to reply to or need to follow up on."
         confidence: high
     - id: discovery__github__elie222__inbox-zero__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)"
         confidence: high
     - id: discovery__github__elie222__inbox-zero__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,12 +54,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10626
-    forks: 1314
+    stars: 10635
+    forks: 1315
     license: NOASSERTION
     archived: false
     created_at: "2023-07-12T15:34:57Z"
-    pushed_at: "2026-05-05T20:59:17Z"
+    pushed_at: "2026-05-06T20:33:47Z"
     description: The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
     homepage: https://getinboxzero.com
     topics:
@@ -80,50 +80,50 @@ metadata:
       - turborepo
       - typescript
       - upstash
-    last_checked_at: "2026-05-05T21:02:01.170Z"
+    last_checked_at: "2026-05-06T22:43:45.326Z"
     readme:
-      fetched_at: "2026-05-05T21:02:01.170Z"
+      fetched_at: "2026-05-06T22:43:45.326Z"
       bytes: 6109
 insights:
-  summary: An open-source AI email assistant that organizes inboxes, drafts replies, and manages email workflows via web, Slack, or Telegram integrations.
-  why_it_matters: Developers building AI agents can study its implementation as a practical example of an MCP server for communication tools like Gmail and Slack.
-  mental_damage: We have successfully automated the inbox so thoroughly that we can now achieve zero unread emails while ignoring them just as efficiently as before.
+  summary: An open-source AI email assistant that organizes inboxes, drafts replies, and manages calendar tasks, with optional Slack and Telegram integrations.
+  why_it_matters: It offers developers a self-hostable, customizable alternative to proprietary email AI, including an MCP server for integrating email context into coding workflows.
+  mental_damage: We have successfully automated the inbox zero grind so you can spend the saved time debugging why your MCP server can't quite parse that one recurring GitHub notification.
   tags:
-    - ai-assistant
     - email
     - mcp
+    - self-hosted
+    - productivity
     - nextjs
-    - open-source
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: While primarily an email tool, it is explicitly listed in multiple awesome-mcp-servers directories and serves as a concrete MCP server implementation for email communication.
+  status: excluded
+  reason: Although it provides an MCP server, the core product is a general-purpose email productivity SaaS and not a developer-tooling primitive.
   evidence:
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Communication'.
-    - Repo description identifies it as an AI assistant for email with 10k+ stars.
-    - README highlights integrations with Slack and Telegram to manage the inbox programmatically.
+    - Repo description defines it as 'The world's best AI personal assistant for email', targeting end-users rather than developers.
+    - Primary features are inbox organization, reply drafting, calendar management, and bulk unsubscribe—standard productivity tasks.
+    - Listed in awesome-mcp lists only as a Communication server, which is an integration layer rather than the product's identity.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (10626) exceeded threshold (150)
+  reason: Stars (10635) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:49.720Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.577Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:01.170Z"
+    updated_at: "2026-05-06T22:43:45.326Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:12.170Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

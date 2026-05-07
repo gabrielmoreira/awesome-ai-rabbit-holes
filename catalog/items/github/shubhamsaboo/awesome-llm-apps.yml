@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shubhamsaboo__awesome-llm-apps__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -23,47 +23,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 109053
+    forks: 16132
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-04-29T05:30:25Z"
+    pushed_at: "2026-05-04T06:35:39Z"
+    description: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+    homepage: https://www.theunwindai.com
+    topics:
+      - agents
+      - llms
+      - python
+      - rag
+    last_checked_at: "2026-05-06T22:46:24.489Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:24.489Z"
+      bytes: 20628
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations.
+  why_it_matters: Developers can clone and customize ready-to-run starter code for modern LLM patterns instead of rebuilding RAG pipelines and agent loops from scratch.
+  mental_damage: Yet another opportunity to clone a repo, run three commands, and feel like you've shipped production AI before remembering you still need to handle error boundaries and rate limits.
+  tags:
+    - llm
+    - agents
+    - rag
+    - templates
+    - cookbook
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a curated directory and cookbook of LLM app templates, making it a navigation and discovery aid for developers rather than a standalone tool or product.
+  evidence:
+    - Repo description explicitly calls it '100+ AI Agent & RAG apps you can actually run — clone, customize, ship.'
+    - "README positions it as 'a cookbook of ready-to-run templates' and a 'curated list' with the 'Direct awesome list source: yes' flag."
+    - The primary artifact is a list of templates and links to tutorials, not a standalone developer tool or platform.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (109053) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:24.490Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:36.914Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

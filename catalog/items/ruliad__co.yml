@@ -1,12 +1,12 @@
 id: ruliad__co
 kind: website
-name: Naut
+name: ruliad.co
 canonical_url: https://ruliad.co
 identity: {}
 provenance:
   discoveries:
     - id: discovery__ruliad__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ruliad Chat is an AI chat interface positioned as 'Self Sovereign Intelligence', with no visible developer-tooling surface or public documentation.
-  why_it_matters: It aims to offer a self-sovereign alternative to mainstream hosted AI chat products, though the specific developer workflow impact is unclear.
-  mental_damage: Another day, another AI chat UI promising sovereignty while we still can't figure out where our API keys are stored.
+  summary: Ruliad Chat is a self-described 'Self Sovereign Intelligence' chat interface with no publicly documented developer-tooling workflow.
+  why_it_matters: It proposes a local-first, user-controlled AI paradigm, though it currently lacks the implementation details needed to assess its utility for developers.
+  mental_damage: We now have a 'Self Sovereign Intelligence' chat tool that is so sovereign it refuses to disclose what it actually does.
   tags:
-    - ai-interface
-    - chat
     - self-sovereign
+    - chat-interface
+    - local-ai
   confidence: low
 curation:
   status: excluded
-  reason: The project lacks a visible developer-tooling angle, code editing capabilities, or app-building workflow relevant to this catalog's scope.
+  reason: Excluded because the project lacks a public repository, README, or description detailing concrete developer-tooling features, fitting the profile of a vague resource rather than a usable product.
   evidence:
-    - Scraped site context only mentions 'Ruliad Chat' and 'Self Sovereign Intelligence' with no developer workflow claims.
-    - No repo description, README, homepage, or public code surface provided to evaluate developer utility.
-    - Listed in awesome-ai-agents under a vague 'Self Sovereign Intelligence' section with no clear agent-tooling evidence.
+    - No repository description, README, or scraped content explaining technical workflow or developer utility.
+    - Source-list context lists it under 'awesome-ai-agents' but labels it only as 'Self Sovereign Intelligence' with no functional detail.
 placement:
   primary_category: null
   section: null
@@ -56,20 +55,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:47.771Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:13.481Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,12 +1,12 @@
 id: www__diffblue__com
 kind: website
-name: DiffBlue Cover
+name: www.diffblue.com
 canonical_url: https://www.diffblue.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__diffblue__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An enterprise AI testing agent that autonomously generates, verifies, and fixes unit tests across large codebases, integrating with tools like GitHub Copilot and Claude Code.
-  why_it_matters: It automates the tedious workflow of achieving high regression test coverage on legacy or complex Java and Python codebases where standard coding agents struggle to scale.
-  mental_damage: We have finally reached the point where we need an agent specifically to clean up and verify the mess left behind by our other autonomous agents.
+  summary: Diffblue Testing Agent is an enterprise platform that orchestrates existing AI coding tools to autonomously generate, verify, and fix unit tests across large Java and Python codebases.
+  why_it_matters: It aims to solve the low-coverage and high-context-switching pain of manually prompting agents like Claude and Copilot by automating the entire test generation lifecycle, including verification and PR preparation.
+  mental_damage: You can now pay an agent to babysit your other agents so you don't have to experience the joy of watching them fail to hit 80% coverage.
   tags:
-    - ci-cd
+    - testing
     - enterprise
     - java
-    - legacy-modernization
-    - testing
+    - cli
+    - qa
   confidence: high
 curation:
   status: included
   reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Testing and QA' as a testing agent.
-    - Site excerpt describes it as 'orchestrating your AI coding tools to create comprehensive, high quality test coverage' via CLI and IDE plugins.
-    - Functionality includes coverage analysis, test generation, output verification, and PR preparation for the developer.
+    - Scraped site describes it as a 'Testing Agent' that 'generates, verifies, and fixes unit tests autonomously'.
+    - Includes a CLI that processes codebases and prepares PRs, acting as a primary delegate for the testing task.
+    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section, aligning with the product's core function.
 placement:
   primary_category: app-builders
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:31.230Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:55.443Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

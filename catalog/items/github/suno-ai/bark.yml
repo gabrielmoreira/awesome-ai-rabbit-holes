@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__suno-ai__bark__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 39105
+    forks: 4688
+    license: MIT
+    archived: false
+    created_at: "2023-04-07T19:34:48Z"
+    pushed_at: "2024-08-19T07:45:36Z"
+    description: 🔊 Text-Prompted Generative Audio Model
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:36.818Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:36.818Z"
+      bytes: 15207
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Bark is an open-source, transformer-based text-to-audio model that generates multilingual speech, music, sound effects, and nonverbal cues from text prompts.
+  why_it_matters: It provides developers with a ready-to-use, commercial-friendly checkpoint for building generative audio features directly into applications without relying on closed APIs.
+  mental_damage: Because what your CI pipeline really needed was the ability to sigh audibly when the tests fail.
+  tags:
+    - text-to-audio
+    - generative-audio
+    - tts
+    - suno
+    - ml-model
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is a general ML research model for audio generation with no specific developer-tooling, coding-agent, or infrastructure angle required by the catalog scope.
+  evidence:
+    - Repo description defines it as a 'Text-Prompted Generative Audio Model', not a developer tool.
+    - README focuses on speech, music, and sound effects generation, with no mention of code editing, IDE integration, or dev workflows.
+    - Listed in Awesome-LLMOps under 'Model > Audio Foundation Model', which confirms it is an ML model, not dev tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (39105) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:36.818Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:45.976Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

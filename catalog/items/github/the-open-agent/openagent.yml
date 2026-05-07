@@ -1,13 +1,13 @@
 id: github__the-open-agent__openagent
 kind: github-repo
-name: Casibase
+name: openagent
 canonical_url: https://github.com/the-open-agent/openagent
 identity:
   github_repo: the-open-agent/openagent
 provenance:
   discoveries:
-    - id: discovery__github__casibase__casibase__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__the-open-agent__openagent__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4538
+    stars: 4553
     forks: 537
     license: Apache-2.0
     archived: false
     created_at: "2020-05-29T02:45:58Z"
-    pushed_at: "2026-05-05T17:06:08Z"
+    pushed_at: "2026-05-06T16:34:24Z"
     description: "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org"
     homepage: https://www.openagentai.org/
     topics:
@@ -52,50 +52,50 @@ metadata:
       - openai
       - openclaw
       - rag
-    last_checked_at: "2026-05-05T21:01:30.832Z"
+    last_checked_at: "2026-05-06T22:46:45.627Z"
     readme:
-      fetched_at: "2026-05-05T21:01:30.832Z"
+      fetched_at: "2026-05-06T22:46:45.627Z"
       bytes: 7718
 insights:
-  summary: OpenAgent is a self-hostable, open-source personal AI assistant platform that integrates LLMs, RAG knowledge bases, and autonomous agent loops to perform tasks like web browsing, code execution, and computer use via MCP-compatible tools.
-  why_it_matters: It provides developers with a self-contained, deployable control plane to orchestrate multi-agent workflows, connect custom model providers, and manage agent tooling outside of closed SaaS ecosystems.
-  mental_damage: "Just what the modern developer needs: another self-hosted 'next-generation' platform to maintain so their agents can autonomously manage the complexity of the tools meant to reduce their complexity."
+  summary: OpenAgent is an open-source, self-hostable personal AI assistant built in Go that combines LLMs, RAG knowledge bases, and agent loops to perform computer-use, browser automation, and coding tasks.
+  why_it_matters: It provides developers with a local, extensible platform to orchestrate autonomous agents that can browse, code, and utilize MCP-compatible tools against their own data.
+  mental_damage: Another valiant attempt to convince us that giving an LLM a Docker container, a browser, and full reign over our filesystem is just one config file away from being a 'personal assistant' rather than a very expensive recursive loop.
   tags:
-    - agents
-    - go
-    - mcp
-    - rag
     - self-hosted
+    - rag
+    - multi-agent
+    - mcp
+    - go
   confidence: high
 curation:
   status: included
-  reason: The project is primarily a user-facing platform and control plane for running and managing autonomous agents, RAG, and tool integrations, rather than a repo-editing coding assistant.
+  reason: The project presents itself as a primary personal AI assistant capable of coding, browsing, and computer-use via agent loops, fitting the coding agent definition rather than a thin extension or framework.
   evidence:
-    - Repo description identifies it as a 'personal AI assistant... supporting computer-use, browser-use and coding agent' with an admin dashboard.
-    - README describes a 'self-hostable platform' with usage analytics, activity monitoring, and tool management rather than an IDE plugin.
-    - It is listed in awesome-langchain under 'Other LLM Frameworks', indicating its role as a foundational platform rather than a specific coding extension.
+    - Repo description explicitly labels it a 'next-generation personal AI assistant... supporting... coding agent'.
+    - README states it connects LLMs, RAG, and agents to 'browse the web, run code, and call any MCP-compatible tool'.
+    - Recently pushed (2026-05-06) and self-hostable via pre-built binaries or Docker.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4538) exceeded threshold (150)
+  reason: Stars (4553) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:32.752Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:30.832Z"
+    updated_at: "2026-05-06T22:46:45.627Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:31.582Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

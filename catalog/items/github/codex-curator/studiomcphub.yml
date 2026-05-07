@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codex-curator__studiomcphub__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -46,49 +46,50 @@ metadata:
       - provenance
       - stable-diffusion
       - x402
-    last_checked_at: "2026-05-05T21:01:38.395Z"
+    last_checked_at: "2026-05-06T22:43:25.645Z"
     readme:
-      fetched_at: "2026-05-05T21:01:38.395Z"
+      fetched_at: "2026-05-06T22:43:25.645Z"
       bytes: 5033
 insights:
-  summary: A hosted MCP server providing 32 creative AI tools—including image generation, upscaling, background removal, and NFT minting—accessible via x402 USDC payments on Base L2 without API keys.
-  why_it_matters: It lets agents and developers integrate a full creative pipeline into their workflows directly through MCP, handling everything from SDXL image generation to print-ready PDF conversion with pay-per-call pricing.
-  mental_damage: We have successfully tokenized the entire creative process down to invisible watermarks and perceptual hashes, meaning your agent can now ruin graphic design forever with nothing but a hot wallet and a 402 response.
+  summary: A Model Context Protocol server providing 32 creative AI tools for image generation, upscaling, background removal, vectorization, and art dataset access, with per-call payments via x402, Stripe, or GCX credits.
+  why_it_matters: Developers building creative agents or MCP-native workflows can integrate advanced image processing and a 53,000+ artwork museum dataset directly into their toolchain without managing API keys or multiple service accounts.
+  mental_damage: We have successfully standardized on a protocol that lets autonomous agents spend fifty cents to vectorize a JPEG and mint an NFT before the developer has finished writing the prompt.
   tags:
     - mcp
     - creative-ai
     - image-generation
     - x402
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation providing tooling for the Model Context Protocol ecosystem.
+  reason: The product's primary identity is an MCP server exposing creative and art-dataset tools for agents, placing it squarely in Domain Servers under MCP Servers & Tooling.
   evidence:
-    - Repo description identifies it as a 'Creative AI MCP server' with 32 tools.
-    - README confirms it is a 'production MCP server' with a streamable-http endpoint at studiomcphub.com/mcp.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+    - Repo description explicitly identifies it as a 'Creative AI MCP server' with 32 tools.
+    - README positions it as a production MCP server with streamable-http transport and MCP discovery endpoints.
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:38.395Z"
+    updated_at: "2026-05-06T22:43:25.645Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:54.926Z"
+    updated_at: "2026-05-06T22:50:03.276Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__axliupore__mcp-code-runner__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,14 +33,14 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:15.137Z"
+    last_checked_at: "2026-05-06T22:12:47.700Z"
     readme:
-      fetched_at: "2026-05-05T21:01:15.137Z"
+      fetched_at: "2026-05-06T22:12:47.700Z"
       bytes: 429
 insights:
-  summary: An MCP (Model Context Protocol) server that executes code securely inside Docker containers on the host machine.
-  why_it_matters: It allows MCP-compatible AI agents to run generated code safely in an isolated environment to verify output without polluting the host system.
-  mental_damage: Yet another layer in the stack where we trust a large language model to write code, a protocol server to receive it, and a Docker container to catch the fire.
+  summary: An MCP server that executes code securely inside Docker containers for AI agents and coding assistants that support the Model Context Protocol.
+  why_it_matters: It gives MCP-compatible coding agents a sandboxed execution environment, allowing them to run and verify generated code without touching the host system.
+  mental_damage: We have successfully abstracted the act of running code so many times that we now need a protocol server to ask a container to run the code that the AI just hallucinated.
   tags:
     - mcp
     - code-execution
@@ -49,33 +49,33 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to provide code execution capabilities to MCP clients.
+  reason: This is an MCP server implementation providing code execution via Docker, fitting squarely into the MCP category as protocol infrastructure rather than a standalone assistant or extension.
   evidence:
-    - README states it is '基于 MCP 协议的代码执行器' (An MCP protocol-based code executor).
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
-    - Uses Docker for sandboxed execution of code.
+    - Repo name is 'mcp-code-runner' and README states it is '基于 MCP 协议的代码执行器' (A code executor based on MCP protocol).
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - Execution is handled via Docker, providing a sandboxed tool for MCP clients.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:15.137Z"
+    updated_at: "2026-05-06T22:12:47.700Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:56.303Z"
+    updated_at: "2026-05-06T22:23:15.433Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__grovs-io__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:28.532Z"
+    last_checked_at: "2026-05-06T22:44:09.189Z"
     readme:
-      fetched_at: "2026-05-05T21:02:28.532Z"
+      fetched_at: "2026-05-06T22:44:09.189Z"
       bytes: 6177
 insights:
-  summary: An MCP server that lets AI assistants manage deep links, analytics, and campaigns for the Grovs open-source mobile growth platform via natural language.
-  why_it_matters: It allows developers to configure deferred deep links and check attribution metrics directly from their AI editor instead of switching to a separate dashboard.
-  mental_damage: Another specialized MCP server arrives to shave seconds off a workflow that didn't need shaving, while your actual deep-link bugs remain safely untouchable.
+  summary: An MCP server that lets AI assistants manage deep links, attribution, and analytics on the Grovs mobile growth platform via natural language.
+  why_it_matters: Developers using Claude Code, Cursor, or Windsurf can create links, run campaigns, and check revenue analytics without leaving their editor or context-switching to a dashboard.
+  mental_damage: You can now debug your deferred deep linking strategy via a chat window that occasionally hallucinates your App Store URL, because nothing says 'privacy-first growth' like OAuth flows triggered by a typo.
   tags:
     - mcp
+    - mobile-growth
     - deep-linking
     - analytics
     - grovs
-    - marketing
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling for the Grovs platform, which fits squarely into the MCP Servers and Tooling category.
+  reason: This is an MCP server for a specific domain (mobile growth/attribution), fitting cleanly as a domain-specific MCP server rather than a generic framework or extension.
   evidence:
     - "README states: 'This is an MCP (Model Context Protocol) server that lets AI assistants manage your Grovs platform through natural language.'"
-    - Configuration examples provided for Claude Code, Cursor, Windsurf, VS Code, and ChatGPT Desktop.
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory.
+    - Lists explicit MCP client configs for Claude Code, Cursor, Windsurf, VS Code, ChatGPT Desktop, and self-hosted setup.
+    - Included in awesome-mcp-servers under 'Server Implementations > Marketing', confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:28.532Z"
+    updated_at: "2026-05-06T22:44:09.189Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:06.730Z"
+    updated_at: "2026-05-06T22:59:05.958Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

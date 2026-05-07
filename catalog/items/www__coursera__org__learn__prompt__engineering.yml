@@ -1,12 +1,12 @@
 id: www__coursera__org__learn__prompt__engineering
 kind: website
-name: "Coursera: Chatgpt 应用提示工程"
+name: prompt-engineering
 canonical_url: https://www.coursera.org/learn/prompt-engineering
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__coursera__org__learn__prompt__engineering__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,22 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Coursera course covering the fundamentals of prompt engineering for large language models.
-  why_it_matters: It provides a structured learning path for developers looking to improve their interaction patterns with LLMs, albeit in a traditional lecture format.
-  mental_damage: Another reminder that we are now paying for university-level credit to learn how to talk to a chatbot that might hallucinate the syntax anyway.
+  summary: A Coursera course introducing the fundamentals of prompt engineering for large language models.
+  why_it_matters: Provides a structured learning path for developers looking to understand how to craft effective prompts for LLMs.
+  mental_damage: Because nothing says 'cutting-edge engineering' like paying for a MOOC certificate to learn how to talk to a chatbot that forgets the instructions five minutes later.
   tags:
-    - course
+    - prompt-engineering
     - education
     - llm
-    - prompt-engineering
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic educational course, not a developer-facing tool, agent, infrastructure component, or app-building product.
+  reason: This is a generic educational course on Coursera, not a developer-facing tool, agent, framework, or infrastructure component.
   evidence:
-    - URL points to a Coursera course (learn/prompt-engineering), not a tool or repo.
-    - Listed in awesome-LLM-resources under the section '课程 Course' (Course).
-    - No code, CLI, IDE integration, or infrastructure component is present.
+    - URL points to coursera.org/learn/prompt-engineering, identifying it as a course.
+    - Listed in awesome-LLM-resources specifically under the '课程 Course' (Course) section.
+    - No code, CLI, IDE integration, or developer tooling surface is present.
 placement:
   primary_category: null
   section: null
@@ -57,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:20.505Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:41.105Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

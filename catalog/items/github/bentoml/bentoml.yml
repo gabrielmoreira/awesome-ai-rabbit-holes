@@ -1,13 +1,13 @@
 id: github__bentoml__bentoml
 kind: github-repo
-name: BentoML
+name: bentoml
 canonical_url: https://github.com/bentoml/bentoml
 identity:
   github_repo: bentoml/bentoml
 provenance:
   discoveries:
     - id: discovery__github__bentoml__bentoml__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [BentoML](https://github.com/bentoml/BentoML) - BentoML is a framework for building reliable, scalable, and cost-efficient AI applications."
         confidence: high
     - id: discovery__github__bentoml__bentoml__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8627
-    forks: 959
+    stars: 8628
+    forks: 958
     license: Apache-2.0
     archived: false
     created_at: "2019-04-02T01:39:27Z"
-    pushed_at: "2026-05-04T16:54:05Z"
+    pushed_at: "2026-05-06T08:20:21Z"
     description: The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
     homepage: https://bentoml.com
     topics:
@@ -63,50 +63,50 @@ metadata:
       - model-serving
       - multimodal
       - python
-    last_checked_at: "2026-05-05T21:01:19.047Z"
+    last_checked_at: "2026-05-06T22:12:51.178Z"
     readme:
-      fetched_at: "2026-05-05T21:01:19.047Z"
+      fetched_at: "2026-05-06T22:12:51.178Z"
       bytes: 9909
 insights:
-  summary: A Python framework for building and deploying model inference APIs, multi-model pipelines, and LLM apps as production-ready Docker containers.
-  why_it_matters: It lets developers wrap any open-source or custom model into a scalable REST API without building the serving infrastructure from scratch.
-  mental_damage: Yet another framework promising that this time, your model-serving stack won't collapse under the weight of its own YAML once you try to ship a second model.
+  summary: BentoML is a Python framework for packaging AI/ML models into standardized, high-performance inference APIs and deploying them as Docker containers or to BentoCloud.
+  why_it_matters: It handles the heavy lifting of model packaging, dependency management, and GPU-optimized serving, letting developers focus on the model logic rather than the inference infrastructure.
+  mental_damage: "Just what we needed: another opinionated standard for packaging Python dependencies into Docker images, giving us one more place to debug why the GPU driver version doesn't match the container."
   tags:
-    - inference
-    - llm
-    - mlops
     - model-serving
+    - llmops
     - python
+    - inference
+    - mlops
   confidence: high
 curation:
   status: included
-  reason: It is a code-first Python framework and SDK for serving AI models, which fits ai-frameworks perfectly as developers import and build with it rather than operating a hosting control plane.
+  reason: BentoML is a code-first library and CLI used by developers to build and serve inference APIs, fitting the Frameworks & SDKs mold rather than an agent or end-user platform.
   evidence:
-    - "Repo description: 'Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!'"
-    - "README: 'BentoML is a Python library for building online serving systems optimized for AI apps and model inference.'"
-    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'.
+    - Repo description explicitly calls it 'The easiest way to serve AI apps and models' via APIs and job queues.
+    - README states 'BentoML is a Python library for building online serving systems optimized for AI apps and model inference.'
+    - Source lists categorize it under 'Serving > Frameworks/Servers for Serving' in Awesome-LLMOps.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8627) exceeded threshold (150)
+  reason: Stars (8628) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:32.391Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:19.047Z"
+    updated_at: "2026-05-06T22:12:51.178Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:56.256Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

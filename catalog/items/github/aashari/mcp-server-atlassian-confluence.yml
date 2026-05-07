@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashari__mcp-server-atlassian-confluence__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -50,50 +50,50 @@ metadata:
       - server
       - typescript
       - wiki
-    last_checked_at: "2026-05-05T21:00:46.250Z"
+    last_checked_at: "2026-05-06T22:12:22.771Z"
     readme:
-      fetched_at: "2026-05-05T21:00:46.250Z"
+      fetched_at: "2026-05-06T22:12:22.771Z"
       bytes: 21448
 insights:
-  summary: A Node.js/TypeScript MCP server that connects AI assistants to Atlassian Confluence, providing tools to list spaces, retrieve pages as Markdown, and search using CQL.
-  why_it_matters: It allows developers to query internal documentation, API guides, and specs directly from their AI assistant without context-switching to the browser.
-  mental_damage: We have successfully reached the point where the AI needs an adapter just to read the documentation we were too busy prompting to write.
+  summary: A Node.js/TypeScript MCP server that exposes Atlassian Confluence spaces, pages, and search (via CQL) to AI assistants like Claude and Cursor using the Model Context Protocol.
+  why_it_matters: It lets developers query their team's Confluence documentation directly from their AI coding assistant instead of context-switching to a browser.
+  mental_damage: You can now ask a large language model to summarize your team's sprawling Confluence wiki, thereby combining the hallucination risk of AI with the structural opacity of enterprise documentation.
   tags:
     - mcp
     - confluence
-    - typescript
+    - atlassian
     - knowledge-base
-    - integration
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Confluence, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server for Confluence, fitting cleanly as a protocol-native integration for exposing a specific domain to AI assistants.
   evidence:
-    - Repo description explicitly states 'Node.js/TypeScript MCP server for Atlassian Confluence' with standard MCP interface.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - README details integration with Claude Desktop, Cursor AI, and other MCP-compatible assistants.
+    - "Repo description explicitly states: 'Node.js/TypeScript MCP server for Atlassian Confluence.'"
+    - README positions it as connecting Claude, Cursor, and other AI assistants directly to Confluence via the standard MCP interface.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming its protocol-native identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:46.250Z"
+    updated_at: "2026-05-06T22:12:22.771Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:21.944Z"
+    updated_at: "2026-05-06T22:18:13.485Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gittyburstein__mermaid-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: MCP server for generating Mermaid diagrams from projects (local/GitHub) and rendering via Kroki.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:22.466Z"
+    last_checked_at: "2026-05-06T22:44:03.329Z"
     readme:
-      fetched_at: "2026-05-05T21:02:22.466Z"
+      fetched_at: "2026-05-06T22:44:03.329Z"
       bytes: 13097
 insights:
-  summary: An MCP server that helps AI agents analyze local or GitHub codebases and render visualized architecture into Mermaid diagrams via Kroki.
-  why_it_matters: It gives coding agents a structured way to read project files and convert code structure into PNG diagrams, reducing the time spent mentally mapping unfamiliar repositories.
-  mental_damage: We have officially reached the point where the agent needs its own diagramming server so it can pretend to understand your monorepo while you still can't find the config file.
+  summary: An MCP server that lets agents list files, read code, and render Mermaid diagrams as PNGs from local projects or GitHub repositories.
+  why_it_matters: It gives coding agents a structured pipeline to visualize project structure and flow without guessing paths or inventing architecture from thin context.
+  mental_damage: We’ve built an MCP server so your agent can generate a diagram of the codebase it’s already failing to understand.
   tags:
     - mcp
     - diagrams
     - architecture
-    - mermaid
-    - agent-tools
-  confidence: medium
+    - agent-tooling
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to extend agent capabilities with codebase visualization, fitting cleanly into MCP infrastructure.
+  reason: The product is an MCP server purpose-built to expose diagram-generation tools to agents, making MCP its core identity.
   evidence:
-    - Repo description states it is an 'MCP server for generating Mermaid diagrams from projects (local/GitHub) and rendering via Kroki.'
-    - README positions it as an MCP server that 'helps agents turn large codebases... into Mermaid diagrams'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Architecture & Design'.
+    - Repo description explicitly states 'MCP server for generating Mermaid diagrams from projects (local/GitHub) and rendering via Kroki.'
+    - "README defines the project as 'an MCP server that helps agents turn large codebases … into Mermaid diagrams' with three MCP tools: list_files, read_file, render_mermaid."
+    - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:22.466Z"
+    updated_at: "2026-05-06T22:44:03.329Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:37.956Z"
+    updated_at: "2026-05-06T22:57:52.749Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

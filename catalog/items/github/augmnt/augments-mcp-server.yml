@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__augmnt__augments-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - mcp
       - model-context-protocol
       - python
-    last_checked_at: "2026-05-05T21:01:12.066Z"
+    last_checked_at: "2026-05-06T22:12:45.169Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.066Z"
+      fetched_at: "2026-05-06T22:12:45.169Z"
       bytes: 10423
 insights:
-  summary: An MCP server that provides Claude Code and Cursor with real-time framework documentation, type signatures, code examples, and dependency analysis for any npm package.
-  why_it_matters: It eliminates context-switching by letting developers query API behavior, diagnose errors, and generate migration guides directly inside their AI-assisted coding environment using live documentation.
-  mental_damage: We have successfully engineered a system where the AI needs an MCP server to remember what useEffect does so you don't have to, which is either a productivity breakthrough or the herald of our collective cognitive obsolescence.
+  summary: An MCP server that provides Claude Code and Cursor with real-time npm framework documentation, types, examples, and version migration guides via BM25 search and dependency scanning.
+  why_it_matters: Developers get accurate, version-specific API context and migration paths directly inside their coding agent instead of context-switching to browser docs.
+  mental_damage: "We have successfully automated the last remaining excuse for not reading the React docs: the agent now misquotes them with perfect BM25 confidence."
   tags:
     - mcp
-    - claude-code
     - documentation
-    - npm
     - context-engineering
+    - claude-code
+    - npm
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone Model Context Protocol server designed to provide documentation context to AI coding tools, fitting cleanly into the MCP infrastructure category.
+  reason: This is an MCP-native server providing domain-specific documentation and dependency tooling, making it a textbook fit for the MCP Domain Servers section.
   evidence:
-    - Repo description explicitly defines it as a 'Comprehensive MCP server' for Claude Code.
-    - README details 8 specific MCP tools including get_api_context, diagnose_error, and scan_project_deps.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly identifies it as a 'Comprehensive MCP server' for Claude Code.
+    - README details 8 MCP tools including get_api_context, search_apis, and scan_project_deps.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.066Z"
+    updated_at: "2026-05-06T22:12:45.169Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:27.309Z"
+    updated_at: "2026-05-06T22:22:44.019Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

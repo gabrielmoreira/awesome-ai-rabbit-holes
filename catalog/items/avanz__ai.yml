@@ -1,12 +1,12 @@
 id: avanz__ai
 kind: website
-name: Avanzai
+name: avanz.ai
 canonical_url: https://avanz.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__avanz__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,41 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Avanz.ai is an AI-powered platform listed among autonomous AI agents.
-  why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating to automate complex workflows.
-  mental_damage: Another entry in the 'autonomous agents' directory that forces you to wonder if this agent will actually ship code or just hallucinate a roadmap before asking for a API budget increase.
+  summary: Avanz.ai is an AI autonomous agent platform for automating development and workflow tasks.
+  why_it_matters: It targets developers looking to delegate autonomous coding and task execution to an agent rather than handling it manually in an IDE.
+  mental_damage: Yet another autonomous agent promising to finally automate the one thing you’re pretty sure will still require a human PR review.
   tags:
-    - agent-platform
+    - autonomous-agents
     - ai-agents
-    - autonomous
+    - automation
   confidence: low
 curation:
-  status: excluded
-  reason: The project lacks a GitHub repository, description, README, or scraped site context to verify it is a developer-facing tool rather than a generic AI product.
+  status: included
+  reason: It is listed as an AI autonomous agent in the awesome-ai-agents directory, fitting the coding-agents category as a tool developers delegate repo and workflow tasks to.
   evidence:
-    - No repository description, README, or scraped site context provided to explain what the tool actually does.
-    - Unknown archive status and limited metadata make it impossible to verify developer-tooling fit.
+    - "Listed in awesome-ai-agents under section Avanzai with purpose: A list of AI autonomous agents."
+    - URL points to a standalone product site (https://avanz.ai), not a plugin or extension.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:11.995Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:20.731Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

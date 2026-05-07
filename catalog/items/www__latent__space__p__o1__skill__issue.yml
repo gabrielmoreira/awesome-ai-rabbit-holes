@@ -1,12 +1,12 @@
 id: www__latent__space__p__o1__skill__issue
 kind: website
-name: o1 isn’t a chat model (and that’s the point)
+name: o1-skill-issue
 canonical_url: https://www.latent.space/p/o1-skill-issue
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__latent__space__p__o1__skill__issue__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Latent Space guest post documenting how developers should adapt their prompting strategy to effectively use OpenAI's o1 reasoning models as report generators rather than conversational chat models.
-  why_it_matters: It provides a practical mental model and specific context-engineering techniques for developers trying to integrate high-latency reasoning models into their workflows.
-  mental_damage: We have successfully evolved from 'prompt engineering' to 'writing 10x context briefs' just to coax a model into not contradicting itself for five minutes.
+  summary: A guest post on Latent.Space detailing how to effectively prompt OpenAI's o1 reasoning models by treating them as report generators rather than chat models.
+  why_it_matters: It provides a concrete mental model and tactical advice for developers moving from conversational chat paradigms to high-latency, context-heavy reasoning workflows.
+  mental_damage: Yet another reminder that the bottleneck in AI-assisted development isn't the model, but the hours we spend learning how to politely brief our new robot interns.
   tags:
-    - context-engineering
+    - prompt-engineering
     - o1
-    - prompting
     - reasoning-models
-  confidence: medium
+    - llm-resources
+  confidence: high
 curation:
-  status: included
-  reason: While primarily an article, it is a significant piece of practical guidance on context packing and prompt design for a specific new class of models, fitting the developer-tooling scope.
+  status: excluded
+  reason: This is an editorial article and educational resource, not a standalone developer tool, framework, or product.
   evidence:
-    - Categorized under '技巧 Tips' in the awesome-LLM-resources list as a practical tip guide.
-    - The excerpt details specific strategies like 'Write Briefs' and 'Focus on Goals' for o1.
-    - Describes o1 as a 'report generator' requiring different context engineering than chat models.
+    - The source is a Latent.Space blog post ('o1 isn’t a chat model'), not a repository or installable software.
+    - The content is a 'guest post' providing tips and a 'Missing Manual' for prompting, lacking a functional product identity.
+    - It appears in an awesome list under '技巧 Tips' (Tips), confirming its identity as a resource/documentation rather than tooling.
 placement:
-  primary_category: context-engineering
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:27:13.234Z"
-    cause: null
-    attempts: 3
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 753a9feca783
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:02.351Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

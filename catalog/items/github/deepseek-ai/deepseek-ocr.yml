@@ -1,0 +1,81 @@
+id: github__deepseek-ai__deepseek-ocr
+kind: github-repo
+name: deepseek-ocr
+canonical_url: https://github.com/deepseek-ai/deepseek-ocr
+identity:
+  github_repo: deepseek-ai/deepseek-ocr
+provenance:
+  discoveries:
+    - id: discovery__github__deepseek-ai__deepseek-ocr__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: scraped
+        section_path:
+          - 数据 Data
+        anchor_text: DeepSeek-OCR
+        extracted_url: https://huggingface.co/deepseek-ai/DeepSeek-OCR
+        surrounding_text: 42. [DeepSeek-OCR](https://huggingface.co/deepseek-ai/DeepSeek-OCR)
+        confidence: high
+metadata:
+  github:
+    stars: 23066
+    forks: 2133
+    license: MIT
+    archived: false
+    created_at: "2025-10-17T06:14:27Z"
+    pushed_at: "2026-01-27T03:45:14Z"
+    description: Contexts Optical Compression
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:43:36.373Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:36.373Z"
+      bytes: 7846
+insights:
+  summary: DeepSeek-OCR is a vision-language model and inference toolkit designed to investigate visual-text compression by performing high-throughput OCR on images and PDFs.
+  why_it_matters: It provides developers with a specialized, high-performance local model and vLLM-compatible inference code for extracting text from visual documents at scale.
+  mental_damage: Just when you thought your OCR pipeline was settled, a lab releases a model that turns your PDFs into tokens at 2500 tokens per second while you're still debugging your Tesseract install.
+  tags:
+    - ocr
+    - vision-model
+    - vllm
+    - inference
+    - local-model
+  confidence: high
+curation:
+  status: included
+  reason: It is a model release with specific inference scripts and library integrations (vLLM, Transformers) that developers use as building blocks for visual-text processing, fitting the code-first framework/SDK mold.
+  evidence:
+    - Repo description is 'Contexts Optical Compression', and README confirms it is a model for image/PDF OCR with vLLM and Transformers inference code.
+    - Provides Python scripts and vLLM sampling examples showing it is used as a code-first library/engine rather than an operated platform.
+    - Included in awesome-LLM-resources under a data section, aligning with its identity as a model and inference toolkit.
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (23066) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:36.373Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:18.079Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

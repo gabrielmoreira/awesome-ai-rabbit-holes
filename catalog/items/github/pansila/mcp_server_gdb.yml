@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pansila__mcp_server_gdb__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,49 +37,49 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:04:11.426Z"
+    last_checked_at: "2026-05-06T22:45:47.454Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.426Z"
+      fetched_at: "2026-05-06T22:45:47.454Z"
       bytes: 2298
 insights:
-  summary: An MCP server that exposes GDB/MI debugging capabilities—session management, breakpoints, execution control, and memory inspection—so AI assistants can remotely debug applications.
-  why_it_matters: It lets coding agents tap into real GDB sessions to step through code, inspect state, and reason about runtime behavior instead of guessing from static context.
-  mental_damage: We’ve finally automated the one thing that used to force you to leave your terminal and remember how to use a watchpoint.
+  summary: An MCP server that exposes GDB debugging capabilities—session management, breakpoints, execution control, and memory inspection—to AI assistants via the GDB/MI protocol.
+  why_it_matters: It lets coding agents tap directly into a real debugger so they can reason about crashes, breakpoints, and memory instead of guessing from logs.
+  mental_damage: Your agent can now step through a segfault with the same confidence it brings to inventing new Kubernetes CRDs.
   tags:
     - mcp
     - debugging
     - gdb
-    - agent-tooling
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server purpose-built to expose GDB debugging to AI assistants, which fits cleanly under MCP Servers and Tooling.
+  reason: The product is an MCP server whose identity and utility are defined by exposing GDB debugging to MCP-compatible assistants, fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'MCP Server to expose the GDB debugging capabilities'"
-    - "README: 'GDB/MI protocol server based on the MCP protocol, providing remote application debugging capabilities with AI assistants'"
-    - Topics and awesome-mcp-servers listing confirm it is an MCP server, not a standalone coding agent or app builder
+    - Repo description explicitly states 'MCP Server to expose the GDB debugging capabilities'.
+    - README lists supported MCP tools (create_session, set_breakpoint, step_execution, read_memory, etc.) confirming this is an MCP server.
+    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.426Z"
+    updated_at: "2026-05-06T22:45:47.454Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:43.371Z"
+    updated_at: "2026-05-06T23:20:42.552Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

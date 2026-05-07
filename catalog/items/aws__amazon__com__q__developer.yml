@@ -1,12 +1,12 @@
 id: aws__amazon__com__q__developer
 kind: website
-name: Amazon Q Developer
+name: developer
 canonical_url: https://aws.amazon.com/q/developer
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aws__amazon__com__q__developer__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon Q Developer is an AWS-native AI coding assistant that provides code generation, debugging, refactoring, and agentic task execution inside IDEs, the CLI, and the AWS Console.
-  why_it_matters: It integrates deeply with AWS services and private repositories to accelerate the full development lifecycle, from feature implementation to Java upgrades and cloud resource management.
-  mental_damage: Yet another agentic assistant promising to heal your legacy Java stack, provided you're willing to hand over your org's entire codebase and cloud bill to the AWS Free Tier.
+  summary: Amazon Q Developer is an AWS-native AI coding assistant that provides code generation, debugging, refactoring, and agentic task execution across IDEs, CLI, and the AWS console.
+  why_it_matters: It integrates deeply with AWS ecosystems to accelerate the full development lifecycle, from feature implementation and testing to Java upgrades and cloud resource optimization.
+  mental_damage: Yet another AI assistant promising to refactor your legacy Java apps, provided you're willing to entrust your enterprise cloud credentials to the most capable assistant Amazon could train on your billing data.
   tags:
-    - agentic
     - aws
-    - code-completion
     - ide
+    - cli
+    - agentic
+    - java-upgrades
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant that writes, edits, and reviews code directly within the developer's IDE, CLI, and PR workflows with agentic capabilities.
+  reason: Amazon Q Developer is a primary coding assistant used directly by developers across IDEs, CLI, and AWS surfaces to write, debug, and refactor code.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Code Completion' as an AI coding assistant for IDEs.
-    - Scraped site describes 'agentic capabilities' to autonomously implement features, review code, and refactor inside the IDE and CLI.
-    - Supports integration with GitHub.com for code reviews and feature implementation within existing repo workflows.
+    - Described as 'the most capable generative AI–powered assistant for software development' with agentic capabilities for features, testing, and refactoring.
+    - Provides native plugins for JetBrains, VS Code, Visual Studio, Eclipse, and CLI with inline code suggestions and chat.
+    - Included in awesome-ai-coding-tools under 'Code Completion' as a dedicated AI coding assistant.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:25.091Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:33.366Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

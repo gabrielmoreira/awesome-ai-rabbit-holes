@@ -1,0 +1,89 @@
+id: github__599yongyang__datasetloom
+kind: github-repo
+name: datasetloom
+canonical_url: https://github.com/599yongyang/datasetloom
+identity:
+  github_repo: 599yongyang/datasetloom
+provenance:
+  discoveries:
+    - id: discovery__github__599yongyang__datasetloom__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: DatasetLoom (`multimodal`)
+        extracted_url: https://github.com/599yongyang/datasetloom
+        surrounding_text: "40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台."
+        confidence: high
+metadata:
+  github:
+    stars: 285
+    forks: 32
+    license: MIT
+    archived: false
+    created_at: "2025-05-10T10:17:00Z"
+    pushed_at: "2025-12-13T04:58:45Z"
+    description: 一个面向多模态大模型训练的智能数据集构建与评估平台
+    homepage: ""
+    topics:
+      - ai
+      - dataset
+      - llm
+      - nestjs
+      - nextjs
+      - shadcn-ui
+      - typescript
+      - vlm
+    last_checked_at: "2026-05-06T22:12:21.155Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:21.155Z"
+      bytes: 8501
+insights:
+  summary: DatasetLoom is a self-hosted platform for building and evaluating multimodal training datasets, supporting SFT/DPO dataset generation, image annotation, RAG-based dialogue generation, and multi-model output scoring.
+  why_it_matters: It gives AI engineers a structured pipeline to turn raw documents and images into clean, exportable training data for fine-tuning and preference alignment.
+  mental_damage: Because nothing says ‘accelerating AI research’ like carefully curating a pristine multimodal dataset to fine-tune a model that will ultimately hallucinate the same two facts about your domain.
+  tags:
+    - multimodal
+    - dataset-generation
+    - fine-tuning
+    - self-hosted
+    - rag
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a data preparation and model-training platform for ML engineers rather than a developer-facing coding tool, IDE, agent, or infrastructure component.
+  evidence:
+    - Repo description explicitly states it is a platform for multimodal LLM training dataset construction and evaluation.
+    - README positions the tool for AI engineers and researchers building SFT/DPO datasets, not for developers building software.
+    - Only appears in awesome-LLM-resources under a data section, not in developer tooling or coding-agent lists.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (285) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.598Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:21.155Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:47.833Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

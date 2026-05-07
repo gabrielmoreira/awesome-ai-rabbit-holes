@@ -1,13 +1,13 @@
 id: github__lancedb__lancedb
 kind: github-repo
-name: Lancedb
+name: lancedb
 canonical_url: https://github.com/lancedb/lancedb
 identity:
   github_repo: lancedb/lancedb
 provenance:
   discoveries:
     - id: discovery__github__lancedb__lancedb__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10191
+    stars: 10206
     forks: 869
     license: Apache-2.0
     archived: false
     created_at: "2023-02-28T01:15:17Z"
-    pushed_at: "2026-05-05T20:52:42Z"
+    pushed_at: "2026-05-06T19:55:25Z"
     description: Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
     homepage: https://lancedb.com/docs
     topics:
@@ -41,50 +41,50 @@ metadata:
       - semantic-search
       - similarity-search
       - vector-database
-    last_checked_at: "2026-05-05T21:03:15.339Z"
+    last_checked_at: "2026-05-06T22:44:54.298Z"
     readme:
-      fetched_at: "2026-05-05T21:03:15.339Z"
+      fetched_at: "2026-05-06T22:44:54.298Z"
       bytes: 5801
 insights:
-  summary: LanceDB is an open-source, embedded vector database built on the Lance columnar format, designed for fast multimodal vector search and scalable AI/ML data storage.
-  why_it_matters: It provides developers with a lightweight, serverless foundation for multimodal retrieval-augmented generation (RAG) and AI workloads that integrates natively with Python, Node.js, and Rust ecosystems.
-  mental_damage: Yet another opportunity to spend a weekend refactoring your perfectly fine SQL database into a vector lakehouse, just so your chatbot can hallucinate with spatial awareness.
+  summary: LanceDB is an open-source, embedded vector database built on the Lance columnar format for fast multimodal vector, full-text, and SQL search.
+  why_it_matters: It provides developers with a local or cloud-native storage layer for vectors and multimodal data, integrating directly with Python, Node.js, Rust, and LangChain/LlamaIndex ecosystems.
+  mental_damage: Another essential brick in the towering RAG stack that lets you index petabytes of data just to feed a model enough context to forget the first paragraph.
   tags:
-    - embedded
+    - vector-database
     - multimodal
     - retrieval
-    - sdk
-    - vector-database
+    - embedded
+    - storage
   confidence: high
 curation:
   status: included
-  reason: LanceDB is a code-first SDK and library for embedding vector search capabilities into applications, fitting the AI Frameworks and SDKs category rather than an agent or extension product.
+  reason: LanceDB is a code-first developer library and SDK used to build retrieval infrastructure into AI applications, fitting the Frameworks & SDKs category.
   evidence:
-    - Repo description states it is a 'Developer-friendly OSS embedded retrieval library' and includes Python, Node.js, and Rust SDKs.
-    - README describes it as a 'multimodal data platform' built on the Lance columnar format for storing and searching vectors.
-    - Listed in Awesome-LLMOps under 'Search > Vector search', confirming its role as a developer infrastructure component.
+    - Repo description identifies it as a 'Developer-friendly OSS embedded retrieval library'.
+    - README lists Python, Typescript, and Rust SDKs as the primary interface for developers.
+    - Source list inclusion under 'Search > Vector search' confirms its role as a search infrastructure primitive.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
-  reason: Stars (10191) exceeded threshold (150)
+  reason: Stars (10206) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:57.487Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:15.339Z"
+    updated_at: "2026-05-06T22:44:54.298Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:24.128Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

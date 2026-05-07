@@ -1,28 +1,13 @@
 id: github__zai-org__codegeex
 kind: github-repo
-name: CodeGeeX
+name: codegeex
 canonical_url: https://github.com/zai-org/codegeex
 identity:
   github_repo: zai-org/codegeex
 provenance:
   discoveries:
-    - id: discovery__codegeex__cn__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - Code Completion
-        anchor_text: CodeGeeX
-        extracted_url: https://codegeex.cn
-        surrounding_text: "- **[CodeGeeX](https://codegeex.cn/)** – Open-source multilingual code generation model."
-        confidence: high
-    - id: discovery__github__thudm__codegeex__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__zai-org__codegeex__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -50,45 +35,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CodeGeeX is an AI-powered coding assistant that provides code completion, translation, and comment generation across more than 20 programming languages.
-  why_it_matters: It integrates directly into the developer workflow to reduce boilerplate and accelerate multilingual coding tasks.
-  mental_damage: Yet another multilingual sidekick arrives to ensure you never quite learn the syntax of that second language, you just learn to trust the autocomplete.
-  tags:
-    - ai-assistant
-    - code-completion
-    - ide-assistant
-    - ide-plugin
-    - multilingual
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: CodeGeeX is a developer-facing coding assistant focused on direct code generation and completion within the developer workflow, fitting the coding-agents category.
-  evidence:
-    - Source-list context lists it in awesome-ai-coding-tools under 'Code Completion'.
-    - Scraped site context describes it as an AI coding assistant for code suggestion, generation, translation, and comment writing.
-    - Listed in awesome-ai-coding-tools under Code Completion as an AI-based coding assistant.
-    - Scraped description states it suggests code, generates code, translates code, and writes comments for 20+ languages.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:14.893Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-06T22:12:15.657Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

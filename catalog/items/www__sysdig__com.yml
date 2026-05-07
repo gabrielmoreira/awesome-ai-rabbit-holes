@@ -1,12 +1,12 @@
 id: www__sysdig__com
 kind: website
-name: Sysdig
+name: www.sysdig.com
 canonical_url: https://www.sysdig.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__sysdig__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Sysdig is a cloud-native security platform (CNAPP) providing runtime insights, vulnerability management, and threat detection, which now includes an AI analyst called Sysdig Sage for multi-step reasoning.
-  why_it_matters: It offers developers a way to secure cloud and AI workloads with real-time visibility, aiming to reduce vulnerability noise and detection times without slowing down shipping.
-  mental_damage: Just when you thought 'AI Workload Security' meant your LLM might finally write secure code, it turns out the industry is more interested in watching the AI burn down your cloud bill in real-time.
+  summary: Sysdig is a cloud-native application protection platform (CNAPP) that integrates runtime security insights and AI agents directly into developer workflows like Claude Code.
+  why_it_matters: It allows developers to interact with cloud security data and remediations through coding agents and prompts, removing the need to switch to a separate security dashboard.
+  mental_damage: We've successfully abstracted away the UI, meaning you can now suffer through a cloud security breach without ever leaving your terminal.
   tags:
     - cloud-security
     - cnapp
+    - headless
     - devops
-    - runtime
-  confidence: high
+    - agent-integration
+  confidence: medium
 curation:
-  status: excluded
-  reason: Sysdig is a general cloud security and DevOps platform for runtime protection and posture management, not a developer-facing AI tool for coding, app building, or agent orchestration.
+  status: included
+  reason: Sysdig's 'Headless Cloud Security' is primarily an integration that brings security capabilities into coding agents like Claude Code, rather than being a coding agent itself.
   evidence:
-    - Scraped site context describes a CNAPP platform for cloud security, threat detection, and vulnerability management, not code generation.
-    - The 'Sysdig Sage™ GenAI' feature is an AI cloud security analyst, not a coding assistant or app builder.
-    - Seen in awesome-ai-coding-tools under 'DevOps and Infrastructure', but the core product does not assist in writing or reviewing source code.
+    - Site states the CNAPP platform 'runs inside AI coding platforms like Claude Code'.
+    - Describes a shift where security operates natively within the coding agent interface.
+    - Included in awesome-ai-coding-tools under the 'DevOps and Infrastructure' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:33.337Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:47.037Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

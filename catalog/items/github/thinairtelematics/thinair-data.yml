@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thinairtelematics__thinair-data__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-26T10:01:30Z"
+    pushed_at: "2026-05-05T19:53:11Z"
+    description: Connect your AI assistant to any PostgreSQL, MySQL, or SQL Server database in 60 seconds via MCP.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:48.666Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:48.666Z"
+      bytes: 5235
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that gives AI agents secure, read-only access to PostgreSQL, MySQL, and SQL Server databases with dialect-aware tools for schema introspection, querying, and performance analysis.
+  why_it_matters: Developers can let coding agents safely inspect production schemas and query patterns without risking data mutations or managing custom database backends.
+  mental_damage: Another pristine layer of infrastructure so your agent can discover N+1 queries in production while you still haven't fixed the one in staging.
+  tags:
+    - mcp
+    - database
+    - read-only
+    - agent-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server for databases, which aligns directly with the MCP Servers & Tooling category and is listed in awesome-mcp-servers under Databases.
+  evidence:
+    - "Repo description: 'Connect your AI assistant to any PostgreSQL, MySQL, or SQL Server database in 60 seconds via MCP.'"
+    - README states it is a 'Model Context Protocol (MCP) server' with 23 dialect-aware tools across 4 tiers.
+    - Listed in awesome-mcp-servers under Server Implementations > Databases.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:48.666Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:04.649Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: magicloops__dev
 kind: website
-name: Magic Loops
+name: magicloops.dev
 canonical_url: https://magicloops.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__magicloops__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "## [Magic Loops](https://magicloops.dev/)"
         confidence: high
     - id: discovery__magicloops__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,43 +49,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magic Loops is a no-code platform that combines LLMs and code to help users build AI-native apps and simple automations without writing source code.
-  why_it_matters: It allows developers and non-developers to rapidly prototype and ship functional AI apps and automations via a hosted browser interface rather than setting up a local stack.
-  mental_damage: Another platform promising to 'build apps without coding' while explicitly boasting that it combines LLMs with code, ensuring the only thing actually automated is the developer's existential crisis.
+  summary: Magic Loops is a no-code/low-code platform that combines LLMs and code to help users build AI-native apps and simple automations without writing traditional code.
+  why_it_matters: It allows developers and non-developers alike to quickly scaffold functional AI apps and internal tools, bypassing the usual setup and boilerplate.
+  mental_damage: Just when you thought you could finally justify your existence by writing CRUD apps, a platform arrives that lets anyone build them with a prompt and a dream.
   tags:
     - app-builder
+    - no-code
     - automation
     - llm
-    - no-code
   confidence: high
 curation:
   status: included
-  reason: The product is a browser-first SaaS platform focused on generating full apps and automations from prompts, which clearly fits the app-builders category over coding-agents.
+  reason: The platform's primary surface is turning prompts into deployed apps and automations rather than editing existing repos or acting as a coding assistant.
   evidence:
-    - Homepage explicitly states 'Build Apps without coding' and 'no-code, all-code platform'.
-    - Featured examples are consumer-facing apps like 'Ghibli Transformer' and 'Expense Tracker', not repo/IDE workflows.
+    - "Site description states: 'Combine LLMs and code to create simple automations' and 'Build Apps without coding'."
+    - Featured examples include 'Project Generator' and 'Expense Tracker', which are prompt-to-app use cases.
     - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:08.139Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:21.283Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

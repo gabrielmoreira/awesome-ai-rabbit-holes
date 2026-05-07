@@ -1,0 +1,76 @@
+id: vectorize__io
+kind: website
+name: vectorize.io
+canonical_url: https://vectorize.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__vectorize__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Vectorize
+        extracted_url: https://vectorize.io
+        surrounding_text: "- **[Vectorize](https://github.com/vectorize-io/vectorize-mcp-server/)** - [Vectorize](https://vectorize.io) MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Vectorize provides Hindsight, an open-source, model-agnostic memory layer that allows AI agents to persist context, recall user preferences, and learn from mistakes across sessions via MCP tooling.
+  why_it_matters: It gives developers a drop-in memory system that enables agents to retain long-term context and improve judgment over time without tying them to a specific LLM provider.
+  mental_damage: We have finally solved the problem of AI forgetting what it did five minutes ago, only to realize that an agent with perfect recollection of its own errors is just a very efficient way to repeat them.
+  tags:
+    - agent-memory
+    - mcp
+    - context-retrieval
+    - open-source
+  confidence: high
+curation:
+  status: included
+  reason: The core novelty is the memory system itself—providing persistent context, recall, and reflection layers—which fits Prompt & Context Engineering rather than a host integration or generic framework.
+  evidence:
+    - "Scraped site states: 'Open source agent memory. Your agents learn from experience, recall what matters, and get better over time.'"
+    - "Primary excerpt highlights memory tools: 'Your agent gets remember, recall, and reflect tools automatically.'"
+    - Source list context identifies it as an Official MCP Server for agent memory in awesome-mcp-servers.
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.666Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:56.793Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

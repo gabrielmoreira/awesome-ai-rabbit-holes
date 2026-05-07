@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lyonzin__knowledge-rag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 69
+    stars: 71
     forks: 14
     license: MIT
     archived: false
     created_at: "2026-02-05T14:23:33Z"
-    pushed_at: "2026-05-01T19:12:24Z"
+    pushed_at: "2026-05-06T15:05:14Z"
     description: Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.
     homepage: https://pypi.org/project/knowledge-rag/
     topics:
@@ -53,50 +53,50 @@ metadata:
       - retrieval-augmented-generation
       - semantic-search
       - vector-database
-    last_checked_at: "2026-05-05T21:03:26.349Z"
+    last_checked_at: "2026-05-06T22:45:05.628Z"
     readme:
-      fetched_at: "2026-05-05T21:03:26.349Z"
-      bytes: 42359
+      fetched_at: "2026-05-06T22:45:05.628Z"
+      bytes: 42467
 insights:
-  summary: A local MCP server that lets Claude Code ingest and semantically search developer documentation, code, and notes across 20 file formats using hybrid search and reranking with no external API keys.
-  why_it_matters: It extends Claude Code with a private, local knowledge layer so developers can query their own docs, codebases, and notes without leaving the coding workflow or sending data to the cloud.
-  mental_damage: Yet another existential reminder that your carefully curated Obsidian vault and scattered README stash are now just a poorly chunked vector database waiting to be accidentally hallucinated into a production PR.
+  summary: A fully local MCP server that indexes documents and code into a hybrid search stack (BM25, embeddings, reranking) so Claude Code can query them via 12 MCP tools without cloud APIs or external servers.
+  why_it_matters: Developers can point Claude Code at large private knowledge bases and repos with zero cloud dependencies, getting fast, code-aware retrieval inside their existing coding workflow.
+  mental_damage: Yet another opportunity to discover that your meticulously curated local docs still can’t compete with the model’s tendency to hallucinate a confident answer from thin air.
   tags:
     - mcp
     - rag
     - local-ai
     - claude-code
-    - knowledge-base
+    - knowledge
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server that integrates with Claude Code to provide local document search and retrieval, which fits cleanly into MCP infrastructure rather than being a standalone coding agent or generic extension.
+  reason: The product’s identity is an MCP server purpose-built for knowledge retrieval and RAG, distributed as a package and listed in awesome-mcp-servers under Knowledge & Memory.
   evidence:
-    - "Repo description states: 'Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.'"
-    - "README confirms: 'Your docs, your machine, zero cloud. Claude Code searches them natively.' and lists 12 MCP tools with hybrid search via ONNX."
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory, and repository is active with recent pushes (2026-05-01) and not archived.
+    - "Repo description: 'Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.'"
+    - "README states: 'Your docs, your machine, zero cloud. Claude Code searches them natively' and documents 12 MCP tools and hybrid search."
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:26.349Z"
+    updated_at: "2026-05-06T22:45:05.628Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:05.649Z"
+    updated_at: "2026-05-06T23:11:03.585Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__discava__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: discava - The Business Directory for AI - mcp server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:53.866Z"
+    last_checked_at: "2026-05-06T22:43:38.559Z"
     readme:
-      fetched_at: "2026-05-05T21:01:53.866Z"
+      fetched_at: "2026-05-06T22:43:38.559Z"
       bytes: 1126
 insights:
-  summary: An MCP server that exposes Discava's global business directory API to AI agents, enabling business search, details lookup, autocomplete, and ranking queries.
-  why_it_matters: Developers building location-aware AI agents can plug in a ready-made tool for querying local business data without writing their own API wrapper.
-  mental_damage: We have officially reached the point where AI agents need a dedicated protocol server just to figure out where the nearest coffee shop is.
+  summary: An MCP server that exposes local business search, details, rankings, and autocomplete via the Discava API for AI agents.
+  why_it_matters: It lets coding agents and assistants query a global business directory directly, turning natural-language requests into structured local-business data without custom API glue.
+  mental_damage: "We have finally achieved the future: an AI agent can now settle arguments about which coffee shop has the highest demand score while you are trying to ship a pull request."
   tags:
     - mcp
-    - business-directory
-    - agent-tools
-    - location-services
+    - business-data
+    - agent-integration
+    - local-search
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that provides business directory tooling for AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server whose sole identity is exposing Discava's business directory to MCP-compatible agents, which fits the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'mcp server' and README confirms it is an MCP server for AI agents.
-    - Listed under 'Server Implementations > Location Services' in the awesome-mcp-servers directory.
-    - Provides standard MCP tooling (search_businesses, get_business, suggest) for Claude Desktop and Claude Code.
+    - Repo description explicitly states 'mcp server' and the README shows Claude Desktop and Claude Code MCP setup instructions.
+    - "Provides MCP tools: search_businesses, get_business, get_rankings, suggest, and send_feedback backed by the Discava API."
+    - Listed in awesome-mcp-servers under 'Location Services', confirming its role as a domain-specific MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:53.866Z"
+    updated_at: "2026-05-06T22:43:38.559Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:30.462Z"
+    updated_at: "2026-05-06T22:52:48.025Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

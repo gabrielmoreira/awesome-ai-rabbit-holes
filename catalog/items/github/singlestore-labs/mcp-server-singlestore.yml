@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__singlestore-labs__mcp-server-singlestore__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 33
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-03-03T11:25:06Z"
+    pushed_at: "2026-04-22T08:36:18Z"
+    description: MCP server for interacting with SingleStore Management API and services
+    homepage: https://pypi.org/project/singlestore-mcp-server/
+    topics: []
+    last_checked_at: "2026-05-06T22:46:26.249Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:26.249Z"
+      bytes: 11187
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the SingleStore Management API to LLM clients like Claude and Cursor, enabling natural language database operations.
+  why_it_matters: Developers can manage and query SingleStore instances directly from their AI coding assistants without leaving the chat interface or writing raw SQL manually.
+  mental_damage: We have successfully abstracted away the last remaining reason to leave the IDE, proving once and for all that 'context switching' was merely a lack of OAuth browser flows.
+  tags:
+    - mcp
+    - database
+    - singlestore
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server designed to integrate SingleStore capabilities into MCP-compatible clients.
+  evidence:
+    - "Repo description states: 'MCP server for interacting with SingleStore Management API and services'."
+    - README positions the tool for use with 'Claude Desktop, Claude Code, Cursor, or any compatible MCP client'.
+    - Listed in 'awesome-mcp-servers' under the section 'Official Servers'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:26.249Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:54.008Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

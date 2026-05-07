@@ -1,12 +1,12 @@
 id: prompt__16x__engineer
 kind: website
-name: 16x Prompt
+name: prompt.16x.engineer
 canonical_url: https://prompt.16x.engineer
 identity: {}
 provenance:
   discoveries:
     - id: discovery__prompt__16x__engineer__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A desktop application that helps developers structure prompts by managing source code context, tracking token limits, and sending requests to multiple LLMs via API or copy-paste.
-  why_it_matters: It reduces the friction of manually feeding existing codebases into chat-based LLMs by handling context selection, formatting, and model comparison in a local workspace.
-  mental_damage: We have successfully abstracted the job into managing the meta-work of prompting the tools that manage the prompts for the code we aren't writing.
+  summary: A local desktop application that assembles source code context, custom instructions, and formatting rules into optimized prompts to send to external LLMs via copy-paste or BYOK API integrations.
+  why_it_matters: It solves the manual context-assembly problem for developers working with existing codebases by packaging files, instructions, and token limits into a single prompt ready for ChatGPT, Claude, or other models.
+  mental_damage: Just when you thought sending context windows was a solved problem, you now have a dedicated desktop app to help you strategically feed the beast without hitting the token ceiling.
   tags:
+    - prompt-management
     - context-engineering
     - desktop-app
-    - llm-client
-    - prompt-management
+    - byok
+    - local-first
   confidence: high
 curation:
   status: included
-  reason: The tool's core value proposition is prompt design, context packing, and token management for coding tasks, fitting the context-engineering category rather than a coding agent that edits code autonomously.
+  reason: The core value is improving what goes into the model via prompt assembly, context management, token tracking, and reusable prompt assets, which aligns with Prompt & Context Engineering.
   evidence:
     - "Scraped site states: '16x Prompt helps developers manage source code context and craft prompts for complex coding tasks on existing codebases.'"
-    - Features include 'Token Limit Tracking', 'Prompt Management', and 'Custom Instructions & Prompt Customization'.
-    - Listed in awesome-ai-coding-tools under 'Code Search and Navigation' for context management.
+    - Features include token limit tracking, prompt management, custom instructions, and formatting optimization rather than autonomous code editing.
+    - Source list places it under 'Code Search and Navigation' as a tool for managing code context and customizing prompts.
 placement:
   primary_category: context-engineering
-  section: null
+  section: PromptOps / Prompt Management
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:12.230Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:36.015Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

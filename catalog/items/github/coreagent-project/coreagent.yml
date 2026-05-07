@@ -1,13 +1,13 @@
 id: github__coreagent-project__coreagent
 kind: github-repo
-name: CoreAgent
+name: coreagent
 canonical_url: https://github.com/coreagent-project/coreagent
 identity:
   github_repo: coreagent-project/coreagent
 provenance:
   discoveries:
     - id: discovery__github__coreagent-project__coreagent__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -32,50 +32,50 @@ metadata:
     description: "LLM Agent framework with Stateful Tools. "
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:41.619Z"
+    last_checked_at: "2026-05-06T22:43:28.666Z"
     readme:
-      fetched_at: "2026-05-05T21:01:41.619Z"
+      fetched_at: "2026-05-06T22:43:28.666Z"
       bytes: 3717
 insights:
-  summary: A lightweight Python framework for building LLM agents with stateful tools and a custom AIML protocol for structured model communication.
-  why_it_matters: It offers developers a simplified way to build multi-agent systems with shared state and proposes an alternative to MCP for handling character escaping in LLM outputs.
-  mental_damage: Just when you thought the protocol wars were settled, another framework arrives to declare MCP useless and introduce AIML, because apparently we needed yet another acronym to debug at 2 AM.
+  summary: CoreAgent is a lightweight Python framework for building LLM agents with shared stateful tools and a custom AIML protocol for structured model communication.
+  why_it_matters: It offers developers a simple, code-first way to attach persistent tools to agents and sidesteps common JSON escaping issues with a bespoke prompt protocol.
+  mental_damage: Just when you thought the MCP wars were settling down, a new framework arrives to declare protocol standards useless and invent its own character-escaping salvation.
   tags:
     - agent-framework
+    - stateful-tools
+    - python
     - aiml
     - llm
-    - python
-    - stateful-tools
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is primarily a code-first library and SDK for developers to import and build agentic behavior in Python, fitting the AI Frameworks category.
+  reason: The project is a code-first Python library and SDK used to build agentic workflows with custom tools, fitting the Frameworks & SDKs category rather than a standalone coding assistant.
   evidence:
-    - Repo description explicitly states 'LLM Agent framework with Stateful Tools.'
-    - README demonstrates importable Python classes (from coreagent import Agent) and pip install instructions.
-    - Listed in the awesome-llm-agents list under the 'Frameworks' section.
+    - "Repo description states: 'LLM Agent framework with Stateful Tools.'"
+    - README shows primary usage via `from coreagent import Agent` and `pip install coreagent`, confirming a code-first SDK identity.
+    - The README explicitly rejects MCP integration, calling it 'just a propaganda, useless stuff', confirming it is not MCP tooling.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:28.570Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:41.619Z"
+    updated_at: "2026-05-06T22:43:28.666Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:42.948Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

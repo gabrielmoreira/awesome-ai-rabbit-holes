@@ -1,0 +1,81 @@
+id: github__moonshotai__kimi-k2
+kind: github-repo
+name: kimi-k2
+canonical_url: https://github.com/moonshotai/kimi-k2
+identity:
+  github_repo: moonshotai/kimi-k2
+provenance:
+  discoveries:
+    - id: discovery__github__moonshotai__kimi-k2__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: Kimi K2 Technical Report
+        extracted_url: https://github.com/moonshotai/kimi-k2
+        surrounding_text: 53. [Kimi K2 Technical Report](https://github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf)
+        confidence: high
+metadata:
+  github:
+    stars: 10742
+    forks: 827
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-07-03T12:28:22Z"
+    pushed_at: "2026-01-21T05:33:12Z"
+    description: Kimi K2 is the large language model series developed by Moonshot AI team
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:45:25.118Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:25.118Z"
+      bytes: 27490
+insights:
+  summary: Kimi K2 is a 1-trillion-parameter mixture-of-experts (MoE) language model from Moonshot AI optimized for agentic tasks, reasoning, and coding.
+  why_it_matters: Developers can use this open-weight model as a drop-in alternative to proprietary models for building local coding agents or self-hosted AI workflows.
+  mental_damage: Another week, another trillion-parameter model claiming to solve coding, forcing you to re-benchmark your entire stack just to see if this 'open agentic intelligence' actually formats JSON correctly.
+  tags:
+    - llm
+    - moonshot
+    - open-weights
+    - agentic
+    - coding-model
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational LLM model repository and research artifact, not a developer-facing tool, agent, IDE, or application within the catalog's scope.
+  evidence:
+    - Repo description explicitly states it is a 'large language model series developed by Moonshot AI team'.
+    - README focuses on model architecture (1T parameters, MoE, Muon optimizer) and variants (Base, Instruct), not a developer tool surface.
+    - Found in source lists under '论文 Paper' (Paper) section, indicating it is curated as a research resource rather than a developer tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (10742) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.631Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:25.118Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:32.359Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

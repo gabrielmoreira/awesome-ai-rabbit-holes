@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ezyang__codemcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,28 +33,28 @@ metadata:
     description: Coding assistant MCP for Claude Desktop
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:07.062Z"
+    last_checked_at: "2026-05-06T22:43:50.136Z"
     readme:
-      fetched_at: "2026-05-05T21:02:07.062Z"
+      fetched_at: "2026-05-06T22:43:50.136Z"
       bytes: 8454
 insights:
-  summary: An MCP server that turns Claude Desktop (and browser-based Claude) into a local coding agent that can directly edit files, run tests, and manage Git commits on your codebase.
-  why_it_matters: It lets developers use a flat-rate Claude Pro subscription as a zero-marginal-cost pair programmer that works across any IDE without requiring VSCode or expensive per-token billing.
-  mental_damage: The author already considers it obsolete compared to Claude Code, which means you can now feel behind the curve while self-hosting the thing that replaced the thing that replaced you.
+  summary: An MCP server that turns Claude Desktop into a local pair programming assistant by giving it direct file editing and test-running capabilities.
+  why_it_matters: It lets developers use a flat-rate Claude Pro subscription to perform auto-accept repo work and git-versioned edits without per-token anxiety.
+  mental_damage: Yet another clever wrapper racing to make itself obsolete against the official tooling it inspired, just in time for you to migrate again.
   tags:
     - mcp
-    - claude
-    - coding-agent
-    - local-first
     - cli
+    - coding-agent
+    - local
+    - claude
   confidence: high
 curation:
   status: included
-  reason: This is a developer-facing coding agent that directly edits, tests, and versions code inside a local repo via Claude, fitting the coding-agents category over MCP infrastructure since the MCP server is the delivery mechanism for the agent itself.
+  reason: It is a standalone coding assistant that lets developers delegate repo work to Claude Desktop via MCP, fitting the primary coding agent definition.
   evidence:
-    - Repo description states it is a 'Coding assistant MCP for Claude Desktop'
-    - README says it lets you 'ask Claude to implement features, fix bugs and do refactors on a codebase... Claude will directly edit files and run tests'
-    - Listed under 'Coding Agents' in the awesome-mcp-servers directory
+    - "Repo description explicitly states: 'Coding assistant MCP for Claude Desktop'"
+    - README claims it 'directly edit files and run tests' and offers similar functionality to Claude Code, Cursor, Cline, and Aider.
+    - Source list awesome-mcp-servers includes it under 'Coding Agents' with 1615 stars and active development (pushed 2025-12-25).
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -64,19 +64,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:07.062Z"
+    updated_at: "2026-05-06T22:43:50.136Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:51.704Z"
+    updated_at: "2026-05-06T22:55:17.482Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

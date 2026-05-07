@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stackloklabs__osv-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 33
+    forks: 6
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-05-05T12:43:11Z"
+    pushed_at: "2026-05-05T11:06:35Z"
+    description: An MCP server for OSV
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:33.198Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:33.198Z"
+      bytes: 6003
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the Open Source Vulnerabilities (OSV) database to LLM-powered applications via SSE and streamable-http transports.
+  why_it_matters: It lets coding agents and MCP-compatible clients directly query package vulnerability data without developers needing to context-switch to a browser or CLI tool.
+  mental_damage: Your AI assistant can now hallucinate a CVE lookup instead of you having to manually check one.
+  tags:
+    - mcp
+    - security
+    - vulnerability
+    - osv
+    - go
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server for a specific domain (vulnerability data), making it a canonical fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'An MCP server for OSV'
+    - README confirms it 'implements an SSE-based MCP server' providing tools for the OSV database
+    - Listed in awesome-mcp-servers under 'Community Servers' for vulnerability querying
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:33.198Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:03.962Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

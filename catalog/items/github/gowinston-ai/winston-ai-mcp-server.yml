@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gowinston-ai__winston-ai-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -28,7 +28,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-07-15T17:24:54Z"
-    pushed_at: "2026-04-16T02:21:07Z"
+    pushed_at: "2026-05-06T15:15:33Z"
     description: Winston AI MCP Server
     homepage: https://dev.gowinston.ai
     topics:
@@ -36,14 +36,14 @@ metadata:
       - mcp-server
       - plagiarism-detection
       - text-compare
-    last_checked_at: "2026-05-05T21:02:25.948Z"
+    last_checked_at: "2026-05-06T22:44:06.295Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.948Z"
+      fetched_at: "2026-05-06T22:44:06.295Z"
       bytes: 7992
 insights:
-  summary: An MCP server that exposes Winston AI's detection capabilities, including AI text detection, image analysis, plagiarism checking, and text comparison, to compatible AI clients.
-  why_it_matters: It allows developers to integrate automated content verification and originality checks directly into their AI-assisted workflows via the Model Context Protocol.
-  mental_damage: Finally, an MCP server to help your AI agent verify that the blog post it hallucinated wasn't written by another AI agent.
+  summary: An MCP server that exposes Winston AI's detection capabilities—AI text detection, AI image detection, plagiarism checking, and text comparison—to compatible coding assistants and IDEs.
+  why_it_matters: Developers can vet generated content for AI detection and plagiarism risk directly from their assistant workflow instead of switching to a separate SaaS dashboard.
+  mental_damage: We have finally built the infrastructure to let your AI assistant nervously check whether its own output sounds too much like itself.
   tags:
     - mcp
     - ai-detection
@@ -52,33 +52,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is specifically an MCP server implementation, which fits directly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server whose identity and adoption are centered on the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Winston AI MCP Server'.
-    - README confirms it is a 'Model Context Protocol (MCP) Server for Winston AI'.
-    - Features include integration configs for Claude Desktop and Cursor IDE via MCP.
+    - Repo description is 'Winston AI MCP Server' and topics include mcp-server.
+    - README explicitly positions it as a Model Context Protocol (MCP) Server for Winston AI with Claude/Cursor config examples.
+    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing MCP-first identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.948Z"
+    updated_at: "2026-05-06T22:44:06.295Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:33.356Z"
+    updated_at: "2026-05-06T22:58:30.444Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

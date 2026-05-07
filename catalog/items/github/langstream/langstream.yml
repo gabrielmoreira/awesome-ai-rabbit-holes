@@ -1,13 +1,13 @@
 id: github__langstream__langstream
 kind: github-repo
-name: LangStream
+name: langstream
 canonical_url: https://github.com/langstream/langstream
 identity:
   github_repo: langstream/langstream
 provenance:
   discoveries:
     - id: discovery__github__langstream__langstream__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -44,50 +44,50 @@ metadata:
       - openai
       - python
       - vectordb
-    last_checked_at: "2026-05-05T21:03:16.920Z"
+    last_checked_at: "2026-05-06T22:44:55.837Z"
     readme:
-      fetched_at: "2026-05-05T21:03:16.920Z"
+      fetched_at: "2026-05-06T22:44:55.837Z"
       bytes: 5917
 insights:
-  summary: An event-driven platform for building and running LLM applications using pipelines deployed on Kubernetes with Apache Kafka or Pulsar as the message backbone.
-  why_it_matters: It gives developers a production-oriented runtime to wire LangChain or LlamaIndex components into scalable, event-driven architectures without stitching together raw infrastructure by hand.
-  mental_damage: Just when you thought your stack was simple enough, here comes a platform that turns a chatbot into a distributed streaming workload because why not Kafka everything.
+  summary: LangStream is an event-driven developer platform for building and running LLM applications, powered by Kubernetes and Kafka for production-grade streaming workloads.
+  why_it_matters: It gives developers a Kubernetes-native runtime to wire streaming data into LLM apps without hand-rolling infra for brokers, storage, and deployments.
+  mental_damage: Just when you thought your stack couldn’t get more enterprise, you’re now deploying chat completions like a 2015 Kafka Summit keynote.
   tags:
-    - event-driven
     - kafka
     - kubernetes
-    - langchain
-    - llm
+    - event-driven
+    - llm-infra
+    - streaming
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first framework and runtime for building LLM apps with pipelines, not a coding agent or app builder, making ai-frameworks the best fit.
+  reason: The main artifact is a code-first, deployable framework and CLI for building event-driven LLM apps on Kafka and Kubernetes, not a coding assistant or control plane.
   evidence:
-    - Repo description states it is an 'Event-Driven Developer Platform for Building and Running LLM AI Apps' powered by Kubernetes and Kafka.
-    - README demonstrates a CLI, Helm charts, and SDK-style application definitions rather than IDE integration or prompt-to-app generation.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', aligning with the framework categorization.
+    - Repo description calls it a developer platform for building and running LLM apps with Kubernetes and Kafka.
+    - README shows a CLI, Helm charts, and minikube workflows for deploying streaming LLM applications.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', aligning with framework positioning.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (431) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:16.657Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:16.920Z"
+    updated_at: "2026-05-06T22:44:55.837Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:42.975Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

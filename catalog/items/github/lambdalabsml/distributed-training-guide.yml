@@ -1,0 +1,94 @@
+id: github__lambdalabsml__distributed-training-guide
+kind: github-repo
+name: distributed-training-guide
+canonical_url: https://github.com/lambdalabsml/distributed-training-guide
+identity:
+  github_repo: lambdalabsml/distributed-training-guide
+provenance:
+  discoveries:
+    - id: discovery__github__lambdalabsml__distributed-training-guide__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: Distributed Training Guide
+        extracted_url: https://github.com/lambdalabsml/distributed-training-guide
+        surrounding_text: "31. [Distributed Training Guide](https://github.com/LambdaLabsML/distributed-training-guide): Best practices & guides on how to write distributed pytorch training code."
+        confidence: high
+metadata:
+  github:
+    stars: 610
+    forks: 71
+    license: MIT
+    archived: false
+    created_at: "2024-07-31T16:11:23Z"
+    pushed_at: "2025-10-22T21:27:41Z"
+    description: Best practices & guides on how to write distributed pytorch training code
+    homepage: ""
+    topics:
+      - cluster
+      - cuda
+      - deepspeed
+      - distributed-training
+      - fsdp
+      - gpu
+      - gpu-cluster
+      - kuberentes
+      - lambdalabs
+      - mpi
+      - nccl
+      - pytorch
+      - sharding
+      - slurm
+    last_checked_at: "2026-05-06T22:44:54.083Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:54.083Z"
+      bytes: 3652
+insights:
+  summary: A guided, multi-chapter tutorial and best-practices repository for scaling PyTorch LLM training scripts from a single GPU to multi-node distributed clusters using DDP, FSDP, and tensor parallelism.
+  why_it_matters: It provides developers with runnable, incremental examples to debug cluster errors and scale training jobs across GPUs and nodes without hiding the complexity behind high-level frameworks.
+  mental_damage: Another heroic documentation effort to help us pretend that manually sharding a 405b model across a Slurm cluster is a normal way for a software developer to spend a Tuesday.
+  tags:
+    - distributed-training
+    - pytorch
+    - llm-training
+    - gpu-cluster
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational guide and documentation resource for ML infrastructure, not a developer-facing AI tool, agent, workflow, or product.
+  evidence:
+    - Repo description explicitly defines it as 'Best practices & guides on how to write distributed pytorch training code'.
+    - README describes a sequential chapter book with train_llm.py scripts, not a runnable tool or product.
+    - Seen in awesome-LLM-resources under 'Tips', confirming its identity as a learning resource rather than a dev tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (610) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.626Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:54.083Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:18.784Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

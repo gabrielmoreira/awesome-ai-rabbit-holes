@@ -1,13 +1,13 @@
 id: github__trycua__cua
 kind: github-repo
-name: Cua
+name: cua
 canonical_url: https://github.com/trycua/cua
 identity:
   github_repo: trycua/cua
 provenance:
   discoveries:
     - id: discovery__github__trycua__cua__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -51,19 +51,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.653Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-06T22:46:56.616Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for trycua/cua
   categorize:
     status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
+    updated_at: "2026-05-06T22:47:07.182Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
-  discover:
-    status: done
-    updated_at: "2026-05-05T19:41:00.722Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: pending
-    updated_at: null
-    cause: null

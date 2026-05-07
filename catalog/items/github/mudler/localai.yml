@@ -1,13 +1,13 @@
 id: github__mudler__localai
 kind: github-repo
-name: LocalAI
+name: localai
 canonical_url: https://github.com/mudler/localai
 identity:
   github_repo: mudler/localai
 provenance:
   discoveries:
-    - id: discovery__github__go-skynet__localai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__mudler__localai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [LocalAI](https://github.com/go-skynet/LocalAI) - LocalAI is a drop-in replacement REST API that’s compatible with OpenAI API specifications for local inferencing."
         confidence: high
     - id: discovery__github__mudler__localai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,7 +37,7 @@ provenance:
         surrounding_text: "- **[LocalAI](https://localai.io/)** – Open-source OpenAI-compatible API for running models locally without GPU."
         confidence: high
     - id: discovery__github__mudler__localai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -53,12 +53,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 46070
-    forks: 4057
+    stars: 46093
+    forks: 4062
     license: MIT
     archived: false
     created_at: "2023-03-18T22:58:02Z"
-    pushed_at: "2026-05-05T13:38:41Z"
+    pushed_at: "2026-05-06T20:51:30Z"
     description: LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
     homepage: https://localai.io
     topics:
@@ -80,55 +80,50 @@ metadata:
       - stable-diffusion
       - text-generation
       - tts
-    last_checked_at: "2026-05-05T21:03:48.445Z"
+    last_checked_at: "2026-05-06T22:45:26.876Z"
     readme:
-      fetched_at: "2026-05-05T21:03:48.445Z"
+      fetched_at: "2026-05-06T22:45:26.876Z"
       bytes: 14262
 insights:
-  summary: LocalAI is an open-source AI engine that runs LLMs and generative models locally with OpenAI-compatible APIs, supporting a wide range of hardware and backends.
-  why_it_matters: It lets developers build and test AI-powered features against a local, private endpoint that mirrors the APIs they already use in production.
-  mental_damage: You can now perfectly replicate the experience of a flaky hosted LLM API right on your own laptop, complete with GPU envy and backend roulette.
+  summary: LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility.
+  why_it_matters: It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
+  mental_damage: Now you can spend your evening debugging llama.cpp backends and GPU layers just to replicate the same API you were already paying for.
   tags:
-    - api-compatibility
-    - inference
-    - llm
     - local-ai
-    - openai-api
-    - privacy
+    - inference
     - self-hosted
+    - api-compatible
+    - open-source
   confidence: high
 curation:
   status: included
-  reason: This is a local model runtime and inference stack that lets developers run AI on their own hardware with drop-in API compatibility.
+  reason: The core product identity is a local, self-hosted inference and serving stack for running models privately, which is a canonical fit for the Local AI category.
   evidence:
-    - Repo description states it is an open-source AI engine to run any model on any hardware with no GPU required.
-    - README lists drop-in OpenAI/Anthropic API compatibility and 36+ backends such as llama.cpp and vLLM.
-    - High traction with 46,070 stars and active development (pushed 2026-05-05).
-    - Repo description states it is 'the open-source AI engine' to 'Run any model... on any hardware. No GPU required.'
-    - README highlights drop-in OpenAI/Anthropic API compatibility, 36+ backends, and privacy-first local execution.
-    - Listed in awesome-ai-coding-tools under 'Local LLM Tools' and has 46k stars with recent activity (pushed 2026-05-05).
+    - "Repo description: 'LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.'"
+    - README lists drop-in OpenAI/Anthropic API compatibility and 36+ backends as core features.
+    - Canonical positives for local-ai explicitly include LocalAI, and it appears in awesome lists under Local LLM Tools and Inference UI.
 placement:
   primary_category: local-ai
-  section: null
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (46070) exceeded threshold (150)
+  reason: Stars (46093) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:39:23.226Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.441Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:48.445Z"
+    updated_at: "2026-05-06T22:45:26.876Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:16:02.508Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

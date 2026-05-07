@@ -1,12 +1,12 @@
 id: x__com__jyangballin__status__1775114448513958134
 kind: website
-name: "\"Our key insight is that LMs require carefully designed agent-computer interfaces (similar to how humans like  good UI design). E.g. When the LM messes up indentation, our editor prevents it and gives feedback.\""
+name: "1775114448513958134"
 canonical_url: https://x.com/jyangballin/status/1775114448513958134
 identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__jyangballin__status__1775114448513958134__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,19 +35,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet on X that is inaccessible due to privacy extensions or platform errors, with no recoverable description of a tool or project.
-  why_it_matters: It doesn't, as the content is completely unavailable to evaluate.
-  mental_damage: We have reached a point in the AI ecosystem where a broken link to a social media post is being reviewed as a potential autonomous agent.
+  summary: A tweet on X referencing a SWE agent, with no accessible project description, repository, or functional tool surface available for review.
+  why_it_matters: It does not matter to developers because there is no tool here to evaluate, adopt, or integrate into a workflow.
+  mental_damage: We have officially reached the point where an unresolvable X privacy error qualifies as a candidate for the AI agent stack.
   tags:
-    - unknown
+    - no-tool
+    - unverifiable
   confidence: high
 curation:
   status: excluded
-  reason: The URL leads to an inaccessible X.com page with no description, README, or functional context, making it impossible to verify it is a developer tool rather than a screenshot or discussion.
+  reason: Excluded because the source is an inaccessible social media link with no project description, repository, or usable tool surface, making it an auxiliary reference rather than a standalone product.
   evidence:
-    - "Scraped site context returns an error: 'Something went wrong... Some privacy related extensions may cause issues on x.com.'"
-    - No repo description, stars, license, or creation date are available for this entry.
-    - Source list context only indicates it was listed in awesome-ai-agents, but the link itself is dead/broken.
+    - Primary page excerpt shows an X.com privacy error with no project content available
+    - No repo description, README, stars, or code artifacts provided
+    - Listed in awesome-ai-agents as a SWE Agent description, but the underlying tool cannot be verified or accessed
 placement:
   primary_category: null
   section: null
@@ -55,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:18.964Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:38.584Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

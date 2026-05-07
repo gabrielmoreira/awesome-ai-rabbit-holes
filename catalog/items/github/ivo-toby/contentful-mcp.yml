@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ivo-toby__contentful-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: MCP (Model Context Protocol) server for the Contentful Management API
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:48.411Z"
+    last_checked_at: "2026-05-06T22:44:28.366Z"
     readme:
-      fetched_at: "2026-05-05T21:02:48.411Z"
+      fetched_at: "2026-05-06T22:44:28.366Z"
       bytes: 13228
 insights:
-  summary: A community-built MCP server that wraps the Contentful Management API to let AI agents perform CRUD operations on entries, assets, content types, and spaces.
-  why_it_matters: It lets developers and AI agents manage CMS content programmatically via chat surfaces like Claude Desktop instead of manually clicking through the Contentful UI.
-  mental_damage: We have officially reached the point where we need a wrapper so the AI can politely ask the CMS to publish a blog post without us having to open the browser.
+  summary: A community-built MCP server that exposes Contentful's Content Management API as tools for LLMs to perform CRUD operations on entries, assets, spaces, and content types.
+  why_it_matters: It lets AI coding assistants directly manage CMS content, bulk operations, and environments without developers context-switching to the Contentful UI.
+  mental_damage: We have reached the point where your AI assistant can manage your CMS pagination strategy to prevent its own context window from having an existential crisis.
   tags:
     - mcp
     - contentful
     - cms
-    - agent-tooling
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server for Contentful, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server for a specific domain (Contentful), fitting cleanly into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - "Repo description states: 'MCP (Model Context Protocol) server for the Contentful Management API'"
-    - "README confirms: 'An MCP server implementation that integrates with Contentful's Content Management API'"
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - Repo description explicitly states 'MCP (Model Context Protocol) server for the Contentful Management API'.
+    - README describes it as 'An MCP server implementation that integrates with Contentful's Content Management API'.
+    - Included in the awesome-mcp-servers list under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:48.411Z"
+    updated_at: "2026-05-06T22:44:28.366Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:00.879Z"
+    updated_at: "2026-05-06T23:03:00.738Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meanands__npm-package-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages directly in your IDE. This tool fetches the latest README documentation from either the package's GitHub repository or the README bundled with the npm package itself.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:34.287Z"
+    last_checked_at: "2026-05-06T22:45:12.565Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.287Z"
+      fetched_at: "2026-05-06T22:45:12.565Z"
       bytes: 4295
 insights:
-  summary: An MCP server that fetches up-to-date README documentation for npm packages directly from GitHub repositories or package tarballs for use in MCP-compatible IDEs.
-  why_it_matters: It gives coding assistants access to current package documentation instead of relying on potentially outdated training data or context.
-  mental_damage: We have successfully built infrastructure to pipe raw READMEs from GitHub into your IDE, because apparently the 40,000th dependency's documentation was the missing piece preventing you from writing code.
+  summary: An MCP server that fetches up-to-date README documentation for npm packages directly from GitHub repositories or bundled package tarballs for use in IDEs like Cursor.
+  why_it_matters: It replaces outdated IDE suggestions with the latest package documentation, reducing errors caused by deprecated APIs and improving the development experience.
+  mental_damage: Because nothing says 'modern development' quite like needing a dedicated protocol server to ask an AI what the README for lodash actually says today.
   tags:
     - mcp
     - npm
     - documentation
     - ide
+    - context
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that provides npm documentation lookup, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server focused on providing fresh documentation context to IDEs, making it a clear fit for MCP Servers & Tooling under Domain Servers.
   evidence:
     - Repo description explicitly states it is 'A Model Context Protocol (MCP) tool' for npm package documentation.
-    - README details a server implementation that fetches READMEs from GitHub or npm tarballs for IDE integration.
-    - Listed in awesome-mcp-servers under 'Developer Tools' section, confirming MCP ecosystem relevance.
+    - README details a tool `get_docs_for_npm_package` that fetches READMEs from GitHub or npm tarballs for IDEs.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.287Z"
+    updated_at: "2026-05-06T22:45:12.565Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:39.501Z"
+    updated_at: "2026-05-06T23:12:49.845Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

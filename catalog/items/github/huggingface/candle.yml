@@ -1,13 +1,13 @@
 id: github__huggingface__candle
 kind: github-repo
-name: Candle
+name: candle
 canonical_url: https://github.com/huggingface/candle
 identity:
   github_repo: huggingface/candle
 provenance:
   discoveries:
     - id: discovery__github__huggingface__candle__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20176
-    forks: 1552
+    stars: 20192
+    forks: 1556
     license: Apache-2.0
     archived: false
     created_at: "2023-06-19T16:06:31Z"
@@ -33,49 +33,49 @@ metadata:
     description: Minimalist ML framework for Rust
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:36.999Z"
+    last_checked_at: "2026-05-06T22:44:17.964Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.999Z"
+      fetched_at: "2026-05-06T22:44:17.964Z"
       bytes: 23226
 insights:
-  summary: Candle is a minimalist machine learning framework for Rust focused on high-performance inference and training with GPU support.
-  why_it_matters: It allows developers to run and fine-tune LLMs and other models locally in a Rust-native environment, avoiding Python dependency overhead.
-  mental_damage: Finally, you can rewrite your PyTorch inference stack in Rust to gain 10ms of performance while spending three weeks fighting the borrow checker.
+  summary: Candle is a minimalist machine learning framework for Rust focused on performance and GPU support.
+  why_it_matters: It allows developers to run and serve LLMs and vision models locally using Rust, avoiding Python dependency overhead.
+  mental_damage: Finally, you can rewrite your PyTorch prototype in Rust and spend three days fighting the borrow checker just to achieve the same inference speed you had yesterday.
   tags:
-    - local-inference
-    - ml-framework
-    - performance
     - rust
+    - ml-framework
+    - local-inference
+    - performance
   confidence: high
 curation:
-  status: included
-  reason: It is a code-first SDK/framework for building ML-powered software in Rust, fitting the AI Frameworks category rather than an agent or builder tool.
+  status: excluded
+  reason: Candle is a general machine learning framework for building and running models in Rust, not a developer-facing AI tool, agent, or infrastructure product for the software development workflow.
   evidence:
-    - Repo description defines it as a 'Minimalist ML framework for Rust'.
-    - README demonstrates usage via Rust code imports (Tensor, Device) and cargo installation.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training'.
+    - Repo description states it is a 'Minimalist ML framework for Rust', targeting model training and inference, not developer tooling.
+    - README examples focus on running LLaMA, Whisper, and Stable Diffusion as applications, rather than assisting with code editing or repo management.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', confirming its identity as a backend ML library rather than a developer productivity tool.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (20176) exceeded threshold (150)
+  reason: Stars (20192) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:31.949Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.999Z"
+    updated_at: "2026-05-06T22:44:17.964Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:00:52.468Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

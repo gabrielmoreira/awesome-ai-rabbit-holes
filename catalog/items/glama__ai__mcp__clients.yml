@@ -1,12 +1,12 @@
 id: glama__ai__mcp__clients
 kind: website
-name: glama.ai/mcp/clients
+name: clients
 canonical_url: https://glama.ai/mcp/clients
 identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__mcp__clients__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -34,43 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory page listing client applications and tools that support the Model Context Protocol (MCP).
-  why_it_matters: Developers adopting MCP need a reliable index of compatible hosts (like Claude Desktop, Cursor, and others) to plug their servers into.
-  mental_damage: We now have a protocol for the protocols, ensuring you can spend your afternoon debating which 'client' supports which 'server' instead of writing code.
+  summary: A directory page listing available MCP-compatible client applications for connecting to Model Context Protocol servers.
+  why_it_matters: Developers evaluating MCP adoption need a clear map of which clients can actually interface with the growing server ecosystem.
+  mental_damage: Just when you thought the JSON schema wars were over, we now have an entire directory dedicated to figuring out which client can correctly speak the new hotness protocol.
   tags:
-    - clients
-    - directory
     - mcp
-    - tooling
+    - directory
+    - clients
   confidence: high
 curation:
   status: included
-  reason: This is a directory/category index page for MCP clients, serving as a navigation aid for developers rather than a standalone tool itself.
+  reason: This is a navigation aid and directory for discovering MCP clients, fitting the awesome-awesomes category as a map for developers, not a standalone tool or server.
   evidence:
-    - URL is located at glama.ai/mcp/clients, indicating a listing page rather than a tool repo.
-    - Seen in the 'Clients' section of the awesome-mcp-servers ecosystem, functioning as a curated list.
-    - No repo description, stars, or code indicators provided, confirming it is a reference page, not a software artifact.
+    - URL is https://glama.ai/mcp/clients, indicating a directory page for MCP clients.
+    - Seen in awesome-mcp-servers under section 'Clients', confirming its role as a client list.
+    - No repo description, README, or code indicators suggest it is a product, framework, or server.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:57.619Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:28.864Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

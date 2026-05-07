@@ -1,12 +1,12 @@
 id: godmode__space
 kind: website
-name: Godmode
+name: godmode.space
 canonical_url: https://godmode.space
 identity: {}
 provenance:
   discoveries:
     - id: discovery__godmode__space__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Godmode is a web-based interface for interacting with autonomous AI agents to pursue open-ended goals and iterative tasks.
-  why_it_matters: It provides developers with a browser-based sandbox to experiment with agent autonomy and iterative task execution without local setup.
-  mental_damage: Another shrine to the belief that if we just give the model enough tabs, it will eventually refactor the legacy codebase while we watch in awe.
+  summary: Godmode is a web-based autonomous AI agent interface that allows users to run and iterate on tasks across multiple LLM backends.
+  why_it_matters: It provides a no-setup, browser-based environment for developers to experiment with and observe autonomous agent loops without configuring local infrastructure.
+  mental_damage: Another pristine sandbox where you can watch an agent confidently hallucinate a full-stack application while you wonder if you should have just written the CSS yourself.
   tags:
-    - agents
-    - autonomous
-    - browser
-    - web-interface
-  confidence: high
+    - autonomous-agents
+    - browser-interface
+    - multi-model
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a general-purpose autonomous agent interface for end-users rather than a developer-tooling product focused on code, infrastructure, or app-building workflows.
+  status: included
+  reason: The product is a standalone autonomous agent environment accessible via the browser, fitting the coding agent profile as a primary assistant for task execution.
   evidence:
-    - Listed in awesome-ai-agents under a general autonomous agent section rather than a developer-tools section.
-    - Described as a browser-based agent space with no stated focus on code editing, IDE integration, or developer workflow automation.
-    - No repo description, README, or site context indicating it targets software development tasks specifically.
+    - Seen in the awesome-ai-agents list under the section 'Godmode' as an autonomous agent.
+    - The URL godmode.space implies a web-hosted product surface rather than a local framework or extension.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:04.899Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:36.335Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

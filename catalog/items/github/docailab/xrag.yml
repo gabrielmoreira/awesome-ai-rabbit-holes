@@ -1,13 +1,13 @@
 id: github__docailab__xrag
 kind: github-repo
-name: XRAG
+name: xrag
 canonical_url: https://github.com/docailab/xrag
 identity:
   github_repo: docailab/xrag
 provenance:
   discoveries:
     - id: discovery__github__docailab__xrag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,49 +36,50 @@ metadata:
       - llamaindex
       - llm
       - rag
-    last_checked_at: "2026-05-05T21:01:54.719Z"
+    last_checked_at: "2026-05-06T22:43:39.397Z"
     readme:
-      fetched_at: "2026-05-05T21:01:54.719Z"
+      fetched_at: "2026-05-06T22:43:39.397Z"
       bytes: 14803
 insights:
-  summary: XRAG is a benchmarking framework and evaluation toolkit designed to measure and analyze the performance of foundational components within Retrieval-Augmented Generation (RAG) systems.
-  why_it_matters: It gives developers a modular way to benchmark retrievers, embeddings, and LLMs across traditional and LLM-based metrics so they can stop guessing which RAG config actually works.
-  mental_damage: Because nothing says shipping velocity like spending three weeks tuning a retrieval pipeline only to realize you needed a benchmark suite to tell you what your gut already feared.
+  summary: XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs.
+  why_it_matters: It provides developers with a modular workbench to measure retrieval quality, faithfulness, and answer correctness across different RAG configurations and orchestration strategies.
+  mental_damage: Yet another reminder that while we can perfectly measure how our RAG pipeline hallucinates, we still haven't figured out how to stop it from doing so in production.
   tags:
-    - benchmark
-    - evaluation
-    - llm
     - rag
+    - evaluation
+    - benchmark
+    - llm
+    - metrics
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing evaluation harness and benchmark for RAG components, which fits the Evaluations and Benchmarks category cleanly.
+  reason: The core identity of XRAG is measuring, scoring, and comparing RAG system behavior through a comprehensive evaluation framework, which aligns perfectly with the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly calls it a benchmarking framework for foundational RAG component modules.
-    - README highlights evaluation dimensions, built-in metrics (F1, EM, Faithfulness, Hallucination), and pluggable retrievers/LLMs for measurement.
-    - Appears in awesome-LLM-resources under a RAG knowledge-base section, reinforcing its evaluator/benchmark role.
+    - Repo description explicitly states it is for 'Benchmarking Foundational Component Modules in Advanced Retrieval-Augmented Generation'.
+    - README features 'Comprehensive Evaluation Framework' with LLM-based, deep, and traditional metrics as the primary feature set.
+    - Roadmap highlights 'Novel Evaluation Metrics' like Semantic Perplexity and Entropy rather than new agent capabilities.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:16:39.835Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:54.719Z"
+    updated_at: "2026-05-06T22:43:39.397Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:59.385Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

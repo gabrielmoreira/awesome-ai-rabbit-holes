@@ -1,0 +1,93 @@
+id: github__opendcai__dataflow
+kind: github-repo
+name: dataflow
+canonical_url: https://github.com/opendcai/dataflow
+identity:
+  github_repo: opendcai/dataflow
+provenance:
+  discoveries:
+    - id: discovery__github__opendcai__dataflow__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: DataFlow
+        extracted_url: https://github.com/opendcai/dataflow
+        surrounding_text: "39. [DataFlow](https://github.com/OpenDCAI/DataFlow): Easy Data Preparation with latest LLMs-based Operators and Pipelines."
+        confidence: high
+metadata:
+  github:
+    stars: 3381
+    forks: 321
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-10-13T14:45:45Z"
+    pushed_at: "2026-04-15T15:46:28Z"
+    description: Easy Data Preparation with latest LLMs-based Operators and Pipelines.
+    homepage: https://OpenDCAI.github.io/DataFlow-Doc/
+    topics:
+      - data
+      - data-agent
+      - data-cleaning
+      - data-pipelines
+      - data-processing
+      - data-science
+      - data-synthesis
+      - gradio-interface
+      - llms
+      - operators
+      - quick-data-processing
+      - sglang-bankend
+      - vllm-backend
+    last_checked_at: "2026-05-06T22:45:42.605Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:42.605Z"
+      bytes: 35111
+insights:
+  summary: DataFlow is a Python framework and visual pipeline builder for generating, cleaning, and preparing datasets specifically for training large language models using LLM-based operators.
+  why_it_matters: It provides a structured, low-code way for developers and researchers to turn raw data into high-quality training sets without writing custom preprocessing scripts from scratch.
+  mental_damage: "Just what we needed: another sophisticated pipeline to generate synthetic data so our models can learn how to hallucinate with even better grammar."
+  tags:
+    - data-pipelines
+    - llm-training
+    - synthetic-data
+    - low-code
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is excluded because its primary focus is data preparation and LLM training infrastructure, which falls outside the catalog's scope of developer-facing coding tools, agents, and workflows.
+  evidence:
+    - Repo description explicitly states 'Easy Data Preparation with latest LLMs-based Operators and Pipelines.'
+    - README excerpt emphasizes 'Generate, Clean, and Prepare LLM Data' and 'Turn raw data into high-quality LLM training datasets.'
+    - Source list context places it under '数据 Data' (Data) in an LLM resources list, not developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (3381) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.640Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:42.605Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:37.338Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

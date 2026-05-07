@@ -1,13 +1,13 @@
 id: github__stacklok__toolhive
 kind: github-repo
-name: ToolHive
+name: toolhive
 canonical_url: https://github.com/stacklok/toolhive
 identity:
   github_repo: stacklok/toolhive
 provenance:
   discoveries:
     - id: discovery__github__stacklok__toolhive__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1773
+    forks: 214
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-12T14:49:15Z"
+    pushed_at: "2026-05-06T22:08:20Z"
+    description: ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.
+    homepage: https://stacklok.com/download/
+    topics:
+      - ai
+      - ai-security
+      - aicodeassistant
+      - golang
+      - kubernetes
+      - mcp
+      - mcp-security
+      - mcp-servers
+      - mcp-tools
+      - model-context-protocol
+      - security
+    last_checked_at: "2026-05-06T22:46:32.825Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:32.825Z"
+      bytes: 11816
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ToolHive is an open-source platform for running and managing Model Context Protocol (MCP) servers in isolated containers with identity enforcement and observability.
+  why_it_matters: It lets developers and platform teams self-host and secure MCP servers, integrating them with clients like Claude Code and Cursor while adding policy controls and token-saving semantic search.
+  mental_damage: "Finally, the Kafka of MCP: a dedicated platform to manage the growing sprawl of local servers that were supposed to simplify your AI workflow."
+  tags:
+    - mcp
+    - security
+    - kubernetes
+    - self-hosted
+    - infrastructure
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is MCP infrastructure, acting as a platform and gateway for running, securing, and observing MCP servers across desktop and Kubernetes environments.
+  evidence:
+    - Repo description explicitly states it is 'an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.'
+    - README highlights running 'any MCP server securely' and connecting clients like Claude Code and Cursor to these servers.
+    - Topics include 'mcp', 'mcp-servers', 'mcp-tools', and 'mcp-security', confirming the MCP-first identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1773) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:32.825Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:02.511Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

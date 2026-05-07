@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__junipr-labs__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP server for Junipr APIs — screenshots, PDFs, and metadata extraction
     homepage: https://junipr.io
     topics: []
-    last_checked_at: "2026-05-05T21:03:00.638Z"
+    last_checked_at: "2026-05-06T22:44:38.199Z"
     readme:
-      fetched_at: "2026-05-05T21:03:00.638Z"
+      fetched_at: "2026-05-06T22:44:38.199Z"
       bytes: 3804
 insights:
-  summary: An MCP server that exposes 75+ Junipr web intelligence tools—including screenshot capture, PDF generation, and metadata extraction—to AI assistants via the Model Context Protocol.
-  why_it_matters: Developers can give coding agents and IDEs direct access to web scraping, rendering, and document conversion capabilities without building custom API integrations.
-  mental_damage: Another MCP server appears overnight, proving that the true AI breakthrough wasn't artificial general intelligence, but the discovery that everything becomes useful once wrapped in a protocol.
+  summary: An MCP server that gives AI assistants access to 75+ Junipr web intelligence tools, including screenshot capture, PDF generation, metadata extraction, and web scrapers.
+  why_it_matters: Developers can wire Claude, Cursor, Windsurf, and VS Code into Junipr's API to automate web capture, document generation, and metadata extraction directly from their coding assistant.
+  mental_damage: We have reached the point where your AI assistant now needs a dedicated MCP server just to take a screenshot of a webpage and call it a productivity breakthrough.
   tags:
     - mcp
     - web-scraping
-    - ai-tools
-    - ide-integration
-  confidence: medium
+    - pdf-generation
+    - metadata-extraction
+    - junipr
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tool access to AI assistants, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product is an MCP server that exposes Junipr's web intelligence APIs to MCP-compatible clients, fitting cleanly as domain-specific MCP infrastructure.
   evidence:
-    - "Repo description states: 'MCP server for Junipr APIs — screenshots, PDFs, and metadata extraction'"
-    - "README confirms: 'MCP server for Junipr APIs. Gives AI assistants access to 75+ web intelligence tools'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation'
+    - "Repo description explicitly states: 'MCP server for Junipr APIs — screenshots, PDFs, and metadata extraction'."
+    - README configures the server for Claude Desktop, Claude Code, Cursor, VS Code, and Windsurf as an MCP server.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:00.638Z"
+    updated_at: "2026-05-06T22:44:38.199Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:29:37.317Z"
+    updated_at: "2026-05-06T23:05:06.111Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

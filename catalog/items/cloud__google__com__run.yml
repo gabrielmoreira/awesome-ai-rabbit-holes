@@ -1,12 +1,12 @@
 id: cloud__google__com__run
 kind: website
-name: Google Cloud Run
+name: run
 canonical_url: https://cloud.google.com/run
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cloud__google__com__run__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google Cloud Run is a managed compute platform for deploying and scaling containerized applications.
-  why_it_matters: It provides the serverless infrastructure backbone that many AI apps and agents are deployed on, abstracting away the underlying Kubernetes cluster management.
-  mental_damage: We've reached a point where even the infrastructure that runs our AI tools is being listed as an AI tool, shortening the feedback loop of recursive complexity.
+  summary: Google Cloud Run is a managed compute platform that automatically deploys and scales containerized applications in a serverless environment.
+  why_it_matters: It provides the underlying infrastructure to run AI applications and agents without managing the underlying server fleet or orchestration layers.
+  mental_damage: Because nothing says 'local AI development' quite like spinning up a globally distributed, fully managed service just to test a prompt chain that could have run in a bash loop.
   tags:
     - cloud
-    - google-cloud
-    - infrastructure
     - serverless
+    - infrastructure
+    - containers
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose cloud infrastructure product (serverless containers), not a developer-facing AI tool, agent, or workflow product.
+  reason: Excluded because it is a general cloud infrastructure product (PaaS/Serverless) with no specific AI developer-tooling identity, despite being listed in a generic MCP servers list.
   evidence:
-    - URL points to cloud.google.com/run, identifying it as Google Cloud Run, a standard container hosting service.
-    - Source-list context shows it is only listed in awesome-mcp-servers as an 'Official Server', likely referring to a specific MCP connector rather than the core product.
-    - No evidence in the inputs suggests it is an AI-native coding assistant, agent, or app builder.
+    - URL resolves to cloud.google.com/run, identifying it as a Google Cloud infrastructure product.
+    - Appears in awesome-mcp-servers list under 'Official Servers', but the product itself is a general compute platform.
+    - No repo description, README, or code context provided that suggests an AI-native developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:01.597Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:07.943Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

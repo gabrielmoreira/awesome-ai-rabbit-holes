@@ -1,0 +1,74 @@
+id: fibery__io
+kind: website
+name: fibery.io
+canonical_url: https://fibery.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__fibery__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Fibery
+        extracted_url: https://fibery.io
+        surrounding_text: "- **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in your [Fibery](https://fibery.io) workspace."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Fibery is a work management platform that recently added an official MCP server to allow AI assistants to interact with its databases and workflows.
+  why_it_matters: Developers can connect coding agents directly to their product management workspace, letting AI read specs and update roadmaps without context-switching.
+  mental_damage: We have successfully bridged the gap between your Jira-compatible workspace and your terminal, ensuring your AI can now argue with product managers on your behalf.
+  tags:
+    - mcp
+    - project-management
+    - integration
+  confidence: medium
+curation:
+  status: included
+  reason: Fibery is included because it provides an official MCP server, fitting the MCP Servers & Tooling category where the protocol implementation is the primary developer-facing artifact.
+  evidence:
+    - Listed in the 'awesome-mcp-servers' directory under the section 'Official Servers'.
+    - The product (Fibery.io) is a work management platform, but the developer-facing entry point here is the MCP server implementation.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.661Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:03.535Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

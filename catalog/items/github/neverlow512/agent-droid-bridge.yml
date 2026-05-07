@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neverlow512__agent-droid-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-20T16:34:30Z"
-    pushed_at: "2026-05-02T22:54:35Z"
+    pushed_at: "2026-05-05T22:10:47Z"
     description: Agent Droid Bridge gives AI agents programmatic control over Android devices and emulators via ADB, exposed as an MCP server.
     homepage: ""
     topics:
@@ -39,50 +39,50 @@ metadata:
       - claude-code
       - cursor
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:53.647Z"
+    last_checked_at: "2026-05-06T22:45:31.618Z"
     readme:
-      fetched_at: "2026-05-05T21:03:53.647Z"
+      fetched_at: "2026-05-06T22:45:31.618Z"
       bytes: 13411
 insights:
-  summary: An MCP server that exposes Android device and emulator control via ADB as structured tools for AI agents to automate mobile UI, testing, and reverse engineering workflows.
-  why_it_matters: It lets developers drive real Android devices through natural language prompts instead of writing brittle test scripts or manually clicking through emulator UIs.
-  mental_damage: Now your AI agent can argue with you about why it drew the roof of the house in the wrong place on a simulated phone screen.
+  summary: An MCP server that exposes Android device and emulator control via ADB as structured tools for MCP-compatible AI agents.
+  why_it_matters: It lets coding agents drive real mobile UI, automate testing, and perform dynamic analysis on Android devices without writing traditional test scripts.
+  mental_damage: "We have finally achieved the pinnacle of engineering efficiency: delegating \"toggle dark mode\" and \"draw a house in Paint\" to a trillion-parameter model via a protocol bridge."
   tags:
     - mcp
     - android
     - adb
-    - mobile-automation
-    - agent-tools
+    - mobile-testing
+    - automation
   confidence: high
 curation:
   status: included
-  reason: This is a specialized MCP server that gives AI agents structured ADB access to Android devices, fitting cleanly into MCP infrastructure.
+  reason: The product's core identity is an MCP server that bridges AI agents to Android devices, fitting squarely into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - "Repo description: 'Agent Droid Bridge gives AI agents programmatic control over Android devices and emulators via ADB, exposed as an MCP server.'"
-    - README states it is 'an MCP server that connects AI agents to Android devices and emulators over ADB' with 14 built-in tools.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description states it is 'an MCP server' giving AI agents control over Android devices via ADB.
+    - README identifies it as 'an MCP server that connects AI agents to Android devices' with 14+ built-in tools.
+    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:53.647Z"
+    updated_at: "2026-05-06T22:45:31.618Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:25.830Z"
+    updated_at: "2026-05-06T23:17:08.937Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

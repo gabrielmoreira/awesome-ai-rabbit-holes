@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__knewstimek__agent-tool__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -52,50 +52,50 @@ metadata:
       - sftp
       - ssh
       - tls
-    last_checked_at: "2026-05-05T21:03:06.983Z"
+    last_checked_at: "2026-05-06T22:44:44.191Z"
     readme:
-      fetched_at: "2026-05-05T21:03:06.983Z"
+      fetched_at: "2026-05-06T22:44:44.191Z"
       bytes: 20731
 insights:
-  summary: An MCP tool server that provides AI coding agents with encoding-aware file operations, remote execution via SSH/SFTP, and reverse engineering capabilities like binary analysis and DAP debugging.
-  why_it_matters: It fixes common friction points in AI coding agents—such as indentation corruption and encoding loss—while bundling 50 tools into a single binary to expand an agent's reach into system processes, databases, and remote servers.
-  mental_damage: We have reached the point where we need a dedicated server just to stop our AI assistants from silently converting legacy encodings and breaking tab indentation, because apparently the agents can't be trusted with a simple text editor.
+  summary: A single-binary MCP tool server that provides encoding-aware file operations, network utilities, reverse engineering capabilities, and remote access tools for AI coding agents.
+  why_it_matters: It bundles 50+ tools into one install to fix common agent limitations like tab indentation corruption, encoding issues, and missing infrastructure access for Claude Code, Cursor, and other MCP-compatible agents.
+  mental_damage: We have finally reached the point where our AI assistants need their own SSH clients, DAP debuggers, and binary disassemblers because the 'built-in' tools can't even preserve a tab character.
   tags:
     - mcp
-    - coding-agents
-    - developer-tools
     - encoding
+    - debugging
     - reverse-engineering
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing tooling infrastructure for AI coding agents, which fits the MCP category definition perfectly.
+  reason: The product's primary identity is an MCP server that extends coding agents with host capabilities, making it a clear fit for MCP Servers & Tooling rather than a standalone coding agent.
   evidence:
-    - Repo description states it is an 'MCP tool server for AI coding agents'.
-    - README confirms it is an MCP server solving limitations in agents like Claude Code, Cursor, and Codex.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'MCP tool server for AI coding agents'
+    - Supported agents list includes Claude Code, Codex CLI, Cursor, Windsurf, Cline, Gemini CLI, and 'any MCP-compatible agent'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:06.983Z"
+    updated_at: "2026-05-06T22:44:44.191Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:08.063Z"
+    updated_at: "2026-05-06T23:06:26.607Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

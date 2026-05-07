@@ -1,0 +1,80 @@
+id: github__funstory-ai__babeldoc
+kind: github-repo
+name: babeldoc
+canonical_url: https://github.com/funstory-ai/babeldoc
+identity:
+  github_repo: funstory-ai/babeldoc
+provenance:
+  discoveries:
+    - id: discovery__github__funstory-ai__babeldoc__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: BabelDOC
+        extracted_url: https://github.com/funstory-ai/babeldoc
+        surrounding_text: "34. [BabelDOC](https://github.com/funstory-ai/BabelDOC): PDF scientific paper translation and bilingual comparison library."
+        confidence: high
+metadata:
+  github:
+    stars: 8395
+    forks: 675
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-11-13T13:57:29Z"
+    pushed_at: "2026-04-13T22:19:45Z"
+    description: Yet Another Document Translator
+    homepage: https://funstory-ai.github.io/BabelDOC/
+    topics: []
+    last_checked_at: "2026-05-06T22:43:57.506Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:57.506Z"
+      bytes: 26782
+insights:
+  summary: A Python library and CLI tool that uses LLMs to translate PDF documents, such as scientific papers, while preserving formatting and generating bilingual comparisons.
+  why_it_matters: It allows developers to programmatically process and localize technical documentation or research papers via a simple API or command line.
+  mental_damage: Finally, a way to use state-of-the-art AI to ensure you can read the paper but still not understand the math.
+  tags:
+    - pdf
+    - translation
+    - cli
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because, despite using LLMs, it is a document translation utility for end-users and researchers, not a tool that assists developers in writing, debugging, or managing code.
+  evidence:
+    - Repo description defines it as 'Yet Another Document Translator', focusing on PDF translation.
+    - README states it is 'mainly designed to be embedded into other programs' for translation tasks, not coding workflows.
+    - Seen in source lists under 'Data' sections, indicating it is viewed as a data processing resource rather than a dev tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8395) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.615Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:57.506Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:46.007Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

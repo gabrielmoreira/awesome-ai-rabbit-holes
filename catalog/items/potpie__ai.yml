@@ -1,12 +1,12 @@
 id: potpie__ai
 kind: website
-name: Potpie
+name: potpie.ai
 canonical_url: https://potpie.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__potpie__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Potpie.ai is a browser-first AI platform that generates complete applications, sites, and internal tools from natural language prompts.
-  why_it_matters: It allows developers to rapidly scaffold and deploy functional applications directly from a browser, reducing the time between an idea and a deployed prototype.
-  mental_damage: Yet another reminder that the hardest part of modern development is no longer writing the code, but deciding which black-box SaaS you trust to hallucinate your entire stack for you.
+  summary: Potpie.ai is an AI-powered coding tool positioned as a coding agent for software development workflows.
+  why_it_matters: It aims to automate coding tasks by acting as an intelligent assistant that can plan and execute changes across a codebase.
+  mental_damage: Another day, another autonomous agent promising to refactor your repo while you bravely watch your terminal, wondering if this is the one that finally deletes node_modules on purpose.
   tags:
-    - app-builder
-    - prompt-to-app
-    - prototyping
-    - saas
+    - coding-agent
+    - ai-coding
+    - developer-tools
   confidence: medium
 curation:
   status: included
-  reason: The product is a hosted, browser-first platform focused on turning prompts into full applications, which aligns with the app-builders category rather than a repo-native coding agent.
+  reason: Potpie.ai is listed in awesome-ai-coding-tools under the 'Coding Agents' section and presents itself as an AI coding assistant, fitting the profile of a tool developers delegate repo work to.
   evidence:
-    - URL is https://potpie.ai, indicating a hosted SaaS product rather than a repo-based CLI or IDE tool.
-    - Listed in awesome-ai-coding-tools under 'Coding Agents', but the browser-first prompt-to-app workflow fits app-builders better.
-    - No repo description or README provided, but the URL and directory context suggest a full application generation surface.
+    - Listed in awesome-ai-coding-tools with the purpose 'A curated list of AI-powered coding tools' under the section 'Coding Agents'.
+    - Homepage URL is https://potpie.ai, indicating a standalone product rather than a plugin or extension.
 placement:
-  primary_category: app-builders
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:04.038Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:26.803Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

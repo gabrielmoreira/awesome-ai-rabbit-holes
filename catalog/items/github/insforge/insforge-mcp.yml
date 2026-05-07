@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__insforge__insforge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25
+    stars: 26
     forks: 11
     license: Apache-2.0
     archived: false
@@ -33,50 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:44.173Z"
+    last_checked_at: "2026-05-06T22:44:24.224Z"
     readme:
-      fetched_at: "2026-05-05T21:02:44.173Z"
+      fetched_at: "2026-05-06T22:44:24.224Z"
       bytes: 3098
 insights:
-  summary: An MCP server that exposes Insforge backend capabilities—such as auth, databases, file storage, and serverless functions—to coding agents and AI IDEs.
-  why_it_matters: It lets AI coding assistants directly scaffold and wire backend infrastructure into apps instead of stopping at the frontend, reducing the manual glue work between agent output and real backends.
-  mental_damage: Another layer in the stack where your agent can now proudly generate broken auth flows and misconfigured databases without you lifting a finger.
+  summary: An MCP server that gives coding agents access to Insforge backend capabilities like auth, databases, file storage, serverless functions, and LLMs.
+  why_it_matters: It lets agents add full-stack backend features to apps without leaving the editor or wiring infrastructure by hand.
+  mental_damage: Your agent can now scaffold auth and databases in seconds, so you can spend the next four hours debugging why it chose SQLite for a distributed system.
   tags:
     - mcp
     - backend
-    - coding-agent
-    - infrastructure
-    - insforge
+    - full-stack
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation that integrates Insforge backend features into MCP-compatible clients like Cursor, Claude Code, and Cline.
+  reason: The repo is explicitly an MCP server that extends coding agents with backend capabilities, making it a clear domain-specific MCP tool.
   evidence:
-    - "README states: 'This repo is Model Context Protocol server for Insforge' and provides MCP client install commands for Cursor, Claude Code, Cline, etc."
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
-    - Actively maintained with a recent push date of 2026-05-04 and no archive flag.
+    - "README states: 'This repo is Model Context Protocol server for Insforge'"
+    - Described as giving agents 'auth, databases, file storage, serverless functions, and LLMs'
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:44.173Z"
+    updated_at: "2026-05-06T22:44:24.224Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:04.967Z"
+    updated_at: "2026-05-06T23:02:13.161Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

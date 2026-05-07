@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shipitandpray__mcp-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-25T17:57:21Z"
+    pushed_at: "2026-03-29T20:08:57Z"
+    description: "Smart memory for AI agents. Solves the Karpathy problem: memories decay, topics are frequency-weighted, one-time questions don't become obsessions. 7 tools. Zero deps."
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-agents
+      - ai-memory
+      - claude-code
+      - context-management
+      - context-window
+      - decay
+      - karpathy
+      - llm-memory
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - personalization
+    last_checked_at: "2026-05-06T22:46:23.346Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.346Z"
+      bytes: 5535
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI agents with frequency-weighted memory featuring exponential decay, auto-categorization, and semantic deduplication to prevent one-off questions from becoming permanent obsessions.
+  why_it_matters: Developers plugging memory into coding agents can stop their assistants from perpetually reminding them about that one Rust question they asked two months ago.
+  mental_damage: We have successfully engineered a system to make our AI forget things as rapidly as we forget why we started using it in the first place.
+  tags:
+    - mcp
+    - memory
+    - context
+    - llm
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server for memory management, fitting cleanly into the MCP category as a protocol-native tool rather than a generic extension or framework.
+  evidence:
+    - Repo description identifies it as a memory tool with '7 tools' and topics include 'mcp-server' and 'model-context-protocol'.
+    - "Installation instructions show MCP server configuration: 'mcpServers: { command: npx, args: [mcp-memory] }'."
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming protocol-native identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.346Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:23.965Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

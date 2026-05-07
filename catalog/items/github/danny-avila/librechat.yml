@@ -1,13 +1,13 @@
 id: github__danny-avila__librechat
 kind: github-repo
-name: LibreChat
+name: librechat
 canonical_url: https://github.com/danny-avila/librechat
 identity:
   github_repo: danny-avila/librechat
 provenance:
   discoveries:
     - id: discovery__github__danny-avila__librechat__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 36591
-    forks: 7495
+    stars: 36656
+    forks: 7509
     license: MIT
     archived: false
     created_at: "2023-02-12T01:06:52Z"
-    pushed_at: "2026-05-05T20:53:57Z"
+    pushed_at: "2026-05-06T20:44:23Z"
     description: "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active."
     homepage: https://librechat.ai/
     topics:
@@ -52,50 +52,50 @@ metadata:
       - responses-api
       - vision
       - webui
-    last_checked_at: "2026-05-05T21:01:46.404Z"
+    last_checked_at: "2026-05-06T22:43:32.495Z"
     readme:
-      fetched_at: "2026-05-05T21:01:46.404Z"
+      fetched_at: "2026-05-06T22:43:32.495Z"
       bytes: 11032
 insights:
-  summary: A self-hostable, open-source AI chat interface that unifies access to dozens of AI providers, supports the Model Context Protocol (MCP), and includes a no-code agent builder with code interpretation capabilities.
-  why_it_matters: It gives developers a single, private, and extensible frontend to orchestrate models and local agents without surrendering their API keys or data to a dozen disjointed SaaS dashboards.
-  mental_damage: You now have 36,000 stars worth of motivation to host yet another 'universal' chat interface that supports every model except the one that actually solves your problem.
+  summary: LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation.
+  why_it_matters: It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
+  mental_damage: Yet another heroic open-source effort to unify every AI provider into one chat UI, ensuring you can now write Python, generate React components, and hallucinate at scale without ever leaving the browser tab you're hosting on Railway.
   tags:
-    - agents
-    - chat-ui
-    - mcp
-    - multi-model
     - self-hosted
+    - chat-ui
+    - multi-model
+    - mcp
+    - agents
   confidence: high
 curation:
   status: included
-  reason: LibreChat is a self-hosted, developer-facing chat interface that centralizes local and remote AI models, fits the 'run AI on your own hardware' ethos, and includes deep MCP integration for tooling.
+  reason: LibreChat is primarily a self-hosted chat interface and local serving layer for developers to run and interact with diverse AI models privately, fitting the local AI desktop interface profile.
   evidence:
-    - Repo description explicitly cites 'open-source for self-hosting' and lists 'MCP' alongside local providers like Ollama.
-    - README highlights 'Code Interpreter API' with sandboxed execution and 'LibreChat Agents' with an Agent Marketplace.
-    - Massive traction (36,591 stars) and active development (pushed 2026-05-05) confirm it is a living developer tool, not a dead clone.
+    - Repo description explicitly calls it an 'Enhanced ChatGPT Clone' for 'self-hosting' with support for local endpoints like Ollama.
+    - README highlights 'Custom Endpoints' and compatibility with 'Local & Remote AI Providers' including Ollama and Apple MLX.
+    - "Homepage is librechat.ai and it is actively maintained (pushed_at: 2026-05-06) with 36k+ stars."
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (36591) exceeded threshold (150)
+  reason: Stars (36656) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:15:21.645Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:46.404Z"
+    updated_at: "2026-05-06T22:43:32.495Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:33.538Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

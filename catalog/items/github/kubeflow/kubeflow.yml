@@ -1,13 +1,13 @@
 id: github__kubeflow__kubeflow
 kind: github-repo
-name: Kubeflow
+name: kubeflow
 canonical_url: https://github.com/kubeflow/kubeflow
 identity:
   github_repo: kubeflow/kubeflow
 provenance:
   discoveries:
     - id: discovery__github__kubeflow__kubeflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 15623
-    forks: 2647
+    forks: 2646
     license: Apache-2.0
     archived: false
     created_at: "2017-11-30T18:44:19Z"
@@ -42,27 +42,27 @@ metadata:
       - ml
       - notebook
       - tensorflow
-    last_checked_at: "2026-05-05T21:03:08.836Z"
+    last_checked_at: "2026-05-06T22:44:45.848Z"
     readme:
-      fetched_at: "2026-05-05T21:03:08.836Z"
+      fetched_at: "2026-05-06T22:44:45.848Z"
       bytes: 5176
 insights:
-  summary: Kubeflow is a Kubernetes-native toolkit providing modular components for the full AI lifecycle, including model training, serving, and notebook environments.
-  why_it_matters: It allows platform teams to assemble scalable, portable AI infrastructure on Kubernetes without being locked into a single vendor's ML platform.
-  mental_damage: Finally, you too can experience the unique joy of debugging CRDs and reconciling YAML manifests just to discover that your model training failed because of a missing network policy.
+  summary: Kubeflow is a machine learning toolkit for Kubernetes that provides modular, scalable components for the entire AI lifecycle, including training, serving, and notebooks.
+  why_it_matters: It gives platform teams a composable, Kubernetes-native foundation to build internal AI platforms without marrying a single vendor's stack.
+  mental_damage: Yet another chance to discover that your YAML is more complex than the model you're trying to train.
   tags:
-    - infrastructure
-    - kubernetes
     - ml-platform
+    - kubernetes
     - mlops
+    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: While it appears in LLMOps lists, Kubeflow is a general ML infrastructure platform for Kubernetes, not a developer-facing AI tool, agent, or coding workflow enhancer.
+  reason: Kubeflow is a general ML platform and infrastructure toolkit for Kubernetes, which falls outside the catalog's focus on coding agents, developer tooling, and AI workflow products.
   evidence:
-    - Repo description defines it as a 'Machine Learning Toolkit for Kubernetes', targeting platform teams and MLOps.
-    - README describes a 'composable, modular, portable, and scalable' AI reference platform covering training, serving, and notebooks, not code editing.
-    - No signals in the input suggest it assists developers with coding, IDE workflows, or prompt-driven app generation.
+    - "Repo description: 'Machine Learning Toolkit for Kubernetes' (general ML infrastructure, not developer tooling)."
+    - README describes components for model training, serving, notebooks, and pipelines (MLOps, not coding assistance).
+    - Seen in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', which is broader than this catalog's developer-tooling scope.
 placement:
   primary_category: null
   section: null
@@ -70,21 +70,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (15623) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:26.263Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:08.836Z"
+    updated_at: "2026-05-06T22:44:45.848Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:49.137Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

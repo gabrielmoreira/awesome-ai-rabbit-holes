@@ -1,13 +1,13 @@
 id: github__infuseai__piperider
 kind: github-repo
-name: Piperider
+name: piperider
 canonical_url: https://github.com/infuseai/piperider
 identity:
   github_repo: infuseai/piperider
 provenance:
   discoveries:
     - id: discovery__github__infuseai__piperider__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -52,27 +52,27 @@ metadata:
       - pull-requests
       - python
       - reporting
-    last_checked_at: "2026-05-05T21:02:43.537Z"
+    last_checked_at: "2026-05-06T22:44:23.838Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.537Z"
+      fetched_at: "2026-05-06T22:44:23.838Z"
       bytes: 6976
 insights:
-  summary: PipeRider is a CLI tool that profiles dbt models and generates HTML comparison reports to validate downstream data impact before merging pull requests.
-  why_it_matters: It automates data-impact reviews by comparing profiling statistics between branches and posting summaries to PRs, reducing the risk of silently breaking analytics pipelines.
-  mental_damage: Just when you thought code review was complicated enough, now your data warehouse needs a PR diff too, and the tool that does it is already asking you to migrate to its successor.
+  summary: PipeRider is a CLI tool that profiles dbt models and generates comparison reports to validate data changes during pull request reviews.
+  why_it_matters: It automates data impact analysis for dbt projects, allowing teams to merge PRs with confidence by visualizing exactly how schema or logic changes affect downstream data.
+  mental_damage: Finally, a tool to ensure your dbt PR doesn't turn the billing pipeline into a confidence interval of zero, assuming you migrate to its successor before the repo gathers dust.
   tags:
-    - ci
-    - data-observability
-    - data-quality
     - dbt
+    - data-observability
+    - code-review
+    - cli
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a data-quality and observability tool for analytics pipelines, not an AI developer tool, coding agent, or AI infrastructure targeting software engineers.
+  reason: Excluded because PipeRider is a data observability and data quality tool for dbt, lacking a meaningful AI or LLM-driven developer tooling angle required by the catalog scope.
   evidence:
-    - Repo description and README focus on data profiling, dbt models, and data-impact comparison reports, with no AI or LLM functionality mentioned.
-    - Listed under 'Data > Data Tracking' in Awesome-LLMOps, which is a category for data observability rather than AI coding tooling.
-    - README explicitly states PipeRider has been superseded by Recce and will no longer be regularly updated.
+    - Repo description and README focus entirely on data profiling, dbt model comparison, and data reliability with no mention of AI, LLMs, or coding agents.
+    - The project README explicitly states it has been superseded by Recce and will no longer be updated on a regular basis.
+    - Source list placement in 'Awesome-LLMOps | Data > Data Tracking' reflects a general ops category, not a specific AI developer-tooling fit.
 placement:
   primary_category: null
   section: null
@@ -80,21 +80,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (494) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:58.463Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.537Z"
+    updated_at: "2026-05-06T22:44:23.838Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:09.048Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

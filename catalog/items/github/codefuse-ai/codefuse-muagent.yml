@@ -1,13 +1,13 @@
 id: github__codefuse-ai__codefuse-muagent
 kind: github-repo
-name: CodeFuse-muAgent
+name: codefuse-muagent
 canonical_url: https://github.com/codefuse-ai/codefuse-muagent
 identity:
   github_repo: codefuse-ai/codefuse-muagent
 provenance:
   discoveries:
     - id: discovery__github__codefuse-ai__codefuse-muagent__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -41,49 +41,50 @@ metadata:
       - multi-agent
       - rag
       - tool-learning
-    last_checked_at: "2026-05-05T21:01:37.306Z"
+    last_checked_at: "2026-05-06T22:43:24.615Z"
     readme:
-      fetched_at: "2026-05-05T21:01:37.306Z"
+      fetched_at: "2026-05-06T22:43:24.615Z"
       bytes: 7271
 insights:
-  summary: A developer framework for building multi-agent systems that uses an event-driven knowledge graph (EKG) engine to orchestrate complex workflows, featuring a drag-and-drop UI and Python SDK.
-  why_it_matters: It lets developers model and execute complex SOPs using a knowledge graph to coordinate multiple agents, RAG, and function calls rather than writing brittle linear chains.
-  mental_damage: Just when you thought 'multi-agent orchestration' was a solved problem, someone hands you a graph database and politely asks you to model your entire DevOps lifecycle as events.
+  summary: A multi-agent framework driven by an Eventic Knowledge Graph (EKG) engine that supports drag-and-drop orchestration, RAG, and function calling for executing complex SOPs.
+  why_it_matters: It provides a structured way to orchestrate multiple specialized agents using knowledge graphs, validated in real-world DevOps scenarios at Ant Group.
+  mental_damage: Just when you thought 'multi-agent framework' was the final form of complexity, someone decided to plug a Knowledge Graph into the orchestration layer to really test your patience with acronyms.
   tags:
-    - ekg
-    - knowledge-graph
     - multi-agent
+    - knowledge-graph
     - orchestration
+    - ekg
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and framework for building agentic systems with a Python SDK and Docker deployment, fitting the ai-frameworks bucket rather than a hosted control plane.
+  reason: The project is primarily a code-first framework and SDK (pip install codefuse-muagent) for building knowledge-graph-driven multi-agent systems, fitting the Frameworks & SDKs identity better than a managed orchestration platform.
   evidence:
-    - Repo description defines it as 'An Innovative Agent Framework Driven by KG Engine'.
-    - README provides a Python SDK via 'pip install codefuse-muagent' and Docker Compose setup for self-hosting.
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
+    - README explicitly provides 'muAgent-sdk v0.1.0' and pip installation instructions (pip install codefuse-muagent).
+    - Description and topics identify it as an 'Agent Framework' and 'multi-agent' tool rather than a hosted control plane.
+    - Source list context places it in 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (774) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:43.534Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:37.306Z"
+    updated_at: "2026-05-06T22:43:24.615Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:49:49.633Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

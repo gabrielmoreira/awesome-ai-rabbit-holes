@@ -1,28 +1,13 @@
 id: github__erik-megarad__beebot
 kind: github-repo
-name: BeeBot
+name: beebot
 canonical_url: https://github.com/erik-megarad/beebot
 identity:
   github_repo: erik-megarad/beebot
 provenance:
   discoveries:
-    - id: discovery__github__autopackai__beebot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - BeeBot
-        anchor_text: BeeBot
-        extracted_url: https://github.com/autopackai/beebot
-        surrounding_text: "## [BeeBot](https://github.com/AutoPackAI/beebot)"
-        confidence: high
     - id: discovery__github__erik-megarad__beebot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -49,52 +34,50 @@ metadata:
     topics:
       - artificial-intelligence
       - autonomous-agents
-    last_checked_at: "2026-05-05T21:02:03.781Z"
+    last_checked_at: "2026-05-06T22:43:47.653Z"
     readme:
-      fetched_at: "2026-05-05T21:02:03.781Z"
+      fetched_at: "2026-05-06T22:43:47.653Z"
       bytes: 5710
 insights:
-  summary: BeeBot is an autonomous AI agent framework with a CLI and API interface that uses AutoPack for tool selection and supports persistent task execution.
-  why_it_matters: It offers developers a self-hosted environment to experiment with generalized autonomous task execution and tool-using agents outside of hosted SaaS platforms.
-  mental_damage: The README calmly admits that late 2023 LLMs weren't up to the task of generalized autonomy, yet the project remains online, preserving a perfect snapshot of the 'just one more wrapper' optimism of that era.
+  summary: BeeBot is an autonomous AI agent that uses the AutoPack tool ecosystem to dynamically select and acquire tools while executing general-purpose tasks via a CLI and an e2b-compatible REST API.
+  why_it_matters: It offers a self-contained, API-driven runtime for experimenting with generalized autonomous task execution outside of the current IDE-integrated coding agent wave.
+  mental_damage: The author paused development because LLMs in late 2023 apparently lacked the 'structured thinking' required to be a reliable digital bee, a diplomatic way of saying the agent kept getting lost in the hive.
   tags:
-    - agent-framework
-    - api
     - autonomous-agents
     - cli
-    - llm
-    - python
-    - self-hosted
+    - api
+    - task-execution
+    - autopack
   confidence: high
 curation:
-  status: included
-  reason: The project is a code-first framework and runtime for building autonomous agents with tooling, persistence, and an API, fitting the developer-building-with-code model of ai-frameworks rather than a repo-editing coding agent.
+  status: excluded
+  reason: Exclude because the project is effectively abandoned; the author explicitly paused development in late 2023 citing LLM limitations, and the repository has seen no meaningful updates since October 2023.
   evidence:
-    - Repo description states it is 'An Autonomous AI Agent that works', positioned as a developer-facing framework.
-    - README emphasizes 'Functionality and flexibility first' and provides CLI and API usage patterns for developers to run and integrate.
-    - Created in mid-2023 and last pushed in late 2023, showing it is an early autonomous agent experiment rather than an active IDE tool.
+    - "README Status section states: 'Development of BeeBot is currently on hold... LLMs as they are now (late 2023) aren't up to the task.'"
+    - Last push was 2023-10-22, indicating nearly two years of inactivity.
+    - The author notes 'It's not coding' as the hint for a future subset of tasks, weakening its relevance as a current developer tool.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (452) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:20.068Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:03.781Z"
+    updated_at: "2026-05-06T22:43:47.653Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:40.667Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

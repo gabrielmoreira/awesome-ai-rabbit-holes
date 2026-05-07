@@ -1,0 +1,77 @@
+id: book__douban__com__subject__36884058
+kind: website
+name: "36884058"
+canonical_url: https://book.douban.com/subject/36884058
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__book__douban__com__subject__36884058__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《动手做AI Agent》
+        extracted_url: https://book.douban.com/subject/36884058
+        surrounding_text: 4. [《动手做AI Agent》](https://book.douban.com/subject/36884058/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese-language introductory book teaching developers how to build AI agents using OpenAI API, LangChain, LlamaIndex, AutoGen, and MetaGPT through seven hands-on projects.
+  why_it_matters: It provides a structured, code-heavy curriculum for developers looking to move from basic LLM usage to building functional, multi-step agent systems with popular frameworks.
+  mental_damage: Another curated resource promising to tame the Agent chaos, ensuring you can build seven different agents while the frameworks they use rewrite their APIs for the eighth time.
+  tags:
+    - agents
+    - langchain
+    - llm-book
+    - tutorial
+    - openai
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a published book and educational media resource, not a developer tool, framework, or product; it belongs in a reading list, not a tooling catalog.
+  evidence:
+    - The source URL is a Douban book page (book.douban.com), identifying it as a commercial publication.
+    - The content is described as a book with 288 pages covering theory and 'hands-on' projects, not a software toolkit.
+    - It appears in the source list under the section '书籍 Book' (Books), confirming its identity as literature rather than tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:49.322Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

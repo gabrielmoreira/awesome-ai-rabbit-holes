@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nisarg38__claude-northstar__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -35,27 +35,27 @@ metadata:
     topics:
       - claude-code
       - cli-agents
-    last_checked_at: "2026-05-05T21:03:55.336Z"
+    last_checked_at: "2026-05-06T22:45:33.231Z"
     readme:
-      fetched_at: "2026-05-05T21:03:55.336Z"
+      fetched_at: "2026-05-06T22:45:33.231Z"
       bytes: 7397
 insights:
-  summary: A goal-oriented development framework for CLI agents like Claude Code that allows developers to share a project vision and milestones, enabling the agent to work autonomously across planning, implementation, and review.
-  why_it_matters: It shifts the developer workflow from micromanaging individual tasks to defining high-level goals, letting the agent handle milestone planning, execution, and QA loops independently.
-  mental_damage: We have finally solved the problem of having to type 'what's next?' by installing a framework that requires us to meticulously document our dreams in a north-star.md file instead.
+  summary: A goal-oriented framework that augments Claude Code and OpenCode with autonomous milestone planning, sub-agent orchestration, and persistent project state tracking.
+  why_it_matters: It replaces manual task-by-task prompting with a persistent vision document and autonomous work loop, letting developers define project success criteria instead of incremental instructions.
+  mental_damage: We have officially reached the point where our AI agents need their own agents, complete with org charts, strategy roles, and JSON state files to remember what 'done' looks like.
   tags:
     - cli-agents
-    - claude-code
-    - orchestration
     - autonomous
+    - sub-agents
+    - claude-code
   confidence: medium
 curation:
   status: included
-  reason: This is a framework designed to make CLI-based coding agents (specifically Claude Code) operate autonomously on a repo with a tech-lead/sub-agent workflow, fitting the coding-agents category.
+  reason: The product acts as a primary coding assistant wrapper that transforms CLI agents into autonomous project partners with planning, execution, and review loops.
   evidence:
-    - Repo description explicitly targets 'CLI agents' to transform them into 'autonomous project partners'.
-    - README details a workflow where the agent acts as a 'Tech Lead' coordinating sub-agents (Developer, QA, Reviewer) inside the repository.
-    - Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'.
+    - Repo description states it 'transform[s] CLI agents from task executors into autonomous project partners'
+    - README details a 'Main Agent as Tech Lead' with sub-agents (Developer, QA, Reviewer) and an autonomous ANALYZE → PLAN → EXECUTE → EVALUATE loop
+    - Source list 'awesome-cli-coding-agents' categorizes it under 'Harnesses & orchestration > Agent infrastructure'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -65,19 +65,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:55.336Z"
+    updated_at: "2026-05-06T22:45:33.231Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:44.696Z"
+    updated_at: "2026-05-06T23:17:29.301Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

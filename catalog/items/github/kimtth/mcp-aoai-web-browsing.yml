@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kimtth__mcp-aoai-web-browsing__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) 🐍 🏠 - A `minimal` server/client MCP implementation using Azure OpenAI and Playwright."
         confidence: high
     - id: discovery__github__kimtth__mcp-aoai-web-browsing__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -55,49 +55,49 @@ metadata:
       - model-context-protocol
       - playwright
       - web-automation
-    last_checked_at: "2026-05-05T21:03:05.917Z"
+    last_checked_at: "2026-05-06T22:44:43.086Z"
     readme:
-      fetched_at: "2026-05-05T21:03:05.917Z"
+      fetched_at: "2026-05-06T22:44:43.086Z"
       bytes: 6895
 insights:
-  summary: A minimal Model Context Protocol server and client that lets Azure OpenAI or OpenAI models control a web browser via Playwright tools exposed through MCP.
-  why_it_matters: Developers can wire LLMs into IDEs like VS Code or Claude Code and have them reliably navigate and interact with web pages through a standardized MCP interface.
-  mental_damage: We have successfully reached the point where your AI needs its own browser, its own protocol, and a bridge, just to click a button on a login page.
+  summary: A minimal MCP server and client implementation that exposes Playwright web browser automation as tools to AI models via the Model Context Protocol.
+  why_it_matters: It lets developers wire browser control directly into MCP-compatible clients like Claude Code and VS Code without building a custom integration from scratch.
+  mental_damage: Now your coding agent can confidently navigate a login page and get stuck in a cookie banner just like a real junior developer.
   tags:
     - mcp
     - playwright
     - browser-automation
     - azure-openai
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server and bridge implementation that exposes Playwright browser automation tools to OpenAI-compatible LLMs, fitting cleanly into MCP infrastructure.
+  reason: The project's primary identity is an MCP server that exposes Playwright browser automation, fitting cleanly as a domain-specific MCP server rather than a generic framework or extension.
   evidence:
-    - Repo description states it is 'A minimal Model Context Protocol server/client with OpenAI and web browser control via Playwright.'
-    - README details MCP server built with FastMCP and a bridge converting MCP responses to OpenAI function calling format.
-    - Listed in awesome-mcp-list (Browser Control) and awesome-mcp-servers (Browser Automation), confirming MCP ecosystem relevance.
+    - Repo description explicitly states it is 'A minimal Model Context Protocol server/client with OpenAI and web browser control via Playwright.'
+    - Included in awesome-mcp-list (Browser Control) and awesome-mcp-servers (Browser Automation), confirming its MCP server identity.
+    - README documents configuration for Claude Desktop, Claude Code, and VS Code via mcp.json, emphasizing its role as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:05.917Z"
+    updated_at: "2026-05-06T22:44:43.086Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:30:48.866Z"
+    updated_at: "2026-05-06T23:06:12.019Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

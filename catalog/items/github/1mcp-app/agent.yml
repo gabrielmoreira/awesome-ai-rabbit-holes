@@ -6,23 +6,8 @@ identity:
   github_repo: 1mcp-app/agent
 provenance:
   discoveries:
-    - id: discovery__agent__nexus__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - NexusGPT
-        anchor_text: NexusGPT
-        extracted_url: https://gpt.nexus
-        surrounding_text: "## [NexusGPT](https://gpt.nexus/)"
-        confidence: high
     - id: discovery__github__1mcp-app__agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 427
+    stars: 429
     forks: 47
     license: Apache-2.0
     archived: false
     created_at: "2025-03-16T14:05:08Z"
-    pushed_at: "2026-05-05T00:41:37Z"
+    pushed_at: "2026-05-06T03:13:32Z"
     description: A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.
     homepage: https://docs.1mcp.app
     topics:
@@ -54,55 +39,49 @@ metadata:
       - mcp-proxy
       - mcp-server
       - unified-mcp-server
-    last_checked_at: "2026-05-05T21:00:44.087Z"
+    last_checked_at: "2026-05-06T22:12:20.186Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.087Z"
+      fetched_at: "2026-05-06T22:12:20.186Z"
       bytes: 7778
 insights:
-  summary: A unified Model Context Protocol runtime that aggregates multiple MCP servers and provides CLI and proxy modes for connecting tool-using agents like Codex and Claude with progressive tool discovery.
-  why_it_matters: It reduces MCP configuration sprawl by giving agents a single aggregated runtime with instructions, inspect, and run commands instead of dumping every tool schema into context at once.
-  mental_damage: We have successfully invented infrastructure to manage the infrastructure that manages the agents that manage the code we are too overwhelmed to read.
+  summary: A unified MCP runtime that aggregates multiple MCP servers into a single managed surface and provides a CLI workflow for progressive tool discovery by agents like Codex and Claude.
+  why_it_matters: It reduces configuration sprawl by centralizing MCP server wiring and keeps agent context lean by letting AI loops discover and run tools one at a time instead of loading every schema upfront.
+  mental_damage: We have successfully invented infrastructure to manage the infrastructure that manages the agents that manage the code, and yes, you now need a proxy server to configure your proxy servers.
   tags:
-    - agent-orchestration
-    - agent-tooling
-    - business-process
-    - cli
-    - context-management
-    - enterprise
     - mcp
-    - no-code
-    - saas
-    - workflow-automation
+    - cli
+    - agent-runtime
+    - context-management
   confidence: high
 curation:
   status: included
-  reason: The project is itself MCP infrastructure—a unified server, proxy, and CLI toolkit for aggregating and managing MCP servers for agent workflows.
+  reason: "The product identity is MCP infrastructure itself: a unified runtime, aggregator, and CLI purpose-built for the Model Context Protocol, aligning directly with the MCP Servers & Tooling category."
   evidence:
-    - "Repo description: 'A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.'"
-    - "README: '1mcp serve aggregates your MCP servers, and CLI mode adds a thinner agent-facing workflow for Codex, Claude, Cursor, and similar tool-using agents.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+    - Repo description explicitly calls it 'a unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.'
+    - Topics include mcp, mcp-gateway, mcp-proxy, and mcp-server, confirming MCP as the product identity.
+    - Already curated in awesome-mcp-servers under 'Aggregators', reinforcing its role as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (427) exceeded threshold (150)
+  reason: Stars (429) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T22:47:17.276Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.910Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.087Z"
+    updated_at: "2026-05-06T22:12:20.186Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:34.855Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

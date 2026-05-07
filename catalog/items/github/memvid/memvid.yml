@@ -6,24 +6,8 @@ identity:
   github_repo: memvid/memvid
 provenance:
   discoveries:
-    - id: discovery__github__olow304__memvid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🗄️ <a name="databases"></a>Databases
-        anchor_text: memvid
-        extracted_url: https://github.com/olow304/memvid
-        surrounding_text: "- [ferrants/memvid-mcp-server](https://github.com/ferrants/memvid-mcp-server) 🐍 🏠 - Python Streamable HTTP Server you can run locally to interact with [memvid](https://github.com/Olow304/memvid) storage and semantic search."
-        confidence: high
     - id: discovery__github__memvid__memvid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15342
-    forks: 1318
+    stars: 15356
+    forks: 1320
     license: Apache-2.0
     archived: false
     created_at: "2025-05-27T16:01:08Z"
-    pushed_at: "2026-03-16T13:23:51Z"
+    pushed_at: "2026-05-06T18:37:48Z"
     description: Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
     homepage: https://www.memvid.com
     topics:
@@ -69,55 +53,50 @@ metadata:
       - semantic-search
       - vector-database
       - video-processing
-    last_checked_at: "2026-05-05T21:04:00.985Z"
+    last_checked_at: "2026-05-06T22:45:13.628Z"
     readme:
-      fetched_at: "2026-05-05T21:04:00.985Z"
-      bytes: 16849
+      fetched_at: "2026-05-06T22:45:13.628Z"
+      bytes: 16847
 insights:
-  summary: Memvid is a serverless, single-file memory layer for AI agents that replaces complex RAG pipelines with a portable, versioned, and offline-first memory system using video-inspired encoding.
-  why_it_matters: It gives developers a way to add persistent, long-term memory to AI agents without standing up vector databases or managing complex retrieval infrastructure.
-  mental_damage: Yet another clever workaround for the fact that your agent still can’t remember what it did five minutes ago without an external memory prosthetic.
+  summary: Memvid is a serverless, single-file memory system that packages embeddings, search structures, and metadata into a portable file to provide AI agents with long-term memory and instant retrieval.
+  why_it_matters: It replaces complex RAG pipelines and server-based vector databases with a portable, offline-first memory layer that developers can integrate via SDKs in Python and Rust.
+  mental_damage: We have successfully encoded the existential dread of context window limits into a video-inspired file format, proving that no matter the medium, we will still find ways to bloat the context until retrieval latency wins again.
   tags:
-    - agents
     - memory
-    - offline-first
-    - python
     - rag
-    - vector-database
+    - context-engineering
+    - offline-first
     - vector-search
   confidence: high
 curation:
   status: included
-  reason: This is a retrieval, memory, and context-shaping system for AI agents, which fits context-engineering as prompt systems, memory, and retrieval infrastructure rather than a primary coding assistant.
+  reason: The core product identity is a memory and retrieval infrastructure for AI agents, focusing on context packing, compression, and long-term state rather than being a coding assistant or generic framework.
   evidence:
-    - "Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer.'"
-    - "README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.'"
-    - Topics include rag, memory, vector-database, semantic-search, and context, aligning with context-engineering scope.
-    - Repo description explicitly calls it a 'Memory layer for AI Agents' that replaces 'complex RAG pipelines with a serverless, single-file memory layer'.
-    - README states it is a 'portable AI memory system' that packages 'data, embeddings, search structure, and metadata into a single file' for fast retrieval.
-    - Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence', all focused on context and memory management rather than code editing.
+    - Repo description identifies it explicitly as a 'Memory layer for AI Agents' designed to replace RAG pipelines.
+    - README highlights 'Smart Frames' and a 'Living Memory Engine' with sub-5ms local access and time-travel debugging.
+    - Canonical positives for context-engineering explicitly list 'memvid' as a primary example.
 placement:
   primary_category: context-engineering
-  section: null
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
-  reason: Stars (15342) exceeded threshold (150)
+  reason: Stars (15356) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:56.270Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:00.985Z"
+    updated_at: "2026-05-06T22:45:13.628Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:03.991Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

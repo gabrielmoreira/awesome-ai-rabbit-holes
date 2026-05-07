@@ -1,12 +1,12 @@
 id: cursor__directory
 kind: website
-name: CursorDirectory
+name: cursor.directory
 canonical_url: https://cursor.directory
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__directory__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -34,43 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory of cursor rules, prompt snippets, and configuration examples for the Cursor AI code editor.
-  why_it_matters: It provides reusable context engineering patterns that help developers standardize and improve how Cursor understands their codebase.
-  mental_damage: Because writing code is no longer enough; now you must also maintain a curated collection of markdown files just to keep your AI assistant from hallucinating your architecture.
+  summary: A directory of configuration files and rules designed to enhance the Cursor AI editor experience.
+  why_it_matters: It provides a centralized collection of community-vetted .cursorrules files, allowing developers to quickly bootstrap specific coding behaviors and project contexts.
+  mental_damage: Because clearly the missing variable in modern development wasn't better models, but a thousand-line text file defining how an AI should feel about your semicolons.
   tags:
-    - context
     - cursor
-    - prompt-engineering
     - rules
+    - directory
+    - configuration
   confidence: high
 curation:
   status: included
-  reason: This is a directory and index of prompt configurations for Cursor, fitting the 'Awesome Awesomes' category as a navigational resource rather than a standalone tool.
+  reason: This is a curated directory of rules and configurations for Cursor, fitting the definition of a navigation and discovery map for AI tooling.
   evidence:
-    - Source URL is cursor.directory, indicating a directory-style site.
-    - Listed in the 'awesome-cursorrules' directory on GitHub, confirming its nature as a curated list.
-    - Lacks a repo description or README excerpt suggesting it is a coding agent or IDE itself.
+    - Seen in source lists under 'awesome-cursorrules' with the purpose of collecting configuration files.
+    - The URL 'cursor.directory' and context indicate a directory-style product for editor rules.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:29.017Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:49.681Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

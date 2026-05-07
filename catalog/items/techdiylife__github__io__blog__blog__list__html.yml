@@ -1,0 +1,76 @@
+id: techdiylife__github__io__blog__blog__list__html
+kind: website
+name: blog_list.html
+canonical_url: https://techdiylife.github.io/blog/blog_list.html
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__techdiylife__github__io__blog__blog__list__html__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: AI开发者频道
+        extracted_url: https://techdiylife.github.io/blog/blog_list.html
+        surrounding_text: 2. [AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A personal blog and article list page aggregating AI and developer resources from the TechDIYLife creator.
+  why_it_matters: It serves as a supplemental content hub pointing to YouTube videos, GitHub code, and free e-books for developers interested in AI DIY projects.
+  mental_damage: Yet another beautifully cluttered personal index proving that organizing the AI ecosystem is now a hobby distinct from actually using the tools.
+  tags:
+    - blog
+    - resources
+    - newsletter
+    - tutorials
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a personal blog article list and content hub, not a standalone developer tool, framework, or product; it is documentation/supporting content rather than usable tooling.
+  evidence:
+    - The scraped site context describes it as '文章列表' (article list) and a hub for YouTube, GitHub, and e-books.
+    - Listed in awesome-LLM-resources under a tutorial/resource section, not as a tool or product.
+    - No repo description, code, or product functionality is present—only a static HTML blog list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.665Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:22.129Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

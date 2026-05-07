@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mariadb__mcp__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -34,49 +34,50 @@ metadata:
     description: MariaDB MCP (Model Context Protocol) server implementation
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:29.397Z"
+    last_checked_at: "2026-05-06T22:45:08.307Z"
     readme:
-      fetched_at: "2026-05-05T21:03:29.397Z"
+      fetched_at: "2026-05-06T22:45:08.307Z"
       bytes: 14284
 insights:
-  summary: A Model Context Protocol server that exposes MariaDB databases as tools for AI assistants, supporting standard SQL queries and vector/embedding search.
-  why_it_matters: It allows AI coding agents and assistants to directly inspect schemas and query live MariaDB data, bridging the gap between LLM context and relational or vector databases.
-  mental_damage: Another essential piece of infrastructure so your AI can finally hallucinate SQL queries against a database it can now actually see.
+  summary: An MCP server implementation that exposes MariaDB databases—including tables, schemas, SQL queries, and vector stores—to AI assistants via the Model Context Protocol.
+  why_it_matters: It lets AI coding agents safely inspect schemas and run read-only queries or vector searches against MariaDB without developers hand-crafting database access layers.
+  mental_damage: Another pristine MCP server joins the pile, proving that the protocol is thriving even if your agent still can't figure out which index you actually need.
   tags:
     - mcp
     - database
     - vector-search
+    - mariadb
     - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated Model Context Protocol server implementation for MariaDB, fitting squarely into the MCP infrastructure category.
+  reason: The product is an MCP server for MariaDB with no stronger identity as a framework, extension, or orchestration platform, making it a clean fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'MariaDB MCP (Model Context Protocol) server implementation'."
-    - README confirms it 'exposes a set of tools for interacting with MariaDB databases... via a standardized protocol' for AI assistants.
-    - Listed in awesome-agent-orchestration under 'Agent Communication Protocols > Model Context Protocol (MCP) > Database & Vector Stores'.
+    - Repo description explicitly states 'MariaDB MCP (Model Context Protocol) server implementation'.
+    - Active project with created_at 2025-05-09 and pushed_at 2026-03-09, not archived.
+    - README centers on exposing MariaDB tools (list_tables, execute_sql, vector store) via MCP for AI assistants.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (167) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:29.397Z"
+    updated_at: "2026-05-06T22:45:08.307Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:39.472Z"
+    updated_at: "2026-05-06T23:11:44.513Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

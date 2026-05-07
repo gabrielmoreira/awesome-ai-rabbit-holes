@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__markgatcha__universal-mcp-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-11T01:20:39Z"
-    pushed_at: "2026-05-05T20:56:11Z"
+    pushed_at: "2026-05-05T21:20:37Z"
     description: The canonical open-source monorepo for production-ready MCP servers.
     homepage: https://www.npmjs.com/package/universal-mcp-toolkit
     topics:
@@ -53,50 +53,50 @@ metadata:
       - turborepo
       - typescript
       - zod
-    last_checked_at: "2026-05-05T21:03:30.209Z"
+    last_checked_at: "2026-05-06T22:45:08.941Z"
     readme:
-      fetched_at: "2026-05-05T21:03:30.209Z"
+      fetched_at: "2026-05-06T22:45:08.941Z"
       bytes: 17645
 insights:
-  summary: A TypeScript monorepo and CLI providing 27+ production-ready Model Context Protocol servers for services like GitHub, Slack, and databases, along with tooling for configuration and diagnostics.
-  why_it_matters: It bundles fragmented MCP server implementations into a single, high-quality monorepo with a unified CLI, making it easier for developers to connect local AI workflows to the tools they already use.
-  mental_damage: Because obviously the missing piece in the modern developer's life wasn't better code generation, but a 27-in-1 server aggregator to help your AI manage Jira tickets and Spotify playlists simultaneously.
+  summary: A TypeScript monorepo and CLI that bundles 27+ production-oriented MCP servers for services like GitHub, Slack, and PostgreSQL with a unified install, config, and diagnostics workflow.
+  why_it_matters: It consolidates fragmented MCP server implementations into one opinionated toolkit with shared validation, logging, and transport support so developers can integrate multiple tools without stitching together a dozen half-finished repos.
+  mental_damage: We have successfully solved the problem of too many MCP servers by creating a monorepo that adds one more CLI you have to trust, configure, and eventually debug at 2 a.m.
   tags:
     - mcp
-    - typescript
     - monorepo
     - cli
-    - tooling
+    - typescript
+    - integrations
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP infrastructure toolkit that provides a suite of servers and a CLI for managing them, fitting the MCP category perfectly.
+  reason: "The product’s primary identity is MCP infrastructure: a monorepo of MCP servers, a MCP-first CLI, and utilities explicitly built around the Model Context Protocol."
   evidence:
-    - Repo description defines it as 'The canonical open-source monorepo for production-ready MCP servers.'
-    - README details a unified CLI for list, config, install, run, and doctor commands across 27+ servers.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+    - "Repo description: 'The canonical open-source monorepo for production-ready MCP servers.'"
+    - README states core value is 'one opinionated, high-quality Turborepo' with 27 MCP servers and a unified CLI for install, config, run, and diagnostics.
+    - Topics and structure center on MCP (mcp, mcp-server, mcp-client, mcp-aggregator, model-context-protocol).
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:30.209Z"
+    updated_at: "2026-05-06T22:45:08.941Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:47.232Z"
+    updated_at: "2026-05-06T23:11:57.054Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

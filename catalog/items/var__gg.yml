@@ -1,12 +1,12 @@
 id: var__gg
 kind: website
-name: Guide ↗
+name: var.gg
 canonical_url: https://var.gg
 identity: {}
 provenance:
   discoveries:
     - id: discovery__var__gg__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,41 +35,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based tool that generates naming ideas for variables, data models, and documentation to accelerate development workflows.
-  why_it_matters: It offers a quick, browser-based way for developers to overcome naming blocks and speed up the implementation of code and docs.
-  mental_damage: Just when you thought the AI singularity was about curing diseases, it turns out the first real productivity gain is automating the part where we stare at the screen whispering 'context' versus 'ctx'.
+  summary: A multilingual AI tool that generates naming suggestions for variables, data models, and documentation to accelerate engineering workflows.
+  why_it_matters: It removes the cognitive overhead of naming things, which is statistically one of the hardest problems in computer science.
+  mental_damage: "We have finally reached the event horizon where we use large language models to solve the two hardest problems in computer science: cache invalidation and naming things."
   tags:
-    - mcp
     - naming
-    - productivity
+    - ai-assistant
+    - multilingual
+    - developer-tools
   confidence: medium
 curation:
   status: included
-  reason: The tool is listed in the awesome-mcp-servers directory under 'Developer Tools' and its landing page describes AI-accelerated naming, indicating it fits as MCP tooling.
+  reason: The product is a developer-facing AI assistant focused on generating code artifacts (variable names, data models), fitting the definition of a coding assistant, even if accessed via a web interface.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Landing page excerpt describes 'AI that accelerates shipping' via variable and model naming generation.
+    - Scraped site context describes 'AI that accelerates shipping' by generating 'naming ideas for variables, data models, and docs'.
+    - Listed in awesome-mcp-servers under 'Developer Tools', indicating it is recognized as a tool within the MCP ecosystem.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:00.819Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:54.811Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

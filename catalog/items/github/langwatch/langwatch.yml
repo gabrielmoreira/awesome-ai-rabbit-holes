@@ -1,13 +1,13 @@
 id: github__langwatch__langwatch
 kind: github-repo
-name: LangWatch
+name: langwatch
 canonical_url: https://github.com/langwatch/langwatch
 identity:
   github_repo: langwatch/langwatch
 provenance:
   discoveries:
     - id: discovery__github__langwatch__langwatch__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [LangWatch](https://github.com/langwatch/langwatch)                | LLM Ops platform with Analytics, Monitoring, Evaluations and an LLM Optimization Studio powered by DSPy | ![GitHub Badge](https://img.shields.io/github/stars/langwatch/langwatch.svg?style=flat-square) |"
         confidence: high
     - id: discovery__github__langwatch__langwatch__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3237
-    forks: 313
+    stars: 3240
+    forks: 316
     license: NOASSERTION
     archived: false
     created_at: "2023-09-09T11:33:18Z"
-    pushed_at: "2026-05-05T20:58:34Z"
+    pushed_at: "2026-05-06T21:45:56Z"
     description: The platform for LLM evaluations and AI agent testing
     homepage: https://langwatch.ai
     topics:
@@ -61,50 +61,50 @@ metadata:
       - observability
       - openai
       - prompt-engineering
-    last_checked_at: "2026-05-05T21:03:17.068Z"
+    last_checked_at: "2026-05-06T22:44:55.937Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.068Z"
+      fetched_at: "2026-05-06T22:44:55.937Z"
       bytes: 10483
 insights:
-  summary: LangWatch is an open-source platform for end-to-end LLM evaluation, AI agent simulation, and production observability, supporting OpenTelemetry-native tracing and an AI gateway for cost control.
-  why_it_matters: It provides developers with a unified loop to trace, dataset-ize, evaluate, and optimize agent behavior before and after release, eliminating the need to glue together separate observability and eval tools.
-  mental_damage: Finally, a single platform to scientifically prove that your agent fails in exactly the same creative ways across every provider and prompt version.
+  summary: LangWatch is a platform for end-to-end LLM evaluations, AI agent testing, and production observability, supporting OpenTelemetry-native tracing, simulations, and prompt optimization loops.
+  why_it_matters: It gives teams a unified workflow to regression-test agents, trace failures, and manage prompt versions before and after deployment without building custom eval tooling.
+  mental_damage: You can now scientifically prove that your agent fails consistently, which is somehow more stressful than when you just didn't know.
   tags:
-    - agent-testing
     - llm-evals
-    - llmops
     - observability
-    - opentelemetry
+    - agent-testing
+    - prompt-ops
+    - llmops
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated evaluation and observability platform for LLMs and agents, fitting squarely into the Evaluations and Benchmarks category rather than a coding agent or framework.
+  reason: The core job is measuring, simulating, tracing, and regression-testing LLM and agent behavior, which maps directly to the Evals & Benchmarks category.
   evidence:
-    - "Repo description explicitly states: 'The platform for LLM evaluations and AI agent testing.'"
-    - README details features for 'regression testing, simulations, and production observability' and an 'Eval + observability + prompts in one loop.'
-    - Included in the Awesome-LLMOps list under the 'LLMOps' section.
+    - "Repo description states: 'The platform for LLM evaluations and AI agent testing.'"
+    - "README emphasizes eval loop: 'Trace → dataset → evaluate → optimize prompts/models → re-test.'"
+    - Included in Awesome-LLMOps under LLMOps section, confirming developer ops tooling fit.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3237) exceeded threshold (150)
+  reason: Stars (3240) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:18.429Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.068Z"
+    updated_at: "2026-05-06T22:44:55.937Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:47.492Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

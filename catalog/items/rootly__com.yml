@@ -1,12 +1,12 @@
 id: rootly__com
 kind: website
-name: Rootly
+name: rootly.com
 canonical_url: https://rootly.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__rootly__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [Rootly-AI-Labs/Rootly-MCP-server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server) 🎖️ 🐍 ☁️ 🍎 - MCP server for the incident management platform [Rootly](https://rootly.com/)."
         confidence: high
     - id: discovery__rootly__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,44 +50,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rootly is an incident management platform that provides AI SRE agents to automate root cause analysis, suggest fixes, and manage on-call workflows directly within Slack, Teams, or an IDE via an MCP server.
-  why_it_matters: It aims to reduce resolution times and on-call fatigue by automating the tedious parts of incident response, from triage to retrospectives, allowing developers to focus on fixing the actual issue.
-  mental_damage: Now your AI can wake up, diagnose the outage, and suggest the rollback while you are still staring at the ceiling wondering if the pager notification was just a bad dream.
+  summary: Rootly is an AI-native incident management platform that provides AI SRE agents for automated root cause analysis, suggested fixes, and on-call operations for engineering teams.
+  why_it_matters: It integrates AI SRE agents directly into developer workflows via IDE plugins and MCP servers to accelerate incident resolution and reduce manual troubleshooting.
+  mental_damage: Because nothing says 'modern reliability' quite like paying a SaaS platform to wake you up at 3 AM so its AI can suggest the fix you would have found in five minutes anyway.
   tags:
-    - ai-sre
-    - devops
     - incident-management
+    - ai-sre
     - mcp
+    - on-call
     - reliability
   confidence: high
 curation:
-  status: included
-  reason: The product is included because it offers a specific MCP server implementation that integrates AI SRE capabilities directly into developer workflows and IDEs, fitting the MCP tooling scope.
+  status: excluded
+  reason: Rootly is primarily an end-user SaaS incident management platform for ops teams, not a developer-facing coding tool, agent, framework, or IDE extension.
   evidence:
-    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers' with the specific description of an incident management platform with AI SRE agents.
-    - Scraped site context highlights a 'Rootly MCP server' designed to plug into an IDE so developers can 'resolve incidents in seconds—right where you work'.
-    - The platform includes AI SRE agents for automated root cause analysis and suggested fixes, targeting engineering teams.
+    - Scraped site describes it as 'The all-in-one incident management platform' for on-call, incident response, retrospectives, and status pages.
+    - Its 'AI SRE' feature provides automated RCA and suggested fixes, but the core product is DevOps/SRE operations, not a coding assistant or dev tool.
+    - Appears in awesome-mcp-servers only as a server implementation for a broader SaaS product, not as a standalone developer tool.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:46.462Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:07.690Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shobrook__saplings__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -23,47 +23,65 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 272
+    forks: 19
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-11-17T10:03:31Z"
+    pushed_at: "2025-07-27T09:29:45Z"
+    description: Plug-and-play tree search for agents
+    homepage: ""
+    topics:
+      - agents
+      - ai
+      - llms
+      - monte-carlo-tree-search
+      - openai
+      - search-algorithm
+    last_checked_at: "2026-05-06T22:46:23.778Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:23.778Z"
+      bytes: 21023
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python framework that adds Monte Carlo Tree Search, A*, and greedy best-first search algorithms to LLM agents with two lines of code.
+  why_it_matters: It lets developers swap blind tool-calling loops for search-backed reasoning that looks ahead, backtracks, and outperforms ReAct-style agents on benchmarks like HumanEval and HotpotQA.
+  mental_damage: Another few lines of abstraction standing between your agent and its inevitable spiral into an existential tree of failed tool calls.
+  tags:
+    - agents
+    - tree-search
+    - mcts
+    - framework
+    - reasoning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a code-first SDK that developers import and script against to add search algorithms to their own agents, fitting squarely as an agent framework rather than a standalone coding assistant or orchestration platform.
+  evidence:
+    - "Repo description explicitly states 'Plug-and-play tree search for agents' with topics: agents, ai, llms, monte-carlo-tree-search."
+    - README quickstart shows importing MonteCarloAgent, Evaluator, and Model in Python code to build a custom agent in a few lines.
+    - Listed in awesome-llm-agents under 'Frameworks', and the last push was 2025-07-27, showing active maintenance.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (272) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:23.778Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:29.336Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

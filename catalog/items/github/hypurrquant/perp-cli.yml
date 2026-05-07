@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hypurrquant__perp-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-09T01:47:45Z"
-    pushed_at: "2026-05-05T10:32:59Z"
+    pushed_at: "2026-05-06T17:27:40Z"
     description: " Multi-DEX perpetual futures CLI + MCP server — Pacifica (Solana), Hyperliquid, Lighter (Ethereum). 18 MCP tools for AI-powered trading"
     homepage: ""
     topics:
@@ -45,50 +45,50 @@ metadata:
       - perpetual-futures
       - solana
       - trading-cli
-    last_checked_at: "2026-05-05T21:02:40.193Z"
+    last_checked_at: "2026-05-06T22:44:20.855Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.193Z"
+      fetched_at: "2026-05-06T22:44:20.855Z"
       bytes: 13752
 insights:
-  summary: A CLI and MCP server that provides 18 tools for AI agents to trade perpetual futures across multiple DEXes including Pacifica, Hyperliquid, Lighter, and Aster.
-  why_it_matters: Developers building AI trading agents can plug this MCP server into Claude or other hosts to give their agents cross-chain trading, arbitrage scanning, and portfolio management across four major perpetual futures platforms.
-  mental_damage: The natural endpoint of 'agentic workflows' turns out to be a CLI that lets your LLM open leveraged positions on Hyperliquid at 3am while you sleep.
+  summary: A CLI and MCP server for trading perpetual futures across multiple DEXs including Pacifica, Hyperliquid, Lighter, and Aster, exposing 18 tools for AI agent integration.
+  why_it_matters: It packages multi-chain DeFi trading operations into a structured MCP interface, letting developers wire AI agents directly into portfolio management, arbitrage, and strategy execution.
+  mental_damage: You’ve automated your funding-rate arb, your TWAP grid, and your cross-chain rebalance, leaving you free to stare at the terminal and wonder when the CLI became the most competent trader on the team.
   tags:
     - mcp-server
-    - trading
     - defi
-    - cli
-    - perpetual-futures
+    - trading-cli
+    - multi-dex
+    - solana
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server providing 18 trading tools for AI agents, which fits the MCP Servers and Tooling category even though its domain is DeFi rather than traditional developer infrastructure.
+  reason: The project’s core identity is an MCP server exposing 18 trading tools for AI agents, fitting cleanly as a domain-specific MCP server rather than a generic CLI or extension.
   evidence:
-    - Repo description explicitly states 'MCP server' with 18 MCP tools for AI-powered trading
-    - Listed in awesome-mcp-servers under Finance & Fintech section
-    - Agent-First Design section in README highlights --json, --dry-run, and runtime schema introspection for AI integration
+    - Repo description explicitly calls it an MCP server with 18 MCP tools for AI-powered trading.
+    - README highlights agent-first design with --json, --fields, and runtime schema introspection for AI integration.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP domain identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.193Z"
+    updated_at: "2026-05-06T22:44:20.855Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:14.273Z"
+    updated_at: "2026-05-06T23:01:30.329Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

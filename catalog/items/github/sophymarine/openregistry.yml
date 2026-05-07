@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sophymarine__openregistry__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: CC-BY-4.0
+    archived: false
+    created_at: "2026-04-19T11:57:20Z"
+    pushed_at: "2026-04-29T07:41:33Z"
+    description: OpenRegistry — a free remote MCP server by Sophymarine connecting AI agents directly to official company registries. Real-time queries. Raw data. Raw documents. No intermediaries.
+    homepage: https://openregistry.sophymarine.com
+    topics:
+      - agent-skills
+      - aml
+      - claude
+      - claude-agent-skill
+      - claude-code
+      - claude-skills
+      - company-registry
+      - crewai
+      - cursor
+      - due-diligence
+      - gemini-cli
+      - kyc
+      - langchain
+      - llamaindex
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openclaw
+      - sophymarine
+      - ubo
+    last_checked_at: "2026-05-06T22:46:29.870Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:29.870Z"
+      bytes: 21480
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: OpenRegistry is a hosted MCP server that provides AI agents with real-time, unmodified access to company records and raw filings from 27 national government registries.
+  why_it_matters: Developers building compliance, KYC, or due-diligence agents can plug directly into live government data without relying on stale, reinterpreted third-party aggregators.
+  mental_damage: Another reminder that your AI agent can now navigate international bureaucracy better than you can, while you're still debugging a 400 error from a wrapper library.
+  tags:
+    - mcp
+    - kyc
+    - compliance
+    - agent-tooling
+    - government-data
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is an MCP server exposing government registry data to AI agents, fitting squarely into MCP infrastructure.
+  evidence:
+    - Repo description explicitly defines it as 'a free remote MCP server' connecting agents to company registries.
+    - Hosted endpoint is documented as 'https://openregistry.sophymarine.com/mcp' with MCP badges and registry links.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:29.870Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:29.410Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

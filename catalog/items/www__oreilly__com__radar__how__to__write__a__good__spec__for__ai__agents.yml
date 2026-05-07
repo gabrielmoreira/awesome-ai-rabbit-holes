@@ -1,12 +1,12 @@
 id: www__oreilly__com__radar__how__to__write__a__good__spec__for__ai__agents
 kind: website
-name: How to write a good spec for AI agents
+name: how-to-write-a-good-spec-for-ai-agents
 canonical_url: https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__oreilly__com__radar__how__to__write__a__good__spec__for__ai__agents__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -34,43 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A written guide by Addy Osmani on how to write effective specifications for AI coding agents, covering structure, task breakdown, and context management.
-  why_it_matters: It provides a structured framework for developers to move from vague prompts to spec-driven workflows that keep agents like Claude Code and Gemini CLI focused and productive.
-  mental_damage: We now need a formal specification document just to explain to the AI what we want, turning every feature request into a miniature bureaucracy before the first line of code is even generated.
+  summary: A long-form O'Reilly article by Addy Osmani on writing structured specifications that guide AI coding agents through planning, execution, and validation phases.
+  why_it_matters: Developers get a concrete framework for writing specs that act as persistent, version-controlled blueprints for agents like Claude Code and Gemini CLI.
+  mental_damage: Finally, a 37-minute read explaining how to write the document that will be ignored exactly as thoroughly as the README you already wrote.
   tags:
-    - ai-guide
-    - prompt-engineering
     - spec-driven
-    - workflow
+    - agent-workflow
+    - prompt-engineering
   confidence: high
 curation:
-  status: included
-  reason: This is a practical guide about spec-first development workflows for AI agents, which fits the spec-driven-development category focused on specifications driving planning and generation.
+  status: excluded
+  reason: This is an editorial article and educational resource, not a developer tool, product, SDK, or reusable skill pack, and therefore falls outside the catalog's tooling scope.
   evidence:
-    - Found in the 'awesome-spec-driven-development' list under the 'Introductions' section.
-    - The text explicitly promotes a 'spec-driven development' workflow where 'specs become the shared source of truth' and drive implementation, testing, and task breakdowns.
-    - It covers tools like Claude Code's Plan Mode and GitHub's Spec Kit, which are core spec-driven development workflows.
+    - The source is an O'Reilly Radar blog post authored by Addy Osmani, not a software repository or product.
+    - It is listed in awesome-spec-driven-development under 'Introductions', signaling it is educational content rather than executable tooling.
+    - The excerpt describes guidance, principles, and workflow advice without offering installable software, an API, or a skill pack.
 placement:
-  primary_category: spec-driven-development
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:30.941Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:44.185Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

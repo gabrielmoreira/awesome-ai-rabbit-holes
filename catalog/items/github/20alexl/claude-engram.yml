@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__20alexl__claude-engram__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - ollama
       - persistent-memory
       - python
-    last_checked_at: "2026-05-05T21:00:44.188Z"
+    last_checked_at: "2026-05-06T22:12:20.490Z"
     readme:
-      fetched_at: "2026-05-05T21:00:44.188Z"
+      fetched_at: "2026-05-06T22:12:20.490Z"
       bytes: 9146
 insights:
-  summary: A persistent memory and session intelligence system for Claude Code that hooks into the CLI lifecycle to automatically capture decisions, errors, and context, then surfaces relevant memories across sessions via an MCP server.
-  why_it_matters: It aims to solve the context-window amnesia problem by automatically injecting past mistakes and decisions into current coding sessions, reducing repeated errors and improving continuity.
-  mental_damage: We have finally built a tool that remembers every time you tried to fix the same bug three different ways, just in case you wanted to feel bad about it 10 sessions later.
+  summary: A hooks-based memory and session intelligence toolkit for Claude Code that auto-tracks coding mistakes, decisions, and context, then mines session history for patterns and cross-session search.
+  why_it_matters: It attempts to solve the context-window amnesia problem by persisting decisions and errors across sessions so your assistant stops repeating the same mistakes after a compaction.
+  mental_damage: We have reached the point where the assistant needs its own assistant to remember why the assistant forgot what you told the assistant ten minutes ago.
   tags:
     - claude-code
     - memory
     - mcp
     - hooks
     - context
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is an extension that augments Claude Code with a memory layer and session mining capabilities via hooks and MCP tooling, rather than being the primary coding assistant itself.
+  reason: The core novelty is a memory, retrieval, and context-shaping system for Claude Code rather than being a primary coding assistant or a generic host integration.
   evidence:
-    - Repo description explicitly states it provides 'Persistent memory and session intelligence for AI coding assistants' via hooks.
-    - README describes integration into Claude Code's lifecycle to auto-track mistakes and inject memories before edits.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description explicitly states 'Persistent memory and session intelligence for AI coding assistants' with hooks and session mining.
+    - README emphasizes memory injection, mistake warnings, compaction survival, and semantic search over session history as the main features.
+    - Although listed in awesome-mcp-servers under Knowledge & Memory, MCP is presented as a compatibility layer for tools, not the product identity.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:44.188Z"
+    updated_at: "2026-05-06T22:12:20.490Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:57.876Z"
+    updated_at: "2026-05-06T22:17:38.768Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

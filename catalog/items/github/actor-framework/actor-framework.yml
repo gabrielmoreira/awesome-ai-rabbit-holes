@@ -1,13 +1,13 @@
 id: github__actor-framework__actor-framework
 kind: github-repo
-name: Actor Framework
+name: actor-framework
 canonical_url: https://github.com/actor-framework/actor-framework
 identity:
   github_repo: actor-framework/actor-framework
 provenance:
   discoveries:
     - id: discovery__github__actor-framework__actor-framework__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -29,7 +29,7 @@ metadata:
     license: BSD-3-Clause
     archived: false
     created_at: "2011-03-04T14:59:50Z"
-    pushed_at: "2026-05-05T13:05:56Z"
+    pushed_at: "2026-05-06T08:58:18Z"
     description: An Open Source Implementation of the Actor Model in C++
     homepage: http://actor-framework.org/
     topics:
@@ -38,27 +38,27 @@ metadata:
       - async
       - caf
       - pattern-matching
-    last_checked_at: "2026-05-05T21:00:48.872Z"
+    last_checked_at: "2026-05-06T22:12:24.844Z"
     readme:
-      fetched_at: "2026-05-05T21:00:48.872Z"
+      fetched_at: "2026-05-06T22:12:24.844Z"
       bytes: 6696
 insights:
-  summary: CAF (actor-framework) is an open source C++ framework implementing the Actor Model for building concurrent, distributed, and scalable applications with lightweight actors and pattern matching.
-  why_it_matters: It provides developers with a high-abstraction, high-performance native runtime for concurrent systems, supporting distributed actors, HTTP/WebSocket, and flows without forcing a JVM or Erlang dependency.
-  mental_damage: Yet another reminder that while we wait for AI agents to refactor our spaghetti into clean concurrency models, we still have to manually wire up message-passing C++ actors like it’s 2011.
+  summary: An open source C++ framework providing a native actor model runtime for building concurrent, distributed, and scalable applications.
+  why_it_matters: It gives developers a high-abstraction, high-performance environment for concurrent systems without forcing them into a specific AI workflow or vendor lock-in.
+  mental_damage: You’ll spend three days debating message-passing semantics only to realize your biggest concurrency bottleneck is still waiting for Claude to finish a code review.
   tags:
+    - cpp
     - actor-model
     - concurrency
-    - cpp
     - distributed-systems
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose C++ concurrency framework with no AI, LLM, agent, or developer-tooling AI angle, despite appearing in an awesome-ai-agents list under a conceptual 'Actor model' link.
+  reason: This is a general-purpose C++ concurrency framework with no AI, agent, or LLM-facing developer-tooling identity, despite a passing mention in an AI agents list.
   evidence:
-    - Repo description and README describe a native Actor Model implementation in C++ with no mention of AI, LLMs, or AI agents.
-    - Topics include actor-model, actors, async, caf, pattern-matching — none related to AI tooling or developer AI workflows.
-    - Listed in awesome-ai-agents only via a Wikipedia link for the Actor model concept, not as an AI coding tool.
+    - Repo description explicitly states 'An Open Source Implementation of the Actor Model in C++' with no AI or LLM references.
+    - README describes CAF as a programming environment for concurrent/distributed apps, HTTP/WebSocket support, and performance—no mention of AI workflows or agents.
+    - Topics include actor-model, actors, async, caf, pattern-matching—none related to AI tooling, prompts, or agents.
 placement:
   primary_category: null
   section: null
@@ -66,21 +66,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (3414) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:48.065Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:48.872Z"
+    updated_at: "2026-05-06T22:12:24.844Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:18:35.348Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

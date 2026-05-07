@@ -1,13 +1,13 @@
 id: github__comfy-org__comfyui
 kind: github-repo
-name: ComfyUI
+name: comfyui
 canonical_url: https://github.com/comfy-org/comfyui
 identity:
   github_repo: comfy-org/comfyui
 provenance:
   discoveries:
-    - id: discovery__github__comfyanonymous__comfyui__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__comfy-org__comfyui__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 111464
-    forks: 13017
+    stars: 111645
+    forks: 13037
     license: GPL-3.0
     archived: false
     created_at: "2023-01-17T03:15:56Z"
-    pushed_at: "2026-05-05T20:58:32Z"
+    pushed_at: "2026-05-06T22:15:09Z"
     description: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
     homepage: https://www.comfy.org/
     topics:
@@ -38,56 +38,50 @@ metadata:
       - python
       - pytorch
       - stable-diffusion
-    last_checked_at: "2026-05-05T21:01:39.569Z"
+    last_checked_at: "2026-05-06T22:43:26.358Z"
     readme:
-      fetched_at: "2026-05-05T21:01:39.569Z"
+      fetched_at: "2026-05-06T22:43:26.358Z"
       bytes: 29912
 insights:
-  summary: A modular, node-based GUI and API for running, chaining, and serving diffusion models locally or in the cloud to generate images, video, 3D, and audio.
-  why_it_matters: It gives developers a programmable, API-driven way to build and ship production workflows around open and closed generative media models without wiring everything by hand.
-  mental_damage: You told yourself you were automating software delivery, then spent three hours rearranging pastel nodes to fine-tune a pineapple’s lighting in a 12-step latent diffusion graph.
+  summary: A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio.
+  why_it_matters: It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
+  mental_damage: You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code.
   tags:
-    - api
-    - comfyui
-    - diffusion
-    - generative-ai
-    - image-generation
     - local-ai
-    - media-generation
+    - diffusion
     - node-graph
+    - media-pipelines
+    - comfyui
   confidence: high
 curation:
   status: included
-  reason: This is a local-first model execution stack and desktop runtime for running generative AI on your own hardware, fitting local-ai rather than coding agents or app builders.
+  reason: ComfyUI is a local-first desktop app and runtime for running generative models on your own hardware, which aligns directly with the Local AI category.
   evidence:
-    - "Repo description: 'The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.'"
-    - "README: 'It is available on Windows, Linux, and macOS, locally with our desktop application or on our cloud.'"
-    - "README: 'Integrates seamlessly into production pipelines with our API endpoints.'"
     - "Repo description: 'most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.'"
     - "README: 'available on Windows, Linux, and macOS, locally with our desktop application or on our cloud.'"
-    - "Source list: included under awesome-local-ai in an Inference UI section."
+    - Seen in awesome-local-ai under the Inference UI section.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (111464) exceeded threshold (150)
+  reason: Stars (111645) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:03.644Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:39.569Z"
+    updated_at: "2026-05-06T22:43:26.358Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:14.709Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

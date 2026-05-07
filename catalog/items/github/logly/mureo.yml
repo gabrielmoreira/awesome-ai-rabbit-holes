@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__logly__mureo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,13 +24,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6
+    stars: 7
     forks: 0
     license: Apache-2.0
     archived: false
     created_at: "2026-03-30T22:25:22Z"
-    pushed_at: "2026-05-02T01:28:20Z"
-    description: Local-first, safety-gated AI ad-ops framework for Claude Code, Codex, Cursor & Gemini
+    pushed_at: "2026-05-06T08:55:11Z"
+    description: Your local-first AI ad ops crew. Works with Claude Code, Cursor, Codex & Gemini.
     homepage: https://mureo.io
     topics:
       - advertising
@@ -50,50 +50,50 @@ metadata:
       - model-context-protocol
       - python
       - search-console
-    last_checked_at: "2026-05-05T21:03:23.636Z"
+    last_checked_at: "2026-05-06T22:45:02.894Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.636Z"
-      bytes: 52350
+      fetched_at: "2026-05-06T22:45:02.894Z"
+      bytes: 52844
 insights:
-  summary: A local-first Python framework that lets AI agents like Claude Code and Cursor autonomously analyze and operate Google Ads, Meta Ads, Search Console, and GA4 accounts using a strategy file and a persistent knowledge base.
-  why_it_matters: It allows developers to hand off tedious ad-account diagnostics and optimizations to local agents while keeping credentials on their own machine and enforcing business logic via a STRATEGY.md file.
-  mental_damage: Yet another breakthrough proving that the singularity will be spent debugging OAuth flows so an agent can tell us we wasted ¥31,800 on our own brand terms.
+  summary: A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs.
+  why_it_matters: Developers running ad ops can delegate cross-platform account management to their existing coding agents without giving up local control, strategy grounding, or an append-only audit trail.
+  mental_damage: You now have a local control plane for your AI agents to optimize ROAS, which means your weekend project is simultaneously fighting brand cannibalization and questioning why your ad stack needs more orchestration than your production microservices.
   tags:
     - ad-ops
     - mcp
     - local-first
-    - marketing-automation
     - cli
+    - multi-agent
   confidence: medium
 curation:
   status: included
-  reason: The project is an extension framework that augments existing coding agents (Claude Code, Cursor, Codex) with ad-operations capabilities, memory, and strategy-gated behavior rather than being a primary coding assistant itself.
+  reason: mureo is fundamentally an integration layer that gives existing coding agents (Claude Code, Cursor, Codex, Gemini) safe, strategy-grounded access to ad platforms, making it a host integration rather than a primary coding assistant.
   evidence:
-    - Repo description explicitly calls it a 'framework for Claude Code, Codex, Cursor & Gemini' rather than a standalone agent.
-    - README states it runs across hosts like Claude Code and Claude Desktop chat to let those agents operate ad accounts.
-    - Listed in awesome-mcp-servers under 'Marketing', confirming its role as an MCP-based extension/tooling layer.
+    - Repo description explicitly states it 'Works with Claude Code, Cursor, Codex & Gemini' rather than being a standalone assistant.
+    - README defines mureo as a 'local-first control plane for AI ad ops' that lets 'AI agents operate... through mureo' with strategy, safety, and audit features.
+    - Source list places it in awesome-mcp-servers under Marketing, reinforcing its identity as an MCP-based integration rather than a core coding agent.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.636Z"
+    updated_at: "2026-05-06T22:45:02.894Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:34.555Z"
+    updated_at: "2026-05-06T23:10:25.461Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

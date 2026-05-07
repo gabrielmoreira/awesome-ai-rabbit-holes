@@ -1,13 +1,13 @@
 id: github__garvitsurana__burnd
 kind: github-repo
-name: Burnd
+name: burnd
 canonical_url: https://github.com/garvitsurana/burnd
 identity:
   github_repo: garvitsurana/burnd
 provenance:
   discoveries:
     - id: discovery__github__garvitsurana__burnd__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -51,22 +51,22 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T23:07:51.151Z"
+    updated_at: "2026-05-06T22:43:59.085Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: garvitsurana/burnd"
+    next_retry_at: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__realwigu__mcp-doctor__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-14T16:12:39Z"
+    pushed_at: "2026-03-14T21:38:30Z"
+    description: Diagnose, secure, and benchmark your MCP servers. Zero-config CLI for Claude Code, Cursor, VS Code, and Windsurf.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - claude
+      - cli
+      - cursor
+      - devtools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - security
+      - typescript
+      - vscode
+      - windsurf
+    last_checked_at: "2026-05-06T22:46:07.656Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:07.656Z"
+      bytes: 7007
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A zero-config CLI that auto-discovers MCP server configurations across Claude Code, Cursor, VS Code, and Windsurf to diagnose connections, audit security issues, and benchmark latency.
+  why_it_matters: As developers wire up more MCP servers across multiple AI tools, this provides a single command to catch silent failures, leaked secrets, and performance regressions before they break your workflow.
+  mental_damage: We have officially reached the point where we need a doctor for the protocol that connects our AI tools to the tools that connect our AI tools.
+  tags:
+    - mcp
+    - cli
+    - devtools
+    - security
+    - benchmarking
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: "The product identity is MCP infrastructure: a diagnostic and benchmarking CLI designed specifically for discovering, securing, and testing MCP servers across multiple hosts."
+  evidence:
+    - Repo description explicitly states 'Diagnose, secure, and benchmark your MCP servers. Zero-config CLI for Claude Code, Cursor, VS Code, and Windsurf.'
+    - README emphasizes MCP server connection health, security audits for secrets/tokens, and latency benchmarks as core features.
+    - Includes a 'MCP Server Mode' to expose its tools via stdio transport, confirming MCP is the product identity, not just a compatibility feature.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Clients / Inspectors / Dev Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:07.656Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:06.093Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

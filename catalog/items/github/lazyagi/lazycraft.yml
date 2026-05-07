@@ -1,0 +1,81 @@
+id: github__lazyagi__lazycraft
+kind: github-repo
+name: lazycraft
+canonical_url: https://github.com/lazyagi/lazycraft
+identity:
+  github_repo: lazyagi/lazycraft
+provenance:
+  discoveries:
+    - id: discovery__github__lazyagi__lazycraft__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: LazyCraft
+        extracted_url: https://github.com/lazyagi/lazycraft
+        surrounding_text: "42. [LazyCraft](https://github.com/LazyAGI/LazyCraft): LazyCraft 是一个基于 LazyLLM 构建的 AI Agent 应用开发与管理平台，旨在协助开发者以 低门槛、低成本 快速构建和发布大模型应用。"
+        confidence: high
+metadata:
+  github:
+    stars: 681
+    forks: 156
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-09-29T08:31:58Z"
+    pushed_at: "2026-02-12T08:51:52Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:44:56.757Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:56.756Z"
+      bytes: 9273
+insights:
+  summary: LazyCraft is a self-hosted, low-code platform for building and managing AI agent applications, featuring visual workflow orchestration, integrated model fine-tuning, and RAG pipeline configuration.
+  why_it_matters: It provides a full lifecycle control plane for teams to drag-and-drop agentic workflows, manage knowledge bases, and fine-tune models without writing extensive boilerplate code.
+  mental_damage: Just when you thought you escaped the GUI by moving to AI coding agents, we’ve built a visual canvas to orchestrate the agents that write the code that eventually replaces the canvas builders.
+  tags:
+    - agent-platform
+    - low-code
+    - rag
+    - self-hosted
+    - orchestration
+  confidence: high
+curation:
+  status: included
+  reason: The primary identity is a visual, operated workbench and control plane for building and coordinating AI applications and agents, fitting the 'Control Planes & Workforce Platforms' section.
+  evidence:
+    - README describes it as an 'AI Agent application development and management platform' with a 'visualization component canvas'.
+    - Features include multi-agent orchestration via RAG, model fine-tuning, and a full lifecycle workflow (create → debug → publish → monitor).
+    - Self-hosted via Docker, positioning it as infrastructure/platform rather than a code-first SDK or a single coding assistant.
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (681) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.626Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:56.757Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:00.500Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

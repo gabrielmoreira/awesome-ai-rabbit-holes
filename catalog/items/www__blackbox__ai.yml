@@ -1,12 +1,12 @@
 id: www__blackbox__ai
 kind: website
-name: Blackbox AI
+name: www.blackbox.ai
 canonical_url: https://www.blackbox.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__blackbox__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "## [Blackbox AI](https://www.blackbox.ai/)"
         confidence: high
     - id: discovery__www__blackbox__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,44 +49,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BLACKBOX AI is a multi-surface AI coding platform offering an AI-native IDE, CLI, VS Code extension, cloud agents, API, and a prompt-to-app builder, all coordinated by a Chairman LLM that evaluates parallel agent outputs.
-  why_it_matters: Developers can dispatch autonomous coding agents across their terminal, editor, and cloud to refactor, test, deploy, and review code while a judge model selects the best solution automatically.
-  mental_damage: You now have a Chairman LLM to evaluate your AI agents while you sip coffee, because apparently the natural next step after trusting one model was trusting several at once and hoping the committee gets it right.
+  summary: BLACKBOX AI is a multi-surface AI coding platform offering a CLI, VS Code extension, AI-native IDE, cloud agents, API, and mobile app for autonomous coding tasks, code review, testing, and deployment.
+  why_it_matters: Developers can dispatch autonomous coding agents across terminal, editor, cloud, and mobile surfaces to refactor code, generate tests, audit security, and deploy apps with minimal manual intervention.
+  mental_damage: Now you can pay a Chairman LLM to judge which AI agent did the best job writing code you won't have time to read anyway.
   tags:
-    - app-builder
-    - cli
-    - coding-agent
-    - ide
+    - coding-agents
     - multi-agent
+    - cli
+    - ide
+    - ai-platform
   confidence: high
 curation:
   status: included
-  reason: BLACKBOX AI is primarily a developer-facing coding agent platform that works inside the IDE, CLI, and PR workflow, with a Chairman LLM orchestrating parallel coding agents, making coding-agents the best fit over app-builders or agent-orchestration.
+  reason: It is a developer-facing coding assistant that plans, writes, reviews, tests, and deploys code across multiple surfaces, fitting the primary coding assistant definition.
   evidence:
-    - Scraped site describes 'agents work alongside you inside VS Code or Blackbox IDE' and 'dispatch competing agents from a single command' in the CLI.
-    - Includes code review, test generation, refactoring, and PR creation workflows targeting developers working on source code.
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' and in awesome-ai-agents as a multi-agent coding tool.
+    - BLACKBOX AI presents itself as a multi-agent coding platform with CLI, IDE, cloud, API, and mobile surfaces for autonomous coding tasks.
+    - The product directly reads codebases, plans changes, edits files, runs tests, performs code review, and handles deployment via dispatched agents.
+    - Included in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-ai-agents, with linked description matching its coding assistant identity.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:53.086Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:08.922Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

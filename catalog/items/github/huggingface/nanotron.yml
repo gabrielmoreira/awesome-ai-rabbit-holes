@@ -1,13 +1,13 @@
 id: github__huggingface__nanotron
 kind: github-repo
-name: Nanotron
+name: nanotron
 canonical_url: https://github.com/huggingface/nanotron
 identity:
   github_repo: huggingface/nanotron
 provenance:
   discoveries:
     - id: discovery__github__huggingface__nanotron__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,10 +21,25 @@ provenance:
         extracted_url: https://github.com/huggingface/nanotron
         surrounding_text: "- [Nanotron](https://github.com/huggingface/nanotron) - Minimalistic large language model 3D-parallelism training."
         confidence: high
+    - id: discovery__github__huggingface__nanotron__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: nanotron
+        extracted_url: https://github.com/huggingface/nanotron
+        surrounding_text: "28. [nanotron](https://github.com/huggingface/nanotron): Minimalistic large language model 3D-parallelism training."
+        confidence: high
 metadata:
   github:
-    stars: 2676
-    forks: 304
+    stars: 2677
+    forks: 305
     license: Apache-2.0
     archived: false
     created_at: "2023-09-11T14:40:28Z"
@@ -32,49 +47,49 @@ metadata:
     description: Minimalistic large language model 3D-parallelism training
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:37.366Z"
+    last_checked_at: "2026-05-06T22:44:18.595Z"
     readme:
-      fetched_at: "2026-05-05T21:02:37.366Z"
+      fetched_at: "2026-05-06T22:44:18.595Z"
       bytes: 7404
 insights:
-  summary: Nanotron is a Hugging Face library for pretraining large transformer models using 3D parallelism techniques like tensor and pipeline parallelism.
-  why_it_matters: It provides developers with a lightweight, scalable framework to train custom LLMs on their own infrastructure without the overhead of heavier training stacks.
-  mental_damage: Just when you thought you could escape the GPU hunger games by using hosted APIs, here is another reason to max out your credit card on H100 clusters in the name of 'minimalistic' pretraining.
+  summary: Nanotron is a minimalistic, high-performance library from Hugging Face for pretraining large transformer models using 3D parallelism techniques.
+  why_it_matters: It gives developers a streamlined, scalable API to train custom LLMs from scratch on their own hardware without wading through boilerplate distributed training code.
+  mental_damage: "Just what we needed: another reason to convince ourselves that buying eight H100s and spending a week debugging tensor parallelism is the same thing as shipping a feature."
   tags:
-    - huggingface
     - llm-training
-    - parallelism
-    - transformers
+    - pytorch
+    - distributed-training
+    - huggingface
   confidence: high
 curation:
-  status: included
-  reason: The project is a code-first library/SDK for embedding LLM training behavior into software, fitting the AI Frameworks and SDKs category.
+  status: excluded
+  reason: The project is a framework for pretraining foundation models, which falls under general ML research and infrastructure rather than the developer-facing AI tooling (agents, extensions, app builders) scoped for this catalog.
   evidence:
-    - "Repo description: 'Minimalistic large language model 3D-parallelism training'"
-    - "README claims: 'Nanotron is a library for pretraining transformer models... built with Simplicity and Performance principles.'"
-    - It is a library imported into code (torchrun examples) rather than a hosted SaaS or IDE assistant.
+    - Repo description explicitly states 'Minimalistic large language model 3D-parallelism training', defining it as ML training infrastructure.
+    - README positions the tool as 'Pretraining models made easy' with a focus on transformer pretraining, dataloaders, and cluster training.
+    - Listed in 'awesome-LLM-resources' under a 'Fine-Tuning' section, framing it as a general ML resource rather than a developer productivity tool.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2676) exceeded threshold (150)
+  reason: Stars (2677) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:36.565Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:37.366Z"
+    updated_at: "2026-05-06T22:44:18.595Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:04.165Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

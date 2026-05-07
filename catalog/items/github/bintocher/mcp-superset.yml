@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bintocher__mcp-superset__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 34
+    stars: 35
     forks: 3
     license: MIT
     archived: false
@@ -42,49 +42,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - superset
-    last_checked_at: "2026-05-05T21:01:21.029Z"
+    last_checked_at: "2026-05-06T22:12:53.223Z"
     readme:
-      fetched_at: "2026-05-05T21:01:21.029Z"
+      fetched_at: "2026-05-06T22:12:53.223Z"
       bytes: 24037
 insights:
-  summary: An MCP server that exposes 137 tools for managing Apache Superset instances, enabling AI assistants to control dashboards, charts, datasets, SQL Lab, and security settings.
-  why_it_matters: It allows developers to automate complex Superset administration tasks and integrate business intelligence workflows directly into AI-assisted development environments.
-  mental_damage: Now your LLM can manage row-level security and permission matrices, proving once again that no niche is too specific to avoid being wrapped in an MCP server.
+  summary: An MCP server that exposes 130+ Apache Superset operations via the Model Context Protocol, letting AI assistants manage dashboards, charts, SQL Lab, and security configurations programmatically.
+  why_it_matters: Developers can now delegate entire BI workflows — from dataset creation to row-level security audits — to coding agents instead of clicking through Superset's UI.
+  mental_damage: We’ve finally reached the point where an AI agent can mismanage your dashboards and lock your analysts out of their own charts with 137 distinct tools.
   tags:
     - mcp
     - apache-superset
-    - bi-tools
+    - bi
+    - data-platforms
     - fastmcp
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for Apache Superset, clearly fitting the MCP Servers and Tooling category.
+  reason: "MCP is the product identity: a full-featured MCP server for Apache Superset with 137 tools, multiple transports, and safety controls, exactly matching the Domain Servers section."
   evidence:
-    - Repo description confirms it is an 'MCP server for managing Apache Superset' with 128+ tools.
-    - README details 137 MCP tools covering the full Superset REST API, including CRUD and security management.
-    - Listed in the awesome-mcp-servers directory under 'Data Platforms', confirming its role in the MCP ecosystem.
+    - Repo description explicitly states 'MCP server for managing Apache Superset — 128+ tools'
+    - README identifies it as 'A comprehensive Model Context Protocol (MCP) server for Apache Superset' with 137 tools
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:21.029Z"
+    updated_at: "2026-05-06T22:12:53.223Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:51.153Z"
+    updated_at: "2026-05-06T22:24:19.811Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

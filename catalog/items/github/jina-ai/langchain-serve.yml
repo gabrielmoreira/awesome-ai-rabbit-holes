@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jina-ai__langchain-serve__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "| [langchain-serve](https://github.com/jina-ai/langchain-serve)              | Serverless LLM apps on Production with Jina AI Cloud *(Archived)*                                                                                                                                                                                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/jina-ai/langchain-serve.svg?style=flat-square)        |"
         confidence: high
     - id: discovery__github__jina-ai__langchain-serve__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -60,28 +60,28 @@ metadata:
       - production
       - python
       - slack
-    last_checked_at: "2026-05-05T21:02:55.624Z"
+    last_checked_at: "2026-05-06T22:44:34.539Z"
     readme:
-      fetched_at: "2026-05-05T21:02:55.624Z"
+      fetched_at: "2026-05-06T22:44:34.539Z"
       bytes: 29009
 insights:
-  summary: A Python package that deploys LangChain applications, including AutoGPT and BabyAGI wrappers, to Jina AI Cloud or on-premises infrastructure via FastAPI.
-  why_it_matters: It offered a quick path to wrap LLM chains into scalable REST or WebSocket APIs and Slack bots without manually configuring cloud infrastructure.
-  mental_damage: You can now deploy a 2023-era autonomous agent to the cloud in seconds, assuming you can find a working time machine to go back to September 2023.
+  summary: A now-archived Python package for deploying LangChain apps, AutoGPT, and BabyAGI as serverless REST or WebSocket APIs on Jina AI Cloud or custom infrastructure using FastAPI.
+  why_it_matters: It offered a one-command path to production for early LangChain agent experiments, wrapping conversational bots and autonomous agents into scalable APIs before the ecosystem standardized on newer orchestration tools.
+  mental_damage: A relic from the three-month era when we genuinely thought wrapping AutoGPT in a FastAPI microservice was the future of enterprise architecture.
   tags:
     - langchain
     - deployment
     - fastapi
-    - llm-serving
-    - jina
+    - serverless
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and explicitly states it is no longer maintained, making it a dead end for developers looking for current production tooling.
+  reason: The repository is explicitly archived and marked as no longer maintained, representing a deprecated deployment pattern for outdated agent frameworks rather than an active developer tool.
   evidence:
-    - "README banner: 'This repository is no longer maintained.'"
-    - "GitHub status: archived: yes"
-    - "Last push: 2023-09-20, indicating dormancy for nearly two years"
+    - "Repository has 'archived: yes' flag and README leads with ':warning: IMPORTANT NOTICE: This repository is no longer maintained.'"
+    - Last push was 2023-09-20, and the tool deploys now-inactive agent frameworks like AutoGPT and BabyAGI.
+    - Primary value was deploying to Jina AI Cloud, which is a sunsetted workflow rather than current production tooling.
 placement:
   primary_category: null
   section: null
@@ -91,19 +91,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:55.625Z"
+    updated_at: "2026-05-06T22:44:34.539Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:26.303Z"
+    updated_at: "2026-05-06T23:04:17.076Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

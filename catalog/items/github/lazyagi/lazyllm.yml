@@ -1,13 +1,13 @@
 id: github__lazyagi__lazyllm
 kind: github-repo
-name: LazyLLM
+name: lazyllm
 canonical_url: https://github.com/lazyagi/lazyllm
 identity:
   github_repo: lazyagi/lazyllm
 provenance:
   discoveries:
     - id: discovery__github__lazyagi__lazyllm__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -22,14 +22,29 @@ provenance:
         extracted_url: https://github.com/lazyagi/lazyllm
         surrounding_text: "| [LazyLLM](https://github.com/LazyAGI/LazyLLM) | Easiest way for building multi-agent LLM applications | ![Stars](https://img.shields.io/github/stars/LazyAGI/LazyLLM) |"
         confidence: high
+    - id: discovery__github__lazyagi__lazyllm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: LazyLLM
+        extracted_url: https://github.com/lazyagi/lazyllm
+        surrounding_text: "12. [LazyLLM](https://github.com/LazyAGI/LazyLLM): 低代码构建多Agent大模型应用的开发工具"
+        confidence: high
 metadata:
   github:
-    stars: 3820
-    forks: 384
+    stars: 3815
+    forks: 386
     license: Apache-2.0
     archived: false
     created_at: "2024-06-04T05:01:45Z"
-    pushed_at: "2026-05-05T02:19:48Z"
+    pushed_at: "2026-05-06T09:08:43Z"
     description: Easiest and laziest way for  building multi-agent LLMs applications.
     homepage: https://docs.lazyllm.ai/
     topics:
@@ -47,50 +62,50 @@ metadata:
       - llm
       - llms
       - rag
-    last_checked_at: "2026-05-05T21:03:17.698Z"
+    last_checked_at: "2026-05-06T22:44:56.970Z"
     readme:
-      fetched_at: "2026-05-05T21:03:17.698Z"
+      fetched_at: "2026-05-06T22:44:56.970Z"
       bytes: 23069
 insights:
-  summary: LazyLLM is a low-code Python framework for building and deploying multi-agent LLM applications with features like one-click deployment, cross-platform compatibility, and integrated model fine-tuning.
-  why_it_matters: It standardizes the messy lifecycle of multi-agent apps—from prototype to POC to production deployment—so developers can focus on data and algorithms instead of wiring together gateways and inference frameworks.
-  mental_damage: Now you can assemble a complex multi-agent architecture with the same intellectual effort required to snap together Lego bricks, ensuring your 'low-code' solution eventually requires a high-paid engineer to debug the data flow.
+  summary: LazyLLM is a low-code Python framework and development tool for building, deploying, and iterating on multi-agent LLM applications with support for fine-tuning and cross-platform infrastructure.
+  why_it_matters: It unifies the messy stack of inference, fine-tuning, vector databases, and agent orchestration into a single Lego-like assembly line for rapid prototyping and production deployment.
+  mental_damage: A low-code tool for people building multi-agent systems, proving that we have now successfully abstracted the need to understand the abstractions we just created.
   tags:
-    - deployment
-    - framework
-    - llm
-    - low-code
     - multi-agent
+    - low-code
+    - framework
+    - rag
+    - fine-tuning
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first SDK/framework for building multi-agent applications, which fits the AI Frameworks category rather than an orchestration control plane or an app builder.
+  reason: The repository is a code-first library and SDK used by developers to script and assemble multi-agent LLM applications, fitting the Frameworks & SDKs identity better than a hosted orchestration platform.
   evidence:
-    - Repo description defines it as a tool for 'building multi-agent LLMs applications', and README confirms it is a 'low-code development tool' used via code assembly.
-    - Featured in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks', reinforcing its identity as a developer building block.
-    - Active development visible with creation in 2024 and recent push in 2026, offering SDK features like fine-tuning and cross-platform IaaS switching.
+    - Repo description explicitly calls it a tool for 'building multi-agent LLMs applications' with topics like 'framework' and 'rag'.
+    - README describes it as a 'low-code development tool' where developers assemble modules 'like Lego building' using functional modules and data flows.
+    - Source lists categorize it under 'Core Frameworks > Multi-Agent Orchestration Frameworks' and '智能体 Agents' rather than control planes.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3820) exceeded threshold (150)
+  reason: Stars (3815) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:33:26.405Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:17.698Z"
+    updated_at: "2026-05-06T22:44:56.970Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:58.806Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: proficientai__com
 kind: website
-name: Proficient AI
+name: proficientai.com
 canonical_url: https://proficientai.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__proficientai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,20 +34,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Proficient AI is a platform for building and deploying autonomous AI agents, listed among other agent tools in curated AI directories.
-  why_it_matters: It provides infrastructure for developers looking to move beyond simple chatbots into multi-step autonomous agent workflows.
-  mental_damage: "Just what the ecosystem needed: another platform to orchestrate digital workers while we manually debug why they refuse to stop booking meetings in 2023."
+  summary: Proficient AI is a platform listed among autonomous AI agents that appears to offer multi-agent coordination capabilities.
+  why_it_matters: It provides developers with another option for exploring how autonomous agents can be structured and deployed within the AI ecosystem.
+  mental_damage: Yet another entry in the growing roster of autonomous agents that promises sentience while you still struggle to get a single LLM to format JSON correctly.
   tags:
-    - agents
-    - autonomous
-    - platform
+    - ai-agents
+    - multi-agent
   confidence: low
 curation:
   status: excluded
-  reason: The project lacks a developer-facing tool, SDK, or extension; it appears to be a general-purpose agent platform without specific utility for a developer's coding workflow or IDE.
+  reason: Excluded because there is no description, README, scraped site context, or functional evidence available to verify that this is a usable developer tool rather than a vague directory entry or defunct listing.
   evidence:
-    - Listed in awesome-ai-agents under a general 'autonomous agents' section with no specific developer-tooling angle provided.
-    - No repository description, README, or site context was provided to verify it offers coding assistance, frameworks, or IDE integration.
+    - No repo description, README excerpt, or scraped site context was provided.
+    - No homepage, license, or activity dates are available to confirm the project is active or real.
+    - Only signal is inclusion in the awesome-ai-agents list, which is evidence but not enough to override the total lack of product substance.
 placement:
   primary_category: null
   section: null
@@ -55,20 +55,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:10.762Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:32.765Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

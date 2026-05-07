@@ -1,13 +1,13 @@
 id: github__qihoo360__360-llama-factory
 kind: github-repo
-name: 360-LLaMA-Factory
+name: 360-llama-factory
 canonical_url: https://github.com/qihoo360/360-llama-factory
 identity:
   github_repo: qihoo360/360-llama-factory
 provenance:
   discoveries:
     - id: discovery__github__qihoo360__360-llama-factory__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,20 +32,28 @@ metadata:
     description: adds Sequence Parallelism into LLaMA-Factory
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T23:08:14.470Z"
+    last_checked_at: "2026-05-06T22:46:01.874Z"
     readme:
-      fetched_at: "2026-05-05T23:08:14.470Z"
+      fetched_at: "2026-05-06T22:46:01.874Z"
       bytes: 18766
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A fork of LLaMA-Factory that adds Sequence Parallelism (zigzag-ring and DeepSpeed Ulysses) to extend the effective context length for full-parameter SFT and DPO training.
+  why_it_matters: It allows ML engineers to train 72B models on 128k contexts using only 8 A800s without relying on heavy external optimizations.
+  mental_damage: We have finally solved the problem of training models to read 128,000 tokens, which means your commit history is now fair game for the next fine-tune.
+  tags:
+    - llm-training
+    - fine-tuning
+    - sequence-parallelism
+    - long-context
+    - deepspeed
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a model training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or infrastructure component for writing software.
+  evidence:
+    - Repo description explicitly states it 'adds Sequence Parallelism into LLaMA-Factory', a fine-tuning framework.
+    - README details SFT, DPO, and context length extension for 7B/72B models, targeting ML training workflows.
+    - Listed in awesome-LLM-resources under '微调 Fine-Tuning', confirming its identity as a model training resource.
 placement:
   primary_category: null
   section: null
@@ -53,23 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (606) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:14.470Z"
+    updated_at: "2026-05-06T22:46:01.874Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:23:42.852Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

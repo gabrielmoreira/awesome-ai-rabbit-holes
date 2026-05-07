@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pinecone-io__assistant-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,44 +33,50 @@ metadata:
     description: Pinecone Assistant MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T23:08:05.564Z"
+    last_checked_at: "2026-05-06T22:45:53.376Z"
     readme:
-      fetched_at: "2026-05-05T23:08:05.564Z"
+      fetched_at: "2026-05-06T22:45:53.376Z"
       bytes: 2421
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Rust-based MCP server that lets AI assistants like Claude Desktop retrieve information from a Pinecone Assistant instance.
+  why_it_matters: It acts as a bridge allowing AI coding tools to query Pinecone's managed knowledge bases directly within the assistant's context window.
+  mental_damage: Because setting up a Docker container to ask your LLM about vectors you already stored in the cloud is the exact kind of 'simple' integration that will definitely not eat your afternoon debugging environment variables.
+  tags:
+    - mcp
+    - pinecone
+    - knowledge-base
+    - rust
+    - integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server implementation for Pinecone Assistant, fitting the MCP Servers & Tooling category as a domain-specific server.
+  evidence:
+    - "Repo description states: 'Pinecone Assistant MCP server'."
+    - README confirms it is 'An MCP server implementation for retrieving information from Pinecone Assistant'.
+    - Included in the 'awesome-mcp-servers' list under 'Knowledge & Memory' servers.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:05.564Z"
+    updated_at: "2026-05-06T22:45:53.376Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:21:58.525Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

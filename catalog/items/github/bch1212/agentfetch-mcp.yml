@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bch1212__agentfetch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP server for fetching web URLs with token estimation, caching, and intelligent routing. Built for AI agents.
     homepage: https://www.agentfetch.dev
     topics: []
-    last_checked_at: "2026-05-05T21:01:18.432Z"
+    last_checked_at: "2026-05-06T22:12:50.546Z"
     readme:
-      fetched_at: "2026-05-05T21:01:18.432Z"
+      fetched_at: "2026-05-06T22:12:50.546Z"
       bytes: 5869
 insights:
-  summary: An MCP server that fetches web content with built-in token estimation, caching, and intelligent routing across multiple fetchers for AI agents.
-  why_it_matters: Developers wiring agents to the web can stop gluing together Jina, FireCrawl, PDF parsers, and their own cache layers by routing through one MCP tool with token budgeting.
-  mental_damage: We have finally built an agent-aware middleware to manage our middleware, and somewhere a senior engineer is writing a three-page RFC about how to version the cache TTL.
+  summary: An MCP server that fetches web URLs for AI agents with token estimation, intelligent routing across multiple fetchers, and built-in caching.
+  why_it_matters: It lets agents budget context windows and fetch clean Markdown from diverse sources without wiring together Jina, FireCrawl, pypdf, and a caching layer by hand.
+  mental_damage: We have reached the point where the middleware that wraps the middleware now needs its own middleware, and somehow this still feels like progress.
   tags:
     - mcp
     - web-fetch
     - token-budget
     - agent-tooling
+    - context
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that extends agent capabilities via the Model Context Protocol, which clearly fits the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server for web fetching, routing, and token budgeting, which aligns directly with the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for fetching web URLs with token estimation, caching, and intelligent routing.'
-    - README confirms the tool 'speaks MCP over stdio' and is configured as an MCP server in Claude Desktop / Claude Code.
-    - Listed under 'Server Implementations > Browser Automation' in the awesome-mcp-servers directory.
+    - "Repo description: 'MCP server for fetching web URLs with token estimation, caching, and intelligent routing.'"
+    - "README: 'The four tools (fetch_url, estimate_tokens, fetch_multiple, search_and_fetch) appear automatically' in Claude Desktop / Claude Code via MCP config."
+    - "Source list: listed in awesome-mcp-servers under Server Implementations > Browser Automation."
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:18.432Z"
+    updated_at: "2026-05-06T22:12:50.546Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:27.077Z"
+    updated_at: "2026-05-06T22:23:50.128Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

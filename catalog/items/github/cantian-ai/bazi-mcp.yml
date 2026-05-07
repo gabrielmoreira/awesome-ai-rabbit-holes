@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cantian-ai__bazi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: MCP server for Bazi (八字) information
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:29.918Z"
+    last_checked_at: "2026-05-06T22:43:17.330Z"
     readme:
-      fetched_at: "2026-05-05T21:01:29.918Z"
+      fetched_at: "2026-05-06T22:43:17.330Z"
       bytes: 12415
 insights:
-  summary: An MCP server that provides accurate Bazi (Chinese metaphysics) calculations and destiny forecasting to AI agents.
-  why_it_matters: It gives developers a clean, structured way to inject traditional metaphysics calculations into agent workflows without relying on hallucination-prone LLMs.
-  mental_damage: We have finally solved the critical ecosystem gap of providing deterministic destiny forecasting to our autonomous agents, right alongside the tools for deploying containers and querying databases.
+  summary: An MCP server that provides accurate Bazi (Chinese astrology) calculation tools for AI agents via Streamable HTTP or Stdio transports.
+  why_it_matters: It demonstrates how the MCP ecosystem is expanding into niche domains, allowing agents to access specialized external data beyond standard code and file operations.
+  mental_damage: We have successfully built the infrastructure for large language models to argue about your destiny with the precision of a seasoned fortune teller.
   tags:
     - mcp
-    - metaphysics
-    - agent-tooling
+    - server
     - bazi
+    - astrology
+    - integration
   confidence: high
 curation:
   status: included
-  reason: It is explicitly an MCP server for Bazi calculations, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server designed to provide Bazi metaphysical data to AI agents, fitting the Domain Servers section.
   evidence:
-    - "Repo description states: 'MCP server for Bazi (八字) information'"
-    - README demonstrates it is a tool server configurable for Claude Desktop and Smithery.
-    - Listed in awesome-mcp-servers under 'Art & Culture' server implementations.
+    - "Repo description states: 'MCP server for Bazi (八字) information'."
+    - README explicitly lists configuration for Claude Desktop and usage via `npx bazi-mcp`.
+    - Listed in awesome-mcp-servers under 'Art & Culture' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (369) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:29.918Z"
+    updated_at: "2026-05-06T22:43:17.330Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:26.100Z"
+    updated_at: "2026-05-06T22:48:07.415Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

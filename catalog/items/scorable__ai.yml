@@ -1,12 +1,12 @@
 id: scorable__ai
 kind: website
-name: Root Signals
+name: scorable.ai
 canonical_url: https://scorable.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__scorable__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Scorable is a SaaS platform for creating custom AI judges and running evaluations to monitor and improve the quality of LLM application outputs in production.
-  why_it_matters: It allows developers to replace manual prompt testing and unreliable self-evaluation with calibrated, automated scoring that can block hallucinations and integrate into CI pipelines.
-  mental_damage: Just when you thought 'vibe coding' was a sustainable methodology, you now need a panel of automated AI judges to tell you that your AI's vibes are legally actionable.
+  summary: Scorable is a platform for creating custom AI judges and running evaluations to measure, monitor, and improve the quality of LLM-powered applications in production.
+  why_it_matters: It lets developers replace manual 'vibe checks' with calibrated, automated scoring to catch hallucinations and policy breaks before they reach users.
+  mental_damage: You can now add a fully calibrated judge to your stack in two minutes, yet you still have no automated way to measure why your coding agent recommended a 400-line refactor that broke production.
   tags:
+    - evals
+    - llm-monitoring
     - ai-quality
-    - guardrails
-    - llm-evals
-    - monitoring
+    - ci-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an evaluation and observability platform designed to measure LLM output quality, fitting the evals category's focus on measuring model and prompt behavior.
+  reason: The core product job is measuring, scoring, and regression-testing LLM behavior across testing and production environments, which aligns directly with the Evals & Benchmarks category.
   evidence:
-    - "Scraped description states: 'Create custom AI judges, run experiments, and monitor your LLM applications in production.'"
-    - Site excerpt lists use cases including 'CI test suite', 'Production monitor', and 'Guardrail' for evaluating AI responses.
-    - Listed in awesome-mcp-servers under 'Official Servers' as a tool for measuring and improving AI applications.
+    - "Scraped site states: 'Create custom AI judges, run experiments, and monitor your LLM applications in production.'"
+    - "Site excerpt describes CI test suite use case: 'Fail a deploy if hallucination scores spike after a prompt change.'"
+    - Listed in awesome-mcp-servers as an official server, but the primary product identity is evaluation and observability rather than MCP infrastructure.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:55.424Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:21.429Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

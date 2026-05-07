@@ -1,13 +1,13 @@
 id: github__ther1d__shell_gpt
 kind: github-repo
-name: ShellGPT
+name: shell_gpt
 canonical_url: https://github.com/ther1d/shell_gpt
 identity:
   github_repo: ther1d/shell_gpt
 provenance:
   discoveries:
     - id: discovery__github__ther1d__shell_gpt__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,47 +23,75 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12042
+    forks: 959
+    license: MIT
+    archived: false
+    created_at: "2023-01-18T19:40:11Z"
+    pushed_at: "2026-05-06T04:29:55Z"
+    description: A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.
+    homepage: ""
+    topics:
+      - chatgpt
+      - cheat-sheet
+      - cli
+      - commands
+      - gpt-3
+      - gpt-4
+      - gpt-5
+      - linux
+      - llama
+      - llm
+      - ollama
+      - openai
+      - productivity
+      - python
+      - shell
+      - terminal
+    last_checked_at: "2026-05-06T22:46:47.803Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:47.803Z"
+      bytes: 25609
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A command-line tool that uses LLMs to generate shell commands, code snippets, and documentation, and can be integrated directly into terminal shells via hotkeys.
+  why_it_matters: It lets developers generate and execute complex shell commands, commit messages, and code snippets directly from the terminal without leaving the command line or searching the web.
+  mental_damage: We have reached the point where we use a large language model to remember how to use `find`, ensuring our brains remain perfectly free of any actual Unix knowledge.
+  tags:
+    - cli
+    - terminal
+    - shell
+    - llm
+    - productivity
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool acts as a primary command-line coding and shell assistant that generates, explains, and executes commands and code snippets directly for the developer.
+  evidence:
+    - Repo description states it is a 'command-line productivity tool powered by AI large language models' that helps accomplish tasks faster.
+    - README demonstrates direct code/shell generation use cases like `sgpt --shell 'find all json files'` and `git diff | sgpt 'Generate git commit message'`.
+    - Listed in awesome-ai-coding-tools under the section 'CLI Tools' as a relevant developer tool.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (12042) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:47.803Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:56.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

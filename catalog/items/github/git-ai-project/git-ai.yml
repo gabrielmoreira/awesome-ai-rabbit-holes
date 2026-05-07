@@ -1,13 +1,13 @@
 id: github__git-ai-project__git-ai
 kind: github-repo
-name: Git AI
+name: git-ai
 canonical_url: https://github.com/git-ai-project/git-ai
 identity:
   github_repo: git-ai-project/git-ai
 provenance:
   discoveries:
-    - id: discovery__github__acunniffe__git-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__git-ai-project__git-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,65 +23,61 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1772
+    stars: 1783
     forks: 159
     license: Apache-2.0
     archived: false
     created_at: "2025-07-02T16:09:26Z"
-    pushed_at: "2026-05-05T20:50:05Z"
+    pushed_at: "2026-05-06T19:37:52Z"
     description: A Git extension for tracking the AI-generated code in your repos
     homepage: https://usegitai.com
     topics:
       - ai
       - ai-blame
       - coding-agents
-    last_checked_at: "2026-05-05T21:02:21.605Z"
+    last_checked_at: "2026-05-06T22:44:02.433Z"
     readme:
-      fetched_at: "2026-05-05T21:02:21.605Z"
+      fetched_at: "2026-05-06T22:44:02.433Z"
       bytes: 14324
 insights:
-  summary: A Git extension that automatically tracks and attributes AI-generated code lines to the specific agent, model, and session used to create them.
-  why_it_matters: It restores provenance and accountability to repositories polluted by agent-generated code, allowing developers to audit *why* a line was written, not just *who* committed it.
-  mental_damage: Finally, you can run git blame not to find the human who ruined the build, but to discover which specific hallucination-prone model you need to yell at in the logs.
+  summary: A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows.
+  why_it_matters: It provides much-needed attribution and provenance for AI-written code, helping developers understand the intent and context behind contributions from tools like Claude Code and Cursor.
+  mental_damage: Finally, a tool to document exactly which LLM hallucinated that critical auth bypass, ensuring the blame is mathematically distributed across the entire ecosystem.
   tags:
-    - ai-attribution
-    - blame
-    - cli
-    - code-tracking
-    - devops
     - git
+    - attribution
+    - ai-blame
+    - cli
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing extension that integrates with existing coding agents and Git workflows to add a memory and attribution layer, rather than being a primary coding assistant itself.
+  reason: The tool is explicitly a git extension that augments existing coding assistants (Claude Code, Cursor, etc.) by adding attribution and tracking capabilities rather than acting as a primary coding agent itself.
   evidence:
-    - Repo description states it is 'A Git extension for tracking the AI-generated code in your repos'.
-    - README demonstrates augmented git workflows like 'git-ai blame' to show model and session IDs for code lines.
-    - Supports augmenting major agents (Claude, Cursor, Copilot, etc.) rather than acting as a standalone IDE agent.
-    - README demonstrates `git-ai blame` showing specific agents like 'claude [session_id]' per line of code.
-    - Supports integration with major coding agents including Claude Code, Cursor, Copilot, and Windsurf (README table).
+    - "Repo description: 'A Git extension for tracking the AI-generated code in your repos'"
+    - "README states: 'Git AI is an open source git extension that tracks AI-generated code in your repositories'"
+    - Supported agents table includes Claude Code, Cursor, Copilot, and others, confirming it extends existing tools
 placement:
-  primary_category: null
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1772) exceeded threshold (150)
+  reason: Stars (1783) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:25.545Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:21.605Z"
+    updated_at: "2026-05-06T22:44:02.433Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:43.045Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

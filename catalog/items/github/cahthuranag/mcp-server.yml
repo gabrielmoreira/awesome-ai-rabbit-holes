@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cahthuranag__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,50 @@ metadata:
       - mcp
       - model-context-protocol
       - windsurf
-    last_checked_at: "2026-05-05T21:01:28.600Z"
+    last_checked_at: "2026-05-06T22:43:16.248Z"
     readme:
-      fetched_at: "2026-05-05T21:01:28.600Z"
+      fetched_at: "2026-05-06T22:43:16.248Z"
       bytes: 15109
 insights:
-  summary: An MCP server that exposes live FX rates, historical currency data, and multi-currency lookups from the AllRatesToday API to Claude Code, Cursor, Claude Desktop, and Windsurf.
-  why_it_matters: It lets AI coding assistants answer real-time currency questions and perform financial conversions without developers wiring up external API calls by hand.
-  mental_damage: "We have finally achieved the future: an npm package, a free API key, and four tools dedicated to asking Claude what the yen is doing while your actual codebase gathers dust."
+  summary: An MCP server that exposes real-time FX rates, historical currency data, and multi-currency lookups from AllRatesToday to Claude Code, Cursor, Claude Desktop, and Windsurf.
+  why_it_matters: It lets AI coding assistants answer live forex questions and perform currency conversions directly inside the developer's existing workflow without switching to a browser or API docs.
+  mental_damage: We have reached the point where our assistants need dedicated protocol servers just to know what the euro is worth today.
   tags:
     - mcp
     - forex
+    - finance
     - currency
-    - api
-    - node
-  confidence: medium
+    - extension
+  confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation that adds financial data tooling to MCP-compatible developer clients, which is a clean fit for the MCP category.
+  reason: This is a domain-specific MCP server whose primary identity is implementing the Model Context Protocol to expose financial data tools to MCP-compatible clients.
   evidence:
-    - "Repo description explicitly states: 'MCP server bringing live FX rates... to Claude Code, Cursor, Claude Desktop, and Windsurf.'"
-    - README confirms it is a Model Context Protocol server exposing 4 tools via stdio transport for MCP-compatible clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, reinforcing its role as MCP infrastructure.
+    - Repo description explicitly identifies it as an 'MCP server' for FX rates integrated with Claude Code, Cursor, Claude Desktop, and Windsurf.
+    - README states it is 'A Model Context Protocol server' exposing 4 tools like get_exchange_rate and get_historical_rates via stdio transport.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section, confirming its ecosystem role as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:28.600Z"
+    updated_at: "2026-05-06T22:43:16.248Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:12.990Z"
+    updated_at: "2026-05-06T22:47:45.140Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

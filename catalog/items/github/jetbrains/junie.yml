@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jetbrains__junie__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,59 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 227
-    forks: 10
+    stars: 228
+    forks: 12
     license: NOASSERTION
     archived: false
     created_at: "2025-04-07T16:40:43Z"
-    pushed_at: "2026-05-05T20:26:38Z"
+    pushed_at: "2026-05-06T19:35:07Z"
     description: An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline - powered by any LLM you choose
     homepage: https://junie.jetbrains.com
     topics: []
-    last_checked_at: "2026-05-05T21:02:54.434Z"
+    last_checked_at: "2026-05-06T22:44:33.312Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.434Z"
+      fetched_at: "2026-05-06T22:44:33.312Z"
       bytes: 2922
 insights:
-  summary: An LLM-agnostic AI coding agent by JetBrains that operates via terminal, IDE, and CI/CD pipelines to handle tasks like bug fixing, feature implementation, and code review.
-  why_it_matters: It allows developers to delegate coding tasks across their existing workflow—from the command line to GitHub Actions—while retaining the flexibility to use their preferred LLM provider.
-  mental_damage: Just when you thought 'vibe coding' needed another vendor lock-in, JetBrains arrives to ensure your terminal, IDE, and CI pipeline are all politely judged by the same algorithm.
+  summary: An LLM-agnostic AI coding agent by JetBrains that operates via terminal, IDE integration, and CI/CD pipelines to plan, write, review, and repair code.
+  why_it_matters: It lets developers delegate coding tasks across their repo, IDE, and CI using their choice of models, including BYOK providers like Anthropic, OpenAI, and OpenRouter.
+  mental_damage: JetBrains joins the terminal agent party, proving that no matter how many IDEs we build, we still want a chatbot fixing our failing tests at 2am.
   tags:
     - coding-agent
     - cli
-    - ide
+    - ide-integration
+    - ci-cd
     - llm-agnostic
-    - jetbrains
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing coding assistant that directly plans, writes, and reviews code inside the terminal, IDE, and CI/CD workflows, fitting the coding-agents category perfectly.
+  reason: Junie is a standalone coding assistant that developers use as the primary agent to plan, implement, and review code across terminal, IDE, and CI workflows.
   evidence:
-    - Repo description explicitly states it is 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'.
-    - README excerpt confirms it handles tasks like fixing bugs, implementing features, and reviewing PRs directly in the repo.
-    - Already curated in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents'.
+    - Repo description explicitly calls it 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'.
+    - "README demonstrates direct repo work: 'fix a bug, implement a feature, review a PR' and 'Fix the failing tests in the auth module'."
+    - Source list places it in 'Terminal-native coding agents > Closed Source', and it supports multiple install methods including CLI, npm, and Homebrew.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (227) exceeded threshold (150)
+  reason: Stars (228) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.434Z"
+    updated_at: "2026-05-06T22:44:33.312Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:12.333Z"
+    updated_at: "2026-05-06T23:04:05.029Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

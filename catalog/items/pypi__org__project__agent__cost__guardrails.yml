@@ -1,12 +1,12 @@
 id: pypi__org__project__agent__cost__guardrails
 kind: website
-name: PyPI
+name: agent-cost-guardrails
 canonical_url: https://pypi.org/project/agent-cost-guardrails
 identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__agent__cost__guardrails__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A PyPI package named agent-cost-guardrails with no available description, README, or functional site excerpt.
-  why_it_matters: Presumably helps developers stop their autonomous agents from burning through their API budget, assuming the package actually exists and works.
-  mental_damage: We now need a guardrail for the guardrails that watch the agents that replaced the interns.
+  summary: A Python package named agent-cost-guardrails published on PyPI, likely intended to enforce cost limits on AI agent usage.
+  why_it_matters: It addresses the financial anxiety of running autonomous agents by attempting to put guardrails around API spend.
+  mental_damage: Because the only thing more exhausting than debugging an agent's logic is setting up a parallel bureaucracy to track its token receipts.
   tags:
-    - agents
     - cost-control
     - python
+    - agents
+    - budgeting
   confidence: low
 curation:
   status: excluded
-  reason: The project has no description, no README content, no homepage, and the linked site fails to load, providing zero evidence of what the tool does or whether it fits the catalog's scope.
+  reason: The project page is inaccessible and the specific functionality cannot be verified; it is likely a library or utility that is too early or too thin to qualify as a standalone product in this catalog.
   evidence:
-    - Repo description, README, and homepage are all empty or unavailable.
-    - "Primary page excerpt shows a site error: 'A required part of this site couldn’t load.'"
-    - No stars, topics, license, or activity dates available to verify legitimacy or fit.
+    - The linked PyPI page resolves to a site error and could not load ('A required part of this site couldn't load').
+    - No repo description, README, stars, or activity dates were provided to verify the product's scope or developer utility.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but the link target 'Client Challenge' suggests a broken or mislabeled entry.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:16.027Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:39.264Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcpdotdirect__evm-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) 📇 ☁️ - Comprehensive blockchain services for 30+ EVM networks, supporting native tokens, ERC20, NFTs, smart contracts, transactions, and ENS resolution."
         confidence: high
     - id: discovery__github__mcpdotdirect__evm-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,50 +54,50 @@ metadata:
       - evm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:33.421Z"
+    last_checked_at: "2026-05-06T22:45:11.944Z"
     readme:
-      fetched_at: "2026-05-05T21:03:33.421Z"
+      fetched_at: "2026-05-06T22:45:11.944Z"
       bytes: 26458
 insights:
-  summary: An MCP server that exposes 22 tools and 10 AI-guided prompts for reading state, transferring tokens, and interacting with smart contracts across 60+ EVM-compatible networks.
-  why_it_matters: It lets AI agents handle blockchain read/write operations with automatic ABI fetching and ENS resolution so developers don't have to hand-craft Web3 RPC glue code.
-  mental_damage: We have successfully abstracted Ethereum so thoroughly that your AI agent can now accidentally drain a wallet on Base with the same effortless confidence it brings to deleting your production database.
+  summary: An MCP server that exposes 22 blockchain tools and 10 AI-guided prompts for interacting with 60+ EVM-compatible networks like Ethereum, Optimism, and Base.
+  why_it_matters: It lets AI agents read blockchain state, call smart contracts with automatic ABI fetching, and sign transactions across dozens of chains through a single MCP interface.
+  mental_damage: Because nothing says 'I have my life together' like giving a large language model the ability to burn gas on six different L2s with nothing but a mnemonic and a vague prompt.
   tags:
     - mcp
     - evm
-    - web3
     - blockchain
     - agent-tooling
+    - web3
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server that provides blockchain tools for AI agents, which fits squarely into the MCP Servers and Tooling category.
+  reason: "MCP is the core product identity: it is an MCP server purpose-built to give agents blockchain capabilities across EVM networks."
   evidence:
-    - Repo description explicitly states 'MCP server that provides LLMs with tools for interacting with EVM networks'.
-    - README highlights 22 tools and 10 AI-guided prompts exposed via the Model Context Protocol across 60+ EVM networks.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections, confirming its MCP ecosystem role.
+    - Repo description explicitly calls it an 'MCP server that provides LLMs with tools for interacting with EVM networks'.
+    - README states it 'leverages the Model Context Protocol to provide blockchain services to AI agents' with 22 tools and 10 prompts.
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections, confirming MCP-native identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (374) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.669Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:33.421Z"
+    updated_at: "2026-05-06T22:45:11.944Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:27.350Z"
+    updated_at: "2026-05-06T23:12:38.234Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

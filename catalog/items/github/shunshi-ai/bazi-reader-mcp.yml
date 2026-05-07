@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shunshi-ai__bazi-reader-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-08T02:55:22Z"
+    pushed_at: "2026-04-14T01:46:53Z"
+    description: Give your AI agent the ability to read Chinese Bazi (八字) charts — an open-source MCP server 🔮
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:24.537Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:24.537Z"
+      bytes: 8131
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source MCP server and TypeScript library that calculates Chinese Bazi (Four Pillars of Destiny) charts with true solar time correction, designed to be called by AI agents like Claude and Cursor.
+  why_it_matters: It gives developers building culturally-aware AI agents a parity-tested, multilingual calculation engine that handles complex solar time corrections and regional charting conventions out of the box.
+  mental_damage: Your CI pipeline is now green, your agents can refactor React, and thanks to the MCP ecosystem, they can also tell you why your birth chart suggests you should have been a farmer.
+  tags:
+    - mcp
+    - bazi
+    - typescript
+    - astro
+    - agent-tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server providing domain-specific tooling (Bazi calculation) for AI agents, fitting cleanly into the Domain Servers section of MCP Servers & Tooling.
+  evidence:
+    - Repo description explicitly states 'open-source MCP server' for giving AI agents Bazi chart reading abilities.
+    - "README details two npm packages: 'shunshi-bazi-core' (library) and 'shunshi-bazi-mcp' (thin MCP server wrapper)."
+    - Source list context confirms inclusion in 'awesome-mcp-servers' under 'Art & Culture' server implementations.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:24.537Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:36.453Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,80 @@
+id: github__jmather__llmhub
+kind: github-repo
+name: llmhub
+canonical_url: https://github.com/jmather/llmhub
+identity:
+  github_repo: jmather/llmhub
+provenance:
+  discoveries:
+    - id: discovery__github__jmather__llmhub__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LLMHub
+        extracted_url: https://github.com/jmather/llmhub
+        surrounding_text: "30. [LLMHub](https://github.com/jmather/llmhub): LLMHub is a lightweight management platform designed to streamline the operation and interaction with various language models (LLMs)."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2024-08-25T06:36:35Z"
+    pushed_at: "2024-11-23T16:43:10Z"
+    description: LLMHub is a lightweight management platform designed to streamline the operation and interaction with various language models (LLMs). It provides an intuitive command-line interface (CLI) and a RESTful API to manage, start, stop, and interact with LLMs. The platform supports running multiple models with different configurations and context sizes.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:44:35.711Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:35.711Z"
+      bytes: 2301
+insights:
+  summary: LLMHub is a lightweight CLI and REST API for managing, starting, stopping, and interacting with self-hosted language models locally.
+  why_it_matters: It gives developers a single control surface to run multiple local LLMs with OpenAI-compatible endpoints, simplifying local inference testing and integration.
+  mental_damage: Yet another wrapper promising to tame local model chaos, because clearly what the ecosystem needed was more YAML files to manage the tools managing the models.
+  tags:
+    - local-ai
+    - cli
+    - llm-management
+    - self-hosted
+  confidence: medium
+curation:
+  status: included
+  reason: The project is a developer tool for running and managing local LLMs via CLI and REST API, matching the Local AI category's focus on local runtimes and serving stacks.
+  evidence:
+    - Repo description states it is a management platform with CLI and REST API to manage, start, stop, and interact with LLMs locally.
+    - README includes OpenAI-compatible API endpoints and YAML configuration for running models with engines like llamacppserver.
+    - Created in 2024-08 and last pushed in 2024-11, showing it is a recent project, though with low stars (9).
+placement:
+  primary_category: local-ai
+  section: Local Serving / APIs
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.622Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:35.711Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:31.781Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

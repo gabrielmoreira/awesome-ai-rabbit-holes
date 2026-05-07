@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__doggybee__mcp-server-ccxt__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: High-performance CCXT MCP server for cryptocurrency exchange integration
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:55.166Z"
+    last_checked_at: "2026-05-06T22:43:39.695Z"
     readme:
-      fetched_at: "2026-05-05T21:01:55.166Z"
+      fetched_at: "2026-05-06T22:43:39.695Z"
       bytes: 10281
 insights:
-  summary: An MCP server that exposes the CCXT cryptocurrency exchange library to LLMs, allowing models like Claude to fetch market data and execute trades across 20+ exchanges.
-  why_it_matters: It gives AI agents a standardized, structured way to interact with exchange APIs without developers having to hand-craft tool definitions for every trading venue.
-  mental_damage: Finally, your LLM can lose money on KuCoin and Binance simultaneously, with the reassuring formality of the Model Context Protocol.
+  summary: An MCP server that bridges LLMs like Claude with the CCXT library to enable real-time cryptocurrency exchange data access and trading operations.
+  why_it_matters: Developers building crypto trading bots or analytics tools can delegate market data fetching and order execution directly to their LLM workflow without writing custom exchange wrappers.
+  mental_damage: Now your trading bot can panic-sell Bitcoin based on a hallucinated support level from a model that thinks it's still 2023.
   tags:
     - mcp
     - crypto
-    - trading
     - ccxt
     - finance
+    - exchange
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to connect LLMs to cryptocurrency exchange data and trading operations.
+  reason: The product's identity is a domain-specific MCP server for cryptocurrency exchanges, fitting the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description states: 'High-performance CCXT MCP server for cryptocurrency exchange integration'"
-    - README confirms it 'serves as a bridge that allows LLMs to access real-time market data and execute trading operations' via MCP.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Repo description explicitly states 'High-performance CCXT MCP server for cryptocurrency exchange integration'.
+    - README confirms it is an MCP server connecting LLMs to 20+ exchanges via the CCXT library.
+    - Listed in awesome-mcp-servers under the Finance & Fintech section, reinforcing its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:55.166Z"
+    updated_at: "2026-05-06T22:43:39.695Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:45.442Z"
+    updated_at: "2026-05-06T22:53:04.754Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

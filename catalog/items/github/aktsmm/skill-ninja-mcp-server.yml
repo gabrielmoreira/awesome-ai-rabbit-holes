@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aktsmm__skill-ninja-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:56.768Z"
+    last_checked_at: "2026-05-06T22:12:32.142Z"
     readme:
-      fetched_at: "2026-05-05T21:00:56.768Z"
+      fetched_at: "2026-05-06T22:12:32.142Z"
       bytes: 763
 insights:
-  summary: An MCP server that lets developers search, install, and manage reusable AI agent skills from within MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It turns agent skills into a browsable, installable ecosystem, reducing the friction of discovering and reusing shared capabilities across AI coding environments.
-  mental_damage: Finally, a package manager for the cursed little prompt bundles we’ve all been copy-pasting between clients and pretending are a real workflow.
+  summary: An MCP server for searching, installing, and managing reusable AI agent skills within MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It turns skill management into a protocol-native operation, letting agents discover and install new capabilities without leaving the workflow.
+  mental_damage: We have now successfully abstracted the process of acquiring the abstractions that help us avoid writing code.
   tags:
     - mcp
     - skills
-    - agent-skills
+    - agent-extensions
     - developer-tools
   confidence: medium
 curation:
   status: included
-  reason: The project is a Model Context Protocol server focused on skill management, which clearly fits the MCP infrastructure category rather than coding agents or skills directly.
+  reason: The product's identity is an MCP server specifically built to manage agent skills, fitting the MCP Servers & Tooling category where protocol identity is primary.
   evidence:
-    - Repo description states it is an 'MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills'.
-    - README confirms it is an MCP server for managing skills, working with Claude Desktop, Cursor, and VS Code.
-    - Listed under Server Implementations > Developer Tools in the awesome-mcp-servers directory.
+    - "Repo description explicitly states: 'MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills'."
+    - README confirms it is 'An MCP (Model Context Protocol) server' designed for MCP-compatible clients.
+    - Found in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:56.768Z"
+    updated_at: "2026-05-06T22:12:32.142Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:09.609Z"
+    updated_at: "2026-05-06T22:20:06.986Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

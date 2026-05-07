@@ -1,0 +1,91 @@
+id: github__coobiw__mpp-llava
+kind: github-repo
+name: mpp-llava
+canonical_url: https://github.com/coobiw/mpp-llava
+identity:
+  github_repo: coobiw/mpp-llava
+provenance:
+  discoveries:
+    - id: discovery__github__coobiw__mpp-llava__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: MPP-LLaVA
+        extracted_url: https://github.com/coobiw/mpp-llava
+        surrounding_text: 14. [MPP-LLaVA](https://github.com/Coobiw/MPP-LLaVA)
+        confidence: high
+metadata:
+  github:
+    stars: 674
+    forks: 34
+    license: null
+    archived: false
+    created_at: "2023-10-24T17:27:32Z"
+    pushed_at: "2025-03-10T14:16:21Z"
+    description: "Personal Project: MPP-Qwen14B & MPP-Qwen-Next(Multimodal Pipeline Parallel based on Qwen-LM). Support [video/image/multi-image] {sft/conversations}. Don't let the poverty limit your imagination! Train your own 8B/14B LLaVA-training-like MLLM on RTX3090/4090 24GB."
+    homepage: ""
+    topics:
+      - deepspeed
+      - fine-tuning
+      - mllm
+      - model-parallel
+      - multimodal-large-language-models
+      - pipeline-parallelism
+      - pretraining
+      - qwen
+      - video-language-model
+      - video-large-language-models
+    last_checked_at: "2026-05-06T22:43:28.023Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:28.023Z"
+      bytes: 10247
+insights:
+  summary: A personal research project enabling developers to train and run multimodal LLMs (image/video) like LLaVA using pipeline parallelism on consumer GPUs such as the RTX 3090/4090.
+  why_it_matters: It lowers the hardware barrier for developers to fine-tune 8B/14B multimodal models locally, eliminating the dependency on expensive enterprise-grade compute clusters.
+  mental_damage: Finally, a way to train a 14B vision model in your bedroom, ensuring your electricity bill spikes faster than your validation loss drops.
+  tags:
+    - multimodal
+    - fine-tuning
+    - local-ai
+    - qwen
+    - model-parallel
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a personal research implementation for training MLLMs, falling under general ML research and model training infrastructure rather than a practical developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description explicitly labels this as a 'Personal Project' focused on training MPP-Qwen/LLaVA-like models.
+    - Topics and README focus on deepspeed, pretraining, SFT, and pipeline parallelism for vision-language models, not developer tooling workflows.
+    - Seen in 'awesome-LLM-resources' under general tips and resources, not as a specific developer tool or agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (674) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.609Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:28.023Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:36.704Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paladini__devutils-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: An open-source DevUtils MCP Server — a comprehensive developer utilities toolkit for the Docker MCP Catalog. It provides 36 tools across 8 categories that AI assistants can invoke directly.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:11.102Z"
+    last_checked_at: "2026-05-06T22:45:46.905Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.102Z"
+      fetched_at: "2026-05-06T22:45:46.905Z"
       bytes: 9909
 insights:
-  summary: An MCP server exposing 36 local developer utilities—including hashing, encoding, JWT decoding, and JSON formatting—for AI assistants to invoke directly inside IDEs and editors.
-  why_it_matters: It lets coding agents perform common, fiddly dev tasks like UUID generation and CIDR calculation without leaving the chat or calling external APIs.
-  mental_damage: We have successfully reached the point where our AI assistants need their own busybox so they can stop hallucinating base64 conversions like it’s 2023.
+  summary: An open-source MCP server that exposes 36 common developer utilities—such as hashing, encoding, JWT decoding, and JSON formatting—directly to MCP-compatible AI assistants.
+  why_it_matters: It lets AI assistants handle everyday formatting and encoding tasks locally, keeping developers inside their coding workflow instead of reaching for external tools.
+  mental_damage: Your AI assistant can now generate UUIDs and decode JWTs for you, ensuring that even the simplest terminal commands are now mediated by a model context protocol server.
   tags:
     - mcp
     - developer-tools
     - utilities
-    - local-first
+    - local
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server providing tooling infrastructure for AI assistants, which clearly fits the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server exposing developer utilities, which fits squarely into MCP Servers & Tooling as a generic server implementation.
   evidence:
-    - Repo description explicitly states it is 'An open-source DevUtils MCP Server' with 36 tools for AI assistants.
-    - README confirms it integrates with Claude, Cursor, VS Code, and Windsurf via the Model Context Protocol.
-    - Listed under 'Server Implementations > Developer Tools' in the awesome-mcp-servers directory.
+    - Repo description explicitly states it is 'An open-source DevUtils MCP Server' with 36 tools for MCP-compatible AI assistants.
+    - README emphasizes MCP compatibility and provides setup instructions for Claude, Cursor, VS Code, and Windsurf as MCP clients.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with the MCP servers category.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.102Z"
+    updated_at: "2026-05-06T22:45:46.905Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:38.955Z"
+    updated_at: "2026-05-06T23:20:38.476Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

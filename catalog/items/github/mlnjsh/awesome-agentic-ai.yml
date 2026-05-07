@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mlnjsh__awesome-agentic-ai__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -44,49 +44,50 @@ metadata:
       - llm
       - multi-agent
       - research
-    last_checked_at: "2026-05-05T21:03:43.839Z"
+    last_checked_at: "2026-05-06T22:45:22.141Z"
     readme:
-      fetched_at: "2026-05-05T21:03:43.839Z"
+      fetched_at: "2026-05-06T22:45:22.141Z"
       bytes: 11354
 insights:
-  summary: A curated awesome list of frameworks, papers, tools, and resources for building autonomous AI agents.
-  why_it_matters: It serves as a structured map through the rapidly expanding and chaotic ecosystem of agentic AI libraries and research.
-  mental_damage: "Just what the ecosystem needed: another list to star and ignore while you manually glue LangChain to a vector database for the third time this month."
+  summary: A curated awesome list collecting frameworks, papers, tools, and resources for building autonomous AI agents and multi-agent systems.
+  why_it_matters: Developers can use it as a navigation map to discover established agent frameworks, architectures, and evaluation benchmarks without wading through the broader ecosystem noise.
+  mental_damage: Yet another taxonomy of agentic ambition, carefully organized so you can feel productive while postponing the realization that your own agent still can't reliably run a linter.
   tags:
     - awesome-list
     - agentic-ai
     - multi-agent
     - resources
+    - directory
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list of AI resources and tools, which fits the awesome-awesomes category as a navigation aid for developers.
+  reason: The repository is a curated discovery and navigation aid for agentic AI tooling, which fits the Lists & Directories category.
   evidence:
-    - Repo description explicitly states 'A curated list of Agentic AI frameworks, papers, tools, and resources'.
-    - README is structured as an awesome list with sections for Frameworks, Papers, and Architectures rather than a functional tool.
-    - Listed in the 'awesome-agent-orchestration' source list under 'Related Awesome Lists'.
+    - Repo description states it is 'A curated list of Agentic AI frameworks, papers, tools, and resources'.
+    - README excerpt structures the content as a categorized awesome list with frameworks, architectures, and papers.
+    - Source-list context already places it in 'awesome-agent-orchestration' as a related awesome list.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:43.839Z"
+    updated_at: "2026-05-06T22:45:22.142Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:29.530Z"
+    updated_at: "2026-05-06T23:14:53.876Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

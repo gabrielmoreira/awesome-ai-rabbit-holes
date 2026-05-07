@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nckhemanth0__subscription-tracker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:51.715Z"
+    last_checked_at: "2026-05-06T22:45:29.829Z"
     readme:
-      fetched_at: "2026-05-05T21:03:51.715Z"
+      fetched_at: "2026-05-06T22:45:29.829Z"
       bytes: 1945
 insights:
-  summary: A personal MCP server that connects Gmail and MySQL to let Claude Desktop track, extract, and alert on software subscriptions.
-  why_it_matters: It demonstrates how developers can build domain-specific MCP servers to give coding assistants structured access to personal data sources like email and databases.
-  mental_damage: "We have successfully built an AI pipeline to solve the most harrowing problem of our time: forgetting which $9.99 SaaS experiments we signed up for three months ago."
+  summary: A personal MCP server that connects Gmail and MySQL to Claude Desktop to track subscriptions, detect billing anomalies, and surface renewal alerts.
+  why_it_matters: It gives developers a practical template for wiring everyday personal data sources into Claude Desktop via MCP tools and persistent storage.
+  mental_damage: Nothing says peak engineering leverage like building a database-backed server, OAuth flow, and AI pipeline just to remember you’re still paying for Netflix.
   tags:
     - mcp
-    - claude-desktop
     - gmail
-    - mysql
+    - finance
+    - claude-desktop
+    - personal-automation
   confidence: medium
 curation:
   status: included
-  reason: The project is a Model Context Protocol server that integrates external data sources (Gmail, MySQL) for use with an AI assistant, fitting squarely into MCP tooling.
+  reason: The product’s primary identity is an MCP server exposing 16 tools to Claude Desktop, with MCP configuration front and center in the README and placement in awesome-mcp-servers.
   evidence:
-    - README explicitly labels it a 'Professional MCP server for intelligent subscription management'.
-    - Includes instructions for configuring the server within Claude Desktop's mcpServers config.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - README centers on configuring Claude Desktop via mcpServers and running an MCP server (src/mcp_server.py).
+    - README explicitly describes '16 MCP Tools' and positions the project as a 'Professional MCP server'.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:51.715Z"
+    updated_at: "2026-05-06T22:45:29.829Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:02.110Z"
+    updated_at: "2026-05-06T23:16:44.479Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

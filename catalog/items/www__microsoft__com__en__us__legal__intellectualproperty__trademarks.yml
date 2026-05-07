@@ -1,12 +1,12 @@
 id: www__microsoft__com__en__us__legal__intellectualproperty__trademarks
 kind: website
-name: Microsoft's Trademark & Brand Guidelines
+name: trademarks
 canonical_url: https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__microsoft__com__en__us__legal__intellectualproperty__trademarks__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Microsoft's official trademark and brand guidelines page detailing how third parties may legally reference Microsoft's trademarks, product names, and brand assets.
-  why_it_matters: Developers building on Azure, Teams, or Copilot need to understand these rules to avoid legal issues when naming apps, writing documentation, or marketing integrations.
-  mental_damage: The same ecosystem that encourages you to 'build on Azure' also maintains a 5,000-word document explaining exactly how you're not allowed to say you built on Azure.
+  summary: Microsoft's official trademark and brand guidelines page detailing how developers and partners can legally reference Microsoft product names and logos.
+  why_it_matters: Developers building integrations, apps, or marketing materials for Microsoft ecosystems need to follow these rules to avoid legal action.
+  mental_damage: The only thing more inevitable than a new AI copilot launch is the ensuing wave of trademark takedowns for anyone who forgets to write 'Microsoft' as an adjective.
   tags:
-    - branding
-    - guidelines
     - legal
+    - guidelines
     - microsoft
+    - branding
   confidence: high
 curation:
   status: excluded
-  reason: This is a legal policy page, not an AI tool, developer workflow product, or technical resource relevant to the catalog's scope.
+  reason: This is a legal policy page, not a developer tool, agent, framework, or product, and therefore falls outside the catalog's scope of practical AI tooling.
   evidence:
-    - The URL and scraped content resolve to Microsoft's trademark and brand guidelines page, not a developer tool.
-    - Source-list context shows it appears in awesome-copilot under a 'Trademarks' section for legal compliance, not as a tool.
-    - No AI capabilities, coding features, app-building functionality, or developer infrastructure are present.
+    - The URL resolves to a Microsoft Legal page for Trademark and Brand Guidelines, not a software project.
+    - Appears in awesome-copilot only as a reference link for legal compliance, not as a functional skill or tool.
+    - No repository description, code, stars, or software artifacts exist for this entry.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:59.425Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:16.584Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

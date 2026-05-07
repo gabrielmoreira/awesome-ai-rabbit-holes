@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pantheon-security__chrome-mcp-secure__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3
+    stars: 4
     forks: 1
     license: MIT
     archived: false
@@ -47,50 +47,50 @@ metadata:
       - post-quantum
       - security
       - typescript
-    last_checked_at: "2026-05-05T21:04:11.669Z"
+    last_checked_at: "2026-05-06T22:45:47.562Z"
     readme:
-      fetched_at: "2026-05-05T21:04:11.669Z"
+      fetched_at: "2026-05-06T22:45:47.562Z"
       bytes: 20185
 insights:
-  summary: A security-hardened Model Context Protocol server that enables AI agents to automate and debug web interactions via Google Chrome with enterprise-grade audit logging and post-quantum encryption.
-  why_it_matters: It allows development teams to safely hand browser automation tasks to AI agents in corporate environments by adding tamper-proof audit trails, SIEM integration, and PII redaction.
-  mental_damage: Your AI agent is now SOC 2 compliant, yet you still have to explain to the security team why it spent four hours clicking through the internal Jira.
+  summary: A security-hardened fork of Chrome MCP that gives AI agents compliant, audit-ready access to Google Chrome for browser automation with post-quantum encryption and SIEM integration.
+  why_it_matters: Developers building AI agents that interact with browsers in enterprise environments can adopt this MCP server to meet SOC 2, GDPR, and PCI DSS requirements without rolling their own audit logging.
+  mental_damage: We have reached the point where our AI agents need post-quantum encryption and hash-chained audit logs just to click buttons in Chrome, because apparently the browser automation apocalypse must be compliance-ready.
   tags:
     - mcp
     - browser-automation
     - security
-    - chrome
     - enterprise
+    - chrome
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation designed to allow AI agents to control Chrome, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is a Model Context Protocol server for Chrome automation, and it is already recognized in the awesome-mcp-servers list under Browser Automation.
   evidence:
-    - Repo description explicitly states 'Secure ChromeMCP Server', implementing the Model Context Protocol.
-    - Listed in the 'awesome-mcp-servers' directory under 'Browser Automation' implementations.
-    - README details MCP-specific features like tool execution logging and CEF/Syslog integration for SIEM.
+    - Repo description explicitly states 'Secure ChromeMCP Server' with MCP listed as a core topic.
+    - README identifies it as an MCP server with 'MCP-2025' badge and positions it as a fork of lxe/chrome-mcp.
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:11.669Z"
+    updated_at: "2026-05-06T22:45:47.562Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:45.430Z"
+    updated_at: "2026-05-06T23:20:43.061Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

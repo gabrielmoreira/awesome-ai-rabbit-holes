@@ -1,13 +1,13 @@
 id: github__ailabstw__harmonia
 kind: github-repo
-name: Harmonia
+name: harmonia
 canonical_url: https://github.com/ailabstw/harmonia
 identity:
   github_repo: ailabstw/harmonia
 provenance:
   discoveries:
     - id: discovery__github__ailabstw__harmonia__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -32,27 +32,27 @@ metadata:
     description: Federated Learning Made Easy
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:55.570Z"
+    last_checked_at: "2026-05-06T22:12:31.049Z"
     readme:
-      fetched_at: "2026-05-05T21:00:55.570Z"
+      fetched_at: "2026-05-06T22:12:31.049Z"
       bytes: 2166
 insights:
-  summary: Harmonia is an open-source system and SDK designed to simplify the adoption of federated learning for research and production using a GitOps-inspired architecture.
-  why_it_matters: It allows developers to integrate existing ML workflows into a federated architecture using containerized applications and git-based state management.
-  mental_damage: Just when you thought GitOps had successfully colonized every corner of infrastructure, it now wants to manage your decentralized neural network weights too.
+  summary: Harmonia is an open-source system and SDK for simplifying the adoption of federated learning via container-based architecture and GitOps-style automation.
+  why_it_matters: It allows developers and researchers to plug existing ML workflows into a federated architecture using operators and gRPC-based application containers without rebuilding training pipelines.
+  mental_damage: Just when you thought orchestrating agents was complex enough, we’ve decided to distribute the training data too, turning your GitOps pipeline into a federated learning coordinator.
   tags:
     - federated-learning
+    - mlops
     - gitops
-    - ml-ops
     - sdk
   confidence: high
 curation:
   status: excluded
-  reason: The project is a machine learning infrastructure tool for federated learning, focusing on model training distribution rather than AI-assisted software development workflows.
+  reason: The project is focused on federated learning infrastructure and ML model training rather than AI-powered developer tooling, coding agents, or prompt engineering.
   evidence:
-    - Repo description explicitly states 'Federated Learning Made Easy', targeting ML researchers.
-    - README describes a system for collaborative ML model building using GitOps and containerized training applications.
-    - Last push was in 2020, indicating the project is inactive and predates the modern AI developer tooling wave.
+    - Repo description explicitly states 'Federated Learning Made Easy', targeting ML researchers rather than developers building software.
+    - README describes a system for collaborative ML model building using operators, gRPC, and GitOps, with no mention of coding assistance or developer workflows.
+    - Last push was in September 2020, indicating the project is inactive and focused on traditional ML rather than modern AI developer tooling.
 placement:
   primary_category: null
   section: null
@@ -60,21 +60,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:55.725Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:55.570Z"
+    updated_at: "2026-05-06T22:12:31.049Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:49.883Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

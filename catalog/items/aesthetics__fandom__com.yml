@@ -1,12 +1,12 @@
 id: aesthetics__fandom__com
 kind: website
-name: Aesthetics Wiki
+name: aesthetics.fandom.com
 canonical_url: https://aesthetics.fandom.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aesthetics__fandom__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,20 +35,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Fandom wiki documenting aesthetic subcultures, styles, and visual themes.
-  why_it_matters: It is a reference site for art history that provides no developer tooling, APIs, or programmable surfaces.
-  mental_damage: We have reached the point where a static wiki about visual vibes is being logged as 'Art & Culture' infrastructure for AI agent protocols.
+  summary: A Fandom wiki dedicated to documenting and cataloging visual aesthetics, subcultures, and related imagery.
+  why_it_matters: It does not matter to developers as a tool, workflow, or piece of infrastructure.
+  mental_damage: We have successfully reached the point where a wiki about cottagecore and dreamcore is being treated as a legitimate MCP server candidate.
   tags:
-    - non-dev-tool
+    - not-a-tool
     - wiki
+    - off-topic
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-interest wiki about aesthetic subcultures and contains no developer-facing tooling, MCP server implementation, or programmable interface relevant to the catalog.
+  reason: This is a general-purpose wiki for art and culture aesthetics, not a developer-facing AI tool, agent, framework, or infrastructure component.
   evidence:
-    - URL is aesthetics.fandom.com, a wiki for aesthetic subcultures with no developer tooling angle.
-    - No repo description, README, stars, or code indicators provided; no executable or installable toolkit exists.
-    - Listed in awesome-mcp-servers only as a placeholder or broken link under 'Art & Culture', not as a functional server.
+    - URL is aesthetics.fandom.com, a generic wiki site with no developer tooling identity.
+    - No repository description, README, or code context provided; only listed in awesome-mcp-servers under 'Art & Culture'.
+    - "Fails all catalog scope signals: not an agent, IDE, extension, framework, or developer infrastructure."
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:16.751Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:16.443Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

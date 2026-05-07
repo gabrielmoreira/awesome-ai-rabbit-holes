@@ -1,12 +1,12 @@
 id: docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html
 kind: website
-name: Amazon Q Developer CLI
+name: command-line.html
 canonical_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon Q Developer for command line provided AI-powered autocompletion, natural language chat, and code generation for popular CLIs, but this specific product page now redirects to the Kiro CLI.
-  why_it_matters: It attempted to streamline terminal workflows by turning natural language into executable commands and code, reducing the need to memorize hundreds of CLI flags.
-  mental_damage: Just when you memorized the Amazon Q CLI flags, AWS gracefully sunsets it into Kiro, proving that in modern cloud tooling, the only constant is the migration guide.
+  summary: Amazon Q Developer's command-line tooling has been sunset and migrated into the Kiro CLI, replacing the standalone terminal assistant.
+  why_it_matters: Developers looking for AI-powered CLI assistance need to know the Q CLI is no longer the active target and should onboard with Kiro instead.
+  mental_damage: You finally embraced an AWS AI CLI just in time to learn that 'generally available' now means 'please migrate before the docs rot.'
   tags:
-    - aws
     - cli
+    - amazon-q
     - sunset
     - terminal
   confidence: high
 curation:
   status: excluded
-  reason: The product page explicitly states the Q CLI has become the Kiro CLI, meaning this specific documentation is deprecated and no longer represents the active tool to be cataloged.
+  reason: This is a documentation page announcing the migration and shutdown of a product, not a standalone tool or active product to include in the catalog.
   evidence:
-    - "Documentation page states: 'The Q CLI has become the Kiro CLI. For more information, see the Kiro User Guide.'"
-    - The linked URL is a redirect/migration notice rather than an active product feature page.
+    - The page explicitly states 'The Q CLI has become the Kiro CLI' and redirects to the Kiro User Guide.
+    - The URL is a documentation page (docs.aws.amazon.com) rather than a product repo or installable tool.
+    - No active product exists here to evaluate; the entity is a redirect notice, not a CLI agent.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:54.075Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:21.090Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

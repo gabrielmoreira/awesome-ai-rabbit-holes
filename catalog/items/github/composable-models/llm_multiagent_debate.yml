@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__composable-models__llm_multiagent_debate__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -32,27 +32,28 @@ metadata:
     description: "ICML 2024: Improving Factuality and Reasoning in Language Models through Multiagent Debate"
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:39.765Z"
+    last_checked_at: "2026-05-06T22:43:26.693Z"
     readme:
-      fetched_at: "2026-05-05T21:01:39.765Z"
+      fetched_at: "2026-05-06T22:43:26.693Z"
       bytes: 2627
 insights:
-  summary: A research codebase implementing the ICML 2024 paper 'Improving Factuality and Reasoning in Language Models through Multiagent Debate' for running evaluations on math, biography, and MMLU tasks.
-  why_it_matters: It provides a concrete implementation for developers and researchers looking to experiment with multiagent debate strategies to improve LLM reasoning and factuality.
-  mental_damage: Yet another academic repo proving that if you make two models argue long enough, one of them eventually stumbles onto the correct answer, saving us the trouble of actually understanding the math.
+  summary: A preliminary research implementation of the ICML 2024 paper 'Improving Factuality and Reasoning in Language Models through Multiagent Debate' for running experiments on math, biography, and MMLU tasks.
+  why_it_matters: Provides a reference implementation for developers exploring multiagent debate patterns to improve LLM reasoning and reduce hallucinations in their own agentic systems.
+  mental_damage: Yet another repo offering the architectural insight that if you make two models argue long enough, one of them eventually sounds confident enough to be fact-checked by the other.
   tags:
     - multiagent
     - research
-    - llm-reasoning
-    - evaluation
+    - reasoning
+    - llm
+    - debate
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because this is an academic research implementation and evaluation harness for a specific paper, not a practical developer tool, agent orchestration platform, or framework for building production software.
+  reason: This is a research paper implementation and evaluation harness rather than a practical developer tool, framework, or agent product for building software.
   evidence:
-    - Repo description explicitly states it is an 'ICML 2024' paper implementation, not a tool.
-    - README details running experiments on arithmetic, GSM, biographies, and MMLU rather than building applications.
-    - Listed in awesome-ai-agents under 'Multiagent Debate' as a research concept rather than a usable agent product.
+    - Repo description explicitly states this is an ICML 2024 paper implementation ('Improving Factuality and Reasoning in Language Models through Multiagent Debate').
+    - README shows the primary purpose is running academic experiments across math, GSM, biography, and MMLU tasks with generate and evaluate scripts.
+    - Listed in awesome-ai-agents under 'Multiagent Debate' section as a research reference, not as a usable developer product.
 placement:
   primary_category: null
   section: null
@@ -62,19 +63,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:39.765Z"
+    updated_at: "2026-05-06T22:43:26.693Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:08.053Z"
+    updated_at: "2026-05-06T22:50:20.132Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

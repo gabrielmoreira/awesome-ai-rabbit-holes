@@ -1,13 +1,13 @@
 id: github__pipelex__pipelex
 kind: github-repo
-name: Pipelex
+name: pipelex
 canonical_url: https://github.com/pipelex/pipelex
 identity:
   github_repo: pipelex/pipelex
 provenance:
   discoveries:
     - id: discovery__github__pipelex__pipelex__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-05-26T07:21:34Z"
-    pushed_at: "2026-05-05T14:16:50Z"
+    pushed_at: "2026-05-06T19:35:11Z"
     description: Declarative language for composable Al workflows. Devtool for agents and mere humans.
     homepage: https://pipelex.com
     topics:
@@ -42,44 +42,50 @@ metadata:
       - orchestration
       - pipeline
       - workflows
-    last_checked_at: "2026-05-05T23:08:06.211Z"
+    last_checked_at: "2026-05-06T22:45:53.731Z"
     readme:
-      fetched_at: "2026-05-05T23:08:06.211Z"
+      fetched_at: "2026-05-06T22:45:53.731Z"
       bytes: 21702
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A declarative DSL and CLI for defining typed, reusable AI procedures (methods) that handle model routing, structured outputs, and pipeline orchestration across 60+ models.
+  why_it_matters: It lets teams codify AI workflows into version-controlled .mthds files, making prompt logic composable, repeatable, and portable across different coding agents.
+  mental_damage: "Just what we needed: yet another layer of abstraction where your prompts get their own file extension and a dedicated syntax before the model even sees them."
+  tags:
+    - dsl
+    - workflow
+    - orchestration
+    - cli
+    - methods
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product is a code-first DSL and CLI toolkit for building AI workflows, fitting the framework/sdk model where developers script against a defined syntax rather than operating a control plane.
+  evidence:
+    - "Repo description: 'Declarative language for composable AI workflows. Devtool for agents and mere humans.'"
+    - README shows a TOML-based DSL for defining pipes and methods executed by the Pipelex CLI.
+    - Topic tags include dsl, workflow, pipeline, and orchestration; source list places it under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (663) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:06.211Z"
+    updated_at: "2026-05-06T22:45:53.731Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:02.648Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

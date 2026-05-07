@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__samrothschild23__intelligence-api__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-23T07:28:42Z"
+    pushed_at: "2026-04-03T02:38:44Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:16.281Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:16.281Z"
+      bytes: 7659
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An x402-powered API server that provides Shopify, Amazon, and Google Maps intelligence endpoints, monetized via per-call USDC micropayments on Base.
+  why_it_matters: It offers AI agents a frictionless way to purchase structured e-commerce and lead data without API keys or human billing loops.
+  mental_damage: Your autonomous agent can now independently burn stablecoins to scrape Shopify themes and Amazon opportunity scores while you sleep.
+  tags:
+    - mcp
+    - e-commerce
+    - x402
+    - micropayments
+    - api
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project explicitly brands itself as an MCP server with an x402 payment protocol, providing commerce data endpoints for AI agents.
+  evidence:
+    - Readme includes an MCP Server badge linking to Glama MCP servers.
+    - Source list context confirms inclusion in awesome-mcp-servers under E-Commerce.
+    - Endpoints return structured Shopify, Amazon, and Google Maps data designed for agent consumption.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:16.281Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:59.115Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

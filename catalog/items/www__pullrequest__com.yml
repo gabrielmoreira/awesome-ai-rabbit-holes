@@ -1,12 +1,12 @@
 id: www__pullrequest__com
 kind: website
-name: PullRequest
+name: www.pullrequest.com
 canonical_url: https://www.pullrequest.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__pullrequest__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A code security service that combines proprietary AI filtering with human expert validation to review pull requests and catch vulnerabilities before production.
-  why_it_matters: It integrates directly into existing SCM workflows to provide remediation guidance and security audits without requiring developers to leave their current tools.
-  mental_damage: Yet another service promising to automate the boring parts of code review, while still requiring a human to validate that the AI didn't hallucinate the vulnerability in the first place.
+  summary: HackerOne Code (formerly PullRequest) is a code review platform that combines proprietary AI and human expert validation to identify and remediate security vulnerabilities within existing SCM workflows.
+  why_it_matters: It aims to automate the initial triage of security risks while providing developers with actionable remediation guidance directly inside their pull requests.
+  mental_damage: Because what every overworked developer really craves is an AI filtering system that lets human security contractors leave comments about your vulnerabilities right inside the PR.
   tags:
-    - ai-review
     - code-review
-    - pull-request
     - security
+    - ai-review
+    - static-analysis
   confidence: high
 curation:
   status: included
-  reason: It functions as an AI agent that reviews code, identifies security risks, and provides feedback directly within the developer's PR workflow, fitting the coding-agents definition.
+  reason: The platform functions as an automated agent that reviews code diffs for security vulnerabilities and provides remediation guidance, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring'.
-    - Proprietary AI (Hai) identifies high-risk code changes and provides remediation guidance within SCM tools.
-    - Combines AI review with human validation to catch vulnerabilities in the development workflow.
+    - Source list 'awesome-ai-coding-tools' categorizes it under 'Code Review and Refactoring'.
+    - Site claims 'AI-powered security intelligence' identifies high-risk code changes for expert validation.
+    - Product description focuses on delivering 'remediation guidance to developers within the tools they already use' via automated review.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:44.697Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:07.771Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

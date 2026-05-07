@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ai-for-developers__awesome-ai-coding-tools__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1699
-    forks: 314
+    stars: 1700
+    forks: 317
     license: MIT
     archived: false
     created_at: "2025-06-27T13:08:36Z"
@@ -52,49 +52,49 @@ metadata:
       - cursor-ai
       - vibe-coding
       - workflow
-    last_checked_at: "2026-05-05T21:00:54.796Z"
+    last_checked_at: "2026-05-06T22:12:30.076Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.796Z"
+      fetched_at: "2026-05-06T22:12:30.076Z"
       bytes: 39452
 insights:
-  summary: A curated awesome list that catalogs AI-powered coding tools, including editors, agents, completion engines, and related infrastructure for software developers.
-  why_it_matters: It provides a structured map of the rapidly expanding AI coding ecosystem, helping developers discover tools for editing, reviewing, and building with AI.
-  mental_damage: AnotherMetaList™ to bookmark and never revisit, sitting quietly atop your 'ai-coding', 'awesome-ai', and 'vibe-coding' tag soup while the tools inside it multiply faster than you can evaluate them.
+  summary: A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers.
+  why_it_matters: It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
+  mental_damage: Another navigation aid for the paradox of choice, ensuring you can spend three hours researching tools instead of actually writing code with them.
   tags:
     - awesome-list
     - directory
-    - ai-coding
-    - meta-list
+    - ai-tools
+    - curation
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/meta-list of AI developer tools rather than a standalone tool itself, which fits the awesome-awesomes category.
+  reason: This is a curation and discovery resource, not a standalone product, fitting the Lists & Directories category perfectly.
   evidence:
-    - "Repo description states: 'A curated list of AI-powered coding tools'."
-    - README structures the content as a categorized index with sections like 'Code Editors and Assistants' and 'Coding Agents'.
-    - The project is explicitly a 'Direct awesome list source' and carries topics like 'awesome-list' and 'awesome-ai'.
+    - Repo description explicitly states 'A curated list of AI-powered coding tools'.
+    - README organizes tools into sections like 'Code Editors', 'Coding Agents', and 'MCP Servers'.
+    - Marked as a 'Direct awesome list source' with the sindresorhus/awesome badge.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1699) exceeded threshold (150)
+  reason: Stars (1700) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.573Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.796Z"
+    updated_at: "2026-05-06T22:12:30.076Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:46.267Z"
+    updated_at: "2026-05-06T22:19:41.821Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

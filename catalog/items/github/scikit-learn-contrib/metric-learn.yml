@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scikit-learn-contrib__metric-learn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1434
+    forks: 232
+    license: MIT
+    archived: false
+    created_at: "2013-11-02T08:29:47Z"
+    pushed_at: "2026-03-19T21:11:11Z"
+    description: Metric learning algorithms in Python
+    homepage: http://contrib.scikit-learn.org/metric-learn/
+    topics:
+      - machine-learning
+      - metric-learning
+      - python
+      - scikit-learn
+    last_checked_at: "2026-05-06T22:46:18.272Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:18.272Z"
+      bytes: 3748
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A scikit-learn compatible Python library providing efficient implementations of supervised and weakly-supervised metric learning algorithms like LMNN, NCA, and ITML.
+  why_it_matters: It offers developers a standardized, pipelined API to improve distance-based models and nearest-neighbor tasks without leaving the familiar scikit-learn ecosystem.
+  mental_damage: Yet another reminder that while we're prompting agents to write code, the underlying ML fundamentals still require us to manually tune distance metrics like it's 2013.
+  tags:
+    - metric-learning
+    - scikit-learn
+    - python
+    - machine-learning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a traditional machine learning library for metric learning algorithms, not a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description and README define it as 'Metric learning algorithms in Python' compatible with scikit-learn.
+    - Topics and dependencies (numpy, scipy, scikit-learn) confirm it is a classical ML library, not an AI developer tool.
+    - Source list placement is in 'Training > Frameworks for Training', which aligns with ML research rather than the catalog's scope of AI dev tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1434) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:18.272Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:25.027Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

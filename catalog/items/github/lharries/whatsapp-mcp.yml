@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lharries__whatsapp-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5578
-    forks: 1020
+    stars: 5580
+    forks: 1019
     license: MIT
     archived: false
     created_at: "2025-03-29T12:49:33Z"
@@ -37,50 +37,50 @@ metadata:
       - mcp
       - whatsapp
       - whatsapp-api
-    last_checked_at: "2026-05-05T21:03:19.482Z"
+    last_checked_at: "2026-05-06T22:44:58.452Z"
     readme:
-      fetched_at: "2026-05-05T21:03:19.482Z"
+      fetched_at: "2026-05-06T22:44:58.452Z"
       bytes: 9025
 insights:
-  summary: An MCP server that bridges personal WhatsApp accounts with AI assistants like Claude, enabling message search, contact lookup, and media-aware messaging via the WhatsApp web multidevice API.
-  why_it_matters: Developers can wire their personal WhatsApp graph directly into local AI workflows, letting agents search history, send messages, and handle media without leaving the IDE or CLI.
-  mental_damage: We’ve finally solved the hard problem of letting a coding agent send WhatsApp voice notes, which is absolutely the missing piece in every production incident response plan.
+  summary: An MCP server that connects an LLM to a personal WhatsApp account via the WhatsApp web multidevice API, enabling message search, contact lookup, and sending media through tools like Claude Desktop or Cursor.
+  why_it_matters: It lets developers wire their personal WhatsApp graph directly into coding assistants so agents can query history, pull media, and send messages without leaving the IDE.
+  mental_damage: We have finally closed the loop where your CI failures and your group chat drama can now be processed by the same context window.
   tags:
     - mcp
     - whatsapp
+    - integration
+    - assistant-tooling
     - messaging
-    - bridge
-    - local-ai
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server implementation, directly matching the MCP Servers and Tooling category by exposing WhatsApp as a tool provider for AI assistants.
+  reason: The product is an MCP server that connects WhatsApp as a domain-specific tool for LLMs, which fits the MCP category's server identity and section guidance.
   evidence:
-    - "Repo description: 'WhatsApp MCP server' and README confirms it implements the Model Context Protocol."
-    - Listed in awesome-mcp-servers under Server Implementations > Communication, confirming ecosystem fit.
-    - Actively maintained (pushed 2025-07-13) with ~5.5k stars and MIT license, not archived.
+    - Repo description and README explicitly define it as 'WhatsApp MCP server' implementing the Model Context Protocol.
+    - README shows it is configured as an MCP server in Claude Desktop and Cursor via claude_desktop_config.json / mcp.json.
+    - Included in awesome-mcp-servers under 'Server Implementations > Communication', confirming domain server positioning.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5578) exceeded threshold (150)
+  reason: Stars (5580) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:19.482Z"
+    updated_at: "2026-05-06T22:44:58.452Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:49.111Z"
+    updated_at: "2026-05-06T23:09:21.930Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

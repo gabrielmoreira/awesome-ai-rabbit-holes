@@ -1,0 +1,94 @@
+id: github__blaizzy__mlx-vlm
+kind: github-repo
+name: mlx-vlm
+canonical_url: https://github.com/blaizzy/mlx-vlm
+identity:
+  github_repo: blaizzy/mlx-vlm
+provenance:
+  discoveries:
+    - id: discovery__github__blaizzy__mlx-vlm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: MLX-VLM
+        extracted_url: https://github.com/blaizzy/mlx-vlm
+        surrounding_text: "42. [MLX-VLM](https://github.com/Blaizzy/mlx-vlm): MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX."
+        confidence: high
+metadata:
+  github:
+    stars: 4615
+    forks: 515
+    license: MIT
+    archived: false
+    created_at: "2024-04-16T15:10:12Z"
+    pushed_at: "2026-05-06T21:08:54Z"
+    description: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
+    homepage: ""
+    topics:
+      - apple-silicon
+      - florence2
+      - idefics
+      - llava
+      - llm
+      - local-ai
+      - mlx
+      - molmo
+      - paligemma
+      - pixtral
+      - vision-framework
+      - vision-language-model
+      - vision-transformer
+    last_checked_at: "2026-05-06T22:12:54.392Z"
+    readme:
+      fetched_at: "2026-05-06T22:12:54.392Z"
+      bytes: 42578
+insights:
+  summary: A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework.
+  why_it_matters: It allows developers on Apple hardware to experiment with and deploy multimodal capabilities, like OCR and image understanding, without leaving their local machine.
+  mental_damage: Finally, the power to run a 70 billion parameter model that hallucinates about your vacation photos is optimized for your laptop's cooling fan.
+  tags:
+    - local-ai
+    - vision
+    - mlx
+    - apple-silicon
+    - fine-tuning
+  confidence: high
+curation:
+  status: included
+  reason: This is a library and runtime tool specifically designed for local execution of AI models (VLMs) on Apple hardware, fitting the Local AI profile.
+  evidence:
+    - Repo description explicitly states it is for 'inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.'
+    - README highlights a Server (FastAPI) option and CLI usage, indicating it serves as a local runtime/serving layer.
+    - Topics include 'local-ai' and 'apple-silicon', aligning with the catalog's Local AI scope.
+placement:
+  primary_category: local-ai
+  section: Local Runtimes
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4615) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.605Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:12:54.392Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:24:32.952Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

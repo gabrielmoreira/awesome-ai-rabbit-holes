@@ -1,13 +1,13 @@
 id: github__litanlitudan__skyagi
 kind: github-repo
-name: SkyAGI
+name: skyagi
 canonical_url: https://github.com/litanlitudan/skyagi
 identity:
   github_repo: litanlitudan/skyagi
 provenance:
   discoveries:
     - id: discovery__github__litanlitudan__skyagi__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -38,28 +38,28 @@ metadata:
       - langchain
       - language-model
       - llm
-    last_checked_at: "2026-05-05T21:03:21.515Z"
+    last_checked_at: "2026-05-06T22:45:00.763Z"
     readme:
-      fetched_at: "2026-05-05T21:03:21.515Z"
+      fetched_at: "2026-05-06T22:45:00.763Z"
       bytes: 3705
 insights:
-  summary: SkyAGI is a Python package that uses LangChain and LLMs to simulate believable human behaviors and role-play characters based on the Generative Agents research paper.
-  why_it_matters: It provides a reference implementation for developers exploring agent memory, NPC scripting, and human-like simulation loops within the LangChain ecosystem.
-  mental_damage: Another opportunity to spend three hours configuring Sheldon Cooper's personality traits only to watch two LLMs argue about hiking while you have actual bugs to fix.
+  summary: SkyAGI is a Python package that implements the Generative Agents paper to simulate believable human behaviors and role-playing NPCs using LLMs.
+  why_it_matters: It demonstrates practical techniques for building stateful, memory-driven agents that could reshape how developers approach NPC scripting and interactive storytelling.
+  mental_damage: We are now meticulously engineering the inner monologues of Sheldon Cooper while our own commit messages remain 'fix stuff'.
   tags:
     - agents
-    - langchain
-    - llm
-    - npc
     - simulation
+    - langchain
+    - npc
+    - gaming
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a research demo for human-behavior simulation and NPC role-playing, not a practical tool for software development workflows like coding, infrastructure, or app building.
+  reason: While it is a developer-facing Python package, its primary focus is human-behavior simulation and gaming NPCs rather than tools for writing, debugging, or managing software development workflows.
   evidence:
-    - Repo description explicitly states 'Emerging human-behavior simulation capability in LLM'.
-    - README focuses on role-playing game demos with characters from The Big Bang Theory and The Avengers, not developer tooling.
-    - Listed in awesome-langchain under 'Tools > Agents' specifically for agent simulations, not coding assistance.
+    - Repo description explicitly states 'simulation capability in LLM' and 'human-behavior simulation'.
+    - README focuses on role-playing games, NPCs, and character configs (Sheldon, The Avengers), not code editing.
+    - Last push was in September 2023, showing it is not aligned with the current surge in developer productivity tooling.
 placement:
   primary_category: null
   section: null
@@ -67,21 +67,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (780) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:09.373Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:21.515Z"
+    updated_at: "2026-05-06T22:45:00.763Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:54.255Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

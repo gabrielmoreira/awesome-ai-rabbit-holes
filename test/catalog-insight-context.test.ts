@@ -8,7 +8,13 @@ const CATEGORIES: Category[] = [
     name: "Coding Agents",
     slug: "coding-agents",
     description: "Tools for coding with AI.",
-    prompt_instruction: "Tools that directly help developers write or review code.",
+    prompt: {
+      instructions: "Tools that directly help developers write or review code.",
+      use_when: ["The product itself is the coding assistant."],
+      do_not_use_when: ["It mainly augments another assistant."],
+      canonical_positives: ["Claude Code"],
+      common_false_positives: ["Cursor"],
+    },
     sections: ["Terminal & CLI Agents"],
   },
 ];
@@ -81,7 +87,6 @@ describe("buildCatalogInsightPrompt", () => {
   it("loads shared readme and source context for repo items", () => {
     let readmeLookup: [string, string] | null = null;
     const prompt = buildCatalogInsightPrompt(makeGitHubItem(), CATEGORIES, {
-      profile: "definition-first",
       deps: {
         readReadmeFromCache: (owner, repo) => {
           readmeLookup = [owner, repo];
@@ -96,6 +101,7 @@ describe("buildCatalogInsightPrompt", () => {
     expect(prompt).toContain("README excerpt (markdown");
     expect(prompt).toContain("Does coding-agent things.");
     expect(prompt).toContain("awesome-list | section: Coding Agents");
+    expect(prompt).toContain("canonical_positives");
   });
 
   it("loads shared website context for website items", () => {

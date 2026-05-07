@@ -1,13 +1,13 @@
 id: github__tensorflow__tensorboard
 kind: github-repo
-name: TensorBoard
+name: tensorboard
 canonical_url: https://github.com/tensorflow/tensorboard
 identity:
   github_repo: tensorflow/tensorboard
 provenance:
   discoveries:
     - id: discovery__github__tensorflow__tensorboard__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 7161
+    forks: 1701
+    license: Apache-2.0
+    archived: false
+    created_at: "2017-05-15T20:08:07Z"
+    pushed_at: "2026-04-23T02:52:27Z"
+    description: TensorFlow's Visualization Toolkit
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:44.584Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:44.584Z"
+      bytes: 21782
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TensorBoard is a suite of web applications for inspecting, visualizing, and comparing TensorFlow model training runs, graphs, and metrics.
+  why_it_matters: It remains the standard offline dashboard for debugging model convergence, hyperparameter tuning, and graph structure in TensorFlow workflows.
+  mental_damage: Because staring at loss curves go down in TensorBoard for three hours is the industry-approved way to feel productive while avoiding actual model architecture work.
+  tags:
+    - tensorflow
+    - visualization
+    - ml-ops
+    - training
+    - debugging
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: TensorBoard is a fundamental machine learning visualization tool for TensorFlow, not a developer-facing AI tool, agent, or infrastructure component for building AI-powered software.
+  evidence:
+    - Repo description explicitly states 'TensorFlow's Visualization Toolkit', focusing on ML training inspection.
+    - README demonstrates it inspects TensorFlow runs, graphs, scalars, histograms, and hyperparams, not coding workflows.
+    - Source list context places it under 'Training > Visualization' in an LLMOps list, which is an ops/ML focus rather than developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (7161) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:44.584Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:17.313Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

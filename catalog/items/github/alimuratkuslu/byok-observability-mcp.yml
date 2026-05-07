@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alimuratkuslu__byok-observability-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:59.763Z"
+    last_checked_at: "2026-05-06T22:12:35.040Z"
     readme:
-      fetched_at: "2026-05-05T21:00:59.763Z"
+      fetched_at: "2026-05-06T22:12:35.040Z"
       bytes: 20639
 insights:
-  summary: An MCP server that lets developers query Grafana, Prometheus, Kafka UI, and Datadog from Claude Code or Codex CLI without sending data outside their machine.
-  why_it_matters: It lets developers interrogate their own observability stack directly from a coding agent, cutting out the context-switch to dashboards during debugging.
-  mental_damage: You can now debug your Prometheus queries with an LLM that occasionally hallucinates metric names, while confidently telling yourself this is definitely more efficient than opening Grafana.
+  summary: An MCP server that lets developers query Grafana, Prometheus, Kafka UI, and Datadog from Claude Code or Codex CLI without sending credentials to a third party.
+  why_it_matters: It gives coding agents secure, local access to observability backends so you can debug incidents and inspect metrics without leaving the assistant context.
+  mental_damage: Another day, another MCP server, because apparently the safest place to store your Datadog API keys is inside a JSON file interpreted by a cheerful local npx process.
   tags:
     - mcp
     - observability
-    - grafana
-    - prometheus
-    - datadog
+    - cli
+    - monitoring
+    - local-first
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server purpose-built to expose observability backends as tools to MCP-compatible coding clients.
+  reason: The product is an MCP server whose primary identity is exposing observability backends to MCP clients; MCP is not a footnote here.
   evidence:
-    - README states it is an MCP server queried from Claude Code and Codex CLI via npx.
-    - Listed under Server Implementations > Monitoring in the awesome-mcp-servers directory.
-    - Supports Grafana, Prometheus, Kafka UI, and Datadog as configurable backends.
+    - "README states: 'Query your observability stack from Claude Code, Codex, or any MCP client' and it is configured as an MCP server in .mcp.json."
+    - Listed in awesome-mcp-servers under Server Implementations > Monitoring, reinforcing its MCP server identity.
+    - Supports Grafana, Prometheus, Kafka UI, and Datadog as local, BYOK-secured MCP tool endpoints.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:59.763Z"
+    updated_at: "2026-05-06T22:12:35.040Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:38.052Z"
+    updated_at: "2026-05-06T22:20:38.491Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

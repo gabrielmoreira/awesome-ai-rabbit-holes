@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tencent__cos-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 33
+    forks: 12
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-04-21T06:25:18Z"
+    pushed_at: "2025-11-14T02:56:32Z"
+    description: 基于 MCP 协议的腾讯云 COS MCP Server，无需编码即可让大模型快速接入腾讯云存储 (COS) 和数据万象 (CI) 能力。
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:42.482Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:42.481Z"
+      bytes: 6888
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Tencent Cloud MCP server that lets AI models upload, download, and process files in COS and CI via the Model Context Protocol.
+  why_it_matters: Developers can wire cloud storage and media processing directly into their MCP-compatible coding assistants without writing glue code.
+  mental_damage: You now have the power to accidentally wipe a production bucket through a polite conversation with your IDE.
+  tags:
+    - mcp
+    - tencent-cloud
+    - cloud-storage
+    - media-processing
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server for Tencent Cloud COS/CI, and MCP is its core identity, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states it is a '腾讯云 COS MCP Server' based on the MCP protocol.
+    - README confirms it exposes cloud storage and media processing (upload, download, image quality assessment, video capture) as MCP tools.
+    - Listed in awesome-mcp-servers under 'Official Servers', confirming ecosystem placement.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:42.482Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:50.885Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

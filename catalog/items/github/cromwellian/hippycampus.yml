@@ -1,13 +1,13 @@
 id: github__cromwellian__hippycampus
 kind: github-repo
-name: Hippycampus
+name: hippycampus
 canonical_url: https://github.com/cromwellian/hippycampus
 identity:
   github_repo: cromwellian/hippycampus
 provenance:
   discoveries:
     - id: discovery__github__cromwellian__hippycampus__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: An (eventually) secure open-source MCP Server to turn any REST endpoint into MCP resources automatically
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:42.970Z"
+    last_checked_at: "2026-05-06T22:43:29.669Z"
     readme:
-      fetched_at: "2026-05-05T21:01:42.970Z"
+      fetched_at: "2026-05-06T22:43:29.669Z"
       bytes: 3808
 insights:
-  summary: A LangChain-based CLI and MCP server that dynamically loads OpenAPI specifications to automatically turn REST endpoints into MCP resources.
-  why_it_matters: It allows developers to quickly wrap existing REST APIs into the Model Context Protocol ecosystem without manually writing server integration code.
-  mental_damage: Another heroic attempt to solve the 'I have 400 REST endpoints and zero MCP servers' problem, ensuring you can automate API calls you probably shouldn't be automating in the first place.
+  summary: A LangChain-based CLI and MCP server that automatically turns OpenAPI specifications into MCP resources for integration with AI agents and visual workflow tools like Langflow.
+  why_it_matters: It lets developers instantly expose any REST API to MCP-compatible assistants without writing custom server code, bridging existing API ecosystems with the growing MCP tooling landscape.
+  mental_damage: Yet another layer of glue so your agent can finally authenticate against that one internal REST endpoint you swore you'd document in 2021.
   tags:
-    - cli
-    - langchain
     - mcp
     - openapi
+    - langchain
     - rest
+    - langflow
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server implementation focused on converting OpenAPI specs into MCP resources, which fits the MCP Servers and Tooling category.
+  reason: MCP server infrastructure is the product's primary identity, automatically converting REST endpoints into MCP resources, and it is already recognized in the awesome-mcp-servers ecosystem.
   evidence:
-    - Repo description explicitly states it is 'an (eventually) secure open-source MCP Server to turn any REST endpoint into MCP resources'.
-    - README confirms it is a 'LangChain-based CLI and MCP server that supports dynamic loading of OpenAPI specifications'.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - Repo description explicitly states it is 'an (eventually) secure open-source MCP Server to turn any REST endpoint into MCP resources automatically'.
+    - README details MCP Server Mode via SSE and integration with Langflow as core runtime modes.
+    - Listed in awesome-mcp-servers under Community Servers, confirming its identity in the MCP ecosystem.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:14:45.244Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:42.970Z"
+    updated_at: "2026-05-06T22:43:29.669Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:50:57.121Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

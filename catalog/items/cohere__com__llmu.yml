@@ -1,0 +1,77 @@
+id: cohere__com__llmu
+kind: website
+name: llmu
+canonical_url: https://cohere.com/llmu
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cohere__com__llmu__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: Cohere LLM University
+        extracted_url: https://cohere.com/llmu
+        surrounding_text: 38. [Cohere LLM University](https://cohere.com/llmu)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LLM University (LLMU) is Cohere's educational hub offering courses, resources, and guides for developers to learn and build with enterprise AI and large language models.
+  why_it_matters: It provides a structured curriculum and expert-led training specifically designed to help technical professionals quickly operationalize Cohere's generative models, embedding tools, and enterprise AI platforms.
+  mental_damage: Just when you thought you had mastered the current stack, a model provider launches a university to ensure your weekend reading list outpaces your ability to ship code.
+  tags:
+    - education
+    - enterprise-ai
+    - llm-training
+    - cohere
+    - courses
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource hub and course platform, not a developer tool, agent, framework, or operational product.
+  evidence:
+    - Site description explicitly calls it a 'learning destination' and 'hub' for courses and guides.
+    - Source list context places it in a 'Course' section of an LLM resources list.
+    - The site focuses on enterprise AI education rather than providing a reusable tool, SDK, or editor integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.660Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:24.009Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

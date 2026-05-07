@@ -1,0 +1,81 @@
+id: github__lordog__dive-into-llms
+kind: github-repo
+name: dive-into-llms
+canonical_url: https://github.com/lordog/dive-into-llms
+identity:
+  github_repo: lordog/dive-into-llms
+provenance:
+  discoveries:
+    - id: discovery__github__lordog__dive-into-llms__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《动手学大模型Dive into LLMs》
+        extracted_url: https://github.com/lordog/dive-into-llms
+        surrounding_text: 3. [《动手学大模型Dive into LLMs》](https://github.com/Lordog/dive-into-llms)
+        confidence: high
+metadata:
+  github:
+    stars: 35949
+    forks: 4396
+    license: null
+    archived: false
+    created_at: "2024-04-08T13:11:40Z"
+    pushed_at: "2025-10-10T06:25:48Z"
+    description: 《动手学大模型Dive into LLMs》系列编程实践教程
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:45:03.393Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:03.393Z"
+      bytes: 11579
+insights:
+  summary: A free, hands-on programming tutorial series (derived from Shanghai Jiao Tong University courses) covering LLM fine-tuning, prompting, knowledge editing, math reasoning, watermarking, jailbreaking, multimodal models, GUI agents, and RLHF alignment.
+  why_it_matters: It provides a structured, code-first curriculum for developers who want to move beyond API calls into model training, safety, and agent internals.
+  mental_damage: Yet another comprehensive curriculum promising to make you an LLM expert before your current stack is deprecated by next Tuesday's paper.
+  tags:
+    - llm
+    - tutorial
+    - fine-tuning
+    - safety
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational course and tutorial repository, not a developer-facing tool, agent, framework, or product, and thus falls outside the catalog's tooling scope.
+  evidence:
+    - Repo description explicitly calls it a '编程实践教程' (programming practice tutorial).
+    - README states the project's goal is to 'provide introductory programming references' and 'help students quickly get started with LLMs' as a public welfare resource.
+    - Source list ('awesome-LLM-resources') categorizes it under '书籍 Book', treating it as a book/tutorial resource rather than tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (35949) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.627Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:03.393Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:10:35.791Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

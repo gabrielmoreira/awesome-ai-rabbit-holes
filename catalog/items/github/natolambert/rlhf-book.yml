@@ -1,0 +1,83 @@
+id: github__natolambert__rlhf-book
+kind: github-repo
+name: rlhf-book
+canonical_url: https://github.com/natolambert/rlhf-book
+identity:
+  github_repo: natolambert/rlhf-book
+provenance:
+  discoveries:
+    - id: discovery__github__natolambert__rlhf-book__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: Textbook on reinforcement learning from human feedback
+        extracted_url: https://github.com/natolambert/rlhf-book
+        surrounding_text: 19. [Textbook on reinforcement learning from human feedback](https://github.com/natolambert/rlhf-book)
+        confidence: high
+metadata:
+  github:
+    stars: 1895
+    forks: 189
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-05-24T17:08:24Z"
+    pushed_at: "2026-05-06T15:27:42Z"
+    description: Textbook on reinforcement learning from human feedback
+    homepage: https://rlhfbook.com/
+    topics:
+      - ai
+      - alignment
+      - rlhf
+    last_checked_at: "2026-05-06T22:45:29.636Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:29.636Z"
+      bytes: 4486
+insights:
+  summary: An open-source textbook and reference code library covering reinforcement learning from human feedback, direct alignment methods, and post-training techniques for language models.
+  why_it_matters: Developers training or fine-tuning their own models get a grounded, code-backed reference for RLHF algorithms instead of piecing together scattered papers and blog posts.
+  mental_damage: Yet another reminder that while we automate writing code, the real wizardry is still hidden behind a 400-page book and a handful of messy reward-model scripts.
+  tags:
+    - rlhf
+    - post-training
+    - llm-resources
+    - education
+  confidence: high
+curation:
+  status: excluded
+  reason: This is educational media and reference material, not a developer-facing tool, agent, framework, or product that fits the catalog's scope.
+  evidence:
+    - Repo description explicitly calls it a 'Textbook on reinforcement learning from human feedback'.
+    - README states this is a 'comprehensive guide' and 'home base for people who want to learn', not a product or tool.
+    - Source list includes it in a books/resources section (awesome-LLM-resources), not as a developer tool or agent.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1895) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.632Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:29.636Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:16:39.016Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

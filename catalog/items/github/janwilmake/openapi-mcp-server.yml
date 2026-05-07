@@ -6,8 +6,8 @@ identity:
   github_repo: janwilmake/openapi-mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__snaggle-ai__openapi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__janwilmake__openapi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/snaggle-ai/openapi-mcp-server
         surrounding_text: "- [snaggle-ai/openapi-mcp-server](https://github.com/snaggle-ai/openapi-mcp-server) 🏎️ 🏠 - Connect any HTTP/REST API server using an Open API spec (v3)"
         confidence: high
-    - id: discovery__github__snaggle-ai__openapi-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__janwilmake__openapi-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -37,25 +37,9 @@ provenance:
         extracted_url: https://github.com/snaggle-ai/openapi-mcp-server
         surrounding_text: "-   **[snaggle-ai/openapi-mcp-server](https://github.com/snaggle-ai/openapi-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/snaggle-ai/openapi-mcp-server?style=social)](https://github.com/snaggle-ai/openapi-mcp-server): Connects to HTTP/REST APIs using an OpenAPI specification."
         confidence: high
-    - id: discovery__github__janwilmake__openapi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💻 <a name="developer-tools"></a>Developer Tools
-        anchor_text: snaggle-ai/openapi-mcp-server
-        extracted_url: https://github.com/snaggle-ai/openapi-mcp-server
-        surrounding_text: "- [snaggle-ai/openapi-mcp-server](https://github.com/snaggle-ai/openapi-mcp-server) 🏎️ 🏠 - Connect any HTTP/REST API server using an Open API spec (v3)"
-        confidence: high
 metadata:
   github:
-    stars: 890
+    stars: 891
     forks: 92
     license: MIT
     archived: false
@@ -64,49 +48,49 @@ metadata:
     description: Allow AI to wade through complex OpenAPIs using Simple Language
     homepage: https://openapisearch.com
     topics: []
-    last_checked_at: "2026-05-05T21:02:51.576Z"
+    last_checked_at: "2026-05-06T22:44:30.960Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.576Z"
+      fetched_at: "2026-05-06T22:44:30.960Z"
       bytes: 1492
 insights:
-  summary: An MCP server that lets AI clients search, summarize, and explore OpenAPI specifications using natural language.
-  why_it_matters: It allows coding agents in tools like Claude and Cursor to reliably navigate complex API specs without the developer manually feeding endpoints into context.
-  mental_damage: We've successfully built infrastructure to help AI understand the very APIs we were too burnt out to read ourselves.
+  summary: An MCP server that lets AI assistants like Claude and Cursor search, summarize, and explore any OpenAPI specification using natural language.
+  why_it_matters: It turns massive, unwieldy API specs into something a coding agent can actually navigate without pasting thousands of lines of YAML into context.
+  mental_damage: We have successfully abstracted reading documentation into a three-step process that still requires an AI to read the documentation for us.
   tags:
-    - api-integration
-    - context-engineering
     - mcp
     - openapi
+    - api-integration
+    - context-retrieval
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server designed to expose OpenAPI exploration capabilities to MCP-compatible clients, fitting the MCP infrastructure category.
+  reason: The product's identity is an MCP server designed to give AI assistants structured access to OpenAPI specifications, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is an MCP server to 'Allow AI to wade through complex OpenAPIs'
-    - README confirms it is 'A Model Context Protocol (MCP) server for Claude/Cursor'
-    - Active development indicated by pushed_at date of 2026-02-21 and 890 stars
+    - Repo description explicitly states 'A Model Context Protocol (MCP) server for Claude/Cursor'.
+    - Source lists confirm placement in 'awesome-mcp-list' and 'awesome-mcp-servers' under Developer Tools.
+    - Active development indicated by recent push date (2026-02-21) and 891 stars.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (890) exceeded threshold (150)
+  reason: Stars (891) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:41.277Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.576Z"
+    updated_at: "2026-05-06T22:44:30.960Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:37.341Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

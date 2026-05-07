@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__connectry-io__connectrylab-architect-cert-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -46,50 +46,50 @@ metadata:
       - spaced-repetition
       - study
       - study-tool
-    last_checked_at: "2026-05-05T21:01:40.572Z"
+    last_checked_at: "2026-05-06T22:43:27.651Z"
     readme:
-      fetched_at: "2026-05-05T21:01:40.572Z"
+      fetched_at: "2026-05-06T22:43:27.651Z"
       bytes: 37758
 insights:
-  summary: A free, open-source MCP server that turns Claude into a personal tutor for the Claude Certified Architect exam with 390 questions, guided capstone builds, and spaced repetition.
-  why_it_matters: It allows developers preparing for Anthropic's certification to study interactively through their existing Claude workflow with practice exams and progress tracking.
-  mental_damage: We have successfully built an AI-powered study tool for a certification that validates your ability to architect AI systems, completing the recursion with style.
+  summary: An MCP server that turns Claude into a personal tutor for the Claude Certified Architect exam using 390 scenario-based questions, spaced repetition, and a guided capstone build.
+  why_it_matters: It gives developers a structured, local-first way to study for Anthropic's certification without courses, slides, or cloud accounts.
+  mental_damage: Nothing says 'building the future' quite like gamifying a vendor certification exam with spaced repetition algorithms and glassmorphism dashboards.
   tags:
     - mcp
+    - education
     - certification
     - claude
-    - exam-prep
-    - education
-  confidence: high
+    - study-tool
+  confidence: medium
 curation:
   status: included
-  reason: The primary artifact is an MCP server that integrates with Claude to provide certification prep, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server that exposes exam prep as tools to Claude, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is a certification prep tool delivered as an MCP server.
-    - README confirms it is an open-source MCP server that turns Claude into a certification tutor with 390 questions and interactive tools.
-    - Listed in awesome-mcp-servers under Server Implementations > Education, reinforcing its identity as an MCP tool.
+    - "Repo description: 'Free certification prep for the Claude Certified Architect exam. 390 questions. Spaced repetition.'"
+    - "README: 'Architect Cert is a free, open-source MCP server that turns Claude into your personal certification tutor.'"
+    - "Source list: included in awesome-mcp-servers under Education."
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:40.572Z"
+    updated_at: "2026-05-06T22:43:27.651Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:16.385Z"
+    updated_at: "2026-05-06T22:50:30.133Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

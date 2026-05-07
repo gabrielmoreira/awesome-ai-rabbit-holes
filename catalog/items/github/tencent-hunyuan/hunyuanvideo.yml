@@ -1,0 +1,85 @@
+id: github__tencent-hunyuan__hunyuanvideo
+kind: github-repo
+name: hunyuanvideo
+canonical_url: https://github.com/tencent-hunyuan/hunyuanvideo
+identity:
+  github_repo: tencent-hunyuan/hunyuanvideo
+provenance:
+  discoveries:
+    - id: discovery__github__tencent-hunyuan__hunyuanvideo__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: HunyuanVideo
+        extracted_url: https://github.com/tencent/hunyuanvideo
+        surrounding_text: 1. [HunyuanVideo](https://github.com/Tencent/HunyuanVideo)
+        confidence: high
+metadata:
+  github:
+    stars: 12061
+    forks: 1239
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-11-28T08:38:31Z"
+    pushed_at: "2025-11-21T06:36:57Z"
+    description: "HunyuanVideo: A Systematic Framework For Large Video Generation Model"
+    homepage: https://aivideo.hunyuan.tencent.com
+    topics:
+      - diffusion-models
+      - diffusion-transformer
+      - video-generation
+    last_checked_at: "2026-05-06T22:46:43.179Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:43.179Z"
+      bytes: 28835
+insights:
+  summary: HunyuanVideo is an open-source PyTorch framework and model release for large-scale, text-to-video generation using diffusion-transformer architectures.
+  why_it_matters: It provides developers with the model definitions, pre-trained weights, and inference code necessary to run or fine-tune high-quality video generation locally or via Diffusers.
+  mental_damage: Yet another breakthrough model release that will inevitably consume your entire GPU budget while you convince yourself you're going to build the next Netflix, not just generate a 5-second clip of a dancing cat.
+  tags:
+    - video-generation
+    - diffusion-models
+    - pytorch
+    - generative-ai
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because it is a generative media model and research framework for video synthesis, not a developer-facing tool for coding, agent orchestration, or software infrastructure.
+  evidence:
+    - Repo description explicitly defines it as a 'Systematic Framework For Large Video Generation Model'.
+    - README focuses on PyTorch model definitions, pre-trained weights, and sampling code for video generation, not code editing or dev tooling.
+    - Source list context places it in a '视频 Video' (Video) section of an LLM resource list, confirming its identity as a media model.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (12061) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.651Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:43.179Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:04.289Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

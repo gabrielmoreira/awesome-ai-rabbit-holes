@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nyxtoolsdev__dicom-hl7-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - mcp
       - model-context-protocol
       - pacs
-    last_checked_at: "2026-05-05T21:03:57.817Z"
+    last_checked_at: "2026-05-06T22:45:35.795Z"
     readme:
-      fetched_at: "2026-05-05T21:03:57.817Z"
+      fetched_at: "2026-05-06T22:45:35.795Z"
       bytes: 10882
 insights:
-  summary: An MCP server that provides Claude with structured tools for DICOM, HL7v2, and FHIR healthcare interoperability, including PACS connectivity and message mapping.
-  why_it_matters: It lets developers building healthcare integrations query PACS systems, parse HL7 messages, and generate Mirth Connect channels directly from their AI assistant instead of wrestling with vendor-specific spec sheets.
-  mental_damage: You can now ask an LLM to explain a Siemens private tag at 2am, provided you have enough tokens left after the 19 years of PACS integration knowledge it packed into the context window.
+  summary: An MCP server that bridges DICOM, HL7v2, and FHIR healthcare standards, enabling Claude and other MCP clients to query PACS systems and map between medical data formats.
+  why_it_matters: Developers building healthcare integrations can let their coding assistant handle DICOM tag lookups, HL7 parsing, and FHIR mapping directly within their workflow instead of juggling multiple specialty tools.
+  mental_damage: We have successfully abstracted away the agony of healthcare interoperability standards so you can experience that same pain through a chat interface instead of a Mirth Connect channel.
   tags:
     - mcp
     - healthcare
-    - interoperability
     - dicom
     - hl7
+    - fhir
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementing healthcare interoperability protocols, which fits cleanly into the MCP Servers and Tooling category.
+  reason: This is purpose-built as an MCP server for healthcare interoperability, making it a textbook fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description states 'DICOM/HL7 healthcare interoperability MCP server for Claude'
-    - README details multiple MCP tools for DICOM, HL7, FHIR, and PACS connectivity
-    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics'
+    - Repo description explicitly states 'DICOM/HL7 healthcare interoperability MCP server for Claude'
+    - README positions it as 'The only MCP server that bridges DICOM, HL7v2, and FHIR in one package'
+    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:57.817Z"
+    updated_at: "2026-05-06T22:45:35.795Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:19.268Z"
+    updated_at: "2026-05-06T23:18:03.765Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

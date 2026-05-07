@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eirikb__any-cli-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:00.524Z"
+    last_checked_at: "2026-05-06T22:43:44.983Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.524Z"
+      fetched_at: "2026-05-06T22:43:44.983Z"
       bytes: 1531
 insights:
-  summary: A TypeScript tool that converts any CLI program with --help output into a Model Context Protocol server by mapping commands to MCP tools.
-  why_it_matters: It lets developers instantly expose existing CLI tools—like gh, az, or git—to MCP-compatible AI agents without writing custom server code.
-  mental_damage: We’ve successfully reached the point where we need a wrapper to make our wrappers wrappable by the wrapper.
+  summary: A CLI tool that automatically converts any command-line interface with --help support into an MCP server by mapping commands to tools.
+  why_it_matters: It allows developers to instantly expose existing CLI tools (like gh, az, or git) to MCP-compatible AI assistants without writing custom server code.
+  mental_damage: Another layer of indirection so your AI agent can finally run git commands with the same confidence it brings to rewriting your entire authentication stack.
   tags:
     - mcp
     - cli
-    - typescript
     - tooling
+    - automation
   confidence: high
 curation:
   status: included
-  reason: This is a developer tool that builds MCP servers from CLI programs, which fits squarely into MCP infrastructure rather than coding agents or extensions.
+  reason: The product's core identity is converting CLI tools into MCP servers, making it a classic MCP infrastructure tool rather than a coding agent or generic framework.
   evidence:
-    - "Repo description states: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
-    - README demonstrates wrapping gh, az, and git into MCP servers via npx any-cli-mcp-server
-    - Listed in awesome-mcp-servers under Server Implementations, confirming MCP ecosystem relevance
+    - "Repo description explicitly states: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
+    - README confirms the product 'Turn any CLI tool into an MCP server' and shows MCP server configuration examples
+    - Active development evidenced by created_at 2025-07-01 and pushed_at 2025-09-04
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.524Z"
+    updated_at: "2026-05-06T22:43:44.983Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:44.018Z"
+    updated_at: "2026-05-06T22:54:00.935Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

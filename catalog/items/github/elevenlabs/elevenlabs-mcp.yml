@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elevenlabs__elevenlabs-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1344
+    stars: 1346
     forks: 224
     license: MIT
     archived: false
@@ -35,50 +35,50 @@ metadata:
       - elevenlabs
       - elevenlabs-api
       - mcp
-    last_checked_at: "2026-05-05T21:02:00.895Z"
+    last_checked_at: "2026-05-06T22:43:45.041Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.895Z"
+      fetched_at: "2026-05-06T22:43:45.041Z"
       bytes: 7057
 insights:
-  summary: The official ElevenLabs MCP server that exposes text-to-speech, voice cloning, and audio transcription capabilities to MCP-compatible clients like Claude Desktop, Cursor, and Windsurf.
-  why_it_matters: Developers can now integrate high-quality voice generation and audio processing directly into their AI coding workflows without leaving the IDE or agent environment.
-  mental_damage: We have successfully abstracted away the act of reading code until your eyes bleed, replacing it with the act of listening to a film noir detective explain your stack traces.
+  summary: The official ElevenLabs MCP server that exposes Text to Speech, voice cloning, and audio transcription APIs to MCP clients like Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: It lets developers wire ElevenLabs' audio generation and processing capabilities directly into their AI coding assistants without building custom integrations.
+  mental_damage: Your coding agent can now narrate its own diffs in a film noir detective voice, because apparently the modern developer workflow was missing spoken JSON patches.
   tags:
     - mcp
     - elevenlabs
     - audio
-    - voice
-    - ide-integration
+    - tts
+    - integration
   confidence: high
 curation:
   status: included
-  reason: This is the official MCP server implementation from ElevenLabs, fitting squarely into the MCP infrastructure category as a tool-exposing server rather than a primary assistant.
+  reason: This is a first-party MCP server that exposes ElevenLabs audio APIs to MCP clients, making MCP the clear product identity.
   evidence:
-    - "Repo description explicitly states: 'The official ElevenLabs MCP server'."
-    - README confirms it enables MCP clients like Claude Desktop, Cursor, and Windsurf to generate speech and process audio.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - Repo description explicitly states 'The official ElevenLabs MCP server'
+    - Listed under 'Official Servers' in the awesome-mcp-servers directory
+    - README pitches it as an MCP server for Claude Desktop, Cursor, Windsurf, and OpenAI Agents
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1344) exceeded threshold (150)
+  reason: Stars (1346) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.895Z"
+    updated_at: "2026-05-06T22:43:45.041Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:44.492Z"
+    updated_at: "2026-05-06T22:54:06.939Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: mcpservers__net
 kind: website
-name: MCPServers.Net
+name: mcpservers.net
 canonical_url: https://mcpservers.net
 identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpservers__net__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and index of Model Context Protocol (MCP) servers.
-  why_it_matters: It serves as a navigation aid for developers looking to discover and integrate MCP servers into their AI-assisted workflows.
-  mental_damage: We have now reached the point where we need a dedicated directory just to manage the directory of protocols that help our assistants talk to tools.
+  summary: A web directory and discovery hub for finding Model Context Protocol (MCP) servers.
+  why_it_matters: It provides a centralized map for developers navigating the rapidly expanding ecosystem of MCP tool integrations.
+  mental_damage: Yet another layer of abstraction to help you find the abstraction layers that help you abstract your job away.
   tags:
-    - awesome-list
-    - directory
-    - index
     - mcp
+    - directory
+    - discovery
+    - tooling
   confidence: high
 curation:
   status: included
-  reason: It is a directory/index of MCP servers, fitting the 'Awesome Awesomes' category as a navigation aid for developers rather than a standalone tool.
+  reason: The site functions as a navigation and discovery index for MCP servers, fitting the 'Lists & Directories' category rather than a standalone product or server itself.
   evidence:
-    - URL is mcpservers.net, indicating a directory or index site.
+    - URL is https://mcpservers.net, indicating a domain dedicated to MCP server listings.
     - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - No repo description or README provided, suggesting it is a listing site rather than a functional tool.
+    - No repo description, README, or code artifacts provided; identified purely as a directory site.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:27.671Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:41.062Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

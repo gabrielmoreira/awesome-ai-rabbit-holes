@@ -1,13 +1,13 @@
 id: github__tobymao__sqlglot
 kind: github-repo
-name: SQLGlot
+name: sqlglot
 canonical_url: https://github.com/tobymao/sqlglot
 identity:
   github_repo: tobymao/sqlglot
 provenance:
   discoveries:
     - id: discovery__github__tobymao__sqlglot__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 9206
+    forks: 1132
+    license: MIT
+    archived: false
+    created_at: "2021-03-13T05:01:56Z"
+    pushed_at: "2026-05-06T18:10:49Z"
+    description: Python SQL Parser and Transpiler
+    homepage: https://sqlglot.com/
+    topics:
+      - bigquery
+      - clickhouse
+      - databricks
+      - duckdb
+      - hive
+      - mysql
+      - optimizer
+      - parser
+      - postgres
+      - presto
+      - python
+      - redshift
+      - snowflake
+      - spark
+      - sql
+      - sqlite
+      - sqlparser
+      - transpiler
+      - trino
+      - tsql
+    last_checked_at: "2026-05-06T22:46:51.789Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:51.789Z"
+      bytes: 23147
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python-based SQL parser, transpiler, and optimizer that converts queries between 31 different SQL dialects.
+  why_it_matters: It lets developers and AI tools programmatically translate SQL across databases like Snowflake, BigQuery, and Spark without manual query rewriting.
+  mental_damage: Yet another essential piece of invisible infrastructure ensuring that 'AI-generated SQL' remains a dialect-specific guessing game rather than a universal miracle.
+  tags:
+    - sql
+    - parser
+    - transpiler
+    - python
+    - database
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is a general-purpose data engineering library for SQL parsing, not a developer-facing AI tool, agent, or workflow product.
+  evidence:
+    - Repo description and README describe it as a 'Python SQL Parser and Transpiler' with no AI-specific features or workflow.
+    - Source-list placement in 'awesome-mcp-servers' is noted, but the repository itself lacks MCP identity and is a pure Python library.
+    - No references to LLMs, agents, coding workflows, or AI-specific developer tooling in the description or README excerpt.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (9206) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:51.789Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:37.762Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

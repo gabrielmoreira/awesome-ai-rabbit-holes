@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__r-huijts__oorlogsbronnen-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,49 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 15
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2025-04-01T07:48:58Z"
+    pushed_at: "2025-05-23T11:42:19Z"
+    description: MCP server for accessing Dutch World War II archives through the Oorlogsbronnen API. Provides structured access to historical records, photographs, and documents from 1940-1945 Netherlands.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:04.594Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:04.594Z"
+      bytes: 8291
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides structured access to the Dutch Oorlogsbronnen WWII archives via the Model Context Protocol.
+  why_it_matters: It lets developers wire historically rich, structured archival data directly into AI assistants for natural language research and prototyping.
+  mental_damage: We have finally reached the point where large language models can help you interrogate 1940s Dutch records, yet they still can’t reliably remember your project’s linting rules.
+  tags:
+    - mcp
+    - archives
+    - historical-data
+    - local-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server providing domain-specific access to a historical archive API, matching the 'Domain Servers' section under MCP Servers & Tooling.
+  evidence:
+    - Repo description explicitly states 'MCP server for accessing Dutch World War II archives through the Oorlogsbronnen API.'
+    - Installation instructions focus on configuring it as an MCP server within Claude Desktop.
+    - Listed in awesome-mcp-servers under the 'Art & Culture' domain servers section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:16.798Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for r-huijts/oorlogsbronnen-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-06T22:46:04.594Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:19.780Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

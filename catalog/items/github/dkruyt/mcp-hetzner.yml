@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dkruyt__mcp-hetzner__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 107
+    stars: 108
     forks: 16
     license: MIT
     archived: false
@@ -32,49 +32,50 @@ metadata:
     description: A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API. This server allows language models to manage Hetzner Cloud resources through structured functions.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:54.164Z"
+    last_checked_at: "2026-05-06T22:43:38.720Z"
     readme:
-      fetched_at: "2026-05-05T21:01:54.164Z"
+      fetched_at: "2026-05-06T22:43:38.720Z"
       bytes: 6439
 insights:
-  summary: An MCP server that lets language models manage Hetzner Cloud resources like servers, volumes, firewalls, and SSH keys through structured API functions and Claude Code integration.
-  why_it_matters: It allows developers to treat cloud infrastructure as a conversational surface, enabling AI assistants to directly provision, tear down, and configure Hetzner resources during development workflows.
-  mental_damage: We have finally reached the point where your AI can accidentally spin up a cx11 instance while trying to fix a CSS bug, and you will still pretend this is productivity.
+  summary: An MCP server that exposes Hetzner Cloud API resources—servers, volumes, firewalls, and SSH keys—to language models via structured functions.
+  why_it_matters: Developers can manage cloud infrastructure and automate Hetzner operations directly from Claude Code or other MCP-compatible assistants without leaving the coding workflow.
+  mental_damage: We have successfully abstracted cloud infrastructure management into a context window, meaning your server fleet is now only as reliable as your next prompt.
   tags:
     - mcp
     - hetzner
-    - cloud-infrastructure
+    - cloud
+    - infrastructure
     - claude-code
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server implementation for Hetzner Cloud, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server for a specific cloud provider, making it a textbook fit for the Domain Servers section of MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API.'
-    - README details structured functions for server, volume, firewall, and SSH key management via MCP transports (stdio, sse).
-    - Listed in awesome-mcp-servers under 'Community Servers', confirming its role in the MCP ecosystem.
+    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API.'"
+    - README confirms MCP identity with support for stdio and SSE transports and integration with Claude Code.
+    - Listed in awesome-mcp-servers under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:54.164Z"
+    updated_at: "2026-05-06T22:43:38.720Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:32.559Z"
+    updated_at: "2026-05-06T22:52:53.273Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

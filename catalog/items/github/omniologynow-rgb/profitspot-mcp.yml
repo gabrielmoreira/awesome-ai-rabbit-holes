@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__omniologynow-rgb__profitspot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - risk-scoring
       - whale-tracking
       - yield-farming
-    last_checked_at: "2026-05-05T21:04:01.421Z"
+    last_checked_at: "2026-05-06T22:45:38.870Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.421Z"
+      fetched_at: "2026-05-06T22:45:38.870Z"
       bytes: 18441
 insights:
-  summary: An MCP server that exposes cross-chain DeFi data, including risk scoring, Monte Carlo yield simulations, and whale tracking, to AI agents like Claude and Cursor.
-  why_it_matters: It allows developers to equip AI coding assistants with real-time, financial-grade blockchain intelligence without writing custom API wrappers.
-  mental_damage: Your AI agent can now lecture you on impermanent loss across 86 chains while you're just trying to fix a CSS bug.
+  summary: An MCP server that gives AI agents access to cross-chain DeFi data, risk scoring, Monte Carlo simulations, and whale tracking across 86 chains and 6,500 liquidity pools.
+  why_it_matters: Developers building crypto-native agents can plug in yield, risk, and whale intelligence without writing their own cross-chain scrapers or risk models.
+  mental_damage: We have successfully built a Bloomberg Terminal for LLMs while still struggling to get the average agent to check out the right git branch.
   tags:
     - mcp
     - defi
+    - crypto
+    - agent-tooling
     - blockchain
-    - finance
-    - agent-tools
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is a dedicated MCP server providing DeFi intelligence tooling for AI agents, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server providing domain-specific DeFi intelligence to AI agents, exactly matching the MCP Servers & Tooling category and Domain Servers section.
   evidence:
-    - Repo description explicitly identifies it as an MCP server for AI agents.
-    - README details integration with Claude Desktop, Cursor, and VS Code Copilot via standard MCP configs.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+    - Repo description explicitly states 'pip install profitspot-mcp' and frames it as an MCP server for AI agents.
+    - README states 'ProfitSpot MCP gives any AI agent — Claude, GPT, Gemini, or your custom agent — instant access' and includes Claude Desktop, Cursor, and VS Code MCP configs.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP domain server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.639Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.421Z"
+    updated_at: "2026-05-06T22:45:38.870Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:42:02.279Z"
+    updated_at: "2026-05-06T23:18:47.226Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

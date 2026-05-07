@@ -1,13 +1,13 @@
 id: github__codefuse-ai__codefuse-chatbot
 kind: github-repo
-name: CodeFuse-ChatBot
+name: codefuse-chatbot
 canonical_url: https://github.com/codefuse-ai/codefuse-chatbot
 identity:
   github_repo: codefuse-ai/codefuse-chatbot
 provenance:
   discoveries:
     - id: discovery__github__codefuse-ai__codefuse-chatbot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1288
+    stars: 1289
     forks: 144
     license: NOASSERTION
     archived: false
@@ -43,50 +43,50 @@ metadata:
       - multi-agent
       - rag
       - tool-learning
-    last_checked_at: "2026-05-05T21:01:37.354Z"
+    last_checked_at: "2026-05-06T22:43:24.495Z"
     readme:
-      fetched_at: "2026-05-05T21:01:37.354Z"
+      fetched_at: "2026-05-06T22:43:24.495Z"
       bytes: 8928
 insights:
-  summary: An open-source AI assistant that uses a multi-agent framework to support the software development lifecycle, integrating DevOps toolkits, RAG for code and documentation repositories, and sandbox environments.
-  why_it_matters: It provides a private, offline-capable multi-agent system that can analyze whole code repositories and automate tasks across the DevOps pipeline, from design to deployment.
-  mental_damage: Yet another ambitious 'entire lifecycle' chatbot that asks you to dockerize a 34B model locally just to find out why your CI pipeline failed yesterday.
+  summary: An open-source, multi-agent AI assistant for the full DevOps lifecycle, combining RAG, tool use, and sandboxing to handle tasks from coding to deployment.
+  why_it_matters: It offers a self-hosted alternative to proprietary copilots by integrating private code repositories, knowledge graphs, and DevOps tooling into a single configurable agent platform.
+  mental_damage: Another heroic attempt to wrap LangChain in enough YAML to convince a team that 'private LLM' means 'shipped by Q3'.
   tags:
-    - devops
-    - llm
     - multi-agent
-    - private-deployment
+    - devops
     - rag
-  confidence: high
+    - self-hosted
+    - private-llm
+  confidence: medium
 curation:
   status: included
-  reason: It is a multi-agent coding and DevOps assistant that directly interacts with code repositories and aims to automate development tasks, fitting the coding-agents definition.
+  reason: The project is a developer-facing assistant that plans, writes, and tests code via a multi-agent framework and CLI/WebUI, fitting the primary coding agent definition.
   evidence:
-    - Repo description explicitly states it is 'an intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework'.
-    - README claims 'code整库分析' (repository-level code analysis) and 'project file-level code writing/generation'.
-    - Listed in 'awesome-ai-agents' under the Code section, confirming its agent-oriented design.
+    - Repo description states it serves the 'entire software development lifecycle' via a Multi-Agent Framework.
+    - README claims capability for 'project file-level code writing and generation' and integrates a sandbox for execution.
+    - Source list context places it in 'awesome-ai-agents' under a Code/DevOps agent section.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1288) exceeded threshold (150)
+  reason: Stars (1289) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:13:42.317Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:37.354Z"
+    updated_at: "2026-05-06T22:43:24.495Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:49:49.112Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

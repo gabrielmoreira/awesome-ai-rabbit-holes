@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__atla-ai__atla-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,26 +32,27 @@ metadata:
     description: An MCP server implementation providing a standardized interface for LLMs to interact with the Atla API.
     homepage: https://docs.atla-ai.com
     topics: []
-    last_checked_at: "2026-05-05T21:01:11.098Z"
+    last_checked_at: "2026-05-06T22:12:44.576Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.098Z"
+      fetched_at: "2026-05-06T22:12:44.576Z"
       bytes: 3900
 insights:
-  summary: An archived MCP server that provided a standardized interface for LLMs to evaluate other LLM responses using the now-defunct Atla API.
-  why_it_matters: It offered a way to programmatically score and critique model outputs within agent workflows before the underlying service was shut down.
-  mental_damage: We have successfully standardized the protocol for talking to an API that no longer exists, proving once again that the only thing faster than building AI infrastructure is shutting it down.
+  summary: An archived MCP server that provided LLM evaluation capabilities via the Atla API, exposing tools to score and critique model responses.
+  why_it_matters: It allowed developers to plug standardized LLM evaluation directly into agent workflows via MCP before the underlying API was shut down.
+  mental_damage: We finally standardized how to judge our models right before the judge itself retired, leaving us with one more lightweight protocol wrapper for a dead endpoint.
   tags:
     - mcp
     - evals
-    - llm-judging
+    - archived
+    - llm-evaluation
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and the README explicitly warns that the Atla API is no longer active, meaning the tool is non-functional.
+  reason: The repository is explicitly archived and the README confirms the Atla API is no longer active, making the tool unusable and unsupportable for developers.
   evidence:
-    - Repository flagged as archived on 2025-07-21.
-    - README contains a caution note stating 'The Atla API is no longer active.'
-    - Low ecosystem traction with only 18 stars.
+    - Repo is archived as of 2025-07-21 and README states 'The Atla API is no longer active.'
+    - The MCP server only exposes evaluation tools and has no standalone value without the upstream API.
+    - Low ecosystem traction with only 18 stars and no active maintenance path.
 placement:
   primary_category: null
   section: null
@@ -61,19 +62,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.098Z"
+    updated_at: "2026-05-06T22:12:44.576Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:18.725Z"
+    updated_at: "2026-05-06T22:22:35.677Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

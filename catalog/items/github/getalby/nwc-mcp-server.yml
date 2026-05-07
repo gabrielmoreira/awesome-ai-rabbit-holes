@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getalby__nwc-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,27 +33,28 @@ metadata:
     description: Connect a bitcoin lightning wallet to your LLM using Nostr Wallet Connect and Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:19.545Z"
+    last_checked_at: "2026-05-06T22:44:01.001Z"
     readme:
-      fetched_at: "2026-05-05T21:02:19.545Z"
+      fetched_at: "2026-05-06T22:44:01.001Z"
       bytes: 3991
 insights:
-  summary: An archived MCP server that connects a Bitcoin Lightning wallet to LLMs via Nostr Wallet Connect, now deprecated in favor of the Alby MCP server.
-  why_it_matters: It demonstrates how to wire crypto-native payment rails into agent workflows, though developers are pointed to the successor project for active use.
-  mental_damage: We have successfully built the infrastructure to let autonomous agents involuntarily drain Lightning wallets before we solved context windows.
+  summary: An archived MCP server that connects a Bitcoin Lightning wallet to LLMs using Nostr Wallet Connect for on-chain payments.
+  why_it_matters: It allows developers to build LLM-powered agents that can send and receive Bitcoin payments directly through a standardized protocol.
+  mental_damage: Your AI agent can now independently pay its own Lightning invoices, removing the last barrier between your code and irreversible financial chaos.
   tags:
     - mcp
     - bitcoin
     - lightning
     - nostr
+    - payments
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and deprecated in favor of Alby MCP, making it obsolete for a curated catalog.
+  reason: The repository is explicitly archived and deprecated in favor of 'Alby MCP', making it a dead-end project that should not be featured in a curated catalog.
   evidence:
-    - "README banner states: 'Please use Alby MCP instead! This repository has been deprecated.'"
-    - GitHub archived flag is true.
-    - Source-list context points to the successor 'Alby MCP' as the maintained alternative.
+    - "README header states: '⚠️ DEPRECATED ⚠️ Please use Alby MCP instead!'"
+    - "The repo is marked as 'archived: yes' in the metadata."
+    - Source list context confirms it is superseded by a newer Alby implementation.
 placement:
   primary_category: null
   section: null
@@ -63,19 +64,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:19.545Z"
+    updated_at: "2026-05-06T22:44:01.001Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:21:02.844Z"
+    updated_at: "2026-05-06T22:57:27.135Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

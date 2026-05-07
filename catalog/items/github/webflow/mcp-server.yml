@@ -1,13 +1,13 @@
 id: github__webflow__mcp-server
 kind: github-repo
-name: Webflow AI
+name: mcp-server
 canonical_url: https://github.com/webflow/mcp-server
 identity:
   github_repo: webflow/mcp-server
 provenance:
   discoveries:
     - id: discovery__github__webflow__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -20,21 +20,6 @@ provenance:
         anchor_text: Webflow
         extracted_url: https://github.com/webflow/mcp-server
         surrounding_text: "- **[Webflow](https://github.com/webflow/mcp-server)** - Interact with Webflow APIs to list and edit your site and CMS data."
-        confidence: high
-    - id: discovery__webflow__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
-      extraction:
-        mode: parsed
-        section_path:
-          - App Builders
-        anchor_text: Webflow AI
-        extracted_url: https://webflow.com/ai
-        surrounding_text: "- **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content generation."
         confidence: high
 metadata:
   github:
@@ -50,47 +35,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Webflow AI is a collection of generative AI features embedded into the Webflow web builder that generates sites from prompts, creates copy, builds React code components, and optimizes for AI search.
-  why_it_matters: It offers developers a prompt-to-site workflow and a Webflow MCP server to manage CMS and SEO through external agent platforms like Cursor and Claude.
-  mental_damage: You can now outsource your React component generation and SEO strategy to the same visual builder you used to swear at when the CSS wouldn't center.
-  tags:
-    - ai-site-generation
-    - mcp
-    - prompt-to-site
-    - site-builder
-    - web-builders
-    - webflow
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The primary surface is a browser-first prompt-to-site builder that generates full websites and components, fitting the app-builders definition over coding-agents.
-  evidence:
-    - Scraped site context describes an 'AI site builder' that generates entire websites from a basic prompt.
-    - Features include generating React code components and CMS items directly within the Webflow platform.
-    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
-    - Scraped site context describes an 'AI site builder' that generates entire websites from a basic prompt without technical expertise.
-    - Features include generating React code components, CMS items, and copy directly within the Webflow platform.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: app-builders
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T20:49:43.813Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

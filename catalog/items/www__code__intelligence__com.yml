@@ -1,12 +1,12 @@
 id: www__code__intelligence__com
 kind: website
-name: Code Intelligence CI Fuzz
+name: www.code-intelligence.com
 canonical_url: https://www.code-intelligence.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,41 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CI Fuzz by Code Intelligence is an AI-automated, coverage-guided fuzz testing platform that uses an AI test agent to autonomously detect bugs and vulnerabilities in code with minimal manual effort.
-  why_it_matters: It integrates into the development pipeline to achieve high code coverage and compliance with industry standards like ISO 21434, allowing developers to fix critical security flaws early without writing extensive unit tests manually.
-  mental_damage: Just when you thought your test suite was complete, an AI agent starts throwing random garbage at your memory-unsafe code to find the heap overflows you were praying didn't exist.
+  summary: Code Intelligence provides CI Fuzz, an AI-automated coverage-guided fuzz testing platform that detects bugs and vulnerabilities in code with minimal manual effort.
+  why_it_matters: It helps developers catch critical security flaws and memory corruption issues early in the pipeline by automating deep code path analysis that traditional static analysis often misses.
+  mental_damage: Yet another 'AI expert in a box' promising to find the heap overflows you were definitely going to write, if only you had 1,000 hours of manual testing budget to spare.
   tags:
-    - ai-agent
-    - devops
-    - fuzzing
     - security
+    - fuzzing
     - testing
-  confidence: high
+    - ai-testing
+  confidence: medium
 curation:
   status: included
-  reason: It operates as an AI test agent that autonomously plans, executes, and debugs code tests within the development workflow to detect vulnerabilities, fitting the coding-agents definition.
+  reason: The core job is detecting, measuring, and reporting vulnerabilities and bugs in software behavior, which aligns with the evals category's focus on measuring and scoring code quality and safety.
   evidence:
-    - Primary page excerpt describes 'CI Fuzz' as an 'AI-automated Coverage-Guided Fuzz testing solution' with an 'AI Test Agent' that 'autonomously detects bugs'.
-    - Listed in 'awesome-ai-coding-tools' under the Security section for finding bugs with a single command.
-    - Integrates into the PR workflow, noted by GitHub CEO Thomas Dohmke as testing code 'at each pull request'.
+    - Scraped site describes 'AI-automated fuzz testing' and 'AI Test Agent' that autonomously detects bugs and vulnerabilities.
+    - Found in awesome-ai-coding-tools under the 'Security' section for finding bugs missed by other security tools.
+    - Focus is on uncovering real bugs, achieving code coverage, and compliance rather than writing or editing code as a primary assistant.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: evals
+  section: Safety / Fairness / Data Quality
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:10.788Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +68,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:31.042Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

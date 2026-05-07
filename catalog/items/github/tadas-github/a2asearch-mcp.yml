@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tadas-github__a2asearch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 6
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-23T18:07:50Z"
+    pushed_at: "2026-03-30T07:08:15Z"
+    description: MCP server for searching AI agents, MCP servers, CLI tools and agent skills via A2ASearch
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - a2asearch
+      - ai-agents
+      - claude
+      - cursor
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-06T22:46:39.822Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:39.822Z"
+      bytes: 5088
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server and CLI tool that provides a unified search interface across 10,000+ indexed AI agents, MCP servers, CLI tools, and agent skills.
+  why_it_matters: It solves the growing pains of ecosystem discovery by letting developers query a massive agent/MCP directory directly from their coding assistant instead of manually browsing GitHub or npm.
+  mental_damage: We now need an AI tool to help us search for all the other AI tools we haven't yet installed to help us write code.
+  tags:
+    - mcp
+    - search
+    - discovery
+    - cli
+    - agent-registry
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server that indexes and searches the AI agent ecosystem, making it a discovery tool within the MCP infrastructure category.
+  evidence:
+    - Repo description explicitly states 'MCP server for searching AI agents, MCP servers, CLI tools and agent skills via A2ASearch'.
+    - README positions it as 'The only unified search engine for the AI agent ecosystem' with 10,752 indexed tools.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators', confirming its MCP registry identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:39.822Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:23.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

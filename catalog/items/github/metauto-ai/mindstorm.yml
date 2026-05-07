@@ -1,28 +1,13 @@
 id: github__metauto-ai__mindstorm
 kind: github-repo
-name: NLSOM
+name: mindstorm
 canonical_url: https://github.com/metauto-ai/mindstorm
 identity:
   github_repo: metauto-ai/mindstorm
 provenance:
   discoveries:
-    - id: discovery__github__mczhuge__nlsom__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - NLSOM
-        anchor_text: NLSOM
-        extracted_url: https://github.com/mczhuge/nlsom
-        surrounding_text: "## [NLSOM](https://github.com/mczhuge/NLSOM)"
-        confidence: high
     - id: discovery__github__metauto-ai__mindstorm__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -50,55 +35,44 @@ metadata:
       - mindstorm
       - multi-agent-systems
       - society-of-mind
-    last_checked_at: "2026-05-05T21:03:36.758Z"
+    last_checked_at: "2026-05-06T22:45:14.914Z"
     readme:
-      fetched_at: "2026-05-05T21:03:36.758Z"
+      fetched_at: "2026-05-06T22:45:14.914Z"
       bytes: 24803
 insights:
-  summary: A framework for building Natural Language-Based Societies of Mind (NLSOM) where multiple LLMs, APIs, and expert agents collaborate via natural language to solve tasks in a modular community structure.
-  why_it_matters: It provides a structured way to compose diverse AI models and APIs into collaborative agent communities with reward mechanisms, serving as a code-first building block for multi-agent systems.
-  mental_damage: Because if a single hallucinating LLM is unreliable, the obvious next step is clearly to put seventeen of them into a society and let them interview each other until consensus forms.
-  tags:
-    - agent-orchestration
-    - framework
-    - llm
-    - mindstorm
-    - multi-agent
-    - nl-based
-    - research
-  confidence: medium
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: This is a code-first framework and SDK for constructing multi-agent societies, fitting the ai-frameworks category rather than an end-user orchestration platform or coding agent.
-  evidence:
-    - Repo description defines it as 'Societies of Mind & Economy of Minds' with topics including multi-agent-systems.
-    - README states the project is the 'technical extension' for the NLSOM paper, including recommendation, mindstorm collaboration, and reward design.
-    - Features highlight managing and extending communities/agents in code (16 communities, 34 agents) rather than operating a hosted control plane.
-    - Repo description defines it as 'Societies of Mind & Economy of Minds' with a technical README outlining a framework with 16 communities and 34 agents.
-    - README states it is the 'technical extension' for the NLSOM paper, featuring extensible Python/code components for recommendation, mindstorm, and reward.
-    - Active development indicated by a pushed_at date of 2025-03-11, despite relatively low stars (77).
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:11.304Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:36.758Z"
+    updated_at: "2026-05-06T22:45:14.914Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-06T23:13:19.572Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__metauto-ai__mindstorm: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

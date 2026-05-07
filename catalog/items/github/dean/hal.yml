@@ -1,13 +1,13 @@
 id: github__dean__hal
 kind: github-repo
-name: HAL
+name: hal
 canonical_url: https://github.com/dean/hal
 identity:
   github_repo: dean/hal
 provenance:
   discoveries:
     - id: discovery__github__dean__hal__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -51,22 +51,22 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-05-05T23:07:47.633Z"
+    updated_at: "2026-05-06T22:43:35.297Z"
     cause:
       type: github_repo_missing
       message: "GitHub repository not found: dean/hal"
+    next_retry_at: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null

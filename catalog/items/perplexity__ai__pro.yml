@@ -1,12 +1,12 @@
 id: perplexity__ai__pro
 kind: website
-name: Perplexity Pro
+name: pro
 canonical_url: https://perplexity.ai/pro
 identity: {}
 provenance:
   discoveries:
     - id: discovery__perplexity__ai__pro__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Perplexity Pro is a subscription-tier hosted AI search and assistant product designed for general web research and answering questions.
-  why_it_matters: It provides developers with fast, cited answers and code explanations, reducing the friction of looking up documentation or debugging obscure errors.
-  mental_damage: Another monthly subscription promising to replace Stack Overflow, ensuring you now pay a premium to argue with an AI about why its accepted answer is deprecated.
+  summary: Perplexity Pro is a paid subscription tier of the Perplexity AI web search and chat platform, focused on enhanced search, reasoning, and access to models like Claude and GPT-4.
+  why_it_matters: Developers can use it for rapid technical research, API documentation lookups, and framework comparisons without context-switching to traditional search engines.
+  mental_damage: Yet another monthly subscription to add to the stack, promising that this time, the AI search engine will definitely be the one that prevents you from reading the same Stack Overflow answer three times.
   tags:
-    - ai-search
-    - assistant
+    - search
+    - chat
     - research
+    - subscription
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose consumer AI search and research assistant with no developer-tooling, coding-agent, or app-building workflow integration.
+  reason: Excluded because it is a general-purpose consumer AI search and chat product, not a developer-facing tool, agent, or infrastructure component.
   evidence:
-    - The URL resolves to perplexity.ai/pro, a hosted SaaS product for general AI search, not a developer tool.
-    - No GitHub repo, README, or code-level description exists in the inputs to suggest developer-facing integration.
-    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but that directory inclusion does not override the lack of a coding-specific workflow.
+    - URL points to perplexity.ai/pro, a commercial AI chat and search SaaS.
+    - Seen in awesome-ai-coding-tools as a 'Developer Productivity Tool', but web search assistants fall outside catalog scope.
+    - No repo description, stars, or code artifacts provided; no evidence of coding-agent, IDE, SDK, or dev-tooling identity.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:58.365Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:20.459Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

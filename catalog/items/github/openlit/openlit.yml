@@ -1,13 +1,13 @@
 id: github__openlit__openlit
 kind: github-repo
-name: OpenLIT
+name: openlit
 canonical_url: https://github.com/openlit/openlit
 identity:
   github_repo: openlit/openlit
 provenance:
   discoveries:
     - id: discovery__github__openlit__openlit__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2416
-    forks: 269
+    stars: 2422
+    forks: 271
     license: Apache-2.0
     archived: false
     created_at: "2024-01-23T17:40:59Z"
-    pushed_at: "2026-05-04T19:26:16Z"
+    pushed_at: "2026-05-06T19:06:17Z"
     description: "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
     homepage: https://docs.openlit.io
     topics:
@@ -52,50 +52,50 @@ metadata:
       - otlp
       - python
       - tracing
-    last_checked_at: "2026-05-05T21:04:06.495Z"
+    last_checked_at: "2026-05-06T22:45:43.331Z"
     readme:
-      fetched_at: "2026-05-05T21:04:06.495Z"
+      fetched_at: "2026-05-06T22:45:43.331Z"
       bytes: 29193
 insights:
-  summary: An OpenTelemetry-native observability platform for AI engineering that provides LLM tracing, GPU monitoring, prompt management, evaluations, guardrails, and a playground across 50+ LLM providers and agent frameworks.
-  why_it_matters: It gives developers a single drop-in SDK to monitor, evaluate, and secure LLM-powered applications across the full stack from experimentation to production.
-  mental_damage: Now you can add observability-induced anxiety to your existing prompt-induced anxiety, all while pretending your Python monolith is a distributed GenAI system.
+  summary: Open-source LLM observability platform providing OpenTelemetry-native tracing, evaluations, prompt management, guardrails, and GPU monitoring for AI applications.
+  why_it_matters: It gives developers a single drop-in SDK to trace, evaluate, and govern LLM calls across 50+ providers without wiring together half a dozen observability tools.
+  mental_damage: Because nothing says 'shipping confidently' like needing a dashboard, rule engine, vault, playground, and fleet hub just to find out why your chatbot recommended a toaster as a therapist.
   tags:
-    - evals
-    - gpu-monitoring
     - llm-observability
     - opentelemetry
+    - evals
     - prompt-management
+    - gpu-monitoring
   confidence: high
 curation:
   status: included
-  reason: Fits evals and benchmarks because the core value includes LLM observability, built-in evaluation types, prompt regression, and performance measurement rather than acting as a coding assistant or app builder.
+  reason: The core product is measuring, tracing, and evaluating LLM behavior at runtime, which maps directly to the Evals & Benchmarks category rather than a coding assistant or framework.
   evidence:
-    - Repo description explicitly lists LLM Observability, Evaluations, Guardrails, and Prompt Management as core features.
-    - README details 11 built-in evaluation types including hallucination, bias, and safety using LLM-as-a-Judge.
-    - Listed in Awesome-LLMOps under the LLMOps section, aligning with observability and evaluation workflows.
+    - Repo description explicitly lists 'LLM Observability, Guardrails, Evaluations, Prompt Management' as the platform's core capabilities.
+    - README highlights 11 built-in evaluation types and OpenTelemetry-native observability SDKs as primary features.
+    - Listed in Awesome-LLMOps under the LLMOps section, reinforcing its operations and evaluation role.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2416) exceeded threshold (150)
+  reason: Stars (2422) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:50.760Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:06.495Z"
+    updated_at: "2026-05-06T22:45:43.331Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:47.256Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

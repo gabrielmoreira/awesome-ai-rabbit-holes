@@ -1,0 +1,79 @@
+id: huggingface__co__paddlepaddle__paddleocr__vl__1__5
+kind: website
+name: PaddleOCR-VL-1.5
+canonical_url: https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__paddlepaddle__paddleocr__vl__1__5__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: PaddleOCR-VL-1.5 (`🔥`)
+        extracted_url: https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5
+        surrounding_text: "47. [PaddleOCR-VL-1.5 (`🔥`)](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5): Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: PaddleOCR-VL-1.5 is a 0.9B vision-language model fine-tuned for high-accuracy document parsing, including OCR, table extraction, formula recognition, and layout analysis.
+  why_it_matters: It provides developers with a compact, open-source model capable of parsing complex, real-world document images into structured formats like Markdown and JSON.
+  mental_damage: "Just what we needed: another 0.9B model to self-host so we can stop using proprietary APIs for documents that probably should have been PDFs to begin with."
+  tags:
+    - ocr
+    - document-parsing
+    - vlm
+    - paddlepaddle
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a raw model checkpoint and research artifact for document parsing, not a developer-facing tool, agent, framework, or infrastructure component that fits the catalog's scope.
+  evidence:
+    - "Hosted on Hugging Face as a model checkpoint (pipeline_tag: image-text-to-text) with no standalone CLI, SDK, or developer tool surface."
+    - Source list context places it in a general LLM resources list under 'Data', not a developer tooling or coding agent directory.
+    - The README describes model architecture, benchmarks, and inference usage via the PaddleOCR library, but the model itself is not a developer product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:16.211Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytedance__ui-tars-desktop__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [agent-infra/mcp-server-browser](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser) 📇 🏠 - Browser automation capabilities using Puppeteer, both support local and remote browser connection."
         confidence: high
     - id: discovery__github__bytedance__ui-tars-desktop__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 29615
-    forks: 2908
+    stars: 29622
+    forks: 2913
     license: Apache-2.0
     archived: false
     created_at: "2025-01-19T09:04:43Z"
@@ -62,50 +62,50 @@ metadata:
       - ui-tars
       - vision
       - vlm
-    last_checked_at: "2026-05-05T21:01:27.943Z"
+    last_checked_at: "2026-05-06T22:43:15.597Z"
     readme:
-      fetched_at: "2026-05-05T21:01:27.943Z"
+      fetched_at: "2026-05-06T22:43:15.596Z"
       bytes: 16262
 insights:
-  summary: A ByteDance-maintained multimodal AI agent stack that ships Agent TARS (CLI and Web UI) and UI-TARS Desktop to control GUIs, browsers, terminals, and computers using vision and MCP tooling.
-  why_it_matters: It gives developers a local-first, extensible way to automate complex GUI and browser workflows using multimodal models and MCP tool integrations instead of brittle selectors.
-  mental_damage: Another leap forward in AI capabilities that will definitely help you automate your browser, right after you finish configuring the model, the sandbox, the MCP server, and your own expectations.
+  summary: A multimodal AI agent stack from ByteDance that provides a CLI and desktop GUI application for automating computer, browser, and GUI tasks using vision-language models.
+  why_it_matters: It lets developers delegate complex GUI and browser workflows to a local or remote VLM-powered operator that can see and interact with screens rather than just code.
+  mental_damage: Finally, an agent that can lovingly caress your UI while you explain to your team why clicking random buttons is now a core engineering deliverable.
   tags:
-    - multimodal
     - gui-agent
-    - mcp
-    - browser-automation
-    - local-ai
+    - computer-use
+    - multimodal
+    - automation
+    - cli
   confidence: high
 curation:
   status: included
-  reason: Agent TARS provides a CLI and Web UI that act as a multimodal coding and task agent operating across terminals, browsers, and computers, clearly fitting a developer-facing coding agent that works outside the IDE.
+  reason: This is a standalone multimodal agent product with its own CLI and desktop application that directly operates computers and browsers, making it a primary coding/automation assistant rather than an extension or integration.
   evidence:
     - "Repo description: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'"
-    - "README: 'Agent TARS primarily ships with a CLI and Web UI... closer to human-like task completion through multimodal LLMs and seamless integration with various real-world MCP tools.'"
-    - "README: 'UI-TARS Desktop is a desktop application that provides a native GUI Agent... local and remote computer as well as browser operators.'"
+    - "README: 'Agent TARS primarily ships with a CLI and Web UI... aims to provide a workflow that is closer to human-like task completion through cutting-edge multimodal LLMs'"
+    - "README: 'UI-TARS Desktop is a desktop application that provides a native GUI Agent... ships local and remote computer as well as browser operators'"
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (29615) exceeded threshold (150)
+  reason: Stars (29622) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:27.943Z"
+    updated_at: "2026-05-06T22:43:15.597Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:05.039Z"
+    updated_at: "2026-05-06T22:47:36.572Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

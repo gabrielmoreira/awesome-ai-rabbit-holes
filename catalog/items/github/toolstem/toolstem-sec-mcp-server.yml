@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__toolstem__toolstem-sec-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-28T02:48:06Z"
+    pushed_at: "2026-05-05T03:07:06Z"
+    description: Agent-ready SEC filing intelligence MCP server — insider signals, institutional flow, material events digest. Pre-computed signals over raw filings.
+    homepage: https://github.com/toolstem/toolstem-sec-mcp-server
+    topics: []
+    last_checked_at: "2026-05-06T22:46:53.159Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:53.159Z"
+      bytes: 11555
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An agent-ready MCP server that exposes pre-computed SEC EDGAR signals—such as insider activity, institutional flow, and material events—as structured JSON tools for AI agents.
+  why_it_matters: It lets coding agents and financial workflows query curated, high-signal SEC filing intelligence without parsing raw EDGAR data or managing rate limits themselves.
+  mental_damage: Your AI agent can now be insider-trading-ready for exactly one cent per call, provided it figures out how to hold USDC on Base mainnet first.
+  tags:
+    - mcp
+    - sec
+    - fin-tech
+    - agent-tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server delivering domain-specific SEC filing intelligence, making it a textbook fit for the MCP Domain Servers section.
+  evidence:
+    - "Repo description: 'Agent-ready SEC filing intelligence MCP server'"
+    - "README states: 'SEC EDGAR intelligence for AI agents. Five composite tools... returned as structured JSON.'"
+    - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:53.159Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:50.064Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

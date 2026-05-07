@@ -1,12 +1,12 @@
 id: docs__atla__ai__com
 kind: website
-name: Atla API
+name: docs.atla-ai.com
 canonical_url: https://docs.atla-ai.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__atla__ai__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation site for Atla AI, listed as an official MCP server in the awesome-mcp-servers directory.
-  why_it_matters: Provides a reference point for developers integrating Atla AI's capabilities via the Model Context Protocol.
-  mental_damage: Another 'official' MCP server entry that sends you to a documentation site just generic enough to make you wonder if the protocol is now mostly a directory of vibes.
+  summary: Documentation site for Atla AI, listing it as an official MCP server in the Model Context Protocol ecosystem.
+  why_it_matters: Developers looking to extend their coding assistants with Atla's capabilities can reference this documentation to understand the available MCP server tooling.
+  mental_damage: Yet another documentation portal for an MCP server that may or may not survive the next protocol spec update.
   tags:
-    - documentation
     - mcp
+    - documentation
     - server
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation URL with no description, README, or functional detail; it does not present a usable tool, server, or product surface for developers to evaluate or use.
+  reason: This is a documentation site for an MCP server, not a standalone product, server implementation, or developer tool itself; it serves as an auxiliary reference page rather than a usable tool.
   evidence:
-    - No repo description, README excerpt, or scraped site context provided — only a docs URL.
-    - Listed in awesome-mcp-servers, but source-list inclusion is not sufficient without a clear tool or product.
-    - No stars, license, dates, or archived status available to confirm viability or scope.
+    - URL is docs.atla-ai.com, indicating a documentation portal rather than a product or repo.
+    - No repo description, README, stars, or code artifacts provided — only a link to docs.
+    - Listed in awesome-mcp-servers as an official server, but the submitted item is the docs site, not the server itself.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:53.131Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:16:21.751Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

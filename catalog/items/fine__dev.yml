@@ -1,12 +1,12 @@
 id: fine__dev
 kind: website
-name: Fine
+name: fine.dev
 canonical_url: https://fine.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__fine__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,42 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fine.dev is an AI coding agent designed to automate and execute development tasks directly within GitHub repositories.
-  why_it_matters: It allows developers to delegate implementation tasks, such as building features or fixing bugs, by operating natively inside the GitHub Pull Request workflow.
-  mental_damage: Yet another autonomous agent promising to handle your backlog, ensuring you can spend even more time reviewing AI-generated code than you originally spent writing it yourself.
+  summary: An AI-powered coding agent platform designed to automate and delegate development tasks across repositories and workflows.
+  why_it_matters: It positions itself as a primary coding assistant that developers can delegate repo work to, fitting directly into the agent-driven development workflow.
+  mental_damage: Yet another autonomous agent promising to free you from your backlog, provided you enjoy the equal parts thrilling and terrifying experience of an AI refactoring your authentication layer at 2 AM.
   tags:
+    - coding-agents
     - automation
-    - coding-agent
-    - github
-    - pr-workflow
-  confidence: medium
+    - ai-workflow
+  confidence: low
 curation:
   status: included
-  reason: It is a developer-facing coding assistant that directly plans, writes, and edits code within a repo and PR workflow, fitting the coding-agents definition.
+  reason: The product is identified as a coding agent in source lists and fits the primary identity of a developer-facing assistant for repo work.
   evidence:
-    - Listed under 'Coding Agents' in the sindresorhus/awesome list.
-    - URL (fine.dev) points to a product focused on AI-driven development tasks.
+    - Seen in awesome-ai-coding-tools under the section 'Coding Agents'
+    - URL implies a developer tool platform (fine.dev)
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:29.708Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:06.419Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

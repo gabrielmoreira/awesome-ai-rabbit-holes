@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__destrayon__connapse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - self-hosted
       - semantic-search
       - vector-search
-    last_checked_at: "2026-05-05T21:01:52.066Z"
+    last_checked_at: "2026-05-06T22:43:37.311Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.066Z"
+      fetched_at: "2026-05-06T22:43:37.311Z"
       bytes: 22296
 insights:
-  summary: An open-source, self-hosted knowledge backend for AI agents that provides persistent memory via hybrid vector and keyword search, an MCP server, and connectors for S3, Azure Blob, and local files.
-  why_it_matters: It gives developers a way to persist context and documents across AI sessions so agents can actually build on past research instead of starting from zero every time.
-  mental_damage: "Just what we needed: another self-hosted memory layer to deploy, configure, and inevitably debug so our agents can pretend they remember who we are."
+  summary: Connapse is an open-source, self-hosted knowledge backend that gives AI agents persistent, searchable memory via hybrid vector and keyword search, exposing 11 MCP tools for document ingestion and retrieval.
+  why_it_matters: Developers can stop re-uploading the same PDFs to Claude and give their agents a private, containerized memory that survives across sessions.
+  mental_damage: We have successfully abstracted the problem of 'the model forgot my README' into a .NET 10 container that needs its own embedding provider, chunking config, and runtime tuning.
   tags:
     - mcp
     - self-hosted
     - rag
-    - knowledge-base
-    - hybrid-search
-  confidence: medium
+    - memory
+    - vector-search
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that provides knowledge and memory tooling for agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server providing knowledge and memory capabilities for AI agents, aligning with the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly calls it an MCP server with hybrid search and connectors.
-    - README shows Claude querying Connapse via MCP with 11 MCP tools for knowledge retrieval.
-    - Listed in awesome-mcp-servers under Knowledge & Memory server implementations.
+    - Repo description explicitly states 'MCP server' and lists mcp-server as a topic.
+    - README demonstrates integration via '11 MCP tools' and shows Claude querying knowledge via the MCP server.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.066Z"
+    updated_at: "2026-05-06T22:43:37.311Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:13.416Z"
+    updated_at: "2026-05-06T22:52:31.229Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

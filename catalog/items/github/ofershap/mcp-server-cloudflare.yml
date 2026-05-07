@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-cloudflare__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,14 +42,14 @@ metadata:
       - r2
       - typescript
       - workers
-    last_checked_at: "2026-05-05T21:03:59.172Z"
+    last_checked_at: "2026-05-06T22:45:36.869Z"
     readme:
-      fetched_at: "2026-05-05T21:03:59.172Z"
+      fetched_at: "2026-05-06T22:45:36.869Z"
       bytes: 4152
 insights:
-  summary: An MCP server that allows AI assistants like Claude and Cursor to manage Cloudflare resources including Workers, KV storage, R2 buckets, DNS records, and cache purging directly from the IDE.
-  why_it_matters: Developers can now offload routine Cloudflare infrastructure tasks—like spinning up Workers or purging caches—to their coding assistant without leaving the editor.
-  mental_damage: We have finally achieved the future where your AI assistant can delete your production DNS records and purge your CDN cache while you watch, slightly detached from the consequences.
+  summary: An MCP server that exposes Cloudflare Workers, KV, R2, DNS, and cache management tools to AI assistants like Claude Desktop, Cursor, and VS Code Copilot.
+  why_it_matters: It lets developers manage their Cloudflare infrastructure directly through chat prompts instead of switching to the dashboard or CLI.
+  mental_damage: You can now accidentally purge your entire edge cache by misplacing a pronoun in a conversation with an LLM.
   tags:
     - mcp
     - cloudflare
@@ -58,33 +58,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for Cloudflare, fitting perfectly into the MCP Servers and Tooling category as a developer-facing infrastructure extension for AI assistants.
+  reason: The product is an MCP server built specifically to give AI assistants access to Cloudflare resources, which aligns directly with the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is an 'MCP server to manage Cloudflare Workers, KV, R2, DNS, and cache from your IDE'
-    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot via the Model Context Protocol
-    - Listed in the awesome-mcp-servers directory under 'Cloud Platforms' implementations
+    - "Repo description explicitly states: 'MCP server to manage Cloudflare Workers, KV, R2, DNS, and cache from your IDE'"
+    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot as an MCP integration
+    - Listed in awesome-mcp-servers under 'Cloud Platforms' as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:59.172Z"
+    updated_at: "2026-05-06T22:45:36.869Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:35.939Z"
+    updated_at: "2026-05-06T23:18:19.969Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

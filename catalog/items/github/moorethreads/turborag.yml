@@ -1,0 +1,80 @@
+id: github__moorethreads__turborag
+kind: github-repo
+name: turborag
+canonical_url: https://github.com/moorethreads/turborag
+identity:
+  github_repo: moorethreads/turborag
+provenance:
+  discoveries:
+    - id: discovery__github__moorethreads__turborag__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: TurboRAG
+        extracted_url: https://github.com/moorethreads/turborag
+        surrounding_text: "20. [TurboRAG](https://github.com/MooreThreads/TurboRAG): Accelerating Retrieval-Augmented Generation with Precomputed KV Caches for Chunked Text."
+        confidence: high
+metadata:
+  github:
+    stars: 99
+    forks: 10
+    license: null
+    archived: false
+    created_at: "2024-10-11T02:36:54Z"
+    pushed_at: "2024-11-25T09:46:32Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:45:25.175Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:25.175Z"
+      bytes: 2339
+insights:
+  summary: TurboRAG is an implementation of a research paper that accelerates Retrieval-Augmented Generation by precomputing KV caches for chunked text to reduce time-to-first-token.
+  why_it_matters: It provides a concrete code-level approach to optimizing RAG latency, which is a major bottleneck when building retrieval-augmented features into developer tools.
+  mental_damage: Yet another academic repo proving that if you just precompute enough tensors, you too can shave seconds off a demo that will be outdated by next week's context window expansion.
+  tags:
+    - rag
+    - kv-cache
+    - inference-optimization
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a research paper implementation and optimization technique for RAG inference, lacking the product or tool identity required for a developer-tooling catalog.
+  evidence:
+    - "Repository is the implementation code for the paper 'TurboRAG: Accelerating Retrieval-Augmented Generation with Precomputed KV Caches'."
+    - The README focuses on setup for TTFT testing and citing the arXiv paper, not on a usable developer product or framework.
+    - Listed in awesome-LLM-resources under '知识库 RAG' (Knowledge Base RAG) as a resource/paper, not a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.631Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:25.175Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:35.704Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

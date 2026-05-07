@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apiarya__wemo-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: Control Wemo smart home devices through AI assistants using natural language.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:06.583Z"
+    last_checked_at: "2026-05-06T22:12:40.936Z"
     readme:
-      fetched_at: "2026-05-05T21:01:06.583Z"
+      fetched_at: "2026-05-06T22:12:40.936Z"
       bytes: 21881
 insights:
-  summary: An MCP server that lets AI assistants control WeMo smart home devices via natural language by exposing device discovery, status, and control tools.
-  why_it_matters: Developers building or extending MCP-connected assistants can plug in local smart-home control without writing custom device integration code.
-  mental_damage: "We have finally achieved the future: an AI that can argue with your lights, provided you first configure a Python package and a YAML file."
+  summary: An MCP server that lets AI assistants control WeMo smart home devices via natural language using the Model Context Protocol.
+  why_it_matters: It demonstrates how to bridge local IoT hardware into AI workflows, letting developers prototype voice- or prompt-driven home automation using any MCP-compatible client.
+  mental_damage: Your AI assistant can now turn off the lights, which is great until it decides your 'goodnight' routine includes pushing a broken commit at 2am.
   tags:
     - mcp
-    - smart-home
-    - wemo
-    - local-ai
+    - home-automation
     - iot
+    - smart-home
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server for controlling WeMo devices, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server that exposes WeMo device control as tools, resources, and prompts for AI assistants.
   evidence:
     - "Repo description: 'Control Wemo smart home devices through AI assistants using natural language.'"
-    - README states it is an MCP server with tools, resources, prompts, and elicitations for WeMo devices.
-    - Listed in awesome-mcp-servers under 'Home Automation' server implementations.
+    - "README: 'Seamlessly integrate WeMo smart home devices with AI assistants through the Model Context Protocol.'"
+    - Listed in awesome-mcp-servers under 'Home Automation' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:06.583Z"
+    updated_at: "2026-05-06T22:12:40.936Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:39.251Z"
+    updated_at: "2026-05-06T22:21:50.445Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

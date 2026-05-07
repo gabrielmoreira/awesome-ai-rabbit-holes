@@ -1,12 +1,12 @@
 id: atoms__dev
 kind: website
-name: MGX
+name: atoms.dev
 canonical_url: https://atoms.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__atoms__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,41 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Atoms.dev is a browser-first AI platform that uses a team of specialized AI agents to generate, deploy, and market full-stack web applications and sites from natural language prompts without requiring code.
-  why_it_matters: It allows developers and non-technical founders to prototype and ship production-ready SaaS products, internal tools, and e-commerce sites with built-in backends, payments, and hosting in minutes.
-  mental_damage: You can now hire an AI Product Manager, Architect, and Engineer to build your startup in minutes, leaving you with plenty of free time to update your LinkedIn about 'vibe coding' while wondering if you still need a GitHub repo.
+  summary: Atoms is a no-code, multi-agent platform that turns natural language prompts into full-stack web apps and sites using a team of specialized AI 'employees' for research, architecture, and engineering.
+  why_it_matters: It allows developers and non-technical founders to scaffold and deploy full-stack SaaS products, internal tools, and dashboards with built-in backends, Stripe payments, and SEO automation in minutes.
+  mental_damage: Now you can watch a 'Team Leader' agent request approval to deploy the 'Engineer' agent's unvetted code, ensuring you feel managerially productive while the AI handles the actual work.
   tags:
-    - app-builder
-    - full-stack
+    - prompt-to-app
     - multi-agent
     - no-code
-    - saas
+    - full-stack
   confidence: high
 curation:
   status: included
-  reason: The product is a hosted, browser-first SaaS that generates complete, deployable applications from prompts, which aligns perfectly with the app-builders category rather than coding-agents or orchestration.
+  reason: The product's core identity is turning prompts into deployable apps and sites via a multi-agent team, fitting the app-builder profile rather than a repo-editing coding agent.
   evidence:
-    - "Scraped site title and description explicitly state: 'Build websites & apps with AI, no code needed' and 'Turn ideas into products... In minutes.'"
-    - Feature list highlights 'One click' deployment, 'Out-of-the-box Backend', and a 'Visual Editor', indicating a hosted builder surface.
-    - Included in 'awesome-LLM-resources' under the '代码 Coding' section as a 'website and app creator'.
+    - "Scraped site title and description state: 'Build websites & apps with AI, no code needed' and 'Turn ideas into products that sell'."
+    - The FAQ explicitly defines the product as an 'AI-powered development platform that turns your idea into working products' via a multi-agent workflow.
+    - Listed use cases focus on generating SaaS, E-commerce, and Internal Tools from prompts rather than editing existing codebases.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:06.501Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause:
       type: ambiguous_canonicalization
       message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
@@ -77,3 +68,11 @@ processing:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:17.532Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

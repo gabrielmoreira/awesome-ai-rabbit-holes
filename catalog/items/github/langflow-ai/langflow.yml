@@ -1,13 +1,13 @@
 id: github__langflow-ai__langflow
 kind: github-repo
-name: LangFlow
+name: langflow
 canonical_url: https://github.com/langflow-ai/langflow
 identity:
   github_repo: langflow-ai/langflow
 provenance:
   discoveries:
-    - id: discovery__github__logspace-ai__langflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__langflow-ai__langflow__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -21,8 +21,8 @@ provenance:
         extracted_url: https://github.com/logspace-ai/langflow
         surrounding_text: "| [LangFlow](https://github.com/logspace-ai/langflow)                | An effortless way to experiment and prototype LangChain flows with drag-and-drop components and a chat interface.                                                                                                                                                                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/logspace-ai/langflow.svg?style=flat-square)           |"
         confidence: high
-    - id: discovery__github__logspace-ai__langflow__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__langflow-ai__langflow__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 147721
-    forks: 8907
+    stars: 147778
+    forks: 8915
     license: MIT
     archived: false
     created_at: "2023-02-08T22:28:03Z"
-    pushed_at: "2026-05-05T20:58:39Z"
+    pushed_at: "2026-05-06T22:37:32Z"
     description: Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
     homepage: http://www.langflow.org
     topics:
@@ -54,54 +54,50 @@ metadata:
       - large-language-models
       - multiagent
       - react-flow
-    last_checked_at: "2026-05-05T21:03:23.964Z"
+    last_checked_at: "2026-05-06T22:44:55.188Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.964Z"
+      fetched_at: "2026-05-06T22:44:55.188Z"
       bytes: 4729
 insights:
-  summary: Langflow is a visual platform for building and deploying AI agents and workflows, offering a drag-and-drop interface, Python customization, and deployment options as APIs or MCP servers.
-  why_it_matters: It allows developers to rapidly prototype, test, and integrate multi-agent systems and LLM workflows into existing applications without writing extensive boilerplate code.
-  mental_damage: Yet another visual 'no-code' bridge to justify why your team now needs three different flowcharts to debug a single API call.
+  summary: Langflow is a visual platform for building and deploying AI-powered agents and workflows, featuring a drag-and-drop builder, multi-agent orchestration, and built-in API and MCP server capabilities.
+  why_it_matters: It allows developers to visually prototype and deploy complex agentic workflows and tools that can be integrated into any stack via API or MCP, bridging the gap between low-code and Python customization.
+  mental_damage: Yet another visual 'flow builder' promising to liberate you from writing Python, only to gently guide you back to writing Python to customize the components anyway.
   tags:
     - agents
-    - llm
+    - workflows
     - low-code
     - mcp
-    - visual-builder
-    - workflows
+    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: Langflow is a user-facing platform and workbench for coordinating agents and tasks via a visual interface, fitting the Agent Orchestration category rather than a code-first SDK or a primary coding assistant.
+  reason: Langflow is a canonical workbench and control plane for visually building, orchestrating, and deploying multi-agent workflows, fitting the 'operated workbench' definition of Agent Orchestration.
   evidence:
     - Repo description explicitly states it is a tool for 'building and deploying AI-powered agents and workflows'.
-    - README highlights a 'Visual builder interface' and 'Multi-agent orchestration' as core features.
-    - README notes it can 'Deploy as an MCP server' and turn flows into tools, acting as an operational platform.
-    - Repo description states it is 'a powerful tool for building and deploying AI-powered agents and workflows.'
-    - README highlights visual builder interface, multi-agent orchestration, and 'Deploy as an MCP server' as core features.
-    - Listed under 'Tools > Low-code' in awesome-langchain and 'LLMOps' in Awesome-LLMOps, showing ecosystem recognition as an orchestration platform.
+    - README highlights 'Visual builder interface', 'Multi-agent orchestration', and 'Deploy as an MCP server' as core features.
+    - Cited in Awesome-LLMOps under 'Tools > Low-code' and listed as a canonical positive in the Agent Orchestration category.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (147721) exceeded threshold (150)
+  reason: Stars (147778) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:34.629Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.590Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.964Z"
+    updated_at: "2026-05-06T22:44:55.188Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:35.345Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

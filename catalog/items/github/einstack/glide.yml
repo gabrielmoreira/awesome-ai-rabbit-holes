@@ -1,13 +1,13 @@
 id: github__einstack__glide
 kind: github-repo
-name: Glide
+name: glide
 canonical_url: https://github.com/einstack/glide
 identity:
   github_repo: einstack/glide
 provenance:
   discoveries:
     - id: discovery__github__einstack__glide__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -44,50 +44,50 @@ metadata:
       - ml
       - mlops
       - router
-    last_checked_at: "2026-05-05T21:02:00.550Z"
+    last_checked_at: "2026-05-06T22:43:44.450Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.550Z"
+      fetched_at: "2026-05-06T22:43:44.450Z"
       bytes: 10400
 insights:
-  summary: Glide is a cloud-native Go LLM gateway that provides a unified REST API across multiple model providers, handling failover, caching, and key management for production GenAI applications.
-  why_it_matters: It abstracts away provider-specific APIs and transient errors so developers can swap LLM backends without touching application code while gaining production-grade resilience.
-  mental_damage: Yet another layer of infrastructure promising to make your AI stack resilient, just in case the six other abstractions between you and the model weights fail simultaneously.
+  summary: Glide is a cloud-native, high-performance LLM gateway written in Go that provides a unified REST API across model providers with built-in failover, caching, and key management.
+  why_it_matters: It abstracts away provider-specific APIs and transient errors, letting developers swap LLM backends without touching application code while maintaining production-grade resiliency.
+  mental_damage: Yet another abstraction layer promising to solve the 'which model provider won't ruin my weekend' problem, because clearly what your stack needed was one more middleman between you and the model.
   tags:
-    - cloud-native
-    - genai
-    - go
     - llm-gateway
     - llmops
-  confidence: medium
+    - go
+    - cloud-native
+    - model-router
+  confidence: high
 curation:
   status: included
-  reason: Glide is a developer-facing framework and gateway SDK/component for embedding LLM communication and resilience logic into applications, fitting the code-first building block mold.
+  reason: Glide is a provider abstraction and model gateway that developers use as a code-first infrastructure layer to standardize LLM access, fitting the Provider / Model Abstractions section of Frameworks & SDKs.
   evidence:
-    - Repo description explicitly calls it an 'open blazing-fast simple model gateway for rapid development of production GenAI apps'.
-    - README positions it as a component that sits between the application and providers with configurable caching, failover, and key management.
-    - Listed in Awesome-LLMOps under the LLMOps section, indicating strong ecosystem fit for developer infrastructure.
+    - Repo description calls it 'a open blazing-fast simple model gateway for rapid development of production GenAI apps'.
+    - README states Glide 'sits between your application and model providers' with unified REST API, failover, caching, and key management.
+    - Listed in Awesome-LLMOps under the LLMOps section, aligning with provider abstraction and ops tooling.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (159) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:43.836Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.550Z"
+    updated_at: "2026-05-06T22:43:44.450Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:00.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

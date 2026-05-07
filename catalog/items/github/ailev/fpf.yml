@@ -1,13 +1,13 @@
 id: github__ailev__fpf
 kind: github-repo
-name: FPF
+name: fpf
 canonical_url: https://github.com/ailev/fpf
 identity:
   github_repo: ailev/fpf
 provenance:
   discoveries:
     - id: discovery__github__ailev__fpf__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 346
-    forks: 58
+    stars: 347
+    forks: 59
     license: null
     archived: false
     created_at: "2025-12-01T12:47:55Z"
@@ -44,49 +44,50 @@ metadata:
       - reasoning
       - spec-driven-development
       - systems-engineering
-    last_checked_at: "2026-05-05T21:00:55.721Z"
+    last_checked_at: "2026-05-06T22:12:31.234Z"
     readme:
-      fetched_at: "2026-05-05T21:00:55.721Z"
+      fetched_at: "2026-05-06T22:12:31.234Z"
       bytes: 28806
 insights:
-  summary: First Principles Framework (FPF) is a conceptual specification and reasoning system for structuring open-ended engineering and research work across human and AI teams using bounded contexts, decision records, and auditable reasoning.
-  why_it_matters: It provides a structured, spec-driven methodology for teams to align vocabulary, responsibilities, and decision criteria when collaborating with AI agents on complex, long-running problems.
-  mental_damage: Because the missing piece in your AI-assisted workflow was definitely a 30-pattern ontological framework to prevent your LLM from forgetting what 'boundary' means.
+  summary: First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams.
+  why_it_matters: It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
+  mental_damage: Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo.
   tags:
-    - agent-orchestration
+    - spec-driven
     - decision-records
     - human-ai-collab
-    - spec-driven
+    - auditability
+    - systems-engineering
   confidence: high
 curation:
   status: included
-  reason: The project is a specification-first methodology and conceptual kernel for guiding engineering work and AI collaboration, fitting the spec-driven-development scope rather than a direct coding agent.
+  reason: The repository is a normative conceptual specification and pattern system for spec-driven, auditable reasoning, aligning directly with the Spec-Driven Development category.
   evidence:
-    - Repo description defines it as an 'Operating system for open-ended thought' focused on 'spec-driven development' and 'auditable reasoning'.
-    - README emphasizes turning vague problems into 'bounded-context maps', 'decision criteria', and 'durable working forms' like UTS or DRR.
-    - Listed in the 'awesome-spec-driven-development' list under the 'Standards' section.
+    - Repo description explicitly calls it an 'operating system for open-ended thought' focused on bounded contexts, auditable reasoning, and decision records.
+    - README positions FPF as a spec-first system for stabilizing vocabulary, alternatives, evidence gaps, and durable outputs like DRRs and UTS documents.
+    - Listed in the awesome-spec-driven-development directory under the 'Standards' section, reinforcing its spec-driven identity.
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
-  reason: Stars (346) exceeded threshold (150)
+  reason: Stars (347) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:06:58.052Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:55.721Z"
+    updated_at: "2026-05-06T22:12:31.234Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:19:56.095Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

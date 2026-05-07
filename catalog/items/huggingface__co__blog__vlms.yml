@@ -1,0 +1,78 @@
+id: huggingface__co__blog__vlms
+kind: website
+name: vlms
+canonical_url: https://huggingface.co/blog/vlms
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__blog__vlms__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: Fine-tuning visual language models using SFTTrainer
+        extracted_url: https://huggingface.co/blog/vlms
+        surrounding_text: 28. [Fine-tuning visual language models using SFTTrainer](https://huggingface.co/blog/vlms) 【[docs](https://huggingface.co/docs/trl/sft_trainer#extending-sfttrainer-for-vision-language-models)】
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Hugging Face blog post explaining what vision language models are, surveying open-source VLMs, and demonstrating how to run inference and fine-tune them using transformers and TRL.
+  why_it_matters: Developers evaluating or fine-tuning multimodal models get a single reference for model selection, benchmarks, and practical code samples.
+  mental_damage: Another reminder that while you're wiring up yet another LLM wrapper, entire classes of models are evolving that can actually see the tickets you keep ignoring.
+  tags:
+    - vision-language-models
+    - multimodal
+    - fine-tuning
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational blog post and ecosystem overview, not a standalone developer tool, product, or reusable toolkit.
+  evidence:
+    - The source is a Hugging Face blog post titled 'Vision Language Models Explained', not a repo or product.
+    - Content is documentation and tutorials for using transformers/TRL, not a tool with its own identity.
+    - Listed in awesome-LLM-resources as a general resource under 'Tips', not as a product or directory.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:55.446Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -6,8 +6,8 @@ identity:
   github_repo: inoyu-dev/inoyu-mcp-unomi-server
 provenance:
   discoveries:
-    - id: discovery__github__sergehuber__inoyu-mcp-unomi-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__inoyu-dev__inoyu-mcp-unomi-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/sergehuber/inoyu-mcp-unomi-server
         surrounding_text: "- [sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server) 📇 ☁️ - An MCP server to access and updates profiles on an Apache Unomi CDP server."
         confidence: high
-    - id: discovery__github__sergehuber__inoyu-mcp-unomi-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__inoyu-dev__inoyu-mcp-unomi-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -37,22 +37,6 @@ provenance:
         extracted_url: https://github.com/sergehuber/inoyu-mcp-unomi-server
         surrounding_text: "-   **[sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server)** [![GitHub stars](https://img.shields.io/github/stars/sergehuber/inoyu-mcp-unomi-server?style=social)](https://github.com/sergehuber/inoyu-mcp-unomi-server): Accesses and updates user profiles on an Apache Unomi CDP server."
         confidence: high
-    - id: discovery__github__inoyu-dev__inoyu-mcp-unomi-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
-        anchor_text: sergehuber/inoyu-mcp-unomi-server
-        extracted_url: https://github.com/sergehuber/inoyu-mcp-unomi-server
-        surrounding_text: "- [sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server) 📇 ☁️ - An MCP server to access and updates profiles on an Apache Unomi CDP server."
-        confidence: high
 metadata:
   github:
     stars: 8
@@ -64,49 +48,49 @@ metadata:
     description: An implementation of Anthropic's Model Context Protocol for the Apache Unomi CDP
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:44.204Z"
+    last_checked_at: "2026-05-06T22:44:24.167Z"
     readme:
-      fetched_at: "2026-05-05T21:02:44.204Z"
+      fetched_at: "2026-05-06T22:44:24.167Z"
       bytes: 17360
 insights:
-  summary: An MCP server that allows Claude to read and update user profiles and consent data stored in an Apache Unomi customer data platform.
-  why_it_matters: It lets developers connect conversational AI workflows to existing customer profiles and GDPR consent states without building a custom Unomi integration.
-  mental_damage: We have successfully abstracted the abstraction, so your AI can now argue with your customer data platform about whether a user agreed to marketing emails.
+  summary: An MCP server that connects Claude to Apache Unomi to enable profile lookup, property management, consent handling, and session tracking via the Model Context Protocol.
+  why_it_matters: It lets developers experiment with bringing customer data platform context into Claude Desktop without building a custom Unomi integration from scratch.
+  mental_damage: We have successfully built an integration so Claude can ask your consent status in the same afternoon you realize your CDP is underutilized and your AI tooling is overintegrated.
   tags:
-    - cdp
-    - context
     - mcp
+    - customer-data-platform
     - unomi
-  confidence: high
+    - claude-desktop
+  confidence: medium
 curation:
   status: included
-  reason: This is a clear implementation of the Model Context Protocol server for Apache Unomi, fitting squarely into the MCP servers and tooling category.
+  reason: This is a purpose-built MCP server for a specific domain (Apache Unomi CDP), making it a clean fit for MCP Servers & Tooling as a domain server.
   evidence:
-    - Repo description explicitly states it is 'An implementation of Anthropic's Model Context Protocol for the Apache Unomi CDP'.
-    - README documents MCP tools like get_my_profile and update_consent for Claude Desktop integration.
-    - Project is active (pushed 2025-09-12) and not archived, despite low star count (8).
+    - "Repo description explicitly says: 'An implementation of Anthropic's Model Context Protocol for the Apache Unomi CDP'"
+    - README demonstrates MCP server tools like get_my_profile, update_consent, and search_profiles for Claude Desktop
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Customer Data Platforms sections
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:26:04.189Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:44.204Z"
+    updated_at: "2026-05-06T22:44:24.167Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:02:13.309Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

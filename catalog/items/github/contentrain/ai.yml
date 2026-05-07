@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__contentrain__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -47,50 +47,50 @@ metadata:
       - sdk
       - typescript
       - windsurf
-    last_checked_at: "2026-05-05T21:01:41.029Z"
+    last_checked_at: "2026-05-06T22:43:27.973Z"
     readme:
-      fetched_at: "2026-05-05T21:01:41.029Z"
+      fetched_at: "2026-05-06T22:43:27.973Z"
       bytes: 12342
 insights:
-  summary: A repo-native content governance tool that uses an MCP server to help AI agents extract, structure, and review UI text and documentation stored in Git.
-  why_it_matters: It allows developers to delegate the tedious extraction of hardcoded strings to AI agents while enforcing schema validation and human review via standard Git workflows.
-  mental_damage: "Finally, an agentic workflow to solve the hardest problem in computer science: getting developers to stop hardcoding 'Welcome to our platform' directly into the JSX."
+  summary: A developer tool that extracts hardcoded UI text and docs from a codebase into structured, git-backed content files, exposing itself to AI agents via a Model Context Protocol server.
+  why_it_matters: It lets teams delegate the tedious job of normalizing and translating scattered copy to agents while enforcing schema, review, and portable JSON/Markdown output.
+  mental_damage: We have finally built an agentic workflow to solve the ancient tragedy of hardcoding strings, and it still requires a human to review the PR.
   tags:
     - mcp
     - content-governance
-    - git
     - i18n
-    - agent-tools
-  confidence: high
+    - git
+    - typescript
+  confidence: medium
 curation:
   status: included
-  reason: The project is fundamentally an MCP server implementation that provides 17 tools for agents to interact with a git-based content layer.
+  reason: The product identity is a content-governance tool that exposes 17 MCP tools to agents like Claude Code and Cursor, making MCP the primary adopted interface rather than a footnote.
   evidence:
-    - Repo description explicitly states 'Repo-native content governance for AI agents' and lists 'mcp-server' in topics.
-    - README details an architecture where an 'AI Agent' interacts via 'MCP (17 tools)' to enforce schemas and git workflows.
-    - Listed in 'awesome-mcp-servers' under the 'Developer Tools' section.
+    - Repo description states 'Repo-native content governance for AI agents' with MCP-related topics including mcp-server and model-context-protocol.
+    - README diagram shows Agent → MCP (17 tools) → .contentrain/ as the core workflow.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:41.029Z"
+    updated_at: "2026-05-06T22:43:27.973Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:21.252Z"
+    updated_at: "2026-05-06T22:50:34.421Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

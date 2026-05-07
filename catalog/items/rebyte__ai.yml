@@ -1,12 +1,12 @@
 id: rebyte__ai
 kind: website
-name: Rebyte
+name: rebyte.ai
 canonical_url: https://rebyte.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__rebyte__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rebyte is a platform that provisions isolated 'agent computers' pre-harnessed with tools like Claude Code and Gemini CLI, allowing developers to orchestrate teams of these agents to ship code and automate tasks.
-  why_it_matters: It offers a multi-agent runtime where developers can delegate complex coding tasks and operations across isolated environments without managing local infrastructure.
-  mental_damage: We have successfully abstracted the computer so far away that we now need a specialized platform just to manage the agents that are currently managing our prompts.
+  summary: Rebyte is a platform that provisions isolated 'agent computers'—virtual environments pre-harnessed with coding agents like Claude Code, Gemini CLI, or Codex—to handle code shipping, routine tasks, and multi-agent workflows.
+  why_it_matters: It provides a governed, multi-agent infrastructure that lets teams isolate coding agents in their own environments with shared file spaces and private networking, moving beyond single-desktop assistant usage.
+  mental_damage: We have successfully abstracted the computer so far that we now pay a monthly fee to rent a machine that has no keyboard, mouse, or monitor, just so we can watch a bot use Claude Code on it.
   tags:
-    - agent-orchestration
-    - coding-agents
-    - infrastructure
     - multi-agent
-  confidence: high
+    - infrastructure
+    - claude-code
+    - remote-agents
+  confidence: medium
 curation:
   status: included
-  reason: While it uses coding agents, the primary product is a platform for coordinating multiple 'agent computers' with networking and governance, fitting the orchestration category.
+  reason: Rebyte is a control plane and runtime platform for coordinating multiple isolated 'agent computers' rather than a single coding assistant or a framework library.
   evidence:
-    - Primary page excerpt describes 'multi-computer with network' and 'Many agents are many computers'.
-    - Listed in awesome-ai-agents under the context of hiring a 'team of agent computers'.
-    - Features include team governance, shared workspaces, and private networks for agent communication.
+    - Scraped site describes it as 'computers with agent harness inside' and explicitly states 'One agent is one computer. Many agents are many computers'.
+    - The platform offers team governance, private networks, shared file spaces, and hand-offs, fitting the 'operated workbench/control plane' definition.
+    - It harnesses existing agents (Claude Code, Gemini CLI, Codex) as the interface layer rather than being a standalone coding assistant itself.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:25.977Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:52.945Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

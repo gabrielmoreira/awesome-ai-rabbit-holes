@@ -1,12 +1,12 @@
 id: magic__dev
 kind: website
-name: Magic
+name: magic.dev
 canonical_url: https://magic.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__magic__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magic is an AI research company developing frontier code models and ultra-long context windows (up to 100M tokens) with the stated goal of automating software engineering and AI research.
-  why_it_matters: If their claimed 100M token context window matures, it could allow entire monorepos to be loaded into context, fundamentally changing how AI assists with large-scale codebases.
-  mental_damage: Just when you optimized your context window to fit in 128k tokens, a company raises $515M to make your meticulous pruning skills entirely obsolete.
+  summary: Magic is an AI research company building frontier code models and ultra-long context systems to automate software engineering and accelerate AI research.
+  why_it_matters: If successful, their 100M+ token context windows and specialized code models could shift how much of the software engineering lifecycle can be fully automated.
+  mental_damage: Yet another AGI startup promising to automate us out of existence, while the rest of us are just trying to get a 100k-token context window to stop hallucinating on our authentication middleware.
   tags:
     - agi
     - code-models
-    - long-context
     - research
+    - long-context
   confidence: high
 curation:
   status: excluded
-  reason: The project is a research company and talent incubator working toward AGI, not a shipping developer tool, IDE plugin, or coding agent available for use.
+  reason: The site describes a research company and its AGI mission rather than a shipping developer tool, IDE, agent, or library that engineers can use today.
   evidence:
-    - The scraped site describes the entity as 'an AI company that is working toward building safe AGI' rather than a product.
-    - The page content focuses on job listings (Research Engineer, Pre-training Systems) and research updates rather than a usable developer tool.
-    - The source list inclusion describes it as a company, and no shipping product, CLI, or editor integration is evident.
+    - Primary page excerpt describes Magic as 'an AI company that is working toward building safe AGI' with no shipping product or CLI.
+    - The content focuses on research updates, funding, and job openings rather than a usable coding assistant or framework.
+    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants', but the underlying site is a corporate research page, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:08.446Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:20.543Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

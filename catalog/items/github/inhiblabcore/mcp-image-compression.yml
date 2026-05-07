@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inhiblabcore__mcp-image-compression__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,14 +33,14 @@ metadata:
     description: A high-performance image compression microservice based on MCP (Modal Context Protocol)
     homepage: https://glama.ai/mcp/servers/@InhiblabCore/mcp-image-compression
     topics: []
-    last_checked_at: "2026-05-05T21:02:43.827Z"
+    last_checked_at: "2026-05-06T22:44:23.905Z"
     readme:
-      fetched_at: "2026-05-05T21:02:43.827Z"
+      fetched_at: "2026-05-06T22:44:23.905Z"
       bytes: 1966
 insights:
-  summary: An MCP server that provides image compression capabilities, supporting multiple formats (JPEG, PNG, WebP, AVIF) with configurable quality settings for AI agents and developer workflows.
-  why_it_matters: It allows AI agents and developer tools to programmatically compress images via the Model Context Protocol, offloading image optimization tasks to a dedicated microservice.
-  mental_damage: We have successfully abstracted image compression into a protocol-defined microservice so your AI agent can spend tokens deciding whether your PNG should be a WebP instead of you just running a build script.
+  summary: A Model Context Protocol (MCP) server that provides high-performance image compression capabilities for JPEG, PNG, WebP, and AVIF formats.
+  why_it_matters: It lets coding agents and AI workflows offload image optimization to a local microservice, streamlining asset handling without leaving the development environment.
+  mental_damage: Now your agent can waste tokens debating compression quality while your CI pipeline sits idle, waiting for a 50KB savings on a hero image.
   tags:
     - mcp
     - image-compression
@@ -49,33 +49,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation providing image compression as a tool for MCP-compatible clients and agents.
+  reason: The product is an MCP server specifically built to expose image compression as a tool for AI assistants, fitting the Domain Servers section.
   evidence:
-    - Repo description explicitly states it is 'a high-performance image compression microservice based on MCP (Modal Context Protocol)'
-    - README defines an `image_compression` tool with inputs for URLs, quality, and format, returning compressed image URLs
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - "Repo description explicitly states: 'A high-performance image compression microservice based on MCP (Modal Context Protocol)'."
+    - README features an `image_compression` tool intended for integration via an `mcpServers` JSON config.
+    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:43.827Z"
+    updated_at: "2026-05-06T22:44:23.905Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:26:03.327Z"
+    updated_at: "2026-05-06T23:02:09.274Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

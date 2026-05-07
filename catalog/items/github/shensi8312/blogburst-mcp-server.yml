@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shensi8312__blogburst-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T13:17:13Z"
+    pushed_at: "2026-03-31T10:34:51Z"
+    description: Official MCP server for BlogBurst — AI content generation, repurposing, and multi-platform publishing
+    homepage: https://blogburst.ai
+    topics:
+      - ai
+      - blog
+      - blogburst
+      - content-generation
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - social-media
+    last_checked_at: "2026-05-06T22:46:22.880Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:22.880Z"
+      bytes: 3994
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An official MCP server that exposes the BlogBurst AI marketing agent's content generation, repurposing, and multi-platform publishing capabilities to MCP-compatible clients like Claude Desktop.
+  why_it_matters: It allows developers to automate social media marketing workflows—generating blogs, repurposing URLs into platform-specific posts, and managing auto-pilot scheduling—directly from their AI assistant chat.
+  mental_damage: We have successfully abstracted the tedious work of writing and repurposing content into an MCP tool, meaning the only thing left for the human to do is wonder when the AI will start automating the 'why did we build this product' blog post.
+  tags:
+    - mcp
+    - marketing
+    - content-generation
+    - blogging
+    - social-media
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The repository is an official MCP server implementation designed to give MCP clients access to the BlogBurst marketing platform, fitting the MCP infrastructure definition.
+  evidence:
+    - Repo description explicitly states 'Official MCP server for BlogBurst'.
+    - README confirms it is a Model Context Protocol server configured for Claude Desktop via claude_desktop_config.json.
+    - Listed in awesome-mcp-servers under 'Marketing' section, confirming ecosystem recognition as an MCP implementation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.647Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:22.880Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:18.333Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

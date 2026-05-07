@@ -1,13 +1,13 @@
 id: github__tadata-org__fastapi_mcp
 kind: github-repo
-name: FastAPI-MCP
+name: fastapi_mcp
 canonical_url: https://github.com/tadata-org/fastapi_mcp
 identity:
   github_repo: tadata-org/fastapi_mcp
 provenance:
   discoveries:
     - id: discovery__github__tadata-org__fastapi_mcp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,47 +23,72 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11844
+    forks: 944
+    license: MIT
+    archived: false
+    created_at: "2025-03-08T11:15:43Z"
+    pushed_at: "2025-11-24T14:51:54Z"
+    description: Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!
+    homepage: https://fastapi-mcp.tadata.com/
+    topics:
+      - ai
+      - authentication
+      - authorization
+      - claude
+      - cursor
+      - fastapi
+      - llm
+      - mcp
+      - mcp-server
+      - mcp-servers
+      - modelcontextprotocol
+      - openapi
+      - windsurf
+    last_checked_at: "2026-05-06T22:46:39.915Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:39.915Z"
+      bytes: 4572
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: FastAPI-MCP is a Python library that automatically exposes FastAPI endpoints as Model Context Protocol (MCP) tools with built-in authentication support.
+  why_it_matters: It allows developers to instantly turn existing FastAPI services into MCP-compatible tools without manually rewriting endpoints, bridging the gap between standard web APIs and AI agent tooling.
+  mental_damage: Now you can spend your afternoon watching an AI agent call your own endpoints via MCP instead of just reading your Swagger docs like a normal person.
+  tags:
+    - fastapi
+    - mcp
+    - python
+    - tooling
+    - api
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is MCP infrastructure, specifically a server middleware that bridges FastAPI applications to the Model Context Protocol.
+  evidence:
+    - "Repo description explicitly states: 'Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!'"
+    - Topics include 'mcp', 'mcp-server', 'mcp-servers', and 'modelcontextprotocol', confirming MCP as the product identity.
+    - README emphasizes it is 'FastAPI-native' and designed to mount an MCP server directly to a FastAPI app.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11844) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:39.915Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:23.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

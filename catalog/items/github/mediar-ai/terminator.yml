@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mediar-ai__terminator__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,50 +44,50 @@ metadata:
       - ts
       - vercel
       - vercel-ai-sdk
-    last_checked_at: "2026-05-05T21:03:34.396Z"
+    last_checked_at: "2026-05-06T22:45:12.833Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.396Z"
+      fetched_at: "2026-05-06T22:45:12.833Z"
       bytes: 9134
 insights:
-  summary: A native Windows desktop automation toolkit that exposes computer-use capabilities via a Model Context Protocol server, allowing AI assistants to control applications without taking over the user's cursor.
-  why_it_matters: It gives coding agents like Claude and Cursor the ability to automate cross-application desktop workflows—such as checking Vercel logs or spinning up cloud instances—using deterministic code with AI-assisted recovery.
-  mental_damage: We have successfully built a 'Playwright for Windows' so that your AI can click through GCP console dialogs while you pray it doesn't accidentally delete the production project.
+  summary: A Windows-native desktop automation layer that exposes the full OS environment as an MCP server so AI assistants can control apps, browsers, and workflows without taking over the user's cursor.
+  why_it_matters: It lets developers hand off cross-application desktop tasks to coding agents by giving them deterministic, pixel-to-accessibility-tree control over the local machine.
+  mental_damage: We have finally built a tool that lets your AI agent silently click through your GCP console while you pray it doesn't decide to 'optimize' your production infrastructure.
   tags:
     - mcp
+    - computer-use
     - desktop-automation
     - windows
-    - computer-use
-    - rust
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The project's primary artifact is a native desktop automation toolkit packaged and distributed specifically as an MCP server for AI clients like Cursor and VS Code.
+  reason: The core product is an MCP integration that gives existing coding assistants host-level desktop control, making it an extension of the assistant rather than the primary coding agent itself.
   evidence:
-    - Repo description explicitly labels it as 'playwright for windows computer use' and it is listed under 'MCP Servers' in awesome-mcp-servers.
-    - README highlights one-click 'Install MCP' badges for Cursor and VS Code and provides the standard 'claude mcp add' installation command.
-    - The tool exposes desktop control (DOM, Accessibility tree, pixels) via the terminator-mcp-agent package rather than acting as a standalone coding agent.
+    - Repo description explicitly calls it 'playwright for windows computer use' focused on desktop automation.
+    - README positions it as 'Computer Use MCP that controls your entire desktop' installed into Claude, Cursor, and VS Code.
+    - Source list places it in awesome-mcp-servers under Coding Agents, but its MCP integration identity and host-control scope align better with Extensions & Integrations.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (1431) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.396Z"
+    updated_at: "2026-05-06T22:45:12.833Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:40.854Z"
+    updated_at: "2026-05-06T23:12:50.889Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

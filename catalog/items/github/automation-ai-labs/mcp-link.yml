@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automation-ai-labs__mcp-link__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,49 +36,49 @@ metadata:
       - agents
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:12.749Z"
+    last_checked_at: "2026-05-06T22:12:45.791Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.749Z"
+      fetched_at: "2026-05-06T22:12:45.791Z"
       bytes: 4224
 insights:
-  summary: A tool that automatically converts OpenAPI V3 specifications into MCP-compatible servers, allowing existing REST APIs to be consumed by AI agents.
-  why_it_matters: It eliminates the manual drudgery of writing custom MCP wrappers by letting developers instantly bridge any documented API into the AI agent ecosystem.
-  mental_damage: We have successfully automated the automation layer, meaning you can now expose a thirty-year-old CRUD API to an LLM without ever understanding either the API or the protocol.
+  summary: A tool that automatically converts OpenAPI V3 specifications into MCP-compatible servers, allowing existing REST APIs to be used by AI agents without code modifications.
+  why_it_matters: It bridges the gap between the vast ecosystem of existing REST APIs and the emerging MCP standard, letting developers instantly give agents access to any API with a spec.
+  mental_damage: We have reached the point of building infrastructure to convert our infrastructure into a format that lets AI agents talk to our infrastructure.
   tags:
     - mcp
     - openapi
-    - api-integration
-    - tooling
+    - api-bridge
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP toolkit that solves the specific problem of converting OpenAPI specs into MCP servers, fitting the 'MCP Servers and Tooling' category cleanly.
+  reason: The product's primary identity is converting APIs into MCP servers, fitting perfectly as MCP infrastructure rather than a generic framework or extension.
   evidence:
-    - "Repo description explicitly states: 'Convert Any OpenAPI V3 API to MCP Server'."
-    - "README claims 'Automatic Conversion: Generate complete MCP Servers based on OpenAPI Schema'."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'Convert Any OpenAPI V3 API to MCP Server'.
+    - "README highlights 'Automatic Conversion: Generate complete MCP Servers based on OpenAPI Schema'."
+    - Included in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (605) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.749Z"
+    updated_at: "2026-05-06T22:12:45.791Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:34.472Z"
+    updated_at: "2026-05-06T22:22:50.096Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

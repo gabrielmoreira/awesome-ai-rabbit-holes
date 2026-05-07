@@ -1,13 +1,13 @@
 id: github__anaisbetts__mcp-installer
 kind: github-repo
-name: MCP Installer
+name: mcp-installer
 canonical_url: https://github.com/anaisbetts/mcp-installer
 identity:
   github_repo: anaisbetts/mcp-installer
 provenance:
   discoveries:
     - id: discovery__github__anaisbetts__mcp-installer__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1518
+    stars: 1517
     forks: 193
     license: MIT
     archived: false
@@ -32,49 +32,49 @@ metadata:
     description: An MCP server that installs other MCP servers for you
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:02.972Z"
+    last_checked_at: "2026-05-06T22:12:37.387Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.972Z"
+      fetched_at: "2026-05-06T22:12:37.387Z"
       bytes: 1183
 insights:
-  summary: An MCP server that installs other MCP servers hosted on npm or PyPI directly via Claude Desktop.
-  why_it_matters: It streamlines the setup of the MCP ecosystem by letting developers delegate the installation and configuration of new servers to the AI assistant itself.
-  mental_damage: We have finally built an AI agent whose primary job is to automate the tedious JSON editing required to set up other AI agents.
+  summary: An MCP server that installs other MCP servers from npm or PyPi when prompted by Claude or similar clients.
+  why_it_matters: It automates the configuration and installation of MCP servers, removing the need to manually edit JSON config files for Claude Desktop.
+  mental_damage: We have now reached the point where we need AI agents specifically to manage the installation of the AI agents that help us code, completing the circle of dependency.
   tags:
-    - claude-desktop
-    - installer
     - mcp
+    - installer
+    - claude
     - tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a core piece of MCP infrastructure designed to install other MCP servers, fitting perfectly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server designed to install other MCP servers, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
     - "Repo description explicitly states: 'An MCP server that installs other MCP servers for you'."
-    - README confirms it requires npx/uv and integrates directly into Claude Desktop config to manage server packages.
-    - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
+    - README confirms it is configured as an `mcpServer` in `claude_desktop_config.json` to install packages from npm/PyPi.
+    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1518) exceeded threshold (150)
+  reason: Stars (1517) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:04.056Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.972Z"
+    updated_at: "2026-05-06T22:12:37.387Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:08.313Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

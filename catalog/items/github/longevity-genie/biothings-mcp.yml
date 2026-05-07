@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longevity-genie__biothings-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - genetic-variants
       - genetics
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:23.974Z"
+    last_checked_at: "2026-05-06T22:45:03.097Z"
     readme:
-      fetched_at: "2026-05-05T21:03:23.974Z"
+      fetched_at: "2026-05-06T22:45:03.097Z"
       bytes: 9946
 insights:
-  summary: An open-source MCP server that provides structured access to BioThings.io biomedical data sources, including gene, variant, chemical, and taxon information.
-  why_it_matters: It allows developers building AI assistants or agents to query authoritative biomedical databases using natural language via the standardized Model Context Protocol.
-  mental_damage: Because nothing says 'streamlined developer workflow' like wrapping niche genetic databases behind a protocol that is somehow both the future and the current source of three weeks of yak-shaving.
+  summary: An MCP server that exposes BioThings.io biomedical data sources (genes, variants, chemicals, taxa) to AI assistants via the Model Context Protocol.
+  why_it_matters: It lets coding agents and MCP clients query authoritative biomedical databases using natural language instead of custom API glue code.
+  mental_damage: Now your AI can confidently hallucinate about your genome with the full authority of a properly typed MCP interface.
   tags:
     - mcp
     - bioinformatics
+    - domain-server
     - biomedical
-    - server
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation for biomedical data, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP server purpose-built to expose biomedical data sources to MCP-compatible clients, which fits cleanly as a domain-specific MCP server.
   evidence:
-    - "Repo description explicitly states: 'MCP (Model Context Protocol) server for biothings'."
-    - README confirms it 'implements the Model Context Protocol (MCP) for BioThings' with multiple interfaces (Gene, Variant, Chem).
-    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics'.
+    - "Repo description states explicitly: 'MCP (Model Context Protocol) server for biothings'"
+    - README describes exposing Gene, Variant, Chemical, and Taxon interfaces via MCP to AI assistants
+    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:23.974Z"
+    updated_at: "2026-05-06T22:45:03.097Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:38.233Z"
+    updated_at: "2026-05-06T23:10:25.962Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: backyard__ai
 kind: website
-name: faradav
+name: backyard.ai
 canonical_url: https://backyard.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__backyard__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Backyard AI is a platform for creating and chatting with immersive, fictional AI characters using text and voice, featuring tools like lorebooks, author's notes, and custom grammars.
-  why_it_matters: While it offers advanced local model parameter controls and custom prompt grammars, it is strictly targeted at narrative roleplay rather than developer workflows.
-  mental_damage: We have reached a point where 'no filters' character chat apps are being curated alongside agent orchestration frameworks, just in case you wanted your local LLM to roleplay as an Elf guard instead of fixing a null pointer exception.
+  summary: Backyard AI is a desktop and mobile app for creating and chatting with customizable AI characters using local models, featuring tools like Lorebooks and custom grammars for storytelling.
+  why_it_matters: It provides developers with a local-first runtime and UI for experimenting with character-level prompt engineering, context injection via Lorebooks, and response structuring via grammars.
+  mental_damage: "Just what the ecosystem needed: yet another local chat UI to distract you from your IDE while you perfect the 'suspicious elf guard' persona instead of fixing that P0 bug."
   tags:
-    - characters
-    - chat
     - local-ai
-    - roleplay
+    - character-chat
+    - prompt-engineering
+    - storytelling
   confidence: high
 curation:
   status: excluded
-  reason: Despite appearing in an awesome-local-ai list, the product is a consumer-facing roleplay and character chat app with no developer tooling, coding, or infrastructure utility.
+  reason: Excluded because the product is a consumer-facing character roleplay app with no meaningful developer tooling workflow, IDE integration, or coding utility.
   evidence:
-    - Scraped site description explicitly states 'Create Immersive AI-Powered Characters - Fictional Text & Voice Chats With No Filters'.
-    - Site excerpt focuses on narrative features like 'Lorebooks', 'Author's Note', and 'Dynamic Voices' for story immersion.
-    - Source-list context places it under 'Inference UI' specifically for 'Fictional Text & Voice Chats', not developer productivity.
+    - Scraped site description explicitly targets 'Fictional Text & Voice Chats' and 'Immersive AI-Powered Characters', not developer workflows.
+    - Feature set focuses on Lorebooks, Author's Notes, and Grammars for storytelling, with no code editing, repo management, or dev infrastructure.
+    - Source list context places it under 'Inference UI' specifically for 'Fictional Text & Voice Chats', confirming its identity as a creative/chat tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:25.884Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:34.150Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

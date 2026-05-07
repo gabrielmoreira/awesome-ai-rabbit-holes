@@ -1,12 +1,12 @@
 id: cronai__nu__vercel__app
 kind: website
-name: CronAI
+name: cronai-nu.vercel.app
 canonical_url: https://cronai-nu.vercel.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cronai__nu__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based tool that converts plain English scheduling descriptions into standard 5-field cron expressions for use with Linux crontab, GitHub Actions, AWS CloudWatch, and other cron-compatible systems.
-  why_it_matters: It removes the friction of recalling arcane cron syntax, letting developers describe schedules in natural language and instantly get expressions ready for deployment.
-  mental_damage: We have successfully reached the point where generating a line of cron text requires a hosted AI application, as if memorizing five fields was the true bottleneck in our infrastructure lives.
+  summary: A simple web tool that converts plain English scheduling descriptions into standard cron expressions for use in crontab, GitHub Actions, and Kubernetes CronJobs.
+  why_it_matters: It removes the friction of manually calculating 5-field cron syntax, allowing developers to describe schedules in natural language and copy the output directly into their configs.
+  mental_damage: We have reached the point where developers need a large language model to configure a timer that has been documented since 1979.
   tags:
     - cron
-    - developer-tool
-    - natural-language
     - scheduling
+    - utilities
+    - natural-language
   confidence: high
 curation:
   status: excluded
-  reason: While useful, this is a narrow utility for generating cron strings and does not qualify as a coding agent, app builder, or developer workflow platform within the catalog's scope.
+  reason: This is a general-purpose utility for generating cron strings, not a developer-facing AI coding tool, agent, or infrastructure component.
   evidence:
-    - Primary page excerpt describes the tool solely as a plain English to cron expression generator.
-    - Catalog scope focuses on coding agents, app builders, agent orchestration, and developer workflow automation, not single-purpose syntax converters.
-    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but the catalog reserves inclusion for more substantial developer-facing AI tooling.
+    - The site describes itself as a 'Free Cron Expression Generator' for converting English to cron syntax.
+    - The tool targets any cron-compatible system (Linux, AWS, Kubernetes) rather than a specific coding workflow or IDE.
+    - It lacks the identity of a coding assistant, framework, or agent orchestration platform.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:21.561Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:42.395Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__lingodotdev__lingo.dev
 kind: github-repo
-name: Lingo.dev
+name: lingo.dev
 canonical_url: https://github.com/lingodotdev/lingo.dev
 identity:
   github_repo: lingodotdev/lingo.dev
 provenance:
   discoveries:
     - id: discovery__github__lingodotdev__lingo.dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5405
+    stars: 5404
     forks: 837
     license: Apache-2.0
     archived: false
@@ -37,50 +37,50 @@ metadata:
       - react
       - react-native
       - typescript
-    last_checked_at: "2026-05-05T21:03:20.843Z"
+    last_checked_at: "2026-05-06T22:45:00.000Z"
     readme:
-      fetched_at: "2026-05-05T21:03:20.843Z"
+      fetched_at: "2026-05-06T22:45:00.000Z"
       bytes: 7489
 insights:
-  summary: An open-source localization platform providing a CLI, GitHub Action, React compiler, API, and an MCP server to automate and manage translations for developer projects.
-  why_it_matters: It integrates AI and LLMs directly into the localization workflow, allowing developers to automate i18n setup and translation updates via CLI, CI/CD, or AI coding assistants.
-  mental_damage: Just when you thought 'vibe coding' couldn't get more specific, you now need an AI agent specifically to teach your other AI agent how to handle `next-i18n` without hallucinating the router.
+  summary: A suite of developer tools for localizing applications, including a CLI, GitHub Action, React compiler, and an MCP server that provides AI assistants with structured i18n knowledge for frameworks like Next.js and React Router.
+  why_it_matters: It automates the tedious cycle of extracting, translating, and syncing strings while giving coding agents the framework-specific context they need to stop hallucinating broken i18n setups.
+  mental_damage: We have finally solved the ancient rite of software localization by teaching our AI assistants how to properly configure React Router, ensuring our apps speak 40 languages but still crash in production.
   tags:
-    - cli
     - i18n
     - localization
     - mcp
+    - cli
     - react
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly listed in 'awesome-mcp-servers' and provides a dedicated MCP server (Lingo React MCP) to give AI assistants structured access to i18n knowledge, fitting the MCP infrastructure definition.
+  reason: While it is a full localization platform, its inclusion here is driven by the 'Lingo React MCP' which serves as a domain-specific MCP server giving AI assistants structured i18n knowledge.
   evidence:
-    - Listed in 'awesome-mcp-servers' under 'Official Servers' section.
-    - README explicitly details 'Lingo.dev MCP' as a tool for Claude Code, Cursor, and Copilot.
-    - Repo is active (pushed 2026-04-27) and has significant traction (5405 stars).
+    - Repo description defines it as 'Open-source localization engineering tools' with an MCP component.
+    - README explicitly details 'Lingo React MCP' for Claude Code, Cursor, and Copilot with framework-specific i18n knowledge.
+    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5405) exceeded threshold (150)
+  reason: Stars (5404) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:02.398Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:20.843Z"
+    updated_at: "2026-05-06T22:45:00.000Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:09:43.430Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,82 @@
+id: github__jimmyma99__train-higgs-audio
+kind: github-repo
+name: train-higgs-audio
+canonical_url: https://github.com/jimmyma99/train-higgs-audio
+identity:
+  github_repo: jimmyma99/train-higgs-audio
+provenance:
+  discoveries:
+    - id: discovery__github__jimmyma99__train-higgs-audio__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 语音 Speech
+          - TTS
+        anchor_text: Training
+        extracted_url: https://github.com/jimmyma99/train-higgs-audio
+        surrounding_text: "16. Higgs Audio V2: https://github.com/boson-ai/higgs-audio 【[Training](https://github.com/JimmyMa99/train-higgs-audio)】"
+        confidence: high
+metadata:
+  github:
+    stars: 119
+    forks: 20
+    license: null
+    archived: false
+    created_at: "2025-07-23T14:59:06Z"
+    pushed_at: "2025-09-04T03:03:29Z"
+    description: Text-audio foundation model from Boson AI
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:44:34.288Z"
+    readme:
+      fetched_at: "2026-05-06T22:44:34.288Z"
+      bytes: 22532
+insights:
+  summary: A training repository and toolkit for fine-tuning and LoRA-adapting the Higgs Audio v2 text-to-speech foundation model.
+  why_it_matters: It gives developers a concrete, reproducible path to fine-tune a 3.6B LLM + 2.2B audio adapter on custom voices and languages with as little as 16GB of VRAM.
+  mental_damage: Yet another reminder that while your coding agent struggles to center a div, we are out here meticulously annotating speaker emotions and reference tones for models that speak better than we do.
+  tags:
+    - tts
+    - fine-tuning
+    - audio-generation
+    - lora
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is a model training and data-processing toolkit for a speech-generation foundation model, which falls outside the catalog's scope of developer-facing AI tooling, agents, and infrastructure.
+  evidence:
+    - Repo description states it is a 'Text-audio foundation model from Boson AI', not a developer tool or agent.
+    - README focuses entirely on data formatting, LoRA training scripts, and audio adapter fine-tuning, with no coding-agent or developer-workflow angle.
+    - Seen only in an awesome-LLM-resources list under a TTS/speech section, not in any developer-tooling or coding-agent directory.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.622Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:44:34.288Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:14.389Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

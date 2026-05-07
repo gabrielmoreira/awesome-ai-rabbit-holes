@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pasympa__discord-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
+    stars: 8
     forks: 3
     license: MIT
     archived: false
@@ -41,50 +41,50 @@ metadata:
       - mcp
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-05-05T21:04:12.820Z"
+    last_checked_at: "2026-05-06T22:45:48.840Z"
     readme:
-      fetched_at: "2026-05-05T21:04:12.820Z"
+      fetched_at: "2026-05-06T22:45:48.840Z"
       bytes: 15549
 insights:
-  summary: An MCP server that exposes 95+ Discord tools—messages, channels, roles, moderation, and more—to MCP-compatible clients like Claude Desktop, Cursor, and VS Code Copilot.
-  why_it_matters: It lets developers manage entire Discord servers through natural language inside their existing AI coding environments instead of building custom bot scripts.
-  mental_damage: You can now get rate-limited and temp-banned from your own Discord community without ever leaving your IDE.
+  summary: A lightweight, multi-guild MCP server with 95+ tools for controlling Discord via natural language across Claude Desktop, Cursor, VS Code, and other MCP-compatible clients.
+  why_it_matters: It allows developers to manage messages, channels, roles, and moderation across multiple Discord servers directly through their coding assistant instead of the Discord UI.
+  mental_damage: We have successfully abstracted away the final remaining joy of manually clicking through server settings by turning Discord administration into a prompt engineering problem.
   tags:
     - mcp
     - discord
     - typescript
     - automation
-    - bot
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server that integrates Discord management into AI developer tools via the Model Context Protocol.
+  reason: This is a domain-specific MCP server that exposes Discord capabilities to MCP-compatible clients, fitting the MCP Servers & Tooling category perfectly.
   evidence:
-    - "Repo description explicitly states: 'MCP server to control Discord — messages, channels, roles, permissions, members, and moderation'"
-    - README positions it as a tool for Claude Desktop, Claude Code, Cursor, and VS Code Copilot via MCP config
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - Repo description explicitly states 'MCP server to control Discord' with 95+ tools per the README.
+    - Listed in awesome-mcp-servers under 'Communication' section.
+    - Supports Claude Desktop, Claude Code, Cursor, and VS Code Copilot as MCP clients per README.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:12.821Z"
+    updated_at: "2026-05-06T22:45:48.840Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:55.762Z"
+    updated_at: "2026-05-06T23:20:56.879Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

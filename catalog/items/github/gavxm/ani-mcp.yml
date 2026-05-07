@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gavxm__ani-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,49 +39,50 @@ metadata:
       - manga
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-05-05T21:02:17.826Z"
+    last_checked_at: "2026-05-06T22:43:59.379Z"
     readme:
-      fetched_at: "2026-05-05T21:02:17.826Z"
+      fetched_at: "2026-05-06T22:43:59.379Z"
       bytes: 12062
 insights:
-  summary: An MCP server for AniList that provides taste-aware anime and manga recommendations, watch analytics, and list management tools for AI assistants.
-  why_it_matters: It lets developers integrate personalized media recommendations and user-specific AniList data into MCP-compatible clients like Claude Desktop and Claude Code.
-  mental_damage: We have finally reached the point where the ecosystem is stable enough to build a taste-aware intelligence layer on top of a niche anime database, but somehow not stable enough to agree on how to handle context windows.
+  summary: An MCP server that adds a taste-aware intelligence layer on top of the AniList API for personalized anime and manga recommendations, watch analytics, and list management.
+  why_it_matters: It gives Claude Desktop and other MCP clients a ready-made way to reason about a user's media preferences instead of just proxying raw API calls.
+  mental_damage: "We have finally solved the hardest engineering problem of our time: asking a state-of-the-art coding assistant what anime to watch next without leaving the IDE."
   tags:
     - mcp
     - anilist
     - recommendation
-    - typescript
+    - entertainment
+    - domain-server
   confidence: high
 curation:
   status: included
-  reason: This is a self-contained MCP server implementation that provides AniList integration with added intelligence layers for AI assistants.
+  reason: The product is explicitly an MCP server for AniList, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'MCP server for AniList with taste-aware recommendations, watch analytics, social tools, and full list management.'"
-    - Included in awesome-mcp-servers under 'Server Implementations > Art & Culture' section.
-    - README demonstrates direct MCP integration with Claude Desktop and Claude Code configurations.
+    - Repo description states it is an 'MCP server for AniList' with recommendations and list management.
+    - README confirms it is an MCP server adding an 'intelligence layer' for AniList and works with Claude Desktop/Code.
+    - Listed in the awesome-mcp-servers directory under 'Art & Culture' domain servers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:17.826Z"
+    updated_at: "2026-05-06T22:43:59.379Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:20:42.690Z"
+    updated_at: "2026-05-06T22:57:06.872Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

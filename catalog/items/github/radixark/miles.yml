@@ -1,13 +1,13 @@
 id: github__radixark__miles
 kind: github-repo
-name: Miles
+name: miles
 canonical_url: https://github.com/radixark/miles
 identity:
   github_repo: radixark/miles
 provenance:
   discoveries:
     - id: discovery__github__radixark__miles__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,49 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1249
+    forks: 185
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-10-09T06:04:57Z"
+    pushed_at: "2026-05-06T14:51:28Z"
+    description: Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:46:05.240Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:05.240Z"
+      bytes: 9523
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Miles is an enterprise-grade reinforcement learning framework for large-scale LLM and VLM post-training, optimized for high-throughput rollout and low-precision training.
+  why_it_matters: It provides the low-level system optimizations and production stability needed to bridge the gap between research-grade RL and scalable model post-training in enterprise environments.
+  mental_damage: Just when you thought your GPU cluster was safe, you now have a framework that turns reinforcement learning into a memory-managed, INT4-quantized, routing-replay existential crisis.
+  tags:
+    - reinforcement-learning
+    - llm-training
+    - model-post-training
+    - vlm
+    - enterprise-ml
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a low-level model training and post-training framework for ML engineering rather than a developer-facing tool for writing, reviewing, or deploying application code.
+  evidence:
+    - Repo description explicitly states it is a 'reinforcement learning framework for LLM and VLM post-training'.
+    - README focuses on training backends (Megatron/FSDP), inference optimization (SGLang), and RL algorithmic hyperparameters rather than developer workflows.
+    - Listed in awesome-LLM-resources under 'Fine-Tuning', indicating it is a model-training resource, not an application development tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1249) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-05T23:08:17.822Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for radixark/miles
+    status: done
+    updated_at: "2026-05-06T22:46:05.240Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:24:30.860Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

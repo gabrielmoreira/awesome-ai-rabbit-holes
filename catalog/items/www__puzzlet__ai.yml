@@ -1,12 +1,12 @@
 id: www__puzzlet__ai
 kind: website
-name: Puzzlet AI
+name: www.puzzlet.ai
 canonical_url: https://www.puzzlet.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__puzzlet__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,41 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Puzzlet is a browser-first platform for building and managing LLM-powered workflows, included in curated LLMOps directories.
-  why_it_matters: It provides a visual environment for developers to design and operate LLM workflows without writing boilerplate orchestration code from scratch.
-  mental_damage: "Just what the ecosystem needed: another abstract layer to manage the agents that are already managing your hallucinations."
+  summary: Puzzlet is a curated directory of best LLMOps tools for developers.
+  why_it_matters: It serves as a navigation map for developers trying to find the right operational tooling in the rapidly expanding LLMOps ecosystem.
+  mental_damage: Because what every overworked developer really needs is another list of lists to consult before deciding which tool might actually help them ship.
   tags:
-    - browser-first
     - llmops
-    - workflow-orchestration
-  confidence: low
+    - directory
+    - devops
+    - navigation
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project appears to be a general LLMOps platform for workflow orchestration rather than a tool directly assisting developers with source code, IDEs, or app building, and lacks sufficient detail to place it in a specific catalog category.
+  status: included
+  reason: The primary value is ecosystem curation and discovery as an 'awesome list' for LLMOps, fitting the Lists & Directories definition.
   evidence:
-    - Listed in Awesome-LLMOps under the 'LLMOps' section, suggesting a focus on operations rather than coding assistance.
-    - No repository description, README excerpt, or scraped site context was provided to verify specific developer-tooling capabilities.
+    - "Listed in source lists as 'Awesome-LLMOps' with the purpose: 'An awesome & curated list of best LLMOps tools for developers'."
+    - The URL points to a dedicated site (www.puzzlet.ai), indicating a curated directory rather than a standalone product or framework.
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:50.214Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:09.186Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__tencentcloudadp__youtu-agent
 kind: github-repo
-name: Youtu-Agent
+name: youtu-agent
 canonical_url: https://github.com/tencentcloudadp/youtu-agent
 identity:
   github_repo: tencentcloudadp/youtu-agent
 provenance:
   discoveries:
     - id: discovery__github__tencentcloudadp__youtu-agent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,47 +23,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4544
+    forks: 468
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-08-21T07:58:13Z"
+    pushed_at: "2026-03-21T07:18:28Z"
+    description: A simple yet powerful agent framework that delivers with open-source models
+    homepage: https://tencentcloudadp.github.io/youtu-agent/
+    topics:
+      - agent-framework
+      - agents
+      - openai-agents
+      - python
+    last_checked_at: "2026-05-06T22:46:43.280Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:43.280Z"
+      bytes: 25226
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python agent framework built on openai-agents that supports automated agent generation, experience-based learning, and end-to-end reinforcement learning using open-source models like DeepSeek-V3.
+  why_it_matters: It offers developers a structured way to build and optimize autonomous agents with hybrid policy optimization and benchmark-leading performance without relying on closed models.
+  mental_damage: "Just what we needed: another agent framework promising to turn open-source models into autonomous overlords while you're still debugging your LangChain chains from 2023."
+  tags:
+    - agent-framework
+    - reinforcement-learning
+    - python
+    - open-source-models
+    - agent-generation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is primarily a code-first framework for building and training agents via SDK-style development, fitting the Frameworks & SDKs category.
+  evidence:
+    - Repo description explicitly calls it 'A simple yet powerful agent framework'
+    - README states it is 'a flexible, high-performance framework for building, running, and evaluating autonomous agents' built on openai-agents
+    - Topics include 'agent-framework' and 'python', and developers use it via code imports and scripting
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4544) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:43.280Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:04.839Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,77 @@
+id: www__tamingllms__com
+kind: website
+name: www.tamingllms.com
+canonical_url: https://www.tamingllms.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__tamingllms__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software"
+        extracted_url: https://www.tamingllms.com
+        surrounding_text: "17. [Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software ](https://www.tamingllms.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A curated Chinese-language resource hub summarizing the world's best LLM materials, including multimodal generation, agents, programming assistance, and model training.
+  why_it_matters: It serves as a centralized navigation map for developers looking to explore the vast landscape of LLM tools, specifically highlighting sections on coding assistance and MCP.
+  mental_damage: "Just what you needed: another exhaustive index to browse for three hours while your actual codebase collects dust and your deadline slowly recedes into myth."
+  tags:
+    - resources
+    - llm
+    - directory
+    - chinese
+    - education
+  confidence: high
+curation:
+  status: included
+  reason: The project is a curated list ('awesome-LLM-resources') mapping the ecosystem of LLM tools rather than a standalone developer product.
+  evidence:
+    - Source-list context identifies it as 'awesome-LLM-resources', a summary of the world's best LLM resources.
+    - The list explicitly includes sections for coding assistance, MCP, and model training, acting as a directory.
+    - Lacks a repo description, stars, or code artifacts, confirming it is a curation/list rather than a tool.
+placement:
+  primary_category: awesome-awesomes
+  section: Directories & Maps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.670Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:49.223Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

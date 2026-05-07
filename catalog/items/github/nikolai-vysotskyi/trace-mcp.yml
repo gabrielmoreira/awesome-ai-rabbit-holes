@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nikolai-vysotskyi__trace-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,49 +53,50 @@ metadata:
       - token
       - token-savings
       - tokens
-    last_checked_at: "2026-05-05T21:03:55.030Z"
+    last_checked_at: "2026-05-06T22:45:32.879Z"
     readme:
-      fetched_at: "2026-05-05T21:03:55.030Z"
+      fetched_at: "2026-05-06T22:45:32.879Z"
       bytes: 37740
 insights:
-  summary: An MCP server that builds a framework-aware graph of a codebase or markdown vault once and serves it to AI agents, replacing repeated file reads and dependency traversal with graph queries.
-  why_it_matters: It cuts token usage by 40–50% and eliminates redundant context re-inflations, allowing coding agents to reason from precomputed structure instead of brute-forcing repo exploration.
-  mental_damage: We have finally built a tool to stop our agents from pretending they have short-term memory loss and re-reading the same file forty times in a single session.
+  summary: An MCP server that builds a framework-aware graph of a codebase once and serves it to AI agents to reduce token usage and redundant context exploration.
+  why_it_matters: It replaces dozens of sequential file reads and grep calls with a single tool call, cutting token costs and latency by precomputing code structure instead of forcing agents to brute-force repo traversal.
+  mental_damage: We have successfully abstracted away the one thing developers used to enjoy—watching progress bars—and replaced it with a graph engine that makes 42 minutes of agent confusion vanish so fast you can't even bill for it.
   tags:
     - mcp
     - context-engineering
     - token-optimization
     - code-intelligence
+    - graph-indexing
   confidence: high
 curation:
   status: included
-  reason: The product is itself an MCP server that provides code and knowledge-graph intelligence to agents via the Model Context Protocol.
+  reason: The product's primary identity is an MCP server that provides code and knowledge-graph intelligence to agents like Claude Code and Codex, exactly matching the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Claude Code and Codex'.
-    - README positions it as an MCP server with 138 tools serving precomputed graphs to agents.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states 'MCP server for Claude Code and Codex'
+    - README positions it as 'serves it through MCP' with 58 framework integrations across 81 languages
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:55.030Z"
+    updated_at: "2026-05-06T22:45:32.879Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:42.132Z"
+    updated_at: "2026-05-06T23:17:24.065Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

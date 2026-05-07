@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__crystaldba__postgres-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2688
+    stars: 2693
     forks: 295
     license: MIT
     archived: false
@@ -33,50 +33,50 @@ metadata:
     description: Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:43.393Z"
+    last_checked_at: "2026-05-06T22:43:30.032Z"
     readme:
-      fetched_at: "2026-05-05T21:01:43.393Z"
+      fetched_at: "2026-05-06T22:43:30.032Z"
       bytes: 37523
 insights:
-  summary: An open-source Model Context Protocol server that provides AI agents with database health checks, index tuning, query plan analysis, and safe SQL execution for PostgreSQL.
-  why_it_matters: It allows coding agents and AI IDEs to autonomously diagnose performance bottlenecks and tune database schemas without a human manually running EXPLAIN plans.
-  mental_damage: We have successfully abstracted away the last remaining excuse for not understanding how a B-tree actually works.
+  summary: An open-source MCP server that gives AI agents configurable read/write access, schema intelligence, index tuning, and performance analysis for PostgreSQL databases.
+  why_it_matters: It lets coding agents safely interact with production-grade Postgres instances to diagnose slow queries, tune indexes, and validate EXPLAIN plans without leaving the editor.
+  mental_damage: We have successfully abstracted database administration into a prompt surface, meaning your AI can now silently deploy a terrible index while you congratulate yourself on not opening psql.
   tags:
     - mcp
     - postgres
     - database
     - performance
-    - sql
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to give AI agents structured access to PostgreSQL tooling.
+  reason: The product is a domain-specific MCP server whose entire identity is exposing Postgres capabilities to AI agents, making it a textbook fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Postgres MCP Pro provides configurable read/write access... for you and your AI agents.'
-    - README identifies it as 'an open source Model Context Protocol (MCP) server' with MCP API documentation.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+    - Repo description explicitly states 'Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.'
+    - README identifies it as 'an open source Model Context Protocol (MCP) server' with database health, index tuning, and query plan features.
+    - Appears in awesome-mcp-servers under Server Implementations > Databases, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2688) exceeded threshold (150)
+  reason: Stars (2693) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:43.393Z"
+    updated_at: "2026-05-06T22:43:30.032Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:48.676Z"
+    updated_at: "2026-05-06T22:51:02.460Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: thelobby__ai
 kind: website
-name: Floode
+name: thelobby.ai
 canonical_url: https://thelobby.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__thelobby__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,21 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Lobby AI is an end-to-end workflow automation tool that learns user routines and focuses initially on managing email communications.
-  why_it_matters: It aims to offload routine operational workflows by learning individual working patterns, potentially reducing context-switching for developers managing high-volume communications.
-  mental_damage: We have successfully reached the phase of AI tooling where the bot doesn't just write the code, it also politely handles the inbox while you pretend to be busy debugging the AI's last pull request.
+  summary: Lobby AI is an autonomous agent that learns a user's workflow patterns and automates routine tasks, beginning with email management.
+  why_it_matters: It aims to offload repetitive operational workflows by observing user behavior, potentially reducing the manual overhead of daily administrative tasks.
+  mental_damage: "Just what we needed: an AI that watches how we handle email procrastination and then automates the excuses for us."
   tags:
-    - agents
-    - email
-    - workflow-automation
+    - email-automation
+    - workflow
+    - autonomous-agents
   confidence: high
 curation:
   status: excluded
-  reason: The product focuses on general end-to-end workflow automation and email management rather than providing developer-facing coding assistance, IDE integration, or app-building capabilities.
+  reason: The product focuses on end-user routine workflows and email automation rather than developer-facing coding assistance, infrastructure, or tooling.
   evidence:
-    - Scraped site context describes the tool as handling 'routine workflow end-to-end, starting with your emails.'
-    - Listed in awesome-ai-agents under 'Floode' as a general workflow handler, not a coding-specific agent.
-    - No evidence of repo editing, IDE integration, or prompt-to-app generation in the provided inputs.
+    - Scraped site description states it 'learns how you work and handle your routine workflow end-to-end, starting with your emails.'
+    - Source list context (awesome-ai-agents) notes the focus is on emails and routine workflows, not code.
+    - No evidence of repo editing, IDE integration, or developer infrastructure in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -56,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:41.939Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:30.020Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

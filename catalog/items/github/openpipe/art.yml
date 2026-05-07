@@ -1,0 +1,90 @@
+id: github__openpipe__art
+kind: github-repo
+name: art
+canonical_url: https://github.com/openpipe/art
+identity:
+  github_repo: openpipe/art
+provenance:
+  discoveries:
+    - id: discovery__github__openpipe__art__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: ART
+        extracted_url: https://github.com/openpipe/art
+        surrounding_text: "45. [ART](https://github.com/OpenPipe/ART): rain multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training."
+        confidence: high
+metadata:
+  github:
+    stars: 9420
+    forks: 825
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-10T18:25:47Z"
+    pushed_at: "2026-05-05T21:47:49Z"
+    description: "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more!"
+    homepage: https://art.openpipe.ai
+    topics:
+      - agent
+      - agentic-ai
+      - grpo
+      - llms
+      - lora
+      - qwen
+      - qwen3
+      - reinforcement-learning
+      - rl
+    last_checked_at: "2026-05-06T22:45:43.690Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:43.690Z"
+      bytes: 14259
+insights:
+  summary: Agent Reinforcement Trainer (ART) is an open-source framework and managed service for training multi-step LLM agents using GRPO reinforcement learning on models like Qwen, Llama, and GPT-OSS.
+  why_it_matters: It provides developers with the infrastructure to move agents beyond static prompting by teaching them new behaviors through reward functions and experience.
+  mental_damage: Finally, a framework that lets you spend GPU cycles teaching a model how to play 2048 so it can forget how to write a valid SQL query.
+  tags:
+    - reinforcement-learning
+    - grpo
+    - agent-training
+    - fine-tuning
+    - wandb
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily a code-first Python framework and SDK (with a managed backend option) used to script and train agent behaviors, fitting the Frameworks & SDKs definition over an orchestration platform.
+  evidence:
+    - Repo description defines it as a trainer/framework for agents using GRPO.
+    - "README promotes a Python SDK surface: 'from art.serverless.backend import ServerlessBackend'."
+    - Notebooks demonstrate code-first training loops for specific agent tasks like email search and games.
+placement:
+  primary_category: ai-frameworks
+  section: Agent Frameworks
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (9420) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.640Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:43.690Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:52.327Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

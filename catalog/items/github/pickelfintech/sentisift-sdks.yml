@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pickelfintech__sentisift-sdks__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,49 +44,49 @@ metadata:
       - open-source-sdk
       - python-sdk
       - sentiment-analysis
-    last_checked_at: "2026-05-05T21:04:17.219Z"
+    last_checked_at: "2026-05-06T22:45:52.528Z"
     readme:
-      fetched_at: "2026-05-05T21:04:17.219Z"
+      fetched_at: "2026-05-06T22:45:52.528Z"
       bytes: 4678
 insights:
   summary: Official Python, TypeScript, and MCP-server clients for the SentiSift comment-moderation and sentiment analysis API.
-  why_it_matters: Developers can integrate multi-axis comment moderation and bot detection into their apps via SDKs or expose the service directly to AI coding agents through the MCP server.
-  mental_damage: We have officially reached the point where even our comment sections need their own MCP server and a five-axis scoring model to decide if 'Great article!' is spam.
+  why_it_matters: Developers can integrate automated comment scoring and bot filtering into apps via SDKs or by giving an AI agent access through the included MCP server.
+  mental_damage: You can now delegate the existential burden of moderating internet comments to a model context protocol server, because reading them yourself would be far too human.
   tags:
-    - mcp
     - sdk
-    - comment-moderation
+    - mcp
+    - content-moderation
     - sentiment-analysis
   confidence: high
 curation:
   status: included
-  reason: The repository publishes a dedicated MCP server (sentisift-mcp) alongside standard Python and TypeScript SDKs, making it a clear fit for the MCP Servers and Tooling category.
+  reason: The repository provides an MCP server as a first-class package alongside Python and Node SDKs, making it a domain-specific MCP tool for comment moderation.
   evidence:
-    - Repo description explicitly lists 'MCP-server clients' as a primary component.
-    - README includes a dedicated section and install instructions for sentisift-mcp via uvx and PyPI.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - Repo description explicitly lists 'MCP-server clients' as a core offering alongside Python and TypeScript SDKs.
+    - Includes a dedicated `sentisift-mcp` package published on PyPI with instructions for Claude Desktop, Cursor, and VS Code.
+    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Marketing'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:17.219Z"
+    updated_at: "2026-05-06T22:45:52.529Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:40.799Z"
+    updated_at: "2026-05-06T23:21:51.535Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__mcas__ms__pdavis68__repomapper__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "- [pdavis68/RepoMapper](https://github.com.mcas.ms/pdavis68/RepoMapper) 🐧 🪟 🍎 - An MCP server (and command-line tool) to provide a dynamic map of chat-related files from the repository with their function prototypes and related files in order of relevance. Based on the \"Repo Map\" functionality in Aider.chat"
         confidence: high
     - id: discovery__github__com__mcas__ms__pdavis68__repomapper__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,24 +50,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RepoMapper is an MCP server implementation intended to be used with coding assistants like Continue to provide repository context.
-  why_it_matters: It extends the context-awareness of AI coding agents by mapping repository structures for better code navigation and generation.
-  mental_damage: We have successfully abstracted the job of understanding code into yet another server that exists solely to tell the actual AI where the files are.
+  summary: RepoMapper is a GitHub repository mapping tool linked from the awesome-mcp-servers list as a companion to the Continue coding assistant.
+  why_it_matters: It aims to help developers visualize and navigate repository structure when working with AI coding assistants like Continue.
+  mental_damage: Another helpful utility promising to organize the chaos, right up until it becomes yet another context window you have to manage.
   tags:
+    - repo-mapping
     - mcp
-    - context
     - continue
-    - server
-  confidence: medium
+    - navigation
+  confidence: low
 curation:
-  status: included
-  reason: The project is explicitly listed as an MCP server implementation in the awesome-mcp-servers directory, designed to plug into coding assistants.
+  status: excluded
+  reason: There is no usable project information available—no description, README, homepage, or clear product identity—and the only signals are indirect links from an awesome list pointing to Continue rather than RepoMapper itself.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents'.
-    - Linked page context points to 'Continue', indicating it is an extension/tool for that ecosystem.
-    - The name 'RepoMapper' implies a tool for mapping repository structures, typical of MCP context servers.
+    - Repo description, README, homepage, stars, and dates are all unknown or empty.
+    - The only source-list appearances reference Continue, not RepoMapper's own functionality.
+    - No scraped site context or code-level evidence exists to establish what RepoMapper actually does.
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -75,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.674Z"
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,9 +84,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:44:46.240Z"
+    updated_at: "2026-05-06T22:25:15.876Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

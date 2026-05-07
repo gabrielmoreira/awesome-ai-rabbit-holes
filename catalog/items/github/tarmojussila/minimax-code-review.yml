@@ -1,13 +1,13 @@
 id: github__tarmojussila__minimax-code-review
 kind: github-repo
-name: MiniMax Code Review
+name: minimax-code-review
 canonical_url: https://github.com/tarmojussila/minimax-code-review
 identity:
   github_repo: tarmojussila/minimax-code-review
 provenance:
   discoveries:
     - id: discovery__github__tarmojussila__minimax-code-review__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,47 +23,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 14
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-02-22T13:21:00Z"
+    pushed_at: "2026-04-16T16:29:18Z"
+    description: MiniMax Code Review for GitHub Actions
+    homepage: ""
+    topics:
+      - ai
+      - ai-assisted
+      - ai-code-review
+      - automation
+      - ci-cd
+      - code-quality
+      - code-review
+      - github-actions
+      - llm
+      - minimax
+      - pull-request
+    last_checked_at: "2026-05-06T22:46:40.316Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:40.316Z"
+      bytes: 3579
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A GitHub Action that uses MiniMax models to automatically review pull requests, posting AI-generated bug detection and improvement suggestions as PR comments.
+  why_it_matters: It lets teams plug an alternative LLM into their CI/CD pipeline for automated code review without changing their existing workflow.
+  mental_damage: Now your PR can be judged by a model you have to API-key into, because human nitpicking wasn't scalable enough.
+  tags:
+    - github-actions
+    - code-review
+    - minimax
+    - ci-cd
+    - llm
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a focused AI agent that directly reviews diffs and posts feedback on pull requests, fitting the Review, Testing & Repair Agents section of Coding Agents.
+  evidence:
+    - "Repo description: 'MiniMax Code Review for GitHub Actions'"
+    - "README: 'AI-powered GitHub Pull Request code review using MiniMax models. Automatic PR comments, bug detection, and improvement suggestions.'"
+    - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring'
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:40.316Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:30.696Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

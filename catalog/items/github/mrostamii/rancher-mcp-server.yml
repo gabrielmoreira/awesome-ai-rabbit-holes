@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mrostamii__rancher-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: "Model Context Protocol (MCP) server for the Rancher ecosystem: multi-cluster Kubernetes, Harvester HCI (VMs, storage, networks), and Fleet GitOps."
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:48.131Z"
+    last_checked_at: "2026-05-06T22:45:26.483Z"
     readme:
-      fetched_at: "2026-05-05T21:03:48.131Z"
+      fetched_at: "2026-05-06T22:45:26.483Z"
       bytes: 24445
 insights:
-  summary: An MCP server that exposes Rancher, Harvester HCI, Kubernetes, Helm, and Fleet GitOps operations as tools for AI assistants like Cursor and Claude Desktop.
-  why_it_matters: It lets developers manage multi-cluster Kubernetes, VMs, and GitOps workflows through natural language prompts inside their AI-assisted IDEs instead of kubectl and Rancher dashboards.
-  mental_damage: You now have a perfectly valid reason to ask an LLM to scale your Harvester VMs while pretending you're still 'writing code' in your editor.
+  summary: An MCP server that exposes Rancher, Harvester HCI, Kubernetes, Helm, and Fleet GitOps capabilities to AI coding assistants like Cursor and Claude Desktop.
+  why_it_matters: It lets developers manage multi-cluster Kubernetes setups, VMs, and GitOps workflows through natural language prompts inside their existing AI editor workflows.
+  mental_damage: We have successfully abstracted infrastructure management so deeply that you can now accidentally delete a production Harvester cluster by politely asking your text editor to tidy things up.
   tags:
     - mcp
     - rancher
     - kubernetes
     - gitops
-    - devops
+    - infrastructure
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone MCP server implementation designed to integrate Rancher ecosystem operations into MCP-compatible AI clients.
+  reason: The product's core identity is an MCP server implementation for the Rancher ecosystem, fitting squarely into the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol (MCP) server for the Rancher ecosystem'"
-    - README configures the tool as an MCP server in Cursor and Claude Desktop via standard MCP JSON configs
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+    - Repo description explicitly states 'Model Context Protocol (MCP) server for the Rancher ecosystem'.
+    - README demonstrates configuration for Cursor and Claude Desktop as an MCP server using npx.
+    - Listed in awesome-mcp-servers under 'Cloud Platforms' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:48.131Z"
+    updated_at: "2026-05-06T22:45:26.483Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:39:21.216Z"
+    updated_at: "2026-05-06T23:15:54.888Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

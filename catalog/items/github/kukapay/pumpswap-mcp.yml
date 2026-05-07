@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__pumpswap-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: An MCP server that enables AI agents to interact with PumpSwap for real-time token swaps and automated on-chain trading.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:12.379Z"
+    last_checked_at: "2026-05-06T22:44:50.224Z"
     readme:
-      fetched_at: "2026-05-05T21:03:12.379Z"
+      fetched_at: "2026-05-06T22:44:50.224Z"
       bytes: 5406
 insights:
-  summary: An MCP server that lets AI agents execute token swaps and query pools on PumpSwap via natural language prompts.
-  why_it_matters: Developers building crypto-native AI agents can wire on-chain trading into agent workflows without writing custom Solana RPC glue code.
-  mental_damage: "We have finally achieved the Platonic ideal of 2025: an AI agent that can lose your SOL on PumpSwap while you watch in disbelief."
+  summary: An MCP server that exposes PumpSwap token-swap, price-query, and pool-data tools so AI agents can execute Solana-based DeFi trades via the Model Context Protocol.
+  why_it_matters: It lets developers wire on-chain Solana trading actions directly into MCP-compatible coding agents and workflows without building custom DeFi integrations.
+  mental_damage: Your AI agent can now panic-sell meme tokens on mainnet at 3 AM while you sleep, and it will blame the prompt for the slippage.
   tags:
     - mcp
     - solana
     - defi
-    - agent-tooling
+    - trading
+    - pumpswap
   confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server for PumpSwap trading, which cleanly fits the MCP Servers and Tooling category.
+  reason: The product’s identity is an MCP server that wraps PumpSwap/DeFi tooling for agents, which fits the MCP Servers & Tooling category and its Domain Servers section.
   evidence:
-    - Repo description explicitly states it is 'An MCP server that enables AI agents to interact with PumpSwap'.
-    - README documents MCP tools (buy_token, sell_token, get_token_price, get_pool_data) for agent-triggered swaps.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, confirming MCP ecosystem fit.
+    - "Repo description: 'An MCP server that enables AI agents to interact with PumpSwap for real-time token swaps and automated on-chain trading.'"
+    - "README lists MCP-exposed tools: buy_token, sell_token, get_token_price, get_pool_data."
+    - Included in awesome-mcp-servers under Finance & Fintech, confirming MCP server scope.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:12.379Z"
+    updated_at: "2026-05-06T22:44:50.224Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:19.303Z"
+    updated_at: "2026-05-06T23:07:38.659Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__govcraft__rust-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - rustdoc
       - rustlang
       - semantic-search
-    last_checked_at: "2026-05-05T21:02:25.796Z"
+    last_checked_at: "2026-05-06T22:44:06.139Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.796Z"
+      fetched_at: "2026-05-06T22:44:06.139Z"
       bytes: 14065
 insights:
-  summary: An MCP server that fetches current Rust crate documentation, generates embeddings, and provides an LLM-powered query tool to supply AI coding assistants with up-to-date API context.
-  why_it_matters: It prevents AI assistants from hallucinating imports and APIs by grounding their suggestions in the specific documentation of the crates you are actually using.
-  mental_damage: You now have to run and maintain a dedicated server just to teach your AI assistant that `tokio::fs` changed three months after its training cutoff.
+  summary: An MCP server that fetches current Rust crate documentation, generates embeddings, and provides an LLM-powered query tool to prevent outdated code suggestions in AI assistants.
+  why_it_matters: It gives coding assistants real-time access to evolving Rust APIs, reducing hallucinations and manual corrections when working with crates like serde, tokio, or reqwest.
+  mental_damage: We have reached the point where we need specialized infrastructure just to stop our AI from confidently inventing 2023-era Rust APIs.
   tags:
     - mcp
     - rust
-    - embeddings
     - rag
-    - developer-tools
+    - docs
+    - embeddings
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone Model Context Protocol server designed to provide fresh documentation context to other AI tools, fitting cleanly into the MCP infrastructure category.
+  reason: The product is a standalone MCP server providing Rust documentation context, making MCP its core identity rather than an adapter or extension layer.
   evidence:
-    - Repo description explicitly identifies it as 'This MCP server' for providing context via tool calls.
-    - README confirms it 'Runs as a standard MCP server over stdio, exposing tools and resources.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'This MCP server fetches current crate docs'
+    - README confirms it 'Runs as a standard MCP server over stdio, exposing tools and resources'
+    - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (273) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.796Z"
+    updated_at: "2026-05-06T22:44:06.139Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:31.541Z"
+    updated_at: "2026-05-06T22:58:28.449Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

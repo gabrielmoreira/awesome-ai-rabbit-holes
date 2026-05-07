@@ -1,0 +1,76 @@
+id: huggingface__co__papers
+kind: website
+name: papers
+canonical_url: https://huggingface.co/papers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__papers__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: Huggingface Daily Papers
+        extracted_url: https://huggingface.co/papers
+        surrounding_text: "> 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A daily-updated feed of AI research papers hosted by Hugging Face, aggregating trending ML and LLM publications with summaries and community discussion.
+  why_it_matters: Developers building AI-powered tooling can track emerging techniques and benchmarks without manually trawling arXiv or conference proceedings.
+  mental_damage: Yet another curated firehose that turns 'keeping up with the field' into a full-time job with no clear stopping condition.
+  tags:
+    - research
+    - papers
+    - feed
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general AI research publication feed and paper aggregator, not a developer-facing tool, framework, agent, or engineering utility within the catalog's scope.
+  evidence:
+    - Scraped page title and description describe it as 'Your daily dose of AI research from AK', focused on research papers.
+    - Sample papers include medical AI, Gaussian splatting, and multi-agent RL with no developer-tooling product angle.
+    - Seen in awesome-LLM-resources under a papers section, reinforcing its identity as a research digest rather than a tool.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.662Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:17.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

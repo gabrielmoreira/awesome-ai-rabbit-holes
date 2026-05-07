@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__imatza-rh__mcp-zuul__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for Zuul CI — read-only access to builds, logs, status, and jobs
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:42.461Z"
+    last_checked_at: "2026-05-06T22:44:22.459Z"
     readme:
-      fetched_at: "2026-05-05T21:02:42.461Z"
+      fetched_at: "2026-05-06T22:44:22.459Z"
       bytes: 20384
 insights:
-  summary: An MCP server that provides read-only and write access to Zuul CI builds, jobs, logs, and pipeline status so developers can debug failures through LLM conversations instead of clicking through CI web UIs.
-  why_it_matters: It lets developers ask natural-language questions about CI failures and get structured root-cause answers with log context, flaky-job detection, and live pipeline awareness without manually parsing Zuul logs.
-  mental_damage: We have successfully reached the point where debugging a failed gate job requires an MCP server, thirty-seven tools, and a polite conversation with Claude instead of the traditional method of screaming at a 6,000-line log file.
+  summary: An MCP server for Zuul CI that exposes 37 tools, prompt templates, and resources to let LLMs read builds, logs, jobs, and pipeline status directly from Zuul.
+  why_it_matters: It lets developers debug CI failures and inspect pipeline state by asking natural-language questions instead of clicking through Zuul web UIs or grepping raw logs.
+  mental_damage: Finally, an MCP server so your coding agent can explain why your gate job failed while you continue pretending the build system is someone else's problem.
   tags:
     - mcp
     - ci-cd
     - zuul
     - debugging
-    - developer-tools
-  confidence: high
+    - devops
+  confidence: medium
 curation:
   status: included
-  reason: This is a developer-facing MCP server that integrates Zuul CI into MCP-compatible clients, cleanly fitting the MCP Servers and Tooling category.
+  reason: The product is an MCP server purpose-built for Zuul CI, making MCP the clear primary identity and fitting neatly into Domain Servers.
   evidence:
-    - Repo description explicitly states 'MCP server for Zuul CI — read-only access to builds, logs, status, and jobs'.
-    - README demonstrates 37 tools, 3 prompt templates, and 3 resources for builds, logs, pipelines, and live status.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, confirming ecosystem placement.
+    - "Repo description: 'MCP server for Zuul CI — read-only access to builds, logs, status, and jobs'"
+    - "README: 'An MCP server for Zuul CI. Debug build failures by asking questions, not clicking through web UIs.'"
+    - "Source list: included in awesome-mcp-servers under Server Implementations > Developer Tools"
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:42.461Z"
+    updated_at: "2026-05-06T22:44:22.459Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:43.406Z"
+    updated_at: "2026-05-06T23:01:51.559Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

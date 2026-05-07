@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amersarhan__darce-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -51,28 +51,28 @@ metadata:
       - productivity
       - terminal
       - typescript
-    last_checked_at: "2026-05-05T21:01:02.325Z"
+    last_checked_at: "2026-05-06T22:12:37.045Z"
     readme:
-      fetched_at: "2026-05-05T21:01:02.325Z"
+      fetched_at: "2026-05-06T22:12:37.045Z"
       bytes: 6024
 insights:
-  summary: A terminal-based AI coding agent that reads, writes, and edits code, runs shell commands, and supports multiple LLM providers including Claude, Grok, Gemini, and DeepSeek.
-  why_it_matters: Developers can stay in their existing terminal workflow while delegating bug fixes, refactoring, and codebase exploration to an agent that switches models based on the task at hand.
-  mental_damage: Another 14 kB CLI tool promises to finally liberate you from the crushing burden of remembering which model is best at reading your own badly written code.
+  summary: A lightweight, open-source CLI tool that acts as a model-agnostic AI coding agent for reading, writing, and editing code directly in the terminal.
+  why_it_matters: It offers developers a minimal, 14 kB alternative to heavier IDE integrations, allowing them to delegate coding tasks to any supported model (including Gemini, Grok, and DeepSeek) without vendor lock-in.
+  mental_damage: We now have a terminal agent so small it feels like a moral victory, yet we still somehow accumulate 75 different ways to prompt an LLM to fix a missing semicolon.
   tags:
     - cli
     - coding-agent
     - terminal
-    - multi-model
+    - model-agnostic
     - open-source
   confidence: high
 curation:
   status: included
-  reason: This is a terminal-first coding agent that directly edits code, runs commands, and collaborates with the developer inside their repo, which matches the coding-agents category intent.
+  reason: The product is a standalone, terminal-native coding assistant designed to read, edit, and execute code across a repository, fitting the primary identity of a coding agent.
   evidence:
-    - Repo description explicitly calls it an 'AI coding agent for your terminal' that reads, writes, edits code, and runs commands.
-    - "README demonstrates direct repo interaction: fixing bugs, editing files, running npm test, and searching codebases from the terminal."
-    - Already listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - "Repo description explicitly states: 'AI coding agent for your terminal. Reads, writes, edits code, runs commands.'"
+    - README comparison table positions it directly against Claude Code and GitHub Copilot CLI as a primary assistant.
+    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents > Open Source' section.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -82,19 +82,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:02.325Z"
+    updated_at: "2026-05-06T22:12:37.045Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:07:58.691Z"
+    updated_at: "2026-05-06T22:21:01.560Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

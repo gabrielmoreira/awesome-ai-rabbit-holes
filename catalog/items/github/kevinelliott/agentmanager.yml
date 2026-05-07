@@ -1,13 +1,13 @@
 id: github__kevinelliott__agentmanager
 kind: github-repo
-name: AgentManager
+name: agentmanager
 canonical_url: https://github.com/kevinelliott/agentmanager
 identity:
   github_repo: kevinelliott/agentmanager
 provenance:
   discoveries:
     - id: discovery__github__kevinelliott__agentmanager__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -46,50 +46,50 @@ metadata:
       - cli-tool
       - tui
       - tui-app
-    last_checked_at: "2026-05-05T21:03:04.510Z"
+    last_checked_at: "2026-05-06T22:44:42.149Z"
     readme:
-      fetched_at: "2026-05-05T21:03:04.510Z"
+      fetched_at: "2026-05-06T22:44:42.149Z"
       bytes: 14185
 insights:
-  summary: A CLI and TUI tool for detecting, installing, managing, and updating AI development CLI agents like Claude Code, Aider, and GitHub Copilot CLI across platforms.
-  why_it_matters: It centralizes the chaotic ecosystem of command-line AI agents into a single interface for installation, version management, and updates.
-  mental_damage: Because nothing says 'cutting edge AI developer' like needing a dedicated package manager just to keep track of your other package managers that write code for you.
+  summary: A CLI and TUI application for detecting, installing, and updating AI development CLI agents like Claude Code, Aider, and Gemini CLI across multiple platforms.
+  why_it_matters: It centralizes the management of a rapidly expanding ecosystem of terminal-based coding agents, handling version checks and updates across npm, PyPI, and Homebrew.
+  mental_damage: Finally, a dedicated tool to manage the dozen different AI agents you installed once, used for ten minutes, and then forgot existed on your PATH.
   tags:
-    - agent-management
     - cli
-    - go
-    - tooling
     - tui
-  confidence: medium
+    - agent-management
+    - devops
+    - go
+  confidence: high
 curation:
   status: included
-  reason: It is a developer-facing infrastructure tool specifically designed to manage CLI-based coding agents, fitting the 'Terminal & CLI Agents' section.
+  reason: It acts as a workflow utility that augments the developer's environment by managing the tools (agents) rather than being a coding agent itself.
   evidence:
-    - Repo description explicitly defines it as a 'CLI/TUI app to easily detect, manage, install, and update AI Agent CLI tools'.
-    - "README lists specific coding agents it manages: 'Claude Code, Amp, Aider, GitHub Copilot CLI, Gemini CLI'."
-    - Included in the 'awesome-cli-coding-agents' list under the 'Agent infrastructure' section.
+    - Repo description explicitly defines it as a tool to 'manage, install, and update AI Agent CLI tools'.
+    - README lists detection and management for Claude Code, Aider, and Gemini CLI, confirming it wraps other agents.
+    - Source list 'awesome-cli-coding-agents' places it in 'Harnesses & orchestration > Agent infrastructure', supporting a tooling/utility identity.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:34.050Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:04.510Z"
+    updated_at: "2026-05-06T22:44:42.149Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:00.291Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

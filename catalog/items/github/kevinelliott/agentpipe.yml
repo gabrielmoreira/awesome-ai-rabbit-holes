@@ -1,13 +1,13 @@
 id: github__kevinelliott__agentpipe
 kind: github-repo
-name: AgentPipe
+name: agentpipe
 canonical_url: https://github.com/kevinelliott/agentpipe
 identity:
   github_repo: kevinelliott/agentpipe
 provenance:
   discoveries:
     - id: discovery__github__kevinelliott__agentpipe__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -45,50 +45,50 @@ metadata:
       - grok
       - qwen-code
       - tui-app
-    last_checked_at: "2026-05-05T21:03:04.504Z"
+    last_checked_at: "2026-05-06T22:44:42.286Z"
     readme:
-      fetched_at: "2026-05-05T21:03:04.504Z"
+      fetched_at: "2026-05-06T22:44:42.286Z"
       bytes: 65788
 insights:
-  summary: A CLI and TUI application that orchestrates multi-agent conversations by enabling different AI CLI tools to communicate in shared rooms with real-time metrics and cost tracking.
-  why_it_matters: It allows developers to run and coordinate multiple AI coding agents (like Claude Code, Gemini, and Cursor) in parallel within a single terminal session to compare outputs or tackle complex tasks collaboratively.
-  mental_damage: Finally, a dedicated terminal room where your expensive AI agents can awkwardly talk to each other while you watch the token meter spin and wonder who is actually in charge.
+  summary: A CLI and TUI application that orchestrates multi-agent conversations by enabling different AI CLI tools like Claude Code, Gemini, and Qwen to communicate in shared rooms.
+  why_it_matters: It allows developers to pit different coding agents against each other in a shared context, enabling comparative workflows and multi-model collaboration from the terminal.
+  mental_damage: You now have the infrastructure to host a roast battle between Claude and Gemini, but still no one to review your pull requests.
   tags:
     - cli
+    - tui
     - multi-agent
     - orchestration
     - terminal
-    - tui
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing operational tool designed specifically to coordinate and manage conversations between multiple distinct AI agents and CLI tools.
+  reason: The core product identity is a TUI/CLI workbench designed specifically to coordinate and facilitate conversations between multiple distinct AI coding agents.
   evidence:
-    - Repo description states it 'orchestrates multi-agent conversations by enabling different AI CLI tools... to communicate in shared rooms.'
-    - README lists support for over 15 specific agents including Claude, Cursor, Gemini, and Factory, acting as a control plane for them.
-    - Included in the awesome-cli-coding-agents list under 'Harnesses & orchestration > Session managers & parallel runners'.
+    - Repo description explicitly states it 'orchestrates multi-agent conversations' between tools like Claude Code and Gemini.
+    - README defines it as a 'CLI and TUI application that orchestrates conversations between multiple AI agents' with real-time metrics.
+    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:30:33.267Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:04.504Z"
+    updated_at: "2026-05-06T22:44:42.286Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:59.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

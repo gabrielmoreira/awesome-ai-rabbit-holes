@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__urldna__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,21 +19,6 @@ provenance:
           - Official Servers
         anchor_text: urlDNA
         extracted_url: https://github.com/urldna/mcp
-        surrounding_text: "- **[urlDNA](https://github.com/urldna/mcp)** - Dynamically scan and analyze potentially malicious URLs using the [urlDNA](https://urlDNA.io)"
-        confidence: high
-    - id: discovery__urldna__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: urlDNA
-        extracted_url: https://urldna.io
         surrounding_text: "- **[urlDNA](https://github.com/urldna/mcp)** - Dynamically scan and analyze potentially malicious URLs using the [urlDNA](https://urlDNA.io)"
         confidence: high
 metadata:
@@ -50,22 +35,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: urlDNA is a website analysis tool that inspects URLs to surface data insights, brand monitoring signals, and security risks.
-  why_it_matters: It provides developers and security teams with a quick way to audit and understand the external footprint of URLs without building custom scraping or monitoring infrastructure.
-  mental_damage: Another specialized SaaS promises to tell you what your URLs are hiding, while your CI pipeline still can't decide if a 200 status code means success.
-  tags:
-    - monitoring
-    - security
-    - url-inspection
-    - website-analysis
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: excluded
-  reason: This is a general website analysis and brand monitoring SaaS with no meaningful developer-tooling, coding-agent, or MCP-specific functionality for our catalog.
-  evidence:
-    - Scraped site describes it as 'Unleash website insights! urldna.io analyzes data, monitors brands and exposes security risks' with no developer workflow integration mentioned.
-    - Seen in awesome-mcp-servers list, but only as a linked page with no evidence of an actual MCP server implementation or developer-facing integration.
-    - No repo description, README, code, or tooling context provided to suggest it is a developer tool rather than a generic web SaaS.
+  status: pending
+  reason: null
+  evidence: []
 placement:
   primary_category: null
   section: null
@@ -73,20 +51,19 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:01.951Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

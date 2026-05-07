@@ -1,12 +1,12 @@
 id: manaflow__com
 kind: website
-name: Manaflow
+name: manaflow.com
 canonical_url: https://manaflow.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__manaflow__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open source applied AI lab building next-generation developer tools, including cmux, an open source terminal built for coding agents.
-  why_it_matters: It contributes foundational developer tooling designed specifically to support and interface with autonomous coding agents.
-  mental_damage: We are now building specialized terminals to host the agents that are supposedly going to render our terminals obsolete.
+  summary: An open source applied AI lab building next-generation developer tools, including a terminal designed for coding agents.
+  why_it_matters: It is developing cmux, an open source terminal purpose-built to host and interact with coding agents.
+  mental_damage: Yet another research lab promising the future of devtools while we are still trying to get our current agents to stop deleting the .git folder.
   tags:
+    - terminal
     - coding-agents
     - devtools
     - open-source
   confidence: medium
 curation:
   status: included
-  reason: The lab is building cmux, a terminal explicitly designed for coding agents, which fits the coding-agents category as a developer-facing environment for interacting with autonomous code tools.
+  reason: The project is building cmux, a terminal specifically designed as a surface for coding agents, which aligns with the Terminal & CLI Agents section of the coding-agents category.
   evidence:
-    - Site describes the entity as an 'Open source applied AI lab building next-gen devtools'.
-    - Primary excerpt highlights 'cmux', described as 'The open source terminal built for coding agents'.
-    - Listed in awesome-ai-agents under a section dedicated to the project.
+    - Scraped site context describes it as 'Open source applied AI lab building next-gen devtools'.
+    - Primary page excerpt highlights 'cmux [github] - The open source terminal built for coding agents.'
+    - Listed in awesome-ai-agents under a section dedicated to autonomous agents.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:10.749Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:23.867Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

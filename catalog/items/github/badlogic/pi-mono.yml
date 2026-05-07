@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__badlogic__pi-mono__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,59 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 44949
-    forks: 5297
+    stars: 45515
+    forks: 5360
     license: MIT
     archived: false
     created_at: "2025-08-09T14:03:50Z"
-    pushed_at: "2026-05-05T12:50:37Z"
+    pushed_at: "2026-05-06T19:59:56Z"
     description: "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:16.799Z"
+    last_checked_at: "2026-05-06T22:12:48.924Z"
     readme:
-      fetched_at: "2026-05-05T21:01:16.799Z"
+      fetched_at: "2026-05-06T22:12:48.924Z"
       bytes: 3612
 insights:
-  summary: A monorepo containing a terminal-based interactive coding agent CLI, a unified multi-provider LLM API, and supporting UI libraries for building custom AI agents.
-  why_it_matters: It offers developers a self-hosted, open-source alternative to proprietary coding agents with the flexibility to swap LLM providers and even build custom agent UIs on top.
-  mental_damage: Yet another chance to nuke your git history via CLI, only this time you get to bring your own vLLM pod to the party.
+  summary: A monorepo containing a terminal-native coding agent CLI, a unified multi-provider LLM API, agent runtime libraries, and UI components for building AI interfaces.
+  why_it_matters: It provides a high-traction, open-source alternative to proprietary coding agents with a modular toolkit approach that separates the agent runtime from the model providers.
+  mental_damage: Just when you thought the terminal agent wars were settled, a monorepo with 45k stars appears to remind you that your shell is the new IDE, and you still haven't finished configuring your .zshrc.
   tags:
     - coding-agent
     - cli
     - monorepo
     - llm-api
-    - open-source
+    - agent-runtime
   confidence: high
 curation:
   status: included
-  reason: The repo hosts a terminal-native coding agent CLI designed to interact with and edit code repositories, fitting the coding-agents category and its terminal section.
+  reason: The project identifies its core product as an interactive coding agent CLI (pi-coding-agent) within a toolkit, fitting the profile of a terminal-native assistant developers delegate repo work to.
   evidence:
-    - Repo description explicitly lists 'coding agent CLI' as a core component.
-    - README details 'pi-coding-agent' as an interactive CLI agent for developers.
-    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents' section.
+    - Repo description explicitly lists 'coding agent CLI' as the primary component.
+    - README highlights 'pi-coding-agent' as the specific package for installation and usage as the coding agent.
+    - Included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'.
+    - High traction with 45,515 stars and recent activity (pushed 2026-05-06).
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (44949) exceeded threshold (150)
+  reason: Stars (45515) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:16.799Z"
+    updated_at: "2026-05-06T22:12:48.924Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:08.922Z"
+    updated_at: "2026-05-06T22:23:30.841Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

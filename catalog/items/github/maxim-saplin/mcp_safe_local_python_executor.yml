@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__maxim-saplin__mcp_safe_local_python_executor__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: Stdio MCP Server wrapping custom Python runtime (LocalPythonExecutor) from Hugging Faces' `smolagents` framework. The runtime combines the ease of setup (compared to docker, VM, cloud runtimes) while providing safeguards and limiting operations/imports that are allowed inside the runtime.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:32.202Z"
+    last_checked_at: "2026-05-06T22:45:10.910Z"
     readme:
-      fetched_at: "2026-05-05T21:03:32.202Z"
+      fetched_at: "2026-05-06T22:45:10.910Z"
       bytes: 4871
 insights:
-  summary: A stdio MCP server that wraps Hugging Face's LocalPythonExecutor to provide a safer, Docker-free local Python runtime for executing LLM-generated code via MCP-compatible clients like Claude Desktop.
-  why_it_matters: Developers can give LLM clients a local code execution capability with restricted imports and no file I/O, avoiding the heavy setup of containers or the risks of raw eval().
-  mental_damage: Another day, another layer of wrapping around a wrapper so we can safely execute hallucinated Python without accidentally formatting our hard drive.
+  summary: An MCP server that wraps Hugging Face's LocalPythonExecutor to provide a safer, Docker-free local Python runtime for executing LLM-generated code via tools like Claude Desktop and Cursor.
+  why_it_matters: It gives developers a low-friction way to add code-interpreter-like capabilities to MCP clients without the setup overhead of containers or the security risks of raw eval().
+  mental_damage: We've successfully abstracted our security problems into an abstraction of an abstraction, so now we can safely run hallucinated math imports inside a wrapper inside a protocol inside an IDE.
   tags:
     - mcp
+    - python
     - code-execution
+    - security
     - local-runtime
-    - safety
-    - smolagents
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that exposes a sandboxed Python executor as a tool for MCP-compatible clients, fitting cleanly into MCP infrastructure.
+  reason: The product's primary identity is an MCP server that exposes a wrapped Python executor as a tool for MCP-compatible clients.
   evidence:
-    - Repo description explicitly states it is a 'Stdio MCP Server wrapping custom Python runtime'
-    - README says it exposes the Python executor 'via MCP (Model Context Protocol) as a tool for LLM apps like Claude Desktop, Cursor or any other MCP compatible client'
-    - Listed in awesome-mcp-servers under Server Implementations
+    - Repo description explicitly states it is a 'Stdio MCP Server wrapping custom Python runtime'.
+    - README states it 'exposes the Python executor via MCP (Model Context Protocol) as a tool for LLM apps like Claude Desktop, Cursor or any other MCP compatible client'.
+    - Active development with last push in 2025-07-17 and created in 2025-03-27.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:32.202Z"
+    updated_at: "2026-05-06T22:45:10.910Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:15.693Z"
+    updated_at: "2026-05-06T23:12:27.894Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

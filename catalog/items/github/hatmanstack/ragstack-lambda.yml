@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hatmanstack__ragstack-lambda__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,54 +29,54 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2025-10-26T01:03:41Z"
-    pushed_at: "2026-05-05T15:41:21Z"
+    pushed_at: "2026-05-06T20:17:52Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:31.735Z"
+    last_checked_at: "2026-05-06T22:44:12.459Z"
     readme:
-      fetched_at: "2026-05-05T21:02:31.735Z"
+      fetched_at: "2026-05-06T22:44:12.459Z"
       bytes: 10657
 insights:
-  summary: A serverless document and media processing stack that builds a retrieval-augmented knowledge base on AWS Lambda and exposes it to AI assistants via MCP.
-  why_it_matters: It lets developers spin up a scalable RAG pipeline on AWS with zero idle costs and integrate it directly into MCP-compatible assistants.
-  mental_damage: Because nothing says 'focus on shipping features' like deploying a bespoke serverless knowledge graph just to ask a chatbot where that one paragraph was buried in Q3's PDF archives.
+  summary: A serverless AWS stack that processes documents and media into a retrieval-augmented knowledge base queryable via Amazon Bedrock or an AI assistant through an MCP interface.
+  why_it_matters: It packages document ingestion, multimodal embeddings, and a chat interface into a scale-to-zero cloud architecture with an MCP endpoint for assistant integration.
+  mental_damage: Another pristine RAG implementation enters the arena, promising freedom from vector database fees while ensuring your AI assistant can finally hallucinate about your PDFs at scale.
   tags:
     - rag
     - mcp
     - aws
     - serverless
     - knowledge-base
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly listed in awesome-mcp-servers and builds an MCP-compatible knowledge base server on AWS, fitting the MCP infrastructure scope.
+  reason: The product's primary developer-facing integration point is its MCP interface for querying the knowledge base, making it an MCP server rather than a generic RAG framework.
   evidence:
-    - "README states: 'query using Amazon Bedrock or your AI assistant via MCP'"
-    - Seen in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'
-    - Architecture centers on AWS Lambda, S3, and DynamoDB for serverless RAG
+    - README states it allows querying via 'your AI assistant via MCP'.
+    - Listed in awesome-mcp-servers under Knowledge & Memory servers.
+    - Core architecture is a serverless AWS pipeline exposing a knowledge base through chat and MCP.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:31.735Z"
+    updated_at: "2026-05-06T22:44:12.459Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:23:38.735Z"
+    updated_at: "2026-05-06T22:59:42.437Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

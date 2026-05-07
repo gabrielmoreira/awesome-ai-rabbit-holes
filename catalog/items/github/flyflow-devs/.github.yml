@@ -1,13 +1,13 @@
 id: github__flyflow-devs__.github
 kind: github-repo
-name: Flyflow
+name: .github
 canonical_url: https://github.com/flyflow-devs/.github
 identity:
   github_repo: flyflow-devs/.github
 provenance:
   discoveries:
     - id: discovery__github__flyflow-devs__.github__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,50 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:13.354Z"
+    last_checked_at: "2026-05-06T22:43:55.846Z"
     readme:
-      fetched_at: "2026-05-05T21:02:13.354Z"
+      fetched_at: "2026-05-06T22:43:55.846Z"
       bytes: 534
 insights:
-  summary: Flyflow is open-source API middleware written in Go that optimizes LLM application performance by reducing latency and increasing token limits.
-  why_it_matters: It provides a self-hostable layer for developers to improve the speed and reliability of their LLM integrations without sacrificing response quality.
-  mental_damage: We have now reached the point where we deploy dedicated middleware just to hide the fact that our 'instant' AI features are actually agonizingly slow.
+  summary: Flyflow is open-source API middleware written in Go that sits in front of LLM applications to reduce latency, increase token limits, and add enterprise security.
+  why_it_matters: It lets developers optimize response times and throughput for LLM-powered apps without changing model providers or rewriting application logic.
+  mental_damage: Yet another layer of middleware promising 5x gains, because clearly what your fragile LLM stack needs is more Go binaries between you and the model.
   tags:
-    - golang
-    - llm
     - middleware
-    - performance
+    - llm-ops
+    - latency
     - self-hosted
+    - golang
   confidence: medium
 curation:
   status: included
-  reason: The project is a developer-facing SDK/framework (middleware) for embedding AI behavior into applications, fitting the ai-frameworks definition.
+  reason: This is a code-first, self-hosted middleware layer that developers integrate into their stack as infrastructure to manage LLM calls, fitting the Frameworks & SDKs provider/model abstraction model.
   evidence:
-    - "README states: 'Flyflow is middleware designed to optimize for all of these qualities, built to be open source, high performance written in golang.'"
-    - README describes it as 'API middleware to optimize LLM applications'.
-    - Listed in Awesome-LLMOps under 'Training > Foundation Model Fine Tuning'.
+    - README states Flyflow is 'API middleware to optimize LLM applications' and is 'open source, high performance written in golang, and optionally self-hosted'.
+    - Awesome-LLMOps lists it under 'Training > Foundation Model Fine Tuning', indicating it is recognized as LLM infrastructure.
+    - Repository is not archived, created 2024-03-04, and pushed as of 2024-09-19, showing it is an active tool.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:53.412Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:13.354Z"
+    updated_at: "2026-05-06T22:43:55.846Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:23.371Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mercurialsolo__counsel-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP server for counsel
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:35.805Z"
+    last_checked_at: "2026-05-06T22:45:14.024Z"
     readme:
-      fetched_at: "2026-05-05T21:03:35.805Z"
+      fetched_at: "2026-05-06T22:45:14.024Z"
       bytes: 12409
 insights:
-  summary: An MCP server that connects AI agents to the Counsel API for strategic reasoning and multi-perspective analysis within development environments.
-  why_it_matters: Developers can pipe structured debate and multi-perspective reasoning from Counsel directly into their MCP-compatible IDEs and agents.
-  mental_damage: We've successfully abstracted 'thinking about the problem' into a paid API call wrapped in an MCP server, just in case the local context window wasn't expensive enough.
+  summary: An MCP server that connects AI agents to the Counsel API for strategic reasoning and multi-perspective analysis.
+  why_it_matters: It allows coding assistants like Claude Code and Cursor to tap into structured debate and advisory sessions instead of relying solely on their own reasoning.
+  mental_damage: We have finally reached the point where our agents need their own therapists to help them think through merge conflicts.
   tags:
     - mcp
-    - reasoning
-    - integration
-    - node
-  confidence: high
+    - strategic-reasoning
+    - counsel
+    - multi-perspective
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to bridge AI agents with the Counsel API, fitting cleanly into the MCP infrastructure category.
+  reason: The product's identity is an MCP server that integrates a specific third-party API (Counsel) into MCP-compatible clients.
   evidence:
-    - "Repo description states: 'MCP server for counsel'"
-    - "README confirms: 'An open-source Model Context Protocol (MCP) server that connects AI agents to the Counsel API'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'
+    - Repo description explicitly states 'MCP server for counsel'.
+    - README describes it as a server connecting AI agents to the Counsel API via MCP.
+    - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.706Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:35.805Z"
+    updated_at: "2026-05-06T22:45:14.024Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:36:56.487Z"
+    updated_at: "2026-05-06T23:13:06.420Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

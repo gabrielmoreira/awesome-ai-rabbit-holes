@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahujasid__blender-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 21287
-    forks: 2097
+    stars: 21338
+    forks: 2105
     license: MIT
     archived: false
     created_at: "2025-03-07T09:58:58Z"
@@ -33,49 +33,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:54.346Z"
+    last_checked_at: "2026-05-06T22:12:30.039Z"
     readme:
-      fetched_at: "2026-05-05T21:00:54.346Z"
+      fetched_at: "2026-05-06T22:12:30.039Z"
       bytes: 10084
 insights:
-  summary: An MCP server and Blender addon that connects Claude and other MCP-compatible assistants to Blender for prompt-assisted 3D modeling, scene manipulation, and Python code execution.
-  why_it_matters: Developers working with 3D pipelines can control Blender scenes, assets, and materials directly from their AI assistant inside Claude, Cursor, or VS Code.
-  mental_damage: "We have finally achieved the platonic ideal of modern developer life: installing a socket server, an addon, a package manager, and editing a JSON config just to politely ask an AI to move a cube."
+  summary: A Model Context Protocol server and Blender addon that lets Claude and other MCP-compatible assistants create, modify, and inspect 3D scenes inside Blender via socket-based commands.
+  why_it_matters: It turns a standard 3D tool into a programmable surface for AI assistants, letting developers script and iterate on Blender scenes through natural language instead of manual Python.
+  mental_damage: You now have a direct path to debugging UV maps via Claude Desktop, because apparently the natural next step after AI wrote your backend is letting it rebuild your rendering pipeline.
   tags:
     - mcp
     - blender
     - 3d
-    - integration
+    - claude
+    - addon
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation with a Blender addon client, fitting cleanly into MCP Servers and Tooling rather than a coding agent or generic AI directory entry.
+  reason: The product is an MCP server with a matching Blender addon, and MCP is its core identity rather than a side feature.
   evidence:
-    - README states it implements the Model Context Protocol with a Python MCP server and a Blender addon.
+    - README states it 'implements the Model Context Protocol and connects to the Blender addon'.
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
-    - Provides integration instructions for Claude Desktop, Cursor, and VS Code as an MCP server.
+    - Provides explicit integration instructions for Claude Desktop, Cursor, and VS Code as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (21287) exceeded threshold (150)
+  reason: Stars (21338) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:54.346Z"
+    updated_at: "2026-05-06T22:12:30.039Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:41.225Z"
+    updated_at: "2026-05-06T22:19:36.002Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

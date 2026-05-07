@@ -1,12 +1,12 @@
 id: jfrog__com__xray
 kind: website
-name: JFrog Xray
+name: xray
 canonical_url: https://jfrog.com/xray
 identity: {}
 provenance:
   discoveries:
     - id: discovery__jfrog__com__xray__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,23 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JFrog Xray is an enterprise-grade software composition analysis (SCA) tool that identifies, prioritizes, and remediates security vulnerabilities and license compliance issues in open source software and third-party components.
-  why_it_matters: It integrates with developer workflows to catch supply chain risks early, and now extends its governance to AI models, agent skills, and MCP servers consumed by modern development stacks.
-  mental_damage: You finally automate your security scanning, only to realize your 'autonomous' coding agent is importing vulnerabilities faster than Xray can curate them.
+  summary: JFrog Xray is an enterprise-grade software composition analysis (SCA) tool that detects vulnerabilities, manages licenses, and mitigates open-source risks in software and AI artifacts.
+  why_it_matters: It integrates security and compliance scanning directly into the CI/CD pipeline, helping developers identify and remediate open-source and AI supply chain risks before shipping.
+  mental_damage: Now your AI agents can inherit the same paralyzing vulnerability paralysis usually reserved for human-led DevOps teams.
   tags:
-    - devsecops
-    - jfrog
     - sca
-    - security
+    - devsecops
     - supply-chain
+    - security
+    - jfrog
   confidence: high
 curation:
   status: excluded
-  reason: Xray is a traditional DevSecOps/SCA tool for vulnerability and license scanning, not a developer-facing AI coding tool, agent, or AI infrastructure product as defined by this catalog's scope.
+  reason: Excluded because JFrog Xray is a traditional DevSecOps and software composition analysis tool that lacks a primary developer-facing AI coding assistant, agent, or AI-native workflow identity.
   evidence:
-    - Repo description and site excerpt define it as 'Software Composition Analysis (SCA)' for vulnerabilities and license compliance, not AI coding assistance.
-    - Source list context places it under 'Security' in awesome-ai-coding-tools, signaling it is an adjacent security utility rather than a core coding agent.
-    - Site AI overview mentions 'governing MCP servers' and 'agent skills', but these are governance features for the supply chain, not tools that help a developer write or generate code.
+    - Product description defines it as an SCA tool for vulnerabilities and license compliance, not an AI coding tool.
+    - JFrog site positions Xray under DevSecOps/SCA, with AI mentioned only in the context of governing models and MCP servers.
+    - Source list placed it in a Security section, indicating it is a security scanner rather than a core AI coding assistant.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:41.009Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:26:39.162Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

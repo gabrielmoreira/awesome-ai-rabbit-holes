@@ -1,29 +1,13 @@
 id: github__j0hanz__filesystem-mcp
 kind: github-repo
-name: j0hanz/filesystem-context-mcp-server
+name: filesystem-mcp
 canonical_url: https://github.com/j0hanz/filesystem-mcp
 identity:
   github_repo: j0hanz/filesystem-mcp
 provenance:
   discoveries:
-    - id: discovery__github__j0hanz__filesystem-context-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📂 <a name="file-systems"></a>File Systems
-        anchor_text: j0hanz/filesystem-context-mcp-server
-        extracted_url: https://github.com/j0hanz/filesystem-context-mcp-server
-        surrounding_text: "- [j0hanz/filesystem-context-mcp-server](https://github.com/j0hanz/filesystem-context-mcp-server) 📇 🏠 - Read-only MCP server for secure filesystem exploration, searching, and analysis with symlink protection."
-        confidence: high
     - id: discovery__github__j0hanz__filesystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2025-12-12T09:26:27Z"
-    pushed_at: "2026-04-11T23:10:57Z"
+    pushed_at: "2026-05-06T22:44:06Z"
     description: A local filesystem MCP server that lets LLMs and AI agents read, write, search, diff, patch, and manage files safely and efficiently. Built for reliable, structured, and controlled filesystem interaction.
     homepage: https://github.com/j0hanz/filesystem-mcp#readme
     topics:
@@ -67,54 +51,50 @@ metadata:
       - searching
       - typescript
       - write
-    last_checked_at: "2026-05-05T21:02:49.457Z"
+    last_checked_at: "2026-05-06T22:44:28.611Z"
     readme:
-      fetched_at: "2026-05-05T21:02:49.457Z"
+      fetched_at: "2026-05-06T22:44:28.611Z"
       bytes: 45289
 insights:
-  summary: A local filesystem MCP server that provides AI assistants and agents with controlled, structured access to read, write, search, diff, and patch files within explicitly allowed directories.
-  why_it_matters: It gives coding agents and AI IDEs a secure, standardized way to interact with the local filesystem without opening the door to unbounded path traversal or uncontrolled file manipulation.
-  mental_damage: Another MCP server enters the arena, promising that this time your agent will only destroy the files you explicitly allowed it to destroy.
+  summary: A secure, local filesystem MCP server that exposes 18 file operation tools—including read, write, search, diff, and patch—to AI assistants via stdio or HTTP transport.
+  why_it_matters: It gives coding agents and IDEs controlled, sandboxed access to the local filesystem with structured output and path-traversal protection, avoiding the need to grant broad shell access.
+  mental_damage: We have invented a standardized protocol just to let an AI safely open a file, as if the concept of a file handle was the real problem all along.
   tags:
+    - mcp
     - filesystem
     - local-ai
-    - mcp
     - security
-    - tools
     - typescript
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation, making it a textbook fit for the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server providing filesystem access to AI assistants, which fits cleanly into MCP Servers & Tooling under generic servers.
   evidence:
-    - Repo description explicitly calls it 'A local filesystem MCP server'
-    - README states it is 'A secure, production-ready Model Context Protocol server' with 18 filesystem tools
-    - Listed under 'Server Implementations > File Systems' in the awesome-mcp-servers directory
-    - Repo description explicitly states 'A local filesystem MCP server'
-    - README states 'A secure, production-ready Model Context Protocol server that gives AI assistants controlled access to the local filesystem'
-    - Provides 18 filesystem tools with structured output schemas and dual transport (stdio and HTTP)
+    - Repo description explicitly states it is 'A local filesystem MCP server' built for MCP-based agent interaction.
+    - README emphasizes MCP surface (18 tools, resources, prompts) and dual transport (stdio and Node Streamable HTTP).
+    - Listed in awesome-mcp-servers under 'File Systems', confirming ecosystem placement as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:27:05.914Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:49.457Z"
+    updated_at: "2026-05-06T22:44:28.611Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:01.781Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

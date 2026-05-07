@@ -1,13 +1,13 @@
 id: github__huybery__awesome-code-llm
 kind: github-repo
-name: Awesome-Code-LLM
+name: awesome-code-llm
 canonical_url: https://github.com/huybery/awesome-code-llm
 identity:
   github_repo: huybery/awesome-code-llm
 provenance:
   discoveries:
     - id: discovery__github__huybery__awesome-code-llm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1285
+    stars: 1286
     forks: 70
     license: MIT
     archived: false
@@ -35,50 +35,49 @@ metadata:
       - awesome
       - code-generation
       - large-language-models
-    last_checked_at: "2026-05-05T21:02:38.629Z"
+    last_checked_at: "2026-05-06T22:44:19.865Z"
     readme:
-      fetched_at: "2026-05-05T21:02:38.629Z"
+      fetched_at: "2026-05-06T22:44:19.865Z"
       bytes: 42539
 insights:
-  summary: A curated, actively updated awesome list tracking state-of-the-art code LLMs, evaluation benchmarks, and research papers for developers and researchers.
-  why_it_matters: It provides developers with a centralized map of which models actually top the HumanEval charts, helping skip the marketing noise when choosing a local or API-based coding model.
-  mental_damage: Yet another helpful list proving that while your job is safe, your weekend is not, because you are now legally obligated to benchmark every 1.5B model that drops on a Tuesday.
+  summary: A curated list of code-focused LLMs, evaluation toolkits, leaderboards, and research papers.
+  why_it_matters: It provides a single reference point for developers comparing open-source and proprietary coding models and their benchmark performance.
+  mental_damage: Yet another reason to spend three hours staring at a leaderboard deciding if a 1.2% HumanEval gain is worth switching your entire stack.
   tags:
     - awesome-list
-    - benchmarks
     - code-llm
-    - models
+    - benchmarks
     - research
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of code-LLM research and models rather than a standalone developer tool, making it a textbook fit for the Awesome Awesomes category.
+  reason: This is a classic curated discovery list for navigating the code-LLM ecosystem, which fits the Lists & Directories category.
   evidence:
-    - Repo description explicitly calls it 'an awesome and curated list of best code-LLM for research.'
-    - README organizes content into leaderboards, evaluation toolkits, and research papers, not usable tooling.
-    - Listed in Awesome-LLMOps under the 'Awesome Lists' section, reinforcing its role as a meta-list.
+    - Repo description states it is 'an awesome and curated list of best code-LLM for research.'
+    - README organizes content into leaderboards, evaluation toolkits, and papers rather than providing a usable tool.
+    - Appears in Awesome-LLMOps under the 'Awesome Lists' section, reinforcing its identity as a directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1285) exceeded threshold (150)
+  reason: Stars (1286) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:24:53.588Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:38.629Z"
+    updated_at: "2026-05-06T22:44:19.865Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:15.932Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__pchalasani__claude-code-tools
 kind: github-repo
-name: Claude Code Tools
+name: claude-code-tools
 canonical_url: https://github.com/pchalasani/claude-code-tools
 identity:
   github_repo: pchalasani/claude-code-tools
 provenance:
   discoveries:
     - id: discovery__github__pchalasani__claude-code-tools__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -42,50 +42,50 @@ metadata:
       - context
       - llm
       - tmux
-    last_checked_at: "2026-05-05T21:04:14.342Z"
+    last_checked_at: "2026-05-06T22:45:49.942Z"
     readme:
-      fetched_at: "2026-05-05T21:04:14.342Z"
+      fetched_at: "2026-05-06T22:45:49.942Z"
       bytes: 5164
 insights:
-  summary: A CLI toolkit and plugin suite that provides productivity tools, skills, hooks, and integrations for Claude Code and other terminal-based coding agents.
-  why_it_matters: It extends the capabilities of CLI coding agents with session management, voice control, Google Workspace integrations, and safety hooks to streamline the terminal-based AI development workflow.
-  mental_damage: We have now reached the point where we need a dedicated toolkit to organize the plugins, hooks, and skills we use to manage the agent that writes our code.
+  summary: A toolkit of CLI tools, plugins, hooks, and skills designed to extend and enhance productivity within Claude Code and other CLI-based coding agents.
+  why_it_matters: It provides ready-to-use integrations like tmux automation, Google Docs/Sheets connectors, and voice input that the base CLI agents lack out of the box.
+  mental_damage: Another essential layer of duct tape for the CLI agent lifestyle, proving that even 'autonomous' coding tools require a robust plugin ecosystem to remember how to use a terminal.
   tags:
-    - claude-code
     - cli
     - plugins
-    - skills
-    - tmux
+    - claude-code
+    - productivity
+    - hooks
   confidence: high
 curation:
   status: included
-  reason: This is a suite of extensions, plugins, and skills designed to augment Claude Code and other CLI coding agents, fitting the definition of an AI Developer Extension rather than the primary assistant itself.
+  reason: The project's primary identity is augmenting Claude Code and similar CLI agents with plugins, hooks, and tools, fitting the Extensions & Integrations category rather than being a standalone coding assistant.
   evidence:
-    - Repo description explicitly states it is for 'Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.'
-    - README describes 'CLI tools, skills, agents, hooks, and plugins for enhancing productivity with Claude Code.'
-    - Seen in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'.
+    - Repo description states it is 'Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.'
+    - README describes 'CLI tools, skills, agents, hooks, and plugins for enhancing productivity with Claude Code and other coding agents.'
+    - Canonical positive for 'ai-dev-extensions' explicitly lists 'Claude Code Tools' as a fit.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (1763) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:11.985Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:14.342Z"
+    updated_at: "2026-05-06T22:45:49.942Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:21:16.402Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__achiya-automation__safari-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 54
+    stars: 55
     forks: 10
     license: MIT
     archived: false
     created_at: "2026-03-18T17:47:00Z"
-    pushed_at: "2026-05-03T08:34:22Z"
+    pushed_at: "2026-05-06T15:42:30Z"
     description: Native Safari browser automation for AI agents. 80 tools via AppleScript — zero overhead, keeps logins, runs silently in background. Drop-in alternative to Chrome DevTools MCP with 40-60% less CPU/heat on Apple Silicon.
     homepage: https://achiya-automation.com
     topics:
@@ -53,50 +53,50 @@ metadata:
       - web-automation
       - webkit
       - windsurf
-    last_checked_at: "2026-05-05T21:00:48.053Z"
+    last_checked_at: "2026-05-06T22:12:24.467Z"
     readme:
-      fetched_at: "2026-05-05T21:00:48.053Z"
+      fetched_at: "2026-05-06T22:12:24.467Z"
       bytes: 29615
 insights:
-  summary: A Model Context Protocol server that enables AI agents to automate Safari on macOS via 80 native AppleScript tools, preserving logged-in sessions and using significantly less CPU than Chrome-based alternatives.
-  why_it_matters: It allows coding agents and AI workflows to drive a real, authenticated browser session on Apple Silicon Macs without the overhead of headless Chrome or separate browser dependencies.
-  mental_damage: We have successfully rebuilt the browser automation stack for the third time this month, this time specifically so your AI can burn 60% less CPU while still failing to click the correct 'Accept Cookies' button in Safari.
+  summary: An MCP server that provides 80 AppleScript-based tools for automating the native Safari browser on macOS, designed as a low-overhead alternative to Chrome DevTools MCP.
+  why_it_matters: It allows coding agents to drive a real, logged-in Safari instance with ~60% less CPU usage than Chrome-based automation, preserving sessions and avoiding bot detection.
+  mental_damage: We have reached the point where keeping your laptop from melting requires a specialized protocol server just to let your AI use the browser you already have open.
   tags:
     - mcp
     - browser-automation
-    - safari
     - macos
     - apple-silicon
+    - safari
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server providing browser automation capabilities, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server providing browser automation capabilities specifically for AI agents via the Model Context Protocol.
   evidence:
-    - Repo description explicitly identifies it as 'Native Safari browser automation for AI agents' via MCP.
-    - README positions it as a drop-in alternative to Chrome DevTools MCP with 80 tools via AppleScript.
-    - Listed in awesome-mcp-servers under 'Browser Automation', confirming its role in the MCP ecosystem.
+    - Repo description explicitly states 'Native Safari browser automation for AI agents' and identifies as a 'Drop-in alternative to Chrome DevTools MCP'.
+    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol', confirming MCP is the core identity.
+    - Listed in awesome-mcp-servers under 'Browser Automation', aligning with its domain-specific server role.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:48.053Z"
+    updated_at: "2026-05-06T22:12:24.467Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:05:40.907Z"
+    updated_at: "2026-05-06T22:18:34.981Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

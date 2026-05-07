@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ikamensh__kodo__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,59 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 69
+    stars: 70
     forks: 4
     license: MIT
     archived: false
     created_at: "2026-02-18T09:40:03Z"
-    pushed_at: "2026-04-13T14:28:40Z"
+    pushed_at: "2026-05-06T10:23:00Z"
     description: Orchestrator for AI coding (claude code, cursor, codex, gemini)
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:41.633Z"
+    last_checked_at: "2026-05-06T22:44:22.166Z"
     readme:
-      fetched_at: "2026-05-05T21:02:41.633Z"
+      fetched_at: "2026-05-06T22:44:22.166Z"
       bytes: 19305
 insights:
-  summary: An orchestrator that runs autonomous multi-agent coding cycles using Claude Code, Cursor, Codex, and Gemini CLI, with independent verification to produce tested code overnight.
-  why_it_matters: It lets developers with Claude Code Max subscriptions offload multi-hour, multi-agent coding and review loops to run unattended while they sleep.
-  mental_damage: We have finally reached the point where your AI agents need their own managers, architects, and QA teams so you can wake up to someone else’s technical debt.
+  summary: An orchestrator that runs multiple coding agents (Claude Code, Cursor, Codex, Gemini) in autonomous cycles with independent verification to produce tested code overnight.
+  why_it_matters: It lets developers with a Claude Code Max subscription delegate multi-hour, multi-agent coding sessions that include built-in QA, catching bugs that a single agent session would miss.
+  mental_damage: "We have finally achieved the pinnacle of developer productivity: going to sleep so an orchestra of agents can argue with each other about resource leaks until 3 AM."
   tags:
-    - orchestration
     - multi-agent
+    - orchestration
     - cli
-    - coding-agent
+    - autonomous
     - overnight
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing coding agent orchestrator that directs Claude Code and similar CLI agents through autonomous work and review cycles inside a repo workflow.
+  reason: The product is a runtime platform that coordinates multiple coding agents through work cycles with verification, fitting the orchestration control plane profile rather than being a primary coding assistant itself.
   evidence:
-    - "Repo description: 'Orchestrator for AI coding (claude code, cursor, codex, gemini)'"
-    - "README: 'Autonomous multi-agent coding that runs overnight on your Claude Code Max subscription... orchestrator directs Claude Code agents through work cycles with independent verification'"
-    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'
+    - Repo description states it is an 'Orchestrator for AI coding (claude code, cursor, codex, gemini)'
+    - README details a multi-agent runtime with orchestrator, worker, architect, and tester roles running unattended cycles
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:41.633Z"
+    updated_at: "2026-05-06T22:44:22.166Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:36.524Z"
+    updated_at: "2026-05-06T23:01:48.629Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sammcj__mcp-package-version__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [sammcj/mcp-package-version](https://github.com/sammcj/mcp-package-version) 📇 🏠 - An MCP Server to help LLMs suggest the latest stable package versions when writing code."
         confidence: high
     - id: discovery__github__sammcj__mcp-package-version__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,47 +39,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 121
+    forks: 22
+    license: MIT
+    archived: true
+    created_at: "2024-12-16T06:07:05Z"
+    pushed_at: "2026-01-28T12:14:12Z"
+    description: An MCP server that provides LLMs with the latest stable package versions when coding
+    homepage: https://smcleod.net
+    topics:
+      - ai
+      - javascript
+      - llm
+      - mcp
+      - node
+      - package
+      - python
+      - security
+      - tool
+      - typescript
+      - versioning
+      - versions
+    last_checked_at: "2026-05-06T22:46:16.041Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:16.041Z"
+      bytes: 9273
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An archived MCP server that provides LLMs with the latest stable package versions across npm, PyPI, Maven, Go, Swift, Docker Hub, and GitHub Actions.
+  why_it_matters: It solves the common problem of LLMs recommending outdated dependencies by giving coding agents live access to package registry version data.
+  mental_damage: We now need a dedicated server to stop our AI assistants from confidently hallucinating that the cutting-edge version of your favorite library is from 2021.
+  tags:
+    - mcp
+    - package-versions
+    - registries
+    - dev-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is explicitly archived and the author has stated they are migrating this functionality into a larger tool (mcp-devtools), making it a dead-end for the catalog.
+  evidence:
+    - Repo description states it is 'An MCP server that provides LLMs with the latest stable package versions'.
+    - "README includes: 'IMPORTANT: I'm slowly moving across this tool to a component of my mcp-devtools server'."
+    - "GitHub status shows 'archived: yes'."
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:16.041Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:57.648Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

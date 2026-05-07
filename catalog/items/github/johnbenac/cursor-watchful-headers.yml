@@ -1,13 +1,13 @@
 id: github__johnbenac__cursor-watchful-headers
 kind: github-repo
-name: Cursor Watchful Headers
+name: cursor-watchful-headers
 canonical_url: https://github.com/johnbenac/cursor-watchful-headers
 identity:
   github_repo: johnbenac/cursor-watchful-headers
 provenance:
   discoveries:
     - id: discovery__github__johnbenac__cursor-watchful-headers__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -33,49 +33,50 @@ metadata:
     description: Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect for maintaining documentation context in large codebases.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:57.520Z"
+    last_checked_at: "2026-05-06T22:44:36.154Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.519Z"
+      fetched_at: "2026-05-06T22:44:36.154Z"
       bytes: 15163
 insights:
-  summary: A Python file watcher that automatically injects and maintains consistent headers across project files while keeping a .cursorrules project tree clean for LLM context.
-  why_it_matters: It automates the grunt work of header consistency and shapes project context so Cursor's AI sees a focused tree instead of a noisy dump of build artifacts.
-  mental_damage: We have officially reached the point where we need background scripts to curate the context window for the AI that is already writing the code we no longer read.
+  summary: A Python file watcher that automatically injects and maintains consistent headers across project files while dynamically updating a project tree structure inside .cursorrules to improve LLM context.
+  why_it_matters: It keeps file headers consistent and prunes noisy directories from the project tree fed into Cursor, helping the AI maintain accurate context in large codebases.
+  mental_damage: We have reached the point where we are building infrastructure to curate the context we feed the AI so it can tell us which infrastructure we forgot to curate.
   tags:
-    - context-engineering
     - cursor
     - cursorrules
+    - context-management
     - file-watcher
+    - python
   confidence: high
 curation:
   status: included
-  reason: This is a host-side integration that extends Cursor by automating header management and cleaning up .cursorrules context, fitting the AI Developer Extensions category.
+  reason: The core novelty is shaping what context (project tree and file headers) is delivered to the model via .cursorrules, which aligns with Prompt & Context Engineering rather than being a primary coding agent or a simple IDE extension.
   evidence:
-    - Repo description explicitly mentions 'Automated file header management and project structure visualization in cursorrules.'
-    - README states the tool 'Provides clean, focused context for LLM coding agents' by maintaining the .cursorrules tree.
-    - Listed under 'Rules > Utilities' in the awesome-cursorrules directory, confirming its role as a Cursor extension.
+    - Repo description states it 'Maintains consistent headers across multiple file types while providing real-time project tree updates' for cursorrules.
+    - README explains the tool updates .cursorrules with a focused tree structure and header management to 'Provide clean, focused context for LLM coding agents'.
+    - Listed in awesome-cursorrules under 'Rules > Utilities', confirming its role in context and rules management for Cursor.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:28:54.173Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.520Z"
+    updated_at: "2026-05-06T22:44:36.154Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:04:38.081Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

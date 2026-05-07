@@ -1,13 +1,13 @@
 id: github__kaarthik108__snowchat
 kind: github-repo
-name: snowChat ❄️
+name: snowchat
 canonical_url: https://github.com/kaarthik108/snowchat
 identity:
   github_repo: kaarthik108/snowchat
 provenance:
   discoveries:
     - id: discovery__github__kaarthik108__snowchat__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -42,28 +42,28 @@ metadata:
       - snowpark
       - streamlit
       - supabase
-    last_checked_at: "2026-05-05T21:03:01.736Z"
+    last_checked_at: "2026-05-06T22:44:39.211Z"
     readme:
-      fetched_at: "2026-05-05T21:03:01.736Z"
+      fetched_at: "2026-05-06T22:44:39.211Z"
       bytes: 3701
 insights:
-  summary: A Streamlit-based chat interface that converts natural language questions into SQL queries to interact with Snowflake databases using LLMs and LangChain.
-  why_it_matters: It allows developers and data users to query Snowflake warehouses conversationally without writing raw SQL, using an agent-based architecture with memory and self-healing queries.
-  mental_damage: We have successfully abstracted away the need to learn SQL, replacing it with the need to carefully engineer prompts, debug LLM hallucinations, and manage a Supabase-Cloudflare-LangChain stack just to ask a database for a count.
+  summary: snowChat is a Streamlit-based natural language interface that translates user questions into SQL queries and executes them against Snowflake databases.
+  why_it_matters: It allows developers and analysts to query Snowflake data using conversational language without writing raw SQL, bridging the gap between business questions and database schemas.
+  mental_damage: Yet another reminder that the modern data stack now requires a LangChain agent, Supabase bucket, Cloudflare KV store, and a Streamlit UI just to ask 'how many rows are in this table?'
   tags:
-    - langchain
-    - llm-agents
-    - snowflake
-    - streamlit
     - text-to-sql
+    - snowflake
+    - langchain
+    - streamlit
+    - data-querying
   confidence: high
 curation:
   status: excluded
-  reason: This is a specialized end-user business intelligence tool for querying Snowflake with natural language, not a developer tooling product for writing code, managing repos, or building apps.
+  reason: Excluded because the tool is an end-user data querying app for Snowflake, not a developer-facing coding assistant, framework, or infrastructure tool.
   evidence:
-    - Repo description and README define it as a tool to 'interact with their Snowflake data' and 'generate the appropriate SQL query', targeting data access rather than code development.
-    - The architecture is a Streamlit UI with LangChain/Snowflake integration, serving as a text-to-SQL app rather than a coding assistant, IDE, or app builder.
-    - Listed in awesome-langchain under 'Chatbots', which confirms its fit as a LangChain demo/project rather than a core developer workflow tool.
+    - "Repo description: 'Chat snowflake - Text to SQL'"
+    - README states the value is for users to 'interact with their Snowflake data using natural language queries' rather than editing code or building apps.
+    - Listed in awesome-langchain under 'Chatbots', indicating it is a demo/showcase app rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -71,21 +71,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (553) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:29:53.891Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:01.736Z"
+    updated_at: "2026-05-06T22:44:39.211Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:05:18.987Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

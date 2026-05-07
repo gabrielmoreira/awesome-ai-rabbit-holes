@@ -1,12 +1,12 @@
 id: replit__com
 kind: website
-name: Replit
+name: replit.com
 canonical_url: https://replit.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-first platform that lets users generate, iterate on, and deploy full-stack web and mobile applications using conversational AI prompts.
-  why_it_matters: It allows developers and product teams to prototype and ship functional full-stack applications with integrated databases and hosting without managing underlying infrastructure.
-  mental_damage: You can now watch a bot scaffold an entire CRUD app in the time it takes to explain to your manager why the sprint estimate is still 'just two weeks.'
+  summary: Replit is a cloud-based development platform that uses AI (Agent 4) to turn natural language prompts into deployed full-stack web and mobile applications.
+  why_it_matters: It allows developers and non-developers to rapidly prototype and ship production-ready apps with built-in infrastructure for hosting, databases, and authentication, removing environment setup friction.
+  mental_damage: Your 'vibe coding' prototype is now a production app with a parallel agent running tasks, meaning you can now ignore architecture decisions at an unprecedented scale.
   tags:
-    - ai-agent
-    - app-builder
+    - prompt-to-app
+    - cloud-ide
     - full-stack
+    - ai-agent
     - prototyping
   confidence: high
 curation:
   status: included
-  reason: Replit is a hosted, browser-first SaaS that generates and deploys entire applications from prompts, which aligns perfectly with the app-builders category rather than a coding-agent that assists within an existing repo.
+  reason: The platform's core value proposition is turning prompts into deployed apps and sites via 'Agent 4', fitting the prompt-to-app builder definition rather than a repo-editing coding agent.
   evidence:
     - "Scraped site title and description: 'Build apps and sites with AI' and 'Turn ideas into apps in minutes'."
-    - Source list context explicitly categorizes it as 'App Builders' in awesome-ai-coding-tools.
-    - Feature list includes 'Publish Apps', 'Full stack infrastructure', and 'Agent writes production-ready code' for new projects.
+    - Primary surface is 'Agent 4' which 'writes production-ready code' based on prompts rather than editing existing repos.
+    - Already curated in 'awesome-ai-coding-tools' under the 'App Builders' section.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:35.375Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:00.317Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

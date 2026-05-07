@@ -1,13 +1,13 @@
 id: github__vibrantlabsai__ragas
 kind: github-repo
-name: RAGAS
+name: ragas
 canonical_url: https://github.com/vibrantlabsai/ragas
 identity:
   github_repo: vibrantlabsai/ragas
 provenance:
   discoveries:
-    - id: discovery__github__explodinggradients__ragas__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__vibrantlabsai__ragas__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/explodinggradients/ragas
         surrounding_text: "| [RAGAS](https://github.com/explodinggradients/ragas) | Evaluation framework for RAG systems |"
         confidence: high
-    - id: discovery__github__explodinggradients__ragas__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__vibrantlabsai__ragas__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,62 +39,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13773
-    forks: 1393
-    license: Apache-2.0
-    archived: false
-    created_at: "2023-05-08T17:48:04Z"
-    pushed_at: "2026-02-24T07:47:19Z"
-    description: Supercharge Your LLM Application Evaluations 🚀
-    homepage: https://docs.ragas.io
-    topics:
-      - evaluation
-      - llm
-      - llmops
-    last_checked_at: "2026-05-05T21:02:06.885Z"
-    readme:
-      fetched_at: "2026-05-05T21:02:06.885Z"
-      bytes: 6996
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
 insights:
-  summary: Ragas is a Python toolkit for evaluating and optimizing LLM applications through objective metrics, automated test data generation, and production-data feedback loops.
-  why_it_matters: It provides developers with the metrics and test harnesses needed to move LLM application development from vibes-based guessing to measurable, data-driven iteration.
-  mental_damage: You can now scientifically prove that your RAG pipeline is only 68% accurate, which is exactly the kind of precise metric you need before ignoring it and shipping anyway.
-  tags:
-    - llm-evals
-    - metrics
-    - python
-    - rag
-    - testing
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The project is a dedicated evaluation framework and toolkit for measuring LLM application quality, which is a precise match for the Evaluations and Benchmarks category.
-  evidence:
-    - "Repo description: 'Supercharge Your LLM Application Evaluations'"
-    - "README excerpt: 'Objective metrics, intelligent test generation, and data-driven insights for LLM apps'"
-    - Listed in awesome-agent-orchestration under 'Evaluation & Benchmarking'
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: evals
+  primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (13773) exceeded threshold (150)
+  status: incubating
+  reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:49.963Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.595Z"
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-05T21:02:06.885Z"
+    status: pending
+    updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null

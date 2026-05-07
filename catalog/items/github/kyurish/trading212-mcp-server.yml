@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyurish__trading212-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -46,50 +46,49 @@ metadata:
       - stocks
       - trading
       - trading212
-    last_checked_at: "2026-05-05T21:03:14.552Z"
+    last_checked_at: "2026-05-06T22:44:53.383Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.552Z"
+      fetched_at: "2026-05-06T22:44:53.383Z"
       bytes: 6988
 insights:
-  summary: An MCP server that exposes the Trading 212 brokerage API as 32 structured tools, enabling AI assistants like Claude and Cursor to query portfolios, manage pies, and place trades via natural language.
-  why_it_matters: It allows developers to automate personal finance workflows and portfolio analytics by wiring a brokerage account directly into their existing MCP-compatible AI toolchain.
-  mental_damage: "We have finally achieved the peak of developer productivity: asking a large language model to panic-sell AAPL while we debug a CSS grid in Cursor."
+  summary: An MCP server that exposes the Trading 212 brokerage API as 32 tools for portfolio analytics, order management, and market data within AI assistants.
+  why_it_matters: Developers can manage trades, analyze portfolio performance, and export transaction history through natural language conversations in Claude, Cursor, or Windsurf.
+  mental_damage: "We have finally achieved the platonic ideal of the modern developer workflow: wrapping a stock brokerage in an MCP server so you can panic-sell while your AI assistant explains why the rate limiter is being polite about it."
   tags:
     - mcp
     - trading
     - finance
-    - python
-    - broker-api
+    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for a specific brokerage API, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server exposing Trading 212 brokerage capabilities, which fits cleanly into the Domain Servers section of MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'MCP server for Trading 212' with 32 tools covering the full API.
-    - README confirms compatibility with Claude, ChatGPT, Cursor, and Windsurf via the Model Context Protocol.
-    - Listed in the awesome-mcp-servers directory under 'Finance & Fintech'.
+    - Repo description explicitly states 'MCP server for Trading 212' with portfolio analytics and order management capabilities.
+    - README confirms MCP is the product identity with 32 tools, PyPI package, and compatibility with Claude, ChatGPT, Cursor, and Windsurf.
+    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing the MCP server classification.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.552Z"
+    updated_at: "2026-05-06T22:44:53.383Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:47.522Z"
+    updated_at: "2026-05-06T23:08:11.299Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

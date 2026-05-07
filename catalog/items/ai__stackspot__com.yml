@@ -1,12 +1,12 @@
 id: ai__stackspot__com
 kind: website
-name: StackSpot AI
+name: ai.stackspot.com
 canonical_url: https://ai.stackspot.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__ai__stackspot__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,41 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: StackSpot AI is a developer tool designed to accelerate the software development lifecycle through AI assistance.
-  why_it_matters: It aims to shorten development cycles by integrating AI support directly into the coding workflow.
-  mental_damage: Because if an AI tool doesn't explicitly promise to 'accelerate your entire cycle,' you have to wonder if it's just slowing you down with extra tokens.
+  summary: StackSpot AI is a developer tool designed to accelerate the entire software development cycle using artificial intelligence.
+  why_it_matters: It positions itself as a comprehensive assistant aimed at speeding up coding workflows from start to finish.
+  mental_damage: Yet another 'accelerate your cycle' AI tool to evaluate while your actual development cycle slows down to a crawl.
   tags:
-    - ai-assistant
-    - code-editor
-    - development-acceleration
+    - ai-coding
+    - development-cycle
+    - assistant
   confidence: low
 curation:
   status: included
-  reason: The tool focuses on accelerating the development cycle within the editor/assistant context, fitting the coding-agents profile, and is listed in a reputable coding tools directory.
+  reason: The tool is described as a developer-facing assistant aimed at accelerating the coding cycle, fitting the 'Code Editors and Assistants' profile found in source lists.
   evidence:
-    - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants'.
-    - Site description states 'Aceleres todo o seu ciclo de desenvolvimento' (Accelerate your entire development cycle).
+    - "Description states: 'Acelere todo o seu ciclo de desenvolvimento' (Accelerate your entire development cycle)."
+    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+    - Title and URL identify it as 'StackSpot AI', indicating a branded AI product rather than a framework or extension.
 placement:
   primary_category: coding-agents
-  section: null
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:33.576Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:38.249Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

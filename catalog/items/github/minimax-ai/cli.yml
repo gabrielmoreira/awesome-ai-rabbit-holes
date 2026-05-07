@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minimax-ai__cli__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,59 +23,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1657
+    stars: 1665
     forks: 111
     license: null
     archived: false
     created_at: "2026-03-25T15:34:45Z"
-    pushed_at: "2026-04-26T01:40:16Z"
+    pushed_at: "2026-05-06T05:04:43Z"
     description: Generate text, images, video, speech, and music by MiniMax.
     homepage: https://platform.minimax.io/subscribe/token-plan
     topics:
       - ai
-    last_checked_at: "2026-05-05T21:03:42.331Z"
+    last_checked_at: "2026-05-06T22:45:20.394Z"
     readme:
-      fetched_at: "2026-05-05T21:03:42.331Z"
+      fetched_at: "2026-05-06T22:45:20.394Z"
       bytes: 5386
 insights:
-  summary: The official CLI for the MiniMax AI Platform, enabling generation of text, images, video, speech, and music from the terminal or AI agents.
-  why_it_matters: It provides a scriptable interface for developers to integrate multimodal content generation directly into agent workflows, CI pipelines, or local automation.
-  mental_damage: Now your CI pipeline can fail not just because of bad code, but because the robot couldn't synthesize a jazzy cover of your README.
+  summary: The official CLI for the MiniMax AI Platform, providing a terminal and agent-accessible interface to generate text, images, video, speech, and music via API.
+  why_it_matters: It lets developers wire multi-modal generation directly into terminal workflows and register these capabilities as skills for agents like Cursor and Claude Code.
+  mental_damage: Another provider CLI enters the arena, kindly reminding us that 'universal AI assistant' now requires a separate token plan and npm install for every foundation model startup.
   tags:
     - cli
     - multimodal
     - minimax
-    - ai-agents
+    - skills
+    - generative-ai
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing CLI tool designed specifically for use by AI agents and terminal users to generate multimodal content via the MiniMax platform.
+  reason: This is a provider-specific CLI and SDK used to script against MiniMax APIs, fitting the code-first building block definition for provider abstractions.
   evidence:
     - "Repo description states: 'Generate text, images, video, speech, and music by MiniMax.'"
-    - "README highlights: 'Built for AI agents. Generate text, images, video, speech, and music — from any agent or terminal.'"
-    - "Includes install command for agents: 'npx skills add MiniMax-AI/cli' for OpenClaw, Cursor, and Claude Code."
+    - README positions it as 'The official CLI for the MiniMax AI Platform' and shows npm install and scriptable command usage (mmx text, mmx image, etc.).
+    - It is marketed as a skill for agents (npx skills add), reinforcing its identity as a programmable tool rather than a primary coding agent.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1657) exceeded threshold (150)
+  reason: Stars (1665) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:42.331Z"
+    updated_at: "2026-05-06T22:45:20.394Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:38:10.957Z"
+    updated_at: "2026-05-06T23:14:32.817Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

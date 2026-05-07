@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__simonkowallik__irulescan__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,27 +23,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2022-12-18T11:05:18Z"
+    pushed_at: "2025-07-07T19:56:20Z"
+    description: ":shield: irulescan - security analyzer for iRules"
+    homepage: https://simonkowallik.github.io/irulescan/
+    topics:
+      - dast
+      - docker
+      - docker-image
+      - f5
+      - f5-bigip
+      - f5networks
+      - irules
+      - sast
+      - security
+      - security-tools
+      - static-code-analysis
+      - tcl
+    last_checked_at: "2026-05-06T22:46:25.472Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:25.472Z"
+      bytes: 13427
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A static analysis security scanner for F5 iRules that detects unsafe expressions like double substitution and unquoted expr usage.
+  why_it_matters: It helps network and DevOps engineers catch dangerous TCL patterns in F5 BIG-IP iRules before they reach production and cause unpredictable traffic behavior.
+  mental_damage: Yet another niche security scanner that reminds us our infrastructure code is only one unquoted expr away from a very bad day.
+  tags:
+    - security
+    - static-analysis
+    - f5
+    - irules
+    - sast
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is a traditional SAST tool for F5 iRules with no meaningful AI, agent, or developer-AI-workflow angle, and its MCP server is a minor subcommand rather than the product identity.
+  evidence:
+    - Repo description and README define it purely as a security analyzer for iRules, not an AI tool.
+    - MCP and API servers are secondary subcommands (mcpserver, apiserver), not the core product identity.
+    - Only 12 stars and no presence in AI developer tooling lists beyond a generic MCP servers list.
 placement:
   primary_category: null
   section: null
@@ -53,17 +75,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:25.472Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:28:46.081Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

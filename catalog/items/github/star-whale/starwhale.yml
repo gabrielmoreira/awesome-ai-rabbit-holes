@@ -1,13 +1,13 @@
 id: github__star-whale__starwhale
 kind: github-repo
-name: Starwhale
+name: starwhale
 canonical_url: https://github.com/star-whale/starwhale
 identity:
   github_repo: star-whale/starwhale
 provenance:
   discoveries:
     - id: discovery__github__star-whale__starwhale__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 238
+    forks: 39
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-12-30T14:26:20Z"
+    pushed_at: "2024-12-20T04:11:17Z"
+    description: an MLOps/LLMOps platform
+    homepage: https://starwhale.ai
+    topics:
+      - ai
+      - cloud-native
+      - dataset
+      - datastore
+      - fine-tuning
+      - infra
+      - kubernetes
+      - llm
+      - llmops
+      - mlops
+      - model-evaluation
+      - runtime
+    last_checked_at: "2026-05-06T22:46:34.044Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:34.044Z"
+      bytes: 14825
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Starwhale is an open-source MLOps/LLMOps platform for managing the machine learning lifecycle, including model evaluation, fine-tuning, and dataset management.
+  why_it_matters: It provides a unified, Kubernetes-ready environment to standardize model building, evaluation, and fine-tuning workflows for ML teams.
+  mental_damage: Yet another platform promising to bring 'efficiency and standardization' to the ML lifecycle, right alongside the seventeen other platforms already fighting for dominance in your Kubernetes cluster.
+  tags:
+    - mlops
+    - llmops
+    - evaluation
+    - fine-tuning
+    - kubernetes
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is a general machine learning operations platform focused on model lifecycle management, dataset handling, and fine-tuning, which falls outside the catalog's scope of direct AI developer tooling, coding agents, and adjacent infrastructure.
+  evidence:
+    - Repo description explicitly defines it as an 'MLOps/LLMOps platform' rather than a coding tool or framework.
+    - README highlights capabilities around model evaluation, fine-tuning, and dataset management as the core value proposition.
+    - Appears in 'Awesome-LLMOps' under 'ML Platforms', indicating its identity is a broad ML platform rather than a developer-centric coding tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (238) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:34.044Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:30:11.662Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

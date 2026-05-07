@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xzcov__omni-fun-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: "MCP server for omni.fun — multichain memecoin launchpad. 8 tools for AI agents: trending tokens, search, quotes, bonding curves, trade simulation, chain info."
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:43.792Z"
+    last_checked_at: "2026-05-06T22:12:20.042Z"
     readme:
-      fetched_at: "2026-05-05T21:00:43.792Z"
+      fetched_at: "2026-05-06T22:12:20.042Z"
       bytes: 2175
 insights:
-  summary: An MCP server that exposes omni.fun's multichain memecoin launchpad data, enabling AI agents to query trending tokens, bonding curves, and simulate trades across eight chains.
-  why_it_matters: It allows developers building AI agents to natively plug into memecoin ecosystems without writing custom API wrappers for token discovery and trade simulation.
-  mental_damage: We have officially reached the point where autonomous agents need standardized tooling to simulate buying tokens that graduate via a $69K bonding curve on eight different chains.
+  summary: An MCP server that exposes omni.fun multichain memecoin launchpad data, including trending tokens, bonding curves, and trade simulation, to AI agents across 8 chains.
+  why_it_matters: It lets AI coding agents natively query live memecoin markets and simulate trades via the Model Context Protocol instead of forcing developers to hand-craft API wrappers.
+  mental_damage: "We have finally achieved the future: your coding agent can now simulate a Solana memecoin graduation while you're trying to debug a failing CI pipeline."
   tags:
     - mcp
     - crypto
-    - memecoins
-    - agent-tools
-    - trading
-  confidence: high
+    - memecoin
+    - defi
+    - multichain
+  confidence: medium
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation designed to give AI agents access to memecoin launchpad data and trade simulation tools.
+  reason: The product is an MCP server providing domain-specific (memecoin/fintech) tools to AI agents, which fits the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states 'MCP server for omni.fun' with 8 tools for AI agents.
-    - README details installation via npx and configuration for Claude Desktop as an MCP server.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
+    - Repo description explicitly states 'MCP server for omni.fun — multichain memecoin launchpad. 8 tools for AI agents.'
+    - README details 8 MCP tools including get_trending_tokens, simulate_trade, and get_bonding_curve.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.675Z"
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:43.792Z"
+    updated_at: "2026-05-06T22:12:20.042Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:04:54.449Z"
+    updated_at: "2026-05-06T22:17:31.315Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

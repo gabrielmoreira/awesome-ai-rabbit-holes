@@ -1,12 +1,12 @@
 id: blogburst__ai
 kind: website
-name: BlogBurst
+name: blogburst.ai
 canonical_url: https://blogburst.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__blogburst__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,22 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BlogBurst is a hosted SaaS marketing agent that autonomously generates content, posts to social platforms, and optimizes SEO for indie developers and SaaS founders.
-  why_it_matters: It automates the social media and content marketing workload for developers who want to focus on shipping code rather than managing a brand presence.
-  mental_damage: We have finally reached the point where the AI is better at pretending to be an enthusiastic founder on Twitter than the actual founder is.
+  summary: BlogBurst is a SaaS marketing platform that uses AI to map buyer intent, generate evidence-backed content, and attribute signups and revenue back to specific content experiments.
+  why_it_matters: It targets indie developers and early-stage SaaS founders who need to close the loop between content generation and revenue without manually managing marketing channels.
+  mental_damage: The same developer who automated their build, test, and deployment pipelines can now pay $49/month to avoid learning why anyone would actually buy their product.
   tags:
-    - agents
-    - automation
     - marketing
     - saas
+    - content-generation
+    - attribution
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose marketing and social media automation tool for SaaS founders, not a developer-facing coding tool, agent framework, or app builder.
+  reason: This is a marketing and sales growth engine for SaaS products, not a developer-facing coding tool, agent, framework, or infrastructure component.
   evidence:
-    - The site describes itself as an 'AI social media operator that replaces your freelance SMM', focusing on Twitter, Bluesky, and WordPress SEO.
-    - Target audience is explicitly 'Indie Developers' and 'SaaS Founders' for marketing, not for coding workflows or repository management.
-    - Despite appearing in awesome-mcp-servers under 'Marketing', the product itself is a consumer SaaS marketing tool, not MCP infrastructure.
+    - The site describes itself as an 'AI sales growth engine for founders' focused on revenue targets and content shipping.
+    - Primary use case is marketing automation (SEO, GEO, social media) rather than code editing, agent orchestration, or developer infrastructure.
+    - Listed in awesome-mcp-servers under 'Marketing', but the product itself is a closed-loop marketing SaaS, not an MCP server or developer tool.
 placement:
   primary_category: null
   section: null
@@ -58,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:34.733Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:41.808Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,0 +1,86 @@
+id: github__scienceone-ai__deepseek-671b-sft-guide
+kind: github-repo
+name: deepseek-671b-sft-guide
+canonical_url: https://github.com/scienceone-ai/deepseek-671b-sft-guide
+identity:
+  github_repo: scienceone-ai/deepseek-671b-sft-guide
+provenance:
+  discoveries:
+    - id: discovery__github__scienceone-ai__deepseek-671b-sft-guide__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: DeepSeek-671B-SFT-Guide
+        extracted_url: https://github.com/scienceone-ai/deepseek-671b-sft-guide
+        surrounding_text: "41. [DeepSeek-671B-SFT-Guide](https://github.com/ScienceOne-AI/DeepSeek-671B-SFT-Guide): An open-source solution for full parameter fine-tuning of DeepSeek-V3/R1 671B, including complete code and scripts from training to inference, as well as some practical experiences and conclusions."
+        confidence: high
+metadata:
+  github:
+    stars: 806
+    forks: 96
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-07T06:22:01Z"
+    pushed_at: "2025-03-13T03:51:33Z"
+    description: An open-source solution for full parameter fine-tuning of DeepSeek-V3/R1 671B, including complete code and scripts from training to inference, as well as some practical experiences and conclusions. (DeepSeek-V3/R1 满血版 671B 全参数微调的开源解决方案，包含从训练到推理的完整代码和脚本，以及实践中积累一些经验和结论。)
+    homepage: ""
+    topics:
+      - deepseek-r1
+      - llm
+      - moe
+      - python
+      - sft
+    last_checked_at: "2026-05-06T22:46:18.130Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:18.130Z"
+      bytes: 11896
+insights:
+  summary: An open-source guide and code repository containing complete scripts and configurations for performing full parameter fine-tuning on DeepSeek-V3 and R1 671B models using DeepSpeed and sequence parallelism.
+  why_it_matters: It provides a rare, documented blueprint for training trillion-parameter MoE models on H100 clusters, saving infrastructure engineers from rediscovering distributed training pitfalls.
+  mental_damage: Because what your workflow really needed was a 2TB RAM, 32-machine H100 cluster setup guide to fine-tune a model that might automate writing the bash script to spin it down.
+  tags:
+    - llm
+    - fine-tuning
+    - deepseek
+    - distributed-training
+    - moe
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because this is an educational guide and training script collection for model fine-tuning, not a developer-facing AI tool, agent, or infrastructure product.
+  evidence:
+    - Repo description identifies it as a 'guide' and 'solution for full parameter fine-tuning', not a coding tool.
+    - README details a training workflow (data prep, slurm scripts, xtuner configs) rather than an IDE, agent, or dev infrastructure.
+    - Source list context confirms placement in 'awesome-LLM-resources' under 'Fine-Tuning', which is outside the catalog's developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (806) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.646Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:46:18.130Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:24.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

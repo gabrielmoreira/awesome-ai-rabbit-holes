@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__catrinmdonnelly__royalmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - retail
       - royalmail
       - uk
-    last_checked_at: "2026-05-05T21:01:30.865Z"
+    last_checked_at: "2026-05-06T22:43:18.195Z"
     readme:
-      fetched_at: "2026-05-05T21:01:30.865Z"
+      fetched_at: "2026-05-06T22:43:18.195Z"
       bytes: 9653
 insights:
-  summary: An MCP server that exposes Royal Mail and Parcelforce shipping operations—booking, labeling, tracking, and cancellation—to AI clients like Claude and Cursor via the Click & Drop API.
-  why_it_matters: Developers building e-commerce agents or internal logistics workflows can delegate parcel operations to an AI without writing custom API integration code.
-  mental_damage: We have successfully taught a frontier model to argue with Royal Mail's API about postcodes so you don't have to.
+  summary: An MCP server that exposes Royal Mail and Parcelforce shipping operations—booking, labeling, tracking, and cancellation—to any MCP-compatible AI client.
+  why_it_matters: Developers can automate post-purchase logistics directly from their AI assistant by wiring UK carrier APIs into agents that already read orders and draft replies.
+  mental_damage: We have successfully reached the point where canceling a parcel to Manchester requires a Claude Desktop config, an NPM package, and an API key issued by Royal Mail's Click & Drop portal.
   tags:
     - mcp
     - logistics
-    - royal-mail
+    - shipping
+    - uk
     - ecommerce
-    - node
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that integrates with a specific external API, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server exposing a specific domain API, which is exactly what the MCP Servers & Tooling category is designed to capture.
   evidence:
-    - Repo description explicitly states it is an MCP server for Royal Mail and Parcelforce shipments.
-    - README confirms it exposes six tools via the Model Context Protocol to clients like Claude, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Delivery'.
+    - Repo description states it enables booking, labeling, tracking, and canceling Royal Mail shipments from any MCP-compatible AI.
+    - README confirms it exposes six MCP tools and is configured for Claude Desktop, Cursor, Windsurf, and other MCP clients.
+    - Listed in awesome-mcp-servers under Server Implementations > Delivery, aligning with the MCP Domain Servers section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:30.865Z"
+    updated_at: "2026-05-06T22:43:18.195Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:35.512Z"
+    updated_at: "2026-05-06T22:48:21.217Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__dynamodb-toolbox__dynamodb-toolbox
 kind: github-repo
-name: DynamoDB-Toolbox
+name: dynamodb-toolbox
 canonical_url: https://github.com/dynamodb-toolbox/dynamodb-toolbox
 identity:
   github_repo: dynamodb-toolbox/dynamodb-toolbox
 provenance:
   discoveries:
     - id: discovery__github__dynamodb-toolbox__dynamodb-toolbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1997
+    stars: 1998
     forks: 180
     license: MIT
     archived: false
@@ -37,50 +37,50 @@ metadata:
       - nosql
       - serverless
       - typescript
-    last_checked_at: "2026-05-05T21:01:58.302Z"
+    last_checked_at: "2026-05-06T22:43:42.667Z"
     readme:
-      fetched_at: "2026-05-05T21:01:58.302Z"
+      fetched_at: "2026-05-06T22:43:42.667Z"
       bytes: 6793
 insights:
-  summary: A lightweight, type-safe query builder and schema abstraction layer for DynamoDB and TypeScript.
-  why_it_matters: It handles complex DynamoDB request formatting and data validation so developers can write clearer, type-safe database code with less boilerplate.
-  mental_damage: Yet another perfectly fine developer tool that somehow ended up in an MCP servers list, proving that if you leave an awesome list open long enough, everything becomes agent infrastructure.
+  summary: A lightweight, type-safe TypeScript query builder and schema abstraction layer for DynamoDB that handles validation, single-table designs, and complex request crafting.
+  why_it_matters: It simplifies interacting with DynamoDB by providing strong typing, schema validation, and cleaner query syntax, reducing boilerplate for serverless and TypeScript developers.
+  mental_damage: You'll spend hours configuring the perfect type-safe single-table schema only to realize your startup's entire data model is now welded to an abstraction layer you can't debug without reading the source.
   tags:
-    - aws
-    - dynamodb
-    - orm
-    - query-builder
     - typescript
+    - dynamodb
+    - aws
+    - serverless
+    - query-builder
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional database query library and schema tool for AWS DynamoDB, with no AI, agent, or LLM-facing functionality that fits the catalog's developer-tooling scope.
+  reason: This is a general-purpose AWS SDK helper for database interactions, not an AI tool, agent, or AI developer workflow product.
   evidence:
-    - Repo description states it is a 'Lightweight and type-safe query builder for DynamoDB and TypeScript' with no mention of AI.
-    - README describes schema validation, simpler queries, and type-safety, but does not mention AI, LLMs, agents, or prompt-driven workflows.
-    - Appears in awesome-mcp-servers lists, but the project itself is not an MCP server and has no MCP functionality in its description or README.
+    - Repo description and README describe it as a type-safe query builder and schema layer for DynamoDB, with no mention of AI, agents, or LLMs.
+    - Its presence in awesome-mcp-servers appears to be a misunderstanding or secondary integration, as the core product identity is a database SDK tool.
+    - Topics and features focus on AWS, NoSQL, and TypeScript validation, which fall outside the catalog's scope of AI-specific developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1997) exceeded threshold (150)
+  reason: Stars (1998) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:21.618Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:58.302Z"
+    updated_at: "2026-05-06T22:43:42.667Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:53:40.274Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

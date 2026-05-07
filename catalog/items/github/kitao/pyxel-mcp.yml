@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kitao__pyxel-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15
+    stars: 16
     forks: 3
     license: MIT
     archived: false
@@ -41,50 +41,50 @@ metadata:
       - pixel-art
       - pyxel
       - retro-game
-    last_checked_at: "2026-05-05T21:03:06.574Z"
+    last_checked_at: "2026-05-06T22:44:43.593Z"
     readme:
-      fetched_at: "2026-05-05T21:03:06.574Z"
+      fetched_at: "2026-05-06T22:44:43.593Z"
       bytes: 2702
 insights:
-  summary: An MCP server that enables AI agents to autonomously run, inspect, debug, and verify retro games built with the Pyxel Python game engine.
-  why_it_matters: It gives AI coding agents the ability to visually test and iterate on game logic and pixel art without human intervention, bridging the gap between code generation and graphical verification.
-  mental_damage: We have finally reached the point where the AI can independently build, play, and critique your 8-bit platformer, leaving you with nothing to do but watch the GIFs it recorded of its own success.
+  summary: An MCP server that gives AI coding agents the ability to run, inspect, debug, and visually analyze Pyxel retro game programs.
+  why_it_matters: It allows coding agents to autonomously iterate on game logic and visuals by capturing screenshots, inspecting state, and validating scripts without manual intervention.
+  mental_damage: "We have finally automated the hardest part of game development: watching a pixel jump up and down while an LLM wonders why the collision detection is slightly off."
   tags:
     - mcp
-    - game-dev
     - pyxel
-    - retro
-    - tooling
+    - retro-game
+    - game-dev
+    - debugging
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server designed to expose Pyxel game engine capabilities to AI agents, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server that exposes Pyxel game engine capabilities as tools and resources for AI agents.
   evidence:
-    - Repo description explicitly states 'MCP server for AI-assisted retro game development with Pyxel'.
-    - README details specific MCP tools like run_and_capture, inspect_sprite, and exposes Pyxel docs as MCP Resources.
-    - Listed in awesome-mcp-servers under the Gaming section, confirming its role as a community-standard MCP implementation.
+    - "Repo description explicitly states: 'MCP server for AI-assisted retro game development with Pyxel'."
+    - README lists multiple MCP tools like `run_and_capture`, `inspect_state`, and exposes `pyxel://` resources.
+    - Listed in awesome-mcp-servers under the Gaming section, confirming its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.701Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:06.574Z"
+    updated_at: "2026-05-06T22:44:43.593Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:30:58.913Z"
+    updated_at: "2026-05-06T23:06:19.320Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bh-rat__context-awesome__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [bh-rat/context-awesome](https://github.com/bh-rat/context-awesome) 📇 ☁️ 🏠 - MCP server for querying 8,500+ curated awesome lists (1M+ items) and fetching the best resources for your agent."
         confidence: high
     - id: discovery__github__bh-rat__context-awesome__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -54,50 +54,50 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:01:20.056Z"
+    last_checked_at: "2026-05-06T22:12:51.908Z"
     readme:
-      fetched_at: "2026-05-05T21:01:20.056Z"
+      fetched_at: "2026-05-06T22:12:51.908Z"
       bytes: 11247
 insights:
-  summary: An MCP server and CLI that exposes over 8,500 GitHub awesome lists and 1M+ indexed items to AI agents for structured resource discovery.
-  why_it_matters: It gives coding agents a curated, high-signal alternative to random web searches when looking for libraries, tools, and learning resources.
-  mental_damage: Your agent can now recursively cite awesome lists to justify its choices, turning dependency selection into a citation-tree nightmare.
+  summary: An MCP server and CLI that exposes over 8,500 awesome lists and one million indexed items for agents to search and retrieve curated resources.
+  why_it_matters: It gives coding agents direct access to high-quality, community-vetted tools and libraries, replacing unreliable web searches with curated discovery.
+  mental_damage: We have now built an MCP server to help our agents navigate the awesome lists that document the MCP servers we are installing to help our agents navigate the awesome lists.
   tags:
     - mcp
     - awesome-lists
+    - context-retrieval
     - cli
-    - context
-    - agent-tools
+    - knowledge
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server and CLI for exposing awesome-list data to agents, which fits cleanly into MCP infrastructure.
+  reason: The product's primary identity is an MCP server that provides knowledge and memory capabilities by surfacing awesome lists, fitting squarely into MCP infrastructure.
   evidence:
-    - Repo description states it is 'awesome-lists now available as CLI & MCP server for your agent.'
-    - README details MCP tools (find_awesome_section, search_awesome_items) and CLI equivalents for agent integration.
+    - Repo description states it is 'awesome-lists now available as CLI & MCP server'.
+    - README explicitly markets it as 'A Model Context Protocol (MCP) server that provides access to all the curated awesome lists'.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' and 'Community Servers' sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.663Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:20.056Z"
+    updated_at: "2026-05-06T22:12:51.908Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:10:39.200Z"
+    updated_at: "2026-05-06T22:24:05.332Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__horustechltd__horus-flow-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -48,50 +48,50 @@ metadata:
       - python
       - quantitative-finance
       - trading
-    last_checked_at: "2026-05-05T21:02:36.045Z"
+    last_checked_at: "2026-05-06T22:44:16.794Z"
     readme:
-      fetched_at: "2026-05-05T21:02:36.045Z"
+      fetched_at: "2026-05-06T22:44:16.794Z"
       bytes: 10151
 insights:
-  summary: An MCP server that provides real-time institutional orderbook and market microstructure data from exchanges like Binance to AI trading agents.
-  why_it_matters: It allows developers building autonomous trading agents to plug institutional-grade market 'physics' and L2 orderbook data directly into their agent's context via the Model Context Protocol.
-  mental_damage: "We have successfully abstracted away the last remaining human advantage in trading: the ability to panic without an API key."
+  summary: An MCP server that exposes institutional-grade cryptocurrency orderbook data and market microstructure analysis to AI agents for real-time trading decisions.
+  why_it_matters: It gives AI trading agents low-latency access to Level 2 orderbook physics and liquidity metrics that were previously locked behind expensive institutional terminals.
+  mental_damage: Your AI agent can now confidently detect whale spoofing and liquidity collapses in 29 milliseconds, right before it panic-sells your entire portfolio at a loss.
   tags:
     - mcp-server
     - trading
-    - finance
     - orderflow
-    - ai-agent
+    - finance
+    - crypto
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation designed to feed market data to AI agents, fitting the dedicated MCP infrastructure category.
+  reason: The product's primary identity is an MCP server providing market microstructure data to AI agents, fitting cleanly into the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'Official MCP server for Horus Flow Intelligence'."
-    - README positions the tool as 'Native MCP (Plug & Play)' for AI agents.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
+    - Repo description explicitly states 'Official MCP server for Horus Flow Intelligence'
+    - README positions it as 'A True Market Gravity Engine for Autonomous AI Agents' with 'Native MCP (Plug & Play)' integration
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.696Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:36.045Z"
+    updated_at: "2026-05-06T22:44:16.794Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:20.328Z"
+    updated_at: "2026-05-06T23:00:39.019Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

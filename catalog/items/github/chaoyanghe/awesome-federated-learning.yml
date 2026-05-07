@@ -1,13 +1,13 @@
 id: github__chaoyanghe__awesome-federated-learning
 kind: github-repo
-name: Awesome Federated Learning
+name: awesome-federated-learning
 canonical_url: https://github.com/chaoyanghe/awesome-federated-learning
 identity:
   github_repo: chaoyanghe/awesome-federated-learning
 provenance:
   discoveries:
     - id: discovery__github__chaoyanghe__awesome-federated-learning__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -52,49 +52,50 @@ metadata:
       - transfer-learning
       - vertical-federated-learning
       - wireless-communication
-    last_checked_at: "2026-05-05T21:01:32.259Z"
+    last_checked_at: "2026-05-06T22:43:19.314Z"
     readme:
-      fetched_at: "2026-05-05T21:01:32.259Z"
+      fetched_at: "2026-05-06T22:43:19.314Z"
       bytes: 78268
 insights:
-  summary: A curated, bibliography-style awesome list of federated learning publications, research papers, and algorithms primarily sourced from Arxiv.
-  why_it_matters: It serves as a centralized research map for developers and researchers building privacy-preserving, distributed ML systems who need to navigate the academic landscape.
-  mental_damage: "Just what the overworked engineer needed: a 2,000-paper strong reading list confirming that the distributed training problem is, in fact, still mathematically unsolved."
+  summary: A curated, research-oriented index of federated learning publications and resources, pointing to the FedML ecosystem for production and research use.
+  why_it_matters: It serves as a structured map of academic literature for developers building privacy-preserving, distributed ML systems rather than standard repo tooling.
+  mental_damage: Another reminder that while we’re prompt-engineering CLI agents, entire research verticals are quietly solving distributed optimization problems we’ll eventually pretend we invented.
   tags:
-    - awesome-list
     - federated-learning
-    - ml
-    - research
+    - ml-research
+    - awesome-list
+    - academic
+    - privacy
   confidence: high
 curation:
-  status: included
-  reason: This is a classic curated index of research papers and publications rather than a developer tool, framework, or agent.
+  status: excluded
+  reason: This is an academic publication index and research bibliography, not a practical AI tool, agent, workflow, or developer-facing infrastructure product.
   evidence:
-    - Repo description and README state it is 'A curated list of federated learning publications, re-organized from Arxiv'.
-    - The README content consists almost entirely of tables linking to academic papers (ICML, NeurIPS) rather than code or tooling.
-    - Listed in Awesome-LLMOps under the 'Awesome Lists' section, confirming its nature as a directory/meta-list.
+    - Repo description and README state it is a curated list of federated learning publications re-organized from Arxiv.
+    - Topics are focused on ML research areas like adversarial-attack-and-defense, non-iid data, and optimization, not developer tooling.
+    - Source list places it under 'Awesome Lists' in Awesome-LLMOps, which is a curation category, not a tool category.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (2013) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:49.721Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:32.259Z"
+    updated_at: "2026-05-06T22:43:19.314Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:40.418Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

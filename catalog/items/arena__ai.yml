@@ -1,12 +1,12 @@
 id: arena__ai
 kind: website
-name: LM Arena
+name: arena.ai
 canonical_url: https://arena.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__arena__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based platform for chatting with and comparing multiple top LLMs side-by-side using crowdsourced benchmarks and leaderboards.
-  why_it_matters: Developers can quickly A/B test model behavior, reasoning, and code quality across providers before committing to an API or workflow.
-  mental_damage: Nothing builds confidence in your production prompt engineering quite like watching three frontier models confidently hallucinate in a browser tab at the same time.
+  summary: A web-based platform for chatting with and comparing multiple AI models side-by-side, featuring crowdsourced benchmarks and leaderboards.
+  why_it_matters: It provides developers with a centralized interface to quickly evaluate and contrast model responses across providers like ChatGPT, Claude, and Gemini without juggling multiple tabs.
+  mental_damage: Yet another web wrapper promising to solve the 'which model should I use for this task' paralysis, ensuring you spend more time comparing outputs than actually shipping code.
   tags:
+    - model-comparison
     - benchmarking
-    - evals
-    - llm-comparison
-    - multi-model
+    - llm-eval
+    - chat-interface
   confidence: high
 curation:
   status: included
-  reason: The product is fundamentally a benchmark, comparison, and leaderboard platform for measuring model behavior rather than a developer assistant or app builder.
+  reason: The core product is a platform for comparing and benchmarking LLM performance via chat and leaderboards, which aligns with the Evals category's focus on measuring and comparing model behavior.
   evidence:
-    - "Scraped site title and description state: 'Benchmark & Compare the Best AI Models' with side-by-side chat and leaderboards."
-    - Source-list context places it under '体验 Usage' as a tool to 'Chat with multiple AI models side-by-side' and view 'Crowdsourced benchmarks and leaderboards.'
-    - Primary page excerpt highlights 'Battle Mode', 'Leaderboard', and multi-model interaction rather than code editing or app generation.
+    - Scraped site title and description define it as 'Benchmark & Compare the Best AI Models' with side-by-side chat.
+    - Source list context identifies it as a tool for comparing LLMs and accessing crowdsourced benchmarks and leaderboards.
+    - The interface focuses on 'Battle Mode' and leaderboards rather than being a coding assistant or IDE.
 placement:
   primary_category: evals
-  section: null
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:58.217Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:08.618Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

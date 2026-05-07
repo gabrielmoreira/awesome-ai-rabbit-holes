@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__religa__multi_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 25
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-11-29T16:45:57Z"
+    pushed_at: "2026-04-01T05:05:33Z"
+    description: Multi-Model chat, code review and analysis MCP Server for Claude Code
+    homepage: ""
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - ai-agents-cli
+      - ai-code-review
+      - anthropic
+      - claude
+      - claude-commands
+      - claude-mcp
+      - claude-skills
+      - code-analysis
+      - developer-tools
+      - gemini
+      - llm
+      - llm-orchestration
+      - mcp
+      - mcp-agent
+      - multi-agent
+      - multi-model
+      - openai
+    last_checked_at: "2026-05-06T22:46:08.982Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:08.982Z"
+      bytes: 11775
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects to Claude Code or OpenCode to orchestrate multiple AI models (OpenAI, Anthropic, Google) for parallel code review, security analysis, and multi-agent consensus.
+  why_it_matters: It lets developers automatically cross-check code quality and security findings across different LLMs in parallel, directly inside their existing coding assistant workflow.
+  mental_damage: Because nothing says 'confident in my code quality' like needing three different LLMs to argue with each other before you merge a PR.
+  tags:
+    - mcp
+    - code-review
+    - multi-model
+    - llm-orchestration
+    - claude-code
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly built and distributed as an MCP server that provides multi-model code analysis tools to MCP-compatible clients like Claude Code.
+  evidence:
+    - Repo description states it is a 'Multi-Model chat, code review and analysis MCP Server for Claude Code'.
+    - README confirms it 'acts as an MCP server that Claude Code or OpenCode connects to, providing AI-powered code analysis tools'.
+    - Topics and README emphasize MCP, MCP server, and integration via standard MCP server configs.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:08.982Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:23.078Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

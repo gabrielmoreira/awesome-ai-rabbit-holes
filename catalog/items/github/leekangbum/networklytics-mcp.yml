@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leekangbum__networklytics-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:18.125Z"
+    last_checked_at: "2026-05-06T22:44:57.302Z"
     readme:
-      fetched_at: "2026-05-05T21:03:18.125Z"
+      fetched_at: "2026-05-06T22:44:57.302Z"
       bytes: 1891
 insights:
-  summary: An MCP server that allows AI tools like Claude Desktop and Cursor to query YouTube comment network analysis data from NetworkLytics.
-  why_it_matters: It lets developers pipe social sentiment and influencer analytics directly into their AI workflow without context-switching to a browser.
-  mental_damage: We have successfully abstracted away the need to visit a website by configuring a JSON file to ask an AI to read the website for us.
+  summary: An MCP server that lets Claude Desktop and Cursor query YouTube comment network analysis results from NetworkLytics via API tools like get_shared_analysis and get_analysis_by_id.
+  why_it_matters: It saves developers from manually exporting NetworkLytics dashboards by letting an MCP-compatible assistant fetch video network graphs, sentiment stats, and influencer rankings directly inside the coding workflow.
+  mental_damage: We have finally reached the point where an AI agent can interrogate the social dynamics of YouTube comments, sparing you the traumatic experience of reading them yourself.
   tags:
     - mcp
     - youtube
-    - analytics
     - network-analysis
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to integrate external analytics data with AI coding assistants.
+  reason: The product is a purpose-built MCP server exposing NetworkLytics API tools to MCP-compatible assistants, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - README identifies this as a 'NetworkLytics MCP (Model Context Protocol) server' for Claude Desktop and Cursor.
-    - Listed in the awesome-mcp-servers directory under 'Data Platforms'.
-    - Provides specific MCP tools like `get_shared_analysis` and `get_analysis_by_id`.
+    - README explicitly states 'NetworkLytics MCP (Model Context Protocol) server' as the product identity.
+    - Provides MCP tools (get_shared_analysis, get_analysis_by_id) configured via claude_desktop_config.json for Claude Desktop and Cursor.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms', aligning with the MCP domain-server profile.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:18.125Z"
+    updated_at: "2026-05-06T22:44:57.302Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:33:31.236Z"
+    updated_at: "2026-05-06T23:09:06.478Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thezenmonster__agentmem__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,76 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-21T17:49:13Z"
+    pushed_at: "2026-04-17T12:44:07Z"
+    description: Governed memory for long-lived coding agents. Trust, provenance, conflict detection. Local-first.
+    homepage: https://thezenmonster.github.io/agentmem
+    topics:
+      - agent
+      - agent-memory
+      - ai
+      - artificial-intelligence
+      - claude-code
+      - cli
+      - coding-agents
+      - cursor
+      - fts5
+      - llm
+      - local-first
+      - mcp
+      - memory
+      - memory-governance
+      - model-context-protocol
+      - python
+      - sqlite
+    last_checked_at: "2026-05-06T22:46:48.408Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:48.408Z"
+      bytes: 11352
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local-first memory system for coding agents like Claude Code and Cursor that adds governance, conflict detection, and trust ranking to stored memories.
+  why_it_matters: It solves the 'stale context' problem by letting agents track memory lifecycles, detect contradictions, and surface only validated information within token budgets.
+  mental_damage: Now when your AI forgets why it abandoned that architectural pattern in March, you can blame the memory governance score instead of the model.
+  tags:
+    - memory
+    - context
+    - mcp
+    - local-first
+    - governance
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core novelty is a governed memory and context-shaping infrastructure for coding agents, not a primary assistant or a thin host integration.
+  evidence:
+    - "Repo description states: 'Governed memory for long-lived coding agents. Trust, provenance, conflict detection. Local-first.'"
+    - README shows status-driven lifecycle (hypothesis -> active -> validated), conflict detection, staleness detection, and trust-ranked recall.
+    - Python API and MCP server are provided, but memory governance and context retrieval are the primary product identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:48.408Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:59.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

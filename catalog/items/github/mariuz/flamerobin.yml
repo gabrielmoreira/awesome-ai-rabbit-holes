@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mariuz__flamerobin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2015-11-18T13:28:05Z"
-    pushed_at: "2026-05-05T21:00:09Z"
+    pushed_at: "2026-05-06T22:11:50Z"
     description: "FlameRobin is a database administration tool for Firebird RDBMS. Our goal is to build a tool that is:  lightweight (small footprint, fast execution) cross-platform (Linux, Windows, Mac OS, FreeBSD) dependent only on other Open Source software"
     homepage: http://flamerobin.org
     topics:
@@ -39,27 +39,28 @@ metadata:
       - firebirdsql
       - sql
       - wxwidgets
-    last_checked_at: "2026-05-05T21:03:29.678Z"
+    last_checked_at: "2026-05-06T22:45:08.615Z"
     readme:
-      fetched_at: "2026-05-05T21:03:29.678Z"
+      fetched_at: "2026-05-06T22:45:08.615Z"
       bytes: 3845
 insights:
-  summary: FlameRobin is a lightweight, cross-platform, open-source database administration tool specifically designed for the Firebird RDBMS.
-  why_it_matters: It provides developers working with Firebird a fast, low-footprint GUI client for database management across Linux, Windows, and macOS.
-  mental_damage: While the AI world chases autonomous agents that write code, some of us are still just trying to find a C++20 native GUI tool that won't crash while we manually administer a Firebird instance.
+  summary: FlameRobin is a lightweight, cross-platform database administration tool for the Firebird RDBMS, built with C++ and wxWidgets.
+  why_it_matters: It provides a small-footprint, open-source GUI for developers managing Firebird databases across Linux, Windows, macOS, and FreeBSD.
+  mental_damage: While we chase agentic workflows that write code for us, we still apparently need a dedicated C++20 desktop app just to look at our relational tables without melting our laptops.
   tags:
-    - firebird
     - database
+    - firebird
     - admin-tool
-    - cpp
+    - cplusplus
     - cross-platform
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional database administration GUI with no AI, agent, or LLM-facing features, despite appearing in an MCP servers list.
+  reason: Excluded because it is a traditional database administration GUI with no AI capabilities, coding assistance, or developer-facing AI workflow integration.
   evidence:
-    - Repo description and README explicitly define it as a C++ administration tool for Firebird RDBMS with no mention of AI.
-    - Listed in awesome-mcp-servers, but the linked description confirms it is a standard DB tool, not an MCP server implementation.
+    - Repo description and README describe it strictly as a database administration tool for Firebird RDBMS with no mention of AI.
+    - Topics and build docs focus on C++, wxWidgets, and SQL, with no AI, LLM, agent, or MCP-related substance.
+    - Although listed in awesome-mcp-servers, the project itself has no MCP or AI identity; it is a conventional desktop DB tool.
 placement:
   primary_category: null
   section: null
@@ -69,19 +70,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:29.678Z"
+    updated_at: "2026-05-06T22:45:08.615Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:45.637Z"
+    updated_at: "2026-05-06T23:11:50.792Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

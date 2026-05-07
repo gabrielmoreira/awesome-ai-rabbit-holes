@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__indigoprotocol__indigo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: "MCP for connecting LLMs to Indigo Protocol data "
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:42.836Z"
+    last_checked_at: "2026-05-06T22:44:23.029Z"
     readme:
-      fetched_at: "2026-05-05T21:02:42.836Z"
+      fetched_at: "2026-05-06T22:44:23.029Z"
       bytes: 35850
 insights:
-  summary: An MCP server that exposes Indigo Protocol's Cardano DeFi data, including iAsset prices, CDP analytics, and governance info, to LLM agents via the Model Context Protocol.
-  why_it_matters: Developers building LLM agents on Cardano can plug this in to give their models real-time access to DeFi positions and protocol data without writing custom API integrations.
-  mental_damage: We have officially reached the point where a protocol needs its own MCP server just so your AI can nervously check if its CDP is about to get liquidated at 3 AM.
+  summary: An MCP server that exposes Indigo Protocol DeFi data, including iAsset prices, CDP analytics, and governance data, to LLM agents via the Model Context Protocol.
+  why_it_matters: Developers building Cardano DeFi agents can plug 57 financial tools directly into Claude, Cursor, or Windsurf without writing custom API integrations.
+  mental_damage: We have successfully built a 57-tool MCP server to help an AI manage a Cardano CDP, because apparently the existential risk of liquidation wasn't stressful enough without an LLM involved.
   tags:
     - mcp
     - cardano
     - defi
-    - llm-integration
-    - protocol
+    - finance
+    - indigo
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server that provides protocol-specific tools and skills for LLM agents, fitting cleanly into the MCP infrastructure category.
+  reason: The product is an MCP server for a specific domain (finance/DeFi), fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly states 'MCP for connecting LLMs to Indigo Protocol data'
-    - README describes 63 tools and 13 skills for Cardano DeFi available via the Model Context Protocol
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section
+    - "Repo description explicitly states: 'MCP for connecting LLMs to Indigo Protocol data'."
+    - "README confirms identity: 'MCP server for Indigo Protocol — exposes Indigo iAsset data... to LLM agents via the Model Context Protocol'."
+    - Listed in awesome-mcp-servers under 'Finance & Fintech', reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.698Z"
+    updated_at: "2026-05-06T22:12:15.620Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:42.836Z"
+    updated_at: "2026-05-06T22:44:23.029Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:50.505Z"
+    updated_at: "2026-05-06T23:01:58.358Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

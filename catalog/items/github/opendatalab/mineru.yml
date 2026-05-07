@@ -1,0 +1,97 @@
+id: github__opendatalab__mineru
+kind: github-repo
+name: mineru
+canonical_url: https://github.com/opendatalab/mineru
+identity:
+  github_repo: opendatalab/mineru
+provenance:
+  discoveries:
+    - id: discovery__github__opendatalab__mineru__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 数据 Data
+        anchor_text: MinerU (`🔥`)
+        extracted_url: https://github.com/opendatalab/mineru
+        surrounding_text: "5. [MinerU (`🔥`)](https://github.com/opendatalab/MinerU): MinerU is a one-stop, open-source, high-quality data extraction tool, supports PDF/webpage/e-book extraction."
+        confidence: high
+metadata:
+  github:
+    stars: 62182
+    forks: 5236
+    license: NOASSERTION
+    archived: false
+    created_at: "2024-02-29T08:52:34Z"
+    pushed_at: "2026-05-06T11:17:35Z"
+    description: Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.
+    homepage: https://opendatalab.github.io/MinerU/
+    topics:
+      - ai4science
+      - document-analysis
+      - docx
+      - extract-data
+      - layout-analysis
+      - ocr
+      - parser
+      - pdf
+      - pdf-converter
+      - pdf-extractor-llm
+      - pdf-extractor-pretrain
+      - pdf-extractor-rag
+      - pdf-parser
+      - pptx
+      - python
+      - xlsx
+    last_checked_at: "2026-05-06T22:45:42.350Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:42.350Z"
+      bytes: 36653
+insights:
+  summary: MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines.
+  why_it_matters: It removes the boilerplate of layout analysis, OCR, and table extraction so developers can feed clean, structured documents directly into RAG systems and coding agents.
+  mental_damage: Another essential brick in the modern stack that exists solely because we decided it was easier to parse a thousand PDFs than read them.
+  tags:
+    - pdf-parser
+    - rag
+    - document-extraction
+    - llm-tooling
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: This is a code-first parser and extraction toolkit that developers import and script against to prepare documents for LLM workflows, fitting cleanly as retrieval infrastructure in Frameworks & SDKs.
+  evidence:
+    - "Repo description explicitly states: 'Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.'"
+    - Topics and README context show a Python-based parser focused on OCR, layout analysis, and structured output (PDF, DOCX, PPTX, XLSX).
+    - High traction with 62k+ stars and active development (pushed 2026-05-06) confirms it is a widely adopted developer toolkit.
+placement:
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (62182) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.640Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:42.350Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:34.649Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: agentgpt__reworkd__ai
 kind: website
-name: AgentGPT
+name: agentgpt.reworkd.ai
 canonical_url: https://agentgpt.reworkd.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__agentgpt__reworkd__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: "## [AgentGPT](https://agentgpt.reworkd.ai/)"
         confidence: high
     - id: discovery__agentgpt__reworkd__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -49,43 +49,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based web application that allows users to assemble, configure, and deploy autonomous AI agents by defining a name and a goal.
-  why_it_matters: It offers developers a zero-install, browser-first environment to prototype and observe autonomous agent behavior without setting up local infrastructure.
-  mental_damage: Yet another reminder that we are rapidly turning software engineering into the art of naming a bot and praying it doesn't book a flight to Hawaii on the company credit card.
+  summary: A browser-based web UI for assembling, configuring, and deploying autonomous AI agents that pursue user-defined goals.
+  why_it_matters: Lets developers prototype and run autonomous agent loops directly in the browser without setting up local infrastructure or writing orchestration code.
+  mental_damage: Yet another playground that makes spawning autonomous agents feel effortless, until you remember you still have to figure out why they confidently stopped after three thoughts.
   tags:
-    - agent-deployment
-    - autonomous-agents
-    - browser-based
+    - agents
+    - browser
+    - autonomous
     - no-code
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a general-purpose, browser-based autonomous agent runner for tasks like trip planning and company research, lacking a specific developer-tooling or code-workflow angle required for the catalog.
+  status: included
+  reason: The product is a browser-based workbench for creating and running autonomous agent goals, which aligns with multi-agent coordination and workbench surfaces rather than a coding-focused assistant.
   evidence:
-    - The primary page excerpt shows example agents for trip planning ('TravelGPT') and company research ('ResearchGPT'), not code generation or development workflows.
-    - The site description claims to 'Assemble, configure, and deploy autonomous AI Agents in your browser' without mentioning source code, IDEs, or developer infrastructure.
-    - It is listed in 'awesome-ai-agents' under a general autonomous agent section, rather than a developer-tools or coding-specific context.
+    - "Scraped site title and description state: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
+    - Source lists include it under 'awesome-ai-agents' and 'awesome-local-ai' in the Agents section.
+    - Examples show goal-driven agents like ResearchGPT and TravelGPT rather than repo editing or code workflows.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:22.948Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.673Z"
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:24.407Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

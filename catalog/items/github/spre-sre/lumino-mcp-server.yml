@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__spre-sre__lumino-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 6
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-11-26T08:51:05Z"
+    pushed_at: "2026-05-05T11:03:32Z"
+    description: AI/ML-powered diagnostic engine for SRE Observability on Konflux and OpenShift. It uses the Model Context Protocol (MCP) and 40+ tools to analyze logs, metrics, and traces, enabling automated RCA and predictive analysis.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:31.449Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:31.449Z"
+      bytes: 34986
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes 37+ Kubernetes, OpenShift, and Tekton tools for AI assistants to perform SRE observability, automated root cause analysis, and predictive monitoring.
+  why_it_matters: It lets developers and SREs delegate cluster troubleshooting and pipeline failure analysis to AI assistants through a standardized protocol instead of manually parsing logs and events.
+  mental_damage: You can now ask an LLM to debug your crashing pods, which means the model will hallucinate kubectl commands with the same confidence it brings to everything else.
+  tags:
+    - mcp
+    - sre
+    - observability
+    - kubernetes
+    - devops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server with 37+ tools for Kubernetes and OpenShift observability, making it a textbook fit for the MCP Domain Servers section.
+  evidence:
+    - Repo description states it is 'an AI/ML-powered diagnostic engine... using the Model Context Protocol (MCP) and 40+ tools'
+    - README confirms it 'exposing 37 specialized tools through the Model Context Protocol' for SRE observability
+    - Listed in awesome-mcp-servers under 'Cloud Platforms' section as a server implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.718Z"
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:31.449Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:42.737Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

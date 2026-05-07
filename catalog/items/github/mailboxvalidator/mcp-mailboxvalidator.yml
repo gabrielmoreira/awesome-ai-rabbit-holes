@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mailboxvalidator__mcp-mailboxvalidator__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -38,49 +38,49 @@ metadata:
       - email-validation
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:27.396Z"
+    last_checked_at: "2026-05-06T22:45:06.604Z"
     readme:
-      fetched_at: "2026-05-05T21:03:27.396Z"
+      fetched_at: "2026-05-06T22:45:06.604Z"
       bytes: 5243
 insights:
-  summary: An MCP server that exposes MailboxValidator's email validation API as tools for Claude Desktop to check syntax, DNS, MX records, and disposable or free email status.
-  why_it_matters: It lets developers integrate real-time email validation directly into Claude Desktop workflows without building custom API wrappers.
-  mental_damage: We have officially reached the point where validating an email address requires installing a local Node server so your AI can make an HTTP call on your behalf.
+  summary: A Model Context Protocol server that validates email addresses using the MailboxValidator API, exposing validation, disposable email, and free email tools for AI assistants like Claude Desktop.
+  why_it_matters: Developers can let their MCP-connected coding assistants validate emails against syntax, DNS, and MX checks without leaving the chat or writing API glue code.
+  mental_damage: We have officially reached the point where validating an email address requires a protocol server, a Node.js build step, and a desktop app restart.
   tags:
     - mcp
     - email-validation
     - claude-desktop
-    - mailboxvalidator
-  confidence: high
+    - api-wrapper
+  confidence: medium
 curation:
   status: included
-  reason: This is a straightforward MCP server implementation, which clearly belongs in the MCP Servers and Tooling category.
+  reason: The product is an MCP server that exposes MailboxValidator email validation as tools for MCP-compatible assistants, making MCP its core identity.
   evidence:
-    - "Repo description states: 'Email validation MCP server using MailboxValidator API'"
-    - README confirms it is a 'Model Context Protocol (MCP) server implementation' with validate_email, check_disposable_email, and check_free_email tools
-    - Listed under 'Server Implementations' in the awesome-mcp-servers directory
+    - "Repo description states: 'Email validation MCP server using MailboxValidator API' with topics mcp, mcp-server."
+    - README confirms this is 'a simple Model Context Protocol (MCP) server implementation' with validate_email, check_disposable_email, and check_free_email tools.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing', aligning with its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:27.396Z"
+    updated_at: "2026-05-06T22:45:06.604Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:17.558Z"
+    updated_at: "2026-05-06T23:11:18.702Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

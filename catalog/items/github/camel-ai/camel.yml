@@ -1,13 +1,13 @@
 id: github__camel-ai__camel
 kind: github-repo
-name: CAMEL
+name: camel
 canonical_url: https://github.com/camel-ai/camel
 identity:
   github_repo: camel-ai/camel
 provenance:
   discoveries:
     - id: discovery__github__camel-ai__camel__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "## [CAMEL](https://github.com/camel-ai/camel)"
         confidence: high
     - id: discovery__github__camel-ai__camel__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -37,7 +37,7 @@ provenance:
         surrounding_text: "- Neural cache projection and fusion- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for \"Mind\""
         confidence: high
     - id: discovery__github__camel-ai__camel__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -53,8 +53,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 16873
-    forks: 1887
+    stars: 16881
+    forks: 1888
     license: Apache-2.0
     archived: false
     created_at: "2023-03-17T21:41:54Z"
@@ -71,49 +71,50 @@ metadata:
       - large-language-models
       - multi-agent-systems
       - natural-language-processing
-    last_checked_at: "2026-05-05T21:01:29.012Z"
+    last_checked_at: "2026-05-06T22:43:16.623Z"
     readme:
-      fetched_at: "2026-05-05T21:01:29.012Z"
+      fetched_at: "2026-05-06T22:43:16.623Z"
       bytes: 34899
 insights:
-  summary: CAMEL is an open-source Python framework for building, scaling, and simulating multi-agent systems with stateful memory and environment interactions.
-  why_it_matters: It provides developers with a structured SDK to prototype complex agent collaborations, generate synthetic data, and research agent scaling laws without starting from scratch.
-  mental_damage: "Just what your weekend project needed: a framework capable of spawning a million agents when you can barely manage your own standup meetings."
+  summary: CAMEL is an open-source Python framework for building, running, and researching multi-agent systems with stateful memory and scalable coordination.
+  why_it_matters: It gives developers a structured code-first toolkit to design cooperative AI agents, generate synthetic data, and simulate complex task environments at scale.
+  mental_damage: Yet another framework promising to unlock the secrets of agent society while you are still trying to get a single LLM to reliably format JSON.
   tags:
-    - agent-scaling
-    - framework
     - multi-agent
-    - simulation
+    - framework
+    - python
+    - scalability
+    - stateful
   confidence: high
 curation:
   status: included
-  reason: CAMEL is a code-first SDK and library for building multi-agent systems, fitting the AI Frameworks category rather than a developer-facing coding assistant or control plane.
+  reason: It is a code-first library and SDK used by developers to script multi-agent behaviors, aligning with the Frameworks & SDKs identity rather than an operated workbench.
   evidence:
-    - Repo description identifies it as 'the first and the best multi-agent framework' with 16,873 stars.
-    - README states the framework supports 'various types of agents, tasks, prompts, models, and simulated environments' via Python code.
-    - Listed in awesome-llm-agents under the 'Frameworks' section, confirming its identity as a developer building block.
+    - Repo description explicitly calls it 'the first and the best multi-agent framework'.
+    - README emphasizes a code-first design with ChatAgent examples, Python tech stack, and evolvability principles.
+    - GitHub topics include 'agent', 'multi-agent-systems', and 'large-language-models', with 16k+ stars and active development.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
-  reason: Stars (16873) exceeded threshold (150)
+  reason: Stars (16881) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:18.489Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:29.012Z"
+    updated_at: "2026-05-06T22:43:16.623Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:47:53.222Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

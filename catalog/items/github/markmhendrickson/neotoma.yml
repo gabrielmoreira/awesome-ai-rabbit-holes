@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__markmhendrickson__neotoma__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 21
+    stars: 22
     forks: 3
     license: MIT
     archived: false
     created_at: "2025-06-19T14:17:02Z"
-    pushed_at: "2026-05-05T06:01:57Z"
+    pushed_at: "2026-05-06T13:47:37Z"
     description: Your agents forget. Neotoma makes them remember.
     homepage: https://neotoma.io/
     topics:
@@ -42,49 +42,49 @@ metadata:
       - mcp
       - privacy-first
       - provenance
-    last_checked_at: "2026-05-05T21:03:30.391Z"
+    last_checked_at: "2026-05-06T22:45:09.284Z"
     readme:
-      fetched_at: "2026-05-05T21:03:30.391Z"
-      bytes: 20585
+      fetched_at: "2026-05-06T22:45:09.284Z"
+      bytes: 20793
 insights:
-  summary: Neotoma is a local-first, deterministic state layer and MCP server that stores versioned, replayable entity records for AI agents to maintain consistent memory across tools like Claude, Cursor, and ChatGPT.
-  why_it_matters: It solves the 'human sync layer' problem by giving agents a shared, auditable memory graph with full provenance, eliminating conflicting facts and lost context across sessions.
-  mental_damage: We have successfully reached the point where we need a dedicated event-sourced database just to keep our AI assistants from forgetting who we are between tabs.
+  summary: Neotoma is a local-first, deterministic state layer for AI agents that stores versioned, replayable records across sessions and tools via MCP.
+  why_it_matters: It solves the cross-session memory problem by giving agents a shared, auditable entity graph instead of forcing developers to re-prompt context every time they switch tools.
+  mental_damage: You now have to maintain a deterministic memory ledger for your agents, because apparently the irony of needing perfect recall to manage your forgetful AI helpers is just the next layer of the stack.
   tags:
     - agent-memory
     - mcp
-    - state-management
+    - deterministic-state
     - local-first
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server and toolkit providing a state layer for agents, fitting squarely into the MCP infrastructure category.
+  reason: The core novelty is a memory and context system that enforces deterministic state evolution and cross-agent recall, which aligns with Prompt & Context Engineering.
   evidence:
-    - "Repo description: 'Your agents forget. Neotoma makes them remember.'"
-    - Architecture diagram shows MCP Protocol connecting to Claude, ChatGPT, Cursor, etc.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+    - "Repo description states: 'Your agents forget. Neotoma makes them remember.'"
+    - README explicitly contrasts itself with RAG/vector search, emphasizing deterministic state evolution, versioned history, and provenance.
+    - Architecture diagram shows it exposes memory to agents via MCP, confirming MCP is a delivery mechanism, not the primary product identity.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:30.391Z"
+    updated_at: "2026-05-06T22:45:09.284Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:35:51.925Z"
+    updated_at: "2026-05-06T23:11:58.846Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

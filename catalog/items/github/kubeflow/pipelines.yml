@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kubeflow__pipelines__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4132
-    forks: 1987
+    stars: 4135
+    forks: 1988
     license: Apache-2.0
     archived: false
     created_at: "2018-05-12T00:31:47Z"
@@ -40,49 +40,50 @@ metadata:
       - machine-learning
       - mlops
       - pipeline
-    last_checked_at: "2026-05-05T21:03:09.018Z"
+    last_checked_at: "2026-05-06T22:44:45.896Z"
     readme:
-      fetched_at: "2026-05-05T21:03:09.018Z"
+      fetched_at: "2026-05-06T22:44:45.896Z"
       bytes: 6544
 insights:
-  summary: Kubeflow Pipelines is a platform for building, deploying, and managing reusable end-to-end machine learning workflows on Kubernetes.
-  why_it_matters: It provides the orchestration layer needed to streamline ML experimentation and standardize how models move from development to production.
-  mental_damage: Another Kubernetes-native solution promising to solve ML orchestration, ensuring you'll spend as much time debugging YAML indentation as you do training models.
+  summary: Kubeflow Pipelines is a platform for building, deploying, and managing reusable end-to-end machine learning workflows on Kubernetes using a Python SDK.
+  why_it_matters: It gives ML engineers a structured way to orchestrate experiments, reuse pipeline components, and scale ML workflows on Kubernetes without rebuilding deployment plumbing.
+  mental_damage: Yet another reminder that before you can automate AGI, you must first become a part-time Kubernetes administrator just to run a training job.
   tags:
     - mlops
     - kubernetes
-    - machine-learning
     - pipelines
+    - ml-workflows
+    - kubeflow
   confidence: high
 curation:
   status: excluded
-  reason: The project is a general MLOps infrastructure tool for data scientists and ML engineers, lacking the specific AI-assisted developer tooling focus required for this catalog.
+  reason: This is general ML infrastructure and MLOps tooling for data scientists, not a developer-facing AI coding tool, agent, or assistant.
   evidence:
-    - Repo description and README focus on 'Machine Learning Pipelines' and 'ML workflows', targeting ML engineers rather than software developers building with AI.
-    - Source list context places it in 'Large Scale Deployment > Workflow' under Awesome-LLMOps, indicating an MLOps/infrastructure fit rather than a developer tooling fit.
-    - The architecture centers on Kubernetes, Argo Workflows, and the KFP SDK, which is infrastructure for ML, not an AI coding assistant or agent.
+    - Repo description and README focus on end-to-end ML workflows, experimentation, and MLOps on Kubernetes.
+    - Topics include machine-learning, mlops, kubeflow, and kubernetes with no developer-tooling or coding-agent angle.
+    - Source list placement is in Awesome-LLMOps under Large Scale Deployment > Workflow, which is MLOps infrastructure rather than AI developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (4132) exceeded threshold (150)
+  reason: Stars (4135) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:09.018Z"
+    updated_at: "2026-05-06T22:44:45.896Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:31:29.766Z"
+    updated_at: "2026-05-06T23:06:49.875Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__admica__filescopemcp
 kind: github-repo
-name: FileScopeMCP
+name: filescopemcp
 canonical_url: https://github.com/admica/filescopemcp
 identity:
   github_repo: admica/filescopemcp
 provenance:
   discoveries:
     - id: discovery__github__admica__filescopemcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [admica/FileScopeMCP](https://github.com/admica/FileScopeMCP) 🐍 📇 🦀 - Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores, helping AI assistants understand the codebase."
         confidence: high
     - id: discovery__github__admica__filescopemcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,50 @@ metadata:
     description: Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages such as Python, C, C++, Rust, Zig, Lua.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:49.621Z"
+    last_checked_at: "2026-05-06T22:12:25.630Z"
     readme:
-      fetched_at: "2026-05-05T21:00:49.621Z"
+      fetched_at: "2026-05-06T22:12:25.630Z"
       bytes: 9015
 insights:
-  summary: An MCP server that analyzes a codebase to rank files by importance, map dependencies, and extract symbols, providing structured context to AI assistants via tools like find_important_files and find_callers.
-  why_it_matters: It attempts to solve the 'lost in the codebase' problem for agents by automatically generating and maintaining a structural map so the LLM knows which files actually matter before suggesting changes.
-  mental_damage: We have officially reached the point where we need a dedicated background daemon, an LLM broker, and a dashboard just to remind our AI that main.ts is slightly more important than your grandma's cookie recipe.
+  summary: An MCP server and background daemon that analyzes codebases to rank files by importance, map dependencies, and extract symbols, exposing this context to AI assistants via the Model Context Protocol.
+  why_it_matters: It gives coding agents structured, real-time awareness of code structure and call graphs so they can answer "what does this file do?" without brute-forcing the entire repo context window.
+  mental_damage: We have finally built infrastructure so your AI can pretend to understand your codebase without actually reading it, which is, coincidentally, also how most onboarding docs work.
   tags:
+    - mcp
     - codebase-analysis
     - context-engineering
-    - developer-tools
-    - mcp
+    - file-importance
+    - dependency-mapping
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide codebase context to AI tools, fitting squarely into the MCP infrastructure category.
+  reason: The product's primary identity is an MCP server that provides codebase analysis tools to AI assistants, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description identifies it as a tool that 'helps AI assistants understand the codebase' via MCP.
-    - README confirms it acts as an MCP server with tools like find_important_files and integrates with clients like Claude Code and Cursor.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states it helps AI assistants understand the codebase and is built as an MCP tool.
+    - README shows it registers via `claude mcp add`, runs as an MCP server, and exposes tools like `find_important_files` to MCP clients.
+    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers', reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (290) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:05:54.527Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.662Z"
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:49.621Z"
+    updated_at: "2026-05-06T22:12:25.630Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:18:44.758Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

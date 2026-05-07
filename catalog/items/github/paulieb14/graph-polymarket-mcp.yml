@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paulieb14__graph-polymarket-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: MCP server for Polymarket prediction markets — 31 tools combining The Graph subgraphs + Polymarket REST APIs (Gamma + CLOB) for market search, live prices, order books, trader P&L, open interest, and resolution data
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:14.013Z"
+    last_checked_at: "2026-05-06T22:45:49.683Z"
     readme:
-      fetched_at: "2026-05-05T21:04:14.013Z"
+      fetched_at: "2026-05-06T22:45:49.683Z"
       bytes: 9962
 insights:
-  summary: An MCP server that exposes 31 tools for querying Polymarket prediction market data by combining The Graph subgraphs with Polymarket's Gamma and CLOB REST APIs.
-  why_it_matters: Developers building AI agents on Claude, Cursor, or remote runtimes can let their agents search markets, pull live order books, and evaluate trader P&L without wiring up Polymarket APIs by hand.
-  mental_damage: We have officially reached the point where prediction markets have their own MCP server before most developers have even configured their first one.
+  summary: An MCP server that exposes 31 tools for querying Polymarket prediction market data by combining The Graph subgraphs and Polymarket REST APIs.
+  why_it_matters: Developers building AI agents can give their tools live access to prediction market prices, order books, and trader data without writing custom API integrations.
+  mental_damage: Your AI agent can now autonomously lose money in prediction markets while you debug why it thinks querying a subgraph counts as 'due diligence'.
   tags:
     - mcp
     - polymarket
     - prediction-markets
-    - the-graph
     - finance
-  confidence: medium
+    - graphql
+  confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server with 31 tools designed to be used by LLM agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product identity is an MCP server for a specific domain (prediction markets), making it a textbook fit for the MCP Domain Servers section.
   evidence:
-    - Repo description explicitly states 'MCP server for Polymarket prediction markets' with 31 tools for market data.
-    - README demonstrates integration with Claude Desktop, Claude Code, Cursor, and remote agents via stdio and SSE transports.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its role as MCP infrastructure.
+    - Repo description explicitly states 'MCP server for Polymarket prediction markets' with 31 tools.
+    - README positions the tool as exposing Polymarket data specifically for AI agents via MCP (Claude, Cursor, etc.).
+    - Listed in awesome-mcp-servers under 'Finance & Fintech', confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:14.013Z"
+    updated_at: "2026-05-06T22:45:49.683Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:09.046Z"
+    updated_at: "2026-05-06T23:21:11.382Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__trade-it-inc__trade-it-mcp
 kind: github-repo
-name: Trade Agent
+name: trade-it-mcp
 canonical_url: https://github.com/trade-it-inc/trade-it-mcp
 identity:
   github_repo: trade-it-inc/trade-it-mcp
 provenance:
   discoveries:
-    - id: discovery__github__trade-agent__trade-agent-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__trade-it-inc__trade-it-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -22,8 +22,8 @@ provenance:
         extracted_url: https://github.com/trade-agent/trade-agent-mcp
         surrounding_text: "- [Trade-Agent/trade-agent-mcp](https://github.com/Trade-Agent/trade-agent-mcp.git) 🎖️ ☁️ - Trade stocks and crypto on common brokerages (Robinhood, E*Trade, Coinbase, Kraken) via Trade Agent's MCP server."
         confidence: high
-    - id: discovery__github__trade-agent__trade-agent-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__trade-it-inc__trade-it-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -39,47 +39,71 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 51
+    forks: 14
+    license: CC0-1.0
+    archived: false
+    created_at: "2025-05-07T03:12:08Z"
+    pushed_at: "2026-03-26T01:16:53Z"
+    description: Guide to connect to Trade It's MCP server and trade stocks, crypto, and options
+    homepage: https://tradeit.app
+    topics:
+      - coinbase
+      - crypto
+      - etrade
+      - investing
+      - kraken
+      - public
+      - robinhood
+      - schwab
+      - stocks
+      - tastytrade
+      - trading
+      - webull
+    last_checked_at: "2026-05-06T22:46:54.305Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:54.305Z"
+      bytes: 14703
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A remote MCP server that connects AI agents to stock, crypto, and options brokerages like Robinhood, Schwab, and Coinbase for natural-language trading.
+  why_it_matters: Developers building AI financial agents can delegate live portfolio queries and trade execution across multiple brokerages through a single MCP-compatible endpoint.
+  mental_damage: "We have finally achieved the perfect circle of modern development: an MCP server so your AI agent can YOLO your IRA while you debug why the context window forgot your risk tolerance."
+  tags:
+    - mcp
+    - trading
+    - finance
+    - agent-tooling
+    - brokerage
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a purpose-built MCP server providing domain-specific tools for trading and portfolio access, making it a textbook fit for the MCP Domain Servers section.
+  evidence:
+    - Repo description explicitly states it is a guide to connect to Trade It's MCP server for trading stocks, crypto, and options.
+    - README identifies it as 'The Trade It MCP Server' with endpoints at mcp.tradeit.app and lists MCP-compatible tools like execute_trade.
+    - Listed in awesome-mcp-servers under both 'Finance & Fintech' and 'Official Servers' sections.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.439Z"
+    updated_at: "2026-05-06T22:12:15.594Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:54.305Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:01.225Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

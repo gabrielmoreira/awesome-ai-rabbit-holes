@@ -1,13 +1,13 @@
 id: github__patrickpalmer__mayamcp
 kind: github-repo
-name: Maya MCP
+name: mayamcp
 canonical_url: https://github.com/patrickpalmer/mayamcp
 identity:
   github_repo: patrickpalmer/mayamcp
 provenance:
   discoveries:
     - id: discovery__github__patrickpalmer__mayamcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [PatrickPalmer/MayaMCP](https://github.com/PatrickPalmer/MayaMCP) 🐍 🏠 - MCP server for Autodesk Maya"
         confidence: high
     - id: discovery__github__patrickpalmer__mayamcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: Model Context Protocol (MCP) server implementation for Autodesk Maya
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:13.123Z"
+    last_checked_at: "2026-05-06T22:45:49.157Z"
     readme:
-      fetched_at: "2026-05-05T21:04:13.123Z"
+      fetched_at: "2026-05-06T22:45:49.157Z"
       bytes: 9164
 insights:
-  summary: An MCP server that lets AI assistants like Claude Desktop control Autodesk Maya to list, create, and manipulate 3D scene objects via natural language.
-  why_it_matters: It bridges the gap between generative AI assistants and professional 3D pipelines, allowing developers and technical artists to script Maya scenes through conversation rather than MEL or Python.
-  mental_damage: We have finally achieved the singularity where an LLM can extrude a bevel in Maya, yet we still manually click 'Allow All' on a security warning to let it happen.
+  summary: An MCP server that exposes Autodesk Maya scene objects, modeling operations, and scene management to AI assistants like Claude Desktop via natural language.
+  why_it_matters: Developers and technical artists can control Maya — creating models, materials, and scenes — directly through LLM prompts instead of manual MEL scripting or UI interaction.
+  mental_damage: Another niche MCP server appears, inching us closer to the dream where we prompt an LLM to extrude a bevel while wondering why we ever learned 3D tooling in the first place.
   tags:
-    - 3d
-    - automation
-    - maya
     - mcp
+    - maya
+    - 3d-modeling
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server implementation for Autodesk Maya, fitting squarely into the MCP infrastructure category.
+  reason: This is an MCP server purpose-built to give AI clients access to Autodesk Maya, making it a clean fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol (MCP) server implementation for Autodesk Maya'."
-    - README confirms it enables AI clients like Claude Desktop to control Maya using the Model Context Protocol.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'.
+    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server implementation for Autodesk Maya'.
+    - README states it 'enables AI assistant clients like Claude Desktop to control Autodesk Maya through natural language using the Model Context Protocol (MCP)'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:44:00.103Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:13.123Z"
+    updated_at: "2026-05-06T22:45:49.157Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:21:04.185Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,76 @@
+id: mlabonne__github__io__blog
+kind: website
+name: blog
+canonical_url: https://mlabonne.github.io/blog
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mlabonne__github__io__blog__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: Large Language Models (LLMs) with Colab notebooks
+        extracted_url: https://mlabonne.github.io/blog
+        surrounding_text: 17. [Large Language Models (LLMs) with Colab notebooks](https://mlabonne.github.io/blog/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A personal blog and resource hub featuring tutorials and curated summaries of LLM-related technologies, including model training, inference, and agent development.
+  why_it_matters: It aggregates high-quality tutorials and resources across the LLM ecosystem, helping developers quickly navigate topics from fine-tuning to MCP.
+  mental_damage: Yet another beautifully organized rabbit hole that will make you feel uniquely behind on three new model architectures before you finish your morning coffee.
+  tags:
+    - llm
+    - tutorials
+    - resources
+    - blog
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a personal publication and tutorial hub rather than a standalone developer tool, library, or directory, falling outside the catalog's scope of practical AI tooling.
+  evidence:
+    - URL is a personal blog (mlabonne.github.io/blog) rather than a tool or directory.
+    - Listed in awesome-LLM-resources as a 'Tutorial' section item, indicating educational content rather than software.
+    - No repo description, code, or product identity provided—only a curated list of learning resources.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.663Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:34:22.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

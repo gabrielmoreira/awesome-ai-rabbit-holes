@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__reddit__com__r__stablediffusion__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit subreddit community centered around the Stable Diffusion open-source image generation model.
-  why_it_matters: It serves as a community hub for developers and researchers working with local image generation models and pipelines.
-  mental_damage: Yet another reminder that the most valuable developer infrastructure is sometimes just a subreddit waiting for verification.
+  summary: A Reddit community hub for discussion and resources around the Stable Diffusion image-generation model.
+  why_it_matters: It serves as a massive, community-driven knowledge base for running and tweaking local image models, which is useful context for developers building local AI infrastructure.
+  mental_damage: Another reminder that while you're debugging a 500-line Kubernetes manifest, the rest of the internet is figuring out how to make the GPU hum at 100% utilization for 'art'.
   tags:
-    - community
     - local-ai
     - image-generation
+    - community
+    - reddit
   confidence: high
 curation:
   status: excluded
-  reason: This is a Reddit community link, not a developer tool, framework, or product that fits the catalog's scope.
+  reason: This is a link to a Reddit subreddit (a community forum), not a developer tool, agent, framework, or local runtime, and therefore falls outside the catalog's scope of practical AI tooling.
   evidence:
-    - URL points to reddit.com/r/StableDiffusion rather than a tool or repo
-    - Source list context confirms it is a community link under an 'awesome-local-ai' list
-    - No repo description, README, or product surface provided
+    - URL points to reddit.com/r/StableDiffusion, identifying it as a social media community rather than a software project.
+    - Source list context (awesome-local-ai) categorizes it under 'Community' linking to the Reddit page.
+    - No repository description, README, or code artifacts were provided, only a link to a discussion forum.
 placement:
   primary_category: null
   section: null
@@ -58,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:53:08.824Z"
+    updated_at: "2026-05-06T22:35:25.918Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

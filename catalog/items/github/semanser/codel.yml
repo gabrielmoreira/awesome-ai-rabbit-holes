@@ -1,13 +1,13 @@
 id: github__semanser__codel
 kind: github-repo
-name: Codel
+name: codel
 canonical_url: https://github.com/semanser/codel
 identity:
   github_repo: semanser/codel
 provenance:
   discoveries:
     - id: discovery__github__semanser__codel__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Codel](https://github.com/semanser/codel)** `⭐ 2.4k` — Autonomous agent for performing complex tasks via terminal; runs in Docker with a web UI."
         confidence: high
     - id: discovery__github__semanser__codel__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -39,47 +39,68 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2447
+    forks: 204
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-03-18T17:21:32Z"
+    pushed_at: "2024-04-29T17:53:58Z"
+    description: ✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.
+    homepage: https://discord.gg/uMaGSHNjzc
+    topics:
+      - agent
+      - ai
+      - autonomous-agents
+      - bot
+      - devin
+      - llama2
+      - llms
+      - ollama
+      - openai
+    last_checked_at: "2026-05-06T22:46:20.206Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:20.206Z"
+      bytes: 3078
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted, Docker-based autonomous AI agent that performs software development tasks using a built-in terminal, browser, and text editor.
+  why_it_matters: It offers developers a sandboxed, local-first environment to delegate complex coding projects to an autonomous loop without relying on managed cloud platforms.
+  mental_damage: Yet another autonomous 'Devin competitor' that promises to run an entire engineering department in a Docker container, provided you don't mind the 4-week gap since its last commit.
+  tags:
+    - autonomous-agents
+    - self-hosted
+    - docker
+    - terminal-agent
+    - local-ai
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a standalone autonomous coding agent designed to plan and execute tasks via terminal, browser, and editor, fitting the primary assistant definition.
+  evidence:
+    - Repo description explicitly calls it a 'Fully autonomous AI Agent that can perform complicated tasks and projects'.
+    - README highlights autonomous execution, a built-in browser, and a built-in text editor for modifying files.
+    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents > Open Source' section.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2447) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:20.206Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:50.780Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

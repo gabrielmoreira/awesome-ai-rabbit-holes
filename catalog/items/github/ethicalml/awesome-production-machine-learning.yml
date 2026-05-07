@@ -1,13 +1,13 @@
 id: github__ethicalml__awesome-production-machine-learning
 kind: github-repo
-name: Awesome Production Machine Learning
+name: awesome-production-machine-learning
 canonical_url: https://github.com/ethicalml/awesome-production-machine-learning
 identity:
   github_repo: ethicalml/awesome-production-machine-learning
 provenance:
   discoveries:
     - id: discovery__github__ethicalml__awesome-production-machine-learning__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20493
+    stars: 20499
     forks: 2567
     license: MIT
     archived: false
@@ -51,50 +51,49 @@ metadata:
       - production-machine-learning
       - production-ml
       - responsible-ai
-    last_checked_at: "2026-05-05T21:02:04.930Z"
+    last_checked_at: "2026-05-06T22:43:48.619Z"
     readme:
-      fetched_at: "2026-05-05T21:02:04.930Z"
+      fetched_at: "2026-05-06T22:43:48.619Z"
       bytes: 152235
 insights:
-  summary: A curated awesome list of open source libraries focused on deploying, monitoring, versioning, and scaling production machine learning systems.
-  why_it_matters: It serves as a central map for developers navigating the fragmented MLOps ecosystem to find tools for model serving, feature stores, and evaluation.
-  mental_damage: Because nothing says 'I have everything under control' like needing a 20,000-star list just to figure out which library to use for a feature store.
+  summary: A curated list of open source libraries for deploying, monitoring, versioning, scaling, and securing production machine learning systems.
+  why_it_matters: It provides a structured map of the MLOps ecosystem, helping developers cut through the noise to find tools for model serving, feature stores, and evaluation.
+  mental_damage: Because nothing says 'we have too many tools' quite like needing a 20,000-star directory just to track the tools that are supposed to simplify your stack.
   tags:
-    - awesome-list
-    - directory
-    - machine-learning
     - mlops
-    - production
+    - awesome-list
+    - machine-learning
+    - directory
   confidence: high
 curation:
   status: included
-  reason: This is a curated meta-list of tools rather than a standalone developer tool, making it a navigation aid for the MLOps ecosystem.
+  reason: This is a classic curated directory (awesome list) mapping the production ML ecosystem, which fits the navigation-aid role of the Lists & Directories category.
   evidence:
     - Repo description explicitly states it is 'A curated list of awesome open source libraries'.
-    - The README organizes tools into sections like 'Deployment & Serving' and 'Model Training & Orchestration'.
-    - It is listed in the Awesome-LLMOps source list under the 'Awesome Lists' section.
+    - README organizes tools into sections like Deployment, Evaluation, and Feature Store rather than providing a tool itself.
+    - Seen in Awesome-LLMOps under the 'Awesome Lists' section, confirming its identity as a directory.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (20493) exceeded threshold (150)
+  reason: Stars (20499) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:18:30.828Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:04.930Z"
+    updated_at: "2026-05-06T22:43:48.619Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:50.700Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

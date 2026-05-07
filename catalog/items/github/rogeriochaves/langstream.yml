@@ -1,13 +1,13 @@
 id: github__rogeriochaves__langstream
 kind: github-repo
-name: Langstream
+name: langstream
 canonical_url: https://github.com/rogeriochaves/langstream
 identity:
   github_repo: rogeriochaves/langstream
 provenance:
   discoveries:
     - id: discovery__github__rogeriochaves__langstream__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -23,47 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 421
+    forks: 28
+    license: MIT
+    archived: false
+    created_at: "2023-06-23T22:26:07Z"
+    pushed_at: "2024-01-03T22:44:33Z"
+    description: Build robust LLM applications with true composability 🔗
+    homepage: https://rogeriochaves.github.io/langstream/
+    topics: []
+    last_checked_at: "2026-05-06T22:46:11.218Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.218Z"
+      bytes: 10374
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: LangStream is a lightweight Python framework for building LLM applications using composable async streams as the core building block.
+  why_it_matters: It offers developers a smaller, fully-typed alternative to heavier frameworks like LangChain for composing LLM workflows with functional programming patterns.
+  mental_damage: Yet another framework promising to solve the 'too many classes' problem by introducing a new set of abstractions you'll have to debug at 2am when the stream dries up.
+  tags:
+    - python
+    - llm-framework
+    - streams
+    - functional-programming
+    - langchain-alternative
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a code-first library and SDK used to build LLM applications via Python streams, fitting the Frameworks & SDKs identity.
+  evidence:
+    - Repo description states it is for building LLM applications with 'true composability'.
+    - README demonstrates usage via Python imports, AsyncGenerators, and functional composition (and_then, map) rather than a hosted UI.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a framework.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (421) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.218Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:58.954Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

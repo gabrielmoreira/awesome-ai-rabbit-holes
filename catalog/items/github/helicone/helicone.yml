@@ -1,13 +1,13 @@
 id: github__helicone__helicone
 kind: github-repo
-name: Helicone
+name: helicone
 canonical_url: https://github.com/helicone/helicone
 identity:
   github_repo: helicone/helicone
 provenance:
   discoveries:
     - id: discovery__github__helicone__helicone__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5609
-    forks: 561
+    stars: 5612
+    forks: 562
     license: Apache-2.0
     archived: false
     created_at: "2023-01-31T22:34:44Z"
-    pushed_at: "2026-05-02T00:48:58Z"
+    pushed_at: "2026-05-05T23:10:28Z"
     description: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓
     homepage: https://www.helicone.ai
     topics:
@@ -52,50 +52,50 @@ metadata:
       - prompt-engineering
       - prompt-management
       - ycombinator
-    last_checked_at: "2026-05-05T21:02:32.471Z"
+    last_checked_at: "2026-05-06T22:44:13.299Z"
     readme:
-      fetched_at: "2026-05-05T21:02:32.471Z"
+      fetched_at: "2026-05-06T22:44:13.299Z"
       bytes: 15453
 insights:
-  summary: Helicone is an open-source AI gateway and LLM observability platform that proxies model requests to provide logging, cost tracking, prompt management, and agent tracing with a single base URL change.
-  why_it_matters: It gives developers a centralized control plane to monitor token usage, debug agent sessions, and manage prompt versions across 100+ models without touching core application logic.
-  mental_damage: Yet another lifecycle stage where you realize your 'simple' AI integration now requires a dedicated dashboard, a proxy worker, and a ClickHouse instance just to figure out why your agent spent $40 hallucinating JSON.
+  summary: Helicone is an open-source AI gateway and LLM observability platform that proxies model requests to track cost, latency, and prompt performance while offering a unified API for 100+ models.
+  why_it_matters: It gives developers a single integration point to monitor, evaluate, and route AI traffic across providers without scattering API keys or custom logging boilerplate.
+  mental_damage: You now have real-time dashboards proving exactly how much money your agents are burning while you stare at traces trying to figure out why they called the model seventeen times to summarize a single paragraph.
   tags:
-    - ai-gateway
     - llm-observability
-    - monitoring
+    - ai-gateway
     - prompt-management
-    - self-hosted
+    - cost-tracking
+    - evals
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing LLM observability and evaluation platform that provides monitoring, tracing, and cost analytics for AI applications.
+  reason: Helicone's core job is observability, tracing, and prompt experimentation for LLM-powered applications, which aligns with the Evals & Benchmarks category even though it is listed as a common false positive there.
   evidence:
-    - Repo description explicitly calls it an 'Open source LLM observability platform' for monitoring, evaluation, and experimentation.
-    - README positions it as an AI Gateway & LLM Observability Platform with cost/latency tracking, agent tracing, and prompt management features.
-    - Listed in Awesome-LLMOps under 'Security > Observability', confirming its place in the LLMOps/observability toolchain.
+    - Repo description explicitly calls it an 'Open source LLM observability platform' for monitoring, evaluating, and experimenting.
+    - README positions it as an 'AI Gateway & LLM Observability Platform' with cost tracking, latency tracking, prompt management, and playground features.
+    - Active project with 5,612 stars, recent push date (2026-05-05), and YC W23 backing.
 placement:
   primary_category: evals
-  section: null
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5609) exceeded threshold (150)
+  reason: Stars (5612) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:23:43.750Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:32.471Z"
+    updated_at: "2026-05-06T22:44:13.299Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:59:49.191Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

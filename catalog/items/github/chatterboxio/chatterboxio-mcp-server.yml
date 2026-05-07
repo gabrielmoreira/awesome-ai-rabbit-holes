@@ -6,24 +6,8 @@ identity:
   github_repo: chatterboxio/chatterboxio-mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__overquotaai__chatterboxio-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 💬 <a name="communication"></a>Communication
-        anchor_text: OverQuotaAI/chatterboxio-mcp-server
-        extracted_url: https://github.com/overquotaai/chatterboxio-mcp-server
-        surrounding_text: "- [OverQuotaAI/chatterboxio-mcp-server](https://github.com/OverQuotaAI/chatterboxio-mcp-server) 📇 ☁️ - MCP server implementation for ChatterBox.io, enabling AI agents to send bots to online meetings (Zoom, Google Meet) and obtain transcripts and recordings."
-        confidence: high
     - id: discovery__github__chatterboxio__chatterboxio-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -52,57 +36,50 @@ metadata:
       - gmeet-bot
       - mcp-server
       - zoom-bot
-    last_checked_at: "2026-05-05T21:04:09.491Z"
+    last_checked_at: "2026-05-06T22:43:20.071Z"
     readme:
-      fetched_at: "2026-05-05T21:04:09.491Z"
+      fetched_at: "2026-05-06T22:43:20.071Z"
       bytes: 3208
 insights:
-  summary: A Model Context Protocol server that integrates with ChatterBox to allow AI agents to join Zoom, Google Meet, and Microsoft Teams meetings, capture transcripts, and generate summaries.
-  why_it_matters: It connects meeting platforms to MCP-compatible AI workflows, allowing developers to automate meeting capture and summarization through agent tooling.
-  mental_damage: We have successfully reached the point where your AI agent needs its own Zoom bot account so it can attend the standup you refuse to join.
+  summary: A Model Context Protocol server that allows AI agents to join online meetings, capture transcripts, and generate summaries via the ChatterBox API.
+  why_it_matters: Developers building meeting-aware agents can give their tools live access to Zoom, Google Meet, and Teams transcripts without building custom bot infrastructure.
+  mental_damage: We have finally reached the point where your AI agent can attend the standup for you, leaving you free to ignore the meeting in an entirely new way.
   tags:
-    - agents
-    - google-meet
     - mcp
-    - mcp-server
-    - meeting-bot
     - meetings
-    - transcription
     - zoom
-    - zoom-bot
+    - google-meet
+    - summarization
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation for meeting platforms, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server implementation for meeting platforms, which fits cleanly into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description states it is 'A Model Context Protocol server implementation for ChatterBox'.
-    - README lists tools including joinMeeting, getMeetingInfo, and summarizeMeeting for Zoom, Google Meet, and Teams.
-    - Topics include 'mcp-server', confirming the technical implementation focus.
-    - Repo description explicitly states it is 'A Model Context Protocol server implementation for ChatterBox'
-    - README confirms it provides MCP tools (joinMeeting, getMeetingInfo, summarizeMeeting) for AI agents
-    - Listed in awesome-mcp-servers under Server Implementations > Communication, reinforcing its role as MCP infrastructure
+    - Repo description states it is 'A Model Context Protocol server implementation for ChatterBox'
+    - README lists tools to join meetings, capture transcripts, and summarize via MCP
+    - Listed in awesome-mcp-servers under Communication, confirming its MCP identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:21.744Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.150Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:09.491Z"
+    updated_at: "2026-05-06T22:43:20.071Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:48.042Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

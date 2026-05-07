@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pzalutski-pixel__godotlens-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -44,44 +44,50 @@ metadata:
       - mcp
       - mcp-server
       - semantic-analysis
-    last_checked_at: "2026-05-05T23:08:13.643Z"
+    last_checked_at: "2026-05-06T22:46:00.906Z"
     readme:
-      fetched_at: "2026-05-05T23:08:13.643Z"
+      fetched_at: "2026-05-06T22:46:00.906Z"
       bytes: 6457
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that bridges AI coding agents to Godot's built-in Language Server to provide compiler-accurate semantic analysis for GDScript.
+  why_it_matters: It gives AI agents precise code intelligence for GDScript—such as go-to-definition and finding true references—eliminating the noise of text-based grep searches in game development workflows.
+  mental_damage: We have successfully abstracted the abstraction, requiring a running editor, a TCP LSP bridge, an MCP server, and a JSON-RPC protocol just to help an agent guess which function call is real.
+  tags:
+    - mcp
+    - gdscript
+    - godot
+    - lsp
+    - semantic-analysis
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server providing Godot LSP capabilities, fitting squarely into MCP Servers & Tooling as a domain-specific implementation.
+  evidence:
+    - Repo description explicitly states 'MCP server for GDScript semantic analysis via Godot's built-in language server'.
+    - README architecture diagram shows the product as a bridge between AI Agent (MCP) and Godot Editor LSP over TCP.
+    - Listed in awesome-mcp-servers under 'Developer Tools' section, confirming ecosystem placement.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:13.643Z"
+    updated_at: "2026-05-06T22:46:00.906Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:32.755Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

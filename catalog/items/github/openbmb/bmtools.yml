@@ -1,13 +1,13 @@
 id: github__openbmb__bmtools
 kind: github-repo
-name: BMTools
+name: bmtools
 canonical_url: https://github.com/openbmb/bmtools
 identity:
   github_repo: openbmb/bmtools
 provenance:
   discoveries:
     - id: discovery__github__openbmb__bmtools__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -33,50 +33,49 @@ metadata:
     description: Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:04:04.284Z"
+    last_checked_at: "2026-05-06T22:45:41.219Z"
     readme:
-      fetched_at: "2026-05-05T21:04:04.284Z"
+      fetched_at: "2026-05-06T22:45:41.219Z"
       bytes: 8936
 insights:
-  summary: An open-source Python framework for extending language models with tools, allowing developers to build custom plugins and utilize external ChatGPT-Plugins.
-  why_it_matters: It provides a code-first platform for developers to experiment with tool-augmented LLMs and build custom agent capabilities outside of closed hosted ecosystems.
-  mental_damage: Another valiant attempt to reinvent the LangChain wheel, proving that in 2023, the fastest way to build an agent was to wrap it in a framework that mimics the API of a product that was itself about to be deprecated.
+  summary: BMTools is an open-source Python framework for extending language models with external tools, serving as an academic-oriented platform for building, sharing, and using tool plugins similar to ChatGPT-Plugins.
+  why_it_matters: It provides developers with the building blocks to teach LLMs how to use APIs and tools, bridging the gap between raw model capabilities and actionable external integrations.
+  mental_damage: Yet another 'build your own agent toolkit' repo that politely suggests you migrate to their newer project, XAgent, leaving you to wonder if your dependencies have an expiration date.
   tags:
-    - agent-framework
-    - llm
-    - plugins
-    - python
     - tool-use
+    - framework
+    - plugins
+    - llm-infrastructure
   confidence: medium
 curation:
   status: included
-  reason: This is a code-first SDK/framework for building tool-using agents, which fits the AI Frameworks category rather than an orchestration control plane or a coding agent.
+  reason: The project is primarily a code-first toolkit and SDK for developers to build and load tool plugins for language models, fitting the definition of a framework over an orchestration platform.
   evidence:
-    - Repo description identifies it as 'Tool Learning for Big Models' and an 'Open-Source Solution' (SDK).
-    - README demonstrates a Python import workflow (load_single_tools, MTQuestionAnswerer) for developers to build with, not a hosted UI.
-    - "Active development stopped in late 2023 (pushed_at: 2023-12-05), but it is not archived."
+    - Repo description explicitly states 'Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins'.
+    - README highlights building plugins via Python functions and loading tools programmatically (load_single_tools, MTQuestionAnswerer).
+    - README notes 'For new features... please go to XAgent', indicating this is legacy library code rather than an active platform.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (2776) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:30.025Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:04.284Z"
+    updated_at: "2026-05-06T22:45:41.219Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:19.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

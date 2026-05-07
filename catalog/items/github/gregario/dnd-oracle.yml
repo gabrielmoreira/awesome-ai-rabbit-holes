@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__dnd-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: D&D 5e SRD MCP server — monster search, spell lookup, encounter building, and character tools powered by ground-truth SRD data
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:27.550Z"
+    last_checked_at: "2026-05-06T22:44:08.083Z"
     readme:
-      fetched_at: "2026-05-05T21:02:27.550Z"
+      fetched_at: "2026-05-06T22:44:08.083Z"
       bytes: 3150
 insights:
-  summary: An MCP server that exposes D&D 5e SRD data—including monsters, spells, and rules—via 12 tools for encounter building, spell planning, and character analysis in AI clients like Claude Desktop and Claude Code.
-  why_it_matters: It lets developers building D&D tooling or AI integrations test agent-tooling patterns against a clean, local, ground-truth dataset without risking LLM hallucinations.
-  mental_damage: We have successfully built a Model Context Protocol server so our AI can finally kill goblins with perfect rules compliance while our actual production code reviews remain a chaotic mess.
+  summary: An MCP server that exposes D&D 5e SRD data—monsters, spells, equipment, and rules—as tools for AI assistants via a bundled SQLite database.
+  why_it_matters: It lets developers building AI integrations or playing with MCP quickly ground model outputs in structured game data instead of rolling the dice on hallucinations.
+  mental_damage: "We have finally solved the hardest problem in developer tooling: giving Claude Desktop the power to calculate goblin encounter XP budgets while your actual codebase remains untouched."
   tags:
     - mcp
-    - dnd
-    - game-dev
-    - tooling
-    - node
+    - gaming
+    - srd
+    - tools
+    - npx
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation designed to be plugged into AI clients, which fits squarely into the MCP Servers and Tooling category.
+  reason: The product is an MCP server for a specific domain (D&D 5e), making it a textbook fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description explicitly states 'D&D 5e SRD MCP server'
-    - README lists 12 MCP tools (search_monsters, build_encounter, etc.) and provides config examples for Claude Desktop and Claude Code
-    - Listed under 'Server Implementations > Gaming' in the awesome-mcp-servers directory
+    - Repo description explicitly states 'D&D 5e SRD MCP server' with tool definitions.
+    - README highlights MCP compatibility badges and shows Claude Desktop / Claude Code MCP installation steps.
+    - Listed in awesome-mcp-servers under Server Implementations > Gaming, confirming its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.690Z"
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:27.550Z"
+    updated_at: "2026-05-06T22:44:08.083Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:55.057Z"
+    updated_at: "2026-05-06T22:58:52.996Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

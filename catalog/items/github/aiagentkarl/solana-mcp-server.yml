@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aiagentkarl__solana-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - mcp-server
       - solana
       - web3
-    last_checked_at: "2026-05-05T21:00:55.075Z"
+    last_checked_at: "2026-05-06T22:12:30.559Z"
     readme:
-      fetched_at: "2026-05-05T21:00:55.074Z"
+      fetched_at: "2026-05-06T22:12:30.559Z"
       bytes: 2935
 insights:
   summary: An MCP server that exposes Solana blockchain data—including wallet balances, token prices, DeFi yields, and safety checks—to AI agents via tools built on the FastMCP framework.
-  why_it_matters: It lets developer-configured AI agents query live Solana data from Helius, Jupiter, and RugCheck without custom API glue code.
-  mental_damage: We have officially reached the point where your AI agent needs its own crypto wallet watchdog to tell you a token is a scam before it YOLOs your SOL.
+  why_it_matters: It lets AI coding assistants query live Solana on-chain data directly, enabling agents to build, audit, or analyze Web3 workflows without leaving the MCP client.
+  mental_damage: Your AI agent can now independently verify degen yield farms and rug-check tokens, accelerating both your dApp development and your eventual portfolio collapse.
   tags:
     - mcp
     - solana
     - web3
     - defi
-    - agent-tooling
-  confidence: medium
+    - blockchain
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server that exposes blockchain data tools to AI agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server purpose-built to expose Solana blockchain data to AI agents, which aligns exactly with the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP-Server für Solana-Blockchain-Daten' with wallet, token, DeFi, and safety tools.
-    - README documents 11 MCP tools (wallet balance, token price, DeFi yields, whale tracking, safety checks) and FastMCP server architecture.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming community recognition as an MCP implementation.
+    - Repo description explicitly states 'MCP-Server für Solana-Blockchain-Daten' with MCP server topics.
+    - README shows 11 defined MCP tools (get_wallet_balance, get_defi_yields, check_token_safety, etc.) using FastMCP.
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.677Z"
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:55.075Z"
+    updated_at: "2026-05-06T22:12:30.559Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:50.795Z"
+    updated_at: "2026-05-06T22:19:43.685Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

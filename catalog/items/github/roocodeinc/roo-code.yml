@@ -1,13 +1,13 @@
 id: github__roocodeinc__roo-code
 kind: github-repo
-name: Roo Code
+name: roo-code
 canonical_url: https://github.com/roocodeinc/roo-code
 identity:
   github_repo: roocodeinc/roo-code
 provenance:
   discoveries:
     - id: discovery__github__roocodeinc__roo-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- **[Roo Code CLI](https://github.com/RooCodeInc/Roo-Code)** `⭐ 23.9k` — Multi-mode CLI agent (architect/code/debug/orchestrator modes); Claude-like terminal interface with skills and checkpoints."
         confidence: high
     - id: discovery__github__roocodeinc__roo-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Roo Code](https://roocode.com/)** – Popular open-source VS Code extension (fork of Cline) with multi-model support and autonomous coding modes."
         confidence: high
     - id: discovery__github__roocodeinc__roo-code__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -54,47 +54,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 23897
+    forks: 3209
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-10-31T17:56:50Z"
+    pushed_at: "2026-05-06T21:52:19Z"
+    description: Roo Code gives you a whole dev team of AI agents in your code editor.
+    homepage: https://roocode.com
+    topics: []
+    last_checked_at: "2026-05-06T22:46:11.963Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:11.963Z"
+      bytes: 9567
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Roo Code is a VS Code extension that provides a multi-mode AI development team within the editor for coding, architecture, debugging, and task automation.
+  why_it_matters: It allows developers to delegate multi-step coding tasks across specialized modes (Code, Architect, Debug) directly inside VS Code with support for various LLM providers and MCP servers.
+  mental_damage: Now you can have a virtual architect, debugger, and coder arguing in your editor tabs, while you wonder if you're still a developer or just a very expensive prompt dispatcher.
+  tags:
+    - vscode-extension
+    - ai-agents
+    - multi-mode
+    - mcp
+    - editor-assistant
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a primary coding assistant delivered as a VS Code extension, allowing developers to delegate coding, debugging, and architectural tasks directly within the IDE.
+  evidence:
+    - Repo description states it gives 'a whole dev team of AI agents in your code editor'.
+    - "README describes direct coding capabilities: 'Generate Code', 'Refactor & Debug', and 'Automate repetitive tasks'."
+    - Source list 'awesome-ai-coding-tools' categorizes it under 'Code Editors and Assistants'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native Assistants
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (23897) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:11.963Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:07.677Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

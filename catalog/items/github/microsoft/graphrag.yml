@@ -1,0 +1,88 @@
+id: github__microsoft__graphrag
+kind: github-repo
+name: graphrag
+canonical_url: https://github.com/microsoft/graphrag
+identity:
+  github_repo: microsoft/graphrag
+provenance:
+  discoveries:
+    - id: discovery__github__microsoft__graphrag__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 知识库 RAG
+        anchor_text: GraphRAG
+        extracted_url: https://github.com/microsoft/graphrag
+        surrounding_text: "12. [GraphRAG](https://github.com/microsoft/graphrag): A modular graph-based Retrieval-Augmented Generation (RAG) system."
+        confidence: high
+metadata:
+  github:
+    stars: 32806
+    forks: 3476
+    license: MIT
+    archived: false
+    created_at: "2024-03-27T17:57:52Z"
+    pushed_at: "2026-05-06T09:00:55Z"
+    description: A modular graph-based Retrieval-Augmented Generation (RAG) system
+    homepage: https://microsoft.github.io/graphrag/
+    topics:
+      - gpt
+      - gpt-4
+      - gpt4
+      - graphrag
+      - llm
+      - llms
+      - rag
+    last_checked_at: "2026-05-06T22:45:16.601Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:16.601Z"
+      bytes: 4574
+insights:
+  summary: A modular, graph-based Retrieval-Augmented Generation (RAG) system from Microsoft that extracts structured knowledge graphs from unstructured text using LLMs.
+  why_it_matters: It gives developers a structured pipeline for building RAG applications that reason over complex relationships in private datasets rather than just surface-level vector search.
+  mental_damage: Yet another reminder that your bespoke 'AI-powered' feature is just a few-hundred-line wrapper around a Microsoft research project that will inevitably be absorbed into a larger framework next quarter.
+  tags:
+    - rag
+    - knowledge-graph
+    - llm
+    - pipeline
+    - microsoft
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing pipeline and SDK for building graph-based retrieval systems, fitting squarely as a code-first framework for memory and retrieval infrastructure.
+  evidence:
+    - "Repo description: 'A modular graph-based Retrieval-Augmented Generation (RAG) system'"
+    - "README: 'The GraphRAG project is a data pipeline and transformation suite... using the power of LLMs'"
+    - Topics include 'rag', 'llm', 'graphrag' and it is distributed as a PyPI package (graphrag)
+placement:
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (32806) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.629Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:16.601Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:41.996Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

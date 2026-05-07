@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thudm__p-tuning-v2__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,47 +24,64 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2076
+    forks: 208
+    license: Apache-2.0
+    archived: false
+    created_at: "2021-10-14T14:16:05Z"
+    pushed_at: "2023-11-16T04:38:09Z"
+    description: An optimized deep prompt tuning strategy comparable to fine-tuning across scales and tasks
+    homepage: ""
+    topics:
+      - natural-language-processing
+      - p-tuning
+      - parameter-efficient-learning
+      - pretrained-language-model
+      - prompt-tuning
+    last_checked_at: "2026-05-06T22:46:49.520Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:49.520Z"
+      bytes: 6173
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: P-tuning v2 is a deep prompt tuning strategy and research codebase for efficiently adapting pretrained transformer models without full fine-tuning.
+  why_it_matters: It provides a parameter-efficient training method that achieves fine-tuning-level performance on small to medium models, saving significant compute and GPU resources.
+  mental_damage: Yet another reminder that while we're building agents to write code for us, the research world is still meticulously hand-tuning how the underlying models even learn to understand a prompt.
+  tags:
+    - prompt-tuning
+    - nlp
+    - parameter-efficient
+    - training
+    - research
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a machine learning research repository focused on model training algorithms and NLP, not a practical developer-facing AI tool, agent, or infrastructure component.
+  evidence:
+    - Repo description explicitly describes it as a 'deep prompt tuning strategy' for NLP and pretrained models.
+    - README is structured around academic paper reproduction, hyper-parameter searches, and benchmarks (SuperGLUE, SQuAD), not developer tooling.
+    - Listed in Awesome-LLMOps under 'Training > Foundation Model Fine Tuning', which is general ML research rather than the specific scope of developer AI rabbit holes.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2076) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:49.520Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:11.421Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

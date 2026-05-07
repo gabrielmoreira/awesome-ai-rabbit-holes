@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__comet-ml__comet-examples__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -41,28 +41,28 @@ metadata:
       - machine-learning
       - machine-learning-platform
       - python
-    last_checked_at: "2026-05-05T21:01:38.982Z"
+    last_checked_at: "2026-05-06T22:43:26.110Z"
     readme:
-      fetched_at: "2026-05-05T21:01:38.982Z"
+      fetched_at: "2026-05-06T22:43:26.110Z"
       bytes: 2320
 insights:
-  summary: A repository of example code demonstrating how to integrate the Comet.ml machine learning experiment tracking platform with various Python ML libraries like PyTorch, TensorFlow, and fastai.
-  why_it_matters: It provides data scientists and ML engineers with ready-to-run templates to automate dataset tracking, code changes, and model experimentation history across popular training frameworks.
-  mental_damage: Yet another reassurance that while we've solved tracking hyperparameters in 50 different frameworks, we still haven't figured out how to version the actual data reliably.
+  summary: A repository of example code demonstrating how to integrate the Comet ML experiment tracking platform with various Python machine learning libraries like PyTorch, TensorFlow, and scikit-learn.
+  why_it_matters: It provides working reference implementations for data scientists looking to add experiment logging, dataset tracking, and model versioning to their ML workflows.
+  mental_damage: Yet another reminder that while we’ve automated the training, we still need a dedicated SaaS and a folder of examples just to remember which hyperparameters we tried last Tuesday.
   tags:
-    - ml-ops
+    - mlops
     - experiment-tracking
-    - python
     - examples
+    - python
     - comet-ml
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic machine learning examples repository for an ML platform, lacking the specific developer-tooling, coding-agent, or app-building angle required for this catalog.
+  reason: This is a collection of example scripts for a general Machine Learning experiment tracking platform, which falls outside the scope of developer-facing AI tooling, coding agents, or infrastructure.
   evidence:
-    - Repo description explicitly states 'Examples of Machine Learning code using Comet.ml'.
-    - README focuses on ML experiment management, dataset tracking, and integration with libraries like sklearn, keras, and torch.
-    - Source list context places it in 'Training > Experiment Tracking', which is traditional ML Ops rather than AI developer tooling.
+    - Repo description explicitly states 'Examples of Machine Learning code using Comet.ml', positioning it as auxiliary code samples.
+    - README focuses on integrations with deep learning libraries (fastai, torch, sklearn, keras) rather than software development tooling.
+    - Listed in Awesome-LLMOps under 'Training > Experiment Tracking', which targets data science operations rather than the developer tooling catalog scope.
 placement:
   primary_category: null
   section: null
@@ -72,19 +72,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:38.982Z"
+    updated_at: "2026-05-06T22:43:26.110Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:00.202Z"
+    updated_at: "2026-05-06T22:50:10.685Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

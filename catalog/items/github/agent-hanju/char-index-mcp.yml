@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agent-hanju__char-index-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,27 +33,27 @@ metadata:
     description: A Model Context Protocol server for character-level index-based string manipulation
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:00:50.269Z"
+    last_checked_at: "2026-05-06T22:12:26.230Z"
     readme:
-      fetched_at: "2026-05-05T21:00:50.269Z"
+      fetched_at: "2026-05-06T22:12:26.230Z"
       bytes: 7440
 insights:
-  summary: An archived Model Context Protocol server providing character-level index-based string manipulation tools for precise text operations in LLM workflows.
-  why_it_matters: It gives coding agents precise character-level tools to overcome tokenization limitations when generating test code or parsing structured text with exact positioning requirements.
-  mental_damage: We have reached the point where we need a dedicated server to help the AI count to ten because its internal tokenization makes 'hello' a surprising math problem.
+  summary: An archived Model Context Protocol server providing character-level index-based string manipulation tools for precise text handling in LLM-driven workflows.
+  why_it_matters: It gives coding agents precise character counting and indexing capabilities that LLMs natively struggle with, improving test generation and string parsing tasks.
+  mental_damage: We have now reached the point where we need dedicated MCP servers to help our AI overlords count characters correctly.
   tags:
     - mcp
     - string-manipulation
-    - llm-tooling
     - developer-tools
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived, with development moved to a new repository (char-index-skill), making this specific entry a dead endpoint unsuitable for an active catalog.
+  reason: The repository is explicitly archived with a banner directing users to a new repository, signaling it is no longer the live project.
   evidence:
-    - "README banner states: 'This repository is archived. This project has moved to char-index-skill'"
-    - GitHub archived flag is true, indicating no further updates will be made here
-    - Only 2 stars and minimal ecosystem traction as a standalone server
+    - "Repository has 'archived: yes' flag and README opens with 'This repository is archived' banner"
+    - README states 'This project has moved to char-index-skill' with future updates in the new repository
+    - Only 2 stars and created in late 2025, showing minimal ecosystem traction before archival
 placement:
   primary_category: null
   section: null
@@ -63,19 +63,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.676Z"
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:00:50.269Z"
+    updated_at: "2026-05-06T22:12:26.230Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:06:02.788Z"
+    updated_at: "2026-05-06T22:18:53.451Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

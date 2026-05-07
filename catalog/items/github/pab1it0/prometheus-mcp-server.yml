@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pab1it0__prometheus-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [pab1it0/prometheus-mcp-server](https://github.com/pab1it0/prometheus-mcp-server) 🐍 ☁️ -  Query and analyze Prometheus, open-source monitoring system."
         confidence: high
     - id: discovery__github__pab1it0__prometheus-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,8 +39,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 431
-    forks: 90
+    stars: 434
+    forks: 91
     license: MIT
     archived: false
     created_at: "2025-03-19T16:36:09Z"
@@ -54,50 +54,49 @@ metadata:
       - mcp
       - model-context-protocol
       - prometheus
-    last_checked_at: "2026-05-05T21:04:10.342Z"
+    last_checked_at: "2026-05-06T22:45:46.176Z"
     readme:
-      fetched_at: "2026-05-05T21:04:10.342Z"
+      fetched_at: "2026-05-06T22:45:46.176Z"
       bytes: 8749
 insights:
-  summary: A Model Context Protocol server that allows AI assistants and coding agents to execute PromQL queries and analyze metrics from a connected Prometheus instance.
-  why_it_matters: It bridges observability data with AI workflows, enabling agents inside IDEs or CLIs to directly diagnose production issues using real-time metrics.
-  mental_damage: Finally, your AI assistant can panic about the server load just as effectively as you can, using the exact same queries to confirm that yes, everything is indeed on fire.
+  summary: A Model Context Protocol server that enables AI assistants and LLMs to query and analyze Prometheus metrics using PromQL through standardized interfaces.
+  why_it_matters: It lets developers point their existing AI tools at production observability data so models can directly investigate incidents and reason over real metrics.
+  mental_damage: You can now ask your AI to explain why the latency is spiking, only to discover it has strong opinions about metrics it can finally read but still can't fix the code.
   tags:
     - mcp
     - prometheus
     - observability
     - devops
-    - metrics
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server designed to expose Prometheus metrics to LLMs, fitting cleanly into the MCP infrastructure category.
+  reason: The product identity is an MCP server purpose-built to expose Prometheus metrics to MCP-compatible clients, which fits the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly defines it as 'A Model Context Protocol (MCP) server'.
-    - README demonstrates integration with Claude Desktop, VS Code, Cursor, and Windsurf as an MCP tool.
-    - Listed in both 'awesome-mcp-list' and 'awesome-mcp-servers' directories under database tooling.
+    - Repo description states it is 'A Model Context Protocol (MCP) server' for querying Prometheus metrics.
+    - README positions it as an MCP server with setup instructions for Claude Desktop, Claude Code, VS Code, Cursor, and Docker Desktop.
+    - Included in awesome-mcp-list and awesome-mcp-servers under database/server implementation sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (431) exceeded threshold (150)
+  reason: Stars (434) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:10.342Z"
+    updated_at: "2026-05-06T22:45:46.176Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:30.755Z"
+    updated_at: "2026-05-06T23:20:27.114Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

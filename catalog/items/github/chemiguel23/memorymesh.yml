@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chemiguel23__memorymesh__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh) 📇 🏠 - Enhanced graph-based memory with a focus on AI role-play and story generation"
         confidence: high
     - id: discovery__github__chemiguel23__memorymesh__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,50 +50,49 @@ metadata:
     topics:
       - ai
       - mcp
-    last_checked_at: "2026-05-05T21:01:32.683Z"
+    last_checked_at: "2026-05-06T22:43:20.288Z"
     readme:
-      fetched_at: "2026-05-05T21:01:32.683Z"
+      fetched_at: "2026-05-06T22:43:20.288Z"
       bytes: 18156
 insights:
-  summary: A local knowledge graph server that implements the Model Context Protocol (MCP) to provide structured, schema-driven memory persistence for AI models and agents.
-  why_it_matters: It allows developers to give their local AI agents a persistent, structured long-term memory that can be strictly defined via schemas, moving beyond flat chat history.
-  mental_damage: We have officially progressed from 'vibe coding' to 'vibe schema design' so your local RPG agent can remember that Aragorn is a Ranger across sessions.
+  summary: A Model Context Protocol (MCP) server that provides structured knowledge graph memory for AI models, enabling persistent, schema-driven context across conversations.
+  why_it_matters: Developers can define custom schemas to give AI assistants durable, relational memory that persists beyond single sessions, improving consistency in complex or long-running tasks.
+  mental_damage: Yet another solution to the problem of AI forgetting what you told it thirty seconds ago, now requiring you to design a schema to remind it that Aragorn still owns Andúril.
   tags:
     - mcp
-    - knowledge-graph
     - memory
-    - typescript
-    - local-ai
+    - knowledge-graph
+    - context
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation for structured memory, fitting squarely into the MCP infrastructure category.
+  reason: The product is an MCP server providing knowledge graph memory, fitting squarely into MCP infrastructure as a domain-specific server.
   evidence:
-    - Repo description explicitly states it is 'A knowledge graph server that uses the Model Context Protocol (MCP)'
-    - README confirms it is a local server compatible with MCP clients like Claude Desktop, Cursor, and VS Code
-    - Listed in both 'awesome-mcp-list' and 'awesome-mcp-servers' under Knowledge & Memory sections
+    - Repo description explicitly states 'A knowledge graph server that uses the Model Context Protocol (MCP)'
+    - README confirms it is a local knowledge graph server based on the MCP servers repository
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Knowledge & Memory sections
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (340) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.664Z"
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:32.683Z"
+    updated_at: "2026-05-06T22:43:20.288Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:57.319Z"
+    updated_at: "2026-05-06T22:48:50.521Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__ad__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,32 +34,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A catalog or directory hosted at mcp.ad focused on the Model Context Protocol (MCP).
-  why_it_matters: It serves as a centralized reference point for developers navigating the rapidly expanding ecosystem of MCP servers and tools.
-  mental_damage: Just when you thought the AI tooling stack was complex enough, we’ve successfully abstracted the abstraction with a dedicated directory for the protocol that connects the tools to the agents.
+  summary: A web directory for discovering MCP servers and tooling.
+  why_it_matters: It provides a centralized map for developers to find and evaluate Model Context Protocol servers as the ecosystem rapidly fragments.
+  mental_damage: Yet another navigation aid for an ecosystem that now requires a navigation aid to navigate the navigation aids.
   tags:
     - mcp
     - directory
-    - protocol
-    - context
-  confidence: medium
+    - discovery
+  confidence: low
 curation:
   status: included
-  reason: The project is a directory/landing page (mcp.ad) for MCP resources, fitting the 'awesome-awesomes' category as a navigation aid for developers.
+  reason: While the URL suggests an MCP focus, the available evidence points to it being a listing/discovery site rather than a server or toolkit itself, fitting the Lists & Directories category.
   evidence:
-    - URL is https://mcp.ad, indicating a dedicated domain for MCP.
-    - Listed in awesome-LLM-resources under the section '模型上下文协议 MCP' (Model Context Protocol).
-    - No repository description or README provided, suggesting it is a site/directory rather than a runnable tool.
+    - URL is mcp.ad, suggesting a directory or index site rather than a tool.
+    - Included in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol MCP) section as a resource link.
+    - No repo description, README, or code indicators provided to suggest it is a server, client, or framework.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:46:15.561Z"
+    updated_at: "2026-05-06T22:27:29.472Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

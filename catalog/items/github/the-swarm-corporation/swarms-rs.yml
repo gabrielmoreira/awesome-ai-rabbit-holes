@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the-swarm-corporation__swarms-rs__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -24,47 +24,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 154
+    forks: 51
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-08-29T03:05:39Z"
+    pushed_at: "2025-12-15T09:30:21Z"
+    description: The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework in Rust
+    homepage: https://docs.rs/swarms-rs/latest/swarms_rs/
+    topics:
+      - agents
+      - agents-sdk
+      - agora
+      - ai
+      - async
+      - finance
+      - llm-agents-rust
+      - llm-rust
+      - llms
+      - ml
+      - multi-agent-collaboration
+      - multi-agent-systems
+      - multi-process
+      - multithreading
+      - python
+      - rust
+      - rust-agents
+      - rust-crate
+      - rust-lang
+      - swarms
+    last_checked_at: "2026-05-06T22:46:46.403Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:46.403Z"
+      bytes: 23625
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: swarms-rs is a Rust-based framework for building and orchestrating multi-agent systems, designed to handle concurrent agent communication and collaboration with a focus on performance and memory safety.
+  why_it_matters: It provides developers building complex agentic workflows with a high-performance, memory-safe alternative to Python-centric orchestration libraries.
+  mental_damage: Now you can orchestrate a thousand agents in Rust to argue about your Jira tickets at near-zero latency, because apparently the bottleneck in your workflow was garbage collection.
+  tags:
+    - rust
+    - multi-agent
+    - orchestration
+    - framework
+    - enterprise
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a code-first library and SDK for building multi-agent systems in Rust, fitting the 'Frameworks & SDKs' definition where developers import and script against the toolkit.
+  evidence:
+    - Repo description explicitly states 'Multi-Agent Orchestration Framework in Rust'.
+    - README positions it as a library for developers to build upon, highlighting 'Extensible and Modular' features.
+    - Listed in 'awesome-agent-orchestration' under 'Core Frameworks > Swarm Intelligence Frameworks'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (154) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:46.403Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:38.641Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: reporoster__com__stars__wangrongsheng__awesome__llm__resourses
 kind: website
-name: "![Stargazers repo roster for @WangRongsheng/awesome-LLM-resourses"
+name: awesome-LLM-resourses
 canonical_url: https://reporoster.com/stars/WangRongsheng/awesome-LLM-resourses
 identity: {}
 provenance:
   discoveries:
     - id: discovery__reporoster__com__stars__wangrongsheng__awesome__llm__resourses__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of resources, tips, and materials related to large language models.
-  why_it_matters: It acts as a navigation aid for developers looking to explore the sprawling ecosystem of LLM research and tooling.
-  mental_damage: Another meta-list to bookmark and forget, ensuring you feel sufficiently behind on reading material while the models advance overnight.
+  summary: A broad, manually curated list of LLM resources covering multimodal generation, agents, coding assistance, model training, and inference.
+  why_it_matters: It serves as a high-level map for developers trying to navigate the sprawling ecosystem of LLM tools, from training libraries to MCP implementations.
+  mental_damage: Yet another 'awesome' list to bookmark and never read, ensuring you feel academically inadequate about the 40 different model architectures you haven't personally fine-tuned.
   tags:
-    - awesome-list
-    - directory
     - llm
     - resources
+    - directory
+    - multimodal
+    - training
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of resources rather than a standalone developer tool, fitting the awesome-awesomes category.
+  reason: This is a curated index of resources rather than a standalone developer tool, making it a navigational aid for the ecosystem.
   evidence:
-    - Name is 'awesome-LLM-resourses', identifying it as an awesome list.
-    - Seen in source lists as an awesome list in the '技巧 Tips' section.
-    - No repo description, README, or code implementation provided; it is a collection of links.
+    - Seen in source lists as 'Summary of the world's best LLM resources' (awesome-LLM-resources).
+    - Covers a wide range of topics including '辅助编程' (coding assistance), 'MCP', and '模型训练' (model training).
+    - Repository name 'awesome-LLM-resourses' follows the standard 'awesome-*' list curation format.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:41.410Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:01.004Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__timowhite88__farnsworth-syntek__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 1
+    forks: 1
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-02-17T01:44:51Z"
+    pushed_at: "2026-02-24T04:48:32Z"
+    description: Farnsworth SYNTEK — 7-layer recursive agent memory with context branching, holographic recall, and on-chain persistence.
+    homepage: https://ai.farnsworth.cloud/memory
+    topics: []
+    last_checked_at: "2026-05-06T22:46:50.687Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:50.687Z"
+      bytes: 4007
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Farnsworth SYNTEK is a paid MCP server that provides AI agents with a 7-layer recursive memory system, featuring context branching, holographic recall, and AES-256-GCM encrypted persistence on the Monad blockchain.
+  why_it_matters: It offers Claude Code users a structured way to persist session state, identity, and knowledge graphs across devices via on-chain storage rather than local files.
+  mental_damage: We have officially reached the phase where your agent's forgotten context is a cryptographically secured asset sitting on a blockchain, waiting for its $100 subscription to lapse.
+  tags:
+    - mcp
+    - memory
+    - blockchain
+    - claude-code
+    - context
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server (farnsworth-syntek-mcp) that connects to Claude Code to provide memory capabilities, fitting the MCP Servers & Tooling category.
+  evidence:
+    - README explicitly instructs users to run `claude mcp add farnsworth-syntek -- npx farnsworth-syntek-mcp` to connect it.
+    - The project is listed in the `awesome-mcp-servers` directory under 'Knowledge & Memory'.
+    - The core value proposition is providing 10 specific MCP tools like `syntek_recall` and `syntek_store`.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:50.687Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:25.411Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

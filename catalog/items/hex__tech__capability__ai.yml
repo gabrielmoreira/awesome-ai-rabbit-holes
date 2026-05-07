@@ -1,12 +1,12 @@
 id: hex__tech__capability__ai
 kind: website
-name: Hex Magic
+name: ai
 canonical_url: https://hex.tech/capability/ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__hex__tech__capability__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hex is a data analytics platform that integrates AI agents into notebooks, conversational self-serve threads, and data apps to speed up exploratory analysis and dashboarding for data teams.
-  why_it_matters: It offers a CLI and MCP server integration allowing developers to incorporate Hex analytics workflows directly into their existing coding environments like Claude and Cursor.
-  mental_damage: Now your data team can finally stop writing SQL and start writing prompts, while you get to debug why the 'agentic notebook' decided to pivot the entire business logic.
+  summary: Hex is a data notebook and analytics platform that integrates AI agents to assist with SQL, Python, and data app creation through conversational interfaces and an agentic workflow.
+  why_it_matters: It allows data teams to generate analyses and internal tools via natural language, streamlining the path from raw data to deployed dashboard without leaving the notebook environment.
+  mental_damage: Now your data team can ask an AI agent to build the dashboard, while the AI agent asks a different AI agent to debug the query, creating a fully autonomous cycle of explainable confusion.
   tags:
-    - ai-agents
     - data-analytics
-    - mcp
-    - notebooks
+    - notebook-agent
+    - conversational-bi
+    - internal-tools
   confidence: high
 curation:
   status: excluded
-  reason: Hex is a data analytics and BI platform for data teams, not a developer tool for building software, editing source code, or orchestrating coding agents.
+  reason: Hex is primarily a business intelligence and data analytics SaaS platform for data teams, not a developer-facing coding tool, agent framework, or infrastructure component.
   evidence:
-    - Scraped site describes 'agentic analytics tools' for data teams, notebooks, SQL, and dashboards, not software development.
-    - The tool is positioned as a 'BI tool' and 'notebook' for data exploration, not an IDE, CLI coding assistant, or app builder for developers.
-    - Source list context (awesome-ai-agents) lists it under 'Hex Magic' specifically for data workflow speed, distinct from coding workflows.
+    - The product description focuses on 'data workflows', 'data teams', and 'BI tools' rather than software development.
+    - Features highlighted include 'agentic notebooks', 'data apps', and 'semantic models' for analytics, not repo editing or code scaffolding.
+    - Although it appears in awesome-ai-agents, its core identity is a vertical platform for data analysis, not a general-purpose coding assistant.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:45:18.430Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:25:49.218Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

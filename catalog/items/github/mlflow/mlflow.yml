@@ -1,13 +1,13 @@
 id: github__mlflow__mlflow
 kind: github-repo
-name: MLflow
+name: mlflow
 canonical_url: https://github.com/mlflow/mlflow
 identity:
   github_repo: mlflow/mlflow
 provenance:
   discoveries:
     - id: discovery__github__mlflow__mlflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25744
+    stars: 25772
     forks: 5687
     license: Apache-2.0
     archived: false
     created_at: "2018-06-05T16:05:58Z"
-    pushed_at: "2026-05-05T18:36:52Z"
+    pushed_at: "2026-05-06T13:36:42Z"
     description: The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.
     homepage: https://mlflow.org
     topics:
@@ -50,50 +50,50 @@ metadata:
       - open-source
       - openai
       - prompt-engineering
-    last_checked_at: "2026-05-05T21:03:43.693Z"
+    last_checked_at: "2026-05-06T22:45:22.052Z"
     readme:
-      fetched_at: "2026-05-05T21:03:43.693Z"
+      fetched_at: "2026-05-06T22:45:22.052Z"
       bytes: 31975
 insights:
-  summary: MLflow is an open-source AI engineering platform for managing the lifecycle of agents, LLMs, and ML models with features for tracing, evaluation, prompt management, and monitoring.
-  why_it_matters: It provides engineering teams with a unified stack to debug, evaluate, and monitor production AI applications while managing model access and controlling costs.
-  mental_damage: Finally, a tool to help you monitor the ghost in the machine that you shipped last Tuesday and haven't quite figured out how to test yet.
+  summary: MLflow is an open-source AI engineering platform for managing the lifecycle of agents, LLMs, and ML models, providing tools for tracing, evaluation, prompt management, and monitoring.
+  why_it_matters: It provides a unified platform for developers to debug, evaluate, and monitor AI applications in production while managing model access and controlling costs.
+  mental_damage: Yet another platform promising to wrangle your LLM chaos into a dashboard, ensuring you can now generate 60 million monthly reports on why your prompts are still hallucinating.
   tags:
-    - evaluation
     - llmops
-    - mlops
-    - monitoring
     - observability
+    - evaluation
+    - prompt-management
+    - mlops
   confidence: high
 curation:
   status: included
-  reason: MLflow is a foundational, code-first SDK and platform for managing LLM/agent lifecycles, fitting the AI Frameworks category rather than a builder or agent orchestration control plane.
+  reason: The core value proposition is measuring, tracing, and optimizing AI application behavior (observability, evaluation, prompt optimization) rather than acting as a coding assistant or a pure code-first framework.
   evidence:
-    - Repo description defines it as 'The open source AI engineering platform for agents, LLMs, and ML models' with debugging and evaluation capabilities.
-    - README demonstrates code-first integration (e.g., `mlflow.openai.autolog()`) and mentions 60 million monthly downloads.
-    - Listed in Awesome-LLMOps under the LLMOps section, confirming its relevance to AI infrastructure.
+    - Repo description explicitly calls it an 'AI engineering platform' for debugging, evaluating, monitoring, and optimizing AI applications.
+    - README highlights 'observability', 'evaluation', 'prompt management', and 'prompt optimization' as the comprehensive feature set for LLMs and agents.
+    - Classified under 'LLMOps' in Awesome-LLMOps, aligning with the evaluation and monitoring scope.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (25744) exceeded threshold (150)
+  reason: Stars (25772) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:29.167Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:43.693Z"
+    updated_at: "2026-05-06T22:45:22.052Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:53.386Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

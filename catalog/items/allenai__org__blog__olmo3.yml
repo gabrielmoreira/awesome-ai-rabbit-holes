@@ -1,0 +1,75 @@
+id: allenai__org__blog__olmo3
+kind: website
+name: olmo3
+canonical_url: https://allenai.org/blog/olmo3
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__allenai__org__blog__olmo3__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: Website
+        extracted_url: https://allenai.org/blog/olmo3
+        surrounding_text: "58. [Olmo3](https://www.datocms-assets.com/64837/1763646865-olmo_3_technical_report-1.pdf): Charting a path through the model flow to lead open-source AI. [Website](https://allenai.org/blog/olmo3)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OLMo3 is a research blog post and announcement from the Allen Institute for AI (Ai2) detailing their latest open language model release.
+  why_it_matters: It provides developers with insights into the training methodology and capabilities of a significant open-weight model alternative to closed-source frontier models.
+  mental_damage: Yet another reminder that while you're debugging a CSS margin, a research institute just open-sourced a model that reportedly outperforms your current favorite proprietary assistant.
+  tags:
+    - llm
+    - research
+    - open-weights
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a blog post and research announcement rather than a developer tool, agent, or infrastructure component.
+  evidence:
+    - The source URL is a blog post (allenai.org/blog/olmo3), not a tool repo or product.
+    - Seen in 'awesome-LLM-resources' under a '论文 Paper' (Paper) section, indicating it is treated as a research resource.
+    - No repository description, code, or tooling identity was provided in the inputs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:53.836Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

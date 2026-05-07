@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__posthog__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,20 +39,27 @@ metadata:
       - mcp
       - mcp-server
       - posthog
-    last_checked_at: "2026-05-05T23:08:08.708Z"
+    last_checked_at: "2026-05-06T22:45:56.591Z"
     readme:
-      fetched_at: "2026-05-05T23:08:08.708Z"
+      fetched_at: "2026-05-06T22:45:56.591Z"
       bytes: 438
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: PostHog's official MCP server providing LLM tools for analytics and feature flags, now archived and merged into the main PostHog monorepo.
+  why_it_matters: It lets AI coding assistants query PostHog analytics and manage feature flags directly from the editor, bridging product insights with development workflows.
+  mental_damage: Another MCP server to add to the ever-growing list of integrations that will likely outlive the repos they live in by exactly four months.
+  tags:
+    - mcp
+    - posthog
+    - analytics
+    - feature-flags
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is archived and the server has been moved into the PostHog monorepo, meaning this standalone repo is no longer the canonical source and should not be listed independently.
+  evidence:
+    - Repo description explicitly states 'Official PostHog MCP Server'
+    - README confirms 'The MCP server has been moved into the PostHog Monorepo'
+    - "Archived: yes (clear negative signal for a standalone listing)"
 placement:
   primary_category: null
   section: null
@@ -62,21 +69,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:08.708Z"
+    updated_at: "2026-05-06T22:45:56.591Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:22:35.525Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

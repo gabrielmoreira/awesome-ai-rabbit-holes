@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__youtu__be__wxcczo9dgj0__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -34,20 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no associated repository, description, or tooling context.
-  why_it_matters: It doesn't provide any developer tooling value in this format.
-  mental_damage: We have reached the singularity where the catalog entries are just YouTube URLs and vibes.
+  summary: A YouTube video link related to MCP servers, appearing in an awesome list of MCP server tutorials.
+  why_it_matters: It was indexed as a tutorial resource for developers learning how to build or use MCP servers.
+  mental_damage: Just when you thought the MCP ecosystem was overwhelming enough, now you need to watch a video to understand the server list you found on a list of lists.
   tags:
+    - mcp
+    - tutorial
     - video
-    - no-tooling
   confidence: high
 curation:
   status: excluded
-  reason: This is a bare YouTube URL with no repository, description, or tooling context, offering no developer-facing product or workflow to review.
+  reason: The input is a YouTube video URL with no description, README, or evidence of a standalone product; it is an auxiliary media resource rather than a developer tool or directory.
   evidence:
-    - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0) with no repo or tooling metadata
-    - No repo description, README, stars, license, or creation/push dates are available
-    - Source-list context only shows it as a tutorial link inside awesome-mcp-servers, not a standalone tool
+    - URL is a YouTube link (https://youtu.be/wxCCzo9dGj0) with no repo description or README provided.
+    - "No repo metadata exists: no stars, no license, no creation or push dates, and archived status unknown."
+    - Source-list context only notes it as a tutorial entry in awesome-mcp-servers, not a standalone tool.
 placement:
   primary_category: null
   section: null
@@ -57,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:54:29.668Z"
+    updated_at: "2026-05-06T22:36:51.258Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__uniswap-poolspy-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/uniswap-poolspy-mcp](https://github.com/kukapay/uniswap-poolspy-mcp) 🐍 ☁️ -  An MCP server that tracks newly created liquidity pools on Uniswap across multiple blockchains."
         confidence: high
     - id: discovery__github__kukapay__uniswap-poolspy-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,50 @@ metadata:
     description: An MCP server that tracks newly created liquidity pools on Uniswap across nine blockchain networks.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:13.072Z"
+    last_checked_at: "2026-05-06T22:44:51.494Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.072Z"
+      fetched_at: "2026-05-06T22:44:51.494Z"
       bytes: 3531
 insights:
-  summary: An MCP server that monitors and queries newly created Uniswap V3 liquidity pools across nine blockchain networks via The Graph API.
-  why_it_matters: Developers building DeFi dashboards or trading bots can plug this into MCP-compatible environments like Claude Desktop to fetch real-time pool data without writing custom indexer logic.
-  mental_damage: We have successfully abstracted blockchain data access into a natural language query, meaning you can now day-trade liquidity pools using conversational English with an LLM.
+  summary: An MCP server that monitors Uniswap V3 pool creation events across nine blockchain networks and exposes real-time queries to MCP-compatible clients like Claude Desktop.
+  why_it_matters: It gives DeFi developers and analysts a ready-made bridge to query on-chain liquidity data directly from their AI assistant instead of wiring up The Graph manually.
+  mental_damage: We have successfully reached the point where your AI assistant can nag you about new liquidity pools on Blast in real time, as if you needed another reason to refresh your portfolio every thirty seconds.
   tags:
     - mcp
     - defi
     - uniswap
     - blockchain
+    - finance
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation focused on DeFi data tooling, which fits cleanly into the MCP category.
+  reason: The product is an MCP server whose identity and utility are entirely defined by implementing the Model Context Protocol to expose Uniswap data.
   evidence:
     - Repo description explicitly states 'An MCP server that tracks newly created liquidity pools on Uniswap'.
-    - README provides integration steps for Claude Desktop and usage of the `get_new_pools` tool.
-    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section.
+    - README integrates with Claude Desktop as an MCP plugin and uses `uv run mcp dev main.py` for development.
+    - Included in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.072Z"
+    updated_at: "2026-05-06T22:44:51.494Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:28.944Z"
+    updated_at: "2026-05-06T23:07:51.361Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

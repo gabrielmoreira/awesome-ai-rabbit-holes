@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-npm-plus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -45,50 +45,49 @@ metadata:
       - packages
       - typescript
       - vulnerabilities
-    last_checked_at: "2026-05-05T21:03:59.847Z"
+    last_checked_at: "2026-05-06T22:45:37.551Z"
     readme:
-      fetched_at: "2026-05-05T21:03:59.847Z"
+      fetched_at: "2026-05-06T22:45:37.551Z"
       bytes: 4097
 insights:
-  summary: An MCP server that lets AI assistants search npm, check bundle sizes, scan for vulnerabilities, and inspect dependency trees using public registry APIs.
-  why_it_matters: It consolidates package research—download stats, bundle size, and security—directly into the editor so developers can compare libraries without opening a dozen browser tabs.
-  mental_damage: "We have successfully automated the one job every developer already perfected: opening twelve tabs to decide between two state management libraries."
+  summary: An MCP server that lets AI assistants search npm packages, check bundle sizes, scan for vulnerabilities, and inspect dependency trees using public registry APIs.
+  why_it_matters: Developers can compare libraries, check security, and inspect dependencies directly through their AI assistant instead of juggling multiple browser tabs during package research.
+  mental_damage: We have successfully abstracted away the profound spiritual experience of manually comparing zustand vs jotai vs valtio across four browser tabs into a single prompt invocation.
   tags:
     - mcp
     - npm
     - developer-tools
-    - cursor
-    - typescript
+    - package-management
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server that integrates with Claude Desktop, Cursor, and VS Code Copilot to provide npm research capabilities.
+  reason: This is a purpose-built MCP server for npm package research, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description states: 'MCP server for npm - search, bundle sizes, vulnerabilities, download trends, dependency trees'"
-    - README confirms it 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client'
+    - Repo description explicitly states 'MCP server for npm - search, bundle sizes, vulnerabilities, download trends, dependency trees'
+    - README confirms it 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client' with `npx mcp-server-npm-plus`
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:59.847Z"
+    updated_at: "2026-05-06T22:45:37.551Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:42.036Z"
+    updated_at: "2026-05-06T23:18:30.714Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

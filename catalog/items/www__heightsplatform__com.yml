@@ -1,12 +1,12 @@
 id: www__heightsplatform__com
 kind: website
-name: Heights Platform
+name: www.heightsplatform.com
 canonical_url: https://www.heightsplatform.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__heightsplatform__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Heights Platform is an AI-assisted SaaS platform for creators to build, sell, and manage online courses, communities, and digital products.
-  why_it_matters: It offers an AI course generator and an AI business coach that automate curriculum drafting and growth strategy for non-technical creators.
-  mental_damage: We have successfully reached the point where the AI doesn't just write the code, it also writes the course teaching you how to sell the code it didn't write.
+  summary: Heights Platform is an all-in-one SaaS platform for creators to build, host, and sell online courses and communities, featuring AI tools for course generation and business coaching.
+  why_it_matters: It is a vertical SaaS platform for course creators and entrepreneurs, not a tool designed for software development workflows.
+  mental_damage: We have officially reached the point where 'AI-powered course coaching' is being filed alongside terminal agents and compiler infrastructure.
   tags:
-    - ai-coach
-    - course-builder
-    - creator-economy
     - saas
+    - course-platform
+    - creator-economy
+    - non-dev
   confidence: high
 curation:
   status: excluded
-  reason: This is a no-code business platform for course creators and coaches, lacking any developer-facing tooling, IDE integration, or code-generation workflow relevant to this catalog.
+  reason: The product is a consumer-facing course creation platform for creators and coaches, lacking any developer-tooling interface, SDK, or workflow integration relevant to the catalog scope.
   evidence:
-    - Scraped site context describes it as 'AI online course creation software platform' for 'creators', not developers.
-    - Primary page excerpt focuses on 'online courses', 'memberships', 'payments', and 'drag-and-drop website builder' for knowledge businesses.
-    - Source-list context (awesome-ai-agents) incorrectly lists it as an 'Autonomous AI coaching for creators' rather than a developer tool.
+    - Scraped site context describes it as 'AI online course creation software platform' for creators, not developers.
+    - Source list context (awesome-ai-agents) describes it as 'Create and sell your online course... for creators', representing a false positive in a general agent list.
+    - No repository description, code-first CLI, SDK, or IDE integration exists in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:16.911Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:33.997Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

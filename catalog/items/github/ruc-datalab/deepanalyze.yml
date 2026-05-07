@@ -1,13 +1,13 @@
 id: github__ruc-datalab__deepanalyze
 kind: github-repo
-name: DeepAnalyze
+name: deepanalyze
 canonical_url: https://github.com/ruc-datalab/deepanalyze
 identity:
   github_repo: ruc-datalab/deepanalyze
 provenance:
   discoveries:
     - id: discovery__github__ruc-datalab__deepanalyze__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -21,49 +21,96 @@ provenance:
         extracted_url: https://github.com/ruc-datalab/deepanalyze
         surrounding_text: "- [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous"
         confidence: high
+    - id: discovery__github__ruc-datalab__deepanalyze__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+        anchor_text: DeepAnalyze
+        extracted_url: https://github.com/ruc-datalab/deepanalyze
+        surrounding_text: "45. [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze): First agentic LLM for autonomous data science, supporting specific data tasks (data preparation, analysis, modeling, visualization, and insight) and data-oriented deep research (produce analyst-grade research reports)."
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4113
+    forks: 671
+    license: MIT
+    archived: false
+    created_at: "2025-10-11T11:19:21Z"
+    pushed_at: "2026-04-13T02:06:27Z"
+    description: DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！
+    homepage: https://ruc-deepanalyze.github.io
+    topics:
+      - agent
+      - agentic
+      - agentic-ai
+      - ai
+      - ai-scientist
+      - chatbot
+      - data
+      - data-analysis
+      - data-engineering
+      - data-science
+      - data-visualization
+      - database
+      - deep-research
+      - jupyter
+      - llm
+      - open-source
+      - python
+      - python-programming
+      - qwen
+      - science
+    last_checked_at: "2026-05-06T22:46:13.131Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:13.131Z"
+      bytes: 21648
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DeepAnalyze is an open-source, fine-tuned LLM and toolset designed to autonomously complete full data science pipelines, including data prep, modeling, visualization, and report generation.
+  why_it_matters: It provides developers and analysts with a self-contained agent that can parse various data formats and execute multi-step analysis tasks without manual intervention.
+  mental_damage: Now your data analysis is agentic, meaning the anxiety of a broken pipeline is replaced by the existential dread of an autonomous model deciding what your data means.
+  tags:
+    - data-science
+    - autonomous-agents
+    - llm
+    - fine-tuned
+    - jupyter
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a primary autonomous agent designed to execute complex, multi-step coding and analysis tasks (data science) via CLI and WebUI, fitting the 'agent' definition better than a framework or extension.
+  evidence:
+    - Repo description explicitly calls it 'the first agentic LLM for autonomous data science'.
+    - "README details autonomous execution of the entire data science pipeline: prep, modeling, visualization, and report generation."
+    - Features a CLI Terminal UI and WebUI (v2) for interacting with the agent, alongside a fine-tuned 8B model.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4113) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.715Z"
+    updated_at: "2026-05-06T22:12:15.593Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:13.131Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:26:21.769Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

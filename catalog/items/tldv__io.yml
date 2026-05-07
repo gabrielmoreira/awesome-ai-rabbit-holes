@@ -1,12 +1,12 @@
 id: tldv__io
 kind: website
-name: tl;dv
+name: tldv.io
 canonical_url: https://tldv.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__tldv__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: tl;dv is a SaaS meeting recording and transcription tool that uses AI to summarize conversations across Zoom, Google Meet, and Microsoft Teams.
-  why_it_matters: It automates the busywork of meeting notes and CRM updates, allowing developers to focus on coding rather than documenting standups and sprint planning sessions.
-  mental_damage: Engineers can now officially stop paying attention to meetings, secure in the knowledge that an AI is hallucinating the action items they will later ignore.
+  summary: tl;dv is an AI meeting notetaker that records, transcribes, and summarizes calls across Zoom, Google Meet, and Microsoft Teams, with integrations for CRM and sales coaching workflows.
+  why_it_matters: It automates meeting notes, action-item extraction, and CRM updates so developers in customer-facing roles can stay focused on technical work instead of administrative busywork.
+  mental_damage: We have finally reached the point where an AI will silently attend your standup, summarize your excuses, and automatically log your lack of progress to the CRM before you have even finished your coffee.
   tags:
-    - meetings
-    - saas
-    - summarization
+    - meeting-notes
     - transcription
+    - crm-integration
+    - sales-tooling
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose meeting productivity SaaS for sales and customer success teams, lacking a developer-tooling or coding-specific angle required for the catalog.
+  reason: This is a general-purpose meeting notetaker and sales coaching platform, not a developer-facing coding tool, agent, extension, or infrastructure component.
   evidence:
-    - The scraped site context describes a 'Sales coaching platform' and 'AI Meeting Notetaker' for Zoom/Meet/Teams with no mention of IDE, CLI, or code workflows.
-    - Source-list context lists it under 'awesome-mcp-servers' for 'AI meeting notes', but the product itself is a generic meeting tool, not developer infrastructure.
-    - The website targets Sales Managers, Product Owners, and Marketing Managers, not software developers building or shipping code.
+    - Scraped site positions tl;dv as an AI meeting notetaker for sales, customer success, and general business meetings, not for code workflows.
+    - Primary features are recording, transcription, summaries, CRM logging, and sales coaching, with no developer-tooling or coding-agent capabilities described.
+    - Although listed in awesome-mcp-servers, the linked context describes a general meeting intelligence product rather than an MCP-first developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:47.460Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:37.798Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__furey__mongodb-lens
 kind: github-repo
-name: MongoDB Lens
+name: mongodb-lens
 canonical_url: https://github.com/furey/mongodb-lens
 identity:
   github_repo: furey/mongodb-lens
 provenance:
   discoveries:
     - id: discovery__github__furey__mongodb-lens__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [furey/mongodb-lens](https://github.com/furey/mongodb-lens) 📇 🏠 - MongoDB Lens: Full Featured MCP Server for MongoDB Databases"
         confidence: high
     - id: discovery__github__furey__mongodb-lens__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[MongoDB Lens](https://github.com/furey/mongodb-lens)** - Full Featured MCP Server for MongoDB Database."
         confidence: high
     - id: discovery__github__furey__mongodb-lens__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -70,50 +70,49 @@ metadata:
       - mcp
       - model-context-protocol
       - mongodb
-    last_checked_at: "2026-05-05T21:02:15.848Z"
+    last_checked_at: "2026-05-06T22:43:57.556Z"
     readme:
-      fetched_at: "2026-05-05T21:02:15.848Z"
+      fetched_at: "2026-05-06T22:43:57.556Z"
       bytes: 67261
 insights:
-  summary: A local Model Context Protocol (MCP) server that enables LLMs and MCP clients like Claude Desktop or Cursor to interact with MongoDB databases using natural language for queries, aggregations, and schema analysis.
-  why_it_matters: It allows developers to inspect, query, and optimize MongoDB databases directly through their AI assistant rather than switching contexts to a database shell or admin UI.
-  mental_damage: Finally, a way to write aggregation pipelines using the same confident-but-wrong natural language that your coding agent uses to write the application code consuming them.
+  summary: MongoDB Lens is a local MCP server that exposes MongoDB databases to LLM clients, enabling natural language queries, aggregations, and schema analysis.
+  why_it_matters: It allows developers to interact with MongoDB using natural language through MCP-compatible clients like Claude Desktop and Cursor, removing the need to write raw queries for common database tasks.
+  mental_damage: Another layer in the stack where your database is no longer queried by you or your code, but by an LLM proxy that requires its own configuration file and a fresh cup of coffee.
   tags:
-    - database
-    - developer-tools
-    - llm-integration
-    - mcp
     - mongodb
+    - mcp
+    - database
+    - natural-language
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server implementation for MongoDB, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is a full-featured MCP server for MongoDB, aligning perfectly with the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'Full Featured MCP Server for MongoDB Databases'."
-    - README confirms it is a 'local Model Context Protocol (MCP) server' configured for clients like Claude Desktop and Cursor.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Databases'.
+    - Repo description explicitly states 'Full Featured MCP Server for MongoDB Databases'.
+    - README confirms it is a local MCP server with tools for queries, aggregations, and performance optimization.
+    - Listed in multiple awesome-mcp-servers directories under the Databases section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (201) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:21.152Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.660Z"
+    updated_at: "2026-05-06T22:12:15.577Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:15.848Z"
+    updated_at: "2026-05-06T22:43:57.556Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:47.233Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

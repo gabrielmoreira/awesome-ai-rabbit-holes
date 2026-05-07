@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cqtrinv__trinvmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,50 @@ metadata:
     description: a MCP server for TRINV
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:42.356Z"
+    last_checked_at: "2026-05-06T22:43:29.148Z"
     readme:
-      fetched_at: "2026-05-05T21:01:42.356Z"
+      fetched_at: "2026-05-06T22:43:29.148Z"
       bytes: 1583
 insights:
-  summary: A Model Context Protocol server that connects AI assistants to the TRINV site to search French municipalities and cadastral parcels.
-  why_it_matters: Developers building location-aware AI workflows can expose property and cadastral search capabilities to Claude, Gemini, and other MCP-compatible assistants without writing custom API integrations.
-  mental_damage: We now have a dedicated protocol server for querying French land parcels, because apparently the next frontier in developer tooling is helping LLMs decide which commune you should buy a vacation home in.
+  summary: An MCP server that exposes French cadastral data (communes and parcels) from TRINV.fr to AI assistants like Claude and Gemini.
+  why_it_matters: It allows developers building location-aware apps or dealing with French real estate data to query cadastral databases directly from their coding assistant.
+  mental_damage: We have officially reached the point where even the hyper-specific bureaucracy of French land parcels demands its own Model Context Protocol server.
   tags:
     - mcp
+    - france
     - cadastral
     - location-services
-    - france
+    - node
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server that integrates TRINV's cadastral search into MCP-compatible assistants, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The project's primary identity is an MCP server providing specific domain data (French cadastral services), fitting the Domain Servers section of the MCP category.
   evidence:
-    - Repo description states it is 'a MCP server for TRINV'.
-    - README confirms it is an MCP server providing tools to search communes and cadastral parcels via TRINV.fr.
-    - Listed under 'Location Services' in the awesome-mcp-servers directory.
+    - Repo description explicitly states 'a MCP server for TRINV'.
+    - README confirms it is a 'serveur de type MCP' providing tools like 'trinv-chercher-commune' and 'trinv-chercher-parcelle'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Location Services'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:42.356Z"
+    updated_at: "2026-05-06T22:43:29.148Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:37.494Z"
+    updated_at: "2026-05-06T22:50:49.748Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

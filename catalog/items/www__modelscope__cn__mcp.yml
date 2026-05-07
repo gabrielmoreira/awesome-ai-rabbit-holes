@@ -1,12 +1,12 @@
 id: www__modelscope__cn__mcp
 kind: website
-name: modelscope/mcp
+name: mcp
 canonical_url: https://www.modelscope.cn/mcp
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__modelscope__cn__mcp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ModelScope's MCP Plaza is a directory and aggregation hub for Model Context Protocol resources and servers.
-  why_it_matters: It serves as a centralized registry for developers looking to discover and integrate MCP-compatible tools into their AI workflows.
-  mental_damage: "Just what we needed: another walled-garden registry competing to be the definitive index for a protocol that is currently fracturing the ecosystem into a dozen incompatible silos."
+  summary: ModelScope's MCP Plaza is a Chinese-language directory and aggregation hub for discovering Model Context Protocol servers and resources.
+  why_it_matters: It provides a centralized map for developers navigating the rapidly expanding ecosystem of MCP tooling and integrations.
+  mental_damage: Just when you thought you had a handle on the MCP landscape, a new registry appears to ensure your bookmark bar remains the truest measure of development progress.
   tags:
-    - directory
     - mcp
+    - directory
     - modelscope
-    - registry
-  confidence: medium
+    - discovery
+  confidence: high
 curation:
   status: included
-  reason: This is a directory/aggregation hub for MCP resources rather than a standalone tool or server itself, fitting the awesome-awesomes category.
+  reason: This is a curated aggregation and discovery page for MCP resources, fitting the 'Lists & Directories' category as a navigation aid for developers.
   evidence:
-    - "Scraped title and description identify it as 'MCP 广场' (MCP Plaza) aggregating resources: '聚合优质MCP资源，拓展智能边界！'"
-    - Listed in awesome-LLM-resources under the section '模型上下文协议 MCP' as a linked resource page.
+    - Scraped site title is 'ModelScope - MCP 广场' (MCP Plaza).
+    - Description states '聚合优质MCP资源，拓展智能边界！' (Aggregating high-quality MCP resources).
+    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' section as a resource aggregation link.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:52:06.012Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:24.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

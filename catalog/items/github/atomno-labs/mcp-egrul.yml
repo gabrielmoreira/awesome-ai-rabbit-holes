@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__atomno-labs__mcp-egrul__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - model-context-protocol
       - opendata
       - russia
-    last_checked_at: "2026-05-05T21:01:11.506Z"
+    last_checked_at: "2026-05-06T22:12:44.889Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.506Z"
+      fetched_at: "2026-05-06T22:12:44.889Z"
       bytes: 19814
 insights:
-  summary: An MCP server that exposes Russian Federation open-data business registries (EGRUL/EGRIP) as local tools for AI assistants, with self-hosted SQLite and a hosted Pro tier.
-  why_it_matters: Developers building AI workflows that need to verify Russian legal entities can hook FNS registry lookups directly into Cursor, Claude Desktop, or Cline without writing custom API glue.
-  mental_damage: We have now fully closed the loop where an AI agent can autonomously decide your counterparty is a fictional entity—and you still have to explain it to legal.
+  summary: An open-source MCP server that lets AI assistants query Russian EGRUL and EGRIP business registries via local SQLite or a hosted API.
+  why_it_matters: Developers building AI workflows for Russian due diligence can wire official FNS registry lookups directly into Claude, Cursor, or Cline without scraping or manual API glue.
+  mental_damage: An entire MCP server dedicated to turning a tax authority dump into seven AI-visible tools, because apparently even our bureaucratic registry lookups now need a token budget.
   tags:
     - mcp
-    - russia
-    - kyc
+    - russian-registry
+    - due-diligence
     - fns
-    - local-ai
+    - kyc
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server implementation providing structured tools for Russian business registry lookups, which cleanly fits the MCP Servers and Tooling category.
+  reason: The product’s identity is an MCP server exposing Russian registry data tools, which fits squarely into MCP Servers & Tooling under Domain Servers.
   evidence:
-    - Repo description explicitly states 'MCP server for Russian EGRUL/EGRIP lookups via FNS open-data'.
-    - README confirms seven MCP tools (search_by_inn, get_director, bulk_cards, etc.) exposed over stdio transport for Cursor/Claude Desktop/Cline.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech', reinforcing its role as MCP infrastructure.
+    - Repo description explicitly calls it an 'MCP server for Russian EGRUL/EGRUL lookups'.
+    - README documents seven MCP tools (search_by_inn, get_director, bulk_cards, etc.) for Cursor, Claude Desktop, and Cline.
+    - Listed in awesome-mcp-servers under Finance & Fintech as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.506Z"
+    updated_at: "2026-05-06T22:12:44.889Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:22.937Z"
+    updated_at: "2026-05-06T22:22:40.854Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

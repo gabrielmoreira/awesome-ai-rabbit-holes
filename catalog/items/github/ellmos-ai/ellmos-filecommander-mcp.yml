@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ellmos-ai__ellmos-filecommander-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,49 @@ metadata:
       - mcp-server
       - model-context-protocol
       - process-management
-    last_checked_at: "2026-05-05T21:02:01.658Z"
+    last_checked_at: "2026-05-06T22:43:45.678Z"
     readme:
-      fetched_at: "2026-05-05T21:02:01.658Z"
+      fetched_at: "2026-05-06T22:43:45.678Z"
       bytes: 13263
 insights:
-  summary: A Model Context Protocol server providing 43 tools for filesystem access, process management, interactive shell sessions, and async file search, including safe delete and format conversion capabilities.
-  why_it_matters: It gives AI assistants deep, safer local system control through a single extensible MCP server rather than wiring together multiple narrow tools.
-  mental_damage: We’ve now built a Swiss Army knife for an AI that still can’t reliably remember whether your project is in src or lib.
+  summary: A comprehensive MCP server providing 43 tools for filesystem access, process management, interactive shell sessions, and async file search, featuring safe delete to Recycle Bin/Trash.
+  why_it_matters: It gives coding agents deep local system access with safety features like reversible deletes and background search, reducing the risk of agents accidentally nuking your filesystem.
+  mental_damage: We have now reached the point where we need a specialized middleware layer just to let our AI assistants safely move files to the trash, because apparently we cannot trust them with permanent deletion.
   tags:
     - mcp
     - filesystem
     - process-management
-    - local-ai
-    - developer-tools
+    - local-system
   confidence: high
 curation:
   status: included
-  reason: This is a standalone MCP server exposing system and filesystem tools, which cleanly fits the MCP Servers and Tooling category.
+  reason: This is an MCP server with a clear protocol-first identity, offering 43 tools for system interaction, which fits squarely into MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly calls it a 'Comprehensive MCP server with 29 tools'.
-    - README states it is 'A comprehensive Model Context Protocol (MCP) server' with 43 tools for filesystem, process management, and shell sessions.
-    - Listed in awesome-mcp-servers under Server Implementations > File Systems.
+    - Repo description explicitly states 'Comprehensive MCP server with 29 tools'.
+    - README positions it as 'A comprehensive Model Context Protocol (MCP) server' with 43 tools.
+    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:01.658Z"
+    updated_at: "2026-05-06T22:43:45.678Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:55.096Z"
+    updated_at: "2026-05-06T22:54:13.678Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

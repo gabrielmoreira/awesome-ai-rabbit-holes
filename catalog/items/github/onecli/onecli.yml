@@ -1,13 +1,13 @@
 id: github__onecli__onecli
 kind: github-repo
-name: OneCLI
+name: onecli
 canonical_url: https://github.com/onecli/onecli
 identity:
   github_repo: onecli/onecli
 provenance:
   discoveries:
     - id: discovery__github__onecli__onecli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2091
-    forks: 104
+    stars: 2095
+    forks: 105
     license: Apache-2.0
     archived: false
     created_at: "2026-03-08T10:38:52Z"
-    pushed_at: "2026-05-05T17:03:17Z"
+    pushed_at: "2026-05-06T08:19:49Z"
     description: Open-source credential vault, give your AI agents access to services without exposing keys.
     homepage: https://onecli.sh
     topics:
@@ -45,50 +45,50 @@ metadata:
       - security
       - security-tools
       - vault
-    last_checked_at: "2026-05-05T21:04:01.669Z"
+    last_checked_at: "2026-05-06T22:45:39.033Z"
     readme:
-      fetched_at: "2026-05-05T21:04:01.669Z"
+      fetched_at: "2026-05-06T22:45:39.033Z"
       bytes: 6209
 insights:
-  summary: An open-source gateway that stores API credentials securely and transparently injects them into outbound HTTP requests made by AI agents.
-  why_it_matters: It centralizes secret management for AI workflows, letting developers avoid hardcoding API keys across multiple agents and providing a single place to rotate credentials and audit usage.
-  mental_damage: Finally, a dedicated vault to manage the rapidly multiplying API keys required to keep your twelve concurrent coding agents from accidentally exfiltrating your entire cloud infrastructure.
+  summary: An open-source credential vault and HTTP gateway that transparently injects API keys into AI agent requests so agents never handle raw secrets.
+  why_it_matters: Centralizes secret management and audit logging across multiple AI agents, removing the need to scatter API keys across every agent config and script.
+  mental_damage: Finally, a dedicated piece of infrastructure to solve the problem of handing your API keys to autonomous loops that you already regret giving shell access to.
   tags:
+    - secrets
     - agents
     - infrastructure
-    - mcp
-    - secrets
     - security
+    - gateway
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing infrastructure tool that augments and secures AI agents by handling credential injection, rather than being a primary coding assistant itself.
+  reason: OneCLI is a self-hosted control plane and gateway for managing, injecting, and auditing credentials across multiple AI agents, which aligns with agent orchestration infrastructure rather than being a coding assistant or extension.
   evidence:
-    - Repo description explicitly states it is a 'credential vault' to 'give your AI agents access to services'.
-    - README describes a gateway that intercepts HTTP requests from agents to swap fake keys for real, encrypted credentials.
-    - Listed in awesome-cli-coding-agents under 'Agent infrastructure', confirming its role as a supporting tool rather than the agent itself.
+    - README describes it as 'an open-source gateway that sits between your AI agents and the services they call' with a web dashboard for managing agents and secrets.
+    - Architecture includes a Rust gateway for credential injection, a Next.js management dashboard, and encrypted secret storage, forming a control-plane product.
+    - Source list 'awesome-cli-coding-agents' already catalogs it under 'Harnesses & orchestration > Agent infrastructure'.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2091) exceeded threshold (150)
+  reason: Stars (2095) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:42:03.427Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.711Z"
+    updated_at: "2026-05-06T22:12:15.639Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:01.669Z"
+    updated_at: "2026-05-06T22:45:39.033Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:18:49.886Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

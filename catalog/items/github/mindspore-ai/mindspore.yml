@@ -1,13 +1,13 @@
 id: github__mindspore-ai__mindspore
 kind: github-repo
-name: MindSpore
+name: mindspore
 canonical_url: https://github.com/mindspore-ai/mindspore
 identity:
   github_repo: mindspore-ai/mindspore
 provenance:
   discoveries:
     - id: discovery__github__mindspore-ai__mindspore__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 4690
-    forks: 754
+    forks: 755
     license: Apache-2.0
     archived: false
     created_at: "2020-02-11T08:43:48Z"
@@ -33,27 +33,28 @@ metadata:
     description: MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.
     homepage: https://gitee.com/mindspore/mindspore
     topics: []
-    last_checked_at: "2026-05-05T21:03:41.669Z"
+    last_checked_at: "2026-05-06T22:45:20.115Z"
     readme:
-      fetched_at: "2026-05-05T21:03:41.669Z"
+      fetched_at: "2026-05-06T22:45:20.115Z"
       bytes: 16554
 insights:
-  summary: MindSpore is an open source deep learning training and inference framework designed for mobile, edge, and cloud scenarios with automatic differentiation and parallel training capabilities.
-  why_it_matters: It provides data scientists and algorithmic engineers with a Pythonic framework for building and training models, particularly optimized for Ascend AI processors and distributed environments.
-  mental_damage: Yet another deep learning framework enters the arena, politely asking if you'd like to port your entire stack to a new ecosystem that may or may not outlive the quarter.
+  summary: MindSpore is an open source deep learning training and inference framework designed for mobile, edge, and cloud scenarios with native support for Ascend AI processors.
+  why_it_matters: It provides data scientists and algorithmic engineers with a Pythonic development experience, automatic differentiation, and automatic parallel training capabilities across diverse hardware environments.
+  mental_damage: Just when you thought the deep learning framework wars were settled, we're back to choosing sides between PyTorch, TensorFlow, and yet another Huawei-backed contender that wants you to buy their chips.
   tags:
     - deep-learning
-    - distributed-training
-    - inference
     - training-framework
+    - inference
+    - ascend
+    - mlops
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose deep learning framework for model training and inference, which falls outside the catalog's scope of practical AI developer tooling, coding agents, and app-building products.
+  reason: This is a general deep learning training and inference framework, not a developer-facing AI tool, agent, or infrastructure component as defined by the catalog's scope.
   evidence:
-    - Repo description explicitly defines it as a 'deep learning training/inference framework' for mobile, edge, and cloud.
-    - README focuses on automatic differentiation, automatic parallel, and model building for data scientists, not developer workflow tooling.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML Ops category rather than developer-facing AI tooling.
+    - Repo description explicitly states it is a 'deep learning training/inference framework' for mobile, edge, and cloud.
+    - README focuses on automatic differentiation, automatic parallel training, and Ascend AI processor support—core ML research/engineering, not developer tooling.
+    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML operations category, not specific to AI developer tools.
 placement:
   primary_category: null
   section: null
@@ -61,21 +62,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (4690) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:04.063Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:41.669Z"
+    updated_at: "2026-05-06T22:45:20.115Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:14:19.168Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

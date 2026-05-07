@@ -1,13 +1,13 @@
 id: github__pnkvalavala__repochat
 kind: github-repo
-name: Repochat
+name: repochat
 canonical_url: https://github.com/pnkvalavala/repochat
 identity:
   github_repo: pnkvalavala/repochat
 provenance:
   discoveries:
     - id: discovery__github__pnkvalavala__repochat__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -42,44 +42,50 @@ metadata:
       - openai
       - retrieval-augmented-generation
       - streamlit
-    last_checked_at: "2026-05-05T23:08:07.471Z"
+    last_checked_at: "2026-05-06T22:45:55.208Z"
     readme:
-      fetched_at: "2026-05-05T23:08:07.471Z"
+      fetched_at: "2026-05-06T22:45:55.208Z"
       bytes: 6278
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local-first Streamlit chatbot that clones GitHub repositories, embeds code with Sentence Transformers, and answers questions about the codebase using a local LLM via Retrieval Augmented Generation.
+  why_it_matters: It lets developers run a private, offline Q&A interface over any GitHub repo without sending proprietary code to external APIs.
+  mental_damage: Yet another reminder that while agents are learning to write entire repos, we are still building bespoke chat interfaces to simply ask them what the code we just cloned actually does.
+  tags:
+    - rag
+    - local-llm
+    - repo-chat
+    - streamlit
+    - langchain
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is a local desktop interface for chatting with repos using self-hosted models, fitting the Local AI category better than a coding agent or extension.
+  evidence:
+    - Repo description explicitly states 'Chatbot assistant enabling GitHub repository interaction using LLMs with Retrieval Augmented Generation'.
+    - "README emphasizes local execution: 'designed to run entirely on your local machine... doesn't rely on external API calls'."
+    - Stack includes Streamlit, llama-cpp-python, and local ChromaDB for private embedding storage.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (315) exceeded threshold (150)
 processing:
-  categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.713Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:07.471Z"
+    updated_at: "2026-05-06T22:45:55.208Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:22:23.220Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

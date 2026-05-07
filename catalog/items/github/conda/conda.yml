@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__conda__conda__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,61 +24,61 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7392
+    stars: 7395
     forks: 2162
     license: NOASSERTION
     archived: false
     created_at: "2012-10-15T22:08:03Z"
-    pushed_at: "2026-05-05T20:57:31Z"
+    pushed_at: "2026-05-06T20:04:05Z"
     description: A system-level, binary package and environment manager running on all major operating systems and platforms.
     homepage: https://docs.conda.io/projects/conda/
     topics:
       - conda
       - package-management
       - python
-    last_checked_at: "2026-05-05T21:01:40.223Z"
+    last_checked_at: "2026-05-06T22:43:27.366Z"
     readme:
-      fetched_at: "2026-05-05T21:01:40.223Z"
+      fetched_at: "2026-05-06T22:43:27.366Z"
       bytes: 6124
 insights:
-  summary: Conda is a cross-platform, language-agnostic binary package and environment manager for installing dependencies and isolating project environments.
-  why_it_matters: It provides first-class environment isolation and binary package management that underpins many AI and ML development workflows.
-  mental_damage: The industry built an entire ecosystem of autonomous coding agents, yet we still spend our Friday nights debugging why conda can’t link a C library from 2019.
+  summary: Conda is a cross-platform, language-agnostic binary package and environment manager for installing dependencies and isolating development environments.
+  why_it_matters: It remains the standard way to manage complex dependency environments for Python and data science workflows that AI developers rely on daily.
+  mental_damage: We have containerization, virtual environments, and now a half-dozen AI agent scaffolds, yet we still find ourselves debugging conda base environments at 2am like it's 2015.
   tags:
-    - package-management
+    - package-manager
     - environments
     - python
-    - ml-ops
+    - dependencies
   confidence: high
 curation:
   status: excluded
-  reason: Conda is a general-purpose package and environment manager, not a developer-facing AI tool, agent, or AI infrastructure product.
+  reason: Conda is a general-purpose package and environment manager with no AI-specific developer tooling angle, falling outside the catalog's scope of AI agents, workflows, and infrastructure.
   evidence:
-    - Repo description and README describe general binary package and environment management, with no AI-specific features.
-    - Listed in Awesome-LLMOps under 'Training > IDEs and Workspaces', but that reflects ecosystem adjacency rather than the tool itself being an AI developer product.
-    - Topics and documentation focus on package management (conda, python, package-management), not AI coding, agents, or prompt workflows.
+    - Repo description describes it as a 'system-level, binary package and environment manager' with no mention of AI.
+    - GitHub topics are limited to conda, package-management, and python, lacking AI, LLM, or ML tags.
+    - Included in Awesome-LLMOps under 'Training > IDEs and Workspaces', which is a miscategorization that does not override the core product identity.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (7392) exceeded threshold (150)
+  reason: Stars (7395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.683Z"
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:40.223Z"
+    updated_at: "2026-05-06T22:43:27.366Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:14:13.812Z"
+    updated_at: "2026-05-06T22:50:27.365Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

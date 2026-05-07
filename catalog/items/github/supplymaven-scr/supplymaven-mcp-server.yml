@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__supplymaven-scr__supplymaven-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-14T03:26:08Z"
+    pushed_at: "2026-04-27T15:22:16Z"
+    description: "MCP server for real-time supply chain intelligence — 24 tools: Global Disruption Index, Manufacturing Index, commodity prices, port congestion, border delays, chokepoints, air cargo, trade policy, energy, rail, freight, economic indicators, predictive signals, and AI intelligence briefs"
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:38.062Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:38.062Z"
+      bytes: 14133
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes 24 real-time supply chain intelligence tools, including global disruption indices, commodity prices, port congestion, and predictive signals to AI agents.
+  why_it_matters: Developers building agentic workflows for logistics, trading, or supply chain visibility can plug live economic and disruption data directly into Claude, Cursor, or any MCP-compatible client without building custom scrapers.
+  mental_damage: Our agents can now panic about Panama Canal congestion and electricity anomalies in the Pacific Northwest before we have even finished configuring the Bearer token.
+  tags:
+    - mcp
+    - supply-chain
+    - agent-tools
+    - finance
+    - real-time-data
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server providing domain-specific tools for supply chain intelligence, which aligns precisely with the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description states: 'MCP server for real-time supply chain intelligence — 24 tools'"
+    - README instructs users to connect via Claude Desktop, ChatGPT, Cursor, and Vercel AI SDK using standard MCP endpoints
+    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:38.062Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:02.152Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

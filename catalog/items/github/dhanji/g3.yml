@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dhanji__g3__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -33,28 +33,28 @@ metadata:
     description: experiments in goose
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:52.741Z"
+    last_checked_at: "2026-05-06T22:43:37.817Z"
     readme:
-      fetched_at: "2026-05-05T21:01:52.741Z"
+      fetched_at: "2026-05-06T22:43:37.817Z"
       bytes: 21084
 insights:
-  summary: g3 is a terminal-native AI coding agent built in Rust that plans, writes, and executes code tasks while supporting multiple LLM providers including local models.
-  why_it_matters: It offers developers a self-hosted, provider-agnostic CLI agent with context window management and computer control capabilities for automating coding workflows.
-  mental_damage: Another Rust-based CLI agent enters the ring, because what every developer truly needs is a fourth terminal window debating context compaction strategies while the first three agents are still thinking.
+  summary: g3 is a Rust-based terminal AI coding agent that writes code, executes commands, and manages context windows while supporting multiple LLM providers including local models via llama.cpp.
+  why_it_matters: It offers developers a locally-runnable, provider-agnostic CLI agent with built-in computer control and context management for iterating on real repos without locking into a single hosted model.
+  mental_damage: Another terminal agent with computer control, because clearly what the world needed was more ways for LLMs to autonomously click through your OS while you watch the token counter in the footer.
   tags:
     - cli
-    - rust
     - coding-agent
-    - local-llm
-    - terminal
+    - rust
+    - local-models
+    - llm-providers
   confidence: high
 curation:
   status: included
-  reason: The project is a terminal-native coding agent that directly plans, writes, and executes code tasks for developers, fitting the coding-agents category and its Terminal & CLI Agents section.
+  reason: g3 positions itself directly as a coding AI agent that developers delegate repo work to via a CLI, fitting the primary coding assistant definition rather than an extension or framework.
   evidence:
-    - Repo description states 'experiments in goose' and README identifies it as 'a coding AI agent designed to help you complete tasks by writing code and executing commands.'
-    - README details agent architecture including agent engine, context window management, tool system, and support for multiple LLM providers including local llama.cpp models.
-    - Found in the awesome-cli-coding-agents list under the 'Terminal-native coding agents > Open Source' section.
+    - Repo description explicitly states 'experiments in goose' and README defines it as 'a coding AI agent designed to help you complete tasks by writing code and executing commands'
+    - It is a standalone Rust CLI with its own agent engine, context window management, tool system, and multi-provider support rather than augmenting another assistant
+    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source', aligning with its primary product identity
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -64,19 +64,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:52.741Z"
+    updated_at: "2026-05-06T22:43:37.817Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:16:20.301Z"
+    updated_at: "2026-05-06T22:52:39.029Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

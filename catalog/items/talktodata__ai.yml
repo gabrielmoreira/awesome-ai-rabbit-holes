@@ -1,12 +1,12 @@
 id: talktodata__ai
 kind: website
-name: TalktoData
+name: talktodata.ai
 canonical_url: https://talktodata.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__talktodata__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-first SaaS product that connects to SQL databases and spreadsheets to answer natural language questions with instant visualizations and reports.
-  why_it_matters: It allows developers and analysts to interrogate structured data and generate visualizations without writing SQL or building custom dashboarding tools.
-  mental_damage: Yet another 'AI Data Analyst' arrives to ensure that data professionals can spend even more time debating whether they will be replaced by a chatbot.
+  summary: A natural-language data analysis platform that connects to SQL databases and spreadsheets to generate answers and visualizations without writing code.
+  why_it_matters: It allows non-technical users and analysts to query structured data using conversation instead of SQL or spreadsheet formulas.
+  mental_damage: We have successfully built an AI agent to eliminate the data analyst, but still require a human developer to hook up the database connection it relies on.
   tags:
     - data-analysis
     - natural-language
-    - saas
+    - sql
     - visualization
   confidence: high
 curation:
   status: excluded
-  reason: This is a business intelligence SaaS for end-users and analysts, not a developer-facing tool for coding, app building, or infrastructure.
+  reason: This is a business intelligence SaaS product for end-users and analysts, not a developer-facing tool, framework, or coding assistant for building software.
   evidence:
-    - Primary page excerpt describes connecting to SQL/spreadsheets to 'get answers & elegant visualizations' for business users, not developers.
-    - Listed in awesome-ai-agents under a data analyst section, but the product functions as a no-code BI tool rather than a coding agent.
-    - No GitHub repo, code-first SDK, IDE plugin, or developer workflow automation surface is present in the provided context.
+    - Primary page excerpt describes 'Your Personal AI Data Analyst' focused on business analytics, not code.
+    - Source-list context identifies it as a 'data analyst ai' and 'chatbot for data analytics' rather than a dev tool.
+    - No developer-facing workflow such as code editing, framework integration, or IDE extension is evident.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:35.604Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:21.645Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

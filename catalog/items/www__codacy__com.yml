@@ -1,12 +1,12 @@
 id: www__codacy__com
 kind: website
-name: Codacy
+name: www.codacy.com
 canonical_url: https://www.codacy.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__codacy__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform that enforces code quality, security, and AI-specific coding policies across IDEs, Git workflows, and coding agents with automated reviews and guardrails.
-  why_it_matters: It lets teams standardize coding standards and security policies across human and AI-generated code, aiming to reduce the manual overhead of reviewing agent output.
-  mental_damage: Your AI agent can now generate insecure code at machine speed, while Codacy stands by to politely explain why you shouldn't merge it.
+  summary: A SaaS platform for code quality, security, and AI coding policy enforcement that provides automated PR reviews and IDE integrations to govern AI-generated code.
+  why_it_matters: It helps teams standardize coding standards and automatically catch security flaws, quality issues, and AI-specific policy violations across repositories, agents, and IDEs.
+  mental_damage: Now your AI agent can generate vulnerable code at 10x speed, while a separate AI agent politely reminds you that you're generating vulnerable code at 10x speed.
   tags:
-    - ai-policies
     - code-quality
-    - code-review
-    - guardrails
+    - ai-reviewer
     - security
+    - pr-review
+    - guardrails
   confidence: high
 curation:
   status: included
-  reason: Codacy is primarily a policy and quality layer that integrates into IDEs, Git, and other coding agents to enforce guardrails and review code, making it an extension of the developer's existing AI workflow rather than a standalone coding agent itself.
+  reason: Codacy is primarily a platform that augments the development workflow (Git, IDE, PRs) with automated quality, security, and AI policy enforcement rather than acting as a primary coding assistant.
   evidence:
-    - Scraped site context describes 'AI Guardrails built into every agent and IDE' and integrates with agents, IDEs, and Git.
-    - Featured in awesome-ai-coding-tools under 'Code Review and Refactoring' for governing code quality and AI coding policies.
-    - Platform focuses on unifying standards and reviewing PRs with AI suggestions rather than being a primary coding assistant.
+    - Positioned in awesome-ai-coding-tools under 'Code Review and Refactoring' as a governance and review tool.
+    - Core features include AI Reviewer for PRs, IDE extensions, and Git integrations for quality/security scanning.
+    - Explicitly markets 'AI Guardrails' to make agents and IDEs follow defined quality and security standards.
 placement:
   primary_category: ai-dev-extensions
-  section: null
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:10.323Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:32:30.519Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jhinresh__maiat-protocol__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: The trust layer for agentic commerce. Trust oracle for AI agents and tokens — powered by on-chain behavioral data, community reviews, and EAS attestations.
     homepage: https://app.maiat.io/
     topics: []
-    last_checked_at: "2026-05-05T21:02:54.757Z"
+    last_checked_at: "2026-05-06T22:44:33.686Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.757Z"
+      fetched_at: "2026-05-06T22:44:33.686Z"
       bytes: 4710
 insights:
-  summary: A trust oracle protocol that provides on-chain behavioral data, community reviews, and EAS attestations to help AI agents evaluate token safety and agent reputation for commerce workflows.
-  why_it_matters: Developers building agentic commerce systems can integrate SDKs, an MCP server, and plugins for ElizaOS, Coinbase AgentKit, and Virtuals to gate transactions based on trust scores.
-  mental_damage: We have finally reached the point where AI agents need their own on-chain credit bureaus and we are the ones writing the smart contracts to power them.
+  summary: A trust and safety protocol for AI agents that provides on-chain behavioral scoring, token safety checks, and an MCP server for integrating agent reputation into LLM workflows.
+  why_it_matters: Developers building autonomous agents that handle transactions can integrate this SDK or MCP server to gatekeep actions based on on-chain trust scores and community reviews.
+  mental_damage: We have successfully moved from 'vibe coding' to 'vibe auditing' smart contracts via an oracle that judges whether your autonomous agent is a reputable citizen or a rug-pulling scamp.
   tags:
     - agent-trust
     - mcp
-    - web3
+    - on-chain
     - sdk
     - fintech
   confidence: medium
 curation:
   status: included
-  reason: The project ships a dedicated MCP server package for Claude and other MCP-compatible AIs, and is explicitly listed in the awesome-mcp-servers finance section, making it a clear fit for MCP infrastructure.
+  reason: While the project contains an SDK and various plugins, its inclusion in the awesome-mcp-servers list and the explicit packaging of @jhinresh/mcp-server for Claude and GPT makes MCP the primary relevant identity for this catalog.
   evidence:
-    - README lists @jhinresh/mcp-server as a package for Claude, GPT, and MCP-compatible AIs.
-    - Appears in awesome-mcp-servers under Server Implementations > Finance & Fintech.
-    - Provides SDKs and plugins for multiple agent frameworks including ElizaOS and Coinbase AgentKit.
+    - README explicitly lists @jhinresh/mcp-server as a core package for Claude, GPT, and MCP-compatible AIs.
+    - Seen in the awesome-mcp-servers list under the Finance & Fintech section.
+    - Repo description defines it as a 'trust oracle for AI agents' with an MCP compatibility layer.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.757Z"
+    updated_at: "2026-05-06T22:44:33.686Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:16.439Z"
+    updated_at: "2026-05-06T23:04:09.393Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__modu-ai__moai-adk
 kind: github-repo
-name: MoAI-ADK
+name: moai-adk
 canonical_url: https://github.com/modu-ai/moai-adk
 identity:
   github_repo: modu-ai/moai-adk
 provenance:
   discoveries:
     - id: discovery__github__modu-ai__moai-adk__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 980
-    forks: 177
+    stars: 982
+    forks: 179
     license: Apache-2.0
     archived: false
     created_at: "2025-09-16T13:07:11Z"
-    pushed_at: "2026-05-05T15:38:59Z"
+    pushed_at: "2026-05-06T02:50:21Z"
     description: SPEC-First Agentic Development Kit for Claude Code — 24 AI agents + 52 skills with TDD/DDD quality gates, 16-language projects, 4-language docs. Go CLI, zero deps.
     homepage: https://adk.mo.ai.kr
     topics:
@@ -52,50 +52,50 @@ metadata:
       - spec-first
       - tdd
       - vibe-coding
-    last_checked_at: "2026-05-05T21:03:46.237Z"
+    last_checked_at: "2026-05-06T22:45:24.476Z"
     readme:
-      fetched_at: "2026-05-05T21:03:46.237Z"
+      fetched_at: "2026-05-06T22:45:24.476Z"
       bytes: 56898
 insights:
-  summary: A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce spec-driven development with TDD/DDD quality gates.
-  why_it_matters: It shifts the developer role from writing code to designing the 'harness'—specifications, quality gates, and feedback loops—while agents handle implementation across 16 languages.
-  mental_damage: We have officially reached the point where we need a 38,000-line Go binary just to prevent our AI from turning a simple feature request into a steaming pile of untested 'AI slop'.
+  summary: A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows.
+  why_it_matters: It shifts the developer role from writing code to designing the 'harness'—specs, quality gates, and feedback loops—while a team of agents handles implementation and self-verification.
+  mental_damage: You've successfully automated yourself out of writing code, only to spend your day debugging why the 24-agent team decided to refactor your architecture into a 38,700-line Go binary you didn't write.
   tags:
     - claude-code
-    - cli
-    - multi-agent
     - spec-driven
+    - multi-agent
     - tdd
+    - cli
   confidence: high
 curation:
   status: included
-  reason: This is a CLI tool that deploys multiple agents and skills directly into the Claude Code workflow to plan, write, and test code inside a repository, fitting the coding-agents profile perfectly.
+  reason: The product's core identity is a spec-first environment for Claude Code, using specs as the primary artifact to drive a multi-agent execution and quality loop.
   evidence:
-    - Repo description explicitly states 'SPEC-First Agentic Development Kit for Claude Code' with 24 agents and 52 skills.
-    - README details a 'Self-Verify Loop' where 'Agents write code → test → fail → fix → pass cycle autonomously' within the repo.
-    - Listed in 'awesome-spec-driven-development' under 'Development Frameworks', confirming its place in the spec-driven coding tooling ecosystem.
+    - Repo description explicitly calls it a 'SPEC-First Agentic Development Kit for Claude Code'.
+    - README states 'Harness Engineering paradigm' where 'Human steers, agents execute' via specs and quality gates.
+    - Already curated in 'awesome-spec-driven-development' under 'Development Frameworks'.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
   status: promotion_candidate
-  reason: Stars (980) exceeded threshold (150)
+  reason: Stars (982) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:38:57.957Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.708Z"
+    updated_at: "2026-05-06T22:12:15.631Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:46.237Z"
+    updated_at: "2026-05-06T22:45:24.476Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:15:24.951Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

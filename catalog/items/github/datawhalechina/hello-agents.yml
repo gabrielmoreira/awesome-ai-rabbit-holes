@@ -1,0 +1,84 @@
+id: github__datawhalechina__hello-agents
+kind: github-repo
+name: hello-agents
+canonical_url: https://github.com/datawhalechina/hello-agents
+identity:
+  github_repo: datawhalechina/hello-agents
+provenance:
+  discoveries:
+    - id: discovery__github__datawhalechina__hello-agents__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+        extracted_url: https://github.com/datawhalechina/hello-agents
+        surrounding_text: 22. [《从零开始构建智能体》——从零开始的智能体原理与实践教程](https://github.com/datawhalechina/hello-agents)
+        confidence: high
+metadata:
+  github:
+    stars: 42972
+    forks: 5205
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-09-07T09:50:24Z"
+    pushed_at: "2026-05-02T12:11:22Z"
+    description: 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+    homepage: https://hello-agents.datawhale.cc
+    topics:
+      - agent
+      - llm
+      - rag
+      - tutorial
+    last_checked_at: "2026-05-06T22:43:33.716Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:33.716Z"
+      bytes: 18651
+insights:
+  summary: A comprehensive, open-source Chinese-language tutorial series and community course for learning to build AI agents from scratch, covering theory, frameworks, and practical implementation.
+  why_it_matters: It provides a structured curriculum for developers looking to move from using LLMs to architecting and implementing their own agent systems, including context engineering and evaluation.
+  mental_damage: "Just what you needed: a 15-chapter roadmap to build your own agent framework from scratch, ensuring you can now procrastinate on your actual product roadmap with the excuse of 'learning the fundamentals'."
+  tags:
+    - agent-tutorial
+    - llm-learning
+    - chinese-resource
+    - agent-framework
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational tutorial and documentation resource, not a standalone developer tool, framework, or product, and therefore falls outside the catalog's scope of practical tooling.
+  evidence:
+    - Repo description and README explicitly define this as a '教程' (tutorial/course) and '系统性智能体学习教程' (systematic agent learning tutorial).
+    - The content structure is chapters and navigation for learning concepts (ReAct, Plan-and-Solve) rather than a usable software package.
+    - Source list context places it in a '书籍 Book' (Book) section, confirming its identity as a text/resource rather than tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (42972) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:33.716Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:49.642Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

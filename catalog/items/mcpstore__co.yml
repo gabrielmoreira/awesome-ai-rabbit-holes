@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpstore__co__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,32 +34,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and installer for discovering and connecting to over 30,000 Model Context Protocol (MCP) servers for AI clients like Claude and Cursor.
-  why_it_matters: It provides a centralized registry and simplified two-click setup process to extend the capabilities of local AI coding assistants with external tools and data sources.
-  mental_damage: Another directory promising to 'unleash the power of AI Agents' while the primary innovation remains finding novel ways to wrap a 404 page in a shiny UI.
+  summary: A web directory and installer for discovering and connecting to over 30,000 MCP servers across various AI clients like Claude and Cursor.
+  why_it_matters: It attempts to solve the growing pain of finding and configuring Model Context Protocol servers by offering a centralized registry with one-click installation commands.
+  mental_damage: We have officially entered the 'store for stores' phase of the AI ecosystem, abstracting the abstraction layer until the terminal is just a conduit for someone else's registry.
   tags:
     - mcp
     - directory
-    - integrations
-    - ai-clients
+    - tooling
+    - discovery
   confidence: high
 curation:
   status: included
-  reason: This is a directory/registry for MCP servers rather than a standalone developer tool itself, making it a navigation aid for the ecosystem.
+  reason: The site functions primarily as a discovery layer and directory for MCP servers rather than being a standalone server, client, or framework itself.
   evidence:
-    - Scraped site title and description identify it as a store to 'Find and connect to 30,000+ MCP Servers'.
-    - Source list context places it in an 'MCP' section of an awesome-LLM-resources list as a directory.
-    - The workflow described is discovery and installation of other people's servers, not acting as the primary coding assistant.
+    - Scraped site title and description explicitly state 'MCP Store - Find and Connect to 30,000+ MCP Servers'.
+    - The UI workflow focuses on browsing a 'Collection of MCP Servers' and generating install commands for third-party clients.
+    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' section specifically as a registry/discovery tool.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:46:29.085Z"
+    updated_at: "2026-05-06T22:27:43.751Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

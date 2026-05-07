@@ -1,12 +1,12 @@
 id: reactagent__io
 kind: website
-name: React Agent
+name: reactagent.io
 canonical_url: https://reactagent.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__reactagent__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,42 +34,42 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: React Agent is a framework designed to build autonomous AI agents using the React (Reasoning and Acting) pattern.
-  why_it_matters: It provides developers with a structured way to implement agents that can reason about tasks and interact with external tools via a standardized loop.
-  mental_damage: Yet another framework promising that this time, wrapping a while-loop around a model will finally result in software that debugs itself.
+  summary: A React-based framework for building autonomous AI agents that reason and act using the ReAct pattern.
+  why_it_matters: It provides a structured way to build agents that can iteratively reason about tasks and execute actions using external tools.
+  mental_damage: Yet another abstraction layer promising autonomous agency, because clearly what the ecosystem needs is more ways to watch an LLM loop until it runs out of tokens.
   tags:
+    - react
     - agents
     - autonomous
     - framework
-    - react-pattern
-  confidence: low
+  confidence: medium
 curation:
   status: included
-  reason: The project is a code-first framework for building agents using the React pattern, fitting the SDK/building-blocks definition of ai-frameworks.
+  reason: The product is a code-first framework for building ReAct agents, making it a library/SDK play rather than a standalone coding assistant or orchestration platform.
   evidence:
-    - Listed in the awesome-ai-agents list under the section 'React Agent'.
-    - The name and context imply a framework implementation of the React (Reasoning and Acting) agent pattern.
+    - Found in awesome-ai-agents under the section 'React Agent', indicating its identity as a ReAct-based agent framework.
+    - The name 'reactagent.io' and description imply a framework implementation centered on the React (Reason + Act) paradigm.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:22.951Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.729Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:28:49.563Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

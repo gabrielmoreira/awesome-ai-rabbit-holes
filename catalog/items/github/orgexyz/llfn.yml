@@ -1,13 +1,13 @@
 id: github__orgexyz__llfn
 kind: github-repo
-name: LLFn
+name: llfn
 canonical_url: https://github.com/orgexyz/llfn
 identity:
   github_repo: orgexyz/llfn
 provenance:
   discoveries:
     - id: discovery__github__orgexyz__llfn__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -32,50 +32,50 @@ metadata:
     description: A light-weight framework for creating applications using LLMs
     homepage: https://llfn.orge.xyz/
     topics: []
-    last_checked_at: "2026-05-05T21:04:08.626Z"
+    last_checked_at: "2026-05-06T22:45:45.144Z"
     readme:
-      fetched_at: "2026-05-05T21:04:08.626Z"
+      fetched_at: "2026-05-06T22:45:45.144Z"
       bytes: 12080
 insights:
-  summary: LLFn is a lightweight Python framework that wraps LLM interactions into callable functions using decorators, supporting any LangChain-compatible model.
-  why_it_matters: It reduces boilerplate for developers building LLM applications by treating prompts as composable, typed Python functions with Pydantic output support.
-  mental_damage: Just when you thought LangChain was the final layer of abstraction, we now have a framework to abstract the abstraction into a function decorator.
+  summary: LLFn is a lightweight Python framework that turns LLM prompts into typed, callable functions using a decorator pattern, built on top of LangChain's model interface.
+  why_it_matters: It offers developers a minimal-boilerplate path to wrap LLM calls into composable Python functions with Pydantic output types, making AI app prototyping feel like standard scripting.
+  mental_damage: Another framework promising to be the FastAPI of LLMs, proving that even in a post-agent world, we still can't resist wrapping our wrappers in yet another abstraction layer.
   tags:
-    - abstraction
-    - functions
+    - framework
     - langchain
-    - llm-framework
     - python
+    - llm
+    - functions
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first SDK/framework for embedding LLM behavior into Python applications using a function-based primitive, aligning with the AI Frameworks category.
+  reason: LLFn is a code-first library and SDK used by developers to build AI applications in Python, fitting squarely into Frameworks & SDKs as an agent/LLM framework.
   evidence:
-    - Repo description states it is a 'light-weight framework for creating applications using LLMs'.
-    - README defines the core concept as encapsulating LLM logic into Python functions using decorators and Pydantic types.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its position as a developer building block.
+    - Repo description states it is 'a light-weight framework for creating applications using LLMs'.
+    - README explains it uses a decorator pattern to turn prompts into callable Python functions and relies on LangChain's LLM interface.
+    - Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a developer library.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:12.514Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:08.626Z"
+    updated_at: "2026-05-06T22:45:45.144Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:11.506Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

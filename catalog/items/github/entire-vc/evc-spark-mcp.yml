@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__entire-vc__evc-spark-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -42,50 +42,50 @@ metadata:
       - model-context-protocol
       - npm
       - workflow
-    last_checked_at: "2026-05-05T21:02:02.736Z"
+    last_checked_at: "2026-05-06T22:43:46.444Z"
     readme:
-      fetched_at: "2026-05-05T21:02:02.736Z"
+      fetched_at: "2026-05-06T22:43:46.444Z"
       bytes: 4056
 insights:
-  summary: An MCP server that lets AI clients like Claude and Cursor search and retrieve assets from the Spark workflow catalog, including agents, skills, prompts, and MCP connectors.
-  why_it_matters: It gives coding agents direct access to a marketplace of reusable AI workflow assets, letting developers discover and apply curated prompts and skills without leaving their environment.
-  mental_damage: We have now built an MCP server so your MCP-compatible agent can browse a catalog of other agents, skills, and connectors, because apparently the only thing missing from your workflow is more middleware to manage the middleware.
+  summary: An MCP server that lets AI clients like Claude and Cursor search and retrieve assets from the Spark workflow catalog of agents, skills, prompts, and connectors.
+  why_it_matters: It connects coding assistants directly to a marketplace of reusable AI workflow assets, making it easier to discover and inject new capabilities without leaving the editor.
+  mental_damage: We have now reached the point where your AI agent needs an MCP server just to browse the ever-expanding buffet of AI agents, skills, and prompts it might one day become.
   tags:
     - mcp
     - spark
-    - catalog
     - workflow
-    - npm
+    - catalog
+    - integrations
   confidence: medium
 curation:
   status: included
-  reason: The project is itself an MCP server that exposes a catalog of AI assets to MCP-compatible clients, fitting cleanly into MCP infrastructure rather than being a generic AI tool or an awesome list.
+  reason: The product's identity is an MCP server that exposes a specific catalog (Spark) to MCP-compatible clients, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for the Spark workflow catalog. Use with Claude, ChatGPT, and other MCP clients.'"
-    - README documents MCP tools for searching, listing, and retrieving Spark catalog assets with multiple client setup examples.
-    - Listed under 'Server Implementations > Aggregators' in awesome-mcp-servers, confirming its role as MCP infrastructure.
+    - "Repo description explicitly states: 'MCP server for the Spark workflow catalog.'"
+    - README details tools like `search_assets` and `get_asset` to query the Spark catalog via MCP.
+    - Listed in 'awesome-mcp-servers' under Server Implementations > Aggregators.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:02.736Z"
+    updated_at: "2026-05-06T22:43:46.444Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:18:08.303Z"
+    updated_at: "2026-05-06T22:54:25.159Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

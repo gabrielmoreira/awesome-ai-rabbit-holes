@@ -1,12 +1,12 @@
 id: rube__app
 kind: website
-name: Rube
+name: rube.app
 canonical_url: https://rube.app
 identity: {}
 provenance:
   discoveries:
     - id: discovery__rube__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rube is an MCP server by Composio that connects AI assistants to external apps like Gmail, Slack, and VSCode to automate cross-platform workflows via prompts.
-  why_it_matters: It allows developers to extend the reach of their AI agents beyond the codebase into daily productivity tools without writing custom integration glue.
-  mental_damage: Just when you thought you were safe from notification fatigue, your AI agent now has the keys to block your calendar and summarize your inbox while you wonder who is actually managing whom.
+  summary: Rube is a platform that connects AI assistants like Claude and Cursor to external apps like Gmail and Slack via MCP to automate everyday productivity tasks.
+  why_it_matters: It allows developers to delegate routine cross-app workflows directly to their coding assistants without building custom integration glue code.
+  mental_damage: Your AI can now block deep work time in your calendar, ironically ensuring you have no time left to configure the tool that manages your focus.
   tags:
-    - integrations
     - mcp
-    - workflow-automation
+    - automation
+    - integrations
+    - productivity
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly listed as an MCP server in the awesome-mcp-servers list and the site context emphasizes MCP compatibility and app connectivity.
+  reason: Rube is listed in awesome-mcp-servers as an official server and its primary identity is providing MCP-based integrations to connect AI assistants to external apps.
   evidence:
-    - Source list context places it under 'Official Servers' in awesome-mcp-servers.
-    - Scraped site context lists 'MCP' as a supported integration surface alongside VSCode and Claude.
-    - "Description frames it as a connectivity layer: 'Let your AI do the work, across every app.'"
+    - Listed in awesome-mcp-servers under 'Official Servers' as an MCP server by Composio.
+    - Site context explicitly highlights compatibility with 'MCP' alongside VSCode, Claude, and Cursor.
+    - Primary page excerpt focuses on app integrations (Gmail, Slack) rather than direct code editing.
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:47.931Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:13.663Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

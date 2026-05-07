@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__archie0125__osop-spec__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,54 +29,54 @@ metadata:
     license: Apache-2.0
     archived: false
     created_at: "2026-03-31T10:02:21Z"
-    pushed_at: "2026-05-05T10:01:05Z"
+    pushed_at: "2026-05-06T10:15:12Z"
     description: OSOP v1 JSON Schema, node types, examples and RFC - Open Standard Operating Process
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:08.320Z"
+    last_checked_at: "2026-05-06T22:12:42.240Z"
     readme:
-      fetched_at: "2026-05-05T21:01:08.320Z"
+      fetched_at: "2026-05-06T22:12:42.240Z"
       bytes: 3561
 insights:
-  summary: OSOP is an open specification that defines a JSON/YAML schema for describing AI agent workflows (.osop) and their execution logs (.osoplog).
-  why_it_matters: It offers a vendor-neutral way to define, validate, and visualize multi-step agent workflows—including API calls, CLI commands, and human checkpoints—directly within a developer's stack.
-  mental_damage: "Just what we needed: another standard to describe the chaos, because trying to read the raw agent logs was apparently too informative."
+  summary: OSOP is an open JSON/YAML specification and schema for defining AI agent workflows as directed graphs and logging their execution results.
+  why_it_matters: It gives developers a vendor-neutral way to describe multi-step agent processes (agents, APIs, CLIs, humans) and record exactly what happened during execution.
+  mental_damage: We have successfully standardized the chaos of AI workflows into YAML, meaning you can now version-control your agent’s existential crises just like any other deprecated config file.
   tags:
-    - spec
     - agent-workflow
-    - schema
+    - spec
     - yaml
     - logging
+    - standard
   confidence: medium
 curation:
   status: included
-  reason: The project defines a specification as the primary artifact to drive the planning, validation, and logging of agent workflows, fitting the spec-driven development category over a generic framework or orchestration tool.
+  reason: The repository defines the OSOP specification itself—JSON Schema, node types, and execution logs—making it a spec-first environment for defining and validating agent workflows rather than a coding agent or extension.
   evidence:
-    - Repo description defines it as 'Open Standard Operating Process' with JSON Schema and RFC documentation.
-    - README describes .osop for workflow definition and .osoplog for execution records, emphasizing validation and visualization.
-    - Listed in awesome-cli-coding-agents under 'Agent infrastructure', reinforcing its role as a foundational spec for agent workflows.
+    - "Repo description: 'OSOP v1 JSON Schema, node types, examples and RFC - Open Standard Operating Process'"
+    - "README: 'The standard format for describing and logging AI agent workflows' with .osop (definition) and .osoplog (execution record) file formats."
+    - Includes schema files (osop-core.schema.json, osop.schema.json, osoplog.schema.json) and conformance levels (L0–L3).
 placement:
   primary_category: spec-driven-development
-  section: null
+  section: Spec-First Environments
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:08.320Z"
+    updated_at: "2026-05-06T22:12:42.240Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:53.927Z"
+    updated_at: "2026-05-06T22:22:07.922Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

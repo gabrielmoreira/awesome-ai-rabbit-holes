@@ -6,8 +6,8 @@ identity:
   github_repo: membranehq/mcp-server
 provenance:
   discoveries:
-    - id: discovery__github__integration-app__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__membranehq__mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,52 +34,49 @@ metadata:
     topics:
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-05T21:03:34.978Z"
+    last_checked_at: "2026-05-06T22:45:13.221Z"
     readme:
-      fetched_at: "2026-05-05T21:03:34.978Z"
+      fetched_at: "2026-05-06T22:45:13.221Z"
       bytes: 6527
 insights:
-  summary: An MCP server that exposes Membrane integration actions as tools for AI agents and supports both static and dynamic tool modes, SSE and Streamable HTTP transports, and experimental chat session management.
-  why_it_matters: Developers building AI agents can connect this server to give their agents access to Membrane’s integration ecosystem without writing custom tool wrappers.
-  mental_damage: Another Tuesday, another MCP server that lets your agent politely ask Gmail to send an email it will inevitably hallucinate the recipient of.
+  summary: An MCP server that exposes Membrane integration actions as tools for connected AI agents via HTTP and SSE transports.
+  why_it_matters: It lets developers give their AI agents direct, authenticated access to Membrane-connected services without writing custom integration glue code.
+  mental_damage: Another day, another MCP server that promises to turn yet another SaaS wrapper into a tool your agent will politely ignore.
   tags:
-    - agent-tools
-    - integrations
     - mcp
     - membrane
+    - integration
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that exposes third-party integration actions as tools for AI agents, which aligns precisely with the MCP Servers and Tooling category.
+  reason: The product is an MCP server that exposes Membrane integrations as tools, making MCP the core identity rather than a compatibility footnote.
   evidence:
     - "Repo description states: 'MCP Server for Membrane' with topics mcp and mcp-server."
-    - README explicitly describes it as 'a Model Context Protocol (MCP) server' that provides integration actions as tools.
-    - Listed under 'official servers' in the awesome-mcp-servers directory.
-    - Repo description states 'MCP Server for Membrane' with mcp and mcp-server topics.
-    - README confirms it is a Model Context Protocol server providing integration actions as tools with HTTP and SSE transports.
-    - Includes configuration examples for Cursor and Claude Desktop as MCP clients.
+    - README describes it as 'a Model Context Protocol (MCP) server, it provides actions for connected integrations on Membrane as tools.'
+    - Listed in awesome-mcp-servers under 'Official Servers', confirming its MCP identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:36:46.999Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.442Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:34.978Z"
+    updated_at: "2026-05-06T22:45:13.221Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:12:57.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

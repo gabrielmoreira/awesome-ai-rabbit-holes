@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opgginc__opgg-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [opgginc/opgg-mcp](https://github.com/opgginc/opgg-mcp) 📇 ☁️ - Access real-time gaming data across popular titles like League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta compositions, and character statistics."
         confidence: high
     - id: discovery__github__opgginc__opgg-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,49 +48,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:07.700Z"
+    last_checked_at: "2026-05-06T22:45:44.312Z"
     readme:
-      fetched_at: "2026-05-05T21:04:07.700Z"
+      fetched_at: "2026-05-06T22:45:44.312Z"
       bytes: 4378
 insights:
-  summary: An MCP server implementation that exposes OP.GG game data for League of Legends, TFT, and Valorant to AI agents via a Streamable HTTP endpoint.
-  why_it_matters: Developers building gaming assistants or data-driven agent workflows can plug directly into OP.GG's meta, match history, and leaderboard APIs without writing custom scraping or API glue code.
-  mental_damage: "We have finally solved the most critical interoperability problem of our time: letting Claude argue with you about lane matchups and Valorant agent comps with zero latency."
+  summary: An MCP server that exposes OP.GG game data for League of Legends, TFT, and Valorant to AI agents via a Streamable HTTP endpoint.
+  why_it_matters: It allows AI agents to query live game stats, meta builds, and match histories programmatically instead of scraping third-party sites.
+  mental_damage: We have mastered the art of exposing Riot Games metadata to LLMs before we have mastered the art of not feeding 40k tokens of champion lore to a context window.
   tags:
     - mcp
     - gaming
+    - api
     - league-of-legends
-    - api-wrapper
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server exposing game data APIs, fitting cleanly into the MCP Servers and Tooling category rather than a coding agent or framework.
+  reason: The product is a domain-specific MCP server whose primary identity is exposing game data via the Model Context Protocol.
   evidence:
-    - README states it is 'a Model Context Protocol implementation that provides AI agents with access to OP.GG game data'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'.
-    - Provides a Streamable HTTP MCP endpoint at https://mcp-api.op.gg/mcp with tool definitions for LoL, TFT, and Valorant.
+    - README describes it explicitly as 'A Model Context Protocol implementation that provides AI agents with access to OP.GG game data'.
+    - Source lists place it in awesome-mcp-servers under 'Server Implementations > Gaming' and 'Official Servers'.
+    - The server supports Streamable HTTP transport and provides structured tools for LoL, TFT, and Valorant data.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.670Z"
+    updated_at: "2026-05-06T22:12:15.592Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:07.700Z"
+    updated_at: "2026-05-06T22:45:44.312Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:43:02.967Z"
+    updated_at: "2026-05-06T23:20:00.222Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: www__theneo__io
 kind: website
-name: Theneo.io
+name: www.theneo.io
 canonical_url: https://www.theneo.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__theneo__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native platform for generating and maintaining API documentation, portals, and changelogs by importing OpenAPI specs or Markdown.
-  why_it_matters: It automates the tedious cycle of writing and updating API docs, letting developers generate interactive references and changelogs from existing specs in seconds.
-  mental_damage: Another brilliant tool to solve the ancient problem of developers refusing to write documentation, this time by convincing an AI to do it instead.
+  summary: An AI-powered platform for generating, hosting, and maintaining API documentation, SDK references, and developer portals from OpenAPI specs or Markdown.
+  why_it_matters: It automates the creation of interactive API docs, changelogs, and developer portals, reducing the manual overhead of keeping external documentation in sync with code.
+  mental_damage: Yet another SaaS promising to solve the documentation problem, ensuring developers can now ignore their OpenAPI specs with the same confidence they ignored their Javadoc.
   tags:
-    - ai-native
     - api-docs
-    - developer-portal
     - documentation
-  confidence: medium
+    - developer-portal
+    - ai-search
+  confidence: high
 curation:
-  status: included
-  reason: It is listed in awesome-ai-coding-tools under Documentation and provides AI-powered extensions (CLI, VSCode, GitHub Actions) that automate a specific developer workflow.
+  status: excluded
+  reason: This is a general-purpose API documentation SaaS platform, not a developer-facing AI coding tool, agent, or infrastructure component.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'Documentation' section for API/SDK docs.
-    - Scraped site describes 'AI-powered API documentation' with 'Docs on Autopilot' and 'Instant docs'.
-    - Offers developer-facing extensions including VSCode Extension, GitHub Actions, and CLI tools.
+    - "Primary page excerpt describes the product as 'AI-native docs & portals: API, SDK & product docs' with branding and publishing features."
+    - Source list context places it under 'Documentation' for 'AI-native docs & portals', not as a coding assistant or dev tool.
+    - No evidence of code editing, agent orchestration, IDE integration, or prompt/context engineering as the core product identity.
 placement:
-  primary_category: ai-dev-extensions
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:45.713Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:35:59.231Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

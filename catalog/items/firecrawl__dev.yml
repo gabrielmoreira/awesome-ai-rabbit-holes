@@ -1,12 +1,12 @@
 id: firecrawl__dev
 kind: website
-name: Firecrawl
+name: firecrawl.dev
 canonical_url: https://firecrawl.dev
 identity: {}
 provenance:
   discoveries:
     - id: discovery__firecrawl__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Firecrawl is a web scraping and data extraction API designed to turn websites into clean, LLM-ready markdown or structured data.
-  why_it_matters: It handles the complex plumbing of rendering JavaScript, bypassing anti-bot measures, and mapping site structures so developers can feed reliable web content into AI applications.
-  mental_damage: Another essential piece of infrastructure proving that the modern developer experience is mostly just sanitizing the internet so a context window doesn't choke on a nav bar.
+  summary: Firecrawl is a web scraping and data extraction platform that transforms websites into clean, LLM-ready markdown or structured data via API and no-code interfaces.
+  why_it_matters: It provides developers with a reliable pipeline to turn messy web content into structured inputs for AI workflows, eliminating the need to build custom scrapers.
+  mental_damage: Because nothing says 'I am a serious AI engineer' quite like adding a paid web scraping API to your stack just to avoid parsing HTML like a peasant.
   tags:
+    - web-scraping
     - data-extraction
     - llm-ready
-    - mcp
-    - scraping
+    - api
   confidence: medium
 curation:
   status: excluded
-  reason: While listed in awesome-mcp-servers, the core product is a web scraping and data extraction API, which lacks a direct AI developer-tooling angle like coding agents, IDEs, or app builders.
+  reason: Firecrawl is primarily a general-purpose web scraping and data extraction SaaS, lacking a direct developer-tooling angle like IDE integration, coding agents, or local AI infrastructure.
   evidence:
-    - Listed in awesome-mcp-servers, but the URL firecrawl.dev points to a scraping service rather than a developer tool for coding.
-    - No repo description, README, or site context provided that describes an AI agent, IDE, or app-building workflow.
+    - Seen in awesome-mcp-servers, but the URL points to the commercial product firecrawl.dev rather than a primary MCP server implementation.
+    - The product description focuses on turning websites into LLM-ready markdown/data, which is a general data pipeline task rather than a developer-facing coding tool.
+    - No GitHub repo description, README, or code-first SDK evidence was provided to suggest it functions as a library, framework, or direct coding assistant.
 placement:
   primary_category: null
   section: null
@@ -56,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:44:32.990Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:17:10.861Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

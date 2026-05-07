@@ -1,13 +1,13 @@
 id: github__hyperaiteam__clitrigger
 kind: github-repo
-name: CLITrigger
+name: clitrigger
 canonical_url: https://github.com/hyperaiteam/clitrigger
 identity:
   github_repo: hyperaiteam/clitrigger
 provenance:
   discoveries:
     - id: discovery__github__hyperaiteam__clitrigger__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-24T13:03:53Z"
-    pushed_at: "2026-05-05T13:15:35Z"
+    pushed_at: "2026-05-05T23:45:29Z"
     description: Orchestrate AI coding agents (Claude, Gemini, Codex) in parallel with git worktree isolation — web UI + CLI
     homepage: https://www.npmjs.com/package/clitrigger
     topics:
@@ -51,49 +51,50 @@ metadata:
       - sqlite
       - task-orchestration
       - typescript
-    last_checked_at: "2026-05-05T21:02:39.589Z"
+    last_checked_at: "2026-05-06T22:44:20.255Z"
     readme:
-      fetched_at: "2026-05-05T21:02:39.589Z"
+      fetched_at: "2026-05-06T22:44:20.255Z"
       bytes: 21750
 insights:
-  summary: A CLI and web UI tool that orchestrates parallel runs of coding agents like Claude, Gemini, and Codex inside isolated git worktrees.
-  why_it_matters: It lets developers queue tasks across multiple AI agents overnight to maximize token quotas and review the resulting diffs in the morning.
-  mental_damage: You can now deploy an AI night shift to burn through your rate limits while you sleep, turning every morning into a 50-diff code review hangoover.
+  summary: A CLI and web UI tool that runs multiple AI coding agents (Claude, Gemini, Codex) in parallel across isolated git worktrees for overnight or background task execution.
+  why_it_matters: It lets developers queue tasks and let multiple AI agents work in parallel with git isolation, shifting the workflow from live coding to async review.
+  mental_damage: You can now go to bed while three different AI agents burn through your rate limits in separate branches, so you wake up to a merge conflict hangover instead of a blank screen.
   tags:
-    - agent-orchestration
-    - cli
+    - multi-agent
     - git-worktree
-    - parallel-agents
+    - parallel-execution
+    - cli-tool
+    - task-orchestration
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing control plane for coordinating multiple coding agents in parallel across isolated git worktrees, which matches the agent orchestration category.
+  reason: The product is a workbench and control surface for coordinating multiple AI coding agents in parallel with git isolation, not a coding assistant itself.
   evidence:
-    - "Repo description: 'Orchestrate AI coding agents (Claude, Gemini, Codex) in parallel with git worktree isolation — web UI + CLI'"
-    - "README: 'Multiple AI coding agents working in parallel, each in its own isolated git worktree' with a built-in web UI and scheduler"
-    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
+    - "Repo description explicitly states: 'Orchestrate AI coding agents (Claude, Gemini, Codex) in parallel with git worktree isolation — web UI + CLI'"
+    - README describes a 'delegate and review' loop where Claude/Gemini/Codex execute tasks in isolated worktrees while the developer reviews diffs
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:25:03.475Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.697Z"
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:39.589Z"
+    updated_at: "2026-05-06T22:44:20.255Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:01:23.623Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

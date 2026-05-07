@@ -1,12 +1,12 @@
 id: colab__research__google__com__drive__1skstjt9cpstl__wmz86jsgeqfg__asawkn
 kind: website
-name: Query the YouTube video transcripts
+name: 1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn
 canonical_url: https://colab.research.google.com/drive/1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn
 identity: {}
 provenance:
   discoveries:
     - id: discovery__colab__research__google__com__drive__1skstjt9cpstl__wmz86jsgeqfg__asawkn__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,21 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook intended for use with LangChain, appearing in an awesome list of LangChain learning resources.
-  why_it_matters: It represents a specific learning resource for developers exploring how to use the LangChain framework within a hosted notebook environment.
-  mental_damage: We have now reached the point where a single ephemeral notebook link, hidden behind a sign-in wall, counts as a notable entry in our curated ecosystem maps.
+  summary: A Google Colab notebook linked from the awesome-langchain list, likely containing tutorial or example code for the LangChain framework.
+  why_it_matters: Provides a hosted, runnable environment for developers to learn LangChain concepts without local setup friction.
+  mental_damage: Yet another ephemeral notebook link in an awesome list that will 404 the moment you finally decide to click it.
   tags:
     - langchain
-    - learning-resource
     - notebook
+    - tutorial
+    - colab
   confidence: high
 curation:
   status: excluded
-  reason: This is a single Google Colab notebook link requiring sign-in, not a standalone developer tool, framework, or product that fits the catalog's scope.
+  reason: This is a link to a Google Colab notebook (a documentation/resource artifact), not a standalone developer tool, framework, or product.
   evidence:
-    - URL points to a specific Google Colab notebook (drive/...), not a tool or repository.
-    - Primary page excerpt shows 'Sign in', indicating the content is not publicly accessible or inspectable as a product.
-    - Source list context places it under 'Learn > Notebooks', identifying it as a tutorial resource rather than a developer tool.
+    - URL points to a specific Google Colab notebook ID (1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn).
+    - Listed in awesome-langchain under 'Learn > Notebooks', indicating it is educational content rather than tooling.
+    - No GitHub repo description, stars, or code repository metadata provided; it is a hosted resource page.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:12.359Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:28.902Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

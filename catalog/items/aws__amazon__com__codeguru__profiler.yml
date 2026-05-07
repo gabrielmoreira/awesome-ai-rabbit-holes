@@ -1,12 +1,12 @@
 id: aws__amazon__com__codeguru__profiler
 kind: website
-name: Amazon CodeGuru Reviewer
+name: profiler
 canonical_url: https://aws.amazon.com/codeguru/profiler
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aws__amazon__com__codeguru__profiler__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon CodeGuru Profiler is a machine learning–backed AWS service that continuously monitors production applications to identify expensive lines of code and recommend performance optimizations.
-  why_it_matters: It lets developers automatically surface CPU and memory inefficiencies in running applications using ML-driven recommendations rather than manual profiling sessions.
-  mental_damage: Yet another magical AI product promising to find your worst code, while you still have to explain to your manager why the AWS bill for finding it costs more than the inefficiency itself.
+  summary: Amazon CodeGuru Profiler is an AWS developer tool that uses machine learning to identify expensive lines of code and provide recommendations for optimizing application performance.
+  why_it_matters: It helps developers continuously monitor production applications to find CPU and memory inefficiencies, potentially reducing operational costs by up to 50%.
+  mental_damage: Just when you thought AI was going to write all the code, it turns out we still need a separate ML tool to figure out why the code it wrote is burning through your EC2 budget.
   tags:
     - aws
-    - ml-insights
     - performance
     - profiling
+    - ml-insights
+    - optimization
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose performance profiler and cloud operations tool, not a developer-facing AI coding assistant, agent, or app builder that fits the catalog's scope.
+  reason: Excluded because it is a traditional ML-assisted performance profiler and observability tool with no coding agent, generation, or prompt-engineering identity.
   evidence:
-    - Scraped site context describes a production monitoring and profiling service focused on CPU, memory, latency, and throughput optimization.
-    - Included in awesome-ai-coding-tools under 'Code Review and Refactoring', but the tool itself is infrastructure-level profiling rather than direct code editing or generation.
-    - No evidence of prompt-driven app building, IDE integration, or coding-agent workflows; it is an AWS-hosted runtime analysis service.
+    - Scraped site describes it as identifying 'most expensive lines of code' and providing 'ML-based insights' for performance, not writing or editing code.
+    - Found in awesome-ai-coding-tools under 'Code Review and Refactoring', but its core job is runtime profiling, not AI coding assistance.
+    - No signals of agentic workflows, prompt engineering, or code generation capabilities in the provided context.
 placement:
   primary_category: null
   section: null
@@ -57,20 +58,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:42:21.118Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:28.014Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

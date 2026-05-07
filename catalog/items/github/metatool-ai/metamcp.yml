@@ -1,29 +1,13 @@
 id: github__metatool-ai__metamcp
 kind: github-repo
-name: metatool-ai/metatool-app
+name: metamcp
 canonical_url: https://github.com/metatool-ai/metamcp
 identity:
   github_repo: metatool-ai/metamcp
 provenance:
   discoveries:
-    - id: discovery__github__metatool-ai__metatool-app__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T20:48:55.437Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 🔗 <a name="aggregators"></a>Aggregators
-        anchor_text: metatool-ai/metatool-app
-        extracted_url: https://github.com/metatool-ai/metatool-app
-        surrounding_text: "- [metatool-ai/metatool-app](https://github.com/metatool-ai/metatool-app) 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP is the one unified middleware MCP server that manages your MCP connections with GUI."
-        confidence: high
     - id: discovery__github__metatool-ai__metamcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2287
-    forks: 332
+    stars: 2293
+    forks: 333
     license: MIT
     archived: false
     created_at: "2025-01-22T11:58:52Z"
@@ -64,53 +48,50 @@ metadata:
       - openapi
       - self-hosted
       - vibe-coding
-    last_checked_at: "2026-05-05T21:03:37.025Z"
+    last_checked_at: "2026-05-06T22:45:14.950Z"
     readme:
-      fetched_at: "2026-05-05T21:03:37.025Z"
+      fetched_at: "2026-05-06T22:45:14.950Z"
       bytes: 24487
 insights:
-  summary: MetaMCP is a self-hosted MCP proxy that aggregates multiple MCP servers into a unified endpoint and applies middleware, deployable as a single Docker container.
-  why_it_matters: It simplifies the developer experience by reducing MCP client configuration to a single endpoint while allowing traffic management and environment variable segregation across different server backends.
-  mental_damage: We have successfully reached the 'middleware for the middleware' stage of the protocol wars, because apparently managing one JSON config wasn't quite abstract enough.
+  summary: MetaMCP is a self-hosted MCP proxy that aggregates multiple MCP servers into a unified endpoint and applies middleware, acting as a gateway for any MCP client.
+  why_it_matters: It lets developers manage, secure, and unify a sprawling stack of MCP servers behind a single SSE endpoint with auth, rate limiting, and tool overrides.
+  mental_damage: You now have a gateway to manage your gateways, because apparently the natural response to tool sprawl is yet another docker container to orchestrate the tools that orchestrate the tools.
   tags:
-    - docker
-    - gateway
     - mcp
     - middleware
     - self-hosted
+    - gateway
+    - aggregation
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP aggregator, orchestrator, and gateway designed to be plugged into MCP clients, fitting the MCP infrastructure definition perfectly.
+  reason: "The product's core identity is MCP infrastructure: a proxy, aggregator, and middleware for the Model Context Protocol, not a generic framework or extension."
   evidence:
-    - "Repo description: 'MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'."
-    - "README: 'MetaMCP is a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server'."
-    - Topics include mcp-gateway, mcp-middleware, and mcp-server.
-    - Repo description defines it as 'MCP Aggregator, Orchestrator, Middleware, Gateway'.
-    - README states MetaMCP is 'a MCP proxy that lets you dynamically aggregate MCP servers... and apply middlewares'.
-    - Listed in awesome-mcp-servers under the 'Aggregators' section.
+    - "Repo description explicitly states: 'MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'."
+    - README defines MetaMCP as 'a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server, and apply middlewares'.
+    - GitHub topics are heavily MCP-focused (mcp-gateway, mcp-middleware, mcp-server, model-context-protocol, etc.).
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2287) exceeded threshold (150)
+  reason: Stars (2293) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:09.327Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.151Z"
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:37.025Z"
+    updated_at: "2026-05-06T22:45:14.950Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:18.020Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

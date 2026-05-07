@@ -1,13 +1,13 @@
 id: github__eleutherai__gpt-neox
 kind: github-repo
-name: GPT-NeoX
+name: gpt-neox
 canonical_url: https://github.com/eleutherai/gpt-neox
 identity:
   github_repo: eleutherai/gpt-neox
 provenance:
   discoveries:
     - id: discovery__github__eleutherai__gpt-neox__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,27 +37,27 @@ metadata:
       - gpt-3
       - language-model
       - transformers
-    last_checked_at: "2026-05-05T21:02:00.875Z"
+    last_checked_at: "2026-05-06T22:43:44.784Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.875Z"
+      fetched_at: "2026-05-06T22:43:44.784Z"
       bytes: 58208
 insights:
-  summary: An implementation of model parallel autoregressive transformers on GPUs, built on Megatron and DeepSpeed, designed for training large-scale language models from scratch.
-  why_it_matters: It provides the distributed training infrastructure necessary for researchers and engineers to train billion-parameter models across diverse supercomputing clusters and cloud environments.
-  mental_damage: Offers the perfect opportunity to spend three weeks configuring Slurm just to discover you still don't have enough GPUs to train anything modern.
+  summary: GPT-NeoX is a library for training large-scale autoregressive language models on GPUs using Megatron and DeepSpeed techniques.
+  why_it_matters: It provides a centralized, optimized framework for distributed training with 3D parallelism, supporting diverse hardware and architectures for researchers and engineers building LLMs from scratch.
+  mental_damage: Yet another reminder that while you're waiting for Cursor to autocomplete a CSS class, the rest of the world is figuring out how to launch a model across the Oak Ridge Frontier supercomputer.
   tags:
-    - distributed-systems
-    - gpus
     - llm-training
-    - transformers
+    - distributed-training
+    - gpus
+    - deep-learning
   confidence: high
 curation:
   status: excluded
-  reason: This is a foundational ML training library for researchers training models from scratch, not a practical AI tool, agent, or developer infrastructure product for software engineers building applications.
+  reason: This is a deep learning research library for training models from scratch, not a practical AI tool, agent, or developer infrastructure product for software engineers.
   evidence:
-    - Repo description explicitly states it is for 'training large-scale language models on GPUs'.
-    - "README advises: 'If you are not looking to train models with billions of parameters from scratch, this is likely the wrong library to use.'"
-    - Listed in Awesome-LLMOps under 'Model > Large Language Model', indicating a research/MLOps fit rather than a developer-tooling fit.
+    - Repo description explicitly states it is an 'implementation of model parallel autoregressive transformers' for training.
+    - "README warns: 'If you are not looking to train models with billions of parameters from scratch, this is likely the wrong library'."
+    - Source list context places it under 'Model > Large Language Model', indicating it is a model framework, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -65,21 +65,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (7425) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:17:44.333Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.686Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.875Z"
+    updated_at: "2026-05-06T22:43:44.784Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:54:02.178Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

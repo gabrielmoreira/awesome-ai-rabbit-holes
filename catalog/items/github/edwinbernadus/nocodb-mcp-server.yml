@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__edwinbernadus__nocodb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [edwinbernadus/nocodb-mcp-server](https://github.com/edwinbernadus/nocodb-mcp-server) 📇 ☁️ - Nocodb database integration, read and write capabilities"
         confidence: high
     - id: discovery__github__edwinbernadus__nocodb-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[NocoDB](https://github.com/edwinbernadus/nocodb-mcp-server)** - Manage NocoDB server, support read and write databases"
         confidence: high
     - id: discovery__github__edwinbernadus__nocodb-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -66,14 +66,14 @@ metadata:
       - mcp
       - mcp-server
       - nocodb
-    last_checked_at: "2026-05-05T21:02:00.240Z"
+    last_checked_at: "2026-05-06T22:43:44.035Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.240Z"
+      fetched_at: "2026-05-06T22:43:44.035Z"
       bytes: 4400
 insights:
-  summary: A TypeScript-based Model Context Protocol (MCP) server that enables AI agents to perform CRUD operations and manage schema on NocoDB databases via natural language commands.
-  why_it_matters: It allows developers to hook NocoDB into their AI-assisted workflows, letting tools like Claude Desktop manipulate database records and columns without manual UI interaction.
-  mental_damage: We have successfully abstracted database management to the point where you can now typo your way into deleting an entire table via a vaguely phrased chat message.
+  summary: A TypeScript-based MCP server that allows AI assistants to perform CRUD operations and manage tables within a NocoDB database via natural language commands.
+  why_it_matters: It connects structured No-Code data backends to the MCP ecosystem, allowing agents to treat NocoDB tables as live, manipulatable context.
+  mental_damage: We have successfully abstracted SQL into natural language, only to pipe it through a NoSQL wrapper, an API token, and a Model Context Protocol server so an LLM can add a column named 'Age' for us.
   tags:
     - mcp
     - nocodb
@@ -83,33 +83,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to connect NocoDB to the Model Context Protocol ecosystem.
+  reason: The product's identity is explicitly an MCP server for a specific database domain (NocoDB), fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description is 'nocodb mcp server' with topics 'mcp, mcp-server, nocodb'.
-    - README states it 'enables seamless interaction with your NocoDB database using the Model Context Protocol (MCP)'.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Databases'.
+    - Repo description is literally 'nocodb mcp server' with topics 'mcp' and 'mcp-server'.
+    - README details integration with Claude Desktop via `mcpServers` config and provides DB CRUD via natural language.
+    - Listed in 'awesome-mcp-servers' under the 'Databases' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.659Z"
+    updated_at: "2026-05-06T22:12:15.577Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.240Z"
+    updated_at: "2026-05-06T22:43:44.035Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:37.811Z"
+    updated_at: "2026-05-06T22:53:54.950Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

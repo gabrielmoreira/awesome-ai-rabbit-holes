@@ -1,12 +1,12 @@
 id: aidevboard__com__mcp
 kind: website
-name: AI Dev Jobs MCP
+name: mcp
 canonical_url: https://aidevboard.com/mcp
 identity: {}
 provenance:
   discoveries:
     - id: discovery__aidevboard__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory site indexing Model Context Protocol (MCP) servers, clients, and related tooling.
-  why_it_matters: It serves as a navigation aid for developers looking to discover and integrate MCP-compatible tools into their AI-assisted workflows.
-  mental_damage: Another layer of abstraction has arrived to help you browse the abstraction layers you haven't finished configuring yet.
+  summary: A directory page on the AI Dev Board that lists MCP servers and directories relevant to AI coding workflows.
+  why_it_matters: Provides developers with a centralized map of MCP-compatible tooling to navigate the rapidly expanding Model Context Protocol ecosystem.
+  mental_damage: Because nothing says 'streamlined developer experience' like needing a directory just to find the directory that helps you find the server that connects your tool to your tool.
   tags:
-    - directory
-    - index
     - mcp
+    - directory
     - tooling
+    - discovery
   confidence: high
 curation:
   status: included
-  reason: The site functions as a curated index and directory for MCP tools, serving as a navigation aid rather than a standalone developer tool itself.
+  reason: The item is a directory page listing MCP servers and directories, fitting the 'Lists & Directories' category as a navigation aid for developers.
   evidence:
-    - URL is a directory-style site (aidevboard.com/mcp) focused on listing MCP resources.
-    - Explicitly listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - Lacks a repo description, README, or code signals indicating it is a tool rather than a list.
+    - URL is https://aidevboard.com/mcp, indicating a directory page specifically for MCP.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - No code repository or product execution surface exists; it is a discovery resource.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:35.081Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:40.808Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

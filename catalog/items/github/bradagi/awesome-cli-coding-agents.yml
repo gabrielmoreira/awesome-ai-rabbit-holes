@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bradagi__awesome-cli-coding-agents__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 316
-    forks: 69
+    stars: 321
+    forks: 70
     license: null
     archived: false
     created_at: "2026-02-07T00:53:24Z"
@@ -32,49 +32,50 @@ metadata:
     description: "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. "
     homepage: https://agentwiki.org
     topics: []
-    last_checked_at: "2026-05-05T21:01:24.437Z"
+    last_checked_at: "2026-05-06T22:12:56.378Z"
     readme:
-      fetched_at: "2026-05-05T21:01:24.437Z"
+      fetched_at: "2026-05-06T22:12:56.378Z"
       bytes: 37211
 insights:
-  summary: A curated directory listing 80+ terminal-native AI coding agents, along with the harnesses and infrastructure used to orchestrate them.
-  why_it_matters: It provides a centralized map of the rapidly expanding CLI agent ecosystem, helping developers discover tools that directly edit, test, and run code in their repositories.
-  mental_damage: A directory of 80+ autonomous command-line entities that all promise to refactor your codebase, ensuring you can now procrastinate on your actual work by evaluating which agent is least likely to delete your .env file.
+  summary: A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure.
+  why_it_matters: It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
+  mental_damage: Because nothing says 'I have a handle on the AI tooling landscape' like maintaining a list of eighty different terminal agents that all promise to refactor your repo while you stare at a blinking cursor.
   tags:
     - cli
-    - directory
     - coding-agents
+    - directory
     - terminal
+    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of developer tools rather than a standalone tool itself, making it a navigation aid for the CLI coding agent ecosystem.
+  reason: The project is a curated discovery list for CLI coding agents and orchestration harnesses, which fits the navigation-aid role of the awesome-awesomes category.
   evidence:
-    - Repo description explicitly defines it as a 'Curated directory of terminal-native AI coding agents'.
-    - README states it is 'A curated list of 80+ CLI coding agents... plus the harnesses that orchestrate... them.'
-    - Direct awesome list source is marked as true, fitting the 'awesome-awesomes' category.
+    - Repo description explicitly calls it a 'Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them.'
+    - README states it is 'A curated list of 80+ CLI coding agents... plus the harnesses that orchestrate, sandbox, or extend them.'
+    - Direct awesome list source is marked as true, confirming its identity as a discovery/index resource.
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
-  reason: Stars (316) exceeded threshold (150)
+  reason: Stars (321) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.657Z"
+    updated_at: "2026-05-06T22:12:15.572Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:24.437Z"
+    updated_at: "2026-05-06T22:12:56.378Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:29.358Z"
+    updated_at: "2026-05-06T22:25:01.286Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

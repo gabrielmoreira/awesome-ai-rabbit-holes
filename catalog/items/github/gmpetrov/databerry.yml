@@ -1,13 +1,13 @@
 id: github__gmpetrov__databerry
 kind: github-repo
-name: Databerry
+name: databerry
 canonical_url: https://github.com/gmpetrov/databerry
 identity:
   github_repo: gmpetrov/databerry
 provenance:
   discoveries:
     - id: discovery__github__gmpetrov__databerry__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -21,21 +21,6 @@ provenance:
         anchor_text: Chaindesk
         extracted_url: https://github.com/gmpetrov/databerry
         surrounding_text: "- [Chaindesk](https://github.com/gmpetrov/databerry): The no-code platform for semantic search and documents retrieval ![GitHub Repo stars](https://img.shields.io/github/stars/gmpetrov/databerry?style=social)"
-        confidence: high
-    - id: discovery__www__chaindesk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: e2b-dev/awesome-ai-agents
-        url: https://github.com/e2b-dev/awesome-ai-agents
-        repository: e2b-dev/awesome-ai-agents
-      extraction:
-        mode: parsed
-        section_path:
-          - Databerry
-        anchor_text: Databerry
-        extracted_url: https://www.databerry.ai
-        surrounding_text: "## [Databerry](https://www.databerry.ai/)"
         confidence: high
 metadata:
   github:
@@ -59,53 +44,50 @@ metadata:
       - qdrant
       - semantic-search
       - typescript
-    last_checked_at: "2026-05-05T21:02:23.156Z"
+    last_checked_at: "2026-05-06T22:44:04.102Z"
     readme:
-      fetched_at: "2026-05-05T21:02:23.156Z"
+      fetched_at: "2026-05-06T22:44:04.102Z"
       bytes: 5
 insights:
-  summary: Databerry is a no-code platform for building custom LLM agents with integrated knowledge bases and semantic search via Qdrant.
-  why_it_matters: It allows developers to spin up context-aware chatbots and agents without writing backend plumbing, connecting data sources directly to LLM workflows.
-  mental_damage: You will now spend four hours configuring a no-code agent to answer questions about your documentation, only to realize you still need to write the code to integrate the agent itself.
+  summary: A no-code platform for building custom LLM agents with knowledge base ingestion and integration capabilities.
+  why_it_matters: Developers can prototype and deploy knowledge-grounded chatbots without writing agent orchestration code, though it targets less technical builders.
+  mental_damage: Yet another reminder that while you spent three days wiring LangChain to Qdrant, someone else shipped a chatbot on a no-code platform that does the same thing with drag-and-drop.
   tags:
-    - chatbot
-    - customer-support
-    - gpt-4
-    - langchain
-    - llm-agents
     - no-code
-    - saas
-    - semantic-search
+    - llm-agents
+    - knowledge-base
+    - chatbot
+    - langchain
   confidence: high
 curation:
-  status: included
-  reason: While marketed as a no-code platform, it is an open-source project using LangChain and Qdrant that provides the building blocks for developers to construct custom LLM agent workflows.
+  status: excluded
+  reason: The project is a no-code SaaS platform for building chatbots, which falls outside the catalog's scope of developer-facing tooling, libraries, and infrastructure.
   evidence:
-    - "Repo description explicitly states: 'The no-code platform for building custom LLM Agents'."
-    - Listed in awesome-langchain under 'Knowledge Management', indicating developer utility.
-    - Topics include langchain, qdrant, and semantic-search, signaling a developer-focused tech stack.
+    - Repo description explicitly calls it 'The no-code platform for building custom LLM Agents'.
+    - Topics and awesome-langchain section (Knowledge Management) point to a no-code chatbot builder, not a developer tool.
+    - No evidence of CLI, IDE integration, SDK, or developer workflow integration in the provided inputs.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (2938) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:50.414Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:23.156Z"
+    updated_at: "2026-05-06T22:44:04.102Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:59.455Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__peliqan-io__mcp-server-peliqan__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:04:14.660Z"
+    last_checked_at: "2026-05-06T22:45:50.411Z"
     readme:
-      fetched_at: "2026-05-05T21:04:14.660Z"
+      fetched_at: "2026-05-06T22:45:50.411Z"
       bytes: 3935
 insights:
-  summary: A local Model Context Protocol server that connects Claude Desktop and other MCP clients to the Peliqan data platform to query and write back to over 100 SaaS, database, and file connectors.
-  why_it_matters: It lets developers query business data and update SaaS resources directly from their AI assistant without building custom connectors or leaving the IDE chat.
-  mental_damage: "We have finally achieved the zenith of modern engineering: configuring a proxy, an API token, and a local Python server just to let an LLM invoice a customer in Exact Online from a Claude Desktop sidebar."
+  summary: A local MCP server that connects AI assistants like Claude Desktop to the Peliqan data platform, exposing connectors for hundreds of SaaS tools and databases as callable tools.
+  why_it_matters: Developers can let coding agents directly query, fetch from, and write back to business applications like Salesforce, HubSpot, and Snowflake without building custom integrations.
+  mental_damage: We have finally achieved the future where your coding agent can update a HubSpot deal and an Airtable base, provided you can keep your Peliqan API tokens straight across three config files.
   tags:
     - mcp
-    - data-integration
-    - peliqan
-    - local-server
+    - integrations
+    - data-connector
+    - claude-desktop
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly a Model Context Protocol server implementation, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server that bridges AI assistants to the Peliqan connector ecosystem, which fits clearly into MCP Servers & Tooling.
   evidence:
-    - "README states: 'This repo provides a local MCP Server... It communicates with the Peliqan platform via a Proxy API endpoint.'"
-    - Usage documentation shows configuration for Claude Desktop's mcpServers integration.
-    - Listed in the awesome-mcp-servers community list under 'Community Servers'.
+    - Repo name is 'mcp-server-peliqan' and README explicitly describes 'a local MCP Server' for Claude Desktop.
+    - Listed in awesome-mcp-servers under the 'Community Servers' section.
+    - Includes setup instructions for claude_desktop_config.json and exposes Peliqan connectors as MCP methods.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:14.660Z"
+    updated_at: "2026-05-06T22:45:50.411Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:44:16.775Z"
+    updated_at: "2026-05-06T23:21:25.375Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

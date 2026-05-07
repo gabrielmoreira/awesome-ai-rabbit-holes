@@ -1,12 +1,12 @@
 id: about__gitlab__com__solutions__artificial__intelligence
 kind: website
-name: GitLab AI
+name: artificial-intelligence
 canonical_url: https://about.gitlab.com/solutions/artificial-intelligence
 identity: {}
 provenance:
   discoveries:
     - id: discovery__about__gitlab__com__solutions__artificial__intelligence__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,22 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitLab's enterprise solution page for integrating artificial intelligence features into the software development lifecycle.
-  why_it_matters: It outlines how a major DevOps platform embeds AI into planning, coding, and security workflows within an existing enterprise infrastructure.
-  mental_damage: "Just what every overengineered pipeline needed: another layer of 'AI solutions' sitting between the developer and the YAML file."
+  summary: GitLab's Artificial Intelligence page describes the DevOps platform's suite of integrated AI features for code suggestions, explanation, and software development lifecycle automation.
+  why_it_matters: It consolidates AI-assisted coding, summarization, and DevOps automation directly into a widely adopted enterprise Git platform.
+  mental_damage: Yet another entire platform's AI capabilities condensed into a marketing page, ensuring developers can feel behind on three product tiers at once.
   tags:
-    - ai-integration
-    - devops
-    - enterprise
     - gitlab
+    - devops
+    - ai-integration
+    - enterprise
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing solutions page for GitLab's AI features, not a standalone developer tool, agent, or app builder suitable for this catalog.
+  reason: This is a high-level product marketing page for GitLab's platform features, not a standalone developer tool, framework, or navigable directory that fits the catalog's scope.
   evidence:
-    - The URL points to a GitLab solutions page (about.gitlab.com/solutions/artificial-intelligence), not a tool repository.
-    - Source-list context shows it was listed under 'DevOps and Infrastructure' in awesome-ai-coding-tools, but the item itself is a product page rather than a tool.
-    - No repository description, README, or code indicators were provided to suggest this is a standalone developer-facing tool.
+    - URL points to a GitLab solutions marketing page (about.gitlab.com/solutions/artificial-intelligence), not a tool repo or directory.
+    - No repo description, README, or standalone tool artifacts provided; it is an auxiliary product page.
+    - Source-list context identifies it as a DevOps and Infrastructure solution, but the entry itself is a corporate feature overview rather than a usable developer tool.
 placement:
   primary_category: null
   section: null
@@ -57,20 +57,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:15.656Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.725Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:10.537Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

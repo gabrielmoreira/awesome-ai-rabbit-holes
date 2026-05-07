@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automl__auto-sklearn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8091
+    stars: 8092
     forks: 1324
     license: BSD-3-Clause
     archived: false
@@ -42,49 +42,50 @@ metadata:
       - metalearning
       - scikit-learn
       - smac
-    last_checked_at: "2026-05-05T21:01:12.880Z"
+    last_checked_at: "2026-05-06T22:12:45.944Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.880Z"
+      fetched_at: "2026-05-06T22:12:45.944Z"
       bytes: 2439
 insights:
-  summary: An automated machine learning toolkit that acts as a drop-in replacement for scikit-learn estimators to automate algorithm selection and hyperparameter tuning.
-  why_it_matters: It allows data scientists to automate the tedious manual loop of model selection and hyperparameter optimization within the familiar scikit-learn API.
-  mental_damage: It promises to fully automate the 'art' of ML modeling, neatly solving the pipeline while you still struggle to explain to stakeholders why the data is garbage in the first place.
+  summary: auto-sklearn is an Automated Machine Learning (AutoML) toolkit that acts as a drop-in replacement for scikit-learn estimators to automate algorithm selection and hyperparameter tuning.
+  why_it_matters: It allows data scientists to achieve competitive model performance with minimal manual tuning by handling the search over algorithms and hyperparameters automatically.
+  mental_damage: It solves the 'which model should I tune for three weeks' problem by letting you write four lines of code, effectively automating yourself out of a job you probably didn't enjoy anyway.
   tags:
     - automl
     - scikit-learn
-    - hyperparameter-tuning
     - machine-learning
+    - classification
+    - regression
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional automated machine learning library for data scientists, lacking the developer-facing AI tooling, coding agents, or infrastructure focus required for this catalog.
+  reason: This is a traditional machine learning library for model training, not a developer-facing AI tool, agent, or infrastructure component for software development.
   evidence:
-    - Repo description states it is 'Automated Machine Learning with scikit-learn', targeting ML modeling rather than developer workflows.
-    - README demonstrates a standard Python library usage (fit/predict) for classification, not code generation or IDE integration.
-    - Listed in Awesome-LLMOps under 'AutoML', which focuses on ML operations rather than the developer tooling/AI assistant scope of this catalog.
+    - Repo description explicitly identifies it as 'Automated Machine Learning with scikit-learn', a traditional ML domain.
+    - README demonstrates a standard scikit-learn API fit/predict workflow, not a coding agent or developer tool.
+    - Listed in Awesome-LLMOps under 'AutoML', which focuses on ML ops rather than the AI coding tools scope of this catalog.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8091) exceeded threshold (150)
+  reason: Stars (8092) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.880Z"
+    updated_at: "2026-05-06T22:12:45.944Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:35.419Z"
+    updated_at: "2026-05-06T22:22:54.012Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

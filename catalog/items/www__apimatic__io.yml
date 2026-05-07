@@ -1,12 +1,12 @@
 id: www__apimatic__io
 kind: website
-name: APIMatic
+name: www.apimatic.io
 canonical_url: https://www.apimatic.io
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__apimatic__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,42 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: APIMatic is a developer experience platform that generates SDKs, documentation, and API wrappers from API definitions like OpenAPI.
-  why_it_matters: It automates the tedious translation of API specs into usable client libraries and docs, letting developers focus on integration rather than boilerplate generation.
-  mental_damage: "Just what the modern developer needs: another layer of automation to ensure our API wrappers are perfect, right before we prompt an AI agent to ignore them and write the fetch calls by hand anyway."
+  summary: APIMatic is a SaaS platform for generating SDKs, API docs, and integration code from API definitions, and is listed as an official MCP server for exposing API specs to AI models.
+  why_it_matters: It lets developers turn existing API definitions into ready-to-use SDKs and gives AI agents structured access to API capabilities via MCP.
+  mental_damage: One more indirection layer between your API and the AI that is now confidently generating integration code you’ll be debugging next sprint.
   tags:
+    - mcp
     - api
-    - automation
-    - developer-tools
-    - sdks
-  confidence: high
+    - sdk-generation
+    - integrations
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is an API lifecycle tool for SDK and documentation generation, which lacks a specific AI-native workflow or agentic angle required for this catalog.
+  status: included
+  reason: APIMatic is included as an MCP server that exposes API definitions and SDK generation capabilities to AI models, fitting the MCP Servers & Tooling category.
   evidence:
-    - Appears in awesome-mcp-servers lists, but the product itself is a general API toolkit, not MCP-specific infrastructure.
-    - No inputs indicate AI-driven coding agents, app building, or prompt-based development workflows.
+    - "Listed in awesome-mcp-servers under section: Official Servers"
+    - Product is a SaaS platform for SDK and API docs generation, not a generic AI directory or research project
+    - MCP server identity is the stated relevance in source-list context
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:37.343Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.731Z"
+    updated_at: "2026-05-06T22:12:15.667Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:31:45.595Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

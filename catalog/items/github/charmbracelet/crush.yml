@@ -1,13 +1,13 @@
 id: github__charmbracelet__crush
 kind: github-repo
-name: Crush
+name: crush
 canonical_url: https://github.com/charmbracelet/crush
 identity:
   github_repo: charmbracelet/crush
 provenance:
   discoveries:
     - id: discovery__github__charmbracelet__crush__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 23882
-    forks: 1621
+    stars: 23938
+    forks: 1630
     license: NOASSERTION
     archived: false
     created_at: "2025-05-21T12:14:57Z"
-    pushed_at: "2026-05-05T20:44:56Z"
+    pushed_at: "2026-05-06T21:23:23Z"
     description: Glamourous agentic coding for all 💘
     homepage: ""
     topics:
@@ -37,50 +37,50 @@ metadata:
       - ai
       - llms
       - ravishing
-    last_checked_at: "2026-05-05T21:01:32.367Z"
+    last_checked_at: "2026-05-06T22:43:19.893Z"
     readme:
-      fetched_at: "2026-05-05T21:01:32.367Z"
-      bytes: 25255
+      fetched_at: "2026-05-06T22:43:19.893Z"
+      bytes: 25340
 insights:
-  summary: A terminal-native AI coding agent that integrates with multiple LLMs, supports LSPs for context, and offers extensibility via MCP.
-  why_it_matters: It brings agentic coding workflows directly into the terminal with broad LLM compatibility and first-class support for developer tools like LSPs and MCPs.
-  mental_damage: Yet another opportunity to stare at a terminal, waiting for an LLM to 'help' you write code while you question your own utility as a developer.
+  summary: A terminal-native coding agent that wires your tools, code, and workflows into your choice of LLM with LSP support and MCP extensibility.
+  why_it_matters: It gives developers a model-agnostic, LSP-aware coding assistant that runs in any terminal and preserves context across sessions.
+  mental_damage: Yet another chance to discover that switching LLMs mid-session only changes which model watches you procrastinate.
   tags:
     - cli
     - coding-agent
+    - terminal
     - lsp
     - mcp
-    - terminal
   confidence: high
 curation:
   status: included
-  reason: The project is a terminal-based coding agent that directly edits and plans code using LLMs, fitting the coding-agents category with a clear CLI focus.
+  reason: Crush is a standalone coding assistant designed to plan, edit, and reason over code directly in the terminal, fitting the primary coding agent definition.
   evidence:
-    - "Repo description: 'Glamourous agentic coding for all' and README pitch: 'Your new coding bestie, now available in your favourite terminal.'"
-    - Features include LSP integration and MCP extensibility for code-aware workflows.
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - "Repo description: 'Glamourous agentic coding for all'"
+    - "README: 'Your new coding bestie... reads code, edits files, and preserves context per project'"
+    - "Source list: included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (23882) exceeded threshold (150)
+  reason: Stars (23938) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:12:51.283Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:32.367Z"
+    updated_at: "2026-05-06T22:43:19.893Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:48:42.441Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

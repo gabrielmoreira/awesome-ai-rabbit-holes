@@ -6,8 +6,8 @@ identity:
   github_repo: gibbrdev/gibs-mcp
 provenance:
   discoveries:
-    - id: discovery__github__buildsyncinc__gibs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__gibbrdev__gibs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,54 +33,50 @@ metadata:
     description: Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:20.869Z"
+    last_checked_at: "2026-05-06T22:44:01.972Z"
     readme:
-      fetched_at: "2026-05-05T21:02:20.869Z"
+      fetched_at: "2026-05-06T22:44:01.972Z"
       bytes: 7426
 insights:
-  summary: An MCP server that connects AI development environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
-  why_it_matters: It lets developers building AI products query complex EU regulations directly from their AI assistant instead of manually parsing hundreds of legal articles.
-  mental_damage: Now your AI agent can confidently hallucinate that your facial recognition startup is fully DORA-compliant while you still can't figure out where to store the API keys.
+  summary: An MCP server that connects AI coding environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
+  why_it_matters: It lets developers query binding EU regulatory obligations and classify AI systems directly from their assistant, avoiding manual legal lookups during development.
+  mental_damage: We have finally reached the point where your AI assistant needs its own compliance officer to tell you that facial recognition in schools is a bad idea.
   tags:
+    - mcp
     - compliance
     - eu-ai-act
     - legal
-    - mcp
-    - regulations
-    - regulatory
+    - regulation
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing regulatory compliance lookups, fitting cleanly into the MCP servers and tooling category.
+  reason: The product is explicitly an MCP server providing EU regulatory compliance tooling, which fits the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repo description states 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'
-    - README confirms it 'connects your AI development environment directly to a regulatory compliance knowledge base' via MCP
+    - "Repo description states: 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'"
+    - README shows MCP connection instructions for Claude Desktop and lists MCP tools like classify_ai_system and check_compliance
     - Listed in awesome-mcp-servers under Server Implementations > Legal section
-    - "Repo description states: 'Gibs MCP Server — EU regulatory compliance for AI agents'"
-    - README demonstrates MCP integration via claude_desktop_config.json and provides MCP tools like classify_ai_system and check_compliance
-    - Active development as of 2026-02-15 with no archive flag
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:19.315Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:20.869Z"
+    updated_at: "2026-05-06T22:44:01.972Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:40.461Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__topskychen__tilde__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 3
+    forks: 1
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    archived: false
+    created_at: "2026-01-09T09:46:45Z"
+    pushed_at: "2026-01-10T12:27:10Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:53.564Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:53.564Z"
+      bytes: 14594
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: tilde is a local-first MCP server that provides a universal memory and profile layer for AI agents, storing user preferences, skills, and team context in a local YAML file.
+  why_it_matters: It lets developers configure their identity, tech stack, and coding standards once and make them available across Cursor, Claude Desktop, and other MCP-compliant tools.
+  mental_damage: We have successfully solved the problem of telling every AI tool that we are, in fact, Senior SWE who prefers Python, by adding yet another layer of configuration to manage.
+  tags:
+    - mcp
+    - memory
+    - context
+    - local-first
+    - profile
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly built as an MCP server to act as a universal memory and profile layer, which aligns directly with the MCP Servers & Tooling category.
+  evidence:
+    - README explicitly states tilde is a 'privacy-first Model Context Protocol (MCP) server'.
+    - Source list context shows it is already curated in awesome-mcp-servers under 'Knowledge & Memory'.
+    - Setup instructions focus on configuring the MCP server block for Cursor, Claude Desktop, and Antigravity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.721Z"
+    updated_at: "2026-05-06T22:12:15.652Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:53.564Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:33:53.481Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

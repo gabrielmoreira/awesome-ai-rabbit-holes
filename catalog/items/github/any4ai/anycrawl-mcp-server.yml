@@ -6,23 +6,8 @@ identity:
   github_repo: any4ai/anycrawl-mcp-server
 provenance:
   discoveries:
-    - id: discovery__anycrawl__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: AnyCrawl
-        extracted_url: https://anycrawl.dev
-        surrounding_text: "- **[AnyCrawl](https://github.com/any4ai/anycrawl-mcp-server)** - [AnyCrawl](https://anycrawl.dev) MCP Server, Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol (MCP)."
-        confidence: high
     - id: discovery__github__any4ai__anycrawl-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -47,55 +32,50 @@ metadata:
     description: AnyCrawl MCP Server, with Scrape, Crawl and SERP.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:05.655Z"
+    last_checked_at: "2026-05-06T22:12:39.561Z"
     readme:
-      fetched_at: "2026-05-05T21:01:05.655Z"
+      fetched_at: "2026-05-06T22:12:39.561Z"
       bytes: 15685
 insights:
-  summary: An MCP server that exposes web scraping, crawling, and search engine result parsing capabilities to LLM clients like Cursor and Claude.
-  why_it_matters: It gives coding agents the ability to fetch live web content and search results directly into their context, reducing the need to copy-paste documentation or API docs manually.
-  mental_damage: We have successfully abstracted the act of reading the documentation into a server that scrapes the documentation, so the agent can hallucinate about the documentation it just scraped.
+  summary: An MCP server that provides web scraping, site crawling, and search engine result processing capabilities to AI clients like Cursor and Claude.
+  why_it_matters: It gives coding agents the ability to fetch live web content and search results in multiple formats without leaving the MCP workflow.
+  mental_damage: We have successfully abstracted the ancient art of 'reading the documentation' into a protocol server thatrequires an API key to scrape a static HTML page.
   tags:
-    - api
-    - context-engineering
-    - cursor
-    - llm-data
     - mcp
-    - web-scraping
-  confidence: high
+    - scraping
+    - web-crawling
+    - cursor
+    - context
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly listed in the awesome-mcp-servers directory as an MCP server for web scraping, which aligns directly with the MCP Servers and Tooling category.
+  reason: The product's identity is explicitly an MCP server providing web scraping and crawling capabilities to LLM clients.
   evidence:
-    - "Awesome-mcp-servers lists it under 'Official Servers' with the description: 'Transform any website into structured, clean data optimized for AI and large language models.'"
-    - Scraped site title and description confirm it is an 'AI-Powered Web Scraping API' serving LLM use cases.
-    - "Listed in awesome-mcp-servers under 'Official Servers' with the purpose: 'Transform any website into structured, clean data optimized for AI'."
-    - Scraped site title and description confirm it is an 'AI-Powered Web Scraping API' designed for LLMs.
-    - Repo description explicitly states 'AnyCrawl MCP Server, with Scrape, Crawl and SERP.'
-    - README details integration with Cursor, VS Code, and Windsurf via the Model Context Protocol.
-    - Listed in the awesome-mcp-servers directory under 'Official Servers'.
+    - "Repo description: 'AnyCrawl MCP Server, with Scrape, Crawl and SERP.'"
+    - "README: 'Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol (MCP).'"
+    - Listed in awesome-mcp-servers under 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T22:47:16.763Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:05.655Z"
+    updated_at: "2026-05-06T22:12:39.561Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:34.404Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longevity-genie__opengenes-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: MCP for the open-genes
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:24.120Z"
+    last_checked_at: "2026-05-06T22:45:03.253Z"
     readme:
-      fetched_at: "2026-05-05T21:03:24.120Z"
+      fetched_at: "2026-05-06T22:45:03.253Z"
       bytes: 20794
 insights:
-  summary: An MCP server that provides AI assistants with structured, read-only access to the OpenGenes aging and longevity research database.
-  why_it_matters: It allows developers building bioinformatics workflows to query lifespan and gene-criteria data directly via natural language in their IDE or chat interface.
-  mental_damage: Now your AI can confidently hallucinate about your mortality using up-to-date genetic data straight from a SQLite file on the Hugging Face Hub.
+  summary: An MCP server that exposes the OpenGenes aging and longevity research database to AI assistants via SQL queries and schema introspection.
+  why_it_matters: It lets developers working in bioinformatics query lifespan, gene criteria, and longevity association data directly from their MCP-compatible editors or agents instead of leaving the IDE to dig through raw datasets.
+  mental_damage: Your coding assistant can now explain the molecular basis of aging to you while you wonder why you are still manually debugging authentication middleware in 2025.
   tags:
     - mcp
     - bioinformatics
-    - longevity
+    - aging-research
     - data-access
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for a specific database, fitting cleanly into the MCP infrastructure category.
+  reason: This is a domain-specific MCP server that gives AI assistants structured access to longevity research data, which fits the MCP Servers & Tooling category cleanly.
   evidence:
-    - Repo description states 'MCP for the open-genes'.
-    - README confirms it is an 'MCP (Model Context Protocol) server for OpenGenes database'.
-    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics'.
+    - Repo description explicitly states 'MCP for the open-genes'
+    - README identifies it as 'MCP (Model Context Protocol) server for OpenGenes database' with tools like opengenes_db_query(sql)
+    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics' section
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:24.120Z"
+    updated_at: "2026-05-06T22:45:03.253Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:38.468Z"
+    updated_at: "2026-05-06T23:10:30.990Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

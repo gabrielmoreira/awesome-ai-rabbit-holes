@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__overtlids__mcp-searxng-enhanced__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 38
+    stars: 39
     forks: 15
     license: MIT
     archived: false
     created_at: "2025-05-10T00:20:37Z"
-    pushed_at: "2026-04-10T00:30:01Z"
+    pushed_at: "2026-05-05T22:05:49Z"
     description: "Enhanced MCP server for SearXNG: category-aware web-search, web-scraping, and date/time retrieval."
     homepage: ""
     topics:
@@ -46,50 +46,50 @@ metadata:
       - webscraper
       - websearch
       - websearch-agent
-    last_checked_at: "2026-05-05T21:04:09.358Z"
+    last_checked_at: "2026-05-06T22:45:45.568Z"
     readme:
-      fetched_at: "2026-05-05T21:04:09.358Z"
-      bytes: 17510
+      fetched_at: "2026-05-06T22:45:45.568Z"
+      bytes: 20382
 insights:
-  summary: An MCP server that provides category-aware web search, web scraping with citations, and date/time retrieval by integrating with a self-hosted SearXNG instance.
-  why_it_matters: It gives coding agents and MCP clients like Cline the ability to perform grounded web research and scrape documentation directly into their context.
-  mental_damage: We have successfully abstracted the act of opening a browser tab into a Docker container that requires six environment variables and a YAML file to search the internet.
+  summary: An MCP server that exposes category-aware SearXNG web search, website scraping with citations, and date/time tools to MCP-compatible AI clients.
+  why_it_matters: Developers can give their coding agents private, self-hosted web search and scraping capabilities without relying on opaque, hosted search APIs.
+  mental_damage: We are now dockerizing and rate-limiting our paranoia so that an LLM can confidently hallucinate while citing a freshly scraped Reddit thread.
   tags:
     - mcp
     - searxng
     - web-search
-    - docker
     - self-hosted
+    - docker
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server designed to extend client capabilities with web search and scraping, fitting squarely into the MCP infrastructure category.
+  reason: The product is an MCP server that provides web search and scraping capabilities, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'Enhanced MCP server for SearXNG'.
-    - README confirms it is a Model Context Protocol server designed for integration with MCP clients like Cline.
-    - Listed in the 'awesome-mcp-servers' directory under Community Servers.
+    - README describes it as 'A Model Context Protocol (MCP) server for category-aware web search, website scraping, and date/time tools'.
+    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:09.358Z"
+    updated_at: "2026-05-06T22:45:45.568Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T22:29:43.657Z"
+    updated_at: "2026-05-06T23:20:19.807Z"
     cause: null
     next_retry_at: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

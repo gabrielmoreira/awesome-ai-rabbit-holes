@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__whale-tracker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp) 🐍 ☁️ -  A mcp server for tracking cryptocurrency whale transactions."
         confidence: high
     - id: discovery__github__kukapay__whale-tracker-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,50 +48,49 @@ metadata:
     description: A mcp server for tracking cryptocurrency whale transactions.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:13.398Z"
+    last_checked_at: "2026-05-06T22:44:51.901Z"
     readme:
-      fetched_at: "2026-05-05T21:03:13.398Z"
+      fetched_at: "2026-05-06T22:44:51.901Z"
       bytes: 5752
 insights:
-  summary: A Python-based Model Context Protocol server that exposes cryptocurrency whale transaction data from the Whale Alert API to MCP-compatible clients like Claude Desktop.
-  why_it_matters: It allows developers and analysts to query real-time blockchain transaction data and perform analysis directly within their LLM-powered workflows without leaving the chat interface.
-  mental_damage: We have officially reached the point where we are building standardized protocols just to ask an AI to tell us that a Bitcoin whale moved $50 million to a cold wallet.
+  summary: A Model Context Protocol server that exposes cryptocurrency whale transaction data from the Whale Alert API as tools, resources, and prompts for MCP-compatible clients.
+  why_it_matters: It lets developers and analysts query and analyze large crypto movements directly inside LLM workflows like Claude Desktop without leaving the chat interface.
+  mental_damage: We now have a protocol for teaching Claude to obsess over Bitcoin whales while the rest of your codebase silently drifts into technical debt.
   tags:
     - mcp
     - crypto
-    - blockchain
     - finance
-    - api
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly a Model Context Protocol server designed to integrate external API data into LLM clients, fitting the MCP infrastructure category perfectly.
+  reason: The product is explicitly an MCP server that provides domain-specific transaction data, fitting cleanly into the MCP Servers & Tooling category as a domain server.
   evidence:
     - Repo description states it is 'A mcp server for tracking cryptocurrency whale transactions.'
-    - README confirms it is a 'Python-based implementation of the Model Context Protocol (MCP)' integrated with the Whale Alert API.
-    - Featured in 'awesome-mcp-servers' and 'awesome-mcp-list' under Finance & Fintech sections.
+    - README describes it as 'a Python-based implementation of the Model Context Protocol (MCP)' designed to expose tools and resources to MCP-compatible clients.
+    - Included in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.668Z"
+    updated_at: "2026-05-06T22:12:15.589Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:13.398Z"
+    updated_at: "2026-05-06T22:44:51.901Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:33.890Z"
+    updated_at: "2026-05-06T23:07:56.949Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

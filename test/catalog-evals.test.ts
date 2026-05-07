@@ -2,7 +2,6 @@ import { describe, expect, it } from "vitest";
 import {
   classifyCategoryEvalErrorKind,
   DEFAULT_CATEGORY_EVAL_MODEL,
-  DEFAULT_CATEGORY_EVAL_PROFILES,
   gradeCategoryEvalDecision,
   parseCatalogEvalsArgs,
   summarizeCategoryEvalGrades,
@@ -10,16 +9,12 @@ import {
 } from "../scripts/catalog/evals.js";
 
 describe("catalog eval args", () => {
-  it("uses explicit repeated models, profiles, suites, and case ids", () => {
+  it("uses explicit repeated models, suites, and case ids", () => {
     const args = parseCatalogEvalsArgs([
       "--model",
       "openrouter/tencent/hy3-preview:free",
       "--model",
       "openrouter/google/gemma-4-31b-it:free",
-      "--profile",
-      "baseline-current",
-      "--profile",
-      "definition-first",
       "--suite",
       "prompt-core",
       "--suite",
@@ -38,7 +33,6 @@ describe("catalog eval args", () => {
       "openrouter/tencent/hy3-preview:free",
       "openrouter/google/gemma-4-31b-it:free",
     ]);
-    expect(args.profiles).toEqual(["baseline-current", "definition-first"]);
     expect(args.suites).toEqual(["prompt-core", "prompt-holdout"]);
     expect(args.caseIds).toEqual(["coding-agents__opencode", "evals__agenta"]);
     expect(args.limit).toBe(5);
@@ -51,15 +45,12 @@ describe("catalog eval args", () => {
       '"openrouter/tencent/hy3-preview:free"',
       "--suite",
       '"prompt-core"',
-      "--profile",
-      '"definition-first"',
       "--case",
       '"coding-agents__opencode"',
     ]);
 
     expect(args.models).toEqual(["openrouter/tencent/hy3-preview:free"]);
     expect(args.suites).toEqual(["prompt-core"]);
-    expect(args.profiles).toEqual(["definition-first"]);
     expect(args.caseIds).toEqual(["coding-agents__opencode"]);
   });
 
@@ -70,11 +61,10 @@ describe("catalog eval args", () => {
     expect(classifyCategoryEvalErrorKind("timed out after 15000ms")).toBe("infra_error");
   });
 
-  it("defaults to the anchor model and definition-first comparison set", () => {
+  it("defaults to the anchor model and no suite or case filters", () => {
     const args = parseCatalogEvalsArgs([]);
 
     expect(args.models).toEqual([DEFAULT_CATEGORY_EVAL_MODEL]);
-    expect(args.profiles).toEqual(DEFAULT_CATEGORY_EVAL_PROFILES);
     expect(args.suites).toEqual([]);
     expect(args.caseIds).toEqual([]);
     expect(args.limit).toBeNull();

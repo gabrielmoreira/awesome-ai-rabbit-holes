@@ -1,12 +1,12 @@
 id: makedraft__com
 kind: website
-name: Makedraft
+name: makedraft.com
 canonical_url: https://makedraft.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__makedraft__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Makedraft is a browser-first SaaS tool that uses AI to generate HTML templates from prompts.
-  why_it_matters: It allows developers to quickly scaffold frontend templates and static HTML structures without manually writing boilerplate markup.
-  mental_damage: Yet another vertical SaaS promising to automate the one part of web development—writing HTML—that we ironically still manage to overcomplicate.
+  summary: Makedraft is a web-based tool that uses AI to generate HTML templates from prompts.
+  why_it_matters: It offers a prompt-driven path to scaffold front-end code, useful for developers looking to bootstrap UI templates quickly.
+  mental_damage: Another entry in the 'vibes to markup' ecosystem, ensuring we can now generate throwaway HTML without ever looking at a DOM.
   tags:
-    - frontend
     - html
-    - prompt-to-site
     - templates
+    - prompt-to-code
+    - web
   confidence: medium
 curation:
   status: included
-  reason: The product is a hosted, browser-first tool that generates HTML templates from prompts, fitting the app-builders definition for prompt-to-site generation.
+  reason: The tool turns prompts into HTML templates/sites rather than acting as a repo-editing coding assistant, making it a clear fit for App Builders.
   evidence:
     - "Scraped site title and description state: 'Makedraft' and 'Create HTML templates with AI'."
-    - Source list context describes it as a tool to 'Create HTML templates with AI' within an AI agents list.
-    - The URL points to a hosted SaaS product (makedraft.com) rather than a code repository or IDE extension.
+    - "Listed in awesome-ai-agents under the purpose: 'Create HTML templates with AI'."
+    - The core workflow is prompt-to-template generation, not editing an existing repository.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-Site Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:46:10.591Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.728Z"
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:27:23.123Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

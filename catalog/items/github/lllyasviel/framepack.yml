@@ -1,0 +1,82 @@
+id: github__lllyasviel__framepack
+kind: github-repo
+name: framepack
+canonical_url: https://github.com/lllyasviel/framepack
+identity:
+  github_repo: lllyasviel/framepack
+provenance:
+  discoveries:
+    - id: discovery__github__lllyasviel__framepack__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: FramePack
+        extracted_url: https://github.com/lllyasviel/framepack
+        surrounding_text: 16. [FramePack](https://github.com/lllyasviel/FramePack)
+        confidence: high
+metadata:
+  github:
+    stars: 16782
+    forks: 1659
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-12T14:45:22Z"
+    pushed_at: "2025-10-16T01:28:50Z"
+    description: Lets make video diffusion practical!
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-06T22:45:01.584Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:01.584Z"
+      bytes: 16562
+insights:
+  summary: FramePack is a next-frame prediction neural network structure and desktop software for generating videos progressively using diffusion models on local hardware.
+  why_it_matters: It allows developers to run video diffusion workloads on consumer laptop GPUs with as little as 6GB of VRAM, making local video generation practical without massive cloud compute.
+  mental_damage: You now have the power to generate minute-long videos on your RTX 3060 laptop, which is impressive until you realize you spent four hours rendering a clip that could have been a GIF.
+  tags:
+    - video-diffusion
+    - local-ai
+    - generative-media
+    - desktop-app
+    - pytorch
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a generative media model and desktop app for video creation, not a developer tool for coding, orchestration, infrastructure, or app building.
+  evidence:
+    - Repo description states 'Lets make video diffusion practical!', targeting video generation, not code.
+    - README describes a next-frame prediction neural network and desktop software for generating videos on GPUs.
+    - Seen in awesome-LLM-resources under a video/multimodal generation section, not developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (16782) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.627Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:01.584Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:10:06.005Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

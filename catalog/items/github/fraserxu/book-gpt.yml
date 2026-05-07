@@ -1,13 +1,13 @@
 id: github__fraserxu__book-gpt
 kind: github-repo
-name: Book GPT
+name: book-gpt
 canonical_url: https://github.com/fraserxu/book-gpt
 identity:
   github_repo: fraserxu/book-gpt
 provenance:
   discoveries:
     - id: discovery__github__fraserxu__book-gpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,27 +33,27 @@ metadata:
     description: Drop a book, start asking question.
     homepage: https://book-gpt.fraserxu.dev
     topics: []
-    last_checked_at: "2026-05-05T21:02:14.354Z"
+    last_checked_at: "2026-05-06T22:43:56.510Z"
     readme:
-      fetched_at: "2026-05-05T21:02:14.354Z"
+      fetched_at: "2026-05-06T22:43:56.510Z"
       bytes: 652
 insights:
-  summary: A web app that lets users upload a book and ask questions about its contents using LangChainJS.
-  why_it_matters: It demonstrates a practical, end-to-end RAG pattern for processing long-form text using JavaScript, serving as a reference implementation for similar document-query tools.
-  mental_damage: Another entry in the 'upload a giant text blob and pray the context window holds' genre, proving that even in 2023, we preferred wrapping a PDF in a chat interface to actually reading it.
+  summary: A web app that lets users upload a book and ask questions about its content using LangChainJS.
+  why_it_matters: It provides a simple, end-to-end example of building a document-QA pipeline that developers can reference for RAG implementations.
+  mental_damage: Yet another proof-of-concept demonstrating that 2023's hottest stack could answer questions about a PDF before the funding ran out in April.
   tags:
-    - document-qa
-    - langchain
     - rag
-    - web-app
+    - langchain
+    - document-qa
+    - demo
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing document Q&A demo, not a developer tool, agent, or infrastructure component for building software.
+  reason: This is a dormant demo app for end-users to chat with books, not a reusable developer tool, framework, or agent.
   evidence:
-    - "Repo description and README describe a user-facing workflow: 'Upload a book, ask me anything about it.'"
-    - Listed in awesome-langchain under 'Chatbots', indicating it is viewed as an end-user application rather than a developer utility.
-    - No functionality for editing code, building apps, or extending a developer environment is present.
+    - "Repo description: 'Drop a book, start asking question.'"
+    - README describes a web UI for uploading books, not a coding or dev tool.
+    - Last push was 2023-04-03, and the project has no active development or dev-tooling identity.
 placement:
   primary_category: null
   section: null
@@ -61,21 +61,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (437) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:20:07.199Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.688Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:14.354Z"
+    updated_at: "2026-05-06T22:43:56.510Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:32.996Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

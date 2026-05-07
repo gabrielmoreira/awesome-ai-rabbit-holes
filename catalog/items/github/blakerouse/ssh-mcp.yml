@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blakerouse__ssh-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,49 @@ metadata:
     description: SSH MCP server that runs locally making it easy to manage hosts and perform commands across a group of hosts
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:22.406Z"
+    last_checked_at: "2026-05-06T22:12:54.495Z"
     readme:
-      fetched_at: "2026-05-05T21:01:22.406Z"
+      fetched_at: "2026-05-06T22:12:54.495Z"
       bytes: 5030
 insights:
-  summary: A local MCP server that lets AI assistants manage SSH hosts, organize them into groups, and execute commands across remote machines.
-  why_it_matters: It allows coding agents to directly manage infrastructure and run commands across fleets of servers without the developer manually bridging the terminal and the chat window.
-  mental_damage: "We have finally achieved the platonic ideal of modern DevOps: a stack of abstractions so deep that your AI needs its own SSH config and a BadgerDB instance just to run uptime for you."
+  summary: An MCP server that runs locally to manage SSH hosts, organize them into groups, and execute commands across multiple remote machines.
+  why_it_matters: It lets AI coding assistants manage remote infrastructure directly via natural language, bridging the gap between code generation and server operations.
+  mental_damage: We have finally achieved the future where your LLM can apt-get upgrade the production fleet while you are busy debugging why the MCP config won't parse.
   tags:
     - mcp
     - ssh
     - infrastructure
     - automation
-    - go
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to be plugged into clients like Claude Desktop to extend their tool-use capabilities.
+  reason: The product's primary identity is an SSH-specific server for the Model Context Protocol, designed to extend assistant capabilities with remote host management.
   evidence:
-    - Repo description states it is an 'SSH MCP server that runs locally'.
-    - README details tool definitions (add_host, perform_command) intended for MCP client consumption.
-    - Setup instructions explicitly show adding the binary to an 'MCP configuration for Claude Desktop'.
+    - Repo description explicitly states 'SSH MCP server'.
+    - README details MCP tools for host management and command execution (add_host, perform_command).
+    - Setup instructions show configuration for Claude Desktop MCP servers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.681Z"
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:22.406Z"
+    updated_at: "2026-05-06T22:12:54.495Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:11:05.462Z"
+    updated_at: "2026-05-06T22:24:33.575Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

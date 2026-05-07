@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vectorize-io__vectorize-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,21 +19,6 @@ provenance:
           - Official Servers
         anchor_text: Vectorize
         extracted_url: https://github.com/vectorize-io/vectorize-mcp-server
-        surrounding_text: "- **[Vectorize](https://github.com/vectorize-io/vectorize-mcp-server/)** - [Vectorize](https://vectorize.io) MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking."
-        confidence: high
-    - id: discovery__vectorize__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:47:06.910Z"
-      source:
-        type: awesome-list
-        name: wong2/awesome-mcp-servers
-        url: https://github.com/wong2/awesome-mcp-servers
-        repository: wong2/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Official Servers
-        anchor_text: Vectorize
-        extracted_url: https://vectorize.io
         surrounding_text: "- **[Vectorize](https://github.com/vectorize-io/vectorize-mcp-server/)** - [Vectorize](https://vectorize.io) MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking."
         confidence: high
 metadata:
@@ -50,43 +35,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Vectorize provides Hindsight, an open-source, MIT-licensed memory layer that allows AI agents to persist context, learn from mistakes, and improve judgment across sessions via an MCP server.
-  why_it_matters: Developers building agentic workflows can integrate a model-agnostic memory system that moves beyond simple RAG retrieval to include reflection and pattern detection.
-  mental_damage: We have successfully reached the point where we must install a dedicated memory server just so our tools can remember that we prefer tabs over spaces, sparing us the trauma of repeating it.
-  tags:
-    - agent-memory
-    - llm-infrastructure
-    - mcp
-    - memory-layer
-  confidence: high
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
 curation:
-  status: included
-  reason: The product is explicitly an MCP server (Hindsight) that provides memory tools to compatible agents, fitting the MCP category definition over a generic coding agent or extension.
-  evidence:
-    - Scraped site context confirms 'Works with any MCP-capable agent' and lists tools like remember, recall, and reflect.
-    - Source list context places it in 'awesome-mcp-servers' under 'Official Servers' as 'Open source agent memory'.
-    - Install command 'npx add-skill vectorize-io/hindsight' connects directly to Claude Code or Cursor as an MCP server.
+  status: pending
+  reason: null
+  evidence: []
 placement:
-  primary_category: mcp
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:49:02.344Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.654Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-06T22:47:07.182Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

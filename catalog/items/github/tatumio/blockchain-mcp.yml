@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tatumio__blockchain-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 14
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2025-07-08T09:56:09Z"
+    pushed_at: "2025-08-08T08:07:19Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:41.197Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:41.197Z"
+      bytes: 3914
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Tatum's blockchain data API and RPC gateway tools to LLMs across 130+ networks.
+  why_it_matters: Developers can let coding agents natively query balances, transaction history, and NFT metadata without leaving the MCP-compatible editor or CLI.
+  mental_damage: Now your AI agent can panic about gas fees and malicious addresses right alongside its usual hallucinations.
+  tags:
+    - mcp
+    - blockchain
+    - crypto
+    - rpc
+    - tatum
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a purpose-built MCP server for blockchain data access, and MCP is the product identity rather than a compatibility footnote.
+  evidence:
+    - README states it is 'A Model Context Protocol (MCP) server that provides access to the Tatum Blockchain Data API'.
+    - Includes MCP client configuration instructions and an npx install command for @tatumio/blockchain-mcp.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:41.197Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:37.564Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__flowy11__imagician
 kind: github-repo
-name: Imagician
+name: imagician
 canonical_url: https://github.com/flowy11/imagician
 identity:
   github_repo: flowy11/imagician
 provenance:
   discoveries:
     - id: discovery__github__flowy11__imagician__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,49 +32,50 @@ metadata:
     description: A MCP server for image edition
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:12.695Z"
+    last_checked_at: "2026-05-06T22:43:55.150Z"
     readme:
-      fetched_at: "2026-05-05T21:02:12.695Z"
+      fetched_at: "2026-05-06T22:43:55.150Z"
       bytes: 4786
 insights:
-  summary: An MCP server for image editing that exposes operations like resizing, format conversion, cropping, and compression to AI assistants such as Claude Code and Cursor.
-  why_it_matters: It lets AI coding agents directly manipulate images in a project workflow without developers switching to external graphics tools or writing one-off scripts.
-  mental_damage: You now have an AI agent that can rotate your JPEGs, but it still cannot reliably center a div.
+  summary: An MCP server that exposes image editing operations—resize, crop, convert, compress, rotate, and batch process—to AI assistants like Claude Code and Cursor.
+  why_it_matters: It lets coding agents directly manipulate image assets in a repo without the developer context-switching to a separate graphics tool.
+  mental_damage: Your agent can now spend tokens debating aspect ratios while your actual product remains unshipped.
   tags:
+    - mcp
+    - image-editing
     - claude-code
     - cursor
-    - image-editing
-    - mcp
+    - npm
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server providing image editing tools to AI developer assistants, which cleanly fits the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server for image editing, fitting squarely into MCP Servers & Tooling as a domain-specific server used by developer tools.
   evidence:
-    - "Repo description explicitly states: 'A MCP server for image edition'"
-    - README details a Model Context Protocol server with tools like resize_image, convert_format, and crop_image
-    - Includes setup instructions for Claude Code, Cursor, and Claude Desktop MCP configurations
+    - Repo description states 'A MCP server for image edition'.
+    - README documents usage with Claude Code, Cursor, and Claude Desktop as an MCP server.
+    - Listed under awesome-mcp-servers in the Community Servers section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:19:48.117Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.687Z"
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:12.695Z"
+    updated_at: "2026-05-06T22:43:55.150Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:56:16.504Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

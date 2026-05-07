@@ -1,13 +1,13 @@
 id: github__janhq__jan
 kind: github-repo
-name: Jan
+name: jan
 canonical_url: https://github.com/janhq/jan
 identity:
   github_repo: janhq/jan
 provenance:
   discoveries:
     - id: discovery__github__janhq__jan__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -21,29 +21,29 @@ provenance:
         extracted_url: https://github.com/janhq/jan
         surrounding_text: If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) and liked it, please also check out the following **awesome collection of open source and/or local AI tools and solutions.**
         confidence: high
-    - id: discovery__jan__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T22:47:06.910Z"
+    - id: discovery__github__janhq__jan__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
-        name: ai-for-developers/awesome-ai-coding-tools
-        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
-        repository: ai-for-developers/awesome-ai-coding-tools
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
       extraction:
         mode: parsed
         section_path:
-          - Local LLM Tools
+          - 推理 Inference
         anchor_text: Jan
-        extracted_url: https://jan.ai
-        surrounding_text: "- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface."
+        extracted_url: https://github.com/janhq/jan
+        surrounding_text: "23. [Jan](https://github.com/janhq/jan): Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)."
         confidence: high
 metadata:
   github:
-    stars: 42386
-    forks: 2842
+    stars: 42410
+    forks: 2844
     license: NOASSERTION
     archived: false
     created_at: "2023-08-17T02:17:10Z"
-    pushed_at: "2026-05-05T02:54:39Z"
+    pushed_at: "2026-05-06T14:42:36Z"
     description: Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
     homepage: https://jan.ai/
     topics:
@@ -55,55 +55,50 @@ metadata:
       - open-source
       - self-hosted
       - tauri
-    last_checked_at: "2026-05-05T21:02:51.631Z"
+    last_checked_at: "2026-05-06T22:44:30.711Z"
     readme:
-      fetched_at: "2026-05-05T21:02:51.631Z"
+      fetched_at: "2026-05-06T22:44:30.711Z"
       bytes: 5755
 insights:
-  summary: Jan is an open-source, Tauri-based desktop application that lets developers run LLMs locally on their own hardware or connect to cloud providers via an OpenAI-compatible API.
-  why_it_matters: It provides a privacy-first local runtime with an MCP integration and an API endpoint, enabling developers to test agentic workflows and models without sending data to external SaaS providers.
-  mental_damage: Yet another opportunity to spend an afternoon downloading a 70B parameter model only to realize your laptop fans sound like a jet engine and you still prefer the cloud for actual work.
+  summary: Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer.
+  why_it_matters: Developers can run, test, and integrate local models via an OpenAI-compatible API and MCP support without sending code or data to the cloud.
+  mental_damage: Another pristine sanctuary of local privacy where you can hoard 70B parameter models that your laptop fans will audibly protest the moment you try to load them.
   tags:
-    - desktop
-    - llm
     - local-ai
-    - mcp
     - offline
+    - llm
+    - desktop
     - privacy
-    - tauri
   confidence: high
 curation:
   status: included
-  reason: The project is a desktop interface and runtime for running AI models locally, fitting the local-ai category definition for on-device inference and private execution.
+  reason: The product's core identity is a local, self-hosted desktop application for running LLMs offline, which aligns perfectly with the Local AI category.
   evidence:
-    - Repo description explicitly states it is an 'open source alternative to ChatGPT that runs 100% offline'.
-    - README highlights 'Local AI Models' and 'Privacy First' as core features, alongside an OpenAI-compatible local API.
-    - Included in the 'awesome-local-ai' list, confirming its alignment with the local AI ecosystem.
-    - Source URL is https://jan.ai, indicating a desktop/local tool.
-    - Listed in awesome-ai-coding-tools under the 'Local LLM Tools' section.
-    - No GitHub repo description or README was provided, but the site context and source list confirm the local execution focus.
+    - Repo description states it is 'an open source alternative to ChatGPT that runs 100% offline'.
+    - "README features include 'Local AI Models' and 'Privacy First: Everything runs locally'."
+    - Built with Tauri as a desktop app, distributed via Microsoft Store and Flathub.
 placement:
   primary_category: local-ai
-  section: null
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (42386) exceeded threshold (150)
+  reason: Stars (42410) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:04:36.797Z"
-    cause: null
-    attempts: 2
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T22:47:06.911Z"
+    updated_at: "2026-05-06T22:12:15.588Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:51.631Z"
+    updated_at: "2026-05-06T22:44:30.711Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:03:35.097Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

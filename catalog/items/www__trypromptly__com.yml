@@ -1,12 +1,12 @@
 id: www__trypromptly__com
 kind: website
-name: Promptly
+name: www.trypromptly.com
 canonical_url: https://www.trypromptly.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__trypromptly__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Promptly is a no-code SaaS platform for building generative AI apps, chatbots, and agents using enterprise data and multiple LLM providers without writing code.
-  why_it_matters: It offers developers a hosted way to prototype and embed RAG-powered chatbots and internal tools with APIs and data connectors, without building the pipeline from scratch.
-  mental_damage: Yet another declarative UI that promises to turn your proprietary docs into a chatbot in minutes, ensuring you still get paged when the embeddings drift.
+  summary: Promptly is a no-code platform for building generative AI apps, chatbots, and agents using custom data sources and multiple model providers without writing code.
+  why_it_matters: It offers developers a way to prototype and ship enterprise-grade AI integrations, Slack bots, and embedded chat widgets via APIs and templates instead of building RAG pipelines from scratch.
+  mental_damage: Another reminder that while we automate entire industries with agents, the killer app remains a no-code chatbot wrapped around a PDF and a GPT wrapper.
   tags:
-    - app-builder
-    - chatbot-builder
-    - enterprise-ai
     - no-code
     - rag
+    - chatbot
+    - enterprise
+    - nocode-builder
   confidence: high
 curation:
-  status: included
-  reason: This is a browser-first, hosted product that generates and deploys full AI apps and chatbots from prompts and data connectors, which fits the app-builders category.
+  status: excluded
+  reason: The product is a no-code SaaS platform aimed at non-developers and enterprise users building chatbots and simple AI apps, not a developer-facing coding tool, framework, or agent.
   evidence:
-    - "Scraped site title and description: 'Promptly: Generative AI for Enterprises | No-code AI App Builder' and 'Build generative AI apps, agents and chatbots in minutes.'"
-    - Primary page excerpt describes picking templates, adding data sources, and publishing apps with embed snippets and APIs.
-    - Listed in awesome-ai-agents under 'Promptly' with the description 'Build generative AI apps, agents and chatbots in minutes with Promptly's no-code platform.'
+    - Scraped site describes it as 'no-code platform' with templates, drag-and-drop builders, and no coding experience required.
+    - Primary use cases are marketing content, AI SDR, HR, and Slack/Discord bots, not repo editing or developer workflow automation.
+    - Listed in awesome-ai-agents under a section for 'autonomous agents', but the product itself is a no-code app builder, not a coding agent or developer SDK.
 placement:
-  primary_category: app-builders
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:53:53.542Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:05.996Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

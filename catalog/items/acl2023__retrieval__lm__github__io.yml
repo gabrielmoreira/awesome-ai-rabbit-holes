@@ -1,0 +1,77 @@
+id: acl2023__retrieval__lm__github__io
+kind: website
+name: acl2023-retrieval-lm.github.io
+canonical_url: https://acl2023-retrieval-lm.github.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__acl2023__retrieval__lm__github__io__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "ACL 2023 Tutorial: Retrieval-based Language Models and Applications"
+        extracted_url: https://acl2023-retrieval-lm.github.io
+        surrounding_text: "4. [ACL 2023 Tutorial: Retrieval-based Language Models and Applications](https://acl2023-retrieval-lm.github.io/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An ACL 2023 tutorial website covering retrieval-based language models, including architecture, training, and applications like RAG.
+  why_it_matters: It curates the foundational reading list and concepts behind retrieval-augmented generation, which underpins most modern context-engineering and AI developer tools.
+  mental_damage: Yet another reminder that the 'breakthrough' everyone shipped last month was already a solved problem in a Princeton lecture hall two years ago.
+  tags:
+    - rag
+    - retrieval
+    - nlp
+    - acl2023
+    - tutorial
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an academic tutorial page and reading list for a conference, not a developer tool, framework, or product.
+  evidence:
+    - The site is an ACL 2023 tutorial page for 'Retrieval-based Language Models and Applications' by university researchers.
+    - The content is a schedule, slides, and reading list (bibliography) rather than an importable library or operated tool.
+    - It was seen in awesome-LLM-resources under a 'Course' section, which aligns with educational media rather than tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.658Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:10.437Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

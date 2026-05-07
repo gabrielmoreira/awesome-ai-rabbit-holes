@@ -1,12 +1,12 @@
 id: www__microsoft__com__en__us__research__publication__phi__4__technical__report
 kind: website
-name: Phi-4 (Microsoft)
+name: phi-4-technical-report
 canonical_url: https://www.microsoft.com/en-us/research/publication/phi-4-technical-report
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,23 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A technical publication from Microsoft Research detailing Phi-4, a 14-billion parameter small language model focused on reasoning and synthetic data training.
-  why_it_matters: It documents the training recipe and benchmarking of a compact model that developers may choose to self-host or fine-tune for high-quality reasoning tasks.
-  mental_damage: Yet another research paper promising that this time, the 14B model is definitely the one that will make your sprawling microservice architecture obsolete.
+  summary: A Microsoft Research technical report introducing phi-4, a 14-billion parameter language model optimized for reasoning via synthetic data training.
+  why_it_matters: Developers building or fine-tuning coding assistants may evaluate phi-4 as a compact reasoning model for code and STEM workflows.
+  mental_damage: We are now reading 20-page PDFs to discover that a 14B model trained on synthetic data is the breakthrough we didn't know we needed.
   tags:
-    - llm
-    - microsoft
-    - phi
+    - code-models
+    - llm-research
     - reasoning
-    - research-paper
   confidence: high
 curation:
   status: excluded
-  reason: This is a research publication and model breakdown, not a developer tool, agent, or infrastructure component that fits the catalog's scope.
+  reason: This is a research publication and model announcement, not a developer-facing tool, agent, framework, or product suitable for the catalog.
   evidence:
-    - The URL points to a Microsoft Research publication page, not a usable tool or repo.
-    - The excerpt describes a technical report on model architecture and training recipes, not a developer-facing product.
-    - It is listed in awesome-ai-coding-tools under 'Code Models', which is a category for the models themselves rather than developer tooling.
+    - The item is a Microsoft Research technical report PDF, not a usable tool or repo.
+    - It describes a trained model (phi-4) and training recipe rather than shipping developer infrastructure.
+    - Awesome list placement under 'Code Models' reflects model interest, not that it is a developer tool.
 placement:
   primary_category: null
   section: null
@@ -58,20 +56,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:51:59.589Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.733Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:34:21.775Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

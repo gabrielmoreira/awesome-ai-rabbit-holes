@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__saten__work__status__1674855573412810753__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,21 +35,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Twitter/X post referencing a project called BabyCommandAGI, listed in an awesome-ai-agents directory.
-  why_it_matters: It represents an entry point into the ecosystem of autonomous agent experiments, though the actual tool content is inaccessible.
-  mental_damage: We are now curating social media statuses as infrastructure, in case the singularity happened between a scroll and a refresh.
+  summary: A tweet linking to BabyCommandAGI, an experimental autonomous coding agent listed in the awesome-ai-agents directory.
+  why_it_matters: It represents an early attempt at command-driven autonomous coding agents that helps map the lineage of tools influencing today's agent ecosystem.
+  mental_damage: We are now citing tweets as primary sources for agent genealogy, because the half-life of AI tools is roughly the same as a Twitter thread's relevance.
   tags:
     - agents
     - autonomous
-    - links
-  confidence: high
+    - cli
+    - experimental
+  confidence: low
 curation:
   status: excluded
-  reason: The URL points to a Twitter status that is inaccessible due to privacy extensions or site errors, providing no project tooling, README, or usable context to verify developer utility.
+  reason: The input is a Twitter status link that returns an error page, providing no usable product description, README, or functional tool to evaluate.
   evidence:
-    - URL is a Twitter/X status (x.com/saten_work/status/...) that returned a privacy/error page instead of content.
-    - No repository description, README, homepage, or code context was provided.
-    - Only signal is directory placement in awesome-ai-agents under 'BabyCommandAGI', which is not sufficient without a usable project surface.
+    - The URL resolves to a privacy-error page on x.com with no accessible content.
+    - No repo description, README excerpt, or scraped site context is available.
+    - Only a second-hand mention in awesome-ai-agents exists, referencing 'BabyCommandAGI' with no direct project details.
 placement:
   primary_category: null
   section: null
@@ -59,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:54:24.486Z"
+    updated_at: "2026-05-06T22:36:42.155Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

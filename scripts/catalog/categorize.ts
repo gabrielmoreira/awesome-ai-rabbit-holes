@@ -1,8 +1,6 @@
 import { createHash } from "node:crypto";
 import {
-  DEFAULT_INSIGHT_PROMPT_PROFILE,
   parseAIInsightResponse,
-  type InsightPromptProfile,
 } from "./categorize-prompt.ts";
 import { loadCatalogItems, loadCategories, saveCatalogItem } from "./data.ts";
 import {
@@ -23,14 +21,8 @@ import { shouldRefreshMetadata } from "./stars.ts";
 import type { CatalogConfig, CatalogItem, Category } from "./types.ts";
 
 
-export const CATALOG_CATEGORIZE_PROMPT_PROFILE: InsightPromptProfile = DEFAULT_INSIGHT_PROMPT_PROFILE;
-const PROMPT_VERSION_BY_PROFILE: Record<InsightPromptProfile, string> = {
-  "baseline-current": "catalog-categorize-v2-baseline",
-  "definition-first": "catalog-categorize-v3-definition",
-  "definition-with-examples": "catalog-categorize-v3-examples",
-};
 const MIN_AI_INSIGHT_START_BUDGET_MS = 5_000;
-export const CATALOG_CATEGORIZE_PROMPT_VERSION = PROMPT_VERSION_BY_PROFILE[CATALOG_CATEGORIZE_PROMPT_PROFILE];
+export const CATALOG_CATEGORIZE_PROMPT_VERSION = "catalog-categorize-v5-single-template";
 export const MAX_CONSECUTIVE_LLM_FAILURES = 20;
 const CATEGORIZE_BUDGET_EXHAUSTED_MESSAGE = "Categorization budget expired before this item was claimed";
 const CATALOG_LLM_JITTER_MIN_MS = 50;
@@ -134,7 +126,7 @@ function categoryRulesVersion(categories: Category[]): string {
           id: category.id,
           name: category.name,
           description: category.description,
-          prompt_instruction: category.prompt_instruction ?? null,
+          prompt: category.prompt,
           sections: category.sections ?? [],
         })),
       ),
@@ -307,13 +299,11 @@ export async function enrichWithAIInsights(
   item: CatalogItem,
   categories: Category[],
   runPrompt: (prompt: string) => Promise<string> = runCatalogLlmPrompt,
-  options: { force?: boolean; profile?: InsightPromptProfile } = {},
+  options: { force?: boolean } = {},
 ): Promise<CatalogItem> {
   if (!options.force && !needsAIInsights(item)) return item;
 
-  const profile = options.profile ?? CATALOG_CATEGORIZE_PROMPT_PROFILE;
-  const prompt = buildCatalogInsightPrompt(item, categories, { profile });
-
+  const prompt = buildCatalogInsightPrompt(item, categories);
   try {
     const raw = await runPrompt(prompt);
     return applyAIInsights(item, parseAIInsightResponse(raw), categories, { forceCategory: options.force === true });

@@ -1,13 +1,13 @@
 id: github__automl__hpbandster
 kind: github-repo
-name: HpBandSter
+name: hpbandster
 canonical_url: https://github.com/automl/hpbandster
 identity:
   github_repo: automl/hpbandster
 provenance:
   discoveries:
     - id: discovery__github__automl__hpbandster__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,27 +37,27 @@ metadata:
       - bayesian-optimization
       - hyperparameter-optimization
       - neural-architecture-search
-    last_checked_at: "2026-05-05T21:01:12.978Z"
+    last_checked_at: "2026-05-06T22:12:46.086Z"
     readme:
-      fetched_at: "2026-05-05T21:01:12.978Z"
+      fetched_at: "2026-05-06T22:12:46.086Z"
       bytes: 2140
 insights:
-  summary: A Python framework for distributed hyperparameter optimization implementing Hyperband and BOHB for tuning machine learning models.
-  why_it_matters: It provides a code-first way to scale HPO workloads across multiple workers, which is useful for developers training models that require extensive tuning.
-  mental_damage: "Just what the modern developer needs: another sophisticated way to burn compute cycles searching for the perfect learning rate while the model still can't recognize a stop sign."
+  summary: A Python framework for distributed hyperparameter optimization implementing Hyperband and BOHB for ML model tuning.
+  why_it_matters: It provides a structured way to automate the expensive search for optimal model hyperparameters across distributed compute environments.
+  mental_damage: "Just what the modern developer needs: yet another sophisticated way to burn CPU cycles tweaking learning rates while the actual business logic remains unimplemented."
   tags:
     - automl
     - hyperparameter-optimization
+    - distributed
     - machine-learning
-    - python
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic machine learning research framework for hyperparameter optimization, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: This is a traditional machine learning infrastructure library for hyperparameter tuning, not a developer-facing AI tool, agent, or coding workflow product.
   evidence:
-    - Repo description and README focus on HPO, Bayesian optimization, and neural architecture search, not developer tooling.
-    - Topics include automated-machine-learning and automl, targeting ML researchers rather than software engineers.
-    - The maintainers explicitly state the repo is no longer maintained and recommend migrating to SMAC3 or DEHB.
+    - Repo description and README focus on distributed hyperparameter optimization, BOHB, and neural architecture search.
+    - Topics include automated-machine-learning, automl, and bayesian-optimization, which are ML research/engineering areas outside the catalog's developer-tooling scope.
+    - The README notes the package is unmaintained and recommends migrating to SMAC3 or DEHB.
 placement:
   primary_category: null
   section: null
@@ -65,21 +65,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (630) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:09:37.289Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:12.978Z"
+    updated_at: "2026-05-06T22:12:46.086Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:22:55.655Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

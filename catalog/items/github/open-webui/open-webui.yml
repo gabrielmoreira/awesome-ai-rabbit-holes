@@ -1,0 +1,96 @@
+id: github__open-webui__open-webui
+kind: github-repo
+name: open-webui
+canonical_url: https://github.com/open-webui/open-webui
+identity:
+  github_repo: open-webui/open-webui
+provenance:
+  discoveries:
+    - id: discovery__github__open-webui__open-webui__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Open WebUI
+        extracted_url: https://github.com/open-webui/open-webui
+        surrounding_text: "2. [Open WebUI](https://github.com/open-webui/open-webui): User-friendly WebUI for LLMs (Formerly Ollama WebUI)."
+        confidence: high
+metadata:
+  github:
+    stars: 135794
+    forks: 19336
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-10-06T22:08:27Z"
+    pushed_at: "2026-05-06T21:24:11Z"
+    description: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+    homepage: https://openwebui.com
+    topics:
+      - ai
+      - llm
+      - llm-ui
+      - llm-webui
+      - llms
+      - mcp
+      - ollama
+      - ollama-webui
+      - open-webui
+      - openai
+      - openapi
+      - rag
+      - self-hosted
+      - ui
+      - webui
+    last_checked_at: "2026-05-06T22:45:40.261Z"
+    readme:
+      fetched_at: "2026-05-06T22:45:40.261Z"
+      bytes: 15998
+insights:
+  summary: Open WebUI is a self-hosted, extensible web interface for interacting with local LLMs via Ollama or OpenAI-compatible APIs, featuring built-in RAG, Python function calling, and multi-model chat.
+  why_it_matters: It provides developers with a private, full-featured local chat UI and tooling surface that supports custom model creation, document ingestion, and extensible Python functions without relying on external cloud services.
+  mental_damage: One more self-hosted UI to maintain, secure, and explain to your team, just in case you needed another yak to shave before you actually write code.
+  tags:
+    - self-hosted
+    - local-ai
+    - webui
+    - rag
+    - ollama
+  confidence: high
+curation:
+  status: included
+  reason: It is a self-hosted, local-first web interface for running and interacting with LLMs on your own hardware, which is the canonical shape of a Local AI desktop/chat product.
+  evidence:
+    - "Repo description: 'User-friendly AI Interface (Supports Ollama, OpenAI API, ...)'"
+    - "README: 'self-hosted AI platform designed to operate entirely offline... supports various LLM runners like Ollama and OpenAI-compatible APIs'"
+    - Topics and homepage clearly position it as a self-hosted web UI with 135k stars and active development.
+placement:
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (135794) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.640Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:45:40.261Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:19:06.551Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

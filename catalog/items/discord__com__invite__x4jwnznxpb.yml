@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__discord__com__invite__x4jwnznxpb__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -34,21 +34,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An invite-only Discord community for users of the CrewAI multi-agent orchestration framework.
-  why_it_matters: It provides a support and discussion channel for developers building agentic workflows with the CrewAI framework.
-  mental_damage: Yet another Discord invite link masquerading as a 'project' in a tooling list, because apparently joining a chat room counts as installing infrastructure now.
+  summary: An invitation-only Discord server serving as the community hub for CrewAI users and contributors.
+  why_it_matters: The Discord provides a centralized place for developers to discuss multi-agent orchestration patterns, share workflows, and get support for the CrewAI framework.
+  mental_damage: Yet another exclusive Discord invite link masquerading as a tool in an awesome list, ensuring you can only experience the FOMO if you successfully click the blue button.
   tags:
     - community
     - discord
+    - multi-agent
     - crewai
   confidence: high
 curation:
   status: excluded
-  reason: This is a Discord invite link to a community chat, not a developer tool, framework, or product that fits the catalog's scope.
+  reason: This is a Discord invite link to a community chat server, not a standalone developer tool, framework, or product, and therefore falls outside the catalog's scope.
   evidence:
-    - URL points to discord.com/invite/X4JWnZnxPb, which is a chat server invite, not a tool or repo.
-    - Scraped context confirms it is 'The community discord for CrewAI' with 7621 members.
-    - No repository, code, or product exists here—only a social channel for discussion.
+    - URL points to discord.com/invite/X4JWnZnxPb rather than a tool, repo, or product page.
+    - Source-list context confirms it is 'The community discord for CrewAI' with 7622 members.
+    - No repo description, README, code, or scraped product content exists beyond the community server description.
 placement:
   primary_category: null
   section: null
@@ -58,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-05T19:43:49.391Z"
+    updated_at: "2026-05-06T22:16:15.391Z"
     cause: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

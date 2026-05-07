@@ -1,0 +1,88 @@
+id: github__datawhalechina__tiny-universe
+kind: github-repo
+name: tiny-universe
+canonical_url: https://github.com/datawhalechina/tiny-universe
+identity:
+  github_repo: datawhalechina/tiny-universe
+provenance:
+  discoveries:
+    - id: discovery__github__datawhalechina__tiny-universe__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: Tiny LLM Universe
+        extracted_url: https://github.com/datawhalechina/tiny-universe
+        surrounding_text: 10. [Tiny LLM Universe](https://github.com/datawhalechina/tiny-universe)
+        confidence: high
+metadata:
+  github:
+    stars: 4804
+    forks: 463
+    license: null
+    archived: false
+    created_at: "2024-04-06T13:55:07Z"
+    pushed_at: "2026-02-12T02:00:08Z"
+    description: 《大模型白盒子构建指南》：一个全手搓的Tiny-Universe
+    homepage: ""
+    topics:
+      - agent
+      - diffusion
+      - evaluation-metrics
+      - llama
+      - qwen
+      - rag
+      - transformers
+    last_checked_at: "2026-05-06T22:43:33.876Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:33.876Z"
+      bytes: 14798
+insights:
+  summary: A Chinese-language, from-scratch educational guide that rebuilds LLM core components—including models, RAG, agents, and evaluation—using only PyTorch and NumPy.
+  why_it_matters: It provides developers with a transparent, code-level look at how LLMs, RAG systems, and agents actually work under the hood, moving beyond black-box API usage.
+  mental_damage: Just when you thought you could abstract away the math forever, here comes a guide to hand-coding your own Transformer—because who doesn't want to debug their own attention mechanism at 2 AM?
+  tags:
+    - llm
+    - rag
+    - agent
+    - education
+    - from-scratch
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational tutorial and learning resource, not a developer tool, framework, or product that fits into the catalog's tooling categories.
+  evidence:
+    - README states the project is a 'guide' and 'tutorial' aimed at learners building from 'pure hand-crafted' code for educational purposes.
+    - Project identity is a '白盒子构建指南' (white-box construction guide) with no operational tool, CLI, SDK, or platform surface.
+    - Appears in source lists under 'LLM resources' and 'Tips', reinforcing its identity as a learning resource rather than a product.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (4804) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:33.876Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:51:50.882Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,0 +1,75 @@
+id: bondai__dev
+kind: website
+name: bondai.dev
+canonical_url: https://bondai.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__bondai__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BondAI
+        anchor_text: BondAI
+        extracted_url: https://bondai.dev
+        surrounding_text: "## [BondAI](https://bondai.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: BondAI is a framework for building AI autonomous agents, listed in the awesome-ai-agents directory.
+  why_it_matters: It provides developers with a structured way to create and manage autonomous agents, sitting in the broader ecosystem of agentic tooling.
+  mental_damage: Yet another entry in the autonomous agent sweepstakes, proving that if you build a framework for digital workers, you too can achieve the timeless honor of being a bullet point in an awesome list.
+  tags:
+    - agents
+    - framework
+    - autonomous
+  confidence: low
+curation:
+  status: excluded
+  reason: Excluded because the input provides no functional README, description, or site context to verify it is an active developer tool rather than a dormant or generic framework.
+  evidence:
+    - No repository description, README excerpt, or scraped site description was provided.
+    - Appears in awesome-ai-agents but source-list context is evidence, not destiny, and the entry lacks substance.
+    - No stars, license, or activity dates available to gauge viability.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.659Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:14:48.264Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

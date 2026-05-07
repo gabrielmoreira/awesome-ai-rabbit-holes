@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joinly-ai__joinly__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 497
+    stars: 498
     forks: 81
     license: MIT
     archived: false
@@ -46,49 +46,50 @@ metadata:
       - python
       - transcription
       - voice-ai
-    last_checked_at: "2026-05-05T21:02:57.867Z"
+    last_checked_at: "2026-05-06T22:44:36.572Z"
     readme:
-      fetched_at: "2026-05-05T21:02:57.867Z"
+      fetched_at: "2026-05-06T22:44:36.572Z"
       bytes: 14179
 insights:
-  summary: Middleware that lets AI agents join video calls via an MCP server to interact through voice or chat during meetings.
-  why_it_matters: Developers can connect AI agents to meetings to automate tasks like creating GitHub issues or updating Notion pages in real time.
-  mental_damage: We have finally bridged the gap between "too many meetings" and "too many autonomous agents," so your calendar can now debate you directly.
+  summary: An open-source MCP server and middleware that lets AI agents join video calls to interact via voice or chat and execute tasks like updating GitHub issues or Notion pages.
+  why_it_matters: It gives developers a way to embed agent actions directly into live meetings, bridging real-time collaboration with automated workflow execution.
+  mental_damage: Now your AI agent can sit in standup, interrupt you with context window issues, and file a GitHub issue before you’ve even finished explaining the bug.
   tags:
     - mcp
-    - meeting-agent
+    - agents
+    - meetings
     - middleware
-    - voice-ai
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server and middleware specifically designed to give AI agents meeting capabilities via the Model Context Protocol.
+  reason: The product's primary identity is an MCP server that exposes meeting tools and resources, making MCP the core adoption surface rather than a secondary integration.
   evidence:
-    - "Repo description states: 'Make your meetings accessible to AI Agents'"
-    - README describes joinly.ai as 'a connector middleware' that 'provides essential meeting tools and resources' via its MCP server
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - "Repo description: 'Make your meetings accessible to AI Agents' and README lead with MCP server tooling."
+    - "README highlights: 'through its MCP server, joinly.ai provides essential meeting tools and resources'."
+    - Listed in awesome-mcp-servers under Communication, reinforcing MCP as the product identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (497) exceeded threshold (150)
+  reason: Stars (498) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:57.867Z"
+    updated_at: "2026-05-06T22:44:36.572Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:57.014Z"
+    updated_at: "2026-05-06T23:04:41.819Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

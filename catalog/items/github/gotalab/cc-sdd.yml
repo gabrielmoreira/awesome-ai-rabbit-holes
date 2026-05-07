@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gotalab__cc-sdd__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3267
-    forks: 242
+    stars: 3273
+    forks: 241
     license: MIT
     archived: false
     created_at: "2025-07-17T04:41:37Z"
@@ -44,50 +44,50 @@ metadata:
       - spec-driven-development
       - steering
       - subagents
-    last_checked_at: "2026-05-05T21:02:25.575Z"
+    last_checked_at: "2026-05-06T22:44:05.732Z"
     readme:
-      fetched_at: "2026-05-05T21:02:25.575Z"
+      fetched_at: "2026-05-06T22:44:05.732Z"
       bytes: 11889
 insights:
-  summary: A spec-driven development harness that installs 17 reusable Agent Skills into AI coding agents to turn approved specs into long-running autonomous implementation with per-task review and auto-debug.
-  why_it_matters: It gives teams a structured, boundary-first spec loop that lets humans approve contracts at phase gates while agents handle TDD, review, and debugging across eight different coding assistants.
-  mental_damage: We have successfully abstracted project management into markdown files so that eight different AI agents can independently discover, design, and debug their way into the same architectural mess.
+  summary: A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation.
+  why_it_matters: It gives teams a structured SDLC loop—discovery, requirements, design, tasks, and per-task review—that runs across eight different coding agents with the same 17-skill set.
+  mental_damage: You can now run an autonomous TDD loop with feature flags and root-cause auto-debug across eight different AI agents, which means your primary new job is deciding which agent's autonomous implementation you're going to regret approving.
   tags:
-    - spec-driven-development
-    - agent-skills
-    - autonomous-implementation
-    - multi-agent
     - sdd
+    - agent-skills
+    - spec-driven
+    - multi-agent
+    - autonomous-impl
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill pack (17 skills) distributed as a CLI tool for Claude Code, Cursor, Copilot, and other hosts, which fits the skills category exactly.
+  reason: The product's core identity is a spec-first execution loop with discovery, design, task decomposition, and autonomous implementation with review, making it a clear fit for Spec-Driven Development rather than just a skill pack or generic extension.
   evidence:
-    - Repo description explicitly calls it 'a minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.'
-    - README states '17 skills per install, loaded on demand' and the package installs skills into existing agents rather than being a standalone assistant.
-    - Listed in awesome-spec-driven-development under 'Development Frameworks' and covers spec-driven, agentic SDLC workflows.
+    - Repo description explicitly calls it a 'minimal, adaptable SDD harness with Agent Skills' for multiple coding agents.
+    - README states cc-sdd v3.0 is built around 'long-running autonomous implementation' with discovery, design.md boundaries, tasks.md, and per-task review/auto-debug.
+    - Listed in awesome-spec-driven-development under 'Development Frameworks' and carries the spec-driven-development topic.
 placement:
-  primary_category: skills
-  section: null
+  primary_category: spec-driven-development
+  section: Execution Loops & Repair
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3267) exceeded threshold (150)
+  reason: Stars (3273) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.689Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:25.575Z"
+    updated_at: "2026-05-06T22:44:05.732Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:22:27.274Z"
+    updated_at: "2026-05-06T22:58:26.320Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

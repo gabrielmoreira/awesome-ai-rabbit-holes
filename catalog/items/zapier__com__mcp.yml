@@ -1,12 +1,12 @@
 id: zapier__com__mcp
 kind: website
-name: Zapier
+name: mcp
 canonical_url: https://zapier.com/mcp
 identity: {}
 provenance:
   discoveries:
     - id: discovery__zapier__com__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,44 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Zapier MCP is a hosted MCP server that exposes 30,000+ Zapier actions across 9,000+ apps to AI clients like Claude, ChatGPT, and Cursor.
-  why_it_matters: It lets developers connect any MCP-compatible AI client to a massive library of pre-authenticated app actions without writing integration code or managing OAuth flows.
-  mental_damage: We have successfully abstracted the abstraction, so your AI can now trigger a Zap that triggers a webhook that triggers your CI, and nobody knows where the actual logic lives anymore.
+  summary: Zapier MCP is a hosted MCP server that exposes over 30,000 actions across 9,000+ apps to AI clients like Claude, ChatGPT, and Cursor via the Model Context Protocol.
+  why_it_matters: It gives developers a no-code bridge to connect any MCP-compatible AI tool to a massive library of pre-authenticated business and productivity apps without managing individual OAuth flows or server configs.
+  mental_damage: We have successfully abstracted the abstraction by wrapping the entire SaaS ecosystem in a single protocol, ensuring your AI can now confidently mark your Slack messages as unread across nine thousand apps.
   tags:
-    - automation
-    - integrations
     - mcp
-    - tooling
+    - integrations
     - zapier
+    - hosted-server
+    - no-code
   confidence: high
 curation:
   status: included
-  reason: The product is itself an MCP server (infrastructure) that exposes Zapier's integration layer to MCP-compatible AI clients, fitting the MCP category explicitly.
+  reason: Zapier MCP is a canonical MCP server product that exposes the Zapier ecosystem via the Model Context Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Marketing title and description state: 'Zapier MCP connects Claude, ChatGPT, and other tools to 30,000+ actions across 9,000+ apps.'"
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory.
-    - Technical documentation explicitly references 'configuring servers, enabling MCP clients, and orchestrating workflows' via the MCP standard.
+    - Product page explicitly brands itself as 'Zapier MCP' and explains how it 'connects Claude, ChatGPT, and other tools to 30,000+ actions'.
+    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers', confirming its identity as an MCP server.
+    - "Core value proposition is acting as an MCP middleware layer: 'One setup. Every app. Every AI.'"
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:54:34.296Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.734Z"
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:36:52.030Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

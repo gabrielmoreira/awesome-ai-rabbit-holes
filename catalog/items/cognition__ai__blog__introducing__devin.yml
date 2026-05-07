@@ -1,12 +1,12 @@
 id: cognition__ai__blog__introducing__devin
 kind: website
-name: Devin
+name: introducing-devin
 canonical_url: https://cognition.ai/blog/introducing-devin
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cognition__ai__blog__introducing__devin__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin is an autonomous AI software engineer designed to plan, execute, and review complex engineering tasks, including coding, debugging, and deploying applications within a sandboxed environment.
-  why_it_matters: It aims to act as a tireless teammate that can handle end-to-end tasks from bug fixes to full app deployment, allowing developers to shift focus to higher-level engineering challenges.
-  mental_damage: Just when you thought attending stand-ups was the only ritual proving you are employed, now you have to review PRs from a teammate that doesn't drink coffee or complain about Jira.
+  summary: Devin is a fully autonomous AI software engineer designed to plan, execute, and debug complex engineering tasks independently within a sandboxed environment.
+  why_it_matters: It demonstrated a step-function increase in autonomous coding capability on SWE-bench, setting a new bar for what 'agentic' repair looks like in production repositories.
+  mental_damage: We have officially reached the point where the 'teammate' introduction email comes with a higher SWE-bench score than your last intern.
   tags:
-    - ai-teammate
-    - autonomous-agents
     - coding-agent
+    - autonomous
     - swe-bench
+    - devin
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly marketed as an autonomous AI software engineer that collaborates on code, handles PRs, and works within a development environment, fitting the coding-agents definition.
+  reason: The product is positioned as a primary, autonomous coding assistant that handles repo work, debugging, and deployment independently, fitting the Coding Agents definition.
   evidence:
-    - Source list context describes it as 'the world’s first fully autonomous AI software engineer' focused on the SWE-bench coding benchmark.
-    - Blog excerpt states Devin 'plans and executes complex engineering tasks' and 'collaborates with the user' on code, fixes bugs, and deploys apps.
-    - The tool is equipped with developer tools like 'the shell, code editor, and browser within a sandboxed compute environment' to do engineering work.
+    - Blog describes Devin as 'the world’s first fully autonomous AI software engineer'.
+    - Claims capability to 'plan and execute complex engineering tasks requiring thousands of decisions' and fix bugs in mature repos like sympy.
+    - Featured in awesome-ai-agents list specifically for setting the state of the art on SWE-bench.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:08.440Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:22.027Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

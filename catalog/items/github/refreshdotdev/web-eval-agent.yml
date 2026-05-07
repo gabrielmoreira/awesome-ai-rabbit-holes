@@ -6,24 +6,8 @@ identity:
   github_repo: refreshdotdev/web-eval-agent
 provenance:
   discoveries:
-    - id: discovery__github__operative-sh__web-eval-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
-      source:
-        type: awesome-list
-        name: punkpeye/awesome-mcp-servers
-        url: https://github.com/punkpeye/awesome-mcp-servers
-        repository: punkpeye/awesome-mcp-servers
-      extraction:
-        mode: parsed
-        section_path:
-          - Server Implementations
-          - 📂 <a name="browser-automation"></a>Browser Automation
-        anchor_text: operative_sh/web-eval-agent
-        extracted_url: https://github.com/operative-sh/web-eval-agent
-        surrounding_text: "- [operative_sh/web-eval-agent](https://github.com/Operative-Sh/web-eval-agent) 🐍 🏠 🍎 - An MCP Server that autonomously debugs web applications with browser-use browser agents"
-        confidence: high
     - id: discovery__github__refreshdotdev__web-eval-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T22:33:31.148Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -58,50 +42,50 @@ metadata:
       - qa
       - vibe-coding
       - vibe-testing
-    last_checked_at: "2026-05-05T21:04:07.812Z"
+    last_checked_at: "2026-05-06T22:46:08.540Z"
     readme:
-      fetched_at: "2026-05-05T21:04:07.812Z"
+      fetched_at: "2026-05-06T22:46:08.540Z"
       bytes: 7145
 insights:
-  summary: An MCP server that launches a browser-based agent to autonomously navigate, test, and debug web applications directly from an IDE.
-  why_it_matters: It allows developers to delegate end-to-end web app testing and UI debugging to an agent that captures network traffic, console errors, and screenshots within the editor workflow.
-  mental_damage: We have finally reached the point where the AI writes the bug, and a different AI instance spins up a headless browser to tell you that the first AI failed.
+  summary: An MCP server that launches a browser-use agent to autonomously execute, debug, and report on web app behavior directly from an IDE.
+  why_it_matters: It lets coding agents like Cursor or Claude Code verify their own frontend changes by running tasks through a real browser and returning UX, console, and network reports.
+  mental_damage: We have finally closed the loop where the agent writes the bug, spins up a browser to find the bug, and then waits for you to tell it that the bug report is also wrong.
   tags:
-    - browser-automation
-    - debugging
     - mcp
-    - qa
-    - web-testing
+    - browser-testing
+    - debugging
+    - web-eval
+    - qa-automation
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server designed to integrate with editors like Cursor and Cline, fitting the MCP infrastructure category.
+  reason: The product is an MCP integration that extends coding assistants with autonomous browser-based testing and debugging capabilities, making it an extension rather than a primary agent.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that autonomously evaluates web applications.'"
-    - README details integration as an MCP tool called via IDE chat (Cursor/Cline/Windsurf) to test apps at localhost URLs.
-    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
+    - Repo description explicitly states 'An MCP server that autonomously evaluates web applications.'
+    - README shows it is triggered from IDE chats in Cursor/Cline/Windsurf to test apps via `web_eval_agent` tool.
+    - Tagged as an extension in awesome-mcp-servers under 'Browser Automation' and augments the host agent's capabilities.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (1239) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:01.939Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T22:33:31.152Z"
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:07.812Z"
+    updated_at: "2026-05-06T22:46:08.540Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:23.175Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

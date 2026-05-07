@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nteract__semiotic__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2660
+    stars: 2661
     forks: 136
     license: Apache-2.0
     archived: false
     created_at: "2017-03-16T17:46:24Z"
-    pushed_at: "2026-05-05T05:48:25Z"
+    pushed_at: "2026-05-06T16:09:31Z"
     description: React data visualization library for streaming, networks, and AI-assisted development
     homepage: https://semiotic.nteract.io
     topics:
@@ -40,49 +40,50 @@ metadata:
       - react
       - streaming
       - visualization
-    last_checked_at: "2026-05-05T21:03:56.561Z"
+    last_checked_at: "2026-05-06T22:45:34.586Z"
     readme:
-      fetched_at: "2026-05-05T21:03:56.561Z"
+      fetched_at: "2026-05-06T22:45:34.586Z"
       bytes: 21858
 insights:
-  summary: A React data visualization library that ships with machine-readable schemas, an MCP server, and AI-optimized components to help LLMs generate correct chart code on the first try.
-  why_it_matters: Developers can use AI assistants to scaffold complex visualizations—including network graphs and streaming data—without the usual hallucinated props and trial-and-error debugging.
-  mental_damage: Your AI can now generate a force-directed graph with confidence envelopes and anomaly detection in one shot, leaving you to wonder if you still understand the data or just the prompt.
+  summary: A React data visualization library that ships with machine-readable schemas, an MCP server, and LLM-friendly documentation to help AI coding assistants generate correct chart code.
+  why_it_matters: It reduces the trial-and-error loop when asking assistants to build complex charts by giving them structured schemas and validation tools for network graphs, streaming data, and coordinated dashboards.
+  mental_damage: Another charming installment in our ongoing saga of wrapping excellent libraries in just enough AI scaffolding so your assistant can confidently hallucinate a pie chart.
   tags:
     - react
     - data-visualization
     - mcp
-    - ai-assisted-dev
+    - llm-tooling
+    - charts
   confidence: high
 curation:
   status: included
-  reason: This is a code-first React library and SDK that adds AI-generation primitives, MCP tooling, and schemas for developers building visualization workflows, making it a strong fit for AI Frameworks and SDKs.
+  reason: The product identity is a React chart library, but it ships a first-class MCP server (npx semiotic-mcp) and machine-readable schemas specifically to integrate with AI coding assistants, making MCP the strongest categorical fit.
   evidence:
-    - "Repo description: 'React data visualization library for streaming, networks, and AI-assisted development'"
-    - README states it ships 'semiotic/ai' import, ai/schema.json, npx semiotic-mcp server, and CLAUDE.md instruction files for AI coding assistants
-    - Listed in awesome-mcp-servers under Data Visualization, confirming MCP ecosystem relevance
+    - "Repo description explicitly states: 'React data visualization library for streaming, networks, and AI-assisted development'"
+    - README includes 'npx semiotic-mcp — an MCP server for tool-based chart rendering in any MCP client'
+    - Featured in awesome-mcp-servers under Data Visualization, confirming MCP ecosystem relevance
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2660) exceeded threshold (150)
+  reason: Stars (2661) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:56.561Z"
+    updated_at: "2026-05-06T22:45:34.586Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:02.541Z"
+    updated_at: "2026-05-06T23:17:46.177Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

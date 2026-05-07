@@ -1,13 +1,13 @@
 id: github__tambo-ai__tambo
 kind: github-repo
-name: Tambo
+name: tambo
 canonical_url: https://github.com/tambo-ai/tambo
 identity:
   github_repo: tambo-ai/tambo
 provenance:
   discoveries:
     - id: discovery__github__tambo-ai__tambo__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -23,47 +23,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11149
+    forks: 565
+    license: MIT
+    archived: false
+    created_at: "2024-06-15T17:11:37Z"
+    pushed_at: "2026-05-05T18:19:03Z"
+    description: Generative UI SDK for React
+    homepage: https://tambo.co
+    topics:
+      - agent
+      - agents
+      - ai
+      - assistant
+      - assistant-chat-bots
+      - generative-ui
+      - js
+      - react
+      - reactjs
+      - ui
+      - ui-components
+    last_checked_at: "2026-05-06T22:46:40.460Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:40.460Z"
+      bytes: 12037
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source React SDK and backend toolkit that lets developers register UI components with Zod schemas so an LLM agent can select and stream props to render generative user interfaces.
+  why_it_matters: It gives React developers a structured way to wire existing UI components into an agent-driven conversation loop without building custom streaming and state infrastructure.
+  mental_damage: Yet another reminder that your beautifully handcrafted component library is now just a Zod schema waiting to be hallucinated into a chat window.
+  tags:
+    - react
+    - generative-ui
+    - agent-sdk
+    - streaming
+    - llm
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Tambo is a code-first SDK and backend used by developers to build agent-driven UIs in React, making it a strong fit for Agent Frameworks under Frameworks & SDKs.
+  evidence:
+    - "Repo description: 'Generative UI SDK for React'"
+    - "README: 'React toolkit for building agents that render UI… You get a React SDK plus a backend that handles conversation state and agent execution.'"
+    - Topics and README emphasize SDK, Zod schemas, streaming infrastructure, and framework integrations (LangChain, Mastra).
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11149) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:40.461Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:29.160Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

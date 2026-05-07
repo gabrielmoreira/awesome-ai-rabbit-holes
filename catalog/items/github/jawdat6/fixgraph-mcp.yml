@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jawdat6__fixgraph-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:52.943Z"
+    last_checked_at: "2026-05-06T22:44:32.272Z"
     readme:
-      fetched_at: "2026-05-05T21:02:52.943Z"
+      fetched_at: "2026-05-06T22:44:32.272Z"
       bytes: 2125
 insights:
-  summary: An MCP server that lets AI assistants search, retrieve, and submit verified fixes for technical errors from the FixGraph community database.
-  why_it_matters: It connects coding agents directly to a 25,000+ fix database, allowing them to resolve common errors like ERESOLVE or Docker crashes without hallucinating solutions or forcing developers to leave their workflow.
-  mental_damage: We’ve finally built a tool that lets your AI agent double-check its work against a community database, ensuring it can confidently apply the wrong fix with verified authority.
+  summary: An MCP server that connects AI assistants to FixGraph, a database of 25,000+ community-verified fixes for real-world technical errors.
+  why_it_matters: It allows coding agents to pull verified solutions for common runtime and dependency errors directly into the chat context instead of hallucinating fixes.
+  mental_damage: We have successfully abstracted the experience of Googling an error message into a protocol that allows your AI to do the Stack Overflow dance for you.
   tags:
     - mcp
-    - debugging
     - error-fixes
-    - agent-tooling
-  confidence: medium
+    - debugging
+    - community
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone MCP server designed to expose the FixGraph fix database to MCP-compatible AI assistants, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is an MCP server providing access to a specific domain database (FixGraph), fitting the MCP Servers & Tooling category.
   evidence:
-    - README explicitly defines the project as an MCP server with tools like fixgraph_search and fixgraph_get_fixes.
-    - Installation instructions target Claude Desktop, Cursor, and Windsurf via standard MCP config JSON.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools'.
+    - Repo is named 'fixgraph-mcp' and the README explicitly describes it as an MCP Server.
+    - Lists tools like fixgraph_search and fixgraph_get_fixes to query a database of technical fixes.
+    - Installation instructions target Claude Desktop, Cursor, and Windsurf via standard MCP config.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.699Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:52.943Z"
+    updated_at: "2026-05-06T22:44:32.272Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:27:57.149Z"
+    updated_at: "2026-05-06T23:03:49.762Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,13 +1,13 @@
 id: github__alpa-projects__alpa
 kind: github-repo
-name: Alpa
+name: alpa
 canonical_url: https://github.com/alpa-projects/alpa
 identity:
   github_repo: alpa-projects/alpa
 provenance:
   discoveries:
     - id: discovery__github__alpa-projects__alpa__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3187
+    stars: 3188
     forks: 362
     license: Apache-2.0
     archived: true
@@ -42,28 +42,28 @@ metadata:
       - jax
       - llm
       - machine-learning
-    last_checked_at: "2026-05-05T21:01:01.179Z"
+    last_checked_at: "2026-05-06T22:12:35.837Z"
     readme:
-      fetched_at: "2026-05-05T21:01:01.179Z"
+      fetched_at: "2026-05-06T22:12:35.837Z"
       bytes: 4526
 insights:
-  summary: Alpa is a system for automatically parallelizing and serving large-scale neural networks across distributed clusters using JAX and XLA.
-  why_it_matters: It allows ML engineers to scale training and inference of massive models with minimal code changes by automating complex distributed system techniques.
-  mental_damage: We now have an archived research artifact that automates the very distributed training complexity that the current wave of 'local AI' tools is trying to hide behind a single 7B parameter download.
+  summary: Alpa is an archived system for automatically parallelizing and serving large-scale neural networks across distributed clusters using JAX and XLA.
+  why_it_matters: It automates complex distributed training and model serving with minimal code changes, though its core algorithms have been upstreamed into XLA.
+  mental_damage: We spent years celebrating the breakthrough of auto-parallelization, only to neatly archive it and pretend the distributed training crisis is someone else's XLA problem now.
   tags:
     - auto-parallelization
-    - compiler
     - distributed-training
     - jax
     - llm-serving
+    - research-artifact
   confidence: high
 curation:
   status: excluded
-  reason: The project is archived and explicitly unmaintained, serving as a research artifact rather than an active developer tool.
+  reason: Excluded because the repository is archived, the maintainers explicitly state it is not actively maintained, and its core value has been merged into XLA, making it a research artifact rather than a practical developer tool.
   evidence:
-    - "Archived: yes (and README states 'Alpa is not actively maintained currently')"
-    - Scope is deep learning infrastructure and distributed training, not developer-facing coding tools
-    - Core algorithms have been merged into XLA, reducing the utility of the standalone repo
+    - Repository is marked as archived on GitHub.
+    - "README contains a note: 'Alpa is not actively maintained currently. It is available as a research artifact.'"
+    - "The README states: 'The core algorithm in Alpa has been merged into XLA, which is still being maintained.'"
 placement:
   primary_category: null
   section: null
@@ -71,21 +71,21 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:07:48.224Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:01.179Z"
+    updated_at: "2026-05-06T22:12:35.837Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:20:47.756Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

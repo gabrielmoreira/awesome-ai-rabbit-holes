@@ -1,12 +1,12 @@
 id: cspr__trade
 kind: website
-name: CSPR.trade
+name: cspr.trade
 canonical_url: https://cspr.trade
 identity: {}
 provenance:
   discoveries:
     - id: discovery__cspr__trade__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,42 +35,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CSPR.trade is a Model Context Protocol (MCP) server implementation for interacting with Casper blockchain financial data and trading operations.
-  why_it_matters: It allows developers building AI agents to give their models direct, structured access to blockchain finance tools via the MCP standard.
-  mental_damage: We have successfully abstracted blockchain trading into yet another server protocol, ensuring your AI agent can now lose money on decentralized finance with unprecedented interoperability.
+  summary: CSPR.trade is an MCP server providing Model Context Protocol access to cryptocurrency trading capabilities on the Casper blockchain.
+  why_it_matters: It allows AI coding agents and assistants to interact with CSPR blockchain financial operations through the standardized MCP interface.
+  mental_damage: Another day, another MCP server, because apparently your coding agent also needs to manage your altcoin portfolio while it struggles to fix a null pointer exception.
   tags:
-    - blockchain
-    - fintech
     - mcp
-    - server
+    - finance
+    - blockchain
+    - trading
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly listed as an MCP Server Implementation in the awesome-mcp-servers directory, fitting the MCP Servers and Tooling category.
+  reason: The product is listed in awesome-mcp-servers under Finance & Fintech and the domain itself (cspr.trade) indicates an MCP server for Casper blockchain trading.
   evidence:
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers source list.
-    - The URL https://cspr.trade and context indicate a specific server implementation for the Casper blockchain ecosystem.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - URL is cspr.trade, indicating a Casper blockchain trading focus
+    - No repo description or README provided, but source-list placement is specific and credible
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:23.555Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.727Z"
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:43.377Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

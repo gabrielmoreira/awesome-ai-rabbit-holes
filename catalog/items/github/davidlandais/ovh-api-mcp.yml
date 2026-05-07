@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidlandais__ovh-api-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - quickjs
       - rust
       - sandbox
-    last_checked_at: "2026-05-05T21:01:48.155Z"
+    last_checked_at: "2026-05-06T22:43:34.235Z"
     readme:
-      fetched_at: "2026-05-05T21:01:48.155Z"
+      fetched_at: "2026-05-06T22:43:34.235Z"
       bytes: 8292
 insights:
-  summary: A Rust-based MCP server that exposes the OVH API (v1 and v2) to LLM clients, allowing developers to search endpoints and execute API calls via JavaScript in a sandboxed QuickJS environment.
-  why_it_matters: It lets developers manage OVHcloud infrastructure—like DNS and services—directly through Claude or Cursor using natural language instead of manual API calls or scripts.
-  mental_damage: We have successfully reached the point where we need a sandboxed JavaScript runtime inside a Rust server just to ask an LLM to reboot a VPS for us.
+  summary: A native Rust MCP server that exposes the full OVH API (v1 and v2) to LLM clients like Claude and Cursor for endpoint exploration and execution via sandboxed JavaScript.
+  why_it_matters: It lets developers manage OVH cloud resources through natural language by translating LLM prompts into authenticated API calls validated against the live OpenAPI spec.
+  mental_damage: You can now manage your entire cloud infrastructure through a chat window, because nothing says 'safe production deploy' like letting a probabilistic autocomplete mutate your DNS records via QuickJS.
   tags:
     - mcp
     - ovh
-    - infrastructure
+    - cloud-api
     - rust
-    - devops
+    - infrastructure
   confidence: high
 curation:
   status: included
-  reason: The project is a native MCP server implementation for a specific cloud provider, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's primary identity is a specialized MCP server for a specific cloud provider, fitting cleanly into the Domain Servers section of MCP tooling.
   evidence:
-    - Repo description explicitly states 'MCP server for the OVH API'.
-    - README details a Rust implementation providing MCP tools (search, execute) for LLM clients like Claude and Cursor.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms', confirming its identity as an MCP implementation.
+    - Repo description explicitly identifies it as 'MCP server for the OVH API'.
+    - README confirms it 'exposes two MCP tools' (search and execute) for OVH endpoints.
+    - Listed in awesome-mcp-servers under 'Cloud Platforms', reinforcing its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.684Z"
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:48.155Z"
+    updated_at: "2026-05-06T22:43:34.236Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:15:37.219Z"
+    updated_at: "2026-05-06T22:51:55.905Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

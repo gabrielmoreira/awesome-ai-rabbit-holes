@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qnguyen3__chat-with-mlx__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,44 +32,50 @@ metadata:
     description: An all-in-one LLMs Chat UI for Apple Silicon Mac using MLX Framework.
     homepage: https://twitter.com/stablequan
     topics: []
-    last_checked_at: "2026-05-05T23:08:14.406Z"
+    last_checked_at: "2026-05-06T22:46:01.895Z"
     readme:
-      fetched_at: "2026-05-05T23:08:14.406Z"
+      fetched_at: "2026-05-06T22:46:01.895Z"
       bytes: 3820
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python-based local chat UI for running and interacting with open-source LLMs directly on Apple Silicon Macs using the MLX framework.
+  why_it_matters: Developers on Apple Silicon can test and iterate against models like Llama 3 and Codestral locally without cloud costs or privacy compromises.
+  mental_damage: Now you can run a model that writes code slower than you do, but at least it’s failing privately on your own hardware.
+  tags:
+    - local-ai
+    - apple-silicon
+    - mlx
+    - chat-ui
+    - privacy
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a local desktop interface for running LLMs on Apple Silicon, fitting the Local AI category's focus on on-device execution and local chat interfaces.
+  evidence:
+    - "Repo description: 'An all-in-one LLMs Chat UI for Apple Silicon Mac using MLX Framework.'"
+    - "README: 'Privacy-enhanced AI: Chat with your favourite models and data securely' and 'MLX Playground'."
+    - Supports local models including Codestral, targeting developers on Apple hardware.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (1595) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:14.406Z"
+    updated_at: "2026-05-06T22:46:01.895Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:47.522Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

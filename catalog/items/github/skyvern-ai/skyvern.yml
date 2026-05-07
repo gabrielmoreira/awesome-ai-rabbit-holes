@@ -1,13 +1,13 @@
 id: github__skyvern-ai__skyvern
 kind: github-repo
-name: Skyvern
+name: skyvern
 canonical_url: https://github.com/skyvern-ai/skyvern
 identity:
   github_repo: skyvern-ai/skyvern
 provenance:
   discoveries:
     - id: discovery__github__skyvern-ai__skyvern__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,47 +23,75 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21514
+    forks: 1976
+    license: AGPL-3.0
+    archived: false
+    created_at: "2024-02-28T15:45:19Z"
+    pushed_at: "2026-05-06T22:43:41Z"
+    description: Automate browser based workflows with AI
+    homepage: https://www.skyvern.com
+    topics:
+      - ai
+      - api
+      - automation
+      - browser
+      - browser-automation
+      - computer
+      - gpt
+      - llm
+      - playwright
+      - powerautomate
+      - puppeteer
+      - python
+      - rpa
+      - selenium
+      - vision
+      - workflow
+    last_checked_at: "2026-05-06T22:46:27.243Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:27.243Z"
+      bytes: 23974
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Skyvern is an AI system that automates browser-based workflows using LLMs and computer vision, offering a Playwright-compatible SDK and a no-code workflow builder.
+  why_it_matters: It replaces brittle, XPath-based web automation with vision-guided agents that can adapt to new or changing website layouts without custom scripts.
+  mental_damage: Finally, a way to let an agent swarm loose on the open web, so you can panic-debug both your scraping logic and your hallucinating LLM at the same time.
+  tags:
+    - browser-automation
+    - ai-agents
+    - playwright
+    - computer-vision
+    - workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product identity is an AI agent that plans and executes browser tasks using vision and a swarm of agents, fitting the computer-use agent profile.
+  evidence:
+    - Repo description states 'Automate browser based workflows with AI'.
+    - README describes 'a swarm of agents to comprehend a website, and plan and execute its actions'.
+    - Includes a Playwright-compatible SDK that adds AI functionality, acting as a primary agentic layer.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (21514) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.717Z"
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:27.243Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:29:06.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

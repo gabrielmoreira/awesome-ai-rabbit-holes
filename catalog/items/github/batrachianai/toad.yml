@@ -1,13 +1,13 @@
 id: github__batrachianai__toad
 kind: github-repo
-name: Toad
+name: toad
 canonical_url: https://github.com/batrachianai/toad
 identity:
   github_repo: batrachianai/toad
 provenance:
   discoveries:
     - id: discovery__github__batrachianai__toad__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3018
+    stars: 3030
     forks: 145
     license: AGPL-3.0
     archived: false
@@ -42,49 +42,50 @@ metadata:
       - copilot
       - textual
       - tui
-    last_checked_at: "2026-05-05T21:01:17.979Z"
+    last_checked_at: "2026-05-06T22:12:50.236Z"
     readme:
-      fetched_at: "2026-05-05T21:01:17.979Z"
+      fetched_at: "2026-05-06T22:12:50.235Z"
       bytes: 9913
 insights:
-  summary: A terminal user interface that provides a unified shell and session manager for running and interacting with multiple AI coding agents such as Claude, Gemini, and Codex.
-  why_it_matters: It lets developers interleave a fully functional shell with agent prompts and manage concurrent sessions across different providers without leaving the terminal.
-  mental_damage: You now have a terminal UI to manage the half-dozen AI agents you installed to manage the code you could have just written yourself.
+  summary: A terminal user interface that provides a unified shell and session manager for running multiple AI coding agents such as Claude, Gemini, and Codex concurrently.
+  why_it_matters: It lets developers interleave a real shell workflow with prompts to different agents while managing concurrent sessions and file context from a single TUI.
+  mental_damage: You now have a terminal dashboard to orchestrate a small army of bots, because keeping track of which AI is hallucinating in which directory was the missing piece of your workflow.
   tags:
-    - agent-orchestration
-    - cli
     - terminal
     - tui
+    - coding-agents
+    - session-manager
+    - cli
   confidence: high
 curation:
   status: included
-  reason: It is a terminal-based interface for interacting with and managing multiple coding agents, fitting the CLI coding agent surface defined in the source list and catalog scope.
+  reason: This is a terminal-native interface that acts as a primary coding assistant surface by hosting and managing multiple agents, fitting the Terminal & CLI Agents section of coding-agents.
   evidence:
-    - Repo description states it is a 'unified interface for AI in your terminal'.
-    - README describes it as an interface to coding agents like Claude and Codex with a built-in shell and concurrent session management.
-    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners'.
+    - Repo description states it is 'A unified interface for AI in your terminal.'
+    - README explicitly says 'Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more.'
+    - Source list places it under 'Harnesses & orchestration > Session managers & parallel runners' for CLI coding agents.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3018) exceeded threshold (150)
+  reason: Stars (3030) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:10:22.782Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.680Z"
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:17.979Z"
+    updated_at: "2026-05-06T22:12:50.236Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:23:43.770Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__duhokim__nebulamind__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,49 +43,50 @@ metadata:
       - nextjs
       - open-api
       - wiki
-    last_checked_at: "2026-05-05T21:01:57.749Z"
+    last_checked_at: "2026-05-06T22:43:42.368Z"
     readme:
-      fetched_at: "2026-05-05T21:01:57.749Z"
+      fetched_at: "2026-05-06T22:43:42.368Z"
       bytes: 2905
 insights:
-  summary: An astronomy wiki platform where AI agents autonomously propose edits, vote on content, and build a knowledge graph, exposing the system via a Model Context Protocol (MCP) server.
-  why_it_matters: It serves as a ready-made reference implementation for developers looking to build agentic collaboration loops and MCP-compatible knowledge tools.
-  mental_damage: Finally, a platform where autonomous agents can argue about the cosmos and vote on edits, ensuring the AI sprawl now has its own bureaucracy.
+  summary: An astronomy wiki where AI agents collaboratively propose edits, vote on content, and maintain a knowledge base, exposed via a Model Context Protocol server.
+  why_it_matters: Developers building agentic workflows can use it as a reference implementation for multi-agent consensus loops and MCP server integration.
+  mental_damage: "We have finally automated the one thing humans were still clinging to: arguing about Pluto on the internet."
   tags:
     - mcp
-    - agents
-    - wiki
+    - multi-agent
     - knowledge-graph
-  confidence: medium
+    - astronomy
+    - wiki
+  confidence: high
 curation:
   status: included
-  reason: The project's primary developer-facing utility is its MCP server implementation, which allows AI clients to interact with a knowledge base, fitting the MCP infrastructure category.
+  reason: The product's strongest developer-facing identity is its MCP server that allows AI clients to interact with the astronomy knowledge base.
   evidence:
-    - Repo includes a dedicated 'MCP Server' section with tools like list_pages, register_agent, and propose_edit.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Knowledge & Memory'.
-    - MCP setup instructions are provided for stdio transport, Docker, and Claude Desktop configuration.
+    - Repo description explicitly calls it a collaborative astronomy wiki with an open API and MCP topic tags.
+    - README details a full MCP server implementation with tools like `list_pages`, `propose_edit`, and `register_agent`.
+    - Listed in awesome-mcp-servers under the Knowledge & Memory section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:57.749Z"
+    updated_at: "2026-05-06T22:43:42.368Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:20.553Z"
+    updated_at: "2026-05-06T22:53:33.557Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

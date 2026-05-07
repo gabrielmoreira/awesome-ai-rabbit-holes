@@ -1,13 +1,13 @@
 id: github__nutlope__aicommits
 kind: github-repo
-name: AICommits
+name: aicommits
 canonical_url: https://github.com/nutlope/aicommits
 identity:
   github_repo: nutlope/aicommits
 provenance:
   discoveries:
     - id: discovery__github__nutlope__aicommits__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8967
+    stars: 8966
     forks: 466
     license: MIT
     archived: false
@@ -32,50 +32,49 @@ metadata:
     description: A CLI that writes your git commit messages for you with AI
     homepage: https://www.npmjs.com/package/aicommits
     topics: []
-    last_checked_at: "2026-05-05T21:03:57.170Z"
+    last_checked_at: "2026-05-06T22:45:34.988Z"
     readme:
-      fetched_at: "2026-05-05T21:03:57.170Z"
+      fetched_at: "2026-05-06T22:45:34.988Z"
       bytes: 11730
 insights:
-  summary: A CLI tool that analyzes staged git diffs and generates commit messages using various AI providers, including local models and hosted APIs.
-  why_it_matters: It automates the tedious chore of writing conventional, gitmoji, or plain commit messages directly from the terminal, integrating with existing git workflows and hooks.
-  mental_damage: We have successfully automated the last bastion of human accountability in version control, ensuring our git history is now as thoughtfully composed as a hallucination.
+  summary: A CLI tool that automatically generates git commit messages by analyzing staged changes using configurable AI providers.
+  why_it_matters: It integrates directly into the developer workflow to automate the recurring chore of summarizing diffs into conventional, gitmoji, or plain-text commits.
+  mental_damage: We have officially reached the point where shipping code is automated, but we still need a large language model to lie to our future selves about what we actually changed.
   tags:
-    - automation
     - cli
     - git
-    - llm
-    - nodejs
+    - commit-messages
+    - automation
   confidence: high
 curation:
   status: included
-  reason: It is a CLI-based coding agent that directly operates on a developer's repository context (git diffs) to generate code-related artifacts (commits), fitting the terminal agent profile.
+  reason: It is a standalone CLI agent that directly reads code diffs and writes output (commit messages), acting as a primary assistant for a specific repo task.
   evidence:
-    - "Repo description explicitly states: 'A CLI that writes your git commit messages for you with AI'."
-    - "README confirms it works inside the repo workflow: 'generate a commit message for your staged changes'."
-    - Included in 'awesome-ai-coding-tools' under the 'CLI Tools' section.
+    - "Repo description: 'A CLI that writes your git commit messages for you with AI'."
+    - README confirms it reads staged changes, supports multiple providers (OpenAI, Ollama, etc.), and generates commit text directly.
+    - Listed in awesome-ai-coding-tools under 'CLI Tools', fitting the Terminal & CLI Agent profile.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (8967) exceeded threshold (150)
+  reason: Stars (8966) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:41:09.186Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:57.170Z"
+    updated_at: "2026-05-06T22:45:34.988Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:17:52.772Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

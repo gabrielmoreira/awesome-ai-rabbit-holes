@@ -1,13 +1,13 @@
 id: github__nousresearch__hermes-agent
 kind: github-repo
-name: Hermes Agent
+name: hermes-agent
 canonical_url: https://github.com/nousresearch/hermes-agent
 identity:
   github_repo: nousresearch/hermes-agent
 provenance:
   discoveries:
     - id: discovery__github__nousresearch__hermes-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 134015
-    forks: 20443
+    stars: 135819
+    forks: 20806
     license: MIT
     archived: false
     created_at: "2025-07-22T22:22:28Z"
-    pushed_at: "2026-05-05T20:55:40Z"
+    pushed_at: "2026-05-06T22:43:55Z"
     description: The agent that grows with you
     homepage: https://hermes-agent.nousresearch.com
     topics:
@@ -49,50 +49,50 @@ metadata:
       - nous-research
       - openai
       - openclaw
-    last_checked_at: "2026-05-05T21:03:56.090Z"
+    last_checked_at: "2026-05-06T22:45:34.204Z"
     readme:
-      fetched_at: "2026-05-05T21:03:56.090Z"
-      bytes: 11308
+      fetched_at: "2026-05-06T22:45:34.204Z"
+      bytes: 11430
 insights:
-  summary: A self-improving, terminal-native AI agent that runs on local or cloud infrastructure, supports multi-model providers, and learns skills from usage across sessions.
-  why_it_matters: Developers can deploy a persistent, provider-agnostic coding agent on cheap infrastructure that autonomously improves its own capabilities and communicates via CLI or messaging platforms.
-  mental_damage: "Just what we needed: an agent that builds a 'deepening model of who you are' while you're still trying to remember which of your fifteen AI subscriptions wrote that broken Dockerfile."
+  summary: A self-improving terminal-native AI agent by Nous Research that creates and refines its own skills, supports multi-platform messaging gateways, and runs on diverse infrastructure from $5 VPS to GPU clusters.
+  why_it_matters: Developers can delegate coding and operational tasks to an agent that learns from its own execution history and persists knowledge across sessions, while choosing from dozens of model providers without code changes.
+  mental_damage: Just when you thought your job was safe from AI, now the AI is getting promoted and writing its own performance reviews.
   tags:
-    - agent
+    - coding-agent
     - cli
-    - multi-model
     - self-improving
+    - multi-model
     - terminal
   confidence: high
 curation:
   status: included
-  reason: This is a terminal-native coding agent focused on codebase interaction, autonomous skill creation, and multi-platform communication, fitting the coding-agents category based on its primary interface and workflow.
+  reason: Hermes Agent is a standalone terminal-native coding assistant with its own learning loop, skill creation, and multi-platform gateway, making it a primary agent rather than an extension or integration layer.
   evidence:
-    - Explicitly listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
-    - README describes a 'real terminal interface' with tool output, multiline editing, and slash commands for developer workflows
-    - Features agent-curated memory, autonomous skill creation, and subagent spawning for parallel workstreams
+    - Repo description states 'The agent that grows with you' and README identifies it as 'The self-improving AI agent built by Nous Research'.
+    - Source list places it in 'Terminal-native coding agents > Open Source' alongside Pi, OpenCode, Aider, and Goose.
+    - Active development with pushed_at 2026-05-06 and 135,819 stars indicates strong ecosystem traction.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (134015) exceeded threshold (150)
+  reason: Stars (135819) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:40:58.562Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:56.090Z"
+    updated_at: "2026-05-06T22:45:34.204Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:17:40.745Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

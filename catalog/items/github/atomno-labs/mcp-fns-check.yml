@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__atomno-labs__mcp-fns-check__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -43,50 +43,50 @@ metadata:
       - mcp
       - model-context-protocol
       - russia
-    last_checked_at: "2026-05-05T21:01:11.618Z"
+    last_checked_at: "2026-05-06T22:12:44.925Z"
     readme:
-      fetched_at: "2026-05-05T21:01:11.618Z"
+      fetched_at: "2026-05-06T22:12:44.925Z"
       bytes: 14824
 insights:
-  summary: An MCP server that lets AI coding agents check Russian counterparties (legal entities and individual entrepreneurs) against FNS open data sources including EGRUL, EGRIP, EFRSB, KAD, and FSSP.
-  why_it_matters: It gives developers building Russia-facing compliance or KYC workflows a ready-made tool that lets their AI assistant autonomously verify contractors and return structured risk verdicts instead of hallucinating registry data.
-  mental_damage: We have successfully built an MCP server so your AI agent can do due diligence on Russian legal entities, because apparently the natural endpoint of modern developer tooling is automating sanctions checks from inside Cursor.
+  summary: An MCP server that lets AI coding assistants like Claude and Cursor perform KYC-style checks on Russian counterparties via open FNS data including EGRUL, EFRSB, KAD, and FSSP records.
+  why_it_matters: It gives AI agents structured access to Russian corporate registry data that isn't reliably indexed by search engines, enabling automated due diligence workflows directly inside your coding environment.
+  mental_damage: Your AI assistant can now tell you whether a contractor is bankrupt before you've even decided what function to write, because apparently the model wasn't anxious enough about your code choices alone.
   tags:
     - mcp
-    - compliance
     - kyc
+    - compliance
     - russia
     - fns
   confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server that integrates directly with Claude, Cursor, Cline, and other MCP clients to expose Russian registry lookup tools.
+  reason: The product's primary identity is an MCP server delivering domain-specific Russian registry data to AI assistants, which fits the MCP Servers & Tooling category cleanly.
   evidence:
     - Repo description explicitly states 'MCP server for checking RU counterparties via FNS open data'
-    - README demonstrates integration with Claude Desktop, Cursor, Claude Code CLI, and Cline via mcpServers config
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations
+    - README positions it as an MCP server ready for Claude Desktop, Cursor, Claude Code, and Cline
+    - Listed in awesome-mcp-servers under Finance & Fintech as a server implementation
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:11.618Z"
+    updated_at: "2026-05-06T22:12:44.925Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:09:23.527Z"
+    updated_at: "2026-05-06T22:22:41.081Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,13 +1,13 @@
 id: github__google-parfait__tensorflow-federated
 kind: github-repo
-name: TensorFlow Federated
+name: tensorflow-federated
 canonical_url: https://github.com/google-parfait/tensorflow-federated
 identity:
   github_repo: google-parfait/tensorflow-federated
 provenance:
   discoveries:
-    - id: discovery__github__tensorflow__federated__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T20:48:55.437Z"
+    - id: discovery__github__google-parfait__tensorflow-federated__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -32,27 +32,27 @@ metadata:
     description: An open-source framework for machine learning and other computations on decentralized data.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:02:24.769Z"
+    last_checked_at: "2026-05-06T22:44:05.243Z"
     readme:
-      fetched_at: "2026-05-05T21:02:24.769Z"
+      fetched_at: "2026-05-06T22:44:05.243Z"
       bytes: 4641
 insights:
-  summary: TensorFlow Federated is an open-source framework for performing machine learning and other computations on decentralized data using federated learning techniques.
-  why_it_matters: It allows developers to train shared global models across participating clients without centralizing sensitive data, enabling privacy-preserving ML experimentation.
-  mental_damage: Another framework promising you can train models on data you legally aren't allowed to look at, provided you can decipher the strongly-typed functional programming environment first.
+  summary: TensorFlow Federated is an open-source framework for machine learning and other computations on decentralized data using Federated Learning.
+  why_it_matters: It allows developers to train shared global models across many clients while keeping sensitive training data local, a key requirement for privacy-preserving ML applications.
+  mental_damage: Yet another framework promising to solve the 'my data is too sensitive to leave my basement' problem, assuming you have the patience to orchestrate decentralized maths across a thousand nodes.
   tags:
-    - decentralized-ml
     - federated-learning
-    - privacy
     - tensorflow
+    - decentralized-ml
+    - privacy
   confidence: high
 curation:
   status: excluded
-  reason: This is a core machine learning research framework for federated learning rather than a developer-facing AI tool, agent, or infrastructure product for building software.
+  reason: Excluded because this is a general machine learning research framework for federated learning, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - Repo description defines it as a framework for machine learning on decentralized data, not a developer tooling product.
-    - README focuses on training TensorFlow models and novel FL algorithms, targeting ML researchers rather than software developers.
-    - No source-list context indicates it is curated as a developer tool, coding agent, or app builder.
+    - Repo description explicitly states it is for 'machine learning and other computations on decentralized data', not developer tooling.
+    - README focuses on training TensorFlow models across clients and implementing federated algorithms, lacking any coding-agent or AI-dev-tooling angle.
+    - Seen in Awesome-LLMOps under 'Federated ML', which is a research/infrastructure vertical rather than a developer productivity tool.
 placement:
   primary_category: null
   section: null
@@ -60,21 +60,21 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (2437) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:22:16.832Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.444Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:24.769Z"
+    updated_at: "2026-05-06T22:44:05.243Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:58:19.975Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

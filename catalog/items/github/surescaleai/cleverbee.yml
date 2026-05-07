@@ -1,13 +1,13 @@
 id: github__surescaleai__cleverbee
 kind: github-repo
-name: CleverBee
+name: cleverbee
 canonical_url: https://github.com/surescaleai/cleverbee
 identity:
   github_repo: surescaleai/cleverbee
 provenance:
   discoveries:
     - id: discovery__github__surescaleai__cleverbee__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -23,47 +23,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 307
+    forks: 15
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-04-20T07:34:27Z"
+    pushed_at: "2026-01-31T01:09:09Z"
+    description: CleverBee - The Open Source Deep Researcher Tool
+    homepage: https://cleverb.ee
+    topics:
+      - research
+    last_checked_at: "2026-05-06T22:46:38.224Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:38.224Z"
+      bytes: 3233
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CleverBee is an open-source, Python-based research assistant that uses LLMs, Playwright, and Chainlit to automate web browsing, content extraction, and synthesis into research reports.
+  why_it_matters: It provides developers with a local, configurable agent to automate deep web research tasks, supporting multiple LLM providers and featuring built-in token tracking and cost estimation.
+  mental_damage: Yet another agent promising to read the internet for you, ensuring you can now hallucinate authoritative sources at machine speed instead of human speed.
+  tags:
+    - research-agent
+    - langchain
+    - playwright
+    - chainlit
+    - local-ai
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a standalone AI agent that autonomously plans, browses, and synthesizes information via a CLI and web UI, fitting the definition of a developer-facing agent, though its focus is research rather than code editing.
+  evidence:
+    - Repo description explicitly calls it an 'Open Source Deep Researcher Tool'.
+    - README states it is a 'Python-based research assistant agent' using LLMs, Playwright, and Chainlit for an interactive UI.
+    - Listed in 'awesome-llm-agents' under the section 'Frameworks'.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (307) exceeded threshold (150)
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.719Z"
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:38.224Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:31:01.961Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

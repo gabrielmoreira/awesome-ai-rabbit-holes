@@ -1,13 +1,13 @@
 id: github__microsoft__playwright
 kind: github-repo
-name: Playwright
+name: playwright
 canonical_url: https://github.com/microsoft/playwright
 identity:
   github_repo: microsoft/playwright
 provenance:
   discoveries:
     - id: discovery__github__microsoft__playwright__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 88024
-    forks: 5625
+    stars: 88120
+    forks: 5636
     license: Apache-2.0
     archived: false
     created_at: "2019-11-15T18:32:42Z"
-    pushed_at: "2026-05-05T21:00:09Z"
+    pushed_at: "2026-05-06T21:22:00Z"
     description: "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
     homepage: https://playwright.dev
     topics:
@@ -47,49 +47,50 @@ metadata:
       - testing-tools
       - web
       - webkit
-    last_checked_at: "2026-05-05T21:03:39.359Z"
+    last_checked_at: "2026-05-06T22:45:17.574Z"
     readme:
-      fetched_at: "2026-05-05T21:03:39.359Z"
-      bytes: 11266
+      fetched_at: "2026-05-06T22:45:17.574Z"
+      bytes: 11270
 insights:
-  summary: Playwright is a web automation and testing framework that provides a unified API for Chromium, Firefox, and WebKit, now explicitly designed to be used as a tool by AI agents and coding assistants.
-  why_it_matters: It provides the standardized browser automation layer that allows coding agents like Claude Code and Copilot to reliably interact with web UIs for testing and verification.
-  mental_damage: We have successfully reached the point where the industry's most robust testing framework has to explicitly market itself as 'a tool for AI agents' just to stay relevant in the README.
+  summary: Playwright is a web automation and testing framework that drives Chromium, Firefox, and WebKit with a single API, including tooling tailored for AI agents and coding assistants.
+  why_it_matters: It provides both a battle-tested test runner for traditional end-to-end testing and a token-efficient CLI and MCP layer purpose-built for coding agents like Claude Code and Copilot to automate browsers.
+  mental_damage: We have reached the point where the premier browser automation framework now ships specialized CLIs just to help your coding agent avoid choking on its own accessibility trees.
   tags:
+    - browser-automation
+    - e2e-testing
     - ai-agents
-    - automation
-    - browser
-    - testing
+    - cli
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The project positions its CLI specifically for coding agents and LLM-driven automation, fitting the 'Terminal & CLI Agents' section of the coding-agents category.
+  reason: The project explicitly packages a CLI and MCP server tailored for coding agents, making its primary AI-facing identity an extension that gives agents browser automation capabilities rather than acting as the primary coding assistant itself.
   evidence:
-    - "README states: 'Playwright CLI is a command-line interface for browser automation designed for coding agents.'"
-    - README explicitly lists 'Coding agents (Claude Code, Copilot)' as a primary workflow path for the CLI.
-    - Seen in awesome-ai-coding-tools under 'Testing and QA' with the note 'tool for AI agents'.
+    - README states Playwright is 'a tool for AI agents' and explicitly lists 'Playwright CLI' for coding agents and 'Playwright MCP' for LLM-driven automation.
+    - Source list places it in 'Testing and QA' under AI coding tools, aligning with its agent-facing testing automation identity.
+    - The tool is explicitly called out as a common false positive for the 'Coding Agents' category, signaling it should be placed in an extensions or integrations bucket.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: promotion_candidate
-  reason: Stars (88024) exceeded threshold (150)
+  reason: Stars (88120) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:37:38.248Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.707Z"
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:39.359Z"
+    updated_at: "2026-05-06T22:45:17.574Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:13:50.689Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

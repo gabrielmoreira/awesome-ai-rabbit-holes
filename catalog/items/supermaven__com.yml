@@ -1,12 +1,12 @@
 id: supermaven__com
 kind: website
-name: Supermaven
+name: supermaven.com
 canonical_url: https://supermaven.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__supermaven__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Supermaven is an AI-powered code completion and chat tool that integrates with VS Code, JetBrains, and Neovim, featuring a large context window for understanding entire codebases.
-  why_it_matters: It promises faster, context-aware code suggestions and a developer-focused chat interface that can apply diffs and fix errors directly within your existing IDE workflow.
-  mental_damage: Just when you had your .cursorrules perfectly tuned, you now have to evaluate whether a 1-million-token context window is the upgrade that finally justifies explaining to your team why you're switching editors again.
+  summary: Supermaven is a code completion and chat tool that integrates with VS Code, JetBrains, and Neovim, offering large context windows for suggestions and model-based chat for applying code changes.
+  why_it_matters: It competes directly with GitHub Copilot by offering a 1 million token context window and low-latency completions, aiming to help developers write code faster within their existing editors.
+  mental_damage: Just when you had optimized your Copilot prompt prefixes, you now have to evaluate whether a 1-million-token context window is the feature that finally justifies switching your entire workflow again.
   tags:
-    - chat
     - code-completion
-    - developer-tool
-    - ide-plugin
+    - ide-extension
+    - chat
+    - copilot-alternative
   confidence: high
 curation:
   status: included
-  reason: The product is a developer-facing coding assistant that provides code suggestions, chat, and error fixing directly inside the IDE workflow, fitting the coding-agents criteria.
+  reason: Supermaven is an AI-native coding assistant that integrates directly into the IDE surface (VS Code, JetBrains, Neovim) to provide completions and chat, fitting the editor-assistant model better than a thin extension.
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' as a copilot alternative.
-    - Primary page describes IDE integrations (VS Code, JetBrains, Neovim) with code completion and a chat interface to apply diffs.
-    - Claims to provide contextual suggestions by finding definitions elsewhere in the codebase using a 1M token context window.
+    - Described as 'The fastest copilot' with a 1 million token context window for code completions.
+    - Compatible with VS Code, JetBrains IDEs, and Neovim with integrated chat and diff capabilities.
+    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants'.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-ides-editors
+  section: Full IDEs & Editors
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:31.039Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:30:19.517Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

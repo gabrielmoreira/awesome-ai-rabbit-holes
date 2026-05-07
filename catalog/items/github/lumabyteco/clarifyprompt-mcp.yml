@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lumabyteco__clarifyprompt-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,49 +33,49 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:03:25.828Z"
+    last_checked_at: "2026-05-06T22:45:05.039Z"
     readme:
-      fetched_at: "2026-05-05T21:03:25.828Z"
+      fetched_at: "2026-05-06T22:45:05.039Z"
       bytes: 53599
 insights:
-  summary: An MCP server that rewrites vague prompts into platform-optimized versions for 58+ AI tools by analyzing workspace context and target model capabilities.
-  why_it_matters: It helps developers avoid the tedious trial-and-error of manually tweaking syntax and parameters when switching between AI platforms like Midjourney, Claude, and Cursor.
-  mental_damage: We have now reached the point where we need an autonomous agent to translate between the dialects of our other autonomous agents.
+  summary: An MCP server that rewrites vague prompts into platform-optimized versions for 58+ AI tools by pulling context from workspace files like CLAUDE.md and .cursorrules.
+  why_it_matters: It sits between you and your AI tools to automatically inject the right syntax, parameters, and project context so you don't have to memorize platform-specific prompt dialects.
+  mental_damage: We have now reached the point where we need an AI tool to optimize our prompts for the AI tools that are optimizing the prompts we use to talk to AI tools.
   tags:
     - mcp
-    - prompt-engineering
-    - context-engineering
-    - developer-tools
+    - prompt-optimization
+    - context-awareness
+    - multi-platform
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server that compiles prompts for developer workflows, fitting cleanly into the MCP Servers and Tooling category.
+  reason: The product is explicitly an MCP server for prompt compilation, and MCP is its core identity rather than a compatibility footnote.
   evidence:
-    - GitHub repo name is 'clarifyprompt-mcp' and it is listed under 'Server Implementations > Developer Tools' in awesome-mcp-servers.
-    - README describes it as a 'context-aware MCP prompt compiler' that integrates with workspace signals like CLAUDE.md and .cursorrules.
-    - Project is active with a recent push date of 2026-04-28 and includes a CI eval gate for prompt quality.
+    - Repo name is 'clarifyprompt-mcp' and README describes it as a 'context-aware MCP prompt compiler'.
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Active development as of 2026-04-28 with recent eval-driven releases.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.705Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:25.828Z"
+    updated_at: "2026-05-06T22:45:05.039Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:34:58.144Z"
+    updated_at: "2026-05-06T23:10:53.377Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

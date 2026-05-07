@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__public-ui__kolibri__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -29,7 +29,7 @@ metadata:
     license: EUPL-1.2
     archived: false
     created_at: "2022-10-12T06:16:11Z"
-    pushed_at: "2026-05-05T18:38:44Z"
+    pushed_at: "2026-05-06T18:17:34Z"
     description: The accessible HTML-Standard
     homepage: https://public-ui.github.io
     topics:
@@ -52,20 +52,28 @@ metadata:
       - ui
       - vuejs
       - webcomponents
-    last_checked_at: "2026-05-05T23:08:11.478Z"
+    last_checked_at: "2026-05-06T22:45:58.911Z"
     readme:
-      fetched_at: "2026-05-05T23:08:11.478Z"
+      fetched_at: "2026-05-06T22:45:58.911Z"
       bytes: 6476
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: KoliBri is a framework-agnostic library of accessible, reusable Web Components that extends the HTML5 standard with self-contained, semantic UI elements.
+  why_it_matters: It allows developers to build highly accessible web applications without tying their codebase to a specific design system or component framework like React or Vue.
+  mental_damage: Yet another valiant attempt to solve accessibility at the component level, ensuring developers can still produce inaccessible sites while technically using the 'accessible standard'.
+  tags:
+    - accessibility
+    - web-components
+    - a11y
+    - design-system
+    - html
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: While KoliBri is a high-quality developer tool, it is a standard UI component library for accessibility and lacks any AI/native-AI integration, which is required for this catalog.
+  evidence:
+    - Repo description defines it as 'The accessible HTML-Standard', with topics including a11y, react, vuejs, and webcomponents, but no AI-related tags.
+    - README describes it as extending HTML5 with accessible Web Components, focusing on WCAG standards and theming, with no mention of AI workflows or models.
+    - Source list placement in 'awesome-mcp-servers' appears to be a categorization error or unrelated footnote, as the project identity is purely a frontend UI library.
 placement:
   primary_category: null
   section: null
@@ -75,21 +83,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.714Z"
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T23:08:11.478Z"
+    updated_at: "2026-05-06T22:45:58.911Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-05T23:08:33.635Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-05-06T00:08:33.635Z"
-    attempts: 0
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    status: done
+    updated_at: "2026-05-06T23:23:11.077Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

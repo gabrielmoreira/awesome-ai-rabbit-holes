@@ -1,13 +1,13 @@
 id: github__theihtisham__agent-shadow-brain
 kind: github-repo
-name: Agent Shadow Brain
+name: agent-shadow-brain
 canonical_url: https://github.com/theihtisham/agent-shadow-brain
 identity:
   github_repo: theihtisham/agent-shadow-brain
 provenance:
   discoveries:
     - id: discovery__github__theihtisham__agent-shadow-brain__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -23,47 +23,79 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 20
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-04-15T23:03:31Z"
+    pushed_at: "2026-05-06T16:01:34Z"
+    description: 🧠 v6.0 Hive Mind — One open-source brain every AI coding agent can share (Claude Code, Cursor, Cline, Codex, Copilot, Windsurf). 22 novel features. Free. Local-first. MIT.
+    homepage: https://www.npmjs.com/package/@theihtisham/agent-shadow-brain
+    topics:
+      - ai
+      - causal-chains
+      - claude-code
+      - cline
+      - codex
+      - copilot
+      - cursor
+      - developer-tools
+      - dream-engine
+      - hive-mind
+      - llm
+      - local-first
+      - mcp-server
+      - mit
+      - ollama
+      - open-source
+      - reputation-ledger
+      - sabb
+      - sub-agent
+      - typescript
+    last_checked_at: "2026-05-06T22:46:46.671Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:46.671Z"
+      bytes: 19129
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local-first shared memory and context system that acts as a singleton brain for multiple AI coding agents, injecting briefings, causal memory chains, and task context across tools like Claude Code, Cursor, and Cline.
+  why_it_matters: It attempts to solve the problem of agents starting from zero each session by sharing learned context, sub-agent state, and decision history across your entire local AI toolchain.
+  mental_damage: You now have a singleton brain for your agents, which means they can all forget things together in perfect, cryptographically signed harmony.
+  tags:
+    - local-first
+    - memory
+    - multi-agent
+    - context
+    - mcp
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core novelty is a shared memory, causal chains, context injection, and prompt-shaping system that sits beneath other coding assistants rather than acting as the primary agent itself.
+  evidence:
+    - Repo description states it is 'one open-source brain every AI coding agent can share' across Claude Code, Cursor, Cline, and others.
+    - README pitches 2K-token briefings, Causal Memory Chains, SABB context slivers, and a Reputation Ledger as the main features.
+    - Topics and README highlight MCP-server and local-first architecture rather than standalone repo editing.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.720Z"
+    updated_at: "2026-05-06T22:12:15.651Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:46.671Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:32:42.339Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

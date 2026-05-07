@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__recursechat__mcp-server-apple-shortcuts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts) 📇 🏠 🍎 - An MCP Server Integration with Apple Shortcuts"
         confidence: high
     - id: discovery__github__recursechat__mcp-server-apple-shortcuts__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,7 +38,7 @@ provenance:
         surrounding_text: "- **[Apple Shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)** - An MCP Server Integration with Apple Shortcuts"
         confidence: high
     - id: discovery__github__recursechat__mcp-server-apple-shortcuts__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,47 +54,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 322
+    forks: 40
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-11T20:32:57Z"
+    pushed_at: "2024-12-22T03:27:15Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-06T22:46:07.677Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:07.677Z"
+      bytes: 2371
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets AI assistants like Claude list and trigger Apple Shortcuts automations on macOS.
+  why_it_matters: It connects conversational coding agents to the macOS automation layer, allowing developers to invoke local Shortcuts directly from their AI workflow.
+  mental_damage: Now your AI assistant can trigger a 40-step Shortcut you built in 2022 and forgot how to disable, so you can debug your automation stack instead of your code stack.
+  tags:
+    - mcp
+    - apple-shortcuts
+    - macos
+    - automation
+    - claude
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server for Apple Shortcuts, clearly fitting the MCP Servers & Tooling category as a domain-specific protocol server.
+  evidence:
+    - "README states: 'A Model Context Protocol (MCP) server that lets AI assistants like Claude control Apple Shortcuts automations.'"
+    - Included in awesome-mcp-list and awesome-mcp-servers directories under browser automation and community server sections.
+    - Repository is active, created in December 2024 and pushed recently, with 322 stars.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (322) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.661Z"
+    updated_at: "2026-05-06T22:12:15.579Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:07.677Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:25:05.984Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

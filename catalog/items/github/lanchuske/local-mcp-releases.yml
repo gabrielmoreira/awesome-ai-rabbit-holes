@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lanchuske__local-mcp-releases__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9
+    stars: 10
     forks: 4
     license: NOASSERTION
     archived: false
@@ -48,50 +48,50 @@ metadata:
       - privacy
       - productivity
       - teams
-    last_checked_at: "2026-05-05T21:03:15.470Z"
+    last_checked_at: "2026-05-06T22:44:54.367Z"
     readme:
-      fetched_at: "2026-05-05T21:03:15.470Z"
+      fetched_at: "2026-05-06T22:44:54.367Z"
       bytes: 9161
 insights:
-  summary: A local MCP server that exposes 189 native macOS and Windows tools for Mail, Calendar, Teams, OneDrive, and other apps directly to AI assistants via the Model Context Protocol, with no cloud APIs or OAuth required.
-  why_it_matters: Developers can wire AI assistants into their local productivity apps using native system APIs instead of navigating enterprise OAuth, API keys, and rate limits for every integration.
-  mental_damage: You now have the infrastructure to let a language model read your Outlook inbox and cancel your 2pm meeting, and the only thing standing between you and that disaster is a preview dialog you'll probably click through without reading.
+  summary: LMCP is an MCP server that gives AI assistants local, native access to 189 tools across macOS and Windows apps like Mail, Calendar, Teams, OneDrive, and Slack without cloud APIs or OAuth.
+  why_it_matters: Developers can let Claude, Cursor, and other MCP-compatible assistants operate directly on local productivity data with zero API keys, OAuth flows, or rate limits.
+  mental_damage: Your AI can now summarize your unread mail and cancel your 2pm meeting, which is objectively faster than you opening Calendar to do it yourself.
   tags:
     - mcp
     - local-first
     - macos
+    - productivity
     - privacy
-    - integrations
   confidence: high
 curation:
   status: included
-  reason: The project is itself an MCP server implementation that directly fits the MCP Servers and Tooling category with strong local-first positioning.
+  reason: LMCP is an MCP server product that exposes local macOS and Windows app capabilities as MCP tools, fitting the MCP Servers & Tooling category rather than a coding agent or extension.
   evidence:
-    - Repo description explicitly states 'LMCP — Give your AI native access to your apps' and promotes 189 MCP tools across macOS and Windows.
-    - README confirms it operates as an MCP server over stdio, auto-configuring Claude Desktop, Cursor, VS Code, and other MCP-compatible clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Communication, reinforcing its role as MCP infrastructure.
+    - "Repo description: 'LMCP — Give your AI native access to your apps. 189 tools across macOS and Windows.'"
+    - README states it auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed as an MCP server.
+    - Appears in awesome-mcp-servers under 'Server Implementations > Communication' as a collection of MCP servers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:15.470Z"
+    updated_at: "2026-05-06T22:44:54.367Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:32:58.751Z"
+    updated_at: "2026-05-06T23:08:24.769Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

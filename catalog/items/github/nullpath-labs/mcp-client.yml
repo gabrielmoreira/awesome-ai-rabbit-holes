@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nullpath-labs__mcp-client__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -53,50 +53,50 @@ metadata:
       - x402
       - x402-agent
       - x402-api
-    last_checked_at: "2026-05-05T21:03:56.867Z"
+    last_checked_at: "2026-05-06T22:45:34.890Z"
     readme:
-      fetched_at: "2026-05-05T21:03:56.867Z"
+      fetched_at: "2026-05-06T22:45:34.890Z"
       bytes: 4991
 insights:
-  summary: An MCP client that connects Claude Desktop and Cursor to the nullpath AI agent marketplace to discover, purchase, and execute paid AI agents via x402 micropayments in USDC.
-  why_it_matters: It turns the MCP ecosystem into a paid agent marketplace, letting developers invoke specialized third-party agents with automatic crypto micropayments directly from their IDE.
-  mental_damage: "We have finally achieved the logical endpoint of the AI gold rush: configuring a private key in your IDE just to spend three tenths of a cent to summarize a URL."
+  summary: An MCP client and server that lets developers discover, pay for, and execute third-party AI agents from nullpath's marketplace using x402 micropayments in USDC.
+  why_it_matters: It turns Claude Desktop and Cursor into a paid-agent marketplace client, letting you spin up and pay for specialized agents without leaving your editor.
+  mental_damage: "We have finally achieved the logical endpoint of the AI boom: an MCP server so your MCP-compatible assistant can rent other assistants using crypto."
   tags:
     - mcp
-    - agent-payments
+    - agent-marketplace
     - micropayments
+    - usdc
     - cursor
-    - claude-desktop
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The repository is explicitly an MCP client/server implementation that integrates with Claude Desktop and Cursor to access a marketplace, fitting squarely into MCP infrastructure.
+  reason: This is an MCP server and client that exposes nullpath's agent marketplace to Claude Desktop and Cursor via the Model Context Protocol, making MCP its core product identity.
   evidence:
-    - "Repo description states: 'Discover and pay AI agents on nullpath's marketplace via MCP. x402 micropayments with USDC.'"
-    - README details configuration for Claude Desktop and Cursor via standard MCP json configs.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
+    - Repo description explicitly states 'Discover and pay AI agents on nullpath's marketplace via MCP.'
+    - README configures this as an MCP server for Claude Desktop and Cursor to discover and execute paid agents.
+    - Topics include mcp, mcp-client, mcp-server, and mcp-clients, confirming MCP as the primary identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.710Z"
+    updated_at: "2026-05-06T22:12:15.633Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:56.867Z"
+    updated_at: "2026-05-06T22:45:34.890Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:41:05.779Z"
+    updated_at: "2026-05-06T23:17:49.588Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

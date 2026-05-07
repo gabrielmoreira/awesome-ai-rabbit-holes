@@ -1,0 +1,80 @@
+id: github__deepseek-ai__deepseek-r1
+kind: github-repo
+name: deepseek-r1
+canonical_url: https://github.com/deepseek-ai/deepseek-r1
+identity:
+  github_repo: deepseek-ai/deepseek-r1
+provenance:
+  discoveries:
+    - id: discovery__github__deepseek-ai__deepseek-r1__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 论文 Paper
+        anchor_text: "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+        extracted_url: https://github.com/deepseek-ai/deepseek-r1
+        surrounding_text: "34. [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://github.com/deepseek-ai/DeepSeek-R1)"
+        confidence: high
+metadata:
+  github:
+    stars: 92019
+    forks: 11732
+    license: MIT
+    archived: false
+    created_at: "2025-01-20T11:57:28Z"
+    pushed_at: "2025-06-27T08:35:54Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-06T22:43:36.543Z"
+    readme:
+      fetched_at: "2026-05-06T22:43:36.543Z"
+      bytes: 20736
+insights:
+  summary: DeepSeek-R1 is an open-source reasoning model series trained with reinforcement learning, accompanied by smaller dense models distilled from the larger R1.
+  why_it_matters: Developers can run a state-of-the-art reasoning model locally or self-host it to power coding agents and apps without relying on closed API providers.
+  mental_damage: Yet another breakthrough model drop that will send every developer into a three-day spiral of benchmarking, distilling, and rewriting their entire local stack.
+  tags:
+    - local-ai
+    - reasoning
+    - open-source
+    - llm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a foundational model and research release rather than a developer-facing tool, agent, framework, or infrastructure product.
+  evidence:
+    - README describes DeepSeek-R1 as a reasoning model trained via RL, with open-sourced model checkpoints and a paper link.
+    - No developer tooling surface, CLI, SDK, or integration layer is presented; it is a model release with benchmarks.
+    - Seen in awesome-LLM-resources under a '论文 Paper' (Paper) section, not a developer tooling list.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (92019) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.610Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-06T22:43:36.543Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:52:22.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

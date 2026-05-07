@@ -1,12 +1,12 @@
 id: www__fulcradynamics__com
 kind: website
-name: Context by Fulcra
+name: www.fulcradynamics.com
 canonical_url: https://www.fulcradynamics.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__www__fulcradynamics__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Context by Fulcra is a personal data aggregation platform that collects biometrics, habits, and environmental data to provide health insights, and offers a hosted MCP server for connecting this data to AI agents.
-  why_it_matters: It provides a Personal MCP Server and Life API, allowing developers to pipe real user biometric and contextual data into their own AI agents or computational notebooks for personalized applications.
-  mental_damage: We have officially reached the point where the ecosystem requires a dedicated protocol server just to feed your Oura ring data and bedtime sound levels into Claude so it can optimize your HRV.
+  summary: Fulcra Dynamics provides a personal data platform that aggregates wearable and app data into a unified timeline, exposing it via a personal MCP server for AI agents and LLMs.
+  why_it_matters: It gives developers a clean, standardized way to pipe real personal and biometric context into local agents, notebooks, and LLM workflows via the Model Context Protocol.
+  mental_damage: Another step toward the inevitable future where your AI agent knows exactly how badly your sleep, HRV, and coffee intake are conspiring against your ability to ship code.
   tags:
-    - agent-context
-    - health-api
     - mcp
     - personal-data
-  confidence: medium
+    - context
+    - agents
+    - life-api
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly listed in awesome-mcp-servers and promotes a 'Personal MCP Server' as a core feature, fitting the MCP infrastructure category despite its primary consumer focus on health.
+  reason: The product’s primary technical identity includes a personal MCP server that exposes user context to agents, making it a domain-specific MCP server rather than a generic wellness app.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' with the note 'Fulcra personal data MCP server is AVAILABLE NOW.'
-    - The site explicitly markets a 'Personal MCP Server' and 'MCP Documentation' for developers.
-    - The product offers a Life API for connecting personal data to 'your own custom AI agent' and computational notebooks.
+    - "Scraped site explicitly states: 'Fulcra’s personal data MCP server is AVAILABLE NOW.'"
+    - Site includes dedicated 'Personal MCP Server', 'MCP Documentation', 'Fulcra + Claude', and 'For Agents' sections.
+    - Included in awesome-mcp-servers under Official Servers, reinforcing its MCP domain identity.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:50:50.636Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.732Z"
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:14.536Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

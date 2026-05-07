@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drumst0ck__uploadkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: File uploads for developers. Done right.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:01:57.576Z"
+    last_checked_at: "2026-05-06T22:43:42.093Z"
     readme:
-      fetched_at: "2026-05-05T21:01:57.576Z"
+      fetched_at: "2026-05-06T22:43:42.093Z"
       bytes: 7516
 insights:
-  summary: UploadKit is an open-source TypeScript SDK and React component library for handling file uploads, featuring a managed storage backend on Cloudflare R2 with a BYOS mode for custom S3-compatible buckets, and an official MCP server for AI-assisted setup.
-  why_it_matters: It provides developers with a comprehensive, themeable upload UI and backend handler out of the box, while the MCP server allows AI coding assistants to scaffold the entire integration automatically.
-  mental_damage: We have successfully abstracted file uploads to the point where we now need an autonomous agent to convince itself that the dropzone looks like a Linear terminal.
+  summary: UploadKit is an open-source TypeScript SDK with 40+ React components and managed Cloudflare R2 storage for handling file uploads, including an MCP server package for AI coding assistants.
+  why_it_matters: It gives developers pre-built upload components and an MCP server so AI assistants can wire up file handling in Next.js, SvelteKit, Remix, or Vite projects without hand-rolling the plumbing.
+  mental_damage: We now have an MCP server dedicated to file uploads, because apparently telling Claude Code to handle a multipart form was the one workflow friction too far.
   tags:
     - file-upload
     - react
     - mcp
     - typescript
-    - cloudflare-r2
-  confidence: high
+    - sdk
+  confidence: medium
 curation:
   status: included
-  reason: The project qualifies for inclusion primarily due to its official MCP server package (@uploadkitdev/mcp) designed to let AI assistants like Claude Code and Cursor wire up the upload infrastructure.
+  reason: The project qualifies as an MCP server for file uploads, with a dedicated @uploadkitdev/mcp package that integrates with Claude Code, Cursor, Windsurf, and Zed.
   evidence:
-    - README explicitly lists @uploadkitdev/mcp as an official package and provides instructions for AI-assistant IDE integration (npx -y @uploadkitdev/mcp).
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Developer Tools'.
-    - Repository is very new (created 2026-04-09) and active (pushed 2026-04-19), featuring a full TypeScript/React stack.
+    - README explicitly documents npx -y @uploadkitdev/mcp as the UploadKit MCP server for AI coding assistants
+    - Appears in awesome-mcp-servers under Server Implementations > Developer Tools
+    - Primary product is a file upload SDK, with MCP as a compatibility adapter rather than the core identity
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.685Z"
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:57.576Z"
+    updated_at: "2026-05-06T22:43:42.093Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:13.215Z"
+    updated_at: "2026-05-06T22:53:32.481Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

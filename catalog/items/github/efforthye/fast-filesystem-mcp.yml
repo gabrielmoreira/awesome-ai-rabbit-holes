@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__efforthye__fast-filesystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [efforthye/fast-filesystem-mcp](https://github.com/efforthye/fast-filesystem-mcp) 📇 🏠 🍎 🪟 🐧 - Advanced filesystem operations with large file handling capabilities and Claude-optimized features. Provides fast file reading/writing, sequential reading for large files, directory operations, file search, and streaming writes with backup & recovery."
         confidence: high
     - id: discovery__github__efforthye__fast-filesystem-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -65,50 +65,51 @@ metadata:
       - nodejs
       - streaming
       - typescript
-    last_checked_at: "2026-05-05T21:02:00.127Z"
+    last_checked_at: "2026-05-06T22:43:44.114Z"
     readme:
-      fetched_at: "2026-05-05T21:02:00.127Z"
+      fetched_at: "2026-05-06T22:43:44.114Z"
       bytes: 9293
 insights:
-  summary: A high-performance Model Context Protocol (MCP) server that provides secure filesystem access with large file handling, streaming, and backup capabilities for Claude and other AI assistants.
-  why_it_matters: It gives AI assistants the ability to safely perform complex file operations like chunked reading, streaming writes, and directory synchronization directly within a developer's filesystem.
-  mental_damage: We have now successfully abstracted away the act of typing 'rm -rf' into a JSON-configured MCP server with retry logic and timestamped backups, just in case the AI needs a safety net for its existential file management crises.
+  summary: A high-performance Model Context Protocol server that provides secure filesystem access, large file streaming, and advanced file operations for Claude and other AI assistants.
+  why_it_matters: It gives AI assistants optimized, memory-efficient filesystem capabilities with chunked reading, streaming writes, and backup features designed specifically for Claude Desktop integration.
+  mental_damage: We now have enough MCP filesystem servers to form a small committee that will debate which one streams your node_modules to Claude most efficiently.
   tags:
     - mcp
     - filesystem
     - claude
-    - developer-tools
+    - typescript
     - nodejs
   confidence: high
 curation:
   status: included
-  reason: The project is a Model Context Protocol server designed to extend AI assistants with advanced filesystem operations, which fits cleanly into the MCP infrastructure category.
+  reason: This is an MCP server providing filesystem access for AI assistants, making it a clear fit for MCP Servers & Tooling as the product identity is the MCP server itself.
   evidence:
-    - Repo description explicitly states it is 'A high-performance Model Context Protocol (MCP) server'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'.
-    - README details specific MCP tools like fast_read_file, fast_write_file, and fast_sync_directories.
+    - Repo description explicitly states 'A high-performance Model Context Protocol (MCP) server that provides secure filesystem access for Claude and other AI assistants'
+    - README shows this is an MCP server with tools like fast_read_file, fast_write_file, fast_search_files designed for Claude Desktop integration
+    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems' and 'Community Servers' sections
+    - Active development with created_at 2025-08-14 and recent push at 2026-05-02, not archived
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.665Z"
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:00.127Z"
+    updated_at: "2026-05-06T22:43:44.114Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:17:37.900Z"
+    updated_at: "2026-05-06T22:53:56.134Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ckanthony__chisel__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,50 +33,50 @@ metadata:
     description: "🪛 Rust powered precision file tools for AI agents thats minimize context use: patch-based edits, kernel-enforced path confinement.  Dramatically fewer tokens than naive read/write.  MCP Server or embeddable, bring your own MCP (Rust, Python, Nodejs).  Come with Skills.md (npx skills add ckanthony/Chisel)"
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:01:34.623Z"
+    last_checked_at: "2026-05-06T22:43:22.004Z"
     readme:
-      fetched_at: "2026-05-05T21:01:34.623Z"
+      fetched_at: "2026-05-06T22:43:22.004Z"
       bytes: 35102
 insights:
-  summary: A Rust-powered MCP server providing Unix-native file tools for AI agents, using patch-based edits and shell commands to dramatically reduce token usage compared to standard file read/write operations.
-  why_it_matters: It solves the context-window bloat problem in coding agents by replacing whole-file rewrites with compact diffs and targeted shell commands, making agentic file operations significantly cheaper and safer.
-  mental_damage: We have reached the point where we are building specialized kernels to help our hallucination engines perform sed commands without burning through our token budgets.
+  summary: A Rust-powered MCP server and embeddable library providing patch-based file edits, Unix shell command execution, and kernel-enforced path confinement to reduce token usage for AI agents.
+  why_it_matters: It dramatically cuts context overhead by using unified diffs and familiar Unix tools instead of naive full-file read/writes, making agent file operations cheaper and safer.
+  mental_damage: Yet another reminder that our agents are currently so token-poor we need a specialized Rust tool just to teach them how to sed a file without rewriting the entire repo.
   tags:
     - mcp
     - file-operations
-    - context-engineering
+    - context-efficiency
     - rust
-    - token-optimization
+    - agent-infrastructure
   confidence: medium
 curation:
   status: included
-  reason: The product is itself an MCP server implementation focused on efficient file operations for agents, which fits cleanly into the MCP Servers and Tooling category.
+  reason: The product's primary identity is an MCP server and toolkit for file operations, explicitly listed in awesome-mcp-servers and built around the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP Server or embeddable, bring your own MCP (Rust, Python, Nodejs)'
+    - Repo description explicitly states 'MCP Server or embeddable, bring your own MCP'
     - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'
-    - README demonstrates MCP tools like patch_apply and shell_exec designed specifically for agent context reduction
+    - README highlights MCP badges and states 'MCP server with tools' as core identity
 placement:
   primary_category: mcp
-  section: null
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:34.623Z"
+    updated_at: "2026-05-06T22:43:22.004Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:13:13.962Z"
+    updated_at: "2026-05-06T22:49:21.015Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cerebrixos-org__tuning-engines-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -46,50 +46,50 @@ metadata:
       - qlora
       - slm
       - sovereign-ai
-    last_checked_at: "2026-05-05T21:01:31.247Z"
+    last_checked_at: "2026-05-06T22:43:18.540Z"
     readme:
-      fetched_at: "2026-05-05T21:01:31.247Z"
+      fetched_at: "2026-05-06T22:43:18.540Z"
       bytes: 13083
 insights:
-  summary: A CLI and MCP server for fine-tuning LLMs and SLMs on code repositories using specialized agents, supporting LoRA, QLoRA, and full fine-tuning via managed GPU infrastructure.
-  why_it_matters: It lets developers create domain-specific, lighter-weight coding models trained on their own codebase patterns without managing their own ML training infrastructure.
-  mental_damage: Finally, a way to spend money fine-tuning a 7B model so it can autocomplete your variable names exactly as inconsistently as your team already does.
+  summary: A CLI and MCP server for fine-tuning open-source LLMs on code repositories using specialized agents like Cody for autocomplete and SIERA for bug-fix patterns.
+  why_it_matters: It lets developers train domain-specific coding models on their own codebase patterns without managing GPU infrastructure, bridging the gap between generic LLMs and team-specific code styles.
+  mental_damage: Yet another frontier where 'owning your sovereign AI model' means paying to discover that your codebase's naming conventions weren't worth 7 billion parameters after all.
   tags:
     - fine-tuning
-    - mcp
     - cli
+    - mcp
     - llm
     - code-models
   confidence: medium
 curation:
   status: included
-  reason: The project's primary artifact is an MCP server and CLI tool for model fine-tuning, fitting the MCP infrastructure scope rather than being a coding agent itself.
+  reason: This is primarily a provider CLI and SDK for fine-tuning models via a managed service, fitting the code-first building blocks pattern of Frameworks & SDKs rather than acting as a coding agent itself.
   evidence:
-    - Repo description explicitly states 'CLI & MCP server for Tuning Engines'
-    - README confirms it provides a 'CLI and MCP-compatible' interface for fine-tuning jobs
-    - Listed in awesome-mcp-servers under Developer Tools section
+    - Repo description explicitly states 'CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories'
+    - README shows developers interact via CLI commands like 'te jobs create' and 'te models list' as a provider tool
+    - The product is a managed fine-tuning service with agents, not a coding assistant that edits repos directly
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.682Z"
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:31.247Z"
+    updated_at: "2026-05-06T22:43:18.540Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:12:39.593Z"
+    updated_at: "2026-05-06T22:48:27.194Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

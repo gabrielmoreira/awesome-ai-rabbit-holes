@@ -1,12 +1,12 @@
 id: retool__com__ai
 kind: website
-name: Retool AI
+name: ai
 canonical_url: https://retool.com/ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__retool__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Retool AI is a hosted platform for building internal applications, workflows, and agents using prompts grounded in an organization's live production data and existing security policies.
-  why_it_matters: It allows developers to scaffold full-stack internal tools on top of existing databases and APIs with enterprise-grade security controls applied by default.
-  mental_damage: Another platform promises to turn your 'trusted building blocks' into apps, right up until the AI hallucinates a permission schema that turns your internal tool into a public read API for the entire company.
+  summary: Retool AI is an enterprise platform that turns prompts into full-stack internal tools, workflows, and custom agents grounded in live production data and business logic.
+  why_it_matters: It allows technical teams to scaffold and deploy AI-powered internal apps on top of existing databases and APIs without building a separate DevOps pipeline.
+  mental_damage: Yet another platform promising that 'vibes' and a prompt box will finally let you retire that Jira board, provided you are comfortable onboarding your entire production data warehouse to a drag-and-drop UI first.
   tags:
-    - enterprise
-    - internal-tools
     - prompt-to-app
-    - workflow-automation
+    - internal-tools
+    - enterprise
+    - agents
+    - low-code
   confidence: high
 curation:
   status: included
-  reason: Retool AI is a browser-first SaaS product that scaffolds full-stack internal applications, dashboards, and workflows from prompts, which aligns with the app-builders category rather than coding agents.
+  reason: The core value proposition is prompt-driven generation of internal apps, dashboards, and workflows on production data, which aligns with App Builders rather than a repo-editing Coding Agent.
   evidence:
-    - "Scraped site states: 'Prompt full-stack apps on your live production data... Apps are scaffolded based on your real schema'."
-    - Described as a 'Browser-first prompt-to-app' product in the category guidance.
-    - Featured in awesome-ai-coding-tools under 'Database and API Tools' for building bespoke AI-powered internal tools.
+    - "Scraped site claims: 'Prompt full-stack apps on your live production data' and 'Easily build apps with AI'."
+    - Source list context places it under 'Database and API Tools' for building 'bespoke AI-powered tools for your business'.
+    - Primary excerpt describes app generation, workflow orchestration, and agents for business processes rather than editing existing codebases.
 placement:
   primary_category: app-builders
-  section: null
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:47:39.552Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:04.759Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jettyio__mlcbakery__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -32,50 +32,50 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:54.549Z"
+    last_checked_at: "2026-05-06T22:44:33.537Z"
     readme:
-      fetched_at: "2026-05-05T21:02:54.549Z"
+      fetched_at: "2026-05-06T22:44:33.537Z"
       bytes: 3209
 insights:
-  summary: A Python-based FastAPI service for managing ML model provenance and lineage with Croissant metadata validation, exposing a Streamable MCP HTTP endpoint for integration.
-  why_it_matters: It gives developers a structured way to track dataset and model lineage while exposing that metadata via MCP for AI assistants to consume.
-  mental_damage: We have successfully built an API to track the lineage of the models that we will inevitably replace six times before the quarter ends.
+  summary: A Python-based service for managing ML model provenance and lineage with Croissant metadata validation, exposing its functionality via a Streamable MCP HTTP endpoint.
+  why_it_matters: It provides a structured backend for tracking dataset and model lineage that AI agents can interact with directly via the Model Context Protocol.
+  mental_damage: We have successfully abstracted the abstraction by building a local FastAPI service just to give our MCP-compatible agents the privilege of tracking their own data lineage.
   tags:
     - mcp
     - ml-lineage
     - fastapi
     - provenance
-    - metadata
+    - croissant
   confidence: medium
 curation:
   status: included
-  reason: The project exposes a Streamable MCP HTTP endpoint and is explicitly listed in the awesome-mcp-servers directory, fitting the MCP infrastructure scope.
+  reason: Despite being a niche ML tool, its primary developer-facing interface is explicitly an MCP server endpoint ('Streamable MCP HTTP'), placing it firmly in MCP infrastructure.
   evidence:
-    - "README states: 'Streamable MCP HTTP: http://mcp.localhost/mcp'"
-    - Listed in awesome-mcp-servers source list under 'Official Servers'
-    - Built as a FastAPI service with a REST API and MCP integration for model provenance
+    - "README explicitly lists 'Streamable MCP HTTP: http://mcp.localhost/mcp' as an access method."
+    - Listed in 'awesome-mcp-servers' under the section 'Official Servers'.
+    - The service is a Python/FastAPI backend designed to be consumed via API/MCP rather than a standalone coding assistant.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.700Z"
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:54.549Z"
+    updated_at: "2026-05-06T22:44:33.537Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:28:13.081Z"
+    updated_at: "2026-05-06T23:04:04.369Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

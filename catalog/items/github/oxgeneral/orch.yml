@@ -1,13 +1,13 @@
 id: github__oxgeneral__orch
 kind: github-repo
-name: ORCH
+name: orch
 canonical_url: https://github.com/oxgeneral/orch
 identity:
   github_repo: oxgeneral/orch
 provenance:
   discoveries:
     - id: discovery__github__oxgeneral__orch__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -40,50 +40,49 @@ metadata:
       - multi-agent
       - orchestrator
       - typescript
-    last_checked_at: "2026-05-05T21:04:09.761Z"
+    last_checked_at: "2026-05-06T22:45:45.905Z"
     readme:
-      fetched_at: "2026-05-05T21:04:09.761Z"
+      fetched_at: "2026-05-06T22:45:45.905Z"
       bytes: 25868
 insights:
-  summary: A CLI tool that orchestrates multiple AI coding agents (like Claude Code and Codex) to work in parallel on a single project from the terminal.
-  why_it_matters: It allows developers to delegate complex, multi-step coding goals to a coordinated team of agents that autonomously decompose tasks, implement code, run tests, and submit pull requests.
-  mental_damage: "Finally, a tool to manage the three AI agents you hired so you can go back to your real job: managing the tool that manages the agents."
+  summary: A CLI tool that orchestrates multiple AI coding agents (like Claude Code, Codex, and Cursor) in parallel from the terminal to decompose goals and execute tasks across a project.
+  why_it_matters: It allows a single developer to run a 'virtual team' of specialized agents simultaneously, automating the decomposition of high-level goals into PRs without manual tab-switching.
+  mental_damage: We have successfully automated the middle-management layer, meaning you can now pay for five AI agents to accomplish what one mildly caffeinated human used to do before lunch.
   tags:
     - agent-orchestration
     - cli
     - multi-agent
-    - terminal
     - typescript
   confidence: high
 curation:
   status: included
-  reason: It is a user-facing control plane for coordinating multiple AI agents and tasks, fitting the agent-orchestration category exactly.
+  reason: The product is a runtime platform and CLI designed specifically to coordinate multiple distinct AI agents (Claude, Codex, etc.) in parallel, fitting the 'operated workbench' definition of agent orchestration.
   evidence:
-    - "Repo description: 'One CLI to orchestrate them all. Manage a team of AI agents executing tasks in parallel from your terminal.'"
-    - "README: 'Open-source orchestration for zero-human companies... Coordinate Claude, Codex, Cursor and any CLI tool in parallel.'"
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+    - Repo description explicitly states 'One CLI to orchestrate them all. Manage a team of AI agents executing tasks in parallel'.
+    - README demonstrates a multi-agent runtime where a 'CTO' agent decomposes goals and 'Backend'/'QA' agents execute them in parallel.
+    - Included in 'awesome-cli-coding-agents' under the 'Harnesses & orchestration > Orchestrators & autonomous loops' section.
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:43:24.782Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.712Z"
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:04:09.761Z"
+    updated_at: "2026-05-06T22:45:45.905Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:20:24.477Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

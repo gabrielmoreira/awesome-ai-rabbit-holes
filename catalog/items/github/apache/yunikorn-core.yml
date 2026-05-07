@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apache__yunikorn-core__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1007
-    forks: 263
+    stars: 1008
+    forks: 264
     license: Apache-2.0
     archived: false
     created_at: "2019-06-13T15:18:08Z"
@@ -38,49 +38,49 @@ metadata:
       - kubernetes
       - universal-resource-scheduler
       - yunikorn
-    last_checked_at: "2026-05-05T21:01:06.134Z"
+    last_checked_at: "2026-05-06T22:12:40.380Z"
     readme:
-      fetched_at: "2026-05-05T21:01:06.134Z"
+      fetched_at: "2026-05-06T22:12:40.380Z"
       bytes: 3998
 insights:
-  summary: Apache YuniKorn is a lightweight, universal resource scheduler for container orchestration systems, currently supporting Kubernetes as a custom scheduler.
-  why_it_matters: It provides fine-grained resource sharing for mixed workloads—stateless batch and stateful services—in large-scale, multi-tenant, cloud-native environments.
-  mental_damage: Yet another reminder that while we're busy arguing about whether AI will replace the developer, the actual infrastructure is quietly scheduling the cluster that trains the model that might one day decide it doesn't need the scheduler either.
+  summary: Apache YuniKorn Core is the scheduling brain of a universal, fine-grained resource scheduler for container orchestrator systems like Kubernetes and YARN.
+  why_it_matters: It provides a unified, cross-platform scheduling experience for mixed workloads in large-scale, multi-tenant, cloud-native environments.
+  mental_damage: Yet another infrastructure-level abstraction promising to solve resource contention, just in time for your AI workloads to outgrow it anyway.
   tags:
     - kubernetes
     - scheduler
+    - go
     - cloud-native
-    - apache
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose Kubernetes resource scheduler with no AI-specific developer-tooling angle, and its appearance in Awesome-LLMOps is for infrastructure adjacence rather than being a tool for developers building with AI.
+  reason: This is general-purpose infrastructure for container orchestration and does not have a developer-facing AI tooling identity.
   evidence:
-    - Repo description and README define it as a universal resource scheduler for K8s/YARN, not an AI developer tool.
-    - Listed in Awesome-LLMOps under 'Scheduling' for infrastructure context, not as a developer-facing AI product.
-    - No AI, LLM, coding agent, or prompt-engineering functionality described in the inputs.
+    - Repo description is 'Apache YuniKorn Core', a universal resource scheduler for container orchestrator systems.
+    - README pitches fine-grained resource sharing for Kubernetes and YARN, with no mention of AI development workflows.
+    - Seen in Awesome-LLMOps under 'Large Scale Deployment > Scheduling', indicating it is infrastructure rather than an AI dev tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (1007) exceeded threshold (150)
+  reason: Stars (1008) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.679Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:06.134Z"
+    updated_at: "2026-05-06T22:12:40.380Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:32.928Z"
+    updated_at: "2026-05-06T22:21:44.242Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

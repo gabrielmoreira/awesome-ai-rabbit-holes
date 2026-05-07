@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__idoru__influxdb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -23,7 +23,7 @@ provenance:
         surrounding_text: "- [idoru/influxdb-mcp-server](https://github.com/idoru/influxdb-mcp-server) 📇 ☁️ 🏠 - Run queries against InfluxDB OSS API v2."
         confidence: high
     - id: discovery__github__idoru__influxdb-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,49 +48,49 @@ metadata:
     description: An MCP Server for querying InfluxDB
     homepage: null
     topics: []
-    last_checked_at: "2026-05-05T21:02:40.765Z"
+    last_checked_at: "2026-05-06T22:44:21.381Z"
     readme:
-      fetched_at: "2026-05-05T21:02:40.765Z"
+      fetched_at: "2026-05-06T22:44:21.381Z"
       bytes: 5819
 insights:
-  summary: An MCP server that exposes InfluxDB v2 instances to AI assistants, enabling read, write, and query operations via the InfluxDB OSS API v2.
-  why_it_matters: It allows developers to interact with time-series databases conversationally, letting AI tools execute Flux queries and manage buckets without leaving the chat interface.
-  mental_damage: We have successfully abstracted away the need to remember Flux syntax by adding a tool that requires an active InfluxDB instance, a specific token, and a running MCP client just to ask a database a question.
+  summary: An MCP server that exposes InfluxDB v2 instances to AI assistants via resources, tools, and prompt templates for querying and managing time-series data.
+  why_it_matters: It allows developers to interact with InfluxDB directly through MCP-compatible assistants like Claude Desktop, removing the need to switch contexts to the CLI or UI for common database operations.
+  mental_damage: We have successfully abstracted away the `influx` CLI into a natural language conversation, ensuring that 'querying the database' now involves two layers of indirection and a token budget.
   tags:
-    - mcp-server
+    - mcp
     - influxdb
     - database
     - time-series
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a dedicated MCP server implementation for InfluxDB, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's identity is an MCP server implementation for a specific database domain, fitting cleanly into the MCP Servers & Tooling category.
   evidence:
     - "Repo description explicitly states: 'An MCP Server for querying InfluxDB'."
-    - README confirms it is a 'Model Context Protocol (MCP) server' providing resources, tools, and prompts for InfluxDB v2.
-    - Listed in 'awesome-mcp-servers' under the Databases section and 'awesome-mcp-list'.
+    - README confirms it is 'A Model Context Protocol (MCP) server that exposes access to an InfluxDB v2 instance'.
+    - Listed in 'awesome-mcp-servers' under Databases, confirming ecosystem identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.667Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:40.765Z"
+    updated_at: "2026-05-06T22:44:21.381Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:25:29.093Z"
+    updated_at: "2026-05-06T23:01:36.583Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

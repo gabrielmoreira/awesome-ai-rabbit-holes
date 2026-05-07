@@ -1,13 +1,13 @@
 id: github__kuafuai__devopsgpt
 kind: github-repo
-name: DevOpsGPT
+name: devopsgpt
 canonical_url: https://github.com/kuafuai/devopsgpt
 identity:
   github_repo: kuafuai/devopsgpt
 provenance:
   discoveries:
     - id: discovery__github__kuafuai__devopsgpt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5957
+    stars: 5958
     forks: 726
     license: NOASSERTION
     archived: false
@@ -32,49 +32,49 @@ metadata:
     description: Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software. Supports any development language and extends the existing code.
     homepage: https://www.kuafuai.net
     topics: []
-    last_checked_at: "2026-05-05T21:03:08.407Z"
+    last_checked_at: "2026-05-06T22:44:45.537Z"
     readme:
-      fetched_at: "2026-05-05T21:03:08.407Z"
+      fetched_at: "2026-05-06T22:44:45.537Z"
       bytes: 9360
 insights:
-  summary: DevOpsGPT is a multi-agent system that combines LLMs with DevOps tools to convert natural language requirements into working software and automate development workflows.
-  why_it_matters: It aims to shorten development cycles by automating the path from vague requirements to deployed code, including interface generation and CI integration.
-  mental_damage: Another brave attempt to automate away the 'tedious requirement document writing' phase, presumably by replacing it with an even longer chat log of prompt engineering.
+  summary: DevOpsGPT is a multi-agent system that combines LLMs with DevOps tools to convert natural language requirements into working software across existing projects and languages.
+  why_it_matters: It attempts to automate the full lifecycle from requirements clarification and interface generation to CI/CD deployment, aiming to reduce manual overhead in enterprise development workflows.
+  mental_damage: Just when you thought 'vibe coding' was the peak of automation, we now have agents arguing with each other to deploy your Java SpringBoot API while you practice explaining requirements to a chatbot.
   tags:
-    - automation
-    - code-generation
-    - devops
     - multi-agent
-  confidence: high
+    - devops
+    - code-generation
+    - llm
+  confidence: medium
 curation:
   status: included
-  reason: It is a multi-agent coding system designed to plan, write, and deploy code from requirements, fitting the coding-agents category as a repo/CLI workflow assistant.
+  reason: The product positions itself as a primary AI-driven assistant that reads requirements, generates code, and integrates with DevOps pipelines, fitting the coding agent profile better than a thin extension or framework.
   evidence:
-    - Repo description states it converts natural language requirements into working software using a multi-agent system.
-    - README workflow describes generating pseudocode, refining code, and handling CI/CD deployment within the project lifecycle.
-    - Appears in the 'awesome-ai-agents' list under the 'DevOpsGPT' section, supporting its identity as an agent tool.
+    - Repo description states it is a 'Multi agent system for AI-driven software development' that converts requirements into software.
+    - README describes an automated workflow where it clarifies requirements, generates interfaces, writes pseudocode, and handles CI/CD deployment.
+    - Listed in awesome-ai-agents under the DevOpsGPT entry, aligning with its multi-agent coding assistant identity.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5957) exceeded threshold (150)
+  reason: Stars (5958) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:31:24.484Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.702Z"
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:08.407Z"
+    updated_at: "2026-05-06T22:44:45.537Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:06:45.357Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: coderabbit__ai
 kind: website
-name: CodeRabbit
+name: coderabbit.ai
 canonical_url: https://coderabbit.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__coderabbit__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,43 +34,44 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-first pull request reviewer that provides context-aware feedback, line-by-line code suggestions, and real-time chat, available via GitHub/GitLab integrations, CLI, and IDE extensions.
-  why_it_matters: It aims to reduce code review time and catch edge-case bugs before production by automating the heavy lifting of PR reviews with codebase-aware analysis.
-  mental_damage: Finally, an AI agent to review the code written by the other AI agents, ensuring our infinite loop of generated bugs has at least one layer of automated peer review.
+  summary: An AI-first pull request reviewer that provides context-aware feedback, line-by-line code suggestions, and real-time chat across PRs, IDEs, and CLI environments.
+  why_it_matters: It automates the heavy lifting of code reviews by catching edge cases, generating tests and docstrings, and enforcing custom coding guidelines via a configurable YAML workflow.
+  mental_damage: We've successfully automated the part of code review where a senior engineer sighs and explains your off-by-one error, so now you can feel judged by an AI that learned your style guide instead.
   tags:
-    - ai-agents
     - code-review
-    - pr-reviewer
-    - static-analysis
+    - ai-reviewer
+    - pr-automation
+    - cli
+    - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The product functions as an AI agent that directly reviews, suggests fixes for, and interacts with source code within the PR workflow, IDE, and CLI, fitting the coding-agents definition.
+  reason: CodeRabbit is a developer-facing coding assistant focused specifically on reviewing, testing, and repairing code across PRs, IDEs, and CLI, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
   evidence:
     - Scraped site describes it as an 'AI-first pull request reviewer with context-aware feedback, line-by-line code suggestions, and real-time chat.'
-    - Product integrates directly into the developer workflow via 'Agent Pull Request Reviews, IDE Reviews, [and] CLI Reviews.'
-    - Listed in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
+    - Source list (awesome-ai-coding-tools) includes it under 'Code Review and Refactoring' as an AI-powered review tool.
+    - Features include unit test generation, docstring generation, and customizable pre-merge checks via a YAML configuration.
 placement:
   primary_category: coding-agents
-  section: null
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:43:02.829Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:15:18.122Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

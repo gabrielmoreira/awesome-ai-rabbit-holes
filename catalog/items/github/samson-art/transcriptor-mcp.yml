@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__samson-art__transcriptor-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -24,47 +24,67 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2025-12-24T19:25:41Z"
+    pushed_at: "2026-04-26T06:19:43Z"
+    description: An MCP server (stdio + HTTP/SSE) that fetches video transcripts/subtitles via yt-dlp, with pagination for large responses. Supports YouTube, Twitter/X, Instagram, TikTok, Twitch, Vimeo, Facebook, Bilibili, VK, Dailymotion. Whisper fallback — transcribes audio when subtitles are unavailable (local or OpenAI API). Works with Cursor and other MCP host
+    homepage: ""
+    topics:
+      - claude-code
+      - cursor
+      - docker
+      - mcp
+      - mcp-server
+      - youtube
+      - youtube-captions
+      - yt-dlp
+    last_checked_at: "2026-05-06T22:46:16.136Z"
+    readme:
+      fetched_at: "2026-05-06T22:46:16.136Z"
+      bytes: 23383
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that fetches video transcripts and metadata from 11 major platforms using yt-dlp, with a Whisper fallback for audio transcription when subtitles are unavailable.
+  why_it_matters: It gives MCP-compatible coding agents and editors direct access to video content as structured text, enabling summarization, learning, and content analysis workflows without manual transcription.
+  mental_damage: "We have finally achieved the pinnacle of developer productivity: an MCP server whose primary job is to let your coding agent watch TikTok and call it 'context ingestion.'"
+  tags:
+    - mcp
+    - transcripts
+    - video
+    - yt-dlp
+    - whisper
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server providing transcript and metadata tooling for video platforms, fitting squarely into the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'An MCP server (stdio + HTTP/SSE) that fetches video transcripts/subtitles via yt-dlp'.
+    - README emphasizes 'This repository primarily ships a stdio MCP server' and lists MCP host compatibility (Cursor, Smithery, Glama).
+    - Listed in awesome-mcp-servers under 'Server Implementations', confirming its identity as a domain-specific MCP tool.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.716Z"
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-06T22:46:16.136Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-05T23:08:18.952Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:27:00.662Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

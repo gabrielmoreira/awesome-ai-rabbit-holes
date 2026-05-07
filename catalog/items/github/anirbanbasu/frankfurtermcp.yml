@@ -1,13 +1,13 @@
 id: github__anirbanbasu__frankfurtermcp
 kind: github-repo
-name: FrankfurterMCP
+name: frankfurtermcp
 canonical_url: https://github.com/anirbanbasu/frankfurtermcp
 identity:
   github_repo: anirbanbasu/frankfurtermcp
 provenance:
   discoveries:
     - id: discovery__github__anirbanbasu__frankfurtermcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -42,49 +42,50 @@ metadata:
       - mcp-server
       - model-context-protocol
       - model-context-protocol-server
-    last_checked_at: "2026-05-05T21:01:03.936Z"
+    last_checked_at: "2026-05-06T22:12:38.543Z"
     readme:
-      fetched_at: "2026-05-05T21:01:03.936Z"
+      fetched_at: "2026-05-06T22:12:38.543Z"
       bytes: 22144
 insights:
-  summary: A Model Context Protocol server that exposes the Frankfurter currency exchange rate API as tools for language model agents.
-  why_it_matters: It allows AI agents to retrieve live and historical currency data directly via MCP without requiring manual API integration or rate-limiting workarounds.
-  mental_damage: Another day, another MCP server, because apparently wrapping a simple REST API in a protocol is now the pinnacle of developer infrastructure.
+  summary: A Python MCP server that exposes the Frankfurter currency exchange rate API as tools for language model agents.
+  why_it_matters: Developers building financial agents can plug in live and historical exchange rate lookups without writing custom API wrappers.
+  mental_damage: We now have a dedicated protocol server, caching layer, and PyPI package so your agent can confidently tell you that EUR to USD is roughly what it was yesterday.
   tags:
+    - mcp
+    - finance
     - currency
     - fastmcp
-    - finance
-    - mcp
-  confidence: high
+    - api-wrapper
+  confidence: medium
 curation:
   status: included
-  reason: The project is a standalone MCP server that integrates the Frankfurter API, fitting cleanly into the MCP Servers and Tooling category.
+  reason: This is an MCP server that provides currency exchange tools for agents, fitting cleanly under MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description explicitly states it is 'A MCP server for the Frankfurter API for currency exchange rates.'
-    - README confirms it exposes Frankfurter API capabilities as tools over the Model Context Protocol for language model agents.
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing its MCP-specific purpose.
+    - Repo description states it is 'A MCP server for the Frankfurter API for currency exchange rates.'
+    - README says it exposes 'tools for language model agents exposed over the Model Context Protocol (MCP).'
+    - Listed in awesome-mcp-servers under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:08:15.455Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:03.936Z"
+    updated_at: "2026-05-06T22:12:38.543Z"
     cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:21:21.303Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
     next_retry_at: null

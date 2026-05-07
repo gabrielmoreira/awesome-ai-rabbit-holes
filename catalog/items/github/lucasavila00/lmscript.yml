@@ -1,13 +1,13 @@
 id: github__lucasavila00__lmscript
 kind: github-repo
-name: LmScript
+name: lmscript
 canonical_url: https://github.com/lucasavila00/lmscript
 identity:
   github_repo: lucasavila00/lmscript
 provenance:
   discoveries:
     - id: discovery__github__lucasavila00__lmscript__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -38,50 +38,50 @@ metadata:
       - outlines
       - sglang
       - typescript
-    last_checked_at: "2026-05-05T21:03:25.115Z"
+    last_checked_at: "2026-05-06T22:45:04.186Z"
     readme:
-      fetched_at: "2026-05-05T21:03:25.115Z"
+      fetched_at: "2026-05-06T22:45:04.186Z"
       bytes: 2594
 insights:
-  summary: A TypeScript suite for building controllable language model interactions that integrates with local inference runtimes like SGLang and vLLM.
-  why_it_matters: It gives developers a structured way to define and execute constrained LM programs against self-hosted models without relying on heavy Python stacks.
-  mental_damage: Another pristine TypeScript wrapper enters the arena, offering you yet another 'clean' way to orchestrate local models while your vLLM config file slowly achieves sentience.
+  summary: A TypeScript suite for building controllable language model interactions that integrates with local serving runtimes like SGLang and vLLM.
+  why_it_matters: It gives developers a structured, code-first way to script constrained LLM outputs against self-hosted local models instead of relying on generic cloud APIs.
+  mental_damage: Yet another TypeScript wrapper enters the ring, proving that before we truly master AI, we must first master wrapping the wrappers that wrap the runtimes.
   tags:
-    - inference
-    - llm
-    - local-ai
-    - sglang
     - typescript
+    - local-ai
+    - llm-control
+    - sglang
+    - vllm
   confidence: medium
 curation:
   status: included
-  reason: This is an SDK/framework for embedding controllable LM interactions into TypeScript code, fitting the code-first building block definition of ai-frameworks.
+  reason: The project is a code-first SDK and toolkit for scripting LLM interactions, positioning it as a developer library rather than a local runtime or a standalone agent.
   evidence:
-    - "Repo description states: 'Controllable Language Model Interactions in TypeScript'"
-    - README describes it as 'A suite of tools for easy, fast, and controllable interactions with language models' supporting SGLang and vLLM
-    - Provides a dependency-free TypeScript client and execution backend packages for developers to import
+    - "Repo description states: 'Controllable Language Model Interactions in TypeScript'."
+    - README identifies it as 'A suite of tools' and includes a 'Typescript Client' package for executing programs with different backends.
+    - Supports specific local runtimes like SGLang and vLLM rather than acting as a runtime itself.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:34:53.684Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.704Z"
+    updated_at: "2026-05-06T22:12:15.627Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:25.115Z"
+    updated_at: "2026-05-06T22:45:04.186Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:10:45.198Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

@@ -1,12 +1,12 @@
 id: ailaflow__com
 kind: website
-name: AilaFlow
+name: ailaflow.com
 canonical_url: https://ailaflow.com
 identity: {}
 provenance:
   discoveries:
     - id: discovery__ailaflow__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -34,42 +34,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AilaFlow is a listed entry in the awesome-ai-agents directory, representing an autonomous AI agent.
-  why_it_matters: It contributes to the expanding ecosystem of autonomous agents that developers are evaluating for task automation.
-  mental_damage: We now have lists of agents so we can build agents that read lists of agents to decide which agent to delegate to.
+  summary: AilaFlow is a visual builder for creating and managing AI autonomous agents.
+  why_it_matters: It provides a visual interface for designing agent workflows, lowering the barrier to entry for developers experimenting with multi-agent architectures.
+  mental_damage: Just when you thought you had a handle on your agent's prompt, now you can waste an afternoon dragging nodes around a canvas to visualize the recursion you could have written in a script.
   tags:
     - agents
-    - autonomous
-    - directory-listed
+    - visual-builder
+    - workflow
   confidence: low
 curation:
-  status: excluded
-  reason: There is no source code, product page content, or functional description available to verify this is a usable developer tool rather than just a name in a list.
+  status: included
+  reason: The product is listed in awesome-ai-agents as a tool for building autonomous agents, fitting the 'workbench' profile of agent orchestration rather than a coding-specific assistant.
   evidence:
-    - No repository description, README, or scraped site context was provided.
-    - Only signal is an entry in the awesome-ai-agents list without further detail.
-    - Homepage, stars, license, and archive status are all unknown.
+    - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'.
+    - The URL ailaflow.com and name suggest a flow/builder interface for agents.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:41:40.347Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.726Z"
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:13:47.555Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

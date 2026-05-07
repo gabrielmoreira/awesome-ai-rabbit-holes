@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ndthanhdev__mcp-browser-kit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -33,48 +33,49 @@ metadata:
     description: An MCP Server that enables AI assistants to interact with your local browsers.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-05T21:03:52.132Z"
+    last_checked_at: "2026-05-06T22:45:30.018Z"
     readme:
-      fetched_at: "2026-05-05T21:03:52.132Z"
+      fetched_at: "2026-05-06T22:45:30.018Z"
       bytes: 3833
 insights:
-  summary: An MCP server paired with a browser extension that allows AI assistants to interact with and control your local web browsers.
-  why_it_matters: It bridges the gap between coding agents and live web environments, enabling AI workflows that can directly manipulate tabs, click buttons, and automate browser tasks without leaving the chat interface.
-  mental_damage: We have finally achieved the singularity where your AI assistant can star a GitHub repo in your browser while you wonder why you still have to manually load unpacked extensions in chrome://extensions.
+  summary: An MCP server combined with a browser extension that lets AI assistants control and interact with your local browsers via the Model Context Protocol.
+  why_it_matters: It gives coding agents and MCP clients direct access to browser automation without requiring developers to wire up separate Playwright or Selenium bridges.
+  mental_damage: Your AI can now star repositories and click through tabs on its own, which is either a massive productivity unlock or the opening scene of a very mundane sci-fi thriller.
   tags:
     - mcp
     - browser-automation
-    - ai-workflow
+    - extension
+    - local-ai
   confidence: high
 curation:
   status: included
-  reason: This is a distinct MCP server implementation for browser automation, fitting squarely into the MCP Servers and Tooling category.
+  reason: The product's core identity is an MCP server with a companion browser extension, making it a textbook fit for the MCP Servers & Tooling category.
   evidence:
     - "Repo description explicitly states: 'An MCP Server that enables AI assistants to interact with your local browsers.'"
-    - Installation requires adding the specific '@mcp-browser-kit/server' package to an MCP client configuration.
-    - Listed in the 'awesome-mcp-servers' directory under 'Browser Automation' server implementations.
+    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
+    - Usage instructions show adding it as an MCP server entry to an MCP client config.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.709Z"
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:52.132Z"
+    updated_at: "2026-05-06T22:45:30.018Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:40:05.324Z"
+    updated_at: "2026-05-06T23:16:43.808Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

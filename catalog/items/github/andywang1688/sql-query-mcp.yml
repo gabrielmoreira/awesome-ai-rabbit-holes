@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andywang1688__sql-query-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -41,50 +41,50 @@ metadata:
       - mysql
       - postgresql
       - sql
-    last_checked_at: "2026-05-05T21:01:03.666Z"
+    last_checked_at: "2026-05-06T22:12:38.312Z"
     readme:
-      fetched_at: "2026-05-05T21:01:03.666Z"
+      fetched_at: "2026-05-06T22:12:38.312Z"
       bytes: 7384
 insights:
-  summary: A general-purpose MCP server that exposes PostgreSQL and MySQL databases to AI clients through read-only tools for schema discovery, query execution, and explain plans within controlled boundaries.
-  why_it_matters: Developers can safely give AI assistants structured, read-only access to production databases for query building and schema inspection without handing over raw connection strings or write permissions.
-  mental_damage: Another carefully sandboxed bridge to your data so the AI can generate the same missing index three times while you manually check the explain plan it wasn't allowed to run with analyze=true.
+  summary: A read-only MCP server that lets AI clients discover schemas, sample data, and run constrained SQL queries across PostgreSQL and MySQL databases.
+  why_it_matters: It lets you safely expose database context to coding agents for schema-aware SQL generation without handing over raw connection strings or write access.
+  mental_damage: We have successfully abstracted the database so that the AI can now competently select from tables you forgot you had.
   tags:
     - mcp
-    - database
+    - databases
+    - sql
     - postgresql
     - mysql
-    - read-only
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation that provides database access tooling for AI clients, which clearly fits the MCP Servers and Tooling category.
+  reason: The product is an MCP server for databases, making MCP its core identity and fitting cleanly under Domain Servers.
   evidence:
-    - Repo description states it is 'A general-purpose MCP server that lets AI work with multiple databases'.
-    - README describes tools like list_schemas, run_select, and explain_query exposed over MCP for PostgreSQL and MySQL.
+    - Repo description explicitly states 'A general-purpose MCP server that lets AI work with multiple databases'.
+    - README confirms read-only SQL tools (list_tables, run_select, explain_query) exposed via MCP.
     - Listed in awesome-mcp-servers under Server Implementations > Databases.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.678Z"
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:01:03.666Z"
+    updated_at: "2026-05-06T22:12:38.312Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:08:12.007Z"
+    updated_at: "2026-05-06T22:21:21.090Z"
     cause: null
-    next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

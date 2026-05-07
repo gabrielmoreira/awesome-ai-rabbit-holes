@@ -1,13 +1,13 @@
 id: github__labring__fastgpt
 kind: github-repo
-name: FastGPT
+name: fastgpt
 canonical_url: https://github.com/labring/fastgpt
 identity:
   github_repo: labring/fastgpt
 provenance:
   discoveries:
     - id: discovery__github__labring__fastgpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 27907
-    forks: 7070
+    stars: 27915
+    forks: 7074
     license: NOASSERTION
     archived: false
     created_at: "2023-02-23T16:53:25Z"
-    pushed_at: "2026-04-30T06:44:00Z"
+    pushed_at: "2026-05-06T14:27:16Z"
     description: FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
     homepage: https://fastgpt.io
     topics:
@@ -42,50 +42,50 @@ metadata:
       - qwen
       - rag
       - workflow
-    last_checked_at: "2026-05-05T21:03:14.832Z"
+    last_checked_at: "2026-05-06T22:44:53.729Z"
     readme:
-      fetched_at: "2026-05-05T21:03:14.832Z"
+      fetched_at: "2026-05-06T22:44:53.729Z"
       bytes: 9174
 insights:
-  summary: FastGPT is an open-source platform for building AI agents with visual workflow orchestration, RAG retrieval, data processing, and knowledge base management.
-  why_it_matters: It gives developers a self-hostable workbench to quickly prototype, evaluate, and deploy RAG-based agents and chatbot applications with built-in knowledge base and OpenAPI integrations.
-  mental_damage: Yet another visual 'agent builder' promising that wiring nodes together will finally save you from actually understanding your own data pipeline.
+  summary: FastGPT is a self-hostable AI agent and knowledge-base platform that provides visual workflow orchestration, RAG retrieval, and data processing capabilities for building complex question-answering systems.
+  why_it_matters: It gives developers a visual workbench to orchestrate multi-agent workflows, wire up knowledge bases, and expose LLM-powered apps through OpenAPI endpoints without building RAG infrastructure from scratch.
+  mental_damage: Yet another reminder that you could build your own internal AI platform over a weekend, if only you had eight weekends in a row and no tech debt to maintain.
   tags:
-    - agent-orchestration
-    - mcp
     - rag
+    - agent-orchestration
     - self-hosted
     - workflow
+    - knowledge-base
   confidence: high
 curation:
   status: included
-  reason: FastGPT is a user-facing platform for visually orchestrating agents, workflows, and knowledge bases, fitting agent orchestration rather than a coding agent or app builder.
+  reason: The core product is a visual workbench and control plane for orchestrating agents, workflows, and knowledge bases, which aligns with Agent Orchestration rather than a coding assistant or framework.
   evidence:
-    - Repo description states it provides 'visual AI workflow orchestration' and 'develop and deploy complex question-answering systems'.
-    - README positions it as an 'AI Agent 构建平台' (AI Agent building platform) with conversation/workflow orchestration, RAG, and an app evaluation module.
-    - Topics include agent, rag, workflow, and mcp, and it is listed in awesome-LLM-resources under a RAG knowledge base section.
+    - "Repo description: 'knowledge-based platform built on the LLMs, offers ... visual AI workflow orchestration'"
+    - "README: 'FastGPT 是一个 AI Agent 构建平台，提供开箱即用的数据处理、模型调用等能力，同时可以通过 Flow 可视化进行工作流编排'"
+    - Topics include agent, rag, workflow, mcp; seen in awesome-LLM-resources under 知识库 RAG
 placement:
   primary_category: agent-orchestration
-  section: null
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
-  reason: Stars (27907) exceeded threshold (150)
+  reason: Stars (27915) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:32:52.007Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.703Z"
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:03:14.832Z"
+    updated_at: "2026-05-06T22:44:53.729Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T23:08:16.690Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

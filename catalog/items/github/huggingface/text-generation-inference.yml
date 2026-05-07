@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__text-generation-inference__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -22,7 +22,7 @@ provenance:
         surrounding_text: "| [text-generation-inference](https://github.com/huggingface/text-generation-inference)| - Inference serving toolbox with optimized kernels for each LLM architecture                | Safetensors / AWQ / GPTQ | Both             | ❌  | Python/Rust | Text-Gen      |"
         confidence: high
     - id: discovery__github__huggingface__text-generation-inference__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -39,7 +39,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10849
+    stars: 10851
     forks: 1266
     license: Apache-2.0
     archived: true
@@ -57,27 +57,28 @@ metadata:
       - pytorch
       - starcoder
       - transformer
-    last_checked_at: "2026-05-05T21:02:37.750Z"
+    last_checked_at: "2026-05-06T22:44:18.958Z"
     readme:
-      fetched_at: "2026-05-05T21:02:37.750Z"
+      fetched_at: "2026-05-06T22:44:18.958Z"
       bytes: 14691
 insights:
-  summary: A Rust, Python, and gRPC server toolkit for deploying and serving large language models with production features like continuous batching, tensor parallelism, and OpenAI-compatible APIs.
-  why_it_matters: It provides the infrastructure backbone for developers needing to self-host and scale open-source LLMs with optimized inference performance.
-  mental_damage: The 'maintenance mode' banner basically translates to 'we built the future, now please go figure out vLLM or SGLang while we paint a sunset over the repo'.
+  summary: A Rust and Python inference server from Hugging Face for deploying and serving large language models with production features like continuous batching, tensor parallelism, and quantization.
+  why_it_matters: It provides the high-performance serving layer needed to self-host popular open-source LLMs like Llama and StarCoder with OpenAI-compatible APIs.
+  mental_damage: The README now directs you to other inference engines, meaning your carefully tuned TGI deployment is effectively a legacy system before you even finish the Docker pull.
   tags:
     - inference
     - llm-serving
-    - local-ai
+    - self-hosted
     - huggingface
+    - rust
   confidence: high
 curation:
   status: excluded
-  reason: The repo is explicitly in maintenance mode and archived, effectively deprecated in favor of downstream engines like vLLM and SGLang.
+  reason: Excluded because the repository is explicitly in maintenance mode and archived, and it functions as a backend model-serving infrastructure rather than a developer-facing AI tool, agent, or coding workflow product.
   evidence:
-    - "Repo description: 'Large Language Model Text Generation Inference'"
-    - "README excerpt: 'text-generation-inference is now in maintenance mode... we contribute to and recommend using going forward: vllm, SGLang...'"
-    - "Archived: yes"
+    - Repo description identifies it as 'Large Language Model Text Generation Inference', a serving engine rather than a developer tool.
+    - README states the project is 'now in maintenance mode' and archived, recommending users migrate to vllm or SGLang.
+    - Source lists categorize it under 'Inference Engine' and 'Large Model Serving', which falls outside the catalog's scope of IDEs, agents, and developer workflows.
 placement:
   primary_category: null
   section: null
@@ -87,19 +88,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.666Z"
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:37.750Z"
+    updated_at: "2026-05-06T22:44:18.958Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-05T21:24:39.864Z"
+    updated_at: "2026-05-06T23:01:08.381Z"
     cause: null
     next_retry_at: null
     attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

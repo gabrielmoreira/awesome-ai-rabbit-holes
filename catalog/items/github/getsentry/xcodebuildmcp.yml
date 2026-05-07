@@ -1,13 +1,13 @@
 id: github__getsentry__xcodebuildmcp
 kind: github-repo
-name: XcodeBuildMCP
+name: xcodebuildmcp
 canonical_url: https://github.com/getsentry/xcodebuildmcp
 identity:
   github_repo: getsentry/xcodebuildmcp
 provenance:
   discoveries:
-    - id: discovery__github__cameroncooke__xcodebuildmcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+    - id: discovery__github__getsentry__xcodebuildmcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5420
+    stars: 5425
     forks: 266
     license: MIT
     archived: false
     created_at: "2025-03-09T17:31:18Z"
-    pushed_at: "2026-05-05T20:51:26Z"
+    pushed_at: "2026-05-06T21:40:31Z"
     description: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
     homepage: https://www.xcodebuildmcp.com
     topics:
@@ -39,53 +39,50 @@ metadata:
       - tag-production
       - xcode
       - xcodebuild
-    last_checked_at: "2026-05-05T21:02:20.271Z"
+    last_checked_at: "2026-05-06T22:44:01.679Z"
     readme:
-      fetched_at: "2026-05-05T21:02:20.271Z"
+      fetched_at: "2026-05-06T22:44:01.679Z"
       bytes: 5413
 insights:
-  summary: A Model Context Protocol server and CLI that gives AI coding agents tools to build, run, and manage iOS and macOS projects via xcodebuild.
-  why_it_matters: It lets AI agents meaningfully interact with Apple's build toolchain, bridging the gap between generic coding assistants and platform-specific mobile development workflows.
-  mental_damage: Finally, your AI agent can autonomously argue with code signing and provisioning profiles at 3 AM so you do not have to.
+  summary: An MCP server and CLI that lets AI coding agents build, run, and manage iOS and macOS projects via Xcode.
+  why_it_matters: It gives agents reliable, programmatic access to the Xcode toolchain so they can build, install to simulators, and debug Apple platform apps without manual Xcode interaction.
+  mental_damage: You finally automated the one part of iOS development that was still keeping you sane by forcing you to occasionally look at a real device.
   tags:
-    - cli
-    - ios
-    - macos
     - mcp
     - xcode
+    - ios
+    - macos
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an MCP server and CLI for Xcode, fitting directly into the MCP infrastructure category rather than being a general coding agent itself.
+  reason: "MCP is the core product identity: the repo is literally an MCP server for Xcode, not a general framework or a standalone coding assistant."
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server and CLI'.
-    - README confirms it is an MCP server with a CLI mode, designed to provide tools for agent use in iOS/macOS projects.
-    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its identity as MCP infrastructure.
-    - Repo description explicitly states 'A Model Context Protocol (MCP) server and CLI'
-    - README confirms it provides tools for agent use via MCP with setup docs for MCP clients like Cursor and Claude Code
-    - Topics include mcp, mcp-server, and model-context-protocol-servers, reinforcing the MCP infrastructure identity
+    - "Repo description: 'A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.'"
+    - Topics include mcp, mcp-server, and model-context-protocol-servers.
+    - Listed in awesome-mcp-servers under Community Servers.
 placement:
   primary_category: mcp
-  section: null
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
-  reason: Stars (5420) exceeded threshold (150)
+  reason: Stars (5425) exceeded threshold (150)
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T21:21:14.375Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: 1b6cc5462ecc
   discover:
     status: done
-    updated_at: "2026-05-05T20:48:55.440Z"
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-05T21:02:20.271Z"
+    updated_at: "2026-05-06T22:44:01.679Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:57:34.231Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"

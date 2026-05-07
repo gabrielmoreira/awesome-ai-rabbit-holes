@@ -1,12 +1,12 @@
 id: sovgrid__org
 kind: website
-name: Sovereign AI Blog
+name: sovgrid.org
 canonical_url: https://sovgrid.org
 identity: {}
 provenance:
   discoveries:
     - id: discovery__sovgrid__org__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-05T19:41:00.656Z"
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,44 +35,43 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal blog and documentation site detailing the setup, configuration, and operational fixes required to run a 119B parameter AI model locally on DGX Spark hardware.
-  why_it_matters: Provides practical, battle-tested documentation for developers attempting to self-host large-scale AI models and build local sovereign AI stacks.
-  mental_damage: "The ultimate power move: spending three hours debugging an AttributeError just so you can tell your colleagues your chatbot runs on hardware that draws more watts than a space heater."
+  summary: A blog and documentation site detailing the setup, fixes, and architecture of a self-hosted 119B parameter AI stack running on DGX Spark hardware.
+  why_it_matters: It provides real-world, battle-tested documentation for developers attempting to run massive local models and avoid the cloud subscription treadmill.
+  mental_damage: Yet another reminder that while you're fighting with a 7B quantized model in a Colab notebook, someone else is debugging EAGLE decoding on a DGX in their garage.
   tags:
-    - blog
-    - infrastructure
     - local-ai
     - self-hosted
-    - sovereign-ai
-  confidence: medium
+    - infrastructure
+    - blog
+  confidence: high
 curation:
-  status: included
-  reason: This is a content resource documenting a self-hosted local AI stack (119B model on DGX Spark), fitting the local-ai category as a developer-facing guide for running models on own hardware.
+  status: excluded
+  reason: This is a personal blog and documentation site, not a standalone developer tool, framework, or product.
   evidence:
-    - "Site title and description explicitly state: 'Running a 119B AI model at home. No cloud, no subscriptions, no compromises.'"
-    - "Stack details include local runtimes and tools: 'Mistral Small 4 · 119B · SGLang nightly · Gitea · OpenHands · Aider'."
-    - Source list context links it as a resource for 'Server Implementations > Knowledge & Memory' but the primary content is the self-hosted stack documentation.
+    - Primary page excerpt describes a blog with articles, insights, and stack exploration, not a tool to install.
+    - The source-list context in awesome-mcp-servers points to a blog URL (sovgrid.org) rather than a server implementation.
+    - The site content focuses on setup guides and fixes (e.g., Alby Hub, Voxtral patches) rather than distributing a reusable MCP server or toolkit.
 placement:
-  primary_category: local-ai
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
-  categorize:
-    status: done
-    updated_at: "2026-05-05T19:48:15.016Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v2-baseline
-    category_rules_version: b6a92f4a64e2
-    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-05T19:41:00.730Z"
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:29:46.525Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null

@@ -1,0 +1,76 @@
+id: www__epsilla__com
+kind: website
+name: www.epsilla.com
+canonical_url: https://www.epsilla.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__epsilla__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Epsilla
+        extracted_url: https://epsilla.com
+        surrounding_text: "| [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create vertical AI agents powered by your private data and knowledge.                                                                                                                                                                                                      |               |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Epsilla is an enterprise Agent-as-a-Service platform that provides no-code tooling, RAG infrastructure, and scalable runtimes to build and deploy vertical AI agents without managing underlying engineering complexity.
+  why_it_matters: It allows developers and non-technical teams to spin up domain-specific agents and RAG pipelines rapidly via API or UI, handling embedding, indexing, and multi-tenant deployment so you don't have to.
+  mental_damage: Because nothing says 'no engineering overhead' quite like buying a platform to abstract away the engineering overhead of the platform you just bought.
+  tags:
+    - agent-platform
+    - rag
+    - no-code
+    - enterprise
+  confidence: high
+curation:
+  status: included
+  reason: Epsilla is a control-plane platform for building and operating vertical AI agents and RAG pipelines, aligning with Agent Orchestration's 'operated workbench or runtime platform' identity rather than a code-first framework or single coding assistant.
+  evidence:
+    - Scraped site describes 'Agent-as-a-Service platform for enterprises' with agent management, RAG as a service, and no-code builder.
+    - Featured in Awesome-LLMOps under LLMOps for building AI agents without engineering overhead.
+    - Customer testimonials emphasize rapid PoC spinning, RAG workflow simplification, and managed vectorstore/infrastructure benefits.
+placement:
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.667Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-06T22:33:00.895Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null
