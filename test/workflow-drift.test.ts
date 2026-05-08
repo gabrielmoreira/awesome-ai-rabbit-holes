@@ -10,6 +10,12 @@ const WORKFLOWS = [
 ] as const;
 
 describe("workflow llm task drift", () => {
+  it("keeps refresh-metadata.yml (sync-catalog) on a stable twice-weekly schedule", () => {
+    const workflow = fs.readFileSync(path.join(REPO_ROOT, ".github/workflows/refresh-metadata.yml"), "utf8");
+    expect(workflow).toContain('cron: "0 4 * * 1,4"');
+    expect(workflow).not.toContain('cron: "0 4 */3 * *"');
+  });
+
   it("uses the current llm:doctor task name everywhere", () => {
     for (const relativePath of WORKFLOWS) {
       const contents = fs.readFileSync(path.join(REPO_ROOT, relativePath), "utf8");
