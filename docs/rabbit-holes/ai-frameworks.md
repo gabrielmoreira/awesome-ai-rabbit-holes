@@ -1291,6 +1291,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agents` `data-labeling` `framework` `python` `llm`
   </details>
 
+- **[Agentic Commerce Protocol](https://github.com/agentic-commerce-protocol/agentic-commerce-protocol)** `⭐ 1.4k` Agentic Commerce Protocol (ACP) is a versioned open standard from OpenAI and Stripe that ships OpenAPI specs, JSON Schemas, examples, and governance docs for letting AI agents complete real commerce and checkout flows. <details><summary>More about</summary>
+
+  It gives developers a concrete interoperability layer for adding purchases, payment delegation, and merchant integrations to agentic products without inventing a one-off transaction protocol.
+
+  _We have progressed from "my chatbot can recommend products" to "my chatbot now needs a changelog, governance process, and OpenAPI contract before it can impulse-buy socks on my behalf."._
+
+  `protocol` `commerce` `payments` `openapi` `schemas`
+  </details>
+
 - **[swift-sdk](https://github.com/modelcontextprotocol/swift-sdk)** `⭐ 1.4k` `updated ≤30d` The official Swift SDK for building Model Context Protocol (MCP) clients and servers in Swift environments. <details><summary>More about</summary>
 
   Swift developers can now integrate MCP-native tooling into Apple-platform apps without bridging through other languages.
