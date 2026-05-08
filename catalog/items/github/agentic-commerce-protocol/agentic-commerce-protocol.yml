@@ -1,0 +1,76 @@
+id: github__agentic-commerce-protocol__agentic-commerce-protocol
+kind: github-repo
+name: Agentic Commerce Protocol
+canonical_url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+identity:
+  github_repo: agentic-commerce-protocol/agentic-commerce-protocol
+provenance:
+  discoveries:
+    - id: discovery__github__agentic-commerce-protocol__agentic-commerce-protocol__direct-link
+      discovered_at: "2026-05-08T12:23:44.484Z"
+      source:
+        type: direct-link
+        name: Manual submission
+        url: null
+        repository: null
+      extraction:
+        mode: direct
+        section_path:
+          - inbox
+        anchor_text: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+        extracted_url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+        surrounding_text: OpenAI and Stripe's open protocol for agentic commerce, checkout, and payment flows.
+        confidence: high
+metadata:
+  github:
+    stars: 1373
+    forks: 212
+    license: Apache License 2.0
+    archived: false
+    created_at: "2025-09-29T04:09:29Z"
+    pushed_at: "2026-05-07T16:25:27Z"
+    description: The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe.
+    homepage: https://agenticcommerce.dev
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Agentic Commerce Protocol (ACP) is a versioned open standard from OpenAI and Stripe that ships OpenAPI specs, JSON Schemas, examples, and governance docs for letting AI agents complete real commerce and checkout flows.
+  why_it_matters: It gives developers a concrete interoperability layer for adding purchases, payment delegation, and merchant integrations to agentic products without inventing a one-off transaction protocol.
+  mental_damage: We have progressed from "my chatbot can recommend products" to "my chatbot now needs a changelog, governance process, and OpenAPI contract before it can impulse-buy socks on my behalf."
+  tags:
+    - protocol
+    - commerce
+    - payments
+    - openapi
+    - schemas
+  confidence: high
+curation:
+  status: included
+  reason: "The repo is a concrete developer integration artifact: a maintained protocol with versioned OpenAPI and JSON Schema assets that teams implement to add agent-native checkout and payment flows."
+  evidence:
+    - The repo description calls ACP an open standard for connecting buyers, AI agents, and businesses to complete purchases.
+    - The README exposes versioned OpenAPI specs, JSON Schemas, examples, and changelogs as the primary integration surface.
+    - OpenAI and Stripe position it as a production-ready implementation path for merchants, agents, and payment providers.
+placement:
+  primary_category: ai-frameworks
+  section: Agent Frameworks
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1373) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-08T12:23:44.485Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-08T12:19:18.244Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-08T12:19:18.244Z"
+    cause: null
+    next_retry_at: null

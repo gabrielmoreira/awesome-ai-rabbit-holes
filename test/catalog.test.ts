@@ -136,6 +136,8 @@ const CATEGORIES: Category[] = [
   },
 ];
 
+const TEST_NOW = new Date("2026-05-02T00:00:00Z");
+
 function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
   return {
     id: "github__testowner__test-repo",
@@ -1646,6 +1648,7 @@ describe("AI insight application", () => {
       renderCatalog: () => {
         rendered = true;
       },
+      now: TEST_NOW,
     });
 
     expect(saved.map((item) => item.id)).toEqual([first.id, second.id]);
@@ -1704,6 +1707,7 @@ describe("AI insight application", () => {
       },
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(seen).toEqual([first.id]);
@@ -1742,6 +1746,7 @@ describe("AI insight application", () => {
         renderCatalog: () => {},
         sleep: async () => {},
         random: () => 0,
+        now: TEST_NOW,
       });
 
       await Promise.resolve();
