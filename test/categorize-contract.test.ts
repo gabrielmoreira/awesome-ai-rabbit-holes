@@ -27,6 +27,8 @@ const CATEGORIES: Category[] = [
   },
 ];
 
+const TEST_NOW = new Date("2026-05-02T00:00:00Z");
+
 function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
   return {
     id: "github__example__tool",
@@ -106,6 +108,7 @@ describe("categorize command contract", () => {
         }),
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(calls).toBe(1);
@@ -307,6 +310,7 @@ describe("categorize command contract", () => {
       },
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(result.attemptedAiTargetCount).toBe(0);
@@ -337,6 +341,7 @@ describe("categorize command contract", () => {
           saved.push(item.id);
         },
         renderCatalog: () => {},
+        now: TEST_NOW,
       });
 
       expect(result.attemptedAiTargetCount).toBe(1);
@@ -372,6 +377,7 @@ describe("categorize command contract", () => {
         },
         saveItem: () => {},
         renderCatalog: () => {},
+        now: TEST_NOW,
       });
 
       expect(result.attemptedAiTargetCount).toBe(MAX_CONSECUTIVE_LLM_FAILURES);
@@ -422,6 +428,7 @@ describe("categorize command contract", () => {
         random: () => randomValues.shift() ?? 0,
         saveItem: () => {},
         renderCatalog: () => {},
+        now: TEST_NOW,
       });
 
       expect(result.attemptedAiTargetCount).toBe(2);
@@ -449,6 +456,7 @@ describe("categorize command contract", () => {
       },
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
       forceRebuild: true,
     });
 
@@ -480,6 +488,7 @@ describe("categorize command contract", () => {
       }),
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(result.finalItems[0]?.processing?.categorize?.status).toBe("done");
@@ -564,6 +573,7 @@ describe("categorize command contract", () => {
         saved.push(item.id);
       },
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(saved).toEqual([changed.id]);
@@ -698,6 +708,7 @@ describe("categorize command contract", () => {
       },
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(seen).toEqual([oldest.id, recent.id, pending.id]);
@@ -727,6 +738,7 @@ describe("categorize command contract", () => {
       },
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
       forceRebuild: true,
     });
 

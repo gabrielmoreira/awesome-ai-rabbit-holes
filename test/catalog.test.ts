@@ -36,7 +36,7 @@ import {
   loadSources,
   loadCategories,
 } from "../scripts/catalog.js";
-import { loadSettings } from "../scripts/catalog/settings.js";
+import { loadSettings, DEFAULT_SETTINGS } from "../scripts/catalog/settings.js";
 import { parseAIInsightResponse, buildInsightPrompt } from "../scripts/catalog/categorize-prompt.js"
 import {
   renderReadme,
@@ -51,6 +51,8 @@ const DEFAULT_CONFIG: CatalogConfig = {
   promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
 };
+
+const TEST_NOW = new Date("2026-05-02T00:00:00Z");
 
 const CATEGORIES: Category[] = [
   {
@@ -1620,6 +1622,7 @@ describe("AI insight application", () => {
       renderCatalog: () => {
         rendered = true;
       },
+      now: TEST_NOW,
     });
 
     expect(saved.map((item) => item.id)).toEqual([first.id, second.id]);
@@ -1678,6 +1681,7 @@ describe("AI insight application", () => {
       },
       saveItem: () => {},
       renderCatalog: () => {},
+      now: TEST_NOW,
     });
 
     expect(seen).toEqual([first.id]);
@@ -1714,6 +1718,7 @@ describe("AI insight application", () => {
         },
         saveItem: () => {},
         renderCatalog: () => {},
+        now: TEST_NOW,
         sleep: async () => {},
         random: () => 0,
       });
@@ -1739,7 +1744,7 @@ describe("AI insight application", () => {
       } else {
         process.env.CATALOG_LLM_CONCURRENCY = previous;
       }
-      }
+    }
   });
 
   it("summarizes processing errors by stage", () => {
@@ -1797,7 +1802,7 @@ describe("AI insight application", () => {
   });
 
   it("parses optional concurrency env overrides", () => {
-    const defaults = loadSettings().concurrency;
+    const defaults = DEFAULT_SETTINGS.concurrency;
     expect(resolveDirectDiscoveryConcurrency({} as NodeJS.ProcessEnv)).toBe(defaults.site);
     expect(resolveDirectDiscoveryConcurrency({ CATALOG_SITE_CONCURRENCY: "4" } as NodeJS.ProcessEnv)).toBe(4);
     expect(resolveAIInsightConcurrency({} as NodeJS.ProcessEnv)).toBe(defaults.llm);
@@ -2368,13 +2373,12 @@ describe("source kind normalization", () => {
 // ─── Runtime config flattening tests ─────────────────────────────────────────
 describe("runtime config flattening", () => {
   it("reads flat config roots from the simplified paths", () => {
-    const settings = loadSettings();
+    const settings = loadSettings({}, {} as NodeJS.ProcessEnv);
     const sources = loadSources();
     const cats = loadCategories();
 
-    expect(settings).toHaveProperty("promotion");
-    expect(settings).toHaveProperty("github");
-    expect(Array.isArray(sources)).toBe(true);
-    expect(Array.isArray(cats)).toBe(true);
+    expect(settings).toEqual(DEFAULT_SETTINGS);
+    expect(sources.some((source) => source.kind === "curated-list")).toBe(true);
+    expect(cats.some((category) => category.id === "mcp")).toBe(true);
   });
 });
