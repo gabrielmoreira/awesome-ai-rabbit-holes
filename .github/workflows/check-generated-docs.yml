@@ -43,11 +43,11 @@ jobs:
       - name: Install project dependencies
         run: mise run catalog:deps
 
-      - name: Probe top pi-free fallback models
-        run: mise run llm:doctor --limit 3
-
       - name: Run catalog checks
         run: mise run catalog:check
+
+      - name: Probe top pi-free fallback models
+        run: mise run llm:doctor --limit 3
 
       - name: Run bounded catalog sync smoke test
         run: mise run catalog:sync
