@@ -138,7 +138,6 @@ const CATEGORIES: Category[] = [
   },
 ];
 
-const TEST_NOW = new Date("2026-05-02T00:00:00Z");
 
 function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
   return {
@@ -1749,7 +1748,6 @@ describe("AI insight application", () => {
         now: TEST_NOW,
         sleep: async () => {},
         random: () => 0,
-        now: TEST_NOW,
       });
 
       await Promise.resolve();
