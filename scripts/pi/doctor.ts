@@ -225,11 +225,7 @@ export function getProbeSkipResult(spec: string, deps: ProbeSkipDeps = {}): PiFr
 
 export async function runPiFreeDoctor(argv: string[] = process.argv.slice(2)): Promise<void> {
   const args = parsePiFreeDoctorArgs(argv);
-  const orderedModels = Array.from(new Set(PI_FREE_MODEL_CYCLE));
-  if (orderedModels.length === 0) {
-    throw new Error("No pi-free models are configured in the static fallback list.");
-  }
-
+  const orderedModels = PI_FREE_MODEL_CYCLE;
   const safeLimit = normalizeDoctorLimit(args.limit, orderedModels.length);
   console.log(`Probing up to ${safeLimit} runnable pi-free model(s) from the static fallback order...`);
 

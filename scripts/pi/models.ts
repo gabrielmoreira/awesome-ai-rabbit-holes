@@ -13,10 +13,9 @@ export type ResolvePiFreeStartupOptions = {
 };
 
 export const PI_FREE_RECENT_FAILURE_TTL_MS = 10 * 60 * 1000;
-export const PI_FREE_DEFAULT_MODEL = "cloudflare/@cf/moonshotai/kimi-k2.6";
 
 export const PI_FREE_MODEL_CYCLE = [
-  PI_FREE_DEFAULT_MODEL,
+  "cloudflare/@cf/moonshotai/kimi-k2.6",
   "nvidia/moonshotai/kimi-k2.6",
   "nvidia/deepseek-ai/deepseek-v4-pro",
   "nvidia/z-ai/glm-5.1",
@@ -109,6 +108,8 @@ export const PI_FREE_MODEL_CYCLE = [
   "mistral/open-mixtral-8x22b",
   "mistral/open-mixtral-8x7b",
 ] as const;
+
+export const PI_FREE_DEFAULT_MODEL = PI_FREE_MODEL_CYCLE[0];
 
 
 const PROVIDER_AUTH_REQUIREMENTS: Record<string, string[]> = {
