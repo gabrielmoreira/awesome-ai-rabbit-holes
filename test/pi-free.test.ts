@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it } from "vitest";
 import {
   PI_FREE_MODEL_CYCLE,
+  PI_FREE_PRIMARY_MODEL,
   PI_FREE_RECENT_FAILURE_TTL_MS,
   isPiFreeRetryableError,
   listPiFreeRecentFailureRecords,
@@ -36,28 +37,28 @@ describe("pi-free model selection", () => {
 
     const ordered = resolvePiFreeOrderedModels(env);
     expect(ordered.slice(0, 5)).toEqual([
-      "openrouter/tencent/hy3-preview:free",
-      "nvidia/moonshotai/kimi-k2.6",
-      "nvidia/deepseek-ai/deepseek-v4-pro",
-      "nvidia/z-ai/glm-5.1",
-      "nvidia/minimaxai/minimax-m2.7",
+      PI_FREE_PRIMARY_MODEL,
+      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+      "openrouter/openai/gpt-oss-120b:free",
+      "openrouter/google/gemma-4-31b-it:free",
+      "openrouter/z-ai/glm-4.5-air:free",
     ]);
-    expect(ordered[0] ?? null).toBe("openrouter/tencent/hy3-preview:free");
+    expect(ordered[0] ?? null).toBe(PI_FREE_PRIMARY_MODEL);
   });
 
-  it("prefers hy3 first when only OpenRouter is configured", () => {
+  it("prefers the curated free primary model when only OpenRouter is configured", () => {
     const env: PiFreeEnvValues = {
       OPENROUTER_API_KEY: "or-key",
     };
 
     const ordered = resolvePiFreeOrderedModels(env);
     expect(ordered.slice(0, 4)).toEqual([
-      "openrouter/tencent/hy3-preview:free",
-      "openrouter/minimax/minimax-m2.5:free",
-      "openrouter/stepfun/step-3.5-flash:free",
+      PI_FREE_PRIMARY_MODEL,
+      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+      "openrouter/openai/gpt-oss-120b:free",
       "openrouter/google/gemma-4-31b-it:free",
     ]);
-    expect(ordered[0] ?? null).toBe("openrouter/tencent/hy3-preview:free");
+    expect(ordered[0] ?? null).toBe(PI_FREE_PRIMARY_MODEL);
   });
 
   it("keeps the full static order when every provider is configured", () => {
@@ -126,7 +127,7 @@ describe("pi-free model selection", () => {
   });
 
   it("exports a non-empty bootstrap cycle", () => {
-    expect(PI_FREE_MODEL_CYCLE.length).toBeGreaterThan(20);
+    expect(PI_FREE_MODEL_CYCLE.length).toBeGreaterThan(10);
   });
 });
 

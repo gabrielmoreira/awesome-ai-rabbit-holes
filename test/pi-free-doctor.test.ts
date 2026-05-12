@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   buildPiFreeDoctorReport,
   classifyPiFreeProbeError,
+  getPiFreeDoctorFailure,
   parsePiFreeDoctorArgs,
   selectPiFreeDoctorTargets,
   type PiFreeProbeResult,
@@ -58,10 +59,58 @@ describe("pi-free doctor", () => {
     expect(report.first_working_model).toBe("nvidia/moonshotai/kimi-k2.6");
   });
 
+  it("fails the doctor only when the primary probe fails", () => {
+    const primaryFailure = buildPiFreeDoctorReport([
+      {
+        spec: "openrouter/qwen/qwen3-coder:free",
+        provider: "openrouter",
+        ok: false,
+        elapsed_ms: 1000,
+        error_type: "not_free",
+        error_message: "This model is no longer available as a free model.",
+        output_excerpt: null,
+      },
+      {
+        spec: "openrouter/openai/gpt-oss-120b:free",
+        provider: "openrouter",
+        ok: true,
+        elapsed_ms: 900,
+        error_type: null,
+        error_message: null,
+        output_excerpt: "HI",
+      },
+    ] satisfies PiFreeProbeResult[]);
+    const laterFailure = buildPiFreeDoctorReport([
+      {
+        spec: "openrouter/qwen/qwen3-coder:free",
+        provider: "openrouter",
+        ok: true,
+        elapsed_ms: 1000,
+        error_type: null,
+        error_message: null,
+        output_excerpt: "HI",
+      },
+      {
+        spec: "openrouter/openai/gpt-oss-120b:free",
+        provider: "openrouter",
+        ok: false,
+        elapsed_ms: 900,
+        error_type: "quota",
+        error_message: "429 rate limit",
+        output_excerpt: null,
+      },
+    ] satisfies PiFreeProbeResult[]);
+
+    expect(getPiFreeDoctorFailure(primaryFailure)).toContain("Primary pi-free model failed");
+    expect(getPiFreeDoctorFailure(laterFailure)).toBeNull();
+  });
+
   it("classifies common probe failures", () => {
     expect(classifyPiFreeProbeError("timed out after 60000ms")).toBe("timeout");
+    expect(classifyPiFreeProbeError("404 Hy3 preview is no longer available as a free model. It has transitioned to a paid model.")).toBe("not_free");
     expect(classifyPiFreeProbeError("429 rate limit")).toBe("quota");
     expect(classifyPiFreeProbeError("requires a subscription")).toBe("subscription");
+    expect(classifyPiFreeProbeError("400 Reasoning is mandatory for this endpoint and cannot be disabled.")).toBe("unsupported_request");
     expect(classifyPiFreeProbeError('Mistral API error (404): {"message":"no Route matched with those values"}')).toBe("not_found");
     expect(classifyPiFreeProbeError("401 unauthorized")).toBe("auth");
   });

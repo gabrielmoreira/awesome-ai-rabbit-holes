@@ -72,6 +72,9 @@ export function selectPiFreeDoctorTargets(
 export function classifyPiFreeProbeError(message: string): string {
   const normalized = message.toLowerCase();
   if (normalized.includes("timed out")) return "timeout";
+  if (normalized.includes("no longer available as a free model") || normalized.includes("transitioned to a paid model")) {
+    return "not_free";
+  }
   if (
     normalized.includes("rate limit") ||
     normalized.includes("too many requests") ||
@@ -84,6 +87,9 @@ export function classifyPiFreeProbeError(message: string): string {
   }
   if (normalized.includes("requires a subscription") || normalized.includes("upgrade for access")) {
     return "subscription";
+  }
+  if (normalized.includes("reasoning is mandatory") || normalized.includes("cannot be disabled")) {
+    return "unsupported_request";
   }
   if (normalized.includes("no route matched") || normalized.includes("404") || normalized.includes("model not found")) {
     return "not_found";
@@ -109,6 +115,13 @@ export function buildPiFreeDoctorReport(results: PiFreeProbeResult[]): PiFreeDoc
     first_working_model: results.find((result) => result.ok)?.spec ?? null,
     results,
   };
+}
+
+export function getPiFreeDoctorFailure(report: PiFreeDoctorReport): string | null {
+  const primary = report.results[0];
+  if (!primary) return "No probed pi-free model completed.";
+  if (primary.ok) return null;
+  return `Primary pi-free model failed: ${primary.spec} (${primary.error_type ?? "unknown"}) ${primary.error_message ?? "no details"}`;
 }
 
 function summarizeResult(result: PiFreeProbeResult): string {
@@ -186,9 +199,8 @@ export async function runPiFreeDoctor(argv: string[] = process.argv.slice(2)): P
     `doctor summary: attempted=${report.attempted} succeeded=${report.succeeded} failed=${report.failed} first=${report.first_working_model ?? "(none)"}`,
   );
 
-  if (!report.first_working_model) {
-    throw new Error("No probed pi-free model succeeded.");
-  }
+  const failure = getPiFreeDoctorFailure(report);
+  if (failure) throw new Error(failure);
 }
 
 const isDirectCliEntry = process.argv[1] ? process.argv[1] === fileURLToPath(import.meta.url) : false;

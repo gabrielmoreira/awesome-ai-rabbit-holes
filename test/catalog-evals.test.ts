@@ -12,7 +12,7 @@ describe("catalog eval args", () => {
   it("uses explicit repeated models, suites, and case ids", () => {
     const args = parseCatalogEvalsArgs([
       "--model",
-      "openrouter/tencent/hy3-preview:free",
+      "openrouter/qwen/qwen3-coder:free",
       "--model",
       "openrouter/google/gemma-4-31b-it:free",
       "--suite",
@@ -30,7 +30,7 @@ describe("catalog eval args", () => {
     ]);
 
     expect(args.models).toEqual([
-      "openrouter/tencent/hy3-preview:free",
+      "openrouter/qwen/qwen3-coder:free",
       "openrouter/google/gemma-4-31b-it:free",
     ]);
     expect(args.suites).toEqual(["prompt-core", "prompt-holdout"]);
@@ -42,14 +42,14 @@ describe("catalog eval args", () => {
   it("strips surrounding quotes added by mise json_encode usage", () => {
     const args = parseCatalogEvalsArgs([
       "--model",
-      '"openrouter/tencent/hy3-preview:free"',
+      '"openrouter/qwen/qwen3-coder:free"',
       "--suite",
       '"prompt-core"',
       "--case",
       '"coding-agents__opencode"',
     ]);
 
-    expect(args.models).toEqual(["openrouter/tencent/hy3-preview:free"]);
+    expect(args.models).toEqual(["openrouter/qwen/qwen3-coder:free"]);
     expect(args.suites).toEqual(["prompt-core"]);
     expect(args.caseIds).toEqual(["coding-agents__opencode"]);
   });
