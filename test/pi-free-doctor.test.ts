@@ -1,8 +1,11 @@
 import { describe, expect, it } from "vitest";
 import {
+  buildSkippedResult,
   buildPiFreeDoctorReport,
   classifyPiFreeProbeError,
   getPiFreeDoctorFailure,
+  getProbeSkipResult,
+  normalizeDoctorLimit,
   parsePiFreeDoctorArgs,
   selectPiFreeDoctorTargets,
   type PiFreeProbeResult,
@@ -20,6 +23,13 @@ describe("pi-free doctor", () => {
   it("rejects unknown doctor args and missing values", () => {
     expect(() => parsePiFreeDoctorArgs(["--bogus"])).toThrow("Unknown llm:doctor argument: --bogus");
     expect(() => parsePiFreeDoctorArgs(["--limit"])).toThrow("Missing value for --limit");
+  });
+
+  it("normalizes doctor limits for invalid and non-integer values", () => {
+    expect(normalizeDoctorLimit(Number.POSITIVE_INFINITY, 10)).toBe(10);
+    expect(normalizeDoctorLimit(0, 10)).toBe(10);
+    expect(normalizeDoctorLimit(-2, 10)).toBe(10);
+    expect(normalizeDoctorLimit(3.9, 10)).toBe(3);
   });
 
   it("selects the requested number of targets from the ordered fallback list", () => {
@@ -60,6 +70,26 @@ describe("pi-free doctor", () => {
     expect(report.failed).toBe(1);
     expect(report.skipped).toBe(0);
     expect(report.first_working_model).toBe("nvidia/moonshotai/kimi-k2.6");
+  });
+
+  it("builds skipped probe results with provider metadata", () => {
+    expect(buildSkippedResult("cloudflare/@cf/moonshotai/kimi-k2.6", "unavailable_env", "missing credentials")).toEqual({
+      spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
+      provider: "cloudflare",
+      status: "skipped",
+      ok: false,
+      elapsed_ms: 0,
+      error_type: "unavailable_env",
+      error_message: "missing credentials",
+      output_excerpt: null,
+    });
+  });
+
+  it("classifies doctor skip reasons before probing", () => {
+    expect(getProbeSkipResult("invalid", { hasProviderAuth: () => true, resolveModel: (() => ({})) as any })?.error_type).toBe("invalid_spec");
+    expect(getProbeSkipResult("openrouter/google/gemma-4-31b-it:free", { hasProviderAuth: () => false, resolveModel: (() => ({})) as any })?.error_type).toBe("unavailable_env");
+    expect(getProbeSkipResult("openrouter/google/gemma-4-31b-it:free", { hasProviderAuth: () => true, resolveModel: (() => null) as any })?.error_type).toBe("unavailable_runtime");
+    expect(getProbeSkipResult("openrouter/google/gemma-4-31b-it:free", { hasProviderAuth: () => true, resolveModel: (() => ({})) as any })).toBeNull();
   });
 
   it("fails the doctor only when no working probed model is found", () => {

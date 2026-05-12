@@ -34,7 +34,7 @@ type DoctorArgs = {
   limit: number;
 };
 
-function normalizeDoctorLimit(limit: number, fallbackLimit: number): number {
+export function normalizeDoctorLimit(limit: number, fallbackLimit: number): number {
   return Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : fallbackLimit;
 }
 
@@ -153,7 +153,7 @@ function summarizeResult(result: PiFreeProbeResult): string {
   return `ERR | ${result.elapsed_ms}ms | ${result.spec} | ${result.error_type ?? "unknown"} | ${result.error_message ?? "no details"}`;
 }
 
-function buildSkippedResult(spec: string, errorType: string, errorMessage: string): PiFreeProbeResult {
+export function buildSkippedResult(spec: string, errorType: string, errorMessage: string): PiFreeProbeResult {
   return {
     spec,
     provider: parsePiFreeModelSpec(spec)?.provider ?? "unknown",
@@ -204,13 +204,20 @@ async function probeModel(spec: string, prompt: string, timeoutMs: number): Prom
   }
 }
 
-function getProbeSkipResult(spec: string): PiFreeProbeResult | null {
+type ProbeSkipDeps = {
+  hasProviderAuth?: (provider: string) => boolean;
+  resolveModel?: typeof getModel;
+};
+
+export function getProbeSkipResult(spec: string, deps: ProbeSkipDeps = {}): PiFreeProbeResult | null {
   const resolved = resolvePiAiModelSpec(spec);
+  const hasProviderAuth = deps.hasProviderAuth ?? hasPiAiProviderAuth;
+  const resolveModel = deps.resolveModel ?? getModel;
   if (!resolved) return buildSkippedResult(spec, "invalid_spec", "Invalid pi-free model spec.");
-  if (!hasPiAiProviderAuth(resolved.provider)) {
+  if (!hasProviderAuth(resolved.provider)) {
     return buildSkippedResult(spec, "unavailable_env", `Provider ${resolved.provider} is unavailable in the current environment (missing credentials).`);
   }
-  if (!getModel(resolved.provider as never, resolved.modelId as never)) {
+  if (!resolveModel(resolved.provider as never, resolved.modelId as never)) {
     return buildSkippedResult(spec, "unavailable_runtime", `Model ${resolved.modelId} is not available through provider ${resolved.provider} in the current runtime.`);
   }
   return null;
