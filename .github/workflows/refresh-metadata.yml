@@ -66,7 +66,7 @@ jobs:
         run: mise run catalog:check
 
       - name: Probe top pi-free fallback models
-        run: mise run llm:doctor --limit 3
+        run: mise run llm:doctor --limit 5
 
       - name: Prepare catalog checkpoint metadata
         id: checkpoint-meta

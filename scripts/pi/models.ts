@@ -15,34 +15,30 @@ export type ResolvePiFreeStartupOptions = {
 export const PI_FREE_RECENT_FAILURE_TTL_MS = 10 * 60 * 1000;
 
 export const PI_FREE_MODEL_CYCLE = [
-  "openrouter/tencent/hy3-preview:free",
   "cloudflare/@cf/moonshotai/kimi-k2.6",
   "nvidia/moonshotai/kimi-k2.6",
   "nvidia/deepseek-ai/deepseek-v4-pro",
   "nvidia/z-ai/glm-5.1",
+  "nvidia/z-ai/glm5",
   "nvidia/minimaxai/minimax-m2.7",
   "openrouter/minimax/minimax-m2.5:free",
   "nvidia/minimaxai/minimax-m2.5",
   "nvidia/deepseek-ai/deepseek-v4-flash",
-  "nvidia/z-ai/glm5",
+  "nvidia/qwen/qwen3.5-397b-a17b",
+  "openrouter/tencent/hy3-preview:free",
+  "nvidia/qwen/qwen3.5-122b-a10b",
+  "openrouter/google/gemma-4-31b-it:free",
   "cloudflare/@cf/moonshotai/kimi-k2.5",
   "nvidia/stepfun-ai/step-3.5-flash",
   "openrouter/stepfun/step-3.5-flash:free",
-  "nvidia/qwen/qwen3.5-397b-a17b",
-  "nvidia/moonshotai/kimi-k2-thinking",
-  "openrouter/google/gemma-4-31b-it:free",
-  "nvidia/z-ai/glm4.7",
-  "nvidia/qwen/qwen3.5-122b-a10b",
-  "nvidia/deepseek-ai/deepseek-v3.2",
-  "cloudflare/@cf/google/gemma-4-26b-a4b-it",
   "openrouter/google/gemma-4-26b-a4b-it:free",
-  "cloudflare/@cf/zai-org/glm-4.7-flash",
-  "cloudflare/@cf/openai/gpt-oss-120b",
-  "nvidia/openai/gpt-oss-120b",
-  "openrouter/openai/gpt-oss-120b:free",
+  "cloudflare/@cf/google/gemma-4-26b-a4b-it",
   "nvidia/nvidia/nemotron-3-super-120b-a12b",
   "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
   "cloudflare/@cf/nvidia/nemotron-3-120b-a12b",
+  "cloudflare/@cf/openai/gpt-oss-120b",
+  "nvidia/openai/gpt-oss-120b",
+  "openrouter/openai/gpt-oss-120b:free",
   "openrouter/z-ai/glm-4.5-air:free",
   "nvidia/qwen/qwen3-next-80b-a3b-thinking",
   "nvidia/deepseek-ai/deepseek-v3.1-terminus",
@@ -55,7 +51,6 @@ export const PI_FREE_MODEL_CYCLE = [
   "mistral/mistral-small-latest",
   "nvidia/qwen/qwen3-next-80b-a3b-instruct",
   "openrouter/qwen/qwen3-next-80b-a3b-instruct:free",
-  "openrouter/nvidia/nemotron-nano-9b-v2:free",
   "cloudflare/@cf/openai/gpt-oss-20b",
   "openrouter/openai/gpt-oss-20b:free",
   "cloudflare/@cf/qwen/qwen3-30b-a3b-fp8",
@@ -91,6 +86,7 @@ export const PI_FREE_MODEL_CYCLE = [
   "mistral/mistral-nemo",
   "nvidia/mistralai/devstral-2-123b-instruct-2512",
   "openrouter/nvidia/nemotron-nano-12b-v2-vl:free",
+  "openrouter/nvidia/nemotron-nano-9b-v2:free",
   "nvidia/sarvamai/sarvam-m",
   "nvidia/stockmark/stockmark-2-100b-instruct",
   "nvidia/mistralai/mistral-nemotron",
@@ -113,6 +109,8 @@ export const PI_FREE_MODEL_CYCLE = [
   "mistral/open-mixtral-8x7b",
 ] as const;
 
+export const PI_FREE_DEFAULT_MODEL = PI_FREE_MODEL_CYCLE[0];
+
 
 const PROVIDER_AUTH_REQUIREMENTS: Record<string, string[]> = {
   openrouter: ["OPENROUTER_API_KEY"],
@@ -123,7 +121,7 @@ const PROVIDER_AUTH_REQUIREMENTS: Record<string, string[]> = {
 };
 
 const PI_FREE_RETRYABLE_ERROR_PATTERN =
-  /timed out|request was aborted|aborted|overloaded|provider.?returned.?error|rate.?limit|too many requests|429|404|500|502|503|504|service.?unavailable|temporarily unavailable|quota exceeded|throttled|retry shortly|retry later|requires a subscription|upgrade for access|free-models-per-min|unexpected message role|reasoning_effort|reasoning is mandatory|cannot be disabled|no route matched|model not found/i;
+  /timed out|request was aborted|aborted|connection error|network error|fetch failed|socket hang up|econnreset|econnrefused|enotfound|overloaded|provider.?returned.?error|rate.?limit|too many requests|429|404|500|502|503|504|service.?unavailable|temporarily unavailable|quota exceeded|throttled|retry shortly|retry later|requires a subscription|upgrade for access|free-models-per-min|unexpected message role|reasoning_effort|reasoning is mandatory|cannot be disabled|no route matched|model not found/i;
 
 const recentFailures = new Map<string, PiFreeRecentFailureRecord>();
 
@@ -235,4 +233,3 @@ export function resolvePiFreeStartupCandidates(
 
   return filterPiFreeRecentFailures(orderedModels, recentFailureModels);
 }
-

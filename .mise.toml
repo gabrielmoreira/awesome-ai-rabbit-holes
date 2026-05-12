@@ -44,7 +44,7 @@ run = "npm run catalog -- categorize"
 [tasks."catalog:evals"]
 description = "Run prompt benchmark cases against real fetched catalog inputs"
 usage = '''
-flag "--model <model>" help="Pinned model to use (defaults to openrouter/tencent/hy3-preview:free)"
+flag "--model <model>" help="Pinned model to use (defaults to cloudflare/@cf/moonshotai/kimi-k2.6)"
 flag "--suite <suite>" help="Suite filter: prompt-core | prompt-holdout | pipeline-redflags"
 flag "--case <case>" help="Exact eval case id"
 flag "--limit <limit>" help="Optional cap on selected cases"

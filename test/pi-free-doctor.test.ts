@@ -1,7 +1,11 @@
 import { describe, expect, it } from "vitest";
 import {
+  buildSkippedResult,
   buildPiFreeDoctorReport,
   classifyPiFreeProbeError,
+  getPiFreeDoctorFailure,
+  getProbeSkipResult,
+  normalizeDoctorLimit,
   parsePiFreeDoctorArgs,
   selectPiFreeDoctorTargets,
   type PiFreeProbeResult,
@@ -21,6 +25,13 @@ describe("pi-free doctor", () => {
     expect(() => parsePiFreeDoctorArgs(["--limit"])).toThrow("Missing value for --limit");
   });
 
+  it("normalizes doctor limits for invalid and non-integer values", () => {
+    expect(normalizeDoctorLimit(Number.POSITIVE_INFINITY, 10)).toBe(10);
+    expect(normalizeDoctorLimit(0, 10)).toBe(10);
+    expect(normalizeDoctorLimit(-2, 10)).toBe(10);
+    expect(normalizeDoctorLimit(3.9, 10)).toBe(3);
+  });
+
   it("selects the requested number of targets from the ordered fallback list", () => {
     expect(selectPiFreeDoctorTargets(["a", "b", "c"], 2)).toEqual(["a", "b"]);
     expect(selectPiFreeDoctorTargets(["a", "b", "c"], Number.POSITIVE_INFINITY)).toEqual(["a", "b", "c"]);
@@ -35,6 +46,7 @@ describe("pi-free doctor", () => {
       {
         spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
         provider: "cloudflare",
+        status: "failed",
         ok: false,
         elapsed_ms: 1000,
         error_type: "quota",
@@ -44,6 +56,7 @@ describe("pi-free doctor", () => {
       {
         spec: "nvidia/moonshotai/kimi-k2.6",
         provider: "nvidia",
+        status: "ok",
         ok: true,
         elapsed_ms: 900,
         error_type: null,
@@ -55,13 +68,87 @@ describe("pi-free doctor", () => {
     expect(report.attempted).toBe(2);
     expect(report.succeeded).toBe(1);
     expect(report.failed).toBe(1);
+    expect(report.skipped).toBe(0);
     expect(report.first_working_model).toBe("nvidia/moonshotai/kimi-k2.6");
+  });
+
+  it("builds skipped probe results with provider metadata", () => {
+    expect(buildSkippedResult("cloudflare/@cf/moonshotai/kimi-k2.6", "unavailable_env", "missing credentials")).toEqual({
+      spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
+      provider: "cloudflare",
+      status: "skipped",
+      ok: false,
+      elapsed_ms: 0,
+      error_type: "unavailable_env",
+      error_message: "missing credentials",
+      output_excerpt: null,
+    });
+  });
+
+  it("classifies doctor skip reasons before probing", () => {
+    expect(getProbeSkipResult("invalid", { hasProviderAuth: () => true, resolveModel: (() => ({})) as any })?.error_type).toBe("invalid_spec");
+    expect(getProbeSkipResult("openrouter/google/gemma-4-31b-it:free", { hasProviderAuth: () => false, resolveModel: (() => ({})) as any })?.error_type).toBe("unavailable_env");
+    expect(getProbeSkipResult("openrouter/google/gemma-4-31b-it:free", { hasProviderAuth: () => true, resolveModel: (() => null) as any })?.error_type).toBe("unavailable_runtime");
+    expect(getProbeSkipResult("openrouter/google/gemma-4-31b-it:free", { hasProviderAuth: () => true, resolveModel: (() => ({})) as any })).toBeNull();
+  });
+
+  it("fails the doctor only when no working probed model is found", () => {
+    const noSuccess = buildPiFreeDoctorReport([
+      {
+        spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
+        provider: "cloudflare",
+        status: "skipped",
+        ok: false,
+        elapsed_ms: 0,
+        error_type: "unavailable_env",
+        error_message: "Provider cloudflare-workers-ai is unavailable in the current environment (missing credentials).",
+        output_excerpt: null,
+      },
+      {
+        spec: "nvidia/moonshotai/kimi-k2.6",
+        provider: "nvidia",
+        status: "failed",
+        ok: false,
+        elapsed_ms: 900,
+        error_type: "quota",
+        error_message: "429 rate limit",
+        output_excerpt: null,
+      },
+    ] satisfies PiFreeProbeResult[]);
+    const withSuccess = buildPiFreeDoctorReport([
+      {
+        spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
+        provider: "cloudflare",
+        status: "skipped",
+        ok: false,
+        elapsed_ms: 0,
+        error_type: "unavailable_env",
+        error_message: "Provider cloudflare-workers-ai is unavailable in the current environment (missing credentials).",
+        output_excerpt: null,
+      },
+      {
+        spec: "nvidia/moonshotai/kimi-k2.6",
+        provider: "nvidia",
+        status: "ok",
+        ok: true,
+        elapsed_ms: 900,
+        error_type: null,
+        error_message: null,
+        output_excerpt: "HI",
+      },
+    ] satisfies PiFreeProbeResult[]);
+
+    expect(getPiFreeDoctorFailure(noSuccess)).toContain("No working pi-free model");
+    expect(getPiFreeDoctorFailure(withSuccess)).toBeNull();
   });
 
   it("classifies common probe failures", () => {
     expect(classifyPiFreeProbeError("timed out after 60000ms")).toBe("timeout");
+    expect(classifyPiFreeProbeError("Connection error.")).toBe("network");
+    expect(classifyPiFreeProbeError("404 Hy3 preview is no longer available as a free model. It has transitioned to a paid model.")).toBe("not_free");
     expect(classifyPiFreeProbeError("429 rate limit")).toBe("quota");
     expect(classifyPiFreeProbeError("requires a subscription")).toBe("subscription");
+    expect(classifyPiFreeProbeError("400 Reasoning is mandatory for this endpoint and cannot be disabled.")).toBe("unsupported_request");
     expect(classifyPiFreeProbeError('Mistral API error (404): {"message":"no Route matched with those values"}')).toBe("not_found");
     expect(classifyPiFreeProbeError("401 unauthorized")).toBe("auth");
   });
