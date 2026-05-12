@@ -24,33 +24,50 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 10655
+    forks: 1777
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2018-10-04T21:10:30Z"
+    pushed_at: "2026-05-11T20:14:27Z"
+    description: "The Triton Inference Server provides an optimized cloud and edge inferencing solution. "
+    homepage: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html
+    topics:
+      - cloud
+      - datacenter
+      - deep-learning
+      - edge
+      - gpu
+      - inference
+      - machine-learning
+    last_checked_at: "2026-05-12T15:06:26.490Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.490Z"
+      bytes: 14822
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: NVIDIA's open-source Triton Inference Server deploys and serves AI models from TensorRT, PyTorch, ONNX, and others across cloud, data center, and edge hardware.
+  why_it_matters: It gives teams a standardized, high-performance serving layer for production models, but it is operator infrastructure rather than a tool that assists developers in writing or building applications.
+  mental_damage: You finally finished the model, and now your reward is a lifetime of configuring dynamic batching and GPU utilization dashboards instead of shipping features.
+  tags:
+    - inference-server
+    - model-serving
+    - nvidia
+    - mlops
+    - gpu
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is an inference serving platform and MLOps runtime, not a developer-facing AI coding tool, agent, framework, or app builder; none of the catalog categories cleanly describe an operated model server.
+  evidence:
+    - Repo description and README frame the project as an 'optimized cloud and edge inferencing solution' focused on serving, batching, and protocols.
+    - The product is operated as a server/container with HTTP/gRPC endpoints, not imported as a framework or used as a coding assistant.
+    - Available categories target coding agents, IDEs, extensions, orchestration, app builders, and evals, with no home for raw model-serving infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (10655) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,15 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:56.075Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for triton-inference-server/server
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.490Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:10:22.846Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

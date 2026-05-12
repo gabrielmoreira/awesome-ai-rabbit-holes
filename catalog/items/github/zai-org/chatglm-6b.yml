@@ -24,33 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 41107
+    forks: 5166
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-03-13T12:00:18Z"
+    pushed_at: "2024-06-27T04:05:25Z"
+    description: "ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:44.865Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:44.864Z"
+      bytes: 26277
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ChatGLM-6B is an open-source bilingual dialogue language model with 6.2B parameters for local deployment and fine-tuning.
+  why_it_matters: It lets developers run and customize a capable LLM locally on modest hardware for research or application building.
+  mental_damage: Another model repo that makes you feel guilty for not quantizing it and running llama.cpp instead.
+  tags:
+    - local-ai
+    - llm
+    - open-source
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: ChatGLM-6B is primarily a downloadable model designed for local inference and fine-tuning, fitting the Local AI category as a runtime for self-hosted execution.
+  evidence:
+    - "Repo description: 'ChatGLM-6B: An Open Bilingual Dialogue Language Model'"
+    - "README: 'users can perform local deployment (INT4 quantization level requires only 6GB VRAM)'"
+    - "README: 'INT4 quantization level, only 7GB VRAM is needed to start fine-tuning'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Runtimes
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (41107) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:44.865Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:49:44.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

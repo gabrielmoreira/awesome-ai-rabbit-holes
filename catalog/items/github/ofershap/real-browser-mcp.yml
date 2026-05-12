@@ -47,18 +47,24 @@ metadata:
       fetched_at: "2026-05-06T22:45:37.883Z"
       bytes: 11258
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server + Chrome extension that gives AI agents control of your real browser with existing sessions and logins.
+  why_it_matters: Lets AI agents browse the web as you, using your logged-in state, enabling real-world task automation without re-authentication.
+  mental_damage: Finally, an AI that can log into your bank for you—what could possibly go wrong?
+  tags:
+    - mcp
+    - browser-automation
+    - chrome-extension
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server with a Chrome extension, making MCP the core identity rather than a mere compatibility feature.
+  evidence:
+    - "Repo description: 'MCP server + Chrome extension that gives AI agents control of your real browser with existing sessions and logins'"
+    - Topics include mcp, mcp-server, model-context-protocol
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +80,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:18:34.676Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__ofershap__real-browser-mcp: Invalid AI response format: Error: No JSON found in AI response"
+    status: done
+    updated_at: "2026-05-12T15:56:07.455Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

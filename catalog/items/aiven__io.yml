@@ -50,15 +50,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Aiven is a managed open-source data platform offering Kafka, PostgreSQL, ClickHouse, OpenSearch, and more as fully managed services across cloud providers.
+  why_it_matters: It lets developers offload infrastructure ops for data streaming, storage, and search, letting them focus on building applications.
+  mental_damage: Yet another 'AI-ready' data platform that promises to free you from ops, while you now spend time learning its proprietary tiering and migration quirks.
+  tags:
+    - data-infrastructure
+    - managed-services
+    - developer-platform
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Aiven is a managed data infrastructure platform, not an AI developer tool; its AI readiness is a marketing layer over core database and streaming services.
+  evidence:
+    - Aiven provides managed open-source data services like Kafka, PostgreSQL, and ClickHouse across clouds with a focus on infrastructure ops reduction
+    - Listed in awesome-mcp-servers under Database MCP servers, indicating it exposes data via MCP but is not itself an MCP server or AI tool
+    - No evidence of AI-assisted coding, agent behavior, prompt engineering, or developer workflow automation in its core offering
 placement:
   primary_category: null
   section: null
@@ -76,12 +82,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:34:02.009Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for aiven__io: 你好，我无法给到相关内容。"
+    status: done
+    updated_at: "2026-05-12T15:57:52.310Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

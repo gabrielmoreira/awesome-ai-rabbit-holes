@@ -23,33 +23,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 14152
+    forks: 1402
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2023-11-08T02:52:13Z"
+    pushed_at: "2025-04-30T07:16:35Z"
+    description: 主要记录大语言大模型（LLMs） 算法（应用）工程师相关的知识及面试题
+    homepage: https://wdndev.github.io/llm_interview_note
+    topics:
+      - interview
+      - llm
+      - llm-interview
+      - llms
+    last_checked_at: "2026-05-12T15:06:35.750Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.750Z"
+      bytes: 11662
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A GitHub repository aggregating LLM-related knowledge and interview questions for algorithm engineers.
+  why_it_matters: Serves as a study resource for developers preparing for LLM-focused technical interviews.
+  mental_damage: Another curated list of interview questions that pretends to replace understanding with memorization.
+  tags:
+    - llm
+    - interview
+    - study-guide
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is an educational resource repository focused on LLM interview preparation, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+  evidence:
+    - Repo description states it records LLM algorithm engineer knowledge and interview questions
+    - README positions it as a study guide for LLM interviews with links to online reading and WeChat updates
+    - Contains no claims of being a coding assistant, agent, framework, or tool that modifies developer workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (14152) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.750Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:30:28.172Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

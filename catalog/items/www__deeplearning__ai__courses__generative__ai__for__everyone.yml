@@ -1,0 +1,75 @@
+id: www__deeplearning__ai__courses__generative__ai__for__everyone
+kind: website
+name: generative-ai-for-everyone
+canonical_url: https://www.deeplearning.ai/courses/generative-ai-for-everyone
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__deeplearning__ai__courses__generative__ai__for__everyone__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "吴恩达: Generative AI for Everyone"
+        extracted_url: https://www.deeplearning.ai/courses/generative-ai-for-everyone
+        surrounding_text: "2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A beginner-level 5-hour introductory course on generative AI from DeepLearning.AI taught by Andrew Ng.
+  why_it_matters: Provides non-coders and developers outside AI a conceptual foundation to understand generative AI tools, capabilities, and limitations for upskilling or strategic decision-making.
+  mental_damage: Another AI literacy course promising business impact while quietly admitting it won’t teach you to build anything real.
+  tags:
+    - ai-literacy
+    - beginner
+    - video-course
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational resource with no developer-facing tooling, SDK, agent, or workflow product—it teaches concepts but does not enable coding, building, or integrating AI into software development.
+  evidence:
+    - "Course description states: 'It doesn’t require any coding skills or prior knowledge of AI.'"
+    - Primary value is video lectures, quizzes, and certificate earning—not code generation, editing, or agent orchestration.
+    - Appears in awesome-LLM-resources under '课程 Course' (Course section), confirming its identity as learning material, not tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T16:00:48.200Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

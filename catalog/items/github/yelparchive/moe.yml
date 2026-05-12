@@ -23,33 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1321
+    forks: 139
+    license: NOASSERTION
+    archived: true
+    created_at: "2014-02-24T21:55:56Z"
+    pushed_at: "2023-03-24T11:00:32Z"
+    description: A global, black box optimization engine for real world metric optimization.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:42.212Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:42.212Z"
+      bytes: 9625
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A global black box optimization engine using Bayesian methods to optimize expensive real-world metrics.
+  why_it_matters: Helps developers efficiently tune system parameters when evaluations are time-consuming or costly, such as in A/B tests or ML hyperparameter tuning.
+  mental_damage: Promises global optima while you wait days for each function evaluation, turning optimization into a patience test.
+  tags:
+    - optimization
+    - bayesian
+    - black-box
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is a general-purpose scientific optimization tool with no specific relevance to software development workflows or AI-assisted coding tasks.
+  evidence:
+    - "Repo description: 'A global, black box optimization engine for real world metric optimization'"
+    - "README examples: optimizing CTR via A/B tests, ML prediction parameters, engineering system design, real-world experiments"
+    - "Archived: yes (last pushed 2023-03-24)"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -57,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:42.212Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:44:24.347Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

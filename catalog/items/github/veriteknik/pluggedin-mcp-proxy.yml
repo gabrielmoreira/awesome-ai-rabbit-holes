@@ -39,30 +39,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 129
+    forks: 27
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-07T12:26:50Z"
+    pushed_at: "2026-05-10T20:39:02Z"
+    description: Plugged.in MCP Server manages all your other MCPs in one MCP.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:31.825Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:31.825Z"
+      bytes: 31927
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Plugged.in MCP Proxy aggregates multiple MCP servers into a single unified interface with knowledge, memory, and tool routing capabilities.
+  why_it_matters: It lets developers manage and test all MCP servers from one connection while enabling document-aware and memory-augmented workflows across AI clients.
+  mental_damage: Finally, a proxy that adds yet another layer to your MCP stack so you can debug why your agent forgot where it put the keys.
+  tags:
+    - mcp
+    - proxy
+    - knowledge
+    - memory
+    - tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP-first middleware that aggregates and routes between MCP servers, making MCP infrastructure its core identity rather than a compatibility layer.
+  evidence:
+    - "Repo description: 'Plugged.in MCP Server manages all your other MCPs in one MCP.'"
+    - "README: 'aggregates multiple Model Context Protocol (MCP) servers into a single unified interface' and 'fetches tool, prompt, and resource configurations from the plugged.in App'"
+    - "Source-list context: listed in awesome-mcp-servers under 'Server Implementations > Aggregators' and 'Official Servers'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +83,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:31.825Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:24:05.247Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

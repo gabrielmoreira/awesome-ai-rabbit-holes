@@ -23,33 +23,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 1209
+    forks: 83
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2023-07-04T03:00:17Z"
+    pushed_at: "2025-01-16T19:58:19Z"
+    description: List of language agents based on paper "Cognitive Architectures for Language Agents"
+    homepage: https://arxiv.org/abs/2309.02427
+    topics:
+      - artificial-intelligence
+      - awesome-list
+      - language-agent
+      - language-model
+      - llm
+      - natural-language-processing
+    last_checked_at: "2026-05-12T15:06:43.340Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:43.340Z"
+      bytes: 14438
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An awesome list compiling language agents based on the CoALA cognitive architecture framework.
+  why_it_matters: Serves as a discovery resource for developers interested in language agent architectures and related research.
+  mental_damage: Another curated list to star and forget while wondering if any of these agents will actually ship code.
+  tags:
+    - awesome-list
+    - language-agents
+    - research
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The repository is an awesome list focused on language agents, making it a navigation aid for discovering agent-related research and projects, fitting the awesome-awesomes category.
+  evidence:
+    - "Repo description: 'List of language agents based on paper \"Cognitive Architectures for Language Agents\"'"
+    - "README: 'A compilation of language agents using the Cognitive Architectures for Language Agents (CoALA) framework'"
+    - "Stars: 1209, pushed at 2025-01-16, indicating ongoing maintenance"
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1209) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +71,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:43.341Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:46:25.734Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

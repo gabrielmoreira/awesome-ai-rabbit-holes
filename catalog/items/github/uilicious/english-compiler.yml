@@ -23,33 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 296
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2023-02-17T09:48:14Z"
+    pushed_at: "2024-02-05T12:40:52Z"
+    description: POC AI based Compiler, for converting english based markdown specs, into functional code
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:28.475Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:28.475Z"
+      bytes: 9497
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts.
+  why_it_matters: It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on natural-language specs, skipping manual coding.
+  mental_damage: It highlights the absurdity of trading readable, version-controlled code for brittle, slow, and opaque AI-generated output that requires re-prompting to fix.
+  tags:
+    - spec-driven
+    - code-generation
+    - proof-of-concept
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool treats English Markdown specs as the primary artifact driving code generation, fitting a spec-first development loop despite being a POC.
+  evidence:
+    - "Repo description: 'POC AI based Compiler, for converting english based markdown specs, into functional code'"
+    - "README: 'What if, instead of writing code from functional specs, we simply compile it directly to code?'"
+    - Usage involves creating *.spec.md files and running `english-compiler build all` to generate code from specs
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Spec-First Environments
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (296) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:28.476Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:18:00.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

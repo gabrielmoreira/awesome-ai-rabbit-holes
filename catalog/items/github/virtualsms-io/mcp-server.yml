@@ -24,17 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-05T06:50:16Z"
+    pushed_at: "2026-04-29T16:21:33Z"
+    description: "SMS verification MCP server — real SIM phone numbers across 145+ countries and 2000+ services for AI agents. Ranked #1 in both ChatGPT and Perplexity SMS verification MCP categories. Works with Claude, Cursor, Codex, Windsurf, Cline, Zed, OpenClaw, Hermes, Continue."
+    homepage: https://virtualsms.io/mcp
+    topics:
+      - ai-agent
+      - claude-mcp
+      - cline
+      - codex
+      - continue-dev
+      - cursor
+      - hermes
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openclaw
+      - otp
+      - phone-verification
+      - real-sim
+      - sms
+      - sms-activate-alternative
+      - sms-verification
+      - virtual-phone-number
+      - windsurf
+      - zed
+    last_checked_at: "2026-05-12T15:06:33.541Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:33.541Z"
+      bytes: 19852
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +80,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:33.541Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:26:44.189Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__virtualsms-io__mcp-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

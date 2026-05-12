@@ -24,17 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 26
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-03-15T05:35:27Z"
+    pushed_at: "2026-05-09T02:37:45Z"
+    description: "AI-powered Adaptive Card MCP server — 9 tools for generating, validating, optimizing cards for Teams, Outlook, Copilot, ChatGPT. npm: adaptive-cards-mcp"
+    homepage: https://www.npmjs.com/package/adaptive-cards-mcp
+    topics:
+      - adaptive-card
+      - adaptive-cards
+      - ai
+      - bot-framework
+      - card-generator
+      - chatgpt
+      - claude
+      - copilot
+      - copilot-studio
+      - cursor
+      - github-copilot
+      - mcp
+      - mcp-server
+      - microsoft-teams
+      - model-context-protocol
+      - openai
+      - outlook
+      - typescript
+      - vscode
+      - windsurf
+    last_checked_at: "2026-05-12T15:06:33.224Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:33.224Z"
+      bytes: 19211
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +80,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:33.224Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:26:12.048Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__vikrantsingh01__adaptive-cards-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,17 +24,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 26
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2025-08-05T08:15:12Z"
+    pushed_at: "2026-03-02T04:20:11Z"
+    description: A Model Context Protocol server for reading iMessage data from macOS.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:39.325Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:39.325Z"
+      bytes: 6338
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +60,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:39.325Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:38:23.746Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__wyattjoh__imessage-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

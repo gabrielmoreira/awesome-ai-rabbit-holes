@@ -24,27 +24,42 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 130
+    forks: 18
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-06T20:11:45Z"
+    pushed_at: "2023-10-23T04:42:41Z"
+    description: AI-powered chatbot builder that is designed to improve the user experience on product documentation/support websites
+    homepage: https://docnavigator.in
+    topics:
+      - ai
+      - chat-applications
+      - chatbot
+      - chatbot-framework
+      - docnavigator
+      - openai
+      - supabase
+    last_checked_at: "2026-05-12T15:06:32.453Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:32.453Z"
+      bytes: 2783
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DocNavigator is an AI-powered chatbot builder for product documentation and support websites, trained on company website data.
+  why_it_matters: It lets developers create scalable, self-serve support bots that reduce repetitive queries and improve user experience on documentation sites.
+  mental_damage: Another chatbot wrapper that promises to 'improve customer satisfaction' while adding yet another AI layer to your support stack.
+  tags:
+    - chatbot
+    - documentation
+    - ai-builder
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: DocNavigator is an end-user-facing chatbot builder for external documentation sites, not a developer tool for coding, workflow, or agent development—it serves product teams, not software engineers building software.
+  evidence:
+    - "Repo description: 'AI-powered chatbot builder that is designed to improve the user experience on product documentation/support websites'"
+    - "README: Focuses on training on company website data, handling multiple queries, saving customer time, and boosting productivity for end-users"
+    - Built with Next.js, Supabase, OpenAI—targets deployment as a SaaS chatbot widget, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -58,13 +73,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:32.453Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:24:27.795Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

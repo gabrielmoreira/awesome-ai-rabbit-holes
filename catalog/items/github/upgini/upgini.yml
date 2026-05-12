@@ -24,17 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 349
+    forks: 26
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2021-12-08T21:53:58Z"
+    pushed_at: "2026-03-28T15:11:35Z"
+    description: Data search & enrichment library for Machine Learning → Easily find and add relevant features to your ML & AI pipeline from hundreds of public and premium external data sources, including open & commercial LLMs
+    homepage: https://upgini.com
+    topics:
+      - automated-feature-engineering
+      - automl
+      - automl-pipeline
+      - chatgpt
+      - data-enrichment
+      - data-science
+      - feature-engineering
+      - feature-extraction
+      - feature-selection
+      - features
+      - kaggle
+      - kaggle-solution
+      - large-language-models
+      - llm
+      - machine-learning
+      - open-data
+      - open-datasets
+      - public-data
+      - python-library
+      - scikit-learn
+    last_checked_at: "2026-05-12T15:06:29.312Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.312Z"
+      bytes: 49131
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +71,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (349) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +80,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.312Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:19:35.184Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__upgini__upgini: Invalid AI response format: SyntaxError: Unexpected token 'U', ...\"_reason\": Upgini is \"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

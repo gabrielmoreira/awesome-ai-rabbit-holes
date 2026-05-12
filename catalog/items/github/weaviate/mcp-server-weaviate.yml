@@ -24,33 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 161
+    forks: 43
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-02-11T21:23:19Z"
+    pushed_at: "2025-05-22T10:47:49Z"
+    description: MCP (Model Context Protocol) server for Weaviate
+    homepage: https://www.anthropic.com/news/model-context-protocol
+    topics: []
+    last_checked_at: "2026-05-12T15:06:35.890Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.890Z"
+      bytes: 378
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP (Model Context Protocol) server for Weaviate vector database.
+  why_it_matters: Enables AI assistants to query and insert data in Weaviate via a standardized MCP interface.
+  mental_damage: Another MCP server to add to the growing list of protocol adapters that promise seamless context but deliver yet another YAML file to configure.
+  tags:
+    - mcp
+    - vector-db
+    - weaviate
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server implementation for Weaviate, making MCP the core identity rather than a compatibility feature.
+  evidence:
+    - "Repo description: 'MCP (Model Context Protocol) server for Weaviate'"
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
+    - README focuses on MCP server tools for Weaviate operations like insert and query
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (161) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.890Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:31:05.389Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

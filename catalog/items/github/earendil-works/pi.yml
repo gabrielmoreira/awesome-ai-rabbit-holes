@@ -1,0 +1,83 @@
+id: github__earendil-works__pi
+kind: github-repo
+name: pi
+canonical_url: https://github.com/earendil-works/pi
+identity:
+  github_repo: earendil-works/pi
+provenance:
+  discoveries:
+    - id: discovery__github__earendil-works__pi__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Pi
+        extracted_url: https://github.com/badlogic/pi-mono
+        surrounding_text: "- **[Pi](https://github.com/badlogic/pi-mono)** `⭐ 47.9k` — Minimal, adaptable terminal coding harness from the pi-mono toolkit; unified LLM API, TUI, skills, and MCP support."
+        confidence: high
+metadata:
+  github:
+    stars: 48494
+    forks: 5759
+    license: MIT
+    archived: false
+    created_at: "2025-08-09T14:03:50Z"
+    pushed_at: "2026-05-11T15:13:58Z"
+    description: "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods"
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:21.776Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:21.776Z"
+      bytes: 3602
+insights:
+  summary: Pi is a mono repo AI agent toolkit providing a coding agent CLI, unified LLM API, TUI/web UI libraries, and Slack bot for interactive code generation and agent orchestration.
+  why_it_matters: It lets developers run a self-hostable, extensible coding agent with direct file editing, command execution, and multi-provider LLM support from terminal or UI.
+  mental_damage: Finally, a way to feel in control of your AI pair programmer while it silently refactors your legacy code into abstract art.
+  tags:
+    - coding-agent
+    - cli
+    - llm-api
+    - tui
+    - mono-repo
+  confidence: high
+curation:
+  status: included
+  reason: Pi is a standalone interactive coding agent CLI that directly reads, edits, and tests code — making it a primary assistant, not an extension or framework.
+  evidence:
+    - "Repo description: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods'"
+    - "README: '@earendil-works/pi-coding-agent' is an 'Interactive coding agent CLI'"
+    - "README: '@earendil-works/pi-agent-core' provides 'Agent runtime with tool calling and state management'"
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (48494) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-12T15:06:21.776Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:59:13.258Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

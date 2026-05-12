@@ -22,6 +22,24 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `skills` `claude` `agent-workflows` `directory` `cursor`
   </details>
 
+- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 21.4k` `updated ≤30d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
+
+  Saves developers time by providing vetted, production-grade skill packs from real engineering teams instead of AI-generated noise.
+
+  _The quiet dread of realizing you’ve spent more time hunting for the right skill than actually coding._
+
+  `agent-skills` `skill-packs` `coding-assistants`
+  </details>
+
+- **[skills](https://github.com/vercel-labs/skills)** `⭐ 18.2k` `updated ≤30d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
+
+  It lets developers standardize and share agent behaviors across projects and teams via installable skill modules.
+
+  _Finally, a way to feel guilty about not having installed the 'enterprise-grade-prompt-engineering' skill in your global agent directory._
+
+  `agent-skills` `cli` `extensions`
+  </details>
+
 - **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 8.5k` `updated ≤30d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
 
   It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins for the OpenClaw ecosystem.
@@ -47,6 +65,15 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   _We have finally reached the point where your coding agent pauses mid-session to ask if your Facebook ads are burning cash._
 
   `claude-code` `seo` `ads` `plugins` `skills`
+  </details>
+
+- **[LabClaw](https://github.com/wu-yc/labclaw)** `⭐ 993` `updated ≤90d` LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows. <details><summary>More about</summary>
+
+  It provides reusable, domain-scoped agent skills that reduce prompt engineering overhead for developers building AI-assisted scientific research tools.
+
+  _Finally, a skill library so niche it makes you wonder if your agent needs a PhD to pipette correctly._
+
+  `agent-skills` `biomedical` `science`
   </details>
 
 - **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 539` `updated ≤30d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
@@ -98,6 +125,15 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
+- **[codebase-recon-skill](https://github.com/yujiachen-y/codebase-recon-skill)** `⭐ 13` `updated ≤30d` A coding agent skill that analyzes git history to understand a codebase before reading any code. <details><summary>More about</summary>
+
+  Helps developers quickly assess project health, risk areas, and team dynamics without manually running git commands.
+
+  _Finally, a skill that automates the pre-codebase anxiety ritual developers already pretend they do consistently._
+
+  `git-analysis` `agent-skills` `codebase-health`
+  </details>
+
 - **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤30d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline. <details><summary>More about</summary>
 
   It lets developers inject expert-level domain knowledge and patterns into their AI assistants instantly, moving them beyond generic coding advice without manual prompt engineering.
@@ -141,6 +177,15 @@ _These are new or low-traffic entries being watched._
   _You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants._
 
   `session-logging` `rules` `multi-agent` `osop` `integrations`
+  </details>
+
+- **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤90d` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>
+
+  It enables coding agents to persistently generate and edit shareable documents as part of automated workflows.
+
+  _Now your AI agent can write meeting notes you’ll never read — just like a real intern._
+
+  `agent-skills` `google-docs` `memyard`
   </details>
 
 - **[Relay](https://github.com/momobits/relay)** `⭐ 1` `updated ≤30d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>

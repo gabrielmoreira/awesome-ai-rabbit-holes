@@ -24,30 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-25T01:02:22Z"
+    pushed_at: "2026-05-02T09:28:43Z"
+    description: Deterministic decision-intelligence MCP server for AI agents — 17 tools, 21 algorithms (LinUCB, HiGHS LP/MIP, PageRank, Monte Carlo, CMA-ES, conformal). Sub-25ms. Zero LLM cost. AAA on Glama. Field-validated in 12+ OSS projects.
+    homepage: https://web-olive-one-89.vercel.app
+    topics:
+      - agent-tools
+      - ai-agents
+      - algorithms
+      - anthropic
+      - api
+      - bandits
+      - claude-mcp
+      - contextual-bandit
+      - decision-intelligence
+      - deterministic-tools
+      - fastify
+      - linear-programming
+      - llm-tools
+      - machine-learning
+      - mcp
+      - model-context-protocol
+      - monte-carlo
+      - optimization
+      - pagerank
+      - typescript
+    last_checked_at: "2026-05-12T15:06:37.133Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.133Z"
+      bytes: 9472
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Deterministic decision-intelligence MCP server providing 17 tools and 21 algorithms (bandits, LP/MIP, Monte Carlo, etc.) with sub-25ms latency and zero LLM cost for AI agents.
+  why_it_matters: Gives AI agents access to mathematically correct optimization and simulation without token cost or hallucination, enabling reliable decision-making in agent workflows.
+  mental_damage: Finally, an agent that can do math without lying—now we just have to trust it not to over-optimize our lives into a local minimum.
+  tags:
+    - mcp
+    - optimization
+    - deterministic
+    - algorithms
+    - agent-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: OraClaw is an MCP server first and foremost, exposing deterministic algorithms as MCP tools; its identity is protocol infrastructure, not a coding agent, extension, or SDK.
+  evidence:
+    - "Repo description: 'Deterministic decision-intelligence MCP server for AI agents — 17 tools, 21 algorithms'"
+    - "README: 'MCP Optimization Tools for AI Agents' and shows MCP server setup in claude_desktop_config.json"
+    - "Source-list: listed in awesome-mcp-servers under Data Science Tools"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.133Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:33:50.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

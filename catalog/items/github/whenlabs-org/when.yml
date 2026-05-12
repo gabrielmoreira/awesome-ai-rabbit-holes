@@ -24,17 +24,27 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-15T06:00:17Z"
+    pushed_at: "2026-05-11T17:26:02Z"
+    description: Six tools. One install. The WhenLabs developer toolkit.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-tools
+      - claude-code
+      - cli
+      - developer-tools
+      - devex
+      - mcp
+      - npm-package
+      - typescript
+    last_checked_at: "2026-05-12T15:06:37.178Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.178Z"
+      bytes: 2763
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +68,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.178Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:34:02.212Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__whenlabs-org__when: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

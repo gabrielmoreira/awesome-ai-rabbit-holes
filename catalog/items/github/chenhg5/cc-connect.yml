@@ -1,0 +1,75 @@
+id: github__chenhg5__cc-connect
+kind: github-repo
+name: cc-connect
+canonical_url: https://github.com/chenhg5/cc-connect
+identity:
+  github_repo: chenhg5/cc-connect
+provenance:
+  discoveries:
+    - id: discovery__github__chenhg5__cc-connect__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 代码 Coding
+        anchor_text: cc-connect
+        extracted_url: https://github.com/chenhg5/cc-connect
+        surrounding_text: 14. [Claude Code (`🔥`)](https://github.com/anthropics/claude-code) + [Happy Coder](https://github.com/slopus/happy) / [CodePilot](https://github.com/op7418/CodePilot) / [cc-connect](https://github.com/chenhg5/cc-connect)
+        confidence: high
+metadata:
+  github:
+    stars: 8815
+    forks: 811
+    license: null
+    archived: false
+    created_at: "2026-02-28T02:39:39Z"
+    pushed_at: "2026-05-12T13:49:20Z"
+    description: Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:21.426Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:21.426Z"
+      bytes: 31667
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8815) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-12T15:06:21.426Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:58:45.288Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__chenhg5__cc-connect: Invalid AI response format: SyntaxError: Unexpected token 'c', ...\"_reason\": cc-connect\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

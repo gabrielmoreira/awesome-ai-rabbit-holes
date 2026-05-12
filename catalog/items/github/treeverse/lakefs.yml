@@ -24,33 +24,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5366
+    forks: 447
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-09-12T11:46:28Z"
+    pushed_at: "2026-05-12T09:39:37Z"
+    description: lakeFS - Data version control for your data lake | Git for data
+    homepage: https://docs.lakefs.io
+    topics:
+      - apache-spark
+      - apache-sparksql
+      - aws-s3
+      - azure-blob-storage
+      - azure-storage
+      - data-engineering
+      - data-lake
+      - data-quality
+      - data-version-control
+      - data-versioning
+      - datalake
+      - datalakes
+      - git-for-data
+      - go
+      - golang
+      - google-cloud-storage
+      - hadoop-filesystem
+      - lakefs
+      - object-storage
+    last_checked_at: "2026-05-12T15:06:26.080Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.080Z"
+      bytes: 8120
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Open-source data version control for object storage that brings Git-like branching, atomicity, and versioning to data lakes on S3, Azure Blob, and GCS.
+  why_it_matters: It lets data teams treat large-scale datasets with the same reproducibility and review workflows that developers expect from source control.
+  mental_damage: Now your data lake can have the same 'works on my branch' confidence that your microservices deployment has right before it takes down prod.
+  tags:
+    - data-version-control
+    - data-lake
+    - git-for-data
+    - object-storage
+    - mlops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is data lake storage infrastructure, not an AI coding assistant, agent, framework, or developer-facing AI tool within our scope.
+  evidence:
+    - Repo description and README identify lakeFS as 'Git for Data' and data version control for object storage, with no AI model, agent, or coding-assistance features.
+    - Topics and README focus on Spark, Hive, and object storage integration rather than software developer AI tooling.
+    - Source list places it in Data Storage, confirming its primary identity is data infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (5366) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,15 +87,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:55.142Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for treeverse/lakefs
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.080Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:07:46.947Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

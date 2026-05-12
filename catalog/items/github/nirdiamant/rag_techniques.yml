@@ -50,15 +50,21 @@ metadata:
       fetched_at: "2026-05-06T22:45:33.314Z"
       bytes: 67630
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: This repository provides notebook tutorials showcasing advanced techniques for Retrieval-Augmented Generation (RAG) systems.
+  why_it_matters: It helps developers learn and implement RAG techniques through hands-on examples, improving their ability to build context-aware LLM applications.
+  mental_damage: Another RAG tutorial repo promising to elevate your embeddings game while you quietly wonder if anyone still reads the fine print.
+  tags:
+    - rag
+    - tutorials
+    - llm
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is primarily an educational resource with notebook tutorials, not a standalone developer tool or product that changes a workflow.
+  evidence:
+    - "Repo description: 'This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.'"
+    - It is listed in an awesome list under '知识库 RAG' as a resource summary, not as a tool.
+    - No evidence of being a framework, SDK, agent, or tool that developers integrate into their workflow; it is a collection of tutorials.
 placement:
   primary_category: null
   section: null
@@ -77,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:17:25.818Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__nirdiamant__rag_techniques: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:56:03.282Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

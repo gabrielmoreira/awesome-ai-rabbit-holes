@@ -24,33 +24,46 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 355
+    forks: 21
+    license: MIT
+    archived: false
+    created_at: "2023-02-27T21:20:55Z"
+    pushed_at: "2023-02-27T22:37:21Z"
+    description: Build full-stack, type-safe, LLM-powered apps with the T3 Stack, Turborepo, OpenAI, and Langchain
+    homepage: ""
+    topics:
+      - ai
+      - gpt-3
+      - langchain
+    last_checked_at: "2026-05-12T15:06:45.724Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:45.724Z"
+      bytes: 3790
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and LangChain.
+  why_it_matters: It gives developers a production-ready scaffold to quickly bootstrap AI-enhanced web apps with modern tooling and type safety.
+  mental_damage: Another starter kit that promises 'ultimate' while leaving half the features as TODO, because why ship when you can scaffold forever?
+  tags:
+    - starter-kit
+    - t3-stack
+    - langchain
+    - openai
+    - turborepo
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a prompt-aware template that scaffolds new LLM-powered apps from scratch, fitting the app-builder role of turning setup into runnable code via CLI-generated scaffolds.
+  evidence:
+    - "Repo description: 'Build full-stack, type-safe, LLM-powered apps with the T3 Stack, Turborepo, OpenAI, and Langchain'"
+    - "README: 'The ultimate starter repo for building full-stack, type-safe, LLM-powered web apps'"
+    - "Source-list context: Listed in awesome-langchain under Tools > Templates"
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Local / Code-Scaffolding Builders
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (355) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +71,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:45.724Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:50:58.045Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

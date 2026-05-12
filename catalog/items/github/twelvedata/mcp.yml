@@ -39,30 +39,42 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 65
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-05-27T20:38:50Z"
+    pushed_at: "2025-10-25T22:46:14Z"
+    description: Twelve Data MCP (Model Context Protocol) Server provides seamless, real-time access to financial market data via WebSocket, enabling reliable streaming of price quotes, market metrics, and events directly into your applications.
+    homepage: https://twelvedata.com
+    topics:
+      - claude
+      - mcp
+      - mcp-server
+      - twelvedata
+    last_checked_at: "2026-05-12T15:06:28.079Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:28.079Z"
+      bytes: 5105
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Twelve Data MCP Server provides real-time financial market data access via the Model Context Protocol for integration with AI assistants.
+  why_it_matters: Developers can stream live stock, forex, and crypto data into Claude Desktop or other MCP clients using natural language queries via the included u-tool router.
+  mental_damage: Yet another financial data wrapper promising to eliminate API docs while requiring you to manage two API keys and a vector search layer just to get Apple's stock price.
+  tags:
+    - mcp
+    - finance
+    - data-streaming
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server implementation whose core identity is providing financial data access via MCP, matching the category's focus on MCP infrastructure as the primary product.
+  evidence:
+    - Repo description states it provides 'seamless, real-time access to financial market data via WebSocket' using MCP
+    - README positions it as an MCP server for Claude Desktop integration with specific configuration examples
+    - Listed in awesome-mcp-servers under Finance & Fintech and Official Servers sections
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:28.079Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:16:51.639Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

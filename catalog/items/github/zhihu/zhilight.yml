@@ -23,33 +23,53 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 906
+    forks: 102
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-12-06T11:28:17Z"
+    pushed_at: "2026-03-18T02:47:55Z"
+    description: A highly optimized LLM inference acceleration engine for Llama and its variants.
+    homepage: ""
+    topics:
+      - cuda
+      - deepseek-r1
+      - gpt
+      - inference-engine
+      - llama
+      - llm
+      - llm-inference
+      - llm-serving
+      - model-serving
+      - pytorch
+    last_checked_at: "2026-05-12T15:06:46.529Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:46.529Z"
+      bytes: 6512
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs.
+  why_it_matters: It provides measurable QPS and latency gains over vLLM and SGLang on consumer and data-center GPUs, serving as a high-performance local inference runtime.
+  mental_damage: Another inference engine promising 2x speedup while you wait for model downloads to finish, adding to the paradox of choice in local LLM serving.
+  tags:
+    - llm-inference
+    - local-ai
+    - performance
+    - cuda
+    - optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: ZhiLight is a local inference serving stack optimized for Llama-family models on consumer and data-center GPUs, matching the Local AI category's focus on self-hosted execution as the main reason to use the product.
+  evidence:
+    - "Repo description: 'A highly optimized LLM inference acceleration engine for Llama and its variants.'"
+    - "README: 'Start OpenAI compatible server' via `python -m zhilight.server.openai.entrypoints.api_server` and provides Docker image for local deployment."
+    - Performance benchmarks compare QPS, TTFT, and TPOT against vLLM and SGLang on AD102 PCIe, A800, and H20 GPUs.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Serving / APIs
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (906) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:46.529Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:52:46.203Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,33 +24,57 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 24184
+    forks: 4381
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-05-23T15:04:08Z"
+    pushed_at: "2026-05-12T14:34:26Z"
+    description: "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents "
+    homepage: https://ai-sdk.dev
+    topics:
+      - anthropic
+      - artificial-intelligence
+      - gemini
+      - generative-ai
+      - generative-ui
+      - javascript
+      - language-model
+      - llm
+      - nextjs
+      - openai
+      - react
+      - svelte
+      - typescript
+      - vercel
+      - vue
+    last_checked_at: "2026-05-12T15:06:31.345Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:31.345Z"
+      bytes: 7025
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: The AI SDK is a provider-agnostic TypeScript toolkit for building AI-powered applications and agents using React, Next.js, and other UI frameworks.
+  why_it_matters: It lets developers integrate multiple LLM providers with a unified API and build generative UIs without locking into a single vendor.
+  mental_damage: Another abstraction layer to forget which provider you're actually using when the bill shows up.
+  tags:
+    - ai-sdk
+    - typescript
+    - llm
+    - ui
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The AI SDK is a code-first SDK used to embed AI into applications, not a standalone agent or orchestration platform.
+  evidence:
+    - "Repo description: 'The AI Toolkit for TypeScript... a free open-source library for building AI-powered applications and agents'"
+    - "README: 'provider-agnostic TypeScript toolkit' with unified API for OpenAI, Anthropic, Google, etc."
+    - Usage shows importing and scripting against the SDK in TypeScript code (e.g., generateText, ToolLoopAgent)
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (24184) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:31.345Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:23:25.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

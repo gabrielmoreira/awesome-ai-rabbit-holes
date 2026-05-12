@@ -24,30 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 17
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-05-20T10:18:40Z"
+    pushed_at: "2026-03-30T07:54:38Z"
+    description: MCP Prompt Engine
+    homepage: ""
+    topics:
+      - go
+      - go-template
+      - golang
+      - mcp
+      - mcp-prompt
+      - mcp-server
+    last_checked_at: "2026-05-12T15:06:30.500Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:30.500Z"
+      bytes: 9903
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP Prompt Engine is a Go-based MCP server that serves dynamic prompt templates using Go text/template syntax.
+  why_it_matters: It lets developers manage and version prompt templates as code, making prompt reuse and dynamic argument injection reliable across MCP clients.
+  mental_damage: Another layer of YAML-adjacent templating to maintain while waiting for the next protocol that makes this obsolete.
+  tags:
+    - mcp
+    - prompt-templates
+    - go
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose core identity is serving prompts via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+  evidence:
+    - "Repo description: 'MCP Prompt Engine'"
+    - "README: 'A Model Control Protocol (MCP) server for managing and serving dynamic prompt templates'"
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:30.500Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:21:54.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

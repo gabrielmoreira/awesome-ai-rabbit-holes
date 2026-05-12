@@ -23,30 +23,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 47
+    forks: 9
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    archived: false
+    created_at: "2024-12-03T11:43:41Z"
+    pushed_at: "2024-12-11T08:10:52Z"
+    description: Jina Reader MCP Server
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:38.587Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:38.587Z"
+      bytes: 89
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that fetches remote URLs and returns their content as Markdown using Jina Reader.
+  why_it_matters: Enables MCP-capable assistants to ingest and process web content in a structured format for developer workflows.
+  mental_damage: Yet another wrapper turning the open web into a brittle, rate-limited dependency for your AI’s attention span.
+  tags:
+    - mcp
+    - web-scraping
+    - reader
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an MCP server whose core function is to serve web content via Jina Reader, making MCP the product identity rather than a compatibility layer.
+  evidence:
+    - "Repo description: 'Jina Reader MCP Server'"
+    - "README: 'Fetch the content of a remote URL as Markdown with Jina Reader'"
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -57,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:38.587Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:36:48.139Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

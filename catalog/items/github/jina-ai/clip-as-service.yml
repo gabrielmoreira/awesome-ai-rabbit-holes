@@ -53,18 +53,26 @@ metadata:
       fetched_at: "2026-05-06T22:44:34.184Z"
       bytes: 22328
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: clip-as-service is a scalable inference service for generating multimodal embeddings using the CLIP model for images and text.
+  why_it_matters: It enables developers to perform cross-modal retrieval, image-to-text search, and semantic similarity at scale without managing model serving infrastructure.
+  mental_damage: Yet another embedding microservice to Docker-compose into your stack, promising vector search utopia while silently adding latency and ops tax.
+  tags:
+    - embeddings
+    - clip
+    - multimodal
+    - serving
+    - search
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: clip-as-service is a reusable serving SDK/API for CLIP-based multimodal embeddings, used as a code-first building block in retrieval pipelines rather than a standalone assistant, orchestrator, or end-user app.
+  evidence:
+    - "Repo description: 'Scalable embedding, reasoning, ranking for images and sentences with CLIP'"
+    - "Stars: 12837, pushed at 2024-01-23, indicating active maintenance and ecosystem traction"
+    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', confirming its role as infrastructure tooling
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (12837) exceeded threshold (150)
@@ -80,12 +88,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:04:15.643Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__jina-ai__clip-as-service: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:54:43.284Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

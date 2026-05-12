@@ -24,30 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-09T01:54:10Z"
+    pushed_at: "2026-03-17T17:03:30Z"
+    description: UseCortex MCP Server — Give your AI coding agent a persistent memory. Read and write knowledge from any tool.
+    homepage: https://usecortex.net
+    topics:
+      - ai-memory
+      - ai-tools
+      - context
+      - developer-tools
+      - encrypted
+      - knowledge-management
+      - mcp
+      - mcp-server
+      - usecortex
+    last_checked_at: "2026-05-12T15:06:29.615Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.615Z"
+      bytes: 9387
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: UseCortex MCP Server is a Model Context Protocol server that provides AI coding agents with persistent, encrypted memory for reading and writing knowledge.
+  why_it_matters: It solves the context window limitation by giving agents long-term memory that works across any MCP-compatible tool.
+  mental_damage: Now your AI can forget less and remember too much, just like a developer with a second monitor and zero boundaries.
+  tags:
+    - mcp
+    - memory
+    - context
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product is a memory system for AI agents, not an agent itself or a host integration, making Prompt & Context Engineering the best fit.
+  evidence:
+    - "Repo description: 'UseCortex MCP Server — Give your AI coding agent a persistent memory. Read and write knowledge from any tool.'"
+    - "README: 'UseCortex MCP is a Model Context Protocol server that gives AI coding agents persistent memory.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory section"
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.615Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:20:29.813Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

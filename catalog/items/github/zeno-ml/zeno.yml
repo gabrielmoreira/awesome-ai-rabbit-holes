@@ -24,33 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 214
+    forks: 11
+    license: MIT
+    archived: true
+    created_at: "2022-02-03T13:47:13Z"
+    pushed_at: "2023-10-05T19:02:16Z"
+    description: AI Data Management & Evaluation Platform
+    homepage: https://zenoml.com
+    topics:
+      - ai
+      - data-science
+      - evaluation
+      - evaluation-framework
+      - machine-learning
+      - python
+    last_checked_at: "2026-05-12T15:06:46.264Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:46.264Z"
+      bytes: 5996
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Zeno is an open-source interactive framework for evaluating machine learning models via a Python API and UI.
+  why_it_matters: Provides developers a unified way to explore and analyze model performance across data types and tasks to improve ML workflows.
+  mental_damage: Another evaluation tool promising insight while adding yet another config file and UI tab to your model debugging pile.
+  tags:
+    - ml-evaluation
+    - python
+    - interactive-ui
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Zeno is an ML model evaluation framework focused on data science workflows, not developer-facing AI tooling for coding, agents, or app building.
+  evidence:
+    - "Repo description: 'AI Data Management & Evaluation Platform'"
+    - "README: 'Zeno is a general-purpose framework for evaluating machine learning models'"
+    - "Archived: yes"
+    - "Pushed at: 2023-10-05 (over a year ago)"
+    - "Source-list context: listed under Awesome-LLMOps > Training > Visualization, not developer tooling sections"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -58,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:46.264Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:52:06.246Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

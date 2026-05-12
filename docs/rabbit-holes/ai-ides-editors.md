@@ -13,7 +13,7 @@ Development environments built around coding assistance.
   `ide` `remote-development` `vscode` `browser-ide`
   </details>
 
-- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 3.6k` `updated ≤30d` Kiro is an agentic IDE and CLI from Amazon that combines spec-driven development, hooks, and natural language coding assistance to help developers move from prototype to production. <details><summary>More about</summary>
+- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 3.6k` `updated ≤90d` Kiro is an agentic IDE and CLI from Amazon that combines spec-driven development, hooks, and natural language coding assistance to help developers move from prototype to production. <details><summary>More about</summary>
 
   It integrates structured spec planning directly into the development environment alongside agentic chat and automated hooks, aiming to formalize AI-assisted workflows beyond simple code completion.
 

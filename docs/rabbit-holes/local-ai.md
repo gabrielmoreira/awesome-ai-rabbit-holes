@@ -49,6 +49,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `cpp` `gguf` `llm`
   </details>
 
+- **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤30d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
+
+  It enables fast, scalable, and cost-effective deployment of LLMs for developers building AI-powered applications and services.
+
+  _Finally, a serving layer that doesn't make you choose between bankrupting your cloud bill or waiting 30 seconds for a single token._
+
+  `llm-serving` `inference` `pagedattention`
+  </details>
+
 - **[gpt4all](https://github.com/nomic-ai/gpt4all)** `⭐ 77.4k` `updated ≤1y` GPT4All is an open-source desktop application and Python client for running local LLMs privately on everyday laptops and desktops without API calls or GPUs. <details><summary>More about</summary>
 
   It provides developers with a straightforward way to run and experiment with local models via a desktop UI or an OpenAI-compatible API endpoint for local-first development.
@@ -56,6 +65,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Yet another 'run LLMs locally' marvel that will sit installed on your machine, quietly consuming 5GB of disk space while you continue to burn tokens on a hosted API because the RAM crunch is too real._
 
   `local-ai` `llm-inference` `offline` `desktop`
+  </details>
+
+- **[unsloth (`🔥`)](https://github.com/unslothai/unsloth)** `⭐ 64.1k` `updated ≤30d` Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training performance. <details><summary>More about</summary>
+
+  It lets developers train and deploy models on their own hardware with significantly reduced VRAM usage and faster iteration cycles.
+
+  _Another local AI UI promising to make model training feel less like begging for GPU time on a shared cluster._
+
+  `local-ai` `fine-tuning` `llm` `self-hosted`
   </details>
 
 - **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 59.6k` `updated ≤30d` AnythingLLM is a self-hosted, privacy-focused desktop and server application that lets developers chat with local or cloud LLMs over their own documents using built-in RAG pipelines, vector databases, and configurable AI agents. <details><summary>More about</summary>
@@ -112,6 +130,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `offline` `llm` `desktop` `privacy`
   </details>
 
+- **[chatglm-6b](https://github.com/zai-org/chatglm-6b)** `⭐ 41.1k` `updated >1y` ChatGLM-6B is an open-source bilingual dialogue language model with 6.2B parameters for local deployment and fine-tuning. <details><summary>More about</summary>
+
+  It lets developers run and customize a capable LLM locally on modest hardware for research or application building.
+
+  _Another model repo that makes you feel guilty for not quantizing it and running llama.cpp instead._
+
+  `local-ai` `llm` `open-source`
+  </details>
+
 - **[FastChat](https://github.com/lm-sys/fastchat)** `⭐ 39.5k` `updated ≤30d` An open-source platform for training, serving, and evaluating large language models, including the infrastructure behind the Vicuna model and Chatbot Arena. <details><summary>More about</summary>
 
   It provides the core serving infrastructure and evaluation harnesses (like MT-Bench) needed to self-host LLMs or benchmark model performance locally.
@@ -121,7 +148,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `eval-harness` `local-models` `training`
   </details>
 
-- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38k` `updated ≤180d` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
+- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
 
   It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
 
@@ -274,6 +301,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `ollama` `ios` `macos` `swift`
   </details>
 
+- **[GPUStack](https://github.com/gpustack/gpustack)** `⭐ 5k` `updated ≤30d` gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment. <details><summary>More about</summary>
+
+  It simplifies scaling LLM serving across heterogeneous GPU hardware, reducing operational overhead for developers deploying production AI workloads.
+
+  _Finally, a way to feel in control of your GPU farm while secretly hoping vLLM doesn't OOM during peak traffic._
+
+  `llm-serving` `gpu-orchestration` `inference`
+  </details>
+
 - **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 4.8k` `updated ≤90d` A single-binary, OpenAI API-compatible local inference server written in Rust that runs GGUF and SafeTensors models with hot-swapping and auto-discovery. <details><summary>More about</summary>
 
   It lets developers run large local models behind a familiar API endpoint, making it easy to power IDE extensions, coding agents, and scripts without cloud costs or external dependencies.
@@ -328,6 +364,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `ocr` `local-ai` `document-extraction` `pii-removal` `self-hosted`
   </details>
 
+- **[ExLlama](https://github.com/turboderp/exllama)** `⭐ 2.9k` `updated >1y` ExLlama is a memory-efficient CUDA-based implementation of Llama for running 4-bit quantized weights on modern NVIDIA GPUs. <details><summary>More about</summary>
+
+  It enables developers to run large language models locally with lower VRAM usage, making on-device inference more accessible.
+
+  _The quiet relief of fitting a 7B model in 12GB VRAM, followed by the dread of realizing you still need to fine-tune it._
+
+  `local-ai` `inference` `cuda` `quantization`
+  </details>
+
 - **[Infinity](https://github.com/michaelfeil/infinity)** `⭐ 2.8k` `updated ≤90d` Infinity is a high-throughput, low-latency REST API server for running text-embedding, reranking, CLIP, CLAP, and ColPali models locally or in self-hosted environments. <details><summary>More about</summary>
 
   Developers building RAG pipelines or semantic search can deploy any HuggingFace embedding model with OpenAI-compatible APIs and hardware acceleration without managing raw inference code.
@@ -373,7 +418,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `apple-silicon` `mlx` `openai-api` `tool-calling`
   </details>
 
-- **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.6k` `updated ≤30d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
+- **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.6k` `updated ≤90d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
 
   Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100 languages with a single inference call via vLLM.
 
@@ -443,6 +488,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Yet another 'run it locally with Docker' RAG setup that forces you to choose between debugging docker-compose errors or just pasting the file into ChatGPT like a civilized animal._
 
   `rag` `local-ai` `mcp` `docker` `on-premises`
+  </details>
+
+- **[ZhiLight](https://github.com/zhihu/zhilight)** `⭐ 906` `updated ≤90d` ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs. <details><summary>More about</summary>
+
+  It provides measurable QPS and latency gains over vLLM and SGLang on consumer and data-center GPUs, serving as a high-performance local inference runtime.
+
+  _Another inference engine promising 2x speedup while you wait for model downloads to finish, adding to the paradox of choice in local LLM serving._
+
+  `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
 - **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 794` `updated ≤90d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
@@ -582,6 +636,15 @@ _These are new or low-traffic entries being watched._
   _Yet another desktop wrapper promising to wrangle local models, ensuring you can max out your GPU fans while wondering if you should have just used Ollama._
 
   `local-ai` `desktop` `llm` `offline`
+  </details>
+
+- **[LibreChat](https://www.librechat.ai)** LibreChat is a customizable open-source chat UI supporting multiple AI providers and features like file upload, image generation, and agent support. <details><summary>More about</summary>
+
+  It gives developers a self-hostable, extensible interface to experiment with and compare various LLMs and AI workflows in a unified chat environment.
+
+  _Another chat UI to self-host, because apparently one Open WebUI wasn't enough to satisfy our need for prompt fatigue in triplicate._
+
+  `chat-ui` `local-ai` `self-hosted`
   </details>
 
 - **[LM Studio](https://lmstudio.ai)** A desktop application and local runtime for running open-weight LLMs such as Llama, Gemma, and DeepSeek privately on your own hardware. <details><summary>More about</summary>

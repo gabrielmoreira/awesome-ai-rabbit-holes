@@ -39,30 +39,42 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 83
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-03-10T18:55:52Z"
+    pushed_at: "2026-03-30T02:23:20Z"
+    description: This is an implementation project of a JVM-based MCP (Model Context Protocol) server. The project aims to provide a standardized MCP server implementation for the JVM platform, enabling AI models to better interact with the Java ecosystem.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:41.141Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:41.141Z"
+      bytes: 7553
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JVM MCP Server is a lightweight Java Virtual Machine monitoring and diagnostics server that exposes native JDK tools through the Model Context Protocol.
+  why_it_matters: It lets AI agents inspect and troubleshoot Java applications without installing heavyweight agents like Arthas, using only built-in JDK utilities.
+  mental_damage: Finally, a way to make your JVM feel observed without actually installing anything—because observability should be as lightweight as the guilt of leaving a debug flag on in prod.
+  tags:
+    - mcp
+    - jvm
+    - diagnostics
+    - java
+    - monitoring
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is an MCP server implementation for the JVM ecosystem, making MCP the primary product rather than an extension or framework.
+  evidence:
+    - Repo description explicitly states it is 'an implementation project of a JVM-based MCP server'
+    - README positions it as providing 'AI agents with powerful capabilities to monitor and analyze Java applications' via MCP
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - Tools expose JDK commands (jps, jstack, jmap, etc.) through MCP interface using FastMCP
+    - Not positioned as a coding agent, IDE extension, or framework—its value is in MCP-mediated access to JVM diagnostics
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:41.141Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:42:26.717Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

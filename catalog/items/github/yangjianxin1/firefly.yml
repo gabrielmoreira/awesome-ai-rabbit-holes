@@ -23,17 +23,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 6643
+    forks: 587
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2023-04-02T14:55:59Z"
+    pushed_at: "2024-10-24T02:27:42Z"
+    description: "Firefly: 大模型训练工具，支持训练Qwen2.5、Qwen2、Yi1.5、Phi-3、Llama3、Gemma、MiniCPM、Yi、Deepseek、Orion、Xverse、Mixtral-8x7B、Zephyr、Mistral、Baichuan2、Llma2、Llama、Qwen、Baichuan、ChatGLM2、InternLM、Ziya2、Vicuna、Bloom等大模型"
+    homepage: ""
+    topics:
+      - alpaca
+      - aquila
+      - baichuan
+      - chatglm
+      - gemma
+      - gpt
+      - internlm
+      - llama
+      - llama2
+      - llama3
+      - llm
+      - lora
+      - minicpm
+      - mistral
+      - mixtral
+      - peft
+      - qlora
+      - qwen
+      - qwen2
+      - zephyr
+    last_checked_at: "2026-05-12T15:06:41.362Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:41.362Z"
+      bytes: 32807
 insights:
   summary: null
   why_it_matters: null
@@ -48,8 +70,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (6643) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +79,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:41.362Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:42:49.325Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__yangjianxin1__firefly: Invalid AI response format: SyntaxError: Unexpected token 'F', ...\"_reason\": Firefly is\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

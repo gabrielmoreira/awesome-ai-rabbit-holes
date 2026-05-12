@@ -24,33 +24,50 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 6029
+    forks: 709
+    license: MIT
+    archived: false
+    created_at: "2024-12-04T08:26:08Z"
+    pushed_at: "2026-05-11T11:01:42Z"
+    description: This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
+    homepage: https://desktopcommander.app/
+    topics:
+      - agent
+      - ai
+      - code-analysis
+      - code-generation
+      - gemini-cli-extension
+      - mcp
+      - terminal-ai
+      - terminal-automation
+      - vibe-coding
+    last_checked_at: "2026-05-12T15:06:38.315Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:38.314Z"
+      bytes: 50436
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Desktop Commander MCP is an MCP server that grants AI assistants terminal control, file system access, and file editing capabilities.
+  why_it_matters: It lets AI coding assistants perform terminal commands, edit files, and manage processes without needing API tokens, using the user's own subscription instead.
+  mental_damage: Finally, an AI that can break your production database with a single mistyped rm command — but now it's officially sanctioned.
+  tags:
+    - mcp
+    - terminal
+    - file-operations
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Desktop Commander MCP is primarily an MCP server providing filesystem and terminal tooling, making MCP its core identity rather than a coding agent or extension.
+  evidence:
+    - "Repo description: 'This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities'"
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Coding Agents"
+    - "README: emphasizes MCP server functionality, Remote MCP, and server configuration management"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (6029) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:38.315Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:36:08.119Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

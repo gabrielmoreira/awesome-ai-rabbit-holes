@@ -24,33 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 210
+    forks: 28
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-12-03T13:39:53Z"
+    pushed_at: "2026-05-08T07:11:46Z"
+    description: Cognitive memory for AI agents — learns from use, forgets what's irrelevant, strengthens what matters. Single binary, fully offline.
+    homepage: https://www.shodh-memory.com
+    topics:
+      - agentic-ai
+      - ai-agents
+      - ai-memory
+      - boston-dynamics-spot
+      - claude
+      - cognitive-architecture
+      - cognitive-memory
+      - context-engineering
+      - graphrag
+      - knowledge-graph
+      - local-first
+      - mcp
+      - model-context-protocol
+      - robot-memory
+      - robotics
+      - ros2
+      - rust
+      - vector-database
+      - vector-search
+      - zenoh
+    last_checked_at: "2026-05-12T15:06:30.494Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:30.494Z"
+      bytes: 15139
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Shodh-Memory is a persistent cognitive memory system for AI agents that learns from usage and forgets irrelevant data via algorithmic intelligence, running fully offline as a single binary.
+  why_it_matters: It gives developers a lightweight, private memory layer for AI agents that improves with use without API calls or external dependencies.
+  mental_damage: Finally, a memory system that doesn’t require you to trade latency, cost, or offline access for the illusion of intelligence.
+  tags:
+    - memory
+    - mcp
+    - offline
+    - agentic-ai
+    - context-engineering
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Shodh-Memory’s core innovation is its algorithmic memory system—local embeddings, Hebbian learning, and mathematical decay—which improves context for models rather than acting as a coding assistant or host integration.
+  evidence:
+    - "README: 'Shodh uses algorithmic intelligence: local embeddings, mathematical decay, learned associations. No LLM in the loop.'"
+    - "Repo description: 'Cognitive memory for AI agents — learns from use, forgets what's irrelevant, strengthens what matters.'"
+    - "Source-list context: listed in awesome-mcp-servers under Knowledge & Memory, indicating its role as a memory infrastructure component."
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (210) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:30.494Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:21:56.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 49
+    forks: 14
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-02-27T17:51:56Z"
+    pushed_at: "2025-09-10T06:42:53Z"
+    description: The only MCP Server you need. Connect any MCP host with the tools you use daily through our no-code, secure integration hub.
+    homepage: https://waystation.ai
+    topics: []
+    last_checked_at: "2026-05-12T15:06:35.509Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.509Z"
+      bytes: 4859
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: WayStation is a remote MCP server that connects MCP hosts like Claude to productivity apps via no-code integrations.
+  why_it_matters: It lets developers link AI assistants to daily tools without writing glue code, streamlining automation.
+  mental_damage: Yet another MCP wrapper promising seamless integration while quietly becoming the new vendor lock-in.
+  tags:
+    - mcp
+    - integration
+    - productivity
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: WayStation is an MCP server first and foremost, offering a hosted remote server that implements the Model Context Protocol to connect AI hosts with external tools, making MCP the core identity.
+  evidence:
+    - "Repo description: 'The only MCP Server you need. Connect any MCP host with the tools you use daily through our no-code, secure integration hub.'"
+    - "README: 'WayStation MCP server is a universal remote MCP server that seamlessly connects Claude (and other clients) to a broad range of productivity tools'."
+    - "Source-list: Included in awesome-mcp-servers under 'Aggregators' as an MCP server implementation."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.509Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:30:15.804Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

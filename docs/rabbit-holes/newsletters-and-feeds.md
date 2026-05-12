@@ -42,6 +42,15 @@ _These are new or low-traffic entries being watched._
   `newsletter` `agents` `langchain` `digest`
   </details>
 
+- **[Subscribe to the newsletter](https://awesomelangchain.substack.com)** awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates. <details><summary>More about</summary>
+
+  It helps developers stay informed about the LangChain ecosystem through curated content and tutorials.
+
+  _Another AI newsletter promising to keep you updated, while your tab count and anxiety both grow exponentially._
+
+  `newsletter` `langchain` `ai`
+  </details>
+
 - **[Unwind AI](https://www.theunwindai.com)** A newsletter and curated digest covering daily AI agent updates, tutorials, and open-source app examples for developers building with LLMs. <details><summary>More about</summary>
 
   It aggregates practical, runnable AI agent and RAG examples along with daily ecosystem updates, saving developers from hunting across fragmented channels.

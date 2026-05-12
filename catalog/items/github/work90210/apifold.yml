@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 4
+    forks: 3
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-18T15:08:24Z"
+    pushed_at: "2026-05-11T16:17:48Z"
+    description: Turn any REST API into an MCP server. No code required.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:39.001Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:39.001Z"
+      bytes: 6904
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Turn any REST API into an MCP server using an OpenAPI spec with no code required.
+  why_it_matters: Lets developers instantly expose real APIs as MCP tools for AI agents like Claude or Cursor without writing glue code.
+  mental_damage: Finally, a way to make your AI agent actually call Stripe instead of hallucinating payment flows.
+  tags:
+    - mcp
+    - openapi
+    - api-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: APIFold is an MCP server generator that turns OpenAPI specs into live MCP endpoints, making MCP the core product identity rather than an extension or compatibility layer.
+  evidence:
+    - "Repo description: 'Turn any REST API into an MCP server. No code required.'"
+    - "README: 'APIFold reads an OpenAPI 3.x or Swagger 2.x specification and generates a live, production-ready MCP server endpoint.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:39.001Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:38:08.399Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -23,30 +23,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 104
+    forks: 37
+    license: MIT
+    archived: false
+    created_at: "2025-03-24T18:55:50Z"
+    pushed_at: "2026-02-14T10:40:21Z"
+    description: Monorepo providing 1) OpenAPI to MCP Tool generator 2) Exposing all of Twilio's API as MCP Tools
+    homepage: https://twilioalpha.com/mcp
+    topics:
+      - ai
+      - mcp
+      - openapi
+      - openapi-generator
+      - openapi3
+      - twilio-api
+      - twilio-mcp
+    last_checked_at: "2026-05-12T15:06:28.235Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:28.235Z"
+      bytes: 3106
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Twilio MCP Monorepo is a Model Context Protocol server that exposes Twilio's public API as MCP tools for AI assistants.
+  why_it_matters: It lets developers connect AI assistants to Twilio's communication APIs via a standardized MCP interface, enabling voice, SMS, and email automation from natural language.
+  mental_damage: Another MCP wrapper for a SaaS API, adding yet another layer to the growing stack of protocol translators between LLMs and the services they’re supposed to replace.
+  tags:
+    - mcp
+    - twilio
+    - api-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server exposing Twilio's APIs, making MCP the core identity rather than a compatibility layer, fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'Monorepo providing 1) OpenAPI to MCP Tool generator 2) Exposing all of Twilio's API as MCP Tools'"
+    - "README: 'This is a monorepo for the Model Context Protocol server that exposes all of Twilio's Public API'"
+    - "Source-list context: Listed in 'awesome-mcp-servers' under 'Official Servers'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -57,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:28.235Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:17:00.038Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

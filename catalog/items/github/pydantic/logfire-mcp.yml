@@ -52,15 +52,21 @@ metadata:
       fetched_at: "2026-05-06T22:46:00.102Z"
       bytes: 531
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Logfire MCP Server is an archived GitHub repository providing Model Context Protocol integration for Pydantic's Logfire observability platform.
+  why_it_matters: It enables MCP-compatible agents to access Logfire's tracing and monitoring capabilities, bridging observability data with AI workflows.
+  mental_damage: Another MCP server that promises seamless observability while reminding us we now need observability for our observability agents.
+  tags:
+    - mcp
+    - observability
+    - archived
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because the repository is archived, indicating it is no longer maintained, and its sole purpose is MCP server tooling without broader developer workflow innovation.
+  evidence:
+    - "Archived: yes"
+    - "Repo description: The Logfire MCP Server is here! :tada:"
+    - "Source-list context: listed in awesome-mcp-list and awesome-mcp-servers under Monitoring and Official Servers sections"
 placement:
   primary_category: null
   section: null
@@ -79,12 +85,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:23:19.044Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__pydantic__logfire-mcp: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:57:05.643Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

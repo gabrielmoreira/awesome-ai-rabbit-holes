@@ -48,15 +48,21 @@ metadata:
       fetched_at: "2026-05-06T22:44:26.196Z"
       bytes: 2732
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AutoPR is an archived GitHub Action that autonomously writes pull requests in response to issues using LLMs.
+  why_it_matters: It aimed to automate issue-to-PR workflows, reducing manual boilerplate for developers using AI-driven code changes.
+  mental_damage: Trusting an AI to open PRs without review is like letting a toddler refactor your production code—efficient until it isn’t.
+  tags:
+    - github-actions
+    - ai-coding-agent
+    - archived
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because the project is archived, indicating it is no longer maintained, and its core function as a GitHub Action with AI-generated PRs lacks sufficient ongoing utility or developer-facing tooling maturity for inclusion.
+  evidence:
+    - "Archived: yes"
+    - "Repo description: AutoPR autonomously wrote pull requests in response to issues"
+    - "Source-list context: listed in awesome-ai-agents under purpose: A list of AI autonomous agents | section: AutoPR"
 placement:
   primary_category: null
   section: null
@@ -75,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:02:34.388Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__irgolic__autopr: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:54:17.545Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

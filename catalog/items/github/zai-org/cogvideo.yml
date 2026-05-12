@@ -24,33 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12718
+    forks: 1288
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-05-29T06:46:18Z"
+    pushed_at: "2025-11-04T11:19:04Z"
+    description: "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)"
+    homepage: ""
+    topics:
+      - cogvideox
+      - image-to-video
+      - llm
+      - sora
+      - text-to-video
+      - video-generation
+    last_checked_at: "2026-05-12T15:06:45.149Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:45.148Z"
+      bytes: 28873
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CogVideo is an open-source text and image-to-video generation model series (CogVideo and CogVideoX) for creating videos from textual or visual prompts.
+  why_it_matters: It enables developers to generate video content programmatically using AI, expanding multimodal capabilities in applications beyond text or image generation.
+  mental_damage: Another impressive generative model that makes you wonder if your next side project should be a AI-generated film festival nobody asked for.
+  tags:
+    - video-generation
+    - multimodal
+    - text-to-video
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: CogVideo is a raw generative model focused on video synthesis, not a developer-facing tool, framework, or workflow that aids in coding, app building, or agent orchestration.
+  evidence:
+    - "Repo description: 'text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)'"
+    - README emphasizes model releases, inference, fine-tuning, and demo spaces (HuggingFace, ModelScope), not developer tooling or workflows
+    - No evidence of SDKs, APIs, CLI tools for code integration, agent coordination, or prompt-to-app workflows; primarily a model research release
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (12718) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:45.149Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:49:54.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

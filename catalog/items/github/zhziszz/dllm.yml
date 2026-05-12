@@ -57,12 +57,14 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-05-12T15:06:46.826Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for zhziszz/dllm
   categorize:
     status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
+    updated_at: "2026-05-12T15:06:49.076Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

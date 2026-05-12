@@ -24,33 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1747
+    forks: 288
+    license: Apache-2.0
+    archived: false
+    created_at: "2016-10-19T01:07:26Z"
+    pushed_at: "2024-07-23T17:06:34Z"
+    description: Open Source ML Model Versioning, Metadata, and Experiment Management
+    homepage: ""
+    topics:
+      - machine-learning
+      - mit
+      - model-management
+      - model-versioning
+      - modeldb
+      - verta
+    last_checked_at: "2026-05-12T15:06:32.181Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:32.181Z"
+      bytes: 10355
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ModelDB is an open-source system for versioning machine learning models, tracking metadata, and managing experiment lifecycles.
+  why_it_matters: It helps developers make ML workflows reproducible and audit-able by versioning code, data, and models together.
+  mental_damage: Another yaml-heavy MLOps stack where tracking hyperparameters feels like filling out tax forms for your neural net.
+  tags:
+    - mlops
+    - model-versioning
+    - experiment-tracking
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: ModelDB is an ML experiment tracking and model management tool focused on data science workflows, not software developer tooling like coding agents, IDEs, or app builders.
+  evidence:
+    - "Repo description: 'Open Source ML Model Versioning, Metadata, and Experiment Management'"
+    - README emphasizes logging hyperparameters, metrics, and artifacts for ML reproducibility, not code editing or generation
+    - "Source-list context: listed in Awesome-LLMOps under 'Large Scale Deployment > Model Management', an ML infrastructure category"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1747) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:32.181Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:24:14.616Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

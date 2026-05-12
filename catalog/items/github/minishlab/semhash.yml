@@ -45,15 +45,22 @@ metadata:
       fetched_at: "2026-05-06T22:45:20.569Z"
       bytes: 20635
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Fast Multimodal Semantic Deduplication & Filtering is a tool for detecting and removing duplicate or similar entries across text and image datasets using semantic embeddings.
+  why_it_matters: It helps developers clean training data efficiently, reducing redundancy that can distort model evaluation and waste compute.
+  mental_damage: Another tool to run before you realize your 'clean' dataset still has near-duplicates that only humans would spot.
+  tags:
+    - data-cleaning
+    - deduplication
+    - semantic-search
+    - machine-learning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is a data preprocessing utility for dataset curation, not a developer-facing AI tool for coding, agents, workflows, or app building.
+  evidence:
+    - "Repo description: 'Fast Multimodal Semantic Deduplication & Filtering'"
+    - README excerpt focuses on preprocessing, dataset cleaning, and multimodal similarity filtering
+    - Source-list context shows it is curated under '数据 Data' in awesome-LLM-resources, not developer tooling sections
 placement:
   primary_category: null
   section: null
@@ -72,25 +79,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:14:32.172Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__minishlab__semhash: {
-          "summary": "SemHash is a lightweight, multimodal Python library for semantic deduplication, outlier filtering, and representative sample selection across text, image, and other modalities.",
-          "why_it_matters": "It lets developers clean and sanitize training and testing datasets at scale using fast embeddings and efficient similarity search, reducing data leakage and noise before model training.",
-          "mental_damage": "Yet another reminder that even our datasets now need AI to figure out they are full of duplicates we probably should have noticed ourselves.",
-          "tags": ["deduplication", "dataset-cleaning", "semantic-search", "multimodal", "ml-infrastructure"],
-          "should_include": false,
-          "primary_category": null,
-          "section": null,
-          "decision_reason": "SemHash is a data preprocessing and dataset cleaning library for ML workflows, not a developer-facing AI tool, agent, or infrastructure product for software development.",
-          "decision_evidence": [
-            "Repo description and README position it squarely as a dataset cleaning and deduplication library for text, images, and other modalities.",
-            "Used via `pip install semhash` and scripted as a Python library, with no coding agent, IDE, extension, or developer workflow identity.",
-            "Appears in awesome-LLM-resources under a data section
+    status: done
+    updated_at: "2026-05-12T15:55:42.701Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

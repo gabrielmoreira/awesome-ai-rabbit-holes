@@ -50,18 +50,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: getcarbon.app is a collection of MCP servers focused on communication use cases.
+  why_it_matters: It offers ready-to-use MCP servers for integrating AI with communication tools, reducing setup overhead.
+  mental_damage: Yet another MCP server list promising seamless integration while quietly adding another layer of protocol indirection.
+  tags:
+    - mcp
+    - communication
+    - server-list
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a curated list of MCP servers, making MCP the core identity and fitting the MCP Servers & Tooling category.
+  evidence:
+    - Listed in awesome-mcp-servers under Server Implementations > Communication and Official Servers sections
+    - URL getcarbon.app presents itself as a hub for MCP servers
+    - No evidence of being a client, registry, inspector, or middleware beyond being a server list
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -76,12 +82,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:34:07.955Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for getcarbon__app: 你好，我无法给到相关内容。"
+    status: done
+    updated_at: "2026-05-12T15:58:09.022Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

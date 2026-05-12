@@ -76,6 +76,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mlops` `awesome-list` `machine-learning` `directory`
   </details>
 
+- **[awesome-mlops](https://github.com/visenger/awesome-mlops)** `⭐ 13.9k` `updated >1y` A curated list of references for MLOps (Machine Learning Operations). <details><summary>More about</summary>
+
+  Helps developers discover MLOps tools, practices, and learning resources to productionize ML systems.
+
+  _Another awesome list promising to solve MLOps while you still can't get your model to stop drifting in staging._
+
+  `awesome-list` `mlops` `curated-directory`
+  </details>
+
 - **[Open LLMs](https://github.com/eugeneyan/open-llms)** `⭐ 12.8k` `updated >1y` A curated list of open-source large language models licensed for commercial use, tracking model details like parameters, context length, and checkpoints. <details><summary>More about</summary>
 
   Developers evaluating self-hosted or commercial LLM options can quickly find models that won't trigger legal or licensing nightmares.
@@ -110,6 +119,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Yet another reminder that while we automate code generation, the most well-documented frontier is apparently turning text into bananas and Ghibli-style art._
 
   `image-generation` `gemini` `prompts` `gallery` `multimodal`
+  </details>
+
+- **[awesome-llm-resources](https://github.com/wangrongsheng/awesome-llm-resources)** `⭐ 8.3k` `updated ≤30d` awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning. <details><summary>More about</summary>
+
+  It helps developers discover and navigate the rapidly expanding LLM ecosystem through organized, community-maintained resource links.
+
+  _Another awesome list to star, never actually read, and guilt-triply ignore while building yet another RAG wrapper._
+
+  `awesome-list` `llm` `resources` `curated` `directory`
   </details>
 
 - **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)** `⭐ 6.4k` `updated ≤30d` A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources. <details><summary>More about</summary>
@@ -157,6 +175,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `directory` `ai-tools`
   </details>
 
+- **[awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)** `⭐ 4.1k` `updated ≤30d` A curated list of Model Context Protocol (MCP) servers for discovering MCP-compatible tools and integrations. <details><summary>More about</summary>
+
+  Helps developers find pre-built MCP servers to extend AI agents with capabilities like web search, file access, or financial data without building from scratch.
+
+  _Another awesome list promising to save you time, while you spend 20 minutes evaluating whether any of these servers actually work with your agent of choice._
+
+  `mcp` `directory` `discovery`
+  </details>
+
 - **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤30d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
 
   It provides developers and researchers with a structured, navigable index of specialized medical models and evaluation resources to accelerate building healthcare AI applications.
@@ -184,6 +211,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `argo` `kubernetes` `devops` `mlops` `awesome-list`
   </details>
 
+- **[Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering)** `⭐ 2.4k` `updated ≤30d` A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows. <details><summary>More about</summary>
+
+  Helps developers improve agent reliability by collecting resources on context, evaluation, orchestration, and runtime control for long-running coding and research tasks.
+
+  _Another awesome list promising to fix agent unreliability while the real harness remains a README and a prayer._
+
+  `awesome-list` `agent-reliability` `harness-engineering`
+  </details>
+
 - **[Awesome AutoDL](https://github.com/d-x-y/awesome-autodl)** `⭐ 2.3k` `updated >1y` A curated list and in-depth analysis of automated deep learning resources, covering neural architecture search, hyper-parameter optimization, and related benchmarks. <details><summary>More about</summary>
 
   It serves as a structured map for ML engineers navigating the fragmented ecosystem of AutoDL libraries, benchmarks, and research papers.
@@ -200,6 +236,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _You will spend four hours comparing the throughput of SGLang versus vLLM on this list before remembering you only came here to download a 7B model for a side project._
 
   `local-ai` `awesome-list` `inference` `self-hosted` `directory`
+  </details>
+
+- **[awesome-LangGraph](https://github.com/von-development/awesome-langgraph)** `⭐ 1.8k` `updated ≤30d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
+
+  Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
+
+  _Another awesome list to star, forget about, and rediscover three months later when you're knee-deep in agent orchestration YAML._
+
+  `awesome-list` `langgraph` `ecosystem`
   </details>
 
 - **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.7k` `updated ≤30d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
@@ -247,6 +292,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `code-llm` `benchmarks` `research`
   </details>
 
+- **[Awesome Language Agents](https://github.com/ysymyth/awesome-language-agents)** `⭐ 1.2k` `updated >1y` An awesome list compiling language agents based on the CoALA cognitive architecture framework. <details><summary>More about</summary>
+
+  Serves as a discovery resource for developers interested in language agent architectures and related research.
+
+  _Another curated list to star and forget while wondering if any of these agents will actually ship code._
+
+  `awesome-list` `language-agents` `research`
+  </details>
+
 - **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated >1y` A curated list of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating the fragmented ecosystem of AI agent development tooling.
@@ -254,6 +308,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another list to add to your list of lists, ensuring you can spend more time reading about building agents than actually building them._
 
   `awesome-list` `ai-agents` `sdk` `directory` `ecosystem`
+  </details>
+
+- **[Awesome AutoML](https://github.com/windmaple/awesome-automl)** `⭐ 929` `updated ≤90d` A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning. <details><summary>More about</summary>
+
+  Helps developers discover and navigate the AutoML ecosystem by aggregating research and tooling in one place, reducing the overhead of manual discovery.
+
+  _Another awesome list that feels useful until you realize you're now maintaining a list of lists instead of shipping code._
+
+  `automl` `awesome-list` `research`
   </details>
 
 - **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 878` `updated ≤90d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
@@ -272,6 +335,24 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Yet another exhaustive index guaranteeing you will spend three hours browsing framework comparisons instead of actually merging your pending pull request._
 
   `llm` `resources` `awesome-list` `learning`
+  </details>
+
+- **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 751` `updated ≤1y` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
+
+  Helps developers quickly identify actively maintained, popular local LLM tools for inference without manual discovery.
+
+  _Yet another awesome list that pretends star count equals engineering quality while you still have to test each tool yourself._
+
+  `awesome-list` `local-llm` `discovery`
+  </details>
+
+- **[awesome-federated-learning](https://github.com/weimingwill/awesome-federated-learning)** `⭐ 731` `updated ≤180d` A curated GitHub repository listing federated learning resources including papers, blogs, videos, and frameworks. <details><summary>More about</summary>
+
+  Helps developers discover federated learning tools and research for privacy-preserving machine learning workflows.
+
+  _Another awesome list that promises to save you time while adding yet another tab to your eternal research backlog._
+
+  `federated-learning` `awesome-list` `research`
   </details>
 
 - **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 692` `updated ≤30d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
@@ -308,6 +389,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Because nothing says 'I have a handle on the AI tooling landscape' like maintaining a list of eighty different terminal agents that all promise to refactor your repo while you stare at a blinking cursor._
 
   `cli` `coding-agents` `directory` `terminal` `awesome-list`
+  </details>
+
+- **[awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 208` `updated ≤30d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
+
+  Helps developers implement blockchain-based micropayments for AI agents and APIs with minimal code using USDC on Base.
+
+  _Another 'AI agent economy' list that makes you wonder if your toaster will soon need a crypto wallet to pay for bread._
+
+  `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
 - **[Stackwise](https://github.com/stackwiseai/stackwise)** `⭐ 184` `updated >1y` A curated, open-source collection of AI application stacks and workflows for developers. <details><summary>More about</summary>
@@ -375,6 +465,15 @@ _These are new or low-traffic entries being watched._
   _Another curated list to bookmark right before the next framework drops and renders the entire taxonomy obsolete._
 
   `agents` `directory` `frameworks` `research` `list`
+  </details>
+
+- **[awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration)** `⭐ 8` `updated ≤90d` An awesome list curating AI agent orchestration frameworks, multi-agent systems, swarm intelligence, and communication protocols like A2A and MCP. <details><summary>More about</summary>
+
+  Helps developers discover and compare agent coordination tools for building complex multi-agent AI systems.
+
+  _Another awesome list that makes you feel like you need to orchestrate a team of agents just to choose which orchestration framework to use._
+
+  `awesome-list` `agent-orchestration`
   </details>
 
 - **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 4` `updated ≤30d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>

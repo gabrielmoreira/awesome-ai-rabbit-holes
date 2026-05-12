@@ -24,33 +24,46 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 504
+    forks: 51
+    license: NOASSERTION
+    archived: false
+    created_at: "2022-11-09T05:34:44Z"
+    pushed_at: "2024-08-12T14:19:35Z"
+    description: "[ICCV 2023, Official Code] for paper \"Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives\". Official Weights and Demos provided."
+    homepage: https://vqassessment.github.io/DOVER
+    topics:
+      - aesthetic-assessment
+      - blind-video-quality-assessment
+      - disentangled-representations
+      - technical-assessment
+      - video-quality-assessment
+    last_checked_at: "2026-05-12T15:06:34.545Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:34.545Z"
+      bytes: 13674
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DOVER is a research codebase for video quality assessment that disentangles aesthetic and technical quality in user-generated content using deep learning models.
+  why_it_matters: Provides developers with pretrained models and evaluation scripts to programmatically assess video quality on UGC datasets for content filtering or metadata tagging.
+  mental_damage: Another academic research dump where you clone the repo, wrestle with dependencies, and pray the ONNX conversion script still works.
+  tags:
+    - video-quality
+    - assessment
+    - deep-learning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: DOVER is a specialized video quality assessment model from an ICCV 2023 paper, not a developer-facing AI tool for coding, agents, or workflow automation.
+  evidence:
+    - "Repo description: '[ICCV 2023, Official Code] for paper \"Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives\"'"
+    - README focuses on video quality metrics (PLCC), model weights, and evaluation on datasets like Kinetics-400 and YFCC-100M
+    - No mention of coding assistance, agents, IDE integration, or developer workflow enhancement
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (504) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +71,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:34.545Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:27:56.550Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

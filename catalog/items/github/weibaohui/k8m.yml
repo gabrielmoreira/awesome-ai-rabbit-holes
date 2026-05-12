@@ -39,17 +39,30 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 815
+    forks: 144
+    license: MIT
+    archived: false
+    created_at: "2024-10-11T01:39:31Z"
+    pushed_at: "2026-04-10T03:35:26Z"
+    description: 一款轻量级、跨平台的 Mini Kubernetes AI Dashboard，支持大模型+智能体+MCP(支持设置操作权限)，集成多集群管理、智能分析、实时异常检测等功能，支持多架构并可单文件部署，助力高效集群管理与运维优化。
+    homepage: https://github.com/weibaohui/k8m
+    topics:
+      - 2fa
+      - ai
+      - apigateway
+      - chatgpt
+      - dashboard
+      - k8s
+      - k8s-gpt
+      - mcp
+      - ollama
+      - openai
+      - openkruise
+    last_checked_at: "2026-05-12T15:06:36.476Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:36.476Z"
+      bytes: 12816
 insights:
   summary: null
   why_it_matters: null
@@ -64,8 +77,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (815) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +86,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:36.476Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:32:37.385Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__weibaohui__k8m: Invalid AI response format: SyntaxError: Unexpected token 'k', ...\"_reason\": k8m primar\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

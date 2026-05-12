@@ -23,30 +23,50 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 104
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2025-02-06T19:53:30Z"
+    pushed_at: "2026-05-11T12:24:45Z"
+    description: 🐤🐧 A declarative and highly modular Blackboard Multi Agent System  🐓 🦆
+    homepage: https://whiteducksoftware.github.io/flock/
+    topics:
+      - agent
+      - agentic-ai
+      - agents
+      - ai
+      - artificial-intelligence
+      - blackboard
+      - bmas
+      - declarative
+      - declarative-programming
+      - event-driven
+      - llm
+    last_checked_at: "2026-05-12T15:06:37.301Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.301Z"
+      bytes: 37071
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture.
+  why_it_matters: It replaces fragile prompt engineering and tight coupling with reliable, testable multi-agent coordination grounded in distributed systems patterns.
+  mental_damage: Another framework promising to solve the 'prompt hell' we created by ignoring decades of software engineering wisdom.
+  tags:
+    - agent-orchestration
+    - blackboard
+    - declarative
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Flock is a control plane for coordinating multiple agents via declarative contracts and blackboard architecture, making it a multi-agent runtime platform rather than a coding assistant or extension.
+  evidence:
+    - "Repo description: 'declarative and highly modular Blackboard Multi Agent System'"
+    - "README: 'production-focused framework for orchestrating AI agents through declarative type contracts and blackboard architecture'"
+    - "Source-list context: included in awesome-llm-agents under Frameworks section"
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -57,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.301Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:34:04.457Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

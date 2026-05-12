@@ -39,33 +39,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 188
+    forks: 21
+    license: MIT
+    archived: false
+    created_at: "2024-12-11T10:12:28Z"
+    pushed_at: "2026-03-17T22:06:05Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:27.690Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:27.690Z"
+      bytes: 11934
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing line-oriented text file editing with partial file access for LLM tool integration.
+  why_it_matters: Enables efficient, token-conscious file editing for LLM-based developer tools by loading only relevant file portions.
+  mental_damage: Yet another MCP server that turns basic file I/O into a protocol negotiation, just so your LLM can pretend it’s a sysadmin.
+  tags:
+    - mcp
+    - file-editing
+    - llm-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP-first server providing standardized text editing capabilities, making MCP its core identity rather than a compatibility feature.
+  evidence:
+    - README explicitly states it is a 'Model Context Protocol (MCP) server' providing line-oriented text file editing
+    - Designed for LLM tool integration with efficient partial file access to minimize token usage
+    - Listed in MCP-specific directories like awesome-mcp-list and awesome-mcp-servers under Developer Tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (188) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +81,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:27.690Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:15:56.062Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

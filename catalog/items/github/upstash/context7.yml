@@ -39,33 +39,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 55108
+    forks: 2616
+    license: MIT
+    archived: false
+    created_at: "2025-03-26T23:40:39Z"
+    pushed_at: "2026-05-12T14:59:47Z"
+    description: Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
+    homepage: https://context7.com
+    topics:
+      - llm
+      - mcp
+      - mcp-server
+      - vibe-coding
+    last_checked_at: "2026-05-12T15:06:29.459Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.459Z"
+      bytes: 9364
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Context7 Platform provides up-to-date code documentation and examples for LLMs and AI code editors via CLI skills or MCP server integration.
+  why_it_matters: It reduces hallucinated or outdated code generation by fetching real-time, version-specific documentation directly into the developer's AI coding workflow.
+  mental_damage: Another tool to remind your AI assistant that it still can't remember last week's API changes, so you spend more time managing context than coding.
+  tags:
+    - context-engineering
+    - mcp
+    - ai-dev-extensions
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Context7's core value is retrieving fresh, version-specific documentation to improve model context, making it a prompt and context engineering tool rather than a coding agent or mere extension.
+  evidence:
+    - "Repo description: 'Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors'"
+    - "README claims: 'Context7 pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Knowledge & Memory' and 'Official Servers' sections"
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (55108) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.460Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:20:11.415Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

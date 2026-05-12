@@ -39,33 +39,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 291
+    forks: 50
+    license: MIT
+    archived: false
+    created_at: "2024-12-02T08:15:20Z"
+    pushed_at: "2025-06-05T21:48:28Z"
+    description: MCP server for browser automation using Playwright
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:32.844Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:32.844Z"
+      bytes: 6315
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP Server Playwright is a Model Context Protocol server that enables LLMs to automate web browsers via Playwright for tasks like navigation, screenshots, and JavaScript execution.
+  why_it_matters: It lets developers extend AI assistants with real browser automation, turning LLMs into agents that can interact with live web pages without leaving the chat interface.
+  mental_damage: Now your AI assistant can not only hallucinate answers but also click buttons and fill forms on your behalf, doubling the ways it can go wrong.
+  tags:
+    - mcp
+    - browser-automation
+    - playwright
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is fundamentally an MCP server providing browser automation, making MCP the core identity rather than a mere integration feature.
+  evidence:
+    - "Repo description: 'MCP server for browser automation using Playwright'"
+    - "README: 'A Model Context Protocol server that provides browser automation capabilities using Playwright'"
+    - Listed in awesome-mcp-list under Browser Control and awesome-mcp-servers under Browser Automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (291) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +81,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:32.844Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:25:30.909Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

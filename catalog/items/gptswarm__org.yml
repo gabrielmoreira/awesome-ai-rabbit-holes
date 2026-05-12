@@ -1,0 +1,71 @@
+id: gptswarm__org
+kind: website
+name: gptswarm.org
+canonical_url: https://gptswarm.org
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gptswarm__org__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GPTSwarm
+        anchor_text: GPTSwarm
+        extracted_url: https://gptswarm.org
+        surrounding_text: "## [GPTSwarm](https://gptswarm.org/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T16:00:39.395Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for gptswarm__org: Invalid AI response format: SyntaxError: Unexpected token 'G', ...\"_reason\": GPTSwarm i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

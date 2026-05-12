@@ -1,0 +1,78 @@
+id: huggingface__co__blog__chat__templates
+kind: website
+name: chat-templates
+canonical_url: https://huggingface.co/blog/chat-templates
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__blog__chat__templates__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: Chat Templates
+        extracted_url: https://hf-mirror.com/blog/chat-templates
+        surrounding_text: 32. [Chat Templates](https://hf-mirror.com/blog/chat-templates)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Chat templates are Jinja-based formatting specifications for converting chat message histories into model-ready token strings in Hugging Face tokenizers.
+  why_it_matters: They prevent silent performance degradation by ensuring input formatting matches what chat models were trained with, eliminating a common source of hard-to-debug errors.
+  mental_damage: "Realizing your model's poor performance wasn't due to prompt engineering but because you forgot to specify whether to wrap roles in [USER] or 'User : ' is a special kind of silent despair."
+  tags:
+    - prompt-formatting
+    - tokenizers
+    - hugging-face
+    - chat-models
+  confidence: high
+curation:
+  status: included
+  reason: Chat templates are a context-shaping infrastructure that solves prompt formatting for chat models, fitting Prompt & Context Engineering rather than being a coding assistant or extension.
+  evidence:
+    - The tool saves chat format information as Jinja templates in tokenizers to convert conversation histories into correctly formatted strings
+    - It addresses silent performance degradation from mismatched chat formats between training and inference
+    - Listed in awesome-LLM-resources under '技巧 Tips' as a resource for LLM practitioners
+placement:
+  primary_category: context-engineering
+  section: Prompt Assets & Templating
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T16:00:25.153Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

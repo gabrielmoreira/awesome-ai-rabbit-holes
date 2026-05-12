@@ -24,30 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 25
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-02-20T03:05:15Z"
+    pushed_at: "2026-05-12T00:55:44Z"
+    description: "Safe DOCX suite: docx-primitives, docx-comparison, safe-docx MCP server"
+    homepage: https://safedocx.com
+    topics:
+      - gemini-cli-extension
+    last_checked_at: "2026-05-12T15:06:29.920Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.920Z"
+      bytes: 9160
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation.
+  why_it_matters: Enables coding agents to reliably edit Word documents in legal and business workflows where formatting must survive automation.
+  mental_damage: Finally, an excuse to let your AI touch the one file format you swore you’d never automate.
+  tags:
+    - docx
+    - mcp
+    - typescript
+    - word-editing
+    - agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Safe Docx is an MCP server that augments coding agents with document editing capabilities rather than acting as a standalone coding assistant.
+  evidence:
+    - README states it enables 'coding agents to do paperwork too' via MCP tool calls for .docx editing
+    - Repo description identifies it as a 'safe-docx MCP server' within a TypeScript stack
+    - Positioned as providing 'typed MCP tools for edit, compare, revision extraction' to agents like Claude Code and Gemini CLI
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.920Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:20:32.016Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

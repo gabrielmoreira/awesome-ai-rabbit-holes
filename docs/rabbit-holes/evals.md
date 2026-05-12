@@ -58,6 +58,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `dataset` `fine-tuning` `eval` `rag`
   </details>
 
+- **[RAGAS](https://github.com/vibrantlabsai/ragas)** `⭐ 13.9k` `updated ≤90d` Ragas is a Python library for evaluating LLM applications with objective metrics and test data generation. <details><summary>More about</summary>
+
+  It gives developers a programmatic, data-driven way to measure and improve LLM app quality without relying on subjective assessments.
+
+  _Finally, a way to quantify the vague guilt of shipping LLM features you can't actually verify._
+
+  `evals` `llm` `testing` `python` `framework`
+  </details>
+
 - **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 12.9k` `updated ≤30d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
 
   It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select models based on their ability to interact with external tools and APIs.
@@ -202,7 +211,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evals` `observability` `agent-testing` `prompt-ops` `llmops`
   </details>
 
-- **[prompttools](https://github.com/hegelai/prompttools)** `⭐ 3k` `updated ≤90d` An open-source Python library and local playground for programmatically experimenting with, testing, and evaluating prompts, LLMs, and vector databases across multiple providers. <details><summary>More about</summary>
+- **[prompttools](https://github.com/hegelai/prompttools)** `⭐ 3k` `updated ≤180d` An open-source Python library and local playground for programmatically experimenting with, testing, and evaluating prompts, LLMs, and vector databases across multiple providers. <details><summary>More about</summary>
 
   It lets developers run structured prompt experiments and compare model outputs using code and notebooks instead of manually clicking through disjointed chat UIs.
 
@@ -218,6 +227,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _You can now formally prove that your agent has been confidently failing in production for three weeks, which is significantly more insightful than simply wondering why the dashboard is quiet._
 
   `observability` `evals` `llmops` `tracing` `self-hosted`
+  </details>
+
+- **[whylogs](https://github.com/whylabs/whylogs)** `⭐ 2.8k` `updated >1y` whylogs is an open-source data logging library that generates statistical profiles of datasets to monitor data quality and model performance over time. <details><summary>More about</summary>
+
+  It helps developers detect data drift, validate pipelines, and maintain ML observability by turning raw data into actionable summaries and constraints.
+
+  _Another layer of observability to add to your ML stack, because clearly your models weren't already failing in enough mysterious ways._
+
+  `data-quality` `mlops` `observability`
   </details>
 
 - **[EvalScope (`🔥`)](https://github.com/modelscope/evalscope)** `⭐ 2.8k` `updated ≤30d` EvalScope is a framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing. <details><summary>More about</summary>
@@ -274,6 +292,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `hallucination-detection` `uncertainty-quantification` `python-library` `ai-safety`
   </details>
 
+- **[GuideLLM](https://github.com/vllm-project/guidellm)** `⭐ 1.1k` `updated ≤30d` GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers. <details><summary>More about</summary>
+
+  It gives engineering teams SLO-aware, reproducible metrics to optimize deployments and avoid guesswork in production LLM serving.
+
+  _Another layer of observability for the ever-growing stack of tools needed just to serve a model without melting your GPU cluster._
+
+  `benchmarking` `llm-inference` `observability`
+  </details>
+
 - **[Auto-evaluator](https://github.com/rlancemartin/auto-evaluator)** `⭐ 1.1k` `updated >1y` A lightweight Streamlit evaluation tool that auto-generates QA pairs from documents and scores LLM question-answering chains across various retrieval and prompt configurations. <details><summary>More about</summary>
 
   It gives developers a quick, UI-driven way to measure and compare how different retrieval and prompting setups affect QA accuracy before shipping a LangChain pipeline.
@@ -281,6 +308,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Because nothing says confidence in your retrieval stack like outsourcing the grading of your AI’s answers to another AI and calling it a dashboard._
 
   `evals` `langchain` `qa` `streamlit`
+  </details>
+
+- **[LangKit](https://github.com/whylabs/langkit)** `⭐ 985` `updated >1y` LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess quality, security, and sentiment. <details><summary>More about</summary>
+
+  It gives developers observability into LLM behavior in production, helping detect issues like prompt injection or hallucinations before they cause harm.
+
+  _Finally, a way to quantify the existential dread of deploying non-deterministic text generators into critical systems._
+
+  `llm-observability` `ai-safety` `mlops`
   </details>
 
 - **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** `⭐ 963` `updated ≤180d` A CLI security scanner that analyzes agentic workflows to visualize their structure, identify tools and MCP servers, and map components to known LLM vulnerabilities like the OWASP Top 10. <details><summary>More about</summary>
@@ -645,6 +681,15 @@ _These are new or low-traffic entries being watched._
   _Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched together weren't quite enough to explain why your agent suddenly forgot how to reply._
 
   `observability` `evals` `prompt-ops` `llm-gateway` `agent-monitoring`
+  </details>
+
+- **[Keywords AI](https://www.respan.ai)** Respan is a unified LLM engineering platform offering observability, evaluations, prompt optimization, deployment, and monitoring for AI agents. <details><summary>More about</summary>
+
+  It gives developers end-to-end visibility and control over AI agent behavior in production, reducing debugging time and improving reliability.
+
+  _Another observability dashboard to add to the stack, promising to finally make sense of LLM chaos—until the next tool arrives._
+
+  `observability` `evals` `llmops` `monitoring` `prompt-optimization`
   </details>
 
 - **[Literal AI](https://literalai.com)** LiteralAI is a platform for building, evaluating, and monitoring LLM-powered applications, focused on the LLMOps lifecycle. <details><summary>More about</summary>

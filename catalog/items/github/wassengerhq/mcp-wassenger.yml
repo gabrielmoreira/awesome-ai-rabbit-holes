@@ -23,17 +23,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-06-24T10:12:21Z"
+    pushed_at: "2025-06-26T11:33:46Z"
+    description: "MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate anything on WhatsApp using text or voice from your favorite AI client like ChatGPT, Claude, Gemini, OpenAI and more  🎉"
+    homepage: https://wassenger.com
+    topics:
+      - chatbot
+      - chatgpt
+      - claude
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - whastsapp
+      - whatsapp-api
+      - whatsapp-bot
+    last_checked_at: "2026-05-12T15:06:35.525Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.525Z"
+      bytes: 29151
 insights:
   summary: null
   why_it_matters: null
@@ -57,13 +68,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.525Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:30:06.598Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__wassengerhq__mcp-wassenger: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

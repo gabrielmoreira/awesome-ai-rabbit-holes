@@ -40,15 +40,21 @@ metadata:
       fetched_at: "2026-05-06T22:45:35.177Z"
       bytes: 9938
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: NVIDIA's Megatron-LM is a research codebase for training large transformer models at scale using model and pipeline parallelism.
+  why_it_matters: Provides scalable training infrastructure for developers building or experimenting with large language models.
+  mental_damage: Lets you feel like you're training GPT-4 while actually waiting weeks for a 1B parameter model to converge on 8 GPUs.
+  tags:
+    - llm
+    - training
+    - distributed
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Megatron-LM is a research-focused model training library, not a developer-facing AI tool for coding, agents, or workflow enhancement.
+  evidence:
+    - "Repo description: 'Ongoing research training transformer models at scale'"
+    - Primary use is model training research, not developer tooling or AI-assisted development
+    - Listed in awesome-local-ai under 'Training' section, indicating ML research focus
 placement:
   primary_category: null
   section: null
@@ -67,12 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:17:53.457Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__nvidia__megatron-lm: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:56:03.655Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

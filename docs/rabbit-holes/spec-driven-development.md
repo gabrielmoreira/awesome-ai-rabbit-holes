@@ -130,6 +130,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
   </details>
 
+- **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 296` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
+
+  It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on natural-language specs, skipping manual coding.
+
+  _It highlights the absurdity of trading readable, version-controlled code for brittle, slow, and opaque AI-generated output that requires re-prompting to fix._
+
+  `spec-driven` `code-generation` `proof-of-concept`
+  </details>
+
 - **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 238` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.

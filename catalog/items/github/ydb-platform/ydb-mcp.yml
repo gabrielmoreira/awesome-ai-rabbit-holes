@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 25
+    forks: 7
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-24T05:56:50Z"
+    pushed_at: "2026-03-27T11:01:39Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:42.020Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:42.020Z"
+      bytes: 11044
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: YDB MCP is a Model Context Protocol server that enables LLMs to interact with YDB databases via SQL query and introspection tools.
+  why_it_matters: It lets developers use natural language to query and inspect YDB databases from any MCP-compatible LLM client, reducing context-switching during development.
+  mental_damage: Yet another MCP server for yet another database, adding to the growing pile of protocol adapters we’ll need to remember exist.
+  tags:
+    - mcp
+    - ydb
+    - database
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: YDB MCP is an MCP server whose primary identity is providing MCP infrastructure for YDB, fitting the MCP Servers & Tooling category as a domain-specific server implementation.
+  evidence:
+    - The README explicitly states it is a 'Model Context Protocol server for YDB' that enables LLMs to work with YDB databases
+    - It provides MCP-compliant tools like ydb_query, ydb_describe_path, and ydb_status for database interaction
+    - It is listed in the awesome-mcp-servers directory under Server Implementations > Databases, confirming its role as an MCP server
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:42.020Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:44:15.311Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,33 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11061
+    forks: 868
+    license: MIT
+    archived: false
+    created_at: "2017-03-24T05:46:23Z"
+    pushed_at: "2026-05-12T00:23:43Z"
+    description: The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.
+    homepage: https://wandb.ai
+    topics:
+      - ai
+      - collaboration
+      - data-science
+      - data-versioning
+      - deep-learning
+      - experiment-track
+      - hyperparameter-optimization
+      - hyperparameter-search
+      - hyperparameter-tuning
+      - jax
+      - keras
+      - machine-learning
+      - ml-platform
+      - mlops
+      - model-versioning
+      - pytorch
+      - reinforcement-learning
+      - reproducibility
+      - tensorflow
+    last_checked_at: "2026-05-12T15:06:35.277Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.277Z"
+      bytes: 6480
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Weights & Biases is an AI developer platform for tracking, visualizing, and managing machine learning experiments from training to production.
+  why_it_matters: It gives developers end-to-end observability and reproducibility for ML workflows, reducing guesswork in model tuning and deployment.
+  mental_damage: Using W&B feels like installing a flight recorder on your model—now you can finally blame the hyperparameters instead of yourself.
+  tags:
+    - mlops
+    - experiment-tracking
+    - model-management
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: While widely used in ML development, wandb is primarily an ML observability and experiment tracking platform—not a developer-facing AI coding tool, agent, or workflow enhancer as defined by the catalog scope.
+  evidence:
+    - "Repo description: 'The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.'"
+    - README focuses on experiment tracking, model management, and ML pipeline visualization, not code generation, editing, or AI-assisted development.
+    - "Seen in source list: Awesome-LLMOps under Training > Experiment Tracking, confirming its ML infrastructure role."
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11061) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.277Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:29:52.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

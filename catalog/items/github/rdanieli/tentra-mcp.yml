@@ -53,18 +53,24 @@ metadata:
       fetched_at: "2026-05-06T22:46:07.326Z"
       bytes: 7321
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Tentra MCP is a memory server providing persistent code graphs and AI architecture diagrams via 32 MCP tools for AI coding agents.
+  why_it_matters: It gives coding agents long-term structural memory of codebases, reducing context loss and improving agent reasoning across sessions.
+  mental_damage: Another layer to bolt onto your agent stack so your AI can finally remember what it broke five minutes ago.
+  tags:
+    - mcp
+    - memory
+    - code-graph
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Tentra MCP is an MCP server offering memory and code graph capabilities as its core product, making it MCP infrastructure rather than an extension or agent.
+  evidence:
+    - "Repo description: 'Tentra MCP — memory for AI coding agents. Persistent code graph + AI architecture diagrams. 32 MCP tools.'"
+    - Lists MCP, model-context-protocol, and persistent-context as topics.
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Architecture & Design."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -80,12 +86,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:25:02.421Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__rdanieli__tentra-mcp: Invalid AI response format: Error: No JSON found in AI response"
+    status: done
+    updated_at: "2026-05-12T15:57:11.889Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

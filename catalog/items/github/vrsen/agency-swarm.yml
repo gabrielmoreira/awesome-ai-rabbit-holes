@@ -24,17 +24,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4362
+    forks: 1046
+    license: MIT
+    archived: false
+    created_at: "2023-11-16T02:29:26Z"
+    pushed_at: "2026-05-11T03:26:35Z"
+    description: Reliable Multi-Agent Orchestration Framework
+    homepage: https://agency-swarm.ai/
+    topics: []
+    last_checked_at: "2026-05-12T15:06:34.562Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:34.562Z"
+      bytes: 10796
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +51,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (4362) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +60,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:34.562Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:28:07.126Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__vrsen__agency-swarm: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Agency Swa\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

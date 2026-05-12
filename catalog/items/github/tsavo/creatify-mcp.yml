@@ -23,30 +23,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21
+    forks: 4
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-05-26T04:50:01Z"
+    pushed_at: "2025-05-26T07:37:55Z"
+    description: "🎬 Enterprise-grade MCP Server for Creatify AI - 12 tools for AI video generation: avatar videos, URL-to-video, AI shorts, custom avatars, script generation, advanced lip-sync with emotion control. Complete API coverage with semantic versioning."
+    homepage: https://www.npmjs.com/package/@tsavo/creatify-mcp
+    topics: []
+    last_checked_at: "2026-05-12T15:06:26.895Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.895Z"
+      bytes: 21043
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Creatify AI's video generation capabilities to AI assistants and automation platforms.
+  why_it_matters: It allows developers to integrate complex video creation workflows, such as avatar generation and lip-syncing, directly into agentic workflows using the Model Context Protocol.
+  mental_damage: Because your AI agent's list of specialized external tools was clearly getting too short.
+  tags:
+    - mcp
+    - video-generation
+    - automation
+    - agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server that provides domain-specific tools (video generation) to a host assistant.
+  evidence:
+    - Explicitly described as an MCP server for Creatify AI
+    - Provides 12 tools for video, script, and avatar generation
+    - Enables interaction with video workflows via MCP-compatible assistants like Claude Desktop
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -57,15 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:56.909Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for tsavo/creatify-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.895Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:14:05.606Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

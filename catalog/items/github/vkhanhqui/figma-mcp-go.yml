@@ -24,33 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 838
+    forks: 150
+    license: MIT
+    archived: false
+    created_at: "2026-03-26T11:06:26Z"
+    pushed_at: "2026-04-30T16:35:32Z"
+    description: Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code
+    homepage: ""
+    topics:
+      - agent
+      - ai
+      - automation
+      - design
+      - figma
+      - figma-plugin
+      - mcp
+    last_checked_at: "2026-05-12T15:06:33.785Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:33.785Z"
+      bytes: 10959
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits.
+  why_it_matters: It lets developers use AI assistants like Claude Code or Cursor to directly read and manipulate Figma files and generate code from designs, bypassing API limitations that hinder experimentation.
+  mental_damage: Finally, a way to make your AI pair programmer feel useful while it redesigns your entire UI system in the time it takes to explain what a 'variant' is.
+  tags:
+    - figma
+    - mcp
+    - design-to-code
+    - ai-dev-extensions
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: figma-mcp-go primarily extends existing AI coding assistants with Figma host capabilities rather than acting as a standalone coding assistant, making it an extension/integration.
+  evidence:
+    - README states it works with Cursor, Claude, GitHub Copilot, and any MCP-compatible AI tool as an add-on
+    - Repo description positions it as 'Figma MCP for free users' focused on read/write access via plugin bridge
+    - Installation shows it being added as an MCP server to existing tools like Claude Code and Cursor
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (838) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:33.785Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:27:19.903Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

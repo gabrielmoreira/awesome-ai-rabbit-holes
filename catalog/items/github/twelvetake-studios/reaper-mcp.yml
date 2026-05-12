@@ -24,30 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 15
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2025-12-11T14:22:29Z"
+    pushed_at: "2025-12-14T17:42:29Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:28.152Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:28.152Z"
+      bytes: 15469
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets AI assistants control REAPER DAW for music production workflows via Lua bridge and file-based communication.
+  why_it_matters: Enables developers who are also music producers to automate DAW tasks through AI, bridging coding assistants with audio production tools.
+  mental_damage: Finally, an AI that can sidechain your kick to your bass while you pretend to be productive in your IDE.
+  tags:
+    - mcp
+    - audio
+    - reaper
+    - music-production
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP-first server designed specifically to expose REAPER DAW functionality to AI assistants, making MCP its core identity rather than a compatibility layer.
+  evidence:
+    - README describes it as 'a comprehensive Model Context Protocol (MCP) server that enables AI assistants to control REAPER DAW'
+    - Installation and usage instructions center around configuring an MCP server for AI assistant integration
+    - Listed in 'awesome-mcp-servers' under Server Implementations > Art & Culture as an MCP server
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:28.152Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:17:00.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

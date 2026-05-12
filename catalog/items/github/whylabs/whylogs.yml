@@ -24,33 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2819
+    forks: 140
+    license: Apache-2.0
+    archived: false
+    created_at: "2020-08-14T23:25:32Z"
+    pushed_at: "2025-01-10T20:14:49Z"
+    description: An open-source data logging library for machine learning models and data pipelines. 📚 Provides visibility into data quality & model performance over time. 🛡️ Supports privacy-preserving data collection, ensuring safety & robustness. 📈
+    homepage: https://whylogs.readthedocs.io/
+    topics:
+      - ai-pipelines
+      - analytics
+      - approximate-statistics
+      - calculate-statistics
+      - constraints
+      - data-constraints
+      - data-pipeline
+      - data-quality
+      - data-science
+      - dataops
+      - dataset
+      - logging
+      - machine-learning
+      - ml-pipelines
+      - mlops
+      - model-performance
+      - python
+      - statistical-properties
+    last_checked_at: "2026-05-12T15:06:37.510Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.510Z"
+      bytes: 17611
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: whylogs is an open-source data logging library that generates statistical profiles of datasets to monitor data quality and model performance over time.
+  why_it_matters: It helps developers detect data drift, validate pipelines, and maintain ML observability by turning raw data into actionable summaries and constraints.
+  mental_damage: Another layer of observability to add to your ML stack, because clearly your models weren't already failing in enough mysterious ways.
+  tags:
+    - data-quality
+    - mlops
+    - observability
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: whylogs fits best in Evals & Benchmarks as it provides data profiling and monitoring tools for measuring and validating data quality and model behavior over time, which aligns with observability and evaluation use cases in ML workflows.
+  evidence:
+    - "Repo description: 'An open-source data logging library for machine learning models and data pipelines. Provides visibility into data quality & model performance over time.'"
+    - "README: 'Generate summaries of their datasets (called whylogs profiles) which they can use to: Track changes in their dataset, Create data constraints, Visualize key summary statistics'"
+    - "Source-list context: Included in Awesome-LLMOps under Security > Observability"
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2819) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +84,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.510Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:34:45.723Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,30 +24,54 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T15:18:41Z"
+    pushed_at: "2026-05-07T23:51:17Z"
+    description: Official integrations for SnapRender Screenshot API — MCP server, SDKs, OpenClaw, ChatGPT Actions, Postman
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-agent
+      - autogen
+      - autogen-extension
+      - crewai
+      - crewai-tool
+      - langchain
+      - langchain-tool
+      - llm-tool
+      - mcp
+      - mcp-server
+      - n8n
+      - n8n-community
+      - n8n-nodes
+      - screenshot-api
+      - snaprender
+    last_checked_at: "2026-05-12T15:06:29.809Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.809Z"
+      bytes: 7224
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SnapRender Integrations provides MCP servers, SDKs, and agent framework plugins for the SnapRender Screenshot API.
+  why_it_matters: Developers can programmatically capture and cache website screenshots from AI agents and workflows using standard MCP and SDK interfaces.
+  mental_damage: Yet another screenshot API wrapped in MCP tooling so your AI agent can finally see the cookie banner it’s supposed to block.
+  tags:
+    - mcp
+    - sdk
+    - screenshot-api
+    - agent-integrations
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project’s core value is providing integrations (MCP server, SDKs, framework plugins) that extend existing agents and tools with screenshot capabilities, rather than being a standalone coding agent or app builder.
+  evidence:
+    - "Repo description: 'Official integrations for SnapRender Screenshot API — MCP server, SDKs, OpenClaw, ChatGPT Actions, Postman'"
+    - README details MCP server (remote/local), SDKs, and integrations for LangChain, CrewAI, AutoGen, n8n, OpenClaw, ChatGPT, and Postman
+    - Source-list appearance in awesome-mcp-servers under Server Implementations > Browser Automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.809Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:21:17.427Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

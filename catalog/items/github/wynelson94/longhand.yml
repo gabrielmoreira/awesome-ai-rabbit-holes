@@ -24,30 +24,51 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-04-09T21:36:53Z"
+    pushed_at: "2026-05-07T03:04:09Z"
+    description: Lossless local memory for Claude Code. The full, unabbreviated version. Every tool call, every file edit, every thinking block — stored verbatim on your machine. Persistent memory without tokens.
+    homepage: https://glama.ai/mcp/servers/Wynelson94/longhand
+    topics:
+      - ai-memory
+      - anthropic
+      - chromadb
+      - claude-code
+      - forensic
+      - local-first
+      - lossless
+      - mcp
+      - mcp-server
+      - python
+      - recall
+      - sqlite
+    last_checked_at: "2026-05-12T15:06:39.591Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:39.591Z"
+      bytes: 31729
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Lossless local memory for Claude Code that stores every tool call, file edit, and thinking block verbatim in SQLite for searchable recall.
+  why_it_matters: It prevents Claude Code's automatic session rotation from erasing developer history, enabling instant retrieval of past decisions and code changes without API calls.
+  mental_damage: Another tool to install just to remember what your AI assistant forgot, because apparently persistence is now a premium feature.
+  tags:
+    - claude-code
+    - local-memory
+    - mcp-server
+    - sqlite
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Longhand is an MCP server that augments Claude Code with persistent local memory rather than acting as a standalone coding assistant, making it an extension focused on memory and context add-ons.
+  evidence:
+    - "Repo description: 'Lossless local memory for Claude Code'"
+    - "README: 'Persistent local memory for Claude Code. Every tool call, every file edit, every thinking block from every Claude Code session — stored verbatim on your machine.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Memory & Context Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:39.591Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:39:05.712Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -1,0 +1,75 @@
+id: www__youtube__com__undefined
+kind: website
+name: undefined
+canonical_url: https://www.youtube.com/undefined
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__youtube__com__undefined__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Tutorials
+        anchor_text: Setup Claude Desktop App to Use a SQLite Database
+        extracted_url: https://youtu.be/wxCCzo9dGj0
+        surrounding_text: "* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: YouTube is a video-sharing platform for watching, uploading, and sharing videos.
+  why_it_matters: It provides educational and tutorial content that developers may use to learn about AI tools, but it is not a developer-facing tool itself.
+  mental_damage: Another reminder that algorithmic recommendations will keep serving you 'Build an AI Agent in 5 Minutes' videos long after you've closed the tab.
+  tags:
+    - video
+    - platform
+    - media
+  confidence: high
+curation:
+  status: excluded
+  reason: YouTube is a general-purpose video platform with no developer-tool identity; its inclusion in awesome-mcp-servers appears to be an error or placeholder.
+  evidence:
+    - "Scraped site description: 'Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.'"
+    - "Source-list context: listed in awesome-mcp-servers under Tutorials, but the linked page is YouTube's homepage, not an MCP server or tool."
+    - No evidence of MCP integration, developer tooling, or AI-assisted workflow functionality.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T16:02:11.656Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

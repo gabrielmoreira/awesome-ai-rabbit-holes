@@ -23,33 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 993
+    forks: 150
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-03-06T03:31:14Z"
+    pushed_at: "2026-03-19T06:37:52Z"
+    description: LabClaw – Operating Layer for LabOS (Stanford-Princeton AI Co-Scientists)
+    homepage: https://labclaw-ai.github.io/
+    topics: []
+    last_checked_at: "2026-05-12T15:06:39.209Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:39.209Z"
+      bytes: 54984
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows.
+  why_it_matters: It provides reusable, domain-scoped agent skills that reduce prompt engineering overhead for developers building AI-assisted scientific research tools.
+  mental_damage: Finally, a skill library so niche it makes you wonder if your agent needs a PhD to pipette correctly.
+  tags:
+    - agent-skills
+    - biomedical
+    - science
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: LabClaw is a curated collection of reusable skill packs for AI agents, matching the core definition of the skills category as a portable skill library rather than an assistant, framework, or orchestrator.
+  evidence:
+    - LabClaw packages 240 production-ready SKILL.md files for biomedical AI workflows
+    - Each skill teaches an OpenClaw-compatible agent when to use a tool, how to call it, and what output to produce
+    - The collection is designed as a modular skill library for researchers to cherry-pick relevant subfolders
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Packs & Libraries
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (993) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:39.210Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:38:22.383Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

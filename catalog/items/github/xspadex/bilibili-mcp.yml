@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 14
+    forks: 4
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    archived: false
+    created_at: "2025-04-23T03:13:48Z"
+    pushed_at: "2025-04-23T03:13:56Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:40.814Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:40.814Z"
+      bytes: 1823
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: bilibili-mcp is an MCP server that fetches Bilibili trending video data via httpx and FastMCP for use with MCP clients like Cursor.
+  why_it_matters: It lets developers pull real-time Bilibili hot list data into their MCP-enabled workflows without leaving their coding environment.
+  mental_damage: Another niche MCP server that turns a public API into a tool call, because we clearly needed yet another way to watch trending videos while pretending to work.
+  tags:
+    - mcp
+    - bilibili
+    - data-fetching
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server whose core identity is providing a standardized tool interface for Bilibili trending data, fitting the MCP Servers & Tooling category as a domain-specific MCP server.
+  evidence:
+    - README describes it as '一个用于获取 B 站热榜的 MCP 工具' (an MCP tool for getting Bilibili hot list)
+    - It uses FastMCP to register a standard MCP tool named `get_popular` that returns video data
+    - Listed in awesome-mcp-servers under 'Browser Automation' as an MCP server implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:40.814Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:42:16.514Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

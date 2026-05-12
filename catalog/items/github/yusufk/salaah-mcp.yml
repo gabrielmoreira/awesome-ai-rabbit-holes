@@ -23,17 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 3
+    forks: 2
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-06-01T07:29:36Z"
+    pushed_at: "2025-06-04T16:42:16Z"
+    description: "A FastAPI and MCP service providing Islamic prayer times calculations "
+    homepage: https://salaah-mcp.fly.dev/mcp
+    topics:
+      - mcp-server
+      - prayer-times
+    last_checked_at: "2026-05-12T15:06:44.148Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:44.148Z"
+      bytes: 4723
 insights:
   summary: null
   why_it_matters: null
@@ -57,13 +61,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:44.148Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:48:01.053Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__yusufk__salaah-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

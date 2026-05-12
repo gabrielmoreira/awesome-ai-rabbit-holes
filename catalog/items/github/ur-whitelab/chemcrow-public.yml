@@ -23,33 +23,42 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 908
+    forks: 142
+    license: MIT
+    archived: false
+    created_at: "2023-06-04T15:59:05Z"
+    pushed_at: "2024-12-19T17:47:04Z"
+    description: Chemcrow
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:29.555Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.555Z"
+      bytes: 3375
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Chemcrow is an open-source Python package that uses LangChain and chemistry tools like RDKit and PubChem to solve reasoning-intensive chemical tasks via an LLM agent.
+  why_it_matters: It gives developers a ready-made agent framework for chemistry-specific reasoning, reducing the need to build custom tooling for molecular property prediction or reaction planning.
+  mental_damage: Another niche LLM wrapper that makes you wonder if your weekend project needs a PubChem API key just to feel relevant.
+  tags:
+    - chemistry
+    - llm-agent
+    - langchain
+    - domain-specific
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Chemcrow is a domain-specific agent for chemistry tasks, not a general-purpose developer tool; it does not assist with coding, software workflows, or developer-facing AI infrastructure.
+  evidence:
+    - "Repo description: 'Chemcrow'"
+    - "README: 'ChemCrow is an open source package for the accurate solution of reasoning-intensive chemical tasks'"
+    - "Usage example: focuses on molecular weight and reaction prediction via LLMs and chemistry tools"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (908) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.555Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:20:10.209Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

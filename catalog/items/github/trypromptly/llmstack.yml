@@ -54,33 +54,54 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2296
+    forks: 345
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-08-06T00:39:25Z"
+    pushed_at: "2024-12-11T19:59:51Z"
+    description: No-code multi-agent framework to build LLM Agents, workflows and applications with your data
+    homepage: https://llmstack.trypromptly.com
+    topics:
+      - agents
+      - ai
+      - ai-agents-framework
+      - generative-ai
+      - llm-agents
+      - llm-chain
+      - llm-framework
+      - llmops
+      - llms
+      - no-code-ai
+      - platform
+    last_checked_at: "2026-05-12T15:06:26.861Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.861Z"
+      bytes: 7961
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A no-code platform for building, deploying, and managing multi-agent workflows and generative AI applications with integrated data retrieval.
+  why_it_matters: It provides a managed control plane for orchestrating complex agentic chains and RAG pipelines without requiring manual implementation of the underlying infrastructure.
+  mental_damage: Another abstraction layer to master in the increasingly crowded race to replace the actual logic we used to write.
+  tags:
+    - agents
+    - no-code
+    - orchestration
+    - multi-agent
+    - rag
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as an operated workbench and control plane for multi-agent coordination, offering a no-code builder and multi-tenant deployment capabilities.
+  evidence:
+    - README defines it as a no-code platform for building generative AI agents and workflows.
+    - Supports multi-model chaining and connecting agents to internal data and business processes.
+    - Includes deployment options for cloud or on-premise, indicating a platform/control plane identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2296) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -88,15 +109,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:56.915Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for trypromptly/llmstack
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.861Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:13:41.651Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

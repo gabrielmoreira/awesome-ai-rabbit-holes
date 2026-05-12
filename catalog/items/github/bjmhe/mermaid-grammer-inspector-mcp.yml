@@ -1,0 +1,84 @@
+id: github__bjmhe__mermaid-grammer-inspector-mcp
+kind: github-repo
+name: mermaid-grammer-inspector-mcp
+canonical_url: https://github.com/bjmhe/mermaid-grammer-inspector-mcp
+identity:
+  github_repo: bjmhe/mermaid-grammer-inspector-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bjmhe__mermaid-grammer-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📐 <a name="architecture-and-design"></a>Architecture & Design
+        anchor_text: betterhyq/mermaid-grammer-inspector-mcp
+        extracted_url: https://github.com/betterhyq/mermaid_grammer_inspector_mcp
+        surrounding_text: "- [betterhyq/mermaid-grammer-inspector-mcp](https://github.com/betterhyq/mermaid_grammer_inspector_mcp) 📇 🏠 🍎 🪟 🐧 - A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities"
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-12-09T13:19:02Z"
+    pushed_at: "2026-05-12T02:25:42Z"
+    description: A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
+    homepage: ""
+    topics:
+      - agent
+      - ai
+      - mcp
+    last_checked_at: "2026-05-12T15:06:21.178Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:21.178Z"
+      bytes: 2665
+insights:
+  summary: An MCP server that validates Mermaid diagram syntax and provides grammar checking capabilities.
+  why_it_matters: It helps developers ensure Mermaid diagrams in documentation or design files are syntactically correct before inclusion in codebases or wikis.
+  mental_damage: Another specialized MCP server that does one narrow thing well, adding to the growing pile of single-purpose protocol tools we’ll forget to install.
+  tags:
+    - mermaid
+    - mcp
+    - diagrams
+    - validation
+  confidence: medium
+curation:
+  status: included
+  reason: The product’s core identity is an MCP server providing domain-specific validation, making MCP Servers & Tooling the best fit over extensions or agents since MCP is the primary adopted thing, not a compatibility feature.
+  evidence:
+    - "Repo description: 'A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities'"
+    - "README: Explicitly states it is an MCP server with usage examples for Cursor via stdio and HTTP/SSE transport"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Architecture & Design"
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-12T15:06:21.178Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:58:48.441Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

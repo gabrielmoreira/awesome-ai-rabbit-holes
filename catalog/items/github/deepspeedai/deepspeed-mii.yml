@@ -41,15 +41,23 @@ metadata:
       fetched_at: "2026-05-06T22:43:36.460Z"
       bytes: 20477
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MII is a DeepSpeed-powered inference engine for low-latency, high-throughput model serving.
+  why_it_matters: It lets developers deploy large language models in production with optimized throughput and latency without rewriting serving infrastructure.
+  mental_damage: Another serving stack promising to solve inference woes while you quietly wonder if quantization and batch size tuning were ever really the bottleneck.
+  tags:
+    - inference
+    - serving
+    - deepspeed
+    - llm
+    - optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: deepspeed-mii is a model serving and inference optimization library, not a developer-facing AI tool for coding, agents, or workflows; it belongs in ML infrastructure, not AI-assisted development.
+  evidence:
+    - "Repo description: 'MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.'"
+    - "Topics: deep-learning, inference, pytorch — indicates ML infrastructure focus."
+    - Listed in Awesome-LLMOps under Serving > Large Model Serving, confirming its domain as model serving tooling.
 placement:
   primary_category: null
   section: null
@@ -68,12 +76,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T22:52:23.363Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__deepspeedai__deepspeed-mii: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:53:26.471Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

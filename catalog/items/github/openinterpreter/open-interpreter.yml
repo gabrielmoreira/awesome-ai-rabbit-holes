@@ -67,6 +67,21 @@ provenance:
         extracted_url: https://github.com/openinterpreter/open-interpreter
         surrounding_text: "15. [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter): A natural language interface for computers."
         confidence: high
+    - id: discovery__github__openinterpreter__open-interpreter__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - Open Interpreter
+        anchor_text: Open Interpreter
+        extracted_url: https://openinterpreter.com
+        surrounding_text: "## [Open Interpreter](https://openinterpreter.com/)"
+        confidence: high
 metadata:
   github:
     stars: 63409
@@ -115,7 +130,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.575Z"
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:

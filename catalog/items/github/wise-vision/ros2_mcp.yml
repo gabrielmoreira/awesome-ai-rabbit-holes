@@ -24,30 +24,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 76
+    forks: 11
+    license: MPL-2.0
+    archived: false
+    created_at: "2025-04-14T08:47:41Z"
+    pushed_at: "2026-05-08T12:04:22Z"
+    description: Advanced MCP Server ROS 2 bridging AI agents straight into robotics
+    homepage: https://www.wisevision.tech/
+    topics:
+      - ai
+      - mcp
+      - mcp-server
+      - mcp-server-ros2
+      - ros2
+      - ros2-mcp-server
+    last_checked_at: "2026-05-12T15:06:38.044Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:38.044Z"
+      bytes: 11453
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ROS2 MCP Server is a Python implementation of the Model Context Protocol that enables AI tooling to interact with ROS 2 nodes, topics, and services via stdio transport.
+  why_it_matters: It lets developers control robots, analyze sensor data, and debug ROS 2 systems using natural language through AI assistants, reducing manual command-line overhead.
+  mental_damage: Finally, a way to yell 'make the robot stop spinning' at your AI instead of memorizing ros2 topic commands.
+  tags:
+    - mcp
+    - ros2
+    - robotics
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server whose core identity is providing ROS 2 access via the Model Context Protocol, making MCP the primary product rather than an extension or agent.
+  evidence:
+    - "Repo description: 'Advanced MCP Server ROS 2 bridging AI agents straight into robotics'"
+    - "README: 'A Python implementation of the Model Context Protocol (MCP) for ROS 2'"
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +73,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:38.044Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:35:32.200Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

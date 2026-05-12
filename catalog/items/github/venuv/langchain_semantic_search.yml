@@ -24,27 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 44
+    forks: 8
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2023-02-07T06:43:55Z"
+    pushed_at: "2023-02-07T11:42:25Z"
+    description: Search and indexing your own Google Drive Files using GPT3, LangChain, and Python
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:31.070Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:31.070Z"
+      bytes: 1299
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Jupyter notebook that uses LangChain and GPT-3 to create a FAISS index for semantic search over personal Google Drive files.
+  why_it_matters: Enables developers to semantically search their own document collections using LLMs without building infrastructure from scratch.
+  mental_damage: Yet another notebook demo that makes you feel productive until you realize it's just wrapping two APIs in a local index.
+  tags:
+    - langchain
+    - semantic-search
+    - notebook
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is an educational notebook demo with no reusable tooling, CLI, or production-ready artifact, making it a learning resource rather than developer tooling.
+  evidence:
+    - Repo description frames it as a Jupyter notebook for searching Google Drive with LangChain and GPT-3
+    - README centers on a single notebook (langchain_semantic_search.ipynb) and setup instructions for a personal test drive
+    - No evidence of reusable code, packaging, CLI, or library; activity ceased in February 2023 with no updates since
 placement:
   primary_category: null
   section: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:31.070Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:23:21.769Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

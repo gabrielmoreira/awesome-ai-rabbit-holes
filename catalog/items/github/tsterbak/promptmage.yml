@@ -23,17 +23,25 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 115
+    forks: 8
+    license: MIT
+    archived: false
+    created_at: "2024-04-11T17:17:30Z"
+    pushed_at: "2024-10-21T14:33:44Z"
+    description: simplifies the process of creating and managing LLM workflows.
+    homepage: https://promptmage.io
+    topics:
+      - ai
+      - llm
+      - nlp-library
+      - nlp-machine-learning
+      - prompt-engineering
+      - prompt-toolkit
+    last_checked_at: "2026-05-12T15:06:27.289Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:27.289Z"
+      bytes: 5974
 insights:
   summary: null
   why_it_matters: null
@@ -57,15 +65,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:57.582Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for tsterbak/promptmage
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:27.289Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:14:33.749Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__tsterbak__promptmage: Invalid AI response format: SyntaxError: Unexpected token 'P', ...\"_reason\": PromptMage\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -1,0 +1,77 @@
+id: www__microsoft__com__en__us__power__platform__products__power__apps
+kind: website
+name: power-apps
+canonical_url: https://www.microsoft.com/en-us/power-platform/products/power-apps
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__microsoft__com__en__us__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Microsoft Power Apps
+        extracted_url: https://powerapps.microsoft.com
+        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Microsoft Power Apps is a low-code app builder with AI assistance for creating business applications.
+  why_it_matters: It enables developers and non-developers to rapidly build, test, and deploy full-stack applications using natural language and AI assistance, reducing development time.
+  mental_damage: The promise of 'just describe it in natural language' hides the inevitable enterprise governance, licensing, and vendor lock-in that follows the initial joy of dragging a button onto a canvas.
+  tags:
+    - low-code
+    - ai-assisted
+    - enterprise
+    - app-builder
+    - microsoft
+  confidence: high
+curation:
+  status: included
+  reason: Power Apps is primarily a prompt-to-app and low-code platform focused on generating business applications from natural language descriptions and AI assistance, making it a clear fit for app builders rather than coding agents or extensions.
+  evidence:
+    - "Source-list context: included in awesome-ai-coding-tools under App Builders section as 'Microsoft Power Apps is a low-code app builder that lets you create custom business apps to streamline processes and boost productivity over your organization.'"
+    - "Scraped site context: describes Power Apps as enabling users to 'Use natural language to outline goals, roles, and workflows. AI instantly translates your intent into structured solution blueprints.' and 'Build apps your way—drag and drop, generative AI, or custom code.'"
+    - README excerpt and product features emphasize turning prompts into apps via AI-assisted natural language instructions, templates, and reusable components, not editing existing codebases.
+placement:
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T16:01:26.059Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

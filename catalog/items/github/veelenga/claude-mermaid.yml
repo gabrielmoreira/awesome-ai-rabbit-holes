@@ -24,30 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 142
+    forks: 18
+    license: MIT
+    archived: false
+    created_at: "2025-09-29T20:02:05Z"
+    pushed_at: "2026-05-12T06:27:33Z"
+    description: MCP Server to previewing mermaid diagrams with live reload
+    homepage: https://www.npmjs.com/package/claude-mermaid
+    topics:
+      - claude-code
+      - mcp-server
+    last_checked_at: "2026-05-12T15:06:31.027Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:31.027Z"
+      bytes: 11697
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server for previewing Mermaid diagrams with live reload in Claude Code and other MCP-compatible clients.
+  why_it_matters: Lets developers iterate on diagrams in real time without leaving their workflow, reducing context switching during documentation or design work.
+  mental_damage: Another tiny MCP server that makes you feel productive while just moving boxes and arrows around.
+  tags:
+    - mcp
+    - mermaid
+    - diagrams
+    - live-reload
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server first and foremost, providing diagram preview functionality as an MCP service, making MCP its core identity rather than an extension or agent.
+  evidence:
+    - "Repo description: 'MCP Server to previewing mermaid diagrams with live reload'"
+    - README positions it as an MCP server installable via `/plugin marketplace` and configurable in any MCP-compatible client
+    - "Source-list context: listed in awesome-mcp-servers under Developer Tools"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:31.027Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:23:05.750Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

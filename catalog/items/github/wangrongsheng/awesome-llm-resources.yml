@@ -23,33 +23,55 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8273
+    forks: 852
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-04-19T03:31:13Z"
+    pushed_at: "2026-05-12T09:06:26Z"
+    description: "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. "
+    homepage: ""
+    topics:
+      - awesome-list
+      - book
+      - course
+      - large-language-models
+      - llama
+      - llm
+      - mistral
+      - openai
+      - qwen
+      - rag
+      - retrieval-augmented-generation
+      - webui
+    last_checked_at: "2026-05-12T15:06:35.390Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.390Z"
+      bytes: 100937
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning.
+  why_it_matters: It helps developers discover and navigate the rapidly expanding LLM ecosystem through organized, community-maintained resource links.
+  mental_damage: Another awesome list to star, never actually read, and guilt-triply ignore while building yet another RAG wrapper.
+  tags:
+    - awesome-list
+    - llm
+    - resources
+    - curated
+    - directory
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a curated directory of LLM resources with clear developer-facing utility in discovery and navigation, fitting the awesome-awesomes scope as a navigational aid rather than a standalone tool.
+  evidence:
+    - "Repo description: '🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.'"
+    - README contains structured sections like Agents, MCP, Coding, Evaluation, RAG, and Courses, indicating a developer-oriented resource map.
+    - Listed in source lists under 'awesome-LLM-resources' with purpose matching the repo description, reinforcing its role as a curated directory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (8273) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.390Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:30:04.994Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

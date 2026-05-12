@@ -24,33 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 636
+    forks: 33
+    license: MIT
+    archived: false
+    created_at: "2025-03-20T05:05:00Z"
+    pushed_at: "2026-05-06T18:47:24Z"
+    description: MCP-NixOS - Model Context Protocol Server for NixOS resources
+    homepage: https://mcp-nixos.io/
+    topics:
+      - ai-assistant
+      - ai-integration
+      - ai-tools
+      - anthropic
+      - claude
+      - developer-tools
+      - devops-tools
+      - fastmcp
+      - llm-tools
+      - mcp
+      - model-context-protocol
+      - nix
+      - nix-options
+      - nix-packages
+      - nix-search
+      - nixos
+      - package-search
+      - python
+      - sre-tools
+    last_checked_at: "2026-05-12T15:06:29.933Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:29.933Z"
+      bytes: 11246
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP-NixOS is a Model Context Protocol server that provides AI assistants with real-time access to NixOS packages, options, and related infrastructure data.
+  why_it_matters: It lets AI coding assistants query accurate NixOS package and configuration data, reducing hallucinations when generating Nix-based code or system definitions.
+  mental_damage: Finally, an MCP server that makes your AI feel less like a drunk Nix enthusiast guessing package names at 3 AM.
+  tags:
+    - mcp
+    - nixos
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an MCP server first and foremost, exposing NixOS data through the Model Context Protocol, making MCP its core identity rather than a mere extension or compatibility layer.
+  evidence:
+    - "Repo description: 'MCP-NixOS - Model Context Protocol Server for NixOS resources'"
+    - README positions it as an MCP server providing real NixOS data to AI assistants
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (636) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:29.933Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:21:01.158Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,17 +24,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 24
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-03-28T21:49:28Z"
+    pushed_at: "2026-05-11T08:57:09Z"
+    description: "  Universal LLM router for AI coding tools. Works with Claude Code, Cursor, Codex, Gemini CLI, Copilot and more.        Free-first fallback chain keeps costs 70–85% lower."
+    homepage: ""
+    topics:
+      - ai-routing
+      - anthropic
+      - claude
+      - claude-code
+      - cost-optimization
+      - gemini
+      - litellm
+      - llm
+      - llm-router
+      - mcp
+      - mcp-server
+      - model-router
+      - ollama
+      - openai
+    last_checked_at: "2026-05-12T15:06:43.371Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:43.371Z"
+      bytes: 16893
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +74,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:43.371Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:46:32.800Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__ypollak2__llm-router: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It primari\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

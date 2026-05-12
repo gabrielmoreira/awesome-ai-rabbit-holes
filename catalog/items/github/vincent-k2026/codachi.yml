@@ -23,30 +23,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T09:21:31Z"
+    pushed_at: "2026-04-18T15:47:52Z"
+    description: A tamagotchi-style virtual pet that lives in your Claude Code statusline
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ascii-art
+      - claude-code
+      - cli
+      - developer-tools
+      - nodejs
+      - productivity
+      - statusline
+      - tamagotchi
+    last_checked_at: "2026-05-12T15:06:33.270Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:33.270Z"
+      bytes: 14935
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Codachi is a tamagotchi-style virtual pet that lives in the Claude Code statusline, showing context usage, rate limits, git state, and playful mood messages.
+  why_it_matters: It adds lightweight, zero-overhead productivity awareness and delight to Claude Code sessions without consuming tokens or making API calls.
+  mental_damage: Now you have to worry about your virtual pet's feelings while already juggling context windows and rate limits.
+  tags:
+    - claude-code
+    - statusline
+    - productivity
+    - tamagotchi
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Codachi augments Claude Code with statusline UI, hooks, and contextual messaging but does not act as a primary coding assistant, making it an extension rather than an agent.
+  evidence:
+    - "Repo description: 'A tamagotchi-style virtual pet that lives in your Claude Code statusline'"
+    - "README: Adds context ETA, event-aware pet reactions, and productivity stats via PostToolExecution hooks"
+    - "Not a coding agent: does not plan, write, test, or debug code; only observes and displays state"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -57,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:33.270Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:26:23.755Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

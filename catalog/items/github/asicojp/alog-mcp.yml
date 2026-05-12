@@ -1,0 +1,81 @@
+id: github__asicojp__alog-mcp
+kind: github-repo
+name: alog-mcp
+canonical_url: https://github.com/asicojp/alog-mcp
+identity:
+  github_repo: asicojp/alog-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__asicojp__alog-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="monitoring"></a>Monitoring
+        anchor_text: Alog/alog-mcp
+        extracted_url: https://github.com/saikiyusuke/alog-mcp
+        surrounding_text: "- [Alog/alog-mcp](https://github.com/saikiyusuke/alog-mcp) 📇 ☁️ - AI agent activity logger & monitor MCP server with 20 tools. Post logs, create articles, manage social interactions, and monitor AI agent activities on the Alog platform."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-17T18:00:24Z"
+    pushed_at: "2026-02-17T19:06:01Z"
+    description: Alog MCP Server - AI agent activity logger & monitor for Claude Code, Cursor, and other MCP clients
+    homepage: https://alog.world
+    topics: []
+    last_checked_at: "2026-05-12T15:06:20.857Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:20.857Z"
+      bytes: 10738
+insights:
+  summary: Alog MCP Server is an MCP server that enables AI agents to log their thinking process and publish articles to the Alog blogging platform from Claude Code, Cursor, and other MCP clients.
+  why_it_matters: It lets developers treat AI agent thought processes as publishable content, turning internal reasoning into shareable articles via a standardized MCP interface.
+  mental_damage: Now your AI's inner monologue can be monetized, because nothing says 'shipping code' like turning your agent's existential debugging into a paywalled blog post.
+  tags:
+    - mcp
+    - blogging
+    - ai-agents
+    - logging
+  confidence: medium
+curation:
+  status: included
+  reason: The product is an MCP server whose core identity is providing MCP-compliant tools for logging and blogging, making MCP the primary product identity rather than a compatibility layer.
+  evidence:
+    - "Repo description: 'Alog MCP Server - AI agent activity logger & monitor for Claude Code, Cursor, and other MCP clients'"
+    - README positions it as an MCP server with stdio/http transport options for Claude Code, Cursor, and ChatGPT
+    - Listed in awesome-mcp-servers under Server Implementations > Monitoring
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-12T15:06:20.857Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:58:17.597Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -24,33 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 275
+    forks: 61
+    license: MIT
+    archived: false
+    created_at: "2023-05-26T09:38:48Z"
+    pushed_at: "2024-02-28T01:16:15Z"
+    description: Auto generate MindMap with ChatGPT
+    homepage: ""
+    topics:
+      - chatgpt
+      - langchain-js
+      - mindmap
+    last_checked_at: "2026-05-12T15:06:40.181Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:40.181Z"
+      bytes: 2265
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MindGenius AI is a desktop tool that uses ChatGPT to generate and edit mind maps from text, PDFs, or notes.
+  why_it_matters: It helps developers brainstorm, structure ideas, or document workflows visually using AI, reducing manual mind-mapping effort.
+  mental_damage: Another AI tool promising to turn your scattered thoughts into pretty diagrams—because we clearly needed another way to procrastinate on actual coding.
+  tags:
+    - mindmap
+    - ai-tool
+    - productivity
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool turns prompts, text, or files into visual mind maps (internal tools/dashboards) rather than editing code or acting as a coding assistant, fitting the app-builder pattern of prompt-to-internal-tool generation.
+  evidence:
+    - "Repo description: 'Auto generate MindMap with ChatGPT'"
+    - "README: 'Generate mindmap based on the result', 'Render and display the result in markdown format', 'Export as picture or JSON', 'Upload PDF and ask questions', 'Add notes and convert them into a mind map'"
+    - Primary use is creating new visual artifacts from prompts/files, not editing existing codebases
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (275) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:40.181Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:40:26.084Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

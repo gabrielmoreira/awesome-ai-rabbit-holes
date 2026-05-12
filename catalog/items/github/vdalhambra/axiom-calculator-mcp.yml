@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-15T11:43:29Z"
+    pushed_at: "2026-04-15T23:08:51Z"
+    description: Personal finance calculators for Claude and AI agents — mortgage, compound interest, FIRE, loan comparison, debt payoff. Zero API keys.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:30.515Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:30.515Z"
+      bytes: 2901
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A personal finance calculator MCP server that exposes tools for mortgage, compound interest, FIRE, loan comparison, and debt payoff calculations via the Model Context Protocol.
+  why_it_matters: Lets developers and AI agents perform accurate financial calculations without API keys or external services, enabling reliable finance-aware AI workflows.
+  mental_damage: Another reminder that we’ve outsourced even basic arithmetic to AI agents, just to avoid opening a spreadsheet.
+  tags:
+    - finance
+    - mcp
+    - calculator
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an MCP-first toolkit providing domain-specific financial tools over stdio, matching the MCP Servers & Tooling category’s focus on MCP identity as the core product.
+  evidence:
+    - Repo description and README position it as 'Personal finance calculators for Claude and AI agents' that works as an MCP server via stdio
+    - Installation and usage instructions are entirely MCP-configuration driven (uvx, mcpServers config)
+    - Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:30.515Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:22:08.272Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

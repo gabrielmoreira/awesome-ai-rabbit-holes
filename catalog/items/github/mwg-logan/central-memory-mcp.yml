@@ -38,18 +38,24 @@ metadata:
       fetched_at: "2026-05-06T22:45:27.954Z"
       bytes: 2622
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A custom fork of the Model Context Protocol memory server using Azure Functions MCP triggers and Azure Table storage for persistence.
+  why_it_matters: Provides a hosted-memory MCP server for developers needing persistent context across Claude Code or other MCP-compatible agents without self-hosting infrastructure.
+  mental_damage: Yet another MCP memory fork that promises to solve context limits while adding yet another YAML file to your agent setup.
+  tags:
+    - mcp
+    - memory
+    - azure
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server implementation with Azure-specific adaptations, making MCP its core identity rather than a mere compatibility layer.
+  evidence:
+    - "Repo description: 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and Table storage'"
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory"
+    - "Pushed at: 2026-04-27T12:25:21Z indicates recent activity"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -65,21 +71,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:16:15.205Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__mwg-logan__central-memory-mcp: {
-          "summary": "A .NET 10 Azure Functions implementation of a Model Context Protocol server that provides durable knowledge graph memory (entities, relations, observations) for AI assistants with workspace isolation.",
-          "why_it_matters": "Developers integrating Azure serverless infrastructure can deploy a standards-compliant memory backend for coding agents without standing up a dedicated container or VM.",
-          "mental_damage": "Yet another bespoke memory server so your agent can remember what it was doing yesterday, assuming you can remember which Azure Function fork you deployed last week.",
-          "tags": ["mcp", "memory", "azure-functions", "knowledge-graph", "dotnet"],
-          "should_include": true,
-          "primary_category": "mcp",
-          "section": "Generic Servers & Middleware",
-          "decision_reason": "The
+    status: done
+    updated_at: "2026-05-12T15:55:52.363Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

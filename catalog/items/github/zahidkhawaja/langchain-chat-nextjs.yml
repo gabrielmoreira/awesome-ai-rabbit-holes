@@ -24,33 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1015
+    forks: 258
+    license: MIT
+    archived: false
+    created_at: "2023-01-27T21:45:27Z"
+    pushed_at: "2023-03-16T05:47:06Z"
+    description: Next.js frontend for LangChain Chat.
+    homepage: https://blog.langchain.dev/langchain-chat/
+    topics:
+      - javascript
+      - langchain
+      - nextjs
+      - openai
+    last_checked_at: "2026-05-12T15:06:44.816Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:44.816Z"
+      bytes: 1401
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Next.js frontend for LangChain Chat providing a chat interface powered by LangChain.
+  why_it_matters: Gives developers a ready-to-deploy example of building a LangChain-powered chat app with Next.js, reducing boilerplate for prototyping AI chat features.
+  mental_damage: Another starter kit that reminds you how much time you spend wiring up chat UIs instead of actually improving the agent.
+  tags:
+    - nextjs
+    - langchain
+    - chatbot
+    - frontend
+    - starter-kit
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is a frontend example app for LangChain Chat, not a developer-facing tool, agent, or infrastructure that changes developer workflows.
+  evidence:
+    - "Repo description: 'Next.js frontend for LangChain Chat'"
+    - README focuses on getting started with a Next.js app and editing pages/index.js
+    - Appears in awesome-langchain under 'Open Source Projects > Other / Chatbots' as an example project
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1015) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:44.816Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:49:31.553Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

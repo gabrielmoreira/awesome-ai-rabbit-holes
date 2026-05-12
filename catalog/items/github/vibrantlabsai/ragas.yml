@@ -39,33 +39,46 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 13882
+    forks: 1410
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-05-08T17:48:04Z"
+    pushed_at: "2026-02-24T07:47:19Z"
+    description: Supercharge Your LLM Application Evaluations 🚀
+    homepage: https://docs.ragas.io
+    topics:
+      - evaluation
+      - llm
+      - llmops
+    last_checked_at: "2026-05-12T15:06:32.599Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:32.599Z"
+      bytes: 6996
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Ragas is a Python library for evaluating LLM applications with objective metrics and test data generation.
+  why_it_matters: It gives developers a programmatic, data-driven way to measure and improve LLM app quality without relying on subjective assessments.
+  mental_damage: Finally, a way to quantify the vague guilt of shipping LLM features you can't actually verify.
+  tags:
+    - evals
+    - llm
+    - testing
+    - python
+    - framework
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Ragas is a dedicated evaluation framework for LLM applications, focusing on objective metrics, test generation, and feedback loops rather than acting as a coding assistant, orchestrator, or app builder.
+  evidence:
+    - "Repo description: 'Supercharge Your LLM Application Evaluations 🚀'"
+    - "README: 'Objective metrics, intelligent test generation, and data-driven insights for LLM apps'"
+    - "Source-list context: appears in awesome-agent-orchestration under 'Evaluation & Benchmarking' and awesome-LLM-resources under '知识库 RAG'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (13882) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +86,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:32.599Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:25:20.010Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

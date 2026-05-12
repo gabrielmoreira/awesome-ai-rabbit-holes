@@ -52,15 +52,22 @@ metadata:
       fetched_at: "2026-05-06T22:46:19.253Z"
       bytes: 2296
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SearXNG is a self-hosted metasearch engine that aggregates results from multiple search services while avoiding user tracking and profiling.
+  why_it_matters: Developers can use it as a privacy-preserving search alternative to gather technical information, debug issues, or research solutions without exposing queries to commercial search engines.
+  mental_damage: Hosting your own search engine to avoid Google tracking feels responsible until you realize you're now maintaining infrastructure just to search Stack Overflow.
+  tags:
+    - search
+    - privacy
+    - self-hosted
+    - metasearch
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: SearXNG is a general-purpose privacy-focused search engine with no specific developer-tooling features, AI integration, or workflow enhancement for software development.
+  evidence:
+    - "Repo description: 'SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.'"
+    - "Source-list context: Appears in awesome-mcp-servers as a Community Server, indicating MCP compatibility but not core identity."
+    - No evidence of AI capabilities, coding assistance, or developer-specific functionality in description, topics, or README context.
 placement:
   primary_category: null
   section: null
@@ -79,12 +86,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:27:38.109Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__searxng__searxng: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:57:26.313Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

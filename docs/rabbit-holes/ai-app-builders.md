@@ -13,6 +13,15 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `prompt-to-code` `frontend` `screenshot` `ui-scaffolding`
   </details>
 
+- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.3k` `updated ≤30d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
+
+  Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
+
+  _Another reminder that 'hackable' often means 'you'll spend more time customizing than actually chatting'._
+
+  `chatbot` `nextjs` `ai-sdk` `vercel` `open-source`
+  </details>
+
 - **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 20.3k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
 
   It allows developers to build AI-powered apps locally using their own API keys, eliminating vendor lock-in and keeping code private on their own hardware.
@@ -22,7 +31,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `local-ai` `app-builder` `open-source` `nextjs` `privacy`
   </details>
 
-- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.3k` `updated ≤90d` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
+- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.3k` `updated ≤180d` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
 
   It decouples the AI coding experience from proprietary backends, letting developers self-host and swap models while generating and deploying NodeJS apps directly from the browser.
 
@@ -58,6 +67,15 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `ai-search` `page-generator` `react` `shadcn-ui` `vector-search`
   </details>
 
+- **[create-t3-turbo-ai](https://github.com/zckly/create-t3-turbo-ai)** `⭐ 355` `updated >1y` A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and LangChain. <details><summary>More about</summary>
+
+  It gives developers a production-ready scaffold to quickly bootstrap AI-enhanced web apps with modern tooling and type safety.
+
+  _Another starter kit that promises 'ultimate' while leaving half the features as TODO, because why ship when you can scaffold forever?_
+
+  `starter-kit` `t3-stack` `langchain` `openai` `turborepo`
+  </details>
+
 - **[contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 292` `updated ≤30d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
 
   It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
@@ -65,6 +83,15 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   _AI agents can now hallucinate your ERC-20 compliance via MCP, while you still carry the existential weight of mainnet deployment._
 
   `smart-contracts` `code-generation` `solidity` `mcp` `cli`
+  </details>
+
+- **[MindGeniusAI](https://github.com/xianjianlf2/mindgeniusai)** `⭐ 275` `updated >1y` MindGenius AI is a desktop tool that uses ChatGPT to generate and edit mind maps from text, PDFs, or notes. <details><summary>More about</summary>
+
+  It helps developers brainstorm, structure ideas, or document workflows visually using AI, reducing manual mind-mapping effort.
+
+  _Another AI tool promising to turn your scattered thoughts into pretty diagrams—because we clearly needed another way to procrastinate on actual coding._
+
+  `mindmap` `ai-tool` `productivity`
   </details>
 
 ## Incubating
@@ -285,6 +312,15 @@ _These are new or low-traffic entries being watched._
   _Now you can watch a 'Team Leader' agent request approval to deploy the 'Engineer' agent's unvetted code, ensuring you feel managerially productive while the AI handles the actual work._
 
   `prompt-to-app` `multi-agent` `no-code` `full-stack`
+  </details>
+
+- **[Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps)** Microsoft Power Apps is a low-code app builder with AI assistance for creating business applications. <details><summary>More about</summary>
+
+  It enables developers and non-developers to rapidly build, test, and deploy full-stack applications using natural language and AI assistance, reducing development time.
+
+  _The promise of 'just describe it in natural language' hides the inevitable enterprise governance, licensing, and vendor lock-in that follows the initial joy of dragging a button onto a canvas._
+
+  `low-code` `ai-assisted` `enterprise` `app-builder` `microsoft`
   </details>
 
 - **[Pythagora](https://www.pythagora.ai)** An AI teammate that integrates into VS Code and Cursor, using 14 specialized agents to plan, build, test, debug, and deploy full-stack React and Node.js applications from prompts. <details><summary>More about</summary>

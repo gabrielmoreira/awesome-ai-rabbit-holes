@@ -24,30 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2025-11-11T00:54:20Z"
+    pushed_at: "2026-04-15T17:45:13Z"
+    description: MCP Server for efficient large file operations in AI development workflows — chunk reading, smart search, replace
+    homepage: https://large-file-mcp.dev.willianpinho.com
+    topics:
+      - ai
+      - claude
+      - developer-tools
+      - llm
+      - mcp
+      - typescript
+    last_checked_at: "2026-05-12T15:06:37.744Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.743Z"
+      bytes: 12919
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server for efficient large file operations with smart chunking, search, and navigation in AI development workflows.
+  why_it_matters: Enables AI assistants to handle large codebases and logs efficiently without memory overload or degraded performance.
+  mental_damage: Another MCP server to add to the growing list of tools that make your Claude config look like a NASA launch sequence.
+  tags:
+    - mcp
+    - file-operations
+    - developer-tools
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server with MCP as its core identity, providing infrastructure for large file handling in AI workflows, fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'MCP Server for efficient large file operations in AI development workflows'"
+    - README emphasizes MCP server functionality with Claude Code integration examples
+    - Listed in awesome-mcp-servers under File Systems section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.744Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:34:50.351Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

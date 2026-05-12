@@ -23,33 +23,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 755
+    forks: 55
+    license: GPL-3.0
+    archived: true
+    created_at: "2024-10-11T21:56:24Z"
+    pushed_at: "2025-01-24T02:07:26Z"
+    description: Detect and extract tables to markdown and csv
+    homepage: https://www.datalab.to
+    topics:
+      - deep-learning
+      - ocr
+      - tables
+    last_checked_at: "2026-05-12T15:06:32.968Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:32.968Z"
+      bytes: 7688
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Tabled is a Python library for detecting and extracting tables from PDFs, images, and documents into Markdown, CSV, or HTML formats.
+  why_it_matters: It helps developers automate table data extraction from unstructured documents for downstream processing in data pipelines or analysis workflows.
+  mental_damage: Another niche OCR tool that promises to save you from manual copy-pasting, until you realize your PDFs have merged cells and rotated text.
+  tags:
+    - ocr
+    - table-extraction
+    - data-processing
+    - python
+    - document-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Tabled is a specialized OCR/table extraction library with no clear developer-tooling agent, framework, or workflow integration angle; it is archived and superseded by Marker, making it obsolete for inclusion.
+  evidence:
+    - "Repo description: 'Detect and extract tables to markdown and csv'"
+    - "README: 'Tabled is now deprecated. The functionality here has been migrated to marker'"
+    - "Archived: yes"
+    - "Pushed at: 2025-01-24T02:07:26Z (recent push but archived status overrides activity)"
+    - "Source-list context: listed under '数据 Data' in awesome-LLM-resources, which is a general LLM resource dump, not a developer tooling curation"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -57,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:32.968Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:25:49.196Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

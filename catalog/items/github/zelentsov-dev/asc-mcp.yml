@@ -24,30 +24,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 25
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-08-30T17:04:48Z"
+    pushed_at: "2026-05-08T16:37:03Z"
+    description: MCP server for App Store Connect API — 208 tools for managing apps, builds, TestFlight, subscriptions, and more from Claude, Cursor, VS Code, or any MCP client
+    homepage: https://modelcontextprotocol.io
+    topics:
+      - ai-tools
+      - app-store-connect
+      - claude
+      - ios
+      - mcp
+      - model-context-protocol
+      - swift
+      - testflight
+    last_checked_at: "2026-05-12T15:06:45.922Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:45.922Z"
+      bytes: 49686
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ASC-MCP is a Swift-based Model Context Protocol server that exposes 348 tools for managing App Store Connect APIs from MCP-compatible hosts like Claude Code or Cursor.
+  why_it_matters: It lets iOS/macOS developers automate App Store Connect workflows—releases, TestFlight, IAP, analytics—through natural language in their coding assistant.
+  mental_damage: Finally, a way to plead with your AI to bump a version number without digging through Apple’s labyrinthine API docs.
+  tags:
+    - mcp
+    - app-store-connect
+    - ios
+    - swift
+    - claude-code
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: ASC-MCP is an MCP server whose core identity is providing App Store Connect API access via the Model Context Protocol, making it a domain-specific MCP server rather than a coding agent or extension.
+  evidence:
+    - "Repo description: 'MCP server for App Store Connect API — 208 tools for managing apps, builds, TestFlight, subscriptions, and more from Claude, Cursor, VS Code, or any MCP client'"
+    - "README: 'ASC-MCP is a Swift-based MCP server that bridges Claude (or any MCP-compatible host) with the App Store Connect API'"
+    - "Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:45.922Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:51:28.031Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

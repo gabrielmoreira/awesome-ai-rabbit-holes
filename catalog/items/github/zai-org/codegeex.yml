@@ -23,33 +23,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8780
+    forks: 690
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-09-17T14:06:29Z"
+    pushed_at: "2024-08-13T05:59:38Z"
+    description: "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)"
+    homepage: https://codegeex.cn
+    topics:
+      - code-generation
+      - pretrained-models
+      - tools
+    last_checked_at: "2026-05-12T15:06:45.048Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:45.048Z"
+      bytes: 19633
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CodeGeeX is an open multilingual code generation model with 13B parameters trained on 850B+ tokens across 20+ programming languages.
+  why_it_matters: Provides developers with a free, open-source multilingual coding assistant that supports code completion, translation, and explanation via IDE extensions.
+  mental_damage: Yet another model promising to replace your Stack Overflow habit while you quietly keep copying Python snippets from 2018.
+  tags:
+    - code-generation
+    - multilingual
+    - open-source
+    - ide-extension
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: CodeGeeX functions as a coding assistant through its VS Code and JetBrains extensions, offering code completion, explanation, and translation — core assistant behaviors — not just augmenting another agent.
+  evidence:
+    - "Repo description: 'CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)'"
+    - "README: 'Customizable Programming Assistant' with VS Code extension supporting 'code completion, explanation, summarization and more'"
+    - "README: Describes multilingual code generation and crosslingual code translation as core features"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native Assistants
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (8780) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:45.048Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:50:04.882Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

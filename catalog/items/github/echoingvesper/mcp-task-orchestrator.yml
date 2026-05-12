@@ -57,15 +57,21 @@ metadata:
       fetched_at: "2026-05-06T22:43:43.720Z"
       bytes: 17023
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An archived Model Context Protocol server that provides task orchestration capabilities for AI assistants.
+  why_it_matters: It shows how MCP servers can extend AI assistants with workflow automation features like task management and coordination.
+  mental_damage: Another MCP server promising to make AI assistants 'productive' while we still can't get them to stop hallucinating variable names.
+  tags:
+    - mcp
+    - orchestration
+    - archived
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is archived, indicating it is no longer maintained, which makes it unsuitable for inclusion in a curated catalog of practical developer tools.
+  evidence:
+    - "Archived: yes"
+    - "Repo description: A Model Context Protocol server that provides task orchestration capabilities for AI assistants"
+    - "Pushed at: 2025-08-15T07:22:54Z (last push was 3 months ago, but archived status overrides activity)"
 placement:
   primary_category: null
   section: null
@@ -84,12 +90,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T22:53:48.351Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__echoingvesper__mcp-task-orchestrator: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:53:28.281Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

@@ -24,30 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-01T20:12:45Z"
+    pushed_at: "2026-05-03T06:48:19Z"
+    description: Standalone MCP server — cross-session memory, 10-gate VERITAS build pipeline, cryptographic audit ledger, Cortex approval gate. Two files, one dependency.
+    homepage: ""
+    topics:
+      - ai
+      - artificial-intelligence
+      - episodic-memory
+      - genai
+      - llm
+      - mcp
+      - mcp-server
+      - ollama
+      - veritas
+    last_checked_at: "2026-05-12T15:06:34.753Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:34.753Z"
+      bytes: 34879
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Omega Brain MCP is a standalone MCP server providing cross-session memory, a 10-gate VERITAS build pipeline, cryptographic audit ledger, and Cortex approval gate for AI agent governance.
+  why_it_matters: It enforces policy and reproducibility in AI workflows by cryptographically sealing every operation and requiring deterministic build validation before execution.
+  mental_damage: Finally, a way to make your AI agent wait for bureaucratic approval before it can accidentally delete production—because trust is so last year.
+  tags:
+    - mcp
+    - governance
+    - audit-ledger
+    - memory
+    - veritas
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a self-contained MCP server with governance-focused tools and resources, making MCP its core identity rather than a compatibility feature.
+  evidence:
+    - "Repo description: 'Standalone MCP server — cross-session memory, 10-gate VERITAS build pipeline, cryptographic audit ledger, Cortex approval gate.'"
+    - "README: 'Omega Brain MCP is a self-contained Model Context Protocol (MCP) server that runs as a local process alongside any MCP-compatible AI client.'"
+    - "Source-list context: Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:34.753Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:29:04.172Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

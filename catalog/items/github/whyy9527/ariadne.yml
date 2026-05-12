@@ -24,30 +24,54 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-14T07:32:09Z"
+    pushed_at: "2026-04-18T12:01:28Z"
+    description: Cross-service API dependency graph for Spring Boot + TypeScript microservice stacks. CLI + MCP server for Claude Code, Cursor, Windsurf. Offline static analysis over GraphQL, REST, Kafka, and frontend queries.
+    homepage: ""
+    topics:
+      - apollo-graphql
+      - call-graph
+      - claude-code
+      - code-intelligence
+      - code-navigation
+      - developer-tools
+      - graphql
+      - kafka
+      - mcp
+      - mcp-server
+      - microservices
+      - spring-boot
+      - static-analysis
+      - typescript
+    last_checked_at: "2026-05-12T15:06:37.554Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.554Z"
+      bytes: 3422
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Ariadne is a CLI and MCP server that builds a cross-service API dependency graph for Spring Boot and TypeScript microservices via static analysis of GraphQL, REST, Kafka, and frontend queries.
+  why_it_matters: It reduces context window overload by surfacing only the contract layer of API calls across services, making AI-assisted debugging and navigation of distributed systems more precise.
+  mental_damage: Finally, a tool that understands your microservice sprawl is less a system and more a labyrinth where even the AI needs a thread to find the exit.
+  tags:
+    - dependency-graph
+    - static-analysis
+    - mcp-server
+    - microservices
+    - code-navigation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Ariadne is an MCP stdio server whose core identity is providing API dependency graph data to AI coding assistants via the Model Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
+  evidence:
+    - "Repo description states: 'Cross-service API dependency graph for Spring Boot + TypeScript microservice stacks. CLI + MCP server for Claude Code, Cursor, Windsurf.'"
+    - "README emphasizes: 'MCP stdio server for AI coding assistants (Claude Code, Cursor, Windsurf), with a CLI twin.'"
+    - "Source-list context: listed in awesome-mcp-servers under Developer Tools > Server Implementations."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.554Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:34:54.530Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,17 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-26T03:20:13Z"
+    pushed_at: "2026-05-09T13:10:41Z"
+    description: MCP that brings persistent agent memory to Kiro, Claude Desktop, Cursor, and any MCP client — powered by agent-memory-daemon 🧠
+    homepage: https://glama.ai/mcp/servers/tverney/mcp-agent-memory
+    topics:
+      - agent-memory
+      - ai-agents
+      - bedrock
+      - kiro
+      - kiro-cli
+      - kiro-ide
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - persistent-memory
+      - typescript
+    last_checked_at: "2026-05-12T15:06:27.975Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:27.975Z"
+      bytes: 11935
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +72,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:27.975Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:16:38.642Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__tverney__mcp-agent-memory: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

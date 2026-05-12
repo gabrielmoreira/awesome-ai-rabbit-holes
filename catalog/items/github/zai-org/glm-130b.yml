@@ -24,33 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7653
+    forks: 605
+    license: Apache-2.0
+    archived: false
+    created_at: "2022-08-03T20:21:58Z"
+    pushed_at: "2023-07-25T09:01:49Z"
+    description: "GLM-130B: An Open Bilingual Pre-Trained Model (ICLR 2023)"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:45.207Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:45.207Z"
+      bytes: 17372
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GLM-130B is an open bilingual (English-Chinese) 130B-parameter pre-trained language model designed for inference on modest multi-GPU setups.
+  why_it_matters: It provides a high-performance, quantizable open model that developers can run locally for experiments without needing extreme hardware.
+  mental_damage: Another massive model release that pretends 'single server with 4x RTX 3090' is accessible to the average developer.
+  tags:
+    - llm
+    - open-model
+    - bilingual
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: GLM-130B is a raw model checkpoint without developer tooling, SDK, or runtime identity—it belongs in model directories, not a catalog of developer-facing AI tools.
+  evidence:
+    - "Repo description: 'GLM-130B: An Open Bilingual Pre-Trained Model (ICLR 2023)'"
+    - README focuses on model specs, training data, quantization, and evaluation—not on tooling, APIs, or developer workflows
+    - "Source-list context: appears in Awesome-LLMOps under 'Model > Large Language Model', confirming its identity as a model artifact"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (7653) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:45.207Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:50:14.985Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

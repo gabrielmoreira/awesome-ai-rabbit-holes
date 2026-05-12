@@ -53,15 +53,21 @@ metadata:
       fetched_at: "2026-05-06T22:44:37.124Z"
       bytes: 19155
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An archived MCP server that provides access to App Store Connect APIs via the Model Context Protocol.
+  why_it_matters: Lets developers interact with App Store Connect through MCP-compatible assistants using natural language.
+  mental_damage: Yet another MCP server for a niche API, adding to the growing pile of protocol-specific adapters few will actually use.
+  tags:
+    - mcp
+    - app-store-connect
+    - api-wrapper
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is archived, indicating it is no longer maintained, and serves only as a narrow MCP adapter for a specific SaaS API without broader developer tooling utility.
+  evidence:
+    - "Archived: yes"
+    - "Repo description: (none)"
+    - "Seen in source lists: awesome-mcp-list and awesome-mcp-servers under Developer Tools"
 placement:
   primary_category: null
   section: null
@@ -80,12 +86,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:04:49.703Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__joshuarileydev__app-store-connect-mcp-server: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:54:43.028Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

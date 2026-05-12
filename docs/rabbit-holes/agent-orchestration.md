@@ -220,6 +220,15 @@ Tools and platforms for coordinating multiple agents.
   `terminal` `multi-agent` `tui` `parallel` `cli`
   </details>
 
+- **[OpenAgents](https://github.com/xlang-ai/openagents)** `⭐ 4.8k` `updated >1y` OpenAgents is an open platform for deploying and hosting language agents like Data, Plugins, and Web agents with a web UI and local setup support. <details><summary>More about</summary>
+
+  It lets developers and researchers build, test, and run real-world language agents beyond proof-of-concept, with full-stack tooling for data analysis, web browsing, and plugin use.
+
+  _Yet another ‘open platform’ promising AGI in the wild while you’re just trying to get your CSV parsed without hallucinating a pivot table._
+
+  `language-agents` `agent-platform` `local-deployment`
+  </details>
+
 - **[Rivet](https://github.com/ironclad/rivet)** `⭐ 4.6k` `updated ≤30d` Rivet is a visual desktop IDE and TypeScript library for building, chaining, and running complex AI agent graphs, with support for OpenAI, Anthropic, and vector databases. <details><summary>More about</summary>
 
   It gives developers a visual programming surface to design agent workflows and a runtime library to embed those graphs directly into applications.
@@ -299,6 +308,15 @@ Tools and platforms for coordinating multiple agents.
   _Just when you thought your stack couldn't get any taller, here is another unified platform inviting you to orchestrate yet another layer of 'AI-readiness' before you actually ship code._
 
   `ai-infrastructure` `self-hosted` `etl` `pipeline-orchestration` `llmops`
+  </details>
+
+- **[LLM Stack](https://github.com/trypromptly/llmstack)** `⭐ 2.3k` `updated >1y` A no-code platform for building, deploying, and managing multi-agent workflows and generative AI applications with integrated data retrieval. <details><summary>More about</summary>
+
+  It provides a managed control plane for orchestrating complex agentic chains and RAG pipelines without requiring manual implementation of the underlying infrastructure.
+
+  _Another abstraction layer to master in the increasingly crowded race to replace the actual logic we used to write._
+
+  `agents` `no-code` `orchestration` `multi-agent` `rag`
   </details>
 
 - **[ralph-tui](https://github.com/subsy/ralph-tui)** `⭐ 2.3k` `updated ≤30d` A terminal UI that connects existing AI coding assistants to task trackers and runs them autonomously through a prioritized task list. <details><summary>More about</summary>
@@ -602,6 +620,15 @@ _These are new or low-traffic entries being watched._
   `tui` `parallel-agents` `tmux` `git-worktree` `orchestration`
   </details>
 
+- **[Flock](https://github.com/whiteducksoftware/flock)** `⭐ 104` `updated ≤30d` Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture. <details><summary>More about</summary>
+
+  It replaces fragile prompt engineering and tight coupling with reliable, testable multi-agent coordination grounded in distributed systems patterns.
+
+  _Another framework promising to solve the 'prompt hell' we created by ignoring decades of software engineering wisdom._
+
+  `agent-orchestration` `blackboard` `declarative` `multi-agent`
+  </details>
+
 - **[quorum-cli](https://github.com/detrol/quorum-cli)** `⭐ 94` `updated ≤180d` A terminal and web CLI that runs structured, multi-model debates between LLMs like GPT, Claude, Gemini, and local Ollama models using formal discussion methods. <details><summary>More about</summary>
 
   It lets developers surface trade-offs and reach consensus by watching different models argue about architecture, tooling, and design decisions inside the terminal or Claude Code via MCP.
@@ -611,7 +638,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `cli` `debate` `mcp` `llm`
   </details>
 
-- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 89` `updated ≤30d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
+- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 89` `updated ≤90d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
 
   It shifts security left by automating threat modeling, compliance gap analysis, and SAST/DAST triage using LLMs and RAG, reducing manual review bottlenecks for security teams.
 
@@ -647,7 +674,7 @@ _These are new or low-traffic entries being watched._
   `cli` `multi-agent` `terminal` `dashboard` `local`
   </details>
 
-- **[join.cloud](https://github.com/kushneryk/join.cloud)** `⭐ 66` `updated ≤30d` Join.cloud is a platform and SDK that provides real-time collaboration rooms where AI agents exchange messages, share files via git, and review each other's work using standard protocols like MCP and A2A. <details><summary>More about</summary>
+- **[join.cloud](https://github.com/kushneryk/join.cloud)** `⭐ 66` `updated ≤90d` Join.cloud is a platform and SDK that provides real-time collaboration rooms where AI agents exchange messages, share files via git, and review each other's work using standard protocols like MCP and A2A. <details><summary>More about</summary>
 
   It gives developers a structured runtime to coordinate multi-agent workflows, validation loops, and remote agent collaboration without building custom message-passing infrastructure.
 
@@ -771,6 +798,15 @@ _These are new or low-traffic entries being watched._
   _You now have a Slack channel for your bots to argue with each other across repos, ensuring that even your automation requires an organizational chart._
 
   `agent-orchestration` `multi-repo` `mcp` `local-first` `cross-repo`
+  </details>
+
+- **[sagecli](https://github.com/youwangd/sagecli)** `⭐ 3` `updated ≤30d` sagecli is a bash-based Unix-native control plane for orchestrating AI coding agent CLIs like Claude Code, Gemini CLI, and Codex. <details><summary>More about</summary>
+
+  It lets developers swap between or run multiple AI coding agents in parallel without lock-in, using only bash, jq, and tmux.
+
+  _Finally, a tool that treats AI agents like Unix processes — now we just need to remember which one we blamed for the broken build._
+
+  `agent-orchestration` `cli` `bash` `unix-native` `multi-agent`
   </details>
 
 - **[invinoveritas](https://github.com/babyblueviper1/invinoveritas)** `⭐ 0` `updated ≤30d` A Lightning-native platform for paid AI reasoning, agent-to-agent coordination, and marketplace services where autonomous agents earn Bitcoin via pay-per-use APIs and MCP endpoints. <details><summary>More about</summary>

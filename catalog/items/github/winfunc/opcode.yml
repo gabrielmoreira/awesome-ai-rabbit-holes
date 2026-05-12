@@ -23,33 +23,57 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21828
+    forks: 1690
+    license: AGPL-3.0
+    archived: false
+    created_at: "2025-06-19T13:53:26Z"
+    pushed_at: "2025-10-16T12:05:56Z"
+    description: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+    homepage: https://opcode.sh
+    topics:
+      - anthropic
+      - anthropic-claude
+      - claude
+      - claude-4
+      - claude-4-opus
+      - claude-4-sonnet
+      - claude-ai
+      - claude-code
+      - claude-code-sdk
+      - cursor
+      - ide
+      - llm
+      - llm-code
+      - rust
+      - tauri
+    last_checked_at: "2026-05-12T15:06:37.934Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.934Z"
+      bytes: 12944
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: opcode is a Tauri-based desktop GUI app and toolkit for managing Claude Code sessions, creating custom agents, and tracking usage.
+  why_it_matters: It provides a visual interface for Claude Code, making AI-assisted development more accessible and productive for developers who prefer GUIs over terminals.
+  mental_damage: Another layer of abstraction on top of an AI coding assistant that promises to make prompting less frustrating, while adding yet another app to your dock.
+  tags:
+    - claude-code
+    - gui
+    - agent-management
+    - desktop-app
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: opcode is a GUI enhancement for Claude Code, not a standalone coding agent, so it belongs in Extensions & Integrations as a UI workflow add-on.
+  evidence:
+    - "Repo description: 'A powerful GUI app and Toolkit for Claude Code'"
+    - "README: 'Think of opcode as your command center for Claude Code - bridging the gap between the command-line tool and a visual experience'"
+    - Features focus on session management, agent creation, MCP server management, and usage analytics—augmenting Claude Code rather than replacing it
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (21828) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +81,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.934Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:35:17.892Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

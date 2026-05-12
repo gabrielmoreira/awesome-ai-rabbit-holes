@@ -23,33 +23,55 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21400
+    forks: 2270
+    license: MIT
+    archived: false
+    created_at: "2025-10-28T08:55:32Z"
+    pushed_at: "2026-05-10T14:33:57Z"
+    description: A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+    homepage: https://officialskills.sh/
+    topics:
+      - agent-skills
+      - ai-agents
+      - antigravity-skills
+      - awesome
+      - awesome-list
+      - awesome-lists
+      - claude-code
+      - claude-code-skills
+      - claude-skills
+      - codex-skills
+      - cursor-skills
+      - gemini-skills
+      - opencode-skills
+      - skills
+    last_checked_at: "2026-05-12T15:06:34.164Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:34.164Z"
+      bytes: 179720
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI.
+  why_it_matters: Saves developers time by providing vetted, production-grade skill packs from real engineering teams instead of AI-generated noise.
+  mental_damage: The quiet dread of realizing you’ve spent more time hunting for the right skill than actually coding.
+  tags:
+    - agent-skills
+    - skill-packs
+    - coding-assistants
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a curated directory of reusable agent skills, matching the core purpose of the skills category as a registry or directory of skill packs.
+  evidence:
+    - "Repo description: 'A curated collection of 1000+ agent skills from official dev teams and the community'"
+    - "README: 'Unlike many bulk-generated skill repositories, this collection focuses on real-world Agent Skills created and used by actual engineering teams'"
+    - "Source-list context: listed under 'awesome-LLM-resources' in the '技能 Skills' section"
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Registries & Directories
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (21400) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:34.164Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:27:46.893Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -39,30 +39,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 148
+    forks: 34
+    license: MIT
+    archived: false
+    created_at: "2024-10-21T12:24:05Z"
+    pushed_at: "2026-02-06T14:25:33Z"
+    description: kom 是一个用于 Kubernetes 操作的工具，SDK级的kubectl、client-go的使用封装。并且支持作为管理k8s 的 MCP server。 它提供了一系列功能来管理 Kubernetes 资源，包括创建、更新、删除和获取资源，甚至使用SQL查询k8s资源。这个项目支持多种 Kubernetes 资源类型的操作，并能够处理自定义资源定义（CRD）。 通过使用 kom，你可以轻松地进行资源的增删改查和日志获取以及操作POD内文件等动作。
+    homepage: https://github.com/weibaohui/kom
+    topics:
+      - client-go
+      - cluster
+      - crd
+      - k8s
+      - kom
+      - kubectl
+      - mcp
+      - sdk
+      - sql
+    last_checked_at: "2026-05-12T15:06:36.526Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:36.526Z"
+      bytes: 52820
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: kom is a Go SDK wrapper for Kubernetes operations that provides kubectl-like functionality with CRD support, SQL querying, and MCP server capabilities.
+  why_it_matters: It simplifies Kubernetes resource management for developers by offering a programmatic interface with advanced features like SQL queries and multi-cluster MCP support.
+  mental_damage: Another tool promising to replace kubectl while adding yet another layer to remember when your pod is crashing at 3 AM.
+  tags:
+    - kubernetes
+    - sdk
+    - mcp
+    - sql
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: kom is primarily a code-first SDK/library for Kubernetes operations that developers import and script against, making it a framework/SDK rather than an MCP server or coding agent.
+  evidence:
+    - Repo description describes kom as 'SDK级的kubectl、client-go的使用封装' (SDK-level encapsulation of kubectl/client-go usage)
+    - "README shows usage as Go imports: 'import (\"github.com/weibaohui/kom\")' and programmatic cluster registration"
+    - Core functionality is providing a library interface for Kubernetes operations (CRUD, SQL queries, POD file operations) that developers call from their code
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +91,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:36.526Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:33:11.077Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

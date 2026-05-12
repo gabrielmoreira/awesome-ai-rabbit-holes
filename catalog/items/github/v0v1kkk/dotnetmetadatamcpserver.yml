@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 26
+    forks: 10
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-07T10:39:01Z"
+    pushed_at: "2026-03-02T22:45:22Z"
+    description: A Model Context Protocol (MCP) server that provides detailed type information from .NET projects for AI coding agents.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:30.129Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:30.129Z"
+      bytes: 27168
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Model Context Protocol server that exposes .NET type information from assemblies and NuGet packages for AI coding agents.
+  why_it_matters: Helps AI coding agents generate accurate .NET code by providing structured type exploration without requiring a full build.
+  mental_damage: Yet another MCP server to install before your AI assistant can stop suggesting System.Object everywhere.
+  tags:
+    - mcp
+    - .net
+    - type-exploration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose core identity is providing .NET type metadata via the Model Context Protocol, making it MCP infrastructure rather than a coding agent or extension.
+  evidence:
+    - "Repo description: 'A Model Context Protocol (MCP) server that provides detailed type information from .NET projects for AI coding agents.'"
+    - "README: 'The .NET Types Explorer MCP Server is a powerful tool designed to help AI coding agents understand and work with .NET codebases.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:30.129Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:21:11.695Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

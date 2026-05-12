@@ -24,17 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 480
+    forks: 38
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-09T22:56:17Z"
+    pushed_at: "2026-03-04T20:24:42Z"
+    description: Like catnip, a highly addictive agentic coding tool
+    homepage: https://catnip.run
+    topics:
+      - ai
+      - claude-code
+      - cli
+      - devcontainer
+      - devcontainer-feature
+      - golang
+      - golang-application
+      - ios-swift
+      - swiftui
+      - typescript
+    last_checked_at: "2026-05-12T15:06:35.259Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.259Z"
+      bytes: 11716
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +61,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (480) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +70,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.259Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:29:19.882Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__wandb__catnip: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Catnip pri\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

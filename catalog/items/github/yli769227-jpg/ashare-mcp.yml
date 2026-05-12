@@ -24,30 +24,50 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-27T08:40:26Z"
+    pushed_at: "2026-05-09T03:17:02Z"
+    description: MCP server for Chinese A-share financial statements. 把 A 股财报变成 LLM 可调的工具。
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - a-share
+      - agent
+      - akshare
+      - anthropic
+      - finance
+      - financial-analysis
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-05-12T15:06:42.781Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:42.781Z"
+      bytes: 6468
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server that exposes Chinese A-share financial statements as callable tools via akshare and FastMCP.
+  why_it_matters: Lets LLMs retrieve structured Chinese financial data without custom scraping, simplifying finance-agent workflows.
+  mental_damage: Another niche MCP server promising to finally make LLMs useful for stock homework, while you still have to verify the numbers yourself.
+  tags:
+    - mcp
+    - finance
+    - a-share
+    - akshare
+    - financial-data
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server whose core identity is providing financial data tools to LLM clients, matching the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'MCP server for Chinese A-share financial statements'"
+    - "README: 'An MCP server that turns Chinese A-share financial statements into tools your LLM can call'"
+    - "Source-list: listed in awesome-mcp-servers under Finance & Fintech > Server Implementations"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:42.781Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:45:31.833Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

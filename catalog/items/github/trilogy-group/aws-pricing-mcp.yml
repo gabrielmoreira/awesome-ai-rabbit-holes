@@ -39,30 +39,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 21
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-05-02T13:33:29Z"
+    pushed_at: "2025-07-24T14:38:51Z"
+    description: An MCP server that exposes AWS EC2 pricing data with an option to search by CPU, RAM, networking
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:26.277Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.277Z"
+      bytes: 1459
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes live AWS EC2 pricing data, supporting filtered searches by vCPU, RAM, networking, and region via traditional or serverless Lambda deployment.
+  why_it_matters: It surfaces real-time AWS infrastructure cost data directly inside MCP-enabled editors and agents, letting developers compare instance pricing without leaving their workflow.
+  mental_damage: Your coding assistant can now generate infrastructure cost estimates alongside your bugs, surfacing cloud billing anxiety directly in the context window.
+  tags:
+    - mcp
+    - aws
+    - ec2
+    - cloud-pricing
+    - infrastructure
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's entire identity is as a Model Context Protocol server for AWS EC2 pricing lookups, fitting squarely in the MCP Servers & Tooling category under Domain Servers.
+  evidence:
+    - Repository name and description explicitly brand it as 'aws-pricing-mcp' and 'An MCP server that exposes AWS EC2 pricing data'.
+    - README centers on MCP protocol compliance, JSON-RPC 2.0, and deployment guides for the server rather than general library usage.
+    - Listed in awesome-mcp-servers under Cloud Platforms, confirming community categorization as MCP infrastructure.
+    - Active and unarchived with recent development push on 2025-07-24.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,15 +84,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:55.652Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for trilogy-group/aws-pricing-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.277Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:08:35.817Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -1,0 +1,77 @@
+id: www__deeplearning__ai__courses__knowledge__graphs__rag
+kind: website
+name: knowledge-graphs-rag
+canonical_url: https://www.deeplearning.ai/courses/knowledge-graphs-rag
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__deeplearning__ai__courses__knowledge__graphs__rag__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: Knowledge Graphs for RAG
+        extracted_url: https://www.deeplearning.ai/short-courses/knowledge-graphs-rag
+        surrounding_text: 26. [Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An intermediate-level short course on using Neo4j and Cypher to build knowledge graphs for retrieval-augmented generation applications.
+  why_it_matters: Teaches developers how to structure unstructured text into knowledge graphs and retrieve relevant context for LLMs using vector indexing and Cypher queries.
+  mental_damage: Another reminder that your RAG pipeline still needs a graph database, a vector index, and a prayer to outperform naive similarity search.
+  tags:
+    - knowledge-graphs
+    - rag
+    - neo4j
+    - cypher
+    - course
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational course, not a standalone developer tool, framework, or workflow product, so it does not belong in a catalog of practical AI tools for software development.
+  evidence:
+    - Scraped site context identifies it as a 'Short Course' from DeepLearning.AI with video lessons, code examples, and a graded assignment.
+    - Source-list context shows it is categorized under '课程 Course' in awesome-LLM-resources, indicating its role as learning material.
+    - No evidence of a reusable tool, CLI, library, or platform — the primary artifact is instructional content for understanding and building knowledge graphs.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T16:01:14.014Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

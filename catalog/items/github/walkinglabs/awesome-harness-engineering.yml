@@ -23,33 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 2400
+    forks: 181
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-29T11:29:37Z"
+    pushed_at: "2026-05-12T06:23:09Z"
+    description: 🛠️ Awesome tools & guides for harness engineering.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:35.003Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.003Z"
+      bytes: 27992
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows.
+  why_it_matters: Helps developers improve agent reliability by collecting resources on context, evaluation, orchestration, and runtime control for long-running coding and research tasks.
+  mental_damage: Another awesome list promising to fix agent unreliability while the real harness remains a README and a prayer.
+  tags:
+    - awesome-list
+    - agent-reliability
+    - harness-engineering
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a curated directory with a clear developer-tooling focus on agent reliability, fitting the discovery and navigation purpose of awesome lists.
+  evidence:
+    - "Repo description: '🛠️ Awesome tools & guides for harness engineering.'"
+    - "README: 'A curated list of articles, playbooks, benchmarks, specifications, and open-source projects for harness engineering'"
+    - "Source-list context: listed in awesome-spec-driven-development under Related Lists"
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2400) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.003Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:28:57.992Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,27 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 19
+    forks: 3
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2025-12-29T20:30:37Z"
+    pushed_at: "2026-05-06T12:33:48Z"
+    description: Trade Robinhood via Claude Code - MCP Server
+    homepage: ""
+    topics:
+      - ai
+      - claude
+      - claude-code
+      - llm
+      - mcp
+      - robinhood
+      - trading
+    last_checked_at: "2026-05-12T15:06:26.010Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.010Z"
+      bytes: 4304
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets Claude Code and Claude.ai execute stock trades, manage portfolios, and place complex orders on Robinhood via natural language.
+  why_it_matters: It demonstrates how MCP can turn a coding assistant into a conversational interface for consumer financial APIs, though it targets personal trading rather than developer workflows.
+  mental_damage: Finally, you can lose your entire portfolio in a chat window without even writing a line of code.
+  tags:
+    - mcp
+    - claude-code
+    - finance
+    - robinhood
+    - trading
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because the project is an end-user stock-trading integration, not a software developer tool or adjacent infrastructure; the catalog is not a generic MCP directory.
+  evidence:
+    - Repo description is 'Trade Robinhood via Claude Code - MCP Server', describing a consumer brokerage integration, not a dev tool.
+    - "README lists only finance features: portfolio analysis, real-time quotes, buy/sell orders, short selling, ladder orders, and batch orders on Robinhood."
+    - Present in awesome-mcp-servers under Finance & Fintech, confirming its domain is finance rather than software development.
 placement:
   primary_category: null
   section: null
@@ -58,15 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:55.025Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for trayders/trayd-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.010Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:07:43.879Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

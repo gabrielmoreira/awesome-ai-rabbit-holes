@@ -24,33 +24,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 15696
+    forks: 1935
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-07-28T08:17:01Z"
+    pushed_at: "2026-03-17T10:48:41Z"
+    description: "Wan: Open and Advanced Large-Scale Video Generative Models"
+    homepage: https://wan.video
+    topics:
+      - aigc
+      - video-generation
+    last_checked_at: "2026-05-12T15:06:35.127Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.127Z"
+      bytes: 35345
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Wan2.2 is an open-source Mixture-of-Experts video generation model for text-to-video and image-to-video synthesis at 720P resolution.
+  why_it_matters: It enables developers to generate high-quality, controllable video content locally or via integrated frameworks like Diffusers and ComfyUI without relying on closed-source APIs.
+  mental_damage: Another week, another state-of-the-art video model that makes your prompt engineering feel like spellcasting with unstable diffusion.
+  tags:
+    - video-generation
+    - diffusion
+    - open-source
+    - local-ai
+    - multimodal
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Wan2.2 is a foundational video generative model, not a developer-facing tool, agent, or workflow product; it lacks any coding assistant, app-building, or orchestration identity despite being useful in AI pipelines.
+  evidence:
+    - "Repo description: 'Wan: Open and Advanced Large-Scale Video Generative Models'"
+    - README focuses on model architecture (MoE), training data, video demos, and integrations into Diffusers/ComfyUI — not developer tooling or workflows
+    - No evidence of code editing, agent behavior, prompt-to-app generation, or local runtime tooling; it is a model checkpoint released under Apache-2.0
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (15696) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.127Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:29:51.490Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

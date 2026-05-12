@@ -22,6 +22,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `cli` `model-routing` `claude-code` `multi-provider` `terminal`
   </details>
 
+- **[agent-browser](https://github.com/vercel-labs/agent-browser)** `⭐ 32.8k` `updated ≤30d` Browser automation CLI for AI agents. <details><summary>More about</summary>
+
+  Enables AI agents to programmatically control browsers using native Rust performance without Node.js or Playwright dependencies.
+
+  _Finally, a way to make your AI agent feel less like a confused intern and more like a browser-automating intern with Rust speed._
+
+  `browser-automation` `cli` `ai-agents`
+  </details>
+
 - **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27k` `updated ≤30d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
 
   It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
@@ -29,6 +38,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _We have finally solved the problem of AI agents writing 4,000 lines of code that almost work by introducing a task manager that requires its own API keys and another layer of prompt-driven ceremony._
 
   `task-management` `mcp` `cursor` `claude-code` `ai-workflow`
+  </details>
+
+- **[opcode](https://github.com/winfunc/opcode)** `⭐ 21.8k` `updated ≤1y` opcode is a Tauri-based desktop GUI app and toolkit for managing Claude Code sessions, creating custom agents, and tracking usage. <details><summary>More about</summary>
+
+  It provides a visual interface for Claude Code, making AI-assisted development more accessible and productive for developers who prefer GUIs over terminals.
+
+  _Another layer of abstraction on top of an AI coding assistant that promises to make prompting less frustrating, while adding yet another app to your dock._
+
+  `claude-code` `gui` `agent-management` `desktop-app`
   </details>
 
 - **[happy](https://github.com/slopus/happy)** `⭐ 20.2k` `updated ≤30d` A mobile and web client for Claude Code and Codex that wraps the CLI to enable remote, encrypted, cross-device control of coding sessions. <details><summary>More about</summary>
@@ -85,6 +103,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `readme-generator` `cli` `documentation` `llm` `python`
   </details>
 
+- **[viewer](https://github.com/zetane/viewer)** `⭐ 1.8k` `updated >1y` Zetane Viewer is a 3D visualizer for ML models and internal tensors, supporting ONNX and ZTN formats. <details><summary>More about</summary>
+
+  It helps developers debug and understand model behavior by visualizing architecture, weights, and activations in an interactive 3D interface.
+
+  _Another tool to convince yourself you understand your black box while the real issue is still your learning rate._
+
+  `ml-visualization` `model-inspection` `debugging`
+  </details>
+
 - **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 1.8k` `updated ≤30d` A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows. <details><summary>More about</summary>
 
   It provides much-needed attribution and provenance for AI-written code, helping developers understand the intent and context behind contributions from tools like Claude Code and Cursor.
@@ -112,7 +139,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `computer-use` `desktop-automation` `windows` `agent-integration`
   </details>
 
-- **[web-eval-agent](https://github.com/refreshdotdev/web-eval-agent)** `⭐ 1.2k` `updated ≤90d` An MCP server that launches a browser-use agent to autonomously execute, debug, and report on web app behavior directly from an IDE. <details><summary>More about</summary>
+- **[web-eval-agent](https://github.com/refreshdotdev/web-eval-agent)** `⭐ 1.2k` `updated ≤180d` An MCP server that launches a browser-use agent to autonomously execute, debug, and report on web app behavior directly from an IDE. <details><summary>More about</summary>
 
   It lets coding agents like Cursor or Claude Code verify their own frontend changes by running tasks through a real browser and returning UX, console, and network reports.
 
@@ -128,6 +155,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _We have successfully built a desktop wrapper to manage the growing pile of CLI agents we installed to avoid managing our actual codebase directly._
 
   `desktop-app` `worktree` `session-manager` `multi-agent` `tauri`
+  </details>
+
+- **[figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go)** `⭐ 838` `updated ≤30d` figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits. <details><summary>More about</summary>
+
+  It lets developers use AI assistants like Claude Code or Cursor to directly read and manipulate Figma files and generate code from designs, bypassing API limitations that hinder experimentation.
+
+  _Finally, a way to make your AI pair programmer feel useful while it redesigns your entire UI system in the time it takes to explain what a 'variant' is._
+
+  `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
 - **[figma-use](https://github.com/dannote/figma-use)** `⭐ 540` `updated ≤30d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
@@ -224,6 +260,15 @@ _These are new or low-traffic entries being watched._
   `rust` `cli` `skills` `mcp` `config-management`
   </details>
 
+- **[Taskyon](https://github.com/xyntopia/taskyon)** `⭐ 52` `updated ≤30d` Taskyon is a browser-based chat and agent interface that organizes AI interactions into dynamic task trees with local-first execution and tool extensibility. <details><summary>More about</summary>
+
+  It offers developers a flexible, local-first workflow for building personalized AI agents that can write their own tools and integrate with web apps via a simple snippet.
+
+  _Finally, an AI tool that promises to replace apps with task trees—because we definitely needed another way to over-engineer our to-do lists._
+
+  `local-first` `task-management` `ai-agent` `browser-based` `mcp`
+  </details>
+
 - **[claudebox](https://github.com/numtide/claudebox)** `⭐ 46` `updated ≤180d` A lightweight sandbox wrapper for Claude Code that uses bubblewrap or sandbox-exec to isolate the agent from the host system while allowing selective access to credentials. <details><summary>More about</summary>
 
   It lets developers run Claude Code with --dangerously-skip-permissions inside a controlled sandbox, reducing the risk of unwanted file system or environment surprises.
@@ -314,6 +359,15 @@ _These are new or low-traffic entries being watched._
   `security` `sandboxing` `microvm` `cli` `agents`
   </details>
 
+- **[a2a-langgraph](https://github.com/mifunedev/a2a-langgraph)** `⭐ 28` `updated >1y` A2A Protocol implementation built on LangGraph that exposes a currency conversion agent via the Agent-to-Agent protocol. <details><summary>More about</summary>
+
+  Provides a reference implementation for A2A protocol integration, enabling developers to build interoperable agents that can communicate and collaborate using standardized messaging.
+
+  _Yet another protocol wrapper that makes you wonder if we're building agents or just endless layers of abstraction on top of LangGraph._
+
+  `a2a` `langgraph` `agent-protocol`
+  </details>
+
 - **[vscode-awesome-copilot](https://github.com/timheuer/vscode-awesome-copilot)** `⭐ 27` `updated ≤90d` A VS Code extension that provides a tree-view browser for discovering, previewing, and downloading customizations from the awesome-copilot repository into your workspace. <details><summary>More about</summary>
 
   It streamlines the adoption of community-contributed Copilot instructions, prompts, agents, and skills by removing the friction of manually fetching files from GitHub.
@@ -339,6 +393,15 @@ _These are new or low-traffic entries being watched._
   _You can finally stop heroically babysitting a context window like a project manager, only to be replaced by a plugin that does the babysitting for you._
 
   `claude-code` `plugin` `autonomous` `tdd` `cli`
+  </details>
+
+- **[safe-docx](https://github.com/usejunior/safe-docx)** `⭐ 25` `updated ≤30d` Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation. <details><summary>More about</summary>
+
+  Enables coding agents to reliably edit Word documents in legal and business workflows where formatting must survive automation.
+
+  _Finally, an excuse to let your AI touch the one file format you swore you’d never automate._
+
+  `docx` `mcp` `typescript` `word-editing` `agents`
   </details>
 
 - **[AgentManager](https://github.com/kevinelliott/agentmanager)** `⭐ 24` `updated ≤30d` A CLI and TUI application for detecting, installing, and updating AI development CLI agents like Claude Code, Aider, and Gemini CLI across multiple platforms. <details><summary>More about</summary>
@@ -386,6 +449,15 @@ _These are new or low-traffic entries being watched._
   `terminal` `automation` `mcp` `headless` `node-pty`
   </details>
 
+- **[memi](https://github.com/sarveshsea/memi)** `⭐ 10` `updated ≤30d` memi is a CLI and daemon that exports design tokens and components from Tailwind apps into shadcn-native registries for AI coding agents. <details><summary>More about</summary>
+
+  It gives AI coding agents memory of a project's design system so they can edit code without breaking UI consistency.
+
+  _Finally, a way to make AI feel less like a bull in a china shop and more like a designer who actually read the style guide._
+
+  `design-system` `ai-agents` `cli` `shadcn` `tailwind`
+  </details>
+
 - **[m-moire](https://github.com/sarveshsea/m-moire)** `⭐ 9` `updated ≤30d` A CLI, MCP server, and desktop toolkit that audits Tailwind and shadcn/ui apps, extracts design tokens, and exports shadcn-native registries so coding agents share the same design-system memory. <details><summary>More about</summary>
 
   It gives Codex, Claude Code, Cursor, and other agents a shared, auditable design context so AI-generated UI changes stay consistent instead of drifting into unstyled chaos.
@@ -395,6 +467,15 @@ _These are new or low-traffic entries being watched._
   `design-ci` `shadcn` `tailwind` `mcp` `agent-skills`
   </details>
 
+- **[longhand](https://github.com/wynelson94/longhand)** `⭐ 8` `updated ≤30d` Lossless local memory for Claude Code that stores every tool call, file edit, and thinking block verbatim in SQLite for searchable recall. <details><summary>More about</summary>
+
+  It prevents Claude Code's automatic session rotation from erasing developer history, enabling instant retrieval of past decisions and code changes without API calls.
+
+  _Another tool to install just to remember what your AI assistant forgot, because apparently persistence is now a premium feature._
+
+  `claude-code` `local-memory` `mcp-server` `sqlite`
+  </details>
+
 - **[claude-concilium](https://github.com/spyrae/claude-concilium)** `⭐ 7` `updated ≤90d` A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus. <details><summary>More about</summary>
 
   Developers can get second and third opinions from different LLMs directly inside Claude Code, reducing blind spots and local-optimum bugs without leaving the assistant.
@@ -402,6 +483,15 @@ _These are new or low-traffic entries being watched._
   _We have finally achieved the logical endpoint of 2025: orchestrating a committee of LLMs to argue about your race conditions while you pray one of them is having a good token day._
 
   `mcp` `multi-agent` `code-review` `claude-code` `consultation`
+  </details>
+
+- **[codachi](https://github.com/vincent-k2026/codachi)** `⭐ 7` `updated ≤30d` Codachi is a tamagotchi-style virtual pet that lives in the Claude Code statusline, showing context usage, rate limits, git state, and playful mood messages. <details><summary>More about</summary>
+
+  It adds lightweight, zero-overhead productivity awareness and delight to Claude Code sessions without consuming tokens or making API calls.
+
+  _Now you have to worry about your virtual pet's feelings while already juggling context windows and rate limits._
+
+  `claude-code` `statusline` `productivity` `tamagotchi` `cli`
   </details>
 
 - **[mureo](https://github.com/logly/mureo)** `⭐ 7` `updated ≤30d` A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs. <details><summary>More about</summary>
@@ -447,6 +537,15 @@ _These are new or low-traffic entries being watched._
   _We’ve reached the point where the assistant needs its own project manager, quality inspector, and team of agents just to avoid shipping AI-generated spaghetti._
 
   `claude-code` `plugin` `multi-agent` `project-management` `workflow`
+  </details>
+
+- **[snaprender-integrations](https://github.com/user0856/snaprender-integrations)** `⭐ 1` `updated ≤30d` SnapRender Integrations provides MCP servers, SDKs, and agent framework plugins for the SnapRender Screenshot API. <details><summary>More about</summary>
+
+  Developers can programmatically capture and cache website screenshots from AI agents and workflows using standard MCP and SDK interfaces.
+
+  _Yet another screenshot API wrapped in MCP tooling so your AI agent can finally see the cookie banner it’s supposed to block._
+
+  `mcp` `sdk` `screenshot-api` `agent-integrations`
   </details>
 
 - **[touch-grass](https://github.com/nalediym/touch-grass)** `⭐ 1` `updated ≤30d` A Claude Code plugin and MCP server that injects weather, sunset, and streak data to prompt developers to take context-aware breaks during coding sessions. <details><summary>More about</summary>

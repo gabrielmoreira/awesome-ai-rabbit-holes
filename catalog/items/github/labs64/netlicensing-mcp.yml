@@ -45,18 +45,24 @@ metadata:
       fetched_at: "2026-05-06T22:44:53.811Z"
       bytes: 12444
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: NetLicensing MCP Server is a natural language interface that enables agentic applications to manage software licensing via Labs64 NetLicensing without writing API calls.
+  why_it_matters: It lets developers integrate licensing workflows into agentic apps using plain language instead of direct API integration.
+  mental_damage: Another MCP server promising to replace API calls with chat, as if licensing complexity vanishes when you whisper it to a model.
+  tags:
+    - mcp
+    - licensing
+    - agentic
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an MCP server whose core identity is providing licensing-as-a-service via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'The official NetLicensing MCP Server is a natural language interface that enables agentic applications to manage the full software licensing lifecycle in Labs64 NetLicensing 👉🏼 without writing a single API call.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms."
+    - "Topics include: mcp, mcp-server, netlicensing, licensing-as-a-service, llm"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -72,12 +78,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:08:17.619Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__labs64__netlicensing-mcp: Invalid AI response format: SyntaxError: Bad escaped character in JSON at position 496 (line 4 column 125)"
+    status: done
+    updated_at: "2026-05-12T15:55:24.097Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

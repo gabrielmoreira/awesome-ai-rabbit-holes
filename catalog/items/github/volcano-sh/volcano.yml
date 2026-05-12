@@ -24,17 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5553
+    forks: 1361
+    license: Apache-2.0
+    archived: false
+    created_at: "2019-03-14T09:47:29Z"
+    pushed_at: "2026-05-12T11:22:19Z"
+    description: A Cloud Native Batch System (Project under CNCF)
+    homepage: https://volcano.sh
+    topics:
+      - ai
+      - batch-systems
+      - bigdata
+      - gene
+      - golang
+      - hpc
+      - kubernetes
+      - machine-learning
+      - serving
+      - training
+    last_checked_at: "2026-05-12T15:06:34.041Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:34.041Z"
+      bytes: 15601
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +61,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (5553) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +70,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:34.041Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:27:38.268Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__volcano-sh__volcano: Invalid AI response format: SyntaxError: Unexpected token 'V', ...\"_reason\": Volcano is\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -39,17 +39,23 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 853
+    forks: 198
+    license: MIT
+    archived: false
+    created_at: "2025-03-22T01:01:45Z"
+    pushed_at: "2026-03-15T22:14:00Z"
+    description: This MCP server integrates with your Google Drive and Google Sheets, to enable creating and modifying spreadsheets.
+    homepage: ""
+    topics:
+      - google
+      - mcp
+      - mcp-server
+      - spreadsheet
+    last_checked_at: "2026-05-12T15:06:40.339Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:40.339Z"
+      bytes: 32661
 insights:
   summary: null
   why_it_matters: null
@@ -64,8 +70,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (853) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +79,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:40.339Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:40:58.175Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__xing5__mcp-google-sheets: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

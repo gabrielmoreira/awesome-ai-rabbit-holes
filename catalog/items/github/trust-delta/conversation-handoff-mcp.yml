@@ -24,17 +24,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-12-04T15:08:09Z"
+    pushed_at: "2026-05-08T16:48:32Z"
+    description: MCP server for transferring conversation context between AI chats and projects
+    homepage: https://www.npmjs.com/package/conversation-handoff-mcp
+    topics:
+      - ai
+      - mcp
+      - mcp-client
+      - mcp-server
+      - typescript
+    last_checked_at: "2026-05-12T15:06:26.580Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.579Z"
+      bytes: 14131
 insights:
   summary: null
   why_it_matters: null
@@ -58,15 +65,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:56.319Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for trust-delta/conversation-handoff-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.580Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-12T15:11:22.931Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__trust-delta__conversation-handoff-mcp: ```json
+        {
+          "summary": "MCP server that persists, tags, and transfers conversation context between AI chats and projects.",
+          "why_it_matters": "It lets developers resume work across separate chat sessions or different MCP-compatible clients without losing conversation context.",
+          "mental_damage": "Because an AI trained on the entire internet still needs a dedicated courier service to remember what you were doing in the other chat window.",
+          "tags": ["mcp", "context-handoff", "conversation-memory", "developer-tooling"],
+          "should_include": true,
+          "primary_category": "mcp",
+          "section": "Domain Servers",
+          "decision_reason": "The repository is explicitly an MCP server whose entire product identity is providing conversation handoff infrastructure between AI chats and projects.",
+          "decision_evidence": [
+            "Repo name and description identify it as an MCP server for transferring conversation context between AI chats and projects",
+            "README lists MCP-native methods like handoff_save and handoff_search for Claude, Cursor, Codex, and Gemini clients",
+            "Listed in awesome-mcp-servers under Knowledge & Memory, confirming its role as MCP infrastructure"
+          ],
+          "category_candidates": ["m
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

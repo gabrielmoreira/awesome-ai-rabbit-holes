@@ -38,33 +38,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 985
+    forks: 75
+    license: Apache-2.0
+    archived: false
+    created_at: "2023-04-26T21:46:58Z"
+    pushed_at: "2024-11-22T20:02:14Z"
+    description: "🔍 LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). 📚 Extracts signals from prompts & responses, ensuring safety & security. 🛡️ Features include text quality, relevance metrics, & sentiment analysis. 📊 A comprehensive tool for LLM observability. 👀"
+    homepage: https://whylabs.ai
+    topics:
+      - large-language-models
+      - machine-learning
+      - nlg
+      - nlp
+      - observability
+      - prompt-engineering
+      - prompt-injection
+    last_checked_at: "2026-05-12T15:06:37.389Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.389Z"
+      bytes: 3946
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess quality, security, and sentiment.
+  why_it_matters: It gives developers observability into LLM behavior in production, helping detect issues like prompt injection or hallucinations before they cause harm.
+  mental_damage: Finally, a way to quantify the existential dread of deploying non-deterministic text generators into critical systems.
+  tags:
+    - llm-observability
+    - ai-safety
+    - mlops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: LangKit is an LLM observability toolkit focused on measuring and monitoring model outputs for safety and quality, aligning with the evals category's core purpose of assessing AI behavior rather than acting as a coding assistant or app builder.
+  evidence:
+    - "Repo description: 'LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). Extracts signals from prompts & responses, ensuring safety & security.'"
+    - "README: 'Productionizing language models... comes with a range of risks... The unstructured nature of text poses a challenge in the ML observability space'."
+    - Features include text quality, relevance, security/privacy (jailbreaks, prompt injection, hallucinations), and sentiment/toxicity analysis — all evaluation metrics.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (985) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -72,13 +87,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.389Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:34:41.835Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

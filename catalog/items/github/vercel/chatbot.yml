@@ -24,33 +24,50 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 20287
+    forks: 6558
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-05-19T16:36:23Z"
+    pushed_at: "2026-04-17T14:05:43Z"
+    description: A full-featured, hackable Next.js AI chatbot built by Vercel
+    homepage: https://chatbot.ai-sdk.dev
+    topics:
+      - ai
+      - chatgpt
+      - nextjs
+      - react
+      - redis
+      - shadcn-ui
+      - vercel
+    last_checked_at: "2026-05-12T15:06:31.336Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:31.336Z"
+      bytes: 3575
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications.
+  why_it_matters: Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
+  mental_damage: Another reminder that 'hackable' often means 'you'll spend more time customizing than actually chatting'.
+  tags:
+    - chatbot
+    - nextjs
+    - ai-sdk
+    - vercel
+    - open-source
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a template that turns prompts into deployed chat applications rather than assisting with editing existing codebases, fitting the app-builder pattern.
+  evidence:
+    - "Repo description: 'A full-featured, hackable Next.js AI chatbot built by Vercel'"
+    - "README: 'helps you quickly build powerful chatbot applications' and 'Deploy Your Own' with one-click Vercel deployment"
+    - "Features focus on app scaffolding: Next.js App Router, AI SDK, shadcn/ui, data persistence, and Auth.js for new chatbot creation"
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Prompt-to-App Builders
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (20287) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:31.336Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:23:39.231Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

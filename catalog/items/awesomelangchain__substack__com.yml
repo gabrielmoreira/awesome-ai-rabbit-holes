@@ -1,0 +1,75 @@
+id: awesomelangchain__substack__com
+kind: website
+name: awesomelangchain.substack.com
+canonical_url: https://awesomelangchain.substack.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__awesomelangchain__substack__com__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: Subscribe to the newsletter
+        extracted_url: https://awesomelangchain.substack.com
+        surrounding_text: "**[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed our attention"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates.
+  why_it_matters: It helps developers stay informed about the LangChain ecosystem through curated content and tutorials.
+  mental_damage: Another AI newsletter promising to keep you updated, while your tab count and anxiety both grow exponentially.
+  tags:
+    - newsletter
+    - langchain
+    - ai
+  confidence: medium
+curation:
+  status: included
+  reason: It is a recurring publication focused on LangChain tooling and updates, making it a developer-facing newsletter rather than a standalone tool or directory.
+  evidence:
+    - Source-list context shows it is featured in 'awesome-langchain' as a curated resource
+    - The URL is a Substack domain, indicating a newsletter/publishing platform
+    - No evidence of it being a tool, framework, or agent — it is a content feed
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:58:12.121Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

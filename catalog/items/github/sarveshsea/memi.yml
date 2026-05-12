@@ -1,0 +1,102 @@
+id: github__sarveshsea__memi
+kind: github-repo
+name: memi
+canonical_url: https://github.com/sarveshsea/memi
+identity:
+  github_repo: sarveshsea/memi
+provenance:
+  discoveries:
+    - id: discovery__github__sarveshsea__memi__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: sarveshsea/m-moire
+        extracted_url: https://github.com/sarveshsea/m-moire
+        surrounding_text: "- [sarveshsea/m-moire](https://github.com/sarveshsea/m-moire) [![m-moire MCP server](https://glama.ai/mcp/servers/sarveshsea/m-moire/badges/score.svg)](https://glama.ai/mcp/servers/sarveshsea/m-moire) 📇 🏠 — Design system MCP server. 20 tools: extract design tokens from any URL, pull from Figma (REST or WebSocket) and Penpot, generate React + shadcn/ui components from specs, run WCAG audits, sync tokens bidirectionally."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-23T15:09:14Z"
+    pushed_at: "2026-05-12T04:18:08Z"
+    description: "Shadcn-native Design CI for Tailwind apps: export registries that work with shadcn, v0, AI editors, and npm."
+    homepage: https://memoire.cv
+    topics:
+      - cli
+      - code-generation
+      - design-ci
+      - design-system
+      - design-tokens
+      - figma
+      - mcp
+      - mcp-server
+      - registry-generator
+      - shadcn-native
+      - shadcn-registry
+      - shadcn-registry-generator
+      - tailwind
+      - tailwind-audit
+      - token-extraction
+      - tweakcn
+      - typescript
+      - ui-fix-plan
+      - ui-quality
+      - v0-design-system
+    last_checked_at: "2026-05-12T15:06:24.605Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:24.605Z"
+      bytes: 29004
+insights:
+  summary: memi is a CLI and daemon that exports design tokens and components from Tailwind apps into shadcn-native registries for AI coding agents.
+  why_it_matters: It gives AI coding agents memory of a project's design system so they can edit code without breaking UI consistency.
+  mental_damage: Finally, a way to make AI feel less like a bull in a china shop and more like a designer who actually read the style guide.
+  tags:
+    - design-system
+    - ai-agents
+    - cli
+    - shadcn
+    - tailwind
+  confidence: medium
+curation:
+  status: included
+  reason: memi primarily augments coding agents like Claude Code and Cursor with design-system memory and Figma context, making it an extension rather than a standalone assistant.
+  evidence:
+    - "README states: 'Give Claude Code, Cursor, and Codex memory of your tokens, components, and Figma — so they edit your app without breaking the design.'"
+    - Provides MCP config and skill kits for external agents, not a self-directed coding agent.
+    - Core function is exporting design tokens and components as registries for AI tool consumption.
+placement:
+  primary_category: ai-dev-extensions
+  section: Memory & Context Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-12T15:06:24.605Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:59:58.839Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -24,33 +24,45 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 15594
+    forks: 1812
+    license: NOASSERTION
+    archived: false
+    created_at: "2023-06-24T06:21:34Z"
+    pushed_at: "2024-06-27T04:05:08Z"
+    description: "ChatGLM2-6B: An Open Bilingual Chat LLM | 开源双语对话语言模型"
+    homepage: ""
+    topics:
+      - chatglm
+      - chatglm-6b
+      - large-language-models
+      - llm
+    last_checked_at: "2026-05-12T15:06:44.901Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:44.901Z"
+      bytes: 22088
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ChatGLM2-6B is an open bilingual (Chinese-English) large language model with 6 billion parameters, designed for dialogue and general-purpose language tasks.
+  why_it_matters: Provides developers with a permissively licensed, high-performance foundation model for building Chinese-English AI applications with strong reasoning and long-context capabilities.
+  mental_damage: Another week, another 6B-parameter model that promises to revolutionize your startup before you realize you still need to fine-tune it on your own data.
+  tags:
+    - llm
+    - open-model
+    - bilingual
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a raw large language model repository without developer-facing tooling, SDKs, or workflow integration; it serves as a foundation model checkpoint rather than a tool for developers to directly use in their workflow.
+  evidence:
+    - "Repo description: 'ChatGLM2-6B: An Open Bilingual Chat LLM | 开源双语对话语言模型'"
+    - README focuses on model features (performance, context length, inference efficiency) and licensing, not developer tooling or workflows
+    - No evidence of SDKs, CLI tools, extensions, or integrations that would make it a developer-facing product
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (15594) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:44.901Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:49:41.926Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

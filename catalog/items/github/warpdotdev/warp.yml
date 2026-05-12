@@ -39,33 +39,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 57868
+    forks: 4422
+    license: AGPL-3.0
+    archived: false
+    created_at: "2021-07-08T18:48:08Z"
+    pushed_at: "2026-05-12T14:56:42Z"
+    description: Warp is an agentic development environment, born out of the terminal.
+    homepage: https://warp.dev
+    topics:
+      - bash
+      - linux
+      - macos
+      - rust
+      - shell
+      - terminal
+      - wasm
+      - zsh
+    last_checked_at: "2026-05-12T15:06:35.368Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.368Z"
+      bytes: 6126
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Warp is an agentic development environment built as a modern terminal with integrated AI coding agent capabilities.
+  why_it_matters: It reimagines the terminal as an AI-powered workspace where developers can delegate coding tasks to built-in or external agents without leaving the command line.
+  mental_damage: Finally, a terminal that feels less like typing into a void and more like yelling at a junior dev who occasionally listens.
+  tags:
+    - terminal
+    - ai-agent
+    - developer-environment
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Warp functions as a standalone coding agent with built-in AI capabilities and support for external agents like Claude Code, positioning it as a primary developer assistant rather than an extension.
+  evidence:
+    - "Repo description: 'Warp is an agentic development environment, born out of the terminal'"
+    - "README: 'Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others)'"
+    - "Source-list: listed under 'Terminal-native coding agents > Closed Source' in awesome-cli-coding-agents"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (57868) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +89,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.368Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:29:58.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

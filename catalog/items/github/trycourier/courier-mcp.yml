@@ -24,30 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 1
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2025-07-24T16:34:13Z"
+    pushed_at: "2026-05-08T16:24:12Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:26.583Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:26.583Z"
+      bytes: 7184
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI agents with 60 tools to interact with the Courier notification API.
+  why_it_matters: It allows developers to delegate complex notification workflows—like managing user profiles, debugging deliveries, and configuring lists—directly to their coding assistants.
+  mental_damage: Because nothing says 'seamless workflow' like an LLM accidentally unsubscribing your entire user base from your transactional emails during a debugging session.
+  tags:
+    - mcp
+    - notifications
+    - courier
+    - api-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server designed to expose a specific domain API (notifications) to AI agents.
+  evidence:
+    - README explicitly identifies it as the 'official Model Context Protocol (MCP) server for the Courier notification API'
+    - Provides 60 specific tools for API resources like messages, profiles, and audiences
+    - Included in the 'awesome-mcp-servers' directory
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,15 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-06T22:46:56.367Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for trycourier/courier-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-12T15:06:26.583Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:12:58.930Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

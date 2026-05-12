@@ -24,30 +24,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 79
+    forks: 17
+    license: MIT
+    archived: false
+    created_at: "2025-08-16T12:51:33Z"
+    pushed_at: "2025-09-14T04:37:20Z"
+    description: Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB,DM8,Oracle,not only provides basic database connection such as OAuth 2.0 authentication , health checks, SQL optimization, and index health detection
+    homepage: ""
+    topics:
+      - ai
+      - dameng8
+      - dify
+      - mcp
+      - mcp-server
+      - mysql
+      - oauth2
+      - oracle
+      - postgresql
+      - sqlserver
+    last_checked_at: "2026-05-12T15:06:36.862Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:36.862Z"
+      bytes: 12275
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SmartDB is an MCP server that provides universal database connectivity and tooling for MySQL, PostgreSQL, Oracle, SQL Server, and Dameng databases.
+  why_it_matters: It lets MCP-compatible AI clients securely interact with and optimize multiple database systems through standardized tool calls.
+  mental_damage: Another day, another MCP server promising to make your AI less stupid about databases—until it times out on a JOIN.
+  tags:
+    - mcp
+    - database
+    - sql
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: SmartDB is an MCP server first and foremost, offering database-specific tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  evidence:
+    - "Repo description: 'Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB, DM8, Oracle'"
+    - "README: 'SmartDB is a universal database gateway that implements the Model Context Protocol (MCP) server interface'"
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:36.862Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:33:16.601Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

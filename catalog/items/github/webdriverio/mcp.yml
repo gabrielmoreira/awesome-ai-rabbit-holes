@@ -24,30 +24,46 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 27
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2025-12-24T09:35:16Z"
+    pushed_at: "2026-05-12T08:53:29Z"
+    description: A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers and mobile applications using WebDriverIO. Automate Chrome browsers, iOS apps, and Android apps—all through a unified interface.
+    homepage: https://www.npmjs.com/package/@wdio/mcp
+    topics:
+      - android
+      - appium
+      - browser
+      - ios
+      - mcp
+      - mobile
+      - testing
+      - webdriverio
+    last_checked_at: "2026-05-12T15:06:36.138Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:36.138Z"
+      bytes: 30852
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Model Context Protocol (MCP) server that enables AI assistants to automate web browsers and mobile applications using WebDriverIO.
+  why_it_matters: Lets developers give AI assistants direct, unified control over browser and mobile test automation through a standardized MCP interface.
+  mental_damage: Finally, your AI assistant can flake on end-to-end tests just like you do.
+  tags:
+    - mcp
+    - browser-automation
+    - webdriverio
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server as its core identity, providing browser and mobile automation via MCP, matching the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers and mobile applications using WebDriverIO.'"
+    - README emphasizes MCP server installation and configuration for AI assistants like Claude, Cursor, and VS Code.
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:36.138Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:32:03.476Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

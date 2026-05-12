@@ -23,33 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 929
+    forks: 154
+    license: GPL-3.0
+    archived: false
+    created_at: "2018-11-05T06:04:40Z"
+    pushed_at: "2026-03-24T05:53:32Z"
+    description: Curating a list of AutoML-related research, tools, projects and other resources
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-05-12T15:06:37.801Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:37.801Z"
+      bytes: 38350
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning.
+  why_it_matters: Helps developers discover and navigate the AutoML ecosystem by aggregating research and tooling in one place, reducing the overhead of manual discovery.
+  mental_damage: Another awesome list that feels useful until you realize you're now maintaining a list of lists instead of shipping code.
+  tags:
+    - automl
+    - awesome-list
+    - research
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a curated directory focused on AutoML resources, which fits the awesome-awesomes category as a navigation aid for developers exploring AI tooling, rather than a standalone product or framework.
+  evidence:
+    - "Repo description: 'Curating a list of AutoML-related research, tools, projects and other resources'"
+    - Appears in Awesome-LLMOps under the 'Awesome Lists' section
+    - README positions it as a curation of research papers and tools, not a tool or agent itself
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (929) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:37.801Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:35:07.984Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

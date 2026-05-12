@@ -52,18 +52,24 @@ metadata:
       fetched_at: "2026-05-06T22:43:39.330Z"
       bytes: 8188
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Docling is a document parsing library that converts PDF, DOCX, PPTX, HTML, and other formats into structured Markdown or JSON for AI workflows.
+  why_it_matters: It lets developers reliably extract clean text and tables from complex documents to feed LLMs, reducing hallucinations from poor input parsing.
+  mental_damage: Another tool promising to solve 'AI-ready documents' while secretly adding another YAML config and dependency tree to your RAG pipeline.
+  tags:
+    - document-parsing
+    - rag
+    - llm-ingestion
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Docling is a code-first parsing library developers import into pipelines to prepare documents for LLMs, matching the Frameworks & SDKs category's focus on reusable toolkits for AI workflows.
+  evidence:
+    - "Repo description: 'Get your documents ready for gen AI'"
+    - "Stars: 59256, pushed at 2026-05-06, MIT license, active maintenance"
+    - Primary function is parsing PDF/DOCX/etc. into Markdown/JSON for LLMs
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (59256) exceeded threshold (150)
@@ -79,12 +85,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T22:53:01.700Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__docling-project__docling: Invalid AI response format: Error: No JSON found in AI response"
+    status: done
+    updated_at: "2026-05-12T15:53:20.648Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

@@ -65,11 +65,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-06T22:55:44.178Z"
+    updated_at: "2026-05-12T15:53:38.704Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__felixbrock__lemon-agent: Excluded responses must use an empty category_candidates list"
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__felixbrock__lemon-agent: Invalid AI response format: SyntaxError: Unexpected token 'l', ...\"_reason\": lemon-agen\"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022

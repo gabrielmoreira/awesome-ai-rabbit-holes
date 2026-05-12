@@ -24,30 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 20
+    forks: 8
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-03-22T23:44:19Z"
+    pushed_at: "2026-05-12T14:26:35Z"
+    description: NEXO Brain — Shared brain for AI agents. Persistent memory, semantic RAG, natural forgetting, metacognitive guard, trust scoring, 150+ MCP tools. Works with Claude Code, Codex, Claude Desktop & any MCP client. 100% local, open source, free.
+    homepage: https://nexo-brain.com
+    topics:
+      - ai-memory
+      - atkinson-shiffrin
+      - autonomous-agent
+      - claude-code
+      - claude-code-plugin
+      - codex
+      - cognitive-architecture
+      - knowledge-graph
+      - local-first
+      - mcp
+      - mcp-server
+      - memory
+      - metacognition
+      - model-context-protocol
+      - natural-forgetting
+      - rag
+      - semantic-search
+      - shared-brain
+      - trust-scoring
+      - vector-search
+    last_checked_at: "2026-05-12T15:06:35.688Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:35.688Z"
+      bytes: 140864
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: NEXO Brain is a local, open-source shared memory system for AI agents with persistent storage, semantic RAG, and MCP tool integration.
+  why_it_matters: It gives AI coding agents long-term memory and context awareness, reducing repetitive prompting and improving continuity across sessions.
+  mental_damage: Finally, an AI that remembers your codebase better than you do after three context switches and a coffee break.
+  tags:
+    - memory
+    - mcp
+    - local-ai
+    - context-engineering
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: NEXO Brain’s core novelty is its persistent memory, semantic retrieval, and cognitive architecture—not acting as a coding assistant or host integration—making it a context-shaping infrastructure tool.
+  evidence:
+    - "Repo description: 'Shared brain for AI agents. Persistent memory, semantic RAG, natural forgetting, metacognitive guard, trust scoring, 150+ MCP tools.'"
+    - "README: 'Local cognitive runtime with a shared brain across Claude Code, Codex, Claude Desktop... transforms any MCP-compatible AI agent from a stateless assistant into a cognitive partner that remembers, learns, forgets, adapts...'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Knowledge & Memory', signaling its role as a memory layer, not an agent."
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +87,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:35.688Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:30:47.662Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

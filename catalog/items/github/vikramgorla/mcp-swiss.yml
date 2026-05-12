@@ -24,30 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-07T17:47:04Z"
+    pushed_at: "2026-05-11T08:33:08Z"
+    description: Swiss open data MCP server — transport, weather, geodata, companies, etc,. Zero API keys.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-12T15:06:33.079Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:33.079Z"
+      bytes: 22455
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: mcp-swiss is an MCP server that provides zero-configuration access to Swiss open data via 76 tools for transport, weather, geodata, and more.
+  why_it_matters: It lets developers enrich AI assistants with live Swiss public data without API keys or setup, lowering friction for data-augmented agent workflows.
+  mental_damage: Another day, another MCP server promising to be the missing context layer — as if the real problem wasn’t having too many of them already.
+  tags:
+    - mcp
+    - swiss-data
+    - ai-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: mcp-swiss is an MCP server whose core identity and value lie in exposing Swiss open data through the Model Context Protocol, making it a pure MCP infrastructure fit.
+  evidence:
+    - "Repo description: 'Swiss open data MCP server — transport, weather, geodata, companies, etc,. Zero API keys.'"
+    - "README: 'mcp-swiss is a Model Context Protocol server that gives any AI assistant direct access to Swiss open data' and lists 76 tools across domains."
+    - "Source-list context: included in awesome-mcp-servers under Server Implementations > Data Platforms."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:33.079Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:25:56.231Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

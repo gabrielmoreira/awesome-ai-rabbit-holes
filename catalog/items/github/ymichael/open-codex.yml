@@ -24,33 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2202
+    forks: 187
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-04-16T23:47:37Z"
+    pushed_at: "2025-05-03T23:35:44Z"
+    description: Lightweight coding agent that runs in your terminal
+    homepage: https://www.npmjs.com/package/open-codex
+    topics: []
+    last_checked_at: "2026-05-12T15:06:42.880Z"
+    readme:
+      fetched_at: "2026-05-12T15:06:42.880Z"
+      bytes: 20184
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Lightweight coding agent that runs in your terminal
+  why_it_matters: Lets developers use AI to edit files, run commands, and scaffold apps directly from the terminal with sandboxed execution and multi-provider support.
+  mental_damage: Finally, a way to feel productive while watching an AI nervously sandbox itself before touching your precious git history.
+  tags:
+    - terminal
+    - coding-agent
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a standalone terminal-based coding assistant that plans, writes, and executes code changes, fitting the core definition of a coding agent.
+  evidence:
+    - "Repo description: 'Lightweight coding agent that runs in your terminal'"
+    - "README: 'ChatGPT-level reasoning plus the power to actually run code, manipulate files, and iterate – all under version control'"
+    - "CLI usage: accepts prompts to scaffold files, run them in a sandbox, install dependencies, and show live results"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2202) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-12T15:06:42.880Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-06T22:47:07.182Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-12T15:45:22.521Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

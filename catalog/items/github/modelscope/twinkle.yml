@@ -37,15 +37,21 @@ metadata:
       fetched_at: "2026-05-06T22:45:24.276Z"
       bytes: 28220
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Twinkle is a training workbench for fine-tuning models to improve their performance.
+  why_it_matters: Provides developers with a streamlined interface to train and refine models without managing low-level infrastructure.
+  mental_damage: Another fine-tuning tool promising to make your model glow, as if the last twelve weren’t already trying to polish the same turd.
+  tags:
+    - fine-tuning
+    - training
+    - machine-learning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Twinkle is a model training workbench focused on fine-tuning, which does not directly assist developers in writing, editing, or debugging code, placing it outside the catalog’s developer-tooling scope.
+  evidence:
+    - "Repo description: 'Twinkle✨: Training workbench to make your model glow.'"
+    - "Source-list context: Listed under '微调 Fine-Tuning' in awesome-LLM-resources, which focuses on LLM resources including model training and inference."
+    - No evidence of coding assistance, IDE integration, or developer workflow enhancement in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -64,12 +70,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-06T23:15:23.120Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__modelscope__twinkle: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-05-12T15:55:49.181Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
