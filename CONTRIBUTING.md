@@ -58,7 +58,7 @@ Lower priority or out of scope:
 Useful checks:
 
 ```sh
-mise run llm:doctor --limit 3
+mise run llm:doctor --limit 5
 mise run catalog:validate
 ```
 
@@ -197,7 +197,7 @@ mise run catalog:clean
 mise run catalog:clean:cache
 mise run catalog:clean:data
 mise run catalog:clean:docs
-mise run llm:doctor --limit 3
+mise run llm:doctor --limit 5
 ```
 
 `mise tasks` is the quickest way to inspect the supported task surface.

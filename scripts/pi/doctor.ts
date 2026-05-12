@@ -2,7 +2,7 @@ import { fileURLToPath } from "node:url";
 import { getModel } from "@mariozechner/pi-ai";
 import { hasPiAiProviderAuth, resolvePiAiModelSpec, runPiFreeTextPrompt } from "./ai.ts";
 import { parsePositivePiCliInteger, requirePiCliValue } from "./cli.ts";
-import { parsePiFreeModelSpec, resolvePiFreeOrderedModels } from "./models.ts";
+import { parsePiFreeModelSpec, PI_FREE_MODEL_CYCLE } from "./models.ts";
 
 const DEFAULT_PROMPT = "Reply with exactly HI.";
 const DEFAULT_TIMEOUT_MS = 60_000;
@@ -11,6 +11,7 @@ const DEFAULT_LIMIT = 10;
 export type PiFreeProbeResult = {
   spec: string;
   provider: string;
+  status: "ok" | "failed" | "skipped";
   ok: boolean;
   elapsed_ms: number;
   error_type: string | null;
@@ -22,6 +23,7 @@ export type PiFreeDoctorReport = {
   attempted: number;
   succeeded: number;
   failed: number;
+  skipped: number;
   first_working_model: string | null;
   results: PiFreeProbeResult[];
 };
@@ -72,6 +74,17 @@ export function selectPiFreeDoctorTargets(
 export function classifyPiFreeProbeError(message: string): string {
   const normalized = message.toLowerCase();
   if (normalized.includes("timed out")) return "timeout";
+  if (
+    normalized.includes("connection error") ||
+    normalized.includes("network error") ||
+    normalized.includes("fetch failed") ||
+    normalized.includes("socket hang up") ||
+    normalized.includes("econnreset") ||
+    normalized.includes("econnrefused") ||
+    normalized.includes("enotfound")
+  ) {
+    return "network";
+  }
   if (normalized.includes("no longer available as a free model") || normalized.includes("transitioned to a paid model")) {
     return "not_free";
   }
@@ -109,26 +122,44 @@ export function classifyPiFreeProbeError(message: string): string {
 
 export function buildPiFreeDoctorReport(results: PiFreeProbeResult[]): PiFreeDoctorReport {
   return {
-    attempted: results.length,
+    attempted: results.filter((result) => result.status !== "skipped").length,
     succeeded: results.filter((result) => result.ok).length,
-    failed: results.filter((result) => !result.ok).length,
+    failed: results.filter((result) => result.status === "failed").length,
+    skipped: results.filter((result) => result.status === "skipped").length,
     first_working_model: results.find((result) => result.ok)?.spec ?? null,
     results,
   };
 }
 
 export function getPiFreeDoctorFailure(report: PiFreeDoctorReport): string | null {
-  const primary = report.results[0];
-  if (!primary) return "No probed pi-free model completed.";
-  if (primary.ok) return null;
-  return `Primary pi-free model failed: ${primary.spec} (${primary.error_type ?? "unknown"}) ${primary.error_message ?? "no details"}`;
+  if (report.first_working_model) return null;
+  if (report.attempted === 0 && report.skipped > 0) {
+    return "No runnable pi-free model is available in the current environment.";
+  }
+  return "No working pi-free model was found in the probed fallback set.";
 }
 
 function summarizeResult(result: PiFreeProbeResult): string {
+  if (result.status === "skipped") {
+    return `SKIP| ${result.elapsed_ms}ms | ${result.spec} | ${result.error_type ?? "unavailable"} | ${result.error_message ?? "not runnable in current environment"}`;
+  }
   if (result.ok) {
     return `OK  | ${result.elapsed_ms}ms | ${result.spec} | ${result.output_excerpt ?? "(no excerpt)"}`;
   }
   return `ERR | ${result.elapsed_ms}ms | ${result.spec} | ${result.error_type ?? "unknown"} | ${result.error_message ?? "no details"}`;
+}
+
+function buildSkippedResult(spec: string, errorType: string, errorMessage: string): PiFreeProbeResult {
+  return {
+    spec,
+    provider: parsePiFreeModelSpec(spec)?.provider ?? "unknown",
+    status: "skipped",
+    ok: false,
+    elapsed_ms: 0,
+    error_type: errorType,
+    error_message: errorMessage,
+    output_excerpt: null,
+  };
 }
 
 async function probeModel(spec: string, prompt: string, timeoutMs: number): Promise<PiFreeProbeResult> {
@@ -147,6 +178,7 @@ async function probeModel(spec: string, prompt: string, timeoutMs: number): Prom
     return {
       spec,
       provider,
+      status: "ok",
       ok: true,
       elapsed_ms: Date.now() - startedAt,
       error_type: null,
@@ -158,6 +190,7 @@ async function probeModel(spec: string, prompt: string, timeoutMs: number): Prom
     return {
       spec,
       provider,
+      status: "failed",
       ok: false,
       elapsed_ms: Date.now() - startedAt,
       error_type: classifyPiFreeProbeError(message),
@@ -167,36 +200,48 @@ async function probeModel(spec: string, prompt: string, timeoutMs: number): Prom
   }
 }
 
-function canProbeSpec(spec: string): boolean {
+function getProbeSkipResult(spec: string): PiFreeProbeResult | null {
   const resolved = resolvePiAiModelSpec(spec);
-  if (!resolved) return false;
-  if (!hasPiAiProviderAuth(resolved.provider)) return false;
-  return Boolean(getModel(resolved.provider as never, resolved.modelId as never));
+  if (!resolved) return buildSkippedResult(spec, "invalid_spec", "Invalid pi-free model spec.");
+  if (!hasPiAiProviderAuth(resolved.provider)) {
+    return buildSkippedResult(spec, "unavailable_env", `Provider ${resolved.provider} is unavailable in the current environment (missing credentials).`);
+  }
+  if (!getModel(resolved.provider as never, resolved.modelId as never)) {
+    return buildSkippedResult(spec, "unavailable_runtime", `Model ${resolved.modelId} is not available through provider ${resolved.provider} in the current runtime.`);
+  }
+  return null;
 }
 
 export async function runPiFreeDoctor(argv: string[] = process.argv.slice(2)): Promise<void> {
   const args = parsePiFreeDoctorArgs(argv);
-  const orderedModels = resolvePiFreeOrderedModels(process.env);
+  const orderedModels = Array.from(new Set(PI_FREE_MODEL_CYCLE));
   if (orderedModels.length === 0) {
-    throw new Error("No authenticated pi-free models are configured in the static fallback list.");
+    throw new Error("No pi-free models are configured in the static fallback list.");
   }
 
-  const targets = selectPiFreeDoctorTargets(orderedModels, args.limit, canProbeSpec);
-  if (targets.length === 0) {
-    throw new Error("No configured fallback spec is runnable through the shared llm task.");
-  }
-  console.log(`Probing ${targets.length}/${orderedModels.length} configured pi-free model(s) from the static fallback order...`);
+  const safeLimit = Number.isFinite(args.limit) && args.limit > 0 ? Math.floor(args.limit) : orderedModels.length;
+  console.log(`Probing up to ${safeLimit} runnable pi-free model(s) from the static fallback order...`);
 
   const results: PiFreeProbeResult[] = [];
-  for (const spec of targets) {
+  let attempted = 0;
+  for (const spec of orderedModels) {
+    const skipped = getProbeSkipResult(spec);
+    if (skipped) {
+      results.push(skipped);
+      console.log(summarizeResult(skipped));
+      continue;
+    }
+
     const result = await probeModel(spec, args.prompt, args.timeoutMs);
     results.push(result);
     console.log(summarizeResult(result));
+    attempted += 1;
+    if (attempted >= safeLimit) break;
   }
 
   const report = buildPiFreeDoctorReport(results);
   console.log(
-    `doctor summary: attempted=${report.attempted} succeeded=${report.succeeded} failed=${report.failed} first=${report.first_working_model ?? "(none)"}`,
+    `doctor summary: attempted=${report.attempted} succeeded=${report.succeeded} failed=${report.failed} skipped=${report.skipped} first=${report.first_working_model ?? "(none)"}`,
   );
 
   const failure = getPiFreeDoctorFailure(report);

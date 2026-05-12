@@ -1,7 +1,6 @@
 import { afterEach, describe, expect, it } from "vitest";
 import {
   PI_FREE_MODEL_CYCLE,
-  PI_FREE_PRIMARY_MODEL,
   PI_FREE_RECENT_FAILURE_TTL_MS,
   isPiFreeRetryableError,
   listPiFreeRecentFailureRecords,
@@ -37,28 +36,28 @@ describe("pi-free model selection", () => {
 
     const ordered = resolvePiFreeOrderedModels(env);
     expect(ordered.slice(0, 5)).toEqual([
-      PI_FREE_PRIMARY_MODEL,
-      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-      "openrouter/openai/gpt-oss-120b:free",
-      "openrouter/google/gemma-4-31b-it:free",
-      "openrouter/z-ai/glm-4.5-air:free",
+      "nvidia/moonshotai/kimi-k2.6",
+      "nvidia/deepseek-ai/deepseek-v4-pro",
+      "nvidia/z-ai/glm-5.1",
+      "nvidia/z-ai/glm5",
+      "nvidia/minimaxai/minimax-m2.7",
     ]);
-    expect(ordered[0] ?? null).toBe(PI_FREE_PRIMARY_MODEL);
+    expect(ordered[0] ?? null).toBe("nvidia/moonshotai/kimi-k2.6");
   });
 
-  it("prefers the curated free primary model when only OpenRouter is configured", () => {
+  it("keeps the highest-ranked openrouter entries first when only OpenRouter is configured", () => {
     const env: PiFreeEnvValues = {
       OPENROUTER_API_KEY: "or-key",
     };
 
     const ordered = resolvePiFreeOrderedModels(env);
     expect(ordered.slice(0, 4)).toEqual([
-      PI_FREE_PRIMARY_MODEL,
-      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-      "openrouter/openai/gpt-oss-120b:free",
+      "openrouter/minimax/minimax-m2.5:free",
+      "openrouter/tencent/hy3-preview:free",
       "openrouter/google/gemma-4-31b-it:free",
+      "openrouter/stepfun/step-3.5-flash:free",
     ]);
-    expect(ordered[0] ?? null).toBe(PI_FREE_PRIMARY_MODEL);
+    expect(ordered[0] ?? null).toBe("openrouter/minimax/minimax-m2.5:free");
   });
 
   it("keeps the full static order when every provider is configured", () => {
@@ -119,6 +118,7 @@ describe("pi-free model selection", () => {
 
   it("classifies timeouts and provider failures as retryable", () => {
     expect(isPiFreeRetryableError("timed out after 60000ms")).toBe(true);
+    expect(isPiFreeRetryableError("Connection error.")).toBe(true);
     expect(isPiFreeRetryableError("400 Reasoning is mandatory for this endpoint and cannot be disabled.")).toBe(true);
     expect(isPiFreeRetryableError("429 Provider returned error")).toBe(true);
     expect(isPiFreeRetryableError("403 this model requires a subscription, upgrade for access")).toBe(true);
@@ -127,7 +127,7 @@ describe("pi-free model selection", () => {
   });
 
   it("exports a non-empty bootstrap cycle", () => {
-    expect(PI_FREE_MODEL_CYCLE.length).toBeGreaterThan(10);
+    expect(PI_FREE_MODEL_CYCLE.length).toBeGreaterThan(50);
   });
 });
 

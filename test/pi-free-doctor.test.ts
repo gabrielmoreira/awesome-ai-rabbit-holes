@@ -36,6 +36,7 @@ describe("pi-free doctor", () => {
       {
         spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
         provider: "cloudflare",
+        status: "failed",
         ok: false,
         elapsed_ms: 1000,
         error_type: "quota",
@@ -45,6 +46,7 @@ describe("pi-free doctor", () => {
       {
         spec: "nvidia/moonshotai/kimi-k2.6",
         provider: "nvidia",
+        status: "ok",
         ok: true,
         elapsed_ms: 900,
         error_type: null,
@@ -56,43 +58,26 @@ describe("pi-free doctor", () => {
     expect(report.attempted).toBe(2);
     expect(report.succeeded).toBe(1);
     expect(report.failed).toBe(1);
+    expect(report.skipped).toBe(0);
     expect(report.first_working_model).toBe("nvidia/moonshotai/kimi-k2.6");
   });
 
-  it("fails the doctor only when the primary probe fails", () => {
-    const primaryFailure = buildPiFreeDoctorReport([
+  it("fails the doctor only when no working probed model is found", () => {
+    const noSuccess = buildPiFreeDoctorReport([
       {
-        spec: "openrouter/qwen/qwen3-coder:free",
-        provider: "openrouter",
+        spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
+        provider: "cloudflare",
+        status: "skipped",
         ok: false,
-        elapsed_ms: 1000,
-        error_type: "not_free",
-        error_message: "This model is no longer available as a free model.",
+        elapsed_ms: 0,
+        error_type: "unavailable_env",
+        error_message: "Provider cloudflare-workers-ai is unavailable in the current environment (missing credentials).",
         output_excerpt: null,
       },
       {
-        spec: "openrouter/openai/gpt-oss-120b:free",
-        provider: "openrouter",
-        ok: true,
-        elapsed_ms: 900,
-        error_type: null,
-        error_message: null,
-        output_excerpt: "HI",
-      },
-    ] satisfies PiFreeProbeResult[]);
-    const laterFailure = buildPiFreeDoctorReport([
-      {
-        spec: "openrouter/qwen/qwen3-coder:free",
-        provider: "openrouter",
-        ok: true,
-        elapsed_ms: 1000,
-        error_type: null,
-        error_message: null,
-        output_excerpt: "HI",
-      },
-      {
-        spec: "openrouter/openai/gpt-oss-120b:free",
-        provider: "openrouter",
+        spec: "nvidia/moonshotai/kimi-k2.6",
+        provider: "nvidia",
+        status: "failed",
         ok: false,
         elapsed_ms: 900,
         error_type: "quota",
@@ -100,13 +85,36 @@ describe("pi-free doctor", () => {
         output_excerpt: null,
       },
     ] satisfies PiFreeProbeResult[]);
+    const withSuccess = buildPiFreeDoctorReport([
+      {
+        spec: "cloudflare/@cf/moonshotai/kimi-k2.6",
+        provider: "cloudflare",
+        status: "skipped",
+        ok: false,
+        elapsed_ms: 0,
+        error_type: "unavailable_env",
+        error_message: "Provider cloudflare-workers-ai is unavailable in the current environment (missing credentials).",
+        output_excerpt: null,
+      },
+      {
+        spec: "nvidia/moonshotai/kimi-k2.6",
+        provider: "nvidia",
+        status: "ok",
+        ok: true,
+        elapsed_ms: 900,
+        error_type: null,
+        error_message: null,
+        output_excerpt: "HI",
+      },
+    ] satisfies PiFreeProbeResult[]);
 
-    expect(getPiFreeDoctorFailure(primaryFailure)).toContain("Primary pi-free model failed");
-    expect(getPiFreeDoctorFailure(laterFailure)).toBeNull();
+    expect(getPiFreeDoctorFailure(noSuccess)).toContain("No working pi-free model");
+    expect(getPiFreeDoctorFailure(withSuccess)).toBeNull();
   });
 
   it("classifies common probe failures", () => {
     expect(classifyPiFreeProbeError("timed out after 60000ms")).toBe("timeout");
+    expect(classifyPiFreeProbeError("Connection error.")).toBe("network");
     expect(classifyPiFreeProbeError("404 Hy3 preview is no longer available as a free model. It has transitioned to a paid model.")).toBe("not_free");
     expect(classifyPiFreeProbeError("429 rate limit")).toBe("quota");
     expect(classifyPiFreeProbeError("requires a subscription")).toBe("subscription");

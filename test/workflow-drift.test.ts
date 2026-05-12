@@ -76,7 +76,7 @@ describe("workflow llm task drift", () => {
   it("uses the current llm:doctor task name everywhere", () => {
     for (const relativePath of Object.values(WORKFLOWS)) {
       const contents = readWorkflowText(relativePath);
-      expect(contents).toContain("mise run llm:doctor --limit 3");
+      expect(contents).toContain("mise run llm:doctor --limit 5");
       expect(contents).not.toContain("pi:free:doctor");
     }
   });
