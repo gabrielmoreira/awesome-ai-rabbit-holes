@@ -34,6 +34,10 @@ type DoctorArgs = {
   limit: number;
 };
 
+function normalizeDoctorLimit(limit: number, fallbackLimit: number): number {
+  return Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : fallbackLimit;
+}
+
 export function parsePiFreeDoctorArgs(argv: string[]): DoctorArgs {
   let prompt = DEFAULT_PROMPT;
   let timeoutMs = DEFAULT_TIMEOUT_MS;
@@ -67,7 +71,7 @@ export function selectPiFreeDoctorTargets(
   limit: number,
   canProbe: (spec: string) => boolean = () => true,
 ): string[] {
-  const safeLimit = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : orderedModels.length;
+  const safeLimit = normalizeDoctorLimit(limit, orderedModels.length);
   return orderedModels.filter((spec) => canProbe(spec)).slice(0, safeLimit);
 }
 
@@ -219,7 +223,7 @@ export async function runPiFreeDoctor(argv: string[] = process.argv.slice(2)): P
     throw new Error("No pi-free models are configured in the static fallback list.");
   }
 
-  const safeLimit = Number.isFinite(args.limit) && args.limit > 0 ? Math.floor(args.limit) : orderedModels.length;
+  const safeLimit = normalizeDoctorLimit(args.limit, orderedModels.length);
   console.log(`Probing up to ${safeLimit} runnable pi-free model(s) from the static fallback order...`);
 
   const results: PiFreeProbeResult[] = [];

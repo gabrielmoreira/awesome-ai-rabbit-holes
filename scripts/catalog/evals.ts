@@ -5,7 +5,7 @@ import { buildCatalogInsightPrompt } from "./insight-context.ts";
 import { runCatalogLlmPrompt, resolveCatalogLlmTimeoutMs } from "./llm-gateway.ts";
 import { CACHE_DIR, CONFIG_DIR } from "../support/paths.ts";
 import { readYamlIfExists } from "../support/yaml.ts";
-import { isPiFreeRetryableError, PI_FREE_PRIMARY_MODEL } from "../pi/models.ts";
+import { isPiFreeRetryableError, PI_FREE_DEFAULT_MODEL } from "../pi/models.ts";
 import type { CatalogItem } from "./types.ts";
 import { applyAIInsights } from "./categorize.ts";
 
@@ -13,7 +13,7 @@ const CONFIG_CATEGORY_EVALS_PATH = `${CONFIG_DIR}/category-evals.yml`;
 const EVALS_CACHE_DIR = `${CACHE_DIR}/evals`;
 const LATEST_RESULTS_PATH = `${EVALS_CACHE_DIR}/catalog-prompt-evals.latest.json`;
 
-export const DEFAULT_CATEGORY_EVAL_MODEL = PI_FREE_PRIMARY_MODEL;
+export const DEFAULT_CATEGORY_EVAL_MODEL = PI_FREE_DEFAULT_MODEL;
 
 export type CategoryEvalSuite = "prompt-core" | "prompt-holdout" | "pipeline-redflags";
 export type CategoryEvalFixScope = "prompt" | "mixed" | "deterministic";

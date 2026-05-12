@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it } from "vitest";
 import {
   PI_FREE_MODEL_CYCLE,
+  PI_FREE_DEFAULT_MODEL,
   PI_FREE_RECENT_FAILURE_TTL_MS,
   isPiFreeRetryableError,
   listPiFreeRecentFailureRecords,
@@ -63,7 +64,7 @@ describe("pi-free model selection", () => {
   it("keeps the full static order when every provider is configured", () => {
     const ordered = resolvePiFreeOrderedModels(FULLY_CONFIGURED_ENV);
     expect(ordered.slice(0, 5)).toEqual(PI_FREE_MODEL_CYCLE.slice(0, 5));
-    expect(ordered[0] ?? null).toBe(PI_FREE_MODEL_CYCLE[0] ?? null);
+    expect(ordered[0] ?? null).toBe(PI_FREE_DEFAULT_MODEL);
   });
 
   it("stores recent failures in memory and exposes active records", () => {
