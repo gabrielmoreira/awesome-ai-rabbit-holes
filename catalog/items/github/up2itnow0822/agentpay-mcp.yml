@@ -43,18 +43,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:29.193Z"
       bytes: 55140
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AgentPay MCP is an open-source Model Context Protocol server that provides non-custodial payment governance for AI agents with human approval modes and spend caps.
+  why_it_matters: It solves the missing trust layer for agent spending by letting developers enforce financial policies when agents consume paid APIs or services.
+  mental_damage: Finally, a way to panic less when your AI agent tries to buy a GPU cluster on your corporate card.
+  tags:
+    - mcp
+    - payments
+    - governance
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: AgentPay MCP is an MCP-native payment server whose core identity is providing MCP infrastructure for agent spend control, not extending another agent or building apps.
+  evidence:
+    - "Repo description: 'Non-custodial x402 MCP payment layer for AI agents'"
+    - "README: 'AgentPay MCP is a Model Context Protocol server that gives Claude, Cursor, and any MCP-compatible agent a payment wallet with hard spend caps'"
+    - Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +76,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:19:02.793Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__up2itnow0822__agentpay-mcp: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": AgentPay M\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:26:01.782Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

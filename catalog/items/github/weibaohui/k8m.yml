@@ -92,11 +92,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-12T15:32:37.385Z"
+    updated_at: "2026-05-14T05:28:44.607Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__weibaohui__k8m: Invalid AI response format: SyntaxError: Unexpected token 'k', ...\"_reason\": k8m primar\"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

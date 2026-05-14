@@ -43,18 +43,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:31.786Z"
       bytes: 21518
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: next-devtools-mcp is an MCP server that provides Next.js development tools and utilities for coding agents like Claude and Cursor.
+  why_it_matters: It gives AI coding agents direct access to Next.js-specific devtools, letting them scaffold, debug, and inspect Next.js apps without leaving the agent interface.
+  mental_damage: Another MCP server to install, another config to juggle, and yet another way for your agent to pretend it understands your Next.js project.
+  tags:
+    - mcp
+    - nextjs
+    - devtools
+    - coding-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server providing Next.js devtools, making MCP its core identity rather than a mere compatibility feature.
+  evidence:
+    - "Repo description: 'Next.js Development for Coding Agent'"
+    - "README: 'next-devtools-mcp is a Model Context Protocol (MCP) server that provides Next.js development tools and utilities for coding agents like Claude and Cursor.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (742) exceeded threshold (150)
@@ -70,12 +77,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:23:43.628Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__vercel__next-devtools-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:26:42.799Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

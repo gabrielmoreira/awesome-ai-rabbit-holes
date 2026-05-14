@@ -47,18 +47,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:32.110Z"
       bytes: 8230
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Production-ready MCP server for VEROQ providing 62 financial intelligence tools with verified outputs and multi-agent workflows.
+  why_it_matters: Gives developers direct access to finance-specific verified AI tools via MCP, enabling reliable financial data queries and fact-checking within coding assistants.
+  mental_damage: Another finance MCP server promising verified outputs while developers just want to stop hallucinating their stock picks.
+  tags:
+    - mcp
+    - finance
+    - verified-ai
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: veroq-mcp is an MCP server as its primary identity, providing financial intelligence tools through the Model Context Protocol, matching the MCP category's focus on servers as MCP infrastructure.
+  evidence:
+    - "Repo description: 'Production-ready MCP server for VEROQ — 52 tools for financial intelligence'"
+    - "README: Provides MCP tools like veroq_ask and veroq_verify for financial queries and fact-checking"
+    - "Source-list: Listed in awesome-mcp-servers under Finance & Fintech section"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:24:08.755Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__veroq-ai__veroq-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:27:01.092Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

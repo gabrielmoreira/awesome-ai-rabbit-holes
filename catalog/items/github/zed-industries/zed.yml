@@ -69,11 +69,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-12T15:51:13.129Z"
+    updated_at: "2026-05-14T05:33:17.028Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__zed-industries__zed: Invalid AI response format: SyntaxError: Unexpected token 'Z', ...\"_reason\": Zed is an \"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

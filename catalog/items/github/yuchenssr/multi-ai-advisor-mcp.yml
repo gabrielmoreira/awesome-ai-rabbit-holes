@@ -41,18 +41,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:43.633Z"
       bytes: 6041
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Multi-Model Advisor is an MCP server that queries multiple Ollama models and combines their responses via Claude for Desktop.
+  why_it_matters: It lets developers get synthesized, multi-perspective AI answers by orchestrating local LLMs through a standardized protocol.
+  mental_damage: Another layer to debug when your AI council disagrees and you're left synthesizing the synthesizers.
+  tags:
+    - mcp
+    - ollama
+    - claude-desktop
+    - local-ai
+    - ai-advisor
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server whose core identity is providing Model Context Protocol tooling for multi-model querying, not augmenting another assistant or acting as a standalone coding agent.
+  evidence:
+    - "Repo description: 'council of models for decision'"
+    - "README: 'A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses'"
+    - "Source-list context: listed in awesome-mcp-servers under Developer Tools > Server Implementations"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +76,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:46:58.986Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__yuchenssr__multi-ai-advisor-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:32:35.285Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

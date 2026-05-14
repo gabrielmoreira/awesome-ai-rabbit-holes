@@ -46,18 +46,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:37.178Z"
       bytes: 2763
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A toolkit that installs six WhenLabs developer tools as a single MCP server for Claude Code.
+  why_it_matters: It simplifies setup by bundling six specialized dev tools behind one MCP server, reducing configuration overhead in Claude Code workflows.
+  mental_damage: Yet another MCP server promising to unify your dev tools while adding yet another layer to manage.
+  tags:
+    - mcp
+    - cli
+    - developer-tools
+    - claude-code
+    - toolkit
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is an MCP server that exposes six developer tools, making MCP the primary product rather than an extension or agent.
+  evidence:
+    - Registers a single MCP server (`whenlabs`) in Claude Code configuration
+    - All eight tools are served by the single `whenlabs` MCP server
+    - MCP is the mechanism through which the tools are exposed to Claude Code
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:34:02.212Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__whenlabs-org__when: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:13.206Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

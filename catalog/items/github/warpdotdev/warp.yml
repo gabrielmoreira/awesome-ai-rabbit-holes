@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://www.warp.dev
         surrounding_text: "- **[Warp](https://www.warp.dev/)** – AI-enhanced terminal with smart command suggestions and collaborative workflows."
         confidence: high
+    - id: discovery__github__warpdotdev__warp__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-14T05:20:10.208Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: scraped
+        section_path:
+          - Footnotes
+          - Sponsorships
+        anchor_text: Warp
+        extracted_url: https://go.warp.dev/awesome-cursorrules
+        surrounding_text: "- [Warp](https://go.warp.dev/awesome-cursorrules) - Terminal workflows for coding with multiple AI agents."
+        confidence: high
 metadata:
   github:
     stars: 57868
@@ -85,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: "2026-05-14T05:20:10.209Z"
     cause: null
     next_retry_at: null
   stars:

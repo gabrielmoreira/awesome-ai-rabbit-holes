@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:15.065Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-14T05:20:32.153Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for bv-venky/excalidraw-architect-mcp
     next_retry_at: null
   categorize:
     status: done

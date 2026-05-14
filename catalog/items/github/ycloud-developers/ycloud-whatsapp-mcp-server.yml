@@ -38,15 +38,22 @@ metadata:
       fetched_at: "2026-05-12T15:06:41.945Z"
       bytes: 3230
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes YCloud WhatsApp API endpoints as MCP tools for AI model integration.
+  why_it_matters: Enables AI assistants like Claude to interact with WhatsApp via YCloud's API without custom glue code.
+  mental_damage: Another MCP server wrapping a SaaS API, celebrating the joy of reinventing POST requests as 'tool calls'.
+  tags:
+    - mcp
+    - whatsapp
+    - ycloud
+    - api-wrapper
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is an archived, low-activity wrapper around a single vendor's API that provides no developer-facing tooling beyond MCP compatibility, which alone is insufficient for inclusion.
+  evidence:
+    - "Archived: yes"
+    - "Stars: 10, pushed at 2025-04-07 (same day as created), indicating minimal traction and no ongoing maintenance"
+    - README describes automatic MCP tool generation from YCloud's OpenAPI spec for AI model API access
 placement:
   primary_category: null
   section: null
@@ -65,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:43:53.458Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__ycloud-developers__ycloud-whatsapp-mcp-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:31:50.884Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -57,15 +57,22 @@ metadata:
       fetched_at: "2026-05-12T15:06:41.362Z"
       bytes: 32807
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Firefly is an open-source toolkit for training large language models, supporting full-parameter, LoRA, and QLoRA fine-tuning across models like Llama, Qwen, and Mistral.
+  why_it_matters: It lets developers efficiently train and adapt LLMs with reduced GPU memory usage, enabling local experimentation and customization of frontier models.
+  mental_damage: The quiet dread of spending 48 hours waiting for a QLoRA job to finish, only to realize you forgot to set the learning rate scheduler.
+  tags:
+    - llm-training
+    - peft
+    - qlora
+    - model-finetuning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Firefly is focused on model training infrastructure, not developer-facing AI workflows like coding, debugging, or agent orchestration.
+  evidence:
+    - "Repo description: 'Firefly: 大模型训练工具，支持训练Qwen2.5、Qwen2、Yi1.5、Phi-3、Llama3、Gemma、MiniCPM、Yi、Deepseek、Orion、Xverse、Mixtral-8x7B、Zephyr、Mistral、Baichuan2、Llma2、Llama、Qwen、Baichuan、ChatGLM2、InternLM、Ziya2、Vicuna、Bloom等大模型'"
+    - README emphasizes pretraining, SFT, DPO, LoRA/QLoRA, and model weight releases — all ML training workflows, not developer tooling
+    - Source-list placement in 'awesome-LLM-resources' under '微调 Fine-Tuning', confirming its identity as an ML training tool
 placement:
   primary_category: null
   section: null
@@ -84,12 +91,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:42:49.325Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__yangjianxin1__firefly: Invalid AI response format: SyntaxError: Unexpected token 'F', ...\"_reason\": Firefly is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:31:36.526Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

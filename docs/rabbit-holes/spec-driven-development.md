@@ -22,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `context-engineering` `claude-code` `meta-prompting` `subagents`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 46.5k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 47.1k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
 
   It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
 
@@ -40,7 +40,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 21k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 21.3k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
 
@@ -121,7 +121,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `prompt-generation` `architecture`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 347` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 358` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
 
   It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
 
@@ -197,7 +197,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `contracts` `context-engineering` `mcp`
   </details>
 
-- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 7` `updated ≤30d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
+- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 7` `updated ≤90d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
 
   It structures the messy gap between a backlog idea and running code by automating spec generation and handing off execution to installed coding agents.
 

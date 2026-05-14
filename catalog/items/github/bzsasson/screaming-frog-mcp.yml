@@ -74,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:15.524Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-14T05:20:32.375Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for bzsasson/screaming-frog-mcp
     next_retry_at: null
   categorize:
     status: done

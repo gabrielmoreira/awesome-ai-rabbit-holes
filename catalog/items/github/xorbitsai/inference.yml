@@ -73,18 +73,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:40.639Z"
       bytes: 12676
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments.
+  why_it_matters: It simplifies model deployment by abstracting infrastructure complexity, letting developers swap LLMs with a single line of code while supporting advanced serving features like auto-batching and distributed inference.
+  mental_damage: Yet another 'one line to rule them all' serving layer that promises portability but still leaves you wrestling with GPU memory, quantization trade-offs, and the quiet dread of cold-start latency in production.
+  tags:
+    - model-serving
+    - llm-inference
+    - open-source
+    - api
+    - deployment
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Xinference is a unified inference serving runtime focused on local, self-hosted, or on-prem deployment of LLMs and multimodal models, making it a core local AI tool rather than a coding assistant, framework, or extension.
+  evidence:
+    - Repo description emphasizes running models 'on cloud, on-prem, or your laptop' through a unified inference API
+    - README highlights self-hosting, Docker support, and local deployment as key workflows
+    - Project provides a local serving stack with CLI, Python library, and Docker image for on-device or private cloud use
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Serving / APIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (9299) exceeded threshold (150)
@@ -100,12 +108,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:41:53.995Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__xorbitsai__inference: Invalid AI response format: SyntaxError: Unexpected token 'X', ...\"_reason\": Xinference\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:31:10.104Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

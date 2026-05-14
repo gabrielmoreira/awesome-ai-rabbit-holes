@@ -49,18 +49,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:34.261Z"
       bytes: 130149
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry.
+  why_it_matters: It helps developers discover reusable automation skills for the OpenClaw local AI assistant, reducing time spent searching for functional extensions.
+  mental_damage: Another awesome list promising 'discovery' while you spend more time curating your discovery than actually coding.
+  tags:
+    - awesome-list
+    - agent-skills
+    - openclaw
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a curated directory of reusable skill packs for a coding agent (OpenClaw), matching the core definition of Agent Skills as a registry of portable skill content rather than a platform or extension suite.
+  evidence:
+    - "Repo description: 'The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.'"
+    - "README: 'Discover 5200+ community-built OpenClaw skills, organized by category' and 'This collection helps you discover and install the right skills for your needs.'"
+    - "Source-list context: Listed in awesome-LLM-resources under the '技能 Skills' section, indicating recognition as a skill directory."
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Registries & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (48517) exceeded threshold (150)
@@ -76,12 +82,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:27:45.188Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__voltagent__awesome-openclaw-skills: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:27:33.921Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

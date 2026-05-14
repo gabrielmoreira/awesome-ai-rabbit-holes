@@ -1,0 +1,85 @@
+id: github__johnneerdael__privateaccess-mcp
+kind: github-repo
+name: privateaccess-mcp
+canonical_url: https://github.com/johnneerdael/privateaccess-mcp
+identity:
+  github_repo: johnneerdael/privateaccess-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__johnneerdael__privateaccess-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-14T05:20:10.208Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: johnneerdael/netskope-mcp
+        extracted_url: https://github.com/johnneerdael/netskope-mcp
+        surrounding_text: "- [johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp) 🔒 ☁️ - An MCP to give access to all Netskope Private Access components within a Netskope Private Access environments including detailed setup information and LLM examples on usage."
+        confidence: high
+    - id: discovery__github__johnneerdael__privateaccess-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-14T05:20:10.208Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: johnneerdael/netskope-mcp
+        extracted_url: https://github.com/johnneerdael/netskope-mcp
+        surrounding_text: "-   **[johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp)** [![GitHub stars](https://img.shields.io/github/stars/johnneerdael/netskope-mcp?style=social)](https://github.com/johnneerdael/netskope-mcp): Accesses Netskope Private Access components and provides setup details."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-14T05:20:10.209Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-14T05:20:33.271Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

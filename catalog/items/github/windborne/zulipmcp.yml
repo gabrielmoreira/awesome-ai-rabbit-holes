@@ -47,18 +47,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:37.694Z"
       bytes: 11195
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Run AI agents in Zulip as @mentionable bots or wire into any MCP client.
+  why_it_matters: Lets developers interact with coding agents directly inside Zulip chat without switching contexts.
+  mental_damage: Another way to get paged by an AI that misreads your Zulip thread as a coding emergency.
+  tags:
+    - zulip
+    - mcp
+    - agent
+    - chatbot
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It augments other coding assistants (Claude Code, Codex, OpenCode) with Zulip chat capabilities rather than being a standalone coding assistant.
+  evidence:
+    - "README: 'Run AI agents in Zulip as @mentionable bots — or wire into any MCP client'"
+    - Listener module watches for @mentions and spawns agent sessions using backends like Claude Code or Codex
+    - "Source-list context: listed in awesome-mcp-servers under Communication section as an MCP server"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:35:07.804Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__windborne__zulipmcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It primari\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:31.347Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

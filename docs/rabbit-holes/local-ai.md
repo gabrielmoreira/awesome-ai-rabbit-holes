@@ -13,7 +13,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 162.7k` `updated ≤90d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
+- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163k` `updated ≤90d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
 
   It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
 
@@ -274,6 +274,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `distributed-inference` `local-ai` `volunteer-computing` `pytorch` `llm-serving`
   </details>
 
+- **[inference](https://github.com/xorbitsai/inference)** `⭐ 9.3k` `updated ≤30d` Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments. <details><summary>More about</summary>
+
+  It simplifies model deployment by abstracting infrastructure complexity, letting developers swap LLMs with a single line of code while supporting advanced serving features like auto-batching and distributed inference.
+
+  _Yet another 'one line to rule them all' serving layer that promises portability but still leaves you wrestling with GPU memory, quantization trade-offs, and the quiet dread of cold-start latency in production._
+
+  `model-serving` `llm-inference` `open-source` `api` `deployment`
+  </details>
+
 - **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 7.8k` `updated ≤30d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
 
   It provides developers with high-performance local inference acceleration, quantization, and serving capabilities for running models like Llama, InternLM, and DeepSeek on their own hardware.
@@ -319,7 +328,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference-server` `openai-compatible` `rust` `gguf`
   </details>
 
-- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 4.6k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
+- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 4.7k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
 
   It allows developers on Apple hardware to experiment with and deploy multimodal capabilities, like OCR and image understanding, without leaving their local machine.
 

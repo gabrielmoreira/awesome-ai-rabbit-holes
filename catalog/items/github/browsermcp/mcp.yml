@@ -88,9 +88,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:12:57.440Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-14T05:20:31.389Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for browsermcp/mcp
     next_retry_at: null
   categorize:
     status: done

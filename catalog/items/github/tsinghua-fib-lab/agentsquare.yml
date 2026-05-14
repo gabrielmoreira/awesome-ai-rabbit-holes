@@ -37,15 +37,23 @@ metadata:
       fetched_at: "2026-05-12T15:06:26.966Z"
       bytes: 4701
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Research codebase that implements AgentSquare, an automatic search method for composing and optimizing modular LLM agent designs across academic benchmarks.
+  why_it_matters: It systematizes agent architecture into swappable planning, reasoning, and memory modules, then searches the combinatorial space to find stronger configurations for reproducible agent meta-design.
+  mental_damage: Your handcrafted reasoning chain is now just a hyperparameter in someone else's modular grid search, and the leaderboard doesn't care about your prompt aesthetic.
+  tags:
+    - llm-agents
+    - modular-search
+    - agent-framework
+    - iclr-2025
+    - research
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Exclude because this is an official academic paper implementation focused on researching automatic agent search over non-coding benchmarks rather than a practical developer tool for building or shipping software.
+  evidence:
+    - Repo description and README explicitly label it as the 'official implementation' of an ICLR 2025 arXiv paper.
+    - README is centered on reproducing paper results on research benchmarks (ALFWorld, WebShop, SciWorld, M3Tooleval), not developer workflows.
+    - Project identity is citation-driven academic research with environment setup for paper experiments rather than integration into production codebases.
 placement:
   primary_category: null
   section: null
@@ -64,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:14:28.270Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__tsinghua-fib-lab__agentsquare: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": AgentSquar\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:21:23.988Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

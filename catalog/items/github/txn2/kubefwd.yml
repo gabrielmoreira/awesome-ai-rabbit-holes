@@ -53,15 +53,23 @@ metadata:
       fetched_at: "2026-05-12T15:06:28.331Z"
       bytes: 6716
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Command-line utility that bulk-forwards kubernetes services to unique local loopback ips for development.
+  why_it_matters: Lets developers run code locally while seamlessly connecting to databases, caches, and apis inside a remote kubernetes cluster without environment-specific reconfiguration.
+  mental_damage: Every venerable devops tool must now grow an mcp adapter so your coding assistant can suffer through kubernetes networking alongside you.
+  tags:
+    - kubernetes
+    - port-forwarding
+    - mcp-server
+    - devops
+    - local-development
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is fundamentally a kubernetes networking utility for local development whose mcp support is an accessory interface, making it a forced fit for an ai-specific tooling catalog.
+  evidence:
+    - README title and repo description define it as bulk kubernetes port forwarding for local development, not ai infrastructure.
+    - MCP support is listed as one bullet among features like TUI, REST API, and log streaming, not the product identity.
+    - Created in 2018 and maintained as a general devops tool years before adding mcp compatibility.
 placement:
   primary_category: null
   section: null
@@ -80,12 +88,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:17:31.334Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__txn2__kubefwd: Invalid AI response format: SyntaxError: Unexpected token 'k', ...\"_reason\": kubefwd is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:23:34.329Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -66,9 +66,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:14.360Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-14T05:20:31.705Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for btafoya/mailsandbox
     next_retry_at: null
   categorize:
     status: done

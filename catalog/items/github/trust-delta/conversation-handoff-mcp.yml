@@ -43,18 +43,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:26.579Z"
       bytes: 14131
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server that saves, tags, and transfers conversation context between AI chats and projects.
+  why_it_matters: Lets developers resume work across different AI sessions or tools without losing context, effectively creating a shared memory layer for CLI and desktop agents.
+  mental_damage: Because each AI chat window starts with a clean slate and a blank stare, and we have somehow made that a server problem.
+  tags:
+    - mcp
+    - context-handoff
+    - memory
+    - cross-session
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Distributed explicitly as an MCP server for cross-session conversation state; its packaging, configuration, and discovery identity are entirely rooted in MCP infrastructure rather than a generic framework or extension layer.
+  evidence:
+    - Repo name, description, and GitHub topics all identify it as an MCP server.
+    - README documents MCP-specific client configuration for Claude Code, Codex CLI, Gemini CLI, Cursor, and ChatGPT Desktop.
+    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -70,28 +77,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:11:22.931Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__trust-delta__conversation-handoff-mcp: ```json
-        {
-          "summary": "MCP server that persists, tags, and transfers conversation context between AI chats and projects.",
-          "why_it_matters": "It lets developers resume work across separate chat sessions or different MCP-compatible clients without losing conversation context.",
-          "mental_damage": "Because an AI trained on the entire internet still needs a dedicated courier service to remember what you were doing in the other chat window.",
-          "tags": ["mcp", "context-handoff", "conversation-memory", "developer-tooling"],
-          "should_include": true,
-          "primary_category": "mcp",
-          "section": "Domain Servers",
-          "decision_reason": "The repository is explicitly an MCP server whose entire product identity is providing conversation handoff infrastructure between AI chats and projects.",
-          "decision_evidence": [
-            "Repo name and description identify it as an MCP server for transferring conversation context between AI chats and projects",
-            "README lists MCP-native methods like handoff_save and handoff_search for Claude, Cursor, Codex, and Gemini clients",
-            "Listed in awesome-mcp-servers under Knowledge & Memory, confirming its role as MCP infrastructure"
-          ],
-          "category_candidates": ["m
+    status: done
+    updated_at: "2026-05-14T05:21:17.648Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

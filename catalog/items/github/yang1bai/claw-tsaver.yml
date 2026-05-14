@@ -42,18 +42,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:41.483Z"
       bytes: 2760
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A token-saving MCP proxy that intercepts large tool responses and returns compact previews with lazy expansion handles.
+  why_it_matters: Reduces token waste from oversized MCP tool calls, lowering costs and context pressure when using assistants like OpenClaw.
+  mental_damage: Finally, a tool that makes you feel guilty for letting models gulp down entire Wikipedia pages just to read one sentence.
+  tags:
+    - mcp
+    - token-optimization
+    - proxy
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP-first middleware proxy designed specifically to optimize MCP tool call payloads, making MCP its core identity.
+  evidence:
+    - "Repo description: 'A token-saving MCP proxy for OpenClaw users. Cuts tool call payloads by 90%+ via lazy expansion.'"
+    - "README: 'claw-tsaver sits between OpenClaw and your downstream MCP servers, intercepts oversized responses, and hands the model a compact preview + an on-demand handle instead.'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Delivery' as an MCP server.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +75,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:42:38.367Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__yang1bai__claw-tsaver: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:31:17.495Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

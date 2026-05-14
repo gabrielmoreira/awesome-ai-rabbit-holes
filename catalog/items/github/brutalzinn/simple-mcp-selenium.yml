@@ -66,9 +66,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:14.288Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-14T05:20:31.670Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for brutalzinn/simple-mcp-selenium
     next_retry_at: null
   categorize:
     status: done

@@ -54,18 +54,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:37.437Z"
       bytes: 25013
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: APIbase is a universal MCP gateway that provides AI agents access to 576 real-world API tools via a single endpoint with x402 USDC micropayments.
+  why_it_matters: It lets developers give AI agents instant, pay-per-call access to external data and services without managing individual API keys or integrations.
+  mental_damage: Another MCP server promising 'one endpoint to rule them all' while agents still hallucinate which tool to call for a stock quote.
+  tags:
+    - mcp
+    - api-gateway
+    - micropayments
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: APIbase is an MCP server that aggregates hundreds of third-party tools behind a standard MCP endpoint, making MCP its core product identity rather than an extension or framework.
+  evidence:
+    - "Repo description: 'Universal MCP gateway for AI agents — 576 tools, 177 providers'"
+    - "README: 'Production MCP server that gives AI agents access to 576 real-world API tools through a single endpoint'"
+    - "Source-list: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -81,12 +87,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:34:24.038Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__whiteknightonhorse__apibase: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": APIbase is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:21.376Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

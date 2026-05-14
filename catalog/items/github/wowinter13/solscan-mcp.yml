@@ -48,18 +48,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:39.059Z"
       bytes: 2299
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server for querying Solana blockchain data via the Solscan API using natural language.
+  why_it_matters: Enables developers to fetch on-chain data through conversational prompts, reducing the need to manually navigate blockchain explorers or write API calls.
+  mental_damage: Another MCP server promising 'natural language blockchain queries' while quietly depending on a paid API key you forgot to rotate.
+  tags:
+    - mcp
+    - solana
+    - blockchain
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server whose core identity is providing Solscan API access via the Model Context Protocol, making it a domain-specific MCP tool rather than an extension or agent.
+  evidence:
+    - "Repo description: 'An MCP server for querying Solana transactions using natural language with Solscan API'"
+    - "README: Explicitly states it is an MCP server for Solscan Pro API, with installation instructions for Claude Desktop MCP config"
+    - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:37:34.501Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__wowinter13__solscan-mcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:50.584Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

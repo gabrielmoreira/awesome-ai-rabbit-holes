@@ -37,18 +37,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:35.978Z"
       bytes: 31947
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Verba is a retrieval-augmented generation (RAG) chatbot built with Weaviate for querying and interacting with personal or local data via LLMs.
+  why_it_matters: It lets developers quickly prototype RAG applications with multiple LLM providers and embedding options, reducing boilerplate for data-backed AI assistants.
+  mental_damage: Another RAG wrapper promising 'just add data' while you spend three hours debugging chunking strategies and embedding mismatches.
+  tags:
+    - rag
+    - weaviate
+    - llm-chatbot
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Verba is primarily a prompt-to-internal-tool builder for RAG-based data querying, not a coding agent or extension, as it turns natural language prompts into deployed data inspection apps rather than editing existing codebases.
+  evidence:
+    - "Repo description: 'Retrieval Augmented Generation (RAG) chatbot powered by Weaviate'"
+    - "README: 'end-to-end, streamlined, and user-friendly interface for Retrieval-Augmented Generation (RAG) out of the box' and 'resolve questions around your documents, cross-reference multiple data points'"
+    - Seen in source list under '知识库 RAG' (Knowledge Base RAG) section
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: promotion_candidate
   reason: Stars (7694) exceeded threshold (150)
@@ -64,12 +70,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:31:23.840Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__weaviate__verba: Invalid AI response format: SyntaxError: Unexpected token 'V', ...\"_reason\": Verba is p\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:02.858Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

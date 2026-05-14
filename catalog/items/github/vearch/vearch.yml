@@ -77,11 +77,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-12T15:22:44.149Z"
+    updated_at: "2026-05-14T05:26:23.863Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__vearch__vearch: Invalid AI response format: SyntaxError: Unexpected token 'V', ...\"_reason\": Vearch is \"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

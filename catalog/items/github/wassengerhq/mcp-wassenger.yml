@@ -46,18 +46,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:35.525Z"
       bytes: 29151
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP Wassenger is an MCP server that connects AI assistants to the Wassenger WhatsApp API for sending messages, analyzing chats, and automating WhatsApp workflows via natural language commands.
+  why_it_matters: It lets developers control WhatsApp business messaging through any MCP-compatible AI client, turning conversational prompts into automated messaging and analytics without custom integration code.
+  mental_damage: Yet another MCP server promising to make your AI assistant the ultimate WhatsApp intern—because delegating customer support chats to an LLM was clearly the missing piece in enterprise automation.
+  tags:
+    - mcp
+    - whatsapp
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose core identity is providing WhatsApp API access through the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  evidence:
+    - "Repo description: 'MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate anything on WhatsApp using text or voice from your favorite AI client'"
+    - "README: Positioned as an MCP-powered tool that works with ChatGPT, Claude Desktop, Cursor, Windsurf and other MCP clients"
+    - Listed in awesome-mcp-servers under 'Community Servers' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,12 +79,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:30:06.598Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__wassengerhq__mcp-wassenger: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:28:16.612Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

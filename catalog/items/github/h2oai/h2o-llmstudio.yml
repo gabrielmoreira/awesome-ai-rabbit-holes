@@ -77,11 +77,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:54:11.555Z"
+    status: skipped
+    updated_at: "2026-05-14T05:20:33.271Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__h2oai__h2o-llmstudio: Invalid AI response format: SyntaxError: Unexpected token 'H', ...\"_reason\": H2O LLM St\"... is not valid JSON"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template

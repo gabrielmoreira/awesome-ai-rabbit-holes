@@ -71,11 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:55:39.284Z"
+    status: skipped
+    updated_at: "2026-05-14T05:20:33.272Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__microsoft__taskweaver: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"summary\": TaskWeaver\"... is not valid JSON"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template

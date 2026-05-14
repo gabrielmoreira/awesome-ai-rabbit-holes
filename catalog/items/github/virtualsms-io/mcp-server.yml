@@ -58,18 +58,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:33.541Z"
       bytes: 19852
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server providing real SIM-based phone numbers for SMS verification to AI agents via the Model Context Protocol.
+  why_it_matters: Enables AI agents to programmatically receive real OTP codes for account verification where VoIP numbers are blocked.
+  mental_damage: Lets your AI agent jump through the same annoying SMS hoops as a human, but now you pay for the privilege of automating the misery.
+  tags:
+    - mcp
+    - sms-verification
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP-first server whose primary identity is providing SMS verification capabilities via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  evidence:
+    - "Repo description: 'SMS verification MCP server — real SIM phone numbers across 145+ countries and 2000+ services for AI agents'"
+    - "README: 'Built on the Model Context Protocol' and 'One install, 18 tools, works with every major MCP client'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -85,12 +91,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:26:44.189Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__virtualsms-io__mcp-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:27:28.414Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

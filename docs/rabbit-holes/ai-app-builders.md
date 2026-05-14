@@ -4,7 +4,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 72.5k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 72.6k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
 
   It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
 
@@ -38,6 +38,15 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   _Now you can spend just as much time configuring your local Ollama instance and debating model providers as you do prompting the app into existence._
 
   `app-builder` `browser-ide` `multi-model` `self-hosted` `full-stack`
+  </details>
+
+- **[Verba](https://github.com/weaviate/verba)** `⭐ 7.7k` `updated ≤30d` Verba is a retrieval-augmented generation (RAG) chatbot built with Weaviate for querying and interacting with personal or local data via LLMs. <details><summary>More about</summary>
+
+  It lets developers quickly prototype RAG applications with multiple LLM providers and embedding options, reducing boilerplate for data-backed AI assistants.
+
+  _Another RAG wrapper promising 'just add data' while you spend three hours debugging chunking strategies and embedding mismatches._
+
+  `rag` `weaviate` `llm-chatbot`
   </details>
 
 - **[AI Getting Started](https://github.com/a16z-infra/ai-getting-started)** `⭐ 4.1k` `updated >1y` A JavaScript starter stack for building weekend AI projects, pre-configured with Next.js, LangChain.js, vector stores, auth, and deployment configs. <details><summary>More about</summary>

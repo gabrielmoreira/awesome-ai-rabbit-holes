@@ -41,18 +41,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:34.335Z"
       bytes: 7751
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Home Assistant MCP Server provides Model Context Protocol access to Home Assistant instances for AI assistants like Claude.
+  why_it_matters: It lets AI assistants read and control smart home devices, enabling natural language home automation without custom integrations.
+  mental_damage: Now your AI can dim the lights when it senses you're doomscrolling at 2 AM—convenience or creepy? You decide.
+  tags:
+    - mcp
+    - home-assistant
+    - iot
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server as its core identity, enabling MCP clients to interact with Home Assistant, fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'Home Assistant MCP Server'"
+    - "README: 'A Model Context Protocol (MCP) server for Home Assistant integration with Claude and other LLMs'"
+    - "Source-list context: Listed in awesome-mcp-servers under Community Servers"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (295) exceeded threshold (150)
@@ -68,12 +74,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:27:51.654Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__voska__hass-mcp: Invalid AI response format: SyntaxError: Unexpected token 'H', ...\"_reason\": Hass-MCP i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:28:05.065Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

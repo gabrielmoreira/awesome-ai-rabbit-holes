@@ -103,7 +103,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `langchain` `awesome-list` `ecosystem` `directory`
   </details>
 
-- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 8.9k` `updated ≤90d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.1k` `updated ≤90d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
 
   It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
 
@@ -328,7 +328,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 855` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
+- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 856` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
 
   It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
 
@@ -355,7 +355,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 692` `updated ≤30d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 707` `updated ≤30d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
 
   It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
 
@@ -382,7 +382,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `models` `training` `benchmarks` `directory`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 321` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 355` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
 
   It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
 

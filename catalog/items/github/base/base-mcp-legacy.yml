@@ -1,0 +1,94 @@
+id: github__base__base-mcp-legacy
+kind: github-repo
+name: base-mcp-legacy
+canonical_url: https://github.com/base/base-mcp-legacy
+identity:
+  github_repo: base/base-mcp-legacy
+provenance:
+  discoveries:
+    - id: discovery__github__base__base-mcp-legacy__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-14T05:20:10.208Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: base/base-mcp
+        extracted_url: https://github.com/base/base-mcp
+        surrounding_text: "- [base/base-mcp](https://github.com/base/base-mcp) 🎖️ 📇 ☁️ - Base Network integration for onchain tools, allowing interaction with Base Network and Coinbase API for wallet management, fund transfers, smart contracts, and DeFi operations"
+        confidence: high
+    - id: discovery__github__base__base-mcp-legacy__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-14T05:20:10.208Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💰 Finance & Fintech
+        anchor_text: "@base/base-mcp"
+        extracted_url: https://github.com/base/base-mcp
+        surrounding_text: "-   **[@base/base-mcp](https://github.com/base/base-mcp)** [![GitHub stars](https://img.shields.io/github/stars/base/base-mcp?style=social)](https://github.com/base/base-mcp): Integrates with Base Network for onchain tools and Coinbase API interactions."
+        confidence: high
+metadata:
+  github:
+    stars: 348
+    forks: 130
+    license: MIT
+    archived: true
+    created_at: "2025-03-06T21:57:34Z"
+    pushed_at: "2026-05-13T20:07:50Z"
+    description: A Model Context Protocol (MCP) server that provides onchain tools for LLMs, allowing them to interact with the Base network and Coinbase API.
+    homepage: https://www.npmjs.com/package/base-mcp
+    topics: []
+    last_checked_at: "2026-05-14T05:20:27.354Z"
+    readme:
+      fetched_at: "2026-05-14T05:20:27.354Z"
+      bytes: 518
+insights:
+  summary: An archived MCP server that provided onchain tools for LLMs to interact with the Base network and Coinbase API.
+  why_it_matters: It demonstrates how MCP servers can bridge blockchain data with AI agents for finance-related workflows, though it is no longer maintained.
+  mental_damage: Yet another shiny MCP server that got abandoned just as developers started figuring out how to wire blockchain data into their LLM workflows.
+  tags:
+    - mcp
+    - blockchain
+    - archived
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the repository is archived and explicitly marked as deprecated, with no ongoing maintenance or usable product identity.
+  evidence:
+    - "Archived: yes"
+    - "README states: 'This repository has been archived and is no longer maintained.' and 'The base-mcp npm package is deprecated.'"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-14T05:20:10.209Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-14T05:20:27.354Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-14T05:33:40.270Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

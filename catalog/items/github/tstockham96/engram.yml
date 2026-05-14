@@ -38,18 +38,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:27.134Z"
       bytes: 13753
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Universal memory layer for AI agents that stores memories in a local SQLite knowledge graph with semantic vector search and LLM-powered consolidation.
+  why_it_matters: It replaces flat markdown memory files like CLAUDE.md with a structured, cross-project knowledge graph that claims 80% recall accuracy on long-conversation benchmarks while cutting token usage by 44% compared to manual summaries.
+  mental_damage: Because apparently a multi-billion-parameter language model still needs a separate SQLite database and a 'sleep cycle' to remember where you put your utility functions.
+  tags:
+    - memory
+    - knowledge-graph
+    - mcp
+    - consolidation
+    - sqlite
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product is a memory and retrieval system (knowledge graph, semantic search, LLM consolidation) for shaping agent context, which squarely fits Prompt & Context Engineering even though it ships as an MCP server.
+  evidence:
+    - Repo description and README call it a 'Universal memory layer' built on knowledge graphs and semantic vector search, not a generic MCP utility.
+    - Explicitly compared to file-based memory (CLAUDE.md) and traditional memory (Mem0) on recall benchmarks, positioning it as context infrastructure.
+    - MCP is the transport layer to Claude Code/Cursor; the novel substance is the consolidation and spreading activation memory model.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:14:46.774Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__tstockham96__engram: Invalid AI response format: SyntaxError: Unexpected token 'E', ...\"_reason\": Engram’s c\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:22:44.459Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

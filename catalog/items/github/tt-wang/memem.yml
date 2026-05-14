@@ -48,18 +48,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:27.256Z"
       bytes: 25366
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Claude Code plugin that gives Claude persistent memory across sessions by mining lessons from completed transcripts, storing them as markdown in an Obsidian vault, and retrieving relevant context via SQLite FTS5.
+  why_it_matters: Saves developers from re-explaining project context every new Claude Code session by automatically building a queriable, self-evolving memory layer that lives entirely on their own machine.
+  mental_damage: Now your AI assistant needs a notes app to remember what you told it yesterday, and somehow that notes app is also a SQLite database inside another notes app.
+  tags:
+    - claude-code
+    - memory
+    - obsidian
+    - local-first
+    - context-retrieval
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Core novelty is a persistent memory, retrieval, and context-slicing system for a coding assistant, which maps directly to Prompt & Context Engineering rather than a host integration or MCP infrastructure.
+  evidence:
+    - README describes a four-layer memory system (L0-L3) with slice-first context assembly and automatic transcript mining.
+    - Repo topics and description center on persistent memory and Obsidian vault storage, not MCP as the primary identity.
+    - Created April 2026 with active pushes through May 2026, indicating a new but maintained project.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:15:05.624Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__tt-wang__memem: Invalid AI response format: SyntaxError: Unexpected token 'm', ...\"_reason\": memem is a\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:22:41.580Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

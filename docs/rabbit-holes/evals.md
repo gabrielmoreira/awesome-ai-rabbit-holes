@@ -67,7 +67,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `llm` `testing` `python` `framework`
   </details>
 
-- **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 12.9k` `updated ≤30d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
+- **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 12.9k` `updated ≤90d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
 
   It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select models based on their ability to interact with external tools and APIs.
 
@@ -94,6 +94,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `gateway` `observability` `evals` `rust`
   </details>
 
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.7k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
+
+  It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
+
+  _You will now spend as much time tuning your evaluation harness as you do writing the code, just so you can prove to yourself that the hallucination rate is statistically acceptable._
+
+  `llm-observability` `evals` `tracing` `llmops`
+  </details>
+
 - **[GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer)** `⭐ 9.7k` `updated ≤1y` A notebook-based tool that generates, tests, and ELO-ranks multiple prompt candidates against provided test cases to find the most effective prompt for a given task. <details><summary>More about</summary>
 
   It automates the trial-and-error loop of prompt engineering by systematically evaluating variations so developers can optimize LLM performance without manual guesswork.
@@ -101,15 +110,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _You now have a rigorous ranking system to prove that your prompts are suboptimal, adding a new layer of performance anxiety to the alchemy of prompt engineering._
 
   `prompt-engineering` `evals` `notebooks` `llm-optimization`
-  </details>
-
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.5k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
-
-  It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
-
-  _You will now spend as much time tuning your evaluation harness as you do writing the code, just so you can prove to yourself that the hallucination rate is statistically acceptable._
-
-  `llm-observability` `evals` `tracing` `llmops`
   </details>
 
 - **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.5k` `updated ≤30d` Evidently is an open-source Python framework for evaluating, testing, and monitoring ML and LLM-powered systems, offering over 100 built-in metrics for data quality, drift detection, and generative AI evaluations. <details><summary>More about</summary>
@@ -184,15 +184,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `llm-tracing` `opentelemetry` `python` `agent-infra`
   </details>
 
-- **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.1k` `updated ≤30d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
-
-  It gives developers a standardized, reproducible way to benchmark multimodal model performance without manually wrangling data across disparate repositories.
-
-  _We now have a dedicated framework to scientifically confirm that your shiny new multimodal model still can't tell a knitting needle from a breadstick._
-
-  `evaluation` `vision-language` `benchmarking` `multimodal` `llm`
-  </details>
-
 - **[Agenta](https://github.com/agenta-ai/agenta)** `⭐ 4.1k` `updated ≤30d` An open-source LLMOps platform providing a prompt playground, prompt management, LLM evaluation, and observability tooling for engineering and product teams building LLM applications. <details><summary>More about</summary>
 
   It gives developers a single control plane to version prompts, run evaluations, and trace LLM behavior instead of stitching together ad-hoc scripts and manual tests.
@@ -200,6 +191,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Yet another dashboard promising to wrangle your prompts, because apparently the hardest part of shipping AI features is admitting you have no idea why your temperature 0.7 completion went rogue._
 
   `llmops` `prompt-management` `evals` `observability`
+  </details>
+
+- **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.1k` `updated ≤30d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
+
+  It gives developers a standardized, reproducible way to benchmark multimodal model performance without manually wrangling data across disparate repositories.
+
+  _We now have a dedicated framework to scientifically confirm that your shiny new multimodal model still can't tell a knitting needle from a breadstick._
+
+  `evaluation` `vision-language` `benchmarking` `multimodal` `llm`
   </details>
 
 - **[LangWatch](https://github.com/langwatch/langwatch)** `⭐ 3.2k` `updated ≤30d` LangWatch is a platform for end-to-end LLM evaluations, AI agent testing, and production observability, supporting OpenTelemetry-native tracing, simulations, and prompt optimization loops. <details><summary>More about</summary>
@@ -355,6 +355,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `data-quality` `llm-eval` `rag-eval`
   </details>
 
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 602` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
+
+  It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
+
+  _Yet another framework promising to solve the 'is my agent actually good' problem, slotting neatly between your fine-tuning pipeline and the existential dread of evaluating subjective quality at scale._
+
+  `evaluation` `reward-modeling` `fine-tuning` `llm-graders` `agent-quality`
+  </details>
+
 - **[Evalchemy](https://github.com/mlfoundations/evalchemy)** `⭐ 594` `updated ≤90d` A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models. <details><summary>More about</summary>
 
   It gives developers a single command-line interface to run standardized reasoning, coding, and chat benchmarks across different model backends without dependency conflicts.
@@ -362,15 +371,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Yet another evaluation harness enters the arena, giving model trainers a fresh way to discover that their clever fine-tune still fails AIME24._
 
   `evals` `llm` `benchmarking` `cli` `reasoning`
-  </details>
-
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 592` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
-
-  It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
-
-  _Yet another framework promising to solve the 'is my agent actually good' problem, slotting neatly between your fine-tuning pipeline and the existential dread of evaluating subjective quality at scale._
-
-  `evaluation` `reward-modeling` `fine-tuning` `llm-graders` `agent-quality`
   </details>
 
 - **[YourBench](https://github.com/huggingface/yourbench)** `⭐ 444` `updated ≤90d` A HuggingFace framework that parses source documents and uses LLMs to generate custom, structured QA benchmark datasets for evaluating model performance on your own data. <details><summary>More about</summary>
@@ -382,7 +382,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `huggingface` `cli`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 359` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 362` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
 
   Developers running local models can quickly understand their hardware's actual inference performance before integrating them into workflows.
 
@@ -391,7 +391,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `local-llm` `ollama` `cli` `performance`
   </details>
 
-- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 346` `updated ≤30d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
+- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 348` `updated ≤30d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
 
   It gives developers a version-controlled, type-safe workflow to iterate on prompts, run experiments against datasets, and trace LLM calls across local and cloud environments.
 
@@ -445,7 +445,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 228` `updated ≤90d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 231` `updated ≤90d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 

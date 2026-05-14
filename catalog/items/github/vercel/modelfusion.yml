@@ -85,11 +85,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-12T15:23:37.605Z"
+    updated_at: "2026-05-14T05:26:50.565Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__vercel__modelfusion: Invalid AI response format: SyntaxError: Unexpected token 'M', ...\"_reason\": ModelFusio\"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

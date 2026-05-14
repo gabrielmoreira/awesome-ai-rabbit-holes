@@ -20,6 +20,22 @@ provenance:
         extracted_url: https://coderabbit.ai
         surrounding_text: "- **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable feedback."
         confidence: high
+    - id: discovery__coderabbit__ai__awesome-list__patrickjs__awesome-cursorrules
+      discovered_at: "2026-05-14T05:20:10.208Z"
+      source:
+        type: awesome-list
+        name: PatrickJS/awesome-cursorrules
+        url: https://github.com/patrickjs/awesome-cursorrules
+        repository: PatrickJS/awesome-cursorrules
+      extraction:
+        mode: parsed
+        section_path:
+          - Footnotes
+          - Sponsorships
+        anchor_text: coderabbit.ai
+        extracted_url: https://coderabbit.ai
+        surrounding_text: "- [coderabbit.ai](https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules) - Cut code review time and bugs in half."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -60,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: "2026-05-14T05:20:10.209Z"
     cause: null
     next_retry_at: null
   stars:

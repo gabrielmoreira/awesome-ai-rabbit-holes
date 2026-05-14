@@ -49,18 +49,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:38.081Z"
       bytes: 5024
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides LLMs with tools to manage Apache Kafka clusters, including topics, consumer groups, and messaging.
+  why_it_matters: It lets developers interact with Kafka infrastructure through natural language in AI assistants like Claude Desktop, reducing context-switching for cluster operations.
+  mental_damage: Finally, a way to yell at your LLM to fix lagging consumer groups instead of learning kubectl.
+  tags:
+    - mcp
+    - kafka
+    - infrastructure
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is an MCP server implementation whose core identity is providing Model Context Protocol tooling for Kafka, making MCP the primary product rather than a compatibility layer.
+  evidence:
+    - "Repo description: 'MCP Server for Apache Kafka'"
+    - "README title and content: 'Kafka MCP Server' with detailed MCP tool definitions for cluster, topic, config, consumer, and message operations"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -76,12 +82,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:35:57.158Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__wklee610__kafka-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:31.482Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

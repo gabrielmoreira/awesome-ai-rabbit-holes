@@ -49,18 +49,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:36.842Z"
       bytes: 18313
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CICADA is an MCP server that provides context-compacted code intelligence for AI coding assistants via AST-level indexing and semantic search.
+  why_it_matters: It reduces token waste and improves assistant accuracy by delivering structured code context instead of raw file dumps.
+  mental_damage: Finally, a tool that admits your AI assistant is context-starved and sells you a diet plan for its meals.
+  tags:
+    - mcp
+    - code-search
+    - context-engineering
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: CICADA’s core innovation is context compaction via AST indexing and semantic retrieval, making it a prompt/context engineering tool rather than a coding assistant or MCP-first server.
+  evidence:
+    - README emphasizes 'Context compaction for AI code assistants' and 'token-efficient access' via structured, pre-indexed knowledge
+    - Provides AST-level indexing, call-site tracking, and semantic search to reduce token usage by up to 70%
+    - Listed in awesome-mcp-servers under Coding Agents but functions as a retrieval layer for assistants, not an assistant itself
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -76,12 +82,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:33:40.575Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__wende__cicada: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": CICADA is \"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:29:02.042Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

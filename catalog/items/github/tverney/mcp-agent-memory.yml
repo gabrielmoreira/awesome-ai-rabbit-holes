@@ -50,18 +50,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:27.975Z"
       bytes: 11935
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server that exposes a persistent memory daemon to any MCP-compatible client, enabling agents to read, append, and search session memories via filesystem bridge.
+  why_it_matters: Gives coding agents long-term memory that survives across sessions by automatically consolidating session summaries into durable knowledge accessible through standard MCP tooling.
+  mental_damage: Now your agent can remember that you prefer single quotes over double quotes from three projects ago, but still forgets to import the module you just discussed five minutes earlier.
+  tags:
+    - mcp
+    - memory
+    - agent-memory
+    - kiro
+    - persistent-memory
+  confidence: low
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a concrete MCP server implementation specifically for persistent agent memory, fitting the protocol infrastructure category as domain-specific server tooling despite low current traction.
+  evidence:
+    - Listed in awesome-mcp-servers as a Knowledge & Memory server implementation
+    - Repo explicitly implements an MCP server interface bridging to agent-memory-daemon
+    - Exposes memory_read, memory_append_session, and memory_search tools via MCP protocol to Kiro, Claude Desktop, and Cursor
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -77,12 +85,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-12T15:16:38.642Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__tverney__mcp-agent-memory: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-14T05:24:41.620Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

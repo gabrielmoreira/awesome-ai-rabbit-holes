@@ -81,11 +81,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-12T15:33:46.234Z"
+    updated_at: "2026-05-14T05:29:07.600Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__wenhuwang__mcp-k8s-eye: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
