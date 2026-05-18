@@ -1,0 +1,82 @@
+id: github__agenttier__agenttier
+kind: github-repo
+name: agenttier
+canonical_url: https://github.com/agenttier/agenttier
+identity:
+  github_repo: agenttier/agenttier
+provenance:
+  discoveries:
+    - id: discovery__github__agenttier__agenttier__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-18T05:26:15.344Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: AgentTier
+        extracted_url: https://github.com/agenttier/agenttier
+        surrounding_text: "- **[AgentTier](https://github.com/agenttier/agenttier)** `⭐ 18` — Kubernetes-native sandbox runtime for AI coding agents. A `Sandbox` CRD provisions a Pod + PVC + NetworkPolicy with optional gVisor isolation; the `agenttier` Go CLI runs agent invocations that stream stdout/stderr/exit as SSE. Ships reference templates for Claude Code + Bedrock and LangGraph. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 19
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-09T04:33:25Z"
+    pushed_at: "2026-05-18T03:56:24Z"
+    description: Kubernetes-native platform for managing isolated, persistent sandboxes for AI agents. Warm pool for instant startup, OIDC auth, Web UI, Claude Code + Bedrock support.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-18T05:26:16.495Z"
+    readme:
+      fetched_at: "2026-05-18T05:26:16.495Z"
+      bytes: 20794
+insights:
+  summary: AgentTier is a Kubernetes-native platform providing isolated, persistent sandbox environments for running AI agents with warm pools, OIDC auth, and Web UI.
+  why_it_matters: It lets developers run AI coding agents like Claude Code in secure, reproducible environments with instant startup and persistent state, reducing environment drift and security risks.
+  mental_damage: Finally, a way to sandbox your AI agents so they can't rm -rf your cluster — because apparently we needed gVisor just to trust LLMs with a shell.
+  tags:
+    - kubernetes
+    - ai-agents
+    - sandbox
+    - devops
+    - security
+  confidence: medium
+curation:
+  status: included
+  reason: AgentTier is a control plane for managing the lifecycle of AI agent sandboxes, making it an orchestration platform rather than a coding agent itself.
+  evidence:
+    - "Repo description: 'Kubernetes-native platform for managing isolated, persistent sandboxes for AI agents'"
+    - "README: 'Orchestrate multi-agent workflows with inter-sandbox communication' and 'Agent mode' for on-demand agent invocation"
+    - "Seen in source list: awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'"
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-18T05:26:15.345Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-18T05:26:16.495Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-18T05:39:04.791Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

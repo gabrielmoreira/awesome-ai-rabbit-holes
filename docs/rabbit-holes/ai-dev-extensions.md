@@ -85,7 +85,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `jetbrains` `plugin` `code-assistant` `ide-extension`
   </details>
 
-- **[CodexMonitor](https://github.com/dimillian/codexmonitor)** `⭐ 3.8k` `updated ≤90d` A Tauri desktop app for orchestrating multiple Codex CLI agents across local workspaces with conversation views, git/GitHub integrations, and project management features. <details><summary>More about</summary>
+- **[CodexMonitor](https://github.com/dimillian/codexmonitor)** `⭐ 3.9k` `updated ≤90d` A Tauri desktop app for orchestrating multiple Codex CLI agents across local workspaces with conversation views, git/GitHub integrations, and project management features. <details><summary>More about</summary>
 
   Developers running parallel Codex sessions get a unified desktop surface to manage threads, workspaces, and PR workflows without juggling multiple terminal windows.
 
@@ -101,6 +101,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _We have officially reached the point where we need AI to write the text that explains the code we were too busy prompting AI to write._
 
   `readme-generator` `cli` `documentation` `llm` `python`
+  </details>
+
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.4k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+
+  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
+
+  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
+
+  `terminal` `tui` `session-manager` `ai-agents` `cli`
   </details>
 
 - **[viewer](https://github.com/zetane/viewer)** `⭐ 1.8k` `updated >1y` Zetane Viewer is a 3D visualizer for ML models and internal tensors, supporting ONNX and ZTN formats. <details><summary>More about</summary>
@@ -148,7 +157,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `browser-testing` `debugging` `web-eval` `qa-automation`
   </details>
 
-- **[jean](https://github.com/coollabsio/jean)** `⭐ 897` `updated ≤30d` A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode. <details><summary>More about</summary>
+- **[jean](https://github.com/coollabsio/jean)** `⭐ 944` `updated ≤30d` A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode. <details><summary>More about</summary>
 
   It centralizes multi-project AI workflows by handling worktree automation, session management, and integrations with GitHub and Linear in a single native interface.
 
@@ -166,7 +175,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 540` `updated ≤30d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
+- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 549` `updated ≤30d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
 
   It closes the edit gap left by Figma's official MCP plugin, letting agents programmatically manipulate designs using compact CLI calls or familiar React-like JSX.
 
@@ -182,6 +191,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _We have officially entered the era where your AI assistant now has the power to set breakpoints and stare at variables you could have inspected yourself in half the time._
 
   `vscode-extension` `mcp` `debugging` `llm-tooling` `vibe-debugging`
+  </details>
+
+- **[Catnip](https://github.com/wandb/catnip)** `⭐ 480` `updated ≤90d` A containerized harness for Claude Code that manages git worktrees, enables parallel agent sessions, and provides web and mobile interfaces for remote operation. <details><summary>More about</summary>
+
+  It untethers developers from their desks by sandboxing Claude Code in devcontainers with automated worktree management and a native iOS interface for reviewing changes on the go.
+
+  _Finally, you can trigger CI pipelines from the toilet while your agent spawns children in isolated git worktrees like some kind of digital tribble colony._
+
+  `claude-code` `mobile` `devcontainer` `worktrees` `session-management`
   </details>
 
 - **[claude-cmd](https://github.com/kiliczsh/claude-cmd)** `⭐ 301` `updated ≤90d` A lightweight CLI tool for managing custom Claude Code commands, CLAUDE.md configurations, and MCP server setups. <details><summary>More about</summary>
@@ -202,7 +220,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mysql` `mcp` `database` `ai-dev-extensions`
   </details>
 
-- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 182` `updated ≤90d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
+- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 187` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
 
   It removes the manual drag-and-drop friction of building Stable Diffusion and FLUX workflows by letting developers describe node graphs in natural language and letting Claude Code manipulate them programmatically.
 
@@ -215,7 +233,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 118` `updated ≤30d` A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat. <details><summary>More about</summary>
+- **[memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 119` `updated ≤30d` A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat. <details><summary>More about</summary>
 
   It attempts to automate the tedious context-gathering phase of AI assistance by watching you work and feeding relevant history directly into your coding agent.
 
@@ -431,7 +449,16 @@ _These are new or low-traffic entries being watched._
   `cli` `tui` `agent-management` `devops` `go`
   </details>
 
-- **[open-code-review](https://github.com/raye-deng/open-code-review)** `⭐ 21` `updated ≤30d` An open-source CI/CD CLI and MCP server that detects AI-specific code defects like hallucinated imports, stale APIs, and over-engineering patterns across six languages. <details><summary>More about</summary>
+- **[llm-router](https://github.com/ypollak2/llm-router)** `⭐ 24` `updated ≤30d` A local control plane that routes AI coding tool requests to the cheapest capable model using complexity classification and fallback chains. <details><summary>More about</summary>
+
+  Reduces AI coding costs by automatically selecting optimal models without workflow changes.
+
+  _Watching your routing logic get more complex than the code you're trying to write._
+
+  `llm-routing` `cost-optimization` `mcp`
+  </details>
+
+- **[open-code-review](https://github.com/raye-deng/open-code-review)** `⭐ 21` `updated ≤90d` An open-source CI/CD CLI and MCP server that detects AI-specific code defects like hallucinated imports, stale APIs, and over-engineering patterns across six languages. <details><summary>More about</summary>
 
   It catches the class of bugs traditional linters miss when reviewing code generated by LLMs, providing a quality gate for AI-assisted workflows.
 

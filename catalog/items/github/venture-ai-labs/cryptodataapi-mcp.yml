@@ -38,18 +38,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:31.094Z"
       bytes: 3267
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes real-time crypto market data tools—including funding rates, ETF flows, and BTC cycle indicators—to AI agents via the Model Context Protocol.
+  why_it_matters: Gives coding agents programmatic access to financial market intelligence without requiring developers to hand-roll API integrations for every macro indicator or on-chain metric.
+  mental_damage: Because apparently your AI pair programmer now needs to know the BTC Puell Multiple and SOL ETF flows to help you center a div.
+  tags:
+    - mcp
+    - crypto
+    - finance
+    - market-data
+    - claude
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a concrete MCP server implementation with a clear domain focus (crypto/finance data), fitting squarely in the MCP Servers & Tooling category as domain-specific infrastructure.
+  evidence:
+    - Explicitly identified as 'An MCP (Model Context Protocol) server' in the README
+    - Listed in awesome-mcp-servers curated directory under Finance & Fintech section
+    - Implements 13 specific tools and 1 prompt for crypto market data access, not a generic integration layer
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:26:29.635Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__venture-ai-labs__cryptodataapi-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:30:29.048Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

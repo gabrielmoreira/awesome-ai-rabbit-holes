@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:48.599Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-18T05:26:38.291Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for eugeneyan/open-llms
     next_retry_at: null
   categorize:
     status: done

@@ -38,18 +38,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:39.874Z"
       bytes: 12242
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Copilot MCP Server is an open-source MCP server that connects IDEs and AI assistants to the GitHub Copilot CLI for code analysis and automation.
+  why_it_matters: Enables non-interactive use of GitHub Copilot CLI from any MCP-compatible editor, unlocking automation for code review and refactoring.
+  mental_damage: Yet another MCP server promising seamless AI integration, adding yet another layer to the ever-growing stack of developer tooling abstractions.
+  tags:
+    - mcp
+    - copilot-cli
+    - ai-assistant
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose core identity is providing MCP infrastructure to connect GitHub Copilot CLI to MCP clients, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'MCP server for GitHub Copilot CLI integration'"
+    - "README: 'Copilot MCP Tool is an open‑source Model Context Protocol (MCP) server that connects your IDE or AI assistant to GitHub Copilot CLI'"
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +71,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:30:29.720Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__x51xxx__copilot-mcp-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:36:13.752Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

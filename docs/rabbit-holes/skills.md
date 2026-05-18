@@ -13,7 +13,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 58.3k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 60.3k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -125,7 +125,7 @@ _These are new or low-traffic entries being watched._
   `biomedical` `agent-skills` `mcp` `life-sciences` `workflows`
   </details>
 
-- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 23` `updated ≤30d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
+- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 23` `updated ≤90d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
 
   It claims to automate model routing, chat-mode detection, and context hygiene to save roughly 47% on Manus credits without degrading output quality.
 
@@ -152,7 +152,7 @@ _These are new or low-traffic entries being watched._
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 11` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 12` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
 
   Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
 
@@ -179,7 +179,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ide-rules` `prompt-files` `agent-runtimes` `doctrine`
   </details>
 
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 1` `updated ≤30d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 1` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
 
   It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
 

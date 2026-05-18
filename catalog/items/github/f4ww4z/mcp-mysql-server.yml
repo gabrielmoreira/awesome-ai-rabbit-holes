@@ -82,9 +82,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:50.253Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-18T05:26:39.335Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for f4ww4z/mcp-mysql-server
     next_retry_at: null
   categorize:
     status: done

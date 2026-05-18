@@ -48,18 +48,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:35.259Z"
       bytes: 11716
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A containerized harness for Claude Code that manages git worktrees, enables parallel agent sessions, and provides web and mobile interfaces for remote operation.
+  why_it_matters: It untethers developers from their desks by sandboxing Claude Code in devcontainers with automated worktree management and a native iOS interface for reviewing changes on the go.
+  mental_damage: Finally, you can trigger CI pipelines from the toilet while your agent spawns children in isolated git worktrees like some kind of digital tribble colony.
+  tags:
+    - claude-code
+    - mobile
+    - devcontainer
+    - worktrees
+    - session-management
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is clearly an augmentation layer for Claude Code rather than a standalone coding agent, providing containerized hosting, worktree parallelism, and mobile UI capabilities.
+  evidence:
+    - README explicitly describes Catnip as a container/web service for running Claude Code with worktree management, not as the agent itself
+    - Source list categorizes it under 'Harnesses & orchestration' indicating it is infrastructure for agents rather than the agent
+    - Core features (native iOS app, worktree parallelization, Codespaces integration) are host capabilities augmenting Claude Code access
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (480) exceeded threshold (150)
@@ -75,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:28:10.984Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__wandb__catnip: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Catnip fun\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:33:51.168Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

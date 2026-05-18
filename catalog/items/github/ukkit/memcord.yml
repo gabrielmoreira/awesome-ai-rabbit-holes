@@ -55,18 +55,27 @@ metadata:
       fetched_at: "2026-05-12T15:06:28.603Z"
       bytes: 10611
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Privacy-first, self-hosted MCP server that persists AI chat history into searchable, summarized memory slots for Claude and other MCP-compatible assistants.
+  why_it_matters: Lets developers maintain long-term context across AI conversations without shipping chat history to cloud providers, using local storage and intelligent summarization.
+  mental_damage: Because we now need a separate SQLite database with 28 RESTful tools just to remember what we told the agent three prompts ago.
+  tags:
+    - memory
+    - mcp
+    - local-ai
+    - privacy
+    - context-retrieval
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Core novelty is memory infrastructure and context retrieval for AI assistants, fitting the Prompt & Context Engineering category despite being distributed as an MCP server.
+  evidence:
+    - "Repo description: 'Privacy-first MCP server for AI memory management'"
+    - README emphasizes 'Infinite Memory' and 'searchable knowledge base' with local storage as primary value
+    - Features center on summarization, memory slots, and timeline navigation—classic context-engineering primitives
+    - Very new repo (67 stars) but active and fits a clear gap in developer tooling
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -82,12 +91,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:25:47.465Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__ukkit__memcord: Invalid AI response format: SyntaxError: Unexpected token 'm', ...\"_reason\": memcord is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:29:09.651Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

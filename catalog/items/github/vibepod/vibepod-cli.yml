@@ -45,18 +45,27 @@ metadata:
       fetched_at: "2026-05-12T15:06:32.486Z"
       bytes: 6869
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A unified CLI that runs AI coding agents (Claude, Gemini, Codex, Copilot, etc.) in isolated Docker containers with zero configuration, plus a local analytics dashboard for side-by-side agent comparison.
+  why_it_matters: Developers can sandbox any terminal-native coding agent in Docker without setup sprawl, while collecting local metrics on token usage and HTTP traffic to compare commercial and open-source assistants empirically.
+  mental_damage: Finally, a containerized arena to pit your API budget against seven different coding agents so you can watch exactly which one burns through your credits fastest while safely isolated in its own Docker bubble.
+  tags:
+    - docker
+    - cli
+    - agent-runner
+    - observability
+    - sandbox
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: VibePod is a terminal-native harness for executing coding agents, functioning as the primary CLI interface developers interact with to run agents rather than an extension to existing ones.
+  evidence:
+    - Repo description and README define it as a 'unified CLI for running AI coding agents' via isolated containers
+    - Provides direct commands like 'vp run claude' and 'vp run codex', acting as the user-facing interface for multiple agents
+    - Active development with recent pushes (2026-04-22) and included in 'awesome-cli-coding-agents' terminal-native section
+    - Includes built-in dashboard for agent comparison, fitting the developer tooling scope for terminal agent workflows
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -72,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:27:15.804Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__vibepod__vibepod-cli: Invalid AI response format: SyntaxError: Unexpected token 'V', ...\"_reason\": VibePod fu\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:32:22.144Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

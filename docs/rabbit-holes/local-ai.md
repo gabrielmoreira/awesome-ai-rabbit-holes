@@ -31,7 +31,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 111.6k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 113.3k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
 
   It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
 
@@ -112,7 +112,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `self-hosted` `api-compatible` `open-source`
   </details>
 
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 45.1k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 45.8k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
 
   It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
 
@@ -157,7 +157,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `rag` `local-llm` `langchain` `agent` `knowledge-base`
   </details>
 
-- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 36.7k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
+- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 37.1k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
 
   It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
 

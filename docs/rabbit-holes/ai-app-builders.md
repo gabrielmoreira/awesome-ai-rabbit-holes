@@ -13,22 +13,22 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `prompt-to-code` `frontend` `screenshot` `ui-scaffolding`
   </details>
 
-- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.3k` `updated ≤30d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
-
-  Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
-
-  _Another reminder that 'hackable' often means 'you'll spend more time customizing than actually chatting'._
-
-  `chatbot` `nextjs` `ai-sdk` `vercel` `open-source`
-  </details>
-
-- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 20.3k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
+- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 20.4k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
 
   It allows developers to build AI-powered apps locally using their own API keys, eliminating vendor lock-in and keeping code private on their own hardware.
 
   _Yet another 'Lovable alternative' enters the ring, ensuring you can now generate a Next.js app locally and wonder why you still can't deploy it without 40 more tabs open._
 
   `local-ai` `app-builder` `open-source` `nextjs` `privacy`
+  </details>
+
+- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.3k` `updated ≤90d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
+
+  Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
+
+  _Another reminder that 'hackable' often means 'you'll spend more time customizing than actually chatting'._
+
+  `chatbot` `nextjs` `ai-sdk` `vercel` `open-source`
   </details>
 
 - **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.3k` `updated ≤180d` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
@@ -114,6 +114,15 @@ _These are new or low-traffic entries being watched._
   _Just when you thought the 'unlimited prompts' era was over, here is a tool to generate an entire index.js file and then manually debug the missing packages in the generated package.json._
 
   `nodejs` `app-generator` `prompt-to-app` `gpt-4` `scaffolding`
+  </details>
+
+- **[cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 29` `updated ≤30d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
+
+  It lets developers design and validate cloud infrastructure with a single prompt, reducing manual effort in IaC creation and compliance checks.
+
+  _Finally, a way to outsource architecture anxiety to an LLM while still pretending you reviewed the Terraform output._
+
+  `cloud-architecture` `iac` `devops` `cli`
   </details>
 
 - **[10Web](https://10web.io)** 10Web is an AI-powered website builder that generates WordPress sites, ecommerce stores, and landing pages from prompts, Figma designs, or URLs, coupled with managed hosting. <details><summary>More about</summary>

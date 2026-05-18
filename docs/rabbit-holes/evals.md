@@ -31,7 +31,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.2k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.3k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
 
   It gives developers the observability and evaluation tooling needed to measure prompt quality, trace agent behavior, and ship more reliable LLM-powered features.
 
@@ -40,7 +40,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evals` `tracing` `llmops` `monitoring`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.2k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.5k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
 
   It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
 
@@ -49,7 +49,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `testing` `python` `metrics` `agents`
   </details>
 
-- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.2k` `updated ≤30d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
+- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.3k` `updated ≤30d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
 
   It provides a visual workflow to generate QA pairs, manage label trees, and run automated evaluations, streamlining the data preparation phase of model customization.
 
@@ -76,7 +76,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `function-calling` `benchmarks` `llm-eval` `api-integration` `research`
   </details>
 
-- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 12.4k` `updated ≤30d` A unified framework for few-shot evaluation of language models across over 60 standard academic benchmarks with support for multiple inference backends. <details><summary>More about</summary>
+- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 12.6k` `updated ≤30d` A unified framework for few-shot evaluation of language models across over 60 standard academic benchmarks with support for multiple inference backends. <details><summary>More about</summary>
 
   It provides the standard backend for the Open LLM Leaderboard and is widely used by organizations to reproducibly measure and compare model performance.
 
@@ -274,7 +274,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `leaderboard`
   </details>
 
-- **[Langtrace](https://github.com/scale3-labs/langtrace)** `⭐ 1.2k` `updated ≤180d` Langtrace is an open-source observability platform built on OpenTelemetry that provides real-time tracing, metrics, and evaluations for LLM applications, APIs, vector databases, and popular LLM frameworks via TypeScript and Python SDKs. <details><summary>More about</summary>
+- **[Langtrace](https://github.com/scale3-labs/langtrace)** `⭐ 1.2k` `updated ≤1y` Langtrace is an open-source observability platform built on OpenTelemetry that provides real-time tracing, metrics, and evaluations for LLM applications, APIs, vector databases, and popular LLM frameworks via TypeScript and Python SDKs. <details><summary>More about</summary>
 
   It gives developers instrumented visibility into LLM latency, cost, and workflow behavior, making it easier to debug and optimize AI-powered applications.
 
@@ -283,7 +283,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `tracing` `llmops` `opentelemetry` `evals`
   </details>
 
-- **[UQLM](https://github.com/cvs-health/uqlm)** `⭐ 1.1k` `updated ≤30d` UQLM is a Python library from CVS Health that provides uncertainty quantification techniques to detect hallucinations in LLM outputs via black-box, white-box, and LLM-as-a-judge scoring methods. <details><summary>More about</summary>
+- **[UQLM](https://github.com/cvs-health/uqlm)** `⭐ 1.2k` `updated ≤30d` UQLM is a Python library from CVS Health that provides uncertainty quantification techniques to detect hallucinations in LLM outputs via black-box, white-box, and LLM-as-a-judge scoring methods. <details><summary>More about</summary>
 
   It gives developers a code-first way to measure and score LLM confidence and hallucination risk across multiple generation strategies before shipping AI features to users.
 
@@ -418,6 +418,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `mutation-testing` `llm-testing` `cli` `code-quality` `evals`
   </details>
 
+- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 260` `updated ≤30d` MathArena is a platform and evaluation harness for benchmarking LLMs on recent math competitions and olympiads, with scripts to run models and view reasoning traces. <details><summary>More about</summary>
+
+  It gives developers a reproducible way to measure how models handle rigorous mathematical reasoning rather than just standard coding benchmarks.
+
+  _Yet another arena to remind us that while models can hallucinate a React component in seconds, they still struggle to solve a high-school olympiad problem without dramatic flair._
+
+  `llm-eval` `benchmarks` `math` `cli`
+  </details>
+
 - **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 257` `updated ≤180d` LangFair is a Python library for conducting use-case-level bias and fairness assessments on LLM outputs using a Bring Your Own Prompts approach. <details><summary>More about</summary>
 
   It allows developers to measure and govern fairness risks specific to their prompts and use cases rather than relying on generic, static benchmarks.
@@ -425,15 +434,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Yet another tool proving that even after we finish shipping the feature, we still have to statistically audit our prompts for accidentally building a discriminatory dystopia._
 
   `llm-evaluation` `bias-testing` `fairness` `python-library` `responsible-ai`
-  </details>
-
-- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 257` `updated ≤30d` MathArena is a platform and evaluation harness for benchmarking LLMs on recent math competitions and olympiads, with scripts to run models and view reasoning traces. <details><summary>More about</summary>
-
-  It gives developers a reproducible way to measure how models handle rigorous mathematical reasoning rather than just standard coding benchmarks.
-
-  _Yet another arena to remind us that while models can hallucinate a React component in seconds, they still struggle to solve a high-school olympiad problem without dramatic flair._
-
-  `llm-eval` `benchmarks` `math` `cli`
   </details>
 
 - **[MixEval](https://github.com/jinjieni/mixeval)** `⭐ 256` `updated >1y` MixEval is a click-and-go LLM evaluation suite and dynamic benchmark that measures model performance against Chatbot Arena rankings while running locally at a fraction of the cost. <details><summary>More about</summary>
@@ -485,7 +485,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 _These are new or low-traffic entries being watched._
 
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 118` `updated ≤90d` XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs. <details><summary>More about</summary>
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 117` `updated ≤90d` XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs. <details><summary>More about</summary>
 
   It provides developers with a modular workbench to measure retrieval quality, faithfulness, and answer correctness across different RAG configurations and orchestration strategies.
 
@@ -620,7 +620,7 @@ _These are new or low-traffic entries being watched._
   `code-review` `ai-detection` `quality-analysis` `dashboard`
   </details>
 
-- **[SynthScan](https://github.com/marcoramilli/synthscan)** `⭐ 0` `updated ≤30d` A GitHub Action and CLI tool that scans repositories for over 120 patterns indicative of AI-generated code and reports a normalized 'Synthetic Code Score' per 1,000 lines of code. <details><summary>More about</summary>
+- **[SynthScan](https://github.com/marcoramilli/synthscan)** `⭐ 0` `updated ≤90d` A GitHub Action and CLI tool that scans repositories for over 120 patterns indicative of AI-generated code and reports a normalized 'Synthetic Code Score' per 1,000 lines of code. <details><summary>More about</summary>
 
   It provides engineering teams with a quantitative metric to assess the presence of low-quality or 'slop' AI code in their codebase and enforce thresholds via CI.
 

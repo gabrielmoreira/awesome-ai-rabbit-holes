@@ -38,18 +38,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:39.742Z"
       bytes: 3192
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: x402search-mcp is an MCP server that enables AI agents to search 14,000+ x402-enabled HTTP APIs using cryptocurrency payments.
+  why_it_matters: It lets agents programmatically discover and access paid blockchain APIs through a standardized MCP interface, enabling autonomous tool use in crypto-native workflows.
+  mental_damage: Another MCP server that turns API discovery into a token-gated ritual, because nothing says 'developer productivity' like paying USDC to find a token price endpoint.
+  tags:
+    - mcp
+    - x402
+    - api-search
+    - crypto
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose core identity is providing search-over-x402-apis as an MCP-compatible tool, making it MCP infrastructure first and foremost.
+  evidence:
+    - "Repo description: 'Search 13,000+ x402-enabled APIs from your AI agent. Powered by x402search.xyz'"
+    - README positions it as an MCP server installable via Claude Desktop, Cursor, Windsurf, and Python agents
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:30:14.164Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__x402-index__x402search-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:36:07.222Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

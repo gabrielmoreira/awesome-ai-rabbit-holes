@@ -43,18 +43,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:23.867Z"
       bytes: 14305
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Nanoclaw is a lightweight, container-isolated AI assistant that connects to messaging apps and runs on Anthropic's Agents SDK for secure personal automation.
+  why_it_matters: It gives developers a secure, understandable AI agent they can self-host and customize to interact with personal messaging platforms without trusting large opaque systems.
+  mental_damage: Finally, an AI assistant that runs in Docker so you can blame the container when it messages your boss instead of you.
+  tags:
+    - ai-agent
+    - claude-code
+    - containerized
+    - messaging-bridge
+    - personal-automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Nanoclaw is a terminal-invoked AI assistant that developers use as a primary coding and automation agent via Claude Code, fitting the coding-agents category despite its messaging integrations.
+  evidence:
+    - "Repo description: 'A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps... runs directly on Anthropic's Agents SDK'"
+    - "README: 'Claude agents run in their own Linux containers with filesystem isolation' and 'nanoclaw.sh walks you from a fresh machine to a named agent you can message'"
+    - "Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (28807) exceeded threshold (150)
@@ -70,12 +78,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:33:29.325Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__nanocoai__nanoclaw: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": NanoClaw i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:38:38.547Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

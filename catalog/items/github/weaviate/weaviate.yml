@@ -58,15 +58,23 @@ metadata:
       fetched_at: "2026-05-12T15:06:35.978Z"
       bytes: 18524
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Weaviate is an open-source, cloud-native vector database that stores objects and vectors together to enable semantic search, hybrid filtering, and RAG at scale.
+  why_it_matters: It provides the retrieval backbone for production RAG systems, letting developers combine vector similarity with structured filters without managing separate search and database layers.
+  mental_damage: You started with a simple 'chat with your PDF' demo and somehow ended up self-hosting a distributed vector cluster, debating HNSW vs IVF indexes, and calculating recall@10 in your sleep.
+  tags:
+    - vector-database
+    - rag
+    - semantic-search
+    - retrieval
+    - infrastructure
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is a general-purpose vector database and storage infrastructure, not a developer-facing AI coding tool, agent, framework, or workflow product within the catalog's defined categories.
+  evidence:
+    - Repo description identifies it as a vector database for search and storage, not a coding assistant or dev workflow tool
+    - README focuses on database features like multi-tenancy, replication, and vector search engine capabilities rather than code generation or agent orchestration
+    - Product is foundational data infrastructure for AI apps rather than an interactive tool for software development workflows
 placement:
   primary_category: null
   section: null
@@ -85,12 +93,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:28:35.852Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__weaviate__weaviate: Invalid AI response format: SyntaxError: Unexpected token 'W', ...\"_reason\": Weaviate i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:35:02.551Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

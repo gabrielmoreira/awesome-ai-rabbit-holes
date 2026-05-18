@@ -38,18 +38,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:34.562Z"
       bytes: 10796
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python framework for building multi-agent applications that extends the OpenAI Agents SDK with customizable agent roles, type-safe tools, and structured inter-agent communication flows.
+  why_it_matters: It lets developers model multi-agent workflows after real-world corporate hierarchies (CEO, Developer, Virtual Assistant) while maintaining full control over prompts and enabling production-grade orchestration.
+  mental_damage: Finally, a framework that lets you replicate corporate middle-management structures inside your codebase, because what your automation pipeline really needed was a CEO agent to ask for status updates from the Developer agent.
+  tags:
+    - multi-agent
+    - orchestration
+    - python
+    - agent-framework
+    - openai-sdk
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a code-first Python framework extending the OpenAI Agents SDK for building multi-agent applications, fitting the Frameworks & SDKs category identity.
+  evidence:
+    - Repo describes itself as a framework for building multi-agent applications with pip install import pattern
+    - Extends OpenAI Agents SDK with structured orchestration layers and type-safe tools
+    - 4,362 stars and actively maintained (last pushed 2026-05-11)
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (4362) exceeded threshold (150)
@@ -65,12 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:27:47.020Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__vrsen__agency-swarm: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Agency Swa\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:32:57.517Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

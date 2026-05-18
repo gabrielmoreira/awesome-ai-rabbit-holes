@@ -67,18 +67,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:29.406Z"
       bytes: 5938
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Python framework for building autonomous AI agents with task management, tool integration, and sandboxed execution.
+  why_it_matters: Provides a structured SDK for creating both autonomous and traditional agents with built-in safety constraints (workspace isolation) and MCP tool support, allowing developers to program agent behavior in Python rather than调酒 through GUIs.
+  mental_damage: Because what developers really needed was yet another Python agent framework to debate against CrewAI at 2 AM while their JIRA backlog autocatalyzes into sentient technical debt.
+  tags:
+    - agent-framework
+    - python
+    - autonomous-agents
+    - mcp-client
+    - task-management
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is explicitly a code-first Python framework (importable classes like AutonomousAgent and Task) for constructing agents, not a standalone coding assistant or orchestration platform.
+  evidence:
+    - Listed in awesome-llm-agents under 'Frameworks' section, confirming categorical identity
+    - README describes itself as 'Python framework for building autonomous agents' with pip install and import statements (from upsonic import AutonomousAgent)
+    - 7846 stars and recent activity (2024 creation, active through 2025) show healthy ecosystem traction
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (7846) exceeded threshold (150)
@@ -94,12 +102,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:26:31.737Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__upsonic__upsonic: Invalid AI response format: SyntaxError: Unexpected token 'U', ...\"_reason\": Upsonic is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:30:57.747Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

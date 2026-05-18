@@ -48,15 +48,23 @@ metadata:
       fetched_at: "2026-05-12T15:06:34.041Z"
       bytes: 15601
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Kubernetes-native batch scheduling system for high-performance computing, AI/ML training, and big data workloads.
+  why_it_matters: Provides gang scheduling and resource optimization for distributed AI training jobs on Kubernetes clusters, handling frameworks like TensorFlow, PyTorch, and Ray.
+  mental_damage: Nothing says 'AI rabbit hole' like realizing you need a CNCF-certified Kubernetes batch scheduler before you can fine-tune your first LoRA.
+  tags:
+    - kubernetes
+    - batch-scheduler
+    - mlops
+    - training
+    - cncf
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is infrastructure for cluster resource scheduling rather than a developer-facing coding assistant, agent, or app-building tool; it belongs in MLOps/platform engineering catalogs, not a curated list of AI coding rabbit holes.
+  evidence:
+    - Repo description identifies it as a 'Cloud Native Batch System' under CNCF, not a coding assistant or IDE.
+    - README emphasizes Kubernetes scheduling for Spark, Flink, TensorFlow, and PyTorch batch workloads, not developer coding workflows or agent orchestration.
+    - Categorized in Awesome-LLMOps under 'Large Scale Deployment > Scheduling', confirming its role as infrastructure rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -75,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:27:40.758Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__volcano-sh__volcano: Invalid AI response format: SyntaxError: Unexpected token 'V', ...\"_reason\": Volcano is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:33:08.391Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

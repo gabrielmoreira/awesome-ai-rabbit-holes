@@ -1,0 +1,90 @@
+id: github__agentfm-ai__agent-fm
+kind: github-repo
+name: agent-fm
+canonical_url: https://github.com/agentfm-ai/agent-fm
+identity:
+  github_repo: agentfm-ai/agent-fm
+provenance:
+  discoveries:
+    - id: discovery__github__agentfm-ai__agent-fm__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-18T05:26:15.344Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Agent FM
+        extracted_url: https://github.com/agentfm-ai/agent-fm
+        surrounding_text: "- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 19` — Local macOS menubar app that narrates Claude Code and Codex sessions with a Global Mix, blocker alerts, and BYOK voice; built with Electron. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-11T05:13:06Z"
+    pushed_at: "2026-05-13T02:40:11Z"
+    description: Agent FM - Tune in and stay in the loop with your agents 🎧
+    homepage: https://agentfm.ai
+    topics:
+      - agent-monitoring
+      - ai-agents
+      - ambient-ai
+      - audio
+      - claude
+      - claude-code
+      - codex
+      - electron
+      - gemini
+      - macos
+      - typescript
+      - vibe-coding
+      - voice-ai
+      - voice-assistant
+    last_checked_at: "2026-05-18T05:26:16.365Z"
+    readme:
+      fetched_at: "2026-05-18T05:26:16.365Z"
+      bytes: 3577
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-18T05:26:15.345Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-18T05:26:16.365Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-18T05:39:15.859Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__agentfm-ai__agent-fm: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Agent FM a\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

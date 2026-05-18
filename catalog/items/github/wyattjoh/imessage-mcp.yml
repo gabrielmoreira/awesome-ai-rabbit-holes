@@ -38,18 +38,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:39.325Z"
       bytes: 6338
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Deno-based Model Context Protocol server for reading iMessage data on macOS.
+  why_it_matters: Lets LLMs access local iMessage history and contacts via a standardized MCP interface, enabling context-aware AI workflows on macOS.
+  mental_damage: Finally, an excuse to let your AI read your awkward group chats while pretending it’s for productivity.
+  tags:
+    - mcp
+    - imessage
+    - deno
+    - macos
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server as its core identity, providing iMessage data access through the Model Context Protocol, matching the MCP category's focus on MCP-first tooling.
+  evidence:
+    - "Repo description: 'A Model Context Protocol server for reading iMessage data from macOS'"
+    - "README: Explicitly markets '@wyattjoh/imessage-mcp' as 'Model Context Protocol (MCP) server for LLM integration'"
+    - "Source-list context: Included in awesome-mcp-servers under 'Server Implementations > Communication'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:30:01.415Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__wyattjoh__imessage-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:36:04.019Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

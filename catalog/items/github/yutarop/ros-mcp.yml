@@ -41,18 +41,25 @@ metadata:
       fetched_at: "2026-05-12T15:06:44.303Z"
       bytes: 4748
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server for ROS to control robots via topics, services, and actions.
+  why_it_matters: Lets developers interact with ROS2 using natural language through Claude Desktop, lowering the barrier to robotics prototyping.
+  mental_damage: Finally, a way to yell at your robot in English instead of wrestling with rostopic echo at 2 a.m.
+  tags:
+    - mcp
+    - ros2
+    - robotics
+    - cli-agent
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as a terminal-based coding agent that translates natural language prompts into ROS2 commands, enabling developers to control robots via Claude Desktop without writing boilerplate code.
+  evidence:
+    - "Repo description: 'MCP server for ROS to control robots via topics, services, and actions.'"
+    - "README: Processes natural language input, maps it to ROS commands, and communicates with ROS2 topics/services/actions."
+    - "Usage: Integrated with Claude Desktop via MCP to execute robot control prompts like 'move TurtleBot3 forward'."
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +75,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:32:52.150Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__yutarop__ros-mcp: Invalid AI response format: SyntaxError: Unexpected token 'R', ...\"_reason\": ROS MCP is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:37:56.043Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

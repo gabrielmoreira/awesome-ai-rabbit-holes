@@ -1,0 +1,100 @@
+id: github__asheshgoplani__agent-deck
+kind: github-repo
+name: agent-deck
+canonical_url: https://github.com/asheshgoplani/agent-deck
+identity:
+  github_repo: asheshgoplani/agent-deck
+provenance:
+  discoveries:
+    - id: discovery__github__asheshgoplani__agent-deck__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-18T05:26:15.344Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: agent-deck
+        extracted_url: https://github.com/asheshgoplani/agent-deck
+        surrounding_text: "- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.4k` — Terminal session manager for AI coding agents — one TUI for Claude, Gemini, OpenCode, Codex, and more. Worktree-aware, MCP integration, 8+ contributors. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 2434
+    forks: 281
+    license: MIT
+    archived: false
+    created_at: "2025-12-03T17:08:12Z"
+    pushed_at: "2026-05-18T03:30:22Z"
+    description: Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.
+    homepage: https://discord.gg/e4xSs6NBN8
+    topics:
+      - ai-agent
+      - ai-agents
+      - ai-coding-assistant
+      - aider
+      - bubble-tea
+      - claude-code
+      - cli
+      - codex
+      - developer-tools
+      - discord
+      - gemini-cli
+      - golang
+      - mcp
+      - productivity
+      - session-manager
+      - terminal
+      - tmux
+      - tui
+    last_checked_at: "2026-05-18T05:26:16.673Z"
+    readme:
+      fetched_at: "2026-05-18T05:26:16.673Z"
+      bytes: 46488
+insights:
+  summary: Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode.
+  why_it_matters: It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
+  mental_damage: Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough.
+  tags:
+    - terminal
+    - tui
+    - session-manager
+    - ai-agents
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: Agent Deck is primarily a session UI that augments existing AI coding agents with workflow capabilities rather than acting as a primary coding assistant itself.
+  evidence:
+    - "Repo description: 'Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.'"
+    - "README: 'Agent Deck is mission control for your AI coding agents. One terminal. All your agents. Complete visibility.'"
+    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers & parallel runners'"
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2434) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-18T05:26:15.345Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-18T05:26:16.674Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-18T05:39:15.247Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

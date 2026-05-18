@@ -95,9 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:49.860Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-18T05:26:39.265Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for eyaltoledano/claude-task-master
     next_retry_at: null
   categorize:
     status: done

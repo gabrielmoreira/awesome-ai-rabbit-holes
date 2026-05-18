@@ -66,11 +66,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-05-14T05:33:01.805Z"
+    updated_at: "2026-05-18T05:38:13.144Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__zeng3ld__gate4agent: Invalid AI response format: SyntaxError: Unexpected token 'g', ...\"_reason\": gate4agent\"... is not valid JSON"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

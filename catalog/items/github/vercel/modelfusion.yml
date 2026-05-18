@@ -57,18 +57,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:31.450Z"
       bytes: 27900
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeScript library providing a unified abstraction layer for integrating multi-modal AI models (text, image, embeddings, speech) from diverse providers into JavaScript applications.
+  why_it_matters: Standardizes access to OpenAI, Ollama, Llama.cpp and others with type-safe streaming, tool usage, and production observability—though it is being merged into the Vercel AI SDK.
+  mental_damage: Yet another LLM abstraction layer that got absorbed into a bigger abstraction layer before you could finish refactoring your codebase to use it.
+  tags:
+    - typescript
+    - llm-abstraction
+    - multi-modal
+    - sdk
+    - vercel
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a code-first TypeScript SDK for abstracting model providers, fitting the Frameworks & SDKs category as a provider abstraction layer, despite being slated for integration into Vercel AI SDK.
+  evidence:
+    - README describes it as 'an abstraction layer for integrating AI models into JavaScript and TypeScript applications' unifying APIs for text generation, embeddings, and tool usage
+    - Listed in awesome-langchain under 'Other LLM Frameworks' alongside similar SDKs
+    - 1320 stars and active maintenance through 2024-07-19, not archived, with production features like retries and observability hooks
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (1320) exceeded threshold (150)
@@ -84,12 +92,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:26:50.565Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__vercel__modelfusion: Invalid AI response format: SyntaxError: Unexpected token 'M', ...\"_reason\": ModelFusio\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:31:38.279Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -37,18 +37,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:31.870Z"
       bytes: 37831
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A flexible, efficient RL post-training framework for large language models that implements algorithms like GRPO and PPO with seamless integration into existing LLM training infrastructure.
+  why_it_matters: Gives developers a production-ready, modular toolkit for RLHF and reasoning training at scale, decoupling computation from data dependencies to support trillion-parameter models across distributed clusters.
+  mental_damage: Finally, a framework elegant enough to orchestrate your trillion-parameter model's existential crisis across 64 H800s, only to discover the reward model started gaming the metric in epoch two.
+  tags:
+    - rlhf
+    - post-training
+    - distributed-training
+    - llm-training
+    - hybridflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a production-grade, high-traction framework for RL post-training of LLMs that developers import as a library to build training workflows, fitting the code-first SDK pattern rather than an end-user platform or orchestration control plane.
+  evidence:
+    - Repo description identifies it as a 'Flexible and Efficient RL Post-Training Framework'
+    - README positions it as a 'flexible, efficient and production-ready RL training library' with modular APIs for scripting against FSDP, Megatron-LM, vLLM, SGLang
+    - 21k+ stars and maintained by ByteDance Seed team with recent commits through May 2026, indicating strong ecosystem traction
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (21235) exceeded threshold (150)
@@ -64,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:26:49.285Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__verl-project__verl: Invalid AI response format: SyntaxError: Unexpected token 'v', ...\"_reason\": verl is a \"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:31:23.123Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

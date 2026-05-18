@@ -1,0 +1,75 @@
+id: roomote__dev
+kind: website
+name: roomote.dev
+canonical_url: https://roomote.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__roomote__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-18T05:26:15.344Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Roo Code
+        extracted_url: https://roocode.com
+        surrounding_text: "- **[Roo Code](https://roocode.com/)** – Popular open-source VS Code extension (fork of Cline) with multi-model support and autonomous coding modes."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Roomote is an AI coding agent that operates in Slack to perform repo-wide development tasks using a team's existing tools and environments.
+  why_it_matters: It lets non-engineers and engineers alike offload coding work through Slack without changing workflows, extending AI leverage across the team.
+  mental_damage: Finally, an AI that promises to handle your backlog while you pretend to be busy in meetings.
+  tags:
+    - ai-agent
+    - slack-integration
+    - team-workflow
+  confidence: high
+curation:
+  status: included
+  reason: Roomote functions as a standalone coding agent that plans, writes, tests, and reviews code across repos, making it a primary assistant rather than an extension.
+  evidence:
+    - Roomote knows your codebase, uses your tools, and gets a real dev environment to handle bugs, chores, and feature work
+    - It performs automatic code reviews & fixes, runs your actual app to verify work, and self-improves from PR feedback
+    - It is described as an AI coworker that onboards itself and handles merge conflicts, inbound bugs, and complex PRs
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-18T05:26:15.345Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-18T05:39:33.271Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/blackwell-systems/agent-lsp
         surrounding_text: "- [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) [![blackwell-systems/agent-lsp MCP server](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp/badges/score.svg)](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp) 🏎️ 🏠 🍎 🪟 🐧 - Stateful MCP server over real language servers. 50 tools, 30 CI-verified languages, 20 agent workflows. Persistent sessions keep the index warm across files and projects. Speculative execution simulates edits in memory before writing to disk."
         confidence: high
+    - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-18T05:26:15.344Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: agent-lsp
+        extracted_url: https://github.com/blackwell-systems/agent-lsp
+        surrounding_text: "- **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** `⭐ 25` — MCP server giving any CLI coding agent type-aware language intelligence: 50+ LSP tools, speculative execution (preview edits without touching disk), 21 skills, 30 CI-verified languages. Measured 5–34× token savings vs grep/read. Works with Claude Code, Codex, Gemini CLI, Goose, and any MCP client. Go, MIT."
+        confidence: high
 metadata:
   github:
     stars: 24
@@ -83,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: "2026-05-18T05:26:15.345Z"
     cause: null
     next_retry_at: null
   stars:

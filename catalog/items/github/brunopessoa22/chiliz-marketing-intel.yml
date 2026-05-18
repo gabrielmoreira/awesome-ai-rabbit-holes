@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-14T05:20:31.488Z"
+    status: failed
+    updated_at: "2026-05-18T05:26:17.217Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for brunopessoa22/chiliz-marketing-intel
+      type: github_repo_missing
+      message: "GitHub repository not found: brunopessoa22/chiliz-marketing-intel"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-05-14T05:20:33.271Z"
+    updated_at: "2026-05-18T05:26:40.123Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

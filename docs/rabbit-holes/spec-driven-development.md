@@ -112,7 +112,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `mcp` `spec-driven` `requirements` `workflow`
   </details>
 
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 372` `updated ≤180d` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 373` `updated ≤180d` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
 
   It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
 
@@ -139,7 +139,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 238` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 244` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
 
@@ -179,7 +179,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `meta-specification` `cli` `token-optimization` `ai-agents`
   </details>
 
-- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 23` `updated ≤30d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
+- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 24` `updated ≤30d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
 
   It creates a structured spec-first loop that treats living documentation as the authoritative source of truth for agent-driven development workflows.
 
@@ -224,6 +224,15 @@ _These are new or low-traffic entries being watched._
   `claude-code` `spec-driven` `planning` `agent-skills`
   </details>
 
+- **[colign](https://github.com/colign/colign)** `⭐ 3` `updated ≤30d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
+
+  It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
+
+  _Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway._
+
+  `spec-driven` `team-collaboration` `mcp` `sdd` `planning`
+  </details>
+
 - **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 3` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
 
   It enforces a structured spec-first workflow by turning vague project ideas into validated, copy-pasteable implementation plans with built-in progress tracking.
@@ -231,15 +240,6 @@ _These are new or low-traffic entries being watched._
   _We have successfully abstracted software engineering into generating enough bureaucracy that even a large language model can follow the instructions without thinking._
 
   `mcp` `claude-code` `planning` `spec-driven` `task-management`
-  </details>
-
-- **[colign](https://github.com/colign/colign)** `⭐ 2` `updated ≤30d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
-
-  It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
-
-  _Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway._
-
-  `spec-driven` `team-collaboration` `mcp` `sdd` `planning`
   </details>
 
 - **[server](https://github.com/aidemd-mcp/server)** `⭐ 2` `updated ≤30d` An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases. <details><summary>More about</summary>

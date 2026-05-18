@@ -58,18 +58,26 @@ metadata:
       fetched_at: "2026-05-12T15:06:33.224Z"
       bytes: 19211
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server exposing nine tools for generating, validating, and optimizing Microsoft Adaptive Cards for Teams, Outlook, Copilot, and ChatGPT.
+  why_it_matters: Eliminates manual JSON templating for Microsoft 365 bot interfaces by letting developers generate validated, accessible Adaptive Cards through natural language prompts in their existing coding assistants.
+  mental_damage: Brings 924 tests and zero competitors to the previously unsolved problem of making AI generate Microsoft Teams cards that won't render as blank rectangles in Outlook.
+  tags:
+    - mcp-server
+    - adaptive-cards
+    - microsoft-teams
+    - outlook
+    - bot-framework
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is fundamentally an MCP server implementation whose entire product identity is providing domain-specific tools (Adaptive Card generation) via the Model Context Protocol, fitting cleanly into Domain Servers.
+  evidence:
+    - Repo description explicitly identifies as 'AI-powered Adaptive Card MCP server' with MCP as the core protocol
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, confirming community categorization as MCP infrastructure
+    - README provides MCP configuration snippets for Claude Code, Copilot, Cursor, Windsurf, and Copilot Studio, demonstrating it is infrastructure for those hosts rather than a standalone assistant
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -85,12 +93,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:27:27.471Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__vikrantsingh01__adaptive-cards-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:32:16.277Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

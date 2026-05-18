@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:50.075Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-18T05:26:39.198Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for eyalzh/browser-control-mcp
     next_retry_at: null
   categorize:
     status: done

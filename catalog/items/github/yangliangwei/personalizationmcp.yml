@@ -38,18 +38,24 @@ metadata:
       fetched_at: "2026-05-12T15:06:41.447Z"
       bytes: 23032
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: PersonalizationMCP is a Model Context Protocol server that aggregates personal data from Steam, YouTube, Bilibili, Spotify, and Reddit for AI assistant consumption.
+  why_it_matters: It enables AI assistants to access a developer's personal digital life across platforms, enriching context for coding-related tasks like debugging, learning, or ideation.
+  mental_damage: Yet another MCP server promising personalized AI while adding another credential to rotate and another service to monitor for rate limits.
+  tags:
+    - mcp
+    - personal-data
+    - ai-context
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is an MCP server that exposes personal data platforms as tools/resources, fitting the MCP Servers & Tooling category as domain-specific infrastructure.
+  evidence:
+    - Repo description states it is 'a unified personal data hub built on MCP'
+    - README emphasizes MCP compatibility and provides a `personalhub serve` command to run the server
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +71,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:31:31.407Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__yangliangwei__personalizationmcp: Invalid AI response format: SyntaxError: Unexpected token 'P', ...\"summary\": Personaliz\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:37:08.010Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

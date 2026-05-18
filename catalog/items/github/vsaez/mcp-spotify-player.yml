@@ -48,15 +48,23 @@ metadata:
       fetched_at: "2026-05-12T15:06:34.812Z"
       bytes: 26532
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Spotify playback controls to AI assistants like Claude and Cursor.
+  why_it_matters: Allows hands-free music control during coding sessions, though it offers no direct software development or workflow capabilities.
+  mental_damage: Now your AI assistant can DJ your debugging session, because apparently reaching for the media keys was the last remaining friction in software engineering.
+  tags:
+    - mcp
+    - mcp-server
+    - spotify
+    - integration
+    - music
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: MCP server for consumer music control lacks developer-tooling relevance; it's a lifestyle convenience rather than a coding workflow enhancement.
+  evidence:
+    - Repo description and README focus solely on music playback (play, pause, volume) via natural language, not code or dev infrastructure
+    - Very low ecosystem traction (19 stars) and created August 2025 (extremely recent)
+    - While listed in awesome-mcp-servers, it represents a novelty domain integration rather than practical developer tooling
 placement:
   primary_category: null
   section: null
@@ -75,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:27:54.594Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__vsaez__mcp-spotify-player: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:33:44.245Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

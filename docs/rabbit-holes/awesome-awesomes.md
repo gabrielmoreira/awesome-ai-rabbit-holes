@@ -40,7 +40,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `github-copilot` `skills` `awesome-list` `extensions` `mcp`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 27.7k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 27.9k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
 
   It serves as a navigational map for developers trying to find the right agent framework or product in a rapidly expanding ecosystem.
 
@@ -346,7 +346,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `local-llm` `discovery`
   </details>
 
-- **[awesome-federated-learning](https://github.com/weimingwill/awesome-federated-learning)** `⭐ 731` `updated ≤180d` A curated GitHub repository listing federated learning resources including papers, blogs, videos, and frameworks. <details><summary>More about</summary>
+- **[awesome-federated-learning](https://github.com/weimingwill/awesome-federated-learning)** `⭐ 731` `updated ≤1y` A curated GitHub repository listing federated learning resources including papers, blogs, videos, and frameworks. <details><summary>More about</summary>
 
   Helps developers discover federated learning tools and research for privacy-preserving machine learning workflows.
 
@@ -409,7 +409,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `ai-apps` `directory` `open-source` `typescript`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 160` `updated ≤90d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 165` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
 
   It acts as a central map for developers trying to shift from vibe-coding to disciplined, specification-first workflows that align AI agents with business requirements.
 

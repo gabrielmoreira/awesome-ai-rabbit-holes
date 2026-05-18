@@ -58,15 +58,23 @@ metadata:
       fetched_at: "2026-05-12T15:06:29.312Z"
       bytes: 49131
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Data search and enrichment library for machine learning that automates feature discovery and generation from external data sources using LLMs, GNNs, and RNNs.
+  why_it_matters: It claims to boost ML model accuracy by automatically enriching tabular datasets with relevant external features—like demographics, weather, or economic data—without manual feature engineering.
+  mental_damage: Realizing your model's accuracy bottleneck wasn't hyperparameters but the fact that you didn't think to join against historical weather data and ZIP-code-level consumer spending trends.
+  tags:
+    - feature-engineering
+    - data-enrichment
+    - automl
+    - machine-learning
+    - python-library
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is fundamentally an ML/Data Science library for tabular feature engineering rather than a software development or AI application building tool; it targets data scientists improving model accuracy, not developers building software with AI assistance.
+  evidence:
+    - Repo description positions it as 'Data search & enrichment library for Machine Learning' focused on ML pipelines
+    - README centers on supervised ML tasks (binary/multiclass classification, regression, time-series) on tabular data, not code generation or software workflows
+    - Source-list context places it in Awesome-LLMOps under 'Data/Feature enrichment', confirming its identity as data infrastructure rather than developer tooling
 placement:
   primary_category: null
   section: null
@@ -85,12 +93,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-14T05:26:05.602Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__upgini__upgini: Invalid AI response format: SyntaxError: Unexpected token 'U', ...\"_reason\": Upgini is \"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-18T05:29:37.077Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
