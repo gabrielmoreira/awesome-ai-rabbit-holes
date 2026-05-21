@@ -24,30 +24,57 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 13
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-03T04:20:56Z"
+    pushed_at: "2026-05-20T07:25:23Z"
+    description: One memory, three terminals. Shared memory layer for Claude Code, Codex, and Gemini CLI — hybrid retrieval (vector + BM25 + KG), session continuity, 40 MCP tools. Local-first, LanceDB-backed.
+    homepage: https://github.com/AliceLJY/agent-nexus
+    topics:
+      - ai-agent
+      - ai-memory
+      - claude-code
+      - codex
+      - gemini
+      - hybrid-retrieval
+      - knowledge-graph
+      - knowledge-retrieval
+      - lancedb
+      - local-first
+      - long-term-memory
+      - mcp
+      - memory
+      - rag
+      - session-continuity
+      - transcript-search
+      - vector-search
+    last_checked_at: "2026-05-21T05:28:07.633Z"
+    readme:
+      fetched_at: "2026-05-21T05:28:07.633Z"
+      bytes: 29028
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Local-first shared memory layer for Claude Code, Codex, and Gemini CLI that uses hybrid retrieval (vector + BM25 + knowledge graph) and session continuity to preserve context across terminals.
+  why_it_matters: It ends the context amnesia of switching between terminal agents by giving Claude Code, Codex, and Gemini CLI a single, self-hosted LanceDB memory store with automatic recall, decay, and cross-session continuity.
+  mental_damage: It is somewhat sobering that we now need a LanceDB knowledge graph with configurable decay algorithms just so three different terminal agents can both remember that the user prefers dark mode.
+  tags:
+    - memory-layer
+    - hybrid-retrieval
+    - claude-code
+    - local-first
+    - knowledge-graph
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Its entire substance is a developer-facing memory and retrieval system for coding agents, with hybrid search, knowledge graphs, and session continuity as the core value rather than a thin integration wrapper.
+  evidence:
+    - Repo description and README position it as a 'Shared Memory Layer' with hybrid retrieval (vector + BM25 + KG) and LanceDB backing.
+    - It integrates with Claude Code, Codex, and Gemini CLI via MCP, but the core product is the memory store, retrieval pipeline, and knowledge-graph UI.
+    - 13 stars and created March 2026, but actively maintained through May 2026 with MIT license, benchmarked evaluation, and inclusion in awesome-mcp-servers under Knowledge & Memory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,16 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-05-18T05:26:16.528Z"
-    cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: aliceljy/recallnest"
+    status: done
+    updated_at: "2026-05-21T05:28:07.633Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-05-18T05:26:40.123Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-21T05:29:17.942Z"
+    cause: null
     next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

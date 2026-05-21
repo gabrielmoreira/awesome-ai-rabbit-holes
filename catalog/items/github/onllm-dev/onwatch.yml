@@ -1,0 +1,70 @@
+id: github__onllm-dev__onwatch
+kind: github-repo
+name: onwatch
+canonical_url: https://github.com/onllm-dev/onwatch
+identity:
+  github_repo: onllm-dev/onwatch
+provenance:
+  discoveries:
+    - id: discovery__github__onllm-dev__onwatch__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: onWatch
+        extracted_url: https://github.com/onllm-dev/onwatch
+        surrounding_text: "| [onWatch](https://github.com/onllm-dev/onwatch) | Lightweight Go CLI that tracks AI API quota usage across 7 providers (Anthropic, OpenAI, GitHub Copilot, MiniMax, and more). Background daemon, <50MB RAM, zero telemetry, SQLite storage. | ![GitHub Badge](https://img.shields.io/github/stars/onllm-dev/onwatch.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-21T05:28:21.556Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

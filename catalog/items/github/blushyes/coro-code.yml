@@ -75,9 +75,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-14T05:20:30.377Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-21T05:28:20.176Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for blushyes/coro-code
     next_retry_at: null
   categorize:
     status: done

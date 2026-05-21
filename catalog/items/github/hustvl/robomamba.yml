@@ -1,0 +1,70 @@
+id: github__hustvl__robomamba
+kind: github-repo
+name: robomamba
+canonical_url: https://github.com/hustvl/robomamba
+identity:
+  github_repo: hustvl/robomamba
+provenance:
+  discoveries:
+    - id: discovery__github__hustvl__robomamba__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Robotics Foundation Model
+        anchor_text: RoboMamba
+        extracted_url: https://github.com/hustvl/robomamba
+        surrounding_text: "| [RoboMamba](https://github.com/hustvl/RoboMamba)          | An efficient VLA model leveraging State Space Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient, recurrent robotic reasoning.                          | ![GitHub Badge](https://img.shields.io/github/stars/hustvl/RoboMamba.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-21T05:28:21.556Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

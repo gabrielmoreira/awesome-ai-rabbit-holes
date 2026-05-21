@@ -1,0 +1,102 @@
+id: github__airweave-ai__airweave
+kind: github-repo
+name: airweave
+canonical_url: https://github.com/airweave-ai/airweave
+identity:
+  github_repo: airweave-ai/airweave
+provenance:
+  discoveries:
+    - id: discovery__github__airweave-ai__airweave__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Hybrid search
+        anchor_text: Airweave
+        extracted_url: https://github.com/airweave-ai/airweave
+        surrounding_text: "| [Airweave](https://github.com/airweave-ai/airweave)    | An easy way to turn any app into searchable data for LLMs.                                                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/airweave-ai/airweave.svg?style=flat-square)    |"
+        confidence: high
+metadata:
+  github:
+    stars: 6348
+    forks: 787
+    license: MIT
+    archived: false
+    created_at: "2024-12-24T10:00:06Z"
+    pushed_at: "2026-05-20T11:40:43Z"
+    description: Open-source context retrieval layer for AI agents
+    homepage: https://airweave.ai
+    topics:
+      - agent-infrastructure
+      - ai
+      - ai-agents
+      - ai-infrastructure
+      - api
+      - context-retrieval
+      - data-connectors
+      - developer-tools
+      - enterprise-data
+      - information-retrieval
+      - integration
+      - llm
+      - open-source
+      - rag
+      - retrieval
+      - retrieval-augmented-generation
+      - sdk
+      - search
+      - search-api
+      - semantic-search
+    last_checked_at: "2026-05-21T05:28:05.491Z"
+    readme:
+      fetched_at: "2026-05-21T05:28:05.491Z"
+      bytes: 11520
+insights:
+  summary: Open-source context retrieval layer that syncs data from 50+ sources into a unified, LLM-friendly search interface for AI agents and RAG systems.
+  why_it_matters: It spares developers from rebuilding fragile data-ingestion, indexing, and auth pipelines for every agent by offering shared retrieval infrastructure with native SDK and MCP access.
+  mental_damage: Because pointing agents directly at your database was too straightforward, you now get to maintain a separate retrieval service with fifty OAuth connectors and its own Docker Compose file.
+  tags:
+    - context-retrieval
+    - rag-infrastructure
+    - data-connectors
+    - retrieval-api
+    - agent-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: Its core identity is developer-facing context-shaping infrastructure—syncing, indexing, and serving grounded data to agents—which fits Prompt & Context Engineering.
+  evidence:
+    - Repo description calls it an 'open-source context retrieval layer for AI agents'.
+    - README positions it as 'shared retrieval infrastructure' handling authentication, ingestion, syncing, indexing, and retrieval.
+    - 6,348 stars and actively pushed as of 2026-05-20 indicate healthy traction.
+placement:
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (6348) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-21T05:28:05.491Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-21T05:31:08.318Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -107,7 +107,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 _These are new or low-traffic entries being watched._
 
-- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 65` `updated >1y` Friday is a local web interface that uses GPT-4 to generate Node.js application scaffolds from sequential prompts, each defining a specific section of the app. <details><summary>More about</summary>
+- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 66` `updated >1y` Friday is a local web interface that uses GPT-4 to generate Node.js application scaffolds from sequential prompts, each defining a specific section of the app. <details><summary>More about</summary>
 
   It allows developers to bootstrap a Node.js project structure and logic through a browser-based chat interface rather than starting from scratch.
 

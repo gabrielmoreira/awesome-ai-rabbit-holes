@@ -1,0 +1,70 @@
+id: github__octo-models__octo
+kind: github-repo
+name: octo
+canonical_url: https://github.com/octo-models/octo
+identity:
+  github_repo: octo-models/octo
+provenance:
+  discoveries:
+    - id: discovery__github__octo-models__octo__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Robotics Foundation Model
+        anchor_text: Octo
+        extracted_url: https://github.com/octo-models/octo
+        surrounding_text: "| [Octo](https://github.com/octo-models/octo)               | A transformer-based generalist robot policy pretrained on 800K+ robot trajectories from the Open X-Embodiment dataset. Supports language instructions, goal images, and fine-tuning to new embodiments.      | ![GitHub Badge](https://img.shields.io/github/stars/octo-models/octo.svg?style=flat-square)            |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-05-21T05:28:21.556Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

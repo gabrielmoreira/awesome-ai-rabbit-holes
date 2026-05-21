@@ -94,7 +94,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `gateway` `observability` `evals` `rust`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.7k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.8k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
 
   It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
 
@@ -130,7 +130,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `llmops` `opentelemetry` `python` `tracing`
   </details>
 
-- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7k` `updated ≤30d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
+- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7k` `updated ≤90d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
 
   It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
 
@@ -337,7 +337,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
   </details>
 
-- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 865` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
+- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 868` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
 
   It lets developers move beyond prompt-tweaking by programmatically generating diverse, schema-validated datasets to train and evaluate agents with tool-calling and reasoning capabilities.
 
@@ -355,7 +355,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `data-quality` `llm-eval` `rag-eval`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 602` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 618` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
 
   It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
 
@@ -382,7 +382,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `huggingface` `cli`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 362` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 361` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
 
   Developers running local models can quickly understand their hardware's actual inference performance before integrating them into workflows.
 
@@ -391,7 +391,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `local-llm` `ollama` `cli` `performance`
   </details>
 
-- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 348` `updated ≤30d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
+- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 350` `updated ≤30d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
 
   It gives developers a version-controlled, type-safe workflow to iterate on prompts, run experiments against datasets, and trace LLM calls across local and cloud environments.
 
@@ -445,7 +445,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 231` `updated ≤90d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 232` `updated ≤90d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 
@@ -494,7 +494,7 @@ _These are new or low-traffic entries being watched._
   `rag` `evaluation` `benchmark` `llm` `metrics`
   </details>
 
-- **[eval-view](https://github.com/hidai25/eval-view)** `⭐ 100` `updated ≤30d` A Python CLI and testing framework that snapshots AI agent tool calls and outputs to catch behavior regressions across model or provider updates in CI. <details><summary>More about</summary>
+- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 100` `updated ≤30d` A Python CLI and testing framework that snapshots AI agent tool calls and outputs to catch behavior regressions across model or provider updates in CI. <details><summary>More about</summary>
 
   It gives developers a regression gate for agent behavior, distinguishing provider drift from real system regressions when normal tests still pass.
 
@@ -575,6 +575,15 @@ _These are new or low-traffic entries being watched._
   `rag` `eval` `benchmarking` `cli` `vector-search`
   </details>
 
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 4` `updated ≤90d` A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence. <details><summary>More about</summary>
+
+  Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
+
+  _Finally, quantitative proof that your overengineered agent stack scores 30 points lower than the same model with a cleaner config._
+
+  `benchmark` `agent-eval` `rule-based-scoring` `tracing`
+  </details>
+
 - **[swarms-evals](https://github.com/the-swarm-corporation/swarms-evals)** `⭐ 4` `updated ≤1y` A Python package providing evaluation harnesses for comparing multi-agent collaboration performance against individual agents across benchmarks like HumanEval, MMLU, and SWE-BENCH. <details><summary>More about</summary>
 
   Developers building or tuning multi-agent systems can use this to benchmark whether adding swarm coordination actually improves code generation and reasoning results.
@@ -584,16 +593,7 @@ _These are new or low-traffic entries being watched._
   `evals` `benchmarks` `multi-agent` `swarms`
   </details>
 
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 3` `updated ≤90d` A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence. <details><summary>More about</summary>
-
-  Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
-
-  _Finally, quantitative proof that your overengineered agent stack scores 30 points lower than the same model with a cleaner config._
-
-  `benchmark` `agent-eval` `rule-based-scoring` `tracing`
-  </details>
-
-- **[llm-council](https://github.com/elhamid/llm-council)** `⭐ 3` `updated ≤90d` A local web app that sends queries to multiple LLMs via OpenRouter, has them review and rank each other's responses anonymously, then synthesizes a final answer via a designated Chairman model. <details><summary>More about</summary>
+- **[llm-council](https://github.com/elhamid/llm-council)** `⭐ 3` `updated ≤180d` A local web app that sends queries to multiple LLMs via OpenRouter, has them review and rank each other's responses anonymously, then synthesizes a final answer via a designated Chairman model. <details><summary>More about</summary>
 
   It lets developers compare model quality and reasoning side-by-side with structured peer review rather than guessing which provider is best for a given problem.
 

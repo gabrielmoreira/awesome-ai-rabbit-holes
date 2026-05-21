@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/swarmclawai/swarmclaw
         surrounding_text: "- **[SwarmClaw](https://github.com/swarmclawai/swarmclaw)** – Self-hosted multi-agent runtime with MCP client and server support, 23+ LLM providers, persistent memory, skills, schedules, and messaging connectors. Electron desktop app, CLI, and Docker."
         confidence: high
+    - id: discovery__github__swarmclawai__swarmclaw__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: SwarmClaw
+        extracted_url: https://github.com/swarmclawai/swarmclaw
+        surrounding_text: "| [SwarmClaw](https://github.com/swarmclawai/swarmclaw) | Self-hosted multi-agent AI runtime with 23+ LLM providers, persistent memory, skills, schedules, sub-agent spawning, and MCP client + server support. Ships as desktop app, CLI, or Docker. | ![GitHub Badge](https://img.shields.io/github/stars/swarmclawai/swarmclaw.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 462
@@ -82,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: "2026-05-21T05:27:57.683Z"
     cause: null
     next_retry_at: null
   stars:

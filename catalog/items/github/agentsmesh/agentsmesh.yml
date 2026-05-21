@@ -37,14 +37,29 @@ provenance:
         extracted_url: https://github.com/agentsmesh/agentsmesh
         surrounding_text: "52. [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh): The AI Agent Workforce Platform. Self-hostable multi-agent orchestration with remote AI workstations (AgentPods), PTY sandbox + git worktree isolation, channels-based agent collaboration, built-in Kanban, and per-pod MCP server. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode."
         confidence: high
+    - id: discovery__github__agentsmesh__agentsmesh__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: AgentsMesh
+        extracted_url: https://github.com/agentsmesh/agentsmesh
+        surrounding_text: "| [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh) | Self-hostable AI Agent Workforce Platform. Multi-agent orchestration with remote AI workstations (AgentPods), PTY sandbox + git worktree isolation, built-in Kanban, and per-pod MCP server. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode. | ![GitHub Badge](https://img.shields.io/github/stars/AgentsMesh/AgentsMesh.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
-    stars: 2096
-    forks: 212
+    stars: 2119
+    forks: 208
     license: NOASSERTION
     archived: false
     created_at: "2026-02-28T07:10:42Z"
-    pushed_at: "2026-05-14T04:56:48Z"
+    pushed_at: "2026-05-21T05:11:46Z"
     description: The AI Agent Workforce Platform — where teams scale beyond headcount. Give every team member an AI agent squad.
     homepage: https://agentsmesh.ai
     topics:
@@ -59,10 +74,10 @@ metadata:
       - gemini-cli
       - multi-agent
       - self-hosted
-    last_checked_at: "2026-05-14T05:20:15.748Z"
+    last_checked_at: "2026-05-21T05:28:03.736Z"
     readme:
-      fetched_at: "2026-05-14T05:20:15.747Z"
-      bytes: 8755
+      fetched_at: "2026-05-21T05:28:03.736Z"
+      bytes: 8857
 insights:
   summary: A self-hosted control plane that runs remote AI workstations (AgentPods) to coordinate multi-agent collaboration, task management, and Git integration across teams.
   why_it_matters: It turns individual coding agents like Claude Code and Aider into a coordinated, Kanban-tracked workforce running on your own infrastructure with BYOK cost control.
@@ -90,12 +105,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: "2026-05-21T05:27:57.682Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-14T05:20:15.748Z"
+    updated_at: "2026-05-21T05:28:03.736Z"
     cause: null
     next_retry_at: null
   categorize:

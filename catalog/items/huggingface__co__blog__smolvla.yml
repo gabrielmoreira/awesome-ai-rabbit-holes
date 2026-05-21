@@ -1,0 +1,79 @@
+id: huggingface__co__blog__smolvla
+kind: website
+name: smolvla
+canonical_url: https://huggingface.co/blog/smolvla
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__blog__smolvla__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Robotics Foundation Model
+        anchor_text: SmolVLA
+        extracted_url: https://huggingface.co/blog/smolvla
+        surrounding_text: "| [SmolVLA](https://huggingface.co/blog/smolvla)            | A compact ~450M parameter VLA by Hugging Face, designed to be computationally efficient and accessible, running on consumer GPUs or CPUs. Part of the LeRobot ecosystem.                                   |                                                                                                        |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: SmolVLA is a 450-million-parameter open-source vision-language-action model for robotics from Hugging Face, designed to run on consumer GPUs and affordable robot arms using flow-matching action prediction.
+  why_it_matters: It gives robotics researchers and hobbyists a compact, reproducible VLA baseline without proprietary hardware or datasets, but it is not a tool for software engineering workflows.
+  mental_damage: Now your robot arm can asynchronously judge your desk clutter with a 450M-parameter side-eye, because asynchronous pull request reviews weren’t making you anxious enough.
+  tags:
+    - robotics
+    - vla-model
+    - consumer-hardware
+    - open-source
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a robotics foundation model and research artifact announcement, not a developer-facing AI tool for coding, agents, app building, or software infrastructure.
+  evidence:
+    - Scraped site context describes SmolVLA as a vision-language-action model for physical robot manipulation (pick-place, stacking, sorting), not a software development tool.
+    - Source-list placement in Awesome-LLMOps categorizes it under 'Model > Robotics Foundation Model', confirming its identity as a model checkpoint rather than developer tooling.
+    - The linked page is a Hugging Face blog post announcing model weights, training recipes, and evaluation on robot hardware (SO-100/SO-101), with no claims about assisting software developers.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.684Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-21T05:31:59.417Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

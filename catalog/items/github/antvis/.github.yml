@@ -1,0 +1,95 @@
+id: github__antvis__.github
+kind: github-repo
+name: .github
+canonical_url: https://github.com/antvis/.github
+identity:
+  github_repo: antvis/.github
+provenance:
+  discoveries:
+    - id: discovery__github__antvis__.github__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: AntV
+        extracted_url: https://github.com/antvis
+        surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+    - id: discovery__github__antvis__.github__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: AntV
+        extracted_url: https://github.com/antvis
+        surrounding_text: "- **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 3
+    license: null
+    archived: false
+    created_at: "2022-06-08T11:10:36Z"
+    pushed_at: "2026-05-20T05:10:14Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-21T05:28:10.423Z"
+    readme:
+      fetched_at: "2026-05-21T05:28:10.423Z"
+      bytes: 9
+insights:
+  summary: An organizational .github repository for the AntV open-source data-visualization team, containing no product README or standalone tooling.
+  why_it_matters: It offers no usable developer tool on its own; any source-list reference appears to point toward the organization profile rather than a shipped product.
+  mental_damage: The modern AI tooling landscape is so hungry for new entries that even a four-star org README with zero content gets slotted under 'Official Servers.'
+  tags:
+    - org-meta
+    - placeholder
+    - not-a-product
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an empty organizational meta-repository with no README substance, no description, and no standalone product identity; source-list references link to the AntV team profile rather than to an actual MCP server or developer tool.
+  evidence:
+    - README contains only '# .github' with no project claims, feature list, or usage instructions.
+    - Repo has no GitHub description, no topics, no license, and only 4 stars, all signals of an auxiliary org page.
+    - Source-list context describes the AntV AI Visualization Team profile ('Visualize Data with Vitality by AI') rather than a specific server or tool implementation.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.683Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-21T05:28:10.423Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-21T05:31:31.685Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

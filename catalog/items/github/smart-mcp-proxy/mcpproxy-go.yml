@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/smart-mcp-proxy/mcpproxy-go
         surrounding_text: "- [smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) [![smart-mcp-proxy/mcpproxy-go MCP server](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go/badges/score.svg)](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go) 🏎️ 🏠 🍎 🪟 🐧 - Local MCP proxy with BM25 tool filtering, quarantine security, activity logging, and web UI. Routes multiple servers through a single endpoint."
         confidence: high
+    - id: discovery__github__smart-mcp-proxy__mcpproxy-go__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Frameworks/Servers for Serving
+        anchor_text: mcpproxy-go
+        extracted_url: https://github.com/smart-mcp-proxy/mcpproxy-go
+        surrounding_text: "| [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)              | Open-source MCP proxy with BM25 tool filtering, quarantine security, activity logging, and web UI. Routes multiple MCP servers through single endpoint, reducing context bloat by ~97%.                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/smart-mcp-proxy/mcpproxy-go.svg?style=flat-square)    |"
+        confidence: high
 metadata:
   github:
     stars: 208
@@ -84,7 +100,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: "2026-05-21T05:27:57.683Z"
     cause: null
     next_retry_at: null
   stars:

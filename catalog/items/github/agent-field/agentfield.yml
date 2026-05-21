@@ -36,14 +36,29 @@ provenance:
         extracted_url: https://github.com/agent-field/agentfield
         surrounding_text: "14. [AgentField](https://github.com/Agent-Field/agentfield): Open-source control plane for building and operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy controls."
         confidence: high
+    - id: discovery__github__agent-field__agentfield__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: AgentField
+        extracted_url: https://github.com/agent-field/agentfield
+        surrounding_text: "| [AgentField](https://github.com/Agent-Field/agentfield)            | Open-source control plane for building and operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy controls.                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/Agent-Field/agentfield.svg?style=flat-square)             |"
+        confidence: high
 metadata:
   github:
-    stars: 1730
-    forks: 281
+    stars: 1930
+    forks: 310
     license: Apache-2.0
     archived: false
     created_at: "2025-11-05T02:04:44Z"
-    pushed_at: "2026-05-13T19:37:46Z"
+    pushed_at: "2026-05-20T16:20:19Z"
     description: Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.
     homepage: http://www.agentfield.ai
     topics:
@@ -67,9 +82,9 @@ metadata:
       - python
       - rag
       - typescript
-    last_checked_at: "2026-05-14T05:20:14.438Z"
+    last_checked_at: "2026-05-21T05:28:02.314Z"
     readme:
-      fetched_at: "2026-05-14T05:20:14.437Z"
+      fetched_at: "2026-05-21T05:28:02.314Z"
       bytes: 24839
 insights:
   summary: An open-source control plane and SDK for deploying, routing, and auditing AI agents as callable API endpoints with cryptographic identity and human-in-the-loop support.
@@ -98,12 +113,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: "2026-05-21T05:27:57.682Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-14T05:20:14.438Z"
+    updated_at: "2026-05-21T05:28:02.314Z"
     cause: null
     next_retry_at: null
   categorize:

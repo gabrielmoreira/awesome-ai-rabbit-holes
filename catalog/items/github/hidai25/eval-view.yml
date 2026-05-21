@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/hidai25/eval-view
         surrounding_text: "- [hidai25/eval-view](https://github.com/hidai25/eval-view) [![hidai25/eval-view MCP server](https://glama.ai/mcp/servers/hidai25/eval-view/badges/score.svg)](https://glama.ai/mcp/servers/hidai25/eval-view) 🐍 🏠 🍎 🪟 🐧 - Regression testing framework for AI agents. Save golden baselines, detect behavioral drift, and block regressions in CI. Works with LangGraph, CrewAI, OpenAI, Claude, and any HTTP API."
         confidence: high
+    - id: discovery__github__hidai25__eval-view__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: EvalView
+        extracted_url: https://github.com/hidai25/eval-view
+        surrounding_text: "| [EvalView](https://github.com/hidai25/eval-view)                              | Regression testing for AI agents. Snapshot behavior, detect tool-call and output regressions, with golden-baseline diffing and LLM-as-judge scoring. Supports LangGraph, CrewAI, OpenAI, Claude, and any HTTP API.             | ![GitHub Badge](https://img.shields.io/github/stars/hidai25/eval-view.svg?style=flat-square)                     |"
+        confidence: high
 metadata:
   github:
     stars: 100
@@ -81,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: "2026-05-21T05:27:57.683Z"
     cause: null
     next_retry_at: null
   stars:

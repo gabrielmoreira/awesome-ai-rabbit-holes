@@ -58,7 +58,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `claude-code` `multi-agent` `swarm` `mcp`
   </details>
 
-- **[Agno](https://github.com/agno-agi/agno)** `⭐ 40.1k` `updated ≤30d` Agno is a Python SDK and runtime platform for building, serving, and managing AI agents—including coding agents—as production services with sessions, tracing, and a control plane UI. <details><summary>More about</summary>
+- **[Agno](https://github.com/agno-agi/agno)** `⭐ 40.3k` `updated ≤30d` Agno is a Python SDK and runtime platform for building, serving, and managing AI agents—including coding agents—as production services with sessions, tracing, and a control plane UI. <details><summary>More about</summary>
 
   It lets developers wrap agents from multiple frameworks (including Claude and LangGraph) into a single production-grade FastAPI backend with auth, scheduling, and observability already wired in.
 
@@ -112,7 +112,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `rag` `self-hosted` `mcp` `enterprise`
   </details>
 
-- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 20.8k` `updated ≤30d` Coze Studio is an open-source, self-hostable AI agent development platform offering visual, low-code tools for building, debugging, and deploying agents, apps, and workflows with integrated model management, RAG, and plugins. <details><summary>More about</summary>
+- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 20.8k` `updated ≤90d` Coze Studio is an open-source, self-hostable AI agent development platform offering visual, low-code tools for building, debugging, and deploying agents, apps, and workflows with integrated model management, RAG, and plugins. <details><summary>More about</summary>
 
   Developers can self-host a full agent workbench with visual workflow builders, model management, and deployment tooling instead of relying on hosted SaaS platforms.
 
@@ -191,6 +191,15 @@ Tools and platforms for coordinating multiple agents.
   _You now have the infrastructure to run ten agents in parallel, leaving you with nine conflicting implementations and the sudden realization that your job description has been upgraded to 'AI Farm Manager.'._
 
   `agent-orchestration` `cli` `worktrees` `desktop-app` `parallel-agents`
+  </details>
+
+- **[Hive](https://github.com/aden-hive/hive)** `⭐ 10.4k` `updated ≤30d` A model-agnostic execution harness that compiles objectives into strict, graph-based DAGs to coordinate specialized multi-agent workflows in production environments. <details><summary>More about</summary>
+
+  It gives developers runtime-level state persistence, crash recovery, observability, and human-in-the-loop controls for multi-agent workloads without writing orchestration boilerplate.
+
+  _Because building one agent that hallucinates was too easy, now you need a runtime harness to stop a swarm of them from racking up parallel API bills in production._
+
+  `multi-agent` `orchestration` `runtime` `production` `self-healing`
   </details>
 
 - **[UFO](https://github.com/microsoft/ufo)** `⭐ 8.6k` `updated ≤30d` UFO³ is a Microsoft research project that provides a multi-device agent orchestration platform (Galaxy) and a Windows desktop agent (UFO²) for automating GUI and API tasks across heterogeneous platforms. <details><summary>More about</summary>
@@ -346,6 +355,15 @@ Tools and platforms for coordinating multiple agents.
   `secrets` `agents` `infrastructure` `security` `gateway`
   </details>
 
+- **[AgentField](https://github.com/agent-field/agentfield)** `⭐ 1.9k` `updated ≤30d` An open-source control plane and SDK for deploying, routing, and auditing AI agents as callable API endpoints with cryptographic identity and human-in-the-loop support. <details><summary>More about</summary>
+
+  It gives teams a production-grade runtime to turn agent logic into observable, identity-aware services that can be called by other agents, frontends, or cron jobs.
+
+  _Just what every backend needs: another YAML-shaped reason to pretend your Python script is now a cryptographically auditable microservice architecture._
+
+  `agent` `control-plane` `observability` `multiagent` `go`
+  </details>
+
 - **[Shannon](https://github.com/kocoro-lab/shannon)** `⭐ 1.8k` `updated ≤30d` Shannon is a production-oriented multi-agent orchestration framework with a Temporal-backed runtime, WASI sandboxing, token budget controls, and a desktop app for visualizing agent execution. <details><summary>More about</summary>
 
   It gives developers a self-hosted, multi-strategy orchestration platform with built-in cost controls, time-travel debugging, and observability instead of gluing together fragile single-agent scripts.
@@ -362,15 +380,6 @@ Tools and platforms for coordinating multiple agents.
   _Because the only thing better than one AI rewriting your codebase in a fugue state is five of them doing it in isolated worktrees while you watch the git divergence UI like a slot machine._
 
   `parallel-agents` `desktop` `multi-model` `worktrees`
-  </details>
-
-- **[AgentField](https://github.com/agent-field/agentfield)** `⭐ 1.7k` `updated ≤30d` An open-source control plane and SDK for deploying, routing, and auditing AI agents as callable API endpoints with cryptographic identity and human-in-the-loop support. <details><summary>More about</summary>
-
-  It gives teams a production-grade runtime to turn agent logic into observable, identity-aware services that can be called by other agents, frontends, or cron jobs.
-
-  _Just what every backend needs: another YAML-shaped reason to pretend your Python script is now a cryptographically auditable microservice architecture._
-
-  `agent` `control-plane` `observability` `multiagent` `go`
   </details>
 
 - **[Cooragent](https://github.com/leaplabthu/cooragent)** `⭐ 1.7k` `updated ≤30d` Cooragent is a Python-based AI agent collaboration platform and CLI that generates agents from natural language and coordinates multi-agent workflows for complex task execution. <details><summary>More about</summary>
@@ -472,7 +481,7 @@ Tools and platforms for coordinating multiple agents.
   `parallel-agents` `git-worktree` `cli-harness` `multi-agent` `diff-review`
   </details>
 
-- **[cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 575` `updated ≤30d` CLI Agent Orchestrator (CAO) is an open-source framework that runs multiple CLI coding agents (like Claude Code, Gemini CLI, and Amazon Q) in isolated tmux sessions and coordinates them via a supervisor-worker pattern over MCP. <details><summary>More about</summary>
+- **[cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 602` `updated ≤30d` CLI Agent Orchestrator (CAO) is an open-source framework that runs multiple CLI coding agents (like Claude Code, Gemini CLI, and Amazon Q) in isolated tmux sessions and coordinates them via a supervisor-worker pattern over MCP. <details><summary>More about</summary>
 
   It lets developers mix and match different CLI coding agents in parallel workflows, preserving native tool behavior and auth while enabling cross-provider task delegation.
 
@@ -499,7 +508,7 @@ Tools and platforms for coordinating multiple agents.
   `workflow-automation` `multi-agent` `desktop-app` `gui`
   </details>
 
-- **[Agentlabs](https://github.com/agentlabs-dev/agentlabs)** `⭐ 548` `updated >1y` AgentLabs is an open-source, self-hostable frontend platform that provides chat UIs, authentication, and analytics for developers to expose their backend AI agents to end users. <details><summary>More about</summary>
+- **[Agentlabs](https://github.com/agentlabs-dev/agentlabs)** `⭐ 549` `updated >1y` AgentLabs is an open-source, self-hostable frontend platform that provides chat UIs, authentication, and analytics for developers to expose their backend AI agents to end users. <details><summary>More about</summary>
 
   It lets developers ship AI agents as interactive products without building the standard boilerplate of user management, streaming UIs, and payment integration.
 
@@ -562,6 +571,15 @@ Tools and platforms for coordinating multiple agents.
   `tmux` `ai-agents` `orchestration` `cli` `developer-tools`
   </details>
 
+- **[hcom](https://github.com/aannoo/hcom)** `⭐ 291` `updated ≤30d` A CLI tool that enables AI coding agents like Claude Code, Gemini CLI, Codex, and OpenCode to message, monitor, and spawn each other across terminals. <details><summary>More about</summary>
+
+  It allows developers to coordinate pipelines and multi-agent workflows using existing CLI coding assistants without replacing their current toolchain.
+
+  _We have finally invented a way for your AI agents to argue with each other in separate terminal windows, automating the communication overhead of a dysfunctional engineering team._
+
+  `multi-agent` `cli` `terminal` `orchestration` `coding-agent`
+  </details>
+
 - **[Bernstein](https://github.com/sipyourdrink-ltd/bernstein)** `⭐ 281` `updated ≤30d` A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git worktree isolation and an HMAC audit trail. <details><summary>More about</summary>
 
   Developers can delegate full features to a swarm of isolated agents and return only when tested, merged code is ready, without wiring multiple CLIs by hand.
@@ -569,15 +587,6 @@ Tools and platforms for coordinating multiple agents.
   _You’ve successfully automated yourself out of the coding loop, yet somehow you’re still on call when the swarm’s four-agent JWT implementation quietly disagrees with your auth spec._
 
   `multi-agent` `cli` `orchestration` `git-worktree` `mcp`
-  </details>
-
-- **[hcom](https://github.com/aannoo/hcom)** `⭐ 273` `updated ≤30d` A CLI tool that enables AI coding agents like Claude Code, Gemini CLI, Codex, and OpenCode to message, monitor, and spawn each other across terminals. <details><summary>More about</summary>
-
-  It allows developers to coordinate pipelines and multi-agent workflows using existing CLI coding assistants without replacing their current toolchain.
-
-  _We have finally invented a way for your AI agents to argue with each other in separate terminal windows, automating the communication overhead of a dysfunctional engineering team._
-
-  `multi-agent` `cli` `terminal` `orchestration` `coding-agent`
   </details>
 
 - **[vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** `⭐ 253` `updated ≤180d` A cross-platform desktop and web app that runs multiple AI coding assistants in parallel across isolated git worktrees to reduce context switching. <details><summary>More about</summary>
@@ -620,7 +629,7 @@ _These are new or low-traffic entries being watched._
   `cli` `tui` `multi-agent` `orchestration` `terminal`
   </details>
 
-- **[amux](https://github.com/andyrewlee/amux)** `⭐ 107` `updated ≤30d` A terminal UI (TUI) for running multiple coding agents in parallel using git worktrees and tmux sessions. <details><summary>More about</summary>
+- **[amux](https://github.com/andyrewlee/amux)** `⭐ 110` `updated ≤30d` A terminal UI (TUI) for running multiple coding agents in parallel using git worktrees and tmux sessions. <details><summary>More about</summary>
 
   It lets developers coordinate isolated agent sessions across worktrees with a single dashboard instead of juggling multiple terminals.
 
@@ -647,7 +656,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `cli` `debate` `mcp` `llm`
   </details>
 
-- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 89` `updated ≤90d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
+- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 88` `updated ≤90d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
 
   It shifts security left by automating threat modeling, compliance gap analysis, and SAST/DAST triage using LLMs and RAG, reducing manual review bottlenecks for security teams.
 
@@ -737,7 +746,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `typescript` `shared-state` `guardrails`
   </details>
 
-- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 43` `updated ≤30d` A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others. <details><summary>More about</summary>
+- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 43` `updated ≤90d` A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others. <details><summary>More about</summary>
 
   It lets developers bootstrap a coordinated team of specialist agents inside their existing IDEs instead of relying on a single assistant to handle every task.
 
@@ -755,7 +764,7 @@ _These are new or low-traffic entries being watched._
   `agent-coordination` `multi-agent` `cli` `conflict-prevention` `git`
   </details>
 
-- **[titan-orchestrator](https://github.com/ramn51/titan-orchestrator)** `⭐ 28` `updated ≤30d` Titan is a zero-dependency distributed runtime and orchestrator for running static DevOps pipelines, long-running services, and dynamic LLM-generated agentic workflows via a Python SDK and CLI. <details><summary>More about</summary>
+- **[titan-orchestrator](https://github.com/ramn51/titan-orchestrator)** `⭐ 28` `updated ≤90d` Titan is a zero-dependency distributed runtime and orchestrator for running static DevOps pipelines, long-running services, and dynamic LLM-generated agentic workflows via a Python SDK and CLI. <details><summary>More about</summary>
 
   It offers developers a unified substrate to bridge deterministic DAG orchestration with autonomous, runtime-defined agent graphs and hardware-aware auto-scaling.
 

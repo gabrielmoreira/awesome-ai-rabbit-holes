@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/stacklok/brood-box
         surrounding_text: "- **[brood-box](https://github.com/stacklok/brood-box)** – Run coding agents (Claude Code, Codex, OpenCode) inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization."
         confidence: high
+    - id: discovery__github__stacklok__brood-box__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Frameworks for LLM security
+        anchor_text: brood-box
+        extracted_url: https://github.com/stacklok/brood-box
+        surrounding_text: "| [brood-box](https://github.com/stacklok/brood-box) | CLI tool for running coding agents inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization. | ![GitHub Badge](https://img.shields.io/github/stars/stacklok/brood-box?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 29
@@ -86,7 +102,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: "2026-05-21T05:27:57.682Z"
     cause: null
     next_retry_at: null
   stars:

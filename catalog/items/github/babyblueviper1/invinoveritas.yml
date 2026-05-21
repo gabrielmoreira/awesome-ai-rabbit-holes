@@ -78,9 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-14T05:20:26.746Z"
-    cause: null
+    status: failed
+    updated_at: "2026-05-21T05:28:16.113Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: babyblueviper1/invinoveritas"
     next_retry_at: null
   categorize:
     status: done

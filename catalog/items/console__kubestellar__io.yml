@@ -1,0 +1,78 @@
+id: console__kubestellar__io
+kind: website
+name: console.kubestellar.io
+canonical_url: https://console.kubestellar.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__console__kubestellar__io__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - ML Platforms
+        anchor_text: KubeStellar Console
+        extracted_url: https://console.kubestellar.io
+        surrounding_text: "| [KubeStellar Console](https://console.kubestellar.io)   | Open source AI-powered multi-cluster Kubernetes dashboard for managing LLM workloads across hybrid edge and cloud environments. GPU monitoring, benchmark streaming, real-time observability with 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox project.                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square)     |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Multi-cluster Kubernetes management dashboard for monitoring clusters, deploying workloads, managing GPU resources, and troubleshooting via AI-powered missions.
+  why_it_matters: Aims to reduce multi-cluster Kubernetes operational toil by surfacing GPU scheduling and workload telemetry in one place with AI-assisted troubleshooting.
+  mental_damage: Because what your fleet of GPU nodes really needed was another single-pane-of-glass dashboard that turns pod logs and metrics into 'AI missions.'
+  tags:
+    - kubernetes
+    - gpu-management
+    - multi-cluster
+    - dashboard
+    - llmops
+  confidence: medium
+curation:
+  status: excluded
+  reason: The product's primary identity is a Kubernetes operations dashboard; the AI component appears to be a peripheral troubleshooting feature rather than a core developer-facing AI tool, so it sits outside this catalog's scope.
+  evidence:
+    - Source-list and scraped context describe it as an 'open-source multi-cluster Kubernetes management dashboard' centered on monitoring, workload deployment, and GPU resource management.
+    - The only AI mention is a vague 'AI-powered missions' claim for troubleshooting, indicating AI is a bolt-on feature, not the product's purpose.
+    - The live page is effectively a loading spinner with no repo metadata or developer-tooling substance available for review.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-21T05:30:25.529Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

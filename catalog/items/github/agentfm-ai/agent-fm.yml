@@ -52,18 +52,26 @@ metadata:
       fetched_at: "2026-05-18T05:26:16.365Z"
       bytes: 3577
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time.
+  why_it_matters: It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
+  mental_damage: We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about.
+  tags:
+    - ambient-monitoring
+    - claude-code
+    - codex
+    - electron
+    - audio-dashboard
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an add-on that augments Claude Code and Codex with a monitoring UI and audio narration layer, not a standalone coding agent.
+  evidence:
+    - README states the app listens to Claude Code and Codex sessions and surfaces them as stations; it does not read, plan, or edit code itself.
+    - Repo topics include agent-monitoring, audio, and voice-assistant, not code generation or repo editing.
+    - Primary value proposition is augmenting existing terminal agents with ambient awareness and blocker alerts.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -79,12 +87,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-18T05:39:15.859Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__agentfm-ai__agent-fm: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Agent FM a\"... is not valid JSON"
+    status: done
+    updated_at: "2026-05-21T05:30:04.720Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -4,7 +4,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 133.7k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+- **[skills](https://github.com/anthropics/skills)** `⭐ 138.4k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
 
@@ -22,7 +22,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `skills` `claude` `agent-workflows` `directory` `cursor`
   </details>
 
-- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 48.5k` `updated ≤30d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
+- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 48.5k` `updated ≤90d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
 
   It helps developers discover reusable automation skills for the OpenClaw local AI assistant, reducing time spent searching for functional extensions.
 

@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/cordum-io/cordum
         surrounding_text: "- [Cordum](https://github.com/cordum-io/cordum) - Safety-first agent orchestration"
         confidence: high
+    - id: discovery__github__cordum-io__cordum__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Frameworks for LLM security
+        anchor_text: Cordum
+        extracted_url: https://github.com/cordum-io/cordum
+        surrounding_text: "| [Cordum](https://github.com/cordum-io/cordum) | Safety-first agent orchestration platform with pre-dispatch policy evaluation, output scanning (PII, secrets, injection), job scheduling, workflow engine, and full audit trail. | ![GitHub Badge](https://img.shields.io/github/stars/cordum-io/cordum.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 480
@@ -83,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: "2026-05-21T05:27:57.683Z"
     cause: null
     next_retry_at: null
   stars:

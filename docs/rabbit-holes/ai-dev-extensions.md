@@ -130,7 +130,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `git` `attribution` `ai-blame` `cli`
   </details>
 
-- **[Claude Code Tools](https://github.com/pchalasani/claude-code-tools)** `⭐ 1.8k` `updated ≤30d` A toolkit of CLI tools, plugins, hooks, and skills designed to extend and enhance productivity within Claude Code and other CLI-based coding agents. <details><summary>More about</summary>
+- **[Claude Code Tools](https://github.com/pchalasani/claude-code-tools)** `⭐ 1.8k` `updated ≤90d` A toolkit of CLI tools, plugins, hooks, and skills designed to extend and enhance productivity within Claude Code and other CLI-based coding agents. <details><summary>More about</summary>
 
   It provides ready-to-use integrations like tmux automation, Google Docs/Sheets connectors, and voice input that the base CLI agents lack out of the box.
 
@@ -242,7 +242,7 @@ _These are new or low-traffic entries being watched._
   `desktop-app` `context-recording` `mcp` `automation` `screen-capture`
   </details>
 
-- **[owlex](https://github.com/agentic-box/owlex)** `⭐ 112` `updated ≤90d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
+- **[owlex](https://github.com/agentic-box/owlex)** `⭐ 115` `updated ≤90d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
 
   It lets developers cross-check architecture decisions, debugging, and tricky design questions across multiple AI models without leaving their existing Claude Code workflow.
 
@@ -260,7 +260,7 @@ _These are new or low-traffic entries being watched._
   `github` `automation` `issues` `natural-language` `repo-maintenance`
   </details>
 
-- **[agentmail-toolkit](https://github.com/agentmail-to/agentmail-toolkit)** `⭐ 70` `updated ≤30d` A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP). <details><summary>More about</summary>
+- **[agentmail-toolkit](https://github.com/agentmail-to/agentmail-toolkit)** `⭐ 71` `updated ≤30d` A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP). <details><summary>More about</summary>
 
   It provides the boilerplate integration code needed to give popular agent frameworks the ability to send and receive email via AgentMail.
 
@@ -287,6 +287,15 @@ _These are new or low-traffic entries being watched._
   `rust` `cli` `skills` `mcp` `config-management`
   </details>
 
+- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 53` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
+
+  It gives teams an auditable workflow envelope around Claude Code, Codex, Cursor, and Aider so reviewers can reconstruct why a change was made, not just what changed.
+
+  _You now have a cryptographically signed paper trail for every hallucinated refactor, which somehow makes the 4 a.m. agent spiral feel even more official._
+
+  `cli` `audit` `git` `coding-agents` `workflow`
+  </details>
+
 - **[Taskyon](https://github.com/xyntopia/taskyon)** `⭐ 52` `updated ≤30d` Taskyon is a browser-based chat and agent interface that organizes AI interactions into dynamic task trees with local-first execution and tool extensibility. <details><summary>More about</summary>
 
   It offers developers a flexible, local-first workflow for building personalized AI agents that can write their own tools and integrate with web apps via a simple snippet.
@@ -294,15 +303,6 @@ _These are new or low-traffic entries being watched._
   _Finally, an AI tool that promises to replace apps with task trees—because we definitely needed another way to over-engineer our to-do lists._
 
   `local-first` `task-management` `ai-agent` `browser-based` `mcp`
-  </details>
-
-- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 48` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
-
-  It gives teams an auditable workflow envelope around Claude Code, Codex, Cursor, and Aider so reviewers can reconstruct why a change was made, not just what changed.
-
-  _You now have a cryptographically signed paper trail for every hallucinated refactor, which somehow makes the 4 a.m. agent spiral feel even more official._
-
-  `cli` `audit` `git` `coding-agents` `workflow`
   </details>
 
 - **[claudebox](https://github.com/numtide/claudebox)** `⭐ 46` `updated ≤180d` A lightweight sandbox wrapper for Claude Code that uses bubblewrap or sandbox-exec to isolate the agent from the host system while allowing selective access to credentials. <details><summary>More about</summary>
@@ -332,6 +332,15 @@ _These are new or low-traffic entries being watched._
   `vscode` `code-explanation` `code-review` `move-language` `openai`
   </details>
 
+- **[domshell](https://github.com/apireno/domshell)** `⭐ 38` `updated ≤30d` A Chrome Extension that maps the browser's accessibility tree to a virtual filesystem so AI agents and humans can navigate and interact with web pages using standard Linux commands like ls, cd, and grep. <details><summary>More about</summary>
+
+  It gives coding agents a deterministic, semantic interface to the browser that avoids brittle screenshots, pixel coordinates, or CSS selectors.
+
+  _We have successfully reinvented the filesystem hierarchy just so our agents can feel at home while the DOM silently judges our life choices._
+
+  `browser-automation` `agent-integration` `chrome-extension` `accessibility-tree` `cli-interface`
+  </details>
+
 - **[mcp-browser-agent](https://github.com/imprvhub/mcp-browser-agent)** `⭐ 38` `updated ≤180d` An MCP server that gives Claude Desktop autonomous browser automation capabilities using Playwright, allowing it to navigate, interact with DOM elements, execute JavaScript, and make API requests. <details><summary>More about</summary>
 
   Developers can let Claude handle multi-step browser workflows—like form filling, screenshot capture, and API testing—without leaving their chat interface.
@@ -341,13 +350,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `browser-automation` `playwright` `claude` `extension`
   </details>
 
-- **[domshell](https://github.com/apireno/domshell)** `⭐ 35` `updated ≤30d` A Chrome Extension that maps the browser's accessibility tree to a virtual filesystem so AI agents and humans can navigate and interact with web pages using standard Linux commands like ls, cd, and grep. <details><summary>More about</summary>
+- **[agent-toolkit](https://github.com/atlanhq/agent-toolkit)** `⭐ 33` `updated ≤30d` A toolkit providing an MCP server and Claude Code plugin for searching, governing, and managing Atlan data assets via natural language. <details><summary>More about</summary>
 
-  It gives coding agents a deterministic, semantic interface to the browser that avoids brittle screenshots, pixel coordinates, or CSS selectors.
+  It connects Claude Code directly to your data catalog, letting developers query lineage, governance, and data quality rules without leaving the agent loop.
 
-  _We have successfully reinvented the filesystem hierarchy just so our agents can feel at home while the DOM silently judges our life choices._
+  _We have successfully abstracted away learning the UI of yet another data platform by teaching our coding agent how to click through it for us._
 
-  `browser-automation` `agent-integration` `chrome-extension` `accessibility-tree` `cli-interface`
+  `mcp` `data-catalog` `claude-code` `plugin`
   </details>
 
 - **[mattermost-mcp-host](https://github.com/jagan-shanmugam/mattermost-mcp-host)** `⭐ 33` `updated >1y` A Mattermost integration that connects to MCP servers and uses a LangGraph agent to execute tools and interact with users within Mattermost channels. <details><summary>More about</summary>
@@ -366,15 +375,6 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'confident in my code' like outsourcing your dignity to a CLI tool that summarizes your diffs while you pray the LLM doesn't hallucinate a critical vulnerability in your linter config._
 
   `code-review` `cli` `mcp` `git` `ai-qa`
-  </details>
-
-- **[agent-toolkit](https://github.com/atlanhq/agent-toolkit)** `⭐ 32` `updated ≤30d` A toolkit providing an MCP server and Claude Code plugin for searching, governing, and managing Atlan data assets via natural language. <details><summary>More about</summary>
-
-  It connects Claude Code directly to your data catalog, letting developers query lineage, governance, and data quality rules without leaving the agent loop.
-
-  _We have successfully abstracted away learning the UI of yet another data platform by teaching our coding agent how to click through it for us._
-
-  `mcp` `data-catalog` `claude-code` `plugin`
   </details>
 
 - **[brood-box](https://github.com/stacklok/brood-box)** `⭐ 29` `updated ≤30d` A CLI tool that runs coding agents like Claude Code and Codex inside hardware-isolated microVMs, requiring explicit user review of file changes before they reach the workspace. <details><summary>More about</summary>
@@ -458,6 +458,15 @@ _These are new or low-traffic entries being watched._
   `llm-routing` `cost-optimization` `mcp`
   </details>
 
+- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 21` `updated ≤30d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
+
+  It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
+
+  _We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about._
+
+  `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
+  </details>
+
 - **[open-code-review](https://github.com/raye-deng/open-code-review)** `⭐ 21` `updated ≤90d` An open-source CI/CD CLI and MCP server that detects AI-specific code defects like hallucinated imports, stale APIs, and over-engineering patterns across six languages. <details><summary>More about</summary>
 
   It catches the class of bugs traditional linters miss when reviewing code generated by LLMs, providing a quality gate for AI-assisted workflows.
@@ -539,7 +548,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `multi-agent` `code-review` `claude-code` `consultation`
   </details>
 
-- **[codachi](https://github.com/vincent-k2026/codachi)** `⭐ 7` `updated ≤30d` Codachi is a tamagotchi-style virtual pet that lives in the Claude Code statusline, showing context usage, rate limits, git state, and playful mood messages. <details><summary>More about</summary>
+- **[codachi](https://github.com/vincent-k2026/codachi)** `⭐ 7` `updated ≤90d` Codachi is a tamagotchi-style virtual pet that lives in the Claude Code statusline, showing context usage, rate limits, git state, and playful mood messages. <details><summary>More about</summary>
 
   It adds lightweight, zero-overhead productivity awareness and delight to Claude Code sessions without consuming tokens or making API calls.
 

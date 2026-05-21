@@ -40,7 +40,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 21.3k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 21.6k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
 
@@ -112,7 +112,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `mcp` `spec-driven` `requirements` `workflow`
   </details>
 
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 373` `updated ≤180d` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 373` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
 
   It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
 
@@ -121,7 +121,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `prompt-generation` `architecture`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 358` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 369` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
 
   It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
 
@@ -170,7 +170,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `tdd` `gherkin` `cli` `multi-agent`
   </details>
 
-- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 45` `updated ≤180d` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
+- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 46` `updated ≤180d` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
 
   It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
 
