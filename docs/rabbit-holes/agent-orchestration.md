@@ -85,7 +85,7 @@ Tools and platforms for coordinating multiple agents.
   `rag` `agent-orchestration` `self-hosted` `workflow` `knowledge-base`
   </details>
 
-- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 26.2k` `updated ≤30d` A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 26.5k` `updated ≤90d` A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It gives developers a structured loop for planning issues, running agents in isolated branches, reviewing diffs, and merging PRs without leaving a single control surface.
 
@@ -265,7 +265,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `litellm` `local-ai` `python`
   </details>
 
-- **[Clawith](https://github.com/dataelement/clawith)** `⭐ 3.7k` `updated ≤30d` Clawith is an open-source multi-agent collaboration platform that gives AI agents persistent identities, long-term memory, and individual workspaces to work together as a coordinated team. <details><summary>More about</summary>
+- **[Clawith](https://github.com/dataelement/clawith)** `⭐ 3.8k` `updated ≤30d` Clawith is an open-source multi-agent collaboration platform that gives AI agents persistent identities, long-term memory, and individual workspaces to work together as a coordinated team. <details><summary>More about</summary>
 
   It provides a control plane for organizations to deploy autonomous digital employees with self-evolving capabilities, runtime tool discovery, and organization-grade RBAC.
 
@@ -328,7 +328,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `no-code` `orchestration` `multi-agent` `rag`
   </details>
 
-- **[ralph-tui](https://github.com/subsy/ralph-tui)** `⭐ 2.3k` `updated ≤30d` A terminal UI that connects existing AI coding assistants to task trackers and runs them autonomously through a prioritized task list. <details><summary>More about</summary>
+- **[ralph-tui](https://github.com/subsy/ralph-tui)** `⭐ 2.3k` `updated ≤90d` A terminal UI that connects existing AI coding assistants to task trackers and runs them autonomously through a prioritized task list. <details><summary>More about</summary>
 
   It lets developers define a PRD or task list and then delegate execution to their preferred CLI agent (Claude Code, Cursor CLI, Gemini CLI, etc.) while providing real-time visibility and session persistence.
 
@@ -517,7 +517,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-frontend` `self-hosted` `sdk` `chat-ui` `analytics`
   </details>
 
-- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 480` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
+- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 481` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
 
   It provides developers and platform teams with a governance layer to intercept risky agent actions, enforce safety policies, and maintain audit trails before autonomous agents execute destructive operations.
 
@@ -535,7 +535,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `self-hosted` `orchestration` `mcp`
   </details>
 
-- **[shinkai-local-ai-agents](https://github.com/dcspark/shinkai-local-ai-agents)** `⭐ 427` `updated ≤30d` Shinkai is a desktop application that provides a no-code visual interface for creating and orchestrating local or remote AI agents with built-in support for MCP, crypto payments, and multi-agent workflows. <details><summary>More about</summary>
+- **[shinkai-local-ai-agents](https://github.com/dcspark/shinkai-local-ai-agents)** `⭐ 429` `updated ≤30d` Shinkai is a desktop application that provides a no-code visual interface for creating and orchestrating local or remote AI agents with built-in support for MCP, crypto payments, and multi-agent workflows. <details><summary>More about</summary>
 
   It allows developers to spin up local, privacy-first agent workflows with MCP compatibility without writing scaffolding code or managing containerized runtimes.
 
@@ -553,7 +553,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `marketplace` `desktop` `economics`
   </details>
 
-- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 389` `updated ≤30d` Coasts is a CLI tool with a local observability UI that runs multiple isolated instances of a full development environment using Git worktrees and Docker containers. <details><summary>More about</summary>
+- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 394` `updated ≤30d` Coasts is a CLI tool with a local observability UI that runs multiple isolated instances of a full development environment using Git worktrees and Docker containers. <details><summary>More about</summary>
 
   It lets developers run parallel, isolated instances of their stack for multiple AI agents or worktrees simultaneously without port conflicts or environment cross-contamination.
 
@@ -562,7 +562,7 @@ Tools and platforms for coordinating multiple agents.
   `local-dev` `docker` `git-worktrees` `parallel-agents`
   </details>
 
-- **[ntm](https://github.com/dicklesworthstone/ntm)** `⭐ 314` `updated ≤30d` NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work triage, safety approvals, and robot surfaces. <details><summary>More about</summary>
+- **[ntm](https://github.com/dicklesworthstone/ntm)** `⭐ 318` `updated ≤30d` NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work triage, safety approvals, and robot surfaces. <details><summary>More about</summary>
 
   It turns tmux into a local control plane for running and coordinating parallel AI agents, reducing the friction of managing multi-agent workflows manually.
 
@@ -647,7 +647,7 @@ _These are new or low-traffic entries being watched._
   `agent-orchestration` `blackboard` `declarative` `multi-agent`
   </details>
 
-- **[quorum-cli](https://github.com/detrol/quorum-cli)** `⭐ 101` `updated ≤180d` A terminal and web CLI that runs structured, multi-model debates between LLMs like GPT, Claude, Gemini, and local Ollama models using formal discussion methods. <details><summary>More about</summary>
+- **[quorum-cli](https://github.com/detrol/quorum-cli)** `⭐ 102` `updated ≤180d` A terminal and web CLI that runs structured, multi-model debates between LLMs like GPT, Claude, Gemini, and local Ollama models using formal discussion methods. <details><summary>More about</summary>
 
   It lets developers surface trade-offs and reach consensus by watching different models argue about architecture, tooling, and design decisions inside the terminal or Claude Code via MCP.
 
@@ -764,6 +764,15 @@ _These are new or low-traffic entries being watched._
   `agent-coordination` `multi-agent` `cli` `conflict-prevention` `git`
   </details>
 
+- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 29` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
+
+  It lets solo founders and small teams offload SDLC overhead to AI specialists while retaining two key decisions per feature, reducing burnout and increasing shipping velocity.
+
+  _Now you can feel like a CTO without the joy of actually writing code, just approving PRs your robot team already debated for an hour._
+
+  `agent-orchestration` `claude-code` `sdlc` `multi-agent`
+  </details>
+
 - **[titan-orchestrator](https://github.com/ramn51/titan-orchestrator)** `⭐ 28` `updated ≤90d` Titan is a zero-dependency distributed runtime and orchestrator for running static DevOps pipelines, long-running services, and dynamic LLM-generated agentic workflows via a Python SDK and CLI. <details><summary>More about</summary>
 
   It offers developers a unified substrate to bridge deterministic DAG orchestration with autonomous, runtime-defined agent graphs and hardware-aware auto-scaling.
@@ -780,15 +789,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to sandbox your AI agents so they can't rm -rf your cluster — because apparently we needed gVisor just to trust LLMs with a shell._
 
   `kubernetes` `ai-agents` `sandbox` `devops` `security`
-  </details>
-
-- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 18` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
-
-  It lets solo founders and small teams offload SDLC overhead to AI specialists while retaining two key decisions per feature, reducing burnout and increasing shipping velocity.
-
-  _Now you can feel like a CTO without the joy of actually writing code, just approving PRs your robot team already debated for an hour._
-
-  `agent-orchestration` `claude-code` `sdlc` `multi-agent`
   </details>
 
 - **[multi-agent-workflow-kit](https://github.com/laris-co/multi-agent-workflow-kit)** `⭐ 9` `updated ≤1y` A CLI toolkit that orchestrates multiple AI coding agents in parallel using isolated git worktrees and a shared tmux session for supervision. <details><summary>More about</summary>

@@ -87,9 +87,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-18T05:26:36.152Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-25T05:35:58.185Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for eli64s/readme-ai
     next_retry_at: null
   categorize:
     status: done

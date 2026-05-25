@@ -24,33 +24,51 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 493
+    forks: 80
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-09-13T03:25:07Z"
+    pushed_at: "2026-05-23T13:42:14Z"
+    description: Open framework for confidential AI
+    homepage: https://dstack.org
+    topics:
+      - confidential-ai
+      - confidential-computing
+      - intel-tdx
+      - private-ai
+      - safe-ai
+      - secure-ai
+      - tee
+      - trusted-execution-environment
+    last_checked_at: "2026-05-25T05:35:55.462Z"
+    readme:
+      fetched_at: "2026-05-25T05:35:55.462Z"
+      bytes: 10179
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Open framework for deploying AI applications in confidential VMs using Intel TDX and NVIDIA confidential computing to provide cryptographic privacy guarantees.
+  why_it_matters: It lets developers run inference, agents, and training workloads inside hardware-isolated containers with cryptographic attestation, aiming to eliminate the need to trust cloud operators with sensitive data or model weights.
+  mental_damage: Because the natural evolution of 'it works on my machine' is 'it works in my cryptographically attested Intel TDX confidential VM with reproducible OS hashes.'
+  tags:
+    - confidential-computing
+    - trusted-execution-environment
+    - privacy
+    - infrastructure
+    - ai-deployment
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is primarily a confidential-computing deployment platform and runtime infrastructure (VMM, KMS, Gateway, CVM orchestration) rather than a code-first framework, local inference runtime, or any other defined category shape.
+  evidence:
+    - Repo and README identify it as a framework for deploying AI in TEEs, emphasizing infrastructure components like VMM, Gateway, and over-the-socket SDKs.
+    - The project's main workflow is Docker Compose native deployment onto bare-metal TDX hosts, not importing code-first building blocks or operating as a coding assistant.
+    - No available category cleanly captures confidential-computing runtime infrastructure; it sits awkwardly between ai-frameworks and local-ai without fitting either primary identity.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (493) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-25T05:35:55.462Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-21T05:28:21.556Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-25T05:37:25.404Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

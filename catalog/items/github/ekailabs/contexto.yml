@@ -57,12 +57,14 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-05-25T05:35:57.603Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ekailabs/contexto
   categorize:
     status: skipped
-    updated_at: "2026-05-21T05:28:21.556Z"
+    updated_at: "2026-05-25T05:35:59.053Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

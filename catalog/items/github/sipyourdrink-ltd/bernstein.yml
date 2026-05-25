@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/sipyourdrink-ltd/bernstein
         surrounding_text: "- [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein) [![sipyourdrink-ltd/bernstein MCP server](https://glama.ai/mcp/servers/chernistry/bernstein/badges/score.svg)](https://glama.ai/mcp/servers/chernistry/bernstein) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Deterministic multi-agent orchestrator for 37 CLI coding agents (Claude Code, Codex, Cursor, Aider, Gemini CLI, GitHub Copilot CLI, OpenHands, OpenCode, Goose, Qwen, Ollama, and more). MCP server mode (stdio + HTTP/SSE) exposes the orchestrator to any MCP client. Git worktree isolation per agent, HMAC-chained audit trail, cost-aware model routing via contextual bandit. Apache 2.0."
         confidence: high
+    - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-25T05:35:31.720Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: Bernstein
+        extracted_url: https://github.com/sipyourdrink-ltd/bernstein
+        surrounding_text: "| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Deterministic Python orchestrator for 37 CLI coding agents (Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI, Cursor, Aider, OpenHands, OpenCode, Goose, Qwen, Ollama, ...) running in parallel git worktrees. First-class MCP server, quality gates, cost tracking with budgets. | ![GitHub Badge](https://img.shields.io/github/stars/sipyourdrink-ltd/bernstein.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 281
@@ -100,7 +115,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: "2026-05-25T05:35:31.721Z"
     cause: null
     next_retry_at: null
   stars:

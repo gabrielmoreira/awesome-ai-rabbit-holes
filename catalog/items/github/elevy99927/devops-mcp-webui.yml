@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-18T05:26:36.065Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-25T05:35:57.951Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for elevy99927/devops-mcp-webui
     next_retry_at: null
   categorize:
     status: done

@@ -85,9 +85,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-18T05:26:35.267Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-25T05:35:56.529Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for echoingvesper/mcp-task-orchestrator
     next_retry_at: null
   categorize:
     status: done

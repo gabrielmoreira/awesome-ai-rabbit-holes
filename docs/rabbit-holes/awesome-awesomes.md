@@ -40,7 +40,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `github-copilot` `skills` `awesome-list` `extensions` `mcp`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 27.9k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
 
   It serves as a navigational map for developers trying to find the right agent framework or product in a rapidly expanding ecosystem.
 
@@ -382,7 +382,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `models` `training` `benchmarks` `directory`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 355` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 446` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
 
   It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
 

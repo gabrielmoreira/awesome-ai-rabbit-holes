@@ -31,7 +31,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 113.3k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 114.3k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
 
   It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
 
@@ -103,6 +103,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
   </details>
 
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 46.2k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+
+  It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
+
+  _Yet another Electron wrapper promising to unify the AI ecosystem, ensuring you can now context-switch between twelve different LLMs without ever leaving your desktop._
+
+  `desktop-client` `multi-llm` `local-models` `chat-interface`
+  </details>
+
 - **[LocalAI](https://github.com/mudler/localai)** `⭐ 46.1k` `updated ≤30d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
 
   It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
@@ -110,15 +119,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Now you can spend your evening debugging llama.cpp backends and GPU layers just to replicate the same API you were already paying for._
 
   `local-ai` `inference` `self-hosted` `api-compatible` `open-source`
-  </details>
-
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 45.8k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
-
-  It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
-
-  _Yet another Electron wrapper promising to unify the AI ecosystem, ensuring you can now context-switch between twelve different LLMs without ever leaving your desktop._
-
-  `desktop-client` `multi-llm` `local-models` `chat-interface`
   </details>
 
 - **[Jan](https://github.com/janhq/jan)** `⭐ 42.4k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
@@ -148,7 +148,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `eval-harness` `local-models` `training`
   </details>
 
-- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
+- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38.1k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
 
   It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
 
@@ -157,7 +157,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `rag` `local-llm` `langchain` `agent` `knowledge-base`
   </details>
 
-- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 37.1k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
+- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 37.4k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
 
   It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
 
@@ -337,7 +337,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `vision` `mlx` `apple-silicon` `fine-tuning`
   </details>
 
-- **[LoRAX](https://github.com/predibase/lorax)** `⭐ 3.8k` `updated ≤1y` A multi-LoRA inference server that dynamically serves thousands of fine-tuned LLMs on a single GPU using dynamic adapter loading and continuous batching. <details><summary>More about</summary>
+- **[LoRAX](https://github.com/predibase/lorax)** `⭐ 3.8k` `updated >1y` A multi-LoRA inference server that dynamically serves thousands of fine-tuned LLMs on a single GPU using dynamic adapter loading and continuous batching. <details><summary>More about</summary>
 
   It allows developers to run a massive fleet of specialized fine-tuned models in production with drastically lower infrastructure costs by sharing a single base model.
 
@@ -490,7 +490,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `embeddings` `semantic-search` `fastapi` `llama-cpp`
   </details>
 
-- **[Minima](https://github.com/dmayboroda/minima)** `⭐ 1k` `updated ≤180d` Minima is an open-source, on-premises RAG (Retrieval-Augmented Generation) system that runs as configurable Docker containers, allowing developers to query local documents using local LLMs, ChatGPT, or Claude via MCP integration. <details><summary>More about</summary>
+- **[Minima](https://github.com/dmayboroda/minima)** `⭐ 1.1k` `updated ≤180d` Minima is an open-source, on-premises RAG (Retrieval-Augmented Generation) system that runs as configurable Docker containers, allowing developers to query local documents using local LLMs, ChatGPT, or Claude via MCP integration. <details><summary>More about</summary>
 
   It offers a self-contained, privacy-first infrastructure for indexing and querying local codebases or documentation using your choice of local models or external APIs.
 
@@ -508,7 +508,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 794` `updated ≤90d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
+- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 794` `updated ≤180d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
 
   It gives teams a zero-friction way to collaborate around LLMs directly inside Discord, with easy model switching and support for both cloud and local inference.
 
@@ -565,6 +565,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
 ## Incubating
 
 _These are new or low-traffic entries being watched._
+
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 109` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+
+  It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
+
+  _Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my MacBook.'._
+
+  `kubernetes` `local-inference` `self-hosted` `gpu-serving` `llm-operator`
+  </details>
 
 - **[LoLLMS](https://github.com/parisneo/lollms)** `⭐ 72` `updated ≤30d` A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features. <details><summary>More about</summary>
 

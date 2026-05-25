@@ -24,30 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 109
+    forks: 17
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-11-12T22:53:23Z"
+    pushed_at: "2026-05-24T20:19:06Z"
+    description: Kubernetes operator for local LLM inference with llama.cpp, vLLM, TGI, and mlx-server — multi-GPU NVIDIA + Apple Silicon Metal, autoscaling, air-gapped, production-ready
+    homepage: https://llmkube.com
+    topics:
+      - ai
+      - apple-silicon
+      - autoscaling
+      - edge-computing
+      - gguf
+      - gpu
+      - homelab
+      - inference
+      - kubernetes
+      - kubernetes-operator
+      - llama-cpp
+      - llm
+      - local-llm
+      - metal
+      - mlx
+      - multi-gpu
+      - nvidia
+      - self-hosted
+      - tgi
+      - vllm
+    last_checked_at: "2026-05-25T05:35:51.568Z"
+    readme:
+      fetched_at: "2026-05-25T05:35:51.568Z"
+      bytes: 22853
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API.
+  why_it_matters: It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
+  mental_damage: Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my MacBook.'
+  tags:
+    - kubernetes
+    - local-inference
+    - self-hosted
+    - gpu-serving
+    - llm-operator
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a Kubernetes operator purpose-built for self-hosted LLM inference, fitting the Local AI catalog because it turns private GPU and Metal hardware into an OpenAI-compatible serving layer managed with YAML.
+  evidence:
+    - Repo description and README identify the product as a Kubernetes operator for local LLM inference with llama.cpp, vLLM, TGI, and mlx-server.
+    - README explicitly targets self-hosted, air-gapped, multi-GPU deployment with autoscaling and an OpenAI-compatible API endpoint.
+    - Appears in Awesome-LLMOps under Large Model Serving, confirming its role as inference infrastructure rather than a coding agent or framework.
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Serving / APIs
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-05-25T05:35:51.568Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-05-21T05:28:21.556Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-25T05:36:59.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

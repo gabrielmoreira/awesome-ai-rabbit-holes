@@ -22,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `context-engineering` `claude-code` `meta-prompting` `subagents`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 47.1k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 48k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
 
   It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
 
@@ -94,7 +94,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `claude-code` `spec-driven` `multi-agent` `tdd` `cli`
   </details>
 
-- **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 664` `updated ≤30d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
+- **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 664` `updated ≤90d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
 
   It breaks down complex features into manageable, staged PRs with precise instructions, preventing AI agents from derailing or generating unmanageable monolithic changes.
 
@@ -139,13 +139,22 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 244` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 249` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
 
   _Just what we needed: another layer of infrastructure to manage the YAML files that tell our AI agents how to manage the code that used to just be code._
 
   `spec-driven` `sdd` `cli` `mcp` `context`
+  </details>
+
+- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 249` `updated ≤30d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
+
+  It turns scattered planning artifacts into structured, AI-readable specs that any assistant can consume via MCP or CLI, letting teams keep existing backends while enforcing a spec-first loop.
+
+  _Because nothing says 'lightweight spec-driven development' like adding a YAML adapter layer between your AI agent and the Jira instance you already hate._
+
+  `spec-driven-development` `sdd` `cli` `mcp` `project-management`
   </details>
 
 - **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 177` `updated ≤30d` A command pack for Cursor IDE that provides spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, tasks, and code. <details><summary>More about</summary>
@@ -161,7 +170,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 _These are new or low-traffic entries being watched._
 
-- **[fspec](https://github.com/sengac/fspec)** `⭐ 64` `updated ≤30d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
+- **[fspec](https://github.com/sengac/fspec)** `⭐ 64` `updated ≤90d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
 
   It shifts AI coding from reactive babysitting to a structured loop where specifications, tests, and checkpoints control the implementation lifecycle.
 
@@ -170,7 +179,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `tdd` `gherkin` `cli` `multi-agent`
   </details>
 
-- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 46` `updated ≤180d` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
+- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 46` `updated ≤1y` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
 
   It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
 
@@ -179,7 +188,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `meta-specification` `cli` `token-optimization` `ai-agents`
   </details>
 
-- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 24` `updated ≤30d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
+- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 25` `updated ≤30d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
 
   It creates a structured spec-first loop that treats living documentation as the authoritative source of truth for agent-driven development workflows.
 
@@ -215,6 +224,15 @@ _These are new or low-traffic entries being watched._
   `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 
+- **[colign](https://github.com/colign/colign)** `⭐ 4` `updated ≤30d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
+
+  It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
+
+  _Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway._
+
+  `spec-driven` `team-collaboration` `mcp` `sdd` `planning`
+  </details>
+
 - **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 3` `updated ≤90d` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
 
   It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
@@ -222,15 +240,6 @@ _These are new or low-traffic entries being watched._
   _We have officially reached the point where your coding agent needs its own project manager, onboarding questionnaire, and middleware to avoid recursively inventing agile ceremonies._
 
   `claude-code` `spec-driven` `planning` `agent-skills`
-  </details>
-
-- **[colign](https://github.com/colign/colign)** `⭐ 3` `updated ≤30d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
-
-  It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
-
-  _Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway._
-
-  `spec-driven` `team-collaboration` `mcp` `sdd` `planning`
   </details>
 
 - **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 3` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>

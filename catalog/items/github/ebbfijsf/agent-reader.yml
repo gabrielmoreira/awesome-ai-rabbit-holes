@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-05-18T05:26:35.119Z"
+    status: deferred
+    updated_at: "2026-05-25T05:35:56.323Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: ebbfijsf/agent-reader"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ebbfijsf/agent-reader
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-05-21T05:28:21.556Z"
+    updated_at: "2026-05-25T05:35:59.053Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

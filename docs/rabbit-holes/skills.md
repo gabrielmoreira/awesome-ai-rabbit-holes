@@ -13,7 +13,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 60.3k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 61.7k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -134,6 +134,15 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 13` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+
+  Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
+
+  _We have finally reached the point where an AI agent needs a skill pack so it can pretend to be an entire marketing department that generates 55-language articles and TikTok videos on a cron schedule._
+
+  `agent-skills` `seo` `content-automation` `mcp` `multilingual`
+  </details>
+
 - **[codebase-recon-skill](https://github.com/yujiachen-y/codebase-recon-skill)** `⭐ 13` `updated ≤30d` A coding agent skill that analyzes git history to understand a codebase before reading any code. <details><summary>More about</summary>
 
   Helps developers quickly assess project health, risk areas, and team dynamics without manually running git commands.
@@ -150,15 +159,6 @@ _These are new or low-traffic entries being watched._
   _We have now reached the point where we need a package manager for the personalities we inject into our package managers for the AI that writes our code._
 
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
-  </details>
-
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 12` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
-
-  Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
-
-  _We have finally reached the point where an AI agent needs a skill pack so it can pretend to be an entire marketing department that generates 55-language articles and TikTok videos on a cron schedule._
-
-  `agent-skills` `seo` `content-automation` `mcp` `multilingual`
   </details>
 
 - **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 5` `updated ≤30d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>

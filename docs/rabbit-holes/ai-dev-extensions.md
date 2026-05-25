@@ -76,6 +76,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `python` `profiling` `optimization` `performance`
   </details>
 
+- **[cc-connect](https://github.com/chenhg5/cc-connect)** `⭐ 10.4k` `updated ≤30d` A bridge that connects local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Slack, Telegram, Discord, Feishu/Lark, etc.) so developers can chat with their assistant from anywhere without requiring a public IP. <details><summary>More about</summary>
+
+  It turns your existing terminal or IDE agent into a remote team member accessible from corporate chat or your phone, letting you trigger repo work without exposing the agent directly to the internet.
+
+  _Granting your terminal agent a Telegram account so it can push commits from a chat thread is either peak remote-work convenience or the fastest path to explaining a force-push to your team—possibly both._
+
+  `messaging-bridge` `agent-connector` `chatops` `remote-work` `host-integration`
+  </details>
+
 - **[Sweep](https://github.com/sweepai/sweep)** `⭐ 7.7k` `updated ≤1y` Sweep is an AI coding assistant plugin designed specifically for the JetBrains IDE ecosystem. <details><summary>More about</summary>
 
   It integrates AI-assisted coding directly into the JetBrains workflow, allowing developers to delegate repo tasks without switching editors.
@@ -103,7 +112,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `readme-generator` `cli` `documentation` `llm` `python`
   </details>
 
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.4k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.5k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
 
   It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
 
@@ -139,7 +148,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `cli` `plugins` `claude-code` `productivity` `hooks`
   </details>
 
-- **[terminator](https://github.com/mediar-ai/terminator)** `⭐ 1.4k` `updated ≤30d` A Windows-native desktop automation layer that exposes the full OS environment as an MCP server so AI assistants can control apps, browsers, and workflows without taking over the user's cursor. <details><summary>More about</summary>
+- **[terminator](https://github.com/mediar-ai/terminator)** `⭐ 1.4k` `updated ≤90d` A Windows-native desktop automation layer that exposes the full OS environment as an MCP server so AI assistants can control apps, browsers, and workflows without taking over the user's cursor. <details><summary>More about</summary>
 
   It lets developers hand off cross-application desktop tasks to coding agents by giving them deterministic, pixel-to-accessibility-tree control over the local machine.
 
@@ -157,7 +166,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `browser-testing` `debugging` `web-eval` `qa-automation`
   </details>
 
-- **[jean](https://github.com/coollabsio/jean)** `⭐ 944` `updated ≤30d` A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode. <details><summary>More about</summary>
+- **[jean](https://github.com/coollabsio/jean)** `⭐ 956` `updated ≤30d` A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode. <details><summary>More about</summary>
 
   It centralizes multi-project AI workflows by handling worktree automation, session management, and integrations with GitHub and Linear in a single native interface.
 
@@ -175,7 +184,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 549` `updated ≤30d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
+- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 551` `updated ≤30d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
 
   It closes the edit gap left by Figma's official MCP plugin, letting agents programmatically manipulate designs using compact CLI calls or familiar React-like JSX.
 
@@ -220,7 +229,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mysql` `mcp` `database` `ai-dev-extensions`
   </details>
 
-- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 187` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
+- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 192` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
 
   It removes the manual drag-and-drop friction of building Stable Diffusion and FLUX workflows by letting developers describe node graphs in natural language and letting Claude Code manipulate them programmatically.
 
@@ -233,7 +242,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 119` `updated ≤30d` A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat. <details><summary>More about</summary>
+- **[memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 121` `updated ≤30d` A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat. <details><summary>More about</summary>
 
   It attempts to automate the tedious context-gathering phase of AI assistance by watching you work and feeding relevant history directly into your coding agent.
 
@@ -368,7 +377,7 @@ _These are new or low-traffic entries being watched._
   `mattermost` `mcp` `langgraph` `chat-agent` `self-hosted`
   </details>
 
-- **[selvage](https://github.com/selvage-lab/selvage)** `⭐ 33` `updated ≤90d` A CLI tool that uses LLMs to analyze Git diffs for code quality, bug detection, and security vulnerabilities, with optional MCP and Claude Code plugin modes. <details><summary>More about</summary>
+- **[selvage](https://github.com/selvage-lab/selvage)** `⭐ 33` `updated ≤180d` A CLI tool that uses LLMs to analyze Git diffs for code quality, bug detection, and security vulnerabilities, with optional MCP and Claude Code plugin modes. <details><summary>More about</summary>
 
   It automates code reviews directly from the terminal or inside editors like Cursor and Claude Code, aiming to catch issues before a human ever looks at the PR.
 
@@ -458,7 +467,7 @@ _These are new or low-traffic entries being watched._
   `llm-routing` `cost-optimization` `mcp`
   </details>
 
-- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 21` `updated ≤30d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
+- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 23` `updated ≤30d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
 
   It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
 

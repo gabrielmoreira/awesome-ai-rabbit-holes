@@ -31,7 +31,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.3k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.4k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
 
   It gives developers the observability and evaluation tooling needed to measure prompt quality, trace agent behavior, and ship more reliable LLM-powered features.
 
@@ -40,7 +40,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evals` `tracing` `llmops` `monitoring`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.5k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.7k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
 
   It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
 
@@ -445,7 +445,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 232` `updated ≤90d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 232` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 
@@ -485,7 +485,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 _These are new or low-traffic entries being watched._
 
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 117` `updated ≤90d` XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs. <details><summary>More about</summary>
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 116` `updated ≤90d` XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs. <details><summary>More about</summary>
 
   It provides developers with a modular workbench to measure retrieval quality, faithfulness, and answer correctness across different RAG configurations and orchestration strategies.
 
@@ -530,7 +530,7 @@ _These are new or low-traffic entries being watched._
   `prompt-optimization` `agent-evals` `llm` `automation`
   </details>
 
-- **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 56` `updated ≤30d` A Python SDK for simulating and testing voice and text AI agents using persona-driven scenarios, with built-in evaluation hooks. <details><summary>More about</summary>
+- **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 56` `updated ≤90d` A Python SDK for simulating and testing voice and text AI agents using persona-driven scenarios, with built-in evaluation hooks. <details><summary>More about</summary>
 
   It lets developers run multi-turn, realistic conversations against their agents before deployment instead of discovering hallucinations in production.
 
@@ -548,7 +548,7 @@ _These are new or low-traffic entries being watched._
   `evals` `cli` `agents` `llm-benchmark` `skills`
   </details>
 
-- **[futureagi-sdk](https://github.com/future-agi/futureagi-sdk)** `⭐ 46` `updated ≤30d` An open-source SDK for Python and TypeScript that provides automated AI evaluations, prompt management, observability, and sub-100ms guardrails without human-in-the-loop requirements. <details><summary>More about</summary>
+- **[futureagi-sdk](https://github.com/future-agi/futureagi-sdk)** `⭐ 46` `updated ≤90d` An open-source SDK for Python and TypeScript that provides automated AI evaluations, prompt management, observability, and sub-100ms guardrails without human-in-the-loop requirements. <details><summary>More about</summary>
 
   It gives developers a unified code-first way to measure, score, and regression-test model and prompt behavior across 50+ frameworks with OpenTelemetry-native tracing.
 

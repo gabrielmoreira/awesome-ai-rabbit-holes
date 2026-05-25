@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 465
-    forks: 44
+    stars: 467
+    forks: 46
     license: MIT
     archived: false
     created_at: "2026-01-12T07:37:08Z"
-    pushed_at: "2026-05-08T01:22:31Z"
+    pushed_at: "2026-05-25T04:23:18Z"
     description: Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments.
     homepage: null
     topics:
@@ -39,10 +39,10 @@ metadata:
       - mcp
       - mcp-server
       - x402
-    last_checked_at: "2026-05-14T05:20:30.164Z"
+    last_checked_at: "2026-05-25T05:35:34.087Z"
     readme:
-      fetched_at: "2026-05-14T05:20:30.164Z"
-      bytes: 6239
+      fetched_at: "2026-05-25T05:35:34.087Z"
+      bytes: 14812
 insights:
   summary: An MCP server that provides real-time market data, web search, X/Twitter access, and LLM routing to coding assistants, billed per call via an x402 micropayment wallet on Base.
   why_it_matters: It lets developers equip agents like Claude Code with live external data and model access without managing API keys, subscriptions, or multiple billing dashboards.
@@ -74,11 +74,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-21T05:28:20.001Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for blockrunai/blockrun-mcp
+    status: done
+    updated_at: "2026-05-25T05:35:34.087Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

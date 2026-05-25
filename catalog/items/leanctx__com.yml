@@ -34,18 +34,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model.
+  why_it_matters: It cuts token costs and context bloat by stripping noise—like comments and whitespace—while preserving structure, and adds session memory and cross-agent context control across 29+ editors and assistants.
+  mental_damage: You now get a live dashboard to watch your AI context window fill up with garbage, because apparently 'please ignore the comments' was too ambiguous for a trillion-parameter model.
+  tags:
+    - context-compression
+    - context-window
+    - token-optimization
+    - memory
+    - ai-tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's entire identity is context shaping—AST-based compression, visibility, session memory, and routing—making it a canonical fit for Prompt & Context Engineering rather than an extension of any specific editor or agent.
+  evidence:
+    - Site claims it 'sits between your AI and your codebase' with 10 read modes and Tree-sitter AST parsing to compress file reads by 60-99%.
+    - Markets cross-session memory, knowledge graphs, and context checkpoints as core features, not side integrations.
+    - Works with 29+ AI tools (Cursor, Claude Code, Copilot) as a compatibility layer, but its substance is token distillation and context lifecycle management.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -60,24 +68,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-21T05:32:59.490Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for leanctx__com: ```json
-        {
-          "summary": "LeanCTX is an open-source, local context layer that sits between AI coding tools and codebases to provide real-time visibility into context usage, compress file reads by up to 99%, and persist memory across sessions.",
-          "why_it_matters": "It directly cuts API costs and context-window bloat by filtering, deduplicating, and caching what reaches the model, working across 29+ editors and agents without vendor lock-in.",
-          "mental_damage": "We have invented supply-chain logistics for our own prompts, complete with a Rust binary and an audit trail, because your coding assistant apparently needs an ad blocker for whitespace.",
-          "tags": ["context-compression", "token-optimization", "memory", "caching", "local"],
-          "should_include": true,
-          "primary_category": "context-engineering",
-          "section": "Memory / Compression / Distillation",
-          "decision_reason": "The product's entire identity is context lifecycle management—compression, visibility, caching, and routing—which is the canonical remit of Prompt & Context Engineering, not a host integration or coding agent.",
-          "decision_evidence": [
-            "Scraped site describes LeanCTX as a 'cognitive context layer' with Tree-sitter AST parsing, 10 read modes, 61 tools, and up to
+    status: done
+    updated_at: "2026-05-25T05:38:14.447Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
