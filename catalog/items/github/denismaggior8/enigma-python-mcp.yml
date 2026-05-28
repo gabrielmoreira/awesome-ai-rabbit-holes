@@ -1,0 +1,90 @@
+id: github__denismaggior8__enigma-python-mcp
+kind: github-repo
+name: enigma-python-mcp
+canonical_url: https://github.com/denismaggior8/enigma-python-mcp
+identity:
+  github_repo: denismaggior8/enigma-python-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__denismaggior8__enigma-python-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔑 <a name="cryptography"></a>Cryptography
+        anchor_text: denismaggior8/enigma-python-mcp
+        extracted_url: https://github.com/denismaggior8/enigma-python-mcp
+        surrounding_text: "- [denismaggior8/enigma-python-mcp](https://github.com/denismaggior8/enigma-python-mcp) [![denismaggior8/enigma-python-mcp MCP server](https://glama.ai/mcp/servers/denismaggior8/enigma-python-mcp/badges/score.svg)](https://glama.ai/mcp/servers/denismaggior8/enigma-python-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - A Model Context Protocol server that brings the capabilities of [enigmapython](https://github.com/denismaggior8/enigma-python) library to LLMs, allowing them to encrypt and decrypt messages using historically accurate Enigma machine emulators."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-04-29T08:26:03Z"
+    pushed_at: "2026-05-05T12:40:58Z"
+    description: An MCP (Model Context Protocol) server that brings the capabilities of the enigmapython library to LLMs, allowing them to encrypt and decrypt messages using historically accurate Enigma machine emulators
+    homepage: ""
+    topics:
+      - cryptography
+      - enigmapython
+      - historical-ciphers
+      - llm
+      - mcp
+      - model-context-protocol
+      - worldwar2
+      - wwii
+    last_checked_at: "2026-05-28T05:28:23.459Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:23.459Z"
+      bytes: 7681
+insights:
+  summary: An MCP server that provides LLMs with tools to encrypt and decrypt messages using historically accurate Enigma machine emulators.
+  why_it_matters: It allows developers to integrate niche, domain-specific tools like historical cryptography into their AI workflows via the Model Context Protocol.
+  mental_damage: Because nothing says 'productive software engineering' like asking Claude to assist with decoding WWII-era German transmissions.
+  tags:
+    - mcp
+    - cryptography
+    - enigma
+    - python
+    - llm-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to extend the capabilities of MCP clients with specific cryptographic tools.
+  evidence:
+    - Repo description identifies it as an MCP server
+    - Provides specific tools like 'encrypt_message' for Enigma models
+    - Listed in 'awesome-mcp-servers' under Cryptography
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:23.459Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:38:16.513Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

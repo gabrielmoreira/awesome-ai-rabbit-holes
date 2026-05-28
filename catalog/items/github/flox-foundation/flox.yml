@@ -1,0 +1,72 @@
+id: github__flox-foundation__flox
+kind: github-repo
+name: flox
+canonical_url: https://github.com/flox-foundation/flox
+identity:
+  github_repo: flox-foundation/flox
+provenance:
+  discoveries:
+    - id: discovery__github__flox-foundation__flox__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: flox-foundation/flox-mcp
+        extracted_url: https://github.com/flox-foundation/flox
+        surrounding_text: "- [flox-foundation/flox-mcp](https://github.com/FLOX-Foundation/flox/tree/main/mcp) [![flox MCP server](https://glama.ai/mcp/servers/FLOX-Foundation/flox/badges/score.svg)](https://glama.ai/mcp/servers/FLOX-Foundation/flox) 🐍 🏠 - MCP server for the FLOX trading systems framework. ~30 tools to run backtests, scaffold strategies, validate for lookahead bias, place orders, query PnL via Claude/Cursor. C++23 core with Python/Node/Codon/QuickJS strategy bindings. Same code from backtest to live (CcxtBroker or native connectors). Install: `pip install flox-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-05-28T05:28:30.858Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for flox-foundation/flox
+  categorize:
+    status: skipped
+    updated_at: "2026-05-28T05:28:31.904Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

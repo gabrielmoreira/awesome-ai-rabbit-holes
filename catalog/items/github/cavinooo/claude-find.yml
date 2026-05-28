@@ -1,0 +1,89 @@
+id: github__cavinooo__claude-find
+kind: github-repo
+name: claude-find
+canonical_url: https://github.com/cavinooo/claude-find
+identity:
+  github_repo: cavinooo/claude-find
+provenance:
+  discoveries:
+    - id: discovery__github__cavinooo__claude-find__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: Cavinooo/claude-find
+        extracted_url: https://github.com/cavinooo/claude-find
+        surrounding_text: "- [Cavinooo/claude-find](https://github.com/Cavinooo/claude-find) [![Cavinooo/claude-find MCP server](https://glama.ai/mcp/servers/Cavinooo/claude-find/badges/score.svg)](https://glama.ai/mcp/servers/Cavinooo/claude-find) 📇 🏠 🍎 - Pull Deep Memory from across your Claude Code Sessions — when you need it."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-25T16:20:29Z"
+    pushed_at: "2026-05-04T20:27:18Z"
+    description: Pull Deep Memory from across your Claude Code Sessions — when you need it.
+    homepage: https://www.npmjs.com/package/claude-find
+    topics:
+      - claude
+      - claude-code
+      - cli
+      - embeddings
+      - mcp
+      - ollama
+      - semantic-search
+    last_checked_at: "2026-05-28T05:28:22.925Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.925Z"
+      bytes: 2813
+insights:
+  summary: A semantic search tool that indexes Claude Code session transcripts to provide long-term memory via MCP.
+  why_it_matters: It allows developers to retrieve specific reasoning, constraints, and past decisions from previous Claude Code sessions to provide richer context for current tasks.
+  mental_damage: Now you can finally search for the exact moment you convinced yourself that a specific architectural mistake was actually a 'feature'.
+  tags:
+    - claude-code
+    - mcp
+    - semantic-search
+    - ollama
+    - memory
+  confidence: high
+curation:
+  status: included
+  reason: The tool's primary value is the semantic retrieval and management of conversation history to improve model context.
+  evidence:
+    - Uses Ollama and embeddings to perform semantic search over raw Claude Code session transcripts
+    - Implements an MCP server to inject retrieved context back into Claude Code sessions
+    - Specifically designed to overcome the loss of context in compressed session summaries
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.925Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:37:09.391Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

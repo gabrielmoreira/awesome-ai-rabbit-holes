@@ -1,0 +1,76 @@
+id: registry__modelcontextprotocol__io__v0__servers
+kind: website
+name: servers
+canonical_url: https://registry.modelcontextprotocol.io/v0/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__registry__modelcontextprotocol__io__v0__servers__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Official MCP Registry
+        extracted_url: https://registry.modelcontextprotocol.io/v0/servers
+        surrounding_text: "- [deficlow/zipp-mcp](https://github.com/deficlow/zipp-mcp) [![deficlow/zipp-mcp MCP server](https://glama.ai/mcp/servers/deficlow/zipp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deficlow/zipp-mcp) 🐍 ☁️ - Multi-language crypto news for AI assistants — editorial summaries with sentiment labels (BULLISH/NEUTRAL/BEARISH) and importance scores (0–100). 6 tools across 8 languages, every story credits the original publisher. Install: `uvx zipp-mcp` or `ghcr.io/deficlow/zipp-mcp`. Public Streamable HTTP endpoint at `https://zippfeed.com/mcp/`; listed on the [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=zipp)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A registry of servers for the Model Context Protocol (MCP).
+  why_it_matters: It serves as a central discovery point for developers looking to extend their AI assistants with new tools and data sources via MCP.
+  mental_damage: The existential dread of realizing your agent's capabilities are entirely dependent on how many JSON schemas you can find in a registry.
+  tags:
+    - mcp
+    - registry
+    - protocol
+    - discovery
+  confidence: high
+curation:
+  status: included
+  reason: This is a specialized registry for the Model Context Protocol, making it core infrastructure for the protocol's ecosystem.
+  evidence:
+    - URL indicates a specialized registry on the modelcontextprotocol.io domain
+    - Source-list context confirms its purpose as a collection of MCP servers
+placement:
+  primary_category: mcp
+  section: Registries & Discovery
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.820Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:42:34.240Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

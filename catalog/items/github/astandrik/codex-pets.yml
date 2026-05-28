@@ -1,0 +1,81 @@
+id: github__astandrik__codex-pets
+kind: github-repo
+name: codex-pets
+canonical_url: https://github.com/astandrik/codex-pets
+identity:
+  github_repo: astandrik/codex-pets
+provenance:
+  discoveries:
+    - id: discovery__github__astandrik__codex-pets__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: astandrik/codex-pets
+        extracted_url: https://github.com/astandrik/codex-pets
+        surrounding_text: "- [astandrik/codex-pets](https://github.com/astandrik/codex-pets) [![astandrik/codex-pets MCP server](https://glama.ai/mcp/servers/astandrik/codex-pets/badges/score.svg)](https://glama.ai/mcp/servers/astandrik/codex-pets) 📇 ☁️ - Companion Gallery for Codex: public read-only registry for Codex-compatible animated companion packs. Search, preview, install community pets, generate badges/embed cards, and discover the request flow via Streamable HTTP MCP."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-09T07:18:00Z"
+    pushed_at: "2026-05-27T19:12:55Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-28T05:28:22.069Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.069Z"
+      bytes: 17527
+insights:
+  summary: A community gallery and MCP server for discovering and managing animated pet assets for Codex-compatible coding agents.
+  why_it_matters: It provides a standardized way for AI agents to search for, inspect, and integrate visual assets into their workflow via the Model Context Protocol.
+  mental_damage: Because your terminal environment wasn't quite whimsical enough without a dedicated protocol for digital pets.
+  tags:
+    - mcp
+    - codex
+    - assets
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server that provides tools for agents to interact with an asset registry.
+  evidence:
+    - Exposes a public read-only MCP server for agentic pet discovery
+    - Provides specific MCP tools including search_pets and get_pet
+    - Identified in the awesome-mcp-servers directory
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.069Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:35:24.316Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

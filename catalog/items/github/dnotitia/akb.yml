@@ -1,0 +1,95 @@
+id: github__dnotitia__akb
+kind: github-repo
+name: akb
+canonical_url: https://github.com/dnotitia/akb
+identity:
+  github_repo: dnotitia/akb
+provenance:
+  discoveries:
+    - id: discovery__github__dnotitia__akb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: dnotitia/akb
+        extracted_url: https://github.com/dnotitia/akb
+        surrounding_text: "- [dnotitia/akb](https://github.com/dnotitia/akb) [![dnotitia/akb MCP server](https://glama.ai/mcp/servers/dnotitia/akb/badges/score.svg)](https://glama.ai/mcp/servers/dnotitia/akb) 🐍 📇 🏠 🍎 🪟 🐧 - Organizational knowledge base for AI agents. Vault-scoped Markdown docs, structured PostgreSQL tables, and files unified by a URI graph. Hybrid semantic + BM25 search, Git-backed version history, multi-tenant ACL with public-share links. Works with Claude Code, Cursor, Windsurf via `npx akb-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 40
+    forks: 3
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-05-07T07:54:22Z"
+    pushed_at: "2026-05-27T16:55:29Z"
+    description: "AKB — Agent Knowledgebase. Organizational memory for AI agents: vault-scoped docs / tables / files unified by URI graph, served over MCP."
+    homepage: ""
+    topics:
+      - agent
+      - claude
+      - claude-code
+      - fastapi
+      - knowledge-base
+      - knowledge-graph
+      - mcp
+      - model-context-protocol
+      - multi-tenant
+      - pgvector
+      - postgres
+      - rag
+      - react
+      - vector-search
+    last_checked_at: "2026-05-28T05:28:23.578Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:23.578Z"
+      bytes: 15778
+insights:
+  summary: A Git-backed knowledge base that provides agents with structured documents, tables, and hybrid search via the Model Context Protocol.
+  why_it_matters: It offers a version-controlled, searchable 'organizational memory' that allows agents to access long-term context instead of relying on ephemeral chat history.
+  mental_damage: Because we have officially reached the stage where we need version-controlled repositories just to manage the documentation our agents are generating for themselves.
+  tags:
+    - mcp
+    - rag
+    - knowledge-graph
+    - memory
+  confidence: high
+curation:
+  status: included
+  reason: The product's core value is the memory and retrieval infrastructure used to shape agent context, which fits the specific definition for context engineering.
+  evidence:
+    - Git-backed organizational memory served over MCP
+    - Features hybrid semantic and keyword search (R@5 = 98.4%)
+    - Provides structured documents and a URI graph for linking knowledge
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:23.578Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:38:36.076Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

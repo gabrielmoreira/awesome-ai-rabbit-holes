@@ -1,0 +1,100 @@
+id: github__alikarami__mikromcp
+kind: github-repo
+name: mikromcp
+canonical_url: https://github.com/alikarami/mikromcp
+identity:
+  github_repo: alikarami/mikromcp
+provenance:
+  discoveries:
+    - id: discovery__github__alikarami__mikromcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: AliKarami/MikroMCP
+        extracted_url: https://github.com/alikarami/mikromcp
+        surrounding_text: "- [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP) [![AliKarami/MikroMCP MCP server](https://glama.ai/mcp/servers/AliKarami/MikroMCP/badges/score.svg)](https://glama.ai/mcp/servers/AliKarami/MikroMCP) 📇 🏠 🍎 🪟 🐧 - Manage MikroTik RouterOS devices through AI assistants — interfaces, firewall rules, DHCP, DNS, routes, WireGuard, WiFi, BGP/OSPF, VLANs, and more. 77 tools with dry-run previews, idempotency checks, circuit breakers, RBAC, and rollback-aware change workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-21T20:13:26Z"
+    pushed_at: "2026-05-27T23:02:34Z"
+    description: Production-grade MCP server for MikroTik RouterOS with secure AI-native network automation.
+    homepage: ""
+    topics:
+      - agentic-ai
+      - ai-agents
+      - anthropic
+      - claude
+      - cursor-ai
+      - devops
+      - homelab
+      - infrastructure
+      - llm-tools
+      - mcp
+      - mikrotik
+      - model-context-protocol
+      - network-automation
+      - networking
+      - ros
+      - ros7
+      - routeros
+      - routeros7
+    last_checked_at: "2026-05-28T05:28:19.379Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:19.379Z"
+      bytes: 28139
+insights:
+  summary: An MCP server that enables AI agents to inspect, diagnose, and manage MikroTik RouterOS network infrastructure.
+  why_it_matters: It provides a safe, schema-validated bridge for LLMs to automate network configuration and troubleshooting using features like dry-runs, rollbacks, and RBAC.
+  mental_damage: Giving an LLM the keys to your production network infrastructure is exactly the kind of high-stakes automation anxiety we've come to expect.
+  tags:
+    - mcp
+    - devops
+    - networking
+    - mikrotik
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is a domain-specific MCP server designed to expose network capabilities to AI assistants.
+  evidence:
+    - Repo description defines it as a 'Production-grade MCP server for MikroTik RouterOS'.
+    - README explicitly states it exposes RouterOS as a Model Context Protocol server for Claude, Cursor, and other clients.
+    - Includes safety-oriented automation features like idempotent writes, dry-runs, and circuit breakers.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:19.379Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:35:14.586Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

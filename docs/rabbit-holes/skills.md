@@ -4,7 +4,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 138.4k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+- **[skills](https://github.com/anthropics/skills)** `⭐ 142.1k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
 
@@ -143,7 +143,7 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `seo` `content-automation` `mcp` `multilingual`
   </details>
 
-- **[codebase-recon-skill](https://github.com/yujiachen-y/codebase-recon-skill)** `⭐ 13` `updated ≤30d` A coding agent skill that analyzes git history to understand a codebase before reading any code. <details><summary>More about</summary>
+- **[codebase-recon-skill](https://github.com/yujiachen-y/codebase-recon-skill)** `⭐ 13` `updated ≤90d` A coding agent skill that analyzes git history to understand a codebase before reading any code. <details><summary>More about</summary>
 
   Helps developers quickly assess project health, risk areas, and team dynamics without manually running git commands.
 
@@ -152,13 +152,22 @@ _These are new or low-traffic entries being watched._
   `git-analysis` `agent-skills` `codebase-health`
   </details>
 
-- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤30d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline. <details><summary>More about</summary>
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤90d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline. <details><summary>More about</summary>
 
   It lets developers inject expert-level domain knowledge and patterns into their AI assistants instantly, moving them beyond generic coding advice without manual prompt engineering.
 
   _We have now reached the point where we need a package manager for the personalities we inject into our package managers for the AI that writes our code._
 
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
+  </details>
+
+- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 10` `updated ≤30d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
+
+  It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
+
+  _Because nothing says 'unpredictable agent behavior' quite like giving a LLM direct access to your cross-chain liquidity._
+
+  `crypto` `web3` `mcp` `agent-skills` `blockchain`
   </details>
 
 - **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 5` `updated ≤30d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
@@ -170,7 +179,7 @@ _These are new or low-traffic entries being watched._
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
-- **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 1` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>
+- **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 2` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>
 
   Developers can drop ready-made doctrine, rules, and MCP configs into their repos and editors to align multiple AI coding tools around a shared design framework.
 

@@ -1,0 +1,94 @@
+id: github__dolphinquant__echolon
+kind: github-repo
+name: echolon
+canonical_url: https://github.com/dolphinquant/echolon
+identity:
+  github_repo: dolphinquant/echolon
+provenance:
+  discoveries:
+    - id: discovery__github__dolphinquant__echolon__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: dolphinquant/echolon
+        extracted_url: https://github.com/dolphinquant/echolon
+        surrounding_text: "- [dolphinquant/echolon](https://github.com/dolphinquant/echolon) [![dolphinquant/echolon MCP server](https://glama.ai/mcp/servers/dolphinquant/echolon/badges/score.svg)](https://glama.ai/mcp/servers/dolphinquant/echolon) 🐍 🏠 🍎 🪟 🐧 - LLM-agent-native backtest framework for SHFE daily futures research. 23 MCP tools (strategy validation, scaffolding, indicator catalog, error-code lookup), 22 in-package skills, 32 catalogued error codes, working strategy templates. `pip install echolon` then `claude mcp add -s user echolon -- echolon-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-16T13:13:39Z"
+    pushed_at: "2026-05-08T13:06:55Z"
+    description: LLM-agent-native backtest framework for futures research — MCP server, in-package skills, catalogued error codes, typed Pydantic configs. Production engine inside Qorka @ DolphinQuant.
+    homepage: https://dolphinquant.com
+    topics:
+      - agent-tools
+      - algorithmic-trading
+      - backtesting
+      - claude
+      - futures
+      - llm-agents
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - optuna
+      - python
+      - quantitative-trading
+    last_checked_at: "2026-05-28T05:28:23.648Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:23.648Z"
+      bytes: 7960
+insights:
+  summary: An LLM-agent-native backtest framework designed for conducting quantitative futures research.
+  why_it_matters: It prevents agent hallucination in financial workflows by providing typed tools, structured error codes, and a catalog of technical indicators.
+  mental_damage: Because even the most sophisticated LLMs can't be trusted to remember the difference between a moving average and a fever dream in a trading terminal.
+  tags:
+    - quant-trading
+    - mcp-server
+    - backtesting
+    - llm-agents
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The core product is a code-first backtesting framework for quantitative research that uses MCP as its primary interface for agentic interaction.
+  evidence:
+    - Repo description identifies it as an 'LLM-agent-native backtest framework'
+    - README highlights features like typed Pydantic configs and catalogued error codes to assist agents
+    - Provides a CLI and package structure for developers to scaffold and run research workflows
+placement:
+  primary_category: ai-frameworks
+  section: Agent Frameworks
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:23.648Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:39:20.043Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

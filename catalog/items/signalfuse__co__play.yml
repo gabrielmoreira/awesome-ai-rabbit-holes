@@ -1,0 +1,76 @@
+id: signalfuse__co__play
+kind: website
+name: play
+canonical_url: https://signalfuse.co/play
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__signalfuse__co__play__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: signalfuse.co/play
+        extracted_url: https://signalfuse.co/play
+        surrounding_text: "- [hypeprinter007-stack/signalfuse-mcp](https://github.com/hypeprinter007-stack/signalfuse-mcp) [![hypeprinter007-stack/signalfuse-mcp MCP server](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp) 📇 ☁️ - 11 tools for AI trading agents: fused crypto signals (10 assets), sentiment, macro regime, live strategy arena (4 strategies × 4 assets), fused web search (Brave + Tavily), and sandboxed code execution (E2B). Pay-per-call USDC on Base via x402. Free browser playground at [signalfuse.co/play](https://signalfuse.co/play) — 25 calls/day, no wallet. `npx -y signalfuse-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based playground for trying SignalFuse API endpoints with 25 free daily calls and no wallet required.
+  why_it_matters: Lets developers test financial, macro, and code execution APIs instantly without setup or authentication friction.
+  mental_damage: Another demo trap that hooks you with free credits before revealing the real cost of building anything serious.
+  tags:
+    - api-playground
+    - signalfuse
+    - x402
+  confidence: high
+curation:
+  status: excluded
+  reason: It is a hosted API demo page, not a developer tool or product that aids coding, agent workflows, or local development.
+  evidence:
+    - "Scraped site context: 'Try every paid SignalFuse endpoint from your browser. 25 free calls, no wallet required.'"
+    - "Source-list context: Listed under awesome-mcp-servers in Finance & Fintech as a demo endpoint tryout, not an MCP server itself."
+    - No evidence of coding assistance, agent behavior, local execution, or developer workflow integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.820Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:42:48.326Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

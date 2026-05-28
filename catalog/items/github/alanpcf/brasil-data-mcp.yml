@@ -1,0 +1,90 @@
+id: github__alanpcf__brasil-data-mcp
+kind: github-repo
+name: brasil-data-mcp
+canonical_url: https://github.com/alanpcf/brasil-data-mcp
+identity:
+  github_repo: alanpcf/brasil-data-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alanpcf__brasil-data-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: alanpcf/brasil-data-mcp
+        extracted_url: https://github.com/alanpcf/brasil-data-mcp
+        surrounding_text: "- [alanpcf/brasil-data-mcp](https://github.com/alanpcf/brasil-data-mcp) [![alanpcf/brasil-data-mcp MCP server](https://glama.ai/mcp/servers/alanpcf/brasil-data-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alanpcf/brasil-data-mcp) 📇 🏠 🍎 🪟 🐧 - Brazilian public data for AI agents — companies (CNPJ), addresses (CEP), banks (BACEN), national holidays — via [BrasilAPI](https://brasilapi.com.br). No auth, no API key. Install: `npx -y brasil-data-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-08T15:13:20Z"
+    pushed_at: "2026-05-12T01:46:55Z"
+    description: MCP server providing access to Brazilian public data (CNPJ, CEP, banks, holidays) via BrasilAPI. For Claude Desktop, Claude Code, Cursor and other MCP-compatible clients.
+    homepage: null
+    topics:
+      - ai-tools
+      - brasil
+      - brasilapi
+      - claude
+      - cnpj
+      - mcp
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-05-28T05:28:18.072Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:18.072Z"
+      bytes: 7815
+insights:
+  summary: An MCP server that provides tools for accessing Brazilian public data, such as CNPJ, CEP, banks, and economic rates, via BrasilAPI.
+  why_it_matters: It enables developers to integrate official Brazilian administrative and economic data directly into AI workflows without writing custom API integration logic.
+  mental_damage: Because we've officially reached the era where our primary interface for interacting with government databases is a chat window.
+  tags:
+    - mcp
+    - brazil
+    - brasilapi
+    - data-access
+    - dev-tools
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server whose core identity is providing domain-specific data through the Model Context Protocol.
+  evidence:
+    - Repo description identifies it as an MCP server for Claude Desktop, Claude Code, and Cursor.
+    - Provides 10 specific tools for Brazilian data (CNPJ, CEP, banks, etc.) powered by BrasilAPI.
+    - Includes MCP-specific prompts for guided workflows.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.817Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:18.072Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:34:41.564Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

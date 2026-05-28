@@ -1,0 +1,95 @@
+id: github__ethanqc__feishu-user-plugin
+kind: github-repo
+name: feishu-user-plugin
+canonical_url: https://github.com/ethanqc/feishu-user-plugin
+identity:
+  github_repo: ethanqc/feishu-user-plugin
+provenance:
+  discoveries:
+    - id: discovery__github__ethanqc__feishu-user-plugin__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: EthanQC/feishu-user-plugin
+        extracted_url: https://github.com/ethanqc/feishu-user-plugin
+        surrounding_text: "- [EthanQC/feishu-user-plugin](https://github.com/EthanQC/feishu-user-plugin) [![EthanQC/feishu-user-plugin MCP server](https://glama.ai/mcp/servers/EthanQC/feishu-user-plugin/badges/score.svg)](https://glama.ai/mcp/servers/EthanQC/feishu-user-plugin) 📇 ☁️ 🏠 🍎 🪟 🐧 - All-in-one Feishu/Lark MCP server (84 tools). Send messages as the actual user (not bot), plus full official-API coverage of docs, bitable, wiki, drive, calendar, tasks, OKR. Cookie + OAuth UAT + app-credential auth."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-03-07T03:42:25Z"
+    pushed_at: "2026-05-22T10:27:51Z"
+    description: 飞书 MCP 服务器 + CLI 工具：让 Claude Code/Codex/脚本 直接接管你的飞书工作流 — 84 个工具、3 层鉴权 cookie / 官方 API / OAuth，以你本人身份发消息、读取群和私聊、操作文档 / 多维表格 / 知识库 / 云空间 / 日历 / 任务 / OKR
+    homepage: https://ethanqc.github.io/feishu-user-plugin/
+    topics:
+      - claude
+      - claude-code
+      - cli
+      - codex
+      - feishu
+      - feishu-cli
+      - feishu-mcp
+      - im
+      - lark
+      - mcp
+      - mcp-server
+      - messaging
+      - protobuf
+    last_checked_at: "2026-05-28T05:28:26.936Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:26.936Z"
+      bytes: 12675
+insights:
+  summary: An MCP server and CLI tool that enables AI assistants to interact with Feishu (Lark) services like messaging, documents, and calendars.
+  why_it_matters: It allows developers to bridge their coding agents with team communication and project management tools using the Model Context Protocol.
+  mental_damage: Nothing builds character like giving an LLM the ability to send messages to your team via your personal Feishu cookie.
+  tags:
+    - mcp
+    - feishu
+    - lark
+    - automation
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server that provides domain-specific tools for the Feishu ecosystem to any compatible client.
+  evidence:
+    - Explicitly identifies as a Feishu MCP server and CLI tool in the description.
+    - Provides 84 tools for Feishu/Lark integration via the Model Context Protocol.
+    - Supports multiple authentication layers, including a cookie-based path for acting as the user.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:26.936Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:40:30.700Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

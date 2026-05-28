@@ -1,0 +1,81 @@
+id: github__bytedance-seed__veomni
+kind: github-repo
+name: veomni
+canonical_url: https://github.com/bytedance-seed/veomni
+identity:
+  github_repo: bytedance-seed/veomni
+provenance:
+  discoveries:
+    - id: discovery__github__bytedance-seed__veomni__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 微调 Fine-Tuning
+        anchor_text: VeOmni
+        extracted_url: https://github.com/bytedance-seed/veomni
+        surrounding_text: "52. [VeOmni](https://github.com/ByteDance-Seed/VeOmni): Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo."
+        confidence: high
+metadata:
+  github:
+    stars: 1951
+    forks: 197
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-03-28T03:42:42Z"
+    pushed_at: "2026-05-28T05:15:07Z"
+    description: "VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo"
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-28T05:28:22.732Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.732Z"
+      bytes: 9799
+insights:
+  summary: A modular framework for scaling single- and multi-modal model pre-training and post-training across various accelerators.
+  why_it_matters: It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater transparency and control during large-scale model training.
+  mental_damage: A new way to spend your compute budget watching a distributed training loop fail for reasons no one can explain.
+  tags:
+    - multi-modal
+    - model-training
+    - distributed-training
+    - pytorch
+    - framework
+  confidence: high
+curation:
+  status: included
+  reason: It is a code-first training framework and engine designed for developers to build and scale models, fitting the core definition of ai-frameworks.
+  evidence:
+    - Repo description defines it as a distributed recipe zoo for scaling model training
+    - README highlights core features like FSDP2, sequence parallelism, and MoE support
+    - Provides a modular, 'trainer-free' approach for maximum transparency and control
+placement:
+  primary_category: ai-frameworks
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1951) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.732Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:36:40.512Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

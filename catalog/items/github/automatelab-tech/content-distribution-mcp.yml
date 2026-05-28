@@ -1,0 +1,96 @@
+id: github__automatelab-tech__content-distribution-mcp
+kind: github-repo
+name: content-distribution-mcp
+canonical_url: https://github.com/automatelab-tech/content-distribution-mcp
+identity:
+  github_repo: automatelab-tech/content-distribution-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__automatelab-tech__content-distribution-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: AutomateLab-tech/content-distribution-mcp
+        extracted_url: https://github.com/automatelab-tech/content-distribution-mcp
+        surrounding_text: "- [AutomateLab-tech/content-distribution-mcp](https://github.com/AutomateLab-tech/content-distribution-mcp) [![AutomateLab-tech/content-distribution-mcp MCP server](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp) 📇 ☁️ 🏠 - Publish one piece of content to DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky, LinkedIn, Medium and Twitter with idempotent state and per-platform adaptation."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-05-19T16:21:37Z"
+    pushed_at: "2026-05-26T13:59:35Z"
+    description: Multi-channel content distribution MCP server with idempotent state. Auto-publish to DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky; browser-fallback for Medium, LinkedIn, X/Twitter.
+    homepage: https://automatelab.tech/products/mcp/content-distribution-mcp/
+    topics:
+      - ai-agents
+      - automation
+      - bluesky
+      - claude-code-plugin
+      - content-distribution
+      - devto
+      - github-discussions
+      - hashnode
+      - linkedin
+      - mcp
+      - medium
+      - model-context-protocol
+      - python
+      - reddit
+      - twitter
+    last_checked_at: "2026-05-28T05:28:22.241Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.241Z"
+      bytes: 7554
+insights:
+  summary: An MCP server that automates multi-channel content distribution across platforms like DEV.to, Reddit, and Bluesky with platform-specific adaptation.
+  why_it_matters: It enables developers to use AI agents to handle the tedious work of formatting and publishing technical content across different social ecosystems.
+  mental_damage: Because nothing says 'productive developer' like automating the process of turning your technical debt into multi-platform social media engagement.
+  tags:
+    - mcp
+    - automation
+    - content-distribution
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server designed to provide a specific functional domain (content distribution) to existing AI hosts.
+  evidence:
+    - Repo description explicitly identifies it as a 'Multi-channel content distribution MCP server'.
+    - README details integration for Claude Desktop, Claude Code, and Cursor via the MCP protocol.
+    - The tool surface consists of specialized MCP tools like post.publish and channel.hints.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.241Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:35:52.869Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

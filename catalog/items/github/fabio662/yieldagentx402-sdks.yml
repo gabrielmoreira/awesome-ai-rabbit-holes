@@ -1,0 +1,82 @@
+id: github__fabio662__yieldagentx402-sdks
+kind: github-repo
+name: yieldagentx402-sdks
+canonical_url: https://github.com/fabio662/yieldagentx402-sdks
+identity:
+  github_repo: fabio662/yieldagentx402-sdks
+provenance:
+  discoveries:
+    - id: discovery__github__fabio662__yieldagentx402-sdks__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Fabio662/yieldagentx402-sdks
+        extracted_url: https://github.com/fabio662/yieldagentx402-sdks
+        surrounding_text: "- [Fabio662/yieldagentx402-sdks](https://github.com/Fabio662/yieldagentx402-sdks) [![Fabio662/yieldagentx402-sdks MCP server](https://glama.ai/mcp/servers/Fabio662/yieldagentx402-sdks/badges/score.svg)](https://glama.ai/mcp/servers/Fabio662/yieldagentx402-sdks) 📇 ☁️ - Custody-free, policy-gated, receipt-backed execution layer for AI agents. 16 MCP tools across 18 chains (Base, Ethereum, Bitcoin native, Starknet, NEAR, Solana, Stacks, BNB, Rootstock, Filecoin, Aptos, Sui, TON, Tron, XRPL, Stellar, Algorand). One NEAR MPC key authority signs on EVM and BTC, no private keys held anywhere. ShadeGuard policy enforcement, Intel TDX TEE attestation, HMAC-SHA256 receipts, Filecoin and BTFS anchored. x402 protocol settlement with 0.25 percent protocol fee. Public discovery with no signup needed: call yax_get_capabilities without auth. Instant test key (5 USD cap, 7 day) via POST /api/apply. Install via `npx agentx402-mcp-server`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-16T23:16:40Z"
+    pushed_at: "2026-05-19T16:00:40Z"
+    description: Public SDKs for YieldAgentX402 — MCP server, receipt verifier, CrewAI tools. Custody-free, policy-gated agent execution across 18 chains.
+    homepage: https://yieldagentx402.app/mcp-server
+    topics: []
+    last_checked_at: "2026-05-28T05:28:28.066Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:28.066Z"
+      bytes: 5310
+insights:
+  summary: A collection of SDKs and integration tools for the YieldAgentX402 platform, enabling secure, policy-gated financial execution for AI agents across 18 blockchain networks.
+  why_it_matters: It provides a standardized way for developers to give autonomous agents custody-free ability to settle payments and verify receipts using TEE attestation and MPC wallets.
+  mental_damage: Because managing agent security is hard enough without having to decide which of the 18 chains your autonomous bot should accidentally drain first.
+  tags:
+    - sdk
+    - mcp
+    - fintech
+    - blockchain
+    - agents
+  confidence: medium
+curation:
+  status: included
+  reason: The repository is primarily a collection of code-first SDKs and library wrappers (TypeScript, CrewAI, LangChain) used to programmatically integrate agent capabilities.
+  evidence:
+    - Repo description and README explicitly define the project as 'Public SDKs'.
+    - Provides multiple distribution packages via npm and PyPI for direct developer import.
+    - Includes framework-specific tools for CrewAI and LangChain rather than acting as a standalone agent.
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:28.066Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:40:44.070Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

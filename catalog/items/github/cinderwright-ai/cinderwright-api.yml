@@ -1,0 +1,94 @@
+id: github__cinderwright-ai__cinderwright-api
+kind: github-repo
+name: cinderwright-api
+canonical_url: https://github.com/cinderwright-ai/cinderwright-api
+identity:
+  github_repo: cinderwright-ai/cinderwright-api
+provenance:
+  discoveries:
+    - id: discovery__github__cinderwright-ai__cinderwright-api__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: cinderwright-ai/cinderwright-api
+        extracted_url: https://github.com/cinderwright-ai/cinderwright-api
+        surrounding_text: "- [cinderwright-ai/cinderwright-api](https://github.com/cinderwright-ai/cinderwright-api) [![Score](https://glama.ai/mcp/servers/cinderwright-ai/cinderwright-api/badges/score.svg)](https://glama.ai/mcp/servers/cinderwright-ai/cinderwright-api) 📇 ☁️ - x402 Discovery Hub. Search engine for the agent economy with 1450+ services indexed. Pay with USDC on Base via x402."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-22T02:51:20Z"
+    pushed_at: "2026-05-27T18:02:22Z"
+    description: MCP server + x402 Discovery Hub. Search engine for the agent economy. 1450+ services indexed.
+    homepage: https://api.ideafactorylab.org
+    topics:
+      - agent
+      - ai-agent
+      - api
+      - autonomous-agent
+      - base
+      - discovery
+      - mcp
+      - mcp-server
+      - micropayments
+      - openclaw
+      - usdc
+      - x402
+    last_checked_at: "2026-05-28T05:28:22.906Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.906Z"
+      bytes: 4264
+insights:
+  summary: An MCP server and discovery hub for finding and comparing agent-to-agent payment services across x402, MPP, and L402 protocols.
+  why_it_matters: It allows developers and agents to discover, test, and integrate cross-protocol payment endpoints directly through MCP-compatible assistants like Claude or Cursor.
+  mental_damage: Because apparently, the next hurdle for autonomous agents isn't intelligence, but negotiating a micro-payment for a weather API.
+  tags:
+    - mcp
+    - agent-payments
+    - discovery
+    - x402
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is an MCP-first discovery registry and server for the agent economy.
+  evidence:
+    - Repo description explicitly identifies it as an 'MCP server + x402 Discovery Hub'.
+    - README provides specific MCP tool definitions for discovery, comparison, and market intelligence.
+    - Provides direct configuration for adding the server to Claude Desktop and Cursor.
+placement:
+  primary_category: mcp
+  section: Registries & Discovery
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.906Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:37:09.858Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

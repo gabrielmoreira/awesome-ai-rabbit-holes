@@ -1,0 +1,96 @@
+id: github__carloshpdoc__memorydetective
+kind: github-repo
+name: memorydetective
+canonical_url: https://github.com/carloshpdoc/memorydetective
+identity:
+  github_repo: carloshpdoc/memorydetective
+provenance:
+  discoveries:
+    - id: discovery__github__carloshpdoc__memorydetective__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: carloshpdoc/memorydetective
+        extracted_url: https://github.com/carloshpdoc/memorydetective
+        surrounding_text: "- [carloshpdoc/memorydetective](https://github.com/carloshpdoc/memorydetective) [![carloshpdoc/memorydetective MCP server](https://glama.ai/mcp/servers/carloshpdoc/memorydetective/badges/score.svg)](https://glama.ai/mcp/servers/carloshpdoc/memorydetective) 📇 🏠 🍎 - iOS leak hunting and performance investigation. Reads `.memgraph` (`leaks(1)`) and `.trace` (`xctrace`) files, classifies retain cycles against a 34-pattern catalog (SwiftUI, Combine, Swift Concurrency, UIKit, Core Animation, Core Data, SwiftData, RxSwift, Realm), surfaces a Swift `fixTemplate` snippet for each match, and bridges to source via SourceKit-LSP. Single-call build+boot+launch fixes the macOS 26.x `leaks --outputGraph` regression; `replayScenario` + `captureScenarioState` close the verify-fix loop. 31 MCP tools, 34 catalog resources, 5 investigation prompts. CI-gateable via `verifyFix` and `compareTracesByPattern`. Apache 2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-01T12:58:28Z"
+    pushed_at: "2026-05-25T18:53:35Z"
+    description: MCP server for iOS leak hunting and performance investigation. 28 MCP tools, 34-pattern retain-cycle classifier with Swift fixTemplate snippets, compareTracesByPattern for CI gating, SourceKit-LSP source bridging. Reads .memgraph and .trace files; macOS only.
+    homepage: https://www.npmjs.com/package/memorydetective
+    topics:
+      - claude-code
+      - combine
+      - instruments
+      - ios
+      - mcp
+      - memgraph
+      - memory-leak
+      - model-context-protocol
+      - performance
+      - retain-cycle
+      - swift
+      - swiftui
+      - xcode
+      - xctrace
+    last_checked_at: "2026-05-28T05:28:22.885Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.885Z"
+      bytes: 46505
+insights:
+  summary: An MCP server for diagnosing iOS memory leaks and performance regressions using specialized Swift-centric pattern recognition.
+  why_it_matters: It allows iOS developers to investigate complex retain cycles and MetricKit payloads directly within their AI chat interface without manually navigating Xcode Instruments.
+  mental_damage: Because nothing says 'modern development' like delegating the hunt for a single retain cycle to a language model while you stare blankly at the chat window.
+  tags:
+    - ios
+    - mcp
+    - swift
+    - debugging
+    - performance
+  confidence: high
+curation:
+  status: included
+  reason: The project's core identity and value proposition is a collection of specialized MCP tools for a specific domain (iOS performance).
+  evidence:
+    - Explicitly defined as an MCP server in the repo description
+    - Provides a specific set of 42 MCP tools for memory and performance investigation
+    - Integrates via the Model Context Protocol with clients like Claude Code and Cursor
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.885Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:36:57.156Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

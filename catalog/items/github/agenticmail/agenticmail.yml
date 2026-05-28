@@ -1,0 +1,102 @@
+id: github__agenticmail__agenticmail
+kind: github-repo
+name: agenticmail
+canonical_url: https://github.com/agenticmail/agenticmail
+identity:
+  github_repo: agenticmail/agenticmail
+provenance:
+  discoveries:
+    - id: discovery__github__agenticmail__agenticmail__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: agenticmail/agenticmail
+        extracted_url: https://github.com/agenticmail/agenticmail
+        surrounding_text: "- [agenticmail/agenticmail](https://github.com/agenticmail/agenticmail) [![agenticmail/agenticmail MCP server](https://glama.ai/mcp/servers/agenticmail/agenticmail/badges/score.svg)](https://glama.ai/mcp/servers/agenticmail/agenticmail) 📇 🏠 🍎 🪟 🐧 - Real email and SMS for AI agents. Run a local mail server with disposable inboxes, send/receive real email, fetch verification codes, and drive a real inbox — all from your machine, no third-party email API. Install with `npx @agenticmail/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 133
+    forks: 23
+    license: MIT
+    archived: false
+    created_at: "2026-02-14T08:07:52Z"
+    pushed_at: "2026-05-22T20:29:37Z"
+    description: Email, SMS & phone-call infrastructure for AI agents — send and receive real email and text messages, and place agent-driven outbound voice calls, all programmatically
+    homepage: https://www.npmjs.com/package/agenticmail
+    topics:
+      - agent
+      - agent-email
+      - agent-sms
+      - ai
+      - ai-agent
+      - claude-code
+      - claude-code-plugin
+      - claudemcp
+      - email
+      - google-voice
+      - imap
+      - mcp
+      - mcp-server
+      - messaging
+      - model-context-protocol
+      - openclaw
+      - phone
+      - sms
+      - smtp
+      - typescript
+    last_checked_at: "2026-05-28T05:28:15.013Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:15.013Z"
+      bytes: 78339
+insights:
+  summary: Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls.
+  why_it_matters: It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
+  mental_damage: We are officially one step away from your agent calling your landlord to negotiate your lease.
+  tags:
+    - agents
+    - mcp
+    - communication
+    - sms
+    - email
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is augmenting existing coding assistants with real-world communication capabilities via MCP and CLI.
+  evidence:
+    - Repo description defines it as email, SMS, and phone-call infrastructure for agents.
+    - README includes specialized installation instructions specifically for Claude Code agents.
+    - Topics include 'claude-code-plugin' and 'mcp-server'.
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.817Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:15.013Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:34:48.252Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

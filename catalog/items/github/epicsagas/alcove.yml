@@ -24,13 +24,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6
+    stars: 7
     forks: 2
     license: Apache-2.0
     archived: false
     created_at: "2026-03-06T11:51:31Z"
-    pushed_at: "2026-05-16T11:03:11Z"
-    description: MCP server that gives AI coding agents on-demand access to your private project docs — without dumping everything into the context window, without leaking docs into public repos, and without per-project config for every agent you use.
+    pushed_at: "2026-05-27T12:20:54Z"
+    description: Alcove is an MCP server that gives AI coding agents on-demand access to your private project docs — BM25 + vector hybrid search for precision retrieval, tree-sitter code indexing so agents understand your codebase structure, and policy enforcement for doc consistency.
     homepage: https://crates.io/crates/alcove
     topics:
       - ai-agent
@@ -41,10 +41,10 @@ metadata:
       - mcp-server
       - privacy
       - rust
-    last_checked_at: "2026-05-18T05:26:37.091Z"
+    last_checked_at: "2026-05-28T05:28:25.985Z"
     readme:
-      fetched_at: "2026-05-18T05:26:37.091Z"
-      bytes: 31517
+      fetched_at: "2026-05-28T05:28:25.985Z"
+      bytes: 35095
 insights:
   summary: An MCP server that provides AI coding agents with on-demand, search-based access to private project documentation using BM25 ranking.
   why_it_matters: It prevents context window bloat and documentation leaks by letting agents search for specific docs only when needed, rather than injecting entire knowledge bases into every prompt.
@@ -77,7 +77,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-18T05:26:37.091Z"
+    updated_at: "2026-05-28T05:28:25.985Z"
     cause: null
     next_retry_at: null
   categorize:

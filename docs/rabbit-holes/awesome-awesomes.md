@@ -67,7 +67,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `image-generation` `dataset` `gemini` `multimodal` `awesome-list`
   </details>
 
-- **[Awesome Production Machine Learning](https://github.com/ethicalml/awesome-production-machine-learning)** `⭐ 20.5k` `updated ≤30d` A curated list of open source libraries for deploying, monitoring, versioning, scaling, and securing production machine learning systems. <details><summary>More about</summary>
+- **[Awesome Production Machine Learning](https://github.com/ethicalml/awesome-production-machine-learning)** `⭐ 20.6k` `updated ≤30d` A curated list of open source libraries for deploying, monitoring, versioning, scaling, and securing production machine learning systems. <details><summary>More about</summary>
 
   It provides a structured map of the MLOps ecosystem, helping developers cut through the noise to find tools for model serving, feature stores, and evaluation.
 
@@ -94,7 +94,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `open-source` `licensing` `model-directory`
   </details>
 
-- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.3k` `updated ≤30d` A curated, community-maintained awesome list of tools, projects, ports, templates, and learning resources built around the LangChain framework. <details><summary>More about</summary>
+- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.3k` `updated ≤90d` A curated, community-maintained awesome list of tools, projects, ports, templates, and learning resources built around the LangChain framework. <details><summary>More about</summary>
 
   It serves as a centralized ecosystem map for developers looking to discover LangChain-compatible libraries, agents, and deployment tools across multiple languages.
 
@@ -184,7 +184,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `discovery`
   </details>
 
-- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤30d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
+- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤90d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
 
   It provides developers and researchers with a structured, navigable index of specialized medical models and evaluation resources to accelerate building healthcare AI applications.
 
@@ -247,7 +247,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `langgraph` `ecosystem`
   </details>
 
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.7k` `updated ≤30d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.7k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
 
   It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
 
@@ -328,7 +328,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 863` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
+- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 865` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
 
   It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
 
@@ -355,7 +355,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 716` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 721` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
 
   It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
 
@@ -409,7 +409,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `ai-apps` `directory` `open-source` `typescript`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 165` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 172` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
 
   It acts as a central map for developers trying to shift from vibe-coding to disciplined, specification-first workflows that align AI agents with business requirements.
 

@@ -1,0 +1,78 @@
+id: permisapi__fr
+kind: website
+name: permisapi.fr
+canonical_url: https://permisapi.fr
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__permisapi__fr__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: permisapi.fr
+        extracted_url: https://permisapi.fr
+        surrounding_text: "- [Evan-Crx/permisapi-mcp](https://github.com/Evan-Crx/permisapi-mcp) [![Evan-Crx/permisapi-mcp MCP server](https://glama.ai/mcp/servers/Evan-Crx/permisapi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Evan-Crx/permisapi-mcp) 🐍 🏠 🍎 🪟 🐧 - 7 tools for French open-data building permits (Sitadel, 311k rows, ~2M permits/year, Etalab license). Search, details, DVF transactions cross-ref, real estate dealer opportunity score, PLU urban zoning, BRGM natural and technological risks, and a Vue 360 composite that fans out 6 sub-fetches in one tool call. Powered by [permisapi.fr](https://permisapi.fr). Plan Free covers basic search and details, Pro+ unlocks the enrichments. Install: `pip install permisapi-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An API and MCP server providing French construction permit data, urban zoning, and real estate opportunity scores.
+  why_it_matters: It enables developers to bring granular, domain-specific French urban planning and construction data directly into the context of AI assistants like Claude or Cursor via MCP.
+  mental_damage: Because your LLM definitely needs to understand French 'zonage PLU' to help you debug a React component.
+  tags:
+    - mcp
+    - real-estate
+    - api
+    - data-platform
+    - france
+  confidence: high
+curation:
+  status: included
+  reason: The tool provides a specialized MCP server that integrates domain-specific French urban and real estate data into AI coding workflows.
+  evidence:
+    - Provides an official MCP connector via 'pip install permisapi-mcp' for Claude, ChatGPT, and Cursor.
+    - Offers a REST API covering 1.2M+ construction permits, urban zoning, and environmental risks in France.
+    - Categorized in 'awesome-mcp-servers' under Data Platforms.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.820Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:42:39.457Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

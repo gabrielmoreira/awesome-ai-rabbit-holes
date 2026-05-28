@@ -58,7 +58,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `inference` `pagedattention`
   </details>
 
-- **[gpt4all](https://github.com/nomic-ai/gpt4all)** `⭐ 77.4k` `updated ≤1y` GPT4All is an open-source desktop application and Python client for running local LLMs privately on everyday laptops and desktops without API calls or GPUs. <details><summary>More about</summary>
+- **[gpt4all](https://github.com/nomic-ai/gpt4all)** `⭐ 77.4k` `updated >1y` GPT4All is an open-source desktop application and Python client for running local LLMs privately on everyday laptops and desktops without API calls or GPUs. <details><summary>More about</summary>
 
   It provides developers with a straightforward way to run and experiment with local models via a desktop UI or an OpenAI-compatible API endpoint for local-first development.
 
@@ -400,15 +400,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `graphrag` `local-llm` `rag` `knowledge-graph` `ollama`
   </details>
 
-- **[LLMFarm](https://github.com/guinmoon/llmfarm)** `⭐ 2k` `updated ≤180d` LLMFarm is an iOS and macOS app that runs large language models locally on-device using the GGML library, supporting models like LLaMA, Starcoder, and Gemma. <details><summary>More about</summary>
-
-  It lets developers benchmark, test RAG setups, and run coding models like Starcoder directly on Apple hardware without cloud dependencies.
-
-  _Now you can spend your afternoon tweaking sampling parameters on your iPhone to see if Mixtral can finally debug your CI pipeline offline._
-
-  `local-ai` `ios` `macos` `offline` `ggml`
-  </details>
-
 - **[opendan-personal-ai-os](https://github.com/fiatrete/opendan-personal-ai-os)** `⭐ 2k` `updated ≤90d` OpenDAN is an open-source Personal AI Operating System that consolidates various AI modules, supports local model execution via Docker, and enables users to build and run multi-agent workflows for personal tasks. <details><summary>More about</summary>
 
   It provides a self-hosted, Docker-based environment for developers to experiment with local LLMs and multi-agent collaboration without relying solely on external APIs.
@@ -416,6 +407,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Now you can self-host an operating system to manage your smart toaster and English tutor, ensuring your local hardware is as overwhelmed as your production Kubernetes cluster._
 
   `local-ai` `multi-agent` `self-hosted` `personal-os`
+  </details>
+
+- **[LLMFarm](https://github.com/guinmoon/llmfarm)** `⭐ 2k` `updated ≤180d` LLMFarm is an iOS and macOS app that runs large language models locally on-device using the GGML library, supporting models like LLaMA, Starcoder, and Gemma. <details><summary>More about</summary>
+
+  It lets developers benchmark, test RAG setups, and run coding models like Starcoder directly on Apple hardware without cloud dependencies.
+
+  _Now you can spend your afternoon tweaking sampling parameters on your iPhone to see if Mixtral can finally debug your CI pipeline offline._
+
+  `local-ai` `ios` `macos` `offline` `ggml`
   </details>
 
 - **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 1.7k` `updated ≤30d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
@@ -454,7 +454,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `macos` `llama` `swiftui` `desktop`
   </details>
 
-- **[LlamaBarn](https://github.com/ggml-org/llamabarn)** `⭐ 1.2k` `updated ≤30d` A lightweight macOS menu bar app that runs local LLMs via llama.cpp and exposes them through a standard OpenAI-compatible API server. <details><summary>More about</summary>
+- **[LlamaBarn](https://github.com/ggml-org/llamabarn)** `⭐ 1.2k` `updated ≤90d` A lightweight macOS menu bar app that runs local LLMs via llama.cpp and exposes them through a standard OpenAI-compatible API server. <details><summary>More about</summary>
 
   It gives developers a zero-config, native way to run and manage local models that slot directly into editors, CLI tools, and coding agents they already use.
 

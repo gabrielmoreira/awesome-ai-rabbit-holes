@@ -1,0 +1,78 @@
+id: x402station__io
+kind: website
+name: x402station.io
+canonical_url: https://x402station.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__x402station__io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: x402station.io
+        extracted_url: https://x402station.io
+        surrounding_text: "- [sF1nX/x402station](https://github.com/sF1nX/x402station-mcp) [![sF1nX/x402station-mcp MCP server](https://glama.ai/mcp/servers/sF1nX/x402station-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp) 📇 ☁️ - Preflight by [x402station.io](https://x402station.io) — infrastructure for x402 agentic commerce. Six capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every `PAYMENT-SIGNATURE` to detect decoys, zombie endpoints, dead services, and price traps. Tools: `preflight` ($0.001), `forensics` ($0.001), `catalog_decoys` ($0.005), `alternatives` ($0.005), `whats_new` ($0.001), `buy_credits` ($0.50 = 1000 prepaid), `watch_subscribe` ($0.01) + free `credits_status`/`watch_status`/`watch_unsubscribe`. Plus free anonymous `preflight-trial` for self-test. Probes ~50k endpoints on agentic.market every 10 min. Open dataset: [huggingface.co/datasets/x402station/preflight-dataset-v0_1](https://huggingface.co/datasets/x402station/preflight-dataset-v0_1). `npx -y x402station-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: x402station.io is an independent risk signal layer providing endpoint evidence for x402 agentic commerce before payment authorization.
+  why_it_matters: It gives AI agents verifiable, real-time risk signals to make safer autonomous payment decisions in agentic workflows.
+  mental_damage: Watching your AI agent hesitate over a payment because the risk layer just flagged a zombie endpoint is the new form of checkout anxiety.
+  tags:
+    - agentic-commerce
+    - risk-signals
+    - mcp
+    - x402
+    - payments
+  confidence: medium
+curation:
+  status: included
+  reason: x402station.io is positioned as an MCP-compatible risk signal server that provides real-time endpoint evidence for agentic commerce, making MCP its core product identity rather than a compatibility layer.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators' as an independent risk signal layer for x402 agentic commerce
+    - "Self-described as 'the independent risk signal layer for x402 agentic commerce: endpoint evidence before agents or policy engines authorize payment'"
+    - Provides live probe streams, cached snapshots, and public reports on endpoint health, zombies, errors, and price traps for payment authorization decisions
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.821Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:43:07.869Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

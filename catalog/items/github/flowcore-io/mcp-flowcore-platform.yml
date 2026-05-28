@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:54.943Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-28T05:28:30.685Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for flowcore-io/mcp-flowcore-platform
     next_retry_at: null
   categorize:
     status: done

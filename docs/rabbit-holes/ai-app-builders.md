@@ -4,7 +4,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 72.6k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 72.7k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
 
   It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
 

@@ -1,0 +1,96 @@
+id: github__ejentum__ejentum-mcp
+kind: github-repo
+name: ejentum-mcp
+canonical_url: https://github.com/ejentum/ejentum-mcp
+identity:
+  github_repo: ejentum/ejentum-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ejentum__ejentum-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: ejentum/ejentum-mcp
+        extracted_url: https://github.com/ejentum/ejentum-mcp
+        surrounding_text: "- [ejentum/ejentum-mcp](https://github.com/ejentum/ejentum-mcp) [![ejentum/ejentum-mcp MCP server](https://glama.ai/mcp/servers/ejentum/ejentum-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ejentum/ejentum-mcp) 📇 🏠 - MCP server with reasoning, code, anti-deception, and memory tools for AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 3
+    license: MIT
+    archived: false
+    created_at: "2026-05-05T11:53:25Z"
+    pushed_at: "2026-05-23T00:59:36Z"
+    description: MCP server for the Ejentum Logic API. Exposes the four cognitive harnesses (reasoning, code, anti-deception, memory) as MCP tools any agentic client can call.
+    homepage: null
+    topics:
+      - agentic-ai
+      - ai-reliability
+      - anthropic
+      - anti-deception
+      - claude
+      - code-review
+      - cognitive-scaffold
+      - ejentum
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - reasoning-harness
+      - typescript
+    last_checked_at: "2026-05-28T05:28:24.587Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:24.587Z"
+      bytes: 15213
+insights:
+  summary: An MCP server that exposes Ejentum's reasoning, code, anti-deception, and memory 'cognitive harnesses' to agentic clients.
+  why_it_matters: It provides structured reasoning topologies and memory tools to act as a persistent attention anchor, preventing agent reasoning decay in long-context workflows.
+  mental_damage: Because your agent's reasoning was so prone to decay that it required an external cognitive scaffold just to stay on task.
+  tags:
+    - mcp
+    - reasoning
+    - context-engineering
+    - agentic-ai
+    - memory
+  confidence: high
+curation:
+  status: included
+  reason: The core novelty is the reasoning topology and memory infrastructure used to shape and anchor agent context, which according to the decision ladder, takes precedence over its identity as an MCP host integration.
+  evidence:
+    - Exposes four cognitive harnesses (reasoning, code, anti-deception, memory) as tools
+    - Uses reasoning topologies to act as a persistent attention anchor for long-context execution chains
+    - Functions as a thin wrapper over the Ejentum Logic API, delivered via the Model Context Protocol
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:24.587Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:40:01.044Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

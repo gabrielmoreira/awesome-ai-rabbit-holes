@@ -1,0 +1,74 @@
+id: huggingface__co__datasets__x402station__preflight__dataset__v0__1
+kind: website
+name: preflight-dataset-v0_1
+canonical_url: https://huggingface.co/datasets/x402station/preflight-dataset-v0_1
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__datasets__x402station__preflight__dataset__v0__1__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: huggingface.co/datasets/x402station/preflight-dataset-v0_1
+        extracted_url: https://huggingface.co/datasets/x402station/preflight-dataset-v0_1
+        surrounding_text: "- [sF1nX/x402station](https://github.com/sF1nX/x402station-mcp) [![sF1nX/x402station-mcp MCP server](https://glama.ai/mcp/servers/sF1nX/x402station-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp) 📇 ☁️ - Preflight by [x402station.io](https://x402station.io) — infrastructure for x402 agentic commerce. Six capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every `PAYMENT-SIGNATURE` to detect decoys, zombie endpoints, dead services, and price traps. Tools: `preflight` ($0.001), `forensics` ($0.001), `catalog_decoys` ($0.005), `alternatives` ($0.005), `whats_new` ($0.001), `buy_credits` ($0.50 = 1000 prepaid), `watch_subscribe` ($0.01) + free `credits_status`/`watch_status`/`watch_unsubscribe`. Plus free anonymous `preflight-trial` for self-test. Probes ~50k endpoints on agentic.market every 10 min. Open dataset: [huggingface.co/datasets/x402station/preflight-dataset-v0_1](https://huggingface.co/datasets/x402station/preflight-dataset-v0_1). `npx -y x402station-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A dataset hosted on Hugging Face.
+  why_it_matters: Datasets provide the raw material necessary for training, fine-tuning, and evaluating AI models and agent behaviors.
+  mental_damage: Spending more time cleaning and versioning CSVs than actually writing code.
+  tags:
+    - dataset
+    - huggingface
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a data artifact (a dataset) rather than a functional developer tool, framework, or agent.
+  evidence:
+    - URL indicates the project is a Hugging Face dataset repository
+    - No README or description provided to suggest a tool-based identity or developer-facing product
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.820Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:41:11.669Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

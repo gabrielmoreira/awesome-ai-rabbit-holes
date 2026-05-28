@@ -1,0 +1,90 @@
+id: github__deficlow__zipp-mcp
+kind: github-repo
+name: zipp-mcp
+canonical_url: https://github.com/deficlow/zipp-mcp
+identity:
+  github_repo: deficlow/zipp-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__deficlow__zipp-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: deficlow/zipp-mcp
+        extracted_url: https://github.com/deficlow/zipp-mcp
+        surrounding_text: "- [deficlow/zipp-mcp](https://github.com/deficlow/zipp-mcp) [![deficlow/zipp-mcp MCP server](https://glama.ai/mcp/servers/deficlow/zipp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deficlow/zipp-mcp) 🐍 ☁️ - Multi-language crypto news for AI assistants — editorial summaries with sentiment labels (BULLISH/NEUTRAL/BEARISH) and importance scores (0–100). 6 tools across 8 languages, every story credits the original publisher. Install: `uvx zipp-mcp` or `ghcr.io/deficlow/zipp-mcp`. Public Streamable HTTP endpoint at `https://zippfeed.com/mcp/`; listed on the [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=zipp)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-13T21:14:46Z"
+    pushed_at: "2026-05-17T01:50:43Z"
+    description: "Multi-language crypto news MCP server (hosted) — sentiment + importance scoring across 8 languages. Endpoint: https://zippfeed.com/mcp/"
+    homepage: https://zippfeed.com
+    topics:
+      - anthropic
+      - claude
+      - crypto
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - news
+      - streamable-http
+    last_checked_at: "2026-05-28T05:28:23.366Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:23.366Z"
+      bytes: 13286
+insights:
+  summary: A Model Context Protocol (MCP) server that provides multi-language crypto news, editorial sentiment, and importance scoring.
+  why_it_matters: It enables AI assistants to access real-time, structured financial news and market sentiment directly within their context window.
+  mental_damage: Because the logical conclusion of the AI agent era is definitely letting a LLM make high-stakes financial decisions based on real-time sentiment scores.
+  tags:
+    - mcp
+    - crypto
+    - news
+    - sentiment
+    - finance
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server providing specialized domain-specific data to AI assistants.
+  evidence:
+    - Repo description and README explicitly identify it as an MCP server
+    - Provides domain-specific signals like BULLISH/BEARISH sentiment and importance scores
+    - Implements the Model Context Protocol for integration with clients like Claude Desktop
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:23.366Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:37:47.177Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

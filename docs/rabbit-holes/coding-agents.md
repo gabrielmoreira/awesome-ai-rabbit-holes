@@ -13,7 +13,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `rust` `anthropic`
   </details>
 
-- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 163.2k` `updated ≤30d` An open-source AI coding agent that runs in the terminal and as a desktop app, designed to read, plan, edit, and execute code across a repository. <details><summary>More about</summary>
+- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 166.3k` `updated ≤30d` An open-source AI coding agent that runs in the terminal and as a desktop app, designed to read, plan, edit, and execute code across a repository. <details><summary>More about</summary>
 
   It offers a capable, Claude Code-like workflow in an open-source package with multi-agent modes (build, plan, general) and broad installation options.
 
@@ -31,7 +31,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `self-improving` `multi-model` `terminal`
   </details>
 
-- **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 125.3k` `updated ≤30d` Claude Code is a terminal-native AI coding agent that reads your codebase, executes routine tasks, explains complex code, and handles git workflows via natural language commands. <details><summary>More about</summary>
+- **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 127.1k` `updated ≤30d` Claude Code is a terminal-native AI coding agent that reads your codebase, executes routine tasks, explains complex code, and handles git workflows via natural language commands. <details><summary>More about</summary>
 
   It lets developers offload boilerplate, code navigation, and git rituals to an agent that already lives in the shell they never leave.
 
@@ -112,7 +112,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `monorepo` `llm-api` `agent-runtime`
   </details>
 
-- **[Goose](https://github.com/aaif-goose/goose)** `⭐ 45.6k` `updated ≤30d` An open-source, extensible AI agent available as a desktop app, CLI, and API that installs, executes, edits, and tests code using any LLM. <details><summary>More about</summary>
+- **[Goose](https://github.com/aaif-goose/goose)** `⭐ 46k` `updated ≤30d` An open-source, extensible AI agent available as a desktop app, CLI, and API that installs, executes, edits, and tests code using any LLM. <details><summary>More about</summary>
 
   Developers can run a general-purpose coding agent locally that integrates with 15+ LLM providers and 70+ MCP extensions directly from the terminal or desktop.
 
@@ -121,7 +121,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `desktop` `mcp` `local-agent` `rust`
   </details>
 
-- **[Aider](https://github.com/aider-ai/aider)** `⭐ 45.1k` `updated ≤30d` Aider is a terminal-based AI pair programming tool that connects to various LLMs to read, edit, and manage codebases with automatic git integration. <details><summary>More about</summary>
+- **[Aider](https://github.com/aider-ai/aider)** `⭐ 45.4k` `updated ≤30d` Aider is a terminal-based AI pair programming tool that connects to various LLMs to read, edit, and manage codebases with automatic git integration. <details><summary>More about</summary>
 
   It allows developers to delegate multi-file code changes, testing, and linting to an LLM directly from the command line while maintaining sensible git diffs.
 
@@ -274,7 +274,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `agentic-ai` `coding-agent` `open-source` `local-llm` `swe-bench`
   </details>
 
-- **[SWE Agent](https://github.com/swe-agent/swe-agent)** `⭐ 19.1k` `updated ≤30d` SWE-agent is an autonomous coding agent that connects to your choice of language model to read, edit, and test code in real GitHub repositories, fix issues, or solve cybersecurity and coding challenges. <details><summary>More about</summary>
+- **[SWE Agent](https://github.com/swe-agent/swe-agent)** `⭐ 19.1k` `updated ≤90d` SWE-agent is an autonomous coding agent that connects to your choice of language model to read, edit, and test code in real GitHub repositories, fix issues, or solve cybersecurity and coding challenges. <details><summary>More about</summary>
 
   It lets developers delegate full issue-to-PR workflows to an LM with state-of-the-art SWE-bench results, while remaining configurable and model-agnostic.
 
@@ -301,7 +301,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `data` `agents` `sql` `rag` `analysis`
   </details>
 
-- **[Agent Zero](https://github.com/agent0ai/agent-zero)** `⭐ 17.7k` `updated ≤30d` Agent Zero is a dynamic, extensible AI agentic framework that runs in a full Linux environment, allowing agents to write code, execute commands, browse the web, and create custom tools to solve complex tasks. <details><summary>More about</summary>
+- **[Agent Zero](https://github.com/agent0ai/agent-zero)** `⭐ 17.8k` `updated ≤30d` Agent Zero is a dynamic, extensible AI agentic framework that runs in a full Linux environment, allowing agents to write code, execute commands, browse the web, and create custom tools to solve complex tasks. <details><summary>More about</summary>
 
   It provides developers with a transparent, inspectable agent environment that can semi-autonomously handle system-level tasks, file operations, and even document creation via LibreOffice integration.
 
@@ -607,7 +607,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `multi-agent` `coding-agent` `terminal` `codex`
   </details>
 
-- **[Devon](https://github.com/entropy-research/devon)** `⭐ 3.4k` `updated ≤1y` Devon is an open-source, terminal and UI-based AI pair programmer that plans changes, edits multiple files, writes tests, and debugs code across a repository using models from Anthropic, OpenAI, Groq, or local Ollama. <details><summary>More about</summary>
+- **[Devon](https://github.com/entropy-research/devon)** `⭐ 3.4k` `updated >1y` Devon is an open-source, terminal and UI-based AI pair programmer that plans changes, edits multiple files, writes tests, and debugs code across a repository using models from Anthropic, OpenAI, Groq, or local Ollama. <details><summary>More about</summary>
 
   It gives developers a fully local or self-hostable alternative to hosted coding agents like Claude Code, with a plugin system and multi-model support for repo-wide tasks.
 
@@ -841,7 +841,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `terminal` `coding-agents` `worktree` `orchestration`
   </details>
 
-- **[factory](https://github.com/factory-ai/factory)** `⭐ 840` `updated ≤30d` Factory (Droid) is a closed-source, agent-native development platform that assists with coding tasks across CLI, web, Slack/Teams, Linear/Jira, and mobile interfaces. <details><summary>More about</summary>
+- **[factory](https://github.com/factory-ai/factory)** `⭐ 909` `updated ≤30d` Factory (Droid) is a closed-source, agent-native development platform that assists with coding tasks across CLI, web, Slack/Teams, Linear/Jira, and mobile interfaces. <details><summary>More about</summary>
 
   It provides a multi-surface coding agent that developers can delegate repo work to via terminal, IDE extensions, or project management integrations.
 
@@ -895,6 +895,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `local-ai` `cli` `python` `open-source`
   </details>
 
+- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 456` `updated ≤30d` Aeon is an autonomous agent framework that runs unattended on a schedule, leveraging skills like deep research and PR reviews to complete tasks without human approval loops. <details><summary>More about</summary>
+
+  It lets developers configure recurring tasks—such as morning briefs, security scans, and market monitoring—to run autonomously on GitHub Actions without requiring interactive supervision.
+
+  _We have finally built the 'set it and forget it' agent, which means the only thing left to debug at 3 AM is why the agent decided your production PR was a suitable place to practice its autonomous market analysis._
+
+  `autonomous-agents` `scheduled-tasks` `claude-code` `github-actions`
+  </details>
+
 - **[Yunjue-Agent](https://github.com/yunjuetech/yunjue-agent)** `⭐ 422` `updated ≤90d` Yunjue Agent is a self-evolving agent system for open-ended tasks that creates and reuses tools to execute user-provided skills. <details><summary>More about</summary>
 
   It lets developers encode expertise as SKILL.md files and have the agent autonomously build the necessary tools to execute them, turning documented knowledge into functional automation.
@@ -902,15 +911,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Another agent that promises to 'evolve' while you wait for its Python dependencies to resolve on macOS._
 
   `agent` `self-evolving` `tool-use` `skill-based`
-  </details>
-
-- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 415` `updated ≤30d` Aeon is an autonomous agent framework that runs unattended on a schedule, leveraging skills like deep research and PR reviews to complete tasks without human approval loops. <details><summary>More about</summary>
-
-  It lets developers configure recurring tasks—such as morning briefs, security scans, and market monitoring—to run autonomously on GitHub Actions without requiring interactive supervision.
-
-  _We have finally built the 'set it and forget it' agent, which means the only thing left to debug at 3 AM is why the agent decided your production PR was a suitable place to practice its autonomous market analysis._
-
-  `autonomous-agents` `scheduled-tasks` `claude-code` `github-actions`
   </details>
 
 - **[TermGPT](https://github.com/sentdex/termgpt)** `⭐ 412` `updated >1y` A Python CLI tool that uses GPT-4 to plan and execute terminal commands to fulfill natural language programming requests. <details><summary>More about</summary>
@@ -1923,6 +1923,15 @@ _These are new or low-traffic entries being watched._
   _Yet another terminal-based companion promising to write your code, provided your admin has already enabled the prerequisite Agents in the Admin Console._
 
   `cli` `coding-agent` `terminal` `tabnine`
+  </details>
+
+- **[TaskBounty](https://www.task-bounty.com)** TaskBounty Autopilot is a subscription service that uses AI agents to fix labeled bugs in connected repositories and delivers verified pull requests via a sandbox-verified workflow. <details><summary>More about</summary>
+
+  It automates bug fixing with end-to-end verification, reducing manual effort on triage and patch validation for development teams.
+
+  _Waking up to AI-generated PRs feels like outsourcing your backlog to a very eager intern who never sleeps but still needs your morning approval._
+
+  `ai-agent` `bug-fixing` `sandbox-verification` `github-integration`
   </details>
 
 - **[TeamoRouter](https://router.teamolab.com)** Teamo Code is a terminal-based CLI wrapper that provides a unified interface to switch between and run the official Claude Code and OpenAI Codex SDKs within one session. <details><summary>More about</summary>

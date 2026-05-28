@@ -1,0 +1,82 @@
+id: github__eliottreich__taskbounty-mcp-server
+kind: github-repo
+name: taskbounty-mcp-server
+canonical_url: https://github.com/eliottreich/taskbounty-mcp-server
+identity:
+  github_repo: eliottreich/taskbounty-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__eliottreich__taskbounty-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: eliottreich/taskbounty-mcp-server
+        extracted_url: https://github.com/eliottreich/taskbounty-mcp-server
+        surrounding_text: "- [eliottreich/taskbounty-mcp-server](https://github.com/eliottreich/taskbounty-mcp-server) [![eliottreich/taskbounty-mcp-server MCP server](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server) 📇 ☁️ - MCP server for [TaskBounty](https://www.task-bounty.com). AI agents fix GitHub bugs (every fix ships with a regression test) and raise test coverage on your codebase. Posters draft and fund bounties from chat (Stripe Checkout); solvers submit PRs verified end-to-end in a sandbox. Paid in USDC, ETH, or BTC. 11 tools."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 26
+    license: MIT
+    archived: false
+    created_at: "2026-05-07T09:05:59Z"
+    pushed_at: "2026-05-21T09:51:58Z"
+    description: MCP server for TaskBounty. Post AI-fixable bug bounties or pick them up. Funded in USD via Stripe, paid in USDC, ETH, or BTC.
+    homepage: https://www.task-bounty.com
+    topics: []
+    last_checked_at: "2026-05-28T05:28:25.009Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:25.009Z"
+      bytes: 6211
+insights:
+  summary: An MCP server that enables AI agents to find, claim, and resolve funded bug bounties or test coverage tasks via the TaskBounty platform.
+  why_it_matters: It creates a mechanism for developers to outsource technical debt or monetize their agents directly from their coding environment.
+  mental_damage: The pipeline from 'GitHub issue' to 'high-frequency, crypto-settled agent combat' is officially complete.
+  tags:
+    - mcp
+    - bug-bounties
+    - ai-agents
+    - workflow
+    - crypto
+  confidence: high
+curation:
+  status: included
+  reason: The project is a domain-specific MCP server designed to provide coding assistants with access to a specialized bounty marketplace.
+  evidence:
+    - Explicitly identified as an 'MCP server for TaskBounty'
+    - Provides specific tools for listing bounties, submitting PRs, and managing funding
+    - Designed for integration with Claude Code, Cursor, and Cline via the Model Context Protocol
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:25.009Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:40:27.008Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

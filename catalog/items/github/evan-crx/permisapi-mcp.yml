@@ -1,0 +1,82 @@
+id: github__evan-crx__permisapi-mcp
+kind: github-repo
+name: permisapi-mcp
+canonical_url: https://github.com/evan-crx/permisapi-mcp
+identity:
+  github_repo: evan-crx/permisapi-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__evan-crx__permisapi-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: Evan-Crx/permisapi-mcp
+        extracted_url: https://github.com/evan-crx/permisapi-mcp
+        surrounding_text: "- [Evan-Crx/permisapi-mcp](https://github.com/Evan-Crx/permisapi-mcp) [![Evan-Crx/permisapi-mcp MCP server](https://glama.ai/mcp/servers/Evan-Crx/permisapi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Evan-Crx/permisapi-mcp) 🐍 🏠 🍎 🪟 🐧 - 7 tools for French open-data building permits (Sitadel, 311k rows, ~2M permits/year, Etalab license). Search, details, DVF transactions cross-ref, real estate dealer opportunity score, PLU urban zoning, BRGM natural and technological risks, and a Vue 360 composite that fans out 6 sub-fetches in one tool call. Powered by [permisapi.fr](https://permisapi.fr). Plan Free covers basic search and details, Pro+ unlocks the enrichments. Install: `pip install permisapi-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-10T14:14:06Z"
+    pushed_at: "2026-05-18T19:44:02Z"
+    description: MCP server officiel pour PermisAPI (1,2 M+ permis de construire FR 2014-2026, Sitadel open data). 10 outils, pip-installable, stdio transport pour Claude Desktop / Cursor / Windsurf.
+    homepage: https://permisapi.fr/mcp
+    topics: []
+    last_checked_at: "2026-05-28T05:28:27.362Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:27.362Z"
+      bytes: 8375
+insights:
+  summary: An MCP server that provides natural language access to over 1.2 million French building permit records.
+  why_it_matters: It enables developers and researchers to query complex urban planning, zoning, and construction data directly through LLM interfaces like Claude or Cursor.
+  mental_damage: Because apparently, the next step in the AI evolution is teaching your coding assistant how to navigate French municipal zoning laws.
+  tags:
+    - mcp
+    - data-access
+    - urban-planning
+    - python
+    - french-data
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server designed to bridge a specific domain dataset (French construction permits) to LLM clients.
+  evidence:
+    - Explicitly described as an 'MCP server officiel pour PermisAPI'
+    - Provides 18 specialized tools for querying construction, zoning, and budget data
+    - Supports both SSE (hosted) and stdio (local) transport for MCP-compatible clients
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:27.362Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:40:37.969Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

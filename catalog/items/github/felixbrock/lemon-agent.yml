@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 344
-    forks: 27
+    forks: 28
     license: MIT
     archived: false
     created_at: "2023-06-26T20:06:40Z"
@@ -32,20 +32,27 @@ metadata:
     description: Plan-Validate-Solve (PVS) Agent for accurate, reliable and reproducable workflow automation
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:43:52.737Z"
+    last_checked_at: "2026-05-28T05:28:29.399Z"
     readme:
-      fetched_at: "2026-05-06T22:43:52.737Z"
+      fetched_at: "2026-05-28T05:28:29.399Z"
       bytes: 7083
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A standalone Plan-Validate-Solve agent that automates read/write workflows across business tools like Airtable, Hubspot, Notion, Discord, and GitHub via a planner-solver architecture.
+  why_it_matters: It pitches a multi-agent approach to reduce hallucinations in tool-use workflows by separating planning from execution and inserting human approval gates.
+  mental_damage: Nothing says 'reliable automation' quite like a two-agent system that pauses for human sign-off at every step and hasn't received a patch since 2023.
+  tags:
+    - workflow-automation
+    - multi-agent
+    - planner-solver
+    - unmaintained
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is a general SaaS-workflow automation agent for business tools, not a developer-specific coding assistant, IDE, framework, or app builder, and the authors explicitly warn that it is unmaintained.
+  evidence:
+    - "README disclaimer: 'This repo is currently not under active maintenance. Things might break unexpectedly!' with last pushed_at of 2023-09-25."
+    - Core value proposition centers on business tools (Airtable, Hubspot, Discord, Notion) rather than repo editing, code generation, or app scaffolding.
+    - Repo description frames it as 'workflow automation', not a coding agent, orchestration platform, or developer tool.
 placement:
   primary_category: null
   section: null
@@ -60,16 +67,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:43:52.737Z"
+    updated_at: "2026-05-28T05:28:29.399Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-05-25T05:35:59.053Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-28T05:29:22.900Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

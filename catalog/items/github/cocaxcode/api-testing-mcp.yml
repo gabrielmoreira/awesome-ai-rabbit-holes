@@ -1,0 +1,99 @@
+id: github__cocaxcode__api-testing-mcp
+kind: github-repo
+name: api-testing-mcp
+canonical_url: https://github.com/cocaxcode/api-testing-mcp
+identity:
+  github_repo: cocaxcode/api-testing-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cocaxcode__api-testing-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: cocaxcode/api-testing-mcp
+        extracted_url: https://github.com/cocaxcode/api-testing-mcp
+        surrounding_text: "- [cocaxcode/api-testing-mcp](https://github.com/cocaxcode/api-testing-mcp) [![cocaxcode/api-testing-mcp MCP server](https://glama.ai/mcp/servers/cocaxcode/api-testing-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cocaxcode/api-testing-mcp) 📇 🏠 🍎 🪟 🐧 - The most complete API testing MCP — Postman inside your AI assistant. Per-project environment groups with {{variable}} interpolation, saved collections, multi-step flows with response extraction, assertions, load testing, and OpenAPI mock generation. 42 tools, zero cloud account needed."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-14T01:19:29Z"
+    pushed_at: "2026-05-02T18:11:17Z"
+    description: "The most complete MCP server for API testing. 27 tools: requests, assertions, flows, OpenAPI, mock data, load testing, collections, environments, cURL export, response diffing. Zero config, zero dependencies."
+    homepage: https://www.npmjs.com/package/@cocaxcode/api-testing-mcp
+    topics:
+      - ai-tools
+      - api-testing
+      - claude
+      - codex
+      - cursor
+      - gemini
+      - http-client
+      - load-testing
+      - mcp
+      - mcp-server
+      - mock-data
+      - model-context-protocol
+      - openapi
+      - postman-alternative
+      - rest-api
+      - swagger
+      - typescript
+    last_checked_at: "2026-05-28T05:28:23.084Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:23.084Z"
+      bytes: 20790
+insights:
+  summary: An MCP server providing a suite of 42 tools for API testing, schema validation, and load testing.
+  why_it_matters: It allows AI assistants to perform complex API workflows, from schema-aware requests to multi-step test flows, entirely through natural language.
+  mental_damage: Another layer of abstraction to ensure our agents can fail our API tests even faster.
+  tags:
+    - mcp
+    - api-testing
+    - openapi
+    - automation
+    - testing
+  confidence: high
+curation:
+  status: included
+  reason: The tool is primarily a domain-specific MCP server designed to bring API testing capabilities to any MCP-compatible agent or editor.
+  evidence:
+    - Repo description explicitly identifies it as an MCP server for API testing
+    - README details 42 specialized tools including OpenAPI support and load testing
+    - Installation is strictly via MCP client configurations for Claude, Cursor, and Windsurf
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:23.084Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:37:32.695Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

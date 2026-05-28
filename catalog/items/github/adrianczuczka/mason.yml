@@ -1,0 +1,82 @@
+id: github__adrianczuczka__mason
+kind: github-repo
+name: mason
+canonical_url: https://github.com/adrianczuczka/mason
+identity:
+  github_repo: adrianczuczka/mason
+provenance:
+  discoveries:
+    - id: discovery__github__adrianczuczka__mason__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: adrianczuczka/mason
+        extracted_url: https://github.com/adrianczuczka/mason
+        surrounding_text: "- [adrianczuczka/mason](https://github.com/adrianczuczka/mason) [![adrianczuczka/mason MCP server](https://glama.ai/mcp/servers/adrianczuczka/mason/badges/score.svg)](https://glama.ai/mcp/servers/adrianczuczka/mason) 📇 🏠 🍎 🪟 🐧 - Context engineering MCP server. Generates CLAUDE.md from git history and architectural file sampling, and maintains a concept-map snapshot of features/flows → files so agents can skip grep/glob on repeat queries."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-07T13:54:31Z"
+    pushed_at: "2026-05-20T08:40:01Z"
+    description: Mason builds context for LLMs — smart file sampling, concept maps, and change impact analysis. MCP server + CLI.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-05-28T05:28:14.076Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:14.076Z"
+      bytes: 8053
+insights:
+  summary: A context-building tool that creates persistent codebase concept maps and provides change impact analysis for LLMs.
+  why_it_matters: It reduces token consumption and improves model accuracy by providing a persistent architectural map that prevents LLMs from re-exploring the same codebase every session.
+  mental_damage: Because why just read a file when you can spend hundreds of tokens building a map of why that file exists in the first place?
+  tags:
+    - context-engineering
+    - mcp
+    - cli
+    - codebase-mapping
+    - token-optimization
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core value is providing persistent memory and context-shaping via concept maps to optimize how LLMs interact with codebases.
+  evidence:
+    - README explicitly states the core feature is a 'concept map' that persists across sessions to prevent re-exploring code.
+    - Provides tools for change impact analysis and git history aggregation to refine model context.
+    - Can be used as a standalone CLI or an MCP server, but the primary substance is the context management.
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.817Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:14.076Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:32:44.570Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

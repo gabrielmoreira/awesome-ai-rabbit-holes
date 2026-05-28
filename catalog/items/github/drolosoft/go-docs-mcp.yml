@@ -1,0 +1,96 @@
+id: github__drolosoft__go-docs-mcp
+kind: github-repo
+name: go-docs-mcp
+canonical_url: https://github.com/drolosoft/go-docs-mcp
+identity:
+  github_repo: drolosoft/go-docs-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__drolosoft__go-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: drolosoft/go-docs-mcp
+        extracted_url: https://github.com/drolosoft/go-docs-mcp
+        surrounding_text: "- [drolosoft/go-docs-mcp](https://github.com/drolosoft/go-docs-mcp) [![drolosoft/go-docs-mcp MCP server](https://glama.ai/mcp/servers/drolosoft/go-docs-mcp/badges/score.svg)](https://glama.ai/mcp/servers/drolosoft/go-docs-mcp) 🏎️ 🏠 🍎 🐧 - Multi-format document MCP server — read, search, OCR, and extract from PDF, TXT, MD, DOCX, CSV, and images. Single Go binary, 12 tools, smart mtime-based caching, directory-locked security."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-16T12:16:05Z"
+    pushed_at: "2026-05-19T06:11:45Z"
+    description: 📄🐹⚡ Go MCP server for multi-format document access — PDF, TXT, MD, DOCX, CSV, images. Install and Go.
+    homepage: https://drolosoft.com/go-docs-mcp.html
+    topics:
+      - claude
+      - cli
+      - documents
+      - docx
+      - go
+      - linux
+      - macos
+      - markdown
+      - mcp
+      - mcp-server
+      - ocr
+      - pdf
+      - self-hosted
+      - tesseract
+    last_checked_at: "2026-05-28T05:28:23.755Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:23.755Z"
+      bytes: 13196
+insights:
+  summary: A Go-based MCP server that enables AI assistants to read, search, and extract data from multiple document formats, including PDFs, DOCX, and images via OCR.
+  why_it_matters: It provides a unified, zero-config way for coding agents to ingest and query diverse documentation and data files that aren't in plain text.
+  mental_damage: One more single-binary sidecar to manage because your AI assistant still hasn't graduated from reading plain text.
+  tags:
+    - mcp
+    - go
+    - ocr
+    - document-parsing
+    - multi-format
+  confidence: high
+curation:
+  status: included
+  reason: The tool is explicitly built as an MCP server to provide specific domain capabilities (document access) to AI hosts.
+  evidence:
+    - Repo description and README identify it as a Go MCP server
+    - Provides 13 distinct tools for document interaction via the Model Context Protocol
+    - Primary identity is a standalone server rather than a library or extension
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:23.755Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:39:34.275Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

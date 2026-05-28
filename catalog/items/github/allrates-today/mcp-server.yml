@@ -1,0 +1,95 @@
+id: github__allrates-today__mcp-server
+kind: github-repo
+name: mcp-server
+canonical_url: https://github.com/allrates-today/mcp-server
+identity:
+  github_repo: allrates-today/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__allrates-today__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: cahthuranag/mcp-server
+        extracted_url: https://github.com/cahthuranag/mcp-server
+        surrounding_text: "- [cahthuranag/mcp-server](https://github.com/cahthuranag/mcp-server) [![cahthuranag/mcp-server MCP server](https://glama.ai/mcp/servers/cahthuranag/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cahthuranag/mcp-server) 📇 ☁️ - AllRatesToday currency exchange rates: real-time mid-market rates for 160+ currencies (Reuters/Refinitiv), historical data (1d/7d/30d/1y), currency list, and multi-target lookups. Free tier, no key needed for the simple-rate endpoint. Install: `npx @allratestoday/mcp-server`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-21T10:01:34Z"
+    pushed_at: "2026-04-27T10:03:52Z"
+    description: MCP server bringing live FX rates, historical data, and multi-currency lookups from AllRatesToday to Claude Code, Cursor, Claude Desktop, and Windsurf. Free API key required.
+    homepage: https://allratestoday.com
+    topics:
+      - ai
+      - claude
+      - claude-code
+      - currency-api
+      - cursor
+      - exchange-rate
+      - forex
+      - function-calling
+      - llm
+      - mcp
+      - mcp-server
+      - real-time-rates
+      - windsurf
+    last_checked_at: "2026-05-28T05:28:20.087Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:20.087Z"
+      bytes: 15109
+insights:
+  summary: An MCP server that provides real-time and historical foreign exchange rates to MCP-compatible AI assistants.
+  why_it_matters: It enables developers to pull live financial market data directly into their AI coding workflows for tasks like currency conversion or financial data analysis.
+  mental_damage: Another layer of configuration to ensure your coding assistant knows exactly how much a Euro is worth before it tries to refactor your fintech app.
+  tags:
+    - mcp
+    - forex
+    - finance
+    - api
+    - currency
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is a specialized MCP server that exposes a specific domain (forex) via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly identifies it as an MCP server for Claude Code, Cursor, and Windsurf.
+    - README defines specific MCP tools like get_exchange_rate and get_historical_rates.
+    - The product is a dedicated server implementation for the Model Context Protocol.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:20.087Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:35:09.949Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

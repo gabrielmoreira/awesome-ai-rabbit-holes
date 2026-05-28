@@ -23,33 +23,43 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 627
+    forks: 21
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-08-26T06:58:12Z"
+    pushed_at: "2026-05-26T19:56:13Z"
+    description: Context Engine for your long-running AI agents
+    homepage: https://www.getcontexto.com
+    topics: []
+    last_checked_at: "2026-05-28T05:28:24.645Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:24.645Z"
+      bytes: 7048
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints instead of letting them be compacted away.
+  why_it_matters: It lets developers keep agents reliable across long sessions without prompt hacks, by recovering original instructions and decisions that default context-window compaction would otherwise summarize into oblivion.
+  mental_damage: It is oddly dystopian that we now pay for external episodic memory so our agents can remember not to delete emails after thirty turns.
+  tags:
+    - context-engine
+    - memory
+    - retrieval
+    - openclaw
+    - agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's entire identity is memory and retrieval infrastructure for long-running agents, which squarely fits Prompt & Context Engineering rather than being the agent itself or a thin host integration.
+  evidence:
+    - README describes itself as a 'context engine' that 'stores full episodes and retrieves old constraints instead of losing them to summaries.'
+    - Core mechanism is hierarchical clustering, beam-search retrieval, and episodic storage—classic context-shaping infrastructure.
+    - Marketed as a drop-in OpenClaw plugin for constraint recovery, not as a coding agent, orchestration platform, or IDE extension layer.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (627) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,15 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-25T05:35:57.603Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for ekailabs/contexto
-  categorize:
-    status: skipped
-    updated_at: "2026-05-25T05:35:59.053Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-05-28T05:28:24.645Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:29:08.986Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

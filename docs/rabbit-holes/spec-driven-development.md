@@ -40,7 +40,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 21.6k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 21.8k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
 
@@ -49,7 +49,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `agents` `spec` `context` `standards`
   </details>
 
-- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.3k` `updated ≤30d` A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation. <details><summary>More about</summary>
+- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.3k` `updated ≤90d` A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation. <details><summary>More about</summary>
 
   It gives teams a structured SDLC loop—discovery, requirements, design, tasks, and per-task review—that runs across eight different coding agents with the same 17-skill set.
 
@@ -112,6 +112,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `mcp` `spec-driven` `requirements` `workflow`
   </details>
 
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 374` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+
+  It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
+
+  _Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo._
+
+  `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
+  </details>
+
 - **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 373` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
 
   It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
@@ -119,15 +128,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   _We have successfully optimized the time between 'having an idea' and 'having a 10,000-word document the AI will ignore' down to under three minutes._
 
   `spec-driven` `planning` `prompt-generation` `architecture`
-  </details>
-
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 369` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
-
-  It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
-
-  _Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo._
-
-  `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
   </details>
 
 - **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 296` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
@@ -179,7 +179,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `tdd` `gherkin` `cli` `multi-agent`
   </details>
 
-- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 46` `updated ≤1y` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
+- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 47` `updated ≤1y` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
 
   It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
 
@@ -197,22 +197,22 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `cli` `tui` `claude-code`
   </details>
 
-- **[tnl](https://github.com/janaraj/tnl)** `⭐ 7` `updated ≤30d` TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions. <details><summary>More about</summary>
-
-  It replaces ephemeral chat plans with persistent, machine-checkable contracts that enforce scope, bind tests to behaviors, and prevent agents from silently drifting between sessions.
-
-  _You now have a seven-field YAML-adjacent contract to review before the agent is allowed to touch your repo, which officially makes you the bureaucrat your CI pipeline always wanted._
-
-  `spec-driven` `contracts` `context-engineering` `mcp`
-  </details>
-
-- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 7` `updated ≤90d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
+- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 10` `updated ≤30d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
 
   It structures the messy gap between a backlog idea and running code by automating spec generation and handing off execution to installed coding agents.
 
   _You can now outsource the interview phase of feature planning to an AI, leaving you free to stare at a terminal while two AIs argue about your stack until a PR appears._
 
   `cli` `spec-driven` `autonomous-loops` `claude-code` `codex`
+  </details>
+
+- **[tnl](https://github.com/janaraj/tnl)** `⭐ 7` `updated ≤90d` TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions. <details><summary>More about</summary>
+
+  It replaces ephemeral chat plans with persistent, machine-checkable contracts that enforce scope, bind tests to behaviors, and prevent agents from silently drifting between sessions.
+
+  _You now have a seven-field YAML-adjacent contract to review before the agent is allowed to touch your repo, which officially makes you the bureaucrat your CI pipeline always wanted._
+
+  `spec-driven` `contracts` `context-engineering` `mcp`
   </details>
 
 - **[pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 5` `updated ≤90d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>

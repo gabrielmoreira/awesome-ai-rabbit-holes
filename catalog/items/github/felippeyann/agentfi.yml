@@ -1,0 +1,82 @@
+id: github__felippeyann__agentfi
+kind: github-repo
+name: agentfi
+canonical_url: https://github.com/felippeyann/agentfi
+identity:
+  github_repo: felippeyann/agentfi
+provenance:
+  discoveries:
+    - id: discovery__github__felippeyann__agentfi__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: felippeyann/agentfi
+        extracted_url: https://github.com/felippeyann/agentfi
+        surrounding_text: "- [felippeyann/agentfi](https://github.com/felippeyann/agentfi) [![felippeyann/agentfi MCP server](https://glama.ai/mcp/servers/felippeyann/agentfi/badges/score.svg)](https://glama.ai/mcp/servers/felippeyann/agentfi) 📇 ☁️ 🏠 - Crypto transaction tools for AI agents. 28 MCP tools covering swaps (Uniswap V3, Curve), yield (Aave V3, Compound V3, any ERC-4626 vault), transfers, and agent-to-agent collaboration (jobs, escrow, reputation, atomic payments, P&L). Turnkey MPC wallets + Safe Smart Accounts on Ethereum / Base / Arbitrum / Polygon. Apache 2.0, self-hosted."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: NOASSERTION
+    archived: true
+    created_at: "2026-03-25T23:07:52Z"
+    pushed_at: "2026-05-17T17:49:02Z"
+    description: null
+    homepage: https://agentfi-admin.vercel.app
+    topics: []
+    last_checked_at: "2026-05-28T05:28:29.398Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:29.398Z"
+      bytes: 6229
+insights:
+  summary: An archived infrastructure layer for enabling AI agents to perform autonomous DeFi transactions on EVM networks via MPC wallets and MCP tools.
+  why_it_matters: It provided a reference implementation for integrating financial primitives like Uniswap and Aave into agentic workflows.
+  mental_damage: A textbook example of building a complex, multi-chain agentic economy only to realize the market is three years too early.
+  tags:
+    - mcp
+    - defi
+    - evm
+    - crypto
+    - infrastructure
+  confidence: high
+curation:
+  status: excluded
+  reason: The project is explicitly archived and unmaintained, and its required live backend infrastructure has been decommissioned.
+  evidence:
+    - README explicitly states project is archived and unmaintained
+    - Live infrastructure (Fly.io and Upstash) has been decommissioned
+    - Maintainer reports zero real adoption during the active phase
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:29.398Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:40:59.743Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

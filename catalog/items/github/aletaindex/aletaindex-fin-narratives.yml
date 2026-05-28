@@ -1,0 +1,88 @@
+id: github__aletaindex__aletaindex-fin-narratives
+kind: github-repo
+name: aletaindex-fin-narratives
+canonical_url: https://github.com/aletaindex/aletaindex-fin-narratives
+identity:
+  github_repo: aletaindex/aletaindex-fin-narratives
+provenance:
+  discoveries:
+    - id: discovery__github__aletaindex__aletaindex-fin-narratives__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: AletaIndex/aletaindex-fin-narratives
+        extracted_url: https://github.com/aletaindex/aletaindex-fin-narratives
+        surrounding_text: "- [AletaIndex/aletaindex-fin-narratives](https://github.com/AletaIndex/aletaindex-fin-narratives) [![AletaIndex Narrative Intelligence MCP server](https://glama.ai/mcp/servers/AletaIndex/aletaindex-fin-narratives/badges/score.svg)](https://glama.ai/mcp/servers/AletaIndex/aletaindex-fin-narratives) 🐍 ☁️ 🍎🪟🐧 - Financial narrative intelligence for AI agents. Tracks how financial stories evolve across 109 tickers — clustering news into structured narratives, measuring sentiment momentum, and mapping narrative risk across portfolios. Install via Smithery or `uvx narrative-intelligence-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-17T12:15:27Z"
+    pushed_at: "2026-05-27T15:34:12Z"
+    description: Financial narrative intelligence for AI agents — real-time narrative tracking, sentiment, and insights for US equities via MCP or REST API.
+    homepage: https://aletaindex-narrative.com
+    topics:
+      - ai-agents
+      - financial-intelligence
+      - mcp
+      - narrative-intelligence
+      - stock-sentiment-analysis
+      - topic-modeling
+    last_checked_at: "2026-05-28T05:28:18.384Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:18.384Z"
+      bytes: 5363
+insights:
+  summary: Financial narrative intelligence service providing real-time sentiment and thematic tracking for US equities via MCP or REST API.
+  why_it_matters: It allows AI agents to move beyond raw news feeds to understand the structured market narratives driving equity price action.
+  mental_damage: We've officially reached the point where agents need a specialized 'financial brain' just to interpret why a stock is moving.
+  tags:
+    - mcp
+    - finance
+    - ai-agents
+    - sentiment
+    - api
+  confidence: high
+curation:
+  status: included
+  reason: The project provides specialized domain intelligence specifically designed to be consumed via the Model Context Protocol, making it a domain server.
+  evidence:
+    - Offers an MCP server for direct integration with Claude Code, Cursor, and Windsurf
+    - Provides narrative-level intelligence, clustering news into structured themes with sentiment scores
+    - Supports both MCP and a standard REST API for 109 equity tickers
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:18.384Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:34:57.552Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

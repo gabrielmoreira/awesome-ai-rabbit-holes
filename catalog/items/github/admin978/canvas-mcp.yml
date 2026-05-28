@@ -1,0 +1,89 @@
+id: github__admin978__canvas-mcp
+kind: github-repo
+name: canvas-mcp
+canonical_url: https://github.com/admin978/canvas-mcp
+identity:
+  github_repo: admin978/canvas-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__admin978__canvas-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎓 <a name="education"></a>Education
+        anchor_text: admin978/canvas-mcp
+        extracted_url: https://github.com/admin978/canvas-mcp
+        surrounding_text: "- [admin978/canvas-mcp](https://github.com/admin978/canvas-mcp) [![admin978/canvas-mcp MCP server](https://glama.ai/mcp/servers/admin978/canvas-mcp/badges/score.svg)](https://glama.ai/mcp/servers/admin978/canvas-mcp) 🐍 🏠 🍎 🪟 🐧 - Local-first MCP server for Canvas LMS. Stdio transport, no third-party broker, token stays in `~/.canvas.env`. Exposes courses, assignments, modules, announcements, grades, planner items, upcoming events, todo, and bulk file dump as MCP tools."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-11T18:32:20Z"
+    pushed_at: "2026-05-27T13:04:37Z"
+    description: Local-first Canvas LMS MCP server. Stdio transport, ~125 lines of Python.
+    homepage: https://www.agente404.com
+    topics:
+      - canvas-lms
+      - claude
+      - claude-code
+      - mcp
+      - model-context-protocol
+      - python
+      - student-tools
+    last_checked_at: "2026-05-28T05:28:13.868Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:13.868Z"
+      bytes: 2489
+insights:
+  summary: Local-first MCP server that exposes Canvas LMS APIs as tools for MCP-compatible clients like Claude Code.
+  why_it_matters: Lets students query assignments, grades, and course materials via AI agent instead of wrestling with Canvas's fragmented UI and late notifications.
+  mental_damage: Finally, you can ask Claude why you're failing statistics without opening six browser tabs or pretending the Canvas mobile app works.
+  tags:
+    - mcp
+    - canvas
+    - lms
+    - education
+    - claude-code
+  confidence: low
+curation:
+  status: included
+  reason: This is purpose-built MCP infrastructure implementing the protocol for a specific domain (education/LMS), matching the shape of canonical domain servers like github-mcp-server and playwright-mcp.
+  evidence:
+    - Repo description and topics explicitly identify as 'MCP server' and 'model-context-protocol'
+    - README describes stdio transport and exposing Canvas REST API as MCP tools for Claude Code/Desktop
+    - Listed in awesome-mcp-servers under Education/Server Implementations, confirming MCP infrastructure classification
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.817Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:13.868Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:33:05.016Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -101,9 +101,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:43:55.414Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-05-28T05:28:31.025Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for flux159/mcp-server-kubernetes
     next_retry_at: null
   categorize:
     status: done

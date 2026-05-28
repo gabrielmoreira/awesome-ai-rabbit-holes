@@ -1,0 +1,102 @@
+id: github__agent-of-empires__agent-of-empires
+kind: github-repo
+name: agent-of-empires
+canonical_url: https://github.com/agent-of-empires/agent-of-empires
+identity:
+  github_repo: agent-of-empires/agent-of-empires
+provenance:
+  discoveries:
+    - id: discovery__github__agent-of-empires__agent-of-empires__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: agent-of-empires
+        extracted_url: https://github.com/njbrake/agent-of-empires
+        surrounding_text: "- **[agent-of-empires](https://github.com/njbrake/agent-of-empires)** `⭐ 2.4k` — Manage multiple Claude Code, OpenCode, Codex CLI, Gemini CLI, Pi, Copilot CLI, Mistral Vibe, and Factory Droid agents from a TUI or web UI (mobile-friendly). Rust, uses tmux + git worktrees. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 2433
+    forks: 213
+    license: MIT
+    archived: false
+    created_at: "2026-01-09T17:23:31Z"
+    pushed_at: "2026-05-28T05:20:36Z"
+    description: Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.
+    homepage: http://www.agent-of-empires.com/
+    topics:
+      - ai-coding
+      - claude
+      - claude-code
+      - cli
+      - codex
+      - cursor
+      - factory-droid-cli
+      - gemini
+      - gemini-cli
+      - github-copilot-cli
+      - hermes-agent
+      - llm
+      - mistral-vibe
+      - opencode
+      - orchestrator
+      - pi
+      - terminal
+      - tmux
+      - vibe
+      - vibe-coding
+    last_checked_at: "2026-05-28T05:28:14.564Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:14.564Z"
+      bytes: 12035
+insights:
+  summary: A TUI and web-based session manager for running and monitoring multiple AI coding agents in parallel.
+  why_it_matters: It enables developers to scale agentic workflows by managing multiple isolated sessions across different branches or repositories from a single dashboard.
+  mental_damage: You have officially graduated from writing code to being a middle manager for a fleet of highly capable but unpredictable digital interns.
+  tags:
+    - agent-orchestration
+    - cli
+    - tui
+    - multi-agent
+    - session-manager
+  confidence: high
+curation:
+  status: included
+  reason: It functions as a control plane and workbench for coordinating a fleet of multiple distinct AI agents rather than just augmenting a single one.
+  evidence:
+    - Supports multiple agents including Claude Code, Gemini CLI, and Copilot CLI
+    - Provides a TUI and web dashboard to monitor agent status and manage parallel sessions
+    - Uses tmux and Docker to isolate and persist multiple agent runs across different git branches
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2433) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.817Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:14.564Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:34:18.804Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

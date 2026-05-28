@@ -1,0 +1,86 @@
+id: github__0xdegenmo__lighter-mcp
+kind: github-repo
+name: lighter-mcp
+canonical_url: https://github.com/0xdegenmo/lighter-mcp
+identity:
+  github_repo: 0xdegenmo/lighter-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__0xdegenmo__lighter-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: 0xDegenMo/lighter-mcp
+        extracted_url: https://github.com/0xdegenmo/lighter-mcp
+        surrounding_text: "- [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account → TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage, symbol allowlist). `pip install 0xdegenmo-lighter-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-20T12:07:54Z"
+    pushed_at: "2026-05-22T10:24:26Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-05-28T05:28:10.730Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:10.730Z"
+      bytes: 10660
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.817Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:10.730Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-05-28T05:32:08.399Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__0xdegenmo__lighter-mcp: ```json
+        {
+          "summary": "An MCP server that connects AI assistants to Lighter, a zero-fee zk-rollup perpetual DEX on Ethereum, enabling natural language trading of crypto perpetuals.",
+          "why_it_matters": "It brings automated crypto trading into the same interface developers use for coding, collapsing the context switch between debugging and derivatives trading.",
+          "mental_damage": "Your coding assistant can now accidentally liquidate your leveraged position while trying to autocomplete a function name.",
+          "tags": ["mcp", "crypto", "trading", "defi", "finance"],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "This is a financial trading interface for crypto perpetuals rather than a software development tool
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

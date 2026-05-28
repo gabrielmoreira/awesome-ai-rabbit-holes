@@ -31,7 +31,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `browser-automation` `cli` `ai-agents`
   </details>
 
-- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27k` `updated ≤30d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
+- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.3k` `updated ≤30d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
 
   It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
 
@@ -184,7 +184,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 551` `updated ≤30d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
+- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 551` `updated ≤90d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
 
   It closes the edit gap left by Figma's official MCP plugin, letting agents programmatically manipulate designs using compact CLI calls or familiar React-like JSX.
 
@@ -242,6 +242,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
+- **[agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 133` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+
+  It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
+
+  _We are officially one step away from your agent calling your landlord to negotiate your lease._
+
+  `agents` `mcp` `communication` `sms` `email`
+  </details>
+
 - **[memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 121` `updated ≤30d` A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat. <details><summary>More about</summary>
 
   It attempts to automate the tedious context-gathering phase of AI assistance by watching you work and feeding relevant history directly into your coding agent.
@@ -251,7 +260,7 @@ _These are new or low-traffic entries being watched._
   `desktop-app` `context-recording` `mcp` `automation` `screen-capture`
   </details>
 
-- **[owlex](https://github.com/agentic-box/owlex)** `⭐ 115` `updated ≤90d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
+- **[owlex](https://github.com/agentic-box/owlex)** `⭐ 121` `updated ≤90d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
 
   It lets developers cross-check architecture decisions, debugging, and tricky design questions across multiple AI models without leaving their existing Claude Code workflow.
 
@@ -269,7 +278,7 @@ _These are new or low-traffic entries being watched._
   `github` `automation` `issues` `natural-language` `repo-maintenance`
   </details>
 
-- **[agentmail-toolkit](https://github.com/agentmail-to/agentmail-toolkit)** `⭐ 71` `updated ≤30d` A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP). <details><summary>More about</summary>
+- **[agentmail-toolkit](https://github.com/agentmail-to/agentmail-toolkit)** `⭐ 73` `updated ≤30d` A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP). <details><summary>More about</summary>
 
   It provides the boilerplate integration code needed to give popular agent frameworks the ability to send and receive email via AgentMail.
 
@@ -494,13 +503,22 @@ _These are new or low-traffic entries being watched._
   `guardrails` `mcp` `cost-optimization` `agent-governance` `cli`
   </details>
 
-- **[git-parsec](https://github.com/erishforg/git-parsec)** `⭐ 14` `updated ≤30d` A Rust-based Git worktree lifecycle manager that integrates with Jira, GitHub Issues, and GitLab to create isolated workspaces from tickets and ship stacked PRs in one command. <details><summary>More about</summary>
+- **[git-parsec](https://github.com/erishforg/git-parsec)** `⭐ 15` `updated ≤30d` A Rust-based Git worktree lifecycle manager that integrates with Jira, GitHub Issues, and GitLab to create isolated workspaces from tickets and ship stacked PRs in one command. <details><summary>More about</summary>
 
   It eliminates the manual loop of syncing tickets, branches, and PRs while enabling parallel AI agent workflows and stacked changes without index lock collisions.
 
   _Because what modern software development truly needed was a CLI tool to manage the parallel reality of twelve AI agents subtree-merging rate-limit fixes while you debug CI in a terminal Kanban board._
 
   `git` `worktree` `cli` `devops` `ai-agent`
+  </details>
+
+- **[transfa](https://github.com/colapsis/transfa)** `⭐ 14` `updated ≤30d` A CLI and API-driven file-sharing service designed for seamless file transfers between developers, CI/CD pipelines, and AI agents. <details><summary>More about</summary>
+
+  It provides a low-friction way for agents to upload and share large files, like ML models or datasets, without requiring manual UI interaction.
+
+  _Because the ultimate developer experience is piping a 4GB model URL into a shell script and hoping your agent doesn't hallucinate the checksum._
+
+  `cli` `mcp` `file-sharing` `agents` `devops`
   </details>
 
 - **[agent-terminal](https://github.com/jasonkneen/agent-terminal)** `⭐ 10` `updated ≤180d` A Node.js library and MCP server that provides headless terminal automation, allowing AI agents to launch CLI applications, send input, and capture ASCII output via pseudo-terminals. <details><summary>More about</summary>
@@ -510,6 +528,15 @@ _These are new or low-traffic entries being watched._
   _We have finally built the infrastructure required to let a $200/month LLM try to `:wq` its way out of Vim on your behalf._
 
   `terminal` `automation` `mcp` `headless` `node-pty`
+  </details>
+
+- **[bash](https://github.com/capsulerun/bash)** `⭐ 10` `updated ≤30d` A sandboxed bash execution environment for agents, provided via a TypeScript SDK and MCP server. <details><summary>More about</summary>
+
+  It allows developers to grant AI agents safe, observable terminal access with Wasm-based isolation and structured filesystem diffs.
+
+  _Because providing an LLM with a shell is the ultimate test of whether your sandbox is actually a sandbox._
+
+  `sandbox` `mcp` `typescript` `bash` `ai-agents`
   </details>
 
 - **[memi](https://github.com/sarveshsea/memi)** `⭐ 10` `updated ≤30d` memi is a CLI and daemon that exports design tokens and components from Tailwind apps into shadcn-native registries for AI coding agents. <details><summary>More about</summary>
@@ -602,7 +629,7 @@ _These are new or low-traffic entries being watched._
   `sap` `playwright` `e2e-testing` `ai-agents` `ui5`
   </details>
 
-- **[megazord](https://github.com/sh3rd3n/megazord)** `⭐ 1` `updated ≤90d` A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams. <details><summary>More about</summary>
+- **[megazord](https://github.com/sh3rd3n/megazord)** `⭐ 1` `updated ≤180d` A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams. <details><summary>More about</summary>
 
   Developers using Claude Code can get structured planning, TDD discipline, and real-time multi-agent coordination without stitching together separate workflow and project-management tools.
 
@@ -620,7 +647,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `sdk` `screenshot-api` `agent-integrations`
   </details>
 
-- **[touch-grass](https://github.com/nalediym/touch-grass)** `⭐ 1` `updated ≤30d` A Claude Code plugin and MCP server that injects weather, sunset, and streak data to prompt developers to take context-aware breaks during coding sessions. <details><summary>More about</summary>
+- **[touch-grass](https://github.com/nalediym/touch-grass)** `⭐ 1` `updated ≤90d` A Claude Code plugin and MCP server that injects weather, sunset, and streak data to prompt developers to take context-aware breaks during coding sessions. <details><summary>More about</summary>
 
   It replaces flow-breaking Pomodoro timers by teaching your AI agent to nudge you outside at natural pauses, using real-time weather and session context.
 
@@ -629,7 +656,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `mcp` `plugin` `wellness` `break-reminder`
   </details>
 
-- **[linear-cli](https://github.com/phnx-labs/linear-cli)** `⭐ 0` `updated ≤30d` A single-file Python CLI for managing Linear issues from the terminal, designed to be used directly by developers or as an integration layer for coding agents like Claude Code and Codex. <details><summary>More about</summary>
+- **[linear-cli](https://github.com/phnx-labs/linear-cli)** `⭐ 0` `updated ≤90d` A single-file Python CLI for managing Linear issues from the terminal, designed to be used directly by developers or as an integration layer for coding agents like Claude Code and Codex. <details><summary>More about</summary>
 
   It provides a zero-dependency, scriptable interface for agents to claim tickets, report progress, and close issues with proof, bridging project management and autonomous coding workflows.
 
@@ -638,7 +665,7 @@ _These are new or low-traffic entries being watched._
   `linear` `cli` `agent-integration` `python` `issue-tracking`
   </details>
 
-- **[tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 0` `updated ≤30d` A Cline plugin that automatically generates and runs tests via an MCP server, .clinerules packs, and Memory Bank integration across 8+ supported editors. <details><summary>More about</summary>
+- **[tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 0` `updated ≤90d` A Cline plugin that automatically generates and runs tests via an MCP server, .clinerules packs, and Memory Bank integration across 8+ supported editors. <details><summary>More about</summary>
 
   Developers using Cline can enforce continuous, adversarial test generation directly within their agent workflow without manually writing test scaffolding.
 

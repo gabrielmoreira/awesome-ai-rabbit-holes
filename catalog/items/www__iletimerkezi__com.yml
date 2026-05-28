@@ -1,0 +1,77 @@
+id: www__iletimerkezi__com
+kind: website
+name: www.iletimerkezi.com
+canonical_url: https://www.iletimerkezi.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__iletimerkezi__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: iletiMerkezi
+        extracted_url: https://www.iletimerkezi.com
+        surrounding_text: "- [iletimerkezi/iletimerkezi-mcp-server](https://github.com/iletimerkezi/iletimerkezi-mcp-server) [![iletimerkezi/iletimerkezi-mcp-server MCP server](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server) 🎖️ ☁️ - Send SMS, query delivery reports, manage senders / blacklists, register and check İYS (Turkish messaging consent registry) records through the [iletiMerkezi](https://www.iletimerkezi.com) BTK-licensed SMS API. 11 tools, runtime-fetched manifest stays in lock-step with the live API. Install: `npx -y @iletimerkezi/mcp-server`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: iletimerkezi.com is a Turkish SMS platform offering bulk messaging, API, OTP, and developer integrations for business communication.
+  why_it_matters: Developers can integrate SMS capabilities into applications via documented APIs and SDKs for notifications, authentication, and user engagement.
+  mental_damage: Yet another API wrapper that makes you feel like you're building something important while just sending 'Your OTP is 123456' for the thousandth time.
+  tags:
+    - sms
+    - api
+    - communications
+    - developer-tools
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose SMS service platform with developer integrations, but its core identity is business communication infrastructure, not AI tooling or developer-facing AI workflows.
+  evidence:
+    - Scraped site context shows the platform focuses on bulk SMS, OTP, email-to-SMS, and business solutions across sectors like finance, health, and e-commerce.
+    - Source-list context appears in awesome-mcp-servers under 'Communication' but the linked page and content describe standard SMS API offerings, not MCP infrastructure.
+    - README/excerpt emphasizes SMS API integration for developers but frames it as a communication utility, not an AI agent, framework, or tooling relevant to AI development workflows.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.820Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:43:04.456Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

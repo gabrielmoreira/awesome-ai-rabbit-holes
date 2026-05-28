@@ -1,0 +1,75 @@
+id: lighter__xyz
+kind: website
+name: lighter.xyz
+canonical_url: https://lighter.xyz
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lighter__xyz__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Lighter
+        extracted_url: https://lighter.xyz
+        surrounding_text: "- [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account → TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage, symbol allowlist). `pip install 0xdegenmo-lighter-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server providing finance and fintech capabilities to AI models.
+  why_it_matters: It allows developers to integrate financial data and fintech workflows into their agentic workflows via the Model Context Protocol.
+  mental_damage: Because giving a coding agent direct access to financial markets is exactly the kind of chaos our terminal deserves.
+  tags:
+    - mcp
+    - finance
+    - fintech
+  confidence: medium
+curation:
+  status: included
+  reason: The tool is an MCP server specifically designed for the finance and fintech domain.
+  evidence:
+    - Listed in the awesome-mcp-servers directory
+    - Categorized under Finance & Fintech section
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.820Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:41:21.779Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

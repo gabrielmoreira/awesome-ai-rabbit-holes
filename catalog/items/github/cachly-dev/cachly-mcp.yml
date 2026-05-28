@@ -1,0 +1,91 @@
+id: github__cachly-dev__cachly-mcp
+kind: github-repo
+name: cachly-mcp
+canonical_url: https://github.com/cachly-dev/cachly-mcp
+identity:
+  github_repo: cachly-dev/cachly-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cachly-dev__cachly-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: cachly-dev/cachly-mcp
+        extracted_url: https://github.com/cachly-dev/cachly-mcp
+        surrounding_text: "- [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed. `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain, semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-16T20:49:59Z"
+    pushed_at: "2026-05-27T16:58:30Z"
+    description: AI memory brain for Claude Code, Cursor, Copilot & Windsurf — 51 MCP tools. Persistent sessions, lessons learned, semantic search, Team Brain, managed Valkey/Redis. Free tier.
+    homepage: https://cachly.dev
+    topics:
+      - ai-memory
+      - causal-trace
+      - claude-code
+      - cursor
+      - developer-tools
+      - github-copilot
+      - mcp
+      - mcp-server
+      - persistent-memory
+      - typescript
+    last_checked_at: "2026-05-28T05:28:22.726Z"
+    readme:
+      fetched_at: "2026-05-28T05:28:22.726Z"
+      bytes: 17167
+insights:
+  summary: An MCP server that provides persistent memory and semantic search for AI coding assistants by indexing git history and session lessons.
+  why_it_matters: It automates the process of re-establishing context, preventing developers from having to re-explain architecture or past bug fixes to their AI every session.
+  mental_damage: Because the ultimate solution to AI amnesia is to build a permanent, searchable database of every single mistake you've ever made in a codebase.
+  tags:
+    - mcp
+    - ai-memory
+    - context-engineering
+    - developer-tools
+  confidence: medium
+curation:
+  status: included
+  reason: The tool's primary substance is providing memory and retrieval infrastructure to existing coding assistants via the Model Context Protocol.
+  evidence:
+    - README describes the tool as an 'AI memory brain' that fixes the problem of AI forgetting context between sessions.
+    - Uses git history and semantic search to provide 'lessons learned' to tools like Claude Code and Cursor.
+    - Functions as an MCP server to integrate this memory layer into existing developer workflows.
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.818Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-05-28T05:28:22.726Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-05-28T05:36:34.176Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
