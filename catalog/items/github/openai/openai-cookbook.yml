@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/openai/openai-cookbook
         surrounding_text: "15. [openai-cookbook](https://github.com/openai/openai-cookbook): Examples and guides for using the OpenAI API."
         confidence: high
+    - id: discovery__github__openai__openai-cookbook__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-01T05:40:05.293Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - Agents
+          - Description
+        anchor_text: function-calling
+        extracted_url: https://platform.openai.com/docs/guides/gpt/function-calling
+        surrounding_text: "-   **Tool Usage**: Language agents in the library can use any external tools via  [function-calling](https://platform.openai.com/docs/guides/gpt/function-calling)  and developers can add customized tools/APIs  [here](https://github.com/aiwaves-cn/agents/blob/master/src/agents/Component/ToolComponent.py)."
+        confidence: high
 metadata:
   github:
     stars: 73286
@@ -67,7 +83,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: "2026-06-01T05:40:05.294Z"
     cause: null
     next_retry_at: null
   stars:

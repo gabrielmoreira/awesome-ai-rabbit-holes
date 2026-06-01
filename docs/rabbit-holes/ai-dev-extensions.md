@@ -31,7 +31,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `browser-automation` `cli` `ai-agents`
   </details>
 
-- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.3k` `updated ≤30d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
+- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.3k` `updated ≤90d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
 
   It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
 
@@ -49,7 +49,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `claude-code` `gui` `agent-management` `desktop-app`
   </details>
 
-- **[happy](https://github.com/slopus/happy)** `⭐ 20.2k` `updated ≤30d` A mobile and web client for Claude Code and Codex that wraps the CLI to enable remote, encrypted, cross-device control of coding sessions. <details><summary>More about</summary>
+- **[happy](https://github.com/slopus/happy)** `⭐ 20.2k` `updated ≤90d` A mobile and web client for Claude Code and Codex that wraps the CLI to enable remote, encrypted, cross-device control of coding sessions. <details><summary>More about</summary>
 
   It lets developers monitor and steer long-running coding agents from their phone with push notifications and end-to-end encryption, removing the desk-tether from agentic workflows.
 
@@ -76,7 +76,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `python` `profiling` `optimization` `performance`
   </details>
 
-- **[cc-connect](https://github.com/chenhg5/cc-connect)** `⭐ 10.4k` `updated ≤30d` A bridge that connects local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Slack, Telegram, Discord, Feishu/Lark, etc.) so developers can chat with their assistant from anywhere without requiring a public IP. <details><summary>More about</summary>
+- **[cc-connect](https://github.com/chenhg5/cc-connect)** `⭐ 11.2k` `updated ≤30d` A bridge that connects local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Slack, Telegram, Discord, Feishu/Lark, etc.) so developers can chat with their assistant from anywhere without requiring a public IP. <details><summary>More about</summary>
 
   It turns your existing terminal or IDE agent into a remote team member accessible from corporate chat or your phone, letting you trigger repo work without exposing the agent directly to the internet.
 
@@ -112,7 +112,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `readme-generator` `cli` `documentation` `llm` `python`
   </details>
 
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.5k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.6k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
 
   It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
 
@@ -166,7 +166,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `browser-testing` `debugging` `web-eval` `qa-automation`
   </details>
 
-- **[jean](https://github.com/coollabsio/jean)** `⭐ 956` `updated ≤30d` A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode. <details><summary>More about</summary>
+- **[jean](https://github.com/coollabsio/jean)** `⭐ 1k` `updated ≤30d` A Tauri-based desktop app that provides a unified UI for managing projects, git worktrees, and chat sessions across Claude CLI, Codex CLI, Cursor CLI, and OpenCode. <details><summary>More about</summary>
 
   It centralizes multi-project AI workflows by handling worktree automation, session management, and integrations with GitHub and Linear in a single native interface.
 
@@ -175,7 +175,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `desktop-app` `worktree` `session-manager` `multi-agent` `tauri`
   </details>
 
-- **[figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go)** `⭐ 838` `updated ≤30d` figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits. <details><summary>More about</summary>
+- **[figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go)** `⭐ 838` `updated ≤90d` figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits. <details><summary>More about</summary>
 
   It lets developers use AI assistants like Claude Code or Cursor to directly read and manipulate Figma files and generate code from designs, bypassing API limitations that hinder experimentation.
 
@@ -229,7 +229,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mysql` `mcp` `database` `ai-dev-extensions`
   </details>
 
-- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 192` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
+- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 197` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
 
   It removes the manual drag-and-drop friction of building Stable Diffusion and FLUX workflows by letting developers describe node graphs in natural language and letting Claude Code manipulate them programmatically.
 
@@ -305,7 +305,7 @@ _These are new or low-traffic entries being watched._
   `rust` `cli` `skills` `mcp` `config-management`
   </details>
 
-- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 53` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
+- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 55` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
 
   It gives teams an auditable workflow envelope around Claude Code, Codex, Cursor, and Aider so reviewers can reconstruct why a change was made, not just what changed.
 
@@ -350,7 +350,16 @@ _These are new or low-traffic entries being watched._
   `vscode` `code-explanation` `code-review` `move-language` `openai`
   </details>
 
-- **[domshell](https://github.com/apireno/domshell)** `⭐ 38` `updated ≤30d` A Chrome Extension that maps the browser's accessibility tree to a virtual filesystem so AI agents and humans can navigate and interact with web pages using standard Linux commands like ls, cd, and grep. <details><summary>More about</summary>
+- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 42` `updated ≤30d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
+
+  It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
+
+  _We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about._
+
+  `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
+  </details>
+
+- **[domshell](https://github.com/apireno/domshell)** `⭐ 41` `updated ≤30d` A Chrome Extension that maps the browser's accessibility tree to a virtual filesystem so AI agents and humans can navigate and interact with web pages using standard Linux commands like ls, cd, and grep. <details><summary>More about</summary>
 
   It gives coding agents a deterministic, semantic interface to the browser that avoids brittle screenshots, pixel coordinates, or CSS selectors.
 
@@ -476,15 +485,6 @@ _These are new or low-traffic entries being watched._
   `llm-routing` `cost-optimization` `mcp`
   </details>
 
-- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 23` `updated ≤30d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
-
-  It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
-
-  _We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about._
-
-  `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
-  </details>
-
 - **[open-code-review](https://github.com/raye-deng/open-code-review)** `⭐ 21` `updated ≤90d` An open-source CI/CD CLI and MCP server that detects AI-specific code defects like hallucinated imports, stale APIs, and over-engineering patterns across six languages. <details><summary>More about</summary>
 
   It catches the class of bugs traditional linters miss when reviewing code generated by LLMs, providing a quality gate for AI-assisted workflows.
@@ -575,7 +575,7 @@ _These are new or low-traffic entries being watched._
   `zulip` `mcp` `agent` `chatbot`
   </details>
 
-- **[claude-concilium](https://github.com/spyrae/claude-concilium)** `⭐ 7` `updated ≤90d` A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus. <details><summary>More about</summary>
+- **[claude-concilium](https://github.com/spyrae/claude-concilium)** `⭐ 7` `updated ≤180d` A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus. <details><summary>More about</summary>
 
   Developers can get second and third opinions from different LLMs directly inside Claude Code, reducing blind spots and local-optimum bugs without leaving the assistant.
 
@@ -620,7 +620,7 @@ _These are new or low-traffic entries being watched._
   `governance` `cli` `agent-infrastructure` `audit-trails` `task-management`
   </details>
 
-- **[playwright-praman](https://github.com/mrkanitkar/playwright-praman)** `⭐ 5` `updated ≤30d` A Playwright plugin that adds deep SAP UI5 runtime awareness and AI agents to generate, run, and self-heal production-ready E2E tests for S/4HANA and Fiori applications. <details><summary>More about</summary>
+- **[playwright-praman](https://github.com/mrkanitkar/playwright-praman)** `⭐ 5` `updated ≤90d` A Playwright plugin that adds deep SAP UI5 runtime awareness and AI agents to generate, run, and self-heal production-ready E2E tests for S/4HANA and Fiori applications. <details><summary>More about</summary>
 
   SAP UI5 test automation usually collapses into fragile DOM selectors; this replaces that with UI5 control registry queries and an AI plan → generate → heal loop so QA teams can describe business processes instead of hunting selectors.
 
@@ -665,7 +665,7 @@ _These are new or low-traffic entries being watched._
   `linear` `cli` `agent-integration` `python` `issue-tracking`
   </details>
 
-- **[tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 0` `updated ≤90d` A Cline plugin that automatically generates and runs tests via an MCP server, .clinerules packs, and Memory Bank integration across 8+ supported editors. <details><summary>More about</summary>
+- **[tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 0` `updated ≤30d` A Cline plugin that automatically generates and runs tests via an MCP server, .clinerules packs, and Memory Bank integration across 8+ supported editors. <details><summary>More about</summary>
 
   Developers using Cline can enforce continuous, adversarial test generation directly within their agent workflow without manually writing test scaffolding.
 

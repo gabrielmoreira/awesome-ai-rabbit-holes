@@ -47,15 +47,22 @@ metadata:
       fetched_at: "2026-05-28T05:28:23.566Z"
       bytes: 20331
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python library that emulates various Enigma machine models with historical accuracy.
+  why_it_matters: It allows developers to programmatically encode and decode messages using authentic WWII-era cryptographic algorithms.
+  mental_damage: Finally, a way to ensure your internal microservices communication is as secure as a 1940s submarine, provided the enemy doesn't have a Python script from GitHub.
+  tags:
+    - cryptography
+    - simulation
+    - python
+    - history
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is a historical cryptography simulator, not a tool for building, deploying, or managing AI-powered software development workflows.
+  evidence:
+    - Repo description specifies it emulates Enigma machines
+    - README describes it as a way to explore 'the legendary Enigma machine'
+    - No mention of AI, LLMs, or developer productivity in the project substance
 placement:
   primary_category: null
   section: null
@@ -74,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-28T05:38:41.052Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__denismaggior8__enigma-python: Missing required field: why_it_matters"
+    status: done
+    updated_at: "2026-06-01T05:41:45.071Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

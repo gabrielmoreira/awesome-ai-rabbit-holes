@@ -13,7 +13,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.2k` `updated ≤90d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
+- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.4k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
 
   It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
 
@@ -31,7 +31,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 114.3k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 115.2k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
 
   It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
 
@@ -103,7 +103,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
   </details>
 
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 46.2k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 46.7k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
 
   It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
 
@@ -139,7 +139,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `open-source`
   </details>
 
-- **[FastChat](https://github.com/lm-sys/fastchat)** `⭐ 39.5k` `updated ≤30d` An open-source platform for training, serving, and evaluating large language models, including the infrastructure behind the Vicuna model and Chatbot Arena. <details><summary>More about</summary>
+- **[FastChat](https://github.com/lm-sys/fastchat)** `⭐ 39.5k` `updated ≤90d` An open-source platform for training, serving, and evaluating large language models, including the infrastructure behind the Vicuna model and Chatbot Arena. <details><summary>More about</summary>
 
   It provides the core serving infrastructure and evaluation harnesses (like MT-Bench) needed to self-host LLMs or benchmark model performance locally.
 
@@ -265,7 +265,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `python` `llama-cpp` `inference` `bindings`
   </details>
 
-- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.1k` `updated >1y` Petals is a PyTorch-based distributed system that runs large language model inference and fine-tuning by splitting model layers across a BitTorrent-style volunteer swarm of GPUs. <details><summary>More about</summary>
+- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.2k` `updated >1y` Petals is a PyTorch-based distributed system that runs large language model inference and fine-tuning by splitting model layers across a BitTorrent-style volunteer swarm of GPUs. <details><summary>More about</summary>
 
   It lets developers run massive models like Llama 3.1 (405B) or Mixtral on consumer hardware by distributing the inference load across a community network with a familiar Transformers API.
 
@@ -319,15 +319,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `gpu-orchestration` `inference`
   </details>
 
-- **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 4.8k` `updated ≤90d` A single-binary, OpenAI API-compatible local inference server written in Rust that runs GGUF and SafeTensors models with hot-swapping and auto-discovery. <details><summary>More about</summary>
-
-  It lets developers run large local models behind a familiar API endpoint, making it easy to power IDE extensions, coding agents, and scripts without cloud costs or external dependencies.
-
-  _Another rusty binary promising to make your 70B model fit on a GPU that is somehow still too small, if only you believe hard enough in CPU offloading._
-
-  `local-ai` `inference-server` `openai-compatible` `rust` `gguf`
-  </details>
-
 - **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 4.8k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
 
   It allows developers on Apple hardware to experiment with and deploy multimodal capabilities, like OCR and image understanding, without leaving their local machine.
@@ -335,6 +326,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Finally, the power to run a 70 billion parameter model that hallucinates about your vacation photos is optimized for your laptop's cooling fan._
 
   `local-ai` `vision` `mlx` `apple-silicon` `fine-tuning`
+  </details>
+
+- **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 4.8k` `updated ≤90d` A single-binary, OpenAI API-compatible local inference server written in Rust that runs GGUF and SafeTensors models with hot-swapping and auto-discovery. <details><summary>More about</summary>
+
+  It lets developers run large local models behind a familiar API endpoint, making it easy to power IDE extensions, coding agents, and scripts without cloud costs or external dependencies.
+
+  _Another rusty binary promising to make your 70B model fit on a GPU that is somehow still too small, if only you believe hard enough in CPU offloading._
+
+  `local-ai` `inference-server` `openai-compatible` `rust` `gguf`
   </details>
 
 - **[LoRAX](https://github.com/predibase/lorax)** `⭐ 3.8k` `updated >1y` A multi-LoRA inference server that dynamically serves thousands of fine-tuned LLMs on a single GPU using dynamic adapter loading and continuous batching. <details><summary>More about</summary>

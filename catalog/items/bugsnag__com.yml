@@ -1,0 +1,78 @@
+id: bugsnag__com
+kind: website
+name: bugsnag.com
+canonical_url: https://bugsnag.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__bugsnag__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-01T05:40:05.293Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Bugsnag
+        extracted_url: https://www.bugsnag.com
+        surrounding_text: "- [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp) 📇 ☁️ - An MCP server for interacting with [Bugsnag](https://www.bugsnag.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An error and performance monitoring platform that provides observability via crash reporting, distributed tracing, and an MCP server for AI-powered fix suggestions.
+  why_it_matters: It integrates production crash data directly into the IDE via MCP, allowing AI assistants to suggest fixes based on actual runtime failures rather than guesswork.
+  mental_damage: The dream of a closed-loop system where the AI sees the crash and fixes the bug before you've even finished reading the Jira ticket.
+  tags:
+    - observability
+    - error-monitoring
+    - mcp
+    - tracing
+    - debugging
+  confidence: high
+curation:
+  status: included
+  reason: While BugSnag is a broad SaaS observability platform, the specific value add for this catalog is its identity as an MCP server that brings production error data into the AI coding loop.
+  evidence:
+    - Explicitly cited in 'awesome-mcp-servers' as an MCP server implementation
+    - Scraped content mentions 'SmartBear's MCP server brings error data into your IDE and provides AI-powered fix suggestions'
+    - Core product is an observability suite with an MCP adapter for AI assistants
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-01T05:40:05.294Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-01T05:41:55.932Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -74,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-25T05:35:47.841Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-01T05:40:27.209Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for d-x-y/awesome-autodl
     next_retry_at: null
   categorize:
     status: done

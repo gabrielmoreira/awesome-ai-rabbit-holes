@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-25T05:35:48.370Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-01T05:40:27.896Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for danhilse/notion_mcp
     next_retry_at: null
   categorize:
     status: done

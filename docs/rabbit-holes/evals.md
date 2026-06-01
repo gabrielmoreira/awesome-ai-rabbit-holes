@@ -40,7 +40,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evals` `tracing` `llmops` `monitoring`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.7k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.8k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
 
   It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
 
@@ -49,7 +49,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `testing` `python` `metrics` `agents`
   </details>
 
-- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.3k` `updated ≤30d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
+- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.4k` `updated ≤90d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
 
   It provides a visual workflow to generate QA pairs, manage label trees, and run automated evaluations, streamlining the data preparation phase of model customization.
 
@@ -94,7 +94,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `gateway` `observability` `evals` `rust`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.8k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.9k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
 
   It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
 
@@ -148,7 +148,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `ai-gateway` `prompt-management` `cost-tracking` `evals`
   </details>
 
-- **[giskard-oss](https://github.com/giskard-ai/giskard-oss)** `⭐ 5.3k` `updated ≤30d` Giskard is an open-source Python library for evaluating, testing, and red-teaming LLM agents, with built-in checks for RAG quality, safety rules, and multi-turn agent behavior. <details><summary>More about</summary>
+- **[giskard-oss](https://github.com/giskard-ai/giskard-oss)** `⭐ 5.3k` `updated ≤90d` Giskard is an open-source Python library for evaluating, testing, and red-teaming LLM agents, with built-in checks for RAG quality, safety rules, and multi-turn agent behavior. <details><summary>More about</summary>
 
   It gives developers a structured way to catch regressions and validate agent behavior through non-deterministic evals, including LLM-as-judge assessments and scenario-based testing.
 
@@ -193,7 +193,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `prompt-management` `evals` `observability`
   </details>
 
-- **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.1k` `updated ≤30d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
+- **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.1k` `updated ≤90d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
 
   It gives developers a standardized, reproducible way to benchmark multimodal model performance without manually wrangling data across disparate repositories.
 
@@ -346,7 +346,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `synthetic-data` `fine-tuning` `evals` `agents` `cli`
   </details>
 
-- **[dingo](https://github.com/migoxlab/dingo)** `⭐ 693` `updated ≤30d` Dingo is a Python-based platform for evaluating AI data quality, model performance, and application behavior, offering built-in rules, LLM-as-a-judge metrics, and hallucination detection. <details><summary>More about</summary>
+- **[dingo](https://github.com/migoxlab/dingo)** `⭐ 693` `updated ≤90d` Dingo is a Python-based platform for evaluating AI data quality, model performance, and application behavior, offering built-in rules, LLM-as-a-judge metrics, and hallucination detection. <details><summary>More about</summary>
 
   It provides developers with a structured way to audit training data, RAG outputs, and fine-tuning sets before they become expensive production failures.
 
@@ -584,7 +584,7 @@ _These are new or low-traffic entries being watched._
   `multi-model` `evaluation` `local-app` `openrouter`
   </details>
 
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 4` `updated ≤90d` A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence. <details><summary>More about</summary>
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 4` `updated ≤180d` A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence. <details><summary>More about</summary>
 
   Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
 
@@ -611,7 +611,7 @@ _These are new or low-traffic entries being watched._
   `agent-benchmark` `mcp` `gaming` `tactical-ai` `eval`
   </details>
 
-- **[AICodeSlopMonitor](https://github.com/marcoramilli/slopcodemonitor.ai)** `⭐ 0` `updated ≤30d` A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns. <details><summary>More about</summary>
+- **[AICodeSlopMonitor](https://github.com/marcoramilli/slopcodemonitor.ai)** `⭐ 0` `updated ≤90d` A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns. <details><summary>More about</summary>
 
   It gives maintainers and code reviewers a quantitative signal to distinguish human-authored logic from repetitive, AI-generated boilerplate in popular open-source projects.
 

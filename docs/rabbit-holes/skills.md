@@ -13,7 +13,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 61.7k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 62.7k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -85,7 +85,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `biomedical` `science`
   </details>
 
-- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 539` `updated ≤30d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
+- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 539` `updated ≤90d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
 
   It lets developers and AI agents reproducibly spin up complex dev and test stacks with one-liner commands, bridging local prototyping and CI testing.
 
@@ -98,7 +98,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 _These are new or low-traffic entries being watched._
 
-- **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤30d` Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms. <details><summary>More about</summary>
+- **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤90d` Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms. <details><summary>More about</summary>
 
   It lets teams persist and recall context across different AI coding assistants and workplace tools so agents get smarter the more the team works.
 
@@ -197,7 +197,7 @@ _These are new or low-traffic entries being watched._
   `session-logging` `rules` `multi-agent` `osop` `integrations`
   </details>
 
-- **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤90d` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>
+- **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤180d` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>
 
   It enables coding agents to persistently generate and edit shareable documents as part of automated workflows.
 

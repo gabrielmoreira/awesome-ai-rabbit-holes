@@ -38,18 +38,26 @@ metadata:
       fetched_at: "2026-05-28T05:28:10.730Z"
       bytes: 10660
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables AI assistants to interact with the Lighter zero-fee zk-rollup perpetual DEX on Ethereum.
+  why_it_matters: It allows developers to automate trading, manage positions, and query market state directly through MCP-aware clients like Claude Desktop and Cursor.
+  mental_damage: "We have finally reached the peak of efficiency: delegating the precise timing of our financial ruin to a LLM's reasoning capabilities."
+  tags:
+    - mcp
+    - dex
+    - trading
+    - ethereum
+    - zk-rollup
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's entire identity is as an MCP server implementation for a specific domain (finance/trading), fitting the 'Domain Servers' section of the MCP category.
+  evidence:
+    - Explicitly identifies as a 'Model Context Protocol server for Lighter'
+    - Provides 17 trading tools for MCP-aware clients
+    - Included in the awesome-mcp-servers list under 'Finance & Fintech'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -65,22 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-28T05:32:08.399Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__0xdegenmo__lighter-mcp: ```json
-        {
-          "summary": "An MCP server that connects AI assistants to Lighter, a zero-fee zk-rollup perpetual DEX on Ethereum, enabling natural language trading of crypto perpetuals.",
-          "why_it_matters": "It brings automated crypto trading into the same interface developers use for coding, collapsing the context switch between debugging and derivatives trading.",
-          "mental_damage": "Your coding assistant can now accidentally liquidate your leveraged position while trying to autocomplete a function name.",
-          "tags": ["mcp", "crypto", "trading", "defi", "finance"],
-          "should_include": false,
-          "primary_category": null,
-          "section": null,
-          "decision_reason": "This is a financial trading interface for crypto perpetuals rather than a software development tool
+    status: done
+    updated_at: "2026-06-01T05:41:38.229Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

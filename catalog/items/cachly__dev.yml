@@ -35,18 +35,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions.
+  why_it_matters: It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically indexing git history into a causal knowledge graph.
+  mental_damage: The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you made that regrettable architectural choice three months ago.
+  tags:
+    - mcp
+    - memory
+    - git
+    - context-engineering
+    - knowledge-graph
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product identity is a memory and retrieval system (the 'Brain') designed to shape the context provided to other assistants, which fits the definition of context engineering.
+  evidence:
+    - Claims to provide a 'permanent brain' that 'bootstraps from git history'
+    - Features 'causal_trace' and 'brain_recall' for semantic memory retrieval
+    - Explicitly compares itself to other memory tools like mem0 and MemGPT
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -61,14 +69,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-05-28T05:30:09.072Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for cachly__dev: ```json
-        {
+    status: done
+    updated_at: "2026-06-01T05:41:38.912Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -67,9 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-25T05:35:48.822Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-01T05:40:28.120Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dash0hq/mcp-dash0
     next_retry_at: null
   categorize:
     status: done

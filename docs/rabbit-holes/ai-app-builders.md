@@ -170,6 +170,15 @@ _These are new or low-traffic entries being watched._
   `visual-development` `design-to-code` `ai-generation` `frontend`
   </details>
 
+- **[Butternut AI](https://app.butternut.ai)** An AI-powered website builder that generates complete business and portfolio sites from text descriptions. <details><summary>More about</summary>
+
+  It provides a prompt-to-deployment pipeline for quickly spinning up marketing sites, including hosting, SSL, and integrated AI chatbots.
+
+  _The dream of 'replacing developer costs' is now a monthly subscription that promises a professional business presence in 20 seconds._
+
+  `no-code` `site-generator` `prompt-to-site` `hosting`
+  </details>
+
 - **[Capacity](https://capacity.so)** Capacity is a prompt-to-app builder that generates full-stack React, TypeScript, and React Native applications with Express backends from natural language descriptions, handling deployment to Vercel or AWS. <details><summary>More about</summary>
 
   It allows developers and non-technical founders to generate production-ready codebases with real infrastructure (SQLite, Express) and export them to GitHub, bridging the gap between idea and shipped product.

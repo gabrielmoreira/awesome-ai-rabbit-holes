@@ -29,25 +29,34 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-15T08:55:16Z"
-    pushed_at: "2026-05-24T12:10:41Z"
-    description: MCP server for Clamp, web analytics for the agentic era. Tools for traffic, referrers, live visitors, events, revenue, session paths, funnels, and alerts — queryable from Cursor, Claude Code, Claude Desktop, Smithery, and any MCP-compatible editor.
+    pushed_at: "2026-05-31T13:08:02Z"
+    description: Analytics MCP server for Clamp Analytics. Gives Claude, Cursor, VS Code, Windsurf, and Cline tools for traffic, pages, events, revenue, errors, funnels, cohorts, and alerts. Stdio + hosted Remote MCP.
     homepage: https://clamp.sh/docs/mcp
     topics:
-      - agent-tools
+      - ai-agents
       - analytics
       - clamp
       - claude
       - claude-code
+      - claude-desktop
+      - cline
+      - cohorts
       - cursor
-      - llm-tools
+      - funnels
       - mcp
+      - mcp-server
       - model-context-protocol
-      - smithery
+      - oauth
+      - product-analytics
+      - remote-mcp
+      - revenue-analytics
+      - vscode
       - web-analytics
-    last_checked_at: "2026-05-25T05:35:41.623Z"
+      - windsurf
+    last_checked_at: "2026-06-01T05:40:22.094Z"
     readme:
-      fetched_at: "2026-05-25T05:35:41.623Z"
-      bytes: 11058
+      fetched_at: "2026-06-01T05:40:22.094Z"
+      bytes: 11827
 insights:
   summary: An MCP server that exposes Clamp web analytics data—including traffic, visitors, events, funnels, and alerts—as tools for MCP-compatible editors and agents like Cursor, Claude Code, and VS Code Copilot.
   why_it_matters: It lets developers query real-time and historical product analytics directly from their coding assistant instead of switching to a separate dashboard.
@@ -80,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-25T05:35:41.623Z"
+    updated_at: "2026-06-01T05:40:22.094Z"
     cause: null
     next_retry_at: null
   categorize:

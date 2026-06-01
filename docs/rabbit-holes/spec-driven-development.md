@@ -22,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `context-engineering` `claude-code` `meta-prompting` `subagents`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 48k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 48.4k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
 
   It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
 
@@ -112,6 +112,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `mcp` `spec-driven` `requirements` `workflow`
   </details>
 
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 375` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
+
+  It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
+
+  _We have successfully optimized the time between 'having an idea' and 'having a 10,000-word document the AI will ignore' down to under three minutes._
+
+  `spec-driven` `planning` `prompt-generation` `architecture`
+  </details>
+
 - **[FPF](https://github.com/ailev/fpf)** `⭐ 374` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
 
   It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
@@ -119,15 +128,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   _Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo._
 
   `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
-  </details>
-
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 373` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
-
-  It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
-
-  _We have successfully optimized the time between 'having an idea' and 'having a 10,000-word document the AI will ignore' down to under three minutes._
-
-  `spec-driven` `planning` `prompt-generation` `architecture`
   </details>
 
 - **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 296` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
@@ -139,7 +139,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 249` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 255` `updated ≤30d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
 
@@ -148,7 +148,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `mcp` `context`
   </details>
 
-- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 249` `updated ≤30d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
+- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 255` `updated ≤30d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
 
   It turns scattered planning artifacts into structured, AI-readable specs that any assistant can consume via MCP or CLI, letting teams keep existing backends while enforcing a spec-first loop.
 
@@ -157,7 +157,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `sdd` `cli` `mcp` `project-management`
   </details>
 
-- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 177` `updated ≤30d` A command pack for Cursor IDE that provides spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, tasks, and code. <details><summary>More about</summary>
+- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 177` `updated ≤90d` A command pack for Cursor IDE that provides spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, tasks, and code. <details><summary>More about</summary>
 
   It forces a spec-first discipline directly inside Cursor, giving developers a structured planning and execution loop instead of relying on improvisational prompting.
 
@@ -224,7 +224,7 @@ _These are new or low-traffic entries being watched._
   `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 
-- **[colign](https://github.com/colign/colign)** `⭐ 4` `updated ≤30d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
+- **[colign](https://github.com/colign/colign)** `⭐ 4` `updated ≤90d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
 
   It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
 
