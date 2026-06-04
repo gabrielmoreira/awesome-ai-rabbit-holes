@@ -1,0 +1,75 @@
+id: codegen__com
+kind: website
+name: codegen.com
+canonical_url: https://codegen.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codegen__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Codegen
+        anchor_text: Codegen
+        extracted_url: https://www.codegen.com
+        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI-powered coding platform that automates the development workflow from ticket creation to pull request.
+  why_it_matters: It aims to bridge the gap between project management (like Linear) and actual implementation by turning tickets directly into code.
+  mental_damage: The dream of 'tickets becoming code' means we can now generate technical debt at the speed of thought without the inconvenient middle step of thinking.
+  tags:
+    - ai-agents
+    - workflow-automation
+    - autonomous-coding
+  confidence: high
+curation:
+  status: included
+  reason: It is a standalone agent platform that plans and implements changes across a repo, moving from ticket to PR.
+  evidence:
+    - Claims to 'automate the full development workflow — from ticket to pull request'
+    - Described as the 'Operating System for AI coding agents'
+    - Includes specific integration where 'Tickets Become Code' (Linear integration)
+placement:
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:24.483Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

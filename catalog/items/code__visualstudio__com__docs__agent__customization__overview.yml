@@ -1,0 +1,77 @@
+id: code__visualstudio__com__docs__agent__customization__overview
+kind: website
+name: overview
+canonical_url: https://code.visualstudio.com/docs/agent-customization/overview
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__visualstudio__com__docs__agent__customization__overview__awesome-list__github__awesome-copilot
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - 📚 Additional Resources
+        anchor_text: VS Code Copilot Customization Documentation
+        extracted_url: https://code.visualstudio.com/docs/copilot/copilot-customization
+        surrounding_text: "- [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Official VS Code documentation for customizing AI behavior through instructions, prompt files, custom agents, and MCP servers.
+  why_it_matters: It provides the standard framework for aligning an IDE's AI responses with project-specific coding standards and complex multi-step workflows.
+  mental_damage: The promise of 'aligning AI responses with coding practices' implies that we can eventually stop arguing with the LLM about where the semicolon goes.
+  tags:
+    - vs-code
+    - copilot
+    - agent-customization
+    - mcp
+    - prompt-engineering
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation page/guide rather than a standalone tool, library, or product.
+  evidence:
+    - URL is code.visualstudio.com/docs/...
+    - The content consists of tutorials and conceptual guides on using existing editor features.
+    - It describes how to use features of VS Code and GitHub Copilot rather than being a distinct tool itself.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:18.253Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

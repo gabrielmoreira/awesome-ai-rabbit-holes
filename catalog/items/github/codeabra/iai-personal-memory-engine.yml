@@ -1,0 +1,101 @@
+id: github__codeabra__iai-personal-memory-engine
+kind: github-repo
+name: iai-personal-memory-engine
+canonical_url: https://github.com/codeabra/iai-personal-memory-engine
+identity:
+  github_repo: codeabra/iai-personal-memory-engine
+provenance:
+  discoveries:
+    - id: discovery__github__codeabra__iai-personal-memory-engine__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: CodeAbra/iai-mcp
+        extracted_url: https://github.com/codeabra/iai-mcp
+        surrounding_text: "- [CodeAbra/iai-mcp](https://github.com/CodeAbra/iai-mcp) [![CodeAbra/iai-mcp MCP server](https://glama.ai/mcp/servers/CodeAbra/iai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/CodeAbra/iai-mcp) 🐍 🏠 🍎 🐧 - Local memory daemon with three-tier storage (episodic/semantic/procedural), vector search via LanceDB + bge-small-en-v1.5, graph-based recall reranking, and sleep-cycle consolidation. AES-256 encrypted at rest. Verbatim recall >=99% at 10k records, p95 <100ms. Ambient capture via Claude Code Stop hook."
+        confidence: high
+metadata:
+  github:
+    stars: 135
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2026-05-06T08:04:52Z"
+    pushed_at: "2026-05-15T06:09:23Z"
+    description: The best-benchmarked open-source memory system for AI coding assistants
+    homepage: null
+    topics:
+      - ai-agents
+      - ai-memory
+      - claude
+      - claude-code
+      - embeddings
+      - episodic-memory
+      - lancedb
+      - llm-tools
+      - local-first
+      - long-term-memory
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - openclaw
+      - python
+      - semantic-search
+      - sentence-transformers
+      - vector-search
+    last_checked_at: "2026-06-04T05:40:49.568Z"
+    readme:
+      fetched_at: "2026-06-04T05:40:49.568Z"
+      bytes: 19174
+insights:
+  summary: A local memory server that provides long-term, verbatim conversation recall for Claude and other MCP-compatible assistants.
+  why_it_matters: It removes the need to manually remind assistants of previous context by automatically capturing and injecting relevant historical conversation slices into new sessions.
+  mental_damage: The relief of not having to say 'remember that thing from three days ago' is slightly offset by the anxiety of a local database recording every single prompt you've ever sent.
+  tags:
+    - mcp
+    - long-term-memory
+    - local-ai
+    - claude-code
+    - retrieval
+  confidence: high
+curation:
+  status: included
+  reason: The core novelty is the memory and retrieval system (capturing, organizing, and serving memory slices) rather than the MCP protocol itself or the agent integration.
+  evidence:
+    - README describes it as a 'local memory layer' that captures session turns and serves a 'small slice of relevant memory'
+    - Focuses on technical metrics like 'verbatim recall' and 'p95 latency'
+    - Provides an automated pipeline for embed -> dedup -> encrypted insert
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-04T05:40:49.568Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:37.358Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

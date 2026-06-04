@@ -52,6 +52,21 @@ provenance:
         extracted_url: https://github.com/significant-gravitas/auto-gpt
         surrounding_text: "- Resource optimization- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for"
         confidence: high
+    - id: discovery__github__significant-gravitas__autogpt__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - AutoGPT
+        anchor_text: AutoGPT
+        extracted_url: https://agpt.co
+        surrounding_text: "## [AutoGPT](https://agpt.co/?utm_source=awesome-ai-agents)"
+        confidence: high
 metadata:
   github:
     stars: 184037
@@ -104,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.579Z"
+    updated_at: "2026-06-04T05:40:27.160Z"
     cause: null
     next_retry_at: null
   stars:

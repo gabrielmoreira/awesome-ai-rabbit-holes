@@ -1,0 +1,78 @@
+id: code__visualstudio__com__docs__chat__copilot__chat
+kind: website
+name: copilot-chat
+canonical_url: https://code.visualstudio.com/docs/chat/copilot-chat
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__visualstudio__com__docs__chat__copilot__chat__awesome-list__github__awesome-copilot
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: github/awesome-copilot
+        url: https://github.com/github/awesome-copilot
+        repository: github/awesome-copilot
+      extraction:
+        mode: parsed
+        section_path:
+          - 📚 Additional Resources
+        anchor_text: GitHub Copilot Chat Documentation
+        extracted_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
+        surrounding_text: "- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: The AI-powered chat interface and agent runtime integrated into Visual Studio Code.
+  why_it_matters: It provides multiple interaction surfaces (Chat view, Agents window, Inline chat) to transition from simple Q&A to autonomous agentic workflows that can edit files and run terminal commands.
+  mental_damage: The transition from 'Chat view' for single workspaces to an 'Agents window' for multiple projects is the first step toward managing a fleet of autonomous interns who can all edit your source code simultaneously.
+  tags:
+    - vscode
+    - github-copilot
+    - agentic-workflow
+    - ide-integration
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is a comprehensive coding assistant that can plan, edit files, and execute terminal commands directly within the IDE surface.
+  evidence:
+    - README states it enables 'agentic workflows, multi-file edits' and 'autonomously determine what needs to be done'
+    - Supports 'Agent Target' selection for local, background, or cloud execution
+    - Includes an 'Agents window' specifically for orchestrating agents across projects
+placement:
+  primary_category: coding-agents
+  section: IDE-Native Assistants
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:22.671Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

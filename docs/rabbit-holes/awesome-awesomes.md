@@ -4,7 +4,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 ## Tools & Resources
 
-- **[awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)** `⭐ 109.1k` `updated ≤30d` A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations. <details><summary>More about</summary>
+- **[awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)** `⭐ 109.1k` `updated ≤90d` A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations. <details><summary>More about</summary>
 
   Developers can clone and customize ready-to-run starter code for modern LLM patterns instead of rebuilding RAG pipelines and agent loops from scratch.
 
@@ -13,7 +13,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `agents` `rag` `templates` `cookbook`
   </details>
 
-- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** `⭐ 86.4k` `updated ≤30d` A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools. <details><summary>More about</summary>
+- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** `⭐ 86.4k` `updated ≤90d` A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools. <details><summary>More about</summary>
 
   It serves as the primary discovery layer for developers looking to extend AI assistants with new capabilities via standardized MCP servers.
 
@@ -22,7 +22,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `discovery`
   </details>
 
-- **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 39.4k` `updated ≤30d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
+- **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 39.4k` `updated ≤90d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
 
   Developers can quickly adopt community-vetted rule sets to align Cursor's AI code generation with specific frameworks, languages, and team standards.
 
@@ -247,7 +247,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `langgraph` `ecosystem`
   </details>
 
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.7k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.8k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
 
   It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
 
@@ -274,7 +274,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `multi-agent` `research` `papers` `awesome-list`
   </details>
 
-- **[awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)** `⭐ 1.5k` `updated ≤30d` A curated, frequently updated awesome list indexing LLM agent frameworks, orchestration tools, and development platforms. <details><summary>More about</summary>
+- **[awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)** `⭐ 1.5k` `updated ≤90d` A curated, frequently updated awesome list indexing LLM agent frameworks, orchestration tools, and development platforms. <details><summary>More about</summary>
 
   It serves as a centralized map for developers trying to navigate the rapidly expanding and often redundant ecosystem of agent frameworks.
 
@@ -328,7 +328,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 865` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
+- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 867` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
 
   It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
 
@@ -346,6 +346,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `local-llm` `discovery`
   </details>
 
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 733` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+
+  It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
+
+  _Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'._
+
+  `awesome-list` `vibe-coding` `directory` `ai-tools` `discovery`
+  </details>
+
 - **[awesome-federated-learning](https://github.com/weimingwill/awesome-federated-learning)** `⭐ 731` `updated ≤1y` A curated GitHub repository listing federated learning resources including papers, blogs, videos, and frameworks. <details><summary>More about</summary>
 
   Helps developers discover federated learning tools and research for privacy-preserving machine learning workflows.
@@ -353,15 +362,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another awesome list that promises to save you time while adding yet another tab to your eternal research backlog._
 
   `federated-learning` `awesome-list` `research`
-  </details>
-
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 721` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
-
-  It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
-
-  _Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'._
-
-  `awesome-list` `vibe-coding` `directory` `ai-tools` `discovery`
   </details>
 
 - **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 481` `updated >1y` A curated guide and directory of free and open source MLOps tools covering the full lifecycle from data annotation to model monitoring. <details><summary>More about</summary>
@@ -467,7 +467,7 @@ _These are new or low-traffic entries being watched._
   `agents` `directory` `frameworks` `research` `list`
   </details>
 
-- **[awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration)** `⭐ 8` `updated ≤90d` An awesome list curating AI agent orchestration frameworks, multi-agent systems, swarm intelligence, and communication protocols like A2A and MCP. <details><summary>More about</summary>
+- **[awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration)** `⭐ 8` `updated ≤180d` An awesome list curating AI agent orchestration frameworks, multi-agent systems, swarm intelligence, and communication protocols like A2A and MCP. <details><summary>More about</summary>
 
   Helps developers discover and compare agent coordination tools for building complex multi-agent AI systems.
 

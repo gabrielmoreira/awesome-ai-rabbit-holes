@@ -4,7 +4,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 142.1k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+- **[skills](https://github.com/anthropics/skills)** `⭐ 146.2k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
 
@@ -206,7 +206,7 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `google-docs` `memyard`
   </details>
 
-- **[Relay](https://github.com/momobits/relay)** `⭐ 1` `updated ≤30d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
+- **[Relay](https://github.com/momobits/relay)** `⭐ 1` `updated ≤90d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
 
   It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
 

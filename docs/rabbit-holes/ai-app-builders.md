@@ -4,7 +4,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 72.7k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 72.8k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
 
   It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
 
@@ -116,7 +116,7 @@ _These are new or low-traffic entries being watched._
   `nodejs` `app-generator` `prompt-to-app` `gpt-4` `scaffolding`
   </details>
 
-- **[cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 29` `updated ≤30d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
+- **[cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 29` `updated ≤90d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
 
   It lets developers design and validate cloud infrastructure with a single prompt, reducing manual effort in IaC creation and compliance checks.
 

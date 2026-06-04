@@ -1,0 +1,77 @@
+id: tavily__com
+kind: website
+name: tavily.com
+canonical_url: https://tavily.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__tavily__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Tavily
+        extracted_url: https://tavily.com
+        surrounding_text: "- **[Tavily](https://github.com/tavily-ai/tavily-mcp)** - Search engine for AI agents (search + extract) powered by [Tavily](https://tavily.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A real-time search and extraction engine designed specifically to ground AI agents and RAG workflows with fresh web data.
+  why_it_matters: It solves the 'stale knowledge' problem by providing developers with a high-speed, API-driven way to feed current web context into LLMs without building a custom crawler.
+  mental_damage: The comforting realization that your agent's 'reasoning' is actually just a very fast Google search filtered through a prompt.
+  tags:
+    - rag
+    - web-search
+    - context-window
+    - agents
+    - real-time-data
+  confidence: high
+curation:
+  status: included
+  reason: The product's core identity is the infrastructure for retrieval and fresh-doc lookup to prevent hallucinations, which fits the context-engineering definition perfectly.
+  evidence:
+    - Site context describes it as a 'real-time search engine for AI agents' and 'fresh-doc lookup'.
+    - Claims to 'ground' models and provide 'context retrieval' to prevent hallucinations.
+    - Included in 'awesome-mcp-servers' but provides a broader API service beyond just an MCP server.
+placement:
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:51.441Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

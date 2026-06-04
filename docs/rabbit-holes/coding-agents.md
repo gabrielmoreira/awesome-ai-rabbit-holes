@@ -13,7 +13,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `rust` `anthropic`
   </details>
 
-- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 166.3k` `updated ≤30d` An open-source AI coding agent that runs in the terminal and as a desktop app, designed to read, plan, edit, and execute code across a repository. <details><summary>More about</summary>
+- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 169.6k` `updated ≤30d` An open-source AI coding agent that runs in the terminal and as a desktop app, designed to read, plan, edit, and execute code across a repository. <details><summary>More about</summary>
 
   It offers a capable, Claude Code-like workflow in an open-source package with multi-agent modes (build, plan, general) and broad installation options.
 
@@ -31,7 +31,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `self-improving` `multi-model` `terminal`
   </details>
 
-- **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 127.1k` `updated ≤30d` Claude Code is a terminal-native AI coding agent that reads your codebase, executes routine tasks, explains complex code, and handles git workflows via natural language commands. <details><summary>More about</summary>
+- **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 129.9k` `updated ≤30d` Claude Code is a terminal-native AI coding agent that reads your codebase, executes routine tasks, explains complex code, and handles git workflows via natural language commands. <details><summary>More about</summary>
 
   It lets developers offload boilerplate, code navigation, and git rituals to an agent that already lives in the shell they never leave.
 
@@ -67,7 +67,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `sdk` `self-hosted` `multi-agent`
   </details>
 
-- **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** `⭐ 63.4k` `updated ≤30d` Open Interpreter is a terminal-based natural language interface that runs Python, JavaScript, and shell code locally via LLMs to perform tasks like data analysis, file manipulation, and browser automation. <details><summary>More about</summary>
+- **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** `⭐ 63.4k` `updated ≤90d` Open Interpreter is a terminal-based natural language interface that runs Python, JavaScript, and shell code locally via LLMs to perform tasks like data analysis, file manipulation, and browser automation. <details><summary>More about</summary>
 
   It gives developers a local, unrestricted alternative to OpenAI's Code Interpreter with full system access, internet connectivity, and no runtime limits.
 
@@ -112,7 +112,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `llm-api` `tui` `mono-repo`
   </details>
 
-- **[Goose](https://github.com/aaif-goose/goose)** `⭐ 46k` `updated ≤30d` An open-source, extensible AI agent available as a desktop app, CLI, and API that installs, executes, edits, and tests code using any LLM. <details><summary>More about</summary>
+- **[Goose](https://github.com/aaif-goose/goose)** `⭐ 46.4k` `updated ≤30d` An open-source, extensible AI agent available as a desktop app, CLI, and API that installs, executes, edits, and tests code using any LLM. <details><summary>More about</summary>
 
   Developers can run a general-purpose coding agent locally that integrates with 15+ LLM providers and 70+ MCP extensions directly from the terminal or desktop.
 
@@ -121,7 +121,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `desktop` `mcp` `local-agent` `rust`
   </details>
 
-- **[Aider](https://github.com/aider-ai/aider)** `⭐ 45.4k` `updated ≤30d` Aider is a terminal-based AI pair programming tool that connects to various LLMs to read, edit, and manage codebases with automatic git integration. <details><summary>More about</summary>
+- **[Aider](https://github.com/aider-ai/aider)** `⭐ 45.7k` `updated ≤30d` Aider is a terminal-based AI pair programming tool that connects to various LLMs to read, edit, and manage codebases with automatic git integration. <details><summary>More about</summary>
 
   It allows developers to delegate multi-file code changes, testing, and linting to an LLM directly from the command line while maintaining sensible git diffs.
 
@@ -301,7 +301,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `data` `agents` `sql` `rag` `analysis`
   </details>
 
-- **[Agent Zero](https://github.com/agent0ai/agent-zero)** `⭐ 17.8k` `updated ≤30d` Agent Zero is a dynamic, extensible AI agentic framework that runs in a full Linux environment, allowing agents to write code, execute commands, browse the web, and create custom tools to solve complex tasks. <details><summary>More about</summary>
+- **[Agent Zero](https://github.com/agent0ai/agent-zero)** `⭐ 17.9k` `updated ≤30d` Agent Zero is a dynamic, extensible AI agentic framework that runs in a full Linux environment, allowing agents to write code, execute commands, browse the web, and create custom tools to solve complex tasks. <details><summary>More about</summary>
 
   It provides developers with a transparent, inspectable agent environment that can semi-autonomously handle system-level tasks, file operations, and even document creation via LibreOffice integration.
 
@@ -310,7 +310,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `agents` `linux` `framework` `autonomous` `browser-automation`
   </details>
 
-- **[OpenWork](https://github.com/different-ai/openwork)** `⭐ 15.5k` `updated ≤30d` An open-source desktop and CLI host for OpenCode that provides a local-first UI, session management, permissioning, and workflow templates to run coding agent tasks locally or remotely. <details><summary>More about</summary>
+- **[OpenWork](https://github.com/different-ai/openwork)** `⭐ 15.8k` `updated ≤30d` An open-source desktop and CLI host for OpenCode that provides a local-first UI, session management, permissioning, and workflow templates to run coding agent tasks locally or remotely. <details><summary>More about</summary>
 
   It gives teams a reproducible, auditable surface to package and share agentic workflows without being locked into Claude Cowork or pure CLI-only workflows.
 
@@ -382,7 +382,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `computer-use` `gui-agents` `automation` `framework` `osworld`
   </details>
 
-- **[pr-agent](https://github.com/the-pr-agent/pr-agent)** `⭐ 11.1k` `updated ≤30d` An open-source AI agent that automates pull request reviews, suggestions, and Q&A across GitHub, GitLab, Bitbucket, and Azure DevOps via CLI, GitHub Actions, or webhooks. <details><summary>More about</summary>
+- **[pr-agent](https://github.com/the-pr-agent/pr-agent)** `⭐ 11.1k` `updated ≤90d` An open-source AI agent that automates pull request reviews, suggestions, and Q&A across GitHub, GitLab, Bitbucket, and Azure DevOps via CLI, GitHub Actions, or webhooks. <details><summary>More about</summary>
 
   It lets teams automate code reviews with customizable AI prompts and multi-model support without adopting a closed enterprise platform.
 
@@ -463,7 +463,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `coding-agent` `terminal` `mcp` `acp`
   </details>
 
-- **[NullClaw](https://github.com/nullclaw/nullclaw)** `⭐ 7.4k` `updated ≤30d` A tiny, self-contained AI assistant infrastructure written in Zig that runs as a ~678 KB static binary with support for 50+ providers, 19 channels, and autonomous agent capabilities. <details><summary>More about</summary>
+- **[NullClaw](https://github.com/nullclaw/nullclaw)** `⭐ 7.4k` `updated ≤90d` A tiny, self-contained AI assistant infrastructure written in Zig that runs as a ~678 KB static binary with support for 50+ providers, 19 channels, and autonomous agent capabilities. <details><summary>More about</summary>
 
   It delivers a fully autonomous coding and assistant runtime that boots in milliseconds and runs on $5 hardware, making local AI agent infrastructure viable for edge and embedded developer workflows.
 
@@ -877,13 +877,22 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `shell` `terminal` `llm-integration` `openai`
   </details>
 
-- **[g3](https://github.com/dhanji/g3)** `⭐ 513` `updated ≤30d` g3 is a Rust-based terminal AI coding agent that writes code, executes commands, and manages context windows while supporting multiple LLM providers including local models via llama.cpp. <details><summary>More about</summary>
+- **[g3](https://github.com/dhanji/g3)** `⭐ 512` `updated ≤90d` g3 is a Rust-based terminal AI coding agent that writes code, executes commands, and manages context windows while supporting multiple LLM providers including local models via llama.cpp. <details><summary>More about</summary>
 
   It offers developers a locally-runnable, provider-agnostic CLI agent with built-in computer control and context management for iterating on real repos without locking into a single hosted model.
 
   _Another terminal agent with computer control, because clearly what the world needed was more ways for LLMs to autonomously click through your OS while you watch the token counter in the footer._
 
   `cli` `coding-agent` `rust` `local-models` `llm-providers`
+  </details>
+
+- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 478` `updated ≤30d` Aeon is an autonomous agent framework that runs unattended on a schedule, leveraging skills like deep research and PR reviews to complete tasks without human approval loops. <details><summary>More about</summary>
+
+  It lets developers configure recurring tasks—such as morning briefs, security scans, and market monitoring—to run autonomously on GitHub Actions without requiring interactive supervision.
+
+  _We have finally built the 'set it and forget it' agent, which means the only thing left to debug at 3 AM is why the agent decided your production PR was a suitable place to practice its autonomous market analysis._
+
+  `autonomous-agents` `scheduled-tasks` `claude-code` `github-actions`
   </details>
 
 - **[claw-code-agent](https://github.com/harnesslab/claw-code-agent)** `⭐ 459` `updated ≤90d` A Python-based reimplementation of the Claude Code agent architecture that runs locally with zero external dependencies and supports local models via vLLM or Ollama. <details><summary>More about</summary>
@@ -893,15 +902,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Yet another weekend project promising to reinvent Claude Code in pure Python, because apparently the only thing missing from the ecosystem was an agent written without Rust or TypeScript._
 
   `coding-agent` `local-ai` `cli` `python` `open-source`
-  </details>
-
-- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 456` `updated ≤30d` Aeon is an autonomous agent framework that runs unattended on a schedule, leveraging skills like deep research and PR reviews to complete tasks without human approval loops. <details><summary>More about</summary>
-
-  It lets developers configure recurring tasks—such as morning briefs, security scans, and market monitoring—to run autonomously on GitHub Actions without requiring interactive supervision.
-
-  _We have finally built the 'set it and forget it' agent, which means the only thing left to debug at 3 AM is why the agent decided your production PR was a suitable place to practice its autonomous market analysis._
-
-  `autonomous-agents` `scheduled-tasks` `claude-code` `github-actions`
   </details>
 
 - **[Yunjue-Agent](https://github.com/yunjuetech/yunjue-agent)** `⭐ 422` `updated ≤90d` Yunjue Agent is a self-evolving agent system for open-ended tasks that creates and reuses tools to execute user-provided skills. <details><summary>More about</summary>
@@ -1448,6 +1448,15 @@ _These are new or low-traffic entries being watched._
   `code-completion` `multilingual` `code-generation` `ide-assistant`
   </details>
 
+- **[Codegen](https://codegen.com)** An AI-powered coding platform that automates the development workflow from ticket creation to pull request. <details><summary>More about</summary>
+
+  It aims to bridge the gap between project management (like Linear) and actual implementation by turning tickets directly into code.
+
+  _The dream of 'tickets becoming code' means we can now generate technical debt at the speed of thought without the inconvenient middle step of thinking._
+
+  `ai-agents` `workflow-automation` `autonomous-coding`
+  </details>
+
 - **[Codegen](https://codegen.com/home)** Codegen is an AI coding assistant that automates the full development workflow from ticket to pull request, marketed as the 'operating system for code agents'. <details><summary>More about</summary>
 
   It aims to replace manual boilerplate by handling planning, coding, and code review directly within a team's existing repo and project management tools like Linear.
@@ -1599,6 +1608,15 @@ _These are new or low-traffic entries being watched._
   _Yet another agent promising to handle the 'boring parts' of coding, ensuring you can spend even more time debugging the autonomous contributions it made while you weren't looking._
 
   `ai-agents` `automation` `dev-workflow`
+  </details>
+
+- **[GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/chat/copilot-chat)** The AI-powered chat interface and agent runtime integrated into Visual Studio Code. <details><summary>More about</summary>
+
+  It provides multiple interaction surfaces (Chat view, Agents window, Inline chat) to transition from simple Q&A to autonomous agentic workflows that can edit files and run terminal commands.
+
+  _The transition from 'Chat view' for single workspaces to an 'Agents window' for multiple projects is the first step toward managing a fleet of autonomous interns who can all edit your source code simultaneously._
+
+  `vscode` `github-copilot` `agentic-workflow` `ide-integration`
   </details>
 
 - **[Godmode](https://godmode.space)** Godmode is a web-based autonomous AI agent interface that allows users to run and iterate on tasks across multiple LLM backends. <details><summary>More about</summary>

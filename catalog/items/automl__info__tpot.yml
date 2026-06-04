@@ -1,0 +1,75 @@
+id: automl__info__tpot
+kind: website
+name: tpot
+canonical_url: http://automl.info/tpot
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__automl__info__tpot__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - AutoML
+        anchor_text: TPOT
+        extracted_url: http://automl.info/tpot
+        surrounding_text: "| [TPOT](http://automl.info/tpot/)                                             | one of the very first AutoML methods and open-source software packages.                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/EpistasisLab/tpot.svg?style=flat-square)               |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: TPOT (Tree-based Pipeline Optimization Tool) is an AutoML tool that uses genetic programming to automatically design and optimize machine learning pipelines.
+  why_it_matters: It automates the tedious process of selecting the best ML models and hyperparameters, effectively acting as an automated data scientist for pipeline construction.
+  mental_damage: The dream of an automated ML pipeline is only matched by the anxiety of watching a genetic algorithm spend 48 hours deciding that a Random Forest was the answer all along.
+  tags:
+    - automl
+    - pipeline-optimization
+    - scikit-learn
+    - genetic-programming
+  confidence: high
+curation:
+  status: excluded
+  reason: TPOT is a general ML/AutoML tool for model selection and pipeline optimization, which falls under general ML research/tooling rather than the specific scope of AI developer tools for building software, agents, or coding workflows.
+  evidence:
+    - Source-list placement in 'AutoML' section of Awesome-LLMOps
+    - Core functionality is automated pipeline design for ML models, not software development/coding assistance
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:13.828Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

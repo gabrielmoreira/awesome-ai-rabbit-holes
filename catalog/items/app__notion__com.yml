@@ -1,0 +1,76 @@
+id: app__notion__com
+kind: website
+name: app.notion.com
+canonical_url: https://app.notion.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__app__notion__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: OpenRAG
+        extracted_url: https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595
+        surrounding_text: 28. [OpenRAG](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A collaborative AI workspace that allows teams to build and orchestrate agents integrated with company context, projects, and connected apps.
+  why_it_matters: It attempts to bridge the gap between structured project management and agent orchestration by grounding AI actions in existing team documentation and meeting notes.
+  mental_damage: The dream of a single 'AI workspace' usually just means your documentation is now a graveyard where agents hallucinate based on a meeting note from three months ago.
+  tags:
+    - collaboration
+    - orchestration
+    - knowledge-base
+    - agents
+  confidence: high
+curation:
+  status: excluded
+  reason: Notion is a broad SaaS productivity platform; while it has agent orchestration features, it is not a specialized developer tool, IDE, or AI-native building block for software development.
+  evidence:
+    - Product identity is a 'collaborative AI workspace' for teams
+    - Focuses on 'projects, meetings, and connected apps' rather than codebases, repos, or development workflows
+    - Lack of developer-specific signals like stars, repo, or technical SDKs
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:10.767Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

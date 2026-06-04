@@ -85,7 +85,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `llm` `self-hosted` `agents`
   </details>
 
-- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 49.4k` `updated ≤30d` A plain C/C++ port of OpenAI's Whisper speech recognition model optimized for high-performance, cross-platform, and on-device inference. <details><summary>More about</summary>
+- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 49.4k` `updated ≤90d` A plain C/C++ port of OpenAI's Whisper speech recognition model optimized for high-performance, cross-platform, and on-device inference. <details><summary>More about</summary>
 
   It provides developers with a lightweight, dependency-free runtime to integrate offline speech-to-text capabilities into applications across platforms like iOS, Android, and WebAssembly.
 
@@ -157,7 +157,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `rag` `local-llm` `langchain` `agent` `knowledge-base`
   </details>
 
-- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 37.4k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
+- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 38.1k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
 
   It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
 
@@ -175,7 +175,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm` `inference` `local-ai` `serving` `multimodal`
   </details>
 
-- **[llamafile](https://github.com/mozilla-ai/llamafile)** `⭐ 24.4k` `updated ≤30d` llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures. <details><summary>More about</summary>
+- **[llamafile](https://github.com/mozilla-ai/llamafile)** `⭐ 24.4k` `updated ≤90d` llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures. <details><summary>More about</summary>
 
   It enables developers to run open-weight models locally with zero setup, making private, offline AI inference trivial to distribute and test against.
 
@@ -256,7 +256,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `gguf` `inference` `openai-api`
   </details>
 
-- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.3k` `updated ≤30d` Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server. <details><summary>More about</summary>
+- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.4k` `updated ≤30d` Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server. <details><summary>More about</summary>
 
   It lets developers run GGUF models locally with hardware acceleration and drop-in OpenAI API compatibility for building offline-capable AI workflows.
 
@@ -490,7 +490,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `embeddings` `semantic-search` `fastapi` `llama-cpp`
   </details>
 
-- **[Minima](https://github.com/dmayboroda/minima)** `⭐ 1.1k` `updated ≤180d` Minima is an open-source, on-premises RAG (Retrieval-Augmented Generation) system that runs as configurable Docker containers, allowing developers to query local documents using local LLMs, ChatGPT, or Claude via MCP integration. <details><summary>More about</summary>
+- **[Minima](https://github.com/dmayboroda/minima)** `⭐ 1k` `updated ≤180d` Minima is an open-source, on-premises RAG (Retrieval-Augmented Generation) system that runs as configurable Docker containers, allowing developers to query local documents using local LLMs, ChatGPT, or Claude via MCP integration. <details><summary>More about</summary>
 
   It offers a self-contained, privacy-first infrastructure for indexing and querying local codebases or documentation using your choice of local models or external APIs.
 
@@ -517,7 +517,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `discord` `llm-frontend` `local-ai` `chatbot` `openai-compatible`
   </details>
 
-- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 520` `updated ≤30d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
+- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 520` `updated ≤90d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers self-host and ship local LLM inference and fine-tuning workloads using familiar container workflows and Kubernetes, without relying on external API providers.
 
@@ -566,7 +566,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
 
 _These are new or low-traffic entries being watched._
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 109` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 120` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 
@@ -575,7 +575,7 @@ _These are new or low-traffic entries being watched._
   `kubernetes` `local-inference` `self-hosted` `gpu-serving` `llm-operator`
   </details>
 
-- **[LoLLMS](https://github.com/parisneo/lollms)** `⭐ 72` `updated ≤30d` A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features. <details><summary>More about</summary>
+- **[LoLLMS](https://github.com/parisneo/lollms)** `⭐ 72` `updated ≤90d` A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features. <details><summary>More about</summary>
 
   It provides a local-first, privacy-preserving alternative to hosted chat platforms with deep integration into multiple LLM services and extensible document retrieval.
 

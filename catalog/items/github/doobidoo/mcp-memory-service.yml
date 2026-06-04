@@ -88,9 +88,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-25T05:35:54.408Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-04T05:40:58.303Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: doobidoo/mcp-memory-service"
     next_retry_at: null
   categorize:
     status: done

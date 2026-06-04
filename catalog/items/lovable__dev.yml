@@ -20,6 +20,21 @@ provenance:
         extracted_url: https://lovable.dev
         surrounding_text: "- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab."
         confidence: high
+    - id: discovery__lovable__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - GPT Engineer
+        anchor_text: GPT Engineer
+        extracted_url: https://gptengineer.app
+        surrounding_text: "## [GPT Engineer](https://gptengineer.app/)"
+        confidence: high
 metadata:
   github:
     stars: null
@@ -59,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: "2026-06-04T05:40:27.161Z"
     cause: null
     next_retry_at: null
   stars:

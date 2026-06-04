@@ -1,0 +1,87 @@
+id: auth__ampcode__com
+kind: website
+name: auth.ampcode.com
+canonical_url: https://auth.ampcode.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__auth__ampcode__com__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Amp
+        extracted_url: https://sourcegraph.com/amp
+        surrounding_text: "- **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for implementing tasks across real codebases."
+        confidence: high
+    - id: discovery__auth__ampcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Amp (Sourcegraph)
+        extracted_url: https://ampcode.com
+        surrounding_text: "- **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search infrastructure with deep codebase graph and unconstrained token usage."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A login or authentication page for a tool named Teken.
+  why_it_matters: It doesn't; it is an authentication endpoint, not a developer tool.
+  mental_damage: The peak of the AI era is when the 'tool' you're researching is actually just a login screen that tells you to create an account.
+  tags: []
+  confidence: high
+curation:
+  status: excluded
+  reason: The provided input is an authentication page (login/signup) rather than a functional tool, SDK, or resource.
+  evidence:
+    - Scraped site context contains only 'Teken in', 'Create account', and 'Privacy policy' text.
+    - No repo description, README, or functional product details provided.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:08.706Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

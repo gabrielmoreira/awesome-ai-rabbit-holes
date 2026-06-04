@@ -78,9 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-25T05:35:55.519Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-04T05:41:00.009Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for duhokim/nebulamind
     next_retry_at: null
   categorize:
     status: done

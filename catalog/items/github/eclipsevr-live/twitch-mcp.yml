@@ -66,9 +66,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-28T05:28:23.999Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-04T05:41:01.732Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for eclipsevr-live/twitch-mcp
     next_retry_at: null
   categorize:
     status: done

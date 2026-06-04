@@ -1,0 +1,83 @@
+id: github__bjmhe-archived__mermaid-grammer-inspector-mcp
+kind: github-repo
+name: mermaid-grammer-inspector-mcp
+canonical_url: https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp
+identity:
+  github_repo: bjmhe-archived/mermaid-grammer-inspector-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bjmhe-archived__mermaid-grammer-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-04T05:40:27.160Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📐 <a name="architecture-and-design"></a>Architecture & Design
+        anchor_text: betterhyq/mermaid-grammer-inspector-mcp
+        extracted_url: https://github.com/betterhyq/mermaid_grammer_inspector_mcp
+        surrounding_text: "- [betterhyq/mermaid-grammer-inspector-mcp](https://github.com/betterhyq/mermaid_grammer_inspector_mcp) 📇 🏠 🍎 🪟 🐧 - A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities"
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: true
+    created_at: "2025-12-09T13:19:02Z"
+    pushed_at: "2026-06-03T07:54:32Z"
+    description: A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
+    homepage: https://bjmhe-archived.github.io/mermaid-grammer-inspector-mcp/
+    topics:
+      - agent
+      - ai
+      - mcp
+    last_checked_at: "2026-06-04T05:40:47.704Z"
+    readme:
+      fetched_at: "2026-06-04T05:40:47.704Z"
+      bytes: 2661
+insights:
+  summary: An MCP server that provides syntax validation and grammar checking for Mermaid diagrams.
+  why_it_matters: It prevents the frustration of an LLM hallucinating Mermaid syntax by giving the agent a deterministic way to verify if a diagram actually renders.
+  mental_damage: The inevitable cycle of an agent fixing a syntax error, introducing a new one, and then apologizing for its 'oversight' until the diagram finally renders.
+  tags:
+    - mcp
+    - mermaid
+    - diagrams
+    - validation
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is explicitly archived, which is an immediate negative signal for a tool that provides no significant unique utility over the core Mermaid CLI or standard IDE plugins.
+  evidence:
+    - "archived: yes"
+    - "Repo description: A Model Context Protocol (MCP) server for validating Mermaid diagram syntax"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: Repository is archived
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-04T05:40:47.704Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-04T05:42:30.745Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

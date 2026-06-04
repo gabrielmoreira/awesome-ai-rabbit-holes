@@ -112,7 +112,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `prompt-engineering` `evals` `notebooks` `llm-optimization`
   </details>
 
-- **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.5k` `updated ≤30d` Evidently is an open-source Python framework for evaluating, testing, and monitoring ML and LLM-powered systems, offering over 100 built-in metrics for data quality, drift detection, and generative AI evaluations. <details><summary>More about</summary>
+- **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.5k` `updated ≤90d` Evidently is an open-source Python framework for evaluating, testing, and monitoring ML and LLM-powered systems, offering over 100 built-in metrics for data quality, drift detection, and generative AI evaluations. <details><summary>More about</summary>
 
   It provides developers with both offline evaluation reports and live monitoring dashboards to validate AI system behavior from experimentation through production.
 
@@ -337,7 +337,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
   </details>
 
-- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 872` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
+- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 873` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
 
   It lets developers move beyond prompt-tweaking by programmatically generating diverse, schema-validated datasets to train and evaluate agents with tool-calling and reasoning capabilities.
 
@@ -355,7 +355,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `data-quality` `llm-eval` `rag-eval`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 625` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 636` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
 
   It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
 
@@ -382,7 +382,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `huggingface` `cli`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 364` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 368` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
 
   Developers running local models can quickly understand their hardware's actual inference performance before integrating them into workflows.
 
@@ -445,7 +445,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 234` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 236` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 
@@ -485,7 +485,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 _These are new or low-traffic entries being watched._
 
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 116` `updated ≤90d` XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs. <details><summary>More about</summary>
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 117` `updated ≤30d` XRAG is a Python benchmarking framework for evaluating foundational components of Retrieval-Augmented Generation (RAG) systems, including retrievers, embeddings, and LLMs. <details><summary>More about</summary>
 
   It provides developers with a modular workbench to measure retrieval quality, faithfulness, and answer correctness across different RAG configurations and orchestration strategies.
 
@@ -602,7 +602,7 @@ _These are new or low-traffic entries being watched._
   `evals` `benchmarks` `multi-agent` `swarms`
   </details>
 
-- **[silicon-pantheon](https://github.com/haoyifan/silicon-pantheon)** `⭐ 3` `updated ≤30d` A turn-based strategy game where AI agents like Claude and GPT-5 act as players on a tactical grid, coached by humans via strategy playbooks and real-time text input. <details><summary>More about</summary>
+- **[silicon-pantheon](https://github.com/haoyifan/silicon-pantheon)** `⭐ 3` `updated ≤90d` A turn-based strategy game where AI agents like Claude and GPT-5 act as players on a tactical grid, coached by humans via strategy playbooks and real-time text input. <details><summary>More about</summary>
 
   It provides a live environment for benchmarking agent reasoning, tactical planning, and prompt adherence through competitive gameplay rather than standard coding tasks.
 

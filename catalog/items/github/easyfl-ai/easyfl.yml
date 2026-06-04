@@ -66,9 +66,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-25T05:35:56.260Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-04T05:41:01.098Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for easyfl-ai/easyfl
     next_retry_at: null
   categorize:
     status: done
