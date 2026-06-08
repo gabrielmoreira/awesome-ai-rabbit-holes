@@ -13,7 +13,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `prompt-to-code` `frontend` `screenshot` `ui-scaffolding`
   </details>
 
-- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 20.4k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
+- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 20.5k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
 
   It allows developers to build AI-powered apps locally using their own API keys, eliminating vendor lock-in and keeping code private on their own hardware.
 
@@ -85,7 +85,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `starter-kit` `t3-stack` `langchain` `openai` `turborepo`
   </details>
 
-- **[contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 292` `updated ≤30d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
+- **[contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 292` `updated ≤90d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
 
   It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
 

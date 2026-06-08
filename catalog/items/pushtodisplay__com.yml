@@ -1,0 +1,78 @@
+id: pushtodisplay__com
+kind: website
+name: pushtodisplay.com
+canonical_url: https://pushtodisplay.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pushtodisplay__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-visualization"></a>Data Visualization
+        anchor_text: Push To Display
+        extracted_url: https://pushtodisplay.com
+        surrounding_text: "- [pushtodisplay/cli](https://github.com/pushtodisplay/cli)[![Push To Display MCP server](https://glama.ai/mcp/servers/pushtodisplay/cli/badges/score.svg)](https://glama.ai/mcp/servers/pushtodisplay/cli) 📇 🏠 🍎 🪟 🐧 - Push To Display MCP server send structured content to selected boards on iOS and android devices with app [Push To Display](https://pushtodisplay.com), route updates to specific panels, and render in real time with display-focused multi-panel layouts."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A programmable display layer that allows developers to push structured content from AI agents, CI/CD pipelines, or scripts to iOS and Android devices via a single API.
+  why_it_matters: It provides a low-friction way to move AI agent status updates or automation alerts out of a noisy terminal and onto a dedicated physical screen.
+  mental_damage: Now you can have a dedicated iPad on your desk that tells you exactly how many times your AI agent has failed to solve a bug in real-time.
+  tags:
+    - mcp
+    - dashboards
+    - ios
+    - android
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product's identity is centered on providing a display target for AI agents, and its primary integration method for those agents is a dedicated MCP server.
+  evidence:
+    - Provides an MCP server (npx pushtodisplay mcp) for auto-discovery by Claude Code and Cursor
+    - Primary function is pushing structured content via API, CLI, or MCP
+    - Targets developer workflows like CI/CD pipelines and AI agent output
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.249Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:43:21.507Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__explorer-64__imagcon-mcp
+kind: github-repo
+name: imagcon-mcp
+canonical_url: https://github.com/explorer-64/imagcon-mcp
+identity:
+  github_repo: explorer-64/imagcon-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__explorer-64__imagcon-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Explorer-64/imagcon-mcp
+        extracted_url: https://github.com/explorer-64/imagcon-mcp
+        surrounding_text: "- [Explorer-64/imagcon-mcp](https://github.com/Explorer-64/imagcon-mcp) [![Explorer-64/imagcon-mcp MCP server](https://glama.ai/mcp/servers/Explorer-64/imagcon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Explorer-64/imagcon-mcp) 🐍 ☁️ 🍎 🪟 🐧 - Generate deployment-ready PWA, iOS, and Android app icon sets from a text description. Produces all 27 required sizes, maskable icons, Xcode-ready iOS icons, Android mipmap folders, splash screens, and manifest.json — packaged as a ZIP. Powered by Google Imagen 4."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-05-20T16:02:17Z"
+    pushed_at: "2026-05-21T11:51:50Z"
+    description: MCP server for Imagcon — generate deployment-ready PWA, iOS, and Android app icon sets from a text description
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-08T05:39:15.455Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:15.455Z"
+      bytes: 1524
+insights:
+  summary: An MCP server that integrates the Imagcon API to generate PWA, iOS, and Android app icon sets from text descriptions.
+  why_it_matters: Allows developers to automate the tedious process of generating multiple scaled icon assets and manifest files directly within their AI coding assistant.
+  mental_damage: We have finally reached the peak of productivity where we can prompt our IDE to create the 16 different versions of a rounded-corner square we'll never actually look at.
+  tags:
+    - mcp
+    - pwa
+    - assets
+    - automation
+    - app-icons
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server providing a specific external capability (icon generation) to an LLM client.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server for Imagcon'
+    - README provides installation instructions for Claude Code and Cursor via MCP
+    - Included in awesome-mcp-servers under Developer Tools
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:15.455Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:41.863Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

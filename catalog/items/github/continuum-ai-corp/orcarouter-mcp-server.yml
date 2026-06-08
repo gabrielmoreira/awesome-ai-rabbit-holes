@@ -1,0 +1,97 @@
+id: github__continuum-ai-corp__orcarouter-mcp-server
+kind: github-repo
+name: orcarouter-mcp-server
+canonical_url: https://github.com/continuum-ai-corp/orcarouter-mcp-server
+identity:
+  github_repo: continuum-ai-corp/orcarouter-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__continuum-ai-corp__orcarouter-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: Continuum-AI-Corp/orcarouter-mcp-server
+        extracted_url: https://github.com/continuum-ai-corp/orcarouter-mcp-server
+        surrounding_text: "- [Continuum-AI-Corp/orcarouter-mcp-server](https://github.com/Continuum-AI-Corp/orcarouter-mcp-server) [![Continuum-AI-Corp/orcarouter-mcp-server MCP server](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Browse 160+ LLM models (OpenAI, Anthropic, Google, Qwen, DeepSeek, …) with live pricing — no API key required for catalog tools. Routes chat completions through the OrcaRouter gateway with automatic fallback. `npx -y @orcarouter/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-05-24T15:16:31Z"
+    pushed_at: "2026-05-26T19:28:40Z"
+    description: Official MCP server for OrcaRouter — the LLM gateway with auto-routing and fallback chains. Browse models and chat from Claude Desktop, Cursor, Windsurf, or any MCP client.
+    homepage: https://www.orcarouter.ai
+    topics:
+      - ai-gateway
+      - anthropic
+      - claude-code
+      - claude-desktop
+      - cursor
+      - deepseek
+      - gemini
+      - grok
+      - llm
+      - mcp
+      - minimax
+      - model-context-protocol
+      - openai
+      - orcarouter
+      - windsur
+    last_checked_at: "2026-06-08T05:39:07.919Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:07.919Z"
+      bytes: 6127
+insights:
+  summary: An MCP server that enables Model Context Protocol clients to browse the OrcaRouter model catalog and execute chat completions.
+  why_it_matters: It allows developers to swap models, compare pricing, and implement fallback chains directly from within their AI-native editor or CLI without leaving the workflow.
+  mental_damage: The joy of having a single config file that lets you oscillate between five different LLMs until you find the one that doesn't hallucinate your API keys.
+  tags:
+    - mcp
+    - llm-gateway
+    - model-routing
+    - fallback-chains
+    - multi-model
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server providing tools for model discovery and chat execution, making it a perfect fit for the MCP category.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server'
+    - README focuses on integration with MCP clients like Claude Desktop and Cursor
+    - "Core functionality is implemented as a set of MCP tools: orcarouter_chat, orcarouter_models_list, etc."
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:07.919Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:17.000Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

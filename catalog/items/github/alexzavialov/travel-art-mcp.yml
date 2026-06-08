@@ -1,0 +1,91 @@
+id: github__alexzavialov__travel-art-mcp
+kind: github-repo
+name: travel-art-mcp
+canonical_url: https://github.com/alexzavialov/travel-art-mcp
+identity:
+  github_repo: alexzavialov/travel-art-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alexzavialov__travel-art-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: alexzavialov/travel-art-mcp
+        extracted_url: https://github.com/alexzavialov/travel-art-mcp
+        surrounding_text: "- [alexzavialov/travel-art-mcp](https://github.com/alexzavialov/travel-art-mcp) [![travel-art-mcp MCP server](https://glama.ai/mcp/servers/alexzavialov/travel-art-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alexzavialov/travel-art-mcp) 📇 ☁️ - Art-tourism data for AI agents: biennales (Venice, Whitney), art fairs (Art Basel, Frieze), and major museum visitor guides (Louvre, Vatican, Uffizi, Prado, +growing). Three tools: `find_art_events`, `find_museum_guide`, `recommend_art_trip`. Hosted at https://mcp.travel.art/, no install. Catalogue grounded in 10 cornerstone editorial guides at travel.art."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-11T09:33:47Z"
+    pushed_at: "2026-06-05T10:39:44Z"
+    description: Model Context Protocol server for travel.art — art-tourism data (biennales, art fairs, museum visitor guides) exposed to AI agents over MCP. Live at https://mcp.travel.art/
+    homepage: https://mcp.travel.art/
+    topics:
+      - art
+      - art-tourism
+      - biennale
+      - cloudflare-workers
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - museums
+      - tourism
+      - travel
+    last_checked_at: "2026-06-08T05:39:06.478Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:06.478Z"
+      bytes: 7216
+insights:
+  summary: An MCP server that exposes art-tourism data, including museum guides, biennales, and art-focused layover itineraries, to AI agents.
+  why_it_matters: It allows developers to ground AI agents in verified, structured cultural data and logistics rather than letting the LLM hallucinate museum opening hours or fake ticket prices.
+  mental_damage: Finally, an AI tool that lets me spend four hours meticulously planning a 'lightning' museum visit via a JSON-RPC call instead of just going to the museum.
+  tags:
+    - mcp
+    - art-tourism
+    - grounding
+    - json-rpc
+  confidence: high
+curation:
+  status: included
+  reason: The project's entire identity is an MCP server providing domain-specific tools for a specific dataset, fitting perfectly into the MCP Domain Servers section.
+  evidence:
+    - Repo description explicitly identifies it as an 'MCP server'.
+    - README provides configuration for Claude Desktop and Cursor using MCP transport.
+    - Implements a specific set of tools (find_art_events, find_museum_guide) over MCP HTTP and stdio.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.247Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:06.478Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:39.228Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

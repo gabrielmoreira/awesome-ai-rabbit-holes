@@ -1,0 +1,81 @@
+id: github__codeswhat__portkey-admin-mcp
+kind: github-repo
+name: portkey-admin-mcp
+canonical_url: https://github.com/codeswhat/portkey-admin-mcp
+identity:
+  github_repo: codeswhat/portkey-admin-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__codeswhat__portkey-admin-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: s-b-e-n-s-o-n/portkey-admin-mcp
+        extracted_url: https://github.com/s-b-e-n-s-o-n/portkey-admin-mcp
+        surrounding_text: "- [s-b-e-n-s-o-n/portkey-admin-mcp](https://github.com/s-b-e-n-s-o-n/portkey-admin-mcp) [![portkey-admin-mcp MCP server](https://glama.ai/mcp/servers/s-b-e-n-s-o-n/portkey-admin-mcp/badges/score.svg)](https://glama.ai/mcp/servers/s-b-e-n-s-o-n/portkey-admin-mcp) 📇 ☁️ - MCP server for the Portkey AI Gateway Admin API — 150 tools for prompts, configs, analytics, keys, guardrails, integrations, and more."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-02T19:23:27Z"
+    pushed_at: "2026-06-06T01:39:59Z"
+    description: Full Portkey Admin API MCP server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-08T05:39:07.929Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:07.929Z"
+      bytes: 12300
+insights:
+  summary: An MCP server that provides 150 tools for managing the Portkey Admin API, including prompt versioning, configs, and analytics.
+  why_it_matters: It allows developers to manage their LLM gateway configuration, prompt assets, and cost tracking directly from their AI-native IDE or CLI agent without switching to a web dashboard.
+  mental_damage: The joy of managing your prompt versioning via a terminal agent while your company is being absorbed into a cybersecurity giant's AIRS platform.
+  tags:
+    - mcp
+    - llm-ops
+    - prompt-management
+    - portkey
+  confidence: high
+curation:
+  status: included
+  reason: The project's core identity is a dedicated MCP server providing a set of tools for a specific domain (Portkey's Admin API).
+  evidence:
+    - Repo description explicitly identifies as 'Full Portkey Admin API MCP server'
+    - README provides installation instructions specifically for MCP clients like Claude Code and Cursor
+    - Identified as an MCP server in the 'awesome-mcp-servers' list
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:07.929Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:09.659Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

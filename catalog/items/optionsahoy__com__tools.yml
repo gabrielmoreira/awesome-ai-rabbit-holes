@@ -1,0 +1,78 @@
+id: optionsahoy__com__tools
+kind: website
+name: tools
+canonical_url: https://optionsahoy.com/tools
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__optionsahoy__com__tools__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: optionsahoy.com/tools
+        extracted_url: https://optionsahoy.com/tools
+        surrounding_text: "- [AlvisoOculus/optionsahoy-mcp](https://github.com/AlvisoOculus/optionsahoy-mcp) [![AlvisoOculus/optionsahoy-mcp MCP server](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp) 📇 ☁️ - Multi-year equity-compensation optimization engine: returns the globally-optimal ISO/AMT exercise schedule, NSO sell-vs-hold decision, RSU vest plan, single-stock concentration sell-down, protective put / zero-cost collar pricing, and Section 1202 QSBS qualification verdict. Covers full federal tax code plus all 50 states + DC (ordinary brackets, long-term capital gains treatment, state AMT for CA/CO/CT/MN, FICA, NIIT). Remote HTTP MCP at `https://optionsahoy.com/mcp` (no auth, no install). Six tools, same engine as the in-browser calculators at [optionsahoy.com/tools](https://optionsahoy.com/tools)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A suite of tax and equity planning calculators for software engineers managing RSUs, ISOs, and concentrated stock positions.
+  why_it_matters: It helps developers optimize the timing and tax impact of exercising options and selling equity to avoid massive AMT bills or avoidable capital gains.
+  mental_damage: The realization that your 'generational wealth' is actually just a complex math problem involving the Alternative Minimum Tax and a prayer.
+  tags:
+    - equity-planning
+    - taxes
+    - rsus
+    - iso
+    - financial-planning
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a financial planning and tax calculator tool for employees, not a tool for building software or an AI tool for developers' coding workflows.
+  evidence:
+    - Focuses on 'tax-aware' sell schedules and 'ISO exercise' calculations
+    - The site provides financial calculators for RSU and QSBS qualification
+    - No mention of AI-driven development, coding agents, or developer infrastructure
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.249Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:43:14.569Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

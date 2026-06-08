@@ -29,8 +29,8 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-02-14T08:01:15Z"
-    pushed_at: "2026-05-26T18:42:54Z"
-    description: "Cross-platform MCP server with 43 tools: filesystem, process management, interactive sessions, async search. Features safe delete (Recycle Bin) and background search."
+    pushed_at: "2026-06-04T19:23:45Z"
+    description: "Local filesystem MCP server with 43 tools: safe delete, process management, interactive sessions, async search, OCR, ZIP, and Markdown/PDF export."
     homepage: https://www.npmjs.com/package/ellmos-filecommander-mcp
     topics:
       - agent-framework
@@ -43,17 +43,19 @@ metadata:
       - llm
       - llm-agents
       - local-first
+      - markdown-export
       - mcp
+      - mcp-registry
       - mcp-server
       - model-context-protocol
-      - open-source
+      - pdf-export
       - process-management
+      - safe-delete
       - shell
-      - sqlite
-    last_checked_at: "2026-05-28T05:28:25.153Z"
+    last_checked_at: "2026-06-08T05:39:11.715Z"
     readme:
-      fetched_at: "2026-05-28T05:28:25.153Z"
-      bytes: 14068
+      fetched_at: "2026-06-08T05:39:11.715Z"
+      bytes: 16239
 insights:
   summary: A comprehensive MCP server providing 43 tools for filesystem access, process management, interactive shell sessions, and async file search, featuring safe delete to Recycle Bin/Trash.
   why_it_matters: It gives coding agents deep local system access with safety features like reversible deletes and background search, reducing the risk of agents accidentally nuking your filesystem.
@@ -85,7 +87,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-28T05:28:25.153Z"
+    updated_at: "2026-06-08T05:39:11.715Z"
     cause: null
     next_retry_at: null
   categorize:

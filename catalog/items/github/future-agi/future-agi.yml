@@ -23,33 +23,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1117
+    forks: 231
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-23T14:11:31Z"
+    pushed_at: "2026-06-08T05:16:40Z"
+    description: Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.
+    homepage: https://futureagi.com
+    topics:
+      - ai
+      - ai-gateway
+      - evals
+      - llm
+      - observability
+      - simulation
+    last_checked_at: "2026-06-08T05:39:22.052Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:22.052Z"
+      bytes: 23452
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source platform for evaluating, tracing, and optimizing AI agents to reduce hallucinations.
+  why_it_matters: It provides a unified loop for simulating edge cases and monitoring production traces to turn agent failures into actual improvement signal.
+  mental_damage: The realization that your 'autonomous' agent is just a fragile series of hallucinations that requires a Go-based gateway and a full observability stack to keep from crashing.
+  tags:
+    - llm-evals
+    - observability
+    - agent-ops
+    - tracing
+    - open-source
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product identity is centered on measuring, scoring, and tracing agent behavior to ensure reliability.
+  evidence:
+    - "Repo description: 'One-line GitHub description: ...evaluating, tracing, and optimizing AI agents'"
+    - "README claim: 'Simulate edge cases before launch, evaluate what happens in production'"
+    - Provides a combination of evals, tracing, and guardrails in one platform
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1117) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +73,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:22.052Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:00.484Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

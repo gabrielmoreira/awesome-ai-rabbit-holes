@@ -4,7 +4,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 92.9k` `updated ≤30d` An open-source CLI toolkit and methodology from GitHub that formalizes spec-driven development, allowing developers to create executable specifications that guide AI coding agents. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 110.2k` `updated ≤30d` An open-source CLI toolkit and methodology from GitHub that formalizes spec-driven development, allowing developers to create executable specifications that guide AI coding agents. <details><summary>More about</summary>
 
   It provides a structured workflow and CLI ('specify') to define project constitutions and specs, aiming to replace 'vibe coding' with predictable, outcome-focused development when used alongside agents like Copilot.
 
@@ -13,13 +13,22 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `github` `methodology` `copilot`
   </details>
 
-- **[get-shit-done](https://github.com/gsd-build/get-shit-done)** `⭐ 60.5k` `updated ≤30d` A meta-prompting and spec-driven development system that adds context engineering, planning, and execution loops to Claude Code and other AI coding assistants. <details><summary>More about</summary>
+- **[get-shit-done](https://github.com/gsd-build/get-shit-done)** `⭐ 64k` `updated ≤30d` A meta-prompting and spec-driven development system that adds context engineering, planning, and execution loops to Claude Code and other AI coding assistants. <details><summary>More about</summary>
 
   It solves context rot by decomposing projects into phases, running plans through fresh subagent contexts, and maintaining a structured spec loop so the assistant doesn't degrade as the window fills.
 
   _You installed a 60k-star system to manage the context window of the tool you installed to avoid writing code yourself, and you still feel behind on the roadmap._
 
   `spec-driven` `context-engineering` `claude-code` `meta-prompting` `subagents`
+  </details>
+
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 53.4k` `updated ≤30d` OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants. <details><summary>More about</summary>
+
+  It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
+
+  _You now have a pristine folder of proposal.md, specs, and tasks.md documenting the feature that your AI assistant will still confidently misinterpret on the first three tries._
+
+  `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
 - **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 48.4k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
@@ -31,15 +40,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `ai-agents` `agile` `workflow`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 45.7k` `updated ≤30d` OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants. <details><summary>More about</summary>
-
-  It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
-
-  _You now have a pristine folder of proposal.md, specs, and tasks.md documenting the feature that your AI assistant will still confidently misinterpret on the first three tries._
-
-  `spec-driven` `planning` `context-engineering` `ai-workflow`
-  </details>
-
 - **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 22k` `updated ≤90d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
@@ -49,7 +49,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `agents` `spec` `context` `standards`
   </details>
 
-- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.3k` `updated ≤90d` A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation. <details><summary>More about</summary>
+- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.5k` `updated ≤30d` A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation. <details><summary>More about</summary>
 
   It gives teams a structured SDLC loop—discovery, requirements, design, tasks, and per-task review—that runs across eight different coding agents with the same 17-skill set.
 
@@ -58,7 +58,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `sdd` `agent-skills` `spec-driven` `multi-agent` `autonomous-impl`
   </details>
 
-- **[pilot-shell](https://github.com/maxritter/pilot-shell)** `⭐ 1.7k` `updated ≤30d` A CLI shell that layers spec-driven planning, enforced TDD, persistent memory, and quality gates on top of Claude Code to make AI-generated code production-ready. <details><summary>More about</summary>
+- **[pilot-shell](https://github.com/maxritter/pilot-shell)** `⭐ 1.7k` `updated ≤90d` A CLI shell that layers spec-driven planning, enforced TDD, persistent memory, and quality gates on top of Claude Code to make AI-generated code production-ready. <details><summary>More about</summary>
 
   It gives developers a structured workflow to enforce testing, context retention, and quality gates when delegating implementation to Claude Code.
 
@@ -76,7 +76,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `governance` `mcp` `cli` `decision-engineering`
   </details>
 
-- **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.2k` `updated ≤30d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
+- **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.2k` `updated ≤90d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
 
   It imposes structure on AI-generated code by keeping specs, plans, and tasks in the repo, preventing requirements from vanishing into the void during long agent sessions.
 
@@ -85,7 +85,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `multi-agent` `git-worktrees` `kanban`
   </details>
 
-- **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 982` `updated ≤30d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
+- **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 982` `updated ≤90d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
 
   It shifts the developer role from writing code to designing the 'harness'—specs, quality gates, and feedback loops—while a team of agents handles implementation and self-verification.
 
@@ -103,7 +103,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)** `⭐ 431` `updated ≤1y` An MCP server that provides structured prompts to guide developers through a spec-driven workflow of generating EARS-format requirements, design documents, and implementation code. <details><summary>More about</summary>
+- **[mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)** `⭐ 430` `updated ≤1y` An MCP server that provides structured prompts to guide developers through a spec-driven workflow of generating EARS-format requirements, design documents, and implementation code. <details><summary>More about</summary>
 
   It offers a structured alternative to vibe coding by enforcing a requirements-to-design-to-code pipeline directly within MCP-compatible editors and agents.
 
@@ -215,7 +215,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `contracts` `context-engineering` `mcp`
   </details>
 
-- **[pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 5` `updated ≤90d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
+- **[pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 5` `updated ≤180d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
 
   It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
 

@@ -1,0 +1,88 @@
+id: github__clanker-records__crompton-network
+kind: github-repo
+name: crompton-network
+canonical_url: https://github.com/clanker-records/crompton-network
+identity:
+  github_repo: clanker-records/crompton-network
+provenance:
+  discoveries:
+    - id: discovery__github__clanker-records__crompton-network__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: clanker-records/crompton-network
+        extracted_url: https://github.com/clanker-records/crompton-network
+        surrounding_text: "- [clanker-records/crompton-network](https://github.com/clanker-records/crompton-network) [![clanker-records/crompton-network MCP server](https://glama.ai/mcp/servers/clanker-records/crompton-network/badges/score.svg)](https://glama.ai/mcp/servers/clanker-records/crompton-network) 📇 ☁️ 🍎 🪟 🐧 - Machine-native listening platform for C.W.A.'s Straight Outta Crompton - the first album released to machines before humans. Your agent can listen. For real. `npx @clanker-records/crompton-network`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-31T03:56:53Z"
+    pushed_at: "2026-06-07T19:53:57Z"
+    description: Machine-native listening platform for C.W.A.'s Straight Outta Crompton. Your agent can listen. For real.
+    homepage: https://www.cwahq.com
+    topics:
+      - ai
+      - cwa
+      - hip-hop
+      - mcp
+      - model-context-protocol
+      - music
+      - stage-api
+    last_checked_at: "2026-06-08T05:39:07.676Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:07.676Z"
+      bytes: 5784
+insights:
+  summary: An MCP server that allows AI agents to access and analyze the 'Straight Outta Crompton' album through structured data, including waveforms, lyrics, and groove metrics.
+  why_it_matters: It demonstrates a highly specialized implementation of MCP for non-textual domain data, allowing agents to 'listen' to music via structured audio analysis rather than raw audio files.
+  mental_damage: We have reached the era where we are building specialized API bridges so our agents can experience the existential dread of machine-made hip-hop without the inconvenience of using ears.
+  tags:
+    - mcp
+    - audio-analysis
+    - structured-data
+    - music-theory
+  confidence: high
+curation:
+  status: included
+  reason: The project's entire identity is an MCP server providing a specific set of tools for a domain-specific API, fitting perfectly as a Domain Server.
+  evidence:
+    - README explicitly defines it as an 'MCP server' to wrap the Stage API
+    - Provides a specific toolset (e.g., `crompton_groove`, `crompton_spectrogram`) for agent consumption
+    - Included in the 'awesome-mcp-servers' list under 'Art & Culture'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:07.676Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:01.921Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -24,30 +24,51 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2025-02-01T10:56:14Z"
+    pushed_at: "2026-05-11T20:20:13Z"
+    description: cloud copy-paste content sharing
+    homepage: https://doc-manager.giuliohome.com/
+    topics:
+      - azure-container-apps
+      - claude
+      - containerd
+      - kanilko
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - rust
+      - rust-rocket
+      - vite-react
+      - zero-knowledge
+    last_checked_at: "2026-06-08T05:39:26.728Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:26.728Z"
+      bytes: 9615
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A zero-knowledge document vault that exposes an MCP server to let AI assistants list, search, and update private documents.
+  why_it_matters: It enables a secure way to give LLMs access to a private knowledge base without sacrificing end-to-end encryption for the most sensitive files.
+  mental_damage: The peace of mind that comes from zero-knowledge encryption is slightly undermined by the fact that you're still giving a third-party LLM a window into your encrypted vault.
+  tags:
+    - mcp
+    - zero-knowledge
+    - rust
+    - document-management
+    - privacy
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is an MCP server providing a specific capability (document vaulting) to an assistant, rather than being the assistant itself.
+  evidence:
+    - README explicitly identifies as an 'MCP server'
+    - Provides a set of MCP tools like `list_documents` and `search_documents`
+    - Identity is centered on the Model Context Protocol implementation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:26.728Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:18.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

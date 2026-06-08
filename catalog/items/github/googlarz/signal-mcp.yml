@@ -24,30 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-03T15:00:44Z"
+    pushed_at: "2026-05-18T09:05:54Z"
+    description: Ask Claude about your Signal conversations. Persistent history, full-text search, and complete signal-cli coverage — 100% local.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - claude
+      - claude-code
+      - mcp
+      - messaging
+      - model-context-protocol
+      - privacy
+      - signal
+    last_checked_at: "2026-06-08T05:39:27.804Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:27.804Z"
+      bytes: 21484
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local MCP server and CLI that adds persistent SQLite storage, full-text search, and contact resolution to signal-cli.
+  why_it_matters: It transforms an ephemeral CLI tool into a queryable local knowledge base, allowing AI assistants to summarize, search, and act on private Signal communications locally.
+  mental_damage: We have finally reached the stage where we need a database and an LLM just to remember what happened in the group chat from three weeks ago.
+  tags:
+    - mcp
+    - signal
+    - local-ai
+    - sqlite
+    - privacy
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is centered on providing an MCP interface to Signal, making it a classic domain-specific MCP server.
+  evidence:
+    - Repo description identifies it as 'signal-mcp'
+    - README explicitly lists '72 MCP tools' and 'Claude via MCP' as the primary usage patterns
+    - Included in 'awesome-signal-mcp' under 'Domain Servers' (via the provided source-list context logic)
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:27.804Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:19.287Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

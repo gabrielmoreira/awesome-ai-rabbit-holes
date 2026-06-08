@@ -1,0 +1,89 @@
+id: github__amkrs3__keycae-mcp
+kind: github-repo
+name: keycae-mcp
+canonical_url: https://github.com/amkrs3/keycae-mcp
+identity:
+  github_repo: amkrs3/keycae-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__amkrs3__keycae-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: AMKRS3/keycae-mcp
+        extracted_url: https://github.com/amkrs3/keycae-mcp
+        surrounding_text: "- [AMKRS3/keycae-mcp](https://github.com/AMKRS3/keycae-mcp) [![AMKRS3/keycae-mcp MCP server](https://glama.ai/mcp/servers/AMKRS3/keycae-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AMKRS3/keycae-mcp) 📇 ☁️ - Argentine electronic invoicing (facturación electrónica) for ARCA/AFIP. Emit invoices, manage credentials, check delegations, and look up taxpayers. 10 tools. Install via `npx keycae-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-06-01T15:09:30Z"
+    pushed_at: "2026-06-06T23:56:39Z"
+    description: MCP Server for Argentine electronic invoicing (facturación electrónica) with ARCA/AFIP. 10 tools for AI agents.
+    homepage: null
+    topics:
+      - afip
+      - arca
+      - argentina
+      - fintech
+      - invoice
+      - mcp
+      - model-context-protocol
+    last_checked_at: "2026-06-08T05:39:06.677Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:06.677Z"
+      bytes: 5477
+insights:
+  summary: An MCP server for managing Argentine electronic invoicing via KeyCAE and ARCA/AFIP.
+  why_it_matters: It allows AI agents to autonomously handle tax compliance, emit invoices, and manage digital certificates for Argentine developers and businesses.
+  mental_damage: The dream of autonomous billing is now just one 'delegation' step away from an AI agent accidentally issuing a thousand incorrect tax invoices to the Argentine government.
+  tags:
+    - mcp
+    - fintech
+    - argentina
+    - billing
+    - compliance
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server providing domain-specific tools for a specific financial workflow.
+  evidence:
+    - Repo description explicitly states it is an 'MCP Server for Argentine electronic invoicing'
+    - README provides configuration for Claude Desktop, Cursor, and Windsurf via MCP
+    - Listed in awesome-mcp-servers under 'Finance & Fintech'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.247Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:06.677Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:45.275Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -50,17 +50,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A login or authentication page for a tool named Teken.
-  why_it_matters: It doesn't; it is an authentication endpoint, not a developer tool.
-  mental_damage: The peak of the AI era is when the 'tool' you're researching is actually just a login screen that tells you to create an account.
+  summary: A login page for Ampcode.
+  why_it_matters: It does not provide developer tooling; it is an authentication gateway.
+  mental_damage: The existential dread of clicking 'Sign in with Google' just to find out the landing page is also a login page.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided input is an authentication page (login/signup) rather than a functional tool, SDK, or resource.
+  reason: The provided URL and scraped content are for a login/authentication page, not a functional AI developer tool or platform.
   evidence:
-    - Scraped site context contains only 'Teken in', 'Create account', and 'Privacy policy' text.
-    - No repo description, README, or functional product details provided.
+    - Scraped site context shows only login elements ('Teken in', 'E-pos', 'Gaan voort met Google')
+    - No project description or README provided to establish a tool identity
 placement:
   primary_category: null
   section: null
@@ -79,9 +79,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-04T05:42:08.706Z"
+    updated_at: "2026-06-08T05:41:30.765Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

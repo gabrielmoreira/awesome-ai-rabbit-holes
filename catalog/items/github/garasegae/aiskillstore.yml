@@ -24,30 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-17T06:54:03Z"
+    pushed_at: "2026-05-14T04:39:30Z"
+    description: Agent-first skill marketplace with USK open standard — MCP server for AI agent skill discovery and installation
+    homepage: https://aiskillstore.io
+    topics: []
+    last_checked_at: "2026-06-08T05:39:22.827Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:22.827Z"
+      bytes: 4636
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An agent-first skill marketplace and MCP server for the discovery and installation of cross-platform AI agent skills via the USK open standard.
+  why_it_matters: It enables agents to programmatically find, vet, and install their own capabilities across different runtimes (like Claude Code and Cursor) without manual human configuration.
+  mental_damage: We have reached the stage where AI agents are now shopping for their own plugins so they can better ignore our requests.
+  tags:
+    - mcp
+    - agent-skills
+    - marketplace
+    - usk
+    - interoperability
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is an MCP server designed specifically for the discovery and installation of other MCP-compatible skills, making it a piece of MCP infrastructure.
+  evidence:
+    - Repo description explicitly defines it as an 'MCP server for AI agent skill discovery'
+    - README lists a remote MCP endpoint (https://aiskillstore.io/mcp) and provides MCP server configuration
+    - Included in awesome-mcp-servers under the 'Aggregators' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:22.827Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:10.325Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

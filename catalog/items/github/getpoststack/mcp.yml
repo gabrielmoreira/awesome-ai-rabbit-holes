@@ -1,0 +1,81 @@
+id: github__getpoststack__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/getpoststack/mcp
+identity:
+  github_repo: getpoststack/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__getpoststack__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: getpoststack/mcp
+        extracted_url: https://github.com/getpoststack/mcp
+        surrounding_text: "- [getpoststack/mcp](https://github.com/getpoststack/mcp) [![getpoststack/mcp MCP server](https://glama.ai/mcp/servers/getpoststack/mcp/badges/score.svg)](https://glama.ai/mcp/servers/getpoststack/mcp) 📇 ☁️ 🍎 🪟 🐧 - EU-hosted email API exposed as MCP tools — send transactional and marketing email, manage contacts and segments, run broadcasts, render templates, and read analytics from Claude/Cursor. GDPR compliant, EU-only data residency (Germany + Finland). `npx -y @poststack.dev/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-18T12:30:57Z"
+    pushed_at: "2026-05-27T18:47:13Z"
+    description: MCP server for the PostStack Email API — 84 tools, 5 prompts, 5 resources for AI agents.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-08T05:39:25.323Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:25.323Z"
+      bytes: 15047
+insights:
+  summary: An MCP server for the PostStack Email API that provides over 100 tools for AI agents to manage transactional email, contacts, and deliverability.
+  why_it_matters: It allows coding assistants like Claude Code or Cursor to handle complex email workflows—from spam-checking drafts to managing contact segments—directly via the Model Context Protocol.
+  mental_damage: We have officially reached the era where the developer's primary role is just authorizing an agent to send emails on their behalf and hoping the 'spam-check' tool actually works.
+  tags:
+    - mcp
+    - email-api
+    - agents
+    - transactional-email
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation, making its product identity entirely based on the Model Context Protocol.
+  evidence:
+    - "Repo description: 'MCP server for the PostStack Email API'"
+    - README provides specific JSON config and CLI commands for Claude Desktop and Claude Code MCP integration
+    - Included in awesome-mcp-servers under 'Server Implementations'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:25.323Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:43:05.984Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

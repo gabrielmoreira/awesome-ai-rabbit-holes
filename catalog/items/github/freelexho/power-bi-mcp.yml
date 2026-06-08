@@ -1,0 +1,82 @@
+id: github__freelexho__power-bi-mcp
+kind: github-repo
+name: power-bi-mcp
+canonical_url: https://github.com/freelexho/power-bi-mcp
+identity:
+  github_repo: freelexho/power-bi-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__freelexho__power-bi-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: FreelexHo/power-bi-mcp
+        extracted_url: https://github.com/freelexho/power-bi-mcp
+        surrounding_text: "- [FreelexHo/power-bi-mcp](https://github.com/FreelexHo/power-bi-mcp) [![FreelexHo/power-bi-mcp MCP server](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp) 🐍 ☁️ 🪟 🍎 🐧 - Power BI MCP server with device code auth, enhanced refresh (table-level polling with retry), refresh diagnostics with root-cause error catalog, DAX queries with RLS simulation, PBIP source locating, and scheduled refresh reports."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-31T16:27:52Z"
+    pushed_at: "2026-06-02T05:09:28Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-08T05:39:21.270Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:21.270Z"
+      bytes: 6965
+insights:
+  summary: An MCP server that enables AI agents to manage Power BI workspaces, datasets, and refresh schedules via natural language.
+  why_it_matters: It allows developers to automate the tedious operational overhead of Power BI management—like diagnosing refresh failures and executing DAX queries—directly from their AI-native IDE.
+  mental_damage: Now you can experience the existential dread of a failed Power BI dataset refresh without actually having to open the Power BI service UI.
+  tags:
+    - mcp
+    - power-bi
+    - data-ops
+    - dax
+    - microsoft-azure
+  confidence: high
+curation:
+  status: included
+  reason: The product's entire identity is that of an MCP server providing domain-specific tool access to Power BI.
+  evidence:
+    - README explicitly identifies as an 'MCP server'
+    - Provides a set of tools (pbi_auth, pbi_execute_query, etc.) for MCP clients like Cursor and Windsurf
+    - Included in awesome-mcp-servers
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:21.270Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:59.243Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

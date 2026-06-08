@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 493
-    forks: 80
+    stars: 497
+    forks: 82
     license: Apache-2.0
     archived: false
     created_at: "2024-09-13T03:25:07Z"
-    pushed_at: "2026-05-23T13:42:14Z"
+    pushed_at: "2026-06-07T03:23:05Z"
     description: Open framework for confidential AI
     homepage: https://dstack.org
     topics:
@@ -41,10 +41,10 @@ metadata:
       - secure-ai
       - tee
       - trusted-execution-environment
-    last_checked_at: "2026-05-25T05:35:55.462Z"
+    last_checked_at: "2026-06-08T05:39:08.754Z"
     readme:
-      fetched_at: "2026-05-25T05:35:55.462Z"
-      bytes: 10179
+      fetched_at: "2026-06-08T05:39:08.754Z"
+      bytes: 11775
 insights:
   summary: Open framework for deploying AI applications in confidential VMs using Intel TDX and NVIDIA confidential computing to provide cryptographic privacy guarantees.
   why_it_matters: It lets developers run inference, agents, and training workloads inside hardware-isolated containers with cryptographic attestation, aiming to eliminate the need to trust cloud operators with sensitive data or model weights.
@@ -76,11 +76,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-04T05:40:59.881Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for dstack-tee/dstack
+    status: done
+    updated_at: "2026-06-08T05:39:08.754Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

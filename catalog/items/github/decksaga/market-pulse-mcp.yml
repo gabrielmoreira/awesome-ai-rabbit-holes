@@ -1,0 +1,92 @@
+id: github__decksaga__market-pulse-mcp
+kind: github-repo
+name: market-pulse-mcp
+canonical_url: https://github.com/decksaga/market-pulse-mcp
+identity:
+  github_repo: decksaga/market-pulse-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__decksaga__market-pulse-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: decksaga/market-pulse-mcp
+        extracted_url: https://github.com/decksaga/market-pulse-mcp
+        surrounding_text: "- [decksaga/market-pulse-mcp](https://github.com/decksaga/market-pulse-mcp) [![decksaga/market-pulse-mcp MCP server](https://glama.ai/mcp/servers/decksaga/market-pulse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/decksaga/market-pulse-mcp) 📇 ☁️ - Live market data for AI agents — crypto prices, stocks (any ticker), S&P 500/NASDAQ/Dow indices, forex (150+ pairs), trending coins, and Fear & Greed Index. 8 tools, zero API keys, zero cost. Uses CoinGecko, Yahoo Finance, and ExchangeRate API."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-17T16:21:02Z"
+    pushed_at: "2026-05-18T15:55:51Z"
+    description: Real-time market data server for Claude. Crypto prices, forex rates & sentiment — powered by MCP.
+    homepage: null
+    topics:
+      - ai-tools
+      - claude
+      - crypto
+      - forex
+      - market-data
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - trading
+      - typescript
+    last_checked_at: "2026-06-08T05:39:08.201Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:08.201Z"
+      bytes: 4169
+insights:
+  summary: An MCP server that provides Claude with real-time market data for cryptocurrencies, stocks, forex, and market indices.
+  why_it_matters: It eliminates hallucinations and the need for manual web searches by giving assistants a direct, structured pipeline to live financial APIs.
+  mental_damage: Now your coding assistant can tell you exactly how much money you're losing in real-time while you're trying to implement a basic API endpoint.
+  tags:
+    - mcp
+    - financial-data
+    - claude
+    - real-time-data
+    - typescript
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server providing a specific domain of data to a host agent.
+  evidence:
+    - Repo description explicitly calls it a 'Real-time market data server for Claude... powered by MCP'
+    - README provides installation instructions specifically for the 'mcpServers' configuration block
+    - Included in the 'awesome-mcp-servers' list under 'Finance & Fintech'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:08.201Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:17.725Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

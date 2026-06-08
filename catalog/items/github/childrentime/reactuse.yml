@@ -1,0 +1,102 @@
+id: github__childrentime__reactuse
+kind: github-repo
+name: reactuse
+canonical_url: https://github.com/childrentime/reactuse
+identity:
+  github_repo: childrentime/reactuse
+provenance:
+  discoveries:
+    - id: discovery__github__childrentime__reactuse__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔒 <a name="delivery"></a>Delivery
+        anchor_text: childrentime/reactuse
+        extracted_url: https://github.com/childrentime/reactuse
+        surrounding_text: "- [childrentime/reactuse](https://github.com/childrentime/reactuse) [![childrentime/reactuse MCP server](https://glama.ai/mcp/servers/childrentime/reactuse/badges/score.svg)](https://glama.ai/mcp/servers/childrentime/reactuse) 📇 🏠 🍎 🪟 🐧 - MCP server for the [ReactUse](https://reactuse.com) library — 110+ React Hooks (TypeScript-first, SSR-compatible, tree-shakable). Lets AI assistants discover hook signatures, demos, and usage patterns directly from the docs."
+        confidence: high
+metadata:
+  github:
+    stars: 1011
+    forks: 139
+    license: Unlicense
+    archived: false
+    created_at: "2022-09-18T06:48:43Z"
+    pushed_at: "2026-05-27T12:38:04Z"
+    description: 115+ production-ready React Hooks for sensors, UI, state & browser APIs. Tree-shakable, SSR-safe, TypeScript-first. Used by Shopee, PDD & Ctrip. Inspired by VueUse.
+    homepage: https://reactuse.com
+    topics:
+      - browser-api
+      - custom-hooks
+      - developer-tools
+      - frontend
+      - hooks
+      - hooks-library
+      - javascript
+      - mcp
+      - react
+      - react-hook
+      - react-hooks
+      - react-utils
+      - reacthooks
+      - reactuse
+      - ssr
+      - tree-shaking
+      - typescript
+      - utility-library
+      - vueuse
+      - web-api
+    last_checked_at: "2026-06-08T05:39:07.612Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:07.612Z"
+      bytes: 6309
+insights:
+  summary: A comprehensive collection of over 100 production-ready React Hooks for browser APIs, state management, sensors, and DOM elements.
+  why_it_matters: It provides a standardized library of reusable hooks that simplifies complex browser API integrations and state logic, reducing the need for developers to write repetitive boilerplate.
+  mental_damage: Because apparently, we can't just use the native Web API without a curated wrapper to feel safe.
+  tags:
+    - react
+    - hooks
+    - browser-api
+    - typescript
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: While primarily a utility library, it is included because it's a code-first building block that now provides MCP support for AI-powered hook discovery, fitting the 'Frameworks & SDKs' pattern of providing reusable toolkits for developers.
+  evidence:
+    - Repo description describes it as a 'collection of 100+ essential React Hooks'
+    - README highlights 'MCP Support' for AI-powered hook discovery via @reactuses/mcp
+    - Used by high-traction companies like Shopee and PDD
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1011) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:07.612Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:03.221Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

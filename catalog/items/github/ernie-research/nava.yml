@@ -24,27 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 141
+    forks: 18
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-05-25T18:24:19Z"
+    pushed_at: "2026-06-05T14:14:36Z"
+    description: "Official Code of NAVA: Native Audio-Visual Alignment for Generation."
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-06-08T05:39:13.440Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:13.440Z"
+      bytes: 26827
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: NAVA is a native audio-visual alignment framework for joint audio-video generation with controllable speech and timbre.
+  why_it_matters: It allows developers to generate synchronized 720p video and stereo audio with precise voice identity control without needing post-hoc vocoder alignment.
+  mental_damage: We've reached the era where you can prompt a cinematic 720p scene with a specific person's voice in 60 seconds, making the 'just use a stock video' excuse for bad demos completely obsolete.
+  tags:
+    - multimodal
+    - video-generation
+    - audio-visual-alignment
+    - tts
+    - generative-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a generative AI research project for audio-visual media generation, which falls under general ML research and creative tooling rather than software development tooling or AI-assisted coding/infrastructure.
+  evidence:
+    - "Repo description: 'Official Code of NAVA: Native Audio-Visual Alignment for Generation'"
+    - "README focus: '720p in ~1 Minute', 'Native Stereo Audio', and 'Multi-Timbre Voice Control'"
+    - "Scope: Focuses on synchronized audio-video generation rather than developer productivity, IDEs, or agent orchestration"
 placement:
   primary_category: null
   section: null
@@ -58,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:13.440Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:40:48.625Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

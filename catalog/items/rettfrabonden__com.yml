@@ -1,0 +1,77 @@
+id: rettfrabonden__com
+kind: website
+name: rettfrabonden.com
+canonical_url: https://rettfrabonden.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rettfrabonden__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: rettfrabonden.com
+        extracted_url: https://rettfrabonden.com
+        surrounding_text: "- [slookisen/lokal](https://github.com/slookisen/lokal) [![slookisen/lokal MCP server](https://glama.ai/mcp/servers/slookisen/lokal/badges/score.svg)](https://glama.ai/mcp/servers/slookisen/lokal) 📇 ☁️ 🍎 🪟 🐧 - Search and discover 1,400+ verified local food producers in Norway — farms, REKO rings, farmers' markets, and farm shops. Natural-language search (NO/EN), geo-filtered discovery, and A2A protocol support, backed by [rettfrabonden.com](https://rettfrabonden.com). Install via `npx lokal-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An agent-to-agent (A2A) network that provides an MCP server allowing AI assistants to query a database of 1,400+ Norwegian local food producers.
+  why_it_matters: It demonstrates a real-world application of the Model Context Protocol by enabling AI agents to act as discovery layers for physical-world commerce through a standardized interface.
+  mental_damage: We've reached the era where your LLM isn't just writing your boilerplate, it's also sourcing your organic goat cheese via a standardized protocol.
+  tags:
+    - mcp
+    - a2a
+    - discovery
+    - local-commerce
+  confidence: high
+curation:
+  status: included
+  reason: The product's developer-facing value is specifically the provision of an MCP server to make its dataset accessible to AI agents.
+  evidence:
+    - Explicitly offers a 'GitHub MCP Server' for developers.
+    - Included in 'awesome-mcp-servers' under 'Server Implementations'.
+    - Pitch centers on being an 'agent-to-agent (A2A) network' that makes producers 'visible for AI-assistants'.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.249Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:43:22.246Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

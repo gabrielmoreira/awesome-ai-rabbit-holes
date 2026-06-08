@@ -49,7 +49,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `cli` `extensions`
   </details>
 
-- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 8.5k` `updated ≤30d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
+- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 8.5k` `updated ≤90d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
 
   It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins for the OpenClaw ecosystem.
 
@@ -58,7 +58,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `skills` `registry` `cli` `openclaw` `agents`
   </details>
 
-- **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 2.5k` `updated ≤30d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
+- **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 2.5k` `updated ≤90d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
 
   It packages a complete RAG-style knowledge management workflow as portable slash commands and agent configs, letting developers reuse a structured memory system across multiple coding agents without building it themselves.
 
@@ -67,7 +67,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `knowledge-base` `claude-code` `skills` `wiki` `rag`
   </details>
 
-- **[toprank](https://github.com/nowork-studio/toprank)** `⭐ 1.7k` `updated ≤30d` A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal. <details><summary>More about</summary>
+- **[toprank](https://github.com/nowork-studio/toprank)** `⭐ 1.7k` `updated ≤90d` A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal. <details><summary>More about</summary>
 
   It lets developers delegate ad-spend diagnostics and technical SEO fixes to their coding agent without leaving the repo workflow.
 
@@ -107,7 +107,7 @@ _These are new or low-traffic entries being watched._
   `memory` `context` `mcp` `knowledge-graph` `cli`
   </details>
 
-- **[open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 32` `updated ≤30d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
+- **[open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 32` `updated ≤90d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
 
   Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
 
@@ -116,7 +116,7 @@ _These are new or low-traffic entries being watched._
   `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
   </details>
 
-- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 26` `updated ≤30d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
+- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 26` `updated ≤90d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
 
   It provides reusable, domain-specific agent skills and operational patterns that developers can adapt to build life-science AI applications rather than starting from scratch.
 
@@ -134,7 +134,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 13` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 13` `updated ≤90d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
 
   Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
 
@@ -170,7 +170,7 @@ _These are new or low-traffic entries being watched._
   `crypto` `web3` `mcp` `agent-skills` `blockchain`
   </details>
 
-- **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 5` `updated ≤30d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
+- **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 5` `updated ≤90d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
 
   It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
 

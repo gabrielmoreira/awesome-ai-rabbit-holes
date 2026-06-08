@@ -1,0 +1,82 @@
+id: github__forgemeshlabs__imagegen-mcp
+kind: github-repo
+name: imagegen-mcp
+canonical_url: https://github.com/forgemeshlabs/imagegen-mcp
+identity:
+  github_repo: forgemeshlabs/imagegen-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__forgemeshlabs__imagegen-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: forgemeshlabs/imagegen-mcp
+        extracted_url: https://github.com/forgemeshlabs/imagegen-mcp
+        surrounding_text: "- [forgemeshlabs/imagegen-mcp](https://github.com/forgemeshlabs/imagegen-mcp) [![forgemeshlabs/imagegen-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp) 📇 ☁️ - AI image generation MCP server with generate, background removal, 4x HD upscale, and full pro pipeline tools. Pay per image in USDC on Base mainnet via x402; no API key or subscription required."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-18T01:14:48Z"
+    pushed_at: "2026-05-28T00:13:06Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-08T05:39:20.611Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:20.611Z"
+      bytes: 3026
+insights:
+  summary: An MCP server that enables AI assistants to generate images with varying levels of processing, including background removal and 4K upscaling, paid for via USDC on the Base network.
+  why_it_matters: It allows developers to integrate high-fidelity asset generation directly into their agentic workflows using a programmable, pay-as-you-go payment model (x402) instead of managing multiple SaaS subscriptions.
+  mental_damage: The future of development is now an AI agent autonomously spending your USDC on the Base network to generate a 4K image of a red panda in a spacesuit.
+  tags:
+    - mcp
+    - image-generation
+    - base
+    - usdc
+    - x402
+  confidence: high
+curation:
+  status: included
+  reason: The product's entire identity is as an MCP server that provides image generation capabilities to an AI host.
+  evidence:
+    - Repo identity is 'forgemesh-imagegen' an MCP server
+    - "Provides specific MCP tools: generate_image, generate_clean, generate_hd, generate_pro"
+    - Integrates via claude_desktop_config.json and claude code mcp add
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:20.611Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:57.823Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

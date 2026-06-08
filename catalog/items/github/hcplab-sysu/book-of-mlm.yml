@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:44:12.678Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-08T05:39:33.835Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hcplab-sysu/book-of-mlm
     next_retry_at: null
   categorize:
     status: done

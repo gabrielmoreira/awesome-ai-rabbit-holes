@@ -24,30 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-08T13:59:34Z"
+    pushed_at: "2026-05-11T07:12:45Z"
+    description: Search your shell history (zsh/bash/fish) from Claude/MCP. Local SQLite FTS5. Secret-redacted.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - claude
+      - cli
+      - fts5
+      - mcp
+      - model-context-protocol
+      - shell-history
+      - sqlite
+      - terminal
+      - typescript
+    last_checked_at: "2026-06-08T05:39:33.383Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:33.383Z"
+      bytes: 4086
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that allows AI assistants to search shell history (zsh/bash/fish) using a local SQLite FTS5 index with secret redaction.
+  why_it_matters: It enables coding agents to retrieve forgotten complex CLI flags and previous command chains without the developer having to manually copy-paste their bash history into the prompt.
+  mental_damage: The anxiety of realizing your AI assistant now has a searchable, indexed archive of every single mistake and typo you've made in the terminal for the last three years.
+  tags:
+    - mcp
+    - shell-history
+    - sqlite
+    - cli
+    - context-retrieval
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a dedicated MCP server implementation, which aligns with the 'MCP as product identity' rule.
+  evidence:
+    - Repo description explicitly states 'Search your shell history... from Claude/MCP'
+    - README provides specific MCP configuration blocks for Claude Code and other clients
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:33.383Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:32.258Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

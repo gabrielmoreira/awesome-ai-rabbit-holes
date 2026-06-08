@@ -57,15 +57,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-05-12T15:06:22.621Z"
+    status: deferred
+    updated_at: "2026-06-08T05:39:33.395Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: hashgraph-online/registry-broker"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hashgraph-online/registry-broker
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
+    updated_at: "2026-06-08T05:39:36.526Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -1,0 +1,94 @@
+id: github__forgemeshlabs__coinopai-mcp
+kind: github-repo
+name: coinopai-mcp
+canonical_url: https://github.com/forgemeshlabs/coinopai-mcp
+identity:
+  github_repo: forgemeshlabs/coinopai-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__forgemeshlabs__coinopai-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: forgemeshlabs/coinopai-mcp
+        extracted_url: https://github.com/forgemeshlabs/coinopai-mcp
+        surrounding_text: "- [forgemeshlabs/coinopai-mcp](https://github.com/forgemeshlabs/coinopai-mcp) [![forgemeshlabs/coinopai-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp) 📇 - Local stdio MCP server for x402-powered paid crypto intelligence: preflight checks, trade decisions with `decision_id`, later audit against real prices, risk state, signal history, and agent automation search over USDC micropayments on Base."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-14T20:07:16Z"
+    pushed_at: "2026-06-05T00:39:19Z"
+    description: MCP server for CoinOpAI - agent automation prompts and crypto signals via x402 micropayments on Base
+    homepage: https://x402.coinopai.com
+    topics:
+      - agent-commerce
+      - ai-agents
+      - base
+      - crypto
+      - forgemesh
+      - mcp
+      - micropayments
+      - model-context-protocol
+      - monetization
+      - signals
+      - usdc
+      - x402
+    last_checked_at: "2026-06-08T05:39:20.548Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:20.548Z"
+      bytes: 12153
+insights:
+  summary: An MCP server that allows AI agents to purchase verified crypto market intelligence via x402 micropayments on the Base network.
+  why_it_matters: It enables agents to autonomously handle financial transactions for high-fidelity data, implementing a verification loop to audit predictions against real market outcomes.
+  mental_damage: We've reached the era where your coding agent can now independently gamble on BTC and pay for its own bad advice in USDC micropayments.
+  tags:
+    - mcp
+    - crypto
+    - micropayments
+    - base
+    - agent-commerce
+  confidence: high
+curation:
+  status: included
+  reason: The product's core identity is an MCP server providing a domain-specific toolset (market intelligence) to AI agents.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server for CoinOpAI'
+    - Architecture diagram shows it acting as a bridge between Claude Code and a paid API via MCP (stdio)
+    - Included in awesome-mcp-servers under Server Implementations
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:20.549Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:50.768Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

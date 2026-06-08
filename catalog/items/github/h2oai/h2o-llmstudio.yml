@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4920
-    forks: 524
+    stars: 4978
+    forks: 529
     license: Apache-2.0
     archived: false
     created_at: "2023-04-17T17:56:33Z"
-    pushed_at: "2026-04-29T11:32:29Z"
+    pushed_at: "2026-06-06T08:16:34Z"
     description: "H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/"
     homepage: https://h2o.ai
     topics:
@@ -45,23 +45,31 @@ metadata:
       - llama2
       - llm
       - llm-training
-    last_checked_at: "2026-05-06T22:44:10.194Z"
+    last_checked_at: "2026-06-08T05:39:31.705Z"
     readme:
-      fetched_at: "2026-05-06T22:44:10.194Z"
-      bytes: 14120
+      fetched_at: "2026-06-08T05:39:31.705Z"
+      bytes: 13832
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A framework and no-code GUI for fine-tuning large language models using techniques like LoRA, DPO, and 8-bit training.
+  why_it_matters: It democratizes the fine-tuning process by providing a visual interface to manage hyperparameters and evaluate model performance without writing custom training loops.
+  mental_damage: The dream of 'no-code' fine-tuning just means you can now break your model's weights via a slider instead of a misplaced comma in a Python script.
+  tags:
+    - fine-tuning
+    - lora
+    - no-code
+    - llm-ops
+    - dpo
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a developer-facing framework and SDK for model training and optimization, fitting the 'code-first building block' identity even though it includes a GUI.
+  evidence:
+    - "Repo description: 'a framework and no-code GUI for fine-tuning LLMs'"
+    - README lists CLI for fine-tuning and support for LoRA, DPO, and DeepSpeed
+    - Provides infrastructure for model checkpoints and Hugging Face Hub export
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (4920) exceeded threshold (150)
@@ -73,16 +81,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:44:10.194Z"
+    updated_at: "2026-06-08T05:39:31.705Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-06-08T05:41:24.230Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

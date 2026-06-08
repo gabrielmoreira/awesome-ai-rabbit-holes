@@ -31,7 +31,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 32.3k` `updated ≤30d` A community-curated collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to extend and configure GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 34.6k` `updated ≤30d` A community-curated collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to extend and configure GitHub Copilot. <details><summary>More about</summary>
 
   It provides a centralized, navigable registry and machine-readable index for developers looking to customize Copilot with specialized workflows, MCP servers, and reusable skill packs.
 
@@ -40,7 +40,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `github-copilot` `skills` `awesome-list` `extensions` `mcp`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28.2k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
 
   It serves as a navigational map for developers trying to find the right agent framework or product in a rapidly expanding ecosystem.
 
@@ -49,7 +49,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `agents` `directory` `awesome-list` `ecosystem`
   </details>
 
-- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 26.7k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 26.9k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
 
   It serves as a centralized map for developers trying to navigate the fragmented ecosystem of models, inference stacks, and training tooling.
 
@@ -184,7 +184,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `discovery`
   </details>
 
-- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤90d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
+- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤30d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
 
   It provides developers and researchers with a structured, navigable index of specialized medical models and evaluation resources to accelerate building healthcare AI applications.
 
@@ -238,7 +238,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `local-ai` `awesome-list` `inference` `self-hosted` `directory`
   </details>
 
-- **[awesome-LangGraph](https://github.com/von-development/awesome-langgraph)** `⭐ 1.8k` `updated ≤30d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
+- **[awesome-LangGraph](https://github.com/von-development/awesome-langgraph)** `⭐ 1.8k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
 
   Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
 
@@ -265,7 +265,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `vector-search` `awesome-list` `similarity-search` `retrieval`
   </details>
 
-- **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.5k` `updated ≤30d` A curated list of academic research papers focused on multi-agent systems, LLM collaboration, and swarm intelligence. <details><summary>More about</summary>
+- **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.5k` `updated ≤90d` A curated list of academic research papers focused on multi-agent systems, LLM collaboration, and swarm intelligence. <details><summary>More about</summary>
 
   It serves as a centralized research map for developers building or evaluating multi-agent orchestration frameworks who want to ground their architecture in current academic trends.
 
@@ -364,7 +364,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 481` `updated >1y` A curated guide and directory of free and open source MLOps tools covering the full lifecycle from data annotation to model monitoring. <details><summary>More about</summary>
+- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and directory of free and open source MLOps tools covering the full lifecycle from data annotation to model monitoring. <details><summary>More about</summary>
 
   It provides developers with a vetted, fully open-source map of the MLOps ecosystem, filtering out vendor-locked or SaaS-pushing tools.
 
@@ -391,7 +391,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `models` `training` `benchmarks` `directory`
   </details>
 
-- **[awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 208` `updated ≤30d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
+- **[awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 208` `updated ≤90d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
 
   Helps developers implement blockchain-based micropayments for AI agents and APIs with minimal code using USDC on Base.
 
@@ -409,7 +409,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `ai-apps` `directory` `open-source` `typescript`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 172` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 177` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
 
   It acts as a central map for developers trying to shift from vibe-coding to disciplined, specification-first workflows that align AI agents with business requirements.
 
@@ -476,7 +476,7 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `agent-orchestration`
   </details>
 
-- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 4` `updated ≤90d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>
+- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 5` `updated ≤90d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>
 
   It provides a machine-readable intelligence layer and 'Demand Radar' that lets developers and their agents quickly assess ecosystem quality without manually digging through GitHub stars and npm downloads.
 

@@ -1,0 +1,99 @@
+id: github__callstack__agent-device
+kind: github-repo
+name: agent-device
+canonical_url: https://github.com/callstack/agent-device
+identity:
+  github_repo: callstack/agent-device
+provenance:
+  discoveries:
+    - id: discovery__github__callstack__agent-device__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: callstackincubator/agent-device
+        extracted_url: https://github.com/callstackincubator/agent-device
+        surrounding_text: "- [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) [![callstackincubator/agent-device MCP server](https://glama.ai/mcp/servers/callstackincubator/agent-device/badges/score.svg)](https://glama.ai/mcp/servers/callstackincubator/agent-device) 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI. Exposes status, install guidance, version-matched help, prompts, and resources for iOS, Android, tvOS, macOS, and Linux automation workflows."
+        confidence: high
+metadata:
+  github:
+    stars: 2589
+    forks: 136
+    license: MIT
+    archived: false
+    created_at: "2026-01-30T18:41:54Z"
+    pushed_at: "2026-06-07T20:29:44Z"
+    description: CLI to control iOS and Android devices for AI agents
+    homepage: https://agent-device.dev
+    topics:
+      - adb
+      - agentic-ai
+      - agents
+      - ai-agents
+      - android-emulator
+      - automation
+      - e2e-testing
+      - expo
+      - flutter
+      - ios-simulator
+      - mcp
+      - mobile
+      - mobile-testing
+      - performance-optimization
+      - react-native
+      - testing
+      - xcuitest
+    last_checked_at: "2026-06-08T05:39:07.327Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:07.327Z"
+      bytes: 8132
+insights:
+  summary: A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution.
+  why_it_matters: It closes the loop for coding agents by giving them a way to verify their changes on real devices or emulators rather than just guessing based on the codebase.
+  mental_damage: Now your AI agent can hallucinate a UI interaction and then provide you with a screenshot of the exact moment it failed to find the button.
+  tags:
+    - mobile-automation
+    - computer-use
+    - mcp
+    - e2e-testing
+    - android-ios
+  confidence: high
+curation:
+  status: included
+  reason: The tool is designed as a capability layer that augments other assistants (like Cursor or Claude Code) with device access, rather than being a standalone coding assistant.
+  evidence:
+    - "README states 'Set up your agent: run the CLI from Cursor, Codex, Claude Code, Windsurf, or another agent terminal.'"
+    - Core value is providing 'live app verification' as a layer in the agentic development loop.
+    - Includes MCP support as a way to integrate with existing agent shells.
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (2589) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:07.327Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:52.808Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

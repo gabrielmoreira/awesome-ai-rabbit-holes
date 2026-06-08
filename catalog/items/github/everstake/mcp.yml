@@ -1,0 +1,82 @@
+id: github__everstake__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/everstake/mcp
+identity:
+  github_repo: everstake/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__everstake__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: everstake/mcp
+        extracted_url: https://github.com/everstake/mcp
+        surrounding_text: "- [everstake/mcp](https://github.com/everstake/mcp) [![everstake/mcp MCP server](https://glama.ai/mcp/servers/everstake/mcp/badges/score.svg)](https://glama.ai/mcp/servers/everstake/mcp) 🎖️ ☁️ - An MCP server for Everstake's non-custodial staking data across 130+ networks: live APY, uptime metrics, rewards calculator, integrations, security and compliance. Built for asset managers, custodians, and exchanges evaluating institutional staking."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: BSD-3-Clause
+    archived: false
+    created_at: "2026-04-20T08:17:28Z"
+    pushed_at: "2026-05-22T10:51:32Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-08T05:39:14.802Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:14.802Z"
+      bytes: 6235
+insights:
+  summary: An MCP server that exposes Everstake's staking data, product information, and network metrics to AI agents.
+  why_it_matters: Allows AI assistants to fetch real-time blockchain staking rewards, network status, and company security profiles via a standardized protocol instead of manual API integrations.
+  mental_damage: The dream is now a world where your agent can calculate staking APYs and submit sales inquiries while you pretend to be working.
+  tags:
+    - mcp
+    - staking
+    - blockchain
+    - go
+    - web3
+  confidence: high
+curation:
+  status: included
+  reason: The project is a specialized implementation of the Model Context Protocol, making it a domain-specific MCP server.
+  evidence:
+    - README explicitly states it is an 'MCP server exposing Everstake's staking data'
+    - Uses the official @modelcontextprotocol/sdk
+    - Included in the awesome-mcp-servers list under Finance & Fintech
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:14.802Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:37.626Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

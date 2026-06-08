@@ -1,0 +1,89 @@
+id: github__dialloube-research__hypernatt-terminal
+kind: github-repo
+name: hypernatt-terminal
+canonical_url: https://github.com/dialloube-research/hypernatt-terminal
+identity:
+  github_repo: dialloube-research/hypernatt-terminal
+provenance:
+  discoveries:
+    - id: discovery__github__dialloube-research__hypernatt-terminal__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: DIALLOUBE-RESEARCH/hypernatt-terminal
+        extracted_url: https://github.com/dialloube-research/hypernatt-terminal
+        surrounding_text: "- [DIALLOUBE-RESEARCH/hypernatt-terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal) [![DIALLOUBE-RESEARCH/hypernatt-terminal MCP server](https://glama.ai/mcp/servers/DIALLOUBE-RESEARCH/hypernatt-terminal/badges/score.svg)](https://glama.ai/mcp/servers/DIALLOUBE-RESEARCH/hypernatt-terminal) 📇 ☁️ - BTC Decision Terminal for AI Agents — live vault-backed signals, on-chain proof, cross-chain swap. MCP server hosted at https://hypernatt.com/mcp/protocol. Verify in real time. Mimo BTC/USDC vault on Hyperliquid. 11 MCP tools: free manifest + Li.Fi swap + NDAT; paid Decision Core via x402 $0.01 USDC on Base. Quickstart: https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal/blob/main/docs/quickstart.md · Stats: https://hypernatt.com/stats"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-30T07:23:11Z"
+    pushed_at: "2026-05-31T08:17:30Z"
+    description: BTC Decision Terminal for AI Agents — live vault-backed signals, on-chain proof, cross-chain swap. Verify in real time.
+    homepage: https://hypernatt.com
+    topics:
+      - ai-agents
+      - btc
+      - defi
+      - hyperliquid
+      - mcp
+      - smithery
+      - x402
+    last_checked_at: "2026-06-08T05:39:08.447Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:08.447Z"
+      bytes: 7069
+insights:
+  summary: An MCP server that provides AI agents with real-time BTC market signals, on-chain vault proofs, and cross-chain swap capabilities.
+  why_it_matters: It allows developers to give their autonomous agents verifiable financial context and execution capabilities without the agent needing to manage the complex logic of market analysis or swap routing.
+  mental_damage: We've reached the era where your AI agent can now pay $0.01 in USDC to decide whether to long BTC while you're still trying to figure out how to get a prompt to output valid JSON.
+  tags:
+    - mcp
+    - crypto
+    - bitcoin
+    - autonomous-agents
+    - hyperliquid
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server providing domain-specific tools (finance/crypto) to AI agents, making it a clear fit for the MCP category.
+  evidence:
+    - Provides 12 MCP tools including get_btc_usdc_signal and swap_via_nattswap
+    - Exposes an MCP protocol endpoint at https://hypernatt.com/mcp/protocol
+    - Included in awesome-mcp-servers under Finance & Fintech
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:08.447Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:28.912Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

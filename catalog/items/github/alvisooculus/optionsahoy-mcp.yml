@@ -1,0 +1,93 @@
+id: github__alvisooculus__optionsahoy-mcp
+kind: github-repo
+name: optionsahoy-mcp
+canonical_url: https://github.com/alvisooculus/optionsahoy-mcp
+identity:
+  github_repo: alvisooculus/optionsahoy-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alvisooculus__optionsahoy-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: AlvisoOculus/optionsahoy-mcp
+        extracted_url: https://github.com/alvisooculus/optionsahoy-mcp
+        surrounding_text: "- [AlvisoOculus/optionsahoy-mcp](https://github.com/AlvisoOculus/optionsahoy-mcp) [![AlvisoOculus/optionsahoy-mcp MCP server](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp) 📇 ☁️ - Multi-year equity-compensation optimization engine: returns the globally-optimal ISO/AMT exercise schedule, NSO sell-vs-hold decision, RSU vest plan, single-stock concentration sell-down, protective put / zero-cost collar pricing, and Section 1202 QSBS qualification verdict. Covers full federal tax code plus all 50 states + DC (ordinary brackets, long-term capital gains treatment, state AMT for CA/CO/CT/MN, FICA, NIIT). Remote HTTP MCP at `https://optionsahoy.com/mcp` (no auth, no install). Six tools, same engine as the in-browser calculators at [optionsahoy.com/tools](https://optionsahoy.com/tools)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-26T05:44:50Z"
+    pushed_at: "2026-06-08T05:11:08Z"
+    description: Equity comp tax (ISO/NSO/RSU/QSBS), concentration, and hedging optimizer. MCP server + REST API with federal + 50-state + DC tax code, multi-year horizons.
+    homepage: null
+    topics:
+      - ai-agents
+      - anthropic
+      - claude
+      - cloudflare-pages-functions
+      - equity-compensation
+      - finance
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - openapi
+      - optimization
+      - tax-optimization
+    last_checked_at: "2026-06-08T05:39:06.535Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:06.535Z"
+      bytes: 13541
+insights:
+  summary: An MCP server and REST API for equity compensation tax optimization, covering ISO, NSO, RSU, and QSBS across federal and 50-state tax codes.
+  why_it_matters: It provides deterministic, mathematically correct tax calculations to LLMs, preventing the hallucinated financial advice typical of frontier models handling complex tax schedules.
+  mental_damage: Finally, a way to let your AI agent tell you exactly how much of your equity will be devoured by the government in a professionally formatted markdown table.
+  tags:
+    - mcp
+    - fintech
+    - tax-optimization
+    - equity-comp
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server providing domain-specific tools and resources to AI clients, making it a perfect fit for Domain Servers.
+  evidence:
+    - Explicitly identifies as an 'MCP server + REST API'
+    - Provides seven deterministic tools and six markdown resources for LLM grounding
+    - Listed in awesome-mcp-servers under Finance & Fintech
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.247Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:06.535Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:41:45.514Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

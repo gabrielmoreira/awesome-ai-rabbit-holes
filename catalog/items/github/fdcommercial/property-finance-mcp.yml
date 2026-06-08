@@ -1,0 +1,97 @@
+id: github__fdcommercial__property-finance-mcp
+kind: github-repo
+name: property-finance-mcp
+canonical_url: https://github.com/fdcommercial/property-finance-mcp
+identity:
+  github_repo: fdcommercial/property-finance-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__fdcommercial__property-finance-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: fdcommercial/property-finance-mcp
+        extracted_url: https://github.com/fdcommercial/property-finance-mcp
+        surrounding_text: "- [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp) [![fdcommercial/property-finance-mcp MCP server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT, LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker. Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-05-19T08:14:59Z"
+    pushed_at: "2026-05-28T16:15:46Z"
+    description: "MCP server exposing FD Commercial's free UK property finance calculators: bridging cost, development appraisal, BTL stress test, UK stamp duty."
+    homepage: https://www.fdcommercial.co.uk/property-finance-tools/
+    topics:
+      - ai-tools
+      - anthropic
+      - bridging
+      - bridging-loan
+      - buy-to-let
+      - claude
+      - development-finance
+      - fintech
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - mortgage-broker
+      - property-finance
+      - sdlt-calculator
+      - stamp-duty
+      - typescript
+    last_checked_at: "2026-06-08T05:39:16.946Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:16.946Z"
+      bytes: 5098
+insights:
+  summary: An MCP server that exposes UK property finance calculators for bridging costs, development appraisals, BTL stress tests, and stamp duty.
+  why_it_matters: It allows AI agents to perform precise, broker-grade financial calculations using structured formulas rather than relying on the LLM's erratic native arithmetic.
+  mental_damage: We have finally reached the era where we wrap a mortgage calculator in a protocol so our agent can tell us we can't afford the house in a more structured JSON format.
+  tags:
+    - mcp
+    - fintech
+    - calculators
+    - real-estate
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server providing specific domain-driven tools for AI clients.
+  evidence:
+    - Repo description explicitly defines it as an 'MCP server exposing UK property finance calculators'
+    - README describes installation for Claude Desktop/Cursor via MCP config
+    - Source-list context places it in 'awesome-mcp-servers' under 'Finance & Fintech'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:16.946Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:50.119Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

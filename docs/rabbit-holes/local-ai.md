@@ -4,7 +4,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
 
 ## Tools & Resources
 
-- **[Ollama](https://github.com/ollama/ollama)** `⭐ 170.9k` `updated ≤30d` Ollama is a local runtime and serving stack for downloading, running, and managing open-weight LLMs via a simple CLI and REST API on macOS, Windows, Linux, and Docker. <details><summary>More about</summary>
+- **[Ollama](https://github.com/ollama/ollama)** `⭐ 170.9k` `updated ≤90d` Ollama is a local runtime and serving stack for downloading, running, and managing open-weight LLMs via a simple CLI and REST API on macOS, Windows, Linux, and Docker. <details><summary>More about</summary>
 
   It gives developers a one-command way to run private, local models and wire them into coding agents like Claude Code, Codex, and Copilot CLI without sending code to external APIs.
 
@@ -22,13 +22,22 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `stable-diffusion` `local-ai` `image-generation` `gradio` `web-ui`
   </details>
 
-- **[Open WebUI](https://github.com/open-webui/open-webui)** `⭐ 135.8k` `updated ≤30d` Open WebUI is a self-hosted, extensible web interface for interacting with local LLMs via Ollama or OpenAI-compatible APIs, featuring built-in RAG, Python function calling, and multi-model chat. <details><summary>More about</summary>
+- **[Open WebUI](https://github.com/open-webui/open-webui)** `⭐ 135.8k` `updated ≤90d` Open WebUI is a self-hosted, extensible web interface for interacting with local LLMs via Ollama or OpenAI-compatible APIs, featuring built-in RAG, Python function calling, and multi-model chat. <details><summary>More about</summary>
 
   It provides developers with a private, full-featured local chat UI and tooling surface that supports custom model creation, document ingestion, and extensible Python functions without relying on external cloud services.
 
   _One more self-hosted UI to maintain, secure, and explain to your team, just in case you needed another yak to shave before you actually write code._
 
   `self-hosted` `local-ai` `webui` `rag` `ollama`
+  </details>
+
+- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 115.4k` `updated ≤30d` A C/C++ implementation for running LLM inference locally, focused on enabling efficient execution of models on consumer hardware. <details><summary>More about</summary>
+
+  It provides the foundational runtime that allows developers to run powerful language models privately on their own machines without relying on cloud APIs.
+
+  _You will spend an evening quantizing a model down to 3 bits just to watch it hallucinate at 12 tokens per second while convincing yourself this is definitely 'production ready'._
+
+  `local-ai` `inference` `cpp` `gguf` `llm`
   </details>
 
 - **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 115.2k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
@@ -38,15 +47,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
 
   `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
-  </details>
-
-- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 108.7k` `updated ≤30d` A C/C++ implementation for running LLM inference locally, focused on enabling efficient execution of models on consumer hardware. <details><summary>More about</summary>
-
-  It provides the foundational runtime that allows developers to run powerful language models privately on their own machines without relying on cloud APIs.
-
-  _You will spend an evening quantizing a model down to 3 bits just to watch it hallucinate at 12 tokens per second while convincing yourself this is definitely 'production ready'._
-
-  `local-ai` `inference` `cpp` `gguf` `llm`
   </details>
 
 - **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤30d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
@@ -76,7 +76,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `fine-tuning` `llm` `self-hosted`
   </details>
 
-- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 59.6k` `updated ≤30d` AnythingLLM is a self-hosted, privacy-focused desktop and server application that lets developers chat with local or cloud LLMs over their own documents using built-in RAG pipelines, vector databases, and configurable AI agents. <details><summary>More about</summary>
+- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 59.6k` `updated ≤90d` AnythingLLM is a self-hosted, privacy-focused desktop and server application that lets developers chat with local or cloud LLMs over their own documents using built-in RAG pipelines, vector databases, and configurable AI agents. <details><summary>More about</summary>
 
   It gives developers a private, all-in-one local workspace for document-grounded chat and lightweight agent workflows without wiring together separate LLM, embedding, and vector stores.
 
@@ -85,7 +85,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `llm` `self-hosted` `agents`
   </details>
 
-- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 49.4k` `updated ≤90d` A plain C/C++ port of OpenAI's Whisper speech recognition model optimized for high-performance, cross-platform, and on-device inference. <details><summary>More about</summary>
+- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 50.5k` `updated ≤30d` A plain C/C++ port of OpenAI's Whisper speech recognition model optimized for high-performance, cross-platform, and on-device inference. <details><summary>More about</summary>
 
   It provides developers with a lightweight, dependency-free runtime to integrate offline speech-to-text capabilities into applications across platforms like iOS, Android, and WebAssembly.
 
@@ -94,7 +94,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `local-inference` `cpp` `offline` `whisper`
   </details>
 
-- **[textgen](https://github.com/oobabooga/textgen)** `⭐ 46.9k` `updated ≤30d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
+- **[textgen](https://github.com/oobabooga/textgen)** `⭐ 46.9k` `updated ≤90d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
 
   It provides developers with a private, drop-in API server and UI to run and test models locally without telemetry or cloud dependencies.
 
@@ -112,7 +112,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `desktop-client` `multi-llm` `local-models` `chat-interface`
   </details>
 
-- **[LocalAI](https://github.com/mudler/localai)** `⭐ 46.1k` `updated ≤30d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
+- **[LocalAI](https://github.com/mudler/localai)** `⭐ 46.1k` `updated ≤90d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
 
   It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
 
@@ -121,7 +121,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `self-hosted` `api-compatible` `open-source`
   </details>
 
-- **[Jan](https://github.com/janhq/jan)** `⭐ 42.4k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
+- **[Jan](https://github.com/janhq/jan)** `⭐ 42.4k` `updated ≤90d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
 
   Developers can run, test, and integrate local models via an OpenAI-compatible API and MCP support without sending code or data to the cloud.
 
@@ -166,7 +166,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `chat-ui` `multi-model` `mcp` `agents`
   </details>
 
-- **[SGLang (`🔥`)](https://github.com/sgl-project/sglang)** `⭐ 27.1k` `updated ≤30d` SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure. <details><summary>More about</summary>
+- **[SGLang (`🔥`)](https://github.com/sgl-project/sglang)** `⭐ 27.1k` `updated ≤90d` SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure. <details><summary>More about</summary>
 
   It lets developers self-host and serve modern LLMs and VLMs with optimized inference performance across CUDA, TPU, and Blackwell hardware.
 
@@ -202,7 +202,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-inference` `memory-optimization` `open-models`
   </details>
 
-- **[ktransformers](https://github.com/kvcache-ai/ktransformers)** `⭐ 17.1k` `updated ≤30d` A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing. <details><summary>More about</summary>
+- **[ktransformers](https://github.com/kvcache-ai/ktransformers)** `⭐ 17.1k` `updated ≤90d` A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing. <details><summary>More about</summary>
 
   It enables running and fine-tuning cutting-edge models like DeepSeek-V3 and Kimi-K2 on consumer-grade hardware by drastically reducing VRAM requirements.
 
@@ -238,7 +238,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-serving` `openai-compatible` `self-hosted`
   </details>
 
-- **[ChatUI](https://github.com/huggingface/chat-ui)** `⭐ 10.7k` `updated ≤30d` A SvelteKit-based chat interface for LLMs that powers HuggingChat and connects to any OpenAI-compatible API, including local runtimes like Ollama and llama.cpp. <details><summary>More about</summary>
+- **[ChatUI](https://github.com/huggingface/chat-ui)** `⭐ 10.7k` `updated ≤90d` A SvelteKit-based chat interface for LLMs that powers HuggingChat and connects to any OpenAI-compatible API, including local runtimes like Ollama and llama.cpp. <details><summary>More about</summary>
 
   Developers can self-host a full-featured chat UI to interact with local or cloud models without relying on closed proprietary frontends.
 
@@ -247,7 +247,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `chat-ui` `local-ai` `sveltekit` `self-hosted` `llm-interface`
   </details>
 
-- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 10.4k` `updated ≤30d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
+- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 10.4k` `updated ≤90d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
 
   It provides a zero-install, cross-platform way for developers to run local LLMs and multimodal models with OpenAI-compatible APIs for testing and integration.
 
@@ -283,13 +283,22 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `model-serving` `llm-inference` `open-source` `api` `deployment`
   </details>
 
-- **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 7.8k` `updated ≤30d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
+- **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 7.8k` `updated ≤90d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
 
   It provides developers with high-performance local inference acceleration, quantization, and serving capabilities for running models like Llama, InternLM, and DeepSeek on their own hardware.
 
   _Just what the ecosystem needed: another high-performance inference engine to add to the 'which local stack do I cry about today' rotation alongside vLLM and llama.cpp._
 
   `llm-inference` `local-ai` `quantization` `cuda` `serving`
+  </details>
+
+- **[enchanted](https://github.com/gluonfield/enchanted)** `⭐ 6k` `updated >1y` Enchanted is an open-source iOS, macOS, and visionOS app that provides a ChatGPT-like interface for interacting with privately hosted Ollama-compatible language models. <details><summary>More about</summary>
+
+  It allows developers in the Apple ecosystem to run inference locally across all their devices with a polished UI, multimodal support, and custom prompt templates without sending data to external clouds.
+
+  _Finally, a way to feel productive while running 7B parameter models on your iPad and wondering why your battery is draining while your laptop fans are screaming in the other room._
+
+  `local-ai` `ollama` `ios` `macos` `swift`
   </details>
 
 - **[LLocalSearch](https://github.com/nilsherzig/llocalsearch)** `⭐ 6k` `updated ≤90d` LLocalSearch is a self-hosted, local-first search assistant that chains local LLMs with web search tools to answer questions without external API keys. <details><summary>More about</summary>
@@ -301,16 +310,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `search-agent` `self-hosted` `privacy`
   </details>
 
-- **[enchanted](https://github.com/gluonfield/enchanted)** `⭐ 5.9k` `updated >1y` Enchanted is an open-source iOS, macOS, and visionOS app that provides a ChatGPT-like interface for interacting with privately hosted Ollama-compatible language models. <details><summary>More about</summary>
-
-  It allows developers in the Apple ecosystem to run inference locally across all their devices with a polished UI, multimodal support, and custom prompt templates without sending data to external clouds.
-
-  _Finally, a way to feel productive while running 7B parameter models on your iPad and wondering why your battery is draining while your laptop fans are screaming in the other room._
-
-  `local-ai` `ollama` `ios` `macos` `swift`
-  </details>
-
-- **[GPUStack](https://github.com/gpustack/gpustack)** `⭐ 5k` `updated ≤30d` gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment. <details><summary>More about</summary>
+- **[GPUStack](https://github.com/gpustack/gpustack)** `⭐ 5.1k` `updated ≤30d` gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment. <details><summary>More about</summary>
 
   It simplifies scaling LLM serving across heterogeneous GPU hardware, reducing operational overhead for developers deploying production AI workloads.
 
@@ -364,7 +364,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `gradio` `chatbot` `open-source` `huggingface`
   </details>
 
-- **[text-extract-api](https://github.com/catchthetornado/text-extract-api)** `⭐ 3.1k` `updated ≤180d` A self-hosted FastAPI service that converts documents and images into Markdown or structured JSON using local OCR and Ollama LLMs, with built-in PII removal and distributed task processing. <details><summary>More about</summary>
+- **[text-extract-api](https://github.com/catchthetornado/text-extract-api)** `⭐ 3.1k` `updated ≤1y` A self-hosted FastAPI service that converts documents and images into Markdown or structured JSON using local OCR and Ollama LLMs, with built-in PII removal and distributed task processing. <details><summary>More about</summary>
 
   It gives developers a private, local pipeline to extract structured data from messy documents using their own hardware, removing cloud dependencies and simplifying compliance-heavy workflows.
 
@@ -400,15 +400,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `graphrag` `local-llm` `rag` `knowledge-graph` `ollama`
   </details>
 
-- **[opendan-personal-ai-os](https://github.com/fiatrete/opendan-personal-ai-os)** `⭐ 2k` `updated ≤90d` OpenDAN is an open-source Personal AI Operating System that consolidates various AI modules, supports local model execution via Docker, and enables users to build and run multi-agent workflows for personal tasks. <details><summary>More about</summary>
-
-  It provides a self-hosted, Docker-based environment for developers to experiment with local LLMs and multi-agent collaboration without relying solely on external APIs.
-
-  _Now you can self-host an operating system to manage your smart toaster and English tutor, ensuring your local hardware is as overwhelmed as your production Kubernetes cluster._
-
-  `local-ai` `multi-agent` `self-hosted` `personal-os`
-  </details>
-
 - **[LLMFarm](https://github.com/guinmoon/llmfarm)** `⭐ 2k` `updated ≤180d` LLMFarm is an iOS and macOS app that runs large language models locally on-device using the GGML library, supporting models like LLaMA, Starcoder, and Gemma. <details><summary>More about</summary>
 
   It lets developers benchmark, test RAG setups, and run coding models like Starcoder directly on Apple hardware without cloud dependencies.
@@ -418,7 +409,16 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `ios` `macos` `offline` `ggml`
   </details>
 
-- **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 1.7k` `updated ≤30d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
+- **[opendan-personal-ai-os](https://github.com/fiatrete/opendan-personal-ai-os)** `⭐ 2k` `updated ≤90d` OpenDAN is an open-source Personal AI Operating System that consolidates various AI modules, supports local model execution via Docker, and enables users to build and run multi-agent workflows for personal tasks. <details><summary>More about</summary>
+
+  It provides a self-hosted, Docker-based environment for developers to experiment with local LLMs and multi-agent collaboration without relying solely on external APIs.
+
+  _Now you can self-host an operating system to manage your smart toaster and English tutor, ensuring your local hardware is as overwhelmed as your production Kubernetes cluster._
+
+  `local-ai` `multi-agent` `self-hosted` `personal-os`
+  </details>
+
+- **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 1.7k` `updated ≤90d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
 
   It allows developers on Mac to run frontier-sized models locally with minimal latency, enabling private, cost-free usage of tool-calling workflows inside their existing editors.
 
@@ -454,7 +454,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `macos` `llama` `swiftui` `desktop`
   </details>
 
-- **[LlamaBarn](https://github.com/ggml-org/llamabarn)** `⭐ 1.2k` `updated ≤90d` A lightweight macOS menu bar app that runs local LLMs via llama.cpp and exposes them through a standard OpenAI-compatible API server. <details><summary>More about</summary>
+- **[LlamaBarn](https://github.com/ggml-org/llamabarn)** `⭐ 1.3k` `updated ≤30d` A lightweight macOS menu bar app that runs local LLMs via llama.cpp and exposes them through a standard OpenAI-compatible API server. <details><summary>More about</summary>
 
   It gives developers a zero-config, native way to run and manage local models that slot directly into editors, CLI tools, and coding agents they already use.
 
@@ -611,7 +611,7 @@ _These are new or low-traffic entries being watched._
   `local-ai` `cli` `llm-management` `self-hosted`
   </details>
 
-- **[4da](https://github.com/runyourempire/4da)** `⭐ 0` `updated ≤30d` A local-first desktop app and MCP server that scans a developer's codebase and dependency tree to filter developer news, advisories, and releases using on-device LLM verification. <details><summary>More about</summary>
+- **[4da](https://github.com/runyourempire/4da)** `⭐ 0` `updated ≤90d` A local-first desktop app and MCP server that scans a developer's codebase and dependency tree to filter developer news, advisories, and releases using on-device LLM verification. <details><summary>More about</summary>
 
   It aims to solve the problem of information overload by scoring ecosystem content against your actual stack and filtering out noise before it reaches your AI assistant.
 

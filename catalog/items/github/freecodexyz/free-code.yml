@@ -24,33 +24,42 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 8438
+    forks: 2014
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: true
+    created_at: "2026-03-31T11:11:49Z"
+    pushed_at: "2026-04-01T16:24:23Z"
+    description: The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.
+    homepage: https://x.com/paoloanzn/status/2039022418698907949?s=20
+    topics: []
+    last_checked_at: "2026-06-08T05:39:20.995Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:20.995Z"
+      bytes: 12090
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A telemetry-free fork of Claude Code with stripped security guardrails and unlocked experimental feature flags.
+  why_it_matters: It allows developers to run the Claude Code CLI without outbound telemetry and removes the prompt-level constraints imposed by the official build.
+  mental_damage: "The peak of the current era: downloading a 'clean' binary of a tool that was reverse-engineered from a source map leak."
+  tags:
+    - claude-code
+    - cli
+    - telemetry-free
+    - unfiltered
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The repository is explicitly archived, which is a strong negative signal for a tool based on a specific version snapshot of leaked source code.
+  evidence:
+    - "archived: yes"
+    - "Pushed at: 2026-04-01T16:24:23Z (very short window of activity)"
+    - The project is a fork of a specific source map exposure from March 31, 2026
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -58,13 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-08T05:39:20.995Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-04T05:41:02.764Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:40:52.530Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -1,0 +1,89 @@
+id: github__ertad-family__liquid
+kind: github-repo
+name: liquid
+canonical_url: https://github.com/ertad-family/liquid
+identity:
+  github_repo: ertad-family/liquid
+provenance:
+  discoveries:
+    - id: discovery__github__ertad-family__liquid__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: ertad-family/liquid
+        extracted_url: https://github.com/ertad-family/liquid
+        surrounding_text: "- [ertad-family/liquid](https://github.com/ertad-family/liquid) [![ertad-family/liquid MCP server](https://glama.ai/mcp/servers/ertad-family/liquid/badges/score.svg)](https://glama.ai/mcp/servers/ertad-family/liquid) 🐍 ☁️ 🏠 - Connect your agent to any HTTP API on the fly — discovers + maps any REST API once, then fetches typed data deterministically (no per-call LLM). Self-hosted MCP server (`uvx --from 'liquid-api[mcp]' liquid-mcp`); works with OpenAI/Gemini/Anthropic/local or any provider via LiteLLM. Open source (AGPL)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-04-12T21:16:59Z"
+    pushed_at: "2026-06-04T19:41:26Z"
+    description: AI discovers APIs. Code syncs data. No adapters to write.
+    homepage: null
+    topics:
+      - agent-tools
+      - ai-agents
+      - api-integration
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-06-08T05:39:13.564Z"
+    readme:
+      fetched_at: "2026-06-08T05:39:13.564Z"
+      bytes: 23805
+insights:
+  summary: An AI-driven integration layer that automatically discovers API shapes and maps them to typed records without requiring hand-written connectors.
+  why_it_matters: It eliminates the manual toil of writing and maintaining adapters for diverse data sources, from REST and GraphQL to industrial protocols like Modbus and OPC UA.
+  mental_damage: The dream of never writing another API adapter again is only a few 'auto-approve' clicks away from a production outage caused by a hallucinated mapping.
+  tags:
+    - api-integration
+    - mcp
+    - auto-discovery
+    - data-sync
+    - agents
+  confidence: medium
+curation:
+  status: included
+  reason: It is primarily a code-first library (PyPI) that provides a unified SDK for agents to interact with diverse interfaces, fitting the provider abstraction pattern.
+  evidence:
+    - Provides a Python SDK with PyPI distribution for developers to import
+    - Unified API (fetch, query, write, sense) that abstracts underlying transport layers
+    - Claims to 'repair itself' when upstream APIs drift using an LLM at setup
+placement:
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.248Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-08T05:39:13.564Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-08T05:42:34.903Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
