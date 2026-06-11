@@ -1,0 +1,101 @@
+id: github__agenthill__vaultpilot-mcp
+kind: github-repo
+name: vaultpilot-mcp
+canonical_url: https://github.com/agenthill/vaultpilot-mcp
+identity:
+  github_repo: agenthill/vaultpilot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__agenthill__vaultpilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-11T05:37:56.129Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: szhygulin/recon-crypto-mcp
+        extracted_url: https://github.com/szhygulin/recon-crypto-mcp
+        surrounding_text: "- [szhygulin/recon-crypto-mcp](https://github.com/szhygulin/recon-crypto-mcp) [![recon-crypto-mcp MCP server](https://glama.ai/mcp/servers/szhygulin/recon-crypto-mcp/badges/score.svg)](https://glama.ai/mcp/servers/szhygulin/recon-crypto-mcp) 📇 🏠 - Self-custodial crypto portfolio for AI agents. Reads EVM wallet balances, ENS, token prices, and DeFi positions across Ethereum/Arbitrum/Polygon/Base (Aave V3, Compound V3, Morpho Blue, Uniswap V3 LP, Lido, EigenLayer), surfaces health-factor alerts and protocol risk scores, then prepares unsigned transactions (supply, borrow, repay, withdraw, stake, send, LiFi swap/bridge) signed on Ledger via WalletConnect — private keys never leave the hardware wallet."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-04-12T12:20:18Z"
+    pushed_at: "2026-06-11T02:45:03Z"
+    description: Safety first. Hardware-verified DeFi for AI agents — designed for when the AI can be compromised.
+    homepage: https://vaultpilot-mcp.ai
+    topics:
+      - aave
+      - ai-agent
+      - arbitrum
+      - claude
+      - claude-code
+      - compound
+      - crypto
+      - cursor
+      - defi
+      - ethereum
+      - ledger
+      - lifi
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - polygon
+      - solana
+      - uniswap
+      - walletconnect
+    last_checked_at: "2026-06-11T05:37:57.245Z"
+    readme:
+      fetched_at: "2026-06-11T05:37:57.245Z"
+      bytes: 22212
+insights:
+  summary: An MCP server providing hardware-verified DeFi capabilities for AI agents with a human-in-the-loop approval flow via Ledger.
+  why_it_matters: It allows developers to give AI agents the ability to read and prepare cross-chain DeFi transactions without risking total fund loss via private key exposure.
+  mental_damage: The peace of mind knowing your agent can't drain your wallet is only slightly offset by the anxiety of seeing an LLM attempt a complex cross-chain bridge in a single prompt.
+  tags:
+    - mcp
+    - defi
+    - blockchain
+    - hardware-security
+    - agents
+  confidence: high
+curation:
+  status: included
+  reason: The product's entire identity is an MCP server designed to bridge agents to specific DeFi protocols via a standardized protocol.
+  evidence:
+    - Explicitly identifies as 'VaultPilot MCP'
+    - Implements a server for MCP-compatible clients like Claude Code and Cursor
+    - Included in awesome-mcp-servers under Finance & Fintech
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-11T05:37:56.130Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-11T05:37:57.245Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-11T05:40:19.885Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

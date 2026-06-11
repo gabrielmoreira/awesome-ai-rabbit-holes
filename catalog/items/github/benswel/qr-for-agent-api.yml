@@ -1,0 +1,81 @@
+id: github__benswel__qr-for-agent-api
+kind: github-repo
+name: qr-for-agent-api
+canonical_url: https://github.com/benswel/qr-for-agent-api
+identity:
+  github_repo: benswel/qr-for-agent-api
+provenance:
+  discoveries:
+    - id: discovery__github__benswel__qr-for-agent-api__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-11T05:37:56.129Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: benswel/qr-agent-core
+        extracted_url: https://github.com/benswel/qr-agent-core
+        surrounding_text: "- [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core) 📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-02-23T15:09:23Z"
+    pushed_at: "2026-06-09T08:25:41Z"
+    description: QR-as-a-Service API for AI agents — 34 MCP tools, 11 QR types, dynamic links, scan analytics, webhooks, custom domains. REST API + MCP server.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-11T05:38:05.783Z"
+    readme:
+      fetched_at: "2026-06-11T05:38:05.783Z"
+      bytes: 11913
+insights:
+  summary: A QR-as-a-Service API and MCP server that allows AI agents to programmatically create, update, and track dynamic QR codes.
+  why_it_matters: It enables agents to bridge the gap between digital workflows and physical touchpoints by generating retargetable QR codes with built-in analytics and webhooks.
+  mental_damage: We have officially reached the era where we are building specialized APIs so our agents can generate the QR codes that we will then scan to interact with our agents.
+  tags:
+    - mcp
+    - qr-codes
+    - api-service
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is a service delivered via a REST API and a dedicated MCP server, providing specific domain-based tools for agents.
+  evidence:
+    - Repo description explicitly identifies as a 'QR-as-a-Service API' and 'MCP server'.
+    - README lists 37 specific MCP tools for use in Claude Desktop and Cursor.
+    - Included in the awesome-mcp-servers list under Developer Tools.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-11T05:37:56.130Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-11T05:38:05.783Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-11T05:40:21.108Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

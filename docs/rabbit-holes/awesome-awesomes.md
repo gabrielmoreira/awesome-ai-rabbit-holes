@@ -58,7 +58,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `awesome-list` `research` `resources` `directory`
   </details>
 
-- **[Awesome-Nano-Banana-images](https://github.com/picotrex/awesome-nano-banana-images)** `⭐ 22.6k` `updated ≤180d` A curated list and dataset repository showcasing image generation examples and prompts for Google's Nano Banana (Gemini-2.5-flash-image) model, accompanied by the Nano-consistent-150K dataset for identity-consistent editing. <details><summary>More about</summary>
+- **[Awesome-Nano-Banana-images](https://github.com/picotrex/awesome-nano-banana-images)** `⭐ 22.6k` `updated ≤1y` A curated list and dataset repository showcasing image generation examples and prompts for Google's Nano Banana (Gemini-2.5-flash-image) model, accompanied by the Nano-consistent-150K dataset for identity-consistent editing. <details><summary>More about</summary>
 
   It provides developers working on image generation and unified models with a concrete dataset and prompt examples focused on maintaining identity consistency across complex editing tasks.
 
@@ -94,7 +94,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `open-source` `licensing` `model-directory`
   </details>
 
-- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.3k` `updated ≤90d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.5k` `updated ≤30d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
 
   It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
 
@@ -184,7 +184,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `discovery`
   </details>
 
-- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤30d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
+- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤90d` A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community. <details><summary>More about</summary>
 
   It provides developers and researchers with a structured, navigable index of specialized medical models and evaluation resources to accelerate building healthcare AI applications.
 
@@ -319,7 +319,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 878` `updated ≤90d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
+- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 878` `updated ≤180d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and servers.
 
@@ -364,6 +364,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 538` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+
+  It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
+
+  _Because nothing says 'I have a handle on the AI tooling landscape' like maintaining a list of eighty different terminal agents that all promise to refactor your repo while you stare at a blinking cursor._
+
+  `cli` `coding-agents` `directory` `terminal` `awesome-list`
+  </details>
+
 - **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and directory of free and open source MLOps tools covering the full lifecycle from data annotation to model monitoring. <details><summary>More about</summary>
 
   It provides developers with a vetted, fully open-source map of the MLOps ecosystem, filtering out vendor-locked or SaaS-pushing tools.
@@ -371,15 +380,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Yet another beautiful list to ponder endlessly while your actual model training sits idle, waiting for you to finally pick a feature store._
 
   `mlops` `awesome-list` `open-source` `directory`
-  </details>
-
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 475` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
-
-  It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
-
-  _Because nothing says 'I have a handle on the AI tooling landscape' like maintaining a list of eighty different terminal agents that all promise to refactor your repo while you stare at a blinking cursor._
-
-  `cli` `coding-agents` `directory` `terminal` `awesome-list`
   </details>
 
 - **[LLaMA Cult and More](https://github.com/shm007g/llama-cult-and-more)** `⭐ 449` `updated >1y` A curated catalog and timeline of large language models, pre-trained base models, alignment techniques, training libraries, and evaluation benchmarks. <details><summary>More about</summary>

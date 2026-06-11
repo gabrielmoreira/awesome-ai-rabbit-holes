@@ -50,17 +50,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A login page for Ampcode.
-  why_it_matters: It does not provide developer tooling; it is an authentication gateway.
-  mental_damage: The existential dread of clicking 'Sign in with Google' just to find out the landing page is also a login page.
-  tags: []
+  summary: An authentication login page for Amp, presenting email and Google sign-in options with no product functionality exposed.
+  why_it_matters: It offers no direct developer workflow, tooling, or AI capability; it is purely an account access gateway.
+  mental_damage: An authentication page so unapologetically focused on capturing your email that it forgot to bring a product description along.
+  tags:
+    - auth
+    - login-page
+    - amp
   confidence: high
 curation:
   status: excluded
-  reason: The provided URL and scraped content are for a login/authentication page, not a functional AI developer tool or platform.
+  reason: This is an auxiliary authentication portal, not a standalone developer-facing AI tool, extension, framework, or resource.
   evidence:
-    - Scraped site context shows only login elements ('Teken in', 'E-pos', 'Gaan voort met Google')
-    - No project description or README provided to establish a tool identity
+    - Scraped page content is exclusively an Afrikaans-language login form with email and Google sign-in for Amp.
+    - No repository description, README, or site context describes any coding assistant, IDE, agent, or developer infrastructure.
+    - The URL auth.ampcode.com is an identity/access subdomain, indicating a supporting link rather than a primary product surface.
 placement:
   primary_category: null
   section: null
@@ -79,9 +83,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:30.765Z"
+    updated_at: "2026-06-11T05:39:07.187Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

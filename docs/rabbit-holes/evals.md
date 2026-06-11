@@ -31,7 +31,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.4k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.6k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
 
   It gives developers the observability and evaluation tooling needed to measure prompt quality, trace agent behavior, and ship more reliable LLM-powered features.
 
@@ -40,7 +40,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evals` `tracing` `llmops` `monitoring`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 15.8k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 16.1k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
 
   It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
 
@@ -94,7 +94,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `gateway` `observability` `evals` `rust`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 9.9k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.1k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
 
   It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
 
@@ -292,7 +292,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `hallucination-detection` `uncertainty-quantification` `python-library` `ai-safety`
   </details>
 
-- **[GuideLLM](https://github.com/vllm-project/guidellm)** `⭐ 1.1k` `updated ≤30d` GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers. <details><summary>More about</summary>
+- **[GuideLLM](https://github.com/vllm-project/guidellm)** `⭐ 1.1k` `updated ≤90d` GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers. <details><summary>More about</summary>
 
   It gives engineering teams SLO-aware, reproducible metrics to optimize deployments and avoid guesswork in production LLM serving.
 
@@ -418,7 +418,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `contamination` `training-data` `eval` `research`
   </details>
 
-- **[mutahunter](https://github.com/codeintegrity-ai/mutahunter)** `⭐ 296` `updated >1y` Mutahunter is an open-source, language-agnostic CLI tool that uses LLMs to perform mutation testing by generating code mutants and verifying test suite strength. <details><summary>More about</summary>
+- **[mutahunter](https://github.com/codeintegrity-ai/mutahunter)** `⭐ 295` `updated >1y` Mutahunter is an open-source, language-agnostic CLI tool that uses LLMs to perform mutation testing by generating code mutants and verifying test suite strength. <details><summary>More about</summary>
 
   It automates the tedious task of measuring test coverage quality by having an AI introduce bugs and checking if your unit tests actually catch them.
 
@@ -436,7 +436,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `benchmarks` `math` `cli`
   </details>
 
-- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 257` `updated ≤180d` LangFair is a Python library for conducting use-case-level bias and fairness assessments on LLM outputs using a Bring Your Own Prompts approach. <details><summary>More about</summary>
+- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 259` `updated ≤180d` LangFair is a Python library for conducting use-case-level bias and fairness assessments on LLM outputs using a Bring Your Own Prompts approach. <details><summary>More about</summary>
 
   It allows developers to measure and govern fairness risks specific to their prompts and use cases rather than relying on generic, static benchmarks.
 

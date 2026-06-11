@@ -13,7 +13,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.4k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
+- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.6k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
 
   It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
 
@@ -31,6 +31,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 116.5k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+
+  It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
+
+  _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
+
+  `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
+  </details>
+
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 115.4k` `updated ≤30d` A C/C++ implementation for running LLM inference locally, focused on enabling efficient execution of models on consumer hardware. <details><summary>More about</summary>
 
   It provides the foundational runtime that allows developers to run powerful language models privately on their own machines without relying on cloud APIs.
@@ -38,15 +47,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _You will spend an evening quantizing a model down to 3 bits just to watch it hallucinate at 12 tokens per second while convincing yourself this is definitely 'production ready'._
 
   `local-ai` `inference` `cpp` `gguf` `llm`
-  </details>
-
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 115.2k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
-
-  It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
-
-  _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
-
-  `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
   </details>
 
 - **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤30d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
@@ -94,6 +94,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `local-inference` `cpp` `offline` `whisper`
   </details>
 
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 47.2k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+
+  It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
+
+  _Yet another Electron wrapper promising to unify the AI ecosystem, ensuring you can now context-switch between twelve different LLMs without ever leaving your desktop._
+
+  `desktop-client` `multi-llm` `local-models` `chat-interface`
+  </details>
+
 - **[textgen](https://github.com/oobabooga/textgen)** `⭐ 46.9k` `updated ≤90d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
 
   It provides developers with a private, drop-in API server and UI to run and test models locally without telemetry or cloud dependencies.
@@ -101,15 +110,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Nothing says 'I am optimizing my token spend' quite like downloading 40GB of weights just to see if a 7B model can debug a missing semicolon._
 
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
-  </details>
-
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 46.7k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
-
-  It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
-
-  _Yet another Electron wrapper promising to unify the AI ecosystem, ensuring you can now context-switch between twelve different LLMs without ever leaving your desktop._
-
-  `desktop-client` `multi-llm` `local-models` `chat-interface`
   </details>
 
 - **[LocalAI](https://github.com/mudler/localai)** `⭐ 46.1k` `updated ≤90d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
@@ -148,7 +148,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `eval-harness` `local-models` `training`
   </details>
 
-- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38.1k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
+- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38.2k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
 
   It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
 
@@ -184,7 +184,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `single-binary` `offline` `inference`
   </details>
 
-- **[Local GPT](https://github.com/promtengineer/localgpt)** `⭐ 22.2k` `updated ≤90d` A local, privacy-focused document intelligence platform that lets you chat with your files using on-device LLMs and a modular RAG pipeline with hybrid search. <details><summary>More about</summary>
+- **[Local GPT](https://github.com/promtengineer/localgpt)** `⭐ 22.2k` `updated ≤180d` A local, privacy-focused document intelligence platform that lets you chat with your files using on-device LLMs and a modular RAG pipeline with hybrid search. <details><summary>More about</summary>
 
   It gives developers a self-contained way to index, retrieve, and query private documents via API or UI without sending data to external inference providers.
 
@@ -193,7 +193,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `private` `documents` `ollama`
   </details>
 
-- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 17.2k` `updated ≤90d` AirLLM is a Python library that optimizes LLM inference memory usage, enabling large models like 70B or 405B Llama to run on low-VRAM hardware (4GB–8GB) without quantization. <details><summary>More about</summary>
+- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 17.2k` `updated ≤180d` AirLLM is a Python library that optimizes LLM inference memory usage, enabling large models like 70B or 405B Llama to run on low-VRAM hardware (4GB–8GB) without quantization. <details><summary>More about</summary>
 
   It lets developers experiment with and serve state-of-the-art open-weight models locally on commodity GPUs that would otherwise be unable to load them.
 
@@ -229,7 +229,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `self-hosted` `codegen` `copilot-alternative` `nvidia`
   </details>
 
-- **[OpenLLM](https://github.com/bentoml/openllm)** `⭐ 12.3k` `updated ≤30d` OpenLLM is a Python toolkit that runs open-source LLMs like Llama and DeepSeek locally or in the cloud as OpenAI-compatible API endpoints. <details><summary>More about</summary>
+- **[OpenLLM](https://github.com/bentoml/openllm)** `⭐ 12.4k` `updated ≤30d` OpenLLM is a Python toolkit that runs open-source LLMs like Llama and DeepSeek locally or in the cloud as OpenAI-compatible API endpoints. <details><summary>More about</summary>
 
   It lets developers self-host and swap between models while keeping an OpenAI-compatible interface that works with existing LlamaIndex, LangChain, and client code.
 
@@ -319,7 +319,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `gpu-orchestration` `inference`
   </details>
 
-- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 4.8k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
+- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 5k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
 
   It allows developers on Apple hardware to experiment with and deploy multimodal capabilities, like OCR and image understanding, without leaving their local machine.
 

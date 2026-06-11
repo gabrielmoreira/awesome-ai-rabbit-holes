@@ -1,0 +1,76 @@
+id: fulcradynamics__com
+kind: website
+name: fulcradynamics.com
+canonical_url: https://fulcradynamics.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__fulcradynamics__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-06-11T05:37:56.129Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Context by Fulcra
+        extracted_url: https://www.fulcradynamics.com
+        surrounding_text: "- **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by Fulcra](https://www.fulcradynamics.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A unified, human-owned memory layer that allows AI agents to read and contribute persistent context across different platforms and sessions.
+  why_it_matters: It solves the fragmented context problem by providing a single source of truth for personal data and state that can be shared across multiple agents via a Life API and MCP server.
+  mental_damage: The dream of a 'Personal Data OS' is just a fancy way of saying we're now managing a database of our own existence so our agents don't forget we're allergic to peanuts every time we start a new chat.
+  tags:
+    - mcp
+    - memory
+    - personal-data
+    - context-layer
+  confidence: high
+curation:
+  status: included
+  reason: The core product identity is a memory and retrieval system for shaping context, rather than being an agent or a simple integration.
+  evidence:
+    - Claims to be a 'memory layer you own' and 'one unified memory' for agents.
+    - Focuses on 'Readable and controllable' memory stores and 'dynamic memory features'.
+    - Provides a 'Life API' and 'MCP Server' to deliver this context to other LLMs.
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-11T05:37:56.131Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-11T05:40:15.031Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

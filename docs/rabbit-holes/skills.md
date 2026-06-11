@@ -13,7 +13,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 62.7k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 64.1k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -31,7 +31,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `awesome-list` `agent-skills` `openclaw`
   </details>
 
-- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 21.4k` `updated ≤30d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
+- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 21.4k` `updated ≤90d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
 
   Saves developers time by providing vetted, production-grade skill packs from real engineering teams instead of AI-generated noise.
 
@@ -40,7 +40,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `skill-packs` `coding-assistants`
   </details>
 
-- **[skills](https://github.com/vercel-labs/skills)** `⭐ 18.2k` `updated ≤30d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
+- **[skills](https://github.com/vercel-labs/skills)** `⭐ 18.2k` `updated ≤90d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
 
   It lets developers standardize and share agent behaviors across projects and teams via installable skill modules.
 
@@ -134,7 +134,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 13` `updated ≤90d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 13` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
 
   Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
 
@@ -188,7 +188,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ide-rules` `prompt-files` `agent-runtimes` `doctrine`
   </details>
 
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 1` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 2` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
 
   It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
 

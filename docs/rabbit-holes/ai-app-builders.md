@@ -40,7 +40,16 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `app-builder` `browser-ide` `multi-model` `self-hosted` `full-stack`
   </details>
 
-- **[Verba](https://github.com/weaviate/verba)** `⭐ 7.7k` `updated ≤30d` Verba is a retrieval-augmented generation (RAG) chatbot built with Weaviate for querying and interacting with personal or local data via LLMs. <details><summary>More about</summary>
+- **[builder](https://github.com/builderio/builder)** `⭐ 8.7k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
+
+  It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
+
+  _The dream of 'no-code' has simply evolved into 'code that is visually managed by someone else,' ensuring the developer is still the one debugging the output._
+
+  `visual-development` `design-to-code` `cms` `figma-integration`
+  </details>
+
+- **[Verba](https://github.com/weaviate/verba)** `⭐ 7.7k` `updated ≤90d` Verba is a retrieval-augmented generation (RAG) chatbot built with Weaviate for querying and interacting with personal or local data via LLMs. <details><summary>More about</summary>
 
   It lets developers quickly prototype RAG applications with multiple LLM providers and embedding options, reducing boilerplate for data-backed AI assistants.
 

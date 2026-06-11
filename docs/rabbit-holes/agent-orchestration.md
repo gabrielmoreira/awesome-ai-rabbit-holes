@@ -85,7 +85,7 @@ Tools and platforms for coordinating multiple agents.
   `rag` `agent-orchestration` `self-hosted` `workflow` `knowledge-base`
   </details>
 
-- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 26.7k` `updated ≤90d` A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 26.9k` `updated ≤90d` A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It gives developers a structured loop for planning issues, running agents in isolated branches, reviewing diffs, and merging PRs without leaving a single control surface.
 
@@ -112,7 +112,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `rag` `self-hosted` `mcp` `enterprise`
   </details>
 
-- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 20.9k` `updated ≤90d` Coze Studio is an open-source, self-hostable AI agent development platform offering visual, low-code tools for building, debugging, and deploying agents, apps, and workflows with integrated model management, RAG, and plugins. <details><summary>More about</summary>
+- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 21k` `updated ≤90d` Coze Studio is an open-source, self-hostable AI agent development platform offering visual, low-code tools for building, debugging, and deploying agents, apps, and workflows with integrated model management, RAG, and plugins. <details><summary>More about</summary>
 
   Developers can self-host a full agent workbench with visual workflow builders, model management, and deployment tooling instead of relying on hosted SaaS platforms.
 
@@ -373,15 +373,6 @@ Tools and platforms for coordinating multiple agents.
   `agent` `control-plane` `observability` `multiagent` `go`
   </details>
 
-- **[Shannon](https://github.com/kocoro-lab/shannon)** `⭐ 1.8k` `updated ≤90d` Shannon is a production-oriented multi-agent orchestration framework with a Temporal-backed runtime, WASI sandboxing, token budget controls, and a desktop app for visualizing agent execution. <details><summary>More about</summary>
-
-  It gives developers a self-hosted, multi-strategy orchestration platform with built-in cost controls, time-travel debugging, and observability instead of gluing together fragile single-agent scripts.
-
-  _Yet another opportunity to spend three days architecting a multi-agent swarm so you can automate a task that a single grep would have finished by lunch._
-
-  `multi-agent` `orchestration` `self-hosted` `temporal` `go`
-  </details>
-
 - **[mux](https://github.com/coder/mux)** `⭐ 1.8k` `updated ≤30d` A desktop and browser application for running multiple AI coding agents in isolated workspaces with support for local, git worktree, and remote SSH runtimes. <details><summary>More about</summary>
 
   It lets developers spin up and manage parallel agent sessions across different models and environments from a single UI, aiming to solve the bottleneck of sequential AI-assisted development.
@@ -389,6 +380,15 @@ Tools and platforms for coordinating multiple agents.
   _Because the only thing better than one AI rewriting your codebase in a fugue state is five of them doing it in isolated worktrees while you watch the git divergence UI like a slot machine._
 
   `parallel-agents` `desktop` `multi-model` `worktrees`
+  </details>
+
+- **[Shannon](https://github.com/kocoro-lab/shannon)** `⭐ 1.8k` `updated ≤90d` Shannon is a production-oriented multi-agent orchestration framework with a Temporal-backed runtime, WASI sandboxing, token budget controls, and a desktop app for visualizing agent execution. <details><summary>More about</summary>
+
+  It gives developers a self-hosted, multi-strategy orchestration platform with built-in cost controls, time-travel debugging, and observability instead of gluing together fragile single-agent scripts.
+
+  _Yet another opportunity to spend three days architecting a multi-agent swarm so you can automate a task that a single grep would have finished by lunch._
+
+  `multi-agent` `orchestration` `self-hosted` `temporal` `go`
   </details>
 
 - **[Cooragent](https://github.com/leaplabthu/cooragent)** `⭐ 1.7k` `updated ≤90d` Cooragent is a Python-based AI agent collaboration platform and CLI that generates agents from natural language and coordinates multi-agent workflows for complex task execution. <details><summary>More about</summary>
@@ -472,6 +472,15 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `framework` `distributed` `llm`
   </details>
 
+- **[cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 695` `updated ≤30d` CLI Agent Orchestrator (CAO) is an open-source framework that runs multiple CLI coding agents (like Claude Code, Gemini CLI, and Amazon Q) in isolated tmux sessions and coordinates them via a supervisor-worker pattern over MCP. <details><summary>More about</summary>
+
+  It lets developers mix and match different CLI coding agents in parallel workflows, preserving native tool behavior and auth while enabling cross-provider task delegation.
+
+  _Finally, the dream of managing a swarm of expensive API calls in tmux sessions is here, ensuring your terminal remains as chaotic as your microservice architecture._
+
+  `multi-agent` `cli` `orchestration` `mcp` `tmux`
+  </details>
+
 - **[LazyCraft](https://github.com/lazyagi/lazycraft)** `⭐ 681` `updated ≤180d` LazyCraft is a self-hosted, low-code platform for building and managing AI agent applications, featuring visual workflow orchestration, integrated model fine-tuning, and RAG pipeline configuration. <details><summary>More about</summary>
 
   It provides a full lifecycle control plane for teams to drag-and-drop agentic workflows, manage knowledge bases, and fine-tune models without writing extensive boilerplate code.
@@ -479,15 +488,6 @@ Tools and platforms for coordinating multiple agents.
   _Just when you thought you escaped the GUI by moving to AI coding agents, we’ve built a visual canvas to orchestrate the agents that write the code that eventually replaces the canvas builders._
 
   `agent-platform` `low-code` `rag` `self-hosted` `orchestration`
-  </details>
-
-- **[cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 654` `updated ≤30d` CLI Agent Orchestrator (CAO) is an open-source framework that runs multiple CLI coding agents (like Claude Code, Gemini CLI, and Amazon Q) in isolated tmux sessions and coordinates them via a supervisor-worker pattern over MCP. <details><summary>More about</summary>
-
-  It lets developers mix and match different CLI coding agents in parallel workflows, preserving native tool behavior and auth while enabling cross-provider task delegation.
-
-  _Finally, the dream of managing a swarm of expensive API calls in tmux sessions is here, ensuring your terminal remains as chaotic as your microservice architecture._
-
-  `multi-agent` `cli` `orchestration` `mcp` `tmux`
   </details>
 
 - **[Parallel Code](https://github.com/johannesjo/parallel-code)** `⭐ 612` `updated ≤90d` A desktop workbench that dispatches Claude Code, Codex, and Gemini CLI in parallel across isolated git worktrees, with a GUI for diff review and merge management. <details><summary>More about</summary>
@@ -526,7 +526,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-frontend` `self-hosted` `sdk` `chat-ui` `analytics`
   </details>
 
-- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 484` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
+- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 486` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
 
   It provides developers and platform teams with a governance layer to intercept risky agent actions, enforce safety policies, and maintain audit trails before autonomous agents execute destructive operations.
 
@@ -562,7 +562,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `marketplace` `desktop` `economics`
   </details>
 
-- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 396` `updated ≤90d` Coasts is a CLI tool with a local observability UI that runs multiple isolated instances of a full development environment using Git worktrees and Docker containers. <details><summary>More about</summary>
+- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 400` `updated ≤90d` Coasts is a CLI tool with a local observability UI that runs multiple isolated instances of a full development environment using Git worktrees and Docker containers. <details><summary>More about</summary>
 
   It lets developers run parallel, isolated instances of their stack for multiple AI agents or worktrees simultaneously without port conflicts or environment cross-contamination.
 
@@ -647,7 +647,7 @@ _These are new or low-traffic entries being watched._
   `tui` `parallel-agents` `tmux` `git-worktree` `orchestration`
   </details>
 
-- **[Flock](https://github.com/whiteducksoftware/flock)** `⭐ 104` `updated ≤30d` Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture. <details><summary>More about</summary>
+- **[Flock](https://github.com/whiteducksoftware/flock)** `⭐ 104` `updated ≤90d` Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture. <details><summary>More about</summary>
 
   It replaces fragile prompt engineering and tight coupling with reliable, testable multi-agent coordination grounded in distributed systems patterns.
 
@@ -665,7 +665,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `cli` `debate` `mcp` `llm`
   </details>
 
-- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 90` `updated ≤30d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
+- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 88` `updated ≤30d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
 
   It shifts security left by automating threat modeling, compliance gap analysis, and SAST/DAST triage using LLMs and RAG, reducing manual review bottlenecks for security teams.
 
@@ -773,7 +773,7 @@ _These are new or low-traffic entries being watched._
   `agent-coordination` `multi-agent` `cli` `conflict-prevention` `git`
   </details>
 
-- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 34` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
+- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 39` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
 
   It lets solo founders and small teams offload SDLC overhead to AI specialists while retaining two key decisions per feature, reducing burnout and increasing shipping velocity.
 

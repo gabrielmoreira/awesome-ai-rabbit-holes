@@ -76,7 +76,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `python` `profiling` `optimization` `performance`
   </details>
 
-- **[cc-connect](https://github.com/chenhg5/cc-connect)** `⭐ 11.2k` `updated ≤30d` A bridge that connects local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Slack, Telegram, Discord, Feishu/Lark, etc.) so developers can chat with their assistant from anywhere without requiring a public IP. <details><summary>More about</summary>
+- **[cc-connect](https://github.com/chenhg5/cc-connect)** `⭐ 12.1k` `updated ≤30d` A bridge that connects local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Slack, Telegram, Discord, Feishu/Lark, etc.) so developers can chat with their assistant from anywhere without requiring a public IP. <details><summary>More about</summary>
 
   It turns your existing terminal or IDE agent into a remote team member accessible from corporate chat or your phone, letting you trigger repo work without exposing the agent directly to the internet.
 
@@ -112,6 +112,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `readme-generator` `cli` `documentation` `llm` `python`
   </details>
 
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.7k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+
+  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
+
+  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
+
+  `terminal` `tui` `session-manager` `ai-agents` `cli`
+  </details>
+
 - **[agent-device](https://github.com/callstack/agent-device)** `⭐ 2.6k` `updated ≤30d` A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution. <details><summary>More about</summary>
 
   It closes the loop for coding agents by giving them a way to verify their changes on real devices or emulators rather than just guessing based on the codebase.
@@ -119,15 +128,6 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _Now your AI agent can hallucinate a UI interaction and then provide you with a screenshot of the exact moment it failed to find the button._
 
   `mobile-automation` `computer-use` `mcp` `e2e-testing` `android-ios`
-  </details>
-
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 2.6k` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
-
-  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
-
-  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
-
-  `terminal` `tui` `session-manager` `ai-agents` `cli`
   </details>
 
 - **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2k` `updated ≤30d` A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows. <details><summary>More about</summary>
@@ -238,7 +238,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mysql` `mcp` `database` `ai-dev-extensions`
   </details>
 
-- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 197` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
+- **[comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 207` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
 
   It removes the manual drag-and-drop friction of building Stable Diffusion and FLUX workflows by letting developers describe node graphs in natural language and letting Claude Code manipulate them programmatically.
 
@@ -314,7 +314,7 @@ _These are new or low-traffic entries being watched._
   `rust` `cli` `skills` `mcp` `config-management`
   </details>
 
-- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 55` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
+- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 57` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
 
   It gives teams an auditable workflow envelope around Claude Code, Codex, Cursor, and Aider so reviewers can reconstruct why a change was made, not just what changed.
 
@@ -350,6 +350,15 @@ _These are new or low-traffic entries being watched._
   `telegram` `remote-control` `cli-agents` `mobile` `bridge`
   </details>
 
+- **[domshell](https://github.com/apireno/domshell)** `⭐ 43` `updated ≤30d` A Chrome Extension that maps the browser's accessibility tree to a virtual filesystem so AI agents and humans can navigate and interact with web pages using standard Linux commands like ls, cd, and grep. <details><summary>More about</summary>
+
+  It gives coding agents a deterministic, semantic interface to the browser that avoids brittle screenshots, pixel coordinates, or CSS selectors.
+
+  _We have successfully reinvented the filesystem hierarchy just so our agents can feel at home while the DOM silently judges our life choices._
+
+  `browser-automation` `agent-integration` `chrome-extension` `accessibility-tree` `cli-interface`
+  </details>
+
 - **[gptutor-extension](https://github.com/gptutor/gptutor-extension)** `⭐ 43` `updated >1y` GPTutor is a VS Code extension that uses OpenAI's GPT models to explain, review, and comment on selected code blocks, with a focus on the Move programming language. <details><summary>More about</summary>
 
   It provides inline code explanations and reviews directly within the editor, helping developers understand unfamiliar codebases and improve their coding skills without leaving their workflow.
@@ -366,15 +375,6 @@ _These are new or low-traffic entries being watched._
   _We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about._
 
   `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
-  </details>
-
-- **[domshell](https://github.com/apireno/domshell)** `⭐ 41` `updated ≤30d` A Chrome Extension that maps the browser's accessibility tree to a virtual filesystem so AI agents and humans can navigate and interact with web pages using standard Linux commands like ls, cd, and grep. <details><summary>More about</summary>
-
-  It gives coding agents a deterministic, semantic interface to the browser that avoids brittle screenshots, pixel coordinates, or CSS selectors.
-
-  _We have successfully reinvented the filesystem hierarchy just so our agents can feel at home while the DOM silently judges our life choices._
-
-  `browser-automation` `agent-integration` `chrome-extension` `accessibility-tree` `cli-interface`
   </details>
 
 - **[mcp-browser-agent](https://github.com/imprvhub/mcp-browser-agent)** `⭐ 38` `updated ≤180d` An MCP server that gives Claude Desktop autonomous browser automation capabilities using Playwright, allowing it to navigate, interact with DOM elements, execute JavaScript, and make API requests. <details><summary>More about</summary>
@@ -440,7 +440,7 @@ _These are new or low-traffic entries being watched._
   `vscode` `copilot` `extensions` `skills` `awesome-list`
   </details>
 
-- **[forge](https://github.com/tt-wang/forge)** `⭐ 26` `updated ≤30d` A Claude Code plugin that wraps the assistant in a plan-execute-validate loop with parallel worktrees, intelligent retry, and cross-session memory. <details><summary>More about</summary>
+- **[forge](https://github.com/tt-wang/forge)** `⭐ 26` `updated ≤90d` A Claude Code plugin that wraps the assistant in a plan-execute-validate loop with parallel worktrees, intelligent retry, and cross-session memory. <details><summary>More about</summary>
 
   It turns open-ended prompting into a structured, resumable delivery workflow for multi-file features, with built-in validation and parallel execution so developers spend less time manually coordinating Claude Code.
 
@@ -467,7 +467,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `plugin` `autonomous` `tdd` `cli`
   </details>
 
-- **[safe-docx](https://github.com/usejunior/safe-docx)** `⭐ 25` `updated ≤30d` Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation. <details><summary>More about</summary>
+- **[safe-docx](https://github.com/usejunior/safe-docx)** `⭐ 25` `updated ≤90d` Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation. <details><summary>More about</summary>
 
   Enables coding agents to reliably edit Word documents in legal and business workflows where formatting must survive automation.
 
@@ -485,7 +485,7 @@ _These are new or low-traffic entries being watched._
   `cli` `tui` `agent-management` `devops` `go`
   </details>
 
-- **[llm-router](https://github.com/ypollak2/llm-router)** `⭐ 24` `updated ≤30d` A local control plane that routes AI coding tool requests to the cheapest capable model using complexity classification and fallback chains. <details><summary>More about</summary>
+- **[llm-router](https://github.com/ypollak2/llm-router)** `⭐ 24` `updated ≤90d` A local control plane that routes AI coding tool requests to the cheapest capable model using complexity classification and fallback chains. <details><summary>More about</summary>
 
   Reduces AI coding costs by automatically selecting optimal models without workflow changes.
 
@@ -548,7 +548,7 @@ _These are new or low-traffic entries being watched._
   `terminal` `automation` `mcp` `headless` `node-pty`
   </details>
 
-- **[memi](https://github.com/sarveshsea/memi)** `⭐ 10` `updated ≤30d` memi is a CLI and daemon that exports design tokens and components from Tailwind apps into shadcn-native registries for AI coding agents. <details><summary>More about</summary>
+- **[memi](https://github.com/sarveshsea/memi)** `⭐ 10` `updated ≤90d` memi is a CLI and daemon that exports design tokens and components from Tailwind apps into shadcn-native registries for AI coding agents. <details><summary>More about</summary>
 
   It gives AI coding agents memory of a project's design system so they can edit code without breaking UI consistency.
 

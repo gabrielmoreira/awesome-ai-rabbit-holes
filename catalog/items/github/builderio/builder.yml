@@ -1,0 +1,100 @@
+id: github__builderio__builder
+kind: github-repo
+name: builder
+canonical_url: https://github.com/builderio/builder
+identity:
+  github_repo: builderio/builder
+provenance:
+  discoveries:
+    - id: discovery__github__builderio__builder__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-06-11T05:37:56.129Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - App Builders
+        anchor_text: Builder.io Fusion
+        extracted_url: https://www.builder.io
+        surrounding_text: "- **[Builder.io Fusion](https://www.builder.io/)** – AI-powered visual development platform."
+        confidence: high
+metadata:
+  github:
+    stars: 8688
+    forks: 1150
+    license: MIT
+    archived: false
+    created_at: "2019-01-30T23:06:02Z"
+    pushed_at: "2026-06-10T20:44:02Z"
+    description: Visual Development for React, Vue, Svelte, Qwik, and more
+    homepage: https://builder.io
+    topics:
+      - angular
+      - builder
+      - cms
+      - drag-drop
+      - frontend
+      - gatsby
+      - headless
+      - headless-cms
+      - landing-pages
+      - next-js
+      - nocode
+      - page-builder
+      - pwa
+      - qwik
+      - react
+      - react-native
+      - shopify
+      - vue
+      - webcomponents
+      - wysiwyg
+    last_checked_at: "2026-06-11T05:38:11.032Z"
+    readme:
+      fetched_at: "2026-06-11T05:38:11.032Z"
+      bytes: 2550
+insights:
+  summary: A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor.
+  why_it_matters: It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
+  mental_damage: The dream of 'no-code' has simply evolved into 'code that is visually managed by someone else,' ensuring the developer is still the one debugging the output.
+  tags:
+    - visual-development
+    - design-to-code
+    - cms
+    - figma-integration
+  confidence: high
+curation:
+  status: included
+  reason: The primary product identity is a visual editor that turns designs/prompts into deployed sites and scaffolds, fitting the App Builders scope.
+  evidence:
+    - README explicitly mentions 'Turn Figma designs or our drag-and-drop editor' into code
+    - Marketed as 'Visual Development' for generating sites and apps
+    - Included in source-lists under 'App Builders'
+placement:
+  primary_category: app-builders
+  section: Prompt-to-Site Builders
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (8688) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-11T05:37:56.130Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-11T05:38:11.032Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-11T05:40:25.664Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
