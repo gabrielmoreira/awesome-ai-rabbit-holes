@@ -1,0 +1,96 @@
+id: github__cubenest__rrweb-stack
+kind: github-repo
+name: rrweb-stack
+canonical_url: https://github.com/cubenest/rrweb-stack
+identity:
+  github_repo: cubenest/rrweb-stack
+provenance:
+  discoveries:
+    - id: discovery__github__cubenest__rrweb-stack__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: Cubenest/rrweb-stack
+        extracted_url: https://github.com/cubenest/rrweb-stack
+        surrounding_text: "- [Cubenest/rrweb-stack](https://github.com/Cubenest/rrweb-stack) [![Cubenest/rrweb-stack MCP server](https://glama.ai/mcp/servers/Cubenest/rrweb-stack/badges/score.svg)](https://glama.ai/mcp/servers/Cubenest/rrweb-stack) 📇 🏠 - Local-first MCP server (@peekdev/mcp) + Chrome extension that records your real authenticated browser session (rrweb DOM + console + network, PII-masked, to local SQLite) and lets AI coding agents query it or drive the browser. No cloud, no telemetry."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-26T13:31:56Z"
+    pushed_at: "2026-06-15T05:11:33Z"
+    description: "Two OSS products on one rrweb substrate: tracelane (self-contained HTML test-failure replays for WDIO/Playwright/Cypress) + peek (browser companion for AI coding agents over MCP). No SaaS, no telemetry, local-first."
+    homepage: https://cubenest.in
+    topics:
+      - ai-coding-agent
+      - apache-2
+      - chrome-extension
+      - claude-code
+      - cursor
+      - cypress
+      - mcp
+      - model-context-protocol
+      - monorepo
+      - playwright
+      - rrweb
+      - session-replay
+      - testing
+      - webdriverio
+    last_checked_at: "2026-06-15T05:51:29.211Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:29.211Z"
+      bytes: 5198
+insights:
+  summary: A recording substrate providing self-contained HTML test reports via tracelane and an MCP server via peek to expose browser sessions to AI agents.
+  why_it_matters: It allows developers to give coding agents high-fidelity, queryable browser session data and test failures without relying on external SaaS telemetry.
+  mental_damage: The dream of a 'local-first' workflow now includes maintaining a specialized SQLite database of your own browser's past mistakes just so an LLM can tell you why the button is purple.
+  tags:
+    - mcp
+    - browser-automation
+    - rrweb
+    - e2e-testing
+    - local-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project's identity is split between a test reporter and an MCP server; since the MCP component is the primary mechanism for AI agent interaction and has its own dedicated package/docs, it fits as an MCP domain server for browser sessions.
+  evidence:
+    - Includes `@peekdev/mcp` as a stdio MCP server for Claude Code, Cursor, and Cline
+    - Specifically marketed as 'your real browser, exposed to your AI coding agent'
+    - Includes a separate test-focused reporter (tracelane) using the same rrweb core
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:29.211Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:50.083Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

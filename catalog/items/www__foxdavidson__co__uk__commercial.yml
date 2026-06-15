@@ -1,0 +1,76 @@
+id: www__foxdavidson__co__uk__commercial
+kind: website
+name: commercial
+canonical_url: https://www.foxdavidson.co.uk/commercial
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__foxdavidson__co__uk__commercial__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: FD Commercial
+        extracted_url: https://www.fdcommercial.co.uk
+        surrounding_text: "- [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp) [![fdcommercial/property-finance-mcp MCP server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT, LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker. Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A UK-based commercial mortgage brokerage service providing finance for business premises and investment properties.
+  why_it_matters: It does not provide software tools, frameworks, or AI infrastructure for software developers.
+  mental_damage: "The ultimate rabbit hole: transitioning from a coding agent to a commercial property owner via a highly specific mortgage broker."
+  tags:
+    - mortgages
+    - real-estate
+    - finance
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a professional financial services website for commercial mortgages, not a developer tool or AI project, despite being erroneously listed in an MCP directory.
+  evidence:
+    - Scraped site context shows a mortgage broker offering loans from £250k to £250m
+    - No mention of software, AI, or Model Context Protocol in the actual site content
+    - The inclusion in 'awesome-mcp-servers' appears to be a false positive or an error in that list's curation
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.990Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:54:28.078Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

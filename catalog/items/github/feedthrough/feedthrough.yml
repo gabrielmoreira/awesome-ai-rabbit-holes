@@ -1,0 +1,70 @@
+id: github__feedthrough__feedthrough
+kind: github-repo
+name: feedthrough
+canonical_url: https://github.com/feedthrough/feedthrough
+identity:
+  github_repo: feedthrough/feedthrough
+provenance:
+  discoveries:
+    - id: discovery__github__feedthrough__feedthrough__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: feedthrough/feedthrough
+        extracted_url: https://github.com/feedthrough/feedthrough
+        surrounding_text: "- [feedthrough/feedthrough](https://github.com/feedthrough/feedthrough) [![feedthrough/feedthrough MCP server](https://glama.ai/mcp/servers/feedthrough/feedthrough/badges/score.svg)](https://glama.ai/mcp/servers/feedthrough/feedthrough) 📇 🏠 🍎 🪟 🐧 - In-browser debug bridge that injects into your running web app, so an agent can read the DOM, console logs and network requests, and click/fill/inspect the page. Runs inside the page (not an external CDP driver), so it works in any browser and inside Cypress/Playwright runs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-06-15T05:51:43.424Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

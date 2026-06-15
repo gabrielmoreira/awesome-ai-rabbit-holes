@@ -58,7 +58,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `pdf-parser` `rag` `document-extraction` `llm-tooling` `python`
   </details>
 
-- **[Docling](https://github.com/docling-project/docling)** `⭐ 60.9k` `updated ≤30d` Docling is a document parsing library that converts PDF, DOCX, PPTX, HTML, and other formats into structured Markdown or JSON for AI workflows. <details><summary>More about</summary>
+- **[Docling](https://github.com/docling-project/docling)** `⭐ 61.6k` `updated ≤30d` Docling is a document parsing library that converts PDF, DOCX, PPTX, HTML, and other formats into structured Markdown or JSON for AI workflows. <details><summary>More about</summary>
 
   It lets developers reliably extract clean text and tables from complex documents to feed LLMs, reducing hallucinations from poor input parsing.
 
@@ -220,7 +220,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agents` `framework` `llm` `huggingface` `code-execution`
   </details>
 
-- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 26.1k` `updated ≤30d` AgentScope is a production-ready Python framework for building, running, and deploying single and multi-agent systems with built-in support for ReAct agents, memory, planning, MCP integration, and cloud or Kubernetes serving. <details><summary>More about</summary>
+- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 26.8k` `updated ≤30d` AgentScope is a production-ready Python framework for building, running, and deploying single and multi-agent systems with built-in support for ReAct agents, memory, planning, MCP integration, and cloud or Kubernetes serving. <details><summary>More about</summary>
 
   It gives developers a code-first SDK to assemble observable, scalable agent workflows and serve them locally or in production without wrestling with opinionated orchestration constraints.
 
@@ -238,7 +238,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `multi-agent` `sdk` `framework` `openai`
   </details>
 
-- **[Haystack](https://github.com/deepset-ai/haystack)** `⭐ 25.5k` `updated ≤30d` Haystack is an open-source Python framework for building modular LLM applications, enabling developers to design pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation for RAG, semantic search, and conversational systems. <details><summary>More about</summary>
+- **[Haystack](https://github.com/deepset-ai/haystack)** `⭐ 25.6k` `updated ≤30d` Haystack is an open-source Python framework for building modular LLM applications, enabling developers to design pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation for RAG, semantic search, and conversational systems. <details><summary>More about</summary>
 
   It provides a production-ready, code-first toolkit for developers to build custom AI systems with transparent control over every stage of the LLM pipeline, rather than relying on opaque, hosted abstractions.
 
@@ -256,7 +256,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `web-scraping` `llm` `python` `rag` `data-extraction`
   </details>
 
-- **[AI](https://github.com/vercel/ai)** `⭐ 24.2k` `updated ≤30d` The AI SDK is a provider-agnostic TypeScript toolkit for building AI-powered applications and agents using React, Next.js, and other UI frameworks. <details><summary>More about</summary>
+- **[AI](https://github.com/vercel/ai)** `⭐ 24.2k` `updated ≤90d` The AI SDK is a provider-agnostic TypeScript toolkit for building AI-powered applications and agents using React, Next.js, and other UI frameworks. <details><summary>More about</summary>
 
   It lets developers integrate multiple LLM providers with a unified API and build generative UIs without locking into a single vendor.
 
@@ -274,22 +274,22 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `typescript` `agents` `workflows` `framework` `mcp`
   </details>
 
-- **[DeepSeek-OCR](https://github.com/deepseek-ai/deepseek-ocr)** `⭐ 23.2k` `updated ≤180d` DeepSeek-OCR is a vision-language model and inference toolkit designed to investigate visual-text compression by performing high-throughput OCR on images and PDFs. <details><summary>More about</summary>
-
-  It provides developers with a specialized, high-performance local model and vLLM-compatible inference code for extracting text from visual documents at scale.
-
-  _Just when you thought your OCR pipeline was settled, a lab releases a model that turns your PDFs into tokens at 2500 tokens per second while you're still debugging your Tesseract install._
-
-  `ocr` `vision-model` `vllm` `inference` `local-model`
-  </details>
-
-- **[Dolt](https://github.com/dolthub/dolt)** `⭐ 23.1k` `updated ≤30d` Dolt is a SQL database that versions data like Git, allowing developers to fork, branch, merge, and diff tables using familiar Git semantics and a MySQL-compatible interface. <details><summary>More about</summary>
+- **[Dolt](https://github.com/dolthub/dolt)** `⭐ 23.4k` `updated ≤30d` Dolt is a SQL database that versions data like Git, allowing developers to fork, branch, merge, and diff tables using familiar Git semantics and a MySQL-compatible interface. <details><summary>More about</summary>
 
   It provides a version-controlled state store that enables agent memory, multi-agent workflows, and reproducible data pipelines without bolting on external versioning hacks.
 
   _You will briefly consider versioning your production database like a weekend side project and then remember why git revert on a 40 GB table is a nightmare you do not want._
 
   `git-for-data` `sql` `agent-memory` `data-versioning` `database`
+  </details>
+
+- **[DeepSeek-OCR](https://github.com/deepseek-ai/deepseek-ocr)** `⭐ 23.3k` `updated ≤180d` DeepSeek-OCR is a vision-language model and inference toolkit designed to investigate visual-text compression by performing high-throughput OCR on images and PDFs. <details><summary>More about</summary>
+
+  It provides developers with a specialized, high-performance local model and vLLM-compatible inference code for extracting text from visual documents at scale.
+
+  _Just when you thought your OCR pipeline was settled, a lab releases a model that turns your PDFs into tokens at 2500 tokens per second while you're still debugging your Tesseract install._
+
+  `ocr` `vision-model` `vllm` `inference` `local-model`
   </details>
 
 - **[serve](https://github.com/jina-ai/serve)** `⭐ 21.9k` `updated >1y` Jina-Serve is a cloud-native Python framework for building, scaling, and deploying multimodal AI services and LLM pipelines using gRPC, HTTP, and Kubernetes. <details><summary>More about</summary>
@@ -310,7 +310,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `multi-agent` `orchestration` `openai` `lightweight` `education`
   </details>
 
-- **[veRL (`🔥`)](https://github.com/verl-project/verl)** `⭐ 21.2k` `updated ≤30d` A flexible, efficient RL post-training framework for large language models that implements algorithms like GRPO and PPO with seamless integration into existing LLM training infrastructure. <details><summary>More about</summary>
+- **[veRL (`🔥`)](https://github.com/verl-project/verl)** `⭐ 21.2k` `updated ≤90d` A flexible, efficient RL post-training framework for large language models that implements algorithms like GRPO and PPO with seamless integration into existing LLM training infrastructure. <details><summary>More about</summary>
 
   Gives developers a production-ready, modular toolkit for RLHF and reasoning training at scale, decoupling computation from data dependencies to support trillion-parameter models across distributed clusters.
 
@@ -328,7 +328,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `agent-framework` `multi-agent` `google` `sdk`
   </details>
 
-- **[OWL](https://github.com/camel-ai/owl)** `⭐ 19.8k` `updated ≤30d` OWL is a multi-agent collaboration framework built on CAMEL-AI that automates real-world tasks using dynamic agent interactions and toolkits like MCP and Playwright. <details><summary>More about</summary>
+- **[OWL](https://github.com/camel-ai/owl)** `⭐ 19.8k` `updated ≤90d` OWL is a multi-agent collaboration framework built on CAMEL-AI that automates real-world tasks using dynamic agent interactions and toolkits like MCP and Playwright. <details><summary>More about</summary>
 
   It provides developers with a structured way to build and run specialized agent teams that can interact with the web, use multimodal inputs, and tackle complex automation workflows.
 
@@ -400,7 +400,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `qwen` `function-calling` `mcp` `python`
   </details>
 
-- **[Cua](https://github.com/trycua/cua)** `⭐ 16.2k` `updated ≤30d` Open-source infrastructure providing sandboxes, SDKs, and benchmarks for training and deploying computer-use AI agents. <details><summary>More about</summary>
+- **[Cua](https://github.com/trycua/cua)** `⭐ 16.2k` `updated ≤90d` Open-source infrastructure providing sandboxes, SDKs, and benchmarks for training and deploying computer-use AI agents. <details><summary>More about</summary>
 
   It provides the virtualization and automation drivers required to allow agents to safely interact with desktop operating systems and applications.
 
@@ -688,7 +688,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `parser` `llm-ingestion` `rag` `document-processing` `python`
   </details>
 
-- **[FinRobot](https://github.com/ai4finance-foundation/finrobot)** `⭐ 7.2k` `updated ≤90d` An open-source AI agent platform for financial analysis that uses multiple LLMs and specialized agents to automate equity research, algorithmic trading, and risk assessment. <details><summary>More about</summary>
+- **[FinRobot](https://github.com/ai4finance-foundation/finrobot)** `⭐ 7.3k` `updated ≤90d` An open-source AI agent platform for financial analysis that uses multiple LLMs and specialized agents to automate equity research, algorithmic trading, and risk assessment. <details><summary>More about</summary>
 
   Developers building fintech or quant tools can leverage a pre-built multi-agent stack with financial data integrations instead of wiring together their own analysis pipelines.
 
@@ -778,7 +778,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agents` `framework` `training` `symbolic-learning` `evaluation`
   </details>
 
-- **[ZenML](https://github.com/zenml-io/zenml)** `⭐ 5.4k` `updated ≤30d` ZenML is an AI/ML platform for building, tracking, and deploying pipelines and workflows across any infrastructure, supporting traditional ML, LLMs, and agentic loops. <details><summary>More about</summary>
+- **[ZenML](https://github.com/zenml-io/zenml)** `⭐ 5.4k` `updated ≤90d` ZenML is an AI/ML platform for building, tracking, and deploying pipelines and workflows across any infrastructure, supporting traditional ML, LLMs, and agentic loops. <details><summary>More about</summary>
 
   It lets ML and AI engineers operationalize end-to-end AI workflows with versioning, observability, and infrastructure abstraction, reducing the glue work between training, evaluation, and deployment.
 
@@ -794,6 +794,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Yet another specialized agent arrives to remind you that your generic coding assistant still can’t reliably see, even when the task is literally about seeing._
 
   `vision` `code-generation` `sdk` `agent` `computer-vision`
+  </details>
+
+- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.1k` `updated ≤30d` An all-in-one Docker sandbox combining browser, shell, file system, MCP servers, and VSCode Server for secure AI agent execution. <details><summary>More about</summary>
+
+  It provides a unified, pre-configured environment so agents can coordinate browser sessions, code edits, and shell commands without the usual container orchestration glue code.
+
+  _We have successfully containerized the entire development environment so your agent can now segfault, hang, and exhaust memory inside a neat Docker container instead of directly on your laptop._
+
+  `sandbox` `agent-infra` `mcp` `docker` `agent-runtime`
   </details>
 
 - **[AgentVerse](https://github.com/openbmb/agentverse)** `⭐ 5k` `updated >1y` AgentVerse is a Python framework for deploying multiple LLM-based agents in task-solving and simulation environments, supporting both automatic multi-agent collaboration and custom interaction scenarios. <details><summary>More about</summary>
@@ -821,15 +830,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _The dream of 'no-code' fine-tuning just means you can now break your model's weights via a slider instead of a misplaced comma in a Python script._
 
   `fine-tuning` `lora` `no-code` `llm-ops` `dpo`
-  </details>
-
-- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 4.9k` `updated ≤30d` An all-in-one Docker sandbox combining browser, shell, file system, MCP servers, and VSCode Server for secure AI agent execution. <details><summary>More about</summary>
-
-  It provides a unified, pre-configured environment so agents can coordinate browser sessions, code edits, and shell commands without the usual container orchestration glue code.
-
-  _We have successfully containerized the entire development environment so your agent can now segfault, hang, and exhaust memory inside a neat Docker container instead of directly on your laptop._
-
-  `sandbox` `agent-infra` `mcp` `docker` `agent-runtime`
   </details>
 
 - **[RouteLLM](https://github.com/lm-sys/routellm)** `⭐ 4.9k` `updated >1y` A Python framework and OpenAI-compatible server for serving and evaluating LLM routers that route queries between strong and weak models to optimize cost and quality. <details><summary>More about</summary>
@@ -913,15 +913,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `llm-programming` `constraints` `decoding` `python-superset`
   </details>
 
-- **[adalflow](https://github.com/sylphai-inc/adalflow)** `⭐ 4.1k` `updated ≤90d` AdalFlow is a PyTorch-like Python library for building and auto-optimizing LLM workflows, including RAG pipelines, chatbots, and agents. <details><summary>More about</summary>
-
-  It provides a code-first framework with auto-differentiative optimization and model-agnostic components, allowing developers to stop manually tweaking prompts and start treating prompts like learnable parameters.
-
-  _Just what the ecosystem needed: another PyTorch-flavored abstraction layer promising to automate the one task—writing prompts—that we were supposedly hired to do._
-
-  `llm` `framework` `rag` `agent` `auto-optimization`
-  </details>
-
 - **[optillm](https://github.com/algorithmicsuperintelligence/optillm)** `⭐ 4.1k` `updated ≤90d` An OpenAI API-compatible inference proxy that applies 20+ optimization techniques—such as Mixture of Agents, MCTS, and planning—to improve LLM reasoning accuracy without model training. <details><summary>More about</summary>
 
   Developers can drop it in front of existing LLM API calls to extract 2–10x reasoning gains on math, coding, and logic tasks by trading additional inference compute for accuracy.
@@ -929,6 +920,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Another reassuring layer of complexity that lets you feel productive while a proxy agonizes over your prompts so you don't have to._
 
   `llm-proxy` `inference-optimization` `reasoning` `openai-compatible` `api-gateway`
+  </details>
+
+- **[adalflow](https://github.com/sylphai-inc/adalflow)** `⭐ 4.1k` `updated ≤90d` AdalFlow is a PyTorch-like Python library for building and auto-optimizing LLM workflows, including RAG pipelines, chatbots, and agents. <details><summary>More about</summary>
+
+  It provides a code-first framework with auto-differentiative optimization and model-agnostic components, allowing developers to stop manually tweaking prompts and start treating prompts like learnable parameters.
+
+  _Just what the ecosystem needed: another PyTorch-flavored abstraction layer promising to automate the one task—writing prompts—that we were supposedly hired to do._
+
+  `llm` `framework` `rag` `agent` `auto-optimization`
   </details>
 
 - **[Langroid](https://github.com/langroid/langroid)** `⭐ 4k` `updated ≤90d` Langroid is a Python framework for building LLM-powered applications using a multi-agent architecture where developers define agents, equip them with tools and vector stores, and orchestrate message-passing to solve tasks. <details><summary>More about</summary>
@@ -1030,7 +1030,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `multi-agent` `framework` `self-evolving` `workflow-optimization` `evaluation`
   </details>
 
-- **[core](https://github.com/cheshire-cat-ai/core)** `⭐ 3k` `updated ≤90d` A Python-based microservice framework for building custom AI agents with built-in RAG, plugin extensibility, and a REST/WebSocket admin interface. <details><summary>More about</summary>
+- **[core](https://github.com/cheshire-cat-ai/core)** `⭐ 3k` `updated ≤180d` A Python-based microservice framework for building custom AI agents with built-in RAG, plugin extensibility, and a REST/WebSocket admin interface. <details><summary>More about</summary>
 
   It gives developers a dockerized, API-first way to spin up a conversational layer with tool-calling and memory without wiring LangChain and Qdrant together by hand.
 
@@ -1192,6 +1192,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `llm` `reasoning` `open-weight`
   </details>
 
+- **[VeOmni](https://github.com/bytedance-seed/veomni)** `⭐ 2k` `updated ≤30d` A modular framework for scaling single- and multi-modal model pre-training and post-training across various accelerators. <details><summary>More about</summary>
+
+  It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater transparency and control during large-scale model training.
+
+  _A new way to spend your compute budget watching a distributed training loop fail for reasons no one can explain._
+
+  `multi-modal` `model-training` `distributed-training` `pytorch` `framework`
+  </details>
+
 - **[Agentset](https://github.com/agentset-ai/agentset)** `⭐ 2k` `updated ≤90d` An open-source platform for building, evaluating, and shipping production-ready RAG and agentic applications with built-in ingestion, vector indexing, evaluation benchmarks, and a chat playground. <details><summary>More about</summary>
 
   It gives developers a turnkey, model-agnostic stack to stand up retrieval-augmented AI apps with citations, multi-tenancy, and SDKs without stitching together raw vector DBs and parsers.
@@ -1208,15 +1217,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Yet another faithful port ensuring nobody has an excuse not to ship an AI feature, regardless of how over-engineered the stack becomes._
 
   `ruby` `llm` `rag` `agents` `framework`
-  </details>
-
-- **[VeOmni](https://github.com/bytedance-seed/veomni)** `⭐ 2k` `updated ≤30d` A modular framework for scaling single- and multi-modal model pre-training and post-training across various accelerators. <details><summary>More about</summary>
-
-  It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater transparency and control during large-scale model training.
-
-  _A new way to spend your compute budget watching a distributed training loop fail for reasons no one can explain._
-
-  `multi-modal` `model-training` `distributed-training` `pytorch` `framework`
   </details>
 
 - **[Notte](https://github.com/nottelabs/notte)** `⭐ 1.9k` `updated ≤90d` Notte is a Python framework and hosted API for building and deploying AI web automation agents that combine Playwright scripting with LLM-driven browser control. <details><summary>More about</summary>
@@ -1264,7 +1264,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `rag` `framework` `llm` `graph-indexing` `sdk`
   </details>
 
-- **[Autochain](https://github.com/forethought-technologies/autochain)** `⭐ 1.9k` `updated ≤180d` AutoChain is a lightweight Python framework for building and automatically evaluating custom LLM agents with tool support and simplified prompt iteration. <details><summary>More about</summary>
+- **[Autochain](https://github.com/forethought-technologies/autochain)** `⭐ 1.9k` `updated ≤1y` AutoChain is a lightweight Python framework for building and automatically evaluating custom LLM agents with tool support and simplified prompt iteration. <details><summary>More about</summary>
 
   It lets developers rapidly iterate on generative agents by combining a low-abstraction building experience with automated multi-turn conversation evaluation.
 
@@ -1390,7 +1390,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agents` `protocol` `api` `sdk` `benchmarking`
   </details>
 
-- **[Loop GPT](https://github.com/farizrahman4u/loopgpt)** `⭐ 1.5k` `updated ≤30d` LoopGPT is a Python framework that reimplements Auto-GPT as a modular, extensible package for building and running autonomous agents with memory and state serialization. <details><summary>More about</summary>
+- **[Loop GPT](https://github.com/farizrahman4u/loopgpt)** `⭐ 1.5k` `updated ≤90d` LoopGPT is a Python framework that reimplements Auto-GPT as a modular, extensible package for building and running autonomous agents with memory and state serialization. <details><summary>More about</summary>
 
   It offers developers a Pythonic, plug-and-play API to construct custom autonomous agents without the prompt overhead and config-file friction of earlier Auto-GPT implementations.
 
@@ -1552,7 +1552,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `react` `hooks` `browser-api` `typescript` `mcp`
   </details>
 
-- **[lanarky](https://github.com/ajndkr/lanarky)** `⭐ 993` `updated >1y` A Python web framework built on FastAPI for building LLM microservices with built-in streaming support over HTTP and WebSockets. <details><summary>More about</summary>
+- **[lanarky](https://github.com/ajndkr/lanarky)** `⭐ 994` `updated >1y` A Python web framework built on FastAPI for building LLM microservices with built-in streaming support over HTTP and WebSockets. <details><summary>More about</summary>
 
   It gives developers a lightweight, vendor-neutral way to wrap LLM logic into streamable API endpoints without starting from scratch with plain FastAPI.
 
@@ -1633,7 +1633,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-database` `retrieval` `rag` `infrastructure` `embeddings`
   </details>
 
-- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 865` `updated >1y` An Azure-based accelerator for building ChatGPT-like experiences over enterprise data using Azure OpenAI, vector stores like Pinecone or Redis, and RAG patterns. <details><summary>More about</summary>
+- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 866` `updated >1y` An Azure-based accelerator for building ChatGPT-like experiences over enterprise data using Azure OpenAI, vector stores like Pinecone or Redis, and RAG patterns. <details><summary>More about</summary>
 
   It provides a ready-made scaffold for developers to implement retrieval-augmented generation over private data with built-in eval flows for groundedness and similarity.
 
@@ -1651,6 +1651,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `python` `mcp` `context-engineering`
   </details>
 
+- **[AgentForge](https://github.com/databassgit/agentforge)** `⭐ 818` `updated ≤30d` AgentForge is a low-code Python framework for building and orchestrating autonomous AI agents and multi-agent cognitive architectures using declarative YAML configurations. <details><summary>More about</summary>
+
+  It lets developers rapidly prototype model-agnostic agent workflows and memory systems with minimal boilerplate code.
+
+  _Just what the ecosystem needed: another extensible AGI framework promising low-code cognitive architectures while helpfully noting that tooling support is deprecated until the MCP standard arrives._
+
+  `agents` `framework` `python` `low-code` `multi-agent`
+  </details>
+
 - **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 813` `updated >1y` An experimental Python framework that dynamically generates, validates, and stores small self-improving agents capable of editing their own prompts and code to solve user tasks. <details><summary>More about</summary>
 
   It offers a code-first way to build systems where agents learn and reuse successful strategies across sessions, moving beyond static prompt templates.
@@ -1658,15 +1667,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Finally, a framework that lets your agents rewrite their own job descriptions, ensuring they become self-sufficient right before they inevitably trash your Python environment outside a sandbox._
 
   `agents` `self-improving` `framework` `python` `langchain`
-  </details>
-
-- **[AgentForge](https://github.com/databassgit/agentforge)** `⭐ 807` `updated ≤30d` AgentForge is a low-code Python framework for building and orchestrating autonomous AI agents and multi-agent cognitive architectures using declarative YAML configurations. <details><summary>More about</summary>
-
-  It lets developers rapidly prototype model-agnostic agent workflows and memory systems with minimal boilerplate code.
-
-  _Just what the ecosystem needed: another extensible AGI framework promising low-code cognitive architectures while helpfully noting that tooling support is deprecated until the MCP standard arrives._
-
-  `agents` `framework` `python` `low-code` `multi-agent`
   </details>
 
 - **[data-to-paper](https://github.com/technion-kishony-lab/data-to-paper)** `⭐ 787` `updated ≤1y` An automation framework that navigates interacting AI agents through end-to-end scientific research, from raw data analysis to generating human-verifiable, backward-traceable research papers. <details><summary>More about</summary>
@@ -1678,7 +1678,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agents` `scientific-research` `multi-agent` `traceability` `llm`
   </details>
 
-- **[pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents)** `⭐ 786` `updated ≤30d` pydantic-deepagents is a Python framework for building deep agent teams with tool calling, sandboxed execution, and multi-agent collaboration using Pydantic AI. <details><summary>More about</summary>
+- **[pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents)** `⭐ 786` `updated ≤90d` pydantic-deepagents is a Python framework for building deep agent teams with tool calling, sandboxed execution, and multi-agent collaboration using Pydantic AI. <details><summary>More about</summary>
 
   It gives developers a structured, type-safe way to compose coding agents with memory, checkpoints, and unlimited context without managing low-level orchestration.
 
@@ -1741,22 +1741,22 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `llm-framework` `prompt-flows` `vector-store` `tracing`
   </details>
 
-- **[LangChainDart](https://github.com/davidmigloz/langchain_dart)** `⭐ 677` `updated ≤30d` An unofficial Dart port of the LangChain framework for building LLM-powered applications within the Dart and Flutter ecosystems. <details><summary>More about</summary>
-
-  It provides Dart and Flutter developers with standardised components for model I/O, retrieval-augmented generation, and agents, bridging the AI tooling gap in non-Python/JS ecosystems.
-
-  _Finally, you can orchestrate a multi-agent RAG pipeline in Dart, because waiting for a platform channel bridge to Python was definitely the bottleneck in your shipping schedule._
-
-  `dart` `flutter` `langchain` `llm-framework` `rag`
-  </details>
-
-- **[Rankify](https://github.com/datascienceuibk/rankify)** `⭐ 676` `updated ≤90d` Rankify is a Python toolkit for building and benchmarking retrieval, re-ranking, and retrieval-augmented generation (RAG) pipelines with support for 40+ datasets and 24+ state-of-the-art reranking models. <details><summary>More about</summary>
+- **[Rankify](https://github.com/datascienceuibk/rankify)** `⭐ 677` `updated ≤90d` Rankify is a Python toolkit for building and benchmarking retrieval, re-ranking, and retrieval-augmented generation (RAG) pipelines with support for 40+ datasets and 24+ state-of-the-art reranking models. <details><summary>More about</summary>
 
   It gives developers a modular, unified API to experiment with and evaluate different retrieval and RAG strategies without wiring together disparate models and datasets by hand.
 
   _Yet another reminder that you can now spend an entire afternoon tuning rerankers instead of realizing your documentation was the real retrieval problem all along._
 
   `rag` `retrieval` `reranking` `python` `benchmark`
+  </details>
+
+- **[LangChainDart](https://github.com/davidmigloz/langchain_dart)** `⭐ 675` `updated ≤30d` An unofficial Dart port of the LangChain framework for building LLM-powered applications within the Dart and Flutter ecosystems. <details><summary>More about</summary>
+
+  It provides Dart and Flutter developers with standardised components for model I/O, retrieval-augmented generation, and agents, bridging the AI tooling gap in non-Python/JS ecosystems.
+
+  _Finally, you can orchestrate a multi-agent RAG pipeline in Dart, because waiting for a platform channel bridge to Python was definitely the bottleneck in your shipping schedule._
+
+  `dart` `flutter` `langchain` `llm-framework` `rag`
   </details>
 
 - **[Pipelex](https://github.com/pipelex/pipelex)** `⭐ 663` `updated ≤90d` A declarative DSL and CLI for defining typed, reusable AI procedures (methods) that handle model routing, structured outputs, and pipeline orchestration across 60+ models. <details><summary>More about</summary>
@@ -1984,7 +1984,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `structured-output` `langchain` `pydantic` `local-models`
   </details>
 
-- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 328` `updated ≤90d` A Rust-native graph execution framework for building type-safe, stateful multi-agent workflow systems with integrated LLM capabilities. <details><summary>More about</summary>
+- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 337` `updated ≤90d` A Rust-native graph execution framework for building type-safe, stateful multi-agent workflow systems with integrated LLM capabilities. <details><summary>More about</summary>
 
   Developers can define complex agent orchestrations in Rust, gaining performance and compile-time safety over Python-first alternatives like LangGraph.
 
@@ -2038,6 +2038,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `slurm` `llm-inference` `huggingface` `scalability` `synthetic-data`
   </details>
 
+- **[Phidata](https://github.com/agno-agi/phidata)** `⭐ 276` `updated >1y` Phidata is a Python framework for building multi-modal AI agents with memory, knowledge, tools, and reasoning, recently renamed and moved to the Agno project. <details><summary>More about</summary>
+
+  Developers can use this SDK to build and coordinate teams of specialized agents that handle text, images, audio, and video with built-in tools and RAG capabilities.
+
+  _Another fresh framework in the agent orchestration gold rush, just in time for the original repo to sunset and teleport to a new GitHub home while you were still reading the docs._
+
+  `agents` `framework` `python` `multi-modal` `sdk`
+  </details>
+
 - **[flyto-core](https://github.com/flytohub/flyto-core)** `⭐ 273` `updated ≤30d` An open-source, MCP-native execution engine for AI agents with 412 reusable modules, built-in triggers, queueing, versioning, and step-level tracing and replay for browser and workflow automation. <details><summary>More about</summary>
 
   Developers can define multi-step automation pipelines as traced, replayable workflows instead of choosing between brittle shell scripts and opaque agent executions.
@@ -2054,15 +2063,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Another few lines of abstraction standing between your agent and its inevitable spiral into an existential tree of failed tool calls._
 
   `agents` `tree-search` `mcts` `framework` `reasoning`
-  </details>
-
-- **[Phidata](https://github.com/agno-agi/phidata)** `⭐ 271` `updated >1y` Phidata is a Python framework for building multi-modal AI agents with memory, knowledge, tools, and reasoning, recently renamed and moved to the Agno project. <details><summary>More about</summary>
-
-  Developers can use this SDK to build and coordinate teams of specialized agents that handle text, images, audio, and video with built-in tools and RAG capabilities.
-
-  _Another fresh framework in the agent orchestration gold rush, just in time for the original repo to sunset and teleport to a new GitHub home while you were still reading the docs._
-
-  `agents` `framework` `python` `multi-modal` `sdk`
   </details>
 
 - **[Project Alice](https://github.com/marianomolina/project_alice)** `⭐ 258` `updated >1y` An agentic workflow framework with a web UI for creating, managing, and deploying AI agents that support RAG, human-in-the-loop, and chain-of-thought capabilities. <details><summary>More about</summary>
@@ -2200,7 +2200,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `llm-alignment` `preference-optimization` `fine-tuning`
   </details>
 
-- **[swarms-rs](https://github.com/the-swarm-corporation/swarms-rs)** `⭐ 154` `updated ≤180d` swarms-rs is a Rust-based framework for building and orchestrating multi-agent systems, designed to handle concurrent agent communication and collaboration with a focus on performance and memory safety. <details><summary>More about</summary>
+- **[swarms-rs](https://github.com/the-swarm-corporation/swarms-rs)** `⭐ 154` `updated ≤1y` swarms-rs is a Rust-based framework for building and orchestrating multi-agent systems, designed to handle concurrent agent communication and collaboration with a focus on performance and memory safety. <details><summary>More about</summary>
 
   It provides developers building complex agentic workflows with a high-performance, memory-safe alternative to Python-centric orchestration libraries.
 
@@ -2267,7 +2267,7 @@ _These are new or low-traffic entries being watched._
   `python` `llm-workflow` `prompt-versioning` `self-hosted` `fastapi`
   </details>
 
-- **[Lux](https://github.com/spectral-finance/lux)** `⭐ 104` `updated ≤180d` Lux is an open-source, language-agnostic framework for building multi-agent systems using concepts like Agents, Signals, Prisms, Beams, and Lenses to orchestrate AI-driven workflows. <details><summary>More about</summary>
+- **[Lux](https://github.com/spectral-finance/lux)** `⭐ 104` `updated ≤1y` Lux is an open-source, language-agnostic framework for building multi-agent systems using concepts like Agents, Signals, Prisms, Beams, and Lenses to orchestrate AI-driven workflows. <details><summary>More about</summary>
 
   It provides developers with a structured way to build collaborative, multi-agent systems with type-safe communication and workflow orchestration across different programming languages.
 
@@ -2618,7 +2618,7 @@ _These are new or low-traffic entries being watched._
   `memory` `rust` `embeddable` `mcp-compatible` `neuroscience`
   </details>
 
-- **[axint](https://github.com/agenticempire/axint)** `⭐ 8` `updated ≤30d` Axint is an Apple-native execution layer and compiler that translates TypeScript, Python, or JSON definitions into Swift code, validates Apple-specific rules, and generates repair packets for AI coding agents. <details><summary>More about</summary>
+- **[axint](https://github.com/agenticempire/axint)** `⭐ 9` `updated ≤30d` Axint is an Apple-native execution layer and compiler that translates TypeScript, Python, or JSON definitions into Swift code, validates Apple-specific rules, and generates repair packets for AI coding agents. <details><summary>More about</summary>
 
   It abstracts away verbose Apple boilerplate for App Intents, SwiftUI, and WidgetKit, allowing coding agents to operate through a smaller contract and automated fix cycles.
 
@@ -2735,7 +2735,7 @@ _These are new or low-traffic entries being watched._
   `semantic-cache` `llmops` `self-hosted` `vector-search` `scaling`
   </details>
 
-- **[echolon](https://github.com/dolphinquant/echolon)** `⭐ 1` `updated ≤90d` An LLM-agent-native backtest framework designed for conducting quantitative futures research. <details><summary>More about</summary>
+- **[echolon](https://github.com/dolphinquant/echolon)** `⭐ 1` `updated ≤30d` An LLM-agent-native backtest framework designed for conducting quantitative futures research. <details><summary>More about</summary>
 
   It prevents agent hallucination in financial workflows by providing typed tools, structured error codes, and a catalog of technical indicators.
 

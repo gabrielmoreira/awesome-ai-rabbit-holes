@@ -4,7 +4,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 146.2k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+- **[skills](https://github.com/anthropics/skills)** `⭐ 150.8k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
 
@@ -161,7 +161,7 @@ _These are new or low-traffic entries being watched._
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
   </details>
 
-- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 10` `updated ≤30d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 10` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
 
   It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
 

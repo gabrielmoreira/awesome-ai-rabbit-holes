@@ -1,0 +1,77 @@
+id: modelmarket__dev
+kind: website
+name: modelmarket.dev
+canonical_url: https://modelmarket.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__modelmarket__dev__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: modelmarket.dev
+        extracted_url: https://modelmarket.dev
+        surrounding_text: "- [alexar76/aimarket-plugins](https://github.com/alexar76/aimarket-plugins) [![alexar76/aimarket-plugins MCP server](https://glama.ai/mcp/servers/alexar76/aimarket-plugins/badges/score.svg)](https://glama.ai/mcp/servers/alexar76/aimarket-plugins) 📇 ☁️ 🏠 🍎 🪟 🐧 - **aimarket-mcp-packager** hub plugin: turn AIMarket capabilities into self-hosted MCP servers (Docker image + `mcp_manifest` + Claude Desktop `mcpServers` config). Part of 15-plugin AIMarket Hub ([modelmarket.dev](https://modelmarket.dev)); protocol discovery at `/.well-known/ai-market.json`. Install: `pip install aimarket-mcp-packager`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A live terminal and marketplace for AI-to-AI commerce featuring micropayments, federation graphs, and gated capability invocation.
+  why_it_matters: It provides a protocol and infrastructure for agents to discover and pay for specialized capabilities from other agents in real-time.
+  mental_damage: We have officially reached the era where your agent needs its own credit card to negotiate with another agent's agent.
+  tags:
+    - mcp
+    - agents
+    - micropayments
+    - interoperability
+  confidence: medium
+curation:
+  status: included
+  reason: The project's identity is an MCP-based aggregator and marketplace for agent capabilities, making it a registry and discovery layer for the protocol.
+  evidence:
+    - Listed in awesome-mcp-servers under 'Aggregators'
+    - Site describes itself as a 'live terminal for AI-to-AI commerce' with 'Discovery' and 'Federated Hubs'
+    - Specifically mentions 'AIMarket Protocol v2' and 'HTTP 402' (Payment Required) flows for agent invocations
+placement:
+  primary_category: mcp
+  section: Registries & Discovery
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.990Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:54:15.072Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

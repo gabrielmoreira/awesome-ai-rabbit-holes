@@ -121,7 +121,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `image-generation` `gemini` `prompts` `gallery` `multimodal`
   </details>
 
-- **[awesome-llm-resources](https://github.com/wangrongsheng/awesome-llm-resources)** `⭐ 8.3k` `updated ≤30d` awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning. <details><summary>More about</summary>
+- **[awesome-llm-resources](https://github.com/wangrongsheng/awesome-llm-resources)** `⭐ 8.3k` `updated ≤90d` awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning. <details><summary>More about</summary>
 
   It helps developers discover and navigate the rapidly expanding LLM ecosystem through organized, community-maintained resource links.
 
@@ -211,7 +211,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `argo` `kubernetes` `devops` `mlops` `awesome-list`
   </details>
 
-- **[Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering)** `⭐ 2.4k` `updated ≤30d` A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows. <details><summary>More about</summary>
+- **[Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering)** `⭐ 2.4k` `updated ≤90d` A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows. <details><summary>More about</summary>
 
   Helps developers improve agent reliability by collecting resources on context, evaluation, orchestration, and runtime control for long-running coding and research tasks.
 
@@ -238,15 +238,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `local-ai` `awesome-list` `inference` `self-hosted` `directory`
   </details>
 
-- **[awesome-LangGraph](https://github.com/von-development/awesome-langgraph)** `⭐ 1.8k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
-
-  Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
-
-  _Another awesome list to star, forget about, and rediscover three months later when you're knee-deep in agent orchestration YAML._
-
-  `awesome-list` `langgraph` `ecosystem`
-  </details>
-
 - **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.8k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
 
   It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
@@ -254,6 +245,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another navigation aid for the paradox of choice, ensuring you can spend three hours researching tools instead of actually writing code with them._
 
   `awesome-list` `directory` `ai-tools` `curation`
+  </details>
+
+- **[awesome-LangGraph](https://github.com/von-development/awesome-langgraph)** `⭐ 1.8k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
+
+  Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
+
+  _Another awesome list to star, forget about, and rediscover three months later when you're knee-deep in agent orchestration YAML._
+
+  `awesome-list` `langgraph` `ecosystem`
   </details>
 
 - **[awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated >1y` A curated list of vector search libraries, services, and research papers for building similarity search capabilities. <details><summary>More about</summary>
@@ -328,7 +328,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 867` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
+- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 868` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
 
   It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
 
@@ -346,7 +346,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `local-llm` `discovery`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 733` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 747` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
 
   It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
 
@@ -422,7 +422,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 134` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 141` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
 
   It serves as a broad discovery map for developers trying to navigate the exploding ecosystem of AI agents to find tools relevant to their workflow.
 

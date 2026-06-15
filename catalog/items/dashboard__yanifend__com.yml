@@ -1,0 +1,76 @@
+id: dashboard__yanifend__com
+kind: website
+name: dashboard.yanifend.com
+canonical_url: https://dashboard.yanifend.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__dashboard__yanifend__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: YaniFend
+        extracted_url: https://yanifend.com
+        surrounding_text: "- [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp) ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your questionary (list / create / update / delete questions and options) and read collected answers via natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An MCP server implementation for integrating Customer Data Platform (CDP) data into AI assistants.
+  why_it_matters: Allows developers to give their AI agents direct, standardized access to customer data and behavioral profiles via the Model Context Protocol.
+  mental_damage: Now your agent can hallucinate about a customer's churn risk using real-time data instead of just guessing based on the prompt.
+  tags:
+    - mcp
+    - cdp
+    - customer-data
+    - context-protocol
+  confidence: medium
+curation:
+  status: included
+  reason: The project is explicitly curated as an MCP server implementation, making its core identity an MCP tool for a specific domain (Customer Data Platforms).
+  evidence:
+    - Listed in awesome-mcp-servers under 'Server Implementations > Customer Data Platforms'
+    - Product identity is focused on providing MCP connectivity to customer data
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.990Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:52:56.651Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

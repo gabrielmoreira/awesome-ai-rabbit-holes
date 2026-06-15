@@ -1,0 +1,81 @@
+id: github__beardfaceguy__daimonos
+kind: github-repo
+name: daimonos
+canonical_url: https://github.com/beardfaceguy/daimonos
+identity:
+  github_repo: beardfaceguy/daimonos
+provenance:
+  discoveries:
+    - id: discovery__github__beardfaceguy__daimonos__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: beardfaceguy/daimonos
+        extracted_url: https://github.com/beardfaceguy/daimonos
+        surrounding_text: "- [beardfaceguy/daimonos](https://github.com/beardfaceguy/daimonos) [![beardfaceguy/daimonos MCP server](https://glama.ai/mcp/servers/beardfaceguy/daimonos/badges/score.svg)](https://glama.ai/mcp/servers/beardfaceguy/daimonos) 🦀 🏠 🍎 🐧 - Agent-optimized MCP server replacing built-in file, search, exec, and git tools with compact structured JSON. Native plugins for git, cargo, gh, and docker. Semantic output filtering, read deduplication, batch operations, and token analytics. Benchmarked 20-45% token savings."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-25T19:18:39Z"
+    pushed_at: "2026-06-12T20:50:59Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-15T05:51:26.599Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:26.599Z"
+      bytes: 12937
+insights:
+  summary: An MCP server that replaces standard shell and git tool outputs with structured JSON to reduce token consumption for AI coding agents.
+  why_it_matters: It cuts API costs and latency by preventing agents from reading hundreds of lines of verbose terminal noise when a simple status summary would suffice.
+  mental_damage: We've reached the era where we need a specialized OS layer just to stop our agents from spending $5 in tokens to read a '47 passed' test result.
+  tags:
+    - mcp
+    - token-optimization
+    - developer-experience
+    - structured-output
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly and primarily an MCP server designed to act as a middleware layer for tool output optimization.
+  evidence:
+    - README states 'Daimonos runs as an MCP server that your IDE or CLI spawns automatically'
+    - Included in awesome-mcp-servers under 'Server Implementations'
+    - Core functionality is providing MCP tools that return compact JSON instead of raw terminal output
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:26.599Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:34.004Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,89 @@
+id: github__ckalima__pipedrive-mcp-server
+kind: github-repo
+name: pipedrive-mcp-server
+canonical_url: https://github.com/ckalima/pipedrive-mcp-server
+identity:
+  github_repo: ckalima/pipedrive-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__ckalima__pipedrive-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: ckalima/pipedrive-mcp-server
+        extracted_url: https://github.com/ckalima/pipedrive-mcp-server
+        surrounding_text: "- [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server) [![ckalima/pipedrive-mcp-server MCP server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons, organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-01-30T00:07:15Z"
+    pushed_at: "2026-06-15T04:10:45Z"
+    description: MCP server for Pipedrive CRM. 155 contract-tested tools, v2-first API, gated destructive ops. Works with Claude Desktop, Claude Code, and any MCP client.
+    homepage: null
+    topics:
+      - ai-agents
+      - claude
+      - crm
+      - mcp
+      - model-context-protocol
+      - pipedrive
+      - typescript
+    last_checked_at: "2026-06-15T05:51:28.284Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:28.284Z"
+      bytes: 32110
+insights:
+  summary: An MCP server that integrates Pipedrive CRM capabilities into AI assistants via the Model Context Protocol.
+  why_it_matters: Allows developers and sales engineers to query, create, and manage CRM data (deals, persons, activities) directly from their AI agent's interface without switching contexts.
+  mental_damage: The dream of 'just asking Claude' to manage your pipeline is finally here, provided you're comfortable with a LLM having the theoretical ability to delete your entire sales funnel.
+  tags:
+    - mcp
+    - pipedrive
+    - crm
+    - typescript
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly an MCP server designed to provide a specific domain (Pipedrive CRM) to MCP-compatible clients.
+  evidence:
+    - Repo description explicitly states 'MCP server for Pipedrive'
+    - README provides configuration for .mcp.json for Claude Code
+    - Included in awesome-mcp-servers list
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:28.284Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:41.684Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

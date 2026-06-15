@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-04T05:40:59.049Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-15T05:51:40.921Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for drand/drand
     next_retry_at: null
   categorize:
     status: done

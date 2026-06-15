@@ -1,0 +1,70 @@
+id: github__jott2121__agent-gate
+kind: github-repo
+name: agent-gate
+canonical_url: https://github.com/jott2121/agent-gate
+identity:
+  github_repo: jott2121/agent-gate
+provenance:
+  discoveries:
+    - id: discovery__github__jott2121__agent-gate__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Jott2121/agent-gate
+        extracted_url: https://github.com/jott2121/agent-gate
+        surrounding_text: "- [Jott2121/agent-gate](https://github.com/Jott2121/agent-gate) [![Jott2121/agent-gate MCP server](https://glama.ai/mcp/servers/Jott2121/agent-gate/badges/score.svg)](https://glama.ai/mcp/servers/Jott2121/agent-gate) 🐍 🏠 🍎 🪟 🐧 - Lets an AI agent gate its own work before claiming \"done\": a fail-closed ship checklist (`verify_gate` counts a check satisfied only if explicitly proven), required independent refute-first review, and an append-only sha256-chained receipts ledger that makes any edit to past receipts detectable. `pip install mcp-agent-gate`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.989Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-06-15T05:51:43.424Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

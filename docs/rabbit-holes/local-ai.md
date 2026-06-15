@@ -49,7 +49,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `cpp` `gguf` `llm`
   </details>
 
-- **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤30d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
+- **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤90d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
 
   It enables fast, scalable, and cost-effective deployment of LLMs for developers building AI-powered applications and services.
 
@@ -67,7 +67,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-inference` `offline` `desktop`
   </details>
 
-- **[unsloth (`🔥`)](https://github.com/unslothai/unsloth)** `⭐ 64.1k` `updated ≤30d` Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training performance. <details><summary>More about</summary>
+- **[unsloth (`🔥`)](https://github.com/unslothai/unsloth)** `⭐ 64.1k` `updated ≤90d` Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training performance. <details><summary>More about</summary>
 
   It lets developers train and deploy models on their own hardware with significantly reduced VRAM usage and faster iteration cycles.
 
@@ -148,6 +148,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `eval-harness` `local-models` `training`
   </details>
 
+- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 39.2k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
+
+  It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
+
+  _Yet another heroic open-source effort to unify every AI provider into one chat UI, ensuring you can now write Python, generate React components, and hallucinate at scale without ever leaving the browser tab you're hosting on Railway._
+
+  `self-hosted` `chat-ui` `multi-model` `mcp` `agents`
+  </details>
+
 - **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38.2k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
 
   It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
@@ -155,15 +164,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Yet another 'local ChatGPT' stack proving that while we can run the model offline, the real hallucination is thinking we've solved context management with a vector store and a Streamlit UI._
 
   `rag` `local-llm` `langchain` `agent` `knowledge-base`
-  </details>
-
-- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 38.1k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
-
-  It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
-
-  _Yet another heroic open-source effort to unify every AI provider into one chat UI, ensuring you can now write Python, generate React components, and hallucinate at scale without ever leaving the browser tab you're hosting on Railway._
-
-  `self-hosted` `chat-ui` `multi-model` `mcp` `agents`
   </details>
 
 - **[SGLang (`🔥`)](https://github.com/sgl-project/sglang)** `⭐ 27.1k` `updated ≤90d` SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure. <details><summary>More about</summary>
@@ -274,7 +274,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `distributed-inference` `local-ai` `volunteer-computing` `pytorch` `llm-serving`
   </details>
 
-- **[inference](https://github.com/xorbitsai/inference)** `⭐ 9.3k` `updated ≤30d` Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments. <details><summary>More about</summary>
+- **[inference](https://github.com/xorbitsai/inference)** `⭐ 9.3k` `updated ≤90d` Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments. <details><summary>More about</summary>
 
   It simplifies model deployment by abstracting infrastructure complexity, letting developers swap LLMs with a single line of code while supporting advanced serving features like auto-batching and distributed inference.
 
@@ -566,7 +566,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
 
 _These are new or low-traffic entries being watched._
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 120` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 129` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 

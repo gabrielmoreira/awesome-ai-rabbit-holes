@@ -1,0 +1,102 @@
+id: github__bvisible__mcp-ssh-manager
+kind: github-repo
+name: mcp-ssh-manager
+canonical_url: https://github.com/bvisible/mcp-ssh-manager
+identity:
+  github_repo: bvisible/mcp-ssh-manager
+provenance:
+  discoveries:
+    - id: discovery__github__bvisible__mcp-ssh-manager__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: bvisible/mcp-ssh-manager
+        extracted_url: https://github.com/bvisible/mcp-ssh-manager
+        surrounding_text: "- [bvisible/mcp-ssh-manager](https://github.com/bvisible/mcp-ssh-manager) [![bvisible/mcp-ssh-manager MCP server](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager/badges/score.svg)](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager) 📇 🏠 🍎 🪟 🐧 - Manage multiple SSH servers from one MCP: command execution, file transfer/rsync, database dump/import/query (MySQL/PostgreSQL/MongoDB), backups & restore, health monitoring, persistent sessions, tunnels, ProxyJump/bastion, and opt-in per-server security modes (readonly/restricted) with audit log. Linux, macOS & Windows OpenSSH."
+        confidence: high
+metadata:
+  github:
+    stars: 252
+    forks: 39
+    license: MIT
+    archived: false
+    created_at: "2025-08-12T08:25:41Z"
+    pushed_at: "2026-06-09T10:05:24Z"
+    description: "MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps automation, backups, database operations, health monitoring"
+    homepage: https://www.npmjs.com/package/mcp-ssh-manager
+    topics:
+      - anthropic
+      - automation
+      - backup
+      - claude-code
+      - database
+      - deployment
+      - devops
+      - erpnext
+      - frappe
+      - mcp
+      - mcp-server
+      - mcp-ssh
+      - model-context-protocol
+      - monitoring
+      - openai-codex
+      - remote-server
+      - ssh
+      - ssh-manager
+      - ssh-mcp
+      - toml
+    last_checked_at: "2026-06-15T05:51:27.240Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:27.240Z"
+      bytes: 42265
+insights:
+  summary: An MCP server that provides 37 tools for remote SSH management, database operations, and DevOps automation for AI agents.
+  why_it_matters: It allows agents like Claude Code to safely manage remote infrastructure, perform backups, and run server-side commands without the developer manually copy-pasting terminal output.
+  mental_damage: The peace of mind that comes from knowing your AI agent now has a direct SSH pipe to your production database and just a few 'destructive' tool calls away from a complete outage.
+  tags:
+    - mcp
+    - ssh
+    - devops
+    - infrastructure-as-code
+    - remote-management
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server providing specific domain capabilities (SSH/DevOps) to any compatible client.
+  evidence:
+    - Repo description explicitly labels it as an 'MCP Server'
+    - README focuses on providing tools for Claude Code and OpenAI Codex via the Model Context Protocol
+    - Included in 'awesome-mcp-servers' under 'Server Implementations'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (252) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:27.240Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:37.131Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

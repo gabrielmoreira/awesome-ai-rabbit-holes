@@ -346,7 +346,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
   </details>
 
-- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 873` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
+- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 875` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
 
   It lets developers move beyond prompt-tweaking by programmatically generating diverse, schema-validated datasets to train and evaluate agents with tool-calling and reasoning capabilities.
 
@@ -364,7 +364,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `data-quality` `llm-eval` `rag-eval`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 636` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 666` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
 
   It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
 
@@ -391,7 +391,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `huggingface` `cli`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 368` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 372` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
 
   Developers running local models can quickly understand their hardware's actual inference performance before integrating them into workflows.
 
@@ -427,7 +427,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `mutation-testing` `llm-testing` `cli` `code-quality` `evals`
   </details>
 
-- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 267` `updated ≤30d` MathArena is a platform and evaluation harness for benchmarking LLMs on recent math competitions and olympiads, with scripts to run models and view reasoning traces. <details><summary>More about</summary>
+- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 267` `updated ≤90d` MathArena is a platform and evaluation harness for benchmarking LLMs on recent math competitions and olympiads, with scripts to run models and view reasoning traces. <details><summary>More about</summary>
 
   It gives developers a reproducible way to measure how models handle rigorous mathematical reasoning rather than just standard coding benchmarks.
 
@@ -454,7 +454,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 236` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 238` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 

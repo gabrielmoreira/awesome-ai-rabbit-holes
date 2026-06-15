@@ -1,0 +1,76 @@
+id: www__pipedrive__com
+kind: website
+name: www.pipedrive.com
+canonical_url: https://www.pipedrive.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__pipedrive__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: Pipedrive CRM
+        extracted_url: https://www.pipedrive.com
+        surrounding_text: "- [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server) [![ckalima/pipedrive-mcp-server MCP server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons, organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pipedrive is a sales CRM platform for managing lead pipelines and customer relationship data.
+  why_it_matters: It provides API access and integrations for automating sales workflows and lead management, though it is primarily an end-user business tool rather than a developer-centric AI product.
+  mental_damage: The thrill of seeing 'AI-powered' in a CRM usually just means your lead scoring is now a black box that tells you the same thing you already knew.
+  tags:
+    - crm
+    - sales-automation
+    - api
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a general-purpose SaaS CRM for business users; while it has an API and AI features, its core identity is not a tool for building software or a developer's AI workflow.
+  evidence:
+    - Scraped site context describes it as a 'Sales CRM' and 'CRM software sales teams will love'
+    - Primary value proposition is managing sales pipelines and closing deals, not software development
+    - Source-list placement in 'awesome-mcp-servers' refers to it as a data source, not a developer tool in its own right
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.990Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:54:35.048Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

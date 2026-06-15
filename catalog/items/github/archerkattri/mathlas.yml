@@ -1,0 +1,90 @@
+id: github__archerkattri__mathlas
+kind: github-repo
+name: mathlas
+canonical_url: https://github.com/archerkattri/mathlas
+identity:
+  github_repo: archerkattri/mathlas
+provenance:
+  discoveries:
+    - id: discovery__github__archerkattri__mathlas__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧮 <a name="data-science-tools"></a>Data Science Tools
+        anchor_text: Archerkattri/mathlas
+        extracted_url: https://github.com/archerkattri/mathlas
+        surrounding_text: "- [Archerkattri/mathlas](https://github.com/Archerkattri/mathlas) [![Archerkattri/mathlas MCP server](https://glama.ai/mcp/servers/Archerkattri/mathlas/badges/score.svg)](https://glama.ai/mcp/servers/Archerkattri/mathlas) 🐍 🏠 - Airtight math for agents: 3.7M-theorem search, PSLQ constant ID, OEIS, real Lean kernel checks, applicability checklists. No LLM inside, no API key."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-06-05T21:47:52Z"
+    pushed_at: "2026-06-13T15:39:46Z"
+    description: Airtight math tools an AI uses over MCP — 3.7M-theorem search, PSLQ constant ID, OEIS, real Lean kernel checks, applicability checklists. No LLM inside, no API key.
+    homepage: null
+    topics:
+      - ai-tools
+      - claude
+      - formal-verification
+      - lean4
+      - math
+      - mcp-server
+      - retrieval
+      - theorem-search
+    last_checked_at: "2026-06-15T05:51:25.770Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:25.770Z"
+      bytes: 21813
+insights:
+  summary: A collection of airtight math tools provided via an MCP server, including theorem search, constant identification, and Lean kernel checks.
+  why_it_matters: It allows coding agents to offload mathematical computation and verification to deterministic tools, eliminating hallucinations in formal verification and numeric analysis.
+  mental_damage: The realization that we've reached the era where LLMs are so confidently wrong about basic arithmetic that we need to build specialized 'hands' just to tell them what a number is.
+  tags:
+    - mcp
+    - formal-verification
+    - lean4
+    - theorem-proving
+    - mathematics
+  confidence: high
+curation:
+  status: included
+  reason: The project's entire identity is an MCP server designed to provide a specific set of mathematical capabilities to MCP clients.
+  evidence:
+    - Repo description explicitly describes it as 'math tools an AI uses over MCP'
+    - README provides direct installation instructions for Claude Code via 'claude mcp add'
+    - Included in awesome-mcp-servers under Data Science Tools
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:25.770Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:16.740Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

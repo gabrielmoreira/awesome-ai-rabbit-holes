@@ -1,0 +1,81 @@
+id: github__anythink-cloud__anythink-cli
+kind: github-repo
+name: anythink-cli
+canonical_url: https://github.com/anythink-cloud/anythink-cli
+identity:
+  github_repo: anythink-cloud/anythink-cli
+provenance:
+  discoveries:
+    - id: discovery__github__anythink-cloud__anythink-cli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: anythink-cloud/anythink-cli
+        extracted_url: https://github.com/anythink-cloud/anythink-cli
+        surrounding_text: "- [anythink-cloud/anythink-cli](https://github.com/anythink-cloud/anythink-cli) [![anythink-cloud/anythink-cli MCP server](https://glama.ai/mcp/servers/anythink-cloud/anythink-cli/badges/score.svg)](https://glama.ai/mcp/servers/anythink-cloud/anythink-cli) #️ ☁️ 🍎 🪟 🐧 - Build and run a complete backend from your agent on the Anythink platform: relational data with row-/field-level security, full-text + semantic + geo search, RBAC + BYOK, a workflow/automation engine, a growth & retention engine (email, actionable push, promotions, per-user referral codes + rewards, points/credits), payments + marketplace billing, and a growing catalog of integrations (Claude, OpenAI, Slack, Google, GitHub…) — driven through one CLI-backed MCP tool. Install with `npx -y @anythink-cloud/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-03-22T01:12:48Z"
+    pushed_at: "2026-06-15T01:23:51Z"
+    description: open source CLI to control Anythink from the command line
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-15T05:51:25.499Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:25.499Z"
+      bytes: 34029
+insights:
+  summary: An open-source CLI and MCP server for managing the Anythink headless backend platform.
+  why_it_matters: Allows developers to manage projects, data entities, workflows, and API keys directly from the terminal or via an MCP-enabled AI assistant.
+  mental_damage: The transition from a GUI to a CLI to an MCP server is a comforting reminder that we are just adding more layers of abstraction to the same set of CRUD operations.
+  tags:
+    - cli
+    - mcp
+    - backend-as-a-service
+    - headless
+  confidence: high
+curation:
+  status: included
+  reason: The project is a dual-purpose CLI and MCP server specifically designed to provide an AI assistant access to a backend platform's management capabilities.
+  evidence:
+    - "Repo description: 'open source CLI for Anythink'"
+    - README explicitly ships an 'anythink-mcp' server binary
+    - Included in 'awesome-mcp-servers' under 'Cloud Platforms'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:25.499Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:13.899Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

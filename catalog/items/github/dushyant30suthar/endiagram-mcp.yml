@@ -67,9 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:09.012Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-15T05:51:42.018Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dushyant30suthar/endiagram-mcp
     next_retry_at: null
   categorize:
     status: done

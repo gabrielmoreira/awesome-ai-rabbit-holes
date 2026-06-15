@@ -1,0 +1,83 @@
+id: github__antonio-mello-ai__mcp-airflow
+kind: github-repo
+name: mcp-airflow
+canonical_url: https://github.com/antonio-mello-ai/mcp-airflow
+identity:
+  github_repo: antonio-mello-ai/mcp-airflow
+provenance:
+  discoveries:
+    - id: discovery__github__antonio-mello-ai__mcp-airflow__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-15T05:51:04.987Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: antonio-mello-ai/mcp-airflow
+        extracted_url: https://github.com/antonio-mello-ai/mcp-airflow
+        surrounding_text: "- [antonio-mello-ai/mcp-airflow](https://github.com/antonio-mello-ai/mcp-airflow) [![antonio-mello-ai/mcp-airflow MCP server](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-airflow/badges/score.svg)](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-airflow) 🐍 🏠 - Manage Apache Airflow through its REST API — list DAGs, inspect DAG runs and task instances, trigger runs, and check failed-DAG and scheduler/metadatabase health. 7 tools, built with FastMCP. Install: `uvx mcp-airflow`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-16T16:03:11Z"
+    pushed_at: "2026-06-04T19:12:31Z"
+    description: MCP server for airflow
+    homepage: null
+    topics:
+      - felhen
+      - mcp-server
+    last_checked_at: "2026-06-15T05:51:24.988Z"
+    readme:
+      fetched_at: "2026-06-15T05:51:24.988Z"
+      bytes: 2258
+insights:
+  summary: An MCP server that exposes Apache Airflow's REST API as a set of tools for AI assistants.
+  why_it_matters: It allows developers to trigger DAGs, check scheduler health, and debug failed pipeline runs directly through their AI assistant without switching to the Airflow UI.
+  mental_damage: The dream of managing data pipelines via a chat interface is exactly one hallucinated 'trigger_dag_run' call away from a production outage.
+  tags:
+    - mcp
+    - airflow
+    - data-pipelines
+    - orchestration
+  confidence: high
+curation:
+  status: included
+  reason: The project is purely an MCP server implementation for a specific domain (Airflow), making it a perfect fit for the MCP category.
+  evidence:
+    - Repo description explicitly states 'MCP server for airflow'
+    - README provides tool definitions for specific Airflow actions like 'list_dags' and 'check_scheduler_health'
+    - Included in 'awesome-mcp-servers' under 'Data Platforms'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-15T05:51:04.988Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-15T05:51:24.988Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-15T05:53:06.182Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

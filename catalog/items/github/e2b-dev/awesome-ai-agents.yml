@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:09.280Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-15T05:51:42.569Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for e2b-dev/awesome-ai-agents
     next_retry_at: null
   categorize:
     status: done

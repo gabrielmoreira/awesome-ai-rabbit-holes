@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 135
-    forks: 16
+    stars: 149
+    forks: 19
     license: MIT
     archived: false
     created_at: "2026-05-06T08:04:52Z"
-    pushed_at: "2026-05-15T06:09:23Z"
+    pushed_at: "2026-06-15T03:46:23Z"
     description: The best-benchmarked open-source memory system for AI coding assistants
     homepage: null
     topics:
@@ -37,9 +37,9 @@ metadata:
       - ai-memory
       - claude
       - claude-code
-      - embeddings
+      - encryption
       - episodic-memory
-      - lancedb
+      - hnswlib
       - llm-tools
       - local-first
       - long-term-memory
@@ -49,13 +49,14 @@ metadata:
       - model-context-protocol
       - openclaw
       - python
+      - rust
       - semantic-search
-      - sentence-transformers
+      - sqlite
       - vector-search
-    last_checked_at: "2026-06-04T05:40:49.568Z"
+    last_checked_at: "2026-06-15T05:51:28.607Z"
     readme:
-      fetched_at: "2026-06-04T05:40:49.568Z"
-      bytes: 19174
+      fetched_at: "2026-06-15T05:51:28.607Z"
+      bytes: 28034
 insights:
   summary: A local memory server that provides long-term, verbatim conversation recall for Claude and other MCP-compatible assistants.
   why_it_matters: It removes the need to manually remind assistants of previous context by automatically capturing and injecting relevant historical conversation slices into new sessions.
@@ -88,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-04T05:40:49.568Z"
+    updated_at: "2026-06-15T05:51:28.607Z"
     cause: null
     next_retry_at: null
   categorize:
