@@ -1,0 +1,91 @@
+id: github__appcreationsca__bumpguard-mcp
+kind: github-repo
+name: bumpguard-mcp
+canonical_url: https://github.com/appcreationsca/bumpguard-mcp
+identity:
+  github_repo: appcreationsca/bumpguard-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__appcreationsca__bumpguard-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: appcreationsca/bumpguard-mcp
+        extracted_url: https://github.com/appcreationsca/bumpguard-mcp
+        surrounding_text: "- [appcreationsca/bumpguard-mcp](https://github.com/appcreationsca/bumpguard-mcp) [![appcreationsca/bumpguard-mcp MCP server](https://glama.ai/mcp/servers/appcreationsca/bumpguard-mcp/badges/score.svg)](https://glama.ai/mcp/servers/appcreationsca/bumpguard-mcp) 🐍 🏠 🍎 🪟 🐧 - Pre-flight dependency-upgrade impact analysis: reports exactly which of your code's API usages break *before* you bump a dependency, with line numbers, severity, and fix hints. Also verifies AI-written code against the actually-installed API to catch hallucinated calls. Static analysis only — never runs third-party code. Python + .NET. `pip install bumpguard-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-08T18:13:12Z"
+    pushed_at: "2026-06-17T23:03:19Z"
+    description: "Guard your dependency bumps: an MCP server that tells your AI agent which parts of YOUR code break when you upgrade a dependency, and verifies AI-written code against the installed API - static analysis, never runs third-party code."
+    homepage: null
+    topics:
+      - ai
+      - breaking-changes
+      - dependencies
+      - developer-tools
+      - llm
+      - mcp
+      - model-context-protocol
+      - python
+      - static-analysis
+      - upgrade
+    last_checked_at: "2026-06-18T05:40:07.511Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:07.511Z"
+      bytes: 12305
+insights:
+  summary: An MCP server that uses static analysis to tell AI agents exactly which lines of code will break during a dependency upgrade.
+  why_it_matters: It replaces an LLM's hallucinated version of a library's API with ground-truth analysis of the actual installed package, preventing the "almost right" code that leads to endless debug loops.
+  mental_damage: The realization that you've spent the last three hours fighting a hallucinated API that doesn't exist in the version you actually installed.
+  tags:
+    - mcp
+    - static-analysis
+    - dependency-management
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is fundamentally an MCP server providing a specific set of tools for API verification and dependency auditing.
+  evidence:
+    - Explicitly identifies as an 'MCP server' in the description and README
+    - Provides specific MCP tools like `check_upgrade` and `verify_snippet`
+    - Designed to be configured in `claude_desktop_config.json` as an MCP server
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:07.511Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:21.125Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -13,7 +13,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.6k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
+- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.8k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
 
   It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
 
@@ -31,7 +31,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 116.5k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 117.4k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
 
   It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
 
@@ -94,7 +94,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `local-inference` `cpp` `offline` `whisper`
   </details>
 
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 47.2k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 47.5k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
 
   It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
 
@@ -319,7 +319,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `gpu-orchestration` `inference`
   </details>
 
-- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 5k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
+- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 5.1k` `updated ≤30d` A Python package for running inference and fine-tuning of vision-language models locally on Apple Silicon Macs using the MLX framework. <details><summary>More about</summary>
 
   It allows developers on Apple hardware to experiment with and deploy multimodal capabilities, like OCR and image understanding, without leaving their local machine.
 
@@ -499,7 +499,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `rag` `local-ai` `mcp` `docker` `on-premises`
   </details>
 
-- **[ZhiLight](https://github.com/zhihu/zhilight)** `⭐ 906` `updated ≤90d` ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs. <details><summary>More about</summary>
+- **[ZhiLight](https://github.com/zhihu/zhilight)** `⭐ 906` `updated ≤180d` ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs. <details><summary>More about</summary>
 
   It provides measurable QPS and latency gains over vLLM and SGLang on consumer and data-center GPUs, serving as a high-performance local inference runtime.
 

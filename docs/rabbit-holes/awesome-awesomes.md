@@ -364,7 +364,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 538` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 578` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
 
   It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
 
@@ -512,7 +512,7 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `agentic-ai` `multi-agent` `resources` `directory`
   </details>
 
-- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤90d` A curated list of protocols, SDKs, and tools for AI agent communication, covering email, MCP, webhooks, and inter-agent messaging. <details><summary>More about</summary>
+- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤180d` A curated list of protocols, SDKs, and tools for AI agent communication, covering email, MCP, webhooks, and inter-agent messaging. <details><summary>More about</summary>
 
   It provides a centralized discovery map for developers stitching together multi-agent systems that need to send email, use MCP servers, or route webhooks.
 

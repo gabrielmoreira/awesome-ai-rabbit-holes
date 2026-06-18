@@ -1,0 +1,81 @@
+id: github__bgaze__snapstack-server
+kind: github-repo
+name: snapstack-server
+canonical_url: https://github.com/bgaze/snapstack-server
+identity:
+  github_repo: bgaze/snapstack-server
+provenance:
+  discoveries:
+    - id: discovery__github__bgaze__snapstack-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: bgaze/snapstack-server
+        extracted_url: https://github.com/bgaze/snapstack-server
+        surrounding_text: "- [bgaze/snapstack-server](https://github.com/bgaze/snapstack-server) [![bgaze/snapstack-server MCP server](https://glama.ai/mcp/servers/bgaze/snapstack-server/badges/score.svg)](https://glama.ai/mcp/servers/bgaze/snapstack-server) 📇 🏠 🍎 🪟 🐧 - Pipe one-click browser-tab screenshots into any MCP client, 100% local — a companion extension captures, the local server stacks them and serves them to your LLM on demand."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-08T18:59:40Z"
+    pushed_at: "2026-06-15T10:55:32Z"
+    description: "Local always-on server for SnapStack: receives browser captures and serves them to any MCP-capable LLM client over MCP (Streamable HTTP +   stdio). Listens on 127.0.0.1 only."
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-18T05:40:15.940Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:15.940Z"
+      bytes: 9392
+insights:
+  summary: A local server that captures browser tab screenshots via a companion extension and serves them to MCP-capable LLM clients.
+  why_it_matters: It provides a privacy-preserving, local bridge for AI agents to 'see' the developer's current browser state without routing sensitive data through a third-party proxy.
+  mental_damage: We've reached the era where the only way to give an AI vision is to maintain a dedicated background daemon that stacks WebP files on your local disk.
+  tags:
+    - mcp
+    - browser-automation
+    - local-ai
+    - node-js
+  confidence: high
+curation:
+  status: included
+  reason: The project's identity is entirely centered on being an MCP server that exposes browser capabilities to an LLM client.
+  evidence:
+    - Repo description explicitly states it serves captures to 'any MCP-capable LLM client'
+    - README lists 'MCP-capable LLM client' as a primary requirement
+    - Listed in 'awesome-mcp-servers' under Browser Automation
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:15.940Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:50.497Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

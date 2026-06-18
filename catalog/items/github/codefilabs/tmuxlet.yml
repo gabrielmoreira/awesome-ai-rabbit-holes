@@ -1,0 +1,82 @@
+id: github__codefilabs__tmuxlet
+kind: github-repo
+name: tmuxlet
+canonical_url: https://github.com/codefilabs/tmuxlet
+identity:
+  github_repo: codefilabs/tmuxlet
+provenance:
+  discoveries:
+    - id: discovery__github__codefilabs__tmuxlet__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: tmuxlet
+        extracted_url: https://github.com/codefilabs/tmuxlet
+        surrounding_text: "- **[tmuxlet](https://github.com/CodefiLabs/tmuxlet)** `⭐ 6` — Rust CLI that runs interactive coding CLIs (Claude, Codex, Gemini, opencode, pi, Cursor) inside tmux and exposes a normalized `claude -p` style blocking interface. Single binary, zero deps. Works against the regular Claude subscription bucket (not the separate Agent SDK credit) by driving interactive Claude Code from the outside."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-14T17:56:34Z"
+    pushed_at: "2026-05-30T19:05:07Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-06-18T05:40:27.544Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:27.544Z"
+      bytes: 20372
+insights:
+  summary: A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface.
+  why_it_matters: It allows developers to automate coding agents like Claude Code while bypassing the separate, more restrictive 'Agent SDK' billing pools by simulating a human interactive session.
+  mental_damage: The peak of AI engineering is now using a terminal multiplexer to trick your provider's billing system into thinking you're a human who types really fast.
+  tags:
+    - cli
+    - automation
+    - tmux
+    - billing-hack
+    - coding-agents
+  confidence: high
+curation:
+  status: included
+  reason: The tool does not act as a coding assistant itself, but rather as a harness that augments and automates existing assistants with a programmatic interface.
+  evidence:
+    - README describes it as a wrapper that 'runs coding CLIs inside tmux'
+    - Explicitly designed to normalize interfaces for Claude, Codex, Gemini, and Cursor
+    - Provides 'Host Integrations & Automation' by bridging interactive CLI sessions to scripts
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:27.544Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:51.808Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

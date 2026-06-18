@@ -1,0 +1,96 @@
+id: github__arthurpanhku__dvalincode
+kind: github-repo
+name: dvalincode
+canonical_url: https://github.com/arthurpanhku/dvalincode
+identity:
+  github_repo: arthurpanhku/dvalincode
+provenance:
+  discoveries:
+    - id: discovery__github__arthurpanhku__dvalincode__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: DvalinCode
+        extracted_url: https://github.com/arthurpanhku/dvalincode
+        surrounding_text: "- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 9` — Provider-neutral coding agent with three modes (Chat/Cowork/Code), inline diff approval, built-in Web GUI launched from a single binary. Works with any OpenAI-compatible endpoint (DeepSeek, OpenAI, Claude via OpenRouter, Groq, Ollama); macOS shell sandbox via `sandbox-exec`; `.dvalincodeignore` for sensitive files; `AGENTS.md` project memory. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-05-20T14:48:17Z"
+    pushed_at: "2026-06-16T10:15:31Z"
+    description: Local-first CLI agent for coding workflows. Provider-neutral, zero runtime deps, typed tools. Named after Dvalin, the Nordic myth dwarven smith.
+    homepage: null
+    topics:
+      - ai
+      - ai-agent
+      - claude
+      - cli
+      - coding-agent
+      - coding-assistant
+      - deepseek
+      - developer-tools
+      - llm
+      - local-first
+      - ollama
+      - terminal
+      - tui
+      - typescript
+    last_checked_at: "2026-06-18T05:40:09.481Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:09.481Z"
+      bytes: 28171
+insights:
+  summary: A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI.
+  why_it_matters: It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
+  mental_damage: The promise of a 'small enough to audit' codebase provides a comforting illusion of control while an autonomous agent rewrites your production config in a sandbox you hope is actually locked.
+  tags:
+    - local-ai
+    - cli
+    - coding-agent
+    - audit-trail
+    - provider-agnostic
+  confidence: high
+curation:
+  status: included
+  reason: It is a standalone coding assistant that reads files, plans changes, and executes commands, operating as the primary interface for the developer's workflow.
+  evidence:
+    - Repo description describes it as a 'local-first coding agent' for 'coding workflows'.
+    - "README describes three modes: Chat (read-only), Cowork (plan-then-execute), and Code (autonomous work with tool access)."
+    - Included in the 'awesome-cli-agents' list under 'Terminal-native coding agents'.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:09.481Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:20.220Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

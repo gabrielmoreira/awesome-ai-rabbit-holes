@@ -31,7 +31,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.6k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 19.7k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
 
   It gives developers the observability and evaluation tooling needed to measure prompt quality, trace agent behavior, and ship more reliable LLM-powered features.
 
@@ -40,7 +40,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evals` `tracing` `llmops` `monitoring`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 16.1k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 16.2k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
 
   It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
 
@@ -49,7 +49,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `testing` `python` `metrics` `agents`
   </details>
 
-- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.4k` `updated ≤90d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
+- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.5k` `updated ≤90d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
 
   It provides a visual workflow to generate QA pairs, manage label trees, and run automated evaluations, streamlining the data preparation phase of model customization.
 
@@ -94,7 +94,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `gateway` `observability` `evals` `rust`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.1k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.2k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
 
   It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
 

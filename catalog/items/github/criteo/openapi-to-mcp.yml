@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-11T05:38:21.739Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-18T05:40:31.957Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for criteo/openapi-to-mcp
     next_retry_at: null
   categorize:
     status: done

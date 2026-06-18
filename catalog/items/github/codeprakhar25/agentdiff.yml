@@ -1,0 +1,100 @@
+id: github__codeprakhar25__agentdiff
+kind: github-repo
+name: agentdiff
+canonical_url: https://github.com/codeprakhar25/agentdiff
+identity:
+  github_repo: codeprakhar25/agentdiff
+provenance:
+  discoveries:
+    - id: discovery__github__codeprakhar25__agentdiff__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: AgentDiff
+        extracted_url: https://github.com/codeprakhar25/agentdiff
+        surrounding_text: "- **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** `⭐ 29` — Git-native provenance for AI-written code: hooks every CLI agent (Claude Code, Codex, Cursor, Gemini, OpenCode, Windsurf, Copilot) and records which agent wrote which line, reconciles it against each commit, and signs every attribution with ed25519. Records live in your own git refs (`agentdiff list/blame/report`); no server. Rust, MIT/Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 29
+    forks: 3
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-27T10:21:33Z"
+    pushed_at: "2026-06-08T05:48:05Z"
+    description: "Git-native AI code provenance: records which AI agent wrote which line, signs each attribution with ed25519, stores it in your git history. Cross-agent (Claude Code, Cursor, Copilot, Codex, Windsurf, OpenCode, Gemini)."
+    homepage: https://agentdiff.site/
+    topics:
+      - ai-code
+      - ai-code-attribution
+      - ai-code-provenance
+      - ai-governance
+      - aibom
+      - attribution
+      - claude-code
+      - code-provenance
+      - copilot
+      - cursor
+      - developer-tools
+      - devsecops
+      - ed25519
+      - git
+      - line-level-provenance
+      - provenance
+      - sbom
+      - slsa
+    last_checked_at: "2026-06-18T05:40:28.176Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:28.176Z"
+      bytes: 27308
+insights:
+  summary: A git-native tool for AI code provenance that records and cryptographically signs which AI agent wrote specific lines of code.
+  why_it_matters: It provides a durable, signed audit trail for AI-generated code, moving from probabilistic detection to verifiable authorship for governance and security.
+  mental_damage: We have finally reached the era where we need cryptographic proof to determine which LLM is actually responsible for the bug in production.
+  tags:
+    - provenance
+    - git
+    - governance
+    - sbom
+    - security
+  confidence: high
+curation:
+  status: included
+  reason: The tool augments the existing git/IDE workflow by adding an attribution layer to other coding assistants rather than acting as an assistant itself.
+  evidence:
+    - README describes it as a 'source-line authorship layer' that 'hooks into every major AI coding agent'
+    - Provides a CLI tool (agentdiff list) to query authorship evidence stored in git history
+    - Explicitly contrasts itself against primary assistants, positioning itself as an additive provenance layer
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:28.176Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:58.794Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

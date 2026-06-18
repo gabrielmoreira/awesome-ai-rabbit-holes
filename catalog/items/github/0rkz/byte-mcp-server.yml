@@ -1,0 +1,92 @@
+id: github__0rkz__byte-mcp-server
+kind: github-repo
+name: byte-mcp-server
+canonical_url: https://github.com/0rkz/byte-mcp-server
+identity:
+  github_repo: 0rkz/byte-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__0rkz__byte-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: 0rkz/byte-mcp-server
+        extracted_url: https://github.com/0rkz/byte-mcp-server
+        surrounding_text: "- [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-20T22:00:10Z"
+    pushed_at: "2026-06-17T18:27:28Z"
+    description: MCP server for BYTE Library — per-byte USDC data feeds for AI agents on Arbitrum. Subscribe or pay-per-call via x402. No API keys, no token.
+    homepage: https://www.payperbyte.io
+    topics:
+      - agent-commerce
+      - ai-agents
+      - arbitrum
+      - data-marketplace
+      - depin
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - web3
+      - x402
+    last_checked_at: "2026-06-18T05:40:04.983Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:04.983Z"
+      bytes: 8093
+insights:
+  summary: An MCP server that provides AI agents with per-byte USDC data feeds and verified provenance-first data via the PayPerByte library.
+  why_it_matters: It allows agents to autonomously purchase and verify trusted data feeds using a pay-per-call model without needing traditional API keys or off-chain accounts.
+  mental_damage: We have finally reached the era where your LLM can accidentally spend your real-world USDC on a weather report while you're asleep.
+  tags:
+    - mcp
+    - web3
+    - agent-commerce
+    - arbitrum
+    - data-feeds
+  confidence: high
+curation:
+  status: included
+  reason: The project's core identity is an MCP server providing specific domain-based tools for agent commerce and data retrieval.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server for BYTE Library'
+    - README describes a set of 15 tools (discovery, subscribe, buy) meant for use in an MCP client
+    - Includes specific MCP-native functionality like 'byte_buy_data' and 'byte_verify_payload'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.065Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:04.983Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:41:52.626Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,101 @@
+id: github__asklokesh__loki-mode
+kind: github-repo
+name: loki-mode
+canonical_url: https://github.com/asklokesh/loki-mode
+identity:
+  github_repo: asklokesh/loki-mode
+provenance:
+  discoveries:
+    - id: discovery__github__asklokesh__loki-mode__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Loki Mode
+        extracted_url: https://github.com/asklokesh/loki-mode
+        surrounding_text: "- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 980` — Spec-to-product autonomous loop with a built-in verification gate: a reason/act/reflect/verify closure plus a blind-review completion council that can veto \"done\", so it will not mark work complete until the evidence passes. Brownfield healing (`loki heal`), local-first BYO-keys, 26-tool MCP server, reads AGENTS.md. Source-available (BUSL-1.1)."
+        confidence: high
+metadata:
+  github:
+    stars: 980
+    forks: 191
+    license: NOASSERTION
+    archived: false
+    created_at: "2025-12-26T16:26:14Z"
+    pushed_at: "2026-06-18T05:34:09Z"
+    description: Multi-agent autonomous SDLC framework. Spec to deployed app. PRD, GitHub issue, OpenAPI/JSON/YAML, or one-line brief. 5 AI providers, 11 quality gates.
+    homepage: https://www.autonomi.dev
+    topics:
+      - ai-agents
+      - aider
+      - anthropic
+      - autonomous
+      - ci-cd
+      - claude
+      - cline
+      - code-review
+      - devops
+      - gemini
+      - github-action
+      - github-issues
+      - loki-mode
+      - multi-agent
+      - openai-codex
+      - openapi
+      - pull-request-review
+      - sdlc
+      - spec-driven-development
+    last_checked_at: "2026-06-18T05:40:10.156Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:10.156Z"
+      bytes: 30950
+insights:
+  summary: A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop.
+  why_it_matters: It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
+  mental_damage: The dream of 'hand it a spec and walk away' is finally here, though we'll still spend three hours arguing with a 'blind council' of AI reviewers about a naming convention.
+  tags:
+    - autonomous-agents
+    - sdlc
+    - spec-driven
+    - ci-cd
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core identity is built around the 'spec-driven' loop, where the spec is the controlling artifact for planning, verification, and drift detection.
+  evidence:
+    - README explicitly calls it 'The spec-driven autonomous builder with verified completion'
+    - Features like `loki spec` for drift detection and `loki grill` for spec interrogation center the workflow on the specification
+    - Implements a RARV-C closure loop (Reason-Act-Reflect-Verify-Close) as the primary mechanism for delivery
+placement:
+  primary_category: spec-driven-development
+  section: Execution Loops & Repair
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (980) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:10.156Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:43.558Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

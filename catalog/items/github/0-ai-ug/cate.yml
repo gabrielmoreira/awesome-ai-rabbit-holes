@@ -1,0 +1,81 @@
+id: github__0-ai-ug__cate
+kind: github-repo
+name: cate
+canonical_url: https://github.com/0-ai-ug/cate
+identity:
+  github_repo: 0-ai-ug/cate
+provenance:
+  discoveries:
+    - id: discovery__github__0-ai-ug__cate__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Cate
+        extracted_url: https://github.com/0-ai-ug/cate
+        surrounding_text: "- **[Cate](https://github.com/0-AI-UG/cate)** `⭐ 1.6k` — Desktop app that runs terminals, Claude Code agent panels, editors, and browsers on an infinite zoomable canvas; multiple agent sessions sit side by side and panels can dock into tabs or detach into separate windows. Built with Electron and node-pty. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 1653
+    forks: 93
+    license: MIT
+    archived: false
+    created_at: "2026-03-29T14:49:51Z"
+    pushed_at: "2026-06-17T20:06:24Z"
+    description: An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.
+    homepage: https://cate.cero-ai.com
+    topics: []
+    last_checked_at: "2026-06-18T05:40:04.769Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:04.769Z"
+      bytes: 6804
+insights:
+  summary: An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace.
+  why_it_matters: It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out complex multi-tool workflows visually.
+  mental_damage: Now we can finally experience the anxiety of losing our actual code in the vast, empty void of an infinite 2D coordinate system.
+  tags:
+    - spatial-ide
+    - canvas-ui
+    - ai-native
+    - productivity
+  confidence: high
+curation:
+  status: included
+  reason: The product is a standalone desktop IDE where the core value is the spatial environment itself, with AI agents integrated as one of many available panels.
+  evidence:
+    - "Repo description: 'An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.'"
+    - "README: 'Cate is a desktop IDE built on an infinite canvas.'"
+    - Includes integrated Monaco editors, xterm.js terminals, and git-aware file trees.
+placement:
+  primary_category: ai-ides-editors
+  section: Full IDEs & Editors
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1653) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.065Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:04.769Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:41:44.271Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

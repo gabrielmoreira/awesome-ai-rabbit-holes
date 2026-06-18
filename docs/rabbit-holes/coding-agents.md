@@ -67,16 +67,16 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `sdk` `self-hosted` `multi-agent`
   </details>
 
-- **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** `⭐ 63.4k` `updated ≤90d` Open Interpreter is a terminal-based natural language interface that runs Python, JavaScript, and shell code locally via LLMs to perform tasks like data analysis, file manipulation, and browser automation. <details><summary>More about</summary>
+- **[pi-mono](https://github.com/badlogic/pi-mono)** `⭐ 63.7k` `updated ≤30d` A monorepo containing a terminal-native coding agent CLI, a unified multi-provider LLM API, agent runtime libraries, and UI components for building AI interfaces. <details><summary>More about</summary>
 
-  It gives developers a local, unrestricted alternative to OpenAI's Code Interpreter with full system access, internet connectivity, and no runtime limits.
+  It provides a high-traction, open-source alternative to proprietary coding agents with a modular toolkit approach that separates the agent runtime from the model providers.
 
-  _Another chance to discover that 'plot AAPL and META's normalized stock prices' is a more compelling task than the Jira ticket you were supposed to finish 20 minutes ago._
+  _Just when you thought the terminal agent wars were settled, a monorepo with 45k stars appears to remind you that your shell is the new IDE, and you still haven't finished configuring your .zshrc._
 
-  `cli` `local-ai` `code-execution` `terminal-agent` `python`
+  `coding-agent` `cli` `monorepo` `llm-api` `agent-runtime`
   </details>
 
-- **[cline](https://github.com/cline/cline)** `⭐ 63k` `updated ≤30d` Cline is a VS Code extension that acts as an autonomous coding agent, capable of creating and editing files, executing terminal commands, and interacting with a headless browser to complete development tasks with user approval. <details><summary>More about</summary>
+- **[cline](https://github.com/cline/cline)** `⭐ 63.5k` `updated ≤30d` Cline is a VS Code extension that acts as an autonomous coding agent, capable of creating and editing files, executing terminal commands, and interacting with a headless browser to complete development tasks with user approval. <details><summary>More about</summary>
 
   It allows developers to delegate complex, multi-step repo tasks to an agent that can see the file structure, run the terminal, and debug visual issues directly within the IDE.
 
@@ -85,13 +85,13 @@ Assistants that directly plan, write, review, test, or debug code.
   `vscode` `coding-agent` `autonomous` `ide-extension` `llm`
   </details>
 
-- **[pi-mono](https://github.com/badlogic/pi-mono)** `⭐ 61.6k` `updated ≤30d` A monorepo containing a terminal-native coding agent CLI, a unified multi-provider LLM API, agent runtime libraries, and UI components for building AI interfaces. <details><summary>More about</summary>
+- **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** `⭐ 63.4k` `updated ≤90d` Open Interpreter is a terminal-based natural language interface that runs Python, JavaScript, and shell code locally via LLMs to perform tasks like data analysis, file manipulation, and browser automation. <details><summary>More about</summary>
 
-  It provides a high-traction, open-source alternative to proprietary coding agents with a modular toolkit approach that separates the agent runtime from the model providers.
+  It gives developers a local, unrestricted alternative to OpenAI's Code Interpreter with full system access, internet connectivity, and no runtime limits.
 
-  _Just when you thought the terminal agent wars were settled, a monorepo with 45k stars appears to remind you that your shell is the new IDE, and you still haven't finished configuring your .zshrc._
+  _Another chance to discover that 'plot AAPL and META's normalized stock prices' is a more compelling task than the Jira ticket you were supposed to finish 20 minutes ago._
 
-  `coding-agent` `cli` `monorepo` `llm-api` `agent-runtime`
+  `cli` `local-ai` `code-execution` `terminal-agent` `python`
   </details>
 
 - **[Pi](https://github.com/earendil-works/pi)** `⭐ 60.7k` `updated ≤30d` Pi is a mono repo AI agent toolkit providing a coding agent CLI, unified LLM API, TUI/web UI libraries, and Slack bot for interactive code generation and agent orchestration. <details><summary>More about</summary>
@@ -139,13 +139,22 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `agent` `mcp` `local-ai` `chat`
   </details>
 
-- **[ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop)** `⭐ 36.3k` `updated ≤30d` A multimodal AI agent stack from ByteDance that provides a CLI and desktop GUI application for automating computer, browser, and GUI tasks using vision-language models. <details><summary>More about</summary>
+- **[ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop)** `⭐ 36.7k` `updated ≤30d` A multimodal AI agent stack from ByteDance that provides a CLI and desktop GUI application for automating computer, browser, and GUI tasks using vision-language models. <details><summary>More about</summary>
 
   It lets developers delegate complex GUI and browser workflows to a local or remote VLM-powered operator that can see and interact with screens rather than just code.
 
   _Finally, an agent that can lovingly caress your UI while you explain to your team why clicking random buttons is now a core engineering deliverable._
 
   `gui-agent` `computer-use` `multimodal` `automation` `cli`
+  </details>
+
+- **[Continue](https://github.com/continuedev/continue)** `⭐ 34k` `updated ≤30d` Continue is an open-source CLI and CI tool that runs source-controlled AI checks, defined as markdown files in a repo, as GitHub status checks on pull requests. <details><summary>More about</summary>
+
+  It lets teams encode coding standards and review rules as version-controlled markdown files, enforcing them automatically via AI on every pull request.
+
+  _We have successfully automated the experience of waiting for a senior developer to sigh at your PR, but now it returns a diff in under three seconds._
+
+  `ci` `code-review` `cli` `ai-checks` `github`
   </details>
 
 - **[GPT Pilot](https://github.com/pythagora-io/gpt-pilot)** `⭐ 33.8k` `updated ≤90d` GPT Pilot is a CLI and VS Code extension that acts as an AI developer to plan, write, debug, and review full application features from scratch. <details><summary>More about</summary>
@@ -155,15 +164,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Finally, an AI that can build the entire app so you can spend your day arguing with it about why the login page renders in Comic Sans._
 
   `cli` `vscode` `codegen` `pair-programmer` `langchain`
-  </details>
-
-- **[Continue](https://github.com/continuedev/continue)** `⭐ 33.6k` `updated ≤30d` Continue is an open-source CLI and CI tool that runs source-controlled AI checks, defined as markdown files in a repo, as GitHub status checks on pull requests. <details><summary>More about</summary>
-
-  It lets teams encode coding standards and review rules as version-controlled markdown files, enforcing them automatically via AI on every pull request.
-
-  _We have successfully automated the experience of waiting for a senior developer to sigh at your PR, but now it returns a diff in under three seconds._
-
-  `ci` `code-review` `cli` `ai-checks` `github`
   </details>
 
 - **[Tabby](https://github.com/tabbyml/tabby)** `⭐ 33.5k` `updated ≤180d` Tabby is a self-hosted, open-source AI coding assistant that runs locally or on-premises to provide code completion and chat capabilities similar to GitHub Copilot. <details><summary>More about</summary>
@@ -211,7 +211,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `containers` `self-hosted` `messaging` `claude-code`
   </details>
 
-- **[GPT Researcher](https://github.com/assafelovic/gpt-researcher)** `⭐ 27.6k` `updated ≤30d` An autonomous research agent that conducts deep web and local document research using LLMs to generate detailed, citation-backed reports. <details><summary>More about</summary>
+- **[GPT Researcher](https://github.com/assafelovic/gpt-researcher)** `⭐ 27.8k` `updated ≤30d` An autonomous research agent that conducts deep web and local document research using LLMs to generate detailed, citation-backed reports. <details><summary>More about</summary>
 
   It automates the time-consuming manual research phase by parallelizing web scraping and summarization into structured reports with memory and context retention.
 
@@ -220,7 +220,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `research-agent` `llm` `rag` `automation` `python`
   </details>
 
-- **[Crush](https://github.com/charmbracelet/crush)** `⭐ 25.2k` `updated ≤30d` A terminal-native coding agent that wires your tools, code, and workflows into your choice of LLM with LSP support and MCP extensibility. <details><summary>More about</summary>
+- **[Crush](https://github.com/charmbracelet/crush)** `⭐ 25.4k` `updated ≤30d` A terminal-native coding agent that wires your tools, code, and workflows into your choice of LLM with LSP support and MCP extensibility. <details><summary>More about</summary>
 
   It gives developers a model-agnostic, LSP-aware coding assistant that runs in any terminal and preserves context across sessions.
 
@@ -328,6 +328,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `coding-agent` `terminal` `multi-file` `autonomy`
   </details>
 
+- **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 13.2k` `updated ≤30d` A terminal-native AI coding agent for the terminal that supports hash-anchored edits, an optimized tool harness, LSP integration, Python, browser automation, and subagents. <details><summary>More about</summary>
+
+  It offers developers a locally runnable, multi-provider coding assistant with deep terminal integration and extensible tooling for repo-level work.
+
+  _Yet another fork in the terminal agent gold rush, proving that the fastest way to build a coding assistant is to fork an existing one and add more flags._
+
+  `terminal` `cli` `coding-agent` `rust` `typescript`
+  </details>
+
 - **[developer](https://github.com/smol-ai/developer)** `⭐ 12.2k` `updated >1y` A library and CLI agent that scaffolds entire codebases from a product spec, functioning as an embeddable 'junior developer' for new projects. <details><summary>More about</summary>
 
   It shifts the developer workflow from maintaining rigid boilerplate starters to iterating on a prompt that generates the desired codebase structure.
@@ -355,16 +364,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `terminal` `shell` `llm` `productivity`
   </details>
 
-- **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 11.8k` `updated ≤30d` A terminal-native AI coding agent for the terminal that supports hash-anchored edits, an optimized tool harness, LSP integration, Python, browser automation, and subagents. <details><summary>More about</summary>
-
-  It offers developers a locally runnable, multi-provider coding assistant with deep terminal integration and extensible tooling for repo-level work.
-
-  _Yet another fork in the terminal agent gold rush, proving that the fastest way to build a coding assistant is to fork an existing one and add more flags._
-
-  `terminal` `cli` `coding-agent` `rust` `typescript`
-  </details>
-
-- **[Trae Agent](https://github.com/bytedance/trae-agent)** `⭐ 11.6k` `updated ≤180d` Trae Agent is an open-source, LLM-based CLI agent for general-purpose software engineering tasks, supporting multiple model providers and offering a modular architecture for research and extension. <details><summary>More about</summary>
+- **[Trae Agent](https://github.com/bytedance/trae-agent)** `⭐ 11.7k` `updated ≤180d` Trae Agent is an open-source, LLM-based CLI agent for general-purpose software engineering tasks, supporting multiple model providers and offering a modular architecture for research and extension. <details><summary>More about</summary>
 
   It provides developers and researchers with a transparent, configurable terminal agent that can edit files, run bash commands, and record execution trajectories across various LLM backends.
 
@@ -490,7 +490,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `migration` `cli` `codebase` `langchain`
   </details>
 
-- **[Codebuff](https://github.com/codebuffai/codebuff)** `⭐ 6.3k` `updated ≤30d` An open-source, terminal-native AI coding assistant that coordinates specialized agents to understand, edit, and validate changes across a codebase via natural language instructions. <details><summary>More about</summary>
+- **[Codebuff](https://github.com/codebuffai/codebuff)** `⭐ 6.5k` `updated ≤30d` An open-source, terminal-native AI coding assistant that coordinates specialized agents to understand, edit, and validate changes across a codebase via natural language instructions. <details><summary>More about</summary>
 
   It offers a multi-agent CLI workflow that supports any OpenRouter model and includes an SDK for embedding custom coding agents directly into applications or CI/CD pipelines.
 
@@ -553,7 +553,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `local-first` `autonomous-agent` `terminal`
   </details>
 
-- **[open-claude-cowork](https://github.com/composio-community/open-claude-cowork)** `⭐ 4.2k` `updated ≤30d` Open Claude Cowork is an open-source desktop chat application powered by the Claude Agent SDK and Composio Tool Router, featuring 500+ SaaS integrations and a messaging bot variant. <details><summary>More about</summary>
+- **[open-claude-cowork](https://github.com/composio-community/open-claude-cowork)** `⭐ 4.3k` `updated ≤30d` Open Claude Cowork is an open-source desktop chat application powered by the Claude Agent SDK and Composio Tool Router, featuring 500+ SaaS integrations and a messaging bot variant. <details><summary>More about</summary>
 
   It lets developers automate work across desktop and messaging apps using a unified AI interface with broad tool access.
 
@@ -562,7 +562,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `desktop-app` `claude-sdk` `composio` `integrations`
   </details>
 
-- **[open-claude-cowork](https://github.com/composiohq/open-claude-cowork)** `⭐ 4.2k` `updated ≤30d` An open-source Electron desktop chat app powered by the Claude Agent SDK and Composio Tool Router, providing a hosted interface for developers to automate workflows across 500+ SaaS app integrations. <details><summary>More about</summary>
+- **[open-claude-cowork](https://github.com/composiohq/open-claude-cowork)** `⭐ 4.3k` `updated ≤30d` An open-source Electron desktop chat app powered by the Claude Agent SDK and Composio Tool Router, providing a hosted interface for developers to automate workflows across 500+ SaaS app integrations. <details><summary>More about</summary>
 
   It gives developers a local, UI-driven surface to orchestrate Claude Code-style agents with deep SaaS integrations, persistent sessions, and tool visualization without building custom glue code.
 
@@ -616,7 +616,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `terminal` `open-source` `multi-model` `self-hosted`
   </details>
 
-- **[Command Code](https://github.com/commandcodeai/command-code)** `⭐ 3.4k` `updated ≤30d` Command Code is a terminal-based coding agent that builds, tests, and refactors full-stack projects while learning a personalized 'taste' profile from the developer's code review choices. <details><summary>More about</summary>
+- **[Command Code](https://github.com/commandcodeai/command-code)** `⭐ 3.4k` `updated ≤90d` Command Code is a terminal-based coding agent that builds, tests, and refactors full-stack projects while learning a personalized 'taste' profile from the developer's code review choices. <details><summary>More about</summary>
 
   It aims to reduce the friction of AI code generation by adapting to your specific coding style and preferences through a feedback loop of accepts, rejects, and edits.
 
@@ -850,7 +850,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `ide-extension` `multi-surface`
   </details>
 
-- **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli)** `⭐ 729` `updated ≤180d` A lightweight, open-source terminal coding CLI powered by Groq models that is designed as a minimal, hackable alternative to feature-heavy coding agents. <details><summary>More about</summary>
+- **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli)** `⭐ 729` `updated ≤1y` A lightweight, open-source terminal coding CLI powered by Groq models that is designed as a minimal, hackable alternative to feature-heavy coding agents. <details><summary>More about</summary>
 
   It gives developers a small, readable codebase to customize with their own slash commands, tools, and UI tweaks while still getting fast model iteration via Groq.
 
@@ -868,7 +868,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `agent-harness` `mcp` `orchestration`
   </details>
 
-- **[Butterfish](https://github.com/bakks/butterfish)** `⭐ 528` `updated ≤30d` Butterfish is a CLI shell wrapper that integrates OpenAI directly into bash and zsh, allowing developers to prompt the model using shell history as context. <details><summary>More about</summary>
+- **[Butterfish](https://github.com/bakks/butterfish)** `⭐ 529` `updated ≤30d` Butterfish is a CLI shell wrapper that integrates OpenAI directly into bash and zsh, allowing developers to prompt the model using shell history as context. <details><summary>More about</summary>
 
   It streamlines the developer workflow by removing the copy-paste loop between the terminal and a browser-based chat interface for debugging and command generation.
 
@@ -958,7 +958,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `terminal` `debugging` `local-ai` `rag` `cli-agent`
   </details>
 
-- **[Coro Code](https://github.com/blushyes/coro-code)** `⭐ 361` `updated ≤1y` A Rust-based CLI coding agent that offers an interactive terminal UI for generating, debugging, and managing code across multiple LLM providers like OpenAI and Anthropic. <details><summary>More about</summary>
+- **[Coro Code](https://github.com/blushyes/coro-code)** `⭐ 363` `updated ≤1y` A Rust-based CLI coding agent that offers an interactive terminal UI for generating, debugging, and managing code across multiple LLM providers like OpenAI and Anthropic. <details><summary>More about</summary>
 
   It provides a fast, local, and provider-agnostic alternative to proprietary CLI agents like Claude Code, giving developers control over their toolchain and model choice.
 
@@ -985,7 +985,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `ai-search` `llm-agent` `open-source`
   </details>
 
-- **[Instrukt](https://github.com/blob42/instrukt)** `⭐ 327` `updated >1y` A terminal-based TUI environment for building, instructing, and debugging modular AI agents using LangChain, with support for document indexing and sandboxed Docker execution. <details><summary>More about</summary>
+- **[Instrukt](https://github.com/blob42/instrukt)** `⭐ 326` `updated >1y` A terminal-based TUI environment for building, instructing, and debugging modular AI agents using LangChain, with support for document indexing and sandboxed Docker execution. <details><summary>More about</summary>
 
   It gives developers a local, keyboard-driven workbench to rapidly prototype and test agent behaviors, tool integrations, and RAG workflows without leaving the terminal.
 
@@ -1021,7 +1021,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `coding-agent` `educational` `typescript` `mcp`
   </details>
 
-- **[Codeflash](https://github.com/codeflash-ai/codeflash)** `⭐ 246` `updated ≤30d` An AI-powered Python optimizer that reads existing codebases or PRs, generates performance improvements using LLMs, benchmarks them for speed and correctness, and opens merge-ready pull requests. <details><summary>More about</summary>
+- **[Codeflash](https://github.com/codeflash-ai/codeflash)** `⭐ 247` `updated ≤30d` An AI-powered Python optimizer that reads existing codebases or PRs, generates performance improvements using LLMs, benchmarks them for speed and correctness, and opens merge-ready pull requests. <details><summary>More about</summary>
 
   It automates the tedious loop of profiling, rewriting, and benchmarking Python code, allowing engineering teams to ship expert-level performance optimizations without manual effort.
 
@@ -1214,7 +1214,7 @@ _These are new or low-traffic entries being watched._
   `cli` `rust` `multi-llm` `automation` `codemods`
   </details>
 
-- **[remote-factory](https://github.com/akashgit/remote-factory)** `⭐ 36` `updated ≤30d` A terminal-native, multi-agent harness for autonomous software design, building, and iterative evolution. <details><summary>More about</summary>
+- **[remote-factory](https://github.com/akashgit/remote-factory)** `⭐ 37` `updated ≤30d` A terminal-native, multi-agent harness for autonomous software design, building, and iterative evolution. <details><summary>More about</summary>
 
   It delegates entire build-test-improve loops to a local, stateful ensemble of specialist agents that research, plan, implement, and verify against specs or existing codebases.
 
@@ -1293,6 +1293,15 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'emotional intelligence' like a Python pip install that promises to predict your bugs weeks in advance while shaming you for not routing your large modules to the expensive API tier._
 
   `claude-code` `memory` `cost-optimization` `cli` `python`
+  </details>
+
+- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 9` `updated ≤30d` A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI. <details><summary>More about</summary>
+
+  It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
+
+  _The promise of a 'small enough to audit' codebase provides a comforting illusion of control while an autonomous agent rewrites your production config in a sandbox you hope is actually locked._
+
+  `local-ai` `cli` `coding-agent` `audit-trail` `provider-agnostic`
   </details>
 
 - **[darce-cli](https://github.com/amersarhan/darce-cli)** `⭐ 5` `updated ≤90d` A lightweight, open-source CLI tool that acts as a model-agnostic AI coding agent for reading, writing, and editing code directly in the terminal. <details><summary>More about</summary>

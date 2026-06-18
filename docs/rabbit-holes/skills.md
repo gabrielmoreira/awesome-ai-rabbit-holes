@@ -13,7 +13,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 64.1k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 65k` `updated ≤30d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -76,7 +76,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `claude-code` `seo` `ads` `plugins` `skills`
   </details>
 
-- **[LabClaw](https://github.com/wu-yc/labclaw)** `⭐ 993` `updated ≤90d` LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows. <details><summary>More about</summary>
+- **[LabClaw](https://github.com/wu-yc/labclaw)** `⭐ 993` `updated ≤180d` LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows. <details><summary>More about</summary>
 
   It provides reusable, domain-scoped agent skills that reduce prompt engineering overhead for developers building AI-assisted scientific research tools.
 

@@ -82,9 +82,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-11T05:38:22.775Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-18T05:40:33.117Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for cvs-health/uqlm
     next_retry_at: null
   categorize:
     status: done

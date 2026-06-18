@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/aannoo/hcom
         surrounding_text: "- Production-grade observability and zero-trust security model- [hcom](https://github.com/aannoo/hcom) - Let AI agents message, watch, and spawn"
         confidence: high
+    - id: discovery__github__aannoo__hcom__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: hcom
+        extracted_url: https://github.com/aannoo/hcom
+        surrounding_text: "- **[hcom](https://github.com/aannoo/hcom)** `⭐ 343` — Hooks Claude Code, Antigravity, Codex, OpenCode, Kilo, and Cursor into a shared messaging and event bus; agents message, observe, and spawn each other mid-turn without changing how you use them. TUI dashboard, collision detection, cross-device relay. Rust, MIT."
+        confidence: high
 metadata:
   github:
     stars: 340
@@ -83,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: "2026-06-18T05:40:04.065Z"
     cause: null
     next_retry_at: null
   stars:

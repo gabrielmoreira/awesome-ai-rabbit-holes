@@ -157,6 +157,15 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `vector-database` `rag` `embeddings` `memory-backend` `cloud-native`
   </details>
 
+- **[cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)** `⭐ 2.1k` `updated ≤30d` A lightweight, AST-based semantic code search CLI that indexes local codebases to reduce token usage by approximately 70% when used with coding agents. <details><summary>More about</summary>
+
+  It integrates with Claude, Codex, and Cursor via CLI, Skill, or MCP to deliver relevant code context without blowing through context windows or API budgets.
+
+  _Yet another clever tool to solve the fundamental problem of feeding an entire codebase to a model that still can't remember what it did three prompts ago._
+
+  `ast` `code-search` `token-optimization` `mcp` `context-engineering`
+  </details>
+
 - **[mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** `⭐ 1.9k` `updated ≤30d` An open-source, self-hosted memory backend for AI agents that provides persistent storage via a REST API, knowledge graph, and MCP server with sub-5ms retrieval. <details><summary>More about</summary>
 
   It allows agents built with LangGraph, CrewAI, AutoGen, or Claude to share causal knowledge graphs and long-term memory without relying on cloud-hosted vector databases.
@@ -164,15 +173,6 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   _Because the only thing better than debugging a multi-agent pipeline is debugging the shared persistent memory service that the agents are now blaming for their amnesia._
 
   `memory` `mcp` `self-hosted` `knowledge-graph` `agent-infra`
-  </details>
-
-- **[cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)** `⭐ 1.8k` `updated ≤30d` A lightweight, AST-based semantic code search CLI that indexes local codebases to reduce token usage by approximately 70% when used with coding agents. <details><summary>More about</summary>
-
-  It integrates with Claude, Codex, and Cursor via CLI, Skill, or MCP to deliver relevant code context without blowing through context windows or API budgets.
-
-  _Yet another clever tool to solve the fundamental problem of feeding an entire codebase to a model that still can't remember what it did three prompts ago._
-
-  `ast` `code-search` `token-optimization` `mcp` `context-engineering`
   </details>
 
 - **[SolidGPT](https://github.com/ai-citizen/solidgpt)** `⭐ 1.8k` `updated >1y` SolidGPT is a developer-facing AI search assistant that indexes local codebases and Notion workspace documents for semantic querying within a VSCode extension. <details><summary>More about</summary>
@@ -422,7 +422,7 @@ _These are new or low-traffic entries being watched._
   `memory` `local-ai` `rust` `sdk` `offline`
   </details>
 
-- **[myco](https://github.com/battam1111/myco)** `⭐ 63` `updated ≤30d` Myco is a living cognitive substrate and MCP server that converts raw notes, code, and documentation into a self-maintaining filesystem graph with 20 agent-driven verbs for ingestion, digestion, and evolution. <details><summary>More about</summary>
+- **[myco](https://github.com/battam1111/myco)** `⭐ 64` `updated ≤30d` Myco is a living cognitive substrate and MCP server that converts raw notes, code, and documentation into a self-maintaining filesystem graph with 20 agent-driven verbs for ingestion, digestion, and evolution. <details><summary>More about</summary>
 
   It lets agents maintain their own long-term memory and project context as editable markdown and YAML, avoiding framework migrations and zero-state conversation restarts.
 
@@ -458,7 +458,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `rag` `knowledge-graph` `memory`
   </details>
 
-- **[cortex](https://github.com/cdeust/cortex)** `⭐ 52` `updated ≤30d` A persistent memory engine for Claude Code that uses computational neuroscience principles and PostgreSQL with pgvector to remember code context, decisions, and architecture across sessions. <details><summary>More about</summary>
+- **[cortex](https://github.com/cdeust/cortex)** `⭐ 56` `updated ≤30d` A persistent memory engine for Claude Code that uses computational neuroscience principles and PostgreSQL with pgvector to remember code context, decisions, and architecture across sessions. <details><summary>More about</summary>
 
   It solves the core pain of Claude Code forgetting past sessions by reconstructing relevant context through 26 biological memory mechanisms and a knowledge graph of code symbols.
 
@@ -665,7 +665,7 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `local-ai` `context-engineering`
   </details>
 
-- **[waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 17` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
+- **[waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 19` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
 
   Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
 
@@ -1007,7 +1007,7 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `vector-db` `visualization` `local`
   </details>
 
-- **[usecortex-mcp](https://github.com/usecortex-official/usecortex-mcp)** `⭐ 0` `updated ≤90d` UseCortex MCP Server is a Model Context Protocol server that provides AI coding agents with persistent, encrypted memory for reading and writing knowledge. <details><summary>More about</summary>
+- **[usecortex-mcp](https://github.com/usecortex-official/usecortex-mcp)** `⭐ 0` `updated ≤180d` UseCortex MCP Server is a Model Context Protocol server that provides AI coding agents with persistent, encrypted memory for reading and writing knowledge. <details><summary>More about</summary>
 
   It solves the context window limitation by giving agents long-term memory that works across any MCP-compatible tool.
 

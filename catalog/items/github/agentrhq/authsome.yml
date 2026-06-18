@@ -1,0 +1,102 @@
+id: github__agentrhq__authsome
+kind: github-repo
+name: authsome
+canonical_url: https://github.com/agentrhq/authsome
+identity:
+  github_repo: agentrhq/authsome
+provenance:
+  discoveries:
+    - id: discovery__github__agentrhq__authsome__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: authsome
+        extracted_url: https://github.com/agentrhq/authsome
+        surrounding_text: "- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 52` — Local credential broker for AI agents; Python CLI with encrypted local vault and a local HTTPS proxy that injects OAuth2 access tokens and API keys at request time. 45 providers bundled (14 OAuth2, 31 API key) including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, Stripe. Browser PKCE / device code / API key flows, background token refresh, no SaaS dependency. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 52
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-04-16T11:55:49Z"
+    pushed_at: "2026-06-17T18:46:40Z"
+    description: Credential gateway for AI agents. Log in once via Oauth2 or API Key. Every agent stays authenticated — headless, no SaaS, agents never see your credentials.
+    homepage: https://authsome.ai/docs
+    topics:
+      - agent-identity
+      - agent-security
+      - ai-agents
+      - api-keys
+      - authentication
+      - claude-code
+      - cli
+      - credential-manager
+      - developer-tools
+      - headless
+      - hermes-agent
+      - llm
+      - local-first
+      - mcp
+      - oauth2
+      - openclaw
+      - python
+      - secrets-management
+      - security-tools
+      - vault
+    last_checked_at: "2026-06-18T05:40:05.824Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:05.824Z"
+      bytes: 8375
+insights:
+  summary: An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy.
+  why_it_matters: It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
+  mental_damage: Finally, a tool to ensure your autonomous agent doesn't leak your entire GitHub organization's API keys to a hallucinating prompt in a single request.
+  tags:
+    - security
+    - secrets-management
+    - oauth2
+    - headless
+    - agent-infra
+  confidence: high
+curation:
+  status: included
+  reason: It is a utility that augments the capabilities of other agents (like Claude Code) by providing an authentication layer, rather than being a primary coding assistant itself.
+  evidence:
+    - "Repo description: 'Credential gateway for AI agents'"
+    - "README claim: 'Authsome is the credential broker agents call at runtime'"
+    - "Functionality: Injects headers via a proxy so 'agents never see credentials'"
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:05.824Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:09.055Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

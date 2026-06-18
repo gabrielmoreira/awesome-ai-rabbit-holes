@@ -1,0 +1,95 @@
+id: github__alessandro114__scala-mcp-server
+kind: github-repo
+name: scala-mcp-server
+canonical_url: https://github.com/alessandro114/scala-mcp-server
+identity:
+  github_repo: alessandro114/scala-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__alessandro114__scala-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: Alessandro114/scala-mcp-server
+        extracted_url: https://github.com/alessandro114/scala-mcp-server
+        surrounding_text: "- [Alessandro114/scala-mcp-server](https://github.com/Alessandro114/scala-mcp-server) [![Alessandro114/scala-mcp-server MCP server](https://glama.ai/mcp/servers/Alessandro114/scala-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Alessandro114/scala-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Search and enrich data from 250M+ companies across 50+ countries. Company lookup by name, VAT, or ID, NACE sector search, and financial data from official EU business registries. Free tier: 50 lookups/month. Install: `npx scala-mcp-server`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-06T23:04:40Z"
+    pushed_at: "2026-06-17T21:38:55Z"
+    description: MCP server for AI agents — search 250M+ companies via Claude, ChatGPT, Cursor. Free company data API.
+    homepage: https://score.get-scala.com
+    topics:
+      - ai-agents
+      - anthropic
+      - api
+      - b2b-data
+      - business-intelligence
+      - claude
+      - company-data
+      - company-lookup
+      - data-enrichment
+      - financial-data
+      - mcp
+      - mcp-server
+      - open-data
+      - score-api
+    last_checked_at: "2026-06-18T05:40:05.934Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:05.934Z"
+      bytes: 7672
+insights:
+  summary: An MCP server that provides AI agents with access to a database of over 250 million companies for B2B data, financial health, and company lookups.
+  why_it_matters: It allows developers to integrate real-world business intelligence and company verification directly into their AI agent workflows via a standardized protocol.
+  mental_damage: We've reached the era where your IDE agent can perform deep due diligence on a firm's financial health while you're still struggling to center a div.
+  tags:
+    - mcp
+    - b2b-data
+    - company-intelligence
+    - anthropic
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly an MCP server providing domain-specific data access, making it a clear fit for MCP Domain Servers.
+  evidence:
+    - Repo description states 'MCP server for AI agents'
+    - README provides installation steps for Claude Desktop and Claude Code via the Model Context Protocol
+    - Included in awesome-mcp-servers under Data Platforms
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:05.934Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:09.639Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

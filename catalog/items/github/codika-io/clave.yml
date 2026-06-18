@@ -1,0 +1,87 @@
+id: github__codika-io__clave
+kind: github-repo
+name: clave
+canonical_url: https://github.com/codika-io/clave
+identity:
+  github_repo: codika-io/clave
+provenance:
+  discoveries:
+    - id: discovery__github__codika-io__clave__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Clave
+        extracted_url: https://github.com/codika-io/clave
+        surrounding_text: "- **[Clave](https://github.com/codika-io/clave)** `⭐ 27` — Native macOS app for running multiple AI coding-agent CLIs (Claude Code, Gemini CLI, Codex) in parallel — split/grid terminal layouts, per-project session groups, a built-in git panel, and remote sessions over SSH. Fully local, no account. Electron. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 27
+    forks: 6
+    license: MIT
+    archived: false
+    created_at: "2026-02-12T20:08:46Z"
+    pushed_at: "2026-06-16T15:27:16Z"
+    description: A macOS desktop app for managing multiple Claude Code sessions
+    homepage: null
+    topics:
+      - claude
+      - claude-code
+      - developer-tools
+      - electron
+      - macos
+      - terminal
+    last_checked_at: "2026-06-18T05:40:28.913Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:28.913Z"
+      bytes: 6607
+insights:
+  summary: A macOS desktop application for managing and orchestrating multiple CLI coding-agent sessions in parallel.
+  why_it_matters: It provides a unified GUI with split-pane layouts, git integration, and SSH support for running multiple agent sessions (like Claude Code or Gemini CLI) without managing a dozen terminal tabs.
+  mental_damage: Now you can watch three different AI agents simultaneously hallucinate in separate panes of a grid layout.
+  tags:
+    - macos
+    - cli-agents
+    - session-management
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The tool is a session manager and UI wrapper that augments existing CLI agents rather than being a standalone agent itself.
+  evidence:
+    - "Repo description: 'a one-line GitHub description. Use this as the seed for the factual one-line summary when it exists.'"
+    - README explicitly states it's for managing 'Claude Code, Gemini CLI, and Codex CLI side by side'
+    - Requires at least one supported agent CLI to be installed and authenticated to function
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:28.913Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:43:01.132Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

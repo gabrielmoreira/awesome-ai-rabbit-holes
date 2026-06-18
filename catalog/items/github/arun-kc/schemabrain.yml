@@ -1,0 +1,101 @@
+id: github__arun-kc__schemabrain
+kind: github-repo
+name: schemabrain
+canonical_url: https://github.com/arun-kc/schemabrain
+identity:
+  github_repo: arun-kc/schemabrain
+provenance:
+  discoveries:
+    - id: discovery__github__arun-kc__schemabrain__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: Arun-kc/schemabrain
+        extracted_url: https://github.com/arun-kc/schemabrain
+        surrounding_text: "- [Arun-kc/schemabrain](https://github.com/Arun-kc/schemabrain) [![schemabrain MCP server](https://glama.ai/mcp/servers/Arun-kc/schemabrain/badges/score.svg)](https://glama.ai/mcp/servers/Arun-kc/schemabrain) 🐍 🏠 🍎 🪟 🐧 - Read-only trust layer for Postgres: the agent never writes SQL — twelve tools compile it from definitions you control, PII and secret categories are refused before the query runs, and every call lands in a tamper-evident SHA-256 audit chain."
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-10T16:44:00Z"
+    pushed_at: "2026-06-17T15:47:25Z"
+    description: The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic knowledge graph + audit log, MCP-native.
+    homepage: https://schemabrain.mintlify.app/
+    topics:
+      - agent-tools
+      - agent-trust
+      - agentic-ai
+      - ai-agents
+      - ai-security
+      - audit-log
+      - claude
+      - database-security
+      - knowledge-graph
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pii-protection
+      - postgresql
+      - python
+      - schema-intelligence
+      - semantic-firewall
+      - semantic-layer
+    last_checked_at: "2026-06-18T05:40:09.625Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:09.625Z"
+      bytes: 40062
+insights:
+  summary: A read-only trust and intelligence layer between AI agents and databases that provides a semantic knowledge graph, PII protection, and a cryptographic audit log.
+  why_it_matters: It removes the risk of giving agents raw database connection strings by ensuring the agent never writes SQL and cannot access sensitive PII.
+  mental_damage: Finally, a way to stop having a recurring nightmare about your coding agent accidentally dropping your production tables while trying to 'optimize' a join.
+  tags:
+    - mcp
+    - database-security
+    - knowledge-graph
+    - pii-protection
+    - audit-log
+  confidence: high
+curation:
+  status: included
+  reason: The product is fundamentally an MCP server that acts as a governed bridge to databases, making MCP its primary product identity.
+  evidence:
+    - Repo description explicitly states 'MCP-native'.
+    - README lists tools for Claude Desktop, Claude Code, Cursor, and Windsurf via MCP.
+    - Appears in awesome-mcp-servers under 'Server Implementations > Databases'.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:09.625Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:41.162Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

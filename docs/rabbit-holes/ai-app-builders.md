@@ -359,6 +359,15 @@ _These are new or low-traffic entries being watched._
   `low-code` `ai-assisted` `enterprise` `app-builder` `microsoft`
   </details>
 
+- **[Pythagora](https://pazi.ai)** An AI coding agent designed for automating software development tasks. <details><summary>More about</summary>
+
+  It aims to streamline the development lifecycle by providing an autonomous agent capable of handling complex coding tasks.
+
+  _Another agent to manage, because the only thing missing from my workflow was another black box that might accidentally rewrite my entire auth layer._
+
+  `coding-agent` `automation` `autonomous`
+  </details>
+
 - **[Pythagora](https://www.pythagora.ai)** An AI teammate that integrates into VS Code and Cursor, using 14 specialized agents to plan, build, test, debug, and deploy full-stack React and Node.js applications from prompts. <details><summary>More about</summary>
 
   It attempts to bridge the gap between AI prototyping and production-ready apps by providing integrated debugging tools and deployment workflows directly inside the developer's IDE.

@@ -4,7 +4,7 @@ Development environments built around coding assistance.
 
 ## Tools & Resources
 
-- **[code server](https://github.com/coder/code-server)** `⭐ 77.9k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
+- **[code server](https://github.com/coder/code-server)** `⭐ 78k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
 
   It allows developers to use a familiar IDE environment from any device with a browser, enabling consistent remote development workflows.
 
@@ -20,6 +20,15 @@ Development environments built around coding assistance.
   _Another day, another IDE promising to turn your vague prompts into production-ready specs, just in case you were worried Cursor wasn't quite enterprise enough yet._
 
   `ide` `agentic` `spec-driven` `cli` `aws`
+  </details>
+
+- **[Cate](https://github.com/0-ai-ug/cate)** `⭐ 1.7k` `updated ≤30d` An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace. <details><summary>More about</summary>
+
+  It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out complex multi-tool workflows visually.
+
+  _Now we can finally experience the anxiety of losing our actual code in the vast, empty void of an infinite 2D coordinate system._
+
+  `spatial-ide` `canvas-ui` `ai-native` `productivity`
   </details>
 
 ## Incubating

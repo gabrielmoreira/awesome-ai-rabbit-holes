@@ -1,0 +1,82 @@
+id: github__agentmetal__mcp
+kind: github-repo
+name: mcp
+canonical_url: https://github.com/agentmetal/mcp
+identity:
+  github_repo: agentmetal/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__agentmetal__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: agentmetal/mcp
+        extracted_url: https://github.com/agentmetal/mcp
+        surrounding_text: "- [agentmetal/mcp](https://github.com/agentmetal/mcp) [![agentmetal/mcp MCP server](https://glama.ai/mcp/servers/agentmetal/mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentmetal/mcp) 🎖️ 📇 ☁️ - Provision, SSH into, run commands on, and manage Linux VPSes from an agent — pay USDC over x402 or by card over HTTP 402, a running box in under 60s. No signup, no API key to buy."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-14T18:43:44Z"
+    pushed_at: "2026-06-15T23:36:05Z"
+    description: AgentMetal MCP server — let an AI agent provision Linux VPSes (USDC/x402 or card) over HTTP 402.
+    homepage: https://agentmetal.dev
+    topics: []
+    last_checked_at: "2026-06-18T05:40:05.667Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:05.667Z"
+      bytes: 3738
+insights:
+  summary: An MCP server that allows AI agents to discover, provision, and manage Linux VPS instances using USDC or credit card payments via HTTP 402.
+  why_it_matters: It enables agents to autonomously spin up and manage their own cloud infrastructure without requiring a human to manually handle cloud console sign-ups and billing.
+  mental_damage: The future is an agent that can spend your USDC on a VPS, run some root commands, and then leave you to figure out why your wallet is empty and your cloud fleet is growing.
+  tags:
+    - mcp
+    - infrastructure-as-code
+    - vps
+    - web3-payments
+    - autonomous-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project's identity is entirely focused on providing a Model Context Protocol (MCP) server to extend agent capabilities with cloud infrastructure management.
+  evidence:
+    - Repo name and README explicitly identify as an 'MCP server'
+    - Exposes 11 specific tools for VPS lifecycle management (provision, reboot, exec_command)
+    - Included in awesome-mcp-servers list
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:05.667Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:42:02.426Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

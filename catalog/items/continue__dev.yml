@@ -1,0 +1,89 @@
+id: continue__dev
+kind: website
+name: continue.dev
+canonical_url: https://continue.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__continue__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Continue
+        anchor_text: Continue
+        extracted_url: https://continue.dev
+        surrounding_text: "## [Continue](https://continue.dev/)"
+        confidence: high
+    - id: discovery__continue__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Continue
+        extracted_url: https://continue.dev
+        surrounding_text: "- **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS Code and JetBrains."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An open-source coding agent that has been acquired by Cursor.
+  why_it_matters: It provided a flexible, open-source alternative for integrating AI assistance into existing IDEs before its consolidation into a proprietary editor.
+  mental_damage: "The inevitable arc of every promising open-source developer tool: birth, hype, and acquisition by the one product that actually solved the UX problem."
+  tags:
+    - open-source
+    - coding-assistant
+    - acquired
+  confidence: high
+curation:
+  status: excluded
+  reason: The product has been acquired and the landing page is now a redirection/announcement for Cursor, effectively ending its life as a standalone tool.
+  evidence:
+    - "Scraped site context: 'Continue has been acquired by Cursor.'"
+    - "Primary page excerpt: 'We have some big news... Continue has been acquired by Cursor.'"
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.065Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:41:44.188Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

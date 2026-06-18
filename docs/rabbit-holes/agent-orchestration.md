@@ -85,7 +85,7 @@ Tools and platforms for coordinating multiple agents.
   `rag` `agent-orchestration` `self-hosted` `workflow` `knowledge-base`
   </details>
 
-- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 26.9k` `updated ≤90d` A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 27.1k` `updated ≤90d` A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It gives developers a structured loop for planning issues, running agents in isolated branches, reviewing diffs, and merging PRs without leaving a single control surface.
 
@@ -472,7 +472,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `framework` `distributed` `llm`
   </details>
 
-- **[cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 695` `updated ≤30d` CLI Agent Orchestrator (CAO) is an open-source framework that runs multiple CLI coding agents (like Claude Code, Gemini CLI, and Amazon Q) in isolated tmux sessions and coordinates them via a supervisor-worker pattern over MCP. <details><summary>More about</summary>
+- **[cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 716` `updated ≤30d` CLI Agent Orchestrator (CAO) is an open-source framework that runs multiple CLI coding agents (like Claude Code, Gemini CLI, and Amazon Q) in isolated tmux sessions and coordinates them via a supervisor-worker pattern over MCP. <details><summary>More about</summary>
 
   It lets developers mix and match different CLI coding agents in parallel workflows, preserving native tool behavior and auth while enabling cross-provider task delegation.
 
@@ -526,7 +526,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-frontend` `self-hosted` `sdk` `chat-ui` `analytics`
   </details>
 
-- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 486` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
+- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 483` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
 
   It provides developers and platform teams with a governance layer to intercept risky agent actions, enforce safety policies, and maintain audit trails before autonomous agents execute destructive operations.
 
@@ -562,7 +562,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `marketplace` `desktop` `economics`
   </details>
 
-- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 400` `updated ≤90d` Coasts is a CLI tool with a local observability UI that runs multiple isolated instances of a full development environment using Git worktrees and Docker containers. <details><summary>More about</summary>
+- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 403` `updated ≤90d` Coasts is a CLI tool with a local observability UI that runs multiple isolated instances of a full development environment using Git worktrees and Docker containers. <details><summary>More about</summary>
 
   It lets developers run parallel, isolated instances of their stack for multiple AI agents or worktrees simultaneously without port conflicts or environment cross-contamination.
 
@@ -665,13 +665,22 @@ _These are new or low-traffic entries being watched._
   `agent-orchestration` `blackboard` `declarative` `multi-agent`
   </details>
 
-- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 88` `updated ≤30d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
+- **[docsentinel](https://github.com/arthurpanhku/docsentinel)** `⭐ 89` `updated ≤30d` DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations. <details><summary>More about</summary>
 
   It shifts security left by automating threat modeling, compliance gap analysis, and SAST/DAST triage using LLMs and RAG, reducing manual review bottlenecks for security teams.
 
   _Finally, an AI agent to help you pretend you read the 400-page compliance PDF you uploaded to its knowledge base._
 
   `ssdlc` `security` `langgraph` `rag` `mcp`
+  </details>
+
+- **[Hephaestus](https://github.com/agentlas-ai/hephaestus)** `⭐ 74` `updated ≤30d` An open agent operating system that provides a meta-agent builder, routing, and memory management for runtimes like Claude Code, Cursor, and Codex. <details><summary>More about</summary>
+
+  It transforms isolated AI assistants into a coordinated ecosystem with shared memory, security gates, and a hub for routing tasks between specialized agents.
+
+  _We've officially reached the 'meta-agent' era where we now need an operating system just to manage the army of agents managing our code._
+
+  `meta-agent` `agent-os` `multi-agent` `orchestration` `context-management`
   </details>
 
 - **[kagan](https://github.com/kagan-sh/kagan)** `⭐ 71` `updated ≤90d` A terminal-based Kanban board that orchestrates AI coding agents in isolated git worktrees with a mandatory human review gate before merging. <details><summary>More about</summary>
@@ -773,7 +782,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `cli` `ide-integration` `convoy`
   </details>
 
-- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 39` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
+- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 41` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
 
   It lets solo founders and small teams offload SDLC overhead to AI specialists while retaining two key decisions per feature, reducing burnout and increasing shipping velocity.
 

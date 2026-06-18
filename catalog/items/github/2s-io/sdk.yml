@@ -1,0 +1,82 @@
+id: github__2s-io__sdk
+kind: github-repo
+name: sdk
+canonical_url: https://github.com/2s-io/sdk
+identity:
+  github_repo: 2s-io/sdk
+provenance:
+  discoveries:
+    - id: discovery__github__2s-io__sdk__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-18T05:40:04.065Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: 2s-io/sdk
+        extracted_url: https://github.com/2s-io/sdk
+        surrounding_text: "- [2s-io/sdk](https://github.com/2s-io/sdk) [![2s-io/sdk MCP server](https://glama.ai/mcp/servers/2s-io/sdk/badges/score.svg)](https://glama.ai/mcp/servers/2s-io/sdk) 📇 ☁️ 🍎 🪟 🐧 - Unified API for AI agents — 180+ tools across geocoding, weather (NWS), climate stations (NOAA), earthquakes (USGS), tides (NOAA), points of interest (OpenStreetMap), patents (USPTO ODP), US case law (CourtListener / Free Law Project), Federal Register, Wikipedia, scientific papers (arXiv / PubMed / Semantic Scholar), AI summarize / translate / extract / screenshot / image-describe, image compression, DNS / WHOIS, crypto address-validate + EVM gas oracle, OFAC sanctions screening, US Census ACS demographics, airport / ZIP lookup. Sub-cent to a few cents per call in USDC on Base via x402 — no API keys, no signup. `npx -y @2sio/mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-28T19:34:51Z"
+    pushed_at: "2026-06-17T18:15:21Z"
+    description: Client API wrapper for 2s.io.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-06-18T05:40:05.277Z"
+    readme:
+      fetched_at: "2026-06-18T05:40:05.277Z"
+      bytes: 8251
+insights:
+  summary: A client API wrapper and MCP server for 2s.io, providing AI agents with ground-truth data across hundreds of endpoints via pay-per-call USDC payments.
+  why_it_matters: It enables agents to access verified real-world data (patents, CVEs, IBANs) without the overhead of managing dozens of individual API keys or monthly subscriptions.
+  mental_damage: We've finally reached the era where my AI agent has its own crypto wallet to micromanage $0.001 payments for an IBAN validation.
+  tags:
+    - mcp
+    - api-aggregator
+    - web3
+    - agent-tools
+    - pay-per-call
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is centered on providing a standardized MCP server that gives agents access to a wide range of external data tools.
+  evidence:
+    - Ships an MCP server for MCP-aware hosts
+    - Specifically listed in awesome-mcp-servers as an aggregator
+    - Provides 300+ paid tools for AI agents through the MCP protocol
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.065Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-18T05:40:05.277Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-18T05:41:52.690Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
