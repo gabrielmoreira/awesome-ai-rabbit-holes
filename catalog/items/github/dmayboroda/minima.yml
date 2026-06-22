@@ -95,9 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-15T05:51:37.601Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-22T05:54:02.680Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dmayboroda/minima
     next_retry_at: null
   categorize:
     status: done

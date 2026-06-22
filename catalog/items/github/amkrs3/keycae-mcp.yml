@@ -75,9 +75,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-15T05:51:23.235Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-22T05:53:47.664Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: amkrs3/keycae-mcp"
     next_retry_at: null
   categorize:
     status: done

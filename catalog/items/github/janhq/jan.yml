@@ -36,6 +36,21 @@ provenance:
         extracted_url: https://github.com/janhq/jan
         surrounding_text: "23. [Jan](https://github.com/janhq/jan): Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)."
         confidence: high
+    - id: discovery__github__janhq__jan__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Local LLM Tools
+        anchor_text: Jan
+        extracted_url: https://jan.ai
+        surrounding_text: "- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface."
+        confidence: high
 metadata:
   github:
     stars: 42410
@@ -86,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: "2026-06-22T05:53:30.455Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,0 +1,77 @@
+id: www__schemaflow__dev
+kind: website
+name: www.schemaflow.dev
+canonical_url: https://www.schemaflow.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__schemaflow__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: SchemaFlow
+        extracted_url: https://schemaflow.dev
+        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An infinite canvas for system design that uses an MCP server to automatically map codebases into visual AWS and GCP architecture diagrams.
+  why_it_matters: It allows developers to bridge the gap between raw source code and visual system architecture by letting AI agents like Claude Code draw the map for them.
+  mental_damage: Now you can watch your architectural technical debt materialize in high-fidelity, end-to-end encrypted real-time.
+  tags:
+    - system-design
+    - mcp
+    - architecture
+    - diagramming
+    - visual-coding
+  confidence: high
+curation:
+  status: included
+  reason: It functions as a capability extension for coding assistants via MCP, providing the ability to translate code into visual architecture.
+  evidence:
+    - Connects to Claude Code or Codex via an MCP server
+    - Primary product is an infinite canvas for system design
+    - Claims to turn codebases into diagrams automatically
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-22T05:53:30.456Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-22T05:57:54.047Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

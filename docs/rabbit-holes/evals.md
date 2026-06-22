@@ -175,15 +175,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `rag` `eval` `benchmarking` `automl` `pipeline-optimization`
   </details>
 
-- **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.2k` `updated ≤90d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
-
-  It gives developers deep visibility into Python and LLM workflows with SQL querying, Pydantic integration, and standard OTel signals so they can actually debug agent behavior in production.
-
-  _Because nothing says 'we have reached AGI' like needing a dedicated observability platform just to figure out why your agent spent $4.20 and three minutes deciding to call a weather API._
-
-  `observability` `llm-tracing` `opentelemetry` `python` `agent-infra`
-  </details>
-
 - **[Agenta](https://github.com/agenta-ai/agenta)** `⭐ 4.2k` `updated ≤30d` An open-source LLMOps platform providing a prompt playground, prompt management, LLM evaluation, and observability tooling for engineering and product teams building LLM applications. <details><summary>More about</summary>
 
   It gives developers a single control plane to version prompts, run evaluations, and trace LLM behavior instead of stitching together ad-hoc scripts and manual tests.
@@ -191,6 +182,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Yet another dashboard promising to wrangle your prompts, because apparently the hardest part of shipping AI features is admitting you have no idea why your temperature 0.7 completion went rogue._
 
   `llmops` `prompt-management` `evals` `observability`
+  </details>
+
+- **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.2k` `updated ≤90d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
+
+  It gives developers deep visibility into Python and LLM workflows with SQL querying, Pydantic integration, and standard OTel signals so they can actually debug agent behavior in production.
+
+  _Because nothing says 'we have reached AGI' like needing a dedicated observability platform just to figure out why your agent spent $4.20 and three minutes deciding to call a weather API._
+
+  `observability` `llm-tracing` `opentelemetry` `python` `agent-infra`
   </details>
 
 - **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.1k` `updated ≤90d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
@@ -364,7 +364,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `data-quality` `llm-eval` `rag-eval`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 666` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 678` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
 
   It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
 
@@ -400,7 +400,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `local-llm` `ollama` `cli` `performance`
   </details>
 
-- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 352` `updated ≤30d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
+- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 351` `updated ≤30d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
 
   It gives developers a version-controlled, type-safe workflow to iterate on prompts, run experiments against datasets, and trace LLM calls across local and cloud environments.
 
@@ -454,7 +454,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 238` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 239` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 
@@ -584,6 +584,15 @@ _These are new or low-traffic entries being watched._
   `rag` `eval` `benchmarking` `cli` `vector-search`
   </details>
 
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 5` `updated ≤180d` A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence. <details><summary>More about</summary>
+
+  Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
+
+  _Finally, quantitative proof that your overengineered agent stack scores 30 points lower than the same model with a cleaner config._
+
+  `benchmark` `agent-eval` `rule-based-scoring` `tracing`
+  </details>
+
 - **[llm-council](https://github.com/elhamid/llm-council)** `⭐ 5` `updated ≤180d` A local web app that sends queries to multiple LLMs via OpenRouter, has them review and rank each other's responses anonymously, then synthesizes a final answer via a designated Chairman model. <details><summary>More about</summary>
 
   It lets developers compare model quality and reasoning side-by-side with structured peer review rather than guessing which provider is best for a given problem.
@@ -591,15 +600,6 @@ _These are new or low-traffic entries being watched._
   _Because the logical next step after delegating all your coding to an LLM is evidently forming a committee of them and hoping they don't unionize before the deadline._
 
   `multi-model` `evaluation` `local-app` `openrouter`
-  </details>
-
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 4` `updated ≤180d` A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence. <details><summary>More about</summary>
-
-  Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
-
-  _Finally, quantitative proof that your overengineered agent stack scores 30 points lower than the same model with a cleaner config._
-
-  `benchmark` `agent-eval` `rule-based-scoring` `tracing`
   </details>
 
 - **[silicon-pantheon](https://github.com/haoyifan/silicon-pantheon)** `⭐ 4` `updated ≤90d` A turn-based strategy game where AI agents like Claude and GPT-5 act as players on a tactical grid, coached by humans via strategy playbooks and real-time text input. <details><summary>More about</summary>

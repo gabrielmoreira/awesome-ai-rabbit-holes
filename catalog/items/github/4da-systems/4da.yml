@@ -1,0 +1,95 @@
+id: github__4da-systems__4da
+kind: github-repo
+name: 4da
+canonical_url: https://github.com/4da-systems/4da
+identity:
+  github_repo: 4da-systems/4da
+provenance:
+  discoveries:
+    - id: discovery__github__4da-systems__4da__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: runyourempire/4DA
+        extracted_url: https://github.com/runyourempire/4da
+        surrounding_text: "- [runyourempire/4DA](https://github.com/runyourempire/4DA/tree/main/mcp-4da-server) [![runyourempire/4DA MCP server](https://glama.ai/mcp/servers/runyourempire/4DA/badges/score.svg)](https://glama.ai/mcp/servers/runyourempire/4DA) 📇 🏠 🍎 🪟 🐧 - Dependency intelligence for AI coding agents. Live CVE scanning, dependency health, upgrade planning, ecosystem news, and decision memory. 14 tools, zero config, privacy-first."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-01-19T15:40:48Z"
+    pushed_at: "2026-06-22T00:26:30Z"
+    description: Privacy-first developer intelligence — surfaces what matters from the noise
+    homepage: https://4da.ai
+    topics:
+      - ai
+      - desktop-app
+      - developer-intelligence
+      - developer-tools
+      - local-first
+      - mcp
+      - ollama
+      - privacy
+      - react
+      - rust
+      - sqlite
+      - tauri
+      - typescript
+    last_checked_at: "2026-06-22T05:53:32.821Z"
+    readme:
+      fetched_at: "2026-06-22T05:53:32.821Z"
+      bytes: 16630
+insights:
+  summary: A privacy-first developer intelligence tool that filters internet content and releases against a developer's local codebase and tech stack.
+  why_it_matters: It eliminates the noise of generic AI newsletters and feeds by scoring content based on your actual dependencies, git history, and local filesystem.
+  mental_damage: Now we can finally automate the process of discovering exactly which breaking change in a niche Rust crate is about to ruin our Friday afternoon.
+  tags:
+    - local-first
+    - mcp
+    - developer-experience
+    - filtering
+    - privacy
+  confidence: high
+curation:
+  status: included
+  reason: While it has a desktop app, its primary identity in the ecosystem and the 'fastest way to try it' is as an MCP server that brings ecosystem intelligence into other assistants.
+  evidence:
+    - Provides an MCP server via `npx @4da/mcp-server` for Claude Code, Cursor, and Windsurf
+    - Listed in awesome-mcp-servers under Developer Tools
+    - Core value is providing 'live vulnerability scanning, dependency health, and ecosystem intelligence' as a tool for an AI assistant
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-22T05:53:30.455Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-22T05:53:32.821Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-22T05:55:27.396Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

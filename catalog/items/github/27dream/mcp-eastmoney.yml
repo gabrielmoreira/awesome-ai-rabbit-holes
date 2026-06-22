@@ -1,0 +1,89 @@
+id: github__27dream__mcp-eastmoney
+kind: github-repo
+name: mcp-eastmoney
+canonical_url: https://github.com/27dream/mcp-eastmoney
+identity:
+  github_repo: 27dream/mcp-eastmoney
+provenance:
+  discoveries:
+    - id: discovery__github__27dream__mcp-eastmoney__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: 27dream/mcp-eastmoney
+        extracted_url: https://github.com/27dream/mcp-eastmoney
+        surrounding_text: "- [27dream/mcp-eastmoney](https://github.com/27dream/mcp-eastmoney) [![27dream/mcp-eastmoney MCP server](https://glama.ai/mcp/servers/27dream/mcp-eastmoney/badges/score.svg)](https://glama.ai/mcp/servers/27dream/mcp-eastmoney) 🐍 ☁️ 🏠 🍎 🪟 🐧 - China A-share stock market MCP server — real-time quotes, main capital flow ranking, sector fund flow, and historical K-lines via Eastmoney's free APIs. Zero config, no API keys required. 5 tools: `get_stock_quote`, `search_stock`, `main_fund_rank`, `sector_fund_flow`, `get_kline`. Install: `uvx mcp-eastmoney` or `pip install mcp-eastmoney`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-13T09:54:17Z"
+    pushed_at: "2026-06-19T07:56:27Z"
+    description: 📈 东方财富MCP服务器 | A股实时行情+主力资金+板块数据+K线 | Claude Code/Cursor通用
+    homepage: https://github.com/27dream/mcp-eastmoney
+    topics:
+      - a-share
+      - china-stock
+      - claude-code
+      - cursor
+      - eastmoney
+      - finance
+      - mcp
+      - model-context-protocol
+    last_checked_at: "2026-06-22T05:53:32.332Z"
+    readme:
+      fetched_at: "2026-06-22T05:53:32.331Z"
+      bytes: 5951
+insights:
+  summary: An MCP server that provides Claude and Cursor with real-time A-share stock market data from Eastmoney.
+  why_it_matters: It allows developers to integrate financial data into their AI coding assistants without needing to manage API keys or write custom scrapers for the A-share market.
+  mental_damage: Now your AI agent can hallucinate your portfolio's losses in real-time with 15-minute delayed accuracy.
+  tags:
+    - mcp
+    - fintech
+    - a-shares
+    - python
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly defined as an MCP server providing a specific domain of data (finance) to compatible AI clients.
+  evidence:
+    - Repo description explicitly states 'MCP server' for stock market data
+    - README lists compatibility with Claude Desktop and Cursor via standard MCP config
+    - Core functionality is providing 5 specific MCP tools for stock quotes, search, and capital flow
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-22T05:53:30.455Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-22T05:53:32.332Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-22T05:56:09.123Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

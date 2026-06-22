@@ -57,15 +57,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-18T05:40:32.559Z"
+    status: failed
+    updated_at: "2026-06-22T05:53:54.297Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for curiousbox-ai/prode-mc
+      type: github_repo_missing
+      message: "GitHub repository not found: curiousbox-ai/prode-mc"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-18T05:40:34.164Z"
+    updated_at: "2026-06-22T05:54:05.506Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -24,13 +24,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 129
-    forks: 18
+    stars: 140
+    forks: 21
     license: Apache-2.0
     archived: false
     created_at: "2025-11-12T22:53:23Z"
-    pushed_at: "2026-06-15T04:57:21Z"
-    description: Kubernetes operator for local LLM inference with llama.cpp, vLLM, TGI, and mlx-server — multi-GPU NVIDIA + Apple Silicon Metal, autoscaling, air-gapped, production-ready
+    pushed_at: "2026-06-22T04:23:32Z"
+    description: "Kubernetes operator for self-hosted LLM inference across a heterogeneous GPU fleet: NVIDIA CUDA, AMD Vulkan, and Apple Silicon Metal. Runtimes: llama.cpp, vLLM, TGI, mlx-server. Multi-GPU, autoscaling, air-gapped, production-ready."
     homepage: https://llmkube.com
     topics:
       - ai
@@ -53,10 +53,10 @@ metadata:
       - self-hosted
       - tgi
       - vllm
-    last_checked_at: "2026-06-15T05:51:34.635Z"
+    last_checked_at: "2026-06-22T05:53:59.662Z"
     readme:
-      fetched_at: "2026-06-15T05:51:34.635Z"
-      bytes: 25686
+      fetched_at: "2026-06-22T05:53:59.662Z"
+      bytes: 25829
 insights:
   summary: Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API.
   why_it_matters: It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
@@ -89,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-15T05:51:34.635Z"
+    updated_at: "2026-06-22T05:53:59.662Z"
     cause: null
     next_retry_at: null
   categorize:

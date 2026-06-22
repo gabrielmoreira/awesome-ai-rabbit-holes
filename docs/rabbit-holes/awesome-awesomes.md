@@ -202,7 +202,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `compilers` `tensor` `deep-learning` `research` `awesome-list`
   </details>
 
-- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.4k` `updated ≤180d` A curated awesome list of projects and resources related to the Argo ecosystem, including Workflows, CD, Rollouts, and Events. <details><summary>More about</summary>
+- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤30d` A curated awesome list of projects and resources related to the Argo ecosystem, including Workflows, CD, Rollouts, and Events. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating Kubernetes-native CI/CD and MLOps tooling within the CNCF landscape.
 
@@ -238,7 +238,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `local-ai` `awesome-list` `inference` `self-hosted` `directory`
   </details>
 
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.8k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.9k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
 
   It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
 
@@ -310,7 +310,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ai-agents` `sdk` `directory` `ecosystem`
   </details>
 
-- **[Awesome AutoML](https://github.com/windmaple/awesome-automl)** `⭐ 929` `updated ≤90d` A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning. <details><summary>More about</summary>
+- **[Awesome AutoML](https://github.com/windmaple/awesome-automl)** `⭐ 929` `updated ≤180d` A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning. <details><summary>More about</summary>
 
   Helps developers discover and navigate the AutoML ecosystem by aggregating research and tooling in one place, reducing the overhead of manual discovery.
 
@@ -328,13 +328,22 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 868` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
+- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 869` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
 
   It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
 
   _Yet another exhaustive index guaranteeing you will spend three hours browsing framework comparisons instead of actually merging your pending pull request._
 
   `llm` `resources` `awesome-list` `learning`
+  </details>
+
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 756` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+
+  It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
+
+  _Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'._
+
+  `awesome-list` `vibe-coding` `directory` `ai-tools` `discovery`
   </details>
 
 - **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 751` `updated ≤1y` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
@@ -344,15 +353,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Yet another awesome list that pretends star count equals engineering quality while you still have to test each tool yourself._
 
   `awesome-list` `local-llm` `discovery`
-  </details>
-
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 747` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
-
-  It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
-
-  _Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'._
-
-  `awesome-list` `vibe-coding` `directory` `ai-tools` `discovery`
   </details>
 
 - **[awesome-federated-learning](https://github.com/weimingwill/awesome-federated-learning)** `⭐ 731` `updated ≤1y` A curated GitHub repository listing federated learning resources including papers, blogs, videos, and frameworks. <details><summary>More about</summary>
@@ -422,7 +422,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 141` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
 
   It serves as a broad discovery map for developers trying to navigate the exploding ecosystem of AI agents to find tools relevant to their workflow.
 

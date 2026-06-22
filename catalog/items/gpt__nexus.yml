@@ -1,0 +1,74 @@
+id: gpt__nexus
+kind: website
+name: gpt.nexus
+canonical_url: https://gpt.nexus
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gpt__nexus__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - NexusGPT
+        anchor_text: NexusGPT
+        extracted_url: https://gpt.nexus
+        surrounding_text: "## [NexusGPT](https://gpt.nexus/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A platform for deploying and managing autonomous AI agents.
+  why_it_matters: Provides a control plane for developers to coordinate agentic workflows instead of manually prompting individual models.
+  mental_damage: One more dashboard to check to see if your autonomous workforce is actually working or just recursively apologizing to itself.
+  tags:
+    - autonomous-agents
+    - orchestration
+    - ai-workforce
+  confidence: medium
+curation:
+  status: included
+  reason: The tool serves as a platform for coordinating agents, fitting the 'operated workbench' profile of agent orchestration.
+  evidence:
+    - Listed in awesome-ai-agents under 'NexusGPT'
+    - Positioned as a platform for autonomous agents
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-22T05:53:30.456Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-22T05:56:18.108Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

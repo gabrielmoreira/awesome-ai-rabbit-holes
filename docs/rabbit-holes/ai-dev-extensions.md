@@ -94,7 +94,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `jetbrains` `plugin` `code-assistant` `ide-extension`
   </details>
 
-- **[CodexMonitor](https://github.com/dimillian/codexmonitor)** `⭐ 4k` `updated ≤90d` A Tauri desktop app for orchestrating multiple Codex CLI agents across local workspaces with conversation views, git/GitHub integrations, and project management features. <details><summary>More about</summary>
+- **[CodexMonitor](https://github.com/dimillian/codexmonitor)** `⭐ 4.1k` `updated ≤90d` A Tauri desktop app for orchestrating multiple Codex CLI agents across local workspaces with conversation views, git/GitHub integrations, and project management features. <details><summary>More about</summary>
 
   Developers running parallel Codex sessions get a unified desktop surface to manage threads, workspaces, and PR workflows without juggling multiple terminal windows.
 
@@ -112,7 +112,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `readme-generator` `cli` `documentation` `llm` `python`
   </details>
 
-- **[agent-device](https://github.com/callstack/agent-device)** `⭐ 2.8k` `updated ≤30d` A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution. <details><summary>More about</summary>
+- **[agent-device](https://github.com/callstack/agent-device)** `⭐ 2.9k` `updated ≤30d` A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution. <details><summary>More about</summary>
 
   It closes the loop for coding agents by giving them a way to verify their changes on real devices or emulators rather than just guessing based on the codebase.
 
@@ -184,7 +184,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 558` `updated ≤90d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
+- **[figma-use](https://github.com/dannote/figma-use)** `⭐ 566` `updated ≤90d` A CLI tool that gives AI agents full read/write access to Figma via terminal commands or JSX, enabling layout creation, styling, and export without official plugin limitations. <details><summary>More about</summary>
 
   It closes the edit gap left by Figma's official MCP plugin, letting agents programmatically manipulate designs using compact CLI calls or familiar React-like JSX.
 
@@ -238,6 +238,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `comfyui` `mcp` `claude-code` `image-generation` `workflow-automation`
   </details>
 
+- **[agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 151` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+
+  It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
+
+  _We are officially one step away from your agent calling your landlord to negotiate your lease._
+
+  `agents` `mcp` `communication` `sms` `email`
+  </details>
+
 - **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 39` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
 
   It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
@@ -251,13 +260,13 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 147` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[owlex](https://github.com/agentic-box/owlex)** `⭐ 124` `updated ≤180d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
 
-  It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
+  It lets developers cross-check architecture decisions, debugging, and tricky design questions across multiple AI models without leaving their existing Claude Code workflow.
 
-  _We are officially one step away from your agent calling your landlord to negotiate your lease._
+  _You can now spend three times as long deliberating with four different hallucinations before synthesizing them into one confidently wrong answer._
 
-  `agents` `mcp` `communication` `sms` `email`
+  `mcp` `claude-code` `multi-model` `deliberation`
   </details>
 
 - **[memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 122` `updated ≤30d` A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat. <details><summary>More about</summary>
@@ -269,15 +278,6 @@ _These are new or low-traffic entries being watched._
   `desktop-app` `context-recording` `mcp` `automation` `screen-capture`
   </details>
 
-- **[owlex](https://github.com/agentic-box/owlex)** `⭐ 122` `updated ≤180d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
-
-  It lets developers cross-check architecture decisions, debugging, and tricky design questions across multiple AI models without leaving their existing Claude Code workflow.
-
-  _You can now spend three times as long deliberating with four different hallucinations before synthesizing them into one confidently wrong answer._
-
-  `mcp` `claude-code` `multi-model` `deliberation`
-  </details>
-
 - **[Maige](https://github.com/rubriclab/maige)** `⭐ 101` `updated ≤90d` Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests. <details><summary>More about</summary>
 
   It allows maintainers to offload routine repo management and triage directly to an AI agent that listens to GitHub events via webhooks.
@@ -287,7 +287,7 @@ _These are new or low-traffic entries being watched._
   `github` `automation` `issues` `natural-language` `repo-maintenance`
   </details>
 
-- **[agentmail-toolkit](https://github.com/agentmail-to/agentmail-toolkit)** `⭐ 79` `updated ≤30d` A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP). <details><summary>More about</summary>
+- **[agentmail-toolkit](https://github.com/agentmail-to/agentmail-toolkit)** `⭐ 80` `updated ≤30d` A toolkit that integrates the AgentMail API with agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP). <details><summary>More about</summary>
 
   It provides the boilerplate integration code needed to give popular agent frameworks the ability to send and receive email via AgentMail.
 
@@ -557,7 +557,7 @@ _These are new or low-traffic entries being watched._
   `cli` `mcp` `file-sharing` `agents` `devops`
   </details>
 
-- **[bash](https://github.com/capsulerun/bash)** `⭐ 12` `updated ≤90d` A sandboxed bash execution environment for agents, provided via a TypeScript SDK and MCP server. <details><summary>More about</summary>
+- **[bash](https://github.com/capsulerun/bash)** `⭐ 13` `updated ≤90d` A sandboxed bash execution environment for agents, provided via a TypeScript SDK and MCP server. <details><summary>More about</summary>
 
   It allows developers to grant AI agents safe, observable terminal access with Wasm-based isolation and structured filesystem diffs.
 
@@ -861,6 +861,15 @@ _These are new or low-traffic entries being watched._
   _Because what every debug session clearly needs is a floating window that can rename files, summarize webpages, and ask o3-mini whether ice baths are good for recovery, all without leaving your macOS desktop._
 
   `macos` `launcher` `ai-chat` `productivity` `extensions`
+  </details>
+
+- **[SchemaFlow](https://www.schemaflow.dev)** An infinite canvas for system design that uses an MCP server to automatically map codebases into visual AWS and GCP architecture diagrams. <details><summary>More about</summary>
+
+  It allows developers to bridge the gap between raw source code and visual system architecture by letting AI agents like Claude Code draw the map for them.
+
+  _Now you can watch your architectural technical debt materialize in high-fidelity, end-to-end encrypted real-time._
+
+  `system-design` `mcp` `architecture` `diagramming` `visual-coding`
   </details>
 
 - **[Semgrep](https://semgrep.dev)** Semgrep is an application security platform that combines static analysis with AI reasoning to scan code for security issues, manage supply chain risks, and detect hardcoded secrets. <details><summary>More about</summary>

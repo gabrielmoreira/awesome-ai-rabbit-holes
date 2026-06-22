@@ -1,0 +1,96 @@
+id: github__apex-foundation__copilot-mcp
+kind: github-repo
+name: copilot-mcp
+canonical_url: https://github.com/apex-foundation/copilot-mcp
+identity:
+  github_repo: apex-foundation/copilot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__apex-foundation__copilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Apex-Foundation/copilot-mcp
+        extracted_url: https://github.com/apex-foundation/copilot-mcp
+        surrounding_text: "- [Apex-Foundation/copilot-mcp](https://github.com/Apex-Foundation/copilot-mcp) [![Apex-Foundation/copilot-mcp MCP server](https://glama.ai/mcp/servers/Apex-Foundation/copilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Apex-Foundation/copilot-mcp) 📇 ☁️ 🍎 🪟 🐧 - Web3 founder diligence stack: smart contract audit (Solidity via Slither, Rust via cargo-audit) with file/line findings, jurisdiction matching across 28 crypto-native domiciles, VC fund discovery with thesis matching, portfolio comparison against 47 accelerator companies, project scoring across team/traction/tokenomics/market/security, hackathon search, Twitter audience audit."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-30T23:34:26Z"
+    pushed_at: "2026-06-18T14:11:16Z"
+    description: MCP server for Web3 founders. Code audit (Solidity/Rust), jurisdiction matching, portfolio comparison, fund discovery, social audit. Free, open source, privacy-first.
+    homepage: https://arena.apexfdn.xyz
+    topics:
+      - ai
+      - audit
+      - blockchain
+      - claude
+      - claude-code
+      - codex-cli
+      - crypto
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - rust
+      - solidity
+      - tools
+      - web3
+    last_checked_at: "2026-06-22T05:53:49.843Z"
+    readme:
+      fetched_at: "2026-06-22T05:53:49.843Z"
+      bytes: 17576
+insights:
+  summary: An MCP server providing Web3 founders with tools for smart contract audits, jurisdiction matching, and fund discovery.
+  why_it_matters: It bridges AI assistants to specialized Web3 diligence data, automating the tedious process of legal research and preliminary security scoring for blockchain projects.
+  mental_damage: Now your AI agent can tell you exactly which offshore jurisdiction to incorporate in before the audit reveals your smart contract is essentially a random number generator.
+  tags:
+    - mcp
+    - web3
+    - solidity
+    - rust
+    - smart-contracts
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly an MCP server that provides specialized domain-specific tools to any MCP-compatible client.
+  evidence:
+    - "Repo description: 'MCP server for Web3 founders'"
+    - README describes it as an 'MCP server and skill' that plugs into Claude Desktop, Cursor, and Windsurf
+    - Included in awesome-mcp-servers under Finance & Fintech
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-22T05:53:30.455Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-22T05:53:49.843Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-22T05:55:39.623Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

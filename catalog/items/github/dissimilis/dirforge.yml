@@ -78,9 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-15T05:51:37.374Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-22T05:54:02.129Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dissimilis/dirforge
     next_retry_at: null
   categorize:
     status: done
