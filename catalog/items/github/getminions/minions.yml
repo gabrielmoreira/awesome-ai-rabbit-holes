@@ -57,15 +57,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-11T05:38:23.219Z"
+    status: failed
+    updated_at: "2026-06-25T05:25:15.428Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for getminions/minions
+      type: github_repo_missing
+      message: "GitHub repository not found: getminions/minions"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
+    updated_at: "2026-06-25T05:25:24.846Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

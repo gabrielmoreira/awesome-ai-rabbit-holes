@@ -24,30 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-19T21:17:46Z"
+    pushed_at: "2026-06-15T15:14:31Z"
+    description: MCP server for Adobe Edge Delivery Services — 20 tools for AI agents to preview, publish, read content, query metrics, and manage EDS sites
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - adobe
+      - aem
+      - ai-tools
+      - claude-code
+      - cursor
+      - edge-delivery-services
+      - eds
+      - mcp
+      - mcp-server
+    last_checked_at: "2026-06-25T05:25:09.949Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:09.949Z"
+      bytes: 5777
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server for Adobe Edge Delivery Services providing AI agents with 20 tools to preview, publish, and manage EDS sites.
+  why_it_matters: It allows AI agents to programmatically manage content publishing and query Core Web Vitals and 404 reports without needing a local AEM instance.
+  mental_damage: We've reached the era where your AI agent can accidentally publish a half-finished homepage to production while you're still figuring out where the API key goes.
+  tags:
+    - mcp
+    - adobe-eds
+    - cms
+    - dev-ops
+    - content-automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is strictly an MCP server designed to provide a specific set of tools to compatible AI assistants.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server for Adobe Edge Delivery Services'
+    - README lists specific tools for publishing and analytics that integrate with Claude Code and Cursor via the MCP SDK
+    - Included in awesome-mcp-servers under Server Implementations
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:09.949Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:27:25.066Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

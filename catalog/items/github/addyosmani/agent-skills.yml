@@ -1,0 +1,87 @@
+id: github__addyosmani__agent-skills
+kind: github-repo
+name: agent-skills
+canonical_url: https://github.com/addyosmani/agent-skills
+identity:
+  github_repo: addyosmani/agent-skills
+provenance:
+  discoveries:
+    - id: discovery__github__addyosmani__agent-skills__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-06-25T05:24:49.456Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: agent-skills
+        extracted_url: https://github.com/addyosmani/agent-skills
+        surrounding_text: "- [agent-skills](https://github.com/addyosmani/agent-skills) ![](https://img.shields.io/github/stars/addyosmani/agent-skills.svg?cacheSeconds=86400) - Production-grade skill pack for AI coding agents with explicit spec-to-plan-to-build workflows and quality gates."
+        confidence: high
+metadata:
+  github:
+    stars: 66509
+    forks: 7167
+    license: MIT
+    archived: false
+    created_at: "2026-02-15T20:20:26Z"
+    pushed_at: "2026-06-24T03:26:58Z"
+    description: Production-grade engineering skills for AI coding agents.
+    homepage: ""
+    topics:
+      - agent-skills
+      - antigravity
+      - antigravity-ide
+      - claude-code
+      - cursor
+      - skills
+    last_checked_at: "2026-06-25T05:24:50.473Z"
+    readme:
+      fetched_at: "2026-06-25T05:24:50.473Z"
+      bytes: 20730
+insights:
+  summary: Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands.
+  why_it_matters: It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
+  mental_damage: The realization that our 'senior engineer' intuition is now just a collection of Markdown files that we're piping into a LLM to keep it from deleting the production database.
+  tags:
+    - agent-skills
+    - workflow-automation
+    - prompt-engineering
+    - cursor-rules
+    - claude-code
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is the distribution of reusable skill packs, rules, and commands that are portable across multiple AI assistants.
+  evidence:
+    - README explicitly lists '8 slash commands' and 'SKILL.md' files as the primary artifacts.
+    - Supports multiple hosts including Claude Code, Cursor, Windsurf, and Gemini CLI, indicating it is a skills pack rather than a standalone agent.
+    - README describes the core value as encoding 'workflows, quality gates, and best practices' into packages.
+placement:
+  primary_category: skills
+  section: Domain & Workflow Skill Packs
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (66509) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-25T05:24:49.457Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-25T05:24:50.473Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:28:45.781Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

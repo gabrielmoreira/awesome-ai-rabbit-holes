@@ -1,0 +1,77 @@
+id: blankinvoicemaker__com
+kind: website
+name: blankinvoicemaker.com
+canonical_url: https://blankinvoicemaker.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__blankinvoicemaker__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-25T05:24:49.456Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: Blank Invoice Maker
+        extracted_url: https://blankinvoicemaker.com
+        surrounding_text: "- [InnarM/blank-invoice-maker-mcp](https://github.com/InnarM/blank-invoice-maker-mcp) [![InnarM/blank-invoice-maker-mcp MCP server](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp) 📇 🏠 🍎 🪟 🐧 - Create free, no-signup invoices from your AI assistant. Returns a deep link that opens [Blank Invoice Maker](https://blankinvoicemaker.com) pre-filled — review and download a watermark-free PDF. Invoice data stays in the browser. `npx blank-invoice-maker-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browser-based, privacy-focused tool for generating and downloading professional PDF invoices without requiring an account.
+  why_it_matters: Allows freelancers to handle the administrative burden of billing locally in the browser without sending sensitive financial data to a remote server.
+  mental_damage: The pinnacle of 'developer-as-a-service' is building a local-first tool just to avoid the existential dread of yet another SaaS account for a PDF generator.
+  tags:
+    - invoicing
+    - local-first
+    - privacy
+    - pdf-generator
+  confidence: high
+curation:
+  status: excluded
+  reason: The tool is a general-purpose business utility for invoicing and does not provide AI tooling, developer infrastructure, or coding assistance, regardless of its presence on an MCP list.
+  evidence:
+    - Scraped site context describes it as a 'free blank invoice template built for freelancers'
+    - Core functionality is client-side PDF generation and IndexedDB storage, not AI/LLM implementation
+    - No evidence of AI-driven features in the product description
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-25T05:24:49.458Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:28:44.197Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

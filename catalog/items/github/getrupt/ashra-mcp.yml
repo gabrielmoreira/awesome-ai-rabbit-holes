@@ -67,9 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:25.187Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-25T05:25:16.024Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: getrupt/ashra-mcp"
     next_retry_at: null
   categorize:
     status: done

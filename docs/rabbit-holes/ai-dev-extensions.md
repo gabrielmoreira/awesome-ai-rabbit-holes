@@ -31,7 +31,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `browser-automation` `cli` `ai-agents`
   </details>
 
-- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.4k` `updated ≤90d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
+- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.7k` `updated ≤90d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
 
   It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
 
@@ -94,7 +94,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `jetbrains` `plugin` `code-assistant` `ide-extension`
   </details>
 
-- **[CodexMonitor](https://github.com/dimillian/codexmonitor)** `⭐ 4.1k` `updated ≤90d` A Tauri desktop app for orchestrating multiple Codex CLI agents across local workspaces with conversation views, git/GitHub integrations, and project management features. <details><summary>More about</summary>
+- **[CodexMonitor](https://github.com/dimillian/codexmonitor)** `⭐ 4.1k` `updated ≤180d` A Tauri desktop app for orchestrating multiple Codex CLI agents across local workspaces with conversation views, git/GitHub integrations, and project management features. <details><summary>More about</summary>
 
   Developers running parallel Codex sessions get a unified desktop surface to manage threads, workspaces, and PR workflows without juggling multiple terminal windows.
 
@@ -121,7 +121,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mobile-automation` `computer-use` `mcp` `e2e-testing` `android-ios`
   </details>
 
-- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2k` `updated ≤30d` A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows. <details><summary>More about</summary>
+- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2.1k` `updated ≤30d` A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows. <details><summary>More about</summary>
 
   It provides much-needed attribution and provenance for AI-written code, helping developers understand the intent and context behind contributions from tools like Claude Code and Cursor.
 
@@ -341,6 +341,15 @@ _These are new or low-traffic entries being watched._
   `local-first` `task-management` `ai-agent` `browser-based` `mcp`
   </details>
 
+- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 51` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
+
+  It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
+
+  _The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel._
+
+  `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
+  </details>
+
 - **[claudebox](https://github.com/numtide/claudebox)** `⭐ 46` `updated ≤180d` A lightweight sandbox wrapper for Claude Code that uses bubblewrap or sandbox-exec to isolate the agent from the host system while allowing selective access to credentials. <details><summary>More about</summary>
 
   It lets developers run Claude Code with --dangerously-skip-permissions inside a controlled sandbox, reducing the risk of unwanted file system or environment surprises.
@@ -402,6 +411,15 @@ _These are new or low-traffic entries being watched._
   _We have successfully abstracted away learning the UI of yet another data platform by teaching our coding agent how to click through it for us._
 
   `mcp` `data-catalog` `claude-code` `plugin`
+  </details>
+
+- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 33` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
+
+  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
+
+  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
+
+  `cli` `bash` `account-switching` `codex` `macos`
   </details>
 
 - **[mattermost-mcp-host](https://github.com/jagan-shanmugam/mattermost-mcp-host)** `⭐ 33` `updated >1y` A Mattermost integration that connects to MCP servers and uses a LangGraph agent to execute tools and interact with users within Mattermost channels. <details><summary>More about</summary>

@@ -23,30 +23,46 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 108
+    forks: 39
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-11T10:34:59Z"
+    pushed_at: "2026-06-24T22:43:16Z"
+    description: "Evaluation Framework for all your AI related Workflows "
+    homepage: https://futureagi.com
+    topics:
+      - agentic-ai
+      - ai
+      - ai-agents
+      - cicd
+      - evaluation
+      - ml
+    last_checked_at: "2026-06-25T05:25:11.876Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:11.876Z"
+      bytes: 17928
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An evaluation framework and SDK for scoring AI workflows using a mix of 72 local metrics and LLM-as-judge refinement.
+  why_it_matters: It provides a unified `evaluate()` API to catch hallucinations and safety violations before they hit production, with support for RAG, function calling, and agent trajectories.
+  mental_damage: The peace of mind knowing your LLM passed 72 local metrics right before it manages to hallucinate a new way to delete your production database.
+  tags:
+    - evals
+    - llmops
+    - rag
+    - benchmarking
+    - guardrails
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product identity is measuring, scoring, and regression-testing AI behavior via a developer-facing SDK.
+  evidence:
+    - Repo description identifies it as an 'Evaluation Framework for all your AI related Workflows'
+    - README emphasizes local metrics, LLM-as-Judge, and OpenTelemetry integration
+    - Included in Awesome-LLMOps under the LLMOps section
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
@@ -57,15 +73,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-11T05:38:23.430Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for future-agi/agent-learning-kit
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-06-25T05:25:11.876Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:27:55.838Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

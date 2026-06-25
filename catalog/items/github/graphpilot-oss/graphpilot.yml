@@ -58,12 +58,14 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-06-25T05:25:21.597Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for graphpilot-oss/graphpilot
   categorize:
     status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
+    updated_at: "2026-06-25T05:25:24.846Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

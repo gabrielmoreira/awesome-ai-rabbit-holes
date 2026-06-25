@@ -86,9 +86,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:17.653Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-25T05:25:06.579Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: felipedaza7/swarm-tools"
     next_retry_at: null
   categorize:
     status: done

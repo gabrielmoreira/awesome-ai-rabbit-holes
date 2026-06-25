@@ -23,33 +23,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1348
+    forks: 78
+    license: MIT
+    archived: false
+    created_at: "2025-06-30T11:05:34Z"
+    pushed_at: "2026-06-24T12:51:17Z"
+    description: A cosy home for your LLMs.
+    homepage: ""
+    topics:
+      - ai
+      - llama-cpp
+      - llms
+      - macos
+      - swift
+    last_checked_at: "2026-06-25T05:25:16.127Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:16.127Z"
+      bytes: 3162
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A macOS menu bar application for running local LLMs via a background server.
+  why_it_matters: It provides a zero-config way to host an OpenAI-compatible API locally, enabling developers to plug local models into VS Code, Zed, and CLI agents without managing manual server setups.
+  mental_damage: The joy of discovering that your 'lightweight' menu bar app is actually just a very polite wrapper for the 12GB of RAM your local model is currently eating.
+  tags:
+    - macos
+    - local-llm
+    - llama-cpp
+    - openai-api
+    - self-hosted
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is a local runtime and serving layer for LLMs on macOS hardware.
+  evidence:
+    - README explicitly states it runs a local server at localhost:8080/v1
+    - Built on llama.cpp and focuses on '100% local' execution
+    - Provides an OpenAI-compatible API for other editors and CLI tools to consume
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Serving / APIs
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1348) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:16.127Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:28:30.974Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

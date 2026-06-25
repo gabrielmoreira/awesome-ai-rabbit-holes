@@ -13,6 +13,15 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 66.5k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+
+  It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
+
+  _The realization that our 'senior engineer' intuition is now just a collection of Markdown files that we're piping into a LLM to keep it from deleting the production database._
+
+  `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
+  </details>
+
 - **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 65k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
@@ -161,7 +170,7 @@ _These are new or low-traffic entries being watched._
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
   </details>
 
-- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 10` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 11` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
 
   It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
 

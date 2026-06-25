@@ -35,7 +35,7 @@ Development environments built around coding assistance.
 
 _These are new or low-traffic entries being watched._
 
-- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 59` `updated ≤90d` GitWit is an open-source, cloud-based code editing environment that integrates AI code generation, live previews, and chat, built with Next.js and supporting multiple AI providers. <details><summary>More about</summary>
+- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 60` `updated ≤90d` GitWit is an open-source, cloud-based code editing environment that integrates AI code generation, live previews, and chat, built with Next.js and supporting multiple AI providers. <details><summary>More about</summary>
 
   It provides developers with a self-hostable, AI-native IDE surface that supports custom API keys and live previews via E2B sandboxes.
 

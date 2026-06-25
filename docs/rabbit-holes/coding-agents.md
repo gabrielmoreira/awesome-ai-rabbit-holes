@@ -40,7 +40,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `coding-agent` `terminal` `git-workflow` `anthropic`
   </details>
 
-- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** `⭐ 105k` `updated ≤30d` An open-source, terminal-native AI coding agent from Google that provides direct access to Gemini models for code understanding, generation, and automation via CLI and GitHub Actions. <details><summary>More about</summary>
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** `⭐ 105.5k` `updated ≤30d` An open-source, terminal-native AI coding agent from Google that provides direct access to Gemini models for code understanding, generation, and automation via CLI and GitHub Actions. <details><summary>More about</summary>
 
   It offers developers a high-throughput, free-tier (60 req/min) path to 1M context window reasoning and multimodal app generation directly from the command line.
 
@@ -65,6 +65,15 @@ Assistants that directly plan, write, review, test, or debug code.
   _Yet another 'Devin competitor' where the main challenge isn't the code generation, but deciding which of the 72,000 stars in your toolchain you actually trust to push to main._
 
   `coding-agent` `cli` `sdk` `self-hosted` `multi-agent`
+  </details>
+
+- **[Pi](https://github.com/earendil-works/pi)** `⭐ 65.4k` `updated ≤30d` Pi is a mono repo AI agent toolkit providing a coding agent CLI, unified LLM API, TUI/web UI libraries, and Slack bot for interactive code generation and agent orchestration. <details><summary>More about</summary>
+
+  It lets developers run a self-hostable, extensible coding agent with direct file editing, command execution, and multi-provider LLM support from terminal or UI.
+
+  _Finally, a way to feel in control of your AI pair programmer while it silently refactors your legacy code into abstract art._
+
+  `coding-agent` `cli` `llm-api` `tui` `mono-repo`
   </details>
 
 - **[pi-mono](https://github.com/badlogic/pi-mono)** `⭐ 63.7k` `updated ≤30d` A monorepo containing a terminal-native coding agent CLI, a unified multi-provider LLM API, agent runtime libraries, and UI components for building AI interfaces. <details><summary>More about</summary>
@@ -92,15 +101,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Another chance to discover that 'plot AAPL and META's normalized stock prices' is a more compelling task than the Jira ticket you were supposed to finish 20 minutes ago._
 
   `cli` `local-ai` `code-execution` `terminal-agent` `python`
-  </details>
-
-- **[Pi](https://github.com/earendil-works/pi)** `⭐ 60.7k` `updated ≤30d` Pi is a mono repo AI agent toolkit providing a coding agent CLI, unified LLM API, TUI/web UI libraries, and Slack bot for interactive code generation and agent orchestration. <details><summary>More about</summary>
-
-  It lets developers run a self-hostable, extensible coding agent with direct file editing, command execution, and multi-provider LLM support from terminal or UI.
-
-  _Finally, a way to feel in control of your AI pair programmer while it silently refactors your legacy code into abstract art._
-
-  `coding-agent` `cli` `llm-api` `tui` `mono-repo`
   </details>
 
 - **[Warp](https://github.com/warpdotdev/warp)** `⭐ 57.9k` `updated ≤90d` Warp is an agentic development environment built as a modern terminal with integrated AI coding agent capabilities. <details><summary>More about</summary>
@@ -283,6 +283,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `github` `swe-bench` `autonomous`
   </details>
 
+- **[DB GPT](https://github.com/eosphoros-ai/db-gpt)** `⭐ 19.1k` `updated ≤30d` An open-source agentic AI data assistant that connects to databases and files, autonomously writes SQL and Python code, and generates reports and dashboards. <details><summary>More about</summary>
+
+  It lets developers delegate end-to-end data analysis workflows—including query generation, code execution, and visualization—to a multi-agent system instead of gluing together disparate scripts.
+
+  _Yet another reminder that while we built tools to help us code faster, we are now perfectly content building tools that write the SQL and Python so we never have to look at the data ourselves._
+
+  `data` `agents` `sql` `rag` `analysis`
+  </details>
+
 - **[Kilo Code](https://github.com/kilo-org/kilocode)** `⭐ 19k` `updated ≤90d` Kilo is an open-source coding agent and IDE extension that generates code from natural language, automates tasks, and supports autonomous CLI execution across VS Code, JetBrains, and the terminal. <details><summary>More about</summary>
 
   It bundles code generation, inline completions, browser automation, and an MCP marketplace into a single agentic platform that runs locally via CLI or inside popular editors.
@@ -290,15 +299,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Yet another all-in-one coding agent promising to ship faster, because what every repo really needs is one more autonomous loop with optional API keys._
 
   `coding-agent` `vscode-extension` `cli` `mcp` `autonomous`
-  </details>
-
-- **[DB GPT](https://github.com/eosphoros-ai/db-gpt)** `⭐ 18.9k` `updated ≤30d` An open-source agentic AI data assistant that connects to databases and files, autonomously writes SQL and Python code, and generates reports and dashboards. <details><summary>More about</summary>
-
-  It lets developers delegate end-to-end data analysis workflows—including query generation, code execution, and visualization—to a multi-agent system instead of gluing together disparate scripts.
-
-  _Yet another reminder that while we built tools to help us code faster, we are now perfectly content building tools that write the SQL and Python so we never have to look at the data ourselves._
-
-  `data` `agents` `sql` `rag` `analysis`
   </details>
 
 - **[Agent Zero](https://github.com/agent0ai/agent-zero)** `⭐ 18.2k` `updated ≤30d` Agent Zero is a dynamic, extensible AI agentic framework that runs in a full Linux environment, allowing agents to write code, execute commands, browse the web, and create custom tools to solve complex tasks. <details><summary>More about</summary>
@@ -400,7 +400,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `code-review` `ai-agent` `ci-cd` `self-hosted` `pull-requests`
   </details>
 
-- **[copilot-cli](https://github.com/github/copilot-cli)** `⭐ 10.7k` `updated ≤30d` GitHub Copilot CLI is a terminal-native AI coding agent that uses natural language to build, edit, debug, and refactor code directly within the command line. <details><summary>More about</summary>
+- **[copilot-cli](https://github.com/github/copilot-cli)** `⭐ 10.9k` `updated ≤30d` GitHub Copilot CLI is a terminal-native AI coding agent that uses natural language to build, edit, debug, and refactor code directly within the command line. <details><summary>More about</summary>
 
   It allows developers to delegate complex coding tasks to an agentic harness without leaving the terminal, deeply integrating with GitHub repos, issues, and PRs.
 
@@ -526,7 +526,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `terminal` `coding-agent` `agents-md` `multi-model`
   </details>
 
-- **[Emdash](https://github.com/generalaction/emdash)** `⭐ 4.8k` `updated ≤30d` Emdash is an open-source terminal-native harness that runs multiple coding agents in parallel using any provider. <details><summary>More about</summary>
+- **[Emdash](https://github.com/generalaction/emdash)** `⭐ 5k` `updated ≤30d` Emdash is an open-source terminal-native harness that runs multiple coding agents in parallel using any provider. <details><summary>More about</summary>
 
   It lets developers delegate coding work to several agents simultaneously, increasing throughput for repo-wide tasks.
 
@@ -553,7 +553,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `local-first` `autonomous-agent` `terminal`
   </details>
 
-- **[open-claude-cowork](https://github.com/composio-community/open-claude-cowork)** `⭐ 4.3k` `updated ≤30d` Open Claude Cowork is an open-source desktop chat application powered by the Claude Agent SDK and Composio Tool Router, featuring 500+ SaaS integrations and a messaging bot variant. <details><summary>More about</summary>
+- **[open-claude-cowork](https://github.com/composio-community/open-claude-cowork)** `⭐ 4.3k` `updated ≤90d` Open Claude Cowork is an open-source desktop chat application powered by the Claude Agent SDK and Composio Tool Router, featuring 500+ SaaS integrations and a messaging bot variant. <details><summary>More about</summary>
 
   It lets developers automate work across desktop and messaging apps using a unified AI interface with broad tool access.
 
@@ -562,7 +562,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `desktop-app` `claude-sdk` `composio` `integrations`
   </details>
 
-- **[open-claude-cowork](https://github.com/composiohq/open-claude-cowork)** `⭐ 4.3k` `updated ≤30d` An open-source Electron desktop chat app powered by the Claude Agent SDK and Composio Tool Router, providing a hosted interface for developers to automate workflows across 500+ SaaS app integrations. <details><summary>More about</summary>
+- **[open-claude-cowork](https://github.com/composiohq/open-claude-cowork)** `⭐ 4.3k` `updated ≤90d` An open-source Electron desktop chat app powered by the Claude Agent SDK and Composio Tool Router, providing a hosted interface for developers to automate workflows across 500+ SaaS app integrations. <details><summary>More about</summary>
 
   It gives developers a local, UI-driven surface to orchestrate Claude Code-style agents with deep SaaS integrations, persistent sessions, and tool visualization without building custom glue code.
 
@@ -760,7 +760,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `agents` `rust` `plugins` `autonomous` `experimental`
   </details>
 
-- **[codemcp](https://github.com/ezyang/codemcp)** `⭐ 1.6k` `updated ≤180d` An MCP server that turns Claude Desktop into a local pair programming assistant by giving it direct file editing and test-running capabilities. <details><summary>More about</summary>
+- **[codemcp](https://github.com/ezyang/codemcp)** `⭐ 1.6k` `updated ≤1y` An MCP server that turns Claude Desktop into a local pair programming assistant by giving it direct file editing and test-running capabilities. <details><summary>More about</summary>
 
   It lets developers use a flat-rate Claude Pro subscription to perform auto-accept repo work and git-versioned edits without per-token anxiety.
 
@@ -778,7 +778,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `automation` `pr-review` `self-hosted` `patchflows`
   </details>
 
-- **[Neovate Code](https://github.com/neovateai/neovate-code)** `⭐ 1.5k` `updated ≤90d` Neovate Code is an MIT-licensed CLI coding agent that generates code, fixes bugs, reviews code, and adds tests in both interactive and headless modes. <details><summary>More about</summary>
+- **[Neovate Code](https://github.com/neovateai/neovate-code)** `⭐ 1.5k` `updated ≤180d` Neovate Code is an MIT-licensed CLI coding agent that generates code, fixes bugs, reviews code, and adds tests in both interactive and headless modes. <details><summary>More about</summary>
 
   Developers can run it directly in the terminal to delegate repo work across multiple providers without being locked into a specific IDE or platform.
 
@@ -832,6 +832,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `browser-automation` `gpt-4` `chrome-extension`
   </details>
 
+- **[factory](https://github.com/factory-ai/factory)** `⭐ 982` `updated ≤30d` Factory (Droid) is a closed-source, agent-native development platform that assists with coding tasks across CLI, web, Slack/Teams, Linear/Jira, and mobile interfaces. <details><summary>More about</summary>
+
+  It provides a multi-surface coding agent that developers can delegate repo work to via terminal, IDE extensions, or project management integrations.
+
+  _Yet another agent promises to live in your terminal, IDE, chat app, and ticket queue simultaneously, ensuring you can be interrupted by AI in every possible workflow context._
+
+  `coding-agent` `cli` `ide-extension` `multi-surface`
+  </details>
+
 - **[supacode](https://github.com/supabitapp/supacode)** `⭐ 981` `updated ≤90d` A native terminal command center for managing and coordinating coding agents across git worktrees. <details><summary>More about</summary>
 
   It provides a unified terminal interface to orchestrate multiple coding agents simultaneously, streamlining parallel development workflows.
@@ -839,15 +848,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Yet another layer of terminal abstraction to help you manage the growing swarm of AI agents that are already rewriting your codebase faster than you can read the diffs._
 
   `terminal` `coding-agents` `worktree` `orchestration`
-  </details>
-
-- **[factory](https://github.com/factory-ai/factory)** `⭐ 932` `updated ≤30d` Factory (Droid) is a closed-source, agent-native development platform that assists with coding tasks across CLI, web, Slack/Teams, Linear/Jira, and mobile interfaces. <details><summary>More about</summary>
-
-  It provides a multi-surface coding agent that developers can delegate repo work to via terminal, IDE extensions, or project management integrations.
-
-  _Yet another agent promises to live in your terminal, IDE, chat app, and ticket queue simultaneously, ensuring you can be interrupted by AI in every possible workflow context._
-
-  `coding-agent` `cli` `ide-extension` `multi-surface`
   </details>
 
 - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli)** `⭐ 729` `updated ≤1y` A lightweight, open-source terminal coding CLI powered by Groq models that is designed as a minimal, hackable alternative to feature-heavy coding agents. <details><summary>More about</summary>
@@ -904,6 +904,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `local-ai` `cli` `python` `open-source`
   </details>
 
+- **[gk-cli](https://github.com/gitkraken/gk-cli)** `⭐ 423` `updated ≤30d` GitKraken CLI (gk) is a terminal tool that manages multi-repo work items, automates git workflows, and provides AI-generated commit messages and pull requests, alongside a bundled MCP server for LLM integrations. <details><summary>More about</summary>
+
+  It gives developers a unified CLI surface to coordinate work across multiple repositories with AI-assisted commits and PRs, while exposing git and issue tracking capabilities to MCP-compatible assistants.
+
+  _You can now add 'AI-powered commit message generator' to the growing pile of reasons you no longer have to actually think about what you just hacked together at 4 PM on a Friday._
+
+  `cli` `git` `mcp` `workflow` `multi-repo`
+  </details>
+
 - **[Yunjue-Agent](https://github.com/yunjuetech/yunjue-agent)** `⭐ 422` `updated ≤180d` Yunjue Agent is a self-evolving agent system for open-ended tasks that creates and reuses tools to execute user-provided skills. <details><summary>More about</summary>
 
   It lets developers encode expertise as SKILL.md files and have the agent autonomously build the necessary tools to execute them, turning documented knowledge into functional automation.
@@ -911,15 +920,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Another agent that promises to 'evolve' while you wait for its Python dependencies to resolve on macOS._
 
   `agent` `self-evolving` `tool-use` `skill-based`
-  </details>
-
-- **[gk-cli](https://github.com/gitkraken/gk-cli)** `⭐ 416` `updated ≤30d` GitKraken CLI (gk) is a terminal tool that manages multi-repo work items, automates git workflows, and provides AI-generated commit messages and pull requests, alongside a bundled MCP server for LLM integrations. <details><summary>More about</summary>
-
-  It gives developers a unified CLI surface to coordinate work across multiple repositories with AI-assisted commits and PRs, while exposing git and issue tracking capabilities to MCP-compatible assistants.
-
-  _You can now add 'AI-powered commit message generator' to the growing pile of reasons you no longer have to actually think about what you just hacked together at 4 PM on a Friday._
-
-  `cli` `git` `mcp` `workflow` `multi-repo`
   </details>
 
 - **[TermGPT](https://github.com/sentdex/termgpt)** `⭐ 412` `updated >1y` A Python CLI tool that uses GPT-4 to plan and execute terminal commands to fulfill natural language programming requests. <details><summary>More about</summary>
@@ -1142,6 +1142,15 @@ _These are new or low-traffic entries being watched._
   `docker` `cli` `agent-runner` `observability` `sandbox`
   </details>
 
+- **[San](https://github.com/genai-io/san)** `⭐ 64` `updated ≤30d` A lightweight, model-agnostic agent harness delivered as a single Go binary with near-zero cold start times. <details><summary>More about</summary>
+
+  It provides a portable, high-performance runtime that can run specialized agents and MCP servers anywhere from a laptop to a scratch container without needing Python or Node.js.
+
+  _The race to zero-millisecond cold starts is now the primary metric for tools that will eventually just tell us our prompt was too long anyway._
+
+  `go` `cli` `mcp` `model-agnostic` `runtime`
+  </details>
+
 - **[cody](https://github.com/ajhous44/cody)** `⭐ 63` `updated >1y` Cody is a local, terminal-based AI coding assistant that indexes your codebase using vector embeddings to support interactive Q&A and natural language querying. <details><summary>More about</summary>
 
   It lets developers query and navigate a live, changing codebase using OpenAI models without leaving the terminal or setting up a full IDE plugin.
@@ -1196,7 +1205,7 @@ _These are new or low-traffic entries being watched._
   `cli` `coding-agent` `fork` `open-source` `skills`
   </details>
 
-- **[gptme-agent-template](https://github.com/gptme/gptme-agent-template)** `⭐ 49` `updated ≤30d` A repository template for creating persistent, autonomous gptme-based agents that can build, learn, and assist, supporting both gptme and Claude Code backends. <details><summary>More about</summary>
+- **[gptme-agent-template](https://github.com/gptme/gptme-agent-template)** `⭐ 48` `updated ≤30d` A repository template for creating persistent, autonomous gptme-based agents that can build, learn, and assist, supporting both gptme and Claude Code backends. <details><summary>More about</summary>
 
   It provides a structured starting point for developers to spin up autonomous agents with defined personas, memory workspaces, and scheduled task execution.
 

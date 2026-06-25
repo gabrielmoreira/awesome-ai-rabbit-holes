@@ -73,9 +73,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:29.688Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-25T05:25:21.547Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for grahamrowe82/pt-edge
     next_retry_at: null
   categorize:
     status: done

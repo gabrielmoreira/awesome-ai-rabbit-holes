@@ -166,7 +166,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `ast` `code-search` `token-optimization` `mcp` `context-engineering`
   </details>
 
-- **[mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** `⭐ 1.9k` `updated ≤30d` An open-source, self-hosted memory backend for AI agents that provides persistent storage via a REST API, knowledge graph, and MCP server with sub-5ms retrieval. <details><summary>More about</summary>
+- **[mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** `⭐ 1.9k` `updated ≤90d` An open-source, self-hosted memory backend for AI agents that provides persistent storage via a REST API, knowledge graph, and MCP server with sub-5ms retrieval. <details><summary>More about</summary>
 
   It allows agents built with LangGraph, CrewAI, AutoGen, or Claude to share causal knowledge graphs and long-term memory without relying on cloud-hosted vector databases.
 
@@ -238,6 +238,15 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `agent-memory` `rag` `knowledge-graph` `local-first` `context`
   </details>
 
+- **[onecompression](https://github.com/fujitsuresearch/onecompression)** `⭐ 391` `updated ≤30d` A Python package for the automated compression and quantization of Large Language Models. <details><summary>More about</summary>
+
+  It simplifies the complex process of shrinking LLMs to fit on available VRAM by automating bit-width selection and error correction.
+
+  _We've reached the point where the primary developer workflow is just playing Tetris with VRAM to see if a model will actually boot._
+
+  `quantization` `llm-ops` `vram-optimization` `model-compression`
+  </details>
+
 - **[GPT Runner](https://github.com/nicepkg/gpt-runner)** `⭐ 381` `updated >1y` A local CLI, web UI, and VSCode extension for managing AI presets and chatting with selected code files using OpenAI or Anthropic models. <details><summary>More about</summary>
 
   It lets teams version-control reusable AI prompt presets as .gpt.md files and avoids the manual copy-paste workflow when discussing code with LLMs.
@@ -245,15 +254,6 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   _We have finally solved the ancient engineering problem of copying code into a browser tab and pasting it back, provided you also maintain yet another config file format._
 
   `prompt-presets` `vscode-extension` `cli` `context-management`
-  </details>
-
-- **[onecompression](https://github.com/fujitsuresearch/onecompression)** `⭐ 381` `updated ≤30d` A Python package for the automated compression and quantization of Large Language Models. <details><summary>More about</summary>
-
-  It simplifies the complex process of shrinking LLMs to fit on available VRAM by automating bit-width selection and error correction.
-
-  _We've reached the point where the primary developer workflow is just playing Tetris with VRAM to see if a model will actually boot._
-
-  `quantization` `llm-ops` `vram-optimization` `model-compression`
   </details>
 
 - **[DataChad](https://github.com/gustavz/datachad)** `⭐ 322` `updated >1y` A Streamlit app that lets users upload files or URLs to create knowledge bases and ask questions using LangChain, vector databases, and LLMs. <details><summary>More about</summary>
@@ -274,7 +274,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `context-management` `mcp` `cli` `rules`
   </details>
 
-- **[second-brain-agent](https://github.com/flepied/second-brain-agent)** `⭐ 299` `updated ≤90d` A personal knowledge management agent that automatically indexes markdown files, PDFs, videos, and web pages, exposing them via a built-in MCP server for retrieval into LLM workflows. <details><summary>More about</summary>
+- **[second-brain-agent](https://github.com/flepied/second-brain-agent)** `⭐ 302` `updated ≤90d` A personal knowledge management agent that automatically indexes markdown files, PDFs, videos, and web pages, exposing them via a built-in MCP server for retrieval into LLM workflows. <details><summary>More about</summary>
 
   It gives developers a reusable context-retrieval layer that connects local notes and docs directly into coding assistants via MCP.
 
@@ -413,7 +413,7 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `local-ai` `privacy` `context-retrieval`
   </details>
 
-- **[aurasdk](https://github.com/teolex2020/aurasdk)** `⭐ 66` `updated ≤90d` AuraSDK is a local, pure-Rust cognitive memory runtime that adds durable, sub-millisecond recall, governed correction, and self-adaptation to frozen AI models without cloud training or fine-tuning. <details><summary>More about</summary>
+- **[aurasdk](https://github.com/teolex2020/aurasdk)** `⭐ 66` `updated ≤180d` AuraSDK is a local, pure-Rust cognitive memory runtime that adds durable, sub-millisecond recall, governed correction, and self-adaptation to frozen AI models without cloud training or fine-tuning. <details><summary>More about</summary>
 
   It gives developers a lightweight, offline-first way to add structured, inspectable memory and bounded recall reranking to any agent or model runtime with a simple Python SDK.
 
@@ -440,6 +440,15 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `context` `local-first` `sqlite`
   </details>
 
+- **[akb](https://github.com/dnotitia/akb)** `⭐ 61` `updated ≤30d` A Git-backed knowledge base that provides agents with structured documents, tables, and hybrid search via the Model Context Protocol. <details><summary>More about</summary>
+
+  It offers a version-controlled, searchable 'organizational memory' that allows agents to access long-term context instead of relying on ephemeral chat history.
+
+  _Because we have officially reached the stage where we need version-controlled repositories just to manage the documentation our agents are generating for themselves._
+
+  `mcp` `rag` `knowledge-graph` `memory`
+  </details>
+
 - **[Memory-Plus](https://github.com/yuchen20/memory-plus)** `⭐ 59` `updated >1y` Memory-Plus is a local RAG memory store that enables MCP agents to record, retrieve, update, and visualize persistent session memories. <details><summary>More about</summary>
 
   It gives developers a simple way to make AI coding assistants retain context across sessions, reducing repetitive re-explanation.
@@ -447,15 +456,6 @@ _These are new or low-traffic entries being watched._
   _Another tool promising your AI will finally remember you—until it forgets where it saved the memory._
 
   `memory` `mcp` `rag` `context`
-  </details>
-
-- **[akb](https://github.com/dnotitia/akb)** `⭐ 56` `updated ≤30d` A Git-backed knowledge base that provides agents with structured documents, tables, and hybrid search via the Model Context Protocol. <details><summary>More about</summary>
-
-  It offers a version-controlled, searchable 'organizational memory' that allows agents to access long-term context instead of relying on ephemeral chat history.
-
-  _Because we have officially reached the stage where we need version-controlled repositories just to manage the documentation our agents are generating for themselves._
-
-  `mcp` `rag` `knowledge-graph` `memory`
   </details>
 
 - **[cortex](https://github.com/cdeust/cortex)** `⭐ 56` `updated ≤30d` A persistent memory engine for Claude Code that uses computational neuroscience principles and PostgreSQL with pgvector to remember code context, decisions, and architecture across sessions. <details><summary>More about</summary>
@@ -485,7 +485,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-engineering` `dependency-graph` `cli` `tree-sitter`
   </details>
 
-- **[agent-toolkit](https://github.com/video-db/agent-toolkit)** `⭐ 48` `updated ≤90d` An open-source agent toolkit that auto-syncs SDK versions, docs, and examples for LLMs and AI agents, with MCP and llms.txt integration for VideoDB. <details><summary>More about</summary>
+- **[agent-toolkit](https://github.com/video-db/agent-toolkit)** `⭐ 48` `updated ≤180d` An open-source agent toolkit that auto-syncs SDK versions, docs, and examples for LLMs and AI agents, with MCP and llms.txt integration for VideoDB. <details><summary>More about</summary>
 
   It reduces context drift in AI coding workflows by keeping LLM-facing documentation and SDK examples up to date automatically.
 
@@ -566,7 +566,16 @@ _These are new or low-traffic entries being watched._
   `mcp` `code-search` `context-engineering`
   </details>
 
-- **[ontomics](https://github.com/etiennechollet/ontomics)** `⭐ 34` `updated ≤90d` A Rust-based MCP server that indexes a codebase's domain concepts, naming conventions, and behavioral similarities to provide instant semantic context for coding agents, reducing tool calls and token usage by roughly 20x. <details><summary>More about</summary>
+- **[grafema](https://github.com/disentinel/grafema)** `⭐ 35` `updated ≤30d` A graph-based static analysis tool that transforms codebases, infrastructure, and knowledge into a queryable graph for humans and AI. <details><summary>More about</summary>
+
+  It replaces basic file-reading with deep structural analysis (AST parsers and dataflow tracing), allowing AI agents to navigate complex systems via a graph instead of guessing via greedy text search.
+
+  _We have finally reached the stage where we are building complex graph databases just so our AI minions don't have to read the actual source code._
+
+  `static-analysis` `mcp` `ast` `knowledge-graph` `code-navigation`
+  </details>
+
+- **[ontomics](https://github.com/etiennechollet/ontomics)** `⭐ 35` `updated ≤90d` A Rust-based MCP server that indexes a codebase's domain concepts, naming conventions, and behavioral similarities to provide instant semantic context for coding agents, reducing tool calls and token usage by roughly 20x. <details><summary>More about</summary>
 
   It allows coding agents like Claude Code and Codex to answer domain-specific questions with a single tool call instead of crawling a repo for minutes, making large or unfamiliar codebases navigable without burning through context windows.
 

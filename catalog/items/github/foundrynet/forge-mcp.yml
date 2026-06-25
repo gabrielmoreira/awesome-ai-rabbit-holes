@@ -24,30 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 0
+    forks: 0
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-06-06T01:01:05Z"
+    pushed_at: "2026-06-20T23:19:56Z"
+    description: Cross-manufacturer industrial MCP server — 14 tools for machine identity, telemetry normalization across 16 OEM families, plain-English automation, and on-chain (MINT) work attestation.
+    homepage: https://foundrynet.io
+    topics:
+      - agent-economy
+      - attestation
+      - automation
+      - cnc
+      - industrial
+      - iot
+      - machine-identity
+      - machine-monitoring
+      - manufacturing
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - mqtt
+      - normalization
+      - opc-ua
+      - robotics
+      - solana
+      - telemetry
+      - trust
+      - verification
+    last_checked_at: "2026-06-25T05:25:10.483Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:10.483Z"
+      bytes: 4670
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A cross-manufacturer industrial MCP server that normalizes telemetry from 16 OEM families for machine identity, automation, and on-chain work attestation.
+  why_it_matters: It allows developers to interact with heterogeneous industrial hardware (CNC, robotics) via a single canonical schema and natural language tools instead of writing custom drivers for every manufacturer.
+  mental_damage: We've reached the era where you can ask a chatbot to move a multi-ton robotic arm and then settle the transaction on Solana just to prove the arm actually moved.
+  tags:
+    - mcp
+    - industrial-ai
+    - iot
+    - robotics
+    - solana
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server designed to expose specific industrial domain capabilities to AI agents.
+  evidence:
+    - Repo description explicitly calls it a 'Cross-manufacturer industrial MCP server'
+    - README provides specific MCP configuration for Claude Desktop and Cursor
+    - The toolset consists of 14 specific tools wrapping the Forge v1 API for telemetry and automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:10.483Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:27:32.287Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -78,9 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:14.713Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-25T05:25:03.033Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: evan-moon/firma"
     next_retry_at: null
   categorize:
     status: done

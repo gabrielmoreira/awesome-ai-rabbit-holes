@@ -40,7 +40,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `self-hosted` `mcp` `llm-chat` `agent-marketplace`
   </details>
 
-- **[Flowise](https://github.com/flowiseai/flowise)** `⭐ 53.4k` `updated ≤30d` Flowise is an open-source, low-code visual platform for building and orchestrating AI agents and LLM workflows using drag-and-drop components. <details><summary>More about</summary>
+- **[Flowise](https://github.com/flowiseai/flowise)** `⭐ 54k` `updated ≤30d` Flowise is an open-source, low-code visual platform for building and orchestrating AI agents and LLM workflows using drag-and-drop components. <details><summary>More about</summary>
 
   It provides a visual workbench for developers to rapidly prototype and serve agentic workflows and RAG pipelines without writing extensive boilerplate code.
 
@@ -157,7 +157,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `autonomous` `framework` `python` `llm`
   </details>
 
-- **[gastown](https://github.com/gastownhall/gastown)** `⭐ 15.8k` `updated ≤30d` A multi-agent workspace manager that orchestrates Claude Code, GitHub Copilot, and other AI agents with persistent, git-backed work tracking and dispatch. <details><summary>More about</summary>
+- **[gastown](https://github.com/gastownhall/gastown)** `⭐ 16.1k` `updated ≤30d` A multi-agent workspace manager that orchestrates Claude Code, GitHub Copilot, and other AI agents with persistent, git-backed work tracking and dispatch. <details><summary>More about</summary>
 
   It lets developers coordinate 20–30 coding agents across multiple repos without losing context, with built-in merge queues, escalation, and scheduling.
 
@@ -764,7 +764,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `typescript` `shared-state` `guardrails`
   </details>
 
-- **[Wit](https://github.com/amaar-mc/wit)** `⭐ 44` `updated ≤90d` A lightweight daemon and CLI protocol that lets multiple AI coding agents declare intents, lock code symbols, and detect conflicts before writing to a shared repository. <details><summary>More about</summary>
+- **[Wit](https://github.com/amaar-mc/wit)** `⭐ 44` `updated ≤180d` A lightweight daemon and CLI protocol that lets multiple AI coding agents declare intents, lock code symbols, and detect conflicts before writing to a shared repository. <details><summary>More about</summary>
 
   It prevents merge conflicts across concurrent AI agent sessions by coordinating work scope at the intent and symbol level rather than relying on git to untangle the mess after the fact.
 
@@ -827,6 +827,15 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `swarm` `gui` `cli`
   </details>
 
+- **[agent-nexus](https://github.com/dugubuyan/agent-nexus)** `⭐ 5` `updated ≤30d` A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications to synchronize heterogeneous LLM coding agents. <details><summary>More about</summary>
+
+  It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync via diff-aware updates to shared specs and API documents.
+
+  _Finally, a tool that acknowledges the only thing harder than writing code is trying to make five different agents agree on what the API spec actually is._
+
+  `mcp` `multi-agent` `pub-sub` `service-oriented` `context-management`
+  </details>
+
 - **[AgentAPIProduction](https://github.com/the-swarm-corporation/agentapiproduction)** `⭐ 4` `updated >1y` A FastAPI-based REST API for deploying, managing, and running multiple AI agents in the cloud with rate limiting and metrics tracking. <details><summary>More about</summary>
 
   Developers can spin up a containerized service to manage agent lifecycles and completions without building deployment infrastructure from scratch.
@@ -861,15 +870,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool that treats AI agents like Unix processes — now we just need to remember which one we blamed for the broken build._
 
   `agent-orchestration` `cli` `bash` `unix-native` `multi-agent`
-  </details>
-
-- **[agent-nexus](https://github.com/dugubuyan/agent-nexus)** `⭐ 1` `updated ≤30d` A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications to synchronize heterogeneous LLM coding agents. <details><summary>More about</summary>
-
-  It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync via diff-aware updates to shared specs and API documents.
-
-  _Finally, a tool that acknowledges the only thing harder than writing code is trying to make five different agents agree on what the API spec actually is._
-
-  `mcp` `multi-agent` `pub-sub` `service-oriented` `context-management`
   </details>
 
 - **[invinoveritas](https://github.com/babyblueviper1/invinoveritas)** `⭐ 1` `updated ≤30d` A Lightning-native platform for paid AI reasoning, agent-to-agent coordination, and marketplace services where autonomous agents earn Bitcoin via pay-per-use APIs and MCP endpoints. <details><summary>More about</summary>

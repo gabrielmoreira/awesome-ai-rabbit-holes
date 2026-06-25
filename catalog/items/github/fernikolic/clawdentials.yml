@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-11T05:38:23.049Z"
+    status: failed
+    updated_at: "2026-06-25T05:25:07.027Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for fernikolic/clawdentials
+      type: github_repo_missing
+      message: "GitHub repository not found: fernikolic/clawdentials"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
+    updated_at: "2026-06-25T05:25:24.846Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

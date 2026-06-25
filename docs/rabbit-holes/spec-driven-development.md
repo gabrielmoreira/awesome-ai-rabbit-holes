@@ -4,7 +4,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 110.2k` `updated ≤30d` An open-source CLI toolkit and methodology from GitHub that formalizes spec-driven development, allowing developers to create executable specifications that guide AI coding agents. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 115.3k` `updated ≤30d` An open-source CLI toolkit and methodology from GitHub that formalizes spec-driven development, allowing developers to create executable specifications that guide AI coding agents. <details><summary>More about</summary>
 
   It provides a structured workflow and CLI ('specify') to define project constitutions and specs, aiming to replace 'vibe coding' with predictable, outcome-focused development when used alongside agents like Copilot.
 
@@ -22,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `context-engineering` `claude-code` `meta-prompting` `subagents`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 53.4k` `updated ≤30d` OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 56.5k` `updated ≤30d` OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants. <details><summary>More about</summary>
 
   It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
 
@@ -206,7 +206,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `cli` `tui` `claude-code`
   </details>
 
-- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 10` `updated ≤30d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
+- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 11` `updated ≤30d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
 
   It structures the messy gap between a backlog idea and running code by automating spec generation and handing off execution to installed coding agents.
 
@@ -242,7 +242,7 @@ _These are new or low-traffic entries being watched._
   `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 
-- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 3` `updated ≤90d` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
+- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 3` `updated ≤180d` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
 
   It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
 
@@ -251,7 +251,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `spec-driven` `planning` `agent-skills`
   </details>
 
-- **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 3` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
+- **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 3` `updated ≤180d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
 
   It enforces a structured spec-first workflow by turning vague project ideas into validated, copy-pasteable implementation plans with built-in progress tracking.
 

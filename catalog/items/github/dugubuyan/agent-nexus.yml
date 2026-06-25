@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
-    forks: 0
+    stars: 5
+    forks: 1
     license: MIT
     archived: false
     created_at: "2026-04-15T07:57:52Z"
-    pushed_at: "2026-06-03T04:02:34Z"
+    pushed_at: "2026-06-24T08:08:19Z"
     description: A service-boundary-aware document exchange center for coordinating heterogeneous LLM code agents via MCP. Implements versioned Markdown store, pub-sub notifications, and diff-aware update protocol.
-    homepage: https://doi.org/10.5281/zenodo.19692217
+    homepage: https://doi.org/10.5281/zenodo.20603176
     topics:
       - agents
       - ai-agents
@@ -43,10 +43,10 @@ metadata:
       - multi-agent
       - publish-subscribe
       - software-engineering
-    last_checked_at: "2026-06-08T05:39:08.974Z"
+    last_checked_at: "2026-06-25T05:24:56.204Z"
     readme:
-      fetched_at: "2026-06-08T05:39:08.974Z"
-      bytes: 6191
+      fetched_at: "2026-06-25T05:24:56.204Z"
+      bytes: 10945
 insights:
   summary: A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications to synchronize heterogeneous LLM coding agents.
   why_it_matters: It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync via diff-aware updates to shared specs and API documents.
@@ -78,11 +78,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-15T05:51:41.763Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for dugubuyan/agent-nexus
+    status: done
+    updated_at: "2026-06-25T05:24:56.204Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

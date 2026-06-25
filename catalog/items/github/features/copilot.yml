@@ -57,15 +57,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-11T05:38:22.969Z"
+    status: failed
+    updated_at: "2026-06-25T05:25:06.131Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for features/copilot
+      type: github_repo_missing
+      message: "GitHub repository not found: features/copilot"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
+    updated_at: "2026-06-25T05:25:24.846Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

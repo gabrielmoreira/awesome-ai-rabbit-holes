@@ -24,33 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11600
+    forks: 1769
+    license: Apache-2.0
+    archived: false
+    created_at: "2017-09-11T00:18:46Z"
+    pushed_at: "2026-06-24T19:37:18Z"
+    description: Always know what to expect from your data.
+    homepage: https://docs.greatexpectations.io/
+    topics:
+      - cleandata
+      - data-engineering
+      - data-profilers
+      - data-profiling
+      - data-quality
+      - data-science
+      - data-unit-tests
+      - datacleaner
+      - datacleaning
+      - dataquality
+      - dataunittest
+      - eda
+      - exploratory-analysis
+      - exploratory-data-analysis
+      - exploratorydataanalysis
+      - mlops
+      - pipeline
+      - pipeline-debt
+      - pipeline-testing
+      - pipeline-tests
+    last_checked_at: "2026-06-25T05:25:08.307Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:08.307Z"
+      bytes: 4751
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A data quality tool for defining and validating expectations for your data using expressive unit tests.
+  why_it_matters: It provides a standardized way for data teams to prevent pipeline debt by automating data validation and documentation.
+  mental_damage: The comforting illusion that your data is actually doing what you think it's doing until a single null value destroys your entire dashboard.
+  tags:
+    - data-engineering
+    - data-quality
+    - mlops
+    - unit-testing
+    - data-validation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a traditional data engineering and quality tool; while it appears in some LLMOps lists for observability, it lacks a core AI/ML-first identity or developer-tooling angle specific to the AI build-loop.
+  evidence:
+    - Repo description focuses on general data expectations ('Always know what to expect from your data')
+    - Topics are centered on data-engineering and data-profiling, not AI agents, LLMs, or prompt engineering
+    - README describes it as 'unit tests for your data' for 'data teams', not AI developers building AI apps
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (11600) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:08.307Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:27:02.611Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

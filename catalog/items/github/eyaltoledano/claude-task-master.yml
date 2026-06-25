@@ -37,10 +37,25 @@ provenance:
         extracted_url: https://github.com/eyaltoledano/claude-task-master
         surrounding_text: "- **[Task Master](https://github.com/eyaltoledano/claude-task-master)** – AI-driven task management for development with Claude, designed for Cursor."
         confidence: high
+    - id: discovery__github__eyaltoledano__claude-task-master__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-06-25T05:24:49.456Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Workflow Management
+        anchor_text: taskmaster
+        extracted_url: https://github.com/eyaltoledano/claude-task-master
+        surrounding_text: "- [taskmaster](https://github.com/eyaltoledano/claude-task-master) ![](https://img.shields.io/github/stars/eyaltoledano/claude-task-master.svg?cacheSeconds=86400) - Task management system for AI-driven development that parses PRDs and orchestrates implementation workflows."
+        confidence: high
 metadata:
   github:
-    stars: 27350
-    forks: 2562
+    stars: 27684
+    forks: 2605
     license: NOASSERTION
     archived: false
     created_at: "2025-03-04T18:54:54Z"
@@ -60,9 +75,9 @@ metadata:
       - tasks-list
       - windsurf
       - windsurf-ai
-    last_checked_at: "2026-06-08T05:39:15.493Z"
+    last_checked_at: "2026-06-25T05:25:03.992Z"
     readme:
-      fetched_at: "2026-06-08T05:39:15.493Z"
+      fetched_at: "2026-06-25T05:25:03.992Z"
       bytes: 17421
 insights:
   summary: An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies.
@@ -91,12 +106,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: "2026-06-25T05:24:49.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-08T05:39:15.493Z"
+    updated_at: "2026-06-25T05:25:03.992Z"
     cause: null
     next_retry_at: null
   categorize:

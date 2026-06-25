@@ -24,30 +24,54 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-05-26T19:03:52Z"
+    pushed_at: "2026-06-16T18:25:03Z"
+    description: A debug bridge embedded inside your web app, exposing runtime internals to AI agents via MCP.
+    homepage: https://feedthrough.dev
+    topics:
+      - agentic-web
+      - browser-automation
+      - claude-code
+      - cursor-ide
+      - cypress
+      - devtools
+      - dom-inspector
+      - mcp
+      - mcp-servers
+      - model-context-protocol
+      - model-context-protocol-server
+      - model-context-protocol-servers
+      - web-debugging
+      - websocket-bridge
+      - windsurf
+    last_checked_at: "2026-06-25T05:25:06.427Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:06.427Z"
+      bytes: 14106
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A debug bridge that injects into web applications to expose runtime internals, DOM state, and network requests to AI agents via MCP.
+  why_it_matters: It allows AI agents to act as embedded debuggers with access to framework internals and real-time application state, rather than just observing from the outside via CDP or Puppeteer.
+  mental_damage: We've reached the era where we are building high-tech vacuum seals just so our AI agents can poke at our React component trees without breaking the page.
+  tags:
+    - mcp
+    - web-debugging
+    - browser-automation
+    - agentic-web
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is as an MCP server implementation that bridges browser internals to a client, fitting the MCP category's specific server identity.
+  evidence:
+    - Repo description explicitly defines it as 'exposing runtime internals to AI agents via MCP'.
+    - Provides a dedicated `@feedthrough/mcp` package as the primary bridge.
+    - Listed in awesome-mcp-servers under Browser Automation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:06.427Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:26:55.255Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

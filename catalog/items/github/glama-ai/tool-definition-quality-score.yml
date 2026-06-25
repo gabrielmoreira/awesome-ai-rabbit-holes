@@ -23,30 +23,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 5
+    forks: 1
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    created_at: "2026-06-07T21:11:41Z"
+    pushed_at: "2026-06-15T02:19:17Z"
+    description: An open framework for scoring how well an MCP tool definition communicates to an AI agent – the Tool Definition Quality Score (TDQS).
+    homepage: https://glama.ai/blog/2026-04-03-tool-definition-quality-score-tdqs
+    topics:
+      - mcp
+    last_checked_at: "2026-06-25T05:25:17.970Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:17.970Z"
+      bytes: 39949
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open framework and rubric for scoring the quality of Model Context Protocol (MCP) tool definitions to ensure they are clearly communicable to AI agents.
+  why_it_matters: It provides a standardized way for developers to audit and improve their MCP server descriptions to increase the likelihood that an agent actually selects and uses the tool correctly.
+  mental_damage: We have now reached the era of writing meticulously crafted prompts just to convince an LLM that our other prompts are written well enough to be understood.
+  tags:
+    - mcp
+    - evals
+    - prompt-engineering
+    - tooling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core purpose is to score, measure, and provide a rubric for the quality of tool definitions, which fits perfectly under the Evals category.
+  evidence:
+    - Repo description describes it as 'An open framework for scoring how well an MCP tool definition communicates'
+    - README explicitly mentions a 'scoring pipeline' including 'LLM rubric evaluation' and 'deterministic post-processing'
+    - The framework is used to generate public score pages and rankings for an MCP registry
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
@@ -57,13 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:17.970Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:28:37.744Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

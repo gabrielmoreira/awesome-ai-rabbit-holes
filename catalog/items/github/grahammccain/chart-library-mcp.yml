@@ -81,9 +81,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:29.635Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-25T05:25:21.328Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for grahammccain/chart-library-mcp
     next_retry_at: null
   categorize:
     status: done

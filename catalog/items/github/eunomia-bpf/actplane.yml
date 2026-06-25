@@ -24,30 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 51
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-05-22T23:19:43Z"
+    pushed_at: "2026-06-24T23:53:28Z"
+    description: eBPF Information Flow Enforcement for AI Agent safety, security and effectiveness
+    homepage: ""
+    topics:
+      - ebpf
+      - harness
+      - ifc
+      - policy-engine
+    last_checked_at: "2026-06-25T05:25:02.633Z"
+    readme:
+      fetched_at: "2026-06-25T05:25:02.633Z"
+      bytes: 12209
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses.
+  why_it_matters: It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
+  mental_damage: The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel.
+  tags:
+    - ebpf
+    - agent-security
+    - sandboxing
+    - runtime-enforcement
+    - linux
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool does not act as an assistant itself, but rather augments existing agents (like Claude Code or Codex) by providing a security and workflow harness.
+  evidence:
+    - README states it is a 'Runtime enforcement and observability for AI agent harnesses'
+    - Explicitly differentiates itself from sandboxes by providing 'corrective feedback' to the agent
+    - Designed to run existing agents under its harness (e.g., 'actplane run claude')
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:25:02.633Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:26:46.934Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

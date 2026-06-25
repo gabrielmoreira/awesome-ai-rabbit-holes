@@ -24,30 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 33
+    forks: 4
+    license: MIT
+    archived: false
+    created_at: "2026-04-25T06:39:30Z"
+    pushed_at: "2026-06-24T09:37:51Z"
+    description: "Isolated CODEX_HOME profiles for Codex CLI/Desktop: switch accounts without copying auth.json"
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - account-switcher
+      - ai-tools
+      - automation
+      - bash
+      - chatgpt
+      - cli
+      - codex
+      - codex-cli
+      - codex-desktop
+      - codex-home
+      - codex-profiles
+      - developer-tools
+      - linux
+      - macos
+      - openai
+      - openai-codex
+      - productivity
+      - shell-script
+      - vibe-coding
+    last_checked_at: "2026-06-25T05:24:56.012Z"
+    readme:
+      fetched_at: "2026-06-25T05:24:56.012Z"
+      bytes: 20242
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts.
+  why_it_matters: Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
+  mental_damage: The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities.
+  tags:
+    - cli
+    - bash
+    - account-switching
+    - codex
+    - macos
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is a utility that augments the workflow of an existing coding agent (Codex) rather than being an assistant itself.
+  evidence:
+    - README describes it as a 'small command that keeps each account's Codex state separate'
+    - It acts as a wrapper for the CODEX_HOME environment variable
+    - The core value is workflow management (account switching) for another tool
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +87,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-25T05:24:56.012Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-22T05:54:05.507Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-25T05:26:37.051Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -75,9 +75,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-08T05:39:30.891Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-25T05:25:23.748Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for griptape-ai/griptape
     next_retry_at: null
   categorize:
     status: done
