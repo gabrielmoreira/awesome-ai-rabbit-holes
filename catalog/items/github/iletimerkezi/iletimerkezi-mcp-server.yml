@@ -24,30 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-29T16:45:52Z"
+    pushed_at: "2026-06-11T01:21:03Z"
+    description: iletiMerkezi MCP Server
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-06-29T05:38:54.598Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:54.598Z"
+      bytes: 7425
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides tool access to the iletiMerkezi SMS API for MCP-compatible LLM clients.
+  why_it_matters: It allows developers to manage SMS workflows, such as sending messages or checking delivery reports, directly through their AI coding assistants.
+  mental_damage: Because letting your coding assistant manage bulk SMS is a high-stakes way to test your prompt engineering.
+  tags:
+    - mcp
+    - sms
+    - api
+    - automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a dedicated MCP server providing domain-specific SMS management tools to MCP-aware clients.
+  evidence:
+    - README identifies the project explicitly as a 'Model Context Protocol server for the iletiMerkezi SMS API'
+    - Provides specific tools like `send_sms`, `get_balance`, and `add_blacklist` for use by LLM clients
+    - Listed in the 'awesome-mcp-servers' directory
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:38:54.598Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:43:54.062Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

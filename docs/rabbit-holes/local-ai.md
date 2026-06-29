@@ -13,7 +13,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.8k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
+- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.9k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
 
   It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
 
@@ -31,6 +31,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 118.7k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+
+  It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
+
+  _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
+
+  `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
+  </details>
+
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 118k` `updated ≤30d` A C/C++ implementation for running LLM inference locally, focused on enabling efficient execution of models on consumer hardware. <details><summary>More about</summary>
 
   It provides the foundational runtime that allows developers to run powerful language models privately on their own machines without relying on cloud APIs.
@@ -38,15 +47,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _You will spend an evening quantizing a model down to 3 bits just to watch it hallucinate at 12 tokens per second while convincing yourself this is definitely 'production ready'._
 
   `local-ai` `inference` `cpp` `gguf` `llm`
-  </details>
-
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 117.4k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
-
-  It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
-
-  _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
-
-  `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
   </details>
 
 - **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤90d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
@@ -94,7 +94,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `local-inference` `cpp` `offline` `whisper`
   </details>
 
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 47.5k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 47.9k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
 
   It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
 
@@ -121,7 +121,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `self-hosted` `api-compatible` `open-source`
   </details>
 
-- **[Jan](https://github.com/janhq/jan)** `⭐ 42.4k` `updated ≤90d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
+- **[Jan](https://github.com/janhq/jan)** `⭐ 43.3k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
 
   Developers can run, test, and integrate local models via an OpenAI-compatible API and MCP support without sending code or data to the cloud.
 
@@ -238,7 +238,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-serving` `openai-compatible` `self-hosted`
   </details>
 
-- **[ChatUI](https://github.com/huggingface/chat-ui)** `⭐ 10.7k` `updated ≤90d` A SvelteKit-based chat interface for LLMs that powers HuggingChat and connects to any OpenAI-compatible API, including local runtimes like Ollama and llama.cpp. <details><summary>More about</summary>
+- **[ChatUI](https://github.com/huggingface/chat-ui)** `⭐ 10.8k` `updated ≤30d` A SvelteKit-based chat interface for LLMs that powers HuggingChat and connects to any OpenAI-compatible API, including local runtimes like Ollama and llama.cpp. <details><summary>More about</summary>
 
   Developers can self-host a full-featured chat UI to interact with local or cloud models without relying on closed proprietary frontends.
 
@@ -265,7 +265,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `python` `llama-cpp` `inference` `bindings`
   </details>
 
-- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.2k` `updated >1y` Petals is a PyTorch-based distributed system that runs large language model inference and fine-tuning by splitting model layers across a BitTorrent-style volunteer swarm of GPUs. <details><summary>More about</summary>
+- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.3k` `updated >1y` Petals is a PyTorch-based distributed system that runs large language model inference and fine-tuning by splitting model layers across a BitTorrent-style volunteer swarm of GPUs. <details><summary>More about</summary>
 
   It lets developers run massive models like Llama 3.1 (405B) or Mixtral on consumer hardware by distributing the inference load across a community network with a familiar Transformers API.
 
@@ -283,7 +283,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `model-serving` `llm-inference` `open-source` `api` `deployment`
   </details>
 
-- **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 7.8k` `updated ≤90d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
+- **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 7.9k` `updated ≤30d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
 
   It provides developers with high-performance local inference acceleration, quantization, and serving capabilities for running models like Llama, InternLM, and DeepSeek on their own hardware.
 
@@ -400,15 +400,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `graphrag` `local-llm` `rag` `knowledge-graph` `ollama`
   </details>
 
-- **[opendan-personal-ai-os](https://github.com/fiatrete/opendan-personal-ai-os)** `⭐ 2k` `updated ≤90d` OpenDAN is an open-source Personal AI Operating System that consolidates various AI modules, supports local model execution via Docker, and enables users to build and run multi-agent workflows for personal tasks. <details><summary>More about</summary>
-
-  It provides a self-hosted, Docker-based environment for developers to experiment with local LLMs and multi-agent collaboration without relying solely on external APIs.
-
-  _Now you can self-host an operating system to manage your smart toaster and English tutor, ensuring your local hardware is as overwhelmed as your production Kubernetes cluster._
-
-  `local-ai` `multi-agent` `self-hosted` `personal-os`
-  </details>
-
 - **[LLMFarm](https://github.com/guinmoon/llmfarm)** `⭐ 2k` `updated ≤180d` LLMFarm is an iOS and macOS app that runs large language models locally on-device using the GGML library, supporting models like LLaMA, Starcoder, and Gemma. <details><summary>More about</summary>
 
   It lets developers benchmark, test RAG setups, and run coding models like Starcoder directly on Apple hardware without cloud dependencies.
@@ -416,6 +407,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Now you can spend your afternoon tweaking sampling parameters on your iPhone to see if Mixtral can finally debug your CI pipeline offline._
 
   `local-ai` `ios` `macos` `offline` `ggml`
+  </details>
+
+- **[opendan-personal-ai-os](https://github.com/fiatrete/opendan-personal-ai-os)** `⭐ 2k` `updated ≤180d` OpenDAN is an open-source Personal AI Operating System that consolidates various AI modules, supports local model execution via Docker, and enables users to build and run multi-agent workflows for personal tasks. <details><summary>More about</summary>
+
+  It provides a self-hosted, Docker-based environment for developers to experiment with local LLMs and multi-agent collaboration without relying solely on external APIs.
+
+  _Now you can self-host an operating system to manage your smart toaster and English tutor, ensuring your local hardware is as overwhelmed as your production Kubernetes cluster._
+
+  `local-ai` `multi-agent` `self-hosted` `personal-os`
   </details>
 
 - **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 1.7k` `updated ≤90d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
@@ -517,7 +517,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 794` `updated ≤180d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
+- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 810` `updated ≤180d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
 
   It gives teams a zero-friction way to collaborate around LLMs directly inside Discord, with easy model switching and support for both cloud and local inference.
 
@@ -593,7 +593,7 @@ _These are new or low-traffic entries being watched._
   `local-ai` `self-hosted` `chat-interface` `rag` `multi-user`
   </details>
 
-- **[YuanChat](https://github.com/ieit-yuan/yuanchat)** `⭐ 46` `updated >1y` YuanChat is a self-hosted, Vue and FastAPI-based chat interface and desktop client for interacting with locally or remotely deployed Yuan-2.0 large language models. <details><summary>More about</summary>
+- **[YuanChat](https://github.com/ieit-yuan/yuanchat)** `⭐ 44` `updated >1y` YuanChat is a self-hosted, Vue and FastAPI-based chat interface and desktop client for interacting with locally or remotely deployed Yuan-2.0 large language models. <details><summary>More about</summary>
 
   It provides developers with a ready-made web UI and Windows executable to test, evaluate, and integrate Yuan-2.0 inference endpoints without building a custom frontend.
 

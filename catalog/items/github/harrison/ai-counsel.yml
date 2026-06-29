@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-11T05:38:23.314Z"
+    status: failed
+    updated_at: "2026-06-29T05:38:47.343Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for harrison/ai-counsel
+      type: github_repo_missing
+      message: "GitHub repository not found: harrison/ai-counsel"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
+    updated_at: "2026-06-29T05:39:07.792Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

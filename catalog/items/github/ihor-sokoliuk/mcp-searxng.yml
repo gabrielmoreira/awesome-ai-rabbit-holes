@@ -23,29 +23,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 756
-    forks: 117
+    stars: 979
+    forks: 139
     license: MIT
     archived: false
     created_at: "2024-12-23T02:00:51Z"
-    pushed_at: "2026-04-28T19:40:29Z"
-    description: MCP Server for SearXNG
-    homepage: ""
+    pushed_at: "2026-06-29T05:25:24Z"
+    description: Private web search for AI assistants via SearXNG — supports Claude, Cursor, and any MCP client
+    homepage: https://www.npmjs.com/package/mcp-searxng
     topics:
       - ai
+      - claude
+      - cursor
       - llm
-      - llm-agent
       - mcp
       - mcp-server
       - mcp-servers
-      - mcp-tools
+      - privacy
       - search
-      - search-engine
       - searxng
-    last_checked_at: "2026-05-06T22:44:22.036Z"
+      - self-hosted
+      - web-search
+    last_checked_at: "2026-06-29T05:38:54.387Z"
     readme:
-      fetched_at: "2026-05-06T22:44:22.036Z"
-      bytes: 6452
+      fetched_at: "2026-06-29T05:38:54.387Z"
+      bytes: 13590
 insights:
   summary: An MCP server that connects AI assistants to a SearXNG instance to provide web search and URL content extraction capabilities.
   why_it_matters: It allows developers to give their local coding agents private, self-hosted web search without relying on proprietary search APIs.
@@ -77,7 +79,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:44:22.036Z"
+    updated_at: "2026-06-29T05:38:54.387Z"
     cause: null
     next_retry_at: null
   categorize:

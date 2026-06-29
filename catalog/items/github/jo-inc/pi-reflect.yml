@@ -24,30 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 35
+    forks: 11
+    license: MIT
+    archived: false
+    created_at: "2026-02-13T20:54:26Z"
+    pushed_at: "2026-05-08T18:45:37Z"
+    description: Self-improving behavioral files for AI coding agents. Analyzes session transcripts for correction patterns and makes surgical edits to prevent recurrence.
+    homepage: https://www.npmjs.com/package/@jo-inc/pi-reflect
+    topics:
+      - agent-reflection
+      - ai-agent
+      - behavioral-analysis
+      - coding-agent
+      - llm
+      - pi-coding-agent
+      - self-improvement
+      - typescript
+    last_checked_at: "2026-06-29T05:39:04.120Z"
+    readme:
+      fetched_at: "2026-06-29T05:39:04.120Z"
+      bytes: 7800
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A tool for AI agents to iteratively improve their behavioral rules, memory, and personality files by analyzing session transcripts.
+  why_it_matters: It automates the tedious task of manually updating agent instructions and long-term memory as developer workflows and requirements evolve.
+  mental_damage: There is a specific brand of existential dread in watching an agent's SOUL.md file undergo surgical edits to correct its personality.
+  tags:
+    - agent-reflection
+    - context-engineering
+    - memory-management
+    - self-improvement
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core novelty is the automated management and distillation of an agent's memory and behavioral context.
+  evidence:
+    - Analyzes session transcripts to perform surgical edits on AGENTS.md, MEMORY.md, and SOUL.md
+    - Automates the convergence of agent personality and factual memory through iterative loops
+    - Tracks metrics like correction rates and rule recidivism to measure context quality
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:39:04.120Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:46:50.113Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

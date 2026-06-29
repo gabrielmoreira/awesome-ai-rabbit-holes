@@ -24,33 +24,53 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 639
+    forks: 46
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-03-10T21:25:25Z"
+    pushed_at: "2026-06-13T22:13:39Z"
+    description: Self-hosted, secure tunnel server in Rust. Expose local HTTP/HTTPS/TCP/UDP services to the public internet via TLS-encrypted WebSocket. Open-source, pay-as-you-go managed option, MCP server for AI agents.
+    homepage: https://rustunnel.com
+    topics:
+      - api-gateway
+      - mcp-server
+      - ngrok-alternative
+      - reverse-proxy
+      - rust
+      - rustunnel
+      - self-hosted
+      - tunnel
+      - tunneling
+      - webhook
+    last_checked_at: "2026-06-29T05:39:04.195Z"
+    readme:
+      fetched_at: "2026-06-29T05:39:04.195Z"
+      bytes: 41213
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI agents.
+  why_it_matters: It allows AI agents to interact with, test, and trigger local webhooks and APIs through secure, encrypted tunnels.
+  mental_damage: Because your agent definitely needs a TLS-encrypted tunnel to realize your localhost:3000 is throwing a 500 error.
+  tags:
+    - rust
+    - tunneling
+    - mcp
+    - self-hosted
+    - networking
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It augments AI agents with the capability to access local network services via an MCP integration.
+  evidence:
+    - Rust-based tunneling service for HTTP/TCP/UDP
+    - Includes an MCP server for agent integration
+    - Supports Cursor, Claude Code, and Windsurf
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (639) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:39:04.195Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:47:07.804Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

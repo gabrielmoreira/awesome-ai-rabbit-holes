@@ -24,30 +24,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 65
+    forks: 9
+    license: MIT
+    archived: false
+    created_at: "2026-02-11T23:24:18Z"
+    pushed_at: "2026-06-09T01:02:19Z"
+    description: Plain-Markdown persistent memory for AI coding agents. Long-term facts, daily logs, scratchpad, and semantic search — works with pi, Claude Code, and any LLM agent.
+    homepage: https://www.npmjs.com/package/@jo-inc/pi-mem
+    topics:
+      - agent-memory
+      - ai-agent
+      - coding-agent
+      - context-management
+      - llm
+      - markdown
+      - memory
+      - pi-coding-agent
+      - typescript
+    last_checked_at: "2026-06-29T05:39:04.044Z"
+    readme:
+      fetched_at: "2026-06-29T05:39:04.044Z"
+      bytes: 5181
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Markdown-based persistent memory system that provides long-term facts, daily logs, and semantic search for AI coding agents.
+  why_it_matters: It gives agents a durable, searchable memory layer to prevent context loss and maintain continuity across different coding sessions.
+  mental_damage: Because nothing says 'high-velocity developer' like managing a markdown-based diary for your autonomous coding agent.
+  tags:
+    - memory
+    - context-management
+    - markdown
+    - coding-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core value proposition is providing memory, retrieval, and context-shaping infrastructure for agents.
+  evidence:
+    - Repo description highlights long-term facts, daily logs, and semantic search
+    - README specifies a structured memory layout (MEMORY.md, SCRATCHPAD.md, daily logs)
+    - Designed specifically to inject context into agent system prompts
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:39:04.044Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:46:26.588Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

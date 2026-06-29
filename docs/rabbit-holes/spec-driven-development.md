@@ -13,15 +13,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `github` `methodology` `copilot`
   </details>
 
-- **[get-shit-done](https://github.com/gsd-build/get-shit-done)** `⭐ 64k` `updated ≤30d` A meta-prompting and spec-driven development system that adds context engineering, planning, and execution loops to Claude Code and other AI coding assistants. <details><summary>More about</summary>
-
-  It solves context rot by decomposing projects into phases, running plans through fresh subagent contexts, and maintaining a structured spec loop so the assistant doesn't degrade as the window fills.
-
-  _You installed a 60k-star system to manage the context window of the tool you installed to avoid writing code yourself, and you still feel behind on the roadmap._
-
-  `spec-driven` `context-engineering` `claude-code` `meta-prompting` `subagents`
-  </details>
-
 - **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 56.5k` `updated ≤30d` OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants. <details><summary>More about</summary>
 
   It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
@@ -31,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 49.3k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 49.8k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
 
   It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
 
@@ -85,6 +76,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `multi-agent` `git-worktrees` `kanban`
   </details>
 
+- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 993` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
+
+  It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
+
+  _The dream of 'hand it a spec and walk away' is finally here, though we'll still spend three hours arguing with a 'blind council' of AI reviewers about a naming convention._
+
+  `autonomous-agents` `sdlc` `spec-driven` `ci-cd` `multi-agent`
+  </details>
+
 - **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 982` `updated ≤90d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
 
   It shifts the developer role from writing code to designing the 'harness'—specs, quality gates, and feedback loops—while a team of agents handles implementation and self-verification.
@@ -92,15 +92,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   _You've successfully automated yourself out of writing code, only to spend your day debugging why the 24-agent team decided to refactor your architecture into a 38,700-line Go binary you didn't write._
 
   `claude-code` `spec-driven` `multi-agent` `tdd` `cli`
-  </details>
-
-- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 980` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
-
-  It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
-
-  _The dream of 'hand it a spec and walk away' is finally here, though we'll still spend three hours arguing with a 'blind council' of AI reviewers about a naming convention._
-
-  `autonomous-agents` `sdlc` `spec-driven` `ci-cd` `multi-agent`
   </details>
 
 - **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 664` `updated ≤90d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
@@ -148,7 +139,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 262` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 265` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
 
@@ -157,7 +148,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `mcp` `context`
   </details>
 
-- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 262` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
+- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 265` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
 
   It turns scattered planning artifacts into structured, AI-readable specs that any assistant can consume via MCP or CLI, letting teams keep existing backends while enforcing a spec-first loop.
 

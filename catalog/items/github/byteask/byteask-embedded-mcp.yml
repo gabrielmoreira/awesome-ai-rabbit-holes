@@ -1,0 +1,89 @@
+id: github__byteask__byteask-embedded-mcp
+kind: github-repo
+name: byteask-embedded-mcp
+canonical_url: https://github.com/byteask/byteask-embedded-mcp
+identity:
+  github_repo: byteask/byteask-embedded-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__byteask__byteask-embedded-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-29T05:38:18.519Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📟 <a name="embedded-system"></a>Embedded System
+        anchor_text: ByteAsk/ByteAsk-Embedded-MCP
+        extracted_url: https://github.com/byteask/byteask-embedded-mcp
+        surrounding_text: "- [ByteAsk/ByteAsk-Embedded-MCP](https://github.com/ByteAsk/ByteAsk-Embedded-MCP) [![ByteAsk/ByteAsk-Embedded-MCP MCP server](https://glama.ai/mcp/servers/ByteAsk/ByteAsk-Embedded-MCP/badges/score.svg)](https://glama.ai/mcp/servers/ByteAsk/ByteAsk-Embedded-MCP) 🐍 ☁️ 📟 - Page-cited retrieval of embedded/firmware reference docs (datasheets, MCU registers, Modbus/CAN, SCPI, IEEE 1547/SunSpec) for coding agents — returns verbatim source snippets with page citations, or \"no confident match\" instead of a fabricated value. No signup or API key."
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-19T09:01:38Z"
+    pushed_at: "2026-06-20T13:57:06Z"
+    description: "The open-source MCP server behind ByteAsk Embedded Docs: a source-grounded, page-cited evidence-retrieval server for coding agents (Claude Code, Codex, Cursor) that write firmware / driver / protocol code and need exact facts."
+    homepage: https://docs.byteask.ai/embedded
+    topics:
+      - arm
+      - documentation
+      - embedded
+      - firmware
+      - mcp
+      - misra
+      - model-context-protocol
+    last_checked_at: "2026-06-29T05:38:33.281Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:33.281Z"
+      bytes: 9836
+insights:
+  summary: An MCP server that provides page-cited, verbatim retrieval from embedded and firmware documentation.
+  why_it_matters: It prevents coding agents from hallucinating critical register offsets or protocol commands by grounding them in cited, real-world documentation.
+  mental_damage: Finally, a way to ensure your AI doesn't accidentally brick a microcontroller by hallucinating a single bit in a driver.
+  tags:
+    - mcp
+    - embedded
+    - firmware
+    - retrieval
+    - rag
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core novelty is the specialized retrieval of grounded, cited documentation to provide precise context to coding agents.
+  evidence:
+    - Provides verbatim snippets with page citations to prevent model fabrication
+    - Targets specific embedded domain data like register offsets, Modbus codes, and SCPI verbs
+    - Designed to be called reflexively by agents like Claude Code and Cursor for high-stakes facts
+placement:
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-29T05:38:18.520Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-29T05:38:33.281Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:48:07.639Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

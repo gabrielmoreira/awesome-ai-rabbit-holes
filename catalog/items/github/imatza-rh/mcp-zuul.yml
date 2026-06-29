@@ -24,19 +24,27 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5
-    forks: 5
+    stars: 11
+    forks: 7
     license: Apache-2.0
     archived: false
     created_at: "2026-03-04T21:32:34Z"
-    pushed_at: "2026-04-27T08:42:46Z"
-    description: MCP server for Zuul CI — read-only access to builds, logs, status, and jobs
-    homepage: null
-    topics: []
-    last_checked_at: "2026-05-06T22:44:22.459Z"
+    pushed_at: "2026-06-28T21:54:34Z"
+    description: MCP server for Zuul CI — debug build failures, search logs, manage pipelines, and monitor jobs from Claude, Cursor, or any MCP client
+    homepage: https://pypi.org/project/mcp-zuul/
+    topics:
+      - ansible
+      - ci-cd
+      - devops
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - zuul
+      - zuul-ci
+    last_checked_at: "2026-06-29T05:38:54.632Z"
     readme:
-      fetched_at: "2026-05-06T22:44:22.459Z"
-      bytes: 20384
+      fetched_at: "2026-06-29T05:38:54.632Z"
+      bytes: 23807
 insights:
   summary: An MCP server for Zuul CI that exposes 37 tools, prompt templates, and resources to let LLMs read builds, logs, jobs, and pipeline status directly from Zuul.
   why_it_matters: It lets developers debug CI failures and inspect pipeline state by asking natural-language questions instead of clicking through Zuul web UIs or grepping raw logs.
@@ -69,7 +77,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:44:22.459Z"
+    updated_at: "2026-06-29T05:38:54.632Z"
     cause: null
     next_retry_at: null
   categorize:

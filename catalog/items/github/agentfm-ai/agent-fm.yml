@@ -82,9 +82,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-18T05:40:05.267Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-29T05:38:19.752Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: agentfm-ai/agent-fm"
     next_retry_at: null
   categorize:
     status: done

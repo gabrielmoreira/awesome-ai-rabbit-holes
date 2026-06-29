@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-11T05:38:23.246Z"
+    status: failed
+    updated_at: "2026-06-29T05:38:46.560Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for handshake58/drain-marketplace
+      type: github_repo_missing
+      message: "GitHub repository not found: handshake58/drain-marketplace"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
+    updated_at: "2026-06-29T05:39:07.792Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

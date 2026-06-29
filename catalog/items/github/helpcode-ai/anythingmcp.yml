@@ -24,30 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 134
+    forks: 7
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-02-28T12:01:26Z"
+    pushed_at: "2026-06-28T19:31:25Z"
+    description: "Self-hosted, open-source MCP gateway: turn any API, database or MCP server into custom connectors for Claude, ChatGPT, Gemini, Copilot & Cursor — no code. Convert REST, SOAP, WSDL, GraphQL & SQL to MCP, with OAuth2, RBAC & audit log. 175+ pre-built adapters (Deutsche Bahn, weclapp, Etsy, DHL, Shopware…)"
+    homepage: https://anythingmcp.com
+    topics:
+      - ai-agents
+      - api-gateway
+      - chatgpt
+      - chatgpt-apps
+      - claude
+      - claude-connectors
+      - database-mcp-server
+      - gemini
+      - graphql-to-mcp
+      - mcp
+      - mcp-gateway
+      - mcp-servers
+      - model-context-protocol
+      - no-code
+      - openapi-to-mcp
+      - rest-to-mcp
+      - self-hosted
+      - soap-to-mcp
+      - sql-to-mcp
+      - typescript
+    last_checked_at: "2026-06-29T05:38:48.441Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:48.441Z"
+      bytes: 15498
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted MCP gateway that converts REST, SOAP, GraphQL, and SQL databases into Model Context Protocol connectors.
+  why_it_matters: It enables developers to instantly expose existing APIs and databases as tools for AI assistants like Claude and Cursor without writing custom MCP server code.
+  mental_damage: Because now you can finally let your LLM accidentally drop a production table via a 'no-code' REST connector.
+  tags:
+    - mcp
+    - api-gateway
+    - self-hosted
+    - no-code
+    - connectors
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's primary identity is a middleware gateway that transforms non-MCP protocols into the Model Context Protocol.
+  evidence:
+    - Converts REST, SOAP, GraphQL, and SQL to MCP
+    - Provides a self-hosted gateway for Claude, ChatGPT, and Cursor
+    - Acts as an aggregator for 175+ pre-built adapters
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:38:48.441Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:42:02.680Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

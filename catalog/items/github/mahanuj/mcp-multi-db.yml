@@ -1,0 +1,70 @@
+id: github__mahanuj__mcp-multi-db
+kind: github-repo
+name: mcp-multi-db
+canonical_url: https://github.com/mahanuj/mcp-multi-db
+identity:
+  github_repo: mahanuj/mcp-multi-db
+provenance:
+  discoveries:
+    - id: discovery__github__mahanuj__mcp-multi-db__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-29T05:38:18.519Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: mahAnuj/mcp-multi-db
+        extracted_url: https://github.com/mahanuj/mcp-multi-db
+        surrounding_text: "- [mahAnuj/mcp-multi-db](https://github.com/mahAnuj/mcp-multi-db) [![mahAnuj/mcp-multi-db MCP server](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db/badges/score.svg)](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db) 📇 🏠 - One MCP server for PostgreSQL, MySQL, and SQLite. Unified read-only tools (`list_databases`, `list_tables`, `describe_table`, `run_query`) across all three engines with two-layer read-only enforcement (SQL-text guard + DB-level read-only transactions). Install: `npx -y mcp-multi-db`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-29T05:38:18.520Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-06-29T05:39:07.792Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

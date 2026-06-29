@@ -24,33 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1715
+    forks: 150
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-06-02T03:25:51Z"
+    pushed_at: "2026-06-26T13:03:06Z"
+    description: "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation"
+    homepage: https://echo-team-joy-future-academy-jd.github.io/Echo-LongVideo-Page/
+    topics: []
+    last_checked_at: "2026-06-29T05:39:01.975Z"
+    readme:
+      fetched_at: "2026-06-29T05:39:01.975Z"
+      bytes: 13034
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JoyAI-Echo is a standalone inference framework for generating minute-long synchronized audio-video clips with cross-modal memory and distribution matching distillation.
+  why_it_matters: It enables developers to produce long-form, temporally coherent generative video with audio using a fast, memory-conditioned pipeline.
+  mental_damage: Finally, a way to autoproduce five-minute AI-generated video essays no one asked for, complete with lip-synced narration about the void.
+  tags:
+    - video-generation
+    - multimodal
+    - local-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project focuses on long audio-visual generation for creative media, not developer tooling, coding assistance, or AI workflows relevant to software development.
+  evidence:
+    - "Repo description: 'JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation'"
+    - "README: 'Standalone, inference-only release for minute-level multi-shot audio-video generation'"
+    - "Source-list context: appears in awesome-LLM-resources under '视频 Video > 模型', indicating a model/resource categorization, not developer tooling"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1715) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:39:01.975Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:46:04.942Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

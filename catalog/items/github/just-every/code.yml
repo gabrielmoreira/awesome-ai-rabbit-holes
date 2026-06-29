@@ -81,9 +81,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:44:38.876Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-06-29T05:39:06.679Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for just-every/code
     next_retry_at: null
   categorize:
     status: done

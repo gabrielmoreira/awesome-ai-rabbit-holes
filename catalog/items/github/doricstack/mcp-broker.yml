@@ -1,0 +1,92 @@
+id: github__doricstack__mcp-broker
+kind: github-repo
+name: mcp-broker
+canonical_url: https://github.com/doricstack/mcp-broker
+identity:
+  github_repo: doricstack/mcp-broker
+provenance:
+  discoveries:
+    - id: discovery__github__doricstack__mcp-broker__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-29T05:38:18.519Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: NavinAgrawal/mcp-broker
+        extracted_url: https://github.com/navinagrawal/mcp-broker
+        surrounding_text: "- [NavinAgrawal/mcp-broker](https://github.com/NavinAgrawal/mcp-broker) [![NavinAgrawal/mcp-broker MCP server](https://glama.ai/mcp/servers/NavinAgrawal/mcp-broker/badges/score.svg)](https://glama.ai/mcp/servers/NavinAgrawal/mcp-broker) 🐍 🏠 🍎 🪟 🐧 - Local MCP process broker that exposes one compact client entry while routing to many configured upstream MCP servers with profile gates, lifecycle ownership, and mutating-tool allowlists."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-05-25T05:03:53Z"
+    pushed_at: "2026-06-27T23:21:42Z"
+    description: Local MCP broker that exposes one compact MCP entry for MCP clients while routing to many configured upstream servers.
+    homepage: https://github.com/NavinAgrawal/mcp-broker#readme
+    topics:
+      - ai-tools
+      - claude
+      - codex
+      - developer-tools
+      - gemini-cli
+      - mcp
+      - mcp-client
+      - mcp-gateway
+      - mcp-server
+      - model-context-protocol
+    last_checked_at: "2026-06-29T05:38:42.991Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:42.991Z"
+      bytes: 20629
+insights:
+  summary: A local Model Context Protocol (MCP) broker that aggregates multiple upstream servers into a single, compact endpoint for clients.
+  why_it_matters: It prevents context window bloat and process duplication by routing tool requests on demand rather than loading every available tool definition into every session.
+  mental_damage: Because instead of just letting the AI handle our tools, we now need a specialized middleware layer to manage the complexity of the tools the AI is handling.
+  tags:
+    - mcp
+    - broker
+    - context-reduction
+    - local-infrastructure
+    - middleware
+  confidence: high
+curation:
+  status: included
+  reason: The project's core identity is a protocol-level middleware layer designed specifically for MCP infrastructure.
+  evidence:
+    - README describes it as a 'PgBouncer for MCP' providing a stable local endpoint for multiple upstreams
+    - Explicitly claims significant context reduction (92.94% tool-definition count reduction)
+    - Operates as a local daemon via a Unix socket to manage server lifecycles
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-29T05:38:18.520Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-29T05:38:42.991Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:47:54.385Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

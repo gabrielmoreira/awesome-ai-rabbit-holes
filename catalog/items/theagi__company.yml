@@ -1,0 +1,72 @@
+id: theagi__company
+kind: website
+name: theagi.company
+canonical_url: https://theagi.company
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__theagi__company__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-06-29T05:38:18.519Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MultiOn
+        anchor_text: MultiOn
+        extracted_url: https://multion.ai
+        surrounding_text: "## [MultiOn](https://multion.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An on-device, agentic mobile platform designed to perform consumer tasks like booking travel and ordering food.
+  why_it_matters: It represents a shift toward fully local, autonomous mobile agents that operate on consumer hardware.
+  mental_damage: Another agent enters the ecosystem, moving one step closer to booking my dental appointments without my consent.
+  tags: []
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a consumer-facing mobile agent platform rather than a tool, framework, or infrastructure intended for software developers.
+  evidence:
+    - The primary use cases are consumer-oriented tasks such as 'Book the taxi' and 'Order dinner'
+    - The product is marketed as 'everyday AGI' for mobile users
+    - The focus is on an end-user Android app/platform rather than a developer SDK or coding assistant
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-29T05:38:18.520Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:48:59.789Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

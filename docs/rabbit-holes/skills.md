@@ -22,7 +22,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 65k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 66.2k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -188,6 +188,15 @@ _These are new or low-traffic entries being watched._
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 3` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
+
+  It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
+
+  _You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants._
+
+  `session-logging` `rules` `multi-agent` `osop` `integrations`
+  </details>
+
 - **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 2` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>
 
   Developers can drop ready-made doctrine, rules, and MCP configs into their repos and editors to align multiple AI coding tools around a shared design framework.
@@ -195,15 +204,6 @@ _These are new or low-traffic entries being watched._
   _We have now reached the point where we need a standardized doctrine and governance badges just to keep our AI assistants from inventing their own architectural opinions._
 
   `mcp` `ide-rules` `prompt-files` `agent-runtimes` `doctrine`
-  </details>
-
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 2` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
-
-  It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
-
-  _You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants._
-
-  `session-logging` `rules` `multi-agent` `osop` `integrations`
   </details>
 
 - **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤180d` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>

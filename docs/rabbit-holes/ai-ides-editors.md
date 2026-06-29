@@ -4,7 +4,7 @@ Development environments built around coding assistance.
 
 ## Tools & Resources
 
-- **[code server](https://github.com/coder/code-server)** `⭐ 78k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
+- **[code server](https://github.com/coder/code-server)** `⭐ 78.1k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
 
   It allows developers to use a familiar IDE environment from any device with a browser, enabling consistent remote development workflows.
 

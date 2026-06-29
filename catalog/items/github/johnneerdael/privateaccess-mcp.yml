@@ -39,30 +39,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 6
+    forks: 13
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    archived: false
+    created_at: "2025-01-29T01:53:05Z"
+    pushed_at: "2026-05-20T10:14:42Z"
     description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    homepage: https://johnneerdael.github.io/privateaccess-mcp/
+    topics: []
+    last_checked_at: "2026-06-29T05:39:04.639Z"
+    readme:
+      fetched_at: "2026-06-29T05:39:04.639Z"
+      bytes: 8109
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing 84 specialized tools for managing Netskope Private Access (NPA) infrastructure via AI automation.
+  why_it_matters: It allows AI agents to perform complex networking and security operations, such as policy management and infrastructure deployment, directly through the Model Context Protocol.
+  mental_damage: Because managing enterprise security is already high-stakes enough without adding the unpredictable nuance of an LLM to your networking stack.
+  tags:
+    - mcp
+    - netskope
+    - infrastructure
+    - automation
+    - security
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server whose sole purpose is to provide a suite of domain-specific tools for Netskope NPA to an AI client.
+  evidence:
+    - README describes it as a 'comprehensive Model Context Protocol (MCP) server'
+    - Provides 84 specialized tools for NPA infrastructure management
+    - Listed in 'awesome-mcp-servers' under Cloud Platforms
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +83,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:39:04.639Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:47:14.758Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

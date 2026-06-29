@@ -24,30 +24,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-09T02:35:14Z"
+    pushed_at: "2026-06-11T18:28:43Z"
+    description: The most complete MCP server for the Resend email API — full API coverage plus a unique debug/diagnostics layer.
+    homepage: https://www.npmjs.com/package/resend-email-mcp
+    topics:
+      - claude
+      - claude-code
+      - cursor
+      - deliverability
+      - email
+      - mcp
+      - model-context-protocol
+      - resend
+      - transactional-email
+    last_checked_at: "2026-06-29T05:38:48.225Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:48.225Z"
+      bytes: 11340
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides full coverage of the Resend email API, including a specialized diagnostics layer for deliverability and DNS troubleshooting.
+  why_it_matters: It enables developers to manage, audit, and debug transactional email workflows directly through AI coding assistants like Claude Code or Cursor.
+  mental_damage: "Just what every developer wants: an AI assistant that can now explain exactly why your transactional emails are bouncing."
+  tags:
+    - mcp
+    - resend
+    - email
+    - dev-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server providing domain-specific tools for a particular API.
+  evidence:
+    - Repo description identifies it as 'The most complete MCP server for the Resend email API'
+    - README specifies 75 tools and a unique debug/diagnostics layer for email lifecycle inspection
+    - Explicitly supports MCP clients like Claude Code, Cursor, and Claude Desktop
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:38:48.225Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:41:48.873Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

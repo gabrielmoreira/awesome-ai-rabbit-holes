@@ -24,30 +24,46 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 90
+    forks: 7
+    license: MIT
+    archived: false
+    created_at: "2026-05-26T03:52:30Z"
+    pushed_at: "2026-06-18T11:35:21Z"
+    description: 🐴 Prompt-first harness engineering for safer AI coding agent workflows.
+    homepage: https://harnessworks.github.io/harness-starter-kit/
+    topics:
+      - ai-agents
+      - coding-agents
+      - developer-tools
+      - documentation
+      - harness-engineering
+      - prompt-engineering
+      - software-engineering
+    last_checked_at: "2026-06-29T05:38:47.251Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:47.251Z"
+      bytes: 14471
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A prompt-first starter kit for turning repeated AI coding agent mistakes into durable repository instructions and evaluation checks.
+  why_it_matters: It shifts the effort from endless prompt tweaking to 'harnessing' the repository itself to provide better operational boundaries and feedback loops for agents.
+  mental_damage: We've reached the era where we no longer write code, but instead engineer the environment that manages the AI that writes the code that we then spend an hour debugging.
+  tags:
+    - coding-agents
+    - prompt-engineering
+    - agent-ops
+    - repository-harnessing
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core novelty is the system for managing agent memory, durable instructions, and the improvement loop of context rather than being a standalone agent itself.
+  evidence:
+    - README claims its product effect is to 'make agent work safer to run' via 'durable repository instructions' and 'decision memory'.
+    - Positions itself as a 'starter kit' for turning failures into instructions, which is a context management workflow.
+    - Focused on 'repository harnessing' rather than being the primary coding assistant engine.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: PromptOps / Prompt Management
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:38:47.251Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:41:16.699Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

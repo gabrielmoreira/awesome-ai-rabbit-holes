@@ -24,30 +24,51 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 22
+    forks: 5
+    license: MIT
+    archived: false
+    created_at: "2026-04-20T06:10:37Z"
+    pushed_at: "2026-06-19T09:28:27Z"
+    description: INFATON MCP Server — 51 tools for 1C:Enterprise ERP via Model Context Protocol (JSON-RPC 2.0). Digital twins, AI agents, BSL.
+    homepage: https://infaton.ru
+    topics:
+      - 1c
+      - 1c-enterprise
+      - ai-agent
+      - bsl
+      - digital-twin
+      - erp
+      - json-rpc
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - onescript
+    last_checked_at: "2026-06-29T05:38:55.231Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:55.231Z"
+      bytes: 17989
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing 51 tools for interacting with 1C:Enterprise ERP databases via the Model Context Protocol.
+  why_it_matters: It allows AI assistants like Claude Desktop or Cursor to perform complex enterprise tasks like querying accounting entries, checking document balances, and auditing register totals directly in 1C.
+  mental_damage: Now your coding assistant can perform a full financial audit of your company while you're still trying to fix a syntax error.
+  tags:
+    - mcp
+    - 1c-enterprise
+    - erp
+    - finance
+    - mcp-server
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server designed to extend AI capabilities into a specific enterprise domain.
+  evidence:
+    - Repo description explicitly identifies it as an INFATON MCP Server
+    - README specifies 51 distinct tools for interacting with 1C:Enterprise
+    - Implementation includes a Node.js stdio wrapper for MCP-compliant clients
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:38:55.231Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:43:58.595Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

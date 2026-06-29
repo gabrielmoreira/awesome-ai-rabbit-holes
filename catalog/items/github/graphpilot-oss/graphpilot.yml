@@ -24,30 +24,47 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-17T09:21:03Z"
+    pushed_at: "2026-06-28T02:12:49Z"
+    description: Structural memory for coding agents — index your repo once, query symbols, callers, and call-edges over MCP.
+    homepage: https://github.com/graphpilot-oss/graphpilot
+    topics:
+      - claude-code
+      - code-analysis
+      - coding-agents
+      - developer-tools
+      - mcp
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-06-29T05:38:44.231Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:44.231Z"
+      bytes: 19682
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local CLI and MCP server that indexes TypeScript/JavaScript repositories into a structural graph for coding agents to query symbols, callers, and call-edges.
+  why_it_matters: It reduces token spend and hallucinations by providing agents with persistent, structural memory of a codebase's architecture instead of relying on repetitive grep-like file reads.
+  mental_damage: The realization that we are now building sophisticated graph databases just so our agents stop forgetting where a function is called across three files.
+  tags:
+    - mcp
+    - code-analysis
+    - typescript
+    - local-ai
+    - context-window
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core novelty is the structural indexing and memory system used to shape context for other assistants, making it a context engineering tool rather than a standalone agent.
+  evidence:
+    - README describes it as 'structural memory for coding agents'
+    - Core value prop is reducing tokens and hallucinations via a persistent graph index
+    - Provides the data (symbols, call-edges) that assistants use to avoid re-grepping files
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,15 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-25T05:25:21.597Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for graphpilot-oss/graphpilot
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-06-29T05:38:44.231Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:40:16.046Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

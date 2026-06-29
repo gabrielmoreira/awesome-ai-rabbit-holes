@@ -24,33 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 666
+    forks: 44
+    license: MIT
+    archived: false
+    created_at: "2025-09-19T22:15:22Z"
+    pushed_at: "2026-06-28T19:43:53Z"
+    description: Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session history across Codex, Claude Code, OpenCode, Cursor Agent, Hermes, OpenClaw, Copilot CLI, and more.
+    homepage: https://jazzyalex.github.io/agent-sessions
+    topics:
+      - agentic-workflow
+      - ai
+      - ai-coding-agents
+      - anthropic
+      - claude-code
+      - codex
+      - codex-cli
+      - copilot-cli
+      - cursor-agent
+      - developer-tools
+      - hermes-agent
+      - local-first
+      - macos
+      - openai
+      - openclaw
+      - opencode
+      - session-history
+      - session-management
+      - transcript-search
+      - usage-tracking
+    last_checked_at: "2026-06-29T05:39:01.647Z"
+    readme:
+      fetched_at: "2026-06-29T05:39:01.647Z"
+      bytes: 12170
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Agent Sessions is a local-first macOS app for browsing, searching, and resuming AI coding-agent session history across multiple tools like Codex, Claude Code, and Cursor Agent.
+  why_it_matters: It lets developers recover and reuse prior agent work without re-prompting, reducing repetitive effort in AI-assisted coding workflows.
+  mental_damage: Finally, a tool to organize the sprawling, forgotten transcripts of your AI pair programmers—because even agents need a filing cabinet.
+  tags:
+    - session-management
+    - ai-coding-agents
+    - local-first
+    - macos
+    - developer-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Agent Sessions is an extension that augments multiple coding agents with session browsing, search, and resume capabilities, making it a host integration layer rather than a primary coding assistant.
+  evidence:
+    - "Repo description: 'Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session history across Codex, Claude Code, OpenCode, Cursor Agent, Hermes, OpenClaw, Copilot CLI, and more.'"
+    - "README: 'Brings Codex, Claude, OpenCode, Cursor Agent, Hermes, OpenClaw, Antigravity, GitHub Copilot CLI, and Pi histories into one searchable view, with transcript inspection, image browsing, saved-session recovery, and resume commands for supported CLIs.'"
+    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers & parallel runners' as a session manager for terminal-native AI coding agents."
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (666) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:39:01.647Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:46:00.946Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

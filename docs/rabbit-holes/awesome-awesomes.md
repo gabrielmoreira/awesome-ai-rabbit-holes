@@ -49,7 +49,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `agents` `directory` `awesome-list` `ecosystem`
   </details>
 
-- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 26.9k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
 
   It serves as a centralized map for developers trying to navigate the fragmented ecosystem of models, inference stacks, and training tooling.
 
@@ -94,7 +94,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `open-source` `licensing` `model-directory`
   </details>
 
-- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.5k` `updated ≤30d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.7k` `updated ≤30d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
 
   It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
 
@@ -229,7 +229,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `autodl` `automl` `nas` `deep-learning` `research`
   </details>
 
-- **[awesome-local-ai](https://github.com/janhq/awesome-local-ai)** `⭐ 1.9k` `updated >1y` A curated GitHub awesome list cataloging open-source tools and solutions for running AI models locally on personal hardware. <details><summary>More about</summary>
+- **[awesome-local-ai](https://github.com/janhq/awesome-local-ai)** `⭐ 2k` `updated >1y` A curated GitHub awesome list cataloging open-source tools and solutions for running AI models locally on personal hardware. <details><summary>More about</summary>
 
   It serves as a centralized navigation map for developers looking to escape cloud API costs and privacy concerns by self-hosting inference engines and models.
 
@@ -364,7 +364,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 578` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 670` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
 
   It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
 
@@ -440,7 +440,7 @@ _These are new or low-traffic entries being watched._
   `federated-learning` `mlops` `papers` `systems` `awesome-list`
   </details>
 
-- **[awesome-a2a-agents](https://github.com/isekos/awesome-a2a-agents)** `⭐ 23` `updated ≤1y` A curated list of tools, frameworks, and projects built on Google's Agent-to-Agent (A2A) communication protocol. <details><summary>More about</summary>
+- **[awesome-a2a-agents](https://github.com/isekos/awesome-a2a-agents)** `⭐ 26` `updated ≤1y` A curated list of tools, frameworks, and projects built on Google's Agent-to-Agent (A2A) communication protocol. <details><summary>More about</summary>
 
   It serves as a discovery hub for developers looking to build or integrate interoperable, multi-agent systems using the emerging A2A standard.
 
@@ -512,7 +512,7 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `agentic-ai` `multi-agent` `resources` `directory`
   </details>
 
-- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤180d` A curated list of protocols, SDKs, and tools for AI agent communication, covering email, MCP, webhooks, and inter-agent messaging. <details><summary>More about</summary>
+- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤30d` A curated list of protocols, SDKs, and tools for AI agent communication, covering email, MCP, webhooks, and inter-agent messaging. <details><summary>More about</summary>
 
   It provides a centralized discovery map for developers stitching together multi-agent systems that need to send email, use MCP servers, or route webhooks.
 

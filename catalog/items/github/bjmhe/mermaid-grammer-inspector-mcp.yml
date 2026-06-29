@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-18T05:40:17.467Z"
-    cause: null
+    status: failed
+    updated_at: "2026-06-29T05:38:30.009Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: bjmhe/mermaid-grammer-inspector-mcp"
     next_retry_at: null
   categorize:
     status: done

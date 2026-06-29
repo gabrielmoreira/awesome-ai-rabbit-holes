@@ -1,0 +1,99 @@
+id: github__bluesprince__thiri-mcp
+kind: github-repo
+name: thiri-mcp
+canonical_url: https://github.com/bluesprince/thiri-mcp
+identity:
+  github_repo: bluesprince/thiri-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bluesprince__thiri-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-29T05:38:18.519Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: BluesPrince/thiri-mcp
+        extracted_url: https://github.com/bluesprince/thiri-mcp
+        surrounding_text: "- [BluesPrince/thiri-mcp](https://github.com/BluesPrince/thiri-mcp) [![BluesPrince/thiri-mcp MCP server](https://glama.ai/mcp/servers/BluesPrince/thiri-mcp/badges/score.svg)](https://glama.ai/mcp/servers/BluesPrince/thiri-mcp) 📇 ☁️ 🏠 - Deterministic music-theory server: chord & Roman-numeral analysis, voicing, and reharmonization — computed, not hallucinated. Hosted at mcp.thiri.ai, no third-party account required. `npx @bluesprincemedia/thiri-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-26T15:24:59Z"
+    pushed_at: "2026-06-20T21:15:08Z"
+    description: Deterministic music-theory MCP server & API — chord analysis, Roman-numeral analysis, voicing & reharmonization for Claude & Cursor. Computed, not hallucinated. Hosted at mcp.thiri.ai · npx @bluesprincemedia/thiri-mcp
+    homepage: null
+    topics:
+      - ai-agent
+      - chord-analysis
+      - chord-progression
+      - chords
+      - claude
+      - cursor
+      - deterministic
+      - harmony
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - music
+      - music-theory
+      - music-theory-api
+      - reharmonization
+      - roman-numeral-analysis
+      - voice-leading
+      - voicing
+    last_checked_at: "2026-06-29T05:38:30.993Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:30.993Z"
+      bytes: 7206
+insights:
+  summary: Deterministic music theory MCP server providing chord analysis, reharmonization, and voicing tools.
+  why_it_matters: It allows AI agents to perform precise musical reasoning and composition without the risk of standard LLM hallucinations.
+  mental_damage: Because now your agent can be mathematically certain about why its musical hallucinations are technically correct.
+  tags:
+    - mcp
+    - music-theory
+    - ai-agents
+    - deterministic
+  confidence: high
+curation:
+  status: included
+  reason: The project is a domain-specific MCP server designed to provide reliable, computed music theory capabilities to agents.
+  evidence:
+    - Repo description identifies it as a 'deterministic music-theory MCP server'
+    - Provides specific tools like analyze_chord and reharmonize for use in Claude and Cursor
+    - Explicitly targets the LLM hallucination problem in music theory
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-06-29T05:38:18.520Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-06-29T05:38:30.993Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:47:42.093Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

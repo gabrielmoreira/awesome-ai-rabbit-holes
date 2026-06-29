@@ -24,30 +24,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-15T23:31:20Z"
+    pushed_at: "2026-06-19T00:28:22Z"
+    description: Free MCP server to convert, compress & merge PDFs and 100+ file formats (Word, Excel, images, ebooks) from Claude, Cursor, VS Code & any AI agent. Powered by GuruPDF.
+    homepage: https://gurupdf.com
+    topics:
+      - ai-agent
+      - ai-tools
+      - claude
+      - compress-pdf
+      - cursor
+      - document-conversion
+      - file-conversion
+      - gurupdf
+      - image-conversion
+      - llm-tools
+      - mcp
+      - merge-pdf
+      - model-context-protocol
+      - ocr
+      - pdf
+      - pdf-converter
+      - pdf-to-word
+      - typescript
+    last_checked_at: "2026-06-29T05:38:45.774Z"
+    readme:
+      fetched_at: "2026-06-29T05:38:45.774Z"
+      bytes: 5440
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A free MCP server that converts, compresses, merges, and edits PDFs and over 100 other file formats for Claude, Cursor, VS Code, and other AI agents.
+  why_it_matters: It lets developers delegate common document operations to an AI agent through a standard protocol, removing the need to switch contexts or upload files to separate converters.
+  mental_damage: It diligently converts your PDFs via a formal protocol, in case casually using an online converter felt too low-stakes for the agentic era.
+  tags:
+    - mcp-server
+    - pdf
+    - file-conversion
+    - document-tools
+    - ai-agent
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose explicit identity is exposing document-conversion primitives to AI agents, fitting cleanly into MCP Servers & Tooling rather than a generic extension category.
+  evidence:
+    - Repo description and README brand it exclusively as a 'Model Context Protocol (MCP) server' for file conversion.
+    - Listed in awesome-mcp-servers under File Systems, confirming its accepted role as MCP infrastructure.
+    - "Archived: no and recently pushed (2026-06-19), though it is very new with 0 stars."
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +86,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-06-29T05:38:45.774Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-25T05:25:24.846Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-06-29T05:40:06.605Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
