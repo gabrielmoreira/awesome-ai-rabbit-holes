@@ -4,7 +4,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.1k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
 
   It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
 
@@ -141,6 +141,15 @@ _These are new or low-traffic entries being watched._
   _Another 'vibe coding' frontend that promises you can describe any idea and get animations and interactions, right before you resign yourself to manually fixing the generated WordPress theme anyway._
 
   `ai-website-builder` `wordpress` `prompt-to-site` `hosting`
+  </details>
+
+- **[base44](https://base44.com)** Base44 is a no-code AI app builder that generates full-stack applications from natural language prompts. <details><summary>More about</summary>
+
+  It lets developers and non-technical users rapidly prototype and deploy functional apps, internal tools, and AI-powered workflows without writing code.
+
+  _The promise of 'just describe it' feels magical until you realize debugging AI-generated logic is just as painful as debugging hand-written spaghetti._
+
+  `no-code` `app-builder` `ai-platform` `prompt-to-app`
   </details>
 
 - **[base44](https://www.base44.com)** Base44 is a prompt-to-app builder that generates full-stack internal tools and web applications from natural language descriptions. <details><summary>More about</summary>

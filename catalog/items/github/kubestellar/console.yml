@@ -24,27 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 119
+    forks: 124
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-01-16T06:32:19Z"
+    pushed_at: "2026-07-02T05:11:29Z"
+    description: World's first fully integrated and fully Automated Kubernetes management and orchestration solution
+    homepage: https://console.kubestellar.io
+    topics: []
+    last_checked_at: "2026-07-02T05:22:55.659Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:55.659Z"
+      bytes: 36229
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: KubeStellar Console is a Kubernetes dashboard with AI-powered guided missions for multi-cluster management and CNCF project integration.
+  why_it_matters: It simplifies Kubernetes operations by combining a unified dashboard with AI-guided setup for complex workloads across clusters.
+  mental_damage: Another dashboard promising to fix Kubernetes complexity, as if YAML wasn't already abstracted enough by the last seven tools.
+  tags:
+    - kubernetes
+    - dashboard
+    - ai-guided
+    - multi-cluster
+    - cncf
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The tool is primarily a Kubernetes operations dashboard with AI-assisted setup, not a developer-facing coding assistant, agent, or AI tooling product.
+  evidence:
+    - "Repo description: 'World's first fully integrated and fully Automated Kubernetes management and orchestration solution'"
+    - "README: 'AI-powered multi-cluster Kubernetes dashboard with guided install missions for 250+ CNCF projects'"
+    - "Source-list context: Included in Awesome-LLMOps under Serving > Frameworks/Servers for Serving, indicating infrastructure/tooling use, not developer-facing AI coding assistance"
 placement:
   primary_category: null
   section: null
@@ -58,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:55.659Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:30:54.752Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -1,0 +1,72 @@
+id: github__madarco__agentbox
+kind: github-repo
+name: agentbox
+canonical_url: https://github.com/madarco/agentbox
+identity:
+  github_repo: madarco/agentbox
+provenance:
+  discoveries:
+    - id: discovery__github__madarco__agentbox__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: AgentBox
+        extracted_url: https://github.com/madarco/agentbox
+        surrounding_text: "- **[AgentBox](https://github.com/madarco/agentbox)** `⭐ 178` — Run multiple coding agents in parallel, each teleported into its own sandboxed VM (local Docker, self-hosted, or cloud: Hetzner/Daytona/Vercel/E2B); sub-second checkpoints, per-box browser/VS Code/shells, git creds kept on the host. Works with Claude Code, Codex, and OpenCode. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.472Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-07-02T05:23:08.828Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for madarco/agentbox
+  categorize:
+    status: skipped
+    updated_at: "2026-07-02T05:23:10.706Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

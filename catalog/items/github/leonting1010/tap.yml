@@ -24,17 +24,16 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3
+    stars: 9
     forks: 1
     license: MIT
     archived: false
     created_at: "2026-04-03T00:26:27Z"
-    pushed_at: "2026-05-05T11:06:08Z"
-    description: Automate any website. AI compiles it. Runs forever at $0. 200+ skills, 3 runtimes, MCP native.
-    homepage: https://taprun.dev/?utm_source=github&utm_medium=repo&utm_campaign=homepage
+    pushed_at: "2026-06-28T03:21:21Z"
+    description: Local-first browser automation MCP for Claude Code / Cursor. taprun compiles once with AI, your authenticated Chrome replays forever at zero LLM tokens. Credentials never leave your machine.
+    homepage: https://taprun.dev/
     topics:
       - ai-agent
-      - ai-automation
       - automation
       - browser-automation
       - browser-use
@@ -46,16 +45,18 @@ metadata:
       - data-extraction
       - deterministic
       - llm
+      - local-first
       - mcp
       - mcp-server
       - playwright
       - puppeteer
       - scraping
       - stagehand
-    last_checked_at: "2026-05-06T22:44:57.869Z"
+      - taprun
+    last_checked_at: "2026-07-02T05:23:02.700Z"
     readme:
-      fetched_at: "2026-05-06T22:44:57.869Z"
-      bytes: 12906
+      fetched_at: "2026-07-02T05:23:02.700Z"
+      bytes: 13598
 insights:
   summary: Taprun is a local-first browser automation tool that uses AI to compile website interactions into deterministic .plan.json programs that can be replayed forever without additional LLM tokens.
   why_it_matters: It eliminates recurring AI costs for web scraping and automation by front-loading the intelligence once, then running purely deterministic replays with built-in breakage detection via `tap verify`.
@@ -88,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:44:57.869Z"
+    updated_at: "2026-07-02T05:23:02.700Z"
     cause: null
     next_retry_at: null
   categorize:

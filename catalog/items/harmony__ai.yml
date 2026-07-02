@@ -1,0 +1,75 @@
+id: harmony__ai
+kind: website
+name: harmony.ai
+canonical_url: https://harmony.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__harmony__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer tools
+        anchor_text: One AI
+        extracted_url: https://www.oneai.com
+        surrounding_text: "- [One AI](https://www.oneai.com/) - MAKING GENERATIVE AI BUSINESS-READY."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: harmony.ai is a commercial AI phone call agent platform for lead qualification, meeting scheduling, and outbound/inbound call automation across phone, SMS, and WhatsApp.
+  why_it_matters: It matters to developers seeking to integrate AI-powered voice and messaging workflows into sales or customer engagement systems via its API and CRM integrations.
+  mental_damage: Another ‘AI workforce’ promising to replace humans while quietly just automating the most soul-crushing parts of cold outreach.
+  tags:
+    - ai-agents
+    - sales-automation
+    - voice-api
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a hosted SaaS platform for AI-driven phone and messaging campaigns, not a developer-facing coding tool, agent, or infrastructure relevant to software development workflows.
+  evidence:
+    - Scraped site context describes automating phone calls with AI agents to qualify leads, book meetings, and drive revenue across phone, SMS, and WhatsApp.
+    - Source-list context from awesome-local-ai lists it under 'Developer tools' but positions it as a lead qualification and meeting scheduling tool for sales teams, not coding assistants or developer tooling.
+    - No evidence of code-first usage, SDKs, CLI, repo editing, agent orchestration, or any developer tooling identity — core product is a commercial AI calling platform.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.472Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:33:24.309Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

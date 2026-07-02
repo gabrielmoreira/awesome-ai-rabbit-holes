@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:44:56.631Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-02T05:23:01.848Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: laundromatic/shopgraph"
     next_retry_at: null
   categorize:
     status: done

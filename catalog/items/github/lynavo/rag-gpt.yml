@@ -57,12 +57,14 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-07-02T05:23:08.257Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for lynavo/rag-gpt
   categorize:
     status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
+    updated_at: "2026-07-02T05:23:10.706Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

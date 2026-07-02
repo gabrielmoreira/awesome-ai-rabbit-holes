@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 22
-    forks: 15
+    stars: 28
+    forks: 17
     license: MIT
     archived: false
     created_at: "2026-01-03T19:19:56Z"
-    pushed_at: "2026-05-02T13:02:02Z"
+    pushed_at: "2026-06-26T10:47:30Z"
     description: "Session-based Slack MCP for Claude and MCP clients: local-first workflows, secure-default HTTP."
     homepage: https://mcp.revasserlabs.com
     topics:
       - platform-commercial
       - status-live
-    last_checked_at: "2026-05-06T22:44:37.848Z"
+    last_checked_at: "2026-07-02T05:22:49.173Z"
     readme:
-      fetched_at: "2026-05-06T22:44:37.848Z"
-      bytes: 14746
+      fetched_at: "2026-07-02T05:22:49.173Z"
+      bytes: 16709
 insights:
   summary: A session-token-based MCP server that gives AI agents like Claude Code and Cursor direct Slack access without OAuth apps or admin approval.
   why_it_matters: It lets developers triage unreads, search threads, and send replies from their editor by bridging Slack through browser session tokens instead of broken official OAuth flows.
@@ -70,11 +70,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-29T05:39:05.893Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for jtalk22/slack-mcp-server
+    status: done
+    updated_at: "2026-07-02T05:22:49.173Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

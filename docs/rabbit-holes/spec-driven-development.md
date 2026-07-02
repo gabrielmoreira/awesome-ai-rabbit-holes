@@ -31,7 +31,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `ai-agents` `agile` `workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 22.4k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 22.7k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
 
@@ -112,7 +112,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `mcp` `spec-driven` `requirements` `workflow`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 394` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 413` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
 
   It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
 

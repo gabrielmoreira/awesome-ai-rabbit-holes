@@ -139,7 +139,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `open-source`
   </details>
 
-- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 39.6k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
+- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 40.1k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
 
   It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
 
@@ -193,6 +193,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `private` `documents` `ollama`
   </details>
 
+- **[ktransformers](https://github.com/kvcache-ai/ktransformers)** `⭐ 17.4k` `updated ≤30d` A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing. <details><summary>More about</summary>
+
+  It enables running and fine-tuning cutting-edge models like DeepSeek-V3 and Kimi-K2 on consumer-grade hardware by drastically reducing VRAM requirements.
+
+  _You now have the framework to run a 671B parameter model on your 24GB GPU, which is the perfect excuse to avoid actually writing any application code._
+
+  `local-ai` `llm-inference` `fine-tuning` `optimization`
+  </details>
+
 - **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 17.2k` `updated ≤180d` AirLLM is a Python library that optimizes LLM inference memory usage, enabling large models like 70B or 405B Llama to run on low-VRAM hardware (4GB–8GB) without quantization. <details><summary>More about</summary>
 
   It lets developers experiment with and serve state-of-the-art open-weight models locally on commodity GPUs that would otherwise be unable to load them.
@@ -200,15 +209,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Because apparently the only thing standing between you and running a 405B model was a clever memory trick, not your career’s worth of unresolved technical debt._
 
   `local-ai` `llm-inference` `memory-optimization` `open-models`
-  </details>
-
-- **[ktransformers](https://github.com/kvcache-ai/ktransformers)** `⭐ 17.1k` `updated ≤90d` A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing. <details><summary>More about</summary>
-
-  It enables running and fine-tuning cutting-edge models like DeepSeek-V3 and Kimi-K2 on consumer-grade hardware by drastically reducing VRAM requirements.
-
-  _You now have the framework to run a 671B parameter model on your 24GB GPU, which is the perfect excuse to avoid actually writing any application code._
-
-  `local-ai` `llm-inference` `fine-tuning` `optimization`
   </details>
 
 - **[qwen3-coder](https://github.com/qwenlm/qwen3-coder)** `⭐ 16.5k` `updated ≤180d` Qwen3-Coder is an open-weight language model series from Alibaba's Qwen team, specifically fine-tuned for coding tasks and agentic workflows with support for long contexts up to 1M tokens. <details><summary>More about</summary>
@@ -238,6 +238,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-serving` `openai-compatible` `self-hosted`
   </details>
 
+- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 10.9k` `updated ≤30d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
+
+  It provides a zero-install, cross-platform way for developers to run local LLMs and multimodal models with OpenAI-compatible APIs for testing and integration.
+
+  _Yet another reason to believe your coding assistant's soul lives in a single file on your desktop, provided you can navigate the 10,000 configuration flags first._
+
+  `local-ai` `llm` `gguf` `inference` `openai-api`
+  </details>
+
 - **[ChatUI](https://github.com/huggingface/chat-ui)** `⭐ 10.8k` `updated ≤30d` A SvelteKit-based chat interface for LLMs that powers HuggingChat and connects to any OpenAI-compatible API, including local runtimes like Ollama and llama.cpp. <details><summary>More about</summary>
 
   Developers can self-host a full-featured chat UI to interact with local or cloud models without relying on closed proprietary frontends.
@@ -247,16 +256,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `chat-ui` `local-ai` `sveltekit` `self-hosted` `llm-interface`
   </details>
 
-- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 10.4k` `updated ≤90d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
-
-  It provides a zero-install, cross-platform way for developers to run local LLMs and multimodal models with OpenAI-compatible APIs for testing and integration.
-
-  _Yet another reason to believe your coding assistant's soul lives in a single file on your desktop, provided you can navigate the 10,000 configuration flags first._
-
-  `local-ai` `llm` `gguf` `inference` `openai-api`
-  </details>
-
-- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.4k` `updated ≤30d` Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server. <details><summary>More about</summary>
+- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.5k` `updated ≤30d` Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server. <details><summary>More about</summary>
 
   It lets developers run GGUF models locally with hardware acceleration and drop-in OpenAI API compatibility for building offline-capable AI workflows.
 
@@ -445,6 +445,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `apple-silicon` `mlx` `chat-ui` `privacy`
   </details>
 
+- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.5k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
+
+  It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
+
+  _Another 'speed-of-light' inference engine promising to finally make your agents not feel like they're wading through molasses._
+
+  `llm-inference` `agentic-workloads` `performance`
+  </details>
+
 - **[LlamaChat](https://github.com/alexrozanski/llamachat)** `⭐ 1.5k` `updated ≤30d` LlamaChat is a native macOS desktop app for chatting with locally running LLaMA, Alpaca, and GPT4All models via llama.cpp. <details><summary>More about</summary>
 
   It gives developers a polished SwiftUI interface to run and convert local LLMs without touching the command line, making local inference more accessible on Apple hardware.
@@ -472,7 +481,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llama-cpp` `macos` `openai-compatible` `menu-bar`
   </details>
 
-- **[KubeAI](https://github.com/kubeai-project/kubeai)** `⭐ 1.2k` `updated ≤90d` KubeAI is a Kubernetes operator that deploys, scales, and manages ML model inference servers like vLLM and Ollama with OpenAI-compatible APIs and intelligent load balancing. <details><summary>More about</summary>
+- **[KubeAI](https://github.com/kubeai-project/kubeai)** `⭐ 1.2k` `updated ≤30d` KubeAI is a Kubernetes operator that deploys, scales, and manages ML model inference servers like vLLM and Ollama with OpenAI-compatible APIs and intelligent load balancing. <details><summary>More about</summary>
 
   It lets developers run production-grade LLM, embedding, and speech-to-text inference on their own clusters with zero-to-N scaling and prefix-aware routing without needing Istio or Knative.
 
@@ -526,7 +535,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `discord` `llm-frontend` `local-ai` `chatbot` `openai-compatible`
   </details>
 
-- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 520` `updated ≤90d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
+- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 530` `updated ≤30d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers self-host and ship local LLM inference and fine-tuning workloads using familiar container workflows and Kubernetes, without relying on external API providers.
 
@@ -571,11 +580,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
 
-## Incubating
-
-_These are new or low-traffic entries being watched._
-
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 140` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 156` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 
@@ -583,6 +588,10 @@ _These are new or low-traffic entries being watched._
 
   `kubernetes` `local-inference` `self-hosted` `gpu-serving` `llm-operator`
   </details>
+
+## Incubating
+
+_These are new or low-traffic entries being watched._
 
 - **[LoLLMS](https://github.com/parisneo/lollms)** `⭐ 72` `updated ≤90d` A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features. <details><summary>More about</summary>
 

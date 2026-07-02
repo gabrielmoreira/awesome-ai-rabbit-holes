@@ -1,0 +1,86 @@
+id: github__lee101__codex-infinity
+kind: github-repo
+name: codex-infinity
+canonical_url: https://github.com/lee101/codex-infinity
+identity:
+  github_repo: lee101/codex-infinity
+provenance:
+  discoveries:
+    - id: discovery__github__lee101__codex-infinity__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Codex Infinity
+        extracted_url: https://github.com/lee101/codex-infinity
+        surrounding_text: "- **[Codex Infinity](https://github.com/lee101/codex-infinity)** `⭐ 85` — Autonomous terminal coding agent (OpenAI Codex CLI fork) adding auto-continuation, parallel multi-agent runs, and CI repair loops."
+        confidence: high
+metadata:
+  github:
+    stars: 86
+    forks: 5
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-10-17T21:25:18Z"
+    pushed_at: "2026-06-29T03:51:02Z"
+    description: "infinite coding agent "
+    homepage: https://codex-infinity.com/
+    topics:
+      - agent
+      - ai
+      - aiagent
+      - codex
+      - coding
+    last_checked_at: "2026-07-02T05:23:02.304Z"
+    readme:
+      fetched_at: "2026-07-02T05:23:02.304Z"
+      bytes: 6813
+insights:
+  summary: Codex Infinity is a terminal-based autonomous coding agent that extends OpenAI Codex CLI with self-looping flags for continuous code generation, testing, and idea implementation.
+  why_it_matters: It lets developers delegate open-ended coding tasks to an agent that can run indefinitely without manual intervention, reducing repetitive prompting.
+  mental_damage: Watch your CI bill spike as the agent dreams up and implements 'improvements' forever while you question if 'done' is a myth.
+  tags:
+    - coding-agent
+    - autonomous
+    - cli
+    - openai-codex
+  confidence: high
+curation:
+  status: included
+  reason: It is a standalone terminal-native coding assistant that directly plans, writes, tests, and iterates on code using autonomous loops, making it a primary coding agent rather than an extension.
+  evidence:
+    - "Repo description: 'infinite coding agent'"
+    - "README: 'Codex Infinity is a smarter coding agent that can run forever' with flags like --auto-next-steps, --auto-next-idea, and --auto-next-goal for autonomous operation"
+    - Usage examples show direct code edits, test runs, refactoring, and goal chaining without requiring another assistant
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.471Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-02T05:23:02.304Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:32:53.375Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

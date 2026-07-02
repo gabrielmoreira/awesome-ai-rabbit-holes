@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 147
-    forks: 25
+    stars: 155
+    forks: 26
     license: MIT
     archived: false
     created_at: "2025-06-11T10:58:03Z"
-    pushed_at: "2026-05-01T10:50:31Z"
+    pushed_at: "2026-06-20T21:17:12Z"
     description: Quickly reads webpages and converts to markdown for fast, token efficient web scraping
     homepage: https://justevery.com
     topics:
@@ -41,9 +41,9 @@ metadata:
       - mcp-server
       - scraper
       - website
-    last_checked_at: "2026-05-06T22:44:38.888Z"
+    last_checked_at: "2026-07-02T05:22:50.007Z"
     readme:
-      fetched_at: "2026-05-06T22:44:38.888Z"
+      fetched_at: "2026-07-02T05:22:50.007Z"
       bytes: 6694
 insights:
   summary: An MCP server that fetches web pages, strips noise using Mozilla Readability, and converts content to clean Markdown for token-efficient consumption by AI agents and IDEs.
@@ -67,8 +67,8 @@ placement:
   primary_category: mcp
   section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (155) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -76,11 +76,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-29T05:39:06.787Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for just-every/mcp-read-website-fast
+    status: done
+    updated_at: "2026-07-02T05:22:50.007Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

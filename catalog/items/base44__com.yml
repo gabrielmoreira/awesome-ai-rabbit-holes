@@ -1,0 +1,76 @@
+id: base44__com
+kind: website
+name: base44.com
+canonical_url: https://base44.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__base44__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: base44
+        extracted_url: https://www.base44.com
+        surrounding_text: "- **[base44](https://www.base44.com/)** – AI-native software development OS for startups."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Base44 is a no-code AI app builder that generates full-stack applications from natural language prompts.
+  why_it_matters: It lets developers and non-technical users rapidly prototype and deploy functional apps, internal tools, and AI-powered workflows without writing code.
+  mental_damage: The promise of 'just describe it' feels magical until you realize debugging AI-generated logic is just as painful as debugging hand-written spaghetti.
+  tags:
+    - no-code
+    - app-builder
+    - ai-platform
+    - prompt-to-app
+  confidence: high
+curation:
+  status: included
+  reason: Base44’s core function is turning natural language into full-stack applications with auto-generated backends, authentication, hosting, and integrations, fitting the app-builder pattern rather than a coding agent or IDE extension.
+  evidence:
+    - Base44 lets you build fully-functional apps in minutes with just your words. No coding necessary.
+    - The AI creates a detailed plan, sets up logic and infrastructure (user logins, auth, storage, RBAC), and provides built-in hosting, analytics, and custom domains.
+    - "Listed in awesome-ai-coding-tools under the App Builders section with the description: 'Base44 is the fastest way to build production-ready AI applications. No coding required.'"
+placement:
+  primary_category: app-builders
+  section: Prompt-to-App Builders
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.472Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:31:48.823Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

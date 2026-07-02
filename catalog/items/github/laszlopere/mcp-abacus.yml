@@ -24,17 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-06-14T05:04:49Z"
+    pushed_at: "2026-07-01T17:11:13Z"
+    description: High-precision calculator MCP server — goes beyond arithmetic to calculus (derivatives, integrals) and equation solving, all evaluated in fixed-point, IEEE-754, or exact rational mode with every answer labelled exact or inexact.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai
+      - arithmetic
+      - calculator
+      - claude
+      - decimal
+      - fixed-point
+      - ieee-754
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+      - rational
+    last_checked_at: "2026-07-02T05:23:01.375Z"
+    readme:
+      fetched_at: "2026-07-02T05:23:01.375Z"
+      bytes: 8072
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +72,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:23:01.375Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-02T05:31:10.126Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__laszlopere__mcp-abacus: Invalid AI response format: SyntaxError: Unexpected token 'm', ...\"_reason\": mcp-abacus\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

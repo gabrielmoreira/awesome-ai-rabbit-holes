@@ -54,18 +54,24 @@ metadata:
       fetched_at: "2026-06-29T05:39:00.226Z"
       bytes: 8476
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: pg-mnemosyne-mcp is a PostgreSQL-backed MCP server providing AI agents with shared memory, task tracking, and database management capabilities.
+  why_it_matters: It enables AI agents to coordinate without conflicts by centralizing task and persistent, in any module a product e of framework, general infrastructure; it is not a product ID or CLI, but prevents them from writing or modifying code directly.
+  mental_damage: Finally, a way for your AI agents to argue over shared state without ever touching your actual codebase.
+  tags:
+    - mcp
+    - postgresql
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server whose core identity and functionality are defined by implementing the Model Context Protocol, making MCP Servers & Tooling the correct category.
+  evidence:
+    - "Repo description: '🧠 A high-performance PostgreSQL-backed MCP server acting as a super memory, task tracker, and dynamic database manager for AI agents.'"
+    - "README: 'A Model Context Protocol (MCP) server that provides AI assistants with a robust \"super memory\", task tracker, and dynamic PostgreSQL database management capabilities.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -81,12 +87,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-06-29T05:45:51.984Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__janadasroor__pg-mnemosyne-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-02T05:32:12.317Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -24,30 +24,51 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-23T11:47:22Z"
+    pushed_at: "2026-05-25T20:56:40Z"
+    description: An MCP server (and a CLI) that lets an LLM query your databases in natural language through a business semantic layer — glossary, metric definitions, data dictionary, knowledge base, and example queries — grounded against your real schema.
+    homepage: ""
+    topics:
+      - agentic-ai
+      - database-mcp-server
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - ollama
+      - semantic-search
+      - sql
+      - sqlite
+      - sqlite-vec
+      - text-to-sql
+    last_checked_at: "2026-07-02T05:22:54.651Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:54.651Z"
+      bytes: 8290
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server and CLI that allows LLMs to query databases using a business semantic layer of glossaries, metrics, and metadata.
+  why_it_matters: It provides the necessary semantic grounding to turn vague natural language questions into accurate, schema-aware SQL queries.
+  mental_damage: Another way to pretend your LLM understands your company's spaghetti SQL schema, provided you've spent enough time documenting the glossary.
+  tags:
+    - mcp
+    - sql
+    - semantic-layer
+    - database
+    - text-to-sql
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server designed to provide specialized database capabilities to host assistants.
+  evidence:
+    - Repo name and description explicitly identify it as an MCP server
+    - Provides a specific MCP toolset for semantic context, SQL generation, and execution
+    - Offers specialized connectors for SQLite, PostgreSQL, BigQuery, and Databricks
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:54.651Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:29:55.898Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

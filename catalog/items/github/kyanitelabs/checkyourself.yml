@@ -24,30 +24,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-05-29T07:46:55Z"
+    pushed_at: "2026-06-26T20:15:43Z"
+    description: "Local-first production-readiness system for AI-built apps: read-only audit, evidence-based 0-100 score, guided fixes, learning plan, dashboard, CLI, and MCP."
+    homepage: https://kyanitelabs.tech
+    topics:
+      - ai
+      - ai-agents
+      - ai-coding-assistant
+      - ai-tools
+      - claude
+      - cli
+      - code-audit
+      - code-review
+      - copilot
+      - cursor
+      - developer-tools
+      - devtools
+      - learning-plan
+      - llm
+      - mcp
+      - model-agnostic
+      - pre-launch-checklist
+      - production-readiness
+      - security-audit
+      - vibe-coding
+    last_checked_at: "2026-07-02T05:22:59.268Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:59.268Z"
+      bytes: 15721
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CheckYourself is a local-first Python CLI and MCP server that audits AI-built apps with a deterministic 0-100 production readiness score and guided fixes.
+  why_it_matters: It gives developers a repeatable, evidence-based way to find real production risks in AI-generated code before launch.
+  mental_damage: Finally, a tool that scores your vibe-coded app like a stressed-out senior engineer who just saw your PR.
+  tags:
+    - code-audit
+    - cli
+    - mcp
+    - local-first
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: CheckYourself functions as an extension that augments AI coding assistants with audit, scoring, and workflow capabilities rather than acting as a primary coding assistant itself.
+  evidence:
+    - Repo description positions it as a 'Local-first production-readiness system for AI-built apps' with MCP and CLI
+    - README states it 'turns your AI assistant into a pre-launch production reviewer' and requires pointing the AI at CONTEXT.md
+    - It provides read-only audits, scoring, fix suggestions, and learning plans — augmenting, not replacing, the AI assistant's core coding role
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +87,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:59.268Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:31:05.406Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

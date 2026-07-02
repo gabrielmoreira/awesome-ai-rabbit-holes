@@ -24,30 +24,57 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-28T23:07:53Z"
+    pushed_at: "2026-06-16T15:55:08Z"
+    description: Keel — CLI and MCP server for AI-driven crypto strategy development on Hyperliquid
+    homepage: https://usekeel.io/keel-mcp
+    topics:
+      - ai-agent
+      - ai-agents
+      - backtesting
+      - backtesting-engine
+      - backtesting-frameworks
+      - claude
+      - cli
+      - crypto
+      - hyperliquid
+      - mcp
+      - model-context-protocol
+      - perps
+      - python
+      - quant
+      - quantitative-finance
+      - trading
+      - trading-strategy-simulation
+    last_checked_at: "2026-07-02T05:22:52.045Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:52.045Z"
+      bytes: 10877
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI and MCP server for building, backtesting, and automating Hyperliquid crypto trading strategies using AI agents.
+  why_it_matters: It allows developers to use agents to compose complex quantitative strategies that run on a deterministic engine, preventing the LLM from being in the actual high-risk execution loop.
+  mental_damage: Because nothing bridges the gap between 'AI hype' and 'financial ruin' quite like letting an LLM compose a deterministic trading strategy.
+  tags:
+    - mcp
+    - crypto
+    - quant
+    - hyperliquid
+    - backtesting
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The repository is explicitly defined as an MCP server and CLI that provides a domain-specific research surface for agents.
+  evidence:
+    - Repo description identifies it as a 'CLI and MCP server'.
+    - README states the 'keel-trade' package is an 'agent-native research surface' provided via a stdio MCP server.
+    - The tool is designed to provide specific Hyperliquid trading capabilities to any MCP-capable agent host.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:52.045Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:28:46.390Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

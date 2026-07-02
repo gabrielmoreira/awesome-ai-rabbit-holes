@@ -24,27 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 15
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2025-06-13T10:02:25Z"
+    pushed_at: "2026-07-02T04:58:43Z"
+    description: A modern Python library for SLURM workload manager integration with workflow orchestration capabilities.
+    homepage: https://ksterx.github.io/srunx/
+    topics:
+      - cli
+      - cluster
+      - fastapi
+      - gpu
+      - hpc
+      - job-management
+      - mcp
+      - python
+      - sbatch
+      - scheduler
+      - slurm
+      - workflow
+    last_checked_at: "2026-07-02T05:22:55.118Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:55.118Z"
+      bytes: 17379
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: srunx is a Python library that provides a unified CLI, web dashboard, and API for submitting, managing, and monitoring SLURM jobs with workflow orchestration capabilities.
+  why_it_matters: It simplifies SLURM job management for developers working on HPC workloads by unifying CLI, GUI, and Python interfaces with dependency-aware orchestration.
+  mental_damage: Finally, a tool that makes me feel less like a SLURmudgeon when I have to babysit GPU jobs across clusters.
+  tags:
+    - hpc
+    - slurm
+    - workflow
+    - cli
+    - orchestration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: srunx is a specialized HPC workload tool for SLURM cluster management, not an AI developer tool, despite having an optional MCP extra; its core identity is job scheduling and workflow orchestration in scientific computing, not AI-assisted development.
+  evidence:
+    - "Repo description: 'A modern Python library for SLURM workload manager integration with workflow orchestration capabilities.'"
+    - README focuses on SLURM job submission, monitoring, remote execution via SSH, and workflow YAML—no mention of AI coding assistance, agents, or LLM integration as primary features.
+    - MCP support is an optional extra ('srunx[mcp]'), indicating it is not MCP-first but a compatibility feature.
 placement:
   primary_category: null
   section: null
@@ -58,13 +80,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:55.118Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:31:01.496Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

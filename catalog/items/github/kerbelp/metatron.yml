@@ -24,30 +24,53 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 17
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-06-03T10:48:12Z"
+    pushed_at: "2026-06-27T07:19:46Z"
+    description: "Metatron is a self-hosted system that captures a codebase's real implementation decisions — preferred patterns, rejected approaches, edge cases, internal conventions — as structured priors, and serves them to coding agents over MCP (Model Context Protocol). The goal: an agent writes code like a senior engineer who already knows the codebase"
+    homepage: https://getmetatron.com/
+    topics:
+      - agentic-ai
+      - agentic-workflow
+      - ai-agent
+      - ai-coding-assistant
+      - ai-tools
+      - claude-code
+      - cursor-editor
+      - devtools
+      - llm-tools
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - model-context-protocol
+      - tree-sitter
+    last_checked_at: "2026-07-02T05:22:52.389Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:52.389Z"
+      bytes: 29646
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted system that captures codebase implementation decisions and serves them to coding agents via the Model Context Protocol.
+  why_it_matters: It allows coding agents to respect specific team conventions and avoid previously rejected approaches by providing structured codebase memory.
+  mental_damage: Your agent will finally possess the 'senior engineer' persona, meaning it can now use your own past architectural mistakes to argue against your current PRs.
+  tags:
+    - mcp
+    - context-engineering
+    - self-hosted
+    - agentic-workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core novelty is the structured capture and retrieval of codebase memory to shape agent context, fitting the primary definition of context engineering.
+  evidence:
+    - Captures implementation decisions like patterns and rationale as structured records
+    - Serves these decisions to agents over MCP to improve context
+    - Uses a feedback loop to refine and distill codebase conventions
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +81,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:52.389Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:28:54.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

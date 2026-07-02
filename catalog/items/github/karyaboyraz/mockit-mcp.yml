@@ -24,30 +24,52 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-03T13:13:47Z"
+    pushed_at: "2026-05-03T15:45:35Z"
+    description: "MCP server that turns text prompts into premium iOS mobile UI mockups (PNG + HTML). Powered by Claude (Opus 4.7) + Playwright. Two backends: local CLI or Anthropic API. MIT."
+    homepage: https://github.com/karyaboyraz/mockit-mcp#readme
+    topics:
+      - ai-design
+      - anthropic
+      - claude
+      - claude-code
+      - ios
+      - mcp
+      - mockup
+      - model-context-protocol
+      - playwright
+      - prototyping
+      - tailwind
+      - ui-design
+    last_checked_at: "2026-07-02T05:22:51.439Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:51.439Z"
+      bytes: 12986
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that generates iOS mobile UI mockups in PNG and HTML/Tailwind formats using Claude and Playwright.
+  why_it_matters: It allows developers to bridge the gap between prompt-based planning and visual prototyping directly within their existing AI coding environments.
+  mental_damage: Because nothing says developer productivity like debating the exact hex code of a neon accent with a headless browser.
+  tags:
+    - mcp
+    - ios
+    - ui-design
+    - playwright
+    - mockups
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server whose primary identity is providing specialized UI-rendering tools to existing AI assistants.
+  evidence:
+    - Explicitly identifies as an MCP server providing tools like `generate_screen` and `iterate_screen`.
+    - Uses Playwright to render high-fidelity PNGs and Tailwind/HTML code from text prompts.
+    - Designed to be integrated into MCP clients like Claude Code, Cursor, and Windsurf.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +80,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:51.439Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:28:04.163Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

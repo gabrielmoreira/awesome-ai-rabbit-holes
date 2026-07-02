@@ -24,39 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 289
-    forks: 41
+    stars: 324
+    forks: 44
     license: MIT
     archived: false
     created_at: "2026-05-06T08:04:52Z"
-    pushed_at: "2026-06-22T01:45:27Z"
-    description: The best-benchmarked open-source memory system for AI coding assistants
+    pushed_at: "2026-07-01T21:55:38Z"
+    description: MCP memory server for AI coding assistants. Works with Claude Code, Cursor, Codex, Gemini CLI, Cline, Continue, Cherry Studio, Zed, Hermes, OpenClaw, and any MCP client. Local, encrypted, verbatim recall. MIT.
     homepage: null
     topics:
-      - ai-agents
+      - agent-memory
       - ai-memory
       - claude
       - claude-code
-      - encryption
+      - codex
+      - cursor
+      - encrypted
       - episodic-memory
-      - hnswlib
-      - llm-tools
+      - gemini
+      - llm-memory
       - local-first
       - long-term-memory
       - mcp
+      - mcp-memory
       - mcp-server
-      - memory
       - model-context-protocol
-      - openclaw
-      - python
-      - rust
-      - semantic-search
+      - persistent-memory
+      - rag-alternative
       - sqlite
-      - vector-search
-    last_checked_at: "2026-06-22T05:53:52.885Z"
+      - vector-database
+    last_checked_at: "2026-07-02T05:22:38.883Z"
     readme:
-      fetched_at: "2026-06-22T05:53:52.885Z"
-      bytes: 28507
+      fetched_at: "2026-07-02T05:22:38.883Z"
+      bytes: 29809
 insights:
   summary: A local memory server that provides long-term, verbatim conversation recall for Claude and other MCP-compatible assistants.
   why_it_matters: It removes the need to manually remind assistants of previous context by automatically capturing and injecting relevant historical conversation slices into new sessions.
@@ -89,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-22T05:53:52.885Z"
+    updated_at: "2026-07-02T05:22:38.883Z"
     cause: null
     next_retry_at: null
   categorize:

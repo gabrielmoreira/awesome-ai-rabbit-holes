@@ -23,33 +23,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 417
+    forks: 66
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-07T23:03:02Z"
+    pushed_at: "2026-07-02T03:21:11Z"
+    description: Cut your Claude / OpenAI / Gemini bill 70–95% on AI coding. Local proxy that compresses context, keeps provider caches hot, and verifies LLM output ($0 hallucination guard). Drop-in for Cursor, Claude Code, Codex, Aider + 34 more and custom providers — 30s, no code changes
+    homepage: https://juyterman1000.github.io/entroly/docs/dashboard.html
+    topics:
+      - ai
+      - ai-agents
+      - ai-hallucination
+      - anthropic
+      - chatgpt
+      - claude
+      - claude-code
+      - context-compression
+      - cursor
+      - hallucination-detection
+      - llm
+      - llm-grounding
+      - mcp
+      - mcp-server
+      - open-source
+      - productivity
+      - rag
+      - rust
+      - token-optimization
+    last_checked_at: "2026-07-02T05:22:50.147Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:50.147Z"
+      bytes: 20033
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A local proxy and context control plane that compresses context, optimizes provider cache hits, and verifies LLM outputs to reduce AI coding costs.
+  why_it_matters: It allows developers to slash API bills by 70-95% while improving context relevance and adding a layer of hallucination detection to existing coding assistants.
+  mental_damage: Nothing says modern development like spending an hour fine-tuning a context compression algorithm just to save enough money for a single latte.
+  tags:
+    - context-compression
+    - llm-proxy
+    - hallucination-detection
+    - token-optimization
+    - rust
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core value is context optimization (compression, selection, and memory) rather than just providing extra tools to a host assistant.
+  evidence:
+    - Claims to cut Claude/OpenAI/Gemini bills by 70–95% via context compression
+    - Provides an auditable context control plane with features like 'Select', 'Verify', and 'Memory OS'
+    - Acts as a local-first proxy/drop-in for existing tools like Cursor and Aider
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (417) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +86,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:50.147Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:26:55.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

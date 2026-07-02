@@ -13,7 +13,7 @@ Development environments built around coding assistance.
   `ide` `remote-development` `vscode` `browser-ide`
   </details>
 
-- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 3.6k` `updated ≤90d` Kiro is an agentic IDE and CLI from Amazon that combines spec-driven development, hooks, and natural language coding assistance to help developers move from prototype to production. <details><summary>More about</summary>
+- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 4k` `updated ≤30d` Kiro is an agentic IDE and CLI from Amazon that combines spec-driven development, hooks, and natural language coding assistance to help developers move from prototype to production. <details><summary>More about</summary>
 
   It integrates structured spec planning directly into the development environment alongside agentic chat and automated hooks, aiming to formalize AI-assisted workflows beyond simple code completion.
 
@@ -35,7 +35,7 @@ Development environments built around coding assistance.
 
 _These are new or low-traffic entries being watched._
 
-- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 60` `updated ≤90d` GitWit is an open-source, cloud-based code editing environment that integrates AI code generation, live previews, and chat, built with Next.js and supporting multiple AI providers. <details><summary>More about</summary>
+- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 60` `updated ≤180d` GitWit is an open-source, cloud-based code editing environment that integrates AI code generation, live previews, and chat, built with Next.js and supporting multiple AI providers. <details><summary>More about</summary>
 
   It provides developers with a self-hostable, AI-native IDE surface that supports custom API keys and live previews via E2B sandboxes.
 

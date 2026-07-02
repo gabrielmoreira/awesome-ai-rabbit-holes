@@ -24,30 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-05T20:17:44Z"
+    pushed_at: "2026-06-13T18:36:17Z"
+    description: MCP server for Signal Lord. Bitcoin regime detection intelligence for AI agents. Know which market regime you are in and the probabilities of what happens next.
+    homepage: https://signallord.io
+    topics:
+      - ai
+      - bitcoin
+      - claude
+      - crypto
+      - market-intelligence
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - regime-detection
+      - trading
+    last_checked_at: "2026-07-02T05:22:53.973Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:53.973Z"
+      bytes: 7862
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides Bitcoin market regime detection and financial intelligence to AI agents.
+  why_it_matters: It allows AI agents to access specialized Bitcoin cycle data and market probabilities through the Model Context Protocol.
+  mental_damage: Because your LLM now needs a specialized finance degree just to explain why your crypto portfolio is bleeding.
+  tags:
+    - mcp
+    - bitcoin
+    - crypto
+    - finance
+    - market-intelligence
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server designed to provide domain-specific market intelligence to AI agents.
+  evidence:
+    - The repository is explicitly identified as an MCP server for Signal Lord.
+    - It provides 26 specialized tools for regime detection and market metrics via the Model Context Protocol.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:53.973Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:29:36.740Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

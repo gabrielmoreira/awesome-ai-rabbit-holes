@@ -24,30 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 10
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-16T07:08:01Z"
+    pushed_at: "2026-06-30T11:19:59Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - finance
+      - longbridge
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - trading
+    last_checked_at: "2026-07-02T05:23:06.423Z"
+    readme:
+      fetched_at: "2026-07-02T05:23:06.423Z"
+      bytes: 12227
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Longbridge MCP Server is an official Model Context Protocol server providing 145 financial tools for US and HK markets via the Longbridge brokerage API.
+  why_it_matters: It lets developers access real-time trading data, order routing, and portfolio analytics through standardized MCP clients without custom API integration.
+  mental_damage: Another day, another brokerage wrapping its REST API in MCP so your AI can finally lose money with standardized tool calls.
+  tags:
+    - mcp
+    - finance
+    - trading
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP-first server exposing financial data and trading tools via the Model Context Protocol, making MCP its core identity rather than an adapter or compatibility layer.
+  evidence:
+    - Official MCP server for the Longbridge brokerage with 145 tools across real-time quotes, options, order routing, and portfolio analytics
+    - Built with Rust using rmcp and axum, explicitly designed as MCP infrastructure with stateless architecture and OAuth 2.1 resource metadata compliance
+    - Connects via standard MCP clients (Claude Desktop, Claude Code, Zed, Cursor) using streamable-http transport and auto-discovered OAuth via RFC 9728
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:23:06.423Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:31:40.009Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

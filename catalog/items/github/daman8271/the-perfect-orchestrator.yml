@@ -1,0 +1,95 @@
+id: github__daman8271__the-perfect-orchestrator
+kind: github-repo
+name: the-perfect-orchestrator
+canonical_url: https://github.com/daman8271/the-perfect-orchestrator
+identity:
+  github_repo: daman8271/the-perfect-orchestrator
+provenance:
+  discoveries:
+    - id: discovery__github__daman8271__the-perfect-orchestrator__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: the-perfect-orchestrator
+        extracted_url: https://github.com/daman8271/the-perfect-orchestrator
+        surrounding_text: "- **[the-perfect-orchestrator](https://github.com/daman8271/the-perfect-orchestrator)** `⭐ 1` — One lead Claude Code session commands N autonomous workers in tmux panes — spawn, brief, monitor, then adversarially verify results. Pure bash + tmux, zero daemons, coordination via plain files. Also a Claude Code plugin shipping the `/orch` skill. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-05T19:26:27Z"
+    pushed_at: "2026-06-30T19:35:40Z"
+    description: One lead Claude Code session commanding N autonomous workers in tmux — with adversarially verified results. No daemons, no servers, just files.
+    homepage: https://the-perfect-orchestrator.vercel.app
+    topics:
+      - agent-skills
+      - agent-swarm
+      - ai-agents
+      - anthropic
+      - claude
+      - claude-code
+      - claude-code-plugin
+      - claude-skills
+      - developer-tools
+      - llm
+      - multi-agent
+      - orchestration
+      - tmux
+    last_checked_at: "2026-07-02T05:22:41.105Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:41.105Z"
+      bytes: 12034
+insights:
+  summary: The Perfect Orchestrator is a tmux-based CLI tool that lets one Claude Code session spawn and adversarially verify N autonomous Claude Code workers.
+  why_it_matters: It reduces hallucinated or premature 'done' claims in multi-agent setups by requiring cross-verification before accepting any result.
+  mental_damage: Finally, a way to make your AI coworkers double-check each other so you don’t have to — until they start verifying your verification.
+  tags:
+    - orchestration
+    - claude-code
+    - multi-agent
+    - verification
+    - tmux
+  confidence: high
+curation:
+  status: included
+  reason: It is primarily a workbench for coordinating multiple agents with adversarial verification, fitting the agent-orchestration category better than coding-agents since it does not itself write or edit code.
+  evidence:
+    - "Repo description: 'One lead Claude Code session commanding N autonomous workers in tmux — with adversarially verified results'"
+    - "README: 'You talk to one Claude Code session — the LEAD. It spawns N fully interactive Claude Code workers in tmux panes... has the workers adversarially verify each other's results'"
+    - "Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'"
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.471Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-02T05:22:41.105Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:32:21.856Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

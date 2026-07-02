@@ -23,13 +23,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20246
-    forks: 2254
+    stars: 29829
+    forks: 3030
     license: MIT
     archived: false
     created_at: "2025-10-19T20:54:15Z"
-    pushed_at: "2026-05-06T21:06:12Z"
-    description: A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.
+    pushed_at: "2026-07-01T23:59:26Z"
+    description: "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
     homepage: https://k-dense.ai
     topics:
       - agent-skills
@@ -49,23 +49,31 @@ metadata:
       - proteomics
       - scientific-computing
       - scientific-visualization
-    last_checked_at: "2026-05-06T22:44:39.216Z"
+    last_checked_at: "2026-07-02T05:22:50.296Z"
     readme:
-      fetched_at: "2026-05-06T22:44:39.216Z"
-      bytes: 42038
+      fetched_at: "2026-07-02T05:22:50.296Z"
+      bytes: 47799
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents.
+  why_it_matters: It allows general-purpose coding agents to perform specialized scientific workflows like drug discovery, genomics, and molecular dynamics.
+  mental_damage: Because your coding assistant is about to start peer-reviewing your actual research papers.
+  tags:
+    - scientific-computing
+    - agent-skills
+    - bioinformatics
+    - research-tools
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project distributes portable, reusable skill packs and domain-specific knowledge for AI agents, making it a perfect fit for the 'skills' category.
+  evidence:
+    - Provides 148 ready-to-use skills across biology, chemistry, and medicine
+    - Designed for compatibility with the open Agent Skills standard
+    - Functions as a capability layer for agents like Cursor and Claude Code
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Packs & Libraries
 lifecycle:
   status: promotion_candidate
   reason: Stars (20246) exceeded threshold (150)
@@ -77,16 +85,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:44:39.216Z"
+    updated_at: "2026-07-02T05:22:50.296Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-02T05:27:07.405Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -24,30 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-07T15:10:28Z"
+    pushed_at: "2026-06-11T04:49:14Z"
+    description: "160,000 deductively-derived JSON constraints that eliminate LLM persona drift. Measured: 0 breaks in a 120-turn pressure test (plain prompt: 8)."
+    homepage: https://fiveengine.dev
+    topics:
+      - agentic-ai
+      - ai-agent
+      - ai-character
+      - ai-guardrails
+      - ai-npc
+      - ai-safety
+      - autonomous-agents
+      - chatbot
+      - constraints
+      - cost-optimization
+      - llm
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - persona
+      - persona-drift
+      - personality
+      - roleplay
+      - token-optimization
+    last_checked_at: "2026-07-02T05:22:53.674Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:53.674Z"
+      bytes: 2596
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides structured JSON persona constraints to prevent LLM persona drift.
+  why_it_matters: It replaces imprecise natural language character descriptions with deterministic, recipe-based behavioral parameters for more reliable agents.
+  mental_damage: Because asking an LLM to maintain a persona for more than ten minutes is apparently a fundamental failure of model reasoning.
+  tags:
+    - mcp
+    - persona-drift
+    - prompt-engineering
+    - agentic-ai
+    - llm-safety
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core novelty is the management of persona constraints via structured JSON, making it a prompt engineering tool that uses MCP as its transport layer.
+  evidence:
+    - Provides an MCP server for the FIVE Persona Engine
+    - Claims to eliminate persona drift using 160,000 JSON constraints
+    - Primary tool generates structured persona recipes
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: PromptOps / Prompt Management
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +88,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:53.674Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:29:39.553Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:06.282Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-02T05:23:09.089Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for madhan-g-p/devdocs-mcp
     next_retry_at: null
   categorize:
     status: done

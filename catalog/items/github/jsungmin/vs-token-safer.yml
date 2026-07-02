@@ -24,30 +24,56 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-06-10T03:53:19Z"
+    pushed_at: "2026-07-02T05:14:15Z"
+    description: Token-safe C++/C# code search via clangd/Roslyn index instead of grep. Local-only, no IDE required. Claude Code plugin + vts CLI.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - clangd
+      - claude-code
+      - code-search
+      - cpp
+      - csharp
+      - developer-tools
+      - grep
+      - language-server
+      - lsp
+      - mcp
+      - model-context-protocol
+      - python
+      - roslyn
+      - token-optimization
+      - typescript
+      - unreal-engine
+    last_checked_at: "2026-07-02T05:22:49.147Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:49.147Z"
+      bytes: 44890
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A token-optimized code retrieval layer that uses language server indexes like clangd and Roslyn to provide semantic search for coding agents.
+  why_it_matters: It prevents coding agents from flooding their context windows with irrelevant code by replacing naive grep searches with precise, symbol-based lookups.
+  mental_damage: Because apparently, even the smartest LLMs can't be trusted to find a function without accidentally reading the entire monorepo.
+  tags:
+    - mcp
+    - context-engineering
+    - claude-code
+    - semantic-search
+    - token-optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core novelty is the semantic retrieval and token reduction of code context, which is the primary focus of the Prompt & Context Engineering category.
+  evidence:
+    - Uses clangd, Roslyn, and tree-sitter for semantic, symbol-based indexing instead of raw text grep
+    - Claims 97–99% token savings compared to traditional grep searches in large repos
+    - Designed specifically to sit between large codebases and agents like Claude Code to manage context windows
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
@@ -58,15 +84,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-06-29T05:39:05.884Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for jsungmin/vs-token-safer
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-02T05:22:49.147Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:25:42.153Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

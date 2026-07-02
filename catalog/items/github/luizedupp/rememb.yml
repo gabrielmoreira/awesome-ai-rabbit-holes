@@ -29,7 +29,7 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-04-11T02:58:39Z"
-    pushed_at: "2026-05-05T03:21:13Z"
+    pushed_at: "2026-06-25T23:31:36Z"
     description: Persistent memory for AI agents — local, portable, zero config. Works with Cursor, Windsurf, Claude via MCP.
     homepage: ""
     topics:
@@ -43,6 +43,7 @@ metadata:
       - context-persistence
       - copilot
       - cursor
+      - fastapi
       - llm
       - llm-memory
       - mcp
@@ -51,12 +52,11 @@ metadata:
       - model-context-protocol
       - moltbot
       - persistent-memory
-      - tui
       - windsurf
-    last_checked_at: "2026-05-06T22:45:04.511Z"
+    last_checked_at: "2026-07-02T05:23:07.532Z"
     readme:
-      fetched_at: "2026-05-06T22:45:04.511Z"
-      bytes: 6930
+      fetched_at: "2026-07-02T05:23:07.532Z"
+      bytes: 10516
 insights:
   summary: A local, zero-config persistent memory system for AI agents that stores project context in a JSON file and exposes it via an MCP server.
   why_it_matters: It solves the common pain of AI agents forgetting project-specific context, architecture, and decisions between sessions without requiring cloud services or complex infrastructure.
@@ -88,7 +88,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:04.511Z"
+    updated_at: "2026-07-02T05:23:07.532Z"
     cause: null
     next_retry_at: null
   categorize:

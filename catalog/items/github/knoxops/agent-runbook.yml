@@ -1,0 +1,88 @@
+id: github__knoxops__agent-runbook
+kind: github-repo
+name: agent-runbook
+canonical_url: https://github.com/knoxops/agent-runbook
+identity:
+  github_repo: knoxops/agent-runbook
+provenance:
+  discoveries:
+    - id: discovery__github__knoxops__agent-runbook__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: agent-runbook
+        extracted_url: https://github.com/knoxops/agent-runbook
+        surrounding_text: "- **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** `⭐ 24` — Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step workflows with loops, branching, parallelism, checkpoints, and file-based state passing between steps. `pip install git+https://github.com/KnoxOps/agent-runbook.git`"
+        confidence: high
+metadata:
+  github:
+    stars: 24
+    forks: 3
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-06-12T10:19:20Z"
+    pushed_at: "2026-06-25T12:18:30Z"
+    description: Contract-based multi-agent skill framework for Claude Code & Codex — compile YAML runbooks into SKILL.md with loop, parallel, and checkpoint support.
+    homepage: ""
+    topics:
+      - agent
+      - claude-code
+      - codex
+      - loop-engineering
+      - multi-agent
+      - skill
+    last_checked_at: "2026-07-02T05:22:54.340Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:54.340Z"
+      bytes: 6183
+insights:
+  summary: Agent-runbook is a contract-based framework that compiles YAML runbooks into SKILL.md files for Claude Code and Codex, enabling multi-agent workflows with loops, parallelism, branching, and checkpointing.
+  why_it_matters: It lets developers structure complex, resilient agent workflows using typed contracts and file-based state instead of brittle LLM context, enabling resumable, debuggable, and parallel multi-agent automation.
+  mental_damage: Finally, a way to make your agent loops feel less like yelling into a black hole and more like managing a tiny, unreliable warehouse of interns who only communicate via JSON Schema.
+  tags:
+    - multi-agent
+    - workflow
+    - claude-code
+    - yaml
+    - checkpoint
+  confidence: medium
+curation:
+  status: included
+  reason: Agent-runbook is a workflow engine that coordinates multiple agent steps with control flow constructs (loops, branches, parallelism) and contract validation, positioning it as a runtime platform for multi-agent orchestration rather than a coding assistant or extension.
+  evidence:
+    - "Repo description: 'Contract-based multi-agent skill framework for Claude Code & Codex — compile YAML runbooks into SKILL.md with loop, parallel, and checkpoint support.'"
+    - "README: Defines loop engineering, provides examples with loop, parallel, branch, and checkpoint step types, and compiles runbooks into executable SKILL.md files."
+    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'."
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.471Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-02T05:22:54.340Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:32:49.435Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

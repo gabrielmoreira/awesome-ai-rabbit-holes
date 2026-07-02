@@ -24,30 +24,57 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 90
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2025-10-03T07:36:39Z"
+    pushed_at: "2026-06-20T20:02:44Z"
+    description: MCP server with persistent memory + FTS5 search for Claude Code conversation history. Index your ~/.claude/projects/, expose 10 MCP tools, browse via web UI. MIT-licensed.
+    homepage: https://kunwar-shah.github.io/claudex/
+    topics:
+      - agent-memory
+      - ai-agent
+      - ai-memory
+      - claude-ai
+      - claude-code
+      - conversation-history
+      - conversation-viewer
+      - developer-tools
+      - fastify
+      - fts5
+      - jsonl
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - persistent-memory
+      - react
+      - sqlite
+      - typescript
+    last_checked_at: "2026-07-02T05:22:58.828Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:58.828Z"
+      bytes: 22782
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Claudex is an MCP server with persistent memory and FTS5 search for Claude Code conversation history, providing a web UI to browse and search ~/.claude/projects/.
+  why_it_matters: It gives Claude Code long-term memory and searchable context across sessions, reducing repetitive explanations and helping developers retain project knowledge.
+  mental_damage: Another tool to install just so your AI remembers what you told it five minutes ago—welcome to the era of AI amnesia insurance.
+  tags:
+    - mcp
+    - memory
+    - claude-code
+    - search
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Claudex primarily augments Claude Code with persistent memory and search capabilities rather than acting as a standalone coding assistant, making it an extension focused on memory and context.
+  evidence:
+    - "Repo description: 'MCP server with persistent memory + FTS5 search for Claude Code conversation history'"
+    - "README: 'Give Claude Code persistent memory — conventions, architecture, decisions, and error patterns survive across sessions'"
+    - Features include MCP server with 10 tools for context management, not code generation or editing
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Memory & Context Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-02T05:22:58.828Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:31:01.362Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

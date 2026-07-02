@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6331
-    forks: 526
+    stars: 6475
+    forks: 549
     license: BSD-2-Clause
     archived: false
     created_at: "2024-08-06T17:47:52Z"
-    pushed_at: "2026-05-06T11:59:53Z"
+    pushed_at: "2026-07-02T02:28:41Z"
     description: Efficient Triton Kernels for LLM Training
     homepage: https://linkedin.github.io/Liger-Kernel/
     topics:
@@ -43,10 +43,10 @@ metadata:
       - phi3
       - triton
       - triton-kernels
-    last_checked_at: "2026-05-06T22:45:00.206Z"
+    last_checked_at: "2026-07-02T05:23:04.552Z"
     readme:
-      fetched_at: "2026-05-06T22:45:00.206Z"
-      bytes: 24963
+      fetched_at: "2026-07-02T05:23:04.552Z"
+      bytes: 26604
 insights:
   summary: null
   why_it_matters: null
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:00.206Z"
+    updated_at: "2026-07-02T05:23:04.552Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-06-29T05:39:07.792Z"
+    status: deferred
+    updated_at: "2026-07-02T05:31:21.891Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__linkedin__liger-kernel: Invalid AI response format: SyntaxError: Unexpected token 'L', ...\"_reason\": Liger Kern\"... is not valid JSON"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

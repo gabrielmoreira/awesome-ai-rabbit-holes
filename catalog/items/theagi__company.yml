@@ -63,10 +63,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-06-29T05:48:59.789Z"
-    cause: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-07-02T05:31:44.833Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for theagi__company: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (99/32)"
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

@@ -1,0 +1,100 @@
+id: github__h5i-dev__h5i
+kind: github-repo
+name: h5i
+canonical_url: https://github.com/h5i-dev/h5i
+identity:
+  github_repo: h5i-dev/h5i
+provenance:
+  discoveries:
+    - id: discovery__github__h5i-dev__h5i__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: h5i
+        extracted_url: https://github.com/h5i-dev/h5i
+        surrounding_text: "- **[h5i](https://github.com/h5i-dev/h5i)** `⭐ 434` — Runs several coding agents (Claude Code, Codex) on the same task in isolated sandboxes, has them peer-review each other, then a neutral verifier replays and tests each candidate and merges the one that passes. Run metadata is versioned in the repo under `refs/h5i/*`. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 442
+    forks: 28
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-03-11T04:30:52Z"
+    pushed_at: "2026-07-01T18:44:53Z"
+    description: "Auditable workspaces for AI agent teams: sandboxed worktrees, conflict-free multi-agent orchestra, 95% lower token waste, and persistent memory."
+    homepage: https://h5i.dev
+    topics:
+      - agent
+      - agentic-ai
+      - agentic-workflow
+      - ai-coding
+      - ai-safety
+      - ai-security
+      - claude
+      - claude-code
+      - codex
+      - git
+      - git-worktree
+      - llms
+      - mcp-server
+      - prompt-injection
+      - sandbox
+      - version-control
+      - vibe-coding
+      - worktree
+      - worktree-manager
+      - worktrees
+    last_checked_at: "2026-07-02T05:22:47.668Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:47.668Z"
+      bytes: 9684
+insights:
+  summary: h5i provides sandboxed Git worktrees and persistent memory for AI coding agent teams to reduce conflicts and token waste.
+  why_it_matters: It lets developers safely run multiple AI agents in parallel with auditable, conflict-free changes that stay in Git.
+  mental_damage: Finally, a way to make your AI agents step on each other's toes in a controlled, auditable fashion.
+  tags:
+    - agent-orchestration
+    - git-worktree
+    - sandbox
+  confidence: high
+curation:
+  status: included
+  reason: h5i is primarily a multi-agent coordination platform with sandboxed worktrees and audit trails, fitting the agent orchestration category as a control plane for AI agent teams.
+  evidence:
+    - "Repo description: 'Auditable workspaces for AI agent teams: sandboxed worktrees, conflict-free multi-agent orchestra'"
+    - "README: 'Run one agent safely, scale to many via a conflict-free multi-agent orchestra, then merge one auditable result'"
+    - "Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'"
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (442) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.471Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-02T05:22:47.668Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:32:32.279Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

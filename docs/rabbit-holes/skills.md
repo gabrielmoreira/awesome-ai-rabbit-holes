@@ -4,7 +4,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 153.6k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+- **[skills](https://github.com/anthropics/skills)** `⭐ 157.4k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
 
@@ -38,6 +38,15 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   _Another awesome list promising 'discovery' while you spend more time curating your discovery than actually coding._
 
   `awesome-list` `agent-skills` `openclaw`
+  </details>
+
+- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 29.8k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
+
+  It allows general-purpose coding agents to perform specialized scientific workflows like drug discovery, genomics, and molecular dynamics.
+
+  _Because your coding assistant is about to start peer-reviewing your actual research papers._
+
+  `scientific-computing` `agent-skills` `bioinformatics` `research-tools` `ai-agents`
   </details>
 
 - **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 21.4k` `updated ≤90d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
@@ -94,7 +103,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `biomedical` `science`
   </details>
 
-- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 539` `updated ≤90d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
+- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 544` `updated ≤30d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
 
   It lets developers and AI agents reproducibly spin up complex dev and test stacks with one-liner commands, bridging local prototyping and CI testing.
 

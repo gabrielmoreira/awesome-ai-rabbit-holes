@@ -1,0 +1,99 @@
+id: github__armorerlabs__armorer-guard
+kind: github-repo
+name: armorer-guard
+canonical_url: https://github.com/armorerlabs/armorer-guard
+identity:
+  github_repo: armorerlabs/armorer-guard
+provenance:
+  discoveries:
+    - id: discovery__github__armorerlabs__armorer-guard__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Armorer Guard
+        extracted_url: https://github.com/armorerlabs/armorer-guard
+        surrounding_text: "- **[Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard)** `⭐ 40` — Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments before execution. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 40
+    forks: 10
+    license: MIT
+    archived: false
+    created_at: "2026-04-12T20:34:12Z"
+    pushed_at: "2026-06-22T20:39:41Z"
+    description: Fast local Rust scanner for AI-agent prompt injection, credential leaks, exfiltration, and risky tool calls
+    homepage: https://huggingface.co/spaces/armorer-labs/armorer-guard-demo
+    topics:
+      - agent-safety
+      - agent-security
+      - ai-agents
+      - ai-security
+      - ai-security-tool
+      - cybersecurity
+      - guardrails
+      - llm-security
+      - local-first
+      - mcp
+      - mcp-security
+      - prompt-injection
+      - rust
+      - secrets-detection
+      - security-scanner
+      - tool-calling
+      - vulnify
+    last_checked_at: "2026-07-02T05:22:36.334Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:36.334Z"
+      bytes: 16484
+insights:
+  summary: Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution.
+  why_it_matters: It gives developers a zero-latency, network-free way to enforce safety policies on AI agent tool usage in local MCP workflows.
+  mental_damage: Another security layer to add to the growing stack of agent guardrails that hope to stop the model from doing exactly what you told it not to.
+  tags:
+    - security
+    - mcp
+    - scanner
+    - rust
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: Armorer Guard is an MCP proxy that augments existing agent runtimes with safety inspection, making it an extension rather than a standalone coding agent or framework.
+  evidence:
+    - "Repo description: 'Fast local Rust scanner for AI-agent prompt injection, credential leaks, exfiltration, and risky tool calls'"
+    - "README: 'Armorer Guard scans `tools/call` arguments before forwarding them to the wrapped server' and 'Wrap any line-delimited stdio MCP server'"
+    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'"
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.471Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-02T05:22:36.334Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:32:23.846Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

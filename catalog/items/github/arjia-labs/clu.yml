@@ -1,0 +1,94 @@
+id: github__arjia-labs__clu
+kind: github-repo
+name: clu
+canonical_url: https://github.com/arjia-labs/clu
+identity:
+  github_repo: arjia-labs/clu
+provenance:
+  discoveries:
+    - id: discovery__github__arjia-labs__clu__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: clu
+        extracted_url: https://github.com/arjia-labs/clu
+        surrounding_text: "- **[clu](https://github.com/arjia-labs/clu)** `⭐ 5` — Codified Likeness Utility: a SQLite-backed issue tracker for coordinating fleets of AI coding agents. Atomic task claim, dependency graphs, workflows & checkpoints, and an audit log. CLI-native with clean `--json` output, built to be driven by agents. Go."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-26T04:36:43Z"
+    pushed_at: "2026-06-03T10:57:12Z"
+    description: Local-first SQLite issue tracker for coordinating AI coding agents — atomic claim, dependency graphs, workflows & checkpoints, audit log. No daemon, no network.
+    homepage: https://arjia-labs.github.io/clu/
+    topics:
+      - agent-orchestration
+      - ai-agents
+      - cli
+      - developer-tools
+      - go
+      - golang
+      - issue-tracker
+      - local-first
+      - multi-agent
+      - sqlite
+      - task-management
+      - workflow-engine
+    last_checked_at: "2026-07-02T05:22:36.191Z"
+    readme:
+      fetched_at: "2026-07-02T05:22:36.191Z"
+      bytes: 19731
+insights:
+  summary: clu is a local-first SQLite issue tracker CLI for coordinating AI coding agents with atomic claims, dependency graphs, and audit logging.
+  why_it_matters: It lets developers run multiple AI agents on the same codebase without conflicts by providing durable, local coordination of work, checkpoints, and inter-agent communication.
+  mental_damage: Finally, a way to make your AI agents can't-blame-the-tools when your fleet of AI interns overwrites each other's PRs.
+  tags:
+    - agent-coordination
+    - local-first
+    - cli
+    - sqlite
+    - issue-tracker
+  confidence: high
+curation:
+  status: included
+  reason: clu is included as an agent orchestration tool because its core purpose is coordinating multiple AI agents via shared state, dependency graphs, and workflow management—not acting as a coding assistant itself.
+  evidence:
+    - "Repo description: 'Local-first SQLite issue tracker for coordinating AI coding agents — atomic claim, dependency graphs, workflows & checkpoints, audit log. No daemon, no network.'"
+    - "README highlights: Atomic claim, capability routing, bulk graph instantiation, cascading cancel, milestones & phases, agent launcher, workflow templates, named locks + mailbox, and web UI for Kanban/graph views."
+    - "Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'."
+placement:
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-02T05:22:20.471Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-02T05:22:36.192Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-02T05:32:17.454Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
