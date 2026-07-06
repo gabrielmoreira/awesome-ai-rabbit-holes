@@ -39,13 +39,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4785
-    forks: 429
+    stars: 5618
+    forks: 540
     license: Apache-2.0
     archived: false
     created_at: "2025-08-28T22:55:46Z"
-    pushed_at: "2026-03-26T03:00:53Z"
-    description: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.
+    pushed_at: "2026-06-30T18:32:56Z"
+    description: ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.
     homepage: ""
     topics:
       - api-server
@@ -60,17 +60,18 @@ metadata:
       - llamacpp
       - llm-inference
       - local-ai
-      - lora
       - machine-learning
       - ollama-api
       - openai-compatible
       - rust
       - rust-crate
       - transformers
-    last_checked_at: "2026-05-06T22:45:15.244Z"
+      - webgpu
+      - webgpu-shaders
+    last_checked_at: "2026-07-06T05:30:31.887Z"
     readme:
-      fetched_at: "2026-05-06T22:45:15.244Z"
-      bytes: 20481
+      fetched_at: "2026-07-06T05:30:31.887Z"
+      bytes: 34813
 insights:
   summary: A single-binary, OpenAI API-compatible local inference server written in Rust that runs GGUF and SafeTensors models with hot-swapping and auto-discovery.
   why_it_matters: It lets developers run large local models behind a familiar API endpoint, making it easy to power IDE extensions, coding agents, and scripts without cloud costs or external dependencies.
@@ -103,7 +104,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:15.244Z"
+    updated_at: "2026-07-06T05:30:31.887Z"
     cause: null
     next_retry_at: null
   categorize:

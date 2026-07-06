@@ -23,33 +23,42 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 157751
+    forks: 13569
+    license: MIT
+    archived: false
+    created_at: "2026-02-03T11:15:53Z"
+    pushed_at: "2026-07-05T17:37:25Z"
+    description: Skills for Real Engineers. Straight from my .claude directory.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-07-06T05:30:28.928Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:28.928Z"
+      bytes: 12315
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants.
+  why_it_matters: It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
+  mental_damage: It allows you to replace the chaos of 'vibe coding' with the highly structured ritual of 'grilling your agent.'
+  tags:
+    - agent-skills
+    - slash-commands
+    - workflows
+    - prompt-engineering
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a curated collection of portable, reusable slash commands and instruction sets intended to be installed into coding agents.
+  evidence:
+    - README defines the project as 'agent skills' for real engineering
+    - Installation via 'npx skills@latest add' confirms its nature as a reusable pack
+    - Provides specific slash commands like '/grill-me' and '/grill-with-docs'
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Skill Packs & Libraries
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (157751) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:28.928Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:40:56.712Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

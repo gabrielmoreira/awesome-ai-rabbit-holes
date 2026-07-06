@@ -98,9 +98,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:30.621Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-06T05:30:43.099Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for neondatabase/mcp-server-neon
     next_retry_at: null
   categorize:
     status: done

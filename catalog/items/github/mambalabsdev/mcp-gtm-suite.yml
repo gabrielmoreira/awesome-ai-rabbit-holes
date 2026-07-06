@@ -24,27 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-01T11:09:36Z"
+    pushed_at: "2026-06-30T13:44:14Z"
+    description: MCP server for the full Mamba Labs GTM Suite. All six GTM actors as tools in one server via Apify. Clay-ready output.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-06T05:30:26.330Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:26.330Z"
+      bytes: 8011
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that bundles eleven Mamba Labs GTM Suite account intelligence tools from Apify into a single interface for MCP clients.
+  why_it_matters: Lets developers access company intelligence workflows like enrichment, hiring signals, and ICP scoring directly through MCP-compatible AI assistants.
+  mental_damage: Another wrapper turning Apify actors into MCP tools so your AI can pretend to do sales ops while you pretend to care about GTM.
+  tags:
+    - mcp
+    - gtm
+    - sales-intelligence
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: It is an MCP server exposing third-party Apify actors as tools, but lacks developer-tooling specificity and appears to serve sales/workflow automation rather than coding, editing, or agent development workflows.
+  evidence:
+    - "Repo description: 'MCP server for the full Mamba Labs GTM Suite. All six GTM actors as tools in one server via Apify. Clay-ready output.'"
+    - "README: Exposes eleven account-intelligence tools for identity, enrichment, signals, and scoring via Apify actors."
+    - "Source-list context: Listed in awesome-mcp-servers under 'Aggregators' as an MCP server implementation."
 placement:
   primary_category: null
   section: null
@@ -58,13 +66,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:26.330Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:39:25.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

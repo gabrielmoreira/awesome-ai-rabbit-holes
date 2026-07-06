@@ -24,30 +24,50 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-18T03:38:14Z"
+    pushed_at: "2026-07-05T05:43:31Z"
+    description: Turn any OpenAPI/Swagger API into an MCP server with real OAuth2 support. Multi-spec gateway for Claude, Cursor, Codex, and other MCP clients.
+    homepage: ""
+    topics:
+      - agent
+      - claude
+      - fastapi
+      - gateway
+      - mcp
+      - oauth2
+      - openapi
+      - openapi-to-mcp
+      - python
+      - swagger
+    last_checked_at: "2026-07-06T05:30:39.368Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:39.368Z"
+      bytes: 18879
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A gateway that converts OpenAPI/Swagger specifications into Model Context Protocol (MCP) servers with support for multiple authentication methods.
+  why_it_matters: It allows developers to instantly grant AI assistants like Claude or Cursor access to existing REST APIs without manually writing new MCP tools for every endpoint.
+  mental_damage: Because the barrier to giving an LLM full agency over your production APIs was apparently just a missing OAuth2 bridge.
+  tags:
+    - mcp
+    - openapi
+    - gateway
+    - api
+    - python
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is an MCP middleware layer that bridges the gap between standard web APIs and the Model Context Protocol.
+  evidence:
+    - Repo description defines it as a multi-spec gateway for MCP clients like Claude and Cursor.
+    - README describes it as a way to mount OpenAPI specs as MCP servers with support for OAuth2, Bearer, and API keys.
+    - It provides specific MCP-native features like resource auto-promotion and dynamic tool exposure.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:39.368Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:46:56.828Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

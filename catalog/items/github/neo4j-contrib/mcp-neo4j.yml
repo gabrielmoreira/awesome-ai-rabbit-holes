@@ -120,9 +120,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:30.633Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-06T05:30:42.901Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for neo4j-contrib/mcp-neo4j
     next_retry_at: null
   categorize:
     status: done

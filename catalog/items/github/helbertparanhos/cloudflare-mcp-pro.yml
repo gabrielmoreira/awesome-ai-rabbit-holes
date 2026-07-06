@@ -1,0 +1,85 @@
+id: github__helbertparanhos__cloudflare-mcp-pro
+kind: github-repo
+name: cloudflare-mcp-pro
+canonical_url: https://github.com/helbertparanhos/cloudflare-mcp-pro
+identity:
+  github_repo: helbertparanhos/cloudflare-mcp-pro
+provenance:
+  discoveries:
+    - id: discovery__github__helbertparanhos__cloudflare-mcp-pro__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: helbertparanhos/cloudflare-mcp-pro
+        extracted_url: https://github.com/helbertparanhos/cloudflare-mcp-pro
+        surrounding_text: "- [helbertparanhos/cloudflare-mcp-pro](https://github.com/helbertparanhos/cloudflare-mcp-pro) [![cloudflare-mcp-pro MCP server](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro/badges/score.svg)](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro) 📇 🏠 🍎 🪟 🐧 - The most complete Cloudflare MCP — 69 tools over the REST API v4 (DNS, Zones, Workers, KV, R2, D1, Pages, WAF, SSL, Email Routing, Logpush, Workers AI) in a single local stdio server, with a server-side human-approval gate on every mutation. `npx -y cloudflare-mcp-pro`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-06-22T16:28:36Z"
+    pushed_at: "2026-06-22T16:28:53Z"
+    description: "Cloudflare MCP: 69 tools over the REST API v4 — DNS, Workers, KV, R2, D1, Pages, WAF, SSL, Email, AI — with a human-approval gate"
+    homepage: https://www.npmjs.com/package/cloudflare-mcp-pro
+    topics:
+      - automation
+      - claude
+      - claude-code
+      - cloudflare
+      - cursor
+      - dns
+      - mcp
+      - model-context-protocol
+      - workers
+    last_checked_at: "2026-07-06T05:30:23.201Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:23.201Z"
+      bytes: 9970
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.558Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:30:23.201Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T06:00:00.708Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__helbertparanhos__cloudflare-mcp-pro: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

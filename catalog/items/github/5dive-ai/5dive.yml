@@ -1,0 +1,102 @@
+id: github__5dive-ai__5dive
+kind: github-repo
+name: 5dive
+canonical_url: https://github.com/5dive-ai/5dive
+identity:
+  github_repo: 5dive-ai/5dive
+provenance:
+  discoveries:
+    - id: discovery__github__5dive-ai__5dive__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: 5dive
+        extracted_url: https://github.com/5dive-ai/5dive
+        surrounding_text: "- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 15` — Run a company of AI coding agents on a server you own: one-command spin-up of named agents (Claude Code, Codex, Grok, and more), cron + heartbeat scheduling, multi-agent orchestration, Telegram control, and a babysit + needs-you triage dashboard. Self-hosted. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-05-15T08:12:36Z"
+    pushed_at: "2026-07-06T03:10:27Z"
+    description: Run a company of AI agents on a server you own. Spin up named agents (claude, codex, grok…), put them on an org chart with a shared backlog, let them hand off work and ping your phone only when a human must decide. MIT.
+    homepage: https://5dive.ai
+    topics:
+      - agent-runtime
+      - agentic-engineering
+      - agentic-loops
+      - agents
+      - ai-agents
+      - ai-assistant
+      - ai-coding-assistant
+      - ai-tools
+      - antigravity
+      - autonomous-agents
+      - claude
+      - claude-code
+      - codex
+      - codex-cli
+      - coding-agent
+      - loop-engineering
+      - multi-agent
+      - opencode
+      - self-hosted
+      - zero-human-company
+    last_checked_at: "2026-07-06T05:29:58.492Z"
+    readme:
+      fetched_at: "2026-07-06T05:29:58.492Z"
+      bytes: 15205
+insights:
+  summary: 5dive is a self-hosted runtime for running multiple AI coding agents on a server, letting them collaborate via a shared task queue and org chart, with human escalation over Telegram.
+  why_it_matters: It enables developers to run a team of autonomous agents on their own infrastructure, reducing context-switching by letting agents handle routine work and only pinging humans for decisions.
+  mental_damage: Finally, a way to feel guilty about delegating your job to AI while still being the bottleneck.
+  tags:
+    - self-hosted
+    - multi-agent
+    - agent-orchestration
+    - cli
+    - telegram
+  confidence: high
+curation:
+  status: included
+  reason: 5dive is primarily a multi-agent coordination platform with a shared backlog, org chart, and task handoff system, making it a control plane for agent workflows rather than a coding assistant itself.
+  evidence:
+    - README describes 'a company of AI agents' with shared backlog, org chart, and work handoff between agents
+    - Agents invoke the same `5dive` CLI as a bus to communicate, and tasks are managed via a shared SQLite queue
+    - Source list categorizes it under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.557Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:29:58.492Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:59:18.633Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

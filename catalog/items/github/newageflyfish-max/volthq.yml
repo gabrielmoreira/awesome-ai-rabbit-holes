@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-05-12T15:06:23.876Z"
+    status: deferred
+    updated_at: "2026-07-06T05:30:43.743Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: newageflyfish-max/volthq"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for newageflyfish-max/volthq
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
+    updated_at: "2026-07-06T05:30:45.194Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

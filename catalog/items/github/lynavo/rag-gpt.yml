@@ -23,33 +23,58 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 499
+    forks: 81
+    license: Apache-2.0
+    archived: false
+    created_at: "2024-04-09T03:19:04Z"
+    pushed_at: "2024-07-19T02:00:39Z"
+    description: RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval.
+    homepage: ""
+    topics:
+      - claude
+      - deepseek
+      - gpt
+      - gpt-4o
+      - gpt-4o-mini
+      - liama
+      - llamaparse
+      - llm
+      - moonshot
+      - nextjs
+      - ollama
+      - openai
+      - python
+      - qwen
+      - rag
+      - zhipuai
+    last_checked_at: "2026-07-06T05:30:24.636Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:24.636Z"
+      bytes: 18834
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A full-stack RAG-based customer service system comprising a Flask backend, admin console, and chatbot interface.
+  why_it_matters: It provides a production-ready blueprint for developers to deploy a customized knowledge-base bot with integrated data ingestion and admin management.
+  mental_damage: The realization that we are now building 'AI customer service' bots to help users avoid talking to the humans who were replaced by these same bots.
+  tags:
+    - rag
+    - flask
+    - knowledge-base
+    - llm-ops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an operated control plane (admin console + backend + UI) for coordinating a RAG workflow, rather than a code-first library or a coding assistant.
+  evidence:
+    - Includes an admin console for importing websites, URLs, and local files
+    - Provides a full-stack deployment (frontend, backend, admin console)
+    - Designed as a 'conversational service robot' platform rather than a developer's coding assistant
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (499) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -57,15 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:08.257Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for lynavo/rag-gpt
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-06T05:30:24.636Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:32:00.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,30 +24,48 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-16T05:56:08Z"
+    pushed_at: "2026-05-16T12:42:59Z"
+    description: BriefKit — Engineer-grade specs for AI-built SaaS. 14 files. $9. briefkit.online
+    homepage: https://briefkit.online
+    topics:
+      - ai-build-tools
+      - briefkit
+      - cursor
+      - lovable
+      - lovable-dev
+      - mcp
+      - mcp-server
+      - saas
+      - supabase
+    last_checked_at: "2026-07-06T05:30:36.068Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:36.068Z"
+      bytes: 3334
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI coding assistants.
+  why_it_matters: It improves implementation reliability and slashes token costs by providing engineer-grade specs instead of letting AI reason through architecture from scratch.
+  mental_damage: It allows you to optimize your token usage right up until the moment you realize your entire SaaS architecture is locked into a single, unchangeable Markdown file.
+  tags:
+    - mcp
+    - saas-specs
+    - token-efficiency
+    - spec-driven
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core value is providing structured specification artifacts (schemas, design systems, RLS policies) that serve as the primary driver for AI coding workflows.
+  evidence:
+    - README claims it reduces token consumption by 70-85% by providing structured specs instead of prompting for reasoning from scratch
+    - Provides specific tools for generating production-ready artifacts like DESIGN.md and PostgreSQL/Supabase schemas
+    - Designed specifically for integration into agentic workflows via MCP for tools like Claude Code and Cursor
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Planning / Task Decomposition
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:36.068Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:45:27.747Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

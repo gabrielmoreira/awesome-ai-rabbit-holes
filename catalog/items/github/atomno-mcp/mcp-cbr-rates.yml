@@ -1,0 +1,84 @@
+id: github__atomno-mcp__mcp-cbr-rates
+kind: github-repo
+name: mcp-cbr-rates
+canonical_url: https://github.com/atomno-mcp/mcp-cbr-rates
+identity:
+  github_repo: atomno-mcp/mcp-cbr-rates
+provenance:
+  discoveries:
+    - id: discovery__github__atomno-mcp__mcp-cbr-rates__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: atomno-labs/mcp-cbr-rates
+        extracted_url: https://github.com/atomno-labs/mcp-cbr-rates
+        surrounding_text: "- [atomno-labs/mcp-cbr-rates](https://github.com/atomno-labs/mcp-cbr-rates) [![atomno-labs/mcp-cbr-rates MCP server](https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates) 🐍 ☁️ - Central Bank of Russia (ЦБ РФ) data — currency exchange rates (daily and historical), key interest rate, inflation, and aggregated macro statistics. Five typed tools backed by an in-memory TTL cache. No API key required."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-25T08:10:17Z"
+    pushed_at: "2026-07-05T19:28:36Z"
+    description: MCP server for Central Bank of Russia rates, key rate, inflation and macro stats
+    homepage: null
+    topics:
+      - cbr
+      - central-bank-of-russia
+      - exchange-rates
+      - fintech
+      - httpx
+      - mcp
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-07-06T05:29:59.161Z"
+    readme:
+      fetched_at: "2026-07-06T05:29:59.161Z"
+      bytes: 6612
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.557Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:29:59.161Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:59:30.857Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__atomno-mcp__mcp-cbr-rates: Internal Server Error"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

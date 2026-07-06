@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 142
-    forks: 42
+    stars: 167
+    forks: 44
     license: MIT
     archived: false
     created_at: "2025-05-07T14:21:57Z"
@@ -33,9 +33,9 @@ metadata:
     description: A Model Context Protocol (MCP) server implementation that connects Large Language Models (LLMs) to GIS operations using GIS libraries, enabling AI assistants to perform geospatial operations and transformations.
     homepage: https://gis-mcp.com/
     topics: []
-    last_checked_at: "2026-05-06T22:45:06.510Z"
+    last_checked_at: "2026-07-06T05:30:25.521Z"
     readme:
-      fetched_at: "2026-05-06T22:45:06.510Z"
+      fetched_at: "2026-07-06T05:30:25.521Z"
       bytes: 33458
 insights:
   summary: A Model Context Protocol (MCP) server that exposes GIS operations and geospatial data sources to LLMs, enabling AI assistants to perform spatial analysis and transformations.
@@ -59,8 +59,8 @@ placement:
   primary_category: mcp
   section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (167) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -68,11 +68,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:09.347Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for mahdin75/gis-mcp
+    status: done
+    updated_at: "2026-07-06T05:30:25.521Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

@@ -23,39 +23,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1313
-    forks: 104
+    stars: 1359
+    forks: 103
     license: NOASSERTION
     archived: false
     created_at: "2025-12-10T19:16:51Z"
-    pushed_at: "2026-05-04T08:20:34Z"
-    description: Engineering decisions  engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.
+    pushed_at: "2026-07-03T06:45:57Z"
+    description: Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.
     homepage: https://quint.codes
     topics:
       - ai-agents
       - ai-coding
-      - ai-skills
-      - air
       - anthropic
       - claude
       - claude-code
-      - cli
       - codex
-      - codex-cli
       - context-memory
       - cursor
       - cursor-ai
       - developer-tools
       - first-principles
       - gemini-cli
-      - prompt-engineering
+      - human-ai-collaboration
+      - mcp
       - reasoning
-      - structured-reasoning
-      - systems-thinking
-    last_checked_at: "2026-05-06T22:45:05.919Z"
+      - spec-driven-development
+      - systems-engineering
+    last_checked_at: "2026-07-06T05:30:24.999Z"
     readme:
-      fetched_at: "2026-05-06T22:45:05.919Z"
-      bytes: 19379
+      fetched_at: "2026-07-06T05:30:24.999Z"
+      bytes: 15355
 insights:
   summary: Haft is a spec-driven engineering governor that integrates with AI coding agents like Claude Code and Codex via MCP and CLI to enforce structured decision-making, evidence tracking, and stale-assumption detection.
   why_it_matters: It shifts AI-assisted development from prompt-and-pray to governed execution by treating specs, decisions, and evidence as falsifiable contracts rather than ephemeral chat context.
@@ -87,11 +84,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:08.497Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for m0n0x41d/haft
+    status: done
+    updated_at: "2026-07-06T05:30:24.999Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

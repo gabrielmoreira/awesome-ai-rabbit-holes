@@ -31,7 +31,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 35.7k` `updated ≤30d` A community-curated collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to extend and configure GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 36.2k` `updated ≤30d` A community-curated collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to extend and configure GitHub Copilot. <details><summary>More about</summary>
 
   It provides a centralized, navigable registry and machine-readable index for developers looking to customize Copilot with specialized workflows, MCP servers, and reusable skill packs.
 
@@ -40,7 +40,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `github-copilot` `skills` `awesome-list` `extensions` `mcp`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28.5k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28.6k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
 
   It serves as a navigational map for developers trying to find the right agent framework or product in a rapidly expanding ecosystem.
 
@@ -94,7 +94,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `open-source` `licensing` `model-directory`
   </details>
 
-- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.7k` `updated ≤30d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.7k` `updated ≤90d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
 
   It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
 
@@ -139,7 +139,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `clients` `navigation`
   </details>
 
-- **[awesome-llmops](https://github.com/tensorchord/awesome-llmops)** `⭐ 5.8k` `updated ≤90d` A curated, community-maintained awesome list indexing LLMOps tools spanning model training, serving, security, data management, and developer-facing code AI. <details><summary>More about</summary>
+- **[awesome-llmops](https://github.com/tensorchord/awesome-llmops)** `⭐ 5.8k` `updated ≤180d` A curated, community-maintained awesome list indexing LLMOps tools spanning model training, serving, security, data management, and developer-facing code AI. <details><summary>More about</summary>
 
   It acts as a map for developers trying to navigate the fragmented LLMOps ecosystem, from foundational models to the specific Code AI tooling used in daily workflows.
 
@@ -148,13 +148,22 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llmops` `awesome-list` `mlops` `directory`
   </details>
 
-- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.6k` `updated ≤90d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
+- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.6k` `updated ≤180d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
 
   It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
 
   _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
 
   `video-generation` `diffusion-models` `research` `awesome-list`
+  </details>
+
+- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.6k` `updated ≤1y` A broad, community-curated awesome list covering generative AI tools across text, code, image, video, audio, and marketing categories. <details><summary>More about</summary>
+
+  It serves as a high-level map of the commercial AI tooling landscape, useful for developers trying to orient themselves among the thousands of shipped products.
+
+  _Another curated list promising to save you hours, provided you first spend several hours scrolling through it to confirm none of the links have silently turned into affiliate traps._
+
+  `awesome-list` `directory` `ai-tools`
   </details>
 
 - **[awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤90d` A curated list of MLOps tools covering the full lifecycle of machine learning workflows, including AutoML, CI/CD, data management, model serving, and monitoring. <details><summary>More about</summary>
@@ -164,15 +173,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Yet another comprehensive list guaranteeing you will spend a Friday afternoon evaluating seventeen feature stores instead of writing code._
 
   `mlops` `awesome-list` `machine-learning` `devops`
-  </details>
-
-- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.1k` `updated ≤1y` A broad, community-curated awesome list covering generative AI tools across text, code, image, video, audio, and marketing categories. <details><summary>More about</summary>
-
-  It serves as a high-level map of the commercial AI tooling landscape, useful for developers trying to orient themselves among the thousands of shipped products.
-
-  _Another curated list promising to save you hours, provided you first spend several hours scrolling through it to confirm none of the links have silently turned into affiliate traps._
-
-  `awesome-list` `directory` `ai-tools`
   </details>
 
 - **[awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)** `⭐ 4.1k` `updated ≤90d` A curated list of Model Context Protocol (MCP) servers for discovering MCP-compatible tools and integrations. <details><summary>More about</summary>
@@ -193,7 +193,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `medical-ai` `llm-resources` `benchmarks`
   </details>
 
-- **[Awesome Tensor Compilers](https://github.com/merrymercy/awesome-tensor-compilers)** `⭐ 2.7k` `updated >1y` A curated list of compiler projects and academic papers focused on tensor computation and deep learning optimization. <details><summary>More about</summary>
+- **[Awesome Tensor Compilers](https://github.com/merrymercy/awesome-tensor-compilers)** `⭐ 2.8k` `updated >1y` A curated list of compiler projects and academic papers focused on tensor computation and deep learning optimization. <details><summary>More about</summary>
 
   It serves as a research map for developers building high-performance ML infrastructure rather than those looking for coding assistants.
 
@@ -319,7 +319,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 878` `updated ≤180d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
+- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 881` `updated ≤180d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and servers.
 
@@ -400,7 +400,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 188` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 195` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
 
   It acts as a central map for developers trying to shift from vibe-coding to disciplined, specification-first workflows that align AI agents with business requirements.
 

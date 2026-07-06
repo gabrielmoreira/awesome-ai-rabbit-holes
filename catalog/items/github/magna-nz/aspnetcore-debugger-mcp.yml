@@ -24,17 +24,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 11
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-05-22T15:15:21Z"
+    pushed_at: "2026-06-27T09:24:25Z"
+    description: MCP server that lets AI agents (Claude, Cursor) debug your .NET / ASP.NET Core app
+    homepage: ""
+    topics:
+      - ai
+      - ai-agent
+      - aspnetcore
+      - csharp
+      - debug
+      - debug-adapter-protocol
+      - debugging
+      - diagnostics
+      - dotnet
+      - dotnet-tool
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - netcoredbg
+    last_checked_at: "2026-07-06T05:30:25.385Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:25.385Z"
+      bytes: 11238
 insights:
   summary: null
   why_it_matters: null
@@ -58,15 +75,37 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:09.126Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for magna-nz/aspnetcore-debugger-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-06T05:30:25.385Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:35:34.677Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__magna-nz__aspnetcore-debugger-mcp: ```json
+        {
+          "summary": "An MCP server that enables AI agents to debug.NET and ASP.NET Core applications via the Debug Adapter Protocol.",
+          "why_it_matters": "It allows LLMs to move beyond guessing code fixes by providing them with the ability to actually inspect runtime state, stack traces, and variables during execution.",
+          "mental_damage": "Because why spend twenty minutes hunting a NullReferenceException yourself when you can watch a LLM spend ten minutes failing to do it for you?",
+          "tags": [
+            "mcp",
+            ".net",
+            "debugging",
+            "aspnetcore",
+            "ai-agents"
+          ],
+          "should_include": true,
+          "primary_category": "mcp",
+          "section": "Domain Servers",
+          "decision_reason": "The project's core identity is providing a Model Context Protocol (MCP) interface to bridge agentic reasoning with the.NET debugging runtime.",
+          "decision_evidence": [
+            "Explicitly identifies as an 'MCP server' in the README",
+            "Implements tools for state mutation and stack inspection for AI agents",
+            "Uses the Model Context Protocol to expose debugging capabilities to hosts like Claude"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

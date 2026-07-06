@@ -24,39 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 71
-    forks: 14
+    stars: 219
+    forks: 30
     license: MIT
     archived: false
     created_at: "2026-02-05T14:23:33Z"
-    pushed_at: "2026-05-06T15:05:14Z"
-    description: Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.
+    pushed_at: "2026-07-06T00:43:58Z"
+    description: Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools, 20 format parsers. Zero external servers, zero API keys.
     homepage: https://pypi.org/project/knowledge-rag/
     topics:
-      - bm25
-      - chromadb
+      - antigravity
       - claude
       - claude-code
+      - claude-code-cli
+      - codex
+      - cursor-ai
       - document-search
-      - embeddings
-      - fastembed
       - hybrid-search
+      - inteligencia-artificial
       - knowledge-base
       - local-ai
       - mcp
       - mcp-server
-      - onnx
-      - privacy
-      - python
       - rag
+      - rag-chatbot
+      - rag-pipeline
       - reranking
       - retrieval-augmented-generation
       - semantic-search
       - vector-database
-    last_checked_at: "2026-05-06T22:45:05.628Z"
+    last_checked_at: "2026-07-06T05:30:24.768Z"
     readme:
-      fetched_at: "2026-05-06T22:45:05.628Z"
-      bytes: 42467
+      fetched_at: "2026-07-06T05:30:24.768Z"
+      bytes: 76215
 insights:
   summary: A fully local MCP server that indexes documents and code into a hybrid search stack (BM25, embeddings, reranking) so Claude Code can query them via 12 MCP tools without cloud APIs or external servers.
   why_it_matters: Developers can point Claude Code at large private knowledge bases and repos with zero cloud dependencies, getting fast, code-aware retrieval inside their existing coding workflow.
@@ -79,8 +79,8 @@ placement:
   primary_category: mcp
   section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (219) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -88,11 +88,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:08.275Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for lyonzin/knowledge-rag
+    status: done
+    updated_at: "2026-07-06T05:30:24.768Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

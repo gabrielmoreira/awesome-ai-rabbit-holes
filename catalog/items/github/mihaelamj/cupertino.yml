@@ -80,9 +80,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:18.273Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-06T05:30:33.723Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: mihaelamj/cupertino"
     next_retry_at: null
   categorize:
     status: done

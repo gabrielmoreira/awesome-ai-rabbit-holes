@@ -24,17 +24,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    created_at: "2026-05-21T17:20:29Z"
+    pushed_at: "2026-06-07T08:24:17Z"
+    description: Agency-grade MCP server for WordPress Elementor — multi-site management, safe Elementor data editing, template export/import, version tracking. MIT.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - agency
+      - anthropic
+      - claude
+      - elementor
+      - mcp
+      - model-context-protocol
+      - multi-site
+      - typescript
+      - wordpress
+    last_checked_at: "2026-07-06T05:30:38.016Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:38.016Z"
+      bytes: 10351
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +69,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:38.016Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:46:24.582Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__mogacode-ma__elementor-mcp-agent: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

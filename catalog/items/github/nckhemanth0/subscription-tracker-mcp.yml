@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:29.829Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-06T05:30:42.373Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: nckhemanth0/subscription-tracker-mcp"
     next_retry_at: null
   categorize:
     status: done

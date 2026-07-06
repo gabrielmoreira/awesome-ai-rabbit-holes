@@ -66,11 +66,37 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-02T05:26:45.022Z"
+    updated_at: "2026-07-06T05:53:31.546Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__justadityaraj__amazon-in-mcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__justadityaraj__amazon-in-mcp: ```json
+        {
+          "summary": "An MCP server that enables LLMs to search for products and compare prices on Amazon.in via HTML scraping.",
+          "why_it_matters": "It provides agents with a way to perform real-time e-commerce tasks—like price tracking and best-value sorting—without requiring expensive or complex official APIs.",
+          "mental_damage": "Because nothing says 'developer productivity' quite like using a high-end LLM to scrape Amazon for the best deal on a USB-C cable.",
+          "tags": [
+            "mcp",
+            "scraping",
+            "amazon",
+            "shopping-assistant",
+            - "automation"
+          ],
+          "should_include": true,
+          "primary_category": "mcp",
+          "section": "Generic Servers & Middleware",
+          "decision_reason": "The project's sole purpose is to act as an MCP server to bridge an LLM to a specific domain (Amazon.in).",
+          "decision_evidence": [
+            "README explicitly states it is an MCP server for Amazon.in",
+            "Provides tools (search, get_product, price_history) designed for LLM consumption",
+            "Uses stdio for integration with MCP clients like Claude Desktop"
+          ],
+          "category_candidates": [
+            "mcp",
+            "skills"
+          ],
+          "contrastive_reason": "Choose mcp over skills because the project is implemented as a standalone MCP
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

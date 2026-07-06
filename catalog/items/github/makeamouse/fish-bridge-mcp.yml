@@ -24,30 +24,53 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-09T03:50:02Z"
+    pushed_at: "2026-06-18T16:24:07Z"
+    description: An economical and fuel(token) efficient AI tool, graph session memory for looong chat session
+    homepage: ""
+    topics:
+      - ai-context-management
+      - claude-code
+      - context-compression
+      - conversation-graph
+      - copilot
+      - cursor
+      - knowledge-graph
+      - llm-memory
+      - local-first
+      - mcp-server
+      - obsidian
+      - ollama
+      - session-graph
+    last_checked_at: "2026-07-06T05:30:25.919Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:25.919Z"
+      bytes: 9088
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A session-scoped knowledge graph engine that compresses long AI chat histories into compact, typed context summaries automatically ingested by Copilot, Claude Code, and Cursor.
+  why_it_matters: It slashes token burn by distilling 40k-token sessions into ~350-token graphs, letting developers maintain coherent long-running conversations with coding assistants without hitting context limits or paying to resend full history every turn.
+  mental_damage: You already paid to generate the 40k tokens, and now you need a second AI to summarize them so the first AI can afford to keep talking to you.
+  tags:
+    - context-compression
+    - knowledge-graph
+    - memory
+    - cli
+    - mcp-server
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's entire identity is a graph-based memory and compression layer for AI context, not a host integration or MCP-first toolkit, making Prompt & Context Engineering the clear home.
+  evidence:
+    - README defines the product as a 'Session-scoped knowledge graph engine for AI chat context compression' with a core workflow of compressing 40k+ tokens into ~300–800 token graphs.
+    - Value lives in the distillation algorithm and memory graph, while delivery to assistants is a passive file-write to copilot-instructions.md or CLAUDE.md.
+    - MCP server is explicitly optional and secondary ('No MCP server required for the core workflow'), ruling out MCP Servers & Tooling as the primary category.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +81,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:25.919Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:35:24.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

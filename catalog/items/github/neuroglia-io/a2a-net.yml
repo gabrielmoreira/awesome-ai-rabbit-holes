@@ -76,9 +76,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:31.471Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-06T05:30:43.583Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for neuroglia-io/a2a-net
     next_retry_at: null
   categorize:
     status: done

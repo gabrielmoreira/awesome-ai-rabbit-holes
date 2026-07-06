@@ -24,17 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-30T18:10:45Z"
+    pushed_at: "2026-07-06T04:55:11Z"
+    description: acrawl — LLM-powered web crawler. Describe what you want in plain English, get structured data back. Single Rust binary, 25 providers, MCP server built-in.
+    homepage: ""
+    topics:
+      - ai-agent
+      - autonomous-agents
+      - browser-automation
+      - claude
+      - cli
+      - cloakbrowser
+      - developer-tools
+      - headless-browser
+      - llm
+      - mcp
+      - mcp-client
+      - mcp-server
+      - model-context-protocol
+      - openai
+      - playwright
+      - rust
+      - web-crawler
+      - web-scraping
+    last_checked_at: "2026-07-06T05:30:34.979Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:34.979Z"
+      bytes: 54420
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +78,27 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:34.979Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:45:11.861Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__mingye-lu__agenticcrawler: ```json
+        {
+          "summary": "A single-binary Rust web crawler and browser automation agent that supports 25 LLM providers and includes a built-in MCP server.",
+          "why_it_matters": "It allows developers to extend existing AI assistants like Claude Code or Cursor with deep browser observability and DevTools capabilities without managing Python or Node runtimes.",
+          "mental_damage": "Another tool to automate the web until your entire workflow is just managing a fleet of headless browsers.",
+          "tags": ["web-scraping", "browser-automation", "mcp", "rust", "agents"],
+          "should_include": true,
+          "primary_category": "ai-dev-extensions",
+          "section": "Host Integrations & Automation",
+          "decision_reason": "The tool'
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

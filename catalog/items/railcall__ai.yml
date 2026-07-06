@@ -1,0 +1,76 @@
+id: railcall__ai
+kind: website
+name: railcall.ai
+canonical_url: https://railcall.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__railcall__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: MeterCall
+        extracted_url: https://metercall.ai
+        surrounding_text: "- **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: RailCall is a local-first AI workflow engine that runs agents on user data with dry-run execution, human approval gates, and tamper-evident receipts.
+  why_it_matters: It lets developers safely run AI agents on sensitive data by ensuring no writes occur without approval and providing cryptographic proof of what ran.
+  mental_damage: Finally, a tool that treats your trust issues as a feature, not a bug to be patched with more SOC 2 theater.
+  tags:
+    - local-ai
+    - governance
+    - mcp
+    - workflows
+  confidence: high
+curation:
+  status: included
+  reason: RailCall acts as an MCP server and local execution layer that augments AI agents (like Claude or Cursor) with secure, approval-gated actions and receipt-backed workflows, making it an extension rather than a standalone coding assistant.
+  evidence:
+    - Registers as a universal MCP server for AI agents to call over stdio for 'doing' while the agent handles 'thinking'
+    - Provides local dry-run execution, human approval gates, and per-flow Ed25519-signed receipts for auditability
+    - Designed to integrate with n8n, Zapier, Salesforce, GitHub, etc., as a governed overlay for sensitive data workflows
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.558Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T06:00:26.193Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

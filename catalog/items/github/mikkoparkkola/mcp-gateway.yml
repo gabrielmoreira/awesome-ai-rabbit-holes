@@ -24,13 +24,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20
-    forks: 7
+    stars: 39
+    forks: 12
     license: MIT
     archived: false
     created_at: "2026-01-25T00:55:03Z"
-    pushed_at: "2026-05-06T11:40:55Z"
-    description: Universal MCP Gateway - Single-port multiplexing with Meta-MCP for ~95% context token savings
+    pushed_at: "2026-07-06T00:55:01Z"
+    description: "Universal MCP gateway: one endpoint in front of all your MCP servers, sending the model ~89% fewer tool-list tokens so you can wire in many tools without blowing the context budget. Single Rust binary, fixed small tool surface."
     homepage: https://crates.io/crates/mcp-gateway
     topics:
       - ai
@@ -43,10 +43,10 @@ metadata:
       - multiplexer
       - proxy
       - rust
-    last_checked_at: "2026-05-06T22:45:18.619Z"
+    last_checked_at: "2026-07-06T05:30:33.923Z"
     readme:
-      fetched_at: "2026-05-06T22:45:18.619Z"
-      bytes: 32980
+      fetched_at: "2026-07-06T05:30:33.923Z"
+      bytes: 46288
 insights:
   summary: A Rust-based gateway that multiplexes multiple MCP servers and REST APIs behind a single Meta-MCP interface to drastically reduce context window token usage.
   why_it_matters: Developers can expose 110+ REST capabilities and backend tools to AI clients through a minimal tool surface, avoiding context bloat that slows down responses.
@@ -79,7 +79,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:18.619Z"
+    updated_at: "2026-07-06T05:30:33.923Z"
     cause: null
     next_retry_at: null
   categorize:

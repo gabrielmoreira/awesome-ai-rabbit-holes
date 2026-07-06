@@ -1,0 +1,92 @@
+id: github__atomno-mcp__mcp-fns-check
+kind: github-repo
+name: mcp-fns-check
+canonical_url: https://github.com/atomno-mcp/mcp-fns-check
+identity:
+  github_repo: atomno-mcp/mcp-fns-check
+provenance:
+  discoveries:
+    - id: discovery__github__atomno-mcp__mcp-fns-check__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: atomno-labs/mcp-fns-check
+        extracted_url: https://github.com/atomno-labs/mcp-fns-check
+        surrounding_text: "- [atomno-labs/mcp-fns-check](https://github.com/atomno-labs/mcp-fns-check) [![atomno-labs/mcp-fns-check MCP server](https://glama.ai/mcp/servers/atomno-labs/mcp-fns-check/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-fns-check) 🐍 ☁️ - Russian counterparty due diligence — INN/OGRN lookup against EGRUL/EGRIP, bankruptcy registry (EFRSB), tax debts (Transparent Business), FSSP enforcement proceedings, and arbitration courts (KAD). Aggregated verdict with risk flags and recommendations. No API key required (public Federal Tax Service data)."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-24T20:04:02Z"
+    pushed_at: "2026-07-06T03:19:05Z"
+    description: MCP server for checking RU counterparties via FNS open data (EGRUL/EGRIP, EFRSB, KAD, FSSP)
+    homepage: null
+    topics:
+      - claude
+      - compliance
+      - cursor
+      - due-diligence
+      - egrul
+      - fns
+      - kyc
+      - mcp
+      - model-context-protocol
+      - russia
+    last_checked_at: "2026-07-06T05:29:59.319Z"
+    readme:
+      fetched_at: "2026-07-06T05:29:59.319Z"
+      bytes: 14867
+insights:
+  summary: MCP server for checking Russian counterparties via FNS open data (EGRUL/EGRIP, EFRSB, KAD, FSSP).
+  why_it_matters: It gives AI agents direct access to Russian compliance data, enabling due diligence checks within developer workflows via MCP.
+  mental_damage: Now your AI assistant can judge if your Russian contractor is a shell company before you even ask it to refactor a loop.
+  tags:
+    - mcp
+    - compliance
+    - russia
+    - due-diligence
+    - fns
+  confidence: high
+curation:
+  status: included
+  reason: The product is an MCP server providing domain-specific compliance tools, making MCP its core identity rather than a compatibility feature.
+  evidence:
+    - "Repo description: 'MCP server for checking RU counterparties via FNS open data'"
+    - "README: 'MCP-сервер для проверки российских контрагентов' and readiness for connection in Claude Desktop, Cursor, etc."
+    - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation"
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.557Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:29:59.319Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:59:29.318Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

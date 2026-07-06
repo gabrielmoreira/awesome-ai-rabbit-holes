@@ -24,30 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: ISC
+    archived: false
+    created_at: "2026-06-06T04:31:08Z"
+    pushed_at: "2026-06-21T08:57:23Z"
+    description: Read-only MCP server for querying PostgreSQL, MySQL, and SQLite from AI agents — multi-database, safe by default.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-06T05:30:25.466Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:25.466Z"
+      bytes: 8060
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Read-only MCP server that lets AI agents query PostgreSQL, MySQL, and SQLite through a single stdio connection, enforcing safety via database-level read-only transactions and query guards.
+  why_it_matters: Developers can point Claude, Cursor, or any MCP client at multiple databases without deploying a separate server per engine or risking accidental writes.
+  mental_damage: Promising 'zero query language to learn' for database access is liberating until you realize the agent still needs someone to understand the schema, the joins, and why that 'read-only' query is timing out after 2.3 million rows.
+  tags:
+    - mcp
+    - database
+    - sql
+    - read-only
+    - multi-engine
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a purpose-built MCP server for multi-database querying; MCP is its entire identity rather than a compatibility layer or side feature.
+  evidence:
+    - Repo description and README frame it exclusively as a stdio MCP server serving database tools like `list_databases` and `run_query`.
+    - Source-list context places it in awesome-mcp-servers under Databases, confirming community categorization as MCP infrastructure.
+    - Provides concrete server tooling (SQL-text guard, read-only transactions, schema discovery) rather than acting as a generic framework or editor extension.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,15 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:09.139Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for mahanuj/mcp-multi-db
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-06T05:30:25.466Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:34:28.001Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

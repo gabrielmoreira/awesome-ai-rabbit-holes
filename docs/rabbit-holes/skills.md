@@ -4,6 +4,15 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
+- **[skills](https://github.com/mattpocock/skills)** `⭐ 157.8k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
+
+  It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
+
+  _It allows you to replace the chaos of 'vibe coding' with the highly structured ritual of 'grilling your agent.'._
+
+  `agent-skills` `slash-commands` `workflows` `prompt-engineering`
+  </details>
+
 - **[skills](https://github.com/anthropics/skills)** `⭐ 157.4k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
@@ -13,7 +22,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 66.5k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 70k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -134,7 +143,7 @@ _These are new or low-traffic entries being watched._
   `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
   </details>
 
-- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 26` `updated ≤90d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
+- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 30` `updated ≤30d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
 
   It provides reusable, domain-specific agent skills and operational patterns that developers can adapt to build life-science AI applications rather than starting from scratch.
 
@@ -179,7 +188,7 @@ _These are new or low-traffic entries being watched._
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
   </details>
 
-- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 11` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 12` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
 
   It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
 

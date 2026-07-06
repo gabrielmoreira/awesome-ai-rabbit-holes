@@ -1,0 +1,84 @@
+id: github__devnomad-byte__cosmosmith
+kind: github-repo
+name: cosmosmith
+canonical_url: https://github.com/devnomad-byte/cosmosmith
+identity:
+  github_repo: devnomad-byte/cosmosmith
+provenance:
+  discoveries:
+    - id: discovery__github__devnomad-byte__cosmosmith__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: Cosmosmith
+        extracted_url: https://github.com/devnomad-byte/cosmosmith
+        surrounding_text: "- [Cosmosmith](https://github.com/devnomad-byte/cosmosmith) ![](https://img.shields.io/github/stars/devnomad-byte/cosmosmith.svg?cacheSeconds=86400) - Multi-agent workflow initializer that generates AGENTS.md, task.md, proposal/design templates, and adapters for Claude Code, Cursor, Copilot, OpenCode, and Trae."
+        confidence: high
+metadata:
+  github:
+    stars: 11
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-07-03T14:25:39Z"
+    pushed_at: "2026-07-04T15:34:56Z"
+    description: Give AI coding agents product, spec, task, QA, and release workflows in one command.
+    homepage: https://www.npmjs.com/package/cosmosmith
+    topics:
+      - agent-skills
+      - ai-agents
+      - claude
+      - claude-code
+      - codex
+      - cursor
+      - devops
+      - devtools
+      - spec-driven-development
+    last_checked_at: "2026-07-06T05:30:00.775Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:00.775Z"
+      bytes: 5895
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.558Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:30:00.775Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:59:48.265Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__devnomad-byte__cosmosmith: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Cosmosmith\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -78,11 +78,37 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-02T05:31:14.232Z"
+    updated_at: "2026-07-06T05:56:21.732Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__laszlopere__mcp-tmux: Invalid AI response format: SyntaxError: Unexpected token 'm', ...\"_reason\": mcp-tmux i\"... is not valid JSON"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__laszlopere__mcp-tmux: ```json
+        {
+          "summary": "An MCP server that allows AI agents to control tmux sessions, including managing windows, panes, and executing commands over SSH.",
+          "why_it_matters": "It enables AI agents to operate within shared, persistent terminal environments, allowing humans and models to collaborate live in the same tmux session.",
+          "mental_damage": "Now you can watch an LLM accidentally delete a production log file in real-time inside your terminal.",
+          "tags": [
+            "mcp",
+            "tmux",
+            "terminal",
+            "ssh",
+            "productivity"
+          ],
+          "should_include": true,
+          "primary_category": "mcp",
+          "section": "Generic Servers & Middleware",
+          "decision_reason": "The tool's identity is an MCP server providing specific capabilities to an MCP-compatible host.",
+          "decision_evidence": [
+            "Repo description defines it as an MCP server for driving tmux",
+            "README describes it as a way to enable AI-human pair programming via shared tmux sessions"
+          ],
+          "category_candidates": [
+            "mcp",
+            "ai-dev-extensions"
+          ],
+          "contrastive_reason": "Choose mcp over ai-dev-extensions because the tool is a protocol-native server designed specifically for the Model Context Protocol rather than a plugin for a specific editor.",
+          "confidence
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

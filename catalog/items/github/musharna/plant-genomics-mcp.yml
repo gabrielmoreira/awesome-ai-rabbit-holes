@@ -24,17 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-22T21:18:06Z"
+    pushed_at: "2026-07-05T02:43:32Z"
+    description: Plant genomics MCP server — 32 tools across 11 backends (Ensembl Plants, Phytozome, UniProt, Europe PMC, QuickGO, NCBI BLAST, Gramene, KEGG, STRING-DB, ATTED-II, BAR) + cross-source synthesis. stdio + Streamable-HTTP transports.
+    homepage: https://pypi.org/project/plant-genomics-mcp/
+    topics:
+      - bioinformatics
+      - ensembl-plants
+      - genomics
+      - kegg
+      - llm-tools
+      - mcp
+      - model-context-protocol
+      - plant-genomics
+      - python
+      - uniprot
+    last_checked_at: "2026-07-06T05:30:40.269Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:40.269Z"
+      bytes: 19748
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +70,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:40.269Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:49:15.114Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__musharna__plant-genomics-mcp: Internal Server Error"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

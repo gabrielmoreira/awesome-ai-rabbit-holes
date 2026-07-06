@@ -24,19 +24,23 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
-    forks: 0
+    stars: 2
+    forks: 1
     license: MIT
     archived: false
     created_at: "2026-02-22T19:04:44Z"
-    pushed_at: "2026-04-22T11:08:49Z"
-    description: MCP server for MultiMail — email for AI agents
+    pushed_at: "2026-06-12T01:49:10Z"
+    description: MCP server for MultiMail — Verifiable identity email for AI agents
     homepage: https://multimail.dev
-    topics: []
-    last_checked_at: "2026-05-06T22:45:27.336Z"
+    topics:
+      - agent-email
+      - ai-agent
+      - ai-agents
+      - verifiable-credentials
+    last_checked_at: "2026-07-06T05:30:40.052Z"
     readme:
-      fetched_at: "2026-05-06T22:45:27.336Z"
-      bytes: 8165
+      fetched_at: "2026-07-06T05:30:40.052Z"
+      bytes: 11568
 insights:
   summary: An MCP server that provides AI agents with dedicated email addresses and configurable human oversight modes for sending and receiving messages.
   why_it_matters: It lets developers wire email capabilities into coding agents and MCP clients with graduated oversight, removing the need to hand-roll mail integrations.
@@ -68,7 +72,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:27.336Z"
+    updated_at: "2026-07-06T05:30:40.052Z"
     cause: null
     next_retry_at: null
   categorize:

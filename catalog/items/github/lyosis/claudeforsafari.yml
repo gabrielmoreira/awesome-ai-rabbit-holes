@@ -24,30 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-06T19:25:35Z"
+    pushed_at: "2026-06-12T19:21:17Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-06T05:30:24.841Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:24.841Z"
+      bytes: 6429
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that lets Claude Desktop control Safari through a native macOS Safari extension and a local Node.js bridge.
+  why_it_matters: It fills a gap for Mac developers who rely on Safari by giving Claude Desktop the same browser-automation superpowers that Chromium-based workflows already enjoy.
+  mental_damage: Nothing says modern developer experience like building an Xcode project, enabling a Safari extension, and running a local WebSocket bridge just so an LLM can click a button.
+  tags:
+    - mcp
+    - safari
+    - browser-automation
+    - claude-desktop
+    - macos
+  confidence: low
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a purpose-built MCP server whose entire architecture and identity revolve around exposing Safari browser automation through the Model Context Protocol, fitting the Domain Servers section.
+  evidence:
+    - README explicitly labels the project as an MCP server and details a bridge/Node.js JSON-RPC architecture feeding 13 Safari control tools.
+    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
+    - Active and unarchived (last pushed 2026-06-12, MIT license), with clear macOS/Safari-specific installation steps.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -58,15 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-02T05:23:08.521Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for lyosis/claudeforsafari
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-06T05:30:24.841Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:31:43.141Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

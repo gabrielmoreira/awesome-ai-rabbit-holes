@@ -1,0 +1,76 @@
+id: github__blinkingbit-oss__execkit
+kind: github-repo
+name: execkit
+canonical_url: https://github.com/blinkingbit-oss/execkit
+identity:
+  github_repo: blinkingbit-oss/execkit
+provenance:
+  discoveries:
+    - id: discovery__github__blinkingbit-oss__execkit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: blinkingbit-oss/execkit
+        extracted_url: https://github.com/blinkingbit-oss/execkit
+        surrounding_text: "- [blinkingbit-oss/execkit](https://github.com/blinkingbit-oss/execkit) [![blinkingbit-oss/execkit MCP server](https://glama.ai/mcp/servers/blinkingbit-oss/execkit/badges/score.svg)](https://glama.ai/mcp/servers/blinkingbit-oss/execkit) 🦀 🏠 🍎 🐧 - Stateful, structured, auditable shell sessions for AI agents over local, SSH, and Docker. Secret redaction, output budgeting, SSH host-key verification, and a loopback read-only browser viewer that streams the live transcript."
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-06-05T12:31:59Z"
+    pushed_at: "2026-07-01T16:10:36Z"
+    description: Stateful, structured, safe command execution for AI agents - over local shells, SSH, and Docker.
+    homepage: https://blinkingbit-oss.github.io/execkit/
+    topics: []
+    last_checked_at: "2026-07-06T05:29:59.847Z"
+    readme:
+      fetched_at: "2026-07-06T05:29:59.847Z"
+      bytes: 6678
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.557Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:29:59.847Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:59:35.686Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__blinkingbit-oss__execkit: Invalid AI response format: SyntaxError: Unexpected token 'e', ...\"_reason\": execkit is\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

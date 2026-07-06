@@ -40,7 +40,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `self-hosted` `mcp` `llm-chat` `agent-marketplace`
   </details>
 
-- **[Flowise](https://github.com/flowiseai/flowise)** `⭐ 54k` `updated ≤30d` Flowise is an open-source, low-code visual platform for building and orchestrating AI agents and LLM workflows using drag-and-drop components. <details><summary>More about</summary>
+- **[Flowise](https://github.com/flowiseai/flowise)** `⭐ 54.3k` `updated ≤30d` Flowise is an open-source, low-code visual platform for building and orchestrating AI agents and LLM workflows using drag-and-drop components. <details><summary>More about</summary>
 
   It provides a visual workbench for developers to rapidly prototype and serve agentic workflows and RAG pipelines without writing extensive boilerplate code.
 
@@ -65,6 +65,33 @@ Tools and platforms for coordinating multiple agents.
   _Now your agent stack has its own runtime, control plane, and onboarding funnel, because apparently deploying a chatbot wasn't architecturally impressive enough._
 
   `agents` `runtime` `production` `python` `control-plane`
+  </details>
+
+- **[minds](https://github.com/mindsdb/minds)** `⭐ 39.4k` `updated ≤30d` A unified workspace and platform for coordinating open-source agents with connected data sources and model routing. <details><summary>More about</summary>
+
+  It provides the infrastructure to bridge the gap between raw LLMs and real-world tasks by building data-aware, multi-step agentic workflows.
+
+  _Because managing an autonomous agent workforce is just a more complex way to avoid doing your own work._
+
+  `agents` `orchestration` `workflow` `data-integration` `open-source`
+  </details>
+
+- **[minds-platform](https://github.com/mindsdb/minds-platform)** `⭐ 39.4k` `updated ≤30d` A unified workspace and platform for deploying, routing, and coordinating open-source agents with integrated data connections. <details><summary>More about</summary>
+
+  It allows developers to move beyond single prompts to building complex, multi-step agentic workflows that automate tasks and output functional artifacts.
+
+  _It is one step closer to a reality where your primary job is just middle management for a fleet of autonomous agents that don't require health insurance._
+
+  `agents` `orchestration` `automation` `data` `workflow`
+  </details>
+
+- **[Multica](https://github.com/multica-ai/multica)** `⭐ 39.2k` `updated ≤30d` Multica is an open-source managed agents platform that connects multiple coding assistants to a shared task board, allowing developers to assign issues and track autonomous execution. <details><summary>More about</summary>
+
+  It provides a vendor-neutral control plane to coordinate agents from Claude Code, Copilot, Gemini, and others as first-class teammates within a unified workspace.
+
+  _We have finally built the scrum board where your AI agents can raise blockers and complain about your architecture just like your human juniors._
+
+  `agents` `orchestration` `control-plane` `multi-agent` `self-hosted`
   </details>
 
 - **[ChatDev](https://github.com/openbmb/chatdev)** `⭐ 33k` `updated ≤90d` ChatDev 2.0 (DevAll) is a zero-code multi-agent orchestration platform that allows users to build and execute customized multi-agent systems for tasks ranging from software development to data visualization and deep research. <details><summary>More about</summary>
@@ -92,15 +119,6 @@ Tools and platforms for coordinating multiple agents.
   _We have successfully abstracted the job of writing code into dragging cards on a board so that we can feel productive while supervising a small swarm of agents we no longer fully understand._
 
   `kanban` `multi-agent` `cli` `review` `workflow`
-  </details>
-
-- **[Multica](https://github.com/multica-ai/multica)** `⭐ 25.3k` `updated ≤90d` Multica is an open-source managed agents platform that connects multiple coding assistants to a shared task board, allowing developers to assign issues and track autonomous execution. <details><summary>More about</summary>
-
-  It provides a vendor-neutral control plane to coordinate agents from Claude Code, Copilot, Gemini, and others as first-class teammates within a unified workspace.
-
-  _We have finally built the scrum board where your AI agents can raise blockers and complain about your architecture just like your human juniors._
-
-  `agents` `orchestration` `control-plane` `multi-agent` `self-hosted`
   </details>
 
 - **[MaxKB](https://github.com/1panel-dev/maxkb)** `⭐ 21.6k` `updated ≤30d` MaxKB is an open-source, self-hosted platform for building enterprise-grade AI agents with integrated RAG pipelines, workflow orchestration, and MCP tool-use capabilities. <details><summary>More about</summary>
@@ -157,7 +175,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `autonomous` `framework` `python` `llm`
   </details>
 
-- **[gastown](https://github.com/gastownhall/gastown)** `⭐ 16.1k` `updated ≤30d` A multi-agent workspace manager that orchestrates Claude Code, GitHub Copilot, and other AI agents with persistent, git-backed work tracking and dispatch. <details><summary>More about</summary>
+- **[gastown](https://github.com/gastownhall/gastown)** `⭐ 16.4k` `updated ≤30d` A multi-agent workspace manager that orchestrates Claude Code, GitHub Copilot, and other AI agents with persistent, git-backed work tracking and dispatch. <details><summary>More about</summary>
 
   It lets developers coordinate 20–30 coding agents across multiple repos without losing context, with built-in merge queues, escalation, and scheduling.
 
@@ -202,6 +220,15 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `cli` `worktrees` `desktop-app` `parallel-agents`
   </details>
 
+- **[UFO](https://github.com/microsoft/ufo)** `⭐ 9.2k` `updated ≤30d` UFO³ is a Microsoft research project that provides a multi-device agent orchestration platform (Galaxy) and a Windows desktop agent (UFO²) for automating GUI and API tasks across heterogeneous platforms. <details><summary>More about</summary>
+
+  It offers developers a structured way to decompose complex workflows into DAG-based tasks that run across multiple devices, bridging desktop automation with modern LLM orchestration.
+
+  _Just when you thought 'agentic workflows' meant a Claude Code session, Microsoft releases a framework to weave an entire galaxy of agents so you can automate your Windows UI while questioning the heat death of your career._
+
+  `agent-orchestration` `gui-automation` `multi-device` `microsoft` `dag`
+  </details>
+
 - **[Astron Agent](https://github.com/iflytek/astron-agent)** `⭐ 8.6k` `updated ≤30d` An enterprise-grade, open-source agentic workflow platform from iFLYTEK for building, orchestrating, and deploying multi-agent applications with integrated RPA and MCP tooling. <details><summary>More about</summary>
 
   It provides developers with a production-ready, high-availability control plane to coordinate complex multi-agent systems and enterprise RPA workflows under an Apache 2.0 license.
@@ -211,15 +238,6 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `enterprise` `mcp` `workflow`
   </details>
 
-- **[UFO](https://github.com/microsoft/ufo)** `⭐ 8.6k` `updated ≤90d` UFO³ is a Microsoft research project that provides a multi-device agent orchestration platform (Galaxy) and a Windows desktop agent (UFO²) for automating GUI and API tasks across heterogeneous platforms. <details><summary>More about</summary>
-
-  It offers developers a structured way to decompose complex workflows into DAG-based tasks that run across multiple devices, bridging desktop automation with modern LLM orchestration.
-
-  _Just when you thought 'agentic workflows' meant a Claude Code session, Microsoft releases a framework to weave an entire galaxy of agents so you can automate your Windows UI while questioning the heat death of your career._
-
-  `agent-orchestration` `gui-automation` `multi-device` `microsoft` `dag`
-  </details>
-
 - **[Claude Squad](https://github.com/smtg-ai/claude-squad)** `⭐ 7.3k` `updated ≤180d` A terminal TUI that manages multiple AI coding agents (Claude Code, Codex, Gemini CLI, Aider) in isolated tmux sessions and git worktrees so developers can run several background tasks in parallel. <details><summary>More about</summary>
 
   It lets you scale beyond one assistant at a time by coordinating parallel agent sessions with isolated branches, review workflows, and a single navigation surface.
@@ -227,6 +245,15 @@ Tools and platforms for coordinating multiple agents.
   _You now have the infrastructure to confidently run six conflicting AI agents simultaneously and call it a productivity system._
 
   `terminal` `multi-agent` `tui` `parallel` `cli`
+  </details>
+
+- **[Nexent](https://github.com/modelengine-group/nexent)** `⭐ 5.5k` `updated ≤30d` Nexent is a zero-code platform for auto-generating production-grade AI agents, featuring unified tools, skills, memory, and orchestration with built-in constraints and control planes. <details><summary>More about</summary>
+
+  It allows developers to spin up multi-agent systems with memory and tool integration using natural language prompts instead of writing orchestration code.
+
+  _Yet another 'zero-code' platform promising to automate away the complexity of agent engineering, right as we were all starting to enjoy writing YAML again._
+
+  `agents` `orchestration` `mcp` `multi-agent` `platform`
   </details>
 
 - **[OpenAgents](https://github.com/xlang-ai/openagents)** `⭐ 4.8k` `updated >1y` OpenAgents is an open platform for deploying and hosting language agents like Data, Plugins, and Web agents with a web UI and local setup support. <details><summary>More about</summary>
@@ -245,15 +272,6 @@ Tools and platforms for coordinating multiple agents.
   _Finally, a way to visually wire together the same LangChain primitives you previously debugged at 2am in a TypeScript monorepo, now with nodes and edges to drag around when the prompt inevitably drifts._
 
   `agent-graphs` `visual-programming` `typescript` `langchain` `desktop-ide`
-  </details>
-
-- **[Nexent](https://github.com/modelengine-group/nexent)** `⭐ 4.4k` `updated ≤90d` Nexent is a zero-code platform for auto-generating production-grade AI agents, featuring unified tools, skills, memory, and orchestration with built-in constraints and control planes. <details><summary>More about</summary>
-
-  It allows developers to spin up multi-agent systems with memory and tool integration using natural language prompts instead of writing orchestration code.
-
-  _Yet another 'zero-code' platform promising to automate away the complexity of agent engineering, right as we were all starting to enjoy writing YAML again._
-
-  `agents` `orchestration` `mcp` `multi-agent` `platform`
   </details>
 
 - **[Maestro](https://github.com/doriandarko/maestro)** `⭐ 4.3k` `updated >1y` A Python framework that uses an orchestrator LLM to break an objective into sub-tasks, delegates them to sub-agents, and refines the results into a final output. <details><summary>More about</summary>
@@ -526,6 +544,15 @@ Tools and platforms for coordinating multiple agents.
   `agent-frontend` `self-hosted` `sdk` `chat-ui` `analytics`
   </details>
 
+- **[RAG-GPT](https://github.com/lynavo/rag-gpt)** `⭐ 499` `updated >1y` A full-stack RAG-based customer service system comprising a Flask backend, admin console, and chatbot interface. <details><summary>More about</summary>
+
+  It provides a production-ready blueprint for developers to deploy a customized knowledge-base bot with integrated data ingestion and admin management.
+
+  _The realization that we are now building 'AI customer service' bots to help users avoid talking to the humans who were replaced by these same bots._
+
+  `rag` `flask` `knowledge-base` `llm-ops`
+  </details>
+
 - **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 485` `updated ≤30d` An open agent control plane that governs autonomous AI agents with pre-execution policy enforcement, approval gates, and audit trails, compatible with LangChain, CrewAI, MCP, and other frameworks. <details><summary>More about</summary>
 
   It provides developers and platform teams with a governance layer to intercept risky agent actions, enforce safety policies, and maintain audit trails before autonomous agents execute destructive operations.
@@ -607,6 +634,15 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `cli` `orchestration` `git-worktree` `mcp`
   </details>
 
+- **[amux](https://github.com/mixpeek/amux)** `⭐ 280` `updated ≤30d` An open-source agent control plane that runs and manages dozens of parallel Claude Code sessions in tmux, with a web dashboard, kanban board, and REST API for agent-to-agent coordination. <details><summary>More about</summary>
+
+  It lets developers orchestrate multiple unattended coding agents from a single interface, adding self-healing, task claiming, and mobile control to long-running Claude Code workflows.
+
+  _Now you can wake up at 3am to check your kanban board on your phone and watch twelve Claude sessions argue with each other in real time instead of just wondering why your single agent stopped working._
+
+  `agent-orchestration` `claude-code` `parallel-agents` `tmux` `control-plane`
+  </details>
+
 - **[vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** `⭐ 253` `updated ≤1y` A cross-platform desktop and web app that runs multiple AI coding assistants in parallel across isolated git worktrees to reduce context switching. <details><summary>More about</summary>
 
   It lets developers delegate different tasks to separate AI agent sessions simultaneously without clobbering each other's working directories.
@@ -623,15 +659,6 @@ Tools and platforms for coordinating multiple agents.
   _We have finally closed the loop between Jira ticket apathy and AI hallucination by letting the tickets execute themselves on your own hardware._
 
   `ticket-driven` `agent-orchestration` `self-hosted` `workflow-automation`
-  </details>
-
-- **[amux](https://github.com/mixpeek/amux)** `⭐ 158` `updated ≤90d` An open-source agent control plane that runs and manages dozens of parallel Claude Code sessions in tmux, with a web dashboard, kanban board, and REST API for agent-to-agent coordination. <details><summary>More about</summary>
-
-  It lets developers orchestrate multiple unattended coding agents from a single interface, adding self-healing, task claiming, and mobile control to long-running Claude Code workflows.
-
-  _Now you can wake up at 3am to check your kanban board on your phone and watch twelve Claude sessions argue with each other in real time instead of just wondering why your single agent stopped working._
-
-  `agent-orchestration` `claude-code` `parallel-agents` `tmux` `control-plane`
   </details>
 
 ## Incubating
@@ -654,6 +681,15 @@ _These are new or low-traffic entries being watched._
   _You now have a dedicated UI to watch six agents politely disagree with each other in separate tmux panes._
 
   `tui` `parallel-agents` `tmux` `git-worktree` `orchestration`
+  </details>
+
+- **[open-multi-agent-kit](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 120` `updated ≤30d` A provider-neutral control plane and harness for routing, verifying, and managing multiple coding agents. <details><summary>More about</summary>
+
+  It provides a centralized TUI and runtime to coordinate different agents like Claude Code or OpenCode through scoped workflows and evidence-gated routing.
+
+  _Because managing one hallucinating agent is hard enough, now you can manage an entire multi-agent workforce from a terminal dashboard styled like a cyberpunk dystopia._
+
+  `agent-orchestration` `coding-agents` `control-plane` `multi-agent` `cli`
   </details>
 
 - **[kodo](https://github.com/ikamensh/kodo)** `⭐ 113` `updated ≤30d` An orchestrator that runs multiple coding agents (Claude Code, Cursor, Codex, Gemini) in autonomous cycles with independent verification to produce tested code overnight. <details><summary>More about</summary>
@@ -710,15 +746,6 @@ _These are new or low-traffic entries being watched._
   `ssdlc` `security` `langgraph` `rag` `mcp`
   </details>
 
-- **[open-multi-agent-kit](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 84` `updated ≤30d` A provider-neutral control plane and harness for routing, verifying, and managing multiple coding agents. <details><summary>More about</summary>
-
-  It provides a centralized TUI and runtime to coordinate different agents like Claude Code or OpenCode through scoped workflows and evidence-gated routing.
-
-  _Because managing one hallucinating agent is hard enough, now you can manage an entire multi-agent workforce from a terminal dashboard styled like a cyberpunk dystopia._
-
-  `agent-orchestration` `coding-agents` `control-plane` `multi-agent` `cli`
-  </details>
-
 - **[CliDeck](https://github.com/rustykuntz/clideck)** `⭐ 67` `updated ≤90d` A local dashboard for running and coordinating multiple AI CLI coding agents—such as Claude Code, Codex, and Gemini CLI—in a single browser window with live status, session management, and automated task routing. <details><summary>More about</summary>
 
   It solves the terminal-management problem of running several concurrent coding agents by providing a unified UI, session resume, and an autopilot mode that hands off work between agents.
@@ -764,6 +791,15 @@ _These are new or low-traffic entries being watched._
   `memory` `agent-orchestration` `local-first` `mcp` `context-engineering`
   </details>
 
+- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 54` `updated ≤90d` A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others. <details><summary>More about</summary>
+
+  It lets developers bootstrap a coordinated team of specialist agents inside their existing IDEs instead of relying on a single assistant to handle every task.
+
+  _You now have the infrastructure to convene a panel of AI agents for a majority vote on your semicolon placement, which is definitely easier than just deciding yourself._
+
+  `multi-agent` `orchestration` `cli` `ide-integration` `convoy`
+  </details>
+
 - **[ORCH](https://github.com/oxgeneral/orch)** `⭐ 50` `updated ≤90d` A CLI tool that orchestrates multiple AI coding agents (like Claude Code, Codex, and Cursor) in parallel from the terminal to decompose goals and execute tasks across a project. <details><summary>More about</summary>
 
   It allows a single developer to run a 'virtual team' of specialized agents simultaneously, automating the decomposition of high-level goals into PRs without manual tab-switching.
@@ -771,6 +807,15 @@ _These are new or low-traffic entries being watched._
   _We have successfully automated the middle-management layer, meaning you can now pay for five AI agents to accomplish what one mildly caffeinated human used to do before lunch._
 
   `agent-orchestration` `cli` `multi-agent` `typescript`
+  </details>
+
+- **[Floom](https://github.com/floomai/floom)** `⭐ 47` `updated >1y` Floom is an open-source orchestration platform for defining, executing, and managing generative AI pipelines with SDKs, caching, and built-in safety guardrails. <details><summary>More about</summary>
+
+  It gives developers a unified control plane to wire together models, data sources, and failover logic without hand-rolling glue code for every pipeline.
+
+  _Another YAML-solvable problem that lets you feel like a platform engineer while your models quietly burn through your API budget._
+
+  `genai` `pipeline` `orchestration` `sdk` `opensource`
   </details>
 
 - **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 47` `updated ≤30d` great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages. <details><summary>More about</summary>
@@ -782,15 +827,6 @@ _These are new or low-traffic entries being watched._
   `agent-orchestration` `claude-code` `sdlc` `multi-agent`
   </details>
 
-- **[Floom](https://github.com/floomai/floom)** `⭐ 45` `updated >1y` Floom is an open-source orchestration platform for defining, executing, and managing generative AI pipelines with SDKs, caching, and built-in safety guardrails. <details><summary>More about</summary>
-
-  It gives developers a unified control plane to wire together models, data sources, and failover logic without hand-rolling glue code for every pipeline.
-
-  _Another YAML-solvable problem that lets you feel like a platform engineer while your models quietly burn through your API budget._
-
-  `genai` `pipeline` `orchestration` `sdk` `opensource`
-  </details>
-
 - **[Wit](https://github.com/amaar-mc/wit)** `⭐ 44` `updated ≤180d` A lightweight daemon and CLI protocol that lets multiple AI coding agents declare intents, lock code symbols, and detect conflicts before writing to a shared repository. <details><summary>More about</summary>
 
   It prevents merge conflicts across concurrent AI agent sessions by coordinating work scope at the intent and symbol level rather than relying on git to untangle the mess after the fact.
@@ -798,15 +834,6 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the point where the greatest threat to your codebase is not a junior developer, but three Claude Code instances fighting over the same function like seagulls on a chip._
 
   `agent-coordination` `multi-agent` `cli` `conflict-prevention` `git`
-  </details>
-
-- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 43` `updated ≤90d` A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others. <details><summary>More about</summary>
-
-  It lets developers bootstrap a coordinated team of specialist agents inside their existing IDEs instead of relying on a single assistant to handle every task.
-
-  _You now have the infrastructure to convene a panel of AI agents for a majority vote on your semicolon placement, which is definitely easier than just deciding yourself._
-
-  `multi-agent` `orchestration` `cli` `ide-integration` `convoy`
   </details>
 
 - **[AgentTier](https://github.com/agenttier/agenttier)** `⭐ 42` `updated ≤30d` AgentTier is a Kubernetes-native platform providing isolated, persistent sandbox environments for running AI agents with warm pools, OIDC auth, and Web UI. <details><summary>More about</summary>
@@ -836,6 +863,15 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `workflow` `claude-code` `yaml` `checkpoint`
   </details>
 
+- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 17` `updated ≤30d` 5dive is a self-hosted runtime for running multiple AI coding agents on a server, letting them collaborate via a shared task queue and org chart, with human escalation over Telegram. <details><summary>More about</summary>
+
+  It enables developers to run a team of autonomous agents on their own infrastructure, reducing context-switching by letting agents handle routine work and only pinging humans for decisions.
+
+  _Finally, a way to feel guilty about delegating your job to AI while still being the bottleneck._
+
+  `self-hosted` `multi-agent` `agent-orchestration` `cli` `telegram`
+  </details>
+
 - **[multi-agent-workflow-kit](https://github.com/laris-co/multi-agent-workflow-kit)** `⭐ 11` `updated ≤1y` A CLI toolkit that orchestrates multiple AI coding agents in parallel using isolated git worktrees and a shared tmux session for supervision. <details><summary>More about</summary>
 
   It lets developers run several AI agents on separate branches simultaneously and monitor their progress in one terminal, reducing the manual overhead of coordinating parallel coding tasks.
@@ -852,6 +888,15 @@ _These are new or low-traffic entries being watched._
   _You can now go to bed while three different AI agents burn through your rate limits in separate branches, so you wake up to a merge conflict hangover instead of a blank screen._
 
   `multi-agent` `git-worktree` `parallel-execution` `cli-tool` `task-orchestration`
+  </details>
+
+- **[agent-nexus](https://github.com/dugubuyan/agent-nexus)** `⭐ 7` `updated ≤30d` A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications to synchronize heterogeneous LLM coding agents. <details><summary>More about</summary>
+
+  It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync via diff-aware updates to shared specs and API documents.
+
+  _Finally, a tool that acknowledges the only thing harder than writing code is trying to make five different agents agree on what the API spec actually is._
+
+  `mcp` `multi-agent` `pub-sub` `service-oriented` `context-management`
   </details>
 
 - **[repomon](https://github.com/alihamzaazam/repomon)** `⭐ 7` `updated ≤30d` repomon is a Rust-based terminal UI that orchestrates multiple AI coding agents like Claude Code, Codex, Aider) across many repositories and AI coding agents in parallel via tmux-backed worktrees. <details><summary>More about</summary>
@@ -872,22 +917,22 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `swarm` `gui` `cli`
   </details>
 
-- **[agent-nexus](https://github.com/dugubuyan/agent-nexus)** `⭐ 5` `updated ≤30d` A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications to synchronize heterogeneous LLM coding agents. <details><summary>More about</summary>
-
-  It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync via diff-aware updates to shared specs and API documents.
-
-  _Finally, a tool that acknowledges the only thing harder than writing code is trying to make five different agents agree on what the API spec actually is._
-
-  `mcp` `multi-agent` `pub-sub` `service-oriented` `context-management`
-  </details>
-
-- **[clu](https://github.com/arjia-labs/clu)** `⭐ 5` `updated ≤30d` clu is a local-first SQLite issue tracker CLI for coordinating AI coding agents with atomic claims, dependency graphs, and audit logging. <details><summary>More about</summary>
+- **[clu](https://github.com/arjia-labs/clu)** `⭐ 5` `updated ≤90d` clu is a local-first SQLite issue tracker CLI for coordinating AI coding agents with atomic claims, dependency graphs, and audit logging. <details><summary>More about</summary>
 
   It lets developers run multiple AI agents on the same codebase without conflicts by providing durable, local coordination of work, checkpoints, and inter-agent communication.
 
   _Finally, a way to make your AI agents can't-blame-the-tools when your fleet of AI interns overwrites each other's PRs._
 
   `agent-coordination` `local-first` `cli` `sqlite` `issue-tracker`
+  </details>
+
+- **[llm-bus](https://github.com/danieldoderlein/llm-bus)** `⭐ 5` `updated ≤30d` Open-source coordination engine for AI agents using MCP to manage handoffs, shared ledgers, claims, leases, and presence without requiring git. <details><summary>More about</summary>
+
+  Reduces manual context-copying between agents by providing a shared, attributable backplane for multi-agent workflows.
+
+  _Finally, a tool that acknowledges you’ve become the overworked intern shuttling sticky notes between your AI interns._
+
+  `mcp` `agent-coordination` `multi-agent`
   </details>
 
 - **[AgentAPIProduction](https://github.com/the-swarm-corporation/agentapiproduction)** `⭐ 4` `updated >1y` A FastAPI-based REST API for deploying, managing, and running multiple AI agents in the cloud with rate limiting and metrics tracking. <details><summary>More about</summary>

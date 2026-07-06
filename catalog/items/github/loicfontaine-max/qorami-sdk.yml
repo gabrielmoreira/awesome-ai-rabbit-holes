@@ -48,18 +48,26 @@ metadata:
       fetched_at: "2026-07-02T05:23:06.381Z"
       bytes: 4544
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An SDK and MCP server that provides a safety and governance layer for AI agents to control email communications.
+  why_it_matters: It enables developers to implement human-in-the-loop patterns and automated policy enforcement for agentic email workflows.
+  mental_damage: Because nothing says 'AI autonomy' quite like requiring a human to approve every message your LLM tries to send.
+  tags:
+    - mcp
+    - sdk
+    - ai-safety
+    - email
+    - agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool provides an MCP server as a core interface for agents to interact with email safely, making it a specialized tool for the MCP ecosystem.
+  evidence:
+    - Provides an MCP server for Claude Desktop and Cursor
+    - Offers SDKs for JS and Python to integrate guardrails into agent workflows
+    - Implements a human-in-the-loop pattern (request_human_confirmation)
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-02T05:31:31.185Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__loicfontaine-max__qorami-sdk: Invalid AI response format: SyntaxError: Unexpected token 'Q', ...\"_reason\": Qorami SDK\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-06T05:57:18.083Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

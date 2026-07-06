@@ -1,0 +1,89 @@
+id: github__madeonsol__mcp-server-madeonsol
+kind: github-repo
+name: mcp-server-madeonsol
+canonical_url: https://github.com/madeonsol/mcp-server-madeonsol
+identity:
+  github_repo: madeonsol/mcp-server-madeonsol
+provenance:
+  discoveries:
+    - id: discovery__github__madeonsol__mcp-server-madeonsol__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-06T05:29:57.556Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: LamboPoewert/mcp-server-madeonsol
+        extracted_url: https://github.com/lambopoewert/mcp-server-madeonsol
+        surrounding_text: "- [LamboPoewert/mcp-server-madeonsol](https://github.com/LamboPoewert/mcp-server-madeonsol) [![LamboPoewert/mcp-server-madeonsol MCP server](https://glama.ai/mcp/servers/LamboPoewert/mcp-server-madeonsol/badges/score.svg)](https://glama.ai/mcp/servers/LamboPoewert/mcp-server-madeonsol) 📇 ☁️ - Real-time Solana memecoin intelligence — 51 tools across KOL wallet tracking (1,000+ wallets, sub-3s latency), Pump.fun deployer scoring (6,700+ scored), multi-KOL coordination signals, alpha-wallet intel (47k+ scored early buyers), first-touch scout signal (backtested ≥3 follow-on KOLs ~50% of the time vs 14% baseline), copy-trade rules, and the all-DEX trade firehose. Free tier 200 req/day; also supports x402 micropayments. Install: `npx -y smithery mcp add madeonsol/solana-kol-intelligence`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T17:57:16Z"
+    pushed_at: "2026-07-05T10:23:49Z"
+    description: MCP server for MadeOnSol Solana KOL intelligence — use from Claude, Cursor, or any MCP client
+    homepage: https://madeonsol.com/solana-api
+    topics:
+      - ai-agent
+      - claude
+      - crypto-api
+      - cursor
+      - kol
+      - mcp
+      - mcp-server
+      - memecoin
+      - model-context-protocol
+      - solana
+      - solana-api
+      - trading-bot
+      - webhooks
+    last_checked_at: "2026-07-06T05:30:25.293Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:25.293Z"
+      bytes: 24395
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.558Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-06T05:30:25.293Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T06:00:15.020Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__madeonsol__mcp-server-madeonsol: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (63/32)"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -24,30 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 1
+    forks: 0
     license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    archived: false
+    created_at: "2026-02-28T02:50:22Z"
+    pushed_at: "2026-06-18T19:38:53Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-06T05:30:28.159Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:28.159Z"
+      bytes: 8341
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A collection of stock research and utility tools for AI agents, accessible via a production API and npm SDK.
+  why_it_matters: It allows developers to quickly equip agents with specialized financial knowledge and common data-processing capabilities without building custom tool integrations from scratch.
+  mental_damage: Because nothing says 'robust agentic workflow' like delegating your entire investment strategy to a series of $0.05 API calls.
+  tags:
+    - agent-tools
+    - finance-ai
+    - sdk
+    - langchain
+    - api
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a code-first SDK and API providing specialized domain tools (finance and utilities) for developers to embed into AI agent workflows.
+  evidence:
+    - Provides a production API and an npm SDK for easy integration
+    - Includes LangChain integration for creating ready-to-use tools
+    - Offers specialized domain capabilities like 'stock-thesis' and 'moat-analysis'
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:28.159Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:40:17.448Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

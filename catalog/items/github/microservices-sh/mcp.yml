@@ -24,30 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-17T20:05:38Z"
+    pushed_at: "2026-06-18T08:19:05Z"
+    description: Local stdio MCP server for microservices.sh modules and guarded agent workflows.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - agents
+      - cloudflare
+      - developer-tools
+      - mcp
+      - model-context-protocol
+    last_checked_at: "2026-07-06T05:30:32.312Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:32.312Z"
+      bytes: 3801
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Local stdio MCP server exposing an MCP stdio interface to agentic workflows on Cloudflare.
+  why_it_matters: Lets AI agents compose, validate, and deploy Cloudflare apps using reusable microservices without reinventing auth, payments, or CRUD.
+  mental_damage: Because nothing says 'agentic future' like reinventing PaaS through JSON config and stdio pipes.
+  tags:
+    - mcp
+    - cloudflare
+    - devtools
+    - agent-workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an MCP server that exposes microservices.sh capabilities via stdio, making MCP the core product identity rather than a feature.
+  evidence:
+    - "Repo description: 'Local stdio MCP server for microservices.sh modules and guarded agent workflows.'"
+    - "README: 'This package is a standalone stdio MCP server.' and lists MCP tools like compose_app, deploy_preview."
+    - Appears in awesome-mcp-servers under Server Implementations > Developer Tools as an MCP server implementation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -58,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:32.312Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:42:11.661Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

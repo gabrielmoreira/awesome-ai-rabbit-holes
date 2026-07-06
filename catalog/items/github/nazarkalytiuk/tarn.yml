@@ -24,17 +24,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 5
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-03-28T15:31:05Z"
+    pushed_at: "2026-06-04T13:49:59Z"
+    description: CLI-first API testing tool. YAML-defined tests, structured JSON output, built for AI-assisted workflows.
+    homepage: https://nazarkalytiuk.github.io/tarn/
+    topics: []
+    last_checked_at: "2026-07-06T05:30:42.111Z"
+    readme:
+      fetched_at: "2026-07-06T05:30:42.111Z"
+      bytes: 68928
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +60,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-06T05:30:42.111Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-02T05:23:10.706Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-06T05:52:31.470Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__nazarkalytiuk__tarn: ```json
+        {
+          "summary": "A CLI-first API testing tool that provides structured JSON output and remediation hints specifically designed for AI agents.",
+          "why_it_matters": "It enables AI coding assistants to move beyond simple log scraping by providing machine-readable failure taxonomies and actionable repair plans.",
+          "mental_damage": "Finally, a way to turn your agent's hallucinated debugging sessions into structured, deterministic error codes.",
+          "tags": [
+            "cli",
+            "api-testing",
+            "mcp",
+            "rust",
+            "agentic-workflows"
+          ],
+          "should_include": true,
+          "primary_category": "ai-dev-extensions",
+          "section": "Testing & QA Add-ons",
+          "decision_reason": "While it's a testing tool, its core value proposition is being an MCP-enabled bridge that allows agents to run and fix tests, making it
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:32.075Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-06T05:30:44.072Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for nfemmanuel/iranti
     next_retry_at: null
   categorize:
     status: done
