@@ -67,9 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-29T05:38:38.583Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-09T05:29:32.489Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: cmcgrabby-hue/syndicate-links"
     next_retry_at: null
   categorize:
     status: done

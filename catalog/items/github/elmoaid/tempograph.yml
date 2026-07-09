@@ -80,11 +80,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-06T05:30:06.507Z"
+    status: deferred
+    updated_at: "2026-07-09T05:29:46.333Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: elmoaid/tempograph"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for elmoaid/tempograph
     next_retry_at: null
   categorize:
     status: done

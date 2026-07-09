@@ -24,33 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 42
-    forks: 5
+    stars: 84
+    forks: 8
     license: MIT
     archived: false
     created_at: "2026-05-20T14:48:17Z"
-    pushed_at: "2026-06-24T05:10:13Z"
-    description: Local-first CLI agent for coding workflows. Provider-neutral, zero runtime deps, typed tools. Named after Dvalin, the Nordic myth dwarven smith.
-    homepage: null
+    pushed_at: "2026-07-07T15:22:10Z"
+    description: "Approvable, local-first AI coding agent for regulated teams: policy controls, governed MCP, evidence packs, audit trails, secure remediation, and any OpenAI-compatible model."
+    homepage: https://dvalincode.dev
     topics:
-      - ai
       - ai-agent
-      - claude
+      - ai-governance
+      - audit-trail
       - cli
+      - codeql
       - coding-agent
       - coding-assistant
-      - deepseek
+      - compliance
       - developer-tools
+      - devsecops
       - llm
       - local-first
-      - ollama
-      - terminal
-      - tui
+      - mcp
+      - model-agnostic
+      - openssf
+      - policy-as-code
+      - secure-coding
+      - security
       - typescript
-    last_checked_at: "2026-06-29T05:38:23.095Z"
+      - web-gui
+    last_checked_at: "2026-07-09T05:29:10.754Z"
     readme:
-      fetched_at: "2026-06-29T05:38:23.095Z"
-      bytes: 31296
+      fetched_at: "2026-07-09T05:29:10.754Z"
+      bytes: 43875
 insights:
   summary: A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI.
   why_it_matters: It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
@@ -83,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-29T05:38:23.095Z"
+    updated_at: "2026-07-09T05:29:10.754Z"
     cause: null
     next_retry_at: null
   categorize:

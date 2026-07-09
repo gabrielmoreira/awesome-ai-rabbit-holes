@@ -58,15 +58,22 @@ metadata:
       fetched_at: "2026-07-06T05:30:38.022Z"
       bytes: 17014
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ringback is a pair of MCP servers that enable AI agents to place phone calls to interruptible from the called a free Linphone SIP account. No Twilio, no per-minute fees.
+  why_it_matters: Developers can let their agents interrupt their flow to talk about urgent issues—like failed deployments—by actually ringing their phone and holding a real two-way voice conversation.
+  mental_damage: Finally, an excuse for your AI to wake you up at 3 a.m. to argue about a merge conflict you can’t mute.
+  tags:
+    - mcp
+    - voice
+    - telephony
+    - notifications
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: While interesting as a voice-MCP integration, ringback does not primarily assist with coding tasks, repo editing, or developer workflows—it is a general-purpose telephony tool for agents, not a developer-facing coding agent or extension.
+  evidence:
+    - "Repo description: 'Let your AI agent call your phone and talk to you'"
+    - "README: Enables 'live, interruptible voice conversation' and 'tiered alerts' via SIP"
+    - No mention of code editing, debugging, testing, or repo-level assistance in core functionality
 placement:
   primary_category: null
   section: null
@@ -85,12 +92,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:46:40.479Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__mohitbadwal__ringback: Invalid AI response format: SyntaxError: Bad control character in string literal in JSON at position 168 (line 2 column 167)"
+    status: done
+    updated_at: "2026-07-09T05:33:19.126Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

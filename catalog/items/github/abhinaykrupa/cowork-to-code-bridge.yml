@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
+    stars: 8
     forks: 8
     license: MIT
     archived: false
     created_at: "2026-05-28T22:48:42Z"
-    pushed_at: "2026-07-01T04:15:39Z"
+    pushed_at: "2026-07-07T22:13:58Z"
     description: Let Claude run code on your real machine — safely — from any Claude chat. Bridges Claude Cowork to Claude Code on your Mac/Linux box. One command, idempotent, no open ports.
     homepage: https://github.com/abhinaykrupa/cowork-to-code-bridge#install--two-pastes-total
     topics:
@@ -53,9 +53,9 @@ metadata:
       - macos
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-02T05:22:24.226Z"
+    last_checked_at: "2026-07-09T05:28:49.392Z"
     readme:
-      fetched_at: "2026-07-02T05:22:24.226Z"
+      fetched_at: "2026-07-09T05:28:49.392Z"
       bytes: 38343
 insights:
   summary: null
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:22:24.226Z"
+    updated_at: "2026-07-09T05:28:49.392Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-06T05:57:15.558Z"
+    updated_at: "2026-07-09T05:33:38.340Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__abhinaykrupa__cowork-to-code-bridge: Internal Server Error"
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__abhinaykrupa__cowork-to-code-bridge: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It primari\"... is not valid JSON"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -24,37 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
+    stars: 3
     forks: 2
     license: Apache-2.0
     archived: false
     created_at: "2025-08-27T20:08:26Z"
-    pushed_at: "2026-06-26T21:50:53Z"
-    description: Project-scoped Qdrant MCP server for workspace collections with scratchbook functionality. Python port of claude-qdrant-mcp with FastEmbed and project-aware collection management.
+    pushed_at: "2026-07-08T20:54:46Z"
+    description: "Project-aware collection management based on Qdrant, including a Rust MCP, daemon and CLI: hybrid semantic, pattern and full-text (FTS5) search into single or cross-concerns collection. Dedicated collections for knowledge library, LLM behavioral rules, and an LLM scratchpad"
     homepage: ""
     topics:
-      - ai-tools
-      - asyncio
+      - bm25
       - claude-code
-      - claude-desktop
-      - cli
-      - document-management
-      - embeddings
-      - fastmcp
+      - dense-vectors
+      - fts5
+      - full-text-search
       - hybrid-search
+      - knowledge-graph
+      - knowledge-library
+      - llm-behavioral-rule
+      - llm-scratchpad
+      - local-embeddings
       - mcp
       - mcp-server
       - model-context-protocol
-      - pydantic
+      - pattern-search
       - qdrant
-      - search
+      - remote-embeddings
       - semantic-search
+      - sparse-vectors
       - vector-database
-      - workspace
-    last_checked_at: "2026-06-29T05:38:36.766Z"
+    last_checked_at: "2026-07-09T05:29:29.794Z"
     readme:
-      fetched_at: "2026-06-29T05:38:36.766Z"
-      bytes: 14713
+      fetched_at: "2026-07-09T05:29:29.794Z"
+      bytes: 15159
 insights:
   summary: A project-scoped MCP server that provides hybrid semantic and keyword search over Qdrant vector collections, with automatic Git project detection and code intelligence features like Tree-sitter chunking and LSP integration.
   why_it_matters: It gives Claude Code and other MCP-compatible assistants persistent, project-aware memory and code-aware search without developers needing to stand up generic vector infra from scratch.
@@ -87,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-29T05:38:36.766Z"
+    updated_at: "2026-07-09T05:29:29.794Z"
     cause: null
     next_retry_at: null
   categorize:

@@ -47,18 +47,26 @@ metadata:
       fetched_at: "2026-07-06T05:30:40.172Z"
       bytes: 16850
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Self-hostable GPU-aware job broker for personal machines with native MCP/agent integration.
+  why_it_matters: Lets developers run GPU workloads across their own hardware with VRAM-aware routing, preemption, and checkpointing without needing cloud or cluster infra.
+  mental_damage: Finally, a way to feel guilty about underutilizing your RTX 4090 while pretending you're running a heterogenous datacenter.
+  tags:
+    - job-queue
+    - gpu
+    - self-hosted
+    - mcp
+    - homelab
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: jobd is primarily an MCP server that enables LLM agents to submit, monitor, and manage GPU jobs across personal machines, making it an integration layer rather than a coding assistant or standalone platform.
+  evidence:
+    - "Repo description: 'Self-hostable GPU-aware job broker for your own machines, with native MCP/agent integration'"
+    - "README: 'Ships a first-class [MCP](https://modelcontextprotocol.io/) server so an LLM agent (Claude Code, etc.) can submit, monitor, and babysit jobs as tool calls'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Code Execution'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +82,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:49:20.911Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__musharna__jobd: Invalid AI response format: SyntaxError: Unexpected token 'j', ...\"_reason\": jobd prima\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-09T05:33:23.471Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

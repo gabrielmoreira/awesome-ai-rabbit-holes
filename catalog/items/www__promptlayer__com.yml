@@ -1,0 +1,71 @@
+id: www__promptlayer__com
+kind: website
+name: www.promptlayer.com
+canonical_url: https://www.promptlayer.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__promptlayer__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-09T05:28:44.887Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: PromptLayer 🍰
+        extracted_url: https://www.promptlayer.com
+        surrounding_text: "| [PromptLayer 🍰](https://www.promptlayer.com)                      | Prompt Engineering platform. Collaborate, test, evaluate, and monitor your LLM applications                                                                                                                                                                                                                                                                                                             | ![Github Badge](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library.svg?style=flat-square) |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-09T05:28:44.888Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-09T05:34:40.266Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for www__promptlayer__com: Invalid AI response format: SyntaxError: Expected ':' after property name in JSON at position 620 (line 7 column 10)"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

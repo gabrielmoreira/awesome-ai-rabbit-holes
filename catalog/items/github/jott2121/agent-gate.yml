@@ -72,32 +72,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:53:14.039Z"
+    status: skipped
+    updated_at: "2026-07-09T05:29:48.341Z"
     cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__jott2121__agent-gate: ```json
-        {
-          "summary": "An MCP server that provides fail-closed checklists and hash-chained receipts to verify AI agent work.",
-          "why_it_matters": "It introduces a layer of deterministic verification and tamper-evident logging to ensure AI agent outputs meet specific requirements before they are deployed.",
-          "mental_damage": "Now you have to worry about whether your agent lied to you, or if it just failed the hash-chain validation.",
-          "tags": ["mcp", "ai-agents", "governance", "tooling", "verification"],
-          "should_include": true,
-          "primary_category": "mcp",
-          "section": "Generic Servers & Middleware",
-          "decision_reason": "The project's identity is an MCP server designed to add specific governance capabilities to an agent's execution loop.",
-          "decision_evidence": [
-            "Explicitly describes itself as an MCP server",
-            "Provides MCP tools like `verify_gate` and `record_receipt` for agent workflows",
-            "Addresses agent reliability through deterministic checks and a ledger"
-          ],
-          "category_candidates": [
-            "mcp",
-            "ai-dev-extensions"
-          ],
-          "contrastive_reason": "Choose mcp over ai-dev-extensions because the product identity is tied to the MCP protocol-level implementation of gates and receipts rather than just being a general extension for an editor.",
-          "confidence": "
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template

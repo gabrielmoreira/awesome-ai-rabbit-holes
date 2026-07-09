@@ -22,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 49.8k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 50.3k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
 
   It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
 
@@ -31,7 +31,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `ai-agents` `agile` `workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 22.7k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 22.9k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
 
@@ -85,7 +85,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `claude-code` `spec-driven` `multi-agent` `tdd` `cli`
   </details>
 
-- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 993` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
+- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 1k` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
 
   It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
 
@@ -112,7 +112,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `mcp` `spec-driven` `requirements` `workflow`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 413` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 423` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
 
   It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
 
@@ -121,7 +121,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
   </details>
 
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 375` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 374` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
 
   It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
 
@@ -139,7 +139,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 265` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 272` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
 
@@ -148,7 +148,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `mcp` `context`
   </details>
 
-- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 265` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
+- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 272` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
 
   It turns scattered planning artifacts into structured, AI-readable specs that any assistant can consume via MCP or CLI, letting teams keep existing backends while enforcing a spec-first loop.
 
@@ -179,7 +179,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `tdd` `gherkin` `cli` `multi-agent`
   </details>
 
-- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 49` `updated ≤1y` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
+- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 50` `updated ≤1y` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
 
   It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
 
@@ -188,7 +188,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `meta-specification` `cli` `token-optimization` `ai-agents`
   </details>
 
-- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 25` `updated ≤90d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
+- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 26` `updated ≤90d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
 
   It creates a structured spec-first loop that treats living documentation as the authoritative source of truth for agent-driven development workflows.
 
@@ -204,6 +204,15 @@ _These are new or low-traffic entries being watched._
   _You can now outsource the interview phase of feature planning to an AI, leaving you free to stare at a terminal while two AIs argue about your stack until a PR appears._
 
   `cli` `spec-driven` `autonomous-loops` `claude-code` `codex`
+  </details>
+
+- **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 11` `updated ≤30d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
+
+  It gives AI agents a structured workflow with role-based responsibilities and evidence gates to reduce drifting and rework.
+
+  _Finally, a way to make your AI agent feel like it has a job description instead of just ADHD._
+
+  `spec-driven-development` `ai-dev-extensions` `agent-skills`
   </details>
 
 - **[tnl](https://github.com/janaraj/tnl)** `⭐ 7` `updated ≤90d` TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions. <details><summary>More about</summary>
@@ -260,7 +269,7 @@ _These are new or low-traffic entries being watched._
   `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 
-- **[server](https://github.com/aidemd-mcp/server)** `⭐ 2` `updated ≤90d` An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases. <details><summary>More about</summary>
+- **[server](https://github.com/aidemd-mcp/server)** `⭐ 3` `updated ≤90d` An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases. <details><summary>More about</summary>
 
   It gives coding agents a structured spec-first workflow, letting teams govern implementation and QA through progressive-disclosure methodology files rather than ad-hoc prompts.
 
@@ -278,7 +287,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `saas-specs` `token-efficiency` `spec-driven`
   </details>
 
-- **[osop-spec](https://github.com/archie0125/osop-spec)** `⭐ 0` `updated ≤30d` OSOP is an open JSON/YAML specification and schema for defining AI agent workflows as directed graphs and logging their execution results. <details><summary>More about</summary>
+- **[osop-spec](https://github.com/archie0125/osop-spec)** `⭐ 1` `updated ≤30d` OSOP is an open JSON/YAML specification and schema for defining AI agent workflows as directed graphs and logging their execution results. <details><summary>More about</summary>
 
   It gives developers a vendor-neutral way to describe multi-step agent processes (agents, APIs, CLIs, humans) and record exactly what happened during execution.
 

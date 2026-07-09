@@ -47,18 +47,26 @@ metadata:
       fetched_at: "2026-07-06T05:29:59.355Z"
       bytes: 16582
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code.
+  why_it_matters: It lets developers use Claude Code, Cursor, or any MCP client to directly implement and edit designs in Figma without requiring a paid Dev Mode seat.
+  mental_damage: Finally, a way to make your AI assistant feel useful while it redraws your button for the twelfth time because it still doesn’t understand your design system.
+  tags:
+    - mcp
+    - figma
+    - design-to-code
+    - bidirectional
+    - codegen
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Figwright primarily augments MCP clients like Claude Code and Cursor with bidirectional Figma access, making it an extension rather than a standalone coding agent or app builder.
+  evidence:
+    - "Repo description: 'Free, bidirectional Figma MCP server — turn designs into framework-aware code and write back to the canvas, for Claude Code, Cursor, and any MCP client.'"
+    - "README: 'Figwright connects an MCP server to a Figma plugin over a local WebSocket relay, so an AI agent [...] can work _with_ Figma instead of just looking at it.'"
+    - It provides read (design-to-code) and write (code-to-Figma) capabilities via a local plugin, positioning itself as a host integration layer for MCP clients.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +82,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:59:33.638Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__awdr74100__figwright: Invalid AI response format: SyntaxError: Unexpected token 'F', ...\"_reason\": Figwright’\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-09T05:33:58.109Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

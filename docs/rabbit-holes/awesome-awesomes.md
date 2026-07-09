@@ -265,7 +265,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `multi-agent` `research` `papers` `awesome-list`
   </details>
 
-- **[awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated >1y` A curated list of vector search libraries, services, and research papers for building similarity search capabilities. <details><summary>More about</summary>
+- **[awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤30d` A curated list of vector search libraries, services, and research papers for building similarity search capabilities. <details><summary>More about</summary>
 
   Developers building RAG pipelines or semantic search features need a map of the fragmented ecosystem of vector databases and ANN algorithms.
 
@@ -337,7 +337,16 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `resources` `awesome-list` `learning`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 765` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 771` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+
+  It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
+
+  _Because nothing says 'I have a handle on the AI tooling landscape' like maintaining a list of eighty different terminal agents that all promise to refactor your repo while you stare at a blinking cursor._
+
+  `cli` `coding-agents` `directory` `terminal` `awesome-list`
+  </details>
+
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 770` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
 
   It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
 
@@ -362,15 +371,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another awesome list that promises to save you time while adding yet another tab to your eternal research backlog._
 
   `federated-learning` `awesome-list` `research`
-  </details>
-
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 670` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
-
-  It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
-
-  _Because nothing says 'I have a handle on the AI tooling landscape' like maintaining a list of eighty different terminal agents that all promise to refactor your repo while you stare at a blinking cursor._
-
-  `cli` `coding-agents` `directory` `terminal` `awesome-list`
   </details>
 
 - **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and directory of free and open source MLOps tools covering the full lifecycle from data annotation to model monitoring. <details><summary>More about</summary>
@@ -422,7 +422,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 143` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
 
   It serves as a broad discovery map for developers trying to navigate the exploding ecosystem of AI agents to find tools relevant to their workflow.
 

@@ -78,9 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-06-29T05:38:30.177Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-09T05:29:21.159Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: blackmount-ai/blackmount-nlp-mcp"
     next_retry_at: null
   categorize:
     status: done

@@ -72,31 +72,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:54:14.112Z"
+    status: skipped
+    updated_at: "2026-07-09T05:29:48.341Z"
     cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__katspaugh__machine: ```json
-        {
-          "summary": "A virtualization tool that provides isolated Lima-based VMs for running-coding agents like Claude Code in a sandboxed environment.",
-          "why_it_matters": "It solves the tension between giving AI agents full filesystem/network access and protecting your host machine from accidental or malicious command execution.",
-          "mental_damage": "Nothing quite prepares you for the existential dread of realizing you gave an agent `sudo` access on your primary workstation.",
-          "tags": [
-            "sandboxing",
-            "lima",
-            "claude-code",
-            "security",
-            "vm"
-          ],
-          "should_include": true,
-          "primary_category": "coding-agents",
-          "section": "Terminal & CLI Agents",
-          "decision_reason": "While it is infrastructure, its identity is defined by providing the essential sandboxed runtime for terminal-based coding agents like Claude Code.",
-          "decision_evidence": [
-            "README specifically targets sandboxing Claude Code",
-            "Provides pre-provisioned environments for AI-driven tasks",
-            "Solves the 'dangerous command'
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template

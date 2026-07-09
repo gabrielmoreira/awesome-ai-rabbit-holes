@@ -4,6 +4,15 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
+- **[skills](https://github.com/anthropics/skills)** `⭐ 159.5k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+
+  It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
+
+  _Because nothing says 'modern software engineering' like version-controlling a folder of markdown incantations and pretending your LLM now has a resumé._
+
+  `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
+  </details>
+
 - **[skills](https://github.com/mattpocock/skills)** `⭐ 157.8k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
 
   It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
@@ -11,15 +20,6 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   _It allows you to replace the chaos of 'vibe coding' with the highly structured ritual of 'grilling your agent.'._
 
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
-  </details>
-
-- **[skills](https://github.com/anthropics/skills)** `⭐ 157.4k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
-
-  It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
-
-  _Because nothing says 'modern software engineering' like version-controlling a folder of markdown incantations and pretending your LLM now has a resumé._
-
-  `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
 - **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 70k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
@@ -31,7 +31,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 66.2k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 67.2k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -161,7 +161,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 13` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 15` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
 
   Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
 
@@ -206,7 +206,7 @@ _These are new or low-traffic entries being watched._
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 3` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 4` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
 
   It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
 
@@ -215,7 +215,7 @@ _These are new or low-traffic entries being watched._
   `session-logging` `rules` `multi-agent` `osop` `integrations`
   </details>
 
-- **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 2` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>
+- **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 3` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>
 
   Developers can drop ready-made doctrine, rules, and MCP configs into their repos and editors to align multiple AI coding tools around a shared design framework.
 
@@ -249,6 +249,15 @@ _These are new or low-traffic entries being watched._
   _We have officially solved the problem of having too many AI assistants by creating a sprawling app store for their personalities, ensuring maximum choice paralysis before you even write a line of code._
 
   `skills` `cli` `marketplace` `agent-extensions`
+  </details>
+
+- **[cocoloop hub](https://hub.cocoloop.cn)** hub.cocoloop.cn is a Chinese-language skills marketplace offering downloadable AI agent skills packs for automation workflows. <details><summary>More about</summary>
+
+  It provides a centralized, safety-checked repository of reusable agent skills that developers can integrate into their AI workflows without building from scratch.
+
+  _Another skills store promising 'safe' AI agent components, while developers spend more time vetting skills than writing actual code._
+
+  `ai-agent-skills` `skills-marketplace` `workflow-automation`
   </details>
 
 - **[Modelscope Skills](https://www.modelscope.cn/skills)** ModelScope Skills is a Chinese-language registry and community hub for sharing reusable AI capability components, or 'skills', designed to extend model functionality. <details><summary>More about</summary>

@@ -13,7 +13,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 163.9k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
+- **[stable-diffusion-webui](https://github.com/automatic1111/stable-diffusion-webui)** `⭐ 164k` `updated ≤180d` A locally run Gradio web interface for Stable Diffusion that provides txt2img, img2img, inpainting, and model training capabilities. <details><summary>More about</summary>
 
   It allows developers to run, customize, and extend state-of-the-art image generation models entirely on their own hardware with a feature-rich UI and API.
 
@@ -31,6 +31,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
+- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 120k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
+
+  It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
+
+  _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
+
+  `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
+  </details>
+
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 119.4k` `updated ≤30d` A C/C++ implementation for running LLM inference locally, focused on enabling efficient execution of models on consumer hardware. <details><summary>More about</summary>
 
   It provides the foundational runtime that allows developers to run powerful language models privately on their own machines without relying on cloud APIs.
@@ -38,15 +47,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _You will spend an evening quantizing a model down to 3 bits just to watch it hallucinate at 12 tokens per second while convincing yourself this is definitely 'production ready'._
 
   `local-ai` `inference` `cpp` `gguf` `llm`
-  </details>
-
-- **[ComfyUI](https://github.com/comfy-org/comfyui)** `⭐ 118.7k` `updated ≤30d` A modular, node-based GUI and API for running and chaining diffusion models locally to generate images, video, 3D assets, and audio. <details><summary>More about</summary>
-
-  It gives developers a programmable, API-driven local runtime to build generative media pipelines without relying on hosted image or video services.
-
-  _You will spend three hours building the perfect node graph to generate a single profile picture and tell yourself this is definitely faster than writing code._
-
-  `local-ai` `diffusion` `node-graph` `media-pipelines` `comfyui`
   </details>
 
 - **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 79.8k` `updated ≤90d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
@@ -94,7 +94,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `local-inference` `cpp` `offline` `whisper`
   </details>
 
-- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 47.9k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
+- **[Cherry Studio (`🔥`)](https://github.com/cherryhq/cherry-studio)** `⭐ 48.3k` `updated ≤30d` Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants. <details><summary>More about</summary>
 
   It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
 
@@ -139,7 +139,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `open-source`
   </details>
 
-- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 40.1k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
+- **[LibreChat](https://github.com/danny-avila/librechat)** `⭐ 40.5k` `updated ≤30d` LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation. <details><summary>More about</summary>
 
   It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
 
@@ -157,7 +157,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `eval-harness` `local-models` `training`
   </details>
 
-- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38.2k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
+- **[Langchain-Chatchat](https://github.com/chatchat-space/langchain-chatchat)** `⭐ 38.3k` `updated ≤1y` Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama. <details><summary>More about</summary>
 
   It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
 
@@ -427,7 +427,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `apple-silicon` `mlx` `openai-api` `tool-calling`
   </details>
 
-- **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.6k` `updated ≤90d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
+- **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.6k` `updated ≤180d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
 
   Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100 languages with a single inference call via vLLM.
 
@@ -580,7 +580,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 156` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 163` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 

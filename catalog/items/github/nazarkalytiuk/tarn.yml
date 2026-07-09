@@ -66,27 +66,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-06T05:52:31.470Z"
+    updated_at: "2026-07-09T05:33:35.429Z"
     cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__nazarkalytiuk__tarn: ```json
-        {
-          "summary": "A CLI-first API testing tool that provides structured JSON output and remediation hints specifically designed for AI agents.",
-          "why_it_matters": "It enables AI coding assistants to move beyond simple log scraping by providing machine-readable failure taxonomies and actionable repair plans.",
-          "mental_damage": "Finally, a way to turn your agent's hallucinated debugging sessions into structured, deterministic error codes.",
-          "tags": [
-            "cli",
-            "api-testing",
-            "mcp",
-            "rust",
-            "agentic-workflows"
-          ],
-          "should_include": true,
-          "primary_category": "ai-dev-extensions",
-          "section": "Testing & QA Add-ons",
-          "decision_reason": "While it's a testing tool, its core value proposition is being an MCP-enabled bridge that allows agents to run and fix tests, making it
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__nazarkalytiuk__tarn: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": Tarn is be\"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

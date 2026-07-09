@@ -80,11 +80,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-06T05:30:02.562Z"
+    status: deferred
+    updated_at: "2026-07-09T05:29:45.988Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: doobidoo/mcp-context-provider"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for doobidoo/mcp-context-provider
     next_retry_at: null
   categorize:
     status: done

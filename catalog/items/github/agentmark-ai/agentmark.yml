@@ -74,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-02T05:22:27.235Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-09T05:28:53.301Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: agentmark-ai/agentmark"
     next_retry_at: null
   categorize:
     status: done

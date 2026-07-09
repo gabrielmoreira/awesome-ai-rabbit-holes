@@ -54,18 +54,26 @@ metadata:
       fetched_at: "2026-07-06T05:30:25.099Z"
       bytes: 8294
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool for running multiple AI coding agents in parallel within sandboxed VMs, either locally via Docker or in the cloud.
+  why_it_matters: It allows developers to scale agentic workflows by managing multiple isolated, persistent environments for different agents simultaneously.
+  mental_damage: Now you can run five agents at once to see which one fails to fix your linter errors the fastest.
+  tags:
+    - cli
+    - agent-orchestration
+    - sandboxing
+    - parallel-agents
+    - docker
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool acts as a runtime and control plane for launching and managing multiple parallel agentic sessions in isolated environments.
+  evidence:
+    - README describes running multiple agents in parallel sandboxed VMs with a single command
+    - Provides lifecycle management including attach, shell, and dashboard for multiple 'boxes'
+    - Supports various cloud providers and local Docker runtimes for agent execution
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (211) exceeded threshold (150)
@@ -81,12 +89,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:33:46.133Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__madarco__agentbox: Invalid AI response format: Error: No JSON found in AI response"
+    status: done
+    updated_at: "2026-07-09T05:32:03.315Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

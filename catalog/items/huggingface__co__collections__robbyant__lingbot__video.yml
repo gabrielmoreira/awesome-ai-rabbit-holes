@@ -1,0 +1,76 @@
+id: huggingface__co__collections__robbyant__lingbot__video
+kind: website
+name: lingbot-video
+canonical_url: https://huggingface.co/collections/robbyant/lingbot-video
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__huggingface__co__collections__robbyant__lingbot__video__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-09T05:28:44.887Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 视频 Video
+          - 模型
+        anchor_text: LingBot-Video
+        extracted_url: https://huggingface.co/collections/robbyant/lingbot-video
+        surrounding_text: 27. [LingBot-Video](https://huggingface.co/collections/robbyant/lingbot-video)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: LingBot-Video is a Hugging Face collection of video-related AI models curated by robbyant.
+  why_it_matters: It helps developers discover video-generation and video-understanding models in one place.
+  mental_damage: Another model zoo to bookmark and never actually use, because fine-tuning video models requires a datacenter and a grant.
+  tags:
+    - video-models
+    - huggingface-collection
+    - multimodal
+  confidence: high
+curation:
+  status: excluded
+  reason: LingBot-Video is a curated model collection without developer tooling, workflow integration, or code-level utility, making it a resource directory rather than a developer-facing AI tool.
+  evidence:
+    - It is a Hugging Face collection listing models like lingbot-video-rewriter-lora and lingbot-video-moe-30b-a3b
+    - No README, repo description, or tooling claims are provided — only model listings
+    - Appears in awesome-LLM-resources under '视频 Video > 模型' as a model summary, not a tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-09T05:28:44.888Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-09T05:34:31.841Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

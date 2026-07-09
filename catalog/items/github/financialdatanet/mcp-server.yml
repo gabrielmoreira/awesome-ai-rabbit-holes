@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-06T05:30:12.913Z"
+    status: deferred
+    updated_at: "2026-07-09T05:29:47.016Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: financialdatanet/mcp-server"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for financialdatanet/mcp-server
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-06T05:30:45.194Z"
+    updated_at: "2026-07-09T05:29:48.341Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

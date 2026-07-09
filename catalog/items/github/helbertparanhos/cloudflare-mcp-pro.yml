@@ -47,18 +47,24 @@ metadata:
       fetched_at: "2026-07-06T05:30:23.201Z"
       bytes: 9970
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: cloudflare-mcp-pro is an MCP server that consolidates 69 Cloudflare REST API v4 tools into a single local stdio interface with human-approval gates.
+  why_it_matters: It lets developers manage Cloudflare infrastructure via natural language in Claude Code or Cursor without switching contexts or writing boilerplate API calls.
+  mental_damage: Finally, a way to feel productive while accidentally deleting your production DNS zone with a single misplaced confirm:true.
+  tags:
+    - mcp
+    - cloudflare
+    - infrastructure
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is an MCP server first and foremost — its identity is providing Cloudflare API access via the Model Context Protocol, not augmenting another agent or editing code directly.
+  evidence:
+    - "Repo description: 'Cloudflare MCP: 69 tools over the REST API v4'"
+    - "README: 'MCP server for the Cloudflare REST API v4 — 69 tools across DNS, Workers, KV, R2, D1, Pages, WAF, SSL, Email, AI'"
+    - "Source-list context: Listed in awesome-mcp-servers under Cloud Platforms"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +80,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T06:00:00.708Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__helbertparanhos__cloudflare-mcp-pro: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-09T05:34:10.969Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

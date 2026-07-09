@@ -85,11 +85,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:58:13.980Z"
+    status: skipped
+    updated_at: "2026-07-09T05:29:48.341Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__griffinwork40__agent-afk: Invalid AI response format: SyntaxError: No number after minus sign in JSON at position 577 (line 8 column 6)"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template

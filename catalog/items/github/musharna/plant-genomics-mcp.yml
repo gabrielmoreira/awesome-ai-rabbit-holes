@@ -48,18 +48,24 @@ metadata:
       fetched_at: "2026-07-06T05:30:40.269Z"
       bytes: 19748
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Plant genomics MCP server providing 32 tools for querying plant biology databases via the Model Context Protocol.
+  why_it_matters: Enables developers building genomics tools to access live plant data from 11 bioinformatics backends through a standardized MCP interface.
+  mental_damage: Finally, a way to make your plant-identifying app feel like it's negotiating with a tired librarian who only speaks in locus IDs.
+  tags:
+    - mcp
+    - bioinformatics
+    - genomics
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is an MCP server providing domain-specific tools for plant genomics, making MCP the primary product rather than a compatibility feature.
+  evidence:
+    - "Repo description: 'Plant genomics MCP server — 32 tools across 11 backends'"
+    - "README: Explicitly positions as an MCP server with stdio + Streamable-HTTP transports"
+    - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:49:15.114Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__musharna__plant-genomics-mcp: Internal Server Error"
+    status: done
+    updated_at: "2026-07-09T05:33:23.910Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

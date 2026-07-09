@@ -34,15 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A written guide explaining spec-driven development, a method where structured specifications are written and approved before AI agents generate code.
+  why_it_matters: Introduces developers to a workflow that reduces AI agent errors by making specifications the source of truth instead of relying on prompts alone.
+  mental_damage: Realizing your AI pair programmer needs a written contract to stop rewriting your logic every session feels like hiring a savant with anterograde amnesia.
+  tags:
+    - spec-driven-development
+    - methodology
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Excluded because it is an educational article, not a tool, framework, or developer-facing product that enables spec-driven development workflows.
+  evidence:
+    - The URL points to a personal blog article titled 'What Is Spec-Driven Development? The Practitioner's Guide' on felipefontoura.com
+    - The content is a long-form explanation of SDD principles, not a downloadable tool, CLI, editor extension, or runtime
+    - No evidence of a spec-first execution loop, validation system, or governance mechanism being provided as a usable artifact
 placement:
   primary_category: null
   section: null
@@ -60,17 +66,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:58:18.153Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for felipefontoura__com__articles__what__is__spec__driven__development: ```json
-        {
-          "summary": "A guide on Spec-Driven Development (SDD) for building software with AI agents.",
-          "why_it_mattering": "It provides a structured methodology to prevent AI agents from hallucinating architectural decisions and drifting away from intended logic.",
-          "mental_damage": "Finally,
+    status: done
+    updated_at: "2026-07-09T05:33:44.386Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

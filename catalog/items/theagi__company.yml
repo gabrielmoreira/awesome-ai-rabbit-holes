@@ -34,18 +34,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An on-device, agentic mobile platform designed to perform consumer tasks like booking travel and ordering food.
-  why_it_matters: It represents a shift toward fully local, autonomous mobile agents that operate on consumer hardware.
-  mental_damage: Another agent enters the ecosystem, moving one step closer to booking my dental appointments without my consent.
-  tags: []
+  summary: AGI, Inc. is developing AGI-0, an on-device mobile-use agent that performs everyday tasks like booking taxis and ordering food without cloud dependency.
+  why_it_matters: It demonstrates a shift toward private, agentic AI running locally on consumer hardware, reducing reliance on cloud APIs for personal automation.
+  mental_damage: Another 'revolutionary' agent that promises to replace your apps while quietly harvesting your behavioral data in the name of on-device privacy.
+  tags:
+    - mobile-agent
+    - on-device-ai
+    - task-automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing mobile agent platform rather than a tool, framework, or infrastructure intended for software developers.
+  reason: The project is a consumer-facing mobile agent for everyday personal tasks, not a developer tool for coding, workflow automation, or AI-assisted software development.
   evidence:
-    - The primary use cases are consumer-oriented tasks such as 'Book the taxi' and 'Order dinner'
-    - The product is marketed as 'everyday AGI' for mobile users
-    - The focus is on an end-user Android app/platform rather than a developer SDK or coding assistant
+    - AGI-0 performs consumer actions like booking taxis, ordering food, replying to messages, and finding flights using your phone
+    - Positioned as a superintelligent personal assistant for daily life, not a coding assistant or developer-facing infrastructure
+    - No mention of code editing, repo interaction, IDE integration, API access, or developer workflows in the provided context
 placement:
   primary_category: null
   section: null
@@ -63,12 +66,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:56:57.183Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for theagi__company: Internal Server Error"
-    attempts: 3
+    status: done
+    updated_at: "2026-07-09T05:33:39.134Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

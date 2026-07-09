@@ -4,7 +4,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.1k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.2k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
 
   It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
 
@@ -40,7 +40,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `app-builder` `browser-ide` `multi-model` `self-hosted` `full-stack`
   </details>
 
-- **[builder](https://github.com/builderio/builder)** `⭐ 8.7k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
+- **[builder](https://github.com/builderio/builder)** `⭐ 8.8k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
 
   It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
 

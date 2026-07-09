@@ -66,11 +66,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-06T05:41:57.015Z"
+    updated_at: "2026-07-09T05:33:08.241Z"
     cause:
       type: invalid_llm_json
       message: "Catalog LLM categorization failed for github__michalperni11-gif__secfinapi-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -46,18 +46,24 @@ metadata:
       fetched_at: "2026-07-06T05:30:00.775Z"
       bytes: 5895
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command.
+  why_it_matters: It gives AI agents a structured workflow with role-based responsibilities and evidence gates to reduce drifting and rework.
+  mental_damage: Finally, a way to make your AI agent feel like it has a job description instead of just ADHD.
+  tags:
+    - spec-driven-development
+    - ai-dev-extensions
+    - agent-skills
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Cosmosmith centers on specs, role-based task ledgers, and governance loops as primary artifacts driving implementation, making it a spec-first tool rather than a coding agent or extension.
+  evidence:
+    - "Repo description: 'Give AI coding agents product, spec, task, QA, and release workflows in one command.'"
+    - "README: 'Cosmosmith helps you turn a rough product idea into a governed multi-agent workflow' and lists spec templates like proposal.md, design.md, task.md"
+    - Appears in awesome-spec-driven-development under 'Development Frameworks'
 placement:
-  primary_category: null
-  section: null
+  primary_category: spec-driven-development
+  section: Planning / Task Decomposition
 lifecycle:
   status: incubating
   reason: null
@@ -73,12 +79,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:59:48.265Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__devnomad-byte__cosmosmith: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Cosmosmith\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-09T05:34:01.491Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -56,18 +56,26 @@ metadata:
       fetched_at: "2026-07-06T05:30:34.979Z"
       bytes: 54420
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities.
+  why_it_matters: It enables developers to automate complex browser tasks with full DevTools observability without needing Python, Node, or writing code.
+  mental_damage: Finally, a tool that lets you pretend you’re not wrestling with Playwright while still wrestling with Playwright under the hood.
+  tags:
+    - web-crawler
+    - mcp
+    - browser-automation
+    - llm
+    - single-binary
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: acrawl primarily functions as an MCP server that exposes browser and DevTools capabilities to other AI assistants like Claude Code or Cursor, making it an integration layer rather than a standalone coding assistant.
+  evidence:
+    - "MCP client and server are highlighted as core features: 'MCP client and server. Extend the agent with custom tools via MCP servers. Or flip it: `acrawl mcp` exposes 38 browser and DevTools tools plus `run_goal` to Claude Code, Cursor, VS Code, Zed, and 13 other clients.'"
+    - It augments other assistants by giving them access to browser automation, network inspection, console analysis, and performance profiling — host capabilities, not code editing.
+    - "The README emphasizes acting as a tool provider for other agents: 'acrawl mcp exposes 38 browser and DevTools tools plus `run_goal`' to external clients, positioning it as a service layer."
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -83,22 +91,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-06T05:45:11.861Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__mingye-lu__agenticcrawler: ```json
-        {
-          "summary": "A single-binary Rust web crawler and browser automation agent that supports 25 LLM providers and includes a built-in MCP server.",
-          "why_it_matters": "It allows developers to extend existing AI assistants like Claude Code or Cursor with deep browser observability and DevTools capabilities without managing Python or Node runtimes.",
-          "mental_damage": "Another tool to automate the web until your entire workflow is just managing a fleet of headless browsers.",
-          "tags": ["web-scraping", "browser-automation", "mcp", "rust", "agents"],
-          "should_include": true,
-          "primary_category": "ai-dev-extensions",
-          "section": "Host Integrations & Automation",
-          "decision_reason": "The tool'
+    status: done
+    updated_at: "2026-07-09T05:33:13.620Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
