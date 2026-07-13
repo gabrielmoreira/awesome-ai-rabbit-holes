@@ -58,18 +58,26 @@ metadata:
       fetched_at: "2026-07-09T05:28:49.392Z"
       bytes: 38343
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine.
+  why_it_matters: It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
+  mental_damage: Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop.
+  tags:
+    - claude-code
+    - bridge
+    - automation
+    - cli
+    - remote-execution
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool acts as a bridge/integration that augments the existing Claude Code and Claude Cowork products rather than being a standalone coding assistant.
+  evidence:
+    - README claims it 'Bridges Claude Cowork to Claude Code on your Mac/Linux box'
+    - Primary function is connecting a cloud chat to a local agent
+    - Provides host capabilities (shell, git, disk) to a remote chat
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -85,12 +93,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-09T05:33:38.340Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__abhinaykrupa__cowork-to-code-bridge: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It primari\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-13T05:18:22.600Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

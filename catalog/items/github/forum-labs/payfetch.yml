@@ -1,0 +1,82 @@
+id: github__forum-labs__payfetch
+kind: github-repo
+name: payfetch
+canonical_url: https://github.com/forum-labs/payfetch
+identity:
+  github_repo: forum-labs/payfetch
+provenance:
+  discoveries:
+    - id: discovery__github__forum-labs__payfetch__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: forum-labs/payfetch
+        extracted_url: https://github.com/forum-labs/payfetch
+        surrounding_text: "- [forum-labs/payfetch](https://github.com/forum-labs/payfetch) [![forum-labs/payfetch MCP server](https://glama.ai/mcp/servers/forum-labs/payfetch/badges/score.svg)](https://glama.ai/mcp/servers/forum-labs/payfetch) 📇 🏠 🍎 🪟 🐧 - Non-custodial paying-fetch client for agents that pay APIs over HTTP 402 (x402, USDC on Base). The operator sets hard per-call/per-day/per-host spend caps, an approval threshold, and allow/deny lists, with an append-only receipt for every attempt; the agent can't raise its own limits. `npx -y -p @forum-labs/payfetch payfetch-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-07-06T06:28:19Z"
+    pushed_at: "2026-07-10T16:37:10Z"
+    description: The buy-side seat of the Forum Labs network. A paying-fetch client with spending controls you set, and a wallet that stays yours. Learn more at https://forum-labs.com/payfetch
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-13T05:12:55.797Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:55.797Z"
+      bytes: 23113
+insights:
+  summary: A non-custodial MCP server and CLI designed to allow AI agents to fetch URLs and pay for them automatically using a user-controlled spending policy.
+  why_it_matters: It provides a safety layer for autonomous agents to interact with paid web services by enforcing strict, per-call spending caps and human-approval thresholds.
+  mental_damage: Because nothing says 'peace of mind' like building a policy schema to stop your LLM from accidentally draining your wallet on a single API call.
+  tags:
+    - mcp
+    - fintech
+    - ai-agents
+    - automation
+    - spending-controls
+  confidence: high
+curation:
+  status: included
+  reason: The product's core identity is a Model Context Protocol (MCP) server that enables specific domain-specific functionality (secure payments) for MCP-compatible clients.
+  evidence:
+    - Ships as a local stdio MCP server
+    - Primary interface is an MCP client integration for Claude Desktop and Claude Code
+    - Identity is defined by the x402 payment protocol support
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:55.797Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:21:22.913Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

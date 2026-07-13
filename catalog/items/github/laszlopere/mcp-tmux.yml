@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
@@ -45,23 +45,31 @@ metadata:
       - terminal
       - terminal-multiplexer
       - tmux
-    last_checked_at: "2026-07-02T05:23:01.535Z"
+    last_checked_at: "2026-07-13T05:13:26.045Z"
     readme:
-      fetched_at: "2026-07-02T05:23:01.535Z"
+      fetched_at: "2026-07-13T05:13:26.045Z"
       bytes: 12079
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that allows AI agents to control tmux sessions, including managing windows, panes, and sending keystrokes.
+  why_it_matters: It enables a shared terminal environment where humans and AI can pair program in the same live tmux session, rather than working in isolated sandboxes.
+  mental_damage: Finally, an AI that can mess up your terminal multiplexer settings in real-time while you watch helplessly from the same session.
+  tags:
+    - mcp
+    - tmux
+    - terminal
+    - pair-programming
+    - ssh
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server designed to bridge the Model Context Protocol with tmux functionality.
+  evidence:
+    - Repo description identifies it as a 'universal MCP server for driving tmux'
+    - README focuses entirely on MCP integration and registration for clients like Claude Code
+    - Provides core infrastructure for session, window, and pane management via MCP
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,16 +81,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:23:01.535Z"
+    updated_at: "2026-07-13T05:13:26.045Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-09T05:29:48.341Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-13T05:16:29.998Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -121,7 +121,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
   </details>
 
-- **[Jan](https://github.com/janhq/jan)** `⭐ 43.3k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
+- **[Jan](https://github.com/janhq/jan)** `⭐ 43.5k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
 
   Developers can run, test, and integrate local models via an OpenAI-compatible API and MCP support without sending code or data to the cloud.
 
@@ -238,7 +238,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-serving` `openai-compatible` `self-hosted`
   </details>
 
-- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 10.9k` `updated ≤30d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
+- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11k` `updated ≤30d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
 
   It provides a zero-install, cross-platform way for developers to run local LLMs and multimodal models with OpenAI-compatible APIs for testing and integration.
 
@@ -283,7 +283,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `model-serving` `llm-inference` `open-source` `api` `deployment`
   </details>
 
-- **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 7.9k` `updated ≤30d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
+- **[LmDeploy](https://github.com/internlm/lmdeploy)** `⭐ 8k` `updated ≤30d` LMDeploy is a toolkit for compressing, deploying, and serving LLMs with optimized inference engines like TurboMind and PyTorch. <details><summary>More about</summary>
 
   It provides developers with high-performance local inference acceleration, quantization, and serving capabilities for running models like Llama, InternLM, and DeepSeek on their own hardware.
 
@@ -445,7 +445,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `apple-silicon` `mlx` `chat-ui` `privacy`
   </details>
 
-- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.5k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
+- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.6k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
 
   It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
 
@@ -526,7 +526,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 810` `updated ≤180d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
+- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 813` `updated ≤30d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
 
   It gives teams a zero-friction way to collaborate around LLMs directly inside Discord, with easy model switching and support for both cloud and local inference.
 
@@ -535,7 +535,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `discord` `llm-frontend` `local-ai` `chatbot` `openai-compatible`
   </details>
 
-- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 530` `updated ≤30d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
+- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 533` `updated ≤30d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers self-host and ship local LLM inference and fine-tuning workloads using familiar container workflows and Kubernetes, without relying on external API providers.
 

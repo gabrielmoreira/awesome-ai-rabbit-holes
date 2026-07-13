@@ -1,0 +1,82 @@
+id: github__hernaninverso__eleata-verify-mcp
+kind: github-repo
+name: eleata-verify-mcp
+canonical_url: https://github.com/hernaninverso/eleata-verify-mcp
+identity:
+  github_repo: hernaninverso/eleata-verify-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hernaninverso__eleata-verify-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: hernaninverso/eleata-verify-mcp
+        extracted_url: https://github.com/hernaninverso/eleata-verify-mcp
+        surrounding_text: "- [hernaninverso/eleata-verify-mcp](https://github.com/hernaninverso/eleata-verify-mcp) [![hernaninverso/eleata-verify-mcp MCP server](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp) 📇 ☁️ - Grounding / hallucination guard: verify a claim against evidence (Supported/Refuted/Not Enough Evidence) with a confidence + abstain flag, for RAG and agents. `npx -y eleata-verify-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    created_at: "2026-06-30T11:46:46Z"
+    pushed_at: "2026-06-30T15:36:13Z"
+    description: "MCP server: grounding/hallucination guard — verify a claim against evidence (Supported/Refuted/NEE) for AI agents"
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-13T05:13:00.200Z"
+    readme:
+      fetched_at: "2026-07-13T05:13:00.200Z"
+      bytes: 1810
+insights:
+  summary: An MCP server that provides grounding and hallucination guardrails by verifying claims against provided evidence.
+  why_it_matters: It provides a standardized way for AI agents to perform natural language inference to check if their generated claims are actually supported by source documents.
+  mental_damage: Another layer of validation to remind you that your RAG pipeline is likely making things up.
+  tags:
+    - mcp
+    - hallucination-guardrails
+    - grounding
+    - nli
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product's identity is a specialized MCP server designed to act as a middleware utility for agent grounding.
+  evidence:
+    - "Repo description explicitly defines it as an 'MCP server: grounding/hallucination guard'"
+    - README provides mcpServers configuration block for integration
+    - Core functionality is a tool (`verify_claim`) designed for MCP hosts
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:13:00.200Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:21:36.923Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

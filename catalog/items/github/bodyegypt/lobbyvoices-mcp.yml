@@ -1,0 +1,81 @@
+id: github__bodyegypt__lobbyvoices-mcp
+kind: github-repo
+name: lobbyvoices-mcp
+canonical_url: https://github.com/bodyegypt/lobbyvoices-mcp
+identity:
+  github_repo: bodyegypt/lobbyvoices-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bodyegypt__lobbyvoices-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗣️ <a name="conversational-ai"></a>Conversational AI
+        anchor_text: bodyegypt/lobbyvoices-mcp
+        extracted_url: https://github.com/bodyegypt/lobbyvoices-mcp
+        surrounding_text: "- [bodyegypt/lobbyvoices-mcp](https://github.com/bodyegypt/lobbyvoices-mcp) [![bodyegypt/lobbyvoices-mcp MCP server](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp) 🎖️ ☁️ - Official remote MCP server for [Lobby](https://lobbyvoices.com/developers), an AI receptionist for small businesses. Seven free no-auth tools: write business phone scripts and IVR menus (English + Mexican Spanish), generate ElevenLabs agent system prompts, calculate missed-call cost, get a hire-a-receptionist verdict, role-play a call against the live receptionist engine, and get a real demo number to call. Typed structured outputs."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-09T21:58:18Z"
+    pushed_at: "2026-07-03T13:02:17Z"
+    description: "Official MCP server for Lobby (lobbyvoices.com) — 8 free, no-auth receptionist tools for AI agents: phone scripts & IVR menus (EN+ES), ElevenLabs agent prompts, missed-call math, call simulation, and more."
+    homepage: https://lobbyvoices.com/developers
+    topics: []
+    last_checked_at: "2026-07-13T05:12:54.110Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.110Z"
+      bytes: 4384
+insights:
+  summary: An MCP server providing tools for AI agents to manage telephone scripts, IVR menus, and receptionist simulations.
+  why_it_matters: It allows developers to integrate conversational AI telephony capabilities into agent workflows via the Model Context Protocol.
+  mental_damage: Because nothing says 'developer experience' like writing code to simulate a missed-call revenue loss calculation.
+  tags:
+    - mcp
+    - conversational-ai
+    - telephony
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly an MCP server designed to provide domain-specific receptionist tools to AI clients.
+  evidence:
+    - Repo description identifies it as the 'Official MCP server for Lobby'
+    - README provides MCP connection strings for Claude Code and Cursor
+    - Tools focus on providing structured JSON capabilities to agents via MCP
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.224Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.110Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:19:54.829Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

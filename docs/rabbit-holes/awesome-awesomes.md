@@ -49,7 +49,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `agents` `directory` `awesome-list` `ecosystem`
   </details>
 
-- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.1k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
 
   It serves as a centralized map for developers trying to navigate the fragmented ecosystem of models, inference stacks, and training tooling.
 
@@ -449,7 +449,7 @@ _These are new or low-traffic entries being watched._
   `a2a` `agents` `protocol` `directory` `multi-agent`
   </details>
 
-- **[awesome-Swarms-List](https://github.com/the-swarm-corporation/awesome-swarms-list)** `⭐ 19` `updated ≤1y` A curated list of libraries, tools, templates, and resources specifically for the Swarms multi-agent orchestration framework. <details><summary>More about</summary>
+- **[awesome-Swarms-List](https://github.com/the-swarm-corporation/awesome-swarms-list)** `⭐ 19` `updated >1y` A curated list of libraries, tools, templates, and resources specifically for the Swarms multi-agent orchestration framework. <details><summary>More about</summary>
 
   It acts as a centralized map for developers building production-grade agent swarms, saving time otherwise spent digging through disparate medical, financial, and infrastructure implementations.
 
@@ -476,7 +476,7 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `agent-orchestration`
   </details>
 
-- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 5` `updated ≤90d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>
+- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 6` `updated ≤90d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>
 
   It provides a machine-readable intelligence layer and 'Demand Radar' that lets developers and their agents quickly assess ecosystem quality without manually digging through GitHub stars and npm downloads.
 

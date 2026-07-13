@@ -38,18 +38,26 @@ metadata:
       fetched_at: "2026-07-06T05:30:42.111Z"
       bytes: 68928
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI-first API testing tool that uses YAML-defined tests and structured JSON output for AI-assisted debugging workflows.
+  why_it_matters: It provides machine-readable, categorized error taxonomies that allow LLM agents to parse failures and suggest fixes without brittle log scraping.
+  mental_damage: Finally, a way to give your coding agent a structured roadmap for exactly how it is failing to fix your API.
+  tags:
+    - cli
+    - api-testing
+    - yaml
+    - mcp
+    - rust
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is designed to augment existing agents (Claude Code, Cursor, etc.) by providing them with specialized testing and remediation capabilities.
+  evidence:
+    - README describes it as 'API tests an AI agent can write, run, and debug'
+    - Explicitly mentions integration with Claude Code, Cursor, and Windsurf
+    - Provides an MCP companion for agentic interaction
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +73,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-09T05:33:35.429Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__nazarkalytiuk__tarn: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": Tarn is be\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-13T05:18:30.425Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

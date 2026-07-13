@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: GPL-3.0
     archived: false
     created_at: "2026-06-14T05:04:49Z"
-    pushed_at: "2026-07-01T17:11:13Z"
+    pushed_at: "2026-07-02T10:09:06Z"
     description: High-precision calculator MCP server — goes beyond arithmetic to calculus (derivatives, integrals) and equation solving, all evaluated in fixed-point, IEEE-754, or exact rational mode with every answer labelled exact or inexact.
     homepage: null
     topics:
@@ -45,23 +45,31 @@ metadata:
       - model-context-protocol
       - python
       - rational
-    last_checked_at: "2026-07-02T05:23:01.375Z"
+    last_checked_at: "2026-07-13T05:13:25.796Z"
     readme:
-      fetched_at: "2026-07-02T05:23:01.375Z"
-      bytes: 8072
+      fetched_at: "2026-07-13T05:13:25.796Z"
+      bytes: 8576
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A high-precision MCP server for performing complex arithmetic, calculus, and equation solving with support for multiple numeric modes.
+  why_it_matters: It provides LLMs with a way to perform deterministic, type-faithful calculations—including fixed-point and rational modes—to avoid the inherent inaccuracies of model-generated math.
+  mental_damage: Because nothing says 'odern dev workflow' like needing a specialized server to ensure your LLM doesn't hallucinate a rounding error into a production disaster.
+  tags:
+    - mcp
+    - arithmetic
+    - calculus
+    - determinism
+    - python
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's identity is strictly as an MCP server designed to provide specific mathematical capabilities to a host.
+  evidence:
+    - Repo description defines it as an 'MCP server'
+    - README focuses on 'type-faithful calculation' for 'artificial minds'
+    - Provides specialized numeric modes (fixed-point, rational, complex) as tool capabilities
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,16 +81,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:23:01.375Z"
+    updated_at: "2026-07-13T05:13:25.796Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-09T05:29:48.341Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-13T05:16:16.066Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

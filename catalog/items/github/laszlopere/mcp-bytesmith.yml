@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 2
     forks: 0
     license: GPL-3.0
     archived: false
     created_at: "2026-06-12T08:44:55Z"
-    pushed_at: "2026-06-19T03:47:08Z"
+    pushed_at: "2026-07-11T06:18:42Z"
     description: Pure-Python MCP server for encoding, hashing, and crypto-primitives — computed for real, locally.
     homepage: null
     topics:
@@ -47,23 +47,31 @@ metadata:
       - mcp-server
       - model-context-protocol
       - python
-    last_checked_at: "2026-07-02T05:23:01.508Z"
+    last_checked_at: "2026-07-13T05:13:25.835Z"
     readme:
-      fetched_at: "2026-07-02T05:23:01.508Z"
-      bytes: 4749
+      fetched_at: "2026-07-13T05:13:25.835Z"
+      bytes: 6160
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A pure-Python MCP server providing local utilities for encoding, hashing, cryptography, and Ethereum primitives.
+  why_it_matters: It gives LLMs reliable, local compute capabilities for complex byte-level operations and blockchain primitives that they otherwise struggle to perform accurately via pure text generation.
+  mental_damage: Another layer of abstraction to manage while you wonder if the model is actually calculating the hash or just hallucinating the hex string.
+  tags:
+    - mcp
+    - cryptography
+    - ethereum
+    - python
+    - local-computing
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's entire identity is built around being a Model Context Protocol server for providing specific computational tools to an LLM.
+  evidence:
+    - README defines it as a 'Pure-Python MCP server'
+    - Identity is centered on exposing a toolbox of byte-wrangling and crypto utilities via MCP
+    - Uses FastMCP SDK to implement the protocol
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,16 +83,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:23:01.508Z"
+    updated_at: "2026-07-13T05:13:25.835Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-09T05:29:48.341Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-13T05:16:38.381Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

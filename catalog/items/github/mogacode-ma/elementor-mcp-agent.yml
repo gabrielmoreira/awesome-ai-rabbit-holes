@@ -75,11 +75,15 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-09T05:33:11.258Z"
+    updated_at: "2026-07-13T05:18:03.354Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__mogacode-ma__elementor-mcp-agent: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__mogacode-ma__elementor-mcp-agent: ```json
+        {
+          "summary": "An MCP server designed for managing WordPress Elementor sites, including multi-site management, safe data editing with auto-rollback, and template export/import.",
+          "why_it_matters": "It provides
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

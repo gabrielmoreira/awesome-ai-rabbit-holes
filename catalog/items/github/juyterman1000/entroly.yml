@@ -23,13 +23,13 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 417
+    stars: 420
     forks: 66
     license: Apache-2.0
     archived: false
     created_at: "2026-03-07T23:03:02Z"
-    pushed_at: "2026-07-02T03:21:11Z"
-    description: Cut your Claude / OpenAI / Gemini bill 70–95% on AI coding. Local proxy that compresses context, keeps provider caches hot, and verifies LLM output ($0 hallucination guard). Drop-in for Cursor, Claude Code, Codex, Aider + 34 more and custom providers — 30s, no code changes
+    pushed_at: "2026-07-13T03:21:58Z"
+    description: "Local context-control plane for AI coding agents: select evidence, compress recoverably, keep caches hot, and verify answers. MCP/proxy/SDK for Cursor, Claude Code, Codex, and Aider."
     homepage: https://juyterman1000.github.io/entroly/docs/dashboard.html
     topics:
       - ai
@@ -51,10 +51,10 @@ metadata:
       - rag
       - rust
       - token-optimization
-    last_checked_at: "2026-07-02T05:22:50.147Z"
+    last_checked_at: "2026-07-13T05:13:16.358Z"
     readme:
-      fetched_at: "2026-07-02T05:22:50.147Z"
-      bytes: 20033
+      fetched_at: "2026-07-13T05:13:16.358Z"
+      bytes: 32222
 insights:
   summary: A local proxy and context control plane that compresses context, optimizes provider cache hits, and verifies LLM outputs to reduce AI coding costs.
   why_it_matters: It allows developers to slash API bills by 70-95% while improving context relevance and adding a layer of hallucination detection to existing coding assistants.
@@ -87,7 +87,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:22:50.147Z"
+    updated_at: "2026-07-13T05:13:16.358Z"
     cause: null
     next_retry_at: null
   categorize:

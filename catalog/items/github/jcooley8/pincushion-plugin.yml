@@ -38,18 +38,25 @@ metadata:
       fetched_at: "2026-07-06T05:30:23.823Z"
       bytes: 17244
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables AI coding agents to read visual pins and implementation context from a live web application.
+  why_it_matters: It closes the feedback loop by turning visual annotations on a live site into actionable, structured data packets for agents in Cursor, Claude Code, and other IDEs.
+  mental_damage: Because why bother with a bug report when you can just pin your frustration directly into an agent's context window?
+  tags:
+    - mcp
+    - coding-agents
+    - browser-automation
+    - visual-feedback
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is explicitly defined as an MCP server that provides specific implementation context to existing agents.
+  evidence:
+    - Repo description identifies it as a 'Cursor marketplace plugin for Pincushion — MCP server + slash commands'
+    - README describes the implementation as an 'MCP server' that carries 'URL + element selector + Screenshot + DOM snippet' to agents
+    - Explicit configuration guides for MCP-compliant clients like Cursor, Claude Desktop, and Claude Code
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -65,12 +72,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-09T05:34:17.156Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__jcooley8__pincushion-plugin: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The pincus\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-13T05:19:04.547Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

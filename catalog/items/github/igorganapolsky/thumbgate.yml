@@ -24,18 +24,17 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25
-    forks: 7
+    stars: 24
+    forks: 6
     license: MIT
     archived: false
     created_at: "2026-03-03T18:13:26Z"
-    pushed_at: "2026-06-29T00:05:46Z"
-    description: "Agent governance for ThumbGate: 👍/👎 become Pre-Action Checks that block repeat mistakes before code, money, or customer systems change."
+    pushed_at: "2026-07-13T00:03:45Z"
+    description: ThumbGate Pre-Action Checks derive rules from repeated failures, flag risky tool calls, hard-block detected secret leaks, and block matches in strict mode.
     homepage: https://thumbgate.ai
     topics:
       - agent-reliability
       - ai-agents
-      - ai-cost-optimization
       - ai-safety
       - amp
       - claude-code
@@ -49,14 +48,12 @@ metadata:
       - mcp-server
       - opencode
       - pre-action-checks
-      - reduce-llm-cost
-      - save-llm-tokens
       - thompson-sampling
       - thumbgate
-    last_checked_at: "2026-06-29T05:38:54.207Z"
+    last_checked_at: "2026-07-13T05:13:05.059Z"
     readme:
-      fetched_at: "2026-06-29T05:38:54.207Z"
-      bytes: 43411
+      fetched_at: "2026-07-13T05:13:05.059Z"
+      bytes: 48429
 insights:
   summary: A pre-action guardrail system that captures thumbs-down feedback to block repeated AI coding mistakes across MCP-compatible agents like Claude Code, Cursor, and Gemini CLI.
   why_it_matters: It promises to reduce LLM token waste by intercepting repeated bad patterns before they reach the model, directly lowering API costs for teams using multiple coding agents.
@@ -89,7 +86,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-06-29T05:38:54.207Z"
+    updated_at: "2026-07-13T05:13:05.060Z"
     cause: null
     next_retry_at: null
   categorize:

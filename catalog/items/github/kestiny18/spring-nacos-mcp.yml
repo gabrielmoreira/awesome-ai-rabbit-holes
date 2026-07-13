@@ -1,0 +1,87 @@
+id: github__kestiny18__spring-nacos-mcp
+kind: github-repo
+name: spring-nacos-mcp
+canonical_url: https://github.com/kestiny18/spring-nacos-mcp
+identity:
+  github_repo: kestiny18/spring-nacos-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__kestiny18__spring-nacos-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: kestiny18/spring-nacos-mcp
+        extracted_url: https://github.com/kestiny18/spring-nacos-mcp
+        surrounding_text: "- [kestiny18/spring-nacos-mcp](https://github.com/kestiny18/spring-nacos-mcp) [![kestiny18/spring-nacos-mcp MCP server](https://glama.ai/mcp/servers/kestiny18/spring-nacos-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kestiny18/spring-nacos-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Project-aware, read-only Nacos config & service-discovery server for Spring Cloud repos. Zero setup: auto-discovers every environment (dev/test/prod/...) from the repo's application/bootstrap files, with cross-environment key-level config diff. Single file, zero dependencies."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-06-11T09:52:30Z"
+    pushed_at: "2026-06-11T11:04:30Z"
+    description: "Project-aware, read-only Nacos MCP server for Spring Cloud repos: auto-discovers every environment from your application/bootstrap configs. 面向 Spring Cloud 项目的零配置只读 Nacos MCP server"
+    homepage: null
+    topics:
+      - mcp
+      - model-context-protocol
+      - nacos
+      - spring-cloud
+      - spring-cloud-alibaba
+    last_checked_at: "2026-07-13T05:13:18.343Z"
+    readme:
+      fetched_at: "2026-07-13T05:13:18.343Z"
+      bytes: 7333
+insights:
+  summary: A project-aware, read-only MCP server for Spring Cloud repositories that automatically discovers environments from application configuration files.
+  why_it_matters: It enables AI assistants to cross-reference and diff Nacos configurations across multiple Spring profiles without manual host or credential setup.
+  mental_damage: Because nothing says 'odern development' like having an LLM perform a semantic diff on your production and staging properties files.
+  tags:
+    - mcp
+    - spring-cloud
+    - nacos
+    - spring-boot
+    - mcp-server
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly an MCP server that implements a specific domain-driven toolset for Nacos.
+  evidence:
+    - README explicitly defines itself as a 'Nacos MCP server'
+    - Provides specific MCP tools like 'nacos_diff_config' and 'nacos_search_config'
+    - Focuses on MCP protocol implementation rather than being a coding assistant itself
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:13:18.343Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:23:01.256Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

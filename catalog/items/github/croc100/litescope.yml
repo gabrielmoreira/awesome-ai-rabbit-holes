@@ -1,0 +1,97 @@
+id: github__croc100__litescope
+kind: github-repo
+name: litescope
+canonical_url: https://github.com/croc100/litescope
+identity:
+  github_repo: croc100/litescope
+provenance:
+  discoveries:
+    - id: discovery__github__croc100__litescope__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: croc100/Litescope
+        extracted_url: https://github.com/croc100/litescope
+        surrounding_text: "- [croc100/Litescope](https://github.com/croc100/Litescope) [![Litescope MCP server](https://glama.ai/mcp/servers/croc100/Litescope/badges/score.svg)](https://glama.ai/mcp/servers/croc100/Litescope) 🏎️ 🏠 ☁️ - MCP-first operations toolchain for SQLite, Cloudflare D1, and Turso. Inspect, diff, migrate, monitor, back up, and repair databases over stdio. Read-only by default; writes are opt-in, dry-run first, and auto-snapshot before applying. `npx -y litescope mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: AGPL-3.0
+    archived: false
+    created_at: "2026-06-09T11:38:29Z"
+    pushed_at: "2026-07-02T13:16:20Z"
+    description: The operations toolchain for production SQLite — diff, migrate, monitor, and run staged migrations across an entire fleet of Turso & Cloudflare D1 databases.
+    homepage: https://litescope.crode.net
+    topics:
+      - cli
+      - cloudflare-d1
+      - database
+      - database-migration
+      - database-tools
+      - devops
+      - edge-database
+      - fleet-management
+      - golang
+      - mcp
+      - migration
+      - monitoring
+      - schema-diff
+      - sqlite
+      - turso
+    last_checked_at: "2026-07-13T05:12:54.621Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.621Z"
+      bytes: 18147
+insights:
+  summary: An operations toolchain for production SQLite that enables safe, reversible database migrations and observability via MCP.
+  why_it_matters: It solves the visibility and safety gap for SQLite at scale by providing agents with a sandboxed, reversible way to perform schema changes and migrations across distributed databases.
+  mental_damage: Now you can watch an LLM confidently destroy your production schema and then hit 'undo' when the hallucination hits the disk.
+  tags:
+    - sqlite
+    - mcp
+    - database-migrations
+    - observability
+    - edge-computing
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core identity is an MCP server designed to give AI agents (Claude, Cursor) safe, structured access to SQLite fleets.
+  evidence:
+    - README explicitly focuses on 'Litescope MCP server' for Claude/Cursor
+    - Provides specialized tools like litescope_migrate_plan and litescope_diff for agent use
+    - Explicitly markets the ability to 'Let AI agents touch production SQLite — safely'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.224Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.621Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:20:20.603Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

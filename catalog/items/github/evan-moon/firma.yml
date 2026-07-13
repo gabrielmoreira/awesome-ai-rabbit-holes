@@ -78,11 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-09T05:29:46.511Z"
+    status: failed
+    updated_at: "2026-07-13T05:12:55.364Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for evan-moon/firma
+      type: github_repo_missing
+      message: "GitHub repository not found: evan-moon/firma"
     next_retry_at: null
   categorize:
     status: done

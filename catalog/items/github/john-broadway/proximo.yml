@@ -1,0 +1,102 @@
+id: github__john-broadway__proximo
+kind: github-repo
+name: proximo
+canonical_url: https://github.com/john-broadway/proximo
+identity:
+  github_repo: john-broadway/proximo
+provenance:
+  discoveries:
+    - id: discovery__github__john-broadway__proximo__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: john-broadway/proximo
+        extracted_url: https://github.com/john-broadway/proximo
+        surrounding_text: "- [john-broadway/proximo](https://github.com/john-broadway/proximo) [![john-broadway/proximo MCP server](https://glama.ai/mcp/servers/john-broadway/proximo/badges/score.svg)](https://glama.ai/mcp/servers/john-broadway/proximo) 🐍 🏠 - All four Proxmox surfaces — VE, Backup Server, Mail Gateway, Datacenter Manager — plus in-container exec on one audited control plane. Every mutation dry-runs to a PLAN with its blast radius named, snapshots first where the platform can, and lands in a hash-chained tamper-evident audit ledger. 365 tools, read-only by default. `uvx proximo-proxmox`"
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-06-11T02:35:11Z"
+    pushed_at: "2026-07-12T18:08:11Z"
+    description: The Proxmox MCP you can hand the keys — VE + Backup Server + Mail Gateway + Datacenter Manager on one audited trust core (plan · prove · undo · diagnose). MCP + A2A.
+    homepage: ""
+    topics:
+      - a2a
+      - agents
+      - ai-agents
+      - api
+      - devops
+      - homelab
+      - infrastructure
+      - llm-tools
+      - management
+      - mcp
+      - model-context-protocol
+      - multi-cluster
+      - pbs
+      - proxmox
+      - proxmox-backup-server
+      - proxmox-datacenter-manager
+      - proxmox-mail-gateway
+      - proxmox-ve
+      - pve
+      - self-hosted
+    last_checked_at: "2026-07-13T05:13:14.225Z"
+    readme:
+      fetched_at: "2026-07-13T05:13:14.225Z"
+      bytes: 27873
+insights:
+  summary: An MCP server that provides an audited, plan-and-undo interface for managing Proxmox VE, Backup Server, and Mail Gateway.
+  why_it_matters: It allows AI agents to perform high-stakes infrastructure operations with safety guardrails like pre-action planning and automatic snapshotting.
+  mental_damage: Because handing a root token to an LLM is a permanent solution to a temporary problem.
+  tags:
+    - mcp
+    - proxmox
+    - infrastructure
+    - devops
+    - agent-safety
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is specifically an MCP server designed to bridge an AI agent to Proxmox infrastructure.
+  evidence:
+    - Repo description explicitly defines it as 'The Proxmox MCP'
+    - README focuses on the 'plan · prove · undo' governance loop via MCP
+    - Included in awesome-mcp-servers
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:13:14.225Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:21:48.992Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

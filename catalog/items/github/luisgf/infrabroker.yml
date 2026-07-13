@@ -1,0 +1,92 @@
+id: github__luisgf__infrabroker
+kind: github-repo
+name: infrabroker
+canonical_url: https://github.com/luisgf/infrabroker
+identity:
+  github_repo: luisgf/infrabroker
+provenance:
+  discoveries:
+    - id: discovery__github__luisgf__infrabroker__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: luisgf/infrabroker
+        extracted_url: https://github.com/luisgf/infrabroker
+        surrounding_text: "- [luisgf/infrabroker](https://github.com/luisgf/infrabroker) [![luisgf/infrabroker MCP server](https://glama.ai/mcp/servers/luisgf/infrabroker/badges/score.svg)](https://glama.ai/mcp/servers/luisgf/infrabroker) 🏎️ 🏠 ☁️ 🍎 🐧 - SSH & Kubernetes access broker where the model never touches a credential: a separate signer mints per-operation ephemeral SSH certificates and bound ServiceAccount tokens, with a per-command allow/deny/approval firewall (POSIX-sh AST), dry-run, human-in-the-loop approvals, session recording and an Ed25519-chained audit log. Self-hosted Go binaries, GPLv3."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: GPL-3.0
+    archived: false
+    created_at: "2026-06-03T21:51:46Z"
+    pushed_at: "2026-07-12T22:02:24Z"
+    description: Infrastructure access broker for AI agents — SSH & Kubernetes. Per-operation ephemeral credentials minted by a separate signer; the model never touches one. MCP stdio / HTTP+OIDC.
+    homepage: https://luisgf.github.io/infrabroker/
+    topics:
+      - ai-agents
+      - golang
+      - kubernetes
+      - mcp
+      - mcp-server
+      - prompt-injection
+      - security
+      - ssh
+      - ssh-certificates
+      - zero-trust
+    last_checked_at: "2026-07-13T05:13:30.772Z"
+    readme:
+      fetched_at: "2026-07-13T05:13:30.772Z"
+      bytes: 15689
+insights:
+  summary: An infrastructure access broker for AI agents that provides ephemeral, scope-limited SSH and Kubernetes credentials.
+  why_it_matters: It solves the critical security risk of prompt injection by ensuring LLMs never touch long-lived credentials, using short-lived certificates instead.
+  mental_damage: Because apparently, we now need a specialized middleware layer to prevent our coding assistants from accidentally nuking our production Kubernetes clusters.
+  tags:
+    - mcp
+    - ssh
+    - kubernetes
+    - security
+    - zero-trust
+  confidence: high
+curation:
+  status: included
+  reason: The product's identity is centered on being an MCP-based middleware layer that brokers access via the Model Context Protocol.
+  evidence:
+    - README states it provides MCP stdio and HTTP+OIDC frontends
+    - Core functionality is a broker/signer architecture for MCP tool calls
+    - Identity is a security middleware for agent access
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:13:30.772Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:22:39.844Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

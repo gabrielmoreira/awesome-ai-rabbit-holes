@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
@@ -47,23 +47,31 @@ metadata:
       - pdf
       - pdf-invoice
       - ubl
-    last_checked_at: "2026-07-02T05:23:03.845Z"
+    last_checked_at: "2026-07-13T05:13:27.765Z"
     readme:
-      fetched_at: "2026-07-02T05:23:03.845Z"
+      fetched_at: "2026-07-13T05:13:27.765Z"
       bytes: 5213
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server for the Invovate API that enables AI agents to generate PDF, JSON, and UBL 2.1 invoices.
+  why_it_matters: It provides LLM-capable editors and assistants with structured tools to handle complex invoicing workflows like tax calculation and multi-language document generation.
+  mental_damage: "Just what every developer wanted: the ability to have an LLM hallucinate your tax liabilities directly into a legally formatted PDF."
+  tags:
+    - mcp
+    - mcp-server
+    - invoicing
+    - automation
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is specifically a Model Context Protocol server designed to provide external tool capabilities to MCP clients.
+  evidence:
+    - Repo description explicitly states 'MCP server for the Invovate invoice API'
+    - README details tools for Claude Desktop, Cursor, and Windsurf via MCP
+    - Primary function is providing domain-specific capabilities (invoicing) to existing AI assistants
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,16 +83,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:23:03.845Z"
+    updated_at: "2026-07-13T05:13:27.765Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-09T05:29:48.341Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-13T05:16:44.794Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

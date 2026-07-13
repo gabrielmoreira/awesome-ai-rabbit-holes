@@ -48,18 +48,26 @@ metadata:
       fetched_at: "2026-07-06T05:29:59.265Z"
       bytes: 19882
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing access to Russian corporate and individual entrepreneur registries (EGRUL/EGRIP) via official FNS open-data dumps.
+  why_it_matters: It enables AI assistants to perform real-time business due diligence and entity lookups within a developer's IDE or terminal.
+  mental_damage: Another layer of required infrastructure to manage just so your LLM can tell you if a company actually exists.
+  tags:
+    - mcp
+    - due-diligence
+    - fintech
+    - python
+    - self-hosted
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's identity is explicitly an MCP server providing a specific domain-driven dataset to AI clients.
+  evidence:
+    - Repo description specifies it is an 'MCP server for Russian EGRUL/EGRIP lookups'
+    - README describes the product as providing 'Seven MCP-tools' for AI assistants
+    - Implementation uses the Model Context Protocol to expose FNS data
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +83,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-09T05:33:42.744Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__atomno-mcp__mcp-egrul: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-13T05:18:48.577Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

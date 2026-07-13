@@ -1,0 +1,82 @@
+id: github__dearlordylord__voila-sdk
+kind: github-repo
+name: voila-sdk
+canonical_url: https://github.com/dearlordylord/voila-sdk
+identity:
+  github_repo: dearlordylord/voila-sdk
+provenance:
+  discoveries:
+    - id: discovery__github__dearlordylord__voila-sdk__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: dearlordylord/voila-sdk
+        extracted_url: https://github.com/dearlordylord/voila-sdk
+        surrounding_text: "- [dearlordylord/voila-sdk](https://github.com/dearlordylord/voila-sdk) [![dearlordylord/voila-sdk MCP server](https://glama.ai/mcp/servers/dearlordylord/voila-sdk/badges/score.svg)](https://glama.ai/mcp/servers/dearlordylord/voila-sdk) 📇 ☁️ 🏠 🍎 🪟 🐧 - Personal Voila grocery automation via MCP. Search products, inspect discounts, list delivery slots, read cart and order history, and update cart quantities."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-29T12:00:39Z"
+    pushed_at: "2026-07-04T18:32:14Z"
+    description: Voila.ca shopping sdk and mcp to make shopping accessible to coding agents
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-13T05:12:54.843Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.843Z"
+      bytes: 4944
+insights:
+  summary: An MCP server and TypeScript SDK for interacting with the Voila grocery platform's internal endpoints.
+  why_it_matters: It allows coding agents to perform shopping tasks like product searching, cart management, and order history retrieval via the Model Context Protocol.
+  mental_damage: Your agent can now add milk to your cart, but it still can't solve the existential dread of checking out.
+  tags:
+    - mcp
+    - typescript
+    - ecommerce
+    - shopping-automation
+    - sdk
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is a Model Context Protocol server providing domain-specific tools for a grocery service.
+  evidence:
+    - README describes it as a 'Model Context Protocol server for safe personal Voila grocery automation'
+    - Exposes specific tools like 'voila_search_products' and 'voila_get_cart' via MCP
+    - Includes a corresponding TypeScript SDK (@firfi/voila-sdk)
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.843Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:20:51.254Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

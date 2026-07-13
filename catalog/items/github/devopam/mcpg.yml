@@ -1,0 +1,82 @@
+id: github__devopam__mcpg
+kind: github-repo
+name: mcpg
+canonical_url: https://github.com/devopam/mcpg
+identity:
+  github_repo: devopam/mcpg
+provenance:
+  discoveries:
+    - id: discovery__github__devopam__mcpg__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: devopam/MCPg
+        extracted_url: https://github.com/devopam/mcpg
+        surrounding_text: "- [devopam/MCPg](https://github.com/devopam/MCPg) [![devopam/MCPg MCP server](https://glama.ai/mcp/servers/devopam/MCPg/badges/score.svg)](https://glama.ai/mcp/servers/devopam/MCPg) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Production-grade PostgreSQL MCP server with 100+ tools for catalog introspection, AST-validated safe query execution, index tuning, natural-language SQL, pgvector/TimescaleDB/AGE integrations, and HTTP/stdio transports."
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-05-20T06:44:04Z"
+    pushed_at: "2026-07-10T04:22:34Z"
+    description: Postgres MCP Server
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-13T05:12:54.858Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.858Z"
+      bytes: 34477
+insights:
+  summary: A production-grade Model Context Protocol (MCP) server for PostgreSQL that enables AI agents to inspect, query, and manage databases.
+  why_it_matters: It provides agents with secure, high-granularity access to database internals, including schema introspection and DBA-grade operations like index tuning and migration management.
+  mental_damage: Finally, an AI that can drop your tables with the same confidence it uses to hallucinate a Python function.
+  tags:
+    - mcp
+    - postgresql
+    - database
+    - ai-agents
+    - sql
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is explicitly defined as an MCP server providing specialized domain capabilities to LLM clients.
+  evidence:
+    - Repo description identifies it as a 'Postgres MCP Server'
+    - README focuses on MCP-specific features like ToolAnnotations and transport via stdio/HTTP
+    - Includes production-grade safety features like AST validation for SQL
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.858Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:20:57.328Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

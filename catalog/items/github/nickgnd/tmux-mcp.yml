@@ -69,9 +69,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:32.485Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-13T05:13:33.111Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for nickgnd/tmux-mcp
     next_retry_at: null
   categorize:
     status: done

@@ -49,7 +49,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `awesome-list` `agent-skills` `openclaw`
   </details>
 
-- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 29.8k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
+- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 30.8k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
 
   It allows general-purpose coding agents to perform specialized scientific workflows like drug discovery, genomics, and molecular dynamics.
 
@@ -112,7 +112,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `biomedical` `science`
   </details>
 
-- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 544` `updated ≤30d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
+- **[Kurtosis](https://github.com/kurtosis-tech/kurtosis)** `⭐ 545` `updated ≤30d` Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments. <details><summary>More about</summary>
 
   It lets developers and AI agents reproducibly spin up complex dev and test stacks with one-liner commands, bridging local prototyping and CI testing.
 
@@ -161,7 +161,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 15` `updated ≤30d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 15` `updated ≤90d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
 
   Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
 

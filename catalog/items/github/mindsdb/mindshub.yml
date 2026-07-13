@@ -1,0 +1,97 @@
+id: github__mindsdb__mindshub
+kind: github-repo
+name: mindshub
+canonical_url: https://github.com/mindsdb/mindshub
+identity:
+  github_repo: mindsdb/mindshub
+provenance:
+  discoveries:
+    - id: discovery__github__mindsdb__mindshub__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: mindsdb/mindsdb
+        extracted_url: https://github.com/mindsdb/mindsdb
+        surrounding_text: "- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Connect and unify data across various platforms and databases with [MindsDB as a single MCP server](https://docs.mindsdb.com/mcp/overview)."
+        confidence: high
+metadata:
+  github:
+    stars: 39401
+    forks: 6221
+    license: MIT
+    archived: false
+    created_at: "2018-08-02T17:56:45Z"
+    pushed_at: "2026-07-10T16:53:47Z"
+    description: Make AI do actual work. Swap the model anytime — keep everything you've built.
+    homepage: https://mindshub.ai
+    topics:
+      - agents
+      - ai
+      - anton
+      - artificial-inteligence
+      - claude
+      - claude-cowork
+      - codex
+      - cowork
+      - deepseek
+      - glm
+      - hermes
+      - hermes-agent
+      - kimi
+      - mcp
+      - mindsdb
+    last_checked_at: "2026-07-13T05:13:31.523Z"
+    readme:
+      fetched_at: "2026-07-13T05:13:31.523Z"
+      bytes: 8593
+insights:
+  summary: A unified workspace and platform for running open-source and proprietary models to automate complex, multi-step tasks.
+  why_it_matters: It provides a single control plane to connect diverse data sources, route work to different models, and publish agent outputs as web apps.
+  mental_damage: Finally, a single place to consolidate all the fragmented AI subscriptions you've accidentally accumulated.
+  tags:
+    - agents
+    - automation
+    - model-routing
+    - multi-model
+    - orchestration
+  confidence: high
+curation:
+  status: included
+  reason: MindsHub acts as an operated workbench and control plane for coordinating multiple models, data sources, and agents to perform end-to-end workflows.
+  evidence:
+    - README describes it as a 'unified workspace' and 'platform superproject' for delegating entire projects.
+    - Provides orchestration of multiple models (Claude, GPT, Gemini) and agents (Anton, Hermes).
+    - Includes data connectivity to BigQuery, Postgres, and Notion as part of a central workbench.
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (39401) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:13:31.524Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:23:05.530Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

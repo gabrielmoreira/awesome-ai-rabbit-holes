@@ -40,18 +40,25 @@ metadata:
       fetched_at: "2026-07-06T05:30:31.541Z"
       bytes: 24803
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A natural language-based multi-agent system that coordinates communities of agents to solve complex tasks through collaborative 'indstorm' processes.
+  why_it_matters: It explores a paradigm shift from single-model reasoning to collaborative, multi-agent societies that use mutual interviews and reward mechanisms to improve task completion.
+  mental_damage: Now you have to manage not just your code, but the entire socio-economic meritocracy of your agent workforce.
+  tags:
+    - multi-agent
+    - nlsom
+    - agent-collaboration
+    - ai-orchestration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project functions as a runtime platform for coordinating multiple agents (LLMs, APIs, and experts) within a collaborative framework.
+  evidence:
+    - README claims to implement a 'Mindstorm' process where agents communicate via natural language to solve tasks.
+    - Core functionality involves recommending, loading, and coordinating communities of agents.
+    - Pushed at 2025-03-11T07:18:27Z, indicating the project is active.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -67,12 +74,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-09T05:33:03.464Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__metauto-ai__mindstorm: Invalid AI response format: SyntaxError: Unexpected token 'M', ...\"_reason\": Mindstorm \"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-13T05:17:03.284Z"
+    cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

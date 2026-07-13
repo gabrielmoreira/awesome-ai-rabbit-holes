@@ -1,0 +1,87 @@
+id: github__hostodo__hostodo-mcp
+kind: github-repo
+name: hostodo-mcp
+canonical_url: https://github.com/hostodo/hostodo-mcp
+identity:
+  github_repo: hostodo/hostodo-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__hostodo__hostodo-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: hostodo/hostodo-mcp
+        extracted_url: https://github.com/hostodo/hostodo-mcp
+        surrounding_text: "- [hostodo/hostodo-mcp](https://github.com/hostodo/hostodo-mcp) [![hostodo/hostodo-mcp MCP server](https://glama.ai/mcp/servers/hostodo/hostodo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hostodo/hostodo-mcp) 📇 ☁️ - Hosted MCP endpoint for Hostodo VPS management: list VM details, power-control, rename, reinstall from OS templates, toggle per-VM exec, run bounded/async guest-agent commands, and upload/install artifacts with scoped tokens and audit logs."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-07-02T04:05:41Z"
+    pushed_at: "2026-07-02T16:20:54Z"
+    description: Registry metadata for the hosted Hostodo MCP server
+    homepage: null
+    topics:
+      - cloud-platforms
+      - hostodo
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - vps
+    last_checked_at: "2026-07-13T05:13:01.935Z"
+    readme:
+      fetched_at: "2026-07-13T05:13:01.935Z"
+      bytes: 4306
+insights:
+  summary: A metadata registry for the hosted Hostodo MCP server to enable AI assistant management of VPS infrastructure.
+  why_it_matters: It allows developers to use AI agents to perform cloud operations like power management, DNS updates, and SSH key administration through a standardized protocol.
+  mental_damage: Finally, an AI agent that can reboot your production server and accidentally delete your DNS records before you've even finished your coffee.
+  tags:
+    - mcp
+    - vps
+    - cloud-management
+    - infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The project's identity is a server/metadata layer for the Model Context Protocol to provide specific cloud domain capabilities.
+  evidence:
+    - README states the repo is for publishing Hostodo's hosted MCP server metadata
+    - Primary functionality is exposing VPS, DNS, and account management via MCP
+    - Implementation is an MCP server/endpoint for Hostodo's infrastructure
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:13:01.935Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:22:14.557Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

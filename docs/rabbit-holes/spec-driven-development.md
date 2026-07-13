@@ -215,7 +215,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-dev-extensions` `agent-skills`
   </details>
 
-- **[tnl](https://github.com/janaraj/tnl)** `⭐ 7` `updated ≤90d` TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions. <details><summary>More about</summary>
+- **[tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤90d` TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions. <details><summary>More about</summary>
 
   It replaces ephemeral chat plans with persistent, machine-checkable contracts that enforce scope, bind tests to behaviors, and prevent agents from silently drifting between sessions.
 

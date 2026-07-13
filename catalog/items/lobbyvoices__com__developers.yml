@@ -1,0 +1,78 @@
+id: lobbyvoices__com__developers
+kind: website
+name: developers
+canonical_url: https://lobbyvoices.com/developers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__lobbyvoices__com__developers__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗣️ <a name="conversational-ai"></a>Conversational AI
+        anchor_text: Lobby
+        extracted_url: https://lobbyvoices.com/developers
+        surrounding_text: "- [bodyegypt/lobbyvoices-mcp](https://github.com/bodyegypt/lobbyvoices-mcp) [![bodyegypt/lobbyvoices-mcp MCP server](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp) 🎖️ ☁️ - Official remote MCP server for [Lobby](https://lobbyvoices.com/developers), an AI receptionist for small businesses. Seven free no-auth tools: write business phone scripts and IVR menus (English + Mexican Spanish), generate ElevenLabs agent system prompts, calculate missed-call cost, get a hire-a-receptionist verdict, role-play a call against the live receptionist engine, and get a real demo number to call. Typed structured outputs."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A free API and MCP server providing AI phone scripts, agent prompts, and missed-call cost calculations.
+  why_it_matters: It provides pre-built domain-specific logic and telephony context that agents can use via MCP to handle real-world business communication tasks.
+  mental_damage: Now your LLM can realize exactly how much revenue it's costing your business by failing to handle a phone call correctly.
+  tags:
+    - mcp
+    - api
+    - telephony
+    - agent-tools
+    - automation
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is centered around an MCP server that provides specific tools (scripts, prompts, math) to external agents.
+  evidence:
+    - Explicitly offers an MCP server for Claude Code, Cursor, and Claude Desktop
+    - Provides specific tools like 'generate_elevenlabs_agent_prompt' and 'calculate_missed_call_cost' via MCP
+    - Core utility is providing these domain-specific tools to existing AI assistants
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:23:41.601Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

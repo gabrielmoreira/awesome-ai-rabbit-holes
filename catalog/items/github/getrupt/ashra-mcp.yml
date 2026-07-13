@@ -67,11 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-09T05:29:47.282Z"
+    status: failed
+    updated_at: "2026-07-13T05:12:56.018Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for getrupt/ashra-mcp
+      type: github_repo_missing
+      message: "GitHub repository not found: getrupt/ashra-mcp"
     next_retry_at: null
   categorize:
     status: done

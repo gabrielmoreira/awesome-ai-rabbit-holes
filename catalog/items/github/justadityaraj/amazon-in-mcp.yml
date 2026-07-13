@@ -24,32 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3
+    stars: 5
     forks: 1
     license: MIT
     archived: false
     created_at: "2026-05-17T18:36:39Z"
-    pushed_at: "2026-06-29T17:04:01Z"
+    pushed_at: "2026-07-11T14:44:44Z"
     description: MCP server for amazon.in — cheapest in-stock, best-value picks, and price history links. No paid APIs.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-02T05:22:50.093Z"
+    last_checked_at: "2026-07-13T05:13:16.298Z"
     readme:
-      fetched_at: "2026-07-02T05:22:50.093Z"
-      bytes: 7107
+      fetched_at: "2026-07-13T05:13:16.298Z"
+      bytes: 9629
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables LLMs to search, inspect, and compare product details and pricing on Amazon.in via direct HTML scraping.
+  why_it_matters: It allows AI assistants to act as shopping agents with real-time data access, including price history and value ranking, without requiring official API keys.
+  mental_damage: Because nothing says 'odern developer workflow' quite like delegating your holiday shopping to a terminal agent scraping web pages.
+  tags:
+    - mcp-server
+    - shopping-agent
+    - automation
+    - web-scraping
+    - amazon
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server that provides domain-specific tools to a host assistant.
+  evidence:
+    - README explicitly states it is an 'MCP server that lets your LLM shop on Amazon.in'
+    - Implementation provides specific tools (search, get_product, price_history) for the Model Context Protocol
+    - Functions via stdio for integration with Claude Desktop, Cursor, and Claude Code
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -61,16 +69,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:22:50.093Z"
+    updated_at: "2026-07-13T05:13:16.298Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-09T05:29:48.341Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-13T05:16:02.541Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

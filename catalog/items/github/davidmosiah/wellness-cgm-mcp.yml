@@ -1,0 +1,92 @@
+id: github__davidmosiah__wellness-cgm-mcp
+kind: github-repo
+name: wellness-cgm-mcp
+canonical_url: https://github.com/davidmosiah/wellness-cgm-mcp
+identity:
+  github_repo: davidmosiah/wellness-cgm-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__davidmosiah__wellness-cgm-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: davidmosiah/wellness-cgm-mcp
+        extracted_url: https://github.com/davidmosiah/wellness-cgm-mcp
+        surrounding_text: "- [davidmosiah/wellness-cgm-mcp](https://github.com/davidmosiah/wellness-cgm-mcp) [![Wellness CGM MCP server](https://glama.ai/mcp/servers/davidmosiah/wellness-cgm-mcp/badges/score.svg)](https://glama.ai/mcp/servers/davidmosiah/wellness-cgm-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Local-first continuous glucose monitor MCP server for Dexcom Developer API and FreeStyle Libre via LibreLink Up."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-10T20:47:52Z"
+    pushed_at: "2026-07-03T11:55:57Z"
+    description: Local-first continuous glucose monitor MCP — Dexcom Developer API, FreeStyle Libre via LibreLink Up. Levels-killer, agent-first.
+    homepage: https://www.npmjs.com/package/wellness-cgm-mcp
+    topics:
+      - ai-agents
+      - cgm
+      - glucose
+      - health-data
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - quantified-self
+      - wellness
+    last_checked_at: "2026-07-13T05:12:54.652Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.652Z"
+      bytes: 9043
+insights:
+  summary: A local-first MCP server that exposes continuous glucose monitor (CGM) data from Dexcom and FreeStyle Libre to AI agents.
+  why_it_matters: It enables developers to build metabolic health agents by providing direct, programmatic access to real-time biometric data via the Model Context Protocol.
+  mental_damage: Because nothing says 'productivity' like debugging your glucose spikes with a Claude Desktop instance.
+  tags:
+    - mcp
+    - biometrics
+    - health-tech
+    - dexcom
+    - local-first
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server designed to expose specific biological domain data to LLM hosts.
+  evidence:
+    - README describes it as a 'Local MCP server that exposes CGM data... to any MCP-aware agent'
+    - Repo description explicitly identifies it as a 'continuous glucose monitor MCP'
+    - Includes setup instructions for Claude Desktop via mcpServers configuration
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.224Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.652Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:20:43.461Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

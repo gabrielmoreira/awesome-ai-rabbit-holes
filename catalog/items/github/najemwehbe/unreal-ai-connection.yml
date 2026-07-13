@@ -58,18 +58,26 @@ metadata:
       fetched_at: "2026-07-06T05:30:41.234Z"
       bytes: 34000
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides over 140 tools to automate Unreal Engine 5.7 via a local TCP socket.
+  why_it_matters: It enables developers to control complex engine tasks like asset authoring, Niagara FX, and rendering directly from AI assistants like Claude Code or Cursor.
+  mental_damage: Because typing a prompt to spawn a particle system is definitely more efficient than the trauma of clicking through Unreal's UI.
+  tags:
+    - mcp
+    - unreal-engine
+    - editor-automation
+    - game-dev
+    - ai-automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product identity is an MCP server designed to expose Unreal Engine capabilities to external clients.
+  evidence:
+    - Repo description specifies driving Unreal Engine from any MCP client
+    - README claims 151 tools via a local TCP socket
+    - Explicit support for MCP-compliant clients like Claude Code and Cursor
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -85,12 +93,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-09T05:33:30.666Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__najemwehbe__unreal-ai-connection: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool’s\"... is not valid JSON"
+    status: done
+    updated_at: "2026-07-13T05:17:56.043Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

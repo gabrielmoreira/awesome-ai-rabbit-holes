@@ -4,7 +4,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 ## Tools & Resources
 
-- **[Langfuse 🪢](https://github.com/langfuse/langfuse)** `⭐ 30.3k` `updated ≤30d` Langfuse is an open-source LLM engineering platform providing observability, metrics, evaluations, prompt management, and a playground for debugging and improving AI applications. <details><summary>More about</summary>
+- **[Langfuse 🪢](https://github.com/langfuse/langfuse)** `⭐ 31k` `updated ≤30d` Langfuse is an open-source LLM engineering platform providing observability, metrics, evaluations, prompt management, and a playground for debugging and improving AI applications. <details><summary>More about</summary>
 
   It gives developers the tracing, prompt versioning, and evaluation infrastructure needed to stop guessing and start measuring how their LLM applications actually behave in production.
 
@@ -76,7 +76,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `benchmarking` `llm` `framework` `cli`
   </details>
 
-- **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 12.9k` `updated ≤90d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
+- **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 12.9k` `updated ≤180d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
 
   It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select models based on their ability to interact with external tools and APIs.
 
@@ -157,7 +157,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `agent-testing` `red-teaming` `rag-evaluation`
   </details>
 
-- **[Kiln](https://github.com/kiln-ai/kiln)** `⭐ 4.9k` `updated ≤30d` Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems, with support for evals, RAG, fine-tuning, synthetic data generation, and agent workflows. <details><summary>More about</summary>
+- **[Kiln](https://github.com/kiln-ai/kiln)** `⭐ 5k` `updated ≤30d` Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems, with support for evals, RAG, fine-tuning, synthetic data generation, and agent workflows. <details><summary>More about</summary>
 
   It gives developers a privacy-first, visual workbench to measure model quality, optimize prompts, and manage datasets without wiring together a dozen separate scripts.
 
@@ -202,7 +202,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `vision-language` `benchmarking` `multimodal` `llm`
   </details>
 
-- **[LangWatch](https://github.com/langwatch/langwatch)** `⭐ 3.3k` `updated ≤30d` LangWatch is a platform for end-to-end LLM evaluations, AI agent testing, and production observability, supporting OpenTelemetry-native tracing, simulations, and prompt optimization loops. <details><summary>More about</summary>
+- **[LangWatch](https://github.com/langwatch/langwatch)** `⭐ 3.4k` `updated ≤30d` LangWatch is a platform for end-to-end LLM evaluations, AI agent testing, and production observability, supporting OpenTelemetry-native tracing, simulations, and prompt optimization loops. <details><summary>More about</summary>
 
   It gives teams a unified workflow to regression-test agents, trace failures, and manage prompt versions before and after deployment without building custom eval tooling.
 
@@ -391,7 +391,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `ebpf` `observability` `tracing` `agent-monitoring` `system-level`
   </details>
 
-- **[YourBench](https://github.com/huggingface/yourbench)** `⭐ 449` `updated ≤180d` A HuggingFace framework that parses source documents and uses LLMs to generate custom, structured QA benchmark datasets for evaluating model performance on your own data. <details><summary>More about</summary>
+- **[YourBench](https://github.com/huggingface/yourbench)** `⭐ 450` `updated ≤180d` A HuggingFace framework that parses source documents and uses LLMs to generate custom, structured QA benchmark datasets for evaluating model performance on your own data. <details><summary>More about</summary>
 
   It lets teams move beyond generic leaderboards by creating tailored, high-quality eval datasets from private docs to measure how models actually perform on their specific domains.
 
@@ -418,7 +418,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `prompt-management` `evals` `observability` `mdx` `agents`
   </details>
 
-- **[LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator)** `⭐ 323` `updated >1y` A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data contamination. <details><summary>More about</summary>
+- **[LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator)** `⭐ 324` `updated >1y` A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data contamination. <details><summary>More about</summary>
 
   It gives LLM developers and researchers a concrete way to measure and scrub benchmark contamination, helping keep model eval results honest.
 
@@ -454,7 +454,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `bias-testing` `fairness` `python-library` `responsible-ai`
   </details>
 
-- **[MixEval](https://github.com/jinjieni/mixeval)** `⭐ 255` `updated >1y` MixEval is a click-and-go LLM evaluation suite and dynamic benchmark that measures model performance against Chatbot Arena rankings while running locally at a fraction of the cost. <details><summary>More about</summary>
+- **[MixEval](https://github.com/jinjieni/mixeval)** `⭐ 254` `updated >1y` MixEval is a click-and-go LLM evaluation suite and dynamic benchmark that measures model performance against Chatbot Arena rankings while running locally at a fraction of the cost. <details><summary>More about</summary>
 
   Developers can benchmark their own local or proprietary models against a ground-truth dataset that correlates 0.96 with Chatbot Arena, without spending thousands on crowdsourced evaluations.
 
@@ -503,7 +503,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 _These are new or low-traffic entries being watched._
 
-- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 118` `updated ≤30d` A Python CLI and testing framework that snapshots AI agent tool calls and outputs to catch behavior regressions across model or provider updates in CI. <details><summary>More about</summary>
+- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 123` `updated ≤30d` A Python CLI and testing framework that snapshots AI agent tool calls and outputs to catch behavior regressions across model or provider updates in CI. <details><summary>More about</summary>
 
   It gives developers a regression gate for agent behavior, distinguishing provider drift from real system regressions when normal tests still pass.
 
@@ -629,7 +629,7 @@ _These are new or low-traffic entries being watched._
   `benchmark` `agent-eval` `rule-based-scoring` `tracing`
   </details>
 
-- **[silicon-pantheon](https://github.com/haoyifan/silicon-pantheon)** `⭐ 4` `updated ≤90d` A turn-based strategy game where AI agents like Claude and GPT-5 act as players on a tactical grid, coached by humans via strategy playbooks and real-time text input. <details><summary>More about</summary>
+- **[silicon-pantheon](https://github.com/haoyifan/silicon-pantheon)** `⭐ 5` `updated ≤90d` A turn-based strategy game where AI agents like Claude and GPT-5 act as players on a tactical grid, coached by humans via strategy playbooks and real-time text input. <details><summary>More about</summary>
 
   It provides a live environment for benchmarking agent reasoning, tactical planning, and prompt adherence through competitive gameplay rather than standard coding tasks.
 
@@ -800,6 +800,15 @@ _These are new or low-traffic entries being watched._
   `llmops` `prompt-management` `evals` `tracing`
   </details>
 
+- **[PromptLayer 🍰](https://www.promptlayer.com)** A prompt management platform providing versioning, evaluations, and observability for AI engineering teams. <details><summary>More about</summary>
+
+  It provides a centralized way to manage prompt assets, track LLM performance with tracing, and run regression tests in production environments.
+
+  _Nothing says 'table production environment' quite like having a dedicated CMS just to manage the strings you're sending to an API._
+
+  `prompt-management` `observability` `evaluations` `llmops` `tracing`
+  </details>
+
 - **[Root Signals](https://scorable.ai)** Scorable is a platform for creating custom AI judges and running evaluations to measure, monitor, and improve the quality of LLM-powered applications in production. <details><summary>More about</summary>
 
   It lets developers replace manual 'vibe checks' with calibrated, automated scoring to catch hallucinations and policy breaks before they reach users.
@@ -825,6 +834,15 @@ _These are new or low-traffic entries being watched._
   _You now have to worry not only about whether your agent works, but whether a specialized red-team agent will publicly embarrass it before your users do._
 
   `security` `red-teaming` `agents` `eval` `safety`
+  </details>
+
+- **[Vals AI](https://www.vals.ai)** A domain-specific benchmarking platform for evaluating AI models across legal, tax, finance, and software engineering tasks. <details><summary>More about</summary>
+
+  It provides industry-specific benchmarks like the Excel Modeling Benchmark to help developers assess model performance in highly specialized professional workflows.
+
+  _Because knowing your model is #2 in legal research isn't much comfort when it still can't pass a simple unit test._
+
+  `benchmarking` `evaluation` `domain-specific` `finance` `legal`
   </details>
 
 - **[varies](https://www.swebench.com)** A leaderboard website tracking and comparing the performance of AI coding agents on the SWE-bench software engineering benchmark. <details><summary>More about</summary>

@@ -1,0 +1,81 @@
+id: github__cnslabs__agreements-api-sdk
+kind: github-repo
+name: agreements-api-sdk
+canonical_url: https://github.com/cnslabs/agreements-api-sdk
+identity:
+  github_repo: cnslabs/agreements-api-sdk
+provenance:
+  discoveries:
+    - id: discovery__github__cnslabs__agreements-api-sdk__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤝 <a name="agreements--coordination"></a>Agreements & Coordination
+        anchor_text: CNSLabs/agreements-api-sdk
+        extracted_url: https://github.com/cnslabs/agreements-api-sdk
+        surrounding_text: "- [CNSLabs/agreements-api-sdk](https://github.com/CNSLabs/agreements-api-sdk) [![CNSLabs/agreements-api-sdk MCP server](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk/badges/score.svg)](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk) 📇 ☁️ 🏠 - Remote Streamable HTTP and local stdio MCP server for defining, validating, deploying, and operating machine-readable agreements with EIP-712 permit preparation, signed participant inputs, state reads, and input history."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-04-22T17:55:11Z"
+    pushed_at: "2026-07-06T22:23:06Z"
+    description: A client library for the agreement API
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-13T05:12:54.412Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.412Z"
+      bytes: 10255
+insights:
+  summary: A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable coordination workflows.
+  why_it_matters: It enables developers to integrate verifiable, stateful, and deterministic agreement workflows into agentic systems and applications.
+  mental_damage: Because clearly, the final frontier of agentic autonomy is programmatic, cryptographically-signed, multi-participant coordination logic.
+  tags:
+    - typescript-sdk
+    - mcp-server
+    - agentic-workflows
+    - coordination-protocol
+  confidence: high
+curation:
+  status: included
+  reason: The repository provides a core MCP server implementation to facilitate agreement execution via the Model Context Protocol.
+  evidence:
+    - README explicitly offers a local stdio MCP server package
+    - README provides a hosted MCP endpoint for remote execution
+    - Directly implements MCP protocol capability for agreement lifecycles
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.224Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.412Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:20:10.275Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 39
-    forks: 6
+    stars: 42
+    forks: 9
     license: Apache-2.0
     archived: false
     created_at: "2026-06-05T10:42:23Z"
-    pushed_at: "2026-07-02T03:49:48Z"
+    pushed_at: "2026-07-13T02:47:25Z"
     description: Start a run in your terminal and walk away. Get pinged when it finishes, or needs you. Every step is a readable trace you check before anything ships.
     homepage: https://docs.agentafk.com
     topics:
@@ -53,23 +53,31 @@ metadata:
       - subagent
       - telegram-bot
       - typescript
-    last_checked_at: "2026-07-02T05:22:47.604Z"
+    last_checked_at: "2026-07-13T05:12:57.032Z"
     readme:
-      fetched_at: "2026-07-02T05:22:47.604Z"
-      bytes: 15305
+      fetched_at: "2026-07-13T05:12:57.032Z"
+      bytes: 15374
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source coding-agent harness that wraps existing agents like Claude Code to provide custom execution loops, background daemon modes, and persistent state.
+  why_it_matters: It allows developers to turn short-lived CLI sessions into long-running, auditable background processes with custom safety gates and external notifications.
+  mental_damage: Finally, a way to walk away from your desk while a terminal agent takes turns making expensive mistakes in the background.
+  tags:
+    - cli
+    - coding-agents
+    - harness
+    - automation
+    - daemon
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as a primary terminal-native coding assistant/harness that manages the execution loop of models like Claude Code.
+  evidence:
+    - README describes it as an 'open-source coding-agent harness' with its own REPL and daemon modes
+    - Provides full tool access (Bash, file ops, web fetch) and handles task decomposition via slash commands
+    - Features a standalone CLI interface (`afk chat`, `afk daemon`)
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -81,16 +89,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-02T05:22:47.605Z"
+    updated_at: "2026-07-13T05:12:57.032Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-09T05:29:48.341Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-13T05:15:56.013Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

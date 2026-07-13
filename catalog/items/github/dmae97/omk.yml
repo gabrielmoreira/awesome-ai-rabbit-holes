@@ -1,0 +1,102 @@
+id: github__dmae97__omk
+kind: github-repo
+name: omk
+canonical_url: https://github.com/dmae97/omk
+identity:
+  github_repo: dmae97/omk
+provenance:
+  discoveries:
+    - id: discovery__github__dmae97__omk__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-13T05:12:52.223Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: OMK
+        extracted_url: https://github.com/dmae97/open-multi-agent-kit
+        surrounding_text: "- **[OMK](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 120` — Provider-neutral CLI control plane for coding agents: routes runtimes, scopes MCP, runs DAG workers, and verifies evidence before completion. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 122
+    forks: 14
+    license: MIT
+    archived: false
+    created_at: "2026-04-30T01:41:12Z"
+    pushed_at: "2026-07-11T01:27:19Z"
+    description: Evidence-gated runner for Codex, Claude Code, OpenCode, and local coding agents. Routes tasks into scoped DAG lanes with replayable artifacts.
+    homepage: ""
+    topics:
+      - agent-orchestration
+      - agent-runtime
+      - ai-coding
+      - claude-code
+      - cli
+      - code-review
+      - codex
+      - coding-agent
+      - developer-tools
+      - devtools
+      - evidence
+      - local-first
+      - local-llm
+      - mcp
+      - model-context-protocol
+      - multi-agent
+      - opencode
+      - software-engineering
+      - typescript
+      - workflow-automation
+    last_checked_at: "2026-07-13T05:12:54.988Z"
+    readme:
+      fetched_at: "2026-07-13T05:12:54.988Z"
+      bytes: 11755
+insights:
+  summary: A multi-agent control plane and harness designed to route, verify, and manage coding tasks across various LLMs and agents.
+  why_it_matters: It provides a centralized runtime and TUI for orchestrating complex, multi-step coding workflows and verifying agent outputs via evidence gates.
+  mental_damage: Because apparently, managing a single AI agent wasn't enough stress, now you need a full-scale ops console to monitor their decision DAGs.
+  tags:
+    - agent-orchestration
+    - coding-agent
+    - cli
+    - multi-agent
+    - mcp
+  confidence: high
+curation:
+  status: included
+  reason: The project acts as a control plane and runtime for coordinating multiple agents and tasks via a TUI and DAG-based routing.
+  evidence:
+    - README describes it as a 'provider-neutral multi-agent control plane for coding workflows'
+    - Features include DAG lanes, provider routing, and task pipelines
+    - Contains an agent runtime (omk-agent-core) and an interactive CLI agent
+placement:
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-13T05:12:52.225Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-13T05:12:54.988Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-13T05:21:12.004Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
