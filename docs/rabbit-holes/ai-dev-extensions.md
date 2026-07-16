@@ -4,7 +4,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 ## Tools & Resources
 
-- **[Playwright](https://github.com/microsoft/playwright)** `⭐ 92.3k` `updated ≤30d` Playwright is a web automation and testing framework that drives Chromium, Firefox, and WebKit with a single API, including tooling tailored for AI agents and coding assistants. <details><summary>More about</summary>
+- **[Playwright](https://github.com/microsoft/playwright)** `⭐ 92.9k` `updated ≤30d` Playwright is a web automation and testing framework that drives Chromium, Firefox, and WebKit with a single API, including tooling tailored for AI agents and coding assistants. <details><summary>More about</summary>
 
   It provides both a battle-tested test runner for traditional end-to-end testing and a token-efficient CLI and MCP layer purpose-built for coding agents like Claude Code and Copilot to automate browsers.
 
@@ -31,7 +31,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `browser-automation` `cli` `ai-agents`
   </details>
 
-- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.8k` `updated ≤90d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
+- **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.9k` `updated ≤90d` An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies. <details><summary>More about</summary>
 
   It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
 
@@ -40,7 +40,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `task-management` `mcp` `cursor` `claude-code` `ai-workflow`
   </details>
 
-- **[cmux](https://github.com/manaflow-ai/cmux)** `⭐ 23.7k` `updated ≤30d` A Ghostty-based macOS terminal application that provides vertical tabs, notification rings, and an in-app browser designed specifically for running and monitoring multiple AI coding agents like Claude Code and Gemini CLI. <details><summary>More about</summary>
+- **[cmux](https://github.com/manaflow-ai/cmux)** `⭐ 24.6k` `updated ≤30d` A Ghostty-based macOS terminal application that provides vertical tabs, notification rings, and an in-app browser designed specifically for running and monitoring multiple AI coding agents like Claude Code and Gemini CLI. <details><summary>More about</summary>
 
   It solves the UI fragmentation of running parallel CLI agents by providing a unified desktop surface with visual alerts, session metadata, and integrated browser access.
 
@@ -121,7 +121,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `readme-generator` `cli` `documentation` `llm` `python`
   </details>
 
-- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2.2k` `updated ≤30d` A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows. <details><summary>More about</summary>
+- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2.3k` `updated ≤30d` A Git extension that tracks AI-generated code lines and attributes them to specific models, agents, and sessions within standard Git workflows. <details><summary>More about</summary>
 
   It provides much-needed attribution and provenance for AI-written code, helping developers understand the intent and context behind contributions from tools like Claude Code and Cursor.
 
@@ -148,7 +148,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `cli` `plugins` `claude-code` `productivity` `hooks`
   </details>
 
-- **[terminator](https://github.com/mediar-ai/terminator)** `⭐ 1.5k` `updated ≤90d` A Windows-native desktop automation layer that exposes the full OS environment as an MCP server so AI assistants can control apps, browsers, and workflows without taking over the user's cursor. <details><summary>More about</summary>
+- **[terminator](https://github.com/mediar-ai/terminator)** `⭐ 1.6k` `updated ≤90d` A Windows-native desktop automation layer that exposes the full OS environment as an MCP server so AI assistants can control apps, browsers, and workflows without taking over the user's cursor. <details><summary>More about</summary>
 
   It lets developers hand off cross-application desktop tasks to coding agents by giving them deterministic, pixel-to-accessibility-tree control over the local machine.
 
@@ -193,7 +193,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `session-management` `ai-coding-agents` `local-first` `macos` `developer-tools`
   </details>
 
-- **[rustunnel](https://github.com/joaoh82/rustunnel)** `⭐ 645` `updated ≤30d` A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI agents. <details><summary>More about</summary>
+- **[rustunnel](https://github.com/joaoh82/rustunnel)** `⭐ 645` `updated ≤90d` A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI agents. <details><summary>More about</summary>
 
   It allows AI agents to interact with, test, and trigger local webhooks and APIs through secure, encrypted tunnels.
 
@@ -265,6 +265,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `comfyui` `mcp` `claude-code` `image-generation` `workflow-automation`
   </details>
 
+- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 207` `updated ≤30d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
+
+  It allows developers to maximize the utility of multiple AI subscriptions by transparently routing requests from tools like Claude Code or Cursor to available token plans.
+
+  _Because nothing says 'optimized developer workflow' like building a complex routing layer to arbitrage your own subscription quotas._
+
+  `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
+  </details>
+
 - **[agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 164` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
@@ -277,6 +286,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
 ## Incubating
 
 _These are new or low-traffic entries being watched._
+
+- **[webreaper](https://github.com/alex-on-ai/webreaper)** `⭐ 141` `updated ≤30d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
+
+  It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
+
+  _Another way to feed the LLM an infinite stream of web-scraped markdown while pretending the bot won't eventually find our search history._
+
+  `scraping` `claude-code` `web-crawler` `markdown` `dotnet`
+  </details>
 
 - **[owlex](https://github.com/agentic-box/owlex)** `⭐ 129` `updated ≤180d` An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code. <details><summary>More about</summary>
 
@@ -294,6 +312,15 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the point where your computer watches you code so it can tell the AI what you were trying to do before you gave up and asked for help._
 
   `desktop-app` `context-recording` `mcp` `automation` `screen-capture`
+  </details>
+
+- **[figwright](https://github.com/awdr74100/figwright)** `⭐ 113` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
+
+  It lets developers use Claude Code, Cursor, or any MCP client to directly implement and edit designs in Figma without requiring a paid Dev Mode seat.
+
+  _Finally, a way to make your AI assistant feel useful while it redraws your button for the twelfth time because it still doesn’t understand your design system._
+
+  `mcp` `figma` `design-to-code` `bidirectional` `codegen`
   </details>
 
 - **[Maige](https://github.com/rubriclab/maige)** `⭐ 101` `updated ≤180d` Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests. <details><summary>More about</summary>
@@ -341,13 +368,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `agentmail` `sdk` `integration` `email`
   </details>
 
-- **[figwright](https://github.com/awdr74100/figwright)** `⭐ 76` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
+- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 75` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
 
-  It lets developers use Claude Code, Cursor, or any MCP client to directly implement and edit designs in Figma without requiring a paid Dev Mode seat.
+  It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
 
-  _Finally, a way to make your AI assistant feel useful while it redraws your button for the twelfth time because it still doesn’t understand your design system._
+  _The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel._
 
-  `mcp` `figma` `design-to-code` `bidirectional` `codegen`
+  `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
 - **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 73` `updated ≤30d` A CLI that turns coding-agent sessions into reviewable, reversible Git artifacts by recording task intent, plans, approvals, verifications, and closure commits. <details><summary>More about</summary>
@@ -357,15 +384,6 @@ _These are new or low-traffic entries being watched._
   _You now have a cryptographically signed paper trail for every hallucinated refactor, which somehow makes the 4 a.m. agent spiral feel even more official._
 
   `cli` `audit` `git` `coding-agents` `workflow`
-  </details>
-
-- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 70` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
-
-  It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
-
-  _The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel._
-
-  `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
 - **[kasetto](https://github.com/pivoshenko/kasetto)** `⭐ 66` `updated ≤90d` A Rust-based CLI tool that manages and syncs declarative AI agent environments, skills, and MCP server configurations across multiple coding assistants from a single YAML file. <details><summary>More about</summary>
@@ -384,6 +402,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool to ensure your autonomous agent doesn't leak your entire GitHub organization's API keys to a hallucinating prompt in a single request._
 
   `security` `secrets-management` `oauth2` `headless` `agent-infra`
+  </details>
+
+- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 56` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
+
+  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
+
+  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
+
+  `cli` `bash` `account-switching` `codex` `macos`
   </details>
 
 - **[Untether](https://github.com/littlebearapps/untether)** `⭐ 56` `updated ≤30d` A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone. <details><summary>More about</summary>
@@ -431,22 +458,13 @@ _These are new or low-traffic entries being watched._
   `vscode` `code-explanation` `code-review` `move-language` `openai`
   </details>
 
-- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 42` `updated ≤30d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
+- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 42` `updated ≤90d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
 
   It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
 
   _We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about._
 
   `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
-  </details>
-
-- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 41` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
-
-  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
-
-  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
-
-  `cli` `bash` `account-switching` `codex` `macos`
   </details>
 
 - **[Armorer Guard](https://github.com/armorerlabs/armorer-guard)** `⭐ 40` `updated ≤30d` Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution. <details><summary>More about</summary>
@@ -503,6 +521,24 @@ _These are new or low-traffic entries being watched._
   `mcp` `data-catalog` `claude-code` `plugin`
   </details>
 
+- **[showagent](https://github.com/aytzey/showagent)** `⭐ 32` `updated ≤30d` A terminal UI for browsing, searching, and converting conversation sessions between different AI coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+
+  It solves the fragmentation of AI agent history by allowing developers to switch between different agents without losing the conversational context of a session.
+
+  _Because having your productivity trapped in a proprietary dot-directory was clearly the only thing missing from your workflow._
+
+  `tui` `cli` `session-manager` `ai-agents` `developer-tools`
+  </details>
+
+- **[a2a-langgraph](https://github.com/mifunedev/a2a-langgraph)** `⭐ 31` `updated >1y` A2A Protocol implementation built on LangGraph that exposes a currency conversion agent via the Agent-to-Agent protocol. <details><summary>More about</summary>
+
+  Provides a reference implementation for A2A protocol integration, enabling developers to build interoperable agents that can communicate and collaborate using standardized messaging.
+
+  _Yet another protocol wrapper that makes you wonder if we're building agents or just endless layers of abstraction on top of LangGraph._
+
+  `a2a` `langgraph` `agent-protocol`
+  </details>
+
 - **[Forge](https://github.com/lucasduys/forge)** `⭐ 31` `updated ≤90d` A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code via a five-phase autonomous loop with on-disk state recovery. <details><summary>More about</summary>
 
   It removes the developer from the fragile prompt-and-review loop by autonomously handling spec generation, task planning, TDD execution in git worktrees, and verification against acceptance criteria.
@@ -519,15 +555,6 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the era where we need cryptographic proof to determine which LLM is actually responsible for the bug in production._
 
   `provenance` `git` `governance` `sbom` `security`
-  </details>
-
-- **[a2a-langgraph](https://github.com/mifunedev/a2a-langgraph)** `⭐ 29` `updated >1y` A2A Protocol implementation built on LangGraph that exposes a currency conversion agent via the Agent-to-Agent protocol. <details><summary>More about</summary>
-
-  Provides a reference implementation for A2A protocol integration, enabling developers to build interoperable agents that can communicate and collaborate using standardized messaging.
-
-  _Yet another protocol wrapper that makes you wonder if we're building agents or just endless layers of abstraction on top of LangGraph._
-
-  `a2a` `langgraph` `agent-protocol`
   </details>
 
 - **[brood-box](https://github.com/stacklok/brood-box)** `⭐ 29` `updated ≤90d` A CLI tool that runs coding agents like Claude Code and Codex inside hardware-isolated microVMs, requiring explicit user review of file changes before they reach the workspace. <details><summary>More about</summary>
@@ -602,7 +629,7 @@ _These are new or low-traffic entries being watched._
   `guardrails` `mcp` `cost-optimization` `agent-governance` `cli`
   </details>
 
-- **[open-code-review](https://github.com/raye-deng/open-code-review)** `⭐ 21` `updated ≤90d` An open-source CI/CD CLI and MCP server that detects AI-specific code defects like hallucinated imports, stale APIs, and over-engineering patterns across six languages. <details><summary>More about</summary>
+- **[open-code-review](https://github.com/raye-deng/open-code-review)** `⭐ 21` `updated ≤180d` An open-source CI/CD CLI and MCP server that detects AI-specific code defects like hallucinated imports, stale APIs, and over-engineering patterns across six languages. <details><summary>More about</summary>
 
   It catches the class of bugs traditional linters miss when reviewing code generated by LLMs, providing a quality gate for AI-assisted workflows.
 
@@ -629,6 +656,15 @@ _These are new or low-traffic entries being watched._
   `git` `worktree` `cli` `devops` `ai-agent`
   </details>
 
+- **[Unship](https://github.com/mbenhard/unship)** `⭐ 16` `updated ≤90d` A local DOM picker for comparing temporary UI variants generated by AI coding agents in a running application. <details><summary>More about</summary>
+
+  It allows developers to visually select preferred UI directions in the browser, which the agent then implements by cleaning up the losing variants.
+
+  _Because staring at a terminal diff is a terrible way to decide if a hero section feels 'modern enough.'._
+
+  `ui` `coding-agents` `workflow` `prototyping` `cli`
+  </details>
+
 - **[bash](https://github.com/capsulerun/bash)** `⭐ 15` `updated ≤90d` A sandboxed bash execution environment for agents, provided via a TypeScript SDK and MCP server. <details><summary>More about</summary>
 
   It allows developers to grant AI agents safe, observable terminal access with Wasm-based isolation and structured filesystem diffs.
@@ -636,15 +672,6 @@ _These are new or low-traffic entries being watched._
   _Because providing an LLM with a shell is the ultimate test of whether your sandbox is actually a sandbox._
 
   `sandbox` `mcp` `typescript` `bash` `ai-agents`
-  </details>
-
-- **[Unship](https://github.com/mbenhard/unship)** `⭐ 15` `updated ≤90d` A local DOM picker for comparing temporary UI variants generated by AI coding agents in a running application. <details><summary>More about</summary>
-
-  It allows developers to visually select preferred UI directions in the browser, which the agent then implements by cleaning up the losing variants.
-
-  _Because staring at a terminal diff is a terrible way to decide if a hero section feels 'modern enough.'._
-
-  `ui` `coding-agents` `workflow` `prototyping` `cli`
   </details>
 
 - **[mureo](https://github.com/logly/mureo)** `⭐ 14` `updated ≤30d` A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs. <details><summary>More about</summary>
@@ -710,6 +737,15 @@ _These are new or low-traffic entries being watched._
   `sap` `playwright` `e2e-testing` `ai-agents` `ui5`
   </details>
 
+- **[agenticcrawler](https://github.com/mingye-lu/agenticcrawler)** `⭐ 9` `updated ≤30d` acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities. <details><summary>More about</summary>
+
+  It enables developers to automate complex browser tasks with full DevTools observability without needing Python, Node, or writing code.
+
+  _Finally, a tool that lets you pretend you’re not wrestling with Playwright while still wrestling with Playwright under the hood._
+
+  `web-crawler` `mcp` `browser-automation` `llm` `single-binary`
+  </details>
+
 - **[m-moire](https://github.com/sarveshsea/m-moire)** `⭐ 9` `updated ≤90d` A CLI, MCP server, and desktop toolkit that audits Tailwind and shadcn/ui apps, extracts design tokens, and exports shadcn-native registries so coding agents share the same design-system memory. <details><summary>More about</summary>
 
   It gives Codex, Claude Code, Cursor, and other agents a shared, auditable design context so AI-generated UI changes stay consistent instead of drifting into unstyled chaos.
@@ -717,15 +753,6 @@ _These are new or low-traffic entries being watched._
   _We have finally built infrastructure to make sure our agents agree on what a button looks like, while still pretending they know how to center a div._
 
   `design-ci` `shadcn` `tailwind` `mcp` `agent-skills`
-  </details>
-
-- **[agenticcrawler](https://github.com/mingye-lu/agenticcrawler)** `⭐ 8` `updated ≤30d` acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities. <details><summary>More about</summary>
-
-  It enables developers to automate complex browser tasks with full DevTools observability without needing Python, Node, or writing code.
-
-  _Finally, a tool that lets you pretend you’re not wrestling with Playwright while still wrestling with Playwright under the hood._
-
-  `web-crawler` `mcp` `browser-automation` `llm` `single-binary`
   </details>
 
 - **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 8` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
@@ -773,13 +800,22 @@ _These are new or low-traffic entries being watched._
   `claude-code` `statusline` `productivity` `tamagotchi` `cli`
   </details>
 
-- **[execkit](https://github.com/blinkingbit-oss/execkit)** `⭐ 6` `updated ≤30d` Stateful, structured, safe command execution for AI agents over local shells, SSH, and Docker. <details><summary>More about</summary>
+- **[execkit](https://github.com/blinkingbit-oss/execkit)** `⭐ 7` `updated ≤30d` Stateful, structured, safe command execution for AI agents over local shells, SSH, and Docker. <details><summary>More about</summary>
 
   Enables AI agents to run shell commands with policy enforcement, secret redaction, and persistent state—reducing risk in autonomous coding workflows.
 
   _Another layer of trust boundaries to configure before letting your AI agent loose on `rm -rf`._
 
   `command-execution` `ai-agents` `security` `mcp` `rust`
+  </details>
+
+- **[Terminai](https://github.com/emosenkis/terminai)** `⭐ 6` `updated ≤30d` A transparent terminal wrapper that provides an AI assistant overlay within your existing shell environment. <details><summary>More about</summary>
+
+  It provides a seamless way to access CLI agents like Claude Code through a secure, context-aware UI without leaving your terminal.
+
+  _Because apparently, having one AI in your terminal wasn't quite enough immersion for your workflow._
+
+  `terminal` `shell-wrapper` `mcp` `cli-agent` `productivity`
   </details>
 
 - **[tmuxlet](https://github.com/codefilabs/tmuxlet)** `⭐ 6` `updated ≤90d` A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface. <details><summary>More about</summary>
@@ -798,6 +834,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool that scores your vibe-coded app like a stressed-out senior engineer who just saw your PR._
 
   `code-audit` `cli` `mcp` `local-first`
+  </details>
+
+- **[iris-tui](https://github.com/itzenata/iris-tui)** `⭐ 5` `updated ≤30d` A terminal-based dashboard for monitoring and managing multiple active Claude Code sessions. <details><summary>More about</summary>
+
+  It provides a single pane of glass to track model usage, costs, and active tasks across multiple concurrent autonomous agent sessions.
+
+  _Nothing prepares you for the existential dread of watching your aggregate USD spend climb in real-time across a beautiful TUI._
+
+  `terminal` `tui` `claude-code` `observability` `agent-management`
   </details>
 
 - **[tarn](https://github.com/nazarkalytiuk/tarn)** `⭐ 5` `updated ≤90d` A CLI-first API testing tool that uses YAML-defined tests and structured JSON output for AI-assisted debugging workflows. <details><summary>More about</summary>
@@ -854,7 +899,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `macos` `file-management` `claude` `cursor`
   </details>
 
-- **[genable](https://github.com/musepy/genable)** `⭐ 1` `updated ≤90d` A prompt-to-UI generator that creates editable Figma layers, components, and variables via a plugin or MCP server. <details><summary>More about</summary>
+- **[genable](https://github.com/musepy/genable)** `⭐ 1` `updated ≤30d` A prompt-to-UI generator that creates editable Figma layers, components, and variables via a plugin or MCP server. <details><summary>More about</summary>
 
   It allows developers to use coding agents to generate structured, production-ready design assets directly in Figma.
 
@@ -906,6 +951,15 @@ _These are new or low-traffic entries being watched._
   _Now you can watch an AI trained on four billion screens fail your deterministic tests in ways that are mathematically impossible to hallucinate._
 
   `testing` `visual-ai` `qa` `e2e` `enterprise`
+  </details>
+
+- **[Bwee](https://bwee.app)** Bwee is a native macOS GUI that wraps Claude Code, letting developers persist sessions and build custom desktop tools and UIs by chatting. <details><summary>More about</summary>
+
+  It removes the friction of ephemeral terminal sessions by giving Claude Code a persistent, local-first desktop interface with custom UI panels for repeated tasks.
+
+  _You bought a CLI agent and now you need a separate native Mac app to give it a GUI so it can build you custom GUIs to talk to itself._
+
+  `claude-code` `macos-gui` `session-manager` `ui-builder` `agent-wrapper`
   </details>
 
 - **[Checkmarx](https://checkmarx.com)** Checkmarx One is an enterprise application security platform that uses agentic AI to scan, prioritize, and remediate vulnerabilities across SAST, SCA, IaC, and cloud environments directly within the developer's IDE. <details><summary>More about</summary>

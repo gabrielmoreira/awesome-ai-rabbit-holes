@@ -73,9 +73,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-06T05:30:40.557Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-16T05:05:29.528Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for muxinc/mux-node-sdk
     next_retry_at: null
   categorize:
     status: done

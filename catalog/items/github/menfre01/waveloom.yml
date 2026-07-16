@@ -1,0 +1,87 @@
+id: github__menfre01__waveloom
+kind: github-repo
+name: waveloom
+canonical_url: https://github.com/menfre01/waveloom
+identity:
+  github_repo: menfre01/waveloom
+provenance:
+  discoveries:
+    - id: discovery__github__menfre01__waveloom__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Waveloom
+        extracted_url: https://github.com/menfre01/waveloom
+        surrounding_text: "- **[Waveloom](https://github.com/Menfre01/waveloom)** `⭐ 38` — Go terminal-native coding agent with Bubble Tea TUI; DeepSeek V4 prompt caching for long-context efficiency; Claude Code-compatible UX with skill/MCP auto-discovery; four-tier context compaction, three subagent modes (Fork/Cold/Explore), permission engine, and plan mode. Single ~19 MB binary, zero runtime deps. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 41
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    created_at: "2026-06-24T07:16:26Z"
+    pushed_at: "2026-07-15T05:42:10Z"
+    description: 为 DeepSeek 前缀缓存定制的终端 Code Agent（纯 Go），缓存命中率 95-99%，输入成本降至 1/50。A terminal coding agent optimized for DeepSeek prefix caching — 95-99% cache hit, 1/50th the cost.
+    homepage: https://github.com/Menfre01/waveloom
+    topics:
+      - agent
+      - deepseek
+      - go
+      - terminal
+      - tui
+    last_checked_at: "2026-07-16T05:05:20.161Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:20.161Z"
+      bytes: 9811
+insights:
+  summary: A terminal-based coding agent built in Go that uses prefix caching to minimize DeepSeek token costs.
+  why_it_matters: It significantly reduces the cost and latency of long-context coding tasks by optimizing for DeepSeek's specific prefix-cache architecture.
+  mental_damage: Finally, an AI tool that helps you optimize the very economics of the expensive tokens you're burning.
+  tags:
+    - terminal-agent
+    - deepseek
+    - go
+    - cost-optimization
+    - tui
+  confidence: high
+curation:
+  status: included
+  reason: The tool is a standalone terminal-native coding assistant that directly plans and edits code, rather than just an extension for another tool.
+  evidence:
+    - Claims to be a 'terminal code agent' with a custom TUI
+    - Directly handles planning, file writes, and command execution
+    - Provides a complete alternative to Claude Code for DeepSeek users
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:20.161Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:19:59.323Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

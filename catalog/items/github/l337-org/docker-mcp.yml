@@ -1,0 +1,91 @@
+id: github__l337-org__docker-mcp
+kind: github-repo
+name: docker-mcp
+canonical_url: https://github.com/l337-org/docker-mcp
+identity:
+  github_repo: l337-org/docker-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__l337-org__docker-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: GavinLucas/docker-mcp
+        extracted_url: https://github.com/gavinlucas/docker-mcp
+        surrounding_text: "- [GavinLucas/docker-mcp](https://github.com/GavinLucas/docker-mcp) [![GavinLucas/docker-mcp MCP server](https://glama.ai/mcp/servers/GavinLucas/docker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GavinLucas/docker-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Manages one or more Docker daemons (local socket or remote over TCP/TLS/SSH) with 162 tools spanning containers, images, Compose, Swarm, Buildx, Scout, and OCI registries. Mark hosts as read-only for safe monitoring; logs and stats exposed as MCP resources."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-01T10:49:34Z"
+    pushed_at: "2026-07-15T22:58:39Z"
+    description: An MCP server that lets AI agents manage Docker
+    homepage: ""
+    topics:
+      - ai-agents
+      - docker
+      - docker-api
+      - docker-compose
+      - docker-swarm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-07-16T05:05:12.773Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:12.773Z"
+      bytes: 46543
+insights:
+  summary: An MCP server that enables AI agents to manage Docker containers, images, networks, volumes, and Swarm services.
+  why_it_matters: It allows AI coding assistants to interact directly with your container orchestration layer to troubleshoot crashes, monitor logs, and manage infrastructure.
+  mental_damage: Nothing says "true developer productivity" like giving an LLM the power to prune your production Docker Swarm services via a chat prompt.
+  tags:
+    - mcp
+    - docker
+    - ai-agents
+    - infrastructure
+    - devops
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server designed to provide specific domain capabilities (Docker) to MCP-compliant clients.
+  evidence:
+    - Repo description explicitly states it is 'An MCP server'
+    - README focuses on exposing Docker's command surface via MCP protocol
+    - Includes features like lazy tool loading and read-only modes for MCP clients
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:12.773Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:18:44.339Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

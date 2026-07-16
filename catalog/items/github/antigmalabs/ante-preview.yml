@@ -1,0 +1,88 @@
+id: github__antigmalabs__ante-preview
+kind: github-repo
+name: ante-preview
+canonical_url: https://github.com/antigmalabs/ante-preview
+identity:
+  github_repo: antigmalabs/ante-preview
+provenance:
+  discoveries:
+    - id: discovery__github__antigmalabs__ante-preview__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Ante
+        extracted_url: https://github.com/antigmalabs/ante-preview
+        surrounding_text: "- **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 562` `[Antigma Labs]` — Single ~15 MB Rust binary terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI, offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results. Core agent ships as a prebuilt binary."
+        confidence: high
+metadata:
+  github:
+    stars: 563
+    forks: 6
+    license: null
+    archived: false
+    created_at: "2025-12-23T23:42:44Z"
+    pushed_at: "2026-07-16T00:10:22Z"
+    description: "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. "
+    homepage: https://antigma.ai
+    topics:
+      - agent
+      - agentic-ai
+      - ai-agents
+      - artifical-life
+      - rust
+      - terminal
+    last_checked_at: "2026-07-16T05:04:48.634Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:48.634Z"
+      bytes: 14337
+insights:
+  summary: Ante is a self-contained terminal-native coding agent written in Rust that operates like Claude Code or Codex without vendor dependencies or model constraints, shipping as a single ~15MB binary.
+  why_it_matters: It gives developers a lightweight, offline-capable terminal agent with low resource overhead and zero vendor lock-in, benchmarked publicly against closed-source alternatives.
+  mental_damage: It is pitched as substrate for 'self-organizing intelligence' that you can run by the thousands locally, implying the solution to bloated AI agents is simply outnumbering them in your terminal.
+  tags:
+    - terminal-agent
+    - cli
+    - rust
+    - offline
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: It belongs because it is a standalone developer-facing terminal agent that directly edits code, runs tests, and benchmarks itself against Claude Code and Codex rather than acting as an extension or orchestration layer.
+  evidence:
+    - Repo description states it 'works like Claude Code or Codex' as a self-contained agent harness with no dependencies or model constraints.
+    - README demonstrates interactive TUI, headless CLI, and server modes for repo-level coding tasks alongside public Terminal-Bench 2.1 results.
+    - Listed in awesome-cli-coding-agents under Terminal-native coding agents, and the repo is unarchived with active push history and 563 stars.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (563) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:48.634Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:11:30.610Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

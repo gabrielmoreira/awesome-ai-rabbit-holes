@@ -1,0 +1,76 @@
+id: theagi__framer__website
+kind: website
+name: theagi.framer.website
+canonical_url: https://theagi.framer.website
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__theagi__framer__website__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MultiOn
+        anchor_text: MultiOn
+        extracted_url: https://multion.ai
+        surrounding_text: "## [MultiOn](https://multion.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AGI, Inc. provides an on-device agentic intelligence platform designed to act across mobile and desktop applications.
+  why_it_matters: It offers a pathway for developers to build proactive agents that interact with existing app ecosystems via screen reasoning rather than brittle APIs.
+  mental_damage: The promise of a proactive collaborator that 'lives on the device' means you'll never have to experience the peace of manually clicking a button again.
+  tags:
+    - on-device-ai
+    - mobile-agents
+    - action-ai
+    - agentic-workflows
+  confidence: medium
+curation:
+  status: included
+  reason: The product's core value is an agent that 'ees, reasons, and acts' on existing application interfaces, making it a computer-use agent.
+  evidence:
+    - Claims to 'hip a working agent in less than a day' by pointing it at existing apps
+    - Specializes in on-device action AI that reasons and acts on top of existing software
+    - Collaborates with Qualcomm to bring agentic intelligence to Snapdragon platforms
+placement:
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.716Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:20:34.086Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

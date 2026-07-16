@@ -1,0 +1,90 @@
+id: github__construct-worlds__construct
+kind: github-repo
+name: construct
+canonical_url: https://github.com/construct-worlds/construct
+identity:
+  github_repo: construct-worlds/construct
+provenance:
+  discoveries:
+    - id: discovery__github__construct-worlds__construct__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: construct
+        extracted_url: https://github.com/construct-worlds/construct
+        surrounding_text: "- **[construct](https://github.com/construct-worlds/construct)** `⭐ 3` — Terminal-native agentic development environment: fleet TUI for coding agent CLIs (Codex, Claude Code, Antigravity, Grok) with fork/merge, collaborative Program Markdown orchestration, generative widgets, agent-to-agent orchestration. Single Rust binary."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-16T19:12:47Z"
+    pushed_at: "2026-07-16T05:01:33Z"
+    description: A terminal-native ADE (agentic development environment).
+    homepage: https://github.com/construct-worlds/construct
+    topics:
+      - ade
+      - agent
+      - agentic-development-environment
+      - cmux
+      - coding-agent
+      - harness
+      - opensource-agents
+      - tmux
+    last_checked_at: "2026-07-16T05:04:50.460Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:50.460Z"
+      bytes: 9014
+insights:
+  summary: A terminal-native agentic development environment (ADE) that manages multiple agent sessions via a tmux-like interface.
+  why_it_matters: It provides a unified TUI and session management layer to coordinate and fork various CLI-based agents like Claude Code and OpenCode.
+  mental_damage: Now you can manage a fleet of autonomous agents in a terminal multiplexer, finally reaching peak terminal efficiency while your CPU begs for mercy.
+  tags:
+    - terminal-native
+    - agent-orchestration
+    - tui
+    - multi-agent
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as a control plane/runtime to coordinate multiple agent sessions (Codex, Claude Code, etc.) rather than acting as a single assistant.
+  evidence:
+    - README claims it is a 'tmux for agent fleets'
+    - Supports 'fork / merge' of agent sessions for parallel attempts
+    - Provides a daemon and client-server architecture for managing agent sessions
+placement:
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:50.460Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:14:18.640Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

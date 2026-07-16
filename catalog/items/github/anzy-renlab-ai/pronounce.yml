@@ -1,0 +1,102 @@
+id: github__anzy-renlab-ai__pronounce
+kind: github-repo
+name: pronounce
+canonical_url: https://github.com/anzy-renlab-ai/pronounce
+identity:
+  github_repo: anzy-renlab-ai/pronounce
+provenance:
+  discoveries:
+    - id: discovery__github__anzy-renlab-ai__pronounce__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎓 <a name="education"></a>Education
+        anchor_text: anzy-renlab-ai/pronounce
+        extracted_url: https://github.com/anzy-renlab-ai/pronounce
+        surrounding_text: "- [anzy-renlab-ai/pronounce](https://github.com/anzy-renlab-ai/pronounce) [![pronounce MCP server](https://glama.ai/mcp/servers/anzy-renlab-ai/pronounce/badges/score.svg)](https://glama.ai/mcp/servers/anzy-renlab-ai/pronounce) 🐍 🏠 🍎 🪟 🐧 - Community pronunciation dictionary for developer project / product / jargon names (kubectl, nginx, GIF, JSON, Pydantic, Knative, LaTeX — 1,848 entries). Each entry carries IPA, a General-American respelling, alternate readings where the pronunciation is contested, a source citation (creator interview / project FAQ / Wikipedia § Pronunciation), and a confidence level. Tools: `pronounce(word)`, `search_pronunciations(query)`, `list_pronunciations(category)`. Install: `uvx pronounce-mcp`. Live browse: <https://pronounce.renlab.ai>."
+        confidence: high
+metadata:
+  github:
+    stars: 29
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-05-16T04:56:52Z"
+    pushed_at: "2026-07-13T02:20:26Z"
+    description: 🔊 Pronounce developer jargon out loud. 1,650+ entries (kubectl, GIF, JSON, JWT, …), sourced with confidence levels. Bash CLI + VS Code extension + interactive quiz + voice search + MCP server + Claude Code skill.
+    homepage: https://pronounce.renlab.ai
+    topics:
+      - bash
+      - claude-code
+      - cli
+      - community-driven
+      - cursor
+      - developer-experience
+      - developer-tools
+      - dictionary
+      - ipa
+      - kubectl
+      - kubernetes
+      - macos
+      - mcp
+      - mcp-server
+      - open-source
+      - pronunciation
+      - pronunciation-dictionary
+      - speech-synthesis
+      - tts
+      - vscode-extension
+    last_checked_at: "2026-07-16T05:04:48.721Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:48.721Z"
+      bytes: 17959
+insights:
+  summary: A community-driven pronunciation dictionary for developer jargon, shipping as a Bash CLI, VS Code extension, web app, and MCP server with 1,848 entries.
+  why_it_matters: Settles debates on how to say terms like kubectl, GIF, and nginx with IPA transcriptions, audio, and cited sources.
+  mental_damage: The stack is now so deep we need an MCP server to correctly pronounce the names of the tools in the stack.
+  tags:
+    - developer-experience
+    - dictionary
+    - cli
+    - mcp-server
+    - pronunciation
+  confidence: high
+curation:
+  status: excluded
+  reason: Core identity is a general developer reference dictionary, not an AI coding tool, agent, or infrastructure product; the MCP server and Claude Code skill are secondary access channels rather than the product's substance.
+  evidence:
+    - README headline focuses on pronouncing jargon aloud for humans, not on AI-assisted development workflows.
+    - Product surfaces include browser UI, CLI, and VS Code extension, with MCP listed as one adapter among many.
+    - Source-list placement in awesome-mcp-servers under Education signals peripheral adapter status rather than core AI tooling identity.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:48.721Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:12:12.903Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

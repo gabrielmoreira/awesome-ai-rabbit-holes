@@ -1,0 +1,95 @@
+id: github__finch-xu__cc-router
+kind: github-repo
+name: cc-router
+canonical_url: https://github.com/finch-xu/cc-router
+identity:
+  github_repo: finch-xu/cc-router
+provenance:
+  discoveries:
+    - id: discovery__github__finch-xu__cc-router__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: cc-router
+        extracted_url: https://github.com/finch-xu/cc-router
+        surrounding_text: "- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 207` — Local Anthropic-Messages-API proxy that bundles multiple provider subscriptions and API quotas (DeepSeek, Qwen, Kimi, GLM, MiniMax, Claude — 18+ providers) into virtual opus/sonnet/haiku slots with failover and load balancing for Claude Code, Claude Desktop, OpenClaw, and OpenCode. No relation to claude-code-router. Rust, MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 207
+    forks: 16
+    license: MIT
+    archived: false
+    created_at: "2026-04-24T04:23:25Z"
+    pushed_at: "2026-07-14T13:44:14Z"
+    description: 把零散的 Token Plan、Coding Plan、大模型 API 额度聚合成一个虚拟 Plan，一键接入 Claude Code、Claude Desktop App、OpenClaw、OpenCode 等工具 —— 省钱！省 Token！完全本地运行！     Bundle your scattered Token Plan, Coding Plan, and LLM API quotas into a single virtual Plan, and plug it into Claude Code, Claude Desktop App, OpenClaw, OpenCode, and more.
+    homepage: https://ccrouter.app
+    topics:
+      - agentic-ai
+      - anthropic
+      - cc-switch
+      - claude-code
+      - coding-plan
+      - deepseek
+      - gateway
+      - glm5
+      - minimax
+      - openrouter
+      - qwen
+      - token-plan
+      - xiaomi-mimo
+    last_checked_at: "2026-07-16T05:05:01.848Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:01.848Z"
+      bytes: 14870
+insights:
+  summary: A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools.
+  why_it_matters: It allows developers to maximize the utility of multiple AI subscriptions by transparently routing requests from tools like Claude Code or Cursor to available token plans.
+  mental_damage: Because nothing says 'optimized developer workflow' like building a complex routing layer to arbitrage your own subscription quotas.
+  tags:
+    - llm-proxy
+    - token-management
+    - claude-code
+    - api-gateway
+    - ai-infrastructure
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as a middleware layer to augment existing assistants (Claude Code, Desktop, etc.) rather than being a standalone assistant.
+  evidence:
+    - README claims it bundles scattered Token/Coding Plans into a single virtual Plan.
+    - Functions as a proxy/gateway for tools like Claude Code and OpenCode.
+    - Provides local HTTPS and model aliasing to integrate with host applications.
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (207) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:01.848Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:15:54.599Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

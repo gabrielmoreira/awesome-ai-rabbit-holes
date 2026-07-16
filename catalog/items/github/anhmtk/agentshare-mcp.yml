@@ -1,0 +1,97 @@
+id: github__anhmtk__agentshare-mcp
+kind: github-repo
+name: agentshare-mcp
+canonical_url: https://github.com/anhmtk/agentshare-mcp
+identity:
+  github_repo: anhmtk/agentshare-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__anhmtk__agentshare-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🛒 <a name="e-commerce"></a>E-Commerce
+        anchor_text: anhmtk/agentshare-mcp
+        extracted_url: https://github.com/anhmtk/agentshare-mcp
+        surrounding_text: "- [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp) 📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX + DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-04-13T05:56:31Z"
+    pushed_at: "2026-07-15T16:15:51Z"
+    description: MCP server for AgentShare — DeFi-first Solana intelligence for AI agents (Meteora DLMM briefs, DEX scout). 11 tools via Streamable HTTP. Cursor, Claude Desktop, MCP clients. https://agentshare.dev
+    homepage: https://agentshare.dev
+    topics:
+      - agent-discovery
+      - agentshare
+      - ai-agents
+      - claude-desktop
+      - cursor
+      - defi
+      - defillama
+      - dex
+      - dlmm
+      - fastapi
+      - llm-tools
+      - mcp
+      - meteora
+      - model-context-protocol
+      - openapi
+      - solana
+      - x402
+    last_checked_at: "2026-07-16T05:04:48.663Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:48.663Z"
+      bytes: 8389
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:48.663Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-16T05:10:44.082Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__anhmtk__agentshare-mcp: ```json
+        {
+          "summary": "MCP server exposing 11 domain tools for AI agents, including Solana DeFi intelligence (Meteora DLMM briefs, DEX scouting) and e-commerce price comparison, via Streamable HTTP.",
+          "why_it_matters": "It lets developers plug live financial and commerce data directly into Cursor, Claude Desktop, and other MCP clients, turning generic assistants into specialized DeFi or procurement
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

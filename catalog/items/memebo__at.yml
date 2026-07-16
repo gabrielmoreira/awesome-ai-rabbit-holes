@@ -1,0 +1,76 @@
+id: memebo__at
+kind: website
+name: memebo.at
+canonical_url: https://memebo.at
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__memebo__at__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: memebo.at
+        extracted_url: https://memebo.at
+        surrounding_text: "- [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at). Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server at `https://memebo.at/mcp` or `npx -y memeboat-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A collection of Model Context Protocol (MCP) server implementations.
+  why_it_matters: Provides a directory of pre-built tools that allow AI assistants to interact with external APIs and data sources via the Model Context Protocol.
+  mental_damage: Another layer of abstraction to manage in your inevitable descent into agentic spaghetti.
+  tags:
+    - mcp
+    - tools
+    - integrations
+    - protocols
+  confidence: medium
+curation:
+  status: included
+  reason: The project is specifically a collection of MCP servers, making MCP the core product identity.
+  evidence:
+    - Appears in awesome-mcp-servers
+    - Purpose is a collection of MCP servers
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.716Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:20:20.599Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

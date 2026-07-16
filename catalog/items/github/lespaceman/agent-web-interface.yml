@@ -1,0 +1,92 @@
+id: github__lespaceman__agent-web-interface
+kind: github-repo
+name: agent-web-interface
+canonical_url: https://github.com/lespaceman/agent-web-interface
+identity:
+  github_repo: lespaceman/agent-web-interface
+provenance:
+  discoveries:
+    - id: discovery__github__lespaceman__agent-web-interface__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: lespaceman/agent-web-interface
+        extracted_url: https://github.com/lespaceman/agent-web-interface
+        surrounding_text: "- [lespaceman/agent-web-interface](https://github.com/lespaceman/agent-web-interface) [![lespaceman/agent-web-interface MCP server](https://glama.ai/mcp/servers/lespaceman/agent-web-interface/badges/score.svg)](https://glama.ai/mcp/servers/lespaceman/agent-web-interface) 📇 🏠 🍎 🪟 🐧 - Token-efficient browser automation for LLM agents: semantic page snapshots and stable element IDs instead of raw DOM or screenshots, driving Chrome over CDP."
+        confidence: high
+metadata:
+  github:
+    stars: 14
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2025-11-06T10:08:43Z"
+    pushed_at: "2026-07-11T22:47:28Z"
+    description: Token-efficient browser automation MCP for AI agents, with semantic page snapshots and stable element IDs.
+    homepage: https://agent-web-interface.com
+    topics:
+      - ai-agents
+      - browser-automation
+      - chromium
+      - claude
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - puppeteer
+      - web-automation
+    last_checked_at: "2026-07-16T05:05:13.210Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:13.210Z"
+      bytes: 30173
+insights:
+  summary: An MCP server that provides AI agents with semantic page snapshots and stable element IDs for reliable browser automation.
+  why_it_matters: It reduces token consumption and breakage by replacing brittle DOM/CSS selectors with a compact, semantic representation of the web for agents.
+  mental_damage: Finally, a way to make the browser feel less like a chaotic hallucination and more like a structured API for your agent.
+  tags:
+    - mcp
+    - browser-automation
+    - puppeteer
+    - ai-agents
+    - semantic-ui
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server designed to act as a semantic middleware layer between an agent and the browser.
+  evidence:
+    - Repo description explicitly calls it an 'MCP server for AI agents'
+    - README describes it as a 'emantic observation layer over Puppeteer and CDP'
+    - Provides a specialized 'eid' (stable element ID) abstraction for agent interaction
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:13.210Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:18:56.515Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

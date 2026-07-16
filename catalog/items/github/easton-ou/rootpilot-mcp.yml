@@ -1,0 +1,86 @@
+id: github__easton-ou__rootpilot-mcp
+kind: github-repo
+name: rootpilot-mcp
+canonical_url: https://github.com/easton-ou/rootpilot-mcp
+identity:
+  github_repo: easton-ou/rootpilot-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__easton-ou__rootpilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: Easton-OU/rootpilot-mcp
+        extracted_url: https://github.com/easton-ou/rootpilot-mcp
+        surrounding_text: "- [Easton-OU/rootpilot-mcp](https://github.com/Easton-OU/rootpilot-mcp) [![Easton-OU/rootpilot-mcp MCP server](https://glama.ai/mcp/servers/Easton-OU/rootpilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Easton-OU/rootpilot-mcp) 📇 🏠 🍎 🪟 🐧 - Safe, read-only SSH diagnostics for Linux/Docker servers: a fixed 38-command whitelist (no arbitrary execution), secret redaction, per-command timeouts. Collects evidence; your model does the reasoning. `npx @rootpilot/mcp-ssh-diagnose`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-07-11T20:17:54Z"
+    pushed_at: "2026-07-13T08:33:04Z"
+    description: MCP server for safe, read-only SSH diagnostics — bring your own LLM
+    homepage: https://rootpilotx.com
+    topics:
+      - devops
+      - docker
+      - mcp
+      - model-context-protocol
+      - ssh
+      - troubleshooting
+    last_checked_at: "2026-07-16T05:04:54.245Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:54.245Z"
+      bytes: 6105
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:54.245Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-16T05:15:20.466Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__easton-ou__rootpilot-mcp: ```json
+        {
+          "summary": "An MCP server for performing safe, read-only SSH diagnostics on remote Linux hosts using a whitelisted command set.",
+          "why_it_matters": "It transforms manual, repetitive troubleshooting tasks into a conversational diagnostic workflow between your LLM
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

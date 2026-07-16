@@ -1,0 +1,81 @@
+id: github__aidevelopers2__remoteopenclaw-mcp
+kind: github-repo
+name: remoteopenclaw-mcp
+canonical_url: https://github.com/aidevelopers2/remoteopenclaw-mcp
+identity:
+  github_repo: aidevelopers2/remoteopenclaw-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__aidevelopers2__remoteopenclaw-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: aidevelopers2/remoteopenclaw-mcp
+        extracted_url: https://github.com/aidevelopers2/remoteopenclaw-mcp
+        surrounding_text: "- [aidevelopers2/remoteopenclaw-mcp](https://github.com/aidevelopers2/remoteopenclaw-mcp) [![aidevelopers2/remoteopenclaw-mcp MCP server](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp) 📇 🏠 - MCP server and CLI to search the Remote OpenClaw directory of 13,870+ MCP servers, 4,384+ agent skills, and plugins. Returns names, links, and install commands. Install: `claude mcp add remoteopenclaw -- npx -y remoteopenclaw`. CLI: `npx remoteopenclaw search <query>`. Free, no API key."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-07-01T01:50:00Z"
+    pushed_at: "2026-07-02T11:15:01Z"
+    description: Search 13,870+ MCP servers, 4,384+ agent skills, and plugins from your terminal or AI agent. CLI + MCP server for remoteopenclaw.com
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-16T05:04:48.272Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:48.272Z"
+      bytes: 1752
+insights:
+  summary: An MCP server that lets AI agents search a directory of 13,870+ MCP servers, 4,384+ agent skills, and plugins from the terminal or editor.
+  why_it_matters: Developers can discover and install MCP servers without leaving their agent workflow, turning directory lookup into a conversational tool call that returns ranked results and install commands.
+  mental_damage: We have built an MCP server whose sole job is to help you find other MCP servers, which is either elegant recursion or a subtle admission that the protocol ecosystem is now too large for humans to browse.
+  tags:
+    - mcp
+    - discovery
+    - cli
+    - search
+  confidence: low
+curation:
+  status: included
+  reason: This is an MCP server built with the MCP TypeScript SDK; its entire product identity is MCP infrastructure for discovering other servers and skills, fitting squarely in MCP Servers & Tooling.
+  evidence:
+    - Built as an MCP server using the Model Context Protocol TypeScript SDK to expose search_mcp_servers, search_skills, and search_plugins tools.
+    - Listed in awesome-mcp-servers under Aggregators, confirming ecosystem relevance as MCP discovery infrastructure.
+    - Only 3 stars and very recent, but unarchived with active pushes and a clear, narrow developer-tooling purpose.
+placement:
+  primary_category: mcp
+  section: Registries & Discovery
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:48.272Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:09:12.545Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

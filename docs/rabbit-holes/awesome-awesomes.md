@@ -31,7 +31,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 36.2k` `updated ≤30d` A community-curated collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to extend and configure GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 36.6k` `updated ≤30d` A community-curated collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to extend and configure GitHub Copilot. <details><summary>More about</summary>
 
   It provides a centralized, navigable registry and machine-readable index for developers looking to customize Copilot with specialized workflows, MCP servers, and reusable skill packs.
 
@@ -40,7 +40,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `github-copilot` `skills` `awesome-list` `extensions` `mcp`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28.6k` `updated >1y` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28.8k` `updated ≤30d` A curated, categorized list of open-source and closed-source AI autonomous agents and assistants. <details><summary>More about</summary>
 
   It serves as a navigational map for developers trying to find the right agent framework or product in a rapidly expanding ecosystem.
 
@@ -67,7 +67,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `image-generation` `dataset` `gemini` `multimodal` `awesome-list`
   </details>
 
-- **[Awesome Production Machine Learning](https://github.com/ethicalml/awesome-production-machine-learning)** `⭐ 20.7k` `updated ≤30d` A curated list of open source libraries for deploying, monitoring, versioning, scaling, and securing production machine learning systems. <details><summary>More about</summary>
+- **[Awesome Production Machine Learning](https://github.com/ethicalml/awesome-production-machine-learning)** `⭐ 20.8k` `updated ≤30d` A curated list of open source libraries for deploying, monitoring, versioning, scaling, and securing production machine learning systems. <details><summary>More about</summary>
 
   It provides a structured map of the MLOps ecosystem, helping developers cut through the noise to find tools for model serving, feature stores, and evaluation.
 
@@ -148,6 +148,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llmops` `awesome-list` `mlops` `directory`
   </details>
 
+- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.7k` `updated ≤1y` A broad, community-curated awesome list covering generative AI tools across text, code, image, video, audio, and marketing categories. <details><summary>More about</summary>
+
+  It serves as a high-level map of the commercial AI tooling landscape, useful for developers trying to orient themselves among the thousands of shipped products.
+
+  _Another curated list promising to save you hours, provided you first spend several hours scrolling through it to confirm none of the links have silently turned into affiliate traps._
+
+  `awesome-list` `directory` `ai-tools`
+  </details>
+
 - **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.6k` `updated ≤180d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
 
   It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
@@ -155,15 +164,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
 
   `video-generation` `diffusion-models` `research` `awesome-list`
-  </details>
-
-- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.6k` `updated ≤1y` A broad, community-curated awesome list covering generative AI tools across text, code, image, video, audio, and marketing categories. <details><summary>More about</summary>
-
-  It serves as a high-level map of the commercial AI tooling landscape, useful for developers trying to orient themselves among the thousands of shipped products.
-
-  _Another curated list promising to save you hours, provided you first spend several hours scrolling through it to confirm none of the links have silently turned into affiliate traps._
-
-  `awesome-list` `directory` `ai-tools`
   </details>
 
 - **[awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤90d` A curated list of MLOps tools covering the full lifecycle of machine learning workflows, including AutoML, CI/CD, data management, model serving, and monitoring. <details><summary>More about</summary>
@@ -301,7 +301,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `language-agents` `research`
   </details>
 
-- **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated >1y` A curated list of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
+- **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated ≤30d` A curated list of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating the fragmented ecosystem of AI agent development tooling.
 
@@ -400,7 +400,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 195` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 205` `updated ≤30d` A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents. <details><summary>More about</summary>
 
   It acts as a central map for developers trying to shift from vibe-coding to disciplined, specification-first workflows that align AI agents with business requirements.
 

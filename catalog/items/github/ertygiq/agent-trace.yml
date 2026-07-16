@@ -1,0 +1,82 @@
+id: github__ertygiq__agent-trace
+kind: github-repo
+name: agent-trace
+canonical_url: https://github.com/ertygiq/agent-trace
+identity:
+  github_repo: ertygiq/agent-trace
+provenance:
+  discoveries:
+    - id: discovery__github__ertygiq__agent-trace__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: agent-trace
+        extracted_url: https://github.com/ertygiq/agent-trace
+        surrounding_text: "- **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 0` — Text-only CLI for extracting filtered transcripts from Claude Code, Codex, and Pi session files; useful for debugging, review, and piping transcripts into other tools. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-04T22:17:56Z"
+    pushed_at: "2026-06-22T12:52:08Z"
+    description: Universal CLI for filtering and printing agent session transcripts.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-16T05:04:57.449Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:57.449Z"
+      bytes: 2487
+insights:
+  summary: A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi.
+  why_it_matters: It allows developers to parse through dense agent logs to debug agent reasoning, command execution, and human-assistant interactions.
+  mental_damage: Finally, a way to stare directly into the chaotic stream of thought and bash commands that actually caused your production outage.
+  tags:
+    - cli
+    - debugging
+    - agent-observability
+    - terminal
+    - logs
+  confidence: medium
+curation:
+  status: included
+  reason: The tool's core function is inspecting, debugging, and evaluating agent session behavior through transcript filtering.
+  evidence:
+    - README explicitly states it is useful for 'inspecting agent runs, debugging what happened, and evaluating results'
+    - Functionality focuses on filtering event categories like thinking, bash commands, and messages
+    - Acts as a diagnostic layer for existing agentic harnesses
+placement:
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:57.449Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:15:34.745Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

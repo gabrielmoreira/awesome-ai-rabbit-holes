@@ -21,14 +21,30 @@ provenance:
         extracted_url: https://github.com/mendableai/firecrawl-mcp-server
         surrounding_text: "- **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with [Firecrawl](https://firecrawl.dev)"
         confidence: high
+    - id: discovery__github__firecrawl__firecrawl-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: firecrawl/firecrawl-mcp-server
+        extracted_url: https://github.com/firecrawl/firecrawl-mcp-server
+        surrounding_text: "- [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) [![firecrawl/firecrawl-mcp-server MCP server](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server) 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (`firecrawl_interact`) — navigate, click, type, and scroll on a page before extraction, for JS-heavy or auth-gated sites. Also scrape, crawl, map, search, and extract."
+        confidence: high
 metadata:
   github:
-    stars: 6845
-    forks: 799
+    stars: 6960
+    forks: 804
     license: MIT
     archived: false
     created_at: "2024-12-06T07:50:27Z"
-    pushed_at: "2026-07-04T05:51:00Z"
+    pushed_at: "2026-07-14T17:37:28Z"
     description: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.
     homepage: https://firecrawl.dev
     topics:
@@ -46,9 +62,9 @@ metadata:
       - search-api
       - web-crawler
       - web-scraping
-    last_checked_at: "2026-07-06T05:30:13.027Z"
+    last_checked_at: "2026-07-16T05:05:02.106Z"
     readme:
-      fetched_at: "2026-07-06T05:30:13.027Z"
+      fetched_at: "2026-07-16T05:05:02.106Z"
       bytes: 32922
 insights:
   summary: An official MCP server that integrates Firecrawl's web scraping, searching, and browser automation capabilities into LLM clients like Cursor, Claude, and VS Code.
@@ -77,12 +93,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: "2026-07-16T05:04:46.713Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-06T05:30:13.027Z"
+    updated_at: "2026-07-16T05:05:02.106Z"
     cause: null
     next_retry_at: null
   categorize:

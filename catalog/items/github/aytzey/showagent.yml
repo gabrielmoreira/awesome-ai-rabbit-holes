@@ -1,0 +1,98 @@
+id: github__aytzey__showagent
+kind: github-repo
+name: showagent
+canonical_url: https://github.com/aytzey/showagent
+identity:
+  github_repo: aytzey/showagent
+provenance:
+  discoveries:
+    - id: discovery__github__aytzey__showagent__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: showagent
+        extracted_url: https://github.com/aytzey/showagent
+        surrounding_text: "- **[showagent](https://github.com/aytzey/showagent)** `⭐ 30` — Bubble Tea TUI that unifies the local session stores of Claude Code, Codex, Gemini CLI, and OpenCode: fuzzy search grouped by workspace, resume via each agent's own CLI, branch local copies, and cross-agent transcript conversion into the target's native format. Scriptable (`list --json`), fully local, single Go binary. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 2
+    license: MIT
+    archived: false
+    created_at: "2026-06-22T07:18:43Z"
+    pushed_at: "2026-07-15T17:15:51Z"
+    description: "Every AI coding session on your machine, in one TUI: browse, search, resume, branch — and convert conversations between Codex, Claude Code and more."
+    homepage: ""
+    topics:
+      - ai-agents
+      - bubbletea
+      - claude-code
+      - cli
+      - codex
+      - developer-tools
+      - gemini-cli
+      - golang
+      - lipgloss
+      - mcp
+      - model-context-protocol
+      - opencode
+      - session-history
+      - session-manager
+      - terminal
+      - tui
+    last_checked_at: "2026-07-16T05:04:49.111Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:49.111Z"
+      bytes: 16324
+insights:
+  summary: A terminal UI for browsing, searching, and converting conversation sessions between different AI coding agents like Claude Code, Codex, and Gemini CLI.
+  why_it_matters: It solves the fragmentation of AI agent history by allowing developers to switch between different agents without losing the conversational context of a session.
+  mental_damage: Because having your productivity trapped in a proprietary dot-directory was clearly the only thing missing from your workflow.
+  tags:
+    - tui
+    - cli
+    - session-manager
+    - ai-agents
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as a management layer that augments existing agents with session portability and a unified UI rather than being a coding assistant itself.
+  evidence:
+    - README claims it 'combines browse + search + resume + branch + convert across agents'
+    - Provides session interoperability between Codex, Claude Code, and Gemini CLI
+    - Acts as a management TUI over existing agent local storage
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:49.111Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:13:04.272Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

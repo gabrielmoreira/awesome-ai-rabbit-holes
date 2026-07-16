@@ -1,0 +1,78 @@
+id: awesome__mcp__tools
+kind: website
+name: awesome-mcp.tools
+canonical_url: https://awesome-mcp.tools
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__awesome__mcp__tools__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: awesome-mcp.tools
+        extracted_url: https://awesome-mcp.tools
+        surrounding_text: "- [adw0rd/awesome-mcp-tools-mcp](https://github.com/adw0rd/awesome-mcp-tools-mcp) [![adw0rd/awesome-mcp-tools-mcp MCP server](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp/badges/score.svg)](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - CLI + stdio MCP bridge for the [awesome-mcp.tools](https://awesome-mcp.tools) catalog (2,000+ MCP servers, refreshed every 6h). Search from terminal (`npx awesome-mcp search postgres`) or wire the hosted server into Claude / Cursor / Codex / Cline / Windsurf. Endpoint: `https://awesome-mcp.tools/mcp` (Streamable HTTP, no auth). Zero deps, MIT."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A browsable directory of more than 3,000 MCP servers for Claude, Cursor, Codex, and Cline, with category search, side-by-side comparison, and one-click install commands.
+  why_it_matters: It saves developers from hunting through scattered repositories by centralizing discoverable, categorized MCP servers they can drop straight into their coding assistants.
+  mental_damage: You are now browsing a trending-now page for a protocol that was supposed to be the universal adapter, which is fine, except you need an adapter to find the adapters.
+  tags:
+    - mcp
+    - registry
+    - directory
+    - discovery
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: It is an operational MCP registry whose entire product identity is helping developers discover and compare MCP servers, fitting squarely in MCP infrastructure.
+  evidence:
+    - Scraped site describes it as an MCP server directory with 3,025+ servers, search, category filtering, comparison, and daily updates.
+    - Listed in awesome-mcp-servers as an aggregator under Aggregators, confirming its role as a discovery layer.
+    - It is not a static awesome list or generic AI directory; it is a functional registry for a developer-facing protocol.
+placement:
+  primary_category: mcp
+  section: Registries & Discovery
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:06:56.021Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,92 @@
+id: github__ahmedak__defluff
+kind: github-repo
+name: defluff
+canonical_url: https://github.com/ahmedak/defluff
+identity:
+  github_repo: ahmedak/defluff
+provenance:
+  discoveries:
+    - id: discovery__github__ahmedak__defluff__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ahmedak/defluff
+        extracted_url: https://github.com/ahmedak/defluff
+        surrounding_text: "- [ahmedak/defluff](https://github.com/ahmedak/defluff) [![ahmedak/defluff MCP server](https://glama.ai/mcp/servers/ahmedak/defluff/badges/score.svg)](https://glama.ai/mcp/servers/ahmedak/defluff) 🐍 🏠 🍎 🪟 🐧 - Deterministic slop detector for AI-generated prose. Flags filler phrases and clichés with zero false positives by design (curated phrase list, not a model), returns exact spans plus a pinnable 0-1 score, and runs offline with no API key. CLI + CI exit code + MCP server for agents to self-check their own output before it lands in a PR or doc. `pip install defluff`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-20T22:21:22Z"
+    pushed_at: "2026-06-28T18:27:42Z"
+    description: Deterministic slop detector for AI-generated prose. No model, no API key.
+    homepage: ""
+    topics:
+      - ai-detection
+      - anti-slop
+      - cli
+      - llm
+      - llm-tools
+      - mcp
+      - mcp-tools
+      - python
+      - slop
+      - text-quality
+    last_checked_at: "2026-07-16T05:04:48.242Z"
+    readme:
+      fetched_at: "2026-07-16T05:04:48.242Z"
+      bytes: 17617
+insights:
+  summary: Deterministic slop detector for AI-generated prose that flags filler phrases via a rule-based CLI and optional MCP server.
+  why_it_matters: Developers who gate AI-drafted docs and changelogs in CI get a repeatable, model-free score and exit code instead of vague 'this sounds AI' feedback.
+  mental_damage: Finally, a linter for the vague corporate adverbs your AI insists on sprinkling through every pull request description.
+  tags:
+    - slop-detector
+    - prose-linter
+    - cli
+    - mcp-compatible
+    - ci-gating
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a standalone prose linter for AI-generated text; none of the catalog's developer-centric categories for coding agents, extensions, evals, or MCP infrastructure fit cleanly, so it falls outside the current scope.
+  evidence:
+    - README frames the tool as a deterministic prose linter for changelogs and docs, not as a coding assistant, IDE, or eval framework.
+    - The MCP server is an integration feature for agents to self-check drafts; category rules require MCP to be the primary product identity, which it is not.
+    - Appears in awesome-mcp-servers as a server implementation, but source-list placement does not override standalone product identity.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:04:48.242Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:09:28.237Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

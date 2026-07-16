@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-06T05:30:40.848Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-16T05:05:29.912Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for mymedi-ai/mymedi-ai-mcp-server
     next_retry_at: null
   categorize:
     status: done

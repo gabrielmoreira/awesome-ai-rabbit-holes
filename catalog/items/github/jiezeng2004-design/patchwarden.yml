@@ -1,0 +1,96 @@
+id: github__jiezeng2004-design__patchwarden
+kind: github-repo
+name: patchwarden
+canonical_url: https://github.com/jiezeng2004-design/patchwarden
+identity:
+  github_repo: jiezeng2004-design/patchwarden
+provenance:
+  discoveries:
+    - id: discovery__github__jiezeng2004-design__patchwarden__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: jiezeng2004-design/PatchWarden
+        extracted_url: https://github.com/jiezeng2004-design/patchwarden
+        surrounding_text: "- [jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/PatchWarden) [![jiezeng2004-design/safe-bifrost MCP server](https://glama.ai/mcp/servers/jiezeng2004-design/safe-bifrost/badges/score.svg)](https://glama.ai/mcp/servers/jiezeng2004-design/safe-bifrost) 📇 🏠 🪟 - Local-first MCP safety and verification layer for AI coding agents with workspace confinement, command allowlists, scope-violation detection, and auditable task evidence. Install: `npx -y patchwarden@0.6.1`."
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-06-18T12:24:40Z"
+    pushed_at: "2026-07-14T00:08:05Z"
+    description: Secure local MCP bridge for ChatGPT and local agents with workspace-scoped tasks, safe summaries, audits, and Direct editing.
+    homepage: https://github.com/jiezeng2004-design/PatchWarden#readme
+    topics:
+      - ai-agents
+      - automation
+      - chatgpt
+      - github-copilot
+      - learn
+      - local-agents
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - opencode
+      - safe-summaries
+      - security
+      - typescript
+    last_checked_at: "2026-07-16T05:05:12.473Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:12.473Z"
+      bytes: 43139
+insights:
+  summary: A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting.
+  why_it_matters: It prevents AI agents from executing arbitrary shell commands or accessing sensitive files by enforcing a strict plan-verify-execute loop within a sandboxed workspace.
+  mental_damage: Because nothing says 'peace of mind' like adding a middleman to your agent's workflow just to make sure it doesn't delete your entire home directory.
+  tags:
+    - mcp
+    - ai-security
+    - coding-agents
+    - local-first
+    - verification
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core identity is a governance and verification layer that uses structured tasks to drive the execution loop between a model and a local agent.
+  evidence:
+    - README claims it is a 'afety and verification layer' using a 'plan -> task -> verify' workflow
+    - Explicitly prevents arbitrary shell execution in favor of restricted, allowlisted commands
+    - Focuses on auditable task evidence and scope-violation detection
+placement:
+  primary_category: spec-driven-development
+  section: Planning / Task Decomposition
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:12.473Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:17:40.534Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

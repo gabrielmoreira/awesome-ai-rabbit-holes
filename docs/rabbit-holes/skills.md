@@ -4,6 +4,15 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
+- **[skills](https://github.com/mattpocock/skills)** `⭐ 172.7k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
+
+  It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
+
+  _It allows you to replace the chaos of 'vibe coding' with the highly structured ritual of 'grilling your agent.'._
+
+  `agent-skills` `slash-commands` `workflows` `prompt-engineering`
+  </details>
+
 - **[skills](https://github.com/anthropics/skills)** `⭐ 159.5k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
@@ -13,16 +22,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `anthropic` `prompt-engineering` `reusable-skills`
   </details>
 
-- **[skills](https://github.com/mattpocock/skills)** `⭐ 157.8k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
-
-  It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
-
-  _It allows you to replace the chaos of 'vibe coding' with the highly structured ritual of 'grilling your agent.'._
-
-  `agent-skills` `slash-commands` `workflows` `prompt-engineering`
-  </details>
-
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 70k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 78.6k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -152,7 +152,7 @@ _These are new or low-traffic entries being watched._
   `biomedical` `agent-skills` `mcp` `life-sciences` `workflows`
   </details>
 
-- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 23` `updated ≤90d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
+- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 23` `updated ≤180d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
 
   It claims to automate model routing, chat-mode detection, and context hygiene to save roughly 47% on Manus credits without degrading output quality.
 
@@ -206,7 +206,7 @@ _These are new or low-traffic entries being watched._
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 4` `updated ≤90d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 4` `updated ≤180d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
 
   It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
 
@@ -224,6 +224,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `ide-rules` `prompt-files` `agent-runtimes` `doctrine`
   </details>
 
+- **[Relay](https://github.com/momobits/relay)** `⭐ 2` `updated ≤90d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
+
+  It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
+
+  _Another layer of structured markdown to manage the chaos of AI coding sessions, letting you proudly accumulate technical debt with a full audit trail._
+
+  `memory` `cli` `workflow` `multi-model` `skills`
+  </details>
+
 - **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤180d` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>
 
   It enables coding agents to persistently generate and edit shareable documents as part of automated workflows.
@@ -231,15 +240,6 @@ _These are new or low-traffic entries being watched._
   _Now your AI agent can write meeting notes you’ll never read — just like a real intern._
 
   `agent-skills` `google-docs` `memyard`
-  </details>
-
-- **[Relay](https://github.com/momobits/relay)** `⭐ 1` `updated ≤90d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
-
-  It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
-
-  _Another layer of structured markdown to manage the chaos of AI coding sessions, letting you proudly accumulate technical debt with a full audit trail._
-
-  `memory` `cli` `workflow` `multi-model` `skills`
   </details>
 
 - **[Agent Skill](https://agentskill.sh)** A marketplace and CLI for discovering and installing 107,000+ reusable skills targeting Claude Code, Cursor, Copilot, Windsurf, Zed, and over 20 other AI coding tools. <details><summary>More about</summary>

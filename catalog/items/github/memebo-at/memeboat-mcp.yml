@@ -1,0 +1,81 @@
+id: github__memebo-at__memeboat-mcp
+kind: github-repo
+name: memeboat-mcp
+canonical_url: https://github.com/memebo-at/memeboat-mcp
+identity:
+  github_repo: memebo-at/memeboat-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__memebo-at__memeboat-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: memebo-at/memeboat-mcp
+        extracted_url: https://github.com/memebo-at/memeboat-mcp
+        surrounding_text: "- [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at). Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server at `https://memebo.at/mcp` or `npx -y memeboat-mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    created_at: "2026-07-04T22:40:22Z"
+    pushed_at: "2026-07-06T20:25:20Z"
+    description: MCP server for Memeboat — search 25,000+ meme templates and create memes from any AI assistant. Free, no API key. https://memebo.at
+    homepage: null
+    topics: []
+    last_checked_at: "2026-07-16T05:05:19.821Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:19.821Z"
+      bytes: 3937
+insights:
+  summary: An MCP server that enables AI assistants to search a catalog of 25,000+ meme templates and generate shareable meme URLs.
+  why_it_matters: It provides a specialized tool for LLMs to bridge the gap between text-based reasoning and visual humor for social/internal communications.
+  mental_damage: Nothing says 'enior engineer' quite like prompting Claude to generate a Buzz Lightyear meme to explain a race condition.
+  tags:
+    - mcp
+    - memes
+    - ai-tools
+    - integration
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is an MCP server providing specialized capabilities to a host assistant.
+  evidence:
+    - README explicitly describes the project as an 'MCP server for Memeboat'
+    - Provides tools like `search_meme_templates` and `create_meme` via the Model Context Protocol
+    - Instructional focus is on connecting via Claude Desktop or Claude Code via MCP transport
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:19.821Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:20:10.629Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,82 @@
+id: github__langchain-ai__deepagents
+kind: github-repo
+name: deepagents
+canonical_url: https://github.com/langchain-ai/deepagents
+identity:
+  github_repo: langchain-ai/deepagents
+provenance:
+  discoveries:
+    - id: discovery__github__langchain-ai__deepagents__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Deep Agents Code
+        extracted_url: https://github.com/langchain-ai/deepagents
+        surrounding_text: "- **[Deep Agents Code](https://github.com/langchain-ai/deepagents)** `⭐ 26.2k` `[LangChain]` — LangChain's official terminal coding agent built on the Deep Agents SDK; interactive TUI, file ops, shell access, subagents, headless mode, and human-in-the-loop approvals with any tool-calling LLM. PyPI `deepagents-code`."
+        confidence: high
+metadata:
+  github:
+    stars: 26290
+    forks: 3684
+    license: MIT
+    archived: false
+    created_at: "2025-07-27T23:07:53Z"
+    pushed_at: "2026-07-16T04:23:14Z"
+    description: The batteries-included agent harness.
+    homepage: https://docs.langchain.com/deepagents
+    topics:
+      - ai
+      - deepagents
+      - langchain
+      - langgraph
+      - python
+      - typescript
+    last_checked_at: "2026-07-16T05:05:12.803Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:12.803Z"
+      bytes: 6980
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (26290) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:12.803Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-16T05:18:56.759Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__langchain-ai__deepagents: Internal Server Error"
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -1,0 +1,98 @@
+id: github__kansei-link__kansei-mcp-server
+kind: github-repo
+name: kansei-mcp-server
+canonical_url: https://github.com/kansei-link/kansei-mcp-server
+identity:
+  github_repo: kansei-link/kansei-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__kansei-link__kansei-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: kansei-link/kansei-mcp-server
+        extracted_url: https://github.com/kansei-link/kansei-mcp-server
+        surrounding_text: "- [kansei-link/kansei-mcp-server](https://github.com/kansei-link/kansei-mcp-server) [![kansei-link/kansei-mcp-server MCP server](https://glama.ai/mcp/servers/kansei-link/kansei-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/kansei-link/kansei-mcp-server) 📇 🏠 🍎 🪟 🐧 - Local-first MCP navigator with verified data on 11,000+ SaaS services, 200 workflow recipes, and 89-97% token savings vs web search."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    created_at: "2026-04-02T07:22:10Z"
+    pushed_at: "2026-07-16T04:04:07Z"
+    description: Local-first MCP navigator for AI agents. 11,000+ SaaS services, 200 workflow recipes, 89-97% token savings. Works with Claude Code, Cursor, Cline, Zed, Windsurf.
+    homepage: https://www.npmjs.com/package/@kansei-link/mcp-server
+    topics:
+      - aeo
+      - agent-tools
+      - ai-agent
+      - claude-code
+      - cursor
+      - developer-tools
+      - japan
+      - japanese-business
+      - japanese-saas
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - saas
+      - sqlite
+      - token-optimization
+    last_checked_at: "2026-07-16T05:05:12.752Z"
+    readme:
+      fetched_at: "2026-07-16T05:05:12.752Z"
+      bytes: 13515
+insights:
+  summary: A local-first MCP server providing cached SaaS documentation and workflow recipes to reduce token usage in AI agents.
+  why_it_matters: It reduces API research costs and token waste by providing pre-indexed context and error-resolution intelligence to agents like Claude Code and Cursor.
+  mental_damage: Because apparently, even our AI agents need a monthly 'Wrapped' report to tell them how much money they're wasting.
+  tags:
+    - mcp
+    - token-optimization
+    - saas-integration
+    - local-first
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product's identity is defined by its role as an MCP server providing context and intelligence to existing hosts.
+  evidence:
+    - Directly markets as an 'MCP navigator for AI agents'
+    - Works with Claude Code, Cursor, and Zed via MCP config
+    - Primary value is reducing token waste through cached context and collective intelligence
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.715Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-16T05:05:12.752Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:18:22.017Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,78 @@
+id: bwee__app
+kind: website
+name: bwee.app
+canonical_url: https://bwee.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__bwee__app__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Bwee
+        extracted_url: https://bwee.app
+        surrounding_text: "- **[Bwee](https://bwee.app)** — Desktop app for CLI coding agents where users build their own views (BYOUI) — custom tools and dashboards that live alongside the terminal. Persistent sessions and task management. macOS."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Bwee is a native macOS GUI that wraps Claude Code, letting developers persist sessions and build custom desktop tools and UIs by chatting.
+  why_it_matters: It removes the friction of ephemeral terminal sessions by giving Claude Code a persistent, local-first desktop interface with custom UI panels for repeated tasks.
+  mental_damage: You bought a CLI agent and now you need a separate native Mac app to give it a GUI so it can build you custom GUIs to talk to itself.
+  tags:
+    - claude-code
+    - macos-gui
+    - session-manager
+    - ui-builder
+    - agent-wrapper
+  confidence: high
+curation:
+  status: included
+  reason: It belongs because it is a developer-facing integration that augments Claude Code with native UI, session persistence, and custom tool-building, rather than acting as the primary coding assistant itself.
+  evidence:
+    - Landing page states 'Requires Claude Code' and its title is 'Claude Code GUI for Mac', framing it as a wrapper, not a standalone agent.
+    - Scraped description reads 'Wrap Claude Code in a native macOS app' and emphasizes session persistence and native UI building on top of the existing agent.
+    - Source list places it in 'Harnesses & orchestration > Session managers & parallel runners', confirming its identity as an augmenting layer rather than a primary assistant.
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.716Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:07:43.173Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

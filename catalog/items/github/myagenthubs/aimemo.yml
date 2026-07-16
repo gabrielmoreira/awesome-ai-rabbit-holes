@@ -77,9 +77,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-06T05:30:40.766Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-16T05:05:29.807Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for myagenthubs/aimemo
     next_retry_at: null
   categorize:
     status: done

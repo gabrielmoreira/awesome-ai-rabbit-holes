@@ -13,7 +13,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `prompt-to-code` `frontend` `screenshot` `ui-scaffolding`
   </details>
 
-- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 20.8k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
+- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 21k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
 
   It allows developers to build AI-powered apps locally using their own API keys, eliminating vendor lock-in and keeping code private on their own hardware.
 
@@ -76,7 +76,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `cli` `microservices` `multi-agent` `scaffolding` `jina`
   </details>
 
-- **[MemFree](https://github.com/memfreeme/memfree)** `⭐ 1.5k` `updated ≤1y` MemFree is a hybrid AI search engine and AI page generator that creates React + Tailwind + Shadcn UI pages from prompts, text, or images and searches across bookmarks, local files, and the web. <details><summary>More about</summary>
+- **[MemFree](https://github.com/memfreeme/memfree)** `⭐ 1.5k` `updated ≤30d` MemFree is a hybrid AI search engine and AI page generator that creates React + Tailwind + Shadcn UI pages from prompts, text, or images and searches across bookmarks, local files, and the web. <details><summary>More about</summary>
 
   It combines instant AI search across your personal knowledge base and the internet with one-click generation of production-ready UI pages, reducing the need to switch between multiple AI subscriptions and front-end scaffolding tools.
 
