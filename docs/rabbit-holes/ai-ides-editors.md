@@ -32,6 +32,15 @@ Development environments built around coding assistance.
   `spatial-ide` `canvas-ui` `ai-native` `productivity`
   </details>
 
+  - **[Nimbalyst](https://github.com/nimbalyst/nimbalyst)** `⭐ 1.0k` `updated ≤90d` Nimbalyst is the open-source visual workspace for building with Codex, Claude Code, and more, where you manage your agents, edit the work visually, and track tasks in one place. <details><summary>More about</summary>
+
+  It puts your coding agents, sessions, tasks, and files on one visual surface, so you can run agents, review their changes as red/green diffs, and edit markdown, mockups, and diagrams without switching tools. The goal is higher bandwidth and less context switching when you are working with more than one agent.
+
+  _Another day, another workspace promising to tame your sprawl of agents, because clearly the fix for too many terminals is one more window._
+
+  `visual-workspace` `agentic` `multi-agent` `desktop` `open-source`
+  </details>
+
 ## Incubating
 
 _These are new or low-traffic entries being watched._
