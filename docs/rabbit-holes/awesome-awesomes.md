@@ -94,7 +94,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `open-source` `licensing` `model-directory`
   </details>
 
-- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.7k` `updated ≤90d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/behisecc/awesome-claude-skills)** `⭐ 9.8k` `updated ≤90d` A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code. <details><summary>More about</summary>
 
   It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
 
@@ -202,7 +202,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `compilers` `tensor` `deep-learning` `research` `awesome-list`
   </details>
 
-- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤30d` A curated awesome list of projects and resources related to the Argo ecosystem, including Workflows, CD, Rollouts, and Events. <details><summary>More about</summary>
+- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤90d` A curated awesome list of projects and resources related to the Argo ecosystem, including Workflows, CD, Rollouts, and Events. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating Kubernetes-native CI/CD and MLOps tooling within the CNCF landscape.
 
@@ -328,7 +328,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 869` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
+- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 880` `updated ≤30d` A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content. <details><summary>More about</summary>
 
   It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
 
@@ -337,7 +337,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `resources` `awesome-list` `learning`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 771` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 835` `updated ≤30d` A curated directory of 80+ terminal-native AI coding agents and the harnesses that orchestrate them, covering open-source tools, platform agents, and agent infrastructure. <details><summary>More about</summary>
 
   It provides a single navigational map for developers trying to make sense of the exploding ecosystem of CLI-based coding assistants and their orchestration layers.
 
@@ -346,7 +346,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cli` `coding-agents` `directory` `terminal` `awesome-list`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 770` `updated ≤90d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 789` `updated ≤30d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
 
   It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
 
@@ -422,7 +422,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 141` `updated ≤180d` A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents. <details><summary>More about</summary>
 
   It serves as a broad discovery map for developers trying to navigate the exploding ecosystem of AI agents to find tools relevant to their workflow.
 
@@ -476,7 +476,7 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `agent-orchestration`
   </details>
 
-- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 6` `updated ≤90d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>
+- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 6` `updated ≤180d` A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions. <details><summary>More about</summary>
 
   It provides a machine-readable intelligence layer and 'Demand Radar' that lets developers and their agents quickly assess ecosystem quality without manually digging through GitHub stars and npm downloads.
 

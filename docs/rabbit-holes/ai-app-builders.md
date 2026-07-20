@@ -4,7 +4,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.2k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.4k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
 
   It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
 
@@ -22,7 +22,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `local-ai` `app-builder` `open-source` `nextjs` `privacy`
   </details>
 
-- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.3k` `updated ≤90d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
+- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.3k` `updated ≤180d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
 
   Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
 

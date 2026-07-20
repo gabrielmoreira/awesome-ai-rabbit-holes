@@ -86,11 +86,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-16T05:05:00.766Z"
+    status: deferred
+    updated_at: "2026-07-20T05:17:34.297Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: felipedaza7/swarm-tools"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for felipedaza7/swarm-tools
     next_retry_at: null
   categorize:
     status: done

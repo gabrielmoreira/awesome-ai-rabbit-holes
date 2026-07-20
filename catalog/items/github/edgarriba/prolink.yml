@@ -58,15 +58,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-16T05:04:54.539Z"
+    status: deferred
+    updated_at: "2026-07-20T05:17:33.952Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: edgarriba/prolink"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for edgarriba/prolink
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-16T05:05:31.749Z"
+    updated_at: "2026-07-20T05:17:35.690Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -1,0 +1,75 @@
+id: powerdrill__ai__es
+kind: website
+name: es
+canonical_url: https://powerdrill.ai/es
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__powerdrill__ai__es__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-20T05:16:45.680Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Powerdrill AI
+        anchor_text: Powerdrill AI
+        extracted_url: https://powerdrill.ai
+        surrounding_text: "## [Powerdrill AI](https://powerdrill.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Spanish-language landing page for Powerdrill Bloom, an AI data-analysis workspace with memory aimed at market research and business intelligence.
+  why_it_matters: It targets business analysts rather than software developers, centering on economic, financial, and healthcare data exploration instead of code or developer workflows.
+  mental_damage: Your agents now remember every spreadsheet you’ve ever opened, yet still can’t explain why your build is failing.
+  tags:
+    - data-analysis
+    - ai-workspace
+    - market-research
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a localized marketing page for a business data-analysis SaaS, not a developer-facing coding tool, agent, or infrastructure product; its core use cases are market research and business intelligence rather than software development.
+  evidence:
+    - Scraped page describes 'Powerdrill Bloom' as an AI data-analysis workspace with memory, highlighting Data Analysis and Market Research categories
+    - Featured capabilities include Economic Data Explorer, Financial Market Data, Healthcare Data Explorer, and Shipment Tracking—non-developer verticals
+    - No GitHub repository or developer-tooling identity; the URL is a localized subpage (/es) rather than a standalone developer product
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-20T05:16:45.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-07-20T05:21:16.674Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

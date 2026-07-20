@@ -88,9 +88,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-13T05:12:54.988Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T05:17:33.883Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dmae97/omk
     next_retry_at: null
   categorize:
     status: done

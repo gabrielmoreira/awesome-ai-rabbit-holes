@@ -55,18 +55,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:48.663Z"
       bytes: 8389
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server exposing DeFi and e-commerce intelligence tools for AI agents, including Meteora DLMM briefs, DEX scouting, and product price comparison via Streamable HTTP.
+  why_it_matters: It gives AI agents structured access to live Solana DeFi data and commerce APIs without custom integrations, plugging directly into Cursor, Claude Desktop, and other MCP clients.
+  mental_damage: Now your IDE assistant can analyze crypto liquidity pools and hunt for the cheapest online shopping deal in the same session, because the 'full-stack' title clearly needed more verticals.
+  tags:
+    - mcp
+    - defi
+    - solana
+    - cursor
+    - agent-tools
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a purpose-built MCP server whose entire identity is exposing DeFi and commerce tools over the Model Context Protocol; it belongs in MCP Servers & Tooling as a domain-specific server.
+  evidence:
+    - Repo description explicitly labels it an 'MCP server' with '11 tools via Streamable HTTP' for 'Cursor, Claude Desktop, MCP clients'.
+    - README catalogs 11 MCP tools including solana_dex_brief, meteora_brief, and search_products, centered on the MCP endpoint at /mcp.
+    - Listed in awesome-mcp-servers under Server Implementations, confirming its identity as MCP infrastructure.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -82,16 +90,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-16T05:10:44.082Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__anhmtk__agentshare-mcp: ```json
-        {
-          "summary": "MCP server exposing 11 domain tools for AI agents, including Solana DeFi intelligence (Meteora DLMM briefs, DEX scouting) and e-commerce price comparison, via Streamable HTTP.",
-          "why_it_matters": "It lets developers plug live financial and commerce data directly into Cursor, Claude Desktop, and other MCP clients, turning generic assistants into specialized DeFi or procurement
+    status: done
+    updated_at: "2026-07-20T05:18:16.265Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

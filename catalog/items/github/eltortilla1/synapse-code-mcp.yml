@@ -67,9 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-13T05:12:55.392Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T05:17:34.337Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for eltortilla1/synapse-code-mcp
     next_retry_at: null
   categorize:
     status: done

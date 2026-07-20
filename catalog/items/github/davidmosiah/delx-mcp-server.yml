@@ -47,20 +47,27 @@ metadata:
       - proof-of-agent-work
       - stdio
       - wearable-data
-    last_checked_at: "2026-07-13T05:12:54.615Z"
+    last_checked_at: "2026-07-20T05:17:30.239Z"
     readme:
-      fetched_at: "2026-07-13T05:12:54.615Z"
+      fetched_at: "2026-07-20T05:17:30.239Z"
       bytes: 6240
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Zero-star MCP stdio bridge that connects Claude Desktop, Cursor, and similar clients to Delx Protocol’s hosted endpoint, exposing 143 tools for agent therapy, witness transfer, and proof-of-agent-work.
+  why_it_matters: It normalizes access to a niche agent-infrastructure protocol inside standard MCP clients, though its tool surface is aimed at agent lifecycle and reputation rather than everyday software development.
+  mental_damage: Running --doctor to verify your IDE can reach start_therapy_session and active_forgetting makes you wonder if the real outage is in the agent, or in you for installing it.
+  tags:
+    - mcp-server
+    - stdio-bridge
+    - delx-protocol
+    - agent-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Stays out because it is a brand-new, zero-star transport wrapper around a highly domain-specific protocol whose tools (e.g., start_therapy_session, attune_heartbeat, proof-of-agent-work) sit outside the catalog’s scope of practical software-development tooling.
+  evidence:
+    - README lists exposed tools such as start_therapy_session, reflect, refine_soul_document, and attune_heartbeat under categories like witness, continuity, and recovery, signaling a wellness/reputation protocol rather than dev infrastructure.
+    - Zero stars and created/pushed dates in 2026 show no community traction or established use.
+    - The entire package is a thin stdio-to-HTTP bridge around mcp-remote with no backend logic, acting as a shim to a non-developer service.
 placement:
   primary_category: null
   section: null
@@ -75,20 +82,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:54.615Z"
+    updated_at: "2026-07-20T05:17:30.239Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-16T05:06:54.989Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__davidmosiah__delx-mcp-server: ```json
-        {
-          "summary": "A thin stdio-to-HTTP MCP bridge that exposes the Delx Protocol's hosted agent tools to Claude Desktop, Cursor, and Gemini CLI.",
-          "why_it_matters": "Provides one-line
+    status: done
+    updated_at: "2026-07-20T05:19:36.345Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

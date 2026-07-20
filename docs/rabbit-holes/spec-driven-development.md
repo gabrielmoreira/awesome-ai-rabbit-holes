@@ -22,7 +22,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `planning` `context-engineering` `ai-workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 50.3k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 50.8k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
 
   It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
 
@@ -31,7 +31,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `ai-agents` `agile` `workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 22.9k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.1k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
 
   It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
 
@@ -103,6 +103,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 436` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+
+  It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
+
+  _Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo._
+
+  `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
+  </details>
+
 - **[mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)** `⭐ 432` `updated ≤1y` An MCP server that provides structured prompts to guide developers through a spec-driven workflow of generating EARS-format requirements, design documents, and implementation code. <details><summary>More about</summary>
 
   It offers a structured alternative to vibe coding by enforcing a requirements-to-design-to-code pipeline directly within MCP-compatible editors and agents.
@@ -110,15 +119,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   _We have successfully abstracted the job of writing code into writing specifications for an AI to write code, which we will then pretend we engineered._
 
   `mcp` `spec-driven` `requirements` `workflow`
-  </details>
-
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 423` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
-
-  It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
-
-  _Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo._
-
-  `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
   </details>
 
 - **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 374` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
@@ -139,7 +139,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 272` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 273` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
 
   It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
 
@@ -148,7 +148,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `mcp` `context`
   </details>
 
-- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 272` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
+- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 273` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
 
   It turns scattered planning artifacts into structured, AI-readable specs that any assistant can consume via MCP or CLI, letting teams keep existing backends while enforcing a spec-first loop.
 
@@ -233,7 +233,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `contracts` `context-engineering` `mcp`
   </details>
 
-- **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤30d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
+- **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
 
   It enforces a structured spec-first workflow by turning vague project ideas into validated, copy-pasteable implementation plans with built-in progress tracking.
 

@@ -4,7 +4,7 @@ Development environments built around coding assistance.
 
 ## Tools & Resources
 
-- **[code server](https://github.com/coder/code-server)** `⭐ 78.3k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
+- **[code server](https://github.com/coder/code-server)** `⭐ 78.4k` `updated ≤30d` Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints. <details><summary>More about</summary>
 
   It allows developers to use a familiar IDE environment from any device with a browser, enabling consistent remote development workflows.
 
@@ -22,7 +22,7 @@ Development environments built around coding assistance.
   `ide` `agentic` `spec-driven` `cli` `aws`
   </details>
 
-- **[Cate](https://github.com/0-ai-ug/cate)** `⭐ 1.8k` `updated ≤30d` An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace. <details><summary>More about</summary>
+- **[Cate](https://github.com/0-ai-ug/cate)** `⭐ 1.9k` `updated ≤30d` An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace. <details><summary>More about</summary>
 
   It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out complex multi-tool workflows visually.
 

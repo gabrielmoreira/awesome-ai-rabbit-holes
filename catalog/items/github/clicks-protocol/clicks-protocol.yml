@@ -29,10 +29,11 @@ metadata:
     license: MIT
     archived: false
     created_at: "2026-03-25T21:15:52Z"
-    pushed_at: "2026-04-25T16:52:46Z"
-    description: Autonomous yield for AI agents on Base. 80% liquid, 20% earning. No lockup. One SDK call.
+    pushed_at: "2026-07-14T09:53:48Z"
+    description: Agent commerce settlement router for AI agents on Base. Split USDC into liquid working capital and routed yield.
     homepage: https://clicksprotocol.xyz
     topics:
+      - agent-commerce
       - ai-agents
       - autonomous-agents
       - base
@@ -40,15 +41,18 @@ metadata:
       - ethereum
       - mcp
       - sdk
+      - settlement-router
       - solidity
+      - treasury
       - typescript
       - usdc
+      - working-capital
       - x402
       - yield
-    last_checked_at: "2026-07-09T05:29:31.830Z"
+    last_checked_at: "2026-07-20T05:17:21.841Z"
     readme:
-      fetched_at: "2026-07-09T05:29:31.830Z"
-      bytes: 10601
+      fetched_at: "2026-07-20T05:17:21.841Z"
+      bytes: 11141
 insights:
   summary: An SDK and MCP server that lets AI agents automatically split incoming USDC payments on Base into liquid funds and DeFi yield via Aave or Morpho.
   why_it_matters: Developers building agentic payment flows can add autonomous yield generation to idle agent treasuries with a single SDK call or MCP tool invocation.
@@ -81,7 +85,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-09T05:29:31.830Z"
+    updated_at: "2026-07-20T05:17:21.841Z"
     cause: null
     next_retry_at: null
   categorize:

@@ -13,7 +13,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 159.5k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
+- **[skills](https://github.com/anthropics/skills)** `⭐ 162.8k` `updated ≤30d` A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks. <details><summary>More about</summary>
 
   It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
 
@@ -31,7 +31,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 67.2k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 68.1k` `updated ≤90d` A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents. <details><summary>More about</summary>
 
   It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
 
@@ -40,7 +40,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `skills` `claude` `agent-workflows` `directory` `cursor`
   </details>
 
-- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 48.5k` `updated ≤90d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
+- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 48.5k` `updated ≤180d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
 
   It helps developers discover reusable automation skills for the OpenClaw local AI assistant, reducing time spent searching for functional extensions.
 
@@ -143,7 +143,7 @@ _These are new or low-traffic entries being watched._
   `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
   </details>
 
-- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 30` `updated ≤30d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
+- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 30` `updated ≤90d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
 
   It provides reusable, domain-specific agent skills and operational patterns that developers can adapt to build life-science AI applications rather than starting from scratch.
 
@@ -161,7 +161,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 15` `updated ≤90d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
+- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 17` `updated ≤90d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
 
   Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
 
@@ -197,6 +197,15 @@ _These are new or low-traffic entries being watched._
   `crypto` `web3` `mcp` `agent-skills` `blockchain`
   </details>
 
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 5` `updated ≤180d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
+
+  It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
+
+  _You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants._
+
+  `session-logging` `rules` `multi-agent` `osop` `integrations`
+  </details>
+
 - **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 5` `updated ≤90d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
 
   It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
@@ -204,15 +213,6 @@ _These are new or low-traffic entries being watched._
   _We’ve reached the point where agents need their own onboarding packs just to survive a Kubernetes cluster without waking someone up at 3 AM._
 
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
-  </details>
-
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 4` `updated ≤180d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
-
-  It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
-
-  _You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants._
-
-  `session-logging` `rules` `multi-agent` `osop` `integrations`
   </details>
 
 - **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 3` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>

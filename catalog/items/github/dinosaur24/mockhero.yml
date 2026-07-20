@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-09T05:29:45.768Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T05:17:33.601Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dinosaur24/mockhero
     next_retry_at: null
   categorize:
     status: done

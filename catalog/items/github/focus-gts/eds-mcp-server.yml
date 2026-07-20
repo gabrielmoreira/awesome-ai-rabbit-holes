@@ -77,11 +77,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-16T05:05:03.322Z"
+    status: deferred
+    updated_at: "2026-07-20T05:17:34.634Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: focus-gts/eds-mcp-server"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for focus-gts/eds-mcp-server
     next_retry_at: null
   categorize:
     status: done

@@ -31,7 +31,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 20.4k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 20.7k` `updated ≤30d` Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards. <details><summary>More about</summary>
 
   It gives developers the observability and evaluation tooling needed to measure prompt quality, trace agent behavior, and ship more reliable LLM-powered features.
 
@@ -40,7 +40,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evals` `tracing` `llmops` `monitoring`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 16.7k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17k` `updated ≤30d` DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion. <details><summary>More about</summary>
 
   It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
 
@@ -49,7 +49,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `testing` `python` `metrics` `agents`
   </details>
 
-- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.6k` `updated ≤90d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
+- **[Easy Dataset (`🔥`)](https://github.com/conardli/easy-dataset)** `⭐ 14.7k` `updated ≤90d` A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation. <details><summary>More about</summary>
 
   It provides a visual workflow to generate QA pairs, manage label trees, and run automated evaluations, streamlining the data preparation phase of model customization.
 
@@ -94,7 +94,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `gateway` `observability` `evals` `rust`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.5k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.6k` `updated ≤30d` Arize Phoenix is an open-source platform for LLM observability, tracing, and evaluation, used to instrument, experiment with, and optimize AI applications. <details><summary>More about</summary>
 
   It gives developers a single local or hosted surface to trace agent behavior, run evaluations, and catch regressions before shipping fragile AI features.
 
@@ -130,7 +130,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `llmops` `opentelemetry` `python` `tracing`
   </details>
 
-- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7k` `updated ≤90d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
+- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7k` `updated ≤180d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
 
   It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
 
@@ -346,13 +346,22 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
   </details>
 
-- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 876` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
+- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 877` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
 
   It lets developers move beyond prompt-tweaking by programmatically generating diverse, schema-validated datasets to train and evaluate agents with tool-calling and reasoning capabilities.
 
   _Because the only thing more comforting than hallucinating code is training a model to hallucinate code with scientific precision._
 
   `synthetic-data` `fine-tuning` `evals` `agents` `cli`
+  </details>
+
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 735` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
+
+  It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
+
+  _Yet another framework promising to solve the 'is my agent actually good' problem, slotting neatly between your fine-tuning pipeline and the existential dread of evaluating subjective quality at scale._
+
+  `evaluation` `reward-modeling` `fine-tuning` `llm-graders` `agent-quality`
   </details>
 
 - **[dingo](https://github.com/migoxlab/dingo)** `⭐ 727` `updated ≤30d` Dingo is a Python-based platform for evaluating AI data quality, model performance, and application behavior, offering built-in rules, LLM-as-a-judge metrics, and hallucination detection. <details><summary>More about</summary>
@@ -362,15 +371,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Just when you thought the stack was complete, you now need a dedicated evaluator to confirm that your evaluator isn't hallucinating the evaluation metrics._
 
   `evals` `data-quality` `llm-eval` `rag-eval`
-  </details>
-
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 718` `updated ≤30d` OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization. <details><summary>More about</summary>
-
-  It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
-
-  _Yet another framework promising to solve the 'is my agent actually good' problem, slotting neatly between your fine-tuning pipeline and the existential dread of evaluating subjective quality at scale._
-
-  `evaluation` `reward-modeling` `fine-tuning` `llm-graders` `agent-quality`
   </details>
 
 - **[Evalchemy](https://github.com/mlfoundations/evalchemy)** `⭐ 600` `updated ≤180d` A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models. <details><summary>More about</summary>
@@ -400,7 +400,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `huggingface` `cli`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 377` `updated ≤180d` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 379` `updated ≤1y` A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models. <details><summary>More about</summary>
 
   Developers running local models can quickly understand their hardware's actual inference performance before integrating them into workflows.
 
@@ -463,7 +463,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `model-comparison` `local-eval` `neurips`
   </details>
 
-- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 246` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
+- **[MedEvalKit](https://github.com/alibaba-damo-academy/medevalkit)** `⭐ 247` `updated ≤180d` MedEvalKit is a unified evaluation framework for benchmarking large medical language and multimodal models against a curated set of healthcare datasets and benchmarks. <details><summary>More about</summary>
 
   It provides developers building medical AI applications with a standardized, ready-to-run harness to measure model performance across text and multimodal medical benchmarks.
 
